@@ -37,11 +37,12 @@ class ScriptRequest(BaseModel):
 
 templates = Jinja2Templates(directory="template")
 app = FastAPI()
-#app.mount("/static", StaticFiles(directory="static"), name="static")
 
 origins = [
     "http://localhost",
-    "http://localhost:8000" "http://localhost:8080",
+    "http://localhost:8000",
+    "http://localhost:8080",
+    "https://parkervg.github.io",
 ]
 
 app.add_middleware(
