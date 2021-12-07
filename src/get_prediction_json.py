@@ -3,6 +3,7 @@ import torch
 from nltk import word_tokenize
 from typing import Dict, Tuple
 from utils import _featurize
+import numpy as np
 
 DEVICE = torch.device("cpu")
 
