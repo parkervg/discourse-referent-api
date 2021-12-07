@@ -1,0 +1,196 @@
+#id=1
+#text=Every year we celebrate Arbor Day . 
+1-1	Every	O	O	DT	O
+1-2	year	1-4_tmod	celebrate	NN	P1_NPart_year
+1-3	we	1-4_nsubj	celebrate	PRP	P1_gardener
+1-4	celebrate	O	O	VBP	O
+1-5	Arbor	O	O	NNP	O
+1-6	Day	1-4_tmod	celebrate	NNP	P1_NPart_day
+1-7	.	O	O	O	O
+
+#id=2
+#text=Last year we we decided to celebrate the holiday by planing a tree . 
+2-1	Last	O	O	JJ	O
+2-2	year	2-5_tmod	decided	NN	P2_NPart_year
+2-3	we	2-5_nsubj	decided	PRP	P1_gardener
+2-4	we	O	O	PRP	O
+2-5	decided	O	O	VBD	O
+2-6	to	2-7_aux	celebrate	TO	O
+2-7	celebrate	2-5_xcomp	decided	VB	O
+2-8	the	O	O	DT	O
+2-9	holiday	2-7_dobj	celebrate	NN	P1_NPart_holiday
+2-10	by	O	O	O	O
+2-11	planing	2-7_prepc_by	celebrate	VBG	O
+2-12	a	O	O	DT	O
+2-13	tree	2-11_dobj	planing	NN	P1_tree
+2-14	.	O	O	O	O
+
+#id=3
+#text=We went to the local plant nursery . 
+3-1	We	3-2_nsubj	went	PRP	P1_gardener
+3-2	went	O	O	VBD	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	local	O	O	JJ	O
+3-6	plant	O	O	NN	O
+3-7	nursery	3-2_prep_to	went	NN	P1_shop
+3-8	.	O	O	O	O
+
+#id=4
+#text=We talked to the employees to find out which trees grow well in our area and in the type of soil we have . 
+4-1	We	4-2_nsubj	talked	PRP	P1_gardener
+4-2	talked	O	O	VBD	O
+4-3	to	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	employees	4-2_prep_to	talked	NNS	P1_staff
+4-6	to	4-7_aux	find	TO	O
+4-7	find	4-2_xcomp	talked	VB	O
+4-8	out	4-7_prt	find	RP	O
+4-9	which	4-11_dobj	grow	WDT	O
+4-10	trees	4-11_nsubj	grow	NNS	P1_tree
+4-11	grow	4-7_ccomp	find	VBP	O
+4-12	well	4-11_advmod	grow	RB	O
+4-13	in	O	O	O	O
+4-14	our	O	O	PRP$	P1_NPart_our
+4-15	area	4-11_prep_in	grow	NN	P1_NPart_area
+4-16	and	O	O	O	O
+4-17	in	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	type	4-23_prep_in	have	NN	P1_NPart_type
+4-20	of	O	O	O	O
+4-21	soil	O	O	NN	P1_dirt
+4-22	we	4-23_nsubj	have	PRP	P1_gardener
+4-23	have	4-2_conj_and	talked	VBP	O
+4-24	.	O	O	O	O
+
+#id=5
+#text=We chose a small maple seedling . 
+5-1	We	5-2_nsubj	chose	PRP	P1_gardener
+5-2	chose	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	small	O	O	JJ	O
+5-5	maple	O	O	NN	O
+5-6	seedling	5-2_dobj	chose	NN	P1_tree
+5-7	.	O	O	O	O
+
+#id=6
+#text=When we got home , we chose an area of our yard with lots of sun . 
+6-1	When	6-3_advmod	got	WRB	O
+6-2	we	6-3_nsubj	got	PRP	P1_gardener
+6-3	got	6-7_advcl	chose	VBD	O
+6-4	home	6-3_dobj	got	NN	P1_NPart_home
+6-5	,	O	O	O	O
+6-6	we	6-7_nsubj	chose	PRP	P1_gardener
+6-7	chose	O	O	VBD	O
+6-8	an	O	O	DT	O
+6-9	area	6-7_dobj	chose	NN	P1_location_garden
+6-10	of	O	O	O	O
+6-11	our	O	O	PRP$	P1_gardener
+6-12	yard	O	O	NN	P1_NPart_yard
+6-13	with	O	O	O	O
+6-14	lots	6-7_prep_with	chose	NNS	O
+6-15	of	O	O	O	O
+6-16	sun	O	O	NN	P1_NPart_sun
+6-17	.	O	O	O	O
+
+#id=7
+#text=We dug a hole just a little bigger than the roots of our seedling . 
+7-1	We	7-2_nsubj	dug	PRP	P1_gardener
+7-2	dug	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	hole	7-2_dobj	dug	NN	P1_hole
+7-5	just	7-2_prep	dug	RB	O
+7-6	a	O	O	DT	O
+7-7	little	O	O	RB	O
+7-8	bigger	O	O	JJR	O
+7-9	than	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	roots	7-2_prep_than	dug	NNS	P1_root
+7-12	of	O	O	O	O
+7-13	our	O	O	PRP$	P1_gardener
+7-14	seedling	O	O	NN	P1_tree
+7-15	.	O	O	O	O
+
+#id=8
+#text=We put the seedling in the hole in the ground very carefully , then covered the roots with dirt . 
+8-1	We	8-2_nsubj	put	PRP	P1_gardener
+8-2	put	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	seedling	8-2_dobj	put	NN	P1_tree
+8-5	in	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	hole	O	O	NN	P1_hole
+8-8	in	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	ground	8-2_prep_in	put	NN	P1_NPart_ground
+8-11	very	O	O	RB	O
+8-12	carefully	8-2_advmod	put	RB	O
+8-13	,	O	O	O	O
+8-14	then	8-15_advmod	covered	RB	O
+8-15	covered	8-2_dep	put	VBD	O
+8-16	the	O	O	DT	O
+8-17	roots	8-15_dobj	covered	NNS	P1_root
+8-18	with	O	O	O	O
+8-19	dirt	8-15_prep_with	covered	NN	P1_dirt
+8-20	.	O	O	O	O
+
+#id=9
+#text=We patted the dirt down really good to make sure the little tree seedling would be stable in the ground when it was windy . 
+9-1	We	9-2_nsubj	patted	PRP	P1_gardener
+9-2	patted	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	dirt	9-2_dobj	patted	NN	P1_dirt
+9-5	down	O	O	RB	O
+9-6	really	O	O	RB	O
+9-7	good	O	O	JJ	O
+9-8	to	9-9_aux	make	TO	O
+9-9	make	O	O	VB	O
+9-10	sure	9-9_acomp	make	JJ	O
+9-11	the	O	O	DT	O
+9-12	little	O	O	JJ	O
+9-13	tree	O	O	NN	O
+9-14	seedling	O	O	NN	P1_tree
+9-15	would	O	O	MD	O
+9-16	be	O	O	VB	O
+9-17	stable	O	O	JJ	O
+9-18	in	O	O	O	O
+9-19	the	O	O	DT	O
+9-20	ground	O	O	NN	P2_NPart_ground
+9-21	when	9-23_advmod	was	WRB	O
+9-22	it	9-23_nsubj	was	PRP	O
+9-23	was	O	O	VBD	O
+9-24	windy	9-23_advmod	was	RB	O
+9-25	.	O	O	O	O
+
+#id=10
+#text=Then we watered the tree . 
+10-1	Then	10-3_advmod	watered	RB	O
+10-2	we	10-3_nsubj	watered	PRP	P1_gardener
+10-3	watered	O	O	VBD	O
+10-4	the	O	O	DT	O
+10-5	tree	10-3_dobj	watered	NN	P1_tree
+10-6	.	O	O	O	O
+
+#id=11
+#text=We 've been watching and watering our tree for a year and slowly but surely our little tree is growing . 
+11-1	We	11-4_nsubj	watching	PRP	P1_gardener
+11-2	've	11-4_aux	watching	VBP	O
+11-3	been	11-4_aux	watching	VBN	O
+11-4	watching	O	O	VBG	O
+11-5	and	O	O	O	O
+11-6	watering	11-4_conj_and	watching	VBG	O
+11-7	our	O	O	PRP$	P1_gardener
+11-8	tree	11-4_dobj	watching	NN	P1_tree
+11-9	for	O	O	O	O
+11-10	a	O	O	DT	O
+11-11	year	O	O	NN	P1_time
+11-12	and	O	O	O	O
+11-13	slowly	11-20_advmod	growing	RB	O
+11-14	but	11-20_cc	growing	CC	O
+11-15	surely	11-20_advmod	growing	RB	O
+11-16	our	O	O	PRP$	P1_gardener
+11-17	little	O	O	JJ	O
+11-18	tree	11-20_nsubj	growing	NN	P1_tree
+11-19	is	11-20_cop	growing	VBZ	O
+11-20	growing	11-4_conj_and	watching	VBG	O
+11-21	.	O	O	O	O

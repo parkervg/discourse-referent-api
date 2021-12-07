@@ -1,0 +1,522 @@
+#id=1
+#text=Baking a cake can be a lot of fun . 
+1-1	Baking	O	O	RB	O
+1-2	a	O	O	DT	O
+1-3	cake	O	O	NN	P1_cake
+1-4	can	O	O	MD	O
+1-5	be	O	O	VB	O
+1-6	a	O	O	DT	O
+1-7	lot	O	O	NN	O
+1-8	of	O	O	O	O
+1-9	fun	O	O	NN	P1_NPart_fun
+1-10	.	O	O	O	O
+
+#id=2
+#text=Plus , at the end , you have a yummy cake to eat ! 
+2-1	Plus	2-8_cc	have	CC	O
+2-2	,	O	O	O	O
+2-3	at	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	end	2-8_prep_at	have	NN	P1_NPart_end
+2-6	,	O	O	O	O
+2-7	you	2-8_nsubj	have	PRP	P1_cook
+2-8	have	O	O	VBP	O
+2-9	a	O	O	DT	O
+2-10	yummy	O	O	JJ	O
+2-11	cake	2-8_dobj	have	NN	P1_cake
+2-12	to	2-13_aux	eat	TO	O
+2-13	eat	O	O	VB	O
+2-14	!	O	O	O	O
+
+#id=3
+#text=First , decide what kind of cake to make . 
+3-1	First	3-3_advmod	decide	RB	O
+3-2	,	O	O	O	O
+3-3	decide	O	O	VB	O
+3-4	what	O	O	WP	O
+3-5	kind	3-9_nsubj	make	NN	P1_NPart_kind
+3-6	of	O	O	O	O
+3-7	cake	O	O	NN	P1_cake
+3-8	to	3-9_aux	make	TO	O
+3-9	make	3-3_ccomp	decide	VB	O
+3-10	.	O	O	O	O
+
+#id=4
+#text=Do you have a recipe written down ? 
+4-1	Do	4-3_aux	have	VBP	O
+4-2	you	4-3_nsubj	have	PRP	P1_cook
+4-3	have	O	O	VB	O
+4-4	a	O	O	DT	O
+4-5	recipe	4-3_dobj	have	NN	P1_baking_instructions
+4-6	written	O	O	VBN	O
+4-7	down	4-6_prt	written	RP	O
+4-8	?	O	O	O	O
+
+#id=5
+#text=A recipe is a set of instructions for making a particular cake . 
+5-1	A	O	O	DT	O
+5-2	recipe	O	O	NN	P1_baking_instructions
+5-3	is	O	O	VBZ	O
+5-4	a	O	O	DT	O
+5-5	set	O	O	NN	P1_NPart_set
+5-6	of	O	O	O	O
+5-7	instructions	O	O	NNS	P1_baking_instructions
+5-8	for	O	O	O	O
+5-9	making	O	O	VBG	O
+5-10	a	O	O	DT	O
+5-11	particular	O	O	JJ	O
+5-12	cake	5-9_dobj	making	NN	P1_cake
+5-13	.	O	O	O	O
+
+#id=6
+#text=Make sure to read the recipe all the way through before you start , so there are no surprises ! 
+6-1	Make	O	O	VB	O
+6-2	sure	6-1_acomp	Make	JJ	O
+6-3	to	6-4_aux	read	TO	O
+6-4	read	O	O	VB	O
+6-5	the	O	O	DT	O
+6-6	recipe	6-4_dobj	read	NN	P1_baking_instructions
+6-7	all	O	O	DT	O
+6-8	the	O	O	DT	O
+6-9	way	6-4_npadvmod	read	NN	O
+6-10	through	O	O	O	O
+6-11	before	6-13_mark	start	IN	O
+6-12	you	6-13_nsubj	start	PRP	P1_cook
+6-13	start	6-4_prepc_through	read	VBP	O
+6-14	,	O	O	O	O
+6-15	so	6-1_dep	Make	IN	O
+6-16	there	6-17_expl	are	EX	O
+6-17	are	6-1_parataxis	Make	VBP	O
+6-18	no	O	O	DT	O
+6-19	surprises	6-17_nsubj	are	NNS	P1_NPart_surprises
+6-20	!	O	O	O	O
+
+#id=7
+#text=Then gather all your ingredients together : flour , sugar , eggs , and whatever else your recipe says . 
+7-1	Then	7-2_advmod	gather	RB	O
+7-2	gather	O	O	VB	O
+7-3	all	O	O	PDT	O
+7-4	your	O	O	PRP$	P1_cook
+7-5	ingredients	7-2_dobj	gather	NNS	P1_ingredients
+7-6	together	7-2_advmod	gather	RB	O
+7-7	:	O	O	O	O
+7-8	flour	7-2_dobj	gather	NN	P2_ingredients
+7-9	,	O	O	O	O
+7-10	sugar	O	O	NN	P3_ingredients
+7-11	,	O	O	O	O
+7-12	eggs	O	O	NNS	P4_ingredients
+7-13	,	O	O	O	O
+7-14	and	O	O	O	O
+7-15	whatever	7-19_dobj	says	WDT	O
+7-16	else	O	O	RB	O
+7-17	your	O	O	PRP$	P1_cook
+7-18	recipe	7-19_nsubj	says	NNS	P1_baking_instructions
+7-19	says	O	O	VBZ	O
+7-20	.	O	O	O	O
+
+#id=8
+#text=Next , you need to pre-heat the oven . 
+8-1	Next	8-4_advmod	need	RB	O
+8-2	,	O	O	O	O
+8-3	you	8-4_nsubj	need	PRP	P1_cook
+8-4	need	O	O	VBP	O
+8-5	to	8-6_aux	pre-heat	TO	O
+8-6	pre-heat	8-4_xcomp	need	VB	O
+8-7	the	O	O	DT	O
+8-8	oven	8-6_dobj	pre-heat	NN	P1_oven
+8-9	.	O	O	O	O
+
+#id=9
+#text=Your recipe will tell you what temperature to use . 
+9-1	Your	O	O	PRP$	P1_cook
+9-2	recipe	9-4_nsubj	tell	NN	P1_baking_instructions
+9-3	will	9-4_aux	tell	MD	O
+9-4	tell	O	O	VB	O
+9-5	you	9-4_dobj	tell	PRP	P1_cook
+9-6	what	9-9_dobj	use	WP	O
+9-7	temperature	9-9_nsubj	use	NN	P1_temperature
+9-8	to	9-9_aux	use	TO	O
+9-9	use	9-4_xcomp	tell	VB	O
+9-10	.	O	O	O	O
+
+#id=10
+#text=While the oven heats up , you mix your ingredients in a big bowl . 
+10-1	While	10-4_mark	heats	IN	O
+10-2	the	O	O	DT	O
+10-3	oven	10-4_nsubj	heats	NN	P1_oven
+10-4	heats	10-8_advcl	mix	VBZ	O
+10-5	up	10-4_prt	heats	RP	O
+10-6	,	O	O	O	O
+10-7	you	10-8_nsubj	mix	PRP	P1_cook
+10-8	mix	O	O	VB	O
+10-9	your	O	O	PRP$	P1_cook
+10-10	ingredients	10-8_dobj	mix	NNS	P1_ingredients
+10-11	in	O	O	O	O
+10-12	a	O	O	DT	O
+10-13	big	O	O	JJ	O
+10-14	bowl	10-8_prep_in	mix	NN	P1_utensil
+10-15	.	O	O	O	O
+
+#id=11
+#text=Next , you need to prepare the baking pans . 
+11-1	Next	11-4_advmod	need	RB	O
+11-2	,	O	O	O	O
+11-3	you	11-4_nsubj	need	PRP	P1_cook
+11-4	need	O	O	VBP	O
+11-5	to	11-6_aux	prepare	TO	O
+11-6	prepare	11-4_xcomp	need	VB	O
+11-7	the	O	O	DT	O
+11-8	baking	O	O	VBG	O
+11-9	pans	11-6_dobj	prepare	NNS	P1_cake_tin
+11-10	.	O	O	O	O
+
+#id=12
+#text=Look again at the recipe . 
+12-1	Look	O	O	VB	O
+12-2	again	12-1_advmod	Look	RB	O
+12-3	at	O	O	O	O
+12-4	the	O	O	DT	O
+12-5	recipe	12-1_prep_at	Look	NN	P1_baking_instructions
+12-6	.	O	O	O	O
+
+#id=13
+#text=It will tell you what size pan to use , and whether it needs to be greased . 
+13-1	It	13-3_nsubj	tell	PRP	P1_baking_instructions
+13-2	will	13-3_aux	tell	MD	O
+13-3	tell	O	O	VB	O
+13-4	you	13-3_dobj	tell	PRP	P1_cook
+13-5	what	13-7_dobj	pan	WP	O
+13-6	size	13-7_nsubj	pan	NN	P1_NPart_size
+13-7	pan	13-3_ccomp	tell	VB	P1_cake_tin
+13-8	to	13-9_aux	use	TO	O
+13-9	use	13-7_xcomp	pan	VB	O
+13-10	,	O	O	O	O
+13-11	and	O	O	O	O
+13-12	whether	13-14_mark	needs	IN	O
+13-13	it	13-14_nsubj	needs	PRP	P1_cake_tin
+13-14	needs	13-7_conj_and	pan	VBZ	O
+13-15	to	13-17_aux	greased	TO	O
+13-16	be	13-17_auxpass	greased	VB	O
+13-17	greased	13-14_xcomp	needs	VBN	O
+13-18	.	O	O	O	O
+
+#id=14
+#text=To grease a pan means to put a thin layer of shortening or butter on the bottom and sides , so the cake wo n't stick . 
+14-1	To	O	O	O	O
+14-2	grease	14-5_prep_to	means	NN	O
+14-3	a	O	O	DT	O
+14-4	pan	14-5_nsubj	means	NN	P1_cake_tin
+14-5	means	O	O	VBZ	O
+14-6	to	14-7_aux	put	TO	O
+14-7	put	14-5_xcomp	means	VB	O
+14-8	a	O	O	DT	O
+14-9	thin	O	O	JJ	O
+14-10	layer	14-7_dobj	put	NN	P1_NPart_layer
+14-11	of	O	O	O	O
+14-12	shortening	O	O	NN	P5_ingredients
+14-13	or	O	O	O	O
+14-14	butter	O	O	NN	P6_ingredients
+14-15	on	O	O	O	O
+14-16	the	O	O	DT	O
+14-17	bottom	14-7_prep_on	put	NN	P1_NPart_bottom
+14-18	and	O	O	O	O
+14-19	sides	O	O	NNS	P1_NPart_sides
+14-20	,	O	O	O	O
+14-21	so	14-5_dep	means	IN	O
+14-22	the	O	O	DT	O
+14-23	cake	14-26_nsubj	stick	NN	P1_cake
+14-24	wo	14-26_aux	stick	MD	O
+14-25	n't	14-26_neg	stick	RB	O
+14-26	stick	14-5_parataxis	means	VB	O
+14-27	.	O	O	O	O
+
+#id=15
+#text=You 'll use two pans if you 're making a layered cake . 
+15-1	You	15-3_nsubj	use	PRP	P1_cook
+15-2	'll	15-3_aux	use	MD	O
+15-3	use	O	O	VB	O
+15-4	two	O	O	CD	O
+15-5	pans	15-3_dobj	use	NNS	P1_cake_tin
+15-6	if	15-9_mark	making	IN	O
+15-7	you	15-9_nsubj	making	PRP	P1_cook
+15-8	're	15-9_aux	making	VBP	O
+15-9	making	15-3_advcl	use	VBG	O
+15-10	a	O	O	DT	O
+15-11	layered	O	O	JJ	O
+15-12	cake	15-9_dobj	making	NN	P1_cake
+15-13	.	O	O	O	O
+
+#id=16
+#text=When the pan or pans are ready , pour in the well-mixed ingredients . 
+16-1	When	O	O	WRB	O
+16-2	the	O	O	DT	O
+16-3	pan	O	O	NNS	P1_cake_tin
+16-4	or	O	O	O	O
+16-5	pans	O	O	NNS	P1_cake_tin
+16-6	are	O	O	VBP	O
+16-7	ready	16-9_advcl	pour	JJ	O
+16-8	,	O	O	O	O
+16-9	pour	O	O	VB	O
+16-10	in	O	O	O	O
+16-11	the	O	O	DT	O
+16-12	well-mixed	O	O	JJ	O
+16-13	ingredients	16-9_prep_in	pour	NNS	P1_ingredients
+16-14	.	O	O	O	O
+
+#id=17
+#text=Check if the oven is hot enough -- has it reached the temperature you set it to yet ? 
+17-1	Check	O	O	VB	O
+17-2	if	O	O	IN	O
+17-3	the	O	O	DT	O
+17-4	oven	O	O	NN	P1_oven
+17-5	is	O	O	VBZ	O
+17-6	hot	O	O	JJ	O
+17-7	enough	17-1_advcl	Check	NN	O
+17-8	--	O	O	O	O
+17-9	has	17-11_aux	reached	VBZ	O
+17-10	it	17-11_nsubj	reached	PRP	P1_oven
+17-11	reached	O	O	VBN	O
+17-12	the	O	O	DT	O
+17-13	temperature	17-11_dobj	reached	NN	P1_temperature
+17-14	you	17-15_nsubj	set	PRP	P1_cook
+17-15	set	O	O	VBD	O
+17-16	it	17-15_dobj	set	PRP	P1_oven
+17-17	to	17-15_prep	set	TO	O
+17-18	yet	O	O	RB	O
+17-19	?	O	O	O	O
+
+#id=18
+#text=If so , slide your pan right into the middle of the oven , and close it up . 
+18-1	If	18-4_prep	slide	IN	O
+18-2	so	O	O	RB	O
+18-3	,	O	O	O	O
+18-4	slide	O	O	VB	O
+18-5	your	O	O	PRP$	P1_cook
+18-6	pan	O	O	JJ	P1_cake_tin
+18-7	right	18-4_dobj	slide	NN	O
+18-8	into	O	O	O	O
+18-9	the	O	O	DT	O
+18-10	middle	18-4_prep_into	slide	NN	P1_NPart_middle
+18-11	of	O	O	O	O
+18-12	the	O	O	DT	O
+18-13	oven	O	O	NN	P1_oven
+18-14	,	O	O	O	O
+18-15	and	O	O	O	O
+18-16	close	18-4_conj_and	slide	VB	O
+18-17	it	18-16_dobj	close	PRP	P1_oven
+18-18	up	18-16_prt	close	RP	O
+18-19	.	O	O	O	O
+
+#id=19
+#text=The recipe will say how many minutes it will take for the cake to bake . 
+19-1	The	O	O	DT	O
+19-2	recipe	19-4_nsubj	say	NN	P1_baking_instructions
+19-3	will	19-4_aux	say	MD	O
+19-4	say	O	O	VB	O
+19-5	how	O	O	WRB	O
+19-6	many	O	O	JJ	O
+19-7	minutes	19-10_dobj	take	NNS	P1_time
+19-8	it	19-10_nsubj	take	PRP	O
+19-9	will	19-10_aux	take	MD	O
+19-10	take	19-4_ccomp	say	VB	O
+19-11	for	O	O	O	O
+19-12	the	O	O	DT	O
+19-13	cake	19-10_prep_for	take	NN	P1_cake
+19-14	to	19-15_aux	bake	TO	O
+19-15	bake	O	O	VB	O
+19-16	.	O	O	O	O
+
+#id=20
+#text=It 's a good idea to set a timer , because you do n't want to forget about it , and have a burnt cake , after all your hard work ! 
+20-1	It	O	O	PRP	O
+20-2	's	O	O	VBZ	O
+20-3	a	O	O	DT	O
+20-4	good	O	O	JJ	O
+20-5	idea	O	O	NN	P1_NPart_idea
+20-6	to	20-7_aux	set	TO	O
+20-7	set	O	O	VB	O
+20-8	a	O	O	DT	O
+20-9	timer	20-7_dobj	set	NN	P1_timer
+20-10	,	O	O	O	O
+20-11	because	20-15_mark	want	IN	O
+20-12	you	20-15_nsubj	want	PRP	P1_cook
+20-13	do	20-15_aux	want	VBP	O
+20-14	n't	20-15_neg	want	RB	O
+20-15	want	O	O	VB	O
+20-16	to	20-17_aux	forget	TO	O
+20-17	forget	20-15_xcomp	want	VB	O
+20-18	about	O	O	O	O
+20-19	it	20-17_prep_about	forget	PRP	P1_cake
+20-20	,	O	O	O	O
+20-21	and	O	O	O	O
+20-22	have	20-17_conj_and	forget	VB	O
+20-23	a	O	O	DT	O
+20-24	burnt	O	O	JJ	O
+20-25	cake	20-22_dobj	have	NN	P1_cake
+20-26	,	O	O	O	O
+20-27	after	O	O	O	O
+20-28	all	O	O	PDT	O
+20-29	your	O	O	PRP$	P1_cook
+20-30	hard	O	O	JJ	O
+20-31	work	O	O	NN	P1_NPart_work
+20-32	!	O	O	O	O
+
+#id=21
+#text=While the cake cooks , it 's a good idea to clean up the kitchen . 
+21-1	While	21-4_mark	cooks	IN	O
+21-2	the	O	O	DT	O
+21-3	cake	21-4_nsubj	cooks	NN	P1_cake
+21-4	cooks	O	O	VBZ	O
+21-5	,	O	O	O	O
+21-6	it	O	O	PRP	O
+21-7	's	O	O	VBZ	O
+21-8	a	O	O	DT	O
+21-9	good	O	O	JJ	O
+21-10	idea	O	O	NN	P2_NPart_idea
+21-11	to	21-12_aux	clean	TO	O
+21-12	clean	O	O	VB	O
+21-13	up	21-12_prt	clean	RP	O
+21-14	the	O	O	DT	O
+21-15	kitchen	21-12_dobj	clean	NN	P1_kitchen/location
+21-16	.	O	O	O	O
+
+#id=22
+#text=You 're almost there ! 
+22-1	You	22-2_nsubj	're	PRP	P1_cook
+22-2	're	O	O	VBP	O
+22-3	almost	22-2_advmod	're	RB	O
+22-4	there	22-2_advmod	're	RB	O
+22-5	!	O	O	O	O
+
+#id=23
+#text=When your timer goes off , you can check if the cake is done by sticking a toothpick into the middle . 
+23-1	When	23-4_advmod	goes	WRB	O
+23-2	your	O	O	PRP$	P1_cook
+23-3	timer	23-4_nsubj	goes	NN	P1_timer
+23-4	goes	23-9_advcl	check	VBZ	O
+23-5	off	23-4_prt	goes	RP	O
+23-6	,	O	O	O	O
+23-7	you	23-9_nsubj	check	PRP	P1_cook
+23-8	can	23-9_aux	check	MD	O
+23-9	check	O	O	VB	O
+23-10	if	23-14_mark	done	IN	O
+23-11	the	O	O	DT	O
+23-12	cake	23-14_nsubjpass	done	NN	P1_cake
+23-13	is	23-14_auxpass	done	VBZ	O
+23-14	done	23-9_advcl	check	VBN	O
+23-15	by	O	O	O	O
+23-16	sticking	23-14_agent	done	VBG	O
+23-17	a	O	O	DT	O
+23-18	toothpick	23-16_dobj	sticking	NN	P2_utensil
+23-19	into	O	O	O	O
+23-20	the	O	O	DT	O
+23-21	middle	23-16_prep_into	sticking	NN	P2_NPart_middle
+23-22	.	O	O	O	O
+
+#id=24
+#text=If the toothpick comes out dry , and not gooey , your cake is done . 
+24-1	If	24-4_mark	comes	IN	O
+24-2	the	O	O	DT	O
+24-3	toothpick	24-4_nsubj	comes	NN	P2_utensil
+24-4	comes	24-15_advcl	done	VBZ	O
+24-5	out	O	O	IN	O
+24-6	dry	24-4_acomp	comes	JJ	O
+24-7	,	O	O	O	O
+24-8	and	O	O	O	O
+24-9	not	O	O	RB	O
+24-10	gooey	O	O	JJ	O
+24-11	,	O	O	O	O
+24-12	your	O	O	PRP$	P1_cook
+24-13	cake	24-15_nsubjpass	done	NN	P1_cake
+24-14	is	24-15_auxpass	done	VBZ	O
+24-15	done	O	O	VBN	O
+24-16	.	O	O	O	O
+
+#id=25
+#text=Turn off the oven , and carefully remove the hot cake with oven mitts on . 
+25-1	Turn	O	O	VB	O
+25-2	off	25-1_prt	Turn	RP	O
+25-3	the	O	O	DT	O
+25-4	oven	25-1_dobj	Turn	NN	P1_oven
+25-5	,	O	O	O	O
+25-6	and	O	O	O	O
+25-7	carefully	25-8_advmod	remove	RB	O
+25-8	remove	25-1_conj_and	Turn	VB	O
+25-9	the	O	O	DT	O
+25-10	hot	O	O	JJ	O
+25-11	cake	25-8_dobj	remove	NN	P1_cake
+25-12	with	O	O	O	O
+25-13	oven	O	O	NN	O
+25-14	mitts	O	O	NNS	P3_utensil
+25-15	on	25-8_prt	remove	RP	O
+25-16	.	O	O	O	O
+
+#id=26
+#text=Unfortunately , now you have to leave it alone until it cools . 
+26-1	Unfortunately	26-5_advmod	have	RB	O
+26-2	,	O	O	O	O
+26-3	now	26-5_advmod	have	RB	O
+26-4	you	26-5_nsubj	have	PRP	P1_cook
+26-5	have	O	O	VBP	O
+26-6	to	26-7_aux	leave	TO	O
+26-7	leave	26-5_xcomp	have	VB	O
+26-8	it	26-7_dobj	leave	PRP	P1_cake
+26-9	alone	26-7_advmod	leave	RB	O
+26-10	until	26-12_mark	cools	IN	O
+26-11	it	26-12_nsubj	cools	PRP	P1_cake
+26-12	cools	26-7_advcl	leave	VBZ	O
+26-13	.	O	O	O	O
+
+#id=27
+#text=When it 's cooled , turn it out of the pan , and put the frosting on , if your cake is a frosted cake . 
+27-1	When	27-4_advmod	cooled	WRB	O
+27-2	it	27-4_nsubjpass	cooled	PRP	P1_cake
+27-3	's	27-4_auxpass	cooled	VBZ	O
+27-4	cooled	27-6_advcl	turn	VBN	O
+27-5	,	O	O	O	O
+27-6	turn	O	O	VB	O
+27-7	it	27-6_dobj	turn	PRP	P1_cake
+27-8	out	O	O	O	O
+27-9	of	O	O	O	O
+27-10	the	O	O	DT	O
+27-11	pan	27-6_prep_out_of	turn	NN	P1_cake_tin
+27-12	,	O	O	O	O
+27-13	and	O	O	O	O
+27-14	put	27-6_conj_and	turn	VB	O
+27-15	the	O	O	DT	O
+27-16	frosting	27-14_dobj	put	NN	P7_ingredients
+27-17	on	27-14_prep	put	IN	O
+27-18	,	O	O	O	O
+27-19	if	O	O	IN	O
+27-20	your	O	O	PRP$	P1_cook
+27-21	cake	O	O	NN	P1_cake
+27-22	is	O	O	VBZ	O
+27-23	a	O	O	DT	O
+27-24	frosted	O	O	JJ	O
+27-25	cake	27-14_advcl	put	NN	P1_cake
+27-26	.	O	O	O	O
+
+#id=28
+#text=Next is the best part : slice that cake into eight , put a slice on a plate , and enjoy ! 
+28-1	Next	O	O	NNP	O
+28-2	is	O	O	VBZ	O
+28-3	the	O	O	DT	O
+28-4	best	O	O	JJS	O
+28-5	part	O	O	NN	P1_NPart_part
+28-6	:	O	O	O	O
+28-7	slice	O	O	VBP	O
+28-8	that	O	O	DT	O
+28-9	cake	28-7_dobj	slice	NN	P1_cake
+28-10	into	O	O	O	O
+28-11	eight	28-7_prep_into	slice	CD	O
+28-12	,	O	O	O	O
+28-13	put	O	O	VBD	O
+28-14	a	O	O	DT	O
+28-15	slice	28-13_dobj	put	NN	P1_cake
+28-16	on	O	O	O	O
+28-17	a	O	O	DT	O
+28-18	plate	28-13_prep_on	put	NN	P4_utensil
+28-19	,	O	O	O	O
+28-20	and	O	O	O	O
+28-21	enjoy	O	O	VBP	O
+28-22	!	O	O	O	O

@@ -1,0 +1,215 @@
+#id=1
+#text=I had n't gone for a hair cut in about 7 weeks so I was certainly due . 
+1-1	I	1-4_nsubj	gone	PRP	P1_customer
+1-2	had	1-4_aux	gone	VBD	O
+1-3	n't	1-4_neg	gone	RB	O
+1-4	gone	O	O	VBN	O
+1-5	for	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	hair	1-4_prep_for	gone	NN	O
+1-8	cut	O	O	VBN	O
+1-9	in	O	O	O	O
+1-10	about	O	O	RB	O
+1-11	7	O	O	CD	O
+1-12	weeks	1-8_prep_in	cut	NNS	P1_NPart_weeks
+1-13	so	O	O	IN	O
+1-14	I	O	O	PRP	P1_customer
+1-15	was	O	O	VBD	O
+1-16	certainly	O	O	RB	O
+1-17	due	1-8_advcl	cut	JJ	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=The hair around the side of my head was starting to grow over my ears . 
+2-1	The	O	O	DT	O
+2-2	hair	2-10_nsubj	starting	NN	P1_hair
+2-3	around	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	side	O	O	NN	O
+2-6	of	O	O	O	O
+2-7	my	O	O	PRP$	P1_customer
+2-8	head	O	O	NN	P1_other
+2-9	was	2-10_aux	starting	VBD	O
+2-10	starting	O	O	VBG	O
+2-11	to	2-12_aux	grow	TO	O
+2-12	grow	2-10_xcomp	starting	VB	O
+2-13	over	2-12_prt	grow	RP	O
+2-14	my	O	O	PRP$	P1_customer
+2-15	ears	2-12_dobj	grow	NNS	P2_other
+2-16	.	O	O	O	O
+
+#id=3
+#text=I generally go the same hairdresser and ask for the same person , Sue who is very good at her job and is quite pleasant . 
+3-1	I	3-3_nsubj	go	PRP	P1_customer
+3-2	generally	3-3_advmod	go	RB	O
+3-3	go	O	O	VB	O
+3-4	the	O	O	DT	O
+3-5	same	O	O	JJ	O
+3-6	hairdresser	3-3_dobj	go	NN	P1_hairdresser
+3-7	and	O	O	O	O
+3-8	ask	3-3_conj_and	go	VB	O
+3-9	for	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	same	O	O	JJ	O
+3-12	person	3-3_prep_for	go	NN	P1_hairdresser
+3-13	,	O	O	O	O
+3-14	Sue	3-3_dobj	go	NNP	P1_hairdresser
+3-15	who	O	O	WP	P1_hairdresser
+3-16	is	O	O	VBZ	O
+3-17	very	O	O	RB	O
+3-18	good	O	O	JJ	O
+3-19	at	O	O	O	O
+3-20	her	O	O	PRP$	P1_hairdresser
+3-21	job	O	O	NN	P1_NPart_job
+3-22	and	O	O	O	O
+3-23	is	O	O	VBZ	O
+3-24	quite	O	O	RB	O
+3-25	pleasant	O	O	JJ	O
+3-26	.	O	O	O	O
+
+#id=4
+#text=So I make an appointment with Sue for the following Saturday morning . 
+4-1	So	4-3_dep	make	IN	O
+4-2	I	4-3_nsubj	make	PRP	P1_customer
+4-3	make	O	O	VBP	O
+4-4	an	O	O	DT	O
+4-5	appointment	4-3_dobj	make	NN	P1_appointment
+4-6	with	O	O	O	O
+4-7	Sue	O	O	NNP	P1_hairdresser
+4-8	for	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	following	O	O	VBG	O
+4-11	Saturday	O	O	NNP	P1_time/date
+4-12	morning	4-3_prep_for	make	NN	P2_time/date
+4-13	.	O	O	O	O
+
+#id=5
+#text=When I arrived the place was rather full with customers , seemingly more woman than men . 
+5-1	When	5-3_advmod	arrived	WRB	O
+5-2	I	5-3_nsubj	arrived	PRP	P1_customer
+5-3	arrived	O	O	VBD	O
+5-4	the	O	O	DT	O
+5-5	place	O	O	NN	P1_salon
+5-6	was	O	O	VBD	O
+5-7	rather	O	O	RB	O
+5-8	full	O	O	JJ	O
+5-9	with	O	O	O	O
+5-10	customers	O	O	NNS	P2_customer
+5-11	,	O	O	O	O
+5-12	seemingly	O	O	RB	O
+5-13	more	O	O	JJR	O
+5-14	woman	O	O	NN	P3_customer
+5-15	than	O	O	O	O
+5-16	men	O	O	NNS	P4_customer
+5-17	.	O	O	O	O
+
+#id=6
+#text=Several people were covered with the big hair drying bag over their head which makes me giggle . 
+6-1	Several	O	O	JJ	O
+6-2	people	6-4_nsubjpass	covered	NNS	P5_customer
+6-3	were	6-4_auxpass	covered	VBD	O
+6-4	covered	O	O	VBN	O
+6-5	with	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	big	O	O	JJ	O
+6-8	hair	6-4_prep_with	covered	NN	O
+6-9	drying	O	O	VBG	O
+6-10	bag	6-9_dobj	drying	NN	P3_other
+6-11	over	O	O	O	O
+6-12	their	O	O	PRP$	P5_customer
+6-13	head	6-9_prep_over	drying	NN	P4_other
+6-14	which	6-15_nsubj	makes	WDT	O
+6-15	makes	O	O	VBZ	O
+6-16	me	O	O	PRP	P1_customer
+6-17	giggle	6-15_xcomp	makes	JJ	O
+6-18	.	O	O	O	O
+
+#id=7
+#text=I was told to go right in the back where the men 's area is located and sat down for my hair cut . 
+7-1	I	7-3_nsubjpass	told	PRP	P1_customer
+7-2	was	7-3_auxpass	told	VBD	O
+7-3	told	O	O	VBN	O
+7-4	to	7-5_aux	go	TO	O
+7-5	go	7-3_xcomp	told	VB	O
+7-6	right	7-5_advmod	go	RB	O
+7-7	in	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	back	O	O	NN	P1_location_salon
+7-10	where	7-16_advmod	located	WRB	O
+7-11	the	O	O	DT	O
+7-12	men	O	O	NNS	O
+7-13	's	O	O	O	O
+7-14	area	7-16_nsubjpass	located	NN	P2_location_salon
+7-15	is	7-16_auxpass	located	VBZ	O
+7-16	located	7-5_advcl	go	VBN	O
+7-17	and	O	O	O	O
+7-18	sat	7-16_conj_and	located	VBD	O
+7-19	down	7-18_prt	sat	RP	O
+7-20	for	O	O	O	O
+7-21	my	O	O	PRP$	P1_customer
+7-22	hair	O	O	NN	O
+7-23	cut	7-18_prep_for	sat	NN	P1_haircut
+7-24	.	O	O	O	O
+
+#id=8
+#text=After having my hair washed by a helper I was soon seated at Sue 's chair and enjoyed our usual small talk while she cut my hair . 
+8-1	After	O	O	O	O
+8-2	having	8-5_aux	washed	VBG	O
+8-3	my	O	O	PRP$	P1_customer
+8-4	hair	8-5_dobj	washed	NN	P1_hair
+8-5	washed	8-12_prepc_after	seated	VBN	O
+8-6	by	O	O	O	O
+8-7	a	O	O	DT	O
+8-8	helper	8-5_prep_by	washed	NN	P1_staff
+8-9	I	8-12_nsubjpass	seated	PRP	P1_customer
+8-10	was	8-12_auxpass	seated	VBD	O
+8-11	soon	8-12_advmod	seated	RB	O
+8-12	seated	O	O	VBN	O
+8-13	at	O	O	O	O
+8-14	Sue	O	O	NNP	P1_hairdresser
+8-15	's	O	O	O	O
+8-16	chair	8-12_prep_at	seated	NN	P1_chair
+8-17	and	O	O	O	O
+8-18	enjoyed	8-12_conj_and	seated	VBN	O
+8-19	our	O	O	PRP$	P1_hairdresser_customer
+8-20	usual	O	O	JJ	O
+8-21	small	O	O	JJ	O
+8-22	talk	8-18_dobj	enjoyed	NN	P1_entertainment
+8-23	while	8-25_mark	cut	IN	O
+8-24	she	8-25_nsubj	cut	PRP	P1_hairdresser
+8-25	cut	8-18_advcl	enjoyed	VBD	O
+8-26	my	O	O	PRP$	P1_customer
+8-27	hair	8-25_dobj	cut	NN	P1_hair
+8-28	.	O	O	O	O
+
+#id=9
+#text=We discussed recent weekend getaways and holiday family gatherings . 
+9-1	We	9-2_nsubj	discussed	PRP	P1_hairdresser_customer
+9-2	discussed	O	O	VBD	O
+9-3	recent	O	O	JJ	O
+9-4	weekend	O	O	NN	O
+9-5	getaways	9-2_dobj	discussed	NNS	P1_NPart_getaways
+9-6	and	O	O	O	O
+9-7	holiday	O	O	NN	P1_NPart_holiday
+9-8	family	O	O	NN	O
+9-9	gatherings	O	O	NNS	P1_NPart_gatherings
+9-10	.	O	O	O	O
+
+#id=10
+#text=After she was done I gave her my usual tip and was on my way . 
+10-1	After	10-4_mark	done	IN	O
+10-2	she	10-4_nsubjpass	done	PRP	P1_hairdresser
+10-3	was	10-4_auxpass	done	VBD	O
+10-4	done	10-6_advcl	gave	VBN	O
+10-5	I	10-6_nsubj	gave	PRP	P1_customer
+10-6	gave	O	O	VBD	O
+10-7	her	10-6_iobj	gave	PRP	P1_hairdresser
+10-8	my	O	O	PRP$	P1_customer
+10-9	usual	O	O	JJ	O
+10-10	tip	10-6_dobj	gave	NN	P1_tip
+10-11	and	O	O	O	O
+10-12	was	10-6_conj_and	gave	VBD	O
+10-13	on	O	O	O	O
+10-14	my	O	O	PRP$	P1_customer
+10-15	way	10-12_prep_on	was	NN	O
+10-16	.	O	O	O	O

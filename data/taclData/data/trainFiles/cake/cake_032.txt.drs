@@ -1,0 +1,261 @@
+#id=1
+#text=This weekend I decided to do something special with my son . 
+1-1	This	O	O	DT	O
+1-2	weekend	1-4_nsubj	decided	NN	P1_NPart_weekend
+1-3	I	1-4_nsubj	decided	PRP	P1_cook
+1-4	decided	O	O	VBD	O
+1-5	to	1-6_aux	do	TO	O
+1-6	do	1-4_xcomp	decided	VB	O
+1-7	something	1-6_dobj	do	NN	O
+1-8	special	O	O	JJ	O
+1-9	with	O	O	O	O
+1-10	my	O	O	PRP$	P1_cook
+1-11	son	1-6_prep_with	do	NN	P1_cook
+1-12	.	O	O	O	O
+
+#id=2
+#text=He been asking me to bake a cake with him so I figured today would be a good day to do so . 
+2-1	He	O	O	PRP	P1_cook
+2-2	been	2-3_aux	asking	VBN	O
+2-3	asking	O	O	VBG	O
+2-4	me	2-3_dobj	asking	PRP	P1_cook
+2-5	to	2-6_aux	bake	TO	O
+2-6	bake	2-3_xcomp	asking	VB	O
+2-7	a	O	O	DT	O
+2-8	cake	2-6_dobj	bake	NN	P1_cake
+2-9	with	O	O	O	O
+2-10	him	2-6_prep_with	bake	PRP	P1_cook
+2-11	so	2-13_mark	figured	IN	O
+2-12	I	2-13_nsubj	figured	PRP	P1_cook
+2-13	figured	2-6_advcl	bake	VBD	O
+2-14	today	2-13_tmod	figured	NN	O
+2-15	would	O	O	MD	O
+2-16	be	O	O	VB	O
+2-17	a	O	O	DT	O
+2-18	good	O	O	JJ	O
+2-19	day	O	O	NN	P1_NPart_day
+2-20	to	2-21_aux	do	TO	O
+2-21	do	O	O	VB	O
+2-22	so	2-21_advmod	do	RB	O
+2-23	.	O	O	O	O
+
+#id=3
+#text=We went to the store and bought all the ingredients we needed . 
+3-1	We	3-2_nsubj	went	PRP	P1_cook
+3-2	went	O	O	VBD	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	store	3-2_prep_to	went	NN	P1_store
+3-6	and	O	O	O	O
+3-7	bought	3-2_conj_and	went	VBD	O
+3-8	all	O	O	PDT	O
+3-9	the	O	O	DT	O
+3-10	ingredients	3-7_dobj	bought	NNS	P1_ingredients
+3-11	we	3-12_nsubj	needed	PRP	P1_cook
+3-12	needed	3-7_dep	bought	VBD	O
+3-13	.	O	O	O	O
+
+#id=4
+#text=We bought eggs , milk , cake mix , and even frosting . 
+4-1	We	4-2_nsubj	bought	PRP	P1_cook
+4-2	bought	O	O	VBD	O
+4-3	eggs	4-2_dobj	bought	NNS	P2_ingredients
+4-4	,	O	O	O	O
+4-5	milk	O	O	NN	P3_ingredients
+4-6	,	O	O	O	O
+4-7	cake	O	O	NN	O
+4-8	mix	O	O	NN	P4_ingredients
+4-9	,	O	O	O	O
+4-10	and	O	O	O	O
+4-11	even	O	O	RB	O
+4-12	frosting	O	O	VBG	P1_decoration
+4-13	.	O	O	O	O
+
+#id=5
+#text=When we got back home I took out my measuring cup and showed him how to measure how much milk we needed to add to the cake mix . 
+5-1	When	5-3_advmod	got	WRB	O
+5-2	we	5-3_nsubj	got	PRP	P1_cook
+5-3	got	5-7_advcl	took	VBD	O
+5-4	back	5-3_advmod	got	RB	O
+5-5	home	O	O	NN	P1_kitchen/location
+5-6	I	5-7_nsubj	took	PRP	P1_cook
+5-7	took	O	O	VBD	O
+5-8	out	5-7_prt	took	RP	O
+5-9	my	O	O	PRP$	P1_cook
+5-10	measuring	O	O	NN	O
+5-11	cup	5-7_dobj	took	NN	P1_utensil
+5-12	and	O	O	O	O
+5-13	showed	5-7_conj_and	took	VBD	O
+5-14	him	5-13_dobj	showed	PRP	P1_cook
+5-15	how	5-17_advmod	measure	WRB	O
+5-16	to	5-17_aux	measure	TO	O
+5-17	measure	5-13_xcomp	showed	VB	O
+5-18	how	O	O	WRB	O
+5-19	much	O	O	JJ	O
+5-20	milk	5-22_dobj	needed	NNS	P3_ingredients
+5-21	we	5-22_nsubj	needed	PRP	P1_cook
+5-22	needed	5-17_ccomp	measure	VBD	O
+5-23	to	5-24_aux	add	TO	O
+5-24	add	5-22_xcomp	needed	VB	O
+5-25	to	O	O	O	O
+5-26	the	O	O	DT	O
+5-27	cake	O	O	NN	O
+5-28	mix	5-24_prep_to	add	NN	P4_ingredients
+5-29	.	O	O	O	O
+
+#id=6
+#text=Then we both proceeded to crack a couple eggs and add it to the mix as well . 
+6-1	Then	6-4_advmod	proceeded	RB	O
+6-2	we	6-4_nsubj	proceeded	PRP	P1_cook
+6-3	both	O	O	DT	O
+6-4	proceeded	O	O	VBD	O
+6-5	to	6-6_aux	crack	TO	O
+6-6	crack	6-4_xcomp	proceeded	VB	O
+6-7	a	O	O	DT	O
+6-8	couple	O	O	NN	O
+6-9	eggs	6-6_dobj	crack	NNS	P2_ingredients
+6-10	and	O	O	O	O
+6-11	add	6-6_conj_and	crack	VB	O
+6-12	it	6-11_dobj	add	PRP	P2_ingredients
+6-13	to	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	mix	6-11_prep_to	add	NN	P4_ingredients
+6-16	as	O	O	RB	O
+6-17	well	6-11_advmod	add	RB	O
+6-18	.	O	O	O	O
+
+#id=7
+#text=I gave him the hand mixer and he started mixing it all together in a large bowl . 
+7-1	I	7-2_nsubj	gave	PRP	P1_cook
+7-2	gave	O	O	VBD	O
+7-3	him	7-2_iobj	gave	PRP	P1_cook
+7-4	the	O	O	DT	O
+7-5	hand	O	O	NN	O
+7-6	mixer	7-2_dobj	gave	NN	P2_utensil
+7-7	and	O	O	O	O
+7-8	he	7-9_nsubj	started	PRP	P1_cook
+7-9	started	7-2_conj_and	gave	VBD	O
+7-10	mixing	7-9_xcomp	started	VBG	O
+7-11	it	7-10_dobj	mixing	PRP	P1_dough
+7-12	all	O	O	DT	O
+7-13	together	7-10_advmod	mixing	RB	O
+7-14	in	O	O	O	O
+7-15	a	O	O	DT	O
+7-16	large	O	O	JJ	O
+7-17	bowl	7-10_prep_in	mixing	NN	P3_utensil
+7-18	.	O	O	O	O
+
+#id=8
+#text=I could tell he was having a great time . 
+8-1	I	8-3_nsubj	tell	PRP	P1_cook
+8-2	could	8-3_aux	tell	MD	O
+8-3	tell	O	O	VB	O
+8-4	he	8-6_nsubj	having	PRP	P1_cook
+8-5	was	8-6_aux	having	VBD	O
+8-6	having	8-3_ccomp	tell	VBG	O
+8-7	a	O	O	DT	O
+8-8	great	O	O	JJ	O
+8-9	time	8-6_dobj	having	NN	O
+8-10	.	O	O	O	O
+
+#id=9
+#text=After he finished mixing the the cake batter , I slowly poured it into a cake pan . 
+9-1	After	9-3_mark	finished	IN	O
+9-2	he	9-3_nsubj	finished	PRP	P1_cook
+9-3	finished	9-12_advcl	poured	VBD	O
+9-4	mixing	9-3_xcomp	finished	VBG	O
+9-5	the	O	O	DT	O
+9-6	the	O	O	DT	O
+9-7	cake	O	O	NN	O
+9-8	batter	9-4_dobj	mixing	NN	P1_dough
+9-9	,	O	O	O	O
+9-10	I	9-12_nsubj	poured	PRP	P1_cook
+9-11	slowly	9-12_advmod	poured	RB	O
+9-12	poured	O	O	VBD	O
+9-13	it	9-12_dobj	poured	PRP	P1_dough
+9-14	into	O	O	O	O
+9-15	a	O	O	DT	O
+9-16	cake	O	O	NN	O
+9-17	pan	9-12_prep_into	poured	NN	P1_cake_tin
+9-18	.	O	O	O	O
+
+#id=10
+#text=I pre-heated the oven to 350 degrees and when it was hot enough I put the cake in . 
+10-1	I	10-2_nsubj	pre-heated	PRP	P1_cook
+10-2	pre-heated	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	oven	10-2_dobj	pre-heated	NN	P1_oven
+10-5	to	O	O	O	O
+10-6	350	O	O	CD	O
+10-7	degrees	10-2_prep_to	pre-heated	NNS	P1_temperature
+10-8	and	O	O	O	O
+10-9	when	O	O	WRB	O
+10-10	it	O	O	PRP	P1_oven
+10-11	was	O	O	VBD	O
+10-12	hot	10-15_advcl	put	JJ	O
+10-13	enough	O	O	RB	O
+10-14	I	10-15_nsubj	put	PRP	P1_cook
+10-15	put	10-2_conj_and	pre-heated	VBD	O
+10-16	the	O	O	DT	O
+10-17	cake	10-15_dobj	put	NN	P1_cake
+10-18	in	10-15_prep	put	IN	O
+10-19	.	O	O	O	O
+
+#id=11
+#text=After 45 minutes of baking the cake was finally ready . 
+11-1	After	O	O	O	O
+11-2	45	O	O	CD	O
+11-3	minutes	O	O	NNS	P1_time
+11-4	of	O	O	O	O
+11-5	baking	O	O	VBG	O
+11-6	the	O	O	DT	O
+11-7	cake	O	O	NN	P1_cake
+11-8	was	O	O	VBD	O
+11-9	finally	O	O	RB	O
+11-10	ready	O	O	JJ	O
+11-11	.	O	O	O	O
+
+#id=12
+#text=We let it cool on the table for about 30 minutes then my son and I added the frosting to it . 
+12-1	We	12-2_nsubj	let	PRP	P1_cook
+12-2	let	O	O	VBD	O
+12-3	it	12-4_nsubj	cool	PRP	P1_cake
+12-4	cool	12-2_ccomp	let	VBP	O
+12-5	on	O	O	O	O
+12-6	the	O	O	DT	O
+12-7	table	12-4_prep_on	cool	NN	P2_kitchen/location
+12-8	for	O	O	O	O
+12-9	about	O	O	RB	O
+12-10	30	O	O	CD	O
+12-11	minutes	O	O	NNS	P2_time
+12-12	then	12-4_prep	cool	RB	O
+12-13	my	O	O	PRP$	O
+12-14	son	O	O	NN	O
+12-15	and	O	O	O	O
+12-16	I	12-17_nsubj	added	PRP	P1_cook
+12-17	added	12-2_conj_and	let	VBD	O
+12-18	the	O	O	DT	O
+12-19	frosting	12-17_dobj	added	NN	P1_decoration
+12-20	to	O	O	O	O
+12-21	it	12-17_prep_to	added	PRP	P1_cake
+12-22	.	O	O	O	O
+
+#id=13
+#text=It was a beautiful looking cake and we were both proud that we made it together . 
+13-1	It	O	O	PRP	P1_cake
+13-2	was	O	O	VBD	O
+13-3	a	O	O	DT	O
+13-4	beautiful	13-5_dep	looking	JJ	O
+13-5	looking	O	O	VBG	O
+13-6	cake	O	O	NN	P1_cake
+13-7	and	O	O	O	O
+13-8	we	O	O	PRP	P1_cook
+13-9	were	O	O	VBD	O
+13-10	both	O	O	DT	O
+13-11	proud	O	O	JJ	O
+13-12	that	13-14_mark	made	IN	O
+13-13	we	13-14_nsubj	made	PRP	P1_cook
+13-14	made	O	O	VBD	O
+13-15	it	13-14_dobj	made	PRP	P1_cake
+13-16	together	13-14_advmod	made	RB	O
+13-17	.	O	O	O	O

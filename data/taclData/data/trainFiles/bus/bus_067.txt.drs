@@ -1,0 +1,183 @@
+#id=1
+#text=As my car was not working correctly I decided to take a public bus . 
+1-1	As	1-6_mark	working	IN	O
+1-2	my	O	O	PRP$	P1_passenger
+1-3	car	1-6_nsubj	working	NN	P1_NPart_car
+1-4	was	1-6_aux	working	VBD	O
+1-5	not	1-6_neg	working	RB	O
+1-6	working	1-9_advcl	decided	VBG	O
+1-7	correctly	1-6_advmod	working	RB	O
+1-8	I	1-9_nsubj	decided	PRP	P1_passenger
+1-9	decided	O	O	VBD	O
+1-10	to	1-11_aux	take	TO	O
+1-11	take	1-9_xcomp	decided	VB	O
+1-12	a	O	O	DT	O
+1-13	public	O	O	JJ	O
+1-14	bus	1-11_dobj	take	NN	P1_bus
+1-15	.	O	O	O	O
+
+#id=2
+#text=I called the bus depot and asked how much tickets where and the departure times . 
+2-1	I	2-2_nsubj	called	PRP	P1_passenger
+2-2	called	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	bus	O	O	NN	O
+2-5	depot	2-2_dobj	called	NN	P1_NPart_depot
+2-6	and	O	O	O	O
+2-7	asked	2-2_conj_and	called	VBD	O
+2-8	how	O	O	WRB	O
+2-9	much	O	O	RB	O
+2-10	tickets	O	O	NNS	P1_card/ticket
+2-11	where	2-7_dep	asked	WRB	O
+2-12	and	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	departure	O	O	NN	O
+2-15	times	2-2_conj_and	called	NNS	P1_time/date
+2-16	.	O	O	O	O
+
+#id=3
+#text=The rates where reasonable for what I needed and I really did n't have a choice in the matter as my own car was messed up . 
+3-1	The	O	O	DT	O
+3-2	rates	3-25_nsubjpass	messed	NNS	P1_money
+3-3	where	O	O	WRB	O
+3-4	reasonable	O	O	JJ	O
+3-5	for	O	O	O	O
+3-6	what	3-8_dep	needed	WP	O
+3-7	I	3-8_nsubj	needed	PRP	P1_passenger
+3-8	needed	O	O	VBD	O
+3-9	and	O	O	O	O
+3-10	I	3-14_nsubj	have	PRP	P1_passenger
+3-11	really	3-14_advmod	have	RB	O
+3-12	did	3-14_aux	have	VBD	O
+3-13	n't	3-14_neg	have	RB	O
+3-14	have	3-8_conj_and	needed	VB	O
+3-15	a	O	O	DT	O
+3-16	choice	3-14_dobj	have	NN	P1_NPart_choice
+3-17	in	O	O	O	O
+3-18	the	O	O	DT	O
+3-19	matter	O	O	NN	P1_NPart_matter
+3-20	as	O	O	IN	O
+3-21	my	O	O	PRP$	P1_passenger
+3-22	own	O	O	JJ	O
+3-23	car	O	O	NN	P2_NPart_car
+3-24	was	3-25_auxpass	messed	VBD	O
+3-25	messed	O	O	VBN	O
+3-26	up	3-25_prt	messed	RP	O
+3-27	.	O	O	O	O
+
+#id=4
+#text=I had a friend take me to the bus stop where I purchased my round trip ticket and prepared to wait for the bus to load and leave to take me to my destination . 
+4-1	I	4-2_nsubj	had	PRP	P1_passenger
+4-2	had	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	friend	4-5_nsubj	take	NN	P1_NPart_friend
+4-5	take	4-2_ccomp	had	VB	O
+4-6	me	4-5_dobj	take	PRP	P1_passenger
+4-7	to	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	bus	O	O	NN	O
+4-10	stop	4-5_prep_to	take	NN	P1_bus_stop
+4-11	where	4-13_advmod	purchased	WRB	O
+4-12	I	4-13_nsubj	purchased	PRP	P1_passenger
+4-13	purchased	4-2_advcl	had	VBD	O
+4-14	my	O	O	PRP$	P1_passenger
+4-15	round	O	O	NN	O
+4-16	trip	O	O	NN	O
+4-17	ticket	4-13_dobj	purchased	NN	P2_card/ticket
+4-18	and	O	O	O	O
+4-19	prepared	4-13_conj_and	purchased	VBD	O
+4-20	to	4-21_aux	wait	TO	O
+4-21	wait	4-19_xcomp	prepared	VB	O
+4-22	for	O	O	O	O
+4-23	the	O	O	DT	O
+4-24	bus	4-21_prep_for	wait	NN	P1_bus
+4-25	to	O	O	O	O
+4-26	load	4-21_prep_to	wait	NN	O
+4-27	and	O	O	O	O
+4-28	leave	4-21_conj_and	wait	VB	O
+4-29	to	4-30_aux	take	TO	O
+4-30	take	4-28_xcomp	leave	VB	O
+4-31	me	4-30_dobj	take	PRP	P1_passenger
+4-32	to	O	O	O	O
+4-33	my	O	O	PRP$	P1_passenger
+4-34	destination	4-30_prep_to	take	NN	P1_destination
+4-35	.	O	O	O	O
+
+#id=5
+#text=I went to the restroom to double check my concealed handgun and make sure it was cocked , locked , and loaded as you can never be too safe . 
+5-1	I	5-2_nsubj	went	PRP	P1_passenger
+5-2	went	O	O	VBD	O
+5-3	to	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	restroom	5-2_prep_to	went	NN	P1_NPart_restroom
+5-6	to	5-8_aux	check	TO	O
+5-7	double	5-8_advmod	check	RB	O
+5-8	check	5-2_xcomp	went	VB	O
+5-9	my	O	O	PRP$	P1_passenger
+5-10	concealed	O	O	JJ	O
+5-11	handgun	5-8_dobj	check	NN	P1_NPart_handgun
+5-12	and	O	O	O	O
+5-13	make	5-8_conj_and	check	VB	O
+5-14	sure	5-13_acomp	make	JJ	O
+5-15	it	5-17_nsubjpass	cocked	PRP	P1_NPart_it
+5-16	was	5-17_auxpass	cocked	VBD	O
+5-17	cocked	O	O	VBN	O
+5-18	,	O	O	O	O
+5-19	locked	5-17_conj_and	cocked	VBN	O
+5-20	,	O	O	O	O
+5-21	and	O	O	O	O
+5-22	loaded	5-17_conj_and	cocked	VBN	O
+5-23	as	O	O	IN	O
+5-24	you	O	O	PRP	P1_NPart_you
+5-25	can	O	O	MD	O
+5-26	never	O	O	RB	O
+5-27	be	O	O	VB	O
+5-28	too	O	O	RB	O
+5-29	safe	5-22_advcl	loaded	JJ	O
+5-30	.	O	O	O	O
+
+#id=6
+#text=My gun was fine so I tucked it under my shirt and boarded the bus . 
+6-1	My	O	O	PRP$	P1_passenger
+6-2	gun	O	O	NN	P1_NPart_gun
+6-3	was	O	O	VBD	O
+6-4	fine	O	O	JJ	O
+6-5	so	6-7_mark	tucked	IN	O
+6-6	I	6-7_nsubj	tucked	PRP	P1_passenger
+6-7	tucked	O	O	VBD	O
+6-8	it	6-7_dobj	tucked	PRP	P2_NPart_it
+6-9	under	O	O	O	O
+6-10	my	O	O	PRP$	P1_passenger
+6-11	shirt	6-7_prep_under	tucked	NN	P1_NPart_shirt
+6-12	and	O	O	O	O
+6-13	boarded	6-7_conj_and	tucked	VBD	O
+6-14	the	O	O	DT	O
+6-15	bus	6-13_dobj	boarded	NN	P1_bus
+6-16	.	O	O	O	O
+
+#id=7
+#text=I found a seat near the back where I could see most of the other passengers and kicked back to make the trip . 
+7-1	I	7-2_nsubj	found	PRP	P1_passenger
+7-2	found	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	seat	7-2_dobj	found	NN	P1_seat_in_bus
+7-5	near	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	back	7-2_prep_near	found	NN	P1_NPart_back
+7-8	where	7-11_advmod	see	WRB	O
+7-9	I	7-11_nsubj	see	PRP	P1_passenger
+7-10	could	7-11_aux	see	MD	O
+7-11	see	7-2_advcl	found	VB	O
+7-12	most	7-11_dobj	see	JJS	O
+7-13	of	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	other	O	O	JJ	O
+7-16	passengers	O	O	NNS	P2_passenger
+7-17	and	O	O	O	O
+7-18	kicked	7-2_conj_and	found	VBD	O
+7-19	back	7-18_prt	kicked	RP	O
+7-20	to	7-21_aux	make	TO	O
+7-21	make	7-18_xcomp	kicked	VB	O
+7-22	the	O	O	DT	O
+7-23	trip	7-21_dobj	make	NN	P1_ride
+7-24	.	O	O	O	O

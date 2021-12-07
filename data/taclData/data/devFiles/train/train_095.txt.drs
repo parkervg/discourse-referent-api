@@ -1,0 +1,195 @@
+#id=1
+#text=Last weekend I booked a spur of the moment trip out to New York on a train . 
+1-1	Last	O	O	JJ	O
+1-2	weekend	1-4_nsubj	booked	NN	P1_time_date
+1-3	I	1-4_nsubj	booked	PRP	P1_passenger
+1-4	booked	O	O	VBD	O
+1-5	a	O	O	DT	O
+1-6	spur	1-4_dobj	booked	NN	O
+1-7	of	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	moment	O	O	NN	O
+1-10	trip	O	O	NN	P1_trip
+1-11	out	1-4_prep	booked	IN	O
+1-12	to	O	O	TO	O
+1-13	New	O	O	NNP	O
+1-14	York	O	O	NNP	P1_destination
+1-15	on	O	O	O	O
+1-16	a	O	O	DT	O
+1-17	train	O	O	NN	P1_train
+1-18	.	O	O	O	O
+
+#id=2
+#text=I bought my ticket for the train right at the station , I was lucky they had some left . 
+2-1	I	2-2_nsubj	bought	PRP	P1_passenger
+2-2	bought	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_passenger
+2-4	ticket	2-2_dobj	bought	NN	P1_card/ticket
+2-5	for	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	train	O	O	NN	P1_train
+2-8	right	2-2_prep_for	bought	NN	O
+2-9	at	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	station	2-2_prep_at	bought	NN	P1_train_station
+2-12	,	O	O	O	O
+2-13	I	O	O	PRP	P1_passenger
+2-14	was	O	O	VBD	O
+2-15	lucky	O	O	JJ	O
+2-16	they	2-17_nsubj	had	PRP	P1_ticket_office/website
+2-17	had	O	O	VBD	O
+2-18	some	O	O	DT	O
+2-19	left	2-17_dobj	had	NN	O
+2-20	.	O	O	O	O
+
+#id=3
+#text=After waiting about thirty minutes my train pulled up and came to a stop . 
+3-1	After	O	O	O	O
+3-2	waiting	3-8_prepc_after	pulled	VBG	O
+3-3	about	O	O	O	O
+3-4	thirty	O	O	CD	O
+3-5	minutes	3-2_prep_about	waiting	NNS	P2_time_date
+3-6	my	O	O	PRP$	P1_passenger
+3-7	train	3-8_nsubj	pulled	NN	P1_train
+3-8	pulled	O	O	VBD	O
+3-9	up	3-8_prt	pulled	RP	O
+3-10	and	O	O	O	O
+3-11	came	3-8_conj_and	pulled	VBD	O
+3-12	to	O	O	O	O
+3-13	a	O	O	DT	O
+3-14	stop	3-11_prep_to	came	NN	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=I hopped on the train and found an open seat next to the window . 
+4-1	I	4-2_nsubj	hopped	PRP	P1_passenger
+4-2	hopped	O	O	VBD	O
+4-3	on	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	train	4-2_prep_on	hopped	NN	P1_train
+4-6	and	O	O	O	O
+4-7	found	4-2_conj_and	hopped	VBD	O
+4-8	an	O	O	DT	O
+4-9	open	O	O	JJ	O
+4-10	seat	4-7_dobj	found	NN	P1_seat
+4-11	next	O	O	O	O
+4-12	to	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	window	4-7_prep_next_to	found	NN	P1_location_train
+4-15	.	O	O	O	O
+
+#id=5
+#text=After everyone was on the train slowly eased forward as it built up speed to New York . 
+5-1	After	5-3_mark	was	IN	O
+5-2	everyone	5-3_nsubj	was	NN	P2_passenger
+5-3	was	5-8_csubj	eased	VBD	O
+5-4	on	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	train	5-3_prep_on	was	NN	P1_train
+5-7	slowly	5-8_advmod	eased	RB	O
+5-8	eased	O	O	VBD	O
+5-9	forward	5-8_advmod	eased	RB	O
+5-10	as	5-12_mark	built	IN	O
+5-11	it	5-12_nsubj	built	PRP	P1_train
+5-12	built	5-8_advcl	eased	VBD	O
+5-13	up	5-12_prt	built	RP	O
+5-14	speed	5-12_dobj	built	NN	O
+5-15	to	O	O	O	O
+5-16	New	O	O	NNP	O
+5-17	York	5-12_prep_to	built	NNP	P1_destination
+5-18	.	O	O	O	O
+
+#id=6
+#text=I enjoyed listening to the wheels of the train on the track as they clicked . 
+6-1	I	6-2_nsubj	enjoyed	PRP	P1_passenger
+6-2	enjoyed	O	O	VBD	O
+6-3	listening	6-2_xcomp	enjoyed	VBG	O
+6-4	to	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	wheels	6-3_prep_to	listening	NNS	P2_location_train
+6-7	of	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	train	O	O	NN	P1_train
+6-10	on	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	track	O	O	NN	P1_other
+6-13	as	6-15_mark	clicked	IN	O
+6-14	they	6-15_nsubj	clicked	PRP	P2_location_train
+6-15	clicked	6-2_advcl	enjoyed	VBD	O
+6-16	.	O	O	O	O
+
+#id=7
+#text=The train ride was smooth and I was even able to get some rest along the way . 
+7-1	The	O	O	DT	O
+7-2	train	O	O	NN	O
+7-3	ride	O	O	NN	P2_trip
+7-4	was	O	O	VBD	O
+7-5	smooth	O	O	JJ	O
+7-6	and	O	O	O	O
+7-7	I	O	O	PRP	P1_passenger
+7-8	was	O	O	VBD	O
+7-9	even	O	O	RB	O
+7-10	able	O	O	JJ	O
+7-11	to	7-12_aux	get	TO	O
+7-12	get	O	O	VB	O
+7-13	some	O	O	DT	O
+7-14	rest	7-12_dobj	get	NN	O
+7-15	along	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	way	O	O	NN	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=As the train arrived in New York the conductor came over the loud speaker and let us know we would be at our destination shortly . 
+8-1	As	8-4_mark	arrived	IN	O
+8-2	the	O	O	DT	O
+8-3	train	8-4_nsubj	arrived	NN	P1_train
+8-4	arrived	8-10_advcl	came	VBD	O
+8-5	in	O	O	O	O
+8-6	New	O	O	NNP	O
+8-7	York	8-4_prep_in	arrived	NNP	P1_destination
+8-8	the	O	O	DT	O
+8-9	conductor	8-10_nsubj	came	NN	P1_train_staff
+8-10	came	O	O	VBD	O
+8-11	over	8-10_prt	came	RP	O
+8-12	the	O	O	DT	O
+8-13	loud	O	O	JJ	O
+8-14	speaker	8-10_dobj	came	NN	P2_other
+8-15	and	O	O	O	O
+8-16	let	8-10_conj_and	came	VBD	O
+8-17	us	8-18_nsubj	know	PRP	P3_passenger
+8-18	know	8-16_ccomp	let	VBP	O
+8-19	we	8-21_nsubj	be	PRP	P3_passenger
+8-20	would	8-21_aux	be	MD	O
+8-21	be	8-18_ccomp	know	VB	O
+8-22	at	O	O	O	O
+8-23	our	O	O	PRP$	P3_passenger
+8-24	destination	8-21_prep_at	be	NN	P1_destination
+8-25	shortly	8-21_advmod	be	RB	O
+8-26	.	O	O	O	O
+
+#id=9
+#text=Once the train slowed to a complete stop , me and all the other passengers filed out and went our separate ways . 
+9-1	Once	9-4_mark	slowed	IN	O
+9-2	the	O	O	DT	O
+9-3	train	9-4_nsubj	slowed	NN	P1_train
+9-4	slowed	9-16_advcl	filed	VBD	O
+9-5	to	O	O	O	O
+9-6	a	O	O	DT	O
+9-7	complete	O	O	JJ	O
+9-8	stop	9-4_prep_to	slowed	NN	O
+9-9	,	O	O	O	O
+9-10	me	9-16_nsubj	filed	PRP	P1_passenger
+9-11	and	O	O	O	O
+9-12	all	O	O	PDT	O
+9-13	the	O	O	DT	O
+9-14	other	O	O	JJ	O
+9-15	passengers	O	O	NNS	P4_passenger
+9-16	filed	O	O	VBD	O
+9-17	out	9-16_prt	filed	RP	O
+9-18	and	O	O	O	O
+9-19	went	9-16_conj_and	filed	VBD	O
+9-20	our	O	O	PRP$	P3_passenger
+9-21	separate	O	O	JJ	O
+9-22	ways	9-19_dobj	went	NNS	P1_NPart_ways
+9-23	.	O	O	O	O

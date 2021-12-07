@@ -1,0 +1,232 @@
+#id=1
+#text=Yesterday , I went to get a haircut . 
+1-1	Yesterday	1-4_tmod	went	NN	P1_NPart_yesterday
+1-2	,	O	O	O	O
+1-3	I	1-4_nsubj	went	PRP	P1_customer
+1-4	went	O	O	VBD	O
+1-5	to	1-6_aux	get	TO	O
+1-6	get	1-4_xcomp	went	VB	O
+1-7	a	O	O	DT	O
+1-8	haircut	1-6_dobj	get	NN	P1_haircut
+1-9	.	O	O	O	O
+
+#id=2
+#text=When I walked into the salon , a lady named Sara came over and told me to follow her to the shampoo station . 
+2-1	When	2-3_advmod	walked	WRB	O
+2-2	I	2-3_nsubj	walked	PRP	P1_customer
+2-3	walked	2-10_advcl	named	VBD	O
+2-4	into	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	salon	2-3_prep_into	walked	NN	P1_salon
+2-7	,	O	O	O	O
+2-8	a	O	O	DT	O
+2-9	lady	2-10_nsubj	named	NN	P1_hairdresser
+2-10	named	O	O	VBD	O
+2-11	Sara	2-12_nsubj	came	NNP	P1_hairdresser
+2-12	came	2-10_ccomp	named	VBD	O
+2-13	over	2-12_prt	came	RP	O
+2-14	and	O	O	O	O
+2-15	told	2-12_conj_and	came	VBD	O
+2-16	me	2-15_dobj	told	PRP	P1_customer
+2-17	to	2-18_aux	follow	TO	O
+2-18	follow	2-15_xcomp	told	VB	O
+2-19	her	2-18_dobj	follow	PRP	P1_hairdresser
+2-20	to	O	O	O	O
+2-21	the	O	O	DT	O
+2-22	shampoo	O	O	NN	O
+2-23	station	2-18_prep_to	follow	NN	P1_location_salon
+2-24	.	O	O	O	O
+
+#id=3
+#text=I sat in a chair and another lady named Marsha washed my hair and put a towel around my head . 
+3-1	I	3-2_nsubj	sat	PRP	P1_customer
+3-2	sat	O	O	VBD	O
+3-3	in	O	O	O	O
+3-4	a	O	O	DT	O
+3-5	chair	3-2_prep_in	sat	NN	P1_chair
+3-6	and	O	O	O	O
+3-7	another	O	O	DT	O
+3-8	lady	3-9_nsubj	named	NN	P2_hairdresser
+3-9	named	3-2_conj_and	sat	VBD	O
+3-10	Marsha	3-11_nsubj	washed	NNP	P2_hairdresser
+3-11	washed	3-9_ccomp	named	VBD	O
+3-12	my	O	O	PRP$	P1_customer
+3-13	hair	3-11_dobj	washed	NN	P1_hair
+3-14	and	O	O	O	O
+3-15	put	3-11_conj_and	washed	VBD	O
+3-16	a	O	O	DT	O
+3-17	towel	3-15_dobj	put	NN	P1_towel
+3-18	around	O	O	O	O
+3-19	my	O	O	PRP$	P1_customer
+3-20	head	3-15_prep_around	put	NN	P1_NPart_head
+3-21	.	O	O	O	O
+
+#id=4
+#text=She then took me over to Sara who asked me to sit in her chair and put a cape around my neck . 
+4-1	She	4-3_nsubj	took	PRP	P2_hairdresser
+4-2	then	4-3_advmod	took	RB	O
+4-3	took	O	O	VBD	O
+4-4	me	4-3_dobj	took	PRP	P1_customer
+4-5	over	4-3_prt	took	RP	O
+4-6	to	O	O	O	O
+4-7	Sara	4-3_prep_to	took	NNP	P1_hairdresser
+4-8	who	4-9_nsubj	asked	WP	O
+4-9	asked	O	O	VBD	O
+4-10	me	4-9_dobj	asked	PRP	P1_customer
+4-11	to	4-12_aux	sit	TO	O
+4-12	sit	4-9_xcomp	asked	VB	O
+4-13	in	O	O	O	O
+4-14	her	O	O	PRP$	P1_hairdresser
+4-15	chair	4-12_prep_in	sit	NN	P2_chair
+4-16	and	O	O	O	O
+4-17	put	4-3_conj_and	took	VBD	O
+4-18	a	O	O	DT	O
+4-19	cape	4-17_dobj	put	NN	P1_cape
+4-20	around	O	O	O	O
+4-21	my	O	O	PRP$	P1_customer
+4-22	neck	4-17_prep_around	put	NN	P1_NPart_neck
+4-23	.	O	O	O	O
+
+#id=5
+#text=Next Sara asked me how short I wanted my hair . 
+5-1	Next	O	O	NNP	O
+5-2	Sara	5-3_nsubj	asked	NNP	P1_hairdresser
+5-3	asked	O	O	VBD	O
+5-4	me	5-3_dobj	asked	PRP	P1_customer
+5-5	how	5-8_advmod	wanted	WRB	O
+5-6	short	O	O	JJ	O
+5-7	I	5-8_nsubj	wanted	PRP	P1_customer
+5-8	wanted	5-3_dep	asked	VBD	O
+5-9	my	O	O	PRP$	P1_customer
+5-10	hair	5-8_dobj	wanted	NN	P1_hair
+5-11	.	O	O	O	O
+
+#id=6
+#text=I told her I still wanted it to be a little past my shoulders , therefore , she should only cut off about 1 inch . 
+6-1	I	6-2_nsubj	told	PRP	P1_customer
+6-2	told	6-21_ccomp	cut	VBD	O
+6-3	her	6-2_dobj	told	PRP	P1_hairdresser
+6-4	I	6-6_nsubj	wanted	PRP	P1_customer
+6-5	still	6-6_advmod	wanted	RB	O
+6-6	wanted	6-2_dep	told	VBD	O
+6-7	it	6-6_dobj	wanted	PRP	P1_hair
+6-8	to	6-9_aux	be	TO	O
+6-9	be	6-6_xcomp	wanted	VB	O
+6-10	a	O	O	DT	O
+6-11	little	6-9_npadvmod	be	JJ	O
+6-12	past	O	O	O	O
+6-13	my	O	O	PRP$	P1_customer
+6-14	shoulders	6-9_prep_past	be	NNS	P1_other
+6-15	,	O	O	O	O
+6-16	therefore	6-9_advmod	be	RB	O
+6-17	,	O	O	O	O
+6-18	she	6-21_nsubj	cut	PRP	P1_hairdresser
+6-19	should	6-21_aux	cut	MD	O
+6-20	only	6-21_advmod	cut	RB	O
+6-21	cut	O	O	VB	O
+6-22	off	6-21_prt	cut	RP	O
+6-23	about	O	O	RB	O
+6-24	1	O	O	CD	O
+6-25	inch	6-21_dobj	cut	NN	P1_NPart_inch
+6-26	.	O	O	O	O
+
+#id=7
+#text=She told me that was fine and began cutting my hair . 
+7-1	She	7-2_nsubj	told	PRP	P1_hairdresser
+7-2	told	O	O	VBD	O
+7-3	me	7-2_dobj	told	PRP	P1_customer
+7-4	that	O	O	IN	O
+7-5	was	O	O	VBD	O
+7-6	fine	7-2_ccomp	told	JJ	O
+7-7	and	O	O	O	O
+7-8	began	7-2_conj_and	told	VBD	O
+7-9	cutting	7-8_xcomp	began	VBG	O
+7-10	my	O	O	PRP$	P1_customer
+7-11	hair	7-9_dobj	cutting	NN	P1_hair
+7-12	.	O	O	O	O
+
+#id=8
+#text=It took her about twenty minutes to cut an inch off of all of my hair . 
+8-1	It	8-2_nsubj	took	PRP	O
+8-2	took	O	O	VBD	O
+8-3	her	8-2_dobj	took	PRP	P1_hairdresser
+8-4	about	O	O	O	O
+8-5	twenty	O	O	CD	O
+8-6	minutes	8-2_prep_about	took	NNS	P1_time/date
+8-7	to	8-8_aux	cut	TO	O
+8-8	cut	8-2_vmod	took	VB	O
+8-9	an	O	O	DT	O
+8-10	inch	8-8_dobj	cut	NN	P2_NPart_inch
+8-11	off	O	O	O	O
+8-12	of	O	O	O	O
+8-13	all	8-8_prep_off_of	cut	DT	O
+8-14	of	O	O	O	O
+8-15	my	O	O	PRP$	P1_customer
+8-16	hair	O	O	NN	P1_hair
+8-17	.	O	O	O	O
+
+#id=9
+#text=After she cut it , she took the blow dryer out and dried my hair . 
+9-1	After	9-3_mark	cut	IN	O
+9-2	she	9-3_nsubj	cut	PRP	P1_hairdresser
+9-3	cut	9-7_advcl	took	VBD	O
+9-4	it	9-3_dobj	cut	PRP	P1_hair
+9-5	,	O	O	O	O
+9-6	she	9-7_nsubj	took	PRP	P1_hairdresser
+9-7	took	O	O	VBD	O
+9-8	the	O	O	DT	O
+9-9	blow	O	O	NN	O
+9-10	dryer	9-7_dobj	took	NN	P1_hairdryer
+9-11	out	9-7_prt	took	RP	O
+9-12	and	O	O	O	O
+9-13	dried	9-7_conj_and	took	VBD	O
+9-14	my	O	O	PRP$	P1_customer
+9-15	hair	9-13_dobj	dried	NN	P1_hair
+9-16	.	O	O	O	O
+
+#id=10
+#text=Then she curled it with a curling iron . 
+10-1	Then	10-3_advmod	curled	RB	O
+10-2	she	10-3_nsubj	curled	PRP	P1_hairdresser
+10-3	curled	O	O	VBD	O
+10-4	it	10-3_dobj	curled	PRP	P1_hair
+10-5	with	O	O	O	O
+10-6	a	O	O	DT	O
+10-7	curling	O	O	VBG	O
+10-8	iron	10-3_prep_with	curled	NN	P1_hair_styling/treatment
+10-9	.	O	O	O	O
+
+#id=11
+#text=It looked really great ! 
+11-1	It	11-2_nsubj	looked	PRP	P1_hair
+11-2	looked	O	O	VBD	O
+11-3	really	O	O	RB	O
+11-4	great	11-2_acomp	looked	JJ	O
+11-5	!	O	O	O	O
+
+#id=12
+#text=So I paid her for cutting my hair and told her how much I appreciated the great job that she did for me ! 
+12-1	So	12-3_dep	paid	IN	O
+12-2	I	12-3_nsubj	paid	PRP	P1_customer
+12-3	paid	O	O	VBD	O
+12-4	her	12-3_dobj	paid	PRP	P1_hairdresser
+12-5	for	O	O	O	O
+12-6	cutting	12-3_prepc_for	paid	VBG	O
+12-7	my	O	O	PRP$	P1_customer
+12-8	hair	12-6_dobj	cutting	NN	P1_hair
+12-9	and	O	O	O	O
+12-10	told	12-3_conj_and	paid	VBD	O
+12-11	her	12-10_dobj	told	PRP	P1_hairdresser
+12-12	how	O	O	WRB	O
+12-13	much	12-15_dep	appreciated	JJ	O
+12-14	I	12-15_nsubj	appreciated	PRP	P1_customer
+12-15	appreciated	12-10_dep	told	VBD	O
+12-16	the	O	O	DT	O
+12-17	great	O	O	JJ	O
+12-18	job	12-15_dobj	appreciated	NN	O
+12-19	that	12-21_mark	did	IN	O
+12-20	she	12-21_nsubj	did	PRP	P1_hairdresser
+12-21	did	12-15_ccomp	appreciated	VBD	O
+12-22	for	O	O	O	O
+12-23	me	12-21_prep_for	did	PRP	P1_customer
+12-24	!	O	O	O	O

@@ -1,0 +1,220 @@
+#id=1
+#text=A couple of nights ago I felt really sick , and one of the things that usually helps me feel better is to take a hot bath . 
+1-1	A	O	O	DT	O
+1-2	couple	O	O	NN	O
+1-3	of	O	O	O	O
+1-4	nights	O	O	NNS	P1_NPart_nights
+1-5	ago	1-7_advmod	felt	IN	O
+1-6	I	1-7_nsubj	felt	PRP	P1_bather
+1-7	felt	O	O	VBD	O
+1-8	really	O	O	RB	O
+1-9	sick	1-7_acomp	felt	JJ	O
+1-10	,	O	O	O	O
+1-11	and	O	O	O	O
+1-12	one	1-22_nsubj	is	CD	O
+1-13	of	O	O	O	O
+1-14	the	O	O	DT	O
+1-15	things	O	O	NNS	O
+1-16	that	1-18_nsubj	helps	WDT	O
+1-17	usually	1-18_advmod	helps	RB	O
+1-18	helps	O	O	VBZ	O
+1-19	me	1-20_nsubj	feel	PRP	P1_bather
+1-20	feel	1-18_ccomp	helps	VBP	O
+1-21	better	1-20_advmod	feel	RBR	O
+1-22	is	1-7_conj_and	felt	VBZ	O
+1-23	to	1-24_aux	take	TO	O
+1-24	take	1-22_xcomp	is	VB	O
+1-25	a	O	O	DT	O
+1-26	hot	O	O	JJ	O
+1-27	bath	1-24_dobj	take	NN	O
+1-28	.	O	O	O	O
+
+#id=2
+#text=So I went into my bathroom and prepared the bath tub . 
+2-1	So	2-3_dep	went	IN	O
+2-2	I	2-3_nsubj	went	PRP	P1_bather
+2-3	went	O	O	VBD	O
+2-4	into	O	O	O	O
+2-5	my	O	O	PRP$	P1_bather
+2-6	bathroom	2-3_prep_into	went	NN	P1_bathroom
+2-7	and	O	O	O	O
+2-8	prepared	2-3_conj_and	went	VBD	O
+2-9	the	O	O	DT	O
+2-10	bath	O	O	NN	O
+2-11	tub	2-8_dobj	prepared	NN	P1_bathtub
+2-12	.	O	O	O	O
+
+#id=3
+#text=First I plugged the drain so the water would n't escape . 
+3-1	First	3-3_advmod	plugged	RB	O
+3-2	I	3-3_nsubj	plugged	PRP	P1_bather
+3-3	plugged	O	O	VBD	O
+3-4	the	O	O	DT	O
+3-5	drain	3-3_dobj	plugged	NN	P1_drain
+3-6	so	3-11_mark	escape	IN	O
+3-7	the	O	O	DT	O
+3-8	water	3-11_nsubj	escape	NN	P1_water
+3-9	would	3-11_aux	escape	MD	O
+3-10	n't	3-11_neg	escape	RB	O
+3-11	escape	3-3_advcl	plugged	VB	O
+3-12	.	O	O	O	O
+
+#id=4
+#text=Then I turned on the hot water and let it fill up . 
+4-1	Then	4-3_advmod	turned	RB	O
+4-2	I	4-3_nsubj	turned	PRP	P1_bather
+4-3	turned	O	O	VBD	O
+4-4	on	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	hot	O	O	JJ	O
+4-7	water	4-3_prep_on	turned	NN	P1_water
+4-8	and	O	O	O	O
+4-9	let	4-3_conj_and	turned	VBD	O
+4-10	it	4-11_nsubj	fill	PRP	P1_water
+4-11	fill	4-9_ccomp	let	VB	O
+4-12	up	4-11_prt	fill	RP	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=The process took about five minutes . 
+5-1	The	O	O	DT	O
+5-2	process	5-3_nsubj	took	NN	P1_NPart_process
+5-3	took	O	O	VBD	O
+5-4	about	O	O	RB	O
+5-5	five	O	O	CD	O
+5-6	minutes	5-3_dobj	took	NNS	P1_NPart_minutes
+5-7	.	O	O	O	O
+
+#id=6
+#text=I then tested the water to see how hot it was , because I did n't want to jump right in and burn myself . 
+6-1	I	6-3_nsubj	tested	PRP	P1_bather
+6-2	then	6-3_advmod	tested	RB	O
+6-3	tested	O	O	VBD	O
+6-4	the	O	O	DT	O
+6-5	water	6-3_dobj	tested	NN	P1_water
+6-6	to	6-7_aux	see	TO	O
+6-7	see	6-3_vmod	tested	VB	O
+6-8	how	O	O	WRB	O
+6-9	hot	6-11_dep	was	JJ	O
+6-10	it	6-11_nsubj	was	PRP	P1_water
+6-11	was	6-7_ccomp	see	VBD	O
+6-12	,	O	O	O	O
+6-13	because	6-17_mark	want	IN	O
+6-14	I	6-17_nsubj	want	PRP	P1_bather
+6-15	did	6-17_aux	want	VBD	O
+6-16	n't	6-17_neg	want	RB	O
+6-17	want	6-3_advcl	tested	VB	O
+6-18	to	6-19_aux	jump	TO	O
+6-19	jump	6-17_xcomp	want	VB	O
+6-20	right	6-19_advmod	jump	RB	O
+6-21	in	6-19_prep	jump	IN	O
+6-22	and	O	O	O	O
+6-23	burn	6-19_conj_and	jump	VB	O
+6-24	myself	6-23_dobj	burn	PRP	P1_bather
+6-25	.	O	O	O	O
+
+#id=7
+#text=I decided it was a little too hot , so I let it cool for a couple of minutes . 
+7-1	I	7-2_nsubj	decided	PRP	P1_bather
+7-2	decided	O	O	VBD	O
+7-3	it	O	O	PRP	P1_water
+7-4	was	O	O	VBD	O
+7-5	a	O	O	DT	O
+7-6	little	O	O	RB	O
+7-7	too	O	O	RB	O
+7-8	hot	7-2_ccomp	decided	JJ	O
+7-9	,	O	O	O	O
+7-10	so	7-2_dep	decided	IN	O
+7-11	I	7-12_nsubj	let	PRP	P1_bather
+7-12	let	7-2_parataxis	decided	VBD	O
+7-13	it	7-14_nsubj	cool	PRP	P1_water
+7-14	cool	7-12_ccomp	let	VBP	O
+7-15	for	O	O	O	O
+7-16	a	O	O	DT	O
+7-17	couple	7-14_prep_for	cool	NN	O
+7-18	of	O	O	O	O
+7-19	minutes	O	O	NNS	P2_NPart_minutes
+7-20	.	O	O	O	O
+
+#id=8
+#text=Once the water was a comfortable temperature I stepped in and laid down in the water . 
+8-1	Once	O	O	IN	O
+8-2	the	O	O	DT	O
+8-3	water	O	O	NN	P1_water
+8-4	was	O	O	VBD	O
+8-5	a	O	O	DT	O
+8-6	comfortable	O	O	JJ	O
+8-7	temperature	8-9_advcl	stepped	NN	P1_temperature
+8-8	I	8-9_nsubj	stepped	PRP	P1_bather
+8-9	stepped	O	O	VBD	O
+8-10	in	8-9_prt	stepped	RP	O
+8-11	and	O	O	O	O
+8-12	laid	8-9_conj_and	stepped	VBD	O
+8-13	down	8-12_prt	laid	RP	O
+8-14	in	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	water	8-12_prep_in	laid	NN	P1_water
+8-17	.	O	O	O	O
+
+#id=9
+#text=I let the warm water sooth my aches and pains and I began to feel better . 
+9-1	I	9-2_nsubj	let	PRP	P1_bather
+9-2	let	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	warm	O	O	JJ	O
+9-5	water	9-6_nsubj	sooth	NN	P1_water
+9-6	sooth	9-2_ccomp	let	VBP	O
+9-7	my	O	O	PRP$	P1_bather
+9-8	aches	9-6_dobj	sooth	NNS	P1_NPart_aches
+9-9	and	O	O	O	O
+9-10	pains	O	O	NNS	P1_NPart_pains
+9-11	and	O	O	O	O
+9-12	I	9-13_nsubj	began	PRP	P1_bather
+9-13	began	9-2_conj_and	let	VBD	O
+9-14	to	9-15_aux	feel	TO	O
+9-15	feel	9-13_xcomp	began	VB	O
+9-16	better	9-15_advmod	feel	RBR	O
+9-17	.	O	O	O	O
+
+#id=10
+#text=I had n't taken a shower that day , so I decided I should also clean myself while I was in the bath . 
+10-1	I	10-4_nsubj	taken	PRP	P1_bather
+10-2	had	10-4_aux	taken	VBD	O
+10-3	n't	10-4_neg	taken	RB	O
+10-4	taken	O	O	VBN	O
+10-5	a	O	O	DT	O
+10-6	shower	10-4_dobj	taken	NN	P1_shower
+10-7	that	O	O	DT	O
+10-8	day	O	O	NN	O
+10-9	,	O	O	O	O
+10-10	so	10-4_dep	taken	IN	O
+10-11	I	10-12_nsubj	decided	PRP	P1_bather
+10-12	decided	10-4_parataxis	taken	VBD	O
+10-13	I	10-16_nsubj	clean	PRP	P1_bather
+10-14	should	10-16_aux	clean	MD	O
+10-15	also	10-16_advmod	clean	RB	O
+10-16	clean	10-12_ccomp	decided	VB	O
+10-17	myself	10-16_dobj	clean	PRP	P1_bather
+10-18	while	10-20_mark	was	IN	O
+10-19	I	10-20_nsubj	was	PRP	P1_bather
+10-20	was	10-16_advcl	clean	VBD	O
+10-21	in	O	O	O	O
+10-22	the	O	O	DT	O
+10-23	bath	10-20_prep_in	was	NN	O
+10-24	.	O	O	O	O
+
+#id=11
+#text=Once that was over I unplugged the drain and dried myself off . 
+11-1	Once	O	O	IN	O
+11-2	that	O	O	DT	O
+11-3	was	O	O	VBD	O
+11-4	over	11-6_advcl	unplugged	RP	O
+11-5	I	11-6_nsubj	unplugged	PRP	P1_bather
+11-6	unplugged	O	O	VBD	O
+11-7	the	O	O	DT	O
+11-8	drain	11-6_dobj	unplugged	NN	P1_drain
+11-9	and	O	O	O	O
+11-10	dried	11-6_conj_and	unplugged	VBD	O
+11-11	myself	11-10_dobj	dried	PRP	P1_bather
+11-12	off	11-10_prt	dried	RP	O
+11-13	.	O	O	O	O

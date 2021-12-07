@@ -1,0 +1,250 @@
+#id=1
+#text=I made a list of all the things we needed to buy beforehand . 
+1-1	I	1-2_nsubj	made	PRP	P1_shopper
+1-2	made	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	list	1-2_dobj	made	NN	P1_grocery_list
+1-5	of	O	O	O	O
+1-6	all	O	O	PDT	O
+1-7	the	O	O	DT	O
+1-8	things	O	O	NNS	P1_groceries
+1-9	we	1-10_nsubj	needed	PRP	P1_shopper
+1-10	needed	O	O	VBD	O
+1-11	to	1-12_aux	buy	TO	O
+1-12	buy	1-10_xcomp	needed	VB	O
+1-13	beforehand	1-12_advmod	buy	RB	O
+1-14	.	O	O	O	O
+
+#id=2
+#text=Next to the name of each object , I added the last price I remembered for it . 
+2-1	Next	O	O	O	O
+2-2	to	O	O	O	O
+2-3	the	O	O	DT	O
+2-4	name	2-10_prep_next_to	added	NN	P1_NPart_name
+2-5	of	O	O	O	O
+2-6	each	O	O	DT	O
+2-7	object	O	O	NN	P1_groceries
+2-8	,	O	O	O	O
+2-9	I	2-10_nsubj	added	PRP	P1_shopper
+2-10	added	O	O	VBD	O
+2-11	the	O	O	DT	O
+2-12	last	O	O	JJ	O
+2-13	price	2-10_dobj	added	NN	P1_price
+2-14	I	2-15_nsubj	remembered	PRP	P1_shopper
+2-15	remembered	O	O	VBD	O
+2-16	for	O	O	O	O
+2-17	it	2-15_prep_for	remembered	PRP	P1_groceries
+2-18	.	O	O	O	O
+
+#id=3
+#text=Then , I added up all the prices to get a general range for our budget . 
+3-1	Then	3-4_advmod	added	RB	O
+3-2	,	O	O	O	O
+3-3	I	3-4_nsubj	added	PRP	P1_shopper
+3-4	added	O	O	VBD	O
+3-5	up	3-4_prt	added	RP	O
+3-6	all	O	O	PDT	O
+3-7	the	O	O	DT	O
+3-8	prices	3-4_dobj	added	NNS	P1_price
+3-9	to	3-10_aux	get	TO	O
+3-10	get	3-4_vmod	added	VB	O
+3-11	a	O	O	DT	O
+3-12	general	O	O	JJ	O
+3-13	range	3-10_dobj	get	NN	P1_NPart_range
+3-14	for	O	O	O	O
+3-15	our	O	O	PRP$	P1_shopper
+3-16	budget	O	O	NN	P1_payment_means
+3-17	.	O	O	O	O
+
+#id=4
+#text=I marked off what items I could leave behind if we were going to spend too much money . 
+4-1	I	4-2_nsubj	marked	PRP	P1_shopper
+4-2	marked	O	O	VBD	O
+4-3	off	4-2_prt	marked	RP	O
+4-4	what	4-5_nsubj	items	WP	O
+4-5	items	4-2_ccomp	marked	VBD	P1_groceries
+4-6	I	4-8_nsubj	leave	PRP	P1_shopper
+4-7	could	4-8_aux	leave	MD	O
+4-8	leave	4-5_ccomp	items	VB	O
+4-9	behind	4-8_prt	leave	RP	O
+4-10	if	4-13_mark	going	IN	O
+4-11	we	4-13_nsubj	going	PRP	P1_shopper
+4-12	were	4-13_aux	going	VBD	O
+4-13	going	4-8_advcl	leave	VBG	O
+4-14	to	4-15_aux	spend	TO	O
+4-15	spend	4-13_xcomp	going	VB	O
+4-16	too	O	O	RB	O
+4-17	much	O	O	JJ	O
+4-18	money	4-15_dobj	spend	NN	P1_payment_means
+4-19	.	O	O	O	O
+
+#id=5
+#text=I also added items we could add if we saved a lot of money . 
+5-1	I	5-3_nsubj	added	PRP	P1_shopper
+5-2	also	5-3_advmod	added	RB	O
+5-3	added	O	O	VBD	O
+5-4	items	5-3_dobj	added	NNS	P1_groceries
+5-5	we	5-7_nsubj	add	PRP	P1_shopper
+5-6	could	5-7_aux	add	MD	O
+5-7	add	O	O	VB	O
+5-8	if	5-10_mark	saved	IN	O
+5-9	we	5-10_nsubj	saved	PRP	P1_shopper
+5-10	saved	5-7_advcl	add	VBD	O
+5-11	a	O	O	DT	O
+5-12	lot	5-10_dobj	saved	NN	O
+5-13	of	O	O	O	O
+5-14	money	O	O	NN	P1_payment_means
+5-15	.	O	O	O	O
+
+#id=6
+#text=Then , I made sure there was plenty of room in the car to hold the groceries and put my reusable grocery bags in the trunk . 
+6-1	Then	6-4_advmod	made	RB	O
+6-2	,	O	O	O	O
+6-3	I	6-4_nsubj	made	PRP	P1_shopper
+6-4	made	O	O	VBD	O
+6-5	sure	6-4_acomp	made	JJ	O
+6-6	there	6-7_expl	was	EX	O
+6-7	was	O	O	VBD	O
+6-8	plenty	6-7_nsubj	was	RB	O
+6-9	of	O	O	O	O
+6-10	room	O	O	NN	P1_NPart_room
+6-11	in	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	car	O	O	NN	P1_vehicle
+6-14	to	6-15_aux	hold	TO	O
+6-15	hold	O	O	VB	O
+6-16	the	O	O	DT	O
+6-17	groceries	6-15_dobj	hold	NNS	P1_groceries
+6-18	and	O	O	O	O
+6-19	put	6-15_conj_and	hold	VB	O
+6-20	my	O	O	PRP$	P1_shopper
+6-21	reusable	O	O	JJ	O
+6-22	grocery	O	O	NN	O
+6-23	bags	6-19_dobj	put	NNS	P1_shopping_bags
+6-24	in	O	O	O	O
+6-25	the	O	O	DT	O
+6-26	trunk	6-19_prep_in	put	NN	P1_vehicle
+6-27	.	O	O	O	O
+
+#id=7
+#text=The next day , I drove to the store and picked up what items were on my list and wrote down what prices I actually paid for them . 
+7-1	The	O	O	DT	O
+7-2	next	O	O	JJ	O
+7-3	day	7-6_tmod	drove	NN	P1_NPart_day
+7-4	,	O	O	O	O
+7-5	I	7-6_nsubj	drove	PRP	P1_shopper
+7-6	drove	O	O	VBD	O
+7-7	to	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	store	7-6_prep_to	drove	NN	P1_grocery_shop
+7-10	and	O	O	O	O
+7-11	picked	7-6_conj_and	drove	VBD	O
+7-12	up	7-11_prt	picked	RP	O
+7-13	what	7-15_dobj	were	WP	O
+7-14	items	7-15_nsubj	were	NNS	P1_groceries
+7-15	were	7-6_ccomp	drove	VBD	O
+7-16	on	O	O	O	O
+7-17	my	O	O	PRP$	P1_shopper
+7-18	list	7-15_prep_on	were	NN	P1_grocery_list
+7-19	and	O	O	O	O
+7-20	wrote	7-15_conj_and	were	VBD	O
+7-21	down	7-20_advmod	wrote	RB	O
+7-22	what	O	O	WP	O
+7-23	prices	7-26_dobj	paid	NNS	P1_price
+7-24	I	7-26_nsubj	paid	PRP	P1_shopper
+7-25	actually	7-26_advmod	paid	RB	O
+7-26	paid	7-20_ccomp	wrote	VBD	O
+7-27	for	O	O	O	O
+7-28	them	7-26_prep_for	paid	PRP	P1_groceries
+7-29	.	O	O	O	O
+
+#id=8
+#text=Since I had extra money , I also bought some ice cream . 
+8-1	Since	8-3_mark	had	IN	O
+8-2	I	8-3_nsubj	had	PRP	P1_shopper
+8-3	had	8-9_advcl	bought	VBD	O
+8-4	extra	O	O	JJ	O
+8-5	money	8-3_dobj	had	NN	P1_payment_means
+8-6	,	O	O	O	O
+8-7	I	8-9_nsubj	bought	PRP	P1_shopper
+8-8	also	8-9_advmod	bought	RB	O
+8-9	bought	O	O	VBD	O
+8-10	some	O	O	DT	O
+8-11	ice	O	O	NN	O
+8-12	cream	8-9_dobj	bought	NN	P2_groceries
+8-13	.	O	O	O	O
+
+#id=9
+#text=I headed to the check-out and placed all my items gently on the conveyer belt . 
+9-1	I	9-2_nsubj	headed	PRP	P1_shopper
+9-2	headed	O	O	VBD	O
+9-3	to	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	check-out	9-2_prep_to	headed	NN	P1_cash_desk
+9-6	and	O	O	O	O
+9-7	placed	9-2_conj_and	headed	VBD	O
+9-8	all	O	O	PDT	O
+9-9	my	O	O	PRP$	P1_shopper
+9-10	items	9-7_dobj	placed	NNS	P1_groceries
+9-11	gently	9-7_advmod	placed	RB	O
+9-12	on	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	conveyer	O	O	NN	O
+9-15	belt	9-7_prep_on	placed	NN	P1_conveyor_belt
+9-16	.	O	O	O	O
+
+#id=10
+#text=I said hi to the cashier , paid her what I owed , and took the groceries back to my car . 
+10-1	I	10-2_nsubj	said	PRP	P1_shopper
+10-2	said	10-8_ccomp	paid	VBD	O
+10-3	hi	10-2_discourse	said	UH	P1_NPart_hi
+10-4	to	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	cashier	10-2_prep_to	said	NN	P1_grocery_staff
+10-7	,	O	O	O	O
+10-8	paid	O	O	VBD	O
+10-9	her	10-8_nsubj	paid	PRP	P1_grocery_staff
+10-10	what	10-12_dobj	owed	WP	P1_payment_means
+10-11	I	10-12_nsubj	owed	PRP	P1_shopper
+10-12	owed	10-8_dep	paid	VBD	O
+10-13	,	O	O	O	O
+10-14	and	O	O	O	O
+10-15	took	10-12_conj_and	owed	VBD	O
+10-16	the	O	O	DT	O
+10-17	groceries	10-15_dobj	took	NNS	P1_groceries
+10-18	back	10-15_prt	took	RP	O
+10-19	to	O	O	O	O
+10-20	my	O	O	PRP$	P1_shopper
+10-21	car	10-15_prep_to	took	NN	P1_vehicle
+10-22	.	O	O	O	O
+
+#id=11
+#text=I made sure to put the cart away , too . 
+11-1	I	11-2_nsubj	made	PRP	P1_shopper
+11-2	made	O	O	VBD	O
+11-3	sure	11-2_acomp	made	JJ	O
+11-4	to	11-5_aux	put	TO	O
+11-5	put	O	O	VB	O
+11-6	the	O	O	DT	O
+11-7	cart	11-5_dobj	put	NN	P1_shopping_cart/basket
+11-8	away	11-5_advmod	put	RB	O
+11-9	,	O	O	O	O
+11-10	too	11-5_advmod	put	RB	O
+11-11	.	O	O	O	O
+
+#id=12
+#text=Then , I drove home and unloaded the groceries into their proper places . 
+12-1	Then	12-4_advmod	drove	RB	O
+12-2	,	O	O	O	O
+12-3	I	12-4_nsubj	drove	PRP	P1_shopper
+12-4	drove	O	O	VBD	O
+12-5	home	12-4_dobj	drove	NN	P1_NPart_home
+12-6	and	O	O	O	O
+12-7	unloaded	12-4_conj_and	drove	JJ	O
+12-8	the	O	O	DT	O
+12-9	groceries	O	O	NNS	P1_groceries
+12-10	into	O	O	O	O
+12-11	their	O	O	PRP$	P1_groceries
+12-12	proper	O	O	JJ	O
+12-13	places	O	O	NNS	P1_NPart_places
+12-14	.	O	O	O	O

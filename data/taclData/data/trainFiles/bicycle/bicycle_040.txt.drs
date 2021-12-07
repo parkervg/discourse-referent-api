@@ -1,0 +1,188 @@
+#id=1
+#text=As I was bring my bike out of the garage I realized the rear tire had flat and there was clearly a small hissing sound where there was a puncture . 
+1-1	As	1-4_mark	bring	IN	O
+1-2	I	1-4_nsubj	bring	PRP	P1_rider
+1-3	was	1-4_aux	bring	VBD	O
+1-4	bring	1-12_advcl	realized	VB	O
+1-5	my	O	O	PRP$	P1_rider
+1-6	bike	1-4_dobj	bring	NN	P1_bicycle
+1-7	out	O	O	O	O
+1-8	of	O	O	O	O
+1-9	the	O	O	DT	O
+1-10	garage	1-4_prep_out_of	bring	NN	P1_location_repair
+1-11	I	1-12_nsubj	realized	PRP	P1_rider
+1-12	realized	O	O	VBD	O
+1-13	the	O	O	DT	O
+1-14	rear	O	O	JJ	O
+1-15	tire	1-16_nsubj	had	NN	P1_tire
+1-16	had	1-12_ccomp	realized	VBD	O
+1-17	flat	1-16_dobj	had	JJ	O
+1-18	and	O	O	O	O
+1-19	there	1-20_expl	was	EX	O
+1-20	was	1-12_conj_and	realized	VBD	O
+1-21	clearly	1-20_advmod	was	RB	O
+1-22	a	O	O	DT	O
+1-23	small	O	O	JJ	O
+1-24	hissing	O	O	NN	O
+1-25	sound	1-20_nsubj	was	NN	P1_NPart_sound
+1-26	where	1-28_advmod	was	WRB	O
+1-27	there	1-28_expl	was	EX	O
+1-28	was	O	O	VBD	O
+1-29	a	O	O	DT	O
+1-30	puncture	1-28_nsubj	was	NN	P1_damage
+1-31	.	O	O	O	O
+
+#id=2
+#text=I got my tools and loosened and removed the nuts holding the tire on the bike . 
+2-1	I	2-2_nsubj	got	PRP	P1_rider
+2-2	got	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_rider
+2-4	tools	2-2_dobj	got	NNS	P1_tool
+2-5	and	O	O	O	O
+2-6	loosened	O	O	NNS	O
+2-7	and	O	O	O	O
+2-8	removed	2-2_conj_and	got	VBD	O
+2-9	the	O	O	DT	O
+2-10	nuts	2-8_dobj	removed	NNS	P1_bicycle_small_detail
+2-11	holding	2-8_xcomp	removed	VBG	O
+2-12	the	O	O	DT	O
+2-13	tire	2-11_dobj	holding	NN	P1_tire
+2-14	on	O	O	O	O
+2-15	the	O	O	DT	O
+2-16	bike	2-11_prep_on	holding	NN	P1_bicycle
+2-17	.	O	O	O	O
+
+#id=3
+#text=Using a screwdriver I wedged underneath the tire removing it from the metal wheel . 
+3-1	Using	3-5_dep	wedged	VBG	O
+3-2	a	O	O	DT	O
+3-3	screwdriver	3-1_dobj	Using	NN	P2_tool
+3-4	I	3-5_nsubj	wedged	PRP	P1_rider
+3-5	wedged	O	O	VBD	O
+3-6	underneath	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	tire	3-5_prep_underneath	wedged	NN	P1_tire
+3-9	removing	3-5_xcomp	wedged	VBG	O
+3-10	it	3-9_dobj	removing	PRP	P1_tire
+3-11	from	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	metal	O	O	NN	O
+3-14	wheel	3-9_prep_from	removing	NN	P1_wheel
+3-15	.	O	O	O	O
+
+#id=4
+#text=I removed the tire tube and cleaned off the punctured area with a dry cloth . 
+4-1	I	4-2_nsubj	removed	PRP	P1_rider
+4-2	removed	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	tire	O	O	NN	O
+4-5	tube	4-2_dobj	removed	NN	P1_tire
+4-6	and	O	O	O	O
+4-7	cleaned	4-2_conj_and	removed	VBD	O
+4-8	off	4-7_prt	cleaned	RP	O
+4-9	the	O	O	DT	O
+4-10	punctured	O	O	JJ	O
+4-11	area	4-7_dobj	cleaned	NN	P1_damage
+4-12	with	O	O	O	O
+4-13	a	O	O	DT	O
+4-14	dry	O	O	JJ	O
+4-15	cloth	O	O	NN	P3_tool
+4-16	.	O	O	O	O
+
+#id=5
+#text=I put tire repair glue on the hole and placed a tire patch on the glue and held it tight for several minutes until the glue dried . 
+5-1	I	5-2_nsubj	put	PRP	P1_rider
+5-2	put	O	O	VBD	O
+5-3	tire	O	O	NN	O
+5-4	repair	O	O	NN	O
+5-5	glue	5-2_dobj	put	NN	P4_tool
+5-6	on	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	hole	O	O	NN	P1_damage
+5-9	and	O	O	O	O
+5-10	placed	5-2_conj_and	put	VBD	O
+5-11	a	O	O	DT	O
+5-12	tire	O	O	NN	O
+5-13	patch	5-10_dobj	placed	NN	P1_patch
+5-14	on	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	glue	5-10_prep_on	placed	NN	P4_tool
+5-17	and	O	O	O	O
+5-18	held	5-10_conj_and	placed	JJ	O
+5-19	it	O	O	PRP	P1_patch
+5-20	tight	O	O	RB	O
+5-21	for	O	O	O	O
+5-22	several	O	O	JJ	O
+5-23	minutes	O	O	NNS	P1_NPart_minutes
+5-24	until	5-27_mark	dried	IN	O
+5-25	the	O	O	DT	O
+5-26	glue	5-27_nsubj	dried	NN	P4_tool
+5-27	dried	5-10_advcl	placed	VBD	O
+5-28	.	O	O	O	O
+
+#id=6
+#text=I filled it up to ensure the hole was not leaking any air . 
+6-1	I	6-2_nsubj	filled	PRP	P1_rider
+6-2	filled	O	O	VBD	O
+6-3	it	6-2_dobj	filled	PRP	P1_tire
+6-4	up	6-2_advmod	filled	RB	O
+6-5	to	6-6_aux	ensure	TO	O
+6-6	ensure	O	O	VB	O
+6-7	the	O	O	DT	O
+6-8	hole	6-11_nsubj	leaking	NN	P1_damage
+6-9	was	6-11_aux	leaking	VBD	O
+6-10	not	6-11_neg	leaking	RB	O
+6-11	leaking	6-6_ccomp	ensure	VBG	O
+6-12	any	O	O	DT	O
+6-13	air	6-11_dobj	leaking	NN	P1_air
+6-14	.	O	O	O	O
+
+#id=7
+#text=I put the tube back in the tire and re-attached it to the wheel tightening the bolts . 
+7-1	I	7-2_nsubj	put	PRP	P1_rider
+7-2	put	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	tube	7-2_dobj	put	NN	P1_tire
+7-5	back	7-2_prt	put	RP	O
+7-6	in	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	tire	7-2_prep_in	put	NN	P1_tire
+7-9	and	O	O	O	O
+7-10	re-attached	7-2_conj_and	put	VBD	O
+7-11	it	7-10_dobj	re-attached	PRP	P1_tire
+7-12	to	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	wheel	7-10_prep_to	re-attached	NN	P1_wheel
+7-15	tightening	O	O	VBG	O
+7-16	the	O	O	DT	O
+7-17	bolts	7-15_dobj	tightening	NNS	P1_bicycle_small_detail
+7-18	.	O	O	O	O
+
+#id=8
+#text=Again I filled the tire with air and took my bike for a ride . 
+8-1	Again	8-3_advmod	filled	RB	O
+8-2	I	8-3_nsubj	filled	PRP	P1_rider
+8-3	filled	O	O	VBD	O
+8-4	the	O	O	DT	O
+8-5	tire	8-3_dobj	filled	NN	P1_tire
+8-6	with	O	O	O	O
+8-7	air	8-3_prep_with	filled	NN	P1_air
+8-8	and	O	O	O	O
+8-9	took	8-3_conj_and	filled	VBD	O
+8-10	my	O	O	PRP$	P1_rider
+8-11	bike	8-9_dobj	took	NN	P1_bicycle
+8-12	for	O	O	O	O
+8-13	a	O	O	DT	O
+8-14	ride	8-9_prep_for	took	NN	P1_ride
+8-15	.	O	O	O	O
+
+#id=9
+#text=I was successful repairing my flat tire . 
+9-1	I	O	O	PRP	P1_rider
+9-2	was	O	O	VBD	O
+9-3	successful	O	O	JJ	O
+9-4	repairing	O	O	VBG	O
+9-5	my	O	O	PRP$	P1_rider
+9-6	flat	O	O	JJ	O
+9-7	tire	9-4_dobj	repairing	NN	P1_tire
+9-8	.	O	O	O	O

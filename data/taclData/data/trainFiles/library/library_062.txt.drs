@@ -1,0 +1,210 @@
+#id=1
+#text=I often make several trips to the library so my library card is always left in my wallet and I never have to search for it . 
+1-1	I	1-3_nsubj	make	PRP	P1_customer
+1-2	often	1-3_advmod	make	RB	O
+1-3	make	O	O	VBP	O
+1-4	several	O	O	JJ	O
+1-5	trips	1-3_dobj	make	NNS	O
+1-6	to	O	O	O	O
+1-7	the	O	O	DT	O
+1-8	library	1-3_prep_to	make	NN	P1_library
+1-9	so	1-15_mark	left	IN	O
+1-10	my	O	O	PRP$	P1_customer
+1-11	library	O	O	NN	O
+1-12	card	1-15_nsubjpass	left	NN	P1_library_card
+1-13	is	1-15_auxpass	left	VBZ	O
+1-14	always	1-15_advmod	left	RB	O
+1-15	left	1-3_advcl	make	VBN	O
+1-16	in	O	O	O	O
+1-17	my	O	O	PRP$	P1_customer
+1-18	wallet	1-15_prep_in	left	NN	P1_NPart_wallet
+1-19	and	O	O	O	O
+1-20	I	1-22_nsubj	have	PRP	P1_customer
+1-21	never	1-22_neg	have	RB	O
+1-22	have	1-15_conj_and	left	VBP	O
+1-23	to	1-24_aux	search	TO	O
+1-24	search	1-22_xcomp	have	VB	O
+1-25	for	O	O	O	O
+1-26	it	1-24_prep_for	search	PRP	P1_library_card
+1-27	.	O	O	O	O
+
+#id=2
+#text=Today , I had to return a book but I also wanted to borrow a new one . 
+2-1	Today	2-4_tmod	had	NN	P1_NPart_today
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	had	PRP	P1_customer
+2-4	had	O	O	VBD	O
+2-5	to	2-6_aux	return	TO	O
+2-6	return	2-4_xcomp	had	VB	O
+2-7	a	O	O	DT	O
+2-8	book	2-6_dobj	return	NN	P1_book
+2-9	but	O	O	O	O
+2-10	I	2-12_nsubj	wanted	PRP	P1_customer
+2-11	also	2-12_advmod	wanted	RB	O
+2-12	wanted	2-4_conj_but	had	VBD	O
+2-13	to	2-14_aux	borrow	TO	O
+2-14	borrow	2-12_xcomp	wanted	VB	O
+2-15	a	O	O	DT	O
+2-16	new	O	O	JJ	O
+2-17	one	2-14_dobj	borrow	NN	P1_book
+2-18	.	O	O	O	O
+
+#id=3
+#text=I had recently finished an introductory book on learning a new language and wanted to replace it with something more enjoyable . 
+3-1	I	3-4_nsubj	finished	PRP	P1_customer
+3-2	had	3-4_aux	finished	VBD	O
+3-3	recently	3-4_advmod	finished	RB	O
+3-4	finished	O	O	VBN	O
+3-5	an	O	O	DT	O
+3-6	introductory	O	O	JJ	O
+3-7	book	3-4_dobj	finished	NN	P1_book
+3-8	on	O	O	O	O
+3-9	learning	3-4_prepc_on	finished	VBG	O
+3-10	a	O	O	DT	O
+3-11	new	O	O	JJ	O
+3-12	language	3-9_dobj	learning	NN	P1_NPart_language
+3-13	and	O	O	O	O
+3-14	wanted	3-4_conj_and	finished	VBD	O
+3-15	to	3-16_aux	replace	TO	O
+3-16	replace	3-14_xcomp	wanted	VB	O
+3-17	it	3-16_dobj	replace	PRP	P1_book
+3-18	with	O	O	O	O
+3-19	something	3-16_prep_with	replace	NN	P1_book
+3-20	more	O	O	RBR	O
+3-21	enjoyable	O	O	JJ	O
+3-22	.	O	O	O	O
+
+#id=4
+#text=I walked out to the library . 
+4-1	I	4-2_nsubj	walked	PRP	P1_customer
+4-2	walked	O	O	VBD	O
+4-3	out	4-2_prt	walked	RP	O
+4-4	to	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	library	4-2_prep_to	walked	NN	P1_library
+4-7	.	O	O	O	O
+
+#id=5
+#text=It was only a few minutes away and I only had to cross a few streets . 
+5-1	It	O	O	PRP	O
+5-2	was	O	O	VBD	O
+5-3	only	O	O	RB	O
+5-4	a	O	O	DT	O
+5-5	few	O	O	JJ	O
+5-6	minutes	O	O	NNS	P1_NPart_minutes
+5-7	away	O	O	RB	O
+5-8	and	O	O	O	O
+5-9	I	5-11_nsubj	had	PRP	P1_customer
+5-10	only	5-11_advmod	had	RB	O
+5-11	had	O	O	VBD	O
+5-12	to	5-13_aux	cross	TO	O
+5-13	cross	5-11_xcomp	had	VB	O
+5-14	a	O	O	DT	O
+5-15	few	O	O	JJ	O
+5-16	streets	5-13_dobj	cross	NNS	P1_NPart_streets
+5-17	.	O	O	O	O
+
+#id=6
+#text=Walking past the small store , I found the reception desk where a librarian was waiting for me . 
+6-1	Walking	6-8_vmod	found	VBG	O
+6-2	past	O	O	O	O
+6-3	the	O	O	DT	O
+6-4	small	O	O	JJ	O
+6-5	store	6-1_prep_past	Walking	NN	P1_NPart_store
+6-6	,	O	O	O	O
+6-7	I	6-8_nsubj	found	PRP	P1_customer
+6-8	found	O	O	VBD	O
+6-9	the	O	O	DT	O
+6-10	reception	O	O	NN	O
+6-11	desk	6-8_dobj	found	NN	P1_check-out_desk
+6-12	where	6-16_advmod	waiting	WRB	O
+6-13	a	O	O	DT	O
+6-14	librarian	6-16_nsubj	waiting	NN	P1_staff
+6-15	was	6-16_aux	waiting	VBD	O
+6-16	waiting	6-8_advcl	found	VBG	O
+6-17	for	O	O	O	O
+6-18	me	6-16_prep_for	waiting	PRP	P1_customer
+6-19	.	O	O	O	O
+
+#id=7
+#text=I checked back in my book on a new language and checked the rest of the library . 
+7-1	I	7-2_nsubj	checked	PRP	P1_customer
+7-2	checked	O	O	VBD	O
+7-3	back	7-2_prt	checked	RP	O
+7-4	in	O	O	O	O
+7-5	my	O	O	PRP$	P1_customer
+7-6	book	7-2_prep_in	checked	NN	P1_book
+7-7	on	O	O	O	O
+7-8	a	O	O	DT	O
+7-9	new	O	O	JJ	O
+7-10	language	7-2_prep_on	checked	NN	P2_NPart_language
+7-11	and	O	O	O	O
+7-12	checked	7-2_conj_and	checked	VBD	O
+7-13	the	O	O	DT	O
+7-14	rest	7-12_dobj	checked	NN	O
+7-15	of	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	library	O	O	NN	P1_library
+7-18	.	O	O	O	O
+
+#id=8
+#text=I scanned the aisles for the fiction and fantasy sections . 
+8-1	I	8-2_nsubj	scanned	PRP	P1_customer
+8-2	scanned	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	aisles	8-2_dobj	scanned	NNS	P1_location_library
+8-5	for	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	fiction	O	O	NN	P1_NPart_fiction
+8-8	and	O	O	O	O
+8-9	fantasy	O	O	NN	P1_NPart_fantasy
+8-10	sections	8-2_prep_for	scanned	NNS	P2_location_library
+8-11	.	O	O	O	O
+
+#id=9
+#text=Once found , I just picked some random books until I was able to choose one that seemed interesting enough to read . 
+9-1	Once	9-2_mark	found	IN	O
+9-2	found	9-6_advcl	picked	VBD	O
+9-3	,	O	O	O	O
+9-4	I	9-6_nsubj	picked	PRP	P1_customer
+9-5	just	9-6_advmod	picked	RB	O
+9-6	picked	O	O	VBD	O
+9-7	some	O	O	DT	O
+9-8	random	O	O	JJ	O
+9-9	books	9-6_dobj	picked	NNS	P1_book
+9-10	until	O	O	IN	O
+9-11	I	O	O	PRP	P1_customer
+9-12	was	O	O	VBD	O
+9-13	able	9-6_advcl	picked	JJ	O
+9-14	to	9-15_aux	choose	TO	O
+9-15	choose	O	O	VB	O
+9-16	one	9-15_dobj	choose	CD	P1_book
+9-17	that	9-18_nsubj	seemed	WDT	O
+9-18	seemed	O	O	VBD	O
+9-19	interesting	9-18_acomp	seemed	JJ	O
+9-20	enough	O	O	RB	O
+9-21	to	9-22_aux	read	TO	O
+9-22	read	O	O	VB	O
+9-23	.	O	O	O	O
+
+#id=10
+#text=I took my book back to the reception desk and had it checked out with my library card . 
+10-1	I	10-2_nsubj	took	PRP	P1_customer
+10-2	took	O	O	VBD	O
+10-3	my	O	O	PRP$	P1_customer
+10-4	book	10-2_dobj	took	NN	P1_book
+10-5	back	10-2_prt	took	RP	O
+10-6	to	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	reception	O	O	NN	O
+10-9	desk	10-2_prep_to	took	NN	P2_check-out_desk
+10-10	and	O	O	O	O
+10-11	had	10-13_aux	checked	VBD	O
+10-12	it	10-13_dobj	checked	PRP	P1_book
+10-13	checked	10-2_conj_and	took	VBN	O
+10-14	out	10-13_prt	checked	RP	O
+10-15	with	O	O	O	O
+10-16	my	O	O	PRP$	P1_customer
+10-17	library	O	O	NN	O
+10-18	card	10-13_prep_with	checked	NN	P1_library_card
+10-19	.	O	O	O	O

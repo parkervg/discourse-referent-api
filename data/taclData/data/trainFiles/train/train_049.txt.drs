@@ -1,0 +1,207 @@
+#id=1
+#text=Today was the big day , I was going to visit some friends in Florida , but I was going to do it in a different way . 
+1-1	Today	O	O	NNP	O
+1-2	was	O	O	VBD	O
+1-3	the	O	O	DT	O
+1-4	big	O	O	JJ	O
+1-5	day	O	O	NN	P1_time_date
+1-6	,	O	O	O	O
+1-7	I	1-9_nsubj	going	PRP	P1_passenger
+1-8	was	1-9_aux	going	VBD	O
+1-9	going	O	O	VBG	O
+1-10	to	1-11_aux	visit	TO	O
+1-11	visit	1-9_xcomp	going	VB	O
+1-12	some	O	O	DT	O
+1-13	friends	1-11_dobj	visit	NNS	P1_NPart_friends
+1-14	in	O	O	O	O
+1-15	Florida	1-11_prep_in	visit	NNP	P1_NPart_florida
+1-16	,	O	O	O	O
+1-17	but	O	O	O	O
+1-18	I	1-20_nsubj	going	PRP	P1_passenger
+1-19	was	1-20_aux	going	VBD	O
+1-20	going	O	O	VBG	O
+1-21	to	1-22_aux	do	TO	O
+1-22	do	1-20_xcomp	going	VB	O
+1-23	it	1-22_dobj	do	PRP	O
+1-24	in	O	O	O	O
+1-25	a	O	O	DT	O
+1-26	different	O	O	JJ	O
+1-27	way	1-22_prep_in	do	NN	O
+1-28	.	O	O	O	O
+
+#id=2
+#text=I was going to ride a train today for the first time ever . 
+2-1	I	2-3_nsubj	going	PRP	P1_passenger
+2-2	was	2-3_aux	going	VBD	O
+2-3	going	O	O	VBG	O
+2-4	to	2-5_aux	ride	TO	O
+2-5	ride	2-3_xcomp	going	VB	O
+2-6	a	O	O	DT	O
+2-7	train	O	O	NN	P1_train
+2-8	today	2-5_dobj	ride	NN	O
+2-9	for	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	first	O	O	JJ	O
+2-12	time	O	O	NN	O
+2-13	ever	2-5_advmod	ride	RB	O
+2-14	.	O	O	O	O
+
+#id=3
+#text=I loved trains since I was a child and now I would finally get to ride on one and see the countryside . 
+3-1	I	3-2_nsubj	loved	PRP	P1_passenger
+3-2	loved	O	O	VBD	O
+3-3	trains	3-2_dobj	loved	NNS	P1_train
+3-4	since	O	O	IN	O
+3-5	I	O	O	PRP	P1_passenger
+3-6	was	O	O	VBD	O
+3-7	a	O	O	DT	O
+3-8	child	3-2_advcl	loved	NN	P1_NPart_child
+3-9	and	O	O	O	O
+3-10	now	3-14_advmod	get	RB	O
+3-11	I	3-14_nsubj	get	PRP	P1_passenger
+3-12	would	3-14_aux	get	MD	O
+3-13	finally	3-14_advmod	get	RB	O
+3-14	get	3-2_conj_and	loved	VB	O
+3-15	to	3-16_aux	ride	TO	O
+3-16	ride	3-14_xcomp	get	VB	O
+3-17	on	O	O	O	O
+3-18	one	3-16_prep_on	ride	CD	P1_train
+3-19	and	O	O	O	O
+3-20	see	3-16_conj_and	ride	VB	O
+3-21	the	O	O	DT	O
+3-22	countryside	3-20_dobj	see	NN	P1_location_train
+3-23	.	O	O	O	O
+
+#id=4
+#text=I bought my tickets online , I did n't want to make a mistake and got to the wrong station . 
+4-1	I	4-2_nsubj	bought	PRP	P1_passenger
+4-2	bought	4-10_ccomp	want	VBD	O
+4-3	my	O	O	PRP$	P1_passenger
+4-4	tickets	4-2_dobj	bought	NNS	P1_card/ticket
+4-5	online	4-2_prep	bought	NN	O
+4-6	,	O	O	O	O
+4-7	I	4-10_nsubj	want	PRP	P1_passenger
+4-8	did	4-10_aux	want	VBD	O
+4-9	n't	4-10_neg	want	RB	O
+4-10	want	O	O	VB	O
+4-11	to	4-12_aux	make	TO	O
+4-12	make	4-10_xcomp	want	VB	O
+4-13	a	O	O	DT	O
+4-14	mistake	4-12_dobj	make	NN	P1_NPart_mistake
+4-15	and	O	O	O	O
+4-16	got	4-10_conj_and	want	VBD	O
+4-17	to	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	wrong	O	O	JJ	O
+4-20	station	4-16_prep_to	got	NN	P1_train_station
+4-21	.	O	O	O	O
+
+#id=5
+#text=I had my bags all packed so I called for a cab and headed to the train station . 
+5-1	I	5-6_nsubj	packed	PRP	P1_passenger
+5-2	had	5-6_aux	packed	VBD	O
+5-3	my	O	O	PRP$	P1_passenger
+5-4	bags	5-6_dobj	packed	NNS	P1_luggage
+5-5	all	5-6_advmod	packed	DT	O
+5-6	packed	O	O	VBN	O
+5-7	so	5-9_mark	called	IN	O
+5-8	I	5-9_nsubj	called	PRP	P1_passenger
+5-9	called	5-6_advcl	packed	VBD	O
+5-10	for	O	O	O	O
+5-11	a	O	O	DT	O
+5-12	cab	5-9_prep_for	called	NN	P1_NPart_cab
+5-13	and	O	O	O	O
+5-14	headed	5-6_conj_and	packed	VBN	O
+5-15	to	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	train	O	O	NN	O
+5-18	station	5-14_prep_to	headed	NN	P1_train_station
+5-19	.	O	O	O	O
+
+#id=6
+#text=Once there I took my luggage with me and waited for my train to pull up to the station . 
+6-1	Once	O	O	RB	O
+6-2	there	6-4_advmod	took	RB	O
+6-3	I	6-4_nsubj	took	PRP	P1_passenger
+6-4	took	O	O	VBD	O
+6-5	my	O	O	PRP$	P1_passenger
+6-6	luggage	6-4_dobj	took	NN	P1_luggage
+6-7	with	O	O	O	O
+6-8	me	6-4_prep_with	took	PRP	P1_passenger
+6-9	and	O	O	O	O
+6-10	waited	6-4_conj_and	took	VBD	O
+6-11	for	O	O	O	O
+6-12	my	O	O	PRP$	P1_passenger
+6-13	train	6-10_prep_for	waited	NN	P1_train
+6-14	to	6-15_aux	pull	TO	O
+6-15	pull	O	O	VB	O
+6-16	up	6-15_prt	pull	RP	O
+6-17	to	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	station	6-15_prep_to	pull	NN	P1_train_station
+6-20	.	O	O	O	O
+
+#id=7
+#text=Once the train was here I boarded and found an open car . 
+7-1	Once	7-4_mark	was	IN	O
+7-2	the	O	O	DT	O
+7-3	train	7-4_nsubj	was	NN	P1_train
+7-4	was	7-7_advcl	boarded	VBD	O
+7-5	here	7-4_advmod	was	RB	O
+7-6	I	7-7_nsubj	boarded	PRP	P1_passenger
+7-7	boarded	O	O	VBD	O
+7-8	and	O	O	O	O
+7-9	found	7-7_conj_and	boarded	VBD	O
+7-10	an	O	O	DT	O
+7-11	open	O	O	JJ	O
+7-12	car	7-9_dobj	found	NN	P1_coach
+7-13	.	O	O	O	O
+
+#id=8
+#text=I set my luggage in the overhead compartment and sat and waited My ticket was checked before the train left the station . 
+8-1	I	8-2_nsubj	set	PRP	P1_passenger
+8-2	set	O	O	VBD	O
+8-3	my	O	O	PRP$	P1_passenger
+8-4	luggage	8-2_dobj	set	NN	P2_luggage
+8-5	in	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	overhead	O	O	JJ	O
+8-8	compartment	8-2_prep_in	set	NN	P1_NPart_compartment
+8-9	and	O	O	O	O
+8-10	sat	8-2_conj_and	set	VBD	O
+8-11	and	O	O	O	O
+8-12	waited	8-10_conj_and	sat	VBD	O
+8-13	My	O	O	PRP$	P1_passenger
+8-14	ticket	8-10_dobj	sat	NN	P1_card/ticket
+8-15	was	8-16_auxpass	checked	VBD	O
+8-16	checked	O	O	VBN	O
+8-17	before	8-20_mark	left	IN	O
+8-18	the	O	O	DT	O
+8-19	train	8-20_nsubj	left	NN	P1_train
+8-20	left	8-16_advcl	checked	VBD	O
+8-21	the	O	O	DT	O
+8-22	station	8-20_dobj	left	NN	P1_train_station
+8-23	.	O	O	O	O
+
+#id=9
+#text=The train finally pulled out of the station , I was on my way my dream was being realized . 
+9-1	The	O	O	DT	O
+9-2	train	9-4_nsubj	pulled	NN	P1_train
+9-3	finally	9-4_advmod	pulled	RB	O
+9-4	pulled	9-11_ccomp	was	VBD	O
+9-5	out	O	O	O	O
+9-6	of	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	station	9-4_prep_out_of	pulled	NN	P1_train_station
+9-9	,	O	O	O	O
+9-10	I	9-11_nsubj	was	PRP	P1_passenger
+9-11	was	O	O	VBD	O
+9-12	on	O	O	O	O
+9-13	my	O	O	PRP$	P1_passenger
+9-14	way	9-11_prep_on	was	NN	P1_NPart_way
+9-15	my	O	O	PRP$	P1_passenger
+9-16	dream	9-19_nsubjpass	realized	NN	P1_NPart_dream
+9-17	was	9-19_aux	realized	VBD	O
+9-18	being	9-19_auxpass	realized	VBG	O
+9-19	realized	O	O	VBN	O
+9-20	.	O	O	O	O

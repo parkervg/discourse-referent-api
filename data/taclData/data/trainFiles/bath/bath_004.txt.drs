@@ -1,0 +1,270 @@
+#id=1
+#text=It was a hard day , so I looked forward to making myself the perfect bath . 
+1-1	It	O	O	PRP	O
+1-2	was	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	hard	O	O	JJ	O
+1-5	day	O	O	NN	P1_NPart_day
+1-6	,	O	O	O	O
+1-7	so	O	O	IN	O
+1-8	I	1-9_nsubj	looked	PRP	P1_bather
+1-9	looked	O	O	VBD	O
+1-10	forward	1-9_advmod	looked	RB	O
+1-11	to	O	O	O	O
+1-12	making	1-9_prepc_to	looked	VBG	O
+1-13	myself	O	O	PRP	P1_bather
+1-14	the	O	O	DT	O
+1-15	perfect	O	O	JJ	O
+1-16	bath	1-12_xcomp	making	NN	P1_bath
+1-17	.	O	O	O	O
+
+#id=2
+#text=I get home from work and head straight for the bathtub . 
+2-1	I	2-2_nsubj	get	PRP	P1_bather
+2-2	get	O	O	VBP	O
+2-3	home	2-2_advmod	get	RB	O
+2-4	from	O	O	O	O
+2-5	work	2-2_prep_from	get	NN	P1_NPart_work
+2-6	and	O	O	O	O
+2-7	head	O	O	NN	O
+2-8	straight	2-2_advmod	get	RB	O
+2-9	for	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	bathtub	2-2_prep_for	get	NN	P1_bathtub
+2-12	.	O	O	O	O
+
+#id=3
+#text=I run the water until it 's the perfect temperature and plug the drain to allow the water to fill the tub . 
+3-1	I	3-2_nsubj	run	PRP	P1_bather
+3-2	run	O	O	VBP	O
+3-3	the	O	O	DT	O
+3-4	water	3-2_dobj	run	NN	P1_water
+3-5	until	O	O	IN	O
+3-6	it	O	O	PRP	P1_water
+3-7	's	O	O	VBZ	O
+3-8	the	O	O	DT	O
+3-9	perfect	O	O	JJ	O
+3-10	temperature	3-2_advcl	run	NN	P1_temperature
+3-11	and	O	O	O	O
+3-12	plug	3-2_conj_and	run	VBP	O
+3-13	the	O	O	DT	O
+3-14	drain	3-12_dobj	plug	NN	P1_drain
+3-15	to	3-16_aux	allow	TO	O
+3-16	allow	3-12_vmod	plug	VB	O
+3-17	the	O	O	DT	O
+3-18	water	3-16_dobj	allow	NN	P1_water
+3-19	to	3-20_aux	fill	TO	O
+3-20	fill	O	O	VB	O
+3-21	the	O	O	DT	O
+3-22	tub	3-20_dobj	fill	NN	P1_bathtub
+3-23	.	O	O	O	O
+
+#id=4
+#text=I take some bath salts and oils to drizzle underneath the stream of water to allow it to dissolve and it fills the room with gentle fragrance . 
+4-1	I	4-2_nsubj	take	PRP	P1_bather
+4-2	take	O	O	VBP	O
+4-3	some	O	O	DT	O
+4-4	bath	O	O	NN	O
+4-5	salts	4-2_dobj	take	NNS	P1_bath_means
+4-6	and	O	O	O	O
+4-7	oils	O	O	NNS	P2_bath_means
+4-8	to	4-9_aux	drizzle	TO	O
+4-9	drizzle	4-2_xcomp	take	VB	O
+4-10	underneath	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	stream	4-9_prep_underneath	drizzle	NN	O
+4-13	of	O	O	O	O
+4-14	water	O	O	NN	P1_water
+4-15	to	4-16_aux	allow	TO	O
+4-16	allow	4-9_xcomp	drizzle	VB	O
+4-17	it	4-16_dobj	allow	PRP	P3_bath_means
+4-18	to	4-19_aux	dissolve	TO	O
+4-19	dissolve	4-16_xcomp	allow	VB	O
+4-20	and	O	O	O	O
+4-21	it	4-22_nsubj	fills	PRP	P3_bath_means
+4-22	fills	4-2_conj_and	take	VBZ	O
+4-23	the	O	O	DT	O
+4-24	room	4-22_dobj	fills	NN	P1_bathroom
+4-25	with	O	O	O	O
+4-26	gentle	O	O	JJ	O
+4-27	fragrance	O	O	NN	P1_NPart_fragrance
+4-28	.	O	O	O	O
+
+#id=5
+#text=As the tub continues to fill with water , I grab some candles and carefully place them around the tub . 
+5-1	As	5-4_mark	continues	IN	O
+5-2	the	O	O	DT	O
+5-3	tub	5-4_nsubj	continues	NN	P1_bathtub
+5-4	continues	5-11_advcl	grab	VBZ	O
+5-5	to	5-6_aux	fill	TO	O
+5-6	fill	5-4_xcomp	continues	VB	O
+5-7	with	O	O	O	O
+5-8	water	5-6_prep_with	fill	NN	P1_water
+5-9	,	O	O	O	O
+5-10	I	5-11_nsubj	grab	PRP	P1_bather
+5-11	grab	O	O	VBP	O
+5-12	some	O	O	DT	O
+5-13	candles	5-11_dobj	grab	NNS	P1_in-bath_entertainment
+5-14	and	O	O	O	O
+5-15	carefully	5-16_advmod	place	RB	O
+5-16	place	5-11_conj_and	grab	VBP	O
+5-17	them	5-16_dobj	place	PRP	P1_in-bath_entertainment
+5-18	around	O	O	O	O
+5-19	the	O	O	DT	O
+5-20	tub	5-16_prep_around	place	NN	P1_bathtub
+5-21	.	O	O	O	O
+
+#id=6
+#text=After lighting the candles and setting up a towel and robe for getting out , I put on some quiet music to drown out the sound of my husband 's hockey game . 
+6-1	After	O	O	O	O
+6-2	lighting	6-17_prepc_after	put	VBG	O
+6-3	the	O	O	DT	O
+6-4	candles	6-2_dobj	lighting	NNS	P1_in-bath_entertainment
+6-5	and	O	O	O	O
+6-6	setting	6-2_conj_and	lighting	VBG	O
+6-7	up	6-6_prt	setting	RP	O
+6-8	a	O	O	DT	O
+6-9	towel	6-6_dobj	setting	NN	P1_towel
+6-10	and	O	O	O	O
+6-11	robe	O	O	NN	P1_clothes
+6-12	for	O	O	O	O
+6-13	getting	6-6_prepc_for	setting	VBG	O
+6-14	out	6-13_prt	getting	RP	O
+6-15	,	O	O	O	O
+6-16	I	6-17_nsubj	put	PRP	P1_bather
+6-17	put	O	O	VBD	O
+6-18	on	O	O	O	O
+6-19	some	O	O	DT	O
+6-20	quiet	O	O	JJ	O
+6-21	music	6-17_prep_on	put	NN	P2_in-bath_entertainment
+6-22	to	6-23_aux	drown	TO	O
+6-23	drown	6-17_xcomp	put	VB	O
+6-24	out	6-23_prt	drown	RP	O
+6-25	the	O	O	DT	O
+6-26	sound	6-23_dobj	drown	NN	P1_NPart_sound
+6-27	of	O	O	O	O
+6-28	my	O	O	PRP$	P1_bather
+6-29	husband	O	O	NN	P1_NPart_husband
+6-30	's	O	O	O	O
+6-31	hockey	O	O	NN	O
+6-32	game	O	O	NN	P1_NPart_game
+6-33	.	O	O	O	O
+
+#id=7
+#text=I grab a small towel to use as a pillow for my neck and finally get in the bath . 
+7-1	I	7-2_nsubj	grab	PRP	P1_bather
+7-2	grab	O	O	VBP	O
+7-3	a	O	O	DT	O
+7-4	small	O	O	JJ	O
+7-5	towel	7-2_dobj	grab	NN	P2_towel
+7-6	to	7-7_aux	use	TO	O
+7-7	use	O	O	VB	O
+7-8	as	O	O	O	O
+7-9	a	O	O	DT	O
+7-10	pillow	7-7_prep_as	use	NN	P1_other
+7-11	for	O	O	O	O
+7-12	my	O	O	PRP$	P1_bather
+7-13	neck	O	O	NN	P1_body_part
+7-14	and	O	O	O	O
+7-15	finally	7-16_advmod	get	RB	O
+7-16	get	7-7_conj_and	use	VB	O
+7-17	in	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	bath	7-16_prep_in	get	NN	P1_water
+7-20	.	O	O	O	O
+
+#id=8
+#text=I feel like I 'm melting as I shut my eyes and allow myself to relax . 
+8-1	I	8-2_nsubj	feel	PRP	P1_bather
+8-2	feel	O	O	VBP	O
+8-3	like	8-6_mark	melting	IN	O
+8-4	I	8-6_nsubj	melting	PRP	P1_bather
+8-5	'm	8-6_aux	melting	VBP	O
+8-6	melting	8-2_advcl	feel	VBG	O
+8-7	as	8-9_mark	shut	IN	O
+8-8	I	8-9_nsubj	shut	PRP	P1_bather
+8-9	shut	8-6_advcl	melting	VB	O
+8-10	my	O	O	PRP$	P1_bather
+8-11	eyes	8-9_dobj	shut	NNS	P2_body_part
+8-12	and	O	O	O	O
+8-13	allow	8-9_conj_and	shut	VB	O
+8-14	myself	8-13_dobj	allow	PRP	P1_bather
+8-15	to	8-16_aux	relax	TO	O
+8-16	relax	8-13_xcomp	allow	VB	O
+8-17	.	O	O	O	O
+
+#id=9
+#text=I do n't realize how long I 'm in there until I open my eyes and see my husband standing over me . 
+9-1	I	9-4_nsubj	realize	PRP	P1_bather
+9-2	do	9-4_aux	realize	VBP	O
+9-3	n't	9-4_neg	realize	RB	O
+9-4	realize	O	O	VB	O
+9-5	how	O	O	WRB	O
+9-6	long	9-8_advmod	'm	RB	O
+9-7	I	9-8_nsubj	'm	PRP	P1_bather
+9-8	'm	9-4_ccomp	realize	VBP	O
+9-9	in	9-8_prep	'm	IN	O
+9-10	there	O	O	RB	P1_water
+9-11	until	9-13_mark	open	IN	O
+9-12	I	9-13_nsubj	open	PRP	P1_bather
+9-13	open	9-8_advcl	'm	VB	O
+9-14	my	O	O	PRP$	P1_bather
+9-15	eyes	9-13_dobj	open	NNS	P2_body_part
+9-16	and	O	O	O	O
+9-17	see	9-13_conj_and	open	VB	O
+9-18	my	O	O	PRP$	P1_bather
+9-19	husband	O	O	NN	P2_NPart_husband
+9-20	standing	9-17_dobj	see	NN	O
+9-21	over	O	O	O	O
+9-22	me	9-17_prep_over	see	PRP	P1_bather
+9-23	.	O	O	O	O
+
+#id=10
+#text=The water has lost all its warmth . 
+10-1	The	O	O	DT	O
+10-2	water	10-4_nsubj	lost	NN	P1_water
+10-3	has	10-4_aux	lost	VBZ	O
+10-4	lost	O	O	VBN	O
+10-5	all	O	O	PDT	O
+10-6	its	O	O	PRP$	P1_water
+10-7	warmth	10-4_dobj	lost	NN	P1_temperature
+10-8	.	O	O	O	O
+
+#id=11
+#text=He had put the towel in the dryer and it was now warm , fluffy , and welcoming . 
+11-1	He	11-3_nsubj	put	PRP	P1_NPart_he
+11-2	had	11-3_aux	put	VBD	O
+11-3	put	O	O	VBN	O
+11-4	the	O	O	DT	O
+11-5	towel	11-3_dobj	put	NN	P1_towel
+11-6	in	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	dryer	O	O	NN	P1_NPart_dryer
+11-9	and	O	O	O	O
+11-10	it	O	O	PRP	P1_towel
+11-11	was	O	O	VBD	O
+11-12	now	O	O	RB	O
+11-13	warm	11-3_conj_and	put	JJ	O
+11-14	,	O	O	O	O
+11-15	fluffy	O	O	VBG	O
+11-16	,	O	O	O	O
+11-17	and	O	O	O	O
+11-18	welcoming	11-15_conj_and	fluffy	VBG	O
+11-19	.	O	O	O	O
+
+#id=12
+#text=I step out of the day as my troubles swirl down the drain . 
+12-1	I	12-2_nsubj	step	PRP	P1_bather
+12-2	step	O	O	VBP	O
+12-3	out	O	O	O	O
+12-4	of	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	day	12-2_prep_out_of	step	NN	P2_NPart_day
+12-7	as	O	O	O	O
+12-8	my	O	O	PRP$	P1_bather
+12-9	troubles	O	O	NNS	P1_NPart_troubles
+12-10	swirl	O	O	NN	O
+12-11	down	12-2_advmod	step	RB	O
+12-12	the	O	O	DT	O
+12-13	drain	O	O	NN	P1_drain
+12-14	.	O	O	O	O

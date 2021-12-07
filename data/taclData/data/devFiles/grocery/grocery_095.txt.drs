@@ -1,0 +1,469 @@
+#id=1
+#text=Sunday , my husband and I did our grocery shopping . 
+1-1	Sunday	1-7_tmod	did	NNP	P1_NPart_sunday
+1-2	,	O	O	O	O
+1-3	my	O	O	PRP$	P1_shopper
+1-4	husband	1-7_nsubj	did	NN	P2_shopper
+1-5	and	O	O	O	O
+1-6	I	O	O	PRP	P1_shopper
+1-7	did	O	O	VBD	O
+1-8	our	O	O	PRP$	P3_shopper
+1-9	grocery	O	O	NN	P1_groceries
+1-10	shopping	1-7_dobj	did	NN	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=He had a shopping list recorded in his cell phone . 
+2-1	He	2-2_nsubj	had	PRP	P2_shopper
+2-2	had	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	shopping	O	O	NN	O
+2-5	list	2-2_dobj	had	NN	P1_grocery_list
+2-6	recorded	O	O	VBN	O
+2-7	in	O	O	O	O
+2-8	his	O	O	PRP$	P2_shopper
+2-9	cell	O	O	NN	O
+2-10	phone	2-6_prep_in	recorded	NN	P1_NPart_phone
+2-11	.	O	O	O	O
+
+#id=3
+#text=We arrived at the store in the early afternoon , and the first thing we did was get a shopping cart . 
+3-1	We	3-2_nsubj	arrived	PRP	P3_shopper
+3-2	arrived	O	O	VBD	O
+3-3	at	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	store	3-2_prep_at	arrived	NN	P1_grocery_shop
+3-6	in	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	early	O	O	JJ	O
+3-9	afternoon	3-2_prep_in	arrived	NN	P1_NPart_afternoon
+3-10	,	O	O	O	O
+3-11	and	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	first	O	O	JJ	O
+3-14	thing	3-17_nsubj	was	NN	O
+3-15	we	3-16_nsubj	did	PRP	P3_shopper
+3-16	did	O	O	VBD	O
+3-17	was	3-2_conj_and	arrived	VBD	O
+3-18	get	3-17_ccomp	was	VB	O
+3-19	a	O	O	DT	O
+3-20	shopping	O	O	NN	O
+3-21	cart	3-18_dobj	get	NN	P1_shopping_cart/basket
+3-22	.	O	O	O	O
+
+#id=4
+#text=We walked in and went to the produce area first , where all the fruit and vegetables are . 
+4-1	We	4-2_nsubj	walked	PRP	P3_shopper
+4-2	walked	O	O	VBD	O
+4-3	in	4-2_prt	walked	RP	O
+4-4	and	O	O	O	O
+4-5	went	4-2_conj_and	walked	VBD	O
+4-6	to	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	produce	O	O	NN	O
+4-9	area	4-5_prep_to	went	NN	P1_section
+4-10	first	4-5_advmod	went	RB	O
+4-11	,	O	O	O	O
+4-12	where	4-18_advmod	are	WRB	O
+4-13	all	O	O	PDT	O
+4-14	the	O	O	DT	O
+4-15	fruit	4-18_nsubj	are	NN	P2_groceries
+4-16	and	O	O	O	O
+4-17	vegetables	O	O	NNS	P3_groceries
+4-18	are	4-5_advcl	went	VBP	O
+4-19	.	O	O	O	O
+
+#id=5
+#text=My husband checked the list . 
+5-1	My	O	O	PRP$	P1_shopper
+5-2	husband	5-3_nsubj	checked	NN	P2_shopper
+5-3	checked	O	O	VBD	O
+5-4	the	O	O	DT	O
+5-5	list	5-3_dobj	checked	NN	P1_grocery_list
+5-6	.	O	O	O	O
+
+#id=6
+#text=We only had bananas on the list , but I said we should get things for salad , too , so he picked out bananas and bell peppers while I got lettuce and radishes and tomatoes . 
+6-1	We	6-3_nsubj	had	PRP	P3_shopper
+6-2	only	6-3_advmod	had	RB	O
+6-3	had	O	O	VBD	O
+6-4	bananas	6-3_dobj	had	NNS	P4_groceries
+6-5	on	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	list	O	O	NN	P1_grocery_list
+6-8	,	O	O	O	O
+6-9	but	O	O	O	O
+6-10	I	6-11_nsubj	said	PRP	P1_shopper
+6-11	said	6-3_conj_but	had	VBD	O
+6-12	we	6-14_nsubj	get	PRP	P3_shopper
+6-13	should	6-14_aux	get	MD	O
+6-14	get	6-11_ccomp	said	VB	O
+6-15	things	6-14_dobj	get	NNS	P5_groceries
+6-16	for	O	O	O	O
+6-17	salad	O	O	NN	P1_NPart_salad
+6-18	,	O	O	O	O
+6-19	too	6-14_advmod	get	RB	O
+6-20	,	O	O	O	O
+6-21	so	6-23_mark	picked	IN	O
+6-22	he	6-23_nsubj	picked	PRP	P2_shopper
+6-23	picked	6-14_advcl	get	VBD	O
+6-24	out	6-23_prt	picked	RP	O
+6-25	bananas	6-23_dobj	picked	NNS	P4_groceries
+6-26	and	O	O	O	O
+6-27	bell	O	O	NN	O
+6-28	peppers	O	O	NNS	P6_groceries
+6-29	while	6-31_mark	got	IN	O
+6-30	I	6-31_nsubj	got	PRP	P1_shopper
+6-31	got	6-23_advcl	picked	VBD	O
+6-32	lettuce	6-31_dobj	got	NN	P7_groceries
+6-33	and	O	O	O	O
+6-34	radishes	O	O	NNS	P8_groceries
+6-35	and	O	O	O	O
+6-36	tomatoes	O	O	NNS	P9_groceries
+6-37	.	O	O	O	O
+
+#id=7
+#text=Then we went to the deli area and ordered some sliced turkey . 
+7-1	Then	7-3_advmod	went	RB	O
+7-2	we	7-3_nsubj	went	PRP	P3_shopper
+7-3	went	O	O	VBD	O
+7-4	to	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	deli	O	O	NNS	O
+7-7	area	7-3_prep_to	went	NN	P2_section
+7-8	and	O	O	O	O
+7-9	ordered	7-3_conj_and	went	VBD	O
+7-10	some	O	O	DT	O
+7-11	sliced	O	O	JJ	O
+7-12	turkey	7-9_dobj	ordered	NN	P10_groceries
+7-13	.	O	O	O	O
+
+#id=8
+#text=The man behind the counter sliced the turkey for us and measured it on a scale to give us the amount we wanted , then wrapped it up for us . 
+8-1	The	O	O	DT	O
+8-2	man	8-6_nsubj	sliced	NN	P1_grocery_staff
+8-3	behind	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	counter	O	O	NN	P1_cash_desk
+8-6	sliced	O	O	VBD	O
+8-7	the	O	O	DT	O
+8-8	turkey	8-6_dobj	sliced	NN	P10_groceries
+8-9	for	O	O	O	O
+8-10	us	8-6_prep_for	sliced	PRP	P3_shopper
+8-11	and	O	O	O	O
+8-12	measured	8-6_conj_and	sliced	VBD	O
+8-13	it	8-12_dobj	measured	PRP	P10_groceries
+8-14	on	O	O	O	O
+8-15	a	O	O	DT	O
+8-16	scale	8-12_prep_on	measured	NN	P1_other
+8-17	to	8-18_aux	give	TO	O
+8-18	give	O	O	VB	O
+8-19	us	8-18_iobj	give	PRP	P3_shopper
+8-20	the	O	O	DT	O
+8-21	amount	8-18_dobj	give	NN	O
+8-22	we	8-23_nsubj	wanted	PRP	P3_shopper
+8-23	wanted	O	O	VBD	O
+8-24	,	O	O	O	O
+8-25	then	8-26_advmod	wrapped	RB	O
+8-26	wrapped	8-6_dep	sliced	VBD	O
+8-27	it	8-26_dobj	wrapped	PRP	P10_groceries
+8-28	up	8-26_prt	wrapped	RP	O
+8-29	for	O	O	O	O
+8-30	us	8-26_prep_for	wrapped	PRP	P3_shopper
+8-31	.	O	O	O	O
+
+#id=9
+#text=Next we visited the bakery area and picked out a nice loaf of rye bread to put the turkey on . 
+9-1	Next	9-3_advmod	visited	RB	O
+9-2	we	9-3_nsubj	visited	PRP	P3_shopper
+9-3	visited	O	O	VBD	O
+9-4	the	O	O	DT	O
+9-5	bakery	O	O	NN	O
+9-6	area	9-3_dobj	visited	NN	P3_section
+9-7	and	O	O	O	O
+9-8	picked	9-3_conj_and	visited	VBD	O
+9-9	out	9-8_prt	picked	RP	O
+9-10	a	O	O	DT	O
+9-11	nice	O	O	JJ	O
+9-12	loaf	9-8_dobj	picked	NN	O
+9-13	of	O	O	O	O
+9-14	rye	O	O	NN	O
+9-15	bread	O	O	NN	P11_groceries
+9-16	to	9-17_aux	put	TO	O
+9-17	put	9-3_xcomp	visited	VB	O
+9-18	the	O	O	DT	O
+9-19	turkey	9-17_dobj	put	NN	P10_groceries
+9-20	on	9-17_prt	put	RP	O
+9-21	.	O	O	O	O
+
+#id=10
+#text=In the canned goods area , we picked out soup and white beans ; then we went to the pasta area to get pasta and sauce . 
+10-1	In	O	O	O	O
+10-2	the	O	O	DT	O
+10-3	canned	O	O	VBN	O
+10-4	goods	O	O	NNS	O
+10-5	area	10-8_prep_in	picked	NN	P4_section
+10-6	,	O	O	O	O
+10-7	we	10-8_nsubj	picked	PRP	P3_shopper
+10-8	picked	O	O	VBD	O
+10-9	out	10-8_prt	picked	RP	O
+10-10	soup	10-8_dobj	picked	NN	P12_groceries
+10-11	and	O	O	O	O
+10-12	white	O	O	JJ	O
+10-13	beans	O	O	NNS	P13_groceries
+10-14	;	O	O	O	O
+10-15	then	10-17_advmod	went	RB	O
+10-16	we	10-17_nsubj	went	PRP	P3_shopper
+10-17	went	10-8_parataxis	picked	VBD	O
+10-18	to	O	O	O	O
+10-19	the	O	O	DT	O
+10-20	pasta	O	O	NN	O
+10-21	area	10-17_prep_to	went	NN	P5_section
+10-22	to	10-23_aux	get	TO	O
+10-23	get	10-17_xcomp	went	VB	O
+10-24	pasta	10-23_dobj	get	NN	P14_groceries
+10-25	and	O	O	O	O
+10-26	sauce	O	O	NN	P15_groceries
+10-27	.	O	O	O	O
+
+#id=11
+#text=In the meat area , we picked up some chicken breasts and Italian sausage . 
+11-1	In	O	O	O	O
+11-2	the	O	O	DT	O
+11-3	meat	O	O	NN	O
+11-4	area	11-7_prep_in	picked	NN	P6_section
+11-5	,	O	O	O	O
+11-6	we	11-7_nsubj	picked	PRP	P3_shopper
+11-7	picked	O	O	VBD	O
+11-8	up	11-7_prt	picked	RP	O
+11-9	some	O	O	DT	O
+11-10	chicken	O	O	NN	O
+11-11	breasts	11-7_dobj	picked	NNS	P16_groceries
+11-12	and	O	O	O	O
+11-13	Italian	O	O	JJ	O
+11-14	sausage	O	O	NN	P17_groceries
+11-15	.	O	O	O	O
+
+#id=12
+#text=Then we went to the dairy refrigerators and we each picked out some flavors of yogurt we like , and got milk and butter and eggs . 
+12-1	Then	12-3_advmod	went	RB	O
+12-2	we	12-3_nsubj	went	PRP	P3_shopper
+12-3	went	O	O	VBD	O
+12-4	to	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	dairy	O	O	NN	O
+12-7	refrigerators	12-3_prep_to	went	NNS	P7_section
+12-8	and	O	O	O	O
+12-9	we	12-11_nsubj	picked	PRP	P3_shopper
+12-10	each	12-11_advmod	picked	DT	O
+12-11	picked	12-3_conj_and	went	VBD	O
+12-12	out	12-11_prt	picked	RP	O
+12-13	some	O	O	DT	O
+12-14	flavors	12-11_dobj	picked	NNS	O
+12-15	of	O	O	O	O
+12-16	yogurt	O	O	NN	P18_groceries
+12-17	we	12-18_nsubj	like	PRP	P3_shopper
+12-18	like	O	O	VBP	O
+12-19	,	O	O	O	O
+12-20	and	O	O	O	O
+12-21	got	12-18_conj_and	like	VBD	O
+12-22	milk	12-21_dobj	got	NN	P19_groceries
+12-23	and	O	O	O	O
+12-24	butter	O	O	NN	P20_groceries
+12-25	and	O	O	O	O
+12-26	eggs	O	O	NNS	P21_groceries
+12-27	.	O	O	O	O
+
+#id=13
+#text=We were nearly done , so my husband checked the list again and we saw we had forgotten tin foil and toilet paper , so we went back and got those two things . 
+13-1	We	13-4_nsubjpass	done	PRP	P3_shopper
+13-2	were	13-4_auxpass	done	VBD	O
+13-3	nearly	13-4_advmod	done	RB	O
+13-4	done	O	O	VBN	O
+13-5	,	O	O	O	O
+13-6	so	13-4_dep	done	IN	O
+13-7	my	O	O	PRP$	P1_shopper
+13-8	husband	13-9_nsubj	checked	NN	P2_shopper
+13-9	checked	13-4_dep	done	VBD	O
+13-10	the	O	O	DT	O
+13-11	list	13-9_dobj	checked	NN	P1_grocery_list
+13-12	again	13-9_advmod	checked	RB	O
+13-13	and	O	O	O	O
+13-14	we	13-15_nsubj	saw	PRP	P3_shopper
+13-15	saw	13-4_conj_and	done	VBD	O
+13-16	we	13-18_nsubj	forgotten	PRP	P3_shopper
+13-17	had	13-18_aux	forgotten	VBD	O
+13-18	forgotten	13-15_ccomp	saw	VBN	O
+13-19	tin	O	O	NN	O
+13-20	foil	13-18_dobj	forgotten	NN	P2_other
+13-21	and	O	O	O	O
+13-22	toilet	O	O	NN	O
+13-23	paper	O	O	NN	P3_other
+13-24	,	O	O	O	O
+13-25	so	13-27_mark	went	IN	O
+13-26	we	13-27_nsubj	went	PRP	P3_shopper
+13-27	went	O	O	VBD	O
+13-28	back	13-27_advmod	went	RB	O
+13-29	and	O	O	O	O
+13-30	got	13-27_conj_and	went	VBD	O
+13-31	those	O	O	DT	O
+13-32	two	O	O	CD	O
+13-33	things	13-30_dobj	got	NNS	P4_other
+13-34	.	O	O	O	O
+
+#id=14
+#text=Then we went to the check-out where we put all our groceries on a conveyor belt and the clerk scanned each item in an electronic scanner to find out what it cost . 
+14-1	Then	14-3_advmod	went	RB	O
+14-2	we	14-3_nsubj	went	PRP	P3_shopper
+14-3	went	O	O	VBD	O
+14-4	to	O	O	O	O
+14-5	the	O	O	DT	O
+14-6	check-out	14-3_prep_to	went	NN	P2_cash_desk
+14-7	where	14-9_advmod	put	WRB	O
+14-8	we	14-9_nsubj	put	PRP	P3_shopper
+14-9	put	14-3_advcl	went	VBD	O
+14-10	all	O	O	PDT	O
+14-11	our	O	O	PRP$	P3_shopper
+14-12	groceries	14-9_dobj	put	NNS	P22_groceries
+14-13	on	O	O	O	O
+14-14	a	O	O	DT	O
+14-15	conveyor	O	O	NN	O
+14-16	belt	14-9_prep_on	put	NN	P1_conveyor_belt
+14-17	and	O	O	O	O
+14-18	the	O	O	DT	O
+14-19	clerk	14-20_nsubj	scanned	NN	P2_grocery_staff
+14-20	scanned	14-9_conj_and	put	VBD	O
+14-21	each	O	O	DT	O
+14-22	item	14-20_dobj	scanned	NN	P23_groceries
+14-23	in	O	O	O	O
+14-24	an	O	O	DT	O
+14-25	electronic	O	O	JJ	O
+14-26	scanner	14-20_prep_in	scanned	NN	P5_other
+14-27	to	14-28_aux	find	TO	O
+14-28	find	14-20_vmod	scanned	VB	O
+14-29	out	14-28_prt	find	RP	O
+14-30	what	14-32_dobj	cost	WP	O
+14-31	it	14-32_nsubj	cost	PRP	P23_groceries
+14-32	cost	14-28_ccomp	find	VBD	O
+14-33	.	O	O	O	O
+
+#id=15
+#text=She told us the total , and I swiped my bank card through an electronic reader to pay . 
+15-1	She	15-2_nsubj	told	PRP	P2_grocery_staff
+15-2	told	O	O	VBD	O
+15-3	us	O	O	PRP	P3_shopper
+15-4	the	O	O	DT	O
+15-5	total	15-2_xcomp	told	NN	P1_price
+15-6	,	O	O	O	O
+15-7	and	O	O	O	O
+15-8	I	15-9_nsubj	swiped	PRP	P1_shopper
+15-9	swiped	15-2_conj_and	told	VBD	O
+15-10	my	O	O	PRP$	P1_shopper
+15-11	bank	O	O	NN	O
+15-12	card	15-9_dobj	swiped	NN	P1_payment_means
+15-13	through	O	O	O	O
+15-14	an	O	O	DT	O
+15-15	electronic	O	O	JJ	O
+15-16	reader	15-9_prep_through	swiped	NN	P6_other
+15-17	to	15-18_aux	pay	TO	O
+15-18	pay	15-9_vmod	swiped	VB	O
+15-19	.	O	O	O	O
+
+#id=16
+#text=Meanwhile , a bagger was putting our groceries into re-usable shopping bags that we had brought with us . 
+16-1	Meanwhile	16-6_advmod	putting	RB	O
+16-2	,	O	O	O	O
+16-3	a	O	O	DT	O
+16-4	bagger	16-6_nsubj	putting	NN	P3_grocery_staff
+16-5	was	16-6_aux	putting	VBD	O
+16-6	putting	O	O	VBG	O
+16-7	our	O	O	PRP$	P3_shopper
+16-8	groceries	16-6_dobj	putting	NNS	P24_groceries
+16-9	into	O	O	O	O
+16-10	re-usable	O	O	JJ	O
+16-11	shopping	O	O	NN	O
+16-12	bags	16-6_prep_into	putting	NNS	P1_shopping_bags
+16-13	that	16-16_mark	brought	IN	O
+16-14	we	16-16_nsubj	brought	PRP	P3_shopper
+16-15	had	16-16_aux	brought	VBD	O
+16-16	brought	16-6_ccomp	putting	VBN	O
+16-17	with	O	O	O	O
+16-18	us	16-16_prep_with	brought	PRP	P3_shopper
+16-19	.	O	O	O	O
+
+#id=17
+#text=He put the bags back into the cart . 
+17-1	He	17-2_nsubj	put	PRP	P3_grocery_staff
+17-2	put	O	O	VBD	O
+17-3	the	O	O	DT	O
+17-4	bags	17-2_dobj	put	NNS	P1_shopping_bags
+17-5	back	17-2_advmod	put	RB	O
+17-6	into	O	O	O	O
+17-7	the	O	O	DT	O
+17-8	cart	17-2_prep_into	put	NN	P1_shopping_cart/basket
+17-9	.	O	O	O	O
+
+#id=18
+#text=We got a receipt from the clerk and pushed the cart out to our car , where we moved the bags into the back seat . 
+18-1	We	18-2_nsubj	got	PRP	P3_shopper
+18-2	got	O	O	VBD	O
+18-3	a	O	O	DT	O
+18-4	receipt	18-2_dobj	got	NN	P1_receipt
+18-5	from	O	O	O	O
+18-6	the	O	O	DT	O
+18-7	clerk	18-2_prep_from	got	NN	P2_grocery_staff
+18-8	and	O	O	O	O
+18-9	pushed	18-2_conj_and	got	VBD	O
+18-10	the	O	O	DT	O
+18-11	cart	18-9_dobj	pushed	NN	P1_shopping_cart/basket
+18-12	out	18-9_prt	pushed	RP	O
+18-13	to	O	O	O	O
+18-14	our	O	O	PRP$	P3_shopper
+18-15	car	18-9_prep_to	pushed	NN	P1_vehicle
+18-16	,	O	O	O	O
+18-17	where	18-19_advmod	moved	WRB	O
+18-18	we	18-19_nsubj	moved	PRP	P3_shopper
+18-19	moved	O	O	VBD	O
+18-20	the	O	O	DT	O
+18-21	bags	18-19_dobj	moved	NNS	P2_shopping_bags
+18-22	into	O	O	O	O
+18-23	the	O	O	DT	O
+18-24	back	O	O	JJ	O
+18-25	seat	18-19_prep_into	moved	NN	P2_vehicle
+18-26	.	O	O	O	O
+
+#id=19
+#text=Then my husband put the cart in little corral in the parking lot that keeps the carts away from people 's cars , and we got in our car and went home . 
+19-1	Then	19-4_advmod	put	RB	O
+19-2	my	O	O	PRP$	P1_shopper
+19-3	husband	19-4_nsubj	put	NN	P2_shopper
+19-4	put	O	O	VBD	O
+19-5	the	O	O	DT	O
+19-6	cart	19-4_dobj	put	NN	P1_shopping_cart/basket
+19-7	in	O	O	O	O
+19-8	little	O	O	JJ	O
+19-9	corral	19-4_prep_in	put	NNS	P1_NPart_corral
+19-10	in	O	O	O	O
+19-11	the	O	O	DT	O
+19-12	parking	O	O	NN	O
+19-13	lot	19-4_prep_in	put	NN	P1_NPart_lot
+19-14	that	19-15_nsubj	keeps	WDT	O
+19-15	keeps	O	O	VBZ	O
+19-16	the	O	O	DT	O
+19-17	carts	19-15_dobj	keeps	NNS	P2_shopping_cart/basket
+19-18	away	O	O	O	O
+19-19	from	O	O	O	O
+19-20	people	O	O	NNS	P4_shopper
+19-21	's	O	O	O	O
+19-22	cars	19-15_prep_away_from	keeps	NNS	P3_vehicle
+19-23	,	O	O	O	O
+19-24	and	O	O	O	O
+19-25	we	19-26_nsubj	got	PRP	P3_shopper
+19-26	got	19-4_conj_and	put	VBD	O
+19-27	in	O	O	O	O
+19-28	our	O	O	PRP$	P3_shopper
+19-29	car	19-26_prep_in	got	NN	P1_vehicle
+19-30	and	O	O	O	O
+19-31	went	19-26_conj_and	got	VBD	O
+19-32	home	19-31_dobj	went	NN	P1_NPart_home
+19-33	.	O	O	O	O

@@ -1,0 +1,194 @@
+#id=1
+#text=After enrolling in a basic college geometry class , I realized very early on that I needed to supplement what I was learning in class with an additional book that went over some of the basics that I had forgotten since high school . 
+1-1	After	O	O	O	O
+1-2	enrolling	1-11_prepc_after	realized	VBG	O
+1-3	in	O	O	O	O
+1-4	a	O	O	DT	O
+1-5	basic	O	O	JJ	O
+1-6	college	O	O	NN	O
+1-7	geometry	O	O	NN	O
+1-8	class	1-2_prep_in	enrolling	NN	P1_NPart_class
+1-9	,	O	O	O	O
+1-10	I	1-11_nsubj	realized	PRP	P1_customer
+1-11	realized	O	O	VBD	O
+1-12	very	O	O	RB	O
+1-13	early	1-11_advmod	realized	RB	O
+1-14	on	O	O	O	O
+1-15	that	1-17_prep_on	needed	WDT	O
+1-16	I	1-17_nsubj	needed	PRP	P1_customer
+1-17	needed	O	O	VBD	O
+1-18	to	1-19_aux	supplement	TO	O
+1-19	supplement	1-17_xcomp	needed	VB	O
+1-20	what	1-23_dobj	learning	WP	O
+1-21	I	1-23_nsubj	learning	PRP	P1_customer
+1-22	was	1-23_aux	learning	VBD	O
+1-23	learning	1-19_ccomp	supplement	VBG	O
+1-24	in	O	O	O	O
+1-25	class	1-23_prep_in	learning	NN	P2_NPart_class
+1-26	with	O	O	O	O
+1-27	an	O	O	DT	O
+1-28	additional	O	O	JJ	O
+1-29	book	1-23_prep_with	learning	NN	P1_book
+1-30	that	1-31_nsubj	went	WDT	O
+1-31	went	O	O	VBD	O
+1-32	over	O	O	O	O
+1-33	some	1-31_prep_over	went	DT	O
+1-34	of	O	O	O	O
+1-35	the	O	O	DT	O
+1-36	basics	O	O	NNS	P1_NPart_basics
+1-37	that	1-40_mark	forgotten	IN	O
+1-38	I	1-40_nsubj	forgotten	PRP	P1_customer
+1-39	had	1-40_aux	forgotten	VBD	O
+1-40	forgotten	1-31_ccomp	went	VBN	O
+1-41	since	O	O	O	O
+1-42	high	O	O	JJ	O
+1-43	school	1-40_prep_since	forgotten	NN	P1_NPart_school
+1-44	.	O	O	O	O
+
+#id=2
+#text=I went to the local library and searched through many of the ones that were available . 
+2-1	I	2-2_nsubj	went	PRP	P1_customer
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	local	O	O	JJ	O
+2-6	library	2-2_prep_to	went	NN	P1_library
+2-7	and	O	O	O	O
+2-8	searched	2-2_conj_and	went	VBD	O
+2-9	through	O	O	O	O
+2-10	many	2-8_prep_through	searched	JJ	O
+2-11	of	O	O	O	O
+2-12	the	O	O	DT	O
+2-13	ones	O	O	NNS	P2_book
+2-14	that	O	O	WDT	O
+2-15	were	O	O	VBD	O
+2-16	available	O	O	JJ	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=The college course I was taking was very important and I wanted to do well in it . 
+3-1	The	O	O	DT	O
+3-2	college	O	O	NN	O
+3-3	course	O	O	NN	P1_NPart_course
+3-4	I	3-6_nsubj	taking	PRP	P1_customer
+3-5	was	3-6_aux	taking	VBD	O
+3-6	taking	O	O	VBG	O
+3-7	was	O	O	VBD	O
+3-8	very	O	O	RB	O
+3-9	important	O	O	JJ	O
+3-10	and	O	O	O	O
+3-11	I	3-12_nsubj	wanted	PRP	P1_customer
+3-12	wanted	O	O	VBD	O
+3-13	to	3-14_aux	do	TO	O
+3-14	do	3-12_xcomp	wanted	VB	O
+3-15	well	3-14_advmod	do	RB	O
+3-16	in	O	O	O	O
+3-17	it	3-14_prep_in	do	PRP	P1_NPart_it
+3-18	.	O	O	O	O
+
+#id=4
+#text=After 1 hour of searching I found a book that was perfectly written for people that wanted a refresher course in the subject of geometry . 
+4-1	After	O	O	O	O
+4-2	1	O	O	CD	O
+4-3	hour	4-7_prep_after	found	NN	P1_NPart_hour
+4-4	of	O	O	O	O
+4-5	searching	O	O	VBG	O
+4-6	I	4-7_nsubj	found	PRP	P1_customer
+4-7	found	O	O	VBD	O
+4-8	a	O	O	DT	O
+4-9	book	4-7_dobj	found	NN	P1_book
+4-10	that	4-13_nsubjpass	written	WDT	O
+4-11	was	4-13_auxpass	written	VBD	O
+4-12	perfectly	4-13_advmod	written	RB	O
+4-13	written	O	O	VBN	O
+4-14	for	O	O	O	O
+4-15	people	4-13_prep_for	written	NNS	P1_NPart_people
+4-16	that	4-17_nsubj	wanted	WDT	O
+4-17	wanted	O	O	VBD	O
+4-18	a	O	O	DT	O
+4-19	refresher	O	O	NN	O
+4-20	course	4-17_dobj	wanted	NN	P2_NPart_course
+4-21	in	O	O	O	O
+4-22	the	O	O	DT	O
+4-23	subject	4-17_prep_in	wanted	NN	P1_NPart_subject
+4-24	of	O	O	O	O
+4-25	geometry	O	O	NN	P1_NPart_geometry
+4-26	.	O	O	O	O
+
+#id=5
+#text=I read about 5 pages of it while in the library and realized that it was a perfect fit for my needs . 
+5-1	I	5-2_nsubj	read	PRP	P1_customer
+5-2	read	O	O	VBD	O
+5-3	about	O	O	RB	O
+5-4	5	O	O	CD	O
+5-5	pages	5-2_dobj	read	NNS	P1_NPart_pages
+5-6	of	O	O	O	O
+5-7	it	5-2_prep_of	read	PRP	P1_book
+5-8	while	5-2_dobj	read	NN	O
+5-9	in	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	library	5-2_prep_in	read	NN	P1_library_card
+5-12	and	O	O	O	O
+5-13	realized	5-2_conj_and	read	VBD	O
+5-14	that	O	O	IN	O
+5-15	it	O	O	PRP	P1_book
+5-16	was	O	O	VBD	O
+5-17	a	O	O	DT	O
+5-18	perfect	O	O	JJ	O
+5-19	fit	5-13_ccomp	realized	NN	O
+5-20	for	O	O	O	O
+5-21	my	O	O	PRP$	P1_customer
+5-22	needs	O	O	NNS	P1_NPart_needs
+5-23	.	O	O	O	O
+
+#id=6
+#text=I walked up to the checkout counter and checked out the book for two weeks . 
+6-1	I	6-2_nsubj	walked	PRP	P1_customer
+6-2	walked	O	O	VBD	O
+6-3	up	6-2_prt	walked	RP	O
+6-4	to	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	checkout	O	O	NN	O
+6-7	counter	6-2_prep_to	walked	NN	P1_check-out_desk
+6-8	and	O	O	O	O
+6-9	checked	6-2_conj_and	walked	VBD	O
+6-10	out	6-9_prt	checked	RP	O
+6-11	the	O	O	DT	O
+6-12	book	6-9_dobj	checked	NN	P1_book
+6-13	for	O	O	O	O
+6-14	two	O	O	CD	O
+6-15	weeks	O	O	NNS	P1_NPart_weeks
+6-16	.	O	O	O	O
+
+#id=7
+#text=I took the book home and read it and I am very glad I did so . 
+7-1	I	7-2_nsubj	took	PRP	P1_customer
+7-2	took	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	book	O	O	NN	P1_book
+7-5	home	7-2_dobj	took	NN	P1_NPart_home
+7-6	and	O	O	O	O
+7-7	read	7-2_conj_and	took	VBD	O
+7-8	it	7-7_dobj	read	PRP	P1_book
+7-9	and	O	O	O	O
+7-10	I	O	O	PRP	P1_customer
+7-11	am	O	O	VBP	O
+7-12	very	O	O	RB	O
+7-13	glad	7-2_conj_and	took	JJ	O
+7-14	I	7-15_nsubj	did	PRP	P1_customer
+7-15	did	O	O	VBD	O
+7-16	so	7-15_advmod	did	RB	O
+7-17	.	O	O	O	O
+
+#id=8
+#text=I am glad I have a great library nearby . 
+8-1	I	O	O	PRP	P1_customer
+8-2	am	O	O	VBP	O
+8-3	glad	O	O	JJ	O
+8-4	I	8-5_nsubj	have	PRP	P1_customer
+8-5	have	O	O	VBP	O
+8-6	a	O	O	DT	O
+8-7	great	O	O	JJ	O
+8-8	library	8-5_dobj	have	NN	P1_library
+8-9	nearby	O	O	RB	O
+8-10	.	O	O	O	O

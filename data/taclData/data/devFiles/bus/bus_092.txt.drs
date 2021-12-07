@@ -1,0 +1,230 @@
+#id=1
+#text=This morning when I woke up for work I realized I was running late for my usual ride . 
+1-1	This	O	O	DT	O
+1-2	morning	1-10_tmod	realized	NN	P1_time/date
+1-3	when	1-5_advmod	woke	WRB	O
+1-4	I	1-5_nsubj	woke	PRP	P1_passenger
+1-5	woke	1-10_advcl	realized	VBD	O
+1-6	up	1-5_prt	woke	RP	O
+1-7	for	O	O	O	O
+1-8	work	1-5_prep_for	woke	NN	P1_destination
+1-9	I	1-10_nsubj	realized	PRP	P1_passenger
+1-10	realized	O	O	VBD	O
+1-11	I	1-13_nsubj	running	PRP	P1_passenger
+1-12	was	1-13_aux	running	VBD	O
+1-13	running	1-10_ccomp	realized	VBG	O
+1-14	late	1-13_advmod	running	RB	O
+1-15	for	O	O	O	O
+1-16	my	O	O	PRP$	P1_passenger
+1-17	usual	O	O	JJ	O
+1-18	ride	1-13_prep_for	running	NN	P1_ride
+1-19	.	O	O	O	O
+
+#id=2
+#text=I hurried to get ready and then raced to the bus terminal that is nearest to my apartment . 
+2-1	I	2-2_nsubj	hurried	PRP	P1_passenger
+2-2	hurried	O	O	VBN	O
+2-3	to	O	O	TO	O
+2-4	get	O	O	VB	O
+2-5	ready	2-2_xcomp	hurried	JJ	O
+2-6	and	O	O	O	O
+2-7	then	2-8_advmod	raced	RB	O
+2-8	raced	2-2_conj_and	hurried	VBD	O
+2-9	to	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	bus	O	O	NN	O
+2-12	terminal	2-8_prep_to	raced	NN	P1_bus_stop
+2-13	that	O	O	WDT	O
+2-14	is	O	O	VBZ	O
+2-15	nearest	O	O	JJS	O
+2-16	to	O	O	O	O
+2-17	my	O	O	PRP$	P1_passenger
+2-18	apartment	O	O	NN	P1_NPart_apartment
+2-19	.	O	O	O	O
+
+#id=3
+#text=I arrived at the bus stop just in time as the bus was pulling up when I got there . 
+3-1	I	3-2_nsubj	arrived	PRP	P1_passenger
+3-2	arrived	O	O	VBD	O
+3-3	at	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	bus	O	O	NN	O
+3-6	stop	3-2_prep_at	arrived	NN	P1_bus_stop
+3-7	just	3-2_advmod	arrived	RB	O
+3-8	in	O	O	O	O
+3-9	time	3-2_prep_in	arrived	NN	O
+3-10	as	3-14_mark	pulling	IN	O
+3-11	the	O	O	DT	O
+3-12	bus	3-14_nsubj	pulling	NN	P1_bus
+3-13	was	3-14_aux	pulling	VBD	O
+3-14	pulling	3-2_advcl	arrived	VBG	O
+3-15	up	3-14_prt	pulling	RP	O
+3-16	when	3-18_advmod	got	WRB	O
+3-17	I	3-18_nsubj	got	PRP	P1_passenger
+3-18	got	3-14_advcl	pulling	VBD	O
+3-19	there	3-18_advmod	got	RB	P1_bus_stop
+3-20	.	O	O	O	O
+
+#id=4
+#text=The bus driver opened the door and a line of people filed into the bus ahead of me . 
+4-1	The	O	O	DT	O
+4-2	bus	O	O	NN	O
+4-3	driver	4-4_nsubj	opened	NN	P1_bus_staff
+4-4	opened	O	O	VBD	O
+4-5	the	O	O	DT	O
+4-6	door	4-4_dobj	opened	NN	P1_door
+4-7	and	O	O	O	O
+4-8	a	O	O	DT	O
+4-9	line	O	O	NN	P1_NPart_line
+4-10	of	O	O	O	O
+4-11	people	O	O	NNS	P2_passenger
+4-12	filed	O	O	VBN	O
+4-13	into	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	bus	4-12_prep_into	filed	NN	P1_bus
+4-16	ahead	O	O	O	O
+4-17	of	O	O	O	O
+4-18	me	O	O	PRP	P1_passenger
+4-19	.	O	O	O	O
+
+#id=5
+#text=As I boarded the bus I dropped some change in the drivers bucket to pay for my ride to work . 
+5-1	As	5-3_mark	boarded	IN	O
+5-2	I	5-3_nsubj	boarded	PRP	P1_passenger
+5-3	boarded	5-7_advcl	dropped	VBD	O
+5-4	the	O	O	DT	O
+5-5	bus	5-3_dobj	boarded	NN	P1_bus
+5-6	I	5-7_nsubj	dropped	PRP	P1_passenger
+5-7	dropped	O	O	VBD	O
+5-8	some	O	O	DT	O
+5-9	change	5-7_dobj	dropped	NN	P1_money
+5-10	in	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	drivers	O	O	NNS	P1_bus_staff
+5-13	bucket	5-7_prep_in	dropped	NN	P1_payment_machine
+5-14	to	5-15_aux	pay	TO	O
+5-15	pay	5-7_vmod	dropped	VB	O
+5-16	for	O	O	O	O
+5-17	my	O	O	PRP$	P1_passenger
+5-18	ride	5-15_prep_for	pay	NN	P1_ride
+5-19	to	5-20_aux	work	TO	O
+5-20	work	O	O	VB	P1_destination
+5-21	.	O	O	O	O
+
+#id=6
+#text=I quickly moved toward the back of the bus and found an open seat . 
+6-1	I	6-3_nsubj	moved	PRP	P1_passenger
+6-2	quickly	6-3_advmod	moved	RB	O
+6-3	moved	O	O	VBD	O
+6-4	toward	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	back	6-3_prep_toward	moved	NN	P1_NPart_back
+6-7	of	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	bus	O	O	NN	P1_bus
+6-10	and	O	O	O	O
+6-11	found	6-3_conj_and	moved	VBD	O
+6-12	an	O	O	DT	O
+6-13	open	O	O	JJ	O
+6-14	seat	6-11_dobj	found	NN	P1_seat_in_bus
+6-15	.	O	O	O	O
+
+#id=7
+#text=I sat patiently as the bus made a few more stops and people came and went from the bus . 
+7-1	I	7-2_nsubj	sat	PRP	P1_passenger
+7-2	sat	O	O	VBD	O
+7-3	patiently	7-2_advmod	sat	RB	O
+7-4	as	7-7_mark	made	IN	O
+7-5	the	O	O	DT	O
+7-6	bus	7-7_nsubj	made	NN	P1_bus
+7-7	made	7-2_advcl	sat	VBD	O
+7-8	a	O	O	DT	O
+7-9	few	O	O	JJ	O
+7-10	more	O	O	JJR	O
+7-11	stops	7-7_dobj	made	NNS	O
+7-12	and	O	O	O	O
+7-13	people	7-14_nsubj	came	NNS	P3_passenger
+7-14	came	7-2_conj_and	sat	VBD	O
+7-15	and	O	O	O	O
+7-16	went	7-14_conj_and	came	VBD	O
+7-17	from	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	bus	7-14_prep_from	came	NN	P1_bus
+7-20	.	O	O	O	O
+
+#id=8
+#text=After about twenty minutes the bus pulled up outside my office building . 
+8-1	After	O	O	O	O
+8-2	about	O	O	RB	O
+8-3	twenty	O	O	CD	O
+8-4	minutes	8-7_prep_after	pulled	NNS	P2_time/date
+8-5	the	O	O	DT	O
+8-6	bus	8-7_nsubj	pulled	NN	P1_bus
+8-7	pulled	O	O	VBD	O
+8-8	up	8-7_prt	pulled	RP	O
+8-9	outside	O	O	O	O
+8-10	my	O	O	PRP$	P1_passenger
+8-11	office	O	O	NN	O
+8-12	building	8-7_prep_outside	pulled	NN	P1_destination
+8-13	.	O	O	O	O
+
+#id=9
+#text=The bus came to a stop and I hopped up and made my decent down the stairs and off the bus . 
+9-1	The	O	O	DT	O
+9-2	bus	9-3_nsubj	came	NN	P1_bus
+9-3	came	O	O	VBD	O
+9-4	to	O	O	O	O
+9-5	a	O	O	DT	O
+9-6	stop	9-3_prep_to	came	NN	O
+9-7	and	O	O	O	O
+9-8	I	9-9_nsubj	hopped	PRP	P1_passenger
+9-9	hopped	9-3_conj_and	came	VBD	O
+9-10	up	9-9_prt	hopped	RP	O
+9-11	and	O	O	O	O
+9-12	made	9-12_conj_and	made	VBD	O
+9-13	my	O	O	PRP$	P1_passenger
+9-14	decent	9-12_dobj	made	JJ	O
+9-15	down	O	O	O	O
+9-16	the	O	O	DT	O
+9-17	stairs	9-12_prep_down	made	NNS	P1_NPart_stairs
+9-18	and	O	O	O	O
+9-19	off	O	O	O	O
+9-20	the	O	O	DT	O
+9-21	bus	9-12_prep_off	made	NN	P1_bus
+9-22	.	O	O	O	O
+
+#id=10
+#text=I was at work with only minutes to spare before I needed to be punched in for my shift . 
+10-1	I	10-2_nsubj	was	PRP	P1_passenger
+10-2	was	O	O	VBD	O
+10-3	at	O	O	O	O
+10-4	work	10-2_prep_at	was	NN	P1_destination
+10-5	with	O	O	O	O
+10-6	only	O	O	JJ	O
+10-7	minutes	O	O	NNS	P3_time/date
+10-8	to	10-9_aux	spare	TO	O
+10-9	spare	10-2_xcomp	was	VB	O
+10-10	before	10-12_mark	needed	IN	O
+10-11	I	10-12_nsubj	needed	PRP	P1_passenger
+10-12	needed	10-9_advcl	spare	VBD	O
+10-13	to	10-15_aux	punched	TO	O
+10-14	be	10-15_auxpass	punched	VB	O
+10-15	punched	10-12_xcomp	needed	VBN	O
+10-16	in	10-15_prep	punched	IN	O
+10-17	for	O	O	IN	O
+10-18	my	O	O	PRP$	P1_passenger
+10-19	shift	O	O	NN	P1_NPart_shift
+10-20	.	O	O	O	O
+
+#id=11
+#text=I was happy I had made it on time . 
+11-1	I	O	O	PRP	P1_passenger
+11-2	was	O	O	VBD	O
+11-3	happy	O	O	JJ	O
+11-4	I	11-6_nsubj	made	PRP	P1_passenger
+11-5	had	11-6_aux	made	VBD	O
+11-6	made	O	O	VBN	O
+11-7	it	11-6_dobj	made	PRP	O
+11-8	on	O	O	O	O
+11-9	time	11-6_prep_on	made	NN	O
+11-10	.	O	O	O	O

@@ -1,0 +1,204 @@
+#id=1
+#text=The other day I went for a ride in an airplane . 
+1-1	The	O	O	DT	O
+1-2	other	O	O	JJ	O
+1-3	day	1-5_tmod	went	NN	P1_NPart_day
+1-4	I	1-5_nsubj	went	PRP	P1_passenger
+1-5	went	O	O	VBD	O
+1-6	for	O	O	O	O
+1-7	a	O	O	DT	O
+1-8	ride	1-5_prep_for	went	NN	P1_flight
+1-9	in	O	O	O	O
+1-10	an	O	O	DT	O
+1-11	airplane	1-5_prep_in	went	NN	P1_plane
+1-12	.	O	O	O	O
+
+#id=2
+#text=I drove to the airport with my significant other and we took our bags . 
+2-1	I	2-2_nsubj	drove	PRP	P1_passenger
+2-2	drove	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	airport	2-2_prep_to	drove	NN	P1_airport
+2-6	with	O	O	O	O
+2-7	my	O	O	PRP$	P1_passenger
+2-8	significant	O	O	JJ	O
+2-9	other	2-2_prep_with	drove	JJ	P2_passenger
+2-10	and	O	O	O	O
+2-11	we	2-12_nsubj	took	PRP	P3_passenger
+2-12	took	2-2_conj_and	drove	VBD	O
+2-13	our	O	O	PRP$	P4_passenger
+2-14	bags	2-12_dobj	took	NNS	P1_check_in_luggage
+2-15	.	O	O	O	O
+
+#id=3
+#text=We stood in line to check our bags and receive our tickets . 
+3-1	We	3-2_nsubj	stood	PRP	P5_passenger
+3-2	stood	O	O	VBD	O
+3-3	in	O	O	O	O
+3-4	line	3-2_prep_in	stood	NN	P1_line
+3-5	to	3-6_aux	check	TO	O
+3-6	check	3-2_xcomp	stood	VB	O
+3-7	our	O	O	PRP$	P6_passenger
+3-8	bags	3-6_dobj	check	NNS	P1_check_in_luggage
+3-9	and	O	O	O	O
+3-10	receive	3-6_conj_and	check	VB	O
+3-11	our	O	O	PRP$	P5_passenger
+3-12	tickets	3-10_dobj	receive	NNS	P1_ticket
+3-13	.	O	O	O	O
+
+#id=4
+#text=We also had to go through a security checkpoint . 
+4-1	We	4-3_nsubj	had	PRP	P5_passenger
+4-2	also	4-3_advmod	had	RB	O
+4-3	had	O	O	VBD	O
+4-4	to	4-5_aux	go	TO	O
+4-5	go	4-3_xcomp	had	VB	O
+4-6	through	O	O	O	O
+4-7	a	O	O	DT	O
+4-8	security	O	O	NN	O
+4-9	checkpoint	4-5_prep_through	go	NN	P1_security_check
+4-10	.	O	O	O	O
+
+#id=5
+#text=Once on the plane you wait a little while for everyone to be seated and then the pilot announces that the plain will be taking off . 
+5-1	Once	5-6_advmod	wait	RB	O
+5-2	on	O	O	O	O
+5-3	the	O	O	DT	O
+5-4	plane	O	O	NN	P1_plane
+5-5	you	5-6_nsubj	wait	PRP	P5_passenger
+5-6	wait	O	O	VBP	O
+5-7	a	O	O	DT	O
+5-8	little	O	O	JJ	O
+5-9	while	5-6_dobj	wait	NN	O
+5-10	for	O	O	O	O
+5-11	everyone	O	O	NN	P7_passenger
+5-12	to	5-14_aux	seated	TO	O
+5-13	be	5-14_auxpass	seated	VB	O
+5-14	seated	5-6_xcomp	wait	VBN	O
+5-15	and	O	O	O	O
+5-16	then	5-19_advmod	announces	RB	O
+5-17	the	O	O	DT	O
+5-18	pilot	5-19_nsubj	announces	NN	P1_staff
+5-19	announces	5-6_conj_and	wait	VBZ	O
+5-20	that	5-25_mark	taking	IN	O
+5-21	the	O	O	DT	O
+5-22	plain	5-25_nsubj	taking	NN	P1_plane
+5-23	will	5-25_aux	taking	MD	O
+5-24	be	5-25_aux	taking	VB	O
+5-25	taking	5-19_ccomp	announces	VBG	O
+5-26	off	5-25_prt	taking	RP	O
+5-27	.	O	O	O	O
+
+#id=6
+#text=When the plane is going up into the air it can feel kind of funny but once the plane reaches a certain height it is usually smooth sailing . 
+6-1	When	6-5_advmod	going	WRB	O
+6-2	the	O	O	DT	O
+6-3	plane	6-5_nsubj	going	NN	P1_plane
+6-4	is	6-5_aux	going	VBZ	O
+6-5	going	O	O	VBG	O
+6-6	up	6-5_prt	going	RP	O
+6-7	into	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	air	6-5_prep_into	going	NN	P1_location_airplane
+6-10	it	6-12_nsubj	feel	PRP	O
+6-11	can	6-12_aux	feel	MD	O
+6-12	feel	6-5_advcl	going	VB	O
+6-13	kind	6-12_dobj	feel	NN	O
+6-14	of	O	O	O	O
+6-15	funny	O	O	JJ	O
+6-16	but	O	O	O	O
+6-17	once	6-20_mark	reaches	IN	O
+6-18	the	O	O	DT	O
+6-19	plane	6-20_nsubj	reaches	NN	P1_plane
+6-20	reaches	6-12_conj_but	feel	VBZ	O
+6-21	a	O	O	DT	O
+6-22	certain	O	O	JJ	O
+6-23	height	6-20_dobj	reaches	NN	P2_location_airplane
+6-24	it	O	O	PRP	O
+6-25	is	O	O	VBZ	O
+6-26	usually	O	O	RB	O
+6-27	smooth	O	O	JJ	O
+6-28	sailing	O	O	NN	O
+6-29	.	O	O	O	O
+
+#id=7
+#text=There can sometimes be some turbulence but there is usually just a smooth ride . 
+7-1	There	O	O	EX	O
+7-2	can	O	O	MD	O
+7-3	sometimes	O	O	RB	O
+7-4	be	O	O	VB	O
+7-5	some	O	O	DT	O
+7-6	turbulence	O	O	NN	P1_other
+7-7	but	O	O	O	O
+7-8	there	7-9_expl	is	EX	O
+7-9	is	O	O	VBZ	O
+7-10	usually	7-9_advmod	is	RB	O
+7-11	just	O	O	RB	O
+7-12	a	O	O	DT	O
+7-13	smooth	O	O	JJ	O
+7-14	ride	7-9_nsubj	is	NN	P2_flight
+7-15	.	O	O	O	O
+
+#id=8
+#text=Sometimes a flight attendant asks you if you want anything like something to drink or eat . 
+8-1	Sometimes	8-5_advmod	asks	RB	O
+8-2	a	O	O	DT	O
+8-3	flight	O	O	NN	O
+8-4	attendant	8-5_nsubj	asks	NN	P2_staff
+8-5	asks	O	O	VBZ	O
+8-6	you	8-5_dobj	asks	PRP	P5_passenger
+8-7	if	8-9_mark	want	IN	O
+8-8	you	8-9_nsubj	want	PRP	P8_passenger
+8-9	want	8-5_advcl	asks	VBP	O
+8-10	anything	8-9_dobj	want	NN	O
+8-11	like	O	O	O	O
+8-12	something	8-9_prep_like	want	NN	O
+8-13	to	8-14_aux	drink	TO	O
+8-14	drink	8-9_vmod	want	VB	O
+8-15	or	O	O	O	O
+8-16	eat	8-14_conj_or	drink	VB	O
+8-17	.	O	O	O	O
+
+#id=9
+#text=There is a bathroom on the plane if you have to go and you can even shave in there . 
+9-1	There	9-2_expl	is	EX	O
+9-2	is	O	O	VBZ	O
+9-3	a	O	O	DT	O
+9-4	bathroom	9-2_nsubj	is	NN	P1_location_airplane_indoor
+9-5	on	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	plane	O	O	NN	P1_plane
+9-8	if	9-10_mark	have	IN	O
+9-9	you	9-10_nsubj	have	PRP	P5_passenger
+9-10	have	9-2_advcl	is	VBP	O
+9-11	to	9-12_aux	go	TO	O
+9-12	go	9-10_xcomp	have	VB	O
+9-13	and	O	O	O	O
+9-14	you	9-17_nsubj	shave	PRP	P5_passenger
+9-15	can	9-17_aux	shave	MD	O
+9-16	even	9-17_advmod	shave	RB	O
+9-17	shave	9-2_conj_and	is	VB	O
+9-18	in	9-17_prep	shave	IN	O
+9-19	there	O	O	RB	P2_other
+9-20	.	O	O	O	O
+
+#id=10
+#text=Once you get off the plane you grab your bags and off you can go safely . 
+10-1	Once	10-3_mark	get	IN	O
+10-2	you	10-3_nsubj	get	PRP	P5_passenger
+10-3	get	10-8_advcl	grab	VB	O
+10-4	off	10-3_prt	get	RP	O
+10-5	the	O	O	DT	O
+10-6	plane	10-3_dobj	get	NN	P1_plane
+10-7	you	10-8_nsubj	grab	PRP	P5_passenger
+10-8	grab	O	O	VBP	O
+10-9	your	O	O	PRP$	P5_passenger
+10-10	bags	10-8_dobj	grab	NNS	P1_check_in_luggage
+10-11	and	O	O	O	O
+10-12	off	10-15_advmod	go	RB	O
+10-13	you	10-15_nsubj	go	PRP	P5_passenger
+10-14	can	10-15_aux	go	MD	O
+10-15	go	10-8_conj_and	grab	VB	O
+10-16	safely	10-15_advmod	go	RB	O
+10-17	.	O	O	O	O

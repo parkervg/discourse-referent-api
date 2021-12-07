@@ -1,0 +1,195 @@
+#id=1
+#text=When I was riding my bike this past summer , one of my tires went flat . 
+1-1	When	1-4_advmod	riding	WRB	O
+1-2	I	1-4_nsubj	riding	PRP	P1_rider
+1-3	was	1-4_aux	riding	VBD	O
+1-4	riding	1-15_advcl	went	VBG	O
+1-5	my	O	O	PRP$	P1_rider
+1-6	bike	1-4_dobj	riding	NN	P1_bicycle
+1-7	this	O	O	DT	O
+1-8	past	O	O	JJ	O
+1-9	summer	1-4_tmod	riding	NN	P1_NPart_summer
+1-10	,	O	O	O	O
+1-11	one	1-15_nsubj	went	CD	O
+1-12	of	O	O	O	O
+1-13	my	O	O	PRP$	P1_rider
+1-14	tires	O	O	NNS	P1_tire
+1-15	went	O	O	VBD	O
+1-16	flat	1-15_acomp	went	JJ	O
+1-17	.	O	O	O	O
+
+#id=2
+#text=I noticed it went flat because it felt bumpy while I was riding down the street . 
+2-1	I	2-2_nsubj	noticed	PRP	P1_rider
+2-2	noticed	O	O	VBD	O
+2-3	it	2-4_nsubj	went	PRP	P1_tire
+2-4	went	2-2_ccomp	noticed	VBD	O
+2-5	flat	2-4_acomp	went	JJ	O
+2-6	because	2-8_mark	felt	IN	O
+2-7	it	2-8_nsubj	felt	PRP	O
+2-8	felt	2-4_advcl	went	VBD	O
+2-9	bumpy	2-8_acomp	felt	JJ	O
+2-10	while	2-13_mark	riding	IN	O
+2-11	I	2-13_nsubj	riding	PRP	P1_rider
+2-12	was	2-13_aux	riding	VBD	O
+2-13	riding	2-8_advcl	felt	VBG	O
+2-14	down	2-13_prt	riding	RP	O
+2-15	the	O	O	DT	O
+2-16	street	2-13_dobj	riding	NN	P1_NPart_street
+2-17	.	O	O	O	O
+
+#id=3
+#text=I wheeled my bike home while walking next to it and pushing it . 
+3-1	I	3-2_nsubj	wheeled	PRP	P1_rider
+3-2	wheeled	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_rider
+3-4	bike	O	O	NN	P1_bicycle
+3-5	home	3-2_dobj	wheeled	NN	P1_location_repair
+3-6	while	3-7_mark	walking	IN	O
+3-7	walking	3-2_advcl	wheeled	VBG	O
+3-8	next	O	O	O	O
+3-9	to	O	O	O	O
+3-10	it	3-7_prep_next_to	walking	PRP	P1_bicycle
+3-11	and	O	O	O	O
+3-12	pushing	3-7_conj_and	walking	VBG	O
+3-13	it	3-12_dobj	pushing	PRP	P1_bicycle
+3-14	.	O	O	O	O
+
+#id=4
+#text=I asked my dad to help me fix the flat tire because I had never done it before . 
+4-1	I	4-2_nsubj	asked	PRP	P1_rider
+4-2	asked	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_rider
+4-4	dad	4-2_dobj	asked	NN	P1_NPart_dad
+4-5	to	4-6_aux	help	TO	O
+4-6	help	O	O	VB	O
+4-7	me	4-8_nsubj	fix	PRP	P1_rider
+4-8	fix	4-6_ccomp	help	VB	O
+4-9	the	O	O	DT	O
+4-10	flat	O	O	JJ	O
+4-11	tire	4-8_dobj	fix	NN	P1_tire
+4-12	because	4-16_mark	done	IN	O
+4-13	I	4-16_nsubj	done	PRP	P1_rider
+4-14	had	4-16_aux	done	VBD	O
+4-15	never	4-16_neg	done	RB	O
+4-16	done	4-8_advcl	fix	VBN	O
+4-17	it	4-16_dep	done	PRP	O
+4-18	before	O	O	RB	O
+4-19	.	O	O	O	O
+
+#id=5
+#text=He gave me the materials I needed to fix it , and he explained how to go about fixing it . 
+5-1	He	5-2_nsubj	gave	PRP	P1_NPart_he
+5-2	gave	O	O	VBD	O
+5-3	me	5-2_iobj	gave	PRP	P1_rider
+5-4	the	O	O	DT	O
+5-5	materials	5-2_dobj	gave	NNS	P1_tool
+5-6	I	5-7_nsubj	needed	PRP	P1_rider
+5-7	needed	O	O	VBD	O
+5-8	to	5-9_aux	fix	TO	O
+5-9	fix	5-7_xcomp	needed	VB	O
+5-10	it	5-9_dobj	fix	PRP	P1_tire
+5-11	,	O	O	O	O
+5-12	and	O	O	O	O
+5-13	he	5-14_nsubj	explained	PRP	P2_NPart_he
+5-14	explained	5-2_conj_and	gave	VBD	O
+5-15	how	5-17_advmod	go	WRB	O
+5-16	to	5-17_aux	go	TO	O
+5-17	go	5-14_ccomp	explained	VB	O
+5-18	about	O	O	O	O
+5-19	fixing	5-17_prepc_about	go	VBG	O
+5-20	it	5-19_dobj	fixing	PRP	P1_tire
+5-21	.	O	O	O	O
+
+#id=6
+#text=To my surprise , it was very easy to fix the flat tire . 
+6-1	To	O	O	O	O
+6-2	my	O	O	PRP$	P1_rider
+6-3	surprise	O	O	NN	P1_NPart_surprise
+6-4	,	O	O	O	O
+6-5	it	O	O	PRP	O
+6-6	was	O	O	VBD	O
+6-7	very	O	O	RB	O
+6-8	easy	O	O	JJ	O
+6-9	to	6-10_aux	fix	TO	O
+6-10	fix	O	O	VB	O
+6-11	the	O	O	DT	O
+6-12	flat	O	O	JJ	O
+6-13	tire	6-10_dobj	fix	NN	P1_tire
+6-14	.	O	O	O	O
+
+#id=7
+#text=I just had to patch up the hole with the materials he gave me . 
+7-1	I	7-3_nsubj	had	PRP	P1_rider
+7-2	just	7-3_advmod	had	RB	O
+7-3	had	O	O	VBD	O
+7-4	to	7-5_aux	patch	TO	O
+7-5	patch	7-3_xcomp	had	VB	O
+7-6	up	7-5_prt	patch	RP	O
+7-7	the	O	O	DT	O
+7-8	hole	7-5_dobj	patch	NN	P1_damage
+7-9	with	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	materials	7-5_prep_with	patch	NNS	P1_tool
+7-12	he	7-13_nsubj	gave	PRP	P3_NPart_he
+7-13	gave	O	O	VBD	O
+7-14	me	7-13_dobj	gave	PRP	P1_rider
+7-15	.	O	O	O	O
+
+#id=8
+#text=After I patched up the hole , I used an air pump to put air in both of my tires . 
+8-1	After	8-3_mark	patched	IN	O
+8-2	I	8-3_nsubj	patched	PRP	P1_rider
+8-3	patched	8-9_advcl	used	VBN	O
+8-4	up	8-3_prt	patched	RP	O
+8-5	the	O	O	DT	O
+8-6	hole	8-3_dobj	patched	NN	P1_damage
+8-7	,	O	O	O	O
+8-8	I	8-9_nsubj	used	PRP	P1_rider
+8-9	used	O	O	VBD	O
+8-10	an	O	O	DT	O
+8-11	air	8-12_nsubj	pump	NN	O
+8-12	pump	8-9_ccomp	used	VBP	P2_tool
+8-13	to	8-14_aux	put	TO	O
+8-14	put	8-12_xcomp	pump	VB	O
+8-15	air	8-14_dobj	put	NN	P1_air
+8-16	in	O	O	O	O
+8-17	both	8-14_prep_in	put	DT	O
+8-18	of	O	O	O	O
+8-19	my	O	O	PRP$	P1_rider
+8-20	tires	O	O	NNS	P1_tire
+8-21	.	O	O	O	O
+
+#id=9
+#text=This completed the repair process for me . 
+9-1	This	9-2_nsubj	completed	DT	O
+9-2	completed	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	repair	O	O	NN	O
+9-5	process	9-2_dobj	completed	NN	O
+9-6	for	O	O	O	O
+9-7	me	9-2_prep_for	completed	PRP	P1_rider
+9-8	.	O	O	O	O
+
+#id=10
+#text=The next day , I rode my bike again and I did not have any problems with the tire . 
+10-1	The	O	O	DT	O
+10-2	next	O	O	JJ	O
+10-3	day	10-6_tmod	rode	NN	P1_NPart_day
+10-4	,	O	O	O	O
+10-5	I	10-6_nsubj	rode	PRP	P1_rider
+10-6	rode	O	O	VBD	O
+10-7	my	O	O	PRP$	P1_rider
+10-8	bike	10-6_dobj	rode	NN	P1_bicycle
+10-9	again	10-6_advmod	rode	RB	O
+10-10	and	O	O	O	O
+10-11	I	10-14_nsubj	have	PRP	P1_rider
+10-12	did	10-14_aux	have	VBD	O
+10-13	not	10-14_neg	have	RB	O
+10-14	have	10-6_conj_and	rode	VB	O
+10-15	any	O	O	DT	O
+10-16	problems	10-14_dobj	have	NNS	O
+10-17	with	O	O	O	O
+10-18	the	O	O	DT	O
+10-19	tire	O	O	NN	P1_tire
+10-20	.	O	O	O	O

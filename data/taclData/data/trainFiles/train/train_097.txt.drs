@@ -1,0 +1,206 @@
+#id=1
+#text=I stood at the train station with my luggage bags waiting to take the train to the nearest airport . 
+1-1	I	1-2_nsubj	stood	PRP	P1_passenger
+1-2	stood	O	O	VBD	O
+1-3	at	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	train	O	O	NN	O
+1-6	station	1-2_prep_at	stood	NN	P1_train_station
+1-7	with	O	O	O	O
+1-8	my	O	O	PRP$	P1_passenger
+1-9	luggage	O	O	JJ	O
+1-10	bags	1-2_prep_with	stood	NNS	P1_luggage
+1-11	waiting	O	O	VBG	O
+1-12	to	1-13_aux	take	TO	O
+1-13	take	1-11_xcomp	waiting	VB	O
+1-14	the	O	O	DT	O
+1-15	train	1-13_dobj	take	NN	P1_train
+1-16	to	O	O	O	O
+1-17	the	O	O	DT	O
+1-18	nearest	O	O	JJS	O
+1-19	airport	1-13_prep_to	take	NN	P1_destination
+1-20	.	O	O	O	O
+
+#id=2
+#text=I took the train solely due to convenience of not having to drive my car and leave it at the airport . 
+2-1	I	2-2_nsubj	took	PRP	P1_passenger
+2-2	took	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	train	O	O	NN	P1_train
+2-5	solely	O	O	RB	O
+2-6	due	2-2_xcomp	took	JJ	O
+2-7	to	O	O	O	O
+2-8	convenience	O	O	NN	P1_NPart_convenience
+2-9	of	O	O	O	O
+2-10	not	2-11_neg	having	RB	O
+2-11	having	O	O	VBG	O
+2-12	to	2-13_aux	drive	TO	O
+2-13	drive	2-11_xcomp	having	VB	O
+2-14	my	O	O	PRP$	P1_passenger
+2-15	car	2-13_dobj	drive	NN	P1_NPart_it
+2-16	and	O	O	O	O
+2-17	leave	2-13_conj_and	drive	VB	O
+2-18	it	2-17_dobj	leave	PRP	P1_NPart_it
+2-19	at	O	O	O	O
+2-20	the	O	O	DT	O
+2-21	airport	2-17_prep_at	leave	NN	P1_destination
+2-22	.	O	O	O	O
+
+#id=3
+#text=Once the train arrived at the destination , I picked up my bags and headed in to take my seat . 
+3-1	Once	3-4_mark	arrived	IN	O
+3-2	the	O	O	DT	O
+3-3	train	3-4_nsubj	arrived	NN	P1_train
+3-4	arrived	3-10_advcl	picked	VBD	O
+3-5	at	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	destination	3-4_prep_at	arrived	NN	P2_train_station
+3-8	,	O	O	O	O
+3-9	I	3-10_nsubj	picked	PRP	P1_passenger
+3-10	picked	O	O	VBD	O
+3-11	up	3-10_prt	picked	RP	O
+3-12	my	O	O	PRP$	P1_passenger
+3-13	bags	3-10_dobj	picked	NNS	P1_luggage
+3-14	and	O	O	O	O
+3-15	headed	3-10_conj_and	picked	VBD	O
+3-16	in	3-15_prt	headed	RP	O
+3-17	to	3-18_aux	take	TO	O
+3-18	take	3-15_xcomp	headed	VB	O
+3-19	my	O	O	PRP$	P1_passenger
+3-20	seat	3-18_dobj	take	NN	P1_seat
+3-21	.	O	O	O	O
+
+#id=4
+#text=I took a compartment all to myself as there were not many other people on the same train . 
+4-1	I	4-2_nsubj	took	PRP	P1_passenger
+4-2	took	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	compartment	O	O	NN	P1_coach
+4-5	all	4-2_advmod	took	RB	O
+4-6	to	O	O	O	O
+4-7	myself	4-2_prep_to	took	PRP	P1_passenger
+4-8	as	4-10_mark	were	IN	O
+4-9	there	4-10_expl	were	EX	O
+4-10	were	4-2_advcl	took	VBD	O
+4-11	not	4-10_neg	were	RB	O
+4-12	many	O	O	JJ	O
+4-13	other	O	O	JJ	O
+4-14	people	4-10_nsubj	were	NNS	P2_passenger
+4-15	on	O	O	O	O
+4-16	the	O	O	DT	O
+4-17	same	O	O	JJ	O
+4-18	train	4-10_prep_on	were	NN	P1_train
+4-19	.	O	O	O	O
+
+#id=5
+#text=As a result , I got to relax and have a compartment with complete silence , where I then took a nap . 
+5-1	As	O	O	O	O
+5-2	a	O	O	DT	O
+5-3	result	5-6_prep_as	got	NN	O
+5-4	,	O	O	O	O
+5-5	I	5-6_nsubj	got	PRP	P1_passenger
+5-6	got	O	O	VBD	O
+5-7	to	5-8_aux	relax	TO	O
+5-8	relax	5-6_xcomp	got	VB	O
+5-9	and	O	O	O	O
+5-10	have	5-8_conj_and	relax	VB	O
+5-11	a	O	O	DT	O
+5-12	compartment	5-10_dobj	have	NN	P1_coach
+5-13	with	O	O	O	O
+5-14	complete	O	O	JJ	O
+5-15	silence	O	O	NN	P1_NPart_silence
+5-16	,	O	O	O	O
+5-17	where	5-20_advmod	took	WRB	O
+5-18	I	5-20_nsubj	took	PRP	P1_passenger
+5-19	then	5-20_advmod	took	RB	O
+5-20	took	O	O	VBD	O
+5-21	a	O	O	DT	O
+5-22	nap	5-20_dobj	took	NN	O
+5-23	.	O	O	O	O
+
+#id=6
+#text=Moments later , an attendant came by to check everyone 's tickets . 
+6-1	Moments	O	O	NNS	P1_time_date
+6-2	later	6-6_advmod	came	RB	O
+6-3	,	O	O	O	O
+6-4	an	O	O	DT	O
+6-5	attendant	6-6_nsubj	came	NN	P1_train_staff
+6-6	came	O	O	VBD	O
+6-7	by	6-6_prt	came	RP	O
+6-8	to	6-9_aux	check	TO	O
+6-9	check	6-6_xcomp	came	VB	O
+6-10	everyone	O	O	NN	P3_passenger
+6-11	's	O	O	O	O
+6-12	tickets	6-9_dobj	check	NNS	P1_card/ticket
+6-13	.	O	O	O	O
+
+#id=7
+#text=I showed him my ticket , to which he tore off the perforated bottom portion and handed the ticket back to me . 
+7-1	I	7-2_nsubj	showed	PRP	P1_passenger
+7-2	showed	O	O	VBD	O
+7-3	him	7-2_iobj	showed	PRP	P1_train_staff
+7-4	my	O	O	PRP$	P1_passenger
+7-5	ticket	7-2_dobj	showed	NN	P2_card/ticket
+7-6	,	O	O	O	O
+7-7	to	O	O	O	O
+7-8	which	7-10_prep_to	tore	WDT	P2_card/ticket
+7-9	he	7-10_nsubj	tore	PRP	P1_train_staff
+7-10	tore	O	O	VBD	O
+7-11	off	7-10_prt	tore	RP	O
+7-12	the	O	O	DT	O
+7-13	perforated	O	O	JJ	O
+7-14	bottom	O	O	NN	O
+7-15	portion	7-10_dobj	tore	NN	O
+7-16	and	O	O	O	O
+7-17	handed	7-10_conj_and	tore	VBD	O
+7-18	the	O	O	DT	O
+7-19	ticket	7-17_dobj	handed	NN	P2_card/ticket
+7-20	back	7-17_prt	handed	RP	O
+7-21	to	O	O	O	O
+7-22	me	7-17_prep_to	handed	PRP	P1_passenger
+7-23	.	O	O	O	O
+
+#id=8
+#text=Once the train arrived at the airport about 45 minutes later , I grabbed my luggage and headed out of the compartment to the front of the train . 
+8-1	Once	8-4_mark	arrived	IN	O
+8-2	the	O	O	DT	O
+8-3	train	8-4_nsubj	arrived	NN	P1_train
+8-4	arrived	8-14_advcl	grabbed	VBD	O
+8-5	at	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	airport	8-4_prep_at	arrived	NN	P1_destination
+8-8	about	O	O	RB	O
+8-9	45	O	O	CD	O
+8-10	minutes	8-4_dobj	arrived	NNS	P2_time_date
+8-11	later	O	O	RB	O
+8-12	,	O	O	O	O
+8-13	I	8-14_nsubj	grabbed	PRP	P1_passenger
+8-14	grabbed	O	O	VBD	O
+8-15	my	O	O	PRP$	P1_passenger
+8-16	luggage	8-14_dobj	grabbed	NN	P1_luggage
+8-17	and	O	O	O	O
+8-18	headed	8-14_conj_and	grabbed	VBD	O
+8-19	out	O	O	O	O
+8-20	of	O	O	O	O
+8-21	the	O	O	DT	O
+8-22	compartment	8-18_prep_out_of	headed	NN	P1_coach
+8-23	to	O	O	O	O
+8-24	the	O	O	DT	O
+8-25	front	8-18_prep_to	headed	NN	P1_location_train
+8-26	of	O	O	O	O
+8-27	the	O	O	DT	O
+8-28	train	O	O	NN	P1_train
+8-29	.	O	O	O	O
+
+#id=9
+#text=I exited the train and went to my flight . 
+9-1	I	9-2_nsubj	exited	PRP	P1_passenger
+9-2	exited	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	train	9-2_dobj	exited	NN	P1_train
+9-5	and	O	O	O	O
+9-6	went	9-2_conj_and	exited	VBD	O
+9-7	to	O	O	O	O
+9-8	my	O	O	PRP$	P1_passenger
+9-9	flight	9-6_prep_to	went	NN	P1_NPart_flight
+9-10	.	O	O	O	O

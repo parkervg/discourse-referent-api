@@ -1,0 +1,193 @@
+#id=1
+#text=Going grocery shopping is a routine task for most people . 
+1-1	Going	O	O	VBG	O
+1-2	grocery	O	O	NN	P1_groceries
+1-3	shopping	1-1_dobj	Going	NN	O
+1-4	is	O	O	VBZ	O
+1-5	a	O	O	DT	O
+1-6	routine	O	O	JJ	O
+1-7	task	O	O	NN	P1_NPart_task
+1-8	for	O	O	O	O
+1-9	most	O	O	JJS	O
+1-10	people	O	O	NNS	P1_shopper
+1-11	.	O	O	O	O
+
+#id=2
+#text=As most groceries nearby now require the use of reusable tote bags rather than offering paper or plastic bags , the trip usually begins at home with remembering to take along a tote or two . 
+2-1	As	2-6_mark	require	IN	O
+2-2	most	O	O	JJS	O
+2-3	groceries	2-6_nsubj	require	NNS	P1_grocery_shop
+2-4	nearby	2-6_advmod	require	RB	O
+2-5	now	2-6_advmod	require	RB	O
+2-6	require	2-24_advcl	begins	VBP	O
+2-7	the	O	O	DT	O
+2-8	use	2-6_dobj	require	NN	P1_NPart_use
+2-9	of	O	O	O	O
+2-10	reusable	O	O	JJ	O
+2-11	tote	O	O	JJ	O
+2-12	bags	O	O	NNS	P1_shopping_bags
+2-13	rather	O	O	O	O
+2-14	than	O	O	O	O
+2-15	offering	2-6_conj_negcc	require	VBG	O
+2-16	paper	O	O	NN	O
+2-17	or	O	O	O	O
+2-18	plastic	O	O	NN	O
+2-19	bags	2-15_dobj	offering	NNS	P1_packing
+2-20	,	O	O	O	O
+2-21	the	O	O	DT	O
+2-22	trip	2-24_nsubj	begins	NN	P1_other
+2-23	usually	2-24_advmod	begins	RB	O
+2-24	begins	O	O	VBZ	O
+2-25	at	2-24_advmod	begins	IN	O
+2-26	home	O	O	NN	P1_NPart_home
+2-27	with	O	O	O	O
+2-28	remembering	2-24_prepc_with	begins	VBG	O
+2-29	to	2-30_aux	take	TO	O
+2-30	take	2-28_xcomp	remembering	VB	O
+2-31	along	O	O	O	O
+2-32	a	O	O	DT	O
+2-33	tote	2-30_prep_along	take	CD	P1_shopping_bags
+2-34	or	O	O	O	O
+2-35	two	O	O	CD	O
+2-36	.	O	O	O	O
+
+#id=3
+#text=I begin my trip by starting down the aisle to either the far right or left and continuing from there . 
+3-1	I	3-2_nsubj	begin	PRP	P1_shopper
+3-2	begin	O	O	VBP	O
+3-3	my	O	O	PRP$	P1_shopper
+3-4	trip	3-2_dobj	begin	NN	P1_other
+3-5	by	O	O	O	O
+3-6	starting	3-2_prepc_by	begin	VBG	O
+3-7	down	3-6_advmod	starting	RB	O
+3-8	the	O	O	DT	O
+3-9	aisle	O	O	NN	P1_section
+3-10	to	O	O	O	O
+3-11	either	O	O	RB	O
+3-12	the	O	O	DT	O
+3-13	far	O	O	RB	O
+3-14	right	3-6_advmod	starting	RB	O
+3-15	or	O	O	O	O
+3-16	left	O	O	RB	O
+3-17	and	O	O	O	O
+3-18	continuing	3-6_conj_and	starting	VBG	O
+3-19	from	3-18_prep	continuing	IN	O
+3-20	there	O	O	RB	O
+3-21	.	O	O	O	O
+
+#id=4
+#text=If the store offers an ad at the door I will usually pick one up and decide if there are any deals I wish to take advantage of . 
+4-1	If	4-4_mark	offers	IN	O
+4-2	the	O	O	DT	O
+4-3	store	4-4_nsubj	offers	NN	P1_grocery_shop
+4-4	offers	4-13_advcl	pick	VBZ	O
+4-5	an	O	O	DT	O
+4-6	ad	4-4_dobj	offers	NN	P1_NPart_ad
+4-7	at	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	door	O	O	NN	P1_NPart_door
+4-10	I	4-13_nsubj	pick	PRP	P1_shopper
+4-11	will	4-13_aux	pick	MD	O
+4-12	usually	4-13_advmod	pick	RB	O
+4-13	pick	O	O	VB	O
+4-14	one	4-13_dobj	pick	CD	P1_NPart_one
+4-15	up	4-13_prt	pick	RP	O
+4-16	and	O	O	O	O
+4-17	decide	4-13_conj_and	pick	VB	O
+4-18	if	4-20_mark	are	IN	O
+4-19	there	4-20_expl	are	EX	O
+4-20	are	4-17_advcl	decide	VBP	O
+4-21	any	O	O	DT	O
+4-22	deals	4-20_nsubj	are	NNS	P1_deal_coupon
+4-23	I	4-24_nsubj	wish	PRP	P1_shopper
+4-24	wish	O	O	VBP	O
+4-25	to	4-26_aux	take	TO	O
+4-26	take	4-24_xcomp	wish	VB	O
+4-27	advantage	4-26_dobj	take	NN	O
+4-28	of	4-26_prep	take	IN	O
+4-29	.	O	O	O	O
+
+#id=5
+#text=Keeping an eye on my spending is importnat , as grocery expenses can add up quickly . 
+5-1	Keeping	O	O	VBG	O
+5-2	an	O	O	DT	O
+5-3	eye	5-1_dobj	Keeping	NN	O
+5-4	on	O	O	O	O
+5-5	my	O	O	PRP$	P1_shopper
+5-6	spending	5-1_prep_on	Keeping	NN	O
+5-7	is	O	O	VBZ	O
+5-8	importnat	O	O	JJ	O
+5-9	,	O	O	O	O
+5-10	as	5-14_mark	add	IN	O
+5-11	grocery	O	O	NN	O
+5-12	expenses	5-14_nsubj	add	NNS	P1_payment_means
+5-13	can	5-14_aux	add	MD	O
+5-14	add	O	O	VB	O
+5-15	up	5-14_prt	add	RP	O
+5-16	quickly	5-14_advmod	add	RB	O
+5-17	.	O	O	O	O
+
+#id=6
+#text=If I am doing major shopping I will use a cart , but if I 'm just stopping for a few items , a hand basket will suffice . 
+6-1	If	6-4_mark	doing	IN	O
+6-2	I	6-4_nsubj	doing	PRP	P1_shopper
+6-3	am	6-4_aux	doing	VBP	O
+6-4	doing	6-28_advcl	suffice	VBG	O
+6-5	major	O	O	JJ	O
+6-6	shopping	6-4_dobj	doing	NN	O
+6-7	I	6-9_nsubj	use	PRP	P1_shopper
+6-8	will	6-9_aux	use	MD	O
+6-9	use	6-4_advcl	doing	VB	O
+6-10	a	O	O	DT	O
+6-11	cart	6-9_dobj	use	NN	P1_shopping_cart/basket
+6-12	,	O	O	O	O
+6-13	but	O	O	O	O
+6-14	if	6-18_mark	stopping	IN	O
+6-15	I	6-18_nsubj	stopping	PRP	P1_shopper
+6-16	'm	6-18_aux	stopping	VBP	O
+6-17	just	6-18_advmod	stopping	RB	O
+6-18	stopping	6-9_conj_but	use	VBG	O
+6-19	for	O	O	O	O
+6-20	a	O	O	DT	O
+6-21	few	O	O	JJ	O
+6-22	items	6-18_prep_for	stopping	NNS	P1_groceries
+6-23	,	O	O	O	O
+6-24	a	O	O	DT	O
+6-25	hand	O	O	NN	O
+6-26	basket	6-28_nsubj	suffice	NN	P2_shopping_cart/basket
+6-27	will	6-28_aux	suffice	MD	O
+6-28	suffice	O	O	VB	O
+6-29	.	O	O	O	O
+
+#id=7
+#text=When paying for my items I do my best to find the shortest line with the fastest checker so I can be in and out as quickly as possible . 
+7-1	When	7-2_advmod	paying	WRB	O
+7-2	paying	7-7_advcl	do	VBG	O
+7-3	for	O	O	O	O
+7-4	my	O	O	PRP$	P1_shopper
+7-5	items	7-2_prep_for	paying	NNS	P1_groceries
+7-6	I	7-7_nsubj	do	PRP	P1_shopper
+7-7	do	O	O	VBP	O
+7-8	my	O	O	PRP$	P1_shopper
+7-9	best	7-7_dobj	do	JJS	O
+7-10	to	7-11_aux	find	TO	O
+7-11	find	7-7_vmod	do	VB	O
+7-12	the	O	O	DT	O
+7-13	shortest	O	O	JJS	O
+7-14	line	7-11_dobj	find	NN	P1_line
+7-15	with	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	fastest	O	O	JJS	O
+7-18	checker	7-11_prep_with	find	NN	P1_grocery_staff
+7-19	so	O	O	IN	O
+7-20	I	O	O	PRP	P1_shopper
+7-21	can	O	O	MD	O
+7-22	be	O	O	VB	O
+7-23	in	O	O	IN	O
+7-24	and	O	O	O	O
+7-25	out	O	O	IN	O
+7-26	as	O	O	IN	O
+7-27	quickly	O	O	RB	O
+7-28	as	O	O	RB	O
+7-29	possible	7-11_advcl	find	JJ	O
+7-30	.	O	O	O	O

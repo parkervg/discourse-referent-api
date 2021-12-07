@@ -1,0 +1,249 @@
+#id=1
+#text=First , I get in the bathroom and make sure that there is a clean towel . 
+1-1	First	1-4_advmod	get	RB	O
+1-2	,	O	O	O	O
+1-3	I	1-4_nsubj	get	PRP	P1_bather
+1-4	get	O	O	VB	O
+1-5	in	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	bathroom	1-4_prep_in	get	NN	P1_bathroom
+1-8	and	O	O	O	O
+1-9	make	1-4_conj_and	get	VB	O
+1-10	sure	1-9_acomp	make	JJ	O
+1-11	that	1-13_mark	is	IN	O
+1-12	there	1-13_expl	is	EX	O
+1-13	is	1-9_ccomp	make	VBZ	O
+1-14	a	O	O	DT	O
+1-15	clean	O	O	JJ	O
+1-16	towel	1-13_nsubj	is	NN	P1_towel
+1-17	.	O	O	O	O
+
+#id=2
+#text=If there is not , I go and grab a clean one . 
+2-1	If	2-3_mark	is	IN	O
+2-2	there	2-3_expl	is	EX	O
+2-3	is	2-7_advcl	go	VBZ	O
+2-4	not	2-3_neg	is	RB	O
+2-5	,	O	O	O	O
+2-6	I	2-7_nsubj	go	PRP	P1_bather
+2-7	go	O	O	VBP	O
+2-8	and	O	O	O	O
+2-9	grab	2-7_conj_and	go	VBP	O
+2-10	a	O	O	DT	O
+2-11	clean	O	O	JJ	O
+2-12	one	2-7_dobj	go	NN	P2_towel
+2-13	.	O	O	O	O
+
+#id=3
+#text=Then I pull the shower curtain and start the water as hot as it goes . 
+3-1	Then	3-3_advmod	pull	RB	O
+3-2	I	3-3_nsubj	pull	PRP	P1_bather
+3-3	pull	O	O	VBP	O
+3-4	the	O	O	DT	O
+3-5	shower	O	O	NN	P1_shower
+3-6	curtain	3-3_dobj	pull	NN	P1_other
+3-7	and	O	O	O	O
+3-8	start	3-3_conj_and	pull	VB	O
+3-9	the	O	O	DT	O
+3-10	water	3-15_nsubj	goes	NN	P1_water
+3-11	as	O	O	RB	O
+3-12	hot	3-15_dep	goes	JJ	O
+3-13	as	3-15_mark	goes	IN	O
+3-14	it	3-15_nsubj	goes	PRP	P1_water
+3-15	goes	3-8_xcomp	start	VBZ	O
+3-16	.	O	O	O	O
+
+#id=4
+#text=While the water is warming up , and the tub is filling , I brush my hair out . 
+4-1	While	4-5_mark	warming	IN	O
+4-2	the	O	O	DT	O
+4-3	water	4-5_nsubj	warming	NN	P1_water
+4-4	is	4-5_aux	warming	VBZ	O
+4-5	warming	4-15_advcl	brush	VBG	O
+4-6	up	4-5_prt	warming	RP	O
+4-7	,	O	O	O	O
+4-8	and	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	tub	4-12_nsubj	filling	NN	P1_bathtub
+4-11	is	4-12_aux	filling	VBZ	O
+4-12	filling	4-5_conj_and	warming	VBG	O
+4-13	,	O	O	O	O
+4-14	I	4-15_nsubj	brush	PRP	P1_bather
+4-15	brush	O	O	VB	O
+4-16	my	O	O	PRP$	P1_bather
+4-17	hair	4-15_dobj	brush	NN	P1_hair
+4-18	out	4-15_prt	brush	RP	O
+4-19	.	O	O	O	O
+
+#id=5
+#text=When the tub is filled , I get undressed , pull the curtain back and get in the tub . 
+5-1	When	5-5_advmod	filled	WRB	O
+5-2	the	O	O	DT	O
+5-3	tub	5-5_nsubjpass	filled	NN	P1_bathtub
+5-4	is	5-5_auxpass	filled	VBZ	O
+5-5	filled	O	O	VBN	O
+5-6	,	O	O	O	O
+5-7	I	O	O	PRP	P1_bather
+5-8	get	O	O	VB	O
+5-9	undressed	O	O	JJ	O
+5-10	,	O	O	O	O
+5-11	pull	O	O	VB	O
+5-12	the	O	O	DT	O
+5-13	curtain	5-11_dobj	pull	NN	P1_other
+5-14	back	5-11_advmod	pull	RB	O
+5-15	and	O	O	O	O
+5-16	get	O	O	VB	O
+5-17	in	O	O	O	O
+5-18	the	O	O	DT	O
+5-19	tub	5-16_prep_in	get	NN	P1_bathtub
+5-20	.	O	O	O	O
+
+#id=6
+#text=If I am taking a bath for pleasure , I will put on some enjoyable music and light some candles . 
+6-1	If	6-4_mark	taking	IN	O
+6-2	I	6-4_nsubj	taking	PRP	P1_bather
+6-3	am	6-4_aux	taking	VBP	O
+6-4	taking	6-12_advcl	put	VBG	O
+6-5	a	O	O	DT	O
+6-6	bath	6-4_dobj	taking	NN	O
+6-7	for	O	O	O	O
+6-8	pleasure	O	O	NN	P1_NPart_pleasure
+6-9	,	O	O	O	O
+6-10	I	6-12_nsubj	put	PRP	P1_bather
+6-11	will	6-12_aux	put	MD	O
+6-12	put	O	O	VB	O
+6-13	on	O	O	O	O
+6-14	some	O	O	DT	O
+6-15	enjoyable	O	O	JJ	O
+6-16	music	6-12_prep_on	put	NN	P1_in-bath_entertainment
+6-17	and	O	O	O	O
+6-18	light	6-12_conj_and	put	VB	O
+6-19	some	O	O	DT	O
+6-20	candles	6-18_dobj	light	NNS	P2_in-bath_entertainment
+6-21	.	O	O	O	O
+
+#id=7
+#text=If I am sitting in the tub for enjoyment I will relax and maybe read a book . 
+7-1	If	7-4_mark	sitting	IN	O
+7-2	I	7-4_nsubj	sitting	PRP	P1_bather
+7-3	am	7-4_aux	sitting	VBP	O
+7-4	sitting	7-12_advcl	relax	VBG	O
+7-5	in	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	tub	7-4_prep_in	sitting	NN	P1_bathtub
+7-8	for	O	O	O	O
+7-9	enjoyment	O	O	NN	P1_NPart_enjoyment
+7-10	I	7-12_nsubj	relax	PRP	P1_bather
+7-11	will	7-12_aux	relax	MD	O
+7-12	relax	O	O	VB	O
+7-13	and	O	O	O	O
+7-14	maybe	7-15_advmod	read	RB	O
+7-15	read	7-12_conj_and	relax	VB	O
+7-16	a	O	O	DT	O
+7-17	book	7-15_dobj	read	NN	P3_in-bath_entertainment
+7-18	.	O	O	O	O
+
+#id=8
+#text=If not , I will wet my hair and apply shampoo and rinse it out . 
+8-1	If	8-6_dep	wet	IN	O
+8-2	not	O	O	RB	O
+8-3	,	O	O	O	O
+8-4	I	8-6_nsubj	wet	PRP	P1_bather
+8-5	will	8-6_aux	wet	MD	O
+8-6	wet	O	O	VB	O
+8-7	my	O	O	PRP$	P1_bather
+8-8	hair	8-6_dobj	wet	NN	P1_hair
+8-9	and	O	O	O	O
+8-10	apply	8-6_conj_and	wet	VB	O
+8-11	shampoo	8-10_dobj	apply	NN	P1_washing_tools
+8-12	and	O	O	O	O
+8-13	rinse	8-10_conj_and	apply	VB	O
+8-14	it	8-13_dobj	rinse	PRP	P1_washing_tools
+8-15	out	8-13_prt	rinse	RP	O
+8-16	.	O	O	O	O
+
+#id=9
+#text=Then i will apply conditioner and let it sit in my hair . 
+9-1	Then	9-4_advmod	apply	RB	O
+9-2	i	9-4_nsubj	apply	FW	P1_bather
+9-3	will	9-4_aux	apply	MD	O
+9-4	apply	O	O	VB	O
+9-5	conditioner	9-4_dobj	apply	NN	P2_washing_tools
+9-6	and	O	O	O	O
+9-7	let	9-4_conj_and	apply	VB	O
+9-8	it	9-9_nsubj	sit	PRP	P2_washing_tools
+9-9	sit	9-7_ccomp	let	VB	O
+9-10	in	O	O	O	O
+9-11	my	O	O	PRP$	P1_bather
+9-12	hair	9-9_prep_in	sit	NN	P1_hair
+9-13	.	O	O	O	O
+
+#id=10
+#text=While its sitting , I wash my body with soap , and then rinseout the conditioner . 
+10-1	While	O	O	IN	O
+10-2	its	O	O	PRP$	P2_washing_tools
+10-3	sitting	10-6_advcl	wash	NN	O
+10-4	,	O	O	O	O
+10-5	I	10-6_nsubj	wash	PRP	P1_bather
+10-6	wash	O	O	VBP	O
+10-7	my	O	O	PRP$	P1_bather
+10-8	body	10-6_dobj	wash	NN	P1_body_part
+10-9	with	O	O	O	O
+10-10	soap	10-6_prep_with	wash	NN	P3_washing_tools
+10-11	,	O	O	O	O
+10-12	and	O	O	O	O
+10-13	then	10-14_advmod	rinseout	RB	O
+10-14	rinseout	10-6_conj_and	wash	VBP	O
+10-15	the	O	O	DT	O
+10-16	conditioner	10-14_dobj	rinseout	NN	P2_washing_tools
+10-17	.	O	O	O	O
+
+#id=11
+#text=Before I leave the tub , I pull the drain and the shower curtain and run the shower to rinse off . 
+11-1	Before	11-3_mark	leave	IN	O
+11-2	I	11-3_nsubj	leave	PRP	P1_bather
+11-3	leave	11-8_advcl	pull	VBP	O
+11-4	the	O	O	DT	O
+11-5	tub	11-3_dobj	leave	NN	P1_bathtub
+11-6	,	O	O	O	O
+11-7	I	11-8_nsubj	pull	PRP	P1_bather
+11-8	pull	O	O	VB	O
+11-9	the	O	O	DT	O
+11-10	drain	11-8_dobj	pull	NN	P1_drain
+11-11	and	O	O	O	O
+11-12	the	O	O	DT	O
+11-13	shower	O	O	NN	P2_shower
+11-14	curtain	O	O	NN	P1_other
+11-15	and	O	O	O	O
+11-16	run	11-8_conj_and	pull	VB	O
+11-17	the	O	O	DT	O
+11-18	shower	11-16_dobj	run	NN	P3_shower
+11-19	to	11-20_aux	rinse	TO	O
+11-20	rinse	O	O	VB	O
+11-21	off	11-20_prt	rinse	RP	O
+11-22	.	O	O	O	O
+
+#id=12
+#text=I then turn off the shower , and wrap myself in a towel to dry off and my bath is done . 
+12-1	I	12-3_nsubj	turn	PRP	P1_bather
+12-2	then	12-3_advmod	turn	RB	O
+12-3	turn	O	O	VB	O
+12-4	off	12-3_prt	turn	RP	O
+12-5	the	O	O	DT	O
+12-6	shower	12-3_dobj	turn	NN	P3_shower
+12-7	,	O	O	O	O
+12-8	and	O	O	O	O
+12-9	wrap	12-3_conj_and	turn	VB	O
+12-10	myself	12-9_dobj	wrap	PRP	P1_bather
+12-11	in	O	O	O	O
+12-12	a	O	O	DT	O
+12-13	towel	12-9_prep_in	wrap	NN	P2_towel
+12-14	to	12-15_aux	dry	TO	O
+12-15	dry	O	O	VB	O
+12-16	off	12-15_prt	dry	RP	O
+12-17	and	O	O	O	O
+12-18	my	O	O	PRP$	P1_bather
+12-19	bath	12-21_nsubjpass	done	NN	P1_bath
+12-20	is	12-21_auxpass	done	VBZ	O
+12-21	done	12-3_conj_and	turn	VBN	O
+12-22	.	O	O	O	O

@@ -1,0 +1,251 @@
+#id=1
+#text=I prefer a shower over a bath , but when I need to take a bath it 's to relax from a stressful evening . 
+1-1	I	1-2_nsubj	prefer	PRP	P1_bather
+1-2	prefer	O	O	VBP	O
+1-3	a	O	O	DT	O
+1-4	shower	1-2_dobj	prefer	NN	P1_shower
+1-5	over	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	bath	O	O	NN	P1_bath
+1-8	,	O	O	O	O
+1-9	but	O	O	O	O
+1-10	when	1-12_advmod	need	WRB	O
+1-11	I	1-12_nsubj	need	PRP	P1_bather
+1-12	need	1-18_advcl	's	VBP	O
+1-13	to	1-14_aux	take	TO	O
+1-14	take	1-12_xcomp	need	VB	O
+1-15	a	O	O	DT	O
+1-16	bath	1-14_dobj	take	NN	O
+1-17	it	1-18_nsubj	's	PRP	O
+1-18	's	1-2_conj_but	prefer	VBZ	O
+1-19	to	1-20_aux	relax	TO	O
+1-20	relax	1-18_xcomp	's	VB	O
+1-21	from	O	O	O	O
+1-22	a	O	O	DT	O
+1-23	stressful	O	O	JJ	O
+1-24	evening	1-20_prep_from	relax	NN	P1_NPart_evening
+1-25	.	O	O	O	O
+
+#id=2
+#text=Taking a bath requires filling the whole tub up with warm water . 
+2-1	Taking	2-4_csubj	requires	VBG	O
+2-2	a	O	O	DT	O
+2-3	bath	2-1_dobj	Taking	NN	O
+2-4	requires	O	O	VBZ	O
+2-5	filling	2-4_xcomp	requires	VBG	O
+2-6	the	O	O	DT	O
+2-7	whole	O	O	JJ	O
+2-8	tub	2-5_dobj	filling	NN	P1_bathtub
+2-9	up	2-5_prt	filling	RP	O
+2-10	with	O	O	O	O
+2-11	warm	O	O	JJ	O
+2-12	water	2-5_prep_with	filling	NN	P1_water
+2-13	.	O	O	O	O
+
+#id=3
+#text=This may take some time and I will have to be sure to have a stopper to prevent the water from draining away from the tub . 
+3-1	This	3-3_nsubj	take	DT	O
+3-2	may	3-3_aux	take	MD	O
+3-3	take	O	O	VB	O
+3-4	some	O	O	DT	O
+3-5	time	3-3_dobj	take	NN	O
+3-6	and	O	O	O	O
+3-7	I	3-9_nsubj	have	PRP	P1_bather
+3-8	will	3-9_aux	have	MD	O
+3-9	have	3-3_conj_and	take	VB	O
+3-10	to	O	O	TO	O
+3-11	be	O	O	VB	O
+3-12	sure	3-9_xcomp	have	JJ	O
+3-13	to	3-14_aux	have	TO	O
+3-14	have	O	O	VB	O
+3-15	a	O	O	DT	O
+3-16	stopper	3-14_dobj	have	NN	P1_plug
+3-17	to	3-18_aux	prevent	TO	O
+3-18	prevent	O	O	VB	O
+3-19	the	O	O	DT	O
+3-20	water	3-18_dobj	prevent	NN	P1_water
+3-21	from	O	O	O	O
+3-22	draining	3-18_prepc_from	prevent	VBG	O
+3-23	away	O	O	O	O
+3-24	from	O	O	O	O
+3-25	the	O	O	DT	O
+3-26	tub	3-22_prep_away_from	draining	NN	P1_bathtub
+3-27	.	O	O	O	O
+
+#id=4
+#text=While the water is filling up , I will add the bubble bath solution to make the water soapy and fragrant . 
+4-1	While	4-5_mark	filling	IN	O
+4-2	the	O	O	DT	O
+4-3	water	4-5_nsubj	filling	NN	P1_water
+4-4	is	4-5_aux	filling	VBZ	O
+4-5	filling	4-10_advcl	add	VBG	O
+4-6	up	4-5_prt	filling	RP	O
+4-7	,	O	O	O	O
+4-8	I	4-10_nsubj	add	PRP	P1_bather
+4-9	will	4-10_aux	add	MD	O
+4-10	add	O	O	VB	O
+4-11	the	O	O	DT	O
+4-12	bubble	O	O	NN	O
+4-13	bath	O	O	NN	O
+4-14	solution	4-10_dobj	add	NN	P1_bath_means
+4-15	to	4-16_aux	make	TO	O
+4-16	make	4-10_vmod	add	VB	O
+4-17	the	O	O	DT	O
+4-18	water	4-16_dobj	make	NN	P1_water
+4-19	soapy	O	O	JJ	O
+4-20	and	O	O	O	O
+4-21	fragrant	O	O	JJ	O
+4-22	.	O	O	O	O
+
+#id=5
+#text=The aroma in the bath is what de-stresses me . 
+5-1	The	O	O	DT	O
+5-2	aroma	5-6_nsubj	is	NN	P1_bath_means
+5-3	in	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	bath	O	O	NN	P1_bath
+5-6	is	O	O	VBZ	O
+5-7	what	5-8_nsubj	de-stresses	WP	P1_bath_means
+5-8	de-stresses	5-6_ccomp	is	VBZ	O
+5-9	me	5-8_dobj	de-stresses	PRP	P1_bather
+5-10	.	O	O	O	O
+
+#id=6
+#text=Usually it 'll be a nice lavender smell or something not too strong but is very pleasant to smell . 
+6-1	Usually	O	O	RB	O
+6-2	it	O	O	PRP	P1_bath_means
+6-3	'll	O	O	MD	O
+6-4	be	O	O	VB	O
+6-5	a	O	O	DT	O
+6-6	nice	O	O	JJ	O
+6-7	lavender	O	O	NN	O
+6-8	smell	O	O	NN	P1_bath_means
+6-9	or	O	O	O	O
+6-10	something	O	O	NN	O
+6-11	not	O	O	RB	O
+6-12	too	O	O	RB	O
+6-13	strong	O	O	JJ	O
+6-14	but	O	O	O	O
+6-15	is	O	O	VBZ	O
+6-16	very	O	O	RB	O
+6-17	pleasant	O	O	JJ	O
+6-18	to	O	O	O	O
+6-19	smell	O	O	NN	O
+6-20	.	O	O	O	O
+
+#id=7
+#text=Once the tub is filled , I will slowly enter myself into the water . 
+7-1	Once	7-5_mark	filled	IN	O
+7-2	the	O	O	DT	O
+7-3	tub	7-5_nsubjpass	filled	NN	P1_bathtub
+7-4	is	7-5_auxpass	filled	VBZ	O
+7-5	filled	7-10_advcl	enter	VBN	O
+7-6	,	O	O	O	O
+7-7	I	7-10_nsubj	enter	PRP	P1_bather
+7-8	will	7-10_aux	enter	MD	O
+7-9	slowly	7-10_advmod	enter	RB	O
+7-10	enter	O	O	VB	O
+7-11	myself	7-10_dobj	enter	PRP	P1_bather
+7-12	into	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	water	7-10_prep_into	enter	NN	P1_water
+7-15	.	O	O	O	O
+
+#id=8
+#text=This can be tough at first because the water is usually too hot in the beginning so I will ease myself in . 
+8-1	This	O	O	DT	O
+8-2	can	O	O	MD	O
+8-3	be	O	O	VB	O
+8-4	tough	O	O	JJ	O
+8-5	at	O	O	IN	O
+8-6	first	O	O	RB	O
+8-7	because	O	O	IN	O
+8-8	the	O	O	DT	O
+8-9	water	O	O	NN	P1_water
+8-10	is	O	O	VBZ	O
+8-11	usually	O	O	RB	O
+8-12	too	O	O	RB	O
+8-13	hot	O	O	JJ	O
+8-14	in	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	beginning	O	O	NN	P1_NPart_beginning
+8-17	so	8-20_mark	ease	IN	O
+8-18	I	8-20_nsubj	ease	PRP	P1_bather
+8-19	will	8-20_aux	ease	MD	O
+8-20	ease	O	O	VB	O
+8-21	myself	8-20_dobj	ease	PRP	P1_bather
+8-22	in	8-20_prep	ease	IN	O
+8-23	.	O	O	O	O
+
+#id=9
+#text=But once in , the bath will really work to help get the blood circulating to get a nice feeling of relaxation . 
+9-1	But	9-9_cc	work	CC	O
+9-2	once	O	O	RB	O
+9-3	in	9-9_advmod	work	RB	O
+9-4	,	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	bath	9-9_nsubj	work	NN	P1_bath
+9-7	will	9-9_aux	work	MD	O
+9-8	really	9-9_advmod	work	RB	O
+9-9	work	O	O	VB	O
+9-10	to	9-11_aux	help	TO	O
+9-11	help	9-9_xcomp	work	VB	O
+9-12	get	9-11_xcomp	help	VB	O
+9-13	the	O	O	DT	O
+9-14	blood	9-12_dobj	get	NN	P1_NPart_blood
+9-15	circulating	O	O	VBG	O
+9-16	to	9-17_aux	get	TO	O
+9-17	get	9-15_xcomp	circulating	VB	O
+9-18	a	O	O	DT	O
+9-19	nice	O	O	JJ	O
+9-20	feeling	9-17_dobj	get	NN	P1_NPart_feeling
+9-21	of	O	O	O	O
+9-22	relaxation	O	O	NN	O
+9-23	.	O	O	O	O
+
+#id=10
+#text=I will typically stay in until the water is no longer warm or the bubbles have gone away . 
+10-1	I	10-4_nsubj	stay	PRP	P1_bather
+10-2	will	10-4_aux	stay	MD	O
+10-3	typically	10-4_advmod	stay	RB	O
+10-4	stay	O	O	VB	O
+10-5	in	10-4_prt	stay	RP	O
+10-6	until	O	O	IN	O
+10-7	the	O	O	DT	O
+10-8	water	O	O	NN	P1_water
+10-9	is	O	O	VBZ	O
+10-10	no	O	O	RB	O
+10-11	longer	O	O	RBR	O
+10-12	warm	10-4_advcl	stay	JJ	O
+10-13	or	O	O	O	O
+10-14	the	O	O	DT	O
+10-15	bubbles	10-17_nsubj	gone	NNS	P1_bath_means
+10-16	have	10-17_aux	gone	VBP	O
+10-17	gone	10-4_conj_or	stay	VBN	O
+10-18	away	10-17_prt	gone	RP	O
+10-19	.	O	O	O	O
+
+#id=11
+#text=So when the water is just lukewarm , I will drain the tub and then rinse off using the normal shower . 
+11-1	So	11-11_dep	drain	IN	O
+11-2	when	O	O	WRB	O
+11-3	the	O	O	DT	O
+11-4	water	O	O	NN	P1_water
+11-5	is	O	O	VBZ	O
+11-6	just	O	O	RB	O
+11-7	lukewarm	11-11_advcl	drain	JJ	O
+11-8	,	O	O	O	O
+11-9	I	11-11_nsubj	drain	PRP	P1_bather
+11-10	will	11-11_aux	drain	MD	O
+11-11	drain	O	O	VB	O
+11-12	the	O	O	DT	O
+11-13	tub	11-11_dobj	drain	NN	P1_bathtub
+11-14	and	O	O	O	O
+11-15	then	11-16_advmod	rinse	RB	O
+11-16	rinse	11-11_conj_and	drain	VB	O
+11-17	off	11-16_prt	rinse	RP	O
+11-18	using	11-16_xcomp	rinse	VBG	O
+11-19	the	O	O	DT	O
+11-20	normal	O	O	JJ	O
+11-21	shower	11-18_dobj	using	NN	P1_shower
+11-22	.	O	O	O	O

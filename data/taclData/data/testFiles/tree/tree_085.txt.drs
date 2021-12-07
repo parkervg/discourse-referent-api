@@ -1,0 +1,210 @@
+#id=1
+#text=Springtime is upon us and there 's no better time to get outdoors and work on landscaping . 
+1-1	Springtime	1-2_nsubj	is	NNP	P1_time
+1-2	is	O	O	VBZ	O
+1-3	upon	O	O	O	O
+1-4	us	1-2_prep_upon	is	PRP	P1_NPart_us
+1-5	and	O	O	O	O
+1-6	there	1-7_expl	's	EX	O
+1-7	's	1-2_conj_and	is	VBZ	O
+1-8	no	O	O	DT	O
+1-9	better	O	O	JJR	O
+1-10	time	1-7_nsubj	's	NN	O
+1-11	to	1-12_aux	get	TO	O
+1-12	get	O	O	VB	O
+1-13	outdoors	1-12_dobj	get	NNS	O
+1-14	and	O	O	O	O
+1-15	work	1-12_conj_and	get	VB	O
+1-16	on	O	O	O	O
+1-17	landscaping	1-15_prep_on	work	NN	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=An easy way to improve your yard is to plant a tree . 
+2-1	An	O	O	DT	O
+2-2	easy	O	O	JJ	O
+2-3	way	2-8_nsubj	is	NN	O
+2-4	to	2-5_aux	improve	TO	O
+2-5	improve	O	O	VB	O
+2-6	your	O	O	PRP$	P1_gardener
+2-7	yard	2-5_dobj	improve	NN	P1_location_garden
+2-8	is	O	O	VBZ	O
+2-9	to	2-10_aux	plant	TO	O
+2-10	plant	2-8_xcomp	is	VB	O
+2-11	a	O	O	DT	O
+2-12	tree	2-10_dobj	plant	NN	P1_tree
+2-13	.	O	O	O	O
+
+#id=3
+#text=Head on over to your local home and garden store and pick out an appropriate tree . 
+3-1	Head	O	O	VB	O
+3-2	on	3-1_prt	Head	RP	O
+3-3	over	3-1_prt	Head	RP	O
+3-4	to	O	O	O	O
+3-5	your	O	O	PRP$	P1_gardener
+3-6	local	O	O	JJ	O
+3-7	home	3-1_prep_to	Head	NN	P1_NPart_home
+3-8	and	O	O	O	O
+3-9	garden	O	O	NN	P1_NPart_garden
+3-10	store	O	O	NN	P1_shop
+3-11	and	O	O	O	O
+3-12	pick	3-1_conj_and	Head	VB	O
+3-13	out	3-12_prt	pick	RP	O
+3-14	an	O	O	DT	O
+3-15	appropriate	O	O	JJ	O
+3-16	tree	3-12_dobj	pick	NN	P1_tree
+3-17	.	O	O	O	O
+
+#id=4
+#text=If you do n't have one already , pickup a shovel as well . 
+4-1	If	4-5_mark	have	IN	O
+4-2	you	4-5_nsubj	have	PRP	P1_gardener
+4-3	do	4-5_aux	have	VBP	O
+4-4	n't	4-5_neg	have	RB	O
+4-5	have	4-9_advcl	pickup	VB	O
+4-6	one	4-5_dobj	have	CD	P1_gardening_tool
+4-7	already	4-5_advmod	have	RB	O
+4-8	,	O	O	O	O
+4-9	pickup	O	O	VB	O
+4-10	a	O	O	DT	O
+4-11	shovel	4-9_dobj	pickup	NN	P1_gardening_tool
+4-12	as	O	O	RB	O
+4-13	well	4-9_advmod	pickup	RB	O
+4-14	.	O	O	O	O
+
+#id=5
+#text=Head out to your yard and carefully scope out a great spot to plant the tree . 
+5-1	Head	O	O	VB	O
+5-2	out	5-1_prt	Head	RP	O
+5-3	to	O	O	O	O
+5-4	your	O	O	PRP$	P1_gardener
+5-5	yard	5-1_prep_to	Head	NN	P2_location_garden
+5-6	and	O	O	O	O
+5-7	carefully	5-8_advmod	scope	RB	O
+5-8	scope	5-1_conj_and	Head	VBG	O
+5-9	out	5-8_prt	scope	RP	O
+5-10	a	O	O	DT	O
+5-11	great	O	O	JJ	O
+5-12	spot	5-8_dobj	scope	NN	P3_location_garden
+5-13	to	5-14_aux	plant	TO	O
+5-14	plant	5-8_vmod	scope	VB	O
+5-15	the	O	O	DT	O
+5-16	tree	5-14_dobj	plant	NN	P1_tree
+5-17	.	O	O	O	O
+
+#id=6
+#text=If you have any questions about digging , make sure to contact your local government authority to make sure there are no pipes underground ! 
+6-1	If	6-3_mark	have	IN	O
+6-2	you	6-3_nsubj	have	PRP	P1_gardener
+6-3	have	6-9_advcl	make	VBP	O
+6-4	any	O	O	DT	O
+6-5	questions	6-3_dobj	have	NNS	P1_NPart_questions
+6-6	about	O	O	O	O
+6-7	digging	O	O	NN	O
+6-8	,	O	O	O	O
+6-9	make	O	O	VB	O
+6-10	sure	6-9_acomp	make	JJ	P2_gardener
+6-11	to	6-12_aux	contact	TO	O
+6-12	contact	O	O	VB	O
+6-13	your	O	O	PRP$	P1_gardener
+6-14	local	O	O	JJ	O
+6-15	government	O	O	NN	O
+6-16	authority	6-12_dobj	contact	NN	P1_NPart_authority
+6-17	to	6-18_aux	make	TO	O
+6-18	make	6-12_vmod	contact	VB	O
+6-19	sure	6-18_acomp	make	JJ	O
+6-20	there	6-21_expl	are	EX	O
+6-21	are	O	O	VBP	O
+6-22	no	O	O	DT	O
+6-23	pipes	6-21_nsubj	are	NNS	P1_NPart_pipes
+6-24	underground	6-21_advmod	are	RB	O
+6-25	!	O	O	O	O
+
+#id=7
+#text=Once you have a safe spot , dig a whole large enough to fit the tree that your purchased and make sure to save the dirt . 
+7-1	Once	7-3_mark	have	IN	O
+7-2	you	7-3_nsubj	have	PRP	P1_gardener
+7-3	have	7-8_advcl	dig	VBP	O
+7-4	a	O	O	DT	O
+7-5	safe	O	O	JJ	O
+7-6	spot	7-3_dobj	have	NN	P3_location_garden
+7-7	,	O	O	O	O
+7-8	dig	O	O	VB	O
+7-9	a	O	O	DT	O
+7-10	whole	O	O	JJ	P1_hole
+7-11	large	O	O	JJ	O
+7-12	enough	7-8_dobj	dig	NN	O
+7-13	to	7-14_aux	fit	TO	O
+7-14	fit	7-8_vmod	dig	VB	O
+7-15	the	O	O	DT	O
+7-16	tree	7-14_dobj	fit	NN	P1_tree
+7-17	that	7-19_mark	purchased	IN	O
+7-18	your	7-19_nsubj	purchased	PRP	P1_gardener
+7-19	purchased	7-14_ccomp	fit	VBD	O
+7-20	and	O	O	O	O
+7-21	make	7-8_conj_and	dig	VB	O
+7-22	sure	7-21_acomp	make	JJ	O
+7-23	to	7-24_aux	save	TO	O
+7-24	save	O	O	VB	O
+7-25	the	O	O	DT	O
+7-26	dirt	7-24_dobj	save	NN	P1_dirt
+7-27	.	O	O	O	O
+
+#id=8
+#text=After you plant the tree in the ground , make sure to fill in this hole and pack it tight . 
+8-1	After	8-3_mark	plant	IN	O
+8-2	you	8-3_nsubj	plant	PRP	P1_gardener
+8-3	plant	8-10_advcl	make	VB	O
+8-4	the	O	O	DT	O
+8-5	tree	8-3_dobj	plant	NN	P1_tree
+8-6	in	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	ground	8-3_prep_in	plant	NN	P1_other
+8-9	,	O	O	O	O
+8-10	make	O	O	VB	O
+8-11	sure	8-10_acomp	make	JJ	O
+8-12	to	8-13_aux	fill	TO	O
+8-13	fill	O	O	VB	O
+8-14	in	O	O	O	O
+8-15	this	O	O	DT	O
+8-16	hole	8-13_prep_in	fill	NN	P1_hole
+8-17	and	O	O	O	O
+8-18	pack	8-13_conj_and	fill	VB	O
+8-19	it	O	O	PRP	P1_hole
+8-20	tight	8-18_xcomp	pack	JJ	O
+8-21	.	O	O	O	O
+
+#id=9
+#text=If it 's been dry in your area make sure to water the tree in order to help it grow . 
+9-1	If	O	O	IN	O
+9-2	it	O	O	PRP	O
+9-3	's	O	O	VBZ	O
+9-4	been	O	O	VBN	O
+9-5	dry	9-9_csubj	make	JJ	O
+9-6	in	O	O	O	O
+9-7	your	O	O	PRP$	P1_gardener
+9-8	area	O	O	NN	P1_NPart_area
+9-9	make	O	O	VBP	O
+9-10	sure	9-9_acomp	make	JJ	O
+9-11	to	9-12_aux	water	TO	O
+9-12	water	O	O	VB	O
+9-13	the	O	O	DT	O
+9-14	tree	9-12_dobj	water	NN	P1_tree
+9-15	in	9-18_mark	help	IN	O
+9-16	order	9-18_dep	help	NN	O
+9-17	to	9-18_aux	help	TO	O
+9-18	help	9-12_advcl	water	VB	O
+9-19	it	9-20_nsubj	grow	PRP	P1_tree
+9-20	grow	9-18_ccomp	help	VB	O
+9-21	.	O	O	O	O
+
+#id=10
+#text=Enjoy the reduction in your carbon footprint ! 
+10-1	Enjoy	10-7_advmod	footprint	RB	O
+10-2	the	O	O	DT	O
+10-3	reduction	10-7_nsubj	footprint	NN	P1_NPart_reduction
+10-4	in	O	O	O	O
+10-5	your	O	O	PRP$	P1_gardener
+10-6	carbon	O	O	NN	O
+10-7	footprint	O	O	VBP	P1_NPart_footprint
+10-8	!	O	O	O	O

@@ -1,0 +1,196 @@
+#id=1
+#text=When you have a flat bicycle tire the first thing you need to do is see where the hole is originating from . 
+1-1	When	1-3_advmod	have	WRB	O
+1-2	you	1-3_nsubj	have	PRP	P1_rider
+1-3	have	1-16_advcl	see	VBP	O
+1-4	a	O	O	DT	O
+1-5	flat	O	O	JJ	O
+1-6	bicycle	O	O	NN	O
+1-7	tire	1-3_dobj	have	NN	P1_tire
+1-8	the	O	O	DT	O
+1-9	first	O	O	JJ	O
+1-10	thing	1-15_nsubj	is	NN	P1_NPart_thing
+1-11	you	1-12_nsubj	need	PRP	P1_rider
+1-12	need	O	O	VBP	O
+1-13	to	1-14_aux	do	TO	O
+1-14	do	1-12_xcomp	need	VB	O
+1-15	is	O	O	VBZ	O
+1-16	see	O	O	VBP	O
+1-17	where	1-21_advmod	originating	WRB	O
+1-18	the	O	O	DT	O
+1-19	hole	1-21_nsubj	originating	NN	P1_damage
+1-20	is	1-21_aux	originating	VBZ	O
+1-21	originating	1-16_advcl	see	VBG	O
+1-22	from	1-21_prep	originating	IN	O
+1-23	.	O	O	O	O
+
+#id=2
+#text=You have to fully unscrew the tire first and take off the outer rubber . 
+2-1	You	2-2_nsubj	have	PRP	P1_rider
+2-2	have	O	O	VBP	O
+2-3	to	2-5_aux	unscrew	TO	O
+2-4	fully	2-5_advmod	unscrew	RB	O
+2-5	unscrew	2-2_xcomp	have	VB	O
+2-6	the	O	O	DT	O
+2-7	tire	2-5_dobj	unscrew	NN	P1_tire
+2-8	first	2-5_advmod	unscrew	RB	O
+2-9	and	O	O	O	O
+2-10	take	2-5_conj_and	unscrew	VB	O
+2-11	off	2-10_prt	take	RP	O
+2-12	the	O	O	DT	O
+2-13	outer	O	O	JJ	O
+2-14	rubber	2-10_dobj	take	NN	P1_tire
+2-15	.	O	O	O	O
+
+#id=3
+#text=Then you have to take off the inner rubber tube off of the tire frame . 
+3-1	Then	3-3_advmod	have	RB	O
+3-2	you	3-3_nsubj	have	PRP	P1_rider
+3-3	have	O	O	VBP	O
+3-4	to	3-5_aux	take	TO	O
+3-5	take	3-3_xcomp	have	VB	O
+3-6	off	3-5_prt	take	RP	O
+3-7	the	O	O	DT	O
+3-8	inner	O	O	JJ	O
+3-9	rubber	O	O	NN	O
+3-10	tube	3-5_dobj	take	NN	P1_tire
+3-11	off	O	O	O	O
+3-12	of	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	tire	O	O	NN	O
+3-15	frame	O	O	NN	P1_rim
+3-16	.	O	O	O	O
+
+#id=4
+#text=Once you have the inner tube try to find a body of water . 
+4-1	Once	4-3_mark	have	IN	O
+4-2	you	4-3_nsubj	have	PRP	P1_rider
+4-3	have	4-7_csubj	try	VBP	O
+4-4	the	O	O	DT	O
+4-5	inner	O	O	JJ	O
+4-6	tube	4-3_dobj	have	NN	P1_tire
+4-7	try	O	O	VBP	O
+4-8	to	4-9_aux	find	TO	O
+4-9	find	4-7_xcomp	try	VB	O
+4-10	a	O	O	DT	O
+4-11	body	4-9_dobj	find	NN	P1_tool
+4-12	of	O	O	O	O
+4-13	water	O	O	NN	P1_NPart_water
+4-14	.	O	O	O	O
+
+#id=5
+#text=Most easy method is filling the tire back up with air and listening for the sound . 
+5-1	Most	O	O	RBS	O
+5-2	easy	O	O	JJ	O
+5-3	method	5-5_nsubj	filling	NN	P1_NPart_method
+5-4	is	5-5_aux	filling	VBZ	O
+5-5	filling	O	O	VBG	O
+5-6	the	O	O	DT	O
+5-7	tire	5-5_dobj	filling	NN	P1_tire
+5-8	back	O	O	RB	O
+5-9	up	5-5_advmod	filling	RB	O
+5-10	with	O	O	O	O
+5-11	air	5-5_prep_with	filling	NN	P1_air
+5-12	and	O	O	O	O
+5-13	listening	5-5_conj_and	filling	VBG	O
+5-14	for	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	sound	5-13_prep_for	listening	NN	P1_NPart_sound
+5-17	.	O	O	O	O
+
+#id=6
+#text=Another method is filling a bucket with water if you are at home . 
+6-1	Another	O	O	DT	O
+6-2	method	6-4_nsubj	filling	NN	P2_NPart_method
+6-3	is	6-4_aux	filling	VBZ	O
+6-4	filling	O	O	VBG	O
+6-5	a	O	O	DT	O
+6-6	bucket	6-4_dobj	filling	NN	P1_tool
+6-7	with	O	O	O	O
+6-8	water	O	O	NN	P2_NPart_water
+6-9	if	6-11_mark	are	IN	O
+6-10	you	6-11_nsubj	are	PRP	P1_rider
+6-11	are	6-4_advcl	filling	VBP	O
+6-12	at	O	O	O	O
+6-13	home	6-11_prep_at	are	NN	P1_NPart_home
+6-14	.	O	O	O	O
+
+#id=7
+#text=Once the inner tube is submerged in the water you should be able to see bubbles coming out of the hole . 
+7-1	Once	7-6_mark	submerged	IN	O
+7-2	the	O	O	DT	O
+7-3	inner	O	O	JJ	O
+7-4	tube	7-6_nsubjpass	submerged	NN	P1_tire
+7-5	is	7-6_auxpass	submerged	VBZ	O
+7-6	submerged	O	O	VBN	O
+7-7	in	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	water	7-6_prep_in	submerged	NN	P3_NPart_water
+7-10	you	O	O	PRP	P1_rider
+7-11	should	O	O	MD	O
+7-12	be	O	O	VB	O
+7-13	able	O	O	JJ	O
+7-14	to	7-15_aux	see	TO	O
+7-15	see	O	O	VB	O
+7-16	bubbles	7-15_dobj	see	NNS	P1_NPart_bubbles
+7-17	coming	O	O	VBG	O
+7-18	out	O	O	O	O
+7-19	of	O	O	O	O
+7-20	the	O	O	DT	O
+7-21	hole	7-17_prep_out_of	coming	NN	P1_damage
+7-22	.	O	O	O	O
+
+#id=8
+#text=Once you identify where the puncture is you have to dry the area first before using either a specific tape or glue to plug up the hole . 
+8-1	Once	8-3_mark	identify	IN	O
+8-2	you	8-3_nsubj	identify	PRP	P1_rider
+8-3	identify	8-9_csubj	have	VBP	O
+8-4	where	O	O	WRB	O
+8-5	the	O	O	DT	O
+8-6	puncture	O	O	NN	P1_damage
+8-7	is	O	O	VBZ	O
+8-8	you	8-3_advcl	identify	PRP	P1_rider
+8-9	have	O	O	VBP	O
+8-10	to	8-11_aux	dry	TO	O
+8-11	dry	8-9_xcomp	have	VB	O
+8-12	the	O	O	DT	O
+8-13	area	8-11_dobj	dry	NN	P1_damage
+8-14	first	8-11_advmod	dry	RB	O
+8-15	before	O	O	O	O
+8-16	using	8-11_prepc_before	dry	VBG	O
+8-17	either	O	O	RB	O
+8-18	a	O	O	DT	O
+8-19	specific	O	O	JJ	O
+8-20	tape	8-16_dobj	using	NN	P1_patch
+8-21	or	O	O	O	O
+8-22	glue	O	O	NN	P2_tool
+8-23	to	8-24_aux	plug	TO	O
+8-24	plug	8-16_vmod	using	VB	O
+8-25	up	8-24_prt	plug	RP	O
+8-26	the	O	O	DT	O
+8-27	hole	8-24_dobj	plug	NN	P1_damage
+8-28	.	O	O	O	O
+
+#id=9
+#text=Verify once you repaired the hole place the tube back on the frame and fill it back up with air . 
+9-1	Verify	O	O	VB	O
+9-2	once	9-4_mark	repaired	IN	O
+9-3	you	9-4_nsubj	repaired	PRP	P1_rider
+9-4	repaired	9-1_advcl	Verify	VBD	O
+9-5	the	O	O	DT	O
+9-6	hole	O	O	NN	P1_damage
+9-7	place	9-4_dobj	repaired	NN	O
+9-8	the	O	O	DT	O
+9-9	tube	O	O	NN	P1_tire
+9-10	back	9-4_advmod	repaired	RB	O
+9-11	on	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	frame	9-4_prep_on	repaired	NN	P1_rim
+9-14	and	O	O	O	O
+9-15	fill	9-1_conj_and	Verify	VB	O
+9-16	it	9-15_dobj	fill	PRP	P1_tire
+9-17	back	O	O	RB	O
+9-18	up	9-15_advmod	fill	RB	O
+9-19	with	O	O	O	O
+9-20	air	9-15_prep_with	fill	NN	P1_air
+9-21	.	O	O	O	O

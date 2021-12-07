@@ -1,0 +1,300 @@
+#id=1
+#text=We had just come home from the beach one Saturday afternoon . 
+1-1	We	1-4_nsubj	come	PRP	O
+1-2	had	1-4_aux	come	VBD	O
+1-3	just	1-4_advmod	come	RB	O
+1-4	come	O	O	VBN	O
+1-5	home	1-4_advmod	come	NN	P1_NPart_home
+1-6	from	O	O	O	O
+1-7	the	O	O	DT	O
+1-8	beach	O	O	NN	P1_NPart_beach
+1-9	one	O	O	NN	O
+1-10	Saturday	O	O	NNP	P1_NPart_saturday
+1-11	afternoon	1-4_dobj	come	NN	P1_NPart_afternoon
+1-12	.	O	O	O	O
+
+#id=2
+#text=We had a great time , but were very sweaty , sandy and sticky with old sunscreen , sweat and salt from the ocean . 
+2-1	We	2-2_nsubj	had	PRP	O
+2-2	had	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	great	O	O	JJ	O
+2-5	time	2-2_dobj	had	NN	O
+2-6	,	O	O	O	O
+2-7	but	O	O	O	O
+2-8	were	O	O	VBD	O
+2-9	very	O	O	RB	O
+2-10	sweaty	2-2_conj_but	had	JJ	O
+2-11	,	O	O	O	O
+2-12	sandy	O	O	JJ	O
+2-13	and	O	O	O	O
+2-14	sticky	O	O	JJ	O
+2-15	with	O	O	O	O
+2-16	old	O	O	JJ	O
+2-17	sunscreen	O	O	NN	P1_other
+2-18	,	O	O	O	O
+2-19	sweat	O	O	NN	P2_other
+2-20	and	O	O	O	O
+2-21	salt	O	O	NN	P3_other
+2-22	from	O	O	O	O
+2-23	the	O	O	DT	O
+2-24	ocean	O	O	NN	P1_NPart_ocean
+2-25	.	O	O	O	O
+
+#id=3
+#text=After unpacking the car , I had to take a bath . 
+3-1	After	O	O	O	O
+3-2	unpacking	3-7_prepc_after	had	VBG	O
+3-3	the	O	O	DT	O
+3-4	car	3-2_dobj	unpacking	NN	P1_NPart_car
+3-5	,	O	O	O	O
+3-6	I	3-7_nsubj	had	PRP	P1_bather
+3-7	had	O	O	VBD	O
+3-8	to	3-9_aux	take	TO	O
+3-9	take	3-7_xcomp	had	VB	O
+3-10	a	O	O	DT	O
+3-11	bath	3-9_dobj	take	NN	P1_bath
+3-12	.	O	O	O	O
+
+#id=4
+#text=I love our deep soaking tub . 
+4-1	I	4-2_nsubj	love	PRP	P1_bather
+4-2	love	O	O	VBP	O
+4-3	our	O	O	PRP$	O
+4-4	deep	O	O	JJ	O
+4-5	soaking	O	O	JJ	O
+4-6	tub	4-2_dobj	love	NN	P1_bathtub
+4-7	.	O	O	O	O
+
+#id=5
+#text=I put in the drain plug and started running the water , making sure the temperature of the water was just right , and put in my favorite bath scents and soap . 
+5-1	I	5-2_nsubj	put	PRP	P1_bather
+5-2	put	O	O	VBD	O
+5-3	in	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	drain	O	O	NN	O
+5-6	plug	5-2_prep_in	put	NN	P1_plug
+5-7	and	O	O	O	O
+5-8	started	5-2_conj_and	put	VBD	O
+5-9	running	5-8_dep	started	VBG	O
+5-10	the	O	O	DT	O
+5-11	water	5-9_dobj	running	NN	P1_water
+5-12	,	O	O	O	O
+5-13	making	5-9_conj_and	running	VBG	O
+5-14	sure	5-13_acomp	making	JJ	O
+5-15	the	O	O	DT	O
+5-16	temperature	O	O	NN	P1_temperature
+5-17	of	O	O	O	O
+5-18	the	O	O	DT	O
+5-19	water	O	O	NN	P1_water
+5-20	was	O	O	VBD	O
+5-21	just	O	O	RB	O
+5-22	right	O	O	JJ	O
+5-23	,	O	O	O	O
+5-24	and	O	O	O	O
+5-25	put	5-9_conj_and	running	VBN	O
+5-26	in	O	O	O	O
+5-27	my	O	O	PRP$	P1_bather
+5-28	favorite	O	O	JJ	O
+5-29	bath	O	O	NN	O
+5-30	scents	5-25_prep_in	put	NNS	P1_bath_means
+5-31	and	O	O	O	O
+5-32	soap	O	O	NN	P1_washing_tools
+5-33	.	O	O	O	O
+
+#id=6
+#text=When the tub was full , I immersed myself deep into the tub and just let my body soak for a while . 
+6-1	When	O	O	WRB	O
+6-2	the	O	O	DT	O
+6-3	tub	O	O	NN	P1_bathtub
+6-4	was	O	O	VBD	O
+6-5	full	6-8_advcl	immersed	JJ	O
+6-6	,	O	O	O	O
+6-7	I	6-8_nsubj	immersed	PRP	P1_bather
+6-8	immersed	O	O	VBD	O
+6-9	myself	O	O	PRP	P1_bather
+6-10	deep	6-8_xcomp	immersed	JJ	O
+6-11	into	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	tub	O	O	NN	P1_bathtub
+6-14	and	O	O	O	O
+6-15	just	6-16_advmod	let	RB	O
+6-16	let	6-8_conj_and	immersed	VBD	O
+6-17	my	O	O	PRP$	P1_bather
+6-18	body	6-16_dobj	let	NN	P1_body_part
+6-19	soak	6-16_dep	let	VB	O
+6-20	for	O	O	O	O
+6-21	a	O	O	DT	O
+6-22	while	6-19_prep_for	soak	NN	O
+6-23	.	O	O	O	O
+
+#id=7
+#text=It was good to sit in the nice , warm water and let everything just relax and melt away from me . 
+7-1	It	O	O	PRP	O
+7-2	was	O	O	VBD	O
+7-3	good	O	O	JJ	O
+7-4	to	7-5_aux	sit	TO	O
+7-5	sit	O	O	VB	O
+7-6	in	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	nice	O	O	JJ	O
+7-9	,	O	O	O	O
+7-10	warm	O	O	JJ	O
+7-11	water	7-5_prep_in	sit	NN	P1_water
+7-12	and	O	O	O	O
+7-13	let	7-5_conj_and	sit	VB	O
+7-14	everything	7-16_nsubj	relax	NN	O
+7-15	just	O	O	RB	O
+7-16	relax	7-13_ccomp	let	VB	O
+7-17	and	O	O	O	O
+7-18	melt	7-16_conj_and	relax	VB	O
+7-19	away	O	O	O	O
+7-20	from	O	O	O	O
+7-21	me	7-18_prep_away_from	melt	PRP	P1_bather
+7-22	.	O	O	O	O
+
+#id=8
+#text=I washed my hair with my favorite shampoo , as I had a lot of sand in it from playing at the beach that day . 
+8-1	I	8-2_nsubj	washed	PRP	P1_bather
+8-2	washed	O	O	VBD	O
+8-3	my	O	O	PRP$	P1_bather
+8-4	hair	8-2_dobj	washed	NN	P1_hair
+8-5	with	O	O	O	O
+8-6	my	O	O	PRP$	P1_bather
+8-7	favorite	O	O	JJ	O
+8-8	shampoo	8-2_prep_with	washed	NN	P2_washing_tools
+8-9	,	O	O	O	O
+8-10	as	8-12_mark	had	IN	O
+8-11	I	8-12_nsubj	had	PRP	P1_bather
+8-12	had	8-2_advcl	washed	VBD	O
+8-13	a	O	O	DT	O
+8-14	lot	8-12_dobj	had	NN	O
+8-15	of	O	O	O	O
+8-16	sand	O	O	NN	P4_other
+8-17	in	O	O	O	O
+8-18	it	8-12_prep_in	had	PRP	P1_hair
+8-19	from	O	O	O	O
+8-20	playing	8-12_prepc_from	had	VBG	O
+8-21	at	O	O	O	O
+8-22	the	O	O	DT	O
+8-23	beach	8-20_prep_at	playing	NN	P2_NPart_beach
+8-24	that	O	O	DT	O
+8-25	day	O	O	NN	P1_NPart_day
+8-26	.	O	O	O	O
+
+#id=9
+#text=I scrubbed my body well with a washcloth , to get off all the sand and ocean salt that had dried on my skin , along with the sunscreen that I had been using . 
+9-1	I	9-2_nsubj	scrubbed	PRP	P1_bather
+9-2	scrubbed	O	O	VBD	O
+9-3	my	O	O	PRP$	P1_bather
+9-4	body	9-2_dobj	scrubbed	NN	P1_body_part
+9-5	well	9-2_advmod	scrubbed	RB	O
+9-6	with	O	O	O	O
+9-7	a	O	O	DT	O
+9-8	washcloth	9-2_prep_with	scrubbed	NN	P3_washing_tools
+9-9	,	O	O	O	O
+9-10	to	9-11_aux	get	TO	O
+9-11	get	O	O	VB	O
+9-12	off	9-11_prt	get	RP	O
+9-13	all	O	O	PDT	O
+9-14	the	O	O	DT	O
+9-15	sand	9-11_dobj	get	NN	P4_other
+9-16	and	O	O	O	O
+9-17	ocean	O	O	NN	O
+9-18	salt	O	O	NN	P3_other
+9-19	that	9-21_nsubj	dried	WDT	O
+9-20	had	9-21_aux	dried	VBD	O
+9-21	dried	O	O	VBN	O
+9-22	on	O	O	O	O
+9-23	my	O	O	PRP$	P1_bather
+9-24	skin	9-21_prep_on	dried	NN	P1_body_part
+9-25	,	O	O	O	O
+9-26	along	O	O	O	O
+9-27	with	O	O	O	O
+9-28	the	O	O	DT	O
+9-29	sunscreen	9-2_prep_along_with	scrubbed	NN	P1_other
+9-30	that	9-34_mark	using	IN	O
+9-31	I	9-34_nsubj	using	PRP	P1_bather
+9-32	had	9-34_aux	using	VBD	O
+9-33	been	9-34_aux	using	VBN	O
+9-34	using	O	O	VBG	O
+9-35	.	O	O	O	O
+
+#id=10
+#text=It was very relaxing and I felt really good . 
+10-1	It	O	O	PRP	O
+10-2	was	O	O	VBD	O
+10-3	very	O	O	RB	O
+10-4	relaxing	O	O	JJ	O
+10-5	and	O	O	O	O
+10-6	I	10-7_nsubj	felt	PRP	P1_bather
+10-7	felt	O	O	VBD	O
+10-8	really	O	O	RB	O
+10-9	good	10-7_acomp	felt	JJ	O
+10-10	.	O	O	O	O
+
+#id=11
+#text=I then pulled the drain on the tub and let all the dirty water go down . 
+11-1	I	11-3_nsubj	pulled	PRP	P1_bather
+11-2	then	11-3_advmod	pulled	RB	O
+11-3	pulled	O	O	VBD	O
+11-4	the	O	O	DT	O
+11-5	drain	11-3_dobj	pulled	NN	P1_drain
+11-6	on	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	tub	11-3_prep_on	pulled	NN	P1_bathtub
+11-9	and	O	O	O	O
+11-10	let	11-3_conj_and	pulled	VBD	O
+11-11	all	O	O	PDT	O
+11-12	the	O	O	DT	O
+11-13	dirty	O	O	JJ	O
+11-14	water	11-15_nsubj	go	NN	P1_water
+11-15	go	11-10_ccomp	let	VB	O
+11-16	down	11-15_prt	go	RP	O
+11-17	.	O	O	O	O
+
+#id=12
+#text=I had a big , fluffy bath towel that I dried off in , and I put on clean clothes . 
+12-1	I	12-2_nsubj	had	PRP	P1_bather
+12-2	had	O	O	VBD	O
+12-3	a	O	O	DT	O
+12-4	big	O	O	JJ	O
+12-5	,	O	O	O	O
+12-6	fluffy	O	O	JJ	O
+12-7	bath	O	O	NN	O
+12-8	towel	12-2_dobj	had	NN	P1_towel
+12-9	that	12-11_mark	dried	IN	O
+12-10	I	12-11_nsubj	dried	PRP	P1_bather
+12-11	dried	12-2_ccomp	had	VBD	O
+12-12	off	12-11_prt	dried	RP	O
+12-13	in	12-11_prep	dried	IN	O
+12-14	,	O	O	O	O
+12-15	and	O	O	O	O
+12-16	I	12-17_nsubj	put	PRP	P1_bather
+12-17	put	12-2_conj_and	had	VBD	O
+12-18	on	O	O	O	O
+12-19	clean	O	O	JJ	O
+12-20	clothes	12-17_prep_on	put	NNS	P1_clothes
+12-21	.	O	O	O	O
+
+#id=13
+#text=I was ready to finish up our fun day with some dinner and good times with my family . 
+13-1	I	O	O	PRP	P1_bather
+13-2	was	O	O	VBD	O
+13-3	ready	O	O	JJ	O
+13-4	to	13-5_aux	finish	TO	O
+13-5	finish	O	O	VB	O
+13-6	up	13-5_prt	finish	RP	O
+13-7	our	O	O	PRP$	O
+13-8	fun	O	O	NN	O
+13-9	day	13-5_tmod	finish	NN	P2_NPart_day
+13-10	with	O	O	O	O
+13-11	some	O	O	DT	O
+13-12	dinner	13-5_prep_with	finish	NN	P1_NPart_dinner
+13-13	and	O	O	O	O
+13-14	good	O	O	JJ	O
+13-15	times	O	O	NNS	O
+13-16	with	O	O	O	O
+13-17	my	O	O	PRP$	P1_bather
+13-18	family	O	O	NN	P1_NPart_family
+13-19	.	O	O	O	O

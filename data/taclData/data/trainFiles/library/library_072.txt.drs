@@ -1,0 +1,180 @@
+#id=1
+#text=I was skimming my Nook for something good to read and found that I had either read everything or that I was not interested in what I had not read . 
+1-1	I	1-3_nsubj	skimming	PRP	P1_customer
+1-2	was	1-3_aux	skimming	VBD	O
+1-3	skimming	O	O	VBG	O
+1-4	my	O	O	PRP$	P1_customer
+1-5	Nook	1-3_dobj	skimming	NN	P1_NPart_nook
+1-6	for	O	O	O	O
+1-7	something	1-3_prep_for	skimming	NN	O
+1-8	good	O	O	JJ	O
+1-9	to	1-10_aux	read	TO	O
+1-10	read	O	O	VB	O
+1-11	and	O	O	O	O
+1-12	found	1-3_conj_and	skimming	VBD	O
+1-13	that	1-17_mark	read	IN	O
+1-14	I	1-17_nsubj	read	PRP	P1_customer
+1-15	had	1-17_aux	read	VBD	O
+1-16	either	1-17_dep	read	DT	O
+1-17	read	1-12_ccomp	found	VBD	O
+1-18	everything	1-17_dobj	read	NN	O
+1-19	or	O	O	O	O
+1-20	that	O	O	IN	O
+1-21	I	O	O	PRP	P1_customer
+1-22	was	O	O	VBD	O
+1-23	not	O	O	RB	O
+1-24	interested	1-17_conj_or	read	JJ	O
+1-25	in	O	O	O	O
+1-26	what	1-30_dobj	read	WP	O
+1-27	I	1-30_nsubj	read	PRP	P1_customer
+1-28	had	1-30_aux	read	VBD	O
+1-29	not	1-30_neg	read	RB	O
+1-30	read	O	O	VBN	O
+1-31	.	O	O	O	O
+
+#id=2
+#text=So I decided to go to the local library and get one of the old fashioned paper books that I had not read . 
+2-1	So	2-3_dep	decided	IN	O
+2-2	I	2-3_nsubj	decided	PRP	P1_customer
+2-3	decided	O	O	VBD	O
+2-4	to	2-5_aux	go	TO	O
+2-5	go	2-3_xcomp	decided	VB	O
+2-6	to	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	local	O	O	JJ	O
+2-9	library	2-5_prep_to	go	NN	P1_library
+2-10	and	O	O	O	O
+2-11	get	2-5_conj_and	go	VB	O
+2-12	one	2-11_dobj	get	CD	O
+2-13	of	O	O	O	O
+2-14	the	O	O	DT	O
+2-15	old	O	O	JJ	O
+2-16	fashioned	O	O	JJ	O
+2-17	paper	O	O	NN	O
+2-18	books	O	O	NNS	P1_book
+2-19	that	2-23_mark	read	IN	O
+2-20	I	2-23_nsubj	read	PRP	P1_customer
+2-21	had	2-23_aux	read	VBD	O
+2-22	not	2-23_neg	read	RB	O
+2-23	read	2-11_ccomp	get	VBN	O
+2-24	.	O	O	O	O
+
+#id=3
+#text=I went and looked around the shelves and talked to the librarian and other customers about what was good to read . 
+3-1	I	3-2_nsubj	went	PRP	P1_customer
+3-2	went	O	O	VBD	O
+3-3	and	O	O	O	O
+3-4	looked	3-2_conj_and	went	VBN	O
+3-5	around	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	shelves	3-4_prep_around	looked	NNS	P1_shelf
+3-8	and	O	O	O	O
+3-9	talked	3-4_conj_and	looked	VBN	O
+3-10	to	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	librarian	3-9_prep_to	talked	NN	P1_staff
+3-13	and	O	O	O	O
+3-14	other	O	O	JJ	O
+3-15	customers	O	O	NNS	P2_customer
+3-16	about	O	O	O	O
+3-17	what	O	O	WP	O
+3-18	was	O	O	VBD	O
+3-19	good	3-4_prepc_about	looked	JJ	O
+3-20	to	3-21_aux	read	TO	O
+3-21	read	O	O	VB	O
+3-22	.	O	O	O	O
+
+#id=4
+#text=After picking up a few and reading the summary I finally found one of interest and took it to the checkout line . 
+4-1	After	O	O	O	O
+4-2	picking	4-12_prepc_after	found	VBG	O
+4-3	up	4-2_prt	picking	RP	O
+4-4	a	O	O	DT	O
+4-5	few	4-2_dobj	picking	JJ	P1_book
+4-6	and	O	O	O	O
+4-7	reading	4-2_conj_and	picking	VBG	O
+4-8	the	O	O	DT	O
+4-9	summary	4-7_dobj	reading	NN	P1_other
+4-10	I	4-12_nsubj	found	PRP	P1_customer
+4-11	finally	4-12_advmod	found	RB	O
+4-12	found	O	O	VBD	O
+4-13	one	4-12_dobj	found	CD	P1_book
+4-14	of	O	O	O	O
+4-15	interest	O	O	NN	P1_NPart_interest
+4-16	and	O	O	O	O
+4-17	took	4-12_conj_and	found	VBD	O
+4-18	it	4-17_dobj	took	PRP	P1_book
+4-19	to	O	O	O	O
+4-20	the	O	O	DT	O
+4-21	checkout	O	O	NN	O
+4-22	line	4-17_prep_to	took	NN	P1_line
+4-23	.	O	O	O	O
+
+#id=5
+#text=While checking out the book the librarian noticed the handgun on my hip and we had a great conversation about the importance of being ready , willing , and able to protect yourself in any situation and in any locality . 
+5-1	While	5-2_mark	checking	IN	O
+5-2	checking	5-8_advcl	noticed	VBG	O
+5-3	out	5-2_prt	checking	RP	O
+5-4	the	O	O	DT	O
+5-5	book	5-2_dobj	checking	NN	P1_book
+5-6	the	O	O	DT	O
+5-7	librarian	5-8_nsubj	noticed	NN	P1_staff
+5-8	noticed	O	O	VBD	O
+5-9	the	O	O	DT	O
+5-10	handgun	5-8_dobj	noticed	NN	P1_NPart_handgun
+5-11	on	O	O	O	O
+5-12	my	O	O	PRP$	P1_customer
+5-13	hip	5-8_prep_on	noticed	NN	P1_NPart_hip
+5-14	and	O	O	O	O
+5-15	we	5-16_nsubj	had	PRP	P2_other
+5-16	had	5-8_conj_and	noticed	VBD	O
+5-17	a	O	O	DT	O
+5-18	great	O	O	JJ	O
+5-19	conversation	5-16_dobj	had	NN	P1_NPart_conversation
+5-20	about	O	O	O	O
+5-21	the	O	O	DT	O
+5-22	importance	O	O	NN	P1_NPart_importance
+5-23	of	O	O	O	O
+5-24	being	O	O	VBG	O
+5-25	ready	O	O	JJ	O
+5-26	,	O	O	O	O
+5-27	willing	O	O	JJ	O
+5-28	,	O	O	O	O
+5-29	and	O	O	O	O
+5-30	able	O	O	JJ	O
+5-31	to	5-32_aux	protect	TO	O
+5-32	protect	5-16_ccomp	had	VB	O
+5-33	yourself	5-32_dobj	protect	PRP	O
+5-34	in	O	O	O	O
+5-35	any	O	O	DT	O
+5-36	situation	5-32_prep_in	protect	NN	P1_NPart_situation
+5-37	and	O	O	O	O
+5-38	in	O	O	O	O
+5-39	any	O	O	DT	O
+5-40	locality	O	O	NN	P1_NPart_locality
+5-41	.	O	O	O	O
+
+#id=6
+#text=She said she was grateful to live in a Nation where we had that right and I heartily agreed with her . 
+6-1	She	6-2_nsubj	said	PRP	P1_staff
+6-2	said	O	O	VBD	O
+6-3	she	O	O	PRP	P1_staff
+6-4	was	O	O	VBD	O
+6-5	grateful	6-2_ccomp	said	JJ	O
+6-6	to	6-7_aux	live	TO	O
+6-7	live	O	O	VB	O
+6-8	in	O	O	O	O
+6-9	a	O	O	DT	O
+6-10	Nation	6-7_prep_in	live	NN	P1_NPart_nation
+6-11	where	6-13_advmod	had	WRB	O
+6-12	we	6-13_nsubj	had	PRP	P1_NPart_we
+6-13	had	6-7_advcl	live	VBD	O
+6-14	that	O	O	DT	O
+6-15	right	6-13_dobj	had	NN	P1_NPart_right
+6-16	and	O	O	O	O
+6-17	I	6-19_nsubj	agreed	PRP	P1_customer
+6-18	heartily	6-19_advmod	agreed	RB	O
+6-19	agreed	6-2_conj_and	said	VBD	O
+6-20	with	O	O	O	O
+6-21	her	6-19_prep_with	agreed	PRP	P1_staff
+6-22	.	O	O	O	O

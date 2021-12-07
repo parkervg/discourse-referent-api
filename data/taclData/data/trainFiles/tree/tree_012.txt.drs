@@ -1,0 +1,182 @@
+#id=1
+#text=I wanted to plant an apple tree in my yard . 
+1-1	I	1-2_nsubj	wanted	PRP	P1_gardener
+1-2	wanted	O	O	VBD	O
+1-3	to	1-4_aux	plant	TO	O
+1-4	plant	1-2_xcomp	wanted	VB	O
+1-5	an	O	O	DT	O
+1-6	apple	O	O	NN	O
+1-7	tree	1-4_dobj	plant	NN	P1_tree
+1-8	in	O	O	O	O
+1-9	my	O	O	PRP$	P1_gardener
+1-10	yard	1-4_prep_in	plant	NN	P1_NPart_yard
+1-11	.	O	O	O	O
+
+#id=2
+#text=I thought that my children would enjoy the apples for many years to come . 
+2-1	I	2-2_nsubj	thought	PRP	P1_gardener
+2-2	thought	O	O	VBD	O
+2-3	that	2-7_mark	enjoy	IN	O
+2-4	my	O	O	PRP$	P1_gardener
+2-5	children	2-7_nsubj	enjoy	NNS	P1_NPart_children
+2-6	would	2-7_aux	enjoy	MD	O
+2-7	enjoy	2-2_ccomp	thought	VB	O
+2-8	the	O	O	DT	O
+2-9	apples	2-7_dobj	enjoy	NNS	P1_NPart_apples
+2-10	for	O	O	O	O
+2-11	many	O	O	JJ	O
+2-12	years	O	O	NNS	P1_time
+2-13	to	2-14_aux	come	TO	O
+2-14	come	2-7_vmod	enjoy	VB	O
+2-15	.	O	O	O	O
+
+#id=3
+#text=After picking the perfect tree and bringing it home , I backed my car into the area that I wanted to plant the tree in . 
+3-1	After	O	O	O	O
+3-2	picking	3-12_prepc_after	backed	VBG	O
+3-3	the	O	O	DT	O
+3-4	perfect	O	O	JJ	O
+3-5	tree	3-2_dobj	picking	NN	P1_tree
+3-6	and	O	O	O	O
+3-7	bringing	3-2_conj_and	picking	VBG	O
+3-8	it	3-7_dobj	bringing	PRP	P1_tree
+3-9	home	3-7_advmod	bringing	RB	P1_NPart_home
+3-10	,	O	O	O	O
+3-11	I	3-12_nsubj	backed	PRP	P1_gardener
+3-12	backed	O	O	VBD	O
+3-13	my	O	O	PRP$	P1_gardener
+3-14	car	3-12_dobj	backed	NN	P1_NPart_car
+3-15	into	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	area	3-12_prep_into	backed	NN	P1_location_garden
+3-18	that	3-20_mark	wanted	IN	O
+3-19	I	3-20_nsubj	wanted	PRP	P1_gardener
+3-20	wanted	3-12_ccomp	backed	VBD	O
+3-21	to	3-22_aux	plant	TO	O
+3-22	plant	3-20_xcomp	wanted	VB	O
+3-23	the	O	O	DT	O
+3-24	tree	3-22_dobj	plant	NN	P1_tree
+3-25	in	3-22_prep	plant	IN	O
+3-26	.	O	O	O	O
+
+#id=4
+#text=I unloaded the tree and waled to my garage and got a shovel and pulled the garden hose over to the tree . 
+4-1	I	4-2_nsubj	unloaded	PRP	P1_gardener
+4-2	unloaded	O	O	VBN	O
+4-3	the	O	O	DT	O
+4-4	tree	4-2_dobj	unloaded	NN	P1_tree
+4-5	and	O	O	O	O
+4-6	waled	4-2_conj_and	unloaded	VBN	O
+4-7	to	O	O	O	O
+4-8	my	O	O	PRP$	P1_gardener
+4-9	garage	4-6_prep_to	waled	NN	P1_NPart_garage
+4-10	and	O	O	O	O
+4-11	got	4-6_conj_and	waled	VBD	O
+4-12	a	O	O	DT	O
+4-13	shovel	4-11_dobj	got	NN	P1_gardening_tool
+4-14	and	O	O	O	O
+4-15	pulled	4-2_conj_and	unloaded	VBD	O
+4-16	the	O	O	DT	O
+4-17	garden	O	O	NN	O
+4-18	hose	4-15_dobj	pulled	NN	P2_gardening_tool
+4-19	over	4-15_prt	pulled	RP	O
+4-20	to	O	O	O	O
+4-21	the	O	O	DT	O
+4-22	tree	4-15_prep_to	pulled	NN	P1_tree
+4-23	.	O	O	O	O
+
+#id=5
+#text=I dug a very large hole and filled it with water . 
+5-1	I	5-2_nsubj	dug	PRP	P1_gardener
+5-2	dug	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	very	O	O	RB	O
+5-5	large	O	O	JJ	O
+5-6	hole	5-2_dobj	dug	NN	P1_hole
+5-7	and	O	O	O	O
+5-8	filled	5-2_conj_and	dug	VBD	O
+5-9	it	5-8_dobj	filled	PRP	P1_hole
+5-10	with	O	O	O	O
+5-11	water	5-8_prep_with	filled	NN	P1_water
+5-12	.	O	O	O	O
+
+#id=6
+#text=I unwrapped the burlap from around the root ball of the tree and placed the tree into the hole . 
+6-1	I	6-2_nsubj	unwrapped	PRP	P1_gardener
+6-2	unwrapped	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	burlap	6-2_dobj	unwrapped	NN	P1_wrapping
+6-5	from	6-2_dep	unwrapped	IN	O
+6-6	around	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	root	O	O	NN	O
+6-9	ball	6-2_prep_around	unwrapped	NN	P1_root
+6-10	of	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	tree	O	O	NN	P1_tree
+6-13	and	O	O	O	O
+6-14	placed	6-2_conj_and	unwrapped	VBD	O
+6-15	the	O	O	DT	O
+6-16	tree	6-14_dobj	placed	NN	P1_tree
+6-17	into	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	hole	6-14_prep_into	placed	NN	P1_hole
+6-20	.	O	O	O	O
+
+#id=7
+#text=I filled the hole back in with dirt and patted the soil down firmly . 
+7-1	I	7-2_nsubj	filled	PRP	P1_gardener
+7-2	filled	O	O	VBN	O
+7-3	the	O	O	DT	O
+7-4	hole	O	O	NN	P1_hole
+7-5	back	7-2_advmod	filled	RB	O
+7-6	in	7-2_dep	filled	IN	O
+7-7	with	O	O	O	O
+7-8	dirt	7-2_prep_with	filled	NN	P1_dirt
+7-9	and	O	O	O	O
+7-10	patted	7-2_conj_and	filled	VBN	O
+7-11	the	O	O	DT	O
+7-12	soil	O	O	NN	P1_dirt
+7-13	down	7-10_advmod	patted	RB	O
+7-14	firmly	7-10_advmod	patted	RB	O
+7-15	.	O	O	O	O
+
+#id=8
+#text=I watered the soil around the base of the tree . 
+8-1	I	8-2_nsubj	watered	PRP	P1_gardener
+8-2	watered	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	soil	8-2_dobj	watered	NN	P1_dirt
+8-5	around	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	base	8-2_prep_around	watered	NN	P1_NPart_base
+8-8	of	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	tree	O	O	NN	P1_tree
+8-11	.	O	O	O	O
+
+#id=9
+#text=I will now wait to enjoy fresh crisp apples from my apple tree , hoping that my hard work is worth it . 
+9-1	I	9-4_nsubj	wait	PRP	P1_gardener
+9-2	will	9-4_aux	wait	MD	O
+9-3	now	9-4_advmod	wait	RB	O
+9-4	wait	O	O	VB	O
+9-5	to	9-6_aux	enjoy	TO	O
+9-6	enjoy	9-4_xcomp	wait	VB	O
+9-7	fresh	O	O	JJ	O
+9-8	crisp	O	O	JJ	O
+9-9	apples	9-6_dobj	enjoy	NNS	P2_NPart_apples
+9-10	from	O	O	O	O
+9-11	my	O	O	PRP$	P1_gardener
+9-12	apple	O	O	NN	O
+9-13	tree	9-6_prep_from	enjoy	NN	P1_tree
+9-14	,	O	O	O	O
+9-15	hoping	9-6_vmod	enjoy	VBG	O
+9-16	that	O	O	IN	O
+9-17	my	O	O	PRP$	P1_gardener
+9-18	hard	O	O	JJ	O
+9-19	work	O	O	NN	P1_NPart_work
+9-20	is	O	O	VBZ	O
+9-21	worth	9-15_ccomp	hoping	JJ	O
+9-22	it	O	O	PRP	O
+9-23	.	O	O	O	O

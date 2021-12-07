@@ -1,0 +1,216 @@
+#id=1
+#text=Instead of driving up to visit my husband 's sister 's family in SF , we decided to take the train ! 
+1-1	Instead	O	O	O	O
+1-2	of	O	O	O	O
+1-3	driving	1-17_prepc_instead_of	decided	VBG	O
+1-4	up	1-3_prt	driving	RP	O
+1-5	to	1-6_aux	visit	TO	O
+1-6	visit	1-3_xcomp	driving	VB	O
+1-7	my	O	O	PRP$	P1_passenger
+1-8	husband	O	O	NN	P2_passenger
+1-9	's	O	O	O	O
+1-10	sister	O	O	NN	P1_NPart_sister
+1-11	's	O	O	O	O
+1-12	family	1-6_dobj	visit	NN	P1_NPart_family
+1-13	in	O	O	O	O
+1-14	SF	1-6_prep_in	visit	NNP	P1_destination
+1-15	,	O	O	O	O
+1-16	we	1-17_nsubj	decided	PRP	P3_passenger
+1-17	decided	O	O	VBD	O
+1-18	to	1-19_aux	take	TO	O
+1-19	take	1-17_xcomp	decided	VB	O
+1-20	the	O	O	DT	O
+1-21	train	1-19_dobj	take	NN	P1_train
+1-22	!	O	O	O	O
+
+#id=2
+#text=I bought the tickets online and printed them out a few days before we left . 
+2-1	I	2-2_nsubj	bought	PRP	P1_passenger
+2-2	bought	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	tickets	2-2_dobj	bought	NNS	P1_card/ticket
+2-5	online	2-2_prep	bought	NN	P1_ticket_office/website
+2-6	and	O	O	O	O
+2-7	printed	2-2_conj_and	bought	VBD	O
+2-8	them	2-7_dobj	printed	PRP	P1_card/ticket
+2-9	out	O	O	O	O
+2-10	a	O	O	DT	O
+2-11	few	O	O	JJ	O
+2-12	days	2-7_prep_out	printed	NNS	P1_time_date
+2-13	before	2-15_mark	left	IN	O
+2-14	we	2-15_nsubj	left	PRP	P3_passenger
+2-15	left	2-7_advcl	printed	VBD	O
+2-16	.	O	O	O	O
+
+#id=3
+#text=I packed some bags and some snacks for our trip and made some plans to go to breakfast prior to departure . 
+3-1	I	3-2_nsubj	packed	PRP	P1_passenger
+3-2	packed	O	O	VBD	O
+3-3	some	O	O	DT	O
+3-4	bags	3-2_dobj	packed	NNS	P1_luggage
+3-5	and	O	O	O	O
+3-6	some	O	O	DT	O
+3-7	snacks	O	O	NNS	P1_in-train_entertainment
+3-8	for	O	O	O	O
+3-9	our	O	O	PRP$	P3_passenger
+3-10	trip	3-2_prep_for	packed	NN	P1_trip
+3-11	and	O	O	O	O
+3-12	made	3-2_conj_and	packed	VBD	O
+3-13	some	3-14_nsubj	plans	DT	O
+3-14	plans	3-12_ccomp	made	VBZ	O
+3-15	to	3-16_aux	go	TO	O
+3-16	go	3-14_xcomp	plans	VB	O
+3-17	to	O	O	O	O
+3-18	breakfast	3-16_prep_to	go	NN	P1_NPart_breakfast
+3-19	prior	O	O	O	O
+3-20	to	O	O	O	O
+3-21	departure	3-16_prep_prior_to	go	NN	P2_time_date
+3-22	.	O	O	O	O
+
+#id=4
+#text=We were late getting out the door , of course . 
+4-1	We	4-4_nsubj	getting	PRP	P3_passenger
+4-2	were	4-4_aux	getting	VBD	O
+4-3	late	4-4_advmod	getting	RB	O
+4-4	getting	O	O	VBG	O
+4-5	out	4-4_prt	getting	RP	O
+4-6	the	O	O	DT	O
+4-7	door	4-4_dobj	getting	NN	P1_NPart_door
+4-8	,	O	O	O	O
+4-9	of	O	O	O	O
+4-10	course	O	O	NN	O
+4-11	.	O	O	O	O
+
+#id=5
+#text=We parked our car and got to the station within a few minutes -LRB- luckily ! -RRB- 
+5-1	We	5-2_nsubj	parked	PRP	P3_passenger
+5-2	parked	O	O	VBD	O
+5-3	our	O	O	PRP$	P3_passenger
+5-4	car	5-2_dobj	parked	NN	P1_NPart_car
+5-5	and	O	O	O	O
+5-6	got	5-2_conj_and	parked	VBD	O
+5-7	to	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	station	5-6_prep_to	got	NN	P1_train_station
+5-10	within	O	O	O	O
+5-11	a	O	O	DT	O
+5-12	few	O	O	JJ	O
+5-13	minutes	5-6_prep_within	got	NNS	P3_time_date
+5-14	-LRB-	O	O	O	O
+5-15	luckily	5-6_dep	got	JJ	O
+5-16	!	O	O	O	O
+5-17	-RRB-	O	O	O	O
+
+#id=6
+#text=. 
+6-1	.	O	O	O	O
+
+#id=7
+#text=We carried our suitcases onto the car , stored our luggage appropriately , and took our assigned seats . 
+7-1	We	7-2_nsubj	carried	PRP	P3_passenger
+7-2	carried	O	O	VBD	O
+7-3	our	O	O	PRP$	P3_passenger
+7-4	suitcases	7-2_dobj	carried	NNS	P2_luggage
+7-5	onto	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	car	7-2_prep_onto	carried	NN	P1_coach
+7-8	,	O	O	O	O
+7-9	stored	7-2_conj_and	carried	VBD	O
+7-10	our	O	O	PRP$	P4_passenger
+7-11	luggage	7-9_dobj	stored	NN	P1_luggage
+7-12	appropriately	7-9_advmod	stored	RB	O
+7-13	,	O	O	O	O
+7-14	and	O	O	O	O
+7-15	took	7-2_conj_and	carried	VBD	O
+7-16	our	O	O	PRP$	P3_passenger
+7-17	assigned	O	O	VBN	O
+7-18	seats	7-15_dobj	took	NNS	P1_seat
+7-19	.	O	O	O	O
+
+#id=8
+#text=I gave my husband his ticket in the circumstance he wandered off and was stopped by an attendant . 
+8-1	I	8-2_nsubj	gave	PRP	P1_passenger
+8-2	gave	O	O	VBD	O
+8-3	my	O	O	PRP$	P1_passenger
+8-4	husband	8-2_dep	gave	NN	P2_passenger
+8-5	his	O	O	PRP$	P2_passenger
+8-6	ticket	8-2_dobj	gave	NN	P2_card/ticket
+8-7	in	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	circumstance	O	O	NN	O
+8-10	he	8-11_nsubj	wandered	PRP	P2_passenger
+8-11	wandered	O	O	VBD	O
+8-12	off	8-11_prt	wandered	RP	O
+8-13	and	O	O	O	O
+8-14	was	8-15_auxpass	stopped	VBD	O
+8-15	stopped	8-11_conj_and	wandered	VBN	O
+8-16	by	O	O	O	O
+8-17	an	O	O	DT	O
+8-18	attendant	8-15_agent	stopped	NN	P1_train_staff
+8-19	.	O	O	O	O
+
+#id=9
+#text=We began to talk about what we wanted to do on our visit , as the train began to roll away from the station . 
+9-1	We	9-2_nsubj	began	PRP	P3_passenger
+9-2	began	O	O	VBD	O
+9-3	to	9-4_aux	talk	TO	O
+9-4	talk	9-2_xcomp	began	VB	O
+9-5	about	O	O	O	O
+9-6	what	9-8_dobj	wanted	WP	O
+9-7	we	9-8_nsubj	wanted	PRP	P3_passenger
+9-8	wanted	9-4_prepc_about	talk	VBD	O
+9-9	to	9-10_aux	do	TO	O
+9-10	do	9-8_xcomp	wanted	VB	O
+9-11	on	O	O	O	O
+9-12	our	O	O	PRP$	P3_passenger
+9-13	visit	9-10_prep_on	do	NN	P1_NPart_visit
+9-14	,	O	O	O	O
+9-15	as	9-18_mark	began	IN	O
+9-16	the	O	O	DT	O
+9-17	train	9-18_nsubj	began	NN	P1_train
+9-18	began	9-8_advcl	wanted	VBD	O
+9-19	to	9-20_aux	roll	TO	O
+9-20	roll	9-18_xcomp	began	VB	O
+9-21	away	O	O	O	O
+9-22	from	O	O	O	O
+9-23	the	O	O	DT	O
+9-24	station	9-20_prep_away_from	roll	NN	P1_train_station
+9-25	.	O	O	O	O
+
+#id=10
+#text=He decided to find us coffee and breakfast , and I decided to take a quick nap while he was gone , knowing that it was just an excuse to explore for a bit . 
+10-1	He	10-2_nsubj	decided	PRP	P2_passenger
+10-2	decided	O	O	VBD	O
+10-3	to	10-4_aux	find	TO	O
+10-4	find	10-2_xcomp	decided	VB	O
+10-5	us	10-4_iobj	find	PRP	P3_passenger
+10-6	coffee	10-4_dobj	find	NN	P2_in-train_entertainment
+10-7	and	O	O	O	O
+10-8	breakfast	O	O	NN	P3_in-train_entertainment
+10-9	,	O	O	O	O
+10-10	and	O	O	O	O
+10-11	I	10-12_nsubj	decided	PRP	P1_passenger
+10-12	decided	10-2_conj_and	decided	VBD	O
+10-13	to	10-14_aux	take	TO	O
+10-14	take	10-12_xcomp	decided	VB	O
+10-15	a	O	O	DT	O
+10-16	quick	O	O	JJ	O
+10-17	nap	10-14_dobj	take	NN	O
+10-18	while	10-21_mark	gone	IN	O
+10-19	he	10-21_nsubjpass	gone	PRP	P2_passenger
+10-20	was	10-21_auxpass	gone	VBD	O
+10-21	gone	10-14_advcl	take	VBN	O
+10-22	,	O	O	O	O
+10-23	knowing	10-12_xcomp	decided	VBG	O
+10-24	that	O	O	IN	O
+10-25	it	O	O	PRP	O
+10-26	was	O	O	VBD	O
+10-27	just	O	O	RB	O
+10-28	an	O	O	DT	O
+10-29	excuse	10-23_ccomp	knowing	NN	O
+10-30	to	10-31_aux	explore	TO	O
+10-31	explore	O	O	VB	O
+10-32	for	O	O	O	O
+10-33	a	O	O	DT	O
+10-34	bit	10-31_prep_for	explore	NN	O
+10-35	.	O	O	O	O

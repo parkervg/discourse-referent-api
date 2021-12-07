@@ -1,0 +1,388 @@
+#id=1
+#text=Yesterday afternoon , I decided to ride my bike to Central Park . 
+1-1	Yesterday	O	O	NN	O
+1-2	afternoon	1-5_nsubj	decided	NN	P1_NPart_afternoon
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	decided	PRP	P1_rider
+1-5	decided	O	O	VBD	O
+1-6	to	1-7_aux	ride	TO	O
+1-7	ride	1-5_xcomp	decided	VB	O
+1-8	my	O	O	PRP$	P1_rider
+1-9	bike	1-7_dobj	ride	NN	P1_bicycle
+1-10	to	O	O	O	O
+1-11	Central	O	O	NNP	O
+1-12	Park	1-7_prep_to	ride	NNP	P1_NPart_park
+1-13	.	O	O	O	O
+
+#id=2
+#text=I rode my bike to the park from my apartment , it took me about 15 minutes . 
+2-1	I	2-2_nsubj	rode	PRP	P1_rider
+2-2	rode	2-13_ccomp	took	VBD	O
+2-3	my	O	O	PRP$	P1_rider
+2-4	bike	2-2_dobj	rode	NN	P1_bicycle
+2-5	to	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	park	2-2_prep_to	rode	NN	P2_NPart_park
+2-8	from	O	O	O	O
+2-9	my	O	O	PRP$	P1_rider
+2-10	apartment	2-2_prep_from	rode	NN	P1_NPart_apartment
+2-11	,	O	O	O	O
+2-12	it	2-13_nsubj	took	PRP	O
+2-13	took	O	O	VBD	O
+2-14	me	2-13_dobj	took	PRP	P1_rider
+2-15	about	O	O	O	O
+2-16	15	O	O	CD	O
+2-17	minutes	2-13_prep_about	took	NNS	P1_NPart_minutes
+2-18	.	O	O	O	O
+
+#id=3
+#text=I was very excited and happy because I have n't rode my bike in a very long time . 
+3-1	I	O	O	PRP	P1_rider
+3-2	was	O	O	VBD	O
+3-3	very	O	O	RB	O
+3-4	excited	O	O	JJ	O
+3-5	and	O	O	O	O
+3-6	happy	O	O	JJ	O
+3-7	because	3-11_mark	rode	IN	O
+3-8	I	3-11_nsubj	rode	PRP	P1_rider
+3-9	have	3-11_aux	rode	VBP	O
+3-10	n't	3-11_neg	rode	RB	O
+3-11	rode	O	O	VBD	O
+3-12	my	O	O	PRP$	P1_rider
+3-13	bike	3-11_dobj	rode	NN	P1_bicycle
+3-14	in	O	O	O	O
+3-15	a	O	O	DT	O
+3-16	very	O	O	RB	O
+3-17	long	O	O	JJ	O
+3-18	time	3-11_prep_in	rode	NN	O
+3-19	.	O	O	O	O
+
+#id=4
+#text=I missed the experience of feeling the window blowing against my face , and feeling my hair float in the air . 
+4-1	I	4-2_nsubj	missed	PRP	P1_rider
+4-2	missed	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	experience	4-2_dobj	missed	NN	P1_NPart_experience
+4-5	of	O	O	O	O
+4-6	feeling	O	O	VBG	O
+4-7	the	O	O	DT	O
+4-8	window	4-6_dobj	feeling	NN	P1_NPart_window
+4-9	blowing	O	O	VBG	O
+4-10	against	O	O	O	O
+4-11	my	O	O	PRP$	P1_rider
+4-12	face	4-9_prep_against	blowing	NN	P1_other
+4-13	,	O	O	O	O
+4-14	and	O	O	O	O
+4-15	feeling	4-6_conj_and	feeling	VBG	O
+4-16	my	O	O	PRP$	P1_rider
+4-17	hair	O	O	NN	O
+4-18	float	4-15_dobj	feeling	NN	O
+4-19	in	O	O	O	O
+4-20	the	O	O	DT	O
+4-21	air	4-15_prep_in	feeling	NN	P1_NPart_air
+4-22	.	O	O	O	O
+
+#id=5
+#text=When I finally got to the park , I decided that I would ride around the park a few times . 
+5-1	When	5-4_advmod	got	WRB	O
+5-2	I	5-4_nsubj	got	PRP	P1_rider
+5-3	finally	5-4_advmod	got	RB	O
+5-4	got	5-10_advcl	decided	VBD	O
+5-5	to	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	park	5-4_prep_to	got	NN	P3_NPart_park
+5-8	,	O	O	O	O
+5-9	I	5-10_nsubj	decided	PRP	P1_rider
+5-10	decided	O	O	VBD	O
+5-11	that	5-14_mark	ride	IN	O
+5-12	I	5-14_nsubj	ride	PRP	P1_rider
+5-13	would	5-14_aux	ride	MD	O
+5-14	ride	5-10_ccomp	decided	VB	O
+5-15	around	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	park	5-14_prep_around	ride	NN	P4_NPart_park
+5-18	a	O	O	DT	O
+5-19	few	O	O	JJ	O
+5-20	times	5-14_dobj	ride	NNS	O
+5-21	.	O	O	O	O
+
+#id=6
+#text=It was going to be a great form of exercise . 
+6-1	It	6-3_nsubj	going	PRP	O
+6-2	was	6-3_aux	going	VBD	O
+6-3	going	O	O	VBG	O
+6-4	to	O	O	TO	O
+6-5	be	O	O	VB	O
+6-6	a	O	O	DT	O
+6-7	great	O	O	JJ	O
+6-8	form	6-3_xcomp	going	NN	O
+6-9	of	O	O	O	O
+6-10	exercise	O	O	NN	P1_NPart_exercise
+6-11	.	O	O	O	O
+
+#id=7
+#text=However , after I rode the bike a few times around the park , my front bicycle tire suddenly started to lose air . 
+7-1	However	7-20_advmod	started	RB	O
+7-2	,	O	O	O	O
+7-3	after	7-5_mark	rode	IN	O
+7-4	I	7-5_nsubj	rode	PRP	P1_rider
+7-5	rode	7-20_advcl	started	VBD	O
+7-6	the	O	O	DT	O
+7-7	bike	7-5_iobj	rode	NN	P1_bicycle
+7-8	a	O	O	DT	O
+7-9	few	O	O	JJ	O
+7-10	times	7-5_dobj	rode	NNS	P1_NPart_times
+7-11	around	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	park	7-5_prep_around	rode	NN	P5_NPart_park
+7-14	,	O	O	O	O
+7-15	my	O	O	PRP$	P1_rider
+7-16	front	O	O	JJ	O
+7-17	bicycle	O	O	NN	O
+7-18	tire	7-20_nsubj	started	NN	P1_tire
+7-19	suddenly	7-20_advmod	started	RB	O
+7-20	started	O	O	VBD	O
+7-21	to	7-22_aux	lose	TO	O
+7-22	lose	7-20_xcomp	started	VB	O
+7-23	air	7-22_dobj	lose	NN	P1_air
+7-24	.	O	O	O	O
+
+#id=8
+#text=I safely got off and examined the tire wheel . 
+8-1	I	8-3_nsubj	got	PRP	P1_rider
+8-2	safely	8-3_advmod	got	RB	O
+8-3	got	O	O	VBD	O
+8-4	off	8-3_prt	got	RP	O
+8-5	and	O	O	O	O
+8-6	examined	8-3_conj_and	got	VBD	O
+8-7	the	O	O	DT	O
+8-8	tire	O	O	NN	P1_tire
+8-9	wheel	8-6_dobj	examined	NN	P1_wheel
+8-10	.	O	O	O	O
+
+#id=9
+#text=I checked if there was any rips or holes on the wheel . 
+9-1	I	9-2_nsubj	checked	PRP	P1_rider
+9-2	checked	O	O	VBD	O
+9-3	if	9-5_mark	was	IN	O
+9-4	there	9-5_expl	was	EX	O
+9-5	was	9-2_advcl	checked	VBD	O
+9-6	any	O	O	DT	O
+9-7	rips	9-5_nsubj	was	NNS	P1_object_damage
+9-8	or	O	O	O	O
+9-9	holes	O	O	NNS	P1_object_damage
+9-10	on	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	wheel	O	O	NN	P1_wheel
+9-13	.	O	O	O	O
+
+#id=10
+#text=Perhaps I rode over something sharp . 
+10-1	Perhaps	10-3_advmod	rode	RB	O
+10-2	I	10-3_nsubj	rode	PRP	P1_rider
+10-3	rode	O	O	VBD	O
+10-4	over	O	O	O	O
+10-5	something	10-3_prep_over	rode	NN	P2_object_damage
+10-6	sharp	O	O	JJ	O
+10-7	.	O	O	O	O
+
+#id=11
+#text=I found a few small holes on the bike and realized the culprit for my flat tire . 
+11-1	I	11-2_nsubj	found	PRP	P1_rider
+11-2	found	O	O	VBD	O
+11-3	a	O	O	DT	O
+11-4	few	O	O	JJ	O
+11-5	small	O	O	JJ	O
+11-6	holes	11-2_dobj	found	NNS	P1_object_damage
+11-7	on	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	bike	11-2_prep_on	found	NN	P1_bicycle
+11-10	and	O	O	O	O
+11-11	realized	11-2_conj_and	found	VBD	O
+11-12	the	O	O	DT	O
+11-13	culprit	11-11_dobj	realized	NN	P1_object_damage
+11-14	for	O	O	O	O
+11-15	my	O	O	PRP$	P1_rider
+11-16	flat	O	O	JJ	O
+11-17	tire	11-11_prep_for	realized	NN	P1_tire
+11-18	.	O	O	O	O
+
+#id=12
+#text=I was forced to carry the bike home in order to repair it . 
+12-1	I	12-3_nsubjpass	forced	PRP	P1_rider
+12-2	was	12-3_auxpass	forced	VBD	O
+12-3	forced	O	O	VBN	O
+12-4	to	12-5_aux	carry	TO	O
+12-5	carry	12-3_xcomp	forced	VB	O
+12-6	the	O	O	DT	O
+12-7	bike	O	O	NN	P1_bicycle
+12-8	home	12-5_dobj	carry	NN	P1_location_repair
+12-9	in	12-12_mark	repair	IN	O
+12-10	order	12-12_dep	repair	NN	O
+12-11	to	12-12_aux	repair	TO	O
+12-12	repair	12-5_advcl	carry	VB	O
+12-13	it	12-12_dobj	repair	PRP	P1_bicycle
+12-14	.	O	O	O	O
+
+#id=13
+#text=There was no way I would repair it at the park . 
+13-1	There	13-2_expl	was	EX	O
+13-2	was	O	O	VBD	O
+13-3	no	O	O	DT	O
+13-4	way	13-2_nsubj	was	NN	O
+13-5	I	13-7_nsubj	repair	PRP	P1_rider
+13-6	would	13-7_aux	repair	MD	O
+13-7	repair	O	O	VB	O
+13-8	it	13-7_dobj	repair	PRP	P1_bicycle
+13-9	at	O	O	O	O
+13-10	the	O	O	DT	O
+13-11	park	13-7_prep_at	repair	NN	P5_NPart_park
+13-12	.	O	O	O	O
+
+#id=14
+#text=Once I brought it home , I brought it to my basement . 
+14-1	Once	14-3_mark	brought	IN	O
+14-2	I	14-3_nsubj	brought	PRP	P1_rider
+14-3	brought	14-8_advcl	brought	VBD	O
+14-4	it	14-3_dobj	brought	PRP	P1_bicycle
+14-5	home	14-3_advmod	brought	RB	P1_location_repair
+14-6	,	O	O	O	O
+14-7	I	14-8_nsubj	brought	PRP	P1_rider
+14-8	brought	O	O	VBD	O
+14-9	it	14-8_dobj	brought	PRP	P1_bicycle
+14-10	to	O	O	O	O
+14-11	my	O	O	PRP$	P1_rider
+14-12	basement	14-8_prep_to	brought	NN	P2_location_repair
+14-13	.	O	O	O	O
+
+#id=15
+#text=I turned the bike over so that it stood on its seat and handle bars . 
+15-1	I	15-2_nsubj	turned	PRP	P1_rider
+15-2	turned	O	O	VBD	O
+15-3	the	O	O	DT	O
+15-4	bike	15-2_dobj	turned	NN	P1_bicycle
+15-5	over	O	O	RB	O
+15-6	so	15-2_advmod	turned	RB	O
+15-7	that	15-9_mark	stood	IN	O
+15-8	it	15-9_nsubj	stood	PRP	P1_bicycle
+15-9	stood	O	O	VBD	O
+15-10	on	O	O	O	O
+15-11	its	O	O	PRP$	P1_bicycle
+15-12	seat	15-9_prep_on	stood	NN	P1_bicycle_small_detail
+15-13	and	O	O	O	O
+15-14	handle	15-9_conj_and	stood	VBP	O
+15-15	bars	15-14_dobj	handle	NNS	P2_bicycle_small_detail
+15-16	.	O	O	O	O
+
+#id=16
+#text=I let the remaining air out of the tube of my broken tire . 
+16-1	I	16-2_nsubj	let	PRP	P1_rider
+16-2	let	O	O	VBD	O
+16-3	the	O	O	DT	O
+16-4	remaining	O	O	VBG	O
+16-5	air	16-2_dobj	let	NN	P1_air
+16-6	out	O	O	O	O
+16-7	of	O	O	O	O
+16-8	the	O	O	DT	O
+16-9	tube	O	O	NN	P2_tire
+16-10	of	O	O	O	O
+16-11	my	O	O	PRP$	P1_rider
+16-12	broken	O	O	JJ	O
+16-13	tire	O	O	NN	P1_tire
+16-14	.	O	O	O	O
+
+#id=17
+#text=Once the tire was deflated , I took the tire off the rim . 
+17-1	Once	O	O	IN	O
+17-2	the	O	O	DT	O
+17-3	tire	O	O	NN	P1_tire
+17-4	was	O	O	VBD	O
+17-5	deflated	17-8_advcl	took	JJ	O
+17-6	,	O	O	O	O
+17-7	I	17-8_nsubj	took	PRP	P1_rider
+17-8	took	O	O	VBD	O
+17-9	the	O	O	DT	O
+17-10	tire	17-8_dobj	took	NN	P1_tire
+17-11	off	O	O	O	O
+17-12	the	O	O	DT	O
+17-13	rim	17-8_prep_off	took	NN	P1_rim
+17-14	.	O	O	O	O
+
+#id=18
+#text=I found the part of the tire with the multiple holes . 
+18-1	I	18-2_nsubj	found	PRP	P1_rider
+18-2	found	O	O	VBD	O
+18-3	the	O	O	DT	O
+18-4	part	18-2_dobj	found	NN	P1_NPart_part
+18-5	of	O	O	O	O
+18-6	the	O	O	DT	O
+18-7	tire	O	O	NN	P1_tire
+18-8	with	O	O	O	O
+18-9	the	O	O	DT	O
+18-10	multiple	O	O	JJ	O
+18-11	holes	18-2_prep_with	found	NNS	P1_object_damage
+18-12	.	O	O	O	O
+
+#id=19
+#text=I spread a thin layer of glue around the holes . 
+19-1	I	19-2_nsubj	spread	PRP	P1_rider
+19-2	spread	O	O	VBD	O
+19-3	a	O	O	DT	O
+19-4	thin	O	O	JJ	O
+19-5	layer	19-2_dobj	spread	NN	P1_NPart_layer
+19-6	of	O	O	O	O
+19-7	glue	O	O	NN	P1_tool
+19-8	around	O	O	O	O
+19-9	the	O	O	DT	O
+19-10	holes	19-2_prep_around	spread	NNS	P1_object_damage
+19-11	.	O	O	O	O
+
+#id=20
+#text=Then I looked around for my tire patch kit . 
+20-1	Then	20-3_advmod	looked	RB	O
+20-2	I	20-3_nsubj	looked	PRP	P1_rider
+20-3	looked	O	O	VBD	O
+20-4	around	20-3_prt	looked	RP	O
+20-5	for	O	O	O	O
+20-6	my	O	O	PRP$	P1_rider
+20-7	tire	O	O	NN	O
+20-8	patch	O	O	NN	O
+20-9	kit	20-3_prep_for	looked	NN	P2_tool
+20-10	.	O	O	O	O
+
+#id=21
+#text=Once I found it , I applied it on to the holes and covered over them . 
+21-1	Once	21-3_mark	found	IN	O
+21-2	I	21-3_nsubj	found	PRP	P1_rider
+21-3	found	21-7_advcl	applied	VBD	O
+21-4	it	21-3_dobj	found	PRP	P2_tool
+21-5	,	O	O	O	O
+21-6	I	21-7_nsubj	applied	PRP	P1_rider
+21-7	applied	O	O	VBD	O
+21-8	it	21-7_dobj	applied	PRP	P1_patch
+21-9	on	21-7_prep	applied	IN	O
+21-10	to	O	O	TO	O
+21-11	the	O	O	DT	O
+21-12	holes	O	O	NNS	P1_object_damage
+21-13	and	O	O	O	O
+21-14	covered	21-7_conj_and	applied	VBD	O
+21-15	over	21-14_prt	covered	RP	O
+21-16	them	21-14_dobj	covered	PRP	P1_object_damage
+21-17	.	O	O	O	O
+
+#id=22
+#text=I then placed the tire back on the rim and inflated it again . 
+22-1	I	22-3_nsubj	placed	PRP	P1_rider
+22-2	then	22-3_advmod	placed	RB	O
+22-3	placed	O	O	VBD	O
+22-4	the	O	O	DT	O
+22-5	tire	22-3_dobj	placed	NN	P1_tire
+22-6	back	22-3_prt	placed	RP	O
+22-7	on	O	O	O	O
+22-8	the	O	O	DT	O
+22-9	rim	22-3_prep_on	placed	NN	P1_rim
+22-10	and	O	O	O	O
+22-11	inflated	22-3_conj_and	placed	VBD	O
+22-12	it	22-11_dobj	inflated	PRP	P1_tire
+22-13	again	22-11_advmod	inflated	RB	O
+22-14	.	O	O	O	O

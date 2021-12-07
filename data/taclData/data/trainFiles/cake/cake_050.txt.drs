@@ -1,0 +1,212 @@
+#id=1
+#text=I was watching a cooking show yesterday on television about different recipes for cake mix cakes . 
+1-1	I	1-3_nsubj	watching	PRP	P1_cook
+1-2	was	1-3_aux	watching	VBD	O
+1-3	watching	O	O	VBG	O
+1-4	a	O	O	DT	O
+1-5	cooking	O	O	JJ	O
+1-6	show	1-3_dobj	watching	NN	P1_recipe_source
+1-7	yesterday	1-3_tmod	watching	NN	P1_NPart_yesterday
+1-8	on	O	O	O	O
+1-9	television	1-3_prep_on	watching	NN	P2_recipe_source
+1-10	about	O	O	O	O
+1-11	different	O	O	JJ	O
+1-12	recipes	O	O	NNS	P1_baking_instructions
+1-13	for	O	O	O	O
+1-14	cake	O	O	NN	O
+1-15	mix	O	O	NN	O
+1-16	cakes	O	O	NNS	P1_cake
+1-17	.	O	O	O	O
+
+#id=2
+#text=I saw a recipe that looked good . 
+2-1	I	2-2_nsubj	saw	PRP	P1_cook
+2-2	saw	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	recipe	2-2_dobj	saw	NN	P1_baking_instructions
+2-5	that	2-6_nsubj	looked	WDT	O
+2-6	looked	O	O	VBD	O
+2-7	good	2-6_acomp	looked	JJ	O
+2-8	.	O	O	O	O
+
+#id=3
+#text=I had a Red Velvet chocolate cake mix in a box and the blueberries required . 
+3-1	I	3-2_nsubj	had	PRP	P1_cook
+3-2	had	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	Red	O	O	NNP	O
+3-5	Velvet	O	O	NNP	O
+3-6	chocolate	O	O	NN	O
+3-7	cake	O	O	NN	O
+3-8	mix	3-2_dobj	had	NN	P1_ingredients
+3-9	in	O	O	O	O
+3-10	a	O	O	DT	O
+3-11	box	O	O	NN	P1_other
+3-12	and	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	blueberries	3-15_nsubj	required	NNS	P2_ingredients
+3-15	required	3-2_conj_and	had	VBD	O
+3-16	.	O	O	O	O
+
+#id=4
+#text=I 'm too adventurous for my own good . 
+4-1	I	O	O	PRP	P1_cook
+4-2	'm	O	O	VBP	O
+4-3	too	O	O	RB	O
+4-4	adventurous	O	O	JJ	O
+4-5	for	O	O	O	O
+4-6	my	O	O	PRP$	P1_cook
+4-7	own	O	O	JJ	O
+4-8	good	O	O	NN	O
+4-9	.	O	O	O	O
+
+#id=5
+#text=I figured I 'd try it . 
+5-1	I	5-2_nsubj	figured	PRP	P1_cook
+5-2	figured	O	O	VBD	O
+5-3	I	5-5_nsubj	try	PRP	P1_cook
+5-4	'd	5-5_aux	try	MD	O
+5-5	try	5-2_ccomp	figured	VB	O
+5-6	it	5-5_dobj	try	PRP	O
+5-7	.	O	O	O	O
+
+#id=6
+#text=I tossed the blueberries with sugar and put them in the baking dish . 
+6-1	I	6-2_nsubj	tossed	PRP	P1_cook
+6-2	tossed	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	blueberries	6-2_dobj	tossed	NNS	P2_ingredients
+6-5	with	O	O	O	O
+6-6	sugar	6-2_prep_with	tossed	NN	P3_ingredients
+6-7	and	O	O	O	O
+6-8	put	6-2_conj_and	tossed	VBD	O
+6-9	them	6-8_dobj	put	PRP	P4_ingredients
+6-10	in	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	baking	O	O	JJ	O
+6-13	dish	6-8_prep_in	put	NN	P1_cake_tin
+6-14	.	O	O	O	O
+
+#id=7
+#text=I then mixed butter and a little milk with the cake mix . 
+7-1	I	7-3_nsubj	mixed	PRP	P1_cook
+7-2	then	7-3_advmod	mixed	RB	O
+7-3	mixed	O	O	VBN	O
+7-4	butter	7-3_dobj	mixed	NN	P5_ingredients
+7-5	and	O	O	O	O
+7-6	a	O	O	DT	O
+7-7	little	O	O	JJ	O
+7-8	milk	O	O	NN	P6_ingredients
+7-9	with	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	cake	O	O	NN	O
+7-12	mix	7-3_prep_with	mixed	NN	P1_ingredients
+7-13	.	O	O	O	O
+
+#id=8
+#text=I put it on top of the blueberries . 
+8-1	I	8-2_nsubj	put	PRP	P1_cook
+8-2	put	O	O	VBD	O
+8-3	it	8-2_dobj	put	PRP	P1_dough
+8-4	on	O	O	O	O
+8-5	top	O	O	O	O
+8-6	of	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	blueberries	8-2_prep_on_top_of	put	NNS	P2_ingredients
+8-9	.	O	O	O	O
+
+#id=9
+#text=I put it in the oven . 
+9-1	I	9-2_nsubj	put	PRP	P1_cook
+9-2	put	O	O	VBD	O
+9-3	it	9-2_dobj	put	PRP	P1_dough
+9-4	in	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	oven	9-2_prep_in	put	NN	P1_oven
+9-7	.	O	O	O	O
+
+#id=10
+#text=It was supposed to be like a cobbler . 
+10-1	It	10-3_nsubjpass	supposed	PRP	P1_cake
+10-2	was	10-3_auxpass	supposed	VBD	O
+10-3	supposed	O	O	VBN	O
+10-4	to	10-5_aux	be	TO	O
+10-5	be	10-3_xcomp	supposed	VB	O
+10-6	like	O	O	O	O
+10-7	a	O	O	DT	O
+10-8	cobbler	10-5_prep_like	be	NN	P1_NPart_cobbler
+10-9	.	O	O	O	O
+
+#id=11
+#text=The cake was pretty bad . 
+11-1	The	O	O	DT	O
+11-2	cake	O	O	NN	P1_cake
+11-3	was	O	O	VBD	O
+11-4	pretty	O	O	RB	O
+11-5	bad	O	O	JJ	O
+11-6	.	O	O	O	O
+
+#id=12
+#text=The bottom was all watery and the cake mix was super mushy because of all the liquid . 
+12-1	The	O	O	DT	O
+12-2	bottom	O	O	NN	P1_NPart_bottom
+12-3	was	O	O	VBD	O
+12-4	all	O	O	RB	O
+12-5	watery	O	O	JJ	O
+12-6	and	O	O	O	O
+12-7	the	O	O	DT	O
+12-8	cake	O	O	NN	O
+12-9	mix	O	O	NN	P1_ingredients
+12-10	was	O	O	VBD	O
+12-11	super	O	O	JJ	O
+12-12	mushy	O	O	NN	O
+12-13	because	O	O	O	O
+12-14	of	O	O	O	O
+12-15	all	O	O	PDT	O
+12-16	the	O	O	DT	O
+12-17	liquid	O	O	NN	P2_other
+12-18	.	O	O	O	O
+
+#id=13
+#text=The first couple of bites were okay . 
+13-1	The	O	O	DT	O
+13-2	first	O	O	JJ	O
+13-3	couple	O	O	NN	O
+13-4	of	O	O	O	O
+13-5	bites	O	O	NNS	P1_NPart_bites
+13-6	were	O	O	VBD	O
+13-7	okay	O	O	JJ	O
+13-8	.	O	O	O	O
+
+#id=14
+#text=That was about all anyone could eat . 
+14-1	That	14-2_nsubj	was	DT	O
+14-2	was	O	O	VBD	O
+14-3	about	14-7_mark	eat	IN	O
+14-4	all	O	O	DT	O
+14-5	anyone	14-7_nsubj	eat	NN	P1_beneficiary
+14-6	could	14-7_aux	eat	MD	O
+14-7	eat	14-2_advcl	was	VB	O
+14-8	.	O	O	O	O
+
+#id=15
+#text=I even tried to get the juice out . 
+15-1	I	15-3_nsubj	tried	PRP	P1_cook
+15-2	even	15-3_advmod	tried	RB	O
+15-3	tried	O	O	VBD	O
+15-4	to	15-5_aux	get	TO	O
+15-5	get	15-3_xcomp	tried	VB	O
+15-6	the	O	O	DT	O
+15-7	juice	15-5_dobj	get	NN	P3_other
+15-8	out	15-5_prt	get	RP	O
+15-9	.	O	O	O	O
+
+#id=16
+#text=I 'm tossing it this morning . 
+16-1	I	16-3_nsubj	tossing	PRP	P1_cook
+16-2	'm	16-3_aux	tossing	VBP	O
+16-3	tossing	O	O	VBG	O
+16-4	it	16-3_dobj	tossing	PRP	P1_cake
+16-5	this	O	O	DT	O
+16-6	morning	16-3_tmod	tossing	NN	P1_NPart_morning
+16-7	.	O	O	O	O

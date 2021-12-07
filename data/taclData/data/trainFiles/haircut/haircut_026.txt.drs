@@ -1,0 +1,221 @@
+#id=1
+#text=My hair had gotten really long , so I needed to get a haircut . 
+1-1	My	O	O	PRP$	P1_customer
+1-2	hair	1-4_nsubj	gotten	NN	P1_hair
+1-3	had	1-4_aux	gotten	VBD	O
+1-4	gotten	O	O	VBN	O
+1-5	really	1-4_advmod	gotten	RB	O
+1-6	long	1-4_advmod	gotten	RB	O
+1-7	,	O	O	O	O
+1-8	so	1-4_dep	gotten	IN	O
+1-9	I	1-10_nsubj	needed	PRP	P1_customer
+1-10	needed	1-4_parataxis	gotten	VBD	O
+1-11	to	1-12_aux	get	TO	O
+1-12	get	1-10_xcomp	needed	VB	O
+1-13	a	O	O	DT	O
+1-14	haircut	1-12_dobj	get	NN	P1_haircut
+1-15	.	O	O	O	O
+
+#id=2
+#text=I went downtown to the barber shop and checked in . 
+2-1	I	2-2_nsubj	went	PRP	P1_customer
+2-2	went	O	O	VBD	O
+2-3	downtown	2-2_dobj	went	NN	P1_NPart_downtown
+2-4	to	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	barber	O	O	NN	O
+2-7	shop	2-2_prep_to	went	NN	P1_salon
+2-8	and	O	O	O	O
+2-9	checked	2-2_conj_and	went	VBD	O
+2-10	in	2-9_prt	checked	RP	O
+2-11	.	O	O	O	O
+
+#id=3
+#text=There a few people ahead of me , so I had to wait a little while . 
+3-1	There	3-11_expl	had	EX	O
+3-2	a	O	O	DT	O
+3-3	few	O	O	JJ	O
+3-4	people	O	O	NNS	P2_customer
+3-5	ahead	O	O	O	O
+3-6	of	O	O	O	O
+3-7	me	O	O	PRP	P1_customer
+3-8	,	O	O	O	O
+3-9	so	O	O	RB	O
+3-10	I	3-11_nsubj	had	PRP	P1_customer
+3-11	had	O	O	VBD	O
+3-12	to	3-13_aux	wait	TO	O
+3-13	wait	3-11_xcomp	had	VB	O
+3-14	a	O	O	DT	O
+3-15	little	O	O	JJ	O
+3-16	while	3-13_dobj	wait	NN	P1_NPart_while
+3-17	.	O	O	O	O
+
+#id=4
+#text=But that gave me some time to look in the books to pick out a good style for my hair . 
+4-1	But	4-3_cc	gave	CC	O
+4-2	that	4-3_nsubj	gave	DT	O
+4-3	gave	O	O	VBD	O
+4-4	me	4-3_iobj	gave	PRP	P1_customer
+4-5	some	O	O	DT	O
+4-6	time	4-3_dobj	gave	NN	P1_NPart_time
+4-7	to	4-8_aux	look	TO	O
+4-8	look	O	O	VB	O
+4-9	in	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	books	4-8_prep_in	look	NNS	P1_entertainment
+4-12	to	4-13_aux	pick	TO	O
+4-13	pick	4-8_xcomp	look	VB	O
+4-14	out	4-13_prt	pick	RP	O
+4-15	a	O	O	DT	O
+4-16	good	O	O	JJ	O
+4-17	style	4-13_dobj	pick	NN	P1_haircut
+4-18	for	O	O	O	O
+4-19	my	O	O	PRP$	P1_customer
+4-20	hair	O	O	NN	P1_hair
+4-21	.	O	O	O	O
+
+#id=5
+#text=When it was my turn , I showed the barber how I wanted my hair cut . 
+5-1	When	O	O	WRB	O
+5-2	it	O	O	PRP	O
+5-3	was	O	O	VBD	O
+5-4	my	O	O	PRP$	P1_customer
+5-5	turn	5-8_advcl	showed	NN	O
+5-6	,	O	O	O	O
+5-7	I	5-8_nsubj	showed	PRP	P1_customer
+5-8	showed	O	O	VBD	O
+5-9	the	O	O	DT	O
+5-10	barber	5-8_dobj	showed	NN	P1_hairdresser
+5-11	how	5-13_advmod	wanted	WRB	O
+5-12	I	5-13_nsubj	wanted	PRP	P1_customer
+5-13	wanted	5-8_dep	showed	VBD	O
+5-14	my	O	O	PRP$	P1_customer
+5-15	hair	O	O	NN	P1_hair
+5-16	cut	5-13_dobj	wanted	NN	O
+5-17	.	O	O	O	O
+
+#id=6
+#text=I got up in the barber chair , and the barber put a paper towel around my neck so the hair would n't get down on my shirt . 
+6-1	I	6-2_nsubj	got	PRP	P1_customer
+6-2	got	O	O	VBD	O
+6-3	up	6-2_prt	got	RP	O
+6-4	in	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	barber	O	O	NN	O
+6-7	chair	6-2_prep_in	got	NN	P1_chair
+6-8	,	O	O	O	O
+6-9	and	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	barber	6-12_nsubj	put	NN	P1_hairdresser
+6-12	put	6-2_conj_and	got	VBD	O
+6-13	a	O	O	DT	O
+6-14	paper	O	O	NN	O
+6-15	towel	6-12_dobj	put	NN	P1_NPart_towel
+6-16	around	O	O	O	O
+6-17	my	O	O	PRP$	P1_customer
+6-18	neck	6-12_prep_around	put	NN	P1_NPart_neck
+6-19	so	6-24_mark	get	IN	O
+6-20	the	O	O	DT	O
+6-21	hair	6-24_nsubj	get	NN	P1_hair
+6-22	would	6-24_aux	get	MD	O
+6-23	n't	6-24_neg	get	RB	O
+6-24	get	6-12_advcl	put	VB	O
+6-25	down	6-24_prt	get	RP	O
+6-26	on	O	O	O	O
+6-27	my	O	O	PRP$	P1_customer
+6-28	shirt	6-24_prep_on	get	NN	P1_other
+6-29	.	O	O	O	O
+
+#id=7
+#text=He put an apron on over me , and started cutting my hair . 
+7-1	He	7-2_nsubj	put	PRP	P1_hairdresser
+7-2	put	O	O	VBD	O
+7-3	an	O	O	DT	O
+7-4	apron	7-2_dobj	put	NN	P1_cape
+7-5	on	7-2_prep	put	IN	O
+7-6	over	O	O	IN	O
+7-7	me	O	O	PRP	P1_customer
+7-8	,	O	O	O	O
+7-9	and	O	O	O	O
+7-10	started	7-2_conj_and	put	VBD	O
+7-11	cutting	7-10_xcomp	started	VBG	O
+7-12	my	O	O	PRP$	P1_customer
+7-13	hair	7-11_dobj	cutting	NN	P1_hair
+7-14	.	O	O	O	O
+
+#id=8
+#text=I watched in the mirror as bits of hair would fall down as he cut . 
+8-1	I	8-2_nsubj	watched	PRP	P1_customer
+8-2	watched	O	O	VBD	O
+8-3	in	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	mirror	8-2_prep_in	watched	NN	P1_mirror
+8-6	as	8-11_mark	fall	IN	O
+8-7	bits	8-11_nsubj	fall	NNS	P1_NPart_bits
+8-8	of	O	O	O	O
+8-9	hair	O	O	NN	P1_hair
+8-10	would	8-11_aux	fall	MD	O
+8-11	fall	8-2_advcl	watched	VB	O
+8-12	down	8-11_prt	fall	RP	O
+8-13	as	8-15_mark	cut	IN	O
+8-14	he	8-15_nsubj	cut	PRP	P1_hairdresser
+8-15	cut	8-11_advcl	fall	VBD	O
+8-16	.	O	O	O	O
+
+#id=9
+#text=I started to see the design I had chosen take shape . 
+9-1	I	9-2_nsubj	started	PRP	P1_customer
+9-2	started	O	O	VBD	O
+9-3	to	9-4_aux	see	TO	O
+9-4	see	9-2_xcomp	started	VB	O
+9-5	the	O	O	DT	O
+9-6	design	9-4_dobj	see	NN	P1_haircut
+9-7	I	9-9_nsubj	chosen	PRP	P1_customer
+9-8	had	9-9_aux	chosen	VBD	O
+9-9	chosen	O	O	VBN	O
+9-10	take	9-9_ccomp	chosen	VB	O
+9-11	shape	9-10_dobj	take	NN	O
+9-12	.	O	O	O	O
+
+#id=10
+#text=Before I knew it , he was brushing some loose hair off with his brush and I was all done . 
+10-1	Before	10-3_mark	knew	IN	O
+10-2	I	10-3_nsubj	knew	PRP	P1_customer
+10-3	knew	10-7_advcl	was	VBD	O
+10-4	it	10-3_dobj	knew	PRP	O
+10-5	,	O	O	O	O
+10-6	he	10-7_nsubj	was	PRP	P1_hairdresser
+10-7	was	O	O	VBD	O
+10-8	brushing	10-7_xcomp	was	VBG	O
+10-9	some	O	O	DT	O
+10-10	loose	O	O	JJ	O
+10-11	hair	10-8_dobj	brushing	NN	P1_hair
+10-12	off	10-8_prt	brushing	RP	O
+10-13	with	O	O	O	O
+10-14	his	O	O	PRP$	P1_hairdresser
+10-15	brush	10-8_prep_with	brushing	NN	P1_NPart_brush
+10-16	and	O	O	O	O
+10-17	I	10-20_nsubjpass	done	PRP	P1_customer
+10-18	was	10-20_auxpass	done	VBD	O
+10-19	all	10-20_advmod	done	RB	O
+10-20	done	10-7_conj_and	was	VBN	O
+10-21	.	O	O	O	O
+
+#id=11
+#text=He did a great job , and my hair is just how I want it . 
+11-1	He	11-2_nsubj	did	PRP	P1_hairdresser
+11-2	did	O	O	VBD	O
+11-3	a	O	O	DT	O
+11-4	great	O	O	JJ	O
+11-5	job	11-2_dobj	did	NN	O
+11-6	,	O	O	O	O
+11-7	and	O	O	O	O
+11-8	my	O	O	PRP$	P1_customer
+11-9	hair	11-10_nsubj	is	NN	P1_hair
+11-10	is	11-2_conj_and	did	VBZ	O
+11-11	just	O	O	RB	O
+11-12	how	11-14_advmod	want	WRB	O
+11-13	I	11-14_nsubj	want	PRP	P1_customer
+11-14	want	11-10_ccomp	is	VBP	O
+11-15	it	11-14_dobj	want	PRP	P1_hair
+11-16	.	O	O	O	O

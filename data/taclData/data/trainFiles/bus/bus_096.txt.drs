@@ -1,0 +1,338 @@
+#id=1
+#text=Last weekend there was a parade in the downtown area of my city , and I decided to take my little sister - we had so much fun ! 
+1-1	Last	O	O	JJ	O
+1-2	weekend	1-4_nsubj	was	NN	P1_NPart_weekend
+1-3	there	1-4_expl	was	EX	O
+1-4	was	O	O	VBD	O
+1-5	a	O	O	DT	O
+1-6	parade	1-4_nsubj	was	NN	P1_NPart_parade
+1-7	in	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	downtown	O	O	JJ	O
+1-10	area	O	O	NN	P1_NPart_area
+1-11	of	O	O	O	O
+1-12	my	O	O	PRP$	P1_passenger
+1-13	city	O	O	NN	P1_NPart_city
+1-14	,	O	O	O	O
+1-15	and	O	O	O	O
+1-16	I	1-17_nsubj	decided	PRP	P1_passenger
+1-17	decided	1-4_conj_and	was	VBD	O
+1-18	to	1-19_aux	take	TO	O
+1-19	take	1-17_xcomp	decided	VB	O
+1-20	my	O	O	PRP$	P1_passenger
+1-21	little	O	O	JJ	O
+1-22	sister	1-19_dobj	take	NN	P1_passenger
+1-23	-	O	O	O	O
+1-24	we	1-25_nsubj	had	PRP	P1_passenger
+1-25	had	1-4_parataxis	was	VBD	O
+1-26	so	O	O	RB	O
+1-27	much	O	O	JJ	O
+1-28	fun	1-25_dobj	had	NN	P1_NPart_fun
+1-29	!	O	O	O	O
+
+#id=2
+#text=I 'm not old enough to drive and our parents were busy , so I decided to take the bus . 
+2-1	I	O	O	PRP	P1_passenger
+2-2	'm	O	O	VBP	O
+2-3	not	O	O	RB	O
+2-4	old	O	O	JJ	O
+2-5	enough	O	O	RB	O
+2-6	to	2-7_aux	drive	TO	O
+2-7	drive	O	O	VB	O
+2-8	and	O	O	O	O
+2-9	our	O	O	PRP$	P1_passenger
+2-10	parents	O	O	NNS	P1_NPart_parents
+2-11	were	O	O	VBD	O
+2-12	busy	O	O	JJ	O
+2-13	,	O	O	O	O
+2-14	so	O	O	IN	O
+2-15	I	2-16_nsubj	decided	PRP	P1_passenger
+2-16	decided	O	O	VBD	O
+2-17	to	2-18_aux	take	TO	O
+2-18	take	2-16_xcomp	decided	VB	O
+2-19	the	O	O	DT	O
+2-20	bus	2-18_dobj	take	NN	P1_bus
+2-21	.	O	O	O	O
+
+#id=3
+#text=I went online and looked at the bus route to determine which stop let us off closest to the parade , and then I looked at the bus schedule to see what time the bus would come and how often it ran . 
+3-1	I	3-2_nsubj	went	PRP	P1_passenger
+3-2	went	O	O	VBD	O
+3-3	online	3-2_prep	went	NN	O
+3-4	and	O	O	O	O
+3-5	looked	3-2_conj_and	went	VBD	O
+3-6	at	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	bus	O	O	NN	O
+3-9	route	3-5_prep_at	looked	NN	P1_route
+3-10	to	3-11_aux	determine	TO	O
+3-11	determine	3-5_xcomp	looked	VB	O
+3-12	which	3-13_nsubj	stop	WDT	O
+3-13	stop	3-11_ccomp	determine	VBP	P1_bus_stop
+3-14	let	3-13_xcomp	stop	VB	O
+3-15	us	3-14_dobj	let	PRP	P1_passenger
+3-16	off	3-14_advmod	let	IN	O
+3-17	closest	O	O	JJS	O
+3-18	to	O	O	O	O
+3-19	the	O	O	DT	O
+3-20	parade	O	O	NN	P2_NPart_parade
+3-21	,	O	O	O	O
+3-22	and	O	O	O	O
+3-23	then	3-25_advmod	looked	RB	O
+3-24	I	3-25_nsubj	looked	PRP	P1_passenger
+3-25	looked	3-2_conj_and	went	VBD	O
+3-26	at	O	O	O	O
+3-27	the	O	O	DT	O
+3-28	bus	O	O	NN	O
+3-29	schedule	3-25_prep_at	looked	NN	P1_time-table
+3-30	to	3-31_aux	see	TO	O
+3-31	see	3-25_xcomp	looked	VB	O
+3-32	what	O	O	WP	O
+3-33	time	3-37_dobj	come	NN	P1_time/date
+3-34	the	O	O	DT	O
+3-35	bus	3-37_nsubj	come	NN	P1_bus
+3-36	would	3-37_aux	come	MD	O
+3-37	come	3-31_dep	see	VB	O
+3-38	and	O	O	O	O
+3-39	how	O	O	WRB	O
+3-40	often	3-42_advmod	ran	RB	O
+3-41	it	3-42_nsubj	ran	PRP	P1_bus
+3-42	ran	3-37_conj_and	come	VBD	O
+3-43	.	O	O	O	O
+
+#id=4
+#text=I also found out how much the ride costs , and Mom gave me the money I needed for both of us . 
+4-1	I	4-3_nsubj	found	PRP	P1_passenger
+4-2	also	4-3_advmod	found	RB	O
+4-3	found	O	O	VBD	O
+4-4	out	4-3_prt	found	RP	O
+4-5	how	O	O	WRB	O
+4-6	much	4-9_dep	costs	JJ	O
+4-7	the	O	O	DT	O
+4-8	ride	4-9_nsubj	costs	NN	P1_ride
+4-9	costs	4-3_ccomp	found	VBZ	O
+4-10	,	O	O	O	O
+4-11	and	O	O	O	O
+4-12	Mom	4-13_nsubj	gave	NN	P1_NPart_mom
+4-13	gave	4-3_conj_and	found	VBD	O
+4-14	me	4-13_iobj	gave	PRP	P1_passenger
+4-15	the	O	O	DT	O
+4-16	money	4-13_dobj	gave	NN	P1_money
+4-17	I	4-18_nsubj	needed	PRP	P1_passenger
+4-18	needed	O	O	VBD	O
+4-19	for	O	O	O	O
+4-20	both	4-18_prep_for	needed	DT	O
+4-21	of	O	O	O	O
+4-22	us	O	O	PRP	P1_passenger
+4-23	.	O	O	O	O
+
+#id=5
+#text=The day of the parade my sister and I walked the two short blocks to the bus stop and waited inside the little bus shelter . 
+5-1	The	O	O	DT	O
+5-2	day	5-10_nsubj	walked	NN	P1_NPart_day
+5-3	of	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	parade	O	O	NN	P3_NPart_parade
+5-6	my	O	O	PRP$	O
+5-7	sister	O	O	NN	O
+5-8	and	O	O	O	O
+5-9	I	O	O	PRP	P1_passenger
+5-10	walked	O	O	VBD	O
+5-11	the	O	O	DT	O
+5-12	two	O	O	CD	O
+5-13	short	O	O	JJ	O
+5-14	blocks	5-10_dobj	walked	NNS	P1_NPart_blocks
+5-15	to	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	bus	O	O	NN	O
+5-18	stop	5-10_prep_to	walked	NN	P2_bus_stop
+5-19	and	O	O	O	O
+5-20	waited	5-10_conj_and	walked	VBD	O
+5-21	inside	O	O	O	O
+5-22	the	O	O	DT	O
+5-23	little	O	O	JJ	O
+5-24	bus	O	O	NN	O
+5-25	shelter	5-20_prep_inside	waited	NN	P1_NPart_shelter
+5-26	.	O	O	O	O
+
+#id=6
+#text=When the bus came , the driver came to a stop and the doors opened and we walked up the two steps . 
+6-1	When	6-4_advmod	came	WRB	O
+6-2	the	O	O	DT	O
+6-3	bus	6-4_nsubj	came	NN	P1_bus
+6-4	came	6-8_advcl	came	VBD	O
+6-5	,	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	driver	6-8_nsubj	came	NN	P1_bus_staff
+6-8	came	O	O	VBD	O
+6-9	to	O	O	O	O
+6-10	a	O	O	DT	O
+6-11	stop	6-8_prep_to	came	NN	O
+6-12	and	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	doors	6-15_nsubj	opened	NNS	P1_door
+6-15	opened	6-8_conj_and	came	VBD	O
+6-16	and	O	O	O	O
+6-17	we	6-18_nsubj	walked	PRP	P1_passenger
+6-18	walked	6-15_conj_and	opened	VBD	O
+6-19	up	6-18_prt	walked	RP	O
+6-20	the	O	O	DT	O
+6-21	two	O	O	CD	O
+6-22	steps	6-18_dobj	walked	NNS	P1_NPart_steps
+6-23	.	O	O	O	O
+
+#id=7
+#text=We said hello to the driver and paid the fare - my sister loved putting the coins in the fare box . 
+7-1	We	7-2_nsubj	said	PRP	P1_passenger
+7-2	said	O	O	VBD	O
+7-3	hello	7-2_dobj	said	UH	O
+7-4	to	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	driver	7-2_prep_to	said	NN	P1_bus_staff
+7-7	and	O	O	O	O
+7-8	paid	7-2_conj_and	said	VBD	O
+7-9	the	O	O	DT	O
+7-10	fare	7-8_dobj	paid	NN	P1_money
+7-11	-	O	O	O	O
+7-12	my	O	O	PRP$	P1_passenger
+7-13	sister	7-14_nsubj	loved	NN	P1_passenger
+7-14	loved	7-2_parataxis	said	VBD	O
+7-15	putting	7-14_xcomp	loved	VBG	O
+7-16	the	O	O	DT	O
+7-17	coins	7-15_dobj	putting	NNS	P1_money
+7-18	in	O	O	O	O
+7-19	the	O	O	DT	O
+7-20	fare	O	O	NN	O
+7-21	box	7-15_prep_in	putting	NN	P1_payment_machine
+7-22	.	O	O	O	O
+
+#id=8
+#text=We walked a few steps down the aisle and took a seat near the front of the bus and settled in to look out of the window . 
+8-1	We	8-2_nsubj	walked	PRP	P1_passenger
+8-2	walked	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	few	O	O	JJ	O
+8-5	steps	8-2_dobj	walked	NNS	P2_NPart_steps
+8-6	down	8-2_advmod	walked	RB	O
+8-7	the	O	O	DT	O
+8-8	aisle	O	O	NN	P1_NPart_aisle
+8-9	and	O	O	O	O
+8-10	took	8-2_conj_and	walked	VBD	O
+8-11	a	O	O	DT	O
+8-12	seat	8-10_dobj	took	NN	P1_seat_in_bus
+8-13	near	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	front	8-10_prep_near	took	NN	P1_NPart_front
+8-16	of	O	O	O	O
+8-17	the	O	O	DT	O
+8-18	bus	O	O	NN	P1_bus
+8-19	and	O	O	O	O
+8-20	settled	8-10_conj_and	took	VBD	O
+8-21	in	8-20_prt	settled	RP	O
+8-22	to	8-23_aux	look	TO	O
+8-23	look	8-20_xcomp	settled	VB	O
+8-24	out	O	O	O	O
+8-25	of	O	O	O	O
+8-26	the	O	O	DT	O
+8-27	window	8-23_prep_out_of	look	NN	P1_NPart_window
+8-28	.	O	O	O	O
+
+#id=9
+#text=The bus made a lot of stops and all types of people got on and off of the bus ; it was pretty noisy ! 
+9-1	The	O	O	DT	O
+9-2	bus	9-3_nsubj	made	NN	P1_bus
+9-3	made	O	O	VBD	O
+9-4	a	O	O	DT	O
+9-5	lot	9-13_nsubj	got	NN	O
+9-6	of	O	O	O	O
+9-7	stops	O	O	NNS	O
+9-8	and	O	O	O	O
+9-9	all	O	O	DT	O
+9-10	types	O	O	NNS	O
+9-11	of	O	O	O	O
+9-12	people	O	O	NNS	P2_passenger
+9-13	got	9-3_ccomp	made	VBD	O
+9-14	on	9-13_prt	got	RP	O
+9-15	and	O	O	CC	O
+9-16	off	O	O	RP	O
+9-17	of	O	O	O	O
+9-18	the	O	O	DT	O
+9-19	bus	9-13_prep_of	got	NN	P1_bus
+9-20	;	O	O	O	O
+9-21	it	O	O	PRP	O
+9-22	was	O	O	VBD	O
+9-23	pretty	O	O	RB	O
+9-24	noisy	9-3_parataxis	made	JJ	O
+9-25	!	O	O	O	O
+
+#id=10
+#text=When I could tell we were getting close to our stop , I pulled the chord to alert the driver that we were getting off at the next stop . 
+10-1	When	10-4_advmod	tell	WRB	O
+10-2	I	10-4_nsubj	tell	PRP	P1_passenger
+10-3	could	10-4_aux	tell	MD	O
+10-4	tell	10-14_advcl	pulled	VB	O
+10-5	we	10-7_nsubj	getting	PRP	P1_passenger
+10-6	were	10-7_aux	getting	VBD	O
+10-7	getting	10-4_ccomp	tell	VBG	O
+10-8	close	O	O	O	O
+10-9	to	O	O	O	O
+10-10	our	O	O	PRP$	P1_passenger
+10-11	stop	10-7_prep_close_to	getting	NN	P1_bus_stop
+10-12	,	O	O	O	O
+10-13	I	10-14_nsubj	pulled	PRP	P1_passenger
+10-14	pulled	O	O	VBD	O
+10-15	the	O	O	DT	O
+10-16	chord	10-14_dobj	pulled	NN	P1_stop_button/door_opener
+10-17	to	10-18_aux	alert	TO	O
+10-18	alert	O	O	VB	O
+10-19	the	O	O	DT	O
+10-20	driver	10-18_dobj	alert	NN	P1_bus_staff
+10-21	that	10-24_mark	getting	IN	O
+10-22	we	10-24_nsubj	getting	PRP	P1_passenger
+10-23	were	10-24_aux	getting	VBD	O
+10-24	getting	10-18_ccomp	alert	VBG	O
+10-25	off	10-24_prt	getting	RP	O
+10-26	at	O	O	O	O
+10-27	the	O	O	DT	O
+10-28	next	O	O	JJ	O
+10-29	stop	10-24_prep_at	getting	NN	P1_bus_stop
+10-30	.	O	O	O	O
+
+#id=11
+#text=When we reached our stop , my sister and I walked down the aisle and off of the bus . 
+11-1	When	11-3_advmod	reached	WRB	O
+11-2	we	11-3_nsubj	reached	PRP	P1_passenger
+11-3	reached	11-11_advcl	walked	VBD	O
+11-4	our	O	O	PRP$	P1_passenger
+11-5	stop	11-3_dobj	reached	NN	P1_bus_stop
+11-6	,	O	O	O	O
+11-7	my	O	O	PRP$	O
+11-8	sister	11-11_nsubj	walked	NN	O
+11-9	and	O	O	O	O
+11-10	I	O	O	PRP	P1_passenger
+11-11	walked	O	O	VBD	O
+11-12	down	11-11_prt	walked	RP	O
+11-13	the	O	O	DT	O
+11-14	aisle	11-11_dobj	walked	NN	P2_NPart_aisle
+11-15	and	O	O	O	O
+11-16	off	O	O	IN	O
+11-17	of	O	O	O	O
+11-18	the	O	O	DT	O
+11-19	bus	O	O	NN	P1_bus
+11-20	.	O	O	O	O
+
+#id=12
+#text=We were just in time to see the beginning of the parade ! 
+12-1	We	12-2_nsubj	were	PRP	P1_passenger
+12-2	were	O	O	VBD	O
+12-3	just	12-2_advmod	were	RB	O
+12-4	in	O	O	O	O
+12-5	time	12-2_prep_in	were	NN	O
+12-6	to	12-7_aux	see	TO	O
+12-7	see	12-2_xcomp	were	VB	O
+12-8	the	O	O	DT	O
+12-9	beginning	12-7_dobj	see	NN	P1_NPart_beginning
+12-10	of	O	O	O	O
+12-11	the	O	O	DT	O
+12-12	parade	O	O	NN	P4_NPart_parade
+12-13	!	O	O	O	O

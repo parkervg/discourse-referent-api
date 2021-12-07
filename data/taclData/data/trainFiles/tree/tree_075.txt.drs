@@ -1,0 +1,224 @@
+#id=1
+#text=Planting a Tree to Bring in Spring A friend gave me a gift . 
+1-1	Planting	1-10_dep	gave	VBG	O
+1-2	a	O	O	DT	O
+1-3	Tree	1-1_dobj	Planting	NNP	P1_tree
+1-4	to	1-5_aux	Bring	TO	O
+1-5	Bring	1-1_xcomp	Planting	VB	O
+1-6	in	O	O	O	O
+1-7	Spring	1-5_prep_in	Bring	NNP	P1_time
+1-8	A	O	O	DT	P1_NPart_a
+1-9	friend	1-10_nsubj	gave	NN	P1_NPart_friend
+1-10	gave	O	O	VBD	O
+1-11	me	1-10_iobj	gave	PRP	P1_gardener
+1-12	a	O	O	DT	O
+1-13	gift	1-10_dobj	gave	NN	P1_tree
+1-14	.	O	O	O	O
+
+#id=2
+#text=She brought me a tree that I could plant in my own yard and enjoy for years to come . 
+2-1	She	2-2_nsubj	brought	PRP	P1_NPart_she
+2-2	brought	O	O	VBD	O
+2-3	me	2-2_iobj	brought	PRP	P1_gardener
+2-4	a	O	O	DT	O
+2-5	tree	2-2_dobj	brought	NN	P1_tree
+2-6	that	2-9_mark	plant	IN	O
+2-7	I	2-9_nsubj	plant	PRP	P1_gardener
+2-8	could	2-9_aux	plant	MD	O
+2-9	plant	2-2_ccomp	brought	VB	O
+2-10	in	O	O	O	O
+2-11	my	O	O	PRP$	P1_gardener
+2-12	own	O	O	JJ	O
+2-13	yard	2-9_prep_in	plant	NN	P1_location_garden
+2-14	and	O	O	O	O
+2-15	enjoy	2-9_conj_and	plant	VB	O
+2-16	for	O	O	O	O
+2-17	years	2-15_prep_for	enjoy	NNS	P2_time
+2-18	to	2-19_aux	come	TO	O
+2-19	come	2-15_xcomp	enjoy	VB	O
+2-20	.	O	O	O	O
+
+#id=3
+#text=It was a Douglas fir evergreen tree . 
+3-1	It	O	O	PRP	O
+3-2	was	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	Douglas	O	O	NNP	P1_NPart_douglas
+3-5	fir	O	O	NN	P1_NPart_fir
+3-6	evergreen	O	O	NN	P1_NPart_evergreen
+3-7	tree	O	O	NN	P1_tree
+3-8	.	O	O	O	O
+
+#id=4
+#text=Spring had come a few weeks before and the temperatures were mild again . 
+4-1	Spring	4-3_nsubj	come	NNP	P3_time
+4-2	had	4-3_aux	come	VBD	O
+4-3	come	O	O	VBN	O
+4-4	a	O	O	DT	O
+4-5	few	O	O	JJ	O
+4-6	weeks	O	O	NNS	P4_time
+4-7	before	4-3_advmod	come	IN	O
+4-8	and	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	temperatures	O	O	NNS	P1_NPart_temperatures
+4-11	were	O	O	VBD	O
+4-12	mild	4-3_conj_and	come	JJ	O
+4-13	again	O	O	RB	O
+4-14	.	O	O	O	O
+
+#id=5
+#text=One sunny day , I decided to plant my tree . 
+5-1	One	O	O	CD	O
+5-2	sunny	O	O	JJ	O
+5-3	day	5-6_tmod	decided	NN	P5_time
+5-4	,	O	O	O	O
+5-5	I	5-6_nsubj	decided	PRP	P1_gardener
+5-6	decided	O	O	VBD	O
+5-7	to	5-8_aux	plant	TO	O
+5-8	plant	5-6_xcomp	decided	VB	O
+5-9	my	O	O	PRP$	P2_gardener
+5-10	tree	5-8_dobj	plant	NN	P1_tree
+5-11	.	O	O	O	O
+
+#id=6
+#text=I planted my tree in my backyard . 
+6-1	I	6-2_nsubj	planted	PRP	P1_gardener
+6-2	planted	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_gardener
+6-4	tree	6-2_dobj	planted	NN	P1_tree
+6-5	in	O	O	O	O
+6-6	my	O	O	PRP$	P1_gardener
+6-7	backyard	6-2_prep_in	planted	NN	P2_location_garden
+6-8	.	O	O	O	O
+
+#id=7
+#text=It seemed to be the best place for it . 
+7-1	It	7-2_nsubj	seemed	PRP	P2_location_garden
+7-2	seemed	O	O	VBD	O
+7-3	to	O	O	TO	O
+7-4	be	O	O	VB	O
+7-5	the	O	O	DT	O
+7-6	best	O	O	JJS	O
+7-7	place	7-2_xcomp	seemed	NN	P2_location_garden
+7-8	for	O	O	O	O
+7-9	it	O	O	PRP	P1_tree
+7-10	.	O	O	O	O
+
+#id=8
+#text=I looked forward to when the tree grew and provided shade and beauty to the landscape . 
+8-1	I	8-2_nsubj	looked	PRP	P1_gardener
+8-2	looked	O	O	VBD	O
+8-3	forward	8-2_advmod	looked	RB	O
+8-4	to	O	O	O	O
+8-5	when	8-8_advmod	grew	WRB	O
+8-6	the	O	O	DT	O
+8-7	tree	8-8_nsubj	grew	NN	P1_tree
+8-8	grew	8-2_prepc_to	looked	VBD	O
+8-9	and	O	O	O	O
+8-10	provided	8-8_conj_and	grew	VBD	O
+8-11	shade	8-10_dobj	provided	NN	P1_NPart_shade
+8-12	and	O	O	O	O
+8-13	beauty	O	O	NN	P1_NPart_beauty
+8-14	to	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	landscape	8-10_prep_to	provided	NN	P1_NPart_landscape
+8-17	.	O	O	O	O
+
+#id=9
+#text=I was so inspired by planting this tree that I decided that I wanted to plant a few more trees . 
+9-1	I	O	O	PRP	P1_gardener
+9-2	was	O	O	VBD	O
+9-3	so	O	O	RB	O
+9-4	inspired	O	O	JJ	O
+9-5	by	O	O	O	O
+9-6	planting	O	O	VBG	O
+9-7	this	O	O	DT	O
+9-8	tree	9-6_dobj	planting	NN	P1_tree
+9-9	that	9-11_mark	decided	IN	O
+9-10	I	9-11_nsubj	decided	PRP	P1_gardener
+9-11	decided	O	O	VBD	O
+9-12	that	9-14_mark	wanted	IN	O
+9-13	I	9-14_nsubj	wanted	PRP	P1_gardener
+9-14	wanted	9-11_ccomp	decided	VBD	O
+9-15	to	9-16_aux	plant	TO	O
+9-16	plant	9-14_xcomp	wanted	VB	O
+9-17	a	O	O	DT	O
+9-18	few	O	O	JJ	O
+9-19	more	O	O	JJR	O
+9-20	trees	9-16_dobj	plant	NNS	P1_tree
+9-21	.	O	O	O	O
+
+#id=10
+#text=I went to a local nursery and picked out three more varieties of trees that would grow well in my local area . 
+10-1	I	10-2_nsubj	went	PRP	P1_gardener
+10-2	went	O	O	VBD	O
+10-3	to	O	O	O	O
+10-4	a	O	O	DT	O
+10-5	local	O	O	JJ	O
+10-6	nursery	10-2_prep_to	went	NN	P1_NPart_nursery
+10-7	and	O	O	O	O
+10-8	picked	10-2_conj_and	went	VBD	O
+10-9	out	10-8_prt	picked	RP	O
+10-10	three	O	O	CD	O
+10-11	more	O	O	JJR	O
+10-12	varieties	10-8_dobj	picked	NNS	P1_NPart_varieties
+10-13	of	O	O	O	O
+10-14	trees	O	O	NNS	P1_tree
+10-15	that	10-17_nsubj	grow	WDT	O
+10-16	would	10-17_aux	grow	MD	O
+10-17	grow	O	O	VB	O
+10-18	well	10-17_advmod	grow	RB	O
+10-19	in	O	O	O	O
+10-20	my	O	O	PRP$	P1_gardener
+10-21	local	O	O	JJ	O
+10-22	area	10-8_prep_in	picked	NN	P1_NPart_area
+10-23	.	O	O	O	O
+
+#id=11
+#text=I took them home and planted them as long . 
+11-1	I	11-2_nsubj	took	PRP	P1_gardener
+11-2	took	O	O	VBD	O
+11-3	them	11-2_dobj	took	PRP	P1_tree
+11-4	home	11-2_advmod	took	RB	O
+11-5	and	O	O	O	O
+11-6	planted	11-2_conj_and	took	VBD	O
+11-7	them	O	O	PRP	P1_tree
+11-8	as	O	O	RB	O
+11-9	long	11-6_xcomp	planted	JJ	O
+11-10	.	O	O	O	O
+
+#id=12
+#text=In a few years , my backyard will be even more beautiful than it is today due to the short amount of time that it took me to plant a few trees . 
+12-1	In	O	O	O	O
+12-2	a	O	O	DT	O
+12-3	few	O	O	JJ	O
+12-4	years	O	O	NNS	P1_NPart_years
+12-5	,	O	O	O	O
+12-6	my	O	O	PRP$	P1_gardener
+12-7	backyard	O	O	NN	P2_location_garden
+12-8	will	O	O	MD	O
+12-9	be	O	O	VB	O
+12-10	even	O	O	RB	O
+12-11	more	O	O	RBR	O
+12-12	beautiful	O	O	JJ	O
+12-13	than	O	O	IN	O
+12-14	it	O	O	PRP	P2_location_garden
+12-15	is	O	O	VBZ	O
+12-16	today	O	O	NN	P6_time
+12-17	due	O	O	JJ	O
+12-18	to	O	O	O	O
+12-19	the	O	O	DT	O
+12-20	short	O	O	JJ	O
+12-21	amount	O	O	NN	P1_NPart_amount
+12-22	of	O	O	O	O
+12-23	time	O	O	NN	P7_time
+12-24	that	12-26_mark	took	IN	O
+12-25	it	12-26_nsubj	took	PRP	O
+12-26	took	O	O	VBD	O
+12-27	me	12-26_dobj	took	PRP	P1_gardener
+12-28	to	12-29_aux	plant	TO	O
+12-29	plant	12-26_xcomp	took	VB	O
+12-30	a	O	O	DT	O
+12-31	few	O	O	JJ	O
+12-32	trees	12-29_dobj	plant	NNS	P1_tree
+12-33	.	O	O	O	O

@@ -1,0 +1,258 @@
+#id=1
+#text=My wife and I flew on an airplane a couple of months ago . 
+1-1	My	O	O	PRP$	O
+1-2	wife	1-5_nsubj	flew	NN	O
+1-3	and	O	O	O	O
+1-4	I	O	O	PRP	P1_passenger
+1-5	flew	O	O	VBD	O
+1-6	on	O	O	O	O
+1-7	an	O	O	DT	O
+1-8	airplane	1-5_prep_on	flew	NN	P1_plane
+1-9	a	O	O	DT	O
+1-10	couple	O	O	NN	O
+1-11	of	O	O	O	O
+1-12	months	O	O	NNS	P1_NPart_months
+1-13	ago	O	O	IN	O
+1-14	.	O	O	O	O
+
+#id=2
+#text=We were going to Las Vegas because a friend of mine was getting married . 
+2-1	We	2-3_nsubj	going	PRP	P1_passenger
+2-2	were	2-3_aux	going	VBD	O
+2-3	going	O	O	VBG	O
+2-4	to	O	O	O	O
+2-5	Las	O	O	NNP	O
+2-6	Vegas	2-3_prep_to	going	NNP	P1_target_location
+2-7	because	O	O	IN	O
+2-8	a	O	O	DT	O
+2-9	friend	O	O	NN	P1_accomp_person
+2-10	of	O	O	O	O
+2-11	mine	O	O	NN	P1_passenger
+2-12	was	O	O	VBD	O
+2-13	getting	O	O	VBG	O
+2-14	married	2-3_advcl	going	JJ	O
+2-15	.	O	O	O	O
+
+#id=3
+#text=He lives there and said that he would pick us up from the airport . 
+3-1	He	3-2_nsubj	lives	PRP	P1_accomp_person
+3-2	lives	O	O	VBZ	O
+3-3	there	3-2_advmod	lives	RB	O
+3-4	and	O	O	O	O
+3-5	said	3-2_conj_and	lives	VBD	O
+3-6	that	3-9_mark	pick	IN	O
+3-7	he	3-9_nsubj	pick	PRP	P1_accomp_person
+3-8	would	3-9_aux	pick	MD	O
+3-9	pick	3-5_ccomp	said	VB	O
+3-10	us	3-9_dobj	pick	PRP	P1_passenger
+3-11	up	3-9_prt	pick	RP	O
+3-12	from	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	airport	3-9_prep_from	pick	NN	P1_airport
+3-15	.	O	O	O	O
+
+#id=4
+#text=But , the weather here was cold and there was freezing rain , so our flight was delayed for two hours . 
+4-1	But	4-18_cc	delayed	CC	O
+4-2	,	O	O	O	O
+4-3	the	O	O	DT	O
+4-4	weather	O	O	NN	P1_NPart_weather
+4-5	here	O	O	RB	O
+4-6	was	O	O	VBD	O
+4-7	cold	4-18_parataxis	delayed	JJ	O
+4-8	and	O	O	O	O
+4-9	there	4-10_expl	was	EX	O
+4-10	was	O	O	VBD	O
+4-11	freezing	O	O	JJ	O
+4-12	rain	4-10_nsubj	was	NN	P1_NPart_rain
+4-13	,	O	O	O	O
+4-14	so	4-18_advmod	delayed	RB	O
+4-15	our	O	O	PRP$	P1_passenger
+4-16	flight	4-18_nsubjpass	delayed	NN	P1_flight
+4-17	was	4-18_auxpass	delayed	VBD	O
+4-18	delayed	O	O	VBN	O
+4-19	for	O	O	O	O
+4-20	two	O	O	CD	O
+4-21	hours	4-18_prep_for	delayed	NNS	P1_time/date
+4-22	.	O	O	O	O
+
+#id=5
+#text=It was kind of scary taking off because the weather was still cold and rainy , but after two hours of sitting there waiting , I was ready to go . 
+5-1	It	5-6_nsubj	taking	PRP	O
+5-2	was	5-6_aux	taking	VBD	O
+5-3	kind	5-6_advmod	taking	RB	O
+5-4	of	O	O	O	O
+5-5	scary	O	O	JJ	O
+5-6	taking	O	O	VBG	O
+5-7	off	5-6_prt	taking	RP	O
+5-8	because	O	O	IN	O
+5-9	the	O	O	DT	O
+5-10	weather	O	O	NN	P2_NPart_weather
+5-11	was	O	O	VBD	O
+5-12	still	O	O	RB	O
+5-13	cold	5-6_advcl	taking	JJ	O
+5-14	and	O	O	O	O
+5-15	rainy	O	O	JJ	O
+5-16	,	O	O	O	O
+5-17	but	O	O	O	O
+5-18	after	O	O	O	O
+5-19	two	O	O	CD	O
+5-20	hours	5-27_prep_after	was	NNS	P2_time/date
+5-21	of	O	O	O	O
+5-22	sitting	O	O	VBG	O
+5-23	there	5-24_expl	waiting	EX	O
+5-24	waiting	5-22_vmod	sitting	VBG	O
+5-25	,	O	O	O	O
+5-26	I	5-27_nsubj	was	PRP	P1_passenger
+5-27	was	5-6_conj_but	taking	VBD	O
+5-28	ready	5-27_acomp	was	JJ	O
+5-29	to	5-30_aux	go	TO	O
+5-30	go	O	O	VB	O
+5-31	.	O	O	O	O
+
+#id=6
+#text=People on the flight were pretty happy to finally leave and a lot of people were having drinks . 
+6-1	People	O	O	NNS	P2_passenger
+6-2	on	O	O	O	O
+6-3	the	O	O	DT	O
+6-4	flight	O	O	NN	P1_flight
+6-5	were	O	O	VBD	O
+6-6	pretty	O	O	RB	O
+6-7	happy	O	O	JJ	O
+6-8	to	6-10_aux	leave	TO	O
+6-9	finally	6-10_advmod	leave	RB	O
+6-10	leave	O	O	VB	O
+6-11	and	O	O	O	O
+6-12	a	O	O	DT	O
+6-13	lot	6-17_nsubj	having	NN	O
+6-14	of	O	O	O	O
+6-15	people	O	O	NNS	P2_passenger
+6-16	were	6-17_aux	having	VBD	O
+6-17	having	O	O	VBG	O
+6-18	drinks	6-17_dobj	having	NNS	P1_in-flight_entertainment
+6-19	.	O	O	O	O
+
+#id=7
+#text=Everyone was getting ready for their own little party in Las Vegas . 
+7-1	Everyone	O	O	NN	P2_passenger
+7-2	was	O	O	VBD	O
+7-3	getting	O	O	VBG	O
+7-4	ready	O	O	JJ	O
+7-5	for	O	O	O	O
+7-6	their	O	O	PRP$	P2_passenger
+7-7	own	O	O	JJ	O
+7-8	little	O	O	JJ	O
+7-9	party	O	O	NN	P1_NPart_party
+7-10	in	O	O	O	O
+7-11	Las	O	O	NNP	O
+7-12	Vegas	O	O	NNP	P1_target_location
+7-13	.	O	O	O	O
+
+#id=8
+#text=The flight itself took a little over four hours due to the fact that we had a non-stop flight . 
+8-1	The	O	O	DT	O
+8-2	flight	8-4_nsubj	took	NN	P1_flight
+8-3	itself	8-4_advmod	took	PRP	P1_flight
+8-4	took	O	O	VBD	O
+8-5	a	O	O	DT	O
+8-6	little	8-4_dobj	took	JJ	O
+8-7	over	O	O	O	O
+8-8	four	O	O	CD	O
+8-9	hours	8-4_prep_over	took	NNS	P3_time/date
+8-10	due	O	O	O	O
+8-11	to	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	fact	O	O	NN	O
+8-14	that	8-16_mark	had	IN	O
+8-15	we	8-16_nsubj	had	PRP	P1_passenger
+8-16	had	8-4_ccomp	took	VBD	O
+8-17	a	O	O	DT	O
+8-18	non-stop	O	O	JJ	O
+8-19	flight	8-16_dobj	had	NN	P1_flight
+8-20	.	O	O	O	O
+
+#id=9
+#text=I was glad I paid the extra money for not making any stops . 
+9-1	I	O	O	PRP	P1_passenger
+9-2	was	O	O	VBD	O
+9-3	glad	O	O	JJ	O
+9-4	I	9-5_nsubj	paid	PRP	P1_passenger
+9-5	paid	O	O	VBD	O
+9-6	the	O	O	DT	O
+9-7	extra	O	O	JJ	O
+9-8	money	9-5_dobj	paid	NN	P1_NPart_money
+9-9	for	O	O	O	O
+9-10	not	9-11_neg	making	RB	O
+9-11	making	9-5_prepc_for	paid	VBG	O
+9-12	any	O	O	DT	O
+9-13	stops	9-11_dobj	making	NNS	O
+9-14	.	O	O	O	O
+
+#id=10
+#text=Six hours sitting on an airplane is more than enough for me . 
+10-1	Six	O	O	CD	O
+10-2	hours	10-7_nsubj	is	NNS	P4_time/date
+10-3	sitting	O	O	VBG	O
+10-4	on	O	O	O	O
+10-5	an	O	O	DT	O
+10-6	airplane	10-3_prep_on	sitting	NN	P1_plane
+10-7	is	O	O	VBZ	O
+10-8	more	O	O	RBR	O
+10-9	than	10-7_advmod	is	IN	O
+10-10	enough	O	O	RB	O
+10-11	for	O	O	O	O
+10-12	me	10-7_prep_for	is	PRP	P1_passenger
+10-13	.	O	O	O	O
+
+#id=11
+#text=The flight was pretty uneventful except for the lively passengers , so that was a good thing , especially since my wife hates to fly . 
+11-1	The	O	O	DT	O
+11-2	flight	O	O	NN	P1_flight
+11-3	was	O	O	VBD	O
+11-4	pretty	O	O	RB	O
+11-5	uneventful	O	O	JJ	O
+11-6	except	O	O	O	O
+11-7	for	O	O	IN	O
+11-8	the	O	O	DT	O
+11-9	lively	O	O	JJ	O
+11-10	passengers	O	O	NNS	P2_passenger
+11-11	,	O	O	O	O
+11-12	so	O	O	IN	O
+11-13	that	O	O	DT	O
+11-14	was	O	O	VBD	O
+11-15	a	O	O	DT	O
+11-16	good	O	O	JJ	O
+11-17	thing	O	O	NN	O
+11-18	,	O	O	O	O
+11-19	especially	11-23_advmod	hates	RB	O
+11-20	since	11-23_mark	hates	IN	O
+11-21	my	O	O	PRP$	P1_passenger
+11-22	wife	11-23_nsubj	hates	NN	P1_passenger
+11-23	hates	O	O	VBZ	O
+11-24	to	11-25_aux	fly	TO	O
+11-25	fly	11-23_xcomp	hates	VB	O
+11-26	.	O	O	O	O
+
+#id=12
+#text=My friend ended up still picking us up from the airport and we had a great time in Las Vegas . 
+12-1	My	O	O	PRP$	P1_passenger
+12-2	friend	12-3_nsubj	ended	NN	P1_accomp_person
+12-3	ended	O	O	VBD	O
+12-4	up	12-3_prt	ended	RP	O
+12-5	still	12-3_advmod	ended	RB	O
+12-6	picking	12-3_xcomp	ended	VBG	O
+12-7	us	12-6_dobj	picking	PRP	P1_passenger
+12-8	up	12-6_prt	picking	RP	O
+12-9	from	O	O	O	O
+12-10	the	O	O	DT	O
+12-11	airport	12-6_prep_from	picking	NN	P1_airport
+12-12	and	O	O	O	O
+12-13	we	12-14_nsubj	had	PRP	P1_passenger
+12-14	had	12-3_conj_and	ended	VBD	O
+12-15	a	O	O	DT	O
+12-16	great	O	O	JJ	O
+12-17	time	12-14_dobj	had	NN	O
+12-18	in	O	O	O	O
+12-19	Las	O	O	NNP	O
+12-20	Vegas	O	O	NNP	P1_target_location
+12-21	.	O	O	O	O

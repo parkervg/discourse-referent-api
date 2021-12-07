@@ -1,0 +1,301 @@
+#id=1
+#text=I had some sore muscles so I decided to take a bath . 
+1-1	I	1-2_nsubj	had	PRP	P1_bather
+1-2	had	O	O	VBD	O
+1-3	some	O	O	DT	O
+1-4	sore	O	O	JJ	O
+1-5	muscles	1-2_dobj	had	NNS	P1_NPart_muscles
+1-6	so	1-8_mark	decided	IN	O
+1-7	I	1-8_nsubj	decided	PRP	P1_bather
+1-8	decided	1-2_advcl	had	VBD	O
+1-9	to	1-10_aux	take	TO	O
+1-10	take	1-8_xcomp	decided	VB	O
+1-11	a	O	O	DT	O
+1-12	bath	1-10_dobj	take	NN	O
+1-13	.	O	O	O	O
+
+#id=2
+#text=First , I showered to get the dirt off me . 
+2-1	First	2-4_advmod	showered	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	showered	PRP	P1_bather
+2-4	showered	O	O	VBD	O
+2-5	to	2-6_aux	get	TO	O
+2-6	get	2-4_xcomp	showered	VB	O
+2-7	the	O	O	DT	O
+2-8	dirt	2-6_dobj	get	NN	P1_NPart_dirt
+2-9	off	O	O	O	O
+2-10	me	2-6_prep_off	get	PRP	P1_bather
+2-11	.	O	O	O	O
+
+#id=3
+#text=Then I stepped over to the bathtub and stopped the drain . 
+3-1	Then	3-3_advmod	stepped	RB	O
+3-2	I	3-3_nsubj	stepped	PRP	P1_bather
+3-3	stepped	O	O	VBD	O
+3-4	over	3-3_prt	stepped	RP	O
+3-5	to	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	bathtub	3-3_prep_to	stepped	NN	P1_bathtub
+3-8	and	O	O	O	O
+3-9	stopped	3-3_conj_and	stepped	VBD	O
+3-10	the	O	O	DT	O
+3-11	drain	3-9_dobj	stopped	NN	P1_drain
+3-12	.	O	O	O	O
+
+#id=4
+#text=I turned the faucet on its hottest setting . 
+4-1	I	4-2_nsubj	turned	PRP	P1_bather
+4-2	turned	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	faucet	4-2_dobj	turned	NN	P1_tap
+4-5	on	O	O	O	O
+4-6	its	O	O	PRP$	P1_tap
+4-7	hottest	O	O	JJS	O
+4-8	setting	4-2_prep_on	turned	NN	P1_NPart_setting
+4-9	.	O	O	O	O
+
+#id=5
+#text=As the steamy water was running , I opened my bathroom cabinet and found a box of bubble soap . 
+5-1	As	5-6_mark	running	IN	O
+5-2	the	O	O	DT	O
+5-3	steamy	O	O	JJ	O
+5-4	water	5-6_nsubj	running	NN	P1_water
+5-5	was	5-6_aux	running	VBD	O
+5-6	running	5-9_advcl	opened	VBG	O
+5-7	,	O	O	O	O
+5-8	I	5-9_nsubj	opened	PRP	P1_bather
+5-9	opened	O	O	VBD	O
+5-10	my	O	O	PRP$	P1_bather
+5-11	bathroom	O	O	NN	O
+5-12	cabinet	5-9_dobj	opened	NN	P1_NPart_cabinet
+5-13	and	O	O	O	O
+5-14	found	5-9_conj_and	opened	VBD	O
+5-15	a	O	O	DT	O
+5-16	box	5-14_dobj	found	NN	O
+5-17	of	O	O	O	O
+5-18	bubble	O	O	NN	O
+5-19	soap	O	O	NN	P1_bath_means
+5-20	.	O	O	O	O
+
+#id=6
+#text=I poured a little bit of the powder into the tub and the water started to foam up . 
+6-1	I	6-2_nsubj	poured	PRP	P1_bather
+6-2	poured	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	little	O	O	JJ	O
+6-5	bit	6-2_dobj	poured	NN	O
+6-6	of	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	powder	O	O	NN	P1_bath_means
+6-9	into	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	tub	6-2_prep_into	poured	NN	P1_bathtub
+6-12	and	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	water	6-15_nsubj	started	NN	P1_water
+6-15	started	6-2_conj_and	poured	VBD	O
+6-16	to	6-17_aux	foam	TO	O
+6-17	foam	6-15_xcomp	started	VB	O
+6-18	up	6-17_prt	foam	RP	O
+6-19	.	O	O	O	O
+
+#id=7
+#text=The bubbles smelled like lavender and it was very relaxing . 
+7-1	The	O	O	DT	O
+7-2	bubbles	7-3_nsubj	smelled	NNS	P1_bath_means
+7-3	smelled	O	O	VBD	O
+7-4	like	O	O	O	O
+7-5	lavender	7-3_prep_like	smelled	NN	P1_NPart_lavender
+7-6	and	O	O	O	O
+7-7	it	O	O	PRP	O
+7-8	was	O	O	VBD	O
+7-9	very	O	O	RB	O
+7-10	relaxing	7-3_conj_and	smelled	JJ	O
+7-11	.	O	O	O	O
+
+#id=8
+#text=When the tub was filled , I turned off the faucet and stepped away to give the water a chance to cool off a bit . 
+8-1	When	8-5_advmod	filled	WRB	O
+8-2	the	O	O	DT	O
+8-3	tub	8-5_nsubjpass	filled	NN	P1_bathtub
+8-4	was	8-5_auxpass	filled	VBD	O
+8-5	filled	8-8_advcl	turned	VBN	O
+8-6	,	O	O	O	O
+8-7	I	8-8_nsubj	turned	PRP	P1_bather
+8-8	turned	O	O	VBD	O
+8-9	off	8-8_prt	turned	RP	O
+8-10	the	O	O	DT	O
+8-11	faucet	8-8_dobj	turned	NN	P1_tap
+8-12	and	O	O	O	O
+8-13	stepped	8-8_conj_and	turned	VBD	O
+8-14	away	8-13_prt	stepped	RP	O
+8-15	to	8-16_aux	give	TO	O
+8-16	give	8-13_xcomp	stepped	VB	O
+8-17	the	O	O	DT	O
+8-18	water	8-16_iobj	give	NN	P1_water
+8-19	a	O	O	DT	O
+8-20	chance	8-16_dobj	give	NN	O
+8-21	to	8-22_aux	cool	TO	O
+8-22	cool	O	O	VB	O
+8-23	off	8-22_prt	cool	RP	O
+8-24	a	O	O	DT	O
+8-25	bit	8-22_dobj	cool	NN	O
+8-26	.	O	O	O	O
+
+#id=9
+#text=I found my magazine and poured myself a glass of juice . 
+9-1	I	9-2_nsubj	found	PRP	P1_bather
+9-2	found	O	O	VBD	O
+9-3	my	O	O	PRP$	P1_bather
+9-4	magazine	9-2_dobj	found	NN	P1_in-bath_entertainment
+9-5	and	O	O	O	O
+9-6	poured	9-2_conj_and	found	VBD	O
+9-7	myself	O	O	PRP	P1_bather
+9-8	a	O	O	DT	O
+9-9	glass	9-6_xcomp	poured	NN	O
+9-10	of	O	O	O	O
+9-11	juice	O	O	NN	P2_in-bath_entertainment
+9-12	.	O	O	O	O
+
+#id=10
+#text=I tied my hair into a ponytail and got a towel and my robe and slippers to put next to the tub for when I was ready to get out . 
+10-1	I	10-2_nsubj	tied	PRP	P1_bather
+10-2	tied	O	O	VBD	O
+10-3	my	O	O	PRP$	P1_bather
+10-4	hair	10-2_dobj	tied	NN	P1_hair
+10-5	into	O	O	O	O
+10-6	a	O	O	DT	O
+10-7	ponytail	10-2_prep_into	tied	NN	P1_NPart_ponytail
+10-8	and	O	O	O	O
+10-9	got	10-2_conj_and	tied	VBD	O
+10-10	a	O	O	DT	O
+10-11	towel	10-9_dobj	got	NN	P1_towel
+10-12	and	O	O	O	O
+10-13	my	O	O	PRP$	P1_bather
+10-14	robe	O	O	NN	P1_clothes
+10-15	and	O	O	O	O
+10-16	slippers	O	O	NNS	P2_clothes
+10-17	to	10-18_aux	put	TO	O
+10-18	put	10-9_vmod	got	VB	O
+10-19	next	O	O	O	O
+10-20	to	O	O	O	O
+10-21	the	O	O	DT	O
+10-22	tub	10-18_prep_next_to	put	NN	P1_bathtub
+10-23	for	O	O	O	O
+10-24	when	O	O	WRB	O
+10-25	I	O	O	PRP	P1_bather
+10-26	was	O	O	VBD	O
+10-27	ready	O	O	JJ	O
+10-28	to	10-29_aux	get	TO	O
+10-29	get	O	O	VB	O
+10-30	out	10-29_prt	get	RP	O
+10-31	.	O	O	O	O
+
+#id=11
+#text=Then I tested the water . 
+11-1	Then	11-3_advmod	tested	RB	O
+11-2	I	11-3_nsubj	tested	PRP	P1_bather
+11-3	tested	O	O	VBD	O
+11-4	the	O	O	DT	O
+11-5	water	11-3_dobj	tested	NN	P1_water
+11-6	.	O	O	O	O
+
+#id=12
+#text=It felt warm but not too hot . 
+12-1	It	12-2_nsubj	felt	PRP	P1_water
+12-2	felt	O	O	VBD	O
+12-3	warm	12-2_acomp	felt	JJ	O
+12-4	but	O	O	O	O
+12-5	not	O	O	RB	O
+12-6	too	O	O	RB	O
+12-7	hot	O	O	JJ	O
+12-8	.	O	O	O	O
+
+#id=13
+#text=I slipped my body under the foam and relaxed . 
+13-1	I	13-2_nsubj	slipped	PRP	P1_bather
+13-2	slipped	O	O	VBD	O
+13-3	my	O	O	PRP$	P1_bather
+13-4	body	13-2_dobj	slipped	NN	P1_body_part
+13-5	under	O	O	O	O
+13-6	the	O	O	DT	O
+13-7	foam	13-2_prep_under	slipped	NN	P1_bath_means
+13-8	and	O	O	O	O
+13-9	relaxed	13-2_conj_and	slipped	VBD	O
+13-10	.	O	O	O	O
+
+#id=14
+#text=I read my magazine and soaked in the lavender bubbles . 
+14-1	I	14-2_nsubj	read	PRP	P1_bather
+14-2	read	O	O	VBD	O
+14-3	my	O	O	PRP$	P1_bather
+14-4	magazine	14-2_dobj	read	NN	P1_in-bath_entertainment
+14-5	and	O	O	O	O
+14-6	soaked	14-2_conj_and	read	VBD	O
+14-7	in	O	O	O	O
+14-8	the	O	O	DT	O
+14-9	lavender	O	O	NN	O
+14-10	bubbles	14-6_prep_in	soaked	NNS	P1_bath_means
+14-11	.	O	O	O	O
+
+#id=15
+#text=When the water started to get too cold , I stood up and grabbed my towel . 
+15-1	When	15-4_advmod	started	WRB	O
+15-2	the	O	O	DT	O
+15-3	water	15-4_nsubj	started	NN	P1_water
+15-4	started	15-11_advcl	stood	VBD	O
+15-5	to	O	O	TO	O
+15-6	get	O	O	VB	O
+15-7	too	O	O	RB	O
+15-8	cold	15-4_xcomp	started	JJ	O
+15-9	,	O	O	O	O
+15-10	I	15-11_nsubj	stood	PRP	P1_bather
+15-11	stood	O	O	VBD	O
+15-12	up	15-11_prt	stood	RP	O
+15-13	and	O	O	O	O
+15-14	grabbed	15-11_conj_and	stood	VBD	O
+15-15	my	O	O	PRP$	P1_bather
+15-16	towel	15-14_dobj	grabbed	NN	P1_towel
+15-17	.	O	O	O	O
+
+#id=16
+#text=I patted myself dry and then put on my robe and slippers . 
+16-1	I	16-2_nsubj	patted	PRP	P1_bather
+16-2	patted	O	O	VBD	O
+16-3	myself	O	O	PRP	P1_bather
+16-4	dry	16-2_xcomp	patted	JJ	O
+16-5	and	O	O	O	O
+16-6	then	16-7_advmod	put	RB	O
+16-7	put	16-2_conj_and	patted	VBD	O
+16-8	on	O	O	O	O
+16-9	my	O	O	PRP$	P1_bather
+16-10	robe	16-7_prep_on	put	NN	P1_clothes
+16-11	and	O	O	O	O
+16-12	slippers	O	O	NNS	P2_clothes
+16-13	.	O	O	O	O
+
+#id=17
+#text=I pulled the drain from the tub and let the water go down . 
+17-1	I	17-2_nsubj	pulled	PRP	P1_bather
+17-2	pulled	O	O	VBD	O
+17-3	the	O	O	DT	O
+17-4	drain	17-2_dobj	pulled	NN	P1_drain
+17-5	from	O	O	O	O
+17-6	the	O	O	DT	O
+17-7	tub	17-2_prep_from	pulled	NN	P1_bathtub
+17-8	and	O	O	O	O
+17-9	let	17-2_conj_and	pulled	VBD	O
+17-10	the	O	O	DT	O
+17-11	water	17-12_nsubj	go	NN	P1_water
+17-12	go	17-9_ccomp	let	VB	O
+17-13	down	17-12_prt	go	RP	O
+17-14	.	O	O	O	O
+
+#id=18
+#text=I felt very relaxed . 
+18-1	I	18-2_nsubj	felt	PRP	P1_bather
+18-2	felt	O	O	VBD	O
+18-3	very	O	O	RB	O
+18-4	relaxed	18-2_acomp	felt	JJ	O
+18-5	.	O	O	O	O

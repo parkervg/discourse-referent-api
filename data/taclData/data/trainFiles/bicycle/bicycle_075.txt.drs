@@ -1,0 +1,418 @@
+#id=1
+#text=This weekend , I planned to go bike riding . 
+1-1	This	O	O	DT	O
+1-2	weekend	1-5_nsubj	planned	NN	P1_NPart_weekend
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	planned	PRP	P1_rider
+1-5	planned	O	O	VBD	O
+1-6	to	1-7_aux	go	TO	O
+1-7	go	1-5_xcomp	planned	VB	O
+1-8	bike	O	O	NN	O
+1-9	riding	1-7_dobj	go	NN	O
+1-10	.	O	O	O	O
+
+#id=2
+#text=I had n't gone in some time and , when I checked my bike beforehand , discovered that one of the tires had gone flat . 
+2-1	I	2-4_nsubj	gone	PRP	P1_rider
+2-2	had	2-4_aux	gone	VBD	O
+2-3	n't	2-4_neg	gone	RB	O
+2-4	gone	O	O	VBN	O
+2-5	in	O	O	O	O
+2-6	some	O	O	DT	O
+2-7	time	2-4_prep_in	gone	NN	P1_NPart_time
+2-8	and	O	O	O	O
+2-9	,	O	O	O	O
+2-10	when	2-12_advmod	checked	WRB	O
+2-11	I	2-12_nsubj	checked	PRP	P1_rider
+2-12	checked	2-4_parataxis	gone	VBD	O
+2-13	my	O	O	PRP$	P1_rider
+2-14	bike	2-12_dobj	checked	NN	P1_bicycle
+2-15	beforehand	2-12_advmod	checked	RB	O
+2-16	,	O	O	O	O
+2-17	discovered	2-4_conj_and	gone	VBN	O
+2-18	that	2-24_mark	gone	IN	O
+2-19	one	2-24_nsubj	gone	CD	O
+2-20	of	O	O	O	O
+2-21	the	O	O	DT	O
+2-22	tires	O	O	NNS	P1_tire
+2-23	had	2-24_aux	gone	VBD	O
+2-24	gone	2-17_ccomp	discovered	VBN	O
+2-25	flat	2-24_acomp	gone	JJ	O
+2-26	.	O	O	O	O
+
+#id=3
+#text=I attempted to pump air back into the tire , first . 
+3-1	I	3-2_nsubj	attempted	PRP	P1_rider
+3-2	attempted	O	O	VBD	O
+3-3	to	3-4_aux	pump	TO	O
+3-4	pump	3-2_xcomp	attempted	VB	O
+3-5	air	3-4_dobj	pump	NN	P1_air
+3-6	back	3-4_prt	pump	RP	O
+3-7	into	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	tire	3-4_prep_into	pump	NN	P1_tire
+3-10	,	O	O	O	O
+3-11	first	3-4_advmod	pump	RB	O
+3-12	.	O	O	O	O
+
+#id=4
+#text=The tire would not hold air , so I knew that I would have to repair the flat tire . 
+4-1	The	O	O	DT	O
+4-2	tire	4-5_nsubj	hold	NN	P1_tire
+4-3	would	4-5_aux	hold	MD	O
+4-4	not	4-5_neg	hold	RB	O
+4-5	hold	O	O	VB	O
+4-6	air	4-5_dobj	hold	NN	P2_air
+4-7	,	O	O	O	O
+4-8	so	4-5_dep	hold	IN	O
+4-9	I	4-10_nsubj	knew	PRP	P1_rider
+4-10	knew	4-5_parataxis	hold	VBD	O
+4-11	that	4-14_mark	have	IN	O
+4-12	I	4-14_nsubj	have	PRP	P1_rider
+4-13	would	4-14_aux	have	MD	O
+4-14	have	4-10_ccomp	knew	VB	O
+4-15	to	4-16_aux	repair	TO	O
+4-16	repair	4-14_xcomp	have	VB	O
+4-17	the	O	O	DT	O
+4-18	flat	O	O	JJ	O
+4-19	tire	4-16_dobj	repair	NN	P1_tire
+4-20	.	O	O	O	O
+
+#id=5
+#text=I turned the bike upside down . 
+5-1	I	5-2_nsubj	turned	PRP	P1_rider
+5-2	turned	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	bike	5-2_dobj	turned	NN	P1_bicycle
+5-5	upside	O	O	RB	O
+5-6	down	5-2_advmod	turned	RB	O
+5-7	.	O	O	O	O
+
+#id=6
+#text=This would help me by giving me better access to the bike tires . 
+6-1	This	6-3_nsubj	help	DT	O
+6-2	would	6-3_aux	help	MD	O
+6-3	help	O	O	VB	O
+6-4	me	6-3_dobj	help	PRP	P1_rider
+6-5	by	O	O	O	O
+6-6	giving	6-3_prepc_by	help	VBG	O
+6-7	me	6-6_iobj	giving	PRP	P1_rider
+6-8	better	O	O	JJR	O
+6-9	access	6-6_dobj	giving	NN	P1_NPart_access
+6-10	to	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	bike	O	O	NN	O
+6-13	tires	O	O	NNS	P1_tire
+6-14	.	O	O	O	O
+
+#id=7
+#text=I found a wrench of appropriate size and used it to take off the bolts that held the tire on the bike . 
+7-1	I	7-2_nsubj	found	PRP	P1_rider
+7-2	found	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	wrench	7-2_dobj	found	NN	P1_tool
+7-5	of	O	O	O	O
+7-6	appropriate	O	O	JJ	O
+7-7	size	O	O	NN	P1_NPart_size
+7-8	and	O	O	O	O
+7-9	used	7-2_conj_and	found	VBD	O
+7-10	it	7-9_dobj	used	PRP	P1_tool
+7-11	to	7-12_aux	take	TO	O
+7-12	take	7-9_xcomp	used	VB	O
+7-13	off	7-12_prt	take	RP	O
+7-14	the	O	O	DT	O
+7-15	bolts	7-12_dobj	take	NNS	P1_bicycle_small_detail
+7-16	that	7-17_nsubj	held	WDT	O
+7-17	held	O	O	VBD	O
+7-18	the	O	O	DT	O
+7-19	tire	7-17_dobj	held	NN	P1_tire
+7-20	on	O	O	O	O
+7-21	the	O	O	DT	O
+7-22	bike	7-17_prep_on	held	NN	P1_bicycle
+7-23	.	O	O	O	O
+
+#id=8
+#text=When I had taken off the bolts , I took the tire off the bike frame . 
+8-1	When	8-4_advmod	taken	WRB	O
+8-2	I	8-4_nsubj	taken	PRP	P1_rider
+8-3	had	8-4_aux	taken	VBD	O
+8-4	taken	8-10_advcl	took	VBN	O
+8-5	off	8-4_prt	taken	RP	O
+8-6	the	O	O	DT	O
+8-7	bolts	8-4_dobj	taken	NNS	P2_bicycle_small_detail
+8-8	,	O	O	O	O
+8-9	I	8-10_nsubj	took	PRP	P1_rider
+8-10	took	O	O	VBD	O
+8-11	the	O	O	DT	O
+8-12	tire	8-10_dobj	took	NN	P1_tire
+8-13	off	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	bike	O	O	NN	O
+8-16	frame	8-10_prep_off	took	NN	P1_rim
+8-17	.	O	O	O	O
+
+#id=9
+#text=Then , I let out the rest of the air out of the bike tire . 
+9-1	Then	9-4_advmod	let	RB	O
+9-2	,	O	O	O	O
+9-3	I	9-4_nsubj	let	PRP	P1_rider
+9-4	let	O	O	VBD	O
+9-5	out	9-4_prt	let	RP	O
+9-6	the	O	O	DT	O
+9-7	rest	9-4_dobj	let	NN	O
+9-8	of	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	air	O	O	NN	P3_air
+9-11	out	O	O	O	O
+9-12	of	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	bike	O	O	NN	O
+9-15	tire	O	O	NN	P1_tire
+9-16	.	O	O	O	O
+
+#id=10
+#text=When the tire was completely flat , I carefully took the rubber tire off the metal bike spoke frame . 
+10-1	When	O	O	WRB	O
+10-2	the	O	O	DT	O
+10-3	tire	O	O	NN	P1_tire
+10-4	was	O	O	VBD	O
+10-5	completely	O	O	RB	O
+10-6	flat	10-10_advcl	took	JJ	O
+10-7	,	O	O	O	O
+10-8	I	10-10_nsubj	took	PRP	P1_rider
+10-9	carefully	10-10_advmod	took	RB	O
+10-10	took	O	O	VBD	O
+10-11	the	O	O	DT	O
+10-12	rubber	O	O	NN	O
+10-13	tire	10-18_nsubj	spoke	NN	P1_tire
+10-14	off	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	metal	O	O	NN	O
+10-17	bike	O	O	NN	O
+10-18	spoke	10-10_ccomp	took	VBD	O
+10-19	frame	10-18_dobj	spoke	NN	P1_rim
+10-20	.	O	O	O	O
+
+#id=11
+#text=The inside of a bike tire is hollow and houses the tire tube . 
+11-1	The	O	O	DT	O
+11-2	inside	O	O	NN	P1_NPart_inside
+11-3	of	O	O	O	O
+11-4	a	O	O	DT	O
+11-5	bike	O	O	NN	O
+11-6	tire	O	O	NN	P1_tire
+11-7	is	O	O	VBZ	O
+11-8	hollow	O	O	JJ	O
+11-9	and	O	O	O	O
+11-10	houses	O	O	VBZ	O
+11-11	the	O	O	DT	O
+11-12	tire	O	O	NN	O
+11-13	tube	11-10_dobj	houses	NN	P1_tire
+11-14	.	O	O	O	O
+
+#id=12
+#text=I knew that the bike tire was probably flat because of a puncture in the bike tube , so I checked that first . 
+12-1	I	12-2_nsubj	knew	PRP	P1_rider
+12-2	knew	O	O	VBD	O
+12-3	that	O	O	IN	O
+12-4	the	O	O	DT	O
+12-5	bike	O	O	NN	O
+12-6	tire	O	O	NN	P1_tire
+12-7	was	O	O	VBD	O
+12-8	probably	O	O	RB	O
+12-9	flat	12-2_ccomp	knew	JJ	O
+12-10	because	O	O	O	O
+12-11	of	O	O	O	O
+12-12	a	O	O	DT	O
+12-13	puncture	O	O	NN	P1_damage
+12-14	in	O	O	O	O
+12-15	the	O	O	DT	O
+12-16	bike	O	O	NN	O
+12-17	tube	O	O	NN	P2_tire
+12-18	,	O	O	O	O
+12-19	so	12-2_dep	knew	IN	O
+12-20	I	12-21_nsubj	checked	PRP	P1_rider
+12-21	checked	12-2_parataxis	knew	VBD	O
+12-22	that	O	O	DT	O
+12-23	first	12-21_dobj	checked	JJ	O
+12-24	.	O	O	O	O
+
+#id=13
+#text=Sure enough , there was a large hole in my bike tire tube . 
+13-1	Sure	O	O	RB	O
+13-2	enough	13-5_advmod	was	RB	O
+13-3	,	O	O	O	O
+13-4	there	13-5_expl	was	EX	O
+13-5	was	O	O	VBD	O
+13-6	a	O	O	DT	O
+13-7	large	O	O	JJ	O
+13-8	hole	13-5_nsubj	was	NN	P1_damage
+13-9	in	O	O	O	O
+13-10	my	O	O	PRP$	P1_rider
+13-11	bike	O	O	NN	O
+13-12	tire	O	O	NN	O
+13-13	tube	O	O	NN	P2_tire
+13-14	.	O	O	O	O
+
+#id=14
+#text=This tube would not hold air . 
+14-1	This	O	O	DT	O
+14-2	tube	14-5_nsubj	hold	NN	P2_tire
+14-3	would	14-5_aux	hold	MD	O
+14-4	not	14-5_neg	hold	RB	O
+14-5	hold	O	O	VB	O
+14-6	air	14-5_dobj	hold	NN	P4_air
+14-7	.	O	O	O	O
+
+#id=15
+#text=I had a small bike tire repair kit in my garage and went to get it . 
+15-1	I	15-2_nsubj	had	PRP	P1_rider
+15-2	had	O	O	VBD	O
+15-3	a	O	O	DT	O
+15-4	small	O	O	JJ	O
+15-5	bike	O	O	NN	P2_bicycle
+15-6	tire	O	O	NN	P3_tire
+15-7	repair	O	O	NN	O
+15-8	kit	15-2_dobj	had	NN	P2_tool
+15-9	in	O	O	O	O
+15-10	my	O	O	PRP$	P1_rider
+15-11	garage	O	O	NN	P1_NPart_garage
+15-12	and	O	O	O	O
+15-13	went	15-2_conj_and	had	VBD	O
+15-14	to	15-15_aux	get	TO	O
+15-15	get	15-13_xcomp	went	VB	O
+15-16	it	15-15_dobj	get	PRP	P2_tool
+15-17	.	O	O	O	O
+
+#id=16
+#text=I returned with it and took out the rubber patch that I would use to repair the tube . 
+16-1	I	16-2_nsubj	returned	PRP	P1_rider
+16-2	returned	O	O	VBD	O
+16-3	with	O	O	O	O
+16-4	it	16-2_prep_with	returned	PRP	P3_tool
+16-5	and	O	O	O	O
+16-6	took	16-2_conj_and	returned	VBD	O
+16-7	out	16-6_prt	took	RP	O
+16-8	the	O	O	DT	O
+16-9	rubber	O	O	NN	O
+16-10	patch	16-6_dobj	took	NN	P1_patch
+16-11	that	16-14_mark	use	IN	O
+16-12	I	16-14_nsubj	use	PRP	P1_rider
+16-13	would	16-14_aux	use	MD	O
+16-14	use	16-2_ccomp	returned	VB	O
+16-15	to	16-16_aux	repair	TO	O
+16-16	repair	16-14_xcomp	use	VB	O
+16-17	the	O	O	DT	O
+16-18	tube	16-16_dobj	repair	NN	P2_tire
+16-19	.	O	O	O	O
+
+#id=17
+#text=I prepared the tube and then applied a rubber patch to the puncture with a bit of glue . 
+17-1	I	17-2_nsubj	prepared	PRP	P1_rider
+17-2	prepared	O	O	VBD	O
+17-3	the	O	O	DT	O
+17-4	tube	17-2_dobj	prepared	NN	P2_tire
+17-5	and	O	O	O	O
+17-6	then	17-7_advmod	applied	RB	O
+17-7	applied	17-2_conj_and	prepared	VBD	O
+17-8	a	O	O	DT	O
+17-9	rubber	O	O	NN	O
+17-10	patch	17-7_dobj	applied	NN	P1_patch
+17-11	to	O	O	O	O
+17-12	the	O	O	DT	O
+17-13	puncture	17-7_prep_to	applied	NN	P1_damage
+17-14	with	O	O	O	O
+17-15	a	O	O	DT	O
+17-16	bit	O	O	NN	O
+17-17	of	O	O	O	O
+17-18	glue	O	O	NN	P4_tool
+17-19	.	O	O	O	O
+
+#id=18
+#text=I then tested the bike tire tube and found that the patch was working . 
+18-1	I	18-3_nsubj	tested	PRP	P1_rider
+18-2	then	18-3_advmod	tested	RB	O
+18-3	tested	O	O	VBD	O
+18-4	the	O	O	DT	O
+18-5	bike	O	O	NN	O
+18-6	tire	O	O	NN	O
+18-7	tube	18-3_dobj	tested	NN	P2_tire
+18-8	and	O	O	O	O
+18-9	found	18-3_conj_and	tested	VBD	O
+18-10	that	18-14_mark	working	IN	O
+18-11	the	O	O	DT	O
+18-12	patch	18-14_nsubj	working	NN	P2_patch
+18-13	was	18-14_aux	working	VBD	O
+18-14	working	18-9_ccomp	found	VBG	O
+18-15	.	O	O	O	O
+
+#id=19
+#text=So , I replaced the tube and the outer tire on the metal spokes . 
+19-1	So	19-4_advmod	replaced	RB	O
+19-2	,	O	O	O	O
+19-3	I	19-4_nsubj	replaced	PRP	P1_rider
+19-4	replaced	O	O	VBD	O
+19-5	the	O	O	DT	O
+19-6	tube	19-4_dobj	replaced	NN	P2_tire
+19-7	and	O	O	O	O
+19-8	the	O	O	DT	O
+19-9	outer	O	O	JJ	O
+19-10	tire	O	O	NN	P2_tire
+19-11	on	O	O	O	O
+19-12	the	O	O	DT	O
+19-13	metal	O	O	NN	O
+19-14	spokes	19-4_prep_on	replaced	NNS	P3_bicycle_small_detail
+19-15	.	O	O	O	O
+
+#id=20
+#text=Then , I put the tire back on the bike frame and tightened the bolts that would hold it there . 
+20-1	Then	20-4_advmod	put	RB	O
+20-2	,	O	O	O	O
+20-3	I	20-4_nsubj	put	PRP	P1_rider
+20-4	put	O	O	VBD	O
+20-5	the	O	O	DT	O
+20-6	tire	20-4_dobj	put	NN	P2_tire
+20-7	back	20-4_prt	put	RP	O
+20-8	on	O	O	O	O
+20-9	the	O	O	DT	O
+20-10	bike	O	O	NN	O
+20-11	frame	20-4_prep_on	put	NN	P2_rim
+20-12	and	O	O	O	O
+20-13	tightened	20-4_conj_and	put	VBD	O
+20-14	the	O	O	DT	O
+20-15	bolts	20-13_dobj	tightened	NNS	P4_bicycle_small_detail
+20-16	that	20-18_nsubj	hold	WDT	O
+20-17	would	20-18_aux	hold	MD	O
+20-18	hold	O	O	VB	O
+20-19	it	20-18_dobj	hold	PRP	P2_tire
+20-20	there	20-18_advmod	hold	RB	O
+20-21	.	O	O	O	O
+
+#id=21
+#text=Finally , I put the bike right-side up and filled the tire with air . 
+21-1	Finally	21-4_advmod	put	RB	O
+21-2	,	O	O	O	O
+21-3	I	21-4_nsubj	put	PRP	P1_rider
+21-4	put	O	O	VBP	O
+21-5	the	O	O	DT	O
+21-6	bike	O	O	NN	P3_bicycle
+21-7	right-side	21-4_dobj	put	NN	O
+21-8	up	21-4_prt	put	RP	O
+21-9	and	O	O	O	O
+21-10	filled	21-4_conj_and	put	VBD	O
+21-11	the	O	O	DT	O
+21-12	tire	21-10_dobj	filled	NN	P2_tire
+21-13	with	O	O	O	O
+21-14	air	21-10_prep_with	filled	NN	P5_air
+21-15	.	O	O	O	O
+
+#id=22
+#text=I knew this weekend would be fun . 
+22-1	I	22-2_nsubj	knew	PRP	P1_rider
+22-2	knew	O	O	VBD	O
+22-3	this	O	O	DT	O
+22-4	weekend	O	O	NN	P2_NPart_weekend
+22-5	would	O	O	MD	O
+22-6	be	O	O	VB	O
+22-7	fun	22-2_ccomp	knew	NN	O
+22-8	.	O	O	O	O

@@ -1,0 +1,532 @@
+#id=1
+#text='' `` Planting A Tree '' '' Jenny and her Grandpa decided that early spring was a wonderful time to plant a new tree in the front yard . '' '' 
+1-1	''	O	O	O	O
+1-2	``	O	O	O	O
+1-3	Planting	O	O	NNP	O
+1-4	A	O	O	DT	O
+1-5	Tree	O	O	NN	P1_tree
+1-6	''	O	O	O	O
+1-7	''	O	O	O	O
+1-8	Jenny	O	O	NNP	O
+1-9	and	O	O	CC	O
+1-10	her	O	O	PRP$	O
+1-11	Grandpa	O	O	NN	P1_gardener
+1-12	decided	O	O	RB	O
+1-13	that	O	O	DT	O
+1-14	early	O	O	JJ	O
+1-15	spring	O	O	NN	P1_time
+1-16	was	O	O	VBD	O
+1-17	a	O	O	DT	O
+1-18	wonderful	O	O	JJ	O
+1-19	time	O	O	NN	P2_time
+1-20	to	1-21_aux	plant	TO	O
+1-21	plant	O	O	VB	O
+1-22	a	O	O	DT	O
+1-23	new	O	O	JJ	O
+1-24	tree	1-21_dobj	plant	NN	P1_tree
+1-25	in	O	O	O	O
+1-26	the	O	O	DT	O
+1-27	front	O	O	JJ	O
+1-28	yard	1-21_prep_in	plant	NN	P1_NPart_yard
+1-29	.	O	O	O	O
+1-30	''	O	O	O	O
+1-31	''	O	O	O	O
+
+#id=2
+#text=What kind of tree will we plant Grandpa ? '' '' 
+2-1	What	O	O	WDT	O
+2-2	kind	2-7_dep	plant	NN	O
+2-3	of	O	O	O	O
+2-4	tree	O	O	NN	P1_tree
+2-5	will	2-7_aux	plant	MD	O
+2-6	we	2-7_nsubj	plant	PRP	P1_gardener
+2-7	plant	O	O	VB	O
+2-8	Grandpa	2-7_dobj	plant	NNP	P1_gardener
+2-9	?	O	O	O	O
+2-10	''	O	O	O	O
+2-11	''	O	O	O	O
+
+#id=3
+#text=Jenny asked . 
+3-1	Jenny	3-2_nsubj	asked	NNP	P1_gardener
+3-2	asked	O	O	VBD	O
+3-3	.	O	O	O	O
+
+#id=4
+#text=Grandpa scratched his head . '' '' 
+4-1	Grandpa	4-2_nsubj	scratched	NNP	P1_gardener
+4-2	scratched	O	O	VBZ	O
+4-3	his	O	O	PRP$	P1_gardener
+4-4	head	4-2_dobj	scratched	NN	P1_NPart_head
+4-5	.	O	O	O	O
+4-6	''	O	O	O	O
+4-7	''	O	O	O	O
+
+#id=5
+#text=Hmmmm I do n't know Jenny '' '' he replied . '' 
+5-1	Hmmmm	5-5_advmod	know	RB	O
+5-2	I	5-5_nsubj	know	PRP	P1_gardener
+5-3	do	5-5_aux	know	VBP	O
+5-4	n't	5-5_neg	know	RB	O
+5-5	know	O	O	VB	O
+5-6	Jenny	5-5_dobj	know	NN	P1_gardener
+5-7	''	O	O	O	O
+5-8	''	O	O	O	O
+5-9	he	5-10_nsubj	replied	PRP	P1_gardener
+5-10	replied	O	O	VBD	O
+5-11	.	O	O	O	O
+5-12	''	O	O	O	O
+
+#id=6
+#text=`` We need to decide what we will want the tree for . '' '' 
+6-1	``	O	O	O	O
+6-2	We	6-3_nsubj	need	PRP	P1_gardener
+6-3	need	O	O	VBP	O
+6-4	to	6-5_aux	decide	TO	O
+6-5	decide	6-3_xcomp	need	VB	O
+6-6	what	6-9_prep_for	want	WP	O
+6-7	we	6-9_nsubj	want	PRP	P1_gardener
+6-8	will	6-9_aux	want	MD	O
+6-9	want	6-5_ccomp	decide	VB	O
+6-10	the	O	O	DT	O
+6-11	tree	6-9_dobj	want	NN	P1_tree
+6-12	for	O	O	O	O
+6-13	.	O	O	O	O
+6-14	''	O	O	O	O
+6-15	''	O	O	O	O
+
+#id=7
+#text=Jenny tilted her small head and asked '' `` What do you mean Grandpa ? 
+7-1	Jenny	O	O	VB	P1_gardener
+7-2	tilted	7-1_dep	Jenny	VBN	O
+7-3	her	O	O	PRP$	P1_gardener
+7-4	small	O	O	JJ	O
+7-5	head	7-2_dobj	tilted	NN	P2_NPart_head
+7-6	and	O	O	O	O
+7-7	asked	7-2_conj_and	tilted	VBN	O
+7-8	''	O	O	O	O
+7-9	``	O	O	O	O
+7-10	What	7-13_dep	mean	WP	O
+7-11	do	7-13_aux	mean	VBP	O
+7-12	you	7-13_nsubj	mean	PRP	P1_gardener
+7-13	mean	7-2_parataxis	tilted	VB	O
+7-14	Grandpa	7-13_dobj	mean	NNP	P1_gardener
+7-15	?	O	O	O	O
+
+#id=8
+#text=What can trees do ? '' '' 
+8-1	What	8-4_dobj	do	WP	O
+8-2	can	8-4_aux	do	MD	O
+8-3	trees	8-4_nsubj	do	NNS	P1_tree
+8-4	do	O	O	VB	O
+8-5	?	O	O	O	O
+8-6	''	O	O	O	O
+8-7	''	O	O	O	O
+
+#id=9
+#text=Trees can do many things , provide shade , flowers or food just to name a few . 
+9-1	Trees	9-3_nsubj	do	NNP	P1_tree
+9-2	can	9-3_aux	do	MD	O
+9-3	do	O	O	VB	O
+9-4	many	O	O	JJ	O
+9-5	things	9-3_dobj	do	NNS	P1_NPart_things
+9-6	,	O	O	O	O
+9-7	provide	9-3_dep	do	VB	O
+9-8	shade	9-7_dobj	provide	NN	P1_NPart_shade
+9-9	,	O	O	O	O
+9-10	flowers	O	O	NNS	P1_NPart_flowers
+9-11	or	O	O	O	O
+9-12	food	O	O	NN	P1_NPart_food
+9-13	just	9-7_advmod	provide	RB	O
+9-14	to	9-15_aux	name	TO	O
+9-15	name	9-7_vmod	provide	VB	O
+9-16	a	O	O	DT	O
+9-17	few	9-15_dobj	name	JJ	O
+9-18	.	O	O	O	O
+
+#id=10
+#text=things . '' '' 
+10-1	things	O	O	O	O
+10-2	.	O	O	O	O
+10-3	''	O	O	O	O
+10-4	''	O	O	O	O
+
+#id=11
+#text=They decided to take a ride to a plant nursery to look at all the small young trees . 
+11-1	They	11-2_nsubj	decided	PRP	P1_gardener
+11-2	decided	O	O	VBD	O
+11-3	to	11-4_aux	take	TO	O
+11-4	take	11-2_xcomp	decided	VB	O
+11-5	a	O	O	DT	O
+11-6	ride	11-4_dobj	take	NN	P1_NPart_ride
+11-7	to	O	O	O	O
+11-8	a	O	O	DT	O
+11-9	plant	O	O	NN	O
+11-10	nursery	11-4_prep_to	take	NN	P1_shop
+11-11	to	11-12_aux	look	TO	O
+11-12	look	11-4_vmod	take	VB	O
+11-13	at	O	O	O	O
+11-14	all	O	O	PDT	O
+11-15	the	O	O	DT	O
+11-16	small	O	O	JJ	O
+11-17	young	O	O	JJ	O
+11-18	trees	11-12_prep_at	look	NNS	P1_tree
+11-19	.	O	O	O	O
+
+#id=12
+#text=Grandpa did not want the pine tree . 
+12-1	Grandpa	12-4_nsubj	want	NNP	P1_gardener
+12-2	did	12-4_aux	want	VBD	O
+12-3	not	12-4_neg	want	RB	O
+12-4	want	O	O	VB	O
+12-5	the	O	O	DT	O
+12-6	pine	O	O	JJ	O
+12-7	tree	12-4_dobj	want	NN	P1_tree
+12-8	.	O	O	O	O
+
+#id=13
+#text=Even though it would stay green all year . 
+13-1	Even	13-5_advmod	stay	RB	O
+13-2	though	13-5_mark	stay	IN	O
+13-3	it	13-5_nsubj	stay	PRP	P1_tree
+13-4	would	13-5_aux	stay	MD	O
+13-5	stay	O	O	VB	O
+13-6	green	13-5_acomp	stay	JJ	O
+13-7	all	O	O	DT	O
+13-8	year	13-5_tmod	stay	NN	P1_NPart_year
+13-9	.	O	O	O	O
+
+#id=14
+#text=He did not want the Lilac tree even though the flowers would smell so pretty in each spring . 
+14-1	He	14-4_nsubj	want	PRP	P1_gardener
+14-2	did	14-4_aux	want	VBD	O
+14-3	not	14-4_neg	want	RB	O
+14-4	want	O	O	VB	O
+14-5	the	O	O	DT	O
+14-6	Lilac	O	O	JJ	O
+14-7	tree	14-4_dobj	want	NN	P1_tree
+14-8	even	14-13_advmod	smell	RB	O
+14-9	though	14-13_mark	smell	IN	O
+14-10	the	O	O	DT	O
+14-11	flowers	14-13_nsubj	smell	NNS	P2_NPart_flowers
+14-12	would	14-13_aux	smell	MD	O
+14-13	smell	14-4_advcl	want	VB	O
+14-14	so	O	O	RB	O
+14-15	pretty	14-13_advmod	smell	RB	O
+14-16	in	O	O	O	O
+14-17	each	O	O	DT	O
+14-18	spring	14-13_prep_in	smell	NN	P1_NPart_spring
+14-19	.	O	O	O	O
+
+#id=15
+#text=Instead he picked a nice sized apple tree . 
+15-1	Instead	15-3_advmod	picked	RB	O
+15-2	he	15-3_nsubj	picked	PRP	P1_gardener
+15-3	picked	O	O	VBD	O
+15-4	a	O	O	DT	O
+15-5	nice	O	O	JJ	O
+15-6	sized	O	O	JJ	O
+15-7	apple	O	O	NN	O
+15-8	tree	15-3_dobj	picked	NN	P1_tree
+15-9	.	O	O	O	O
+
+#id=16
+#text=Jenny bounced with excitement . '' 
+16-1	Jenny	16-2_nsubj	bounced	NNP	P1_gardener
+16-2	bounced	O	O	VBD	O
+16-3	with	O	O	O	O
+16-4	excitement	16-2_prep_with	bounced	NN	P1_NPart_excitement
+16-5	.	O	O	O	O
+16-6	''	O	O	O	O
+
+#id=17
+#text=`` Grandpa we can pick apples soon ? '' '' 
+17-1	``	O	O	O	O
+17-2	Grandpa	17-5_nsubj	pick	NNP	P1_gardener
+17-3	we	O	O	PRP	P1_gardener
+17-4	can	17-5_aux	pick	MD	O
+17-5	pick	O	O	VB	O
+17-6	apples	17-5_dobj	pick	NNS	P1_NPart_apples
+17-7	soon	17-5_advmod	pick	RB	O
+17-8	?	O	O	O	O
+17-9	''	O	O	O	O
+17-10	''	O	O	O	O
+
+#id=18
+#text=she exclaimed . '' 
+18-1	she	18-2_nsubj	exclaimed	PRP	P1_gardener
+18-2	exclaimed	O	O	VBD	O
+18-3	.	O	O	O	O
+18-4	''	O	O	O	O
+
+#id=19
+#text=`` Someday he said smiling down at her . 
+19-1	``	O	O	O	O
+19-2	Someday	19-4_advmod	said	RB	O
+19-3	he	19-4_nsubj	said	PRP	P1_gardener
+19-4	said	O	O	VBD	O
+19-5	smiling	19-4_xcomp	said	VBG	O
+19-6	down	19-5_prt	smiling	RP	O
+19-7	at	O	O	O	O
+19-8	her	19-5_prep_at	smiling	PRP	P1_gardener
+19-9	.	O	O	O	O
+
+#id=20
+#text=Grandpa brought the tree to the cashier and paid the fee for their tree and carefully loaded it into the back of his truck . 
+20-1	Grandpa	20-2_nsubj	brought	NNP	P1_gardener
+20-2	brought	O	O	VBD	O
+20-3	the	O	O	DT	O
+20-4	tree	20-2_dobj	brought	NN	P1_tree
+20-5	to	O	O	O	O
+20-6	the	O	O	DT	O
+20-7	cashier	20-2_prep_to	brought	NN	P1_staff
+20-8	and	O	O	O	O
+20-9	paid	20-2_conj_and	brought	VBD	O
+20-10	the	O	O	DT	O
+20-11	fee	20-9_dobj	paid	NN	P1_NPart_fee
+20-12	for	O	O	O	O
+20-13	their	O	O	PRP$	P1_gardener
+20-14	tree	20-9_prep_for	paid	NN	P1_tree
+20-15	and	O	O	O	O
+20-16	carefully	20-17_advmod	loaded	RB	O
+20-17	loaded	20-9_conj_and	paid	VBD	O
+20-18	it	20-17_dobj	loaded	PRP	P1_tree
+20-19	into	O	O	O	O
+20-20	the	O	O	DT	O
+20-21	back	20-17_prep_into	loaded	NN	P1_NPart_back
+20-22	of	O	O	O	O
+20-23	his	O	O	PRP$	P1_gardener
+20-24	truck	O	O	NN	P1_NPart_truck
+20-25	.	O	O	O	O
+
+#id=21
+#text=At home grandpa got the tools they would need from his little gardening shed . 
+21-1	At	O	O	O	O
+21-2	home	O	O	NN	P1_NPart_home
+21-3	grandpa	21-9_prep_at	need	NN	P1_gardener
+21-4	got	O	O	VBN	O
+21-5	the	O	O	DT	O
+21-6	tools	21-4_dobj	got	NNS	P1_gardening_tool
+21-7	they	21-9_nsubj	need	PRP	P1_gardener
+21-8	would	21-9_aux	need	MD	O
+21-9	need	O	O	VB	O
+21-10	from	O	O	O	O
+21-11	his	O	O	PRP$	P1_gardener
+21-12	little	O	O	JJ	O
+21-13	gardening	21-9_prep_from	need	NN	O
+21-14	shed	O	O	VBN	P1_NPart_shed
+21-15	.	O	O	O	O
+
+#id=22
+#text=A hose , watering can , shovel , two pairs of gardening gloves and a tiny shovel just right for Jenny 's helping hands . 
+22-1	A	O	O	DT	O
+22-2	hose	O	O	NN	P1_gardening_tool
+22-3	,	O	O	O	O
+22-4	watering	O	O	NN	O
+22-5	can	O	O	NN	P1_gardening_tool
+22-6	,	O	O	O	O
+22-7	shovel	O	O	NN	P1_gardening_tool
+22-8	,	O	O	O	O
+22-9	two	O	O	CD	O
+22-10	pairs	O	O	NNS	O
+22-11	of	O	O	O	O
+22-12	gardening	O	O	VBG	O
+22-13	gloves	O	O	NNS	P1_gardening_tool
+22-14	and	O	O	O	O
+22-15	a	O	O	DT	O
+22-16	tiny	O	O	JJ	O
+22-17	shovel	O	O	NN	P1_gardening_tool
+22-18	just	O	O	RB	O
+22-19	right	O	O	RB	O
+22-20	for	O	O	O	O
+22-21	Jenny	O	O	NNP	P1_gardener
+22-22	's	O	O	O	O
+22-23	helping	O	O	VBG	O
+22-24	hands	O	O	NNS	P1_NPart_hands
+22-25	.	O	O	O	O
+
+#id=23
+#text=After putting on their gardening gloves together they dug a hole five times larger than the root ball of the tree they had paid for at the nursery . 
+23-1	After	O	O	O	O
+23-2	putting	23-9_prepc_after	dug	VBG	O
+23-3	on	23-2_prt	putting	RP	O
+23-4	their	O	O	PRP$	P1_gardener
+23-5	gardening	O	O	NN	O
+23-6	gloves	23-2_dobj	putting	NNS	P1_gardening_tool
+23-7	together	23-2_advmod	putting	RB	O
+23-8	they	23-9_nsubj	dug	PRP	P1_gardener
+23-9	dug	O	O	VBD	O
+23-10	a	O	O	DT	O
+23-11	hole	23-9_dobj	dug	NN	P1_hole
+23-12	five	O	O	CD	O
+23-13	times	O	O	NNS	P1_NPart_times
+23-14	larger	O	O	JJR	O
+23-15	than	O	O	O	O
+23-16	the	O	O	DT	O
+23-17	root	O	O	NN	O
+23-18	ball	23-9_prep_than	dug	NN	P1_root
+23-19	of	O	O	O	O
+23-20	the	O	O	DT	O
+23-21	tree	O	O	NN	P1_tree
+23-22	they	23-24_nsubj	paid	PRP	P1_gardener
+23-23	had	23-24_aux	paid	VBD	O
+23-24	paid	23-9_dep	dug	VBN	O
+23-25	for	23-24_prep	paid	IN	O
+23-26	at	O	O	IN	O
+23-27	the	O	O	DT	O
+23-28	nursery	O	O	NN	P1_shop
+23-29	.	O	O	O	O
+
+#id=24
+#text=Grandpa gently turned the small tree upside down to remove it from the pot it had been growing in . 
+24-1	Grandpa	24-3_nsubj	turned	NNP	P1_gardener
+24-2	gently	24-3_advmod	turned	RB	O
+24-3	turned	O	O	VBD	O
+24-4	the	O	O	DT	O
+24-5	small	O	O	JJ	O
+24-6	tree	24-3_dobj	turned	NN	P1_tree
+24-7	upside	O	O	RB	O
+24-8	down	24-3_advmod	turned	RB	O
+24-9	to	24-10_aux	remove	TO	O
+24-10	remove	O	O	VB	O
+24-11	it	24-10_dobj	remove	PRP	P1_tree
+24-12	from	O	O	O	O
+24-13	the	O	O	DT	O
+24-14	pot	24-10_prep_from	remove	NN	P1_wrapping
+24-15	it	24-18_nsubj	growing	PRP	P1_tree
+24-16	had	24-18_aux	growing	VBD	O
+24-17	been	24-18_aux	growing	VBN	O
+24-18	growing	O	O	VBG	O
+24-19	in	24-18_prt	growing	RP	O
+24-20	.	O	O	O	O
+
+#id=25
+#text=He told Jenny it was important to now plant the small tree right away so it 's tender rooms did not dry out . 
+25-1	He	25-2_nsubj	told	PRP	P1_gardener
+25-2	told	O	O	VBD	O
+25-3	Jenny	25-2_dobj	told	NNP	P1_gardener
+25-4	it	O	O	PRP	O
+25-5	was	O	O	VBD	O
+25-6	important	O	O	JJ	O
+25-7	to	25-9_aux	plant	TO	O
+25-8	now	25-9_advmod	plant	RB	O
+25-9	plant	O	O	VB	O
+25-10	the	O	O	DT	O
+25-11	small	O	O	JJ	O
+25-12	tree	25-9_dobj	plant	NN	P1_tree
+25-13	right	O	O	RB	O
+25-14	away	25-9_advmod	plant	RB	O
+25-15	so	25-22_mark	dry	IN	O
+25-16	it	O	O	PRP	O
+25-17	's	O	O	O	O
+25-18	tender	O	O	NN	O
+25-19	rooms	25-22_nsubj	dry	NNS	P1_root
+25-20	did	25-22_aux	dry	VBD	O
+25-21	not	25-22_neg	dry	RB	O
+25-22	dry	25-9_advcl	plant	VB	O
+25-23	out	25-22_prt	dry	RP	O
+25-24	.	O	O	O	O
+
+#id=26
+#text=He placed the roots into the hole they has dug and made sure the top of the root ball was level with the ground and that they tree was standing straight and tall . 
+26-1	He	26-2_nsubj	placed	PRP	P1_gardener
+26-2	placed	O	O	VBD	O
+26-3	the	O	O	DT	O
+26-4	roots	26-2_dobj	placed	NNS	P1_root
+26-5	into	O	O	O	O
+26-6	the	O	O	DT	O
+26-7	hole	26-2_prep_into	placed	NN	P1_hole
+26-8	they	26-10_nsubj	dug	PRP	P1_gardener
+26-9	has	26-10_aux	dug	VBZ	O
+26-10	dug	26-2_ccomp	placed	VBD	O
+26-11	and	O	O	O	O
+26-12	made	26-10_conj_and	dug	VBD	O
+26-13	sure	26-12_acomp	made	JJ	O
+26-14	the	O	O	DT	O
+26-15	top	O	O	NN	P1_NPart_top
+26-16	of	O	O	O	O
+26-17	the	O	O	DT	O
+26-18	root	O	O	NN	O
+26-19	ball	O	O	NN	P1_root
+26-20	was	O	O	VBD	O
+26-21	level	O	O	NN	P1_NPart_level
+26-22	with	O	O	O	O
+26-23	the	O	O	DT	O
+26-24	ground	O	O	NN	P1_NPart_ground
+26-25	and	O	O	O	O
+26-26	that	26-30_mark	standing	IN	O
+26-27	they	26-30_nsubj	standing	PRP	P1_gardener
+26-28	tree	26-30_advmod	standing	RB	P1_tree
+26-29	was	26-30_aux	standing	VBD	O
+26-30	standing	26-10_conj_and	dug	VBG	O
+26-31	straight	26-30_acomp	standing	JJ	O
+26-32	and	O	O	O	O
+26-33	tall	O	O	JJ	O
+26-34	.	O	O	O	O
+
+#id=27
+#text=Together they filled in the rest of the hole around the trees roots . 
+27-1	Together	27-3_advmod	filled	RB	O
+27-2	they	27-3_nsubj	filled	PRP	P1_gardener
+27-3	filled	O	O	VBD	O
+27-4	in	O	O	O	O
+27-5	the	O	O	DT	O
+27-6	rest	27-3_prep_in	filled	NN	O
+27-7	of	O	O	O	O
+27-8	the	O	O	DT	O
+27-9	hole	O	O	NN	P1_hole
+27-10	around	O	O	O	O
+27-11	the	O	O	DT	O
+27-12	trees	O	O	NNS	P1_tree
+27-13	roots	27-3_prep_around	filled	NNS	P1_root
+27-14	.	O	O	O	O
+
+#id=28
+#text=Jenny helped grandpa filled the watering can with water from the hose and she watched proudly as grandpa watered their newly planted apple tree . 
+28-1	Jenny	28-2_nsubj	helped	NNP	P1_gardener
+28-2	helped	O	O	VBD	O
+28-3	grandpa	28-4_nsubj	filled	NN	P1_gardener
+28-4	filled	28-2_ccomp	helped	VBD	O
+28-5	the	O	O	DT	O
+28-6	watering	O	O	NN	O
+28-7	can	28-4_dobj	filled	NN	P1_gardening_tool
+28-8	with	O	O	O	O
+28-9	water	28-4_prep_with	filled	NN	P1_water
+28-10	from	O	O	O	O
+28-11	the	O	O	DT	O
+28-12	hose	28-4_prep_from	filled	NN	P1_gardening_tool
+28-13	and	O	O	O	O
+28-14	she	28-15_nsubj	watched	PRP	P1_gardener
+28-15	watched	28-2_conj_and	helped	VBD	O
+28-16	proudly	28-15_advmod	watched	RB	O
+28-17	as	28-19_mark	watered	IN	O
+28-18	grandpa	28-19_nsubj	watered	NN	P1_gardener
+28-19	watered	28-15_advcl	watched	VBD	O
+28-20	their	O	O	PRP$	P1_gardener
+28-21	newly	O	O	RB	O
+28-22	planted	O	O	JJ	O
+28-23	apple	O	O	NN	O
+28-24	tree	28-19_dobj	watered	NN	P1_tree
+28-25	.	O	O	O	O
+
+#id=29
+#text=Jenny was full of pride watching the small young trees leave blowing in the cool early spring breeze . 
+29-1	Jenny	O	O	NNP	P1_gardener
+29-2	was	O	O	VBD	O
+29-3	full	O	O	JJ	O
+29-4	of	O	O	O	O
+29-5	pride	O	O	NN	P1_NPart_pride
+29-6	watching	O	O	VBG	O
+29-7	the	O	O	DT	O
+29-8	small	O	O	JJ	O
+29-9	young	O	O	JJ	O
+29-10	trees	O	O	NNS	P1_tree
+29-11	leave	29-6_dobj	watching	NN	O
+29-12	blowing	O	O	VBG	O
+29-13	in	O	O	O	O
+29-14	the	O	O	DT	O
+29-15	cool	O	O	JJ	O
+29-16	early	O	O	JJ	O
+29-17	spring	O	O	NN	O
+29-18	breeze	29-12_prep_in	blowing	NN	P1_NPart_breeze
+29-19	.	O	O	O	O

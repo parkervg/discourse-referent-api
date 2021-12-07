@@ -1,0 +1,230 @@
+#id=1
+#text=My sons and I were invited by their grandmother to come for a visit . 
+1-1	My	O	O	PRP$	O
+1-2	sons	1-6_nsubjpass	invited	NNS	O
+1-3	and	O	O	O	O
+1-4	I	O	O	PRP	P1_passenger
+1-5	were	1-6_auxpass	invited	VBD	O
+1-6	invited	O	O	VBN	O
+1-7	by	O	O	O	O
+1-8	their	O	O	PRP$	P2_passenger
+1-9	grandmother	1-6_agent	invited	NN	P1_accomp_person
+1-10	to	1-11_aux	come	TO	O
+1-11	come	O	O	VB	O
+1-12	for	O	O	O	O
+1-13	a	O	O	DT	O
+1-14	visit	1-11_prep_for	come	NN	P1_NPart_visit
+1-15	.	O	O	O	O
+
+#id=2
+#text=We decided to fly across the country . 
+2-1	We	2-2_nsubj	decided	PRP	P1_passenger
+2-2	decided	O	O	VBD	O
+2-3	to	2-4_aux	fly	TO	O
+2-4	fly	2-2_xcomp	decided	VB	O
+2-5	across	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	country	2-4_prep_across	fly	NN	P1_NPart_country
+2-8	.	O	O	O	O
+
+#id=3
+#text=We went to the airport and purchased plane tickets . 
+3-1	We	3-2_nsubj	went	PRP	P1_passenger
+3-2	went	O	O	VBD	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	airport	3-2_prep_to	went	NN	P1_airport
+3-6	and	O	O	O	O
+3-7	purchased	3-2_conj_and	went	VBD	O
+3-8	plane	O	O	NN	O
+3-9	tickets	3-7_dobj	purchased	NNS	P1_ticket
+3-10	.	O	O	O	O
+
+#id=4
+#text=Then we went home and packed our suitcases . 
+4-1	Then	4-3_advmod	went	RB	O
+4-2	we	4-3_nsubj	went	PRP	P1_passenger
+4-3	went	O	O	VBD	O
+4-4	home	4-3_dobj	went	NN	O
+4-5	and	O	O	O	O
+4-6	packed	4-3_conj_and	went	VBD	O
+4-7	our	O	O	PRP$	P1_passenger
+4-8	suitcases	4-6_dobj	packed	NNS	P1_check_in_luggage
+4-9	.	O	O	O	O
+
+#id=5
+#text=The next day we took a cab to the airport and hour early . 
+5-1	The	O	O	DT	O
+5-2	next	O	O	JJ	O
+5-3	day	5-5_tmod	took	NN	P1_time/date
+5-4	we	5-5_nsubj	took	PRP	O
+5-5	took	O	O	VBD	P1_passenger
+5-6	a	O	O	DT	O
+5-7	cab	5-5_dobj	took	NN	P1_NPart_cab
+5-8	to	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	airport	5-5_prep_to	took	NN	P1_airport
+5-11	and	O	O	O	O
+5-12	hour	O	O	NN	P2_time/date
+5-13	early	O	O	RB	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=We went to the airlines check in area an waited in line to show our tickets , get our seat assignments and check out bags . 
+6-1	We	6-2_nsubj	went	PRP	P1_passenger
+6-2	went	O	O	VBD	O
+6-3	to	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	airlines	O	O	NNS	P1_other
+6-6	check	6-2_prep_to	went	NN	O
+6-7	in	O	O	O	O
+6-8	area	6-2_prep_in	went	NN	P1_check_in_desk
+6-9	an	O	O	DT	O
+6-10	waited	O	O	VBN	O
+6-11	in	O	O	O	O
+6-12	line	6-10_prep_in	waited	NN	P1_line
+6-13	to	6-14_aux	show	TO	O
+6-14	show	6-10_xcomp	waited	VB	O
+6-15	our	O	O	PRP$	P1_passenger
+6-16	tickets	6-14_dobj	show	NNS	P1_ticket
+6-17	,	O	O	O	O
+6-18	get	6-14_conj_and	show	VB	O
+6-19	our	O	O	PRP$	P3_passenger
+6-20	seat	O	O	NN	O
+6-21	assignments	6-18_dobj	get	NNS	P2_other
+6-22	and	O	O	O	O
+6-23	check	6-14_conj_and	show	VB	O
+6-24	out	6-23_prt	check	RP	O
+6-25	bags	6-23_dobj	check	NNS	P2_check_in_luggage
+6-26	.	O	O	O	O
+
+#id=7
+#text=The we headed upstairs to the airplane gate . 
+7-1	The	O	O	DT	O
+7-2	we	7-3_nsubj	headed	PRP	P1_passenger
+7-3	headed	O	O	VBD	O
+7-4	upstairs	7-3_advmod	headed	NN	P1_NPart_upstairs
+7-5	to	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	airplane	O	O	NN	O
+7-8	gate	7-3_prep_to	headed	NN	P1_terminal/gate
+7-9	.	O	O	O	O
+
+#id=8
+#text=There were many people flying on this plane and the waiting room was crowded . 
+8-1	There	8-2_expl	were	EX	P1_terminal/gate
+8-2	were	O	O	VBD	O
+8-3	many	O	O	JJ	O
+8-4	people	8-2_nsubj	were	NNS	P4_passenger
+8-5	flying	O	O	VBG	O
+8-6	on	O	O	O	O
+8-7	this	O	O	DT	O
+8-8	plane	8-5_prep_on	flying	NN	P1_plane
+8-9	and	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	waiting	O	O	VBG	O
+8-12	room	8-14_nsubjpass	crowded	NN	P3_other
+8-13	was	8-14_auxpass	crowded	VBD	O
+8-14	crowded	8-2_conj_and	were	VBN	O
+8-15	.	O	O	O	O
+
+#id=9
+#text=Then the plane pulled in next to the gate and the flight attendant started calling people over to board the plane . 
+9-1	Then	9-4_advmod	pulled	RB	O
+9-2	the	O	O	DT	O
+9-3	plane	9-4_nsubj	pulled	NN	P2_plane
+9-4	pulled	O	O	VBD	O
+9-5	in	O	O	O	O
+9-6	next	9-4_prep_in	pulled	JJ	O
+9-7	to	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	gate	9-4_prep_to	pulled	NN	P1_terminal/gate
+9-10	and	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	flight	O	O	NN	O
+9-13	attendant	9-14_nsubj	started	NN	P1_staff
+9-14	started	9-4_conj_and	pulled	VBD	O
+9-15	calling	9-14_xcomp	started	VBG	O
+9-16	people	9-15_dobj	calling	NNS	P5_passenger
+9-17	over	9-15_prt	calling	RP	O
+9-18	to	9-19_aux	board	TO	O
+9-19	board	9-15_vmod	calling	VB	O
+9-20	the	O	O	DT	O
+9-21	plane	9-19_dobj	board	NN	P2_plane
+9-22	.	O	O	O	O
+
+#id=10
+#text=We were near last to get on the plane . 
+10-1	We	O	O	PRP	P1_passenger
+10-2	were	O	O	VBD	O
+10-3	near	O	O	RB	O
+10-4	last	O	O	JJ	O
+10-5	to	10-6_aux	get	TO	O
+10-6	get	O	O	VB	O
+10-7	on	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	plane	10-6_prep_on	get	NN	P2_plane
+10-10	.	O	O	O	O
+
+#id=11
+#text=Once on the plane we found our seats and sat down . 
+11-1	Once	11-6_advmod	found	RB	O
+11-2	on	O	O	O	O
+11-3	the	O	O	DT	O
+11-4	plane	O	O	NN	P2_plane
+11-5	we	11-6_nsubj	found	PRP	P1_passenger
+11-6	found	O	O	VBD	O
+11-7	our	O	O	PRP$	P1_passenger
+11-8	seats	11-6_dobj	found	NNS	P1_seat
+11-9	and	O	O	O	O
+11-10	sat	11-6_conj_and	found	VBD	O
+11-11	down	11-10_prt	sat	RP	O
+11-12	.	O	O	O	O
+
+#id=12
+#text=After the plane took off the stewardess did a demonstration about how to use the emergency exits . 
+12-1	After	12-4_mark	took	IN	O
+12-2	the	O	O	DT	O
+12-3	plane	12-4_nsubj	took	NN	P2_plane
+12-4	took	12-8_advcl	did	VBD	O
+12-5	off	12-4_prt	took	RP	O
+12-6	the	O	O	DT	O
+12-7	stewardess	12-8_nsubj	did	NNS	P2_staff
+12-8	did	O	O	VBD	O
+12-9	a	O	O	DT	O
+12-10	demonstration	12-8_dobj	did	NN	P1_safety_instructions
+12-11	about	O	O	O	O
+12-12	how	12-14_advmod	use	WRB	O
+12-13	to	12-14_aux	use	TO	O
+12-14	use	O	O	VB	O
+12-15	the	O	O	DT	O
+12-16	emergency	O	O	NN	O
+12-17	exits	12-14_dobj	use	NNS	P1_location_airplane_indoor
+12-18	.	O	O	O	O
+
+#id=13
+#text=Then we sat back and flew all the way to Reno , NV where we were picked up from the airport by grandma . 
+13-1	Then	13-3_advmod	sat	RB	O
+13-2	we	13-3_nsubj	sat	PRP	P1_passenger
+13-3	sat	O	O	VBD	O
+13-4	back	13-3_advmod	sat	RB	O
+13-5	and	O	O	O	O
+13-6	flew	13-3_conj_and	sat	VBD	O
+13-7	all	O	O	PDT	O
+13-8	the	O	O	DT	O
+13-9	way	13-6_dobj	flew	NN	O
+13-10	to	O	O	O	O
+13-11	Reno	O	O	NNP	P1_target_location
+13-12	,	O	O	O	O
+13-13	NV	13-6_prep_to	flew	NNP	P1_NPart_nv
+13-14	where	13-17_advmod	picked	WRB	O
+13-15	we	13-17_nsubjpass	picked	PRP	P1_passenger
+13-16	were	13-17_auxpass	picked	VBD	O
+13-17	picked	13-6_advcl	flew	VBN	O
+13-18	up	13-17_prt	picked	RP	O
+13-19	from	O	O	O	O
+13-20	the	O	O	DT	O
+13-21	airport	13-17_prep_from	picked	NN	P2_airport
+13-22	by	O	O	O	O
+13-23	grandma	13-17_agent	picked	NN	P1_accomp_person
+13-24	.	O	O	O	O

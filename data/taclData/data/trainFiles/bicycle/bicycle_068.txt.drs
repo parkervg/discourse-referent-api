@@ -1,0 +1,213 @@
+#id=1
+#text=I began by finding the culprit of my flat tire , it was a nail on the side of the road . 
+1-1	I	1-2_nsubj	began	PRP	P1_rider
+1-2	began	O	O	VBD	O
+1-3	by	O	O	O	O
+1-4	finding	1-2_prepc_by	began	VBG	O
+1-5	the	O	O	DT	O
+1-6	culprit	1-4_dobj	finding	NN	P1_object_damage
+1-7	of	O	O	O	O
+1-8	my	O	O	PRP$	P1_rider
+1-9	flat	O	O	JJ	O
+1-10	tire	O	O	NN	P1_tire
+1-11	,	O	O	O	O
+1-12	it	O	O	PRP	O
+1-13	was	O	O	VBD	O
+1-14	a	O	O	DT	O
+1-15	nail	O	O	NN	P1_object_damage
+1-16	on	O	O	O	O
+1-17	the	O	O	DT	O
+1-18	side	O	O	NN	O
+1-19	of	O	O	O	O
+1-20	the	O	O	DT	O
+1-21	road	O	O	NN	P1_NPart_road
+1-22	.	O	O	O	O
+
+#id=2
+#text=Unfortunately I did not have a spare tire so I had to carry my bike the rest of the way home . 
+2-1	Unfortunately	2-5_advmod	have	RB	O
+2-2	I	2-5_nsubj	have	PRP	P1_rider
+2-3	did	2-5_aux	have	VBD	O
+2-4	not	2-5_neg	have	RB	O
+2-5	have	O	O	VB	O
+2-6	a	O	O	DT	O
+2-7	spare	O	O	JJ	O
+2-8	tire	2-5_dobj	have	NN	P1_spare_tube
+2-9	so	2-11_mark	had	IN	O
+2-10	I	2-11_nsubj	had	PRP	P1_rider
+2-11	had	2-5_advcl	have	VBD	O
+2-12	to	2-13_aux	carry	TO	O
+2-13	carry	2-11_xcomp	had	VB	O
+2-14	my	O	O	PRP$	P1_rider
+2-15	bike	2-13_dep	carry	NN	P1_bicycle
+2-16	the	O	O	DT	O
+2-17	rest	2-13_dobj	carry	NN	P1_NPart_rest
+2-18	of	O	O	O	O
+2-19	the	O	O	DT	O
+2-20	way	O	O	NN	P1_NPart_way
+2-21	home	O	O	NN	P1_location_repair
+2-22	.	O	O	O	O
+
+#id=3
+#text=After the gruesome trek back to my house I flipped the bicycle upside down and began my repair . 
+3-1	After	O	O	O	O
+3-2	the	O	O	DT	O
+3-3	gruesome	O	O	JJ	O
+3-4	trek	3-10_prep_after	flipped	NN	P1_NPart_trek
+3-5	back	O	O	RB	O
+3-6	to	O	O	O	O
+3-7	my	O	O	PRP$	P1_rider
+3-8	house	O	O	NN	P1_location_repair
+3-9	I	3-10_nsubj	flipped	PRP	P1_rider
+3-10	flipped	O	O	VBD	O
+3-11	the	O	O	DT	O
+3-12	bicycle	3-10_dobj	flipped	NN	P1_bicycle
+3-13	upside	O	O	RB	O
+3-14	down	3-10_advmod	flipped	RB	O
+3-15	and	O	O	O	O
+3-16	began	3-10_conj_and	flipped	VBD	O
+3-17	my	O	O	PRP$	P1_rider
+3-18	repair	3-16_dobj	began	NN	P1_other
+3-19	.	O	O	O	O
+
+#id=4
+#text=First I took off the outer tire to replace my tube with a better more expensive tube that has the ability to fix a puncture . 
+4-1	First	4-3_advmod	took	RB	O
+4-2	I	4-3_nsubj	took	PRP	P1_rider
+4-3	took	O	O	VBD	O
+4-4	off	4-3_prt	took	RP	O
+4-5	the	O	O	DT	O
+4-6	outer	O	O	JJ	O
+4-7	tire	4-3_dobj	took	NN	P1_tire
+4-8	to	4-9_aux	replace	TO	O
+4-9	replace	O	O	VB	O
+4-10	my	O	O	PRP$	P1_rider
+4-11	tube	4-9_dobj	replace	NN	P1_tire
+4-12	with	O	O	O	O
+4-13	a	O	O	DT	O
+4-14	better	O	O	RB	O
+4-15	more	O	O	RBR	O
+4-16	expensive	O	O	JJ	O
+4-17	tube	4-9_prep_with	replace	NN	P1_spare_tube
+4-18	that	4-19_nsubj	has	WDT	O
+4-19	has	O	O	VBZ	O
+4-20	the	O	O	DT	O
+4-21	ability	4-19_dobj	has	NN	P1_NPart_ability
+4-22	to	4-23_aux	fix	TO	O
+4-23	fix	O	O	VB	O
+4-24	a	O	O	DT	O
+4-25	puncture	4-23_dobj	fix	NN	O
+4-26	.	O	O	O	O
+
+#id=5
+#text=I do not want to experience carrying my bike a mile ever again . 
+5-1	I	5-4_nsubj	want	PRP	P1_rider
+5-2	do	5-4_aux	want	VBP	O
+5-3	not	5-4_neg	want	RB	O
+5-4	want	O	O	VB	O
+5-5	to	5-6_aux	experience	TO	O
+5-6	experience	5-4_xcomp	want	VB	O
+5-7	carrying	5-6_xcomp	experience	VBG	O
+5-8	my	O	O	PRP$	P1_rider
+5-9	bike	5-7_dobj	carrying	NN	P1_bicycle
+5-10	a	O	O	DT	O
+5-11	mile	O	O	NN	P1_NPart_mile
+5-12	ever	5-7_advmod	carrying	RB	O
+5-13	again	5-7_advmod	carrying	RB	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=After putting the new tube on I screw back on the tire and put the outer tire over the tube . 
+6-1	After	O	O	O	O
+6-2	putting	6-8_prepc_after	screw	VBG	O
+6-3	the	O	O	DT	O
+6-4	new	O	O	JJ	O
+6-5	tube	6-2_dobj	putting	NN	P1_spare_tube
+6-6	on	6-2_prep	putting	IN	O
+6-7	I	6-8_nsubj	screw	PRP	P1_rider
+6-8	screw	O	O	VBD	O
+6-9	back	6-8_prt	screw	RP	O
+6-10	on	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	tire	6-8_prep_on	screw	NN	P2_tire
+6-13	and	O	O	O	O
+6-14	put	6-8_conj_and	screw	VBD	O
+6-15	the	O	O	DT	O
+6-16	outer	O	O	JJ	O
+6-17	tire	6-14_dobj	put	NN	P2_tire
+6-18	over	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	tube	6-14_prep_over	put	NN	P1_spare_tube
+6-21	.	O	O	O	O
+
+#id=7
+#text=I then fill the PSI to 170 in my tire and listen for any leaking air . 
+7-1	I	7-3_nsubj	fill	PRP	P1_rider
+7-2	then	7-3_advmod	fill	RB	O
+7-3	fill	O	O	VB	O
+7-4	the	O	O	DT	O
+7-5	PSI	7-3_dobj	fill	NN	P1_pressure
+7-6	to	O	O	O	O
+7-7	170	7-3_prep_to	fill	CD	O
+7-8	in	O	O	O	O
+7-9	my	O	O	PRP$	P1_rider
+7-10	tire	7-3_prep_in	fill	NN	P1_spare_tube
+7-11	and	O	O	O	O
+7-12	listen	7-3_conj_and	fill	VB	O
+7-13	for	O	O	O	O
+7-14	any	O	O	DT	O
+7-15	leaking	O	O	JJ	O
+7-16	air	7-12_prep_for	listen	NN	P1_air
+7-17	.	O	O	O	O
+
+#id=8
+#text=Then I spin the tire to make all the slime inside become evenly distributed throughout . 
+8-1	Then	8-3_advmod	spin	RB	O
+8-2	I	8-3_nsubj	spin	PRP	P1_rider
+8-3	spin	O	O	VBZ	O
+8-4	the	O	O	DT	O
+8-5	tire	8-3_dobj	spin	NN	P1_spare_tube
+8-6	to	8-7_aux	make	TO	O
+8-7	make	O	O	VB	O
+8-8	all	O	O	PDT	O
+8-9	the	O	O	DT	O
+8-10	slime	8-12_nsubjpass	become	NN	P2_other
+8-11	inside	8-12_advmod	become	RB	O
+8-12	become	8-7_ccomp	make	VB	O
+8-13	evenly	8-14_advmod	distributed	RB	O
+8-14	distributed	8-12_acomp	become	VBN	O
+8-15	throughout	8-14_prep	distributed	IN	O
+8-16	.	O	O	O	O
+
+#id=9
+#text=This will prevent leaks in the future and even with a slight leak I will still be able to ride back home and fix the tire quickly yet again . 
+9-1	This	9-3_nsubj	prevent	DT	O
+9-2	will	9-3_aux	prevent	MD	O
+9-3	prevent	O	O	VB	O
+9-4	leaks	9-3_dobj	prevent	NNS	P1_NPart_leak
+9-5	in	9-3_prep	prevent	IN	O
+9-6	the	O	O	DT	O
+9-7	future	O	O	NN	P1_NPart_future
+9-8	and	O	O	O	O
+9-9	even	O	O	RB	O
+9-10	with	O	O	IN	O
+9-11	a	O	O	DT	O
+9-12	slight	O	O	JJ	O
+9-13	leak	O	O	NN	P1_NPart_leak
+9-14	I	O	O	PRP	P1_rider
+9-15	will	O	O	MD	O
+9-16	still	O	O	RB	O
+9-17	be	O	O	VB	O
+9-18	able	O	O	JJ	O
+9-19	to	9-20_aux	ride	TO	O
+9-20	ride	O	O	VB	O
+9-21	back	9-20_prt	ride	RP	O
+9-22	home	9-20_dobj	ride	NN	P1_location_repair
+9-23	and	O	O	O	O
+9-24	fix	9-20_conj_and	ride	VB	O
+9-25	the	O	O	DT	O
+9-26	tire	9-24_dobj	fix	NN	P1_spare_tube
+9-27	quickly	9-24_advmod	fix	RB	O
+9-28	yet	O	O	O	O
+9-29	again	O	O	RB	O
+9-30	.	O	O	O	O

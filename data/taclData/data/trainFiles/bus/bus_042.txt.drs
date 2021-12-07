@@ -1,0 +1,225 @@
+#id=1
+#text=There are times when I need to get somewhere without using my car or without using the tube . 
+1-1	There	1-2_expl	are	EX	O
+1-2	are	O	O	VBP	O
+1-3	times	1-2_nsubj	are	NNS	O
+1-4	when	1-6_advmod	need	WRB	O
+1-5	I	1-6_nsubj	need	PRP	P1_passenger
+1-6	need	O	O	VBP	O
+1-7	to	1-8_aux	get	TO	O
+1-8	get	1-6_xcomp	need	VB	O
+1-9	somewhere	1-8_advmod	get	RB	O
+1-10	without	O	O	O	O
+1-11	using	1-8_prepc_without	get	VBG	O
+1-12	my	O	O	PRP$	P1_passenger
+1-13	car	1-11_dobj	using	NN	P1_NPart_car
+1-14	or	O	O	O	O
+1-15	without	O	O	O	O
+1-16	using	1-11_conj_or	using	VBG	O
+1-17	the	O	O	DT	O
+1-18	tube	1-16_dobj	using	NN	P1_NPart_tube
+1-19	.	O	O	O	O
+
+#id=2
+#text=For these times I use Transport for London 's public bus system . 
+2-1	For	O	O	O	O
+2-2	these	O	O	DT	O
+2-3	times	2-5_prep_for	use	NNS	O
+2-4	I	2-5_nsubj	use	PRP	P1_passenger
+2-5	use	O	O	VBP	O
+2-6	Transport	2-5_dobj	use	NNP	O
+2-7	for	O	O	O	O
+2-8	London	O	O	NNP	P1_NPart_london
+2-9	's	O	O	O	O
+2-10	public	O	O	JJ	O
+2-11	bus	O	O	NN	O
+2-12	system	O	O	NN	P1_other
+2-13	.	O	O	O	O
+
+#id=3
+#text=One such time just happened yesterday . 
+3-1	One	O	O	CD	O
+3-2	such	O	O	JJ	O
+3-3	time	3-5_nsubj	happened	NN	O
+3-4	just	3-5_advmod	happened	RB	O
+3-5	happened	O	O	VBD	O
+3-6	yesterday	3-5_tmod	happened	NN	O
+3-7	.	O	O	O	O
+
+#id=4
+#text=I wanted to go from my flat to the bumping club in Shoreditch . 
+4-1	I	4-2_nsubj	wanted	PRP	P1_passenger
+4-2	wanted	O	O	VBD	O
+4-3	to	4-4_aux	go	TO	O
+4-4	go	4-2_xcomp	wanted	VB	O
+4-5	from	O	O	O	O
+4-6	my	O	O	PRP$	P1_passenger
+4-7	flat	O	O	JJ	P1_NPart_flat
+4-8	to	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	bumping	O	O	NN	O
+4-11	club	4-4_prep_from	go	NN	P1_NPart_club
+4-12	in	O	O	O	O
+4-13	Shoreditch	O	O	NNP	P1_destination
+4-14	.	O	O	O	O
+
+#id=5
+#text=Unfortunately it was past midnight and the tubes were closed . 
+5-1	Unfortunately	O	O	RB	O
+5-2	it	O	O	PRP	O
+5-3	was	O	O	VBD	O
+5-4	past	O	O	JJ	O
+5-5	midnight	O	O	NN	P1_NPart_midnight
+5-6	and	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	tubes	5-10_nsubjpass	closed	NNS	P1_NPart_tubes
+5-9	were	5-10_auxpass	closed	VBD	O
+5-10	closed	O	O	VBN	O
+5-11	.	O	O	O	O
+
+#id=6
+#text=I decided upon taking a bus instead of taking a minicab or a taxi . 
+6-1	I	6-2_nsubj	decided	PRP	P1_passenger
+6-2	decided	O	O	VBD	O
+6-3	upon	O	O	O	O
+6-4	taking	6-2_prepc_upon	decided	VBG	O
+6-5	a	O	O	DT	O
+6-6	bus	6-4_dobj	taking	NN	P1_bus
+6-7	instead	O	O	O	O
+6-8	of	O	O	O	O
+6-9	taking	6-4_conj_negcc	taking	VBG	O
+6-10	a	O	O	DT	O
+6-11	minicab	6-9_dobj	taking	NN	P1_NPart_minicab
+6-12	or	O	O	O	O
+6-13	a	O	O	DT	O
+6-14	taxi	O	O	NN	P1_NPart_taxi
+6-15	.	O	O	O	O
+
+#id=7
+#text=I found the bus stop and waited patiently for the correct bus . 
+7-1	I	7-2_nsubj	found	PRP	P1_passenger
+7-2	found	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	bus	O	O	NN	O
+7-5	stop	7-2_dobj	found	NN	P1_bus_stop
+7-6	and	O	O	O	O
+7-7	waited	7-2_conj_and	found	VBD	O
+7-8	patiently	7-7_advmod	waited	RB	O
+7-9	for	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	correct	O	O	JJ	O
+7-12	bus	7-7_prep_for	waited	NN	P1_bus
+7-13	.	O	O	O	O
+
+#id=8
+#text=Stepping on I tapped in and greeted the driver . 
+8-1	Stepping	8-4_csubj	tapped	VBG	O
+8-2	on	O	O	O	O
+8-3	I	8-1_prep_on	Stepping	PRP	P1_passenger
+8-4	tapped	O	O	VBD	O
+8-5	in	8-4_prt	tapped	RP	O
+8-6	and	O	O	O	O
+8-7	greeted	8-4_conj_and	tapped	VBD	O
+8-8	the	O	O	DT	O
+8-9	driver	8-7_dobj	greeted	NN	P1_bus_staff
+8-10	.	O	O	O	O
+
+#id=9
+#text=He seemed very nice , as did the people on the bus . 
+9-1	He	9-2_nsubj	seemed	PRP	P1_bus_staff
+9-2	seemed	O	O	VBD	O
+9-3	very	O	O	RB	O
+9-4	nice	9-2_acomp	seemed	JJ	O
+9-5	,	O	O	O	O
+9-6	as	9-7_mark	did	IN	O
+9-7	did	9-2_advcl	seemed	VBD	O
+9-8	the	O	O	DT	O
+9-9	people	9-7_dobj	did	NNS	P2_passenger
+9-10	on	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	bus	9-7_prep_on	did	NN	P1_bus
+9-13	.	O	O	O	O
+
+#id=10
+#text=It was filled with many other revelers who were in similar states of intoxication . 
+10-1	It	10-3_nsubjpass	filled	PRP	P1_bus
+10-2	was	10-3_auxpass	filled	VBD	O
+10-3	filled	O	O	VBN	O
+10-4	with	O	O	O	O
+10-5	many	O	O	JJ	O
+10-6	other	O	O	JJ	O
+10-7	revelers	10-3_prep_with	filled	NNS	P2_passenger
+10-8	who	10-9_nsubj	were	WP	P2_passenger
+10-9	were	O	O	VBD	O
+10-10	in	O	O	O	O
+10-11	similar	O	O	JJ	O
+10-12	states	10-9_prep_in	were	NNS	O
+10-13	of	O	O	O	O
+10-14	intoxication	O	O	NN	P1_NPart_intoxication
+10-15	.	O	O	O	O
+
+#id=11
+#text=We rode towards our destination , a popular club , in unison . 
+11-1	We	11-2_nsubj	rode	PRP	P3_passenger
+11-2	rode	O	O	VBD	O
+11-3	towards	O	O	O	O
+11-4	our	O	O	PRP$	P4_passenger
+11-5	destination	11-2_prep_towards	rode	NN	P2_destination
+11-6	,	O	O	O	O
+11-7	a	O	O	DT	O
+11-8	popular	O	O	JJ	O
+11-9	club	O	O	NN	P2_NPart_club
+11-10	,	O	O	O	O
+11-11	in	O	O	O	O
+11-12	unison	11-2_prep_in	rode	NN	P1_NPart_unison
+11-13	.	O	O	O	O
+
+#id=12
+#text=I met a pretty girl who I talked with at length . 
+12-1	I	12-2_nsubj	met	PRP	P1_passenger
+12-2	met	O	O	VBD	O
+12-3	a	O	O	DT	O
+12-4	pretty	O	O	JJ	O
+12-5	girl	12-2_dobj	met	NN	P5_passenger
+12-6	who	12-8_dobj	talked	WP	P5_passenger
+12-7	I	12-8_nsubj	talked	PRP	P1_passenger
+12-8	talked	O	O	VBD	O
+12-9	with	12-8_prep	talked	IN	O
+12-10	at	O	O	IN	O
+12-11	length	O	O	NN	P1_NPart_length
+12-12	.	O	O	O	O
+
+#id=13
+#text=We decided we were going to dance together at the club ! 
+13-1	We	13-2_nsubj	decided	PRP	P6_passenger
+13-2	decided	O	O	VBD	O
+13-3	we	13-5_nsubj	going	PRP	P7_passenger
+13-4	were	13-5_aux	going	VBD	O
+13-5	going	13-2_ccomp	decided	VBG	O
+13-6	to	13-7_aux	dance	TO	O
+13-7	dance	13-5_xcomp	going	VB	O
+13-8	together	13-7_advmod	dance	RB	O
+13-9	at	O	O	O	O
+13-10	the	O	O	DT	O
+13-11	club	13-7_prep_at	dance	NN	P3_NPart_club
+13-12	!	O	O	O	O
+
+#id=14
+#text=All in all it was an exciting and enjoyable ride on a London double decker bus ! 
+14-1	All	O	O	DT	O
+14-2	in	O	O	O	O
+14-3	all	O	O	DT	O
+14-4	it	O	O	PRP	O
+14-5	was	O	O	VBD	O
+14-6	an	O	O	DT	O
+14-7	exciting	O	O	JJ	O
+14-8	and	O	O	O	O
+14-9	enjoyable	O	O	JJ	O
+14-10	ride	O	O	NN	P1_ride
+14-11	on	O	O	O	O
+14-12	a	O	O	DT	O
+14-13	London	O	O	NNP	P2_NPart_london
+14-14	double	O	O	JJ	O
+14-15	decker	O	O	NN	O
+14-16	bus	O	O	NN	P1_bus
+14-17	!	O	O	O	O

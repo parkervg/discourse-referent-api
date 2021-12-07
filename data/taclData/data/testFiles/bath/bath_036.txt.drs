@@ -1,0 +1,252 @@
+#id=1
+#text=Last week , I decided to take a nice relaxing bubble bath after a hard day of work . 
+1-1	Last	O	O	JJ	O
+1-2	week	1-5_tmod	decided	NN	P1_NPart_week
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	decided	PRP	P1_bather
+1-5	decided	O	O	VBD	O
+1-6	to	1-7_aux	take	TO	O
+1-7	take	1-5_xcomp	decided	VB	O
+1-8	a	O	O	DT	O
+1-9	nice	O	O	JJ	O
+1-10	relaxing	O	O	JJ	O
+1-11	bubble	O	O	NN	O
+1-12	bath	1-7_dobj	take	NN	O
+1-13	after	O	O	O	O
+1-14	a	O	O	DT	O
+1-15	hard	O	O	JJ	O
+1-16	day	1-7_prep_after	take	NN	P1_NPart_day
+1-17	of	O	O	O	O
+1-18	work	O	O	NN	P1_NPart_work
+1-19	.	O	O	O	O
+
+#id=2
+#text=After getting done with my chores , I went up stairs into the bedroom to grab some clothes . 
+2-1	After	O	O	O	O
+2-2	getting	2-3_auxpass	done	VBG	O
+2-3	done	2-9_prepc_after	went	VBN	O
+2-4	with	O	O	O	O
+2-5	my	O	O	PRP$	P1_bather
+2-6	chores	2-3_prep_with	done	NNS	P1_NPart_chores
+2-7	,	O	O	O	O
+2-8	I	2-9_nsubj	went	PRP	P1_bather
+2-9	went	O	O	VBD	O
+2-10	up	2-9_prt	went	RP	O
+2-11	stairs	2-9_dobj	went	NNS	P1_NPart_stairs
+2-12	into	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	bedroom	2-9_prep_into	went	NN	P1_NPart_bedroom
+2-15	to	2-16_aux	grab	TO	O
+2-16	grab	O	O	VB	O
+2-17	some	O	O	DT	O
+2-18	clothes	2-16_dobj	grab	NNS	P1_clothes
+2-19	.	O	O	O	O
+
+#id=3
+#text=After finding on what I wanted to wear , I went into the bathroom and shut the door . 
+3-1	After	O	O	O	O
+3-2	finding	3-11_prepc_after	went	VBG	O
+3-3	on	O	O	O	O
+3-4	what	3-6_dobj	wanted	WP	O
+3-5	I	3-6_nsubj	wanted	PRP	P1_bather
+3-6	wanted	3-2_prepc_on	finding	VBD	O
+3-7	to	3-8_aux	wear	TO	O
+3-8	wear	3-6_xcomp	wanted	VB	O
+3-9	,	O	O	O	O
+3-10	I	3-11_nsubj	went	PRP	P1_bather
+3-11	went	O	O	VBD	O
+3-12	into	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	bathroom	3-11_prep_into	went	NN	P1_bathroom
+3-15	and	O	O	O	O
+3-16	shut	3-11_conj_and	went	VBD	O
+3-17	the	O	O	DT	O
+3-18	door	3-16_dobj	shut	NN	P1_NPart_door
+3-19	.	O	O	O	O
+
+#id=4
+#text=I went to the bath tub , and turned on the faucet . 
+4-1	I	4-2_nsubj	went	PRP	P1_bather
+4-2	went	O	O	VBD	O
+4-3	to	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	bath	O	O	NN	O
+4-6	tub	4-2_prep_to	went	NN	P1_bathtub
+4-7	,	O	O	O	O
+4-8	and	O	O	O	O
+4-9	turned	4-2_conj_and	went	VBD	O
+4-10	on	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	faucet	4-9_prep_on	turned	NN	P1_tap
+4-13	.	O	O	O	O
+
+#id=5
+#text=I messed around with the knobs on the faucet to get some hot water that was perfect temperature . 
+5-1	I	5-2_nsubj	messed	PRP	P1_bather
+5-2	messed	O	O	VBD	O
+5-3	around	5-2_prt	messed	RP	O
+5-4	with	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	knobs	5-2_prep_with	messed	NNS	P1_NPart_knobs
+5-7	on	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	faucet	O	O	NN	P1_tap
+5-10	to	5-11_aux	get	TO	O
+5-11	get	5-2_xcomp	messed	VB	O
+5-12	some	O	O	DT	O
+5-13	hot	O	O	JJ	O
+5-14	water	5-11_dobj	get	NN	P1_water
+5-15	that	O	O	WDT	P1_water
+5-16	was	O	O	VBD	O
+5-17	perfect	O	O	JJ	O
+5-18	temperature	O	O	NN	P1_temperature
+5-19	.	O	O	O	O
+
+#id=6
+#text=After I found the perfect temperature I then plug the drain and then put a small amount of bubble bath into the tub . 
+6-1	After	6-3_mark	found	IN	O
+6-2	I	6-3_nsubj	found	PRP	P1_bather
+6-3	found	6-9_advcl	plug	VBD	O
+6-4	the	O	O	DT	O
+6-5	perfect	O	O	JJ	O
+6-6	temperature	6-3_dobj	found	NN	P1_temperature
+6-7	I	6-9_nsubj	plug	PRP	P1_bather
+6-8	then	6-9_advmod	plug	RB	O
+6-9	plug	O	O	VBP	O
+6-10	the	O	O	DT	O
+6-11	drain	6-9_dobj	plug	NN	P1_drain
+6-12	and	O	O	O	O
+6-13	then	6-14_advmod	put	RB	O
+6-14	put	6-9_conj_and	plug	VBD	O
+6-15	a	O	O	DT	O
+6-16	small	O	O	JJ	O
+6-17	amount	6-14_dobj	put	NN	O
+6-18	of	O	O	O	O
+6-19	bubble	O	O	NN	O
+6-20	bath	O	O	NN	P1_bath_means
+6-21	into	O	O	O	O
+6-22	the	O	O	DT	O
+6-23	tub	6-14_prep_into	put	NN	P1_bathtub
+6-24	.	O	O	O	O
+
+#id=7
+#text=While I am waiting for the water to raise , I take off my clothes and put them into the laundry basket . 
+7-1	While	7-4_mark	waiting	IN	O
+7-2	I	7-4_nsubj	waiting	PRP	P1_bather
+7-3	am	7-4_aux	waiting	VBP	O
+7-4	waiting	7-12_advcl	take	VBG	O
+7-5	for	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	water	7-4_prep_for	waiting	NN	P1_water
+7-8	to	7-9_aux	raise	TO	O
+7-9	raise	7-4_xcomp	waiting	VB	O
+7-10	,	O	O	O	O
+7-11	I	7-12_nsubj	take	PRP	P1_bather
+7-12	take	O	O	VBP	O
+7-13	off	7-12_prt	take	RP	O
+7-14	my	O	O	PRP$	P1_bather
+7-15	clothes	7-12_dobj	take	NNS	P1_clothes
+7-16	and	O	O	O	O
+7-17	put	7-12_conj_and	take	VBD	O
+7-18	them	7-17_dobj	put	PRP	P1_clothes
+7-19	into	O	O	O	O
+7-20	the	O	O	DT	O
+7-21	laundry	O	O	NN	O
+7-22	basket	7-17_prep_into	put	NN	P1_hamper
+7-23	.	O	O	O	O
+
+#id=8
+#text=After the water is at an acceptable level , I turn off the faucet completely . 
+8-1	After	8-4_mark	is	IN	O
+8-2	the	O	O	DT	O
+8-3	water	8-4_nsubj	is	NN	P1_water
+8-4	is	8-11_advcl	turn	VBZ	O
+8-5	at	O	O	O	O
+8-6	an	O	O	DT	O
+8-7	acceptable	O	O	JJ	O
+8-8	level	8-4_prep_at	is	NN	P1_NPart_level
+8-9	,	O	O	O	O
+8-10	I	8-11_nsubj	turn	PRP	P1_bather
+8-11	turn	O	O	VBP	O
+8-12	off	8-11_prt	turn	RP	O
+8-13	the	O	O	DT	O
+8-14	faucet	O	O	NN	P1_tap
+8-15	completely	8-11_advmod	turn	RB	O
+8-16	.	O	O	O	O
+
+#id=9
+#text=I then turn some music on , and sit down in the tub and relax for a while . 
+9-1	I	9-3_nsubj	turn	PRP	P1_bather
+9-2	then	9-3_advmod	turn	RB	O
+9-3	turn	O	O	VB	O
+9-4	some	O	O	DT	O
+9-5	music	9-3_dobj	turn	NN	P1_in-bath_entertainment
+9-6	on	9-3_prt	turn	RP	O
+9-7	,	O	O	O	O
+9-8	and	O	O	O	O
+9-9	sit	9-3_conj_and	turn	VB	O
+9-10	down	9-9_prt	sit	RP	O
+9-11	in	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	tub	9-9_prep_in	sit	NN	P1_bathtub
+9-14	and	O	O	O	O
+9-15	relax	9-3_conj_and	turn	VB	O
+9-16	for	O	O	O	O
+9-17	a	O	O	DT	O
+9-18	while	9-15_prep_for	relax	NN	O
+9-19	.	O	O	O	O
+
+#id=10
+#text=I get a washcloth and clean myself up everywhere . 
+10-1	I	10-2_nsubj	get	PRP	P1_bather
+10-2	get	O	O	VB	O
+10-3	a	O	O	DT	O
+10-4	washcloth	10-2_dobj	get	NN	P1_washing_tools
+10-5	and	O	O	O	O
+10-6	clean	10-2_conj_and	get	VB	O
+10-7	myself	10-6_dobj	clean	PRP	P1_bather
+10-8	up	10-6_prt	clean	RP	O
+10-9	everywhere	10-6_advmod	clean	RB	O
+10-10	.	O	O	O	O
+
+#id=11
+#text=After I am done I then get up and dry myself off with a towel and drain the water . 
+11-1	After	11-4_mark	done	IN	O
+11-2	I	11-4_nsubjpass	done	PRP	P1_bather
+11-3	am	11-4_auxpass	done	VBP	O
+11-4	done	11-7_csubj	get	VBN	O
+11-5	I	11-4_dep	done	PRP	P1_bather
+11-6	then	O	O	RB	O
+11-7	get	O	O	VB	O
+11-8	up	11-7_prt	get	RP	O
+11-9	and	O	O	O	O
+11-10	dry	11-7_conj_and	get	VB	O
+11-11	myself	11-10_dobj	dry	PRP	P1_bather
+11-12	off	11-10_prt	dry	RP	O
+11-13	with	O	O	O	O
+11-14	a	O	O	DT	O
+11-15	towel	11-10_prep_with	dry	NN	P1_towel
+11-16	and	O	O	O	O
+11-17	drain	11-7_conj_and	get	VB	O
+11-18	the	O	O	DT	O
+11-19	water	11-17_dobj	drain	NN	P1_water
+11-20	.	O	O	O	O
+
+#id=12
+#text=After I am dried I put my new clothes on and clean up the bathroom . 
+12-1	After	12-3_mark	am	IN	O
+12-2	I	12-3_nsubj	am	PRP	P1_bather
+12-3	am	12-4_csubj	dried	VBP	O
+12-4	dried	O	O	VBD	O
+12-5	I	12-6_nsubj	put	PRP	P1_bather
+12-6	put	12-4_ccomp	dried	VB	O
+12-7	my	O	O	PRP$	P1_bather
+12-8	new	O	O	JJ	O
+12-9	clothes	12-6_dobj	put	NNS	P1_clothes
+12-10	on	12-6_prt	put	RP	O
+12-11	and	O	O	O	O
+12-12	clean	12-6_conj_and	put	VB	O
+12-13	up	12-12_prt	clean	RP	O
+12-14	the	O	O	DT	O
+12-15	bathroom	12-12_dobj	clean	NN	P1_bathroom
+12-16	.	O	O	O	O

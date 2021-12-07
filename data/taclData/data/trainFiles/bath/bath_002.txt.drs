@@ -1,0 +1,213 @@
+#id=1
+#text=Yesterday was a long and stressful day . 
+1-1	Yesterday	O	O	NN	P1_NPart_yesterday
+1-2	was	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	long	O	O	JJ	O
+1-5	and	O	O	O	O
+1-6	stressful	O	O	JJ	O
+1-7	day	O	O	NN	P1_NPart_day
+1-8	.	O	O	O	O
+
+#id=2
+#text=From start to finish , it felt like nothing could possibly go right . 
+2-1	From	O	O	O	O
+2-2	start	2-7_prep_from	felt	NN	O
+2-3	to	2-4_aux	finish	TO	O
+2-4	finish	O	O	VB	O
+2-5	,	O	O	O	O
+2-6	it	2-7_nsubj	felt	PRP	O
+2-7	felt	O	O	VBD	O
+2-8	like	2-12_mark	go	IN	O
+2-9	nothing	2-12_nsubj	go	NN	O
+2-10	could	2-12_aux	go	MD	O
+2-11	possibly	2-12_advmod	go	RB	O
+2-12	go	2-7_advcl	felt	VB	O
+2-13	right	2-12_advmod	go	RB	O
+2-14	.	O	O	O	O
+
+#id=3
+#text=On days like those , I really love a nice bubble bath to relax and wash off the stress , so that is what I did . 
+3-1	On	O	O	O	O
+3-2	days	3-8_prep_on	love	NNS	P1_NPart_days
+3-3	like	O	O	O	O
+3-4	those	O	O	DT	O
+3-5	,	O	O	O	O
+3-6	I	3-8_nsubj	love	PRP	P1_bather
+3-7	really	3-8_advmod	love	RB	O
+3-8	love	O	O	VBP	O
+3-9	a	O	O	DT	O
+3-10	nice	O	O	JJ	O
+3-11	bubble	O	O	NN	O
+3-12	bath	3-8_dobj	love	NN	P1_bath_means
+3-13	to	3-14_aux	relax	TO	O
+3-14	relax	3-8_xcomp	love	VB	O
+3-15	and	O	O	O	O
+3-16	wash	3-14_conj_and	relax	VB	O
+3-17	off	3-16_prt	wash	RP	O
+3-18	the	O	O	DT	O
+3-19	stress	3-16_dobj	wash	NN	P1_NPart_stress
+3-20	,	O	O	O	O
+3-21	so	3-23_mark	is	IN	O
+3-22	that	3-23_nsubj	is	DT	O
+3-23	is	3-8_advcl	love	VBZ	O
+3-24	what	3-26_dobj	did	WP	O
+3-25	I	3-26_nsubj	did	PRP	P1_bather
+3-26	did	3-23_ccomp	is	VBD	O
+3-27	.	O	O	O	O
+
+#id=4
+#text=I gathered up a towel , body wash , shampoo , conditioner , bubble bath and a few candles and walked into my bathroom to take a nice , long bath . 
+4-1	I	4-2_nsubj	gathered	PRP	P1_bather
+4-2	gathered	O	O	VBD	O
+4-3	up	4-2_prt	gathered	RP	O
+4-4	a	O	O	DT	O
+4-5	towel	4-2_dobj	gathered	NN	P1_towel
+4-6	,	O	O	O	O
+4-7	body	O	O	NN	O
+4-8	wash	O	O	NN	P1_washing_tools
+4-9	,	O	O	O	O
+4-10	shampoo	O	O	NN	P2_washing_tools
+4-11	,	O	O	O	O
+4-12	conditioner	O	O	NN	P3_washing_tools
+4-13	,	O	O	O	O
+4-14	bubble	O	O	NN	O
+4-15	bath	O	O	NN	P1_bath_means
+4-16	and	O	O	O	O
+4-17	a	O	O	DT	O
+4-18	few	O	O	JJ	O
+4-19	candles	O	O	NNS	P1_in-bath_entertainment
+4-20	and	O	O	O	O
+4-21	walked	4-2_conj_and	gathered	VBD	O
+4-22	into	O	O	O	O
+4-23	my	O	O	PRP$	P1_bather
+4-24	bathroom	4-21_prep_into	walked	NN	P1_bathroom
+4-25	to	4-26_aux	take	TO	O
+4-26	take	O	O	VB	O
+4-27	a	O	O	DT	O
+4-28	nice	O	O	JJ	O
+4-29	,	O	O	O	O
+4-30	long	O	O	JJ	O
+4-31	bath	4-26_dobj	take	NN	P1_bath
+4-32	.	O	O	O	O
+
+#id=5
+#text=I lit the cinnamon-scented candles , turned on the water to make sure it would be warm before I stepped in , then I dropped a little bit of the bubble bath in the water to create a gentle lather . 
+5-1	I	5-2_nsubj	lit	PRP	P1_bather
+5-2	lit	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	cinnamon-scented	O	O	JJ	O
+5-5	candles	5-2_dobj	lit	NNS	P1_in-bath_entertainment
+5-6	,	O	O	O	O
+5-7	turned	O	O	VBN	O
+5-8	on	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	water	5-7_prep_on	turned	NN	P1_water
+5-11	to	5-12_aux	make	TO	O
+5-12	make	5-7_xcomp	turned	VB	O
+5-13	sure	5-12_acomp	make	JJ	O
+5-14	it	O	O	PRP	P1_water
+5-15	would	O	O	MD	O
+5-16	be	O	O	VB	O
+5-17	warm	O	O	JJ	O
+5-18	before	5-20_mark	stepped	IN	O
+5-19	I	5-20_nsubj	stepped	PRP	P1_bather
+5-20	stepped	O	O	VBD	O
+5-21	in	5-20_prt	stepped	RP	O
+5-22	,	O	O	O	O
+5-23	then	5-25_advmod	dropped	RB	O
+5-24	I	5-25_nsubj	dropped	PRP	P1_bather
+5-25	dropped	5-2_parataxis	lit	VBD	O
+5-26	a	O	O	DT	O
+5-27	little	O	O	JJ	O
+5-28	bit	5-25_dobj	dropped	NN	O
+5-29	of	O	O	O	O
+5-30	the	O	O	DT	O
+5-31	bubble	O	O	NN	O
+5-32	bath	O	O	NN	P1_bath_means
+5-33	in	O	O	O	O
+5-34	the	O	O	DT	O
+5-35	water	5-25_prep_in	dropped	NN	P1_water
+5-36	to	5-37_aux	create	TO	O
+5-37	create	O	O	VB	O
+5-38	a	O	O	DT	O
+5-39	gentle	O	O	JJ	O
+5-40	lather	5-37_dobj	create	NN	P1_other
+5-41	.	O	O	O	O
+
+#id=6
+#text=I sank into the bubbles and took a deep breath . 
+6-1	I	6-2_nsubj	sank	PRP	P1_bather
+6-2	sank	O	O	VBD	O
+6-3	into	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	bubbles	6-2_prep_into	sank	NNS	P1_other
+6-6	and	O	O	O	O
+6-7	took	6-2_conj_and	sank	VBD	O
+6-8	a	O	O	DT	O
+6-9	deep	O	O	JJ	O
+6-10	breath	6-7_dobj	took	NN	O
+6-11	.	O	O	O	O
+
+#id=7
+#text=It felt amazing to get to relax after such a rough day . 
+7-1	It	7-2_nsubj	felt	PRP	O
+7-2	felt	O	O	VBD	O
+7-3	amazing	7-2_acomp	felt	JJ	O
+7-4	to	7-5_aux	get	TO	O
+7-5	get	O	O	VB	O
+7-6	to	7-7_aux	relax	TO	O
+7-7	relax	7-5_xcomp	get	VB	O
+7-8	after	O	O	O	O
+7-9	such	O	O	PDT	O
+7-10	a	O	O	DT	O
+7-11	rough	O	O	JJ	O
+7-12	day	7-7_prep_after	relax	NN	P2_NPart_day
+7-13	.	O	O	O	O
+
+#id=8
+#text=The candles made the whole bathroom smell great and the water was awesome on my skin . 
+8-1	The	O	O	DT	O
+8-2	candles	8-3_nsubj	made	NNS	P1_in-bath_entertainment
+8-3	made	O	O	VBD	O
+8-4	the	O	O	DT	O
+8-5	whole	O	O	JJ	O
+8-6	bathroom	8-7_nsubj	smell	NN	P1_bathroom
+8-7	smell	8-3_ccomp	made	VBP	O
+8-8	great	8-7_acomp	smell	JJ	O
+8-9	and	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	water	O	O	NN	P1_water
+8-12	was	O	O	VBD	O
+8-13	awesome	8-3_conj_and	made	JJ	O
+8-14	on	O	O	O	O
+8-15	my	O	O	PRP$	P1_bather
+8-16	skin	O	O	NN	P1_body_part
+8-17	.	O	O	O	O
+
+#id=9
+#text=Finally , I shampooed my hair and washed myself , then toweled off and put on my pajamas to get ready for bed . 
+9-1	Finally	9-4_advmod	shampooed	RB	O
+9-2	,	O	O	O	O
+9-3	I	9-4_nsubj	shampooed	PRP	P1_bather
+9-4	shampooed	O	O	VBD	O
+9-5	my	O	O	PRP$	P1_bather
+9-6	hair	9-4_dobj	shampooed	NN	P1_hair
+9-7	and	O	O	O	O
+9-8	washed	9-4_conj_and	shampooed	VBD	O
+9-9	myself	9-8_dobj	washed	PRP	P1_bather
+9-10	,	O	O	O	O
+9-11	then	9-12_advmod	toweled	RB	O
+9-12	toweled	9-4_dep	shampooed	VBD	O
+9-13	off	9-12_prt	toweled	RP	O
+9-14	and	O	O	O	O
+9-15	put	9-4_conj_and	shampooed	VBD	O
+9-16	on	O	O	O	O
+9-17	my	O	O	PRP$	P1_bather
+9-18	pajamas	9-15_prep_on	put	NNS	P1_clothes
+9-19	to	O	O	TO	O
+9-20	get	O	O	VB	O
+9-21	ready	9-15_xcomp	put	JJ	O
+9-22	for	O	O	O	O
+9-23	bed	O	O	NN	P1_NPart_bed
+9-24	.	O	O	O	O

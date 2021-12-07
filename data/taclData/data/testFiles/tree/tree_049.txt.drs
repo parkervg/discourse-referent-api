@@ -1,0 +1,219 @@
+#id=1
+#text=A few years ago , I did some volunteer work in my local community . 
+1-1	A	O	O	DT	O
+1-2	few	O	O	JJ	O
+1-3	years	O	O	NNS	P1_NPart_years
+1-4	ago	1-7_advmod	did	RB	O
+1-5	,	O	O	O	O
+1-6	I	1-7_nsubj	did	PRP	P1_gardener
+1-7	did	O	O	VBD	O
+1-8	some	O	O	DT	O
+1-9	volunteer	O	O	NN	O
+1-10	work	1-7_dobj	did	NN	P1_NPart_work
+1-11	in	O	O	O	O
+1-12	my	O	O	PRP$	P1_gardener
+1-13	local	O	O	JJ	O
+1-14	community	1-7_prep_in	did	NN	P1_NPart_community
+1-15	.	O	O	O	O
+
+#id=2
+#text=I like giving back to my community . 
+2-1	I	2-2_nsubj	like	PRP	P1_gardener
+2-2	like	O	O	VBP	O
+2-3	giving	2-2_xcomp	like	VBG	O
+2-4	back	2-3_prt	giving	RP	O
+2-5	to	O	O	O	O
+2-6	my	O	O	PRP$	P1_gardener
+2-7	community	2-3_prep_to	giving	NN	P2_NPart_community
+2-8	.	O	O	O	O
+
+#id=3
+#text=One of the things we did was plant trees in the city . 
+3-1	One	O	O	CD	O
+3-2	of	O	O	O	O
+3-3	the	O	O	DT	O
+3-4	things	O	O	NNS	O
+3-5	we	3-6_nsubj	did	PRP	P1_gardener
+3-6	did	O	O	VBD	O
+3-7	was	O	O	VBD	O
+3-8	plant	O	O	NN	O
+3-9	trees	O	O	NNS	P1_tree
+3-10	in	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	city	O	O	NN	P1_NPart_city
+3-13	.	O	O	O	O
+
+#id=4
+#text=This was my first experience with planting trees . 
+4-1	This	O	O	DT	O
+4-2	was	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_gardener
+4-4	first	O	O	JJ	O
+4-5	experience	O	O	NN	P1_NPart_experience
+4-6	with	O	O	O	O
+4-7	planting	O	O	NN	O
+4-8	trees	O	O	NNS	P1_tree
+4-9	.	O	O	O	O
+
+#id=5
+#text=First I had to prepare the ground . 
+5-1	First	5-3_advmod	had	RB	O
+5-2	I	5-3_nsubj	had	PRP	P1_gardener
+5-3	had	O	O	VBD	O
+5-4	to	5-5_aux	prepare	TO	O
+5-5	prepare	5-3_xcomp	had	VB	O
+5-6	the	O	O	DT	O
+5-7	ground	5-5_dobj	prepare	NN	P1_dirt
+5-8	.	O	O	O	O
+
+#id=6
+#text=The soil was already in great shape for the tree so that part was taken care of . 
+6-1	The	O	O	DT	O
+6-2	soil	6-3_nsubj	was	NN	P1_dirt
+6-3	was	O	O	VBD	O
+6-4	already	6-3_advmod	was	RB	O
+6-5	in	O	O	O	O
+6-6	great	O	O	JJ	O
+6-7	shape	6-3_prep_in	was	NN	P1_NPart_shape
+6-8	for	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	tree	O	O	NN	P1_tree
+6-11	so	6-15_advmod	taken	RB	O
+6-12	that	6-15_mark	taken	IN	O
+6-13	part	6-15_nsubjpass	taken	NN	P1_NPart_part
+6-14	was	6-15_auxpass	taken	VBD	O
+6-15	taken	6-3_advcl	was	VBN	O
+6-16	care	6-15_dobj	taken	VB	O
+6-17	of	6-16_amod	care	IN	O
+6-18	.	O	O	O	O
+
+#id=7
+#text=I grabbed a shovel and then started digging . 
+7-1	I	7-2_nsubj	grabbed	PRP	P1_gardener
+7-2	grabbed	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	shovel	7-2_dobj	grabbed	NN	P1_gardening_tool
+7-5	and	O	O	O	O
+7-6	then	7-7_advmod	started	RB	O
+7-7	started	7-2_conj_and	grabbed	VBD	O
+7-8	digging	7-7_dobj	started	NN	O
+7-9	.	O	O	O	O
+
+#id=8
+#text=Then it was time to plan the tree . 
+8-1	Then	O	O	RB	O
+8-2	it	O	O	PRP	O
+8-3	was	O	O	VBD	O
+8-4	time	O	O	NN	O
+8-5	to	8-6_aux	plan	TO	O
+8-6	plan	O	O	VB	O
+8-7	the	O	O	DT	O
+8-8	tree	8-6_dobj	plan	NN	P1_tree
+8-9	.	O	O	O	O
+
+#id=9
+#text=The tree was small , so I was able to remove it from the pot by putting it upside down . 
+9-1	The	O	O	DT	O
+9-2	tree	O	O	NN	P1_tree
+9-3	was	O	O	VBD	O
+9-4	small	O	O	JJ	O
+9-5	,	O	O	O	O
+9-6	so	O	O	IN	O
+9-7	I	O	O	PRP	P1_gardener
+9-8	was	O	O	VBD	O
+9-9	able	O	O	JJ	O
+9-10	to	9-11_aux	remove	TO	O
+9-11	remove	O	O	VB	O
+9-12	it	9-11_dobj	remove	PRP	P1_tree
+9-13	from	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	pot	9-11_prep_from	remove	NN	P1_wrapping
+9-16	by	O	O	O	O
+9-17	putting	9-11_prepc_by	remove	VBG	O
+9-18	it	9-17_dobj	putting	PRP	P1_tree
+9-19	upside	O	O	RB	O
+9-20	down	9-17_advmod	putting	RB	O
+9-21	.	O	O	O	O
+
+#id=10
+#text=I then gently placed the tree in the hole and then filled the hole back up with the dirt . 
+10-1	I	10-4_nsubj	placed	PRP	P1_gardener
+10-2	then	10-4_advmod	placed	RB	O
+10-3	gently	10-4_advmod	placed	RB	O
+10-4	placed	O	O	VBD	O
+10-5	the	O	O	DT	O
+10-6	tree	10-4_dobj	placed	NN	P1_tree
+10-7	in	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	hole	10-4_prep_in	placed	NN	P1_hole
+10-10	and	O	O	O	O
+10-11	then	10-12_advmod	filled	RB	O
+10-12	filled	10-4_conj_and	placed	VBD	O
+10-13	the	O	O	DT	O
+10-14	hole	10-12_dobj	filled	NN	P1_hole
+10-15	back	O	O	RB	O
+10-16	up	10-12_advmod	filled	RB	O
+10-17	with	O	O	O	O
+10-18	the	O	O	DT	O
+10-19	dirt	10-12_prep_with	filled	NN	P1_dirt
+10-20	.	O	O	O	O
+
+#id=11
+#text=The next thing I did was add mulch around the area of the tree . 
+11-1	The	O	O	DT	O
+11-2	next	O	O	JJ	O
+11-3	thing	11-6_nsubj	was	NN	O
+11-4	I	11-5_nsubj	did	PRP	P1_gardener
+11-5	did	O	O	VBD	O
+11-6	was	O	O	VBD	O
+11-7	add	11-6_ccomp	was	VB	O
+11-8	mulch	11-7_dobj	add	NN	P1_fertilizer
+11-9	around	O	O	O	O
+11-10	the	O	O	DT	O
+11-11	area	11-7_prep_around	add	NN	P1_location_garden
+11-12	of	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	tree	O	O	NN	P1_tree
+11-15	.	O	O	O	O
+
+#id=12
+#text=Once the mulch was added , I put a stake in the ground and tied it to the tree . 
+12-1	Once	12-5_mark	added	IN	O
+12-2	the	O	O	DT	O
+12-3	mulch	12-5_nsubjpass	added	NN	P1_fertilizer
+12-4	was	12-5_auxpass	added	VBD	O
+12-5	added	12-8_advcl	put	VBN	O
+12-6	,	O	O	O	O
+12-7	I	12-8_nsubj	put	PRP	P1_gardener
+12-8	put	O	O	VBD	O
+12-9	a	O	O	DT	O
+12-10	stake	12-8_dobj	put	NN	P1_stake
+12-11	in	O	O	O	O
+12-12	the	O	O	DT	O
+12-13	ground	12-8_prep_in	put	NN	P1_dirt
+12-14	and	O	O	O	O
+12-15	tied	12-8_conj_and	put	VBD	O
+12-16	it	12-15_dobj	tied	PRP	P1_stake
+12-17	to	O	O	O	O
+12-18	the	O	O	DT	O
+12-19	tree	12-15_prep_to	tied	NN	P1_tree
+12-20	.	O	O	O	O
+
+#id=13
+#text=This was to hold the tree in place as it grows for the first year . 
+13-1	This	13-2_nsubj	was	DT	P1_stake
+13-2	was	O	O	VBD	O
+13-3	to	13-4_aux	hold	TO	O
+13-4	hold	13-2_xcomp	was	VB	O
+13-5	the	O	O	DT	O
+13-6	tree	13-4_dobj	hold	NN	P1_tree
+13-7	in	O	O	O	O
+13-8	place	13-4_prep_in	hold	NN	O
+13-9	as	13-11_mark	grows	IN	O
+13-10	it	13-11_nsubj	grows	PRP	P1_tree
+13-11	grows	13-4_advcl	hold	VBZ	O
+13-12	for	O	O	O	O
+13-13	the	O	O	DT	O
+13-14	first	O	O	JJ	O
+13-15	year	13-11_prep_for	grows	NN	P1_time
+13-16	.	O	O	O	O

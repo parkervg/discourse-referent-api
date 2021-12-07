@@ -1,0 +1,216 @@
+#id=1
+#text=I decided I wanted to take a nice , luxurious bath . 
+1-1	I	1-2_nsubj	decided	PRP	P1_bather
+1-2	decided	O	O	VBD	O
+1-3	I	1-4_nsubj	wanted	PRP	P1_bather
+1-4	wanted	1-2_ccomp	decided	VBD	O
+1-5	to	1-6_aux	take	TO	O
+1-6	take	1-4_xcomp	wanted	VB	O
+1-7	a	O	O	DT	O
+1-8	nice	O	O	JJ	O
+1-9	,	O	O	O	O
+1-10	luxurious	O	O	JJ	O
+1-11	bath	1-6_dobj	take	NN	O
+1-12	.	O	O	O	O
+
+#id=2
+#text=First , I went through my bathroom cabinets and found some really nice smelling bath salts . 
+2-1	First	2-4_advmod	went	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	went	PRP	P1_bather
+2-4	went	O	O	VBD	O
+2-5	through	O	O	O	O
+2-6	my	O	O	PRP$	P1_bather
+2-7	bathroom	O	O	NN	O
+2-8	cabinets	2-4_prep_through	went	NNS	P1_NPart_cabinets
+2-9	and	O	O	O	O
+2-10	found	2-4_conj_and	went	VBD	O
+2-11	some	2-14_nsubj	smelling	DT	O
+2-12	really	O	O	RB	O
+2-13	nice	2-14_dep	smelling	JJ	O
+2-14	smelling	2-10_xcomp	found	VBG	O
+2-15	bath	O	O	NN	O
+2-16	salts	2-14_dobj	smelling	NNS	P1_bath_means
+2-17	.	O	O	O	O
+
+#id=3
+#text=I found my biggest , fluffiest towel and set it next to the bathtub . 
+3-1	I	3-2_nsubj	found	PRP	P1_bather
+3-2	found	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_bather
+3-4	biggest	3-2_dobj	found	JJS	O
+3-5	,	O	O	O	O
+3-6	fluffiest	3-2_conj_and	found	VBP	O
+3-7	towel	3-6_dobj	fluffiest	NN	P1_towel
+3-8	and	O	O	O	O
+3-9	set	3-2_conj_and	found	VBD	O
+3-10	it	O	O	PRP	P1_towel
+3-11	next	3-9_xcomp	set	JJ	O
+3-12	to	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	bathtub	O	O	NN	P1_bathtub
+3-15	.	O	O	O	O
+
+#id=4
+#text=I turned on the water and let it run until it was hot . 
+4-1	I	4-2_nsubj	turned	PRP	P1_bather
+4-2	turned	O	O	VBD	O
+4-3	on	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	water	4-2_prep_on	turned	NN	P1_water
+4-6	and	O	O	O	O
+4-7	let	4-2_conj_and	turned	VBD	O
+4-8	it	4-9_nsubj	run	PRP	P1_water
+4-9	run	4-7_ccomp	let	VBP	O
+4-10	until	O	O	IN	O
+4-11	it	O	O	PRP	P1_water
+4-12	was	O	O	VBD	O
+4-13	hot	4-9_advcl	run	JJ	O
+4-14	.	O	O	O	O
+
+#id=5
+#text=Once the water ran hot , I shut the drain , so the water would fill up the top . 
+5-1	Once	5-4_mark	ran	IN	O
+5-2	the	O	O	DT	O
+5-3	water	5-4_nsubj	ran	NN	P1_water
+5-4	ran	5-8_advcl	shut	VBD	O
+5-5	hot	5-4_acomp	ran	JJ	O
+5-6	,	O	O	O	O
+5-7	I	5-8_nsubj	shut	PRP	P1_bather
+5-8	shut	O	O	VBD	O
+5-9	the	O	O	DT	O
+5-10	drain	5-8_dobj	shut	NN	P1_drain
+5-11	,	O	O	O	O
+5-12	so	5-8_dep	shut	IN	O
+5-13	the	O	O	DT	O
+5-14	water	5-16_nsubj	fill	NN	P1_water
+5-15	would	5-16_aux	fill	MD	O
+5-16	fill	5-8_parataxis	shut	VB	O
+5-17	up	5-16_prt	fill	RP	O
+5-18	the	O	O	DT	O
+5-19	top	5-16_dobj	fill	NN	O
+5-20	.	O	O	O	O
+
+#id=6
+#text=Then I poured my nice smelling bath salts into the tub . 
+6-1	Then	6-3_advmod	poured	RB	O
+6-2	I	6-3_nsubj	poured	PRP	P1_bather
+6-3	poured	O	O	VBD	O
+6-4	my	O	O	PRP$	P1_bather
+6-5	nice	O	O	JJ	O
+6-6	smelling	O	O	JJ	O
+6-7	bath	O	O	NN	O
+6-8	salts	6-3_dobj	poured	NNS	P1_bath_means
+6-9	into	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	tub	6-3_prep_into	poured	NN	P1_bathtub
+6-12	.	O	O	O	O
+
+#id=7
+#text=They turned the water a lovely pink color . 
+7-1	They	7-2_nsubj	turned	PRP	P1_bath_means
+7-2	turned	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	water	7-2_dobj	turned	NN	P1_water
+7-5	a	O	O	DT	O
+7-6	lovely	O	O	JJ	O
+7-7	pink	O	O	JJ	O
+7-8	color	O	O	NN	P1_NPart_color
+7-9	.	O	O	O	O
+
+#id=8
+#text=I watched the water fill up the tub and the bathroom became steamy . 
+8-1	I	8-2_nsubj	watched	PRP	P1_bather
+8-2	watched	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	water	8-5_nsubj	fill	NN	P1_water
+8-5	fill	8-2_ccomp	watched	VB	O
+8-6	up	8-5_prt	fill	RP	O
+8-7	the	O	O	DT	O
+8-8	tub	8-5_dobj	fill	NN	P1_bathtub
+8-9	and	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	bathroom	8-12_nsubj	became	NN	P1_bathroom
+8-12	became	8-2_conj_and	watched	VBD	O
+8-13	steamy	8-12_advmod	became	RB	O
+8-14	.	O	O	O	O
+
+#id=9
+#text=I grabbed a washcloth from the cabinet and got in the water . 
+9-1	I	9-2_nsubj	grabbed	PRP	P1_bather
+9-2	grabbed	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	washcloth	9-2_dobj	grabbed	NN	P1_washing_tools
+9-5	from	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	cabinet	9-2_prep_from	grabbed	NN	P1_NPart_cabinet
+9-8	and	O	O	O	O
+9-9	got	9-2_conj_and	grabbed	VBD	O
+9-10	in	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	water	9-9_prep_in	got	NN	P1_water
+9-13	.	O	O	O	O
+
+#id=10
+#text=It was hot and smelled wonderful . 
+10-1	It	O	O	PRP	P1_water
+10-2	was	O	O	VBD	O
+10-3	hot	O	O	JJ	O
+10-4	and	O	O	O	O
+10-5	smelled	O	O	VBD	O
+10-6	wonderful	10-5_acomp	smelled	JJ	O
+10-7	.	O	O	O	O
+
+#id=11
+#text=I let myself relax and enjoy the experience . 
+11-1	I	11-2_nsubj	let	PRP	P1_bather
+11-2	let	O	O	VBD	O
+11-3	myself	11-4_nsubj	relax	PRP	P1_bather
+11-4	relax	11-2_ccomp	let	VBP	O
+11-5	and	O	O	O	O
+11-6	enjoy	11-4_conj_and	relax	VBP	O
+11-7	the	O	O	DT	O
+11-8	experience	11-4_dobj	relax	NN	P1_NPart_experience
+11-9	.	O	O	O	O
+
+#id=12
+#text=It was very quiet and I almost fell asleep . 
+12-1	It	O	O	PRP	O
+12-2	was	O	O	VBD	O
+12-3	very	O	O	RB	O
+12-4	quiet	O	O	JJ	O
+12-5	and	O	O	O	O
+12-6	I	12-8_nsubj	fell	PRP	P1_bather
+12-7	almost	12-8_advmod	fell	RB	O
+12-8	fell	O	O	VBD	O
+12-9	asleep	12-8_acomp	fell	RB	O
+12-10	.	O	O	O	O
+
+#id=13
+#text=When I was done , I emptied the water out of the drain , toweled myself off , and left the bathroom feeling very refreshed . 
+13-1	When	13-4_advmod	done	WRB	O
+13-2	I	13-4_nsubjpass	done	PRP	P1_bather
+13-3	was	13-4_auxpass	done	VBD	O
+13-4	done	13-7_advcl	emptied	VBN	O
+13-5	,	O	O	O	O
+13-6	I	13-7_nsubj	emptied	PRP	P1_bather
+13-7	emptied	O	O	VBZ	O
+13-8	the	O	O	DT	O
+13-9	water	13-7_dobj	emptied	NN	P1_water
+13-10	out	O	O	O	O
+13-11	of	O	O	O	O
+13-12	the	O	O	DT	O
+13-13	drain	13-7_prep_out_of	emptied	NN	P1_drain
+13-14	,	O	O	O	O
+13-15	toweled	13-7_conj_and	emptied	VBD	O
+13-16	myself	13-15_dobj	toweled	PRP	P1_bather
+13-17	off	13-15_prt	toweled	RP	O
+13-18	,	O	O	O	O
+13-19	and	O	O	O	O
+13-20	left	13-7_conj_and	emptied	VBD	O
+13-21	the	O	O	DT	O
+13-22	bathroom	O	O	NN	P1_bathroom
+13-23	feeling	O	O	NN	O
+13-24	very	O	O	RB	O
+13-25	refreshed	13-20_xcomp	left	JJ	O
+13-26	.	O	O	O	O

@@ -1,0 +1,186 @@
+#id=1
+#text=When riding bikes , sometimes the tires will go flat . 
+1-1	When	1-2_advmod	riding	WRB	O
+1-2	riding	1-9_advcl	go	VBG	O
+1-3	bikes	1-2_dobj	riding	NNS	P1_bicycle
+1-4	,	O	O	O	O
+1-5	sometimes	O	O	RB	O
+1-6	the	O	O	DT	O
+1-7	tires	1-9_nsubj	go	NNS	P1_tire
+1-8	will	1-9_aux	go	MD	O
+1-9	go	O	O	VB	O
+1-10	flat	1-9_acomp	go	JJ	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=This can happen either because you ran over something and there is a hole , or because the tire is leaking air somewhere . 
+2-1	This	2-3_nsubj	happen	DT	O
+2-2	can	2-3_aux	happen	MD	O
+2-3	happen	O	O	VB	O
+2-4	either	2-3_advmod	happen	RB	O
+2-5	because	2-7_mark	ran	IN	O
+2-6	you	2-7_nsubj	ran	PRP	P1_rider
+2-7	ran	2-3_advcl	happen	VBD	O
+2-8	over	O	O	O	O
+2-9	something	2-7_prep_over	ran	NN	P1_object_damage
+2-10	and	O	O	O	O
+2-11	there	2-12_expl	is	EX	O
+2-12	is	2-7_conj_and	ran	VBZ	O
+2-13	a	O	O	DT	O
+2-14	hole	2-12_nsubj	is	NN	P1_damage
+2-15	,	O	O	O	O
+2-16	or	O	O	O	O
+2-17	because	2-21_mark	leaking	IN	O
+2-18	the	O	O	DT	O
+2-19	tire	2-21_nsubj	leaking	NN	P1_tire
+2-20	is	2-21_aux	leaking	VBZ	O
+2-21	leaking	2-7_conj_or	ran	VBG	O
+2-22	air	2-21_dobj	leaking	NN	P1_air
+2-23	somewhere	2-21_advmod	leaking	RB	O
+2-24	.	O	O	O	O
+
+#id=3
+#text=Sometimes you can just get a pump and refill the tire with air , and sometimes you need to replace the entire thing . 
+3-1	Sometimes	3-5_advmod	get	RB	O
+3-2	you	3-5_nsubj	get	PRP	P1_rider
+3-3	can	3-5_aux	get	MD	O
+3-4	just	3-5_advmod	get	RB	O
+3-5	get	O	O	VB	O
+3-6	a	O	O	DT	O
+3-7	pump	3-5_dobj	get	NN	P1_tool
+3-8	and	O	O	O	O
+3-9	refill	3-5_conj_and	get	VB	O
+3-10	the	O	O	DT	O
+3-11	tire	3-9_dobj	refill	NN	P1_tire
+3-12	with	O	O	O	O
+3-13	air	3-9_prep_with	refill	NN	P1_air
+3-14	,	O	O	O	O
+3-15	and	O	O	O	O
+3-16	sometimes	3-18_advmod	need	RB	O
+3-17	you	3-18_nsubj	need	PRP	P1_rider
+3-18	need	3-5_conj_and	get	VBP	O
+3-19	to	3-20_aux	replace	TO	O
+3-20	replace	3-18_xcomp	need	VB	O
+3-21	the	O	O	DT	O
+3-22	entire	O	O	JJ	O
+3-23	thing	3-20_dobj	replace	NN	P1_tire
+3-24	.	O	O	O	O
+
+#id=4
+#text=There is this stuff that I have used before that worked for small holes though , it was like this foam stuff that is in a bottle . 
+4-1	There	4-2_expl	is	EX	O
+4-2	is	O	O	VBZ	O
+4-3	this	O	O	DT	O
+4-4	stuff	4-2_nsubj	is	NN	P1_patch
+4-5	that	4-8_mark	used	IN	P1_patch
+4-6	I	4-8_nsubj	used	PRP	P1_rider
+4-7	have	4-8_aux	used	VBP	O
+4-8	used	4-2_ccomp	is	VBN	O
+4-9	before	4-11_mark	worked	IN	O
+4-10	that	4-11_nsubj	worked	DT	P1_patch
+4-11	worked	4-8_advcl	used	VBD	O
+4-12	for	O	O	O	O
+4-13	small	O	O	JJ	O
+4-14	holes	4-11_prep_for	worked	NNS	P1_damage
+4-15	though	4-18_mark	was	IN	O
+4-16	,	O	O	O	O
+4-17	it	4-18_nsubj	was	PRP	P1_patch
+4-18	was	4-11_advcl	worked	VBD	O
+4-19	like	O	O	O	O
+4-20	this	O	O	DT	O
+4-21	foam	O	O	NN	O
+4-22	stuff	4-18_prep_like	was	NN	P1_patch
+4-23	that	4-24_nsubj	is	WDT	P1_patch
+4-24	is	O	O	VBZ	O
+4-25	in	O	O	O	O
+4-26	a	O	O	DT	O
+4-27	bottle	4-24_prep_in	is	NN	P1_NPart_bottle
+4-28	.	O	O	O	O
+
+#id=5
+#text=You just spray it in and let it sit for a little bit . 
+5-1	You	5-3_nsubj	spray	PRP	P1_rider
+5-2	just	5-3_advmod	spray	RB	O
+5-3	spray	O	O	VBZ	O
+5-4	it	5-3_dobj	spray	PRP	P1_patch
+5-5	in	5-3_prt	spray	RP	O
+5-6	and	O	O	O	O
+5-7	let	5-3_conj_and	spray	VBD	O
+5-8	it	5-9_nsubj	sit	PRP	P1_patch
+5-9	sit	5-7_ccomp	let	VBP	O
+5-10	for	O	O	O	O
+5-11	a	O	O	DT	O
+5-12	little	O	O	JJ	O
+5-13	bit	5-9_prep_for	sit	NN	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=the foam closes the hole up and you can refill the tire and everything works again if the hole was n't a bad one . 
+6-1	the	O	O	DT	O
+6-2	foam	6-3_nsubj	closes	NN	P1_patch
+6-3	closes	O	O	VBZ	O
+6-4	the	O	O	DT	O
+6-5	hole	6-3_dobj	closes	NN	P1_damage
+6-6	up	6-3_prt	closes	RP	O
+6-7	and	O	O	O	O
+6-8	you	6-10_nsubj	refill	PRP	P1_rider
+6-9	can	6-10_aux	refill	MD	O
+6-10	refill	6-3_conj_and	closes	VB	O
+6-11	the	O	O	DT	O
+6-12	tire	O	O	NN	P1_tire
+6-13	and	O	O	O	O
+6-14	everything	O	O	NN	P1_NPart_everything
+6-15	works	6-10_dobj	refill	NNS	O
+6-16	again	6-10_advmod	refill	RB	O
+6-17	if	O	O	IN	O
+6-18	the	O	O	DT	O
+6-19	hole	O	O	NN	P1_damage
+6-20	was	O	O	VBD	O
+6-21	n't	O	O	RB	O
+6-22	a	O	O	DT	O
+6-23	bad	O	O	JJ	O
+6-24	one	6-10_advcl	refill	NN	O
+6-25	.	O	O	O	O
+
+#id=7
+#text=If the tire is too far gone , you wo n't be able to repair it with anything and will end up replacing the whole thing or risk riding on the metal rims which can seriously damage your bike . 
+7-1	If	7-7_mark	gone	IN	O
+7-2	the	O	O	DT	O
+7-3	tire	7-7_nsubjpass	gone	NN	P1_tire
+7-4	is	7-7_auxpass	gone	VBZ	O
+7-5	too	7-7_advmod	gone	RB	O
+7-6	far	7-7_advmod	gone	RB	O
+7-7	gone	O	O	VBN	O
+7-8	,	O	O	O	O
+7-9	you	O	O	PRP	P1_rider
+7-10	wo	O	O	MD	O
+7-11	n't	O	O	RB	O
+7-12	be	O	O	VB	O
+7-13	able	O	O	JJ	O
+7-14	to	7-15_aux	repair	TO	O
+7-15	repair	O	O	VB	O
+7-16	it	7-15_dobj	repair	PRP	P1_tire
+7-17	with	O	O	O	O
+7-18	anything	7-15_prep_with	repair	NN	P1_NPart_anything
+7-19	and	O	O	O	O
+7-20	will	7-21_aux	end	MD	O
+7-21	end	O	O	VB	O
+7-22	up	7-21_prt	end	RP	O
+7-23	replacing	7-21_xcomp	end	VBG	O
+7-24	the	O	O	DT	O
+7-25	whole	O	O	JJ	O
+7-26	thing	7-23_dobj	replacing	NN	P1_tire
+7-27	or	O	O	O	O
+7-28	risk	O	O	NN	O
+7-29	riding	O	O	NN	O
+7-30	on	O	O	O	O
+7-31	the	O	O	DT	O
+7-32	metal	O	O	NN	O
+7-33	rims	O	O	NNS	P1_rim
+7-34	which	7-37_nsubj	damage	WDT	O
+7-35	can	7-37_aux	damage	MD	O
+7-36	seriously	7-37_advmod	damage	RB	O
+7-37	damage	O	O	VB	O
+7-38	your	O	O	PRP$	P1_rider
+7-39	bike	7-37_dobj	damage	NN	P1_bicycle
+7-40	.	O	O	O	O

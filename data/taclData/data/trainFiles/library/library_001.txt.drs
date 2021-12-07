@@ -1,0 +1,270 @@
+#id=1
+#text='' I love everything about libraries ; their quiet atmosphere , comfortable chairs , and rows and rows of books on every topic . 
+1-1	''	O	O	O	O
+1-2	I	1-3_nsubj	love	PRP	P1_customer
+1-3	love	O	O	VBP	O
+1-4	everything	1-3_dobj	love	NN	O
+1-5	about	O	O	O	O
+1-6	libraries	O	O	NNS	P1_library
+1-7	;	O	O	O	O
+1-8	their	O	O	PRP$	P1_library
+1-9	quiet	O	O	JJ	O
+1-10	atmosphere	O	O	NN	P1_NPart_atmosphere
+1-11	,	O	O	O	O
+1-12	comfortable	O	O	JJ	O
+1-13	chairs	O	O	NNS	P1_reading_area_furniture
+1-14	,	O	O	O	O
+1-15	and	O	O	O	O
+1-16	rows	O	O	NNS	P1_shelf
+1-17	and	O	O	O	O
+1-18	rows	O	O	NNS	P1_shelf
+1-19	of	O	O	O	O
+1-20	books	O	O	NNS	P1_book
+1-21	on	O	O	O	O
+1-22	every	O	O	DT	O
+1-23	topic	O	O	NN	P1_NPart_topic
+1-24	.	O	O	O	O
+
+#id=2
+#text=I do n't have enough money to go out and buy books whenever I want , so I often go to the library to borrow books for free . 
+2-1	I	2-4_nsubj	have	PRP	P1_customer
+2-2	do	2-4_aux	have	VBP	O
+2-3	n't	2-4_neg	have	RB	O
+2-4	have	O	O	VB	O
+2-5	enough	O	O	JJ	O
+2-6	money	2-4_dobj	have	NN	P1_NPart_money
+2-7	to	2-8_aux	go	TO	O
+2-8	go	O	O	VB	O
+2-9	out	2-8_prt	go	RP	O
+2-10	and	O	O	O	O
+2-11	buy	2-8_conj_and	go	VB	O
+2-12	books	2-11_dobj	buy	NNS	P1_book
+2-13	whenever	2-15_advmod	want	WRB	O
+2-14	I	2-15_nsubj	want	PRP	P1_customer
+2-15	want	2-11_advcl	buy	VBP	O
+2-16	,	O	O	O	O
+2-17	so	2-4_dep	have	IN	O
+2-18	I	2-20_nsubj	go	PRP	P1_customer
+2-19	often	2-20_advmod	go	RB	O
+2-20	go	2-4_parataxis	have	VBP	O
+2-21	to	O	O	O	O
+2-22	the	O	O	DT	O
+2-23	library	2-20_prep_to	go	NN	P1_library
+2-24	to	2-25_aux	borrow	TO	O
+2-25	borrow	O	O	VB	O
+2-26	books	2-25_dobj	borrow	NNS	P1_book
+2-27	for	O	O	O	O
+2-28	free	2-25_prep_for	borrow	JJ	O
+2-29	.	O	O	O	O
+
+#id=3
+#text=Recently , I decided to go to the library and just browse until I found something interesting . 
+3-1	Recently	3-4_advmod	decided	RB	O
+3-2	,	O	O	O	O
+3-3	I	3-4_nsubj	decided	PRP	P1_customer
+3-4	decided	O	O	VBD	O
+3-5	to	3-6_aux	go	TO	O
+3-6	go	3-4_xcomp	decided	VB	O
+3-7	to	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	library	3-6_prep_to	go	NN	P1_library
+3-10	and	O	O	O	O
+3-11	just	3-12_advmod	browse	RB	O
+3-12	browse	3-6_conj_and	go	VB	O
+3-13	until	3-15_mark	found	IN	O
+3-14	I	3-15_nsubj	found	PRP	P1_customer
+3-15	found	3-12_advcl	browse	VBD	O
+3-16	something	O	O	NN	P1_book
+3-17	interesting	3-15_xcomp	found	JJ	O
+3-18	.	O	O	O	O
+
+#id=4
+#text=I drove to the library and parked close to the door , since I expected to leave with an armful of heavy books . 
+4-1	I	4-2_nsubj	drove	PRP	P1_customer
+4-2	drove	O	O	VBD	O
+4-3	to	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	library	4-2_prep_to	drove	NN	P1_library
+4-6	and	O	O	O	O
+4-7	parked	4-2_conj_and	drove	VBN	O
+4-8	close	O	O	O	O
+4-9	to	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	door	4-7_prep_close_to	parked	NN	P1_NPart_door
+4-12	,	O	O	O	O
+4-13	since	4-15_mark	expected	IN	O
+4-14	I	4-15_nsubj	expected	PRP	P1_customer
+4-15	expected	4-7_advcl	parked	VBD	O
+4-16	to	4-17_aux	leave	TO	O
+4-17	leave	4-15_xcomp	expected	VB	O
+4-18	with	O	O	O	O
+4-19	an	O	O	DT	O
+4-20	armful	4-17_prep_with	leave	NN	P1_NPart_armful
+4-21	of	O	O	O	O
+4-22	heavy	O	O	JJ	O
+4-23	books	O	O	NNS	P1_book
+4-24	.	O	O	O	O
+
+#id=5
+#text=I walked inside and headed for the Fiction section . 
+5-1	I	5-2_nsubj	walked	PRP	P1_customer
+5-2	walked	O	O	VBD	O
+5-3	inside	5-2_advmod	walked	RB	O
+5-4	and	O	O	O	O
+5-5	headed	5-2_conj_and	walked	VBN	O
+5-6	for	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	Fiction	O	O	NNP	O
+5-9	section	5-5_prep_for	headed	NN	P1_location_library
+5-10	.	O	O	O	O
+
+#id=6
+#text=I ended up in the row for authors with last names starting with K , because I wanted to find Stephen King books . 
+6-1	I	6-2_nsubj	ended	PRP	P1_customer
+6-2	ended	O	O	VBD	O
+6-3	up	6-2_prt	ended	RP	O
+6-4	in	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	row	6-2_prep_in	ended	NN	P2_shelf
+6-7	for	O	O	O	O
+6-8	authors	O	O	NNS	P1_NPart_authors
+6-9	with	O	O	O	O
+6-10	last	O	O	JJ	O
+6-11	names	O	O	NNS	P1_NPart_names
+6-12	starting	6-2_xcomp	ended	VBG	O
+6-13	with	O	O	O	O
+6-14	K	6-12_prep_with	starting	NNP	O
+6-15	,	O	O	O	O
+6-16	because	6-18_mark	wanted	IN	O
+6-17	I	6-18_nsubj	wanted	PRP	P1_customer
+6-18	wanted	6-2_advcl	ended	VBD	O
+6-19	to	6-20_aux	find	TO	O
+6-20	find	6-18_xcomp	wanted	VB	O
+6-21	Stephen	O	O	NNP	O
+6-22	King	O	O	NNP	O
+6-23	books	6-20_dobj	find	NNS	P2_book
+6-24	.	O	O	O	O
+
+#id=7
+#text=They ended up having a dozen books by Stephen King , and I selected three that I had never read before . 
+7-1	They	7-2_nsubj	ended	PRP	P1_staff
+7-2	ended	O	O	VBD	O
+7-3	up	7-2_prt	ended	RP	O
+7-4	having	7-2_xcomp	ended	VBG	O
+7-5	a	O	O	DT	O
+7-6	dozen	O	O	NN	O
+7-7	books	7-4_dobj	having	NNS	P2_book
+7-8	by	O	O	O	O
+7-9	Stephen	O	O	NNP	O
+7-10	King	7-4_prep_by	having	NNP	P1_NPart_king
+7-11	,	O	O	O	O
+7-12	and	O	O	O	O
+7-13	I	7-14_nsubj	selected	PRP	P1_customer
+7-14	selected	7-2_conj_and	ended	VBD	O
+7-15	three	7-14_dobj	selected	CD	P2_book
+7-16	that	7-20_mark	read	IN	O
+7-17	I	7-20_nsubj	read	PRP	P1_customer
+7-18	had	7-20_aux	read	VBD	O
+7-19	never	7-20_neg	read	RB	O
+7-20	read	7-14_ccomp	selected	VBN	O
+7-21	before	7-20_advmod	read	RB	O
+7-22	.	O	O	O	O
+
+#id=8
+#text=Then I went over to Nonfiction to find a book on gardening , since I wanted to learn how to grow tomato plants . 
+8-1	Then	8-3_advmod	went	RB	O
+8-2	I	8-3_nsubj	went	PRP	P1_customer
+8-3	went	O	O	VBD	O
+8-4	over	8-3_prt	went	RP	O
+8-5	to	O	O	O	O
+8-6	Nonfiction	8-3_prep_to	went	NNP	P2_location_library
+8-7	to	8-8_aux	find	TO	O
+8-8	find	8-3_xcomp	went	VB	O
+8-9	a	O	O	DT	O
+8-10	book	8-8_dobj	find	NN	P2_customer
+8-11	on	O	O	O	O
+8-12	gardening	8-8_prep_on	find	NN	O
+8-13	,	O	O	O	O
+8-14	since	8-16_mark	wanted	IN	O
+8-15	I	8-16_nsubj	wanted	PRP	P1_customer
+8-16	wanted	8-3_advcl	went	VBD	O
+8-17	to	8-18_aux	learn	TO	O
+8-18	learn	8-16_xcomp	wanted	VB	O
+8-19	how	8-21_advmod	grow	WRB	O
+8-20	to	8-21_aux	grow	TO	O
+8-21	grow	8-18_ccomp	learn	VB	O
+8-22	tomato	O	O	NN	O
+8-23	plants	8-21_dobj	grow	NNS	P1_NPart_plants
+8-24	.	O	O	O	O
+
+#id=9
+#text=I picked up a gigantic , fantastically long book on how to grow common vegetables and walked over to the reception desk . 
+9-1	I	9-2_nsubj	picked	PRP	P1_customer
+9-2	picked	O	O	VBD	O
+9-3	up	9-2_prt	picked	RP	O
+9-4	a	O	O	DT	O
+9-5	gigantic	O	O	JJ	O
+9-6	,	O	O	O	O
+9-7	fantastically	O	O	JJ	O
+9-8	long	O	O	JJ	O
+9-9	book	9-2_dobj	picked	NN	P3_book
+9-10	on	O	O	O	O
+9-11	how	9-13_advmod	grow	WRB	O
+9-12	to	9-13_aux	grow	TO	O
+9-13	grow	O	O	VB	O
+9-14	common	O	O	JJ	O
+9-15	vegetables	9-13_dobj	grow	NNS	P1_NPart_vegetables
+9-16	and	O	O	O	O
+9-17	walked	9-2_conj_and	picked	VBD	O
+9-18	over	9-17_prt	walked	RP	O
+9-19	to	O	O	O	O
+9-20	the	O	O	DT	O
+9-21	reception	O	O	NN	O
+9-22	desk	9-17_prep_to	walked	NN	P1_check-out_desk
+9-23	.	O	O	O	O
+
+#id=10
+#text=I handed the librarian my card and she checked out my books . 
+10-1	I	10-2_nsubj	handed	PRP	P1_customer
+10-2	handed	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	librarian	10-2_iobj	handed	NN	P2_staff
+10-5	my	O	O	PRP$	P1_customer
+10-6	card	10-2_dobj	handed	NN	P1_library_card
+10-7	and	O	O	O	O
+10-8	she	10-9_nsubj	checked	PRP	P2_staff
+10-9	checked	10-2_conj_and	handed	VBD	O
+10-10	out	10-9_prt	checked	RP	O
+10-11	my	O	O	PRP$	P1_customer
+10-12	books	10-9_dobj	checked	NNS	P1_book
+10-13	.	O	O	O	O
+
+#id=11
+#text=I gathered them up in my arms and walked back to my car , excited to be able to read them all once I got home . 
+11-1	I	11-2_nsubj	gathered	PRP	P1_customer
+11-2	gathered	O	O	VBD	O
+11-3	them	11-2_dobj	gathered	PRP	P1_book
+11-4	up	11-2_prt	gathered	RP	O
+11-5	in	O	O	O	O
+11-6	my	O	O	PRP$	P1_customer
+11-7	arms	11-2_prep_in	gathered	NNS	P1_NPart_arms
+11-8	and	O	O	O	O
+11-9	walked	11-2_conj_and	gathered	VBD	O
+11-10	back	11-9_prt	walked	RP	O
+11-11	to	O	O	O	O
+11-12	my	O	O	PRP$	P1_customer
+11-13	car	11-9_prep_to	walked	NN	P1_NPart_car
+11-14	,	O	O	O	O
+11-15	excited	O	O	VBN	O
+11-16	to	O	O	TO	O
+11-17	be	O	O	VB	O
+11-18	able	11-15_xcomp	excited	JJ	O
+11-19	to	11-20_aux	read	TO	O
+11-20	read	O	O	VB	O
+11-21	them	11-20_dobj	read	PRP	P1_book
+11-22	all	O	O	DT	O
+11-23	once	11-20_advmod	read	RB	O
+11-24	I	11-25_nsubj	got	PRP	P1_customer
+11-25	got	O	O	VBD	O
+11-26	home	11-25_dobj	got	NN	P1_NPart_home
+11-27	.	O	O	O	O

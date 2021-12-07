@@ -1,0 +1,210 @@
+#id=1
+#text=I made sure to look up the train schedule in advance to make sure I knew which train I needed to check . 
+1-1	I	1-2_nsubj	made	PRP	P1_passenger
+1-2	made	O	O	VBD	O
+1-3	sure	1-2_acomp	made	JJ	O
+1-4	to	1-5_aux	look	TO	O
+1-5	look	O	O	VB	O
+1-6	up	1-5_prt	look	RP	O
+1-7	the	O	O	DT	O
+1-8	train	O	O	NN	O
+1-9	schedule	1-5_dobj	look	NN	P1_time-table
+1-10	in	O	O	O	O
+1-11	advance	O	O	NN	O
+1-12	to	1-13_aux	make	TO	O
+1-13	make	1-5_vmod	look	VB	O
+1-14	sure	1-13_acomp	make	JJ	O
+1-15	I	1-16_nsubj	knew	PRP	P1_passenger
+1-16	knew	O	O	VBD	O
+1-17	which	O	O	WDT	O
+1-18	train	1-20_dobj	needed	NN	P1_train
+1-19	I	1-20_nsubj	needed	PRP	P1_passenger
+1-20	needed	1-16_ccomp	knew	VBD	O
+1-21	to	1-22_aux	check	TO	O
+1-22	check	1-20_xcomp	needed	VB	O
+1-23	.	O	O	O	O
+
+#id=2
+#text=Then , I went a day early to purchase my tickets to made sure I had them , since this was not a trip I made every day . 
+2-1	Then	2-4_advmod	went	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	went	PRP	P1_passenger
+2-4	went	O	O	VBD	O
+2-5	a	O	O	DT	O
+2-6	day	2-9_nsubj	purchase	NN	P1_NPart_day
+2-7	early	2-9_advmod	purchase	RB	O
+2-8	to	2-9_aux	purchase	TO	O
+2-9	purchase	2-4_ccomp	went	VB	O
+2-10	my	O	O	PRP$	P1_passenger
+2-11	tickets	2-9_dobj	purchase	NNS	P1_card/ticket
+2-12	to	2-13_aux	made	TO	O
+2-13	made	2-9_vmod	purchase	VBN	O
+2-14	sure	2-13_acomp	made	JJ	O
+2-15	I	2-16_nsubj	had	PRP	P1_passenger
+2-16	had	O	O	VBD	O
+2-17	them	2-16_dobj	had	PRP	P1_card/ticket
+2-18	,	O	O	O	O
+2-19	since	O	O	IN	O
+2-20	this	O	O	DT	O
+2-21	was	O	O	VBD	O
+2-22	not	O	O	RB	O
+2-23	a	O	O	DT	O
+2-24	trip	2-16_advcl	had	NN	P1_trip
+2-25	I	2-26_nsubj	made	PRP	P1_passenger
+2-26	made	O	O	VBD	O
+2-27	every	O	O	DT	O
+2-28	day	2-26_tmod	made	NN	P1_time_date
+2-29	.	O	O	O	O
+
+#id=3
+#text=On the day of my trip , I checked the schedule to make sure there were no delays or cancellations . 
+3-1	On	O	O	O	O
+3-2	the	O	O	DT	O
+3-3	day	3-9_prep_on	checked	NN	P2_NPart_day
+3-4	of	O	O	O	O
+3-5	my	O	O	PRP$	P1_passenger
+3-6	trip	O	O	NN	P1_trip
+3-7	,	O	O	O	O
+3-8	I	3-9_nsubj	checked	PRP	P1_passenger
+3-9	checked	O	O	VBD	O
+3-10	the	O	O	DT	O
+3-11	schedule	3-9_dobj	checked	NN	P1_time-table
+3-12	to	3-13_aux	make	TO	O
+3-13	make	O	O	VB	O
+3-14	sure	3-13_acomp	make	JJ	O
+3-15	there	3-16_expl	were	EX	O
+3-16	were	O	O	VBD	O
+3-17	no	O	O	DT	O
+3-18	delays	3-16_nsubj	were	NNS	P1_NPart_delays
+3-19	or	O	O	O	O
+3-20	cancellations	O	O	NNS	P1_NPart_cancellations
+3-21	.	O	O	O	O
+
+#id=4
+#text=I made sure to arrive at the train station at least 10 minutes early , with all my bags and luggage . 
+4-1	I	4-2_nsubj	made	PRP	P1_passenger
+4-2	made	O	O	VBD	O
+4-3	sure	4-2_acomp	made	JJ	O
+4-4	to	4-5_aux	arrive	TO	O
+4-5	arrive	O	O	VB	O
+4-6	at	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	train	O	O	NN	O
+4-9	station	4-5_prep_at	arrive	NN	P1_train_station
+4-10	at	O	O	IN	O
+4-11	least	O	O	JJS	O
+4-12	10	O	O	CD	O
+4-13	minutes	4-2_dobj	made	NNS	P2_time_date
+4-14	early	O	O	RB	O
+4-15	,	O	O	O	O
+4-16	with	4-2_dep	made	IN	O
+4-17	all	O	O	PDT	O
+4-18	my	O	O	PRP$	P1_passenger
+4-19	bags	O	O	NNS	P1_luggage
+4-20	and	O	O	O	O
+4-21	luggage	O	O	RB	P2_luggage
+4-22	.	O	O	O	O
+
+#id=5
+#text=I boarded the train and greeted the conductor and showed him my ticket . 
+5-1	I	5-2_nsubj	boarded	PRP	P1_passenger
+5-2	boarded	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	train	5-2_dobj	boarded	NN	P1_train
+5-5	and	O	O	O	O
+5-6	greeted	5-2_conj_and	boarded	VBD	O
+5-7	the	O	O	DT	O
+5-8	conductor	5-6_dobj	greeted	NN	P1_train_staff
+5-9	and	O	O	O	O
+5-10	showed	5-6_conj_and	greeted	VBD	O
+5-11	him	5-10_dobj	showed	PRP	P1_train_staff
+5-12	my	O	O	PRP$	P1_passenger
+5-13	ticket	5-6_dobj	greeted	NN	P1_card/ticket
+5-14	.	O	O	O	O
+
+#id=6
+#text=Then , I picked a spot that was open and sat down quietly . 
+6-1	Then	6-4_advmod	picked	RB	O
+6-2	,	O	O	O	O
+6-3	I	6-4_nsubj	picked	PRP	P1_passenger
+6-4	picked	O	O	VBD	O
+6-5	a	O	O	DT	O
+6-6	spot	6-4_dobj	picked	NN	P1_seat
+6-7	that	O	O	WDT	P1_seat
+6-8	was	O	O	VBD	O
+6-9	open	O	O	JJ	O
+6-10	and	O	O	O	O
+6-11	sat	6-4_conj_and	picked	VBD	O
+6-12	down	6-11_prt	sat	RP	O
+6-13	quietly	6-11_advmod	sat	RB	O
+6-14	.	O	O	O	O
+
+#id=7
+#text=Since this train had many stops , I needed to be aware of when my stop was coming up so I would not miss it . 
+7-1	Since	7-4_mark	had	IN	O
+7-2	this	O	O	DT	O
+7-3	train	7-4_nsubj	had	NN	P1_train
+7-4	had	7-9_advcl	needed	VBD	O
+7-5	many	O	O	JJ	O
+7-6	stops	7-4_dobj	had	NNS	P1_destination
+7-7	,	O	O	O	O
+7-8	I	7-9_nsubj	needed	PRP	P1_passenger
+7-9	needed	O	O	VBD	O
+7-10	to	O	O	TO	O
+7-11	be	O	O	VB	O
+7-12	aware	7-9_xcomp	needed	JJ	O
+7-13	of	O	O	O	O
+7-14	when	7-18_advmod	coming	WRB	O
+7-15	my	O	O	PRP$	P1_passenger
+7-16	stop	7-18_nsubj	coming	NN	P1_destination
+7-17	was	7-18_aux	coming	VBD	O
+7-18	coming	O	O	VBG	O
+7-19	up	7-18_prt	coming	RP	O
+7-20	so	7-24_mark	miss	IN	O
+7-21	I	7-24_nsubj	miss	PRP	P1_passenger
+7-22	would	7-24_aux	miss	MD	O
+7-23	not	7-24_neg	miss	RB	O
+7-24	miss	7-18_advcl	coming	VB	O
+7-25	it	7-24_dobj	miss	PRP	P1_destination
+7-26	.	O	O	O	O
+
+#id=8
+#text=As my stop approached , I pressed the stop request button and started to get up . 
+8-1	As	8-4_mark	approached	IN	O
+8-2	my	O	O	PRP$	P1_passenger
+8-3	stop	8-4_nsubj	approached	NN	P1_destination
+8-4	approached	8-7_advcl	pressed	VBD	O
+8-5	,	O	O	O	O
+8-6	I	8-7_nsubj	pressed	PRP	P1_passenger
+8-7	pressed	O	O	VBD	O
+8-8	the	O	O	DT	O
+8-9	stop	O	O	NN	O
+8-10	request	O	O	NN	O
+8-11	button	8-7_dobj	pressed	NN	P1_other
+8-12	and	O	O	O	O
+8-13	started	8-7_conj_and	pressed	VBD	O
+8-14	to	8-15_aux	get	TO	O
+8-15	get	8-13_xcomp	started	VB	O
+8-16	up	8-15_prt	get	RP	O
+8-17	.	O	O	O	O
+
+#id=9
+#text=Once the train stopped , I wished the conductor a nice day and got off the train . 
+9-1	Once	9-4_mark	stopped	IN	O
+9-2	the	O	O	DT	O
+9-3	train	9-4_nsubj	stopped	NN	P1_train
+9-4	stopped	9-7_advcl	wished	VBD	O
+9-5	,	O	O	O	O
+9-6	I	9-7_nsubj	wished	PRP	P1_passenger
+9-7	wished	O	O	VBD	O
+9-8	the	O	O	DT	O
+9-9	conductor	9-7_dobj	wished	NN	P1_train_staff
+9-10	a	O	O	DT	O
+9-11	nice	O	O	JJ	O
+9-12	day	9-7_tmod	wished	NN	P3_NPart_day
+9-13	and	O	O	O	O
+9-14	got	9-7_conj_and	wished	VBD	O
+9-15	off	9-14_prt	got	RP	O
+9-16	the	O	O	DT	O
+9-17	train	9-14_dobj	got	NN	P1_train
+9-18	.	O	O	O	O

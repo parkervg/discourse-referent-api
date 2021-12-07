@@ -1,0 +1,232 @@
+#id=1
+#text=My friend and I took the bus last week to the mall . 
+1-1	My	O	O	PRP$	O
+1-2	friend	1-5_nsubj	took	NN	O
+1-3	and	O	O	O	O
+1-4	I	O	O	PRP	P1_passenger
+1-5	took	O	O	VBD	O
+1-6	the	O	O	DT	O
+1-7	bus	1-5_dobj	took	NN	P1_bus
+1-8	last	O	O	JJ	O
+1-9	week	1-5_tmod	took	NN	P1_NPart_week
+1-10	to	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	mall	1-5_prep_to	took	NN	P1_destination
+1-13	.	O	O	O	O
+
+#id=2
+#text=This was a fun trip that last for a few hours back and forth . 
+2-1	This	O	O	DT	O
+2-2	was	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	fun	O	O	NN	O
+2-5	trip	O	O	NN	P1_ride
+2-6	that	2-7_nsubj	last	WDT	O
+2-7	last	O	O	VBP	O
+2-8	for	O	O	O	O
+2-9	a	O	O	DT	O
+2-10	few	O	O	JJ	O
+2-11	hours	2-7_prep_for	last	NNS	P1_time/date
+2-12	back	2-7_advmod	last	RB	O
+2-13	and	O	O	O	O
+2-14	forth	O	O	RB	O
+2-15	.	O	O	O	O
+
+#id=3
+#text=In the morning we got up early to wait outside the bus stop near our houses . 
+3-1	In	O	O	O	O
+3-2	the	O	O	DT	O
+3-3	morning	3-5_prep_in	got	NN	P2_time/date
+3-4	we	3-5_nsubj	got	PRP	P1_passenger
+3-5	got	O	O	VBD	O
+3-6	up	O	O	RB	O
+3-7	early	3-5_advmod	got	RB	O
+3-8	to	3-9_aux	wait	TO	O
+3-9	wait	3-5_xcomp	got	VB	O
+3-10	outside	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	bus	O	O	NN	O
+3-13	stop	3-9_prep_outside	wait	NN	P1_bus_stop
+3-14	near	O	O	O	O
+3-15	our	O	O	PRP$	P1_passenger
+3-16	houses	O	O	NNS	P1_NPart_houses
+3-17	.	O	O	O	O
+
+#id=4
+#text=When the bus came on time we got on board and paid for our tickets through the machine . 
+4-1	When	4-4_advmod	came	WRB	O
+4-2	the	O	O	DT	O
+4-3	bus	4-4_nsubj	came	NN	P1_bus
+4-4	came	4-8_advcl	got	VBD	O
+4-5	on	O	O	O	O
+4-6	time	4-4_prep_on	came	NN	O
+4-7	we	4-8_nsubj	got	PRP	P1_passenger
+4-8	got	O	O	VBD	O
+4-9	on	O	O	O	O
+4-10	board	4-8_prep_on	got	NN	O
+4-11	and	O	O	O	O
+4-12	paid	4-8_conj_and	got	VBD	O
+4-13	for	O	O	O	O
+4-14	our	O	O	PRP$	P1_passenger
+4-15	tickets	4-12_prep_for	paid	NNS	P1_card/ticket
+4-16	through	O	O	O	O
+4-17	the	O	O	DT	O
+4-18	machine	4-12_prep_through	paid	NN	P1_payment_machine
+4-19	.	O	O	O	O
+
+#id=5
+#text=My friend swiped his bus card and I paid in cash . 
+5-1	My	O	O	PRP$	P1_passenger
+5-2	friend	5-3_nsubj	swiped	NN	P1_passenger
+5-3	swiped	O	O	VBD	O
+5-4	his	O	O	PRP$	P1_passenger
+5-5	bus	O	O	NN	O
+5-6	card	5-3_dobj	swiped	NN	P2_card/ticket
+5-7	and	O	O	O	O
+5-8	I	5-9_nsubj	paid	PRP	P1_passenger
+5-9	paid	5-3_conj_and	swiped	VBD	O
+5-10	in	O	O	O	O
+5-11	cash	5-9_prep_in	paid	NN	P1_money
+5-12	.	O	O	O	O
+
+#id=6
+#text=After we got on we both went to the back where there were two empty seats . 
+6-1	After	6-3_mark	got	IN	O
+6-2	we	6-3_nsubj	got	PRP	P1_passenger
+6-3	got	6-7_advcl	went	VBD	O
+6-4	on	O	O	O	O
+6-5	we	6-3_prep_on	got	PRP	P1_passenger
+6-6	both	6-7_nsubj	went	DT	O
+6-7	went	O	O	VBD	O
+6-8	to	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	back	6-7_prep_to	went	NN	P1_NPart_back
+6-11	where	6-13_advmod	were	WRB	O
+6-12	there	6-13_expl	were	EX	O
+6-13	were	6-7_advcl	went	VBD	O
+6-14	two	O	O	CD	O
+6-15	empty	O	O	JJ	O
+6-16	seats	6-13_nsubj	were	NNS	P1_seat_in_bus
+6-17	.	O	O	O	O
+
+#id=7
+#text=After stopping at 5 stops we transferred buses at the local station . 
+7-1	After	O	O	O	O
+7-2	stopping	7-7_prepc_after	transferred	VBG	O
+7-3	at	O	O	O	O
+7-4	5	O	O	CD	O
+7-5	stops	7-2_prep_at	stopping	NNS	P2_bus_stop
+7-6	we	7-7_nsubj	transferred	PRP	P1_passenger
+7-7	transferred	O	O	VBD	O
+7-8	buses	7-7_dobj	transferred	NNS	P2_bus
+7-9	at	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	local	O	O	JJ	O
+7-12	station	7-7_prep_at	transferred	NN	P3_bus_stop
+7-13	.	O	O	O	O
+
+#id=8
+#text=This would allow us to take the right route to the mall . 
+8-1	This	8-3_nsubj	allow	DT	O
+8-2	would	8-3_aux	allow	MD	O
+8-3	allow	O	O	VB	O
+8-4	us	8-3_dobj	allow	PRP	P1_passenger
+8-5	to	8-6_aux	take	TO	O
+8-6	take	8-3_xcomp	allow	VB	O
+8-7	the	O	O	DT	O
+8-8	right	O	O	JJ	O
+8-9	route	8-6_dobj	take	NN	P1_route
+8-10	to	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	mall	8-6_prep_to	take	NN	P1_destination
+8-13	.	O	O	O	O
+
+#id=9
+#text=After coming back from the mall we took the same bus . 
+9-1	After	O	O	O	O
+9-2	coming	9-8_prepc_after	took	VBG	O
+9-3	back	9-2_prt	coming	RP	O
+9-4	from	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	mall	9-2_prep_from	coming	NN	P1_destination
+9-7	we	9-8_nsubj	took	PRP	P1_passenger
+9-8	took	O	O	VBD	O
+9-9	the	O	O	DT	O
+9-10	same	O	O	JJ	O
+9-11	bus	9-8_dobj	took	NN	P1_bus
+9-12	.	O	O	O	O
+
+#id=10
+#text=There were a lot more people in the afternoon . 
+10-1	There	10-2_expl	were	EX	O
+10-2	were	O	O	VBD	O
+10-3	a	O	O	DT	O
+10-4	lot	O	O	RB	O
+10-5	more	O	O	JJR	O
+10-6	people	10-2_nsubj	were	NNS	P2_passenger
+10-7	in	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	afternoon	O	O	NN	P3_time/date
+10-10	.	O	O	O	O
+
+#id=11
+#text=At one point there were no seats left and two old ladies got on board . 
+11-1	At	O	O	O	O
+11-2	one	O	O	CD	O
+11-3	point	11-5_prep_at	were	NN	O
+11-4	there	11-5_expl	were	EX	O
+11-5	were	O	O	VBD	O
+11-6	no	O	O	DT	O
+11-7	seats	11-5_nsubj	were	NNS	P2_seat_in_bus
+11-8	left	O	O	VBN	O
+11-9	and	O	O	O	O
+11-10	two	O	O	CD	O
+11-11	old	O	O	JJ	O
+11-12	ladies	11-13_nsubj	got	NNS	P3_passenger
+11-13	got	11-5_conj_and	were	VBD	O
+11-14	on	O	O	O	O
+11-15	board	11-13_prep_on	got	NN	O
+11-16	.	O	O	O	O
+
+#id=12
+#text=My friend an I decided to be polite and gave them our seats while we stood . 
+12-1	My	O	O	PRP$	O
+12-2	friend	12-5_nsubj	decided	NN	O
+12-3	an	O	O	DT	O
+12-4	I	O	O	NN	P1_passenger
+12-5	decided	O	O	VBD	O
+12-6	to	O	O	TO	O
+12-7	be	O	O	VB	O
+12-8	polite	12-5_xcomp	decided	JJ	O
+12-9	and	O	O	O	O
+12-10	gave	12-5_conj_and	decided	VBD	O
+12-11	them	12-10_iobj	gave	PRP	P3_passenger
+12-12	our	O	O	PRP$	P1_passenger
+12-13	seats	12-10_dobj	gave	NNS	P3_seat_in_bus
+12-14	while	12-16_mark	stood	IN	O
+12-15	we	12-16_nsubj	stood	PRP	P1_passenger
+12-16	stood	12-5_advcl	decided	VBD	O
+12-17	.	O	O	O	O
+
+#id=13
+#text=Overall it was a great experience being able to ride the bus and help others at the same time . 
+13-1	Overall	O	O	RB	O
+13-2	it	O	O	PRP	O
+13-3	was	O	O	VBD	O
+13-4	a	O	O	DT	O
+13-5	great	O	O	JJ	O
+13-6	experience	O	O	NN	P1_NPart_experience
+13-7	being	O	O	VBG	O
+13-8	able	O	O	JJ	O
+13-9	to	13-10_aux	ride	TO	O
+13-10	ride	O	O	VB	O
+13-11	the	O	O	DT	O
+13-12	bus	13-10_dobj	ride	NN	P1_bus
+13-13	and	O	O	O	O
+13-14	help	13-10_conj_and	ride	VB	O
+13-15	others	13-14_dobj	help	NNS	P3_passenger
+13-16	at	O	O	O	O
+13-17	the	O	O	DT	O
+13-18	same	O	O	JJ	O
+13-19	time	13-14_prep_at	help	NN	O
+13-20	.	O	O	O	O

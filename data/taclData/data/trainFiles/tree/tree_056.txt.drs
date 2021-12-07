@@ -1,0 +1,337 @@
+#id=1
+#text=When I was a child my elementary school got a grant . 
+1-1	When	O	O	WRB	O
+1-2	I	O	O	PRP	P1_NPart_i
+1-3	was	O	O	VBD	O
+1-4	a	O	O	DT	O
+1-5	child	1-9_advcl	got	NN	P1_NPart_child
+1-6	my	O	O	PRP$	P1_NPart_my
+1-7	elementary	O	O	JJ	O
+1-8	school	1-9_nsubj	got	NN	P1_NPart_school
+1-9	got	O	O	VBD	O
+1-10	a	O	O	DT	O
+1-11	grant	1-9_dobj	got	NN	P1_NPart_grant
+1-12	.	O	O	O	O
+
+#id=2
+#text=-LRB- Actually I think it may have been a grant given to the entire school district -RRB- . 
+2-1	-LRB-	O	O	O	O
+2-2	Actually	O	O	NNP	O
+2-3	I	2-4_nsubj	think	NNP	P2_NPart_i
+2-4	think	O	O	VBP	O
+2-5	it	O	O	PRP	P1_NPart_it
+2-6	may	O	O	MD	O
+2-7	have	O	O	VB	O
+2-8	been	O	O	VBN	O
+2-9	a	O	O	DT	O
+2-10	grant	2-4_ccomp	think	NN	P2_NPart_grant
+2-11	given	O	O	VBN	O
+2-12	to	2-11_pcomp	given	TO	O
+2-13	the	O	O	DT	O
+2-14	entire	O	O	JJ	O
+2-15	school	O	O	NN	O
+2-16	district	O	O	NN	P1_NPart_district
+2-17	-RRB-	O	O	O	O
+2-18	.	O	O	O	O
+
+#id=3
+#text=The grant was for putting in new shade trees at the school . 
+3-1	The	O	O	DT	O
+3-2	grant	3-3_nsubj	was	NN	P3_NPart_grant
+3-3	was	O	O	VBD	O
+3-4	for	O	O	O	O
+3-5	putting	3-3_prepc_for	was	VBG	O
+3-6	in	O	O	O	O
+3-7	new	O	O	JJ	O
+3-8	shade	O	O	NN	O
+3-9	trees	3-5_prep_in	putting	NNS	P1_tree
+3-10	at	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	school	3-5_prep_at	putting	NN	P2_NPart_school
+3-13	.	O	O	O	O
+
+#id=4
+#text=Of course I was in fourth grade , so I was never really able to benefit from the new tree , as it probably took five to 8 years to produce any real shade . 
+4-1	Of	O	O	O	O
+4-2	course	4-4_prep_of	was	NN	O
+4-3	I	4-4_nsubj	was	PRP	P3_NPart_i
+4-4	was	O	O	VBD	O
+4-5	in	O	O	O	O
+4-6	fourth	O	O	JJ	O
+4-7	grade	4-4_prep_in	was	NN	P1_NPart_grade
+4-8	,	O	O	O	O
+4-9	so	4-4_dep	was	IN	O
+4-10	I	O	O	PRP	P4_NPart_i
+4-11	was	O	O	VBD	O
+4-12	never	O	O	RB	O
+4-13	really	O	O	RB	O
+4-14	able	4-4_parataxis	was	JJ	O
+4-15	to	4-16_aux	benefit	TO	O
+4-16	benefit	O	O	VB	O
+4-17	from	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	new	O	O	JJ	O
+4-20	tree	4-16_prep_from	benefit	NN	P1_tree
+4-21	,	O	O	O	O
+4-22	as	4-25_mark	took	IN	O
+4-23	it	4-25_nsubj	took	PRP	P2_NPart_it
+4-24	probably	4-25_advmod	took	RB	O
+4-25	took	O	O	VBD	O
+4-26	five	O	O	CD	O
+4-27	to	O	O	TO	O
+4-28	8	O	O	CD	O
+4-29	years	4-25_tmod	took	NNS	P1_time
+4-30	to	4-31_aux	produce	TO	O
+4-31	produce	4-25_vmod	took	VB	O
+4-32	any	O	O	DT	O
+4-33	real	O	O	JJ	O
+4-34	shade	4-31_dobj	produce	NN	P1_NPart_shade
+4-35	.	O	O	O	O
+
+#id=5
+#text=The school made a big deal about the new trees , I think there were 5 of them . 
+5-1	The	O	O	DT	O
+5-2	school	5-3_nsubj	made	NN	P3_NPart_school
+5-3	made	5-13_ccomp	think	VBD	O
+5-4	a	O	O	DT	O
+5-5	big	O	O	JJ	O
+5-6	deal	5-3_dobj	made	NN	O
+5-7	about	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	new	O	O	JJ	O
+5-10	trees	5-3_prep_about	made	NNS	P1_tree
+5-11	,	O	O	O	O
+5-12	I	5-13_nsubj	think	PRP	P5_NPart_i
+5-13	think	O	O	VBP	O
+5-14	there	5-15_expl	were	EX	O
+5-15	were	5-13_ccomp	think	VBD	O
+5-16	5	5-15_nsubj	were	CD	O
+5-17	of	O	O	O	O
+5-18	them	O	O	PRP	P1_tree
+5-19	.	O	O	O	O
+
+#id=6
+#text=The principal -LRB- and probably many other adults -RRB- met to decide where to put the trees . 
+6-1	The	O	O	DT	O
+6-2	principal	6-10_nsubj	met	NN	P1_NPart_principal
+6-3	-LRB-	O	O	O	O
+6-4	and	O	O	CC	O
+6-5	probably	O	O	RB	O
+6-6	many	O	O	JJ	O
+6-7	other	O	O	JJ	O
+6-8	adults	O	O	NNS	P1_NPart_adults
+6-9	-RRB-	O	O	O	O
+6-10	met	O	O	VBD	O
+6-11	to	6-12_aux	decide	TO	O
+6-12	decide	6-10_xcomp	met	VB	O
+6-13	where	6-15_advmod	put	WRB	O
+6-14	to	6-15_aux	put	TO	O
+6-15	put	6-12_xcomp	decide	VB	O
+6-16	the	O	O	DT	O
+6-17	trees	6-15_dobj	put	NNS	P1_tree
+6-18	.	O	O	O	O
+
+#id=7
+#text=Then there was a contest to see which classes got to plant them . 
+7-1	Then	7-3_advmod	was	RB	O
+7-2	there	7-3_expl	was	EX	O
+7-3	was	O	O	VBD	O
+7-4	a	O	O	DT	O
+7-5	contest	7-3_nsubj	was	NN	P1_NPart_contest
+7-6	to	7-7_aux	see	TO	O
+7-7	see	O	O	VB	O
+7-8	which	7-10_dobj	got	WDT	O
+7-9	classes	7-10_nsubj	got	NNS	P1_gardener
+7-10	got	7-7_ccomp	see	VBD	O
+7-11	to	7-12_aux	plant	TO	O
+7-12	plant	7-10_xcomp	got	VB	O
+7-13	them	7-12_dobj	plant	PRP	P1_tree
+7-14	.	O	O	O	O
+
+#id=8
+#text=My class ` won ' the chance and all of us in the class got to take a scoop of dirt out , it was of course a mess . 
+8-1	My	O	O	PRP$	P2_NPart_my
+8-2	class	O	O	NN	P1_gardener
+8-3	`	O	O	O	O
+8-4	won	8-15_nsubj	got	NN	O
+8-5	'	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	chance	O	O	NN	P1_NPart_chance
+8-8	and	O	O	O	O
+8-9	all	O	O	DT	O
+8-10	of	O	O	O	O
+8-11	us	O	O	PRP	P1_gardener
+8-12	in	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	class	O	O	NN	P1_NPart_class
+8-15	got	8-25_ccomp	was	VBD	O
+8-16	to	8-17_aux	take	TO	O
+8-17	take	8-15_xcomp	got	VB	O
+8-18	a	O	O	DT	O
+8-19	scoop	8-17_dobj	take	NN	O
+8-20	of	O	O	O	O
+8-21	dirt	O	O	NN	P1_dirt
+8-22	out	8-17_prt	take	RP	O
+8-23	,	O	O	O	O
+8-24	it	8-25_nsubj	was	PRP	O
+8-25	was	O	O	VBD	O
+8-26	of	O	O	O	O
+8-27	course	8-25_prep_of	was	NN	O
+8-28	a	O	O	DT	O
+8-29	mess	O	O	NN	P1_NPart_mess
+8-30	.	O	O	O	O
+
+#id=9
+#text=Then a landscaper came , quickly fixed the hole , set the tree in and let all of the kids who wanted to put the dirt back around the tree by hand . 
+9-1	Then	9-11_advmod	set	RB	O
+9-2	a	O	O	DT	O
+9-3	landscaper	9-4_nsubj	came	NN	P2_gardener
+9-4	came	9-11_parataxis	set	VBD	O
+9-5	,	O	O	O	O
+9-6	quickly	9-7_advmod	fixed	RB	O
+9-7	fixed	9-4_parataxis	came	VBN	O
+9-8	the	O	O	DT	O
+9-9	hole	9-7_dobj	fixed	NN	P1_hole
+9-10	,	O	O	O	O
+9-11	set	O	O	VB	O
+9-12	the	O	O	DT	O
+9-13	tree	9-11_dobj	set	NN	P1_tree
+9-14	in	9-11_prep	set	IN	O
+9-15	and	O	O	O	O
+9-16	let	9-11_conj_and	set	VB	O
+9-17	all	9-16_dobj	let	DT	O
+9-18	of	O	O	O	O
+9-19	the	O	O	DT	O
+9-20	kids	O	O	NNS	P3_gardener
+9-21	who	9-22_nsubj	wanted	WP	P3_gardener
+9-22	wanted	O	O	VBD	O
+9-23	to	9-24_aux	put	TO	O
+9-24	put	9-22_xcomp	wanted	VB	O
+9-25	the	O	O	DT	O
+9-26	dirt	9-24_dobj	put	NN	P1_dirt
+9-27	back	9-24_prt	put	RP	O
+9-28	around	O	O	O	O
+9-29	the	O	O	DT	O
+9-30	tree	9-24_prep_around	put	NN	P1_tree
+9-31	by	O	O	O	O
+9-32	hand	O	O	NN	P1_NPart_hand
+9-33	.	O	O	O	O
+
+#id=10
+#text=It was messy work and he constantly told us not to push down on the dirt . 
+10-1	It	O	O	PRP	O
+10-2	was	O	O	VBD	O
+10-3	messy	O	O	JJ	O
+10-4	work	O	O	NN	P1_NPart_work
+10-5	and	O	O	O	O
+10-6	he	10-8_nsubj	told	PRP	P2_gardener
+10-7	constantly	10-8_advmod	told	RB	O
+10-8	told	O	O	VBD	O
+10-9	us	10-8_dobj	told	PRP	P1_gardener
+10-10	not	10-12_neg	push	RB	O
+10-11	to	10-12_aux	push	TO	O
+10-12	push	10-8_xcomp	told	VB	O
+10-13	down	10-12_prt	push	RP	O
+10-14	on	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	dirt	10-12_prep_on	push	NN	P1_dirt
+10-17	.	O	O	O	O
+
+#id=11
+#text=Then he put in 3 stakes to hold the tree up and we watered it . 
+11-1	Then	11-3_advmod	put	RB	O
+11-2	he	11-3_nsubj	put	PRP	P2_gardener
+11-3	put	O	O	VBD	O
+11-4	in	O	O	O	O
+11-5	3	O	O	CD	O
+11-6	stakes	11-3_prep_in	put	NNS	P1_stake
+11-7	to	11-8_aux	hold	TO	O
+11-8	hold	11-3_xcomp	put	VB	O
+11-9	the	O	O	DT	O
+11-10	tree	11-8_dobj	hold	NN	P1_tree
+11-11	up	11-8_prt	hold	RP	O
+11-12	and	O	O	O	O
+11-13	we	11-14_nsubj	watered	PRP	P1_gardener
+11-14	watered	11-3_conj_and	put	VBD	O
+11-15	it	11-14_dobj	watered	PRP	P1_tree
+11-16	.	O	O	O	O
+
+#id=12
+#text=I being a child , promptly forgot the tree and did not think about it again for years , but when I went back to the school as a teenager -LRB- to play on the swings -RRB- I remembered and was surprised how big it was . 
+12-1	I	12-7_nsubj	forgot	PRP	P6_NPart_i
+12-2	being	O	O	VBG	O
+12-3	a	O	O	DT	O
+12-4	child	12-7_xcomp	forgot	NN	P2_NPart_child
+12-5	,	O	O	O	O
+12-6	promptly	12-7_advmod	forgot	RB	O
+12-7	forgot	O	O	VBD	O
+12-8	the	O	O	DT	O
+12-9	tree	12-7_dobj	forgot	NN	P1_tree
+12-10	and	O	O	O	O
+12-11	did	12-13_aux	think	VBD	O
+12-12	not	12-13_neg	think	RB	O
+12-13	think	12-7_conj_and	forgot	VB	O
+12-14	about	12-13_prt	think	RP	O
+12-15	it	12-13_dobj	think	PRP	P1_tree
+12-16	again	12-13_advmod	think	RB	O
+12-17	for	O	O	O	O
+12-18	years	12-13_prep_for	think	NNS	P1_NPart_years
+12-19	,	O	O	O	O
+12-20	but	O	O	O	O
+12-21	when	12-23_advmod	went	WRB	O
+12-22	I	12-23_nsubj	went	PRP	P7_NPart_i
+12-23	went	12-39_advcl	remembered	VBD	O
+12-24	back	12-23_prt	went	RP	O
+12-25	to	O	O	O	O
+12-26	the	O	O	DT	O
+12-27	school	12-23_prep_to	went	NN	P4_NPart_school
+12-28	as	O	O	O	O
+12-29	a	O	O	DT	O
+12-30	teenager	12-23_prep_as	went	NN	P1_NPart_teenager
+12-31	-LRB-	O	O	O	O
+12-32	to	12-33_aux	play	TO	O
+12-33	play	12-39_parataxis	remembered	VB	O
+12-34	on	O	O	O	O
+12-35	the	O	O	DT	O
+12-36	swings	12-33_prep_on	play	NNS	P1_NPart_swings
+12-37	-RRB-	O	O	O	O
+12-38	I	12-39_nsubj	remembered	PRP	P8_NPart_i
+12-39	remembered	12-7_conj_but	forgot	VBD	O
+12-40	and	O	O	O	O
+12-41	was	12-42_auxpass	surprised	VBD	O
+12-42	surprised	12-39_conj_and	remembered	VBN	O
+12-43	how	O	O	WRB	O
+12-44	big	12-46_dep	was	JJ	O
+12-45	it	12-46_nsubj	was	PRP	P1_tree
+12-46	was	12-42_ccomp	surprised	VBD	O
+12-47	.	O	O	O	O
+
+#id=13
+#text=Because the tree was out in a large open play area it was great that it provided a lot of shade for the children at recess . 
+13-1	Because	13-4_mark	was	IN	O
+13-2	the	O	O	DT	O
+13-3	tree	13-4_nsubj	was	NN	P1_tree
+13-4	was	O	O	VBD	O
+13-5	out	13-4_advmod	was	RB	O
+13-6	in	O	O	O	O
+13-7	a	O	O	DT	O
+13-8	large	O	O	JJ	O
+13-9	open	O	O	JJ	O
+13-10	play	O	O	NN	O
+13-11	area	13-4_prep_in	was	NN	P1_NPart_area
+13-12	it	O	O	PRP	O
+13-13	was	O	O	VBD	O
+13-14	great	O	O	JJ	O
+13-15	that	13-17_mark	provided	IN	O
+13-16	it	13-17_nsubj	provided	PRP	P1_tree
+13-17	provided	O	O	VBD	O
+13-18	a	O	O	DT	O
+13-19	lot	13-17_dobj	provided	NN	O
+13-20	of	O	O	O	O
+13-21	shade	O	O	NN	P2_NPart_shade
+13-22	for	O	O	O	O
+13-23	the	O	O	DT	O
+13-24	children	13-17_prep_for	provided	NNS	P1_NPart_children
+13-25	at	O	O	O	O
+13-26	recess	O	O	NN	P1_NPart_recess
+13-27	.	O	O	O	O

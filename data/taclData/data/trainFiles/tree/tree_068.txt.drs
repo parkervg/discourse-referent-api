@@ -1,0 +1,305 @@
+#id=1
+#text=My husband and I went to the nursery to look at trees . 
+1-1	My	O	O	PRP$	P1_gardener
+1-2	husband	1-5_nsubj	went	NN	P2_gardener
+1-3	and	O	O	O	O
+1-4	I	O	O	PRP	P1_gardener
+1-5	went	O	O	VBD	O
+1-6	to	O	O	O	O
+1-7	the	O	O	DT	O
+1-8	nursery	1-5_prep_to	went	NN	P1_shop
+1-9	to	1-10_aux	look	TO	O
+1-10	look	1-5_xcomp	went	VB	O
+1-11	at	O	O	O	O
+1-12	trees	1-10_prep_at	look	NNS	P1_tree
+1-13	.	O	O	O	O
+
+#id=2
+#text=We wanted to plant a tree in the front yard , but we were n't sure what to get yet . 
+2-1	We	2-2_nsubj	wanted	PRP	P3_gardener
+2-2	wanted	O	O	VBD	O
+2-3	to	2-4_aux	plant	TO	O
+2-4	plant	2-2_xcomp	wanted	VB	O
+2-5	a	O	O	DT	O
+2-6	tree	2-4_dobj	plant	NN	P1_tree
+2-7	in	O	O	O	O
+2-8	the	O	O	DT	O
+2-9	front	O	O	JJ	O
+2-10	yard	O	O	NN	P1_location_garden
+2-11	,	O	O	O	O
+2-12	but	O	O	O	O
+2-13	we	O	O	PRP	P3_gardener
+2-14	were	O	O	VBD	O
+2-15	n't	O	O	RB	O
+2-16	sure	2-2_conj_but	wanted	JJ	O
+2-17	what	2-19_nsubj	get	WP	O
+2-18	to	2-19_aux	get	TO	O
+2-19	get	O	O	VB	O
+2-20	yet	2-19_advmod	get	RB	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=We wandered through the nursery and considered a few of our option . 
+3-1	We	3-2_nsubj	wandered	PRP	P3_gardener
+3-2	wandered	O	O	VBD	O
+3-3	through	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	nursery	3-2_prep_through	wandered	NN	P2_shop
+3-6	and	O	O	O	O
+3-7	considered	3-2_conj_and	wandered	VBD	O
+3-8	a	O	O	DT	O
+3-9	few	3-7_dobj	considered	JJ	O
+3-10	of	O	O	O	O
+3-11	our	O	O	PRP$	P3_gardener
+3-12	option	O	O	NN	P1_NPart_option
+3-13	.	O	O	O	O
+
+#id=4
+#text=We did n't want a large tree , like a pine tree . 
+4-1	We	4-4_nsubj	want	PRP	P3_gardener
+4-2	did	4-4_aux	want	VBD	O
+4-3	n't	4-4_neg	want	RB	O
+4-4	want	O	O	VB	O
+4-5	a	O	O	DT	O
+4-6	large	O	O	JJ	O
+4-7	tree	4-4_dobj	want	NN	P1_tree
+4-8	,	O	O	O	O
+4-9	like	O	O	O	O
+4-10	a	O	O	DT	O
+4-11	pine	O	O	JJ	O
+4-12	tree	4-4_prep_like	want	NN	P1_tree
+4-13	.	O	O	O	O
+
+#id=5
+#text=We did n't want a small tree , like a Japanese maple . 
+5-1	We	5-4_nsubj	want	PRP	P3_gardener
+5-2	did	5-4_aux	want	VBD	O
+5-3	n't	5-4_neg	want	RB	O
+5-4	want	O	O	VB	O
+5-5	a	O	O	DT	O
+5-6	small	O	O	JJ	O
+5-7	tree	5-4_dobj	want	NN	P1_tree
+5-8	,	O	O	O	O
+5-9	like	O	O	O	O
+5-10	a	O	O	DT	O
+5-11	Japanese	O	O	JJ	O
+5-12	maple	5-4_prep_like	want	NN	P1_tree
+5-13	.	O	O	O	O
+
+#id=6
+#text=We wanted something in-between . 
+6-1	We	6-2_nsubj	wanted	PRP	P3_gardener
+6-2	wanted	O	O	VBD	O
+6-3	something	O	O	NN	P1_tree
+6-4	in-between	6-2_dobj	wanted	NN	O
+6-5	.	O	O	O	O
+
+#id=7
+#text=When we spoke to one of the workers at the nursery , he suggested that we plant a crabapple . 
+7-1	When	7-3_advmod	spoke	WRB	O
+7-2	we	7-3_nsubj	spoke	PRP	P3_gardener
+7-3	spoke	7-14_advcl	suggested	VBD	O
+7-4	to	O	O	O	O
+7-5	one	7-3_prep_to	spoke	CD	O
+7-6	of	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	workers	O	O	NNS	P1_staff
+7-9	at	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	nursery	7-3_prep_at	spoke	NN	P3_shop
+7-12	,	O	O	O	O
+7-13	he	7-14_nsubj	suggested	PRP	P1_staff
+7-14	suggested	O	O	VBD	O
+7-15	that	7-17_mark	plant	IN	O
+7-16	we	7-17_nsubj	plant	PRP	P3_gardener
+7-17	plant	7-14_ccomp	suggested	VB	O
+7-18	a	O	O	DT	O
+7-19	crabapple	7-17_dobj	plant	NN	P1_tree
+7-20	.	O	O	O	O
+
+#id=8
+#text=It would have green leaves , and would have white flowers in the spring . 
+8-1	It	8-3_nsubj	have	PRP	P1_tree
+8-2	would	8-3_aux	have	MD	O
+8-3	have	O	O	VB	O
+8-4	green	O	O	JJ	O
+8-5	leaves	8-3_dobj	have	NNS	P1_NPart_leaves
+8-6	,	O	O	O	O
+8-7	and	O	O	O	O
+8-8	would	8-9_aux	have	MD	O
+8-9	have	8-3_conj_and	have	VB	O
+8-10	white	O	O	JJ	O
+8-11	flowers	8-9_dobj	have	NNS	P1_NPart_flowers
+8-12	in	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	spring	O	O	NN	P1_NPart_spring
+8-15	.	O	O	O	O
+
+#id=9
+#text=We took the tree home in the back of our truck . 
+9-1	We	9-2_nsubj	took	PRP	P3_gardener
+9-2	took	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	tree	O	O	NN	P1_tree
+9-5	home	9-2_dobj	took	NN	O
+9-6	in	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	back	9-2_prep_in	took	NN	P1_NPart_back
+9-9	of	O	O	O	O
+9-10	our	O	O	PRP$	P3_gardener
+9-11	truck	O	O	NN	P1_NPart_truck
+9-12	.	O	O	O	O
+
+#id=10
+#text=My husband used our shovel to dig a hole in the ground . 
+10-1	My	O	O	PRP$	P1_gardener
+10-2	husband	10-3_nsubj	used	NN	P2_gardener
+10-3	used	O	O	VBD	O
+10-4	our	O	O	PRP$	P3_gardener
+10-5	shovel	10-3_dobj	used	NN	P1_gardening_tool
+10-6	to	10-7_aux	dig	TO	O
+10-7	dig	O	O	VB	O
+10-8	a	O	O	DT	O
+10-9	hole	10-7_dobj	dig	NN	P1_hole
+10-10	in	O	O	O	O
+10-11	the	O	O	DT	O
+10-12	ground	O	O	NN	P1_other
+10-13	.	O	O	O	O
+
+#id=11
+#text=It took him some time - you have to dig a pretty big hole when you plant a tree ! 
+11-1	It	11-2_nsubj	took	PRP	O
+11-2	took	O	O	VBD	O
+11-3	him	11-2_iobj	took	PRP	P2_gardener
+11-4	some	O	O	DT	O
+11-5	time	11-2_dobj	took	NN	P1_time
+11-6	-	O	O	O	O
+11-7	you	11-8_nsubj	have	PRP	P2_gardener
+11-8	have	11-2_parataxis	took	VBP	O
+11-9	to	11-10_aux	dig	TO	O
+11-10	dig	11-8_xcomp	have	VB	O
+11-11	a	O	O	DT	O
+11-12	pretty	O	O	RB	O
+11-13	big	O	O	JJ	O
+11-14	hole	11-10_dobj	dig	NN	P1_hole
+11-15	when	O	O	WRB	O
+11-16	you	O	O	PRP	P4_gardener
+11-17	plant	O	O	NN	O
+11-18	a	O	O	DT	O
+11-19	tree	O	O	NN	P1_tree
+11-20	!	O	O	O	O
+
+#id=12
+#text=Then I helped him carry the tree over to the hole . 
+12-1	Then	12-3_advmod	helped	RB	O
+12-2	I	12-3_nsubj	helped	PRP	P1_gardener
+12-3	helped	O	O	VBD	O
+12-4	him	12-5_nsubj	carry	PRP	P2_gardener
+12-5	carry	12-3_ccomp	helped	VBP	O
+12-6	the	O	O	DT	O
+12-7	tree	12-5_dobj	carry	NN	P1_tree
+12-8	over	12-5_prt	carry	RP	O
+12-9	to	O	O	O	O
+12-10	the	O	O	DT	O
+12-11	hole	12-5_prep_to	carry	NN	P1_hole
+12-12	.	O	O	O	O
+
+#id=13
+#text=We had to cut off the plastic bucket it was in . 
+13-1	We	13-2_nsubj	had	PRP	P3_gardener
+13-2	had	O	O	VBD	O
+13-3	to	13-4_aux	cut	TO	O
+13-4	cut	13-2_xcomp	had	VB	O
+13-5	off	13-4_prt	cut	RP	O
+13-6	the	O	O	DT	O
+13-7	plastic	O	O	JJ	O
+13-8	bucket	13-4_dobj	cut	NN	P1_wrapping
+13-9	it	13-10_nsubj	was	PRP	P1_tree
+13-10	was	O	O	VBD	O
+13-11	in	13-10_prep	was	IN	O
+13-12	.	O	O	O	O
+
+#id=14
+#text=When we were done , we put it in the hole , and I helped by holding the tree steady and pushing dirt into the hole . 
+14-1	When	14-4_advmod	done	WRB	O
+14-2	we	14-4_nsubjpass	done	PRP	P3_gardener
+14-3	were	14-4_auxpass	done	VBD	O
+14-4	done	14-7_advcl	put	VBN	O
+14-5	,	O	O	O	O
+14-6	we	14-7_nsubj	put	PRP	P3_gardener
+14-7	put	O	O	VBD	O
+14-8	it	14-7_dobj	put	PRP	P1_tree
+14-9	in	O	O	O	O
+14-10	the	O	O	DT	O
+14-11	hole	14-7_prep_in	put	NN	P1_hole
+14-12	,	O	O	O	O
+14-13	and	O	O	O	O
+14-14	I	14-15_nsubj	helped	PRP	P1_gardener
+14-15	helped	14-7_conj_and	put	VBD	O
+14-16	by	O	O	O	O
+14-17	holding	14-15_prepc_by	helped	VBG	O
+14-18	the	O	O	DT	O
+14-19	tree	O	O	NN	P1_tree
+14-20	steady	14-17_xcomp	holding	RB	O
+14-21	and	O	O	O	O
+14-22	pushing	14-17_conj_and	holding	VBG	O
+14-23	dirt	14-22_dobj	pushing	NN	P1_dirt
+14-24	into	O	O	O	O
+14-25	the	O	O	DT	O
+14-26	hole	14-22_prep_into	pushing	NN	P1_hole
+14-27	.	O	O	O	O
+
+#id=15
+#text=Once we had filled in all the dirt around the tree , we turned on the sprinklers . 
+15-1	Once	15-4_mark	filled	IN	O
+15-2	we	15-4_nsubj	filled	PRP	P3_gardener
+15-3	had	15-4_aux	filled	VBD	O
+15-4	filled	15-14_advcl	turned	VBN	O
+15-5	in	O	O	O	O
+15-6	all	O	O	PDT	O
+15-7	the	O	O	DT	O
+15-8	dirt	15-4_prep_in	filled	NN	P1_dirt
+15-9	around	O	O	O	O
+15-10	the	O	O	DT	O
+15-11	tree	O	O	NN	P1_tree
+15-12	,	O	O	O	O
+15-13	we	15-14_nsubj	turned	PRP	P3_gardener
+15-14	turned	O	O	VBD	O
+15-15	on	O	O	O	O
+15-16	the	O	O	DT	O
+15-17	sprinklers	15-14_prep_on	turned	NNS	P2_other
+15-18	.	O	O	O	O
+
+#id=16
+#text=We wanted to water the tree and get it off to a good start . 
+16-1	We	16-2_nsubj	wanted	PRP	P3_gardener
+16-2	wanted	O	O	VBD	O
+16-3	to	16-4_aux	water	TO	O
+16-4	water	16-2_xcomp	wanted	VB	O
+16-5	the	O	O	DT	O
+16-6	tree	16-4_dobj	water	NN	P1_tree
+16-7	and	O	O	O	O
+16-8	get	16-4_conj_and	water	VB	O
+16-9	it	16-8_dobj	get	PRP	P1_tree
+16-10	off	16-8_prt	get	RP	O
+16-11	to	O	O	O	O
+16-12	a	O	O	DT	O
+16-13	good	O	O	JJ	O
+16-14	start	16-8_prep_to	get	NN	P1_NPart_start
+16-15	.	O	O	O	O
+
+#id=17
+#text=We were excited to have a new tree in the front yard . 
+17-1	We	O	O	PRP	P3_gardener
+17-2	were	O	O	VBD	O
+17-3	excited	O	O	JJ	O
+17-4	to	17-5_aux	have	TO	O
+17-5	have	O	O	VB	O
+17-6	a	O	O	DT	O
+17-7	new	O	O	JJ	O
+17-8	tree	17-5_dobj	have	NN	P1_tree
+17-9	in	O	O	O	O
+17-10	the	O	O	DT	O
+17-11	front	O	O	JJ	O
+17-12	yard	O	O	NN	P1_location_garden
+17-13	.	O	O	O	O

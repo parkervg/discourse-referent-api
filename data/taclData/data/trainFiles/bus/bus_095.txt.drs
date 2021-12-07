@@ -1,0 +1,205 @@
+#id=1
+#text=The other day , I decided to ride the bus to work since my car had broken down . 
+1-1	The	O	O	DT	O
+1-2	other	O	O	JJ	O
+1-3	day	1-6_tmod	decided	NN	P1_NPart_day
+1-4	,	O	O	O	O
+1-5	I	1-6_nsubj	decided	PRP	P1_passenger
+1-6	decided	O	O	VBD	O
+1-7	to	1-8_aux	ride	TO	O
+1-8	ride	1-6_xcomp	decided	VB	O
+1-9	the	O	O	DT	O
+1-10	bus	1-8_dobj	ride	NN	P1_bus
+1-11	to	1-12_aux	work	TO	O
+1-12	work	O	O	VB	P1_destination
+1-13	since	1-17_mark	broken	IN	O
+1-14	my	O	O	PRP$	P1_passenger
+1-15	car	1-17_nsubj	broken	NN	P1_NPart_car
+1-16	had	1-17_aux	broken	VBD	O
+1-17	broken	1-12_advcl	work	VBN	O
+1-18	down	1-17_prt	broken	RP	O
+1-19	.	O	O	O	O
+
+#id=2
+#text=It was a cold day in January as the rain had just fallen the night before . 
+2-1	It	O	O	PRP	O
+2-2	was	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	cold	O	O	JJ	O
+2-5	day	O	O	NN	P1_time/date
+2-6	in	O	O	O	O
+2-7	January	O	O	NNP	P2_time/date
+2-8	as	2-13_mark	fallen	IN	O
+2-9	the	O	O	DT	O
+2-10	rain	2-13_nsubj	fallen	NN	P1_NPart_rain
+2-11	had	2-13_aux	fallen	VBD	O
+2-12	just	2-13_advmod	fallen	RB	O
+2-13	fallen	O	O	VBN	O
+2-14	the	O	O	DT	O
+2-15	night	2-13_tmod	fallen	NN	P1_NPart_night
+2-16	before	2-13_prep	fallen	IN	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=I sat nearby the rear-door of the bus and felt he air-conditioner blowing onto my neck and watched the street signs to see how much further my stop was going to be . 
+3-1	I	3-2_nsubj	sat	PRP	P1_passenger
+3-2	sat	O	O	VBD	O
+3-3	nearby	3-2_advmod	sat	RB	O
+3-4	the	O	O	DT	O
+3-5	rear-door	3-2_dobj	sat	NN	P1_door
+3-6	of	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	bus	O	O	NN	P1_bus
+3-9	and	O	O	O	O
+3-10	felt	3-2_conj_and	sat	VBD	O
+3-11	he	3-12_nsubj	air-conditioner	PRP	O
+3-12	air-conditioner	3-10_ccomp	felt	VBZ	P1_NPart_air-conditioner
+3-13	blowing	3-12_xcomp	air-conditioner	VBG	O
+3-14	onto	O	O	O	O
+3-15	my	O	O	PRP$	P1_passenger
+3-16	neck	3-13_prep_onto	blowing	NN	P1_NPart_neck
+3-17	and	O	O	O	O
+3-18	watched	3-12_conj_and	air-conditioner	VBD	O
+3-19	the	O	O	DT	O
+3-20	street	O	O	NN	O
+3-21	signs	3-18_dobj	watched	NNS	P1_NPart_signs
+3-22	to	3-23_aux	see	TO	O
+3-23	see	3-18_vmod	watched	VB	O
+3-24	how	O	O	WRB	O
+3-25	much	3-30_dobj	going	RB	O
+3-26	further	O	O	RB	O
+3-27	my	O	O	PRP$	P1_passenger
+3-28	stop	3-30_nsubj	going	NN	P1_bus_stop
+3-29	was	3-30_aux	going	VBD	O
+3-30	going	3-23_ccomp	see	VBG	O
+3-31	to	3-32_aux	be	TO	O
+3-32	be	3-30_xcomp	going	VB	O
+3-33	.	O	O	O	O
+
+#id=4
+#text=I had been riding on the bus for approximately 15 minutes and stopped three times so far . 
+4-1	I	4-4_nsubj	riding	PRP	P1_passenger
+4-2	had	4-4_aux	riding	VBD	O
+4-3	been	4-4_aux	riding	VBN	O
+4-4	riding	O	O	VBG	O
+4-5	on	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	bus	4-4_prep_on	riding	NN	P1_bus
+4-8	for	O	O	O	O
+4-9	approximately	O	O	RB	O
+4-10	15	O	O	CD	O
+4-11	minutes	O	O	NNS	P3_time/date
+4-12	and	O	O	O	O
+4-13	stopped	4-4_conj_and	riding	VBD	O
+4-14	three	O	O	CD	O
+4-15	times	4-13_dobj	stopped	NNS	O
+4-16	so	O	O	RB	O
+4-17	far	4-13_advmod	stopped	RB	O
+4-18	.	O	O	O	O
+
+#id=5
+#text=We came upon a busy intersection where the bus stop was crowded with what appeared to be fifteen or so people huddled by the bench area waiting to get on . 
+5-1	We	5-2_nsubj	came	PRP	P2_passenger
+5-2	came	O	O	VBD	O
+5-3	upon	O	O	O	O
+5-4	a	O	O	DT	O
+5-5	busy	O	O	JJ	O
+5-6	intersection	5-2_prep_upon	came	NN	P1_NPart_intersection
+5-7	where	5-12_advmod	crowded	WRB	O
+5-8	the	O	O	DT	O
+5-9	bus	O	O	NN	O
+5-10	stop	5-12_nsubjpass	crowded	NN	P2_bus_stop
+5-11	was	5-12_auxpass	crowded	VBD	O
+5-12	crowded	5-2_advcl	came	VBN	O
+5-13	with	O	O	O	O
+5-14	what	5-15_nsubj	appeared	WP	O
+5-15	appeared	5-12_prepc_with	crowded	VBD	O
+5-16	to	O	O	TO	O
+5-17	be	O	O	VB	O
+5-18	fifteen	5-15_xcomp	appeared	CD	O
+5-19	or	O	O	O	O
+5-20	so	5-22_mark	huddled	IN	O
+5-21	people	5-22_nsubj	huddled	NNS	P3_passenger
+5-22	huddled	5-15_conj_or	appeared	VBD	O
+5-23	by	O	O	O	O
+5-24	the	O	O	DT	O
+5-25	bench	O	O	NN	O
+5-26	area	5-22_prep_by	huddled	NN	P1_NPart_area
+5-27	waiting	O	O	VBG	O
+5-28	to	5-29_aux	get	TO	O
+5-29	get	5-27_xcomp	waiting	VB	O
+5-30	on	5-29_prt	get	RP	O
+5-31	.	O	O	O	O
+
+#id=6
+#text=Slowly the people in queue walked onto the bus steps and piled into each available space as quickly as they could . 
+6-1	Slowly	6-6_advmod	walked	RB	O
+6-2	the	O	O	DT	O
+6-3	people	6-6_nsubj	walked	NNS	P3_passenger
+6-4	in	O	O	O	O
+6-5	queue	O	O	NN	P1_NPart_queue
+6-6	walked	O	O	VBD	O
+6-7	onto	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	bus	O	O	NN	O
+6-10	steps	6-6_prep_onto	walked	NNS	P1_NPart_steps
+6-11	and	O	O	O	O
+6-12	piled	6-6_conj_and	walked	VBD	O
+6-13	into	O	O	O	O
+6-14	each	O	O	DT	O
+6-15	available	O	O	JJ	O
+6-16	space	6-12_prep_into	piled	NN	P1_other
+6-17	as	O	O	RB	O
+6-18	quickly	6-12_advmod	piled	RB	O
+6-19	as	O	O	IN	O
+6-20	they	O	O	PRP	P3_passenger
+6-21	could	6-12_advcl	piled	MD	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=After driving for two more blocks , I noticed my stop and pressed the button to signal the driver to drop me off . 
+7-1	After	O	O	O	O
+7-2	driving	7-9_prepc_after	noticed	VBG	O
+7-3	for	O	O	O	O
+7-4	two	O	O	CD	O
+7-5	more	O	O	JJR	O
+7-6	blocks	7-2_prep_for	driving	NNS	P1_NPart_blocks
+7-7	,	O	O	O	O
+7-8	I	7-9_nsubj	noticed	PRP	P1_passenger
+7-9	noticed	O	O	VBD	O
+7-10	my	O	O	PRP$	P1_passenger
+7-11	stop	7-9_dobj	noticed	NN	P1_bus_stop
+7-12	and	O	O	O	O
+7-13	pressed	7-9_conj_and	noticed	VBD	O
+7-14	the	O	O	DT	O
+7-15	button	7-13_dobj	pressed	NN	P1_stop_button/door_opener
+7-16	to	7-17_aux	signal	TO	O
+7-17	signal	7-13_vmod	pressed	VB	O
+7-18	the	O	O	DT	O
+7-19	driver	7-17_dobj	signal	NN	P1_bus_staff
+7-20	to	7-21_aux	drop	TO	O
+7-21	drop	O	O	VB	O
+7-22	me	7-21_dobj	drop	PRP	P1_passenger
+7-23	off	7-21_prt	drop	RP	O
+7-24	.	O	O	O	O
+
+#id=8
+#text=I stood up from my seat and headed to the door and left to go to work . 
+8-1	I	8-2_nsubj	stood	PRP	P1_passenger
+8-2	stood	O	O	VBD	O
+8-3	up	8-2_prt	stood	RP	O
+8-4	from	O	O	O	O
+8-5	my	O	O	PRP$	P1_passenger
+8-6	seat	8-2_prep_from	stood	NN	P1_seat_in_bus
+8-7	and	O	O	O	O
+8-8	headed	8-2_conj_and	stood	VBN	O
+8-9	to	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	door	8-8_prep_to	headed	NN	P1_door
+8-12	and	O	O	O	O
+8-13	left	8-8_conj_and	headed	VBN	O
+8-14	to	8-15_aux	go	TO	O
+8-15	go	8-13_xcomp	left	VB	O
+8-16	to	8-17_aux	work	TO	O
+8-17	work	8-15_xcomp	go	VB	P1_destination
+8-18	.	O	O	O	O

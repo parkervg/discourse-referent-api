@@ -1,0 +1,370 @@
+#id=1
+#text=My daughter , who is 11 , has been asking me how to make origami animals . 
+1-1	My	O	O	PRP$	O
+1-2	daughter	1-10_nsubj	asking	NN	P1_customer
+1-3	,	O	O	O	O
+1-4	who	O	O	WP	O
+1-5	is	O	O	VBZ	O
+1-6	11	O	O	CD	O
+1-7	,	O	O	O	O
+1-8	has	1-10_aux	asking	VBZ	O
+1-9	been	1-10_aux	asking	VBN	O
+1-10	asking	O	O	VBG	O
+1-11	me	1-10_dobj	asking	PRP	P2_customer
+1-12	how	1-14_advmod	make	WRB	O
+1-13	to	1-14_aux	make	TO	O
+1-14	make	1-10_xcomp	asking	VB	O
+1-15	origami	O	O	NN	O
+1-16	animals	1-14_dobj	make	NNS	P1_NPart_animals
+1-17	.	O	O	O	O
+
+#id=2
+#text=When I was a girl I liked to fold origami too . 
+2-1	When	O	O	WRB	O
+2-2	I	O	O	PRP	P2_customer
+2-3	was	O	O	VBD	O
+2-4	a	O	O	DT	O
+2-5	girl	2-7_advcl	liked	NN	P2_customer
+2-6	I	2-7_nsubj	liked	PRP	P2_customer
+2-7	liked	O	O	VBD	O
+2-8	to	2-9_aux	fold	TO	O
+2-9	fold	2-7_xcomp	liked	VB	O
+2-10	origami	2-9_dobj	fold	NNS	P1_NPart_origami
+2-11	too	2-9_advmod	fold	RB	O
+2-12	.	O	O	O	O
+
+#id=3
+#text=I really enjoyed all the colors and patterns available . 
+3-1	I	3-3_nsubj	enjoyed	PRP	P2_customer
+3-2	really	3-3_advmod	enjoyed	RB	O
+3-3	enjoyed	O	O	VBD	O
+3-4	all	O	O	PDT	O
+3-5	the	O	O	DT	O
+3-6	colors	O	O	NNS	P1_NPart_colors
+3-7	and	O	O	O	O
+3-8	patterns	O	O	NNS	P1_NPart_patterns
+3-9	available	3-3_xcomp	enjoyed	JJ	O
+3-10	.	O	O	O	O
+
+#id=4
+#text=I did not remember how to fold any animals so I suggested to her that we might find a book on origami from the library . 
+4-1	I	4-4_nsubj	remember	PRP	P2_customer
+4-2	did	4-4_aux	remember	VBD	O
+4-3	not	4-4_neg	remember	RB	O
+4-4	remember	O	O	VB	O
+4-5	how	4-7_advmod	fold	WRB	O
+4-6	to	4-7_aux	fold	TO	O
+4-7	fold	4-4_ccomp	remember	VB	O
+4-8	any	O	O	DT	O
+4-9	animals	4-7_dobj	fold	NNS	P2_NPart_animals
+4-10	so	4-12_mark	suggested	IN	O
+4-11	I	4-12_nsubj	suggested	PRP	P2_customer
+4-12	suggested	4-7_advcl	fold	VBD	O
+4-13	to	O	O	O	O
+4-14	her	4-12_prep_to	suggested	PRP	P1_customer
+4-15	that	4-18_mark	find	IN	O
+4-16	we	4-18_nsubj	find	PRP	P2_customer
+4-17	might	4-18_aux	find	MD	O
+4-18	find	4-12_ccomp	suggested	VB	O
+4-19	a	O	O	DT	O
+4-20	book	4-18_dobj	find	NN	P1_book
+4-21	on	O	O	O	O
+4-22	origami	4-18_prep_on	find	NNS	P2_NPart_origami
+4-23	from	O	O	O	O
+4-24	the	O	O	DT	O
+4-25	library	O	O	NN	P1_library
+4-26	.	O	O	O	O
+
+#id=5
+#text=We drove to the library and walked inside . 
+5-1	We	5-2_nsubj	drove	PRP	P2_customer
+5-2	drove	O	O	VBD	O
+5-3	to	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	library	5-2_prep_to	drove	NN	P1_library
+5-6	and	O	O	O	O
+5-7	walked	5-2_conj_and	drove	VBD	O
+5-8	inside	5-7_advmod	walked	RB	O
+5-9	.	O	O	O	O
+
+#id=6
+#text=I told her we could ask the librarian where we might find a book on folding origami , but I would rather teach her to find the book on her own . 
+6-1	I	6-2_nsubj	told	PRP	P2_customer
+6-2	told	O	O	VBD	O
+6-3	her	6-2_dobj	told	PRP	P1_customer
+6-4	we	6-6_nsubj	ask	PRP	P2_customer
+6-5	could	6-6_aux	ask	MD	O
+6-6	ask	6-2_dep	told	VB	O
+6-7	the	O	O	DT	O
+6-8	librarian	6-6_dobj	ask	NN	P1_staff
+6-9	where	6-12_advmod	find	WRB	O
+6-10	we	6-12_nsubj	find	PRP	P2_customer
+6-11	might	6-12_aux	find	MD	O
+6-12	find	6-6_advcl	ask	VB	O
+6-13	a	O	O	DT	O
+6-14	book	6-12_dobj	find	NN	P1_book
+6-15	on	O	O	O	O
+6-16	folding	O	O	JJ	O
+6-17	origami	6-12_prep_on	find	NNS	P3_NPart_origami
+6-18	,	O	O	O	O
+6-19	but	O	O	O	O
+6-20	I	6-23_nsubj	teach	PRP	P2_customer
+6-21	would	6-23_aux	teach	MD	O
+6-22	rather	6-23_advmod	teach	RB	O
+6-23	teach	6-2_conj_but	told	VB	O
+6-24	her	6-23_dobj	teach	PRP	P1_customer
+6-25	to	6-26_aux	find	TO	O
+6-26	find	6-23_xcomp	teach	VB	O
+6-27	the	O	O	DT	O
+6-28	book	6-26_dobj	find	NN	P1_book
+6-29	on	O	O	O	O
+6-30	her	O	O	PRP$	P1_customer
+6-31	own	6-26_prep_on	find	JJ	O
+6-32	.	O	O	O	O
+
+#id=7
+#text=We headed over to the library 's reference computer and opened the library catalog . 
+7-1	We	7-2_nsubj	headed	PRP	P2_customer
+7-2	headed	O	O	VBD	O
+7-3	over	7-2_prt	headed	RP	O
+7-4	to	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	library	O	O	NN	P1_library
+7-7	's	O	O	O	O
+7-8	reference	O	O	NN	O
+7-9	computer	7-2_prep_to	headed	NN	P1_institutional_devices
+7-10	and	O	O	O	O
+7-11	opened	7-2_conj_and	headed	VBD	O
+7-12	the	O	O	DT	O
+7-13	library	O	O	NN	O
+7-14	catalog	7-11_dobj	opened	NN	P1_catalog
+7-15	.	O	O	O	O
+
+#id=8
+#text=There was an area to search by the books subject , so we typed in Origami . 
+8-1	There	8-2_expl	was	EX	O
+8-2	was	O	O	VBD	O
+8-3	an	O	O	DT	O
+8-4	area	8-2_nsubj	was	NN	P1_NPart_area
+8-5	to	8-6_aux	search	TO	O
+8-6	search	O	O	VB	O
+8-7	by	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	books	O	O	NNS	P1_book
+8-10	subject	8-6_prep_by	search	NN	O
+8-11	,	O	O	O	O
+8-12	so	8-2_dep	was	IN	O
+8-13	we	8-14_nsubj	typed	PRP	P2_customer
+8-14	typed	8-2_parataxis	was	VBN	O
+8-15	in	O	O	O	O
+8-16	Origami	8-14_prep_in	typed	NNP	P4_NPart_origami
+8-17	.	O	O	O	O
+
+#id=9
+#text=Several books came up . 
+9-1	Several	O	O	JJ	O
+9-2	books	9-3_nsubj	came	NNS	P1_book
+9-3	came	O	O	VBD	O
+9-4	up	9-3_prt	came	RP	O
+9-5	.	O	O	O	O
+
+#id=10
+#text=I told my daughter to write down the location of the books that looked interesting to her . 
+10-1	I	10-2_nsubj	told	PRP	P2_customer
+10-2	told	O	O	VBD	O
+10-3	my	O	O	PRP$	P2_customer
+10-4	daughter	10-2_dobj	told	NN	P1_customer
+10-5	to	10-6_aux	write	TO	O
+10-6	write	O	O	VB	O
+10-7	down	10-6_prt	write	RP	O
+10-8	the	O	O	DT	O
+10-9	location	10-6_dobj	write	NN	P1_location_library
+10-10	of	O	O	O	O
+10-11	the	O	O	DT	O
+10-12	books	O	O	NNS	P1_book
+10-13	that	10-14_nsubj	looked	WDT	O
+10-14	looked	O	O	VBD	O
+10-15	interesting	10-14_acomp	looked	JJ	O
+10-16	to	O	O	O	O
+10-17	her	O	O	PRP	P1_customer
+10-18	.	O	O	O	O
+
+#id=11
+#text=she found about 3 that she liked because of how the cover looked . 
+11-1	she	11-2_nsubj	found	PRP	P2_customer
+11-2	found	O	O	VBD	O
+11-3	about	O	O	O	O
+11-4	3	11-2_prep_about	found	CD	P1_book
+11-5	that	11-7_mark	liked	IN	O
+11-6	she	11-7_nsubj	liked	PRP	P2_customer
+11-7	liked	11-2_ccomp	found	VBD	O
+11-8	because	O	O	O	O
+11-9	of	O	O	O	O
+11-10	how	11-13_advmod	looked	WRB	O
+11-11	the	O	O	DT	O
+11-12	cover	11-13_nsubj	looked	NN	P1_other
+11-13	looked	11-7_prepc_because_of	liked	VBD	O
+11-14	.	O	O	O	O
+
+#id=12
+#text=Once we had the locations we went to the shelf to find the books , based on the book number , we knew just where to look . 
+12-1	Once	12-3_mark	had	IN	O
+12-2	we	12-3_nsubj	had	PRP	P2_customer
+12-3	had	12-23_advcl	knew	VBD	O
+12-4	the	O	O	DT	O
+12-5	locations	12-3_dobj	had	NNS	P1_location_library
+12-6	we	12-7_nsubj	went	PRP	P2_customer
+12-7	went	O	O	VBD	O
+12-8	to	O	O	O	O
+12-9	the	O	O	DT	O
+12-10	shelf	12-7_prep_to	went	NN	P1_shelf
+12-11	to	12-12_aux	find	TO	O
+12-12	find	12-7_xcomp	went	VB	O
+12-13	the	O	O	DT	O
+12-14	books	12-12_dobj	find	NNS	P1_book
+12-15	,	O	O	O	O
+12-16	based	O	O	O	O
+12-17	on	12-3_prepc_based_on	had	IN	O
+12-18	the	O	O	DT	O
+12-19	book	O	O	NN	O
+12-20	number	12-3_pobj	had	NN	P1_book_id
+12-21	,	O	O	O	O
+12-22	we	12-23_nsubj	knew	PRP	P2_customer
+12-23	knew	O	O	VBD	O
+12-24	just	12-27_advmod	look	RB	O
+12-25	where	12-27_advmod	look	WRB	O
+12-26	to	12-27_aux	look	TO	O
+12-27	look	12-23_xcomp	knew	VB	O
+12-28	.	O	O	O	O
+
+#id=13
+#text=We found two of the three books we were searching for . 
+13-1	We	13-2_nsubj	found	PRP	P2_customer
+13-2	found	O	O	VBD	O
+13-3	two	13-2_dobj	found	CD	O
+13-4	of	O	O	O	O
+13-5	the	O	O	DT	O
+13-6	three	O	O	CD	O
+13-7	books	O	O	NNS	P1_book
+13-8	we	13-10_nsubj	searching	PRP	P2_customer
+13-9	were	13-10_aux	searching	VBD	O
+13-10	searching	O	O	VBG	O
+13-11	for	13-10_prep	searching	IN	O
+13-12	.	O	O	O	O
+
+#id=14
+#text=Then we were ready to check out the books and head home . 
+14-1	Then	O	O	RB	O
+14-2	we	O	O	PRP	P2_customer
+14-3	were	O	O	VBD	O
+14-4	ready	O	O	JJ	O
+14-5	to	14-6_aux	check	TO	O
+14-6	check	O	O	VB	O
+14-7	out	O	O	O	O
+14-8	the	O	O	DT	O
+14-9	books	14-6_prep_out	check	NNS	P1_book
+14-10	and	O	O	O	O
+14-11	head	O	O	NN	O
+14-12	home	O	O	NN	P1_NPart_home
+14-13	.	O	O	O	O
+
+#id=15
+#text=I got out my library card and we went to a different computer that allows you to check the books out , so you can borrow them and take them home for a few weeks . 
+15-1	I	15-2_nsubj	got	PRP	P2_customer
+15-2	got	O	O	VBD	O
+15-3	out	15-2_prt	got	RP	O
+15-4	my	O	O	PRP$	P2_customer
+15-5	library	O	O	NN	O
+15-6	card	15-2_dobj	got	NN	P1_library_card
+15-7	and	O	O	O	O
+15-8	we	15-9_nsubj	went	PRP	P2_customer
+15-9	went	15-2_conj_and	got	VBD	O
+15-10	to	O	O	O	O
+15-11	a	O	O	DT	O
+15-12	different	O	O	JJ	O
+15-13	computer	15-9_prep_to	went	NN	P2_institutional_devices
+15-14	that	15-15_nsubj	allows	WDT	O
+15-15	allows	O	O	VBZ	O
+15-16	you	15-15_dobj	allows	PRP	P2_customer
+15-17	to	15-18_aux	check	TO	O
+15-18	check	15-15_xcomp	allows	VB	O
+15-19	the	O	O	DT	O
+15-20	books	15-18_dobj	check	NNS	P1_book
+15-21	out	15-18_prt	check	RP	O
+15-22	,	O	O	O	O
+15-23	so	15-2_dep	got	IN	O
+15-24	you	15-26_nsubj	borrow	PRP	P2_customer
+15-25	can	15-26_aux	borrow	MD	O
+15-26	borrow	15-2_parataxis	got	VB	O
+15-27	them	15-26_dobj	borrow	PRP	P1_book
+15-28	and	O	O	O	O
+15-29	take	15-26_conj_and	borrow	VB	O
+15-30	them	15-29_dobj	take	PRP	P1_book
+15-31	home	15-29_advmod	take	RB	O
+15-32	for	O	O	O	O
+15-33	a	O	O	DT	O
+15-34	few	O	O	JJ	O
+15-35	weeks	15-29_prep_for	take	NNS	P1_NPart_weeks
+15-36	.	O	O	O	O
+
+#id=16
+#text=We scanned my card , and the books and the machine printed a slip that told us when to return the books . 
+16-1	We	16-2_nsubj	scanned	PRP	P2_customer
+16-2	scanned	O	O	VBD	O
+16-3	my	O	O	PRP$	P2_customer
+16-4	card	16-2_dobj	scanned	NN	P1_library_card
+16-5	,	O	O	O	O
+16-6	and	O	O	O	O
+16-7	the	O	O	DT	O
+16-8	books	16-12_nsubj	printed	NNS	P1_book
+16-9	and	O	O	O	O
+16-10	the	O	O	DT	O
+16-11	machine	O	O	NN	P3_institutional_devices
+16-12	printed	16-2_conj_and	scanned	VBD	O
+16-13	a	O	O	DT	O
+16-14	slip	16-12_dobj	printed	NN	P1_receipt
+16-15	that	16-16_nsubj	told	WDT	O
+16-16	told	O	O	VBD	O
+16-17	us	16-16_dobj	told	PRP	P2_customer
+16-18	when	16-20_advmod	return	WRB	O
+16-19	to	16-20_aux	return	TO	O
+16-20	return	16-16_xcomp	told	VB	O
+16-21	the	O	O	DT	O
+16-22	books	16-20_dobj	return	NNS	P1_book
+16-23	.	O	O	O	O
+
+#id=17
+#text=We took our slip and headed out the door to drive back home . 
+17-1	We	17-2_nsubj	took	PRP	P2_customer
+17-2	took	O	O	VBD	O
+17-3	our	O	O	PRP$	P2_customer
+17-4	slip	17-2_dobj	took	NN	P1_receipt
+17-5	and	O	O	O	O
+17-6	headed	17-2_conj_and	took	VBD	O
+17-7	out	17-6_prt	headed	RP	O
+17-8	the	O	O	DT	O
+17-9	door	17-6_dobj	headed	NN	P1_NPart_door
+17-10	to	17-11_aux	drive	TO	O
+17-11	drive	O	O	VB	O
+17-12	back	17-11_prt	drive	RP	O
+17-13	home	17-11_dobj	drive	NN	P2_NPart_home
+17-14	.	O	O	O	O
+
+#id=18
+#text=My daughter enjoyed looking at the pictures and trying a few of the animals herself . 
+18-1	My	O	O	PRP$	P2_customer
+18-2	daughter	18-3_nsubj	enjoyed	NN	P1_customer
+18-3	enjoyed	O	O	VBD	O
+18-4	looking	18-3_ccomp	enjoyed	VBG	O
+18-5	at	O	O	O	O
+18-6	the	O	O	DT	O
+18-7	pictures	18-4_prep_at	looking	NNS	P1_NPart_pictures
+18-8	and	O	O	O	O
+18-9	trying	18-4_conj_and	looking	VBG	O
+18-10	a	O	O	DT	O
+18-11	few	18-9_dobj	trying	JJ	O
+18-12	of	O	O	O	O
+18-13	the	O	O	DT	O
+18-14	animals	O	O	NNS	P3_NPart_animals
+18-15	herself	18-4_dobj	looking	PRP	P1_customer
+18-16	.	O	O	O	O

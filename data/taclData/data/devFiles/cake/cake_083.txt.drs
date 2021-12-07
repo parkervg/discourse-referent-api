@@ -1,0 +1,220 @@
+#id=1
+#text=I am more of a cook rather than a baker of pastries and sweets . 
+1-1	I	O	O	PRP	P1_cook
+1-2	am	O	O	VBP	O
+1-3	more	O	O	JJR	O
+1-4	of	O	O	O	O
+1-5	a	O	O	DT	O
+1-6	cook	O	O	NN	P1_cook
+1-7	rather	O	O	O	O
+1-8	than	O	O	O	O
+1-9	a	O	O	DT	O
+1-10	baker	O	O	NN	O
+1-11	of	O	O	O	O
+1-12	pastries	O	O	NNS	P1_NPart_pastries
+1-13	and	O	O	O	O
+1-14	sweets	O	O	NNS	P1_NPart_sweets
+1-15	.	O	O	O	O
+
+#id=2
+#text=But with the internet and youtube anything can be found . 
+2-1	But	2-10_cc	found	CC	O
+2-2	with	O	O	O	O
+2-3	the	O	O	DT	O
+2-4	internet	2-10_prep_with	found	NN	P1_recipe_source
+2-5	and	O	O	O	O
+2-6	youtube	O	O	NN	P2_recipe_source
+2-7	anything	2-10_nsubjpass	found	NN	O
+2-8	can	2-10_aux	found	MD	O
+2-9	be	2-10_auxpass	found	VB	O
+2-10	found	O	O	VBN	O
+2-11	.	O	O	O	O
+
+#id=3
+#text=I searched youtube to find a good simple but interesting set of instructions . 
+3-1	I	3-2_nsubj	searched	PRP	P1_cook
+3-2	searched	O	O	VBD	O
+3-3	youtube	3-2_acomp	searched	JJ	P2_recipe_source
+3-4	to	3-5_aux	find	TO	O
+3-5	find	O	O	VB	O
+3-6	a	O	O	DT	O
+3-7	good	O	O	JJ	O
+3-8	simple	O	O	JJ	P1_NPart_simple
+3-9	but	O	O	O	O
+3-10	interesting	O	O	JJ	O
+3-11	set	3-5_dobj	find	NN	P1_NPart_set
+3-12	of	O	O	O	O
+3-13	instructions	O	O	NNS	P1_baking_instructions
+3-14	.	O	O	O	O
+
+#id=4
+#text=I decided on a chocolate cake as I am weak when it comes to resisting chocolate . 
+4-1	I	4-2_nsubj	decided	PRP	P1_cook
+4-2	decided	O	O	VBD	O
+4-3	on	O	O	O	O
+4-4	a	O	O	DT	O
+4-5	chocolate	O	O	NN	O
+4-6	cake	4-2_prep_on	decided	NN	P1_cake
+4-7	as	O	O	IN	O
+4-8	I	O	O	PRP	P1_cook
+4-9	am	O	O	VBP	O
+4-10	weak	4-2_advcl	decided	JJ	O
+4-11	when	4-13_advmod	comes	WRB	O
+4-12	it	4-13_nsubj	comes	PRP	O
+4-13	comes	O	O	VBZ	O
+4-14	to	O	O	O	O
+4-15	resisting	4-13_prepc_to	comes	VBG	O
+4-16	chocolate	4-15_dobj	resisting	NN	P1_ingredients
+4-17	.	O	O	O	O
+
+#id=5
+#text=I gathered all of the ingredients and placed them on the counter along with measuring cups and spoons . 
+5-1	I	5-2_nsubj	gathered	PRP	P1_cook
+5-2	gathered	O	O	VBD	O
+5-3	all	5-2_dobj	gathered	DT	O
+5-4	of	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	ingredients	O	O	NNS	P2_ingredients
+5-7	and	O	O	O	O
+5-8	placed	5-2_conj_and	gathered	VBD	O
+5-9	them	5-8_dobj	placed	PRP	P2_ingredients
+5-10	on	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	counter	5-8_prep_on	placed	NN	P1_other
+5-13	along	O	O	O	O
+5-14	with	O	O	O	O
+5-15	measuring	5-8_prepc_along_with	placed	VBG	O
+5-16	cups	5-15_dobj	measuring	NNS	P1_utensil
+5-17	and	O	O	O	O
+5-18	spoons	O	O	NNS	P2_utensil
+5-19	.	O	O	O	O
+
+#id=6
+#text=I could not believe how much sugar goes into the baking of a cake but that 's why it 's not a health food . 
+6-1	I	6-4_nsubj	believe	PRP	P1_cook
+6-2	could	6-4_aux	believe	MD	O
+6-3	not	6-4_neg	believe	RB	O
+6-4	believe	O	O	VB	O
+6-5	how	O	O	WRB	O
+6-6	much	6-8_dep	goes	JJ	O
+6-7	sugar	6-8_nsubj	goes	NN	P3_ingredients
+6-8	goes	6-4_dep	believe	VBZ	O
+6-9	into	O	O	O	O
+6-10	the	6-8_prep_into	goes	DT	O
+6-11	baking	O	O	VBG	O
+6-12	of	O	O	O	O
+6-13	a	O	O	DT	O
+6-14	cake	O	O	NN	P1_cake
+6-15	but	O	O	O	O
+6-16	that	6-17_nsubj	's	WDT	O
+6-17	's	6-8_conj_but	goes	VBZ	O
+6-18	why	O	O	WRB	O
+6-19	it	O	O	PRP	P1_cake
+6-20	's	O	O	VBZ	O
+6-21	not	O	O	RB	O
+6-22	a	O	O	DT	O
+6-23	health	O	O	NN	P1_NPart_health
+6-24	food	6-17_advcl	's	NN	P1_cake
+6-25	.	O	O	O	O
+
+#id=7
+#text=All the ingredients went into a bowl for me to mix with a 1980 's hand held electric mixer . 
+7-1	All	O	O	PDT	O
+7-2	the	O	O	DT	O
+7-3	ingredients	7-4_nsubj	went	NNS	P2_ingredients
+7-4	went	O	O	VBD	O
+7-5	into	O	O	O	O
+7-6	a	O	O	DT	O
+7-7	bowl	7-4_prep_into	went	NN	P3_utensil
+7-8	for	O	O	O	O
+7-9	me	O	O	PRP	P2_cook
+7-10	to	7-11_aux	mix	TO	O
+7-11	mix	7-4_xcomp	went	VB	O
+7-12	with	O	O	O	O
+7-13	a	O	O	DT	O
+7-14	1980	O	O	CD	O
+7-15	's	O	O	O	O
+7-16	hand	7-17_dep	held	NN	P1_NPart_hand
+7-17	held	O	O	VBN	O
+7-18	electric	O	O	JJ	O
+7-19	mixer	7-11_prep_with	mix	NN	P4_utensil
+7-20	.	O	O	O	O
+
+#id=8
+#text=While the over was preheating I scooped a the mixture into a well greased baking pan . 
+8-1	While	8-5_mark	preheating	IN	O
+8-2	the	O	O	DT	O
+8-3	over	8-5_nsubj	preheating	RB	P1_oven
+8-4	was	8-5_aux	preheating	VBD	O
+8-5	preheating	8-7_advcl	scooped	VBG	O
+8-6	I	8-7_nsubj	scooped	PRP	P1_cook
+8-7	scooped	O	O	VBD	O
+8-8	a	O	O	DT	O
+8-9	the	O	O	DT	O
+8-10	mixture	8-7_dobj	scooped	NN	P1_dough
+8-11	into	O	O	O	O
+8-12	a	O	O	DT	O
+8-13	well	O	O	RB	O
+8-14	greased	O	O	JJ	O
+8-15	baking	O	O	VBG	O
+8-16	pan	8-7_prep_into	scooped	NN	P1_cake_tin
+8-17	.	O	O	O	O
+
+#id=9
+#text=Naturally my finger stole a taste of the raw cake . 
+9-1	Naturally	9-4_advmod	stole	RB	O
+9-2	my	O	O	PRP$	P1_cook
+9-3	finger	9-4_nsubj	stole	NN	P1_NPart_finger
+9-4	stole	O	O	VBD	O
+9-5	a	O	O	DT	O
+9-6	taste	9-4_dobj	stole	NN	P1_NPart_taste
+9-7	of	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	raw	O	O	JJ	O
+9-10	cake	O	O	NN	P1_cake
+9-11	.	O	O	O	O
+
+#id=10
+#text=After placing the bowl in the oven and and waiting the proper time I removed the cake and frosted it after it cooled down . 
+10-1	After	O	O	O	O
+10-2	placing	10-15_prepc_after	removed	VBG	O
+10-3	the	O	O	DT	O
+10-4	bowl	10-2_dobj	placing	NN	P1_cake_tin
+10-5	in	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	oven	O	O	NN	P1_oven
+10-8	and	O	O	O	O
+10-9	and	O	O	O	O
+10-10	waiting	10-2_conj_and	placing	VBG	O
+10-11	the	O	O	DT	O
+10-12	proper	O	O	JJ	O
+10-13	time	10-10_dobj	waiting	NN	P1_time
+10-14	I	10-15_nsubj	removed	PRP	P1_cook
+10-15	removed	O	O	VBD	O
+10-16	the	O	O	DT	O
+10-17	cake	10-15_dobj	removed	NN	P1_cake
+10-18	and	O	O	O	O
+10-19	frosted	10-15_conj_and	removed	VBD	O
+10-20	it	10-19_dobj	frosted	PRP	P1_cake
+10-21	after	10-23_mark	cooled	IN	O
+10-22	it	10-23_nsubj	cooled	PRP	P1_cake
+10-23	cooled	10-19_advcl	frosted	VBD	O
+10-24	down	10-23_prt	cooled	RP	O
+10-25	.	O	O	O	O
+
+#id=11
+#text=Not too bad for a non baker but I 'll stick to cooking . 
+11-1	Not	O	O	RB	O
+11-2	too	O	O	RB	O
+11-3	bad	O	O	JJ	O
+11-4	for	O	O	O	O
+11-5	a	O	O	DT	O
+11-6	non	O	O	NN	O
+11-7	baker	O	O	NN	P1_cook
+11-8	but	11-11_cc	stick	CC	O
+11-9	I	11-11_nsubj	stick	PRP	P1_cook
+11-10	'll	11-11_aux	stick	MD	O
+11-11	stick	O	O	VB	O
+11-12	to	O	O	O	O
+11-13	cooking	11-11_prep_to	stick	NN	O
+11-14	.	O	O	O	O

@@ -1,0 +1,260 @@
+#id=1
+#text=Today I am taking an airplane to go visit my grandmother . 
+1-1	Today	1-4_tmod	taking	NN	P1_time/date
+1-2	I	1-4_nsubj	taking	PRP	P1_passenger
+1-3	am	1-4_aux	taking	VBP	O
+1-4	taking	O	O	VBG	O
+1-5	an	O	O	DT	O
+1-6	airplane	1-4_dobj	taking	NN	P1_plane
+1-7	to	1-8_aux	go	TO	O
+1-8	go	O	O	VB	O
+1-9	visit	1-8_xcomp	go	VB	O
+1-10	my	O	O	PRP$	P1_passenger
+1-11	grandmother	1-9_dobj	visit	NN	P1_NPart_grandmother
+1-12	.	O	O	O	O
+
+#id=2
+#text=I bought the ticket a few weeks ago and last night I packed my suitcases with clothes and the other items I would need for my trip . 
+2-1	I	2-2_nsubj	bought	PRP	P1_passenger
+2-2	bought	2-24_dep	need	VBD	O
+2-3	the	O	O	DT	O
+2-4	ticket	2-2_dobj	bought	NN	P1_ticket
+2-5	a	O	O	DT	O
+2-6	few	O	O	JJ	O
+2-7	weeks	O	O	NNS	P1_NPart_weeks
+2-8	ago	2-2_advmod	bought	RB	O
+2-9	and	O	O	O	O
+2-10	last	O	O	JJ	O
+2-11	night	2-13_tmod	packed	NN	P1_NPart_night
+2-12	I	2-13_nsubj	packed	PRP	P1_passenger
+2-13	packed	2-2_conj_and	bought	VBD	O
+2-14	my	O	O	PRP$	P1_passenger
+2-15	suitcases	2-13_dobj	packed	NNS	P1_check_in_luggage
+2-16	with	O	O	O	O
+2-17	clothes	2-13_prep_with	packed	NNS	P1_personal_belongings
+2-18	and	O	O	O	O
+2-19	the	O	O	DT	O
+2-20	other	O	O	JJ	O
+2-21	items	O	O	NNS	P2_personal_belongings
+2-22	I	2-24_nsubj	need	PRP	P1_passenger
+2-23	would	2-24_aux	need	MD	O
+2-24	need	O	O	VB	O
+2-25	for	O	O	O	O
+2-26	my	O	O	PRP$	P1_passenger
+2-27	trip	2-24_prep_for	need	NN	P1_NPart_trip
+2-28	.	O	O	O	O
+
+#id=3
+#text=I woke up early today and got my ID and my suitcase and headed for the airport . 
+3-1	I	3-2_nsubj	woke	PRP	P1_passenger
+3-2	woke	O	O	VBD	O
+3-3	up	O	O	RB	O
+3-4	early	3-2_advmod	woke	RB	O
+3-5	today	3-2_tmod	woke	NN	P1_time/date
+3-6	and	O	O	O	O
+3-7	got	3-2_conj_and	woke	VBN	O
+3-8	my	O	O	PRP$	P1_passenger
+3-9	ID	3-7_dobj	got	NN	P1_passport/ID
+3-10	and	O	O	O	O
+3-11	my	O	O	PRP$	P1_passenger
+3-12	suitcase	O	O	NN	P2_check_in_luggage
+3-13	and	O	O	O	O
+3-14	headed	3-7_conj_and	got	VBN	O
+3-15	for	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	airport	3-14_prep_for	headed	NN	P1_airport
+3-18	.	O	O	O	O
+
+#id=4
+#text=After I parked my car , I went to the check in counter and showed the worker my ID . 
+4-1	After	4-3_mark	parked	IN	O
+4-2	I	4-3_nsubj	parked	PRP	P1_passenger
+4-3	parked	4-8_advcl	went	VBD	O
+4-4	my	O	O	PRP$	P1_passenger
+4-5	car	4-3_dobj	parked	NN	P1_NPart_car
+4-6	,	O	O	O	O
+4-7	I	4-8_nsubj	went	PRP	P1_passenger
+4-8	went	O	O	VBD	O
+4-9	to	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	check	4-8_prep_to	went	NN	O
+4-12	in	O	O	O	O
+4-13	counter	4-8_prep_in	went	NN	P1_check_in_desk
+4-14	and	O	O	O	O
+4-15	showed	4-8_conj_and	went	VBD	O
+4-16	the	O	O	DT	O
+4-17	worker	4-15_iobj	showed	NN	P1_staff
+4-18	my	O	O	PRP$	P1_passenger
+4-19	ID	4-15_dobj	showed	NN	P2_passport/ID
+4-20	.	O	O	O	O
+
+#id=5
+#text=She printed out a ticket for me , checked in my suitcase and told me what gate to head to in order to catch my flight . 
+5-1	She	5-2_nsubj	printed	PRP	P1_staff
+5-2	printed	O	O	VBD	O
+5-3	out	5-2_prt	printed	RP	O
+5-4	a	O	O	DT	O
+5-5	ticket	5-2_dobj	printed	NN	P1_ticket
+5-6	for	O	O	O	O
+5-7	me	O	O	PRP	P1_passenger
+5-8	,	O	O	O	O
+5-9	checked	5-2_conj_and	printed	VBD	O
+5-10	in	O	O	O	O
+5-11	my	O	O	PRP$	P1_passenger
+5-12	suitcase	5-9_prep_in	checked	NN	P2_check_in_luggage
+5-13	and	O	O	O	O
+5-14	told	5-2_conj_and	printed	VBD	O
+5-15	me	5-14_dobj	told	PRP	P1_passenger
+5-16	what	5-19_prep_to	head	WP	O
+5-17	gate	5-19_nsubj	head	NN	P1_terminal/gate
+5-18	to	5-19_aux	head	TO	O
+5-19	head	5-14_xcomp	told	VB	O
+5-20	to	O	O	O	O
+5-21	in	5-24_mark	catch	IN	O
+5-22	order	5-24_dep	catch	NN	O
+5-23	to	5-24_aux	catch	TO	O
+5-24	catch	5-19_advcl	head	VB	O
+5-25	my	O	O	PRP$	P1_passenger
+5-26	flight	5-24_dobj	catch	NN	P1_flight
+5-27	.	O	O	O	O
+
+#id=6
+#text=As I got close to the gate I went through security where they scanned my purse and carry-on bag then had me remove my shoes and walk through the metal detectors . 
+6-1	As	6-3_mark	got	IN	O
+6-2	I	6-3_nsubj	got	PRP	P1_passenger
+6-3	got	6-9_advcl	went	VBD	O
+6-4	close	6-3_dobj	got	NN	O
+6-5	to	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	gate	6-3_prep_to	got	NN	P1_terminal/gate
+6-8	I	6-9_nsubj	went	PRP	P1_passenger
+6-9	went	O	O	VBD	O
+6-10	through	O	O	O	O
+6-11	security	6-9_prep_through	went	NN	P1_security_check
+6-12	where	6-14_advmod	scanned	WRB	O
+6-13	they	6-14_nsubj	scanned	PRP	P2_staff
+6-14	scanned	6-9_advcl	went	VBD	O
+6-15	my	O	O	PRP$	P1_passenger
+6-16	purse	6-21_nsubj	had	NN	P1_carry_on_luggage
+6-17	and	O	O	O	O
+6-18	carry-on	O	O	NN	O
+6-19	bag	O	O	NN	P2_carry_on_luggage
+6-20	then	6-21_advmod	had	RB	O
+6-21	had	6-14_ccomp	scanned	VBD	O
+6-22	me	6-23_nsubj	remove	PRP	P1_passenger
+6-23	remove	6-21_ccomp	had	VB	O
+6-24	my	O	O	PRP$	P1_passenger
+6-25	shoes	6-23_dobj	remove	NNS	P1_NPart_shoes
+6-26	and	O	O	O	O
+6-27	walk	6-23_conj_and	remove	VB	O
+6-28	through	O	O	O	O
+6-29	the	O	O	DT	O
+6-30	metal	O	O	NN	O
+6-31	detectors	6-27_prep_through	walk	NNS	P1_NPart_detectors
+6-32	.	O	O	O	O
+
+#id=7
+#text=I put my shoes back on and got my bags and then sat down and waited for my flight to start boarding . 
+7-1	I	7-2_nsubj	put	PRP	P1_passenger
+7-2	put	O	O	VBD	O
+7-3	my	O	O	PRP$	P1_passenger
+7-4	shoes	7-2_dobj	put	NNS	P1_NPart_shoes
+7-5	back	7-2_prt	put	RP	O
+7-6	on	7-2_prep	put	IN	O
+7-7	and	O	O	O	O
+7-8	got	7-2_conj_and	put	VBD	O
+7-9	my	O	O	PRP$	P1_passenger
+7-10	bags	7-8_dobj	got	NNS	P3_carry_on_luggage
+7-11	and	O	O	O	O
+7-12	then	7-13_advmod	sat	RB	O
+7-13	sat	7-2_conj_and	put	VBN	O
+7-14	down	7-13_prt	sat	RP	O
+7-15	and	O	O	O	O
+7-16	waited	7-13_conj_and	sat	VBN	O
+7-17	for	O	O	O	O
+7-18	my	O	O	PRP$	P1_passenger
+7-19	flight	7-16_prep_for	waited	NN	P1_flight
+7-20	to	7-21_aux	start	TO	O
+7-21	start	O	O	VB	O
+7-22	boarding	7-21_dobj	start	NN	O
+7-23	.	O	O	O	O
+
+#id=8
+#text=When they made an announcement that my plane was boarding , I got in line and waited my turn . 
+8-1	When	8-3_advmod	made	WRB	O
+8-2	they	8-3_nsubj	made	PRP	P3_staff
+8-3	made	8-13_advcl	got	VBD	O
+8-4	an	O	O	DT	O
+8-5	announcement	8-3_dobj	made	NN	O
+8-6	that	8-10_mark	boarding	IN	O
+8-7	my	O	O	PRP$	P1_passenger
+8-8	plane	8-10_nsubj	boarding	NN	P1_plane
+8-9	was	8-10_aux	boarding	VBD	O
+8-10	boarding	8-3_ccomp	made	VBG	O
+8-11	,	O	O	O	O
+8-12	I	8-13_nsubj	got	PRP	P1_passenger
+8-13	got	O	O	VBD	O
+8-14	in	O	O	O	O
+8-15	line	8-13_prep_in	got	NN	P1_line
+8-16	and	O	O	O	O
+8-17	waited	8-13_conj_and	got	VBD	O
+8-18	my	O	O	PRP$	P1_passenger
+8-19	turn	8-17_dobj	waited	NN	P1_NPart_turn
+8-20	.	O	O	O	O
+
+#id=9
+#text=Once I got on the plane I looked at my ticket to find my seat number , found my seat and sat down and buckled my seat belt . 
+9-1	Once	9-3_mark	got	IN	O
+9-2	I	9-3_nsubj	got	PRP	P1_passenger
+9-3	got	9-8_advcl	looked	VBD	O
+9-4	on	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	plane	9-3_prep_on	got	NN	P1_plane
+9-7	I	9-8_nsubj	looked	PRP	P1_passenger
+9-8	looked	O	O	VBD	O
+9-9	at	O	O	O	O
+9-10	my	O	O	PRP$	P1_passenger
+9-11	ticket	9-8_prep_at	looked	NN	P1_ticket
+9-12	to	9-13_aux	find	TO	O
+9-13	find	O	O	VB	O
+9-14	my	O	O	PRP$	P1_passenger
+9-15	seat	O	O	NN	O
+9-16	number	9-13_dobj	find	NN	P1_NPart_number
+9-17	,	O	O	O	O
+9-18	found	9-8_conj_and	looked	VBD	O
+9-19	my	O	O	PRP$	P1_passenger
+9-20	seat	9-18_dobj	found	NN	P1_seat
+9-21	and	O	O	O	O
+9-22	sat	9-8_conj_and	looked	VBD	O
+9-23	down	9-22_prt	sat	RP	O
+9-24	and	O	O	O	O
+9-25	buckled	9-22_conj_and	sat	VBD	O
+9-26	my	O	O	PRP$	P1_passenger
+9-27	seat	O	O	NN	O
+9-28	belt	9-25_dobj	buckled	NN	P1_seat_belt
+9-29	.	O	O	O	O
+
+#id=10
+#text=After everyone was done boarding , the pilot announced we were clear for take off and the plane began to move . 
+10-1	After	10-4_mark	done	IN	O
+10-2	everyone	10-4_nsubjpass	done	NN	P2_passenger
+10-3	was	10-4_auxpass	done	VBD	O
+10-4	done	10-9_advcl	announced	VBN	O
+10-5	boarding	10-4_xcomp	done	VBG	O
+10-6	,	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	pilot	10-9_nsubj	announced	NN	P4_staff
+10-9	announced	O	O	VBD	O
+10-10	we	O	O	PRP	P2_passenger
+10-11	were	O	O	VBD	O
+10-12	clear	10-9_dep	announced	JJ	O
+10-13	for	O	O	O	O
+10-14	take	O	O	VB	O
+10-15	off	10-14_prt	take	RP	O
+10-16	and	O	O	O	O
+10-17	the	O	O	DT	O
+10-18	plane	10-19_nsubj	began	NN	P1_plane
+10-19	began	O	O	VBD	O
+10-20	to	10-21_aux	move	TO	O
+10-21	move	10-19_xcomp	began	VB	O
+10-22	.	O	O	O	O

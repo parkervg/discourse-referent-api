@@ -1,0 +1,251 @@
+#id=1
+#text=Last summer I decided to go to Mexico with my cousins . 
+1-1	Last	O	O	JJ	O
+1-2	summer	1-4_tmod	decided	NN	P1_NPart_summer
+1-3	I	1-4_nsubj	decided	PRP	P1_passenger
+1-4	decided	O	O	VBD	O
+1-5	to	1-6_aux	go	TO	O
+1-6	go	1-4_xcomp	decided	VB	O
+1-7	to	O	O	O	O
+1-8	Mexico	1-6_prep_to	go	NNP	P1_target_location
+1-9	with	O	O	O	O
+1-10	my	O	O	PRP$	P1_passenger
+1-11	cousins	1-6_prep_with	go	NNS	P2_passenger
+1-12	.	O	O	O	O
+
+#id=2
+#text=It was a nice vacation and we were very excited to go . 
+2-1	It	O	O	PRP	O
+2-2	was	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	nice	O	O	JJ	O
+2-5	vacation	O	O	NN	P1_NPart_vacation
+2-6	and	O	O	O	O
+2-7	we	O	O	PRP	P3_passenger
+2-8	were	O	O	VBD	O
+2-9	very	O	O	RB	O
+2-10	excited	O	O	JJ	O
+2-11	to	2-12_aux	go	TO	O
+2-12	go	O	O	VB	O
+2-13	.	O	O	O	O
+
+#id=3
+#text=In order to get to Mexico , we had to fly a plane . 
+3-1	In	3-4_mark	get	IN	O
+3-2	order	3-4_dep	get	NN	O
+3-3	to	3-4_aux	get	TO	O
+3-4	get	3-9_advcl	had	VB	O
+3-5	to	O	O	O	O
+3-6	Mexico	3-4_prep_to	get	NNP	P1_target_location
+3-7	,	O	O	O	O
+3-8	we	3-9_nsubj	had	PRP	P3_passenger
+3-9	had	O	O	VBD	O
+3-10	to	3-11_aux	fly	TO	O
+3-11	fly	3-9_xcomp	had	VB	O
+3-12	a	O	O	DT	O
+3-13	plane	3-11_dobj	fly	NN	P1_plane
+3-14	.	O	O	O	O
+
+#id=4
+#text=I have no issues flying a plane . 
+4-1	I	4-2_nsubj	have	PRP	P1_passenger
+4-2	have	O	O	VBP	O
+4-3	no	O	O	DT	O
+4-4	issues	4-2_dobj	have	NNS	O
+4-5	flying	O	O	VBG	O
+4-6	a	O	O	DT	O
+4-7	plane	4-5_dobj	flying	NN	P1_plane
+4-8	.	O	O	O	O
+
+#id=5
+#text=I usually fly it constantly when I visit my friends in Florida . 
+5-1	I	5-3_nsubj	fly	PRP	P1_passenger
+5-2	usually	5-3_advmod	fly	RB	O
+5-3	fly	O	O	VBP	O
+5-4	it	5-3_dobj	fly	PRP	P1_plane
+5-5	constantly	5-3_advmod	fly	RB	O
+5-6	when	5-8_advmod	visit	WRB	O
+5-7	I	5-8_nsubj	visit	PRP	P1_passenger
+5-8	visit	5-3_advcl	fly	VBP	O
+5-9	my	O	O	PRP$	P1_passenger
+5-10	friends	5-8_dobj	visit	NNS	P1_NPart_friends
+5-11	in	O	O	O	O
+5-12	Florida	5-8_prep_in	visit	NNP	P1_NPart_florida
+5-13	.	O	O	O	O
+
+#id=6
+#text=My cousins , on the other hand , were n't too keen on flying . 
+6-1	My	O	O	PRP$	P1_passenger
+6-2	cousins	O	O	NNS	P2_passenger
+6-3	,	O	O	O	O
+6-4	on	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	other	O	O	JJ	O
+6-7	hand	O	O	NN	O
+6-8	,	O	O	O	O
+6-9	were	O	O	VBD	O
+6-10	n't	O	O	RB	O
+6-11	too	O	O	RB	O
+6-12	keen	O	O	JJ	O
+6-13	on	O	O	O	O
+6-14	flying	O	O	VBG	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=They were very nervous on the plane . 
+7-1	They	O	O	PRP	P2_passenger
+7-2	were	O	O	VBD	O
+7-3	very	O	O	RB	O
+7-4	nervous	O	O	JJ	O
+7-5	on	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	plane	O	O	NN	P1_plane
+7-8	.	O	O	O	O
+
+#id=8
+#text=I had to calm them down . 
+8-1	I	8-2_nsubj	had	PRP	P1_passenger
+8-2	had	O	O	VBD	O
+8-3	to	8-4_aux	calm	TO	O
+8-4	calm	8-2_xcomp	had	VB	O
+8-5	them	8-4_dobj	calm	PRP	P2_passenger
+8-6	down	8-4_prt	calm	RP	O
+8-7	.	O	O	O	O
+
+#id=9
+#text=The food we received helped calm their nerves . 
+9-1	The	O	O	DT	O
+9-2	food	9-5_nsubj	helped	NN	P1_in-flight_entertainment
+9-3	we	9-4_nsubj	received	PRP	P3_passenger
+9-4	received	O	O	VBD	O
+9-5	helped	O	O	VBD	O
+9-6	calm	9-5_xcomp	helped	VB	O
+9-7	their	O	O	PRP$	P2_passenger
+9-8	nerves	9-6_dobj	calm	NNS	P1_NPart_nerves
+9-9	.	O	O	O	O
+
+#id=10
+#text=Eating distracted them a little from our environment . 
+10-1	Eating	10-2_nsubj	distracted	NNP	O
+10-2	distracted	O	O	VBD	O
+10-3	them	10-2_dobj	distracted	PRP	P2_passenger
+10-4	a	O	O	DT	O
+10-5	little	10-2_npadvmod	distracted	JJ	O
+10-6	from	O	O	O	O
+10-7	our	O	O	PRP$	P3_passenger
+10-8	environment	10-2_prep_from	distracted	NN	P1_location_airplane
+10-9	.	O	O	O	O
+
+#id=11
+#text=Everything was fine until the plane started to experience a lot of turbulence . 
+11-1	Everything	O	O	NNP	O
+11-2	was	O	O	VBD	O
+11-3	fine	O	O	JJ	O
+11-4	until	11-7_mark	started	IN	O
+11-5	the	O	O	DT	O
+11-6	plane	11-7_nsubj	started	NN	P1_plane
+11-7	started	O	O	VBD	O
+11-8	to	11-9_aux	experience	TO	O
+11-9	experience	11-7_xcomp	started	VB	O
+11-10	a	O	O	DT	O
+11-11	lot	11-9_dobj	experience	NN	O
+11-12	of	O	O	O	O
+11-13	turbulence	O	O	NN	P1_other
+11-14	.	O	O	O	O
+
+#id=12
+#text=My cousins started to get afraid again . 
+12-1	My	O	O	PRP$	P1_passenger
+12-2	cousins	12-3_nsubj	started	NNS	P2_passenger
+12-3	started	O	O	VBD	O
+12-4	to	O	O	TO	O
+12-5	get	O	O	VB	O
+12-6	afraid	12-3_xcomp	started	JJ	O
+12-7	again	O	O	RB	O
+12-8	.	O	O	O	O
+
+#id=13
+#text=In fact , the turbulence was so bad , I started to feel afraid as well . 
+13-1	In	O	O	O	O
+13-2	fact	13-11_prep_in	started	NN	O
+13-3	,	O	O	O	O
+13-4	the	O	O	DT	O
+13-5	turbulence	O	O	NN	P2_other
+13-6	was	O	O	VBD	O
+13-7	so	O	O	RB	O
+13-8	bad	13-11_parataxis	started	JJ	O
+13-9	,	O	O	O	O
+13-10	I	13-11_nsubj	started	PRP	P1_passenger
+13-11	started	O	O	VBD	O
+13-12	to	13-13_aux	feel	TO	O
+13-13	feel	13-11_xcomp	started	VB	O
+13-14	afraid	13-13_acomp	feel	JJ	O
+13-15	as	O	O	RB	O
+13-16	well	13-13_advmod	feel	RB	O
+13-17	.	O	O	O	O
+
+#id=14
+#text=Soon , the pilot announced that there was nothing to worry about . 
+14-1	Soon	14-5_advmod	announced	RB	O
+14-2	,	O	O	O	O
+14-3	the	O	O	DT	O
+14-4	pilot	14-5_nsubj	announced	NN	P1_staff
+14-5	announced	O	O	VBD	O
+14-6	that	14-8_mark	was	IN	O
+14-7	there	14-8_expl	was	EX	O
+14-8	was	14-5_ccomp	announced	VBD	O
+14-9	nothing	14-8_acomp	was	NN	O
+14-10	to	14-11_aux	worry	TO	O
+14-11	worry	O	O	VB	O
+14-12	about	14-11_prt	worry	RP	O
+14-13	.	O	O	O	O
+
+#id=15
+#text=A couple minutes later , the plane flew smoothly again . 
+15-1	A	O	O	DT	O
+15-2	couple	O	O	JJ	O
+15-3	minutes	O	O	NNS	P1_time/date
+15-4	later	15-8_advmod	flew	RB	O
+15-5	,	O	O	O	O
+15-6	the	O	O	DT	O
+15-7	plane	15-8_nsubj	flew	NN	P1_plane
+15-8	flew	O	O	VBD	O
+15-9	smoothly	15-8_advmod	flew	RB	O
+15-10	again	15-8_advmod	flew	RB	O
+15-11	.	O	O	O	O
+
+#id=16
+#text=Eight hours later , we arrived at Mexico . 
+16-1	Eight	O	O	CD	O
+16-2	hours	16-6_nsubj	arrived	NNS	P2_time/date
+16-3	later	O	O	RB	O
+16-4	,	O	O	O	O
+16-5	we	16-6_nsubj	arrived	PRP	P3_passenger
+16-6	arrived	O	O	VBD	O
+16-7	at	O	O	O	O
+16-8	Mexico	16-6_prep_at	arrived	NNP	P1_target_location
+16-9	.	O	O	O	O
+
+#id=17
+#text=We were not only excited to be in Mexico , but we were excited to be on solid ground again . 
+17-1	We	O	O	PRP	P3_passenger
+17-2	were	O	O	VBD	O
+17-3	not	O	O	RB	O
+17-4	only	O	O	RB	O
+17-5	excited	O	O	JJ	O
+17-6	to	17-7_aux	be	TO	O
+17-7	be	O	O	VB	O
+17-8	in	O	O	O	O
+17-9	Mexico	17-7_prep_in	be	NNP	P1_target_location
+17-10	,	O	O	O	O
+17-11	but	O	O	O	O
+17-12	we	O	O	PRP	P3_passenger
+17-13	were	O	O	VBD	O
+17-14	excited	O	O	JJ	O
+17-15	to	17-16_aux	be	TO	O
+17-16	be	O	O	VB	O
+17-17	on	O	O	O	O
+17-18	solid	O	O	JJ	O
+17-19	ground	17-16_prep_on	be	NN	P1_NPart_ground
+17-20	again	17-16_advmod	be	RB	O
+17-21	.	O	O	O	O

@@ -1,0 +1,209 @@
+#id=1
+#text=I wanted to get a knitting book for one pattern , but did n't want to buy the entire book just to access three of its pages . 
+1-1	I	1-2_nsubj	wanted	PRP	P1_customer
+1-2	wanted	O	O	VBD	O
+1-3	to	1-4_aux	get	TO	O
+1-4	get	1-2_xcomp	wanted	VB	O
+1-5	a	O	O	DT	O
+1-6	knitting	O	O	JJ	O
+1-7	book	1-4_dobj	get	NN	P1_book
+1-8	for	O	O	O	O
+1-9	one	O	O	CD	O
+1-10	pattern	O	O	NN	P1_NPart_pattern
+1-11	,	O	O	O	O
+1-12	but	O	O	O	O
+1-13	did	1-15_aux	want	VBD	O
+1-14	n't	1-15_neg	want	RB	O
+1-15	want	1-2_conj_but	wanted	VB	O
+1-16	to	1-17_aux	buy	TO	O
+1-17	buy	1-15_xcomp	want	VB	O
+1-18	the	O	O	DT	O
+1-19	entire	O	O	JJ	O
+1-20	book	1-17_dobj	buy	NN	P1_book
+1-21	just	1-17_advmod	buy	RB	O
+1-22	to	1-23_aux	access	TO	O
+1-23	access	1-17_vmod	buy	VB	O
+1-24	three	1-23_dobj	access	CD	O
+1-25	of	O	O	O	O
+1-26	its	O	O	PRP$	P1_book
+1-27	pages	O	O	NNS	P1_NPart_pages
+1-28	.	O	O	O	O
+
+#id=2
+#text=I decided to go see if they had it at the library . 
+2-1	I	2-2_nsubj	decided	PRP	P1_customer
+2-2	decided	O	O	VBD	O
+2-3	to	2-4_aux	go	TO	O
+2-4	go	2-2_xcomp	decided	VB	O
+2-5	see	2-4_xcomp	go	VB	O
+2-6	if	2-8_mark	had	IN	O
+2-7	they	2-8_nsubj	had	PRP	P1_staff
+2-8	had	2-5_advcl	see	VBD	O
+2-9	it	2-8_dobj	had	PRP	P1_book
+2-10	at	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	library	2-8_prep_at	had	NN	P1_library
+2-13	.	O	O	O	O
+
+#id=3
+#text=When I got there , I walked through the automatic doors and breathed the smell of old paper . 
+3-1	When	3-3_advmod	got	WRB	O
+3-2	I	3-3_nsubj	got	PRP	P1_customer
+3-3	got	3-7_advcl	walked	VBD	O
+3-4	there	3-3_advmod	got	RB	P1_library
+3-5	,	O	O	O	O
+3-6	I	3-7_nsubj	walked	PRP	P1_customer
+3-7	walked	O	O	VBD	O
+3-8	through	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	automatic	O	O	JJ	O
+3-11	doors	3-7_prep_through	walked	NNS	P1_NPart_doors
+3-12	and	O	O	O	O
+3-13	breathed	3-7_conj_and	walked	VBD	O
+3-14	the	O	O	DT	O
+3-15	smell	3-13_dobj	breathed	NN	P1_NPart_smell
+3-16	of	O	O	O	O
+3-17	old	O	O	JJ	O
+3-18	paper	O	O	NN	P1_NPart_paper
+3-19	.	O	O	O	O
+
+#id=4
+#text=I walked over to a computer to look up the title I was seeking and jotted down the area in which it could be found . 
+4-1	I	4-2_nsubj	walked	PRP	P1_customer
+4-2	walked	O	O	VBD	O
+4-3	over	4-2_prt	walked	RP	O
+4-4	to	O	O	O	O
+4-5	a	O	O	DT	O
+4-6	computer	4-2_prep_to	walked	NN	P1_institutional_devices
+4-7	to	4-8_aux	look	TO	O
+4-8	look	4-2_xcomp	walked	VB	O
+4-9	up	4-8_prt	look	RP	O
+4-10	the	O	O	DT	O
+4-11	title	4-8_dobj	look	NN	P1_book
+4-12	I	4-14_nsubj	seeking	PRP	P1_customer
+4-13	was	4-14_aux	seeking	VBD	O
+4-14	seeking	O	O	VBG	O
+4-15	and	O	O	O	O
+4-16	jotted	4-2_conj_and	walked	VBD	O
+4-17	down	4-16_prt	jotted	RP	O
+4-18	the	O	O	DT	O
+4-19	area	4-16_dobj	jotted	NN	P1_location_library
+4-20	in	O	O	O	O
+4-21	which	4-25_prep_in	found	WDT	O
+4-22	it	4-25_nsubjpass	found	PRP	P1_book
+4-23	could	4-25_aux	found	MD	O
+4-24	be	4-25_auxpass	found	VB	O
+4-25	found	O	O	VBN	O
+4-26	.	O	O	O	O
+
+#id=5
+#text=Luckily , it had n't been checked out and I meandered over to the nonfiction section . 
+5-1	Luckily	5-7_advmod	checked	RB	O
+5-2	,	O	O	O	O
+5-3	it	5-7_nsubjpass	checked	PRP	P1_book
+5-4	had	5-7_aux	checked	VBD	O
+5-5	n't	5-7_neg	checked	RB	O
+5-6	been	5-7_auxpass	checked	VBN	O
+5-7	checked	O	O	VBN	O
+5-8	out	5-7_prt	checked	RP	O
+5-9	and	O	O	O	O
+5-10	I	5-11_nsubj	meandered	PRP	P1_customer
+5-11	meandered	5-7_conj_and	checked	VBD	O
+5-12	over	5-11_prt	meandered	RP	O
+5-13	to	O	O	O	O
+5-14	the	O	O	DT	O
+5-15	nonfiction	O	O	NN	O
+5-16	section	5-11_prep_to	meandered	NN	P2_location_library
+5-17	.	O	O	O	O
+
+#id=6
+#text=I quickly found the book and took some time perusing the selection . 
+6-1	I	6-3_nsubj	found	PRP	P1_customer
+6-2	quickly	6-3_advmod	found	RB	O
+6-3	found	O	O	VBD	O
+6-4	the	O	O	DT	O
+6-5	book	6-3_dobj	found	NN	P1_book
+6-6	and	O	O	O	O
+6-7	took	6-3_conj_and	found	VBD	O
+6-8	some	O	O	DT	O
+6-9	time	6-7_dobj	took	NN	O
+6-10	perusing	6-7_xcomp	took	VBG	O
+6-11	the	O	O	DT	O
+6-12	selection	6-10_dobj	perusing	NN	P1_NPart_selection
+6-13	.	O	O	O	O
+
+#id=7
+#text=I did n't see anything else that perked my interest and walked to the front to check out the book . 
+7-1	I	7-4_nsubj	see	PRP	P1_customer
+7-2	did	7-4_aux	see	VBD	O
+7-3	n't	7-4_neg	see	RB	O
+7-4	see	O	O	VB	O
+7-5	anything	7-4_dobj	see	NN	P2_book
+7-6	else	O	O	RB	O
+7-7	that	7-8_nsubj	perked	WDT	O
+7-8	perked	O	O	VBD	O
+7-9	my	O	O	PRP$	P1_customer
+7-10	interest	7-8_dobj	perked	NN	O
+7-11	and	O	O	O	O
+7-12	walked	7-8_conj_and	perked	VBD	O
+7-13	to	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	front	7-12_prep_to	walked	NN	P3_location_library
+7-16	to	7-17_aux	check	TO	O
+7-17	check	7-12_xcomp	walked	VB	O
+7-18	out	7-17_prt	check	RP	O
+7-19	the	O	O	DT	O
+7-20	book	7-17_dobj	check	NN	P1_book
+7-21	.	O	O	O	O
+
+#id=8
+#text=I decided to use the self check out . 
+8-1	I	8-2_nsubj	decided	PRP	P1_customer
+8-2	decided	O	O	VBD	O
+8-3	to	8-4_aux	use	TO	O
+8-4	use	8-2_xcomp	decided	VB	O
+8-5	the	O	O	DT	O
+8-6	self	O	O	NN	O
+8-7	check	8-4_dobj	use	NN	O
+8-8	out	8-4_prt	use	RP	P2_institutional_devices
+8-9	.	O	O	O	O
+
+#id=9
+#text=I scanned my library card and then the bar code on the book . 
+9-1	I	9-2_nsubj	scanned	PRP	P1_customer
+9-2	scanned	O	O	VBD	O
+9-3	my	O	O	PRP$	P1_customer
+9-4	library	O	O	NN	O
+9-5	card	9-2_dobj	scanned	NN	P1_library_card
+9-6	and	O	O	O	O
+9-7	then	O	O	RB	O
+9-8	the	O	O	DT	O
+9-9	bar	O	O	NN	O
+9-10	code	O	O	NN	P1_book_id
+9-11	on	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	book	O	O	NN	P1_book
+9-14	.	O	O	O	O
+
+#id=10
+#text=The machine gave me a receipt . 
+10-1	The	O	O	DT	O
+10-2	machine	10-3_nsubj	gave	NN	P2_institutional_devices
+10-3	gave	O	O	VBD	O
+10-4	me	10-3_iobj	gave	PRP	P1_customer
+10-5	a	O	O	DT	O
+10-6	receipt	10-3_dobj	gave	NN	P1_receipt
+10-7	.	O	O	O	O
+
+#id=11
+#text=I took that and the book , then left . 
+11-1	I	11-2_nsubj	took	PRP	P1_customer
+11-2	took	O	O	VBD	O
+11-3	that	11-2_dobj	took	DT	P1_receipt
+11-4	and	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	book	O	O	NN	P1_book
+11-7	,	O	O	O	O
+11-8	then	11-9_advmod	left	RB	O
+11-9	left	O	O	VBN	O
+11-10	.	O	O	O	O

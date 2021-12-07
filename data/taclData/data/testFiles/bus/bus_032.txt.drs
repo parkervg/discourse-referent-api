@@ -1,0 +1,204 @@
+#id=1
+#text=To get to work everyday I take the bus . 
+1-1	To	1-2_aux	get	TO	O
+1-2	get	1-7_dep	take	VB	O
+1-3	to	1-4_aux	work	TO	O
+1-4	work	1-2_xcomp	get	VB	O
+1-5	everyday	1-4_dobj	work	NN	O
+1-6	I	1-7_nsubj	take	PRP	P1_passenger
+1-7	take	O	O	VBP	O
+1-8	the	O	O	DT	O
+1-9	bus	1-7_dobj	take	NN	P1_bus
+1-10	.	O	O	O	O
+
+#id=2
+#text=I always get to the bus stop early to wait for it to arrive . 
+2-1	I	2-3_nsubj	get	PRP	P1_passenger
+2-2	always	2-3_advmod	get	RB	O
+2-3	get	O	O	VBP	O
+2-4	to	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	bus	O	O	NN	O
+2-7	stop	2-3_prep_to	get	NN	P1_bus_stop
+2-8	early	2-3_advmod	get	RB	O
+2-9	to	2-10_aux	wait	TO	O
+2-10	wait	O	O	VB	O
+2-11	for	2-14_mark	arrive	IN	O
+2-12	it	2-14_nsubj	arrive	PRP	P1_bus
+2-13	to	2-14_aux	arrive	TO	O
+2-14	arrive	2-10_advcl	wait	VB	O
+2-15	.	O	O	O	O
+
+#id=3
+#text=Once it comes I board and swipe my metro card to pay . 
+3-1	Once	3-3_advmod	comes	RB	O
+3-2	it	3-3_nsubj	comes	PRP	P1_bus
+3-3	comes	O	O	VBZ	O
+3-4	I	3-5_nsubj	board	PRP	P1_passenger
+3-5	board	3-3_ccomp	comes	VB	O
+3-6	and	O	O	O	O
+3-7	swipe	3-5_conj_and	board	VB	O
+3-8	my	O	O	PRP$	P1_passenger
+3-9	metro	O	O	NN	O
+3-10	card	3-5_dobj	board	NN	P1_card/ticket
+3-11	to	3-12_aux	pay	TO	O
+3-12	pay	3-5_vmod	board	VB	O
+3-13	.	O	O	O	O
+
+#id=4
+#text=If I do n't have my card I have to feed money into the machine which always stressed me out for some reason . 
+4-1	If	4-5_mark	have	IN	O
+4-2	I	4-5_nsubj	have	PRP	P1_passenger
+4-3	do	4-5_aux	have	VBP	O
+4-4	n't	4-5_neg	have	RB	O
+4-5	have	4-9_advcl	have	VB	O
+4-6	my	O	O	PRP$	P1_passenger
+4-7	card	4-5_dobj	have	NN	P1_card/ticket
+4-8	I	4-9_nsubj	have	PRP	P1_passenger
+4-9	have	O	O	VBP	O
+4-10	to	4-11_aux	feed	TO	O
+4-11	feed	4-9_xcomp	have	VB	O
+4-12	money	4-11_dobj	feed	NN	P1_money
+4-13	into	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	machine	4-11_prep_into	feed	NN	P1_payment_machine
+4-16	which	4-18_nsubj	stressed	WDT	O
+4-17	always	4-18_advmod	stressed	RB	O
+4-18	stressed	O	O	VBD	O
+4-19	me	4-18_dobj	stressed	PRP	P1_passenger
+4-20	out	4-18_prt	stressed	RP	O
+4-21	for	O	O	O	O
+4-22	some	O	O	DT	O
+4-23	reason	4-18_prep_for	stressed	NN	P1_NPart_reason
+4-24	.	O	O	O	O
+
+#id=5
+#text=Then I choose a seat if one is available . 
+5-1	Then	5-3_advmod	choose	RB	O
+5-2	I	5-3_nsubj	choose	PRP	P1_passenger
+5-3	choose	O	O	VBP	O
+5-4	a	O	O	DT	O
+5-5	seat	5-3_dobj	choose	NN	P1_seat_in_bus
+5-6	if	O	O	IN	O
+5-7	one	O	O	PRP	P1_seat_in_bus
+5-8	is	O	O	VBZ	O
+5-9	available	5-3_advcl	choose	JJ	O
+5-10	.	O	O	O	O
+
+#id=6
+#text=If not I stand . 
+6-1	If	O	O	IN	O
+6-2	not	O	O	RB	O
+6-3	I	O	O	NN	P1_passenger
+6-4	stand	O	O	NN	O
+6-5	.	O	O	O	O
+
+#id=7
+#text=If I see someone who is elderly or pregnant I always give them my seat . 
+7-1	If	7-3_mark	see	IN	O
+7-2	I	7-3_nsubj	see	PRP	P1_passenger
+7-3	see	7-12_advcl	give	VBP	O
+7-4	someone	7-3_dobj	see	NN	P2_passenger
+7-5	who	O	O	WP	O
+7-6	is	O	O	VBZ	O
+7-7	elderly	O	O	JJ	O
+7-8	or	O	O	O	O
+7-9	pregnant	O	O	JJ	O
+7-10	I	7-12_nsubj	give	PRP	P1_passenger
+7-11	always	7-12_advmod	give	RB	O
+7-12	give	O	O	VBP	O
+7-13	them	7-12_iobj	give	PRP	P2_passenger
+7-14	my	O	O	PRP$	P1_passenger
+7-15	seat	7-12_dobj	give	NN	P1_seat_in_bus
+7-16	.	O	O	O	O
+
+#id=8
+#text=Sometimes crazy people are on the bus as well . 
+8-1	Sometimes	8-4_advmod	are	RB	O
+8-2	crazy	O	O	JJ	O
+8-3	people	8-4_nsubj	are	NNS	P3_passenger
+8-4	are	O	O	VBP	O
+8-5	on	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	bus	8-4_prep_on	are	NN	P1_bus
+8-8	as	O	O	RB	O
+8-9	well	8-4_advmod	are	RB	O
+8-10	.	O	O	O	O
+
+#id=9
+#text=There is nothing to be done but avoid them and hope they do n't bother you . 
+9-1	There	9-2_expl	is	EX	O
+9-2	is	O	O	VBZ	O
+9-3	nothing	9-2_nsubj	is	NN	O
+9-4	to	9-6_aux	done	TO	O
+9-5	be	9-6_auxpass	done	VB	O
+9-6	done	O	O	VBN	O
+9-7	but	O	O	O	O
+9-8	avoid	9-6_ccomp	done	VB	O
+9-9	them	9-8_dobj	avoid	PRP	P4_passenger
+9-10	and	O	O	O	O
+9-11	hope	9-8_conj_and	avoid	VB	O
+9-12	they	9-15_nsubj	bother	PRP	P5_passenger
+9-13	do	9-15_aux	bother	VBP	O
+9-14	n't	9-15_neg	bother	RB	O
+9-15	bother	9-11_ccomp	hope	VB	O
+9-16	you	9-15_dobj	bother	PRP	P1_passenger
+9-17	.	O	O	O	O
+
+#id=10
+#text=The bus stops and starts a lot and passenger board and depart . 
+10-1	The	O	O	DT	O
+10-2	bus	10-3_nsubj	stops	NN	P1_bus
+10-3	stops	O	O	VBZ	O
+10-4	and	O	O	O	O
+10-5	starts	10-3_conj_and	stops	VBZ	O
+10-6	a	O	O	DT	O
+10-7	lot	O	O	NN	P1_NPart_lot
+10-8	and	O	O	O	O
+10-9	passenger	O	O	NN	P6_passenger
+10-10	board	10-3_dobj	stops	NN	O
+10-11	and	O	O	O	O
+10-12	depart	O	O	NNP	O
+10-13	.	O	O	O	O
+
+#id=11
+#text=When I get to my stop I pull the cord at the top of the bus so the driver knows to stop . 
+11-1	When	11-3_advmod	get	WRB	O
+11-2	I	11-3_nsubj	get	PRP	P1_passenger
+11-3	get	11-8_advcl	pull	VBP	O
+11-4	to	O	O	O	O
+11-5	my	O	O	PRP$	P7_passenger
+11-6	stop	11-3_prep_to	get	NN	P2_bus_stop
+11-7	I	11-8_nsubj	pull	PRP	P1_passenger
+11-8	pull	O	O	VBP	O
+11-9	the	O	O	DT	O
+11-10	cord	11-8_dobj	pull	NN	P1_stop_button/door_opener
+11-11	at	O	O	O	O
+11-12	the	O	O	DT	O
+11-13	top	11-8_prep_at	pull	NN	P1_other
+11-14	of	O	O	O	O
+11-15	the	O	O	DT	O
+11-16	bus	O	O	NN	P1_bus
+11-17	so	11-20_mark	knows	IN	O
+11-18	the	O	O	DT	O
+11-19	driver	11-20_nsubj	knows	NN	P1_bus_staff
+11-20	knows	11-8_advcl	pull	VBZ	O
+11-21	to	11-22_aux	stop	TO	O
+11-22	stop	11-20_xcomp	knows	VB	O
+11-23	.	O	O	O	O
+
+#id=12
+#text=Once we stop I depart the bus and continue on my journey . 
+12-1	Once	12-3_advmod	stop	RB	O
+12-2	we	12-3_nsubj	stop	PRP	P1_bus
+12-3	stop	O	O	VBP	O
+12-4	I	12-5_nsubj	depart	PRP	P1_passenger
+12-5	depart	12-3_ccomp	stop	VB	O
+12-6	the	O	O	DT	O
+12-7	bus	12-5_dobj	depart	NN	P1_bus
+12-8	and	O	O	O	O
+12-9	continue	12-5_conj_and	depart	VB	O
+12-10	on	O	O	O	O
+12-11	my	O	O	PRP$	P1_passenger
+12-12	journey	12-9_prep_on	continue	NN	P1_NPart_journey
+12-13	.	O	O	O	O

@@ -1,0 +1,206 @@
+#id=1
+#text=I was very excited to go visit my friend in the city . 
+1-1	I	O	O	PRP	P1_passenger
+1-2	was	O	O	VBD	O
+1-3	very	O	O	RB	O
+1-4	excited	O	O	JJ	O
+1-5	to	1-6_aux	go	TO	O
+1-6	go	O	O	VB	O
+1-7	visit	1-6_xcomp	go	VB	O
+1-8	my	O	O	PRP$	P1_passenger
+1-9	friend	1-7_dobj	visit	NN	P1_NPart_friend
+1-10	in	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	city	1-7_prep_in	visit	NN	P1_destination
+1-13	.	O	O	O	O
+
+#id=2
+#text=I needed to take a bus there so I went online the night before to plan my route . 
+2-1	I	2-2_nsubj	needed	PRP	P1_passenger
+2-2	needed	O	O	VBD	O
+2-3	to	2-4_aux	take	TO	O
+2-4	take	2-2_xcomp	needed	VB	O
+2-5	a	O	O	DT	O
+2-6	bus	2-4_dobj	take	NN	P1_bus
+2-7	there	2-4_advmod	take	RB	O
+2-8	so	2-10_mark	went	IN	O
+2-9	I	2-10_nsubj	went	PRP	P1_passenger
+2-10	went	2-4_advcl	take	VBD	O
+2-11	online	O	O	JJ	O
+2-12	the	O	O	DT	O
+2-13	night	2-10_tmod	went	NN	P1_NPart_night
+2-14	before	2-16_mark	plan	IN	O
+2-15	to	2-16_aux	plan	TO	O
+2-16	plan	2-10_advcl	went	VB	O
+2-17	my	O	O	PRP$	P1_passenger
+2-18	route	2-16_dobj	plan	NN	P1_route
+2-19	.	O	O	O	O
+
+#id=3
+#text=My parents dropped me off at the bus stop and i went to the ticket machine to get a Metrocard . 
+3-1	My	O	O	PRP$	P1_passenger
+3-2	parents	3-3_nsubj	dropped	NNS	P1_NPart_parents
+3-3	dropped	O	O	VBD	O
+3-4	me	3-3_dobj	dropped	PRP	P1_passenger
+3-5	off	3-3_prt	dropped	RP	O
+3-6	at	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	bus	O	O	NN	O
+3-9	stop	3-3_prep_at	dropped	NN	P1_bus_stop
+3-10	and	O	O	O	O
+3-11	i	3-12_nsubj	went	FW	P1_passenger
+3-12	went	3-3_conj_and	dropped	VBD	O
+3-13	to	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	ticket	O	O	NN	O
+3-16	machine	3-12_prep_to	went	NN	P1_payment_machine
+3-17	to	3-18_aux	get	TO	O
+3-18	get	3-12_xcomp	went	VB	O
+3-19	a	O	O	DT	O
+3-20	Metrocard	3-18_dobj	get	NNP	P1_card/ticket
+3-21	.	O	O	O	O
+
+#id=4
+#text=I sat down on a bench and waited for the bus to arrive . 
+4-1	I	4-2_nsubj	sat	PRP	P1_passenger
+4-2	sat	O	O	VBD	O
+4-3	down	4-2_prt	sat	RP	O
+4-4	on	O	O	O	O
+4-5	a	O	O	DT	O
+4-6	bench	4-2_prep_on	sat	NN	P1_NPart_bench
+4-7	and	O	O	O	O
+4-8	waited	4-2_conj_and	sat	VBD	O
+4-9	for	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	bus	4-8_prep_for	waited	NN	P1_bus
+4-12	to	4-13_aux	arrive	TO	O
+4-13	arrive	4-8_xcomp	waited	VB	O
+4-14	.	O	O	O	O
+
+#id=5
+#text=After a few minutes the big bus arrived and opened its doors . 
+5-1	After	O	O	O	O
+5-2	a	O	O	DT	O
+5-3	few	O	O	JJ	O
+5-4	minutes	5-8_prep_after	arrived	NNS	P1_time/date
+5-5	the	O	O	DT	O
+5-6	big	O	O	JJ	O
+5-7	bus	5-8_nsubj	arrived	NN	P1_bus
+5-8	arrived	O	O	VBD	O
+5-9	and	O	O	O	O
+5-10	opened	5-8_conj_and	arrived	VBD	O
+5-11	its	O	O	PRP$	P1_bus
+5-12	doors	5-10_dobj	opened	NNS	P1_door
+5-13	.	O	O	O	O
+
+#id=6
+#text=As I walked up the stairs I said hello to the bus driver . 
+6-1	As	6-3_mark	walked	IN	O
+6-2	I	6-3_nsubj	walked	PRP	P1_passenger
+6-3	walked	6-8_advcl	said	VBD	O
+6-4	up	6-3_prt	walked	RP	O
+6-5	the	O	O	DT	O
+6-6	stairs	6-3_dobj	walked	NNS	P1_NPart_stairs
+6-7	I	6-8_nsubj	said	PRP	P1_passenger
+6-8	said	O	O	VBD	O
+6-9	hello	6-8_discourse	said	UH	O
+6-10	to	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	bus	O	O	NN	O
+6-13	driver	6-8_prep_to	said	NN	P1_bus_staff
+6-14	.	O	O	O	O
+
+#id=7
+#text=I took out my Metrocard and swiped it in the slot . 
+7-1	I	7-2_nsubj	took	PRP	P1_passenger
+7-2	took	O	O	VBD	O
+7-3	out	7-2_prt	took	RP	O
+7-4	my	O	O	PRP$	P1_passenger
+7-5	Metrocard	7-2_dobj	took	NN	P1_card/ticket
+7-6	and	O	O	O	O
+7-7	swiped	7-2_conj_and	took	VBD	O
+7-8	it	7-7_dobj	swiped	PRP	P1_card/ticket
+7-9	in	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	slot	7-7_prep_in	swiped	NN	P1_NPart_slot
+7-12	.	O	O	O	O
+
+#id=8
+#text=I asked the driver how long until my stop and he said it was the fifth stop and would take about forty minutes . 
+8-1	I	8-2_nsubj	asked	PRP	P1_passenger
+8-2	asked	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	driver	8-2_dobj	asked	NN	P1_bus_staff
+8-5	how	O	O	WRB	O
+8-6	long	8-2_dep	asked	JJ	O
+8-7	until	O	O	O	O
+8-8	my	O	O	PRP$	P1_passenger
+8-9	stop	8-2_prep_until	asked	NN	P2_bus_stop
+8-10	and	O	O	O	O
+8-11	he	8-12_nsubj	said	PRP	P1_bus_staff
+8-12	said	8-2_conj_and	asked	VBD	O
+8-13	it	O	O	PRP	O
+8-14	was	O	O	VBD	O
+8-15	the	O	O	DT	O
+8-16	fifth	O	O	JJ	O
+8-17	stop	8-12_ccomp	said	NN	P2_bus_stop
+8-18	and	O	O	O	O
+8-19	would	8-20_aux	take	MD	O
+8-20	take	8-12_conj_and	said	VB	O
+8-21	about	O	O	O	O
+8-22	forty	O	O	JJ	O
+8-23	minutes	8-20_prep_about	take	NNS	P2_time/date
+8-24	.	O	O	O	O
+
+#id=9
+#text=After forty minutes it was time for me to get off the bus . 
+9-1	After	O	O	O	O
+9-2	forty	O	O	JJ	O
+9-3	minutes	O	O	NNS	P2_time/date
+9-4	it	O	O	PRP	O
+9-5	was	O	O	VBD	O
+9-6	time	O	O	NN	O
+9-7	for	O	O	O	O
+9-8	me	O	O	PRP	P1_passenger
+9-9	to	9-10_aux	get	TO	O
+9-10	get	O	O	VB	O
+9-11	off	9-10_prt	get	RP	O
+9-12	the	O	O	DT	O
+9-13	bus	9-10_dobj	get	NN	P1_bus
+9-14	.	O	O	O	O
+
+#id=10
+#text=the bus driver told me to have a good day and I got off the bus . 
+10-1	the	O	O	DT	O
+10-2	bus	O	O	NN	O
+10-3	driver	10-4_nsubj	told	NN	P1_bus_staff
+10-4	told	O	O	VBD	O
+10-5	me	10-4_dobj	told	PRP	P1_passenger
+10-6	to	10-7_aux	have	TO	O
+10-7	have	10-4_xcomp	told	VB	O
+10-8	a	O	O	DT	O
+10-9	good	O	O	JJ	O
+10-10	day	10-7_tmod	have	NN	P1_NPart_day
+10-11	and	O	O	O	O
+10-12	I	10-13_nsubj	got	PRP	P1_passenger
+10-13	got	10-4_conj_and	told	VBD	O
+10-14	off	10-13_prt	got	RP	O
+10-15	the	O	O	DT	O
+10-16	bus	10-13_dobj	got	NN	P1_bus
+10-17	.	O	O	O	O
+
+#id=11
+#text=I could see my friend Mickey waving to me across the street . 
+11-1	I	11-3_nsubj	see	PRP	P1_passenger
+11-2	could	11-3_aux	see	MD	O
+11-3	see	O	O	VB	O
+11-4	my	O	O	PRP$	P1_passenger
+11-5	friend	O	O	NN	O
+11-6	Mickey	11-3_dobj	see	NNP	P1_NPart_mickey
+11-7	waving	O	O	VBG	O
+11-8	to	O	O	O	O
+11-9	me	11-7_prep_to	waving	PRP	P1_passenger
+11-10	across	O	O	O	O
+11-11	the	O	O	DT	O
+11-12	street	11-7_prep_across	waving	NN	P1_NPart_street
+11-13	.	O	O	O	O

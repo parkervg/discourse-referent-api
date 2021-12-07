@@ -1,0 +1,286 @@
+#id=1
+#text=I wanted to go the museum downtown Milwaukee . 
+1-1	I	1-2_nsubj	wanted	PRP	P1_passenger
+1-2	wanted	O	O	VBD	O
+1-3	to	1-4_aux	go	TO	O
+1-4	go	1-2_xcomp	wanted	VB	O
+1-5	the	O	O	DT	O
+1-6	museum	O	O	NN	P1_destination
+1-7	downtown	O	O	NN	O
+1-8	Milwaukee	1-4_dobj	go	NNP	P1_NPart_milwaukee
+1-9	.	O	O	O	O
+
+#id=2
+#text=I got ten dollars from my bank and put in my pocket . 
+2-1	I	2-2_nsubj	got	PRP	P1_passenger
+2-2	got	O	O	VBD	O
+2-3	ten	O	O	CD	O
+2-4	dollars	2-2_dobj	got	NNS	P1_NPart_dollars
+2-5	from	O	O	O	O
+2-6	my	O	O	PRP$	P1_passenger
+2-7	bank	2-2_prep_from	got	NN	P1_NPart_bank
+2-8	and	O	O	O	O
+2-9	put	2-2_conj_and	got	VBD	O
+2-10	in	O	O	O	O
+2-11	my	O	O	PRP$	P1_passenger
+2-12	pocket	2-9_prep_in	put	NN	P1_NPart_pocket
+2-13	.	O	O	O	O
+
+#id=3
+#text=I walked a block from my house to catch the bus . 
+3-1	I	3-2_nsubj	walked	PRP	P1_passenger
+3-2	walked	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	block	3-2_dobj	walked	NN	P1_NPart_block
+3-5	from	O	O	O	O
+3-6	my	O	O	PRP$	P1_passenger
+3-7	house	3-2_prep_from	walked	NN	P1_NPart_house
+3-8	to	3-9_aux	catch	TO	O
+3-9	catch	O	O	VB	O
+3-10	the	O	O	DT	O
+3-11	bus	3-9_dobj	catch	NN	P1_bus
+3-12	.	O	O	O	O
+
+#id=4
+#text=The number nine bus came ten minutes later . 
+4-1	The	O	O	DT	O
+4-2	number	O	O	NN	P1_NPart_number
+4-3	nine	O	O	CD	O
+4-4	bus	4-5_nsubj	came	NN	P1_bus
+4-5	came	O	O	VBD	O
+4-6	ten	O	O	CD	O
+4-7	minutes	4-5_dobj	came	NNS	P1_time/date
+4-8	later	O	O	RB	O
+4-9	.	O	O	O	O
+
+#id=5
+#text=I boarded the bus and asked the driver " How much ? " 
+5-1	I	5-2_nsubj	boarded	PRP	P1_passenger
+5-2	boarded	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	bus	5-2_dobj	boarded	NN	P1_bus
+5-5	and	O	O	O	O
+5-6	asked	5-2_conj_and	boarded	VBD	O
+5-7	the	O	O	DT	O
+5-8	driver	O	asked	NN	P1_bus_staff
+5-9	"	O	O	O	O
+5-10	How	O	O	WRB	O
+5-11	much	5-6_dep	O	JJ	O
+5-12	?	O	O	O	O
+5-13	"	O	O	O	O
+
+#id=6
+#text=The driver asked me where I was going and when I told him he said " That ll be two seventy five . " 
+6-1	The	O	O	DT	O
+6-2	driver	6-3_nsubj	asked	NN	P2_bus_staff
+6-3	asked	O	O	VBD	O
+6-4	me	6-3_dobj	asked	PRP	P1_passenger
+6-5	where	6-8_advmod	going	WRB	O
+6-6	I	6-8_nsubj	going	PRP	P1_passenger
+6-7	was	6-8_aux	going	VBD	O
+6-8	going	6-3_advcl	asked	VBG	O
+6-9	and	O	O	O	O
+6-10	when	6-12_advmod	told	WRB	O
+6-11	I	6-12_nsubj	told	PRP	P1_passenger
+6-12	told	6-8_conj_and	going	VBD	O
+6-13	him	6-12_dobj	told	PRP	P2_bus_staff
+6-14	he	6-15_nsubj	said	PRP	P2_bus_staff
+6-15	said	6-12_dep	told	VBD	O
+6-16	"	O	O	O	O
+6-17	That	O	said	DT	O
+6-18	ll	O	said	RB	O
+6-19	be	O	O	VB	O
+6-20	two	O	O	CD	O
+6-21	seventy	O	O	JJ	O
+6-22	five	6-15_ccomp	said	CD	P1_money
+6-23	.	O	O	O	O
+6-24	"	O	O	O	O
+
+#id=7
+#text=I pulled three dollars out of my pocket and put them in the bus money collection machine . 
+7-1	I	7-2_nsubj	pulled	PRP	P1_passenger
+7-2	pulled	O	O	VBD	O
+7-3	three	O	O	CD	O
+7-4	dollars	7-2_dobj	pulled	NNS	P2_money
+7-5	out	O	O	O	O
+7-6	of	O	O	O	O
+7-7	my	O	O	PRP$	P1_passenger
+7-8	pocket	7-2_prep_out_of	pulled	NN	P2_NPart_pocket
+7-9	and	O	O	O	O
+7-10	put	7-2_conj_and	pulled	VBD	O
+7-11	them	7-10_dobj	put	PRP	P2_money
+7-12	in	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	bus	O	O	NN	O
+7-15	money	O	O	NN	O
+7-16	collection	O	O	NN	O
+7-17	machine	7-10_prep_in	put	NN	P1_payment_machine
+7-18	.	O	O	O	O
+
+#id=8
+#text=The machine showed three dollars were entered and that my ride would cost two seventy five . 
+8-1	The	O	O	DT	O
+8-2	machine	8-3_nsubj	showed	NN	P1_payment_machine
+8-3	showed	O	O	VBD	O
+8-4	three	O	O	CD	O
+8-5	dollars	8-7_nsubjpass	entered	NNS	P2_money
+8-6	were	8-7_auxpass	entered	VBD	O
+8-7	entered	8-3_ccomp	showed	VBN	O
+8-8	and	O	O	O	O
+8-9	that	8-13_mark	cost	IN	O
+8-10	my	O	O	PRP$	P1_passenger
+8-11	ride	8-13_nsubj	cost	NN	P1_ride
+8-12	would	8-13_aux	cost	MD	O
+8-13	cost	8-7_conj_and	entered	VB	O
+8-14	two	O	O	CD	O
+8-15	seventy	O	O	JJ	O
+8-16	five	8-13_dobj	cost	CD	P1_money
+8-17	.	O	O	O	O
+
+#id=9
+#text=A quarter dropped in the drop box . 
+9-1	A	O	O	DT	O
+9-2	quarter	9-3_nsubj	dropped	NN	P3_money
+9-3	dropped	O	O	VBD	O
+9-4	in	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	drop	O	O	NN	O
+9-7	box	9-3_prep_in	dropped	NN	P1_NPart_box
+9-8	.	O	O	O	O
+
+#id=10
+#text=I retrieved the quarter and then found a seat . 
+10-1	I	10-2_nsubj	retrieved	PRP	P1_passenger
+10-2	retrieved	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	quarter	10-2_dobj	retrieved	NN	P3_money
+10-5	and	O	O	O	O
+10-6	then	10-7_advmod	found	RB	O
+10-7	found	10-2_conj_and	retrieved	VBD	O
+10-8	a	O	O	DT	O
+10-9	seat	10-7_dobj	found	NN	P1_seat_in_bus
+10-10	.	O	O	O	O
+
+#id=11
+#text=The bus driver told I had ten stops before mine so I started counting stops . 
+11-1	The	O	O	DT	O
+11-2	bus	O	O	NN	O
+11-3	driver	11-4_nsubj	told	NN	P2_bus_staff
+11-4	told	O	O	VBD	O
+11-5	I	11-6_nsubj	had	PRP	P1_passenger
+11-6	had	11-4_ccomp	told	VBD	O
+11-7	ten	O	O	CD	O
+11-8	stops	11-6_dobj	had	NNS	P1_other
+11-9	before	O	O	O	O
+11-10	mine	O	O	NN	P2_other
+11-11	so	11-13_mark	started	IN	O
+11-12	I	11-13_nsubj	started	PRP	P1_passenger
+11-13	started	11-6_advcl	had	VBD	O
+11-14	counting	11-13_xcomp	started	VBG	O
+11-15	stops	11-14_dobj	counting	NNS	P1_bus_stop
+11-16	.	O	O	O	O
+
+#id=12
+#text=The first stop was fifth street . 
+12-1	The	O	O	DT	O
+12-2	first	O	O	JJ	O
+12-3	stop	O	O	NN	P2_bus_stop
+12-4	was	O	O	VBD	O
+12-5	fifth	O	O	JJ	O
+12-6	street	O	O	NN	P2_bus_stop
+12-7	.	O	O	O	O
+
+#id=13
+#text=The second was Hadley Avenue . 
+13-1	The	O	O	DT	O
+13-2	second	O	O	NN	P3_bus_stop
+13-3	was	O	O	VBD	O
+13-4	Hadley	O	O	NNP	O
+13-5	Avenue	O	O	NNP	P3_bus_stop
+13-6	.	O	O	O	O
+
+#id=14
+#text=The next stop was Dobson . 
+14-1	The	O	O	DT	O
+14-2	next	O	O	JJ	O
+14-3	stop	O	O	NN	P4_bus_stop
+14-4	was	O	O	VBD	O
+14-5	Dobson	O	O	JJ	P4_bus_stop
+14-6	.	O	O	O	O
+
+#id=15
+#text=Adams was the ninth stop . 
+15-1	Adams	O	O	NNP	P5_bus_stop
+15-2	was	O	O	VBD	O
+15-3	the	O	O	DT	O
+15-4	ninth	O	O	JJ	O
+15-5	stop	O	O	NN	P5_bus_stop
+15-6	.	O	O	O	O
+
+#id=16
+#text=Finally , Main Street came up . 
+16-1	Finally	16-5_advmod	came	RB	O
+16-2	,	O	O	O	O
+16-3	Main	O	O	NNP	O
+16-4	Street	16-5_nsubj	came	NNP	P6_bus_stop
+16-5	came	O	O	VBD	O
+16-6	up	16-5_prt	came	RP	O
+16-7	.	O	O	O	O
+
+#id=17
+#text=I pulled the bus s rider cord to let the bus driver I wanted to get off . 
+17-1	I	17-2_nsubj	pulled	PRP	P1_passenger
+17-2	pulled	O	O	VBD	O
+17-3	the	O	O	DT	O
+17-4	bus	O	O	NN	P1_bus
+17-5	s	O	O	VBZ	O
+17-6	rider	O	O	NN	O
+17-7	cord	17-2_ccomp	pulled	NN	P1_stop_button/door_opener
+17-8	to	17-9_aux	let	TO	O
+17-9	let	O	O	VB	O
+17-10	the	O	O	DT	O
+17-11	bus	O	O	NN	O
+17-12	driver	17-9_dobj	let	NN	P2_bus_staff
+17-13	I	17-14_nsubj	wanted	PRP	P1_passenger
+17-14	wanted	O	O	VBD	O
+17-15	to	17-16_aux	get	TO	O
+17-16	get	17-14_xcomp	wanted	VB	O
+17-17	off	17-16_prt	get	RP	O
+17-18	.	O	O	O	O
+
+#id=18
+#text=The bus let me off in the front of the Milwaukee Public Museum . 
+18-1	The	O	O	DT	O
+18-2	bus	18-3_nsubj	let	NN	P1_bus
+18-3	let	O	O	VBD	O
+18-4	me	18-3_dobj	let	PRP	P1_passenger
+18-5	off	18-3_prt	let	RP	O
+18-6	in	O	O	O	O
+18-7	the	O	O	DT	O
+18-8	front	18-3_prep_in	let	NN	P1_NPart_front
+18-9	of	O	O	O	O
+18-10	the	O	O	DT	O
+18-11	Milwaukee	O	O	NNP	P2_NPart_milwaukee
+18-12	Public	O	O	NNP	P1_NPart_public
+18-13	Museum	O	O	NNP	P1_destination
+18-14	.	O	O	O	O
+
+#id=19
+#text=I spent almost the whole day there and then returned home the opposite way I came . 
+19-1	I	19-2_nsubj	spent	PRP	P1_passenger
+19-2	spent	19-16_dep	came	VBD	O
+19-3	almost	O	O	RB	O
+19-4	the	O	O	DT	O
+19-5	whole	O	O	JJ	O
+19-6	day	19-2_tmod	spent	NN	P1_NPart_day
+19-7	there	O	O	RB	P1_destination
+19-8	and	O	O	O	O
+19-9	then	19-10_advmod	returned	RB	O
+19-10	returned	19-2_conj_and	spent	VBD	O
+19-11	home	19-10_advmod	returned	RB	O
+19-12	the	O	O	DT	O
+19-13	opposite	O	O	JJ	O
+19-14	way	19-10_dobj	returned	NN	O
+19-15	I	19-16_nsubj	came	PRP	P1_passenger
+19-16	came	O	O	VBD	O
+19-17	.	O	O	O	O

@@ -1,0 +1,221 @@
+#id=1
+#text=Last night I realized I did not have anything for dinner . 
+1-1	Last	O	O	JJ	O
+1-2	night	1-4_tmod	realized	NN	P1_NPart_night
+1-3	I	1-4_nsubj	realized	PRP	P1_shopper
+1-4	realized	O	O	VBD	O
+1-5	I	1-8_nsubj	have	PRP	P1_shopper
+1-6	did	1-8_aux	have	VBD	O
+1-7	not	1-8_neg	have	RB	O
+1-8	have	1-4_ccomp	realized	VB	O
+1-9	anything	1-8_dobj	have	NN	O
+1-10	for	O	O	O	O
+1-11	dinner	O	O	NN	P1_NPart_dinner
+1-12	.	O	O	O	O
+
+#id=2
+#text=To solve this conundrum I first thought about ordering out food . 
+2-1	To	2-2_aux	solve	TO	O
+2-2	solve	2-7_dep	thought	VB	O
+2-3	this	O	O	DT	O
+2-4	conundrum	2-2_dobj	solve	NN	P1_NPart_conundrum
+2-5	I	2-7_nsubj	thought	PRP	P1_shopper
+2-6	first	2-7_advmod	thought	RB	O
+2-7	thought	O	O	VBD	O
+2-8	about	O	O	O	O
+2-9	ordering	2-7_prepc_about	thought	VBG	O
+2-10	out	2-9_prt	ordering	RP	O
+2-11	food	2-9_dobj	ordering	NN	P1_NPart_food
+2-12	.	O	O	O	O
+
+#id=3
+#text=This , I realized , was too expensive as I am a broke college graduate just trying to get by . 
+3-1	This	O	O	DT	O
+3-2	,	O	O	O	O
+3-3	I	3-4_nsubj	realized	PRP	P1_shopper
+3-4	realized	O	O	VBD	O
+3-5	,	O	O	O	O
+3-6	was	O	O	VBD	O
+3-7	too	O	O	RB	O
+3-8	expensive	O	O	JJ	O
+3-9	as	3-17_mark	trying	IN	O
+3-10	I	3-17_nsubj	trying	PRP	P1_shopper
+3-11	am	3-17_aux	trying	VBP	O
+3-12	a	O	O	DT	O
+3-13	broke	O	O	JJ	O
+3-14	college	O	O	NN	O
+3-15	graduate	O	O	NN	P1_shopper
+3-16	just	3-17_advmod	trying	RB	O
+3-17	trying	O	O	VBG	O
+3-18	to	3-19_aux	get	TO	O
+3-19	get	3-17_xcomp	trying	VB	O
+3-20	by	3-19_prep	get	IN	O
+3-21	.	O	O	O	O
+
+#id=4
+#text=I settled on an alternative , going to the grocery store to purchase food . 
+4-1	I	4-2_nsubj	settled	PRP	P1_shopper
+4-2	settled	O	O	VBD	O
+4-3	on	O	O	O	O
+4-4	an	O	O	DT	O
+4-5	alternative	4-2_prep_on	settled	NN	P1_NPart_alternative
+4-6	,	O	O	O	O
+4-7	going	4-2_xcomp	settled	VBG	O
+4-8	to	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	grocery	O	O	NN	O
+4-11	store	4-7_prep_to	going	NN	P1_grocery_shop
+4-12	to	4-13_aux	purchase	TO	O
+4-13	purchase	4-7_xcomp	going	VB	O
+4-14	food	4-13_dobj	purchase	NN	P1_groceries
+4-15	.	O	O	O	O
+
+#id=5
+#text=I walked down the street from my apartment to the Whole Foods in the brisk spring air . 
+5-1	I	5-2_nsubj	walked	PRP	P1_shopper
+5-2	walked	O	O	VBD	O
+5-3	down	5-2_prt	walked	RP	O
+5-4	the	O	O	DT	O
+5-5	street	5-2_dobj	walked	NN	P1_NPart_street
+5-6	from	O	O	O	O
+5-7	my	O	O	PRP$	P1_shopper
+5-8	apartment	5-2_prep_from	walked	NN	P1_NPart_apartment
+5-9	to	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	Whole	O	O	JJ	O
+5-12	Foods	5-2_prep_to	walked	NNPS	P1_grocery_shop
+5-13	in	O	O	O	O
+5-14	the	O	O	DT	O
+5-15	brisk	O	O	JJ	O
+5-16	spring	O	O	NN	O
+5-17	air	5-2_prep_in	walked	NN	P1_NPart_air
+5-18	.	O	O	O	O
+
+#id=6
+#text=I was on a mission , purchase delicious food . 
+6-1	I	6-2_nsubj	was	PRP	P1_shopper
+6-2	was	O	O	VBD	O
+6-3	on	O	O	O	O
+6-4	a	O	O	DT	O
+6-5	mission	6-2_prep_on	was	NN	P1_NPart_mission
+6-6	,	O	O	O	O
+6-7	purchase	O	O	NN	O
+6-8	delicious	O	O	NN	O
+6-9	food	O	O	NN	P2_groceries
+6-10	.	O	O	O	O
+
+#id=7
+#text=When I reached the Whole Foods , the distinct smell of smug filled my nostrils . 
+7-1	When	7-3_advmod	reached	WRB	O
+7-2	I	7-3_nsubj	reached	PRP	P1_shopper
+7-3	reached	7-13_advcl	filled	VBD	O
+7-4	the	O	O	DT	O
+7-5	Whole	O	O	JJ	O
+7-6	Foods	7-3_dobj	reached	NNP	P1_grocery_shop
+7-7	,	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	distinct	O	O	JJ	O
+7-10	smell	7-13_nsubj	filled	NN	P1_NPart_smell
+7-11	of	O	O	O	O
+7-12	smug	O	O	NNP	O
+7-13	filled	O	O	VBD	O
+7-14	my	O	O	PRP$	P1_shopper
+7-15	nostrils	7-13_dobj	filled	NNS	P1_NPart_nostrils
+7-16	.	O	O	O	O
+
+#id=8
+#text=Organic , natural , non deoderized humans paced to and fro within the confines of the kale infused shelving units . 
+8-1	Organic	8-5_nsubj	non	NNP	O
+8-2	,	O	O	O	O
+8-3	natural	O	O	JJ	O
+8-4	,	O	O	O	O
+8-5	non	O	O	VBP	O
+8-6	deoderized	O	O	JJ	O
+8-7	humans	8-8_nsubj	paced	NNS	P2_shopper
+8-8	paced	8-5_ccomp	non	VBD	O
+8-9	to	8-8_advmod	paced	TO	O
+8-10	and	O	O	O	O
+8-11	fro	O	O	RB	O
+8-12	within	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	confines	8-8_prep_within	paced	NNS	P1_NPart_confines
+8-15	of	O	O	O	O
+8-16	the	O	O	DT	O
+8-17	kale	O	O	NN	P3_groceries
+8-18	infused	O	O	VBN	O
+8-19	shelving	8-18_xcomp	infused	VBG	O
+8-20	units	8-19_dobj	shelving	NNS	P1_section
+8-21	.	O	O	O	O
+
+#id=9
+#text=I quickly scuttled to the small frozen foods section to purchase some ` healthy ' junk food . 
+9-1	I	9-3_nsubj	scuttled	PRP	P1_shopper
+9-2	quickly	9-3_advmod	scuttled	RB	O
+9-3	scuttled	O	O	VBD	O
+9-4	to	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	small	O	O	JJ	O
+9-7	frozen	O	O	JJ	O
+9-8	foods	O	O	NNS	O
+9-9	section	9-3_prep_to	scuttled	NN	P2_section
+9-10	to	9-11_aux	purchase	TO	O
+9-11	purchase	9-3_xcomp	scuttled	VB	O
+9-12	some	O	O	DT	O
+9-13	`	O	O	O	O
+9-14	healthy	O	O	JJ	O
+9-15	'	O	O	O	O
+9-16	junk	O	O	NN	O
+9-17	food	9-11_dobj	purchase	NN	P2_groceries
+9-18	.	O	O	O	O
+
+#id=10
+#text=I selected chicken tenders and a small frozen pizza . 
+10-1	I	10-2_nsubj	selected	PRP	P1_shopper
+10-2	selected	O	O	VBD	O
+10-3	chicken	O	O	NN	O
+10-4	tenders	10-2_dobj	selected	NNS	P4_groceries
+10-5	and	O	O	O	O
+10-6	a	O	O	DT	O
+10-7	small	O	O	JJ	O
+10-8	frozen	O	O	VBN	O
+10-9	pizza	O	O	NN	P5_groceries
+10-10	.	O	O	O	O
+
+#id=11
+#text=Skirting the weed smoking hippies throughout the store I returned to the front . 
+11-1	Skirting	11-10_dep	returned	VBG	O
+11-2	the	O	O	DT	O
+11-3	weed	O	O	NN	O
+11-4	smoking	O	O	NN	O
+11-5	hippies	11-1_dobj	Skirting	NNS	P3_shopper
+11-6	throughout	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	store	11-1_prep_throughout	Skirting	NN	P1_grocery_shop
+11-9	I	11-10_nsubj	returned	PRP	P1_shopper
+11-10	returned	O	O	VBD	O
+11-11	to	O	O	O	O
+11-12	the	O	O	DT	O
+11-13	front	11-10_prep_to	returned	NN	P3_section
+11-14	.	O	O	O	O
+
+#id=12
+#text=I quickly made my purchase and sprinted back towards home to concoct my wonderfully delicious tendies and pizza . 
+12-1	I	12-3_nsubj	made	PRP	P1_shopper
+12-2	quickly	12-3_advmod	made	RB	O
+12-3	made	O	O	VBD	O
+12-4	my	O	O	PRP$	P1_shopper
+12-5	purchase	12-3_dobj	made	NN	O
+12-6	and	O	O	O	O
+12-7	sprinted	12-3_conj_and	made	VBD	O
+12-8	back	12-7_prt	sprinted	RP	O
+12-9	towards	O	O	O	O
+12-10	home	12-7_prep_towards	sprinted	NN	P1_NPart_home
+12-11	to	12-12_aux	concoct	TO	O
+12-12	concoct	12-7_xcomp	sprinted	VB	O
+12-13	my	O	O	PRP$	P1_shopper
+12-14	wonderfully	O	O	RB	O
+12-15	delicious	O	O	JJ	O
+12-16	tendies	12-12_dobj	concoct	NNS	P4_groceries
+12-17	and	O	O	O	O
+12-18	pizza	O	O	NN	P5_groceries
+12-19	.	O	O	O	O

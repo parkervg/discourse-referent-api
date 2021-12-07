@@ -1,0 +1,283 @@
+#id=1
+#text=I go through my kitchen and look for items I don ' t have or are very low on : food , sponges , spices , napkins , etc. . 
+1-1	I	1-2_nsubj	go	PRP	P1_shopper
+1-2	go	O	O	VBP	O
+1-3	through	O	O	O	O
+1-4	my	O	O	PRP$	P1_shopper
+1-5	kitchen	1-2_prep_through	go	NN	P1_NPart_kitchen
+1-6	and	O	O	O	O
+1-7	look	1-2_conj_and	go	VBP	O
+1-8	for	O	O	O	O
+1-9	items	1-7_prep_for	look	NNS	P1_groceries
+1-10	I	O	O	NNP	P1_shopper
+1-11	don	O	O	NNP	O
+1-12	'	O	O	O	O
+1-13	t	1-14_nsubj	have	NN	O
+1-14	have	O	O	VBP	O
+1-15	or	O	O	O	O
+1-16	are	O	O	VBP	O
+1-17	very	O	O	RB	O
+1-18	low	1-14_conj_or	have	JJ	O
+1-19	on	O	O	IN	O
+1-20	:	O	O	O	O
+1-21	food	O	O	NN	P1_NPart_food
+1-22	,	O	O	O	O
+1-23	sponges	O	O	NNS	P1_NPart_sponges
+1-24	,	O	O	O	O
+1-25	spices	O	O	NNS	P1_NPart_spices
+1-26	,	O	O	O	O
+1-27	napkins	O	O	NNS	P1_NPart_napkins
+1-28	,	O	O	O	O
+1-29	etc.	O	O	FW	O
+1-30	.	O	O	O	O
+
+#id=2
+#text=I also quickly check my bathroom to see if I need anything in there : toilet paper , soap , deodorant , etc. . 
+2-1	I	2-4_nsubj	check	PRP	P1_shopper
+2-2	also	2-4_advmod	check	RB	O
+2-3	quickly	2-4_advmod	check	RB	O
+2-4	check	O	O	VBP	O
+2-5	my	O	O	PRP$	P1_shopper
+2-6	bathroom	2-4_dobj	check	NN	P1_NPart_bathroom
+2-7	to	2-8_aux	see	TO	O
+2-8	see	O	O	VB	O
+2-9	if	2-11_mark	need	IN	O
+2-10	I	2-11_nsubj	need	PRP	P1_shopper
+2-11	need	2-8_advcl	see	VBP	O
+2-12	anything	2-11_dobj	need	NN	O
+2-13	in	O	O	IN	O
+2-14	there	O	O	RB	O
+2-15	:	O	O	O	O
+2-16	toilet	O	O	O	O
+2-17	paper	O	O	NN	P1_NPart_paper
+2-18	,	O	O	O	O
+2-19	soap	O	O	NN	P1_NPart_soap
+2-20	,	O	O	O	O
+2-21	deodorant	2-11_prep_toilet	need	NN	P1_NPart_deodorant
+2-22	,	O	O	O	O
+2-23	etc.	O	O	FW	O
+2-24	.	O	O	O	O
+
+#id=3
+#text=I do this because I can buy both sets of items at the grocery store in the same trip . 
+3-1	I	3-2_nsubj	do	PRP	P1_shopper
+3-2	do	O	O	VBP	O
+3-3	this	3-2_dobj	do	DT	O
+3-4	because	3-7_mark	buy	IN	O
+3-5	I	3-7_nsubj	buy	PRP	P1_shopper
+3-6	can	3-7_aux	buy	MD	O
+3-7	buy	3-2_advcl	do	VB	O
+3-8	both	O	O	DT	O
+3-9	sets	3-7_dobj	buy	NNS	O
+3-10	of	O	O	O	O
+3-11	items	O	O	NNS	P1_groceries
+3-12	at	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	grocery	O	O	NN	O
+3-15	store	3-7_prep_at	buy	NN	P1_grocery_shop
+3-16	in	O	O	O	O
+3-17	the	O	O	DT	O
+3-18	same	O	O	JJ	O
+3-19	trip	O	O	NN	P1_NPart_trip
+3-20	.	O	O	O	O
+
+#id=4
+#text=I make a list of these things on a piece of paper or type them in my phone , so I can easily recall any of the items I need without forgetting anything . 
+4-1	I	4-2_nsubj	make	PRP	P1_shopper
+4-2	make	O	O	VBP	O
+4-3	a	O	O	DT	O
+4-4	list	O	O	NN	P1_grocery_list
+4-5	of	O	O	O	O
+4-6	these	O	O	DT	O
+4-7	things	O	O	NNS	P1_groceries
+4-8	on	O	O	O	O
+4-9	a	O	O	DT	O
+4-10	piece	O	O	NN	O
+4-11	of	O	O	O	O
+4-12	paper	O	O	NN	P2_NPart_paper
+4-13	or	O	O	O	O
+4-14	type	O	O	NN	O
+4-15	them	4-2_xcomp	make	PRP	P1_groceries
+4-16	in	O	O	O	O
+4-17	my	O	O	PRP$	P1_shopper
+4-18	phone	4-2_prep_in	make	NN	P1_NPart_phone
+4-19	,	O	O	O	O
+4-20	so	4-2_dep	make	IN	O
+4-21	I	4-24_nsubj	recall	PRP	P1_shopper
+4-22	can	4-24_aux	recall	MD	O
+4-23	easily	4-24_advmod	recall	RB	O
+4-24	recall	4-2_parataxis	make	VB	O
+4-25	any	4-24_dobj	recall	DT	O
+4-26	of	O	O	O	O
+4-27	the	O	O	DT	O
+4-28	items	O	O	NNS	P1_groceries
+4-29	I	4-30_nsubj	need	PRP	P1_shopper
+4-30	need	O	O	VBP	O
+4-31	without	O	O	O	O
+4-32	forgetting	4-30_prepc_without	need	VBG	O
+4-33	anything	4-32_dobj	forgetting	NN	P1_groceries
+4-34	.	O	O	O	O
+
+#id=5
+#text=I drive to the store after I prepare my bags in the trunk . 
+5-1	I	5-2_nsubj	drive	PRP	P1_shopper
+5-2	drive	O	O	VBP	O
+5-3	to	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	store	5-2_prep_to	drive	NN	P2_grocery_shop
+5-6	after	5-8_mark	prepare	IN	O
+5-7	I	5-8_nsubj	prepare	PRP	P1_shopper
+5-8	prepare	5-2_advcl	drive	VBP	O
+5-9	my	O	O	PRP$	P1_shopper
+5-10	bags	5-8_dobj	prepare	NNS	P1_shopping_bags
+5-11	in	O	O	O	O
+5-12	the	O	O	DT	O
+5-13	trunk	5-8_prep_in	prepare	NN	P1_NPart_trunk
+5-14	.	O	O	O	O
+
+#id=6
+#text=Once at the store , I grab a cart , set my bags in the cart , and place my phone in the space allocated for the child seat . 
+6-1	Once	6-7_advmod	grab	RB	O
+6-2	at	O	O	O	O
+6-3	the	O	O	DT	O
+6-4	store	O	O	NN	P2_grocery_shop
+6-5	,	O	O	O	O
+6-6	I	6-7_nsubj	grab	PRP	P1_shopper
+6-7	grab	O	O	VB	O
+6-8	a	O	O	DT	O
+6-9	cart	6-7_dobj	grab	NN	P1_shopping_cart/basket
+6-10	,	O	O	O	O
+6-11	set	6-7_conj_and	grab	VB	O
+6-12	my	O	O	PRP$	P1_shopper
+6-13	bags	6-11_dobj	set	NNS	P1_shopping_bags
+6-14	in	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	cart	6-11_prep_in	set	NN	P2_shopping_cart/basket
+6-17	,	O	O	O	O
+6-18	and	O	O	O	O
+6-19	place	6-7_conj_and	grab	VB	O
+6-20	my	O	O	PRP$	P1_shopper
+6-21	phone	6-19_dobj	place	NN	P2_NPart_phone
+6-22	in	O	O	O	O
+6-23	the	O	O	DT	O
+6-24	space	6-19_prep_in	place	NN	P1_NPart_space
+6-25	allocated	O	O	VBN	O
+6-26	for	O	O	O	O
+6-27	the	O	O	DT	O
+6-28	child	O	O	NN	O
+6-29	seat	6-25_prep_for	allocated	NN	P1_NPart_seat
+6-30	.	O	O	O	O
+
+#id=7
+#text=Now I ' m ready to start my grocery shopping : I mechanically go down every aisle and pick up any items I need from those aisles , all the while keeping an eye on my list to make sure I don ' t forget anything . 
+7-1	Now	O	O	RB	O
+7-2	I	O	O	PRP	P1_shopper
+7-3	'	O	O	O	O
+7-4	m	O	O	VBP	O
+7-5	ready	O	O	JJ	O
+7-6	to	7-7_aux	start	TO	O
+7-7	start	O	O	VB	O
+7-8	my	O	O	PRP$	P1_shopper
+7-9	grocery	O	O	NN	O
+7-10	shopping	7-7_dobj	start	NN	O
+7-11	:	O	O	O	O
+7-12	I	7-14_nsubj	go	PRP	P1_shopper
+7-13	mechanically	7-14_aux	go	MD	O
+7-14	go	O	O	VB	O
+7-15	down	7-14_prt	go	RP	O
+7-16	every	O	O	DT	O
+7-17	aisle	7-14_dobj	go	NN	P1_section
+7-18	and	O	O	O	O
+7-19	pick	7-14_conj_and	go	VB	O
+7-20	up	7-19_prt	pick	RP	O
+7-21	any	O	O	DT	O
+7-22	items	7-19_dobj	pick	NNS	P1_groceries
+7-23	I	7-24_nsubj	need	PRP	P1_shopper
+7-24	need	O	O	VBP	O
+7-25	from	O	O	O	O
+7-26	those	O	O	DT	O
+7-27	aisles	7-24_prep_from	need	NNS	P1_section
+7-28	,	O	O	O	O
+7-29	all	O	O	PDT	O
+7-30	the	O	O	DT	O
+7-31	while	O	O	NN	O
+7-32	keeping	O	O	VBG	O
+7-33	an	O	O	DT	O
+7-34	eye	7-32_dobj	keeping	NN	O
+7-35	on	O	O	O	O
+7-36	my	O	O	PRP$	P1_shopper
+7-37	list	7-32_prep_on	keeping	NN	P2_grocery_list
+7-38	to	7-39_aux	make	TO	O
+7-39	make	O	O	VB	O
+7-40	sure	7-39_acomp	make	JJ	O
+7-41	I	O	O	NNP	P1_shopper
+7-42	don	O	O	NNP	O
+7-43	'	O	O	O	O
+7-44	t	O	O	NN	O
+7-45	forget	O	O	VB	O
+7-46	anything	7-45_dobj	forget	NN	P1_groceries
+7-47	.	O	O	O	O
+
+#id=8
+#text=Once I have all my items , I pay for the groceries and help bag them up . 
+8-1	Once	8-3_mark	have	IN	O
+8-2	I	8-3_nsubj	have	PRP	P1_shopper
+8-3	have	8-9_advcl	pay	VBP	O
+8-4	all	O	O	PDT	O
+8-5	my	O	O	PRP$	P1_shopper
+8-6	items	8-3_dobj	have	NNS	P1_groceries
+8-7	,	O	O	O	O
+8-8	I	8-9_nsubj	pay	PRP	P1_shopper
+8-9	pay	O	O	VB	O
+8-10	for	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	groceries	8-9_prep_for	pay	NNS	P1_groceries
+8-13	and	O	O	O	O
+8-14	help	8-9_conj_and	pay	VB	O
+8-15	bag	8-14_dobj	help	NN	O
+8-16	them	8-9_dobj	pay	PRP	P1_groceries
+8-17	up	8-9_prep	pay	RP	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=I drive home with my freshly bought groceries , and go about putting them away in their respective places once home . 
+9-1	I	9-2_nsubj	drive	PRP	P1_shopper
+9-2	drive	O	O	VBP	O
+9-3	home	9-7_nsubj	bought	NN	P1_NPart_home
+9-4	with	O	O	IN	O
+9-5	my	O	O	PRP$	P1_shopper
+9-6	freshly	O	O	RB	O
+9-7	bought	9-2_ccomp	drive	VBD	O
+9-8	groceries	9-7_dobj	bought	NNS	P1_groceries
+9-9	,	O	O	O	O
+9-10	and	O	O	O	O
+9-11	go	9-7_conj_and	bought	VBP	O
+9-12	about	O	O	O	O
+9-13	putting	9-11_prepc_about	go	VBG	O
+9-14	them	9-13_dobj	putting	PRP	P1_groceries
+9-15	away	9-13_advmod	putting	RB	O
+9-16	in	O	O	O	O
+9-17	their	O	O	PRP$	P1_groceries
+9-18	respective	O	O	JJ	O
+9-19	places	O	O	NNS	P1_NPart_places
+9-20	once	9-13_advmod	putting	RB	O
+9-21	home	O	O	NN	O
+9-22	.	O	O	O	O
+
+#id=10
+#text=With the last item set in its place , the grocery shopping is complete . 
+10-1	With	O	O	O	O
+10-2	the	O	O	DT	O
+10-3	last	O	O	JJ	O
+10-4	item	O	O	NN	P1_groceries
+10-5	set	O	O	VBN	O
+10-6	in	O	O	O	O
+10-7	its	O	O	PRP$	P1_groceries
+10-8	place	10-5_prep_in	set	NN	P1_NPart_place
+10-9	,	O	O	O	O
+10-10	the	O	O	DT	O
+10-11	grocery	O	O	NN	O
+10-12	shopping	O	O	NN	O
+10-13	is	O	O	VBZ	O
+10-14	complete	O	O	JJ	O
+10-15	.	O	O	O	O

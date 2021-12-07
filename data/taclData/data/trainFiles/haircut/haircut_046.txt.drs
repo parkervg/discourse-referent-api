@@ -1,0 +1,214 @@
+#id=1
+#text=I recently got a haircut . 
+1-1	I	1-3_nsubj	got	PRP	P1_customer
+1-2	recently	1-3_advmod	got	RB	O
+1-3	got	O	O	VBD	O
+1-4	a	O	O	DT	O
+1-5	haircut	1-3_dobj	got	NN	P1_haircut
+1-6	.	O	O	O	O
+
+#id=2
+#text=I was n't happy with my previous haircut , so I wanted to try someplace new . 
+2-1	I	O	O	PRP	P1_customer
+2-2	was	O	O	VBD	O
+2-3	n't	O	O	RB	O
+2-4	happy	O	O	JJ	O
+2-5	with	O	O	O	O
+2-6	my	O	O	PRP$	P1_customer
+2-7	previous	O	O	JJ	O
+2-8	haircut	O	O	NN	P1_haircut
+2-9	,	O	O	O	O
+2-10	so	O	O	IN	O
+2-11	I	2-12_nsubj	wanted	PRP	P1_customer
+2-12	wanted	O	O	VBD	O
+2-13	to	2-14_aux	try	TO	O
+2-14	try	2-12_xcomp	wanted	VB	O
+2-15	someplace	2-14_dobj	try	NN	P1_salon
+2-16	new	O	O	JJ	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=I searched online for barbers and salons that were highly rated in the area . 
+3-1	I	3-2_nsubj	searched	PRP	P1_customer
+3-2	searched	O	O	VBD	O
+3-3	online	3-2_dep	searched	NN	O
+3-4	for	O	O	O	O
+3-5	barbers	3-2_prep_for	searched	NNS	P1_salon
+3-6	and	O	O	O	O
+3-7	salons	O	O	NNS	P1_salon
+3-8	that	3-11_nsubjpass	rated	WDT	P1_salon
+3-9	were	3-11_auxpass	rated	VBD	O
+3-10	highly	3-11_advmod	rated	RB	O
+3-11	rated	O	O	VBN	O
+3-12	in	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	area	3-11_prep_in	rated	NN	P1_NPart_area
+3-15	.	O	O	O	O
+
+#id=4
+#text=I finally decided on one that was fairly close by , highly reviewed , and had fair prices . 
+4-1	I	4-3_nsubj	decided	PRP	P1_customer
+4-2	finally	4-3_advmod	decided	RB	O
+4-3	decided	O	O	VBD	O
+4-4	on	O	O	O	O
+4-5	one	4-3_prep_on	decided	CD	P1_salon
+4-6	that	O	O	WDT	P1_salon
+4-7	was	O	O	VBD	O
+4-8	fairly	O	O	RB	O
+4-9	close	O	O	JJ	O
+4-10	by	O	O	IN	O
+4-11	,	O	O	O	O
+4-12	highly	4-13_advmod	reviewed	RB	O
+4-13	reviewed	O	O	VBN	O
+4-14	,	O	O	O	O
+4-15	and	O	O	O	O
+4-16	had	O	O	VBD	O
+4-17	fair	O	O	JJ	O
+4-18	prices	4-16_dobj	had	NNS	P1_other
+4-19	.	O	O	O	O
+
+#id=5
+#text=I called the salon and made an appointment for the next day . 
+5-1	I	5-2_nsubj	called	PRP	P1_customer
+5-2	called	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	salon	5-2_dobj	called	NN	P1_salon
+5-5	and	O	O	O	O
+5-6	made	5-2_conj_and	called	VBD	O
+5-7	an	O	O	DT	O
+5-8	appointment	5-6_dobj	made	NN	P1_appointment
+5-9	for	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	next	O	O	JJ	O
+5-12	day	5-6_prep_for	made	NN	P1_time/date
+5-13	.	O	O	O	O
+
+#id=6
+#text=Upon arriving , I was greeted by a very nice hair stylist . 
+6-1	Upon	O	O	O	O
+6-2	arriving	6-6_prepc_upon	greeted	VBG	O
+6-3	,	O	O	O	O
+6-4	I	6-6_nsubjpass	greeted	PRP	P1_customer
+6-5	was	6-6_auxpass	greeted	VBD	O
+6-6	greeted	O	O	VBN	O
+6-7	by	O	O	O	O
+6-8	a	O	O	DT	O
+6-9	very	O	O	RB	O
+6-10	nice	O	O	JJ	O
+6-11	hair	O	O	NN	O
+6-12	stylist	6-6_agent	greeted	NN	P1_hairdresser
+6-13	.	O	O	O	O
+
+#id=7
+#text=She had me sit in the chair and asked me how I wanted my hair cut . 
+7-1	She	7-2_nsubj	had	PRP	P1_hairdresser
+7-2	had	O	O	VBD	O
+7-3	me	7-4_nsubj	sit	PRP	P1_customer
+7-4	sit	7-2_ccomp	had	VB	O
+7-5	in	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	chair	7-4_prep_in	sit	NN	P1_chair
+7-8	and	O	O	O	O
+7-9	asked	7-2_conj_and	had	VBD	O
+7-10	me	7-9_dobj	asked	PRP	P1_customer
+7-11	how	7-13_advmod	wanted	WRB	O
+7-12	I	7-13_nsubj	wanted	PRP	P1_customer
+7-13	wanted	7-9_dep	asked	VBD	O
+7-14	my	O	O	PRP$	P1_customer
+7-15	hair	O	O	NN	P1_hair
+7-16	cut	7-13_dobj	wanted	NN	O
+7-17	.	O	O	O	O
+
+#id=8
+#text=I told her exactly what I wanted and she understood completely . 
+8-1	I	8-2_nsubj	told	PRP	P1_customer
+8-2	told	O	O	VBD	O
+8-3	her	8-2_dobj	told	PRP	P1_hairdresser
+8-4	exactly	O	O	RB	O
+8-5	what	8-7_dep	wanted	WP	P1_NPart_what
+8-6	I	8-7_nsubj	wanted	PRP	P1_customer
+8-7	wanted	8-2_dep	told	VBD	O
+8-8	and	O	O	O	O
+8-9	she	8-10_nsubj	understood	PRP	P1_hairdresser
+8-10	understood	8-2_conj_and	told	VBD	O
+8-11	completely	8-10_advmod	understood	RB	O
+8-12	.	O	O	O	O
+
+#id=9
+#text=She went to work immediately , we made small talk . 
+9-1	She	9-2_nsubj	went	PRP	P1_hairdresser
+9-2	went	9-8_ccomp	made	VBD	O
+9-3	to	9-4_aux	work	TO	O
+9-4	work	9-2_xcomp	went	VB	P1_NPart_work
+9-5	immediately	9-4_advmod	work	RB	O
+9-6	,	O	O	O	O
+9-7	we	9-8_nsubj	made	PRP	P1_hairdresser_customer
+9-8	made	O	O	VBD	O
+9-9	small	O	O	JJ	O
+9-10	talk	9-8_dobj	made	NN	P1_entertainment
+9-11	.	O	O	O	O
+
+#id=10
+#text=She was very friendly . 
+10-1	She	O	O	PRP	P1_hairdresser
+10-2	was	O	O	VBD	O
+10-3	very	O	O	RB	O
+10-4	friendly	O	O	JJ	O
+10-5	.	O	O	O	O
+
+#id=11
+#text=After she cut my hair , she washed it . 
+11-1	After	11-3_mark	cut	IN	O
+11-2	she	11-3_nsubj	cut	PRP	P1_hairdresser
+11-3	cut	11-8_advcl	washed	VBD	O
+11-4	my	O	O	PRP$	P1_customer
+11-5	hair	11-3_dobj	cut	NN	P1_hair
+11-6	,	O	O	O	O
+11-7	she	11-8_nsubj	washed	PRP	P1_hairdresser
+11-8	washed	O	O	VBD	O
+11-9	it	11-8_dobj	washed	PRP	P1_hair
+11-10	.	O	O	O	O
+
+#id=12
+#text=After drying my hair , she added a little wax to style the hair . 
+12-1	After	O	O	O	O
+12-2	drying	12-7_prepc_after	added	VBG	O
+12-3	my	O	O	PRP$	P1_customer
+12-4	hair	12-2_dobj	drying	NN	P1_hair
+12-5	,	O	O	O	O
+12-6	she	12-7_nsubj	added	PRP	P1_hairdresser
+12-7	added	O	O	VBD	O
+12-8	a	O	O	DT	O
+12-9	little	O	O	JJ	O
+12-10	wax	12-7_dobj	added	NN	P1_hair_styling/treatment
+12-11	to	O	O	O	O
+12-12	style	12-7_prep_to	added	NN	O
+12-13	the	O	O	DT	O
+12-14	hair	O	O	NN	P1_hair
+12-15	.	O	O	O	O
+
+#id=13
+#text=I was very happy with the haircut . 
+13-1	I	O	O	PRP	P1_customer
+13-2	was	O	O	VBD	O
+13-3	very	O	O	RB	O
+13-4	happy	O	O	JJ	O
+13-5	with	O	O	O	O
+13-6	the	O	O	DT	O
+13-7	haircut	O	O	NN	P1_haircut
+13-8	.	O	O	O	O
+
+#id=14
+#text=I then paid and gave her a tip for her service . 
+14-1	I	14-3_nsubj	paid	PRP	P1_customer
+14-2	then	14-3_advmod	paid	RB	O
+14-3	paid	O	O	VBD	O
+14-4	and	O	O	O	O
+14-5	gave	14-3_conj_and	paid	VBD	O
+14-6	her	14-5_iobj	gave	PRP	P1_hairdresser
+14-7	a	O	O	DT	O
+14-8	tip	14-5_dobj	gave	NN	P1_tip
+14-9	for	O	O	O	O
+14-10	her	O	O	PRP$	P1_hairdresser
+14-11	service	O	O	NN	P1_NPart_service
+14-12	.	O	O	O	O

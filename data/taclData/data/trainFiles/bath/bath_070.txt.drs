@@ -1,0 +1,295 @@
+#id=1
+#text=I returned to my home one evening after a long day of hiking and exploring the outdoors . 
+1-1	I	1-2_nsubj	returned	PRP	P1_bather
+1-2	returned	O	O	VBD	O
+1-3	to	O	O	O	O
+1-4	my	O	O	PRP$	P1_bather
+1-5	home	1-2_prep_to	returned	NN	P1_NPart_home
+1-6	one	O	O	CD	O
+1-7	evening	1-2_tmod	returned	NN	P1_NPart_evening
+1-8	after	O	O	O	O
+1-9	a	O	O	DT	O
+1-10	long	O	O	JJ	O
+1-11	day	1-2_prep_after	returned	NN	P1_NPart_day
+1-12	of	O	O	O	O
+1-13	hiking	O	O	VBG	O
+1-14	and	O	O	O	O
+1-15	exploring	1-13_conj_and	hiking	VBG	O
+1-16	the	O	O	DT	O
+1-17	outdoors	1-13_dobj	hiking	NNS	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=I had dirt caked on my legs and grass stains on my knees , so I needed to clean myself up before getting into bed . 
+2-1	I	2-2_nsubj	had	PRP	P1_bather
+2-2	had	O	O	VBD	O
+2-3	dirt	O	O	NN	P1_NPart_dirt
+2-4	caked	2-2_dobj	had	NNS	O
+2-5	on	O	O	O	O
+2-6	my	O	O	PRP$	P1_bather
+2-7	legs	O	O	NNS	P1_body_part
+2-8	and	O	O	O	O
+2-9	grass	O	O	NN	O
+2-10	stains	O	O	NNS	P1_NPart_stains
+2-11	on	O	O	O	O
+2-12	my	O	O	PRP$	P1_bather
+2-13	knees	O	O	NNS	P2_body_part
+2-14	,	O	O	O	O
+2-15	so	2-2_dep	had	IN	O
+2-16	I	2-17_nsubj	needed	PRP	P1_bather
+2-17	needed	2-2_parataxis	had	VBD	O
+2-18	to	2-19_aux	clean	TO	O
+2-19	clean	2-17_xcomp	needed	VB	O
+2-20	myself	2-19_dobj	clean	PRP	P1_bather
+2-21	up	2-19_prt	clean	RP	O
+2-22	before	O	O	O	O
+2-23	getting	2-19_prepc_before	clean	VBG	O
+2-24	into	O	O	O	O
+2-25	bed	2-23_prep_into	getting	NN	P1_NPart_bed
+2-26	.	O	O	O	O
+
+#id=3
+#text=I got a towel and washcloth from my linen closet and brought them into my bathroom . 
+3-1	I	3-2_nsubj	got	PRP	P1_bather
+3-2	got	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	towel	3-2_dobj	got	NN	P1_towel
+3-5	and	O	O	O	O
+3-6	washcloth	O	O	NN	P1_washing_tools
+3-7	from	O	O	O	O
+3-8	my	O	O	PRP$	P1_bather
+3-9	linen	O	O	NN	O
+3-10	closet	3-2_prep_from	got	NN	P1_other
+3-11	and	O	O	O	O
+3-12	brought	3-2_conj_and	got	VBD	O
+3-13	them	3-12_dobj	brought	PRP	P2_washing_tools
+3-14	into	O	O	O	O
+3-15	my	O	O	PRP$	P1_bather
+3-16	bathroom	3-12_prep_into	brought	NN	P1_bathroom
+3-17	.	O	O	O	O
+
+#id=4
+#text=I turned on both the hot and cold knobs in the bathtub and let the water run for a few moments before I put my hand under it to test the temperature . 
+4-1	I	4-2_nsubj	turned	PRP	P1_bather
+4-2	turned	O	O	VBD	O
+4-3	on	O	O	O	O
+4-4	both	O	O	CC	O
+4-5	the	O	O	DT	O
+4-6	hot	4-2_prep_on	turned	JJ	O
+4-7	and	O	O	O	O
+4-8	cold	O	O	JJ	O
+4-9	knobs	O	O	NNS	P1_tap
+4-10	in	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	bathtub	4-2_prep_in	turned	NN	P1_bathtub
+4-13	and	O	O	O	O
+4-14	let	4-2_conj_and	turned	VBD	O
+4-15	the	O	O	DT	O
+4-16	water	O	O	NN	P1_water
+4-17	run	4-14_dobj	let	NN	O
+4-18	for	O	O	O	O
+4-19	a	O	O	DT	O
+4-20	few	O	O	JJ	O
+4-21	moments	4-14_prep_for	let	NNS	P1_NPart_moments
+4-22	before	4-24_mark	put	IN	O
+4-23	I	4-24_nsubj	put	PRP	P1_bather
+4-24	put	4-14_advcl	let	VBD	O
+4-25	my	O	O	PRP$	P1_bather
+4-26	hand	4-24_dobj	put	NN	P3_body_part
+4-27	under	O	O	O	O
+4-28	it	4-24_prep_under	put	PRP	P1_water
+4-29	to	4-30_aux	test	TO	O
+4-30	test	4-24_vmod	put	VB	O
+4-31	the	O	O	DT	O
+4-32	temperature	4-30_dobj	test	NN	P1_temperature
+4-33	.	O	O	O	O
+
+#id=5
+#text=I turned each knob until the water felt warm and comfortable . 
+5-1	I	5-2_nsubj	turned	PRP	P1_bather
+5-2	turned	O	O	VBD	O
+5-3	each	O	O	DT	O
+5-4	knob	5-2_dobj	turned	NN	P2_tap
+5-5	until	5-8_mark	felt	IN	O
+5-6	the	O	O	DT	O
+5-7	water	5-8_nsubj	felt	NN	P1_water
+5-8	felt	5-2_advcl	turned	VBD	O
+5-9	warm	5-8_acomp	felt	JJ	O
+5-10	and	O	O	O	O
+5-11	comfortable	O	O	JJ	O
+5-12	.	O	O	O	O
+
+#id=6
+#text=Then I plugged the drain and undressed , putting my dirty clothes in the hamper . 
+6-1	Then	6-3_advmod	plugged	RB	O
+6-2	I	6-3_nsubj	plugged	PRP	P1_bather
+6-3	plugged	O	O	VBD	O
+6-4	the	O	O	DT	O
+6-5	drain	6-3_dobj	plugged	NN	P1_drain
+6-6	and	O	O	O	O
+6-7	undressed	6-3_conj_and	plugged	VBD	O
+6-8	,	O	O	O	O
+6-9	putting	6-3_vmod	plugged	VBG	O
+6-10	my	O	O	PRP$	P1_bather
+6-11	dirty	O	O	JJ	O
+6-12	clothes	6-9_dobj	putting	NNS	P1_clothes
+6-13	in	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	hamper	6-9_prep_in	putting	NN	P1_hamper
+6-16	.	O	O	O	O
+
+#id=7
+#text=Once the bathtub was about halfway full , I turned off the water and carefully sat down in the tub . 
+7-1	Once	O	O	IN	O
+7-2	the	O	O	DT	O
+7-3	bathtub	O	O	NN	P1_bathtub
+7-4	was	O	O	VBD	O
+7-5	about	O	O	RB	O
+7-6	halfway	O	O	RB	O
+7-7	full	7-10_advcl	turned	JJ	O
+7-8	,	O	O	O	O
+7-9	I	7-10_nsubj	turned	PRP	P1_bather
+7-10	turned	O	O	VBD	O
+7-11	off	7-10_prt	turned	RP	O
+7-12	the	O	O	DT	O
+7-13	water	7-10_dobj	turned	NN	P1_water
+7-14	and	O	O	O	O
+7-15	carefully	7-16_advmod	sat	RB	O
+7-16	sat	7-10_conj_and	turned	VBD	O
+7-17	down	7-16_prt	sat	RP	O
+7-18	in	O	O	O	O
+7-19	the	O	O	DT	O
+7-20	tub	7-16_prep_in	sat	NN	P1_bathtub
+7-21	.	O	O	O	O
+
+#id=8
+#text=I took some soap from the dish and rubbed it on the washcloth , then scrubbed my dirty legs until the mud and grass disappeared . 
+8-1	I	8-2_nsubj	took	PRP	P1_bather
+8-2	took	O	O	VBD	O
+8-3	some	O	O	DT	O
+8-4	soap	8-2_dobj	took	NN	P3_washing_tools
+8-5	from	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	dish	8-2_prep_from	took	NN	P2_other
+8-8	and	O	O	O	O
+8-9	rubbed	8-2_conj_and	took	VBD	O
+8-10	it	8-9_dobj	rubbed	PRP	P4_washing_tools
+8-11	on	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	washcloth	8-9_prep_on	rubbed	NN	P1_washing_tools
+8-14	,	O	O	O	O
+8-15	then	8-16_advmod	scrubbed	RB	O
+8-16	scrubbed	8-2_dep	took	VBD	O
+8-17	my	O	O	PRP$	P1_bather
+8-18	dirty	O	O	JJ	O
+8-19	legs	8-16_dobj	scrubbed	NNS	P1_body_part
+8-20	until	8-25_mark	disappeared	IN	O
+8-21	the	O	O	DT	O
+8-22	mud	8-25_nsubj	disappeared	NN	P1_NPart_mud
+8-23	and	O	O	O	O
+8-24	grass	O	O	NN	P1_NPart_grass
+8-25	disappeared	8-16_advcl	scrubbed	VBD	O
+8-26	.	O	O	O	O
+
+#id=9
+#text=I let the water rinse away the soap . 
+9-1	I	9-2_nsubj	let	PRP	P1_bather
+9-2	let	O	O	VBP	O
+9-3	the	O	O	DT	O
+9-4	water	9-5_nsubj	rinse	NN	P1_water
+9-5	rinse	9-2_ccomp	let	VB	O
+9-6	away	9-5_prt	rinse	RP	O
+9-7	the	O	O	DT	O
+9-8	soap	9-5_dobj	rinse	NN	P5_washing_tools
+9-9	.	O	O	O	O
+
+#id=10
+#text=Once I felt clean , I stepped out of the tub and wrapped a towel around myself to dry off . 
+10-1	Once	10-3_mark	felt	IN	O
+10-2	I	10-3_nsubj	felt	PRP	P1_bather
+10-3	felt	10-7_advcl	stepped	VBD	O
+10-4	clean	10-3_acomp	felt	JJ	O
+10-5	,	O	O	O	O
+10-6	I	10-7_nsubj	stepped	PRP	P1_bather
+10-7	stepped	O	O	VBD	O
+10-8	out	O	O	O	O
+10-9	of	O	O	O	O
+10-10	the	O	O	DT	O
+10-11	tub	10-7_prep_out_of	stepped	NN	P1_bathtub
+10-12	and	O	O	O	O
+10-13	wrapped	10-7_conj_and	stepped	VBD	O
+10-14	a	O	O	DT	O
+10-15	towel	10-13_dobj	wrapped	NN	P2_towel
+10-16	around	O	O	O	O
+10-17	myself	10-13_prep_around	wrapped	PRP	P1_bather
+10-18	to	10-19_aux	dry	TO	O
+10-19	dry	10-13_vmod	wrapped	VB	O
+10-20	off	10-19_prt	dry	RP	O
+10-21	.	O	O	O	O
+
+#id=11
+#text=Then I pulled the plug out of the drain and let the water disappear down the pipes . 
+11-1	Then	11-3_advmod	pulled	RB	O
+11-2	I	11-3_nsubj	pulled	PRP	P1_bather
+11-3	pulled	O	O	VBD	O
+11-4	the	O	O	DT	O
+11-5	plug	11-3_dobj	pulled	NN	P1_plug
+11-6	out	O	O	O	O
+11-7	of	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	drain	11-3_prep_out_of	pulled	NN	P1_drain
+11-10	and	O	O	O	O
+11-11	let	11-3_conj_and	pulled	VBD	O
+11-12	the	O	O	DT	O
+11-13	water	11-14_nsubj	disappear	NN	P1_water
+11-14	disappear	11-11_ccomp	let	VB	O
+11-15	down	11-14_prt	disappear	RP	O
+11-16	the	O	O	DT	O
+11-17	pipes	11-14_dobj	disappear	NNS	P3_other
+11-18	.	O	O	O	O
+
+#id=12
+#text=As the tub was draining , I dried myself completely with the towel and put on pajamas . 
+12-1	As	12-5_mark	draining	IN	O
+12-2	the	O	O	DT	O
+12-3	tub	12-5_nsubj	draining	NN	P2_bathtub
+12-4	was	12-5_cop	draining	VBD	O
+12-5	draining	12-8_advcl	dried	VBG	O
+12-6	,	O	O	O	O
+12-7	I	12-8_nsubj	dried	PRP	P1_bather
+12-8	dried	O	O	VBD	O
+12-9	myself	12-8_dobj	dried	PRP	P1_bather
+12-10	completely	12-8_advmod	dried	RB	O
+12-11	with	O	O	O	O
+12-12	the	O	O	DT	O
+12-13	towel	12-8_prep_with	dried	NN	P2_towel
+12-14	and	O	O	O	O
+12-15	put	O	O	NN	O
+12-16	on	O	O	O	O
+12-17	pajamas	12-8_prep_on	dried	NNS	P2_clothes
+12-18	.	O	O	O	O
+
+#id=13
+#text=I hung up my wet towel and washcloth and was ready to go to bed , all clean from the bath . 
+13-1	I	13-2_nsubj	hung	PRP	P1_bather
+13-2	hung	O	O	VBD	O
+13-3	up	13-2_prt	hung	RP	O
+13-4	my	O	O	PRP$	P1_bather
+13-5	wet	O	O	JJ	O
+13-6	towel	13-2_dobj	hung	NN	P2_towel
+13-7	and	O	O	O	O
+13-8	washcloth	O	O	NN	P6_washing_tools
+13-9	and	O	O	O	O
+13-10	was	O	O	VBD	O
+13-11	ready	13-2_conj_and	hung	JJ	O
+13-12	to	13-13_aux	go	TO	O
+13-13	go	O	O	VB	O
+13-14	to	O	O	O	O
+13-15	bed	13-13_prep_to	go	NN	P2_NPart_bed
+13-16	,	O	O	O	O
+13-17	all	13-13_advmod	go	RB	O
+13-18	clean	13-13_dep	go	VB	O
+13-19	from	O	O	O	O
+13-20	the	O	O	DT	O
+13-21	bath	13-18_prep_from	clean	NN	P1_bath
+13-22	.	O	O	O	O

@@ -1,0 +1,228 @@
+#id=1
+#text=Riding my bike through the park , I was enjoying the beautiful spring scenery . 
+1-1	Riding	1-10_vmod	enjoying	VBG	O
+1-2	my	O	O	PRP$	P1_rider
+1-3	bike	1-1_dobj	Riding	NN	P1_bicycle
+1-4	through	O	O	O	O
+1-5	the	O	O	DT	O
+1-6	park	1-1_prep_through	Riding	NN	P1_NPart_park
+1-7	,	O	O	O	O
+1-8	I	1-10_nsubj	enjoying	PRP	P1_rider
+1-9	was	1-10_aux	enjoying	VBD	O
+1-10	enjoying	O	O	VBG	O
+1-11	the	O	O	DT	O
+1-12	beautiful	O	O	JJ	O
+1-13	spring	O	O	NN	O
+1-14	scenery	1-10_dobj	enjoying	NN	P1_NPart_scenery
+1-15	.	O	O	O	O
+
+#id=2
+#text=A family of squirrels caught my attention and I was looking at them when I hit some broken glass . 
+2-1	A	O	O	DT	O
+2-2	family	2-5_nsubj	caught	NN	O
+2-3	of	O	O	O	O
+2-4	squirrels	O	O	NNS	P1_NPart_squirrels
+2-5	caught	O	O	VBD	O
+2-6	my	O	O	PRP$	P1_rider
+2-7	attention	2-5_dobj	caught	NN	P1_NPart_attention
+2-8	and	O	O	O	O
+2-9	I	2-11_nsubj	looking	PRP	P1_rider
+2-10	was	2-11_aux	looking	VBD	O
+2-11	looking	2-5_conj_and	caught	VBG	O
+2-12	at	O	O	O	O
+2-13	them	2-11_prep_at	looking	PRP	P1_NPart_them
+2-14	when	2-16_advmod	hit	WRB	O
+2-15	I	2-16_nsubj	hit	PRP	P1_rider
+2-16	hit	2-11_advcl	looking	VBD	O
+2-17	some	O	O	DT	O
+2-18	broken	O	O	JJ	O
+2-19	glass	2-16_dobj	hit	NN	P1_object_damage
+2-20	.	O	O	O	O
+
+#id=3
+#text=My bike 's tire immediately deflated . 
+3-1	My	O	O	PRP$	P1_rider
+3-2	bike	O	O	NN	P1_bicycle
+3-3	's	O	O	O	O
+3-4	tire	3-6_nsubj	deflated	NN	P1_tire
+3-5	immediately	3-6_advmod	deflated	RB	O
+3-6	deflated	O	O	VBD	O
+3-7	.	O	O	O	O
+
+#id=4
+#text=I walked it back to my car , loaded up , and headed for a local department store . 
+4-1	I	4-2_nsubj	walked	PRP	P1_rider
+4-2	walked	O	O	VBD	O
+4-3	it	4-2_dobj	walked	PRP	P1_bicycle
+4-4	back	4-2_prt	walked	RP	O
+4-5	to	O	O	O	O
+4-6	my	O	O	PRP$	P1_rider
+4-7	car	4-2_prep_to	walked	NN	P1_NPart_car
+4-8	,	O	O	O	O
+4-9	loaded	4-2_conj_and	walked	VBD	O
+4-10	up	4-9_prt	loaded	RP	O
+4-11	,	O	O	O	O
+4-12	and	O	O	O	O
+4-13	headed	4-2_conj_and	walked	VBD	O
+4-14	for	O	O	O	O
+4-15	a	O	O	DT	O
+4-16	local	O	O	JJ	O
+4-17	department	O	O	NN	O
+4-18	store	4-13_prep_for	headed	NN	P1_shop
+4-19	.	O	O	O	O
+
+#id=5
+#text=Sure enough , they had bike tire repair kits in the sporting goods section . 
+5-1	Sure	O	O	RB	O
+5-2	enough	5-5_advmod	had	RB	O
+5-3	,	O	O	O	O
+5-4	they	5-5_nsubj	had	PRP	P1_shop
+5-5	had	O	O	VBD	O
+5-6	bike	O	O	NN	O
+5-7	tire	O	O	NN	O
+5-8	repair	O	O	NN	O
+5-9	kits	5-5_dobj	had	NNS	P1_tool
+5-10	in	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	sporting	O	O	NN	O
+5-13	goods	O	O	NNS	O
+5-14	section	O	O	NN	P1_NPart_section
+5-15	.	O	O	O	O
+
+#id=6
+#text=I bought one , and then headed on home . 
+6-1	I	6-2_nsubj	bought	PRP	P1_rider
+6-2	bought	O	O	VBD	O
+6-3	one	6-2_dobj	bought	CD	P1_tool
+6-4	,	O	O	O	O
+6-5	and	O	O	O	O
+6-6	then	6-7_advmod	headed	RB	O
+6-7	headed	6-2_conj_and	bought	VBD	O
+6-8	on	O	O	O	O
+6-9	home	6-7_prep_on	headed	NN	P1_NPart_home
+6-10	.	O	O	O	O
+
+#id=7
+#text=Once there I removed a wheel from the bike . 
+7-1	Once	O	O	RB	O
+7-2	there	7-4_advmod	removed	RB	O
+7-3	I	7-4_nsubj	removed	PRP	P1_rider
+7-4	removed	O	O	VBD	O
+7-5	a	O	O	DT	O
+7-6	wheel	7-4_dobj	removed	NN	P1_wheel
+7-7	from	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	bike	7-4_prep_from	removed	NN	P1_bicycle
+7-10	.	O	O	O	O
+
+#id=8
+#text=From it I took out the inner tube . 
+8-1	From	O	O	O	O
+8-2	it	8-4_prep_from	took	PRP	P1_wheel
+8-3	I	8-4_nsubj	took	PRP	P1_rider
+8-4	took	O	O	VBD	O
+8-5	out	8-4_prt	took	RP	O
+8-6	the	O	O	DT	O
+8-7	inner	O	O	JJ	O
+8-8	tube	8-4_dobj	took	NN	P1_tire
+8-9	.	O	O	O	O
+
+#id=9
+#text=I rubbed some soapy water on it and quickly found the problem spot . 
+9-1	I	9-2_nsubj	rubbed	PRP	P1_rider
+9-2	rubbed	O	O	VBD	O
+9-3	some	O	O	DT	O
+9-4	soapy	O	O	JJ	O
+9-5	water	9-2_dobj	rubbed	NN	P1_NPart_water
+9-6	on	O	O	O	O
+9-7	it	9-2_prep_on	rubbed	PRP	P1_tire
+9-8	and	O	O	O	O
+9-9	quickly	9-10_advmod	found	RB	O
+9-10	found	9-2_conj_and	rubbed	VBD	O
+9-11	the	O	O	DT	O
+9-12	problem	O	O	NN	O
+9-13	spot	9-10_dobj	found	NN	P1_damage
+9-14	.	O	O	O	O
+
+#id=10
+#text=From my new repair kit I found a special patch . 
+10-1	From	O	O	O	O
+10-2	my	O	O	PRP$	P1_rider
+10-3	new	O	O	JJ	O
+10-4	repair	O	O	NN	O
+10-5	kit	10-7_prep_from	found	NN	P1_tool
+10-6	I	10-7_nsubj	found	PRP	P1_rider
+10-7	found	O	O	VBD	O
+10-8	a	O	O	DT	O
+10-9	special	O	O	JJ	O
+10-10	patch	10-7_dobj	found	NN	P1_patch
+10-11	.	O	O	O	O
+
+#id=11
+#text=I applied the sealant and then stuck the patch on . 
+11-1	I	11-2_nsubj	applied	PRP	P1_rider
+11-2	applied	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	sealant	11-2_dobj	applied	NN	P2_tool
+11-5	and	O	O	O	O
+11-6	then	11-7_advmod	stuck	RB	O
+11-7	stuck	11-2_conj_and	applied	VBD	O
+11-8	the	O	O	DT	O
+11-9	patch	11-7_dobj	stuck	NN	P1_patch
+11-10	on	11-7_prt	stuck	RP	O
+11-11	.	O	O	O	O
+
+#id=12
+#text=I used a hair dryer to heat and set it . 
+12-1	I	12-2_nsubj	used	PRP	P1_rider
+12-2	used	O	O	VBD	O
+12-3	a	O	O	DT	O
+12-4	hair	O	O	NN	O
+12-5	dryer	12-2_dobj	used	NN	P3_tool
+12-6	to	12-7_aux	heat	TO	O
+12-7	heat	12-2_vmod	used	VB	O
+12-8	and	O	O	O	O
+12-9	set	12-7_conj_and	heat	VB	O
+12-10	it	12-7_dobj	heat	PRP	P1_patch
+12-11	.	O	O	O	O
+
+#id=13
+#text=Next , I took out the air compressor and reinflated the inner tube . 
+13-1	Next	13-4_advmod	took	RB	O
+13-2	,	O	O	O	O
+13-3	I	13-4_nsubj	took	PRP	P1_rider
+13-4	took	O	O	VBD	O
+13-5	out	13-4_prt	took	RP	O
+13-6	the	O	O	DT	O
+13-7	air	O	O	NN	O
+13-8	compressor	13-4_dobj	took	NN	P4_tool
+13-9	and	O	O	O	O
+13-10	reinflated	13-4_conj_and	took	VBD	O
+13-11	the	O	O	DT	O
+13-12	inner	O	O	JJ	O
+13-13	tube	13-10_dobj	reinflated	NN	P1_tire
+13-14	.	O	O	O	O
+
+#id=14
+#text=After reassembling everything , I sat on the bike and tested it out . 
+14-1	After	O	O	O	O
+14-2	reassembling	14-6_prepc_after	sat	VBG	O
+14-3	everything	14-2_dobj	reassembling	NN	P1_NPart_everything
+14-4	,	O	O	O	O
+14-5	I	14-6_nsubj	sat	PRP	P1_rider
+14-6	sat	O	O	VBD	O
+14-7	on	O	O	O	O
+14-8	the	O	O	DT	O
+14-9	bike	14-6_prep_on	sat	NN	P1_bicycle
+14-10	and	O	O	O	O
+14-11	tested	14-6_conj_and	sat	VBD	O
+14-12	it	14-11_dobj	tested	PRP	P1_tire
+14-13	out	14-11_prt	tested	RP	O
+14-14	.	O	O	O	O
+
+#id=15
+#text=Good as new ! 
+15-1	Good	O	O	NNP	O
+15-2	as	O	O	RB	O
+15-3	new	O	O	JJ	O
+15-4	!	O	O	O	O

@@ -1,0 +1,210 @@
+#id=1
+#text=In the early evening , my friend has a birthday party that he has invited me too . 
+1-1	In	O	O	O	O
+1-2	the	O	O	DT	O
+1-3	early	O	O	JJ	O
+1-4	evening	1-8_prep_in	has	NN	P1_NPart_evening
+1-5	,	O	O	O	O
+1-6	my	O	O	PRP$	P1_cook
+1-7	friend	1-8_nsubj	has	NN	P1_beneficiary
+1-8	has	O	O	VBZ	O
+1-9	a	O	O	DT	O
+1-10	birthday	O	O	NN	O
+1-11	party	1-8_dobj	has	NN	P1_NPart_party
+1-12	that	1-15_mark	invited	IN	O
+1-13	he	1-15_nsubj	invited	PRP	P1_beneficiary
+1-14	has	1-15_aux	invited	VBZ	O
+1-15	invited	O	O	VBN	O
+1-16	me	1-15_dep	invited	PRP	P1_cook
+1-17	too	O	O	RB	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=He knows that I am a good baker , and has asked me to bake a cake for him . 
+2-1	He	2-2_nsubj	knows	PRP	P1_beneficiary
+2-2	knows	O	O	VBZ	O
+2-3	that	O	O	IN	O
+2-4	I	O	O	PRP	P1_cook
+2-5	am	O	O	VBP	O
+2-6	a	O	O	DT	O
+2-7	good	O	O	JJ	O
+2-8	baker	2-2_ccomp	knows	NN	P1_cook
+2-9	,	O	O	O	O
+2-10	and	O	O	O	O
+2-11	has	2-12_aux	asked	VBZ	O
+2-12	asked	2-2_conj_and	knows	VBN	O
+2-13	me	2-12_dobj	asked	PRP	P1_cook
+2-14	to	2-15_aux	bake	TO	O
+2-15	bake	2-12_xcomp	asked	VB	O
+2-16	a	O	O	DT	O
+2-17	cake	2-15_dobj	bake	NN	P1_cake
+2-18	for	O	O	O	O
+2-19	him	O	O	PRP	P1_beneficiary
+2-20	.	O	O	O	O
+
+#id=3
+#text=I obliged , being very excited to make something for my friend . 
+3-1	I	3-2_nsubj	obliged	PRP	P1_cook
+3-2	obliged	O	O	VBN	O
+3-3	,	O	O	O	O
+3-4	being	O	O	VBG	O
+3-5	very	O	O	RB	O
+3-6	excited	3-2_xcomp	obliged	JJ	O
+3-7	to	3-8_aux	make	TO	O
+3-8	make	O	O	VB	O
+3-9	something	3-8_dobj	make	NN	O
+3-10	for	O	O	O	O
+3-11	my	O	O	PRP$	P1_cook
+3-12	friend	3-8_prep_for	make	NN	P1_beneficiary
+3-13	.	O	O	O	O
+
+#id=4
+#text=I went out to the gorcery store to pick up a few last ingredients that I would need , and after arriving home , set out all my tools necessary to complete the task . 
+4-1	I	4-2_nsubj	went	PRP	P1_cook
+4-2	went	4-2_conj_and	went	VBD	O
+4-3	out	4-2_prt	went	RP	O
+4-4	to	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	gorcery	O	O	JJ	O
+4-7	store	4-2_prep_to	went	NN	P1_store
+4-8	to	4-9_aux	pick	TO	O
+4-9	pick	O	O	VB	O
+4-10	up	4-9_prt	pick	RP	O
+4-11	a	O	O	DT	O
+4-12	few	O	O	JJ	O
+4-13	last	O	O	JJ	O
+4-14	ingredients	4-9_dobj	pick	NNS	P1_ingredients
+4-15	that	4-18_mark	need	IN	O
+4-16	I	4-18_nsubj	need	PRP	P1_cook
+4-17	would	4-18_aux	need	MD	O
+4-18	need	4-9_ccomp	pick	VB	O
+4-19	,	O	O	O	O
+4-20	and	O	O	O	O
+4-21	after	O	O	O	O
+4-22	arriving	4-2_prepc_after	went	VBG	O
+4-23	home	O	O	NN	P1_kitchen/location
+4-24	,	O	O	O	O
+4-25	set	O	O	VBN	O
+4-26	out	4-25_prt	set	RP	O
+4-27	all	O	O	PDT	O
+4-28	my	O	O	PRP$	P1_cook
+4-29	tools	4-25_dobj	set	NNS	P1_utensil
+4-30	necessary	4-22_xcomp	arriving	JJ	O
+4-31	to	4-32_aux	complete	TO	O
+4-32	complete	O	O	VB	O
+4-33	the	O	O	DT	O
+4-34	task	4-32_dobj	complete	NN	P1_NPart_task
+4-35	.	O	O	O	O
+
+#id=5
+#text=There was a good chance that some people would n't like the cake , but usually it 's a great hit whenever I bake something . 
+5-1	There	5-2_expl	was	EX	O
+5-2	was	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	good	O	O	JJ	O
+5-5	chance	5-2_nsubj	was	NN	P1_NPart_chance
+5-6	that	5-11_mark	like	IN	O
+5-7	some	O	O	DT	O
+5-8	people	5-11_nsubj	like	NNS	P2_beneficiary
+5-9	would	5-11_aux	like	MD	O
+5-10	n't	5-11_neg	like	RB	O
+5-11	like	5-2_ccomp	was	VB	O
+5-12	the	O	O	DT	O
+5-13	cake	5-11_dobj	like	NN	P1_cake
+5-14	,	O	O	O	O
+5-15	but	O	O	O	O
+5-16	usually	O	O	RB	O
+5-17	it	O	O	PRP	O
+5-18	's	O	O	VBZ	O
+5-19	a	O	O	DT	O
+5-20	great	O	O	JJ	O
+5-21	hit	5-2_conj_but	was	NN	O
+5-22	whenever	5-24_advmod	bake	WRB	O
+5-23	I	5-24_nsubj	bake	PRP	P1_cook
+5-24	bake	O	O	VBP	O
+5-25	something	5-24_dobj	bake	NN	O
+5-26	.	O	O	O	O
+
+#id=6
+#text=After reviewing the recipe and getting the cake in the oven at the correct temperature , I decided taking a quick break would be a good idea . 
+6-1	After	O	O	O	O
+6-2	reviewing	6-18_prepc_after	decided	VBG	O
+6-3	the	O	O	DT	O
+6-4	recipe	6-2_dobj	reviewing	NN	P1_baking_instructions
+6-5	and	O	O	O	O
+6-6	getting	6-2_conj_and	reviewing	VBG	O
+6-7	the	O	O	DT	O
+6-8	cake	6-6_dobj	getting	NN	P1_cake
+6-9	in	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	oven	O	O	NN	P1_oven
+6-12	at	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	correct	O	O	JJ	O
+6-15	temperature	O	O	NN	P1_temperature
+6-16	,	O	O	O	O
+6-17	I	6-18_nsubj	decided	PRP	P1_cook
+6-18	decided	O	O	VBD	O
+6-19	taking	O	O	VBG	O
+6-20	a	O	O	DT	O
+6-21	quick	O	O	JJ	O
+6-22	break	6-19_dobj	taking	NN	O
+6-23	would	O	O	MD	O
+6-24	be	O	O	VB	O
+6-25	a	O	O	DT	O
+6-26	good	O	O	JJ	O
+6-27	idea	6-18_ccomp	decided	NN	P1_NPart_idea
+6-28	.	O	O	O	O
+
+#id=7
+#text=I heated leftovers from the night before , and had that for lunch while waiting for my now baked cakes to cool . 
+7-1	I	7-2_nsubj	heated	PRP	P1_cook
+7-2	heated	O	O	VBD	O
+7-3	leftovers	7-2_dobj	heated	NNS	P1_NPart_leftovers
+7-4	from	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	night	7-2_prep_from	heated	NN	P1_NPart_night
+7-7	before	O	O	RB	O
+7-8	,	O	O	O	O
+7-9	and	O	O	O	O
+7-10	had	7-2_conj_and	heated	VBD	O
+7-11	that	7-10_dobj	had	DT	O
+7-12	for	O	O	O	O
+7-13	lunch	7-10_prep_for	had	NN	P1_NPart_lunch
+7-14	while	7-15_mark	waiting	IN	O
+7-15	waiting	7-10_advcl	had	VBG	O
+7-16	for	O	O	O	O
+7-17	my	O	O	PRP$	P1_cook
+7-18	now	O	O	JJ	O
+7-19	baked	O	O	JJ	O
+7-20	cakes	7-15_prep_for	waiting	NNS	P1_cake
+7-21	to	7-22_aux	cool	TO	O
+7-22	cool	7-15_xcomp	waiting	VB	O
+7-23	.	O	O	O	O
+
+#id=8
+#text=After that , building the cake was so simple ! 
+8-1	After	O	O	O	O
+8-2	that	O	O	DT	O
+8-3	,	O	O	O	O
+8-4	building	O	O	VBG	O
+8-5	the	O	O	DT	O
+8-6	cake	8-4_dobj	building	NN	P1_cake
+8-7	was	O	O	VBD	O
+8-8	so	O	O	RB	O
+8-9	simple	O	O	JJ	O
+8-10	!	O	O	O	O
+
+#id=9
+#text=It turned out to my standards , I loved it ! 
+9-1	It	9-2_nsubj	turned	PRP	P1_cake
+9-2	turned	9-9_ccomp	loved	VBD	O
+9-3	out	9-2_prt	turned	RP	O
+9-4	to	O	O	O	O
+9-5	my	O	O	PRP$	P1_cook
+9-6	standards	9-2_prep_to	turned	NNS	P1_NPart_standards
+9-7	,	O	O	O	O
+9-8	I	9-9_nsubj	loved	PRP	P1_cook
+9-9	loved	O	O	VBD	O
+9-10	it	9-9_dobj	loved	PRP	P1_cake
+9-11	!	O	O	O	O

@@ -1,0 +1,244 @@
+#id=1
+#text=I live near Blacksburg , Virginia and often stay with friends who live near Virginia Tech . 
+1-1	I	1-2_nsubj	live	PRP	P1_passenger
+1-2	live	O	O	VBP	O
+1-3	near	O	O	O	O
+1-4	Blacksburg	O	O	NNP	P1_NPart_blacksburg
+1-5	,	O	O	O	O
+1-6	Virginia	1-2_prep_near	live	NNP	P1_NPart_virginia
+1-7	and	O	O	O	O
+1-8	often	1-9_advmod	stay	RB	O
+1-9	stay	1-2_conj_and	live	VB	O
+1-10	with	O	O	O	O
+1-11	friends	1-9_prep_with	stay	NNS	P2_passenger
+1-12	who	1-13_nsubj	live	WP	O
+1-13	live	O	O	VBP	O
+1-14	near	O	O	O	O
+1-15	Virginia	O	O	NNP	O
+1-16	Tech	1-13_prep_near	live	NNP	P1_NPart_tech
+1-17	.	O	O	O	O
+
+#id=2
+#text=A bus route stops at their apartment complex and we often ride it downtown to eat brunch after a late night . 
+2-1	A	O	O	DT	O
+2-2	bus	O	O	NN	P1_bus
+2-3	route	2-4_nsubj	stops	NN	P1_route
+2-4	stops	O	O	VBZ	O
+2-5	at	O	O	O	O
+2-6	their	O	O	PRP$	P2_passenger
+2-7	apartment	O	O	NN	O
+2-8	complex	2-4_prep_at	stops	NN	P1_NPart_complex
+2-9	and	O	O	O	O
+2-10	we	2-12_nsubj	ride	PRP	P3_passenger
+2-11	often	2-12_advmod	ride	RB	O
+2-12	ride	2-4_conj_and	stops	VBP	O
+2-13	it	O	O	PRP	P1_bus
+2-14	downtown	2-12_xcomp	ride	JJ	P1_NPart_downtown
+2-15	to	2-16_aux	eat	TO	O
+2-16	eat	O	O	VB	O
+2-17	brunch	2-16_dobj	eat	NN	P1_NPart_brunch
+2-18	after	O	O	O	O
+2-19	a	O	O	DT	O
+2-20	late	O	O	JJ	O
+2-21	night	2-16_prep_after	eat	NN	P1_NPart_night
+2-22	.	O	O	O	O
+
+#id=3
+#text=Nothing unusual ever happens . 
+3-1	Nothing	3-4_nsubj	happens	NN	O
+3-2	unusual	O	O	JJ	O
+3-3	ever	3-4_advmod	happens	RB	O
+3-4	happens	O	O	VBZ	O
+3-5	.	O	O	O	O
+
+#id=4
+#text=We get ready and go to the bus stop . 
+4-1	We	O	O	PRP	P4_passenger
+4-2	get	O	O	VBP	O
+4-3	ready	O	O	JJ	O
+4-4	and	O	O	O	O
+4-5	go	O	O	VBP	O
+4-6	to	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	bus	O	O	NN	O
+4-9	stop	4-5_prep_to	go	NN	P1_bus_stop
+4-10	.	O	O	O	O
+
+#id=5
+#text=There 's a bench and it 's covered but there 's no doors . 
+5-1	There	5-2_expl	's	EX	P1_bus_stop
+5-2	's	O	O	VBZ	O
+5-3	a	O	O	DT	O
+5-4	bench	5-2_nsubj	's	NN	P1_NPart_bench
+5-5	and	O	O	O	O
+5-6	it	5-8_nsubjpass	covered	PRP	P1_NPart_it
+5-7	's	5-8_auxpass	covered	VBZ	O
+5-8	covered	5-2_conj_and	's	VBN	O
+5-9	but	O	O	O	O
+5-10	there	5-11_expl	's	EX	O
+5-11	's	5-2_conj_but	's	VBZ	O
+5-12	no	O	O	DT	O
+5-13	doors	5-11_nsubj	's	NNS	P1_NPart_doors
+5-14	.	O	O	O	O
+
+#id=6
+#text=The bus is always on time and we hop on . 
+6-1	The	O	O	DT	O
+6-2	bus	6-3_nsubj	is	NN	P1_bus
+6-3	is	O	O	VBZ	O
+6-4	always	6-3_advmod	is	RB	O
+6-5	on	O	O	O	O
+6-6	time	6-3_prep_on	is	NN	P1_time/date
+6-7	and	O	O	O	O
+6-8	we	6-9_nsubj	hop	PRP	P5_passenger
+6-9	hop	6-3_conj_and	is	VBZ	O
+6-10	on	6-9_prt	hop	RP	O
+6-11	.	O	O	O	O
+
+#id=7
+#text=It 's never crowded so we can always find a seat . 
+7-1	It	O	O	PRP	P1_bus
+7-2	's	O	O	VBZ	O
+7-3	never	O	O	RB	O
+7-4	crowded	O	O	JJ	O
+7-5	so	7-9_mark	find	IN	O
+7-6	we	7-9_nsubj	find	PRP	P6_passenger
+7-7	can	7-9_aux	find	MD	O
+7-8	always	7-9_advmod	find	RB	O
+7-9	find	O	O	VB	O
+7-10	a	O	O	DT	O
+7-11	seat	7-9_dobj	find	NN	P1_seat_in_bus
+7-12	.	O	O	O	O
+
+#id=8
+#text=The varying bus drivers are nice and we hop on , pay , and take our seats . 
+8-1	The	O	O	DT	O
+8-2	varying	O	O	VBG	O
+8-3	bus	O	O	NN	O
+8-4	drivers	O	O	NNS	P1_bus_staff
+8-5	are	O	O	VBP	O
+8-6	nice	O	O	JJ	O
+8-7	and	O	O	O	O
+8-8	we	8-9_nsubj	hop	PRP	P7_passenger
+8-9	hop	O	O	VB	O
+8-10	on	8-9_prt	hop	RP	O
+8-11	,	O	O	O	O
+8-12	pay	8-9_conj_and	hop	VB	O
+8-13	,	O	O	O	O
+8-14	and	O	O	O	O
+8-15	take	8-9_conj_and	hop	VB	O
+8-16	our	O	O	PRP$	P8_passenger
+8-17	seats	8-15_dobj	take	NNS	P2_seat_in_bus
+8-18	.	O	O	O	O
+
+#id=9
+#text=The ride downtown takes about 10 minutes because of other stops . 
+9-1	The	O	O	DT	O
+9-2	ride	O	O	NN	P1_ride
+9-3	downtown	9-4_nsubj	takes	NN	P2_NPart_downtown
+9-4	takes	O	O	VBZ	O
+9-5	about	O	O	RB	O
+9-6	10	O	O	CD	O
+9-7	minutes	9-4_dobj	takes	NNS	P2_time/date
+9-8	because	O	O	O	O
+9-9	of	O	O	O	O
+9-10	other	O	O	JJ	O
+9-11	stops	O	O	NNS	P2_bus_stop
+9-12	.	O	O	O	O
+
+#id=10
+#text=No other passengers ever talk to each other and honestly groups of friends from different races stick together . 
+10-1	No	O	O	DT	O
+10-2	other	O	O	JJ	O
+10-3	passengers	10-5_nsubj	talk	NNS	P9_passenger
+10-4	ever	10-5_advmod	talk	RB	O
+10-5	talk	O	O	VBP	O
+10-6	to	O	O	O	O
+10-7	each	O	O	DT	O
+10-8	other	10-5_prep_to	talk	JJ	O
+10-9	and	O	O	O	O
+10-10	honestly	10-17_advmod	stick	RB	O
+10-11	groups	10-17_nsubj	stick	NNS	O
+10-12	of	O	O	O	O
+10-13	friends	O	O	NNS	P1_NPart_friends
+10-14	from	O	O	O	O
+10-15	different	O	O	JJ	O
+10-16	races	O	O	NNS	P1_NPart_races
+10-17	stick	10-5_conj_and	talk	VBP	O
+10-18	together	10-17_advmod	stick	RB	O
+10-19	.	O	O	O	O
+
+#id=11
+#text=Being near a college such as Virginia Tech makes for a very diverse area where different cultures intermingle but the bus seems to have the most obviously segregated groups . 
+11-1	Being	11-9_csubj	makes	VBG	O
+11-2	near	O	O	O	O
+11-3	a	O	O	DT	O
+11-4	college	11-1_prep_near	Being	NN	P1_NPart_college
+11-5	such	O	O	O	O
+11-6	as	O	O	O	O
+11-7	Virginia	O	O	NNP	O
+11-8	Tech	O	O	NNP	P2_NPart_tech
+11-9	makes	O	O	VBZ	O
+11-10	for	O	O	O	O
+11-11	a	O	O	DT	O
+11-12	very	O	O	RB	O
+11-13	diverse	O	O	JJ	O
+11-14	area	11-9_prep_for	makes	NN	P1_NPart_area
+11-15	where	11-18_advmod	intermingle	WRB	O
+11-16	different	O	O	JJ	O
+11-17	cultures	11-18_nsubj	intermingle	NNS	P1_NPart_cultures
+11-18	intermingle	O	O	VBP	O
+11-19	but	11-22_cc	seems	CC	O
+11-20	the	O	O	DT	O
+11-21	bus	11-22_nsubj	seems	NN	P1_bus
+11-22	seems	11-18_ccomp	intermingle	VBZ	O
+11-23	to	11-24_aux	have	TO	O
+11-24	have	11-22_xcomp	seems	VB	O
+11-25	the	O	O	DT	O
+11-26	most	11-28_advmod	segregated	RBS	O
+11-27	obviously	11-28_advmod	segregated	RB	O
+11-28	segregated	O	O	VBN	O
+11-29	groups	11-24_dobj	have	NNS	P10_passenger
+11-30	.	O	O	O	O
+
+#id=12
+#text=We get to our stop and enjoy brunch . 
+12-1	We	12-2_nsubj	get	PRP	P11_passenger
+12-2	get	O	O	VBP	O
+12-3	to	O	O	O	O
+12-4	our	O	O	PRP$	P12_passenger
+12-5	stop	12-2_prep_to	get	NN	P3_bus_stop
+12-6	and	O	O	O	O
+12-7	enjoy	12-2_conj_and	get	VBP	O
+12-8	brunch	12-7_dobj	enjoy	NN	P2_NPart_brunch
+12-9	.	O	O	O	O
+
+#id=13
+#text=I like riding the bus because of the convenience factor , no parking , and it feels like we are doing something to help the environment . 
+13-1	I	13-2_nsubj	like	PRP	P1_passenger
+13-2	like	O	O	VBP	O
+13-3	riding	13-2_xcomp	like	VBG	O
+13-4	the	O	O	DT	O
+13-5	bus	13-3_dobj	riding	NN	P2_bus
+13-6	because	O	O	O	O
+13-7	of	O	O	O	O
+13-8	the	O	O	DT	O
+13-9	convenience	O	O	NN	O
+13-10	factor	O	O	NN	P1_NPart_factor
+13-11	,	O	O	O	O
+13-12	no	O	O	DT	O
+13-13	parking	O	O	NN	O
+13-14	,	O	O	O	O
+13-15	and	O	O	O	O
+13-16	it	13-17_nsubj	feels	PRP	O
+13-17	feels	13-2_conj_and	like	VBZ	O
+13-18	like	13-21_mark	doing	IN	O
+13-19	we	13-21_nsubj	doing	PRP	P1_NPart_we
+13-20	are	13-21_aux	doing	VBP	O
+13-21	doing	13-17_advcl	feels	VBG	O
+13-22	something	13-21_dobj	doing	NN	O
+13-23	to	13-24_aux	help	TO	O
+13-24	help	13-21_vmod	doing	VB	O
+13-25	the	O	O	DT	O
+13-26	environment	13-24_dobj	help	NN	P1_NPart_environment
+13-27	.	O	O	O	O

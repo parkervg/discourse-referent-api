@@ -1,0 +1,231 @@
+#id=1
+#text=It was finally the day , I was going to donate all of my hair to make wigs for people with cancer . 
+1-1	It	O	O	PRP	O
+1-2	was	O	O	VBD	O
+1-3	finally	O	O	RB	O
+1-4	the	O	O	DT	O
+1-5	day	1-9_ccomp	going	NN	P1_time/date
+1-6	,	O	O	O	O
+1-7	I	1-9_nsubj	going	PRP	P1_customer
+1-8	was	1-9_aux	going	VBD	O
+1-9	going	O	O	VBG	O
+1-10	to	1-11_aux	donate	TO	O
+1-11	donate	1-9_xcomp	going	VB	O
+1-12	all	1-11_dobj	donate	DT	O
+1-13	of	O	O	O	O
+1-14	my	O	O	PRP$	P1_customer
+1-15	hair	O	O	NN	P1_hair
+1-16	to	1-17_aux	make	TO	O
+1-17	make	O	O	VB	O
+1-18	wigs	1-17_dobj	make	NNS	P1_NPart_wigs
+1-19	for	O	O	O	O
+1-20	people	1-17_prep_for	make	NNS	P1_NPart_people
+1-21	with	O	O	O	O
+1-22	cancer	O	O	NN	P1_NPart_cancer
+1-23	.	O	O	O	O
+
+#id=2
+#text=I had been growing my hair out for 2 years and today was the day my plan would come to fruition . 
+2-1	I	2-4_nsubj	growing	PRP	P1_customer
+2-2	had	2-4_aux	growing	VBD	O
+2-3	been	2-4_aux	growing	VBN	O
+2-4	growing	O	O	VBG	O
+2-5	my	O	O	PRP$	P1_customer
+2-6	hair	2-4_dobj	growing	NN	P1_hair
+2-7	out	2-4_prt	growing	RP	O
+2-8	for	O	O	IN	O
+2-9	2	O	O	CD	O
+2-10	years	O	O	NNS	P1_NPart_years
+2-11	and	O	O	O	O
+2-12	today	O	O	NN	O
+2-13	was	O	O	VBD	O
+2-14	the	O	O	DT	O
+2-15	day	2-4_advcl	growing	NN	P1_time/date
+2-16	my	O	O	PRP$	P1_customer
+2-17	plan	2-19_nsubj	come	NN	P1_NPart_plan
+2-18	would	2-19_aux	come	MD	O
+2-19	come	O	O	VB	O
+2-20	to	O	O	O	O
+2-21	fruition	2-19_prep_to	come	NN	O
+2-22	.	O	O	O	O
+
+#id=3
+#text=I headed to the barber shop , my head filled with ideas on how I should get my hair styled . 
+3-1	I	3-2_nsubj	headed	PRP	P1_customer
+3-2	headed	O	O	VBD	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	barber	O	O	NN	O
+3-6	shop	3-2_prep_to	headed	NN	P1_salon
+3-7	,	O	O	O	O
+3-8	my	O	O	PRP$	P1_customer
+3-9	head	O	O	NN	P1_NPart_head
+3-10	filled	O	O	VBN	O
+3-11	with	O	O	O	O
+3-12	ideas	3-10_prep_with	filled	NNS	P1_NPart_ideas
+3-13	on	O	O	O	O
+3-14	how	3-17_advmod	get	WRB	O
+3-15	I	3-17_nsubj	get	PRP	P1_customer
+3-16	should	3-17_aux	get	MD	O
+3-17	get	O	O	VB	O
+3-18	my	O	O	PRP$	P1_customer
+3-19	hair	O	O	NN	P1_hair
+3-20	styled	3-17_dobj	get	NN	O
+3-21	.	O	O	O	O
+
+#id=4
+#text=I finally settled on the idea of getting a high and tight , after so long having long hair ; short hair would be a great change of pace . 
+4-1	I	4-3_nsubj	settled	PRP	P1_customer
+4-2	finally	4-3_advmod	settled	RB	O
+4-3	settled	O	O	VBD	O
+4-4	on	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	idea	4-3_prep_on	settled	NN	P1_NPart_idea
+4-7	of	O	O	O	O
+4-8	getting	O	O	VBG	O
+4-9	a	O	O	DT	O
+4-10	high	4-8_dobj	getting	JJ	O
+4-11	and	O	O	O	O
+4-12	tight	O	O	JJ	P1_haircut
+4-13	,	O	O	O	O
+4-14	after	O	O	O	O
+4-15	so	O	O	RB	O
+4-16	long	4-17_advmod	having	RB	O
+4-17	having	4-3_prepc_after	settled	VBG	O
+4-18	long	O	O	JJ	O
+4-19	hair	4-17_dobj	having	NN	P1_hair
+4-20	;	O	O	O	O
+4-21	short	O	O	JJ	O
+4-22	hair	O	O	NN	P1_hair
+4-23	would	O	O	MD	O
+4-24	be	O	O	VB	O
+4-25	a	O	O	DT	O
+4-26	great	O	O	JJ	O
+4-27	change	4-3_parataxis	settled	NN	P1_NPart_change
+4-28	of	O	O	O	O
+4-29	pace	O	O	NN	O
+4-30	.	O	O	O	O
+
+#id=5
+#text=I walked in the door of the barber shop and I waited until one of the barbers had a free chair . 
+5-1	I	5-2_nsubj	walked	PRP	P1_customer
+5-2	walked	O	O	VBD	O
+5-3	in	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	door	5-2_prep_in	walked	NN	P1_NPart_door
+5-6	of	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	barber	O	O	NN	O
+5-9	shop	O	O	NN	P1_salon
+5-10	and	O	O	O	O
+5-11	I	5-12_nsubj	waited	PRP	P1_customer
+5-12	waited	5-2_conj_and	walked	VBD	O
+5-13	until	5-18_mark	had	IN	O
+5-14	one	5-18_nsubj	had	CD	O
+5-15	of	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	barbers	O	O	NNS	P1_hairdresser
+5-18	had	5-12_advcl	waited	VBD	O
+5-19	a	O	O	DT	O
+5-20	free	O	O	JJ	O
+5-21	chair	5-18_dobj	had	NN	P1_chair
+5-22	.	O	O	O	O
+
+#id=6
+#text=The man asked how I wanted my hair cut , I told him I would like a high and tight , but I needed him to cut off the long ponytail that I was going to donate . 
+6-1	The	O	O	DT	O
+6-2	man	6-3_nsubj	asked	NN	P1_hairdresser
+6-3	asked	O	O	VBD	O
+6-4	how	6-6_advmod	wanted	WRB	O
+6-5	I	6-6_nsubj	wanted	PRP	P1_customer
+6-6	wanted	6-12_advcl	told	VBD	O
+6-7	my	O	O	PRP$	P1_customer
+6-8	hair	O	O	NN	P1_hair
+6-9	cut	6-6_dobj	wanted	NN	O
+6-10	,	O	O	O	O
+6-11	I	6-12_nsubj	told	PRP	P1_customer
+6-12	told	6-3_ccomp	asked	VBD	O
+6-13	him	6-12_dobj	told	PRP	P1_hairdresser
+6-14	I	6-16_nsubj	like	PRP	P1_customer
+6-15	would	6-16_aux	like	MD	O
+6-16	like	6-12_dep	told	VB	O
+6-17	a	O	O	DT	O
+6-18	high	6-16_acomp	like	JJ	O
+6-19	and	O	O	O	O
+6-20	tight	O	O	JJ	P1_haircut
+6-21	,	O	O	O	O
+6-22	but	O	O	O	O
+6-23	I	6-24_nsubj	needed	PRP	P1_customer
+6-24	needed	6-3_conj_but	asked	VBD	O
+6-25	him	6-24_dobj	needed	PRP	P1_hairdresser
+6-26	to	6-27_aux	cut	TO	O
+6-27	cut	6-24_xcomp	needed	VB	O
+6-28	off	6-27_prt	cut	RP	O
+6-29	the	O	O	DT	O
+6-30	long	O	O	JJ	O
+6-31	ponytail	6-27_dobj	cut	NN	P1_hair
+6-32	that	6-35_mark	going	IN	P1_hair
+6-33	I	6-35_nsubj	going	PRP	P1_customer
+6-34	was	6-35_aux	going	VBD	O
+6-35	going	6-27_ccomp	cut	VBG	O
+6-36	to	6-37_aux	donate	TO	O
+6-37	donate	6-35_xcomp	going	VB	O
+6-38	.	O	O	O	O
+
+#id=7
+#text=After all the formalities he got to work and styled my hair , we idly chatted the whole time he was cutting my hair . 
+7-1	After	O	O	O	O
+7-2	all	O	O	PDT	O
+7-3	the	O	O	DT	O
+7-4	formalities	7-6_prep_after	got	NNS	P1_NPart_formalities
+7-5	he	7-6_nsubj	got	PRP	P1_hairdresser
+7-6	got	7-16_ccomp	chatted	VBD	O
+7-7	to	7-8_aux	work	TO	O
+7-8	work	7-6_xcomp	got	VB	P1_NPart_work
+7-9	and	O	O	O	O
+7-10	styled	7-8_conj_and	work	VB	O
+7-11	my	O	O	PRP$	P1_customer
+7-12	hair	7-8_dobj	work	NN	P1_hair
+7-13	,	O	O	O	O
+7-14	we	7-16_nsubj	chatted	PRP	P1_hairdresser_customer
+7-15	idly	7-16_advmod	chatted	RB	O
+7-16	chatted	O	O	VBD	O
+7-17	the	O	O	DT	O
+7-18	whole	O	O	JJ	O
+7-19	time	7-16_dobj	chatted	NN	P2_time/date
+7-20	he	7-22_nsubj	cutting	PRP	P1_hairdresser
+7-21	was	7-22_aux	cutting	VBD	O
+7-22	cutting	O	O	VBG	O
+7-23	my	O	O	PRP$	P1_customer
+7-24	hair	7-22_dobj	cutting	NN	P1_hair
+7-25	.	O	O	O	O
+
+#id=8
+#text=After he was finished I paid and took my hair with me . 
+8-1	After	8-4_mark	finished	IN	O
+8-2	he	8-4_nsubjpass	finished	PRP	P1_hairdresser
+8-3	was	8-4_auxpass	finished	VBD	O
+8-4	finished	8-6_advcl	paid	VBN	O
+8-5	I	8-6_nsubj	paid	PRP	P1_customer
+8-6	paid	O	O	VBD	O
+8-7	and	O	O	O	O
+8-8	took	8-6_conj_and	paid	VBD	O
+8-9	my	O	O	PRP$	P1_customer
+8-10	hair	8-8_dobj	took	NN	P1_hair
+8-11	with	O	O	O	O
+8-12	me	8-8_prep_with	took	PRP	P1_customer
+8-13	.	O	O	O	O
+
+#id=9
+#text=It would be mailed away for a good cause today . 
+9-1	It	9-4_nsubjpass	mailed	PRP	P1_hair
+9-2	would	9-4_aux	mailed	MD	O
+9-3	be	9-4_auxpass	mailed	VB	O
+9-4	mailed	O	O	VBN	O
+9-5	away	9-4_prt	mailed	RP	O
+9-6	for	O	O	O	O
+9-7	a	O	O	DT	O
+9-8	good	O	O	JJ	O
+9-9	cause	9-4_prep_for	mailed	NN	P1_NPart_cause
+9-10	today	9-4_tmod	mailed	NN	O
+9-11	.	O	O	O	O

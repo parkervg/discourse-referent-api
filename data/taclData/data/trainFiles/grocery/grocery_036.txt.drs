@@ -1,0 +1,219 @@
+#id=1
+#text=Once a week I go to the grocery store to do some food shopping . 
+1-1	Once	1-5_mark	go	IN	O
+1-2	a	O	O	DT	O
+1-3	week	1-5_tmod	go	NN	P1_NPart_week
+1-4	I	1-5_nsubj	go	PRP	P1_shopper
+1-5	go	1-9_csubj	store	VBP	O
+1-6	to	O	O	O	O
+1-7	the	O	O	DT	O
+1-8	grocery	1-5_prep_to	go	NN	O
+1-9	store	O	O	VBP	P1_grocery_shop
+1-10	to	1-11_aux	do	TO	O
+1-11	do	1-9_xcomp	store	VB	O
+1-12	some	O	O	DT	O
+1-13	food	O	O	NN	P1_groceries
+1-14	shopping	1-11_dobj	do	NN	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=Before I left the house my wife gave me a list of things that we needed . 
+2-1	Before	2-3_mark	left	IN	O
+2-2	I	2-3_nsubj	left	PRP	P1_shopper
+2-3	left	2-8_advcl	gave	VBD	O
+2-4	the	O	O	DT	O
+2-5	house	2-3_dobj	left	NN	P1_NPart_house
+2-6	my	O	O	PRP$	P1_shopper
+2-7	wife	2-8_nsubj	gave	NN	P1_NPart_wife
+2-8	gave	O	O	VBD	O
+2-9	me	2-8_iobj	gave	PRP	P1_shopper
+2-10	a	O	O	DT	O
+2-11	list	2-8_dobj	gave	NN	P1_grocery_list
+2-12	of	O	O	O	O
+2-13	things	O	O	NNS	P1_groceries
+2-14	that	2-16_mark	needed	IN	P1_groceries
+2-15	we	2-16_nsubj	needed	PRP	O
+2-16	needed	O	O	VBD	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=I grabbed my shopping cart and the list and started walking to the supermarket that was 2 blocks away . 
+3-1	I	3-2_nsubj	grabbed	PRP	P1_shopper
+3-2	grabbed	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_shopper
+3-4	shopping	O	O	NN	O
+3-5	cart	3-2_dobj	grabbed	NN	P1_shopping_cart/basket
+3-6	and	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	list	O	O	NN	P1_grocery_list
+3-9	and	O	O	O	O
+3-10	started	3-2_conj_and	grabbed	VBD	O
+3-11	walking	3-10_xcomp	started	VBG	O
+3-12	to	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	supermarket	3-11_prep_to	walking	NN	P1_grocery_shop
+3-15	that	3-16_nsubj	was	WDT	P1_grocery_shop
+3-16	was	O	O	VBD	O
+3-17	2	O	O	CD	O
+3-18	blocks	O	O	NNS	P1_NPart_blocks
+3-19	away	3-16_advmod	was	RB	O
+3-20	.	O	O	O	O
+
+#id=4
+#text=When I got there I walked up and down the aisles looking for the items that were on the list . 
+4-1	When	4-3_advmod	got	WRB	O
+4-2	I	4-3_nsubj	got	PRP	P1_shopper
+4-3	got	4-6_advcl	walked	VBD	O
+4-4	there	4-3_advmod	got	RB	O
+4-5	I	4-6_nsubj	walked	PRP	P1_shopper
+4-6	walked	O	O	VBD	O
+4-7	up	4-6_prt	walked	RP	O
+4-8	and	O	O	CC	O
+4-9	down	O	O	RP	O
+4-10	the	O	O	DT	O
+4-11	aisles	4-6_dobj	walked	NNS	P1_section
+4-12	looking	O	O	VBG	O
+4-13	for	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	items	4-12_prep_for	looking	NNS	P1_groceries
+4-16	that	4-17_nsubj	were	WDT	P1_groceries
+4-17	were	O	O	VBD	O
+4-18	on	O	O	O	O
+4-19	the	O	O	DT	O
+4-20	list	4-17_prep_on	were	NN	P1_grocery_list
+4-21	.	O	O	O	O
+
+#id=5
+#text=As I found each item , I placed them into my shopping cart and crossed them off the list . 
+5-1	As	5-3_mark	found	IN	O
+5-2	I	5-3_nsubj	found	PRP	P1_shopper
+5-3	found	5-8_advcl	placed	VBD	O
+5-4	each	O	O	DT	O
+5-5	item	5-3_dobj	found	NN	P1_groceries
+5-6	,	O	O	O	O
+5-7	I	5-8_nsubj	placed	PRP	P1_shopper
+5-8	placed	O	O	VBD	O
+5-9	them	5-8_dobj	placed	PRP	P1_groceries
+5-10	into	O	O	O	O
+5-11	my	O	O	PRP$	P1_shopper
+5-12	shopping	O	O	NN	O
+5-13	cart	5-8_prep_into	placed	NN	P1_shopping_cart/basket
+5-14	and	O	O	O	O
+5-15	crossed	5-8_conj_and	placed	VBD	O
+5-16	them	5-15_dobj	crossed	PRP	P1_groceries
+5-17	off	O	O	O	O
+5-18	the	O	O	DT	O
+5-19	list	5-15_prep_off	crossed	NN	P1_grocery_list
+5-20	.	O	O	O	O
+
+#id=6
+#text=When I finally found everything we needed I made my way towards the check out line to pay for the food . 
+6-1	When	6-4_advmod	found	WRB	O
+6-2	I	6-4_nsubj	found	PRP	P1_shopper
+6-3	finally	6-4_advmod	found	RB	O
+6-4	found	6-7_advcl	needed	VBD	O
+6-5	everything	6-4_dobj	found	NN	P1_groceries
+6-6	we	6-7_nsubj	needed	PRP	O
+6-7	needed	O	O	VBD	O
+6-8	I	6-9_nsubj	made	PRP	P1_shopper
+6-9	made	6-7_ccomp	needed	VBD	O
+6-10	my	O	O	PRP$	P1_shopper
+6-11	way	6-9_dobj	made	NN	O
+6-12	towards	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	check	6-9_prep_towards	made	NN	O
+6-15	out	O	O	O	O
+6-16	line	6-9_prep_out	made	NN	P1_line
+6-17	to	6-18_aux	pay	TO	O
+6-18	pay	6-9_vmod	made	VB	O
+6-19	for	O	O	O	O
+6-20	the	O	O	DT	O
+6-21	food	6-18_prep_for	pay	NN	P1_groceries
+6-22	.	O	O	O	O
+
+#id=7
+#text=I found a cashier that did n't have anyone on her line and I made my way towards her . 
+7-1	I	7-2_nsubj	found	PRP	P1_shopper
+7-2	found	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	cashier	7-2_dobj	found	NN	P1_grocery_staff
+7-5	that	7-8_nsubj	have	WDT	P1_grocery_staff
+7-6	did	7-8_aux	have	VBD	O
+7-7	n't	7-8_neg	have	RB	O
+7-8	have	O	O	VB	O
+7-9	anyone	7-8_dobj	have	NN	P2_shopper
+7-10	on	O	O	O	O
+7-11	her	O	O	PRP$	P1_grocery_staff
+7-12	line	O	O	NN	P1_line
+7-13	and	O	O	O	O
+7-14	I	7-15_nsubj	made	PRP	P1_shopper
+7-15	made	7-2_conj_and	found	VBD	O
+7-16	my	O	O	PRP$	P1_shopper
+7-17	way	7-15_dobj	made	NN	O
+7-18	towards	O	O	O	O
+7-19	her	7-15_prep_towards	made	PRP	P1_grocery_staff
+7-20	.	O	O	O	O
+
+#id=8
+#text=I gave her each item one at a time and watched her scan and place them into bags for me . 
+8-1	I	8-2_nsubj	gave	PRP	P1_shopper
+8-2	gave	O	O	VBD	O
+8-3	her	8-2_iobj	gave	PRP	P1_grocery_staff
+8-4	each	O	O	DT	O
+8-5	item	O	O	NN	P1_groceries
+8-6	one	8-2_dobj	gave	NN	O
+8-7	at	O	O	O	O
+8-8	a	O	O	DT	O
+8-9	time	O	O	NN	O
+8-10	and	O	O	O	O
+8-11	watched	8-2_conj_and	gave	VBD	O
+8-12	her	8-13_nsubj	scan	PRP	P1_grocery_staff
+8-13	scan	8-11_ccomp	watched	VB	O
+8-14	and	O	O	O	O
+8-15	place	8-13_conj_and	scan	VB	O
+8-16	them	8-13_dobj	scan	PRP	P1_groceries
+8-17	into	O	O	O	O
+8-18	bags	8-13_prep_into	scan	NNS	P1_packing
+8-19	for	O	O	O	O
+8-20	me	O	O	PRP	P1_shopper
+8-21	.	O	O	O	O
+
+#id=9
+#text=After she was finished she told me the total amount and I gave her the money to cover the cost . 
+9-1	After	9-4_mark	finished	IN	O
+9-2	she	9-4_nsubjpass	finished	PRP	P1_grocery_staff
+9-3	was	9-4_auxpass	finished	VBD	O
+9-4	finished	9-6_advcl	told	VBN	O
+9-5	she	9-6_nsubj	told	PRP	P1_grocery_staff
+9-6	told	O	O	VBD	O
+9-7	me	O	O	PRP	P1_shopper
+9-8	the	O	O	DT	O
+9-9	total	O	O	JJ	O
+9-10	amount	9-6_dep	told	NN	P1_price
+9-11	and	O	O	O	O
+9-12	I	9-13_nsubj	gave	PRP	P1_shopper
+9-13	gave	O	O	VBD	O
+9-14	her	9-13_iobj	gave	PRP	P1_grocery_staff
+9-15	the	O	O	DT	O
+9-16	money	9-13_dobj	gave	NN	P1_payment_means
+9-17	to	9-18_aux	cover	TO	O
+9-18	cover	O	O	VB	O
+9-19	the	O	O	DT	O
+9-20	cost	9-18_dobj	cover	NN	P1_price
+9-21	.	O	O	O	O
+
+#id=10
+#text=She gave me my change and receipt then thanked me for shopping . 
+10-1	She	10-2_nsubj	gave	PRP	P1_grocery_staff
+10-2	gave	O	O	VBD	O
+10-3	me	10-2_iobj	gave	PRP	P1_shopper
+10-4	my	O	O	PRP$	P1_shopper
+10-5	change	10-2_dobj	gave	NN	P2_payment_means
+10-6	and	O	O	O	O
+10-7	receipt	10-9_nsubj	thanked	NN	P1_receipt
+10-8	then	10-9_advmod	thanked	RB	O
+10-9	thanked	10-2_conj_and	gave	VBD	O
+10-10	me	10-9_dobj	thanked	PRP	P1_shopper
+10-11	for	O	O	O	O
+10-12	shopping	10-9_prep_for	thanked	NN	O
+10-13	.	O	O	O	O

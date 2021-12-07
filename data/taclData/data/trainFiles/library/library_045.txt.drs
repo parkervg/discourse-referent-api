@@ -1,0 +1,225 @@
+#id=1
+#text=Using a school or public library is a great thing to do . 
+1-1	Using	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	school	1-1_dobj	Using	NN	O
+1-4	or	O	O	O	O
+1-5	public	O	O	JJ	O
+1-6	library	O	O	NN	P1_library
+1-7	is	O	O	VBZ	O
+1-8	a	O	O	DT	O
+1-9	great	O	O	JJ	O
+1-10	thing	O	O	NN	O
+1-11	to	1-12_aux	do	TO	O
+1-12	do	O	O	VB	O
+1-13	.	O	O	O	O
+
+#id=2
+#text=While I 'm at the library , I like to peruse the shelves and see if there is anything that catches my attention . 
+2-1	While	2-3_mark	'm	IN	O
+2-2	I	2-3_nsubj	'm	PRP	P1_customer
+2-3	'm	2-9_advcl	like	VBP	O
+2-4	at	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	library	2-3_prep_at	'm	NN	P1_library
+2-7	,	O	O	O	O
+2-8	I	2-9_nsubj	like	PRP	P1_customer
+2-9	like	O	O	VBP	O
+2-10	to	2-11_aux	peruse	TO	O
+2-11	peruse	2-9_xcomp	like	VB	O
+2-12	the	O	O	DT	O
+2-13	shelves	2-11_dobj	peruse	NNS	P1_shelf
+2-14	and	O	O	O	O
+2-15	see	2-11_conj_and	peruse	VB	O
+2-16	if	2-18_mark	is	IN	O
+2-17	there	2-18_expl	is	EX	O
+2-18	is	2-15_advcl	see	VBZ	O
+2-19	anything	2-18_nsubj	is	NN	P1_book
+2-20	that	2-21_nsubj	catches	WDT	P1_book
+2-21	catches	O	O	VBZ	O
+2-22	my	O	O	PRP$	P1_customer
+2-23	attention	2-21_dobj	catches	NN	P1_NPart_attention
+2-24	.	O	O	O	O
+
+#id=3
+#text=If I do n't see anything I like , I can use the online catalog to find something that I either need or want . 
+3-1	If	3-5_mark	see	IN	O
+3-2	I	3-5_nsubj	see	PRP	P1_customer
+3-3	do	3-5_aux	see	VBP	O
+3-4	n't	3-5_neg	see	RB	O
+3-5	see	3-12_advcl	use	VB	O
+3-6	anything	3-5_dobj	see	NN	P1_book
+3-7	I	3-8_nsubj	like	PRP	P1_customer
+3-8	like	O	O	VBP	O
+3-9	,	O	O	O	O
+3-10	I	3-12_nsubj	use	PRP	P1_customer
+3-11	can	3-12_aux	use	MD	O
+3-12	use	O	O	VB	O
+3-13	the	O	O	DT	O
+3-14	online	O	O	JJ	O
+3-15	catalog	3-12_dobj	use	NN	P1_catalog
+3-16	to	3-17_aux	find	TO	O
+3-17	find	3-12_vmod	use	VB	O
+3-18	something	3-17_dobj	find	NN	P1_book
+3-19	that	3-22_mark	need	IN	P1_book
+3-20	I	3-22_nsubj	need	PRP	P1_customer
+3-21	either	3-22_advmod	need	RB	O
+3-22	need	3-17_ccomp	find	VBP	O
+3-23	or	O	O	O	O
+3-24	want	3-22_conj_or	need	VBP	O
+3-25	.	O	O	O	O
+
+#id=4
+#text=It 's simple to find books on the shelves if I write down the call number and follow the signs directing to that area . 
+4-1	It	O	O	PRP	O
+4-2	's	O	O	VBZ	O
+4-3	simple	O	O	JJ	O
+4-4	to	4-5_aux	find	TO	O
+4-5	find	O	O	VB	O
+4-6	books	4-5_dobj	find	NNS	P1_book
+4-7	on	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	shelves	4-5_prep_on	find	NNS	P1_shelf
+4-10	if	4-12_mark	write	IN	O
+4-11	I	4-12_nsubj	write	PRP	P1_customer
+4-12	write	4-5_advcl	find	VB	O
+4-13	down	4-12_prt	write	RP	O
+4-14	the	O	O	DT	O
+4-15	call	O	O	NN	O
+4-16	number	4-12_dobj	write	NN	P1_section_id
+4-17	and	O	O	O	O
+4-18	follow	4-5_conj_and	find	VB	O
+4-19	the	O	O	DT	O
+4-20	signs	4-18_dobj	follow	NNS	P2_section_id
+4-21	directing	O	O	VBG	O
+4-22	to	O	O	O	O
+4-23	that	O	O	DT	O
+4-24	area	4-21_prep_to	directing	NN	P1_location_library
+4-25	.	O	O	O	O
+
+#id=5
+#text=Once my book is in hand , I prepare by getting out my library card and heading toward the circulation desk . 
+5-1	Once	5-4_mark	is	IN	O
+5-2	my	O	O	PRP$	P1_customer
+5-3	book	5-4_nsubj	is	NN	P1_book
+5-4	is	5-9_advcl	prepare	VBZ	O
+5-5	in	O	O	O	O
+5-6	hand	5-4_prep_in	is	NN	O
+5-7	,	O	O	O	O
+5-8	I	5-9_nsubj	prepare	PRP	P1_customer
+5-9	prepare	O	O	VBP	O
+5-10	by	O	O	O	O
+5-11	getting	5-9_prepc_by	prepare	VBG	O
+5-12	out	5-11_prt	getting	RP	O
+5-13	my	O	O	PRP$	P1_customer
+5-14	library	O	O	NN	O
+5-15	card	5-11_dobj	getting	NN	P1_library_card
+5-16	and	O	O	O	O
+5-17	heading	5-11_conj_and	getting	VBG	O
+5-18	toward	O	O	O	O
+5-19	the	O	O	DT	O
+5-20	circulation	O	O	NN	O
+5-21	desk	5-17_prep_toward	heading	NN	P1_check-out_desk
+5-22	.	O	O	O	O
+
+#id=6
+#text=Some libraries now have self-service checkout areas , while others still require you working with a clerk or librarian to check out . 
+6-1	Some	O	O	DT	O
+6-2	libraries	6-4_nsubj	have	NNS	P1_library
+6-3	now	6-4_advmod	have	RB	O
+6-4	have	O	O	VBP	O
+6-5	self-service	O	O	JJ	O
+6-6	checkout	O	O	NN	O
+6-7	areas	6-4_dobj	have	NNS	P1_institutional_devices
+6-8	,	O	O	O	O
+6-9	while	6-12_mark	require	IN	O
+6-10	others	6-12_nsubj	require	NNS	P1_library
+6-11	still	6-12_advmod	require	RB	O
+6-12	require	6-4_advcl	have	VBP	O
+6-13	you	6-14_nsubj	working	PRP	P1_customer
+6-14	working	6-12_dep	require	VBG	O
+6-15	with	O	O	O	O
+6-16	a	O	O	DT	O
+6-17	clerk	6-14_prep_with	working	NN	P1_staff
+6-18	or	O	O	O	O
+6-19	librarian	O	O	NN	P2_staff
+6-20	to	6-21_aux	check	TO	O
+6-21	check	6-14_xcomp	working	VB	O
+6-22	out	6-21_prt	check	RP	O
+6-23	.	O	O	O	O
+
+#id=7
+#text=At the self service kiosk , I scan my library card and then scan the barcode on my book . 
+7-1	At	O	O	O	O
+7-2	the	O	O	DT	O
+7-3	self	O	O	NN	O
+7-4	service	O	O	NN	O
+7-5	kiosk	7-8_prep_at	scan	NN	P1_institutional_devices
+7-6	,	O	O	O	O
+7-7	I	7-8_nsubj	scan	PRP	P1_customer
+7-8	scan	O	O	VB	O
+7-9	my	O	O	PRP$	P1_customer
+7-10	library	O	O	NN	O
+7-11	card	7-8_dobj	scan	NN	P1_library_card
+7-12	and	O	O	O	O
+7-13	then	7-14_advmod	scan	RB	O
+7-14	scan	7-8_conj_and	scan	VB	O
+7-15	the	O	O	DT	O
+7-16	barcode	7-14_dobj	scan	NN	P1_book_id
+7-17	on	O	O	O	O
+7-18	my	O	O	PRP$	P1_customer
+7-19	book	O	O	NN	P1_book
+7-20	.	O	O	O	O
+
+#id=8
+#text=It 's quite simple and helps the line move more quickly than waiting at the circulation desk . 
+8-1	It	O	O	PRP	O
+8-2	's	O	O	VBZ	O
+8-3	quite	O	O	RB	O
+8-4	simple	O	O	JJ	O
+8-5	and	O	O	O	O
+8-6	helps	O	O	VBZ	O
+8-7	the	O	O	DT	O
+8-8	line	8-9_nsubj	move	NN	P1_line
+8-9	move	8-6_ccomp	helps	VB	O
+8-10	more	O	O	RBR	O
+8-11	quickly	8-9_advmod	move	RB	O
+8-12	than	O	O	O	O
+8-13	waiting	8-9_prepc_than	move	VBG	O
+8-14	at	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	circulation	O	O	NN	O
+8-17	desk	8-13_prep_at	waiting	NN	P1_check-out_desk
+8-18	.	O	O	O	O
+
+#id=9
+#text=Once it is checkout out , I will get a reciept telling me when the book is due and I am free to go home with my book . 
+9-1	Once	9-4_mark	checkout	IN	O
+9-2	it	9-4_nsubj	checkout	PRP	O
+9-3	is	9-4_aux	checkout	VBZ	O
+9-4	checkout	9-9_advcl	get	VBG	O
+9-5	out	9-4_prt	checkout	RP	O
+9-6	,	O	O	O	O
+9-7	I	9-9_nsubj	get	PRP	P1_customer
+9-8	will	9-9_aux	get	MD	O
+9-9	get	O	O	VB	O
+9-10	a	O	O	DT	O
+9-11	reciept	9-9_dobj	get	NN	P1_receipt
+9-12	telling	O	O	VBG	O
+9-13	me	9-12_dobj	telling	PRP	P1_customer
+9-14	when	O	O	WRB	O
+9-15	the	O	O	DT	O
+9-16	book	O	O	NN	P1_book
+9-17	is	O	O	VBZ	O
+9-18	due	9-12_ccomp	telling	JJ	O
+9-19	and	O	O	O	O
+9-20	I	O	O	PRP	P1_customer
+9-21	am	O	O	VBP	O
+9-22	free	O	O	JJ	O
+9-23	to	9-24_aux	go	TO	O
+9-24	go	O	O	VB	O
+9-25	home	9-24_dobj	go	NN	P1_NPart_home
+9-26	with	O	O	O	O
+9-27	my	O	O	PRP$	P1_customer
+9-28	book	9-24_prep_with	go	NN	P1_book
+9-29	.	O	O	O	O

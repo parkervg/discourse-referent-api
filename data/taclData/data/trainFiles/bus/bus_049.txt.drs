@@ -1,0 +1,203 @@
+#id=1
+#text=In the morning , I had to get ready to go to work . 
+1-1	In	O	O	O	O
+1-2	the	O	O	DT	O
+1-3	morning	1-6_prep_in	had	NN	P1_NPart_morning
+1-4	,	O	O	O	O
+1-5	I	1-6_nsubj	had	PRP	P1_passenger
+1-6	had	O	O	VBD	O
+1-7	to	O	O	TO	O
+1-8	get	O	O	VB	O
+1-9	ready	1-6_xcomp	had	JJ	O
+1-10	to	1-11_aux	go	TO	O
+1-11	go	O	O	VB	O
+1-12	to	1-13_aux	work	TO	O
+1-13	work	1-11_xcomp	go	VB	P1_destination
+1-14	.	O	O	O	O
+
+#id=2
+#text=At the time , I did n't have a car , and the weather was too wet and windy to use a bicycle for transportation . 
+2-1	At	O	O	O	O
+2-2	the	O	O	DT	O
+2-3	time	2-8_prep_at	have	NN	O
+2-4	,	O	O	O	O
+2-5	I	2-8_nsubj	have	PRP	P1_passenger
+2-6	did	2-8_aux	have	VBD	O
+2-7	n't	2-8_neg	have	RB	O
+2-8	have	O	O	VB	O
+2-9	a	O	O	DT	O
+2-10	car	2-8_dobj	have	NN	P1_NPart_car
+2-11	,	O	O	O	O
+2-12	and	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	weather	O	O	NN	P1_NPart_weather
+2-15	was	O	O	VBD	O
+2-16	too	O	O	RB	O
+2-17	wet	2-8_conj_and	have	JJ	O
+2-18	and	O	O	O	O
+2-19	windy	O	O	JJ	O
+2-20	to	2-21_aux	use	TO	O
+2-21	use	O	O	VB	O
+2-22	a	O	O	DT	O
+2-23	bicycle	2-21_dobj	use	NN	P1_NPart_bicycle
+2-24	for	O	O	O	O
+2-25	transportation	O	O	NN	P1_NPart_transportation
+2-26	.	O	O	O	O
+
+#id=3
+#text=After a quick breakfast , I got my good shoes on and a jacket . 
+3-1	After	O	O	O	O
+3-2	a	O	O	DT	O
+3-3	quick	O	O	JJ	O
+3-4	breakfast	3-7_prep_after	got	NN	P1_NPart_breakfast
+3-5	,	O	O	O	O
+3-6	I	3-7_nsubj	got	PRP	P1_passenger
+3-7	got	O	O	VBD	O
+3-8	my	O	O	PRP$	P1_passenger
+3-9	good	O	O	JJ	O
+3-10	shoes	3-7_dobj	got	NNS	P1_NPart_shoes
+3-11	on	O	O	O	O
+3-12	and	O	O	CC	O
+3-13	a	O	O	DT	O
+3-14	jacket	3-7_prep_on	got	NN	P1_NPart_jacket
+3-15	.	O	O	O	O
+
+#id=4
+#text=Out the door , I locked the deadbolt and went for the bus stop about 5 blocks away from my house . 
+4-1	Out	O	O	O	O
+4-2	the	O	O	DT	O
+4-3	door	4-6_prep_out	locked	NN	P1_NPart_door
+4-4	,	O	O	O	O
+4-5	I	4-6_nsubj	locked	PRP	P1_passenger
+4-6	locked	O	O	VBD	O
+4-7	the	O	O	DT	O
+4-8	deadbolt	4-6_dobj	locked	NN	P1_NPart_deadbolt
+4-9	and	O	O	O	O
+4-10	went	4-6_conj_and	locked	VBD	O
+4-11	for	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	bus	O	O	NN	O
+4-14	stop	4-10_prep_for	went	NN	P1_bus_stop
+4-15	about	O	O	RB	O
+4-16	5	O	O	CD	O
+4-17	blocks	4-10_npadvmod	went	NNS	P1_NPart_blocks
+4-18	away	O	O	O	O
+4-19	from	O	O	O	O
+4-20	my	O	O	PRP$	P1_passenger
+4-21	house	4-10_prep_away_from	went	NN	P1_NPart_house
+4-22	.	O	O	O	O
+
+#id=5
+#text=I called the bus lines number and input the code on my phone corresponding to the bus arrival at my stop , and realized I only had a 3 minute wait . 
+5-1	I	5-2_nsubj	called	PRP	P1_passenger
+5-2	called	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	bus	O	O	NN	O
+5-5	lines	O	O	NNS	O
+5-6	number	O	O	NN	P1_other
+5-7	and	O	O	O	O
+5-8	input	O	O	NN	O
+5-9	the	O	O	DT	O
+5-10	code	5-2_xcomp	called	NN	P1_NPart_code
+5-11	on	O	O	O	O
+5-12	my	O	O	PRP$	P1_passenger
+5-13	phone	O	O	NN	P1_NPart_phone
+5-14	corresponding	O	O	JJ	O
+5-15	to	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	bus	O	O	NN	O
+5-18	arrival	O	O	NN	P2_other
+5-19	at	O	O	O	O
+5-20	my	O	O	PRP$	P1_passenger
+5-21	stop	O	O	NN	P2_bus_stop
+5-22	,	O	O	O	O
+5-23	and	O	O	O	O
+5-24	realized	5-2_conj_and	called	VBD	O
+5-25	I	5-27_nsubj	had	PRP	P1_passenger
+5-26	only	5-27_advmod	had	RB	O
+5-27	had	5-24_ccomp	realized	VBD	O
+5-28	a	O	O	DT	O
+5-29	3	O	O	CD	O
+5-30	minute	O	O	NN	P1_time/date
+5-31	wait	5-27_dobj	had	NN	O
+5-32	.	O	O	O	O
+
+#id=6
+#text=The bus arrived , and I paid the fare for my 2-hour ticket . 
+6-1	The	O	O	DT	O
+6-2	bus	6-3_nsubj	arrived	NN	P1_bus
+6-3	arrived	O	O	VBD	O
+6-4	,	O	O	O	O
+6-5	and	O	O	O	O
+6-6	I	6-7_nsubj	paid	PRP	P1_passenger
+6-7	paid	6-3_conj_and	arrived	VBD	O
+6-8	the	O	O	DT	O
+6-9	fare	6-7_dobj	paid	NN	P1_money
+6-10	for	O	O	O	O
+6-11	my	O	O	PRP$	P1_passenger
+6-12	2-hour	O	O	JJ	O
+6-13	ticket	6-7_prep_for	paid	NN	P1_card/ticket
+6-14	.	O	O	O	O
+
+#id=7
+#text=I went to the back of the bus , as there were no seats in the front . 
+7-1	I	7-2_nsubj	went	PRP	P1_passenger
+7-2	went	O	O	VBD	O
+7-3	to	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	back	7-2_prep_to	went	NN	P1_NPart_back
+7-6	of	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	bus	O	O	NN	P1_bus
+7-9	,	O	O	O	O
+7-10	as	7-12_mark	were	IN	O
+7-11	there	7-12_expl	were	EX	O
+7-12	were	7-2_advcl	went	VBD	O
+7-13	no	O	O	DT	O
+7-14	seats	7-12_nsubj	were	NNS	P1_seat_in_bus
+7-15	in	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	front	O	O	NN	P1_NPart_front
+7-18	.	O	O	O	O
+
+#id=8
+#text=The bus came to life as it passed other stops without passengers , and we eventually got to the transit station , where I was able to walk by foot the rest of the way to my workplace . 
+8-1	The	O	O	DT	O
+8-2	bus	8-3_nsubj	came	NN	P1_bus
+8-3	came	O	O	VBD	O
+8-4	to	O	O	O	O
+8-5	life	8-3_prep_to	came	NN	O
+8-6	as	8-8_mark	passed	IN	O
+8-7	it	8-8_nsubj	passed	PRP	P1_bus
+8-8	passed	8-3_advcl	came	VBD	O
+8-9	other	O	O	JJ	O
+8-10	stops	8-8_dobj	passed	NNS	P3_bus_stop
+8-11	without	O	O	O	O
+8-12	passengers	8-8_prep_without	passed	NNS	P2_passenger
+8-13	,	O	O	O	O
+8-14	and	O	O	O	O
+8-15	we	8-17_nsubj	got	PRP	P1_bus
+8-16	eventually	8-17_advmod	got	RB	O
+8-17	got	8-3_conj_and	came	VBD	O
+8-18	to	O	O	O	O
+8-19	the	O	O	DT	O
+8-20	transit	O	O	NN	O
+8-21	station	8-17_prep_to	got	NN	P4_bus_stop
+8-22	,	O	O	O	O
+8-23	where	O	O	WRB	O
+8-24	I	O	O	PRP	P1_passenger
+8-25	was	O	O	VBD	O
+8-26	able	8-17_advcl	got	JJ	O
+8-27	to	8-28_aux	walk	TO	O
+8-28	walk	O	O	VB	O
+8-29	by	O	O	O	O
+8-30	foot	8-28_prep_by	walk	NN	P1_NPart_foot
+8-31	the	O	O	DT	O
+8-32	rest	8-28_dobj	walk	NN	O
+8-33	of	O	O	O	O
+8-34	the	O	O	DT	O
+8-35	way	O	O	NN	P1_NPart_way
+8-36	to	O	O	O	O
+8-37	my	O	O	PRP$	P1_passenger
+8-38	workplace	O	O	NN	P1_destination
+8-39	.	O	O	O	O

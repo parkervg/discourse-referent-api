@@ -1,0 +1,233 @@
+#id=1
+#text=Thursday was my friend Tony 's birthday . 
+1-1	Thursday	O	O	NNP	P1_NPart_thursday
+1-2	was	O	O	VBD	O
+1-3	my	O	O	PRP$	P1_cook
+1-4	friend	O	O	JJ	P1_beneficiary
+1-5	Tony	O	O	NNP	P1_beneficiary
+1-6	's	O	O	O	O
+1-7	birthday	O	O	NN	P1_NPart_birthday
+1-8	.	O	O	O	O
+
+#id=2
+#text=It was also the day before Passover , which starts an eight-day stretch when he wo n't be able to eat a lot of foods , including foods with leavening agents and confectioner 's sugar . 
+2-1	It	O	O	PRP	O
+2-2	was	O	O	VBD	O
+2-3	also	O	O	RB	O
+2-4	the	O	O	DT	O
+2-5	day	O	O	NN	P1_NPart_day
+2-6	before	O	O	O	O
+2-7	Passover	O	O	NNP	P1_NPart_passover
+2-8	,	O	O	O	O
+2-9	which	2-10_nsubj	starts	WDT	O
+2-10	starts	O	O	VBZ	O
+2-11	an	O	O	DT	O
+2-12	eight-day	O	O	JJ	O
+2-13	stretch	2-10_dobj	starts	NN	P1_NPart_stretch
+2-14	when	O	O	WRB	O
+2-15	he	O	O	PRP	P1_beneficiary
+2-16	wo	O	O	MD	O
+2-17	n't	O	O	RB	O
+2-18	be	O	O	VB	O
+2-19	able	O	O	JJ	O
+2-20	to	2-21_aux	eat	TO	O
+2-21	eat	O	O	VB	O
+2-22	a	O	O	DT	O
+2-23	lot	2-21_dobj	eat	NN	O
+2-24	of	O	O	O	O
+2-25	foods	O	O	NNS	P1_NPart_foods
+2-26	,	O	O	O	O
+2-27	including	O	O	O	O
+2-28	foods	O	O	NNS	P2_NPart_foods
+2-29	with	O	O	O	O
+2-30	leavening	O	O	VBG	O
+2-31	agents	O	O	NNS	P1_ingredients
+2-32	and	O	O	O	O
+2-33	confectioner	O	O	NN	O
+2-34	's	O	O	O	O
+2-35	sugar	O	O	NN	P2_ingredients
+2-36	.	O	O	O	O
+
+#id=3
+#text=That meant no cake for Tony after Thursday , so I thought it would be a nice treat to make him a cake for that day . 
+3-1	That	3-2_nsubj	meant	DT	O
+3-2	meant	O	O	VBD	O
+3-3	no	O	O	DT	O
+3-4	cake	3-2_dobj	meant	NN	P1_cake
+3-5	for	O	O	O	O
+3-6	Tony	3-2_prep_for	meant	NNP	P1_beneficiary
+3-7	after	O	O	O	O
+3-8	Thursday	3-2_prep_after	meant	NNP	P2_NPart_thursday
+3-9	,	O	O	O	O
+3-10	so	3-2_dep	meant	IN	O
+3-11	I	3-12_nsubj	thought	PRP	P1_cook
+3-12	thought	3-2_parataxis	meant	VBD	O
+3-13	it	O	O	PRP	O
+3-14	would	O	O	MD	O
+3-15	be	O	O	VB	O
+3-16	a	O	O	DT	O
+3-17	nice	O	O	JJ	O
+3-18	treat	3-12_ccomp	thought	NN	O
+3-19	to	3-20_aux	make	TO	O
+3-20	make	O	O	VB	O
+3-21	him	O	O	PRP	P1_beneficiary
+3-22	a	O	O	DT	O
+3-23	cake	3-20_xcomp	make	NN	P1_cake
+3-24	for	O	O	O	O
+3-25	that	O	O	DT	O
+3-26	day	O	O	NN	P2_NPart_day
+3-27	.	O	O	O	O
+
+#id=4
+#text=He has very simple tastes , and likes white vanilla cake with butter cream frosting . 
+4-1	He	4-2_nsubj	has	PRP	P1_beneficiary
+4-2	has	O	O	VBZ	O
+4-3	very	O	O	RB	O
+4-4	simple	O	O	JJ	O
+4-5	tastes	4-2_dobj	has	NNS	P1_NPart_tastes
+4-6	,	O	O	O	O
+4-7	and	O	O	O	O
+4-8	likes	4-2_conj_and	has	VBZ	O
+4-9	white	O	O	JJ	O
+4-10	vanilla	O	O	NN	O
+4-11	cake	4-8_dobj	likes	NN	P1_cake
+4-12	with	O	O	O	O
+4-13	butter	O	O	NN	O
+4-14	cream	O	O	NN	O
+4-15	frosting	4-8_prep_with	likes	NN	P3_ingredients
+4-16	.	O	O	O	O
+
+#id=5
+#text=I did n't have any of the ingredients on hand except for vanilla , eggs , baking soda , and baking powder , so I had to go to the store to get flour , sugar , and the rest of the things that would go into the cake . 
+5-1	I	5-4_nsubj	have	PRP	P1_cook
+5-2	did	5-4_aux	have	VBD	O
+5-3	n't	5-4_neg	have	RB	O
+5-4	have	O	O	VB	O
+5-5	any	5-4_dobj	have	DT	O
+5-6	of	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	ingredients	O	O	NNS	P4_ingredients
+5-9	on	O	O	O	O
+5-10	hand	O	O	NN	O
+5-11	except	O	O	O	O
+5-12	for	O	O	O	O
+5-13	vanilla	5-4_prep_except_for	have	NN	P5_ingredients
+5-14	,	O	O	O	O
+5-15	eggs	O	O	NNS	P6_ingredients
+5-16	,	O	O	O	O
+5-17	baking	O	O	JJ	O
+5-18	soda	O	O	NN	P7_ingredients
+5-19	,	O	O	O	O
+5-20	and	O	O	O	O
+5-21	baking	O	O	JJ	O
+5-22	powder	O	O	NN	P8_ingredients
+5-23	,	O	O	O	O
+5-24	so	5-26_mark	had	IN	O
+5-25	I	5-26_nsubj	had	PRP	P1_cook
+5-26	had	5-4_advcl	have	VBD	O
+5-27	to	5-28_aux	go	TO	O
+5-28	go	5-26_xcomp	had	VB	O
+5-29	to	O	O	O	O
+5-30	the	O	O	DT	O
+5-31	store	5-28_prep_to	go	NN	P1_store
+5-32	to	5-33_aux	get	TO	O
+5-33	get	5-26_xcomp	had	VB	O
+5-34	flour	5-33_dobj	get	NN	P9_ingredients
+5-35	,	O	O	O	O
+5-36	sugar	O	O	NN	P2_ingredients
+5-37	,	O	O	O	O
+5-38	and	O	O	O	O
+5-39	the	O	O	DT	O
+5-40	rest	O	O	NN	O
+5-41	of	O	O	O	O
+5-42	the	O	O	DT	O
+5-43	things	O	O	NNS	P4_ingredients
+5-44	that	5-46_nsubj	go	WDT	O
+5-45	would	5-46_aux	go	MD	O
+5-46	go	O	O	VB	O
+5-47	into	O	O	O	O
+5-48	the	O	O	DT	O
+5-49	cake	5-46_prep_into	go	NN	P1_cake
+5-50	.	O	O	O	O
+
+#id=6
+#text=When I got home , I mixed the ingredients in a bowl , first sifting the dry ingredients together , and then beating in the butter , eggs , and sugar . 
+6-1	When	6-3_advmod	got	WRB	O
+6-2	I	6-3_nsubj	got	PRP	P1_cook
+6-3	got	6-7_advcl	mixed	VBD	O
+6-4	home	6-3_dobj	got	NN	P1_kitchen/location
+6-5	,	O	O	O	O
+6-6	I	6-7_nsubj	mixed	PRP	P1_cook
+6-7	mixed	O	O	VBD	O
+6-8	the	O	O	DT	O
+6-9	ingredients	6-7_dobj	mixed	NNS	P4_ingredients
+6-10	in	O	O	O	O
+6-11	a	O	O	DT	O
+6-12	bowl	O	O	NN	P1_utensil
+6-13	,	O	O	O	O
+6-14	first	6-15_advmod	sifting	RB	O
+6-15	sifting	6-7_dep	mixed	VBG	O
+6-16	the	O	O	DT	O
+6-17	dry	O	O	JJ	O
+6-18	ingredients	6-15_dobj	sifting	NNS	P10_ingredients
+6-19	together	6-15_advmod	sifting	RB	O
+6-20	,	O	O	O	O
+6-21	and	O	O	O	O
+6-22	then	6-23_advmod	beating	RB	O
+6-23	beating	6-15_conj_and	sifting	VBG	O
+6-24	in	O	O	O	O
+6-25	the	O	O	DT	O
+6-26	butter	6-23_prep_in	beating	NN	P11_ingredients
+6-27	,	O	O	O	O
+6-28	eggs	O	O	NNS	P6_ingredients
+6-29	,	O	O	O	O
+6-30	and	O	O	O	O
+6-31	sugar	O	O	NN	P2_ingredients
+6-32	.	O	O	O	O
+
+#id=7
+#text=I baked the cake at 350 degrees for 25 minutes , then took it out of the oven , let it cool , and frosted it . 
+7-1	I	7-2_nsubj	baked	PRP	P1_cook
+7-2	baked	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	cake	7-2_dobj	baked	NN	P1_cake
+7-5	at	O	O	O	O
+7-6	350	O	O	CD	O
+7-7	degrees	7-2_prep_at	baked	NNS	P1_temperature
+7-8	for	O	O	O	O
+7-9	25	O	O	CD	O
+7-10	minutes	O	O	NNS	P1_time
+7-11	,	O	O	O	O
+7-12	then	7-13_advmod	took	RB	O
+7-13	took	7-2_conj_and	baked	VBD	O
+7-14	it	7-13_dobj	took	PRP	P1_cake
+7-15	out	O	O	O	O
+7-16	of	O	O	O	O
+7-17	the	O	O	DT	O
+7-18	oven	7-13_prep_out_of	took	NN	P1_oven
+7-19	,	O	O	O	O
+7-20	let	7-2_conj_and	baked	VBD	O
+7-21	it	O	O	PRP	P1_cake
+7-22	cool	7-20_xcomp	let	JJ	O
+7-23	,	O	O	O	O
+7-24	and	O	O	O	O
+7-25	frosted	7-2_conj_and	baked	VBD	O
+7-26	it	7-25_dobj	frosted	PRP	P1_cake
+7-27	.	O	O	O	O
+
+#id=8
+#text=The cake was delicious , and Tony was very touched by the effort . 
+8-1	The	O	O	DT	O
+8-2	cake	O	O	NN	P1_cake
+8-3	was	O	O	VBD	O
+8-4	delicious	O	O	JJ	O
+8-5	,	O	O	O	O
+8-6	and	O	O	O	O
+8-7	Tony	O	O	NNP	P1_beneficiary
+8-8	was	O	O	VBD	O
+8-9	very	O	O	RB	O
+8-10	touched	O	O	JJ	O
+8-11	by	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	effort	O	O	NN	P1_NPart_effort
+8-14	.	O	O	O	O

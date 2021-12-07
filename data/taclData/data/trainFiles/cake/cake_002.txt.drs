@@ -1,0 +1,282 @@
+#id=1
+#text=Baking a cake is so much fun because cakes always mark a celebration . 
+1-1	Baking	O	O	RB	O
+1-2	a	O	O	DT	O
+1-3	cake	O	O	NN	P1_cake
+1-4	is	O	O	VBZ	O
+1-5	so	O	O	RB	O
+1-6	much	O	O	RB	O
+1-7	fun	O	O	JJ	P1_NPart_fun
+1-8	because	1-11_mark	mark	IN	O
+1-9	cakes	1-11_nsubj	mark	NNS	P1_cake
+1-10	always	1-11_advmod	mark	RB	O
+1-11	mark	O	O	VBP	O
+1-12	a	O	O	DT	O
+1-13	celebration	1-11_dobj	mark	NN	P1_NPart_celebration
+1-14	.	O	O	O	O
+
+#id=2
+#text=I ca n't think of a time that I baked a cake just to have as dessert with dinner . 
+2-1	I	2-4_nsubj	think	PRP	P1_cook
+2-2	ca	2-4_aux	think	MD	O
+2-3	n't	2-4_neg	think	RB	O
+2-4	think	O	O	VB	O
+2-5	of	O	O	O	O
+2-6	a	O	O	DT	O
+2-7	time	2-4_prep_of	think	NN	O
+2-8	that	2-10_mark	baked	IN	O
+2-9	I	2-10_nsubj	baked	PRP	P1_cook
+2-10	baked	2-4_ccomp	think	VBZ	O
+2-11	a	O	O	DT	O
+2-12	cake	2-10_dobj	baked	NN	P1_cake
+2-13	just	2-10_advmod	baked	RB	O
+2-14	to	2-15_aux	have	TO	O
+2-15	have	2-10_vmod	baked	VB	O
+2-16	as	O	O	O	O
+2-17	dessert	2-15_prep_as	have	NN	P1_NPart_dessert
+2-18	with	O	O	O	O
+2-19	dinner	O	O	NN	P1_NPart_dinner
+2-20	.	O	O	O	O
+
+#id=3
+#text=It 's so exciting picking out the flavors because I only have cake in moderation . 
+3-1	It	O	O	PRP	O
+3-2	's	O	O	VBZ	O
+3-3	so	O	O	RB	O
+3-4	exciting	O	O	JJ	O
+3-5	picking	O	O	VBG	O
+3-6	out	3-5_prt	picking	RP	O
+3-7	the	O	O	DT	O
+3-8	flavors	3-5_dobj	picking	NNS	O
+3-9	because	3-13_mark	cake	IN	O
+3-10	I	3-13_nsubj	cake	PRP	P1_cook
+3-11	only	3-13_advmod	cake	RB	O
+3-12	have	3-13_aux	cake	VBP	O
+3-13	cake	O	O	VBN	P1_cake
+3-14	in	O	O	O	O
+3-15	moderation	3-13_prep_in	cake	NN	O
+3-16	.	O	O	O	O
+
+#id=4
+#text=Cake is delicious ! 
+4-1	Cake	O	O	NNP	P1_cake
+4-2	is	O	O	VBZ	O
+4-3	delicious	O	O	JJ	O
+4-4	!	O	O	O	O
+
+#id=5
+#text=I love baking cakes from scratch . 
+5-1	I	5-2_nsubj	love	PRP	P1_cook
+5-2	love	O	O	VBP	O
+5-3	baking	O	O	VBG	O
+5-4	cakes	5-2_dobj	love	NNS	P1_cake
+5-5	from	O	O	O	O
+5-6	scratch	5-2_prep_from	love	NN	O
+5-7	.	O	O	O	O
+
+#id=6
+#text=When I make chocolate cake , it 's actually a vegan recipe ! 
+6-1	When	6-3_advmod	make	WRB	O
+6-2	I	6-3_nsubj	make	PRP	P1_cook
+6-3	make	O	O	VBP	O
+6-4	chocolate	O	O	NN	O
+6-5	cake	6-3_dobj	make	NN	P1_cake
+6-6	,	O	O	O	O
+6-7	it	O	O	PRP	O
+6-8	's	O	O	VBZ	O
+6-9	actually	O	O	RB	O
+6-10	a	O	O	DT	O
+6-11	vegan	O	O	NN	O
+6-12	recipe	O	O	NN	P1_baking_instructions
+6-13	!	O	O	O	O
+
+#id=7
+#text=There 's no eggs or butter but it 's the best tasting one I 've ever had . 
+7-1	There	7-2_expl	's	EX	O
+7-2	's	O	O	VBZ	O
+7-3	no	O	O	DT	O
+7-4	eggs	7-2_nsubj	's	NNS	P1_ingredients
+7-5	or	O	O	O	O
+7-6	butter	O	O	NN	P2_ingredients
+7-7	but	O	O	O	O
+7-8	it	O	O	PRP	P1_cake
+7-9	's	O	O	VBZ	O
+7-10	the	O	O	DT	O
+7-11	best	O	O	JJS	O
+7-12	tasting	O	O	NN	O
+7-13	one	7-2_conj_but	's	NN	P1_cake
+7-14	I	7-17_nsubj	had	PRP	P1_cook
+7-15	've	7-17_aux	had	VBP	O
+7-16	ever	7-17_advmod	had	RB	O
+7-17	had	O	O	VBN	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=I just dump flour , sugar , cocoa , and salt in a big bowl . 
+8-1	I	8-3_nsubj	dump	PRP	P1_cook
+8-2	just	8-3_advmod	dump	RB	O
+8-3	dump	O	O	VBP	O
+8-4	flour	8-3_dobj	dump	NN	P3_ingredients
+8-5	,	O	O	O	O
+8-6	sugar	O	O	NN	P4_ingredients
+8-7	,	O	O	O	O
+8-8	cocoa	O	O	NN	P5_ingredients
+8-9	,	O	O	O	O
+8-10	and	O	O	O	O
+8-11	salt	O	O	NN	P6_ingredients
+8-12	in	O	O	O	O
+8-13	a	O	O	DT	O
+8-14	big	O	O	JJ	O
+8-15	bowl	O	O	NN	P1_utensil
+8-16	.	O	O	O	O
+
+#id=9
+#text=Then combine apple cider vinegar and baking soda to give the cake a rise . 
+9-1	Then	9-2_advmod	combine	RB	O
+9-2	combine	O	O	VB	O
+9-3	apple	O	O	NN	O
+9-4	cider	O	O	NN	O
+9-5	vinegar	9-2_dobj	combine	NN	P7_ingredients
+9-6	and	O	O	O	O
+9-7	baking	O	O	VBG	O
+9-8	soda	O	O	NN	P8_ingredients
+9-9	to	9-10_aux	give	TO	O
+9-10	give	9-2_xcomp	combine	VB	O
+9-11	the	O	O	DT	O
+9-12	cake	9-10_iobj	give	NN	P1_cake
+9-13	a	O	O	DT	O
+9-14	rise	9-10_dobj	give	NN	O
+9-15	.	O	O	O	O
+
+#id=10
+#text=. 
+10-1	.	O	O	O	O
+
+#id=11
+#text=And the best frosting for the cake is more chocolate ! 
+11-1	And	O	O	CC	O
+11-2	the	O	O	DT	O
+11-3	best	O	O	JJS	O
+11-4	frosting	O	O	NN	P1_decoration
+11-5	for	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	cake	O	O	NN	P1_cake
+11-8	is	O	O	VBZ	O
+11-9	more	O	O	JJR	O
+11-10	chocolate	O	O	NN	P1_decoration
+11-11	!	O	O	O	O
+
+#id=12
+#text=Different people prefer different types of frosting . 
+12-1	Different	O	O	JJ	O
+12-2	people	12-3_nsubj	prefer	NNS	P1_beneficiary
+12-3	prefer	O	O	VBP	O
+12-4	different	O	O	JJ	O
+12-5	types	12-3_dobj	prefer	NNS	O
+12-6	of	O	O	O	O
+12-7	frosting	O	O	NN	P1_decoration
+12-8	.	O	O	O	O
+
+#id=13
+#text=Some -LRB- myself included -RRB- like a dark , rich chocolate and some like a lighter , milk chocolate taste . 
+13-1	Some	13-6_nsubj	like	DT	O
+13-2	-LRB-	O	O	O	O
+13-3	myself	13-4_nsubj	included	PRP	P1_cook
+13-4	included	13-6_parataxis	like	VBD	O
+13-5	-RRB-	O	O	O	O
+13-6	like	O	O	VBP	O
+13-7	a	O	O	DT	O
+13-8	dark	O	O	JJ	O
+13-9	,	O	O	O	O
+13-10	rich	O	O	JJ	O
+13-11	chocolate	13-6_dobj	like	NN	P1_decoration
+13-12	and	O	O	O	O
+13-13	some	O	O	DT	O
+13-14	like	O	O	JJ	O
+13-15	a	O	O	DT	O
+13-16	lighter	O	O	JJR	O
+13-17	,	O	O	O	O
+13-18	milk	O	O	NN	O
+13-19	chocolate	O	O	NN	O
+13-20	taste	O	O	NN	P1_NPart_taste
+13-21	.	O	O	O	O
+
+#id=14
+#text=I whip butter and powdered sugar together and start adding cocoa . 
+14-1	I	14-2_nsubj	whip	PRP	P1_cook
+14-2	whip	O	O	VB	O
+14-3	butter	O	O	JJ	P2_ingredients
+14-4	and	O	O	O	O
+14-5	powdered	O	O	JJ	O
+14-6	sugar	14-2_dobj	whip	NN	P4_ingredients
+14-7	together	14-2_advmod	whip	RB	O
+14-8	and	O	O	O	O
+14-9	start	14-2_conj_and	whip	VB	O
+14-10	adding	14-9_xcomp	start	VBG	O
+14-11	cocoa	14-10_dobj	adding	NN	P5_ingredients
+14-12	.	O	O	O	O
+
+#id=15
+#text=When the frosting starts getting thick and dark brown , I add a spoonful of milk at a time while the mixer whips up a heavenly confection . 
+15-1	When	15-4_advmod	starts	WRB	O
+15-2	the	O	O	DT	O
+15-3	frosting	15-4_nsubj	starts	NN	P1_decoration
+15-4	starts	15-12_advcl	add	VBZ	O
+15-5	getting	15-4_xcomp	starts	VBG	O
+15-6	thick	15-5_dobj	getting	JJ	O
+15-7	and	O	O	O	O
+15-8	dark	O	O	JJ	O
+15-9	brown	O	O	JJ	O
+15-10	,	O	O	O	O
+15-11	I	15-12_nsubj	add	PRP	P1_cook
+15-12	add	O	O	VBP	O
+15-13	a	O	O	DT	O
+15-14	spoonful	15-12_dobj	add	NN	O
+15-15	of	O	O	O	O
+15-16	milk	O	O	NN	P9_ingredients
+15-17	at	O	O	O	O
+15-18	a	O	O	DT	O
+15-19	time	O	O	NN	O
+15-20	while	15-23_mark	whips	IN	O
+15-21	the	O	O	DT	O
+15-22	mixer	15-23_nsubj	whips	NN	P2_utensil
+15-23	whips	15-12_advcl	add	VBZ	O
+15-24	up	15-23_prt	whips	RP	O
+15-25	a	O	O	DT	O
+15-26	heavenly	O	O	JJ	O
+15-27	confection	15-23_dobj	whips	NN	P1_decoration
+15-28	.	O	O	O	O
+
+#id=16
+#text=After the cakes have baked and cooled , I frost and decorate them . 
+16-1	After	16-5_mark	baked	IN	O
+16-2	the	O	O	DT	O
+16-3	cakes	16-5_nsubj	baked	NNS	P1_cake
+16-4	have	16-5_aux	baked	VBP	O
+16-5	baked	16-10_advcl	frost	VBN	O
+16-6	and	O	O	O	O
+16-7	cooled	16-5_conj_and	baked	VBN	O
+16-8	,	O	O	O	O
+16-9	I	16-10_nsubj	frost	PRP	P1_cook
+16-10	frost	O	O	VBP	O
+16-11	and	O	O	O	O
+16-12	decorate	16-10_conj_and	frost	VBP	O
+16-13	them	16-10_dobj	frost	PRP	P1_cake
+16-14	.	O	O	O	O
+
+#id=17
+#text=I can barely wait to go have the party and eat the cake ! 
+17-1	I	17-4_nsubj	wait	PRP	P1_cook
+17-2	can	17-4_aux	wait	MD	O
+17-3	barely	17-4_advmod	wait	RB	O
+17-4	wait	O	O	VB	O
+17-5	to	17-6_aux	go	TO	O
+17-6	go	17-4_xcomp	wait	VB	O
+17-7	have	17-6_dep	go	VB	O
+17-8	the	O	O	DT	O
+17-9	party	17-7_dobj	have	NN	P2_beneficiary
+17-10	and	O	O	O	O
+17-11	eat	17-7_conj_and	have	VB	O
+17-12	the	O	O	DT	O
+17-13	cake	17-11_dobj	eat	NN	P1_cake
+17-14	!	O	O	O	O

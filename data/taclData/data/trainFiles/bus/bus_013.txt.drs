@@ -1,0 +1,196 @@
+#id=1
+#text=I ride the bus almost every day , and yesterday was no exception . 
+1-1	I	1-2_nsubj	ride	PRP	P1_passenger
+1-2	ride	O	O	VBP	O
+1-3	the	O	O	DT	O
+1-4	bus	1-2_dobj	ride	NN	P2_passenger
+1-5	almost	O	O	RB	O
+1-6	every	O	O	DT	O
+1-7	day	1-2_tmod	ride	NN	P1_NPart_day
+1-8	,	O	O	O	O
+1-9	and	O	O	O	O
+1-10	yesterday	O	O	NN	O
+1-11	was	O	O	VBD	O
+1-12	no	O	O	DT	O
+1-13	exception	1-2_conj_and	ride	NN	P1_NPart_exception
+1-14	.	O	O	O	O
+
+#id=2
+#text=I was taking a trip to a donation center to drop off some items . 
+2-1	I	2-3_nsubj	taking	PRP	P1_passenger
+2-2	was	2-3_aux	taking	VBD	O
+2-3	taking	O	O	VBG	O
+2-4	a	O	O	DT	O
+2-5	trip	2-3_dobj	taking	NN	O
+2-6	to	O	O	O	O
+2-7	a	O	O	DT	O
+2-8	donation	O	O	NN	O
+2-9	center	2-3_prep_to	taking	NN	P1_NPart_center
+2-10	to	2-11_aux	drop	TO	O
+2-11	drop	2-3_vmod	taking	VB	O
+2-12	off	2-11_prt	drop	RP	O
+2-13	some	O	O	DT	O
+2-14	items	2-11_dobj	drop	NNS	P1_NPart_items
+2-15	.	O	O	O	O
+
+#id=3
+#text=Before I went out to the bus stop , I checked my phone for schedules and live info on where the bus is so I could spend the least amount of time waiting for the bus . 
+3-1	Before	3-3_mark	went	IN	O
+3-2	I	3-3_nsubj	went	PRP	P1_passenger
+3-3	went	3-11_advcl	checked	VBD	O
+3-4	out	3-3_prt	went	RP	O
+3-5	to	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	bus	O	O	NN	O
+3-8	stop	3-3_prep_to	went	NN	P1_bus_stop
+3-9	,	O	O	O	O
+3-10	I	3-11_nsubj	checked	PRP	P1_passenger
+3-11	checked	O	O	VBD	O
+3-12	my	O	O	PRP$	P1_passenger
+3-13	phone	3-11_dobj	checked	NN	P1_NPart_phone
+3-14	for	O	O	O	O
+3-15	schedules	3-11_prep_for	checked	NNS	P1_time-table
+3-16	and	O	O	O	O
+3-17	live	O	O	JJ	O
+3-18	info	O	O	NN	P1_other
+3-19	on	O	O	O	O
+3-20	where	3-23_advmod	is	WRB	O
+3-21	the	O	O	DT	O
+3-22	bus	3-23_nsubj	is	NN	P1_bus
+3-23	is	3-11_prepc_on	checked	VBZ	O
+3-24	so	3-27_mark	spend	IN	O
+3-25	I	3-27_nsubj	spend	PRP	P1_passenger
+3-26	could	3-27_aux	spend	MD	O
+3-27	spend	3-23_advcl	is	VB	O
+3-28	the	O	O	DT	O
+3-29	least	O	O	JJS	O
+3-30	amount	3-27_dobj	spend	NN	P1_NPart_amount
+3-31	of	O	O	O	O
+3-32	time	O	O	NN	O
+3-33	waiting	O	O	VBG	O
+3-34	for	O	O	O	O
+3-35	the	O	O	DT	O
+3-36	bus	3-33_prep_for	waiting	NN	P1_bus
+3-37	.	O	O	O	O
+
+#id=4
+#text=Once it was time , I ran out to the bus stop with my wallet and my bus card - a pass containing all the fare money I use electronically . 
+4-1	Once	O	O	IN	O
+4-2	it	O	O	PRP	O
+4-3	was	O	O	VBD	O
+4-4	time	4-7_advcl	ran	NN	O
+4-5	,	O	O	O	O
+4-6	I	4-7_nsubj	ran	PRP	P1_passenger
+4-7	ran	O	O	VBD	O
+4-8	out	4-7_prt	ran	RP	O
+4-9	to	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	bus	O	O	NN	O
+4-12	stop	4-7_prep_to	ran	NN	P2_bus_stop
+4-13	with	O	O	O	O
+4-14	my	O	O	PRP$	P1_passenger
+4-15	wallet	4-7_prep_with	ran	NN	P1_money
+4-16	and	O	O	O	O
+4-17	my	O	O	PRP$	P1_passenger
+4-18	bus	O	O	NN	O
+4-19	card	O	O	NN	P1_card/ticket
+4-20	-	O	O	O	O
+4-21	a	O	O	DT	O
+4-22	pass	4-23_nsubj	containing	NN	P1_card/ticket
+4-23	containing	4-7_parataxis	ran	VBG	O
+4-24	all	O	O	PDT	O
+4-25	the	O	O	DT	O
+4-26	fare	O	O	NN	O
+4-27	money	4-23_dobj	containing	NN	P2_money
+4-28	I	4-29_nsubj	use	PRP	P1_passenger
+4-29	use	O	O	VBP	O
+4-30	electronically	4-29_advmod	use	RB	O
+4-31	.	O	O	O	O
+
+#id=5
+#text=Once I was on the bus , I scanned my pass , looked for an open seat , and sat down . 
+5-1	Once	5-3_mark	was	IN	O
+5-2	I	5-3_nsubj	was	PRP	P1_passenger
+5-3	was	5-9_advcl	scanned	VBD	O
+5-4	on	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	bus	5-3_prep_on	was	NN	P1_bus
+5-7	,	O	O	O	O
+5-8	I	5-9_nsubj	scanned	PRP	P1_passenger
+5-9	scanned	O	O	VBD	O
+5-10	my	O	O	PRP$	P1_passenger
+5-11	pass	5-9_dobj	scanned	NN	P1_card/ticket
+5-12	,	O	O	O	O
+5-13	looked	5-9_conj_and	scanned	VBD	O
+5-14	for	O	O	O	O
+5-15	an	O	O	DT	O
+5-16	open	O	O	JJ	O
+5-17	seat	5-13_prep_for	looked	NN	P1_seat_in_bus
+5-18	,	O	O	O	O
+5-19	and	O	O	O	O
+5-20	sat	5-9_conj_and	scanned	VBD	O
+5-21	down	5-20_prt	sat	RP	O
+5-22	.	O	O	O	O
+
+#id=6
+#text=When my stop was nearby , I pulled a cord that made a signal on the bus to let the driver know I needed him to stop there . 
+6-1	When	6-4_advmod	was	WRB	O
+6-2	my	O	O	PRP$	P1_NPart_my
+6-3	stop	6-4_nsubj	was	NN	P1_destination
+6-4	was	6-8_advcl	pulled	VBD	O
+6-5	nearby	6-4_advmod	was	RB	O
+6-6	,	O	O	O	O
+6-7	I	6-8_nsubj	pulled	PRP	P1_passenger
+6-8	pulled	O	O	VBD	O
+6-9	a	O	O	DT	O
+6-10	cord	6-22_nsubj	know	NN	P1_stop_button/door_opener
+6-11	that	6-12_nsubj	made	WDT	O
+6-12	made	O	O	VBD	O
+6-13	a	O	O	DT	O
+6-14	signal	6-12_dobj	made	NN	P2_other
+6-15	on	O	O	O	O
+6-16	the	O	O	DT	O
+6-17	bus	6-12_prep_on	made	NN	P1_bus
+6-18	to	6-19_aux	let	TO	O
+6-19	let	6-12_vmod	made	VB	O
+6-20	the	O	O	DT	O
+6-21	driver	6-19_dobj	let	NN	P1_bus_staff
+6-22	know	6-8_ccomp	pulled	VBP	O
+6-23	I	6-24_nsubj	needed	PRP	P1_passenger
+6-24	needed	6-22_ccomp	know	VBD	O
+6-25	him	6-24_dobj	needed	PRP	P1_bus_staff
+6-26	to	6-27_aux	stop	TO	O
+6-27	stop	6-24_xcomp	needed	VB	O
+6-28	there	6-27_advmod	stop	RB	O
+6-29	.	O	O	O	O
+
+#id=7
+#text=I gathered my belongings and got off the bus , using the rear exit so I do n't bump into anyone who might be boarding in front . 
+7-1	I	7-2_nsubj	gathered	PRP	P1_passenger
+7-2	gathered	O	O	VBD	O
+7-3	my	O	O	PRP$	P3_passenger
+7-4	belongings	7-2_dobj	gathered	NNS	P3_other
+7-5	and	O	O	O	O
+7-6	got	7-2_conj_and	gathered	VBD	O
+7-7	off	7-6_prt	got	RP	O
+7-8	the	O	O	DT	O
+7-9	bus	7-6_dobj	got	NN	P1_bus
+7-10	,	O	O	O	O
+7-11	using	7-2_vmod	gathered	VBG	O
+7-12	the	O	O	DT	O
+7-13	rear	O	O	JJ	O
+7-14	exit	7-11_dobj	using	NN	P1_door
+7-15	so	7-19_mark	bump	IN	O
+7-16	I	7-19_nsubj	bump	PRP	P1_passenger
+7-17	do	7-19_aux	bump	VBP	O
+7-18	n't	7-19_neg	bump	RB	O
+7-19	bump	7-11_advcl	using	VB	O
+7-20	into	O	O	O	O
+7-21	anyone	7-19_prep_into	bump	NN	P4_passenger
+7-22	who	7-25_nsubj	boarding	WP	O
+7-23	might	7-25_aux	boarding	MD	O
+7-24	be	7-25_aux	boarding	VB	O
+7-25	boarding	O	O	VBG	O
+7-26	in	O	O	O	O
+7-27	front	7-25_prep_in	boarding	NN	P2_door
+7-28	.	O	O	O	O

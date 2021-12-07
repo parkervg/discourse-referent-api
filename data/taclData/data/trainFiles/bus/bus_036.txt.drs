@@ -1,0 +1,221 @@
+#id=1
+#text=I woke up early in the morning and walked from my house to the road where the bus travels . 
+1-1	I	1-2_nsubj	woke	PRP	P1_passenger
+1-2	woke	O	O	VBD	O
+1-3	up	O	O	RB	O
+1-4	early	1-2_advmod	woke	RB	O
+1-5	in	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	morning	1-2_prep_in	woke	NN	P1_NPart_morning
+1-8	and	O	O	O	O
+1-9	walked	1-2_conj_and	woke	VBD	O
+1-10	from	O	O	O	O
+1-11	my	O	O	PRP$	P1_passenger
+1-12	house	1-9_prep_from	walked	NN	P1_NPart_house
+1-13	to	O	O	O	O
+1-14	the	O	O	DT	O
+1-15	road	1-9_prep_to	walked	NN	P1_route
+1-16	where	1-19_advmod	travels	WRB	O
+1-17	the	O	O	DT	O
+1-18	bus	1-19_nsubj	travels	NN	P1_bus
+1-19	travels	O	O	VBZ	O
+1-20	.	O	O	O	O
+
+#id=2
+#text=This is a busy bus route , so there are a lot of buses I can catch at this spot . 
+2-1	This	O	O	DT	O
+2-2	is	O	O	VBZ	O
+2-3	a	O	O	DT	O
+2-4	busy	O	O	JJ	O
+2-5	bus	O	O	NN	O
+2-6	route	O	O	NN	P1_route
+2-7	,	O	O	O	O
+2-8	so	O	O	IN	O
+2-9	there	2-10_expl	are	EX	O
+2-10	are	O	O	VBP	O
+2-11	a	O	O	DT	O
+2-12	lot	2-10_nsubj	are	NN	O
+2-13	of	O	O	O	O
+2-14	buses	O	O	NNS	P1_bus
+2-15	I	2-17_nsubj	catch	PRP	P1_passenger
+2-16	can	2-17_aux	catch	MD	O
+2-17	catch	O	O	VB	O
+2-18	at	O	O	O	O
+2-19	this	O	O	DT	O
+2-20	spot	2-17_prep_at	catch	NN	P1_bus_stop
+2-21	.	O	O	O	O
+
+#id=3
+#text=I waited 10 minutes and saw a bus in the distance coming my way . 
+3-1	I	3-2_nsubj	waited	PRP	P1_passenger
+3-2	waited	O	O	VBD	O
+3-3	10	O	O	CD	O
+3-4	minutes	3-2_dobj	waited	NNS	P1_time/date
+3-5	and	O	O	O	O
+3-6	saw	3-2_conj_and	waited	VBD	O
+3-7	a	O	O	DT	O
+3-8	bus	3-6_dobj	saw	NN	P1_bus
+3-9	in	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	distance	3-6_prep_in	saw	NN	P1_NPart_distance
+3-12	coming	O	O	VBG	O
+3-13	my	O	O	PRP$	P1_passenger
+3-14	way	3-12_dobj	coming	NN	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=I waited patiently at the bus stop making sure the bus driver could see I wanted to board . 
+4-1	I	4-2_nsubj	waited	PRP	P1_passenger
+4-2	waited	O	O	VBD	O
+4-3	patiently	4-2_advmod	waited	RB	O
+4-4	at	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	bus	O	O	NN	O
+4-7	stop	4-2_prep_at	waited	NN	P1_bus_stop
+4-8	making	4-2_xcomp	waited	VBG	O
+4-9	sure	4-8_acomp	making	JJ	O
+4-10	the	O	O	DT	O
+4-11	bus	O	O	NN	O
+4-12	driver	4-14_nsubj	see	NN	P1_bus_staff
+4-13	could	4-14_aux	see	MD	O
+4-14	see	O	O	VB	O
+4-15	I	4-16_nsubj	wanted	PRP	P1_passenger
+4-16	wanted	4-14_ccomp	see	VBD	O
+4-17	to	O	O	O	O
+4-18	board	4-16_prep_to	wanted	NN	O
+4-19	.	O	O	O	O
+
+#id=5
+#text=The bus driver stopped the bus and opened the door for me . 
+5-1	The	O	O	DT	O
+5-2	bus	O	O	NN	O
+5-3	driver	5-4_nsubj	stopped	NN	P1_bus_staff
+5-4	stopped	O	O	VBD	O
+5-5	the	O	O	DT	O
+5-6	bus	5-4_dobj	stopped	NN	P1_bus
+5-7	and	O	O	O	O
+5-8	opened	5-4_conj_and	stopped	VBD	O
+5-9	the	O	O	DT	O
+5-10	door	5-8_dobj	opened	NN	P1_door
+5-11	for	O	O	O	O
+5-12	me	5-8_prep_for	opened	PRP	P1_passenger
+5-13	.	O	O	O	O
+
+#id=6
+#text=I had to wait for some other passengers to get off the bus first . 
+6-1	I	6-2_nsubj	had	PRP	P1_passenger
+6-2	had	O	O	VBD	O
+6-3	to	6-4_aux	wait	TO	O
+6-4	wait	6-2_xcomp	had	VB	O
+6-5	for	O	O	O	O
+6-6	some	O	O	DT	O
+6-7	other	O	O	JJ	O
+6-8	passengers	6-4_prep_for	wait	NNS	P2_passenger
+6-9	to	6-10_aux	get	TO	O
+6-10	get	6-2_xcomp	had	VB	O
+6-11	off	6-10_prt	get	RP	O
+6-12	the	O	O	DT	O
+6-13	bus	6-10_dobj	get	NN	P1_bus
+6-14	first	6-10_advmod	get	RB	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=I walked up steps into the bus and paid for my trip . 
+7-1	I	7-2_nsubj	walked	PRP	P1_passenger
+7-2	walked	O	O	VBD	O
+7-3	up	7-2_prt	walked	RP	O
+7-4	steps	7-2_dobj	walked	NNS	P1_NPart_steps
+7-5	into	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	bus	7-2_prep_into	walked	NN	P1_bus
+7-8	and	O	O	O	O
+7-9	paid	7-2_conj_and	walked	VBD	O
+7-10	for	O	O	O	O
+7-11	my	O	O	PRP$	P1_passenger
+7-12	trip	7-9_prep_for	paid	NN	P1_ride
+7-13	.	O	O	O	O
+
+#id=8
+#text=There is a machine that collects money and tokens in front of the bus . 
+8-1	There	8-2_expl	is	EX	O
+8-2	is	O	O	VBZ	O
+8-3	a	O	O	DT	O
+8-4	machine	8-2_nsubj	is	NN	P1_payment_machine
+8-5	that	8-6_nsubj	collects	WDT	P1_payment_machine
+8-6	collects	O	O	VBZ	O
+8-7	money	8-6_dobj	collects	NN	P1_money
+8-8	and	O	O	O	O
+8-9	tokens	O	O	NNS	P2_money
+8-10	in	O	O	O	O
+8-11	front	O	O	O	O
+8-12	of	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	bus	8-6_prep_in_front_of	collects	NN	P1_bus
+8-15	.	O	O	O	O
+
+#id=9
+#text=Luckily , there was a seat available to sit in . 
+9-1	Luckily	9-4_advmod	was	RB	O
+9-2	,	O	O	O	O
+9-3	there	9-4_expl	was	EX	O
+9-4	was	O	O	VBD	O
+9-5	a	O	O	DT	O
+9-6	seat	9-4_nsubj	was	NN	P1_seat_in_bus
+9-7	available	O	O	JJ	O
+9-8	to	9-9_aux	sit	TO	O
+9-9	sit	O	O	VB	O
+9-10	in	9-9_prt	sit	RP	O
+9-11	.	O	O	O	O
+
+#id=10
+#text=I rode the bus for about 10 minutes until we were coming close to my stop . 
+10-1	I	10-2_nsubj	rode	PRP	P1_passenger
+10-2	rode	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	bus	10-2_dobj	rode	NN	P1_bus
+10-5	for	O	O	O	O
+10-6	about	O	O	RB	O
+10-7	10	O	O	CD	O
+10-8	minutes	10-2_prep_for	rode	NNS	P2_time/date
+10-9	until	10-12_mark	coming	IN	O
+10-10	we	10-12_nsubj	coming	PRP	P1_bus
+10-11	were	10-12_aux	coming	VBD	O
+10-12	coming	10-2_advcl	rode	VBG	O
+10-13	close	O	O	O	O
+10-14	to	O	O	O	O
+10-15	my	O	O	PRP$	P1_passenger
+10-16	stop	10-12_prep_close_to	coming	NN	P1_destination
+10-17	.	O	O	O	O
+
+#id=11
+#text=I pulled the string to tell the bus driver I wanted off . 
+11-1	I	11-2_nsubj	pulled	PRP	P1_passenger
+11-2	pulled	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	string	11-2_dobj	pulled	NN	P1_stop_button/door_opener
+11-5	to	11-6_aux	tell	TO	O
+11-6	tell	O	O	VB	O
+11-7	the	O	O	DT	O
+11-8	bus	O	O	NN	O
+11-9	driver	11-6_dobj	tell	NN	P1_bus_staff
+11-10	I	11-11_nsubj	wanted	PRP	P1_passenger
+11-11	wanted	O	O	VBD	O
+11-12	off	11-11_prt	wanted	RP	O
+11-13	.	O	O	O	O
+
+#id=12
+#text=I said goodbye and got off the bus and went to my destination . 
+12-1	I	12-2_nsubj	said	PRP	P1_passenger
+12-2	said	O	O	VBD	O
+12-3	goodbye	12-2_dobj	said	NN	P1_NPart_goodbye
+12-4	and	O	O	O	O
+12-5	got	12-2_conj_and	said	VBD	O
+12-6	off	12-5_prt	got	RP	O
+12-7	the	O	O	DT	O
+12-8	bus	12-5_dobj	got	NN	P1_bus
+12-9	and	O	O	O	O
+12-10	went	12-5_conj_and	got	VBD	O
+12-11	to	O	O	O	O
+12-12	my	O	O	PRP$	P1_passenger
+12-13	destination	12-10_prep_to	went	NN	P1_destination
+12-14	.	O	O	O	O

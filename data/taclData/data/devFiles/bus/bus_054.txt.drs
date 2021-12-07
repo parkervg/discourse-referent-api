@@ -1,0 +1,760 @@
+#id=1
+#text='' `` Riding A Public Bus '' '' Hannah and her mommy had just moved to the city . 
+1-1	''	O	O	O	O
+1-2	``	O	O	O	O
+1-3	Riding	O	O	NNP	O
+1-4	A	O	O	NNP	O
+1-5	Public	O	O	NNP	O
+1-6	Bus	1-9_nsubj	Hannah	NNP	P1_bus
+1-7	''	O	O	O	O
+1-8	''	O	O	O	O
+1-9	Hannah	O	O	VB	P1_passenger
+1-10	and	O	O	O	O
+1-11	her	O	O	PRP$	P1_passenger
+1-12	mommy	1-15_nsubj	moved	NN	P2_passenger
+1-13	had	1-15_aux	moved	VBD	O
+1-14	just	1-15_advmod	moved	RB	O
+1-15	moved	1-9_conj_and	Hannah	VBN	O
+1-16	to	O	O	O	O
+1-17	the	O	O	DT	O
+1-18	city	1-15_prep_to	moved	NN	P1_NPart_city
+1-19	.	O	O	O	O
+
+#id=2
+#text=Daddy took the car to work each day now and her and mommy decided they wanted to go to the shopping center . 
+2-1	Daddy	2-2_nsubj	took	NNP	P1_NPart_daddy
+2-2	took	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	car	2-2_dobj	took	NN	P1_NPart_car
+2-5	to	2-6_aux	work	TO	O
+2-6	work	O	O	VB	O
+2-7	each	O	O	DT	O
+2-8	day	2-6_tmod	work	NN	P1_NPart_day
+2-9	now	2-6_advmod	work	RB	O
+2-10	and	O	O	O	O
+2-11	her	2-14_nsubj	decided	PRP	P1_passenger
+2-12	and	O	O	O	O
+2-13	mommy	O	O	NN	P2_passenger
+2-14	decided	2-2_conj_and	took	VBD	O
+2-15	they	2-16_nsubj	wanted	PRP	P3_passenger
+2-16	wanted	2-14_ccomp	decided	VBD	O
+2-17	to	2-18_aux	go	TO	O
+2-18	go	2-16_xcomp	wanted	VB	O
+2-19	to	O	O	O	O
+2-20	the	O	O	DT	O
+2-21	shopping	O	O	NN	O
+2-22	center	2-18_prep_to	go	NN	P1_NPart_center
+2-23	.	O	O	O	O
+
+#id=3
+#text=Hannah was excited because today was her first time taking the public bus . 
+3-1	Hannah	O	O	NNP	P1_passenger
+3-2	was	O	O	VBD	O
+3-3	excited	O	O	JJ	O
+3-4	because	O	O	IN	O
+3-5	today	O	O	NN	O
+3-6	was	O	O	VBD	O
+3-7	her	O	O	PRP$	P1_passenger
+3-8	first	O	O	JJ	O
+3-9	time	O	O	NN	O
+3-10	taking	O	O	VBG	O
+3-11	the	O	O	DT	O
+3-12	public	O	O	JJ	O
+3-13	bus	3-10_dobj	taking	NN	P1_bus
+3-14	.	O	O	O	O
+
+#id=4
+#text=Hannah and her family had moved to Portland , Maine and the bus they were taking was called the Metro . 
+4-1	Hannah	4-6_nsubj	moved	NNP	P1_passenger
+4-2	and	O	O	O	O
+4-3	her	O	O	PRP$	P1_passenger
+4-4	family	O	O	NN	P1_NPart_family
+4-5	had	4-6_aux	moved	VBD	O
+4-6	moved	O	O	VBN	O
+4-7	to	O	O	O	O
+4-8	Portland	O	O	NNP	P1_NPart_portland
+4-9	,	O	O	O	O
+4-10	Maine	4-6_prep_to	moved	NNP	P1_NPart_maine
+4-11	and	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	bus	4-18_nsubjpass	called	NN	P1_bus
+4-14	they	4-16_nsubj	taking	PRP	P3_passenger
+4-15	were	4-16_aux	taking	VBD	O
+4-16	taking	O	O	VBG	O
+4-17	was	4-18_auxpass	called	VBD	O
+4-18	called	4-6_conj_and	moved	VBN	O
+4-19	the	O	O	DT	O
+4-20	Metro	4-18_dobj	called	NNP	P1_NPart_metro
+4-21	.	O	O	O	O
+
+#id=5
+#text=Hannah took her mom 's hand as they walked down the sunny streets of the city until they reached a sign that Hannah could not read but she did understand the picture . 
+5-1	Hannah	5-2_nsubj	took	NNP	P1_passenger
+5-2	took	O	O	VBD	O
+5-3	her	O	O	PRP$	P1_passenger
+5-4	mom	O	O	NN	P2_passenger
+5-5	's	O	O	O	O
+5-6	hand	5-2_dobj	took	NN	P1_NPart_hand
+5-7	as	5-9_mark	walked	IN	O
+5-8	they	5-9_nsubj	walked	PRP	P3_passenger
+5-9	walked	5-2_advcl	took	VBD	O
+5-10	down	5-9_prt	walked	RP	O
+5-11	the	O	O	DT	O
+5-12	sunny	O	O	JJ	O
+5-13	streets	5-9_dobj	walked	NNS	P1_NPart_streets
+5-14	of	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	city	O	O	NN	P2_NPart_city
+5-17	until	5-19_mark	reached	IN	O
+5-18	they	5-19_nsubj	reached	PRP	P3_passenger
+5-19	reached	5-9_advcl	walked	VBD	O
+5-20	a	O	O	DT	O
+5-21	sign	5-19_dobj	reached	NN	P1_bus_stop
+5-22	that	5-26_mark	read	IN	P1_bus_stop
+5-23	Hannah	5-26_nsubj	read	NNP	P1_passenger
+5-24	could	5-26_aux	read	MD	O
+5-25	not	5-26_neg	read	RB	O
+5-26	read	5-19_ccomp	reached	VB	O
+5-27	but	O	O	O	O
+5-28	she	5-30_nsubj	understand	PRP	P1_passenger
+5-29	did	5-30_aux	understand	VBD	O
+5-30	understand	5-2_conj_but	took	VB	O
+5-31	the	O	O	DT	O
+5-32	picture	5-30_dobj	understand	NN	P1_NPart_picture
+5-33	.	O	O	O	O
+
+#id=6
+#text=It was a picture of a bus . '' 
+6-1	It	O	O	PRP	P1_NPart_it
+6-2	was	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	picture	O	O	NN	P2_NPart_picture
+6-5	of	O	O	O	O
+6-6	a	O	O	DT	O
+6-7	bus	O	O	NN	P1_bus
+6-8	.	O	O	O	O
+6-9	''	O	O	O	O
+
+#id=7
+#text=`` Does that sign say bus mommy ? '' '' 
+7-1	``	O	O	O	O
+7-2	Does	7-5_advmod	say	RB	O
+7-3	that	O	O	DT	O
+7-4	sign	7-5_nsubj	say	NN	P1_NPart_sign
+7-5	say	O	O	VBP	O
+7-6	bus	7-5_dobj	say	NN	P1_bus
+7-7	mommy	7-5_advmod	say	RB	P2_passenger
+7-8	?	O	O	O	O
+7-9	''	O	O	O	O
+7-10	''	O	O	O	O
+
+#id=8
+#text=Hannah asked . 
+8-1	Hannah	8-2_nsubj	asked	NNP	P1_passenger
+8-2	asked	O	O	VBD	O
+8-3	.	O	O	O	O
+
+#id=9
+#text=Her mother replied that it was and it was one of many many places around the city to get the bus to stop for them and others . 
+9-1	Her	O	O	PRP$	P1_passenger
+9-2	mother	9-3_nsubj	replied	NN	P2_passenger
+9-3	replied	O	O	VBD	O
+9-4	that	9-6_mark	was	IN	O
+9-5	it	9-6_nsubj	was	PRP	P2_NPart_it
+9-6	was	9-3_ccomp	replied	VBD	O
+9-7	and	O	O	O	O
+9-8	it	O	O	PRP	P1_bus_stop
+9-9	was	O	O	VBD	O
+9-10	one	9-3_conj_and	replied	CD	O
+9-11	of	O	O	O	O
+9-12	many	O	O	JJ	O
+9-13	many	O	O	JJ	O
+9-14	places	O	O	NNS	P1_bus_stop
+9-15	around	O	O	O	O
+9-16	the	O	O	DT	O
+9-17	city	O	O	NN	P3_NPart_city
+9-18	to	9-19_aux	get	TO	O
+9-19	get	O	O	VB	O
+9-20	the	O	O	DT	O
+9-21	bus	9-19_dobj	get	NN	P1_bus
+9-22	to	9-23_aux	stop	TO	O
+9-23	stop	O	O	VB	O
+9-24	for	O	O	O	O
+9-25	them	9-23_prep_for	stop	PRP	P3_passenger
+9-26	and	O	O	O	O
+9-27	others	O	O	NNS	P4_passenger
+9-28	.	O	O	O	O
+
+#id=10
+#text=They waited for a long while and finally a large public bus came down the street and stopped before them . 
+10-1	They	10-2_nsubj	waited	PRP	P3_passenger
+10-2	waited	O	O	VBD	O
+10-3	for	O	O	O	O
+10-4	a	O	O	DT	O
+10-5	long	O	O	JJ	O
+10-6	while	10-2_prep_for	waited	NN	P1_time/date
+10-7	and	O	O	O	O
+10-8	finally	10-13_advmod	came	RB	O
+10-9	a	O	O	DT	O
+10-10	large	O	O	JJ	O
+10-11	public	O	O	JJ	O
+10-12	bus	10-13_nsubj	came	NN	P1_bus
+10-13	came	10-2_conj_and	waited	VBD	O
+10-14	down	10-13_prt	came	RP	O
+10-15	the	O	O	DT	O
+10-16	street	10-13_dobj	came	NN	P1_route
+10-17	and	O	O	O	O
+10-18	stopped	10-13_conj_and	came	VBD	O
+10-19	before	O	O	O	O
+10-20	them	10-18_prep_before	stopped	PRP	P3_passenger
+10-21	.	O	O	O	O
+
+#id=11
+#text=They waited while a few passengers exited the bus because her mom said it was the polite thing to do and then they climbed the steps where her mother dropped their coins into the busses toll collector . 
+11-1	They	11-2_nsubj	waited	PRP	P3_passenger
+11-2	waited	O	O	VBD	O
+11-3	while	11-7_mark	exited	IN	O
+11-4	a	O	O	DT	O
+11-5	few	O	O	JJ	O
+11-6	passengers	11-7_nsubj	exited	NNS	P4_passenger
+11-7	exited	11-2_advcl	waited	VBD	O
+11-8	the	O	O	DT	O
+11-9	bus	11-7_dobj	exited	NN	P1_bus
+11-10	because	11-13_mark	said	IN	O
+11-11	her	O	O	PRP$	P1_passenger
+11-12	mom	11-13_nsubj	said	NN	P2_passenger
+11-13	said	11-7_advcl	exited	VBD	O
+11-14	it	O	O	PRP	O
+11-15	was	O	O	VBD	O
+11-16	the	O	O	DT	O
+11-17	polite	O	O	JJ	O
+11-18	thing	11-13_ccomp	said	NN	O
+11-19	to	11-20_aux	do	TO	O
+11-20	do	O	O	VB	O
+11-21	and	O	O	O	O
+11-22	then	11-24_advmod	climbed	RB	O
+11-23	they	11-24_nsubj	climbed	PRP	P3_passenger
+11-24	climbed	11-2_conj_and	waited	VBD	O
+11-25	the	O	O	DT	O
+11-26	steps	11-24_dobj	climbed	NNS	P1_NPart_steps
+11-27	where	11-30_advmod	dropped	WRB	O
+11-28	her	O	O	PRP$	P1_passenger
+11-29	mother	11-30_nsubj	dropped	NN	P2_passenger
+11-30	dropped	11-24_advcl	climbed	VBD	O
+11-31	their	O	O	PRP$	P3_passenger
+11-32	coins	11-30_dobj	dropped	NNS	P1_money
+11-33	into	O	O	O	O
+11-34	the	O	O	DT	O
+11-35	busses	O	O	JJ	P1_bus
+11-36	toll	O	O	NN	O
+11-37	collector	11-30_prep_into	dropped	NN	P1_payment_machine
+11-38	.	O	O	O	O
+
+#id=12
+#text=Her mother then asked for a transfer and they walked quickly to their seats . 
+12-1	Her	O	O	PRP$	P1_passenger
+12-2	mother	12-4_nsubj	asked	NN	P2_passenger
+12-3	then	12-4_advmod	asked	RB	O
+12-4	asked	O	O	VBD	O
+12-5	for	O	O	O	O
+12-6	a	O	O	DT	O
+12-7	transfer	12-4_prep_for	asked	NN	P1_card/ticket
+12-8	and	O	O	O	O
+12-9	they	12-10_nsubj	walked	PRP	P3_passenger
+12-10	walked	12-4_conj_and	asked	VBD	O
+12-11	quickly	12-10_advmod	walked	RB	O
+12-12	to	O	O	O	O
+12-13	their	O	O	PRP$	P3_passenger
+12-14	seats	12-10_prep_to	walked	NNS	P1_seat_in_bus
+12-15	.	O	O	O	O
+
+#id=13
+#text=Hannah asked her mom what a transfer was and she explained that because they were going way across the city they would need to get on yet another bus and the transfer was so the other bus driver could see they already paid for their ride . 
+13-1	Hannah	13-2_nsubj	asked	NNP	P1_passenger
+13-2	asked	O	O	VBD	O
+13-3	her	O	O	PRP$	P1_passenger
+13-4	mom	13-2_dobj	asked	NN	P2_passenger
+13-5	what	13-43_dobj	paid	WP	O
+13-6	a	O	O	DT	O
+13-7	transfer	13-43_nsubjpass	paid	NN	P1_card/ticket
+13-8	was	13-43_auxpass	paid	VBD	O
+13-9	and	13-11_cc	explained	CC	O
+13-10	she	13-11_nsubj	explained	PRP	P2_passenger
+13-11	explained	13-43_parataxis	paid	VBD	O
+13-12	that	13-23_mark	need	IN	O
+13-13	because	13-16_mark	going	IN	O
+13-14	they	13-16_nsubj	going	PRP	P3_passenger
+13-15	were	13-16_aux	going	VBD	O
+13-16	going	13-23_advcl	need	VBG	O
+13-17	way	13-16_dobj	going	NN	O
+13-18	across	O	O	O	O
+13-19	the	O	O	DT	O
+13-20	city	13-16_prep_across	going	NN	P4_NPart_city
+13-21	they	13-23_nsubj	need	PRP	P3_passenger
+13-22	would	13-23_aux	need	MD	O
+13-23	need	13-11_ccomp	explained	VB	O
+13-24	to	13-25_aux	get	TO	O
+13-25	get	13-23_xcomp	need	VB	O
+13-26	on	O	O	O	O
+13-27	yet	O	O	RB	O
+13-28	another	O	O	DT	O
+13-29	bus	13-25_prep_on	get	NN	P2_bus
+13-30	and	O	O	O	O
+13-31	the	O	O	DT	O
+13-32	transfer	13-33_nsubj	was	NN	P1_card/ticket
+13-33	was	13-23_conj_and	need	VBD	O
+13-34	so	13-40_mark	see	IN	O
+13-35	the	O	O	DT	O
+13-36	other	O	O	JJ	O
+13-37	bus	O	O	NN	O
+13-38	driver	13-40_nsubj	see	NN	P1_bus_staff
+13-39	could	13-40_aux	see	MD	O
+13-40	see	13-33_advcl	was	VB	O
+13-41	they	13-40_dobj	see	PRP	P3_passenger
+13-42	already	13-40_advmod	see	RB	O
+13-43	paid	13-2_dep	asked	VBN	O
+13-44	for	O	O	O	O
+13-45	their	O	O	PRP$	P3_passenger
+13-46	ride	13-43_prep_for	paid	NN	P1_ride
+13-47	.	O	O	O	O
+
+#id=14
+#text=Soon the bus jolted to another stop an older lady stepped onto the bus and flashed a card at the bus driver and took a seat at the front of the bus that was saved for elderly and handicapped people . 
+14-1	Soon	14-4_advmod	jolted	RB	O
+14-2	the	O	O	DT	O
+14-3	bus	14-4_nsubj	jolted	NN	P1_bus
+14-4	jolted	O	O	VBD	O
+14-5	to	O	O	O	O
+14-6	another	O	O	DT	O
+14-7	stop	14-4_prep_to	jolted	NN	O
+14-8	an	O	O	DT	O
+14-9	older	O	O	JJR	O
+14-10	lady	14-11_nsubj	stepped	NN	P5_passenger
+14-11	stepped	O	O	VBD	O
+14-12	onto	O	O	O	O
+14-13	the	O	O	DT	O
+14-14	bus	14-11_prep_onto	stepped	NN	P1_bus
+14-15	and	O	O	O	O
+14-16	flashed	14-11_conj_and	stepped	VBD	O
+14-17	a	O	O	DT	O
+14-18	card	14-16_dobj	flashed	NN	P2_card/ticket
+14-19	at	O	O	O	O
+14-20	the	O	O	DT	O
+14-21	bus	O	O	NN	O
+14-22	driver	14-16_prep_at	flashed	NN	P2_bus_staff
+14-23	and	O	O	O	O
+14-24	took	14-4_conj_and	jolted	VBD	O
+14-25	a	O	O	DT	O
+14-26	seat	14-24_dobj	took	NN	P2_seat_in_bus
+14-27	at	O	O	O	O
+14-28	the	O	O	DT	O
+14-29	front	14-24_prep_at	took	NN	P1_NPart_front
+14-30	of	O	O	O	O
+14-31	the	O	O	DT	O
+14-32	bus	O	O	NN	P1_bus
+14-33	that	14-35_nsubjpass	saved	WDT	P2_seat_in_bus
+14-34	was	14-35_auxpass	saved	VBD	O
+14-35	saved	O	O	VBN	O
+14-36	for	O	O	O	O
+14-37	elderly	O	O	JJ	O
+14-38	and	O	O	O	O
+14-39	handicapped	O	O	JJ	O
+14-40	people	14-35_prep_for	saved	NNS	P4_passenger
+14-41	.	O	O	O	O
+
+#id=15
+#text=Hannah tugged at her moms sleeve and whispered the lady did not pay . 
+15-1	Hannah	15-2_nsubj	tugged	NNP	P1_passenger
+15-2	tugged	O	O	VBD	O
+15-3	at	O	O	O	O
+15-4	her	O	O	PRP$	P1_passenger
+15-5	moms	O	O	JJ	P2_passenger
+15-6	sleeve	15-2_prep_at	tugged	NN	O
+15-7	and	O	O	O	O
+15-8	whispered	15-2_conj_and	tugged	VBN	O
+15-9	the	O	O	DT	O
+15-10	lady	15-13_nsubj	pay	NN	P5_passenger
+15-11	did	15-13_aux	pay	VBD	O
+15-12	not	15-13_neg	pay	RB	O
+15-13	pay	15-8_ccomp	whispered	VB	O
+15-14	.	O	O	O	O
+
+#id=16
+#text=Her mother quietly told her she had a bus pass that she paid for a whole months worth of rides for a bigger fee than just one ride . 
+16-1	Her	O	O	PRP$	P1_passenger
+16-2	mother	16-4_nsubj	told	NN	P2_passenger
+16-3	quietly	16-4_advmod	told	RB	O
+16-4	told	O	O	VBD	O
+16-5	her	16-4_dobj	told	PRP	P1_passenger
+16-6	she	16-7_nsubj	had	PRP	P5_passenger
+16-7	had	16-4_dep	told	VBD	O
+16-8	a	O	O	DT	O
+16-9	bus	16-10_nsubj	pass	NN	O
+16-10	pass	16-7_ccomp	had	VB	P3_card/ticket
+16-11	that	16-13_mark	paid	IN	O
+16-12	she	16-13_nsubj	paid	PRP	P5_passenger
+16-13	paid	16-10_ccomp	pass	VBD	O
+16-14	for	O	O	O	O
+16-15	a	O	O	DT	O
+16-16	whole	O	O	JJ	O
+16-17	months	16-13_prep_for	paid	NNS	P1_NPart_months
+16-18	worth	O	O	JJ	P1_NPart_worth
+16-19	of	O	O	O	O
+16-20	rides	O	O	NNS	P1_ride
+16-21	for	O	O	O	O
+16-22	a	O	O	DT	O
+16-23	bigger	O	O	JJR	O
+16-24	fee	O	O	NN	P2_money
+16-25	than	O	O	O	O
+16-26	just	O	O	RB	O
+16-27	one	O	O	CD	O
+16-28	ride	16-13_prep_than	paid	NN	P1_ride
+16-29	.	O	O	O	O
+
+#id=17
+#text=That people who use the bus daily buy them to save money . 
+17-1	That	O	O	DT	O
+17-2	people	17-8_nsubj	buy	NNS	P4_passenger
+17-3	who	17-4_nsubj	use	WP	P4_passenger
+17-4	use	O	O	VBP	O
+17-5	the	O	O	DT	O
+17-6	bus	17-4_dobj	use	NN	P1_bus
+17-7	daily	17-8_advmod	buy	RB	O
+17-8	buy	O	O	VBP	O
+17-9	them	17-8_dobj	buy	PRP	P3_card/ticket
+17-10	to	17-11_aux	save	TO	O
+17-11	save	17-8_xcomp	buy	VB	O
+17-12	money	17-11_dobj	save	NN	P3_money
+17-13	.	O	O	O	O
+
+#id=18
+#text=Hannah thought to herself she would like bus passes for her and mommy . 
+18-1	Hannah	18-2_nsubj	thought	NNP	P1_passenger
+18-2	thought	O	O	VBD	O
+18-3	to	O	O	O	O
+18-4	herself	18-2_prep_to	thought	PRP	P1_passenger
+18-5	she	18-7_nsubj	like	PRP	P1_passenger
+18-6	would	18-7_aux	like	MD	O
+18-7	like	18-2_ccomp	thought	VB	O
+18-8	bus	O	O	NN	O
+18-9	passes	18-7_dobj	like	NNS	P3_card/ticket
+18-10	for	O	O	O	O
+18-11	her	18-7_prep_for	like	PRP	O
+18-12	and	O	O	O	O
+18-13	mommy	O	O	NN	P3_passenger
+18-14	.	O	O	O	O
+
+#id=19
+#text=She enjoyed the bumpy ride with the jolting stops and wide turns that made her have to hold on tight . 
+19-1	She	19-2_nsubj	enjoyed	PRP	P1_passenger
+19-2	enjoyed	O	O	VBD	O
+19-3	the	O	O	DT	O
+19-4	bumpy	O	O	JJ	O
+19-5	ride	19-2_dobj	enjoyed	NN	P1_ride
+19-6	with	O	O	O	O
+19-7	the	O	O	DT	O
+19-8	jolting	O	O	VBG	O
+19-9	stops	19-2_prep_with	enjoyed	NNS	P1_NPart_stops
+19-10	and	O	O	O	O
+19-11	wide	O	O	JJ	O
+19-12	turns	O	O	NNS	P1_NPart_turns
+19-13	that	19-14_nsubj	made	WDT	O
+19-14	made	O	O	VBD	O
+19-15	her	19-16_nsubj	have	PRP	P1_passenger
+19-16	have	19-14_ccomp	made	VBP	O
+19-17	to	19-18_aux	hold	TO	O
+19-18	hold	19-16_xcomp	have	VB	O
+19-19	on	O	O	O	O
+19-20	tight	19-18_prep_on	hold	JJ	O
+19-21	.	O	O	O	O
+
+#id=20
+#text=Hannah also noticed people pulling a cord and she figured out why . 
+20-1	Hannah	20-3_nsubj	noticed	NNP	P1_passenger
+20-2	also	20-3_advmod	noticed	RB	O
+20-3	noticed	O	O	VBD	O
+20-4	people	20-3_dobj	noticed	NNS	P4_passenger
+20-5	pulling	20-3_xcomp	noticed	VBG	O
+20-6	a	O	O	DT	O
+20-7	cord	20-5_dobj	pulling	NN	P1_stop_button/door_opener
+20-8	and	O	O	O	O
+20-9	she	20-10_nsubj	figured	PRP	P1_passenger
+20-10	figured	20-3_conj_and	noticed	VBD	O
+20-11	out	20-10_prep	figured	IN	O
+20-12	why	O	O	WRB	O
+20-13	.	O	O	O	O
+
+#id=21
+#text=It made the bus driver stop where ever they would like to get off . 
+21-1	It	21-2_nsubj	made	PRP	P1_stop_button/door_opener
+21-2	made	O	O	VBD	O
+21-3	the	O	O	DT	O
+21-4	bus	O	O	NN	O
+21-5	driver	21-6_nsubj	stop	NN	P2_bus_staff
+21-6	stop	21-2_ccomp	made	VBP	O
+21-7	where	21-11_advmod	like	WRB	O
+21-8	ever	21-11_advmod	like	RB	O
+21-9	they	21-11_nsubj	like	PRP	P4_passenger
+21-10	would	21-11_aux	like	MD	O
+21-11	like	21-6_advcl	stop	VB	O
+21-12	to	21-13_aux	get	TO	O
+21-13	get	21-11_xcomp	like	VB	O
+21-14	off	21-13_prt	get	RP	O
+21-15	.	O	O	O	O
+
+#id=22
+#text=Oh how she wanted to pull the string but , mommy told her no . 
+22-1	Oh	22-12_vmod	told	VBG	O
+22-2	how	22-4_advmod	wanted	WRB	O
+22-3	she	22-4_nsubj	wanted	PRP	P1_passenger
+22-4	wanted	22-1_ccomp	Oh	VBD	O
+22-5	to	22-6_aux	pull	TO	O
+22-6	pull	22-4_xcomp	wanted	VB	O
+22-7	the	O	O	DT	O
+22-8	string	22-6_dobj	pull	NN	P1_stop_button/door_opener
+22-9	but	22-6_advmod	pull	CC	O
+22-10	,	O	O	O	O
+22-11	mommy	22-12_nsubj	told	NN	P2_passenger
+22-12	told	O	O	VBD	O
+22-13	her	22-12_dobj	told	PRP	P1_passenger
+22-14	no	O	O	DT	O
+22-15	.	O	O	O	O
+
+#id=23
+#text=It was only for when you needed it . 
+23-1	It	23-2_nsubj	was	PRP	P1_stop_button/door_opener
+23-2	was	O	O	VBD	O
+23-3	only	23-2_advmod	was	RB	O
+23-4	for	O	O	O	O
+23-5	when	23-7_advmod	needed	WRB	O
+23-6	you	23-7_nsubj	needed	PRP	P4_passenger
+23-7	needed	23-2_prepc_for	was	VBD	O
+23-8	it	23-7_dobj	needed	PRP	P1_stop_button/door_opener
+23-9	.	O	O	O	O
+
+#id=24
+#text=Soon the bus stopped at the busy bus station . 
+24-1	Soon	24-4_advmod	stopped	RB	O
+24-2	the	O	O	DT	O
+24-3	bus	24-4_nsubj	stopped	NN	P1_bus
+24-4	stopped	O	O	VBD	O
+24-5	at	O	O	O	O
+24-6	the	O	O	DT	O
+24-7	busy	O	O	JJ	O
+24-8	bus	O	O	NN	O
+24-9	station	24-4_prep_at	stopped	NN	P2_bus_stop
+24-10	.	O	O	O	O
+
+#id=25
+#text=They stepped off the bus and got on a new bus . 
+25-1	They	25-2_nsubj	stepped	PRP	P3_passenger
+25-2	stepped	O	O	VBD	O
+25-3	off	25-2_prt	stepped	RP	O
+25-4	the	O	O	DT	O
+25-5	bus	25-2_dobj	stepped	NN	P1_bus
+25-6	and	O	O	O	O
+25-7	got	25-2_conj_and	stepped	VBD	O
+25-8	on	O	O	O	O
+25-9	a	O	O	DT	O
+25-10	new	O	O	JJ	O
+25-11	bus	25-7_prep_on	got	NN	P3_bus
+25-12	.	O	O	O	O
+
+#id=26
+#text=Her mom handed the bus driver their transfers . 
+26-1	Her	O	O	PRP$	P1_passenger
+26-2	mom	26-3_nsubj	handed	NN	P2_passenger
+26-3	handed	O	O	VBD	O
+26-4	the	O	O	DT	O
+26-5	bus	O	O	NN	O
+26-6	driver	26-3_iobj	handed	NN	P1_bus_staff
+26-7	their	O	O	PRP$	P3_passenger
+26-8	transfers	26-3_dobj	handed	NNS	P1_card/ticket
+26-9	.	O	O	O	O
+
+#id=27
+#text=Hannah was excited because this meant the next place they were going was the shopping center to buy her new shoes . 
+27-1	Hannah	O	O	NNP	P1_passenger
+27-2	was	O	O	VBD	O
+27-3	excited	O	O	JJ	O
+27-4	because	27-6_mark	meant	IN	O
+27-5	this	27-6_nsubj	meant	DT	O
+27-6	meant	O	O	VBD	O
+27-7	the	O	O	DT	O
+27-8	next	O	O	JJ	O
+27-9	place	O	O	NN	P1_NPart_place
+27-10	they	27-12_nsubj	going	PRP	P3_passenger
+27-11	were	27-12_aux	going	VBD	O
+27-12	going	O	O	VBG	O
+27-13	was	O	O	VBD	O
+27-14	the	O	O	DT	O
+27-15	shopping	O	O	NN	O
+27-16	center	27-6_ccomp	meant	NN	P1_destination
+27-17	to	27-18_aux	buy	TO	O
+27-18	buy	O	O	VB	O
+27-19	her	O	O	PRP$	P1_passenger
+27-20	new	O	O	JJ	O
+27-21	shoes	27-18_dobj	buy	NNS	P1_NPart_shoes
+27-22	.	O	O	O	O
+
+#id=28
+#text=Soon the bus took off and made stop after stop . 
+28-1	Soon	28-4_advmod	took	RB	O
+28-2	the	O	O	DT	O
+28-3	bus	28-4_nsubj	took	NN	P3_bus
+28-4	took	O	O	VBD	O
+28-5	off	28-4_prt	took	RP	O
+28-6	and	O	O	O	O
+28-7	made	28-4_conj_and	took	VBD	O
+28-8	stop	28-7_dobj	made	NN	P3_bus_stop
+28-9	after	O	O	O	O
+28-10	stop	28-7_prep_after	made	NN	P3_bus_stop
+28-11	.	O	O	O	O
+
+#id=29
+#text=They even picked up a man in a wheelchair . 
+29-1	They	29-3_nsubj	picked	PRP	P3_bus
+29-2	even	29-3_advmod	picked	RB	O
+29-3	picked	O	O	VBD	O
+29-4	up	29-3_prt	picked	RP	O
+29-5	a	O	O	DT	O
+29-6	man	29-3_dobj	picked	NN	P6_passenger
+29-7	in	O	O	O	O
+29-8	a	O	O	DT	O
+29-9	wheelchair	O	O	NN	P1_NPart_wheelchair
+29-10	.	O	O	O	O
+
+#id=30
+#text=He drove his wheelchair right up a special ramp and into a spot on the bus where the driver buckled him and his wheelchair in . 
+30-1	He	30-2_nsubj	drove	PRP	P6_passenger
+30-2	drove	30-2_conj_and	drove	VBD	O
+30-3	his	O	O	PRP$	P6_passenger
+30-4	wheelchair	O	O	NN	P2_NPart_wheelchair
+30-5	right	30-2_dobj	drove	NN	O
+30-6	up	O	O	O	O
+30-7	a	O	O	DT	O
+30-8	special	O	O	JJ	O
+30-9	ramp	30-2_prep_up	drove	NN	P1_NPart_ramp
+30-10	and	O	O	O	O
+30-11	into	O	O	O	O
+30-12	a	O	O	DT	O
+30-13	spot	30-2_prep_into	drove	NN	P1_NPart_spot
+30-14	on	O	O	O	O
+30-15	the	O	O	DT	O
+30-16	bus	O	O	NN	P3_bus
+30-17	where	30-20_advmod	buckled	WRB	O
+30-18	the	O	O	DT	O
+30-19	driver	30-20_nsubj	buckled	NN	P1_bus_staff
+30-20	buckled	30-2_advcl	drove	VBD	O
+30-21	him	30-20_dobj	buckled	PRP	P6_passenger
+30-22	and	O	O	O	O
+30-23	his	O	O	PRP$	P6_passenger
+30-24	wheelchair	30-20_conj_and	buckled	NN	P3_NPart_wheelchair
+30-25	in	O	O	IN	O
+30-26	.	O	O	O	O
+
+#id=31
+#text=Soon Hannah 's mom told her she could pull the cord to make the bus stop . 
+31-1	Soon	31-5_advmod	told	RB	O
+31-2	Hannah	O	O	NNP	P1_passenger
+31-3	's	O	O	O	O
+31-4	mom	31-5_nsubj	told	NN	P2_passenger
+31-5	told	O	O	VBD	O
+31-6	her	31-5_dobj	told	PRP	P1_passenger
+31-7	she	31-9_nsubj	pull	PRP	P1_passenger
+31-8	could	31-9_aux	pull	MD	O
+31-9	pull	31-5_dep	told	VB	O
+31-10	the	O	O	DT	O
+31-11	cord	31-9_dobj	pull	NN	P2_stop_button/door_opener
+31-12	to	31-13_aux	make	TO	O
+31-13	make	O	O	VB	O
+31-14	the	O	O	DT	O
+31-15	bus	O	O	NN	P3_bus
+31-16	stop	31-13_dobj	make	NN	O
+31-17	.	O	O	O	O
+
+#id=32
+#text=The cord was up high but with a little help from her mom she reached it . 
+32-1	The	O	O	DT	O
+32-2	cord	32-3_nsubj	was	NN	P2_stop_button/door_opener
+32-3	was	O	O	VBD	O
+32-4	up	O	O	RB	O
+32-5	high	32-3_advmod	was	JJ	O
+32-6	but	O	O	O	O
+32-7	with	O	O	IN	O
+32-8	a	O	O	DT	O
+32-9	little	O	O	JJ	O
+32-10	help	O	O	NN	P1_NPart_help
+32-11	from	O	O	O	O
+32-12	her	O	O	PRP$	P1_passenger
+32-13	mom	O	O	NN	P2_passenger
+32-14	she	32-15_nsubj	reached	PRP	P1_passenger
+32-15	reached	O	O	VBD	O
+32-16	it	32-15_dobj	reached	PRP	P2_stop_button/door_opener
+32-17	.	O	O	O	O
+
+#id=33
+#text=Ding ! 
+33-1	Ding	O	O	O	O
+33-2	!	O	O	O	O
+
+#id=34
+#text=The bus came to a stop shortly after and there was the shopping center right in front of them . 
+34-1	The	O	O	DT	O
+34-2	bus	34-3_nsubj	came	NN	P3_bus
+34-3	came	O	O	VBD	O
+34-4	to	O	O	O	O
+34-5	a	O	O	DT	O
+34-6	stop	34-3_prep_to	came	NN	P4_bus_stop
+34-7	shortly	O	O	RB	O
+34-8	after	34-3_advcl	came	IN	O
+34-9	and	34-11_cc	was	CC	O
+34-10	there	34-11_expl	was	EX	O
+34-11	was	O	O	VBD	O
+34-12	the	O	O	DT	O
+34-13	shopping	O	O	NN	O
+34-14	center	O	O	NN	P1_destination
+34-15	right	34-11_nsubj	was	NN	O
+34-16	in	O	O	O	O
+34-17	front	O	O	O	O
+34-18	of	O	O	O	O
+34-19	them	O	O	PRP	P3_passenger
+34-20	.	O	O	O	O
+
+#id=35
+#text=Taking the bus was a fun form of transportation . 
+35-1	Taking	O	O	VBG	O
+35-2	the	O	O	DT	O
+35-3	bus	35-1_dobj	Taking	NN	P3_bus
+35-4	was	O	O	VBD	O
+35-5	a	O	O	DT	O
+35-6	fun	O	O	NN	O
+35-7	form	O	O	NN	P1_NPart_form
+35-8	of	O	O	O	O
+35-9	transportation	O	O	NN	P1_NPart_transportation
+35-10	.	O	O	O	O
+
+#id=36
+#text=Hannah waved to the driver as he pulled away to pick up and drop off even more people around the city . 
+36-1	Hannah	36-2_nsubj	waved	NNP	P1_passenger
+36-2	waved	O	O	VBD	O
+36-3	to	O	O	O	O
+36-4	the	O	O	DT	O
+36-5	driver	36-2_prep_to	waved	NN	P1_bus_staff
+36-6	as	36-8_mark	pulled	IN	O
+36-7	he	36-8_nsubj	pulled	PRP	P1_bus_staff
+36-8	pulled	36-2_advcl	waved	VBD	O
+36-9	away	36-8_prt	pulled	RP	O
+36-10	to	36-11_aux	pick	TO	O
+36-11	pick	36-8_xcomp	pulled	VB	O
+36-12	up	36-11_prt	pick	RP	O
+36-13	and	O	O	O	O
+36-14	drop	36-11_conj_and	pick	VB	O
+36-15	off	36-14_prt	drop	RP	O
+36-16	even	O	O	RB	O
+36-17	more	O	O	JJR	O
+36-18	people	36-14_dobj	drop	NNS	P7_passenger
+36-19	around	O	O	O	O
+36-20	the	O	O	DT	O
+36-21	city	O	O	NN	P5_NPart_city
+36-22	.	O	O	O	O

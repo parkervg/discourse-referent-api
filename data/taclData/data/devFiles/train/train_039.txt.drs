@@ -1,0 +1,353 @@
+#id=1
+#text=I taking a train today from Boston , Massachusetts to New York City , New York . 
+1-1	I	1-2_nsubj	taking	PRP	P1_passenger
+1-2	taking	O	O	VBG	O
+1-3	a	O	O	DT	O
+1-4	train	O	O	NN	P1_train
+1-5	today	1-2_tmod	taking	NN	O
+1-6	from	O	O	O	O
+1-7	Boston	O	O	NNP	P1_NPart_boston
+1-8	,	O	O	O	O
+1-9	Massachusetts	1-2_prep_from	taking	NNP	P1_NPart_massachusetts
+1-10	to	O	O	O	O
+1-11	New	O	O	NNP	O
+1-12	York	O	O	NNP	O
+1-13	City	1-2_prep_to	taking	NNP	P1_destination
+1-14	,	O	O	O	O
+1-15	New	O	O	NNP	O
+1-16	York	O	O	NNP	P1_NPart_york
+1-17	.	O	O	O	O
+
+#id=2
+#text=When I arrive at the station , I see an automated machine that lets me purchase my ticket . 
+2-1	When	2-3_advmod	arrive	WRB	O
+2-2	I	2-3_nsubj	arrive	PRP	P1_passenger
+2-3	arrive	2-9_advcl	see	VBP	O
+2-4	at	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	station	2-3_prep_at	arrive	NN	P1_train_station
+2-7	,	O	O	O	O
+2-8	I	2-9_nsubj	see	PRP	P1_passenger
+2-9	see	O	O	VBP	O
+2-10	an	O	O	DT	O
+2-11	automated	O	O	VBN	O
+2-12	machine	2-9_dobj	see	NN	P1_ticket_office/website
+2-13	that	2-14_nsubj	lets	WDT	P1_ticket_office/website
+2-14	lets	O	O	VBZ	O
+2-15	me	2-16_nsubj	purchase	PRP	P1_passenger
+2-16	purchase	2-14_ccomp	lets	VB	O
+2-17	my	O	O	PRP$	P1_passenger
+2-18	ticket	2-16_dobj	purchase	NN	P1_card/ticket
+2-19	.	O	O	O	O
+
+#id=3
+#text=I enter the necessary information about my travel and my credit card information and it dispenses a ticket to me . 
+3-1	I	3-2_nsubj	enter	PRP	P1_passenger
+3-2	enter	O	O	VBP	O
+3-3	the	O	O	DT	O
+3-4	necessary	O	O	JJ	O
+3-5	information	3-2_dobj	enter	NN	P1_NPart_information
+3-6	about	O	O	O	O
+3-7	my	O	O	PRP$	P1_passenger
+3-8	travel	3-2_prep_about	enter	NN	P1_trip
+3-9	and	O	O	O	O
+3-10	my	O	O	PRP$	P1_passenger
+3-11	credit	O	O	NN	O
+3-12	card	O	O	NN	O
+3-13	information	O	O	NN	P1_payment_means
+3-14	and	O	O	O	O
+3-15	it	3-16_nsubj	dispenses	PRP	P1_ticket_office/website
+3-16	dispenses	3-2_conj_and	enter	VBZ	O
+3-17	a	O	O	DT	O
+3-18	ticket	3-16_dobj	dispenses	NN	P1_card/ticket
+3-19	to	O	O	O	O
+3-20	me	3-16_prep_to	dispenses	PRP	P1_passenger
+3-21	.	O	O	O	O
+
+#id=4
+#text=I see that my train is leaving from track 12 . 
+4-1	I	4-2_nsubj	see	PRP	P1_passenger
+4-2	see	O	O	VBP	O
+4-3	that	4-7_mark	leaving	IN	O
+4-4	my	O	O	PRP$	P1_passenger
+4-5	train	4-7_nsubj	leaving	NN	P1_train
+4-6	is	4-7_aux	leaving	VBZ	O
+4-7	leaving	4-2_ccomp	see	VBG	O
+4-8	from	O	O	O	O
+4-9	track	4-7_prep_from	leaving	NN	P1_platform
+4-10	12	O	O	CD	O
+4-11	.	O	O	O	O
+
+#id=5
+#text=I follow the signs above me that show the directions to all of the track locations . 
+5-1	I	5-2_nsubj	follow	PRP	P1_passenger
+5-2	follow	O	O	VBP	O
+5-3	the	O	O	DT	O
+5-4	signs	5-2_dobj	follow	NNS	P1_NPart_signs
+5-5	above	O	O	O	O
+5-6	me	O	O	PRP	P1_passenger
+5-7	that	5-8_nsubj	show	WDT	P1_NPart_that
+5-8	show	O	O	VBP	O
+5-9	the	O	O	DT	O
+5-10	directions	5-8_dobj	show	NNS	P1_NPart_directions
+5-11	to	O	O	O	O
+5-12	all	5-8_prep_to	show	DT	O
+5-13	of	O	O	O	O
+5-14	the	O	O	DT	O
+5-15	track	O	O	NN	O
+5-16	locations	O	O	NNS	P1_platform
+5-17	.	O	O	O	O
+
+#id=6
+#text=The train pulls up about 10 minutes later . 
+6-1	The	O	O	DT	O
+6-2	train	6-3_nsubj	pulls	NN	P1_train
+6-3	pulls	O	O	VBZ	O
+6-4	up	6-3_prt	pulls	RP	O
+6-5	about	O	O	RB	O
+6-6	10	O	O	CD	O
+6-7	minutes	O	O	NNS	P1_time_date
+6-8	later	6-3_advmod	pulls	RB	O
+6-9	.	O	O	O	O
+
+#id=7
+#text=I board the train . 
+7-1	I	7-2_nsubj	board	PRP	P1_passenger
+7-2	board	O	O	VB	O
+7-3	the	O	O	DT	O
+7-4	train	7-2_dobj	board	NN	P1_train
+7-5	.	O	O	O	O
+
+#id=8
+#text=There are n't too many empty seats but I find a nice one next to the window . 
+8-1	There	8-2_expl	are	EX	O
+8-2	are	O	O	VBP	O
+8-3	n't	8-2_neg	are	RB	O
+8-4	too	O	O	RB	O
+8-5	many	O	O	JJ	O
+8-6	empty	O	O	JJ	O
+8-7	seats	8-2_nsubj	are	NNS	P1_seat
+8-8	but	O	O	O	O
+8-9	I	8-10_nsubj	find	PRP	P1_passenger
+8-10	find	8-2_conj_but	are	VBP	O
+8-11	a	O	O	DT	O
+8-12	nice	O	O	JJ	O
+8-13	one	8-10_dobj	find	NN	P1_seat
+8-14	next	O	O	O	O
+8-15	to	O	O	O	O
+8-16	the	O	O	DT	O
+8-17	window	8-10_prep_next_to	find	NN	P1_in-train_entertainment
+8-18	.	O	O	O	O
+
+#id=9
+#text=The train slowly pulls out of the station . 
+9-1	The	O	O	DT	O
+9-2	train	9-4_nsubj	pulls	NN	P1_train
+9-3	slowly	9-4_advmod	pulls	RB	O
+9-4	pulls	O	O	VBZ	O
+9-5	out	O	O	O	O
+9-6	of	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	station	9-4_prep_out_of	pulls	NN	P1_train_station
+9-9	.	O	O	O	O
+
+#id=10
+#text=About 20 minutes into the journey , a conductor comes by and asks to see my ticket . 
+10-1	About	O	O	O	O
+10-2	20	O	O	CD	O
+10-3	minutes	10-10_prep_about	comes	NNS	P1_NPart_minutes
+10-4	into	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	journey	O	O	NN	P1_NPart_journey
+10-7	,	O	O	O	O
+10-8	a	O	O	DT	O
+10-9	conductor	10-10_nsubj	comes	NN	P1_train_staff
+10-10	comes	O	O	VBZ	O
+10-11	by	10-10_prep	comes	IN	O
+10-12	and	O	O	O	O
+10-13	asks	10-10_conj_and	comes	VBZ	O
+10-14	to	10-15_aux	see	TO	O
+10-15	see	10-13_xcomp	asks	VB	O
+10-16	my	O	O	PRP$	P1_passenger
+10-17	ticket	10-15_dobj	see	NN	P1_card/ticket
+10-18	.	O	O	O	O
+
+#id=11
+#text=I show it to him and he punches a hole in it . 
+11-1	I	11-2_nsubj	show	PRP	P1_passenger
+11-2	show	O	O	VBP	O
+11-3	it	11-2_dobj	show	PRP	P1_card/ticket
+11-4	to	O	O	O	O
+11-5	him	11-2_prep_to	show	PRP	P1_train_staff
+11-6	and	O	O	O	O
+11-7	he	11-8_nsubj	punches	PRP	P1_train_staff
+11-8	punches	11-2_conj_and	show	VBZ	O
+11-9	a	O	O	DT	O
+11-10	hole	11-8_dobj	punches	NN	P1_NPart_hole
+11-11	in	O	O	O	O
+11-12	it	O	O	PRP	P1_card/ticket
+11-13	.	O	O	O	O
+
+#id=12
+#text=He then rips off part of it and places the ripped part into a special see through pocket in my seat . 
+12-1	He	12-3_nsubj	rips	PRP	P1_train_staff
+12-2	then	12-3_advmod	rips	RB	O
+12-3	rips	O	O	VBZ	O
+12-4	off	12-3_prt	rips	RP	O
+12-5	part	12-3_dobj	rips	NN	P1_NPart_part
+12-6	of	O	O	O	O
+12-7	it	O	O	PRP	P1_card/ticket
+12-8	and	O	O	O	O
+12-9	places	12-3_conj_and	rips	VBZ	O
+12-10	the	O	O	DT	O
+12-11	ripped	O	O	JJ	O
+12-12	part	12-9_dobj	places	NN	P2_NPart_part
+12-13	into	O	O	O	O
+12-14	a	O	O	DT	O
+12-15	special	12-9_prep_into	places	JJ	O
+12-16	see	12-3_dep	rips	VB	O
+12-17	through	O	O	O	O
+12-18	pocket	12-16_prep_through	see	NN	P1_NPart_pocket
+12-19	in	O	O	O	O
+12-20	my	O	O	PRP$	P1_passenger
+12-21	seat	O	O	NN	P2_seat
+12-22	.	O	O	O	O
+
+#id=13
+#text=This is so he knows that I have paid my fare to ride the train . 
+13-1	This	13-2_nsubj	is	DT	O
+13-2	is	O	O	VBZ	O
+13-3	so	13-5_mark	knows	IN	O
+13-4	he	13-5_nsubj	knows	PRP	P1_train_staff
+13-5	knows	13-2_advcl	is	VBZ	O
+13-6	that	13-9_mark	paid	IN	O
+13-7	I	13-9_nsubj	paid	PRP	P1_passenger
+13-8	have	13-9_aux	paid	VBP	O
+13-9	paid	13-5_ccomp	knows	VBN	O
+13-10	my	O	O	PRP$	P1_passenger
+13-11	fare	13-9_dobj	paid	NN	P2_card/ticket
+13-12	to	13-13_aux	ride	TO	O
+13-13	ride	O	O	VB	O
+13-14	the	O	O	DT	O
+13-15	train	13-13_dobj	ride	NN	P1_train
+13-16	.	O	O	O	O
+
+#id=14
+#text=It 's about a three hour train ride so I get up and wander a few cars down to the food train . 
+14-1	It	14-2_nsubj	's	PRP	O
+14-2	's	O	O	VBZ	O
+14-3	about	O	O	O	O
+14-4	a	O	O	DT	O
+14-5	three	O	O	CD	O
+14-6	hour	O	O	NN	O
+14-7	train	O	O	NN	O
+14-8	ride	14-2_prep_about	's	NN	P1_trip
+14-9	so	14-11_mark	get	IN	O
+14-10	I	14-11_nsubj	get	PRP	P1_passenger
+14-11	get	14-2_advcl	's	VB	O
+14-12	up	14-11_prt	get	RP	O
+14-13	and	O	O	O	O
+14-14	wander	14-11_conj_and	get	VB	O
+14-15	a	O	O	DT	O
+14-16	few	O	O	JJ	O
+14-17	cars	14-14_dobj	wander	NNS	P1_coach
+14-18	down	14-14_prt	wander	RP	O
+14-19	to	O	O	O	O
+14-20	the	O	O	DT	O
+14-21	food	O	O	NN	O
+14-22	train	14-14_prep_to	wander	NN	P2_coach
+14-23	.	O	O	O	O
+
+#id=15
+#text=I purchase a coffee and donut and bring them back to my designated seat . 
+15-1	I	15-2_nsubj	purchase	PRP	P1_passenger
+15-2	purchase	O	O	VB	O
+15-3	a	O	O	DT	O
+15-4	coffee	15-2_dobj	purchase	NN	P2_in-train_entertainment
+15-5	and	O	O	O	O
+15-6	donut	O	O	NN	P3_in-train_entertainment
+15-7	and	O	O	O	O
+15-8	bring	15-2_conj_and	purchase	VB	O
+15-9	them	15-8_dobj	bring	PRP	P4_in-train_entertainment
+15-10	back	15-8_advmod	bring	RB	O
+15-11	to	O	O	O	O
+15-12	my	O	O	PRP$	P1_passenger
+15-13	designated	O	O	VBN	O
+15-14	seat	O	O	NN	P2_seat
+15-15	.	O	O	O	O
+
+#id=16
+#text=I 'm happy to say that there is free wi-fi on the train so I 'm able to surf the web while riding the train . 
+16-1	I	O	O	PRP	P1_passenger
+16-2	'm	O	O	VBP	O
+16-3	happy	O	O	JJ	O
+16-4	to	16-5_aux	say	TO	O
+16-5	say	O	O	VB	O
+16-6	that	16-8_mark	is	IN	O
+16-7	there	16-8_expl	is	EX	O
+16-8	is	16-5_ccomp	say	VBZ	O
+16-9	free	O	O	JJ	O
+16-10	wi-fi	16-8_nsubj	is	NN	P1_NPart_wi-fi
+16-11	on	O	O	O	O
+16-12	the	O	O	DT	O
+16-13	train	O	O	NN	P1_train
+16-14	so	O	O	IN	O
+16-15	I	O	O	PRP	P1_passenger
+16-16	'm	O	O	VBP	O
+16-17	able	O	O	JJ	O
+16-18	to	16-19_aux	surf	TO	O
+16-19	surf	O	O	VB	O
+16-20	the	O	O	DT	O
+16-21	web	16-19_dobj	surf	NN	P5_in-train_entertainment
+16-22	while	O	O	O	O
+16-23	riding	16-19_prepc_while	surf	VBG	O
+16-24	the	O	O	DT	O
+16-25	train	16-23_dobj	riding	NN	P1_train
+16-26	.	O	O	O	O
+
+#id=17
+#text=We make a few stops along the way to New York to pick up more passengers and let others off . 
+17-1	We	17-2_nsubj	make	PRP	P2_passenger
+17-2	make	O	O	VBP	O
+17-3	a	O	O	DT	O
+17-4	few	O	O	JJ	O
+17-5	stops	17-2_dobj	make	NNS	P1_other
+17-6	along	O	O	O	O
+17-7	the	O	O	DT	O
+17-8	way	O	O	NN	P1_NPart_way
+17-9	to	O	O	O	O
+17-10	New	O	O	NNP	O
+17-11	York	O	O	NNP	P1_destination
+17-12	to	17-13_aux	pick	TO	O
+17-13	pick	17-2_xcomp	make	VB	O
+17-14	up	17-13_prt	pick	RP	O
+17-15	more	O	O	JJR	O
+17-16	passengers	17-13_dobj	pick	NNS	P3_passenger
+17-17	and	O	O	O	O
+17-18	let	17-13_conj_and	pick	VB	O
+17-19	others	17-18_dobj	let	NNS	P4_passenger
+17-20	off	17-18_prt	let	RP	O
+17-21	.	O	O	O	O
+
+#id=18
+#text=The three hours pass quickly and soon I 'm disembarking the train to enjoy a day in the city . 
+18-1	The	O	O	DT	O
+18-2	three	O	O	CD	O
+18-3	hours	18-4_nsubj	pass	NNS	P2_time_date
+18-4	pass	O	O	VBP	O
+18-5	quickly	18-4_advmod	pass	RB	O
+18-6	and	O	O	O	O
+18-7	soon	18-10_advmod	disembarking	RB	O
+18-8	I	18-10_nsubj	disembarking	PRP	P1_passenger
+18-9	'm	18-10_aux	disembarking	VBP	O
+18-10	disembarking	18-4_conj_and	pass	VBG	O
+18-11	the	O	O	DT	O
+18-12	train	18-10_dobj	disembarking	NN	P1_train
+18-13	to	18-14_aux	enjoy	TO	O
+18-14	enjoy	O	O	VB	O
+18-15	a	O	O	DT	O
+18-16	day	18-14_dobj	enjoy	NN	P1_NPart_day
+18-17	in	O	O	O	O
+18-18	the	O	O	DT	O
+18-19	city	O	O	NN	P1_destination
+18-20	.	O	O	O	O

@@ -1,0 +1,200 @@
+#id=1
+#text=Earth day happens every year on April 22 . 
+1-1	Earth	O	O	NNP	O
+1-2	day	1-3_nsubj	happens	NN	P1_NPart_day
+1-3	happens	O	O	VBZ	O
+1-4	every	O	O	DT	O
+1-5	year	1-3_dobj	happens	NN	P1_NPart_year
+1-6	on	O	O	O	O
+1-7	April	O	O	NNP	P1_NPart_april
+1-8	22	O	O	CD	O
+1-9	.	O	O	O	O
+
+#id=2
+#text=I decided to do something about it later year and went out to plant a tree this year . 
+2-1	I	2-2_nsubj	decided	PRP	P1_gardener
+2-2	decided	O	O	VBD	O
+2-3	to	2-4_aux	do	TO	O
+2-4	do	2-2_xcomp	decided	VB	O
+2-5	something	2-4_dobj	do	NN	P1_NPart_something
+2-6	about	O	O	O	O
+2-7	it	2-4_prep_about	do	PRP	P1_NPart_it
+2-8	later	O	O	JJ	O
+2-9	year	2-4_tmod	do	NN	P2_NPart_year
+2-10	and	O	O	O	O
+2-11	went	2-2_conj_and	decided	VBD	O
+2-12	out	2-11_prt	went	RP	O
+2-13	to	2-14_aux	plant	TO	O
+2-14	plant	2-11_xcomp	went	VB	O
+2-15	a	O	O	DT	O
+2-16	tree	2-14_dobj	plant	NN	P1_tree
+2-17	this	O	O	DT	O
+2-18	year	2-14_tmod	plant	NN	P3_NPart_year
+2-19	.	O	O	O	O
+
+#id=3
+#text=I wondered over to a local tree farm , and bought a sapling with a friend . 
+3-1	I	3-2_nsubj	wondered	PRP	P1_gardener
+3-2	wondered	O	O	VBD	O
+3-3	over	3-2_prt	wondered	RP	O
+3-4	to	O	O	O	O
+3-5	a	O	O	DT	O
+3-6	local	O	O	JJ	O
+3-7	tree	O	O	NN	O
+3-8	farm	3-2_prep_to	wondered	NN	P1_shop
+3-9	,	O	O	O	O
+3-10	and	O	O	O	O
+3-11	bought	3-2_conj_and	wondered	VBD	O
+3-12	a	O	O	DT	O
+3-13	sapling	3-11_dobj	bought	NN	P1_tree
+3-14	with	O	O	O	O
+3-15	a	O	O	DT	O
+3-16	friend	3-11_prep_with	bought	NN	P2_gardener
+3-17	.	O	O	O	O
+
+#id=4
+#text=We both borrowed a friend 's pick up truck and drove to a place in the woods that we usually hang out at . 
+4-1	We	4-3_nsubj	borrowed	PRP	P3_gardener
+4-2	both	4-3_dep	borrowed	DT	O
+4-3	borrowed	O	O	VBD	O
+4-4	a	O	O	DT	O
+4-5	friend	O	O	NN	P1_NPart_friend
+4-6	's	O	O	O	O
+4-7	pick	4-3_dobj	borrowed	NN	O
+4-8	up	O	O	O	O
+4-9	truck	4-3_prep_up	borrowed	NN	P1_NPart_truck
+4-10	and	O	O	O	O
+4-11	drove	4-3_conj_and	borrowed	VBD	O
+4-12	to	O	O	O	O
+4-13	a	O	O	DT	O
+4-14	place	4-11_prep_to	drove	NN	P1_location_garden
+4-15	in	O	O	O	O
+4-16	the	O	O	DT	O
+4-17	woods	O	O	NNS	P1_NPart_woods
+4-18	that	4-21_mark	hang	IN	P1_location_garden
+4-19	we	4-21_nsubj	hang	PRP	P3_gardener
+4-20	usually	4-21_advmod	hang	RB	O
+4-21	hang	4-11_ccomp	drove	VBP	O
+4-22	out	4-21_prt	hang	RP	O
+4-23	at	4-21_prep	hang	IN	O
+4-24	.	O	O	O	O
+
+#id=5
+#text=While we arrived there , it was beautiful weather for the beginning of Spring . 
+5-1	While	5-3_mark	arrived	IN	O
+5-2	we	5-3_nsubj	arrived	PRP	P3_gardener
+5-3	arrived	O	O	VBD	O
+5-4	there	5-3_advmod	arrived	RB	O
+5-5	,	O	O	O	O
+5-6	it	O	O	PRP	O
+5-7	was	O	O	VBD	O
+5-8	beautiful	O	O	JJ	O
+5-9	weather	O	O	NN	P1_NPart_weather
+5-10	for	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	beginning	O	O	NN	P1_NPart_beginning
+5-13	of	O	O	O	O
+5-14	Spring	O	O	NNP	P1_NPart_spring
+5-15	.	O	O	O	O
+
+#id=6
+#text=We went off to the area where we always set up our tents when we go camping . 
+6-1	We	6-2_nsubj	went	PRP	P3_gardener
+6-2	went	O	O	VBD	O
+6-3	off	6-2_prt	went	RP	O
+6-4	to	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	area	6-2_prep_to	went	NN	P1_location_garden
+6-7	where	6-10_advmod	set	WRB	O
+6-8	we	6-10_nsubj	set	PRP	P3_gardener
+6-9	always	6-10_advmod	set	RB	O
+6-10	set	6-2_advcl	went	VBD	O
+6-11	up	6-10_prt	set	RP	O
+6-12	our	O	O	PRP$	P3_gardener
+6-13	tents	6-10_dobj	set	NNS	P1_NPart_tents
+6-14	when	6-16_advmod	go	WRB	O
+6-15	we	6-16_nsubj	go	PRP	P3_gardener
+6-16	go	6-10_advcl	set	VBP	O
+6-17	camping	6-16_xcomp	go	VBG	O
+6-18	.	O	O	O	O
+
+#id=7
+#text=We ended up digging near the campsite and removed the bag around the sapling . 
+7-1	We	7-2_nsubj	ended	PRP	P3_gardener
+7-2	ended	O	O	VBD	O
+7-3	up	7-2_prt	ended	RP	O
+7-4	digging	7-2_dobj	ended	NN	O
+7-5	near	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	campsite	O	O	NN	P1_location_garden
+7-8	and	O	O	O	O
+7-9	removed	7-2_conj_and	ended	VBD	O
+7-10	the	O	O	DT	O
+7-11	bag	7-9_dobj	removed	NN	P1_wrapping
+7-12	around	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	sapling	7-9_prep_around	removed	NN	P1_tree
+7-15	.	O	O	O	O
+
+#id=8
+#text=Carefully , we both picked up the tree and placed it in the hole we dug and it fit in perfectly ! 
+8-1	Carefully	8-5_advmod	picked	RB	O
+8-2	,	O	O	O	O
+8-3	we	8-5_nsubj	picked	PRP	P3_gardener
+8-4	both	8-5_dep	picked	DT	O
+8-5	picked	O	O	VBD	O
+8-6	up	8-5_prt	picked	RP	O
+8-7	the	O	O	DT	O
+8-8	tree	8-5_dobj	picked	NN	P1_tree
+8-9	and	O	O	O	O
+8-10	placed	8-5_conj_and	picked	VBD	O
+8-11	it	8-10_dobj	placed	PRP	P1_tree
+8-12	in	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	hole	8-10_prep_in	placed	NN	P1_hole
+8-15	we	8-16_nsubj	dug	PRP	P3_gardener
+8-16	dug	O	O	VBD	O
+8-17	and	O	O	O	O
+8-18	it	8-19_nsubj	fit	PRP	P1_tree
+8-19	fit	8-16_conj_and	dug	VBP	O
+8-20	in	8-19_prep	fit	IN	O
+8-21	perfectly	O	O	RB	O
+8-22	!	O	O	O	O
+
+#id=9
+#text=After that I carefully held the tree in place while my friend filled the hole back with dirt . 
+9-1	After	O	O	O	O
+9-2	that	9-5_prep_after	held	DT	O
+9-3	I	9-5_nsubj	held	PRP	P1_gardener
+9-4	carefully	9-5_advmod	held	RB	O
+9-5	held	O	O	VBD	O
+9-6	the	O	O	DT	O
+9-7	tree	9-5_dobj	held	NN	P1_tree
+9-8	in	O	O	O	O
+9-9	place	9-5_prep_in	held	NN	O
+9-10	while	9-13_mark	filled	IN	O
+9-11	my	O	O	PRP$	P1_gardener
+9-12	friend	9-13_nsubj	filled	NN	P2_gardener
+9-13	filled	9-5_advcl	held	VBD	O
+9-14	the	O	O	DT	O
+9-15	hole	9-13_dobj	filled	NN	P1_hole
+9-16	back	9-13_advmod	filled	RB	O
+9-17	with	O	O	O	O
+9-18	dirt	9-13_prep_with	filled	NN	P1_dirt
+9-19	.	O	O	O	O
+
+#id=10
+#text=A year later , the tree is still growing in perfect health . 
+10-1	A	O	O	DT	O
+10-2	year	10-9_tmod	growing	NN	P1_time
+10-3	later	O	O	RB	O
+10-4	,	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	tree	10-9_nsubj	growing	NN	P1_tree
+10-7	is	10-9_aux	growing	VBZ	O
+10-8	still	10-9_advmod	growing	RB	O
+10-9	growing	O	O	VBG	O
+10-10	in	O	O	O	O
+10-11	perfect	O	O	JJ	O
+10-12	health	10-9_prep_in	growing	NN	P1_NPart_health
+10-13	.	O	O	O	O

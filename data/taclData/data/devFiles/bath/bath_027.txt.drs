@@ -1,0 +1,195 @@
+#id=1
+#text=After going to the gym , I knew I needed to take a bath . 
+1-1	After	O	O	O	O
+1-2	going	1-8_prepc_after	knew	VBG	O
+1-3	to	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	gym	1-2_prep_to	going	NN	P1_NPart_gym
+1-6	,	O	O	O	O
+1-7	I	1-8_nsubj	knew	PRP	P1_bather
+1-8	knew	O	O	VBD	O
+1-9	I	1-10_nsubj	needed	PRP	P1_bather
+1-10	needed	1-8_ccomp	knew	VBD	O
+1-11	to	1-12_aux	take	TO	O
+1-12	take	1-10_xcomp	needed	VB	O
+1-13	a	O	O	DT	O
+1-14	bath	1-12_dobj	take	NN	P1_bath
+1-15	.	O	O	O	O
+
+#id=2
+#text=I went to the bathroom and turned the faucet on in the tub while plugging the drain to fill it . 
+2-1	I	2-2_nsubj	went	PRP	P1_bather
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	bathroom	2-2_prep_to	went	NN	P1_bathroom
+2-6	and	O	O	O	O
+2-7	turned	2-2_conj_and	went	VBD	O
+2-8	the	O	O	DT	O
+2-9	faucet	2-7_dobj	turned	NN	P1_tap
+2-10	on	2-7_dep	turned	IN	O
+2-11	in	O	O	O	O
+2-12	the	O	O	DT	O
+2-13	tub	O	O	NN	P1_bathtub
+2-14	while	2-7_prep_in	turned	NN	O
+2-15	plugging	O	O	VBG	O
+2-16	the	O	O	DT	O
+2-17	drain	2-15_dobj	plugging	NN	P1_drain
+2-18	to	2-19_aux	fill	TO	O
+2-19	fill	O	O	VB	O
+2-20	it	2-19_dobj	fill	PRP	P1_bathtub
+2-21	.	O	O	O	O
+
+#id=3
+#text=When the water was at a good level I shut the water off . 
+3-1	When	3-4_advmod	was	WRB	O
+3-2	the	O	O	DT	O
+3-3	water	3-4_nsubj	was	NN	P1_water
+3-4	was	3-10_advcl	shut	VBD	O
+3-5	at	O	O	O	O
+3-6	a	O	O	DT	O
+3-7	good	O	O	JJ	O
+3-8	level	3-4_prep_at	was	NN	O
+3-9	I	3-10_nsubj	shut	PRP	P1_bather
+3-10	shut	O	O	VBD	O
+3-11	the	O	O	DT	O
+3-12	water	3-10_dobj	shut	NN	P1_water
+3-13	off	3-10_prt	shut	RP	O
+3-14	.	O	O	O	O
+
+#id=4
+#text=I took off all my dirty gym clothes . 
+4-1	I	4-2_nsubj	took	PRP	P1_bather
+4-2	took	O	O	VBD	O
+4-3	off	4-2_prt	took	RP	O
+4-4	all	O	O	PDT	O
+4-5	my	O	O	PRP$	P1_bather
+4-6	dirty	O	O	JJ	O
+4-7	gym	O	O	NN	O
+4-8	clothes	4-2_dobj	took	NNS	P1_clothes
+4-9	.	O	O	O	O
+
+#id=5
+#text=I then made sure the temperature of the water was nice and warm before I slowly got inside . 
+5-1	I	5-3_nsubj	made	PRP	P1_bather
+5-2	then	5-3_advmod	made	RB	O
+5-3	made	O	O	VBD	O
+5-4	sure	5-3_acomp	made	JJ	O
+5-5	the	O	O	DT	O
+5-6	temperature	O	O	NN	P1_temperature
+5-7	of	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	water	O	O	NN	P1_water
+5-10	was	O	O	VBD	O
+5-11	nice	O	O	JJ	O
+5-12	and	O	O	O	O
+5-13	warm	O	O	JJ	O
+5-14	before	5-17_mark	got	IN	O
+5-15	I	5-17_nsubj	got	PRP	P1_bather
+5-16	slowly	5-17_advmod	got	RB	O
+5-17	got	O	O	VBD	O
+5-18	inside	5-17_advmod	got	RB	O
+5-19	.	O	O	O	O
+
+#id=6
+#text=I soaked in the water for a little while before I grabbed a bar of soap and scrubbed and cleaned my body with it . 
+6-1	I	6-2_nsubj	soaked	PRP	P1_bather
+6-2	soaked	O	O	VBD	O
+6-3	in	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	water	6-2_prep_in	soaked	NN	P1_water
+6-6	for	O	O	O	O
+6-7	a	O	O	DT	O
+6-8	little	O	O	JJ	O
+6-9	while	O	O	NN	O
+6-10	before	6-12_mark	grabbed	IN	O
+6-11	I	6-12_nsubj	grabbed	PRP	P1_bather
+6-12	grabbed	6-2_advcl	soaked	VBD	O
+6-13	a	O	O	DT	O
+6-14	bar	6-12_dobj	grabbed	NN	O
+6-15	of	O	O	O	O
+6-16	soap	O	O	NN	P1_washing_tools
+6-17	and	O	O	O	O
+6-18	scrubbed	6-12_conj_and	grabbed	VBD	O
+6-19	and	O	O	O	O
+6-20	cleaned	6-18_conj_and	scrubbed	VBD	O
+6-21	my	O	O	PRP$	P1_bather
+6-22	body	6-18_dobj	scrubbed	NN	P1_body_part
+6-23	with	O	O	O	O
+6-24	it	6-18_prep_with	scrubbed	PRP	P1_washing_tools
+6-25	.	O	O	O	O
+
+#id=7
+#text=I also used some shampoo to clean my hair . 
+7-1	I	7-3_nsubj	used	PRP	P1_bather
+7-2	also	7-3_advmod	used	RB	O
+7-3	used	O	O	VBD	O
+7-4	some	O	O	DT	O
+7-5	shampoo	7-3_dobj	used	NN	P2_washing_tools
+7-6	to	7-7_aux	clean	TO	O
+7-7	clean	O	O	VB	O
+7-8	my	O	O	PRP$	P1_bather
+7-9	hair	7-7_dobj	clean	NN	P1_hair
+7-10	.	O	O	O	O
+
+#id=8
+#text=After dipping into the water to rinse all the shampoo and soap off my body , I unplugged the drain and emptied the water from the tub . 
+8-1	After	O	O	O	O
+8-2	dipping	8-18_prepc_after	unplugged	VBG	O
+8-3	into	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	water	8-2_prep_into	dipping	NN	P1_water
+8-6	to	8-7_aux	rinse	TO	O
+8-7	rinse	8-2_xcomp	dipping	VB	O
+8-8	all	O	O	PDT	O
+8-9	the	O	O	DT	O
+8-10	shampoo	8-7_dobj	rinse	NN	P2_washing_tools
+8-11	and	O	O	O	O
+8-12	soap	8-2_conj_and	dipping	VBG	P1_washing_tools
+8-13	off	8-12_prt	soap	RP	O
+8-14	my	O	O	PRP$	P1_bather
+8-15	body	8-12_dobj	soap	NN	P1_body_part
+8-16	,	O	O	O	O
+8-17	I	8-18_nsubj	unplugged	PRP	P1_bather
+8-18	unplugged	O	O	VBD	O
+8-19	the	O	O	DT	O
+8-20	drain	8-18_dobj	unplugged	NN	P1_drain
+8-21	and	O	O	O	O
+8-22	emptied	8-18_conj_and	unplugged	VBN	O
+8-23	the	O	O	DT	O
+8-24	water	8-22_dobj	emptied	NN	P1_water
+8-25	from	O	O	O	O
+8-26	the	O	O	DT	O
+8-27	tub	8-22_prep_from	emptied	NN	P1_bathtub
+8-28	.	O	O	O	O
+
+#id=9
+#text=I got out and dried myself with a towel . 
+9-1	I	9-2_nsubj	got	PRP	P1_bather
+9-2	got	O	O	VBD	O
+9-3	out	9-2_prt	got	RP	O
+9-4	and	O	O	O	O
+9-5	dried	9-2_conj_and	got	VBD	O
+9-6	myself	9-5_dobj	dried	PRP	P1_bather
+9-7	with	O	O	O	O
+9-8	a	O	O	DT	O
+9-9	towel	9-5_prep_with	dried	NN	P1_towel
+9-10	.	O	O	O	O
+
+#id=10
+#text=It sure made me feel a lot better to be clean after a workout . 
+10-1	It	10-3_nsubj	made	PRP	O
+10-2	sure	10-3_advmod	made	RB	O
+10-3	made	O	O	VBD	O
+10-4	me	10-5_nsubj	feel	PRP	P1_bather
+10-5	feel	10-3_ccomp	made	VBP	O
+10-6	a	O	O	DT	O
+10-7	lot	O	O	RB	O
+10-8	better	10-5_acomp	feel	JJR	O
+10-9	to	O	O	TO	O
+10-10	be	O	O	VB	O
+10-11	clean	O	O	JJ	O
+10-12	after	O	O	O	O
+10-13	a	O	O	DT	O
+10-14	workout	O	O	NN	P1_NPart_workout
+10-15	.	O	O	O	O

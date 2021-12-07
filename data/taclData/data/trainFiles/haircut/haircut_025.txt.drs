@@ -1,0 +1,299 @@
+#id=1
+#text=I woke up and looked at myself in the mirror . 
+1-1	I	1-2_nsubj	woke	PRP	P1_customer
+1-2	woke	O	O	VBD	O
+1-3	up	1-2_prt	woke	RP	O
+1-4	and	O	O	O	O
+1-5	looked	1-2_conj_and	woke	VBD	O
+1-6	at	O	O	O	O
+1-7	myself	1-5_prep_at	looked	PRP	P1_customer
+1-8	in	O	O	O	O
+1-9	the	O	O	DT	O
+1-10	mirror	1-5_prep_in	looked	NN	P1_mirror
+1-11	.	O	O	O	O
+
+#id=2
+#text=I realized that my hair was really long and unkempt and that it was time for a hair cut . 
+2-1	I	2-2_nsubj	realized	PRP	P1_customer
+2-2	realized	O	O	VBD	O
+2-3	that	O	O	IN	O
+2-4	my	O	O	PRP$	P1_customer
+2-5	hair	O	O	NN	P1_hair
+2-6	was	O	O	VBD	O
+2-7	really	O	O	RB	O
+2-8	long	2-2_ccomp	realized	JJ	O
+2-9	and	O	O	O	O
+2-10	unkempt	O	O	JJ	O
+2-11	and	O	O	O	O
+2-12	that	O	O	IN	O
+2-13	it	O	O	PRP	O
+2-14	was	O	O	VBD	O
+2-15	time	O	O	NN	O
+2-16	for	O	O	O	O
+2-17	a	O	O	DT	O
+2-18	hair	O	O	NN	O
+2-19	cut	O	O	NN	P1_haircut
+2-20	.	O	O	O	O
+
+#id=3
+#text=Sometimes , when I do n't get a haircut , I look like a really scary homeless man . 
+3-1	Sometimes	3-12_advmod	look	RB	O
+3-2	,	O	O	O	O
+3-3	when	3-7_advmod	get	WRB	O
+3-4	I	3-7_nsubj	get	PRP	P1_customer
+3-5	do	3-7_aux	get	VBP	O
+3-6	n't	3-7_neg	get	RB	O
+3-7	get	3-12_advcl	look	VB	O
+3-8	a	O	O	DT	O
+3-9	haircut	3-7_dobj	get	NN	P1_haircut
+3-10	,	O	O	O	O
+3-11	I	3-12_nsubj	look	PRP	P1_customer
+3-12	look	O	O	VBP	O
+3-13	like	O	O	O	O
+3-14	a	O	O	DT	O
+3-15	really	O	O	RB	O
+3-16	scary	O	O	JJ	O
+3-17	homeless	O	O	NN	O
+3-18	man	3-12_prep_like	look	NN	P1_NPart_man
+3-19	.	O	O	O	O
+
+#id=4
+#text=This is often because I do n't shave my big beard either . 
+4-1	This	4-2_nsubj	is	DT	O
+4-2	is	O	O	VBZ	O
+4-3	often	4-2_advmod	is	RB	O
+4-4	because	4-8_mark	shave	IN	O
+4-5	I	4-8_nsubj	shave	PRP	P1_customer
+4-6	do	4-8_aux	shave	VBP	O
+4-7	n't	4-8_neg	shave	RB	O
+4-8	shave	4-2_advcl	is	VB	O
+4-9	my	O	O	PRP$	P1_customer
+4-10	big	O	O	JJ	O
+4-11	beard	4-8_dobj	shave	NN	P2_hair
+4-12	either	4-8_advmod	shave	RB	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=Whenever I get a haircut , it is when I also get a shave . 
+5-1	Whenever	5-3_advmod	get	WRB	O
+5-2	I	5-3_nsubj	get	PRP	P1_customer
+5-3	get	5-8_advcl	is	VBP	O
+5-4	a	O	O	DT	O
+5-5	haircut	5-3_dobj	get	NN	P1_haircut
+5-6	,	O	O	O	O
+5-7	it	5-8_nsubj	is	PRP	O
+5-8	is	O	O	VBZ	O
+5-9	when	5-12_advmod	get	WRB	O
+5-10	I	5-12_nsubj	get	PRP	P1_customer
+5-11	also	5-12_advmod	get	RB	O
+5-12	get	5-8_advcl	is	VB	O
+5-13	a	O	O	DT	O
+5-14	shave	5-12_dobj	get	NN	O
+5-15	.	O	O	O	O
+
+#id=6
+#text=So this means that I am often unshaven for three months straight . 
+6-1	So	6-3_dep	means	IN	O
+6-2	this	6-3_nsubj	means	DT	O
+6-3	means	O	O	VBZ	O
+6-4	that	6-8_mark	unshaven	IN	O
+6-5	I	6-8_nsubjpass	unshaven	PRP	P1_customer
+6-6	am	6-8_auxpass	unshaven	VBP	O
+6-7	often	6-8_advmod	unshaven	RB	O
+6-8	unshaven	6-3_ccomp	means	VBN	O
+6-9	for	O	O	O	O
+6-10	three	O	O	CD	O
+6-11	months	6-8_prep_for	unshaven	NNS	P1_NPart_months
+6-12	straight	6-8_advmod	unshaven	RB	O
+6-13	.	O	O	O	O
+
+#id=7
+#text=Since , I wanted to go back into the world again , I knew it was time for a new hair cut and shave . 
+7-1	Since	7-4_mark	wanted	IN	O
+7-2	,	O	O	O	O
+7-3	I	7-4_nsubj	wanted	PRP	P1_customer
+7-4	wanted	7-14_advcl	knew	VBD	O
+7-5	to	7-6_aux	go	TO	O
+7-6	go	7-4_xcomp	wanted	VB	O
+7-7	back	7-6_prt	go	RP	O
+7-8	into	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	world	7-6_prep_into	go	NN	P1_NPart_world
+7-11	again	7-6_advmod	go	RB	O
+7-12	,	O	O	O	O
+7-13	I	7-14_nsubj	knew	PRP	P1_customer
+7-14	knew	O	O	VBD	O
+7-15	it	O	O	PRP	O
+7-16	was	O	O	VBD	O
+7-17	time	7-14_ccomp	knew	NN	O
+7-18	for	O	O	O	O
+7-19	a	O	O	DT	O
+7-20	new	O	O	JJ	O
+7-21	hair	O	O	NN	O
+7-22	cut	O	O	VB	P1_haircut
+7-23	and	O	O	O	O
+7-24	shave	7-22_conj_and	cut	VB	O
+7-25	.	O	O	O	O
+
+#id=8
+#text=I went to the neighborhood Barber , Santiago 's , and got a hair cut and shave . 
+8-1	I	8-2_nsubj	went	PRP	P1_customer
+8-2	went	8-9_ccomp	's	VBD	O
+8-3	to	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	neighborhood	O	O	NN	P1_NPart_neighborhood
+8-6	Barber	8-2_prep_to	went	NNP	P1_hairdresser
+8-7	,	O	O	O	O
+8-8	Santiago	8-9_nsubj	's	NNP	P1_hairdresser
+8-9	's	O	O	VBZ	O
+8-10	,	O	O	O	O
+8-11	and	O	O	O	O
+8-12	got	8-9_conj_and	's	VBD	O
+8-13	a	O	O	DT	O
+8-14	hair	8-15_nsubj	cut	NN	O
+8-15	cut	8-12_ccomp	got	VB	P1_haircut
+8-16	and	O	O	O	O
+8-17	shave	8-15_conj_and	cut	VB	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=He first used scissors to trim my hair into something manageable , then he used a electric trimmer to buzz some of my side burns off . 
+9-1	He	9-3_nsubj	used	PRP	P1_hairdresser
+9-2	first	9-3_advmod	used	RB	O
+9-3	used	O	O	VBD	O
+9-4	scissors	9-3_dobj	used	NNS	P1_scissors
+9-5	to	9-6_aux	trim	TO	O
+9-6	trim	9-3_vmod	used	VB	O
+9-7	my	O	O	PRP$	P1_customer
+9-8	hair	9-6_dobj	trim	NN	P1_hair
+9-9	into	O	O	O	O
+9-10	something	O	O	NN	O
+9-11	manageable	9-6_prep_into	trim	NNS	O
+9-12	,	O	O	O	O
+9-13	then	9-15_advmod	used	RB	O
+9-14	he	9-15_nsubj	used	PRP	P1_hairdresser
+9-15	used	9-3_parataxis	used	VBD	O
+9-16	a	O	O	DT	O
+9-17	electric	O	O	JJ	O
+9-18	trimmer	9-15_dobj	used	NN	P2_scissors
+9-19	to	9-20_aux	buzz	TO	O
+9-20	buzz	9-15_vmod	used	VB	O
+9-21	some	9-20_dobj	buzz	DT	O
+9-22	of	O	O	O	O
+9-23	my	O	O	PRP$	P1_customer
+9-24	side	O	O	NN	O
+9-25	burns	O	O	NNS	P3_hair
+9-26	off	9-20_prt	buzz	RP	O
+9-27	.	O	O	O	O
+
+#id=10
+#text=He then continued using his scissors and cut my hair into something that was acceptable . 
+10-1	He	10-3_nsubj	continued	PRP	P1_hairdresser
+10-2	then	10-3_advmod	continued	RB	O
+10-3	continued	O	O	VBD	O
+10-4	using	10-3_xcomp	continued	VBG	O
+10-5	his	O	O	PRP$	P1_hairdresser
+10-6	scissors	10-4_dobj	using	NNS	P1_scissors
+10-7	and	O	O	O	O
+10-8	cut	10-3_conj_and	continued	VBD	O
+10-9	my	O	O	PRP$	P1_customer
+10-10	hair	10-8_dobj	cut	NN	P1_hair
+10-11	into	O	O	O	O
+10-12	something	10-8_prep_into	cut	NN	O
+10-13	that	O	O	WDT	O
+10-14	was	O	O	VBD	O
+10-15	acceptable	O	O	JJ	O
+10-16	.	O	O	O	O
+
+#id=11
+#text=He also had to take a few minutes to shave off my beard . 
+11-1	He	11-3_nsubj	had	PRP	P1_hairdresser
+11-2	also	11-3_advmod	had	RB	O
+11-3	had	O	O	VBD	O
+11-4	to	11-5_aux	take	TO	O
+11-5	take	11-3_xcomp	had	VB	O
+11-6	a	O	O	DT	O
+11-7	few	O	O	JJ	O
+11-8	minutes	11-5_dobj	take	NNS	P1_NPart_minutes
+11-9	to	11-10_aux	shave	TO	O
+11-10	shave	11-3_xcomp	had	VB	O
+11-11	off	11-10_prt	shave	RP	O
+11-12	my	O	O	PRP$	P1_customer
+11-13	beard	11-10_dobj	shave	NN	P2_hair
+11-14	.	O	O	O	O
+
+#id=12
+#text=First he trimmed the excess off with his electric trimmer . 
+12-1	First	12-3_advmod	trimmed	RB	O
+12-2	he	12-3_nsubj	trimmed	PRP	P1_hairdresser
+12-3	trimmed	O	O	VBD	O
+12-4	the	O	O	DT	O
+12-5	excess	12-3_dobj	trimmed	NN	P1_NPart_excess
+12-6	off	12-3_prt	trimmed	RP	O
+12-7	with	O	O	O	O
+12-8	his	O	O	PRP$	P1_hairdresser
+12-9	electric	O	O	JJ	O
+12-10	trimmer	12-3_prep_with	trimmed	NN	P2_scissors
+12-11	.	O	O	O	O
+
+#id=13
+#text=Then he proceeded to use a knife and shaving cream to give me a very deep shave . 
+13-1	Then	13-3_advmod	proceeded	RB	O
+13-2	he	13-3_nsubj	proceeded	PRP	P1_hairdresser
+13-3	proceeded	O	O	VBD	O
+13-4	to	13-5_aux	use	TO	O
+13-5	use	13-3_xcomp	proceeded	VB	O
+13-6	a	O	O	DT	O
+13-7	knife	O	O	NN	P1_hair_styling/treatment
+13-8	and	O	O	O	O
+13-9	shaving	O	O	NN	O
+13-10	cream	13-5_dobj	use	NN	P2_hair_styling/treatment
+13-11	to	13-12_aux	give	TO	O
+13-12	give	13-5_xcomp	use	VB	O
+13-13	me	13-12_iobj	give	PRP	P1_customer
+13-14	a	O	O	DT	O
+13-15	very	O	O	RB	O
+13-16	deep	O	O	JJ	O
+13-17	shave	13-12_dobj	give	NN	O
+13-18	.	O	O	O	O
+
+#id=14
+#text=It costed a total of 50 dollars . 
+14-1	It	14-2_nsubj	costed	PRP	O
+14-2	costed	O	O	VBD	O
+14-3	a	O	O	DT	O
+14-4	total	14-2_dobj	costed	NN	O
+14-5	of	O	O	O	O
+14-6	50	O	O	CD	O
+14-7	dollars	O	O	NNS	P1_payment_means
+14-8	.	O	O	O	O
+
+#id=15
+#text=This was n't bad considering I got a new hair cut , I was shaved , and they even offered to wash my hair for free . 
+15-1	This	O	O	DT	O
+15-2	was	O	O	VBD	O
+15-3	n't	O	O	RB	O
+15-4	bad	O	O	JJ	O
+15-5	considering	O	O	VBG	O
+15-6	I	15-7_nsubj	got	PRP	P1_customer
+15-7	got	15-5_ccomp	considering	VBD	O
+15-8	a	O	O	DT	O
+15-9	new	O	O	JJ	O
+15-10	hair	O	O	NN	O
+15-11	cut	15-7_dobj	got	NN	P1_haircut
+15-12	,	O	O	O	O
+15-13	I	15-15_nsubjpass	shaved	PRP	P1_customer
+15-14	was	15-15_auxpass	shaved	VBD	O
+15-15	shaved	O	O	VBN	O
+15-16	,	O	O	O	O
+15-17	and	O	O	O	O
+15-18	they	15-20_nsubj	offered	PRP	P1_hairdresser
+15-19	even	15-20_advmod	offered	RB	O
+15-20	offered	O	O	VBD	O
+15-21	to	15-22_aux	wash	TO	O
+15-22	wash	15-20_xcomp	offered	VB	O
+15-23	my	O	O	PRP$	P1_customer
+15-24	hair	15-22_dobj	wash	NN	P1_hair
+15-25	for	O	O	O	O
+15-26	free	15-22_prep_for	wash	JJ	O
+15-27	.	O	O	O	O

@@ -1,0 +1,209 @@
+#id=1
+#text=The only time I have ever planted a tree was as a memorial . 
+1-1	The	O	O	DT	O
+1-2	only	O	O	JJ	O
+1-3	time	1-10_nsubj	was	NN	O
+1-4	I	1-7_nsubj	planted	PRP	P1_gardener
+1-5	have	1-7_aux	planted	VBP	O
+1-6	ever	1-7_advmod	planted	RB	O
+1-7	planted	O	O	VBN	O
+1-8	a	O	O	DT	O
+1-9	tree	1-7_dobj	planted	NN	P1_tree
+1-10	was	O	O	VBD	O
+1-11	as	O	O	O	O
+1-12	a	O	O	DT	O
+1-13	memorial	1-10_prep_as	was	NN	P1_NPart_memorial
+1-14	.	O	O	O	O
+
+#id=2
+#text=We had raised the funds to buy the tree . 
+2-1	We	2-3_nsubj	raised	PRP	P2_gardener
+2-2	had	2-3_aux	raised	VBD	O
+2-3	raised	O	O	VBN	O
+2-4	the	O	O	DT	O
+2-5	funds	2-3_dobj	raised	NNS	P1_NPart_funds
+2-6	to	2-7_aux	buy	TO	O
+2-7	buy	2-3_vmod	raised	VB	O
+2-8	the	O	O	DT	O
+2-9	tree	2-7_dobj	buy	NN	P1_tree
+2-10	.	O	O	O	O
+
+#id=3
+#text=Then I went to Home depot to pick out the tree . 
+3-1	Then	3-3_advmod	went	RB	O
+3-2	I	3-3_nsubj	went	PRP	P1_gardener
+3-3	went	O	O	VBD	O
+3-4	to	O	O	O	O
+3-5	Home	O	O	NNP	O
+3-6	depot	3-3_prep_to	went	NNP	P1_shop
+3-7	to	3-8_aux	pick	TO	O
+3-8	pick	3-3_xcomp	went	VB	O
+3-9	out	3-8_prt	pick	RP	O
+3-10	the	O	O	DT	O
+3-11	tree	3-8_dobj	pick	NN	P1_tree
+3-12	.	O	O	O	O
+
+#id=4
+#text=I know nothing about trees , so I had the employee at Home Depot help me . 
+4-1	I	4-2_nsubj	know	PRP	P1_gardener
+4-2	know	O	O	VBP	O
+4-3	nothing	4-2_dobj	know	NN	O
+4-4	about	O	O	O	O
+4-5	trees	O	O	NNS	P1_tree
+4-6	,	O	O	O	O
+4-7	so	4-2_dep	know	IN	O
+4-8	I	4-9_nsubj	had	PRP	P1_gardener
+4-9	had	4-2_parataxis	know	VBD	O
+4-10	the	O	O	DT	O
+4-11	employee	4-15_nsubj	help	NN	P1_staff
+4-12	at	O	O	O	O
+4-13	Home	O	O	NNP	O
+4-14	Depot	O	O	NNP	P1_shop
+4-15	help	4-9_ccomp	had	VB	O
+4-16	me	4-15_dobj	help	PRP	P1_gardener
+4-17	.	O	O	O	O
+
+#id=5
+#text=She helped me decide the best tree for the area that we were planting it . 
+5-1	She	5-2_nsubj	helped	PRP	P1_staff
+5-2	helped	O	O	VBD	O
+5-3	me	5-4_nsubj	decide	PRP	P1_gardener
+5-4	decide	5-2_ccomp	helped	VBP	O
+5-5	the	O	O	DT	O
+5-6	best	O	O	JJS	O
+5-7	tree	5-4_dobj	decide	NN	P1_tree
+5-8	for	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	area	O	O	NN	P1_NPart_area
+5-11	that	5-14_mark	planting	IN	O
+5-12	we	5-14_nsubj	planting	PRP	P2_gardener
+5-13	were	5-14_aux	planting	VBD	O
+5-14	planting	5-4_ccomp	decide	VBG	O
+5-15	it	5-14_dobj	planting	PRP	P1_tree
+5-16	.	O	O	O	O
+
+#id=6
+#text=One that would n't need much work or upkeep . 
+6-1	One	6-5_nsubj	need	CD	P1_tree
+6-2	that	O	O	DT	O
+6-3	would	6-5_aux	need	MD	O
+6-4	n't	6-5_neg	need	RB	O
+6-5	need	O	O	VB	O
+6-6	much	O	O	JJ	O
+6-7	work	6-5_dobj	need	NN	P1_NPart_work
+6-8	or	O	O	O	O
+6-9	upkeep	O	O	NN	P1_NPart_upkeep
+6-10	.	O	O	O	O
+
+#id=7
+#text=Then she showed me what else I would need for the tree . 
+7-1	Then	7-3_advmod	showed	RB	O
+7-2	she	7-3_nsubj	showed	PRP	P1_staff
+7-3	showed	O	O	VBD	O
+7-4	me	7-3_dobj	showed	PRP	P3_gardener
+7-5	what	7-9_dobj	need	WP	O
+7-6	else	O	O	RB	O
+7-7	I	7-9_nsubj	need	PRP	P1_gardener
+7-8	would	7-9_aux	need	MD	O
+7-9	need	7-3_dep	showed	VB	O
+7-10	for	O	O	O	O
+7-11	the	O	O	DT	O
+7-12	tree	7-9_prep_for	need	NN	P1_tree
+7-13	.	O	O	O	O
+
+#id=8
+#text=I bought soil and a shovel . 
+8-1	I	8-2_nsubj	bought	PRP	P1_gardener
+8-2	bought	O	O	VBD	O
+8-3	soil	8-2_dobj	bought	NN	P1_dirt
+8-4	and	O	O	O	O
+8-5	a	O	O	DT	O
+8-6	shovel	O	O	NN	P1_gardening_tool
+8-7	.	O	O	O	O
+
+#id=9
+#text=We went to the park where we were planting the tree and dug the hole for the tree . 
+9-1	We	9-2_nsubj	went	PRP	P2_gardener
+9-2	went	O	O	VBD	O
+9-3	to	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	park	9-2_prep_to	went	NN	P1_NPart_park
+9-6	where	9-9_advmod	planting	WRB	O
+9-7	we	9-9_nsubj	planting	PRP	P4_gardener
+9-8	were	9-9_aux	planting	VBD	O
+9-9	planting	9-2_advcl	went	VBG	O
+9-10	the	O	O	DT	O
+9-11	tree	9-9_dobj	planting	NN	P1_tree
+9-12	and	O	O	O	O
+9-13	dug	9-2_conj_and	went	VBD	O
+9-14	the	O	O	DT	O
+9-15	hole	9-13_dobj	dug	NN	P1_hole
+9-16	for	O	O	O	O
+9-17	the	O	O	DT	O
+9-18	tree	9-13_prep_for	dug	NN	P1_tree
+9-19	.	O	O	O	O
+
+#id=10
+#text=After we place the tree and put in the supports , we filled the hole back in , packing the soil tight . 
+10-1	After	10-3_mark	place	IN	O
+10-2	we	10-3_nsubj	place	PRP	P2_gardener
+10-3	place	10-13_advcl	filled	VBP	O
+10-4	the	O	O	DT	O
+10-5	tree	10-3_dobj	place	NN	P1_tree
+10-6	and	O	O	O	O
+10-7	put	10-3_conj_and	place	VBD	O
+10-8	in	O	O	O	O
+10-9	the	O	O	DT	O
+10-10	supports	10-7_prep_in	put	NNS	P1_fertilizer
+10-11	,	O	O	O	O
+10-12	we	10-13_nsubj	filled	PRP	P2_gardener
+10-13	filled	O	O	VBD	O
+10-14	the	O	O	DT	O
+10-15	hole	O	O	NN	P1_hole
+10-16	back	10-13_advmod	filled	RB	O
+10-17	in	10-13_prep	filled	IN	O
+10-18	,	O	O	O	O
+10-19	packing	10-13_xcomp	filled	VBG	O
+10-20	the	O	O	DT	O
+10-21	soil	10-19_dobj	packing	NN	P2_dirt
+10-22	tight	10-19_advmod	packing	RB	O
+10-23	.	O	O	O	O
+
+#id=11
+#text=We said a few words and watered the tree . 
+11-1	We	11-2_nsubj	said	PRP	P2_gardener
+11-2	said	O	O	VBD	O
+11-3	a	O	O	DT	O
+11-4	few	O	O	JJ	O
+11-5	words	11-2_dobj	said	NNS	P1_NPart_words
+11-6	and	O	O	O	O
+11-7	watered	11-2_conj_and	said	VBD	O
+11-8	the	O	O	DT	O
+11-9	tree	11-7_dobj	watered	NN	P1_tree
+11-10	.	O	O	O	O
+
+#id=12
+#text=Lastly , we put the memorial plaque in front of the tree since it was a memorial for someone who has passed . 
+12-1	Lastly	12-4_advmod	put	RB	O
+12-2	,	O	O	O	O
+12-3	we	12-4_nsubj	put	PRP	P2_gardener
+12-4	put	O	O	VBD	O
+12-5	the	O	O	DT	O
+12-6	memorial	O	O	NN	O
+12-7	plaque	12-4_dobj	put	NN	P1_NPart_plaque
+12-8	in	O	O	O	O
+12-9	front	O	O	O	O
+12-10	of	O	O	O	O
+12-11	the	O	O	DT	O
+12-12	tree	12-4_prep_in_front_of	put	NN	P1_tree
+12-13	since	O	O	IN	O
+12-14	it	O	O	PRP	O
+12-15	was	O	O	VBD	O
+12-16	a	O	O	DT	O
+12-17	memorial	12-4_advcl	put	NN	P2_NPart_memorial
+12-18	for	O	O	O	O
+12-19	someone	O	O	NN	O
+12-20	who	12-22_nsubj	passed	WP	O
+12-21	has	12-22_aux	passed	VBZ	O
+12-22	passed	O	O	VBN	O
+12-23	.	O	O	O	O

@@ -1,0 +1,213 @@
+#id=1
+#text=I wanted to get a book on gardening , so I went to the library . 
+1-1	I	1-2_nsubj	wanted	PRP	P1_customer
+1-2	wanted	O	O	VBD	O
+1-3	to	1-4_aux	get	TO	O
+1-4	get	1-2_xcomp	wanted	VB	O
+1-5	a	O	O	DT	O
+1-6	book	1-4_dobj	get	NN	P1_book
+1-7	on	O	O	O	O
+1-8	gardening	1-4_prep_on	get	NN	O
+1-9	,	O	O	O	O
+1-10	so	1-2_dep	wanted	IN	O
+1-11	I	1-12_nsubj	went	PRP	P1_customer
+1-12	went	1-2_parataxis	wanted	VBD	O
+1-13	to	O	O	O	O
+1-14	the	O	O	DT	O
+1-15	library	1-12_prep_to	went	NN	P1_library
+1-16	.	O	O	O	O
+
+#id=2
+#text=I was n't sure where the gardening books were , so I went to the electronic card catalog and looked gardening up . 
+2-1	I	O	O	PRP	P1_customer
+2-2	was	O	O	VBD	O
+2-3	n't	O	O	RB	O
+2-4	sure	O	O	JJ	O
+2-5	where	2-9_advmod	were	WRB	O
+2-6	the	O	O	DT	O
+2-7	gardening	O	O	VBG	O
+2-8	books	2-9_nsubj	were	NNS	P1_book
+2-9	were	O	O	VBD	O
+2-10	,	O	O	O	O
+2-11	so	O	O	IN	O
+2-12	I	2-13_nsubj	went	PRP	P1_customer
+2-13	went	O	O	VBD	O
+2-14	to	O	O	O	O
+2-15	the	O	O	DT	O
+2-16	electronic	O	O	JJ	O
+2-17	card	O	O	NN	O
+2-18	catalog	2-13_prep_to	went	NN	P1_catalog
+2-19	and	O	O	O	O
+2-20	looked	2-13_conj_and	went	VBD	O
+2-21	gardening	2-20_dobj	looked	NN	O
+2-22	up	2-20_prt	looked	RP	O
+2-23	.	O	O	O	O
+
+#id=3
+#text=I found the Dewey Decimal number and then went down the rows of shelves until I got to the right number . 
+3-1	I	3-2_nsubj	found	PRP	P1_customer
+3-2	found	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	Dewey	O	O	NNP	O
+3-5	Decimal	O	O	NNP	O
+3-6	number	3-9_nsubj	went	NN	P1_section_id
+3-7	and	O	O	O	O
+3-8	then	O	O	RB	O
+3-9	went	3-2_ccomp	found	VBD	O
+3-10	down	3-9_prt	went	RP	O
+3-11	the	O	O	DT	O
+3-12	rows	3-9_dobj	went	NNS	O
+3-13	of	O	O	O	O
+3-14	shelves	O	O	NNS	P1_shelf
+3-15	until	3-17_mark	got	IN	O
+3-16	I	3-17_nsubj	got	PRP	P1_customer
+3-17	got	3-9_advcl	went	VBD	O
+3-18	to	O	O	O	O
+3-19	the	O	O	DT	O
+3-20	right	O	O	JJ	O
+3-21	number	3-17_prep_to	got	NN	P1_section_id
+3-22	.	O	O	O	O
+
+#id=4
+#text=There were so many books ! 
+4-1	There	4-2_expl	were	EX	O
+4-2	were	O	O	VBD	O
+4-3	so	O	O	RB	O
+4-4	many	O	O	JJ	O
+4-5	books	4-2_nsubj	were	NNS	P1_book
+4-6	!	O	O	O	O
+
+#id=5
+#text=I have a small yard , so I thought a book on container gardening would be best . 
+5-1	I	5-2_nsubj	have	PRP	P1_customer
+5-2	have	O	O	VBP	O
+5-3	a	O	O	DT	O
+5-4	small	O	O	JJ	O
+5-5	yard	5-2_dobj	have	NN	P1_NPart_yard
+5-6	,	O	O	O	O
+5-7	so	5-2_dep	have	IN	O
+5-8	I	5-9_nsubj	thought	PRP	P1_customer
+5-9	thought	5-2_parataxis	have	VBD	O
+5-10	a	O	O	DT	O
+5-11	book	O	O	NN	P2_book
+5-12	on	O	O	O	O
+5-13	container	O	O	NN	O
+5-14	gardening	O	O	NN	O
+5-15	would	O	O	MD	O
+5-16	be	O	O	VB	O
+5-17	best	5-9_ccomp	thought	JJS	O
+5-18	.	O	O	O	O
+
+#id=6
+#text=I chose one with lots of pictures . 
+6-1	I	6-2_nsubj	chose	PRP	P1_customer
+6-2	chose	O	O	VBD	O
+6-3	one	6-2_dobj	chose	CD	P2_book
+6-4	with	O	O	O	O
+6-5	lots	6-2_prep_with	chose	NNS	O
+6-6	of	O	O	O	O
+6-7	pictures	O	O	NNS	P1_NPart_pictures
+6-8	.	O	O	O	O
+
+#id=7
+#text=I then took the book to the circulation desk and waited in line behind a mother with a child . 
+7-1	I	7-3_nsubj	took	PRP	P1_customer
+7-2	then	7-3_advmod	took	RB	O
+7-3	took	O	O	VBD	O
+7-4	the	O	O	DT	O
+7-5	book	7-3_dobj	took	NN	P2_book
+7-6	to	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	circulation	O	O	NN	O
+7-9	desk	7-3_prep_to	took	NN	P1_check-out_desk
+7-10	and	O	O	O	O
+7-11	waited	7-3_conj_and	took	VBD	O
+7-12	in	O	O	O	O
+7-13	line	7-11_prep_in	waited	NN	P1_line
+7-14	behind	O	O	O	O
+7-15	a	O	O	DT	O
+7-16	mother	7-11_prep_behind	waited	NN	P2_customer
+7-17	with	O	O	O	O
+7-18	a	O	O	DT	O
+7-19	child	O	O	NN	P3_customer
+7-20	.	O	O	O	O
+
+#id=8
+#text=The child had about twenty picture books . 
+8-1	The	O	O	DT	O
+8-2	child	8-3_nsubj	had	NN	P3_customer
+8-3	had	O	O	VBD	O
+8-4	about	O	O	O	O
+8-5	twenty	O	O	CD	O
+8-6	picture	O	O	NN	O
+8-7	books	8-3_prep_about	had	NNS	P3_book
+8-8	.	O	O	O	O
+
+#id=9
+#text=This could be a while . 
+9-1	This	O	O	DT	O
+9-2	could	O	O	MD	O
+9-3	be	O	O	VB	O
+9-4	a	O	O	DT	O
+9-5	while	O	O	NN	O
+9-6	.	O	O	O	O
+
+#id=10
+#text=Finally , it was my turn . 
+10-1	Finally	O	O	RB	O
+10-2	,	O	O	O	O
+10-3	it	O	O	PRP	O
+10-4	was	O	O	VBD	O
+10-5	my	O	O	PRP$	P1_customer
+10-6	turn	O	O	NN	O
+10-7	.	O	O	O	O
+
+#id=11
+#text=I gave the librarian my library card and book and she scanned them both in a laser reader . 
+11-1	I	11-2_nsubj	gave	PRP	P1_customer
+11-2	gave	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	librarian	11-2_iobj	gave	NN	P1_staff
+11-5	my	O	O	PRP$	P1_customer
+11-6	library	O	O	NN	O
+11-7	card	11-2_dobj	gave	NN	P1_library_card
+11-8	and	O	O	O	O
+11-9	book	O	O	NN	P2_book
+11-10	and	O	O	O	O
+11-11	she	11-12_nsubj	scanned	PRP	P1_staff
+11-12	scanned	11-2_conj_and	gave	VBD	O
+11-13	them	11-12_dobj	scanned	PRP	O
+11-14	both	11-12_dep	scanned	DT	O
+11-15	in	O	O	O	O
+11-16	a	O	O	DT	O
+11-17	laser	O	O	NN	O
+11-18	reader	11-12_prep_in	scanned	NN	P1_institutional_devices
+11-19	.	O	O	O	O
+
+#id=12
+#text=Then she handed me my book and a receipt . 
+12-1	Then	12-3_advmod	handed	RB	O
+12-2	she	12-3_nsubj	handed	PRP	P1_staff
+12-3	handed	O	O	VBD	O
+12-4	me	12-3_iobj	handed	PRP	P1_customer
+12-5	my	O	O	PRP$	P1_customer
+12-6	book	12-3_dobj	handed	NN	P2_book
+12-7	and	O	O	O	O
+12-8	a	O	O	DT	O
+12-9	receipt	O	O	NN	P1_receipt
+12-10	.	O	O	O	O
+
+#id=13
+#text=Looks like I have three weeks to learn how to garden ! 
+13-1	Looks	13-2_nsubj	like	NNS	O
+13-2	like	O	O	VBP	O
+13-3	I	13-4_nsubj	have	PRP	P1_customer
+13-4	have	13-2_ccomp	like	VBP	O
+13-5	three	O	O	CD	O
+13-6	weeks	13-4_dobj	have	NNS	P1_NPart_weeks
+13-7	to	13-8_aux	learn	TO	O
+13-8	learn	O	O	VB	O
+13-9	how	13-11_advmod	garden	WRB	O
+13-10	to	13-11_aux	garden	TO	O
+13-11	garden	13-8_ccomp	learn	VB	O
+13-12	!	O	O	O	O

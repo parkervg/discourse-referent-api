@@ -1,0 +1,261 @@
+#id=1
+#text=Since it 's Spring now , I decided that my yard needed another tree in it . 
+1-1	Since	1-4_mark	Spring	IN	O
+1-2	it	1-4_nsubj	Spring	PRP	O
+1-3	's	1-4_aux	Spring	VBZ	O
+1-4	Spring	1-8_advcl	decided	VBG	P1_NPart_spring
+1-5	now	1-4_advmod	Spring	RB	O
+1-6	,	O	O	O	O
+1-7	I	1-8_nsubj	decided	PRP	P1_gardener
+1-8	decided	O	O	VBD	O
+1-9	that	1-12_mark	needed	IN	O
+1-10	my	O	O	PRP$	P2_gardener
+1-11	yard	1-12_nsubj	needed	NN	P1_location_garden
+1-12	needed	1-8_ccomp	decided	VBD	O
+1-13	another	O	O	DT	O
+1-14	tree	1-12_dobj	needed	NN	P1_tree
+1-15	in	O	O	O	O
+1-16	it	1-12_prep_in	needed	PRP	P1_location_garden
+1-17	.	O	O	O	O
+
+#id=2
+#text=I walked around the yard for a while deciding where I wanted to put it . 
+2-1	I	2-2_nsubj	walked	PRP	P3_gardener
+2-2	walked	O	O	VBD	O
+2-3	around	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	yard	2-2_prep_around	walked	NN	P1_location_garden
+2-6	for	O	O	O	O
+2-7	a	O	O	DT	O
+2-8	while	O	O	NN	P1_time
+2-9	deciding	2-2_xcomp	walked	VBG	O
+2-10	where	2-12_advmod	wanted	WRB	O
+2-11	I	2-12_nsubj	wanted	PRP	P4_gardener
+2-12	wanted	2-9_advcl	deciding	VBD	O
+2-13	to	2-14_aux	put	TO	O
+2-14	put	2-12_xcomp	wanted	VB	O
+2-15	it	2-14_dobj	put	PRP	P1_tree
+2-16	.	O	O	O	O
+
+#id=3
+#text=Once I picked the spot out , I got online and looked up what kinds of trees grow best in my area . 
+3-1	Once	3-3_mark	picked	IN	O
+3-2	I	3-3_nsubj	picked	PRP	P5_gardener
+3-3	picked	3-9_advcl	got	VBD	O
+3-4	the	O	O	DT	O
+3-5	spot	3-3_dobj	picked	NN	P2_location_garden
+3-6	out	3-3_prt	picked	RP	O
+3-7	,	O	O	O	O
+3-8	I	3-9_nsubj	got	PRP	P6_gardener
+3-9	got	O	O	VBD	O
+3-10	online	3-9_prep	got	NN	O
+3-11	and	O	O	O	O
+3-12	looked	3-9_conj_and	got	VBD	O
+3-13	up	3-12_prt	looked	RP	O
+3-14	what	3-18_dobj	grow	WP	O
+3-15	kinds	3-18_nsubj	grow	NNS	O
+3-16	of	O	O	O	O
+3-17	trees	O	O	NNS	P1_tree
+3-18	grow	3-9_ccomp	got	VBP	O
+3-19	best	3-18_dobj	grow	JJS	O
+3-20	in	O	O	O	O
+3-21	my	O	O	PRP$	P1_NPart_my
+3-22	area	O	O	NN	P1_NPart_area
+3-23	.	O	O	O	O
+
+#id=4
+#text=I decided on a nice pine tree and headed to the nursery . 
+4-1	I	4-2_nsubj	decided	PRP	P7_gardener
+4-2	decided	O	O	VBD	O
+4-3	on	O	O	O	O
+4-4	a	O	O	DT	O
+4-5	nice	O	O	JJ	O
+4-6	pine	O	O	NN	O
+4-7	tree	4-2_prep_on	decided	NN	P1_tree
+4-8	and	O	O	O	O
+4-9	headed	4-2_conj_and	decided	VBN	O
+4-10	to	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	nursery	4-9_prep_to	headed	NN	P1_shop
+4-13	.	O	O	O	O
+
+#id=5
+#text=I took a little time looking at their pine trees until I found the one I liked . 
+5-1	I	5-2_nsubj	took	PRP	P8_gardener
+5-2	took	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	little	O	O	JJ	O
+5-5	time	5-2_dobj	took	NN	P2_time
+5-6	looking	O	O	VBG	O
+5-7	at	O	O	O	O
+5-8	their	O	O	PRP$	P2_shop
+5-9	pine	O	O	JJ	O
+5-10	trees	5-6_prep_at	looking	NNS	P1_tree
+5-11	until	5-13_mark	found	IN	O
+5-12	I	5-13_nsubj	found	PRP	P9_gardener
+5-13	found	5-6_advcl	looking	VBD	O
+5-14	the	O	O	DT	O
+5-15	one	5-13_dobj	found	NN	P10_gardener
+5-16	I	5-17_nsubj	liked	PRP	P11_gardener
+5-17	liked	O	O	VBD	O
+5-18	.	O	O	O	O
+
+#id=6
+#text=I bought it and some topsoil to plant it in and got them loaded into my car . 
+6-1	I	6-2_nsubj	bought	PRP	P12_gardener
+6-2	bought	O	O	VBD	O
+6-3	it	6-2_dobj	bought	PRP	O
+6-4	and	O	O	O	O
+6-5	some	O	O	DT	O
+6-6	topsoil	O	O	NN	P1_other
+6-7	to	6-8_aux	plant	TO	O
+6-8	plant	6-2_vmod	bought	VB	O
+6-9	it	6-8_dobj	plant	PRP	P1_tree
+6-10	in	6-8_prep	plant	IN	O
+6-11	and	O	O	O	O
+6-12	got	6-2_conj_and	bought	VBD	O
+6-13	them	6-14_nsubj	loaded	PRP	P2_other
+6-14	loaded	6-12_ccomp	got	VBD	O
+6-15	into	O	O	O	O
+6-16	my	O	O	PRP$	P13_gardener
+6-17	car	6-14_prep_into	loaded	NN	P1_NPart_car
+6-18	.	O	O	O	O
+
+#id=7
+#text=Once I was home , I grabbed my shovel and went out to the place I wanted to put the tree . 
+7-1	Once	7-3_mark	was	IN	O
+7-2	I	7-3_nsubj	was	PRP	P14_gardener
+7-3	was	7-7_advcl	grabbed	VBD	O
+7-4	home	7-3_advmod	was	RB	O
+7-5	,	O	O	O	O
+7-6	I	7-7_nsubj	grabbed	PRP	P15_gardener
+7-7	grabbed	7-17_dep	wanted	VBD	O
+7-8	my	O	O	PRP$	P16_gardener
+7-9	shovel	7-7_dobj	grabbed	NN	P1_gardening_tool
+7-10	and	O	O	O	O
+7-11	went	7-7_conj_and	grabbed	VBD	O
+7-12	out	7-11_prt	went	RP	O
+7-13	to	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	place	7-11_prep_to	went	NN	P2_location_garden
+7-16	I	7-17_nsubj	wanted	PRP	P17_gardener
+7-17	wanted	O	O	VBD	O
+7-18	to	7-19_aux	put	TO	O
+7-19	put	7-17_xcomp	wanted	VB	O
+7-20	the	O	O	DT	O
+7-21	tree	7-19_dobj	put	NN	P1_tree
+7-22	.	O	O	O	O
+
+#id=8
+#text=I started digging and kept at it until I had a hole deep and wide enough to fit the little tree in . 
+8-1	I	8-2_nsubj	started	PRP	P18_gardener
+8-2	started	O	O	VBD	O
+8-3	digging	8-2_dobj	started	NN	O
+8-4	and	O	O	O	O
+8-5	kept	8-2_conj_and	started	VBD	O
+8-6	at	O	O	O	O
+8-7	it	8-5_prep_at	kept	PRP	O
+8-8	until	8-10_mark	had	IN	O
+8-9	I	8-10_nsubj	had	PRP	P19_gardener
+8-10	had	8-5_advcl	kept	VBD	O
+8-11	a	O	O	DT	O
+8-12	hole	8-10_dobj	had	NN	P1_hole
+8-13	deep	O	O	JJ	O
+8-14	and	O	O	O	O
+8-15	wide	O	O	JJ	O
+8-16	enough	O	O	RB	O
+8-17	to	8-18_aux	fit	TO	O
+8-18	fit	O	O	VB	O
+8-19	the	O	O	DT	O
+8-20	little	O	O	JJ	O
+8-21	tree	8-18_dobj	fit	NN	P1_tree
+8-22	in	8-18_prep	fit	IN	O
+8-23	.	O	O	O	O
+
+#id=9
+#text=I put it in the hole and filled around it with the nice topsoil I bought so I had good dirt to start growing in . 
+9-1	I	9-2_nsubj	put	PRP	P20_gardener
+9-2	put	9-16_dep	bought	VBD	O
+9-3	it	9-2_dobj	put	PRP	P1_tree
+9-4	in	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	hole	9-2_prep_in	put	NN	P1_hole
+9-7	and	O	O	O	O
+9-8	filled	9-2_conj_and	put	VBD	O
+9-9	around	9-8_prt	filled	RP	O
+9-10	it	9-8_dobj	filled	PRP	P1_hole
+9-11	with	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	nice	O	O	JJ	O
+9-14	topsoil	9-8_prep_with	filled	NN	P1_dirt
+9-15	I	9-16_nsubj	bought	PRP	P21_gardener
+9-16	bought	O	O	VBD	O
+9-17	so	9-19_mark	had	IN	O
+9-18	I	9-19_nsubj	had	PRP	P22_gardener
+9-19	had	9-16_advcl	bought	VBD	O
+9-20	good	O	O	JJ	O
+9-21	dirt	9-19_dobj	had	NN	P1_dirt
+9-22	to	9-23_aux	start	TO	O
+9-23	start	O	O	VB	O
+9-24	growing	9-23_xcomp	start	VBG	O
+9-25	in	9-24_prt	growing	RP	O
+9-26	.	O	O	O	O
+
+#id=10
+#text=I spread out the dirt I had taken out of the hole so I did n't have a pile of dirt , then watered the tree and put my tools away . 
+10-1	I	10-2_nsubj	spread	PRP	P23_gardener
+10-2	spread	O	O	VBP	O
+10-3	out	10-2_prt	spread	RP	O
+10-4	the	O	O	DT	O
+10-5	dirt	10-2_dobj	spread	NN	P1_dirt
+10-6	I	10-8_nsubj	taken	PRP	P24_gardener
+10-7	had	10-8_aux	taken	VBD	O
+10-8	taken	O	O	VBN	O
+10-9	out	O	O	O	O
+10-10	of	O	O	O	O
+10-11	the	O	O	DT	O
+10-12	hole	10-8_prep_out_of	taken	NN	P1_hole
+10-13	so	10-17_mark	have	IN	O
+10-14	I	10-17_nsubj	have	PRP	P25_gardener
+10-15	did	10-17_aux	have	VBD	O
+10-16	n't	10-17_neg	have	RB	O
+10-17	have	10-8_advcl	taken	VB	O
+10-18	a	O	O	DT	O
+10-19	pile	10-17_dobj	have	NN	O
+10-20	of	O	O	O	O
+10-21	dirt	O	O	NN	P1_dirt
+10-22	,	O	O	O	O
+10-23	then	10-24_advmod	watered	RB	O
+10-24	watered	10-2_conj_and	spread	VBD	O
+10-25	the	O	O	DT	O
+10-26	tree	10-24_dobj	watered	NN	P1_tree
+10-27	and	O	O	O	O
+10-28	put	10-2_conj_and	spread	VBP	O
+10-29	my	O	O	PRP$	P26_gardener
+10-30	tools	10-28_dobj	put	NNS	P2_gardening_tool
+10-31	away	10-28_prt	put	RP	O
+10-32	.	O	O	O	O
+
+#id=11
+#text=I knwo it will take years , but that tree is going to look great once it ; s bigger . 
+11-1	I	11-2_nsubj	knwo	PRP	P27_gardener
+11-2	knwo	O	O	VBD	O
+11-3	it	11-5_nsubj	take	PRP	O
+11-4	will	11-5_aux	take	MD	O
+11-5	take	11-2_ccomp	knwo	VB	O
+11-6	years	11-5_tmod	take	NNS	P3_time
+11-7	,	O	O	O	O
+11-8	but	O	O	O	O
+11-9	that	O	O	DT	O
+11-10	tree	11-12_nsubj	going	NN	P2_tree
+11-11	is	11-12_aux	going	VBZ	O
+11-12	going	11-2_conj_but	knwo	VBG	O
+11-13	to	11-14_aux	look	TO	O
+11-14	look	11-12_xcomp	going	VB	O
+11-15	great	11-14_acomp	look	JJ	O
+11-16	once	O	O	IN	O
+11-17	it	O	O	PRP	P2_tree
+11-18	;	O	O	O	O
+11-19	s	O	O	VBZ	O
+11-20	bigger	11-14_advcl	look	JJR	O
+11-21	.	O	O	O	O

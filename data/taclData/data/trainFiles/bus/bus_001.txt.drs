@@ -1,0 +1,248 @@
+#id=1
+#text='' I wanted to go shopping downtown , so I decided to take the public bus . 
+1-1	''	O	O	O	O
+1-2	I	1-3_nsubj	wanted	PRP	P1_passenger
+1-3	wanted	O	O	VBD	O
+1-4	to	1-5_aux	go	TO	O
+1-5	go	1-3_xcomp	wanted	VB	O
+1-6	shopping	O	O	NN	O
+1-7	downtown	1-5_dobj	go	NN	P1_NPart_downtown
+1-8	,	O	O	O	O
+1-9	so	1-3_dep	wanted	IN	O
+1-10	I	1-11_nsubj	decided	PRP	P1_passenger
+1-11	decided	1-3_parataxis	wanted	VBD	O
+1-12	to	1-13_aux	take	TO	O
+1-13	take	1-11_xcomp	decided	VB	O
+1-14	the	O	O	DT	O
+1-15	public	O	O	JJ	O
+1-16	bus	1-13_dobj	take	NN	P1_bus
+1-17	.	O	O	O	O
+
+#id=2
+#text=I waited at the bus stop where other people were also waiting . 
+2-1	I	2-2_nsubj	waited	PRP	P1_passenger
+2-2	waited	O	O	VBD	O
+2-3	at	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	bus	O	O	NN	O
+2-6	stop	2-2_prep_at	waited	NN	P1_bus_stop
+2-7	where	2-12_advmod	waiting	WRB	O
+2-8	other	O	O	JJ	O
+2-9	people	2-12_nsubj	waiting	NNS	P2_passenger
+2-10	were	2-12_aux	waiting	VBD	O
+2-11	also	2-12_advmod	waiting	RB	O
+2-12	waiting	2-2_advcl	waited	VBG	O
+2-13	.	O	O	O	O
+
+#id=3
+#text=The bus came right on time and pulled over to the curb . 
+3-1	The	O	O	DT	O
+3-2	bus	3-3_nsubj	came	NN	P1_bus
+3-3	came	O	O	VBD	O
+3-4	right	3-3_advmod	came	RB	O
+3-5	on	O	O	O	O
+3-6	time	3-3_prep_on	came	NN	P1_time-table
+3-7	and	O	O	O	O
+3-8	pulled	3-3_conj_and	came	VBD	O
+3-9	over	3-8_prt	pulled	RP	O
+3-10	to	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	curb	3-8_prep_to	pulled	NN	P1_other
+3-13	.	O	O	O	O
+
+#id=4
+#text=I waited for the people getting off the bus to step down . 
+4-1	I	4-2_nsubj	waited	PRP	P1_passenger
+4-2	waited	O	O	VBD	O
+4-3	for	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	people	4-2_prep_for	waited	NNS	P3_passenger
+4-6	getting	4-2_xcomp	waited	VBG	O
+4-7	off	4-6_prt	getting	RP	O
+4-8	the	O	O	DT	O
+4-9	bus	4-6_dobj	getting	NN	P1_bus
+4-10	to	4-11_aux	step	TO	O
+4-11	step	O	O	VB	O
+4-12	down	4-11_prt	step	RP	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=Then I waited in line as each person got on . 
+5-1	Then	5-3_advmod	waited	RB	O
+5-2	I	5-3_nsubj	waited	PRP	P1_passenger
+5-3	waited	O	O	VBD	O
+5-4	in	O	O	O	O
+5-5	line	5-3_prep_in	waited	NN	O
+5-6	as	5-9_mark	got	IN	O
+5-7	each	O	O	DT	O
+5-8	person	5-9_nsubj	got	NN	P4_passenger
+5-9	got	5-3_advcl	waited	VBD	O
+5-10	on	5-9_prt	got	RP	O
+5-11	.	O	O	O	O
+
+#id=6
+#text=When it was my turn I stepped up the few steps into front of the bus . 
+6-1	When	O	O	WRB	O
+6-2	it	O	O	PRP	O
+6-3	was	O	O	VBD	O
+6-4	my	O	O	PRP$	P1_passenger
+6-5	turn	6-7_advcl	stepped	NN	O
+6-6	I	6-7_nsubj	stepped	PRP	P1_passenger
+6-7	stepped	O	O	VBD	O
+6-8	up	6-7_prt	stepped	RP	O
+6-9	the	O	O	DT	O
+6-10	few	O	O	JJ	O
+6-11	steps	6-7_dobj	stepped	NNS	P1_NPart_steps
+6-12	into	O	O	O	O
+6-13	front	6-7_prep_into	stepped	NN	P1_NPart_front
+6-14	of	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	bus	O	O	NN	P1_bus
+6-17	.	O	O	O	O
+
+#id=7
+#text=I swiped my bus card to pay , smiled at the driver , and chose a seat . 
+7-1	I	7-2_nsubj	swiped	PRP	P1_passenger
+7-2	swiped	O	O	VBD	O
+7-3	my	O	O	PRP$	P1_passenger
+7-4	bus	O	O	NN	O
+7-5	card	7-2_dobj	swiped	NN	P1_card/ticket
+7-6	to	7-7_aux	pay	TO	O
+7-7	pay	7-2_vmod	swiped	VB	O
+7-8	,	O	O	O	O
+7-9	smiled	7-2_conj_and	swiped	VBD	O
+7-10	at	O	O	O	O
+7-11	the	O	O	DT	O
+7-12	driver	7-9_prep_at	smiled	NN	P1_bus_staff
+7-13	,	O	O	O	O
+7-14	and	O	O	O	O
+7-15	chose	7-2_conj_and	swiped	VBD	O
+7-16	a	O	O	DT	O
+7-17	seat	7-15_dobj	chose	NN	P1_seat_in_bus
+7-18	.	O	O	O	O
+
+#id=8
+#text=The bus was a little crowded , so I stood and held onto the bar . 
+8-1	The	O	O	DT	O
+8-2	bus	O	O	NN	P1_bus
+8-3	was	O	O	VBD	O
+8-4	a	O	O	DT	O
+8-5	little	O	O	RB	O
+8-6	crowded	O	O	JJ	O
+8-7	,	O	O	O	O
+8-8	so	O	O	IN	O
+8-9	I	8-10_nsubj	stood	PRP	P1_passenger
+8-10	stood	O	O	VBD	O
+8-11	and	O	O	O	O
+8-12	held	8-10_conj_and	stood	VBD	O
+8-13	onto	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	bar	8-10_prep_onto	stood	NN	P1_rail
+8-16	.	O	O	O	O
+
+#id=9
+#text=An elderly woman got on the bus next , and a younger person got up to give her his seat . 
+9-1	An	O	O	DT	O
+9-2	elderly	O	O	JJ	O
+9-3	woman	9-4_nsubj	got	NN	P5_passenger
+9-4	got	O	O	VBD	O
+9-5	on	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	bus	9-4_prep_on	got	NN	P1_bus
+9-8	next	O	O	JJ	O
+9-9	,	O	O	O	O
+9-10	and	O	O	O	O
+9-11	a	O	O	DT	O
+9-12	younger	O	O	JJR	O
+9-13	person	9-14_nsubj	got	NN	P6_passenger
+9-14	got	9-4_conj_and	got	VBD	O
+9-15	up	9-14_prt	got	RP	O
+9-16	to	9-17_aux	give	TO	O
+9-17	give	9-14_xcomp	got	VB	O
+9-18	her	9-17_iobj	give	PRP	P5_passenger
+9-19	his	O	O	PRP$	P6_passenger
+9-20	seat	9-17_dobj	give	NN	P2_seat_in_bus
+9-21	.	O	O	O	O
+
+#id=10
+#text=When everyone was on , the bus put on his turn signal and pulled back into the street . 
+10-1	When	10-3_advmod	was	WRB	O
+10-2	everyone	10-3_nsubj	was	NN	P7_passenger
+10-3	was	10-8_advcl	put	VBD	O
+10-4	on	10-3_prep	was	IN	O
+10-5	,	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	bus	10-8_nsubj	put	NN	P1_bus
+10-8	put	O	O	VBD	O
+10-9	on	O	O	O	O
+10-10	his	O	O	PRP$	P2_bus
+10-11	turn	O	O	NN	O
+10-12	signal	10-8_prep_on	put	NN	P2_other
+10-13	and	O	O	O	O
+10-14	pulled	10-8_conj_and	put	VBD	O
+10-15	back	10-14_prt	pulled	RP	O
+10-16	into	O	O	O	O
+10-17	the	O	O	DT	O
+10-18	street	10-14_prep_into	pulled	NN	P1_route
+10-19	.	O	O	O	O
+
+#id=11
+#text=As I got closer to my stop , I pulled the cord . 
+11-1	As	11-3_mark	got	IN	O
+11-2	I	11-3_nsubj	got	PRP	P1_passenger
+11-3	got	11-10_advcl	pulled	VBD	O
+11-4	closer	11-3_advmod	got	RBR	O
+11-5	to	O	O	O	O
+11-6	my	O	O	PRP$	P1_passenger
+11-7	stop	11-3_prep_to	got	NN	P2_bus_stop
+11-8	,	O	O	O	O
+11-9	I	11-10_nsubj	pulled	PRP	P1_passenger
+11-10	pulled	O	O	VBD	O
+11-11	the	O	O	DT	O
+11-12	cord	11-10_dobj	pulled	NN	P1_stop_button/door_opener
+11-13	.	O	O	O	O
+
+#id=12
+#text=The cord dinged to signal that I wanted to get off . 
+12-1	The	O	O	DT	O
+12-2	cord	12-3_nsubj	dinged	NN	P1_stop_button/door_opener
+12-3	dinged	O	O	VBD	O
+12-4	to	12-5_aux	signal	TO	O
+12-5	signal	12-3_xcomp	dinged	VB	O
+12-6	that	12-8_mark	wanted	IN	O
+12-7	I	12-8_nsubj	wanted	PRP	P1_passenger
+12-8	wanted	12-5_ccomp	signal	VBD	O
+12-9	to	12-10_aux	get	TO	O
+12-10	get	12-8_xcomp	wanted	VB	O
+12-11	off	12-10_prt	get	RP	O
+12-12	.	O	O	O	O
+
+#id=13
+#text=The bus pulled into the stop where other people were waiting to get on . 
+13-1	The	O	O	DT	O
+13-2	bus	13-3_nsubj	pulled	NN	P1_bus
+13-3	pulled	O	O	VBD	O
+13-4	into	O	O	O	O
+13-5	the	O	O	DT	O
+13-6	stop	13-3_prep_into	pulled	NN	P2_bus_stop
+13-7	where	13-11_advmod	waiting	WRB	O
+13-8	other	O	O	JJ	O
+13-9	people	13-11_nsubj	waiting	NNS	P8_passenger
+13-10	were	13-11_aux	waiting	VBD	O
+13-11	waiting	13-3_advcl	pulled	VBG	O
+13-12	to	13-13_aux	get	TO	O
+13-13	get	13-11_xcomp	waiting	VB	O
+13-14	on	13-13_prt	get	RP	O
+13-15	.	O	O	O	O
+
+#id=14
+#text=They waited until I got off before boarding . 
+14-1	They	14-2_nsubj	waited	PRP	P8_passenger
+14-2	waited	O	O	VBD	O
+14-3	until	14-5_mark	got	IN	O
+14-4	I	14-5_nsubj	got	PRP	P1_passenger
+14-5	got	14-2_advcl	waited	VBD	O
+14-6	off	14-5_prt	got	RP	O
+14-7	before	O	O	O	O
+14-8	boarding	14-5_prep_before	got	NN	O
+14-9	.	O	O	O	O

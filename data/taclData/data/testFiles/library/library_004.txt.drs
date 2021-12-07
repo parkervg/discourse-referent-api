@@ -1,0 +1,287 @@
+#id=1
+#text=Borrowing a book from the library is a big responsibility . 
+1-1	Borrowing	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	book	1-1_dobj	Borrowing	NN	P1_book
+1-4	from	O	O	O	O
+1-5	the	O	O	DT	O
+1-6	library	1-1_prep_from	Borrowing	NN	P1_library
+1-7	is	O	O	VBZ	O
+1-8	a	O	O	DT	O
+1-9	big	O	O	JJ	O
+1-10	responsibility	O	O	NN	P1_NPart_responsibility
+1-11	.	O	O	O	O
+
+#id=2
+#text=I got my first library card when I was in middle school . 
+2-1	I	2-2_nsubj	got	PRP	P1_customer
+2-2	got	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_customer
+2-4	first	O	O	JJ	O
+2-5	library	O	O	NN	O
+2-6	card	2-2_dobj	got	NN	P1_library_card
+2-7	when	2-9_advmod	was	WRB	O
+2-8	I	2-9_nsubj	was	PRP	P1_customer
+2-9	was	2-2_advcl	got	VBD	O
+2-10	in	O	O	O	O
+2-11	middle	O	O	JJ	O
+2-12	school	2-9_prep_in	was	NN	P1_NPart_school
+2-13	.	O	O	O	O
+
+#id=3
+#text=I could go right down the street from my house and explore everything the library had to offer . 
+3-1	I	3-3_nsubj	go	PRP	P1_customer
+3-2	could	3-3_aux	go	MD	O
+3-3	go	O	O	VB	O
+3-4	right	O	O	RB	O
+3-5	down	3-3_advmod	go	RB	O
+3-6	the	O	O	DT	O
+3-7	street	3-3_dobj	go	NN	P1_NPart_street
+3-8	from	O	O	O	O
+3-9	my	O	O	PRP$	P1_customer
+3-10	house	O	O	NN	P1_NPart_house
+3-11	and	O	O	O	O
+3-12	explore	3-3_conj_and	go	VB	O
+3-13	everything	3-12_dobj	explore	NN	O
+3-14	the	O	O	DT	O
+3-15	library	3-16_nsubj	had	NN	P1_library
+3-16	had	O	O	VBD	O
+3-17	to	3-18_aux	offer	TO	O
+3-18	offer	3-16_xcomp	had	VB	O
+3-19	.	O	O	O	O
+
+#id=4
+#text=My library has books , magazines , computers , movies , anything I need . 
+4-1	My	O	O	PRP$	P1_customer
+4-2	library	4-3_nsubj	has	NN	P1_library
+4-3	has	O	O	VBZ	O
+4-4	books	O	O	NNS	P1_book
+4-5	,	O	O	O	O
+4-6	magazines	O	O	NNS	P1_NPart_magazines
+4-7	,	O	O	O	O
+4-8	computers	O	O	NNS	P1_NPart_computers
+4-9	,	O	O	O	O
+4-10	movies	O	O	NNS	P1_NPart_movies
+4-11	,	O	O	O	O
+4-12	anything	4-3_dobj	has	NN	O
+4-13	I	4-14_nsubj	need	PRP	P1_customer
+4-14	need	O	O	VBP	O
+4-15	.	O	O	O	O
+
+#id=5
+#text=I was searching for a book around Halloween that had some fun ghost stories . 
+5-1	I	5-3_nsubj	searching	PRP	P1_customer
+5-2	was	5-3_aux	searching	VBD	O
+5-3	searching	O	O	VBG	O
+5-4	for	O	O	O	O
+5-5	a	O	O	DT	O
+5-6	book	5-3_prep_for	searching	NN	P2_book
+5-7	around	O	O	O	O
+5-8	Halloween	O	O	NNP	P1_NPart_halloween
+5-9	that	5-10_nsubj	had	WDT	O
+5-10	had	O	O	VBD	O
+5-11	some	O	O	DT	O
+5-12	fun	O	O	NN	O
+5-13	ghost	O	O	NN	O
+5-14	stories	5-10_dobj	had	NNS	P1_NPart_stories
+5-15	.	O	O	O	O
+
+#id=6
+#text=My library had the exact book I wanted ! 
+6-1	My	O	O	PRP$	P1_customer
+6-2	library	6-3_nsubj	had	NN	P1_library
+6-3	had	O	O	VBD	O
+6-4	the	O	O	DT	O
+6-5	exact	O	O	JJ	O
+6-6	book	6-3_dobj	had	NN	P2_book
+6-7	I	6-8_nsubj	wanted	PRP	P1_customer
+6-8	wanted	O	O	VBD	O
+6-9	!	O	O	O	O
+
+#id=7
+#text=The library also had some others . 
+7-1	The	O	O	DT	O
+7-2	library	7-4_nsubj	had	NN	P1_library
+7-3	also	7-4_advmod	had	RB	O
+7-4	had	O	O	VBD	O
+7-5	some	O	O	DT	O
+7-6	others	7-4_dobj	had	NNS	P1_book
+7-7	.	O	O	O	O
+
+#id=8
+#text=I sat around a table with my pile of books and looked through them . 
+8-1	I	8-2_nsubj	sat	PRP	P1_customer
+8-2	sat	O	O	VBD	O
+8-3	around	O	O	O	O
+8-4	a	O	O	DT	O
+8-5	table	8-2_prep_around	sat	NN	P1_reading_area_furniture
+8-6	with	O	O	O	O
+8-7	my	O	O	PRP$	P1_customer
+8-8	pile	8-2_prep_with	sat	NN	P1_NPart_pile
+8-9	of	O	O	O	O
+8-10	books	O	O	NNS	P1_book
+8-11	and	O	O	O	O
+8-12	looked	8-2_conj_and	sat	VBD	O
+8-13	through	O	O	O	O
+8-14	them	8-12_prep_through	looked	PRP	P1_book
+8-15	.	O	O	O	O
+
+#id=9
+#text=Finally , I could n't resist and I went to the counter with the book I had come there for . 
+9-1	Finally	9-6_advmod	resist	RB	O
+9-2	,	O	O	O	O
+9-3	I	9-6_nsubj	resist	PRP	P1_customer
+9-4	could	9-6_aux	resist	MD	O
+9-5	n't	9-6_neg	resist	RB	O
+9-6	resist	O	O	VB	O
+9-7	and	O	O	O	O
+9-8	I	9-9_nsubj	went	PRP	P1_customer
+9-9	went	9-6_conj_and	resist	VBD	O
+9-10	to	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	counter	9-9_prep_to	went	NN	P1_check-out_desk
+9-13	with	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	book	9-9_prep_with	went	NN	P2_book
+9-16	I	9-18_nsubj	come	PRP	P1_customer
+9-17	had	9-18_aux	come	VBD	O
+9-18	come	O	O	VBN	O
+9-19	there	9-18_advmod	come	RB	P1_library
+9-20	for	9-18_prep	come	IN	O
+9-21	.	O	O	O	O
+
+#id=10
+#text=The librarian was really nice as she took my card and typed into her computer . 
+10-1	The	O	O	DT	O
+10-2	librarian	O	O	NN	P1_staff
+10-3	was	O	O	VBD	O
+10-4	really	O	O	RB	O
+10-5	nice	O	O	JJ	O
+10-6	as	10-8_mark	took	IN	O
+10-7	she	10-8_nsubj	took	PRP	P1_staff
+10-8	took	O	O	VBD	O
+10-9	my	O	O	PRP$	P1_customer
+10-10	card	10-8_dobj	took	NN	P1_library_card
+10-11	and	O	O	O	O
+10-12	typed	10-8_conj_and	took	VBN	O
+10-13	into	O	O	O	O
+10-14	her	O	O	PRP$	P1_staff
+10-15	computer	10-12_prep_into	typed	NN	P1_institutional_devices
+10-16	.	O	O	O	O
+
+#id=11
+#text=I checked the book out for two weeks . 
+11-1	I	11-2_nsubj	checked	PRP	P1_customer
+11-2	checked	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	book	11-2_dobj	checked	NN	P2_book
+11-5	out	11-2_prt	checked	RP	O
+11-6	for	O	O	O	O
+11-7	two	O	O	CD	O
+11-8	weeks	11-2_prep_for	checked	NNS	P1_NPart_weeks
+11-9	.	O	O	O	O
+
+#id=12
+#text=This would give me plenty of time to enjoy it and best of all , the librarian let me know I could check it out for even longer if I needed to . 
+12-1	This	12-3_nsubj	give	DT	O
+12-2	would	12-3_aux	give	MD	O
+12-3	give	O	O	VB	O
+12-4	me	12-3_iobj	give	PRP	P1_customer
+12-5	plenty	12-3_dobj	give	RB	O
+12-6	of	O	O	O	O
+12-7	time	O	O	NN	O
+12-8	to	12-9_aux	enjoy	TO	O
+12-9	enjoy	12-3_vmod	give	VB	O
+12-10	it	12-9_dobj	enjoy	PRP	P2_book
+12-11	and	O	O	O	O
+12-12	best	12-18_nsubj	let	JJS	O
+12-13	of	O	O	O	O
+12-14	all	O	O	DT	O
+12-15	,	O	O	O	O
+12-16	the	O	O	DT	O
+12-17	librarian	O	O	NN	P1_staff
+12-18	let	12-3_conj_and	give	VBD	O
+12-19	me	12-20_nsubj	know	PRP	P1_customer
+12-20	know	12-18_ccomp	let	VBP	O
+12-21	I	12-23_nsubj	check	PRP	P1_customer
+12-22	could	12-23_aux	check	MD	O
+12-23	check	12-20_ccomp	know	VB	O
+12-24	it	12-23_dobj	check	PRP	P2_book
+12-25	out	12-23_advmod	check	IN	O
+12-26	for	O	O	IN	O
+12-27	even	O	O	VB	O
+12-28	longer	O	O	RB	O
+12-29	if	12-31_mark	needed	IN	O
+12-30	I	12-31_nsubj	needed	PRP	P1_customer
+12-31	needed	12-3_dep	give	VBD	O
+12-32	to	12-31_prep	needed	TO	O
+12-33	.	O	O	O	O
+
+#id=13
+#text=I would just have to bring the book back on the due date and have it scanned out again . 
+13-1	I	13-4_nsubj	have	PRP	P1_customer
+13-2	would	13-4_aux	have	MD	O
+13-3	just	13-4_advmod	have	RB	O
+13-4	have	O	O	VB	O
+13-5	to	13-6_aux	bring	TO	O
+13-6	bring	13-4_xcomp	have	VB	O
+13-7	the	O	O	DT	O
+13-8	book	13-6_dobj	bring	NN	P2_book
+13-9	back	13-6_prt	bring	RP	O
+13-10	on	O	O	O	O
+13-11	the	O	O	DT	O
+13-12	due	O	O	JJ	O
+13-13	date	13-6_prep_on	bring	NN	P1_return_date
+13-14	and	O	O	O	O
+13-15	have	13-6_conj_and	bring	VB	O
+13-16	it	13-17_nsubj	scanned	PRP	P2_book
+13-17	scanned	13-15_ccomp	have	VBN	O
+13-18	out	13-17_prt	scanned	RP	O
+13-19	again	13-17_advmod	scanned	RB	O
+13-20	.	O	O	O	O
+
+#id=14
+#text=I took great care of my book and returned it on time . 
+14-1	I	14-2_nsubj	took	PRP	P1_customer
+14-2	took	O	O	VBD	O
+14-3	great	O	O	JJ	O
+14-4	care	14-2_dobj	took	NN	O
+14-5	of	O	O	O	O
+14-6	my	O	O	PRP$	P1_customer
+14-7	book	O	O	NN	P2_book
+14-8	and	O	O	O	O
+14-9	returned	14-2_conj_and	took	VBD	O
+14-10	it	14-9_dobj	returned	PRP	P2_book
+14-11	on	O	O	O	O
+14-12	time	14-9_prep_on	returned	NN	O
+14-13	.	O	O	O	O
+
+#id=15
+#text=Libraries provide a great service to me and my community and I 'm thankful I can go there and always find what I want to read . 
+15-1	Libraries	15-2_nsubj	provide	NNS	P1_library
+15-2	provide	O	O	VBP	O
+15-3	a	O	O	DT	O
+15-4	great	O	O	JJ	O
+15-5	service	15-2_dobj	provide	NN	P1_NPart_service
+15-6	to	O	O	O	O
+15-7	me	15-2_prep_to	provide	PRP	P1_customer
+15-8	and	O	O	O	O
+15-9	my	O	O	PRP$	P1_customer
+15-10	community	O	O	NN	P1_NPart_community
+15-11	and	O	O	O	O
+15-12	I	O	O	PRP	P1_customer
+15-13	'm	O	O	VBP	O
+15-14	thankful	15-2_conj_and	provide	JJ	O
+15-15	I	15-17_nsubj	go	PRP	P1_customer
+15-16	can	15-17_aux	go	MD	O
+15-17	go	O	O	VB	O
+15-18	there	15-17_advmod	go	RB	P1_library
+15-19	and	O	O	O	O
+15-20	always	15-21_advmod	find	RB	O
+15-21	find	15-17_conj_and	go	VB	O
+15-22	what	15-24_dobj	want	WP	O
+15-23	I	15-24_nsubj	want	PRP	P1_customer
+15-24	want	15-21_ccomp	find	VBP	O
+15-25	to	15-26_aux	read	TO	O
+15-26	read	15-24_xcomp	want	VB	O
+15-27	.	O	O	O	O

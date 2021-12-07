@@ -1,0 +1,199 @@
+#id=1
+#text=If you love riding bikes when the weather starts getting better an important thing to know is how to repair your tire if you encounter a flat . 
+1-1	If	1-3_mark	love	IN	O
+1-2	you	1-3_nsubj	love	PRP	P1_rider
+1-3	love	1-17_csubj	is	VBP	O
+1-4	riding	1-3_xcomp	love	VBG	O
+1-5	bikes	1-4_dobj	riding	NNS	P1_bicycle
+1-6	when	1-9_advmod	starts	WRB	O
+1-7	the	O	O	DT	O
+1-8	weather	1-9_nsubj	starts	NN	P1_NPart_weather
+1-9	starts	O	O	VBZ	O
+1-10	getting	1-9_xcomp	starts	VBG	O
+1-11	better	1-10_advmod	getting	RBR	O
+1-12	an	O	O	DT	O
+1-13	important	O	O	JJ	O
+1-14	thing	1-10_dobj	getting	NN	O
+1-15	to	1-16_aux	know	TO	O
+1-16	know	O	O	VB	O
+1-17	is	O	O	VBZ	O
+1-18	how	1-20_advmod	repair	WRB	O
+1-19	to	1-20_aux	repair	TO	O
+1-20	repair	1-17_ccomp	is	VB	O
+1-21	your	O	O	PRP$	P1_rider
+1-22	tire	1-20_dobj	repair	NN	P1_tire
+1-23	if	1-25_mark	encounter	IN	O
+1-24	you	1-25_nsubj	encounter	PRP	P1_NPart_you
+1-25	encounter	1-20_advcl	repair	VB	O
+1-26	a	O	O	DT	O
+1-27	flat	1-25_dobj	encounter	JJ	P1_other
+1-28	.	O	O	O	O
+
+#id=2
+#text=Head on over to your local auto shop and find a patch kit , and make sure to invest in an air pump if you do n't have one . 
+2-1	Head	O	O	VB	O
+2-2	on	2-1_prt	Head	RP	O
+2-3	over	2-1_prt	Head	RP	O
+2-4	to	O	O	O	O
+2-5	your	O	O	PRP$	P1_rider
+2-6	local	O	O	JJ	O
+2-7	auto	O	O	NN	O
+2-8	shop	2-1_prep_to	Head	NN	P1_shop
+2-9	and	O	O	O	O
+2-10	find	2-1_conj_and	Head	VB	O
+2-11	a	O	O	DT	O
+2-12	patch	O	O	NN	O
+2-13	kit	2-10_dobj	find	NN	P1_tool
+2-14	,	O	O	O	O
+2-15	and	O	O	O	O
+2-16	make	2-1_conj_and	Head	VB	O
+2-17	sure	2-16_acomp	make	JJ	O
+2-18	to	2-19_aux	invest	TO	O
+2-19	invest	O	O	VB	O
+2-20	in	O	O	O	O
+2-21	an	O	O	DT	O
+2-22	air	O	O	NN	O
+2-23	pump	2-19_prep_in	invest	NN	P2_tool
+2-24	if	2-28_mark	have	IN	O
+2-25	you	2-28_nsubj	have	PRP	P1_rider
+2-26	do	2-28_aux	have	VBP	O
+2-27	n't	2-28_neg	have	RB	O
+2-28	have	2-16_advcl	make	VB	O
+2-29	one	2-28_dobj	have	CD	O
+2-30	.	O	O	O	O
+
+#id=3
+#text=Sometimes the bike tire will go flat by losing air due to weather conditions . 
+3-1	Sometimes	3-6_advmod	go	RB	O
+3-2	the	O	O	DT	O
+3-3	bike	O	O	NN	O
+3-4	tire	3-6_nsubj	go	NN	P1_tire
+3-5	will	3-6_aux	go	MD	O
+3-6	go	O	O	VB	O
+3-7	flat	3-6_acomp	go	JJ	O
+3-8	by	O	O	O	O
+3-9	losing	O	O	VBG	O
+3-10	air	O	O	NN	P1_air
+3-11	due	3-9_xcomp	losing	JJ	O
+3-12	to	3-13_aux	weather	TO	O
+3-13	weather	O	O	VB	O
+3-14	conditions	3-13_dobj	weather	NNS	P1_NPart_conditions
+3-15	.	O	O	O	O
+
+#id=4
+#text=If this is your case , simply unscrew the cap and pump more air into the tire . 
+4-1	If	O	O	IN	O
+4-2	this	O	O	DT	O
+4-3	is	O	O	VBZ	O
+4-4	your	O	O	PRP$	P1_rider
+4-5	case	4-8_advcl	unscrew	NN	O
+4-6	,	O	O	O	O
+4-7	simply	4-8_advmod	unscrew	RB	O
+4-8	unscrew	O	O	VB	O
+4-9	the	O	O	DT	O
+4-10	cap	4-8_dobj	unscrew	NN	P1_bicycle_small_detail
+4-11	and	O	O	O	O
+4-12	pump	4-8_conj_and	unscrew	VB	O
+4-13	more	O	O	JJR	O
+4-14	air	4-12_dobj	pump	NN	P1_air
+4-15	into	O	O	O	O
+4-16	the	O	O	DT	O
+4-17	tire	4-12_prep_into	pump	NN	P1_tire
+4-18	.	O	O	O	O
+
+#id=5
+#text=If you have a puncture in a tire then you will need to try patching . 
+5-1	If	5-3_mark	have	IN	O
+5-2	you	5-3_nsubj	have	PRP	P1_rider
+5-3	have	5-12_advcl	need	VBP	O
+5-4	a	O	O	DT	O
+5-5	puncture	5-3_dobj	have	NN	P1_damage
+5-6	in	O	O	O	O
+5-7	a	O	O	DT	O
+5-8	tire	O	O	NN	P1_tire
+5-9	then	O	O	RB	O
+5-10	you	5-12_nsubj	need	PRP	P1_rider
+5-11	will	5-12_aux	need	MD	O
+5-12	need	O	O	VB	O
+5-13	to	5-14_aux	try	TO	O
+5-14	try	5-12_xcomp	need	VB	O
+5-15	patching	5-14_dobj	try	NN	O
+5-16	.	O	O	O	O
+
+#id=6
+#text=By using the kit you just purchased you can find the problem area , install a mesh patch over it , and use the kit to fuse it to the tire . 
+6-1	By	O	O	O	O
+6-2	using	6-7_prepc_by	purchased	VBG	O
+6-3	the	O	O	DT	O
+6-4	kit	6-2_dobj	using	NN	P1_tool
+6-5	you	6-7_nsubj	purchased	PRP	P1_rider
+6-6	just	6-7_advmod	purchased	RB	O
+6-7	purchased	O	O	VBD	O
+6-8	you	6-10_nsubj	find	PRP	P1_rider
+6-9	can	6-10_aux	find	MD	O
+6-10	find	6-7_ccomp	purchased	VB	O
+6-11	the	O	O	DT	O
+6-12	problem	O	O	NN	O
+6-13	area	6-10_dobj	find	NN	P1_NPart_area
+6-14	,	O	O	O	O
+6-15	install	6-10_conj_and	find	VB	O
+6-16	a	O	O	DT	O
+6-17	mesh	O	O	NN	O
+6-18	patch	6-15_dobj	install	NN	P1_patch
+6-19	over	O	O	O	O
+6-20	it	6-15_prep_over	install	PRP	P1_NPart_it
+6-21	,	O	O	O	O
+6-22	and	O	O	O	O
+6-23	use	6-10_conj_and	find	VB	O
+6-24	the	O	O	DT	O
+6-25	kit	6-23_dobj	use	NN	P1_tool
+6-26	to	6-27_aux	fuse	TO	O
+6-27	fuse	O	O	VB	O
+6-28	it	6-27_dobj	fuse	PRP	P1_patch
+6-29	to	O	O	O	O
+6-30	the	O	O	DT	O
+6-31	tire	6-27_prep_to	fuse	NN	P1_tire
+6-32	.	O	O	O	O
+
+#id=7
+#text=Once it has been applied you can fill the tire with air and enjoy your bike again . 
+7-1	Once	7-5_mark	applied	IN	O
+7-2	it	7-5_nsubjpass	applied	PRP	P1_patch
+7-3	has	7-5_aux	applied	VBZ	O
+7-4	been	7-5_auxpass	applied	VBN	O
+7-5	applied	7-8_advcl	fill	VBN	O
+7-6	you	7-8_nsubj	fill	PRP	P1_rider
+7-7	can	7-8_aux	fill	MD	O
+7-8	fill	O	O	VB	O
+7-9	the	O	O	DT	O
+7-10	tire	7-8_dobj	fill	NN	P1_tire
+7-11	with	O	O	O	O
+7-12	air	7-8_prep_with	fill	NN	P2_air
+7-13	and	O	O	O	O
+7-14	enjoy	7-8_conj_and	fill	VB	O
+7-15	your	O	O	PRP$	P1_rider
+7-16	bike	7-14_dobj	enjoy	NN	P2_bicycle
+7-17	again	7-14_advmod	enjoy	RB	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=If the tire is still losing air then you will unfortunately need to invest in a new tire . 
+8-1	If	8-6_mark	losing	IN	O
+8-2	the	O	O	DT	O
+8-3	tire	8-6_nsubj	losing	NN	P1_tire
+8-4	is	8-6_aux	losing	VBZ	O
+8-5	still	8-6_advmod	losing	RB	O
+8-6	losing	8-12_advcl	need	VBG	O
+8-7	air	8-6_dobj	losing	NN	P1_air
+8-8	then	8-6_advmod	losing	RB	O
+8-9	you	8-12_nsubj	need	PRP	P1_rider
+8-10	will	8-12_aux	need	MD	O
+8-11	unfortunately	8-12_advmod	need	RB	O
+8-12	need	O	O	VB	O
+8-13	to	8-14_aux	invest	TO	O
+8-14	invest	8-12_xcomp	need	VB	O
+8-15	in	O	O	O	O
+8-16	a	O	O	DT	O
+8-17	new	O	O	JJ	O
+8-18	tire	8-14_prep_in	invest	NN	P1_spare_tube
+8-19	.	O	O	O	O

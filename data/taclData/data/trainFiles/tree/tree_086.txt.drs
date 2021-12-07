@@ -1,0 +1,257 @@
+#id=1
+#text=On Arbor Day this year , I decided to plant a new tree in my front yard . 
+1-1	On	O	O	O	O
+1-2	Arbor	O	O	NNP	O
+1-3	Day	1-8_prep_on	decided	NNP	P1_time
+1-4	this	O	O	DT	O
+1-5	year	1-8_tmod	decided	NN	P2_time
+1-6	,	O	O	O	O
+1-7	I	1-8_nsubj	decided	PRP	P1_gardener
+1-8	decided	O	O	VBD	O
+1-9	to	1-10_aux	plant	TO	O
+1-10	plant	1-8_xcomp	decided	VB	O
+1-11	a	O	O	DT	O
+1-12	new	O	O	JJ	O
+1-13	tree	1-10_dobj	plant	NN	P1_tree
+1-14	in	O	O	O	O
+1-15	my	O	O	PRP$	P1_gardener
+1-16	front	O	O	JJ	O
+1-17	yard	1-10_prep_in	plant	NN	P1_location_garden
+1-18	.	O	O	O	O
+
+#id=2
+#text=I went out and dug a hole where I decided the tree would go , and I kept the dirt I dug up off to the side for easy access to replant with . 
+2-1	I	2-2_nsubj	went	PRP	P1_gardener
+2-2	went	O	O	VBD	O
+2-3	out	2-2_prt	went	RP	O
+2-4	and	O	O	O	O
+2-5	dug	2-2_conj_and	went	VBD	O
+2-6	a	O	O	DT	O
+2-7	hole	2-5_dobj	dug	NN	P1_hole
+2-8	where	2-10_advmod	decided	WRB	O
+2-9	I	2-10_nsubj	decided	PRP	P1_gardener
+2-10	decided	2-5_advcl	dug	VBD	O
+2-11	the	O	O	DT	O
+2-12	tree	2-14_nsubj	go	NN	P1_tree
+2-13	would	2-14_aux	go	MD	O
+2-14	go	2-10_ccomp	decided	VB	O
+2-15	,	O	O	O	O
+2-16	and	O	O	O	O
+2-17	I	2-18_nsubj	kept	PRP	P1_gardener
+2-18	kept	2-2_conj_and	went	VBD	O
+2-19	the	O	O	DT	O
+2-20	dirt	2-18_dobj	kept	NN	P1_dirt
+2-21	I	2-22_nsubj	dug	PRP	P1_gardener
+2-22	dug	O	O	VBD	O
+2-23	up	O	O	RB	O
+2-24	off	2-22_advmod	dug	RB	O
+2-25	to	O	O	O	O
+2-26	the	O	O	DT	O
+2-27	side	2-22_prep_to	dug	NN	P1_NPart_side
+2-28	for	O	O	O	O
+2-29	easy	O	O	JJ	O
+2-30	access	O	O	NN	P1_NPart_access
+2-31	to	2-32_aux	replant	TO	O
+2-32	replant	2-22_xcomp	dug	VB	O
+2-33	with	2-32_prep	replant	IN	O
+2-34	.	O	O	O	O
+
+#id=3
+#text=I got in my car and drove to the local nursery to look at trees . 
+3-1	I	3-2_nsubj	got	PRP	P1_gardener
+3-2	got	O	O	VBD	O
+3-3	in	O	O	O	O
+3-4	my	O	O	PRP$	P1_gardener
+3-5	car	3-2_prep_in	got	NN	P1_NPart_car
+3-6	and	O	O	O	O
+3-7	drove	3-2_conj_and	got	VBD	O
+3-8	to	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	local	O	O	JJ	O
+3-11	nursery	3-7_prep_to	drove	NN	P1_shop
+3-12	to	3-13_aux	look	TO	O
+3-13	look	3-7_xcomp	drove	VB	O
+3-14	at	O	O	O	O
+3-15	trees	3-13_prep_at	look	NNS	P1_tree
+3-16	.	O	O	O	O
+
+#id=4
+#text=I had an idea of what I wanted in mind , but they had so many different trees when I got there that I had a very hard time deciding . 
+4-1	I	4-2_nsubj	had	PRP	P1_gardener
+4-2	had	O	O	VBD	O
+4-3	an	O	O	DT	O
+4-4	idea	4-2_dobj	had	NN	P1_NPart_idea
+4-5	of	O	O	O	O
+4-6	what	4-8_dobj	wanted	WP	O
+4-7	I	4-8_nsubj	wanted	PRP	P1_gardener
+4-8	wanted	O	O	VBD	O
+4-9	in	O	O	O	O
+4-10	mind	4-8_prep_in	wanted	NN	P1_NPart_mind
+4-11	,	O	O	O	O
+4-12	but	O	O	O	O
+4-13	they	4-14_nsubj	had	PRP	P1_NPart_they
+4-14	had	4-2_conj_but	had	VBD	O
+4-15	so	O	O	RB	O
+4-16	many	O	O	JJ	O
+4-17	different	O	O	JJ	O
+4-18	trees	4-14_dobj	had	NNS	P1_tree
+4-19	when	4-21_advmod	got	WRB	O
+4-20	I	4-21_nsubj	got	PRP	P1_gardener
+4-21	got	O	O	VBD	O
+4-22	there	4-21_advmod	got	RB	P1_shop
+4-23	that	4-25_mark	had	IN	O
+4-24	I	4-25_nsubj	had	PRP	P1_gardener
+4-25	had	4-21_ccomp	got	VBD	O
+4-26	a	O	O	DT	O
+4-27	very	O	O	RB	O
+4-28	hard	O	O	JJ	O
+4-29	time	4-25_dobj	had	NN	O
+4-30	deciding	O	O	VBG	O
+4-31	.	O	O	O	O
+
+#id=5
+#text=Finally , I just decided to go with the tree I had originally planned to purchase . 
+5-1	Finally	5-5_advmod	decided	RB	O
+5-2	,	O	O	O	O
+5-3	I	5-5_nsubj	decided	PRP	P1_gardener
+5-4	just	5-5_advmod	decided	RB	O
+5-5	decided	O	O	VBD	O
+5-6	to	5-7_aux	go	TO	O
+5-7	go	5-5_xcomp	decided	VB	O
+5-8	with	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	tree	5-7_prep_with	go	NN	P1_tree
+5-11	I	5-14_nsubj	planned	PRP	P1_gardener
+5-12	had	5-14_aux	planned	VBD	O
+5-13	originally	5-14_advmod	planned	RB	O
+5-14	planned	O	O	VBN	O
+5-15	to	5-16_aux	purchase	TO	O
+5-16	purchase	5-14_xcomp	planned	VB	O
+5-17	.	O	O	O	O
+
+#id=6
+#text=I went to the cashier and paid for the tree and loaded it in my truck to drive home . 
+6-1	I	6-2_nsubj	went	PRP	P1_gardener
+6-2	went	O	O	VBD	O
+6-3	to	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	cashier	6-2_prep_to	went	NN	P1_staff
+6-6	and	O	O	O	O
+6-7	paid	6-2_conj_and	went	VBN	O
+6-8	for	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	tree	6-7_prep_for	paid	NN	P1_tree
+6-11	and	O	O	O	O
+6-12	loaded	6-7_conj_and	paid	VBN	O
+6-13	it	6-12_dobj	loaded	PRP	P1_tree
+6-14	in	O	O	O	O
+6-15	my	O	O	PRP$	P1_gardener
+6-16	truck	6-12_prep_in	loaded	NN	P1_NPart_truck
+6-17	to	6-18_aux	drive	TO	O
+6-18	drive	O	O	VB	O
+6-19	home	6-18_dobj	drive	NN	O
+6-20	.	O	O	O	O
+
+#id=7
+#text=Once I got home , I brought the tree out to the spot in my yard where I had dug the hole . 
+7-1	Once	7-3_mark	got	IN	O
+7-2	I	7-3_nsubj	got	PRP	P1_gardener
+7-3	got	7-7_advcl	brought	VBD	O
+7-4	home	7-3_dobj	got	NN	O
+7-5	,	O	O	O	O
+7-6	I	7-7_nsubj	brought	PRP	P1_gardener
+7-7	brought	O	O	VBD	O
+7-8	the	O	O	DT	O
+7-9	tree	7-7_dobj	brought	NN	P1_tree
+7-10	out	7-7_prt	brought	RP	O
+7-11	to	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	spot	7-7_prep_to	brought	NN	O
+7-14	in	O	O	O	O
+7-15	my	O	O	PRP$	P1_gardener
+7-16	yard	O	O	NN	P2_location_garden
+7-17	where	7-20_advmod	dug	WRB	O
+7-18	I	7-20_nsubj	dug	PRP	P1_gardener
+7-19	had	7-20_aux	dug	VBD	O
+7-20	dug	7-7_advcl	brought	VBD	O
+7-21	the	O	O	DT	O
+7-22	hole	7-20_dobj	dug	NN	P2_hole
+7-23	.	O	O	O	O
+
+#id=8
+#text=I unwrapped the bottom of the tree that had been wrapped up to prevent a mess , and I placed it in the dirt . 
+8-1	I	8-2_nsubj	unwrapped	PRP	P1_gardener
+8-2	unwrapped	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	bottom	8-2_dobj	unwrapped	NN	P1_NPart_bottom
+8-5	of	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	tree	O	O	NN	P1_tree
+8-8	that	8-11_nsubjpass	wrapped	WDT	O
+8-9	had	8-11_aux	wrapped	VBD	O
+8-10	been	8-11_auxpass	wrapped	VBN	O
+8-11	wrapped	O	O	VBN	O
+8-12	up	8-11_prt	wrapped	RP	O
+8-13	to	8-14_aux	prevent	TO	O
+8-14	prevent	8-11_xcomp	wrapped	VB	O
+8-15	a	O	O	DT	O
+8-16	mess	8-14_dobj	prevent	NN	P1_NPart_mess
+8-17	,	O	O	O	O
+8-18	and	O	O	O	O
+8-19	I	8-20_nsubj	placed	PRP	P1_gardener
+8-20	placed	8-2_conj_and	unwrapped	VBD	O
+8-21	it	8-20_dobj	placed	PRP	P2_tree
+8-22	in	O	O	O	O
+8-23	the	O	O	DT	O
+8-24	dirt	8-20_prep_in	placed	NN	P2_dirt
+8-25	.	O	O	O	O
+
+#id=9
+#text=I packed the dirt I had dug up around the bottom of the tree to keep it secure , and I watered it and tied some stakes up to keep the tree level and upright . 
+9-1	I	9-2_nsubj	packed	PRP	P3_gardener
+9-2	packed	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	dirt	9-2_dobj	packed	NN	P2_dirt
+9-5	I	9-7_nsubj	dug	PRP	P4_gardener
+9-6	had	9-7_aux	dug	VBD	O
+9-7	dug	O	O	VBD	O
+9-8	up	9-7_prt	dug	RP	O
+9-9	around	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	bottom	9-7_prep_around	dug	NN	P2_NPart_bottom
+9-12	of	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	tree	O	O	NN	P1_tree
+9-15	to	9-16_aux	keep	TO	O
+9-16	keep	9-7_xcomp	dug	VB	O
+9-17	it	O	O	PRP	P1_tree
+9-18	secure	9-16_xcomp	keep	JJ	O
+9-19	,	O	O	O	O
+9-20	and	O	O	O	O
+9-21	I	9-22_nsubj	watered	PRP	P5_gardener
+9-22	watered	9-2_conj_and	packed	VBD	O
+9-23	it	9-22_dobj	watered	PRP	P1_tree
+9-24	and	O	O	O	O
+9-25	tied	9-22_conj_and	watered	VBD	O
+9-26	some	O	O	DT	O
+9-27	stakes	9-25_dobj	tied	NNS	P1_stake
+9-28	up	9-25_advmod	tied	RB	O
+9-29	to	9-30_aux	keep	TO	O
+9-30	keep	9-25_vmod	tied	VB	O
+9-31	the	O	O	DT	O
+9-32	tree	O	O	NN	P1_tree
+9-33	level	9-30_dobj	keep	NN	O
+9-34	and	O	O	O	O
+9-35	upright	O	O	NN	O
+9-36	.	O	O	O	O
+
+#id=10
+#text=That 's how I planted a tree . 
+10-1	That	10-2_nsubj	's	DT	O
+10-2	's	O	O	VBZ	O
+10-3	how	10-5_advmod	planted	WRB	O
+10-4	I	10-5_nsubj	planted	PRP	P6_gardener
+10-5	planted	10-2_ccomp	's	VBD	O
+10-6	a	O	O	DT	O
+10-7	tree	10-5_dobj	planted	NN	P1_tree
+10-8	.	O	O	O	O

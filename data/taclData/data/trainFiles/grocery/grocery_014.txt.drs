@@ -1,0 +1,248 @@
+#id=1
+#text=Today I went grocery shopping . 
+1-1	Today	1-3_tmod	went	NN	P1_NPart_today
+1-2	I	1-3_nsubj	went	PRP	P1_shopper
+1-3	went	O	O	VBD	O
+1-4	grocery	O	O	NN	P1_groceries
+1-5	shopping	1-3_dobj	went	NN	O
+1-6	.	O	O	O	O
+
+#id=2
+#text=I do most of my grocery shopping at Wal-Mart . 
+2-1	I	2-2_nsubj	do	PRP	P1_shopper
+2-2	do	O	O	VBP	O
+2-3	most	2-2_dobj	do	JJS	O
+2-4	of	O	O	O	O
+2-5	my	O	O	PRP$	P1_shopper
+2-6	grocery	O	O	NN	O
+2-7	shopping	O	O	NN	O
+2-8	at	O	O	O	O
+2-9	Wal-Mart	2-2_prep_at	do	NNP	P1_grocery_shop
+2-10	.	O	O	O	O
+
+#id=3
+#text=Unlike most people , I do n't make a list - I just grab my wallet and think about what I need , and run to the next bus and go ! 
+3-1	Unlike	O	O	O	O
+3-2	most	O	O	JJS	O
+3-3	people	3-8_prep_unlike	make	NNS	P1_NPart_people
+3-4	,	O	O	O	O
+3-5	I	3-8_nsubj	make	PRP	P2_grocery_shop
+3-6	do	3-8_aux	make	VBP	O
+3-7	n't	3-8_neg	make	RB	O
+3-8	make	O	O	VB	O
+3-9	a	O	O	DT	O
+3-10	list	3-8_dobj	make	NN	P1_grocery_list
+3-11	-	O	O	O	O
+3-12	I	3-14_nsubj	grab	PRP	P1_shopper
+3-13	just	3-14_advmod	grab	RB	O
+3-14	grab	3-8_parataxis	make	VB	O
+3-15	my	O	O	PRP$	P1_shopper
+3-16	wallet	3-14_dobj	grab	NN	P1_NPart_wallet
+3-17	and	O	O	O	O
+3-18	think	3-14_conj_and	grab	VB	O
+3-19	about	O	O	O	O
+3-20	what	3-22_dobj	need	WP	O
+3-21	I	3-22_nsubj	need	PRP	P1_shopper
+3-22	need	3-18_prepc_about	think	VBP	O
+3-23	,	O	O	O	O
+3-24	and	O	O	O	O
+3-25	run	3-14_conj_and	grab	VB	O
+3-26	to	O	O	O	O
+3-27	the	O	O	DT	O
+3-28	next	O	O	JJ	O
+3-29	bus	3-25_prep_to	run	NN	P1_NPart_bus
+3-30	and	O	O	O	O
+3-31	go	3-25_conj_and	run	VB	O
+3-32	!	O	O	O	O
+
+#id=4
+#text=Once I 'm there , I made sure I got the essentials : milk , cereal , meats , things to make meals with meats , et cetera . 
+4-1	Once	4-3_mark	'm	IN	O
+4-2	I	4-3_nsubj	'm	PRP	P1_shopper
+4-3	'm	4-7_advcl	made	VBP	O
+4-4	there	4-3_advmod	'm	RB	P1_grocery_shop
+4-5	,	O	O	O	O
+4-6	I	4-7_nsubj	made	PRP	P1_shopper
+4-7	made	O	O	VBD	O
+4-8	sure	4-7_acomp	made	JJ	O
+4-9	I	4-10_nsubj	got	PRP	P1_shopper
+4-10	got	O	O	VBD	O
+4-11	the	O	O	DT	O
+4-12	essentials	4-10_dobj	got	NNS	P2_groceries
+4-13	:	O	O	O	O
+4-14	milk	4-18_nsubj	meats	NN	P3_groceries
+4-15	,	O	O	O	O
+4-16	cereal	O	O	NN	P4_groceries
+4-17	,	O	O	O	O
+4-18	meats	4-7_parataxis	made	VBZ	P5_groceries
+4-19	,	O	O	O	O
+4-20	things	4-18_dobj	meats	NNS	P6_groceries
+4-21	to	4-22_aux	make	TO	O
+4-22	make	4-18_xcomp	meats	VB	O
+4-23	meals	4-22_dobj	make	NNS	P1_NPart_meals
+4-24	with	O	O	O	O
+4-25	meats	4-22_prep_with	make	NNS	P5_groceries
+4-26	,	O	O	O	O
+4-27	et	O	O	O	O
+4-28	cetera	O	O	NN	O
+4-29	.	O	O	O	O
+
+#id=5
+#text=I had some leftover money as well , so I grabbed some fun stuff too : frozen pizza , ice cream for dessert , and a few big bottles of soda . 
+5-1	I	5-2_nsubj	had	PRP	P1_shopper
+5-2	had	O	O	VBD	O
+5-3	some	O	O	DT	O
+5-4	leftover	O	O	NN	O
+5-5	money	5-2_dobj	had	NN	P1_payment_means
+5-6	as	O	O	RB	O
+5-7	well	5-2_advmod	had	RB	O
+5-8	,	O	O	O	O
+5-9	so	5-2_dep	had	IN	O
+5-10	I	5-11_nsubj	grabbed	PRP	P1_shopper
+5-11	grabbed	5-2_parataxis	had	VBD	O
+5-12	some	O	O	DT	O
+5-13	fun	O	O	NN	O
+5-14	stuff	5-11_dobj	grabbed	NN	P7_groceries
+5-15	too	5-11_advmod	grabbed	RB	O
+5-16	:	O	O	O	O
+5-17	frozen	O	O	VBN	O
+5-18	pizza	5-11_dobj	grabbed	NN	P8_groceries
+5-19	,	O	O	O	O
+5-20	ice	O	O	NN	O
+5-21	cream	O	O	NN	P9_groceries
+5-22	for	O	O	O	O
+5-23	dessert	O	O	NN	P1_NPart_dessert
+5-24	,	O	O	O	O
+5-25	and	O	O	O	O
+5-26	a	O	O	DT	O
+5-27	few	O	O	JJ	O
+5-28	big	O	O	JJ	O
+5-29	bottles	O	O	NNS	P1_packing
+5-30	of	O	O	O	O
+5-31	soda	O	O	NN	P10_groceries
+5-32	.	O	O	O	O
+
+#id=6
+#text=After that , I got in line at self-checkout , scanned and bagged everything , and paid with my debit card . 
+6-1	After	O	O	O	O
+6-2	that	6-5_prep_after	got	DT	O
+6-3	,	O	O	O	O
+6-4	I	6-5_nsubj	got	PRP	P1_shopper
+6-5	got	O	O	VBD	O
+6-6	in	O	O	O	O
+6-7	line	6-5_prep_in	got	NN	P1_line
+6-8	at	O	O	O	O
+6-9	self-checkout	O	O	JJ	P1_cash_desk
+6-10	,	O	O	O	O
+6-11	scanned	O	O	JJ	O
+6-12	and	O	O	O	O
+6-13	bagged	O	O	JJ	O
+6-14	everything	6-5_prep_at	got	NN	P11_groceries
+6-15	,	O	O	O	O
+6-16	and	O	O	O	O
+6-17	paid	6-5_conj_and	got	VBD	O
+6-18	with	O	O	O	O
+6-19	my	O	O	PRP$	P1_shopper
+6-20	debit	O	O	JJ	O
+6-21	card	6-17_prep_with	paid	NN	P2_payment_means
+6-22	.	O	O	O	O
+
+#id=7
+#text=After that , I hauled my groceries outside to wait for the bus home , stopping to check the time . 
+7-1	After	O	O	O	O
+7-2	that	7-5_prep_after	hauled	DT	O
+7-3	,	O	O	O	O
+7-4	I	7-5_nsubj	hauled	PRP	P1_shopper
+7-5	hauled	O	O	VBD	O
+7-6	my	O	O	PRP$	P1_shopper
+7-7	groceries	7-5_dobj	hauled	NNS	P11_groceries
+7-8	outside	O	O	O	O
+7-9	to	7-10_aux	wait	TO	O
+7-10	wait	7-5_prep_outside	hauled	VB	O
+7-11	for	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	bus	O	O	NN	P2_NPart_bus
+7-14	home	7-10_prep_for	wait	NN	P1_NPart_home
+7-15	,	O	O	O	O
+7-16	stopping	7-5_vmod	hauled	VBG	O
+7-17	to	7-18_aux	check	TO	O
+7-18	check	7-16_xcomp	stopping	VB	O
+7-19	the	O	O	DT	O
+7-20	time	7-18_dobj	check	NN	P1_NPart_time
+7-21	.	O	O	O	O
+
+#id=8
+#text=I played some hand-held video games for about 5 minutes at the bus stop and getting on . 
+8-1	I	8-2_nsubj	played	PRP	P1_shopper
+8-2	played	O	O	VBD	O
+8-3	some	O	O	DT	O
+8-4	hand-held	O	O	JJ	O
+8-5	video	O	O	NN	O
+8-6	games	8-2_dobj	played	NNS	P1_NPart_games
+8-7	for	O	O	O	O
+8-8	about	O	O	RB	O
+8-9	5	O	O	CD	O
+8-10	minutes	8-2_prep_for	played	NNS	P1_NPart_minutes
+8-11	at	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	bus	O	O	NN	O
+8-14	stop	8-2_prep_at	played	NN	P1_NPart_stop
+8-15	and	O	O	O	O
+8-16	getting	8-2_conj_and	played	VBG	O
+8-17	on	8-16_prt	getting	RP	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=Once I was a block away from home , I got off the bus and carried my groceries in , putting cold things in the fridge , frozen things in the freezer , and everything else in the cabinets . 
+9-1	Once	9-3_mark	was	IN	O
+9-2	I	9-3_nsubj	was	PRP	P1_shopper
+9-3	was	9-11_advcl	got	VBD	O
+9-4	a	O	O	DT	O
+9-5	block	9-3_npadvmod	was	NN	P1_NPart_block
+9-6	away	O	O	O	O
+9-7	from	O	O	O	O
+9-8	home	9-3_prep_away_from	was	NN	P1_NPart_home
+9-9	,	O	O	O	O
+9-10	I	9-11_nsubj	got	PRP	P1_shopper
+9-11	got	O	O	VBD	O
+9-12	off	9-11_prt	got	RP	O
+9-13	the	O	O	DT	O
+9-14	bus	9-11_dobj	got	NN	P2_NPart_bus
+9-15	and	O	O	O	O
+9-16	carried	9-11_conj_and	got	VBD	O
+9-17	my	O	O	PRP$	P1_shopper
+9-18	groceries	9-16_dobj	carried	NNS	P11_groceries
+9-19	in	9-16_prep	carried	IN	O
+9-20	,	O	O	O	O
+9-21	putting	9-16_dep	carried	VBG	O
+9-22	cold	O	O	JJ	O
+9-23	things	9-21_dobj	putting	NNS	P12_groceries
+9-24	in	O	O	O	O
+9-25	the	O	O	DT	O
+9-26	fridge	O	O	NN	P1_NPart_fridge
+9-27	,	O	O	O	O
+9-28	frozen	O	O	JJ	O
+9-29	things	O	O	NNS	P13_groceries
+9-30	in	O	O	O	O
+9-31	the	O	O	DT	O
+9-32	freezer	O	O	NN	P1_NPart_freezer
+9-33	,	O	O	O	O
+9-34	and	O	O	O	O
+9-35	everything	O	O	NN	P14_groceries
+9-36	else	O	O	RB	O
+9-37	in	O	O	O	O
+9-38	the	O	O	DT	O
+9-39	cabinets	O	O	NNS	P1_NPart_cabinets
+9-40	.	O	O	O	O
+
+#id=10
+#text=Phew . 
+10-1	Phew	O	O	O	O
+10-2	.	O	O	O	O
+
+#id=11
+#text=What a chore ! 
+11-1	What	O	O	WP	O
+11-2	a	O	O	DT	O
+11-3	chore	O	O	NN	P1_NPart_chore
+11-4	!	O	O	O	O

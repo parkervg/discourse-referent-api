@@ -1,0 +1,204 @@
+#id=1
+#text=Last year I moved into a new house with my husband and my son . 
+1-1	Last	O	O	JJ	O
+1-2	year	1-4_tmod	moved	NN	P1_NPart_year
+1-3	I	1-4_nsubj	moved	PRP	P1_gardener
+1-4	moved	O	O	VBD	O
+1-5	into	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	new	O	O	JJ	O
+1-8	house	1-4_prep_into	moved	NN	P1_NPart_house
+1-9	with	O	O	O	O
+1-10	my	O	O	PRP$	P1_gardener
+1-11	husband	1-4_prep_with	moved	NN	P2_gardener
+1-12	and	O	O	O	O
+1-13	my	O	O	PRP$	P1_gardener
+1-14	son	O	O	NN	P3_gardener
+1-15	.	O	O	O	O
+
+#id=2
+#text=We decided that we wanted to start a garden . 
+2-1	We	2-2_nsubj	decided	PRP	P4_gardener
+2-2	decided	O	O	VBD	O
+2-3	that	2-5_mark	wanted	IN	O
+2-4	we	2-5_nsubj	wanted	PRP	P4_gardener
+2-5	wanted	2-2_ccomp	decided	VBD	O
+2-6	to	2-7_aux	start	TO	O
+2-7	start	2-5_xcomp	wanted	VB	O
+2-8	a	O	O	DT	O
+2-9	garden	2-7_dobj	start	NN	P1_location_garden
+2-10	.	O	O	O	O
+
+#id=3
+#text=We planted flowers and vegetables , and we decided we would add a tree next to the garden . 
+3-1	We	3-2_nsubj	planted	PRP	P4_gardener
+3-2	planted	O	O	VBD	O
+3-3	flowers	3-2_dobj	planted	NNS	P1_NPart_flowers
+3-4	and	O	O	O	O
+3-5	vegetables	O	O	NNS	P1_NPart_vegetables
+3-6	,	O	O	O	O
+3-7	and	O	O	O	O
+3-8	we	3-9_nsubj	decided	PRP	P4_gardener
+3-9	decided	3-2_conj_and	planted	VBD	O
+3-10	we	3-12_nsubj	add	PRP	P4_gardener
+3-11	would	3-12_aux	add	MD	O
+3-12	add	3-9_ccomp	decided	VB	O
+3-13	a	O	O	DT	O
+3-14	tree	3-12_dobj	add	NN	P1_tree
+3-15	next	O	O	O	O
+3-16	to	O	O	O	O
+3-17	the	O	O	DT	O
+3-18	garden	3-12_prep_next_to	add	NN	P1_location_garden
+3-19	.	O	O	O	O
+
+#id=4
+#text=We knew that the tree would be a nice addition to the garden . 
+4-1	We	4-2_nsubj	knew	PRP	P4_gardener
+4-2	knew	O	O	VBD	O
+4-3	that	O	O	IN	O
+4-4	the	O	O	DT	O
+4-5	tree	O	O	NN	P1_tree
+4-6	would	O	O	MD	O
+4-7	be	O	O	VB	O
+4-8	a	O	O	DT	O
+4-9	nice	O	O	JJ	O
+4-10	addition	4-2_ccomp	knew	NN	P1_NPart_addition
+4-11	to	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	garden	O	O	NN	P1_location_garden
+4-14	.	O	O	O	O
+
+#id=5
+#text=Since I was unfamiliar with planting trees , I decided to look up different types of trees I could plant . 
+5-1	Since	5-4_mark	unfamiliar	IN	O
+5-2	I	5-4_nsubjpass	unfamiliar	PRP	P1_gardener
+5-3	was	5-4_auxpass	unfamiliar	VBD	O
+5-4	unfamiliar	5-10_advcl	decided	VBN	O
+5-5	with	O	O	O	O
+5-6	planting	O	O	NN	O
+5-7	trees	5-4_prep_with	unfamiliar	NNS	P1_tree
+5-8	,	O	O	O	O
+5-9	I	5-10_nsubj	decided	PRP	P1_gardener
+5-10	decided	O	O	VBD	O
+5-11	to	5-12_aux	look	TO	O
+5-12	look	5-10_xcomp	decided	VB	O
+5-13	up	5-12_prt	look	RP	O
+5-14	different	O	O	JJ	O
+5-15	types	5-12_dobj	look	NNS	O
+5-16	of	O	O	O	O
+5-17	trees	O	O	NNS	P1_tree
+5-18	I	5-20_nsubj	plant	PRP	P1_gardener
+5-19	could	5-20_aux	plant	MD	O
+5-20	plant	O	O	VB	O
+5-21	.	O	O	O	O
+
+#id=6
+#text=I wanted to plant a tree that would grow well in our local climate . 
+6-1	I	6-2_nsubj	wanted	PRP	P1_gardener
+6-2	wanted	O	O	VBD	O
+6-3	to	6-4_aux	plant	TO	O
+6-4	plant	6-2_xcomp	wanted	VB	O
+6-5	a	O	O	DT	O
+6-6	tree	6-4_dobj	plant	NN	P1_tree
+6-7	that	6-9_nsubj	grow	WDT	P1_tree
+6-8	would	6-9_aux	grow	MD	O
+6-9	grow	O	O	VB	O
+6-10	well	6-9_advmod	grow	RB	O
+6-11	in	O	O	O	O
+6-12	our	O	O	PRP$	P4_gardener
+6-13	local	O	O	JJ	O
+6-14	climate	6-9_prep_in	grow	NN	P1_NPart_climate
+6-15	.	O	O	O	O
+
+#id=7
+#text=I went to the home and garden store to look at different trees . 
+7-1	I	7-2_nsubj	went	PRP	P1_gardener
+7-2	went	O	O	VBD	O
+7-3	to	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	home	O	O	NN	O
+7-6	and	O	O	O	O
+7-7	garden	O	O	NN	O
+7-8	store	7-2_prep_to	went	NN	P1_shop
+7-9	to	7-10_aux	look	TO	O
+7-10	look	7-2_xcomp	went	VB	O
+7-11	at	O	O	O	O
+7-12	different	O	O	JJ	O
+7-13	trees	7-10_prep_at	look	NNS	P1_tree
+7-14	.	O	O	O	O
+
+#id=8
+#text=A salesperson helped me pick out a tree . 
+8-1	A	O	O	DT	O
+8-2	salesperson	8-3_nsubj	helped	NN	P1_staff
+8-3	helped	O	O	VBD	O
+8-4	me	8-5_nsubj	pick	PRP	P1_gardener
+8-5	pick	8-3_ccomp	helped	VB	O
+8-6	out	8-5_prt	pick	RP	O
+8-7	a	O	O	DT	O
+8-8	tree	8-5_dobj	pick	NN	P1_tree
+8-9	.	O	O	O	O
+
+#id=9
+#text=I took it home and planted it according to the instructions . 
+9-1	I	9-2_nsubj	took	PRP	P1_gardener
+9-2	took	O	O	VBD	O
+9-3	it	9-2_dobj	took	PRP	P1_tree
+9-4	home	9-2_advmod	took	RB	P1_NPart_home
+9-5	and	O	O	O	O
+9-6	planted	9-2_conj_and	took	VBD	O
+9-7	it	9-6_dobj	planted	PRP	P1_tree
+9-8	according	O	O	O	O
+9-9	to	9-6_prepc_according_to	planted	TO	O
+9-10	the	O	O	DT	O
+9-11	instructions	9-6_pobj	planted	NNS	P1_NPart_instructions
+9-12	.	O	O	O	O
+
+#id=10
+#text=I made sure the soil was packed firmly at the base of the tree . 
+10-1	I	10-2_nsubj	made	PRP	P1_gardener
+10-2	made	O	O	VBD	O
+10-3	sure	10-2_acomp	made	JJ	O
+10-4	the	O	O	DT	O
+10-5	soil	10-7_nsubjpass	packed	NN	P1_dirt
+10-6	was	10-7_auxpass	packed	VBD	O
+10-7	packed	O	O	VBN	O
+10-8	firmly	10-7_advmod	packed	RB	O
+10-9	at	O	O	O	O
+10-10	the	O	O	DT	O
+10-11	base	10-7_prep_at	packed	NN	P1_NPart_base
+10-12	of	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	tree	O	O	NN	P1_tree
+10-15	.	O	O	O	O
+
+#id=11
+#text=Now that a year has passed , the tree has grown quite a bit . 
+11-1	Now	11-6_advmod	passed	RB	O
+11-2	that	11-6_mark	passed	IN	O
+11-3	a	O	O	DT	O
+11-4	year	11-6_nsubj	passed	NN	P1_time
+11-5	has	11-6_aux	passed	VBZ	O
+11-6	passed	11-11_advcl	grown	VBN	O
+11-7	,	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	tree	11-11_nsubj	grown	NN	P1_tree
+11-10	has	11-11_aux	grown	VBZ	O
+11-11	grown	O	O	VBN	O
+11-12	quite	11-11_advmod	grown	RB	O
+11-13	a	O	O	DT	O
+11-14	bit	O	O	RB	O
+11-15	.	O	O	O	O
+
+#id=12
+#text=It is a nice plant that we all enjoy . 
+12-1	It	O	O	PRP	P1_tree
+12-2	is	O	O	VBZ	O
+12-3	a	O	O	DT	O
+12-4	nice	O	O	JJ	O
+12-5	plant	O	O	NN	P1_tree
+12-6	that	12-9_mark	enjoy	IN	P1_tree
+12-7	we	12-9_nsubj	enjoy	PRP	P4_gardener
+12-8	all	12-9_advmod	enjoy	DT	O
+12-9	enjoy	O	O	VBP	O
+12-10	.	O	O	O	O

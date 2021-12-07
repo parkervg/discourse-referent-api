@@ -1,0 +1,250 @@
+#id=1
+#text=Today , we went to the library to check out some books . 
+1-1	Today	1-4_tmod	went	NN	P1_NPart_today
+1-2	,	O	O	O	O
+1-3	we	1-4_nsubj	went	PRP	P1_customer
+1-4	went	O	O	VBD	O
+1-5	to	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	library	1-4_prep_to	went	NN	P1_library
+1-8	to	1-9_aux	check	TO	O
+1-9	check	1-4_xcomp	went	VB	O
+1-10	out	1-9_prt	check	RP	O
+1-11	some	O	O	DT	O
+1-12	books	1-9_dobj	check	NNS	P1_book
+1-13	.	O	O	O	O
+
+#id=2
+#text=A lot of people lke to borrow books from the library for all kinds of reasons but we just wanted some books to read for fun . 
+2-1	A	O	O	DT	O
+2-2	lot	2-5_nsubj	lke	NN	O
+2-3	of	O	O	O	O
+2-4	people	O	O	NNS	P2_customer
+2-5	lke	O	O	VBP	O
+2-6	to	2-7_aux	borrow	TO	O
+2-7	borrow	2-5_xcomp	lke	VB	O
+2-8	books	2-7_dobj	borrow	NNS	P1_book
+2-9	from	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	library	2-7_prep_from	borrow	NN	P1_library
+2-12	for	O	O	O	O
+2-13	all	O	O	DT	O
+2-14	kinds	O	O	NNS	O
+2-15	of	O	O	O	O
+2-16	reasons	O	O	NNS	P1_NPart_reasons
+2-17	but	O	O	O	O
+2-18	we	2-20_nsubj	wanted	PRP	P1_customer
+2-19	just	2-20_advmod	wanted	RB	O
+2-20	wanted	2-5_conj_but	lke	VBD	O
+2-21	some	O	O	DT	O
+2-22	books	2-20_dobj	wanted	NNS	P1_book
+2-23	to	2-24_aux	read	TO	O
+2-24	read	2-20_vmod	wanted	VB	O
+2-25	for	O	O	O	O
+2-26	fun	2-24_prep_for	read	NN	P1_NPart_fun
+2-27	.	O	O	O	O
+
+#id=3
+#text=We already knew which books we wanted before we got to the library so when we got there , we just had to find them . 
+3-1	We	3-3_nsubj	knew	PRP	P1_customer
+3-2	already	3-3_advmod	knew	RB	O
+3-3	knew	O	O	VBD	O
+3-4	which	3-5_nsubj	books	WDT	O
+3-5	books	3-3_ccomp	knew	VBD	P1_book
+3-6	we	3-7_nsubj	wanted	PRP	P1_customer
+3-7	wanted	3-5_ccomp	books	VBD	O
+3-8	before	3-10_mark	got	IN	O
+3-9	we	3-10_nsubj	got	PRP	P1_customer
+3-10	got	3-7_advcl	wanted	VBD	O
+3-11	to	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	library	3-10_prep_to	got	NN	P1_library
+3-14	so	3-22_mark	had	IN	O
+3-15	when	3-17_advmod	got	WRB	O
+3-16	we	3-17_nsubj	got	PRP	P1_customer
+3-17	got	3-22_advcl	had	VBD	O
+3-18	there	3-17_advmod	got	RB	P1_library
+3-19	,	O	O	O	O
+3-20	we	3-22_nsubj	had	PRP	P1_customer
+3-21	just	3-22_advmod	had	RB	O
+3-22	had	3-10_advcl	got	VBD	O
+3-23	to	3-24_aux	find	TO	O
+3-24	find	3-22_xcomp	had	VB	O
+3-25	them	3-24_dobj	find	PRP	P1_book
+3-26	.	O	O	O	O
+
+#id=4
+#text=It is possible to look them up and find them on the libary 's computer . 
+4-1	It	O	O	PRP	O
+4-2	is	O	O	VBZ	O
+4-3	possible	O	O	JJ	O
+4-4	to	4-5_aux	look	TO	O
+4-5	look	O	O	VB	O
+4-6	them	4-5_dobj	look	PRP	P1_book
+4-7	up	4-5_prt	look	RP	O
+4-8	and	O	O	O	O
+4-9	find	4-5_conj_and	look	VB	O
+4-10	them	4-9_dobj	find	PRP	P1_book
+4-11	on	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	libary	O	O	NN	P1_library
+4-14	's	O	O	O	O
+4-15	computer	4-9_prep_on	find	NN	P1_institutional_devices
+4-16	.	O	O	O	O
+
+#id=5
+#text=If you are in a hurry , you can ask the librarian to help you find them a little easier and more quickly . 
+5-1	If	5-3_mark	are	IN	O
+5-2	you	5-3_nsubj	are	PRP	P1_customer
+5-3	are	5-10_advcl	ask	VBP	O
+5-4	in	O	O	O	O
+5-5	a	O	O	DT	O
+5-6	hurry	5-3_prep_in	are	NN	O
+5-7	,	O	O	O	O
+5-8	you	5-10_nsubj	ask	PRP	P1_customer
+5-9	can	5-10_aux	ask	MD	O
+5-10	ask	O	O	VB	O
+5-11	the	O	O	DT	O
+5-12	librarian	5-10_dobj	ask	NN	P1_staff
+5-13	to	5-14_aux	help	TO	O
+5-14	help	O	O	VB	O
+5-15	you	5-16_nsubj	find	PRP	P1_customer
+5-16	find	5-14_ccomp	help	VB	O
+5-17	them	O	O	PRP	P1_book
+5-18	a	O	O	DT	O
+5-19	little	O	O	RB	O
+5-20	easier	5-16_xcomp	find	JJR	O
+5-21	and	O	O	O	O
+5-22	more	O	O	JJR	O
+5-23	quickly	O	O	RB	O
+5-24	.	O	O	O	O
+
+#id=6
+#text=When we found out where to find the ones we wanted , we found them and took them to the librarian to check them out to us . 
+6-1	When	6-3_advmod	found	WRB	O
+6-2	we	6-3_nsubj	found	PRP	P1_customer
+6-3	found	6-14_advcl	found	VBD	O
+6-4	out	6-3_prt	found	RP	O
+6-5	where	6-7_advmod	find	WRB	O
+6-6	to	6-7_aux	find	TO	O
+6-7	find	6-3_xcomp	found	VB	O
+6-8	the	O	O	DT	O
+6-9	ones	6-7_dobj	find	NNS	P1_book
+6-10	we	6-11_nsubj	wanted	PRP	P3_customer
+6-11	wanted	O	O	VBD	O
+6-12	,	O	O	O	O
+6-13	we	6-14_nsubj	found	PRP	P1_customer
+6-14	found	O	O	VBD	O
+6-15	them	6-14_dobj	found	PRP	P1_book
+6-16	and	O	O	O	O
+6-17	took	6-14_conj_and	found	VBD	O
+6-18	them	6-17_dobj	took	PRP	P1_book
+6-19	to	O	O	O	O
+6-20	the	O	O	DT	O
+6-21	librarian	6-17_prep_to	took	NN	P2_staff
+6-22	to	6-23_aux	check	TO	O
+6-23	check	O	O	VB	O
+6-24	them	6-23_dobj	check	PRP	P1_book
+6-25	out	6-23_prt	check	RP	O
+6-26	to	O	O	O	O
+6-27	us	6-23_prep_to	check	PRP	P1_customer
+6-28	.	O	O	O	O
+
+#id=7
+#text=She put the book information in the computer and then she swiped our library cards . 
+7-1	She	7-2_nsubj	put	PRP	P2_staff
+7-2	put	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	book	O	O	NN	O
+7-5	information	7-2_dobj	put	NN	P1_other
+7-6	in	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	computer	7-2_prep_in	put	NN	P1_institutional_devices
+7-9	and	O	O	O	O
+7-10	then	7-12_advmod	swiped	RB	O
+7-11	she	7-12_nsubj	swiped	PRP	P2_staff
+7-12	swiped	7-2_conj_and	put	VBD	O
+7-13	our	O	O	PRP$	P1_customer
+7-14	library	O	O	NN	O
+7-15	cards	7-12_dobj	swiped	NNS	P1_library_card
+7-16	.	O	O	O	O
+
+#id=8
+#text=It did n't take very long at all . 
+8-1	It	8-4_nsubj	take	PRP	O
+8-2	did	8-4_aux	take	VBD	O
+8-3	n't	8-4_neg	take	RB	O
+8-4	take	O	O	VB	O
+8-5	very	O	O	RB	O
+8-6	long	8-4_advmod	take	RB	O
+8-7	at	8-4_advmod	take	IN	O
+8-8	all	O	O	DT	O
+8-9	.	O	O	O	O
+
+#id=9
+#text=when shed put them into the system and swiped the cards , she printed out a slip of paper that showed exactly what day we needed to turn them back in , in order to avoid any late fees . 
+9-1	when	9-3_advmod	put	WRB	O
+9-2	shed	9-3_nsubj	put	NNP	P2_staff
+9-3	put	9-14_advcl	printed	VBD	O
+9-4	them	9-3_dobj	put	PRP	P2_book
+9-5	into	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	system	9-3_prep_into	put	NN	P1_NPart_system
+9-8	and	O	O	O	O
+9-9	swiped	9-3_conj_and	put	VBD	O
+9-10	the	O	O	DT	O
+9-11	cards	9-9_dobj	swiped	NNS	P1_library_card
+9-12	,	O	O	O	O
+9-13	she	9-14_nsubj	printed	PRP	P3_staff
+9-14	printed	O	O	VBD	O
+9-15	out	9-14_prt	printed	RP	O
+9-16	a	O	O	DT	O
+9-17	slip	9-14_dobj	printed	NN	O
+9-18	of	O	O	O	O
+9-19	paper	O	O	NN	P1_receipt
+9-20	that	9-21_nsubj	showed	WDT	O
+9-21	showed	O	O	VBD	O
+9-22	exactly	O	O	RB	O
+9-23	what	O	O	WDT	O
+9-24	day	9-26_dobj	needed	NN	P1_return_date
+9-25	we	9-26_nsubj	needed	PRP	P4_customer
+9-26	needed	9-21_ccomp	showed	VBD	O
+9-27	to	9-28_aux	turn	TO	O
+9-28	turn	9-26_xcomp	needed	VB	O
+9-29	them	9-28_dobj	turn	PRP	P1_book
+9-30	back	9-28_prt	turn	RP	O
+9-31	in	9-28_prep	turn	IN	O
+9-32	,	O	O	O	O
+9-33	in	9-36_mark	avoid	IN	O
+9-34	order	9-36_dep	avoid	NN	O
+9-35	to	9-36_aux	avoid	TO	O
+9-36	avoid	9-14_advcl	printed	VB	O
+9-37	any	O	O	DT	O
+9-38	late	O	O	JJ	O
+9-39	fees	9-36_dobj	avoid	NNS	P2_other
+9-40	.	O	O	O	O
+
+#id=10
+#text=when we were ready to take them back , we turned them in to the librarian and then looked for more ! 
+10-1	when	O	O	WRB	O
+10-2	we	O	O	PRP	P1_customer
+10-3	were	O	O	VBD	O
+10-4	ready	10-11_advcl	turned	JJ	O
+10-5	to	10-6_aux	take	TO	O
+10-6	take	O	O	VB	O
+10-7	them	10-6_dobj	take	PRP	P1_book
+10-8	back	10-6_advmod	take	RB	O
+10-9	,	O	O	O	O
+10-10	we	10-11_nsubj	turned	PRP	P1_customer
+10-11	turned	O	O	VBD	O
+10-12	them	10-11_dobj	turned	PRP	P2_return_date
+10-13	in	10-11_prep	turned	IN	O
+10-14	to	O	O	TO	O
+10-15	the	O	O	DT	O
+10-16	librarian	O	O	NN	P2_staff
+10-17	and	O	O	O	O
+10-18	then	10-19_advmod	looked	RB	O
+10-19	looked	10-11_conj_and	turned	VBD	O
+10-20	for	O	O	O	O
+10-21	more	10-19_prep_for	looked	JJR	O
+10-22	!	O	O	O	O

@@ -1,0 +1,228 @@
+#id=1
+#text=Yesterday I wanted to ride my bicycle to my friends house . 
+1-1	Yesterday	1-3_tmod	wanted	NN	P1_NPart_yesterday
+1-2	I	1-3_nsubj	wanted	PRP	P1_rider
+1-3	wanted	O	O	VBD	O
+1-4	to	1-5_aux	ride	TO	O
+1-5	ride	1-3_xcomp	wanted	VB	O
+1-6	my	O	O	PRP$	P2_rider
+1-7	bicycle	1-5_dobj	ride	NN	P1_bicycle
+1-8	to	O	O	O	O
+1-9	my	O	O	PRP$	P1_rider
+1-10	friends	O	O	NNS	O
+1-11	house	1-5_prep_to	ride	NN	P1_NPart_house
+1-12	.	O	O	O	O
+
+#id=2
+#text=The weather was nice and I had n't used my bicycle in a while . 
+2-1	The	O	O	DT	O
+2-2	weather	O	O	NN	P1_NPart_weather
+2-3	was	O	O	VBD	O
+2-4	nice	O	O	JJ	O
+2-5	and	O	O	O	O
+2-6	I	2-9_nsubj	used	PRP	P1_rider
+2-7	had	2-9_aux	used	VBD	O
+2-8	n't	2-9_neg	used	RB	O
+2-9	used	O	O	VBN	O
+2-10	my	O	O	PRP$	P1_rider
+2-11	bicycle	2-9_dobj	used	NN	P1_bicycle
+2-12	in	O	O	O	O
+2-13	a	O	O	DT	O
+2-14	while	2-9_prep_in	used	NN	O
+2-15	.	O	O	O	O
+
+#id=3
+#text=When I got to my garage I realized that I had a front flat tire . 
+3-1	When	3-3_advmod	got	WRB	O
+3-2	I	3-3_nsubj	got	PRP	P1_rider
+3-3	got	3-8_advcl	realized	VBD	O
+3-4	to	O	O	O	O
+3-5	my	O	O	PRP$	P1_rider
+3-6	garage	3-3_prep_to	got	NN	P1_location_repair
+3-7	I	3-8_nsubj	realized	PRP	P1_rider
+3-8	realized	O	O	VBD	O
+3-9	that	3-11_mark	had	IN	O
+3-10	I	3-11_nsubj	had	PRP	P1_rider
+3-11	had	3-8_ccomp	realized	VBD	O
+3-12	a	O	O	DT	O
+3-13	front	O	O	JJ	O
+3-14	flat	O	O	JJ	O
+3-15	tire	3-11_dobj	had	NN	P1_tire
+3-16	.	O	O	O	O
+
+#id=4
+#text=First I checked if there were any holes in my tire but there were n't . 
+4-1	First	4-3_dep	checked	JJ	O
+4-2	I	4-3_nsubj	checked	PRP	P1_rider
+4-3	checked	O	O	VBD	O
+4-4	if	4-6_mark	were	IN	O
+4-5	there	4-6_expl	were	EX	O
+4-6	were	4-3_advcl	checked	VBD	O
+4-7	any	O	O	DT	O
+4-8	holes	4-6_nsubj	were	NNS	P1_damage
+4-9	in	O	O	O	O
+4-10	my	O	O	PRP$	P1_rider
+4-11	tire	O	O	NN	P1_tire
+4-12	but	O	O	O	O
+4-13	there	4-14_expl	were	EX	O
+4-14	were	4-3_conj_but	checked	VBD	O
+4-15	n't	4-14_neg	were	RB	O
+4-16	.	O	O	O	O
+
+#id=5
+#text=That was good because it meant that the tire only needed more air . 
+5-1	That	O	O	DT	O
+5-2	was	O	O	VBD	O
+5-3	good	O	O	JJ	O
+5-4	because	5-6_mark	meant	IN	O
+5-5	it	5-6_nsubj	meant	PRP	O
+5-6	meant	O	O	VBD	O
+5-7	that	5-11_mark	needed	IN	O
+5-8	the	O	O	DT	O
+5-9	tire	5-11_nsubj	needed	NN	P1_tire
+5-10	only	5-11_advmod	needed	RB	O
+5-11	needed	5-6_ccomp	meant	VBD	O
+5-12	more	O	O	JJR	O
+5-13	air	5-11_dobj	needed	NN	P1_air
+5-14	.	O	O	O	O
+
+#id=6
+#text=I then went looking for the air pump . 
+6-1	I	6-3_nsubj	went	PRP	P1_rider
+6-2	then	6-3_advmod	went	RB	O
+6-3	went	O	O	VBD	O
+6-4	looking	6-3_xcomp	went	VBG	O
+6-5	for	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	air	O	O	NN	O
+6-8	pump	6-4_prep_for	looking	NN	P1_tool
+6-9	.	O	O	O	O
+
+#id=7
+#text=I found it on one of the shelves . 
+7-1	I	7-2_nsubj	found	PRP	P1_rider
+7-2	found	O	O	VBD	O
+7-3	it	7-2_dobj	found	PRP	P1_tool
+7-4	on	O	O	O	O
+7-5	one	7-2_prep_on	found	CD	O
+7-6	of	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	shelves	O	O	NNS	P1_other
+7-9	.	O	O	O	O
+
+#id=8
+#text=I took the cap off the tire valve . 
+8-1	I	8-2_nsubj	took	PRP	P1_rider
+8-2	took	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	cap	8-2_dobj	took	NN	P1_bicycle_small_detail
+8-5	off	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	tire	O	O	NN	O
+8-8	valve	8-2_prep_off	took	NN	P2_bicycle_small_detail
+8-9	.	O	O	O	O
+
+#id=9
+#text=I put the pump onto the tire valve and began pumping in air . 
+9-1	I	9-2_nsubj	put	PRP	P1_rider
+9-2	put	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	pump	9-2_dobj	put	NN	P1_tool
+9-5	onto	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	tire	O	O	NN	O
+9-8	valve	9-2_prep_onto	put	NN	P2_bicycle_small_detail
+9-9	and	O	O	O	O
+9-10	began	9-2_conj_and	put	VBD	O
+9-11	pumping	9-10_xcomp	began	VBG	O
+9-12	in	O	O	O	O
+9-13	air	9-11_prep_in	pumping	NN	P2_air
+9-14	.	O	O	O	O
+
+#id=10
+#text=After a few seconds I grabbed the tire to see how much more air was needed . 
+10-1	After	O	O	O	O
+10-2	a	O	O	DT	O
+10-3	few	O	O	JJ	O
+10-4	seconds	10-6_prep_after	grabbed	NNS	P1_NPart_seconds
+10-5	I	10-6_nsubj	grabbed	PRP	P1_rider
+10-6	grabbed	O	O	VBD	O
+10-7	the	O	O	DT	O
+10-8	tire	10-6_dobj	grabbed	NN	P1_tire
+10-9	to	10-10_aux	see	TO	O
+10-10	see	O	O	VB	O
+10-11	how	O	O	WRB	O
+10-12	much	10-16_dep	needed	JJ	O
+10-13	more	O	O	JJR	O
+10-14	air	10-16_nsubjpass	needed	NN	P3_air
+10-15	was	10-16_auxpass	needed	VBD	O
+10-16	needed	10-10_ccomp	see	VBN	O
+10-17	.	O	O	O	O
+
+#id=11
+#text=I did this until I had pumped it up enough . 
+11-1	I	11-2_nsubj	did	PRP	P1_rider
+11-2	did	O	O	VBD	O
+11-3	this	11-2_dobj	did	DT	O
+11-4	until	11-7_mark	pumped	IN	O
+11-5	I	11-7_nsubj	pumped	PRP	P1_rider
+11-6	had	11-7_aux	pumped	VBD	O
+11-7	pumped	11-2_advcl	did	VBN	O
+11-8	it	11-7_dobj	pumped	PRP	P1_tire
+11-9	up	O	O	RB	O
+11-10	enough	11-7_advmod	pumped	RB	O
+11-11	.	O	O	O	O
+
+#id=12
+#text=I then took the pump off the valve and put the cap back onto the valve . 
+12-1	I	12-3_nsubj	took	PRP	P1_rider
+12-2	then	12-3_advmod	took	RB	O
+12-3	took	O	O	VBD	O
+12-4	the	O	O	DT	O
+12-5	pump	12-3_dobj	took	NN	P1_tool
+12-6	off	O	O	O	O
+12-7	the	O	O	DT	O
+12-8	valve	12-3_prep_off	took	NN	P2_bicycle_small_detail
+12-9	and	O	O	O	O
+12-10	put	12-3_conj_and	took	VBD	O
+12-11	the	O	O	DT	O
+12-12	cap	12-10_dobj	put	NN	P1_bicycle_small_detail
+12-13	back	12-10_prt	put	RP	O
+12-14	onto	O	O	O	O
+12-15	the	O	O	DT	O
+12-16	valve	12-10_prep_onto	put	NN	P2_bicycle_small_detail
+12-17	.	O	O	O	O
+
+#id=13
+#text=I put the pump back where I found it and got on my bicycle . 
+13-1	I	13-2_nsubj	put	PRP	P1_rider
+13-2	put	O	O	VBD	O
+13-3	the	O	O	DT	O
+13-4	pump	13-2_dobj	put	NN	P1_tool
+13-5	back	13-2_advmod	put	RB	O
+13-6	where	13-8_advmod	found	WRB	O
+13-7	I	13-8_nsubj	found	PRP	P1_rider
+13-8	found	13-2_advcl	put	VBD	O
+13-9	it	13-8_dobj	found	PRP	P1_tool
+13-10	and	O	O	O	O
+13-11	got	13-2_conj_and	put	VBD	O
+13-12	on	O	O	O	O
+13-13	my	O	O	PRP$	P1_rider
+13-14	bicycle	13-11_prep_on	got	NN	P1_bicycle
+13-15	.	O	O	O	O
+
+#id=14
+#text=I cycled to my friends house and we had a fun time . 
+14-1	I	14-2_nsubj	cycled	PRP	P1_rider
+14-2	cycled	O	O	VBD	O
+14-3	to	O	O	O	O
+14-4	my	O	O	PRP$	P1_rider
+14-5	friends	O	O	NNS	O
+14-6	house	14-2_prep_to	cycled	NN	P1_NPart_house
+14-7	and	O	O	O	O
+14-8	we	14-9_nsubj	had	PRP	O
+14-9	had	14-2_conj_and	cycled	VBD	O
+14-10	a	O	O	DT	O
+14-11	fun	O	O	NN	O
+14-12	time	14-9_dobj	had	NN	O
+14-13	.	O	O	O	O

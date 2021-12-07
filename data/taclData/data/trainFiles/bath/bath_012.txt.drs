@@ -1,0 +1,226 @@
+#id=1
+#text=I had a long day at work . 
+1-1	I	1-2_nsubj	had	PRP	P1_bather
+1-2	had	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	long	O	O	JJ	O
+1-5	day	1-2_dobj	had	NN	P1_NPart_day
+1-6	at	O	O	O	O
+1-7	work	O	O	NN	P1_NPart_work
+1-8	.	O	O	O	O
+
+#id=2
+#text=I worked very hard and carried many boxes in the hot weather . 
+2-1	I	2-2_nsubj	worked	PRP	P1_bather
+2-2	worked	O	O	VBD	O
+2-3	very	O	O	RB	O
+2-4	hard	2-2_acomp	worked	JJ	O
+2-5	and	O	O	O	O
+2-6	carried	2-2_conj_and	worked	VBD	O
+2-7	many	O	O	JJ	O
+2-8	boxes	2-6_dobj	carried	NNS	P1_NPart_boxes
+2-9	in	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	hot	O	O	JJ	O
+2-12	weather	2-6_prep_in	carried	NN	P1_NPart_weather
+2-13	.	O	O	O	O
+
+#id=3
+#text=My muscles were sore and I thought a hot bath was just what I needed ! 
+3-1	My	O	O	PRP$	P1_bather
+3-2	muscles	O	O	NNS	P1_body_part
+3-3	were	O	O	VBD	O
+3-4	sore	O	O	JJ	O
+3-5	and	O	O	O	O
+3-6	I	3-7_nsubj	thought	PRP	P1_bather
+3-7	thought	O	O	VBD	O
+3-8	a	O	O	DT	O
+3-9	hot	O	O	JJ	O
+3-10	bath	3-11_nsubj	was	NN	P1_bath
+3-11	was	3-7_ccomp	thought	VBD	O
+3-12	just	O	O	RB	O
+3-13	what	3-15_dep	needed	WP	O
+3-14	I	3-15_nsubj	needed	PRP	P1_bather
+3-15	needed	3-11_ccomp	was	VBD	O
+3-16	!	O	O	O	O
+
+#id=4
+#text=I got home and lit a few candles . 
+4-1	I	4-2_nsubj	got	PRP	P1_bather
+4-2	got	O	O	VBD	O
+4-3	home	4-2_dobj	got	NN	P1_NPart_home
+4-4	and	O	O	O	O
+4-5	lit	4-2_conj_and	got	VBD	O
+4-6	a	O	O	DT	O
+4-7	few	O	O	JJ	O
+4-8	candles	4-5_dobj	lit	NNS	P1_in-bath_entertainment
+4-9	.	O	O	O	O
+
+#id=5
+#text=I turned on the hot water , closed the drain in the bathtub and put some bubble bath in there . 
+5-1	I	5-2_nsubj	turned	PRP	P1_bather
+5-2	turned	O	O	VBD	O
+5-3	on	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	hot	O	O	JJ	O
+5-6	water	5-2_prep_on	turned	NN	P1_water
+5-7	,	O	O	O	O
+5-8	closed	5-2_conj_and	turned	VBD	O
+5-9	the	O	O	DT	O
+5-10	drain	5-8_dobj	closed	NN	P1_drain
+5-11	in	O	O	O	O
+5-12	the	O	O	DT	O
+5-13	bathtub	5-8_prep_in	closed	NN	P1_bathtub
+5-14	and	O	O	O	O
+5-15	put	5-2_conj_and	turned	VBD	O
+5-16	some	O	O	DT	O
+5-17	bubble	O	O	NN	O
+5-18	bath	5-15_dobj	put	NN	P1_bath_means
+5-19	in	5-15_prep	put	IN	O
+5-20	there	O	O	RB	P1_bathtub
+5-21	.	O	O	O	O
+
+#id=6
+#text=As the water rose and the bubbles grew , I got out my bath pillow and stuck the suction cups to the back of the tub . 
+6-1	As	6-4_mark	rose	IN	O
+6-2	the	O	O	DT	O
+6-3	water	6-4_nsubj	rose	NN	P1_water
+6-4	rose	6-11_advcl	got	VBD	O
+6-5	and	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	bubbles	6-8_nsubj	grew	NNS	P1_other
+6-8	grew	6-4_conj_and	rose	VBD	O
+6-9	,	O	O	O	O
+6-10	I	6-11_nsubj	got	PRP	P1_bather
+6-11	got	O	O	VBD	O
+6-12	out	6-11_prt	got	RP	O
+6-13	my	O	O	PRP$	P1_bather
+6-14	bath	O	O	NN	O
+6-15	pillow	6-11_dobj	got	NN	P2_bath_means
+6-16	and	O	O	O	O
+6-17	stuck	6-11_conj_and	got	VBD	O
+6-18	the	O	O	DT	O
+6-19	suction	O	O	NN	O
+6-20	cups	6-17_dobj	stuck	NNS	P1_NPart_cups
+6-21	to	O	O	O	O
+6-22	the	O	O	DT	O
+6-23	back	6-17_prep_to	stuck	NN	P1_NPart_back
+6-24	of	O	O	O	O
+6-25	the	O	O	DT	O
+6-26	tub	O	O	NN	P1_bathtub
+6-27	.	O	O	O	O
+
+#id=7
+#text=It floated on the water . 
+7-1	It	7-2_nsubj	floated	PRP	P2_bath_means
+7-2	floated	O	O	VBD	O
+7-3	on	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	water	7-2_prep_on	floated	NN	P1_water
+7-6	.	O	O	O	O
+
+#id=8
+#text=I also got my favorite book . 
+8-1	I	8-3_nsubj	got	PRP	P1_bather
+8-2	also	8-3_advmod	got	RB	O
+8-3	got	O	O	VBD	O
+8-4	my	O	O	PRP$	P1_bather
+8-5	favorite	O	O	JJ	O
+8-6	book	8-3_dobj	got	NN	P2_in-bath_entertainment
+8-7	.	O	O	O	O
+
+#id=9
+#text=I turned the water off in the tub , put one foot in at a time , then sank into the hot water and bubbles . 
+9-1	I	9-2_nsubj	turned	PRP	P1_bather
+9-2	turned	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	water	9-2_dobj	turned	NN	P1_water
+9-5	off	9-2_prt	turned	RP	O
+9-6	in	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	tub	9-2_prep_in	turned	NN	P1_bathtub
+9-9	,	O	O	O	O
+9-10	put	9-2_conj_and	turned	VBD	O
+9-11	one	O	O	CD	O
+9-12	foot	9-10_dobj	put	NN	P2_body_part
+9-13	in	9-10_prep	put	IN	O
+9-14	at	O	O	IN	O
+9-15	a	O	O	DT	O
+9-16	time	O	O	NN	P1_NPart_time
+9-17	,	O	O	O	O
+9-18	then	9-19_advmod	sank	RB	O
+9-19	sank	9-2_conj_and	turned	VBD	O
+9-20	into	O	O	O	O
+9-21	the	O	O	DT	O
+9-22	hot	O	O	JJ	O
+9-23	water	9-19_prep_into	sank	NN	P1_water
+9-24	and	O	O	O	O
+9-25	bubbles	9-2_conj_and	turned	VBZ	P1_bath_means
+9-26	.	O	O	O	O
+
+#id=10
+#text=I washed my face and laid back . 
+10-1	I	10-2_nsubj	washed	PRP	P1_bather
+10-2	washed	O	O	VBD	O
+10-3	my	O	O	PRP$	P1_bather
+10-4	face	10-2_dobj	washed	NN	P3_body_part
+10-5	and	O	O	O	O
+10-6	laid	10-2_conj_and	washed	VBD	O
+10-7	back	10-6_advmod	laid	RB	O
+10-8	.	O	O	O	O
+
+#id=11
+#text=I read my book by candlelight and felt my aches melt away into the hot water . 
+11-1	I	11-2_nsubj	read	PRP	P1_bather
+11-2	read	O	O	VBD	O
+11-3	my	O	O	PRP$	P1_bather
+11-4	book	11-2_dobj	read	NN	P2_in-bath_entertainment
+11-5	by	O	O	O	O
+11-6	candlelight	11-2_prep_by	read	NN	P3_in-bath_entertainment
+11-7	and	O	O	O	O
+11-8	felt	11-2_conj_and	read	VBD	O
+11-9	my	O	O	PRP$	P1_bather
+11-10	aches	11-11_nsubj	melt	NNS	P1_NPart_aches
+11-11	melt	11-8_ccomp	felt	VB	O
+11-12	away	11-11_prt	melt	RP	O
+11-13	into	O	O	O	O
+11-14	the	O	O	DT	O
+11-15	hot	O	O	JJ	O
+11-16	water	11-11_prep_into	melt	NN	P1_water
+11-17	.	O	O	O	O
+
+#id=12
+#text=When I was ready to get out of the tub , I opened the drain to let all the water run out . 
+12-1	When	O	O	WRB	O
+12-2	I	O	O	PRP	P1_bather
+12-3	was	O	O	VBD	O
+12-4	ready	12-13_advcl	opened	JJ	O
+12-5	to	12-6_aux	get	TO	O
+12-6	get	O	O	VB	O
+12-7	out	12-6_prt	get	RP	O
+12-8	of	O	O	O	O
+12-9	the	O	O	DT	O
+12-10	tub	12-6_prep_of	get	NN	P1_bathtub
+12-11	,	O	O	O	O
+12-12	I	12-13_nsubj	opened	PRP	P1_bather
+12-13	opened	O	O	VBD	O
+12-14	the	O	O	DT	O
+12-15	drain	12-13_dobj	opened	NN	P1_drain
+12-16	to	12-17_aux	let	TO	O
+12-17	let	O	O	VB	O
+12-18	all	O	O	PDT	O
+12-19	the	O	O	DT	O
+12-20	water	O	O	NN	P1_water
+12-21	run	12-17_dobj	let	NN	O
+12-22	out	12-17_prt	let	RP	O
+12-23	.	O	O	O	O
+
+#id=13
+#text=I felt a million times better ! 
+13-1	I	13-2_nsubj	felt	PRP	P1_bather
+13-2	felt	O	O	VBD	O
+13-3	a	O	O	DT	O
+13-4	million	O	O	CD	O
+13-5	times	O	O	NNS	O
+13-6	better	13-2_acomp	felt	JJR	O
+13-7	!	O	O	O	O

@@ -1,0 +1,199 @@
+#id=1
+#text=Today I decided I wanted to do something special and plant a tree in my back yard . 
+1-1	Today	1-3_tmod	decided	NN	O
+1-2	I	1-3_nsubj	decided	PRP	P1_gardener
+1-3	decided	O	O	VBD	O
+1-4	I	1-5_nsubj	wanted	PRP	P1_gardener
+1-5	wanted	1-3_ccomp	decided	VBD	O
+1-6	to	1-7_aux	do	TO	O
+1-7	do	1-5_xcomp	wanted	VB	O
+1-8	something	1-7_dobj	do	NN	O
+1-9	special	O	O	JJ	O
+1-10	and	O	O	O	O
+1-11	plant	1-7_conj_and	do	VB	O
+1-12	a	O	O	DT	O
+1-13	tree	1-11_dobj	plant	NN	P1_tree
+1-14	in	O	O	O	O
+1-15	my	O	O	PRP$	P1_gardener
+1-16	back	O	O	JJ	O
+1-17	yard	O	O	NN	P1_location_garden
+1-18	.	O	O	O	O
+
+#id=2
+#text=I went to the gardening supply store and bought everything I needed to make this happen . 
+2-1	I	2-2_nsubj	went	PRP	P1_gardener
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	gardening	O	O	VBG	O
+2-6	supply	O	O	NN	O
+2-7	store	2-2_prep_to	went	NN	P1_shop
+2-8	and	O	O	O	O
+2-9	bought	2-2_conj_and	went	VBD	O
+2-10	everything	2-9_dobj	bought	NN	O
+2-11	I	2-12_nsubj	needed	PRP	P1_gardener
+2-12	needed	2-9_dep	bought	VBD	O
+2-13	to	2-14_aux	make	TO	O
+2-14	make	2-12_xcomp	needed	VB	O
+2-15	this	2-16_nsubj	happen	DT	O
+2-16	happen	2-14_ccomp	make	VB	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=I purchased a shovel , some work gloves , and a small potted tree . 
+3-1	I	3-2_nsubj	purchased	PRP	P1_gardener
+3-2	purchased	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	shovel	3-2_dobj	purchased	NN	P1_gardening_tool
+3-5	,	O	O	O	O
+3-6	some	O	O	DT	O
+3-7	work	O	O	NN	O
+3-8	gloves	O	O	NNS	P1_gardening_tool
+3-9	,	O	O	O	O
+3-10	and	O	O	O	O
+3-11	a	O	O	DT	O
+3-12	small	O	O	JJ	O
+3-13	potted	O	O	JJ	O
+3-14	tree	O	O	NN	P1_tree
+3-15	.	O	O	O	O
+
+#id=4
+#text=When I got back home I quickly went to my backyard to find the perfect spot for the tree . 
+4-1	When	4-3_advmod	got	WRB	O
+4-2	I	4-3_nsubj	got	PRP	P1_gardener
+4-3	got	4-8_advcl	went	VBD	O
+4-4	back	4-3_advmod	got	RB	O
+4-5	home	O	O	NN	P1_NPart_home
+4-6	I	4-8_nsubj	went	PRP	P1_gardener
+4-7	quickly	4-8_advmod	went	RB	O
+4-8	went	O	O	VBD	O
+4-9	to	O	O	O	O
+4-10	my	O	O	PRP$	P1_gardener
+4-11	backyard	4-8_prep_to	went	NN	P1_location_garden
+4-12	to	4-13_aux	find	TO	O
+4-13	find	O	O	VB	O
+4-14	the	O	O	DT	O
+4-15	perfect	O	O	JJ	O
+4-16	spot	4-13_dobj	find	NN	P1_location_garden
+4-17	for	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	tree	O	O	NN	P1_tree
+4-20	.	O	O	O	O
+
+#id=5
+#text=After picking out the spot , I put on my new work gloves to protect my hands . 
+5-1	After	O	O	O	O
+5-2	picking	5-8_prepc_after	put	VBG	O
+5-3	out	5-2_prt	picking	RP	O
+5-4	the	O	O	DT	O
+5-5	spot	5-2_dobj	picking	NN	P1_location_garden
+5-6	,	O	O	O	O
+5-7	I	5-8_nsubj	put	PRP	P1_gardener
+5-8	put	O	O	VBD	O
+5-9	on	O	O	O	O
+5-10	my	O	O	PRP$	P1_gardener
+5-11	new	O	O	JJ	O
+5-12	work	O	O	NN	O
+5-13	gloves	5-8_prep_on	put	NNS	P1_gardening_tool
+5-14	to	5-15_aux	protect	TO	O
+5-15	protect	5-8_xcomp	put	VB	O
+5-16	my	O	O	PRP$	P1_gardener
+5-17	hands	5-15_dobj	protect	NNS	P1_NPart_hands
+5-18	.	O	O	O	O
+
+#id=6
+#text=Then I got down on my knees , grabbed the small shovel , and started digging a deep enough hole . 
+6-1	Then	6-3_advmod	got	RB	O
+6-2	I	6-3_nsubj	got	PRP	P1_gardener
+6-3	got	O	O	VBD	O
+6-4	down	6-3_prt	got	RP	O
+6-5	on	O	O	O	O
+6-6	my	O	O	PRP$	P1_gardener
+6-7	knees	6-3_prep_on	got	NNS	P1_NPart_knees
+6-8	,	O	O	O	O
+6-9	grabbed	6-3_conj_and	got	VBD	O
+6-10	the	O	O	DT	O
+6-11	small	O	O	JJ	O
+6-12	shovel	6-9_dobj	grabbed	NN	P1_gardening_tool
+6-13	,	O	O	O	O
+6-14	and	O	O	O	O
+6-15	started	6-3_conj_and	got	VBD	O
+6-16	digging	6-15_iobj	started	NN	O
+6-17	a	O	O	DT	O
+6-18	deep	O	O	JJ	O
+6-19	enough	O	O	JJ	O
+6-20	hole	6-15_dobj	started	NN	P1_hole
+6-21	.	O	O	O	O
+
+#id=7
+#text=When I was satisfied with the depth of the hole I removed the small tree from the pot and placed it into the hole . 
+7-1	When	7-4_advmod	satisfied	WRB	O
+7-2	I	7-4_nsubjpass	satisfied	PRP	P1_gardener
+7-3	was	7-4_auxpass	satisfied	VBD	O
+7-4	satisfied	7-12_advcl	removed	VBN	O
+7-5	with	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	depth	7-4_prep_with	satisfied	NN	P1_NPart_depth
+7-8	of	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	hole	O	O	NN	P1_hole
+7-11	I	7-12_nsubj	removed	PRP	P1_gardener
+7-12	removed	O	O	VBD	O
+7-13	the	O	O	DT	O
+7-14	small	O	O	JJ	O
+7-15	tree	7-12_dobj	removed	NN	P1_tree
+7-16	from	O	O	O	O
+7-17	the	O	O	DT	O
+7-18	pot	7-12_prep_from	removed	NN	P1_wrapping
+7-19	and	O	O	O	O
+7-20	placed	7-12_conj_and	removed	VBD	O
+7-21	it	7-20_dobj	placed	PRP	P1_tree
+7-22	into	O	O	O	O
+7-23	the	O	O	DT	O
+7-24	hole	7-20_prep_into	placed	NN	P1_hole
+7-25	.	O	O	O	O
+
+#id=8
+#text=I then covered up the hole with the dirt and made sure it was secure and safe . 
+8-1	I	8-3_nsubj	covered	PRP	P1_gardener
+8-2	then	8-3_advmod	covered	RB	O
+8-3	covered	O	O	VBD	O
+8-4	up	8-3_prt	covered	RP	O
+8-5	the	O	O	DT	O
+8-6	hole	8-3_dobj	covered	NN	P1_hole
+8-7	with	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	dirt	8-3_prep_with	covered	NN	P1_dirt
+8-10	and	O	O	O	O
+8-11	made	8-3_conj_and	covered	VBD	O
+8-12	sure	8-11_acomp	made	JJ	O
+8-13	it	O	O	PRP	P1_tree
+8-14	was	O	O	VBD	O
+8-15	secure	O	O	JJ	O
+8-16	and	O	O	O	O
+8-17	safe	O	O	JJ	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=When I was finished securing it , I watered the surrounding area of the tree and admired my handy work . 
+9-1	When	9-4_advmod	finished	WRB	O
+9-2	I	9-4_nsubjpass	finished	PRP	P1_gardener
+9-3	was	9-4_auxpass	finished	VBD	O
+9-4	finished	9-9_advcl	watered	VBN	O
+9-5	securing	9-4_xcomp	finished	VBG	O
+9-6	it	9-5_dobj	securing	PRP	P1_tree
+9-7	,	O	O	O	O
+9-8	I	9-9_nsubj	watered	PRP	P1_gardener
+9-9	watered	O	O	VBD	O
+9-10	the	O	O	DT	O
+9-11	surrounding	O	O	VBG	O
+9-12	area	9-9_dobj	watered	NN	P1_location_garden
+9-13	of	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	tree	O	O	NN	P1_tree
+9-16	and	O	O	O	O
+9-17	admired	9-9_conj_and	watered	VBD	O
+9-18	my	O	O	PRP$	P1_gardener
+9-19	handy	O	O	JJ	O
+9-20	work	9-17_dobj	admired	NN	P1_NPart_work
+9-21	.	O	O	O	O

@@ -1,0 +1,238 @@
+#id=1
+#text=I flew on an airplane about 2 months ago . 
+1-1	I	1-2_nsubj	flew	PRP	P1_passenger
+1-2	flew	O	O	VBD	O
+1-3	on	O	O	O	O
+1-4	an	O	O	DT	O
+1-5	airplane	1-2_prep_on	flew	NN	P1_plane
+1-6	about	O	O	RB	O
+1-7	2	O	O	CD	O
+1-8	months	O	O	NNS	P1_time/date
+1-9	ago	1-2_advmod	flew	RB	O
+1-10	.	O	O	O	O
+
+#id=2
+#text=I was going from Chicago to Los Angeles . 
+2-1	I	2-3_nsubj	going	PRP	P1_passenger
+2-2	was	2-3_aux	going	VBD	O
+2-3	going	O	O	VBG	O
+2-4	from	O	O	O	O
+2-5	Chicago	2-3_prep_from	going	NNP	P1_NPart_chicago
+2-6	to	O	O	O	O
+2-7	Los	O	O	NNP	O
+2-8	Angeles	2-3_prep_to	going	NNP	P1_target_location
+2-9	.	O	O	O	O
+
+#id=3
+#text=It was a very early flight . 
+3-1	It	O	O	PRP	O
+3-2	was	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	very	O	O	RB	O
+3-5	early	O	O	JJ	O
+3-6	flight	O	O	NN	P1_flight
+3-7	.	O	O	O	O
+
+#id=4
+#text=My brother was able to drop me off at the airport . 
+4-1	My	O	O	PRP$	P1_passenger
+4-2	brother	O	O	NN	P1_accomp_person
+4-3	was	O	O	VBD	O
+4-4	able	O	O	JJ	O
+4-5	to	4-6_aux	drop	TO	O
+4-6	drop	O	O	VB	O
+4-7	me	4-6_dobj	drop	PRP	P1_passenger
+4-8	off	4-6_prt	drop	RP	O
+4-9	at	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	airport	4-6_prep_at	drop	NN	P1_airport
+4-12	.	O	O	O	O
+
+#id=5
+#text=I had already checked in online the night before and had no bags to check , so I walked straight to the security line . 
+5-1	I	5-4_nsubj	checked	PRP	P1_passenger
+5-2	had	5-4_aux	checked	VBD	O
+5-3	already	5-4_advmod	checked	RB	O
+5-4	checked	O	O	VBN	O
+5-5	in	5-4_prep	checked	IN	O
+5-6	online	O	O	NN	P1_other
+5-7	the	O	O	DT	O
+5-8	night	5-4_tmod	checked	NN	P1_NPart_night
+5-9	before	5-4_prep	checked	IN	O
+5-10	and	O	O	O	O
+5-11	had	5-4_conj_and	checked	VBN	O
+5-12	no	O	O	DT	O
+5-13	bags	5-11_dobj	had	NNS	P1_check_in_luggage
+5-14	to	5-15_aux	check	TO	O
+5-15	check	5-11_vmod	had	VB	O
+5-16	,	O	O	O	O
+5-17	so	5-19_mark	walked	IN	O
+5-18	I	5-19_nsubj	walked	PRP	P1_passenger
+5-19	walked	5-11_advcl	had	VBD	O
+5-20	straight	5-19_advmod	walked	RB	O
+5-21	to	O	O	O	O
+5-22	the	O	O	DT	O
+5-23	security	O	O	NN	O
+5-24	line	5-19_prep_to	walked	NN	P1_line
+5-25	.	O	O	O	O
+
+#id=6
+#text=Once TSA checked my ID and boarding pass , I stood in line for about 10 minutes while I waited for my bags\/body to be scanned . 
+6-1	Once	6-3_mark	checked	IN	O
+6-2	TSA	6-3_nsubj	checked	NNP	P1_staff
+6-3	checked	6-11_advcl	stood	VBD	O
+6-4	my	O	O	PRP$	P1_passenger
+6-5	ID	6-3_dobj	checked	NN	P1_passport/ID
+6-6	and	O	O	O	O
+6-7	boarding	O	O	NN	O
+6-8	pass	O	O	NN	P1_boarding_pass
+6-9	,	O	O	O	O
+6-10	I	6-11_nsubj	stood	PRP	P1_passenger
+6-11	stood	O	O	VBD	O
+6-12	in	O	O	O	O
+6-13	line	6-11_prep_in	stood	NN	P1_line
+6-14	for	O	O	O	O
+6-15	about	O	O	RB	O
+6-16	10	O	O	CD	O
+6-17	minutes	O	O	NNS	P2_time/date
+6-18	while	6-20_mark	waited	IN	O
+6-19	I	6-20_nsubj	waited	PRP	P1_passenger
+6-20	waited	6-11_advcl	stood	VBD	O
+6-21	for	O	O	O	O
+6-22	my	O	O	PRP$	P1_passenger
+6-23	bags\/body	6-20_prep_for	waited	NN	O
+6-24	to	6-26_aux	scanned	TO	O
+6-25	be	6-26_auxpass	scanned	VB	O
+6-26	scanned	O	O	VBN	O
+6-27	.	O	O	O	O
+
+#id=7
+#text=Once through security , I checked the monitors to see that my flight was on time and that there was not a last minute gate change . 
+7-1	Once	7-6_advmod	checked	RB	O
+7-2	through	O	O	O	O
+7-3	security	O	O	NN	P1_security_check
+7-4	,	O	O	O	O
+7-5	I	7-6_nsubj	checked	PRP	P1_passenger
+7-6	checked	O	O	VBD	O
+7-7	the	O	O	DT	O
+7-8	monitors	7-6_dobj	checked	NNS	P1_NPart_monitors
+7-9	to	7-10_aux	see	TO	O
+7-10	see	7-6_vmod	checked	VB	O
+7-11	that	7-14_mark	was	IN	O
+7-12	my	O	O	PRP$	P1_passenger
+7-13	flight	7-14_nsubj	was	NN	P1_flight
+7-14	was	7-10_ccomp	see	VBD	O
+7-15	on	O	O	O	O
+7-16	time	7-14_prep_on	was	NN	O
+7-17	and	O	O	O	O
+7-18	that	7-20_mark	was	IN	O
+7-19	there	7-20_expl	was	EX	O
+7-20	was	7-14_conj_and	was	VBD	O
+7-21	not	7-20_neg	was	RB	O
+7-22	a	O	O	DT	O
+7-23	last	O	O	JJ	O
+7-24	minute	O	O	JJ	O
+7-25	gate	O	O	NN	O
+7-26	change	7-20_nsubj	was	NN	P1_NPart_change
+7-27	.	O	O	O	O
+
+#id=8
+#text=I then walked to the gate and boarded the plane about 10 minutes later . 
+8-1	I	8-3_nsubj	walked	PRP	P1_passenger
+8-2	then	8-3_advmod	walked	RB	O
+8-3	walked	O	O	VBD	O
+8-4	to	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	gate	8-3_prep_to	walked	NN	P1_terminal/gate
+8-7	and	O	O	O	O
+8-8	boarded	8-3_conj_and	walked	VBD	O
+8-9	the	O	O	DT	O
+8-10	plane	8-8_dobj	boarded	NN	P1_plane
+8-11	about	O	O	RB	O
+8-12	10	O	O	CD	O
+8-13	minutes	O	O	NNS	P3_time/date
+8-14	later	8-8_advmod	boarded	RB	O
+8-15	.	O	O	O	O
+
+#id=9
+#text=The flight attendants went over the safety procedures , the captain gave his greetings , and we were on our way . 
+9-1	The	O	O	DT	O
+9-2	flight	O	O	NN	O
+9-3	attendants	9-4_nsubj	went	NNS	P2_staff
+9-4	went	O	O	VBD	O
+9-5	over	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	safety	O	O	NN	O
+9-8	procedures	9-4_prep_over	went	NNS	P1_NPart_procedures
+9-9	,	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	captain	9-12_nsubj	gave	NN	P3_staff
+9-12	gave	9-4_dep	went	VBD	O
+9-13	his	O	O	PRP$	P3_staff
+9-14	greetings	9-12_dobj	gave	NNS	O
+9-15	,	O	O	O	O
+9-16	and	O	O	O	O
+9-17	we	9-18_nsubj	were	PRP	P2_passenger
+9-18	were	9-4_conj_and	went	VBD	O
+9-19	on	O	O	O	O
+9-20	our	O	O	PRP$	P2_passenger
+9-21	way	9-18_prep_on	were	NN	O
+9-22	.	O	O	O	O
+
+#id=10
+#text=The flight was very smooth and quiet . 
+10-1	The	O	O	DT	O
+10-2	flight	O	O	NN	P1_flight
+10-3	was	O	O	VBD	O
+10-4	very	O	O	RB	O
+10-5	smooth	O	O	JJ	O
+10-6	and	O	O	O	O
+10-7	quiet	O	O	JJ	O
+10-8	.	O	O	O	O
+
+#id=11
+#text=The time flew by , as I slept most of the way . 
+11-1	The	O	O	DT	O
+11-2	time	11-3_nsubj	flew	NN	P4_time/date
+11-3	flew	O	O	VBD	O
+11-4	by	11-3_prep	flew	IN	O
+11-5	,	O	O	O	O
+11-6	as	11-8_mark	slept	IN	O
+11-7	I	11-8_nsubj	slept	PRP	P1_passenger
+11-8	slept	11-3_advcl	flew	VBD	O
+11-9	most	11-8_dobj	slept	JJS	O
+11-10	of	O	O	O	O
+11-11	the	O	O	DT	O
+11-12	way	O	O	NN	P1_NPart_way
+11-13	.	O	O	O	O
+
+#id=12
+#text=We landed on time . 
+12-1	We	12-2_nsubj	landed	PRP	P2_passenger
+12-2	landed	O	O	VBD	O
+12-3	on	O	O	O	O
+12-4	time	12-2_prep_on	landed	NN	O
+12-5	.	O	O	O	O
+
+#id=13
+#text=The plane then taxied to the gate and everyone exited the plane . 
+13-1	The	O	O	DT	O
+13-2	plane	13-4_nsubj	taxied	NN	P1_plane
+13-3	then	13-4_advmod	taxied	RB	O
+13-4	taxied	O	O	VBD	O
+13-5	to	O	O	O	O
+13-6	the	O	O	DT	O
+13-7	gate	13-4_prep_to	taxied	NN	P2_terminal/gate
+13-8	and	O	O	O	O
+13-9	everyone	O	O	NN	P2_passenger
+13-10	exited	O	O	VBN	O
+13-11	the	O	O	DT	O
+13-12	plane	13-10_dobj	exited	NN	P1_plane
+13-13	.	O	O	O	O
+
+#id=14
+#text=Another successful flight . 
+14-1	Another	O	O	DT	O
+14-2	successful	O	O	JJ	O
+14-3	flight	O	O	NN	P1_flight
+14-4	.	O	O	O	O

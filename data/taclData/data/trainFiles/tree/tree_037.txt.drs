@@ -1,0 +1,228 @@
+#id=1
+#text=I decided one day to plant a tree in my front yard . 
+1-1	I	1-2_nsubj	decided	PRP	P1_gardener
+1-2	decided	O	O	VBD	O
+1-3	one	O	O	CD	O
+1-4	day	1-2_tmod	decided	NN	O
+1-5	to	1-6_aux	plant	TO	O
+1-6	plant	1-2_vmod	decided	VB	O
+1-7	a	O	O	DT	O
+1-8	tree	1-6_dobj	plant	NN	P1_tree
+1-9	in	O	O	O	O
+1-10	my	O	O	PRP$	P1_gardener
+1-11	front	O	O	JJ	O
+1-12	yard	O	O	NN	P1_location_garden
+1-13	.	O	O	O	O
+
+#id=2
+#text=I was unsure of what sort of tree I should plant so I went online and did research as to which type of tree would be best for my situation . 
+2-1	I	O	O	PRP	P1_gardener
+2-2	was	O	O	VBD	O
+2-3	unsure	2-11_dep	plant	JJ	O
+2-4	of	O	O	O	O
+2-5	what	O	O	WP	O
+2-6	sort	O	O	NN	O
+2-7	of	O	O	O	O
+2-8	tree	O	O	NN	P1_tree
+2-9	I	2-11_nsubj	plant	PRP	P1_gardener
+2-10	should	2-11_aux	plant	MD	O
+2-11	plant	O	O	VB	O
+2-12	so	2-14_mark	went	IN	O
+2-13	I	2-14_nsubj	went	PRP	P1_gardener
+2-14	went	2-11_advcl	plant	VBD	O
+2-15	online	2-14_prep	went	NN	O
+2-16	and	O	O	O	O
+2-17	did	2-14_conj_and	went	VBD	O
+2-18	research	2-17_dobj	did	NN	P1_NPart_research
+2-19	as	O	O	O	O
+2-20	to	O	O	O	O
+2-21	which	O	O	WDT	O
+2-22	type	O	O	NN	O
+2-23	of	O	O	O	O
+2-24	tree	O	O	NN	P1_tree
+2-25	would	O	O	MD	O
+2-26	be	O	O	VB	O
+2-27	best	2-17_prepc_as_to	did	JJS	O
+2-28	for	O	O	O	O
+2-29	my	O	O	PRP$	P1_gardener
+2-30	situation	O	O	NN	P1_NPart_situation
+2-31	.	O	O	O	O
+
+#id=3
+#text=I settled on a magnificent Norway Pine , as it is common in Northern Minnesota . 
+3-1	I	3-2_nsubj	settled	PRP	P1_gardener
+3-2	settled	O	O	VBD	O
+3-3	on	O	O	O	O
+3-4	a	O	O	DT	O
+3-5	magnificent	O	O	JJ	O
+3-6	Norway	O	O	NNP	O
+3-7	Pine	3-2_prep_on	settled	NNP	P1_tree
+3-8	,	O	O	O	O
+3-9	as	O	O	IN	O
+3-10	it	O	O	PRP	P1_tree
+3-11	is	O	O	VBZ	O
+3-12	common	3-2_advcl	settled	JJ	O
+3-13	in	O	O	O	O
+3-14	Northern	O	O	NNP	O
+3-15	Minnesota	O	O	NNP	P1_NPart_minnesota
+3-16	.	O	O	O	O
+
+#id=4
+#text=I went out to my nearest greenhouse , which I found via Google Maps , and asked them where they kept their saplings -LRB- as I had read that this is how one should plant a tree -RRB- . 
+4-1	I	4-2_nsubj	went	PRP	P1_gardener
+4-2	went	O	O	VBD	O
+4-3	out	4-2_prt	went	RP	O
+4-4	to	O	O	O	O
+4-5	my	O	O	PRP$	P1_gardener
+4-6	nearest	O	O	JJS	O
+4-7	greenhouse	4-2_prep_to	went	NN	P1_shop
+4-8	,	O	O	O	O
+4-9	which	4-11_dep	found	WDT	P1_shop
+4-10	I	4-11_nsubj	found	PRP	P1_gardener
+4-11	found	O	O	VBD	O
+4-12	via	O	O	O	O
+4-13	Google	O	O	NNP	O
+4-14	Maps	4-11_prep_via	found	NNPS	P1_NPart_maps
+4-15	,	O	O	O	O
+4-16	and	O	O	O	O
+4-17	asked	4-11_conj_and	found	VBD	O
+4-18	them	4-17_dobj	asked	PRP	P1_staff
+4-19	where	4-21_advmod	kept	WRB	O
+4-20	they	4-21_nsubj	kept	PRP	P1_staff
+4-21	kept	4-17_advcl	asked	VBD	O
+4-22	their	O	O	PRP$	P1_staff
+4-23	saplings	4-21_dobj	kept	NNS	P1_tree
+4-24	-LRB-	O	O	O	O
+4-25	as	4-28_mark	read	IN	O
+4-26	I	4-28_nsubj	read	PRP	P1_gardener
+4-27	had	4-28_aux	read	VBD	O
+4-28	read	4-11_dep	found	VBN	O
+4-29	that	4-31_mark	is	IN	O
+4-30	this	4-31_nsubj	is	DT	O
+4-31	is	4-28_ccomp	read	VBZ	O
+4-32	how	4-35_advmod	plant	WRB	O
+4-33	one	4-35_nsubj	plant	PRP	P1_gardener
+4-34	should	4-35_aux	plant	MD	O
+4-35	plant	4-31_ccomp	is	VB	O
+4-36	a	O	O	DT	O
+4-37	tree	4-35_dobj	plant	NN	P1_tree
+4-38	-RRB-	O	O	O	O
+4-39	.	O	O	O	O
+
+#id=5
+#text=I got the sapling and brought it home with me . 
+5-1	I	5-2_nsubj	got	PRP	P1_gardener
+5-2	got	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	sapling	5-2_dobj	got	NN	P1_tree
+5-5	and	O	O	O	O
+5-6	brought	5-2_conj_and	got	VBD	O
+5-7	it	5-6_dobj	brought	PRP	P1_tree
+5-8	home	5-6_advmod	brought	NN	P1_NPart_home
+5-9	with	O	O	O	O
+5-10	me	5-6_prep_with	brought	PRP	P1_gardener
+5-11	.	O	O	O	O
+
+#id=6
+#text=It was only six inches high but I knew I could make it grow tall and strong . 
+6-1	It	O	O	PRP	P1_tree
+6-2	was	O	O	VBD	O
+6-3	only	O	O	RB	O
+6-4	six	O	O	CD	O
+6-5	inches	O	O	NNS	P1_NPart_inches
+6-6	high	O	O	JJ	O
+6-7	but	O	O	O	O
+6-8	I	6-9_nsubj	knew	PRP	P1_gardener
+6-9	knew	O	O	VBD	O
+6-10	I	6-12_nsubj	make	PRP	P1_gardener
+6-11	could	6-12_aux	make	MD	O
+6-12	make	6-9_ccomp	knew	VB	O
+6-13	it	6-14_nsubj	grow	PRP	P1_tree
+6-14	grow	6-12_ccomp	make	VB	O
+6-15	tall	6-14_acomp	grow	JJ	O
+6-16	and	O	O	O	O
+6-17	strong	O	O	JJ	O
+6-18	.	O	O	O	O
+
+#id=7
+#text=I grabbed a shovel and started to dig , one small hole the size of the pot the sapling was in . 
+7-1	I	7-2_nsubj	grabbed	PRP	P1_gardener
+7-2	grabbed	7-20_dep	was	VBD	O
+7-3	a	O	O	DT	O
+7-4	shovel	7-2_dobj	grabbed	NN	P1_gardening_tool
+7-5	and	O	O	O	O
+7-6	started	7-2_conj_and	grabbed	VBN	O
+7-7	to	7-8_aux	dig	TO	O
+7-8	dig	7-6_xcomp	started	VB	O
+7-9	,	O	O	O	O
+7-10	one	O	O	CD	O
+7-11	small	O	O	JJ	O
+7-12	hole	O	O	NN	P1_hole
+7-13	the	O	O	DT	O
+7-14	size	7-2_xcomp	grabbed	NN	P1_NPart_size
+7-15	of	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	pot	O	O	NN	P1_wrapping
+7-18	the	O	O	DT	O
+7-19	sapling	7-20_nsubj	was	NN	P1_tree
+7-20	was	O	O	VBD	O
+7-21	in	7-20_prep	was	IN	O
+7-22	.	O	O	O	O
+
+#id=8
+#text=I carefully took the sapling out of the pot and placed it into the freshly dug hole . 
+8-1	I	8-3_nsubj	took	PRP	P1_gardener
+8-2	carefully	8-3_advmod	took	RB	O
+8-3	took	O	O	VBD	O
+8-4	the	8-3_dobj	took	DT	O
+8-5	sapling	O	O	VBG	P1_tree
+8-6	out	O	O	O	O
+8-7	of	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	pot	O	O	NN	P1_wrapping
+8-10	and	O	O	O	O
+8-11	placed	8-3_conj_and	took	VBD	O
+8-12	it	8-11_dobj	placed	PRP	P1_tree
+8-13	into	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	freshly	O	O	RB	O
+8-16	dug	O	O	JJ	O
+8-17	hole	8-11_prep_into	placed	NN	P1_hole
+8-18	.	O	O	O	O
+
+#id=9
+#text=Filling in the empty parts of the hole with extra dirt , I marveled at my creation . 
+9-1	Filling	9-14_vmod	marveled	VBG	O
+9-2	in	O	O	O	O
+9-3	the	O	O	DT	O
+9-4	empty	O	O	JJ	O
+9-5	parts	9-1_prep_in	Filling	NNS	P1_NPart_parts
+9-6	of	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	hole	O	O	NN	P1_hole
+9-9	with	O	O	O	O
+9-10	extra	O	O	JJ	O
+9-11	dirt	O	O	NN	P1_dirt
+9-12	,	O	O	O	O
+9-13	I	9-14_nsubj	marveled	PRP	P1_gardener
+9-14	marveled	O	O	VBD	O
+9-15	at	O	O	O	O
+9-16	my	O	O	PRP$	P1_gardener
+9-17	creation	9-14_prep_at	marveled	NN	P1_NPart_creation
+9-18	.	O	O	O	O
+
+#id=10
+#text=That was the day I planted a tree in my front yard . 
+10-1	That	O	O	DT	O
+10-2	was	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	day	O	O	NN	P1_time
+10-5	I	10-6_nsubj	planted	PRP	P1_gardener
+10-6	planted	O	O	VBD	O
+10-7	a	O	O	DT	O
+10-8	tree	10-6_dobj	planted	NN	P1_tree
+10-9	in	O	O	O	O
+10-10	my	O	O	PRP$	P1_gardener
+10-11	front	O	O	JJ	O
+10-12	yard	10-6_prep_in	planted	NN	P1_location_garden
+10-13	.	O	O	O	O

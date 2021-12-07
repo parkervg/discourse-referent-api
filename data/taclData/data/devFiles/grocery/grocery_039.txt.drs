@@ -1,0 +1,231 @@
+#id=1
+#text=Weekly grocery shopping begins at the local supermarket down the street . 
+1-1	Weekly	O	O	NNP	O
+1-2	grocery	O	O	NN	P1_groceries
+1-3	shopping	1-4_nsubj	begins	NN	O
+1-4	begins	O	O	VBZ	O
+1-5	at	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	local	O	O	JJ	O
+1-8	supermarket	1-4_prep_at	begins	NN	P1_grocery_shop
+1-9	down	O	O	RB	O
+1-10	the	O	O	DT	O
+1-11	street	O	O	NN	P1_NPart_street
+1-12	.	O	O	O	O
+
+#id=2
+#text=It 's the closest by with a great selection . 
+2-1	It	O	O	PRP	P1_grocery_shop
+2-2	's	O	O	VBZ	O
+2-3	the	O	O	DT	O
+2-4	closest	O	O	JJS	O
+2-5	by	O	O	IN	O
+2-6	with	O	O	IN	O
+2-7	a	O	O	DT	O
+2-8	great	O	O	JJ	O
+2-9	selection	O	O	NN	P1_NPart_selection
+2-10	.	O	O	O	O
+
+#id=3
+#text=It may not be the cheapest but nothing compares in how close it is . 
+3-1	It	O	O	PRP	P1_grocery_shop
+3-2	may	O	O	MD	O
+3-3	not	O	O	RB	O
+3-4	be	O	O	VB	O
+3-5	the	O	O	DT	O
+3-6	cheapest	O	O	JJS	O
+3-7	but	O	O	O	O
+3-8	nothing	3-9_nsubj	compares	NN	O
+3-9	compares	O	O	VBZ	O
+3-10	in	O	O	O	O
+3-11	how	O	O	WRB	O
+3-12	close	3-14_advmod	is	JJ	O
+3-13	it	3-14_nsubj	is	PRP	P1_grocery_shop
+3-14	is	3-9_prepc_in	compares	VBZ	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=Once I am at the store , I usually head straight to the fruits and vegetable sections first . 
+4-1	Once	4-3_mark	am	IN	O
+4-2	I	4-3_nsubj	am	PRP	P1_shopper
+4-3	am	4-10_advcl	head	VBP	O
+4-4	at	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	store	4-3_prep_at	am	NN	P1_grocery_shop
+4-7	,	O	O	O	O
+4-8	I	4-10_nsubj	head	PRP	P1_shopper
+4-9	usually	4-10_advmod	head	RB	O
+4-10	head	O	O	VBP	O
+4-11	straight	4-10_advmod	head	RB	O
+4-12	to	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	fruits	4-10_prep_to	head	NNS	O
+4-15	and	O	O	O	O
+4-16	vegetable	O	O	NN	O
+4-17	sections	O	O	NNS	P1_section
+4-18	first	4-10_advmod	head	RB	O
+4-19	.	O	O	O	O
+
+#id=5
+#text=I will grab all the fruits and veggies that I think I will need for the week . 
+5-1	I	5-3_nsubj	grab	PRP	P1_shopper
+5-2	will	5-3_aux	grab	MD	O
+5-3	grab	O	O	VB	O
+5-4	all	O	O	PDT	O
+5-5	the	O	O	DT	O
+5-6	fruits	5-3_dobj	grab	NNS	P2_groceries
+5-7	and	O	O	O	O
+5-8	veggies	O	O	NNS	P3_groceries
+5-9	that	5-11_mark	think	IN	P4_groceries
+5-10	I	5-11_nsubj	think	PRP	P1_shopper
+5-11	think	5-3_ccomp	grab	VBP	O
+5-12	I	5-14_nsubj	need	PRP	P1_shopper
+5-13	will	5-14_aux	need	MD	O
+5-14	need	5-11_ccomp	think	VB	O
+5-15	for	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	week	5-14_prep_for	need	NN	P1_NPart_week
+5-18	.	O	O	O	O
+
+#id=6
+#text=I do n't really go with a shopping list or anything in mind . 
+6-1	I	6-5_nsubj	go	PRP	P1_shopper
+6-2	do	6-5_aux	go	VBP	O
+6-3	n't	6-5_neg	go	RB	O
+6-4	really	6-5_advmod	go	RB	O
+6-5	go	O	O	VB	O
+6-6	with	O	O	O	O
+6-7	a	O	O	DT	O
+6-8	shopping	O	O	NN	O
+6-9	list	6-5_prep_with	go	NN	P1_grocery_list
+6-10	or	O	O	O	O
+6-11	anything	O	O	NN	P1_NPart_anything
+6-12	in	O	O	O	O
+6-13	mind	O	O	NN	P1_NPart_mind
+6-14	.	O	O	O	O
+
+#id=7
+#text=Usually whatever looks the freshest or is on sale is what I tend to buy . 
+7-1	Usually	7-10_nsubj	is	NNP	O
+7-2	whatever	7-3_nsubj	looks	WDT	P4_groceries
+7-3	looks	O	O	VBZ	O
+7-4	the	O	O	DT	O
+7-5	freshest	7-3_dobj	looks	NN	O
+7-6	or	O	O	O	O
+7-7	is	7-3_conj_or	looks	VBZ	O
+7-8	on	O	O	O	O
+7-9	sale	7-7_prep_on	is	NN	P1_NPart_sale
+7-10	is	O	O	VBZ	O
+7-11	what	7-13_dobj	tend	WP	P4_groceries
+7-12	I	7-13_nsubj	tend	PRP	P1_shopper
+7-13	tend	7-10_ccomp	is	VBP	O
+7-14	to	7-15_aux	buy	TO	O
+7-15	buy	7-13_xcomp	tend	VB	O
+7-16	.	O	O	O	O
+
+#id=8
+#text=After selecting these items , I will move to the proteins . 
+8-1	After	O	O	O	O
+8-2	selecting	8-8_prepc_after	move	VBG	O
+8-3	these	O	O	DT	O
+8-4	items	8-2_dobj	selecting	NNS	P4_groceries
+8-5	,	O	O	O	O
+8-6	I	8-8_nsubj	move	PRP	P1_shopper
+8-7	will	8-8_aux	move	MD	O
+8-8	move	O	O	VB	O
+8-9	to	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	proteins	8-8_prep_to	move	NNS	P5_groceries
+8-12	.	O	O	O	O
+
+#id=9
+#text=Sometimes it is chicken and sometimes it beef . 
+9-1	Sometimes	O	O	RB	O
+9-2	it	O	O	PRP	O
+9-3	is	O	O	VBZ	O
+9-4	chicken	O	O	NN	P6_groceries
+9-5	and	O	O	O	O
+9-6	sometimes	9-8_advmod	beef	RB	O
+9-7	it	9-8_nsubj	beef	PRP	O
+9-8	beef	O	O	VB	P7_groceries
+9-9	.	O	O	O	O
+
+#id=10
+#text=It depends on the vegetables I 've just selected to determine which type of protein I will be purchasing . 
+10-1	It	10-2_nsubj	depends	PRP	O
+10-2	depends	O	O	VBZ	O
+10-3	on	O	O	O	O
+10-4	the	O	O	DT	O
+10-5	vegetables	10-2_prep_on	depends	NNS	P4_groceries
+10-6	I	10-9_nsubj	selected	PRP	P1_shopper
+10-7	've	10-9_aux	selected	VBP	O
+10-8	just	10-9_advmod	selected	RB	O
+10-9	selected	O	O	VBN	O
+10-10	to	10-11_aux	determine	TO	O
+10-11	determine	10-9_xcomp	selected	VB	O
+10-12	which	O	O	WDT	O
+10-13	type	10-19_dobj	purchasing	NN	O
+10-14	of	O	O	O	O
+10-15	protein	O	O	NN	P5_groceries
+10-16	I	10-19_nsubj	purchasing	PRP	P1_shopper
+10-17	will	10-19_aux	purchasing	MD	O
+10-18	be	10-19_aux	purchasing	VB	O
+10-19	purchasing	10-11_ccomp	determine	VBG	O
+10-20	.	O	O	O	O
+
+#id=11
+#text=Lastly , once those are done I will pick up the packaged goods such as milk , bread , eggs , and cereal . 
+11-1	Lastly	11-9_advmod	pick	RB	O
+11-2	,	O	O	O	O
+11-3	once	11-6_mark	done	IN	O
+11-4	those	11-6_nsubjpass	done	DT	P5_groceries
+11-5	are	11-6_auxpass	done	VBP	O
+11-6	done	11-9_advcl	pick	VBN	O
+11-7	I	11-9_nsubj	pick	PRP	P1_shopper
+11-8	will	11-9_aux	pick	MD	O
+11-9	pick	O	O	VB	O
+11-10	up	11-9_prt	pick	RP	O
+11-11	the	O	O	DT	O
+11-12	packaged	O	O	VBN	O
+11-13	goods	11-9_dobj	pick	NNS	P8_groceries
+11-14	such	O	O	O	O
+11-15	as	O	O	O	O
+11-16	milk	O	O	NN	P9_groceries
+11-17	,	O	O	O	O
+11-18	bread	O	O	NN	P10_groceries
+11-19	,	O	O	O	O
+11-20	eggs	O	O	NNS	P11_groceries
+11-21	,	O	O	O	O
+11-22	and	O	O	O	O
+11-23	cereal	O	O	NN	P12_groceries
+11-24	.	O	O	O	O
+
+#id=12
+#text=I do n't each much junk food or processed foods so this is basically all I will get for a typical trip to the grocery store . 
+12-1	I	12-2_nsubj	do	PRP	P1_shopper
+12-2	do	O	O	VBP	O
+12-3	n't	12-2_neg	do	RB	O
+12-4	each	O	O	DT	O
+12-5	much	O	O	JJ	O
+12-6	junk	O	O	NN	O
+12-7	food	12-2_dobj	do	NN	P13_groceries
+12-8	or	O	O	O	O
+12-9	processed	O	O	VBN	O
+12-10	foods	O	O	NNS	P14_groceries
+12-11	so	12-2_dep	do	IN	O
+12-12	this	O	O	DT	O
+12-13	is	O	O	VBZ	O
+12-14	basically	O	O	RB	O
+12-15	all	12-2_parataxis	do	DT	P15_groceries
+12-16	I	12-18_nsubj	get	PRP	P1_shopper
+12-17	will	12-18_aux	get	MD	O
+12-18	get	O	O	VB	O
+12-19	for	O	O	O	O
+12-20	a	O	O	DT	O
+12-21	typical	O	O	JJ	O
+12-22	trip	12-18_prep_for	get	NN	P1_NPart_trip
+12-23	to	O	O	O	O
+12-24	the	O	O	DT	O
+12-25	grocery	O	O	NN	O
+12-26	store	12-18_prep_to	get	NN	P1_grocery_shop
+12-27	.	O	O	O	O

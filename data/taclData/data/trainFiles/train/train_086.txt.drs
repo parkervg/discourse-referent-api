@@ -1,0 +1,215 @@
+#id=1
+#text=Yes going on a train , this is was our ideal weekend activity not too long ago . 
+1-1	Yes	O	O	RB	O
+1-2	going	O	O	VBG	O
+1-3	on	O	O	O	O
+1-4	a	O	O	DT	O
+1-5	train	1-2_prep_on	going	NN	P1_train
+1-6	,	O	O	O	O
+1-7	this	O	O	DT	O
+1-8	is	O	O	VBZ	O
+1-9	was	O	O	VBD	O
+1-10	our	O	O	PRP$	P1_passenger
+1-11	ideal	O	O	JJ	O
+1-12	weekend	O	O	NN	O
+1-13	activity	O	O	NN	P1_NPart_activity
+1-14	not	O	O	RB	O
+1-15	too	O	O	RB	O
+1-16	long	O	O	RB	O
+1-17	ago	O	O	RB	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=We purchased tickets to travel from Boston to New York City . 
+2-1	We	2-2_nsubj	purchased	PRP	P1_passenger
+2-2	purchased	O	O	VBD	O
+2-3	tickets	2-2_dobj	purchased	NNS	P1_card/ticket
+2-4	to	2-5_aux	travel	TO	O
+2-5	travel	2-2_vmod	purchased	VB	O
+2-6	from	O	O	O	O
+2-7	Boston	2-5_prep_from	travel	NNP	P1_other
+2-8	to	O	O	O	O
+2-9	New	O	O	NNP	O
+2-10	York	O	O	NNP	O
+2-11	City	2-5_prep_to	travel	NNP	P1_destination
+2-12	.	O	O	O	O
+
+#id=3
+#text=As we entered the platform of the train is was pure steel and looked so solidly strong . 
+3-1	As	3-3_mark	entered	IN	O
+3-2	we	3-3_nsubj	entered	PRP	P1_passenger
+3-3	entered	O	O	VBD	O
+3-4	the	O	O	DT	O
+3-5	platform	3-9_nsubj	is	NN	P1_platform
+3-6	of	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	train	O	O	NN	P2_train
+3-9	is	3-3_ccomp	entered	VBZ	O
+3-10	was	O	O	VBD	O
+3-11	pure	O	O	JJ	O
+3-12	steel	O	O	NN	P1_NPart_steel
+3-13	and	O	O	O	O
+3-14	looked	O	O	VBD	O
+3-15	so	O	O	RB	O
+3-16	solidly	O	O	RB	O
+3-17	strong	3-14_acomp	looked	JJ	O
+3-18	.	O	O	O	O
+
+#id=4
+#text=We walked down the isle and found an comfortable looking seat and decided to sit there . 
+4-1	We	4-2_nsubj	walked	PRP	P1_passenger
+4-2	walked	O	O	VBD	O
+4-3	down	4-2_prt	walked	RP	O
+4-4	the	O	O	DT	O
+4-5	isle	4-2_dobj	walked	NN	P1_location_train
+4-6	and	O	O	O	O
+4-7	found	4-2_conj_and	walked	VBD	O
+4-8	an	O	O	DT	O
+4-9	comfortable	4-10_dep	looking	JJ	O
+4-10	looking	O	O	VBG	O
+4-11	seat	4-7_dobj	found	NN	P1_seat
+4-12	and	O	O	O	O
+4-13	decided	4-7_conj_and	found	VBD	O
+4-14	to	4-15_aux	sit	TO	O
+4-15	sit	4-13_xcomp	decided	VB	O
+4-16	there	4-15_advmod	sit	RB	P2_location_train
+4-17	.	O	O	O	O
+
+#id=5
+#text=Shortly the train horn blasted making me jump of my seat lol . 
+5-1	Shortly	5-5_advmod	blasted	RB	O
+5-2	the	O	O	DT	O
+5-3	train	O	O	NN	O
+5-4	horn	5-5_nsubj	blasted	NN	P2_other
+5-5	blasted	O	O	VBD	O
+5-6	making	5-5_xcomp	blasted	VBG	O
+5-7	me	5-8_nsubj	jump	PRP	P2_passenger
+5-8	jump	5-6_ccomp	making	VB	O
+5-9	of	O	O	O	O
+5-10	my	O	O	PRP$	P2_passenger
+5-11	seat	O	O	NN	P1_seat
+5-12	lol	5-8_prep_of	jump	NN	O
+5-13	.	O	O	O	O
+
+#id=6
+#text=Anyway we soon started moving and our train ride was underway . 
+6-1	Anyway	6-4_advmod	started	RB	O
+6-2	we	6-4_nsubj	started	PRP	P2_train
+6-3	soon	6-4_advmod	started	RB	O
+6-4	started	O	O	VBD	O
+6-5	moving	6-4_xcomp	started	VBG	O
+6-6	and	O	O	O	O
+6-7	our	O	O	PRP$	P1_passenger
+6-8	train	O	O	NN	O
+6-9	ride	6-10_nsubj	was	NN	P1_trip
+6-10	was	6-4_conj_and	started	VBD	O
+6-11	underway	6-10_advmod	was	RB	O
+6-12	.	O	O	O	O
+
+#id=7
+#text=The conductor walked the isles and collected our tickets . 
+7-1	The	O	O	DT	O
+7-2	conductor	7-3_nsubj	walked	NN	P1_train_staff
+7-3	walked	O	O	VBD	O
+7-4	the	O	O	DT	O
+7-5	isles	7-3_dobj	walked	NNS	P3_location_train
+7-6	and	O	O	O	O
+7-7	collected	7-3_conj_and	walked	VBD	O
+7-8	our	O	O	PRP$	P1_passenger
+7-9	tickets	7-7_dobj	collected	NNS	P1_card/ticket
+7-10	.	O	O	O	O
+
+#id=8
+#text=love scenery so I had the window seat watching everything along the way . 
+8-1	love	O	O	VB	O
+8-2	scenery	8-1_dobj	love	NN	P1_in-train_entertainment
+8-3	so	8-5_mark	had	IN	O
+8-4	I	8-5_nsubj	had	PRP	P2_passenger
+8-5	had	8-1_advcl	love	VBD	O
+8-6	the	O	O	DT	O
+8-7	window	O	O	NN	O
+8-8	seat	8-5_dobj	had	NN	P1_seat
+8-9	watching	O	O	VBG	O
+8-10	everything	8-9_dobj	watching	NN	P2_in-train_entertainment
+8-11	along	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	way	O	O	NN	P1_NPart_way
+8-14	.	O	O	O	O
+
+#id=9
+#text=First I saw large suburban areas but as we got into Connecticut many farms were being spotted . 
+9-1	First	9-3_dep	saw	JJ	O
+9-2	I	9-3_nsubj	saw	PRP	P2_passenger
+9-3	saw	O	O	VBD	O
+9-4	large	O	O	JJ	O
+9-5	suburban	O	O	JJ	O
+9-6	areas	9-3_dobj	saw	NNS	P3_in-train_entertainment
+9-7	but	O	O	O	O
+9-8	as	9-10_mark	got	IN	O
+9-9	we	9-10_nsubj	got	PRP	P2_train
+9-10	got	9-17_advcl	spotted	VBD	O
+9-11	into	O	O	O	O
+9-12	Connecticut	9-10_prep_into	got	NNP	O
+9-13	many	O	O	JJ	O
+9-14	farms	9-17_nsubjpass	spotted	NNS	O
+9-15	were	9-17_aux	spotted	VBD	O
+9-16	being	9-17_auxpass	spotted	VBG	O
+9-17	spotted	9-3_conj_but	saw	VBN	O
+9-18	.	O	O	O	O
+
+#id=10
+#text=It was n't very hilly but sure was a country atmosphere . 
+10-1	It	O	O	PRP	O
+10-2	was	O	O	VBD	O
+10-3	n't	O	O	RB	O
+10-4	very	O	O	RB	O
+10-5	hilly	10-8_dep	was	JJ	O
+10-6	but	O	O	O	O
+10-7	sure	O	O	JJ	O
+10-8	was	O	O	VBD	O
+10-9	a	O	O	DT	O
+10-10	country	O	O	NN	O
+10-11	atmosphere	10-8_nsubj	was	NN	P1_NPart_atmosphere
+10-12	.	O	O	O	O
+
+#id=11
+#text=Soon we approached NYC and the train came to slow stop , we had arrived at our destination . 
+11-1	Soon	11-3_advmod	approached	RB	O
+11-2	we	11-3_nsubj	approached	PRP	P2_train
+11-3	approached	11-15_ccomp	arrived	VBD	O
+11-4	NYC	11-8_nsubj	came	NNP	P1_destination
+11-5	and	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	train	O	O	NN	P2_train
+11-8	came	11-3_ccomp	approached	VBD	O
+11-9	to	11-10_aux	slow	TO	O
+11-10	slow	11-8_xcomp	came	VB	O
+11-11	stop	11-10_dobj	slow	NN	O
+11-12	,	O	O	O	O
+11-13	we	11-15_nsubj	arrived	PRP	P1_passenger
+11-14	had	11-15_aux	arrived	VBD	O
+11-15	arrived	O	O	VBN	O
+11-16	at	O	O	O	O
+11-17	our	O	O	PRP$	P1_passenger
+11-18	destination	11-15_prep_at	arrived	NN	P1_destination
+11-19	.	O	O	O	O
+
+#id=12
+#text=The ride overall was rather smooth and it did n't seem to take all that long . 
+12-1	The	O	O	DT	O
+12-2	ride	O	O	NN	P1_trip
+12-3	overall	O	O	RB	O
+12-4	was	O	O	VBD	O
+12-5	rather	O	O	RB	O
+12-6	smooth	O	O	JJ	O
+12-7	and	O	O	O	O
+12-8	it	12-11_nsubj	seem	PRP	P1_trip
+12-9	did	12-11_aux	seem	VBD	O
+12-10	n't	12-11_neg	seem	RB	O
+12-11	seem	O	O	VB	O
+12-12	to	12-13_aux	take	TO	O
+12-13	take	12-11_xcomp	seem	VB	O
+12-14	all	O	O	PDT	O
+12-15	that	O	O	DT	O
+12-16	long	12-13_advmod	take	JJ	O
+12-17	.	O	O	O	O

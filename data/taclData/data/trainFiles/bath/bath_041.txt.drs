@@ -1,0 +1,233 @@
+#id=1
+#text=Every day I wash myself in one form or another . 
+1-1	Every	O	O	DT	O
+1-2	day	1-4_tmod	wash	NN	O
+1-3	I	1-4_nsubj	wash	PRP	P1_bather
+1-4	wash	O	O	VBP	O
+1-5	myself	1-4_dobj	wash	PRP	P1_bather
+1-6	in	O	O	O	O
+1-7	one	O	O	CD	O
+1-8	form	1-4_prep_in	wash	NN	O
+1-9	or	O	O	O	O
+1-10	another	O	O	DT	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=It is imperative to stay clean and hygienic . 
+2-1	It	O	O	PRP	O
+2-2	is	O	O	VBZ	O
+2-3	imperative	O	O	JJ	O
+2-4	to	2-5_aux	stay	TO	O
+2-5	stay	O	O	VB	O
+2-6	clean	2-5_acomp	stay	JJ	O
+2-7	and	O	O	O	O
+2-8	hygienic	O	O	JJ	O
+2-9	.	O	O	O	O
+
+#id=3
+#text=Last night I decided to switch up my normal routine of taking a shower , and decided to take a nice bubble bath ! 
+3-1	Last	O	O	JJ	O
+3-2	night	3-4_tmod	decided	NN	P1_NPart_night
+3-3	I	3-4_nsubj	decided	PRP	P1_bather
+3-4	decided	O	O	VBD	O
+3-5	to	3-6_aux	switch	TO	O
+3-6	switch	3-4_xcomp	decided	VB	O
+3-7	up	3-6_prt	switch	RP	O
+3-8	my	O	O	PRP$	P1_bather
+3-9	normal	O	O	JJ	O
+3-10	routine	3-6_dobj	switch	NN	P1_NPart_routine
+3-11	of	O	O	O	O
+3-12	taking	O	O	VBG	O
+3-13	a	O	O	DT	O
+3-14	shower	3-12_dobj	taking	NN	P1_shower
+3-15	,	O	O	O	O
+3-16	and	O	O	O	O
+3-17	decided	3-4_conj_and	decided	VBD	O
+3-18	to	3-19_aux	take	TO	O
+3-19	take	3-17_xcomp	decided	VB	O
+3-20	a	O	O	DT	O
+3-21	nice	O	O	JJ	O
+3-22	bubble	O	O	NN	O
+3-23	bath	3-19_dobj	take	NN	O
+3-24	!	O	O	O	O
+
+#id=4
+#text=To prepare for the luscious endeavor , I stopped at LUSH on my way home from work . 
+4-1	To	4-2_aux	prepare	TO	O
+4-2	prepare	4-9_advcl	stopped	VB	O
+4-3	for	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	luscious	O	O	JJ	O
+4-6	endeavor	4-2_prep_for	prepare	NN	P1_NPart_endeavor
+4-7	,	O	O	O	O
+4-8	I	4-9_nsubj	stopped	PRP	P1_bather
+4-9	stopped	O	O	VBD	O
+4-10	at	O	O	O	O
+4-11	LUSH	4-9_prep_at	stopped	NNP	P1_NPart_lush
+4-12	on	O	O	O	O
+4-13	my	O	O	PRP$	P1_bather
+4-14	way	O	O	NN	P1_NPart_way
+4-15	home	4-9_prep_on	stopped	NN	P1_NPart_home
+4-16	from	O	O	O	O
+4-17	work	4-9_prep_from	stopped	NN	P1_NPart_work
+4-18	.	O	O	O	O
+
+#id=5
+#text=LUSH has a variety of ` bath bombs ' that can be used to enhance a bath . 
+5-1	LUSH	5-2_nsubj	has	NNP	P2_NPart_lush
+5-2	has	O	O	VBZ	O
+5-3	a	O	O	DT	O
+5-4	variety	5-2_dobj	has	NN	O
+5-5	of	O	O	O	O
+5-6	`	O	O	O	O
+5-7	bath	O	O	NN	O
+5-8	bombs	O	O	NNS	P1_bath_means
+5-9	'	O	O	O	O
+5-10	that	5-13_nsubjpass	used	WDT	P1_bath_means
+5-11	can	5-13_aux	used	MD	O
+5-12	be	5-13_auxpass	used	VB	O
+5-13	used	O	O	VBN	O
+5-14	to	5-15_aux	enhance	TO	O
+5-15	enhance	5-13_xcomp	used	VB	O
+5-16	a	O	O	DT	O
+5-17	bath	5-15_dobj	enhance	NN	P1_bath
+5-18	.	O	O	O	O
+
+#id=6
+#text=I found a dragonfruit-passionberry bomb , and purchased it . 
+6-1	I	6-2_nsubj	found	PRP	P1_bather
+6-2	found	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	dragonfruit-passionberry	O	O	JJ	O
+6-5	bomb	6-2_dobj	found	NN	P1_bath_means
+6-6	,	O	O	O	O
+6-7	and	O	O	O	O
+6-8	purchased	6-2_conj_and	found	VBD	O
+6-9	it	6-8_dobj	purchased	PRP	P1_bath_means
+6-10	.	O	O	O	O
+
+#id=7
+#text=Although I am a straight man , I love to pamper myself . 
+7-1	Although	O	O	IN	O
+7-2	I	O	O	PRP	P1_bather
+7-3	am	O	O	VBP	O
+7-4	a	O	O	DT	O
+7-5	straight	O	O	JJ	O
+7-6	man	7-9_advcl	love	NN	P1_NPart_man
+7-7	,	O	O	O	O
+7-8	I	7-9_nsubj	love	PRP	P1_bather
+7-9	love	O	O	VBP	O
+7-10	to	7-11_aux	pamper	TO	O
+7-11	pamper	7-9_xcomp	love	VB	O
+7-12	myself	7-11_dobj	pamper	PRP	P1_bather
+7-13	.	O	O	O	O
+
+#id=8
+#text=Getting home , the first thing I did was turn the hot water on in the bath to fill it up . 
+8-1	Getting	8-9_vmod	was	VBG	O
+8-2	home	8-1_dobj	Getting	NN	P2_NPart_home
+8-3	,	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	first	O	O	JJ	O
+8-6	thing	8-9_nsubj	was	NN	O
+8-7	I	8-8_nsubj	did	PRP	P1_bather
+8-8	did	O	O	VBD	O
+8-9	was	O	O	VBD	O
+8-10	turn	8-9_ccomp	was	VB	O
+8-11	the	O	O	DT	O
+8-12	hot	O	O	JJ	O
+8-13	water	8-10_dobj	turn	NN	P1_water
+8-14	on	8-10_dep	turn	IN	O
+8-15	in	O	O	O	O
+8-16	the	O	O	DT	O
+8-17	bath	8-10_prep_in	turn	NN	P1_bathtub
+8-18	to	8-19_aux	fill	TO	O
+8-19	fill	O	O	VB	O
+8-20	it	8-19_dobj	fill	PRP	P1_bathtub
+8-21	up	8-19_prt	fill	RP	O
+8-22	.	O	O	O	O
+
+#id=9
+#text=The warm water filled the tub and tendrils of mist rose from the steamy water . 
+9-1	The	O	O	DT	O
+9-2	warm	O	O	JJ	O
+9-3	water	9-11_nsubj	rose	NN	P1_water
+9-4	filled	O	O	VBN	O
+9-5	the	O	O	DT	O
+9-6	tub	9-4_dobj	filled	NN	P1_bathtub
+9-7	and	O	O	O	O
+9-8	tendrils	O	O	NNS	O
+9-9	of	O	O	O	O
+9-10	mist	O	O	NN	P1_NPart_mist
+9-11	rose	O	O	VBD	O
+9-12	from	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	steamy	O	O	JJ	O
+9-15	water	9-11_prep_from	rose	NN	P1_water
+9-16	.	O	O	O	O
+
+#id=10
+#text=The warmth was positively inviting ! 
+10-1	The	O	O	DT	O
+10-2	warmth	10-5_nsubj	inviting	NN	P1_temperature
+10-3	was	10-5_aux	inviting	VBD	O
+10-4	positively	10-5_advmod	inviting	RB	O
+10-5	inviting	O	O	VBG	O
+10-6	!	O	O	O	O
+
+#id=11
+#text=I dropped the bath bomb in and stepped into the tub myself . 
+11-1	I	11-2_nsubj	dropped	PRP	P1_bather
+11-2	dropped	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	bath	O	O	NN	O
+11-5	bomb	11-2_dobj	dropped	NN	P1_bath_means
+11-6	in	11-2_prep	dropped	IN	O
+11-7	and	O	O	O	O
+11-8	stepped	11-2_conj_and	dropped	VBD	O
+11-9	into	O	O	O	O
+11-10	the	O	O	DT	O
+11-11	tub	11-8_prep_into	stepped	NN	P1_bathtub
+11-12	myself	11-2_dobj	dropped	PRP	P1_bather
+11-13	.	O	O	O	O
+
+#id=12
+#text=Lowering myself slowly into the water 's embrace , I relaxed fully . 
+12-1	Lowering	12-11_vmod	relaxed	VBG	O
+12-2	myself	12-1_dobj	Lowering	PRP	P1_bather
+12-3	slowly	12-1_advmod	Lowering	RB	O
+12-4	into	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	water	O	O	NN	P1_water
+12-7	's	O	O	O	O
+12-8	embrace	12-1_prep_into	Lowering	NN	P1_NPart_embrace
+12-9	,	O	O	O	O
+12-10	I	12-11_nsubj	relaxed	PRP	P1_bather
+12-11	relaxed	O	O	VBD	O
+12-12	fully	12-11_advmod	relaxed	RB	O
+12-13	.	O	O	O	O
+
+#id=13
+#text=After spending 20 minutes and becoming a pruny mass , my bath was complete and my whole persona was now clean . 
+13-1	After	O	O	O	O
+13-2	spending	O	O	VBG	O
+13-3	20	O	O	CD	O
+13-4	minutes	13-2_dobj	spending	NNS	P1_NPart_minutes
+13-5	and	O	O	O	O
+13-6	becoming	13-2_conj_and	spending	VBG	O
+13-7	a	O	O	DT	O
+13-8	pruny	O	O	JJ	O
+13-9	mass	13-6_xcomp	becoming	NN	O
+13-10	,	O	O	O	O
+13-11	my	O	O	PRP$	P1_bather
+13-12	bath	O	O	NN	P1_bath
+13-13	was	O	O	VBD	O
+13-14	complete	O	O	JJ	O
+13-15	and	O	O	O	O
+13-16	my	O	O	PRP$	P1_bather
+13-17	whole	O	O	JJ	O
+13-18	persona	O	O	NN	O
+13-19	was	O	O	VBD	O
+13-20	now	O	O	RB	O
+13-21	clean	O	O	JJ	O
+13-22	.	O	O	O	O

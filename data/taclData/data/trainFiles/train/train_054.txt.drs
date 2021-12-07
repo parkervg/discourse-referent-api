@@ -1,0 +1,200 @@
+#id=1
+#text=I wanted to visit my friend in the city , but I did n't have a car . 
+1-1	I	1-2_nsubj	wanted	PRP	P1_passenger
+1-2	wanted	O	O	VBD	O
+1-3	to	1-4_aux	visit	TO	O
+1-4	visit	1-2_xcomp	wanted	VB	O
+1-5	my	O	O	PRP$	P1_passenger
+1-6	friend	1-4_dobj	visit	NN	P1_NPart_friend
+1-7	in	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	city	1-4_prep_in	visit	NN	P1_destination
+1-10	,	O	O	O	O
+1-11	but	O	O	O	O
+1-12	I	1-15_nsubj	have	PRP	P1_passenger
+1-13	did	1-15_aux	have	VBD	O
+1-14	n't	1-15_neg	have	RB	O
+1-15	have	1-2_conj_but	wanted	VB	O
+1-16	a	O	O	DT	O
+1-17	car	1-15_dobj	have	NN	P1_NPart_car
+1-18	.	O	O	O	O
+
+#id=2
+#text=So , I decided to take the train . 
+2-1	So	2-4_advmod	decided	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	decided	PRP	P1_passenger
+2-4	decided	O	O	VBD	O
+2-5	to	2-6_aux	take	TO	O
+2-6	take	2-4_xcomp	decided	VB	O
+2-7	the	O	O	DT	O
+2-8	train	2-6_dobj	take	NN	P1_train
+2-9	.	O	O	O	O
+
+#id=3
+#text=I walked to the train station and went up to the ticket counter . 
+3-1	I	3-2_nsubj	walked	PRP	P1_passenger
+3-2	walked	O	O	VBD	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	train	O	O	NN	O
+3-6	station	3-2_prep_to	walked	NN	P1_train_station
+3-7	and	O	O	O	O
+3-8	went	3-2_conj_and	walked	VBD	O
+3-9	up	3-8_prt	went	RP	O
+3-10	to	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	ticket	O	O	NN	O
+3-13	counter	3-8_prep_to	went	NN	P1_ticket_office/website
+3-14	.	O	O	O	O
+
+#id=4
+#text=I asked for a ticket to the city where my friend lived and asked for the one that would depart the soonest . 
+4-1	I	4-2_nsubj	asked	PRP	P1_passenger
+4-2	asked	O	O	VBD	O
+4-3	for	O	O	O	O
+4-4	a	O	O	DT	O
+4-5	ticket	4-2_prep_for	asked	NN	P1_card/ticket
+4-6	to	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	city	O	O	NN	P1_destination
+4-9	where	4-12_advmod	lived	WRB	O
+4-10	my	O	O	PRP$	P1_passenger
+4-11	friend	4-12_nsubj	lived	NN	P2_NPart_friend
+4-12	lived	4-2_ccomp	asked	VBD	O
+4-13	and	O	O	O	O
+4-14	asked	4-12_conj_and	lived	VBD	O
+4-15	for	O	O	O	O
+4-16	the	O	O	DT	O
+4-17	one	4-12_prep_for	lived	NN	P1_train
+4-18	that	4-20_nsubj	depart	WDT	O
+4-19	would	4-20_aux	depart	MD	O
+4-20	depart	O	O	VB	O
+4-21	the	O	O	DT	O
+4-22	soonest	4-20_dobj	depart	NN	O
+4-23	.	O	O	O	O
+
+#id=5
+#text=The ticket person sold me a ticket and I paid for it in cash . 
+5-1	The	O	O	DT	O
+5-2	ticket	O	O	NN	O
+5-3	person	5-4_nsubj	sold	NN	P1_train_staff
+5-4	sold	O	O	VBD	O
+5-5	me	O	O	PRP	P1_passenger
+5-6	a	O	O	DT	O
+5-7	ticket	5-4_dep	sold	NN	P1_card/ticket
+5-8	and	O	O	O	O
+5-9	I	5-10_nsubj	paid	PRP	P1_passenger
+5-10	paid	O	O	VBD	O
+5-11	for	O	O	O	O
+5-12	it	5-10_prep_for	paid	PRP	P1_card/ticket
+5-13	in	O	O	O	O
+5-14	cash	5-10_prep_in	paid	NN	P1_NPart_cash
+5-15	.	O	O	O	O
+
+#id=6
+#text=I called my friend and told them when I would be arriving to the train station near them . 
+6-1	I	6-2_nsubj	called	PRP	P1_passenger
+6-2	called	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_passenger
+6-4	friend	6-2_dobj	called	NN	P3_NPart_friend
+6-5	and	O	O	O	O
+6-6	told	6-2_conj_and	called	VBD	O
+6-7	them	6-6_dobj	told	PRP	P1_NPart_them
+6-8	when	6-12_advmod	arriving	WRB	O
+6-9	I	6-12_nsubj	arriving	PRP	P1_passenger
+6-10	would	6-12_aux	arriving	MD	O
+6-11	be	6-12_aux	arriving	VB	O
+6-12	arriving	6-6_ccomp	told	VBG	O
+6-13	to	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	train	O	O	NN	O
+6-16	station	6-12_prep_to	arriving	NN	P1_platform
+6-17	near	O	O	O	O
+6-18	them	O	O	PRP	P2_NPart_them
+6-19	.	O	O	O	O
+
+#id=7
+#text=I waited by the train terminal for my train . 
+7-1	I	7-2_nsubj	waited	PRP	P1_passenger
+7-2	waited	O	O	VBD	O
+7-3	by	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	train	O	O	NN	O
+7-6	terminal	7-2_prep_by	waited	NN	P2_platform
+7-7	for	O	O	O	O
+7-8	my	O	O	PRP$	P1_passenger
+7-9	train	7-2_prep_for	waited	NN	P1_train
+7-10	.	O	O	O	O
+
+#id=8
+#text=When the train arrived I boarded the train and took a seat . 
+8-1	When	8-4_advmod	arrived	WRB	O
+8-2	the	O	O	DT	O
+8-3	train	8-4_nsubj	arrived	NN	P1_train
+8-4	arrived	8-6_advcl	boarded	VBD	O
+8-5	I	8-6_nsubj	boarded	PRP	P1_passenger
+8-6	boarded	O	O	VBD	O
+8-7	the	O	O	DT	O
+8-8	train	8-6_dobj	boarded	NN	P1_train
+8-9	and	O	O	O	O
+8-10	took	8-6_conj_and	boarded	VBD	O
+8-11	a	O	O	DT	O
+8-12	seat	8-10_dobj	took	NN	P1_seat
+8-13	.	O	O	O	O
+
+#id=9
+#text=The train passed many stops and finally I reached the stop that I wanted . 
+9-1	The	O	O	DT	O
+9-2	train	9-3_nsubj	passed	NN	P1_train
+9-3	passed	O	O	VBD	O
+9-4	many	O	O	JJ	O
+9-5	stops	9-3_dobj	passed	NNS	P1_other
+9-6	and	O	O	O	O
+9-7	finally	9-9_advmod	reached	RB	O
+9-8	I	9-9_nsubj	reached	PRP	P1_passenger
+9-9	reached	9-3_conj_and	passed	VBD	O
+9-10	the	O	O	DT	O
+9-11	stop	9-9_dobj	reached	NN	P2_destination
+9-12	that	9-14_mark	wanted	IN	O
+9-13	I	9-14_nsubj	wanted	PRP	P1_passenger
+9-14	wanted	9-9_ccomp	reached	VBD	O
+9-15	.	O	O	O	O
+
+#id=10
+#text=I got off the train and saw my friend waiting for me to pick me up . 
+10-1	I	10-2_nsubj	got	PRP	P1_passenger
+10-2	got	O	O	VBD	O
+10-3	off	10-2_prt	got	RP	O
+10-4	the	O	O	DT	O
+10-5	train	10-2_dobj	got	NN	P1_train
+10-6	and	O	O	O	O
+10-7	saw	10-2_conj_and	got	VBD	O
+10-8	my	O	O	PRP$	P1_passenger
+10-9	friend	10-7_dobj	saw	NN	P4_NPart_friend
+10-10	waiting	10-7_xcomp	saw	VBG	O
+10-11	for	10-14_mark	pick	IN	O
+10-12	me	10-14_nsubj	pick	PRP	P1_passenger
+10-13	to	10-14_aux	pick	TO	O
+10-14	pick	10-10_advcl	waiting	VB	O
+10-15	me	10-14_dobj	pick	PRP	P1_passenger
+10-16	up	10-14_prt	pick	RP	O
+10-17	.	O	O	O	O
+
+#id=11
+#text=The train had arrived at exactly the time that was stated on the ticket . 
+11-1	The	O	O	DT	O
+11-2	train	11-4_nsubj	arrived	NN	P1_train
+11-3	had	11-4_aux	arrived	VBD	O
+11-4	arrived	O	O	VBN	O
+11-5	at	O	O	O	O
+11-6	exactly	O	O	RB	O
+11-7	the	O	O	DT	O
+11-8	time	11-4_prep_at	arrived	NN	P1_time_date
+11-9	that	11-11_nsubjpass	stated	WDT	O
+11-10	was	11-11_auxpass	stated	VBD	O
+11-11	stated	O	O	VBN	O
+11-12	on	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	ticket	11-11_prep_on	stated	NN	P1_card/ticket
+11-15	.	O	O	O	O

@@ -1,0 +1,244 @@
+#id=1
+#text=I love going grocery shopping ! 
+1-1	I	1-2_nsubj	love	PRP	P1_shopper
+1-2	love	O	O	VBP	O
+1-3	going	1-2_xcomp	love	VBG	O
+1-4	grocery	O	O	NN	P1_groceries
+1-5	shopping	1-3_dobj	going	NN	O
+1-6	!	O	O	O	O
+
+#id=2
+#text=I have a very specific way that I approach it and I do the same thing each week . 
+2-1	I	2-2_nsubj	have	PRP	P1_shopper
+2-2	have	O	O	VBP	O
+2-3	a	O	O	DT	O
+2-4	very	O	O	RB	O
+2-5	specific	O	O	JJ	O
+2-6	way	2-2_dobj	have	NN	O
+2-7	that	2-9_mark	approach	IN	O
+2-8	I	2-9_nsubj	approach	PRP	P1_shopper
+2-9	approach	O	O	VBP	O
+2-10	it	2-9_dobj	approach	PRP	O
+2-11	and	O	O	O	O
+2-12	I	2-13_nsubj	do	PRP	P1_shopper
+2-13	do	2-2_conj_and	have	VBP	O
+2-14	the	O	O	DT	O
+2-15	same	O	O	JJ	O
+2-16	thing	2-13_dobj	do	NN	O
+2-17	each	O	O	DT	O
+2-18	week	2-13_tmod	do	NN	P1_NPart_week
+2-19	.	O	O	O	O
+
+#id=3
+#text=On Tuesdays , the grocery ads come out for the week . 
+3-1	On	O	O	O	O
+3-2	Tuesdays	3-7_prep_on	come	NNPS	P1_NPart_tuesdays
+3-3	,	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	grocery	O	O	NN	O
+3-6	ads	3-7_nsubj	come	NNS	P1_NPart_ads
+3-7	come	O	O	VBP	O
+3-8	out	3-7_prt	come	RP	O
+3-9	for	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	week	3-7_prep_for	come	NN	P2_NPart_week
+3-12	.	O	O	O	O
+
+#id=4
+#text=I look through them and make a list of what is on sale . 
+4-1	I	4-2_nsubj	look	PRP	P1_shopper
+4-2	look	O	O	VBP	O
+4-3	through	O	O	O	O
+4-4	them	4-2_prep_through	look	PRP	P1_NPart_them
+4-5	and	O	O	O	O
+4-6	make	4-2_conj_and	look	VBP	O
+4-7	a	O	O	DT	O
+4-8	list	4-6_dobj	make	NN	P1_grocery_list
+4-9	of	O	O	O	O
+4-10	what	4-11_nsubj	is	WP	P1_groceries
+4-11	is	O	O	VBZ	O
+4-12	on	O	O	O	O
+4-13	sale	4-11_prep_on	is	NN	P1_other
+4-14	.	O	O	O	O
+
+#id=5
+#text=I meal plan around those things . 
+5-1	I	5-2_nsubj	meal	PRP	P1_shopper
+5-2	meal	O	O	VBD	O
+5-3	plan	5-2_dobj	meal	NN	O
+5-4	around	O	O	O	O
+5-5	those	O	O	DT	O
+5-6	things	5-2_prep_around	meal	NNS	P1_groceries
+5-7	.	O	O	O	O
+
+#id=6
+#text=Once I have a list of what I will be cooking , I write those ingredients down along with all of the other things I want or need . 
+6-1	Once	6-3_mark	have	IN	O
+6-2	I	6-3_nsubj	have	PRP	P1_shopper
+6-3	have	6-14_advcl	write	VBP	O
+6-4	a	O	O	DT	O
+6-5	list	6-3_dobj	have	NN	P2_grocery_list
+6-6	of	O	O	O	O
+6-7	what	6-11_dobj	cooking	WP	O
+6-8	I	6-11_nsubj	cooking	PRP	P1_shopper
+6-9	will	6-11_aux	cooking	MD	O
+6-10	be	6-11_aux	cooking	VB	O
+6-11	cooking	O	O	VBG	O
+6-12	,	O	O	O	O
+6-13	I	6-14_nsubj	write	PRP	P1_shopper
+6-14	write	O	O	VBP	O
+6-15	those	O	O	DT	O
+6-16	ingredients	6-14_dobj	write	NNS	P1_groceries
+6-17	down	6-14_advmod	write	RB	O
+6-18	along	O	O	O	O
+6-19	with	O	O	O	O
+6-20	all	6-14_prep_along_with	write	DT	O
+6-21	of	O	O	O	O
+6-22	the	O	O	DT	O
+6-23	other	O	O	JJ	O
+6-24	things	O	O	NNS	P2_groceries
+6-25	I	6-26_nsubj	want	PRP	P1_shopper
+6-26	want	6-14_dep	write	VBP	O
+6-27	or	O	O	O	O
+6-28	need	6-26_conj_or	want	VBP	O
+6-29	.	O	O	O	O
+
+#id=7
+#text=I separate them by department . 
+7-1	I	7-2_nsubj	separate	PRP	P1_shopper
+7-2	separate	O	O	VBP	O
+7-3	them	7-2_dobj	separate	PRP	P3_groceries
+7-4	by	O	O	O	O
+7-5	department	7-2_prep_by	separate	NN	P1_section
+7-6	.	O	O	O	O
+
+#id=8
+#text=I put all of the dairy items together , then the meat items , followed by the produce , and so on . 
+8-1	I	8-2_nsubj	put	PRP	P1_shopper
+8-2	put	O	O	VBD	O
+8-3	all	8-2_dobj	put	DT	O
+8-4	of	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	dairy	O	O	NN	O
+8-7	items	O	O	NNS	P4_groceries
+8-8	together	O	O	RB	O
+8-9	,	O	O	O	O
+8-10	then	O	O	RB	O
+8-11	the	O	O	DT	O
+8-12	meat	O	O	NN	O
+8-13	items	O	O	NNS	P5_groceries
+8-14	,	O	O	O	O
+8-15	followed	O	O	VBN	O
+8-16	by	O	O	O	O
+8-17	the	O	O	DT	O
+8-18	produce	8-15_agent	followed	NN	P6_groceries
+8-19	,	O	O	O	O
+8-20	and	O	O	O	O
+8-21	so	O	O	RB	O
+8-22	on	O	O	RB	O
+8-23	.	O	O	O	O
+
+#id=9
+#text=This makes it more efficient when I am pushing a cart through the store . 
+9-1	This	9-2_nsubj	makes	DT	O
+9-2	makes	O	O	VBZ	O
+9-3	it	9-9_nsubj	pushing	PRP	O
+9-4	more	O	O	RBR	O
+9-5	efficient	9-9_dep	pushing	JJ	O
+9-6	when	9-9_advmod	pushing	WRB	O
+9-7	I	9-9_nsubj	pushing	PRP	P1_shopper
+9-8	am	9-9_aux	pushing	VBP	O
+9-9	pushing	9-2_xcomp	makes	VBG	O
+9-10	a	O	O	DT	O
+9-11	cart	9-9_dobj	pushing	NN	P1_shopping_cart/basket
+9-12	through	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	store	9-9_prep_through	pushing	NN	P1_grocery_shop
+9-15	.	O	O	O	O
+
+#id=10
+#text=Once I 'm at the store , I select my items quickly . 
+10-1	Once	10-3_mark	'm	IN	O
+10-2	I	10-3_nsubj	'm	PRP	P1_shopper
+10-3	'm	10-9_advcl	select	VBP	O
+10-4	at	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	store	10-3_prep_at	'm	NN	P1_grocery_shop
+10-7	,	O	O	O	O
+10-8	I	10-9_nsubj	select	PRP	P1_shopper
+10-9	select	O	O	VBP	O
+10-10	my	O	O	PRP$	P1_shopper
+10-11	items	10-9_dobj	select	NNS	P3_groceries
+10-12	quickly	10-9_advmod	select	RB	O
+10-13	.	O	O	O	O
+
+#id=11
+#text=I usually buy the same brands and often the same items each week , so I know where everything is . 
+11-1	I	11-3_nsubj	buy	PRP	P1_shopper
+11-2	usually	11-3_advmod	buy	RB	O
+11-3	buy	O	O	VB	O
+11-4	the	O	O	DT	O
+11-5	same	O	O	JJ	O
+11-6	brands	11-3_dobj	buy	NNS	P1_NPart_brands
+11-7	and	O	O	O	O
+11-8	often	O	O	RB	O
+11-9	the	O	O	DT	O
+11-10	same	O	O	JJ	O
+11-11	items	O	O	NNS	P3_groceries
+11-12	each	O	O	DT	O
+11-13	week	O	O	NN	P3_NPart_week
+11-14	,	O	O	O	O
+11-15	so	11-3_dep	buy	IN	O
+11-16	I	11-17_nsubj	know	PRP	P1_shopper
+11-17	know	11-3_parataxis	buy	VBP	O
+11-18	where	11-20_advmod	is	WRB	O
+11-19	everything	11-20_nsubj	is	NN	P1_NPart_everything
+11-20	is	11-17_ccomp	know	VBZ	O
+11-21	.	O	O	O	O
+
+#id=12
+#text=When I 'm ready , I go to the checkout and put it all on the belt so I can pay for it . 
+12-1	When	O	O	WRB	O
+12-2	I	O	O	PRP	P1_shopper
+12-3	'm	O	O	VBP	O
+12-4	ready	12-7_advcl	go	JJ	O
+12-5	,	O	O	O	O
+12-6	I	12-7_nsubj	go	PRP	P1_shopper
+12-7	go	O	O	VBP	O
+12-8	to	O	O	O	O
+12-9	the	O	O	DT	O
+12-10	checkout	12-7_prep_to	go	NN	P1_cash_desk
+12-11	and	O	O	O	O
+12-12	put	12-7_conj_and	go	VBD	O
+12-13	it	12-12_dobj	put	PRP	P3_groceries
+12-14	all	12-12_dep	put	DT	O
+12-15	on	O	O	O	O
+12-16	the	O	O	DT	O
+12-17	belt	12-12_prep_on	put	NN	P1_conveyor_belt
+12-18	so	12-21_mark	pay	IN	O
+12-19	I	12-21_nsubj	pay	PRP	P1_shopper
+12-20	can	12-21_aux	pay	MD	O
+12-21	pay	12-12_advcl	put	VB	O
+12-22	for	O	O	O	O
+12-23	it	12-21_prep_for	pay	PRP	P3_groceries
+12-24	.	O	O	O	O
+
+#id=13
+#text=I love grocery shopping but I hate to put it all away when I get home ! 
+13-1	I	13-2_nsubj	love	PRP	P1_shopper
+13-2	love	O	O	VBP	O
+13-3	grocery	O	O	NN	P3_groceries
+13-4	shopping	13-2_dobj	love	NN	O
+13-5	but	O	O	O	O
+13-6	I	13-7_nsubj	hate	PRP	P1_shopper
+13-7	hate	13-2_conj_but	love	VBP	O
+13-8	to	13-9_aux	put	TO	O
+13-9	put	13-7_xcomp	hate	VB	O
+13-10	it	13-9_dobj	put	PRP	P3_groceries
+13-11	all	O	O	RB	O
+13-12	away	13-9_advmod	put	RB	O
+13-13	when	13-15_advmod	get	WRB	O
+13-14	I	13-15_nsubj	get	PRP	P1_shopper
+13-15	get	O	O	VBP	O
+13-16	home	13-15_dobj	get	NN	P1_NPart_home
+13-17	!	O	O	O	O

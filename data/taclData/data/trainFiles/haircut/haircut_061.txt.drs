@@ -1,0 +1,200 @@
+#id=1
+#text=I have very long hair and rarely get it cut . 
+1-1	I	1-2_nsubj	have	PRP	P1_customer
+1-2	have	O	O	VBP	O
+1-3	very	O	O	RB	O
+1-4	long	O	O	JJ	O
+1-5	hair	1-2_dobj	have	NN	P1_hair
+1-6	and	O	O	O	O
+1-7	rarely	1-8_advmod	get	RB	O
+1-8	get	1-2_conj_and	have	VB	O
+1-9	it	1-10_nsubj	cut	PRP	P1_hair
+1-10	cut	1-8_ccomp	get	VB	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=Lately I noticed that my hair had split ends and needed a trim . 
+2-1	Lately	2-3_advmod	noticed	RB	O
+2-2	I	2-3_nsubj	noticed	PRP	P1_customer
+2-3	noticed	O	O	VBD	O
+2-4	that	2-7_mark	had	IN	O
+2-5	my	O	O	PRP$	P2_customer
+2-6	hair	2-7_nsubj	had	NN	P1_hair
+2-7	had	2-3_ccomp	noticed	VBD	O
+2-8	split	O	O	NN	O
+2-9	ends	2-7_dobj	had	NNS	P1_other
+2-10	and	O	O	O	O
+2-11	needed	2-7_conj_and	had	VBD	O
+2-12	a	O	O	DT	O
+2-13	trim	2-11_dobj	needed	JJ	P1_haircut
+2-14	.	O	O	O	O
+
+#id=3
+#text=The local beauty college has reasonable prices and has done a good job in the past when I have needed beauty services . 
+3-1	The	O	O	DT	O
+3-2	local	O	O	JJ	O
+3-3	beauty	O	O	NN	O
+3-4	college	3-5_nsubj	has	NN	P1_salon
+3-5	has	O	O	VBZ	O
+3-6	reasonable	O	O	JJ	O
+3-7	prices	3-5_dobj	has	NNS	P2_other
+3-8	and	O	O	O	O
+3-9	has	3-10_aux	done	VBZ	O
+3-10	done	3-5_conj_and	has	VBN	O
+3-11	a	O	O	DT	O
+3-12	good	O	O	JJ	O
+3-13	job	3-10_dobj	done	NN	O
+3-14	in	O	O	O	O
+3-15	the	O	O	DT	O
+3-16	past	3-10_prep_in	done	NN	O
+3-17	when	3-20_advmod	needed	WRB	O
+3-18	I	3-20_nsubj	needed	PRP	P1_customer
+3-19	have	3-20_aux	needed	VBP	O
+3-20	needed	O	O	VBN	O
+3-21	beauty	O	O	NN	O
+3-22	services	3-20_dobj	needed	NNS	P3_other
+3-23	.	O	O	O	O
+
+#id=4
+#text=I checked online to see their prices and hours of service and then made an appointment . 
+4-1	I	4-2_nsubj	checked	PRP	P1_customer
+4-2	checked	O	O	VBD	O
+4-3	online	4-2_prep	checked	NN	O
+4-4	to	4-5_aux	see	TO	O
+4-5	see	4-2_xcomp	checked	VB	O
+4-6	their	O	O	PRP$	P1_salon
+4-7	prices	4-5_dobj	see	NNS	P2_other
+4-8	and	O	O	O	O
+4-9	hours	O	O	NNS	P4_other
+4-10	of	O	O	O	O
+4-11	service	O	O	NN	P3_other
+4-12	and	O	O	O	O
+4-13	then	4-14_advmod	made	RB	O
+4-14	made	4-2_conj_and	checked	VBD	O
+4-15	an	O	O	DT	O
+4-16	appointment	4-14_dobj	made	NN	P1_appointment
+4-17	.	O	O	O	O
+
+#id=5
+#text=Upon arriving I gave my name and waited a few minutes before I was introduced to my stylist . 
+5-1	Upon	O	O	O	O
+5-2	arriving	5-4_prepc_upon	gave	VBG	O
+5-3	I	5-4_nsubj	gave	PRP	P1_customer
+5-4	gave	O	O	VBD	O
+5-5	my	O	O	PRP$	P1_customer
+5-6	name	5-4_dobj	gave	NN	P1_NPart_name
+5-7	and	O	O	O	O
+5-8	waited	5-4_conj_and	gave	VBD	O
+5-9	a	O	O	DT	O
+5-10	few	O	O	JJ	O
+5-11	minutes	5-8_dobj	waited	NNS	P1_time/date
+5-12	before	5-15_mark	introduced	IN	O
+5-13	I	5-15_nsubjpass	introduced	PRP	P1_customer
+5-14	was	5-15_auxpass	introduced	VBD	O
+5-15	introduced	5-8_advcl	waited	VBN	O
+5-16	to	O	O	O	O
+5-17	my	O	O	PRP$	P1_customer
+5-18	stylist	5-15_prep_to	introduced	NN	P1_hairdresser
+5-19	.	O	O	O	O
+
+#id=6
+#text=She asked what services I needed , and after I explained we got started . 
+6-1	She	6-2_nsubj	asked	PRP	P1_hairdresser
+6-2	asked	O	O	VBD	O
+6-3	what	6-4_nsubj	services	WP	O
+6-4	services	6-2_advcl	asked	VBZ	P3_other
+6-5	I	6-6_nsubj	needed	PRP	P1_customer
+6-6	needed	6-4_ccomp	services	VBD	O
+6-7	,	O	O	O	O
+6-8	and	O	O	O	O
+6-9	after	6-11_mark	explained	IN	O
+6-10	I	6-11_nsubj	explained	PRP	P1_customer
+6-11	explained	6-4_conj_and	services	VBD	O
+6-12	we	6-13_nsubj	got	PRP	P1_hairdresser_customer
+6-13	got	6-11_ccomp	explained	VBD	O
+6-14	started	6-13_ccomp	got	VBD	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=She washed my hair and conditioned it in a sink . 
+7-1	She	7-2_nsubj	washed	PRP	P1_hairdresser
+7-2	washed	O	O	VBD	O
+7-3	my	O	O	PRP$	P1_customer
+7-4	hair	7-2_dobj	washed	NN	P1_hair
+7-5	and	O	O	O	O
+7-6	conditioned	7-2_conj_and	washed	VBN	O
+7-7	it	7-6_dobj	conditioned	PRP	P1_hair
+7-8	in	O	O	O	O
+7-9	a	O	O	DT	O
+7-10	sink	7-6_prep_in	conditioned	NN	P1_wash_basin
+7-11	.	O	O	O	O
+
+#id=8
+#text=She combed my hair and trimmed about 2 inches off the bottom and gave me a mirror to inspect her work . 
+8-1	She	8-2_nsubj	combed	PRP	P1_hairdresser
+8-2	combed	O	O	VBN	O
+8-3	my	O	O	PRP$	P1_customer
+8-4	hair	8-2_dobj	combed	NN	P1_hair
+8-5	and	O	O	O	O
+8-6	trimmed	8-2_conj_and	combed	VBN	O
+8-7	about	O	O	RB	O
+8-8	2	O	O	CD	O
+8-9	inches	8-6_dobj	trimmed	NNS	P5_other
+8-10	off	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	bottom	8-6_prep_off	trimmed	NN	P1_NPart_bottom
+8-13	and	O	O	O	O
+8-14	gave	8-2_conj_and	combed	VBD	O
+8-15	me	8-14_iobj	gave	PRP	P1_customer
+8-16	a	O	O	DT	O
+8-17	mirror	8-14_dobj	gave	NN	P1_mirror
+8-18	to	8-19_aux	inspect	TO	O
+8-19	inspect	8-14_vmod	gave	VB	O
+8-20	her	O	O	PRP$	P1_hairdresser
+8-21	work	8-19_dobj	inspect	NN	P1_haircut
+8-22	.	O	O	O	O
+
+#id=9
+#text=Because this is a beauty school she had the instructor check her work and make sure I was satisfied . 
+9-1	Because	O	O	IN	O
+9-2	this	O	O	DT	P1_salon
+9-3	is	O	O	VBZ	O
+9-4	a	O	O	DT	O
+9-5	beauty	O	O	NN	O
+9-6	school	O	O	NN	P1_salon
+9-7	she	9-8_nsubj	had	PRP	P1_hairdresser
+9-8	had	O	O	VBD	O
+9-9	the	O	O	DT	O
+9-10	instructor	9-11_nsubj	check	NN	P1_staff
+9-11	check	9-8_ccomp	had	VB	O
+9-12	her	O	O	PRP$	P2_hairdresser
+9-13	work	9-11_dobj	check	NN	P1_haircut
+9-14	and	O	O	O	O
+9-15	make	9-11_conj_and	check	VB	O
+9-16	sure	9-15_acomp	make	JJ	O
+9-17	I	O	O	PRP	P1_customer
+9-18	was	O	O	VBD	O
+9-19	satisfied	O	O	JJ	O
+9-20	.	O	O	O	O
+
+#id=10
+#text=She dried my hair and styled it . 
+10-1	She	10-2_nsubj	dried	PRP	P2_hairdresser
+10-2	dried	O	O	VBD	O
+10-3	my	O	O	PRP$	P3_customer
+10-4	hair	10-2_dobj	dried	NN	P1_hair
+10-5	and	O	O	O	O
+10-6	styled	10-2_conj_and	dried	VBN	O
+10-7	it	10-6_dobj	styled	PRP	P2_hair
+10-8	.	O	O	O	O
+
+#id=11
+#text=I paid and left a satisfied customer . 
+11-1	I	11-2_nsubj	paid	PRP	P1_customer
+11-2	paid	O	O	VBD	O
+11-3	and	O	O	O	O
+11-4	left	11-2_conj_and	paid	VBD	O
+11-5	a	O	O	DT	O
+11-6	satisfied	O	O	JJ	O
+11-7	customer	11-2_dobj	paid	NN	P1_customer
+11-8	.	O	O	O	O

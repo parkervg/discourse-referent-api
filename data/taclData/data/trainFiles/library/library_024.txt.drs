@@ -1,0 +1,205 @@
+#id=1
+#text=I went to the library to borrow a book I needed for a research paper . 
+1-1	I	1-2_nsubj	went	PRP	P1_customer
+1-2	went	O	O	VBD	O
+1-3	to	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	library	1-2_prep_to	went	NN	P1_library
+1-6	to	1-7_aux	borrow	TO	O
+1-7	borrow	1-2_xcomp	went	VB	O
+1-8	a	O	O	DT	O
+1-9	book	1-7_dobj	borrow	NN	P1_book
+1-10	I	1-11_nsubj	needed	PRP	P1_customer
+1-11	needed	O	O	VBD	O
+1-12	for	O	O	O	O
+1-13	a	O	O	DT	O
+1-14	research	O	O	NN	O
+1-15	paper	1-11_prep_for	needed	NN	P1_NPart_paper
+1-16	.	O	O	O	O
+
+#id=2
+#text=I went inside the library and went to the section that contained the type of books I needed to do my research on . 
+2-1	I	2-2_nsubj	went	PRP	P1_customer
+2-2	went	O	O	VBD	O
+2-3	inside	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	library	2-2_prep_inside	went	NN	P1_library
+2-6	and	O	O	O	O
+2-7	went	2-2_conj_and	went	VBD	O
+2-8	to	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	section	2-7_prep_to	went	NN	P1_location_library
+2-11	that	2-12_nsubj	contained	WDT	O
+2-12	contained	O	O	VBD	O
+2-13	the	O	O	DT	O
+2-14	type	2-12_dobj	contained	NN	P1_NPart_type
+2-15	of	O	O	O	O
+2-16	books	O	O	NNS	P2_book
+2-17	I	2-18_nsubj	needed	PRP	P1_customer
+2-18	needed	O	O	VBD	O
+2-19	to	2-20_aux	do	TO	O
+2-20	do	2-18_xcomp	needed	VB	O
+2-21	my	O	O	PRP$	P1_customer
+2-22	research	2-20_dobj	do	NN	P1_NPart_research
+2-23	on	2-20_prt	do	RP	O
+2-24	.	O	O	O	O
+
+#id=3
+#text=After finding the right section , I looked through the selections of books they had . 
+3-1	After	O	O	O	O
+3-2	finding	3-8_prepc_after	looked	VBG	O
+3-3	the	O	O	DT	O
+3-4	right	O	O	JJ	O
+3-5	section	3-2_dobj	finding	NN	P1_location_library
+3-6	,	O	O	O	O
+3-7	I	3-8_nsubj	looked	PRP	P1_customer
+3-8	looked	O	O	VBD	O
+3-9	through	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	selections	3-8_prep_through	looked	NNS	P1_NPart_selections
+3-12	of	O	O	O	O
+3-13	books	O	O	NNS	P2_book
+3-14	they	3-15_nsubj	had	PRP	P1_staff
+3-15	had	3-8_ccomp	looked	VBD	O
+3-16	.	O	O	O	O
+
+#id=4
+#text=I quicly looked through a few of the books to see what type of information they had . 
+4-1	I	4-3_nsubj	looked	PRP	P1_customer
+4-2	quicly	4-3_advmod	looked	RB	O
+4-3	looked	O	O	VBD	O
+4-4	through	O	O	O	O
+4-5	a	O	O	DT	O
+4-6	few	4-3_prep_through	looked	JJ	O
+4-7	of	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	books	O	O	NNS	P2_book
+4-10	to	4-11_aux	see	TO	O
+4-11	see	4-3_xcomp	looked	VB	O
+4-12	what	O	O	WP	O
+4-13	type	4-17_dobj	had	NN	P2_NPart_type
+4-14	of	O	O	O	O
+4-15	information	O	O	NN	P1_NPart_information
+4-16	they	4-17_nsubj	had	PRP	P2_book
+4-17	had	4-11_ccomp	see	VBD	O
+4-18	.	O	O	O	O
+
+#id=5
+#text=After finding the book I wanted to borrow I took it to the counter so I could check it out and borrow it for a few days . 
+5-1	After	O	O	O	O
+5-2	finding	5-6_prepc_after	wanted	VBG	O
+5-3	the	O	O	DT	O
+5-4	book	5-2_dobj	finding	NN	P1_book
+5-5	I	5-6_nsubj	wanted	PRP	P1_customer
+5-6	wanted	O	O	VBD	O
+5-7	to	5-8_aux	borrow	TO	O
+5-8	borrow	5-6_xcomp	wanted	VB	O
+5-9	I	5-10_nsubj	took	PRP	P1_customer
+5-10	took	5-8_ccomp	borrow	VBD	O
+5-11	it	5-10_dobj	took	PRP	P1_book
+5-12	to	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	counter	5-10_prep_to	took	NN	P1_check-out_desk
+5-15	so	5-18_mark	check	IN	O
+5-16	I	5-18_nsubj	check	PRP	P1_customer
+5-17	could	5-18_aux	check	MD	O
+5-18	check	5-10_advcl	took	VB	O
+5-19	it	5-18_dobj	check	PRP	P1_book
+5-20	out	5-18_prt	check	RP	O
+5-21	and	O	O	O	O
+5-22	borrow	5-18_conj_and	check	VB	O
+5-23	it	5-22_dobj	borrow	PRP	P1_book
+5-24	for	O	O	O	O
+5-25	a	O	O	DT	O
+5-26	few	O	O	JJ	O
+5-27	days	5-22_prep_for	borrow	NNS	P1_NPart_days
+5-28	.	O	O	O	O
+
+#id=6
+#text=At the counter , the librarian asked for my library card . 
+6-1	At	O	O	O	O
+6-2	the	O	O	DT	O
+6-3	counter	6-7_prep_at	asked	NN	P1_check-out_desk
+6-4	,	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	librarian	6-7_nsubj	asked	NN	P2_staff
+6-7	asked	O	O	VBD	O
+6-8	for	O	O	O	O
+6-9	my	O	O	PRP$	P1_customer
+6-10	library	O	O	NN	O
+6-11	card	6-7_prep_for	asked	NN	P1_library_card
+6-12	.	O	O	O	O
+
+#id=7
+#text=I took the library card out of my wallet and gave it to her . 
+7-1	I	7-2_nsubj	took	PRP	P1_customer
+7-2	took	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	library	O	O	NN	O
+7-5	card	7-2_dobj	took	NN	P1_library_card
+7-6	out	O	O	O	O
+7-7	of	O	O	O	O
+7-8	my	O	O	PRP$	P1_customer
+7-9	wallet	7-2_prep_out_of	took	NN	P1_NPart_wallet
+7-10	and	O	O	O	O
+7-11	gave	7-2_conj_and	took	VBD	O
+7-12	it	7-11_dobj	gave	PRP	P1_library_card
+7-13	to	O	O	O	O
+7-14	her	7-11_prep_to	gave	PRP	P2_staff
+7-15	.	O	O	O	O
+
+#id=8
+#text=She collected my information and gave me the book and my library card . 
+8-1	She	8-2_nsubj	collected	PRP	P2_staff
+8-2	collected	O	O	VBD	O
+8-3	my	O	O	PRP$	P1_customer
+8-4	information	8-2_dobj	collected	NN	P2_NPart_information
+8-5	and	O	O	O	O
+8-6	gave	8-2_conj_and	collected	VBD	O
+8-7	me	8-6_iobj	gave	PRP	P1_customer
+8-8	the	O	O	DT	O
+8-9	book	8-6_dobj	gave	NN	P1_book
+8-10	and	O	O	O	O
+8-11	my	O	O	PRP$	P1_customer
+8-12	library	O	O	NN	O
+8-13	card	O	O	NN	P1_library_card
+8-14	.	O	O	O	O
+
+#id=9
+#text=I then exited the library and took the book home . 
+9-1	I	9-3_nsubj	exited	PRP	P1_customer
+9-2	then	9-3_advmod	exited	RB	O
+9-3	exited	O	O	VBD	O
+9-4	the	O	O	DT	O
+9-5	library	9-3_dobj	exited	NN	P1_library
+9-6	and	O	O	O	O
+9-7	took	9-3_conj_and	exited	VBD	O
+9-8	the	O	O	DT	O
+9-9	book	O	O	NN	P1_book
+9-10	home	9-7_dobj	took	NN	P1_NPart_home
+9-11	.	O	O	O	O
+
+#id=10
+#text=I am glad I had the library card because the book was really useful for helping me do my research paper . 
+10-1	I	O	O	PRP	P1_customer
+10-2	am	O	O	VBP	O
+10-3	glad	O	O	JJ	O
+10-4	I	10-5_nsubj	had	PRP	P1_customer
+10-5	had	O	O	VBD	O
+10-6	the	O	O	DT	O
+10-7	library	O	O	NN	O
+10-8	card	10-5_dobj	had	NN	P1_library_card
+10-9	because	O	O	IN	O
+10-10	the	O	O	DT	O
+10-11	book	O	O	NN	P1_book
+10-12	was	O	O	VBD	O
+10-13	really	O	O	RB	O
+10-14	useful	10-5_advcl	had	JJ	O
+10-15	for	O	O	O	O
+10-16	helping	O	O	VBG	O
+10-17	me	10-18_nsubj	do	PRP	P1_customer
+10-18	do	10-16_ccomp	helping	VBP	O
+10-19	my	O	O	PRP$	P1_customer
+10-20	research	O	O	NN	O
+10-21	paper	10-18_dobj	do	NN	P2_NPart_paper
+10-22	.	O	O	O	O

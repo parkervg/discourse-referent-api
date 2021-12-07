@@ -1,0 +1,193 @@
+#id=1
+#text=The first step to planting a tree is to find a suitable spot for the tree . 
+1-1	The	O	O	DT	O
+1-2	first	O	O	JJ	O
+1-3	step	1-8_nsubj	is	NN	P1_NPart_step
+1-4	to	O	O	O	O
+1-5	planting	O	O	VBG	O
+1-6	a	O	O	DT	O
+1-7	tree	1-5_dobj	planting	NN	P1_tree
+1-8	is	O	O	VBZ	O
+1-9	to	1-10_aux	find	TO	O
+1-10	find	1-8_xcomp	is	VB	O
+1-11	a	O	O	DT	O
+1-12	suitable	O	O	JJ	O
+1-13	spot	1-10_dobj	find	NN	P1_location_garden
+1-14	for	O	O	O	O
+1-15	the	O	O	DT	O
+1-16	tree	O	O	NN	P1_tree
+1-17	.	O	O	O	O
+
+#id=2
+#text=One thing many people do not think about is the amount of airspace needed once the tree actually starts growing . 
+2-1	One	O	O	CD	O
+2-2	thing	O	O	NN	O
+2-3	many	O	O	JJ	O
+2-4	people	2-7_nsubj	think	NNS	P1_NPart_people
+2-5	do	2-7_aux	think	VBP	O
+2-6	not	2-7_neg	think	RB	O
+2-7	think	O	O	VB	O
+2-8	about	2-7_prt	think	RP	O
+2-9	is	O	O	VBZ	O
+2-10	the	O	O	DT	O
+2-11	amount	O	O	NN	O
+2-12	of	O	O	O	O
+2-13	airspace	O	O	NN	P1_NPart_airspace
+2-14	needed	O	O	VBN	O
+2-15	once	2-19_mark	starts	IN	O
+2-16	the	O	O	DT	O
+2-17	tree	2-19_nsubj	starts	NN	P1_tree
+2-18	actually	2-19_advmod	starts	RB	O
+2-19	starts	2-14_advcl	needed	VBZ	O
+2-20	growing	2-19_acomp	starts	VBG	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=make sure there are know power-lines or other objects that may be affected the growing tree . 
+3-1	make	O	O	VB	O
+3-2	sure	3-1_acomp	make	JJ	O
+3-3	there	3-4_expl	are	EX	O
+3-4	are	O	O	VBP	O
+3-5	know	3-4_ccomp	are	VB	O
+3-6	power-lines	O	O	JJ	P1_NPart_power-lines
+3-7	or	O	O	O	O
+3-8	other	O	O	JJ	O
+3-9	objects	3-5_dobj	know	NNS	P1_NPart_objects
+3-10	that	3-13_nsubjpass	affected	WDT	O
+3-11	may	3-13_aux	affected	MD	O
+3-12	be	3-13_auxpass	affected	VB	O
+3-13	affected	O	O	VBN	O
+3-14	the	O	O	DT	O
+3-15	growing	O	O	VBG	O
+3-16	tree	3-13_dobj	affected	NN	P1_tree
+3-17	.	O	O	O	O
+
+#id=4
+#text=After a suitable spot is found , get a shovel and dig a whole large enough to cover the entire base off the tree with at least six inches of soil to spare on top of the trees root bulb . 
+4-1	After	4-6_mark	found	IN	O
+4-2	a	O	O	DT	O
+4-3	suitable	O	O	JJ	O
+4-4	spot	4-6_nsubjpass	found	NN	P1_location_garden
+4-5	is	4-6_auxpass	found	VBZ	O
+4-6	found	4-8_advcl	get	VBN	O
+4-7	,	O	O	O	O
+4-8	get	O	O	VB	O
+4-9	a	O	O	DT	O
+4-10	shovel	4-8_dobj	get	NN	P1_gardening_tool
+4-11	and	O	O	O	O
+4-12	dig	4-8_conj_and	get	VB	O
+4-13	a	O	O	DT	O
+4-14	whole	O	O	JJ	P1_hole
+4-15	large	O	O	JJ	O
+4-16	enough	O	O	RB	O
+4-17	to	4-18_aux	cover	TO	O
+4-18	cover	O	O	VB	O
+4-19	the	O	O	DT	O
+4-20	entire	O	O	JJ	O
+4-21	base	4-18_dobj	cover	NN	P1_NPart_base
+4-22	off	O	O	O	O
+4-23	the	O	O	DT	O
+4-24	tree	4-18_prep_off	cover	NN	P1_tree
+4-25	with	O	O	O	O
+4-26	at	O	O	IN	O
+4-27	least	O	O	JJS	O
+4-28	six	O	O	CD	O
+4-29	inches	4-18_prep_with	cover	NNS	O
+4-30	of	O	O	O	O
+4-31	soil	O	O	NN	P1_dirt
+4-32	to	4-33_aux	spare	TO	O
+4-33	spare	4-18_vmod	cover	VB	O
+4-34	on	O	O	O	O
+4-35	top	O	O	O	O
+4-36	of	O	O	O	O
+4-37	the	O	O	DT	O
+4-38	trees	4-33_prep_on_top_of	spare	NNS	P1_tree
+4-39	root	O	O	NN	O
+4-40	bulb	4-12_dobj	dig	NN	P1_root
+4-41	.	O	O	O	O
+
+#id=5
+#text=When the hole is dug , shake some of the loose dirt from the tree 's root bulb and then place the tree into the newly created hole . 
+5-1	When	O	O	WRB	O
+5-2	the	O	O	DT	O
+5-3	hole	O	O	NN	P1_hole
+5-4	is	O	O	VBZ	O
+5-5	dug	5-7_advcl	shake	JJ	O
+5-6	,	O	O	O	O
+5-7	shake	O	O	VB	O
+5-8	some	5-7_dobj	shake	DT	O
+5-9	of	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	loose	O	O	JJ	O
+5-12	dirt	O	O	NN	P2_dirt
+5-13	from	O	O	O	O
+5-14	the	O	O	DT	O
+5-15	tree	O	O	NN	P1_tree
+5-16	's	O	O	O	O
+5-17	root	O	O	NN	O
+5-18	bulb	5-7_prep_from	shake	NN	P1_root
+5-19	and	O	O	O	O
+5-20	then	5-21_advmod	place	RB	O
+5-21	place	5-7_conj_and	shake	VB	O
+5-22	the	O	O	DT	O
+5-23	tree	5-21_dobj	place	NN	P1_tree
+5-24	into	O	O	O	O
+5-25	the	O	O	DT	O
+5-26	newly	5-27_advmod	created	RB	O
+5-27	created	O	O	VBN	O
+5-28	hole	5-21_prep_into	place	NN	P1_hole
+5-29	.	O	O	O	O
+
+#id=6
+#text=Pack the area around the hole and tree bulb with some of the dirt that was excavated from the hole . 
+6-1	Pack	O	O	VB	O
+6-2	the	O	O	DT	O
+6-3	area	6-1_dobj	Pack	NN	P2_location_garden
+6-4	around	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	hole	O	O	NN	P1_hole
+6-7	and	O	O	O	O
+6-8	tree	O	O	NN	O
+6-9	bulb	O	O	NN	P1_root
+6-10	with	O	O	O	O
+6-11	some	6-1_prep_with	Pack	DT	O
+6-12	of	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	dirt	O	O	NN	P1_dirt
+6-15	that	6-17_nsubjpass	excavated	WDT	O
+6-16	was	6-17_auxpass	excavated	VBD	O
+6-17	excavated	O	O	VBN	O
+6-18	from	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	hole	6-17_prep_from	excavated	NN	P1_hole
+6-21	.	O	O	O	O
+
+#id=7
+#text=Water the hole , the use the shovel to pat the area around the tree down . 
+7-1	Water	O	O	NNP	O
+7-2	the	O	O	DT	O
+7-3	hole	O	O	NN	P1_hole
+7-4	,	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	use	O	O	NN	O
+7-7	the	O	O	DT	O
+7-8	shovel	O	O	NN	P1_gardening_tool
+7-9	to	O	O	O	O
+7-10	pat	O	O	NN	O
+7-11	the	O	O	DT	O
+7-12	area	O	O	NN	P2_location_garden
+7-13	around	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	tree	O	O	NN	P1_tree
+7-16	down	O	O	RP	O
+7-17	.	O	O	O	O
+
+#id=8
+#text=Water the area one more time . 
+8-1	Water	O	O	NNP	O
+8-2	the	O	O	DT	O
+8-3	area	O	O	NN	P2_location_garden
+8-4	one	O	O	CD	O
+8-5	more	O	O	JJR	O
+8-6	time	O	O	NN	O
+8-7	.	O	O	O	O

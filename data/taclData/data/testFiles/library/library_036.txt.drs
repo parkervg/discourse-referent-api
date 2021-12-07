@@ -1,0 +1,222 @@
+#id=1
+#text=I went to the local library in my town yesterday . 
+1-1	I	1-2_nsubj	went	PRP	P1_customer
+1-2	went	O	O	VBD	O
+1-3	to	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	local	O	O	JJ	O
+1-6	library	1-2_prep_to	went	NN	P1_library
+1-7	in	O	O	O	O
+1-8	my	O	O	PRP$	P1_customer
+1-9	town	O	O	NN	P1_NPart_town
+1-10	yesterday	1-2_tmod	went	NN	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=I was dying to read the new book by James Patterson . 
+2-1	I	2-3_nsubj	dying	PRP	P1_customer
+2-2	was	2-3_aux	dying	VBD	O
+2-3	dying	O	O	VBG	O
+2-4	to	2-5_aux	read	TO	O
+2-5	read	2-3_xcomp	dying	VB	O
+2-6	the	O	O	DT	O
+2-7	new	O	O	JJ	O
+2-8	book	2-5_dobj	read	NN	P1_book
+2-9	by	O	O	O	O
+2-10	James	O	O	NNP	O
+2-11	Patterson	2-5_prep_by	read	NNP	P1_other
+2-12	.	O	O	O	O
+
+#id=3
+#text=I love mysteries ! 
+3-1	I	3-2_nsubj	love	PRP	P1_customer
+3-2	love	O	O	VBP	O
+3-3	mysteries	3-2_dobj	love	NNS	P1_NPart_mysteries
+3-4	!	O	O	O	O
+
+#id=4
+#text=I was n't sure where to find the mystery section in the library so I asked the librarian . 
+4-1	I	O	O	PRP	P1_customer
+4-2	was	O	O	VBD	O
+4-3	n't	O	O	RB	O
+4-4	sure	O	O	JJ	O
+4-5	where	4-7_advmod	find	WRB	O
+4-6	to	4-7_aux	find	TO	O
+4-7	find	O	O	VB	O
+4-8	the	O	O	DT	O
+4-9	mystery	O	O	NN	O
+4-10	section	4-7_dobj	find	NN	P1_location_library
+4-11	in	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	library	4-7_prep_in	find	NN	P1_library
+4-14	so	4-16_mark	asked	IN	O
+4-15	I	4-16_nsubj	asked	PRP	P1_customer
+4-16	asked	4-7_advcl	find	VBD	O
+4-17	the	O	O	DT	O
+4-18	librarian	4-16_dobj	asked	NN	P1_staff
+4-19	.	O	O	O	O
+
+#id=5
+#text=She entered the book information into the computer and then told me where I could find the book . 
+5-1	She	5-2_nsubj	entered	PRP	P1_staff
+5-2	entered	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	book	O	O	NN	O
+5-5	information	5-2_dobj	entered	NN	P1_NPart_information
+5-6	into	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	computer	5-2_prep_into	entered	NN	P1_institutional_devices
+5-9	and	O	O	O	O
+5-10	then	5-11_advmod	told	RB	O
+5-11	told	5-2_conj_and	entered	VBD	O
+5-12	me	5-11_dobj	told	PRP	P1_customer
+5-13	where	5-16_advmod	find	WRB	O
+5-14	I	5-16_nsubj	find	PRP	P1_customer
+5-15	could	5-16_aux	find	MD	O
+5-16	find	5-11_ccomp	told	VB	O
+5-17	the	O	O	DT	O
+5-18	book	5-16_dobj	find	NN	P1_book
+5-19	.	O	O	O	O
+
+#id=6
+#text=As it turned out , the mystery section was clearly labeled , as were the books . 
+6-1	As	6-3_mark	turned	IN	O
+6-2	it	6-3_nsubj	turned	PRP	O
+6-3	turned	6-11_advcl	labeled	VBD	O
+6-4	out	6-3_prt	turned	RP	O
+6-5	,	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	mystery	O	O	NN	O
+6-8	section	6-11_nsubjpass	labeled	NN	P1_location_library
+6-9	was	6-11_auxpass	labeled	VBD	O
+6-10	clearly	6-11_advmod	labeled	RB	O
+6-11	labeled	O	O	VBN	O
+6-12	,	O	O	O	O
+6-13	as	O	O	IN	O
+6-14	were	O	O	VBD	O
+6-15	the	O	O	DT	O
+6-16	books	6-11_advcl	labeled	NNS	P1_book
+6-17	.	O	O	O	O
+
+#id=7
+#text=They were in alphabetical order by author . 
+7-1	They	7-2_nsubj	were	PRP	P1_book
+7-2	were	O	O	VBD	O
+7-3	in	O	O	O	O
+7-4	alphabetical	O	O	JJ	O
+7-5	order	7-2_prep_in	were	NN	P1_NPart_order
+7-6	by	O	O	O	O
+7-7	author	7-2_prep_by	were	NN	P1_other
+7-8	.	O	O	O	O
+
+#id=8
+#text=I found the P section and located books by Patterson . 
+8-1	I	8-2_nsubj	found	PRP	P1_customer
+8-2	found	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	P	O	O	NNP	O
+8-5	section	8-2_dobj	found	NN	P2_location_library
+8-6	and	O	O	O	O
+8-7	located	8-2_conj_and	found	VBN	O
+8-8	books	8-7_dobj	located	NNS	P1_book
+8-9	by	O	O	O	O
+8-10	Patterson	8-7_prep_by	located	NNP	P1_other
+8-11	.	O	O	O	O
+
+#id=9
+#text=It was easy to find my book . 
+9-1	It	O	O	PRP	O
+9-2	was	O	O	VBD	O
+9-3	easy	O	O	JJ	O
+9-4	to	9-5_aux	find	TO	O
+9-5	find	O	O	VB	O
+9-6	my	O	O	PRP$	P1_customer
+9-7	book	9-5_dobj	find	NN	P1_book
+9-8	.	O	O	O	O
+
+#id=10
+#text=I took the book up to the checkout desk . 
+10-1	I	10-2_nsubj	took	PRP	P1_customer
+10-2	took	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	book	10-2_dobj	took	NN	P1_book
+10-5	up	10-2_prt	took	RP	O
+10-6	to	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	checkout	O	O	NN	O
+10-9	desk	10-2_prep_to	took	NN	P1_check-out_desk
+10-10	.	O	O	O	O
+
+#id=11
+#text=The librarian asked for my library card . 
+11-1	The	O	O	DT	O
+11-2	librarian	11-3_nsubj	asked	NN	P1_staff
+11-3	asked	O	O	VBD	O
+11-4	for	O	O	O	O
+11-5	my	O	O	PRP$	P1_customer
+11-6	library	O	O	NN	O
+11-7	card	11-3_prep_for	asked	NN	P1_library_card
+11-8	.	O	O	O	O
+
+#id=12
+#text=A library card has my name on it and a computer code on it . 
+12-1	A	O	O	DT	O
+12-2	library	O	O	NN	O
+12-3	card	12-4_nsubj	has	NN	P1_library_card
+12-4	has	O	O	VBZ	O
+12-5	my	O	O	PRP$	P1_customer
+12-6	name	12-4_dobj	has	NN	P1_NPart_name
+12-7	on	O	O	O	O
+12-8	it	O	O	PRP	P1_library_card
+12-9	and	O	O	O	O
+12-10	a	O	O	DT	O
+12-11	computer	O	O	NN	O
+12-12	code	O	O	NN	P1_NPart_code
+12-13	on	O	O	O	O
+12-14	it	O	O	PRP	P1_library_card
+12-15	.	O	O	O	O
+
+#id=13
+#text=The librarian swiped my card and told me that my book was due back in two weeks . 
+13-1	The	O	O	DT	O
+13-2	librarian	13-3_nsubj	swiped	NN	P1_staff
+13-3	swiped	O	O	VBD	O
+13-4	my	O	O	PRP$	P1_customer
+13-5	card	13-3_dobj	swiped	NN	P1_library_card
+13-6	and	O	O	O	O
+13-7	told	13-3_conj_and	swiped	VBD	O
+13-8	me	13-7_dobj	told	PRP	P1_customer
+13-9	that	O	O	IN	O
+13-10	my	O	O	PRP$	P1_customer
+13-11	book	O	O	NN	P1_book
+13-12	was	O	O	VBD	O
+13-13	due	13-7_ccomp	told	JJ	O
+13-14	back	O	O	RB	O
+13-15	in	O	O	O	O
+13-16	two	O	O	CD	O
+13-17	weeks	O	O	NNS	P1_return_date
+13-18	.	O	O	O	O
+
+#id=14
+#text=I thanked her for helping me . 
+14-1	I	14-2_nsubj	thanked	PRP	P1_customer
+14-2	thanked	O	O	VBD	O
+14-3	her	14-2_dobj	thanked	PRP	P1_staff
+14-4	for	O	O	O	O
+14-5	helping	14-2_prepc_for	thanked	VBG	O
+14-6	me	14-5_dobj	helping	PRP	P1_customer
+14-7	.	O	O	O	O
+
+#id=15
+#text=She told me that she hoped I enjoyed the book . 
+15-1	She	15-2_nsubj	told	PRP	P1_staff
+15-2	told	O	O	VBD	O
+15-3	me	15-2_dobj	told	PRP	P1_customer
+15-4	that	15-6_mark	hoped	IN	O
+15-5	she	15-6_nsubj	hoped	PRP	P1_staff
+15-6	hoped	15-2_ccomp	told	VBD	O
+15-7	I	15-8_nsubj	enjoyed	PRP	P1_customer
+15-8	enjoyed	15-6_ccomp	hoped	VBD	O
+15-9	the	O	O	DT	O
+15-10	book	15-8_dobj	enjoyed	NN	P1_book
+15-11	.	O	O	O	O

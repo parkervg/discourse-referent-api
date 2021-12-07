@@ -1,0 +1,229 @@
+#id=1
+#text=This morning , I finished reading the book I checked out the week before . 
+1-1	This	O	O	DT	O
+1-2	morning	1-5_tmod	finished	NN	P1_NPart_morning
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	finished	PRP	P1_customer
+1-5	finished	O	O	VBD	O
+1-6	reading	1-5_xcomp	finished	VBG	O
+1-7	the	O	O	DT	O
+1-8	book	1-6_dobj	reading	NN	P1_book
+1-9	I	1-10_nsubj	checked	PRP	P1_customer
+1-10	checked	O	O	VBD	O
+1-11	out	1-10_prt	checked	RP	O
+1-12	the	O	O	DT	O
+1-13	week	1-10_tmod	checked	NN	P1_NPart_week
+1-14	before	1-10_advmod	checked	RB	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=After breakfast , I went to the library with my partner . 
+2-1	After	O	O	O	O
+2-2	breakfast	2-5_prep_after	went	NN	P1_NPart_breakfast
+2-3	,	O	O	O	O
+2-4	I	2-5_nsubj	went	PRP	P1_customer
+2-5	went	O	O	VBD	O
+2-6	to	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	library	2-5_prep_to	went	NN	P1_library
+2-9	with	O	O	O	O
+2-10	my	O	O	PRP$	P1_customer
+2-11	partner	2-5_prep_with	went	NN	P2_customer
+2-12	.	O	O	O	O
+
+#id=3
+#text=I dropped my book off in the return bin after we walked in . 
+3-1	I	3-2_nsubj	dropped	PRP	P1_customer
+3-2	dropped	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_customer
+3-4	book	3-2_dobj	dropped	NN	P1_book
+3-5	off	3-2_prt	dropped	RP	O
+3-6	in	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	return	O	O	NN	O
+3-9	bin	3-2_prep_in	dropped	NNP	P1_drop_box
+3-10	after	3-12_mark	walked	IN	O
+3-11	we	3-12_nsubj	walked	PRP	P3_customer
+3-12	walked	3-2_advcl	dropped	VBD	O
+3-13	in	3-12_prt	walked	RP	O
+3-14	.	O	O	O	O
+
+#id=4
+#text=She wanted to look at the section in the far back of the library , concerning the history of wood furniture . 
+4-1	She	4-2_nsubj	wanted	PRP	P2_customer
+4-2	wanted	O	O	VBD	O
+4-3	to	4-4_aux	look	TO	O
+4-4	look	4-2_xcomp	wanted	VB	O
+4-5	at	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	section	4-4_prep_at	look	NN	P1_location_library
+4-8	in	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	far	O	O	RB	O
+4-11	back	O	O	RB	P2_location_library
+4-12	of	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	library	O	O	NN	P1_library
+4-15	,	O	O	O	O
+4-16	concerning	O	O	O	O
+4-17	the	O	O	DT	O
+4-18	history	O	O	NN	P1_NPart_history
+4-19	of	O	O	O	O
+4-20	wood	O	O	NN	P1_NPart_wood
+4-21	furniture	O	O	NN	P1_NPart_furniture
+4-22	.	O	O	O	O
+
+#id=5
+#text=I had something special in mind . 
+5-1	I	5-2_nsubj	had	PRP	P1_customer
+5-2	had	O	O	VBD	O
+5-3	something	O	O	NN	O
+5-4	special	5-2_dobj	had	NN	O
+5-5	in	O	O	O	O
+5-6	mind	O	O	NN	O
+5-7	.	O	O	O	O
+
+#id=6
+#text=Science fiction is the genre I typically read , so I went in that direction . 
+6-1	Science	O	O	NNP	O
+6-2	fiction	O	O	NN	P1_NPart_fiction
+6-3	is	O	O	VBZ	O
+6-4	the	O	O	DT	O
+6-5	genre	O	O	NN	P1_NPart_genre
+6-6	I	6-8_nsubj	read	PRP	P1_customer
+6-7	typically	6-8_advmod	read	RB	O
+6-8	read	O	O	VBD	O
+6-9	,	O	O	O	O
+6-10	so	O	O	IN	O
+6-11	I	6-12_nsubj	went	PRP	P1_customer
+6-12	went	O	O	VBD	O
+6-13	in	O	O	O	O
+6-14	that	O	O	DT	O
+6-15	direction	6-12_prep_in	went	NN	P3_location_library
+6-16	.	O	O	O	O
+
+#id=7
+#text=I browsed the long aisles for my favorite author , and saw that they had two copies of the book I was wanting to check out . 
+7-1	I	7-2_nsubj	browsed	PRP	P1_customer
+7-2	browsed	7-23_dep	wanting	VBD	O
+7-3	the	O	O	DT	O
+7-4	long	O	O	JJ	O
+7-5	aisles	7-2_dobj	browsed	NNS	P1_shelf
+7-6	for	O	O	O	O
+7-7	my	O	O	PRP$	P1_customer
+7-8	favorite	O	O	JJ	O
+7-9	author	7-2_prep_for	browsed	NN	P1_NPart_author
+7-10	,	O	O	O	O
+7-11	and	O	O	O	O
+7-12	saw	7-2_conj_and	browsed	VBD	O
+7-13	that	7-15_mark	had	IN	O
+7-14	they	7-15_nsubj	had	PRP	O
+7-15	had	7-12_ccomp	saw	VBD	O
+7-16	two	O	O	CD	O
+7-17	copies	7-15_dobj	had	NNS	O
+7-18	of	O	O	O	O
+7-19	the	O	O	DT	O
+7-20	book	O	O	NN	P1_book
+7-21	I	7-23_nsubj	wanting	PRP	P1_customer
+7-22	was	7-23_aux	wanting	VBD	O
+7-23	wanting	O	O	VBG	O
+7-24	to	7-25_aux	check	TO	O
+7-25	check	7-23_xcomp	wanting	VB	O
+7-26	out	7-25_prt	check	RP	O
+7-27	.	O	O	O	O
+
+#id=8
+#text=I left quickly to the drinking fountain , and came back to find that there was only one copy left . 
+8-1	I	8-2_nsubj	left	PRP	P1_customer
+8-2	left	O	O	VBD	O
+8-3	quickly	8-2_advmod	left	RB	O
+8-4	to	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	drinking	O	O	NN	O
+8-7	fountain	8-2_prep_to	left	NN	P1_reading_area_furniture
+8-8	,	O	O	O	O
+8-9	and	O	O	O	O
+8-10	came	8-2_conj_and	left	VBD	O
+8-11	back	8-10_prt	came	RP	O
+8-12	to	8-13_aux	find	TO	O
+8-13	find	8-10_xcomp	came	VB	O
+8-14	that	8-20_mark	left	IN	O
+8-15	there	8-20_expl	left	EX	O
+8-16	was	8-20_auxpass	left	VBD	O
+8-17	only	8-20_advmod	left	RB	O
+8-18	one	O	O	CD	O
+8-19	copy	O	O	NN	P1_book
+8-20	left	8-13_ccomp	find	VBN	O
+8-21	.	O	O	O	O
+
+#id=9
+#text=I picked up the book and went to go find my partner , who had also found her book . 
+9-1	I	9-2_nsubj	picked	PRP	P1_customer
+9-2	picked	O	O	VBD	O
+9-3	up	9-2_prt	picked	RP	O
+9-4	the	O	O	DT	O
+9-5	book	9-2_dobj	picked	NN	P1_book
+9-6	and	O	O	O	O
+9-7	went	9-2_conj_and	picked	VBD	O
+9-8	to	9-9_aux	go	TO	O
+9-9	go	9-7_xcomp	went	VB	O
+9-10	find	9-9_xcomp	go	VB	O
+9-11	my	O	O	PRP$	P1_customer
+9-12	partner	9-10_dobj	find	NN	P2_customer
+9-13	,	O	O	O	O
+9-14	who	9-17_nsubj	found	WP	O
+9-15	had	9-17_aux	found	VBD	O
+9-16	also	9-17_advmod	found	RB	O
+9-17	found	O	O	VBN	O
+9-18	her	O	O	PRP$	P2_customer
+9-19	book	9-17_dobj	found	NN	P1_book
+9-20	.	O	O	O	O
+
+#id=10
+#text=The checkout line was fast , we had our library cards ready for the attendant and had no issue checking out the books . 
+10-1	The	O	O	DT	O
+10-2	checkout	O	O	NN	O
+10-3	line	O	O	NN	P1_line
+10-4	was	O	O	VBD	O
+10-5	fast	10-8_ccomp	had	JJ	O
+10-6	,	O	O	O	O
+10-7	we	10-8_nsubj	had	PRP	P3_customer
+10-8	had	O	O	VBD	O
+10-9	our	O	O	PRP$	P3_customer
+10-10	library	O	O	NN	O
+10-11	cards	10-8_dobj	had	NNS	P1_library_card
+10-12	ready	O	O	JJ	O
+10-13	for	O	O	O	O
+10-14	the	O	O	DT	O
+10-15	attendant	O	O	NN	P1_staff
+10-16	and	O	O	O	O
+10-17	had	10-8_conj_and	had	VBD	O
+10-18	no	O	O	DT	O
+10-19	issue	10-17_dobj	had	NN	O
+10-20	checking	O	O	VBG	O
+10-21	out	10-20_prt	checking	RP	O
+10-22	the	O	O	DT	O
+10-23	books	10-20_dobj	checking	NNS	P1_book
+10-24	.	O	O	O	O
+
+#id=11
+#text=The drive home was relaxing , and we began reading right away after returning to the living room . 
+11-1	The	O	O	DT	O
+11-2	drive	O	O	NN	P1_NPart_drive
+11-3	home	O	O	NN	O
+11-4	was	O	O	VBD	O
+11-5	relaxing	O	O	JJ	O
+11-6	,	O	O	O	O
+11-7	and	O	O	O	O
+11-8	we	11-9_nsubj	began	PRP	P3_customer
+11-9	began	O	O	VBD	O
+11-10	reading	11-9_xcomp	began	VBG	O
+11-11	right	O	O	RB	O
+11-12	away	11-10_advmod	reading	RB	O
+11-13	after	O	O	O	O
+11-14	returning	11-10_prepc_after	reading	VBG	O
+11-15	to	O	O	O	O
+11-16	the	O	O	DT	O
+11-17	living	O	O	VBG	O
+11-18	room	11-14_prep_to	returning	NN	P1_NPart_room
+11-19	.	O	O	O	O

@@ -1,0 +1,276 @@
+#id=1
+#text=Last Christmas I had to bake a cake for myself , and it was a bit of a doozy . 
+1-1	Last	O	O	JJ	O
+1-2	Christmas	1-4_nsubj	had	NNP	P1_NPart_christmas
+1-3	I	1-4_nsubj	had	PRP	P1_cook
+1-4	had	O	O	VBD	O
+1-5	to	1-6_aux	bake	TO	O
+1-6	bake	1-4_xcomp	had	VB	O
+1-7	a	O	O	DT	O
+1-8	cake	1-6_dobj	bake	NN	P1_cake
+1-9	for	O	O	O	O
+1-10	myself	O	O	PRP	P1_cook
+1-11	,	O	O	O	O
+1-12	and	O	O	O	O
+1-13	it	O	O	PRP	O
+1-14	was	O	O	VBD	O
+1-15	a	O	O	DT	O
+1-16	bit	1-4_conj_and	had	NN	O
+1-17	of	O	O	O	O
+1-18	a	O	O	DT	O
+1-19	doozy	O	O	NN	O
+1-20	.	O	O	O	O
+
+#id=2
+#text=I do n't know a lot about making cakes , but I have a super-huge baking pan , an oven , and a big sweet tooth ! 
+2-1	I	2-4_nsubj	know	PRP	P1_cook
+2-2	do	2-4_aux	know	VBP	O
+2-3	n't	2-4_neg	know	RB	O
+2-4	know	O	O	VB	O
+2-5	a	O	O	DT	O
+2-6	lot	2-4_dobj	know	NN	O
+2-7	about	O	O	O	O
+2-8	making	2-4_prepc_about	know	VBG	O
+2-9	cakes	2-8_dobj	making	NNS	P1_cake
+2-10	,	O	O	O	O
+2-11	but	O	O	O	O
+2-12	I	2-13_nsubj	have	PRP	P1_cook
+2-13	have	2-4_conj_but	know	VBP	O
+2-14	a	O	O	DT	O
+2-15	super-huge	O	O	JJ	O
+2-16	baking	O	O	JJ	O
+2-17	pan	2-13_dobj	have	NN	P1_cake_tin
+2-18	,	O	O	O	O
+2-19	an	O	O	DT	O
+2-20	oven	O	O	NN	P1_oven
+2-21	,	O	O	O	O
+2-22	and	O	O	O	O
+2-23	a	O	O	DT	O
+2-24	big	O	O	JJ	O
+2-25	sweet	O	O	JJ	O
+2-26	tooth	O	O	NN	O
+2-27	!	O	O	O	O
+
+#id=3
+#text=I left the house looking around various convenience stores for cake mix ; it was Christmas , so going to a big store and wasting a bunch of time was out of the question . 
+3-1	I	3-2_nsubj	left	PRP	P1_cook
+3-2	left	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	house	3-2_dobj	left	NN	P1_NPart_house
+3-5	looking	O	O	VBG	O
+3-6	around	O	O	O	O
+3-7	various	O	O	JJ	O
+3-8	convenience	O	O	NN	O
+3-9	stores	3-5_prep_around	looking	NNS	P1_store
+3-10	for	O	O	O	O
+3-11	cake	O	O	NN	O
+3-12	mix	O	O	NN	P1_ingredients
+3-13	;	O	O	O	O
+3-14	it	O	O	PRP	O
+3-15	was	O	O	VBD	O
+3-16	Christmas	3-2_parataxis	left	NNP	P2_NPart_christmas
+3-17	,	O	O	O	O
+3-18	so	O	O	IN	O
+3-19	going	3-30_csubj	was	VBG	O
+3-20	to	O	O	O	O
+3-21	a	O	O	DT	O
+3-22	big	O	O	JJ	O
+3-23	store	3-19_prep_to	going	NN	P1_store
+3-24	and	O	O	O	O
+3-25	wasting	3-19_conj_and	going	VBG	O
+3-26	a	O	O	DT	O
+3-27	bunch	3-25_dobj	wasting	NN	O
+3-28	of	O	O	O	O
+3-29	time	O	O	NN	O
+3-30	was	O	O	VBD	O
+3-31	out	O	O	O	O
+3-32	of	O	O	O	O
+3-33	the	O	O	DT	O
+3-34	question	3-30_prep_out_of	was	NN	O
+3-35	.	O	O	O	O
+
+#id=4
+#text=I had to spend a whole hour checking for a store that had any cake mix left ! 
+4-1	I	4-2_nsubj	had	PRP	P1_cook
+4-2	had	O	O	VBD	O
+4-3	to	4-4_aux	spend	TO	O
+4-4	spend	4-2_xcomp	had	VB	O
+4-5	a	O	O	DT	O
+4-6	whole	O	O	JJ	O
+4-7	hour	O	O	NN	P1_NPart_hour
+4-8	checking	4-4_dobj	spend	NN	O
+4-9	for	O	O	O	O
+4-10	a	O	O	DT	O
+4-11	store	4-4_prep_for	spend	NN	P1_store
+4-12	that	4-13_nsubj	had	WDT	P1_store
+4-13	had	O	O	VBD	O
+4-14	any	O	O	DT	O
+4-15	cake	O	O	NN	O
+4-16	mix	4-13_dobj	had	NN	P1_ingredients
+4-17	left	O	O	VBN	O
+4-18	!	O	O	O	O
+
+#id=5
+#text=I finally settled on two boxes of butter cake mix and some pink lemonade frosting and took it all home . 
+5-1	I	5-3_nsubj	settled	PRP	P1_cook
+5-2	finally	5-3_advmod	settled	RB	O
+5-3	settled	O	O	VBD	O
+5-4	on	O	O	O	O
+5-5	two	O	O	CD	O
+5-6	boxes	5-3_prep_on	settled	NNS	O
+5-7	of	O	O	O	O
+5-8	butter	O	O	NN	O
+5-9	cake	O	O	NN	O
+5-10	mix	O	O	NN	P1_ingredients
+5-11	and	O	O	O	O
+5-12	some	O	O	DT	O
+5-13	pink	O	O	JJ	O
+5-14	lemonade	O	O	NN	O
+5-15	frosting	O	O	NN	P1_decoration
+5-16	and	O	O	O	O
+5-17	took	5-3_conj_and	settled	VBD	O
+5-18	it	5-17_dobj	took	PRP	P2_ingredients
+5-19	all	O	O	DT	O
+5-20	home	5-17_advmod	took	NN	P1_kitchen/location
+5-21	.	O	O	O	O
+
+#id=6
+#text=Since my pan was way too big for just one box , I had to follow the instructions and double every ingredient while making the batter and pouring it in . 
+6-1	Since	O	O	IN	O
+6-2	my	O	O	PRP$	P1_cook
+6-3	pan	O	O	NN	P1_cake_tin
+6-4	was	O	O	VBD	O
+6-5	way	O	O	NN	O
+6-6	too	O	O	RB	O
+6-7	big	6-14_advcl	had	JJ	O
+6-8	for	O	O	O	O
+6-9	just	O	O	RB	O
+6-10	one	O	O	CD	O
+6-11	box	O	O	NN	P1_NPart_box
+6-12	,	O	O	O	O
+6-13	I	6-14_nsubj	had	PRP	P1_cook
+6-14	had	O	O	VBD	O
+6-15	to	6-16_aux	follow	TO	O
+6-16	follow	6-14_xcomp	had	VB	O
+6-17	the	O	O	DT	O
+6-18	instructions	6-16_dobj	follow	NNS	P1_baking_instructions
+6-19	and	O	O	O	O
+6-20	double	6-16_conj_and	follow	VB	O
+6-21	every	O	O	DT	O
+6-22	ingredient	6-20_dobj	double	NN	P2_ingredients
+6-23	while	6-24_mark	making	IN	O
+6-24	making	6-20_advcl	double	VBG	O
+6-25	the	O	O	DT	O
+6-26	batter	6-24_dobj	making	NN	P1_dough
+6-27	and	O	O	O	O
+6-28	pouring	6-24_conj_and	making	VBG	O
+6-29	it	6-28_dobj	pouring	PRP	P1_dough
+6-30	in	6-28_prep	pouring	IN	O
+6-31	.	O	O	O	O
+
+#id=7
+#text=I preheated the oven , put the cake pan with the batter in to bake , and watched TV for a few hours while I waited for it to be done . 
+7-1	I	7-2_nsubj	preheated	PRP	P1_cook
+7-2	preheated	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	oven	7-2_dobj	preheated	NN	P1_oven
+7-5	,	O	O	O	O
+7-6	put	7-2_conj_and	preheated	VBD	O
+7-7	the	O	O	DT	O
+7-8	cake	O	O	NN	O
+7-9	pan	7-6_dobj	put	NN	P1_cake_tin
+7-10	with	O	O	O	O
+7-11	the	O	O	DT	O
+7-12	batter	7-6_prep_with	put	NN	P1_dough
+7-13	in	7-6_prep	put	IN	O
+7-14	to	O	O	TO	O
+7-15	bake	O	O	NN	O
+7-16	,	O	O	O	O
+7-17	and	O	O	O	O
+7-18	watched	7-2_conj_and	preheated	VBD	O
+7-19	TV	7-18_dobj	watched	NN	P1_NPart_tv
+7-20	for	O	O	O	O
+7-21	a	O	O	DT	O
+7-22	few	O	O	JJ	O
+7-23	hours	7-18_prep_for	watched	NNS	P1_time
+7-24	while	7-26_mark	waited	IN	O
+7-25	I	7-26_nsubj	waited	PRP	P1_cook
+7-26	waited	7-18_advcl	watched	VBD	O
+7-27	for	7-31_mark	done	IN	O
+7-28	it	7-31_nsubjpass	done	PRP	P1_cake
+7-29	to	7-31_aux	done	TO	O
+7-30	be	7-31_auxpass	done	VB	O
+7-31	done	7-26_advcl	waited	VBN	O
+7-32	.	O	O	O	O
+
+#id=8
+#text=I checked the cake several times with a toothpick to make sure it was fully baked . 
+8-1	I	8-2_nsubj	checked	PRP	P1_cook
+8-2	checked	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	cake	8-2_iobj	checked	NN	P1_cake
+8-5	several	O	O	JJ	O
+8-6	times	8-2_dobj	checked	NNS	O
+8-7	with	O	O	O	O
+8-8	a	O	O	DT	O
+8-9	toothpick	8-2_prep_with	checked	NN	P1_utensil
+8-10	to	8-11_aux	make	TO	O
+8-11	make	8-2_vmod	checked	VB	O
+8-12	sure	8-11_acomp	make	JJ	O
+8-13	it	O	O	PRP	P1_cake
+8-14	was	O	O	VBD	O
+8-15	fully	O	O	RB	O
+8-16	baked	O	O	JJ	O
+8-17	.	O	O	O	O
+
+#id=9
+#text=Once it was done , I took it out to cool and frosted it , and then cut the cake into several square pieces . 
+9-1	Once	9-4_mark	done	IN	O
+9-2	it	9-4_nsubjpass	done	PRP	P1_cake
+9-3	was	9-4_auxpass	done	VBD	O
+9-4	done	9-7_advcl	took	VBN	O
+9-5	,	O	O	O	O
+9-6	I	9-7_nsubj	took	PRP	P1_cook
+9-7	took	O	O	VBD	O
+9-8	it	9-7_dobj	took	PRP	P1_cake
+9-9	out	9-7_prt	took	RP	O
+9-10	to	9-11_aux	cool	TO	O
+9-11	cool	9-7_vmod	took	VB	O
+9-12	and	O	O	O	O
+9-13	frosted	9-11_conj_and	cool	VB	O
+9-14	it	9-11_dobj	cool	PRP	P1_cake
+9-15	,	O	O	O	O
+9-16	and	O	O	O	O
+9-17	then	9-18_advmod	cut	RB	O
+9-18	cut	9-11_conj_and	cool	VB	O
+9-19	the	O	O	DT	O
+9-20	cake	9-18_dobj	cut	NN	P1_cake
+9-21	into	O	O	O	O
+9-22	several	O	O	JJ	O
+9-23	square	O	O	JJ	O
+9-24	pieces	9-7_prep_into	took	NNS	P1_NPart_pieces
+9-25	.	O	O	O	O
+
+#id=10
+#text=It went better than I expected for my first cake on short notice , but the frosting was SUPER sweet ! 
+10-1	It	10-2_nsubj	went	PRP	O
+10-2	went	O	O	VBD	O
+10-3	better	10-2_advmod	went	RBR	O
+10-4	than	10-6_mark	expected	IN	O
+10-5	I	10-6_nsubj	expected	PRP	P1_cook
+10-6	expected	10-2_advcl	went	VBD	O
+10-7	for	O	O	O	O
+10-8	my	O	O	PRP$	P1_cook
+10-9	first	O	O	JJ	O
+10-10	cake	10-6_prep_for	expected	NN	P1_cake
+10-11	on	O	O	O	O
+10-12	short	O	O	JJ	O
+10-13	notice	10-6_prep_on	expected	NN	O
+10-14	,	O	O	O	O
+10-15	but	O	O	O	O
+10-16	the	O	O	DT	O
+10-17	frosting	O	O	NN	P1_decoration
+10-18	was	O	O	VBD	O
+10-19	SUPER	O	O	RB	O
+10-20	sweet	10-2_conj_but	went	JJ	O
+10-21	!	O	O	O	O

@@ -1,0 +1,219 @@
+#id=1
+#text=I was out of food so I went to my local market . 
+1-1	I	1-2_nsubj	was	PRP	P1_shopper
+1-2	was	O	O	VBD	O
+1-3	out	O	O	O	O
+1-4	of	O	O	O	O
+1-5	food	1-2_prep_out_of	was	NN	P1_groceries
+1-6	so	1-8_mark	went	IN	O
+1-7	I	1-8_nsubj	went	PRP	P1_shopper
+1-8	went	1-2_advcl	was	VBD	O
+1-9	to	O	O	O	O
+1-10	my	O	O	PRP$	P1_shopper
+1-11	local	O	O	JJ	O
+1-12	market	1-8_prep_to	went	NN	P1_grocery_shop
+1-13	.	O	O	O	O
+
+#id=2
+#text=I parked the car and walked to the door . 
+2-1	I	2-2_nsubj	parked	PRP	P1_shopper
+2-2	parked	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	car	2-2_dobj	parked	NN	P1_vehicle
+2-5	and	O	O	O	O
+2-6	walked	2-2_conj_and	parked	VBD	O
+2-7	to	O	O	O	O
+2-8	the	O	O	DT	O
+2-9	door	2-6_prep_to	walked	NN	P1_NPart_door
+2-10	.	O	O	O	O
+
+#id=3
+#text=I grabbed a cart on the way . 
+3-1	I	3-2_nsubj	grabbed	PRP	P1_shopper
+3-2	grabbed	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	cart	3-2_dobj	grabbed	NN	P1_shopping_cart/basket
+3-5	on	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	way	3-2_prep_on	grabbed	NN	O
+3-8	.	O	O	O	O
+
+#id=4
+#text=Once inside i vowed to stick to the outside edges of the store , away from processed foods . 
+4-1	Once	O	O	RB	O
+4-2	inside	4-4_advmod	vowed	RB	O
+4-3	i	4-4_nsubj	vowed	FW	P1_shopper
+4-4	vowed	O	O	VBD	O
+4-5	to	4-6_aux	stick	TO	O
+4-6	stick	4-4_xcomp	vowed	VB	O
+4-7	to	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	outside	O	O	JJ	O
+4-10	edges	4-6_prep_to	stick	NNS	P1_NPart_edges
+4-11	of	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	store	O	O	NN	P1_grocery_shop
+4-14	,	O	O	O	O
+4-15	away	O	O	O	O
+4-16	from	O	O	O	O
+4-17	processed	O	O	VBN	O
+4-18	foods	4-6_prep_away_from	stick	NNS	P2_groceries
+4-19	.	O	O	O	O
+
+#id=5
+#text=I bought all my produce and some fresh baked bread . 
+5-1	I	5-2_nsubj	bought	PRP	P1_shopper
+5-2	bought	O	O	VBD	O
+5-3	all	O	O	PDT	O
+5-4	my	O	O	PRP$	P1_shopper
+5-5	produce	5-2_dobj	bought	NN	P3_groceries
+5-6	and	O	O	O	O
+5-7	some	O	O	DT	O
+5-8	fresh	O	O	JJ	O
+5-9	baked	O	O	JJ	O
+5-10	bread	O	O	NN	P4_groceries
+5-11	.	O	O	O	O
+
+#id=6
+#text=I also got milk and eggs and cheese . 
+6-1	I	6-3_nsubj	got	PRP	P1_shopper
+6-2	also	6-3_advmod	got	RB	O
+6-3	got	O	O	VBD	O
+6-4	milk	6-3_dobj	got	NN	P5_groceries
+6-5	and	O	O	O	O
+6-6	eggs	O	O	NNS	P6_groceries
+6-7	and	O	O	O	O
+6-8	cheese	O	O	NN	P7_groceries
+6-9	.	O	O	O	O
+
+#id=7
+#text=I caved and bought some tortilla chips because I had a mean craving for nachos . 
+7-1	I	7-2_nsubj	caved	PRP	P1_shopper
+7-2	caved	O	O	VBD	O
+7-3	and	O	O	O	O
+7-4	bought	7-2_conj_and	caved	VBD	O
+7-5	some	O	O	DT	O
+7-6	tortilla	O	O	NN	O
+7-7	chips	7-4_dobj	bought	NNS	P8_groceries
+7-8	because	7-10_mark	had	IN	O
+7-9	I	7-10_nsubj	had	PRP	P1_shopper
+7-10	had	7-4_advcl	bought	VBD	O
+7-11	a	O	O	DT	O
+7-12	mean	O	O	JJ	O
+7-13	craving	7-10_dobj	had	NN	P1_NPart_craving
+7-14	for	O	O	O	O
+7-15	nachos	O	O	NNS	P8_groceries
+7-16	.	O	O	O	O
+
+#id=8
+#text=I also checked the frozen aisle for cheese taquitos . 
+8-1	I	8-3_nsubj	checked	PRP	P1_shopper
+8-2	also	8-3_advmod	checked	RB	O
+8-3	checked	O	O	VBD	O
+8-4	the	O	O	DT	O
+8-5	frozen	O	O	JJ	O
+8-6	aisle	8-3_dobj	checked	NN	P1_section
+8-7	for	O	O	O	O
+8-8	cheese	O	O	NN	O
+8-9	taquitos	8-3_prep_for	checked	NNS	P9_groceries
+8-10	.	O	O	O	O
+
+#id=9
+#text=I found cheese taquitos once , years ago , but had never seen them again . 
+9-1	I	9-2_nsubj	found	PRP	P1_shopper
+9-2	found	O	O	VBD	O
+9-3	cheese	O	O	NN	O
+9-4	taquitos	9-2_dobj	found	NNS	P10_groceries
+9-5	once	9-2_advmod	found	RB	O
+9-6	,	O	O	O	O
+9-7	years	O	O	NNS	O
+9-8	ago	9-2_advmod	found	RB	O
+9-9	,	O	O	O	O
+9-10	but	O	O	O	O
+9-11	had	9-13_aux	seen	VBD	O
+9-12	never	9-13_neg	seen	RB	O
+9-13	seen	9-2_conj_but	found	VBN	O
+9-14	them	9-13_dep	seen	PRP	P10_groceries
+9-15	again	O	O	RB	O
+9-16	.	O	O	O	O
+
+#id=10
+#text=I always check in vain , hoping one day to see them next to the chicken taquitos . 
+10-1	I	10-3_nsubj	check	PRP	P1_shopper
+10-2	always	10-3_advmod	check	RB	O
+10-3	check	O	O	VBP	O
+10-4	in	O	O	O	O
+10-5	vain	10-3_prep_in	check	JJ	O
+10-6	,	O	O	O	O
+10-7	hoping	10-3_xcomp	check	VBG	O
+10-8	one	O	O	CD	O
+10-9	day	10-7_tmod	hoping	NN	O
+10-10	to	10-11_aux	see	TO	O
+10-11	see	10-7_vmod	hoping	VB	O
+10-12	them	10-11_dobj	see	PRP	P10_groceries
+10-13	next	O	O	O	O
+10-14	to	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	chicken	O	O	NN	O
+10-17	taquitos	10-11_prep_next_to	see	NNS	P11_groceries
+10-18	.	O	O	O	O
+
+#id=11
+#text=After I had all my goods I went to the check out line . 
+11-1	After	11-3_mark	had	IN	O
+11-2	I	11-3_nsubj	had	PRP	P1_shopper
+11-3	had	11-8_advcl	went	VBD	O
+11-4	all	O	O	PDT	O
+11-5	my	O	O	PRP$	P1_shopper
+11-6	goods	11-3_dobj	had	NNS	P12_groceries
+11-7	I	11-8_nsubj	went	PRP	P1_shopper
+11-8	went	O	O	VBD	O
+11-9	to	O	O	O	O
+11-10	the	O	O	DT	O
+11-11	check	11-8_prep_to	went	NN	O
+11-12	out	O	O	O	O
+11-13	line	11-8_prep_out	went	NN	P1_line
+11-14	.	O	O	O	O
+
+#id=12
+#text=I made small talk with the cashier after I loaded my items on the the conveyor belt . 
+12-1	I	12-2_nsubj	made	PRP	P1_shopper
+12-2	made	O	O	VBD	O
+12-3	small	O	O	JJ	O
+12-4	talk	12-2_dobj	made	NN	P1_NPart_talk
+12-5	with	O	O	O	O
+12-6	the	O	O	DT	O
+12-7	cashier	12-2_prep_with	made	NN	P1_grocery_staff
+12-8	after	12-10_mark	loaded	IN	O
+12-9	I	12-10_nsubj	loaded	PRP	P1_shopper
+12-10	loaded	12-2_advcl	made	VBD	O
+12-11	my	O	O	PRP$	P1_shopper
+12-12	items	12-10_dobj	loaded	NNS	P1_groceries
+12-13	on	O	O	O	O
+12-14	the	O	O	DT	O
+12-15	the	O	O	DT	O
+12-16	conveyor	O	O	NN	O
+12-17	belt	12-10_prep_on	loaded	NN	P1_conveyor_belt
+12-18	.	O	O	O	O
+
+#id=13
+#text=I paid after everything was bagged in my cart . 
+13-1	I	13-2_nsubj	paid	PRP	P1_shopper
+13-2	paid	O	O	VBD	O
+13-3	after	13-6_mark	bagged	IN	O
+13-4	everything	13-6_nsubjpass	bagged	NN	P1_groceries
+13-5	was	13-6_auxpass	bagged	VBD	O
+13-6	bagged	13-2_advcl	paid	VBN	O
+13-7	in	O	O	O	O
+13-8	my	O	O	PRP$	P1_shopper
+13-9	cart	13-6_prep_in	bagged	NN	P2_shopping_cart/basket
+13-10	.	O	O	O	O
+
+#id=14
+#text=Then I left for home . 
+14-1	Then	14-3_advmod	left	RB	O
+14-2	I	14-3_nsubj	left	PRP	P1_shopper
+14-3	left	O	O	VBD	O
+14-4	for	O	O	O	O
+14-5	home	14-3_prep_for	left	NN	P1_NPart_home
+14-6	.	O	O	O	O

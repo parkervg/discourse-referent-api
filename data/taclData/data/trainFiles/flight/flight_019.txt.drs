@@ -1,0 +1,326 @@
+#id=1
+#text=When I was a kid , my dad was a licensed pilot and he had a small plane . 
+1-1	When	O	O	WRB	O
+1-2	I	O	O	PRP	P1_passenger
+1-3	was	O	O	VBD	O
+1-4	a	O	O	DT	O
+1-5	kid	O	O	NN	P1_passenger
+1-6	,	O	O	O	O
+1-7	my	O	O	PRP$	P1_passenger
+1-8	dad	O	O	NN	P1_staff
+1-9	was	O	O	VBD	O
+1-10	a	O	O	DT	O
+1-11	licensed	O	O	JJ	O
+1-12	pilot	O	O	NN	P1_staff
+1-13	and	O	O	O	O
+1-14	he	1-15_nsubj	had	PRP	P1_staff
+1-15	had	O	O	VBD	O
+1-16	a	O	O	DT	O
+1-17	small	O	O	JJ	O
+1-18	plane	1-15_dobj	had	NN	P1_plane
+1-19	.	O	O	O	O
+
+#id=2
+#text=It seated 4 . 
+2-1	It	2-2_nsubj	seated	PRP	P1_plane
+2-2	seated	O	O	VBN	O
+2-3	4	2-2_dobj	seated	CD	O
+2-4	.	O	O	O	O
+
+#id=3
+#text=He lived in a small town about 2 hours by car north of the larger town when we kids lived with our mom . 
+3-1	He	3-2_nsubj	lived	PRP	P2_passenger
+3-2	lived	O	O	VBD	O
+3-3	in	O	O	O	O
+3-4	a	O	O	DT	O
+3-5	small	O	O	JJ	O
+3-6	town	3-2_prep_in	lived	NN	P1_NPart_town
+3-7	about	O	O	RB	O
+3-8	2	O	O	CD	O
+3-9	hours	3-2_npadvmod	lived	NNS	P1_time/date
+3-10	by	O	O	O	O
+3-11	car	O	O	NN	P1_NPart_car
+3-12	north	3-2_prep_by	lived	NN	P1_NPart_north
+3-13	of	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	larger	O	O	JJR	O
+3-16	town	O	O	NN	P2_NPart_town
+3-17	when	3-20_advmod	lived	WRB	O
+3-18	we	O	O	PRP	P3_passenger
+3-19	kids	3-20_nsubj	lived	NNS	P3_passenger
+3-20	lived	O	O	VBD	O
+3-21	with	O	O	O	O
+3-22	our	O	O	PRP$	P3_passenger
+3-23	mom	3-20_prep_with	lived	NN	P1_NPart_mom
+3-24	.	O	O	O	O
+
+#id=4
+#text=We would go visit my dad every other weekend . 
+4-1	We	4-3_nsubj	go	PRP	P3_passenger
+4-2	would	4-3_aux	go	MD	O
+4-3	go	O	O	VB	O
+4-4	visit	4-3_xcomp	go	VB	O
+4-5	my	O	O	PRP$	P4_passenger
+4-6	dad	4-4_dep	visit	NN	P1_staff
+4-7	every	O	O	DT	O
+4-8	other	O	O	JJ	O
+4-9	weekend	4-4_dobj	visit	NN	P1_NPart_weekend
+4-10	.	O	O	O	O
+
+#id=5
+#text=My grandfather was a pilot too and had a small plane . 
+5-1	My	O	O	PRP$	P5_passenger
+5-2	grandfather	5-3_nsubj	was	NN	P2_staff
+5-3	was	O	O	VBD	O
+5-4	a	O	O	DT	O
+5-5	pilot	O	O	NN	P2_staff
+5-6	too	5-3_advmod	was	RB	O
+5-7	and	O	O	O	O
+5-8	had	5-3_conj_and	was	VBD	O
+5-9	a	O	O	DT	O
+5-10	small	O	O	JJ	O
+5-11	plane	5-8_dobj	had	NN	P1_plane
+5-12	.	O	O	O	O
+
+#id=6
+#text=His was smaller , though , and only seated 2 people . 
+6-1	His	O	O	PRP$	P1_plane
+6-2	was	O	O	VBD	O
+6-3	smaller	O	O	JJR	O
+6-4	,	O	O	O	O
+6-5	though	O	O	RB	O
+6-6	,	O	O	O	O
+6-7	and	O	O	O	O
+6-8	only	6-9_advmod	seated	RB	O
+6-9	seated	O	O	VBN	O
+6-10	2	O	O	CD	O
+6-11	people	6-9_dobj	seated	NNS	P6_passenger
+6-12	.	O	O	O	O
+
+#id=7
+#text=It was fun to fly in because I got to sit in front and see out the front and watch him work the controls . 
+7-1	It	O	O	PRP	P1_plane
+7-2	was	O	O	VBD	O
+7-3	fun	O	O	NN	O
+7-4	to	7-5_aux	fly	TO	O
+7-5	fly	O	O	VB	O
+7-6	in	7-5_prt	fly	RP	O
+7-7	because	7-9_mark	got	IN	O
+7-8	I	7-9_nsubj	got	PRP	P1_passenger
+7-9	got	7-5_advcl	fly	VBD	O
+7-10	to	7-11_aux	sit	TO	O
+7-11	sit	7-9_xcomp	got	VB	O
+7-12	in	O	O	O	O
+7-13	front	7-11_prep_in	sit	NN	P1_location_airplane_indoor
+7-14	and	O	O	O	O
+7-15	see	7-11_conj_and	sit	VB	O
+7-16	out	7-15_prt	see	RP	O
+7-17	the	O	O	DT	O
+7-18	front	7-15_dobj	see	NN	P1_location_airplane_indoor
+7-19	and	O	O	O	O
+7-20	watch	7-15_conj_and	see	VB	O
+7-21	him	7-22_nsubj	work	PRP	P2_staff
+7-22	work	7-20_ccomp	watch	VB	O
+7-23	the	O	O	DT	O
+7-24	controls	7-22_dobj	work	NNS	P1_other
+7-25	.	O	O	O	O
+
+#id=8
+#text=When we flew with my dad , my stepmother sat in the front seat and all three of us kids sat in the back seat . 
+8-1	When	8-3_advmod	flew	WRB	O
+8-2	we	8-3_nsubj	flew	PRP	P3_passenger
+8-3	flew	8-10_advcl	sat	VBD	O
+8-4	with	O	O	O	O
+8-5	my	O	O	PRP$	P1_passenger
+8-6	dad	8-3_prep_with	flew	NN	P1_staff
+8-7	,	O	O	O	O
+8-8	my	O	O	PRP$	P1_passenger
+8-9	stepmother	8-10_nsubj	sat	NN	P7_passenger
+8-10	sat	O	O	VBD	O
+8-11	in	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	front	O	O	JJ	O
+8-14	seat	8-10_prep_in	sat	NN	P1_seat
+8-15	and	O	O	O	O
+8-16	all	O	O	DT	O
+8-17	three	O	O	CD	O
+8-18	of	O	O	O	O
+8-19	us	O	O	PRP	P3_passenger
+8-20	kids	O	O	NNS	P1_NPart_kids
+8-21	sat	O	O	VBN	O
+8-22	in	O	O	O	O
+8-23	the	O	O	DT	O
+8-24	back	O	O	JJ	O
+8-25	seat	8-21_prep_in	sat	NN	P2_seat
+8-26	.	O	O	O	O
+
+#id=9
+#text=We were small , so we all fit . 
+9-1	We	O	O	PRP	P3_passenger
+9-2	were	O	O	VBD	O
+9-3	small	O	O	JJ	O
+9-4	,	O	O	O	O
+9-5	so	O	O	IN	O
+9-6	we	O	O	PRP	P3_passenger
+9-7	all	O	O	RB	O
+9-8	fit	O	O	JJ	O
+9-9	.	O	O	O	O
+
+#id=10
+#text=There was n't much room for luggage , but my dad would load the luggage behind the back seat . 
+10-1	There	10-2_expl	was	EX	P1_plane
+10-2	was	O	O	VBD	O
+10-3	n't	10-2_neg	was	RB	O
+10-4	much	O	O	JJ	O
+10-5	room	10-2_nsubj	was	NN	P1_NPart_room
+10-6	for	O	O	O	O
+10-7	luggage	O	O	NN	P1_carry_on_luggage
+10-8	,	O	O	O	O
+10-9	but	O	O	O	O
+10-10	my	O	O	PRP$	P8_passenger
+10-11	dad	10-13_nsubj	load	NN	P1_staff
+10-12	would	10-13_aux	load	MD	O
+10-13	load	10-2_conj_but	was	VB	O
+10-14	the	O	O	DT	O
+10-15	luggage	10-13_dobj	load	NN	P2_carry_on_luggage
+10-16	behind	O	O	O	O
+10-17	the	O	O	DT	O
+10-18	back	O	O	JJ	O
+10-19	seat	10-13_prep_behind	load	NN	P2_seat
+10-20	.	O	O	O	O
+
+#id=11
+#text=Then he would do the preflight checks . 
+11-1	Then	11-4_advmod	do	RB	O
+11-2	he	11-4_nsubj	do	PRP	P1_staff
+11-3	would	11-4_aux	do	MD	O
+11-4	do	O	O	VB	O
+11-5	the	O	O	DT	O
+11-6	preflight	O	O	JJ	O
+11-7	checks	11-4_dobj	do	NNS	P2_other
+11-8	.	O	O	O	O
+
+#id=12
+#text=Some of these were outside the plane , but most of them were done from the inside . 
+12-1	Some	12-4_nsubj	were	DT	O
+12-2	of	O	O	O	O
+12-3	these	O	O	DT	P2_other
+12-4	were	O	O	VBD	O
+12-5	outside	O	O	O	O
+12-6	the	O	O	DT	O
+12-7	plane	12-4_prep_outside	were	NN	P1_plane
+12-8	,	O	O	O	O
+12-9	but	O	O	O	O
+12-10	most	12-14_nsubjpass	done	JJS	O
+12-11	of	O	O	O	O
+12-12	them	O	O	PRP	P2_other
+12-13	were	12-14_auxpass	done	VBD	O
+12-14	done	12-4_conj_but	were	VBN	O
+12-15	from	O	O	O	O
+12-16	the	O	O	DT	O
+12-17	inside	12-14_prep_from	done	NN	P1_NPart_inside
+12-18	.	O	O	O	O
+
+#id=13
+#text=He would radio the tower and ask for permission to take off . 
+13-1	He	13-3_nsubj	radio	PRP	P1_staff
+13-2	would	13-3_aux	radio	MD	O
+13-3	radio	O	O	VB	O
+13-4	the	O	O	DT	O
+13-5	tower	13-3_dobj	radio	NN	P3_other
+13-6	and	O	O	O	O
+13-7	ask	13-3_conj_and	radio	VB	O
+13-8	for	O	O	O	O
+13-9	permission	13-7_prep_for	ask	NN	P4_other
+13-10	to	13-11_aux	take	TO	O
+13-11	take	13-7_xcomp	ask	VB	O
+13-12	off	13-11_prt	take	RP	O
+13-13	.	O	O	O	O
+
+#id=14
+#text=This was always very exciting . 
+14-1	This	O	O	DT	O
+14-2	was	O	O	VBD	O
+14-3	always	O	O	RB	O
+14-4	very	O	O	RB	O
+14-5	exciting	O	O	JJ	O
+14-6	.	O	O	O	O
+
+#id=15
+#text=The takeoff was a little scary because in a plane that small you could really feel the wind and the forces of the take off . 
+15-1	The	O	O	DT	O
+15-2	takeoff	O	O	NN	O
+15-3	was	O	O	VBD	O
+15-4	a	O	O	DT	O
+15-5	little	O	O	RB	O
+15-6	scary	O	O	JJ	O
+15-7	because	O	O	RB	O
+15-8	in	O	O	O	O
+15-9	a	O	O	DT	O
+15-10	plane	O	O	NN	P1_plane
+15-11	that	15-16_mark	feel	IN	O
+15-12	small	O	O	JJ	O
+15-13	you	15-16_nsubj	feel	NN	P1_passenger
+15-14	could	15-16_aux	feel	MD	O
+15-15	really	15-16_advmod	feel	RB	O
+15-16	feel	O	O	VB	O
+15-17	the	O	O	DT	O
+15-18	wind	15-16_dobj	feel	NN	P5_other
+15-19	and	O	O	O	O
+15-20	the	O	O	DT	O
+15-21	forces	O	O	NNS	P6_other
+15-22	of	O	O	O	O
+15-23	the	O	O	DT	O
+15-24	take	O	O	NN	O
+15-25	off	15-16_prt	feel	RP	O
+15-26	.	O	O	O	O
+
+#id=16
+#text=The flight itself was fairly boring because you could n't really see anything from the back . 
+16-1	The	O	O	DT	O
+16-2	flight	O	O	NN	P1_flight
+16-3	itself	O	O	PRP	O
+16-4	was	O	O	VBD	O
+16-5	fairly	O	O	RB	O
+16-6	boring	O	O	JJ	O
+16-7	because	16-12_mark	see	IN	O
+16-8	you	16-12_nsubj	see	PRP	P1_passenger
+16-9	could	16-12_aux	see	MD	O
+16-10	n't	16-12_neg	see	RB	O
+16-11	really	16-12_advmod	see	RB	O
+16-12	see	O	O	VB	O
+16-13	anything	16-12_dobj	see	NN	O
+16-14	from	O	O	O	O
+16-15	the	O	O	DT	O
+16-16	back	16-12_prep_from	see	NN	P2_location_airplane_indoor
+16-17	.	O	O	O	O
+
+#id=17
+#text=Sadly , I had bad motion sickness , and my main memory of the landings is throwing up down the back of my dad 's neck . 
+17-1	Sadly	17-4_advmod	had	RB	O
+17-2	,	O	O	O	O
+17-3	I	17-4_nsubj	had	PRP	P1_passenger
+17-4	had	O	O	VBD	O
+17-5	bad	O	O	JJ	O
+17-6	motion	O	O	NN	O
+17-7	sickness	17-4_dobj	had	NN	P7_other
+17-8	,	O	O	O	O
+17-9	and	O	O	O	O
+17-10	my	O	O	PRP$	P1_passenger
+17-11	main	O	O	JJ	O
+17-12	memory	17-17_nsubj	throwing	NN	P1_NPart_memory
+17-13	of	O	O	O	O
+17-14	the	O	O	DT	O
+17-15	landings	O	O	NNS	O
+17-16	is	17-17_aux	throwing	VBZ	O
+17-17	throwing	17-4_conj_and	had	VBG	O
+17-18	up	17-17_prt	throwing	RP	O
+17-19	down	O	O	O	O
+17-20	the	O	O	DT	O
+17-21	back	17-17_prep_down	throwing	NN	P1_NPart_back
+17-22	of	O	O	O	O
+17-23	my	O	O	PRP$	P1_passenger
+17-24	dad	O	O	NN	P1_staff
+17-25	's	O	O	O	O
+17-26	neck	O	O	NN	P1_NPart_neck
+17-27	.	O	O	O	O

@@ -1,0 +1,239 @@
+#id=1
+#text=I decided to take a bath yesterday afternoon after working out . 
+1-1	I	1-2_nsubj	decided	PRP	P1_bather
+1-2	decided	O	O	VBD	O
+1-3	to	1-4_aux	take	TO	O
+1-4	take	1-2_xcomp	decided	VB	O
+1-5	a	O	O	DT	O
+1-6	bath	1-4_dobj	take	NN	P1_bath
+1-7	yesterday	1-4_tmod	take	NN	P1_NPart_yesterday
+1-8	afternoon	1-2_dobj	decided	NN	P1_NPart_afternoon
+1-9	after	O	O	O	O
+1-10	working	1-2_prepc_after	decided	VBG	O
+1-11	out	1-10_prt	working	RP	O
+1-12	.	O	O	O	O
+
+#id=2
+#text=Once I got back home , I walked to my bathroom and first quickly scrubbed the bathroom tub by turning on the water and rinsing it clean with a rag . 
+2-1	Once	2-3_mark	got	IN	O
+2-2	I	2-3_nsubj	got	PRP	P1_bather
+2-3	got	2-8_advcl	walked	VBD	O
+2-4	back	2-3_advmod	got	RB	O
+2-5	home	O	O	NN	P1_NPart_home
+2-6	,	O	O	O	O
+2-7	I	2-8_nsubj	walked	PRP	P1_bather
+2-8	walked	O	O	VBD	O
+2-9	to	O	O	O	O
+2-10	my	O	O	PRP$	P1_bather
+2-11	bathroom	2-8_prep_to	walked	NN	P1_bathroom
+2-12	and	O	O	O	O
+2-13	first	2-15_advmod	scrubbed	RB	O
+2-14	quickly	2-15_advmod	scrubbed	RB	O
+2-15	scrubbed	2-8_conj_and	walked	VBD	O
+2-16	the	O	O	DT	O
+2-17	bathroom	O	O	NN	O
+2-18	tub	2-15_dobj	scrubbed	NN	P1_bathtub
+2-19	by	O	O	O	O
+2-20	turning	O	O	VBG	O
+2-21	on	O	O	O	O
+2-22	the	O	O	DT	O
+2-23	water	2-20_prep_on	turning	NN	P1_water
+2-24	and	O	O	O	O
+2-25	rinsing	2-20_conj_and	turning	VBG	O
+2-26	it	2-27_nsubj	clean	PRP	P1_bathtub
+2-27	clean	2-25_ccomp	rinsing	VB	O
+2-28	with	O	O	O	O
+2-29	a	O	O	DT	O
+2-30	rag	2-27_prep_with	clean	NN	P1_NPart_rag
+2-31	.	O	O	O	O
+
+#id=3
+#text=. 
+3-1	.	O	O	O	O
+
+#id=4
+#text=After I finished , I plugged the tub and began filling it with warm water set at about 98 degrees . 
+4-1	After	4-3_mark	finished	IN	O
+4-2	I	4-3_nsubj	finished	PRP	P1_bather
+4-3	finished	4-6_advcl	plugged	VBD	O
+4-4	,	O	O	O	O
+4-5	I	4-6_nsubj	plugged	PRP	P1_bather
+4-6	plugged	O	O	VBD	O
+4-7	the	O	O	DT	O
+4-8	tub	4-6_dobj	plugged	NN	P1_bathtub
+4-9	and	O	O	O	O
+4-10	began	4-6_conj_and	plugged	VBD	O
+4-11	filling	4-10_xcomp	began	VBG	O
+4-12	it	4-11_dobj	filling	PRP	P1_bathtub
+4-13	with	O	O	O	O
+4-14	warm	O	O	JJ	O
+4-15	water	4-11_prep_with	filling	NN	P1_water
+4-16	set	O	O	VBN	O
+4-17	at	O	O	O	O
+4-18	about	O	O	RB	O
+4-19	98	O	O	CD	O
+4-20	degrees	4-16_prep_at	set	NNS	P1_temperature
+4-21	.	O	O	O	O
+
+#id=5
+#text=While waiting for the tub to fill up , I undressed and closed the bathroom door . 
+5-1	While	5-2_mark	waiting	IN	O
+5-2	waiting	5-11_advcl	undressed	VBG	O
+5-3	for	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	tub	5-2_prep_for	waiting	NN	P1_bathtub
+5-6	to	5-7_aux	fill	TO	O
+5-7	fill	O	O	VB	O
+5-8	up	5-7_prt	fill	RP	O
+5-9	,	O	O	O	O
+5-10	I	5-11_nsubj	undressed	PRP	P1_bather
+5-11	undressed	O	O	VBD	O
+5-12	and	O	O	O	O
+5-13	closed	5-11_conj_and	undressed	VBD	O
+5-14	the	O	O	DT	O
+5-15	bathroom	O	O	NN	O
+5-16	door	5-13_dobj	closed	NN	P1_NPart_door
+5-17	.	O	O	O	O
+
+#id=6
+#text=About 5 minutes later , the tub was filled up and I shut off the water . 
+6-1	About	O	O	RB	O
+6-2	5	O	O	CD	O
+6-3	minutes	O	O	NNS	P1_NPart_minutes
+6-4	later	6-9_advmod	filled	RB	O
+6-5	,	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	tub	6-9_nsubjpass	filled	NN	P1_bathtub
+6-8	was	6-9_auxpass	filled	VBD	O
+6-9	filled	O	O	VBN	O
+6-10	up	6-9_prt	filled	RP	O
+6-11	and	O	O	O	O
+6-12	I	6-13_nsubj	shut	PRP	P1_bather
+6-13	shut	6-9_conj_and	filled	VBD	O
+6-14	off	6-13_prt	shut	RP	O
+6-15	the	O	O	DT	O
+6-16	water	6-13_dobj	shut	NN	P1_water
+6-17	.	O	O	O	O
+
+#id=7
+#text=I briefly tested the water with my elbow and then stepped into the tub to lay down . 
+7-1	I	7-3_nsubj	tested	PRP	P1_bather
+7-2	briefly	7-3_advmod	tested	RB	O
+7-3	tested	O	O	VBD	O
+7-4	the	O	O	DT	O
+7-5	water	7-3_dobj	tested	NN	P1_water
+7-6	with	O	O	O	O
+7-7	my	O	O	PRP$	P1_bather
+7-8	elbow	7-3_prep_with	tested	NN	P1_body_part
+7-9	and	O	O	O	O
+7-10	then	7-11_advmod	stepped	RB	O
+7-11	stepped	7-3_conj_and	tested	VBD	O
+7-12	into	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	tub	7-11_prep_into	stepped	NN	P1_bathtub
+7-15	to	7-16_aux	lay	TO	O
+7-16	lay	7-11_xcomp	stepped	VB	O
+7-17	down	7-16_prt	lay	RP	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=For about 25 minutes , I lay in the tub and relaxed by closing my eyes . 
+8-1	For	O	O	O	O
+8-2	about	O	O	RB	O
+8-3	25	O	O	CD	O
+8-4	minutes	8-7_prep_for	lay	NNS	P2_NPart_minutes
+8-5	,	O	O	O	O
+8-6	I	8-7_nsubj	lay	PRP	P1_bather
+8-7	lay	O	O	VBD	O
+8-8	in	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	tub	8-7_prep_in	lay	NN	P1_bathtub
+8-11	and	O	O	O	O
+8-12	relaxed	8-7_conj_and	lay	VBD	O
+8-13	by	O	O	O	O
+8-14	closing	8-12_prepc_by	relaxed	VBG	O
+8-15	my	O	O	PRP$	P1_bather
+8-16	eyes	8-14_dobj	closing	NNS	P2_body_part
+8-17	.	O	O	O	O
+
+#id=9
+#text=I had also took the time to read pages of a book I had brought with me . 
+9-1	I	9-4_nsubj	took	PRP	P1_bather
+9-2	had	9-4_aux	took	VBD	O
+9-3	also	9-4_advmod	took	RB	O
+9-4	took	O	O	VBD	O
+9-5	the	O	O	DT	O
+9-6	time	9-4_dobj	took	NN	O
+9-7	to	9-8_aux	read	TO	O
+9-8	read	O	O	VB	O
+9-9	pages	9-8_dobj	read	NNS	O
+9-10	of	O	O	O	O
+9-11	a	O	O	DT	O
+9-12	book	O	O	NN	P1_in-bath_entertainment
+9-13	I	9-15_nsubj	brought	PRP	P1_bather
+9-14	had	9-15_aux	brought	VBD	O
+9-15	brought	O	O	VBN	O
+9-16	with	O	O	O	O
+9-17	me	9-15_prep_with	brought	PRP	P1_bather
+9-18	.	O	O	O	O
+
+#id=10
+#text=Once my body was totally relaxed , I took a quick shower to rinse myself off and then drained the tub . 
+10-1	Once	10-6_mark	relaxed	IN	O
+10-2	my	O	O	PRP$	P1_bather
+10-3	body	10-6_nsubjpass	relaxed	NN	P3_body_part
+10-4	was	10-6_auxpass	relaxed	VBD	O
+10-5	totally	10-6_advmod	relaxed	RB	O
+10-6	relaxed	10-9_advcl	took	VBN	O
+10-7	,	O	O	O	O
+10-8	I	10-9_nsubj	took	PRP	P1_bather
+10-9	took	O	O	VBD	O
+10-10	a	O	O	DT	O
+10-11	quick	O	O	JJ	O
+10-12	shower	10-9_dobj	took	NN	O
+10-13	to	10-14_aux	rinse	TO	O
+10-14	rinse	10-9_vmod	took	VB	O
+10-15	myself	10-14_dobj	rinse	PRP	P1_bather
+10-16	off	10-14_prt	rinse	RP	O
+10-17	and	O	O	O	O
+10-18	then	10-19_advmod	drained	RB	O
+10-19	drained	10-9_conj_and	took	VBN	O
+10-20	the	O	O	DT	O
+10-21	tub	10-19_dobj	drained	NN	P1_bathtub
+10-22	.	O	O	O	O
+
+#id=11
+#text=Next , I dried myself off with a towel and put my clothes back on . 
+11-1	Next	11-4_advmod	dried	RB	O
+11-2	,	O	O	O	O
+11-3	I	11-4_nsubj	dried	PRP	P1_bather
+11-4	dried	O	O	VBD	O
+11-5	myself	11-4_dobj	dried	PRP	P1_bather
+11-6	off	11-4_prt	dried	RP	O
+11-7	with	O	O	O	O
+11-8	a	O	O	DT	O
+11-9	towel	11-4_prep_with	dried	NN	P1_towel
+11-10	and	O	O	O	O
+11-11	put	11-4_conj_and	dried	VBD	O
+11-12	my	O	O	PRP$	P1_bather
+11-13	clothes	11-11_dobj	put	NNS	P1_clothes
+11-14	back	11-11_prt	put	RP	O
+11-15	on	11-11_prep	put	IN	O
+11-16	.	O	O	O	O
+
+#id=12
+#text=It was a great relaxing experience after exercising in the cold winter day . 
+12-1	It	O	O	PRP	O
+12-2	was	O	O	VBD	O
+12-3	a	O	O	DT	O
+12-4	great	O	O	JJ	O
+12-5	relaxing	O	O	JJ	O
+12-6	experience	O	O	NN	P1_NPart_experience
+12-7	after	O	O	O	O
+12-8	exercising	O	O	VBG	O
+12-9	in	O	O	O	O
+12-10	the	O	O	DT	O
+12-11	cold	O	O	JJ	O
+12-12	winter	O	O	NN	O
+12-13	day	12-8_prep_in	exercising	NN	P1_NPart_day
+12-14	.	O	O	O	O

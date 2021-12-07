@@ -1,0 +1,330 @@
+#id=1
+#text=I had just watched a movie , and saw that it had been based on a book . 
+1-1	I	1-4_nsubj	watched	PRP	P1_customer
+1-2	had	1-4_aux	watched	VBD	O
+1-3	just	1-4_advmod	watched	RB	O
+1-4	watched	O	O	VBN	O
+1-5	a	O	O	DT	O
+1-6	movie	1-4_dobj	watched	NN	P1_NPart_movie
+1-7	,	O	O	O	O
+1-8	and	O	O	O	O
+1-9	saw	1-4_conj_and	watched	VBD	O
+1-10	that	1-14_mark	based	IN	O
+1-11	it	1-14_nsubjpass	based	PRP	P1_NPart_it
+1-12	had	1-14_aux	based	VBD	O
+1-13	been	1-14_auxpass	based	VBN	O
+1-14	based	1-9_ccomp	saw	VBN	O
+1-15	on	O	O	O	O
+1-16	a	O	O	DT	O
+1-17	book	1-14_prep_on	based	NN	P1_book
+1-18	.	O	O	O	O
+
+#id=2
+#text=Since I liked the movie , I wanted to read the book and went to the library in my neighborhood to see if they had it . 
+2-1	Since	2-3_mark	liked	IN	O
+2-2	I	2-3_nsubj	liked	PRP	P1_customer
+2-3	liked	2-8_advcl	wanted	VBD	O
+2-4	the	O	O	DT	O
+2-5	movie	2-3_dobj	liked	NN	P2_NPart_movie
+2-6	,	O	O	O	O
+2-7	I	2-8_nsubj	wanted	PRP	P1_customer
+2-8	wanted	O	O	VBD	O
+2-9	to	2-10_aux	read	TO	O
+2-10	read	2-8_xcomp	wanted	VB	O
+2-11	the	O	O	DT	O
+2-12	book	2-10_dobj	read	NN	P1_book
+2-13	and	O	O	O	O
+2-14	went	2-8_conj_and	wanted	VBD	O
+2-15	to	O	O	O	O
+2-16	the	O	O	DT	O
+2-17	library	2-14_prep_to	went	NN	P1_library
+2-18	in	O	O	O	O
+2-19	my	O	O	PRP$	P1_customer
+2-20	neighborhood	O	O	NN	P1_NPart_neighborhood
+2-21	to	2-22_aux	see	TO	O
+2-22	see	2-14_xcomp	went	VB	O
+2-23	if	2-25_mark	had	IN	O
+2-24	they	2-25_nsubj	had	PRP	P1_staff
+2-25	had	2-22_advcl	see	VBD	O
+2-26	it	2-25_dobj	had	PRP	P1_book
+2-27	.	O	O	O	O
+
+#id=3
+#text=In the library the books were separated into fiction and non-fiction areas . 
+3-1	In	O	O	O	O
+3-2	the	O	O	DT	O
+3-3	library	3-7_prep_in	separated	NN	P1_library
+3-4	the	O	O	DT	O
+3-5	books	3-7_nsubjpass	separated	NNS	P2_book
+3-6	were	3-7_auxpass	separated	VBD	O
+3-7	separated	O	O	VBN	O
+3-8	into	O	O	O	O
+3-9	fiction	O	O	NN	P1_location_library
+3-10	and	O	O	O	O
+3-11	non-fiction	O	O	NN	O
+3-12	areas	3-7_prep_into	separated	NNS	P2_location_library
+3-13	.	O	O	O	O
+
+#id=4
+#text=Since the story was about something that happened in real life , it would be in the non-fiction area . 
+4-1	Since	4-4_mark	was	IN	O
+4-2	the	O	O	DT	O
+4-3	story	4-4_nsubj	was	NN	P1_book
+4-4	was	4-15_advcl	be	VBD	O
+4-5	about	O	O	O	O
+4-6	something	4-4_prep_about	was	NN	O
+4-7	that	4-8_nsubj	happened	WDT	O
+4-8	happened	O	O	VBD	O
+4-9	in	O	O	O	O
+4-10	real	O	O	JJ	O
+4-11	life	4-8_prep_in	happened	NN	P1_NPart_life
+4-12	,	O	O	O	O
+4-13	it	4-15_nsubj	be	PRP	P1_book
+4-14	would	4-15_aux	be	MD	O
+4-15	be	O	O	VB	O
+4-16	in	O	O	O	O
+4-17	the	O	O	DT	O
+4-18	non-fiction	O	O	JJ	O
+4-19	area	4-15_prep_in	be	NN	P3_location_library
+4-20	.	O	O	O	O
+
+#id=5
+#text=If it were a make-believe story , it would have been in the fiction section . 
+5-1	If	O	O	IN	O
+5-2	it	O	O	PRP	P1_book
+5-3	were	O	O	VBD	O
+5-4	a	O	O	DT	O
+5-5	make-believe	O	O	JJ	O
+5-6	story	5-11_advcl	been	NN	P1_book
+5-7	,	O	O	O	O
+5-8	it	5-11_nsubj	been	PRP	P1_book
+5-9	would	5-11_aux	been	MD	O
+5-10	have	5-11_aux	been	VB	O
+5-11	been	O	O	VBN	O
+5-12	in	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	fiction	O	O	NN	O
+5-15	section	5-11_prep_in	been	NN	P4_location_library
+5-16	.	O	O	O	O
+
+#id=6
+#text=The person who wrote the book had a last name that began with S. I began looking on the shelves for authors with the last name that began with S. All the books were in alphabetical order according to the authors last name . 
+6-1	The	O	O	DT	O
+6-2	person	6-34_nsubj	were	NN	P1_NPart_person
+6-3	who	6-4_nsubj	wrote	WP	O
+6-4	wrote	O	O	VBD	O
+6-5	the	O	O	DT	O
+6-6	book	6-7_nsubj	had	NN	P1_book
+6-7	had	6-4_ccomp	wrote	VBD	O
+6-8	a	O	O	DT	O
+6-9	last	O	O	JJ	O
+6-10	name	6-7_dobj	had	NN	P1_NPart_name
+6-11	that	6-12_nsubj	began	WDT	O
+6-12	began	O	O	VBD	O
+6-13	with	O	O	O	O
+6-14	S.	6-12_prep_with	began	NNP	O
+6-15	I	6-16_nsubj	began	PRP	P1_customer
+6-16	began	6-34_parataxis	were	VBD	O
+6-17	looking	6-16_xcomp	began	VBG	O
+6-18	on	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	shelves	6-17_prep_on	looking	NNS	P1_shelf
+6-21	for	O	O	O	O
+6-22	authors	O	O	NNS	P1_NPart_authors
+6-23	with	O	O	O	O
+6-24	the	O	O	DT	O
+6-25	last	O	O	JJ	O
+6-26	name	6-17_prep_with	looking	NN	P2_NPart_name
+6-27	that	6-28_nsubj	began	WDT	O
+6-28	began	O	O	VBD	O
+6-29	with	O	O	O	O
+6-30	S.	6-28_prep_with	began	NNP	O
+6-31	All	O	O	PDT	O
+6-32	the	O	O	DT	O
+6-33	books	6-34_nsubj	were	NNS	P2_book
+6-34	were	O	O	VBD	O
+6-35	in	O	O	O	O
+6-36	alphabetical	O	O	JJ	O
+6-37	order	6-34_prep_in	were	NN	P1_NPart_order
+6-38	according	O	O	O	O
+6-39	to	6-34_prepc_according_to	were	TO	O
+6-40	the	O	O	DT	O
+6-41	authors	O	O	JJ	P2_NPart_authors
+6-42	last	O	O	JJ	O
+6-43	name	6-34_pobj	were	NN	P3_NPart_name
+6-44	.	O	O	O	O
+
+#id=7
+#text=I found the book I was looking for and took it off the shelf . 
+7-1	I	7-2_nsubj	found	PRP	P1_customer
+7-2	found	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	book	7-2_dobj	found	NN	P1_book
+7-5	I	7-7_nsubj	looking	PRP	P1_customer
+7-6	was	7-7_aux	looking	VBD	O
+7-7	looking	7-2_dep	found	VBG	O
+7-8	for	7-7_prep	looking	IN	O
+7-9	and	O	O	O	O
+7-10	took	7-2_conj_and	found	VBD	O
+7-11	it	7-10_dobj	took	PRP	P1_book
+7-12	off	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	shelf	7-10_prep_off	took	NN	P2_shelf
+7-15	.	O	O	O	O
+
+#id=8
+#text=I brought it to the desk where the librarian was and gave her the book . 
+8-1	I	8-2_nsubj	brought	PRP	P1_customer
+8-2	brought	O	O	VBD	O
+8-3	it	8-2_dobj	brought	PRP	P1_book
+8-4	to	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	desk	8-2_prep_to	brought	NN	P1_check-out_desk
+8-7	where	8-10_advmod	was	WRB	O
+8-8	the	O	O	DT	O
+8-9	librarian	8-10_nsubj	was	NN	P2_staff
+8-10	was	8-2_advcl	brought	VBD	O
+8-11	and	O	O	O	O
+8-12	gave	8-10_conj_and	was	VBD	O
+8-13	her	8-12_iobj	gave	PRP	P2_staff
+8-14	the	O	O	DT	O
+8-15	book	8-12_dobj	gave	NN	P1_book
+8-16	.	O	O	O	O
+
+#id=9
+#text=She asked me for my library card , which gives me permission to borrow books . 
+9-1	She	9-2_nsubj	asked	PRP	P2_staff
+9-2	asked	O	O	VBD	O
+9-3	me	9-2_dobj	asked	PRP	P1_customer
+9-4	for	O	O	O	O
+9-5	my	O	O	PRP$	P1_customer
+9-6	library	O	O	NN	O
+9-7	card	9-2_prep_for	asked	NN	P1_library_card
+9-8	,	O	O	O	O
+9-9	which	9-10_nsubj	gives	WDT	O
+9-10	gives	O	O	VBZ	O
+9-11	me	9-10_iobj	gives	PRP	P1_customer
+9-12	permission	9-10_dobj	gives	NN	P1_NPart_permission
+9-13	to	9-14_aux	borrow	TO	O
+9-14	borrow	9-10_vmod	gives	VB	O
+9-15	books	9-14_dobj	borrow	NNS	P2_book
+9-16	.	O	O	O	O
+
+#id=10
+#text=She entered my information into her computer so she would know who borrowed the book . 
+10-1	She	10-2_nsubj	entered	PRP	P2_staff
+10-2	entered	O	O	VBD	O
+10-3	my	O	O	PRP$	P1_customer
+10-4	information	10-2_dobj	entered	NN	P1_NPart_information
+10-5	into	O	O	O	O
+10-6	her	O	O	PRP$	P2_staff
+10-7	computer	10-2_prep_into	entered	NN	P1_institutional_devices
+10-8	so	10-11_mark	know	IN	O
+10-9	she	10-11_nsubj	know	PRP	P2_staff
+10-10	would	10-11_aux	know	MD	O
+10-11	know	10-2_advcl	entered	VB	O
+10-12	who	10-13_nsubj	borrowed	WP	O
+10-13	borrowed	10-11_ccomp	know	VBD	O
+10-14	the	O	O	DT	O
+10-15	book	10-13_dobj	borrowed	NN	P1_book
+10-16	.	O	O	O	O
+
+#id=11
+#text=She told me the book would be due back in the library in two weeks . 
+11-1	She	11-2_nsubj	told	PRP	P2_staff
+11-2	told	O	O	VBD	O
+11-3	me	11-2_dobj	told	PRP	P1_customer
+11-4	the	O	O	DT	O
+11-5	book	O	O	NN	P1_book
+11-6	would	O	O	MD	O
+11-7	be	O	O	VB	O
+11-8	due	11-2_dep	told	JJ	O
+11-9	back	O	O	RB	O
+11-10	in	O	O	O	O
+11-11	the	O	O	DT	O
+11-12	library	O	O	NN	P1_library
+11-13	in	O	O	O	O
+11-14	two	O	O	CD	O
+11-15	weeks	O	O	NNS	P1_NPart_weeks
+11-16	.	O	O	O	O
+
+#id=12
+#text=If I did n't bring it back by then , I would have to pay the library money for every day the book was late . 
+12-1	If	12-5_mark	bring	IN	O
+12-2	I	12-5_nsubj	bring	PRP	P1_customer
+12-3	did	12-5_aux	bring	VBD	O
+12-4	n't	12-5_neg	bring	RB	O
+12-5	bring	12-13_advcl	have	VB	O
+12-6	it	12-5_dobj	bring	PRP	P1_book
+12-7	back	12-5_prt	bring	RP	O
+12-8	by	12-5_prep	bring	IN	O
+12-9	then	O	O	RB	P1_return_date
+12-10	,	O	O	O	O
+12-11	I	12-13_nsubj	have	PRP	P1_customer
+12-12	would	12-13_aux	have	MD	O
+12-13	have	O	O	VB	O
+12-14	to	12-15_aux	pay	TO	O
+12-15	pay	12-13_xcomp	have	VB	O
+12-16	the	O	O	DT	O
+12-17	library	O	O	NN	P1_library
+12-18	money	12-15_dobj	pay	NN	P1_NPart_money
+12-19	for	O	O	O	O
+12-20	every	O	O	DT	O
+12-21	day	12-15_prep_for	pay	NN	P1_NPart_day
+12-22	the	O	O	DT	O
+12-23	book	O	O	NN	P1_book
+12-24	was	O	O	VBD	O
+12-25	late	O	O	JJ	O
+12-26	.	O	O	O	O
+
+#id=13
+#text=I did n't want to have any late fees , so I made sure I brought it back on time . 
+13-1	I	13-4_nsubj	want	PRP	P1_customer
+13-2	did	13-4_aux	want	VBD	O
+13-3	n't	13-4_neg	want	RB	O
+13-4	want	O	O	VB	O
+13-5	to	13-6_aux	have	TO	O
+13-6	have	13-4_xcomp	want	VB	O
+13-7	any	O	O	DT	O
+13-8	late	O	O	JJ	O
+13-9	fees	13-6_dobj	have	NNS	P1_NPart_fees
+13-10	,	O	O	O	O
+13-11	so	13-4_dep	want	IN	O
+13-12	I	13-13_nsubj	made	PRP	P1_customer
+13-13	made	13-4_parataxis	want	VBD	O
+13-14	sure	13-13_acomp	made	JJ	O
+13-15	I	13-16_nsubj	brought	PRP	P1_customer
+13-16	brought	O	O	VBD	O
+13-17	it	13-16_dobj	brought	PRP	P1_book
+13-18	back	13-16_advmod	brought	RB	O
+13-19	on	O	O	O	O
+13-20	time	13-16_prep_on	brought	NN	O
+13-21	.	O	O	O	O
+
+#id=14
+#text=Since the book belonged to the library , I took good care of it so others could enjoy the book when they borrowed it . 
+14-1	Since	14-4_mark	belonged	IN	O
+14-2	the	O	O	DT	O
+14-3	book	14-4_nsubj	belonged	NN	P1_book
+14-4	belonged	14-10_advcl	took	VBD	O
+14-5	to	O	O	O	O
+14-6	the	O	O	DT	O
+14-7	library	14-4_prep_to	belonged	NN	P1_library
+14-8	,	O	O	O	O
+14-9	I	14-10_nsubj	took	PRP	P1_customer
+14-10	took	O	O	VBD	O
+14-11	good	O	O	JJ	O
+14-12	care	14-10_dobj	took	NN	O
+14-13	of	O	O	O	O
+14-14	it	O	O	PRP	P1_book
+14-15	so	14-18_mark	enjoy	IN	O
+14-16	others	14-18_nsubj	enjoy	NNS	P2_customer
+14-17	could	14-18_aux	enjoy	MD	O
+14-18	enjoy	14-10_advcl	took	VB	O
+14-19	the	O	O	DT	O
+14-20	book	14-18_dobj	enjoy	NN	P1_book
+14-21	when	14-23_advmod	borrowed	WRB	O
+14-22	they	14-23_nsubj	borrowed	PRP	P2_customer
+14-23	borrowed	14-18_advcl	enjoy	VBD	O
+14-24	it	14-23_dobj	borrowed	PRP	P1_book
+14-25	.	O	O	O	O

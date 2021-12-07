@@ -1,0 +1,217 @@
+#id=1
+#text=It had been close to a year since my last trim . 
+1-1	It	O	O	PRP	O
+1-2	had	O	O	VBD	O
+1-3	been	O	O	VBN	O
+1-4	close	O	O	JJ	O
+1-5	to	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	year	O	O	NN	P1_time/date
+1-8	since	O	O	O	O
+1-9	my	O	O	PRP$	P1_customer
+1-10	last	O	O	JJ	O
+1-11	trim	O	O	NN	P1_haircut
+1-12	.	O	O	O	O
+
+#id=2
+#text=I usually make sure I 'm clean if I plan to go to a hairdresser . 
+2-1	I	2-3_nsubj	make	PRP	P1_customer
+2-2	usually	2-3_advmod	make	RB	O
+2-3	make	O	O	VBP	O
+2-4	sure	2-3_acomp	make	JJ	O
+2-5	I	O	O	PRP	P1_customer
+2-6	'm	O	O	VBP	O
+2-7	clean	O	O	JJ	O
+2-8	if	2-10_mark	plan	IN	O
+2-9	I	2-10_nsubj	plan	PRP	P1_customer
+2-10	plan	O	O	VBP	O
+2-11	to	2-12_aux	go	TO	O
+2-12	go	2-10_xcomp	plan	VB	O
+2-13	to	O	O	O	O
+2-14	a	O	O	DT	O
+2-15	hairdresser	2-12_prep_to	go	NN	P1_hairdresser
+2-16	.	O	O	O	O
+
+#id=3
+#text=I jumped in the shower and quickly lathered up . 
+3-1	I	3-2_nsubj	jumped	PRP	P1_customer
+3-2	jumped	O	O	VBD	O
+3-3	in	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	shower	3-2_prep_in	jumped	NN	P1_NPart_shower
+3-6	and	O	O	O	O
+3-7	quickly	3-8_advmod	lathered	RB	O
+3-8	lathered	3-2_conj_and	jumped	VBD	O
+3-9	up	3-8_prt	lathered	RP	O
+3-10	.	O	O	O	O
+
+#id=4
+#text=My hair was pretty clean to begin with , but I wanted to make sure I was clean for sure . 
+4-1	My	O	O	PRP$	P1_customer
+4-2	hair	O	O	NN	P1_hair
+4-3	was	O	O	VBD	O
+4-4	pretty	O	O	RB	O
+4-5	clean	O	O	JJ	O
+4-6	to	4-7_aux	begin	TO	O
+4-7	begin	O	O	VB	O
+4-8	with	4-7_prep	begin	IN	O
+4-9	,	O	O	O	O
+4-10	but	O	O	O	O
+4-11	I	4-12_nsubj	wanted	PRP	P1_customer
+4-12	wanted	O	O	VBD	O
+4-13	to	4-14_aux	make	TO	O
+4-14	make	4-12_xcomp	wanted	VB	O
+4-15	sure	4-14_acomp	make	JJ	O
+4-16	I	O	O	PRP	P1_customer
+4-17	was	O	O	VBD	O
+4-18	clean	O	O	JJ	O
+4-19	for	O	O	O	O
+4-20	sure	O	O	JJ	O
+4-21	.	O	O	O	O
+
+#id=5
+#text=The haircut place takes walk-in appointments , and I waited barely 5 minutes to be seated in a chair . 
+5-1	The	O	O	DT	O
+5-2	haircut	O	O	NN	O
+5-3	place	5-4_nsubj	takes	NN	P1_salon
+5-4	takes	O	O	VBZ	O
+5-5	walk-in	O	O	JJ	O
+5-6	appointments	5-4_dobj	takes	NNS	P1_appointment
+5-7	,	O	O	O	O
+5-8	and	O	O	O	O
+5-9	I	5-10_nsubj	waited	PRP	P1_customer
+5-10	waited	5-4_conj_and	takes	VBD	O
+5-11	barely	5-10_advmod	waited	RB	O
+5-12	5	O	O	CD	O
+5-13	minutes	5-10_dobj	waited	NNS	P2_time/date
+5-14	to	5-16_aux	seated	TO	O
+5-15	be	5-16_auxpass	seated	VB	O
+5-16	seated	5-10_vmod	waited	VBN	O
+5-17	in	O	O	O	O
+5-18	a	O	O	DT	O
+5-19	chair	5-16_prep_in	seated	NN	P1_chair
+5-20	.	O	O	O	O
+
+#id=6
+#text=The attendant was especially nice , and asked how I was , and how I wanted my hair to be done . 
+6-1	The	O	O	DT	O
+6-2	attendant	O	O	NN	P1_staff
+6-3	was	O	O	VBD	O
+6-4	especially	O	O	RB	O
+6-5	nice	O	O	JJ	O
+6-6	,	O	O	O	O
+6-7	and	O	O	O	O
+6-8	asked	O	O	VBD	O
+6-9	how	6-11_advmod	was	WRB	O
+6-10	I	6-11_nsubj	was	PRP	P1_customer
+6-11	was	6-8_dep	asked	VBD	O
+6-12	,	O	O	O	O
+6-13	and	O	O	O	O
+6-14	how	6-16_advmod	wanted	WRB	O
+6-15	I	6-16_nsubj	wanted	PRP	P1_customer
+6-16	wanted	6-11_conj_and	was	VBD	O
+6-17	my	O	O	PRP$	P2_customer
+6-18	hair	6-16_dobj	wanted	NN	P1_hair
+6-19	to	6-21_aux	done	TO	O
+6-20	be	6-21_auxpass	done	VB	O
+6-21	done	O	O	VBN	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=In the summer I usually keep it quite short , so I asked for most of it to be trimmed off . 
+7-1	In	O	O	O	O
+7-2	the	O	O	DT	O
+7-3	summer	7-6_prep_in	keep	NN	P3_time/date
+7-4	I	7-6_nsubj	keep	PRP	P1_customer
+7-5	usually	7-6_advmod	keep	RB	O
+7-6	keep	O	O	VB	O
+7-7	it	O	O	PRP	P1_hair
+7-8	quite	O	O	RB	O
+7-9	short	7-6_xcomp	keep	JJ	O
+7-10	,	O	O	O	O
+7-11	so	7-6_dep	keep	IN	O
+7-12	I	7-13_nsubj	asked	PRP	P1_customer
+7-13	asked	7-6_parataxis	keep	VBD	O
+7-14	for	O	O	O	O
+7-15	most	7-13_prep_for	asked	JJS	O
+7-16	of	O	O	O	O
+7-17	it	O	O	PRP	P1_hair
+7-18	to	7-20_aux	trimmed	TO	O
+7-19	be	7-20_auxpass	trimmed	VB	O
+7-20	trimmed	7-13_xcomp	asked	VBN	O
+7-21	off	7-20_prt	trimmed	RP	O
+7-22	.	O	O	O	O
+
+#id=8
+#text=I asked the hairdresser to go forward with what they thought was best . 
+8-1	I	8-2_nsubj	asked	PRP	P1_customer
+8-2	asked	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	hairdresser	8-12_nsubj	was	NN	P2_hairdresser
+8-5	to	8-6_aux	go	TO	O
+8-6	go	O	O	VB	O
+8-7	forward	8-6_advmod	go	RB	O
+8-8	with	O	O	O	O
+8-9	what	8-11_dobj	thought	WP	O
+8-10	they	8-11_nsubj	thought	PRP	P2_hairdresser
+8-11	thought	8-6_prepc_with	go	VBD	O
+8-12	was	8-2_ccomp	asked	VBD	O
+8-13	best	8-12_advmod	was	RBS	O
+8-14	.	O	O	O	O
+
+#id=9
+#text=I usually ask this because they are trained to judge what appearances would work best for certain people . 
+9-1	I	9-3_nsubj	ask	PRP	P1_customer
+9-2	usually	9-3_advmod	ask	RB	O
+9-3	ask	O	O	VBP	O
+9-4	this	9-3_dobj	ask	DT	O
+9-5	because	O	O	IN	O
+9-6	they	O	O	PRP	P2_hairdresser
+9-7	are	O	O	VBP	O
+9-8	trained	9-3_advcl	ask	JJ	O
+9-9	to	9-10_aux	judge	TO	O
+9-10	judge	O	O	VB	O
+9-11	what	9-14_dobj	work	WP	O
+9-12	appearances	9-14_nsubj	work	NNS	P1_NPart_appearances
+9-13	would	9-14_aux	work	MD	O
+9-14	work	9-10_ccomp	judge	VB	O
+9-15	best	9-14_dobj	work	JJS	O
+9-16	for	O	O	O	O
+9-17	certain	O	O	JJ	O
+9-18	people	O	O	NNS	P3_customer
+9-19	.	O	O	O	O
+
+#id=10
+#text=Overall , it took 15 minutes for the haircut to finish . 
+10-1	Overall	10-4_advmod	took	RB	O
+10-2	,	O	O	O	O
+10-3	it	10-4_nsubj	took	PRP	O
+10-4	took	O	O	VBD	O
+10-5	15	O	O	CD	O
+10-6	minutes	10-4_dobj	took	NNS	P4_time/date
+10-7	for	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	haircut	10-4_prep_for	took	NN	P1_haircut
+10-10	to	10-11_aux	finish	TO	O
+10-11	finish	10-4_vmod	took	VB	O
+10-12	.	O	O	O	O
+
+#id=11
+#text=After a quick dusting off , I was on my way home with a fresh look . 
+11-1	After	O	O	O	O
+11-2	a	O	O	DT	O
+11-3	quick	11-8_prep_after	was	JJ	O
+11-4	dusting	O	O	VBG	O
+11-5	off	11-4_prt	dusting	RP	O
+11-6	,	O	O	O	O
+11-7	I	11-8_nsubj	was	PRP	P1_customer
+11-8	was	O	O	VBD	O
+11-9	on	O	O	O	O
+11-10	my	O	O	PRP$	P1_customer
+11-11	way	O	O	NN	O
+11-12	home	11-8_prep_on	was	NN	O
+11-13	with	O	O	O	O
+11-14	a	O	O	DT	O
+11-15	fresh	O	O	JJ	O
+11-16	look	O	O	NN	P1_other
+11-17	.	O	O	O	O

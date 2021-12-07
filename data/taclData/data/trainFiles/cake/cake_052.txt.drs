@@ -1,0 +1,361 @@
+#id=1
+#text=Yesterday , I decided to bake a cake for my friend 's birthday . 
+1-1	Yesterday	1-4_tmod	decided	NN	P1_NPart_yesterday
+1-2	,	O	O	O	O
+1-3	I	1-4_nsubj	decided	PRP	P1_cook
+1-4	decided	O	O	VBD	O
+1-5	to	1-6_aux	bake	TO	O
+1-6	bake	1-4_xcomp	decided	VB	O
+1-7	a	O	O	DT	O
+1-8	cake	1-6_dobj	bake	NN	P2_cook
+1-9	for	O	O	O	O
+1-10	my	O	O	PRP$	P1_cook
+1-11	friend	O	O	NN	P1_beneficiary
+1-12	's	O	O	O	O
+1-13	birthday	O	O	NN	P1_NPart_birthday
+1-14	.	O	O	O	O
+
+#id=2
+#text=First , I preheated my oven to 350 degrees . 
+2-1	First	2-4_advmod	preheated	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	preheated	PRP	P1_cook
+2-4	preheated	O	O	VBD	O
+2-5	my	O	O	PRP$	P1_cook
+2-6	oven	2-4_dobj	preheated	NN	P1_oven
+2-7	to	O	O	O	O
+2-8	350	O	O	CD	O
+2-9	degrees	2-4_prep_to	preheated	NNS	P1_temperature
+2-10	.	O	O	O	O
+
+#id=3
+#text=I then took a square cake pan out of my cabinet and rubbed butter all over the pan . 
+3-1	I	3-3_nsubj	took	PRP	P1_cook
+3-2	then	3-3_advmod	took	RB	O
+3-3	took	O	O	VBD	O
+3-4	a	O	O	DT	O
+3-5	square	O	O	JJ	O
+3-6	cake	3-3_dobj	took	NN	O
+3-7	pan	3-3_dep	took	VB	P1_cake_tin
+3-8	out	O	O	O	O
+3-9	of	O	O	O	O
+3-10	my	O	O	PRP$	P1_cook
+3-11	cabinet	3-7_prep_out_of	pan	NN	P1_cabinet
+3-12	and	O	O	O	O
+3-13	rubbed	3-3_conj_and	took	VBD	O
+3-14	butter	3-13_dobj	rubbed	NN	P1_ingredients
+3-15	all	3-13_dep	rubbed	DT	O
+3-16	over	O	O	O	O
+3-17	the	O	O	DT	O
+3-18	pan	3-13_prep_over	rubbed	NN	P1_cake_tin
+3-19	.	O	O	O	O
+
+#id=4
+#text=I sprinkled flour in the pan so that the cake would not stick to it . 
+4-1	I	4-2_nsubj	sprinkled	PRP	P1_cook
+4-2	sprinkled	O	O	VBD	O
+4-3	flour	4-2_dobj	sprinkled	NN	P2_ingredients
+4-4	in	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	pan	4-2_prep_in	sprinkled	NN	P1_cake_tin
+4-7	so	4-13_advmod	stick	RB	O
+4-8	that	4-13_mark	stick	IN	O
+4-9	the	O	O	DT	O
+4-10	cake	4-13_nsubj	stick	NN	P1_cake
+4-11	would	4-13_aux	stick	MD	O
+4-12	not	4-13_neg	stick	RB	O
+4-13	stick	4-2_advcl	sprinkled	VB	O
+4-14	to	O	O	O	O
+4-15	it	4-13_prep_to	stick	PRP	P1_cake_tin
+4-16	.	O	O	O	O
+
+#id=5
+#text=I then took a chocolate cake mix that I purchased yesterday at the grocery store out of my food pantry . 
+5-1	I	5-3_nsubj	took	PRP	P1_cook
+5-2	then	5-3_advmod	took	RB	O
+5-3	took	O	O	VBD	O
+5-4	a	O	O	DT	O
+5-5	chocolate	O	O	NN	O
+5-6	cake	O	O	NN	O
+5-7	mix	5-3_dobj	took	NN	P3_ingredients
+5-8	that	5-10_mark	purchased	IN	O
+5-9	I	5-10_nsubj	purchased	PRP	P1_cook
+5-10	purchased	5-3_ccomp	took	VBD	O
+5-11	yesterday	5-10_tmod	purchased	NN	P2_NPart_yesterday
+5-12	at	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	grocery	O	O	NN	O
+5-15	store	5-10_prep_at	purchased	NN	P1_store
+5-16	out	O	O	O	O
+5-17	of	O	O	O	O
+5-18	my	O	O	PRP$	P1_cook
+5-19	food	O	O	NN	O
+5-20	pantry	O	O	NN	P2_cabinet
+5-21	.	O	O	O	O
+
+#id=6
+#text=I opened the cake mix and poured it into a large bowl . 
+6-1	I	6-2_nsubj	opened	PRP	P1_cook
+6-2	opened	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	cake	O	O	NN	O
+6-5	mix	6-2_dobj	opened	NN	P3_ingredients
+6-6	and	O	O	O	O
+6-7	poured	6-2_conj_and	opened	VBD	O
+6-8	it	6-7_dobj	poured	PRP	P3_ingredients
+6-9	into	O	O	O	O
+6-10	a	O	O	DT	O
+6-11	large	O	O	JJ	O
+6-12	bowl	6-7_prep_into	poured	NN	P1_utensil
+6-13	.	O	O	O	O
+
+#id=7
+#text=I measured one cup of water in a measuring cup and poured the water into the bowl with the cake mix . 
+7-1	I	7-2_nsubj	measured	PRP	P1_cook
+7-2	measured	O	O	VBD	O
+7-3	one	O	O	CD	O
+7-4	cup	7-2_dobj	measured	NN	O
+7-5	of	O	O	O	O
+7-6	water	O	O	NN	P4_ingredients
+7-7	in	O	O	O	O
+7-8	a	O	O	DT	O
+7-9	measuring	O	O	NN	O
+7-10	cup	7-2_prep_in	measured	NN	P2_utensil
+7-11	and	O	O	O	O
+7-12	poured	7-2_conj_and	measured	VBD	O
+7-13	the	O	O	DT	O
+7-14	water	7-12_dobj	poured	NN	P4_ingredients
+7-15	into	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	bowl	7-12_prep_into	poured	NN	P1_utensil
+7-18	with	O	O	O	O
+7-19	the	O	O	DT	O
+7-20	cake	O	O	NN	O
+7-21	mix	O	O	NN	P3_ingredients
+7-22	.	O	O	O	O
+
+#id=8
+#text=I then measured one-third cups of vegetable oil and also poured the oil into the cake mix bowl . 
+8-1	I	8-3_nsubj	measured	PRP	P1_cook
+8-2	then	8-3_advmod	measured	RB	O
+8-3	measured	O	O	VBD	O
+8-4	one-third	O	O	JJ	O
+8-5	cups	8-3_dobj	measured	NNS	O
+8-6	of	O	O	O	O
+8-7	vegetable	O	O	NN	O
+8-8	oil	O	O	NN	P5_ingredients
+8-9	and	O	O	O	O
+8-10	also	8-11_advmod	poured	RB	O
+8-11	poured	8-3_conj_and	measured	VBD	O
+8-12	the	O	O	DT	O
+8-13	oil	8-11_dobj	poured	NN	P5_ingredients
+8-14	into	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	cake	O	O	NN	O
+8-17	mix	O	O	NN	O
+8-18	bowl	8-11_prep_into	poured	NN	P1_utensil
+8-19	.	O	O	O	O
+
+#id=9
+#text=I went to my refrigerator and got three eggs out of the carton . 
+9-1	I	9-2_nsubj	went	PRP	P1_cook
+9-2	went	O	O	VBD	O
+9-3	to	O	O	O	O
+9-4	my	O	O	PRP$	P1_cook
+9-5	refrigerator	9-2_prep_to	went	NN	P1_other
+9-6	and	O	O	O	O
+9-7	got	9-2_conj_and	went	VBD	O
+9-8	three	O	O	CD	O
+9-9	eggs	9-7_dobj	got	NNS	P6_ingredients
+9-10	out	O	O	O	O
+9-11	of	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	carton	9-7_prep_out_of	got	NN	P1_NPart_carton
+9-14	.	O	O	O	O
+
+#id=10
+#text=I cracked all three eggs , one at a time , into the bowl . 
+10-1	I	10-2_nsubj	cracked	PRP	P1_cook
+10-2	cracked	O	O	VBD	O
+10-3	all	O	O	DT	O
+10-4	three	O	O	CD	O
+10-5	eggs	10-2_dobj	cracked	NNS	P6_ingredients
+10-6	,	O	O	O	O
+10-7	one	O	O	CD	O
+10-8	at	O	O	O	O
+10-9	a	O	O	DT	O
+10-10	time	O	O	NN	O
+10-11	,	O	O	O	O
+10-12	into	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	bowl	10-2_prep_into	cracked	NN	P1_utensil
+10-15	.	O	O	O	O
+
+#id=11
+#text=I turned on my mixer and mixed the cake mix , water , vegetable oil , and eggs all together in the bowl for about three minutes . 
+11-1	I	11-2_nsubj	turned	PRP	P1_cook
+11-2	turned	O	O	VBN	O
+11-3	on	O	O	O	O
+11-4	my	O	O	PRP$	P1_cook
+11-5	mixer	11-2_prep_on	turned	NN	P3_utensil
+11-6	and	O	O	O	O
+11-7	mixed	11-2_conj_and	turned	VBN	O
+11-8	the	O	O	DT	O
+11-9	cake	O	O	NN	O
+11-10	mix	11-7_dobj	mixed	NN	P3_ingredients
+11-11	,	O	O	O	O
+11-12	water	O	O	NN	P4_ingredients
+11-13	,	O	O	O	O
+11-14	vegetable	O	O	NN	O
+11-15	oil	O	O	NN	P5_ingredients
+11-16	,	O	O	O	O
+11-17	and	O	O	O	O
+11-18	eggs	O	O	NNS	P6_ingredients
+11-19	all	O	O	DT	O
+11-20	together	11-7_advmod	mixed	RB	O
+11-21	in	O	O	O	O
+11-22	the	O	O	DT	O
+11-23	bowl	11-7_prep_in	mixed	NN	P1_utensil
+11-24	for	O	O	O	O
+11-25	about	O	O	RB	O
+11-26	three	O	O	CD	O
+11-27	minutes	11-7_prep_for	mixed	NNS	P1_time
+11-28	.	O	O	O	O
+
+#id=12
+#text=When all the ingredients were fully mixed together and formed a batter , I poured the batter into the square cake pan . 
+12-1	When	12-7_advmod	mixed	WRB	O
+12-2	all	O	O	PDT	O
+12-3	the	O	O	DT	O
+12-4	ingredients	12-7_nsubjpass	mixed	NNS	P7_ingredients
+12-5	were	12-7_auxpass	mixed	VBD	O
+12-6	fully	12-7_advmod	mixed	RB	O
+12-7	mixed	12-15_advcl	poured	VBN	O
+12-8	together	12-7_dep	mixed	RP	O
+12-9	and	O	O	O	O
+12-10	formed	12-7_conj_and	mixed	VBD	O
+12-11	a	O	O	DT	O
+12-12	batter	12-10_dobj	formed	NN	P1_dough
+12-13	,	O	O	O	O
+12-14	I	12-15_nsubj	poured	PRP	P1_cook
+12-15	poured	O	O	VBD	O
+12-16	the	O	O	DT	O
+12-17	batter	12-15_dobj	poured	NN	P1_dough
+12-18	into	O	O	O	O
+12-19	the	O	O	DT	O
+12-20	square	O	O	JJ	O
+12-21	cake	O	O	NN	O
+12-22	pan	12-15_prep_into	poured	NN	P1_cake_tin
+12-23	.	O	O	O	O
+
+#id=13
+#text=Since I had already preheated the oven , I put the pan into the oven . 
+13-1	Since	13-5_mark	preheated	IN	O
+13-2	I	13-5_nsubj	preheated	PRP	P1_cook
+13-3	had	13-5_aux	preheated	VBD	O
+13-4	already	13-5_advmod	preheated	RB	O
+13-5	preheated	13-10_advcl	put	VBN	O
+13-6	the	O	O	DT	O
+13-7	oven	13-5_dobj	preheated	NN	P1_oven
+13-8	,	O	O	O	O
+13-9	I	13-10_nsubj	put	PRP	P1_cook
+13-10	put	O	O	VBD	O
+13-11	the	O	O	DT	O
+13-12	pan	13-10_dobj	put	NN	P1_cake_tin
+13-13	into	O	O	O	O
+13-14	the	O	O	DT	O
+13-15	oven	13-10_prep_into	put	NN	P1_oven
+13-16	.	O	O	O	O
+
+#id=14
+#text=I let the cake cook for about twenty minutes until it was done . 
+14-1	I	14-2_nsubj	let	PRP	P1_cook
+14-2	let	O	O	VBD	O
+14-3	the	O	O	DT	O
+14-4	cake	O	O	NN	P1_cake
+14-5	cook	14-2_dobj	let	NN	O
+14-6	for	O	O	O	O
+14-7	about	O	O	RB	O
+14-8	twenty	O	O	CD	O
+14-9	minutes	14-13_dep	done	NNS	P2_time
+14-10	until	14-13_mark	done	IN	O
+14-11	it	14-13_nsubjpass	done	PRP	P1_cake
+14-12	was	14-13_auxpass	done	VBD	O
+14-13	done	O	O	VBN	O
+14-14	.	O	O	O	O
+
+#id=15
+#text=I took the cake out of the oven and let it cool . 
+15-1	I	15-2_nsubj	took	PRP	P1_cook
+15-2	took	O	O	VBD	O
+15-3	the	O	O	DT	O
+15-4	cake	15-2_dobj	took	NN	P1_cake
+15-5	out	O	O	O	O
+15-6	of	O	O	O	O
+15-7	the	O	O	DT	O
+15-8	oven	15-2_prep_out_of	took	NN	P1_oven
+15-9	and	O	O	O	O
+15-10	let	15-2_conj_and	took	VBD	O
+15-11	it	O	O	PRP	P1_cake
+15-12	cool	15-10_xcomp	let	JJ	O
+15-13	.	O	O	O	O
+
+#id=16
+#text=After about thirty minutes , I opened a can of vanilla frosting and spread the frosting across the top of the cake . 
+16-1	After	O	O	O	O
+16-2	about	O	O	RB	O
+16-3	thirty	O	O	CD	O
+16-4	minutes	16-7_prep_after	opened	NNS	P3_time
+16-5	,	O	O	O	O
+16-6	I	16-7_nsubj	opened	PRP	P1_cook
+16-7	opened	O	O	VBD	O
+16-8	a	O	O	DT	O
+16-9	can	16-7_dobj	opened	NN	P1_NPart_can
+16-10	of	O	O	O	O
+16-11	vanilla	O	O	NN	O
+16-12	frosting	O	O	NN	P8_ingredients
+16-13	and	O	O	O	O
+16-14	spread	16-7_conj_and	opened	VBD	O
+16-15	the	O	O	DT	O
+16-16	frosting	16-14_dobj	spread	NN	P8_ingredients
+16-17	across	O	O	O	O
+16-18	the	O	O	DT	O
+16-19	top	16-14_prep_across	spread	NN	P1_NPart_top
+16-20	of	O	O	O	O
+16-21	the	O	O	DT	O
+16-22	cake	O	O	NN	P1_cake
+16-23	.	O	O	O	O
+
+#id=17
+#text=Finally , I placed some birthday candles on the cake to celebrate my friend 's birthday . 
+17-1	Finally	17-4_advmod	placed	RB	O
+17-2	,	O	O	O	O
+17-3	I	17-4_nsubj	placed	PRP	P1_cook
+17-4	placed	O	O	VBD	O
+17-5	some	O	O	DT	O
+17-6	birthday	O	O	NN	O
+17-7	candles	17-4_dobj	placed	NNS	P1_decoration
+17-8	on	O	O	O	O
+17-9	the	O	O	DT	O
+17-10	cake	17-4_prep_on	placed	NN	P1_cake
+17-11	to	17-12_aux	celebrate	TO	O
+17-12	celebrate	17-4_vmod	placed	VB	O
+17-13	my	O	O	PRP$	P1_cook
+17-14	friend	O	O	NN	P1_beneficiary
+17-15	's	O	O	O	O
+17-16	birthday	17-12_dobj	celebrate	NN	P2_NPart_birthday
+17-17	.	O	O	O	O
+
+#id=18
+#text=Today , we ate the cake and it was delicious ! 
+18-1	Today	18-4_tmod	ate	NN	P1_NPart_today
+18-2	,	O	O	O	O
+18-3	we	18-4_nsubj	ate	PRP	P2_beneficiary
+18-4	ate	O	O	VBD	O
+18-5	the	O	O	DT	O
+18-6	cake	18-4_dobj	ate	NN	P1_cake
+18-7	and	O	O	O	O
+18-8	it	O	O	PRP	P1_cake
+18-9	was	O	O	VBD	O
+18-10	delicious	18-4_conj_and	ate	JJ	O
+18-11	!	O	O	O	O

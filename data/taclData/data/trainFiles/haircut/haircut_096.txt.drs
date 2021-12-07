@@ -1,0 +1,223 @@
+#id=1
+#text=It has been six months since I got my hair cut . 
+1-1	It	O	O	PRP	O
+1-2	has	O	O	VBZ	O
+1-3	been	O	O	VBN	O
+1-4	six	O	O	CD	O
+1-5	months	O	O	NNS	P1_NPart_months
+1-6	since	1-8_mark	got	IN	O
+1-7	I	1-8_nsubj	got	PRP	P1_customer
+1-8	got	O	O	VBD	O
+1-9	my	O	O	PRP$	P1_customer
+1-10	hair	O	O	NN	O
+1-11	cut	1-8_dobj	got	NN	O
+1-12	.	O	O	O	O
+
+#id=2
+#text=I usually get it cut really short and let it grow out to be shaggy . 
+2-1	I	2-3_nsubj	get	PRP	P1_customer
+2-2	usually	2-3_advmod	get	RB	O
+2-3	get	O	O	VBP	O
+2-4	it	2-5_nsubj	cut	PRP	P1_hair
+2-5	cut	2-3_ccomp	get	VB	O
+2-6	really	O	O	RB	O
+2-7	short	2-5_acomp	cut	JJ	O
+2-8	and	O	O	O	O
+2-9	let	2-5_conj_and	cut	VB	O
+2-10	it	2-11_nsubj	grow	PRP	P1_hair
+2-11	grow	2-9_ccomp	let	VB	O
+2-12	out	2-11_prt	grow	RP	O
+2-13	to	O	O	TO	O
+2-14	be	O	O	VB	O
+2-15	shaggy	2-11_xcomp	grow	JJ	O
+2-16	.	O	O	O	O
+
+#id=3
+#text=I usually just go to whichever local salon is closest , and I do n't have a regular person who usually cuts my hair . 
+3-1	I	3-4_nsubj	go	PRP	P1_customer
+3-2	usually	3-4_advmod	go	RB	O
+3-3	just	3-4_advmod	go	RB	O
+3-4	go	O	O	VBP	O
+3-5	to	O	O	O	O
+3-6	whichever	O	O	WDT	O
+3-7	local	O	O	JJ	O
+3-8	salon	O	O	NN	P1_salon
+3-9	is	O	O	VBZ	O
+3-10	closest	3-4_ccomp	go	JJS	O
+3-11	,	O	O	O	O
+3-12	and	O	O	O	O
+3-13	I	3-16_nsubj	have	PRP	P1_customer
+3-14	do	3-16_aux	have	VBP	O
+3-15	n't	3-16_neg	have	RB	O
+3-16	have	3-4_conj_and	go	VB	O
+3-17	a	O	O	DT	O
+3-18	regular	O	O	JJ	O
+3-19	person	3-16_dobj	have	NN	P1_hairdresser
+3-20	who	3-22_nsubj	cuts	WP	O
+3-21	usually	3-22_advmod	cuts	RB	O
+3-22	cuts	O	O	VBZ	O
+3-23	my	O	O	PRP$	P1_customer
+3-24	hair	3-22_dobj	cuts	NN	P1_hair
+3-25	.	O	O	O	O
+
+#id=4
+#text=I only like to spend about $ 15 each time I go . 
+4-1	I	4-3_nsubj	like	PRP	P1_customer
+4-2	only	4-3_advmod	like	RB	O
+4-3	like	4-12_dep	go	VBP	O
+4-4	to	4-5_aux	spend	TO	O
+4-5	spend	4-3_xcomp	like	VB	O
+4-6	about	O	O	RB	O
+4-7	$	4-5_iobj	spend	$	O
+4-8	15	O	O	CD	P1_bill
+4-9	each	O	O	DT	O
+4-10	time	4-5_dobj	spend	NN	O
+4-11	I	4-12_nsubj	go	PRP	P1_customer
+4-12	go	O	O	VBP	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=Today , I decided get a faded haircut . 
+5-1	Today	5-4_tmod	decided	NN	P1_NPart_today
+5-2	,	O	O	O	O
+5-3	I	5-4_nsubj	decided	PRP	P1_customer
+5-4	decided	O	O	VBD	O
+5-5	get	5-4_xcomp	decided	VB	O
+5-6	a	O	O	DT	O
+5-7	faded	O	O	JJ	O
+5-8	haircut	5-5_dobj	get	NN	P1_haircut
+5-9	.	O	O	O	O
+
+#id=6
+#text=The nearest place only charges $ 10 , so I was pleased with that . 
+6-1	The	O	O	DT	O
+6-2	nearest	O	O	JJS	O
+6-3	place	6-5_nsubj	charges	NN	P2_salon
+6-4	only	6-5_advmod	charges	RB	O
+6-5	charges	O	O	VBZ	O
+6-6	$	6-5_dobj	charges	$	O
+6-7	10	O	O	CD	P2_bill
+6-8	,	O	O	O	O
+6-9	so	6-5_dep	charges	IN	O
+6-10	I	6-12_nsubjpass	pleased	PRP	P1_customer
+6-11	was	6-12_auxpass	pleased	VBD	O
+6-12	pleased	6-5_parataxis	charges	VBN	O
+6-13	with	O	O	O	O
+6-14	that	6-12_prep_with	pleased	DT	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=The lady who helped me was named Sarah , and she talked a lot about the weather and how much she wanted to be outside . 
+7-1	The	O	O	DT	O
+7-2	lady	O	O	NN	P2_hairdresser
+7-3	who	7-4_nsubj	helped	WP	O
+7-4	helped	O	O	VBD	O
+7-5	me	7-7_nsubjpass	named	PRP	P1_customer
+7-6	was	7-7_auxpass	named	VBD	O
+7-7	named	7-4_dep	helped	VBN	O
+7-8	Sarah	7-7_dobj	named	NNP	P2_hairdresser
+7-9	,	O	O	O	O
+7-10	and	O	O	O	O
+7-11	she	7-12_nsubj	talked	PRP	P2_hairdresser
+7-12	talked	7-7_conj_and	named	VBD	O
+7-13	a	O	O	DT	O
+7-14	lot	7-12_dobj	talked	NN	O
+7-15	about	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	weather	7-12_prep_about	talked	NN	P1_NPart_weather
+7-18	and	O	O	O	O
+7-19	how	O	O	WRB	O
+7-20	much	7-22_dep	wanted	JJ	O
+7-21	she	7-22_nsubj	wanted	PRP	P2_hairdresser
+7-22	wanted	7-7_conj_and	named	VBD	O
+7-23	to	7-24_aux	be	TO	O
+7-24	be	7-22_xcomp	wanted	VB	O
+7-25	outside	7-24_advmod	be	RB	O
+7-26	.	O	O	O	O
+
+#id=8
+#text=She also asked me a lot about my job , and it turns out her husband also works where I work . 
+8-1	She	8-3_nsubj	asked	PRP	P2_hairdresser
+8-2	also	8-3_advmod	asked	RB	O
+8-3	asked	O	O	VBD	O
+8-4	me	O	O	PRP	P1_customer
+8-5	a	O	O	DT	O
+8-6	lot	8-3_xcomp	asked	NN	O
+8-7	about	O	O	O	O
+8-8	my	O	O	PRP$	P1_customer
+8-9	job	O	O	NN	P1_NPart_job
+8-10	,	O	O	O	O
+8-11	and	O	O	O	O
+8-12	it	8-13_nsubj	turns	PRP	O
+8-13	turns	8-3_conj_and	asked	VBZ	O
+8-14	out	8-13_prt	turns	RP	O
+8-15	her	O	O	PRP$	P2_hairdresser
+8-16	husband	8-18_nsubj	works	NN	P1_NPart_husband
+8-17	also	8-18_advmod	works	RB	O
+8-18	works	8-13_ccomp	turns	VBZ	O
+8-19	where	8-21_advmod	work	WRB	O
+8-20	I	8-21_nsubj	work	PRP	P1_customer
+8-21	work	8-18_advcl	works	VBP	O
+8-22	.	O	O	O	O
+
+#id=9
+#text=The haircut took about 15 minutes and she did a pretty good job . 
+9-1	The	O	O	DT	O
+9-2	haircut	9-3_nsubj	took	NN	P1_haircut
+9-3	took	O	O	VBD	O
+9-4	about	O	O	RB	O
+9-5	15	O	O	CD	O
+9-6	minutes	9-3_dobj	took	NNS	P1_time/date
+9-7	and	O	O	O	O
+9-8	she	9-9_nsubj	did	PRP	P2_hairdresser
+9-9	did	9-3_conj_and	took	VBD	O
+9-10	a	O	O	DT	O
+9-11	pretty	O	O	RB	O
+9-12	good	O	O	JJ	O
+9-13	job	9-9_dobj	did	NN	O
+9-14	.	O	O	O	O
+
+#id=10
+#text=It 's just the right length and she cut the back of my hair the way I like most . 
+10-1	It	O	O	PRP	O
+10-2	's	O	O	VBZ	O
+10-3	just	O	O	RB	O
+10-4	the	O	O	DT	O
+10-5	right	O	O	JJ	O
+10-6	length	O	O	NN	P1_other
+10-7	and	O	O	O	O
+10-8	she	10-9_nsubj	cut	PRP	P2_hairdresser
+10-9	cut	O	O	VBD	O
+10-10	the	O	O	DT	O
+10-11	back	10-9_dobj	cut	NN	O
+10-12	of	O	O	O	O
+10-13	my	O	O	PRP$	P1_customer
+10-14	hair	O	O	NN	P1_hair
+10-15	the	O	O	DT	O
+10-16	way	O	O	NN	O
+10-17	I	10-18_nsubj	like	PRP	P1_customer
+10-18	like	O	O	VBP	O
+10-19	most	10-18_advmod	like	RBS	O
+10-20	.	O	O	O	O
+
+#id=11
+#text=I paid her $ 10 and tipped her $ 5 . 
+11-1	I	11-2_nsubj	paid	PRP	P1_customer
+11-2	paid	O	O	VBD	O
+11-3	her	11-2_iobj	paid	PRP	P2_hairdresser
+11-4	$	11-2_dobj	paid	$	O
+11-5	10	O	O	CD	P2_bill
+11-6	and	O	O	O	O
+11-7	tipped	11-2_conj_and	paid	VBD	O
+11-8	her	11-7_dobj	tipped	PRP	P2_hairdresser
+11-9	$	O	O	$	O
+11-10	5	O	O	CD	P1_tip
+11-11	.	O	O	O	O
+
+#id=12
+#text=I left completely satisfied . 
+12-1	I	12-2_nsubj	left	PRP	P1_customer
+12-2	left	O	O	VBD	O
+12-3	completely	O	O	RB	O
+12-4	satisfied	12-2_acomp	left	JJ	O
+12-5	.	O	O	O	O

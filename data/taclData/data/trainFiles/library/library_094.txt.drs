@@ -1,0 +1,218 @@
+#id=1
+#text=In my english class I was recently assigned to read the book brave new world . 
+1-1	In	O	O	O	O
+1-2	my	O	O	PRP$	P1_customer
+1-3	english	O	O	JJ	O
+1-4	class	1-8_prep_in	assigned	NN	P1_NPart_class
+1-5	I	1-8_nsubjpass	assigned	PRP	P1_customer
+1-6	was	1-8_auxpass	assigned	VBD	O
+1-7	recently	1-8_advmod	assigned	RB	O
+1-8	assigned	O	O	VBN	O
+1-9	to	1-10_aux	read	TO	O
+1-10	read	1-8_xcomp	assigned	VB	O
+1-11	the	O	O	DT	O
+1-12	book	1-13_nsubj	brave	NN	P1_book
+1-13	brave	1-10_ccomp	read	VB	O
+1-14	new	O	O	JJ	O
+1-15	world	1-13_dobj	brave	NN	P1_NPart_world
+1-16	.	O	O	O	O
+
+#id=2
+#text=My first idea was to just buy it but when I went to the local bookstore it cost $ 20 . 
+2-1	My	O	O	PRP$	P1_customer
+2-2	first	O	O	JJ	O
+2-3	idea	2-4_nsubj	was	NN	P1_NPart_idea
+2-4	was	O	O	VBD	O
+2-5	to	2-7_aux	buy	TO	O
+2-6	just	2-7_advmod	buy	RB	O
+2-7	buy	2-4_xcomp	was	VB	O
+2-8	it	2-7_dobj	buy	PRP	P1_book
+2-9	but	O	O	O	O
+2-10	when	2-12_advmod	went	WRB	O
+2-11	I	2-12_nsubj	went	PRP	P1_customer
+2-12	went	2-18_advcl	cost	VBD	O
+2-13	to	O	O	O	O
+2-14	the	O	O	DT	O
+2-15	local	O	O	JJ	O
+2-16	bookstore	2-12_prep_to	went	NN	P1_NPart_bookstore
+2-17	it	2-18_nsubj	cost	PRP	P1_book
+2-18	cost	2-4_conj_but	was	VBD	O
+2-19	$	2-18_dobj	cost	$	O
+2-20	20	O	O	CD	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=$ 20 for a book is more than I am willing to pay so I decided to go to the local library . 
+3-1	$	O	O	$	O
+3-2	20	O	O	CD	O
+3-3	for	O	O	O	O
+3-4	a	O	O	DT	O
+3-5	book	O	O	NN	P1_book
+3-6	is	O	O	VBZ	O
+3-7	more	O	O	JJR	O
+3-8	than	O	O	IN	O
+3-9	I	O	O	PRP	P1_customer
+3-10	am	O	O	VBP	O
+3-11	willing	O	O	JJ	O
+3-12	to	3-13_aux	pay	TO	O
+3-13	pay	O	O	VB	O
+3-14	so	3-16_mark	decided	IN	O
+3-15	I	3-16_nsubj	decided	PRP	P1_customer
+3-16	decided	3-13_advcl	pay	VBD	O
+3-17	to	3-18_aux	go	TO	O
+3-18	go	3-16_xcomp	decided	VB	O
+3-19	to	O	O	O	O
+3-20	the	O	O	DT	O
+3-21	local	O	O	JJ	O
+3-22	library	3-18_prep_to	go	NN	P1_library
+3-23	.	O	O	O	O
+
+#id=4
+#text=Calling in ahead to make sure that they did indeed have the book that I wanted , I then headed in the direction of the library . 
+4-1	Calling	4-20_vmod	headed	VBG	O
+4-2	in	4-1_prt	Calling	RP	O
+4-3	ahead	4-1_advmod	Calling	RB	O
+4-4	to	4-5_aux	make	TO	O
+4-5	make	4-1_xcomp	Calling	VB	O
+4-6	sure	4-5_acomp	make	JJ	O
+4-7	that	4-11_mark	have	IN	O
+4-8	they	4-11_nsubj	have	PRP	P1_library
+4-9	did	4-11_aux	have	VBD	O
+4-10	indeed	4-11_advmod	have	RB	O
+4-11	have	4-5_ccomp	make	VB	O
+4-12	the	O	O	DT	O
+4-13	book	4-11_dobj	have	NN	P1_book
+4-14	that	4-16_mark	wanted	IN	O
+4-15	I	4-16_nsubj	wanted	PRP	P1_customer
+4-16	wanted	4-11_ccomp	have	VBD	O
+4-17	,	O	O	O	O
+4-18	I	4-20_nsubj	headed	PRP	P1_customer
+4-19	then	4-20_advmod	headed	RB	O
+4-20	headed	O	O	VBD	O
+4-21	in	O	O	O	O
+4-22	the	O	O	DT	O
+4-23	direction	4-20_prep_in	headed	NN	P1_NPart_direction
+4-24	of	O	O	O	O
+4-25	the	O	O	DT	O
+4-26	library	O	O	NN	P1_library
+4-27	.	O	O	O	O
+
+#id=5
+#text=When I arrive they had already had the book up front as I requested so that all I had to do was go pick it up . 
+5-1	When	5-3_advmod	arrive	WRB	O
+5-2	I	5-3_nsubj	arrive	PRP	P1_customer
+5-3	arrive	5-22_advcl	was	VBP	O
+5-4	they	5-7_nsubj	had	PRP	P1_library
+5-5	had	5-7_aux	had	VBD	O
+5-6	already	5-7_advmod	had	RB	O
+5-7	had	5-3_ccomp	arrive	VBN	O
+5-8	the	O	O	DT	O
+5-9	book	5-7_dobj	had	NN	P1_book
+5-10	up	O	O	O	O
+5-11	front	5-7_prep_up	had	NN	O
+5-12	as	5-14_mark	requested	IN	O
+5-13	I	5-14_nsubj	requested	PRP	P1_customer
+5-14	requested	5-7_advcl	had	VBD	O
+5-15	so	5-19_advmod	had	RB	O
+5-16	that	5-19_mark	had	IN	O
+5-17	all	5-19_advmod	had	RB	O
+5-18	I	5-19_nsubj	had	PRP	P1_customer
+5-19	had	5-14_advcl	requested	VBD	O
+5-20	to	5-21_aux	do	TO	O
+5-21	do	5-19_xcomp	had	VB	O
+5-22	was	O	O	VBD	O
+5-23	go	5-22_ccomp	was	VB	O
+5-24	pick	5-23_xcomp	go	VB	O
+5-25	it	5-24_dobj	pick	PRP	P1_book
+5-26	up	5-24_prt	pick	RP	O
+5-27	.	O	O	O	O
+
+#id=6
+#text=Or so I thought . 
+6-1	Or	6-4_cc	thought	CC	O
+6-2	so	6-4_mark	thought	IN	O
+6-3	I	6-4_nsubj	thought	PRP	P1_customer
+6-4	thought	O	O	VBD	O
+6-5	.	O	O	O	O
+
+#id=7
+#text=In actuality I had to spend time getting a new library card . 
+7-1	In	O	O	O	O
+7-2	actuality	7-4_prep_in	had	NN	O
+7-3	I	7-4_nsubj	had	PRP	P1_customer
+7-4	had	O	O	VBD	O
+7-5	to	7-6_aux	spend	TO	O
+7-6	spend	7-4_xcomp	had	VB	O
+7-7	time	7-6_dobj	spend	NN	O
+7-8	getting	7-4_xcomp	had	VBG	O
+7-9	a	O	O	DT	O
+7-10	new	O	O	JJ	O
+7-11	library	O	O	NN	O
+7-12	card	7-8_dobj	getting	NN	P1_library_card
+7-13	.	O	O	O	O
+
+#id=8
+#text=The librarian walked me through the process while also giving me a little background on the book I was about to read . 
+8-1	The	O	O	DT	O
+8-2	librarian	8-3_nsubj	walked	NN	P1_staff
+8-3	walked	O	O	VBD	O
+8-4	me	8-3_dobj	walked	PRP	P1_customer
+8-5	through	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	process	8-3_prep_through	walked	NN	P1_NPart_process
+8-8	while	8-10_mark	giving	IN	O
+8-9	also	8-10_advmod	giving	RB	O
+8-10	giving	8-3_advcl	walked	VBG	O
+8-11	me	8-10_iobj	giving	PRP	P1_customer
+8-12	a	O	O	DT	O
+8-13	little	O	O	JJ	O
+8-14	background	8-10_dobj	giving	NN	P1_NPart_background
+8-15	on	O	O	O	O
+8-16	the	O	O	DT	O
+8-17	book	O	O	NN	P1_book
+8-18	I	O	O	PRP	P1_customer
+8-19	was	O	O	VBD	O
+8-20	about	O	O	IN	O
+8-21	to	8-22_aux	read	TO	O
+8-22	read	O	O	VB	O
+8-23	.	O	O	O	O
+
+#id=9
+#text=After I had gotten my new library card I simply gave it to the librarian and she checked out the book for me . 
+9-1	After	9-4_mark	gotten	IN	O
+9-2	I	9-4_nsubj	gotten	PRP	P1_customer
+9-3	had	9-4_aux	gotten	VBD	O
+9-4	gotten	9-11_advcl	gave	VBN	O
+9-5	my	O	O	PRP$	P1_customer
+9-6	new	O	O	JJ	O
+9-7	library	O	O	NN	O
+9-8	card	9-4_dobj	gotten	NN	P1_library_card
+9-9	I	9-11_nsubj	gave	PRP	P1_customer
+9-10	simply	9-11_advmod	gave	RB	O
+9-11	gave	O	O	VBD	O
+9-12	it	9-11_dobj	gave	PRP	P1_library_card
+9-13	to	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	librarian	9-11_prep_to	gave	NN	P1_staff
+9-16	and	O	O	O	O
+9-17	she	9-18_nsubj	checked	PRP	P2_library_card
+9-18	checked	9-11_conj_and	gave	VBD	O
+9-19	out	9-18_prt	checked	RP	O
+9-20	the	O	O	DT	O
+9-21	book	9-18_dobj	checked	NN	P1_book
+9-22	for	O	O	O	O
+9-23	me	O	O	PRP	P1_customer
+9-24	.	O	O	O	O
+
+#id=10
+#text=Now it is time to dig in to this novel 
+10-1	Now	O	O	RB	O
+10-2	it	O	O	PRP	O
+10-3	is	O	O	VBZ	O
+10-4	time	O	O	NN	P1_NPart_time
+10-5	to	10-6_aux	dig	TO	O
+10-6	dig	O	O	VB	O
+10-7	in	10-6_prep	dig	IN	O
+10-8	to	O	O	TO	O
+10-9	this	O	O	DT	O
+10-10	novel	O	O	NN	P1_book

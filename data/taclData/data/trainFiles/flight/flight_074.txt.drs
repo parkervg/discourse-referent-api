@@ -1,0 +1,198 @@
+#id=1
+#text=My younger brother was turning twenty-one last month , and the family decided on a trip to Las Vegas . 
+1-1	My	O	O	PRP$	P1_passenger
+1-2	younger	O	O	JJ	O
+1-3	brother	1-5_nsubj	turning	NN	P2_passenger
+1-4	was	1-5_aux	turning	VBD	O
+1-5	turning	O	O	VBG	O
+1-6	twenty-one	O	O	JJ	O
+1-7	last	O	O	JJ	O
+1-8	month	1-5_tmod	turning	NN	P1_NPart_month
+1-9	,	O	O	O	O
+1-10	and	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	family	1-13_nsubj	decided	NN	P3_passenger
+1-13	decided	1-5_conj_and	turning	VBD	O
+1-14	on	O	O	O	O
+1-15	a	O	O	DT	O
+1-16	trip	1-13_prep_on	decided	NN	P1_NPart_trip
+1-17	to	O	O	O	O
+1-18	Las	O	O	NNP	O
+1-19	Vegas	1-13_prep_to	decided	NNP	P1_target_location
+1-20	.	O	O	O	O
+
+#id=2
+#text=We packed our things , and had our grandmother drive us to the airport . 
+2-1	We	2-2_nsubj	packed	PRP	P3_passenger
+2-2	packed	O	O	VBD	O
+2-3	our	O	O	PRP$	P3_passenger
+2-4	things	2-2_dobj	packed	NNS	P1_carry_on_luggage
+2-5	,	O	O	O	O
+2-6	and	O	O	O	O
+2-7	had	2-2_conj_and	packed	VBD	O
+2-8	our	O	O	PRP$	P3_passenger
+2-9	grandmother	2-10_nsubj	drive	NN	P1_accomp_person
+2-10	drive	2-7_ccomp	had	VB	O
+2-11	us	2-10_dobj	drive	PRP	P3_passenger
+2-12	to	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	airport	2-10_prep_to	drive	NN	P1_airport
+2-15	.	O	O	O	O
+
+#id=3
+#text=We had already purchased tickets online , so we went straight to the gates to find the waiting area for out flight . 
+3-1	We	3-4_nsubj	purchased	PRP	P3_passenger
+3-2	had	3-4_aux	purchased	VBD	O
+3-3	already	3-4_advmod	purchased	RB	O
+3-4	purchased	O	O	VBN	O
+3-5	tickets	3-4_prep	purchased	NN	P2_airport
+3-6	online	O	O	NN	O
+3-7	,	O	O	O	O
+3-8	so	3-4_dep	purchased	IN	O
+3-9	we	3-10_nsubj	went	PRP	P3_passenger
+3-10	went	3-4_parataxis	purchased	VBD	O
+3-11	straight	3-10_advmod	went	RB	O
+3-12	to	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	gates	3-10_prep_to	went	NNS	P1_terminal/gate
+3-15	to	3-16_aux	find	TO	O
+3-16	find	3-10_xcomp	went	VB	O
+3-17	the	O	O	DT	O
+3-18	waiting	O	O	VBG	O
+3-19	area	3-16_dobj	find	NN	P2_terminal/gate
+3-20	for	3-16_prep	find	IN	O
+3-21	out	O	O	IN	P3_passenger
+3-22	flight	O	O	NN	P1_flight
+3-23	.	O	O	O	O
+
+#id=4
+#text=The TSA conducted a minor inspection of out belongings , everything turned out just fine . 
+4-1	The	O	O	DT	O
+4-2	TSA	4-3_nsubj	conducted	NNP	P1_security_check
+4-3	conducted	4-12_ccomp	turned	VBD	O
+4-4	a	O	O	DT	O
+4-5	minor	O	O	JJ	O
+4-6	inspection	4-3_dobj	conducted	NN	P2_security_check
+4-7	of	O	O	O	O
+4-8	out	O	O	NN	P3_passenger
+4-9	belongings	O	O	NNS	P1_personal_belongings
+4-10	,	O	O	O	O
+4-11	everything	4-12_nsubj	turned	NN	O
+4-12	turned	O	O	VBD	O
+4-13	out	4-12_prt	turned	RP	O
+4-14	just	O	O	RB	O
+4-15	fine	4-12_dep	turned	JJ	O
+4-16	.	O	O	O	O
+
+#id=5
+#text=We waited close to fifteen minutes before we were called up for boarding the plane . 
+5-1	We	5-2_nsubj	waited	PRP	P3_passenger
+5-2	waited	O	O	VBD	O
+5-3	close	O	O	O	O
+5-4	to	O	O	O	O
+5-5	fifteen	O	O	CD	O
+5-6	minutes	5-2_prep_close_to	waited	NNS	P1_time/date
+5-7	before	5-10_mark	called	IN	O
+5-8	we	5-10_nsubjpass	called	PRP	P3_passenger
+5-9	were	5-10_auxpass	called	VBD	O
+5-10	called	5-2_advcl	waited	VBN	O
+5-11	up	5-10_prt	called	RP	O
+5-12	for	O	O	O	O
+5-13	boarding	5-10_prepc_for	called	VBG	O
+5-14	the	O	O	DT	O
+5-15	plane	5-13_dobj	boarding	NN	P1_plane
+5-16	.	O	O	O	O
+
+#id=6
+#text=After finding our seats on the passenger jet , we were instructed by the flight attendants what we needed to do in case of emergency , and well as show us how to use out seat belts correctly . 
+6-1	After	O	O	O	O
+6-2	finding	6-12_prepc_after	instructed	VBG	O
+6-3	our	O	O	PRP$	P3_passenger
+6-4	seats	6-2_dobj	finding	NNS	P1_seat
+6-5	on	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	passenger	O	O	NN	O
+6-8	jet	6-2_prep_on	finding	NN	P1_plane
+6-9	,	O	O	O	O
+6-10	we	6-12_nsubjpass	instructed	PRP	P3_passenger
+6-11	were	6-12_auxpass	instructed	VBD	O
+6-12	instructed	O	O	VBN	O
+6-13	by	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	flight	O	O	NN	O
+6-16	attendants	6-12_agent	instructed	NNS	P1_staff
+6-17	what	6-19_dobj	needed	WP	O
+6-18	we	6-19_nsubj	needed	PRP	P3_passenger
+6-19	needed	O	O	VBD	O
+6-20	to	6-21_aux	do	TO	O
+6-21	do	6-19_xcomp	needed	VB	O
+6-22	in	O	O	O	O
+6-23	case	O	O	O	O
+6-24	of	O	O	O	O
+6-25	emergency	6-21_prep_in_case_of	do	NN	P1_safety_instructions
+6-26	,	O	O	O	O
+6-27	and	O	O	O	O
+6-28	well	O	O	RB	O
+6-29	as	6-21_advmod	do	RB	O
+6-30	show	6-21_conj_and	do	VB	O
+6-31	us	6-30_dobj	show	PRP	P3_passenger
+6-32	how	6-34_advmod	use	WRB	O
+6-33	to	6-34_aux	use	TO	O
+6-34	use	6-30_xcomp	show	VB	O
+6-35	out	6-34_prt	use	RP	P3_passenger
+6-36	seat	O	O	NN	O
+6-37	belts	6-34_dobj	use	NNS	P1_seat_belt
+6-38	correctly	6-34_advmod	use	RB	O
+6-39	.	O	O	O	O
+
+#id=7
+#text=We were instructed to turn off out electrical devices during take off . 
+7-1	We	7-3_nsubjpass	instructed	PRP	P3_passenger
+7-2	were	7-3_auxpass	instructed	VBD	O
+7-3	instructed	O	O	VBN	O
+7-4	to	7-5_aux	turn	TO	O
+7-5	turn	7-3_xcomp	instructed	VB	O
+7-6	off	7-5_prt	turn	RP	O
+7-7	out	O	O	O	O
+7-8	electrical	O	O	JJ	O
+7-9	devices	7-5_prep_out	turn	NNS	P2_personal_belongings
+7-10	during	O	O	O	O
+7-11	take	7-5_prepc_during	turn	VB	O
+7-12	off	7-11_prt	take	RP	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=Before we knew it , we were in the sky , thousands of feet above the earth 's surface . 
+8-1	Before	8-3_mark	knew	IN	O
+8-2	we	8-3_nsubj	knew	PRP	P3_passenger
+8-3	knew	8-7_advcl	were	VBD	O
+8-4	it	8-3_dobj	knew	PRP	O
+8-5	,	O	O	O	O
+8-6	we	8-7_nsubj	were	PRP	P3_passenger
+8-7	were	O	O	VBD	O
+8-8	in	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	sky	8-7_prep_in	were	NN	P1_location_airplane
+8-11	,	O	O	O	O
+8-12	thousands	O	O	NNS	O
+8-13	of	O	O	O	O
+8-14	feet	O	O	NNS	P1_NPart_feet
+8-15	above	O	O	O	O
+8-16	the	O	O	DT	O
+8-17	earth	O	O	NN	P1_NPart_earth
+8-18	's	O	O	O	O
+8-19	surface	O	O	NN	P1_NPart_surface
+8-20	.	O	O	O	O
+
+#id=9
+#text=The flight did not have any issues with turbulence . 
+9-1	The	O	O	DT	O
+9-2	flight	9-5_nsubj	have	NN	P1_flight
+9-3	did	9-5_aux	have	VBD	O
+9-4	not	9-5_neg	have	RB	O
+9-5	have	O	O	VB	O
+9-6	any	O	O	DT	O
+9-7	issues	9-5_dobj	have	NNS	P1_NPart_issues
+9-8	with	O	O	O	O
+9-9	turbulence	O	O	NN	P1_other
+9-10	.	O	O	O	O

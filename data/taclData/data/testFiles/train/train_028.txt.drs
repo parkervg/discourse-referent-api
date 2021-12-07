@@ -1,0 +1,229 @@
+#id=1
+#text=The first and only time I have rode on a train was in November 1978 . 
+1-1	The	O	O	DT	O
+1-2	first	O	O	JJ	O
+1-3	and	O	O	O	O
+1-4	only	O	O	JJ	O
+1-5	time	1-12_nsubj	was	NN	P1_NPart_time
+1-6	I	1-8_nsubj	rode	PRP	P1_passenger
+1-7	have	1-8_aux	rode	VBP	O
+1-8	rode	O	O	VBD	O
+1-9	on	O	O	O	O
+1-10	a	O	O	DT	O
+1-11	train	1-8_prep_on	rode	NN	P1_train
+1-12	was	O	O	VBD	O
+1-13	in	O	O	O	O
+1-14	November	1-12_prep_in	was	NNP	P1_NPart_november
+1-15	1978	O	O	CD	O
+1-16	.	O	O	O	O
+
+#id=2
+#text=My family and I traveled to Carbondale Illinois on an Amtrak train for Thanksgiving . 
+2-1	My	O	O	PRP$	P1_passenger
+2-2	family	2-5_nsubj	traveled	NN	P2_passenger
+2-3	and	O	O	O	O
+2-4	I	O	O	PRP	P1_passenger
+2-5	traveled	O	O	VBD	O
+2-6	to	O	O	O	O
+2-7	Carbondale	O	O	NNP	O
+2-8	Illinois	2-5_prep_to	traveled	NNP	P1_destination
+2-9	on	O	O	O	O
+2-10	an	O	O	DT	O
+2-11	Amtrak	O	O	NNP	O
+2-12	train	O	O	NN	P1_train
+2-13	for	O	O	O	O
+2-14	Thanksgiving	2-5_prep_for	traveled	NNP	P1_NPart_thanksgiving
+2-15	.	O	O	O	O
+
+#id=3
+#text=I had a brother who attended Southern Illinois University and we had dinner with his family . 
+3-1	I	3-2_nsubj	had	PRP	P1_passenger
+3-2	had	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	brother	3-2_dobj	had	NN	P1_NPart_brother
+3-5	who	3-6_nsubj	attended	WP	O
+3-6	attended	O	O	VBD	O
+3-7	Southern	O	O	NNP	O
+3-8	Illinois	O	O	NNP	O
+3-9	University	3-6_dobj	attended	NNP	P1_NPart_university
+3-10	and	O	O	O	O
+3-11	we	3-12_nsubj	had	PRP	P3_passenger
+3-12	had	3-2_conj_and	had	VBD	O
+3-13	dinner	3-12_dobj	had	NN	P1_NPart_dinner
+3-14	with	O	O	O	O
+3-15	his	O	O	PRP$	P1_NPart_his
+3-16	family	O	O	NN	P1_NPart_family
+3-17	.	O	O	O	O
+
+#id=4
+#text=The university is located near Carbondale . 
+4-1	The	O	O	DT	O
+4-2	university	4-4_nsubjpass	located	NN	P2_NPart_university
+4-3	is	4-4_auxpass	located	VBZ	O
+4-4	located	O	O	VBN	O
+4-5	near	O	O	O	O
+4-6	Carbondale	4-4_prep_near	located	NNP	P1_destination
+4-7	.	O	O	O	O
+
+#id=5
+#text=I remember the ride being long but smooth . 
+5-1	I	5-2_nsubj	remember	PRP	P1_passenger
+5-2	remember	O	O	VBP	O
+5-3	the	O	O	DT	O
+5-4	ride	O	O	NN	P1_trip
+5-5	being	O	O	VBG	O
+5-6	long	5-2_dep	remember	JJ	O
+5-7	but	O	O	O	O
+5-8	smooth	O	O	JJ	O
+5-9	.	O	O	O	O
+
+#id=6
+#text=My sister and I took turns sitting by the window . 
+6-1	My	O	O	PRP$	P1_passenger
+6-2	sister	6-5_nsubj	took	NN	P4_passenger
+6-3	and	O	O	O	O
+6-4	I	O	O	PRP	P1_passenger
+6-5	took	O	O	VBD	O
+6-6	turns	6-5_ccomp	took	VBZ	O
+6-7	sitting	6-6_xcomp	turns	VBG	O
+6-8	by	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	window	6-7_prep_by	sitting	NN	P1_in-train_entertainment
+6-11	.	O	O	O	O
+
+#id=7
+#text=Sometimes all we saw was cornfields and cattle . 
+7-1	Sometimes	O	O	RB	O
+7-2	all	O	O	DT	O
+7-3	we	7-4_nsubj	saw	PRP	P3_passenger
+7-4	saw	O	O	VBD	O
+7-5	was	O	O	VBD	O
+7-6	cornfields	O	O	NNS	P1_NPart_cornfields
+7-7	and	O	O	O	O
+7-8	cattle	O	O	NNS	P1_NPart_cattle
+7-9	.	O	O	O	O
+
+#id=8
+#text=Occasionally , we would pass a small town and see people at different stops . 
+8-1	Occasionally	8-5_advmod	pass	RB	O
+8-2	,	O	O	O	O
+8-3	we	8-5_nsubj	pass	PRP	P3_passenger
+8-4	would	8-5_aux	pass	MD	O
+8-5	pass	O	O	VB	O
+8-6	a	O	O	DT	O
+8-7	small	O	O	JJ	O
+8-8	town	8-5_dobj	pass	NN	P1_location_train
+8-9	and	O	O	O	O
+8-10	see	8-5_conj_and	pass	VB	O
+8-11	people	8-10_dobj	see	NNS	P1_NPart_people
+8-12	at	O	O	O	O
+8-13	different	O	O	JJ	O
+8-14	stops	8-10_prep_at	see	NNS	P1_train_station
+8-15	.	O	O	O	O
+
+#id=9
+#text=We didn ' t order food on the train because we brought our own . 
+9-1	We	9-2_nsubj	didn	PRP	P3_passenger
+9-2	didn	O	O	VBN	O
+9-3	'	O	O	O	O
+9-4	t	O	O	JJ	O
+9-5	order	O	O	NN	O
+9-6	food	9-2_dobj	didn	NN	P2_in-train_entertainment
+9-7	on	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	train	9-2_prep_on	didn	NN	P1_train
+9-10	because	9-12_mark	brought	IN	O
+9-11	we	9-12_nsubj	brought	PRP	P3_passenger
+9-12	brought	9-2_advcl	didn	VBD	O
+9-13	our	O	O	PRP$	P3_passenger
+9-14	own	9-12_dobj	brought	JJ	P2_in-train_entertainment
+9-15	.	O	O	O	O
+
+#id=10
+#text=We actually had brought cakes , pies and sandwiches to carry us over . 
+10-1	We	10-4_nsubj	brought	PRP	P3_passenger
+10-2	actually	10-4_advmod	brought	RB	O
+10-3	had	10-4_aux	brought	VBD	O
+10-4	brought	O	O	VBN	O
+10-5	cakes	10-4_dobj	brought	NNS	P3_in-train_entertainment
+10-6	,	O	O	O	O
+10-7	pies	O	O	NNS	P4_in-train_entertainment
+10-8	and	O	O	O	O
+10-9	sandwiches	O	O	NNS	P5_in-train_entertainment
+10-10	to	10-11_aux	carry	TO	O
+10-11	carry	10-4_vmod	brought	VB	O
+10-12	us	10-11_dobj	carry	PRP	P3_passenger
+10-13	over	10-11_prt	carry	RP	O
+10-14	.	O	O	O	O
+
+#id=11
+#text=We shared our food with the people around us . 
+11-1	We	11-2_nsubj	shared	PRP	P3_passenger
+11-2	shared	O	O	VBD	O
+11-3	our	O	O	PRP$	P3_passenger
+11-4	food	11-2_dobj	shared	NN	P2_in-train_entertainment
+11-5	with	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	people	11-2_prep_with	shared	NNS	P5_passenger
+11-8	around	O	O	O	O
+11-9	us	11-2_prep_around	shared	PRP	P3_passenger
+11-10	.	O	O	O	O
+
+#id=12
+#text=The whole car sang Christmas carols and there was plenty of laughter . 
+12-1	The	O	O	DT	O
+12-2	whole	O	O	JJ	O
+12-3	car	12-4_nsubj	sang	NN	P6_passenger
+12-4	sang	O	O	VBD	O
+12-5	Christmas	12-6_nsubj	carols	NNP	O
+12-6	carols	12-4_ccomp	sang	VBZ	P6_in-train_entertainment
+12-7	and	O	O	O	O
+12-8	there	O	O	RB	O
+12-9	was	O	O	VBD	O
+12-10	plenty	12-6_conj_and	carols	RB	O
+12-11	of	O	O	O	O
+12-12	laughter	O	O	NN	P7_in-train_entertainment
+12-13	.	O	O	O	O
+
+#id=13
+#text=I would love to take a train vacation and travel from the West coast back to the East coast . 
+13-1	I	13-3_nsubj	love	PRP	P1_passenger
+13-2	would	13-3_aux	love	MD	O
+13-3	love	O	O	VB	O
+13-4	to	13-5_aux	take	TO	O
+13-5	take	13-3_xcomp	love	VB	O
+13-6	a	O	O	DT	O
+13-7	train	O	O	NN	O
+13-8	vacation	13-5_dobj	take	NN	P1_trip
+13-9	and	O	O	O	O
+13-10	travel	13-5_conj_and	take	VB	O
+13-11	from	O	O	O	O
+13-12	the	O	O	DT	O
+13-13	West	O	O	NNP	O
+13-14	coast	13-10_prep_from	travel	NN	P1_NPart_coast
+13-15	back	13-10_advmod	travel	RB	O
+13-16	to	O	O	O	O
+13-17	the	O	O	DT	O
+13-18	East	O	O	NNP	O
+13-19	coast	O	O	NN	P2_destination
+13-20	.	O	O	O	O
+
+#id=14
+#text=When that comes , I think I will eat whatever they are serving on the train . 
+14-1	When	14-3_advmod	comes	WRB	O
+14-2	that	14-3_nsubj	comes	DT	O
+14-3	comes	14-6_advcl	think	VBZ	O
+14-4	,	O	O	O	O
+14-5	I	14-6_nsubj	think	PRP	P1_passenger
+14-6	think	O	O	VBP	O
+14-7	I	14-9_nsubj	eat	PRP	P1_passenger
+14-8	will	14-9_aux	eat	MD	O
+14-9	eat	14-6_ccomp	think	VB	O
+14-10	whatever	14-13_dobj	serving	WDT	P2_in-train_entertainment
+14-11	they	14-13_nsubj	serving	PRP	P1_train_staff
+14-12	are	14-13_aux	serving	VBP	O
+14-13	serving	14-9_ccomp	eat	VBG	O
+14-14	on	O	O	O	O
+14-15	the	O	O	DT	O
+14-16	train	14-13_prep_on	serving	NN	P1_train
+14-17	.	O	O	O	O

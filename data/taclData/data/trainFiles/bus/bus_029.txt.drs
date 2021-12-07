@@ -1,0 +1,194 @@
+#id=1
+#text=Tonight I road on a public bus . 
+1-1	Tonight	O	O	VB	P1_time/date
+1-2	I	O	O	PRP	P1_passenger
+1-3	road	1-1_xcomp	Tonight	NN	O
+1-4	on	O	O	O	O
+1-5	a	O	O	DT	O
+1-6	public	O	O	JJ	O
+1-7	bus	O	O	NN	P1_bus
+1-8	.	O	O	O	O
+
+#id=2
+#text=I waited outside of the store near my house for the bus which runs on a schedule . 
+2-1	I	2-2_nsubj	waited	PRP	P1_passenger
+2-2	waited	O	O	VBD	O
+2-3	outside	2-2_dobj	waited	RB	O
+2-4	of	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	store	O	O	NN	P1_NPart_store
+2-7	near	O	O	O	O
+2-8	my	O	O	PRP$	P2_passenger
+2-9	house	O	O	NN	P1_NPart_house
+2-10	for	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	bus	2-2_prep_for	waited	NN	P1_bus
+2-13	which	2-14_nsubj	runs	WDT	O
+2-14	runs	O	O	VBZ	O
+2-15	on	O	O	O	O
+2-16	a	O	O	DT	O
+2-17	schedule	2-14_prep_on	runs	NN	P1_time-table
+2-18	.	O	O	O	O
+
+#id=3
+#text=Once the bus came I got on and paid the bus fare . 
+3-1	Once	3-4_mark	came	IN	O
+3-2	the	O	O	DT	O
+3-3	bus	3-4_nsubj	came	NN	P1_bus
+3-4	came	3-12_advcl	fare	VBD	O
+3-5	I	3-6_nsubj	got	PRP	P1_passenger
+3-6	got	3-4_ccomp	came	VBD	O
+3-7	on	3-6_prt	got	RP	O
+3-8	and	O	O	O	O
+3-9	paid	3-6_conj_and	got	VBD	O
+3-10	the	O	O	DT	O
+3-11	bus	3-12_nsubj	fare	NN	O
+3-12	fare	O	O	VBP	P1_other
+3-13	.	O	O	O	O
+
+#id=4
+#text=After that I took my seat I looked around at all the other people . 
+4-1	After	4-8_dep	looked	IN	O
+4-2	that	4-4_mark	took	IN	O
+4-3	I	4-4_nsubj	took	PRP	P1_passenger
+4-4	took	O	O	VBD	O
+4-5	my	O	O	PRP$	P1_passenger
+4-6	seat	4-4_dobj	took	NN	P1_seat_in_bus
+4-7	I	4-8_nsubj	looked	PRP	P1_passenger
+4-8	looked	O	O	VBD	O
+4-9	around	4-8_prt	looked	RP	O
+4-10	at	O	O	O	O
+4-11	all	O	O	PDT	O
+4-12	the	O	O	DT	O
+4-13	other	O	O	JJ	O
+4-14	people	4-8_prep_at	looked	NNS	P3_passenger
+4-15	.	O	O	O	O
+
+#id=5
+#text=When you ride on the bus there can be all types of people on the bus with you . 
+5-1	When	5-3_advmod	ride	WRB	O
+5-2	you	5-3_nsubj	ride	PRP	P1_passenger
+5-3	ride	O	O	VBP	O
+5-4	on	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	bus	5-3_prep_on	ride	NN	P1_bus
+5-7	there	O	O	EX	O
+5-8	can	O	O	MD	O
+5-9	be	O	O	VB	O
+5-10	all	O	O	DT	O
+5-11	types	O	O	NNS	O
+5-12	of	O	O	O	O
+5-13	people	O	O	NNS	P3_passenger
+5-14	on	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	bus	O	O	NN	P1_bus
+5-17	with	O	O	O	O
+5-18	you	O	O	PRP	P1_passenger
+5-19	.	O	O	O	O
+
+#id=6
+#text=I had my MP3 player with me with ear-buds so I put my ear-buds into my ears and turned on my MP3 player and began listening to my music . 
+6-1	I	6-2_nsubj	had	PRP	P1_passenger
+6-2	had	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_passenger
+6-4	MP3	O	O	NN	O
+6-5	player	6-2_dobj	had	NN	P1_NPart_player
+6-6	with	O	O	O	O
+6-7	me	6-2_prep_with	had	PRP	P1_passenger
+6-8	with	O	O	O	O
+6-9	ear-buds	O	O	NNS	P1_NPart_ear-buds
+6-10	so	6-12_mark	put	IN	O
+6-11	I	6-12_nsubj	put	PRP	P1_passenger
+6-12	put	6-2_advcl	had	VBD	O
+6-13	my	O	O	PRP$	P1_passenger
+6-14	ear-buds	6-12_dobj	put	NNS	P2_NPart_ear-buds
+6-15	into	O	O	O	O
+6-16	my	O	O	PRP$	P1_passenger
+6-17	ears	6-12_prep_into	put	NNS	P1_NPart_ears
+6-18	and	O	O	O	O
+6-19	turned	6-12_conj_and	put	VBD	O
+6-20	on	O	O	O	O
+6-21	my	O	O	PRP$	P1_passenger
+6-22	MP3	O	O	NN	O
+6-23	player	6-19_prep_on	turned	NN	P2_NPart_player
+6-24	and	O	O	O	O
+6-25	began	6-2_conj_and	had	VBD	O
+6-26	listening	6-25_xcomp	began	VBG	O
+6-27	to	O	O	O	O
+6-28	my	O	O	PRP$	P1_passenger
+6-29	music	6-26_prep_to	listening	NN	P1_NPart_music
+6-30	.	O	O	O	O
+
+#id=7
+#text=My public bus ride was n't very long so after a little while the bus stopped at my stop and I got off the bus and arrived at my destination . 
+7-1	My	O	O	PRP$	P1_passenger
+7-2	public	O	O	JJ	O
+7-3	bus	O	O	NN	P1_bus
+7-4	ride	O	O	NN	P1_ride
+7-5	was	O	O	VBD	O
+7-6	n't	O	O	RB	O
+7-7	very	O	O	RB	O
+7-8	long	O	O	JJ	O
+7-9	so	7-16_mark	stopped	IN	O
+7-10	after	O	O	O	O
+7-11	a	O	O	DT	O
+7-12	little	O	O	JJ	O
+7-13	while	7-16_prep_after	stopped	NN	O
+7-14	the	O	O	DT	O
+7-15	bus	7-16_nsubj	stopped	NN	P1_bus
+7-16	stopped	O	O	VBD	O
+7-17	at	O	O	O	O
+7-18	my	O	O	PRP$	P1_passenger
+7-19	stop	7-16_prep_at	stopped	NN	P1_bus_stop
+7-20	and	O	O	O	O
+7-21	I	7-22_nsubj	got	PRP	P1_passenger
+7-22	got	7-16_conj_and	stopped	VBD	O
+7-23	off	7-22_prt	got	RP	O
+7-24	the	O	O	DT	O
+7-25	bus	7-22_dobj	got	NN	P1_bus
+7-26	and	O	O	O	O
+7-27	arrived	7-22_conj_and	got	VBD	O
+7-28	at	O	O	O	O
+7-29	my	O	O	PRP$	P1_passenger
+7-30	destination	7-27_prep_at	arrived	NN	P1_destination
+7-31	.	O	O	O	O
+
+#id=8
+#text=Riding on a public bus can be a fun experience if you want it to be and you can even talk to the other people on the public bus but overall I had a good experience . 
+8-1	Riding	O	O	VBG	O
+8-2	on	O	O	O	O
+8-3	a	O	O	DT	O
+8-4	public	O	O	JJ	O
+8-5	bus	8-1_prep_on	Riding	NN	P1_bus
+8-6	can	O	O	MD	O
+8-7	be	O	O	VB	O
+8-8	a	O	O	DT	O
+8-9	fun	O	O	NN	O
+8-10	experience	O	O	NN	P1_NPart_experience
+8-11	if	8-13_mark	want	IN	O
+8-12	you	8-13_nsubj	want	PRP	P1_passenger
+8-13	want	O	O	VBP	O
+8-14	it	8-13_dobj	want	PRP	O
+8-15	to	8-16_aux	be	TO	O
+8-16	be	8-13_xcomp	want	VB	O
+8-17	and	O	O	O	O
+8-18	you	8-21_nsubj	talk	PRP	P1_passenger
+8-19	can	8-21_aux	talk	MD	O
+8-20	even	8-21_advmod	talk	RB	O
+8-21	talk	O	O	VB	O
+8-22	to	O	O	O	O
+8-23	the	O	O	DT	O
+8-24	other	O	O	JJ	O
+8-25	people	8-21_prep_to	talk	NNS	P3_passenger
+8-26	on	O	O	O	O
+8-27	the	O	O	DT	O
+8-28	public	O	O	JJ	O
+8-29	bus	O	O	NN	P1_bus
+8-30	but	O	O	O	O
+8-31	overall	8-33_advmod	had	RB	O
+8-32	I	8-33_nsubj	had	PRP	P1_passenger
+8-33	had	O	O	VBD	O
+8-34	a	O	O	DT	O
+8-35	good	O	O	JJ	O
+8-36	experience	8-33_dobj	had	NN	P2_NPart_experience
+8-37	.	O	O	O	O

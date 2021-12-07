@@ -1,0 +1,431 @@
+#id=1
+#text=I waited in the airport until it was time for the passengers to board the plane . 
+1-1	I	1-2_nsubj	waited	PRP	P1_passenger
+1-2	waited	O	O	VBD	O
+1-3	in	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	airport	1-2_prep_in	waited	NN	P1_airport
+1-6	until	O	O	IN	O
+1-7	it	O	O	PRP	O
+1-8	was	O	O	VBD	O
+1-9	time	1-2_advcl	waited	NN	O
+1-10	for	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	passengers	O	O	NNS	P2_passenger
+1-13	to	1-14_aux	board	TO	O
+1-14	board	O	O	VB	O
+1-15	the	O	O	DT	O
+1-16	plane	1-14_dobj	board	NN	P1_plane
+1-17	.	O	O	O	O
+
+#id=2
+#text=I went up with the other passengers and stood in line . 
+2-1	I	2-2_nsubj	went	PRP	P1_passenger
+2-2	went	O	O	VBD	O
+2-3	up	2-2_prt	went	RP	O
+2-4	with	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	other	O	O	JJ	O
+2-7	passengers	2-2_prep_with	went	NNS	P2_passenger
+2-8	and	O	O	O	O
+2-9	stood	2-2_conj_and	went	VBD	O
+2-10	in	O	O	O	O
+2-11	line	2-9_prep_in	stood	NN	O
+2-12	.	O	O	O	O
+
+#id=3
+#text=We all had to show our boarding passes at the gate . 
+3-1	We	3-3_nsubj	had	PRP	P2_passenger
+3-2	all	3-3_advmod	had	DT	O
+3-3	had	O	O	VBD	O
+3-4	to	3-5_aux	show	TO	O
+3-5	show	3-3_xcomp	had	VB	O
+3-6	our	O	O	PRP$	P2_passenger
+3-7	boarding	O	O	VBG	O
+3-8	passes	3-5_dobj	show	NNS	P1_boarding_pass
+3-9	at	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	gate	3-5_prep_at	show	NN	P1_terminal/gate
+3-12	.	O	O	O	O
+
+#id=4
+#text=Once we 'd done that , we were allowed to board a plane . 
+4-1	Once	4-4_mark	done	IN	O
+4-2	we	4-4_nsubj	done	PRP	P2_passenger
+4-3	'd	4-4_aux	done	VBD	O
+4-4	done	4-9_advcl	allowed	VBN	O
+4-5	that	4-4_dobj	done	DT	O
+4-6	,	O	O	O	O
+4-7	we	4-9_nsubjpass	allowed	PRP	P2_passenger
+4-8	were	4-9_auxpass	allowed	VBD	O
+4-9	allowed	O	O	VBN	O
+4-10	to	4-11_aux	board	TO	O
+4-11	board	4-9_xcomp	allowed	VB	O
+4-12	a	O	O	DT	O
+4-13	plane	4-11_dobj	board	NN	P1_plane
+4-14	.	O	O	O	O
+
+#id=5
+#text=We all walked down a short hallway that connected the airport to the plane itself . 
+5-1	We	5-3_nsubj	walked	PRP	P2_passenger
+5-2	all	5-3_advmod	walked	DT	O
+5-3	walked	O	O	VBD	O
+5-4	down	5-3_prt	walked	RP	O
+5-5	a	O	O	DT	O
+5-6	short	O	O	JJ	O
+5-7	hallway	5-3_dobj	walked	NN	P1_other
+5-8	that	5-9_nsubj	connected	WDT	O
+5-9	connected	O	O	VBN	O
+5-10	the	O	O	DT	O
+5-11	airport	O	O	NN	P1_airport
+5-12	to	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	plane	O	O	NN	P1_plane
+5-15	itself	5-9_xcomp	connected	PRP	O
+5-16	.	O	O	O	O
+
+#id=6
+#text=As we walked in the door of the plane , a stewardess and a pilot both said hello to us . 
+6-1	As	6-3_mark	walked	IN	O
+6-2	we	6-3_nsubj	walked	PRP	P2_passenger
+6-3	walked	6-17_advcl	said	VBD	O
+6-4	in	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	door	6-3_prep_in	walked	NN	P2_other
+6-7	of	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	plane	O	O	NN	P1_plane
+6-10	,	O	O	O	O
+6-11	a	O	O	DT	O
+6-12	stewardess	6-17_nsubj	said	NNS	P1_staff
+6-13	and	O	O	O	O
+6-14	a	O	O	DT	O
+6-15	pilot	O	O	NN	P2_staff
+6-16	both	6-17_dep	said	DT	O
+6-17	said	O	O	VBD	O
+6-18	hello	6-17_discourse	said	UH	O
+6-19	to	O	O	O	O
+6-20	us	6-17_prep_to	said	PRP	P2_passenger
+6-21	.	O	O	O	O
+
+#id=7
+#text=I walked down the narrow aisle of the plane until I found my seat number , which was near the plane 's right wing . 
+7-1	I	7-2_nsubj	walked	PRP	P1_passenger
+7-2	walked	O	O	VBD	O
+7-3	down	7-2_prt	walked	RP	O
+7-4	the	O	O	DT	O
+7-5	narrow	O	O	JJ	O
+7-6	aisle	7-2_dobj	walked	NN	P3_other
+7-7	of	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	plane	O	O	NN	P1_plane
+7-10	until	7-12_mark	found	IN	O
+7-11	I	7-12_nsubj	found	PRP	P1_passenger
+7-12	found	7-2_advcl	walked	VBD	O
+7-13	my	O	O	PRP$	P1_passenger
+7-14	seat	O	O	NN	O
+7-15	number	7-12_dobj	found	NN	P4_other
+7-16	,	O	O	O	O
+7-17	which	7-18_nsubj	was	WDT	O
+7-18	was	O	O	VBD	O
+7-19	near	O	O	O	O
+7-20	the	O	O	DT	O
+7-21	plane	O	O	NN	P1_plane
+7-22	's	O	O	O	O
+7-23	right	O	O	JJ	O
+7-24	wing	7-18_prep_near	was	NN	P1_location_airplane_indoor
+7-25	.	O	O	O	O
+
+#id=8
+#text=I put the bag I was carrying in an overhead compartment near my seat and sat down next to the window . 
+8-1	I	8-2_nsubj	put	PRP	P1_passenger
+8-2	put	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	bag	8-2_dobj	put	NN	P1_carry_on_luggage
+8-5	I	8-7_nsubj	carrying	PRP	P1_passenger
+8-6	was	8-7_aux	carrying	VBD	O
+8-7	carrying	8-2_dep	put	VBG	O
+8-8	in	O	O	O	O
+8-9	an	O	O	DT	O
+8-10	overhead	O	O	JJ	O
+8-11	compartment	8-7_prep_in	carrying	NN	P1_storage
+8-12	near	O	O	O	O
+8-13	my	O	O	PRP$	P1_passenger
+8-14	seat	O	O	NN	P1_seat
+8-15	and	O	O	O	O
+8-16	sat	8-2_conj_and	put	VBD	O
+8-17	down	8-16_advmod	sat	RB	O
+8-18	next	O	O	O	O
+8-19	to	O	O	O	O
+8-20	the	O	O	DT	O
+8-21	window	8-16_prep_next_to	sat	NN	P5_other
+8-22	.	O	O	O	O
+
+#id=9
+#text=Soon the plane was taxiing to take off , which means that it was essentially driving to the runway . 
+9-1	Soon	9-5_advmod	taxiing	RB	O
+9-2	the	O	O	DT	O
+9-3	plane	9-5_nsubj	taxiing	NN	P1_plane
+9-4	was	9-5_aux	taxiing	VBD	O
+9-5	taxiing	O	O	VBG	O
+9-6	to	9-7_aux	take	TO	O
+9-7	take	9-5_xcomp	taxiing	VB	O
+9-8	off	9-7_prt	take	RP	O
+9-9	,	O	O	O	O
+9-10	which	9-11_nsubj	means	WDT	O
+9-11	means	9-7_ccomp	take	VBZ	O
+9-12	that	9-16_mark	driving	IN	O
+9-13	it	9-16_nsubj	driving	PRP	P1_plane
+9-14	was	9-16_aux	driving	VBD	O
+9-15	essentially	9-16_advmod	driving	RB	O
+9-16	driving	9-11_ccomp	means	VBG	O
+9-17	to	O	O	O	O
+9-18	the	O	O	DT	O
+9-19	runway	9-16_prep_to	driving	NN	P1_location_airplane
+9-20	.	O	O	O	O
+
+#id=10
+#text=Once there , the plane got the go ahead to take off . 
+10-1	Once	O	O	RB	O
+10-2	there	10-6_advmod	got	RB	O
+10-3	,	O	O	O	O
+10-4	the	O	O	DT	O
+10-5	plane	10-6_nsubj	got	NN	P1_plane
+10-6	got	O	O	VBD	O
+10-7	the	O	O	DT	O
+10-8	go	O	O	NN	O
+10-9	ahead	10-6_advmod	got	RB	O
+10-10	to	10-11_aux	take	TO	O
+10-11	take	10-6_xcomp	got	VB	O
+10-12	off	10-11_prt	take	RP	O
+10-13	.	O	O	O	O
+
+#id=11
+#text=It started going really , really fast , and then suddenly it was off the ground and quickly gaining elevation . 
+11-1	It	11-2_nsubj	started	PRP	P2_seat
+11-2	started	O	O	VBD	O
+11-3	going	11-2_xcomp	started	VBG	O
+11-4	really	O	O	RB	O
+11-5	,	O	O	O	O
+11-6	really	O	O	RB	O
+11-7	fast	11-3_acomp	going	JJ	O
+11-8	,	O	O	O	O
+11-9	and	O	O	O	O
+11-10	then	11-13_advmod	was	RB	O
+11-11	suddenly	11-13_advmod	was	RB	O
+11-12	it	11-13_nsubj	was	PRP	P2_seat
+11-13	was	11-2_conj_and	started	VBD	O
+11-14	off	11-13_dep	was	IN	O
+11-15	the	O	O	DT	O
+11-16	ground	O	O	NN	P2_location_airplane
+11-17	and	O	O	O	O
+11-18	quickly	11-19_advmod	gaining	RB	O
+11-19	gaining	O	O	VBG	O
+11-20	elevation	11-19_dobj	gaining	NN	O
+11-21	.	O	O	O	O
+
+#id=12
+#text=I looked out the window and saw the airport and the neighborhood nearby , the streets and cars and fields all get smaller and smaller , until they did n't look real anymore . 
+12-1	I	12-2_nsubj	looked	PRP	P1_passenger
+12-2	looked	O	O	VBD	O
+12-3	out	12-2_prt	looked	RP	O
+12-4	the	O	O	DT	O
+12-5	window	12-2_dobj	looked	NN	P5_other
+12-6	and	O	O	O	O
+12-7	saw	12-2_conj_and	looked	VBD	O
+12-8	the	O	O	DT	O
+12-9	airport	12-7_dobj	saw	NN	P1_airport
+12-10	and	O	O	O	O
+12-11	the	O	O	DT	O
+12-12	neighborhood	O	O	NN	P1_NPart_neighborhood
+12-13	nearby	O	O	RB	O
+12-14	,	O	O	O	O
+12-15	the	O	O	DT	O
+12-16	streets	O	O	NNS	P1_NPart_streets
+12-17	and	O	O	O	O
+12-18	cars	O	O	NNS	P1_NPart_cars
+12-19	and	O	O	O	O
+12-20	fields	O	O	NNS	P1_NPart_fields
+12-21	all	O	O	DT	O
+12-22	get	O	O	VBP	O
+12-23	smaller	12-2_conj_and	looked	JJR	O
+12-24	and	O	O	O	O
+12-25	smaller	O	O	JJR	O
+12-26	,	O	O	O	O
+12-27	until	12-31_mark	look	IN	O
+12-28	they	12-31_nsubj	look	PRP	P1_NPart_they
+12-29	did	12-31_aux	look	VBD	O
+12-30	n't	12-31_neg	look	RB	O
+12-31	look	O	O	VB	O
+12-32	real	12-31_dobj	look	JJ	O
+12-33	anymore	12-31_advmod	look	RB	O
+12-34	.	O	O	O	O
+
+#id=13
+#text=My flight lasted a few hours . 
+13-1	My	O	O	PRP$	P1_passenger
+13-2	flight	13-3_nsubj	lasted	NN	P1_flight
+13-3	lasted	O	O	VBD	O
+13-4	a	O	O	DT	O
+13-5	few	O	O	JJ	O
+13-6	hours	13-3_dobj	lasted	NNS	P1_time/date
+13-7	.	O	O	O	O
+
+#id=14
+#text=During that time the stewardesses passed around sodas , and people who wanted to eat ordered things like bags of peanuts . 
+14-1	During	O	O	O	O
+14-2	that	O	O	DT	O
+14-3	time	14-6_prep_during	passed	NN	P1_time/date
+14-4	the	O	O	DT	O
+14-5	stewardesses	14-6_nsubj	passed	NNS	P3_staff
+14-6	passed	O	O	VBD	O
+14-7	around	O	O	O	O
+14-8	sodas	14-6_prep_around	passed	NNS	P6_other
+14-9	,	O	O	O	O
+14-10	and	O	O	O	O
+14-11	people	14-16_nsubj	ordered	NNS	P3_passenger
+14-12	who	14-13_nsubj	wanted	WP	O
+14-13	wanted	O	O	VBD	O
+14-14	to	14-15_aux	eat	TO	O
+14-15	eat	14-13_xcomp	wanted	VB	O
+14-16	ordered	14-6_conj_and	passed	VBD	O
+14-17	things	14-16_dobj	ordered	NNS	P7_other
+14-18	like	O	O	O	O
+14-19	bags	14-16_prep_like	ordered	NNS	O
+14-20	of	O	O	O	O
+14-21	peanuts	O	O	NNS	P8_other
+14-22	.	O	O	O	O
+
+#id=15
+#text=I ate a granola bar I 'd taken with me and watched part of a movie that they were showing . 
+15-1	I	15-2_nsubj	ate	PRP	P1_passenger
+15-2	ate	O	O	VBD	O
+15-3	a	O	O	DT	O
+15-4	granola	O	O	NN	O
+15-5	bar	15-2_dobj	ate	NN	P9_other
+15-6	I	15-8_nsubj	taken	PRP	P1_passenger
+15-7	'd	15-8_aux	taken	VBD	O
+15-8	taken	O	O	VBN	O
+15-9	with	O	O	O	O
+15-10	me	15-8_prep_with	taken	PRP	P1_passenger
+15-11	and	O	O	O	O
+15-12	watched	15-8_conj_and	taken	VBN	O
+15-13	part	15-12_dobj	watched	NN	O
+15-14	of	O	O	O	O
+15-15	a	O	O	DT	O
+15-16	movie	O	O	NN	P1_in-flight_entertainment
+15-17	that	15-20_mark	showing	IN	O
+15-18	they	15-20_nsubj	showing	PRP	P4_staff
+15-19	were	15-20_aux	showing	VBD	O
+15-20	showing	15-12_ccomp	watched	VBG	O
+15-21	.	O	O	O	O
+
+#id=16
+#text=Finally it was time to land . 
+16-1	Finally	O	O	RB	O
+16-2	it	O	O	PRP	O
+16-3	was	O	O	VBD	O
+16-4	time	O	O	NN	O
+16-5	to	O	O	O	O
+16-6	land	O	O	NN	O
+16-7	.	O	O	O	O
+
+#id=17
+#text=The plane started to descend , more and more . 
+17-1	The	O	O	DT	O
+17-2	plane	17-3_nsubj	started	NN	P1_plane
+17-3	started	O	O	VBD	O
+17-4	to	O	O	O	O
+17-5	descend	17-3_prep_to	started	NN	O
+17-6	,	O	O	O	O
+17-7	more	17-3_advmod	started	RBR	O
+17-8	and	O	O	O	O
+17-9	more	O	O	RBR	O
+17-10	.	O	O	O	O
+
+#id=18
+#text=Finally its wheels touched the runway . 
+18-1	Finally	18-4_advmod	touched	RB	O
+18-2	its	O	O	PRP$	P1_plane
+18-3	wheels	18-4_nsubj	touched	NNS	P10_other
+18-4	touched	O	O	VBD	O
+18-5	the	O	O	DT	O
+18-6	runway	18-4_dobj	touched	NN	P3_location_airplane
+18-7	.	O	O	O	O
+
+#id=19
+#text=It taxied for a while and then finally came to a stop . 
+19-1	It	19-2_nsubj	taxied	PRP	P1_plane
+19-2	taxied	O	O	VBD	O
+19-3	for	O	O	O	O
+19-4	a	O	O	DT	O
+19-5	while	19-2_prep_for	taxied	NN	P1_NPart_while
+19-6	and	O	O	O	O
+19-7	then	19-9_advmod	came	RB	O
+19-8	finally	19-9_advmod	came	RB	O
+19-9	came	19-2_conj_and	taxied	VBD	O
+19-10	to	O	O	O	O
+19-11	a	O	O	DT	O
+19-12	stop	19-9_prep_to	came	NN	O
+19-13	.	O	O	O	O
+
+#id=20
+#text=People got up and got their bags from the overhead compartments . 
+20-1	People	20-2_nsubj	got	NNS	P4_passenger
+20-2	got	O	O	VBD	O
+20-3	up	20-2_prt	got	RP	O
+20-4	and	O	O	O	O
+20-5	got	20-2_conj_and	got	VBD	O
+20-6	their	O	O	PRP$	P4_passenger
+20-7	bags	20-5_dobj	got	NNS	P2_carry_on_luggage
+20-8	from	O	O	O	O
+20-9	the	O	O	DT	O
+20-10	overhead	O	O	JJ	O
+20-11	compartments	20-5_prep_from	got	NNS	P1_storage
+20-12	.	O	O	O	O
+
+#id=21
+#text=The aisle was very crowded at this point . 
+21-1	The	O	O	DT	O
+21-2	aisle	21-5_nsubjpass	crowded	NN	P3_other
+21-3	was	21-5_auxpass	crowded	VBD	O
+21-4	very	21-5_advmod	crowded	RB	O
+21-5	crowded	O	O	VBN	O
+21-6	at	O	O	O	O
+21-7	this	O	O	DT	O
+21-8	point	21-5_prep_at	crowded	NN	O
+21-9	.	O	O	O	O
+
+#id=22
+#text=When the doors were opened we all got out of the plane and made our way to the airport and , from there , to wherever we all were going . 
+22-1	When	22-5_advmod	opened	WRB	O
+22-2	the	O	O	DT	O
+22-3	doors	22-5_nsubjpass	opened	NNS	P11_other
+22-4	were	22-5_auxpass	opened	VBD	O
+22-5	opened	22-8_advcl	got	VBN	O
+22-6	we	22-5_dobj	opened	PRP	P2_passenger
+22-7	all	22-8_nsubj	got	DT	O
+22-8	got	O	O	VBD	O
+22-9	out	O	O	O	O
+22-10	of	O	O	O	O
+22-11	the	O	O	DT	O
+22-12	plane	22-8_prep_out_of	got	NN	P2_plane
+22-13	and	O	O	O	O
+22-14	made	22-14_conj_and	made	VBD	O
+22-15	our	O	O	PRP$	P2_passenger
+22-16	way	22-14_dobj	made	NN	O
+22-17	to	O	O	O	O
+22-18	the	O	O	DT	O
+22-19	airport	22-14_prep_to	made	NN	P1_target_location
+22-20	and	O	O	O	O
+22-21	,	O	O	O	O
+22-22	from	O	O	O	O
+22-23	there	22-14_prep_from	made	RB	O
+22-24	,	O	O	O	O
+22-25	to	O	O	O	O
+22-26	wherever	22-30_advmod	going	WRB	O
+22-27	we	22-30_nsubj	going	PRP	P2_passenger
+22-28	all	22-30_advmod	going	DT	O
+22-29	were	22-30_aux	going	VBD	O
+22-30	going	22-8_prepc_to	got	VBG	O
+22-31	.	O	O	O	O

@@ -1,0 +1,186 @@
+#id=1
+#text=I walk a few blocks from my home to the local bus stop picking up a newspaper along the way . 
+1-1	I	1-2_nsubj	walk	PRP	P1_passenger
+1-2	walk	O	O	VBP	O
+1-3	a	O	O	DT	O
+1-4	few	O	O	JJ	O
+1-5	blocks	1-2_dobj	walk	NNS	P1_NPart_blocks
+1-6	from	O	O	O	O
+1-7	my	O	O	PRP$	P1_passenger
+1-8	home	O	O	NN	P1_NPart_home
+1-9	to	O	O	O	O
+1-10	the	O	O	DT	O
+1-11	local	O	O	JJ	O
+1-12	bus	O	O	NN	O
+1-13	stop	1-2_prep_to	walk	NN	P1_bus_stop
+1-14	picking	O	O	VBG	O
+1-15	up	1-14_prt	picking	RP	O
+1-16	a	O	O	DT	O
+1-17	newspaper	1-14_dobj	picking	NN	P1_in-bus_entertainment
+1-18	along	O	O	O	O
+1-19	the	O	O	DT	O
+1-20	way	O	O	NN	O
+1-21	.	O	O	O	O
+
+#id=2
+#text=As the bus arrives I prepare to remove money from my wallet for the fare . 
+2-1	As	2-4_mark	arrives	IN	O
+2-2	the	O	O	DT	O
+2-3	bus	2-4_nsubj	arrives	NN	P1_bus
+2-4	arrives	2-6_advcl	prepare	VBZ	O
+2-5	I	2-6_nsubj	prepare	PRP	P1_passenger
+2-6	prepare	O	O	VBP	O
+2-7	to	2-8_aux	remove	TO	O
+2-8	remove	2-6_xcomp	prepare	VB	O
+2-9	money	2-8_dobj	remove	NN	P1_money
+2-10	from	O	O	O	O
+2-11	my	O	O	PRP$	P1_passenger
+2-12	wallet	2-8_prep_from	remove	NN	P1_NPart_wallet
+2-13	for	O	O	O	O
+2-14	the	O	O	DT	O
+2-15	fare	O	O	NN	P2_money
+2-16	.	O	O	O	O
+
+#id=3
+#text=As the bus stops the doors open and I walk up the metal steps and stop to pay my fare to the driver . 
+3-1	As	3-4_mark	stops	IN	O
+3-2	the	O	O	DT	O
+3-3	bus	3-4_nsubj	stops	NN	P1_bus
+3-4	stops	3-14_csubj	steps	VBZ	O
+3-5	the	O	O	DT	O
+3-6	doors	O	O	NNS	P1_door
+3-7	open	3-4_xcomp	stops	JJ	O
+3-8	and	O	O	O	O
+3-9	I	3-10_nsubj	walk	PRP	P1_passenger
+3-10	walk	3-4_conj_and	stops	VBP	O
+3-11	up	3-10_prt	walk	RP	O
+3-12	the	O	O	DT	O
+3-13	metal	3-10_dobj	walk	NN	O
+3-14	steps	O	O	VBZ	P1_NPart_steps
+3-15	and	O	O	O	O
+3-16	stop	3-14_conj_and	steps	VBP	O
+3-17	to	3-18_aux	pay	TO	O
+3-18	pay	3-16_xcomp	stop	VB	O
+3-19	my	O	O	PRP$	P1_passenger
+3-20	fare	3-18_dobj	pay	NN	P2_money
+3-21	to	O	O	O	O
+3-22	the	O	O	DT	O
+3-23	driver	3-18_prep_to	pay	NN	P1_bus_staff
+3-24	.	O	O	O	O
+
+#id=4
+#text=The bus is partially full but with enough seats to choose from I select a window seat . 
+4-1	The	O	O	DT	O
+4-2	bus	O	O	NN	P1_bus
+4-3	is	O	O	VBZ	O
+4-4	partially	O	O	RB	O
+4-5	full	O	O	JJ	O
+4-6	but	O	O	CC	O
+4-7	with	O	O	O	O
+4-8	enough	O	O	JJ	O
+4-9	seats	O	O	NNS	P1_seat_in_bus
+4-10	to	4-11_aux	choose	TO	O
+4-11	choose	O	O	VB	O
+4-12	from	O	O	O	O
+4-13	I	4-14_nsubj	select	PRP	P1_passenger
+4-14	select	4-11_prepc_from	choose	VB	O
+4-15	a	O	O	DT	O
+4-16	window	O	O	NN	O
+4-17	seat	4-14_dobj	select	NN	P1_seat_in_bus
+4-18	.	O	O	O	O
+
+#id=5
+#text=Being a warm day I open the window a crack to get a breeze on me . 
+5-1	Being	O	O	VBG	O
+5-2	a	O	O	DT	O
+5-3	warm	O	O	JJ	O
+5-4	day	5-6_dep	open	NN	P1_NPart_day
+5-5	I	5-6_nsubj	open	PRP	P1_passenger
+5-6	open	O	O	VBP	O
+5-7	the	O	O	DT	O
+5-8	window	O	O	NN	P2_in-bus_entertainment
+5-9	a	O	O	DT	O
+5-10	crack	5-6_xcomp	open	NN	P1_NPart_crack
+5-11	to	5-12_aux	get	TO	O
+5-12	get	O	O	VB	O
+5-13	a	O	O	DT	O
+5-14	breeze	5-12_dobj	get	NN	P1_NPart_breeze
+5-15	on	O	O	O	O
+5-16	me	5-12_prep_on	get	PRP	P1_passenger
+5-17	.	O	O	O	O
+
+#id=6
+#text=During my ride just out of curiosity I check out all of the other passengers before settling down to read my newspaper . 
+6-1	During	O	O	O	O
+6-2	my	O	O	PRP$	P1_passenger
+6-3	ride	6-9_prep_during	check	NN	P1_ride
+6-4	just	O	O	RB	O
+6-5	out	O	O	O	O
+6-6	of	O	O	O	O
+6-7	curiosity	O	O	NN	P1_NPart_curiosity
+6-8	I	6-9_nsubj	check	PRP	P1_passenger
+6-9	check	O	O	VBP	O
+6-10	out	6-9_prt	check	RP	O
+6-11	all	6-9_dobj	check	DT	O
+6-12	of	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	other	O	O	JJ	O
+6-15	passengers	O	O	NNS	P2_passenger
+6-16	before	O	O	O	O
+6-17	settling	6-9_prepc_before	check	VBG	O
+6-18	down	6-17_prt	settling	RP	O
+6-19	to	6-20_aux	read	TO	O
+6-20	read	6-17_xcomp	settling	VB	O
+6-21	my	O	O	PRP$	P1_passenger
+6-22	newspaper	6-20_dobj	read	NN	P1_in-bus_entertainment
+6-23	.	O	O	O	O
+
+#id=7
+#text=I check out the local scores in the sports section first then continue to read the remainder of the paper . 
+7-1	I	7-2_nsubj	check	PRP	P1_passenger
+7-2	check	O	O	VBP	O
+7-3	out	7-2_advmod	check	IN	O
+7-4	the	O	O	DT	O
+7-5	local	O	O	JJ	O
+7-6	scores	O	O	NNS	P3_in-bus_entertainment
+7-7	in	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	sports	O	O	NNS	O
+7-10	section	O	O	NN	P1_NPart_section
+7-11	first	O	O	RB	O
+7-12	then	O	O	RB	O
+7-13	continue	7-2_dep	check	VB	O
+7-14	to	7-15_aux	read	TO	O
+7-15	read	7-13_xcomp	continue	VB	O
+7-16	the	O	O	DT	O
+7-17	remainder	7-15_dobj	read	NN	O
+7-18	of	O	O	O	O
+7-19	the	O	O	DT	O
+7-20	paper	O	O	NN	P1_in-bus_entertainment
+7-21	.	O	O	O	O
+
+#id=8
+#text=As the bus nears my stop I get up and walk to the exit waiting for the door to open then depart . 
+8-1	As	8-4_mark	nears	IN	O
+8-2	the	O	O	DT	O
+8-3	bus	8-4_nsubj	nears	NN	P1_bus
+8-4	nears	8-8_advcl	get	VBZ	O
+8-5	my	O	O	PRP$	P1_passenger
+8-6	stop	8-4_dobj	nears	NN	P1_destination
+8-7	I	8-8_nsubj	get	PRP	P1_passenger
+8-8	get	O	O	VBP	O
+8-9	up	8-8_prt	get	RP	O
+8-10	and	O	O	O	O
+8-11	walk	8-8_conj_and	get	VBP	O
+8-12	to	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	exit	8-11_prep_to	walk	NN	P1_door
+8-15	waiting	O	O	VBG	O
+8-16	for	O	O	O	O
+8-17	the	O	O	DT	O
+8-18	door	8-15_prep_for	waiting	NN	P1_door
+8-19	to	8-22_aux	depart	TO	O
+8-20	open	8-22_advmod	depart	RB	O
+8-21	then	8-22_advmod	depart	RB	O
+8-22	depart	8-15_xcomp	waiting	VB	O
+8-23	.	O	O	O	O

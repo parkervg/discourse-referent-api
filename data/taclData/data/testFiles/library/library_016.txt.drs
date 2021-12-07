@@ -1,0 +1,386 @@
+#id=1
+#text=I had finished reading a very good book , and wanted to get a new one to read . 
+1-1	I	1-3_nsubj	finished	PRP	P1_customer
+1-2	had	1-3_aux	finished	VBD	O
+1-3	finished	O	O	VBN	O
+1-4	reading	1-3_xcomp	finished	VBG	O
+1-5	a	O	O	DT	O
+1-6	very	O	O	RB	O
+1-7	good	O	O	JJ	O
+1-8	book	1-4_dobj	reading	NN	P1_book
+1-9	,	O	O	O	O
+1-10	and	O	O	O	O
+1-11	wanted	1-3_conj_and	finished	VBD	O
+1-12	to	1-13_aux	get	TO	O
+1-13	get	1-11_xcomp	wanted	VB	O
+1-14	a	O	O	DT	O
+1-15	new	O	O	JJ	O
+1-16	one	1-13_dobj	get	NN	P1_book
+1-17	to	1-18_aux	read	TO	O
+1-18	read	1-13_vmod	get	VB	O
+1-19	.	O	O	O	O
+
+#id=2
+#text=I went to the library in my town . 
+2-1	I	2-2_nsubj	went	PRP	P1_customer
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	library	2-2_prep_to	went	NN	P1_library
+2-6	in	O	O	O	O
+2-7	my	O	O	PRP$	P1_customer
+2-8	town	2-2_prep_in	went	NN	P1_NPart_town
+2-9	.	O	O	O	O
+
+#id=3
+#text=They have rows and rows of books , some are old , and some are very new . 
+3-1	They	3-2_nsubj	have	PRP	P1_staff
+3-2	have	O	O	VBP	O
+3-3	rows	3-2_dobj	have	NNS	P1_shelf
+3-4	and	O	O	O	O
+3-5	rows	O	O	NNS	P1_shelf
+3-6	of	O	O	O	O
+3-7	books	O	O	NNS	P2_book
+3-8	,	O	O	O	O
+3-9	some	O	O	DT	P2_book
+3-10	are	O	O	VBP	O
+3-11	old	3-2_dep	have	JJ	O
+3-12	,	O	O	O	O
+3-13	and	O	O	O	O
+3-14	some	O	O	DT	P2_book
+3-15	are	O	O	VBP	O
+3-16	very	O	O	RB	O
+3-17	new	3-2_conj_and	have	JJ	O
+3-18	.	O	O	O	O
+
+#id=4
+#text=I wanted to get a new book that my favorite author had written not too long ago . 
+4-1	I	4-2_nsubj	wanted	PRP	P1_customer
+4-2	wanted	O	O	VBD	O
+4-3	to	4-4_aux	get	TO	O
+4-4	get	4-2_xcomp	wanted	VB	O
+4-5	a	O	O	DT	O
+4-6	new	O	O	JJ	O
+4-7	book	4-4_dobj	get	NN	P1_book
+4-8	that	4-13_mark	written	IN	O
+4-9	my	O	O	PRP$	P1_customer
+4-10	favorite	O	O	JJ	O
+4-11	author	4-13_nsubj	written	NN	P1_NPart_author
+4-12	had	4-13_aux	written	VBD	O
+4-13	written	4-4_ccomp	get	VBN	O
+4-14	not	O	O	RB	O
+4-15	too	O	O	RB	O
+4-16	long	O	O	RB	O
+4-17	ago	4-13_advmod	written	RB	O
+4-18	.	O	O	O	O
+
+#id=5
+#text=I was hoping that they would have it , but it was possible it was on loan to another library patron . 
+5-1	I	5-3_nsubj	hoping	PRP	P1_customer
+5-2	was	5-3_aux	hoping	VBD	O
+5-3	hoping	O	O	VBG	O
+5-4	that	5-7_mark	have	IN	O
+5-5	they	5-7_nsubj	have	PRP	P1_staff
+5-6	would	5-7_aux	have	MD	O
+5-7	have	5-3_ccomp	hoping	VB	O
+5-8	it	5-7_dobj	have	PRP	P1_book
+5-9	,	O	O	O	O
+5-10	but	O	O	O	O
+5-11	it	O	O	PRP	O
+5-12	was	O	O	VBD	O
+5-13	possible	5-3_conj_but	hoping	JJ	O
+5-14	it	5-15_nsubj	was	PRP	P1_book
+5-15	was	O	O	VBD	O
+5-16	on	O	O	O	O
+5-17	loan	5-15_prep_on	was	NN	O
+5-18	to	O	O	O	O
+5-19	another	O	O	DT	O
+5-20	library	O	O	NN	O
+5-21	patron	5-15_prep_to	was	NN	P2_customer
+5-22	.	O	O	O	O
+
+#id=6
+#text=The books in our library are arranged by the author 's last name , so I went to the row of books that matches the authors name . 
+6-1	The	O	O	DT	O
+6-2	books	6-7_nsubjpass	arranged	NNS	P2_book
+6-3	in	O	O	O	O
+6-4	our	O	O	PRP$	P1_customer
+6-5	library	O	O	NN	P1_library
+6-6	are	6-7_auxpass	arranged	VBP	O
+6-7	arranged	O	O	VBN	O
+6-8	by	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	author	O	O	NN	P2_NPart_author
+6-11	's	O	O	O	O
+6-12	last	O	O	JJ	O
+6-13	name	6-7_agent	arranged	NN	P1_NPart_name
+6-14	,	O	O	O	O
+6-15	so	6-7_dep	arranged	IN	O
+6-16	I	6-17_nsubj	went	PRP	P1_customer
+6-17	went	6-7_parataxis	arranged	VBD	O
+6-18	to	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	row	6-17_prep_to	went	NN	P2_shelf
+6-21	of	O	O	O	O
+6-22	books	O	O	NNS	P2_book
+6-23	that	6-24_nsubj	matches	WDT	O
+6-24	matches	O	O	VBZ	O
+6-25	the	O	O	DT	O
+6-26	authors	O	O	NNS	P1_NPart_authors
+6-27	name	6-24_dobj	matches	NN	P2_NPart_name
+6-28	.	O	O	O	O
+
+#id=7
+#text=I found a large section that had many of my favorite author 's books . 
+7-1	I	7-2_nsubj	found	PRP	P1_customer
+7-2	found	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	large	O	O	JJ	O
+7-5	section	7-2_dobj	found	NN	P1_location_library
+7-6	that	7-7_nsubj	had	WDT	O
+7-7	had	O	O	VBD	O
+7-8	many	7-7_dobj	had	JJ	O
+7-9	of	O	O	O	O
+7-10	my	O	O	PRP$	P1_customer
+7-11	favorite	O	O	JJ	O
+7-12	author	O	O	NN	P3_NPart_author
+7-13	's	O	O	O	O
+7-14	books	O	O	NNS	P2_book
+7-15	.	O	O	O	O
+
+#id=8
+#text=I looked carefully for the book I was searching for , and was very excited that it was there on the shelf . 
+8-1	I	8-2_nsubj	looked	PRP	P1_customer
+8-2	looked	O	O	VBD	O
+8-3	carefully	8-2_advmod	looked	RB	O
+8-4	for	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	book	8-2_prep_for	looked	NN	P1_book
+8-7	I	8-9_nsubj	searching	PRP	P1_customer
+8-8	was	8-9_aux	searching	VBD	O
+8-9	searching	O	O	VBG	O
+8-10	for	8-9_prep	searching	IN	O
+8-11	,	O	O	O	O
+8-12	and	O	O	O	O
+8-13	was	O	O	VBD	O
+8-14	very	O	O	RB	O
+8-15	excited	8-9_conj_and	searching	JJ	O
+8-16	that	8-18_mark	was	IN	O
+8-17	it	8-18_nsubj	was	PRP	P1_book
+8-18	was	O	O	VBD	O
+8-19	there	8-18_advmod	was	RB	O
+8-20	on	O	O	O	O
+8-21	the	O	O	DT	O
+8-22	shelf	8-18_prep_on	was	NN	P2_shelf
+8-23	.	O	O	O	O
+
+#id=9
+#text=I was very happy that it was not already checked out . 
+9-1	I	O	O	PRP	P1_customer
+9-2	was	O	O	VBD	O
+9-3	very	O	O	RB	O
+9-4	happy	O	O	JJ	O
+9-5	that	9-10_mark	checked	IN	O
+9-6	it	9-10_nsubjpass	checked	PRP	P1_book
+9-7	was	9-10_auxpass	checked	VBD	O
+9-8	not	9-10_neg	checked	RB	O
+9-9	already	9-10_advmod	checked	RB	O
+9-10	checked	O	O	VBN	O
+9-11	out	9-10_prt	checked	RP	O
+9-12	.	O	O	O	O
+
+#id=10
+#text=I took the book off the shelf , and looked for a while more to see if there were any other books that I wanted to read . 
+10-1	I	10-2_nsubj	took	PRP	P1_customer
+10-2	took	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	book	10-2_dobj	took	NN	P1_book
+10-5	off	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	shelf	10-2_prep_off	took	NN	P2_shelf
+10-8	,	O	O	O	O
+10-9	and	O	O	O	O
+10-10	looked	10-2_conj_and	took	VBD	O
+10-11	for	O	O	O	O
+10-12	a	O	O	DT	O
+10-13	while	O	O	NN	P1_NPart_while
+10-14	more	10-10_prepc_for	looked	RBR	O
+10-15	to	10-16_aux	see	TO	O
+10-16	see	10-10_xcomp	looked	VB	O
+10-17	if	10-19_mark	were	IN	O
+10-18	there	10-19_expl	were	EX	O
+10-19	were	10-16_advcl	see	VBD	O
+10-20	any	O	O	DT	O
+10-21	other	O	O	JJ	O
+10-22	books	10-19_nsubj	were	NNS	P2_book
+10-23	that	10-25_mark	wanted	IN	O
+10-24	I	10-25_nsubj	wanted	PRP	P1_customer
+10-25	wanted	10-19_ccomp	were	VBD	O
+10-26	to	10-27_aux	read	TO	O
+10-27	read	10-25_xcomp	wanted	VB	O
+10-28	.	O	O	O	O
+
+#id=11
+#text=I found one more book that looked really interesting , so I took that one off the shelf as well . 
+11-1	I	11-2_nsubj	found	PRP	P1_customer
+11-2	found	O	O	VBD	O
+11-3	one	O	O	CD	O
+11-4	more	O	O	JJR	O
+11-5	book	11-2_dobj	found	NN	P3_book
+11-6	that	11-7_nsubj	looked	WDT	O
+11-7	looked	O	O	VBD	O
+11-8	really	O	O	RB	O
+11-9	interesting	11-7_acomp	looked	JJ	O
+11-10	,	O	O	O	O
+11-11	so	11-2_dep	found	IN	O
+11-12	I	11-13_nsubj	took	PRP	P1_customer
+11-13	took	11-2_parataxis	found	VBD	O
+11-14	that	O	O	DT	O
+11-15	one	11-13_dobj	took	NN	P3_book
+11-16	off	O	O	O	O
+11-17	the	O	O	DT	O
+11-18	shelf	11-13_prep_off	took	NN	P2_shelf
+11-19	as	O	O	RB	O
+11-20	well	11-13_advmod	took	RB	O
+11-21	.	O	O	O	O
+
+#id=12
+#text=When I was done with my search , I brought my two books to the front desk . 
+12-1	When	12-4_advmod	done	WRB	O
+12-2	I	12-4_nsubjpass	done	PRP	P1_customer
+12-3	was	12-4_auxpass	done	VBD	O
+12-4	done	12-10_advcl	brought	VBN	O
+12-5	with	O	O	O	O
+12-6	my	O	O	PRP$	P1_customer
+12-7	search	12-4_prep_with	done	NN	P1_NPart_search
+12-8	,	O	O	O	O
+12-9	I	12-10_nsubj	brought	PRP	P1_customer
+12-10	brought	O	O	VBD	O
+12-11	my	O	O	PRP$	P1_customer
+12-12	two	O	O	CD	O
+12-13	books	12-10_dobj	brought	NNS	P2_book
+12-14	to	O	O	O	O
+12-15	the	O	O	DT	O
+12-16	front	O	O	JJ	O
+12-17	desk	12-10_prep_to	brought	NN	P1_check-out_desk
+12-18	.	O	O	O	O
+
+#id=13
+#text=The librarian was there to help me check the books out . 
+13-1	The	O	O	DT	O
+13-2	librarian	13-3_nsubj	was	NN	P2_staff
+13-3	was	O	O	VBD	O
+13-4	there	13-3_advmod	was	RB	O
+13-5	to	13-6_aux	help	TO	O
+13-6	help	13-3_xcomp	was	VB	O
+13-7	me	13-8_nsubj	check	PRP	P1_customer
+13-8	check	13-6_ccomp	help	VB	O
+13-9	the	O	O	DT	O
+13-10	books	13-8_dobj	check	NNS	P2_book
+13-11	out	13-8_prt	check	RP	O
+13-12	.	O	O	O	O
+
+#id=14
+#text=She said hello and asked for my library card . 
+14-1	She	14-2_nsubj	said	PRP	P2_staff
+14-2	said	O	O	VBD	O
+14-3	hello	14-2_dobj	said	UH	O
+14-4	and	O	O	O	O
+14-5	asked	14-2_conj_and	said	VBD	O
+14-6	for	O	O	O	O
+14-7	my	O	O	PRP$	P1_customer
+14-8	library	O	O	NN	O
+14-9	card	14-5_prep_for	asked	NN	P1_library_card
+14-10	.	O	O	O	O
+
+#id=15
+#text=I handed that to her , and she took the cards out of the back of the books I wanted to check out . 
+15-1	I	15-2_nsubj	handed	PRP	P1_customer
+15-2	handed	O	O	VBD	O
+15-3	that	15-2_dobj	handed	DT	P1_library_card
+15-4	to	O	O	O	O
+15-5	her	15-2_prep_to	handed	PRP	P2_staff
+15-6	,	O	O	O	O
+15-7	and	O	O	O	O
+15-8	she	15-9_nsubj	took	PRP	P2_staff
+15-9	took	15-2_conj_and	handed	VBD	O
+15-10	the	O	O	DT	O
+15-11	cards	15-9_dobj	took	NNS	P1_book_id
+15-12	out	O	O	O	O
+15-13	of	O	O	O	O
+15-14	the	O	O	DT	O
+15-15	back	O	O	NN	P1_NPart_back
+15-16	of	O	O	O	O
+15-17	the	O	O	DT	O
+15-18	books	O	O	NNS	P2_book
+15-19	I	15-20_nsubj	wanted	PRP	P1_customer
+15-20	wanted	O	O	VBD	O
+15-21	to	15-22_aux	check	TO	O
+15-22	check	15-20_xcomp	wanted	VB	O
+15-23	out	15-22_prt	check	RP	O
+15-24	.	O	O	O	O
+
+#id=16
+#text=She made a stamp in the back of each book , letting me know what day the books were due back to the library . 
+16-1	She	16-2_nsubj	made	PRP	P2_staff
+16-2	made	O	O	VBD	O
+16-3	a	O	O	DT	O
+16-4	stamp	16-2_dobj	made	NN	O
+16-5	in	O	O	O	O
+16-6	the	O	O	DT	O
+16-7	back	16-2_prep_in	made	NN	P2_NPart_back
+16-8	of	O	O	O	O
+16-9	each	O	O	DT	O
+16-10	book	O	O	NN	P2_book
+16-11	,	O	O	O	O
+16-12	letting	16-2_vmod	made	VBG	O
+16-13	me	16-14_nsubj	know	PRP	P1_customer
+16-14	know	16-12_ccomp	letting	VBP	O
+16-15	what	O	O	WP	O
+16-16	day	O	O	NN	P1_return_date
+16-17	the	O	O	DT	O
+16-18	books	O	O	NNS	P2_book
+16-19	were	O	O	VBD	O
+16-20	due	16-14_ccomp	know	JJ	O
+16-21	back	O	O	RB	O
+16-22	to	O	O	O	O
+16-23	the	O	O	DT	O
+16-24	library	O	O	NN	P1_library
+16-25	.	O	O	O	O
+
+#id=17
+#text=I said thank you to the librarian , and she handed me back my library card and the books . 
+17-1	I	17-2_nsubj	said	PRP	P1_customer
+17-2	said	O	O	VBD	O
+17-3	thank	17-2_xcomp	said	VB	O
+17-4	you	17-3_dobj	thank	PRP	P1_NPart_you
+17-5	to	O	O	O	O
+17-6	the	O	O	DT	O
+17-7	librarian	17-3_prep_to	thank	NN	P2_staff
+17-8	,	O	O	O	O
+17-9	and	O	O	O	O
+17-10	she	17-11_nsubj	handed	PRP	P2_staff
+17-11	handed	17-2_conj_and	said	VBD	O
+17-12	me	17-13_nsubj	back	PRP	P1_customer
+17-13	back	17-11_ccomp	handed	VBP	O
+17-14	my	O	O	PRP$	P1_customer
+17-15	library	O	O	NN	O
+17-16	card	17-13_dobj	back	NN	P1_library_card
+17-17	and	O	O	O	O
+17-18	the	O	O	DT	O
+17-19	books	O	O	NNS	P2_book
+17-20	.	O	O	O	O
+
+#id=18
+#text=I could n't wait to get home and start reading . 
+18-1	I	18-4_nsubj	wait	PRP	P1_customer
+18-2	could	18-4_aux	wait	MD	O
+18-3	n't	18-4_neg	wait	RB	O
+18-4	wait	O	O	VB	O
+18-5	to	18-6_aux	get	TO	O
+18-6	get	18-4_xcomp	wait	VB	O
+18-7	home	O	O	NN	P1_NPart_home
+18-8	and	O	O	O	O
+18-9	start	O	O	NN	O
+18-10	reading	18-6_dobj	get	NN	O
+18-11	.	O	O	O	O

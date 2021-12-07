@@ -1,0 +1,208 @@
+#id=1
+#text=When I was very young , my family only just recently got our new home . 
+1-1	When	O	O	WRB	O
+1-2	I	O	O	PRP	P1_gardener
+1-3	was	O	O	VBD	O
+1-4	very	O	O	RB	O
+1-5	young	1-12_advcl	got	JJ	O
+1-6	,	O	O	O	O
+1-7	my	O	O	PRP$	P1_gardener
+1-8	family	1-12_nsubj	got	NN	P2_gardener
+1-9	only	O	O	RB	O
+1-10	just	O	O	RB	O
+1-11	recently	1-12_advmod	got	RB	O
+1-12	got	O	O	VBD	O
+1-13	our	O	O	PRP$	P3_gardener
+1-14	new	O	O	JJ	O
+1-15	home	1-12_dobj	got	NN	P1_NPart_home
+1-16	.	O	O	O	O
+
+#id=2
+#text=The backyard had no trees and little decoration but that soon changed over the years . 
+2-1	The	O	O	DT	O
+2-2	backyard	2-3_nsubj	had	NN	P1_location_garden
+2-3	had	O	O	VBD	O
+2-4	no	O	O	DT	O
+2-5	trees	2-3_dobj	had	NNS	P1_tree
+2-6	and	O	O	O	O
+2-7	little	O	O	JJ	O
+2-8	decoration	O	O	NN	P1_NPart_decoration
+2-9	but	O	O	O	O
+2-10	that	O	O	RB	O
+2-11	soon	O	O	RB	O
+2-12	changed	2-3_conj_but	had	JJ	O
+2-13	over	O	O	O	O
+2-14	the	O	O	DT	O
+2-15	years	O	O	NNS	P1_NPart_years
+2-16	.	O	O	O	O
+
+#id=3
+#text=About a year after we moved in , my dad decided it was time we planted a tree in the backyard and I was able to help . 
+3-1	About	O	O	RB	O
+3-2	a	O	O	DT	O
+3-3	year	3-11_tmod	decided	NN	P1_NPart_year
+3-4	after	3-6_mark	moved	IN	O
+3-5	we	3-6_nsubj	moved	PRP	P3_gardener
+3-6	moved	3-11_advcl	decided	VBD	O
+3-7	in	3-6_prt	moved	RP	O
+3-8	,	O	O	O	O
+3-9	my	O	O	PRP$	P1_gardener
+3-10	dad	3-11_nsubj	decided	NN	P4_gardener
+3-11	decided	O	O	VBD	O
+3-12	it	O	O	PRP	O
+3-13	was	O	O	VBD	O
+3-14	time	3-11_ccomp	decided	NN	O
+3-15	we	3-16_nsubj	planted	PRP	P3_gardener
+3-16	planted	O	O	VBD	O
+3-17	a	O	O	DT	O
+3-18	tree	3-16_dobj	planted	NN	P2_tree
+3-19	in	O	O	O	O
+3-20	the	O	O	DT	O
+3-21	backyard	3-16_prep_in	planted	NN	P1_location_garden
+3-22	and	O	O	O	O
+3-23	I	O	O	PRP	P1_gardener
+3-24	was	O	O	VBD	O
+3-25	able	3-16_conj_and	planted	JJ	O
+3-26	to	3-27_aux	help	TO	O
+3-27	help	O	O	VB	O
+3-28	.	O	O	O	O
+
+#id=4
+#text=I had no idea what type of tree it would be and when I asked my dad just said I 'd have to wait and find out . 
+4-1	I	4-2_nsubj	had	PRP	P1_gardener
+4-2	had	O	O	VBD	O
+4-3	no	O	O	DT	O
+4-4	idea	4-2_dobj	had	NN	O
+4-5	what	O	O	WP	O
+4-6	type	4-11_dobj	be	NN	O
+4-7	of	O	O	O	O
+4-8	tree	O	O	NN	P1_tree
+4-9	it	4-11_nsubj	be	PRP	O
+4-10	would	4-11_aux	be	MD	O
+4-11	be	4-2_dep	had	VB	O
+4-12	and	O	O	O	O
+4-13	when	4-15_advmod	asked	WRB	O
+4-14	I	4-15_nsubj	asked	PRP	P1_gardener
+4-15	asked	4-11_conj_and	be	VBD	O
+4-16	my	O	O	PRP$	P1_gardener
+4-17	dad	4-19_nsubj	said	NN	P4_gardener
+4-18	just	4-19_advmod	said	RB	O
+4-19	said	4-15_ccomp	asked	VBD	O
+4-20	I	4-22_nsubj	have	PRP	P1_gardener
+4-21	'd	4-22_aux	have	MD	O
+4-22	have	4-19_ccomp	said	VB	O
+4-23	to	4-24_aux	wait	TO	O
+4-24	wait	4-22_xcomp	have	VB	O
+4-25	and	O	O	O	O
+4-26	find	4-24_conj_and	wait	VB	O
+4-27	out	4-26_prt	find	RP	O
+4-28	.	O	O	O	O
+
+#id=5
+#text=I would n't know it but several years later the tree would be larger than the house itself . 
+5-1	I	5-4_nsubj	know	PRP	P1_gardener
+5-2	would	5-4_aux	know	MD	O
+5-3	n't	5-4_neg	know	RB	O
+5-4	know	O	O	VB	O
+5-5	it	5-4_dobj	know	PRP	O
+5-6	but	O	O	O	O
+5-7	several	O	O	JJ	O
+5-8	years	O	O	NNS	P2_NPart_years
+5-9	later	O	O	RB	O
+5-10	the	O	O	DT	O
+5-11	tree	O	O	NN	P1_tree
+5-12	would	O	O	MD	O
+5-13	be	O	O	VB	O
+5-14	larger	5-4_conj_but	know	JJR	O
+5-15	than	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	house	O	O	NN	P1_NPart_house
+5-18	itself	O	O	PRP	O
+5-19	.	O	O	O	O
+
+#id=6
+#text=To get things started , I dug up a small hole to plant the tree . 
+6-1	To	6-2_aux	get	TO	O
+6-2	get	6-7_advcl	dug	VB	O
+6-3	things	6-2_dobj	get	NNS	O
+6-4	started	O	O	VBN	O
+6-5	,	O	O	O	O
+6-6	I	6-7_nsubj	dug	PRP	P1_gardener
+6-7	dug	O	O	VBD	O
+6-8	up	6-7_prt	dug	RP	O
+6-9	a	O	O	DT	O
+6-10	small	O	O	JJ	O
+6-11	hole	6-7_dobj	dug	NN	P1_hole
+6-12	to	6-13_aux	plant	TO	O
+6-13	plant	O	O	VB	O
+6-14	the	O	O	DT	O
+6-15	tree	6-13_dobj	plant	NN	P1_tree
+6-16	.	O	O	O	O
+
+#id=7
+#text=My dad had to make sure the hole was just the right size . 
+7-1	My	O	O	PRP$	P1_gardener
+7-2	dad	7-3_nsubj	had	NN	P1_NPart_dad
+7-3	had	O	O	VBD	O
+7-4	to	7-5_aux	make	TO	O
+7-5	make	7-3_xcomp	had	VB	O
+7-6	sure	7-5_acomp	make	JJ	O
+7-7	the	O	O	DT	O
+7-8	hole	O	O	NN	P1_hole
+7-9	was	O	O	VBD	O
+7-10	just	O	O	RB	O
+7-11	the	O	O	DT	O
+7-12	right	O	O	JJ	O
+7-13	size	O	O	NN	P1_NPart_size
+7-14	.	O	O	O	O
+
+#id=8
+#text=Once the space was perfect , I carefully placed the very young tree into it 's new home and covered the roots up with dirt . 
+8-1	Once	O	O	IN	O
+8-2	the	O	O	DT	O
+8-3	space	O	O	NN	P1_NPart_space
+8-4	was	O	O	VBD	O
+8-5	perfect	8-9_advcl	placed	JJ	O
+8-6	,	O	O	O	O
+8-7	I	8-9_nsubj	placed	PRP	P1_gardener
+8-8	carefully	8-9_advmod	placed	RB	O
+8-9	placed	O	O	VBD	O
+8-10	the	O	O	DT	O
+8-11	very	O	O	RB	O
+8-12	young	O	O	JJ	O
+8-13	tree	8-9_dobj	placed	NN	P1_tree
+8-14	into	O	O	O	O
+8-15	it	O	O	PRP	O
+8-16	's	O	O	O	O
+8-17	new	O	O	JJ	O
+8-18	home	8-9_prep_into	placed	NN	P1_hole
+8-19	and	O	O	O	O
+8-20	covered	8-9_conj_and	placed	VBD	O
+8-21	the	O	O	DT	O
+8-22	roots	8-20_dobj	covered	NNS	P1_root
+8-23	up	8-20_prt	covered	RP	O
+8-24	with	O	O	O	O
+8-25	dirt	8-20_prep_with	covered	NN	P1_dirt
+8-26	.	O	O	O	O
+
+#id=9
+#text=After it was firmly set in place , I watered the tree and was done for the day . 
+9-1	After	9-5_mark	set	IN	O
+9-2	it	9-5_nsubjpass	set	PRP	P1_tree
+9-3	was	9-5_auxpass	set	VBD	O
+9-4	firmly	9-5_advmod	set	RB	O
+9-5	set	9-10_advcl	watered	VBN	O
+9-6	in	O	O	O	O
+9-7	place	9-5_prep_in	set	NN	O
+9-8	,	O	O	O	O
+9-9	I	9-10_nsubj	watered	PRP	P1_gardener
+9-10	watered	O	O	VBD	O
+9-11	the	O	O	DT	O
+9-12	tree	9-10_dobj	watered	NN	P1_tree
+9-13	and	O	O	O	O
+9-14	was	9-15_auxpass	done	VBD	O
+9-15	done	9-10_conj_and	watered	VBN	O
+9-16	for	O	O	O	O
+9-17	the	O	O	DT	O
+9-18	day	9-15_prep_for	done	NN	P1_NPart_day
+9-19	.	O	O	O	O

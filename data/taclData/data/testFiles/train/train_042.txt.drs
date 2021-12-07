@@ -1,0 +1,211 @@
+#id=1
+#text=Last month I decided to visit my grandmother . 
+1-1	Last	O	O	JJ	O
+1-2	month	1-4_tmod	decided	NN	P1_NPart_month
+1-3	I	1-4_nsubj	decided	PRP	P1_passenger
+1-4	decided	O	O	VBD	O
+1-5	to	1-6_aux	visit	TO	O
+1-6	visit	1-4_xcomp	decided	VB	O
+1-7	my	O	O	PRP$	P1_passenger
+1-8	grandmother	1-6_dobj	visit	NN	P1_NPart_grandmother
+1-9	.	O	O	O	O
+
+#id=2
+#text=She lives about three hours away from me , and I do not own a car . 
+2-1	She	2-2_nsubj	lives	PRP	P1_NPart_she
+2-2	lives	O	O	VBZ	O
+2-3	about	O	O	RB	O
+2-4	three	O	O	CD	O
+2-5	hours	2-2_npadvmod	lives	NNS	P1_NPart_hours
+2-6	away	O	O	O	O
+2-7	from	O	O	O	O
+2-8	me	2-2_prep_away_from	lives	PRP	P1_passenger
+2-9	,	O	O	O	O
+2-10	and	O	O	O	O
+2-11	I	2-14_nsubj	own	PRP	P1_passenger
+2-12	do	2-14_aux	own	VBP	O
+2-13	not	2-14_neg	own	RB	O
+2-14	own	2-2_conj_and	lives	VB	O
+2-15	a	O	O	DT	O
+2-16	car	2-14_dobj	own	NN	P1_NPart_car
+2-17	.	O	O	O	O
+
+#id=3
+#text=To get to her house safely , I wanted to take a train . 
+3-1	To	3-2_aux	get	TO	O
+3-2	get	3-9_advcl	wanted	VB	O
+3-3	to	O	O	O	O
+3-4	her	O	O	PRP$	P1_NPart_her
+3-5	house	3-2_prep_to	get	NN	P1_NPart_house
+3-6	safely	3-2_advmod	get	RB	O
+3-7	,	O	O	O	O
+3-8	I	3-9_nsubj	wanted	PRP	P1_passenger
+3-9	wanted	O	O	VBD	O
+3-10	to	3-11_aux	take	TO	O
+3-11	take	3-9_xcomp	wanted	VB	O
+3-12	a	O	O	DT	O
+3-13	train	3-11_dobj	take	NN	P1_train
+3-14	.	O	O	O	O
+
+#id=4
+#text=Trains are a very affordable way to travel , and I find them to be comfortable and pleasant . 
+4-1	Trains	O	O	NNP	P1_train
+4-2	are	O	O	VBP	O
+4-3	a	O	O	DT	O
+4-4	very	O	O	RB	O
+4-5	affordable	O	O	JJ	O
+4-6	way	O	O	NN	O
+4-7	to	4-8_aux	travel	TO	O
+4-8	travel	O	O	VB	O
+4-9	,	O	O	O	O
+4-10	and	O	O	O	O
+4-11	I	4-12_nsubj	find	PRP	P1_passenger
+4-12	find	O	O	VBP	O
+4-13	them	4-12_dobj	find	PRP	P1_train
+4-14	to	O	O	TO	O
+4-15	be	O	O	VB	O
+4-16	comfortable	4-12_xcomp	find	JJ	O
+4-17	and	O	O	O	O
+4-18	pleasant	O	O	JJ	O
+4-19	.	O	O	O	O
+
+#id=5
+#text=I got on my computer , and went to the website where people buy train tickets . 
+5-1	I	5-2_nsubj	got	PRP	P1_passenger
+5-2	got	O	O	VBD	O
+5-3	on	O	O	O	O
+5-4	my	O	O	PRP$	P1_passenger
+5-5	computer	5-2_prep_on	got	NN	P1_NPart_computer
+5-6	,	O	O	O	O
+5-7	and	O	O	O	O
+5-8	went	5-2_conj_and	got	VBD	O
+5-9	to	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	website	5-8_prep_to	went	NN	P1_ticket_office/website
+5-12	where	5-14_advmod	buy	WRB	O
+5-13	people	5-14_nsubj	buy	NNS	P2_passenger
+5-14	buy	5-8_advcl	went	VBP	O
+5-15	train	O	O	NN	O
+5-16	tickets	5-14_dobj	buy	NNS	P1_card/ticket
+5-17	.	O	O	O	O
+
+#id=6
+#text=I chose a date to leave and I booked my tickets . 
+6-1	I	6-2_nsubj	chose	PRP	P1_passenger
+6-2	chose	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	date	6-2_dobj	chose	NN	P1_time_date
+6-5	to	6-6_aux	leave	TO	O
+6-6	leave	O	O	VB	O
+6-7	and	O	O	O	O
+6-8	I	6-9_nsubj	booked	PRP	P1_passenger
+6-9	booked	6-2_conj_and	chose	VBD	O
+6-10	my	O	O	PRP$	P1_passenger
+6-11	tickets	6-9_dobj	booked	NNS	P1_card/ticket
+6-12	.	O	O	O	O
+
+#id=7
+#text=My tickets were emailed to me and I printed them off using my printer . 
+7-1	My	O	O	PRP$	P1_passenger
+7-2	tickets	7-4_nsubjpass	emailed	NNS	P1_card/ticket
+7-3	were	7-4_auxpass	emailed	VBD	O
+7-4	emailed	O	O	VBN	O
+7-5	to	O	O	O	O
+7-6	me	7-4_prep_to	emailed	PRP	P1_passenger
+7-7	and	O	O	O	O
+7-8	I	7-9_nsubj	printed	PRP	P1_passenger
+7-9	printed	7-4_conj_and	emailed	VBD	O
+7-10	them	7-9_dobj	printed	PRP	P1_card/ticket
+7-11	off	O	O	O	O
+7-12	using	7-9_prepc_off	printed	VBG	O
+7-13	my	O	O	PRP$	P1_passenger
+7-14	printer	7-12_dobj	using	NN	P1_NPart_printer
+7-15	.	O	O	O	O
+
+#id=8
+#text=A week later , I went to the train station and boarded the train . 
+8-1	A	O	O	DT	O
+8-2	week	8-6_tmod	went	NN	P1_NPart_week
+8-3	later	O	O	RB	O
+8-4	,	O	O	O	O
+8-5	I	8-6_nsubj	went	PRP	P1_passenger
+8-6	went	O	O	VBD	O
+8-7	to	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	train	O	O	NN	O
+8-10	station	8-6_prep_to	went	NN	P1_train_station
+8-11	and	O	O	O	O
+8-12	boarded	8-6_conj_and	went	VBD	O
+8-13	the	O	O	DT	O
+8-14	train	8-12_dobj	boarded	NN	P1_train
+8-15	.	O	O	O	O
+
+#id=9
+#text=The ride was very quiet , so I took a nap part of the ride . 
+9-1	The	O	O	DT	O
+9-2	ride	O	O	NN	P1_trip
+9-3	was	O	O	VBD	O
+9-4	very	O	O	RB	O
+9-5	quiet	O	O	JJ	O
+9-6	,	O	O	O	O
+9-7	so	O	O	IN	O
+9-8	I	9-9_nsubj	took	PRP	P1_passenger
+9-9	took	O	O	VBD	O
+9-10	a	O	O	DT	O
+9-11	nap	O	O	NN	P1_in-train_entertainment
+9-12	part	9-9_dobj	took	NN	O
+9-13	of	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	ride	O	O	NN	P1_trip
+9-16	.	O	O	O	O
+
+#id=10
+#text=The seats were very comfortable . 
+10-1	The	O	O	DT	O
+10-2	seats	O	O	NNS	P1_seat
+10-3	were	O	O	VBD	O
+10-4	very	O	O	RB	O
+10-5	comfortable	O	O	JJ	O
+10-6	.	O	O	O	O
+
+#id=11
+#text=I went to the cafeteria cart on the train and bought coffee . 
+11-1	I	11-2_nsubj	went	PRP	P1_passenger
+11-2	went	O	O	VBD	O
+11-3	to	O	O	O	O
+11-4	the	O	O	DT	O
+11-5	cafeteria	O	O	NN	O
+11-6	cart	11-2_prep_to	went	NN	P1_coach
+11-7	on	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	train	11-2_prep_on	went	NN	P1_train
+11-10	and	O	O	O	O
+11-11	bought	11-2_conj_and	went	VBD	O
+11-12	coffee	11-11_dobj	bought	NN	P2_in-train_entertainment
+11-13	.	O	O	O	O
+
+#id=12
+#text=I enjoyed the coffee and drank it while looking out the window . 
+12-1	I	12-2_nsubj	enjoyed	PRP	P1_passenger
+12-2	enjoyed	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	coffee	12-2_dobj	enjoyed	NN	P2_in-train_entertainment
+12-5	and	O	O	O	O
+12-6	drank	12-2_conj_and	enjoyed	VBD	O
+12-7	it	12-6_dobj	drank	PRP	P2_in-train_entertainment
+12-8	while	O	O	O	O
+12-9	looking	12-6_prepc_while	drank	VBG	O
+12-10	out	12-9_prt	looking	RP	O
+12-11	the	O	O	DT	O
+12-12	window	12-9_dobj	looking	NN	P3_in-train_entertainment
+12-13	.	O	O	O	O
+
+#id=13
+#text=I really enjoyed the whole experience . 
+13-1	I	13-3_nsubj	enjoyed	PRP	P1_passenger
+13-2	really	13-3_advmod	enjoyed	RB	O
+13-3	enjoyed	O	O	VBD	O
+13-4	the	O	O	DT	O
+13-5	whole	O	O	JJ	O
+13-6	experience	13-3_dobj	enjoyed	NN	P1_NPart_experience
+13-7	.	O	O	O	O

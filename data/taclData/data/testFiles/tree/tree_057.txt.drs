@@ -1,0 +1,198 @@
+#id=1
+#text=One day I decided that my backyard was missing something . 
+1-1	One	O	O	CD	O
+1-2	day	1-4_tmod	decided	NN	O
+1-3	I	1-4_nsubj	decided	PRP	P1_gardener
+1-4	decided	O	O	VBD	O
+1-5	that	1-9_mark	missing	IN	O
+1-6	my	O	O	PRP$	P1_gardener
+1-7	backyard	1-9_nsubj	missing	NN	P1_NPart_backyard
+1-8	was	1-9_aux	missing	VBD	O
+1-9	missing	1-4_ccomp	decided	VBG	O
+1-10	something	1-9_dobj	missing	NN	P1_NPart_something
+1-11	.	O	O	O	O
+
+#id=2
+#text=I walked around in my backyard and decided that a tree would go perfectly in the corner . 
+2-1	I	2-2_nsubj	walked	PRP	P1_gardener
+2-2	walked	O	O	VBD	O
+2-3	around	2-2_prt	walked	RP	O
+2-4	in	O	O	O	O
+2-5	my	O	O	PRP$	P1_gardener
+2-6	backyard	2-2_prep_in	walked	NN	P2_NPart_backyard
+2-7	and	O	O	O	O
+2-8	decided	2-2_conj_and	walked	VBD	O
+2-9	that	2-13_mark	go	IN	O
+2-10	a	O	O	DT	O
+2-11	tree	2-13_nsubj	go	NN	P1_tree
+2-12	would	2-13_aux	go	MD	O
+2-13	go	2-8_ccomp	decided	VB	O
+2-14	perfectly	2-13_advmod	go	RB	O
+2-15	in	O	O	O	O
+2-16	the	O	O	DT	O
+2-17	corner	2-13_prep_in	go	NN	P1_location_garden
+2-18	.	O	O	O	O
+
+#id=3
+#text=I drove to my local plant store and walked around looking at all the various trees . 
+3-1	I	3-2_nsubj	drove	PRP	P1_gardener
+3-2	drove	O	O	VBD	O
+3-3	to	O	O	O	O
+3-4	my	O	O	PRP$	P1_gardener
+3-5	local	O	O	JJ	O
+3-6	plant	O	O	NN	O
+3-7	store	3-2_prep_to	drove	NN	P1_shop
+3-8	and	O	O	O	O
+3-9	walked	3-2_conj_and	drove	VBD	O
+3-10	around	O	O	O	O
+3-11	looking	3-9_prepc_around	walked	VBG	O
+3-12	at	O	O	O	O
+3-13	all	O	O	PDT	O
+3-14	the	O	O	DT	O
+3-15	various	O	O	JJ	O
+3-16	trees	3-11_prep_at	looking	NNS	P1_tree
+3-17	.	O	O	O	O
+
+#id=4
+#text=I read the tags and found one that would do perfect in my climate and it looked very cool . 
+4-1	I	4-2_nsubj	read	PRP	P1_gardener
+4-2	read	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	tags	4-2_dobj	read	NNS	P1_NPart_tags
+4-5	and	O	O	O	O
+4-6	found	4-2_conj_and	read	VBD	O
+4-7	one	4-6_dobj	found	CD	P1_tree
+4-8	that	O	O	WDT	P1_tree
+4-9	would	O	O	MD	O
+4-10	do	O	O	VB	O
+4-11	perfect	O	O	JJ	O
+4-12	in	O	O	O	O
+4-13	my	O	O	PRP$	P1_gardener
+4-14	climate	O	O	NN	P1_NPart_climate
+4-15	and	O	O	O	O
+4-16	it	4-17_nsubj	looked	PRP	P1_tree
+4-17	looked	4-2_conj_and	read	VBD	O
+4-18	very	O	O	RB	O
+4-19	cool	4-17_acomp	looked	JJ	O
+4-20	.	O	O	O	O
+
+#id=5
+#text=I walked up to the worker and told them I would like to purchase the tree . 
+5-1	I	5-2_nsubj	walked	PRP	P1_gardener
+5-2	walked	O	O	VBD	O
+5-3	up	5-2_prt	walked	RP	O
+5-4	to	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	worker	5-2_prep_to	walked	NN	P1_staff
+5-7	and	O	O	O	O
+5-8	told	5-2_conj_and	walked	VBD	O
+5-9	them	5-8_dobj	told	PRP	P1_staff
+5-10	I	5-12_nsubj	like	PRP	P1_gardener
+5-11	would	5-12_aux	like	MD	O
+5-12	like	5-8_dep	told	VB	O
+5-13	to	5-14_aux	purchase	TO	O
+5-14	purchase	5-12_xcomp	like	VB	O
+5-15	the	O	O	DT	O
+5-16	tree	5-14_dobj	purchase	NN	P1_tree
+5-17	.	O	O	O	O
+
+#id=6
+#text=They loaded the tree up and I paid for the tree and drove home . 
+6-1	They	6-2_nsubj	loaded	PRP	P1_staff
+6-2	loaded	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	tree	6-2_dobj	loaded	NN	P1_tree
+6-5	up	6-2_prt	loaded	RP	O
+6-6	and	O	O	O	O
+6-7	I	6-8_nsubj	paid	PRP	P1_gardener
+6-8	paid	6-2_conj_and	loaded	VBD	O
+6-9	for	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	tree	6-8_prep_for	paid	NN	P1_tree
+6-12	and	O	O	O	O
+6-13	drove	6-8_conj_and	paid	VBD	O
+6-14	home	6-13_dobj	drove	NN	P1_NPart_home
+6-15	.	O	O	O	O
+
+#id=7
+#text=I brought the tree into the backyard and set it down . 
+7-1	I	7-2_nsubj	brought	PRP	P1_gardener
+7-2	brought	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	tree	7-2_dobj	brought	NN	P1_tree
+7-5	into	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	backyard	7-2_prep_into	brought	NN	P3_NPart_backyard
+7-8	and	O	O	O	O
+7-9	set	7-2_conj_and	brought	VBD	O
+7-10	it	7-9_dobj	set	PRP	P1_tree
+7-11	down	7-9_prt	set	RP	O
+7-12	.	O	O	O	O
+
+#id=8
+#text=I took out my shovel and dug a large enough hole for the tree . 
+8-1	I	8-2_nsubj	took	PRP	P1_gardener
+8-2	took	O	O	VBD	O
+8-3	out	8-2_prt	took	RP	O
+8-4	my	O	O	PRP$	P1_gardener
+8-5	shovel	8-2_dobj	took	NN	P1_gardening_tool
+8-6	and	O	O	O	O
+8-7	dug	8-2_conj_and	took	VBD	O
+8-8	a	O	O	DT	O
+8-9	large	O	O	JJ	O
+8-10	enough	O	O	JJ	O
+8-11	hole	8-7_dobj	dug	NN	P1_hole
+8-12	for	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	tree	8-7_prep_for	dug	NN	P1_tree
+8-15	.	O	O	O	O
+
+#id=9
+#text=I placed the tree in the hole and filled it in with dirt . 
+9-1	I	9-2_nsubj	placed	PRP	P1_gardener
+9-2	placed	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	tree	9-2_dobj	placed	NN	P1_tree
+9-5	in	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	hole	9-2_prep_in	placed	NN	P1_hole
+9-8	and	O	O	O	O
+9-9	filled	9-2_conj_and	placed	VBD	O
+9-10	it	9-9_dobj	filled	PRP	P1_hole
+9-11	in	9-9_prep	filled	IN	O
+9-12	with	O	O	IN	O
+9-13	dirt	O	O	NN	P1_dirt
+9-14	.	O	O	O	O
+
+#id=10
+#text=Then I took my hose and watered the tree in place . 
+10-1	Then	10-3_advmod	took	RB	O
+10-2	I	10-3_nsubj	took	PRP	P1_gardener
+10-3	took	O	O	VBD	O
+10-4	my	O	O	PRP$	P1_gardener
+10-5	hose	10-3_dobj	took	NN	P2_gardening_tool
+10-6	and	O	O	O	O
+10-7	watered	10-3_conj_and	took	VBD	O
+10-8	the	O	O	DT	O
+10-9	tree	10-7_dobj	watered	NN	P1_tree
+10-10	in	O	O	O	O
+10-11	place	10-7_prep_in	watered	NN	P1_NPart_place
+10-12	.	O	O	O	O
+
+#id=11
+#text=I took a step back and marveled at how wonderful my new tree looked . 
+11-1	I	11-2_nsubj	took	PRP	P1_gardener
+11-2	took	11-14_dep	looked	VBD	O
+11-3	a	O	O	DT	O
+11-4	step	11-2_dobj	took	NN	P1_NPart_step
+11-5	back	11-2_advmod	took	RB	O
+11-6	and	O	O	O	O
+11-7	marveled	11-2_conj_and	took	VBD	O
+11-8	at	O	O	O	O
+11-9	how	O	O	WRB	O
+11-10	wonderful	11-7_prep_at	marveled	JJ	O
+11-11	my	O	O	PRP$	P1_gardener
+11-12	new	O	O	JJ	O
+11-13	tree	11-14_nsubj	looked	NN	P1_tree
+11-14	looked	O	O	VBD	O
+11-15	.	O	O	O	O

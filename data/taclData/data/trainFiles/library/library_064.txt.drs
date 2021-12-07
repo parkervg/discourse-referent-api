@@ -1,0 +1,227 @@
+#id=1
+#text=I was talking to my friend the other day and she told me about a book that she thought was very interesting . 
+1-1	I	1-3_nsubj	talking	PRP	P1_customer
+1-2	was	1-3_aux	talking	VBD	O
+1-3	talking	O	O	VBG	O
+1-4	to	O	O	O	O
+1-5	my	O	O	PRP$	P1_customer
+1-6	friend	1-3_prep_to	talking	NN	P1_NPart_friend
+1-7	the	O	O	DT	O
+1-8	other	O	O	JJ	O
+1-9	day	1-3_tmod	talking	NN	P1_NPart_day
+1-10	and	O	O	O	O
+1-11	she	1-12_nsubj	told	PRP	P1_NPart_she
+1-12	told	1-3_conj_and	talking	VBD	O
+1-13	me	1-12_dobj	told	PRP	P2_customer
+1-14	about	O	O	O	O
+1-15	a	O	O	DT	O
+1-16	book	1-12_prep_about	told	NN	P1_book
+1-17	that	1-19_mark	thought	IN	O
+1-18	she	1-19_nsubj	thought	PRP	P2_NPart_she
+1-19	thought	1-12_ccomp	told	VBD	O
+1-20	was	O	O	VBD	O
+1-21	very	O	O	RB	O
+1-22	interesting	1-19_ccomp	thought	JJ	O
+1-23	.	O	O	O	O
+
+#id=2
+#text=I decided I could borrow the book from the library . 
+2-1	I	2-2_nsubj	decided	PRP	P1_customer
+2-2	decided	O	O	VBD	O
+2-3	I	2-5_nsubj	borrow	PRP	P1_customer
+2-4	could	2-5_aux	borrow	MD	O
+2-5	borrow	2-2_ccomp	decided	VB	O
+2-6	the	O	O	DT	O
+2-7	book	2-5_dobj	borrow	NN	P1_book
+2-8	from	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	library	2-5_prep_from	borrow	NN	P1_library
+2-11	.	O	O	O	O
+
+#id=3
+#text=I went to my local library and had to sign up as a member because I previously was not a member . 
+3-1	I	3-2_nsubj	went	PRP	P1_customer
+3-2	went	O	O	VBD	O
+3-3	to	O	O	O	O
+3-4	my	O	O	PRP$	P1_customer
+3-5	local	O	O	JJ	O
+3-6	library	3-2_prep_to	went	NN	P1_library
+3-7	and	O	O	O	O
+3-8	had	3-2_conj_and	went	VBD	O
+3-9	to	3-10_aux	sign	TO	O
+3-10	sign	3-8_xcomp	had	VB	O
+3-11	up	3-10_prt	sign	RP	O
+3-12	as	O	O	O	O
+3-13	a	O	O	DT	O
+3-14	member	3-10_prep_as	sign	NN	P3_customer
+3-15	because	O	O	IN	O
+3-16	I	O	O	PRP	P1_customer
+3-17	previously	O	O	RB	O
+3-18	was	O	O	VBD	O
+3-19	not	O	O	RB	O
+3-20	a	O	O	DT	O
+3-21	member	3-10_advcl	sign	NN	P4_customer
+3-22	.	O	O	O	O
+
+#id=4
+#text=After signing up for a membership , I now had two options ; I could ask the librarian for help , or I could use the self service computers and find the location of my book on my own . 
+4-1	After	O	O	O	O
+4-2	signing	4-10_prepc_after	had	VBG	O
+4-3	up	4-2_prt	signing	RP	O
+4-4	for	O	O	O	O
+4-5	a	O	O	DT	O
+4-6	membership	4-2_prep_for	signing	NN	P1_other
+4-7	,	O	O	O	O
+4-8	I	4-10_nsubj	had	PRP	P1_customer
+4-9	now	4-10_advmod	had	RB	O
+4-10	had	O	O	VBD	O
+4-11	two	O	O	CD	O
+4-12	options	4-10_dobj	had	NNS	P1_NPart_options
+4-13	;	O	O	O	O
+4-14	I	4-16_nsubj	ask	PRP	P1_customer
+4-15	could	4-16_aux	ask	MD	O
+4-16	ask	4-10_parataxis	had	VB	O
+4-17	the	O	O	DT	O
+4-18	librarian	4-16_dobj	ask	NN	P1_staff
+4-19	for	O	O	O	O
+4-20	help	O	O	NN	P1_NPart_help
+4-21	,	O	O	O	O
+4-22	or	O	O	O	O
+4-23	I	4-25_nsubj	use	PRP	P1_customer
+4-24	could	4-25_aux	use	MD	O
+4-25	use	4-16_conj_or	ask	VB	O
+4-26	the	O	O	DT	O
+4-27	self	O	O	NN	O
+4-28	service	O	O	NN	O
+4-29	computers	4-25_dobj	use	NNS	P1_institutional_devices
+4-30	and	O	O	O	O
+4-31	find	4-25_conj_and	use	VB	O
+4-32	the	O	O	DT	O
+4-33	location	4-31_dobj	find	NN	P1_location_library
+4-34	of	O	O	O	O
+4-35	my	O	O	PRP$	P5_customer
+4-36	book	O	O	NN	P1_book
+4-37	on	O	O	O	O
+4-38	my	O	O	PRP$	P1_customer
+4-39	own	4-31_prep_on	find	JJ	O
+4-40	.	O	O	O	O
+
+#id=5
+#text=I chose to find the book on my own , because if I can avoid dealing with people I will always pick that option . 
+5-1	I	5-2_nsubj	chose	PRP	P1_customer
+5-2	chose	O	O	VBD	O
+5-3	to	5-4_aux	find	TO	O
+5-4	find	5-2_xcomp	chose	VB	O
+5-5	the	O	O	DT	O
+5-6	book	5-4_dobj	find	NN	P1_book
+5-7	on	O	O	O	O
+5-8	my	O	O	PRP$	P1_customer
+5-9	own	5-4_prep_on	find	JJ	O
+5-10	,	O	O	O	O
+5-11	because	5-22_mark	pick	IN	O
+5-12	if	5-15_mark	avoid	IN	O
+5-13	I	5-15_nsubj	avoid	PRP	P1_customer
+5-14	can	5-15_aux	avoid	MD	O
+5-15	avoid	5-22_advcl	pick	VB	O
+5-16	dealing	5-15_xcomp	avoid	VBG	O
+5-17	with	O	O	O	O
+5-18	people	5-16_prep_with	dealing	NNS	O
+5-19	I	5-22_nsubj	pick	PRP	P1_customer
+5-20	will	5-22_aux	pick	MD	O
+5-21	always	5-22_advmod	pick	RB	O
+5-22	pick	5-4_advcl	find	VB	O
+5-23	that	O	O	DT	O
+5-24	option	5-22_dobj	pick	NN	P1_NPart_option
+5-25	.	O	O	O	O
+
+#id=6
+#text=So I go on the computer and type the name of the book in . 
+6-1	So	6-3_dep	go	IN	O
+6-2	I	6-3_nsubj	go	PRP	P1_customer
+6-3	go	O	O	VBP	O
+6-4	on	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	computer	6-3_prep_on	go	NN	P1_institutional_devices
+6-7	and	O	O	O	O
+6-8	type	O	O	NN	O
+6-9	the	O	O	DT	O
+6-10	name	6-3_dobj	go	NN	P1_NPart_name
+6-11	of	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	book	O	O	NN	P1_book
+6-14	in	6-3_prep	go	IN	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=It tells me the location the book should be in . 
+7-1	It	7-2_nsubj	tells	PRP	P1_institutional_devices
+7-2	tells	O	O	VBZ	O
+7-3	me	7-2_iobj	tells	PRP	P6_customer
+7-4	the	O	O	DT	O
+7-5	location	7-2_dobj	tells	NN	P1_location_library
+7-6	the	O	O	DT	O
+7-7	book	7-9_nsubj	be	NN	P1_book
+7-8	should	7-9_aux	be	MD	O
+7-9	be	O	O	VB	O
+7-10	in	7-9_prep	be	IN	O
+7-11	.	O	O	O	O
+
+#id=8
+#text=Now I go to the location . 
+8-1	Now	8-3_advmod	go	RB	O
+8-2	I	8-3_nsubj	go	PRP	P1_customer
+8-3	go	O	O	VBP	O
+8-4	to	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	location	8-3_prep_to	go	NN	P1_location_library
+8-7	.	O	O	O	O
+
+#id=9
+#text=I find the book right where it 's supposed to be . 
+9-1	I	9-2_nsubj	find	PRP	P1_customer
+9-2	find	O	O	VBP	O
+9-3	the	O	O	DT	O
+9-4	book	9-9_nsubjpass	supposed	NN	P1_book
+9-5	right	9-9_dep	supposed	RB	O
+9-6	where	9-9_advmod	supposed	WRB	O
+9-7	it	9-9_nsubjpass	supposed	PRP	P1_book
+9-8	's	9-9_auxpass	supposed	VBZ	O
+9-9	supposed	9-2_xcomp	find	VBN	O
+9-10	to	9-11_aux	be	TO	O
+9-11	be	9-9_xcomp	supposed	VB	O
+9-12	.	O	O	O	O
+
+#id=10
+#text=Last , I check the book out at the front desk . 
+10-1	Last	10-4_nsubj	check	JJ	O
+10-2	,	O	O	O	O
+10-3	I	10-4_nsubj	check	PRP	P1_customer
+10-4	check	O	O	VBP	O
+10-5	the	O	O	DT	O
+10-6	book	10-4_dobj	check	NN	P1_book
+10-7	out	10-4_prt	check	RP	O
+10-8	at	O	O	O	O
+10-9	the	O	O	DT	O
+10-10	front	O	O	JJ	O
+10-11	desk	10-4_prep_at	check	NN	P1_check-out_desk
+10-12	.	O	O	O	O
+
+#id=11
+#text=I will have to return it in 1 week or I will be charged a fee . 
+11-1	I	11-3_nsubj	have	PRP	P1_customer
+11-2	will	11-3_aux	have	MD	O
+11-3	have	O	O	VB	O
+11-4	to	11-5_aux	return	TO	O
+11-5	return	11-3_xcomp	have	VB	O
+11-6	it	11-5_dobj	return	PRP	P1_book
+11-7	in	O	O	O	O
+11-8	1	11-5_prep_in	return	CD	O
+11-9	week	11-5_tmod	return	NN	P1_return_date
+11-10	or	O	O	O	O
+11-11	I	11-14_nsubjpass	charged	PRP	P1_customer
+11-12	will	11-14_aux	charged	MD	O
+11-13	be	11-14_auxpass	charged	VB	O
+11-14	charged	11-3_conj_or	have	VBN	O
+11-15	a	O	O	DT	O
+11-16	fee	11-14_dobj	charged	NN	P1_NPart_fee
+11-17	.	O	O	O	O

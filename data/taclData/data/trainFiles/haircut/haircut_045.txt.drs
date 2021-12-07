@@ -1,0 +1,201 @@
+#id=1
+#text=I was looking in the mirror this morning and noticed my hair had gotten out of control . 
+1-1	I	1-3_nsubj	looking	PRP	P1_customer
+1-2	was	1-3_aux	looking	VBD	O
+1-3	looking	O	O	VBG	O
+1-4	in	O	O	O	O
+1-5	the	O	O	DT	O
+1-6	mirror	1-3_prep_in	looking	NN	P1_NPart_mirror
+1-7	this	O	O	DT	O
+1-8	morning	1-3_tmod	looking	NN	P1_NPart_morning
+1-9	and	O	O	O	O
+1-10	noticed	1-3_conj_and	looking	VBD	O
+1-11	my	O	O	PRP$	P1_customer
+1-12	hair	1-14_nsubj	gotten	NN	P1_hair
+1-13	had	1-14_aux	gotten	VBD	O
+1-14	gotten	1-10_ccomp	noticed	VBN	O
+1-15	out	O	O	O	O
+1-16	of	O	O	O	O
+1-17	control	1-14_prep_out_of	gotten	NN	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=So I decided to get a hair cut . 
+2-1	So	2-3_dep	decided	IN	O
+2-2	I	2-3_nsubj	decided	PRP	P1_customer
+2-3	decided	O	O	VBD	O
+2-4	to	2-5_aux	get	TO	O
+2-5	get	2-3_xcomp	decided	VB	O
+2-6	a	O	O	DT	O
+2-7	hair	O	O	NN	O
+2-8	cut	2-5_dobj	get	NN	P1_haircut
+2-9	.	O	O	O	O
+
+#id=3
+#text=I was new to the area , so first I wanted to research all the available barber shops nearby . 
+3-1	I	O	O	PRP	P1_customer
+3-2	was	O	O	VBD	O
+3-3	new	O	O	JJ	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	area	O	O	NN	P1_NPart_area
+3-7	,	O	O	O	O
+3-8	so	O	O	IN	O
+3-9	first	3-11_advmod	wanted	RB	O
+3-10	I	3-11_nsubj	wanted	PRP	P1_customer
+3-11	wanted	O	O	VBD	O
+3-12	to	3-13_aux	research	TO	O
+3-13	research	3-11_xcomp	wanted	VB	O
+3-14	all	O	O	PDT	O
+3-15	the	O	O	DT	O
+3-16	available	O	O	JJ	O
+3-17	barber	O	O	NN	O
+3-18	shops	3-13_dobj	research	NNS	P1_salon
+3-19	nearby	3-13_advmod	research	RB	O
+3-20	.	O	O	O	O
+
+#id=4
+#text=I found three different places , and all with great reviews . 
+4-1	I	4-2_nsubj	found	PRP	P1_customer
+4-2	found	O	O	VBD	O
+4-3	three	O	O	CD	O
+4-4	different	O	O	JJ	O
+4-5	places	4-2_dobj	found	NNS	P1_salon
+4-6	,	O	O	O	O
+4-7	and	O	O	O	O
+4-8	all	O	O	DT	O
+4-9	with	O	O	O	O
+4-10	great	O	O	JJ	O
+4-11	reviews	O	O	NNS	P1_NPart_reviews
+4-12	.	O	O	O	O
+
+#id=5
+#text=So I decided to go the closest one to my house . 
+5-1	So	5-3_dep	decided	IN	O
+5-2	I	5-3_nsubj	decided	PRP	P1_customer
+5-3	decided	O	O	VBD	O
+5-4	to	5-5_aux	go	TO	O
+5-5	go	5-3_xcomp	decided	VB	O
+5-6	the	O	O	DT	O
+5-7	closest	O	O	JJS	O
+5-8	one	5-5_dobj	go	NN	P1_salon
+5-9	to	O	O	O	O
+5-10	my	O	O	PRP$	P1_customer
+5-11	house	5-5_prep_to	go	NN	P1_NPart_house
+5-12	.	O	O	O	O
+
+#id=6
+#text=When I got there , I had to wait for the 4 people currently waiting before I arrived . 
+6-1	When	6-3_advmod	got	WRB	O
+6-2	I	6-3_nsubj	got	PRP	P1_customer
+6-3	got	6-7_advcl	had	VBD	O
+6-4	there	6-3_advmod	got	RB	O
+6-5	,	O	O	O	O
+6-6	I	6-7_nsubj	had	PRP	P1_customer
+6-7	had	O	O	VBD	O
+6-8	to	6-9_aux	wait	TO	O
+6-9	wait	6-7_xcomp	had	VB	O
+6-10	for	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	4	O	O	CD	O
+6-13	people	6-9_prep_for	wait	NNS	P2_customer
+6-14	currently	6-15_advmod	waiting	RB	O
+6-15	waiting	6-7_xcomp	had	VBG	O
+6-16	before	6-18_mark	arrived	IN	O
+6-17	I	6-18_nsubj	arrived	PRP	P1_customer
+6-18	arrived	6-15_advcl	waiting	VBD	O
+6-19	.	O	O	O	O
+
+#id=7
+#text=I started looking at the posters on the wall and came up with some new ideas on what hair cut style I think would look best on me . 
+7-1	I	7-2_nsubj	started	PRP	P1_customer
+7-2	started	O	O	VBD	O
+7-3	looking	7-2_xcomp	started	VBG	O
+7-4	at	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	posters	7-3_prep_at	looking	NNS	P1_NPart_posters
+7-7	on	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	wall	O	O	NN	P1_NPart_wall
+7-10	and	O	O	O	O
+7-11	came	7-2_conj_and	started	VBD	O
+7-12	up	7-11_prt	came	RP	O
+7-13	with	O	O	O	O
+7-14	some	O	O	DT	O
+7-15	new	O	O	JJ	O
+7-16	ideas	7-11_prep_with	came	NNS	P1_NPart_ideas
+7-17	on	O	O	O	O
+7-18	what	O	O	WDT	O
+7-19	hair	7-25_prep_on	look	NN	O
+7-20	cut	O	O	NN	O
+7-21	style	7-25_nsubj	look	NN	P1_haircut
+7-22	I	7-23_nsubj	think	PRP	P1_customer
+7-23	think	O	O	VBP	O
+7-24	would	7-25_aux	look	MD	O
+7-25	look	O	O	VB	O
+7-26	best	7-25_dobj	look	JJS	O
+7-27	on	O	O	O	O
+7-28	me	O	O	PRP	P1_customer
+7-29	.	O	O	O	O
+
+#id=8
+#text=I decided on a buzz cut . 
+8-1	I	8-2_nsubj	decided	PRP	P1_customer
+8-2	decided	O	O	VBD	O
+8-3	on	O	O	O	O
+8-4	a	O	O	DT	O
+8-5	buzz	O	O	JJ	O
+8-6	cut	8-2_prep_on	decided	NN	P1_haircut
+8-7	.	O	O	O	O
+
+#id=9
+#text=When it was my turn I told the barber I wanted a buzz cut . 
+9-1	When	O	O	WRB	O
+9-2	it	O	O	PRP	O
+9-3	was	O	O	VBD	O
+9-4	my	O	O	PRP$	P1_customer
+9-5	turn	9-7_advcl	told	NN	O
+9-6	I	9-7_nsubj	told	PRP	P1_customer
+9-7	told	O	O	VBD	O
+9-8	the	O	O	DT	O
+9-9	barber	9-7_dobj	told	NN	P1_hairdresser
+9-10	I	9-11_nsubj	wanted	PRP	P1_customer
+9-11	wanted	O	O	VBD	O
+9-12	a	O	O	DT	O
+9-13	buzz	O	O	JJ	O
+9-14	cut	9-11_dobj	wanted	NN	P1_haircut
+9-15	.	O	O	O	O
+
+#id=10
+#text=He trimmed my hair low , then got a fine-edge razor to get my hairline . 
+10-1	He	10-2_nsubj	trimmed	PRP	P1_hairdresser
+10-2	trimmed	O	O	VBD	O
+10-3	my	O	O	PRP$	P1_customer
+10-4	hair	O	O	NN	P1_hair
+10-5	low	10-2_xcomp	trimmed	JJ	O
+10-6	,	O	O	O	O
+10-7	then	10-8_advmod	got	RB	O
+10-8	got	10-2_dep	trimmed	VBD	O
+10-9	a	O	O	DT	O
+10-10	fine-edge	O	O	JJ	O
+10-11	razor	10-8_dobj	got	NN	P1_scissors
+10-12	to	10-13_aux	get	TO	O
+10-13	get	10-8_vmod	got	VB	O
+10-14	my	O	O	PRP$	P1_customer
+10-15	hairline	10-13_dobj	get	NN	P1_other
+10-16	.	O	O	O	O
+
+#id=11
+#text=I walked out the barber shop feeling like a new man . 
+11-1	I	11-2_nsubj	walked	PRP	P1_customer
+11-2	walked	O	O	VBD	O
+11-3	out	11-2_prt	walked	RP	O
+11-4	the	O	O	DT	O
+11-5	barber	O	O	NN	O
+11-6	shop	11-2_dobj	walked	NN	P1_salon
+11-7	feeling	O	O	VBG	O
+11-8	like	O	O	O	O
+11-9	a	O	O	DT	O
+11-10	new	O	O	JJ	O
+11-11	man	11-7_prep_like	feeling	NN	P1_NPart_man
+11-12	.	O	O	O	O

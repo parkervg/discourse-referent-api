@@ -1,0 +1,235 @@
+#id=1
+#text=Never will I ever forget the first time my third grade class went on a field trip . 
+1-1	Never	1-5_nsubj	forget	NNP	O
+1-2	will	1-5_aux	forget	MD	O
+1-3	I	O	O	CD	P1_passenger
+1-4	ever	1-5_advmod	forget	RB	O
+1-5	forget	O	O	VB	O
+1-6	the	O	O	DT	O
+1-7	first	O	O	JJ	O
+1-8	time	1-5_dobj	forget	NN	O
+1-9	my	O	O	PRP$	P1_passenger
+1-10	third	O	O	JJ	O
+1-11	grade	O	O	NN	O
+1-12	class	1-13_nsubj	went	NN	P2_passenger
+1-13	went	O	O	VBD	O
+1-14	on	O	O	O	O
+1-15	a	O	O	DT	O
+1-16	field	O	O	NN	O
+1-17	trip	1-13_prep_on	went	NN	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=That was the first day I ever took a bus other than a school bus . 
+2-1	That	O	O	DT	O
+2-2	was	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	first	O	O	JJ	O
+2-5	day	O	O	NN	P1_NPart_day
+2-6	I	2-8_nsubj	took	PRP	P1_passenger
+2-7	ever	2-8_advmod	took	RB	O
+2-8	took	O	O	VBD	O
+2-9	a	O	O	DT	O
+2-10	bus	2-8_dobj	took	NN	P1_bus
+2-11	other	O	O	JJ	O
+2-12	than	O	O	O	O
+2-13	a	O	O	DT	O
+2-14	school	O	O	NN	O
+2-15	bus	2-8_prep_than	took	NN	P2_bus
+2-16	.	O	O	O	O
+
+#id=3
+#text=We had to get our permission slips signed and bring in $ 2.00 for a bus pass . 
+3-1	We	3-8_nsubj	signed	PRP	P3_passenger
+3-2	had	3-8_aux	signed	VBD	O
+3-3	to	3-4_aux	get	TO	O
+3-4	get	3-8_xcomp	signed	VB	O
+3-5	our	O	O	PRP$	P3_passenger
+3-6	permission	3-4_dobj	get	NN	O
+3-7	slips	3-8_advmod	signed	RB	P1_NPart_slips
+3-8	signed	O	O	VBN	O
+3-9	and	O	O	O	O
+3-10	bring	3-8_conj_and	signed	VBP	O
+3-11	in	O	O	O	O
+3-12	$	3-10_prep_in	bring	$	O
+3-13	2.00	O	O	CD	P1_money
+3-14	for	O	O	O	O
+3-15	a	O	O	DT	O
+3-16	bus	O	O	NN	O
+3-17	pass	O	O	NN	P1_card/ticket
+3-18	.	O	O	O	O
+
+#id=4
+#text=When I first held my bus pass I wondered why people did n't just pay with cash . 
+4-1	When	4-4_advmod	held	WRB	O
+4-2	I	4-4_nsubj	held	PRP	P1_passenger
+4-3	first	4-4_advmod	held	RB	O
+4-4	held	4-7_advcl	pass	VBD	O
+4-5	my	O	O	PRP$	P1_passenger
+4-6	bus	4-4_dobj	held	NN	O
+4-7	pass	O	O	VBP	P1_card/ticket
+4-8	I	4-9_nsubj	wondered	PRP	P1_passenger
+4-9	wondered	4-7_ccomp	pass	VBD	O
+4-10	why	4-15_advmod	pay	WRB	O
+4-11	people	4-15_nsubj	pay	NNS	P4_passenger
+4-12	did	4-15_aux	pay	VBD	O
+4-13	n't	4-15_neg	pay	RB	O
+4-14	just	4-15_advmod	pay	RB	O
+4-15	pay	4-9_ccomp	wondered	VB	O
+4-16	with	O	O	O	O
+4-17	cash	4-15_prep_with	pay	NN	P2_money
+4-18	.	O	O	O	O
+
+#id=5
+#text=The day finally came for us to go to the museum and we walked together as a class to the bus stop . 
+5-1	The	O	O	DT	O
+5-2	day	5-4_nsubj	came	NN	P2_NPart_day
+5-3	finally	5-4_advmod	came	RB	O
+5-4	came	O	O	VBD	O
+5-5	for	5-8_mark	go	IN	O
+5-6	us	5-8_nsubj	go	PRP	P3_passenger
+5-7	to	5-8_aux	go	TO	O
+5-8	go	5-4_advcl	came	VB	O
+5-9	to	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	museum	5-8_prep_to	go	NN	P1_destination
+5-12	and	O	O	O	O
+5-13	we	5-14_nsubj	walked	PRP	P3_passenger
+5-14	walked	5-4_conj_and	came	VBD	O
+5-15	together	5-14_advmod	walked	RB	O
+5-16	as	O	O	O	O
+5-17	a	O	O	DT	O
+5-18	class	5-14_prep_as	walked	NN	P2_passenger
+5-19	to	O	O	O	O
+5-20	the	O	O	DT	O
+5-21	bus	O	O	NN	O
+5-22	stop	5-14_prep_to	walked	NN	P1_bus_stop
+5-23	.	O	O	O	O
+
+#id=6
+#text=We stood there waiting for about ten minutes for the bus to come . 
+6-1	We	6-2_nsubj	stood	PRP	P3_passenger
+6-2	stood	O	O	VBD	O
+6-3	there	6-4_expl	waiting	EX	P1_bus_stop
+6-4	waiting	6-2_dep	stood	VBG	O
+6-5	for	O	O	O	O
+6-6	about	O	O	RB	O
+6-7	ten	O	O	CD	O
+6-8	minutes	6-4_prep_for	waiting	NNS	P1_time/date
+6-9	for	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	bus	O	O	NN	P1_bus
+6-12	to	6-13_aux	come	TO	O
+6-13	come	6-4_xcomp	waiting	VB	O
+6-14	.	O	O	O	O
+
+#id=7
+#text=When it arrived people rushed off and we boarded one by one . 
+7-1	When	7-3_advmod	arrived	WRB	O
+7-2	it	7-3_nsubj	arrived	PRP	P1_bus
+7-3	arrived	7-5_advcl	rushed	VBD	O
+7-4	people	7-5_nsubj	rushed	NNS	P5_passenger
+7-5	rushed	O	O	VBD	O
+7-6	off	7-5_prt	rushed	RP	O
+7-7	and	O	O	O	O
+7-8	we	7-9_nsubj	boarded	PRP	P3_passenger
+7-9	boarded	7-5_conj_and	rushed	VBD	O
+7-10	one	7-9_dobj	boarded	CD	O
+7-11	by	O	O	O	O
+7-12	one	7-9_prep_by	boarded	CD	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=We each swiped our bus pass and searched for a seat . 
+8-1	We	8-3_nsubj	swiped	PRP	P3_passenger
+8-2	each	8-3_dep	swiped	DT	O
+8-3	swiped	O	O	VBD	O
+8-4	our	O	O	PRP$	P3_passenger
+8-5	bus	O	O	NN	O
+8-6	pass	8-3_dobj	swiped	NN	P1_card/ticket
+8-7	and	O	O	O	O
+8-8	searched	8-3_conj_and	swiped	VBD	O
+8-9	for	O	O	O	O
+8-10	a	O	O	DT	O
+8-11	seat	8-8_prep_for	searched	NN	P1_seat_in_bus
+8-12	.	O	O	O	O
+
+#id=9
+#text=There were some people who took up two seats and the aroma of breath lingered in the air . 
+9-1	There	9-2_expl	were	EX	O
+9-2	were	O	O	VBD	O
+9-3	some	O	O	DT	O
+9-4	people	9-2_nsubj	were	NNS	P6_passenger
+9-5	who	9-6_nsubj	took	WP	O
+9-6	took	O	O	VBD	O
+9-7	up	9-6_prt	took	RP	O
+9-8	two	O	O	CD	O
+9-9	seats	9-6_dobj	took	NNS	P2_seat_in_bus
+9-10	and	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	aroma	O	O	NN	P1_NPart_aroma
+9-13	of	O	O	O	O
+9-14	breath	O	O	NN	P1_NPart_breath
+9-15	lingered	O	O	VBN	O
+9-16	in	O	O	O	O
+9-17	the	O	O	DT	O
+9-18	air	9-15_prep_in	lingered	NN	P1_NPart_air
+9-19	.	O	O	O	O
+
+#id=10
+#text=Each stop a bell rang letting the driver know passengers wanted to get off . 
+10-1	Each	O	O	DT	O
+10-2	stop	10-9_nsubj	know	NN	P2_bus_stop
+10-3	a	O	O	DT	O
+10-4	bell	10-5_nsubj	rang	NN	P1_other
+10-5	rang	O	O	VBD	O
+10-6	letting	10-5_xcomp	rang	VBG	O
+10-7	the	O	O	DT	O
+10-8	driver	10-6_dobj	letting	NN	P1_bus_staff
+10-9	know	O	O	VBP	O
+10-10	passengers	10-11_nsubj	wanted	NNS	P7_passenger
+10-11	wanted	10-9_ccomp	know	VBD	O
+10-12	to	10-13_aux	get	TO	O
+10-13	get	10-11_xcomp	wanted	VB	O
+10-14	off	10-13_prt	get	RP	O
+10-15	.	O	O	O	O
+
+#id=11
+#text=It took us ten stop to get to the museum but it seemed like forever . 
+11-1	It	11-2_nsubj	took	PRP	O
+11-2	took	O	O	VBD	O
+11-3	us	11-5_nsubj	stop	PRP	P3_passenger
+11-4	ten	11-5_aux	stop	MD	O
+11-5	stop	11-2_ccomp	took	VB	P3_bus_stop
+11-6	to	11-7_aux	get	TO	O
+11-7	get	11-5_xcomp	stop	VB	O
+11-8	to	O	O	O	O
+11-9	the	O	O	DT	O
+11-10	museum	11-7_prep_to	get	NN	P1_destination
+11-11	but	O	O	O	O
+11-12	it	11-13_nsubj	seemed	PRP	O
+11-13	seemed	11-2_conj_but	took	VBD	O
+11-14	like	11-13_prep	seemed	IN	O
+11-15	forever	O	O	RB	O
+11-16	.	O	O	O	O
+
+#id=12
+#text=My teacher pressed the button and we all ran to the museum doors happy to be free . 
+12-1	My	O	O	PRP$	P1_passenger
+12-2	teacher	12-3_nsubj	pressed	NN	P8_passenger
+12-3	pressed	O	O	VBD	O
+12-4	the	O	O	DT	O
+12-5	button	12-3_dobj	pressed	NN	P1_stop_button/door_opener
+12-6	and	O	O	O	O
+12-7	we	12-9_nsubj	ran	PRP	P3_passenger
+12-8	all	12-9_advmod	ran	DT	O
+12-9	ran	12-3_conj_and	pressed	VBD	O
+12-10	to	O	O	O	O
+12-11	the	O	O	DT	O
+12-12	museum	O	O	NN	O
+12-13	doors	12-9_prep_to	ran	NNS	P1_NPart_doors
+12-14	happy	O	O	JJ	O
+12-15	to	O	O	TO	O
+12-16	be	O	O	VB	O
+12-17	free	O	O	JJ	O
+12-18	.	O	O	O	O

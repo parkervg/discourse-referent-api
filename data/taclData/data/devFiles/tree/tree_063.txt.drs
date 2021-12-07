@@ -1,0 +1,202 @@
+#id=1
+#text=My neighborhood is kind of boring looking since there are n't many plants , I guess you could say it looks barren . 
+1-1	My	O	O	PRP$	P1_gardener
+1-2	neighborhood	O	O	NN	P1_NPart_neighborhood
+1-3	is	O	O	VBZ	O
+1-4	kind	O	O	NN	P1_NPart_kind
+1-5	of	O	O	IN	O
+1-6	boring	1-16_ccomp	guess	JJ	O
+1-7	looking	O	O	VBG	O
+1-8	since	1-10_mark	are	IN	O
+1-9	there	1-10_expl	are	EX	O
+1-10	are	1-7_advcl	looking	VBP	O
+1-11	n't	1-10_neg	are	RB	O
+1-12	many	O	O	JJ	O
+1-13	plants	1-10_nsubj	are	NNS	P1_NPart_plants
+1-14	,	O	O	O	O
+1-15	I	1-16_nsubj	guess	PRP	P1_gardener
+1-16	guess	O	O	VBP	O
+1-17	you	1-19_nsubj	say	PRP	P1_gardener
+1-18	could	1-19_aux	say	MD	O
+1-19	say	1-16_ccomp	guess	VB	O
+1-20	it	1-21_nsubj	looks	PRP	O
+1-21	looks	1-19_ccomp	say	VBZ	O
+1-22	barren	1-21_dobj	looks	JJ	O
+1-23	.	O	O	O	O
+
+#id=2
+#text=One day I decided to do something about this , so I went to the local plant store with the intention of buying a tree . 
+2-1	One	O	O	CD	O
+2-2	day	2-4_tmod	decided	NN	P1_NPart_day
+2-3	I	2-4_nsubj	decided	PRP	P1_gardener
+2-4	decided	O	O	VBD	O
+2-5	to	2-6_aux	do	TO	O
+2-6	do	2-4_xcomp	decided	VB	O
+2-7	something	2-6_dobj	do	NN	O
+2-8	about	O	O	O	O
+2-9	this	2-6_prep_about	do	DT	O
+2-10	,	O	O	O	O
+2-11	so	2-4_dep	decided	IN	O
+2-12	I	2-13_nsubj	went	PRP	P1_gardener
+2-13	went	2-4_parataxis	decided	VBD	O
+2-14	to	O	O	O	O
+2-15	the	O	O	DT	O
+2-16	local	O	O	JJ	O
+2-17	plant	O	O	NN	O
+2-18	store	2-13_prep_to	went	NN	P1_shop
+2-19	with	O	O	O	O
+2-20	the	O	O	DT	O
+2-21	intention	2-13_prep_with	went	NN	P1_NPart_intention
+2-22	of	O	O	O	O
+2-23	buying	O	O	VBG	O
+2-24	a	O	O	DT	O
+2-25	tree	2-23_dobj	buying	NN	P1_tree
+2-26	.	O	O	O	O
+
+#id=3
+#text=I decided I wanted the tree to be functional rather than just cosmetic , so I decided to buy a small apple tree . 
+3-1	I	3-2_nsubj	decided	PRP	P1_gardener
+3-2	decided	O	O	VBD	O
+3-3	I	3-4_nsubj	wanted	PRP	P1_gardener
+3-4	wanted	3-2_ccomp	decided	VBD	O
+3-5	the	O	O	DT	O
+3-6	tree	3-4_dobj	wanted	NN	P1_tree
+3-7	to	O	O	TO	O
+3-8	be	O	O	VB	O
+3-9	functional	O	O	JJ	O
+3-10	rather	O	O	RB	O
+3-11	than	O	O	O	O
+3-12	just	O	O	RB	O
+3-13	cosmetic	O	O	JJ	O
+3-14	,	O	O	O	O
+3-15	so	3-2_dep	decided	IN	O
+3-16	I	3-17_nsubj	decided	PRP	P1_gardener
+3-17	decided	3-2_parataxis	decided	VBD	O
+3-18	to	3-19_aux	buy	TO	O
+3-19	buy	3-17_xcomp	decided	VB	O
+3-20	a	O	O	DT	O
+3-21	small	O	O	JJ	O
+3-22	apple	O	O	NN	O
+3-23	tree	3-19_dobj	buy	NN	P1_tree
+3-24	.	O	O	O	O
+
+#id=4
+#text=I brought the tree home and got to work digging a hole in my front yard with a shovel . 
+4-1	I	4-2_nsubj	brought	PRP	P1_gardener
+4-2	brought	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	tree	O	O	NN	P1_tree
+4-5	home	4-2_dobj	brought	NN	O
+4-6	and	O	O	O	O
+4-7	got	4-2_conj_and	brought	VBD	O
+4-8	to	4-9_aux	work	TO	O
+4-9	work	4-7_xcomp	got	VB	O
+4-10	digging	4-9_xcomp	work	VBG	O
+4-11	a	O	O	DT	O
+4-12	hole	4-10_dobj	digging	NN	P1_hole
+4-13	in	O	O	O	O
+4-14	my	O	O	PRP$	P1_gardener
+4-15	front	O	O	JJ	O
+4-16	yard	O	O	NN	P1_location_garden
+4-17	with	O	O	O	O
+4-18	a	O	O	DT	O
+4-19	shovel	4-10_prep_with	digging	NN	P1_gardening_tool
+4-20	.	O	O	O	O
+
+#id=5
+#text=It was hard work and the weather was hot , but finally the hole was big enough to plant the tree . 
+5-1	It	O	O	PRP	O
+5-2	was	O	O	VBD	O
+5-3	hard	O	O	JJ	O
+5-4	work	O	O	NN	P1_NPart_work
+5-5	and	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	weather	O	O	NN	P1_NPart_weather
+5-8	was	O	O	VBD	O
+5-9	hot	O	O	JJ	O
+5-10	,	O	O	O	O
+5-11	but	O	O	O	O
+5-12	finally	O	O	RB	O
+5-13	the	O	O	DT	O
+5-14	hole	O	O	NN	P1_hole
+5-15	was	O	O	VBD	O
+5-16	big	O	O	JJ	O
+5-17	enough	O	O	RB	O
+5-18	to	5-19_aux	plant	TO	O
+5-19	plant	O	O	VB	O
+5-20	the	O	O	DT	O
+5-21	tree	5-19_dobj	plant	NN	P1_tree
+5-22	.	O	O	O	O
+
+#id=6
+#text=I then carefully took the tree out of its pot and placed it in the hole . 
+6-1	I	6-4_nsubj	took	PRP	P1_gardener
+6-2	then	6-4_advmod	took	RB	O
+6-3	carefully	6-4_advmod	took	RB	O
+6-4	took	O	O	VBD	O
+6-5	the	O	O	DT	O
+6-6	tree	6-4_dobj	took	NN	P1_tree
+6-7	out	O	O	O	O
+6-8	of	O	O	O	O
+6-9	its	O	O	PRP$	P1_tree
+6-10	pot	6-4_prep_out_of	took	NN	P1_other
+6-11	and	O	O	O	O
+6-12	placed	6-4_conj_and	took	VBD	O
+6-13	it	6-12_dobj	placed	PRP	P1_tree
+6-14	in	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	hole	6-12_prep_in	placed	NN	P2_hole
+6-17	.	O	O	O	O
+
+#id=7
+#text=I filled the hole back up with dirt and made sure the tree was steady . 
+7-1	I	7-2_nsubj	filled	PRP	P1_gardener
+7-2	filled	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	hole	7-2_dobj	filled	NN	P1_hole
+7-5	back	O	O	RB	O
+7-6	up	7-2_advmod	filled	RB	O
+7-7	with	O	O	O	O
+7-8	dirt	O	O	NN	P1_dirt
+7-9	and	O	O	O	O
+7-10	made	7-2_conj_and	filled	VBD	O
+7-11	sure	7-10_acomp	made	JJ	O
+7-12	the	O	O	DT	O
+7-13	tree	O	O	NN	P1_tree
+7-14	was	O	O	VBD	O
+7-15	steady	O	O	JJ	O
+7-16	.	O	O	O	O
+
+#id=8
+#text=It was a nice sight , some of my neighbors even complimented me . 
+8-1	It	O	O	PRP	P1_tree
+8-2	was	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	nice	O	O	JJ	O
+8-5	sight	8-12_ccomp	complimented	NN	P1_NPart_sight
+8-6	,	O	O	O	O
+8-7	some	8-12_nsubj	complimented	DT	O
+8-8	of	O	O	O	O
+8-9	my	O	O	PRP$	P1_gardener
+8-10	neighbors	O	O	NNS	P1_NPart_neighbors
+8-11	even	8-12_advmod	complimented	RB	O
+8-12	complimented	O	O	VBD	O
+8-13	me	8-12_dobj	complimented	PRP	O
+8-14	.	O	O	O	O
+
+#id=9
+#text=I now water the tree every day to make sure it grows strong . 
+9-1	I	9-3_nsubj	water	PRP	P1_gardener
+9-2	now	9-3_advmod	water	RB	O
+9-3	water	9-12_dep	grows	VB	O
+9-4	the	O	O	DT	O
+9-5	tree	9-3_dobj	water	NN	P1_tree
+9-6	every	O	O	DT	O
+9-7	day	O	O	NN	P2_NPart_day
+9-8	to	9-9_aux	make	TO	O
+9-9	make	9-3_vmod	water	VB	O
+9-10	sure	9-9_acomp	make	JJ	O
+9-11	it	9-12_nsubj	grows	PRP	P1_tree
+9-12	grows	O	O	VBZ	O
+9-13	strong	9-12_acomp	grows	JJ	O
+9-14	.	O	O	O	O

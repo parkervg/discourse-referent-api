@@ -1,0 +1,331 @@
+#id=1
+#text='' Today I baked a pound cake for . 
+1-1	''	O	O	O	O
+1-2	Today	O	O	NNP	O
+1-3	I	1-4_nsubj	baked	NNP	P1_cook
+1-4	baked	O	O	VBD	O
+1-5	a	O	O	DT	O
+1-6	pound	O	O	NN	O
+1-7	cake	1-4_dobj	baked	NN	P1_cake
+1-8	for	1-4_prep	baked	IN	O
+1-9	.	O	O	O	O
+
+#id=2
+#text=I opened my cookbook to the page with the cake recipe . 
+2-1	I	2-2_nsubj	opened	PRP	P1_cook
+2-2	opened	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_cook
+2-4	cookbook	2-2_dobj	opened	NN	P1_recipe_source
+2-5	to	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	page	2-2_prep_to	opened	NN	P1_NPart_page
+2-8	with	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	cake	O	O	NN	O
+2-11	recipe	2-2_prep_with	opened	NN	P1_baking_instructions
+2-12	.	O	O	O	O
+
+#id=3
+#text=I looked at the list of ingredients for the cake , and put them on the counter . 
+3-1	I	3-2_nsubj	looked	PRP	P1_cook
+3-2	looked	O	O	VBD	O
+3-3	at	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	list	3-2_prep_at	looked	NN	P2_baking_instructions
+3-6	of	O	O	O	O
+3-7	ingredients	O	O	NNS	P1_ingredients
+3-8	for	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	cake	3-2_prep_for	looked	NN	P1_cake
+3-11	,	O	O	O	O
+3-12	and	O	O	O	O
+3-13	put	3-2_conj_and	looked	VBD	O
+3-14	them	3-13_dobj	put	PRP	P1_ingredients
+3-15	on	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	counter	3-13_prep_on	put	NN	P1_kitchen/location
+3-18	.	O	O	O	O
+
+#id=4
+#text=I followed the recipe which told me to preheat the oven to 400 degrees . 
+4-1	I	4-2_nsubj	followed	PRP	P1_cook
+4-2	followed	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	recipe	4-2_dobj	followed	NN	P1_baking_instructions
+4-5	which	4-6_nsubj	told	WDT	P1_baking_instructions
+4-6	told	O	O	VBD	O
+4-7	me	4-6_dobj	told	PRP	P1_cook
+4-8	to	4-9_aux	preheat	TO	O
+4-9	preheat	4-6_xcomp	told	VB	O
+4-10	the	O	O	DT	O
+4-11	oven	4-9_dobj	preheat	NN	P1_oven
+4-12	to	O	O	O	O
+4-13	400	O	O	CD	O
+4-14	degrees	4-9_prep_to	preheat	NNS	P1_temperature
+4-15	.	O	O	O	O
+
+#id=5
+#text=I needed eggs , butter , vanilla , salt , baking soda , flour , and sugar . 
+5-1	I	5-2_nsubj	needed	PRP	P1_cook
+5-2	needed	O	O	VBD	O
+5-3	eggs	5-2_dobj	needed	NNS	P2_ingredients
+5-4	,	O	O	O	O
+5-5	butter	O	O	NN	P3_ingredients
+5-6	,	O	O	O	O
+5-7	vanilla	O	O	NN	P4_ingredients
+5-8	,	O	O	O	O
+5-9	salt	O	O	NN	P5_ingredients
+5-10	,	O	O	O	O
+5-11	baking	O	O	JJ	O
+5-12	soda	O	O	NN	P6_ingredients
+5-13	,	O	O	O	O
+5-14	flour	O	O	NN	P7_ingredients
+5-15	,	O	O	O	O
+5-16	and	O	O	O	O
+5-17	sugar	O	O	NN	P8_ingredients
+5-18	.	O	O	O	O
+
+#id=6
+#text=I took out a large bowl , a medium bowl , measuring cups , and measuring spoons . 
+6-1	I	6-2_nsubj	took	PRP	P1_cook
+6-2	took	O	O	VBD	O
+6-3	out	6-2_prt	took	RP	O
+6-4	a	O	O	DT	O
+6-5	large	O	O	JJ	O
+6-6	bowl	6-2_dobj	took	NN	P1_utensil
+6-7	,	O	O	O	O
+6-8	a	O	O	DT	O
+6-9	medium	O	O	JJ	O
+6-10	bowl	O	O	NN	P2_utensil
+6-11	,	O	O	O	O
+6-12	measuring	O	O	NN	O
+6-13	cups	O	O	NNS	P3_utensil
+6-14	,	O	O	O	O
+6-15	and	O	O	O	O
+6-16	measuring	O	O	NN	O
+6-17	spoons	O	O	NNS	P4_utensil
+6-18	.	O	O	O	O
+
+#id=7
+#text=In the large bowl , I put a stick of butter . 
+7-1	In	O	O	O	O
+7-2	the	O	O	DT	O
+7-3	large	O	O	JJ	O
+7-4	bowl	7-7_prep_in	put	NN	P1_utensil
+7-5	,	O	O	O	O
+7-6	I	7-7_nsubj	put	PRP	P1_cook
+7-7	put	O	O	VBD	O
+7-8	a	O	O	DT	O
+7-9	stick	7-7_dobj	put	NN	O
+7-10	of	O	O	O	O
+7-11	butter	O	O	NN	P3_ingredients
+7-12	.	O	O	O	O
+
+#id=8
+#text=I measured a cup of sugar into the same bowl . 
+8-1	I	8-2_nsubj	measured	PRP	P1_cook
+8-2	measured	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	cup	8-2_dobj	measured	NN	P3_utensil
+8-5	of	O	O	O	O
+8-6	sugar	O	O	NN	P8_ingredients
+8-7	into	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	same	O	O	JJ	O
+8-10	bowl	8-2_prep_into	measured	NN	P1_utensil
+8-11	.	O	O	O	O
+
+#id=9
+#text=I used my electric mixer to beat the butter and sugar until they were creamy and fluffy . 
+9-1	I	9-2_nsubj	used	PRP	P1_cook
+9-2	used	O	O	VBD	O
+9-3	my	O	O	PRP$	P1_cook
+9-4	electric	O	O	JJ	O
+9-5	mixer	9-2_dobj	used	NN	P5_utensil
+9-6	to	9-7_aux	beat	TO	O
+9-7	beat	9-2_vmod	used	VB	O
+9-8	the	O	O	DT	O
+9-9	butter	9-7_dobj	beat	NN	P9_ingredients
+9-10	and	O	O	O	O
+9-11	sugar	O	O	NN	P10_ingredients
+9-12	until	O	O	IN	O
+9-13	they	O	O	PRP	P11_ingredients
+9-14	were	O	O	VBD	O
+9-15	creamy	9-7_advcl	beat	JJ	O
+9-16	and	O	O	O	O
+9-17	fluffy	O	O	JJ	O
+9-18	.	O	O	O	O
+
+#id=10
+#text=Then I added eggs and a teaspoon of vanilla and mixed them in . 
+10-1	Then	10-3_advmod	added	RB	O
+10-2	I	10-3_nsubj	added	PRP	P1_cook
+10-3	added	O	O	VBD	O
+10-4	eggs	10-3_dobj	added	NNS	P12_ingredients
+10-5	and	O	O	O	O
+10-6	a	O	O	DT	O
+10-7	teaspoon	O	O	NN	P4_utensil
+10-8	of	O	O	O	O
+10-9	vanilla	O	O	NN	P13_ingredients
+10-10	and	O	O	O	O
+10-11	mixed	O	O	VBN	O
+10-12	them	O	O	PRP	P14_ingredients
+10-13	in	O	O	IN	O
+10-14	.	O	O	O	O
+
+#id=11
+#text=In the medium bowl , I measured flour , along with some salt and baking soda . 
+11-1	In	O	O	O	O
+11-2	the	O	O	DT	O
+11-3	medium	O	O	NN	O
+11-4	bowl	11-7_prep_in	measured	NN	P2_utensil
+11-5	,	O	O	O	O
+11-6	I	11-7_nsubj	measured	PRP	P1_cook
+11-7	measured	O	O	VBD	O
+11-8	flour	11-7_dobj	measured	NN	P15_ingredients
+11-9	,	O	O	O	O
+11-10	along	O	O	O	O
+11-11	with	O	O	O	O
+11-12	some	O	O	DT	O
+11-13	salt	11-7_prep_along_with	measured	NN	P16_ingredients
+11-14	and	O	O	O	O
+11-15	baking	O	O	VBG	O
+11-16	soda	O	O	NN	P17_ingredients
+11-17	.	O	O	O	O
+
+#id=12
+#text=I stirred the dry ingredients together . 
+12-1	I	12-2_nsubj	stirred	PRP	P1_cook
+12-2	stirred	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	dry	O	O	JJ	O
+12-5	ingredients	12-2_dobj	stirred	NNS	P18_ingredients
+12-6	together	12-2_advmod	stirred	RB	O
+12-7	.	O	O	O	O
+
+#id=13
+#text=Next I poured the dry mixture into the wet mixture and stirred until everything was blended . 
+13-1	Next	13-3_advmod	poured	RB	O
+13-2	I	13-3_nsubj	poured	PRP	P1_cook
+13-3	poured	O	O	VBD	O
+13-4	the	O	O	DT	O
+13-5	dry	O	O	JJ	O
+13-6	mixture	13-3_dobj	poured	NN	P19_ingredients
+13-7	into	O	O	O	O
+13-8	the	O	O	DT	O
+13-9	wet	O	O	JJ	O
+13-10	mixture	13-3_prep_into	poured	NN	P20_ingredients
+13-11	and	O	O	O	O
+13-12	stirred	13-3_conj_and	poured	VBD	O
+13-13	until	O	O	IN	O
+13-14	everything	O	O	NN	P1_dough
+13-15	was	O	O	VBD	O
+13-16	blended	13-12_advcl	stirred	JJ	O
+13-17	.	O	O	O	O
+
+#id=14
+#text=I poured the cake batter into a loaf pan . 
+14-1	I	14-2_nsubj	poured	PRP	P1_cook
+14-2	poured	O	O	VBD	O
+14-3	the	O	O	DT	O
+14-4	cake	O	O	NN	O
+14-5	batter	14-2_dobj	poured	NN	P1_dough
+14-6	into	O	O	O	O
+14-7	a	O	O	DT	O
+14-8	loaf	O	O	NN	O
+14-9	pan	14-2_prep_into	poured	NN	P1_cake_tin
+14-10	.	O	O	O	O
+
+#id=15
+#text=Once the oven was preheated , I put the cake in . 
+15-1	Once	15-5_mark	preheated	IN	O
+15-2	the	O	O	DT	O
+15-3	oven	15-5_nsubjpass	preheated	NN	P1_oven
+15-4	was	15-5_auxpass	preheated	VBD	O
+15-5	preheated	15-8_advcl	put	VBN	O
+15-6	,	O	O	O	O
+15-7	I	15-8_nsubj	put	PRP	P1_cook
+15-8	put	O	O	VBD	O
+15-9	the	O	O	DT	O
+15-10	cake	15-8_dobj	put	NN	P1_cake
+15-11	in	15-8_prep	put	IN	O
+15-12	.	O	O	O	O
+
+#id=16
+#text=I baked it for 55 minutes . 
+16-1	I	16-2_nsubj	baked	PRP	P1_cook
+16-2	baked	O	O	VBD	O
+16-3	it	16-2_dobj	baked	PRP	P1_cake
+16-4	for	O	O	O	O
+16-5	55	O	O	CD	O
+16-6	minutes	16-2_prep_for	baked	NNS	P1_time
+16-7	.	O	O	O	O
+
+#id=17
+#text=I put a toothpick in the center and took it out . 
+17-1	I	17-2_nsubj	put	PRP	P1_cook
+17-2	put	O	O	VBD	O
+17-3	a	O	O	DT	O
+17-4	toothpick	17-2_dobj	put	NN	P6_utensil
+17-5	in	O	O	O	O
+17-6	the	O	O	DT	O
+17-7	center	17-2_prep_in	put	NN	P1_NPart_center
+17-8	and	O	O	O	O
+17-9	took	17-2_conj_and	put	VBD	O
+17-10	it	17-9_dobj	took	PRP	P6_utensil
+17-11	out	17-9_prt	took	RP	O
+17-12	.	O	O	O	O
+
+#id=18
+#text=The toothpick came out dry , so I took the cake out and put it on a rack to cool . 
+18-1	The	O	O	DT	O
+18-2	toothpick	18-3_nsubj	came	NN	P6_utensil
+18-3	came	O	O	VBD	O
+18-4	out	18-3_prt	came	RP	O
+18-5	dry	18-3_acomp	came	JJ	O
+18-6	,	O	O	O	O
+18-7	so	18-9_mark	took	IN	O
+18-8	I	18-9_nsubj	took	PRP	P1_cook
+18-9	took	18-3_advcl	came	VBD	O
+18-10	the	O	O	DT	O
+18-11	cake	18-9_dobj	took	NN	P1_cake
+18-12	out	18-9_prt	took	RP	O
+18-13	and	O	O	O	O
+18-14	put	18-9_conj_and	took	VBD	O
+18-15	it	18-14_dobj	put	PRP	P1_cake
+18-16	on	O	O	O	O
+18-17	a	O	O	DT	O
+18-18	rack	18-14_prep_on	put	NN	P7_utensil
+18-19	to	18-20_aux	cool	TO	O
+18-20	cool	O	O	VB	O
+18-21	.	O	O	O	O
+
+#id=19
+#text=I turned off the oven . 
+19-1	I	19-2_nsubj	turned	PRP	P1_cook
+19-2	turned	O	O	VBD	O
+19-3	off	19-2_prt	turned	RP	O
+19-4	the	O	O	DT	O
+19-5	oven	19-2_dobj	turned	NN	P1_oven
+19-6	.	O	O	O	O
+
+#id=20
+#text=Later I got to enjoy a slice of delicious pound cake , along with berries and cream . 
+20-1	Later	20-3_advmod	got	RB	O
+20-2	I	20-3_nsubj	got	PRP	P1_cook
+20-3	got	O	O	VBD	O
+20-4	to	20-5_aux	enjoy	TO	O
+20-5	enjoy	20-3_xcomp	got	VB	O
+20-6	a	O	O	DT	O
+20-7	slice	20-5_dobj	enjoy	NN	O
+20-8	of	O	O	O	O
+20-9	delicious	O	O	JJ	O
+20-10	pound	O	O	NN	O
+20-11	cake	O	O	NN	P1_cake
+20-12	,	O	O	O	O
+20-13	along	O	O	O	O
+20-14	with	O	O	O	O
+20-15	berries	O	O	NNS	P1_decoration
+20-16	and	O	O	O	O
+20-17	cream	O	O	NN	P2_decoration
+20-18	.	O	O	O	O

@@ -1,0 +1,270 @@
+#id=1
+#text=I go to the library very often and am always borrowing books . 
+1-1	I	1-2_nsubj	go	PRP	P1_customer
+1-2	go	O	O	VBP	O
+1-3	to	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	library	1-2_prep_to	go	NN	P1_library
+1-6	very	O	O	RB	O
+1-7	often	1-2_advmod	go	RB	O
+1-8	and	O	O	O	O
+1-9	am	1-11_aux	borrowing	VBP	O
+1-10	always	1-11_advmod	borrowing	RB	O
+1-11	borrowing	1-2_conj_and	go	VBG	O
+1-12	books	1-11_dobj	borrowing	NNS	P1_book
+1-13	.	O	O	O	O
+
+#id=2
+#text=When I decide to go , I take any books with me that I have read and need to return . 
+2-1	When	2-3_advmod	decide	WRB	O
+2-2	I	2-3_nsubj	decide	PRP	P1_customer
+2-3	decide	2-8_advcl	take	VBP	O
+2-4	to	2-5_aux	go	TO	O
+2-5	go	2-3_xcomp	decide	VB	O
+2-6	,	O	O	O	O
+2-7	I	2-8_nsubj	take	PRP	P1_customer
+2-8	take	O	O	VBP	O
+2-9	any	O	O	DT	O
+2-10	books	2-8_dobj	take	NNS	P1_book
+2-11	with	O	O	O	O
+2-12	me	2-8_prep_with	take	PRP	P1_customer
+2-13	that	2-16_mark	read	IN	O
+2-14	I	2-16_nsubj	read	PRP	P1_customer
+2-15	have	2-16_aux	read	VBP	O
+2-16	read	2-8_ccomp	take	VBN	O
+2-17	and	O	O	O	O
+2-18	need	2-8_conj_and	take	VBP	O
+2-19	to	2-20_aux	return	TO	O
+2-20	return	2-18_xcomp	need	VB	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=Once I get to the library , I will walk in and put any books in the return slot that I have brought back . 
+3-1	Once	3-3_mark	get	IN	O
+3-2	I	3-3_nsubj	get	PRP	P1_customer
+3-3	get	3-10_advcl	walk	VBP	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	library	3-3_prep_to	get	NN	P2_library
+3-7	,	O	O	O	O
+3-8	I	3-10_nsubj	walk	PRP	P1_customer
+3-9	will	3-10_aux	walk	MD	O
+3-10	walk	O	O	VB	O
+3-11	in	3-10_prt	walk	RP	O
+3-12	and	O	O	O	O
+3-13	put	3-10_conj_and	walk	VB	O
+3-14	any	O	O	DT	O
+3-15	books	3-13_dobj	put	NNS	P1_book
+3-16	in	O	O	O	O
+3-17	the	O	O	DT	O
+3-18	return	O	O	NN	O
+3-19	slot	3-13_prep_in	put	NN	P1_drop_box
+3-20	that	3-23_mark	brought	IN	O
+3-21	I	3-23_nsubj	brought	PRP	P1_customer
+3-22	have	3-23_aux	brought	VBP	O
+3-23	brought	3-13_ccomp	put	VBN	O
+3-24	back	3-23_advmod	brought	RB	O
+3-25	.	O	O	O	O
+
+#id=4
+#text=I will then go to the section where they put all the new releases of books and see if there are any that I am meaning to read . 
+4-1	I	4-4_nsubj	go	PRP	P1_customer
+4-2	will	4-4_aux	go	MD	O
+4-3	then	4-4_advmod	go	RB	O
+4-4	go	O	O	VB	O
+4-5	to	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	section	4-4_prep_to	go	NN	P1_location_library
+4-8	where	4-10_advmod	put	WRB	O
+4-9	they	4-10_nsubj	put	PRP	P1_staff
+4-10	put	4-4_advcl	go	VBD	O
+4-11	all	O	O	PDT	O
+4-12	the	O	O	DT	O
+4-13	new	O	O	JJ	O
+4-14	releases	4-10_dobj	put	NNS	O
+4-15	of	O	O	O	O
+4-16	books	O	O	NNS	P1_book
+4-17	and	O	O	O	O
+4-18	see	4-4_conj_and	go	VB	O
+4-19	if	4-21_mark	are	IN	O
+4-20	there	4-21_expl	are	EX	O
+4-21	are	4-18_advcl	see	VBP	O
+4-22	any	4-21_nsubj	are	DT	O
+4-23	that	4-26_mark	meaning	IN	O
+4-24	I	4-26_nsubj	meaning	PRP	P1_customer
+4-25	am	4-26_aux	meaning	VBP	O
+4-26	meaning	O	O	VBG	O
+4-27	to	4-28_aux	read	TO	O
+4-28	read	4-26_xcomp	meaning	VB	O
+4-29	.	O	O	O	O
+
+#id=5
+#text=I also check out my two favorite sections of the library and grab a couple of the books that I have been meaning to read or that are the next in a series . 
+5-1	I	5-3_nsubj	check	PRP	P1_customer
+5-2	also	5-3_advmod	check	RB	O
+5-3	check	O	O	VB	O
+5-4	out	5-3_prt	check	RP	O
+5-5	my	O	O	PRP$	P1_customer
+5-6	two	O	O	CD	O
+5-7	favorite	O	O	JJ	O
+5-8	sections	5-3_dobj	check	NNS	P1_location_library
+5-9	of	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	library	O	O	NN	P2_library
+5-12	and	O	O	O	O
+5-13	grab	5-3_conj_and	check	VB	O
+5-14	a	O	O	DT	O
+5-15	couple	5-13_dobj	grab	NN	O
+5-16	of	O	O	O	O
+5-17	the	O	O	DT	O
+5-18	books	O	O	NNS	P1_book
+5-19	that	5-23_mark	meaning	IN	O
+5-20	I	5-23_nsubj	meaning	PRP	P1_customer
+5-21	have	5-23_aux	meaning	VBP	O
+5-22	been	5-23_aux	meaning	VBN	O
+5-23	meaning	5-13_ccomp	grab	VBG	O
+5-24	to	5-25_aux	read	TO	O
+5-25	read	5-23_xcomp	meaning	VB	O
+5-26	or	O	O	O	O
+5-27	that	O	O	WDT	O
+5-28	are	O	O	VBP	O
+5-29	the	O	O	DT	O
+5-30	next	5-23_conj_or	meaning	JJ	O
+5-31	in	O	O	O	O
+5-32	a	O	O	DT	O
+5-33	series	O	O	NN	P1_NPart_series
+5-34	.	O	O	O	O
+
+#id=6
+#text=When I 'm ready to borrow the books , I head up to the main desk and wait in line . 
+6-1	When	O	O	WRB	O
+6-2	I	O	O	PRP	P1_customer
+6-3	'm	O	O	VBP	O
+6-4	ready	6-11_advcl	head	JJ	O
+6-5	to	6-6_aux	borrow	TO	O
+6-6	borrow	O	O	VB	O
+6-7	the	O	O	DT	O
+6-8	books	6-6_dobj	borrow	NNS	P1_book
+6-9	,	O	O	O	O
+6-10	I	6-11_nsubj	head	PRP	P1_customer
+6-11	head	O	O	VB	O
+6-12	up	6-11_prt	head	RP	O
+6-13	to	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	main	O	O	JJ	O
+6-16	desk	6-11_prep_to	head	NN	P1_check-out_desk
+6-17	and	O	O	O	O
+6-18	wait	6-11_conj_and	head	VB	O
+6-19	in	O	O	O	O
+6-20	line	6-18_prep_in	wait	NN	P1_line
+6-21	.	O	O	O	O
+
+#id=7
+#text=When it is my turn , I place the books on the counter for the person to scan . 
+7-1	When	O	O	WRB	O
+7-2	it	O	O	PRP	O
+7-3	is	O	O	VBZ	O
+7-4	my	O	O	PRP$	P1_customer
+7-5	turn	7-8_advcl	place	NN	O
+7-6	,	O	O	O	O
+7-7	I	7-8_nsubj	place	PRP	P2_customer
+7-8	place	O	O	VBP	O
+7-9	the	O	O	DT	O
+7-10	books	7-8_dobj	place	NNS	P1_book
+7-11	on	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	counter	7-8_prep_on	place	NN	P1_check-out_desk
+7-14	for	O	O	O	O
+7-15	the	O	O	DT	O
+7-16	person	O	O	NN	P2_staff
+7-17	to	7-18_aux	scan	TO	O
+7-18	scan	7-8_vmod	place	VB	O
+7-19	.	O	O	O	O
+
+#id=8
+#text=I also have to give them my library card so that they can keep track of who is borrowing the books . 
+8-1	I	8-3_nsubj	have	PRP	P1_customer
+8-2	also	8-3_advmod	have	RB	O
+8-3	have	O	O	VBP	O
+8-4	to	8-5_aux	give	TO	O
+8-5	give	8-3_xcomp	have	VB	O
+8-6	them	8-5_iobj	give	PRP	P2_staff
+8-7	my	O	O	PRP$	P1_customer
+8-8	library	O	O	NN	O
+8-9	card	8-5_dobj	give	NN	P1_library_card
+8-10	so	8-14_advmod	keep	RB	O
+8-11	that	8-14_mark	keep	IN	O
+8-12	they	8-14_nsubj	keep	PRP	P2_staff
+8-13	can	8-14_aux	keep	MD	O
+8-14	keep	8-5_advcl	give	VB	O
+8-15	track	8-14_dobj	keep	NN	O
+8-16	of	O	O	O	O
+8-17	who	8-19_nsubj	borrowing	WP	O
+8-18	is	8-19_aux	borrowing	VBZ	O
+8-19	borrowing	O	O	VBG	O
+8-20	the	O	O	DT	O
+8-21	books	8-19_dobj	borrowing	NNS	P1_book
+8-22	.	O	O	O	O
+
+#id=9
+#text=They scan my card , and then print out a receipt that shows when my books will each be due . 
+9-1	They	9-2_nsubj	scan	PRP	P2_staff
+9-2	scan	O	O	VB	O
+9-3	my	O	O	PRP$	P1_customer
+9-4	card	9-2_dobj	scan	NN	P2_library_card
+9-5	,	O	O	O	O
+9-6	and	O	O	O	O
+9-7	then	9-8_advmod	print	RB	O
+9-8	print	9-2_conj_and	scan	VB	O
+9-9	out	9-8_prt	print	RP	O
+9-10	a	O	O	DT	O
+9-11	receipt	9-8_dobj	print	NN	P1_receipt
+9-12	that	9-13_nsubj	shows	WDT	O
+9-13	shows	O	O	VBZ	O
+9-14	when	O	O	WRB	O
+9-15	my	O	O	PRP$	P1_customer
+9-16	books	O	O	NNS	P1_book
+9-17	will	O	O	MD	O
+9-18	each	O	O	DT	O
+9-19	be	O	O	VB	O
+9-20	due	9-13_advcl	shows	JJ	O
+9-21	.	O	O	O	O
+
+#id=10
+#text=They put the receipt inside one of the books so that I wo n't lose it , and after I thank them for their help , I head home to begin reading my new books . 
+10-1	They	10-2_nsubj	put	PRP	P2_staff
+10-2	put	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	receipt	10-2_dobj	put	NN	P1_receipt
+10-5	inside	O	O	O	O
+10-6	one	10-2_prep_inside	put	CD	O
+10-7	of	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	books	O	O	NNS	P1_book
+10-10	so	10-15_advmod	lose	RB	O
+10-11	that	10-15_mark	lose	IN	O
+10-12	I	10-15_nsubj	lose	PRP	P1_customer
+10-13	wo	10-15_aux	lose	MD	O
+10-14	n't	10-15_neg	lose	RB	O
+10-15	lose	10-2_advcl	put	VB	O
+10-16	it	10-15_dobj	lose	PRP	P1_receipt
+10-17	,	O	O	O	O
+10-18	and	O	O	O	O
+10-19	after	10-21_mark	thank	IN	O
+10-20	I	10-21_nsubj	thank	PRP	P1_customer
+10-21	thank	10-28_advcl	head	VBP	O
+10-22	them	10-21_dobj	thank	PRP	P2_staff
+10-23	for	O	O	O	O
+10-24	their	O	O	PRP$	P2_staff
+10-25	help	10-21_prep_for	thank	NN	P1_NPart_help
+10-26	,	O	O	O	O
+10-27	I	10-28_nsubj	head	PRP	P1_customer
+10-28	head	10-2_conj_and	put	VBP	O
+10-29	home	10-28_advmod	head	RB	O
+10-30	to	10-31_aux	begin	TO	O
+10-31	begin	10-28_xcomp	head	VB	O
+10-32	reading	10-31_xcomp	begin	VBG	O
+10-33	my	O	O	PRP$	P1_customer
+10-34	new	O	O	JJ	O
+10-35	books	10-32_dobj	reading	NNS	P1_book
+10-36	.	O	O	O	O

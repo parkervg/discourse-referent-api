@@ -1,0 +1,195 @@
+#id=1
+#text=It 's a major bummer when you are excited to ride your bike only to find that you have somehow ended up with a flat tire . 
+1-1	It	O	O	PRP	O
+1-2	's	O	O	VBZ	O
+1-3	a	O	O	DT	O
+1-4	major	O	O	JJ	O
+1-5	bummer	O	O	NN	O
+1-6	when	O	O	WRB	O
+1-7	you	O	O	PRP	P1_rider
+1-8	are	O	O	VBP	O
+1-9	excited	O	O	JJ	O
+1-10	to	1-11_aux	ride	TO	O
+1-11	ride	O	O	VB	O
+1-12	your	O	O	PRP$	P1_rider
+1-13	bike	1-11_dobj	ride	NN	P1_bicycle
+1-14	only	1-11_advmod	ride	RB	O
+1-15	to	1-16_aux	find	TO	O
+1-16	find	1-11_vmod	ride	VB	O
+1-17	that	1-21_mark	ended	IN	O
+1-18	you	1-21_nsubj	ended	PRP	P1_rider
+1-19	have	1-21_aux	ended	VBP	O
+1-20	somehow	1-21_advmod	ended	RB	O
+1-21	ended	1-16_ccomp	find	VBN	O
+1-22	up	1-21_prt	ended	RP	O
+1-23	with	O	O	O	O
+1-24	a	O	O	DT	O
+1-25	flat	O	O	JJ	O
+1-26	tire	1-21_prep_with	ended	NN	P1_tire
+1-27	.	O	O	O	O
+
+#id=2
+#text=I try to keep a repair kit on hand for just such an opportunity . 
+2-1	I	2-2_nsubj	try	PRP	P1_rider
+2-2	try	O	O	VBP	O
+2-3	to	2-4_aux	keep	TO	O
+2-4	keep	2-2_xcomp	try	VB	O
+2-5	a	O	O	DT	O
+2-6	repair	O	O	NN	O
+2-7	kit	2-4_dobj	keep	NN	P1_tool
+2-8	on	O	O	O	O
+2-9	hand	2-4_prep_on	keep	NN	O
+2-10	for	O	O	O	O
+2-11	just	O	O	RB	O
+2-12	such	O	O	PDT	O
+2-13	an	O	O	DT	O
+2-14	opportunity	O	O	NN	P1_NPart_opportunity
+2-15	.	O	O	O	O
+
+#id=3
+#text=The first thing I do is determine what is the cause of the flat . 
+3-1	The	O	O	DT	O
+3-2	first	O	O	JJ	O
+3-3	thing	3-7_nsubj	determine	NN	O
+3-4	I	3-5_nsubj	do	PRP	P1_rider
+3-5	do	O	O	VBP	O
+3-6	is	3-7_aux	determine	VBZ	O
+3-7	determine	O	O	VB	O
+3-8	what	O	O	WP	O
+3-9	is	O	O	VBZ	O
+3-10	the	O	O	DT	O
+3-11	cause	3-7_ccomp	determine	NN	P1_object_damage
+3-12	of	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	flat	O	O	JJ	P1_tire
+3-15	.	O	O	O	O
+
+#id=4
+#text=Perhaps the tire has been punctured , or perhaps it is an older tire and the seal is failing . 
+4-1	Perhaps	4-6_advmod	punctured	RB	O
+4-2	the	O	O	DT	O
+4-3	tire	4-6_nsubjpass	punctured	NN	P1_tire
+4-4	has	4-6_aux	punctured	VBZ	O
+4-5	been	4-6_auxpass	punctured	VBN	O
+4-6	punctured	O	O	VBN	O
+4-7	,	O	O	O	O
+4-8	or	O	O	O	O
+4-9	perhaps	O	O	RB	O
+4-10	it	O	O	PRP	P1_tire
+4-11	is	O	O	VBZ	O
+4-12	an	O	O	DT	O
+4-13	older	O	O	JJR	O
+4-14	tire	4-6_conj_or	punctured	NN	P1_tire
+4-15	and	O	O	O	O
+4-16	the	O	O	DT	O
+4-17	seal	4-19_nsubj	failing	NN	P1_bicycle_small_detail
+4-18	is	4-19_aux	failing	VBZ	O
+4-19	failing	O	O	VBG	O
+4-20	.	O	O	O	O
+
+#id=5
+#text=If it is a puncture , I would do my best to seal the hole with my available materials and then allow the sealant to dry for as long as is required . 
+5-1	If	O	O	IN	O
+5-2	it	O	O	PRP	P1_object_damage
+5-3	is	O	O	VBZ	O
+5-4	a	O	O	DT	O
+5-5	puncture	5-9_advcl	do	NN	P1_object_damage
+5-6	,	O	O	O	O
+5-7	I	5-9_nsubj	do	PRP	P1_rider
+5-8	would	5-9_aux	do	MD	O
+5-9	do	O	O	VB	O
+5-10	my	O	O	PRP$	P1_rider
+5-11	best	5-9_dobj	do	JJS	O
+5-12	to	5-13_aux	seal	TO	O
+5-13	seal	5-9_vmod	do	VB	O
+5-14	the	O	O	DT	O
+5-15	hole	5-13_dobj	seal	NN	P1_object_damage
+5-16	with	O	O	O	O
+5-17	my	O	O	PRP$	P1_rider
+5-18	available	O	O	JJ	O
+5-19	materials	5-13_prep_with	seal	NNS	P2_tool
+5-20	and	O	O	O	O
+5-21	then	5-22_advmod	allow	RB	O
+5-22	allow	5-13_conj_and	seal	VB	O
+5-23	the	O	O	DT	O
+5-24	sealant	5-22_dobj	allow	NN	P1_patch
+5-25	to	5-26_aux	dry	TO	O
+5-26	dry	O	O	VB	O
+5-27	for	5-26_prep	dry	IN	O
+5-28	as	5-32_advmod	required	RB	O
+5-29	long	5-32_advmod	required	RB	O
+5-30	as	5-32_advmod	required	RB	O
+5-31	is	5-32_auxpass	required	VBZ	O
+5-32	required	5-26_ccomp	dry	VBN	O
+5-33	.	O	O	O	O
+
+#id=6
+#text=I have my tire pump on hand , so when the tire is ready I can slowly pump air while also watching to see if I am losing air . 
+6-1	I	6-2_nsubj	have	PRP	P1_rider
+6-2	have	O	O	VBP	O
+6-3	my	O	O	PRP$	P1_rider
+6-4	tire	O	O	NN	O
+6-5	pump	6-2_dobj	have	NN	P3_tool
+6-6	on	O	O	O	O
+6-7	hand	6-2_prep_on	have	NN	O
+6-8	,	O	O	O	O
+6-9	so	6-2_dep	have	IN	O
+6-10	when	O	O	WRB	O
+6-11	the	O	O	DT	O
+6-12	tire	O	O	NN	P1_tire
+6-13	is	O	O	VBZ	O
+6-14	ready	6-18_advcl	pump	JJ	O
+6-15	I	6-18_nsubj	pump	PRP	P1_rider
+6-16	can	6-18_aux	pump	MD	O
+6-17	slowly	6-18_advmod	pump	RB	O
+6-18	pump	6-2_parataxis	have	VB	O
+6-19	air	6-18_dobj	pump	NN	P1_air
+6-20	while	6-22_mark	watching	IN	O
+6-21	also	6-22_advmod	watching	RB	O
+6-22	watching	6-18_advcl	pump	VBG	O
+6-23	to	6-24_aux	see	TO	O
+6-24	see	6-22_xcomp	watching	VB	O
+6-25	if	6-28_mark	losing	IN	O
+6-26	I	6-28_nsubj	losing	PRP	P1_rider
+6-27	am	6-28_aux	losing	VBP	O
+6-28	losing	6-24_advcl	see	VBG	O
+6-29	air	6-28_dobj	losing	NN	P1_air
+6-30	.	O	O	O	O
+
+#id=7
+#text=If the seal holds , my bike is good to go . 
+7-1	If	7-4_mark	holds	IN	O
+7-2	the	O	O	DT	O
+7-3	seal	7-4_nsubj	holds	NN	P1_bicycle_small_detail
+7-4	holds	O	O	VBZ	O
+7-5	,	O	O	O	O
+7-6	my	O	O	PRP$	P1_rider
+7-7	bike	O	O	NN	P1_bicycle
+7-8	is	O	O	VBZ	O
+7-9	good	O	O	JJ	O
+7-10	to	7-11_aux	go	TO	O
+7-11	go	O	O	VB	O
+7-12	.	O	O	O	O
+
+#id=8
+#text=If I still feel or see a leak , I know there is a bigger issue to contend with . 
+8-1	If	8-4_mark	feel	IN	O
+8-2	I	8-4_nsubj	feel	PRP	P1_rider
+8-3	still	8-4_advmod	feel	RB	O
+8-4	feel	8-11_advcl	know	VBP	O
+8-5	or	O	O	O	O
+8-6	see	8-4_conj_or	feel	VBP	O
+8-7	a	O	O	DT	O
+8-8	leak	8-4_dobj	feel	NN	P1_object_damage
+8-9	,	O	O	O	O
+8-10	I	8-11_nsubj	know	PRP	P1_rider
+8-11	know	O	O	VBP	O
+8-12	there	8-13_expl	is	EX	O
+8-13	is	8-11_ccomp	know	VBZ	O
+8-14	a	O	O	DT	O
+8-15	bigger	O	O	JJR	O
+8-16	issue	8-13_nsubj	is	NN	P1_NPart_issue
+8-17	to	8-18_aux	contend	TO	O
+8-18	contend	O	O	VB	O
+8-19	with	8-18_prep	contend	IN	O
+8-20	.	O	O	O	O

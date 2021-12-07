@@ -1,0 +1,215 @@
+#id=1
+#text=After looking in the fridge , I realized I had to go buy some food . 
+1-1	After	O	O	O	O
+1-2	looking	1-8_prepc_after	realized	VBG	O
+1-3	in	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	fridge	1-2_prep_in	looking	NN	P1_NPart_fridge
+1-6	,	O	O	O	O
+1-7	I	1-8_nsubj	realized	PRP	P1_shopper
+1-8	realized	O	O	VBD	O
+1-9	I	1-10_nsubj	had	PRP	P1_shopper
+1-10	had	1-8_ccomp	realized	VBD	O
+1-11	to	1-12_aux	go	TO	O
+1-12	go	1-10_xcomp	had	VB	O
+1-13	buy	1-12_xcomp	go	VB	O
+1-14	some	O	O	DT	O
+1-15	food	1-13_dobj	buy	NN	P1_groceries
+1-16	.	O	O	O	O
+
+#id=2
+#text=There were essential things I needed , like milk , eggs , flour , sugar , butter , fruits , and vegetables . 
+2-1	There	2-2_expl	were	EX	O
+2-2	were	O	O	VBD	O
+2-3	essential	O	O	JJ	O
+2-4	things	2-2_nsubj	were	NNS	P1_groceries
+2-5	I	2-6_nsubj	needed	PRP	P1_shopper
+2-6	needed	O	O	VBD	O
+2-7	,	O	O	O	O
+2-8	like	O	O	O	O
+2-9	milk	2-2_prep_like	were	NN	P2_groceries
+2-10	,	O	O	O	O
+2-11	eggs	O	O	NNS	P3_groceries
+2-12	,	O	O	O	O
+2-13	flour	O	O	NN	P4_groceries
+2-14	,	O	O	O	O
+2-15	sugar	O	O	NN	P5_groceries
+2-16	,	O	O	O	O
+2-17	butter	O	O	NN	P6_groceries
+2-18	,	O	O	O	O
+2-19	fruits	O	O	NNS	P7_groceries
+2-20	,	O	O	O	O
+2-21	and	O	O	O	O
+2-22	vegetables	O	O	NNS	P8_groceries
+2-23	.	O	O	O	O
+
+#id=3
+#text=I usually shop at a discount store that has really good deals on certain items . 
+3-1	I	3-3_nsubj	shop	PRP	P1_shopper
+3-2	usually	3-3_advmod	shop	RB	O
+3-3	shop	O	O	VB	O
+3-4	at	O	O	O	O
+3-5	a	O	O	DT	O
+3-6	discount	O	O	NN	O
+3-7	store	3-3_prep_at	shop	NN	P1_grocery_shop
+3-8	that	3-9_nsubj	has	WDT	P1_grocery_shop
+3-9	has	O	O	VBZ	O
+3-10	really	O	O	RB	O
+3-11	good	O	O	JJ	O
+3-12	deals	3-9_dobj	has	NNS	P1_other
+3-13	on	O	O	O	O
+3-14	certain	O	O	JJ	O
+3-15	items	O	O	NNS	P9_groceries
+3-16	.	O	O	O	O
+
+#id=4
+#text=Towards the end of the month , they hold a wine sale where all bottles are twenty percent off . 
+4-1	Towards	4-9_ccomp	hold	VB	O
+4-2	the	O	O	DT	O
+4-3	end	4-1_dobj	Towards	NN	O
+4-4	of	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	month	O	O	NN	P1_NPart_month
+4-7	,	O	O	O	O
+4-8	they	4-9_nsubj	hold	PRP	P1_grocery_shop
+4-9	hold	O	O	VBP	O
+4-10	a	O	O	DT	O
+4-11	wine	O	O	NN	P10_groceries
+4-12	sale	4-9_dobj	hold	NN	P2_other
+4-13	where	4-17_advmod	twenty	WRB	O
+4-14	all	O	O	DT	O
+4-15	bottles	4-17_nsubj	twenty	NNS	P11_groceries
+4-16	are	4-17_aux	twenty	VBP	O
+4-17	twenty	4-9_advcl	hold	VBG	O
+4-18	percent	4-17_dobj	twenty	NN	O
+4-19	off	4-17_prt	twenty	RP	O
+4-20	.	O	O	O	O
+
+#id=5
+#text=I usually purchase my wine for the month during that time . 
+5-1	I	5-3_nsubj	purchase	PRP	P1_shopper
+5-2	usually	5-3_advmod	purchase	RB	O
+5-3	purchase	O	O	VBP	O
+5-4	my	O	O	PRP$	P1_shopper
+5-5	wine	5-3_dobj	purchase	NN	P10_groceries
+5-6	for	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	month	5-3_prep_for	purchase	NN	P2_NPart_month
+5-9	during	O	O	O	O
+5-10	that	O	O	DT	O
+5-11	time	O	O	NN	P1_NPart_time
+5-12	.	O	O	O	O
+
+#id=6
+#text=Wine was on my list for today as well . 
+6-1	Wine	6-2_nsubj	was	NNP	P10_groceries
+6-2	was	O	O	VBD	O
+6-3	on	O	O	O	O
+6-4	my	O	O	PRP$	P1_shopper
+6-5	list	6-2_prep_on	was	NN	P1_grocery_list
+6-6	for	O	O	O	O
+6-7	today	O	O	NN	P1_NPart_today
+6-8	as	O	O	RB	O
+6-9	well	6-2_advmod	was	RB	O
+6-10	.	O	O	O	O
+
+#id=7
+#text=My pantry had a lot of dry goods , so I had little intention of purchasing products in that category . 
+7-1	My	O	O	PRP$	P1_shopper
+7-2	pantry	7-3_nsubj	had	NN	P1_NPart_pantry
+7-3	had	O	O	VBD	O
+7-4	a	O	O	DT	O
+7-5	lot	7-3_dobj	had	NN	O
+7-6	of	O	O	O	O
+7-7	dry	O	O	JJ	O
+7-8	goods	O	O	NNS	P12_groceries
+7-9	,	O	O	O	O
+7-10	so	7-3_dep	had	IN	O
+7-11	I	7-12_nsubj	had	PRP	P1_shopper
+7-12	had	7-3_parataxis	had	VBD	O
+7-13	little	O	O	JJ	O
+7-14	intention	7-12_dobj	had	NN	P1_NPart_intention
+7-15	of	O	O	O	O
+7-16	purchasing	O	O	VBG	O
+7-17	products	O	O	NNS	P12_groceries
+7-18	in	O	O	O	O
+7-19	that	O	O	DT	O
+7-20	category	O	O	NN	P1_NPart_category
+7-21	.	O	O	O	O
+
+#id=8
+#text=My deep freezer was running low , so one of the things I kept an eye out for was meat that was on sale . 
+8-1	My	O	O	PRP$	P1_shopper
+8-2	deep	O	O	JJ	O
+8-3	freezer	8-5_nsubj	running	NN	P1_NPart_freezer
+8-4	was	8-5_aux	running	VBD	O
+8-5	running	O	O	VBG	O
+8-6	low	8-5_acomp	running	JJ	O
+8-7	,	O	O	O	O
+8-8	so	8-5_dep	running	IN	O
+8-9	one	O	O	CD	O
+8-10	of	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	things	O	O	NNS	P13_groceries
+8-13	I	8-14_nsubj	kept	PRP	P1_shopper
+8-14	kept	O	O	VBD	O
+8-15	an	O	O	DT	O
+8-16	eye	8-14_dobj	kept	NN	O
+8-17	out	8-14_prt	kept	RP	O
+8-18	for	8-14_prep	kept	IN	O
+8-19	was	O	O	VBD	O
+8-20	meat	8-5_parataxis	running	NN	P13_groceries
+8-21	that	8-22_nsubj	was	WDT	P13_groceries
+8-22	was	O	O	VBD	O
+8-23	on	O	O	O	O
+8-24	sale	8-22_prep_on	was	NN	O
+8-25	.	O	O	O	O
+
+#id=9
+#text=I was able to find hams at severely discounted price ! 
+9-1	I	O	O	PRP	P1_shopper
+9-2	was	O	O	VBD	O
+9-3	able	O	O	JJ	O
+9-4	to	9-5_aux	find	TO	O
+9-5	find	O	O	VB	O
+9-6	hams	9-5_dobj	find	NNS	P13_groceries
+9-7	at	O	O	O	O
+9-8	severely	9-9_advmod	discounted	RB	O
+9-9	discounted	O	O	VBN	O
+9-10	price	9-5_prep_at	find	NN	P1_price
+9-11	!	O	O	O	O
+
+#id=10
+#text=After grabbing four bottles of wine with the rest of my groceries , I went to the cashier , checked out , and drove home to put all the food away . 
+10-1	After	O	O	O	O
+10-2	grabbing	10-15_prepc_after	went	VBG	O
+10-3	four	O	O	CD	O
+10-4	bottles	10-2_dobj	grabbing	NNS	O
+10-5	of	O	O	O	O
+10-6	wine	O	O	NN	P10_groceries
+10-7	with	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	rest	10-2_prep_with	grabbing	NN	O
+10-10	of	O	O	O	O
+10-11	my	O	O	PRP$	P1_shopper
+10-12	groceries	O	O	NNS	P14_groceries
+10-13	,	O	O	O	O
+10-14	I	10-15_nsubj	went	PRP	P1_shopper
+10-15	went	O	O	VBD	O
+10-16	to	O	O	O	O
+10-17	the	O	O	DT	O
+10-18	cashier	10-15_prep_to	went	NN	P1_grocery_staff
+10-19	,	O	O	O	O
+10-20	checked	10-15_conj_and	went	VBD	O
+10-21	out	10-20_prt	checked	RP	O
+10-22	,	O	O	O	O
+10-23	and	O	O	O	O
+10-24	drove	10-15_conj_and	went	VBD	O
+10-25	home	10-24_dobj	drove	NN	P1_NPart_home
+10-26	to	10-27_aux	put	TO	O
+10-27	put	10-24_vmod	drove	VB	O
+10-28	all	O	O	PDT	O
+10-29	the	O	O	DT	O
+10-30	food	10-27_dobj	put	NN	P14_groceries
+10-31	away	10-27_advmod	put	RB	O
+10-32	.	O	O	O	O

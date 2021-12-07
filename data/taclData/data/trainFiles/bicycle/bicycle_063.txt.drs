@@ -1,0 +1,201 @@
+#id=1
+#text=Last week , I was riding my bicycle on a dirt path through the forest . 
+1-1	Last	O	O	JJ	O
+1-2	week	1-6_tmod	riding	NN	P1_NPart_week
+1-3	,	O	O	O	O
+1-4	I	1-6_nsubj	riding	PRP	P1_rider
+1-5	was	1-6_aux	riding	VBD	O
+1-6	riding	O	O	VBG	O
+1-7	my	O	O	PRP$	P1_rider
+1-8	bicycle	1-6_dobj	riding	NN	P1_bicycle
+1-9	on	O	O	O	O
+1-10	a	O	O	DT	O
+1-11	dirt	O	O	NN	O
+1-12	path	1-6_prep_on	riding	NN	P1_NPart_path
+1-13	through	O	O	O	O
+1-14	the	O	O	DT	O
+1-15	forest	1-6_prep_through	riding	NN	P1_NPart_forest
+1-16	.	O	O	O	O
+
+#id=2
+#text=The path had many rocks and branches on it and at some point during my ride , I hit a rock and put a hole in the tire . 
+2-1	The	O	O	DT	O
+2-2	path	2-3_nsubj	had	NN	P2_NPart_path
+2-3	had	2-19_ccomp	hit	VBD	O
+2-4	many	O	O	JJ	O
+2-5	rocks	2-3_dobj	had	NNS	P1_NPart_rocks
+2-6	and	O	O	O	O
+2-7	branches	O	O	NNS	P1_NPart_branches
+2-8	on	O	O	O	O
+2-9	it	2-3_prep_on	had	PRP	P1_NPart_it
+2-10	and	O	O	O	O
+2-11	at	O	O	O	O
+2-12	some	O	O	DT	O
+2-13	point	2-3_prep_at	had	NN	O
+2-14	during	O	O	O	O
+2-15	my	O	O	PRP$	P1_rider
+2-16	ride	2-3_prep_during	had	NN	P1_ride
+2-17	,	O	O	O	O
+2-18	I	2-19_nsubj	hit	PRP	P1_rider
+2-19	hit	O	O	VBD	O
+2-20	a	O	O	DT	O
+2-21	rock	2-19_dobj	hit	NN	P1_object_damage
+2-22	and	O	O	O	O
+2-23	put	2-19_conj_and	hit	VBD	O
+2-24	a	O	O	DT	O
+2-25	hole	2-23_dobj	put	NN	P1_damage
+2-26	in	O	O	O	O
+2-27	the	O	O	DT	O
+2-28	tire	2-23_prep_in	put	NN	P1_tire
+2-29	.	O	O	O	O
+
+#id=3
+#text=I was forced to walk my bike back to my house and inspect the tires . 
+3-1	I	3-3_nsubjpass	forced	PRP	P1_rider
+3-2	was	3-3_auxpass	forced	VBD	O
+3-3	forced	O	O	VBN	O
+3-4	to	3-5_aux	walk	TO	O
+3-5	walk	3-3_xcomp	forced	VB	O
+3-6	my	O	O	PRP$	P1_rider
+3-7	bike	3-5_dobj	walk	NN	P1_bicycle
+3-8	back	3-5_prt	walk	RP	O
+3-9	to	O	O	O	O
+3-10	my	O	O	PRP$	P1_rider
+3-11	house	3-5_prep_to	walk	NN	P1_NPart_house
+3-12	and	O	O	O	O
+3-13	inspect	3-5_conj_and	walk	VB	O
+3-14	the	O	O	DT	O
+3-15	tires	3-13_dobj	inspect	NNS	P1_tire
+3-16	.	O	O	O	O
+
+#id=4
+#text=It seemed to be a minor hole where the rock had pierced the tire that would require some minor patching . 
+4-1	It	4-2_nsubj	seemed	PRP	O
+4-2	seemed	O	O	VBD	O
+4-3	to	O	O	TO	O
+4-4	be	O	O	VB	O
+4-5	a	O	O	DT	O
+4-6	minor	O	O	JJ	O
+4-7	hole	4-2_xcomp	seemed	NN	P1_damage
+4-8	where	4-12_advmod	pierced	WRB	O
+4-9	the	O	O	DT	O
+4-10	rock	4-12_nsubj	pierced	NN	P1_object_damage
+4-11	had	4-12_aux	pierced	VBD	O
+4-12	pierced	O	O	VBN	O
+4-13	the	O	O	DT	O
+4-14	tire	4-12_dobj	pierced	NN	P1_tire
+4-15	that	4-17_nsubj	require	WDT	O
+4-16	would	4-17_aux	require	MD	O
+4-17	require	O	O	VB	O
+4-18	some	O	O	DT	O
+4-19	minor	O	O	JJ	O
+4-20	patching	4-17_dobj	require	NN	O
+4-21	.	O	O	O	O
+
+#id=5
+#text=I loaded the bicycle into the back of the car and drove it to our local bike shop where they applied some sort of fill to the hole and patched it up . 
+5-1	I	5-2_nsubj	loaded	PRP	P1_rider
+5-2	loaded	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	bicycle	5-2_dobj	loaded	NN	P1_bicycle
+5-5	into	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	back	5-2_prep_into	loaded	NN	P1_NPart_back
+5-8	of	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	car	O	O	NN	P1_NPart_car
+5-11	and	O	O	O	O
+5-12	drove	5-2_conj_and	loaded	VBD	O
+5-13	it	5-12_dobj	drove	PRP	P1_bicycle
+5-14	to	O	O	O	O
+5-15	our	O	O	PRP$	O
+5-16	local	O	O	JJ	O
+5-17	bike	O	O	NN	O
+5-18	shop	5-12_prep_to	drove	NN	P1_shop
+5-19	where	5-21_advmod	applied	WRB	O
+5-20	they	5-21_nsubj	applied	PRP	P1_other
+5-21	applied	5-12_advcl	drove	VBD	O
+5-22	some	O	O	DT	O
+5-23	sort	5-21_dobj	applied	NN	O
+5-24	of	O	O	O	O
+5-25	fill	O	O	NN	P1_patch
+5-26	to	O	O	O	O
+5-27	the	O	O	DT	O
+5-28	hole	5-21_prep_to	applied	NN	P1_damage
+5-29	and	O	O	O	O
+5-30	patched	5-21_conj_and	applied	VBN	O
+5-31	it	5-30_dobj	patched	PRP	P1_damage
+5-32	up	5-30_prt	patched	RP	O
+5-33	.	O	O	O	O
+
+#id=6
+#text=Once completed , my tires retained their air pressure and were good as new . 
+6-1	Once	6-2_mark	completed	IN	O
+6-2	completed	6-6_advcl	retained	VBD	O
+6-3	,	O	O	O	O
+6-4	my	O	O	PRP$	P1_rider
+6-5	tires	6-6_nsubj	retained	NNS	P1_tire
+6-6	retained	O	O	VBD	O
+6-7	their	O	O	PRP$	P2_tire
+6-8	air	O	O	NN	O
+6-9	pressure	6-6_dobj	retained	NN	P1_pressure
+6-10	and	O	O	O	O
+6-11	were	O	O	VBD	O
+6-12	good	6-6_conj_and	retained	JJ	O
+6-13	as	O	O	O	O
+6-14	new	O	O	JJ	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=I paid the man at the shop and took my bike home . 
+7-1	I	7-2_nsubj	paid	PRP	P1_rider
+7-2	paid	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	man	7-2_dobj	paid	NN	P2_other
+7-5	at	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	shop	7-2_prep_at	paid	NN	P1_shop
+7-8	and	O	O	O	O
+7-9	took	7-2_conj_and	paid	VBD	O
+7-10	my	O	O	PRP$	P1_rider
+7-11	bike	O	O	NN	P1_bicycle
+7-12	home	7-9_dobj	took	NN	P1_NPart_home
+7-13	.	O	O	O	O
+
+#id=8
+#text=The next day , I took it back out for a ride and all was well ! 
+8-1	The	O	O	DT	O
+8-2	next	O	O	JJ	O
+8-3	day	8-6_tmod	took	NN	P1_NPart_day
+8-4	,	O	O	O	O
+8-5	I	8-6_nsubj	took	PRP	P1_rider
+8-6	took	O	O	VBD	O
+8-7	it	8-8_nsubj	back	PRP	P1_bicycle
+8-8	back	8-6_dep	took	VBP	O
+8-9	out	8-8_prt	back	RP	O
+8-10	for	O	O	O	O
+8-11	a	O	O	DT	O
+8-12	ride	8-8_prep_for	back	NN	P1_ride
+8-13	and	O	O	O	O
+8-14	all	8-15_nsubj	was	DT	O
+8-15	was	8-8_conj_and	back	VBD	O
+8-16	well	8-15_advmod	was	RB	O
+8-17	!	O	O	O	O
+
+#id=9
+#text=The bike shop was far better equipped to fix my flat than I was . 
+9-1	The	O	O	DT	O
+9-2	bike	O	O	NN	O
+9-3	shop	O	O	NN	P1_shop
+9-4	was	O	O	VBD	O
+9-5	far	O	O	RB	O
+9-6	better	O	O	RBR	O
+9-7	equipped	O	O	JJ	O
+9-8	to	9-9_aux	fix	TO	O
+9-9	fix	O	O	VB	O
+9-10	my	O	O	PRP$	P1_rider
+9-11	flat	9-9_dobj	fix	NN	P3_other
+9-12	than	9-14_mark	was	IN	O
+9-13	I	9-14_nsubj	was	PRP	P1_rider
+9-14	was	9-9_advcl	fix	VBD	O
+9-15	.	O	O	O	O

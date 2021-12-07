@@ -1,0 +1,396 @@
+#id=1
+#text=A few weeks ago I decided that it was time for me to get a hair cut . 
+1-1	A	O	O	DT	O
+1-2	few	O	O	JJ	O
+1-3	weeks	O	O	NNS	P1_time/date
+1-4	ago	1-6_advmod	decided	RB	O
+1-5	I	1-6_nsubj	decided	PRP	P1_customer
+1-6	decided	O	O	VBD	O
+1-7	that	O	O	IN	O
+1-8	it	O	O	PRP	O
+1-9	was	O	O	VBD	O
+1-10	time	1-6_ccomp	decided	NN	O
+1-11	for	O	O	O	O
+1-12	me	O	O	PRP	P1_customer
+1-13	to	1-14_aux	get	TO	O
+1-14	get	O	O	VB	O
+1-15	a	O	O	DT	O
+1-16	hair	O	O	NN	O
+1-17	cut	1-14_dobj	get	NN	P1_haircut
+1-18	.	O	O	O	O
+
+#id=2
+#text=Normally it is recommended to get a hair cut every six months , but I had gone quite a bit longer . 
+2-1	Normally	2-4_advmod	recommended	RB	O
+2-2	it	2-4_nsubjpass	recommended	PRP	O
+2-3	is	2-4_auxpass	recommended	VBZ	O
+2-4	recommended	O	O	VBN	O
+2-5	to	2-6_aux	get	TO	O
+2-6	get	2-4_xcomp	recommended	VB	O
+2-7	a	O	O	DT	O
+2-8	hair	O	O	NN	O
+2-9	cut	2-6_dobj	get	NN	P1_haircut
+2-10	every	O	O	DT	O
+2-11	six	O	O	CD	O
+2-12	months	2-6_tmod	get	NNS	P2_time/date
+2-13	,	O	O	O	O
+2-14	but	O	O	O	O
+2-15	I	2-17_nsubj	gone	PRP	P1_customer
+2-16	had	2-17_aux	gone	VBD	O
+2-17	gone	2-4_conj_but	recommended	VBN	O
+2-18	quite	2-17_prep	gone	RB	O
+2-19	a	O	O	DT	O
+2-20	bit	O	O	RB	O
+2-21	longer	O	O	JJR	O
+2-22	.	O	O	O	O
+
+#id=3
+#text=The ends of my hair were splitting , and my bangs were getting longer than I liked them to be . 
+3-1	The	O	O	DT	O
+3-2	ends	O	O	NNS	O
+3-3	of	O	O	O	O
+3-4	my	O	O	PRP$	P1_customer
+3-5	hair	O	O	NN	P1_hair
+3-6	were	O	O	VBD	O
+3-7	splitting	O	O	JJ	O
+3-8	,	O	O	O	O
+3-9	and	O	O	O	O
+3-10	my	O	O	PRP$	P1_customer
+3-11	bangs	3-13_nsubj	getting	NN	P1_hair
+3-12	were	3-13_aux	getting	VBD	O
+3-13	getting	O	O	VBG	O
+3-14	longer	3-13_advmod	getting	RBR	O
+3-15	than	3-17_mark	liked	IN	O
+3-16	I	3-17_nsubj	liked	PRP	P1_customer
+3-17	liked	O	O	VBD	O
+3-18	them	3-17_dobj	liked	PRP	P2_hair
+3-19	to	3-20_aux	be	TO	O
+3-20	be	3-17_xcomp	liked	VB	O
+3-21	.	O	O	O	O
+
+#id=4
+#text=I decided to go back to Great Clips , which is a chain that has a location near where I live . 
+4-1	I	4-2_nsubj	decided	PRP	P1_customer
+4-2	decided	O	O	VBD	O
+4-3	to	4-4_aux	go	TO	O
+4-4	go	4-2_xcomp	decided	VB	O
+4-5	back	4-4_prt	go	RP	O
+4-6	to	O	O	O	O
+4-7	Great	O	O	NNP	O
+4-8	Clips	4-4_prep_to	go	NNP	P1_salon
+4-9	,	O	O	O	O
+4-10	which	O	O	WDT	O
+4-11	is	O	O	VBZ	O
+4-12	a	O	O	DT	O
+4-13	chain	O	O	NN	P1_salon
+4-14	that	4-15_nsubj	has	WDT	O
+4-15	has	O	O	VBZ	O
+4-16	a	O	O	DT	O
+4-17	location	4-15_dobj	has	NN	P1_salon
+4-18	near	O	O	O	O
+4-19	where	4-21_advmod	live	WRB	O
+4-20	I	4-21_nsubj	live	PRP	P1_customer
+4-21	live	O	O	VBP	O
+4-22	.	O	O	O	O
+
+#id=5
+#text=They do not require an appointment , although you can check-in online ahead of time , so I decided to walk in . 
+5-1	They	5-4_nsubj	require	PRP	P1_staff
+5-2	do	5-4_aux	require	VBP	O
+5-3	not	5-4_neg	require	RB	O
+5-4	require	O	O	VB	O
+5-5	an	O	O	DT	O
+5-6	appointment	5-4_dobj	require	NN	P1_appointment
+5-7	,	O	O	O	O
+5-8	although	5-11_mark	check-in	IN	O
+5-9	you	5-11_nsubj	check-in	PRP	P1_customer
+5-10	can	5-11_aux	check-in	MD	O
+5-11	check-in	5-4_advcl	require	VB	O
+5-12	online	5-11_dobj	check-in	JJ	O
+5-13	ahead	O	O	O	O
+5-14	of	O	O	O	O
+5-15	time	O	O	NN	P3_time/date
+5-16	,	O	O	O	O
+5-17	so	5-4_dep	require	IN	O
+5-18	I	5-19_nsubj	decided	PRP	P1_customer
+5-19	decided	5-4_parataxis	require	VBD	O
+5-20	to	5-21_aux	walk	TO	O
+5-21	walk	5-19_xcomp	decided	VB	O
+5-22	in	5-21_prt	walk	RP	O
+5-23	.	O	O	O	O
+
+#id=6
+#text=I drove to the location and found a parking place easily , and there was only one or two other customers there at the time . 
+6-1	I	6-2_nsubj	drove	PRP	P1_customer
+6-2	drove	O	O	VBD	O
+6-3	to	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	location	6-2_prep_to	drove	NN	P1_salon
+6-6	and	O	O	O	O
+6-7	found	6-2_conj_and	drove	VBD	O
+6-8	a	O	O	DT	O
+6-9	parking	O	O	NN	O
+6-10	place	6-7_dobj	found	NN	P1_NPart_place
+6-11	easily	6-7_advmod	found	RB	O
+6-12	,	O	O	O	O
+6-13	and	O	O	O	O
+6-14	there	6-15_expl	was	EX	O
+6-15	was	6-2_conj_and	drove	VBD	O
+6-16	only	O	O	RB	O
+6-17	one	O	O	CD	O
+6-18	or	O	O	O	O
+6-19	two	O	O	CD	O
+6-20	other	O	O	JJ	O
+6-21	customers	6-15_nsubj	was	NNS	P2_customer
+6-22	there	6-15_advmod	was	RB	P2_salon
+6-23	at	O	O	O	O
+6-24	the	O	O	DT	O
+6-25	time	O	O	NN	P4_time/date
+6-26	.	O	O	O	O
+
+#id=7
+#text=I walked in and gave my name , and they had a record of what I had done at my previous visits . 
+7-1	I	7-2_nsubj	walked	PRP	P1_customer
+7-2	walked	O	O	VBD	O
+7-3	in	7-2_prt	walked	RP	O
+7-4	and	O	O	O	O
+7-5	gave	7-2_conj_and	walked	VBD	O
+7-6	my	O	O	PRP$	P1_customer
+7-7	name	7-5_dobj	gave	NN	P1_NPart_name
+7-8	,	O	O	O	O
+7-9	and	O	O	O	O
+7-10	they	7-11_nsubj	had	PRP	P2_staff
+7-11	had	7-2_conj_and	walked	VBD	O
+7-12	a	O	O	DT	O
+7-13	record	7-11_dobj	had	NN	P1_NPart_record
+7-14	of	O	O	O	O
+7-15	what	7-18_dobj	done	WP	O
+7-16	I	7-18_nsubj	done	PRP	P1_customer
+7-17	had	7-18_aux	done	VBD	O
+7-18	done	O	O	VBN	O
+7-19	at	O	O	O	O
+7-20	my	O	O	PRP$	P1_customer
+7-21	previous	O	O	JJ	O
+7-22	visits	7-18_prep_at	done	NNS	P1_other
+7-23	.	O	O	O	O
+
+#id=8
+#text=The woman who took my name and I told her that I wanted a shampoo and a hair cut . 
+8-1	The	O	O	DT	O
+8-2	woman	8-9_nsubj	told	NN	P1_hairdresser
+8-3	who	8-4_nsubj	took	WP	O
+8-4	took	O	O	VBD	O
+8-5	my	O	O	PRP$	P1_customer
+8-6	name	8-4_dobj	took	NN	P2_NPart_name
+8-7	and	O	O	O	O
+8-8	I	O	O	PRP	P1_customer
+8-9	told	O	O	VBD	O
+8-10	her	8-9_dobj	told	PRP	P1_hairdresser
+8-11	that	8-13_mark	wanted	IN	O
+8-12	I	8-13_nsubj	wanted	PRP	P1_customer
+8-13	wanted	8-9_ccomp	told	VBD	O
+8-14	a	O	O	DT	O
+8-15	shampoo	8-13_dobj	wanted	NN	P1_hair_styling/treatment
+8-16	and	O	O	O	O
+8-17	a	O	O	DT	O
+8-18	hair	O	O	NN	O
+8-19	cut	O	O	NN	P1_haircut
+8-20	.	O	O	O	O
+
+#id=9
+#text=She said that she could start right away and led me to a section where I could leave my phone and wallet . 
+9-1	She	9-2_nsubj	said	PRP	P1_hairdresser
+9-2	said	O	O	VBD	O
+9-3	that	9-6_mark	start	IN	O
+9-4	she	9-6_nsubj	start	PRP	P1_hairdresser
+9-5	could	9-6_aux	start	MD	O
+9-6	start	9-2_ccomp	said	VB	O
+9-7	right	O	O	RB	O
+9-8	away	9-6_advmod	start	RB	O
+9-9	and	O	O	O	O
+9-10	led	9-2_conj_and	said	VBD	O
+9-11	me	9-10_dobj	led	PRP	P1_customer
+9-12	to	O	O	O	O
+9-13	a	O	O	DT	O
+9-14	section	9-10_prep_to	led	NN	P1_location_salon
+9-15	where	9-18_advmod	leave	WRB	O
+9-16	I	9-18_nsubj	leave	PRP	P1_customer
+9-17	could	9-18_aux	leave	MD	O
+9-18	leave	9-10_advcl	led	VB	O
+9-19	my	O	O	PRP$	P1_customer
+9-20	phone	9-18_dobj	leave	NN	P1_NPart_phone
+9-21	and	O	O	O	O
+9-22	wallet	O	O	NN	P1_NPart_wallet
+9-23	.	O	O	O	O
+
+#id=10
+#text=I put those down , and followed her over to the chair for the shampoo . 
+10-1	I	10-2_nsubj	put	PRP	P1_customer
+10-2	put	O	O	VBP	O
+10-3	those	10-2_dobj	put	DT	O
+10-4	down	10-2_prt	put	RP	O
+10-5	,	O	O	O	O
+10-6	and	O	O	O	O
+10-7	followed	10-2_conj_and	put	VBD	O
+10-8	her	10-7_dobj	followed	PRP	P1_hairdresser
+10-9	over	10-7_prt	followed	RP	O
+10-10	to	O	O	O	O
+10-11	the	O	O	DT	O
+10-12	chair	10-7_prep_to	followed	NN	P1_wash_basin
+10-13	for	O	O	O	O
+10-14	the	O	O	DT	O
+10-15	shampoo	O	O	NN	P1_hair_styling/treatment
+10-16	.	O	O	O	O
+
+#id=11
+#text=It was very relaxing and did not take much time . 
+11-1	It	O	O	PRP	O
+11-2	was	O	O	VBD	O
+11-3	very	O	O	RB	O
+11-4	relaxing	O	O	JJ	O
+11-5	and	O	O	O	O
+11-6	did	11-8_aux	take	VBD	O
+11-7	not	11-8_neg	take	RB	O
+11-8	take	O	O	VB	O
+11-9	much	O	O	JJ	O
+11-10	time	11-8_dobj	take	NN	P5_time/date
+11-11	.	O	O	O	O
+
+#id=12
+#text=We then went back to her section and she asked what I wanted done . 
+12-1	We	12-3_nsubj	went	PRP	P1_hairdresser_customer
+12-2	then	12-3_advmod	went	RB	O
+12-3	went	O	O	VBD	O
+12-4	back	12-3_advmod	went	RB	O
+12-5	to	O	O	O	O
+12-6	her	O	O	PRP$	P1_hairdresser
+12-7	section	12-3_prep_to	went	NN	P2_location_salon
+12-8	and	O	O	O	O
+12-9	she	12-10_nsubj	asked	PRP	P1_hairdresser
+12-10	asked	12-3_conj_and	went	VBD	O
+12-11	what	12-13_dobj	wanted	WP	O
+12-12	I	12-13_nsubj	wanted	PRP	P1_customer
+12-13	wanted	12-10_ccomp	asked	VBD	O
+12-14	done	12-13_dep	wanted	VBN	O
+12-15	.	O	O	O	O
+
+#id=13
+#text=I explained I just wanted about an inch taken off of most of my hair , but my bangs to be cut so they were more above my eyes again . 
+13-1	I	13-2_nsubj	explained	PRP	P1_customer
+13-2	explained	O	O	VBD	O
+13-3	I	13-5_nsubj	wanted	PRP	P1_customer
+13-4	just	13-5_advmod	wanted	RB	O
+13-5	wanted	13-2_ccomp	explained	VBD	O
+13-6	about	O	O	O	O
+13-7	an	O	O	DT	O
+13-8	inch	13-5_prep_about	wanted	NN	P2_other
+13-9	taken	O	O	VBN	O
+13-10	off	O	O	O	O
+13-11	of	O	O	O	O
+13-12	most	13-9_prep_off_of	taken	JJS	O
+13-13	of	O	O	O	O
+13-14	my	O	O	PRP$	P1_customer
+13-15	hair	O	O	NN	P1_hair
+13-16	,	O	O	O	O
+13-17	but	O	O	O	O
+13-18	my	13-19_nsubj	bangs	PRP$	P1_customer
+13-19	bangs	13-2_conj_but	explained	VBZ	P1_hair
+13-20	to	13-22_aux	cut	TO	O
+13-21	be	13-22_auxpass	cut	VB	O
+13-22	cut	13-19_xcomp	bangs	VBN	O
+13-23	so	O	O	IN	O
+13-24	they	O	O	PRP	P1_hair
+13-25	were	O	O	VBD	O
+13-26	more	13-22_advcl	cut	JJR	O
+13-27	above	O	O	O	O
+13-28	my	O	O	PRP$	P1_customer
+13-29	eyes	O	O	NNS	P1_NPart_eyes
+13-30	again	O	O	RB	O
+13-31	.	O	O	O	O
+
+#id=14
+#text=We did n't really talk much while she was cutting my hair , and it took her less than ten minutes . 
+14-1	We	14-5_nsubj	talk	PRP	P1_hairdresser_customer
+14-2	did	14-5_aux	talk	VBD	O
+14-3	n't	14-5_neg	talk	RB	O
+14-4	really	14-5_advmod	talk	RB	O
+14-5	talk	O	O	VB	O
+14-6	much	14-10_advmod	cutting	RB	O
+14-7	while	14-10_mark	cutting	IN	O
+14-8	she	14-10_nsubj	cutting	PRP	P1_hairdresser
+14-9	was	14-10_aux	cutting	VBD	O
+14-10	cutting	14-5_advcl	talk	VBG	O
+14-11	my	O	O	PRP$	P1_customer
+14-12	hair	14-10_dobj	cutting	NN	P1_hair
+14-13	,	O	O	O	O
+14-14	and	O	O	O	O
+14-15	it	14-16_nsubj	took	PRP	O
+14-16	took	14-5_conj_and	talk	VBD	O
+14-17	her	O	O	PRP$	P1_hairdresser
+14-18	less	O	O	JJR	O
+14-19	than	O	O	IN	O
+14-20	ten	O	O	CD	O
+14-21	minutes	14-16_dobj	took	NNS	P6_time/date
+14-22	.	O	O	O	O
+
+#id=15
+#text=I did not want my hair blow dried , so she left it wet . 
+15-1	I	15-4_nsubj	want	PRP	P1_customer
+15-2	did	15-4_aux	want	VBD	O
+15-3	not	15-4_neg	want	RB	O
+15-4	want	O	O	VB	O
+15-5	my	O	O	PRP$	P1_customer
+15-6	hair	O	O	NN	P1_hair
+15-7	blow	O	O	NN	O
+15-8	dried	15-4_dobj	want	NN	O
+15-9	,	O	O	O	O
+15-10	so	15-4_dep	want	IN	O
+15-11	she	15-12_nsubj	left	PRP	P1_hairdresser
+15-12	left	15-4_parataxis	want	VBD	O
+15-13	it	O	O	PRP	P3_hair
+15-14	wet	15-12_xcomp	left	JJ	O
+15-15	.	O	O	O	O
+
+#id=16
+#text=I went back to the front of the shop with her to pay , and I also made sure to leave her a tip . 
+16-1	I	16-2_nsubj	went	PRP	P1_customer
+16-2	went	O	O	VBD	O
+16-3	back	16-2_advmod	went	RB	O
+16-4	to	O	O	O	O
+16-5	the	O	O	DT	O
+16-6	front	16-2_prep_to	went	NN	P3_location_salon
+16-7	of	O	O	O	O
+16-8	the	O	O	DT	O
+16-9	shop	O	O	NN	P1_salon
+16-10	with	O	O	O	O
+16-11	her	O	O	PRP	P2_hairdresser
+16-12	to	16-13_aux	pay	TO	O
+16-13	pay	16-2_xcomp	went	VB	O
+16-14	,	O	O	O	O
+16-15	and	O	O	O	O
+16-16	I	16-18_nsubj	made	PRP	P1_customer
+16-17	also	16-18_advmod	made	RB	O
+16-18	made	16-2_conj_and	went	VBD	O
+16-19	sure	16-18_acomp	made	JJ	O
+16-20	to	16-21_aux	leave	TO	O
+16-21	leave	O	O	VB	O
+16-22	her	16-21_iobj	leave	PRP	P3_hairdresser
+16-23	a	O	O	DT	O
+16-24	tip	16-21_dobj	leave	NN	P1_tip
+16-25	.	O	O	O	O
+
+#id=17
+#text=I left the shop and was very pleased with my hair cut . 
+17-1	I	17-2_nsubj	left	PRP	P1_customer
+17-2	left	O	O	VBD	O
+17-3	the	O	O	DT	O
+17-4	shop	17-2_dobj	left	NN	P1_salon
+17-5	and	O	O	O	O
+17-6	was	O	O	VBD	O
+17-7	very	O	O	RB	O
+17-8	pleased	17-2_conj_and	left	JJ	O
+17-9	with	O	O	O	O
+17-10	my	O	O	PRP$	P1_customer
+17-11	hair	O	O	NN	O
+17-12	cut	O	O	NN	P1_haircut
+17-13	.	O	O	O	O

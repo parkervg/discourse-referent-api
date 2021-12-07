@@ -1,0 +1,216 @@
+#id=1
+#text=A week ago I decided I wanted to go to the local library and borrow a book . 
+1-1	A	O	O	DT	O
+1-2	week	O	O	NN	P1_NPart_week
+1-3	ago	1-5_advmod	decided	RB	O
+1-4	I	1-5_nsubj	decided	PRP	P1_customer
+1-5	decided	O	O	VBD	O
+1-6	I	1-7_nsubj	wanted	PRP	P1_customer
+1-7	wanted	1-5_ccomp	decided	VBD	O
+1-8	to	1-9_aux	go	TO	O
+1-9	go	1-7_xcomp	wanted	VB	O
+1-10	to	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	local	O	O	JJ	O
+1-13	library	1-9_prep_to	go	NN	P1_library
+1-14	and	O	O	O	O
+1-15	borrow	1-9_conj_and	go	VB	O
+1-16	a	O	O	DT	O
+1-17	book	1-15_dobj	borrow	NN	P1_book
+1-18	.	O	O	O	O
+
+#id=2
+#text=This is something I have n't done since I was a kid , so I was n't sure if the process had changed . 
+2-1	This	O	O	DT	O
+2-2	is	O	O	VBZ	O
+2-3	something	O	O	NN	O
+2-4	I	2-7_nsubj	done	PRP	P1_customer
+2-5	have	2-7_aux	done	VBP	O
+2-6	n't	2-7_neg	done	RB	O
+2-7	done	O	O	VBN	O
+2-8	since	O	O	IN	O
+2-9	I	O	O	PRP	P1_customer
+2-10	was	O	O	VBD	O
+2-11	a	O	O	DT	O
+2-12	kid	2-7_advcl	done	NN	P1_NPart_kid
+2-13	,	O	O	O	O
+2-14	so	O	O	IN	O
+2-15	I	O	O	PRP	P1_customer
+2-16	was	O	O	VBD	O
+2-17	n't	O	O	RB	O
+2-18	sure	O	O	JJ	O
+2-19	if	2-23_mark	changed	IN	O
+2-20	the	O	O	DT	O
+2-21	process	2-23_nsubj	changed	NN	P1_NPart_process
+2-22	had	2-23_aux	changed	VBD	O
+2-23	changed	O	O	VBN	O
+2-24	.	O	O	O	O
+
+#id=3
+#text=I drove over to the library which was about 5 miles away from my house . 
+3-1	I	3-2_nsubj	drove	PRP	P1_customer
+3-2	drove	O	O	VBD	O
+3-3	over	3-2_prt	drove	RP	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	library	3-2_prep_to	drove	NN	P1_library
+3-7	which	3-8_nsubj	was	WDT	P1_library
+3-8	was	O	O	VBD	O
+3-9	about	O	O	RB	O
+3-10	5	O	O	CD	O
+3-11	miles	3-8_npadvmod	was	NNS	P1_NPart_miles
+3-12	away	O	O	O	O
+3-13	from	O	O	O	O
+3-14	my	O	O	PRP$	P1_customer
+3-15	house	3-8_prep_away_from	was	NN	P1_NPart_house
+3-16	.	O	O	O	O
+
+#id=4
+#text=When I arrived I walked inside and was surprised to discover the interior had dramatically changed since the last time I had been there . 
+4-1	When	4-3_advmod	arrived	WRB	O
+4-2	I	4-3_nsubj	arrived	PRP	P1_customer
+4-3	arrived	4-23_advcl	been	VBD	O
+4-4	I	4-5_nsubj	walked	PRP	P1_customer
+4-5	walked	4-3_ccomp	arrived	VBD	O
+4-6	inside	4-5_advmod	walked	RB	O
+4-7	and	O	O	O	O
+4-8	was	O	O	VBD	O
+4-9	surprised	4-5_conj_and	walked	JJ	O
+4-10	to	4-11_aux	discover	TO	O
+4-11	discover	O	O	VB	O
+4-12	the	O	O	DT	O
+4-13	interior	4-16_nsubj	changed	NN	P1_NPart_interior
+4-14	had	4-16_aux	changed	VBD	O
+4-15	dramatically	4-16_advmod	changed	RB	O
+4-16	changed	4-11_ccomp	discover	VBN	O
+4-17	since	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	last	O	O	JJ	O
+4-20	time	4-16_prep_since	changed	NN	O
+4-21	I	4-23_nsubj	been	PRP	P1_customer
+4-22	had	4-23_aux	been	VBD	O
+4-23	been	O	O	VBN	O
+4-24	there	4-23_advmod	been	RB	O
+4-25	.	O	O	O	O
+
+#id=5
+#text=Once I composed myself , I began my quest to search for a good book . 
+5-1	Once	5-3_mark	composed	IN	O
+5-2	I	5-3_nsubj	composed	PRP	P1_customer
+5-3	composed	5-7_advcl	began	VBN	O
+5-4	myself	5-3_dobj	composed	PRP	P1_customer
+5-5	,	O	O	O	O
+5-6	I	5-7_nsubj	began	PRP	P1_customer
+5-7	began	O	O	VBD	O
+5-8	my	O	O	PRP$	P1_customer
+5-9	quest	5-7_dobj	began	NN	P1_NPart_quest
+5-10	to	O	O	O	O
+5-11	search	5-7_prep_to	began	NN	O
+5-12	for	O	O	O	O
+5-13	a	O	O	DT	O
+5-14	good	O	O	JJ	O
+5-15	book	5-7_prep_for	began	NN	P1_book
+5-16	.	O	O	O	O
+
+#id=6
+#text=I did n't have anything particular in mind , but then I thought back to the times when I was a kid and liked books about medieval history . 
+6-1	I	6-4_nsubj	have	PRP	P1_customer
+6-2	did	6-4_aux	have	VBD	O
+6-3	n't	6-4_neg	have	RB	O
+6-4	have	O	O	VB	O
+6-5	anything	O	O	NN	O
+6-6	particular	6-4_dobj	have	NN	O
+6-7	in	O	O	O	O
+6-8	mind	O	O	NN	O
+6-9	,	O	O	O	O
+6-10	but	O	O	O	O
+6-11	then	6-13_advmod	thought	RB	O
+6-12	I	6-13_nsubj	thought	PRP	P1_customer
+6-13	thought	6-4_conj_but	have	VBD	O
+6-14	back	6-13_prt	thought	RP	O
+6-15	to	O	O	O	O
+6-16	the	O	O	DT	O
+6-17	times	6-13_prep_to	thought	NNS	O
+6-18	when	O	O	WRB	O
+6-19	I	O	O	PRP	P1_customer
+6-20	was	O	O	VBD	O
+6-21	a	O	O	DT	O
+6-22	kid	O	O	NN	P2_NPart_kid
+6-23	and	O	O	O	O
+6-24	liked	6-13_conj_and	thought	VBD	O
+6-25	books	6-24_dobj	liked	NNS	P1_book
+6-26	about	O	O	O	O
+6-27	medieval	O	O	JJ	O
+6-28	history	6-24_prep_about	liked	NN	P1_NPart_history
+6-29	.	O	O	O	O
+
+#id=7
+#text=So I went over to the history section to see what they had . 
+7-1	So	7-3_dep	went	IN	O
+7-2	I	7-3_nsubj	went	PRP	P1_customer
+7-3	went	O	O	VBD	O
+7-4	over	7-3_prt	went	RP	O
+7-5	to	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	history	O	O	NN	O
+7-8	section	7-3_prep_to	went	NN	P1_location_library
+7-9	to	7-10_aux	see	TO	O
+7-10	see	7-3_xcomp	went	VB	O
+7-11	what	7-13_dobj	had	WP	O
+7-12	they	7-13_nsubj	had	PRP	P1_location_library
+7-13	had	7-10_ccomp	see	VBD	O
+7-14	.	O	O	O	O
+
+#id=8
+#text=I found a book about knights and medieval combat that looked interesting , so I took it to the front desk to check out . 
+8-1	I	8-2_nsubj	found	PRP	P1_customer
+8-2	found	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	book	8-2_dobj	found	NN	P1_book
+8-5	about	O	O	O	O
+8-6	knights	O	O	NNS	P1_NPart_knights
+8-7	and	O	O	O	O
+8-8	medieval	O	O	NN	O
+8-9	combat	O	O	NN	P1_NPart_combat
+8-10	that	8-11_nsubj	looked	WDT	P1_book
+8-11	looked	O	O	VBD	O
+8-12	interesting	8-11_acomp	looked	JJ	O
+8-13	,	O	O	O	O
+8-14	so	8-2_dep	found	IN	O
+8-15	I	8-16_nsubj	took	PRP	P1_customer
+8-16	took	8-2_parataxis	found	VBD	O
+8-17	it	8-16_dobj	took	PRP	P1_book
+8-18	to	O	O	O	O
+8-19	the	O	O	DT	O
+8-20	front	O	O	JJ	O
+8-21	desk	8-16_prep_to	took	NN	P1_check-out_desk
+8-22	to	8-23_aux	check	TO	O
+8-23	check	8-16_vmod	took	VB	O
+8-24	out	8-23_prt	check	RP	O
+8-25	.	O	O	O	O
+
+#id=9
+#text=I first had to sign up for a library card , and after that was done I drove home with the book . 
+9-1	I	9-3_nsubj	had	PRP	P1_customer
+9-2	first	9-3_advmod	had	RB	O
+9-3	had	O	O	VBD	O
+9-4	to	9-5_aux	sign	TO	O
+9-5	sign	9-3_xcomp	had	VB	O
+9-6	up	9-5_prt	sign	RP	O
+9-7	for	O	O	O	O
+9-8	a	O	O	DT	O
+9-9	library	O	O	NN	O
+9-10	card	9-5_prep_for	sign	NN	P1_library_card
+9-11	,	O	O	O	O
+9-12	and	O	O	O	O
+9-13	after	9-16_mark	done	IN	O
+9-14	that	9-16_nsubjpass	done	DT	O
+9-15	was	9-16_auxpass	done	VBD	O
+9-16	done	9-18_advcl	drove	VBN	O
+9-17	I	9-18_nsubj	drove	PRP	P1_customer
+9-18	drove	9-3_conj_and	had	VBD	O
+9-19	home	9-18_dobj	drove	NN	P1_NPart_home
+9-20	with	O	O	O	O
+9-21	the	O	O	DT	O
+9-22	book	9-18_prep_with	drove	NN	P1_book
+9-23	.	O	O	O	O

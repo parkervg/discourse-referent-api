@@ -1,0 +1,194 @@
+#id=1
+#text=Yesterday I went to the nursery and bought a baby apple tree about three feet tall . 
+1-1	Yesterday	1-3_tmod	went	NN	P1_time
+1-2	I	1-3_nsubj	went	PRP	P1_gardener
+1-3	went	O	O	VBD	O
+1-4	to	O	O	O	O
+1-5	the	O	O	DT	O
+1-6	nursery	1-3_prep_to	went	NN	P1_shop
+1-7	and	O	O	O	O
+1-8	bought	1-3_conj_and	went	VBD	O
+1-9	a	O	O	DT	O
+1-10	baby	O	O	NN	P1_NPart_baby
+1-11	apple	O	O	NN	O
+1-12	tree	1-8_dobj	bought	NN	P1_tree
+1-13	about	O	O	O	O
+1-14	three	O	O	CD	O
+1-15	feet	O	O	NNS	P1_other
+1-16	tall	1-8_prep_about	bought	JJ	O
+1-17	.	O	O	O	O
+
+#id=2
+#text=I 've always loved apple trees . 
+2-1	I	2-4_nsubj	loved	PRP	P1_gardener
+2-2	've	2-4_aux	loved	VBP	O
+2-3	always	2-4_advmod	loved	RB	O
+2-4	loved	O	O	VBN	O
+2-5	apple	O	O	NN	O
+2-6	trees	2-4_dobj	loved	NNS	P1_tree
+2-7	.	O	O	O	O
+
+#id=3
+#text=I carried it home in my pickup truck . 
+3-1	I	3-2_nsubj	carried	PRP	P1_gardener
+3-2	carried	O	O	VBD	O
+3-3	it	3-2_dobj	carried	PRP	P2_tree
+3-4	home	3-2_advmod	carried	RB	O
+3-5	in	O	O	O	O
+3-6	my	O	O	PRP$	P1_gardener
+3-7	pickup	O	O	NN	O
+3-8	truck	3-2_prep_in	carried	NN	P1_NPart_truck
+3-9	.	O	O	O	O
+
+#id=4
+#text=I grabbed my shovel from the shed and started to dig a hole out in the corner of my backyard . 
+4-1	I	4-2_nsubj	grabbed	PRP	P1_gardener
+4-2	grabbed	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_gardener
+4-4	shovel	4-2_dobj	grabbed	NN	P1_gardening_tool
+4-5	from	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	shed	4-2_prep_from	grabbed	NN	P2_other
+4-8	and	O	O	O	O
+4-9	started	4-2_conj_and	grabbed	VBD	O
+4-10	to	4-11_aux	dig	TO	O
+4-11	dig	4-9_xcomp	started	VB	O
+4-12	a	O	O	DT	O
+4-13	hole	4-11_dobj	dig	NN	P1_hole
+4-14	out	4-11_prt	dig	RP	O
+4-15	in	O	O	O	O
+4-16	the	O	O	DT	O
+4-17	corner	4-11_prep_in	dig	NN	P1_location_garden
+4-18	of	O	O	O	O
+4-19	my	O	O	PRP$	P1_gardener
+4-20	backyard	O	O	NN	P2_location_garden
+4-21	.	O	O	O	O
+
+#id=5
+#text=As I was shoveling I started to hit some rocky soil , and I decided to try the other far back corner of my yard . 
+5-1	As	5-4_mark	shoveling	IN	O
+5-2	I	5-4_nsubj	shoveling	PRP	P1_gardener
+5-3	was	5-4_aux	shoveling	VBD	O
+5-4	shoveling	5-6_advcl	started	VBG	O
+5-5	I	5-6_nsubj	started	PRP	P1_gardener
+5-6	started	O	O	VBD	O
+5-7	to	5-8_aux	hit	TO	O
+5-8	hit	5-6_xcomp	started	VB	O
+5-9	some	O	O	DT	O
+5-10	rocky	O	O	JJ	O
+5-11	soil	5-8_dobj	hit	NN	P1_dirt
+5-12	,	O	O	O	O
+5-13	and	O	O	O	O
+5-14	I	5-15_nsubj	decided	PRP	P1_gardener
+5-15	decided	5-6_conj_and	started	VBD	O
+5-16	to	5-17_aux	try	TO	O
+5-17	try	5-15_xcomp	decided	VB	O
+5-18	the	O	O	DT	O
+5-19	other	O	O	JJ	O
+5-20	far	O	O	RB	O
+5-21	back	O	O	RB	O
+5-22	corner	5-17_dobj	try	NN	P1_location_garden
+5-23	of	O	O	O	O
+5-24	my	O	O	PRP$	P1_gardener
+5-25	yard	O	O	NN	P2_location_garden
+5-26	.	O	O	O	O
+
+#id=6
+#text=The hole took about 45 minutes to dig , and I was exhausted from the work and the heat . 
+6-1	The	O	O	DT	O
+6-2	hole	6-3_nsubj	took	NN	P1_hole
+6-3	took	O	O	VBD	O
+6-4	about	O	O	RB	O
+6-5	45	O	O	CD	O
+6-6	minutes	6-3_dobj	took	NNS	P2_time
+6-7	to	6-8_aux	dig	TO	O
+6-8	dig	6-3_vmod	took	VB	O
+6-9	,	O	O	O	O
+6-10	and	O	O	O	O
+6-11	I	6-13_nsubjpass	exhausted	PRP	P1_gardener
+6-12	was	6-13_auxpass	exhausted	VBD	O
+6-13	exhausted	6-3_conj_and	took	VBN	O
+6-14	from	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	work	6-13_prep_from	exhausted	NN	P1_NPart_work
+6-17	and	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	heat	O	O	NN	P1_NPart_heat
+6-20	.	O	O	O	O
+
+#id=7
+#text=I was able to fit the tree perfectly into the hole and then took a break to drink some lemonade . 
+7-1	I	O	O	PRP	P1_gardener
+7-2	was	O	O	VBD	O
+7-3	able	O	O	JJ	O
+7-4	to	7-5_aux	fit	TO	O
+7-5	fit	O	O	VB	O
+7-6	the	O	O	DT	O
+7-7	tree	7-5_dobj	fit	NN	P3_tree
+7-8	perfectly	7-5_advmod	fit	RB	O
+7-9	into	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	hole	O	O	NN	P1_hole
+7-12	and	O	O	O	O
+7-13	then	7-14_advmod	took	RB	O
+7-14	took	O	O	VBD	O
+7-15	a	O	O	DT	O
+7-16	break	7-14_dobj	took	NN	O
+7-17	to	7-18_aux	drink	TO	O
+7-18	drink	O	O	VB	O
+7-19	some	O	O	DT	O
+7-20	lemonade	7-18_dobj	drink	NN	P1_NPart_lemonade
+7-21	.	O	O	O	O
+
+#id=8
+#text=After about 15 minutes I started to refill the dirt around the tree . 
+8-1	After	O	O	O	O
+8-2	about	O	O	RB	O
+8-3	15	O	O	CD	O
+8-4	minutes	8-6_prep_after	started	NNS	P3_time
+8-5	I	8-6_nsubj	started	PRP	P1_gardener
+8-6	started	O	O	VBD	O
+8-7	to	8-8_aux	refill	TO	O
+8-8	refill	8-6_xcomp	started	VB	O
+8-9	the	O	O	DT	O
+8-10	dirt	8-8_dobj	refill	NN	P2_dirt
+8-11	around	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	tree	8-8_prep_around	refill	NN	P3_tree
+8-14	.	O	O	O	O
+
+#id=9
+#text=After packing the dirt down , I saturated the ground around the tree with water . 
+9-1	After	O	O	O	O
+9-2	packing	9-8_prepc_after	saturated	VBG	O
+9-3	the	O	O	DT	O
+9-4	dirt	9-2_dobj	packing	NN	P2_dirt
+9-5	down	9-2_prt	packing	RP	O
+9-6	,	O	O	O	O
+9-7	I	9-8_nsubj	saturated	PRP	P1_gardener
+9-8	saturated	O	O	VBD	O
+9-9	the	O	O	DT	O
+9-10	ground	9-8_dobj	saturated	NN	P3_other
+9-11	around	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	tree	9-8_prep_around	saturated	NN	P3_tree
+9-14	with	O	O	O	O
+9-15	water	9-8_prep_with	saturated	NN	P1_water
+9-16	.	O	O	O	O
+
+#id=10
+#text=I hope that the tree is n't too shocked and it actually lives . 
+10-1	I	10-2_nsubj	hope	PRP	P1_gardener
+10-2	hope	O	O	VBP	O
+10-3	that	O	O	IN	O
+10-4	the	O	O	DT	O
+10-5	tree	O	O	NN	P3_tree
+10-6	is	O	O	VBZ	O
+10-7	n't	O	O	RB	O
+10-8	too	O	O	RB	O
+10-9	shocked	10-2_ccomp	hope	JJ	O
+10-10	and	O	O	O	O
+10-11	it	10-13_nsubj	lives	PRP	P3_tree
+10-12	actually	10-13_advmod	lives	RB	O
+10-13	lives	10-2_conj_and	hope	VBZ	O
+10-14	.	O	O	O	O

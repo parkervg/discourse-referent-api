@@ -1,0 +1,247 @@
+#id=1
+#text=After a long day , I decided to take a bath . 
+1-1	After	O	O	O	O
+1-2	a	O	O	DT	O
+1-3	long	O	O	JJ	O
+1-4	day	1-7_prep_after	decided	NN	P1_NPart_day
+1-5	,	O	O	O	O
+1-6	I	1-7_nsubj	decided	PRP	P1_bather
+1-7	decided	O	O	VBD	O
+1-8	to	1-9_aux	take	TO	O
+1-9	take	1-7_xcomp	decided	VB	O
+1-10	a	O	O	DT	O
+1-11	bath	1-9_dobj	take	NN	P1_bath
+1-12	.	O	O	O	O
+
+#id=2
+#text=I changed out of my clothes into a plush bathrobe . 
+2-1	I	2-2_nsubj	changed	PRP	P1_bather
+2-2	changed	O	O	VBD	O
+2-3	out	O	O	O	O
+2-4	of	O	O	O	O
+2-5	my	O	O	PRP$	P1_bather
+2-6	clothes	2-2_prep_out_of	changed	NNS	P1_clothes
+2-7	into	O	O	O	O
+2-8	a	O	O	DT	O
+2-9	plush	O	O	JJ	O
+2-10	bathrobe	2-2_prep_into	changed	NN	P2_clothes
+2-11	.	O	O	O	O
+
+#id=3
+#text=I placed a plug in the tub drain so the tub could fill up . 
+3-1	I	3-2_nsubj	placed	PRP	P1_bather
+3-2	placed	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	plug	3-2_dobj	placed	NN	P1_plug
+3-5	in	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	tub	O	O	NN	O
+3-8	drain	3-2_prep_in	placed	NN	P1_drain
+3-9	so	3-13_mark	fill	IN	O
+3-10	the	O	O	DT	O
+3-11	tub	3-13_nsubj	fill	NN	P1_bathtub
+3-12	could	3-13_aux	fill	MD	O
+3-13	fill	3-2_advcl	placed	VB	O
+3-14	up	3-13_prt	fill	RP	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=I turned on the water and adjusted it so it was just the right temperature - hot , but not too hot . 
+4-1	I	4-2_nsubj	turned	PRP	P1_bather
+4-2	turned	O	O	VBN	O
+4-3	on	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	water	4-2_prep_on	turned	NN	P1_water
+4-6	and	O	O	O	O
+4-7	adjusted	4-2_conj_and	turned	VBN	O
+4-8	it	4-7_dobj	adjusted	PRP	P1_water
+4-9	so	O	O	IN	O
+4-10	it	O	O	PRP	P1_water
+4-11	was	O	O	VBD	O
+4-12	just	O	O	RB	O
+4-13	the	O	O	DT	O
+4-14	right	O	O	NN	O
+4-15	temperature	4-7_advcl	adjusted	JJ	P1_temperature
+4-16	-	O	O	O	O
+4-17	hot	O	O	JJ	O
+4-18	,	O	O	O	O
+4-19	but	O	O	O	O
+4-20	not	O	O	RB	O
+4-21	too	O	O	RB	O
+4-22	hot	O	O	JJ	O
+4-23	.	O	O	O	O
+
+#id=5
+#text=I sprinkled in some lavender scented bath salts to make it extra relaxing . 
+5-1	I	5-2_nsubj	sprinkled	PRP	P1_bather
+5-2	sprinkled	O	O	VBD	O
+5-3	in	O	O	O	O
+5-4	some	O	O	DT	O
+5-5	lavender	O	O	JJ	P1_NPart_lavender
+5-6	scented	O	O	JJ	O
+5-7	bath	O	O	NN	O
+5-8	salts	5-2_prep_in	sprinkled	NNS	P1_bath_means
+5-9	to	5-10_aux	make	TO	O
+5-10	make	5-2_xcomp	sprinkled	VB	O
+5-11	it	5-13_nsubj	relaxing	PRP	O
+5-12	extra	5-13_dep	relaxing	JJ	O
+5-13	relaxing	5-10_xcomp	make	VBG	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=It took about five minutes for the whole tub to fill up . 
+6-1	It	6-2_nsubj	took	PRP	O
+6-2	took	O	O	VBD	O
+6-3	about	O	O	RB	O
+6-4	five	O	O	CD	O
+6-5	minutes	6-2_dobj	took	NNS	P1_NPart_minutes
+6-6	for	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	whole	O	O	JJ	O
+6-9	tub	O	O	NN	P1_bathtub
+6-10	to	6-11_aux	fill	TO	O
+6-11	fill	6-2_vmod	took	VB	O
+6-12	up	6-11_prt	fill	RP	O
+6-13	.	O	O	O	O
+
+#id=7
+#text=I did n't fill it all the way to the top . 
+7-1	I	7-4_nsubj	fill	PRP	P1_bather
+7-2	did	7-4_aux	fill	VBD	O
+7-3	n't	7-4_neg	fill	RB	O
+7-4	fill	O	O	VB	O
+7-5	it	7-4_dobj	fill	PRP	P1_bathtub
+7-6	all	7-4_advmod	fill	RB	O
+7-7	the	O	O	DT	O
+7-8	way	O	O	NN	O
+7-9	to	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	top	O	O	NN	P1_NPart_top
+7-12	.	O	O	O	O
+
+#id=8
+#text=I had to leave some room since I 'd be getting in . 
+8-1	I	8-2_nsubj	had	PRP	P1_bather
+8-2	had	O	O	VBD	O
+8-3	to	8-4_aux	leave	TO	O
+8-4	leave	8-2_xcomp	had	VB	O
+8-5	some	O	O	DT	O
+8-6	room	8-4_dobj	leave	NN	O
+8-7	since	8-11_mark	getting	IN	O
+8-8	I	8-11_nsubj	getting	PRP	P1_bather
+8-9	'd	8-11_aux	getting	MD	O
+8-10	be	8-11_aux	getting	VB	O
+8-11	getting	8-4_advcl	leave	VBG	O
+8-12	in	8-11_prt	getting	RP	O
+8-13	.	O	O	O	O
+
+#id=9
+#text=When it was ready , I dipped my toe in first , testing out the water . 
+9-1	When	O	O	WRB	O
+9-2	it	O	O	PRP	P1_water
+9-3	was	O	O	VBD	O
+9-4	ready	9-7_advcl	dipped	JJ	O
+9-5	,	O	O	O	O
+9-6	I	9-7_nsubj	dipped	PRP	P1_bather
+9-7	dipped	O	O	VBD	O
+9-8	my	O	O	PRP$	P1_bather
+9-9	toe	9-7_dobj	dipped	NN	P1_body_part
+9-10	in	O	O	O	O
+9-11	first	9-7_prep_in	dipped	JJ	O
+9-12	,	O	O	O	O
+9-13	testing	9-7_vmod	dipped	VBG	O
+9-14	out	9-13_prt	testing	RP	O
+9-15	the	O	O	DT	O
+9-16	water	9-13_dobj	testing	NN	P1_water
+9-17	.	O	O	O	O
+
+#id=10
+#text=I hung my robe on the back of the door , and got into the tub . 
+10-1	I	10-2_nsubj	hung	PRP	P1_bather
+10-2	hung	O	O	VBD	O
+10-3	my	O	O	PRP$	P1_bather
+10-4	robe	10-2_dobj	hung	NN	P2_clothes
+10-5	on	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	back	10-2_prep_on	hung	NN	P1_NPart_back
+10-8	of	O	O	O	O
+10-9	the	O	O	DT	O
+10-10	door	O	O	NN	P1_NPart_door
+10-11	,	O	O	O	O
+10-12	and	O	O	O	O
+10-13	got	10-2_conj_and	hung	VBD	O
+10-14	into	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	tub	10-13_prep_into	got	NN	P1_bathtub
+10-17	.	O	O	O	O
+
+#id=11
+#text=I eased in slowly since the water was hot . 
+11-1	I	11-2_nsubj	eased	PRP	P1_bather
+11-2	eased	O	O	VBD	O
+11-3	in	11-2_prep	eased	IN	O
+11-4	slowly	O	O	RB	O
+11-5	since	O	O	IN	O
+11-6	the	O	O	DT	O
+11-7	water	O	O	NN	P1_water
+11-8	was	O	O	VBD	O
+11-9	hot	11-2_advcl	eased	JJ	O
+11-10	.	O	O	O	O
+
+#id=12
+#text=I got nestled in to the water and washed myself with a washcloth and soap . 
+12-1	I	12-3_nsubjpass	nestled	PRP	P1_bather
+12-2	got	12-3_auxpass	nestled	VBD	O
+12-3	nestled	O	O	VBN	O
+12-4	in	12-3_prep	nestled	IN	O
+12-5	to	O	O	TO	O
+12-6	the	O	O	DT	O
+12-7	water	O	O	NN	P1_water
+12-8	and	O	O	O	O
+12-9	washed	12-3_conj_and	nestled	VBN	O
+12-10	myself	12-9_dobj	washed	PRP	P1_bather
+12-11	with	O	O	O	O
+12-12	a	O	O	DT	O
+12-13	washcloth	12-9_prep_with	washed	NN	P1_washing_tools
+12-14	and	O	O	O	O
+12-15	soap	O	O	NN	P2_washing_tools
+12-16	.	O	O	O	O
+
+#id=13
+#text=Then I leaned my head against the rim of the bathtub . 
+13-1	Then	13-3_advmod	leaned	RB	O
+13-2	I	13-3_nsubj	leaned	PRP	P1_bather
+13-3	leaned	O	O	VBD	O
+13-4	my	O	O	PRP$	P1_bather
+13-5	head	13-3_dobj	leaned	NN	P2_body_part
+13-6	against	O	O	O	O
+13-7	the	O	O	DT	O
+13-8	rim	13-3_prep_against	leaned	NN	P1_NPart_rim
+13-9	of	O	O	O	O
+13-10	the	O	O	DT	O
+13-11	bathtub	O	O	NN	P1_bathtub
+13-12	.	O	O	O	O
+
+#id=14
+#text=I breathed in the aroma of lavender , closed my eyes , and felt my body and mind completely relax . 
+14-1	I	14-2_nsubj	breathed	PRP	P1_bather
+14-2	breathed	O	O	VBD	O
+14-3	in	O	O	O	O
+14-4	the	O	O	DT	O
+14-5	aroma	14-2_prep_in	breathed	NN	P1_NPart_aroma
+14-6	of	O	O	O	O
+14-7	lavender	O	O	NN	P2_NPart_lavender
+14-8	,	O	O	O	O
+14-9	closed	14-2_conj_and	breathed	VBD	O
+14-10	my	O	O	PRP$	P1_bather
+14-11	eyes	14-9_dobj	closed	NNS	P3_body_part
+14-12	,	O	O	O	O
+14-13	and	O	O	O	O
+14-14	felt	14-2_conj_and	breathed	VBD	O
+14-15	my	O	O	PRP$	P1_bather
+14-16	body	14-20_nsubj	relax	NN	P4_body_part
+14-17	and	O	O	O	O
+14-18	mind	O	O	NN	P1_NPart_mind
+14-19	completely	14-20_advmod	relax	RB	O
+14-20	relax	14-14_ccomp	felt	VBP	O
+14-21	.	O	O	O	O

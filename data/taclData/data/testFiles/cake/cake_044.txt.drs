@@ -1,0 +1,220 @@
+#id=1
+#text=It was my mother 's birthday last weekend and I wanted to bake her a cake . 
+1-1	It	O	O	PRP	O
+1-2	was	O	O	VBD	O
+1-3	my	O	O	PRP$	P1_cook
+1-4	mother	O	O	NN	P1_beneficiary
+1-5	's	O	O	O	O
+1-6	birthday	O	O	NN	P1_NPart_birthday
+1-7	last	O	O	JJ	O
+1-8	weekend	O	O	NN	P1_NPart_weekend
+1-9	and	O	O	O	O
+1-10	I	1-11_nsubj	wanted	PRP	P1_cook
+1-11	wanted	O	O	VBD	O
+1-12	to	1-13_aux	bake	TO	O
+1-13	bake	1-11_xcomp	wanted	VB	O
+1-14	her	O	O	PRP	P1_beneficiary
+1-15	a	O	O	DT	O
+1-16	cake	1-13_xcomp	bake	NN	P1_cake
+1-17	.	O	O	O	O
+
+#id=2
+#text=First , I looked up a recipes on the Internet . 
+2-1	First	2-4_advmod	looked	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	looked	PRP	P1_cook
+2-4	looked	O	O	VBD	O
+2-5	up	2-4_prt	looked	RP	O
+2-6	a	O	O	DT	O
+2-7	recipes	2-4_dobj	looked	NNS	P1_baking_instructions
+2-8	on	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	Internet	O	O	NN	P1_recipe_source
+2-11	.	O	O	O	O
+
+#id=3
+#text=I found a chocolate cake recipe that looked very good . 
+3-1	I	3-2_nsubj	found	PRP	P1_cook
+3-2	found	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	chocolate	O	O	NN	O
+3-5	cake	O	O	NN	O
+3-6	recipe	3-2_dobj	found	NN	P1_baking_instructions
+3-7	that	3-8_nsubj	looked	WDT	O
+3-8	looked	O	O	VBD	O
+3-9	very	O	O	RB	O
+3-10	good	3-8_acomp	looked	JJ	O
+3-11	.	O	O	O	O
+
+#id=4
+#text=I was missing a few ingredients , so I made a quick run to the grocery store . 
+4-1	I	4-3_nsubj	missing	PRP	P1_cook
+4-2	was	4-3_aux	missing	VBD	O
+4-3	missing	O	O	VBG	O
+4-4	a	O	O	DT	O
+4-5	few	O	O	JJ	O
+4-6	ingredients	4-3_dobj	missing	NNS	P1_ingredients
+4-7	,	O	O	O	O
+4-8	so	4-3_dep	missing	IN	O
+4-9	I	4-10_nsubj	made	PRP	P1_cook
+4-10	made	4-3_parataxis	missing	VBD	O
+4-11	a	O	O	DT	O
+4-12	quick	O	O	JJ	O
+4-13	run	4-10_dobj	made	NN	O
+4-14	to	O	O	O	O
+4-15	the	O	O	DT	O
+4-16	grocery	O	O	NN	O
+4-17	store	4-10_prep_to	made	NN	P1_store
+4-18	.	O	O	O	O
+
+#id=5
+#text=Once I had what I needed , I got to work . 
+5-1	Once	5-3_mark	had	IN	O
+5-2	I	5-3_nsubj	had	PRP	P1_cook
+5-3	had	5-9_advcl	got	VBD	O
+5-4	what	5-6_dobj	needed	WP	O
+5-5	I	5-6_nsubj	needed	PRP	P1_cook
+5-6	needed	5-3_ccomp	had	VBD	O
+5-7	,	O	O	O	O
+5-8	I	5-9_nsubj	got	PRP	P1_cook
+5-9	got	O	O	VBD	O
+5-10	to	5-11_aux	work	TO	O
+5-11	work	5-9_xcomp	got	VB	O
+5-12	.	O	O	O	O
+
+#id=6
+#text=First , I got out all of the baking pans that I would need to bake the cake . 
+6-1	First	6-4_advmod	got	RB	O
+6-2	,	O	O	O	O
+6-3	I	6-4_nsubj	got	PRP	P1_cook
+6-4	got	O	O	VBD	O
+6-5	out	6-4_prt	got	RP	O
+6-6	all	6-4_dobj	got	DT	O
+6-7	of	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	baking	O	O	JJ	O
+6-10	pans	O	O	NNS	P1_cake_tin
+6-11	that	6-14_mark	need	IN	O
+6-12	I	6-14_nsubj	need	PRP	P1_cook
+6-13	would	6-14_aux	need	MD	O
+6-14	need	6-4_ccomp	got	VB	O
+6-15	to	6-16_aux	bake	TO	O
+6-16	bake	6-14_xcomp	need	VB	O
+6-17	the	O	O	DT	O
+6-18	cake	6-16_dobj	bake	NN	P1_cake
+6-19	.	O	O	O	O
+
+#id=7
+#text=Then I got out all the ingredients and let them sit at room temperature for a bit . 
+7-1	Then	7-3_advmod	got	RB	O
+7-2	I	7-3_nsubj	got	PRP	P1_cook
+7-3	got	O	O	VBD	O
+7-4	out	7-3_prt	got	RP	O
+7-5	all	O	O	PDT	O
+7-6	the	O	O	DT	O
+7-7	ingredients	7-3_dobj	got	NNS	P2_ingredients
+7-8	and	O	O	O	O
+7-9	let	7-3_conj_and	got	VBD	O
+7-10	them	7-11_nsubj	sit	PRP	P2_ingredients
+7-11	sit	7-9_ccomp	let	VBP	O
+7-12	at	O	O	O	O
+7-13	room	O	O	NN	O
+7-14	temperature	7-11_prep_at	sit	NN	P1_temperature
+7-15	for	O	O	O	O
+7-16	a	O	O	DT	O
+7-17	bit	O	O	NN	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=After prepping the pans , I preheated the oven and stirred the dry ingredients together . 
+8-1	After	O	O	O	O
+8-2	prepping	8-7_prepc_after	preheated	VBG	O
+8-3	the	O	O	DT	O
+8-4	pans	8-2_dobj	prepping	NNS	P1_cake_tin
+8-5	,	O	O	O	O
+8-6	I	8-7_nsubj	preheated	PRP	P1_cook
+8-7	preheated	O	O	VBD	O
+8-8	the	O	O	DT	O
+8-9	oven	8-7_dobj	preheated	NN	P1_oven
+8-10	and	O	O	O	O
+8-11	stirred	8-7_conj_and	preheated	VBD	O
+8-12	the	O	O	DT	O
+8-13	dry	O	O	JJ	O
+8-14	ingredients	8-11_dobj	stirred	NNS	P3_ingredients
+8-15	together	8-11_advmod	stirred	RB	O
+8-16	.	O	O	O	O
+
+#id=9
+#text=Then I added the butter , sugar , eggs , and flour . 
+9-1	Then	9-3_advmod	added	RB	O
+9-2	I	9-3_nsubj	added	PRP	P1_cook
+9-3	added	O	O	VBD	O
+9-4	the	O	O	DT	O
+9-5	butter	9-3_dobj	added	NN	P4_ingredients
+9-6	,	O	O	O	O
+9-7	sugar	O	O	NN	P5_ingredients
+9-8	,	O	O	O	O
+9-9	eggs	O	O	NNS	P6_ingredients
+9-10	,	O	O	O	O
+9-11	and	O	O	O	O
+9-12	flour	O	O	NN	P7_ingredients
+9-13	.	O	O	O	O
+
+#id=10
+#text=After everything was mixed well , I put the mixture in the pan and then put the pan in the oven . 
+10-1	After	10-4_mark	mixed	IN	O
+10-2	everything	10-4_nsubjpass	mixed	NN	P8_ingredients
+10-3	was	10-4_auxpass	mixed	VBD	O
+10-4	mixed	10-8_advcl	put	VBN	O
+10-5	well	10-4_advmod	mixed	RB	O
+10-6	,	O	O	O	O
+10-7	I	10-8_nsubj	put	PRP	P1_cook
+10-8	put	O	O	VBD	O
+10-9	the	O	O	DT	O
+10-10	mixture	10-8_dobj	put	NN	P1_dough
+10-11	in	O	O	O	O
+10-12	the	O	O	DT	O
+10-13	pan	10-8_prep_in	put	NN	P1_cake_tin
+10-14	and	O	O	O	O
+10-15	then	10-16_advmod	put	RB	O
+10-16	put	10-8_conj_and	put	VBD	O
+10-17	the	O	O	DT	O
+10-18	pan	10-16_dobj	put	NN	P1_cake_tin
+10-19	in	O	O	O	O
+10-20	the	O	O	DT	O
+10-21	oven	10-16_prep_in	put	NN	P1_oven
+10-22	.	O	O	O	O
+
+#id=11
+#text=After 40 minutes , the cake was done . 
+11-1	After	O	O	O	O
+11-2	40	O	O	CD	O
+11-3	minutes	11-8_prep_after	done	NNS	P1_time
+11-4	,	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	cake	11-8_nsubjpass	done	NN	P1_cake
+11-7	was	11-8_auxpass	done	VBD	O
+11-8	done	O	O	VBN	O
+11-9	.	O	O	O	O
+
+#id=12
+#text=I let it cool and then added white frosting . 
+12-1	I	12-2_nsubj	let	PRP	P1_cook
+12-2	let	O	O	VBD	O
+12-3	it	O	O	PRP	P1_cake
+12-4	cool	12-2_xcomp	let	JJ	O
+12-5	and	O	O	O	O
+12-6	then	12-7_advmod	added	RB	O
+12-7	added	12-2_conj_and	let	VBD	O
+12-8	white	O	O	JJ	O
+12-9	frosting	12-7_dobj	added	NN	P9_ingredients
+12-10	.	O	O	O	O
+
+#id=13
+#text=My mom loved the cake . 
+13-1	My	O	O	PRP$	P1_cook
+13-2	mom	13-3_nsubj	loved	NN	P1_beneficiary
+13-3	loved	O	O	VBD	O
+13-4	the	O	O	DT	O
+13-5	cake	13-3_dobj	loved	NN	P1_cake
+13-6	.	O	O	O	O

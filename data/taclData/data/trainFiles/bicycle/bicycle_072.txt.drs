@@ -1,0 +1,305 @@
+#id=1
+#text=Last week when I went biking on a trail with a friend , she rode over a nail and one of her bike tires was punctured . 
+1-1	Last	O	O	JJ	O
+1-2	week	1-15_dep	rode	NN	P1_NPart_week
+1-3	when	1-5_advmod	went	WRB	O
+1-4	I	1-5_nsubj	went	PRP	P1_rider
+1-5	went	1-15_advcl	rode	VBD	O
+1-6	biking	1-5_dobj	went	NN	O
+1-7	on	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	trail	1-5_prep_on	went	NN	P1_NPart_trail
+1-10	with	O	O	O	O
+1-11	a	O	O	DT	O
+1-12	friend	1-5_prep_with	went	NN	P2_rider
+1-13	,	O	O	O	O
+1-14	she	1-15_nsubj	rode	PRP	P2_rider
+1-15	rode	O	O	VBD	O
+1-16	over	O	O	O	O
+1-17	a	O	O	DT	O
+1-18	nail	1-15_prep_over	rode	NN	P1_object_damage
+1-19	and	O	O	O	O
+1-20	one	1-26_nsubjpass	punctured	CD	P1_tire
+1-21	of	O	O	O	O
+1-22	her	O	O	PRP$	P2_rider
+1-23	bike	O	O	NN	O
+1-24	tires	O	O	NNS	P1_tire
+1-25	was	1-26_auxpass	punctured	VBD	O
+1-26	punctured	1-15_conj_and	rode	VBN	O
+1-27	.	O	O	O	O
+
+#id=2
+#text=We immediately stopped riding so that we could fix the problem , and we were lucky that it was n't too bad of an issue . 
+2-1	We	2-3_nsubj	stopped	PRP	P3_rider
+2-2	immediately	2-3_advmod	stopped	RB	O
+2-3	stopped	O	O	VBD	O
+2-4	riding	2-3_xcomp	stopped	VBG	O
+2-5	so	2-9_advmod	fix	RB	O
+2-6	that	2-9_mark	fix	IN	O
+2-7	we	2-9_nsubj	fix	PRP	P3_rider
+2-8	could	2-9_aux	fix	MD	O
+2-9	fix	2-4_advcl	riding	VB	O
+2-10	the	O	O	DT	O
+2-11	problem	2-9_dobj	fix	NN	P1_damage
+2-12	,	O	O	O	O
+2-13	and	O	O	O	O
+2-14	we	O	O	PRP	P3_rider
+2-15	were	O	O	VBD	O
+2-16	lucky	2-3_conj_and	stopped	JJ	O
+2-17	that	O	O	IN	O
+2-18	it	O	O	PRP	P1_damage
+2-19	was	O	O	VBD	O
+2-20	n't	O	O	RB	O
+2-21	too	O	O	RB	O
+2-22	bad	O	O	JJ	O
+2-23	of	O	O	O	O
+2-24	an	O	O	DT	O
+2-25	issue	O	O	NN	P1_damage
+2-26	.	O	O	O	O
+
+#id=3
+#text=To fix it , we had to return home and take care of it with the tools we had there . 
+3-1	To	3-2_aux	fix	TO	O
+3-2	fix	3-6_advcl	had	VB	O
+3-3	it	3-2_dobj	fix	PRP	O
+3-4	,	O	O	O	O
+3-5	we	3-6_nsubj	had	PRP	P3_rider
+3-6	had	O	O	VBD	O
+3-7	to	3-8_aux	return	TO	O
+3-8	return	3-6_xcomp	had	VB	O
+3-9	home	3-8_dobj	return	NN	P1_location_repair
+3-10	and	O	O	O	O
+3-11	take	3-8_conj_and	return	VB	O
+3-12	care	3-11_dobj	take	NN	O
+3-13	of	O	O	O	O
+3-14	it	O	O	PRP	O
+3-15	with	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	tools	3-11_prep_with	take	NNS	P1_tool
+3-18	we	3-19_nsubj	had	PRP	P3_rider
+3-19	had	O	O	VBD	O
+3-20	there	3-19_dobj	had	RB	P2_location_repair
+3-21	.	O	O	O	O
+
+#id=4
+#text=We turned the bike over so it was resting on the handlebars and the seat so that we would have access to the wheel very easily . 
+4-1	We	4-2_nsubj	turned	PRP	P3_rider
+4-2	turned	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	bike	4-2_dobj	turned	NN	P1_bicycle
+4-5	over	O	O	O	O
+4-6	so	4-9_mark	resting	IN	O
+4-7	it	4-9_nsubjpass	resting	PRP	P1_bicycle
+4-8	was	4-9_auxpass	resting	VBD	O
+4-9	resting	O	O	VBN	O
+4-10	on	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	handlebars	4-9_prep_on	resting	NNS	P1_bicycle_small_detail
+4-13	and	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	seat	O	O	NN	P2_bicycle_small_detail
+4-16	so	4-20_advmod	have	RB	O
+4-17	that	4-20_mark	have	IN	O
+4-18	we	4-20_nsubj	have	PRP	P3_rider
+4-19	would	4-20_aux	have	MD	O
+4-20	have	4-9_advcl	resting	VB	O
+4-21	access	4-20_dobj	have	NN	O
+4-22	to	O	O	O	O
+4-23	the	O	O	DT	O
+4-24	wheel	O	O	NN	P1_tire
+4-25	very	O	O	RB	O
+4-26	easily	4-20_advmod	have	RB	O
+4-27	.	O	O	O	O
+
+#id=5
+#text=Upon spinning the wheel , we found the nail she had run over and removed it . 
+5-1	Upon	O	O	O	O
+5-2	spinning	5-7_prepc_upon	found	VBG	O
+5-3	the	O	O	DT	O
+5-4	wheel	5-2_dobj	spinning	NN	P1_tire
+5-5	,	O	O	O	O
+5-6	we	5-7_nsubj	found	PRP	P3_rider
+5-7	found	O	O	VBD	O
+5-8	the	O	O	DT	O
+5-9	nail	5-7_dobj	found	NN	P1_object_damage
+5-10	she	5-12_nsubj	run	PRP	P2_rider
+5-11	had	5-12_aux	run	VBD	O
+5-12	run	O	O	VBN	O
+5-13	over	5-12_prt	run	RP	O
+5-14	and	O	O	O	O
+5-15	removed	5-12_conj_and	run	VBN	O
+5-16	it	5-15_dobj	removed	PRP	P1_object_damage
+5-17	.	O	O	O	O
+
+#id=6
+#text=We had to release all the air from the tube to begin with , then take the tire off of the rim using tools called a tire levers . 
+6-1	We	6-2_nsubj	had	PRP	P3_rider
+6-2	had	O	O	VBD	O
+6-3	to	6-4_aux	release	TO	O
+6-4	release	6-2_xcomp	had	VB	O
+6-5	all	O	O	PDT	O
+6-6	the	O	O	DT	O
+6-7	air	6-4_dobj	release	NN	P1_air
+6-8	from	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	tube	6-4_prep_from	release	NN	P1_tire
+6-11	to	6-12_aux	begin	TO	O
+6-12	begin	6-2_xcomp	had	VB	O
+6-13	with	6-12_prep	begin	IN	O
+6-14	,	O	O	O	O
+6-15	then	6-16_advmod	take	RB	O
+6-16	take	6-12_dep	begin	VB	O
+6-17	the	O	O	DT	O
+6-18	tire	6-16_dobj	take	NN	P1_tire
+6-19	off	O	O	O	O
+6-20	of	O	O	O	O
+6-21	the	O	O	DT	O
+6-22	rim	6-16_prep_off_of	take	NN	P1_rim
+6-23	using	O	O	VBG	O
+6-24	tools	6-23_dobj	using	NNS	P2_tool
+6-25	called	O	O	VBN	O
+6-26	a	O	O	DT	O
+6-27	tire	O	O	NN	O
+6-28	levers	6-25_dobj	called	NNS	P2_tool
+6-29	.	O	O	O	O
+
+#id=7
+#text=After we had that off , we had to remove the tube from the tire and inflate it with enough air to find the hole . 
+7-1	After	7-3_mark	had	IN	O
+7-2	we	7-3_nsubj	had	PRP	P3_rider
+7-3	had	7-8_advcl	had	VBD	O
+7-4	that	7-3_dobj	had	DT	O
+7-5	off	7-3_advmod	had	RB	O
+7-6	,	O	O	O	O
+7-7	we	7-8_nsubj	had	PRP	P3_rider
+7-8	had	O	O	VBD	O
+7-9	to	7-10_aux	remove	TO	O
+7-10	remove	7-8_xcomp	had	VB	O
+7-11	the	O	O	DT	O
+7-12	tube	7-10_dobj	remove	NN	P1_tire
+7-13	from	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	tire	7-10_prep_from	remove	NN	P1_tire
+7-16	and	O	O	O	O
+7-17	inflate	7-10_conj_and	remove	VB	O
+7-18	it	7-17_dobj	inflate	PRP	P1_tire
+7-19	with	O	O	O	O
+7-20	enough	O	O	JJ	O
+7-21	air	7-17_prep_with	inflate	NN	P1_air
+7-22	to	7-23_aux	find	TO	O
+7-23	find	7-8_xcomp	had	VB	O
+7-24	the	O	O	DT	O
+7-25	hole	7-23_dobj	find	NN	P2_damage
+7-26	.	O	O	O	O
+
+#id=8
+#text=We knew about where it would be . 
+8-1	We	8-2_nsubj	knew	PRP	P3_rider
+8-2	knew	O	O	VBD	O
+8-3	about	O	O	O	O
+8-4	where	8-7_advmod	be	WRB	O
+8-5	it	8-7_nsubj	be	PRP	O
+8-6	would	8-7_aux	be	MD	O
+8-7	be	8-2_prepc_about	knew	VB	O
+8-8	.	O	O	O	O
+
+#id=9
+#text=Using a piece of my brother 's chalk , we marked where the hole was so we would n't lose the spot , and then we took the air out of the tube again . 
+9-1	Using	9-11_vmod	marked	VBG	O
+9-2	a	O	O	DT	O
+9-3	piece	9-1_dobj	Using	NN	P3_tool
+9-4	of	O	O	O	O
+9-5	my	O	O	PRP$	P4_rider
+9-6	brother	O	O	NN	P1_NPart_brother
+9-7	's	O	O	O	O
+9-8	chalk	O	O	NN	P3_tool
+9-9	,	O	O	O	O
+9-10	we	9-11_nsubj	marked	PRP	P3_rider
+9-11	marked	O	O	VBD	O
+9-12	where	9-15_advmod	was	WRB	O
+9-13	the	O	O	DT	O
+9-14	hole	9-15_nsubj	was	NN	P2_damage
+9-15	was	9-11_advcl	marked	VBD	O
+9-16	so	9-20_mark	lose	IN	O
+9-17	we	9-20_nsubj	lose	PRP	P3_rider
+9-18	would	9-20_aux	lose	MD	O
+9-19	n't	9-20_neg	lose	RB	O
+9-20	lose	9-15_advcl	was	VB	O
+9-21	the	O	O	DT	O
+9-22	spot	9-20_dobj	lose	NN	P1_NPart_spot
+9-23	,	O	O	O	O
+9-24	and	O	O	O	O
+9-25	then	9-27_advmod	took	RB	O
+9-26	we	9-27_nsubj	took	PRP	P3_rider
+9-27	took	9-11_conj_and	marked	VBD	O
+9-28	the	O	O	DT	O
+9-29	air	9-27_dobj	took	NN	P1_air
+9-30	out	O	O	O	O
+9-31	of	O	O	O	O
+9-32	the	O	O	DT	O
+9-33	tube	9-27_prep_out_of	took	NN	P1_tire
+9-34	again	9-27_advmod	took	RB	O
+9-35	.	O	O	O	O
+
+#id=10
+#text=Using a patch kit designed for this kind of issue , we patched up the hole and put the tube back into the tire . 
+10-1	Using	10-13_vmod	patched	VBG	O
+10-2	a	O	O	DT	O
+10-3	patch	O	O	NN	O
+10-4	kit	10-1_dobj	Using	NN	P1_patch
+10-5	designed	O	O	VBN	O
+10-6	for	O	O	O	O
+10-7	this	O	O	DT	O
+10-8	kind	10-5_prep_for	designed	NN	O
+10-9	of	O	O	O	O
+10-10	issue	O	O	NN	P1_NPart_issue
+10-11	,	O	O	O	O
+10-12	we	10-13_nsubj	patched	PRP	P3_rider
+10-13	patched	O	O	VBD	O
+10-14	up	10-13_prt	patched	RP	O
+10-15	the	O	O	DT	O
+10-16	hole	10-13_dobj	patched	NN	P2_damage
+10-17	and	O	O	O	O
+10-18	put	10-13_conj_and	patched	VBD	O
+10-19	the	O	O	DT	O
+10-20	tube	10-18_dobj	put	NN	P1_tire
+10-21	back	10-18_prt	put	RP	O
+10-22	into	O	O	O	O
+10-23	the	O	O	DT	O
+10-24	tire	10-18_prep_into	put	NN	P1_tire
+10-25	.	O	O	O	O
+
+#id=11
+#text=We put the tire back on the wheel and re-inflated it . 
+11-1	We	11-2_nsubj	put	PRP	P3_rider
+11-2	put	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	tire	11-2_dobj	put	NN	P1_tire
+11-5	back	11-2_prt	put	RP	O
+11-6	on	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	wheel	11-2_prep_on	put	NN	P1_tire
+11-9	and	O	O	O	O
+11-10	re-inflated	11-2_conj_and	put	VBD	O
+11-11	it	11-10_dobj	re-inflated	PRP	P1_tire
+11-12	.	O	O	O	O
+
+#id=12
+#text=The patch worked perfectly and we were able to go out biking again the next day ! 
+12-1	The	O	O	DT	O
+12-2	patch	12-3_nsubj	worked	NN	P2_patch
+12-3	worked	O	O	VBD	O
+12-4	perfectly	12-3_advmod	worked	RB	O
+12-5	and	O	O	O	O
+12-6	we	O	O	PRP	P3_rider
+12-7	were	O	O	VBD	O
+12-8	able	12-3_conj_and	worked	JJ	O
+12-9	to	12-10_aux	go	TO	O
+12-10	go	O	O	VB	O
+12-11	out	12-10_prt	go	RP	O
+12-12	biking	12-10_dobj	go	NN	O
+12-13	again	12-10_advmod	go	RB	O
+12-14	the	O	O	DT	O
+12-15	next	O	O	JJ	O
+12-16	day	12-10_tmod	go	NN	P1_NPart_day
+12-17	!	O	O	O	O

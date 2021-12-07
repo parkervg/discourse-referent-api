@@ -1,0 +1,266 @@
+#id=1
+#text=I like taking a bath instead of a shower sometimes . 
+1-1	I	1-2_nsubj	like	PRP	P1_bather
+1-2	like	O	O	VBP	O
+1-3	taking	1-2_xcomp	like	VBG	O
+1-4	a	O	O	DT	O
+1-5	bath	1-3_dobj	taking	NN	P1_bath
+1-6	instead	O	O	O	O
+1-7	of	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	shower	O	O	NN	P1_NPart_shower
+1-10	sometimes	1-3_advmod	taking	RB	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=I start by closing the drain at the bottom of the tub . 
+2-1	I	2-2_nsubj	start	PRP	P1_bather
+2-2	start	O	O	VBP	O
+2-3	by	O	O	O	O
+2-4	closing	2-2_prepc_by	start	VBG	O
+2-5	the	O	O	DT	O
+2-6	drain	2-4_dobj	closing	NN	P1_drain
+2-7	at	O	O	O	O
+2-8	the	O	O	DT	O
+2-9	bottom	2-4_prep_at	closing	NN	P1_NPart_bottom
+2-10	of	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	tub	O	O	NN	P1_bathtub
+2-13	.	O	O	O	O
+
+#id=3
+#text=Some tubs have a stopper and some have a thing you push down to close it . 
+3-1	Some	O	O	DT	O
+3-2	tubs	3-3_nsubj	have	NNS	P2_bathtub
+3-3	have	O	O	VBP	O
+3-4	a	O	O	DT	O
+3-5	stopper	3-3_dobj	have	NN	P1_plug
+3-6	and	O	O	O	O
+3-7	some	3-8_nsubj	have	DT	P2_bathtub
+3-8	have	3-3_conj_and	have	VBP	O
+3-9	a	O	O	DT	O
+3-10	thing	3-8_dobj	have	NN	P1_other
+3-11	you	3-12_nsubj	push	PRP	P1_bather
+3-12	push	O	O	VBP	O
+3-13	down	3-12_prt	push	RP	O
+3-14	to	3-15_aux	close	TO	O
+3-15	close	3-12_xcomp	push	VB	O
+3-16	it	3-15_dobj	close	PRP	P1_drain
+3-17	.	O	O	O	O
+
+#id=4
+#text=After it 's closed I like to run both hot and cold water to make warm water and then I let the tub fill up to about a hand 's height from the top of the tub . 
+4-1	After	O	O	IN	O
+4-2	it	O	O	PRP	P1_drain
+4-3	's	O	O	VBZ	O
+4-4	closed	4-6_advcl	like	JJ	O
+4-5	I	4-6_nsubj	like	PRP	P1_bather
+4-6	like	O	O	VBP	O
+4-7	to	4-8_aux	run	TO	O
+4-8	run	4-6_xcomp	like	VB	O
+4-9	both	O	O	DT	O
+4-10	hot	O	O	JJ	O
+4-11	and	O	O	O	O
+4-12	cold	O	O	JJ	O
+4-13	water	4-8_dobj	run	NN	P1_water
+4-14	to	4-15_aux	make	TO	O
+4-15	make	4-8_vmod	run	VB	O
+4-16	warm	O	O	JJ	O
+4-17	water	4-15_dobj	make	NN	P1_water
+4-18	and	O	O	O	O
+4-19	then	4-21_advmod	let	RB	O
+4-20	I	4-21_nsubj	let	PRP	P1_bather
+4-21	let	4-6_conj_and	like	VBP	O
+4-22	the	O	O	DT	O
+4-23	tub	4-24_nsubj	fill	NN	P1_bathtub
+4-24	fill	4-21_ccomp	let	VB	O
+4-25	up	4-24_prt	fill	RP	O
+4-26	to	O	O	O	O
+4-27	about	O	O	RB	O
+4-28	a	O	O	DT	O
+4-29	hand	O	O	NN	P1_body_part
+4-30	's	O	O	O	O
+4-31	height	4-24_prep_to	fill	NN	P1_NPart_height
+4-32	from	O	O	O	O
+4-33	the	O	O	DT	O
+4-34	top	4-24_prep_from	fill	NN	P1_NPart_top
+4-35	of	O	O	O	O
+4-36	the	O	O	DT	O
+4-37	tub	O	O	NN	P1_bathtub
+4-38	.	O	O	O	O
+
+#id=5
+#text=While the water is running , I squirt in bubbles and make sure I have a clean washcloth and towel . 
+5-1	While	5-5_mark	running	IN	O
+5-2	the	O	O	DT	O
+5-3	water	5-5_nsubj	running	NN	P1_water
+5-4	is	5-5_aux	running	VBZ	O
+5-5	running	5-8_advcl	squirt	VBG	O
+5-6	,	O	O	O	O
+5-7	I	5-8_nsubj	squirt	PRP	P1_bather
+5-8	squirt	O	O	VB	O
+5-9	in	O	O	O	O
+5-10	bubbles	5-8_prep_in	squirt	NNS	P1_bath_means
+5-11	and	O	O	O	O
+5-12	make	5-8_conj_and	squirt	VB	O
+5-13	sure	5-12_acomp	make	JJ	O
+5-14	I	5-15_nsubj	have	PRP	P1_bather
+5-15	have	O	O	VBP	O
+5-16	a	O	O	DT	O
+5-17	clean	O	O	JJ	O
+5-18	washcloth	5-15_dobj	have	NN	P1_washing_tools
+5-19	and	O	O	O	O
+5-20	towel	O	O	NN	P1_towel
+5-21	.	O	O	O	O
+
+#id=6
+#text=After I carefully climb into the tub , I make sure I wash my whole body with the soap and washcloth , even behind my ears and between my toes . 
+6-1	After	6-4_mark	climb	IN	O
+6-2	I	6-4_nsubj	climb	PRP	P1_bather
+6-3	carefully	6-4_advmod	climb	RB	O
+6-4	climb	6-10_advcl	make	VB	O
+6-5	into	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	tub	6-4_prep_into	climb	NN	P1_bathtub
+6-8	,	O	O	O	O
+6-9	I	6-10_nsubj	make	PRP	P1_bather
+6-10	make	O	O	VBP	O
+6-11	sure	6-10_acomp	make	JJ	O
+6-12	I	6-13_nsubj	wash	PRP	P1_bather
+6-13	wash	6-13_conj_and	wash	VBP	O
+6-14	my	O	O	PRP$	P1_bather
+6-15	whole	O	O	JJ	O
+6-16	body	6-13_dobj	wash	NN	P2_body_part
+6-17	with	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	soap	6-13_prep_with	wash	NN	P2_washing_tools
+6-20	and	O	O	O	O
+6-21	washcloth	O	O	NN	P1_washing_tools
+6-22	,	O	O	O	O
+6-23	even	6-13_conj	wash	RB	O
+6-24	behind	O	O	O	O
+6-25	my	O	O	PRP$	P1_bather
+6-26	ears	6-13_prep_behind	wash	NNS	P3_body_part
+6-27	and	O	O	O	O
+6-28	between	O	O	O	O
+6-29	my	O	O	PRP$	P1_bather
+6-30	toes	6-13_prep_between	wash	NNS	P4_body_part
+6-31	.	O	O	O	O
+
+#id=7
+#text=Then I can either soak and relax in the tub or I can play with toys . 
+7-1	Then	7-5_advmod	soak	RB	O
+7-2	I	7-5_nsubj	soak	PRP	P1_bather
+7-3	can	7-5_aux	soak	MD	O
+7-4	either	7-5_advmod	soak	RB	O
+7-5	soak	O	O	VB	O
+7-6	and	O	O	O	O
+7-7	relax	7-5_conj_and	soak	VB	O
+7-8	in	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	tub	7-5_prep_in	soak	NN	P1_bathtub
+7-11	or	O	O	O	O
+7-12	I	7-14_nsubj	play	PRP	P1_bather
+7-13	can	7-14_aux	play	MD	O
+7-14	play	7-5_conj_or	soak	VB	O
+7-15	with	O	O	O	O
+7-16	toys	7-14_prep_with	play	NNS	P1_in-bath_entertainment
+7-17	.	O	O	O	O
+
+#id=8
+#text=Fun toys for the bathtub are boats and plastic water animals like whales and ducks . 
+8-1	Fun	O	O	NN	O
+8-2	toys	O	O	NNS	P1_in-bath_entertainment
+8-3	for	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	bathtub	O	O	NN	P1_bathtub
+8-6	are	O	O	VBP	O
+8-7	boats	O	O	NNS	P2_in-bath_entertainment
+8-8	and	O	O	O	O
+8-9	plastic	O	O	JJ	O
+8-10	water	O	O	NN	O
+8-11	animals	O	O	NNS	P3_in-bath_entertainment
+8-12	like	O	O	O	O
+8-13	whales	O	O	NNS	P4_in-bath_entertainment
+8-14	and	O	O	O	O
+8-15	ducks	O	O	NNS	P5_in-bath_entertainment
+8-16	.	O	O	O	O
+
+#id=9
+#text=Once the water starts to turn a little cold , it 's time to get out so I open the drain again and let the water empty out . 
+9-1	Once	9-4_mark	starts	IN	O
+9-2	the	O	O	DT	O
+9-3	water	9-4_nsubj	starts	NN	P1_water
+9-4	starts	9-27_advcl	empty	VBZ	O
+9-5	to	9-6_aux	turn	TO	O
+9-6	turn	9-4_xcomp	starts	VB	O
+9-7	a	O	O	DT	O
+9-8	little	O	O	JJ	O
+9-9	cold	9-6_dobj	turn	NN	O
+9-10	,	O	O	O	O
+9-11	it	O	O	PRP	O
+9-12	's	O	O	O	O
+9-13	time	9-27_nsubj	empty	NN	O
+9-14	to	9-15_aux	get	TO	O
+9-15	get	O	O	VB	O
+9-16	out	9-15_prt	get	RP	O
+9-17	so	9-19_mark	open	IN	O
+9-18	I	9-19_nsubj	open	PRP	P1_bather
+9-19	open	9-15_advcl	get	VBP	O
+9-20	the	O	O	DT	O
+9-21	drain	9-19_dobj	open	NN	P1_drain
+9-22	again	9-19_advmod	open	RB	O
+9-23	and	O	O	O	O
+9-24	let	9-15_conj_and	get	VB	O
+9-25	the	O	O	DT	O
+9-26	water	9-24_dobj	let	NN	P1_water
+9-27	empty	O	O	VBP	O
+9-28	out	9-27_prt	empty	RP	O
+9-29	.	O	O	O	O
+
+#id=10
+#text=While it 's draining I carefully stand up and reach for my towel to dry off . 
+10-1	While	10-4_mark	draining	IN	O
+10-2	it	10-4_nsubj	draining	PRP	P1_water
+10-3	's	10-4_aux	draining	VBZ	O
+10-4	draining	10-7_csubj	stand	VBG	O
+10-5	I	10-4_dobj	draining	PRP	P1_bather
+10-6	carefully	10-4_advmod	draining	RB	O
+10-7	stand	O	O	VB	O
+10-8	up	10-7_prt	stand	RP	O
+10-9	and	O	O	O	O
+10-10	reach	10-7_conj_and	stand	VB	O
+10-11	for	O	O	O	O
+10-12	my	O	O	PRP$	P1_bather
+10-13	towel	10-10_prep_for	reach	NN	P1_towel
+10-14	to	10-15_aux	dry	TO	O
+10-15	dry	O	O	VB	O
+10-16	off	10-15_prt	dry	RP	O
+10-17	.	O	O	O	O
+
+#id=11
+#text=I always be sure the tub is clean when I 'm finished , with toys and the dirty washcloth put where they belong . 
+11-1	I	O	O	PRP	P1_bather
+11-2	always	O	O	RB	O
+11-3	be	O	O	VB	O
+11-4	sure	O	O	JJ	O
+11-5	the	O	O	DT	O
+11-6	tub	O	O	NN	P1_bathtub
+11-7	is	O	O	VBZ	O
+11-8	clean	O	O	JJ	O
+11-9	when	11-12_advmod	finished	WRB	O
+11-10	I	11-12_nsubjpass	finished	PRP	P1_bather
+11-11	'm	11-12_auxpass	finished	VBP	O
+11-12	finished	O	O	VBN	O
+11-13	,	O	O	O	O
+11-14	with	O	O	O	O
+11-15	toys	O	O	NNS	P1_in-bath_entertainment
+11-16	and	O	O	O	O
+11-17	the	O	O	DT	O
+11-18	dirty	O	O	JJ	O
+11-19	washcloth	O	O	NN	P1_washing_tools
+11-20	put	O	O	VBN	O
+11-21	where	11-23_advmod	belong	WRB	O
+11-22	they	11-23_nsubj	belong	PRP	O
+11-23	belong	11-20_advcl	put	VBP	O
+11-24	.	O	O	O	O

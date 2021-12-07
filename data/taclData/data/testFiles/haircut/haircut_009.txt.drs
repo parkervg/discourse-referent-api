@@ -1,0 +1,230 @@
+#id=1
+#text=I had really long , really straight hair . 
+1-1	I	1-2_nsubj	had	PRP	P1_customer
+1-2	had	O	O	VBD	O
+1-3	really	O	O	RB	O
+1-4	long	O	O	JJ	O
+1-5	,	O	O	O	O
+1-6	really	O	O	RB	O
+1-7	straight	O	O	JJ	O
+1-8	hair	1-2_dobj	had	NN	P1_hair
+1-9	.	O	O	O	O
+
+#id=2
+#text=One day a friend of mine mentioned a charity called '' `` Locks of Love '' '' . 
+2-1	One	O	O	CD	O
+2-2	day	2-7_tmod	mentioned	NN	P1_NPart_day
+2-3	a	O	O	DT	O
+2-4	friend	2-7_nsubj	mentioned	NN	P1_NPart_friend
+2-5	of	O	O	O	O
+2-6	mine	O	O	NN	P1_customer
+2-7	mentioned	O	O	VBD	O
+2-8	a	O	O	DT	O
+2-9	charity	2-13_nsubj	Locks	NN	P1_NPart_charity
+2-10	called	O	O	VBN	O
+2-11	''	O	O	O	O
+2-12	``	O	O	O	O
+2-13	Locks	2-7_ccomp	mentioned	VBZ	P1_NPart_locks
+2-14	of	O	O	O	O
+2-15	Love	2-13_prep_of	Locks	NN	P1_NPart_love
+2-16	''	O	O	O	O
+2-17	''	O	O	O	O
+2-18	.	O	O	O	O
+
+#id=3
+#text=People with long hair can get their hair cut off and donate it to make wigs for people with cancer . 
+3-1	People	3-6_nsubj	get	NNS	P2_customer
+3-2	with	O	O	O	O
+3-3	long	O	O	JJ	O
+3-4	hair	O	O	NN	P1_hair
+3-5	can	3-6_aux	get	MD	O
+3-6	get	O	O	VB	O
+3-7	their	O	O	PRP$	P2_customer
+3-8	hair	O	O	NN	P1_hair
+3-9	cut	3-6_dobj	get	NN	O
+3-10	off	3-6_prt	get	RP	O
+3-11	and	O	O	O	O
+3-12	donate	3-6_conj_and	get	VB	O
+3-13	it	3-12_dobj	donate	PRP	P1_hair
+3-14	to	3-15_aux	make	TO	O
+3-15	make	3-12_xcomp	donate	VB	O
+3-16	wigs	3-15_dobj	make	NNS	P1_NPart_wigs
+3-17	for	O	O	O	O
+3-18	people	3-15_prep_for	make	NNS	P1_NPart_people
+3-19	with	O	O	O	O
+3-20	cancer	O	O	NN	P1_NPart_cancer
+3-21	.	O	O	O	O
+
+#id=4
+#text=I decided to do it ! 
+4-1	I	4-2_nsubj	decided	PRP	P1_customer
+4-2	decided	O	O	VBD	O
+4-3	to	4-4_aux	do	TO	O
+4-4	do	4-2_xcomp	decided	VB	O
+4-5	it	4-4_dobj	do	PRP	O
+4-6	!	O	O	O	O
+
+#id=5
+#text=I made an appointment with a hair stylist . 
+5-1	I	5-2_nsubj	made	PRP	P1_customer
+5-2	made	O	O	VBD	O
+5-3	an	O	O	DT	O
+5-4	appointment	5-2_dobj	made	NN	P1_appointment
+5-5	with	O	O	O	O
+5-6	a	O	O	DT	O
+5-7	hair	O	O	NN	O
+5-8	stylist	5-2_prep_with	made	NN	P1_hairdresser
+5-9	.	O	O	O	O
+
+#id=6
+#text=I went to see him and told him of my plan . 
+6-1	I	6-2_nsubj	went	PRP	P1_customer
+6-2	went	O	O	VBD	O
+6-3	to	6-4_aux	see	TO	O
+6-4	see	6-2_xcomp	went	VB	O
+6-5	him	6-4_dobj	see	PRP	P1_hairdresser
+6-6	and	O	O	O	O
+6-7	told	6-2_conj_and	went	VBD	O
+6-8	him	6-7_dobj	told	PRP	P3_customer
+6-9	of	O	O	O	O
+6-10	my	O	O	PRP$	P1_customer
+6-11	plan	6-7_prep_of	told	NN	P1_NPart_plan
+6-12	.	O	O	O	O
+
+#id=7
+#text=He started by washing and conditioning my hair . 
+7-1	He	7-2_nsubj	started	PRP	P1_hairdresser
+7-2	started	O	O	VBD	O
+7-3	by	O	O	O	O
+7-4	washing	7-2_prepc_by	started	VBG	O
+7-5	and	O	O	O	O
+7-6	conditioning	7-4_conj_and	washing	VBG	O
+7-7	my	O	O	PRP$	P1_customer
+7-8	hair	7-4_dobj	washing	NN	P1_hair
+7-9	.	O	O	O	O
+
+#id=8
+#text=I sat in a chair that leaned backwards so my head would go in the sink . 
+8-1	I	8-2_nsubj	sat	PRP	P1_customer
+8-2	sat	O	O	VBD	O
+8-3	in	O	O	O	O
+8-4	a	O	O	DT	O
+8-5	chair	8-2_prep_in	sat	NN	P1_chair
+8-6	that	8-7_nsubj	leaned	WDT	O
+8-7	leaned	O	O	VBD	O
+8-8	backwards	O	O	RB	O
+8-9	so	8-7_advmod	leaned	RB	O
+8-10	my	O	O	PRP$	P1_customer
+8-11	head	8-13_nsubj	go	NN	P1_NPart_head
+8-12	would	8-13_aux	go	MD	O
+8-13	go	8-7_ccomp	leaned	VB	O
+8-14	in	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	sink	8-13_prep_in	go	NN	P1_wash_basin
+8-17	.	O	O	O	O
+
+#id=9
+#text=The water was warm . 
+9-1	The	O	O	DT	O
+9-2	water	O	O	NN	P1_other
+9-3	was	O	O	VBD	O
+9-4	warm	O	O	JJ	O
+9-5	.	O	O	O	O
+
+#id=10
+#text=When I was done , he put a big black cape around my neck and put me in a big chair in front of a mirror . 
+10-1	When	10-4_advmod	done	WRB	O
+10-2	I	10-4_nsubjpass	done	PRP	P1_customer
+10-3	was	10-4_auxpass	done	VBD	O
+10-4	done	10-7_advcl	put	VBN	O
+10-5	,	O	O	O	O
+10-6	he	10-7_nsubj	put	PRP	P1_hairdresser
+10-7	put	O	O	VBD	O
+10-8	a	O	O	DT	O
+10-9	big	O	O	JJ	O
+10-10	black	O	O	JJ	O
+10-11	cape	10-7_dobj	put	NN	P1_cape
+10-12	around	O	O	O	O
+10-13	my	O	O	PRP$	P1_customer
+10-14	neck	10-7_prep_around	put	NN	P1_NPart_neck
+10-15	and	O	O	O	O
+10-16	put	10-7_conj_and	put	VBD	O
+10-17	me	10-16_dobj	put	PRP	P1_customer
+10-18	in	O	O	O	O
+10-19	a	O	O	DT	O
+10-20	big	O	O	JJ	O
+10-21	chair	10-16_prep_in	put	NN	P2_chair
+10-22	in	O	O	O	O
+10-23	front	O	O	O	O
+10-24	of	O	O	O	O
+10-25	a	O	O	DT	O
+10-26	mirror	O	O	NN	P1_mirror
+10-27	.	O	O	O	O
+
+#id=11
+#text=He combed my hair straight , put it in a ponytail , then cut off just over 1 foot of my hair ! 
+11-1	He	11-2_nsubj	combed	PRP	P1_hairdresser
+11-2	combed	O	O	VBD	O
+11-3	my	O	O	PRP$	P1_customer
+11-4	hair	11-2_dobj	combed	NN	P1_hair
+11-5	straight	11-2_advmod	combed	RB	O
+11-6	,	O	O	O	O
+11-7	put	11-2_dep	combed	VBD	O
+11-8	it	11-7_dobj	put	PRP	P1_hair
+11-9	in	O	O	O	O
+11-10	a	O	O	DT	O
+11-11	ponytail	11-7_prep_in	put	NN	P1_NPart_ponytail
+11-12	,	O	O	O	O
+11-13	then	11-14_advmod	cut	RB	O
+11-14	cut	11-2_dep	combed	VBD	O
+11-15	off	11-14_prt	cut	RP	O
+11-16	just	11-14_advmod	cut	RB	O
+11-17	over	O	O	O	O
+11-18	1	O	O	CD	O
+11-19	foot	11-14_prep_over	cut	NN	P1_NPart_foot
+11-20	of	O	O	O	O
+11-21	my	O	O	PRP$	P1_customer
+11-22	hair	O	O	NN	P1_hair
+11-23	!	O	O	O	O
+
+#id=12
+#text=After he cut it off , he trimmed the rest of my hair , dried it , and styled it . 
+12-1	After	12-3_mark	cut	IN	O
+12-2	he	12-3_nsubj	cut	PRP	P1_hairdresser
+12-3	cut	12-8_advcl	trimmed	VBD	O
+12-4	it	12-3_dobj	cut	PRP	P1_hair
+12-5	off	12-3_prt	cut	RP	O
+12-6	,	O	O	O	O
+12-7	he	12-8_nsubj	trimmed	PRP	P1_hairdresser
+12-8	trimmed	O	O	VBD	O
+12-9	the	O	O	DT	O
+12-10	rest	12-8_dobj	trimmed	NN	P1_NPart_rest
+12-11	of	O	O	O	O
+12-12	my	O	O	PRP$	P1_customer
+12-13	hair	O	O	NN	P1_hair
+12-14	,	O	O	O	O
+12-15	dried	12-8_conj_and	trimmed	VBD	O
+12-16	it	12-15_dobj	dried	PRP	P1_hair
+12-17	,	O	O	O	O
+12-18	and	O	O	O	O
+12-19	styled	12-8_conj_and	trimmed	VBZ	O
+12-20	it	12-19_dobj	styled	PRP	P1_hair
+12-21	.	O	O	O	O
+
+#id=13
+#text=I looked in the mirror and smiled , knowing I was helping someone else . 
+13-1	I	13-2_nsubj	looked	PRP	P1_customer
+13-2	looked	O	O	VBD	O
+13-3	in	O	O	O	O
+13-4	the	O	O	DT	O
+13-5	mirror	13-2_prep_in	looked	NN	P1_mirror
+13-6	and	O	O	O	O
+13-7	smiled	13-2_conj_and	looked	VBD	O
+13-8	,	O	O	O	O
+13-9	knowing	13-2_vmod	looked	VBG	O
+13-10	I	13-12_nsubj	helping	PRP	P1_customer
+13-11	was	13-12_aux	helping	VBD	O
+13-12	helping	13-9_ccomp	knowing	VBG	O
+13-13	someone	13-12_dobj	helping	NN	O
+13-14	else	O	O	RB	O
+13-15	.	O	O	O	O

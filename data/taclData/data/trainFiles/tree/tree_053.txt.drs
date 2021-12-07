@@ -1,0 +1,221 @@
+#id=1
+#text=Our back yard was so bare , so we decided to plant a tree to spruce it up . 
+1-1	Our	O	O	PRP$	P1_gardener
+1-2	back	O	O	JJ	O
+1-3	yard	O	O	NN	P1_location_garden
+1-4	was	O	O	VBD	O
+1-5	so	O	O	RB	O
+1-6	bare	O	O	JJ	O
+1-7	,	O	O	O	O
+1-8	so	O	O	IN	O
+1-9	we	1-10_nsubj	decided	PRP	P1_gardener
+1-10	decided	O	O	VBD	O
+1-11	to	1-12_aux	plant	TO	O
+1-12	plant	1-10_xcomp	decided	VB	O
+1-13	a	O	O	DT	O
+1-14	tree	1-12_dobj	plant	NN	P1_tree
+1-15	to	1-16_aux	spruce	TO	O
+1-16	spruce	O	O	VB	O
+1-17	it	1-16_dobj	spruce	PRP	P1_location_garden
+1-18	up	1-16_prt	spruce	RP	O
+1-19	.	O	O	O	O
+
+#id=2
+#text=We decided a nice apple tree would look great , and give us fresh fruit when it 's grown . 
+2-1	We	2-2_nsubj	decided	PRP	P1_gardener
+2-2	decided	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	nice	O	O	JJ	O
+2-5	apple	O	O	NN	O
+2-6	tree	2-8_nsubj	look	NN	P1_tree
+2-7	would	2-8_aux	look	MD	O
+2-8	look	2-2_ccomp	decided	VB	O
+2-9	great	2-8_acomp	look	JJ	O
+2-10	,	O	O	O	O
+2-11	and	O	O	O	O
+2-12	give	2-8_conj_and	look	VB	O
+2-13	us	2-12_iobj	give	PRP	P1_gardener
+2-14	fresh	O	O	JJ	O
+2-15	fruit	2-12_dobj	give	NN	P1_NPart_fruit
+2-16	when	2-19_advmod	grown	WRB	O
+2-17	it	2-19_nsubjpass	grown	PRP	P1_tree
+2-18	's	2-19_auxpass	grown	VBZ	O
+2-19	grown	O	O	VBN	O
+2-20	.	O	O	O	O
+
+#id=3
+#text=First we went to the nursery and bough an apple tree sapling . 
+3-1	First	3-3_advmod	went	RB	O
+3-2	we	3-3_nsubj	went	PRP	P1_gardener
+3-3	went	O	O	VBD	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	nursery	3-3_prep_to	went	NN	P1_shop
+3-7	and	O	O	O	O
+3-8	bough	3-3_conj_and	went	VBP	O
+3-9	an	O	O	DT	O
+3-10	apple	O	O	NN	O
+3-11	tree	O	O	NN	O
+3-12	sapling	3-8_dobj	bough	NN	P1_tree
+3-13	.	O	O	O	O
+
+#id=4
+#text=Then when we got home , we got to work . 
+4-1	Then	4-8_advmod	got	RB	O
+4-2	when	4-4_advmod	got	WRB	O
+4-3	we	4-4_nsubj	got	PRP	P1_gardener
+4-4	got	4-8_advcl	got	VBD	O
+4-5	home	4-4_dobj	got	NN	P1_NPart_home
+4-6	,	O	O	O	O
+4-7	we	4-8_nsubj	got	PRP	P1_gardener
+4-8	got	O	O	VBD	O
+4-9	to	4-10_aux	work	TO	O
+4-10	work	4-8_xcomp	got	VB	O
+4-11	.	O	O	O	O
+
+#id=5
+#text=We dug a hole in the ground big enough for the sapling to be planted . 
+5-1	We	5-2_nsubj	dug	PRP	P1_gardener
+5-2	dug	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	hole	O	O	NN	P1_hole
+5-5	in	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	ground	O	O	NN	P1_dirt
+5-8	big	5-2_xcomp	dug	JJ	O
+5-9	enough	O	O	RB	O
+5-10	for	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	sapling	O	O	NN	P1_tree
+5-13	to	5-15_aux	planted	TO	O
+5-14	be	5-15_auxpass	planted	VB	O
+5-15	planted	O	O	VBN	O
+5-16	.	O	O	O	O
+
+#id=6
+#text=Once we had the hole ready , in went the sapling . 
+6-1	Once	6-3_mark	had	IN	O
+6-2	we	6-3_nsubj	had	PRP	P1_gardener
+6-3	had	6-9_advcl	went	VBD	O
+6-4	the	O	O	DT	O
+6-5	hole	O	O	NN	P1_hole
+6-6	ready	6-3_xcomp	had	JJ	O
+6-7	,	O	O	O	O
+6-8	in	6-9_advmod	went	RB	O
+6-9	went	O	O	VBD	O
+6-10	the	O	O	DT	O
+6-11	sapling	6-9_dobj	went	NN	P1_tree
+6-12	.	O	O	O	O
+
+#id=7
+#text=We made sure it was in deep enough and was standing straight up , then we put the dirt back in around the sapling . 
+7-1	We	7-2_nsubj	made	PRP	P1_gardener
+7-2	made	O	O	VBD	O
+7-3	sure	7-2_acomp	made	JJ	O
+7-4	it	7-5_nsubj	was	PRP	P1_tree
+7-5	was	O	O	VBD	O
+7-6	in	O	O	O	O
+7-7	deep	O	O	JJ	O
+7-8	enough	7-5_prep_in	was	NN	O
+7-9	and	O	O	O	O
+7-10	was	7-11_aux	standing	VBD	O
+7-11	standing	7-2_conj_and	made	VBG	O
+7-12	straight	7-11_advmod	standing	RB	O
+7-13	up	7-11_advmod	standing	RB	O
+7-14	,	O	O	O	O
+7-15	then	7-17_advmod	put	RB	O
+7-16	we	7-17_nsubj	put	PRP	P1_gardener
+7-17	put	7-2_parataxis	made	VBD	O
+7-18	the	O	O	DT	O
+7-19	dirt	7-17_dobj	put	NN	P1_dirt
+7-20	back	7-17_advmod	put	RB	O
+7-21	in	7-17_dep	put	IN	O
+7-22	around	O	O	O	O
+7-23	the	O	O	DT	O
+7-24	sapling	7-17_prep_around	put	NN	P1_tree
+7-25	.	O	O	O	O
+
+#id=8
+#text=We carefully patted the dirt down so it would hold the sapling nice and firm . 
+8-1	We	8-3_nsubj	patted	PRP	P1_gardener
+8-2	carefully	8-3_advmod	patted	RB	O
+8-3	patted	O	O	VBD	O
+8-4	the	O	O	DT	O
+8-5	dirt	O	O	NN	P1_dirt
+8-6	down	8-3_advmod	patted	RB	O
+8-7	so	8-10_mark	hold	IN	O
+8-8	it	8-10_nsubj	hold	PRP	P1_dirt
+8-9	would	8-10_aux	hold	MD	O
+8-10	hold	8-3_advcl	patted	VB	O
+8-11	the	O	O	DT	O
+8-12	sapling	8-10_dobj	hold	NN	P1_tree
+8-13	nice	O	O	JJ	O
+8-14	and	O	O	O	O
+8-15	firm	O	O	JJ	O
+8-16	.	O	O	O	O
+
+#id=9
+#text=Once we had done that , we took the garden hose and watered our new plant , making sure it had enough water , but not so much that the dirt would get too muddy and the sapling might be loose . 
+9-1	Once	9-4_mark	done	IN	O
+9-2	we	9-4_nsubj	done	PRP	P1_gardener
+9-3	had	9-4_aux	done	VBD	O
+9-4	done	9-18_advcl	making	VBN	O
+9-5	that	9-8_mark	took	IN	O
+9-6	,	O	O	O	O
+9-7	we	9-8_nsubj	took	PRP	P1_gardener
+9-8	took	9-4_ccomp	done	VBD	O
+9-9	the	O	O	DT	O
+9-10	garden	O	O	NN	O
+9-11	hose	9-8_dobj	took	NN	P1_gardening_tool
+9-12	and	O	O	O	O
+9-13	watered	9-8_conj_and	took	VBD	O
+9-14	our	O	O	PRP$	P1_gardener
+9-15	new	O	O	JJ	O
+9-16	plant	9-13_dobj	watered	NN	P1_tree
+9-17	,	O	O	O	O
+9-18	making	O	O	VBG	O
+9-19	sure	9-18_acomp	making	JJ	O
+9-20	it	9-21_nsubj	had	PRP	P1_tree
+9-21	had	O	O	VBD	O
+9-22	enough	O	O	JJ	O
+9-23	water	9-21_dobj	had	NN	P1_water
+9-24	,	O	O	O	O
+9-25	but	O	O	O	O
+9-26	not	O	O	RB	O
+9-27	so	O	O	RB	O
+9-28	much	O	O	JJ	O
+9-29	that	O	O	IN	O
+9-30	the	O	O	DT	O
+9-31	dirt	O	O	NN	P1_dirt
+9-32	would	O	O	MD	O
+9-33	get	O	O	VB	O
+9-34	too	O	O	RB	O
+9-35	muddy	O	O	JJ	O
+9-36	and	O	O	O	O
+9-37	the	O	O	DT	O
+9-38	sapling	O	O	NN	P1_tree
+9-39	might	O	O	MD	O
+9-40	be	O	O	VB	O
+9-41	loose	9-18_conj_and	making	JJ	O
+9-42	.	O	O	O	O
+
+#id=10
+#text=Then we took a step back and looked at what would eventually become our new apple tree . 
+10-1	Then	10-3_advmod	took	RB	O
+10-2	we	10-3_nsubj	took	PRP	P1_gardener
+10-3	took	O	O	VBD	O
+10-4	a	O	O	DT	O
+10-5	step	10-3_dobj	took	NN	P1_NPart_step
+10-6	back	10-3_advmod	took	RB	O
+10-7	and	O	O	O	O
+10-8	looked	10-3_conj_and	took	VBD	O
+10-9	at	O	O	O	O
+10-10	what	10-13_nsubj	become	WP	P1_tree
+10-11	would	10-13_aux	become	MD	O
+10-12	eventually	10-13_advmod	become	RB	O
+10-13	become	10-8_prepc_at	looked	VB	O
+10-14	our	O	O	PRP$	P1_gardener
+10-15	new	O	O	JJ	O
+10-16	apple	O	O	NN	O
+10-17	tree	10-13_xcomp	become	NN	P1_tree
+10-18	.	O	O	O	O

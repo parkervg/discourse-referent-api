@@ -1,0 +1,199 @@
+#id=1
+#text=I go to my bedroom and select clean clothes to put on after taking a bath . 
+1-1	I	1-2_nsubj	go	PRP	P1_bather
+1-2	go	O	O	VBP	O
+1-3	to	O	O	O	O
+1-4	my	O	O	PRP$	P1_bather
+1-5	bedroom	1-2_prep_to	go	NN	P1_NPart_bedroom
+1-6	and	O	O	O	O
+1-7	select	O	O	JJ	O
+1-8	clean	O	O	JJ	O
+1-9	clothes	O	O	NNS	P1_clothes
+1-10	to	1-11_aux	put	TO	O
+1-11	put	1-2_xcomp	go	VB	O
+1-12	on	1-11_prt	put	RP	O
+1-13	after	O	O	O	O
+1-14	taking	1-11_prepc_after	put	VBG	O
+1-15	a	O	O	DT	O
+1-16	bath	1-14_dobj	taking	NN	O
+1-17	.	O	O	O	O
+
+#id=2
+#text=Go into the bathroom and turn on the water at let it run until it reaches a comfortable temperature and reaches a good height . 
+2-1	Go	O	O	VB	O
+2-2	into	O	O	O	O
+2-3	the	O	O	DT	O
+2-4	bathroom	2-1_prep_into	Go	NN	P1_bathroom
+2-5	and	O	O	O	O
+2-6	turn	2-1_conj_and	Go	VB	O
+2-7	on	O	O	O	O
+2-8	the	O	O	DT	O
+2-9	water	2-6_prep_on	turn	NN	P1_water
+2-10	at	O	O	O	O
+2-11	let	2-6_prepc_at	turn	VB	O
+2-12	it	2-13_nsubj	run	PRP	P1_water
+2-13	run	2-11_ccomp	let	VB	O
+2-14	until	2-16_mark	reaches	IN	O
+2-15	it	2-16_nsubj	reaches	PRP	P1_water
+2-16	reaches	2-13_advcl	run	VBZ	O
+2-17	a	O	O	DT	O
+2-18	comfortable	O	O	JJ	O
+2-19	temperature	2-16_dobj	reaches	NN	P1_temperature
+2-20	and	O	O	O	O
+2-21	reaches	2-16_conj_and	reaches	VBZ	O
+2-22	a	O	O	DT	O
+2-23	good	O	O	JJ	O
+2-24	height	2-21_dobj	reaches	NN	P1_NPart_height
+2-25	.	O	O	O	O
+
+#id=3
+#text=I undress and gently touch the water with my foot to ensure its comfort . 
+3-1	I	3-2_nsubj	undress	PRP	P1_bather
+3-2	undress	O	O	VBZ	O
+3-3	and	O	O	O	O
+3-4	gently	3-5_advmod	touch	RB	O
+3-5	touch	3-2_conj_and	undress	VB	O
+3-6	the	O	O	DT	O
+3-7	water	3-5_dobj	touch	NN	P1_water
+3-8	with	O	O	O	O
+3-9	my	O	O	PRP$	P1_bather
+3-10	foot	3-5_prep_with	touch	NN	P1_body_part
+3-11	to	3-12_aux	ensure	TO	O
+3-12	ensure	O	O	VB	O
+3-13	its	O	O	PRP$	P1_water
+3-14	comfort	3-12_dobj	ensure	NN	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=Then I go fully into the water and take a deep breath for relaxation . 
+4-1	Then	4-3_advmod	go	RB	O
+4-2	I	4-3_nsubj	go	PRP	P1_bather
+4-3	go	O	O	VBP	O
+4-4	fully	4-3_advmod	go	RB	O
+4-5	into	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	water	4-3_prep_into	go	NN	P1_water
+4-8	and	O	O	O	O
+4-9	take	4-3_conj_and	go	VBP	O
+4-10	a	O	O	DT	O
+4-11	deep	O	O	JJ	O
+4-12	breath	4-9_dobj	take	NN	O
+4-13	for	O	O	O	O
+4-14	relaxation	O	O	NN	P1_NPart_relaxation
+4-15	.	O	O	O	O
+
+#id=5
+#text=I soap up my wash clothe and start cleaning the parts of my body that are not exposed to the water . 
+5-1	I	5-2_nsubj	soap	PRP	P1_bather
+5-2	soap	O	O	VBD	O
+5-3	up	5-2_prt	soap	RP	O
+5-4	my	O	O	PRP$	P1_bather
+5-5	wash	O	O	NN	O
+5-6	clothe	5-2_dobj	soap	NN	P1_washing_tools
+5-7	and	O	O	O	O
+5-8	start	5-2_conj_and	soap	VBP	O
+5-9	cleaning	5-8_xcomp	start	VBG	O
+5-10	the	O	O	DT	O
+5-11	parts	5-9_dobj	cleaning	NNS	O
+5-12	of	O	O	O	O
+5-13	my	O	O	PRP$	P1_bather
+5-14	body	O	O	NN	P2_body_part
+5-15	that	5-18_nsubjpass	exposed	WDT	P2_body_part
+5-16	are	5-18_auxpass	exposed	VBP	O
+5-17	not	5-18_neg	exposed	RB	O
+5-18	exposed	O	O	VBN	O
+5-19	to	O	O	O	O
+5-20	the	O	O	DT	O
+5-21	water	5-18_prep_to	exposed	NN	P1_water
+5-22	.	O	O	O	O
+
+#id=6
+#text=After that I stand up and finish soaping my the remainder of my body . 
+6-1	After	O	O	O	O
+6-2	that	6-4_prep_after	stand	DT	O
+6-3	I	6-4_nsubj	stand	PRP	P1_bather
+6-4	stand	O	O	VBP	O
+6-5	up	6-4_prt	stand	RP	O
+6-6	and	O	O	O	O
+6-7	finish	6-4_conj_and	stand	VBP	O
+6-8	soaping	6-7_xcomp	finish	VBG	O
+6-9	my	O	O	PRP$	P1_bather
+6-10	the	O	O	DT	O
+6-11	remainder	6-8_xcomp	soaping	NN	O
+6-12	of	O	O	O	O
+6-13	my	O	O	PRP$	P1_bather
+6-14	body	O	O	NN	P2_body_part
+6-15	.	O	O	O	O
+
+#id=7
+#text=I start letting the water drain while turning on the shower and wash my hair . 
+7-1	I	7-2_nsubj	start	PRP	P1_bather
+7-2	start	O	O	VBP	O
+7-3	letting	7-2_xcomp	start	VBG	O
+7-4	the	O	O	DT	O
+7-5	water	O	O	NN	P1_water
+7-6	drain	7-3_dobj	letting	NN	O
+7-7	while	7-8_mark	turning	IN	O
+7-8	turning	7-3_advcl	letting	VBG	O
+7-9	on	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	shower	7-8_prep_on	turning	NN	P1_shower
+7-12	and	O	O	O	O
+7-13	wash	7-8_conj_and	turning	VB	O
+7-14	my	O	O	PRP$	P1_bather
+7-15	hair	7-13_dobj	wash	NN	P1_hair
+7-16	.	O	O	O	O
+
+#id=8
+#text=I completely rinse off and dry myself . 
+8-1	I	8-3_nsubj	rinse	PRP	P1_bather
+8-2	completely	8-3_advmod	rinse	RB	O
+8-3	rinse	O	O	VB	O
+8-4	off	8-3_prt	rinse	RP	O
+8-5	and	O	O	O	O
+8-6	dry	8-3_conj_and	rinse	VB	O
+8-7	myself	8-6_dobj	dry	PRP	P1_bather
+8-8	.	O	O	O	O
+
+#id=9
+#text=Then I get dressed and put on some after shower cologne . 
+9-1	Then	9-4_advmod	dressed	RB	O
+9-2	I	9-4_nsubjpass	dressed	PRP	P1_bather
+9-3	get	9-4_auxpass	dressed	VBP	O
+9-4	dressed	O	O	VBN	O
+9-5	and	O	O	O	O
+9-6	put	9-4_conj_and	dressed	VBN	O
+9-7	on	O	O	O	O
+9-8	some	9-4_prep_on	dressed	DT	O
+9-9	after	O	O	O	O
+9-10	shower	O	O	NN	O
+9-11	cologne	O	O	NN	P1_bath_means
+9-12	.	O	O	O	O
+
+#id=10
+#text=I exit the bathroom but leave the door open to remove the steam . 
+10-1	I	10-2_nsubj	exit	PRP	P1_bather
+10-2	exit	O	O	VB	O
+10-3	the	O	O	DT	O
+10-4	bathroom	10-2_dobj	exit	NN	P1_bathroom
+10-5	but	O	O	O	O
+10-6	leave	10-2_conj_but	exit	VB	O
+10-7	the	O	O	DT	O
+10-8	door	O	O	NN	P1_NPart_door
+10-9	open	10-6_xcomp	leave	JJ	O
+10-10	to	10-11_aux	remove	TO	O
+10-11	remove	O	O	VB	O
+10-12	the	O	O	DT	O
+10-13	steam	10-11_dobj	remove	NN	P1_other
+10-14	.	O	O	O	O
+
+#id=11
+#text=A nice relaxing bath is now complete . 
+11-1	A	O	O	DT	O
+11-2	nice	O	O	JJ	O
+11-3	relaxing	O	O	JJ	O
+11-4	bath	O	O	NN	P1_bath
+11-5	is	O	O	VBZ	O
+11-6	now	O	O	RB	O
+11-7	complete	O	O	JJ	O
+11-8	.	O	O	O	O

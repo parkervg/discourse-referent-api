@@ -1,0 +1,198 @@
+#id=1
+#text=Planting a tree was one of the most difficult but memorable experiences of my life . 
+1-1	Planting	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	tree	1-1_dobj	Planting	NN	P1_tree
+1-4	was	O	O	VBD	O
+1-5	one	O	O	CD	O
+1-6	of	O	O	O	O
+1-7	the	O	O	DT	O
+1-8	most	O	O	RBS	O
+1-9	difficult	O	O	JJ	O
+1-10	but	O	O	O	O
+1-11	memorable	O	O	JJ	O
+1-12	experiences	O	O	NNS	P1_NPart_experiences
+1-13	of	O	O	O	O
+1-14	my	O	O	PRP$	P1_gardener
+1-15	life	O	O	NN	P1_NPart_life
+1-16	.	O	O	O	O
+
+#id=2
+#text=When I decided I wanted to plant a tree I knew absolutely nothing about it , so my first step was to do some research . 
+2-1	When	2-3_advmod	decided	WRB	O
+2-2	I	2-3_nsubj	decided	PRP	P1_gardener
+2-3	decided	2-11_advcl	knew	VBD	O
+2-4	I	2-5_nsubj	wanted	PRP	P1_gardener
+2-5	wanted	2-3_ccomp	decided	VBD	O
+2-6	to	2-7_aux	plant	TO	O
+2-7	plant	2-5_xcomp	wanted	VB	O
+2-8	a	O	O	DT	O
+2-9	tree	2-7_dobj	plant	NN	P1_tree
+2-10	I	2-11_nsubj	knew	PRP	P1_gardener
+2-11	knew	O	O	VBD	O
+2-12	absolutely	O	O	RB	O
+2-13	nothing	2-11_dobj	knew	NN	O
+2-14	about	O	O	O	O
+2-15	it	2-11_prep_about	knew	PRP	O
+2-16	,	O	O	O	O
+2-17	so	2-11_dep	knew	IN	O
+2-18	my	O	O	PRP$	P1_gardener
+2-19	first	O	O	JJ	O
+2-20	step	2-21_nsubj	was	NN	P1_NPart_step
+2-21	was	2-11_parataxis	knew	VBD	O
+2-22	to	2-23_aux	do	TO	O
+2-23	do	2-21_xcomp	was	VB	O
+2-24	some	O	O	DT	O
+2-25	research	2-23_dobj	do	NN	O
+2-26	.	O	O	O	O
+
+#id=3
+#text=As it turns out , while it is possible to plant a tree from a seed , trees are most commonly planted in the for of saplings : small baby trees that come in pots . 
+3-1	As	3-3_mark	turns	IN	O
+3-2	it	3-3_nsubj	turns	PRP	O
+3-3	turns	3-22_advcl	planted	VBZ	O
+3-4	out	3-3_prt	turns	RP	O
+3-5	,	O	O	O	O
+3-6	while	O	O	IN	O
+3-7	it	O	O	PRP	O
+3-8	is	O	O	VBZ	O
+3-9	possible	3-3_advcl	turns	JJ	O
+3-10	to	3-11_aux	plant	TO	O
+3-11	plant	O	O	VB	O
+3-12	a	O	O	DT	O
+3-13	tree	3-11_dobj	plant	NN	P1_tree
+3-14	from	O	O	O	O
+3-15	a	O	O	DT	O
+3-16	seed	3-11_prep_from	plant	NN	P1_seeds
+3-17	,	O	O	O	O
+3-18	trees	3-22_nsubjpass	planted	NNS	P1_tree
+3-19	are	3-22_auxpass	planted	VBP	O
+3-20	most	O	O	RBS	O
+3-21	commonly	3-22_advmod	planted	RB	O
+3-22	planted	O	O	VBN	O
+3-23	in	O	O	O	O
+3-24	the	3-22_prep_in	planted	DT	O
+3-25	for	O	O	IN	P1_NPart_for
+3-26	of	O	O	O	O
+3-27	saplings	O	O	NNS	P1_tree
+3-28	:	O	O	O	O
+3-29	small	O	O	JJ	O
+3-30	baby	O	O	NN	O
+3-31	trees	O	O	NNS	P1_tree
+3-32	that	3-33_nsubj	come	WDT	O
+3-33	come	O	O	VBN	O
+3-34	in	O	O	O	O
+3-35	pots	3-33_prep_in	come	NNS	P1_wrapping
+3-36	.	O	O	O	O
+
+#id=4
+#text=So I went to the Home Depot and picked a tree . 
+4-1	So	4-3_dep	went	IN	O
+4-2	I	4-3_nsubj	went	PRP	P1_gardener
+4-3	went	O	O	VBD	O
+4-4	to	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	Home	O	O	NNP	O
+4-7	Depot	4-3_prep_to	went	NNP	P1_shop
+4-8	and	O	O	O	O
+4-9	picked	4-3_conj_and	went	VBD	O
+4-10	a	O	O	DT	O
+4-11	tree	4-9_dobj	picked	NN	P1_tree
+4-12	.	O	O	O	O
+
+#id=5
+#text=I decided on an avocado tree because I love the buttery goodness of its fruit . 
+5-1	I	5-2_nsubj	decided	PRP	P2_tree
+5-2	decided	O	O	VBD	O
+5-3	on	O	O	O	O
+5-4	an	O	O	DT	O
+5-5	avocado	O	O	NN	O
+5-6	tree	5-2_prep_on	decided	NN	P1_tree
+5-7	because	5-9_mark	love	IN	O
+5-8	I	5-9_nsubj	love	PRP	P1_gardener
+5-9	love	5-2_advcl	decided	VBP	O
+5-10	the	O	O	DT	O
+5-11	buttery	O	O	JJ	O
+5-12	goodness	5-9_dobj	love	NN	P1_NPart_goodness
+5-13	of	O	O	O	O
+5-14	its	O	O	PRP$	P1_tree
+5-15	fruit	O	O	NN	P1_NPart_fruit
+5-16	.	O	O	O	O
+
+#id=6
+#text=I carefully packed the tree into my car and took it home , where I brought it into my backyard and dug a hole for it . 
+6-1	I	6-3_nsubj	packed	PRP	P1_gardener
+6-2	carefully	6-3_advmod	packed	RB	O
+6-3	packed	O	O	VBD	O
+6-4	the	O	O	DT	O
+6-5	tree	6-3_dobj	packed	NN	P1_tree
+6-6	into	O	O	O	O
+6-7	my	O	O	PRP$	P1_gardener
+6-8	car	6-3_prep_into	packed	NN	P1_NPart_car
+6-9	and	O	O	O	O
+6-10	took	6-3_conj_and	packed	VBD	O
+6-11	it	6-10_dobj	took	PRP	P1_tree
+6-12	home	6-10_advmod	took	RB	P1_NPart_home
+6-13	,	O	O	O	O
+6-14	where	6-16_advmod	brought	WRB	O
+6-15	I	6-16_nsubj	brought	PRP	P1_gardener
+6-16	brought	6-10_advcl	took	VBD	O
+6-17	it	6-16_dobj	brought	PRP	P1_tree
+6-18	into	O	O	O	O
+6-19	my	O	O	PRP$	P1_gardener
+6-20	backyard	6-16_prep_into	brought	NN	P1_NPart_backyard
+6-21	and	O	O	O	O
+6-22	dug	6-16_conj_and	brought	VBD	O
+6-23	a	O	O	DT	O
+6-24	hole	6-22_dobj	dug	NN	P1_hole
+6-25	for	O	O	O	O
+6-26	it	6-22_prep_for	dug	PRP	P1_tree
+6-27	.	O	O	O	O
+
+#id=7
+#text=After I dug the hole , I took the sapling out of the pot and placed it into the hole . 
+7-1	After	7-3_mark	dug	IN	O
+7-2	I	7-3_nsubj	dug	PRP	P1_gardener
+7-3	dug	7-8_advcl	took	VBD	O
+7-4	the	O	O	DT	O
+7-5	hole	7-3_dobj	dug	NN	P1_hole
+7-6	,	O	O	O	O
+7-7	I	7-8_nsubj	took	PRP	P1_gardener
+7-8	took	O	O	VBD	O
+7-9	the	7-8_dobj	took	DT	O
+7-10	sapling	O	O	VBG	P1_tree
+7-11	out	O	O	O	O
+7-12	of	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	pot	O	O	NN	P1_NPart_pot
+7-15	and	O	O	O	O
+7-16	placed	7-8_conj_and	took	VBD	O
+7-17	it	7-16_dobj	placed	PRP	P1_tree
+7-18	into	O	O	O	O
+7-19	the	O	O	DT	O
+7-20	hole	7-16_prep_into	placed	NN	P1_hole
+7-21	.	O	O	O	O
+
+#id=8
+#text=Finally I filled up the excess space with leftover dirt and gave the tree a water in its new home . 
+8-1	Finally	8-3_advmod	filled	RB	O
+8-2	I	8-3_nsubj	filled	PRP	P1_gardener
+8-3	filled	O	O	VBD	O
+8-4	up	8-3_prt	filled	RP	O
+8-5	the	O	O	DT	O
+8-6	excess	O	O	JJ	O
+8-7	space	8-3_dobj	filled	NN	P1_hole
+8-8	with	O	O	O	O
+8-9	leftover	O	O	NN	O
+8-10	dirt	O	O	NN	P1_dirt
+8-11	and	O	O	O	O
+8-12	gave	8-3_conj_and	filled	VBD	O
+8-13	the	O	O	DT	O
+8-14	tree	8-12_iobj	gave	NN	P1_tree
+8-15	a	O	O	DT	O
+8-16	water	8-12_dobj	gave	NN	P1_water
+8-17	in	O	O	O	O
+8-18	its	O	O	PRP$	P1_tree
+8-19	new	O	O	JJ	O
+8-20	home	O	O	NN	P2_NPart_home
+8-21	.	O	O	O	O

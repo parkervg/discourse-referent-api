@@ -1,0 +1,283 @@
+#id=1
+#text=Yesterday I went to Market Basket , a local food store , to do my grocery shopping . 
+1-1	Yesterday	1-3_tmod	went	NN	O
+1-2	I	1-3_nsubj	went	PRP	P1_shopper
+1-3	went	O	O	VBD	O
+1-4	to	O	O	O	O
+1-5	Market	O	O	NNP	O
+1-6	Basket	1-3_prep_to	went	NNP	P1_grocery_shop
+1-7	,	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	local	O	O	JJ	O
+1-10	food	O	O	NN	O
+1-11	store	O	O	NN	P1_grocery_shop
+1-12	,	O	O	O	O
+1-13	to	1-14_aux	do	TO	O
+1-14	do	1-3_xcomp	went	VB	O
+1-15	my	O	O	PRP$	P1_shopper
+1-16	grocery	O	O	NN	P1_groceries
+1-17	shopping	1-14_dobj	do	NN	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=I made a list of what I needed before I left home . 
+2-1	I	2-2_nsubj	made	PRP	P1_shopper
+2-2	made	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	list	2-2_dobj	made	NN	P1_grocery_list
+2-5	of	O	O	O	O
+2-6	what	2-8_dobj	needed	WP	O
+2-7	I	2-8_nsubj	needed	PRP	P1_shopper
+2-8	needed	O	O	VBD	O
+2-9	before	2-11_mark	left	IN	O
+2-10	I	2-11_nsubj	left	PRP	P1_shopper
+2-11	left	2-8_advcl	needed	VBD	O
+2-12	home	2-11_dobj	left	NN	P1_NPart_home
+2-13	.	O	O	O	O
+
+#id=3
+#text=When I got to the store , I grabbed a shopping cart and started cruising the aisles of the store . 
+3-1	When	3-3_advmod	got	WRB	O
+3-2	I	3-3_nsubj	got	PRP	P1_shopper
+3-3	got	3-9_advcl	grabbed	VBD	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	store	3-3_prep_to	got	NN	P1_grocery_shop
+3-7	,	O	O	O	O
+3-8	I	3-9_nsubj	grabbed	PRP	P1_shopper
+3-9	grabbed	O	O	VBD	O
+3-10	a	O	O	DT	O
+3-11	shopping	O	O	NN	O
+3-12	cart	3-9_dobj	grabbed	NN	P1_shopping_cart/basket
+3-13	and	O	O	O	O
+3-14	started	3-9_conj_and	grabbed	VBD	O
+3-15	cruising	3-14_xcomp	started	VBG	O
+3-16	the	O	O	DT	O
+3-17	aisles	3-15_dobj	cruising	NNS	P1_section
+3-18	of	O	O	O	O
+3-19	the	O	O	DT	O
+3-20	store	O	O	NN	P1_grocery_shop
+3-21	.	O	O	O	O
+
+#id=4
+#text=I use a budget when I shop so I add the prices of items in my head as I shop . 
+4-1	I	4-2_nsubj	use	PRP	P1_shopper
+4-2	use	O	O	VBP	O
+4-3	a	O	O	DT	O
+4-4	budget	4-2_dobj	use	NN	P1_NPart_budget
+4-5	when	4-7_advmod	shop	WRB	O
+4-6	I	4-7_nsubj	shop	PRP	P1_shopper
+4-7	shop	O	O	VB	O
+4-8	so	4-10_mark	add	IN	O
+4-9	I	4-10_nsubj	add	PRP	P1_shopper
+4-10	add	4-7_advcl	shop	VBP	O
+4-11	the	O	O	DT	O
+4-12	prices	4-10_dobj	add	NNS	P1_price
+4-13	of	O	O	O	O
+4-14	items	O	O	NNS	P1_groceries
+4-15	in	O	O	O	O
+4-16	my	O	O	PRP$	P1_shopper
+4-17	head	O	O	NN	P1_NPart_head
+4-18	as	4-20_mark	shop	IN	O
+4-19	I	4-20_nsubj	shop	PRP	P1_shopper
+4-20	shop	4-10_advcl	add	VB	O
+4-21	.	O	O	O	O
+
+#id=5
+#text=I picked out the things on my list : milk , butter , bread , tuna fish , dog food , rice , maple syrup and paper cups . 
+5-1	I	5-2_nsubj	picked	PRP	P1_shopper
+5-2	picked	O	O	VBD	O
+5-3	out	5-2_prt	picked	RP	O
+5-4	the	O	O	DT	O
+5-5	things	5-2_dobj	picked	NNS	P1_groceries
+5-6	on	O	O	O	O
+5-7	my	O	O	PRP$	P1_shopper
+5-8	list	O	O	NN	P1_grocery_list
+5-9	:	O	O	O	O
+5-10	milk	O	O	NN	P2_groceries
+5-11	,	O	O	O	O
+5-12	butter	O	O	NN	P3_groceries
+5-13	,	O	O	O	O
+5-14	bread	O	O	NN	P4_groceries
+5-15	,	O	O	O	O
+5-16	tuna	O	O	NN	O
+5-17	fish	O	O	NN	P5_groceries
+5-18	,	O	O	O	O
+5-19	dog	O	O	NN	O
+5-20	food	O	O	NN	P6_groceries
+5-21	,	O	O	O	O
+5-22	rice	O	O	NN	P7_groceries
+5-23	,	O	O	O	O
+5-24	maple	O	O	JJ	O
+5-25	syrup	O	O	NN	P8_groceries
+5-26	and	O	O	O	O
+5-27	paper	O	O	NN	O
+5-28	cups	O	O	NNS	P9_groceries
+5-29	.	O	O	O	O
+
+#id=6
+#text=After I finished making all my selections , I pushed my cart to the checkout line . 
+6-1	After	6-3_mark	finished	IN	O
+6-2	I	6-3_nsubj	finished	PRP	P1_shopper
+6-3	finished	6-10_advcl	pushed	VBD	O
+6-4	making	6-3_xcomp	finished	VBG	O
+6-5	all	O	O	PDT	O
+6-6	my	O	O	PRP$	P1_shopper
+6-7	selections	6-4_dobj	making	NNS	P1_groceries
+6-8	,	O	O	O	O
+6-9	I	6-10_nsubj	pushed	PRP	P1_shopper
+6-10	pushed	O	O	VBD	O
+6-11	my	O	O	PRP$	P1_shopper
+6-12	cart	6-10_dobj	pushed	NN	P1_shopping_cart/basket
+6-13	to	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	checkout	O	O	NN	O
+6-16	line	6-10_prep_to	pushed	NN	P1_line
+6-17	.	O	O	O	O
+
+#id=7
+#text=When it was my turn , I unloaded all of my groceries onto the conveyor belt so that the cashier could ring them up . 
+7-1	When	O	O	WRB	O
+7-2	it	O	O	PRP	O
+7-3	was	O	O	VBD	O
+7-4	my	O	O	PRP$	P1_shopper
+7-5	turn	7-8_advcl	unloaded	NN	O
+7-6	,	O	O	O	O
+7-7	I	7-8_nsubj	unloaded	PRP	P1_shopper
+7-8	unloaded	O	O	VBD	O
+7-9	all	7-8_dobj	unloaded	DT	O
+7-10	of	O	O	O	O
+7-11	my	O	O	PRP$	P1_shopper
+7-12	groceries	O	O	NNS	P1_groceries
+7-13	onto	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	conveyor	O	O	NN	O
+7-16	belt	7-8_prep_onto	unloaded	NN	P1_conveyor_belt
+7-17	so	7-22_advmod	ring	RB	O
+7-18	that	7-22_mark	ring	IN	O
+7-19	the	O	O	DT	O
+7-20	cashier	7-22_nsubj	ring	NN	P1_grocery_staff
+7-21	could	7-22_aux	ring	MD	O
+7-22	ring	7-8_advcl	unloaded	VB	O
+7-23	them	7-22_dobj	ring	PRP	P1_groceries
+7-24	up	7-22_prt	ring	RP	O
+7-25	.	O	O	O	O
+
+#id=8
+#text=A bagger gently put my items in paper bags . 
+8-1	A	O	O	DT	O
+8-2	bagger	8-4_nsubj	put	NN	P2_grocery_staff
+8-3	gently	8-4_advmod	put	RB	O
+8-4	put	O	O	VBD	O
+8-5	my	O	O	PRP$	P1_shopper
+8-6	items	8-4_dobj	put	NNS	P1_groceries
+8-7	in	O	O	O	O
+8-8	paper	O	O	NN	O
+8-9	bags	8-4_prep_in	put	NNS	P1_packing
+8-10	.	O	O	O	O
+
+#id=9
+#text=The cashier gave me the total of my order and I paid her . 
+9-1	The	O	O	DT	O
+9-2	cashier	9-3_nsubj	gave	NN	P1_grocery_staff
+9-3	gave	O	O	VBD	O
+9-4	me	9-3_iobj	gave	PRP	P1_shopper
+9-5	the	O	O	DT	O
+9-6	total	9-3_dobj	gave	NN	P2_price
+9-7	of	O	O	O	O
+9-8	my	O	O	PRP$	P1_shopper
+9-9	order	O	O	NN	P1_groceries
+9-10	and	O	O	O	O
+9-11	I	9-12_nsubj	paid	PRP	P1_shopper
+9-12	paid	9-3_conj_and	gave	VBD	O
+9-13	her	9-12_dobj	paid	PRP	P1_grocery_staff
+9-14	.	O	O	O	O
+
+#id=10
+#text=I thanked both her and the bagger for doing an excellent job . 
+10-1	I	10-2_nsubj	thanked	PRP	P1_shopper
+10-2	thanked	O	O	VBD	O
+10-3	both	O	O	PDT	O
+10-4	her	10-2_dobj	thanked	PRP	P1_grocery_staff
+10-5	and	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	bagger	O	O	NN	P2_grocery_staff
+10-8	for	O	O	O	O
+10-9	doing	10-2_prepc_for	thanked	VBG	O
+10-10	an	O	O	DT	O
+10-11	excellent	O	O	JJ	O
+10-12	job	10-9_dobj	doing	NN	P1_NPart_job
+10-13	.	O	O	O	O
+
+#id=11
+#text=I pushed the cart to my car and unloaded the groceries . 
+11-1	I	11-2_nsubj	pushed	PRP	P1_shopper
+11-2	pushed	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	cart	11-2_dobj	pushed	NN	P1_shopping_cart/basket
+11-5	to	O	O	O	O
+11-6	my	O	O	PRP$	P1_shopper
+11-7	car	11-2_prep_to	pushed	NN	P1_vehicle
+11-8	and	O	O	O	O
+11-9	unloaded	11-2_conj_and	pushed	JJ	O
+11-10	the	O	O	DT	O
+11-11	groceries	O	O	NNS	P1_groceries
+11-12	.	O	O	O	O
+
+#id=12
+#text=I put my cart back into the cart holder that was located in the parking lot . 
+12-1	I	12-2_nsubj	put	PRP	P1_shopper
+12-2	put	O	O	VBD	O
+12-3	my	O	O	PRP$	P1_shopper
+12-4	cart	12-2_dobj	put	NN	P1_shopping_cart/basket
+12-5	back	12-2_advmod	put	RB	O
+12-6	into	O	O	O	O
+12-7	the	O	O	DT	O
+12-8	cart	O	O	NN	O
+12-9	holder	12-2_prep_into	put	NN	P1_other
+12-10	that	12-12_nsubjpass	located	WDT	O
+12-11	was	12-12_auxpass	located	VBD	O
+12-12	located	O	O	VBN	O
+12-13	in	O	O	O	O
+12-14	the	O	O	DT	O
+12-15	parking	O	O	NN	O
+12-16	lot	12-12_prep_in	located	NN	P1_NPart_lot
+12-17	.	O	O	O	O
+
+#id=13
+#text=Once I got home , I brought the groceries in and put them away . 
+13-1	Once	13-3_mark	got	IN	O
+13-2	I	13-3_nsubj	got	PRP	P1_shopper
+13-3	got	13-7_advcl	brought	VBD	O
+13-4	home	13-3_dobj	got	NN	P2_NPart_home
+13-5	,	O	O	O	O
+13-6	I	13-7_nsubj	brought	PRP	P1_shopper
+13-7	brought	O	O	VBD	O
+13-8	the	O	O	DT	O
+13-9	groceries	13-7_dobj	brought	NNS	P1_groceries
+13-10	in	13-7_prep	brought	IN	O
+13-11	and	O	O	O	O
+13-12	put	13-7_conj_and	brought	VBP	O
+13-13	them	13-12_dobj	put	PRP	P1_groceries
+13-14	away	13-12_prt	put	RP	O
+13-15	.	O	O	O	O
+
+#id=14
+#text=It 's nice to have the house restocked with food just in time for the weekend . 
+14-1	It	O	O	PRP	O
+14-2	's	O	O	VBZ	O
+14-3	nice	O	O	JJ	O
+14-4	to	14-5_aux	have	TO	O
+14-5	have	O	O	VB	O
+14-6	the	O	O	DT	O
+14-7	house	14-5_dobj	have	NN	P1_NPart_house
+14-8	restocked	O	O	VBN	O
+14-9	with	O	O	O	O
+14-10	food	14-8_prep_with	restocked	NN	P1_groceries
+14-11	just	14-8_advmod	restocked	RB	O
+14-12	in	O	O	O	O
+14-13	time	14-8_prep_in	restocked	NN	O
+14-14	for	O	O	O	O
+14-15	the	O	O	DT	O
+14-16	weekend	O	O	NN	P1_NPart_weekend
+14-17	.	O	O	O	O

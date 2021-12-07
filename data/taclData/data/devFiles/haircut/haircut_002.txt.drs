@@ -1,0 +1,285 @@
+#id=1
+#text=Earlier this week I went to get a haircut . 
+1-1	Earlier	O	O	RBR	O
+1-2	this	O	O	DT	O
+1-3	week	1-5_tmod	went	NN	P1_NPart_week
+1-4	I	1-5_nsubj	went	PRP	P1_customer
+1-5	went	O	O	VBD	O
+1-6	to	1-7_aux	get	TO	O
+1-7	get	1-5_xcomp	went	VB	O
+1-8	a	O	O	DT	O
+1-9	haircut	1-7_dobj	get	NN	P1_haircut
+1-10	.	O	O	O	O
+
+#id=2
+#text=Over the summer I had just gone for a cheap haircut at Great Clips and I ended up with a bad haircut . 
+2-1	Over	O	O	O	O
+2-2	the	O	O	DT	O
+2-3	summer	2-7_prep_over	gone	NN	P1_NPart_summer
+2-4	I	2-7_nsubj	gone	PRP	P1_customer
+2-5	had	2-7_aux	gone	VBD	O
+2-6	just	2-7_advmod	gone	RB	O
+2-7	gone	O	O	VBN	O
+2-8	for	O	O	O	O
+2-9	a	O	O	DT	O
+2-10	cheap	O	O	JJ	O
+2-11	haircut	2-7_prep_for	gone	NN	P1_haircut
+2-12	at	O	O	O	O
+2-13	Great	O	O	NNP	O
+2-14	Clips	O	O	NNPS	P1_NPart_clips
+2-15	and	O	O	O	O
+2-16	I	2-17_nsubj	ended	PRP	P1_customer
+2-17	ended	2-7_conj_and	gone	VBD	O
+2-18	up	2-17_prt	ended	RP	O
+2-19	with	O	O	O	O
+2-20	a	O	O	DT	O
+2-21	bad	O	O	JJ	O
+2-22	haircut	2-17_prep_with	ended	NN	P1_haircut
+2-23	.	O	O	O	O
+
+#id=3
+#text=I went back to a nicer place where I had to pay more , but I had to do something about the bad cut . 
+3-1	I	3-2_nsubj	went	PRP	P1_customer
+3-2	went	O	O	VBD	O
+3-3	back	3-2_advmod	went	RB	O
+3-4	to	O	O	O	O
+3-5	a	O	O	DT	O
+3-6	nicer	O	O	JJ	O
+3-7	place	3-2_prep_to	went	NN	P1_salon
+3-8	where	3-10_advmod	had	WRB	O
+3-9	I	3-10_nsubj	had	PRP	P1_customer
+3-10	had	3-2_advcl	went	VBD	O
+3-11	to	3-12_aux	pay	TO	O
+3-12	pay	3-10_xcomp	had	VB	O
+3-13	more	3-12_dobj	pay	JJR	O
+3-14	,	O	O	O	O
+3-15	but	O	O	O	O
+3-16	I	3-17_nsubj	had	PRP	P1_customer
+3-17	had	3-2_conj_but	went	VBD	O
+3-18	to	3-19_aux	do	TO	O
+3-19	do	3-17_xcomp	had	VB	O
+3-20	something	3-19_dobj	do	NN	O
+3-21	about	O	O	O	O
+3-22	the	O	O	DT	O
+3-23	bad	O	O	JJ	O
+3-24	cut	3-19_prep_about	do	NN	P1_haircut
+3-25	.	O	O	O	O
+
+#id=4
+#text=I had to cut most of it off to start over . 
+4-1	I	4-2_nsubj	had	PRP	P1_customer
+4-2	had	O	O	VBD	O
+4-3	to	4-4_aux	cut	TO	O
+4-4	cut	4-2_xcomp	had	VB	O
+4-5	most	4-4_dobj	cut	JJS	O
+4-6	of	O	O	O	O
+4-7	it	O	O	PRP	P1_haircut
+4-8	off	4-10_advmod	start	RB	O
+4-9	to	4-10_aux	start	TO	O
+4-10	start	4-2_xcomp	had	VB	O
+4-11	over	4-10_prt	start	RP	O
+4-12	.	O	O	O	O
+
+#id=5
+#text=This last cut was the first time I started to see some of the growth coming back and some of the curl ! 
+5-1	This	O	O	DT	O
+5-2	last	O	O	JJ	O
+5-3	cut	O	O	NN	P1_haircut
+5-4	was	O	O	VBD	O
+5-5	the	O	O	DT	O
+5-6	first	O	O	JJ	O
+5-7	time	O	O	NN	O
+5-8	I	5-9_nsubj	started	PRP	P1_customer
+5-9	started	O	O	VBD	O
+5-10	to	5-11_aux	see	TO	O
+5-11	see	5-9_xcomp	started	VB	O
+5-12	some	5-11_dobj	see	DT	O
+5-13	of	O	O	O	O
+5-14	the	O	O	DT	O
+5-15	growth	O	O	NN	P1_NPart_growth
+5-16	coming	O	O	VBG	O
+5-17	back	5-16_advmod	coming	RB	O
+5-18	and	O	O	O	O
+5-19	some	O	O	DT	O
+5-20	of	O	O	O	O
+5-21	the	O	O	DT	O
+5-22	curl	O	O	NN	O
+5-23	!	O	O	O	O
+
+#id=6
+#text=Lots of people make standing hair appointments , but I prefer to just call when my hair was bugging me so once the ends started looking straggly I called and went in . 
+6-1	Lots	6-4_nsubj	make	NNS	O
+6-2	of	O	O	O	O
+6-3	people	O	O	NNS	P2_customer
+6-4	make	O	O	VBP	O
+6-5	standing	6-4_xcomp	make	VBG	O
+6-6	hair	O	O	NN	O
+6-7	appointments	6-5_dobj	standing	NNS	P1_appointment
+6-8	,	O	O	O	O
+6-9	but	O	O	O	O
+6-10	I	6-11_nsubj	prefer	PRP	P1_customer
+6-11	prefer	6-4_conj_but	make	VBP	O
+6-12	to	6-14_aux	call	TO	O
+6-13	just	6-14_advmod	call	RB	O
+6-14	call	6-11_xcomp	prefer	VB	O
+6-15	when	6-19_advmod	bugging	WRB	O
+6-16	my	O	O	PRP$	P1_customer
+6-17	hair	6-19_nsubj	bugging	NN	P1_hair
+6-18	was	6-19_aux	bugging	VBD	O
+6-19	bugging	6-14_advcl	call	VBG	O
+6-20	me	6-19_dobj	bugging	PRP	P1_customer
+6-21	so	6-25_advmod	started	RB	O
+6-22	once	6-25_mark	started	IN	O
+6-23	the	O	O	DT	O
+6-24	ends	6-25_nsubj	started	NNS	P1_NPart_ends
+6-25	started	6-19_advcl	bugging	VBD	O
+6-26	looking	6-25_xcomp	started	VBG	O
+6-27	straggly	6-29_advmod	called	RB	O
+6-28	I	6-29_nsubj	called	PRP	P1_customer
+6-29	called	6-26_ccomp	looking	VBD	O
+6-30	and	O	O	O	O
+6-31	went	6-29_conj_and	called	VBD	O
+6-32	in	6-31_prt	went	RP	O
+6-33	.	O	O	O	O
+
+#id=7
+#text=I checked in at the front desk and had a nice chat with the receptionist who is getting ready to go out on maternity leave . 
+7-1	I	7-2_nsubj	checked	PRP	P1_customer
+7-2	checked	O	O	VBD	O
+7-3	in	7-2_prt	checked	RP	O
+7-4	at	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	front	O	O	JJ	O
+7-7	desk	7-2_prep_at	checked	NN	P1_check_in_desk
+7-8	and	O	O	O	O
+7-9	had	7-2_conj_and	checked	VBD	O
+7-10	a	O	O	DT	O
+7-11	nice	O	O	JJ	O
+7-12	chat	7-9_dobj	had	NN	P1_entertainment
+7-13	with	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	receptionist	O	O	NN	P1_staff
+7-16	who	O	O	WP	O
+7-17	is	O	O	VBZ	O
+7-18	getting	O	O	VBG	O
+7-19	ready	O	O	JJ	O
+7-20	to	7-21_aux	go	TO	O
+7-21	go	O	O	VB	O
+7-22	out	7-21_prt	go	RP	O
+7-23	on	O	O	O	O
+7-24	maternity	O	O	JJ	O
+7-25	leave	7-21_prep_on	go	NN	P1_NPart_leave
+7-26	.	O	O	O	O
+
+#id=8
+#text=Then my stylist took me back and asked me if I was still growing out my hair . 
+8-1	Then	8-4_advmod	took	RB	O
+8-2	my	O	O	PRP$	P1_customer
+8-3	stylist	8-4_nsubj	took	NN	P1_hairdresser
+8-4	took	O	O	VBD	O
+8-5	me	8-4_dobj	took	PRP	P1_customer
+8-6	back	8-4_advmod	took	RB	O
+8-7	and	O	O	O	O
+8-8	asked	8-4_conj_and	took	VBD	O
+8-9	me	8-8_dobj	asked	PRP	P1_customer
+8-10	if	8-14_mark	growing	IN	O
+8-11	I	8-14_nsubj	growing	PRP	P1_customer
+8-12	was	8-14_aux	growing	VBD	O
+8-13	still	8-14_advmod	growing	RB	O
+8-14	growing	8-8_advcl	asked	VBG	O
+8-15	out	8-14_prt	growing	RP	O
+8-16	my	O	O	PRP$	P1_customer
+8-17	hair	8-14_dobj	growing	NN	P1_hair
+8-18	.	O	O	O	O
+
+#id=9
+#text=I said I was so she looked it over and then gave me a nice scalp massage and a shampoo before cutting . 
+9-1	I	9-2_nsubj	said	PRP	P1_customer
+9-2	said	O	O	VBD	O
+9-3	I	9-4_nsubj	was	PRP	P1_customer
+9-4	was	9-2_ccomp	said	VBD	O
+9-5	so	9-7_mark	looked	IN	O
+9-6	she	9-7_nsubj	looked	PRP	P1_hairdresser
+9-7	looked	9-4_advcl	was	VBD	O
+9-8	it	9-7_dobj	looked	PRP	P1_hair
+9-9	over	9-7_prt	looked	RP	O
+9-10	and	O	O	O	O
+9-11	then	9-12_advmod	gave	RB	O
+9-12	gave	9-7_conj_and	looked	VBD	O
+9-13	me	9-12_iobj	gave	PRP	P1_customer
+9-14	a	O	O	DT	O
+9-15	nice	O	O	JJ	O
+9-16	scalp	O	O	NN	O
+9-17	massage	9-12_dobj	gave	NN	O
+9-18	and	O	O	O	O
+9-19	a	O	O	DT	O
+9-20	shampoo	O	O	NN	P1_hair_styling/treatment
+9-21	before	O	O	O	O
+9-22	cutting	O	O	NN	O
+9-23	.	O	O	O	O
+
+#id=10
+#text=The cut is about the same length as it was the last time I got it cut , but it is getting more and more even every time . 
+10-1	The	O	O	DT	O
+10-2	cut	10-3_nsubj	is	NN	P1_haircut
+10-3	is	O	O	VBZ	O
+10-4	about	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	same	O	O	JJ	O
+10-7	length	10-3_prep_about	is	NN	P1_NPart_length
+10-8	as	O	O	IN	O
+10-9	it	O	O	PRP	P1_haircut
+10-10	was	O	O	VBD	O
+10-11	the	O	O	DT	O
+10-12	last	O	O	JJ	O
+10-13	time	10-3_advcl	is	NN	O
+10-14	I	10-15_nsubj	got	PRP	P1_customer
+10-15	got	O	O	VBD	O
+10-16	it	10-17_nsubj	cut	PRP	P1_haircut
+10-17	cut	10-15_ccomp	got	VBD	O
+10-18	,	O	O	O	O
+10-19	but	O	O	O	O
+10-20	it	10-22_nsubj	getting	PRP	P1_hair
+10-21	is	10-22_aux	getting	VBZ	O
+10-22	getting	10-3_conj_but	is	VBG	O
+10-23	more	O	O	JJR	O
+10-24	and	O	O	O	O
+10-25	more	O	O	JJR	O
+10-26	even	O	O	RB	O
+10-27	every	O	O	DT	O
+10-28	time	10-22_dobj	getting	NN	O
+10-29	.	O	O	O	O
+
+#id=11
+#text=My stylist likes to straighten my hair on each visit so she can make sure it is all correct . 
+11-1	My	O	O	PRP$	P1_customer
+11-2	stylist	11-3_nsubj	likes	NN	P1_hairdresser
+11-3	likes	O	O	VBZ	O
+11-4	to	11-5_aux	straighten	TO	O
+11-5	straighten	11-3_xcomp	likes	VB	O
+11-6	my	O	O	PRP$	P1_customer
+11-7	hair	11-5_dobj	straighten	NN	P1_hair
+11-8	on	O	O	O	O
+11-9	each	O	O	DT	O
+11-10	visit	11-5_prep_on	straighten	NN	P2_appointment
+11-11	so	11-14_mark	make	IN	O
+11-12	she	11-14_nsubj	make	PRP	P1_hairdresser
+11-13	can	11-14_aux	make	MD	O
+11-14	make	11-5_advcl	straighten	VB	O
+11-15	sure	11-14_acomp	make	JJ	O
+11-16	it	O	O	PRP	P1_hair
+11-17	is	O	O	VBZ	O
+11-18	all	O	O	RB	O
+11-19	correct	O	O	JJ	O
+11-20	.	O	O	O	O
+
+#id=12
+#text=Looking forward to it growing some more . 
+12-1	Looking	O	O	VBG	O
+12-2	forward	12-1_prt	Looking	RP	O
+12-3	to	O	O	O	O
+12-4	it	12-5_nsubj	growing	PRP	P1_hair
+12-5	growing	12-1_prepc_to	Looking	VBG	O
+12-6	some	O	O	DT	O
+12-7	more	12-5_dobj	growing	JJR	O
+12-8	.	O	O	O	O

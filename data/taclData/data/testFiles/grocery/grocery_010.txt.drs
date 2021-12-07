@@ -1,0 +1,293 @@
+#id=1
+#text=It is Saturday morning and my mother wakes me early . 
+1-1	It	O	O	PRP	O
+1-2	is	O	O	VBZ	O
+1-3	Saturday	O	O	NNP	O
+1-4	morning	O	O	NN	O
+1-5	and	O	O	O	O
+1-6	my	O	O	PRP$	P1_shopper
+1-7	mother	1-8_nsubj	wakes	NN	P2_shopper
+1-8	wakes	O	O	VBZ	O
+1-9	me	O	O	PRP	P1_shopper
+1-10	early	1-8_xcomp	wakes	JJ	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=Every Saturday morning is grocery day . 
+2-1	Every	O	O	DT	O
+2-2	Saturday	O	O	NNP	O
+2-3	morning	O	O	NN	O
+2-4	is	O	O	VBZ	O
+2-5	grocery	O	O	NN	O
+2-6	day	O	O	NN	O
+2-7	.	O	O	O	O
+
+#id=3
+#text=My mother likes to shop by the week . 
+3-1	My	O	O	PRP$	P1_shopper
+3-2	mother	3-3_nsubj	likes	NN	P2_shopper
+3-3	likes	O	O	VBZ	O
+3-4	to	3-5_aux	shop	TO	O
+3-5	shop	3-3_xcomp	likes	VB	O
+3-6	by	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	week	3-5_prep_by	shop	NN	O
+3-9	.	O	O	O	O
+
+#id=4
+#text=The store is huge . 
+4-1	The	O	O	DT	O
+4-2	store	O	O	NN	P1_grocery_shop
+4-3	is	O	O	VBZ	O
+4-4	huge	O	O	JJ	O
+4-5	.	O	O	O	O
+
+#id=5
+#text=As we walk in we get a shopping cart and start down the 1st aisle . 
+5-1	As	5-3_mark	walk	IN	O
+5-2	we	5-3_nsubj	walk	PRP	P3_shopper
+5-3	walk	5-6_csubj	get	VBP	O
+5-4	in	O	O	O	O
+5-5	we	5-3_prep_in	walk	PRP	P3_shopper
+5-6	get	O	O	VB	O
+5-7	a	O	O	DT	O
+5-8	shopping	O	O	NN	O
+5-9	cart	5-6_dobj	get	NN	P1_shopping_cart/basket
+5-10	and	O	O	O	O
+5-11	start	5-6_conj_and	get	VB	O
+5-12	down	5-11_prt	start	RP	O
+5-13	the	O	O	DT	O
+5-14	1st	O	O	JJ	O
+5-15	aisle	5-11_dobj	start	NN	P1_section
+5-16	.	O	O	O	O
+
+#id=6
+#text=Fruits and vegetables all stacked neatly in shelves . 
+6-1	Fruits	6-5_nsubj	stacked	NNS	P1_groceries
+6-2	and	O	O	O	O
+6-3	vegetables	O	O	NNS	P2_groceries
+6-4	all	6-5_advmod	stacked	DT	O
+6-5	stacked	O	O	VBN	O
+6-6	neatly	6-5_advmod	stacked	RB	O
+6-7	in	O	O	O	O
+6-8	shelves	6-5_prep_in	stacked	NNS	P2_section
+6-9	.	O	O	O	O
+
+#id=7
+#text=Potatoes in bags stacked next to the onions . 
+7-1	Potatoes	7-4_nsubj	stacked	NNS	P3_groceries
+7-2	in	O	O	O	O
+7-3	bags	O	O	NNS	P1_packing
+7-4	stacked	O	O	VBN	O
+7-5	next	O	O	O	O
+7-6	to	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	onions	7-4_prep_next_to	stacked	NNS	P4_groceries
+7-9	.	O	O	O	O
+
+#id=8
+#text=Grapes in big bunches . 
+8-1	Grapes	O	O	NNS	P5_groceries
+8-2	in	O	O	O	O
+8-3	big	O	O	JJ	O
+8-4	bunches	O	O	NNS	O
+8-5	.	O	O	O	O
+
+#id=9
+#text=This is my favorite aisle . 
+9-1	This	O	O	DT	O
+9-2	is	O	O	VBZ	O
+9-3	my	O	O	PRP$	P1_shopper
+9-4	favorite	O	O	JJ	O
+9-5	aisle	O	O	NN	P3_section
+9-6	.	O	O	O	O
+
+#id=10
+#text=I love the colors and the shapes . 
+10-1	I	10-2_nsubj	love	PRP	P1_shopper
+10-2	love	O	O	VBP	O
+10-3	the	O	O	DT	O
+10-4	colors	10-2_dobj	love	NNS	O
+10-5	and	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	shapes	O	O	NNS	O
+10-8	.	O	O	O	O
+
+#id=11
+#text=Here you can find some stuff I have never seen before . 
+11-1	Here	11-4_advmod	find	RB	O
+11-2	you	11-4_nsubj	find	PRP	P4_shopper
+11-3	can	11-4_aux	find	MD	O
+11-4	find	O	O	VB	O
+11-5	some	O	O	DT	O
+11-6	stuff	11-4_dobj	find	NN	P6_groceries
+11-7	I	11-10_nsubj	seen	PRP	P1_shopper
+11-8	have	11-10_aux	seen	VBP	O
+11-9	never	11-10_neg	seen	RB	O
+11-10	seen	O	O	VBN	O
+11-11	before	11-10_advmod	seen	RB	O
+11-12	.	O	O	O	O
+
+#id=12
+#text=Star fruit , miniature bananas and blood oranges . 
+12-1	Star	O	O	JJ	O
+12-2	fruit	O	O	NN	P7_groceries
+12-3	,	O	O	O	O
+12-4	miniature	O	O	JJ	O
+12-5	bananas	O	O	NNS	P8_groceries
+12-6	and	O	O	O	O
+12-7	blood	O	O	NN	O
+12-8	oranges	O	O	NNS	P9_groceries
+12-9	.	O	O	O	O
+
+#id=13
+#text=We spend most of our time here . 
+13-1	We	13-2_nsubj	spend	PRP	P3_shopper
+13-2	spend	O	O	VBP	O
+13-3	most	13-2_dobj	spend	JJS	O
+13-4	of	O	O	O	O
+13-5	our	O	O	PRP$	O
+13-6	time	O	O	NN	O
+13-7	here	13-2_advmod	spend	RB	P4_section
+13-8	.	O	O	O	O
+
+#id=14
+#text=We are vegetarians so we do not go to the meat counter or the dairy aisle . 
+14-1	We	14-3_nsubj	vegetarians	PRP	P3_shopper
+14-2	are	14-3_aux	vegetarians	VBP	O
+14-3	vegetarians	O	O	VBG	O
+14-4	so	14-8_mark	go	IN	O
+14-5	we	14-8_nsubj	go	PRP	P3_shopper
+14-6	do	14-8_aux	go	VBP	O
+14-7	not	14-8_neg	go	RB	O
+14-8	go	14-3_advcl	vegetarians	VB	O
+14-9	to	O	O	O	O
+14-10	the	O	O	DT	O
+14-11	meat	O	O	NN	O
+14-12	counter	14-8_prep_to	go	NN	P5_section
+14-13	or	O	O	O	O
+14-14	the	O	O	DT	O
+14-15	dairy	O	O	NN	O
+14-16	aisle	O	O	NN	P6_section
+14-17	.	O	O	O	O
+
+#id=15
+#text=We do go to the cereal aisle and I beg my mother every week for a different cereal treat . 
+15-1	We	15-3_nsubj	go	PRP	P3_shopper
+15-2	do	15-3_aux	go	VBP	O
+15-3	go	O	O	VB	O
+15-4	to	O	O	O	O
+15-5	the	O	O	DT	O
+15-6	cereal	O	O	NN	O
+15-7	aisle	15-3_prep_to	go	NN	P7_section
+15-8	and	O	O	O	O
+15-9	I	15-10_nsubj	beg	PRP	P1_shopper
+15-10	beg	15-3_conj_and	go	VB	O
+15-11	my	O	O	PRP$	P1_shopper
+15-12	mother	15-10_dobj	beg	NN	P2_shopper
+15-13	every	O	O	DT	O
+15-14	week	15-10_tmod	beg	NN	O
+15-15	for	O	O	O	O
+15-16	a	O	O	DT	O
+15-17	different	O	O	JJ	O
+15-18	cereal	O	O	NN	O
+15-19	treat	15-10_prep_for	beg	NN	P10_groceries
+15-20	.	O	O	O	O
+
+#id=16
+#text=Sometimes she says yes and others no . 
+16-1	Sometimes	16-3_advmod	says	RB	O
+16-2	she	16-3_nsubj	says	PRP	P2_shopper
+16-3	says	O	O	VBZ	O
+16-4	yes	O	O	NNS	O
+16-5	and	O	O	O	O
+16-6	others	O	O	NNS	O
+16-7	no	16-3_advmod	says	RB	O
+16-8	.	O	O	O	O
+
+#id=17
+#text=But this week is yes and Frosted Flakes get tossed in the cart with delight . 
+17-1	But	O	O	O	O
+17-2	this	O	O	DT	O
+17-3	week	O	O	NN	O
+17-4	is	O	O	VBZ	O
+17-5	yes	O	O	UH	O
+17-6	and	O	O	O	O
+17-7	Frosted	O	O	NNP	O
+17-8	Flakes	17-10_nsubjpass	tossed	NNPS	P10_groceries
+17-9	get	17-10_auxpass	tossed	VBP	O
+17-10	tossed	O	O	VBN	O
+17-11	in	O	O	O	O
+17-12	the	O	O	DT	O
+17-13	cart	17-10_prep_in	tossed	NN	P1_shopping_cart/basket
+17-14	with	O	O	O	O
+17-15	delight	O	O	NN	O
+17-16	.	O	O	O	O
+
+#id=18
+#text=I am so excited about this that I do not pay much attention to the rest of the trip . 
+18-1	I	O	O	PRP	P1_shopper
+18-2	am	O	O	VBP	O
+18-3	so	O	O	RB	O
+18-4	excited	O	O	JJ	O
+18-5	about	O	O	O	O
+18-6	this	O	O	DT	O
+18-7	that	18-11_mark	pay	IN	O
+18-8	I	18-11_nsubj	pay	PRP	P1_shopper
+18-9	do	18-11_aux	pay	VBP	O
+18-10	not	18-11_neg	pay	RB	O
+18-11	pay	O	O	VB	O
+18-12	much	O	O	JJ	O
+18-13	attention	18-11_dobj	pay	NN	O
+18-14	to	O	O	O	O
+18-15	the	O	O	DT	O
+18-16	rest	18-11_prep_to	pay	NN	O
+18-17	of	O	O	O	O
+18-18	the	O	O	DT	O
+18-19	trip	O	O	NN	O
+18-20	.	O	O	O	O
+
+#id=19
+#text=I help my mom bag the groceries and put the bags in the trunk of the car . 
+19-1	I	19-2_nsubj	help	PRP	P1_shopper
+19-2	help	O	O	VBP	O
+19-3	my	O	O	PRP$	P1_shopper
+19-4	mom	O	O	NN	P2_shopper
+19-5	bag	O	O	NN	O
+19-6	the	O	O	DT	O
+19-7	groceries	19-2_xcomp	help	NNS	P11_groceries
+19-8	and	O	O	O	O
+19-9	put	19-2_conj_and	help	VBD	O
+19-10	the	O	O	DT	O
+19-11	bags	19-9_dobj	put	NNS	P1_shopping_bags
+19-12	in	O	O	O	O
+19-13	the	O	O	DT	O
+19-14	trunk	19-9_prep_in	put	NN	P1_NPart_trunk
+19-15	of	O	O	O	O
+19-16	the	O	O	DT	O
+19-17	car	O	O	NN	P1_vehicle
+19-18	.	O	O	O	O
+
+#id=20
+#text=When we get home it all unloaded and put away and then it is time for some Frosted Flake goodness . 
+20-1	When	20-3_advmod	get	WRB	O
+20-2	we	20-3_nsubj	get	PRP	P3_shopper
+20-3	get	O	O	VBP	O
+20-4	home	20-3_dobj	get	NN	P1_NPart_home
+20-5	it	O	O	PRP	O
+20-6	all	O	O	DT	O
+20-7	unloaded	O	O	JJ	O
+20-8	and	O	O	O	O
+20-9	put	O	O	VBD	O
+20-10	away	20-9_advmod	put	RB	O
+20-11	and	O	O	O	O
+20-12	then	O	O	RB	O
+20-13	it	O	O	PRP	O
+20-14	is	O	O	VBZ	O
+20-15	time	O	O	NN	O
+20-16	for	O	O	O	O
+20-17	some	O	O	DT	O
+20-18	Frosted	O	O	NNP	O
+20-19	Flake	O	O	NNP	O
+20-20	goodness	O	O	NN	O
+20-21	.	O	O	O	O

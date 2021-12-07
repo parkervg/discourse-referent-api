@@ -1,0 +1,219 @@
+#id=1
+#text=After a long workout at the gym , I got home and immediately wanted to take a bath . 
+1-1	After	O	O	O	O
+1-2	a	O	O	DT	O
+1-3	long	O	O	JJ	O
+1-4	workout	1-10_prep_after	got	NN	P1_NPart_workout
+1-5	at	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	gym	O	O	NN	P1_NPart_gym
+1-8	,	O	O	O	O
+1-9	I	1-10_nsubj	got	PRP	P1_bather
+1-10	got	O	O	VBD	O
+1-11	home	1-10_dobj	got	NN	O
+1-12	and	O	O	O	O
+1-13	immediately	1-14_advmod	wanted	RB	O
+1-14	wanted	1-10_conj_and	got	VBD	O
+1-15	to	1-16_aux	take	TO	O
+1-16	take	1-14_xcomp	wanted	VB	O
+1-17	a	O	O	DT	O
+1-18	bath	1-16_dobj	take	NN	P1_bath
+1-19	.	O	O	O	O
+
+#id=2
+#text=First , I turned the water in my tub on as hot as it could go so the water could warm up . 
+2-1	First	2-4_advmod	turned	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	turned	PRP	P1_bather
+2-4	turned	O	O	VBD	O
+2-5	the	O	O	DT	O
+2-6	water	2-4_dobj	turned	NN	P1_water
+2-7	in	O	O	O	O
+2-8	my	O	O	PRP$	P1_bather
+2-9	tub	2-4_prep_in	turned	NN	P1_bathtub
+2-10	on	O	O	O	O
+2-11	as	O	O	RB	O
+2-12	hot	2-4_prep_on	turned	JJ	O
+2-13	as	2-16_mark	go	IN	O
+2-14	it	2-16_nsubj	go	PRP	O
+2-15	could	2-16_aux	go	MD	O
+2-16	go	2-4_advcl	turned	VB	O
+2-17	so	2-21_mark	warm	IN	O
+2-18	the	O	O	DT	O
+2-19	water	2-21_nsubj	warm	NN	P1_water
+2-20	could	2-21_aux	warm	MD	O
+2-21	warm	2-16_advcl	go	VB	O
+2-22	up	2-21_prt	warm	RP	O
+2-23	.	O	O	O	O
+
+#id=3
+#text=Then , after the water warmed up , I placed two fingers in the stream of water to see how hot it was . 
+3-1	Then	3-10_advmod	placed	RB	O
+3-2	,	O	O	O	O
+3-3	after	3-6_mark	warmed	IN	O
+3-4	the	O	O	DT	O
+3-5	water	3-6_nsubj	warmed	NN	P1_water
+3-6	warmed	3-10_advcl	placed	VBD	O
+3-7	up	3-6_prt	warmed	RP	O
+3-8	,	O	O	O	O
+3-9	I	3-10_nsubj	placed	PRP	P1_bather
+3-10	placed	O	O	VBD	O
+3-11	two	O	O	CD	O
+3-12	fingers	3-10_dobj	placed	NNS	P1_body_part
+3-13	in	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	stream	3-10_prep_in	placed	NN	O
+3-16	of	O	O	O	O
+3-17	water	O	O	NN	P1_water
+3-18	to	3-19_aux	see	TO	O
+3-19	see	3-10_vmod	placed	VB	O
+3-20	how	O	O	WRB	O
+3-21	hot	3-23_dep	was	JJ	O
+3-22	it	3-23_nsubj	was	PRP	P2_water
+3-23	was	3-19_ccomp	see	VBD	O
+3-24	.	O	O	O	O
+
+#id=4
+#text=After that , I adjusted the water to a temperature I could enjoy during my bath . 
+4-1	After	O	O	O	O
+4-2	that	4-5_prep_after	adjusted	DT	O
+4-3	,	O	O	O	O
+4-4	I	4-5_nsubj	adjusted	PRP	P1_bather
+4-5	adjusted	O	O	VBD	O
+4-6	the	O	O	DT	O
+4-7	water	4-5_dobj	adjusted	NN	P1_water
+4-8	to	O	O	O	O
+4-9	a	O	O	DT	O
+4-10	temperature	4-5_prep_to	adjusted	NN	P1_temperature
+4-11	I	4-13_nsubj	enjoy	PRP	P1_bather
+4-12	could	4-13_aux	enjoy	MD	O
+4-13	enjoy	O	O	VB	O
+4-14	during	O	O	O	O
+4-15	my	O	O	PRP$	P2_bather
+4-16	bath	4-13_prep_during	enjoy	NN	P1_bath
+4-17	.	O	O	O	O
+
+#id=5
+#text=Now that the water was at the correct temperature , I put the stop drain in place . 
+5-1	Now	5-5_advmod	was	RB	O
+5-2	that	5-5_mark	was	IN	O
+5-3	the	O	O	DT	O
+5-4	water	5-5_nsubj	was	NN	P1_water
+5-5	was	5-12_advcl	put	VBD	O
+5-6	at	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	correct	O	O	JJ	O
+5-9	temperature	5-5_prep_at	was	NN	P1_temperature
+5-10	,	O	O	O	O
+5-11	I	5-12_nsubj	put	PRP	P1_bather
+5-12	put	O	O	VBD	O
+5-13	the	O	O	DT	O
+5-14	stop	O	O	NN	O
+5-15	drain	5-12_dobj	put	NN	P1_drain
+5-16	in	O	O	O	O
+5-17	place	5-12_prep_in	put	NN	P1_NPart_place
+5-18	.	O	O	O	O
+
+#id=6
+#text=This allows the water to stay in the tub . 
+6-1	This	6-2_nsubj	allows	DT	O
+6-2	allows	O	O	VBZ	O
+6-3	the	O	O	DT	O
+6-4	water	6-2_dobj	allows	NN	P1_water
+6-5	to	6-6_aux	stay	TO	O
+6-6	stay	O	O	VB	O
+6-7	in	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	tub	6-6_prep_in	stay	NN	P1_bathtub
+6-10	.	O	O	O	O
+
+#id=7
+#text=After the stop drain was in place , I put soap in the water . 
+7-1	After	7-5_mark	was	IN	O
+7-2	the	O	O	DT	O
+7-3	stop	O	O	NN	O
+7-4	drain	7-5_nsubj	was	NN	P1_drain
+7-5	was	7-10_advcl	put	VBD	O
+7-6	in	O	O	O	O
+7-7	place	7-5_prep_in	was	NN	O
+7-8	,	O	O	O	O
+7-9	I	7-10_nsubj	put	PRP	P1_bather
+7-10	put	O	O	VBD	O
+7-11	soap	7-10_dobj	put	NN	P1_washing_tools
+7-12	in	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	water	7-10_prep_in	put	NN	P1_water
+7-15	.	O	O	O	O
+
+#id=8
+#text=Now it was time to let the water fill the tub . 
+8-1	Now	O	O	RB	O
+8-2	it	O	O	PRP	O
+8-3	was	O	O	VBD	O
+8-4	time	O	O	NN	O
+8-5	to	8-6_aux	let	TO	O
+8-6	let	O	O	VB	O
+8-7	the	O	O	DT	O
+8-8	water	8-9_nsubj	fill	NN	P1_water
+8-9	fill	8-6_ccomp	let	VB	O
+8-10	the	O	O	DT	O
+8-11	tub	8-9_dobj	fill	NN	P1_bathtub
+8-12	.	O	O	O	O
+
+#id=9
+#text=When the tub was full of water , it was time for me to get in . 
+9-1	When	O	O	WRB	O
+9-2	the	O	O	DT	O
+9-3	tub	O	O	NN	P1_bathtub
+9-4	was	O	O	VBD	O
+9-5	full	O	O	JJ	O
+9-6	of	O	O	O	O
+9-7	water	O	O	NN	P1_water
+9-8	,	O	O	O	O
+9-9	it	O	O	PRP	O
+9-10	was	O	O	VBD	O
+9-11	time	O	O	NN	O
+9-12	for	O	O	O	O
+9-13	me	O	O	PRP	P1_bather
+9-14	to	9-15_aux	get	TO	O
+9-15	get	O	O	VB	O
+9-16	in	9-15_prt	get	RP	O
+9-17	.	O	O	O	O
+
+#id=10
+#text=I laid in the water and got a wash cloth to wipe and rinse myself off . 
+10-1	I	10-2_nsubj	laid	PRP	P1_bather
+10-2	laid	O	O	VBD	O
+10-3	in	O	O	O	O
+10-4	the	O	O	DT	O
+10-5	water	10-2_prep_in	laid	NN	P1_water
+10-6	and	O	O	O	O
+10-7	got	10-2_conj_and	laid	VBD	O
+10-8	a	O	O	DT	O
+10-9	wash	O	O	NN	O
+10-10	cloth	10-7_dobj	got	NN	P2_washing_tools
+10-11	to	10-12_aux	wipe	TO	O
+10-12	wipe	10-7_vmod	got	VB	O
+10-13	and	O	O	O	O
+10-14	rinse	10-12_conj_and	wipe	VB	O
+10-15	myself	10-14_dobj	rinse	PRP	P1_bather
+10-16	off	10-14_prt	rinse	RP	O
+10-17	.	O	O	O	O
+
+#id=11
+#text=Then I let the water drain and got a towel to dry myself off . 
+11-1	Then	11-3_advmod	let	RB	O
+11-2	I	11-3_nsubj	let	PRP	P1_bather
+11-3	let	O	O	VBD	O
+11-4	the	O	O	DT	O
+11-5	water	O	O	NN	O
+11-6	drain	11-3_dobj	let	NN	P1_drain
+11-7	and	O	O	O	O
+11-8	got	11-3_conj_and	let	VBD	O
+11-9	a	O	O	DT	O
+11-10	towel	11-8_dobj	got	NN	P1_towel
+11-11	to	11-12_aux	dry	TO	O
+11-12	dry	11-8_vmod	got	VB	O
+11-13	myself	11-12_dobj	dry	PRP	P1_bather
+11-14	off	11-12_prt	dry	RP	O
+11-15	.	O	O	O	O

@@ -1,0 +1,221 @@
+#id=1
+#text=I 'd been looking forward to reading Tigerman , the new novel by my favorite writer , Nick Harkaway . 
+1-1	I	1-4_nsubj	looking	PRP	P1_customer
+1-2	'd	1-4_aux	looking	VBD	O
+1-3	been	1-4_aux	looking	VBN	O
+1-4	looking	O	O	VBG	O
+1-5	forward	1-4_advmod	looking	RB	O
+1-6	to	O	O	O	O
+1-7	reading	1-4_prepc_to	looking	VBG	O
+1-8	Tigerman	1-7_dobj	reading	NNP	P1_book
+1-9	,	O	O	O	O
+1-10	the	O	O	DT	O
+1-11	new	O	O	JJ	O
+1-12	novel	O	O	NN	P1_book
+1-13	by	O	O	O	O
+1-14	my	O	O	PRP$	P1_customer
+1-15	favorite	O	O	JJ	O
+1-16	writer	O	O	NN	P1_other
+1-17	,	O	O	O	O
+1-18	Nick	O	O	NNP	O
+1-19	Harkaway	O	O	NNP	P1_other
+1-20	.	O	O	O	O
+
+#id=2
+#text=However , I do n't like paying for the hard cover editions of books , and the paperback version would not be released for another year . 
+2-1	However	2-6_advmod	like	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-6_nsubj	like	PRP	P1_customer
+2-4	do	2-6_aux	like	VBP	O
+2-5	n't	2-6_neg	like	RB	O
+2-6	like	O	O	VB	O
+2-7	paying	2-6_xcomp	like	VBG	O
+2-8	for	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	hard	O	O	JJ	O
+2-11	cover	O	O	NN	O
+2-12	editions	2-7_prep_for	paying	NNS	O
+2-13	of	O	O	O	O
+2-14	books	O	O	NNS	P1_book
+2-15	,	O	O	O	O
+2-16	and	O	O	O	O
+2-17	the	O	O	DT	O
+2-18	paperback	O	O	NN	O
+2-19	version	2-23_nsubjpass	released	NN	P1_book
+2-20	would	2-23_aux	released	MD	O
+2-21	not	2-23_neg	released	RB	O
+2-22	be	2-23_auxpass	released	VB	O
+2-23	released	2-6_conj_and	like	VBN	O
+2-24	for	O	O	O	O
+2-25	another	O	O	DT	O
+2-26	year	2-23_prep_for	released	NN	P1_NPart_year
+2-27	.	O	O	O	O
+
+#id=3
+#text=I therefore decided to walk to my local library and borrow the book . 
+3-1	I	3-3_nsubj	decided	PRP	P1_customer
+3-2	therefore	3-3_advmod	decided	RB	O
+3-3	decided	O	O	VBD	O
+3-4	to	3-5_aux	walk	TO	O
+3-5	walk	3-3_xcomp	decided	VB	O
+3-6	to	O	O	O	O
+3-7	my	O	O	PRP$	P1_customer
+3-8	local	O	O	JJ	O
+3-9	library	3-5_prep_to	walk	NN	P1_library
+3-10	and	O	O	O	O
+3-11	borrow	3-5_conj_and	walk	VB	O
+3-12	the	O	O	DT	O
+3-13	book	3-11_dobj	borrow	NN	P1_book
+3-14	.	O	O	O	O
+
+#id=4
+#text=To my disappointment , it was already checked out , but I was able to place a hold on the book . 
+4-1	To	O	O	O	O
+4-2	my	O	O	PRP$	P1_customer
+4-3	disappointment	4-8_prep_to	checked	NN	P1_NPart_disappointment
+4-4	,	O	O	O	O
+4-5	it	4-8_nsubjpass	checked	PRP	P1_book
+4-6	was	4-8_auxpass	checked	VBD	O
+4-7	already	4-8_advmod	checked	RB	O
+4-8	checked	O	O	VBN	O
+4-9	out	4-8_prt	checked	RP	O
+4-10	,	O	O	O	O
+4-11	but	O	O	O	O
+4-12	I	O	O	PRP	P1_customer
+4-13	was	O	O	VBD	O
+4-14	able	4-8_conj_but	checked	JJ	O
+4-15	to	4-16_aux	place	TO	O
+4-16	place	O	O	VB	O
+4-17	a	O	O	DT	O
+4-18	hold	4-16_dobj	place	NN	O
+4-19	on	O	O	O	O
+4-20	the	O	O	DT	O
+4-21	book	4-16_prep_on	place	NN	P1_book
+4-22	.	O	O	O	O
+
+#id=5
+#text=Six weeks later , the library sent me an e-mail to let me know that Tigerman had been returned and I could now check it out . 
+5-1	Six	O	O	CD	O
+5-2	weeks	5-7_tmod	sent	NNS	P1_NPart_weeks
+5-3	later	O	O	RB	O
+5-4	,	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	library	5-7_nsubj	sent	NN	P1_library
+5-7	sent	O	O	VBD	O
+5-8	me	5-7_iobj	sent	PRP	P1_customer
+5-9	an	O	O	DT	O
+5-10	e-mail	5-7_dobj	sent	NN	P1_NPart_e-mail
+5-11	to	5-12_aux	let	TO	O
+5-12	let	O	O	VB	O
+5-13	me	5-14_nsubj	know	PRP	P1_customer
+5-14	know	5-12_dep	let	VBP	O
+5-15	that	5-19_mark	returned	IN	O
+5-16	Tigerman	5-19_nsubjpass	returned	NNP	P1_book
+5-17	had	5-19_aux	returned	VBD	O
+5-18	been	5-19_auxpass	returned	VBN	O
+5-19	returned	5-14_ccomp	know	VBN	O
+5-20	and	O	O	O	O
+5-21	I	5-24_nsubj	check	PRP	P1_customer
+5-22	could	5-24_aux	check	MD	O
+5-23	now	5-24_advmod	check	RB	O
+5-24	check	5-14_conj_and	know	VB	O
+5-25	it	5-24_dobj	check	PRP	P1_book
+5-26	out	5-24_prt	check	RP	O
+5-27	.	O	O	O	O
+
+#id=6
+#text=I stopped by on my way home from work that evening , and got the book . 
+6-1	I	6-2_nsubj	stopped	PRP	P1_customer
+6-2	stopped	O	O	VBD	O
+6-3	by	6-2_prep	stopped	IN	O
+6-4	on	O	O	IN	O
+6-5	my	O	O	PRP$	P1_customer
+6-6	way	O	O	NN	P1_NPart_way
+6-7	home	O	O	NN	P1_NPart_home
+6-8	from	O	O	O	O
+6-9	work	6-2_prep_from	stopped	NN	P1_NPart_work
+6-10	that	O	O	DT	O
+6-11	evening	6-2_tmod	stopped	NN	P1_NPart_evening
+6-12	,	O	O	O	O
+6-13	and	O	O	O	O
+6-14	got	6-2_conj_and	stopped	VBD	O
+6-15	the	O	O	DT	O
+6-16	book	6-14_dobj	got	NN	P1_book
+6-17	.	O	O	O	O
+
+#id=7
+#text=It was a fun read , but I was not able to finish it by the due date , so I went online and obtained an extension of the due date . 
+7-1	It	O	O	PRP	P1_book
+7-2	was	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	fun	O	O	NN	O
+7-5	read	O	O	VBN	P1_book
+7-6	,	O	O	O	O
+7-7	but	O	O	O	O
+7-8	I	O	O	PRP	P1_customer
+7-9	was	O	O	VBD	O
+7-10	not	O	O	RB	O
+7-11	able	O	O	JJ	O
+7-12	to	7-13_aux	finish	TO	O
+7-13	finish	O	O	VB	O
+7-14	it	7-13_dobj	finish	PRP	P1_book
+7-15	by	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	due	O	O	JJ	O
+7-18	date	7-13_prep_by	finish	NN	P1_return_date
+7-19	,	O	O	O	O
+7-20	so	O	O	IN	O
+7-21	I	7-22_nsubj	went	PRP	P1_customer
+7-22	went	O	O	VBD	O
+7-23	online	7-22_prep	went	NN	O
+7-24	and	O	O	O	O
+7-25	obtained	7-22_conj_and	went	VBD	O
+7-26	an	O	O	DT	O
+7-27	extension	7-25_dobj	obtained	NN	P1_NPart_extension
+7-28	of	O	O	O	O
+7-29	the	O	O	DT	O
+7-30	due	O	O	JJ	O
+7-31	date	O	O	NN	P1_return_date
+7-32	.	O	O	O	O
+
+#id=8
+#text=A few days later , I finished the book , which was wonderful . 
+8-1	A	O	O	DT	O
+8-2	few	O	O	JJ	O
+8-3	days	O	O	NNS	P1_NPart_days
+8-4	later	8-7_advmod	finished	RB	O
+8-5	,	O	O	O	O
+8-6	I	8-7_nsubj	finished	PRP	P1_customer
+8-7	finished	O	O	VBD	O
+8-8	the	O	O	DT	O
+8-9	book	8-7_dobj	finished	NN	P1_book
+8-10	,	O	O	O	O
+8-11	which	O	O	WDT	O
+8-12	was	O	O	VBD	O
+8-13	wonderful	O	O	JJ	O
+8-14	.	O	O	O	O
+
+#id=9
+#text=I wanted other people to be able to enjoy it too , so I promptly returned the book to the library . 
+9-1	I	9-2_nsubj	wanted	PRP	P1_customer
+9-2	wanted	O	O	VBD	O
+9-3	other	O	O	JJ	O
+9-4	people	9-2_dobj	wanted	NNS	P2_customer
+9-5	to	O	O	TO	O
+9-6	be	O	O	VB	O
+9-7	able	9-2_vmod	wanted	JJ	O
+9-8	to	9-9_aux	enjoy	TO	O
+9-9	enjoy	O	O	VB	O
+9-10	it	9-9_dobj	enjoy	PRP	P1_book
+9-11	too	9-9_advmod	enjoy	RB	O
+9-12	,	O	O	O	O
+9-13	so	9-2_dep	wanted	IN	O
+9-14	I	9-16_nsubj	returned	PRP	P1_customer
+9-15	promptly	9-16_advmod	returned	RB	O
+9-16	returned	9-2_parataxis	wanted	VBD	O
+9-17	the	O	O	DT	O
+9-18	book	9-16_dobj	returned	NN	P1_book
+9-19	to	O	O	O	O
+9-20	the	O	O	DT	O
+9-21	library	9-16_prep_to	returned	NN	P2_library
+9-22	.	O	O	O	O

@@ -1,0 +1,198 @@
+#id=1
+#text=First we began by going to the orchard and picking the best tree we could find , this however did not satisfy the little ones so we had to go with the tree that they picked out . 
+1-1	First	1-3_dep	began	JJ	O
+1-2	we	1-3_nsubj	began	PRP	P1_gardener
+1-3	began	1-22_ccomp	satisfy	VBD	O
+1-4	by	O	O	O	O
+1-5	going	1-3_prepc_by	began	VBG	O
+1-6	to	O	O	O	O
+1-7	the	O	O	DT	O
+1-8	orchard	1-5_prep_to	going	NN	P1_shop
+1-9	and	O	O	O	O
+1-10	picking	1-5_conj_and	going	VBG	O
+1-11	the	O	O	DT	O
+1-12	best	O	O	JJS	O
+1-13	tree	1-10_dobj	picking	NN	P1_tree
+1-14	we	1-16_nsubj	find	PRP	P1_gardener
+1-15	could	1-16_aux	find	MD	O
+1-16	find	O	O	VB	O
+1-17	,	O	O	O	O
+1-18	this	1-22_nsubj	satisfy	DT	P1_tree
+1-19	however	1-22_advmod	satisfy	RB	O
+1-20	did	1-22_aux	satisfy	VBD	O
+1-21	not	1-22_neg	satisfy	RB	O
+1-22	satisfy	O	O	VB	O
+1-23	the	O	O	DT	O
+1-24	little	O	O	JJ	O
+1-25	ones	1-22_dobj	satisfy	NNS	P2_gardener
+1-26	so	1-28_mark	had	IN	O
+1-27	we	1-28_nsubj	had	PRP	P1_gardener
+1-28	had	1-22_advcl	satisfy	VBD	O
+1-29	to	1-30_aux	go	TO	O
+1-30	go	1-28_xcomp	had	VB	O
+1-31	with	O	O	O	O
+1-32	the	O	O	DT	O
+1-33	tree	1-30_prep_with	go	NN	P1_tree
+1-34	that	1-36_mark	picked	IN	O
+1-35	they	1-36_nsubj	picked	PRP	P2_gardener
+1-36	picked	1-30_ccomp	go	VBD	O
+1-37	out	1-36_prt	picked	RP	O
+1-38	.	O	O	O	O
+
+#id=2
+#text=We drove back home with the tree on top of the car to begin the planting . 
+2-1	We	2-2_nsubj	drove	PRP	P1_gardener
+2-2	drove	O	O	VBD	O
+2-3	back	2-2_advmod	drove	RB	O
+2-4	home	O	O	NN	O
+2-5	with	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	tree	2-2_prep_with	drove	NN	P1_tree
+2-8	on	O	O	O	O
+2-9	top	O	O	O	O
+2-10	of	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	car	O	O	NN	P1_NPart_car
+2-13	to	2-14_aux	begin	TO	O
+2-14	begin	2-2_xcomp	drove	VB	O
+2-15	the	O	O	DT	O
+2-16	planting	2-14_dobj	begin	NN	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=Starting off I dug a medium sized hole where we could plant the tree and it could grow as much as it wanted . 
+3-1	Starting	3-4_csubj	dug	VBG	O
+3-2	off	3-1_prt	Starting	RP	O
+3-3	I	3-1_dobj	Starting	PRP	P3_gardener
+3-4	dug	O	O	VBD	O
+3-5	a	O	O	DT	O
+3-6	medium	3-7_nsubj	sized	NN	O
+3-7	sized	3-4_ccomp	dug	VBD	O
+3-8	hole	3-7_dobj	sized	NN	P1_hole
+3-9	where	3-12_advmod	plant	WRB	O
+3-10	we	3-12_nsubj	plant	PRP	P1_gardener
+3-11	could	3-12_aux	plant	MD	O
+3-12	plant	3-7_advcl	sized	VB	O
+3-13	the	O	O	DT	O
+3-14	tree	3-12_dobj	plant	NN	P1_tree
+3-15	and	O	O	O	O
+3-16	it	3-18_nsubj	grow	PRP	P1_tree
+3-17	could	3-18_aux	grow	MD	O
+3-18	grow	3-4_conj_and	dug	VB	O
+3-19	as	O	O	RB	O
+3-20	much	3-18_advmod	grow	RB	O
+3-21	as	3-23_mark	wanted	IN	O
+3-22	it	3-23_nsubj	wanted	PRP	P1_tree
+3-23	wanted	O	O	VBD	O
+3-24	.	O	O	O	O
+
+#id=4
+#text=We fertilized the ground where the tree would be planted and began the transfer of the tree . 
+4-1	We	4-2_nsubj	fertilized	PRP	P1_gardener
+4-2	fertilized	O	O	VBN	O
+4-3	the	O	O	DT	O
+4-4	ground	4-2_dobj	fertilized	NN	P1_other
+4-5	where	4-10_advmod	planted	WRB	O
+4-6	the	O	O	DT	O
+4-7	tree	4-10_nsubjpass	planted	NN	P1_tree
+4-8	would	4-10_aux	planted	MD	O
+4-9	be	4-10_auxpass	planted	VB	O
+4-10	planted	O	O	VBN	O
+4-11	and	O	O	O	O
+4-12	began	4-10_conj_and	planted	VBD	O
+4-13	the	O	O	DT	O
+4-14	transfer	4-12_dobj	began	NN	P1_NPart_transfer
+4-15	of	O	O	O	O
+4-16	the	O	O	DT	O
+4-17	tree	O	O	NN	P1_tree
+4-18	.	O	O	O	O
+
+#id=5
+#text=This tree was then checked daily on its progress and to be watered . 
+5-1	This	O	O	DT	O
+5-2	tree	5-5_nsubjpass	checked	NN	P1_tree
+5-3	was	5-5_auxpass	checked	VBD	O
+5-4	then	5-5_advmod	checked	RB	O
+5-5	checked	O	O	VBN	O
+5-6	daily	5-5_advmod	checked	RB	O
+5-7	on	5-5_dep	checked	IN	O
+5-8	its	O	O	PRP$	P1_tree
+5-9	progress	O	O	NN	P1_NPart_progress
+5-10	and	O	O	O	O
+5-11	to	O	O	TO	O
+5-12	be	O	O	VB	O
+5-13	watered	O	O	JJ	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=The tree 's health was a priority of our family and we kept it in spectacular condition . 
+6-1	The	O	O	DT	O
+6-2	tree	O	O	NN	P1_tree
+6-3	's	O	O	O	O
+6-4	health	O	O	NN	P1_NPart_health
+6-5	was	O	O	VBD	O
+6-6	a	O	O	DT	O
+6-7	priority	O	O	NN	P1_NPart_priority
+6-8	of	O	O	O	O
+6-9	our	O	O	PRP$	P1_gardener
+6-10	family	O	O	NN	P1_NPart_family
+6-11	and	O	O	O	O
+6-12	we	6-13_nsubj	kept	PRP	P1_NPart_we
+6-13	kept	O	O	VBD	O
+6-14	it	6-13_dobj	kept	PRP	P1_tree
+6-15	in	O	O	O	O
+6-16	spectacular	O	O	JJ	O
+6-17	condition	6-13_prep_in	kept	NN	P1_NPart_condition
+6-18	.	O	O	O	O
+
+#id=7
+#text=This tree now stands tall over our house to protect it from the sun and allow us the shade we need when we would like to play outside . 
+7-1	This	O	O	DT	O
+7-2	tree	7-4_nsubj	stands	NN	P1_tree
+7-3	now	7-4_advmod	stands	RB	O
+7-4	stands	O	O	VBZ	O
+7-5	tall	7-4_acomp	stands	JJ	O
+7-6	over	O	O	O	O
+7-7	our	O	O	PRP$	P1_gardener
+7-8	house	O	O	NN	P1_NPart_house
+7-9	to	7-10_aux	protect	TO	O
+7-10	protect	O	O	VB	O
+7-11	it	7-10_dobj	protect	PRP	P1_tree
+7-12	from	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	sun	7-10_prep_from	protect	NN	P2_other
+7-15	and	O	O	O	O
+7-16	allow	7-10_conj_and	protect	VB	O
+7-17	us	7-16_iobj	allow	PRP	P1_gardener
+7-18	the	O	O	DT	O
+7-19	shade	7-16_dobj	allow	NN	P3_other
+7-20	we	7-21_nsubj	need	PRP	P2_NPart_we
+7-21	need	O	O	VBP	O
+7-22	when	7-25_advmod	like	WRB	O
+7-23	we	7-25_nsubj	like	PRP	P1_gardener
+7-24	would	7-25_aux	like	MD	O
+7-25	like	7-21_advcl	need	VB	O
+7-26	to	7-27_aux	play	TO	O
+7-27	play	7-25_xcomp	like	VB	O
+7-28	outside	7-27_advmod	play	RB	O
+7-29	.	O	O	O	O
+
+#id=8
+#text=This tree is the foundation of our family and we use it to show our togetherness . 
+8-1	This	O	O	DT	O
+8-2	tree	O	O	NN	P1_tree
+8-3	is	O	O	VBZ	O
+8-4	the	O	O	DT	O
+8-5	foundation	O	O	NN	P1_NPart_foundation
+8-6	of	O	O	O	O
+8-7	our	O	O	PRP$	P1_gardener
+8-8	family	O	O	NN	P2_NPart_family
+8-9	and	O	O	O	O
+8-10	we	8-11_nsubj	use	PRP	P1_gardener
+8-11	use	O	O	VBP	O
+8-12	it	8-11_dobj	use	PRP	P1_tree
+8-13	to	8-14_aux	show	TO	O
+8-14	show	8-11_xcomp	use	VB	O
+8-15	our	O	O	PRP$	P1_gardener
+8-16	togetherness	8-14_dobj	show	NNS	P1_NPart_togetherness
+8-17	.	O	O	O	O

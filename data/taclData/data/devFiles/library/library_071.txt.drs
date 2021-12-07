@@ -1,0 +1,212 @@
+#id=1
+#text=This afternoon I went to the library . 
+1-1	This	O	O	DT	O
+1-2	afternoon	1-4_nsubj	went	NN	P1_NPart_afternoon
+1-3	I	1-4_nsubj	went	PRP	P1_customer
+1-4	went	O	O	VBD	O
+1-5	to	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	library	1-4_prep_to	went	NN	P1_library
+1-8	.	O	O	O	O
+
+#id=2
+#text=I needed a really good book to read about dinosaurs . 
+2-1	I	2-2_nsubj	needed	PRP	P1_customer
+2-2	needed	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	really	O	O	RB	O
+2-5	good	O	O	JJ	O
+2-6	book	2-2_dobj	needed	NN	P1_book
+2-7	to	2-8_aux	read	TO	O
+2-8	read	2-2_vmod	needed	VB	O
+2-9	about	O	O	O	O
+2-10	dinosaurs	2-8_prep_about	read	NNS	P1_NPart_dinosaurs
+2-11	.	O	O	O	O
+
+#id=3
+#text=I walked up to the reception desk and asked the librarian where the dinosaur books could be found . 
+3-1	I	3-2_nsubj	walked	PRP	P1_customer
+3-2	walked	O	O	VBD	O
+3-3	up	3-2_prt	walked	RP	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	reception	O	O	NN	O
+3-7	desk	3-2_prep_to	walked	NN	P1_check-out_desk
+3-8	and	O	O	O	O
+3-9	asked	3-2_conj_and	walked	VBD	O
+3-10	the	O	O	DT	O
+3-11	librarian	3-9_dobj	asked	NN	P1_staff
+3-12	where	3-18_advmod	found	WRB	O
+3-13	the	O	O	DT	O
+3-14	dinosaur	O	O	NN	P1_NPart_dinosaur
+3-15	books	3-18_nsubjpass	found	NNS	P1_book
+3-16	could	3-18_aux	found	MD	O
+3-17	be	3-18_auxpass	found	VB	O
+3-18	found	3-9_advcl	asked	VBN	O
+3-19	.	O	O	O	O
+
+#id=4
+#text=She took me to the right area and I looked at all of the choices . 
+4-1	She	4-2_nsubj	took	PRP	P1_staff
+4-2	took	O	O	VBD	O
+4-3	me	4-2_dobj	took	PRP	P1_customer
+4-4	to	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	right	O	O	JJ	O
+4-7	area	4-2_prep_to	took	NN	P1_location_library
+4-8	and	O	O	O	O
+4-9	I	4-10_nsubj	looked	PRP	P1_customer
+4-10	looked	4-2_conj_and	took	VBD	O
+4-11	at	O	O	O	O
+4-12	all	4-10_prep_at	looked	DT	O
+4-13	of	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	choices	O	O	NNS	P1_book
+4-16	.	O	O	O	O
+
+#id=5
+#text=There were so many ! 
+5-1	There	5-2_expl	were	EX	O
+5-2	were	O	O	VBD	O
+5-3	so	O	O	RB	O
+5-4	many	5-2_acomp	were	JJ	P1_book
+5-5	!	O	O	O	O
+
+#id=6
+#text=I chose a few that I thought looked really interesting . 
+6-1	I	6-2_nsubj	chose	PRP	P1_customer
+6-2	chose	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	few	6-2_dobj	chose	JJ	P1_book
+6-5	that	6-7_mark	thought	IN	O
+6-6	I	6-7_nsubj	thought	PRP	P1_customer
+6-7	thought	6-2_ccomp	chose	VBD	O
+6-8	looked	6-7_ccomp	thought	VBD	O
+6-9	really	O	O	RB	O
+6-10	interesting	6-8_acomp	looked	JJ	O
+6-11	.	O	O	O	O
+
+#id=7
+#text=I took the books I had chosen and walked over to the self checkout area . 
+7-1	I	7-2_nsubj	took	PRP	P1_customer
+7-2	took	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	books	7-2_dobj	took	NNS	P1_book
+7-5	I	7-7_nsubj	chosen	PRP	P1_customer
+7-6	had	7-7_aux	chosen	VBD	O
+7-7	chosen	7-2_dep	took	VBN	O
+7-8	and	O	O	O	O
+7-9	walked	7-2_conj_and	took	VBD	O
+7-10	over	7-9_prt	walked	RP	O
+7-11	to	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	self	O	O	NN	O
+7-14	checkout	O	O	NN	O
+7-15	area	7-9_prep_to	walked	NN	P2_location_library
+7-16	.	O	O	O	O
+
+#id=8
+#text=I pulled out my library card and scanned it with the scanning wand . 
+8-1	I	8-2_nsubj	pulled	PRP	P1_customer
+8-2	pulled	O	O	VBD	O
+8-3	out	8-2_prt	pulled	RP	O
+8-4	my	O	O	PRP$	P1_customer
+8-5	library	O	O	NN	O
+8-6	card	8-2_dobj	pulled	NN	P1_library_card
+8-7	and	O	O	O	O
+8-8	scanned	8-2_conj_and	pulled	VBD	O
+8-9	it	8-8_dobj	scanned	PRP	P1_library_card
+8-10	with	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	scanning	O	O	JJ	O
+8-13	wand	8-8_prep_with	scanned	NN	P1_institutional_devices
+8-14	.	O	O	O	O
+
+#id=9
+#text=I then used the wand to scan the bar code on each of the books . 
+9-1	I	9-3_nsubj	used	PRP	P1_customer
+9-2	then	9-3_advmod	used	RB	O
+9-3	used	O	O	VBD	O
+9-4	the	O	O	DT	O
+9-5	wand	9-3_dobj	used	NN	P1_institutional_devices
+9-6	to	9-7_aux	scan	TO	O
+9-7	scan	O	O	VB	O
+9-8	the	O	O	DT	O
+9-9	bar	O	O	NN	O
+9-10	code	9-7_dobj	scan	NN	P1_book_id
+9-11	on	O	O	O	O
+9-12	each	9-7_prep_on	scan	DT	O
+9-13	of	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	books	O	O	NNS	P1_book
+9-16	.	O	O	O	O
+
+#id=10
+#text=When they had all been scanned I checked the screen to make sure everything was correct . 
+10-1	When	10-6_advmod	scanned	WRB	O
+10-2	they	10-6_nsubjpass	scanned	PRP	P1_book
+10-3	had	10-6_aux	scanned	VBD	O
+10-4	all	10-6_advmod	scanned	RB	O
+10-5	been	10-6_auxpass	scanned	VBN	O
+10-6	scanned	O	O	VBN	O
+10-7	I	10-8_nsubj	checked	PRP	P1_customer
+10-8	checked	10-6_ccomp	scanned	VBD	O
+10-9	the	O	O	DT	O
+10-10	screen	10-8_dobj	checked	NN	P2_institutional_devices
+10-11	to	10-12_aux	make	TO	O
+10-12	make	O	O	VB	O
+10-13	sure	O	O	JJ	O
+10-14	everything	10-12_dobj	make	NN	O
+10-15	was	O	O	VBD	O
+10-16	correct	O	O	JJ	O
+10-17	.	O	O	O	O
+
+#id=11
+#text=I clicked on the button to print my receipt . 
+11-1	I	11-2_nsubj	clicked	PRP	P1_customer
+11-2	clicked	O	O	VBD	O
+11-3	on	O	O	O	O
+11-4	the	O	O	DT	O
+11-5	button	11-2_prep_on	clicked	NN	P1_NPart_button
+11-6	to	11-7_aux	print	TO	O
+11-7	print	11-2_xcomp	clicked	VB	O
+11-8	my	O	O	PRP$	P1_customer
+11-9	receipt	11-7_dobj	print	NN	P1_receipt
+11-10	.	O	O	O	O
+
+#id=12
+#text=I put the receipt inside one of the books , picked up the books and went out the door . 
+12-1	I	12-2_nsubj	put	PRP	P1_customer
+12-2	put	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	receipt	12-2_dobj	put	NN	P1_receipt
+12-5	inside	O	O	O	O
+12-6	one	12-2_prep_inside	put	CD	O
+12-7	of	O	O	O	O
+12-8	the	O	O	DT	O
+12-9	books	O	O	NNS	P1_book
+12-10	,	O	O	O	O
+12-11	picked	12-2_conj_and	put	VBD	O
+12-12	up	12-11_prt	picked	RP	O
+12-13	the	O	O	DT	O
+12-14	books	12-11_dobj	picked	NNS	P1_book
+12-15	and	O	O	O	O
+12-16	went	12-2_conj_and	put	VBD	O
+12-17	out	12-16_prt	went	RP	O
+12-18	the	O	O	DT	O
+12-19	door	12-16_dobj	went	NN	P1_NPart_door
+12-20	.	O	O	O	O
+
+#id=13
+#text=I could hardly wait to get home and start reading . 
+13-1	I	13-4_nsubj	wait	PRP	P1_customer
+13-2	could	13-4_aux	wait	MD	O
+13-3	hardly	13-4_advmod	wait	RB	O
+13-4	wait	O	O	VB	O
+13-5	to	13-6_aux	get	TO	O
+13-6	get	13-4_xcomp	wait	VB	O
+13-7	home	O	O	NN	P1_NPart_home
+13-8	and	O	O	O	O
+13-9	start	O	O	NN	O
+13-10	reading	13-6_dobj	get	NN	O
+13-11	.	O	O	O	O

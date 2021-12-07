@@ -1,0 +1,213 @@
+#id=1
+#text=Yesterday , I went to the bus stop . 
+1-1	Yesterday	1-4_tmod	went	NN	P1_NPart_yesterday
+1-2	,	O	O	O	O
+1-3	I	1-4_nsubj	went	PRP	P1_passenger
+1-4	went	O	O	VBD	O
+1-5	to	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	bus	O	O	NN	O
+1-8	stop	1-4_prep_to	went	NN	P1_bus_stop
+1-9	.	O	O	O	O
+
+#id=2
+#text=I waited for the bus with a few others . 
+2-1	I	2-2_nsubj	waited	PRP	P1_passenger
+2-2	waited	O	O	VBD	O
+2-3	for	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	bus	2-2_prep_for	waited	NN	P1_bus
+2-6	with	O	O	O	O
+2-7	a	O	O	DT	O
+2-8	few	O	O	JJ	O
+2-9	others	2-2_prep_with	waited	NNS	P2_passenger
+2-10	.	O	O	O	O
+
+#id=3
+#text=The bus arrived . 
+3-1	The	O	O	DT	O
+3-2	bus	3-3_nsubj	arrived	NN	P1_bus
+3-3	arrived	O	O	VBD	O
+3-4	.	O	O	O	O
+
+#id=4
+#text=When I got on , I scanned my bus pass on the bus pass scanner and then took my seat . 
+4-1	When	4-3_advmod	got	WRB	O
+4-2	I	4-3_nsubj	got	PRP	P1_passenger
+4-3	got	4-7_advcl	scanned	VBD	O
+4-4	on	4-3_prt	got	RP	O
+4-5	,	O	O	O	O
+4-6	I	4-7_nsubj	scanned	PRP	P1_passenger
+4-7	scanned	O	O	VBD	O
+4-8	my	O	O	PRP$	P1_passenger
+4-9	bus	O	O	NN	O
+4-10	pass	4-7_dobj	scanned	NN	P1_card/ticket
+4-11	on	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	bus	O	O	NN	O
+4-14	pass	O	O	NN	O
+4-15	scanner	4-7_prep_on	scanned	NN	P1_other
+4-16	and	O	O	O	O
+4-17	then	4-18_advmod	took	RB	O
+4-18	took	4-7_conj_and	scanned	VBD	O
+4-19	my	O	O	PRP$	P1_passenger
+4-20	seat	4-18_dobj	took	NN	P1_seat_in_bus
+4-21	.	O	O	O	O
+
+#id=5
+#text=The bus was not crowded , so I was able to take a seat near the front . 
+5-1	The	O	O	DT	O
+5-2	bus	5-5_nsubjpass	crowded	NN	P1_bus
+5-3	was	5-5_auxpass	crowded	VBD	O
+5-4	not	5-5_neg	crowded	RB	O
+5-5	crowded	O	O	VBN	O
+5-6	,	O	O	O	O
+5-7	so	5-5_dep	crowded	IN	O
+5-8	I	O	O	PRP	P1_passenger
+5-9	was	O	O	VBD	O
+5-10	able	5-5_parataxis	crowded	JJ	O
+5-11	to	5-12_aux	take	TO	O
+5-12	take	O	O	VB	O
+5-13	a	O	O	DT	O
+5-14	seat	5-12_dobj	take	NN	P1_seat_in_bus
+5-15	near	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	front	O	O	NN	P1_NPart_front
+5-18	.	O	O	O	O
+
+#id=6
+#text=I sat quietly , playing with my cellphone . 
+6-1	I	6-2_nsubj	sat	PRP	P1_passenger
+6-2	sat	O	O	VBD	O
+6-3	quietly	6-2_advmod	sat	RB	O
+6-4	,	O	O	O	O
+6-5	playing	6-2_xcomp	sat	VBG	O
+6-6	with	O	O	O	O
+6-7	my	O	O	PRP$	P1_passenger
+6-8	cellphone	6-5_prep_with	playing	NN	P1_NPart_cellphone
+6-9	.	O	O	O	O
+
+#id=7
+#text=Others stared around or talked quietly amongst themselves . 
+7-1	Others	7-2_nsubj	stared	NNS	P3_passenger
+7-2	stared	O	O	VBD	O
+7-3	around	7-2_prt	stared	RP	O
+7-4	or	O	O	O	O
+7-5	talked	7-2_conj_or	stared	VBD	O
+7-6	quietly	7-5_advmod	talked	RB	O
+7-7	amongst	O	O	O	O
+7-8	themselves	7-5_prep_amongst	talked	PRP	P3_passenger
+7-9	.	O	O	O	O
+
+#id=8
+#text=A bell rang every few blocks to indicate someone wanting to get off . 
+8-1	A	O	O	DT	O
+8-2	bell	8-3_nsubj	rang	NN	P2_other
+8-3	rang	O	O	VBD	O
+8-4	every	O	O	DT	O
+8-5	few	O	O	JJ	O
+8-6	blocks	8-3_dobj	rang	NNS	P1_NPart_blocks
+8-7	to	8-8_aux	indicate	TO	O
+8-8	indicate	8-3_vmod	rang	VB	O
+8-9	someone	8-8_dobj	indicate	NN	P4_passenger
+8-10	wanting	O	O	VBG	O
+8-11	to	8-12_aux	get	TO	O
+8-12	get	8-10_xcomp	wanting	VB	O
+8-13	off	8-12_prt	get	RP	O
+8-14	.	O	O	O	O
+
+#id=9
+#text=The bus would stop , let people off , and let new people on . 
+9-1	The	O	O	DT	O
+9-2	bus	9-4_nsubj	stop	NN	P1_bus
+9-3	would	9-4_aux	stop	MD	O
+9-4	stop	O	O	VB	O
+9-5	,	O	O	O	O
+9-6	let	9-4_conj_and	stop	VB	O
+9-7	people	9-6_dobj	let	NNS	P5_passenger
+9-8	off	9-6_prt	let	RP	O
+9-9	,	O	O	O	O
+9-10	and	O	O	O	O
+9-11	let	9-4_conj_and	stop	VB	O
+9-12	new	O	O	JJ	O
+9-13	people	9-11_dobj	let	NNS	P6_passenger
+9-14	on	9-11_prt	let	RP	O
+9-15	.	O	O	O	O
+
+#id=10
+#text=The bus started to get crowded so I offered my seat to an older woman . 
+10-1	The	O	O	DT	O
+10-2	bus	10-3_nsubj	started	NN	P1_bus
+10-3	started	O	O	VBD	O
+10-4	to	10-6_aux	crowded	TO	O
+10-5	get	10-6_auxpass	crowded	VB	O
+10-6	crowded	10-3_xcomp	started	VBN	O
+10-7	so	10-9_mark	offered	IN	O
+10-8	I	10-9_nsubj	offered	PRP	P1_passenger
+10-9	offered	10-6_ccomp	crowded	VBD	O
+10-10	my	O	O	PRP$	P1_passenger
+10-11	seat	10-9_dobj	offered	NN	P1_seat_in_bus
+10-12	to	O	O	O	O
+10-13	an	O	O	DT	O
+10-14	older	O	O	JJR	O
+10-15	woman	10-9_prep_to	offered	NN	P7_passenger
+10-16	.	O	O	O	O
+
+#id=11
+#text=She thanked me for the polite etiquette . 
+11-1	She	11-2_nsubj	thanked	PRP	P7_passenger
+11-2	thanked	O	O	VBD	O
+11-3	me	11-2_dobj	thanked	PRP	P1_passenger
+11-4	for	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	polite	O	O	JJ	O
+11-7	etiquette	11-2_prep_for	thanked	NN	P1_NPart_etiquette
+11-8	.	O	O	O	O
+
+#id=12
+#text=I saw my stop coming up , so I pulled the lever and the bell rang again . 
+12-1	I	12-2_nsubj	saw	PRP	P1_passenger
+12-2	saw	O	O	VBD	O
+12-3	my	O	O	PRP$	P8_passenger
+12-4	stop	12-2_dobj	saw	NN	P1_destination
+12-5	coming	12-2_xcomp	saw	VBG	O
+12-6	up	12-5_prt	coming	RP	O
+12-7	,	O	O	O	O
+12-8	so	12-2_dep	saw	IN	O
+12-9	I	12-10_nsubj	pulled	PRP	P1_passenger
+12-10	pulled	12-2_parataxis	saw	VBD	O
+12-11	the	O	O	DT	O
+12-12	lever	12-16_nsubj	rang	NN	P1_stop_button/door_opener
+12-13	and	O	O	O	O
+12-14	the	O	O	DT	O
+12-15	bell	O	O	NN	P2_other
+12-16	rang	12-10_ccomp	pulled	VBD	O
+12-17	again	12-16_advmod	rang	RB	O
+12-18	.	O	O	O	O
+
+#id=13
+#text=The bus stopped a few moments later . 
+13-1	The	O	O	DT	O
+13-2	bus	13-3_nsubj	stopped	NN	P1_bus
+13-3	stopped	O	O	VBD	O
+13-4	a	O	O	DT	O
+13-5	few	O	O	JJ	O
+13-6	moments	13-3_dobj	stopped	NNS	P1_time/date
+13-7	later	13-3_advmod	stopped	RB	O
+13-8	.	O	O	O	O
+
+#id=14
+#text=I thanked the bus driver for his services and exited the bus . 
+14-1	I	14-2_nsubj	thanked	PRP	P1_passenger
+14-2	thanked	O	O	VBD	O
+14-3	the	O	O	DT	O
+14-4	bus	O	O	NN	O
+14-5	driver	14-2_dobj	thanked	NN	P1_bus_staff
+14-6	for	O	O	O	O
+14-7	his	O	O	PRP$	P2_bus_staff
+14-8	services	14-2_prep_for	thanked	NNS	P1_NPart_services
+14-9	and	O	O	O	O
+14-10	exited	14-2_conj_and	thanked	VBD	O
+14-11	the	O	O	DT	O
+14-12	bus	14-10_dobj	exited	NN	P1_bus
+14-13	.	O	O	O	O

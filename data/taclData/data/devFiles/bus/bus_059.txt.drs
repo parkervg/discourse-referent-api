@@ -1,0 +1,197 @@
+#id=1
+#text=Yesterday my car broke down , so I was thinking of how I would get to work . 
+1-1	Yesterday	1-4_tmod	broke	NN	O
+1-2	my	O	O	PRP$	P1_passenger
+1-3	car	1-4_nsubj	broke	NN	P1_NPart_car
+1-4	broke	O	O	VBD	O
+1-5	down	1-4_prt	broke	RP	O
+1-6	,	O	O	O	O
+1-7	so	1-4_dep	broke	IN	O
+1-8	I	1-10_nsubj	thinking	PRP	P1_passenger
+1-9	was	1-10_aux	thinking	VBD	O
+1-10	thinking	1-4_parataxis	broke	VBG	O
+1-11	of	O	O	O	O
+1-12	how	1-15_advmod	get	WRB	O
+1-13	I	1-15_nsubj	get	PRP	P1_passenger
+1-14	would	1-15_aux	get	MD	O
+1-15	get	1-10_prepc_of	thinking	VB	O
+1-16	to	1-17_aux	work	TO	O
+1-17	work	1-15_xcomp	get	VB	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=I decided one of the best options would be to take a public bus . 
+2-1	I	2-2_nsubj	decided	PRP	P1_passenger
+2-2	decided	O	O	VBD	O
+2-3	one	2-9_nsubj	be	CD	O
+2-4	of	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	best	O	O	JJS	O
+2-7	options	O	O	NNS	P1_NPart_options
+2-8	would	2-9_aux	be	MD	O
+2-9	be	2-2_ccomp	decided	VB	O
+2-10	to	2-11_aux	take	TO	O
+2-11	take	2-9_xcomp	be	VB	O
+2-12	a	O	O	DT	O
+2-13	public	O	O	JJ	O
+2-14	bus	2-11_dobj	take	NN	P1_bus
+2-15	.	O	O	O	O
+
+#id=3
+#text=Since I 've never taken one before , I went to the city website and looked at a schedule of all the bus times and routes . 
+3-1	Since	3-5_mark	taken	IN	O
+3-2	I	3-5_nsubj	taken	PRP	P1_passenger
+3-3	've	3-5_aux	taken	VBP	O
+3-4	never	3-5_neg	taken	RB	O
+3-5	taken	3-10_advcl	went	VBN	O
+3-6	one	O	O	CD	P1_bus
+3-7	before	3-5_advmod	taken	IN	O
+3-8	,	O	O	O	O
+3-9	I	3-10_nsubj	went	PRP	P1_passenger
+3-10	went	O	O	VBD	O
+3-11	to	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	city	O	O	NN	O
+3-14	website	3-10_prep_to	went	NN	P1_NPart_website
+3-15	and	O	O	O	O
+3-16	looked	3-10_conj_and	went	VBD	O
+3-17	at	O	O	O	O
+3-18	a	O	O	DT	O
+3-19	schedule	3-16_prep_at	looked	NN	P1_time-table
+3-20	of	O	O	O	O
+3-21	all	O	O	PDT	O
+3-22	the	O	O	DT	O
+3-23	bus	O	O	NN	O
+3-24	times	3-16_dobj	looked	NNS	P1_time/date
+3-25	and	O	O	O	O
+3-26	routes	O	O	NNS	P1_route
+3-27	.	O	O	O	O
+
+#id=4
+#text=When I had finally decided on the bus that I needed to take , it was time to put my plan into action . 
+4-1	When	4-5_advmod	decided	WRB	O
+4-2	I	4-5_nsubj	decided	PRP	P1_passenger
+4-3	had	4-5_aux	decided	VBD	O
+4-4	finally	4-5_advmod	decided	RB	O
+4-5	decided	O	O	VBN	O
+4-6	on	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	bus	4-5_prep_on	decided	NN	P1_bus
+4-9	that	4-11_mark	needed	IN	O
+4-10	I	4-11_nsubj	needed	PRP	P1_passenger
+4-11	needed	4-5_ccomp	decided	VBD	O
+4-12	to	4-13_aux	take	TO	O
+4-13	take	4-11_xcomp	needed	VB	O
+4-14	,	O	O	O	O
+4-15	it	O	O	PRP	O
+4-16	was	O	O	VBD	O
+4-17	time	O	O	NN	O
+4-18	to	4-19_aux	put	TO	O
+4-19	put	O	O	VB	O
+4-20	my	O	O	PRP$	P1_passenger
+4-21	plan	4-19_dobj	put	NN	P1_NPart_plan
+4-22	into	O	O	O	O
+4-23	action	4-19_prep_into	put	NN	O
+4-24	.	O	O	O	O
+
+#id=5
+#text=I left my house and walked over to the bus stop . 
+5-1	I	5-2_nsubj	left	PRP	P1_passenger
+5-2	left	O	O	VBD	O
+5-3	my	O	O	PRP$	P1_passenger
+5-4	house	5-2_dobj	left	NN	P1_NPart_house
+5-5	and	O	O	O	O
+5-6	walked	5-2_conj_and	left	VBD	O
+5-7	over	5-6_prt	walked	RP	O
+5-8	to	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	bus	O	O	NN	O
+5-11	stop	5-6_prep_to	walked	NN	P1_bus_stop
+5-12	.	O	O	O	O
+
+#id=6
+#text=There were a few other people waiting there as well . 
+6-1	There	6-2_expl	were	EX	O
+6-2	were	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	few	O	O	JJ	O
+6-5	other	O	O	JJ	O
+6-6	people	6-2_nsubj	were	NNS	P2_passenger
+6-7	waiting	O	O	VBG	O
+6-8	there	6-7_advmod	waiting	RB	O
+6-9	as	O	O	RB	O
+6-10	well	6-7_advmod	waiting	RB	O
+6-11	.	O	O	O	O
+
+#id=7
+#text=When the bus arrived I got on and paid the driver the fee , which was $ 1 . 
+7-1	When	7-4_advmod	arrived	WRB	O
+7-2	the	O	O	DT	O
+7-3	bus	7-4_nsubj	arrived	NN	P1_bus
+7-4	arrived	O	O	VBD	O
+7-5	I	7-6_nsubj	got	PRP	P1_passenger
+7-6	got	7-4_ccomp	arrived	VBD	O
+7-7	on	7-6_prt	got	RP	O
+7-8	and	O	O	O	O
+7-9	paid	7-6_conj_and	got	VBD	O
+7-10	the	O	O	DT	O
+7-11	driver	7-9_iobj	paid	NN	P1_bus_staff
+7-12	the	O	O	DT	O
+7-13	fee	7-9_dobj	paid	NN	P1_money
+7-14	,	O	O	O	O
+7-15	which	O	O	WDT	O
+7-16	was	O	O	VBD	O
+7-17	$	O	O	$	O
+7-18	1	O	O	CD	P1_money
+7-19	.	O	O	O	O
+
+#id=8
+#text=I then sat down and waited for the bus to arrive at my destination . 
+8-1	I	8-3_nsubj	sat	PRP	P1_passenger
+8-2	then	8-3_advmod	sat	RB	O
+8-3	sat	O	O	VBD	O
+8-4	down	8-3_prt	sat	RP	O
+8-5	and	O	O	O	O
+8-6	waited	8-3_conj_and	sat	VBD	O
+8-7	for	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	bus	8-6_prep_for	waited	NN	P1_bus
+8-10	to	8-11_aux	arrive	TO	O
+8-11	arrive	8-6_xcomp	waited	VB	O
+8-12	at	O	O	O	O
+8-13	my	O	O	PRP$	P1_passenger
+8-14	destination	8-11_prep_at	arrive	NN	P1_destination
+8-15	.	O	O	O	O
+
+#id=9
+#text=It took about 40 minutes to get where I was going , and I arrived safely . 
+9-1	It	9-2_nsubj	took	PRP	O
+9-2	took	O	O	VBD	O
+9-3	about	O	O	RB	O
+9-4	40	O	O	CD	O
+9-5	minutes	9-2_dobj	took	NNS	P2_time/date
+9-6	to	9-7_aux	get	TO	O
+9-7	get	9-2_vmod	took	VB	O
+9-8	where	9-11_advmod	going	WRB	O
+9-9	I	9-11_nsubj	going	PRP	P1_passenger
+9-10	was	9-11_aux	going	VBD	O
+9-11	going	9-7_advcl	get	VBG	O
+9-12	,	O	O	O	O
+9-13	and	O	O	O	O
+9-14	I	9-15_nsubj	arrived	PRP	P1_passenger
+9-15	arrived	9-2_conj_and	took	VBD	O
+9-16	safely	9-15_advmod	arrived	RB	O
+9-17	.	O	O	O	O
+
+#id=10
+#text=I think that overall it was a pleasant experience . 
+10-1	I	10-2_nsubj	think	PRP	P1_passenger
+10-2	think	O	O	VBP	O
+10-3	that	O	O	IN	O
+10-4	overall	O	O	RB	O
+10-5	it	O	O	PRP	O
+10-6	was	O	O	VBD	O
+10-7	a	O	O	DT	O
+10-8	pleasant	O	O	JJ	O
+10-9	experience	10-2_ccomp	think	NN	P1_NPart_experience
+10-10	.	O	O	O	O

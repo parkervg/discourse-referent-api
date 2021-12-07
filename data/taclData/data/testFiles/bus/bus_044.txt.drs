@@ -1,0 +1,267 @@
+#id=1
+#text=I needed to get from my house to work , but my car wouldn ' t start . 
+1-1	I	1-2_nsubj	needed	PRP	P1_passenger
+1-2	needed	O	O	VBD	O
+1-3	to	1-4_aux	get	TO	O
+1-4	get	1-2_xcomp	needed	VB	O
+1-5	from	O	O	O	O
+1-6	my	O	O	PRP$	P1_passenger
+1-7	house	1-4_prep_from	get	NN	P1_NPart_house
+1-8	to	1-9_aux	work	TO	O
+1-9	work	O	O	VB	P1_NPart_work
+1-10	,	O	O	O	O
+1-11	but	O	O	O	O
+1-12	my	O	O	PRP$	P1_passenger
+1-13	car	O	O	NN	P1_NPart_car
+1-14	wouldn	O	O	NN	O
+1-15	'	O	O	O	O
+1-16	t	1-17_nsubj	start	NN	O
+1-17	start	1-2_conj_but	needed	VBP	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=I decided my best option was to take the bus . 
+2-1	I	2-2_nsubj	decided	PRP	P1_passenger
+2-2	decided	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_passenger
+2-4	best	O	O	JJS	O
+2-5	option	2-6_nsubj	was	NN	P1_NPart_option
+2-6	was	2-2_ccomp	decided	VBD	O
+2-7	to	2-8_aux	take	TO	O
+2-8	take	2-6_xcomp	was	VB	O
+2-9	the	O	O	DT	O
+2-10	bus	2-8_dobj	take	NN	P1_bus
+2-11	.	O	O	O	O
+
+#id=3
+#text=I walked down the street to the nearest bus stop that would take me close to work . 
+3-1	I	3-2_nsubj	walked	PRP	P1_passenger
+3-2	walked	O	O	VBD	O
+3-3	down	3-2_prt	walked	RP	O
+3-4	the	O	O	DT	O
+3-5	street	3-2_dobj	walked	NN	P1_NPart_street
+3-6	to	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	nearest	O	O	JJS	O
+3-9	bus	O	O	NN	O
+3-10	stop	3-2_prep_to	walked	NN	P1_bus_stop
+3-11	that	3-13_nsubj	take	WDT	O
+3-12	would	3-13_aux	take	MD	O
+3-13	take	O	O	VB	O
+3-14	me	O	O	PRP	P1_passenger
+3-15	close	3-13_xcomp	take	JJ	O
+3-16	to	3-17_aux	work	TO	O
+3-17	work	O	O	VB	O
+3-18	.	O	O	O	O
+
+#id=4
+#text=I waited for about five minutes for the bus to come . 
+4-1	I	4-2_nsubj	waited	PRP	P1_passenger
+4-2	waited	O	O	VBD	O
+4-3	for	O	O	O	O
+4-4	about	O	O	RB	O
+4-5	five	O	O	CD	O
+4-6	minutes	4-2_prep_for	waited	NNS	P1_time/date
+4-7	for	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	bus	O	O	NN	P1_bus
+4-10	to	4-11_aux	come	TO	O
+4-11	come	4-2_xcomp	waited	VB	O
+4-12	.	O	O	O	O
+
+#id=5
+#text=Once I got on , I put my money in the machine and headed towards the back to find a seat . 
+5-1	Once	5-3_mark	got	IN	O
+5-2	I	5-3_nsubj	got	PRP	P1_passenger
+5-3	got	5-7_advcl	put	VBD	O
+5-4	on	5-3_prt	got	RP	O
+5-5	,	O	O	O	O
+5-6	I	5-7_nsubj	put	PRP	P1_passenger
+5-7	put	O	O	VBD	O
+5-8	my	O	O	PRP$	P1_passenger
+5-9	money	5-7_dobj	put	NN	P1_money
+5-10	in	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	machine	5-7_prep_in	put	NN	P1_payment_machine
+5-13	and	O	O	O	O
+5-14	headed	5-7_conj_and	put	VBD	O
+5-15	towards	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	back	5-14_prep_towards	headed	NN	P1_NPart_back
+5-18	to	5-19_aux	find	TO	O
+5-19	find	5-14_xcomp	headed	VB	O
+5-20	a	O	O	DT	O
+5-21	seat	5-19_dobj	find	NN	P1_seat_in_bus
+5-22	.	O	O	O	O
+
+#id=6
+#text=There were only three open seats so I took one of them and popped in my ear buds to listen to music . 
+6-1	There	6-2_expl	were	EX	O
+6-2	were	O	O	VBD	O
+6-3	only	O	O	RB	O
+6-4	three	O	O	CD	O
+6-5	open	O	O	JJ	O
+6-6	seats	6-2_nsubj	were	NNS	P1_seat_in_bus
+6-7	so	6-9_mark	took	IN	O
+6-8	I	6-9_nsubj	took	PRP	P1_passenger
+6-9	took	O	O	VBD	O
+6-10	one	6-9_dobj	took	CD	O
+6-11	of	O	O	O	O
+6-12	them	O	O	PRP	P1_seat_in_bus
+6-13	and	O	O	O	O
+6-14	popped	6-9_conj_and	took	VBD	O
+6-15	in	O	O	O	O
+6-16	my	O	O	PRP$	P1_passenger
+6-17	ear	O	O	NN	O
+6-18	buds	6-14_prep_in	popped	NNS	P1_in-bus_entertainment
+6-19	to	6-20_aux	listen	TO	O
+6-20	listen	6-14_xcomp	popped	VB	O
+6-21	to	O	O	O	O
+6-22	music	6-20_prep_to	listen	NN	P2_in-bus_entertainment
+6-23	.	O	O	O	O
+
+#id=7
+#text=I also brought a book along to read so nobody would try to talk to me . 
+7-1	I	7-3_nsubj	brought	PRP	P1_passenger
+7-2	also	7-3_advmod	brought	RB	O
+7-3	brought	O	O	VBD	O
+7-4	a	O	O	DT	O
+7-5	book	7-3_dobj	brought	NN	P3_in-bus_entertainment
+7-6	along	7-3_prt	brought	RP	O
+7-7	to	7-8_aux	read	TO	O
+7-8	read	7-3_vmod	brought	VB	O
+7-9	so	7-12_mark	try	IN	O
+7-10	nobody	7-12_nsubj	try	NN	P2_passenger
+7-11	would	7-12_aux	try	MD	O
+7-12	try	7-8_advcl	read	VB	O
+7-13	to	7-14_aux	talk	TO	O
+7-14	talk	7-12_xcomp	try	VB	O
+7-15	to	O	O	O	O
+7-16	me	7-14_prep_to	talk	PRP	P1_passenger
+7-17	.	O	O	O	O
+
+#id=8
+#text=The bus made three stops before we got to the corner nearest to my work . 
+8-1	The	O	O	DT	O
+8-2	bus	8-3_nsubj	made	NN	P1_bus
+8-3	made	O	O	VBD	O
+8-4	three	O	O	CD	O
+8-5	stops	8-3_dobj	made	NNS	P2_bus_stop
+8-6	before	8-8_mark	got	IN	O
+8-7	we	8-8_nsubj	got	PRP	O
+8-8	got	8-3_advcl	made	VBD	O
+8-9	to	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	corner	8-8_prep_to	got	NN	P3_bus_stop
+8-12	nearest	O	O	IN	O
+8-13	to	O	O	TO	O
+8-14	my	O	O	PRP$	P1_passenger
+8-15	work	O	O	NN	P2_NPart_work
+8-16	.	O	O	O	O
+
+#id=9
+#text=Each time people would get off and as they shuffled past would bump into my knees which was really annoying . 
+9-1	Each	O	O	DT	O
+9-2	time	O	O	NN	O
+9-3	people	9-5_nsubj	get	NNS	P3_passenger
+9-4	would	9-5_aux	get	MD	O
+9-5	get	O	O	VB	O
+9-6	off	9-5_prt	get	RP	O
+9-7	and	O	O	O	O
+9-8	as	9-10_mark	shuffled	IN	O
+9-9	they	9-10_nsubj	shuffled	PRP	P3_passenger
+9-10	shuffled	9-13_csubj	bump	VBD	O
+9-11	past	9-10_dobj	shuffled	NN	O
+9-12	would	9-13_aux	bump	MD	O
+9-13	bump	9-5_conj_and	get	VB	O
+9-14	into	O	O	O	O
+9-15	my	O	O	PRP$	P1_passenger
+9-16	knees	9-13_prep_into	bump	NNS	P1_NPart_knees
+9-17	which	O	O	WDT	O
+9-18	was	O	O	VBD	O
+9-19	really	O	O	RB	O
+9-20	annoying	O	O	JJ	O
+9-21	.	O	O	O	O
+
+#id=10
+#text=Then more people would get on and some would find seats , but others had to stand . 
+10-1	Then	10-5_advmod	get	RB	O
+10-2	more	O	O	JJR	O
+10-3	people	10-5_nsubj	get	NNS	P3_passenger
+10-4	would	10-5_aux	get	MD	O
+10-5	get	O	O	VB	O
+10-6	on	10-5_prt	get	RP	O
+10-7	and	O	O	O	O
+10-8	some	10-10_nsubj	find	DT	P3_passenger
+10-9	would	10-10_aux	find	MD	O
+10-10	find	10-5_conj_and	get	VB	O
+10-11	seats	10-10_dobj	find	NNS	P1_seat_in_bus
+10-12	,	O	O	O	O
+10-13	but	O	O	O	O
+10-14	others	10-15_nsubj	had	NNS	P3_passenger
+10-15	had	10-5_conj_but	get	VBD	O
+10-16	to	10-17_aux	stand	TO	O
+10-17	stand	10-15_xcomp	had	VB	O
+10-18	.	O	O	O	O
+
+#id=11
+#text=One person stood directly in front of me , in constant contact with my legs . 
+11-1	One	O	O	CD	O
+11-2	person	11-3_nsubj	stood	NN	P4_passenger
+11-3	stood	O	O	VBD	O
+11-4	directly	11-3_advmod	stood	RB	O
+11-5	in	O	O	O	O
+11-6	front	O	O	O	O
+11-7	of	O	O	O	O
+11-8	me	11-3_prep_in_front_of	stood	PRP	P1_passenger
+11-9	,	O	O	O	O
+11-10	in	O	O	O	O
+11-11	constant	O	O	JJ	O
+11-12	contact	11-3_prep_in	stood	NN	P1_NPart_contact
+11-13	with	O	O	O	O
+11-14	my	O	O	PRP$	P1_passenger
+11-15	legs	O	O	NNS	P1_NPart_legs
+11-16	.	O	O	O	O
+
+#id=12
+#text=This really annoyed me even more . 
+12-1	This	12-3_nsubj	annoyed	DT	O
+12-2	really	12-3_advmod	annoyed	RB	O
+12-3	annoyed	O	O	VBD	O
+12-4	me	O	O	PRP	P1_passenger
+12-5	even	O	O	RB	O
+12-6	more	12-3_xcomp	annoyed	RBR	O
+12-7	.	O	O	O	O
+
+#id=13
+#text=I don ' t like riding public transportation . 
+13-1	I	O	O	NNP	P1_passenger
+13-2	don	O	O	NNP	O
+13-3	'	O	O	O	O
+13-4	t	13-5_nsubj	like	NN	O
+13-5	like	O	O	VBP	O
+13-6	riding	13-5_xcomp	like	VBG	O
+13-7	public	O	O	JJ	O
+13-8	transportation	13-6_dobj	riding	NN	P1_bus
+13-9	.	O	O	O	O
+
+#id=14
+#text=Finally we got to my stop and I got out of the bus through the rear doors . 
+14-1	Finally	14-3_advmod	got	RB	O
+14-2	we	14-3_nsubj	got	PRP	O
+14-3	got	O	O	VBD	O
+14-4	to	O	O	O	O
+14-5	my	O	O	PRP$	P1_passenger
+14-6	stop	14-3_prep_to	got	NN	P1_destination
+14-7	and	O	O	O	O
+14-8	I	14-9_nsubj	got	PRP	P1_passenger
+14-9	got	14-3_conj_and	got	VBD	O
+14-10	out	O	O	O	O
+14-11	of	O	O	O	O
+14-12	the	O	O	DT	O
+14-13	bus	14-9_prep_out_of	got	NN	P1_bus
+14-14	through	O	O	O	O
+14-15	the	O	O	DT	O
+14-16	rear	O	O	JJ	O
+14-17	doors	14-9_prep_through	got	NNS	P1_door
+14-18	.	O	O	O	O

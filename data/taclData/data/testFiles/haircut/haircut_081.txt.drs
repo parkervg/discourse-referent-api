@@ -1,0 +1,211 @@
+#id=1
+#text=I woke up this morning and decided to go get my haircut . 
+1-1	I	1-2_nsubj	woke	PRP	P1_customer
+1-2	woke	O	O	VBD	O
+1-3	up	1-2_prt	woke	RP	O
+1-4	this	O	O	DT	O
+1-5	morning	1-2_tmod	woke	NN	P1_time/date
+1-6	and	O	O	O	O
+1-7	decided	1-2_conj_and	woke	VBD	O
+1-8	to	1-9_aux	go	TO	O
+1-9	go	1-7_xcomp	decided	VB	O
+1-10	get	1-9_xcomp	go	VB	O
+1-11	my	O	O	PRP$	P2_customer
+1-12	haircut	1-10_dobj	get	NN	P1_haircut
+1-13	.	O	O	O	O
+
+#id=2
+#text=I normally go to a place that calls for a phone call in advance of arriving but this time I decided to go to a different place where I could just walk in . 
+2-1	I	2-3_nsubj	go	PRP	P1_customer
+2-2	normally	2-3_advmod	go	RB	O
+2-3	go	O	O	VBP	O
+2-4	to	O	O	O	O
+2-5	a	O	O	DT	O
+2-6	place	2-3_prep_to	go	NN	P1_salon
+2-7	that	2-8_nsubj	calls	WDT	O
+2-8	calls	O	O	VBZ	O
+2-9	for	O	O	O	O
+2-10	a	O	O	DT	O
+2-11	phone	O	O	NN	O
+2-12	call	2-8_prep_for	calls	NN	P1_NPart_call
+2-13	in	O	O	O	O
+2-14	advance	O	O	NN	P1_NPart_advance
+2-15	of	O	O	O	O
+2-16	arriving	O	O	VBG	O
+2-17	but	O	O	CC	O
+2-18	this	O	O	DT	O
+2-19	time	2-16_dep	arriving	NN	O
+2-20	I	2-21_nsubj	decided	PRP	P1_customer
+2-21	decided	O	O	VBD	O
+2-22	to	2-23_aux	go	TO	O
+2-23	go	2-21_xcomp	decided	VB	O
+2-24	to	O	O	O	O
+2-25	a	O	O	DT	O
+2-26	different	O	O	JJ	O
+2-27	place	2-23_prep_to	go	NN	P1_salon
+2-28	where	2-32_advmod	walk	WRB	O
+2-29	I	2-32_nsubj	walk	PRP	P1_customer
+2-30	could	2-32_aux	walk	MD	O
+2-31	just	2-32_advmod	walk	RB	O
+2-32	walk	2-16_advcl	arriving	VB	O
+2-33	in	2-32_prt	walk	RP	O
+2-34	.	O	O	O	O
+
+#id=3
+#text=When I arrived I had to wait for about 10 minutes before someone could cut my hair , which was alright with me since I did not make an appointment or anything . 
+3-1	When	3-3_advmod	arrived	WRB	O
+3-2	I	3-3_nsubj	arrived	PRP	P1_customer
+3-3	arrived	3-15_advcl	cut	VBD	O
+3-4	I	3-5_nsubj	had	PRP	P1_customer
+3-5	had	3-3_ccomp	arrived	VBD	O
+3-6	to	3-7_aux	wait	TO	O
+3-7	wait	3-5_xcomp	had	VB	O
+3-8	for	O	O	O	O
+3-9	about	O	O	RB	O
+3-10	10	O	O	CD	O
+3-11	minutes	3-7_prep_for	wait	NNS	P2_time/date
+3-12	before	O	O	O	O
+3-13	someone	3-7_prep_before	wait	NN	P1_staff
+3-14	could	3-15_aux	cut	MD	O
+3-15	cut	O	O	VB	O
+3-16	my	O	O	PRP$	P1_customer
+3-17	hair	3-15_dobj	cut	NN	P1_hair
+3-18	,	O	O	O	O
+3-19	which	O	O	WDT	O
+3-20	was	O	O	VBD	O
+3-21	alright	O	O	JJ	O
+3-22	with	O	O	O	O
+3-23	me	O	O	PRP	P1_customer
+3-24	since	3-28_mark	make	IN	O
+3-25	I	3-28_nsubj	make	PRP	P1_customer
+3-26	did	3-28_aux	make	VBD	O
+3-27	not	3-28_neg	make	RB	O
+3-28	make	O	O	VB	O
+3-29	an	O	O	DT	O
+3-30	appointment	3-28_dobj	make	NN	P1_appointment
+3-31	or	O	O	O	O
+3-32	anything	O	O	NN	O
+3-33	.	O	O	O	O
+
+#id=4
+#text=When I got in the chair the lady cutting my hair asked me what kind of haircut I wanted and I told her short hair on the top with a buzz cut on the sides . 
+4-1	When	4-3_advmod	got	WRB	O
+4-2	I	4-3_nsubj	got	PRP	P1_customer
+4-3	got	4-12_advcl	asked	VBD	O
+4-4	in	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	chair	4-3_prep_in	got	NN	P1_chair
+4-7	the	O	O	DT	O
+4-8	lady	4-3_dobj	got	NN	P1_hairdresser
+4-9	cutting	O	O	VBG	O
+4-10	my	O	O	PRP$	P1_customer
+4-11	hair	4-9_dobj	cutting	NN	P1_hair
+4-12	asked	O	O	VBD	O
+4-13	me	4-12_dobj	asked	PRP	P1_customer
+4-14	what	O	O	WP	O
+4-15	kind	4-19_dep	wanted	NN	O
+4-16	of	O	O	O	O
+4-17	haircut	O	O	NN	P1_haircut
+4-18	I	4-19_nsubj	wanted	PRP	P1_customer
+4-19	wanted	4-12_dep	asked	VBD	O
+4-20	and	O	O	O	O
+4-21	I	4-22_nsubj	told	PRP	P1_customer
+4-22	told	4-19_conj_and	wanted	VBD	O
+4-23	her	O	O	PRP$	P1_hairdresser
+4-24	short	O	O	JJ	O
+4-25	hair	4-22_dobj	told	NN	P2_hair
+4-26	on	O	O	O	O
+4-27	the	O	O	DT	O
+4-28	top	4-22_prep_on	told	NN	O
+4-29	with	O	O	O	O
+4-30	a	O	O	DT	O
+4-31	buzz	O	O	JJ	O
+4-32	cut	4-22_prep_with	told	NN	P1_haircut
+4-33	on	O	O	O	O
+4-34	the	O	O	DT	O
+4-35	sides	O	O	NNS	P1_other
+4-36	.	O	O	O	O
+
+#id=5
+#text=She told me that would be a great look for me and I agreed . 
+5-1	She	5-2_nsubj	told	PRP	P1_hairdresser
+5-2	told	O	O	VBD	O
+5-3	me	5-2_dobj	told	PRP	P1_customer
+5-4	that	O	O	IN	O
+5-5	would	O	O	MD	O
+5-6	be	O	O	VB	O
+5-7	a	O	O	DT	O
+5-8	great	O	O	JJ	O
+5-9	look	5-2_ccomp	told	NN	P1_NPart_look
+5-10	for	O	O	O	O
+5-11	me	O	O	PRP	P1_customer
+5-12	and	O	O	O	O
+5-13	I	5-14_nsubj	agreed	PRP	P1_customer
+5-14	agreed	5-2_conj_and	told	VBD	O
+5-15	.	O	O	O	O
+
+#id=6
+#text=During the hair cut I talked to the barber about what I did in life and asked her some questions as well . 
+6-1	During	O	O	O	O
+6-2	the	O	O	DT	O
+6-3	hair	O	O	NN	O
+6-4	cut	6-6_prep_during	talked	NN	P1_haircut
+6-5	I	6-6_nsubj	talked	PRP	P1_customer
+6-6	talked	O	O	VBD	O
+6-7	to	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	barber	6-6_prep_to	talked	NN	P1_hairdresser
+6-10	about	O	O	O	O
+6-11	what	6-13_dobj	did	WP	O
+6-12	I	6-13_nsubj	did	PRP	P1_customer
+6-13	did	6-6_prepc_about	talked	VBD	O
+6-14	in	O	O	O	O
+6-15	life	6-13_prep_in	did	NN	P1_NPart_life
+6-16	and	O	O	O	O
+6-17	asked	6-13_conj_and	did	VBD	O
+6-18	her	6-17_dobj	asked	PRP	P1_hairdresser
+6-19	some	O	O	DT	O
+6-20	questions	6-13_dobj	did	NNS	P1_NPart_questions
+6-21	as	O	O	RB	O
+6-22	well	6-13_advmod	did	RB	O
+6-23	.	O	O	O	O
+
+#id=7
+#text=After about 10 minutes she finished the job . 
+7-1	After	O	O	O	O
+7-2	about	O	O	RB	O
+7-3	10	O	O	CD	O
+7-4	minutes	7-6_prep_after	finished	NNS	P3_time/date
+7-5	she	7-6_nsubj	finished	PRP	P1_hairdresser
+7-6	finished	O	O	VBD	O
+7-7	the	O	O	DT	O
+7-8	job	7-6_dobj	finished	NN	O
+7-9	.	O	O	O	O
+
+#id=8
+#text=I tipped her 5 dollars for her effort and went off satisfied with my haircut . 
+8-1	I	8-2_nsubj	tipped	PRP	P1_customer
+8-2	tipped	O	O	VBD	O
+8-3	her	O	O	PRP$	P1_hairdresser
+8-4	5	O	O	CD	O
+8-5	dollars	8-2_dobj	tipped	NNS	P1_tip
+8-6	for	O	O	O	O
+8-7	her	O	O	PRP$	P1_hairdresser
+8-8	effort	8-2_prep_for	tipped	NN	P1_NPart_effort
+8-9	and	O	O	O	O
+8-10	went	8-2_conj_and	tipped	VBD	O
+8-11	off	8-10_prt	went	RP	O
+8-12	satisfied	8-10_dep	went	VBN	O
+8-13	with	O	O	O	O
+8-14	my	O	O	PRP$	P1_customer
+8-15	haircut	8-12_prep_with	satisfied	NN	P1_haircut
+8-16	.	O	O	O	O
+
+#id=9
+#text=It was a good experience . 
+9-1	It	O	O	PRP	O
+9-2	was	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	good	O	O	JJ	O
+9-5	experience	O	O	NN	P1_NPart_experience
+9-6	.	O	O	O	O

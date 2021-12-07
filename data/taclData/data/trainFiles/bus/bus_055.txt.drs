@@ -1,0 +1,218 @@
+#id=1
+#text=Yesterday , I decided to take a bus to visit my friends at the beach . 
+1-1	Yesterday	1-4_tmod	decided	NN	O
+1-2	,	O	O	O	O
+1-3	I	1-4_nsubj	decided	PRP	P1_passenger
+1-4	decided	O	O	VBD	O
+1-5	to	1-6_aux	take	TO	O
+1-6	take	1-4_xcomp	decided	VB	O
+1-7	a	O	O	DT	O
+1-8	bus	1-6_dobj	take	NN	P1_bus
+1-9	to	1-10_aux	visit	TO	O
+1-10	visit	O	O	VB	O
+1-11	my	O	O	PRP$	P1_passenger
+1-12	friends	1-10_dobj	visit	NNS	P1_NPart_friends
+1-13	at	O	O	O	O
+1-14	the	O	O	DT	O
+1-15	beach	1-10_prep_at	visit	NN	P1_NPart_beach
+1-16	.	O	O	O	O
+
+#id=2
+#text=I checked the bus schedule on my computer . 
+2-1	I	2-2_nsubj	checked	PRP	P1_passenger
+2-2	checked	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	bus	O	O	NN	O
+2-5	schedule	2-2_dobj	checked	NN	P1_time-table
+2-6	on	O	O	O	O
+2-7	my	O	O	PRP$	P1_passenger
+2-8	computer	2-2_prep_on	checked	NN	P1_NPart_computer
+2-9	.	O	O	O	O
+
+#id=3
+#text=Around the time the bus would be in the area , I walked from my house to the bus stop . 
+3-1	Around	O	O	O	O
+3-2	the	O	O	DT	O
+3-3	time	3-7_prep_around	be	NN	P1_time/date
+3-4	the	O	O	DT	O
+3-5	bus	3-7_nsubj	be	NN	P1_bus
+3-6	would	3-7_aux	be	MD	O
+3-7	be	3-13_ccomp	walked	VB	O
+3-8	in	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	area	3-7_prep_in	be	NN	P1_NPart_area
+3-11	,	O	O	O	O
+3-12	I	3-13_nsubj	walked	PRP	P1_passenger
+3-13	walked	O	O	VBD	O
+3-14	from	O	O	O	O
+3-15	my	O	O	PRP$	P1_passenger
+3-16	house	3-13_prep_from	walked	NN	P1_NPart_house
+3-17	to	O	O	O	O
+3-18	the	O	O	DT	O
+3-19	bus	O	O	NN	O
+3-20	stop	3-13_prep_to	walked	NN	P1_bus_stop
+3-21	.	O	O	O	O
+
+#id=4
+#text=I wanted with other riders for the bus to arrive . 
+4-1	I	4-2_nsubj	wanted	PRP	P1_passenger
+4-2	wanted	O	O	VBD	O
+4-3	with	O	O	O	O
+4-4	other	O	O	JJ	O
+4-5	riders	4-2_prep_with	wanted	NNS	P2_passenger
+4-6	for	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	bus	O	O	NN	P1_bus
+4-9	to	4-10_aux	arrive	TO	O
+4-10	arrive	4-2_xcomp	wanted	VB	O
+4-11	.	O	O	O	O
+
+#id=5
+#text=When it did , I boarded the bus and paid for my ride with coins . 
+5-1	When	5-3_advmod	did	WRB	O
+5-2	it	5-3_nsubj	did	PRP	P1_bus
+5-3	did	5-6_advcl	boarded	VBD	O
+5-4	,	O	O	O	O
+5-5	I	5-6_nsubj	boarded	PRP	P1_passenger
+5-6	boarded	O	O	VBD	O
+5-7	the	O	O	DT	O
+5-8	bus	5-6_dobj	boarded	NN	P1_bus
+5-9	and	O	O	O	O
+5-10	paid	5-6_conj_and	boarded	VBD	O
+5-11	for	O	O	O	O
+5-12	my	O	O	PRP$	P1_passenger
+5-13	ride	5-10_prep_for	paid	NN	P1_ride
+5-14	with	O	O	O	O
+5-15	coins	5-10_prep_with	paid	NNS	P1_money
+5-16	.	O	O	O	O
+
+#id=6
+#text=I then took the first available seat towards the front of the bus . 
+6-1	I	6-3_nsubj	took	PRP	P1_passenger
+6-2	then	6-3_advmod	took	RB	O
+6-3	took	O	O	VBD	O
+6-4	the	O	O	DT	O
+6-5	first	O	O	JJ	O
+6-6	available	O	O	JJ	O
+6-7	seat	6-3_dobj	took	NN	P1_seat_in_bus
+6-8	towards	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	front	6-3_prep_towards	took	NN	P1_NPart_front
+6-11	of	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	bus	O	O	NN	P1_bus
+6-14	.	O	O	O	O
+
+#id=7
+#text=There was a older lady seated next to me and we had a nice conversation . 
+7-1	There	7-2_expl	was	EX	O
+7-2	was	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	older	O	O	JJR	O
+7-5	lady	7-2_nsubj	was	NN	P3_passenger
+7-6	seated	O	O	VBN	O
+7-7	next	O	O	O	O
+7-8	to	O	O	O	O
+7-9	me	7-6_prep_next_to	seated	PRP	P1_passenger
+7-10	and	O	O	O	O
+7-11	we	7-12_nsubj	had	PRP	P4_passenger
+7-12	had	7-2_conj_and	was	VBD	O
+7-13	a	O	O	DT	O
+7-14	nice	O	O	JJ	O
+7-15	conversation	7-12_dobj	had	NN	P1_in-bus_entertainment
+7-16	.	O	O	O	O
+
+#id=8
+#text=The bus stopped at various locations and people got on and off . 
+8-1	The	O	O	DT	O
+8-2	bus	8-9_nsubj	got	NN	P1_bus
+8-3	stopped	O	O	VBN	O
+8-4	at	O	O	O	O
+8-5	various	O	O	JJ	O
+8-6	locations	8-3_prep_at	stopped	NNS	P2_bus_stop
+8-7	and	O	O	O	O
+8-8	people	O	O	NNS	P5_passenger
+8-9	got	O	O	VBD	O
+8-10	on	8-9_prt	got	RP	O
+8-11	and	O	O	CC	O
+8-12	off	O	O	RP	O
+8-13	.	O	O	O	O
+
+#id=9
+#text=When a pregnant woman got on the bus , I stood up and let her have my seat . 
+9-1	When	9-5_advmod	got	WRB	O
+9-2	a	O	O	DT	O
+9-3	pregnant	O	O	JJ	O
+9-4	woman	9-5_nsubj	got	NN	P6_passenger
+9-5	got	9-11_advcl	stood	VBD	O
+9-6	on	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	bus	9-5_prep_on	got	NN	P1_bus
+9-9	,	O	O	O	O
+9-10	I	9-11_nsubj	stood	PRP	P1_passenger
+9-11	stood	O	O	VBD	O
+9-12	up	9-11_prt	stood	RP	O
+9-13	and	O	O	O	O
+9-14	let	9-11_conj_and	stood	VBD	O
+9-15	her	9-16_nsubj	have	PRP	P6_passenger
+9-16	have	9-14_ccomp	let	VBP	O
+9-17	my	O	O	PRP$	P1_passenger
+9-18	seat	9-16_dobj	have	NN	P1_seat_in_bus
+9-19	.	O	O	O	O
+
+#id=10
+#text=I then stood and held the pole in the middle of the bus to keep stable as the bus lurched during it 's starts and stops . 
+10-1	I	10-3_nsubj	stood	PRP	P1_passenger
+10-2	then	10-3_advmod	stood	RB	O
+10-3	stood	O	O	VBD	O
+10-4	and	O	O	O	O
+10-5	held	10-3_conj_and	stood	VBD	O
+10-6	the	O	O	DT	O
+10-7	pole	10-3_dobj	stood	NN	P1_rail
+10-8	in	O	O	O	O
+10-9	the	O	O	DT	O
+10-10	middle	10-3_prep_in	stood	NN	P1_NPart_middle
+10-11	of	O	O	O	O
+10-12	the	O	O	DT	O
+10-13	bus	O	O	NN	P1_bus
+10-14	to	10-15_aux	keep	TO	O
+10-15	keep	O	O	VB	O
+10-16	stable	10-15_acomp	keep	JJ	O
+10-17	as	10-20_mark	lurched	IN	O
+10-18	the	O	O	DT	O
+10-19	bus	10-20_nsubj	lurched	NN	P1_bus
+10-20	lurched	10-15_advcl	keep	VBD	O
+10-21	during	O	O	O	O
+10-22	it	O	O	PRP	P1_bus
+10-23	's	O	O	O	O
+10-24	starts	10-20_prep_during	lurched	NNS	P1_NPart_starts
+10-25	and	O	O	O	O
+10-26	stops	10-3_conj_and	stood	VBZ	P1_NPart_stops
+10-27	.	O	O	O	O
+
+#id=11
+#text=Before long , the bus arrived at the bus stop closest to the beach and I exited the bus to meet my friends . 
+11-1	Before	11-6_advmod	arrived	IN	O
+11-2	long	O	O	RB	O
+11-3	,	O	O	O	O
+11-4	the	O	O	DT	O
+11-5	bus	11-6_nsubj	arrived	NN	P1_bus
+11-6	arrived	O	O	VBD	O
+11-7	at	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	bus	O	O	NN	O
+11-10	stop	11-6_prep_at	arrived	NN	P3_bus_stop
+11-11	closest	O	O	JJS	O
+11-12	to	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	beach	O	O	NN	P1_destination
+11-15	and	O	O	O	O
+11-16	I	11-17_nsubj	exited	PRP	P1_passenger
+11-17	exited	11-6_conj_and	arrived	VBD	O
+11-18	the	O	O	DT	O
+11-19	bus	11-17_dobj	exited	NN	P1_bus
+11-20	to	11-21_aux	meet	TO	O
+11-21	meet	O	O	VB	O
+11-22	my	O	O	PRP$	P1_passenger
+11-23	friends	11-21_dobj	meet	NNS	P2_NPart_friends
+11-24	.	O	O	O	O

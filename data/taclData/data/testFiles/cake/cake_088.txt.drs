@@ -1,0 +1,217 @@
+#id=1
+#text=Yesterday I found a great recipe for a chocolate cake with peanut butter swirls . 
+1-1	Yesterday	1-3_tmod	found	NN	O
+1-2	I	1-3_nsubj	found	PRP	P1_cook
+1-3	found	O	O	VBD	O
+1-4	a	O	O	DT	O
+1-5	great	O	O	JJ	O
+1-6	recipe	1-3_dobj	found	NN	P1_baking_instructions
+1-7	for	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	chocolate	O	O	NN	O
+1-10	cake	1-3_prep_for	found	NN	P1_cake
+1-11	with	O	O	O	O
+1-12	peanut	O	O	NN	O
+1-13	butter	O	O	NN	P1_ingredients
+1-14	swirls	1-3_prep_with	found	NNS	P1_other
+1-15	.	O	O	O	O
+
+#id=2
+#text=I went to the store to buy all the ingredients . 
+2-1	I	2-2_nsubj	went	PRP	P1_cook
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	store	2-2_prep_to	went	NN	P1_store
+2-6	to	2-7_aux	buy	TO	O
+2-7	buy	2-2_xcomp	went	VB	O
+2-8	all	O	O	PDT	O
+2-9	the	O	O	DT	O
+2-10	ingredients	2-7_dobj	buy	NNS	P2_ingredients
+2-11	.	O	O	O	O
+
+#id=3
+#text=I had to get eggs , sugar , milk and peanut butter . 
+3-1	I	3-2_nsubj	had	PRP	P1_cook
+3-2	had	O	O	VBD	O
+3-3	to	3-4_aux	get	TO	O
+3-4	get	3-2_xcomp	had	VB	O
+3-5	eggs	O	O	NNS	P3_ingredients
+3-6	,	O	O	O	O
+3-7	sugar	O	O	NN	P4_ingredients
+3-8	,	O	O	O	O
+3-9	milk	O	O	NN	P5_ingredients
+3-10	and	O	O	O	O
+3-11	peanut	O	O	NN	O
+3-12	butter	3-4_dobj	get	NN	P1_ingredients
+3-13	.	O	O	O	O
+
+#id=4
+#text=I got out a big mixing bowl and mixed all the ingredients up with a big wooden spoon . 
+4-1	I	4-2_nsubj	got	PRP	P1_cook
+4-2	got	O	O	VBD	O
+4-3	out	4-2_prt	got	RP	O
+4-4	a	O	O	DT	O
+4-5	big	O	O	JJ	O
+4-6	mixing	O	O	JJ	O
+4-7	bowl	4-2_dobj	got	NN	P1_utensil
+4-8	and	O	O	O	O
+4-9	mixed	4-2_conj_and	got	VBN	O
+4-10	all	O	O	PDT	O
+4-11	the	O	O	DT	O
+4-12	ingredients	4-9_dobj	mixed	NNS	P6_ingredients
+4-13	up	4-9_prt	mixed	RP	O
+4-14	with	O	O	O	O
+4-15	a	O	O	DT	O
+4-16	big	O	O	JJ	O
+4-17	wooden	O	O	JJ	O
+4-18	spoon	4-9_prep_with	mixed	NN	P2_utensil
+4-19	.	O	O	O	O
+
+#id=5
+#text=I preheated the oven while I was mixing everything together . 
+5-1	I	5-2_nsubj	preheated	PRP	P1_cook
+5-2	preheated	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	oven	5-2_dobj	preheated	NN	P1_oven
+5-5	while	5-8_mark	mixing	IN	O
+5-6	I	5-8_nsubj	mixing	PRP	P1_cook
+5-7	was	5-8_aux	mixing	VBD	O
+5-8	mixing	5-2_advcl	preheated	VBG	O
+5-9	everything	5-8_dobj	mixing	NN	P6_ingredients
+5-10	together	5-8_advmod	mixing	RB	O
+5-11	.	O	O	O	O
+
+#id=6
+#text=I had to wait a few minutes for the oven to be ready for the concoction sitting on my counter . 
+6-1	I	6-2_nsubj	had	PRP	P1_cook
+6-2	had	O	O	VBD	O
+6-3	to	6-4_aux	wait	TO	O
+6-4	wait	6-2_xcomp	had	VB	O
+6-5	a	O	O	DT	O
+6-6	few	O	O	JJ	O
+6-7	minutes	6-4_dobj	wait	NNS	P1_time
+6-8	for	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	oven	O	O	NN	P1_oven
+6-11	to	O	O	TO	O
+6-12	be	O	O	VB	O
+6-13	ready	6-2_xcomp	had	JJ	O
+6-14	for	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	concoction	O	O	NN	P1_dough
+6-17	sitting	O	O	VBG	O
+6-18	on	O	O	O	O
+6-19	my	O	O	PRP$	P1_cook
+6-20	counter	6-17_prep_on	sitting	NN	P2_other
+6-21	.	O	O	O	O
+
+#id=7
+#text=I poured the batter into a cake pan and licked the spoon . 
+7-1	I	7-2_nsubj	poured	PRP	P1_cook
+7-2	poured	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	batter	7-2_dobj	poured	NN	P1_dough
+7-5	into	O	O	O	O
+7-6	a	O	O	DT	O
+7-7	cake	O	O	NN	O
+7-8	pan	7-2_prep_into	poured	NN	P1_cake_tin
+7-9	and	O	O	O	O
+7-10	licked	7-2_conj_and	poured	VBD	O
+7-11	the	O	O	DT	O
+7-12	spoon	7-10_dobj	licked	NN	P3_utensil
+7-13	.	O	O	O	O
+
+#id=8
+#text=I put the pan into the oven and waited 25 minutes . 
+8-1	I	8-2_nsubj	put	PRP	P1_cook
+8-2	put	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	pan	8-2_dobj	put	NN	P1_cake_tin
+8-5	into	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	oven	8-2_prep_into	put	NN	P1_oven
+8-8	and	O	O	O	O
+8-9	waited	8-2_conj_and	put	VBD	O
+8-10	25	O	O	CD	O
+8-11	minutes	8-9_dobj	waited	NNS	P2_time
+8-12	.	O	O	O	O
+
+#id=9
+#text=It smelled incredible while it was baking . 
+9-1	It	9-2_nsubj	smelled	PRP	P1_cake
+9-2	smelled	O	O	VBD	O
+9-3	incredible	9-2_acomp	smelled	JJ	O
+9-4	while	9-7_mark	baking	IN	O
+9-5	it	9-7_nsubj	baking	PRP	P1_cake
+9-6	was	9-7_aux	baking	VBD	O
+9-7	baking	9-2_advcl	smelled	VBG	O
+9-8	.	O	O	O	O
+
+#id=10
+#text=I tested the moisture of the cake by sticking a toothpick into the middle . 
+10-1	I	10-2_nsubj	tested	PRP	P1_cook
+10-2	tested	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	moisture	10-2_dobj	tested	NN	P1_NPart_moisture
+10-5	of	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	cake	O	O	NN	P1_cake
+10-8	by	O	O	O	O
+10-9	sticking	10-2_prepc_by	tested	VBG	O
+10-10	a	O	O	DT	O
+10-11	toothpick	10-9_dobj	sticking	NN	P4_utensil
+10-12	into	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	middle	10-9_prep_into	sticking	NN	P1_NPart_middle
+10-15	.	O	O	O	O
+
+#id=11
+#text=It was perfect . 
+11-1	It	O	O	PRP	P1_cake
+11-2	was	O	O	VBD	O
+11-3	perfect	O	O	JJ	O
+11-4	.	O	O	O	O
+
+#id=12
+#text=I let the cake cool for 30 minutes and then cut it into pieces . 
+12-1	I	12-2_nsubj	let	PRP	P1_cook
+12-2	let	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	cake	O	O	NN	P1_cake
+12-5	cool	12-2_dobj	let	NN	O
+12-6	for	O	O	O	O
+12-7	30	O	O	CD	O
+12-8	minutes	12-2_prep_for	let	NNS	P3_time
+12-9	and	O	O	O	O
+12-10	then	12-11_advmod	cut	RB	O
+12-11	cut	12-2_conj_and	let	VBD	O
+12-12	it	12-11_dobj	cut	PRP	P1_cake
+12-13	into	O	O	O	O
+12-14	pieces	12-11_prep_into	cut	NNS	O
+12-15	.	O	O	O	O
+
+#id=13
+#text=I shared it with my family and we all agreed it was one of the tastiest cakes we 've ever eaten . 
+13-1	I	13-2_nsubj	shared	PRP	P1_cook
+13-2	shared	O	O	VBD	O
+13-3	it	13-2_dobj	shared	PRP	P1_cake
+13-4	with	O	O	O	O
+13-5	my	O	O	PRP$	P1_cook
+13-6	family	13-2_prep_with	shared	NN	P1_beneficiary
+13-7	and	O	O	O	O
+13-8	we	13-10_nsubj	agreed	PRP	P2_beneficiary
+13-9	all	13-10_advmod	agreed	DT	O
+13-10	agreed	13-2_conj_and	shared	VBD	O
+13-11	it	O	O	PRP	P1_cake
+13-12	was	O	O	VBD	O
+13-13	one	13-10_ccomp	agreed	CD	O
+13-14	of	O	O	O	O
+13-15	the	O	O	DT	O
+13-16	tastiest	O	O	JJ	O
+13-17	cakes	O	O	NNS	P1_cake
+13-18	we	13-21_nsubj	eaten	PRP	P3_beneficiary
+13-19	've	13-21_aux	eaten	VBP	O
+13-20	ever	13-21_advmod	eaten	RB	O
+13-21	eaten	O	O	VBN	O
+13-22	.	O	O	O	O

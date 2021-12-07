@@ -1,0 +1,214 @@
+#id=1
+#text=My husband and I love trees . 
+1-1	My	O	O	PRP$	O
+1-2	husband	1-5_nsubj	love	NN	O
+1-3	and	O	O	O	O
+1-4	I	O	O	PRP	P1_gardener
+1-5	love	O	O	VBP	O
+1-6	trees	1-5_dobj	love	NNS	P1_tree
+1-7	.	O	O	O	O
+
+#id=2
+#text=In the spring we bought some trees from a catalog and planted them in May . 
+2-1	In	O	O	O	O
+2-2	the	O	O	DT	O
+2-3	spring	2-5_prep_in	bought	NN	P1_time
+2-4	we	2-5_nsubj	bought	PRP	P1_gardener
+2-5	bought	O	O	VBD	O
+2-6	some	O	O	DT	O
+2-7	trees	2-5_dobj	bought	NNS	P1_tree
+2-8	from	O	O	O	O
+2-9	a	O	O	DT	O
+2-10	catalog	2-5_prep_from	bought	NN	P1_NPart_catalog
+2-11	and	O	O	O	O
+2-12	planted	2-5_conj_and	bought	VBD	O
+2-13	them	2-12_dobj	planted	PRP	P1_tree
+2-14	in	O	O	O	O
+2-15	May	2-12_prep_in	planted	NNP	P1_time
+2-16	.	O	O	O	O
+
+#id=3
+#text=It was a nice warm day and the sun was shining . 
+3-1	It	O	O	PRP	O
+3-2	was	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	nice	O	O	JJ	O
+3-5	warm	O	O	JJ	O
+3-6	day	O	O	NN	P1_NPart_day
+3-7	and	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	sun	3-11_nsubj	shining	NN	P1_NPart_sun
+3-10	was	3-11_aux	shining	VBD	O
+3-11	shining	O	O	VBG	O
+3-12	.	O	O	O	O
+
+#id=4
+#text=It was n't too hot because there was a cool breeze . 
+4-1	It	O	O	PRP	O
+4-2	was	O	O	VBD	O
+4-3	n't	O	O	RB	O
+4-4	too	O	O	RB	O
+4-5	hot	O	O	JJ	O
+4-6	because	4-8_mark	was	IN	O
+4-7	there	4-8_expl	was	EX	O
+4-8	was	O	O	VBD	O
+4-9	a	O	O	DT	O
+4-10	cool	O	O	JJ	O
+4-11	breeze	4-8_nsubj	was	NN	P1_NPart_breeze
+4-12	.	O	O	O	O
+
+#id=5
+#text=We went out to the back garden with shovels and trowels , gardening gloves and the hose . 
+5-1	We	5-2_nsubj	went	PRP	P1_gardener
+5-2	went	O	O	VBD	O
+5-3	out	5-2_prt	went	RP	O
+5-4	to	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	back	O	O	JJ	O
+5-7	garden	5-2_prep_to	went	NN	P1_location_garden
+5-8	with	O	O	O	O
+5-9	shovels	5-2_prep_with	went	NNS	P1_gardening_tool
+5-10	and	O	O	O	O
+5-11	trowels	O	O	NNS	P2_gardening_tool
+5-12	,	O	O	O	O
+5-13	gardening	O	O	VBG	O
+5-14	gloves	O	O	NNS	P3_gardening_tool
+5-15	and	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	hose	O	O	NN	P4_gardening_tool
+5-18	.	O	O	O	O
+
+#id=6
+#text=We each dug a hole . 
+6-1	We	6-3_nsubj	dug	PRP	P1_gardener
+6-2	each	6-3_dep	dug	DT	O
+6-3	dug	O	O	VBD	O
+6-4	a	O	O	DT	O
+6-5	hole	6-3_dobj	dug	NN	P1_hole
+6-6	.	O	O	O	O
+
+#id=7
+#text=Mine was for the white birch I had picked out , and my husband 's was for a hazel tree he had picked out . 
+7-1	Mine	7-2_nsubj	was	PRP	P1_hole
+7-2	was	O	O	VBD	O
+7-3	for	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	white	O	O	JJ	O
+7-6	birch	7-2_prep_for	was	NN	P2_tree
+7-7	I	7-9_nsubj	picked	PRP	P1_gardener
+7-8	had	7-9_aux	picked	VBD	O
+7-9	picked	O	O	VBN	O
+7-10	out	7-9_prt	picked	RP	O
+7-11	,	O	O	O	O
+7-12	and	O	O	O	O
+7-13	my	O	O	PRP$	P1_gardener
+7-14	husband	7-16_nsubjpass	was	NN	O
+7-15	's	7-16_auxpass	was	VBZ	P1_hole
+7-16	was	7-2_conj_and	was	VBD	O
+7-17	for	O	O	O	O
+7-18	a	O	O	DT	O
+7-19	hazel	O	O	NN	O
+7-20	tree	7-16_prep_for	was	NN	P3_tree
+7-21	he	7-23_nsubj	picked	PRP	P1_gardener
+7-22	had	7-23_aux	picked	VBD	O
+7-23	picked	O	O	VBN	O
+7-24	out	7-23_prt	picked	RP	O
+7-25	.	O	O	O	O
+
+#id=8
+#text=We laughed and talked as we worked , and the digging went quickly . 
+8-1	We	8-2_nsubj	laughed	PRP	P1_gardener
+8-2	laughed	O	O	VBD	O
+8-3	and	O	O	O	O
+8-4	talked	8-2_conj_and	laughed	VBD	O
+8-5	as	8-7_mark	worked	IN	O
+8-6	we	8-7_nsubj	worked	PRP	P1_gardener
+8-7	worked	8-4_advcl	talked	VBD	O
+8-8	,	O	O	O	O
+8-9	and	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	digging	8-12_nsubj	went	NN	O
+8-12	went	8-2_conj_and	laughed	VBD	O
+8-13	quickly	8-12_advmod	went	RB	O
+8-14	.	O	O	O	O
+
+#id=9
+#text=The soil was also not too stony , which helped us greatly . 
+9-1	The	O	O	DT	O
+9-2	soil	O	O	NN	P1_dirt
+9-3	was	O	O	VBD	O
+9-4	also	O	O	RB	O
+9-5	not	O	O	RB	O
+9-6	too	O	O	RB	O
+9-7	stony	O	O	JJ	O
+9-8	,	O	O	O	O
+9-9	which	9-10_nsubj	helped	WDT	O
+9-10	helped	O	O	VBD	O
+9-11	us	9-10_dobj	helped	PRP	P1_gardener
+9-12	greatly	9-10_advmod	helped	RB	O
+9-13	.	O	O	O	O
+
+#id=10
+#text=Soon we had our trees in the holes , and held them upright as we scooped the dirt back into the holes with our trowels . 
+10-1	Soon	10-3_advmod	had	RB	O
+10-2	we	10-3_nsubj	had	PRP	P1_gardener
+10-3	had	O	O	VBD	O
+10-4	our	O	O	PRP$	P1_gardener
+10-5	trees	10-3_dobj	had	NNS	P1_tree
+10-6	in	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	holes	10-3_prep_in	had	NNS	P1_hole
+10-9	,	O	O	O	O
+10-10	and	O	O	O	O
+10-11	held	10-3_conj_and	had	VBD	O
+10-12	them	10-13_nsubj	upright	PRP	P1_tree
+10-13	upright	10-11_ccomp	held	VBP	O
+10-14	as	10-16_mark	scooped	IN	O
+10-15	we	10-16_nsubj	scooped	PRP	P1_gardener
+10-16	scooped	10-13_advcl	upright	VBD	O
+10-17	the	O	O	DT	O
+10-18	dirt	10-16_dobj	scooped	NN	P1_dirt
+10-19	back	10-16_advmod	scooped	RB	O
+10-20	into	O	O	O	O
+10-21	the	O	O	DT	O
+10-22	holes	10-16_prep_into	scooped	NNS	P1_hole
+10-23	with	O	O	O	O
+10-24	our	O	O	PRP$	P1_gardener
+10-25	trowels	10-16_prep_with	scooped	NNS	P2_gardening_tool
+10-26	.	O	O	O	O
+
+#id=11
+#text=We patted the dirt down , made sure the trees were upright , and gave them some water to grow on . 
+11-1	We	11-2_nsubj	patted	PRP	P1_gardener
+11-2	patted	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	dirt	11-2_dobj	patted	NN	P1_dirt
+11-5	down	11-2_prt	patted	RP	O
+11-6	,	O	O	O	O
+11-7	made	11-2_conj_and	patted	VBD	O
+11-8	sure	11-7_acomp	made	JJ	O
+11-9	the	O	O	DT	O
+11-10	trees	O	O	NNS	P1_tree
+11-11	were	O	O	VBD	O
+11-12	upright	O	O	JJ	O
+11-13	,	O	O	O	O
+11-14	and	O	O	O	O
+11-15	gave	11-2_conj_and	patted	VBD	O
+11-16	them	11-15_iobj	gave	PRP	P1_tree
+11-17	some	O	O	DT	O
+11-18	water	11-15_dobj	gave	NN	P1_water
+11-19	to	11-20_aux	grow	TO	O
+11-20	grow	11-15_vmod	gave	VB	O
+11-21	on	11-20_prt	grow	RP	O
+11-22	.	O	O	O	O
+
+#id=12
+#text=Soon we would have two beautiful trees . 
+12-1	Soon	12-4_advmod	have	RB	O
+12-2	we	12-4_nsubj	have	PRP	P1_gardener
+12-3	would	12-4_aux	have	MD	O
+12-4	have	O	O	VB	O
+12-5	two	O	O	CD	O
+12-6	beautiful	O	O	JJ	O
+12-7	trees	12-4_dobj	have	NNS	P1_tree
+12-8	.	O	O	O	O

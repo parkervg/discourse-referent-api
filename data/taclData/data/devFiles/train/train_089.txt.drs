@@ -1,0 +1,211 @@
+#id=1
+#text=After eating breakfast this morning I noticed that it was time for me to get off to work so I decided to walk down to the train station so I could be off to work . 
+1-1	After	O	O	O	O
+1-2	eating	1-7_prepc_after	noticed	VBG	O
+1-3	breakfast	1-2_dobj	eating	NN	P1_NPart_breakfast
+1-4	this	O	O	DT	O
+1-5	morning	1-2_tmod	eating	NN	P1_time_date
+1-6	I	1-7_nsubj	noticed	PRP	P1_passenger
+1-7	noticed	O	O	VBD	O
+1-8	that	O	O	IN	O
+1-9	it	O	O	PRP	O
+1-10	was	O	O	VBD	O
+1-11	time	1-7_ccomp	noticed	NN	P2_time_date
+1-12	for	O	O	O	O
+1-13	me	O	O	PRP	P1_passenger
+1-14	to	1-15_aux	get	TO	O
+1-15	get	O	O	VB	O
+1-16	off	1-15_prt	get	RP	O
+1-17	to	1-18_aux	work	TO	O
+1-18	work	1-15_xcomp	get	VB	P1_destination
+1-19	so	1-21_mark	decided	IN	O
+1-20	I	1-21_nsubj	decided	PRP	P1_passenger
+1-21	decided	1-18_advcl	work	VBD	O
+1-22	to	1-23_aux	walk	TO	O
+1-23	walk	1-21_xcomp	decided	VB	O
+1-24	down	1-23_prt	walk	RP	O
+1-25	to	O	O	O	O
+1-26	the	O	O	DT	O
+1-27	train	O	O	NN	O
+1-28	station	1-23_prep_to	walk	NN	P1_train_station
+1-29	so	O	O	IN	O
+1-30	I	O	O	PRP	P1_passenger
+1-31	could	O	O	MD	O
+1-32	be	O	O	VB	O
+1-33	off	1-23_advcl	walk	IN	O
+1-34	to	1-35_aux	work	TO	O
+1-35	work	O	O	VB	P1_destination
+1-36	.	O	O	O	O
+
+#id=2
+#text=I always take the same train to work every day and I usually see a lot the same faces when I ride the train . 
+2-1	I	2-3_nsubj	take	PRP	P1_passenger
+2-2	always	2-3_advmod	take	RB	O
+2-3	take	O	O	VB	O
+2-4	the	O	O	DT	O
+2-5	same	O	O	JJ	O
+2-6	train	2-3_dobj	take	NN	P1_train
+2-7	to	2-8_aux	work	TO	O
+2-8	work	O	O	VB	P1_destination
+2-9	every	O	O	DT	O
+2-10	day	2-8_tmod	work	NN	P3_time_date
+2-11	and	O	O	O	O
+2-12	I	2-14_nsubj	see	PRP	P1_passenger
+2-13	usually	2-14_advmod	see	RB	O
+2-14	see	2-3_conj_and	take	VB	O
+2-15	a	O	O	DT	O
+2-16	lot	2-14_dobj	see	NN	O
+2-17	the	O	O	DT	O
+2-18	same	2-19_nsubj	faces	JJ	O
+2-19	faces	O	O	VBZ	P2_passenger
+2-20	when	2-22_advmod	ride	WRB	O
+2-21	I	2-22_nsubj	ride	PRP	P1_passenger
+2-22	ride	2-19_advcl	faces	VBP	O
+2-23	the	O	O	DT	O
+2-24	train	2-22_dobj	ride	NN	P1_train
+2-25	.	O	O	O	O
+
+#id=3
+#text=I bought a ticket at the front and waited for the train to arrive . 
+3-1	I	3-2_nsubj	bought	PRP	P1_passenger
+3-2	bought	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	ticket	3-2_dobj	bought	NN	P1_card/ticket
+3-5	at	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	front	3-2_prep_at	bought	NN	P1_ticket_office/website
+3-8	and	O	O	O	O
+3-9	waited	3-2_conj_and	bought	VBD	O
+3-10	for	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	train	3-9_prep_for	waited	NN	P1_train
+3-13	to	3-14_aux	arrive	TO	O
+3-14	arrive	3-9_xcomp	waited	VB	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=Once the train arrived I boarded the train and took a seat . 
+4-1	Once	4-4_mark	arrived	IN	O
+4-2	the	O	O	DT	O
+4-3	train	4-4_nsubj	arrived	NN	P1_train
+4-4	arrived	4-6_advcl	boarded	VBD	O
+4-5	I	4-6_nsubj	boarded	PRP	P1_passenger
+4-6	boarded	O	O	VBD	O
+4-7	the	O	O	DT	O
+4-8	train	4-6_dobj	boarded	NN	P1_train
+4-9	and	O	O	O	O
+4-10	took	4-6_conj_and	boarded	VBD	O
+4-11	a	O	O	DT	O
+4-12	seat	4-10_dobj	took	NN	P1_seat
+4-13	.	O	O	O	O
+
+#id=5
+#text=I had to go 6 stops before I would arrive to work so I took out my phone and decided to send out some emails . 
+5-1	I	5-2_nsubj	had	PRP	P1_passenger
+5-2	had	O	O	VBD	O
+5-3	to	5-4_aux	go	TO	O
+5-4	go	5-2_xcomp	had	VB	O
+5-5	6	O	O	CD	O
+5-6	stops	5-4_dobj	go	NNS	P2_train_station
+5-7	before	5-10_mark	arrive	IN	O
+5-8	I	5-10_nsubj	arrive	PRP	P1_passenger
+5-9	would	5-10_aux	arrive	MD	O
+5-10	arrive	5-4_advcl	go	VB	O
+5-11	to	5-12_aux	work	TO	O
+5-12	work	5-10_xcomp	arrive	VB	P1_destination
+5-13	so	5-15_mark	took	IN	O
+5-14	I	5-15_nsubj	took	PRP	P1_passenger
+5-15	took	5-12_advcl	work	VBD	O
+5-16	out	5-15_prt	took	RP	O
+5-17	my	O	O	PRP$	P1_passenger
+5-18	phone	5-15_dobj	took	NN	P1_personal_belongings
+5-19	and	O	O	O	O
+5-20	decided	5-15_conj_and	took	VBD	O
+5-21	to	5-22_aux	send	TO	O
+5-22	send	5-20_xcomp	decided	VB	O
+5-23	out	5-22_prt	send	RP	O
+5-24	some	O	O	DT	O
+5-25	emails	5-22_dobj	send	NNS	P1_NPart_emails
+5-26	.	O	O	O	O
+
+#id=6
+#text=After the first few stops the train started to get quite crowded so I decided to stand and give my seat up to an elderly gentleman . 
+6-1	After	O	O	O	O
+6-2	the	O	O	DT	O
+6-3	first	O	O	JJ	O
+6-4	few	O	O	JJ	O
+6-5	stops	6-8_prep_after	started	NNS	P3_train_station
+6-6	the	O	O	DT	O
+6-7	train	6-8_nsubj	started	NN	P1_train
+6-8	started	O	O	VBD	O
+6-9	to	O	O	TO	O
+6-10	get	O	O	VB	O
+6-11	quite	O	O	RB	O
+6-12	crowded	6-8_xcomp	started	JJ	O
+6-13	so	6-15_mark	decided	IN	O
+6-14	I	6-15_nsubj	decided	PRP	P1_passenger
+6-15	decided	O	O	VBD	O
+6-16	to	6-17_aux	stand	TO	O
+6-17	stand	6-15_xcomp	decided	VB	O
+6-18	and	O	O	O	O
+6-19	give	6-17_conj_and	stand	VB	O
+6-20	my	O	O	PRP$	P1_passenger
+6-21	seat	6-17_dobj	stand	NN	P1_seat
+6-22	up	6-17_advmod	stand	RB	O
+6-23	to	O	O	O	O
+6-24	an	O	O	DT	O
+6-25	elderly	O	O	JJ	O
+6-26	gentleman	O	O	NN	P3_passenger
+6-27	.	O	O	O	O
+
+#id=7
+#text=He was thankful for the seat and I was happy to do him the favor . 
+7-1	He	O	O	PRP	P3_passenger
+7-2	was	O	O	VBD	O
+7-3	thankful	O	O	JJ	O
+7-4	for	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	seat	O	O	NN	P1_seat
+7-7	and	O	O	O	O
+7-8	I	O	O	PRP	P1_passenger
+7-9	was	O	O	VBD	O
+7-10	happy	O	O	JJ	O
+7-11	to	7-12_aux	do	TO	O
+7-12	do	O	O	VB	O
+7-13	him	O	O	PRP	P3_passenger
+7-14	the	O	O	DT	O
+7-15	favor	7-12_xcomp	do	NN	O
+7-16	.	O	O	O	O
+
+#id=8
+#text=The train then arrived at my stop and I got off to make my way to work . 
+8-1	The	O	O	DT	O
+8-2	train	8-4_nsubj	arrived	NN	P1_train
+8-3	then	8-4_advmod	arrived	RB	O
+8-4	arrived	O	O	VBD	O
+8-5	at	O	O	O	O
+8-6	my	O	O	PRP$	P1_passenger
+8-7	stop	8-4_prep_at	arrived	NN	P4_train_station
+8-8	and	O	O	O	O
+8-9	I	8-10_nsubj	got	PRP	P1_passenger
+8-10	got	8-4_conj_and	arrived	VBD	O
+8-11	off	8-10_prt	got	RP	O
+8-12	to	8-13_aux	make	TO	O
+8-13	make	8-10_xcomp	got	VB	O
+8-14	my	O	O	PRP$	P1_passenger
+8-15	way	8-13_dobj	make	NN	O
+8-16	to	8-17_aux	work	TO	O
+8-17	work	O	O	VB	P1_destination
+8-18	.	O	O	O	O
+
+#id=9
+#text=It was another enjoyable experience on the train . 
+9-1	It	O	O	PRP	O
+9-2	was	O	O	VBD	O
+9-3	another	O	O	DT	O
+9-4	enjoyable	O	O	JJ	O
+9-5	experience	O	O	NN	P1_NPart_experience
+9-6	on	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	train	O	O	NN	P1_train
+9-9	.	O	O	O	O

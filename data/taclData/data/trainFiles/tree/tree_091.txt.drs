@@ -1,0 +1,260 @@
+#id=1
+#text=Last spring , I planted a tree in my backyard . 
+1-1	Last	O	O	JJ	O
+1-2	spring	1-5_tmod	planted	NN	P1_time
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	planted	PRP	P1_gardener
+1-5	planted	O	O	VBD	O
+1-6	a	O	O	DT	O
+1-7	tree	1-5_dobj	planted	NN	P1_tree
+1-8	in	O	O	O	O
+1-9	my	O	O	PRP$	P1_gardener
+1-10	backyard	1-5_prep_in	planted	NN	P1_location_garden
+1-11	.	O	O	O	O
+
+#id=2
+#text=When I was a kid , we always had apples , because we had two apple trees in our backyard . 
+2-1	When	O	O	WRB	O
+2-2	I	O	O	PRP	P1_gardener
+2-3	was	O	O	VBD	O
+2-4	a	O	O	DT	O
+2-5	kid	2-9_advcl	had	NN	P1_NPart_kid
+2-6	,	O	O	O	O
+2-7	we	2-9_nsubj	had	PRP	O
+2-8	always	2-9_advmod	had	RB	O
+2-9	had	O	O	VBD	O
+2-10	apples	2-9_dobj	had	NNS	P1_other
+2-11	,	O	O	O	O
+2-12	because	2-14_mark	had	IN	O
+2-13	we	2-14_nsubj	had	PRP	O
+2-14	had	2-9_advcl	had	VBD	O
+2-15	two	O	O	CD	O
+2-16	apple	O	O	NN	O
+2-17	trees	2-14_dobj	had	NNS	P2_tree
+2-18	in	O	O	O	O
+2-19	our	O	O	PRP$	O
+2-20	backyard	O	O	NN	P2_location_garden
+2-21	.	O	O	O	O
+
+#id=3
+#text=We used to make pies and applesauce and I wanted to have that at my house . 
+3-1	We	3-2_nsubj	used	PRP	O
+3-2	used	O	O	VBD	O
+3-3	to	3-4_aux	make	TO	O
+3-4	make	3-2_xcomp	used	VB	O
+3-5	pies	3-4_dobj	make	NNS	P1_NPart_pies
+3-6	and	O	O	O	O
+3-7	applesauce	O	O	NN	P1_NPart_applesauce
+3-8	and	O	O	O	O
+3-9	I	3-10_nsubj	wanted	PRP	P1_gardener
+3-10	wanted	3-2_conj_and	used	VBD	O
+3-11	to	3-12_aux	have	TO	O
+3-12	have	3-10_xcomp	wanted	VB	O
+3-13	that	3-12_dobj	have	DT	O
+3-14	at	O	O	O	O
+3-15	my	O	O	PRP$	P1_gardener
+3-16	house	O	O	NN	P2_other
+3-17	.	O	O	O	O
+
+#id=4
+#text=I went to the local nursery and I found a 6 foot tree . 
+4-1	I	4-2_nsubj	went	PRP	P1_gardener
+4-2	went	O	O	VBD	O
+4-3	to	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	local	O	O	JJ	O
+4-6	nursery	4-2_prep_to	went	NN	P1_shop
+4-7	and	O	O	O	O
+4-8	I	4-9_nsubj	found	PRP	P1_gardener
+4-9	found	4-2_conj_and	went	VBD	O
+4-10	a	O	O	DT	O
+4-11	6	O	O	CD	O
+4-12	foot	O	O	NN	P1_NPart_foot
+4-13	tree	4-9_dobj	found	NN	P1_tree
+4-14	.	O	O	O	O
+
+#id=5
+#text=With delivery , it was pretty expensive , but I figured it was worth it . 
+5-1	With	O	O	O	O
+5-2	delivery	O	O	NN	O
+5-3	,	O	O	O	O
+5-4	it	O	O	PRP	P1_tree
+5-5	was	O	O	VBD	O
+5-6	pretty	O	O	RB	O
+5-7	expensive	O	O	JJ	O
+5-8	,	O	O	O	O
+5-9	but	O	O	O	O
+5-10	I	5-11_nsubj	figured	PRP	P1_gardener
+5-11	figured	O	O	VBD	O
+5-12	it	O	O	PRP	P1_tree
+5-13	was	O	O	VBD	O
+5-14	worth	5-11_ccomp	figured	JJ	O
+5-15	it	O	O	PRP	O
+5-16	.	O	O	O	O
+
+#id=6
+#text=I dug out an area in my backyard . 
+6-1	I	6-2_nsubj	dug	PRP	P1_gardener
+6-2	dug	O	O	VBD	O
+6-3	out	6-2_prt	dug	RP	O
+6-4	an	O	O	DT	O
+6-5	area	6-2_dobj	dug	NN	P1_hole
+6-6	in	O	O	O	O
+6-7	my	O	O	PRP$	P1_gardener
+6-8	backyard	O	O	NN	P1_location_garden
+6-9	.	O	O	O	O
+
+#id=7
+#text=I was surprised at how long it took and how much dirt that I had to move . 
+7-1	I	7-3_nsubjpass	surprised	PRP	P1_gardener
+7-2	was	7-3_auxpass	surprised	VBD	O
+7-3	surprised	O	O	VBN	O
+7-4	at	O	O	O	O
+7-5	how	O	O	WRB	O
+7-6	long	7-8_advmod	took	RB	O
+7-7	it	7-8_nsubj	took	PRP	O
+7-8	took	7-3_prepc_at	surprised	VBD	O
+7-9	and	O	O	O	O
+7-10	how	O	O	WRB	O
+7-11	much	7-12_advmod	dirt	JJ	O
+7-12	dirt	7-8_conj_and	took	VBZ	P1_dirt
+7-13	that	7-15_mark	had	IN	O
+7-14	I	7-15_nsubj	had	PRP	P1_gardener
+7-15	had	7-12_ccomp	dirt	VBD	O
+7-16	to	7-17_aux	move	TO	O
+7-17	move	7-15_xcomp	had	VB	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=Digging the hole took me the longest time of the whole process . 
+8-1	Digging	O	O	VBG	O
+8-2	the	O	O	DT	O
+8-3	hole	8-1_dobj	Digging	NN	P1_hole
+8-4	took	8-1_dep	Digging	VBD	O
+8-5	me	8-4_dobj	took	PRP	P1_gardener
+8-6	the	O	O	DT	O
+8-7	longest	O	O	JJS	O
+8-8	time	8-1_nsubj	Digging	NN	P2_time
+8-9	of	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	whole	O	O	JJ	O
+8-12	process	O	O	NN	P1_NPart_process
+8-13	.	O	O	O	O
+
+#id=9
+#text=I finally got that done and I stuck the tree in the ground . 
+9-1	I	9-3_nsubj	got	PRP	P1_gardener
+9-2	finally	9-3_advmod	got	RB	O
+9-3	got	O	O	VBD	O
+9-4	that	9-5_mark	done	IN	P1_hole
+9-5	done	9-3_ccomp	got	VBN	O
+9-6	and	O	O	O	O
+9-7	I	9-8_nsubj	stuck	PRP	P1_gardener
+9-8	stuck	9-3_conj_and	got	VBD	O
+9-9	the	O	O	DT	O
+9-10	tree	9-8_dobj	stuck	NN	P1_tree
+9-11	in	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	ground	9-8_prep_in	stuck	NN	P1_hole
+9-14	.	O	O	O	O
+
+#id=10
+#text=I read online about a fertilizer that was good for apple trees and mixed that in with the dirt as I was filling in the area around the roots . 
+10-1	I	10-2_nsubj	read	PRP	P1_gardener
+10-2	read	O	O	VBP	O
+10-3	online	10-2_dep	read	NN	O
+10-4	about	O	O	O	O
+10-5	a	O	O	DT	O
+10-6	fertilizer	10-2_prep_about	read	NN	P1_fertilizer
+10-7	that	O	O	WDT	O
+10-8	was	O	O	VBD	O
+10-9	good	O	O	JJ	O
+10-10	for	O	O	O	O
+10-11	apple	O	O	NN	O
+10-12	trees	O	O	NNS	P1_tree
+10-13	and	O	O	O	O
+10-14	mixed	O	O	JJ	O
+10-15	that	O	O	IN	P2_fertilizer
+10-16	in	O	O	IN	O
+10-17	with	O	O	IN	O
+10-18	the	O	O	DT	O
+10-19	dirt	O	O	NN	P2_dirt
+10-20	as	10-23_mark	filling	IN	O
+10-21	I	10-23_nsubj	filling	PRP	P1_gardener
+10-22	was	10-23_aux	filling	VBD	O
+10-23	filling	O	O	VBG	O
+10-24	in	O	O	O	O
+10-25	the	O	O	DT	O
+10-26	area	10-23_prep_in	filling	NN	P3_dirt
+10-27	around	O	O	O	O
+10-28	the	O	O	DT	O
+10-29	roots	O	O	NNS	P1_root
+10-30	.	O	O	O	O
+
+#id=11
+#text=I do n't expect to get any apples this year and probably not next year , but the tree should be mature enough to start producing apples in the following years . 
+11-1	I	11-4_nsubj	expect	PRP	P1_gardener
+11-2	do	11-4_aux	expect	VBP	O
+11-3	n't	11-4_neg	expect	RB	O
+11-4	expect	O	O	VB	O
+11-5	to	11-6_aux	get	TO	O
+11-6	get	11-4_xcomp	expect	VB	O
+11-7	any	O	O	DT	O
+11-8	apples	11-6_dobj	get	NNS	P3_other
+11-9	this	O	O	DT	O
+11-10	year	11-6_tmod	get	NN	P3_time
+11-11	and	O	O	O	O
+11-12	probably	O	O	RB	O
+11-13	not	O	O	RB	O
+11-14	next	O	O	JJ	O
+11-15	year	11-6_conj_and	get	NN	P4_time
+11-16	,	O	O	O	O
+11-17	but	O	O	O	O
+11-18	the	O	O	DT	O
+11-19	tree	O	O	NN	P1_tree
+11-20	should	O	O	MD	O
+11-21	be	O	O	VB	O
+11-22	mature	11-4_conj_but	expect	JJ	O
+11-23	enough	O	O	RB	O
+11-24	to	11-25_aux	start	TO	O
+11-25	start	O	O	VB	O
+11-26	producing	O	O	VBG	O
+11-27	apples	11-25_dobj	start	NNS	P3_other
+11-28	in	O	O	O	O
+11-29	the	O	O	DT	O
+11-30	following	O	O	VBG	O
+11-31	years	11-25_prep_in	start	NNS	P5_time
+11-32	.	O	O	O	O
+
+#id=12
+#text=The whole process took me about 3 hours to get the tree planted . 
+12-1	The	O	O	DT	O
+12-2	whole	O	O	JJ	O
+12-3	process	12-4_nsubj	took	NN	P2_NPart_process
+12-4	took	O	O	VBD	O
+12-5	me	12-4_iobj	took	PRP	P1_gardener
+12-6	about	O	O	RB	O
+12-7	3	O	O	CD	O
+12-8	hours	12-4_dobj	took	NNS	P6_time
+12-9	to	12-10_aux	get	TO	O
+12-10	get	12-4_vmod	took	VB	O
+12-11	the	O	O	DT	O
+12-12	tree	12-10_dobj	get	NN	P1_tree
+12-13	planted	O	O	VBN	O
+12-14	.	O	O	O	O
+
+#id=13
+#text=I wish I would have paid someone to do it for me . 
+13-1	I	13-2_nsubj	wish	PRP	P1_gardener
+13-2	wish	O	O	VBP	O
+13-3	I	13-6_nsubj	paid	PRP	P1_gardener
+13-4	would	13-6_aux	paid	MD	O
+13-5	have	13-6_aux	paid	VB	O
+13-6	paid	13-2_ccomp	wish	VBN	O
+13-7	someone	13-6_dobj	paid	NN	P2_gardener
+13-8	to	13-9_aux	do	TO	O
+13-9	do	13-6_vmod	paid	VB	O
+13-10	it	13-9_dobj	do	PRP	O
+13-11	for	O	O	O	O
+13-12	me	13-9_prep_for	do	PRP	P1_gardener
+13-13	.	O	O	O	O

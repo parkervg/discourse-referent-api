@@ -1,0 +1,317 @@
+#id=1
+#text=I was going to meet up with my friends at the mall to watch a new movie that recently came out . 
+1-1	I	1-3_nsubj	going	PRP	P1_passenger
+1-2	was	1-3_aux	going	VBD	O
+1-3	going	O	O	VBG	O
+1-4	to	1-5_aux	meet	TO	O
+1-5	meet	1-3_xcomp	going	VB	O
+1-6	up	1-5_prt	meet	RP	O
+1-7	with	O	O	O	O
+1-8	my	O	O	PRP$	P1_passenger
+1-9	friends	1-5_prep_with	meet	NNS	P1_NPart_friends
+1-10	at	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	mall	1-5_prep_at	meet	NN	P1_destination
+1-13	to	1-14_aux	watch	TO	O
+1-14	watch	O	O	VB	O
+1-15	a	O	O	DT	O
+1-16	new	O	O	JJ	O
+1-17	movie	1-14_dobj	watch	NN	P1_NPart_movie
+1-18	that	1-20_nsubj	came	WDT	O
+1-19	recently	1-20_advmod	came	RB	O
+1-20	came	O	O	VBD	O
+1-21	out	1-20_prt	came	RP	O
+1-22	.	O	O	O	O
+
+#id=2
+#text=But , since the mall is pretty far away , I needed to take the bus . 
+2-1	But	2-12_cc	needed	CC	O
+2-2	,	O	O	O	O
+2-3	since	2-6_mark	is	IN	O
+2-4	the	O	O	DT	O
+2-5	mall	2-6_nsubj	is	NN	P1_destination
+2-6	is	2-12_advcl	needed	VBZ	O
+2-7	pretty	O	O	RB	O
+2-8	far	O	O	RB	O
+2-9	away	2-6_advmod	is	RB	O
+2-10	,	O	O	O	O
+2-11	I	2-12_nsubj	needed	PRP	P1_passenger
+2-12	needed	O	O	VBD	O
+2-13	to	2-14_aux	take	TO	O
+2-14	take	2-12_xcomp	needed	VB	O
+2-15	the	O	O	DT	O
+2-16	bus	2-14_dobj	take	NN	P1_bus
+2-17	.	O	O	O	O
+
+#id=3
+#text=So , I went online to the bus ' site to check the time that the Mall Route bus would be near my house . 
+3-1	So	3-4_advmod	went	RB	O
+3-2	,	O	O	O	O
+3-3	I	3-4_nsubj	went	PRP	P1_passenger
+3-4	went	O	O	VBD	O
+3-5	online	3-4_dep	went	NN	O
+3-6	to	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	bus	O	O	NN	O
+3-9	'	O	O	O	O
+3-10	site	3-4_prep_to	went	NN	P1_NPart_site
+3-11	to	3-12_aux	check	TO	O
+3-12	check	O	O	VB	O
+3-13	the	O	O	DT	O
+3-14	time	3-12_dobj	check	NN	P1_time/date
+3-15	that	3-21_mark	be	IN	O
+3-16	the	O	O	DT	O
+3-17	Mall	O	O	NNP	O
+3-18	Route	O	O	NNP	O
+3-19	bus	3-21_nsubj	be	NN	P1_bus
+3-20	would	3-21_aux	be	MD	O
+3-21	be	3-12_ccomp	check	VB	O
+3-22	near	O	O	O	O
+3-23	my	O	O	PRP$	P1_passenger
+3-24	house	3-21_prep_near	be	NN	P1_NPart_house
+3-25	.	O	O	O	O
+
+#id=4
+#text=I marked the times down on my phone and got ready to leave . 
+4-1	I	4-2_nsubj	marked	PRP	P1_passenger
+4-2	marked	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	times	4-2_dobj	marked	NNS	P1_time/date
+4-5	down	4-2_prt	marked	RP	O
+4-6	on	O	O	O	O
+4-7	my	O	O	PRP$	P1_passenger
+4-8	phone	4-2_prep_on	marked	NN	P1_NPart_phone
+4-9	and	O	O	O	O
+4-10	got	O	O	VBD	O
+4-11	ready	4-2_conj_and	marked	JJ	O
+4-12	to	4-13_aux	leave	TO	O
+4-13	leave	O	O	VB	O
+4-14	.	O	O	O	O
+
+#id=5
+#text=I sent a text to my friends and let them know that I could make it and that I 'd been there soon . 
+5-1	I	5-2_nsubj	sent	PRP	P1_passenger
+5-2	sent	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	text	5-2_dobj	sent	NN	P1_NPart_text
+5-5	to	O	O	O	O
+5-6	my	O	O	PRP$	P1_passenger
+5-7	friends	5-2_prep_to	sent	NNS	P2_NPart_friends
+5-8	and	O	O	O	O
+5-9	let	5-2_conj_and	sent	VBD	O
+5-10	them	5-11_nsubj	know	PRP	P1_NPart_them
+5-11	know	5-9_ccomp	let	VBP	O
+5-12	that	5-15_mark	make	IN	O
+5-13	I	5-15_nsubj	make	PRP	P1_passenger
+5-14	could	5-15_aux	make	MD	O
+5-15	make	5-11_ccomp	know	VB	O
+5-16	it	5-15_dobj	make	PRP	O
+5-17	and	O	O	O	O
+5-18	that	5-21_mark	been	IN	O
+5-19	I	5-21_nsubj	been	PRP	P1_passenger
+5-20	'd	5-21_aux	been	VBD	O
+5-21	been	5-15_conj_and	make	VBN	O
+5-22	there	5-21_advmod	been	RB	O
+5-23	soon	5-21_advmod	been	RB	O
+5-24	.	O	O	O	O
+
+#id=6
+#text=I grabbed my jacket , wallet , and made sure to get my bus pass . 
+6-1	I	6-2_nsubj	grabbed	PRP	P1_passenger
+6-2	grabbed	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_passenger
+6-4	jacket	6-2_dobj	grabbed	NN	P1_NPart_jacket
+6-5	,	O	O	O	O
+6-6	wallet	O	O	NN	P1_NPart_wallet
+6-7	,	O	O	O	O
+6-8	and	O	O	O	O
+6-9	made	6-2_conj_and	grabbed	VBD	O
+6-10	sure	6-9_acomp	made	JJ	O
+6-11	to	6-12_aux	get	TO	O
+6-12	get	O	O	VB	O
+6-13	my	O	O	PRP$	P1_passenger
+6-14	bus	O	O	NN	O
+6-15	pass	6-12_dobj	get	NN	P1_card/ticket
+6-16	.	O	O	O	O
+
+#id=7
+#text=I checked the time and set off . 
+7-1	I	7-2_nsubj	checked	PRP	P1_passenger
+7-2	checked	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	time	7-2_dobj	checked	NN	P2_time/date
+7-5	and	O	O	O	O
+7-6	set	7-2_conj_and	checked	VBD	O
+7-7	off	7-6_prt	set	RP	O
+7-8	.	O	O	O	O
+
+#id=8
+#text=I walked a few blocks to the bus stop and double checked the time . 
+8-1	I	8-2_nsubj	walked	PRP	P1_passenger
+8-2	walked	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	few	O	O	JJ	O
+8-5	blocks	8-2_dobj	walked	NNS	P1_NPart_blocks
+8-6	to	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	bus	O	O	NN	O
+8-9	stop	8-2_prep_to	walked	NN	P1_bus_stop
+8-10	and	8-2_cc	walked	CC	O
+8-11	double	8-2_advmod	walked	RB	O
+8-12	checked	8-2_dep	walked	VBD	O
+8-13	the	O	O	DT	O
+8-14	time	8-12_dobj	checked	NN	P2_time/date
+8-15	.	O	O	O	O
+
+#id=9
+#text=I had to wait for a little bit , but it 's always better to get to the stop early , since sometimes the bus is n't quite on schedule . 
+9-1	I	9-2_nsubj	had	PRP	P1_passenger
+9-2	had	O	O	VBD	O
+9-3	to	9-4_aux	wait	TO	O
+9-4	wait	9-2_xcomp	had	VB	O
+9-5	for	O	O	O	O
+9-6	a	O	O	DT	O
+9-7	little	O	O	JJ	O
+9-8	bit	9-4_prep_for	wait	NN	O
+9-9	,	O	O	O	O
+9-10	but	O	O	O	O
+9-11	it	O	O	PRP	O
+9-12	's	O	O	VBZ	O
+9-13	always	O	O	RB	O
+9-14	better	9-2_conj_but	had	JJR	O
+9-15	to	9-16_aux	get	TO	O
+9-16	get	O	O	VB	O
+9-17	to	O	O	O	O
+9-18	the	O	O	DT	O
+9-19	stop	9-16_prep_to	get	NN	P1_bus_stop
+9-20	early	O	O	RB	O
+9-21	,	O	O	O	O
+9-22	since	O	O	IN	O
+9-23	sometimes	O	O	RB	O
+9-24	the	O	O	DT	O
+9-25	bus	O	O	NN	P1_bus
+9-26	is	O	O	VBZ	O
+9-27	n't	O	O	RB	O
+9-28	quite	O	O	RB	O
+9-29	on	O	O	O	O
+9-30	schedule	O	O	NN	O
+9-31	.	O	O	O	O
+
+#id=10
+#text=The bus finally pulled up and I got on . 
+10-1	The	O	O	DT	O
+10-2	bus	10-4_nsubj	pulled	NN	P1_bus
+10-3	finally	10-4_advmod	pulled	RB	O
+10-4	pulled	O	O	VBD	O
+10-5	up	10-4_prt	pulled	RP	O
+10-6	and	O	O	O	O
+10-7	I	10-8_nsubj	got	PRP	P1_passenger
+10-8	got	10-4_conj_and	pulled	VBD	O
+10-9	on	10-8_prt	got	RP	O
+10-10	.	O	O	O	O
+
+#id=11
+#text=I swiped my card and I found a decent seat . 
+11-1	I	11-2_nsubj	swiped	PRP	P1_passenger
+11-2	swiped	O	O	VBD	O
+11-3	my	O	O	PRP$	P1_passenger
+11-4	card	11-2_dobj	swiped	NN	P1_card/ticket
+11-5	and	O	O	O	O
+11-6	I	11-7_nsubj	found	PRP	P1_passenger
+11-7	found	11-2_conj_and	swiped	VBD	O
+11-8	a	O	O	DT	O
+11-9	decent	O	O	JJ	O
+11-10	seat	11-7_dobj	found	NN	P1_seat_in_bus
+11-11	.	O	O	O	O
+
+#id=12
+#text=Luckily , there were n't that many people on board and the stops were short . 
+12-1	Luckily	12-4_advmod	were	RB	O
+12-2	,	O	O	O	O
+12-3	there	12-4_expl	were	EX	O
+12-4	were	O	O	VBD	O
+12-5	n't	12-4_neg	were	RB	O
+12-6	that	O	O	DT	O
+12-7	many	O	O	JJ	O
+12-8	people	12-4_nsubj	were	NNS	P2_passenger
+12-9	on	O	O	O	O
+12-10	board	O	O	NN	P1_NPart_board
+12-11	and	O	O	O	O
+12-12	the	O	O	DT	O
+12-13	stops	O	O	NNS	P2_bus_stop
+12-14	were	O	O	VBD	O
+12-15	short	12-4_conj_and	were	JJ	O
+12-16	.	O	O	O	O
+
+#id=13
+#text=As the bus got closer to the mall , and it was nearing the stop , I pulled on the line that let the driver know that she needed to let someone off . 
+13-1	As	13-4_mark	got	IN	O
+13-2	the	O	O	DT	O
+13-3	bus	13-4_nsubj	got	NN	P1_bus
+13-4	got	13-18_advcl	pulled	VBD	O
+13-5	closer	13-4_advmod	got	RBR	O
+13-6	to	O	O	O	O
+13-7	the	O	O	DT	O
+13-8	mall	13-4_prep_to	got	NN	P1_destination
+13-9	,	O	O	O	O
+13-10	and	O	O	O	O
+13-11	it	13-13_nsubj	nearing	PRP	P1_bus
+13-12	was	13-13_aux	nearing	VBD	O
+13-13	nearing	13-4_conj_and	got	VBG	O
+13-14	the	O	O	DT	O
+13-15	stop	13-13_dobj	nearing	NN	P3_bus_stop
+13-16	,	O	O	O	O
+13-17	I	13-18_nsubj	pulled	PRP	P1_passenger
+13-18	pulled	O	O	VBD	O
+13-19	on	O	O	O	O
+13-20	the	O	O	DT	O
+13-21	line	13-18_prep_on	pulled	NN	P1_stop_button/door_opener
+13-22	that	13-23_nsubj	let	WDT	O
+13-23	let	O	O	VBD	O
+13-24	the	O	O	DT	O
+13-25	driver	13-26_nsubj	know	NN	P1_bus_staff
+13-26	know	13-23_ccomp	let	VBP	O
+13-27	that	13-29_mark	needed	IN	O
+13-28	she	13-29_nsubj	needed	PRP	P1_bus_staff
+13-29	needed	13-26_ccomp	know	VBD	O
+13-30	to	13-31_aux	let	TO	O
+13-31	let	13-29_xcomp	needed	VB	O
+13-32	someone	13-31_dobj	let	NN	P1_passenger
+13-33	off	13-31_prt	let	RP	O
+13-34	.	O	O	O	O
+
+#id=14
+#text=I made it to the mall in good time and got to hang out with my friends a bit before the movie . 
+14-1	I	14-2_nsubj	made	PRP	P1_passenger
+14-2	made	O	O	VBD	O
+14-3	it	14-2_dobj	made	PRP	O
+14-4	to	O	O	O	O
+14-5	the	O	O	DT	O
+14-6	mall	14-2_prep_to	made	NN	P1_destination
+14-7	in	O	O	O	O
+14-8	good	O	O	JJ	O
+14-9	time	O	O	NN	P3_time/date
+14-10	and	O	O	O	O
+14-11	got	14-2_conj_and	made	VBD	O
+14-12	to	14-13_aux	hang	TO	O
+14-13	hang	14-11_xcomp	got	VB	O
+14-14	out	14-13_prt	hang	RP	O
+14-15	with	O	O	O	O
+14-16	my	O	O	PRP$	P1_passenger
+14-17	friends	14-13_prep_with	hang	NNS	P3_NPart_friends
+14-18	a	O	O	DT	O
+14-19	bit	O	O	NN	O
+14-20	before	O	O	O	O
+14-21	the	O	O	DT	O
+14-22	movie	14-13_prep_before	hang	NN	P2_NPart_movie
+14-23	.	O	O	O	O
+
+#id=15
+#text=It was a pretty good day . 
+15-1	It	O	O	PRP	O
+15-2	was	O	O	VBD	O
+15-3	a	O	O	DT	O
+15-4	pretty	O	O	RB	O
+15-5	good	O	O	JJ	O
+15-6	day	O	O	NN	P1_NPart_day
+15-7	.	O	O	O	O

@@ -1,0 +1,284 @@
+#id=1
+#text=Eliminating Boredom By The Book I had the day off work . 
+1-1	Eliminating	O	O	NNP	O
+1-2	Boredom	1-7_nsubj	had	NNP	P1_NPart_boredom
+1-3	By	O	O	O	O
+1-4	The	O	O	DT	O
+1-5	Book	1-7_prep_by	had	NN	P1_book
+1-6	I	1-7_nsubj	had	PRP	P1_customer
+1-7	had	O	O	VBD	O
+1-8	the	O	O	DT	O
+1-9	day	1-7_dobj	had	NN	P1_NPart_day
+1-10	off	O	O	O	O
+1-11	work	O	O	NN	P1_NPart_work
+1-12	.	O	O	O	O
+
+#id=2
+#text=I was glad of that but only a few hours into my day , I realized how bored I was . 
+2-1	I	O	O	PRP	P1_customer
+2-2	was	O	O	VBD	O
+2-3	glad	2-16_ccomp	realized	JJ	O
+2-4	of	O	O	O	O
+2-5	that	O	O	DT	O
+2-6	but	O	O	O	O
+2-7	only	O	O	O	O
+2-8	a	O	O	DT	O
+2-9	few	O	O	JJ	O
+2-10	hours	O	O	NNS	P1_NPart_hours
+2-11	into	O	O	O	O
+2-12	my	O	O	PRP$	P1_customer
+2-13	day	O	O	NN	P2_NPart_day
+2-14	,	O	O	O	O
+2-15	I	2-16_nsubj	realized	PRP	P1_customer
+2-16	realized	O	O	VBD	O
+2-17	how	2-20_advmod	was	WRB	O
+2-18	bored	O	O	JJ	O
+2-19	I	2-20_nsubj	was	PRP	P1_customer
+2-20	was	2-16_ccomp	realized	VBD	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=I had already cleaned my house and done everything I needed to do . 
+3-1	I	3-4_nsubj	cleaned	PRP	P1_customer
+3-2	had	3-4_aux	cleaned	VBD	O
+3-3	already	3-4_advmod	cleaned	RB	O
+3-4	cleaned	O	O	VBN	O
+3-5	my	O	O	PRP$	P1_customer
+3-6	house	3-4_dobj	cleaned	NN	P1_NPart_house
+3-7	and	O	O	O	O
+3-8	done	3-4_conj_and	cleaned	VBN	O
+3-9	everything	3-8_dobj	done	NN	O
+3-10	I	3-11_nsubj	needed	PRP	P1_customer
+3-11	needed	O	O	VBD	O
+3-12	to	3-13_aux	do	TO	O
+3-13	do	3-11_xcomp	needed	VB	O
+3-14	.	O	O	O	O
+
+#id=4
+#text=I turned on the television , but I could n't find anything to watch . 
+4-1	I	4-2_nsubj	turned	PRP	P1_customer
+4-2	turned	O	O	VBD	O
+4-3	on	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	television	4-2_prep_on	turned	NN	P1_NPart_television
+4-6	,	O	O	O	O
+4-7	but	O	O	O	O
+4-8	I	4-11_nsubj	find	PRP	P1_customer
+4-9	could	4-11_aux	find	MD	O
+4-10	n't	4-11_neg	find	RB	O
+4-11	find	4-2_conj_but	turned	VB	O
+4-12	anything	4-11_dobj	find	NN	O
+4-13	to	4-14_aux	watch	TO	O
+4-14	watch	4-11_vmod	find	VB	O
+4-15	.	O	O	O	O
+
+#id=5
+#text=It was cloudy and rainy outside , so going outside was not the best option . 
+5-1	It	O	O	PRP	O
+5-2	was	O	O	VBD	O
+5-3	cloudy	O	O	JJ	O
+5-4	and	O	O	O	O
+5-5	rainy	O	O	JJ	O
+5-6	outside	O	O	IN	O
+5-7	,	O	O	O	O
+5-8	so	O	O	IN	O
+5-9	going	O	O	VBG	O
+5-10	outside	5-9_advmod	going	RB	O
+5-11	was	O	O	VBD	O
+5-12	not	O	O	RB	O
+5-13	the	O	O	DT	O
+5-14	best	O	O	JJS	O
+5-15	option	O	O	NN	P1_NPart_option
+5-16	.	O	O	O	O
+
+#id=6
+#text=I knew I needed to find something to do though and I thought that maybe it would be a great idea to find a new book to read . 
+6-1	I	6-2_nsubj	knew	PRP	P1_customer
+6-2	knew	O	O	VBD	O
+6-3	I	6-4_nsubj	needed	PRP	P1_customer
+6-4	needed	6-2_ccomp	knew	VBD	O
+6-5	to	6-6_aux	find	TO	O
+6-6	find	6-4_xcomp	needed	VB	O
+6-7	something	6-6_dobj	find	NN	O
+6-8	to	6-9_aux	do	TO	O
+6-9	do	6-6_vmod	find	VB	O
+6-10	though	6-9_advmod	do	RB	O
+6-11	and	O	O	O	O
+6-12	I	6-13_nsubj	thought	PRP	P1_customer
+6-13	thought	6-2_conj_and	knew	VBD	O
+6-14	that	O	O	IN	O
+6-15	maybe	O	O	RB	O
+6-16	it	O	O	PRP	O
+6-17	would	O	O	MD	O
+6-18	be	O	O	VB	O
+6-19	a	O	O	DT	O
+6-20	great	O	O	JJ	O
+6-21	idea	6-13_ccomp	thought	NN	P1_NPart_idea
+6-22	to	6-23_aux	find	TO	O
+6-23	find	O	O	VB	O
+6-24	a	O	O	DT	O
+6-25	new	O	O	JJ	O
+6-26	book	6-23_dobj	find	NN	P1_book
+6-27	to	6-28_aux	read	TO	O
+6-28	read	6-23_vmod	find	VB	O
+6-29	.	O	O	O	O
+
+#id=7
+#text=I decided to drive to the local library . 
+7-1	I	7-2_nsubj	decided	PRP	P1_customer
+7-2	decided	O	O	VBD	O
+7-3	to	7-4_aux	drive	TO	O
+7-4	drive	7-2_xcomp	decided	VB	O
+7-5	to	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	local	O	O	JJ	O
+7-8	library	7-4_prep_to	drive	NN	P1_library
+7-9	.	O	O	O	O
+
+#id=8
+#text=I looked at all of the new books that they had on display . 
+8-1	I	8-2_nsubj	looked	PRP	P1_customer
+8-2	looked	O	O	VBD	O
+8-3	at	O	O	O	O
+8-4	all	8-2_prep_at	looked	DT	O
+8-5	of	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	new	O	O	JJ	O
+8-8	books	O	O	NNS	P1_book
+8-9	that	8-11_mark	had	IN	O
+8-10	they	8-11_nsubj	had	PRP	P1_library
+8-11	had	8-2_ccomp	looked	VBD	O
+8-12	on	O	O	O	O
+8-13	display	8-11_prep_on	had	NN	O
+8-14	.	O	O	O	O
+
+#id=9
+#text=I found a book that really caught my eye and looked intriguing . 
+9-1	I	9-2_nsubj	found	PRP	P1_customer
+9-2	found	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	book	9-2_dobj	found	NN	P1_book
+9-5	that	9-7_nsubj	caught	WDT	O
+9-6	really	9-7_advmod	caught	RB	O
+9-7	caught	O	O	VBD	O
+9-8	my	O	O	PRP$	P1_customer
+9-9	eye	9-7_dobj	caught	NN	O
+9-10	and	O	O	O	O
+9-11	looked	9-7_conj_and	caught	VBD	O
+9-12	intriguing	9-11_acomp	looked	JJ	O
+9-13	.	O	O	O	O
+
+#id=10
+#text=I knew that I really wanted to read this book so I checked it out . 
+10-1	I	10-2_nsubj	knew	PRP	P1_customer
+10-2	knew	O	O	VBD	O
+10-3	that	10-6_mark	wanted	IN	O
+10-4	I	10-6_nsubj	wanted	PRP	P1_customer
+10-5	really	10-6_advmod	wanted	RB	O
+10-6	wanted	10-2_ccomp	knew	VBD	O
+10-7	to	10-8_aux	read	TO	O
+10-8	read	10-6_xcomp	wanted	VB	O
+10-9	this	O	O	DT	O
+10-10	book	10-8_dobj	read	NN	P1_book
+10-11	so	10-13_mark	checked	IN	O
+10-12	I	10-13_nsubj	checked	PRP	P1_customer
+10-13	checked	10-8_advcl	read	VBD	O
+10-14	it	10-13_dobj	checked	PRP	P1_book
+10-15	out	10-13_prt	checked	RP	O
+10-16	.	O	O	O	O
+
+#id=11
+#text=I went home and started reading . 
+11-1	I	11-2_nsubj	went	PRP	P1_customer
+11-2	went	O	O	VBD	O
+11-3	home	11-2_dobj	went	NN	O
+11-4	and	O	O	O	O
+11-5	started	11-2_conj_and	went	VBD	O
+11-6	reading	11-5_dobj	started	NN	O
+11-7	.	O	O	O	O
+
+#id=12
+#text=The book was so interesting that I read and read and forgot what time it was . 
+12-1	The	O	O	DT	O
+12-2	book	O	O	NN	P1_book
+12-3	was	O	O	VBD	O
+12-4	so	O	O	RB	O
+12-5	interesting	O	O	JJ	O
+12-6	that	12-8_mark	read	IN	O
+12-7	I	12-8_nsubj	read	PRP	P1_customer
+12-8	read	O	O	VBP	O
+12-9	and	O	O	O	O
+12-10	read	12-8_conj_and	read	VBP	O
+12-11	and	O	O	O	O
+12-12	forgot	O	O	VBD	O
+12-13	what	O	O	WP	O
+12-14	time	12-16_dobj	was	NN	O
+12-15	it	12-16_nsubj	was	PRP	O
+12-16	was	12-12_ccomp	forgot	VBD	O
+12-17	.	O	O	O	O
+
+#id=13
+#text=I was almost to the end of the book when I noticed it was already dark outside . 
+13-1	I	13-2_nsubj	was	PRP	P1_customer
+13-2	was	O	O	VBD	O
+13-3	almost	13-2_advmod	was	RB	O
+13-4	to	O	O	O	O
+13-5	the	O	O	DT	O
+13-6	end	13-2_prep_to	was	NN	O
+13-7	of	O	O	O	O
+13-8	the	O	O	DT	O
+13-9	book	O	O	NN	P1_book
+13-10	when	13-12_advmod	noticed	WRB	O
+13-11	I	13-12_nsubj	noticed	PRP	P1_customer
+13-12	noticed	13-2_advcl	was	VBD	O
+13-13	it	O	O	PRP	O
+13-14	was	O	O	VBD	O
+13-15	already	O	O	RB	O
+13-16	dark	13-12_ccomp	noticed	JJ	O
+13-17	outside	O	O	IN	O
+13-18	.	O	O	O	O
+
+#id=14
+#text=I was amazed at how fast time had gone due to being caught up in a very interesting book . 
+14-1	I	14-3_nsubjpass	amazed	PRP	P1_customer
+14-2	was	14-3_auxpass	amazed	VBD	O
+14-3	amazed	O	O	VBN	O
+14-4	at	O	O	O	O
+14-5	how	O	O	WRB	O
+14-6	fast	14-9_dep	gone	JJ	O
+14-7	time	14-9_nsubj	gone	NN	O
+14-8	had	14-9_aux	gone	VBD	O
+14-9	gone	14-3_prepc_at	amazed	VBN	O
+14-10	due	14-9_acomp	gone	JJ	O
+14-11	to	O	O	O	O
+14-12	being	14-13_auxpass	caught	VBG	O
+14-13	caught	O	O	VBN	O
+14-14	up	14-13_prt	caught	RP	O
+14-15	in	O	O	O	O
+14-16	a	O	O	DT	O
+14-17	very	O	O	RB	O
+14-18	interesting	O	O	JJ	O
+14-19	book	14-13_prep_in	caught	NN	P1_book
+14-20	.	O	O	O	O
+
+#id=15
+#text=Going to the library to borrow a book had been a very great idea to cure my boredom . 
+15-1	Going	O	O	VBG	O
+15-2	to	O	O	O	O
+15-3	the	O	O	DT	O
+15-4	library	15-1_prep_to	Going	NN	P1_library
+15-5	to	15-6_aux	borrow	TO	O
+15-6	borrow	O	O	VB	O
+15-7	a	O	O	DT	O
+15-8	book	15-6_dobj	borrow	NN	P1_book
+15-9	had	O	O	VBD	O
+15-10	been	O	O	VBN	O
+15-11	a	O	O	DT	O
+15-12	very	O	O	RB	O
+15-13	great	O	O	JJ	O
+15-14	idea	O	O	NN	P2_NPart_idea
+15-15	to	15-16_aux	cure	TO	O
+15-16	cure	O	O	VB	O
+15-17	my	O	O	PRP$	P1_customer
+15-18	boredom	15-16_dobj	cure	NN	P2_NPart_boredom
+15-19	.	O	O	O	O

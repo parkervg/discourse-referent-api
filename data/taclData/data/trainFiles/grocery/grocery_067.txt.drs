@@ -1,0 +1,209 @@
+#id=1
+#text=While looking for something to eat in our home , my wife and I decided it was time to go grocery shopping . 
+1-1	While	1-2_mark	looking	IN	O
+1-2	looking	1-15_advcl	decided	VBG	O
+1-3	for	O	O	O	O
+1-4	something	1-2_prep_for	looking	NN	O
+1-5	to	1-6_aux	eat	TO	O
+1-6	eat	1-2_xcomp	looking	VB	O
+1-7	in	O	O	O	O
+1-8	our	O	O	PRP$	P1_shopper
+1-9	home	1-6_prep_in	eat	NN	P1_NPart_home
+1-10	,	O	O	O	O
+1-11	my	O	O	PRP$	P2_shopper
+1-12	wife	1-15_nsubj	decided	NN	P3_shopper
+1-13	and	O	O	O	O
+1-14	I	O	O	PRP	P2_shopper
+1-15	decided	O	O	VBD	O
+1-16	it	O	O	PRP	O
+1-17	was	O	O	VBD	O
+1-18	time	1-15_ccomp	decided	NN	O
+1-19	to	1-20_aux	go	TO	O
+1-20	go	O	O	VB	O
+1-21	grocery	O	O	NN	O
+1-22	shopping	1-20_dobj	go	NN	O
+1-23	.	O	O	O	O
+
+#id=2
+#text=First , we decided to take inventory on everything we had in the house , to see if we 'd need to buy more of it in our trip to the grocery store . 
+2-1	First	2-4_advmod	decided	RB	O
+2-2	,	O	O	O	O
+2-3	we	2-4_nsubj	decided	PRP	P4_shopper
+2-4	decided	O	O	VBD	O
+2-5	to	2-6_aux	take	TO	O
+2-6	take	2-4_xcomp	decided	VB	O
+2-7	inventory	2-6_dobj	take	NN	O
+2-8	on	O	O	O	O
+2-9	everything	2-6_prep_on	take	NN	P1_groceries
+2-10	we	2-11_nsubj	had	PRP	P4_shopper
+2-11	had	O	O	VBD	O
+2-12	in	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	house	2-11_prep_in	had	NN	P1_NPart_house
+2-15	,	O	O	O	O
+2-16	to	2-17_aux	see	TO	O
+2-17	see	2-4_xcomp	decided	VB	O
+2-18	if	2-21_mark	need	IN	O
+2-19	we	2-21_nsubj	need	PRP	P4_shopper
+2-20	'd	2-21_aux	need	MD	O
+2-21	need	2-17_advcl	see	VB	O
+2-22	to	2-23_aux	buy	TO	O
+2-23	buy	2-21_xcomp	need	VB	O
+2-24	more	2-23_dobj	buy	JJR	O
+2-25	of	O	O	O	O
+2-26	it	O	O	PRP	P1_groceries
+2-27	in	O	O	O	O
+2-28	our	O	O	PRP$	P4_shopper
+2-29	trip	2-23_prep_in	buy	NN	P1_NPart_trip
+2-30	to	O	O	O	O
+2-31	the	O	O	DT	O
+2-32	grocery	O	O	NN	O
+2-33	store	2-23_prep_to	buy	NN	P1_grocery_shop
+2-34	.	O	O	O	O
+
+#id=3
+#text=After that , we made a list of things we need and want . 
+3-1	After	O	O	O	O
+3-2	that	3-5_prep_after	made	DT	O
+3-3	,	O	O	O	O
+3-4	we	3-5_nsubj	made	PRP	P4_shopper
+3-5	made	O	O	VBD	O
+3-6	a	O	O	DT	O
+3-7	list	3-5_dobj	made	NN	P1_grocery_list
+3-8	of	O	O	O	O
+3-9	things	O	O	NNS	P2_groceries
+3-10	we	3-11_nsubj	need	PRP	P4_shopper
+3-11	need	O	O	VBP	O
+3-12	and	O	O	O	O
+3-13	want	3-11_conj_and	need	VBP	O
+3-14	.	O	O	O	O
+
+#id=4
+#text=After that we drove to the grocery store and got a cart . 
+4-1	After	O	O	O	O
+4-2	that	4-4_prep_after	drove	DT	O
+4-3	we	4-4_nsubj	drove	PRP	P4_shopper
+4-4	drove	O	O	VBD	O
+4-5	to	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	grocery	O	O	NN	O
+4-8	store	4-4_prep_to	drove	NN	P1_grocery_shop
+4-9	and	O	O	O	O
+4-10	got	4-4_conj_and	drove	VBD	O
+4-11	a	O	O	DT	O
+4-12	cart	4-10_dobj	got	NN	P1_shopping_cart/basket
+4-13	.	O	O	O	O
+
+#id=5
+#text=We walked around the grocery store , getting everything that we put on our list . 
+5-1	We	5-2_nsubj	walked	PRP	P4_shopper
+5-2	walked	O	O	VBD	O
+5-3	around	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	grocery	O	O	NN	O
+5-6	store	5-2_prep_around	walked	NN	P1_grocery_shop
+5-7	,	O	O	O	O
+5-8	getting	5-2_xcomp	walked	VBG	O
+5-9	everything	5-8_dobj	getting	NN	P2_groceries
+5-10	that	5-12_mark	put	IN	O
+5-11	we	5-12_nsubj	put	PRP	P4_shopper
+5-12	put	5-8_ccomp	getting	VBD	O
+5-13	on	O	O	O	O
+5-14	our	O	O	PRP$	P4_shopper
+5-15	list	5-12_prep_on	put	NN	P1_grocery_list
+5-16	.	O	O	O	O
+
+#id=6
+#text=After , we still had some extra spending money and decided to get some extra things . 
+6-1	After	6-5_prep	had	IN	O
+6-2	,	O	O	O	O
+6-3	we	6-5_nsubj	had	PRP	P4_shopper
+6-4	still	6-5_advmod	had	RB	O
+6-5	had	O	O	VBD	O
+6-6	some	O	O	DT	O
+6-7	extra	O	O	JJ	O
+6-8	spending	O	O	NN	O
+6-9	money	6-5_dobj	had	NN	P1_payment_means
+6-10	and	O	O	O	O
+6-11	decided	6-5_conj_and	had	VBD	O
+6-12	to	6-13_aux	get	TO	O
+6-13	get	6-11_xcomp	decided	VB	O
+6-14	some	O	O	DT	O
+6-15	extra	O	O	JJ	O
+6-16	things	6-13_dobj	get	NNS	P2_groceries
+6-17	.	O	O	O	O
+
+#id=7
+#text=She was pregnant so she craves weird things . 
+7-1	She	O	O	PRP	P3_shopper
+7-2	was	O	O	VBD	O
+7-3	pregnant	O	O	JJ	O
+7-4	so	7-6_mark	craves	IN	O
+7-5	she	7-6_nsubj	craves	PRP	P3_shopper
+7-6	craves	O	O	VBZ	O
+7-7	weird	O	O	JJ	O
+7-8	things	7-6_dobj	craves	NNS	P2_groceries
+7-9	.	O	O	O	O
+
+#id=8
+#text=We got plenty of desserts . 
+8-1	We	8-2_nsubj	got	PRP	P4_shopper
+8-2	got	O	O	VBD	O
+8-3	plenty	8-2_dobj	got	RB	O
+8-4	of	O	O	O	O
+8-5	desserts	O	O	NNS	P3_groceries
+8-6	.	O	O	O	O
+
+#id=9
+#text=When we were done picking everything , we headed towards the cash registers to check out . 
+9-1	When	9-4_advmod	done	WRB	O
+9-2	we	9-4_nsubjpass	done	PRP	P4_shopper
+9-3	were	9-4_auxpass	done	VBD	O
+9-4	done	9-9_advcl	headed	VBN	O
+9-5	picking	9-4_xcomp	done	VBG	O
+9-6	everything	9-5_dobj	picking	NN	P2_groceries
+9-7	,	O	O	O	O
+9-8	we	9-9_nsubj	headed	PRP	P4_shopper
+9-9	headed	O	O	VBD	O
+9-10	towards	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	cash	O	O	NN	O
+9-13	registers	9-9_prep_towards	headed	NN	P1_cash_desk
+9-14	to	9-15_aux	check	TO	O
+9-15	check	9-9_xcomp	headed	VB	O
+9-16	out	9-15_prt	check	RP	O
+9-17	.	O	O	O	O
+
+#id=10
+#text=We got everything scanned and handed the cashier the money to pay for everything . 
+10-1	We	10-2_nsubj	got	PRP	P4_shopper
+10-2	got	O	O	VBD	O
+10-3	everything	10-4_nsubj	scanned	NN	P2_groceries
+10-4	scanned	10-2_ccomp	got	VBD	O
+10-5	and	O	O	O	O
+10-6	handed	10-4_conj_and	scanned	VBD	O
+10-7	the	O	O	DT	O
+10-8	cashier	10-6_iobj	handed	NN	P1_grocery_staff
+10-9	the	O	O	DT	O
+10-10	money	10-6_dobj	handed	NN	P1_payment_means
+10-11	to	10-12_aux	pay	TO	O
+10-12	pay	10-6_vmod	handed	VB	O
+10-13	for	O	O	O	O
+10-14	everything	10-12_prep_for	pay	NN	P2_groceries
+10-15	.	O	O	O	O
+
+#id=11
+#text=After that , we went home and put everything where it belongs . 
+11-1	After	O	O	O	O
+11-2	that	11-5_prep_after	went	DT	O
+11-3	,	O	O	O	O
+11-4	we	11-5_nsubj	went	PRP	P4_shopper
+11-5	went	O	O	VBD	O
+11-6	home	O	O	NN	O
+11-7	and	O	O	O	O
+11-8	put	O	O	NN	O
+11-9	everything	11-5_dobj	went	NN	P4_groceries
+11-10	where	11-12_advmod	belongs	WRB	O
+11-11	it	11-12_nsubj	belongs	PRP	P5_groceries
+11-12	belongs	11-5_advcl	went	VBZ	O
+11-13	.	O	O	O	O

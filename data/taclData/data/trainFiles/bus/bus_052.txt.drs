@@ -1,0 +1,216 @@
+#id=1
+#text=I was waiting at the bus stop , and as it was a very hot day , I was happy for the shady bench . 
+1-1	I	1-3_nsubj	waiting	PRP	P1_passenger
+1-2	was	1-3_aux	waiting	VBD	O
+1-3	waiting	O	O	VBG	O
+1-4	at	O	O	O	O
+1-5	the	O	O	DT	O
+1-6	bus	O	O	NN	O
+1-7	stop	1-3_prep_at	waiting	NN	P1_bus_stop
+1-8	,	O	O	O	O
+1-9	and	O	O	O	O
+1-10	as	O	O	IN	O
+1-11	it	O	O	PRP	O
+1-12	was	O	O	VBD	O
+1-13	a	O	O	DT	O
+1-14	very	O	O	RB	O
+1-15	hot	O	O	JJ	O
+1-16	day	O	O	NN	P1_NPart_day
+1-17	,	O	O	O	O
+1-18	I	O	O	PRP	P1_passenger
+1-19	was	O	O	VBD	O
+1-20	happy	1-3_conj_and	waiting	JJ	O
+1-21	for	O	O	O	O
+1-22	the	O	O	DT	O
+1-23	shady	O	O	JJ	O
+1-24	bench	O	O	NN	P1_NPart_bench
+1-25	.	O	O	O	O
+
+#id=2
+#text=More people gathered around the stop , getting on and off other buses , as I waited for my bus to arrive . 
+2-1	More	O	O	JJR	O
+2-2	people	2-3_nsubj	gathered	NNS	P2_passenger
+2-3	gathered	O	O	VBD	O
+2-4	around	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	stop	2-3_prep_around	gathered	NN	P1_bus_stop
+2-7	,	O	O	O	O
+2-8	getting	2-3_xcomp	gathered	VBG	O
+2-9	on	2-8_prt	getting	RP	O
+2-10	and	O	O	CC	O
+2-11	off	O	O	RP	O
+2-12	other	O	O	JJ	O
+2-13	buses	2-8_dobj	getting	NNS	P1_bus
+2-14	,	O	O	O	O
+2-15	as	2-17_mark	waited	IN	O
+2-16	I	2-17_nsubj	waited	PRP	P1_passenger
+2-17	waited	2-3_advcl	gathered	VBD	O
+2-18	for	O	O	O	O
+2-19	my	O	O	PRP$	P1_passenger
+2-20	bus	2-17_prep_for	waited	NN	P2_bus
+2-21	to	2-22_aux	arrive	TO	O
+2-22	arrive	O	O	VB	O
+2-23	.	O	O	O	O
+
+#id=3
+#text=Finally , a bus with my number on it , arrived . 
+3-1	Finally	3-11_advmod	arrived	RB	O
+3-2	,	O	O	O	O
+3-3	a	O	O	DT	O
+3-4	bus	3-11_nsubj	arrived	NN	P2_bus
+3-5	with	O	O	O	O
+3-6	my	O	O	PRP$	P1_passenger
+3-7	number	O	O	NN	P1_other
+3-8	on	O	O	O	O
+3-9	it	O	O	PRP	P2_bus
+3-10	,	O	O	O	O
+3-11	arrived	O	O	VBD	O
+3-12	.	O	O	O	O
+
+#id=4
+#text=It felt a little like a rush to get on , by finally I had paid my fair , and looked for a place to sit . 
+4-1	It	4-2_nsubj	felt	PRP	O
+4-2	felt	4-16_dep	paid	VBD	O
+4-3	a	O	O	DT	O
+4-4	little	4-2_dobj	felt	JJ	O
+4-5	like	O	O	O	O
+4-6	a	O	O	DT	O
+4-7	rush	4-2_prep_like	felt	NN	P1_NPart_rush
+4-8	to	4-9_aux	get	TO	O
+4-9	get	O	O	VB	O
+4-10	on	4-9_prt	get	RP	O
+4-11	,	O	O	O	O
+4-12	by	4-9_prep	get	IN	O
+4-13	finally	O	O	RB	O
+4-14	I	4-16_nsubj	paid	PRP	P1_passenger
+4-15	had	4-16_aux	paid	VBD	O
+4-16	paid	O	O	VBN	O
+4-17	my	O	O	PRP$	P1_passenger
+4-18	fair	4-16_dobj	paid	NN	P1_money
+4-19	,	O	O	O	O
+4-20	and	O	O	O	O
+4-21	looked	4-16_conj_and	paid	VBN	O
+4-22	for	O	O	O	O
+4-23	a	O	O	DT	O
+4-24	place	4-21_prep_for	looked	NN	P1_seat_in_bus
+4-25	to	4-26_aux	sit	TO	O
+4-26	sit	4-21_xcomp	looked	VB	O
+4-27	.	O	O	O	O
+
+#id=5
+#text=Not finding a seat , I placed my shopping bag between my feet and stood for a few stops , holding the handhold hanging from the ceiling . 
+5-1	Not	5-2_neg	finding	RB	O
+5-2	finding	5-7_vmod	placed	VBG	O
+5-3	a	O	O	DT	O
+5-4	seat	5-2_dobj	finding	NN	P1_seat_in_bus
+5-5	,	O	O	O	O
+5-6	I	5-7_nsubj	placed	PRP	P1_passenger
+5-7	placed	O	O	VBD	O
+5-8	my	O	O	PRP$	P1_passenger
+5-9	shopping	O	O	NN	O
+5-10	bag	5-7_dobj	placed	NN	P1_NPart_bag
+5-11	between	O	O	O	O
+5-12	my	O	O	PRP$	P1_passenger
+5-13	feet	5-7_prep_between	placed	NNS	P1_NPart_feet
+5-14	and	O	O	O	O
+5-15	stood	5-7_conj_and	placed	VBD	O
+5-16	for	O	O	O	O
+5-17	a	O	O	DT	O
+5-18	few	O	O	JJ	O
+5-19	stops	5-15_prep_for	stood	NNS	P2_bus_stop
+5-20	,	O	O	O	O
+5-21	holding	5-15_xcomp	stood	VBG	O
+5-22	the	O	O	DT	O
+5-23	handhold	O	O	JJ	P1_rail
+5-24	hanging	5-21_dobj	holding	NN	O
+5-25	from	O	O	O	O
+5-26	the	O	O	DT	O
+5-27	ceiling	5-21_prep_from	holding	NN	P1_NPart_ceiling
+5-28	.	O	O	O	O
+
+#id=6
+#text=Finally the bus cleared out a little and I was able to find a place to sit . 
+6-1	Finally	6-4_advmod	cleared	RB	O
+6-2	the	O	O	DT	O
+6-3	bus	6-4_nsubj	cleared	NN	P2_bus
+6-4	cleared	O	O	VBD	O
+6-5	out	6-4_advmod	cleared	IN	O
+6-6	a	O	O	DT	O
+6-7	little	O	O	RB	O
+6-8	and	O	O	O	O
+6-9	I	O	O	PRP	P1_passenger
+6-10	was	O	O	VBD	O
+6-11	able	6-4_conj_and	cleared	JJ	O
+6-12	to	6-13_aux	find	TO	O
+6-13	find	O	O	VB	O
+6-14	a	O	O	DT	O
+6-15	place	6-13_dobj	find	NN	P1_seat_in_bus
+6-16	to	6-17_aux	sit	TO	O
+6-17	sit	O	O	VB	O
+6-18	.	O	O	O	O
+
+#id=7
+#text=I read my book , looking occasionally out the windows , and listening for information on the next stop , until finally reaching the stop for home . 
+7-1	I	7-2_nsubj	read	PRP	P1_passenger
+7-2	read	O	O	VBD	O
+7-3	my	O	O	PRP$	P1_passenger
+7-4	book	7-2_dobj	read	NN	P1_in-bus_entertainment
+7-5	,	O	O	O	O
+7-6	looking	7-2_dep	read	VBG	O
+7-7	occasionally	7-6_advmod	looking	RB	O
+7-8	out	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	windows	7-6_prep_out	looking	NNS	P2_in-bus_entertainment
+7-11	,	O	O	O	O
+7-12	and	O	O	O	O
+7-13	listening	7-6_conj_and	looking	VBG	O
+7-14	for	O	O	O	O
+7-15	information	7-13_prep_for	listening	NN	P2_other
+7-16	on	O	O	O	O
+7-17	the	O	O	DT	O
+7-18	next	O	O	JJ	O
+7-19	stop	O	O	NN	P3_bus_stop
+7-20	,	O	O	O	O
+7-21	until	O	O	O	O
+7-22	finally	7-23_advmod	reaching	RB	O
+7-23	reaching	7-13_prepc_until	listening	VBG	O
+7-24	the	O	O	DT	O
+7-25	stop	7-23_dobj	reaching	NN	P3_bus_stop
+7-26	for	O	O	O	O
+7-27	home	O	O	NN	P1_destination
+7-28	.	O	O	O	O
+
+#id=8
+#text=Even though I stepped carefully off the bus , I did stumble slightly on one the steps . 
+8-1	Even	8-4_advmod	stepped	RB	O
+8-2	though	8-4_mark	stepped	IN	O
+8-3	I	8-4_nsubj	stepped	PRP	P1_passenger
+8-4	stepped	8-12_advcl	stumble	VBD	O
+8-5	carefully	8-4_advmod	stepped	RB	O
+8-6	off	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	bus	8-4_prep_off	stepped	NN	P2_bus
+8-9	,	O	O	O	O
+8-10	I	8-12_nsubj	stumble	PRP	P1_passenger
+8-11	did	8-12_aux	stumble	VBD	O
+8-12	stumble	O	O	VB	O
+8-13	slightly	8-12_advmod	stumble	RB	O
+8-14	on	O	O	O	O
+8-15	one	O	O	CD	O
+8-16	the	O	O	DT	O
+8-17	steps	8-12_dobj	stumble	NNS	P1_NPart_steps
+8-18	.	O	O	O	O
+
+#id=9
+#text=I promised myself to be more careful in the future . 
+9-1	I	9-2_nsubj	promised	PRP	P1_passenger
+9-2	promised	O	O	VBD	O
+9-3	myself	9-2_dobj	promised	PRP	P1_passenger
+9-4	to	O	O	TO	O
+9-5	be	O	O	VB	O
+9-6	more	O	O	RBR	O
+9-7	careful	9-2_vmod	promised	JJ	O
+9-8	in	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	future	O	O	NN	P1_NPart_future
+9-11	.	O	O	O	O

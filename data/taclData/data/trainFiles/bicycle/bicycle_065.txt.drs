@@ -1,0 +1,215 @@
+#id=1
+#text=The Flat Tire It was a beautiful sunny day with only a slight breeze . 
+1-1	The	O	O	DT	O
+1-2	Flat	O	O	NNP	O
+1-3	Tire	O	O	NNP	P1_tire
+1-4	It	O	O	PRP	O
+1-5	was	O	O	VBD	O
+1-6	a	O	O	DT	O
+1-7	beautiful	O	O	JJ	O
+1-8	sunny	O	O	JJ	O
+1-9	day	O	O	NN	P1_NPart_day
+1-10	with	O	O	O	O
+1-11	only	O	O	RB	O
+1-12	a	O	O	DT	O
+1-13	slight	O	O	JJ	O
+1-14	breeze	O	O	NN	P1_NPart_breeze
+1-15	.	O	O	O	O
+
+#id=2
+#text=It seemed to me like a perfect day for a bicycle ride . 
+2-1	It	2-2_nsubj	seemed	PRP	O
+2-2	seemed	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	me	2-2_prep_to	seemed	PRP	P1_rider
+2-5	like	O	O	O	O
+2-6	a	O	O	DT	O
+2-7	perfect	O	O	JJ	O
+2-8	day	2-2_prep_like	seemed	NN	P2_NPart_day
+2-9	for	O	O	O	O
+2-10	a	O	O	DT	O
+2-11	bicycle	O	O	NN	O
+2-12	ride	O	O	NN	P1_ride
+2-13	.	O	O	O	O
+
+#id=3
+#text=I thought I would ride on the bike trails to the park and enjoy my day . 
+3-1	I	3-2_nsubj	thought	PRP	P1_rider
+3-2	thought	O	O	VBD	O
+3-3	I	3-5_nsubj	ride	PRP	P1_rider
+3-4	would	3-5_aux	ride	MD	O
+3-5	ride	3-2_ccomp	thought	VB	O
+3-6	on	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	bike	O	O	NN	O
+3-9	trails	3-5_prep_on	ride	NNS	P1_other
+3-10	to	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	park	3-5_prep_to	ride	NN	P1_NPart_park
+3-13	and	O	O	O	O
+3-14	enjoy	3-5_conj_and	ride	VB	O
+3-15	my	O	O	PRP$	P1_rider
+3-16	day	3-14_tmod	enjoy	NN	P3_NPart_day
+3-17	.	O	O	O	O
+
+#id=4
+#text=However , when I went out into the garage , I saw that the back tire on my bicycle was flat . 
+4-1	However	4-12_advmod	saw	RB	O
+4-2	,	O	O	O	O
+4-3	when	4-5_advmod	went	WRB	O
+4-4	I	4-5_nsubj	went	PRP	P1_rider
+4-5	went	4-12_advcl	saw	VBD	O
+4-6	out	4-5_prt	went	RP	O
+4-7	into	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	garage	4-5_prep_into	went	NN	P2_other
+4-10	,	O	O	O	O
+4-11	I	4-12_nsubj	saw	PRP	P1_rider
+4-12	saw	O	O	VBD	O
+4-13	that	O	O	IN	O
+4-14	the	O	O	DT	O
+4-15	back	O	O	JJ	O
+4-16	tire	O	O	NN	P1_tire
+4-17	on	O	O	O	O
+4-18	my	O	O	PRP$	P1_rider
+4-19	bicycle	O	O	NN	P1_bicycle
+4-20	was	O	O	VBD	O
+4-21	flat	4-12_ccomp	saw	JJ	O
+4-22	.	O	O	O	O
+
+#id=5
+#text=Luckily , I had a spare tire on hand . 
+5-1	Luckily	5-4_advmod	had	RB	O
+5-2	,	O	O	O	O
+5-3	I	5-4_nsubj	had	PRP	P1_rider
+5-4	had	O	O	VBD	O
+5-5	a	O	O	DT	O
+5-6	spare	O	O	JJ	O
+5-7	tire	5-4_dobj	had	NN	P1_spare_tube
+5-8	on	O	O	O	O
+5-9	hand	O	O	NN	O
+5-10	.	O	O	O	O
+
+#id=6
+#text=The tire that was flat had been on my bicycle for a couple of years now , it needed replaced anyway . 
+6-1	The	O	O	DT	O
+6-2	tire	6-7_nsubj	been	NN	P1_tire
+6-3	that	O	O	WDT	O
+6-4	was	O	O	VBD	O
+6-5	flat	O	O	JJ	O
+6-6	had	6-7_aux	been	VBD	O
+6-7	been	6-19_ccomp	needed	VBN	O
+6-8	on	O	O	O	O
+6-9	my	O	O	PRP$	P1_rider
+6-10	bicycle	6-7_prep_on	been	NN	P1_bicycle
+6-11	for	O	O	O	O
+6-12	a	O	O	DT	O
+6-13	couple	O	O	NN	O
+6-14	of	O	O	O	O
+6-15	years	O	O	NNS	P1_NPart_years
+6-16	now	6-7_advmod	been	RB	O
+6-17	,	O	O	O	O
+6-18	it	6-19_nsubj	needed	PRP	P1_tire
+6-19	needed	O	O	VBD	O
+6-20	replaced	6-19_dep	needed	VBN	O
+6-21	anyway	6-20_advmod	replaced	RB	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=I remembered how my dad had taught me to replace the tire and got the job done . 
+7-1	I	7-2_nsubj	remembered	PRP	P1_rider
+7-2	remembered	O	O	VBD	O
+7-3	how	7-7_advmod	taught	WRB	O
+7-4	my	O	O	PRP$	P1_rider
+7-5	dad	7-7_nsubj	taught	NN	P1_NPart_dad
+7-6	had	7-7_aux	taught	VBD	O
+7-7	taught	7-2_ccomp	remembered	VBN	O
+7-8	me	7-7_dobj	taught	PRP	P2_rider
+7-9	to	7-10_aux	replace	TO	O
+7-10	replace	7-7_xcomp	taught	VB	O
+7-11	the	O	O	DT	O
+7-12	tire	7-10_dobj	replace	NN	P1_tire
+7-13	and	O	O	O	O
+7-14	got	7-2_conj_and	remembered	VBD	O
+7-15	the	O	O	DT	O
+7-16	job	7-14_dobj	got	NN	P1_NPart_job
+7-17	done	O	O	VBN	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=It did not take as long as I thought it might . 
+8-1	It	8-4_nsubj	take	PRP	O
+8-2	did	8-4_aux	take	VBD	O
+8-3	not	8-4_neg	take	RB	O
+8-4	take	O	O	VB	O
+8-5	as	O	O	RB	O
+8-6	long	8-4_advmod	take	RB	O
+8-7	as	8-9_mark	thought	IN	O
+8-8	I	8-9_nsubj	thought	PRP	P1_rider
+8-9	thought	O	O	VBD	O
+8-10	it	O	O	PRP	O
+8-11	might	8-9_ccomp	thought	MD	O
+8-12	.	O	O	O	O
+
+#id=9
+#text=I kept the old tire to see if I could patch it up later and put air in it to have on hand as a spare when I needed one . 
+9-1	I	9-2_nsubj	kept	PRP	P1_rider
+9-2	kept	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	old	O	O	JJ	O
+9-5	tire	9-2_dobj	kept	NN	P1_tire
+9-6	to	9-7_aux	see	TO	O
+9-7	see	9-2_vmod	kept	VB	O
+9-8	if	9-11_mark	patch	IN	O
+9-9	I	9-11_nsubj	patch	PRP	P1_rider
+9-10	could	9-11_aux	patch	MD	O
+9-11	patch	9-7_advcl	see	VB	O
+9-12	it	9-11_dobj	patch	PRP	P1_tire
+9-13	up	O	O	RB	O
+9-14	later	9-11_advmod	patch	RB	O
+9-15	and	O	O	O	O
+9-16	put	9-11_conj_and	patch	VB	O
+9-17	air	9-16_dobj	put	NN	P1_air
+9-18	in	O	O	O	O
+9-19	it	O	O	PRP	P1_tire
+9-20	to	9-21_aux	have	TO	O
+9-21	have	9-16_vmod	put	VB	O
+9-22	on	O	O	O	O
+9-23	hand	9-21_prep_on	have	NN	O
+9-24	as	O	O	O	O
+9-25	a	O	O	DT	O
+9-26	spare	O	O	JJ	P1_tire
+9-27	when	9-29_advmod	needed	WRB	O
+9-28	I	9-29_nsubj	needed	PRP	P1_rider
+9-29	needed	9-2_advcl	kept	VBD	O
+9-30	one	9-29_dobj	needed	CD	P1_tire
+9-31	.	O	O	O	O
+
+#id=10
+#text=After my new tire was on my bike , I went for the ride to the park that I planned and had a great time . 
+10-1	After	10-5_mark	was	IN	O
+10-2	my	O	O	PRP$	P1_rider
+10-3	new	O	O	JJ	O
+10-4	tire	10-5_nsubj	was	NN	P2_tire
+10-5	was	10-11_advcl	went	VBD	O
+10-6	on	O	O	O	O
+10-7	my	O	O	PRP$	P1_rider
+10-8	bike	10-5_prep_on	was	NN	P1_bicycle
+10-9	,	O	O	O	O
+10-10	I	10-11_nsubj	went	PRP	P1_rider
+10-11	went	O	O	VBD	O
+10-12	for	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	ride	10-11_prep_for	went	NN	P1_ride
+10-15	to	O	O	O	O
+10-16	the	O	O	DT	O
+10-17	park	O	O	NN	P2_NPart_park
+10-18	that	10-20_mark	planned	IN	O
+10-19	I	10-20_nsubj	planned	PRP	P1_rider
+10-20	planned	10-11_ccomp	went	VBD	O
+10-21	and	O	O	O	O
+10-22	had	10-20_conj_and	planned	VBD	O
+10-23	a	O	O	DT	O
+10-24	great	O	O	JJ	O
+10-25	time	10-22_dobj	had	NN	O
+10-26	.	O	O	O	O

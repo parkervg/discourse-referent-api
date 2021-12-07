@@ -1,0 +1,282 @@
+#id=1
+#text=I ride my bike to work everyday . 
+1-1	I	1-2_nsubj	ride	PRP	P1_rider
+1-2	ride	O	O	VBP	O
+1-3	my	O	O	PRP$	P1_rider
+1-4	bike	1-2_dobj	ride	NN	P1_bicycle
+1-5	to	1-6_aux	work	TO	O
+1-6	work	O	O	VB	O
+1-7	everyday	1-6_dobj	work	NN	O
+1-8	.	O	O	O	O
+
+#id=2
+#text=I also ride for pleasure on the weekends . 
+2-1	I	2-3_nsubj	ride	PRP	P1_rider
+2-2	also	2-3_advmod	ride	RB	O
+2-3	ride	O	O	VBP	O
+2-4	for	O	O	O	O
+2-5	pleasure	2-3_prep_for	ride	NN	P1_NPart_pleasure
+2-6	on	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	weekends	2-3_prep_on	ride	NNS	P1_NPart_weekends
+2-9	.	O	O	O	O
+
+#id=3
+#text=This morning I was pedaling along and all of the sudden I could feel the gritty pavement scraping the rim . 
+3-1	This	O	O	DT	O
+3-2	morning	3-5_dep	pedaling	NN	P1_NPart_morning
+3-3	I	3-5_nsubj	pedaling	PRP	P1_rider
+3-4	was	3-5_aux	pedaling	VBD	O
+3-5	pedaling	O	O	VBG	O
+3-6	along	3-5_prt	pedaling	RP	O
+3-7	and	O	O	O	O
+3-8	all	3-14_nsubj	feel	DT	O
+3-9	of	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	sudden	O	O	JJ	O
+3-12	I	O	O	NN	P1_rider
+3-13	could	3-14_aux	feel	MD	O
+3-14	feel	3-5_conj_and	pedaling	VB	O
+3-15	the	O	O	DT	O
+3-16	gritty	O	O	JJ	O
+3-17	pavement	3-14_dobj	feel	NN	P1_object_damage
+3-18	scraping	O	O	VBG	O
+3-19	the	O	O	DT	O
+3-20	rim	3-18_dobj	scraping	NN	P1_rim
+3-21	.	O	O	O	O
+
+#id=4
+#text=I got off the bike and sure enough the front tire was flat . 
+4-1	I	4-2_nsubj	got	PRP	P1_rider
+4-2	got	O	O	VBD	O
+4-3	off	4-2_prt	got	RP	O
+4-4	the	O	O	DT	O
+4-5	bike	4-2_dobj	got	NN	P1_bicycle
+4-6	and	O	O	O	O
+4-7	sure	O	O	JJ	O
+4-8	enough	O	O	RB	O
+4-9	the	O	O	DT	O
+4-10	front	O	O	JJ	O
+4-11	tire	O	O	NN	P1_tire
+4-12	was	O	O	VBD	O
+4-13	flat	O	O	JJ	O
+4-14	.	O	O	O	O
+
+#id=5
+#text=Well that is bad but not as bad if the rear tire was flat and I had to take the chain off . 
+5-1	Well	O	O	UH	O
+5-2	that	O	O	DT	O
+5-3	is	O	O	VBZ	O
+5-4	bad	O	O	JJ	O
+5-5	but	O	O	O	O
+5-6	not	O	O	RB	O
+5-7	as	O	O	RB	O
+5-8	bad	O	O	JJ	O
+5-9	if	O	O	IN	O
+5-10	the	O	O	DT	O
+5-11	rear	O	O	JJ	O
+5-12	tire	O	O	NN	P2_tire
+5-13	was	O	O	VBD	O
+5-14	flat	O	O	JJ	O
+5-15	and	O	O	O	O
+5-16	I	5-17_nsubj	had	PRP	P1_rider
+5-17	had	O	O	VBD	O
+5-18	to	5-19_aux	take	TO	O
+5-19	take	5-17_xcomp	had	VB	O
+5-20	the	O	O	DT	O
+5-21	chain	5-19_dobj	take	NN	P1_other
+5-22	off	5-19_prt	take	RP	O
+5-23	.	O	O	O	O
+
+#id=6
+#text=I always carry a spare inner tube and have a pump on the frame of my bike . 
+6-1	I	6-3_nsubj	carry	PRP	P1_rider
+6-2	always	6-3_advmod	carry	RB	O
+6-3	carry	O	O	VBP	O
+6-4	a	O	O	DT	O
+6-5	spare	O	O	JJ	O
+6-6	inner	O	O	JJ	O
+6-7	tube	6-3_dobj	carry	NN	P1_spare_tube
+6-8	and	O	O	O	O
+6-9	have	6-3_conj_and	carry	VBP	O
+6-10	a	O	O	DT	O
+6-11	pump	6-9_dobj	have	NN	P1_tool
+6-12	on	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	frame	O	O	NN	P1_NPart_frame
+6-15	of	O	O	O	O
+6-16	my	O	O	PRP$	P1_rider
+6-17	bike	O	O	NN	P1_bicycle
+6-18	.	O	O	O	O
+
+#id=7
+#text=This was going to be easy as I have done this many times before . 
+7-1	This	7-3_nsubj	going	DT	O
+7-2	was	7-3_aux	going	VBD	O
+7-3	going	O	O	VBG	O
+7-4	to	O	O	TO	O
+7-5	be	O	O	VB	O
+7-6	easy	7-3_xcomp	going	JJ	O
+7-7	as	7-10_mark	done	IN	O
+7-8	I	7-10_nsubj	done	PRP	P1_rider
+7-9	have	7-10_aux	done	VBP	O
+7-10	done	O	O	VBN	O
+7-11	this	O	O	DT	O
+7-12	many	O	O	JJ	O
+7-13	times	O	O	NNS	O
+7-14	before	7-10_advmod	done	IN	O
+7-15	.	O	O	O	O
+
+#id=8
+#text=I loosened the lock nuts that hold the front tire in place and pulled the tire from the frame . 
+8-1	I	8-2_nsubj	loosened	PRP	P1_rider
+8-2	loosened	O	O	VBN	O
+8-3	the	O	O	DT	O
+8-4	lock	O	O	JJ	O
+8-5	nuts	8-2_dobj	loosened	NNS	P1_bicycle_small_detail
+8-6	that	8-7_nsubj	hold	WDT	O
+8-7	hold	O	O	VBP	O
+8-8	the	O	O	DT	O
+8-9	front	O	O	JJ	O
+8-10	tire	8-7_dobj	hold	NN	P1_tire
+8-11	in	O	O	O	O
+8-12	place	O	O	NN	O
+8-13	and	O	O	O	O
+8-14	pulled	8-7_conj_and	hold	VBD	O
+8-15	the	O	O	DT	O
+8-16	tire	8-14_dobj	pulled	NN	P1_tire
+8-17	from	O	O	O	O
+8-18	the	O	O	DT	O
+8-19	frame	8-14_prep_from	pulled	NN	P2_NPart_frame
+8-20	.	O	O	O	O
+
+#id=9
+#text=I looked in my bike pack and found the tool that helps take the tire off the rim . 
+9-1	I	9-2_nsubj	looked	PRP	P1_rider
+9-2	looked	O	O	VBD	O
+9-3	in	O	O	O	O
+9-4	my	O	O	PRP$	P1_rider
+9-5	bike	O	O	NN	O
+9-6	pack	9-2_prep_in	looked	NN	P1_NPart_pack
+9-7	and	O	O	O	O
+9-8	found	9-2_conj_and	looked	VBD	O
+9-9	the	O	O	DT	O
+9-10	tool	9-8_dobj	found	NN	P2_tool
+9-11	that	9-12_nsubj	helps	WDT	O
+9-12	helps	O	O	VBZ	O
+9-13	take	9-12_xcomp	helps	VB	O
+9-14	the	O	O	DT	O
+9-15	tire	9-13_dobj	take	NN	P1_tire
+9-16	off	O	O	O	O
+9-17	the	O	O	DT	O
+9-18	rim	9-13_prep_off	take	NN	P1_rim
+9-19	.	O	O	O	O
+
+#id=10
+#text=This took all of 5 minutes . 
+10-1	This	10-2_nsubj	took	DT	O
+10-2	took	O	O	VBD	O
+10-3	all	10-2_dobj	took	DT	O
+10-4	of	O	O	O	O
+10-5	5	O	O	CD	O
+10-6	minutes	O	O	NNS	P1_NPart_minutes
+10-7	.	O	O	O	O
+
+#id=11
+#text=When I had that off I took the old inner tube and placed it in my backpack to patch later . 
+11-1	When	11-3_advmod	had	WRB	O
+11-2	I	11-3_nsubj	had	PRP	P1_rider
+11-3	had	11-7_advcl	took	VBD	O
+11-4	that	11-3_dobj	had	DT	O
+11-5	off	11-3_advmod	had	RB	O
+11-6	I	11-7_nsubj	took	PRP	P1_rider
+11-7	took	O	O	VBD	O
+11-8	the	O	O	DT	O
+11-9	old	O	O	JJ	O
+11-10	inner	O	O	JJ	O
+11-11	tube	11-7_dobj	took	NN	P3_tire
+11-12	and	O	O	O	O
+11-13	placed	11-7_conj_and	took	VBD	O
+11-14	it	11-13_dobj	placed	PRP	P3_tire
+11-15	in	O	O	O	O
+11-16	my	O	O	PRP$	P1_rider
+11-17	backpack	11-13_prep_in	placed	NN	P1_NPart_backpack
+11-18	to	O	O	O	O
+11-19	patch	11-13_prep_to	placed	NN	O
+11-20	later	11-13_advmod	placed	RB	O
+11-21	.	O	O	O	O
+
+#id=12
+#text=I then fit the good inner tube inside the tire and in reverse order fitted the tire to the rim . 
+12-1	I	12-3_nsubj	fit	PRP	P1_rider
+12-2	then	12-3_advmod	fit	RB	O
+12-3	fit	12-3_conj_and	fit	VBP	O
+12-4	the	O	O	DT	O
+12-5	good	O	O	JJ	O
+12-6	inner	O	O	JJ	O
+12-7	tube	12-3_dobj	fit	NN	P1_spare_tube
+12-8	inside	O	O	O	O
+12-9	the	O	O	DT	O
+12-10	tire	12-3_prep_inside	fit	NN	P1_tire
+12-11	and	O	O	O	O
+12-12	in	O	O	O	O
+12-13	reverse	O	O	JJ	O
+12-14	order	12-3_prep_in	fit	NN	O
+12-15	fitted	O	O	VBN	O
+12-16	the	O	O	DT	O
+12-17	tire	12-15_dobj	fitted	NN	P1_tire
+12-18	to	O	O	O	O
+12-19	the	O	O	DT	O
+12-20	rim	12-15_prep_to	fitted	NN	P1_rim
+12-21	.	O	O	O	O
+
+#id=13
+#text=I next took my pump and filled it up to the correct pressure . 
+13-1	I	13-3_nsubj	took	PRP	P1_rider
+13-2	next	13-3_advmod	took	JJ	O
+13-3	took	O	O	VBD	O
+13-4	my	O	O	PRP$	P1_rider
+13-5	pump	13-3_dobj	took	NN	P1_tool
+13-6	and	O	O	O	O
+13-7	filled	13-3_conj_and	took	VBD	O
+13-8	it	13-7_dobj	filled	PRP	P1_tire
+13-9	up	13-7_prt	filled	RP	O
+13-10	to	O	O	O	O
+13-11	the	O	O	DT	O
+13-12	correct	O	O	JJ	O
+13-13	pressure	13-7_prep_to	filled	NN	P1_pressure
+13-14	.	O	O	O	O
+
+#id=14
+#text=I put the tire back on the front fork and tightened the locking nuts and was on my way . 
+14-1	I	14-2_nsubj	put	PRP	P1_rider
+14-2	put	O	O	VBD	O
+14-3	the	O	O	DT	O
+14-4	tire	14-9_nsubj	fork	NN	P1_tire
+14-5	back	14-9_advmod	fork	RB	O
+14-6	on	O	O	O	O
+14-7	the	O	O	DT	O
+14-8	front	O	O	NN	O
+14-9	fork	14-2_ccomp	put	VBD	P2_bicycle_small_detail
+14-10	and	O	O	O	O
+14-11	tightened	14-9_conj_and	fork	VBD	O
+14-12	the	O	O	DT	O
+14-13	locking	O	O	JJ	O
+14-14	nuts	14-9_dobj	fork	NNS	P1_bicycle_small_detail
+14-15	and	O	O	O	O
+14-16	was	14-9_conj_and	fork	VBD	O
+14-17	on	O	O	O	O
+14-18	my	O	O	PRP$	P1_rider
+14-19	way	14-16_prep_on	was	NN	O
+14-20	.	O	O	O	O
+
+#id=15
+#text=I was n't even late for work . 
+15-1	I	O	O	PRP	P1_rider
+15-2	was	O	O	VBD	O
+15-3	n't	O	O	RB	O
+15-4	even	O	O	RB	O
+15-5	late	O	O	JJ	O
+15-6	for	O	O	O	O
+15-7	work	O	O	NN	P1_NPart_work
+15-8	.	O	O	O	O

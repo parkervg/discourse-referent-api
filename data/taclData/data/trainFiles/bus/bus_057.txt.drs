@@ -1,0 +1,188 @@
+#id=1
+#text=Today I rode the public bus to work as I usually do . 
+1-1	Today	1-3_tmod	rode	NN	O
+1-2	I	1-3_nsubj	rode	PRP	P1_passenger
+1-3	rode	O	O	VBD	O
+1-4	the	O	O	DT	O
+1-5	public	O	O	JJ	O
+1-6	bus	1-3_dobj	rode	NN	P1_bus
+1-7	to	1-8_aux	work	TO	O
+1-8	work	1-3_vmod	rode	VB	P1_destination
+1-9	as	1-12_mark	do	IN	O
+1-10	I	1-12_nsubj	do	PRP	P1_passenger
+1-11	usually	1-12_advmod	do	RB	O
+1-12	do	1-8_advcl	work	VBP	O
+1-13	.	O	O	O	O
+
+#id=2
+#text=Because I ride several busses daily , I had previously purchased a bus pass that allows unlimited use for the month . 
+2-1	Because	2-3_mark	ride	IN	O
+2-2	I	2-3_nsubj	ride	PRP	P1_passenger
+2-3	ride	2-11_advcl	purchased	VBP	O
+2-4	several	O	O	JJ	O
+2-5	busses	2-3_dobj	ride	NNS	P1_bus
+2-6	daily	2-3_advmod	ride	RB	O
+2-7	,	O	O	O	O
+2-8	I	2-11_nsubj	purchased	PRP	P1_passenger
+2-9	had	2-11_aux	purchased	VBD	O
+2-10	previously	2-11_advmod	purchased	RB	O
+2-11	purchased	O	O	VBN	O
+2-12	a	O	O	DT	O
+2-13	bus	O	O	NN	O
+2-14	pass	2-11_dobj	purchased	NN	P1_card/ticket
+2-15	that	2-16_nsubj	allows	WDT	P1_card/ticket
+2-16	allows	O	O	VBZ	O
+2-17	unlimited	O	O	JJ	O
+2-18	use	2-16_dobj	allows	NN	P1_NPart_use
+2-19	for	O	O	O	O
+2-20	the	O	O	DT	O
+2-21	month	O	O	NN	P1_NPart_month
+2-22	.	O	O	O	O
+
+#id=3
+#text=By having this pass I did n't need to worry about having proper change or tokens for the bus . 
+3-1	By	O	O	O	O
+3-2	having	3-8_prepc_by	need	VBG	O
+3-3	this	O	O	DT	O
+3-4	pass	3-2_dobj	having	NN	P1_card/ticket
+3-5	I	3-8_nsubj	need	PRP	P1_passenger
+3-6	did	3-8_aux	need	VBD	O
+3-7	n't	3-8_neg	need	RB	O
+3-8	need	O	O	VB	O
+3-9	to	3-10_aux	worry	TO	O
+3-10	worry	3-8_xcomp	need	VB	O
+3-11	about	O	O	O	O
+3-12	having	3-10_prepc_about	worry	VBG	O
+3-13	proper	O	O	JJ	O
+3-14	change	3-12_dobj	having	NN	P1_money
+3-15	or	O	O	O	O
+3-16	tokens	O	O	NNS	P2_money
+3-17	for	O	O	O	O
+3-18	the	O	O	DT	O
+3-19	bus	O	O	NN	P1_bus
+3-20	.	O	O	O	O
+
+#id=4
+#text=I checked the schedule for my bus by using '' `` Google Maps '' '' and determined that my regular bus was on schedule . 
+4-1	I	4-2_nsubj	checked	PRP	P1_passenger
+4-2	checked	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	schedule	4-2_dobj	checked	NN	P1_time-table
+4-5	for	O	O	O	O
+4-6	my	O	O	PRP$	P1_passenger
+4-7	bus	O	O	NN	P1_bus
+4-8	by	O	O	O	O
+4-9	using	4-2_prepc_by	checked	VBG	O
+4-10	''	O	O	O	O
+4-11	``	O	O	O	O
+4-12	Google	O	O	JJ	O
+4-13	Maps	4-9_dobj	using	NNS	P1_NPart_maps
+4-14	''	O	O	O	O
+4-15	''	O	O	O	O
+4-16	and	O	O	O	O
+4-17	determined	4-2_conj_and	checked	VBD	O
+4-18	that	4-22_mark	was	IN	O
+4-19	my	O	O	PRP$	P1_passenger
+4-20	regular	O	O	JJ	O
+4-21	bus	4-22_nsubj	was	NN	P1_bus
+4-22	was	4-17_ccomp	determined	VBD	O
+4-23	on	O	O	O	O
+4-24	schedule	4-22_prep_on	was	NN	P1_time/date
+4-25	.	O	O	O	O
+
+#id=5
+#text=I walked to the bus stop and saw that my bus was several blocks away . 
+5-1	I	5-2_nsubj	walked	PRP	P1_passenger
+5-2	walked	O	O	VBD	O
+5-3	to	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	bus	O	O	NN	O
+5-6	stop	5-2_prep_to	walked	NN	P1_bus_stop
+5-7	and	O	O	O	O
+5-8	saw	5-2_conj_and	walked	VBD	O
+5-9	that	O	O	IN	O
+5-10	my	O	O	PRP$	P1_passenger
+5-11	bus	O	O	NN	P1_bus
+5-12	was	O	O	VBD	O
+5-13	several	O	O	JJ	O
+5-14	blocks	5-8_ccomp	saw	NNS	P1_NPart_blocks
+5-15	away	O	O	RB	O
+5-16	.	O	O	O	O
+
+#id=6
+#text=When the bus arrived I boarded it after several other passengers , and then slid my pass through the card reader . 
+6-1	When	6-4_advmod	arrived	WRB	O
+6-2	the	O	O	DT	O
+6-3	bus	6-4_nsubj	arrived	NN	P1_bus
+6-4	arrived	6-6_advcl	boarded	VBD	O
+6-5	I	6-6_nsubj	boarded	PRP	P1_passenger
+6-6	boarded	O	O	VBD	O
+6-7	it	6-6_dobj	boarded	PRP	P1_bus
+6-8	after	O	O	O	O
+6-9	several	O	O	JJ	O
+6-10	other	O	O	JJ	O
+6-11	passengers	6-6_prep_after	boarded	NNS	P2_passenger
+6-12	,	O	O	O	O
+6-13	and	O	O	O	O
+6-14	then	6-15_advmod	slid	RB	O
+6-15	slid	6-6_conj_and	boarded	VBD	O
+6-16	my	O	O	PRP$	P1_passenger
+6-17	pass	6-15_dobj	slid	NN	P1_card/ticket
+6-18	through	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	card	O	O	NN	O
+6-21	reader	6-15_prep_through	slid	NN	P1_payment_machine
+6-22	.	O	O	O	O
+
+#id=7
+#text=There were several seats available and I selected the first one I came to . 
+7-1	There	7-2_expl	were	EX	O
+7-2	were	O	O	VBD	O
+7-3	several	O	O	JJ	O
+7-4	seats	O	O	NNS	P1_seat_in_bus
+7-5	available	7-2_acomp	were	JJ	O
+7-6	and	O	O	O	O
+7-7	I	7-8_nsubj	selected	PRP	P1_passenger
+7-8	selected	7-2_conj_and	were	VBD	O
+7-9	the	O	O	DT	O
+7-10	first	O	O	JJ	O
+7-11	one	7-8_dobj	selected	NN	P1_seat_in_bus
+7-12	I	7-13_nsubj	came	PRP	P1_passenger
+7-13	came	O	O	VBD	O
+7-14	to	7-13_prep	came	TO	O
+7-15	.	O	O	O	O
+
+#id=8
+#text=The bus continued on schedule along the route with passengers departing and boarding . 
+8-1	The	O	O	DT	O
+8-2	bus	8-3_nsubj	continued	NN	P1_bus
+8-3	continued	O	O	VBD	O
+8-4	on	O	O	O	O
+8-5	schedule	8-3_prep_on	continued	NN	P2_time/date
+8-6	along	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	route	8-3_prep_along	continued	NN	P1_route
+8-9	with	O	O	O	O
+8-10	passengers	8-3_prep_with	continued	NNS	P2_passenger
+8-11	departing	O	O	VBG	O
+8-12	and	O	O	O	O
+8-13	boarding	O	O	VBG	O
+8-14	.	O	O	O	O
+
+#id=9
+#text=When I arrived at work I gathered all of my personal belongings and disembarked . 
+9-1	When	9-3_advmod	arrived	WRB	O
+9-2	I	9-3_nsubj	arrived	PRP	P1_passenger
+9-3	arrived	9-7_advcl	gathered	VBD	O
+9-4	at	O	O	O	O
+9-5	work	9-3_prep_at	arrived	NN	P1_destination
+9-6	I	9-7_nsubj	gathered	PRP	P1_passenger
+9-7	gathered	O	O	VBD	O
+9-8	all	9-7_dobj	gathered	DT	O
+9-9	of	O	O	O	O
+9-10	my	O	O	PRP$	P1_passenger
+9-11	personal	O	O	JJ	O
+9-12	belongings	O	O	NNS	P1_NPart_belongings
+9-13	and	O	O	O	O
+9-14	disembarked	9-7_conj_and	gathered	VBD	O
+9-15	.	O	O	O	O

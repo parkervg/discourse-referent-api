@@ -1,0 +1,198 @@
+#id=1
+#text=Today I decided to pick out a book from the library . 
+1-1	Today	1-3_tmod	decided	NN	O
+1-2	I	1-3_nsubj	decided	PRP	P1_customer
+1-3	decided	O	O	VBD	O
+1-4	to	1-5_aux	pick	TO	O
+1-5	pick	1-3_xcomp	decided	VB	O
+1-6	out	1-5_prt	pick	RP	O
+1-7	a	O	O	DT	O
+1-8	book	1-5_dobj	pick	NN	P1_book
+1-9	from	O	O	O	O
+1-10	the	O	O	DT	O
+1-11	library	O	O	NN	P1_library
+1-12	.	O	O	O	O
+
+#id=2
+#text=I got in my car and drove a couple of miles from my house down to the library . 
+2-1	I	2-2_nsubj	got	PRP	P1_customer
+2-2	got	O	O	VBD	O
+2-3	in	O	O	O	O
+2-4	my	O	O	PRP$	P1_customer
+2-5	car	2-2_prep_in	got	NN	P1_NPart_car
+2-6	and	O	O	O	O
+2-7	drove	2-2_conj_and	got	VBD	O
+2-8	a	O	O	DT	O
+2-9	couple	2-7_dobj	drove	NN	O
+2-10	of	O	O	O	O
+2-11	miles	O	O	NNS	P1_NPart_miles
+2-12	from	O	O	O	O
+2-13	my	O	O	PRP$	P1_customer
+2-14	house	2-7_prep_from	drove	NN	P1_NPart_house
+2-15	down	2-7_advmod	drove	RB	O
+2-16	to	O	O	O	O
+2-17	the	O	O	DT	O
+2-18	library	O	O	NN	P1_library
+2-19	.	O	O	O	O
+
+#id=3
+#text=I walked inside . 
+3-1	I	3-2_nsubj	walked	PRP	P1_customer
+3-2	walked	O	O	VBD	O
+3-3	inside	3-2_advmod	walked	RB	O
+3-4	.	O	O	O	O
+
+#id=4
+#text=I began by looking through the fiction section . 
+4-1	I	4-2_nsubj	began	PRP	P1_customer
+4-2	began	O	O	VBD	O
+4-3	by	O	O	O	O
+4-4	looking	4-2_prepc_by	began	VBG	O
+4-5	through	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	fiction	O	O	NN	O
+4-8	section	4-4_prep_through	looking	NN	P1_location_library
+4-9	.	O	O	O	O
+
+#id=5
+#text=I scanned the rows of books for familiar author names or interesting titles . 
+5-1	I	5-2_nsubj	scanned	PRP	P1_customer
+5-2	scanned	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	rows	5-2_dobj	scanned	NNS	O
+5-5	of	O	O	O	O
+5-6	books	O	O	NNS	P1_book
+5-7	for	O	O	O	O
+5-8	familiar	O	O	JJ	O
+5-9	author	O	O	NN	O
+5-10	names	5-2_prep_for	scanned	NNS	P1_other
+5-11	or	O	O	O	O
+5-12	interesting	O	O	JJ	O
+5-13	titles	O	O	NNS	P2_other
+5-14	.	O	O	O	O
+
+#id=6
+#text=I picked up a few books and read the first page or so of each one . 
+6-1	I	6-2_nsubj	picked	PRP	P1_customer
+6-2	picked	O	O	VBD	O
+6-3	up	6-2_prt	picked	RP	O
+6-4	a	O	O	DT	O
+6-5	few	O	O	JJ	O
+6-6	books	6-2_dobj	picked	NNS	P1_book
+6-7	and	O	O	O	O
+6-8	read	6-2_conj_and	picked	VBD	O
+6-9	the	O	O	DT	O
+6-10	first	O	O	JJ	O
+6-11	page	6-8_dobj	read	NN	P1_NPart_page
+6-12	or	O	O	O	O
+6-13	so	O	O	RB	O
+6-14	of	O	O	O	O
+6-15	each	O	O	DT	O
+6-16	one	O	O	NN	P1_book
+6-17	.	O	O	O	O
+
+#id=7
+#text=Once I found one that looked like it would be a good read , I picked it up and took it over to the front counter . 
+7-1	Once	7-3_mark	found	IN	O
+7-2	I	7-3_nsubj	found	PRP	P1_customer
+7-3	found	7-16_advcl	picked	VBD	O
+7-4	one	7-3_dobj	found	CD	P1_book
+7-5	that	7-6_nsubj	looked	WDT	P1_book
+7-6	looked	O	O	VBD	O
+7-7	like	O	O	IN	O
+7-8	it	O	O	PRP	P1_book
+7-9	would	O	O	MD	O
+7-10	be	O	O	VB	O
+7-11	a	O	O	DT	O
+7-12	good	O	O	JJ	O
+7-13	read	7-6_advcl	looked	NN	P1_NPart_read
+7-14	,	O	O	O	O
+7-15	I	7-16_nsubj	picked	PRP	P1_customer
+7-16	picked	O	O	VBD	O
+7-17	it	7-16_dobj	picked	PRP	P1_book
+7-18	up	7-16_prt	picked	RP	O
+7-19	and	O	O	O	O
+7-20	took	7-16_conj_and	picked	VBD	O
+7-21	it	7-20_dobj	took	PRP	P1_book
+7-22	over	7-20_prt	took	RP	O
+7-23	to	O	O	O	O
+7-24	the	O	O	DT	O
+7-25	front	O	O	JJ	O
+7-26	counter	7-20_prep_to	took	NN	P1_check-out_desk
+7-27	.	O	O	O	O
+
+#id=8
+#text=There was a short line , so I waited while other people signed up for library cards and checked out books . 
+8-1	There	8-2_expl	was	EX	O
+8-2	was	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	short	O	O	JJ	O
+8-5	line	8-2_nsubj	was	NN	P1_line
+8-6	,	O	O	O	O
+8-7	so	8-2_dep	was	IN	O
+8-8	I	8-9_nsubj	waited	PRP	P1_customer
+8-9	waited	8-2_parataxis	was	VBD	O
+8-10	while	8-13_mark	signed	IN	O
+8-11	other	O	O	JJ	O
+8-12	people	8-13_nsubj	signed	NNS	P2_customer
+8-13	signed	8-9_advcl	waited	VBD	O
+8-14	up	8-13_prt	signed	RP	O
+8-15	for	O	O	O	O
+8-16	library	O	O	NN	O
+8-17	cards	8-13_prep_for	signed	NNS	P1_library_card
+8-18	and	O	O	O	O
+8-19	checked	8-13_conj_and	signed	VBD	O
+8-20	out	8-19_prt	checked	RP	O
+8-21	books	8-19_dobj	checked	NNS	P1_book
+8-22	.	O	O	O	O
+
+#id=9
+#text=Once I arrived at the counter , the librarian took my book and scanned it . 
+9-1	Once	9-3_mark	arrived	IN	O
+9-2	I	9-3_nsubj	arrived	PRP	P1_customer
+9-3	arrived	9-10_advcl	took	VBD	O
+9-4	at	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	counter	9-3_prep_at	arrived	NN	P1_check-out_desk
+9-7	,	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	librarian	9-10_nsubj	took	NN	P1_staff
+9-10	took	O	O	VBD	O
+9-11	my	O	O	PRP$	P1_customer
+9-12	book	9-10_dobj	took	NN	P1_book
+9-13	and	O	O	O	O
+9-14	scanned	9-10_conj_and	took	VBD	O
+9-15	it	9-14_dobj	scanned	PRP	P1_book
+9-16	.	O	O	O	O
+
+#id=10
+#text=She told me it would be due two weeks from now , and gave me a receipt . 
+10-1	She	10-2_nsubj	told	PRP	P1_staff
+10-2	told	O	O	VBD	O
+10-3	me	10-2_dobj	told	PRP	P1_customer
+10-4	it	O	O	PRP	P1_book
+10-5	would	O	O	MD	O
+10-6	be	O	O	VB	O
+10-7	due	10-2_dep	told	JJ	O
+10-8	two	O	O	CD	O
+10-9	weeks	O	O	NNS	P1_return_date
+10-10	from	O	O	IN	O
+10-11	now	O	O	RB	O
+10-12	,	O	O	O	O
+10-13	and	O	O	O	O
+10-14	gave	10-2_conj_and	told	VBD	O
+10-15	me	10-14_iobj	gave	PRP	P1_customer
+10-16	a	O	O	DT	O
+10-17	receipt	10-14_dobj	gave	NN	P1_receipt
+10-18	.	O	O	O	O
+
+#id=11
+#text=I thanked her and exited the library . 
+11-1	I	11-2_nsubj	thanked	PRP	P1_customer
+11-2	thanked	O	O	VBD	O
+11-3	her	11-2_dobj	thanked	PRP	P1_staff
+11-4	and	O	O	O	O
+11-5	exited	11-2_conj_and	thanked	VBD	O
+11-6	the	O	O	DT	O
+11-7	library	11-5_dobj	exited	NN	P1_library
+11-8	.	O	O	O	O

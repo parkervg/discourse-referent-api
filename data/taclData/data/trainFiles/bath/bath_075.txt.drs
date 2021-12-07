@@ -1,0 +1,291 @@
+#id=1
+#text=The Long Awaited Bath I had been outside working in my garden all day . 
+1-1	The	O	O	DT	O
+1-2	Long	O	O	NNP	O
+1-3	Awaited	1-4_nsubj	Bath	NNP	O
+1-4	Bath	O	O	VBP	P1_bath
+1-5	I	1-9_nsubj	working	PRP	P1_bather
+1-6	had	1-9_aux	working	VBD	O
+1-7	been	1-9_aux	working	VBN	O
+1-8	outside	1-9_advmod	working	RB	O
+1-9	working	1-4_ccomp	Bath	VBG	O
+1-10	in	O	O	O	O
+1-11	my	O	O	PRP$	P1_bather
+1-12	garden	1-9_prep_in	working	NN	P1_NPart_garden
+1-13	all	O	O	DT	O
+1-14	day	O	O	NN	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=It was warm and humid outside so besides being caked in dirt , I also had sweated a lot and did not smell very good . 
+2-1	It	O	O	PRP	P1_NPart_it
+2-2	was	O	O	VBD	O
+2-3	warm	O	O	JJ	O
+2-4	and	O	O	O	O
+2-5	humid	O	O	JJ	O
+2-6	outside	O	O	O	O
+2-7	so	2-17_mark	sweated	IN	O
+2-8	besides	O	O	O	O
+2-9	being	2-10_auxpass	caked	VBG	O
+2-10	caked	2-17_prepc_besides	sweated	VBD	O
+2-11	in	O	O	O	O
+2-12	dirt	2-10_prep_in	caked	NN	P1_NPart_dirt
+2-13	,	O	O	O	O
+2-14	I	2-17_nsubj	sweated	PRP	P1_bather
+2-15	also	2-17_advmod	sweated	RB	O
+2-16	had	2-17_aux	sweated	VBD	O
+2-17	sweated	O	O	VBN	O
+2-18	a	O	O	DT	O
+2-19	lot	2-17_dobj	sweated	NN	O
+2-20	and	O	O	O	O
+2-21	did	2-23_aux	smell	VBD	O
+2-22	not	2-23_neg	smell	RB	O
+2-23	smell	O	O	VB	O
+2-24	very	O	O	RB	O
+2-25	good	2-23_acomp	smell	JJ	O
+2-26	.	O	O	O	O
+
+#id=3
+#text=I wanted to get everything done in one day so I had worked very hard for a very long time . 
+3-1	I	3-2_nsubj	wanted	PRP	P1_bather
+3-2	wanted	O	O	VBD	O
+3-3	to	3-4_aux	get	TO	O
+3-4	get	3-2_xcomp	wanted	VB	O
+3-5	everything	3-4_dobj	get	NN	O
+3-6	done	O	O	VBN	O
+3-7	in	O	O	O	O
+3-8	one	3-6_prep_in	done	CD	O
+3-9	day	3-6_tmod	done	NN	P1_NPart_day
+3-10	so	3-13_mark	worked	IN	O
+3-11	I	3-13_nsubj	worked	PRP	P1_bather
+3-12	had	3-13_aux	worked	VBD	O
+3-13	worked	3-6_advcl	done	VBN	O
+3-14	very	O	O	RB	O
+3-15	hard	3-13_acomp	worked	JJ	O
+3-16	for	O	O	O	O
+3-17	a	O	O	DT	O
+3-18	very	O	O	RB	O
+3-19	long	O	O	JJ	O
+3-20	time	3-13_prep_for	worked	NN	O
+3-21	.	O	O	O	O
+
+#id=4
+#text=However , when I went inside to clean up , I realized from an automated message in my voice mail that the water had been shut off temporarily for emergency repairs , it would be on again in a few hours . 
+4-1	However	4-12_advmod	realized	RB	O
+4-2	,	O	O	O	O
+4-3	when	4-5_advmod	went	WRB	O
+4-4	I	4-5_nsubj	went	PRP	P1_bather
+4-5	went	4-12_advcl	realized	VBD	O
+4-6	inside	4-5_advmod	went	RB	O
+4-7	to	4-8_aux	clean	TO	O
+4-8	clean	4-5_xcomp	went	VB	O
+4-9	up	4-8_prt	clean	RP	O
+4-10	,	O	O	O	O
+4-11	I	4-12_nsubj	realized	PRP	P1_bather
+4-12	realized	4-35_ccomp	be	VBD	O
+4-13	from	O	O	O	O
+4-14	an	O	O	DT	O
+4-15	automated	O	O	JJ	O
+4-16	message	4-12_prep_from	realized	NN	P1_NPart_message
+4-17	in	O	O	O	O
+4-18	my	O	O	PRP$	P1_bather
+4-19	voice	O	O	NN	O
+4-20	mail	O	O	NN	P1_NPart_mail
+4-21	that	4-26_mark	shut	IN	O
+4-22	the	O	O	DT	O
+4-23	water	4-26_nsubjpass	shut	NN	P1_water
+4-24	had	4-26_aux	shut	VBD	O
+4-25	been	4-26_auxpass	shut	VBN	O
+4-26	shut	4-12_ccomp	realized	VBN	O
+4-27	off	4-26_prt	shut	RP	O
+4-28	temporarily	4-26_advmod	shut	RB	O
+4-29	for	O	O	O	O
+4-30	emergency	O	O	NN	O
+4-31	repairs	4-26_prep_for	shut	NNS	P1_NPart_repairs
+4-32	,	O	O	O	O
+4-33	it	4-35_nsubj	be	PRP	P1_water
+4-34	would	4-35_aux	be	MD	O
+4-35	be	O	O	VB	O
+4-36	on	4-35_prep	be	IN	O
+4-37	again	O	O	RB	O
+4-38	in	O	O	O	O
+4-39	a	O	O	DT	O
+4-40	few	O	O	JJ	O
+4-41	hours	4-35_prep_in	be	NNS	P1_NPart_hours
+4-42	.	O	O	O	O
+
+#id=5
+#text=I was frustrated , but I decided that I was hungry as well so I made myself a sandwich and cut up some fruit to eat . 
+5-1	I	5-3_nsubjpass	frustrated	PRP	P1_bather
+5-2	was	5-3_auxpass	frustrated	VBD	O
+5-3	frustrated	O	O	VBN	O
+5-4	,	O	O	O	O
+5-5	but	O	O	O	O
+5-6	I	5-7_nsubj	decided	PRP	P1_bather
+5-7	decided	5-3_conj_but	frustrated	VBD	O
+5-8	that	O	O	IN	O
+5-9	I	O	O	PRP	P1_bather
+5-10	was	O	O	VBD	O
+5-11	hungry	5-7_dobj	decided	JJ	O
+5-12	as	O	O	O	O
+5-13	well	O	O	O	O
+5-14	so	5-16_mark	made	IN	O
+5-15	I	5-16_nsubj	made	PRP	P1_bather
+5-16	made	O	O	VBD	O
+5-17	myself	O	O	PRP	P1_bather
+5-18	a	O	O	DT	O
+5-19	sandwich	5-16_xcomp	made	NN	P1_NPart_sandwich
+5-20	and	O	O	O	O
+5-21	cut	5-16_conj_and	made	VBD	O
+5-22	up	5-21_prt	cut	RP	O
+5-23	some	O	O	DT	O
+5-24	fruit	5-21_dobj	cut	NN	P1_NPart_fruit
+5-25	to	5-26_aux	eat	TO	O
+5-26	eat	5-7_vmod	decided	VB	O
+5-27	.	O	O	O	O
+
+#id=6
+#text=I took off my dirty clothes and put them in the hamper and put on a clean t-shirt and shorts and then put down an old blanket on my couch before I sat on it so I would not get it dirty . 
+6-1	I	6-2_nsubj	took	PRP	P1_bather
+6-2	took	O	O	VBD	O
+6-3	off	6-2_prt	took	RP	O
+6-4	my	O	O	PRP$	P1_bather
+6-5	dirty	O	O	JJ	O
+6-6	clothes	6-2_dobj	took	NNS	P1_clothes
+6-7	and	O	O	O	O
+6-8	put	6-2_conj_and	took	VB	O
+6-9	them	6-8_dobj	put	PRP	P1_clothes
+6-10	in	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	hamper	6-8_prep_in	put	NN	P1_hamper
+6-13	and	O	O	O	O
+6-14	put	6-8_conj_and	put	VB	O
+6-15	on	O	O	O	O
+6-16	a	O	O	DT	O
+6-17	clean	O	O	JJ	O
+6-18	t-shirt	6-14_prep_on	put	NN	P2_clothes
+6-19	and	O	O	O	O
+6-20	shorts	O	O	NNS	P3_clothes
+6-21	and	O	O	O	O
+6-22	then	6-23_advmod	put	RB	O
+6-23	put	6-8_conj_and	put	VB	O
+6-24	down	6-23_prt	put	RP	O
+6-25	an	O	O	DT	O
+6-26	old	O	O	JJ	O
+6-27	blanket	6-23_dobj	put	NN	P1_NPart_blanket
+6-28	on	O	O	O	O
+6-29	my	O	O	PRP$	P1_bather
+6-30	couch	O	O	NN	P1_NPart_couch
+6-31	before	6-33_mark	sat	IN	O
+6-32	I	6-33_nsubj	sat	PRP	P1_bather
+6-33	sat	6-23_advcl	put	VBD	O
+6-34	on	O	O	O	O
+6-35	it	6-33_prep_on	sat	PRP	P2_NPart_it
+6-36	so	6-40_mark	get	IN	O
+6-37	I	6-40_nsubj	get	PRP	P1_bather
+6-38	would	6-40_aux	get	MD	O
+6-39	not	6-40_neg	get	RB	O
+6-40	get	6-33_advcl	sat	VB	O
+6-41	it	O	O	PRP	P3_NPart_it
+6-42	dirty	6-40_xcomp	get	JJ	O
+6-43	.	O	O	O	O
+
+#id=7
+#text=I watched part of a baseball game until I could not stand my own stench any more . 
+7-1	I	7-2_nsubj	watched	PRP	P1_bather
+7-2	watched	O	O	VBD	O
+7-3	part	7-2_dobj	watched	NN	O
+7-4	of	O	O	O	O
+7-5	a	O	O	DT	O
+7-6	baseball	O	O	NN	O
+7-7	game	O	O	NN	P1_NPart_game
+7-8	until	7-12_mark	stand	IN	O
+7-9	I	7-12_nsubj	stand	PRP	P1_bather
+7-10	could	7-12_aux	stand	MD	O
+7-11	not	7-12_neg	stand	RB	O
+7-12	stand	7-2_advcl	watched	VB	O
+7-13	my	O	O	PRP$	P1_bather
+7-14	own	O	O	JJ	O
+7-15	stench	7-12_dobj	stand	NN	P1_NPart_stench
+7-16	any	O	O	DT	O
+7-17	more	7-12_advmod	stand	RBR	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=I went to try the water in my bath tub and was extremely glad when it worked . 
+8-1	I	8-2_nsubj	went	PRP	P1_bather
+8-2	went	O	O	VBD	O
+8-3	to	8-4_aux	try	TO	O
+8-4	try	8-2_xcomp	went	VB	O
+8-5	the	O	O	DT	O
+8-6	water	8-4_dobj	try	NN	P1_water
+8-7	in	O	O	O	O
+8-8	my	O	O	PRP$	P1_bather
+8-9	bath	O	O	NN	O
+8-10	tub	O	O	NN	P1_bathtub
+8-11	and	O	O	O	O
+8-12	was	O	O	VBD	O
+8-13	extremely	O	O	RB	O
+8-14	glad	8-2_conj_and	went	JJ	O
+8-15	when	8-17_advmod	worked	WRB	O
+8-16	it	8-17_nsubj	worked	PRP	O
+8-17	worked	O	O	VBD	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=I ran myself a hot bath and put some bubble bath soap in it . 
+9-1	I	9-2_nsubj	ran	PRP	P1_bather
+9-2	ran	O	O	VBD	O
+9-3	myself	9-2_iobj	ran	PRP	P1_bather
+9-4	a	O	O	DT	O
+9-5	hot	O	O	JJ	O
+9-6	bath	9-2_dobj	ran	NN	P1_bath
+9-7	and	O	O	O	O
+9-8	put	9-2_conj_and	ran	VBD	O
+9-9	some	O	O	DT	O
+9-10	bubble	O	O	NN	O
+9-11	bath	O	O	NN	O
+9-12	soap	9-8_dobj	put	NN	P1_bath_means
+9-13	in	O	O	O	O
+9-14	it	9-8_prep_in	put	PRP	P1_bathtub
+9-15	.	O	O	O	O
+
+#id=10
+#text=I got in and found it very relaxing . 
+10-1	I	10-2_nsubj	got	PRP	P1_bather
+10-2	got	O	O	VBD	O
+10-3	in	10-2_prt	got	RP	O
+10-4	and	O	O	O	O
+10-5	found	10-2_conj_and	got	VBD	O
+10-6	it	O	O	PRP	O
+10-7	very	O	O	RB	O
+10-8	relaxing	10-5_xcomp	found	JJ	O
+10-9	.	O	O	O	O
+
+#id=11
+#text=I was so glad to finally take a bath , get cleaned up , and relax after a long , hard , productive day . 
+11-1	I	O	O	PRP	P1_bather
+11-2	was	O	O	VBD	O
+11-3	so	O	O	RB	O
+11-4	glad	O	O	JJ	O
+11-5	to	11-7_aux	take	TO	O
+11-6	finally	11-7_advmod	take	RB	O
+11-7	take	O	O	VB	O
+11-8	a	O	O	DT	O
+11-9	bath	11-7_dobj	take	NN	P1_bath
+11-10	,	O	O	O	O
+11-11	get	11-12_auxpass	cleaned	VB	O
+11-12	cleaned	11-7_conj_and	take	VBN	O
+11-13	up	11-12_prt	cleaned	RP	O
+11-14	,	O	O	O	O
+11-15	and	O	O	O	O
+11-16	relax	11-7_conj_and	take	VB	O
+11-17	after	O	O	O	O
+11-18	a	O	O	DT	O
+11-19	long	O	O	JJ	O
+11-20	,	O	O	O	O
+11-21	hard	O	O	JJ	O
+11-22	,	O	O	O	O
+11-23	productive	O	O	JJ	O
+11-24	day	11-16_prep_after	relax	NN	P2_NPart_day
+11-25	.	O	O	O	O

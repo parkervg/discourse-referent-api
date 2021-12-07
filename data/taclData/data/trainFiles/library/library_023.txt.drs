@@ -1,0 +1,237 @@
+#id=1
+#text=Why buy a book when you can borrow one from the library ? 
+1-1	Why	1-2_advmod	buy	WRB	O
+1-2	buy	O	O	VB	O
+1-3	a	O	O	DT	O
+1-4	book	1-2_dobj	buy	NN	P1_book
+1-5	when	1-8_advmod	borrow	WRB	O
+1-6	you	1-8_nsubj	borrow	PRP	P1_customer
+1-7	can	1-8_aux	borrow	MD	O
+1-8	borrow	1-2_advcl	buy	VB	O
+1-9	one	1-8_dobj	borrow	CD	P1_book
+1-10	from	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	library	1-8_prep_from	borrow	NN	P1_library
+1-13	?	O	O	O	O
+
+#id=2
+#text=Your local library has a wealth of resources just waiting for you to explore . 
+2-1	Your	O	O	PRP$	P1_customer
+2-2	local	O	O	JJ	O
+2-3	library	2-4_nsubj	has	NN	P1_library
+2-4	has	O	O	VBZ	O
+2-5	a	O	O	DT	O
+2-6	wealth	2-4_dobj	has	NN	O
+2-7	of	O	O	O	O
+2-8	resources	O	O	NNS	P1_book
+2-9	just	2-10_advmod	waiting	RB	O
+2-10	waiting	O	O	VBG	O
+2-11	for	2-14_mark	explore	IN	O
+2-12	you	2-14_nsubj	explore	PRP	P1_customer
+2-13	to	2-14_aux	explore	TO	O
+2-14	explore	2-10_advcl	waiting	VB	O
+2-15	.	O	O	O	O
+
+#id=3
+#text=Before you check anything out , you will need a library card . 
+3-1	Before	3-3_mark	check	IN	O
+3-2	you	3-3_nsubj	check	PRP	P1_customer
+3-3	check	3-9_advcl	need	VBP	O
+3-4	anything	3-3_dobj	check	NN	P1_book
+3-5	out	3-3_prt	check	RP	O
+3-6	,	O	O	O	O
+3-7	you	3-9_nsubj	need	PRP	P1_customer
+3-8	will	3-9_aux	need	MD	O
+3-9	need	O	O	VB	O
+3-10	a	O	O	DT	O
+3-11	library	O	O	NN	O
+3-12	card	3-9_dobj	need	NN	P1_library_card
+3-13	.	O	O	O	O
+
+#id=4
+#text=Typically , you will need to prove who you are and where you live . 
+4-1	Typically	4-5_advmod	need	RB	O
+4-2	,	O	O	O	O
+4-3	you	4-5_nsubj	need	PRP	P1_customer
+4-4	will	4-5_aux	need	MD	O
+4-5	need	O	O	VB	O
+4-6	to	4-7_aux	prove	TO	O
+4-7	prove	4-5_xcomp	need	VB	O
+4-8	who	4-10_dobj	are	WP	O
+4-9	you	4-10_nsubj	are	PRP	P1_customer
+4-10	are	4-7_dep	prove	VBP	O
+4-11	and	O	O	O	O
+4-12	where	4-14_advmod	live	WRB	O
+4-13	you	4-14_nsubj	live	PRP	P1_customer
+4-14	live	4-10_conj_and	are	VBP	O
+4-15	.	O	O	O	O
+
+#id=5
+#text=Your drivers license will probably work for that . 
+5-1	Your	O	O	PRP$	P1_customer
+5-2	drivers	O	O	NNS	O
+5-3	license	5-6_nsubj	work	NN	P1_NPart_license
+5-4	will	5-6_aux	work	MD	O
+5-5	probably	5-6_advmod	work	RB	O
+5-6	work	O	O	VB	O
+5-7	for	O	O	O	O
+5-8	that	5-6_prep_for	work	DT	O
+5-9	.	O	O	O	O
+
+#id=6
+#text=Go to your local library and get a card . 
+6-1	Go	O	O	VB	O
+6-2	to	O	O	O	O
+6-3	your	O	O	PRP$	P1_customer
+6-4	local	O	O	JJ	O
+6-5	library	6-1_prep_to	Go	NN	P1_library
+6-6	and	O	O	O	O
+6-7	get	6-1_conj_and	Go	VB	O
+6-8	a	O	O	DT	O
+6-9	card	6-7_dobj	get	NN	P1_library_card
+6-10	.	O	O	O	O
+
+#id=7
+#text=Once you have done that , you are ready to check things out ! 
+7-1	Once	7-4_mark	done	IN	O
+7-2	you	7-4_nsubj	done	PRP	P1_customer
+7-3	have	7-4_aux	done	VBP	O
+7-4	done	O	O	VBN	O
+7-5	that	7-4_dobj	done	DT	O
+7-6	,	O	O	O	O
+7-7	you	O	O	PRP	P1_customer
+7-8	are	O	O	VBP	O
+7-9	ready	O	O	JJ	O
+7-10	to	7-11_aux	check	TO	O
+7-11	check	O	O	VB	O
+7-12	things	7-11_dobj	check	NNS	P1_book
+7-13	out	7-11_prt	check	RP	O
+7-14	!	O	O	O	O
+
+#id=8
+#text=The library is divided into different categories . 
+8-1	The	O	O	DT	O
+8-2	library	8-4_nsubjpass	divided	NN	P1_library
+8-3	is	8-4_auxpass	divided	VBZ	O
+8-4	divided	O	O	VBN	O
+8-5	into	O	O	O	O
+8-6	different	O	O	JJ	O
+8-7	categories	8-4_prep_into	divided	NNS	P1_location_library
+8-8	.	O	O	O	O
+
+#id=9
+#text=One area will be fiction , which is also occasionally broken down into smaller departments . 
+9-1	One	O	O	CD	O
+9-2	area	O	O	NN	P2_location_library
+9-3	will	O	O	MD	O
+9-4	be	O	O	VB	O
+9-5	fiction	O	O	NN	P2_location_library
+9-6	,	O	O	O	O
+9-7	which	9-11_nsubjpass	broken	WDT	O
+9-8	is	9-11_auxpass	broken	VBZ	O
+9-9	also	9-11_advmod	broken	RB	O
+9-10	occasionally	9-11_advmod	broken	RB	O
+9-11	broken	O	O	VBN	O
+9-12	down	9-11_prt	broken	RP	O
+9-13	into	O	O	O	O
+9-14	smaller	O	O	JJR	O
+9-15	departments	9-11_prep_into	broken	NNS	P3_location_library
+9-16	.	O	O	O	O
+
+#id=10
+#text=Non-fiction is divided by the type of book . 
+10-1	Non-fiction	10-3_nsubjpass	divided	NNP	P4_location_library
+10-2	is	10-3_auxpass	divided	VBZ	O
+10-3	divided	O	O	VBN	O
+10-4	by	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	type	10-3_agent	divided	NN	O
+10-7	of	O	O	O	O
+10-8	book	O	O	NN	P1_book
+10-9	.	O	O	O	O
+
+#id=11
+#text=There is reference , gardening , crafting , home repair , history , science , cooking , parenting , and any other subject you can imagine . 
+11-1	There	11-2_expl	is	EX	O
+11-2	is	11-26_dep	imagine	VBZ	O
+11-3	reference	11-2_nsubj	is	NN	P1_NPart_reference
+11-4	,	O	O	O	O
+11-5	gardening	O	O	NN	P1_NPart_gardening
+11-6	,	O	O	O	O
+11-7	crafting	O	O	NNP	P1_NPart_crafting
+11-8	,	O	O	O	O
+11-9	home	O	O	NN	O
+11-10	repair	O	O	NN	P1_NPart_repair
+11-11	,	O	O	O	O
+11-12	history	O	O	NN	P1_NPart_history
+11-13	,	O	O	O	O
+11-14	science	O	O	NN	P1_NPart_science
+11-15	,	O	O	O	O
+11-16	cooking	O	O	NN	P1_NPart_cooking
+11-17	,	O	O	O	O
+11-18	parenting	O	O	NN	P1_NPart_parenting
+11-19	,	O	O	O	O
+11-20	and	O	O	O	O
+11-21	any	O	O	DT	O
+11-22	other	O	O	JJ	O
+11-23	subject	O	O	NN	O
+11-24	you	11-26_nsubj	imagine	PRP	P1_customer
+11-25	can	11-26_aux	imagine	MD	O
+11-26	imagine	O	O	VB	O
+11-27	.	O	O	O	O
+
+#id=12
+#text=When you have found a book you want , either by browsing the aisles or by searching through the card catalog , select it and take it to the front desk . 
+12-1	When	12-4_advmod	found	WRB	O
+12-2	you	12-4_nsubj	found	PRP	P1_customer
+12-3	have	12-4_aux	found	VBP	O
+12-4	found	12-23_advcl	select	VBN	O
+12-5	a	O	O	DT	O
+12-6	book	12-4_dobj	found	NN	P1_book
+12-7	you	12-8_nsubj	want	PRP	P1_customer
+12-8	want	12-4_dep	found	VBP	O
+12-9	,	O	O	O	O
+12-10	either	12-4_preconj	found	CC	O
+12-11	by	O	O	O	O
+12-12	browsing	12-4_prepc_by	found	VBG	O
+12-13	the	O	O	DT	O
+12-14	aisles	12-12_dobj	browsing	NNS	P1_location_library
+12-15	or	O	O	O	O
+12-16	by	O	O	O	O
+12-17	searching	12-12_conj_or	browsing	VBG	O
+12-18	through	O	O	O	O
+12-19	the	O	O	DT	O
+12-20	card	O	O	NN	O
+12-21	catalog	12-17_prep_through	searching	NN	P1_catalog
+12-22	,	O	O	O	O
+12-23	select	O	O	VB	O
+12-24	it	12-23_dobj	select	PRP	P1_book
+12-25	and	O	O	O	O
+12-26	take	12-23_conj_and	select	VB	O
+12-27	it	12-26_dobj	take	PRP	P1_book
+12-28	to	O	O	O	O
+12-29	the	O	O	DT	O
+12-30	front	O	O	JJ	O
+12-31	desk	12-26_prep_to	take	NN	P1_check-out_desk
+12-32	.	O	O	O	O
+
+#id=13
+#text=They will scan your card and let you take the book home for a week or two ! 
+13-1	They	13-3_nsubj	scan	PRP	P1_staff
+13-2	will	13-3_aux	scan	MD	O
+13-3	scan	O	O	VB	O
+13-4	your	O	O	PRP$	P1_customer
+13-5	card	13-3_dobj	scan	NN	P1_library_card
+13-6	and	O	O	O	O
+13-7	let	13-3_conj_and	scan	VB	O
+13-8	you	13-9_nsubj	take	PRP	P1_customer
+13-9	take	13-7_ccomp	let	VB	O
+13-10	the	O	O	DT	O
+13-11	book	O	O	NN	P1_book
+13-12	home	13-9_dobj	take	NN	P1_NPart_home
+13-13	for	O	O	O	O
+13-14	a	O	O	DT	O
+13-15	week	13-9_prep_for	take	NN	P1_NPart_week
+13-16	or	O	O	O	O
+13-17	two	O	O	CD	O
+13-18	!	O	O	O	O

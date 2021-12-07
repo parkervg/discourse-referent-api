@@ -1,0 +1,546 @@
+#id=1
+#text=I 've only ever flown in an airplane once . 
+1-1	I	1-5_nsubj	flown	PRP	P1_passenger
+1-2	've	1-5_aux	flown	VBP	O
+1-3	only	1-5_advmod	flown	RB	O
+1-4	ever	1-5_advmod	flown	RB	O
+1-5	flown	O	O	VBN	O
+1-6	in	1-5_prep	flown	IN	O
+1-7	an	O	O	DT	O
+1-8	airplane	O	O	NN	P1_plane
+1-9	once	O	O	RB	O
+1-10	.	O	O	O	O
+
+#id=2
+#text=I 'm terribly afraid of flying , but I had enlisted in the US Navy and I had to fly out from Pittsburgh , Pennsylvania to Chicago Illinois to go to boot camp at Recruit Training Command in Great Lakes , Illinois . 
+2-1	I	O	O	PRP	P1_passenger
+2-2	'm	O	O	VBP	O
+2-3	terribly	O	O	RB	O
+2-4	afraid	O	O	JJ	O
+2-5	of	O	O	O	O
+2-6	flying	O	O	VBG	O
+2-7	,	O	O	O	O
+2-8	but	O	O	O	O
+2-9	I	2-11_nsubj	enlisted	PRP	P1_passenger
+2-10	had	2-11_aux	enlisted	VBD	O
+2-11	enlisted	O	O	VBN	O
+2-12	in	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	US	O	O	NNP	O
+2-15	Navy	2-11_prep_in	enlisted	NNP	P1_NPart_navy
+2-16	and	O	O	O	O
+2-17	I	2-18_nsubj	had	PRP	P1_passenger
+2-18	had	2-11_conj_and	enlisted	VBD	O
+2-19	to	2-20_aux	fly	TO	O
+2-20	fly	2-18_xcomp	had	VB	O
+2-21	out	2-20_prt	fly	RP	O
+2-22	from	O	O	O	O
+2-23	Pittsburgh	O	O	NNP	P1_NPart_pittsburgh
+2-24	,	O	O	O	O
+2-25	Pennsylvania	2-20_prep_from	fly	NNP	P1_NPart_pennsylvania
+2-26	to	O	O	O	O
+2-27	Chicago	O	O	NNP	O
+2-28	Illinois	2-20_prep_to	fly	NNP	P1_NPart_illinois
+2-29	to	2-30_aux	go	TO	O
+2-30	go	2-18_xcomp	had	VB	O
+2-31	to	O	O	O	O
+2-32	boot	O	O	NN	O
+2-33	camp	2-30_prep_to	go	NN	O
+2-34	at	O	O	O	O
+2-35	Recruit	O	O	NNP	O
+2-36	Training	O	O	NNP	O
+2-37	Command	2-30_prep_at	go	NNP	O
+2-38	in	O	O	O	O
+2-39	Great	O	O	NNP	O
+2-40	Lakes	O	O	NNP	O
+2-41	,	O	O	O	O
+2-42	Illinois	O	O	NNP	P1_target_location
+2-43	.	O	O	O	O
+
+#id=3
+#text=I remember getting to the airport and not being sure of where everything was , because I had never even been to an airport before . 
+3-1	I	3-2_nsubj	remember	PRP	P1_passenger
+3-2	remember	O	O	VBP	O
+3-3	getting	3-2_ccomp	remember	VBG	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	airport	3-3_prep_to	getting	NN	P1_airport
+3-7	and	O	O	O	O
+3-8	not	O	O	RB	O
+3-9	being	O	O	VBG	O
+3-10	sure	3-3_conj_and	getting	JJ	O
+3-11	of	O	O	O	O
+3-12	where	3-14_advmod	was	WRB	O
+3-13	everything	3-14_nsubj	was	NN	O
+3-14	was	O	O	VBD	O
+3-15	,	O	O	O	O
+3-16	because	3-21_mark	been	IN	O
+3-17	I	3-21_nsubj	been	PRP	P1_passenger
+3-18	had	3-21_aux	been	VBD	O
+3-19	never	3-21_neg	been	RB	O
+3-20	even	3-21_advmod	been	RB	O
+3-21	been	3-14_advcl	was	VBN	O
+3-22	to	O	O	O	O
+3-23	an	O	O	DT	O
+3-24	airport	3-21_prep_to	been	NN	P1_airport
+3-25	before	3-21_advmod	been	RB	O
+3-26	.	O	O	O	O
+
+#id=4
+#text=I was really nervous about the flight , too , so everything just seemed to be happening all at once . 
+4-1	I	O	O	PRP	P1_passenger
+4-2	was	O	O	VBD	O
+4-3	really	O	O	RB	O
+4-4	nervous	O	O	JJ	O
+4-5	about	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	flight	O	O	NN	P1_flight
+4-8	,	O	O	O	O
+4-9	too	O	O	RB	O
+4-10	,	O	O	O	O
+4-11	so	O	O	IN	O
+4-12	everything	4-14_nsubj	seemed	NN	O
+4-13	just	4-14_advmod	seemed	RB	O
+4-14	seemed	O	O	VBD	O
+4-15	to	4-17_aux	happening	TO	O
+4-16	be	4-17_aux	happening	VB	O
+4-17	happening	4-14_xcomp	seemed	VBG	O
+4-18	all	O	O	DT	O
+4-19	at	4-17_advmod	happening	IN	O
+4-20	once	O	O	RB	O
+4-21	.	O	O	O	O
+
+#id=5
+#text=After boarding the plane , which was much smaller than I had expected , I sat nervously waiting for the plane to start and fully expecting to die at any moment . 
+5-1	After	O	O	O	O
+5-2	boarding	5-16_prepc_after	sat	VBG	O
+5-3	the	O	O	DT	O
+5-4	plane	5-2_dobj	boarding	NN	P1_plane
+5-5	,	O	O	O	O
+5-6	which	O	O	WDT	O
+5-7	was	O	O	VBD	O
+5-8	much	O	O	RB	O
+5-9	smaller	O	O	JJR	O
+5-10	than	5-13_mark	expected	IN	O
+5-11	I	5-13_nsubj	expected	PRP	P1_passenger
+5-12	had	5-13_aux	expected	VBD	O
+5-13	expected	O	O	VBN	O
+5-14	,	O	O	O	O
+5-15	I	5-16_nsubj	sat	PRP	P1_passenger
+5-16	sat	O	O	VBD	O
+5-17	nervously	5-18_advmod	waiting	RB	O
+5-18	waiting	5-16_ccomp	sat	VBG	O
+5-19	for	O	O	O	O
+5-20	the	O	O	DT	O
+5-21	plane	5-18_prep_for	waiting	NN	P1_plane
+5-22	to	5-23_aux	start	TO	O
+5-23	start	5-18_xcomp	waiting	VB	O
+5-24	and	O	O	O	O
+5-25	fully	5-26_advmod	expecting	RB	O
+5-26	expecting	5-18_conj_and	waiting	VBG	O
+5-27	to	5-28_aux	die	TO	O
+5-28	die	5-26_xcomp	expecting	VB	O
+5-29	at	O	O	O	O
+5-30	any	O	O	DT	O
+5-31	moment	5-28_prep_at	die	NN	P1_NPart_moment
+5-32	.	O	O	O	O
+
+#id=6
+#text=I decided to sit towards the middle of the plane , so that I would n't be the first to die if the plane crashed , which placed me right next to the wing . 
+6-1	I	6-2_nsubj	decided	PRP	P1_passenger
+6-2	decided	O	O	VBD	O
+6-3	to	6-4_aux	sit	TO	O
+6-4	sit	6-2_xcomp	decided	VB	O
+6-5	towards	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	middle	6-4_prep_towards	sit	NN	P1_location_airplane_indoor
+6-8	of	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	plane	O	O	NN	P1_plane
+6-11	,	O	O	O	O
+6-12	so	O	O	RB	O
+6-13	that	O	O	IN	O
+6-14	I	O	O	PRP	P1_passenger
+6-15	would	O	O	MD	O
+6-16	n't	O	O	RB	O
+6-17	be	O	O	VB	O
+6-18	the	O	O	DT	O
+6-19	first	6-4_dep	sit	JJ	O
+6-20	to	6-21_aux	die	TO	O
+6-21	die	O	O	VB	O
+6-22	if	6-25_mark	crashed	IN	O
+6-23	the	O	O	DT	O
+6-24	plane	6-25_nsubj	crashed	NN	P1_plane
+6-25	crashed	6-21_advcl	die	VBD	O
+6-26	,	O	O	O	O
+6-27	which	6-28_nsubj	placed	WDT	O
+6-28	placed	6-4_ccomp	sit	VBD	O
+6-29	me	6-28_dobj	placed	PRP	P1_passenger
+6-30	right	6-28_advmod	placed	RB	O
+6-31	next	O	O	O	O
+6-32	to	O	O	O	O
+6-33	the	O	O	DT	O
+6-34	wing	6-28_prep_next_to	placed	NN	P1_other
+6-35	.	O	O	O	O
+
+#id=7
+#text=I also decided to sit next to the window so that I 'd know right away if anything went wrong and I 'd have time to panic before I hit the ground . 
+7-1	I	7-3_nsubj	decided	PRP	P1_passenger
+7-2	also	7-3_advmod	decided	RB	O
+7-3	decided	O	O	VBD	O
+7-4	to	7-5_aux	sit	TO	O
+7-5	sit	7-3_xcomp	decided	VB	O
+7-6	next	O	O	O	O
+7-7	to	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	window	7-5_prep_next_to	sit	NN	P1_in-flight_entertainment
+7-10	so	7-14_advmod	know	RB	O
+7-11	that	7-14_mark	know	IN	O
+7-12	I	7-14_nsubj	know	PRP	P1_passenger
+7-13	'd	7-14_aux	know	MD	O
+7-14	know	7-5_advcl	sit	VB	O
+7-15	right	O	O	RB	O
+7-16	away	7-14_advmod	know	RB	O
+7-17	if	7-19_mark	went	IN	O
+7-18	anything	7-19_nsubj	went	NN	O
+7-19	went	O	O	VBD	O
+7-20	wrong	7-19_acomp	went	JJ	O
+7-21	and	O	O	O	O
+7-22	I	7-24_nsubj	have	PRP	P1_passenger
+7-23	'd	7-24_aux	have	MD	O
+7-24	have	7-19_conj_and	went	VB	O
+7-25	time	7-24_dobj	have	NN	O
+7-26	to	7-27_aux	panic	TO	O
+7-27	panic	7-24_vmod	have	VB	O
+7-28	before	7-30_mark	hit	IN	O
+7-29	I	7-30_nsubj	hit	PRP	P1_passenger
+7-30	hit	7-27_advcl	panic	VBD	O
+7-31	the	O	O	DT	O
+7-32	ground	7-30_dobj	hit	NN	P1_location_airplane
+7-33	.	O	O	O	O
+
+#id=8
+#text=After waiting for what seemed like an eternity for the plane to start , we eventually got off the ground and I went into full panic mode and stared out the window for the rest of the flight . 
+8-1	After	O	O	O	O
+8-2	waiting	8-17_prepc_after	got	VBG	O
+8-3	for	O	O	O	O
+8-4	what	8-5_nsubj	seemed	WP	O
+8-5	seemed	8-2_prepc_for	waiting	VBD	O
+8-6	like	O	O	O	O
+8-7	an	O	O	DT	O
+8-8	eternity	8-5_prep_like	seemed	NN	P1_NPart_eternity
+8-9	for	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	plane	O	O	NN	P1_plane
+8-12	to	8-13_aux	start	TO	O
+8-13	start	8-5_xcomp	seemed	VB	O
+8-14	,	O	O	O	O
+8-15	we	8-17_nsubj	got	PRP	P1_plane
+8-16	eventually	8-17_advmod	got	RB	O
+8-17	got	O	O	VBD	O
+8-18	off	8-17_prt	got	RP	O
+8-19	the	O	O	DT	O
+8-20	ground	8-17_dobj	got	NN	P1_location_airplane
+8-21	and	O	O	O	O
+8-22	I	8-23_nsubj	went	PRP	P1_passenger
+8-23	went	8-17_conj_and	got	VBD	O
+8-24	into	O	O	O	O
+8-25	full	O	O	JJ	O
+8-26	panic	O	O	NN	O
+8-27	mode	8-23_prep_into	went	NN	P2_in-flight_entertainment
+8-28	and	O	O	O	O
+8-29	stared	8-23_conj_and	went	VBD	O
+8-30	out	8-29_prt	stared	RP	O
+8-31	the	O	O	DT	O
+8-32	window	8-29_dobj	stared	NN	P1_in-flight_entertainment
+8-33	for	O	O	O	O
+8-34	the	O	O	DT	O
+8-35	rest	O	O	NN	O
+8-36	of	O	O	O	O
+8-37	the	O	O	DT	O
+8-38	flight	O	O	NN	P2_flight
+8-39	.	O	O	O	O
+
+#id=9
+#text=As we were starting out over Pittsburgh , I noticed that the ground really did n't look like what I expected . 
+9-1	As	9-4_mark	starting	IN	O
+9-2	we	9-4_nsubj	starting	PRP	P1_plane
+9-3	were	9-4_aux	starting	VBD	O
+9-4	starting	9-10_advcl	noticed	VBG	O
+9-5	out	9-4_prt	starting	RP	O
+9-6	over	O	O	O	O
+9-7	Pittsburgh	9-4_prep_over	starting	NNP	P2_NPart_pittsburgh
+9-8	,	O	O	O	O
+9-9	I	9-10_nsubj	noticed	PRP	P1_passenger
+9-10	noticed	O	O	VBD	O
+9-11	that	9-17_mark	look	IN	O
+9-12	the	O	O	DT	O
+9-13	ground	9-17_nsubj	look	NN	P1_NPart_ground
+9-14	really	9-17_advmod	look	RB	O
+9-15	did	9-17_aux	look	VBD	O
+9-16	n't	9-17_neg	look	RB	O
+9-17	look	9-10_ccomp	noticed	VB	O
+9-18	like	O	O	O	O
+9-19	what	9-21_dobj	expected	WP	O
+9-20	I	9-21_nsubj	expected	PRP	P1_passenger
+9-21	expected	9-17_prepc_like	look	VBD	O
+9-22	.	O	O	O	O
+
+#id=10
+#text=It seemed like there was water everywhere , like little lakes and ponds , whereas I expected to see streams and creeks because we have them everywhere in this area . 
+10-1	It	10-2_nsubj	seemed	PRP	O
+10-2	seemed	O	O	VBD	O
+10-3	like	10-5_mark	was	IN	O
+10-4	there	10-5_expl	was	EX	O
+10-5	was	10-2_advcl	seemed	VBD	O
+10-6	water	10-5_nsubj	was	NN	P1_NPart_water
+10-7	everywhere	10-5_advmod	was	RB	O
+10-8	,	O	O	O	O
+10-9	like	O	O	O	O
+10-10	little	O	O	JJ	O
+10-11	lakes	10-5_prep_like	was	NNS	P1_NPart_lakes
+10-12	and	O	O	O	O
+10-13	ponds	O	O	NNS	P1_NPart_ponds
+10-14	,	O	O	O	O
+10-15	whereas	10-17_mark	expected	IN	O
+10-16	I	10-17_nsubj	expected	PRP	P1_passenger
+10-17	expected	10-5_advcl	was	VBD	O
+10-18	to	10-19_aux	see	TO	O
+10-19	see	10-17_xcomp	expected	VB	O
+10-20	streams	10-19_dobj	see	NNS	P1_NPart_streams
+10-21	and	O	O	O	O
+10-22	creeks	O	O	NNS	P1_NPart_creeks
+10-23	because	10-25_mark	have	IN	O
+10-24	we	10-25_nsubj	have	PRP	P1_NPart_we
+10-25	have	10-19_advcl	see	VBP	O
+10-26	them	10-25_dobj	have	PRP	P1_NPart_them
+10-27	everywhere	10-25_advmod	have	RB	O
+10-28	in	O	O	O	O
+10-29	this	O	O	DT	O
+10-30	area	10-25_prep_in	have	NN	P1_NPart_area
+10-31	.	O	O	O	O
+
+#id=11
+#text=We just seemed to keep going up . 
+11-1	We	11-3_nsubj	seemed	PRP	P1_plane
+11-2	just	11-3_advmod	seemed	RB	O
+11-3	seemed	O	O	VBD	O
+11-4	to	11-5_aux	keep	TO	O
+11-5	keep	11-3_xcomp	seemed	VB	O
+11-6	going	11-5_xcomp	keep	VBG	O
+11-7	up	11-6_prt	going	RP	O
+11-8	.	O	O	O	O
+
+#id=12
+#text=We flew up past the clouds and I could n't see the ground anymore . 
+12-1	We	12-2_nsubj	flew	PRP	P1_plane
+12-2	flew	O	O	VBD	O
+12-3	up	12-2_prt	flew	RP	O
+12-4	past	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	clouds	12-2_prep_past	flew	NNS	P2_location_airplane
+12-7	and	O	O	O	O
+12-8	I	12-11_nsubj	see	PRP	P1_passenger
+12-9	could	12-11_aux	see	MD	O
+12-10	n't	12-11_neg	see	RB	O
+12-11	see	12-2_conj_and	flew	VB	O
+12-12	the	O	O	DT	O
+12-13	ground	12-11_dobj	see	NN	P2_NPart_ground
+12-14	anymore	12-11_advmod	see	RB	O
+12-15	.	O	O	O	O
+
+#id=13
+#text=The sun seemed much lower in the sky than I thought it was . 
+13-1	The	O	O	DT	O
+13-2	sun	13-3_nsubj	seemed	NN	P1_NPart_sun
+13-3	seemed	O	O	VBD	O
+13-4	much	O	O	RB	O
+13-5	lower	13-3_acomp	seemed	JJR	O
+13-6	in	O	O	O	O
+13-7	the	O	O	DT	O
+13-8	sky	13-3_prep_in	seemed	NN	P3_location_airplane
+13-9	than	13-11_mark	thought	IN	O
+13-10	I	13-11_nsubj	thought	PRP	P1_passenger
+13-11	thought	13-3_advcl	seemed	VBD	O
+13-12	it	13-13_nsubj	was	PRP	P1_NPart_it
+13-13	was	13-11_ccomp	thought	VBD	O
+13-14	.	O	O	O	O
+
+#id=14
+#text=It kind of felt like I could reach out and grab it if I wanted to . 
+14-1	It	14-4_nsubj	felt	PRP	O
+14-2	kind	O	O	NN	O
+14-3	of	14-4_advmod	felt	IN	O
+14-4	felt	O	O	VBD	O
+14-5	like	14-8_mark	reach	IN	O
+14-6	I	14-8_nsubj	reach	PRP	P1_passenger
+14-7	could	14-8_aux	reach	MD	O
+14-8	reach	14-4_advcl	felt	VB	O
+14-9	out	14-8_prt	reach	RP	O
+14-10	and	O	O	O	O
+14-11	grab	14-8_conj_and	reach	VB	O
+14-12	it	14-11_dobj	grab	PRP	P2_NPart_it
+14-13	if	14-15_mark	wanted	IN	O
+14-14	I	14-15_nsubj	wanted	PRP	P1_passenger
+14-15	wanted	14-11_advcl	grab	VBD	O
+14-16	to	14-15_prep	wanted	TO	O
+14-17	.	O	O	O	O
+
+#id=15
+#text=The sky got noticeably thinner and I could start to see stars and stuff . 
+15-1	The	O	O	DT	O
+15-2	sky	O	O	NN	P3_location_airplane
+15-3	got	O	O	VBD	O
+15-4	noticeably	O	O	RB	O
+15-5	thinner	O	O	JJR	O
+15-6	and	O	O	O	O
+15-7	I	15-9_nsubj	start	PRP	P1_passenger
+15-8	could	15-9_aux	start	MD	O
+15-9	start	O	O	VB	O
+15-10	to	15-11_aux	see	TO	O
+15-11	see	15-9_xcomp	start	VB	O
+15-12	stars	15-11_dobj	see	NNS	P1_NPart_stars
+15-13	and	O	O	O	O
+15-14	stuff	O	O	NN	P1_NPart_stuff
+15-15	.	O	O	O	O
+
+#id=16
+#text=The flight itself was very calm . 
+16-1	The	O	O	DT	O
+16-2	flight	O	O	NN	P2_flight
+16-3	itself	O	O	PRP	O
+16-4	was	O	O	VBD	O
+16-5	very	O	O	RB	O
+16-6	calm	O	O	JJ	O
+16-7	.	O	O	O	O
+
+#id=17
+#text=I did n't experience any of the turbulence that I 'd expected and I started to feel a little bit better about flying . 
+17-1	I	17-4_nsubj	experience	PRP	P1_passenger
+17-2	did	17-4_aux	experience	VBD	O
+17-3	n't	17-4_neg	experience	RB	O
+17-4	experience	O	O	VB	O
+17-5	any	17-4_dobj	experience	DT	O
+17-6	of	O	O	O	O
+17-7	the	O	O	DT	O
+17-8	turbulence	O	O	NN	P2_other
+17-9	that	17-12_mark	expected	IN	O
+17-10	I	17-12_nsubj	expected	PRP	P1_passenger
+17-11	'd	17-12_aux	expected	VBD	O
+17-12	expected	17-4_ccomp	experience	VBN	O
+17-13	and	O	O	O	O
+17-14	I	17-15_nsubj	started	PRP	P1_passenger
+17-15	started	17-4_conj_and	experience	VBD	O
+17-16	to	17-17_aux	feel	TO	O
+17-17	feel	17-15_xcomp	started	VB	O
+17-18	a	O	O	DT	O
+17-19	little	O	O	JJ	O
+17-20	bit	17-17_dobj	feel	NN	O
+17-21	better	O	O	JJR	O
+17-22	about	O	O	O	O
+17-23	flying	17-17_prepc_about	feel	VBG	O
+17-24	.	O	O	O	O
+
+#id=18
+#text=That was until we started back down . 
+18-1	That	18-2_nsubj	was	DT	O
+18-2	was	O	O	VBD	O
+18-3	until	18-5_mark	started	IN	O
+18-4	we	18-5_nsubj	started	PRP	P1_plane
+18-5	started	18-2_advcl	was	VBD	O
+18-6	back	O	O	RB	O
+18-7	down	18-5_advmod	started	RB	O
+18-8	.	O	O	O	O
+
+#id=19
+#text=I was terrified when we went in to land . 
+19-1	I	19-3_nsubjpass	terrified	PRP	P1_passenger
+19-2	was	19-3_auxpass	terrified	VBD	O
+19-3	terrified	O	O	VBN	O
+19-4	when	19-6_advmod	went	WRB	O
+19-5	we	19-6_nsubj	went	PRP	P1_plane
+19-6	went	19-3_advcl	terrified	VBD	O
+19-7	in	19-6_prt	went	RP	O
+19-8	to	19-9_aux	land	TO	O
+19-9	land	19-6_xcomp	went	VB	O
+19-10	.	O	O	O	O
+
+#id=20
+#text=The plane tilted forward and it felt like we were going straight into the ground , and I started panicking again . 
+20-1	The	O	O	DT	O
+20-2	plane	20-3_nsubj	tilted	NN	P1_plane
+20-3	tilted	O	O	VBN	O
+20-4	forward	20-3_advmod	tilted	RB	O
+20-5	and	O	O	O	O
+20-6	it	20-7_nsubj	felt	PRP	O
+20-7	felt	20-3_conj_and	tilted	VBD	O
+20-8	like	20-11_mark	going	IN	O
+20-9	we	20-11_nsubj	going	PRP	P1_plane
+20-10	were	20-11_aux	going	VBD	O
+20-11	going	20-7_advcl	felt	VBG	O
+20-12	straight	20-11_advmod	going	RB	O
+20-13	into	O	O	O	O
+20-14	the	O	O	DT	O
+20-15	ground	20-11_prep_into	going	NN	P1_location_airplane
+20-16	,	O	O	O	O
+20-17	and	O	O	O	O
+20-18	I	20-19_nsubj	started	PRP	P1_passenger
+20-19	started	20-3_conj_and	tilted	VBD	O
+20-20	panicking	20-19_xcomp	started	VBG	O
+20-21	again	20-20_advmod	panicking	RB	O
+20-22	.	O	O	O	O
+
+#id=21
+#text=Of course , though , everything was fine . 
+21-1	Of	O	O	O	O
+21-2	course	O	O	NN	O
+21-3	,	O	O	O	O
+21-4	though	O	O	RB	O
+21-5	,	O	O	O	O
+21-6	everything	O	O	NN	O
+21-7	was	O	O	VBD	O
+21-8	fine	O	O	JJ	O
+21-9	.	O	O	O	O
+
+#id=22
+#text=We touched down gently and it was over before I knew it . 
+22-1	We	22-2_nsubj	touched	PRP	P1_plane
+22-2	touched	O	O	VBD	O
+22-3	down	22-2_prt	touched	RP	O
+22-4	gently	22-2_advmod	touched	RB	O
+22-5	and	O	O	O	O
+22-6	it	O	O	PRP	O
+22-7	was	O	O	VBD	O
+22-8	over	22-2_conj_and	touched	RP	O
+22-9	before	22-11_mark	knew	IN	O
+22-10	I	22-11_nsubj	knew	PRP	P1_passenger
+22-11	knew	O	O	VBD	O
+22-12	it	22-11_dobj	knew	PRP	O
+22-13	.	O	O	O	O
+
+#id=23
+#text=But I promised myself I would never fly again . 
+23-1	But	23-3_cc	promised	CC	O
+23-2	I	23-3_nsubj	promised	PRP	P1_passenger
+23-3	promised	O	O	VBD	O
+23-4	myself	23-3_dobj	promised	PRP	P1_passenger
+23-5	I	23-8_nsubj	fly	PRP	P1_passenger
+23-6	would	23-8_aux	fly	MD	O
+23-7	never	23-8_neg	fly	RB	O
+23-8	fly	23-3_dep	promised	VB	O
+23-9	again	23-8_advmod	fly	RB	O
+23-10	.	O	O	O	O
+
+#id=24
+#text=I only flew in that instance because I had to . 
+24-1	I	24-3_nsubj	flew	PRP	P1_passenger
+24-2	only	24-3_advmod	flew	RB	O
+24-3	flew	O	O	VBD	O
+24-4	in	O	O	O	O
+24-5	that	O	O	DT	O
+24-6	instance	24-3_prep_in	flew	NN	P1_NPart_instance
+24-7	because	24-9_mark	had	IN	O
+24-8	I	24-9_nsubj	had	PRP	P1_passenger
+24-9	had	24-3_advcl	flew	VBD	O
+24-10	to	24-9_prep	had	TO	O
+24-11	.	O	O	O	O

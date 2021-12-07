@@ -1,0 +1,214 @@
+#id=1
+#text=Last Friday , my car broke down . 
+1-1	Last	O	O	JJ	O
+1-2	Friday	1-6_tmod	broke	NNP	P1_NPart_friday
+1-3	,	O	O	O	O
+1-4	my	O	O	PRP$	P1_passenger
+1-5	car	1-6_nsubj	broke	NN	P1_NPart_car
+1-6	broke	O	O	VBD	O
+1-7	down	1-6_prt	broke	RP	O
+1-8	.	O	O	O	O
+
+#id=2
+#text=I had to get to work Monday , so I decided to ride the public bus since it ran fairly close to my home and work both . 
+2-1	I	2-2_nsubj	had	PRP	P1_passenger
+2-2	had	O	O	VBD	O
+2-3	to	2-4_aux	get	TO	O
+2-4	get	2-2_xcomp	had	VB	O
+2-5	to	2-6_aux	work	TO	O
+2-6	work	2-4_xcomp	get	VB	P1_destination
+2-7	Monday	2-6_tmod	work	NNP	P1_time/date
+2-8	,	O	O	O	O
+2-9	so	2-2_dep	had	IN	O
+2-10	I	2-11_nsubj	decided	PRP	P1_passenger
+2-11	decided	2-2_parataxis	had	VBD	O
+2-12	to	2-13_aux	ride	TO	O
+2-13	ride	2-11_xcomp	decided	VB	O
+2-14	the	O	O	DT	O
+2-15	public	O	O	JJ	O
+2-16	bus	2-13_dobj	ride	NN	P1_bus
+2-17	since	2-19_mark	ran	IN	O
+2-18	it	2-19_nsubj	ran	PRP	P1_bus
+2-19	ran	2-13_advcl	ride	VBD	O
+2-20	fairly	O	O	RB	O
+2-21	close	2-19_acomp	ran	JJ	O
+2-22	to	O	O	O	O
+2-23	my	O	O	PRP$	P1_passenger
+2-24	home	2-19_prep_to	ran	NN	P1_NPart_home
+2-25	and	O	O	O	O
+2-26	work	2-13_conj_and	ride	VB	P1_destination
+2-27	both	2-26_dobj	work	DT	O
+2-28	.	O	O	O	O
+
+#id=3
+#text=Monday morning I got ready early and set off to wait at the bus stop . 
+3-1	Monday	O	O	NNP	O
+3-2	morning	O	O	NN	P2_time/date
+3-3	I	O	O	PRP	P1_passenger
+3-4	got	O	O	VBD	O
+3-5	ready	O	O	JJ	O
+3-6	early	O	O	RB	O
+3-7	and	O	O	O	O
+3-8	set	O	O	VBD	O
+3-9	off	3-8_prt	set	RP	O
+3-10	to	3-11_aux	wait	TO	O
+3-11	wait	3-8_xcomp	set	VB	O
+3-12	at	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	bus	O	O	NN	O
+3-15	stop	3-11_prep_at	wait	NN	P1_bus_stop
+3-16	.	O	O	O	O
+
+#id=4
+#text=After sitting for quite a while , the bus finally pulled up . 
+4-1	After	O	O	O	O
+4-2	sitting	4-11_prepc_after	pulled	VBG	O
+4-3	for	O	O	O	O
+4-4	quite	O	O	PDT	O
+4-5	a	O	O	DT	O
+4-6	while	4-2_prep_for	sitting	NN	P3_time/date
+4-7	,	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	bus	4-11_nsubj	pulled	NN	P1_bus
+4-10	finally	4-11_advmod	pulled	RB	O
+4-11	pulled	O	O	VBD	O
+4-12	up	4-11_prt	pulled	RP	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=I let others at the stop get on first , then I got on . 
+5-1	I	5-2_nsubj	let	PRP	P1_passenger
+5-2	let	O	O	VBD	O
+5-3	others	5-7_nsubj	get	NNS	P2_passenger
+5-4	at	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	stop	O	O	NN	P1_bus_stop
+5-7	get	5-2_ccomp	let	VBP	O
+5-8	on	O	O	O	O
+5-9	first	5-7_prep_on	get	JJ	O
+5-10	,	O	O	O	O
+5-11	then	5-13_advmod	got	RB	O
+5-12	I	5-13_nsubj	got	PRP	P1_passenger
+5-13	got	5-2_parataxis	let	VBD	O
+5-14	on	5-13_prt	got	RP	O
+5-15	.	O	O	O	O
+
+#id=6
+#text=I asked the bus driver how much the fare was and he told me . 
+6-1	I	6-2_nsubj	asked	PRP	P1_passenger
+6-2	asked	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	bus	O	O	NN	O
+6-5	driver	6-2_dobj	asked	NN	P1_bus_staff
+6-6	how	O	O	WRB	O
+6-7	much	6-10_dep	was	JJ	O
+6-8	the	O	O	DT	O
+6-9	fare	6-10_nsubj	was	NN	P1_money
+6-10	was	6-2_dep	asked	VBD	O
+6-11	and	O	O	O	O
+6-12	he	6-13_nsubj	told	PRP	P1_bus_staff
+6-13	told	6-2_conj_and	asked	VBD	O
+6-14	me	6-13_dobj	told	PRP	P1_passenger
+6-15	.	O	O	O	O
+
+#id=7
+#text=I paid the fare by sticking my money in the box near the bus driver , and walked to find a free seat . 
+7-1	I	7-2_nsubj	paid	PRP	P1_passenger
+7-2	paid	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	fare	7-2_dobj	paid	NN	P1_money
+7-5	by	O	O	O	O
+7-6	sticking	7-2_prepc_by	paid	VBG	O
+7-7	my	O	O	PRP$	P1_passenger
+7-8	money	7-6_dobj	sticking	NN	P1_money
+7-9	in	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	box	7-6_prep_in	sticking	NN	P1_payment_machine
+7-12	near	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	bus	O	O	NN	O
+7-15	driver	O	O	NN	P1_bus_staff
+7-16	,	O	O	O	O
+7-17	and	O	O	O	O
+7-18	walked	7-2_conj_and	paid	VBD	O
+7-19	to	7-20_aux	find	TO	O
+7-20	find	7-18_xcomp	walked	VB	O
+7-21	a	O	O	DT	O
+7-22	free	O	O	JJ	O
+7-23	seat	7-20_dobj	find	NN	P1_seat_in_bus
+7-24	.	O	O	O	O
+
+#id=8
+#text=I found one near the back of the bus , and I sat down . 
+8-1	I	8-2_nsubj	found	PRP	P1_passenger
+8-2	found	O	O	VBD	O
+8-3	one	8-2_dobj	found	CD	P1_seat_in_bus
+8-4	near	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	back	8-2_prep_near	found	NN	P1_NPart_back
+8-7	of	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	bus	O	O	NN	P1_bus
+8-10	,	O	O	O	O
+8-11	and	O	O	O	O
+8-12	I	8-13_nsubj	sat	PRP	P1_passenger
+8-13	sat	8-2_conj_and	found	VBD	O
+8-14	down	8-13_prt	sat	RP	O
+8-15	.	O	O	O	O
+
+#id=9
+#text=The bus ride was fairly quick and uneventful . 
+9-1	The	O	O	DT	O
+9-2	bus	O	O	NN	O
+9-3	ride	O	O	NN	P1_ride
+9-4	was	O	O	VBD	O
+9-5	fairly	O	O	RB	O
+9-6	quick	O	O	JJ	O
+9-7	and	O	O	O	O
+9-8	uneventful	O	O	JJ	O
+9-9	.	O	O	O	O
+
+#id=10
+#text=I noted that the ride went the same route that I did . 
+10-1	I	10-2_nsubj	noted	PRP	P1_passenger
+10-2	noted	O	O	VBD	O
+10-3	that	10-6_mark	went	IN	O
+10-4	the	O	O	DT	O
+10-5	ride	10-6_nsubj	went	NN	P1_ride
+10-6	went	10-2_ccomp	noted	VBD	O
+10-7	the	O	O	DT	O
+10-8	same	O	O	JJ	O
+10-9	route	10-6_dobj	went	NN	P1_route
+10-10	that	10-12_mark	did	IN	O
+10-11	I	10-12_nsubj	did	PRP	P1_passenger
+10-12	did	10-6_ccomp	went	VBD	O
+10-13	.	O	O	O	O
+
+#id=11
+#text=Once the bus stopped at the stop near my work , I disembarked . 
+11-1	Once	11-4_mark	stopped	IN	O
+11-2	the	O	O	DT	O
+11-3	bus	11-4_nsubj	stopped	NN	P1_bus
+11-4	stopped	11-13_advcl	disembarked	VBD	O
+11-5	at	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	stop	11-4_prep_at	stopped	NN	P2_bus_stop
+11-8	near	O	O	O	O
+11-9	my	O	O	PRP$	P1_passenger
+11-10	work	O	O	NN	P1_destination
+11-11	,	O	O	O	O
+11-12	I	11-13_nsubj	disembarked	PRP	P1_passenger
+11-13	disembarked	O	O	VBD	O
+11-14	.	O	O	O	O
+
+#id=12
+#text=That 's how I rode the public bus . 
+12-1	That	12-2_nsubj	's	DT	O
+12-2	's	O	O	VBZ	O
+12-3	how	12-5_advmod	rode	WRB	O
+12-4	I	12-5_nsubj	rode	PRP	P1_passenger
+12-5	rode	12-2_ccomp	's	VBD	O
+12-6	the	O	O	DT	O
+12-7	public	O	O	JJ	O
+12-8	bus	12-5_dobj	rode	NN	P1_bus
+12-9	.	O	O	O	O

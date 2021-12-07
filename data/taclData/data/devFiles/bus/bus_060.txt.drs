@@ -1,0 +1,233 @@
+#id=1
+#text=I stood at the bus stop and consulted the bus timetable . 
+1-1	I	1-2_nsubj	stood	PRP	P1_passenger
+1-2	stood	O	O	VBD	O
+1-3	at	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	bus	O	O	NN	O
+1-6	stop	1-2_prep_at	stood	NN	P1_bus_stop
+1-7	and	O	O	O	O
+1-8	consulted	1-2_conj_and	stood	VBN	O
+1-9	the	O	O	DT	O
+1-10	bus	O	O	NN	O
+1-11	timetable	1-8_dobj	consulted	NN	P1_time-table
+1-12	.	O	O	O	O
+
+#id=2
+#text=My bus should be there any minute . 
+2-1	My	O	O	PRP$	P1_passenger
+2-2	bus	O	O	NN	P1_bus
+2-3	should	O	O	MD	O
+2-4	be	O	O	VB	O
+2-5	there	O	O	RB	O
+2-6	any	O	O	DT	O
+2-7	minute	O	O	NN	P1_time/date
+2-8	.	O	O	O	O
+
+#id=3
+#text=There were several people waiting with me . 
+3-1	There	3-2_expl	were	EX	O
+3-2	were	O	O	VBD	O
+3-3	several	O	O	JJ	O
+3-4	people	3-2_nsubj	were	NNS	P2_passenger
+3-5	waiting	O	O	VBG	O
+3-6	with	O	O	O	O
+3-7	me	3-5_prep_with	waiting	PRP	P1_passenger
+3-8	.	O	O	O	O
+
+#id=4
+#text=We were standing under the shelter , because it had started raining . 
+4-1	We	4-3_nsubj	standing	PRP	P3_passenger
+4-2	were	4-3_aux	standing	VBD	O
+4-3	standing	O	O	VBG	O
+4-4	under	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	shelter	4-3_prep_under	standing	NN	P1_NPart_shelter
+4-7	,	O	O	O	O
+4-8	because	4-11_mark	started	IN	O
+4-9	it	4-11_nsubj	started	PRP	O
+4-10	had	4-11_aux	started	VBD	O
+4-11	started	4-3_advcl	standing	VBN	O
+4-12	raining	4-11_xcomp	started	VBG	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=Then I saw the bus arriving . 
+5-1	Then	5-3_advmod	saw	RB	O
+5-2	I	5-3_nsubj	saw	PRP	P1_passenger
+5-3	saw	O	O	VBD	O
+5-4	the	O	O	DT	O
+5-5	bus	5-3_dobj	saw	NN	P1_bus
+5-6	arriving	O	O	VBG	O
+5-7	.	O	O	O	O
+
+#id=6
+#text=It pulled up to the bus stop and we all stood in line to get on . 
+6-1	It	6-2_nsubj	pulled	PRP	P1_bus
+6-2	pulled	O	O	VBD	O
+6-3	up	6-2_prt	pulled	RP	O
+6-4	to	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	bus	O	O	NN	O
+6-7	stop	6-2_prep_to	pulled	NN	P1_bus_stop
+6-8	and	O	O	O	O
+6-9	we	6-11_nsubj	stood	PRP	P3_passenger
+6-10	all	6-11_advmod	stood	DT	O
+6-11	stood	6-2_conj_and	pulled	VBD	O
+6-12	in	O	O	O	O
+6-13	line	6-11_prep_in	stood	NN	P1_NPart_line
+6-14	to	6-15_aux	get	TO	O
+6-15	get	6-11_xcomp	stood	VB	O
+6-16	on	6-15_prt	get	RP	O
+6-17	.	O	O	O	O
+
+#id=7
+#text=I said hello to the driver and paid my fare . 
+7-1	I	7-2_nsubj	said	PRP	P1_passenger
+7-2	said	O	O	VBD	O
+7-3	hello	7-2_dobj	said	UH	P1_NPart_hello
+7-4	to	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	driver	7-2_prep_to	said	NN	P1_bus_staff
+7-7	and	O	O	O	O
+7-8	paid	7-2_conj_and	said	VBD	O
+7-9	my	O	O	PRP$	P1_passenger
+7-10	fare	7-8_dobj	paid	NN	P1_money
+7-11	.	O	O	O	O
+
+#id=8
+#text=Then I found an empty seat at the back of the bus . 
+8-1	Then	8-3_advmod	found	RB	O
+8-2	I	8-3_nsubj	found	PRP	P1_passenger
+8-3	found	O	O	VBD	O
+8-4	an	O	O	DT	O
+8-5	empty	O	O	JJ	O
+8-6	seat	8-3_dobj	found	NN	P1_seat_in_bus
+8-7	at	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	back	8-3_prep_at	found	NN	P1_NPart_back
+8-10	of	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	bus	O	O	NN	P1_bus
+8-13	.	O	O	O	O
+
+#id=9
+#text=I sat down and looked out the window at the city while we drove . 
+9-1	I	9-2_nsubj	sat	PRP	P1_passenger
+9-2	sat	O	O	VBD	O
+9-3	down	9-2_prt	sat	RP	O
+9-4	and	O	O	O	O
+9-5	looked	9-2_conj_and	sat	VBD	O
+9-6	out	9-5_prt	looked	RP	O
+9-7	the	O	O	DT	O
+9-8	window	9-5_dobj	looked	NN	P1_in-bus_entertainment
+9-9	at	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	city	9-5_prep_at	looked	NN	P1_NPart_city
+9-12	while	9-14_mark	drove	IN	O
+9-13	we	9-14_nsubj	drove	PRP	P1_bus
+9-14	drove	9-5_advcl	looked	VBD	O
+9-15	.	O	O	O	O
+
+#id=10
+#text=There were many stops and people getting off and on . 
+10-1	There	10-2_expl	were	EX	O
+10-2	were	O	O	VBD	O
+10-3	many	O	O	JJ	O
+10-4	stops	10-2_nsubj	were	NNS	P2_bus_stop
+10-5	and	O	O	O	O
+10-6	people	O	O	NNS	P4_passenger
+10-7	getting	O	O	VBG	O
+10-8	off	10-7_prt	getting	RP	O
+10-9	and	O	O	CC	O
+10-10	on	O	O	RP	O
+10-11	.	O	O	O	O
+
+#id=11
+#text=The bus grew so crowded that someone came and sat next to me . 
+11-1	The	O	O	DT	O
+11-2	bus	11-3_nsubj	grew	NN	P1_bus
+11-3	grew	O	O	VBD	O
+11-4	so	O	O	RB	O
+11-5	crowded	11-3_acomp	grew	JJ	O
+11-6	that	11-8_mark	came	IN	O
+11-7	someone	11-8_nsubj	came	NN	P5_passenger
+11-8	came	11-3_ccomp	grew	VBD	O
+11-9	and	O	O	O	O
+11-10	sat	11-8_conj_and	came	VBD	O
+11-11	next	O	O	O	O
+11-12	to	O	O	O	O
+11-13	me	11-10_prep_next_to	sat	PRP	P1_passenger
+11-14	.	O	O	O	O
+
+#id=12
+#text=I scooted over to make room and kept looking out the window . 
+12-1	I	12-2_nsubj	scooted	PRP	P1_passenger
+12-2	scooted	O	O	VBD	O
+12-3	over	12-2_prt	scooted	RP	O
+12-4	to	12-5_aux	make	TO	O
+12-5	make	12-2_xcomp	scooted	VB	O
+12-6	room	12-5_dobj	make	NN	P1_NPart_room
+12-7	and	O	O	O	O
+12-8	kept	12-2_conj_and	scooted	VBD	O
+12-9	looking	12-8_xcomp	kept	VBG	O
+12-10	out	12-9_prt	looking	RP	O
+12-11	the	O	O	DT	O
+12-12	window	12-9_dobj	looking	NN	P1_in-bus_entertainment
+12-13	.	O	O	O	O
+
+#id=13
+#text=Finally it was my stop . 
+13-1	Finally	O	O	RB	O
+13-2	it	O	O	PRP	O
+13-3	was	O	O	VBD	O
+13-4	my	O	O	PRP$	P1_passenger
+13-5	stop	O	O	NN	P3_bus_stop
+13-6	.	O	O	O	O
+
+#id=14
+#text=I said excuse me to the person sitting next to me , and he moved over to let me go by . 
+14-1	I	14-2_nsubj	said	PRP	P1_passenger
+14-2	said	O	O	VBD	O
+14-3	excuse	14-2_xcomp	said	VB	O
+14-4	me	14-3_dobj	excuse	PRP	P1_NPart_me
+14-5	to	O	O	O	O
+14-6	the	O	O	DT	O
+14-7	person	14-3_prep_to	excuse	NN	P5_passenger
+14-8	sitting	O	O	VBG	O
+14-9	next	O	O	O	O
+14-10	to	O	O	O	O
+14-11	me	14-8_prep_next_to	sitting	PRP	P1_passenger
+14-12	,	O	O	O	O
+14-13	and	O	O	O	O
+14-14	he	14-15_nsubj	moved	PRP	P5_passenger
+14-15	moved	14-2_conj_and	said	VBD	O
+14-16	over	14-15_prt	moved	RP	O
+14-17	to	14-18_aux	let	TO	O
+14-18	let	14-15_xcomp	moved	VB	O
+14-19	me	14-20_nsubj	go	PRP	P1_passenger
+14-20	go	14-18_ccomp	let	VB	O
+14-21	by	14-20_prep	go	IN	O
+14-22	.	O	O	O	O
+
+#id=15
+#text=I stood up and walked off the bus . 
+15-1	I	15-2_nsubj	stood	PRP	P1_passenger
+15-2	stood	O	O	VBD	O
+15-3	up	15-2_prt	stood	RP	O
+15-4	and	O	O	O	O
+15-5	walked	15-2_conj_and	stood	VBD	O
+15-6	off	15-5_prt	walked	RP	O
+15-7	the	O	O	DT	O
+15-8	bus	15-5_dobj	walked	NN	P1_bus
+15-9	.	O	O	O	O
+
+#id=16
+#text=I had arrived at my location . 
+16-1	I	16-3_nsubj	arrived	PRP	P1_passenger
+16-2	had	16-3_aux	arrived	VBD	O
+16-3	arrived	O	O	VBN	O
+16-4	at	O	O	O	O
+16-5	my	O	O	PRP$	P1_passenger
+16-6	location	16-3_prep_at	arrived	NN	P1_destination
+16-7	.	O	O	O	O

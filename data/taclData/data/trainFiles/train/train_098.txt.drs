@@ -1,0 +1,210 @@
+#id=1
+#text=I wanted to take a train trip through the countryside . 
+1-1	I	1-2_nsubj	wanted	PRP	P1_passenger
+1-2	wanted	O	O	VBD	O
+1-3	to	1-4_aux	take	TO	O
+1-4	take	1-2_xcomp	wanted	VB	O
+1-5	a	O	O	DT	O
+1-6	train	O	O	NN	O
+1-7	trip	1-4_dobj	take	NN	P1_trip
+1-8	through	O	O	O	O
+1-9	the	O	O	DT	O
+1-10	countryside	1-4_prep_through	take	NN	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=I went to the local train station . 
+2-1	I	2-2_nsubj	went	PRP	P1_passenger
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	local	O	O	JJ	O
+2-6	train	O	O	NN	O
+2-7	station	2-2_prep_to	went	NN	P1_train_station
+2-8	.	O	O	O	O
+
+#id=3
+#text=Once I was at the station I carefully reviewed the train schedule until I found a train that was going where I wanted to go at a convenient time . 
+3-1	Once	3-3_mark	was	IN	O
+3-2	I	3-3_nsubj	was	PRP	P1_passenger
+3-3	was	3-9_advcl	reviewed	VBD	O
+3-4	at	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	station	3-3_prep_at	was	NN	P1_train_station
+3-7	I	3-9_nsubj	reviewed	PRP	P1_passenger
+3-8	carefully	3-9_advmod	reviewed	RB	O
+3-9	reviewed	O	O	VBD	O
+3-10	the	O	O	DT	O
+3-11	train	O	O	NN	O
+3-12	schedule	3-9_dobj	reviewed	NN	P1_time-table
+3-13	until	3-15_mark	found	IN	O
+3-14	I	3-15_nsubj	found	PRP	P1_passenger
+3-15	found	3-9_advcl	reviewed	VBD	O
+3-16	a	O	O	DT	O
+3-17	train	3-15_dobj	found	NN	P1_train
+3-18	that	3-20_nsubj	going	WDT	O
+3-19	was	3-20_aux	going	VBD	O
+3-20	going	O	O	VBG	O
+3-21	where	3-23_advmod	wanted	WRB	P1_destination
+3-22	I	3-23_nsubj	wanted	PRP	P1_passenger
+3-23	wanted	3-20_advcl	going	VBD	O
+3-24	to	3-25_aux	go	TO	O
+3-25	go	3-23_xcomp	wanted	VB	O
+3-26	at	O	O	O	O
+3-27	a	O	O	DT	O
+3-28	convenient	O	O	JJ	O
+3-29	time	3-25_prep_at	go	NN	P1_time_date
+3-30	.	O	O	O	O
+
+#id=4
+#text=The trip I picked happened to leave at 8 am the next day . 
+4-1	The	O	O	DT	O
+4-2	trip	O	O	NN	P1_trip
+4-3	I	4-4_nsubj	picked	PRP	P1_passenger
+4-4	picked	O	O	VBD	O
+4-5	happened	4-4_dep	picked	VBN	O
+4-6	to	4-7_aux	leave	TO	O
+4-7	leave	4-5_xcomp	happened	VB	O
+4-8	at	O	O	O	O
+4-9	8	4-7_prep_at	leave	CD	O
+4-10	am	O	O	VBP	P2_time_date
+4-11	the	O	O	DT	O
+4-12	next	O	O	JJ	O
+4-13	day	O	O	NN	P3_time_date
+4-14	.	O	O	O	O
+
+#id=5
+#text=I went to the ticket window and bought a round trip ticket for the train I had selected . 
+5-1	I	5-2_nsubj	went	PRP	P1_passenger
+5-2	went	5-18_dep	selected	VBD	O
+5-3	to	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	ticket	O	O	NN	O
+5-6	window	5-2_prep_to	went	NN	P1_ticket_office/website
+5-7	and	O	O	O	O
+5-8	bought	5-2_conj_and	went	VBD	O
+5-9	a	O	O	DT	O
+5-10	round	O	O	NN	O
+5-11	trip	O	O	NN	O
+5-12	ticket	5-8_dobj	bought	NN	P1_card/ticket
+5-13	for	O	O	O	O
+5-14	the	O	O	DT	O
+5-15	train	5-8_prep_for	bought	NN	P1_train
+5-16	I	5-18_nsubj	selected	PRP	P1_passenger
+5-17	had	5-18_aux	selected	VBD	O
+5-18	selected	O	O	VBN	O
+5-19	.	O	O	O	O
+
+#id=6
+#text=Having purchased my tickets , I went home and I packed a light suitcase with the necessities I would need for my trip . 
+6-1	Having	6-2_aux	purchased	VBG	O
+6-2	purchased	6-7_vmod	went	VBN	O
+6-3	my	O	O	PRP$	P1_passenger
+6-4	tickets	6-2_dobj	purchased	NNS	P1_card/ticket
+6-5	,	O	O	O	O
+6-6	I	6-7_nsubj	went	PRP	P1_passenger
+6-7	went	O	O	VBD	O
+6-8	home	6-7_dobj	went	NN	P1_NPart_home
+6-9	and	O	O	O	O
+6-10	I	6-11_nsubj	packed	PRP	P1_passenger
+6-11	packed	6-7_conj_and	went	VBD	O
+6-12	a	O	O	DT	O
+6-13	light	O	O	JJ	O
+6-14	suitcase	6-11_dobj	packed	NN	P1_luggage
+6-15	with	O	O	O	O
+6-16	the	O	O	DT	O
+6-17	necessities	6-11_prep_with	packed	NNS	P1_personal_belongings
+6-18	I	6-20_nsubj	need	PRP	P1_passenger
+6-19	would	6-20_aux	need	MD	O
+6-20	need	O	O	VB	O
+6-21	for	O	O	O	O
+6-22	my	O	O	PRP$	P1_passenger
+6-23	trip	6-20_prep_for	need	NN	P1_trip
+6-24	.	O	O	O	O
+
+#id=7
+#text=That evening I set my alarm clock extra early so I would be sure to be on time for the train . 
+7-1	That	O	O	DT	O
+7-2	evening	7-4_tmod	set	NN	P4_time_date
+7-3	I	7-4_nsubj	set	PRP	P1_passenger
+7-4	set	O	O	VBD	O
+7-5	my	O	O	PRP$	P1_passenger
+7-6	alarm	O	O	NN	O
+7-7	clock	7-4_dobj	set	NN	P1_NPart_clock
+7-8	extra	O	O	JJ	O
+7-9	early	7-4_advmod	set	RB	O
+7-10	so	O	O	IN	O
+7-11	I	O	O	PRP	P1_passenger
+7-12	would	O	O	MD	O
+7-13	be	O	O	VB	O
+7-14	sure	7-4_advcl	set	JJ	O
+7-15	to	7-16_aux	be	TO	O
+7-16	be	O	O	VB	O
+7-17	on	O	O	O	O
+7-18	time	7-16_prep_on	be	NN	O
+7-19	for	O	O	O	O
+7-20	the	O	O	DT	O
+7-21	train	O	O	NN	P1_train
+7-22	.	O	O	O	O
+
+#id=8
+#text=I woke up the next morning thanks to my early alarm clock . 
+8-1	I	8-2_nsubj	woke	PRP	P1_passenger
+8-2	woke	O	O	VBD	O
+8-3	up	8-2_prt	woke	RP	O
+8-4	the	O	O	DT	O
+8-5	next	O	O	JJ	O
+8-6	morning	8-2_tmod	woke	NN	P1_NPart_morning
+8-7	thanks	O	O	O	O
+8-8	to	O	O	O	O
+8-9	my	O	O	PRP$	P1_passenger
+8-10	early	O	O	JJ	O
+8-11	alarm	O	O	NN	O
+8-12	clock	8-2_prep_thanks_to	woke	NN	P1_NPart_clock
+8-13	.	O	O	O	O
+
+#id=9
+#text=I then showered , ate my breakfast and took my suitcase and left home for the train station . 
+9-1	I	9-3_nsubj	showered	PRP	P1_passenger
+9-2	then	9-3_advmod	showered	RB	O
+9-3	showered	O	O	VBD	O
+9-4	,	O	O	O	O
+9-5	ate	9-3_conj_and	showered	VBD	O
+9-6	my	O	O	PRP$	P1_passenger
+9-7	breakfast	9-5_dobj	ate	NN	P1_NPart_breakfast
+9-8	and	O	O	O	O
+9-9	took	9-3_conj_and	showered	VBD	O
+9-10	my	O	O	PRP$	P1_passenger
+9-11	suitcase	9-9_dobj	took	NN	P1_luggage
+9-12	and	O	O	O	O
+9-13	left	O	O	NN	O
+9-14	home	O	O	NN	P2_NPart_home
+9-15	for	O	O	O	O
+9-16	the	O	O	DT	O
+9-17	train	O	O	NN	O
+9-18	station	9-9_prep_for	took	NN	P1_train_station
+9-19	.	O	O	O	O
+
+#id=10
+#text=I arrived 20 minutes early which gave me plenty of time to get on the train and enjoy my trip . 
+10-1	I	10-2_nsubj	arrived	PRP	P1_passenger
+10-2	arrived	O	O	VBD	O
+10-3	20	O	O	CD	O
+10-4	minutes	10-2_dobj	arrived	NNS	P5_time_date
+10-5	early	O	O	RB	O
+10-6	which	10-7_nsubj	gave	WDT	O
+10-7	gave	10-2_dep	arrived	VBD	O
+10-8	me	10-7_iobj	gave	PRP	P1_passenger
+10-9	plenty	10-7_dobj	gave	RB	O
+10-10	of	O	O	O	O
+10-11	time	O	O	NN	P6_time_date
+10-12	to	10-13_aux	get	TO	O
+10-13	get	O	O	VB	O
+10-14	on	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	train	10-13_prep_on	get	NN	P1_train
+10-17	and	O	O	O	O
+10-18	enjoy	10-13_conj_and	get	VB	O
+10-19	my	O	O	PRP$	P1_passenger
+10-20	trip	10-18_dobj	enjoy	NN	P1_trip
+10-21	.	O	O	O	O

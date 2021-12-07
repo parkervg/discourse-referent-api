@@ -1,0 +1,225 @@
+#id=1
+#text=For Christmas last year , my family had a very big get together and everyone was tasked with making and\/or bringing a food item . 
+1-1	For	O	O	O	O
+1-2	Christmas	1-8_prep_for	had	NNP	P1_NPart_christmas
+1-3	last	O	O	JJ	O
+1-4	year	1-8_tmod	had	NN	P1_NPart_year
+1-5	,	O	O	O	O
+1-6	my	O	O	PRP$	P1_cook
+1-7	family	1-8_nsubj	had	NN	P1_beneficiary
+1-8	had	O	O	VBD	O
+1-9	a	O	O	DT	O
+1-10	very	O	O	RB	O
+1-11	big	1-12_nsubj	get	JJ	O
+1-12	get	1-8_dep	had	VBP	O
+1-13	together	1-12_advmod	get	RB	O
+1-14	and	O	O	O	O
+1-15	everyone	1-17_nsubjpass	tasked	NN	P1_beneficiary
+1-16	was	1-17_auxpass	tasked	VBD	O
+1-17	tasked	1-12_conj_and	get	VBN	O
+1-18	with	O	O	O	O
+1-19	making	1-17_prepc_with	tasked	VBG	O
+1-20	and\/or	1-19_dobj	making	NN	O
+1-21	bringing	1-19_vmod	making	VBG	O
+1-22	a	O	O	DT	O
+1-23	food	O	O	NN	O
+1-24	item	1-21_dobj	bringing	NN	P1_NPart_item
+1-25	.	O	O	O	O
+
+#id=2
+#text=I did n't know what to bring , so I simply asked my Aunt what she would like . 
+2-1	I	2-4_nsubj	know	PRP	P1_cook
+2-2	did	2-4_aux	know	VBD	O
+2-3	n't	2-4_neg	know	RB	O
+2-4	know	O	O	VB	O
+2-5	what	2-7_nsubj	bring	WP	O
+2-6	to	2-7_aux	bring	TO	O
+2-7	bring	2-4_ccomp	know	VB	O
+2-8	,	O	O	O	O
+2-9	so	2-4_dep	know	IN	O
+2-10	I	2-12_nsubj	asked	PRP	P1_cook
+2-11	simply	2-12_advmod	asked	RB	O
+2-12	asked	2-4_parataxis	know	VBD	O
+2-13	my	O	O	PRP$	P1_cook
+2-14	Aunt	2-12_dobj	asked	NN	P2_beneficiary
+2-15	what	2-18_dobj	like	WP	O
+2-16	she	2-18_nsubj	like	PRP	P2_beneficiary
+2-17	would	2-18_aux	like	MD	O
+2-18	like	2-12_dep	asked	VB	O
+2-19	.	O	O	O	O
+
+#id=3
+#text=She told me that she would love a cake , as there was a shortage of people bringing dessert . 
+3-1	She	3-2_nsubj	told	PRP	P2_beneficiary
+3-2	told	O	O	VBD	O
+3-3	me	3-2_dobj	told	PRP	P1_cook
+3-4	that	3-7_mark	love	IN	O
+3-5	she	3-7_nsubj	love	PRP	P2_beneficiary
+3-6	would	3-7_aux	love	MD	O
+3-7	love	3-2_ccomp	told	VB	O
+3-8	a	O	O	DT	O
+3-9	cake	3-7_dobj	love	NN	P1_cake
+3-10	,	O	O	O	O
+3-11	as	3-13_mark	was	IN	O
+3-12	there	3-13_expl	was	EX	O
+3-13	was	3-7_advcl	love	VBD	O
+3-14	a	O	O	DT	O
+3-15	shortage	3-13_nsubj	was	NN	P1_NPart_shortage
+3-16	of	O	O	O	O
+3-17	people	O	O	NNS	P1_beneficiary
+3-18	bringing	O	O	VBG	O
+3-19	dessert	3-18_dobj	bringing	NN	P1_cake
+3-20	.	O	O	O	O
+
+#id=4
+#text=I figured that I should bake it myself since I do not bake fairly often . 
+4-1	I	4-2_nsubj	figured	PRP	P1_cook
+4-2	figured	O	O	VBD	O
+4-3	that	4-6_mark	bake	IN	O
+4-4	I	4-6_nsubj	bake	PRP	P3_beneficiary
+4-5	should	4-6_aux	bake	MD	O
+4-6	bake	4-2_ccomp	figured	VB	O
+4-7	it	O	O	PRP	P1_cake
+4-8	myself	4-6_xcomp	bake	PRP	P3_beneficiary
+4-9	since	4-13_mark	bake	IN	O
+4-10	I	4-13_nsubj	bake	PRP	P1_cook
+4-11	do	4-13_aux	bake	VBP	O
+4-12	not	4-13_neg	bake	RB	O
+4-13	bake	4-6_advcl	bake	VB	O
+4-14	fairly	O	O	RB	O
+4-15	often	4-13_advmod	bake	RB	O
+4-16	.	O	O	O	O
+
+#id=5
+#text=I looked throughout my pantry and realized I had everything I needed . 
+5-1	I	5-2_nsubj	looked	PRP	P1_cook
+5-2	looked	O	O	VBD	O
+5-3	throughout	O	O	O	O
+5-4	my	O	O	PRP$	P1_cook
+5-5	pantry	5-2_prep_throughout	looked	NN	P1_cabinet
+5-6	and	O	O	O	O
+5-7	realized	5-2_conj_and	looked	VBD	O
+5-8	I	5-9_nsubj	had	PRP	P1_cook
+5-9	had	5-7_ccomp	realized	VBD	O
+5-10	everything	5-9_dobj	had	NN	P1_ingredients
+5-11	I	5-12_nsubj	needed	PRP	P1_cook
+5-12	needed	O	O	VBD	O
+5-13	.	O	O	O	O
+
+#id=6
+#text=I went ahead and made it the evening before using all of the ingredients . 
+6-1	I	6-2_nsubj	went	PRP	P1_cook
+6-2	went	O	O	VBD	O
+6-3	ahead	6-2_advmod	went	RB	O
+6-4	and	O	O	O	O
+6-5	made	6-2_conj_and	went	VBD	O
+6-6	it	6-5_dobj	made	PRP	P1_cake
+6-7	the	O	O	DT	O
+6-8	evening	6-5_tmod	made	NN	P1_NPart_evening
+6-9	before	O	O	O	O
+6-10	using	6-5_prepc_before	made	VBG	O
+6-11	all	6-10_dobj	using	DT	O
+6-12	of	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	ingredients	O	O	NNS	P1_ingredients
+6-15	.	O	O	O	O
+
+#id=7
+#text=I mixed the flour , sugar , water , eggs and even made my own frosting and did n't use one from a can . 
+7-1	I	7-2_nsubj	mixed	PRP	P1_cook
+7-2	mixed	O	O	VBN	O
+7-3	the	O	O	DT	O
+7-4	flour	7-2_dobj	mixed	NN	P2_ingredients
+7-5	,	O	O	O	O
+7-6	sugar	O	O	NN	P3_ingredients
+7-7	,	O	O	O	O
+7-8	water	O	O	NN	P4_ingredients
+7-9	,	O	O	O	O
+7-10	eggs	O	O	NNS	P5_ingredients
+7-11	and	O	O	O	O
+7-12	even	7-13_advmod	made	RB	O
+7-13	made	7-2_conj_and	mixed	VBN	O
+7-14	my	O	O	PRP$	P1_cook
+7-15	own	O	O	JJ	O
+7-16	frosting	7-13_dobj	made	NN	P1_decoration
+7-17	and	O	O	O	O
+7-18	did	7-20_aux	use	VBD	O
+7-19	n't	7-20_neg	use	RB	O
+7-20	use	7-2_conj_and	mixed	VB	O
+7-21	one	7-20_dobj	use	CD	P6_ingredients
+7-22	from	O	O	O	O
+7-23	a	O	O	DT	O
+7-24	can	7-20_prep_from	use	NN	P1_NPart_can
+7-25	.	O	O	O	O
+
+#id=8
+#text=It turned out very moist , sweet and very good tasting . 
+8-1	It	8-2_nsubj	turned	PRP	P1_decoration
+8-2	turned	O	O	VBD	O
+8-3	out	8-2_prt	turned	RP	O
+8-4	very	O	O	RB	O
+8-5	moist	8-2_dep	turned	JJ	O
+8-6	,	O	O	O	O
+8-7	sweet	O	O	JJ	O
+8-8	and	O	O	O	O
+8-9	very	O	O	RB	O
+8-10	good	O	O	JJ	O
+8-11	tasting	O	O	NN	O
+8-12	.	O	O	O	O
+
+#id=9
+#text=The next day I brought the cake over to my family gathering and it was a big hit . 
+9-1	The	O	O	DT	O
+9-2	next	O	O	JJ	O
+9-3	day	9-5_dep	brought	NN	P1_NPart_day
+9-4	I	9-5_nsubj	brought	PRP	P1_cook
+9-5	brought	O	O	VBD	O
+9-6	the	O	O	DT	O
+9-7	cake	9-5_dobj	brought	NN	P1_cake
+9-8	over	9-5_prt	brought	RP	O
+9-9	to	O	O	O	O
+9-10	my	O	O	PRP$	P1_cook
+9-11	family	O	O	NN	O
+9-12	gathering	9-5_prep_to	brought	NN	P1_NPart_gathering
+9-13	and	O	O	O	O
+9-14	it	O	O	PRP	P1_cake
+9-15	was	O	O	VBD	O
+9-16	a	O	O	DT	O
+9-17	big	O	O	JJ	O
+9-18	hit	9-5_conj_and	brought	NN	P1_NPart_hit
+9-19	.	O	O	O	O
+
+#id=10
+#text=Everyone seemed to enjoy it . 
+10-1	Everyone	10-2_nsubj	seemed	NN	P1_beneficiary
+10-2	seemed	O	O	VBD	O
+10-3	to	10-4_aux	enjoy	TO	O
+10-4	enjoy	10-2_xcomp	seemed	VB	O
+10-5	it	10-4_dobj	enjoy	PRP	P1_cake
+10-6	.	O	O	O	O
+
+#id=11
+#text=Afterwards , my aunt and other family members thanked me very much . 
+11-1	Afterwards	11-9_advmod	thanked	RB	O
+11-2	,	O	O	O	O
+11-3	my	O	O	PRP$	P1_cook
+11-4	aunt	11-9_nsubj	thanked	NN	P2_beneficiary
+11-5	and	O	O	O	O
+11-6	other	O	O	JJ	O
+11-7	family	O	O	NN	O
+11-8	members	O	O	NNS	P4_beneficiary
+11-9	thanked	O	O	VBD	O
+11-10	me	O	O	PRP	P1_cook
+11-11	very	O	O	RB	O
+11-12	much	11-9_xcomp	thanked	JJ	O
+11-13	.	O	O	O	O
+
+#id=12
+#text=I was very happy with myself . 
+12-1	I	O	O	PRP	P1_cook
+12-2	was	O	O	VBD	O
+12-3	very	O	O	RB	O
+12-4	happy	O	O	JJ	O
+12-5	with	O	O	O	O
+12-6	myself	O	O	PRP	P1_cook
+12-7	.	O	O	O	O

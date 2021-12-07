@@ -1,0 +1,372 @@
+#id=1
+#text=I live near the city of Santa Cruz and often take the 17X bus to the nearby city of San Jose . 
+1-1	I	1-2_nsubj	live	PRP	P1_passenger
+1-2	live	O	O	VBP	O
+1-3	near	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	city	1-2_prep_near	live	NN	P1_NPart_city
+1-6	of	O	O	O	O
+1-7	Santa	O	O	NNP	O
+1-8	Cruz	O	O	NNP	P1_NPart_cruz
+1-9	and	O	O	O	O
+1-10	often	1-11_advmod	take	RB	O
+1-11	take	1-2_conj_and	live	VB	O
+1-12	the	O	O	DT	O
+1-13	17X	O	O	CD	O
+1-14	bus	1-11_dobj	take	NN	P1_bus
+1-15	to	O	O	O	O
+1-16	the	O	O	DT	O
+1-17	nearby	O	O	JJ	O
+1-18	city	1-11_prep_to	take	NN	O
+1-19	of	O	O	O	O
+1-20	San	O	O	NNP	O
+1-21	Jose	O	O	NNP	P1_destination
+1-22	.	O	O	O	O
+
+#id=2
+#text=It 's possible to get discount fares by paying for multiple rides in advance , but I usually pay cash , five dollars for one-way . 
+2-1	It	O	O	PRP	O
+2-2	's	O	O	VBZ	O
+2-3	possible	O	O	JJ	O
+2-4	to	2-5_aux	get	TO	O
+2-5	get	O	O	VB	O
+2-6	discount	O	O	NN	O
+2-7	fares	2-5_dobj	get	NNS	P1_other
+2-8	by	O	O	O	O
+2-9	paying	2-5_prepc_by	get	VBG	O
+2-10	for	O	O	O	O
+2-11	multiple	O	O	JJ	O
+2-12	rides	2-9_prep_for	paying	NNS	P1_ride
+2-13	in	O	O	O	O
+2-14	advance	O	O	NN	P1_NPart_advance
+2-15	,	O	O	O	O
+2-16	but	O	O	O	O
+2-17	I	2-19_nsubj	pay	PRP	P1_passenger
+2-18	usually	2-19_advmod	pay	RB	O
+2-19	pay	O	O	VB	O
+2-20	cash	2-19_dobj	pay	NN	P1_money
+2-21	,	O	O	O	O
+2-22	five	O	O	CD	O
+2-23	dollars	2-19_dobj	pay	NNS	P2_money
+2-24	for	O	O	O	O
+2-25	one-way	O	O	NNP	O
+2-26	.	O	O	O	O
+
+#id=3
+#text=I get to my small town 's transit center early on weekday mornings , because the bus fills up quickly , and most good seats are already taken by riders who started their trip in downtown Santa Cruz . 
+3-1	I	3-2_nsubj	get	PRP	P1_passenger
+3-2	get	O	O	VBP	O
+3-3	to	O	O	O	O
+3-4	my	O	O	PRP$	P1_passenger
+3-5	small	O	O	JJ	O
+3-6	town	O	O	NN	P1_NPart_town
+3-7	's	O	O	O	O
+3-8	transit	O	O	NN	O
+3-9	center	3-2_prep_to	get	NN	P2_other
+3-10	early	3-2_advmod	get	RB	O
+3-11	on	O	O	O	O
+3-12	weekday	O	O	NN	O
+3-13	mornings	O	O	NNS	P1_time/date
+3-14	,	O	O	O	O
+3-15	because	3-18_mark	fills	IN	O
+3-16	the	O	O	DT	O
+3-17	bus	3-18_nsubj	fills	NN	P1_bus
+3-18	fills	3-2_advcl	get	VBZ	O
+3-19	up	O	O	RB	O
+3-20	quickly	3-18_advmod	fills	RB	O
+3-21	,	O	O	O	O
+3-22	and	O	O	O	O
+3-23	most	O	O	RBS	O
+3-24	good	O	O	JJ	O
+3-25	seats	3-28_nsubjpass	taken	NNS	P1_seat_in_bus
+3-26	are	3-28_auxpass	taken	VBP	O
+3-27	already	3-28_advmod	taken	RB	O
+3-28	taken	3-2_conj_and	get	VBN	O
+3-29	by	O	O	O	O
+3-30	riders	3-28_agent	taken	NNS	P2_passenger
+3-31	who	3-32_nsubj	started	WP	O
+3-32	started	O	O	VBD	O
+3-33	their	O	O	PRP$	P3_passenger
+3-34	trip	3-32_dobj	started	NN	P1_ride
+3-35	in	O	O	O	O
+3-36	downtown	O	O	NN	P1_NPart_downtown
+3-37	Santa	O	O	NNP	O
+3-38	Cruz	3-32_prep_in	started	NNP	P2_NPart_cruz
+3-39	.	O	O	O	O
+
+#id=4
+#text=We wait in line in civilized fashion . 
+4-1	We	4-2_nsubj	wait	PRP	P4_passenger
+4-2	wait	O	O	VBP	O
+4-3	in	O	O	O	O
+4-4	line	4-2_prep_in	wait	NN	O
+4-5	in	O	O	O	O
+4-6	civilized	O	O	JJ	O
+4-7	fashion	O	O	NN	P1_NPart_fashion
+4-8	.	O	O	O	O
+
+#id=5
+#text=Some people need only show the driver their pass , some shove a five-dollar bill into the fare machine efficiently . 
+5-1	Some	O	O	DT	O
+5-2	people	5-3_nsubj	need	NNS	P5_passenger
+5-3	need	5-12_ccomp	shove	VBP	O
+5-4	only	5-3_advmod	need	RB	O
+5-5	show	5-3_dep	need	VB	O
+5-6	the	O	O	DT	O
+5-7	driver	5-5_iobj	show	NN	P1_bus_staff
+5-8	their	O	O	PRP$	P6_passenger
+5-9	pass	5-5_dobj	show	NN	P1_card/ticket
+5-10	,	O	O	O	O
+5-11	some	5-12_nsubj	shove	DT	P7_passenger
+5-12	shove	O	O	VBD	O
+5-13	a	O	O	DT	O
+5-14	five-dollar	O	O	JJ	O
+5-15	bill	5-12_dobj	shove	NN	P3_money
+5-16	into	5-12_prep	shove	IN	O
+5-17	the	O	O	DT	O
+5-18	fare	O	O	NN	O
+5-19	machine	O	O	NN	P1_payment_machine
+5-20	efficiently	O	O	RB	O
+5-21	.	O	O	O	O
+
+#id=6
+#text=But some fumble with small coins or ask other riders for change , which makes everyone in line restive . 
+6-1	But	O	O	O	O
+6-2	some	6-3_nsubj	fumble	DT	P8_passenger
+6-3	fumble	O	O	VB	O
+6-4	with	O	O	O	O
+6-5	small	O	O	JJ	O
+6-6	coins	6-3_prep_with	fumble	NNS	P4_money
+6-7	or	O	O	O	O
+6-8	ask	6-3_conj_or	fumble	VB	O
+6-9	other	O	O	JJ	O
+6-10	riders	6-8_dobj	ask	NNS	P9_passenger
+6-11	for	O	O	O	O
+6-12	change	6-8_prep_for	ask	NN	P5_money
+6-13	,	O	O	O	O
+6-14	which	6-15_nsubj	makes	WDT	O
+6-15	makes	O	O	VBZ	O
+6-16	everyone	6-15_dobj	makes	NN	P10_passenger
+6-17	in	O	O	O	O
+6-18	line	O	O	NN	P1_NPart_line
+6-19	restive	O	O	NN	O
+6-20	.	O	O	O	O
+
+#id=7
+#text=Once on , riders can choose seats grouped around small tables , seats facing forward , or seats facing sideways . 
+7-1	Once	O	O	RB	O
+7-2	on	7-6_advmod	choose	RB	O
+7-3	,	O	O	O	O
+7-4	riders	7-6_nsubj	choose	NNS	P11_passenger
+7-5	can	7-6_aux	choose	MD	O
+7-6	choose	O	O	VB	O
+7-7	seats	7-6_dobj	choose	NNS	P2_seat_in_bus
+7-8	grouped	O	O	VBN	O
+7-9	around	O	O	O	O
+7-10	small	O	O	JJ	O
+7-11	tables	7-8_prep_around	grouped	NNS	P3_other
+7-12	,	O	O	O	O
+7-13	seats	O	O	NNS	P3_seat_in_bus
+7-14	facing	O	O	VBG	O
+7-15	forward	7-14_advmod	facing	RB	O
+7-16	,	O	O	O	O
+7-17	or	O	O	O	O
+7-18	seats	O	O	NNS	P4_seat_in_bus
+7-19	facing	O	O	VBG	O
+7-20	sideways	7-19_advmod	facing	RB	O
+7-21	.	O	O	O	O
+
+#id=8
+#text=Table seats are premium , since the bus has WiFi and many people bring laptops . 
+8-1	Table	O	O	NNP	O
+8-2	seats	O	O	NNS	P2_seat_in_bus
+8-3	are	O	O	VBP	O
+8-4	premium	O	O	NN	O
+8-5	,	O	O	O	O
+8-6	since	8-9_mark	has	IN	O
+8-7	the	O	O	DT	O
+8-8	bus	8-9_nsubj	has	NN	P2_bus
+8-9	has	O	O	VBZ	O
+8-10	WiFi	8-14_nsubj	bring	NNP	P4_other
+8-11	and	O	O	O	O
+8-12	many	O	O	JJ	O
+8-13	people	O	O	NNS	P12_passenger
+8-14	bring	8-9_ccomp	has	VB	O
+8-15	laptops	8-14_dobj	bring	NNS	P1_NPart_laptops
+8-16	.	O	O	O	O
+
+#id=9
+#text=Others prefer seats in the back where the roughnecks are , just like in high school . 
+9-1	Others	9-2_nsubj	prefer	NNS	P13_passenger
+9-2	prefer	O	O	VBP	O
+9-3	seats	9-2_dobj	prefer	NNS	P5_seat_in_bus
+9-4	in	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	back	9-2_prep_in	prefer	NN	P1_NPart_back
+9-7	where	9-10_advmod	are	WRB	O
+9-8	the	O	O	DT	O
+9-9	roughnecks	9-10_nsubj	are	NNS	P1_NPart_roughnecks
+9-10	are	9-2_advcl	prefer	VBP	O
+9-11	,	O	O	O	O
+9-12	just	9-10_advmod	are	RB	O
+9-13	like	9-10_prep	are	IN	O
+9-14	in	O	O	IN	O
+9-15	high	O	O	JJ	O
+9-16	school	O	O	NN	P1_NPart_school
+9-17	.	O	O	O	O
+
+#id=10
+#text=My little town is the last stop before highway 17 . 
+10-1	My	O	O	PRP$	P1_passenger
+10-2	little	O	O	JJ	O
+10-3	town	O	O	NN	P1_destination
+10-4	is	O	O	VBZ	O
+10-5	the	O	O	DT	O
+10-6	last	O	O	JJ	O
+10-7	stop	O	O	NN	P1_bus_stop
+10-8	before	O	O	O	O
+10-9	highway	O	O	NN	P1_NPart_highway
+10-10	17	O	O	CD	O
+10-11	.	O	O	O	O
+
+#id=11
+#text=The bus whips along amid the pine trees and the yellow-flowered acacia that blooms this time of year . 
+11-1	The	O	O	DT	O
+11-2	bus	11-3_nsubj	whips	NN	P3_bus
+11-3	whips	O	O	VBZ	O
+11-4	along	11-3_prt	whips	RP	O
+11-5	amid	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	pine	O	O	JJ	O
+11-8	trees	11-3_prep_amid	whips	NNS	P1_NPart_trees
+11-9	and	O	O	O	O
+11-10	the	O	O	DT	O
+11-11	yellow-flowered	O	O	JJ	O
+11-12	acacia	O	O	NN	P1_NPart_acacia
+11-13	that	11-14_nsubj	blooms	WDT	O
+11-14	blooms	O	O	VBZ	O
+11-15	this	O	O	DT	O
+11-16	time	11-14_dobj	blooms	NN	O
+11-17	of	O	O	O	O
+11-18	year	O	O	NN	P1_NPart_year
+11-19	.	O	O	O	O
+
+#id=12
+#text=It is pleasant not to have to keep your eyes on the road . 
+12-1	It	O	O	PRP	O
+12-2	is	O	O	VBZ	O
+12-3	pleasant	O	O	JJ	O
+12-4	not	12-6_neg	have	RB	O
+12-5	to	12-6_aux	have	TO	O
+12-6	have	O	O	VB	O
+12-7	to	12-8_aux	keep	TO	O
+12-8	keep	12-6_xcomp	have	VB	O
+12-9	your	O	O	PRP$	P1_passenger
+12-10	eyes	12-8_dobj	keep	NNS	P1_NPart_eyes
+12-11	on	O	O	O	O
+12-12	the	O	O	DT	O
+12-13	road	12-8_prep_on	keep	NN	P1_route
+12-14	.	O	O	O	O
+
+#id=13
+#text=Unspoken bus etiquette decrees that strangers do n't speak to each other , but of course some people know each other and chat . 
+13-1	Unspoken	O	O	NNP	O
+13-2	bus	O	O	NN	O
+13-3	etiquette	13-4_nsubj	decrees	NN	O
+13-4	decrees	O	O	VBZ	O
+13-5	that	13-9_mark	speak	IN	O
+13-6	strangers	13-9_nsubj	speak	NNS	P1_NPart_strangers
+13-7	do	13-9_aux	speak	VBP	O
+13-8	n't	13-9_neg	speak	RB	O
+13-9	speak	13-4_ccomp	decrees	VB	O
+13-10	to	O	O	O	O
+13-11	each	O	O	DT	O
+13-12	other	13-9_prep_to	speak	JJ	O
+13-13	,	O	O	O	O
+13-14	but	O	O	O	O
+13-15	of	O	O	O	O
+13-16	course	13-19_prep_of	know	NN	O
+13-17	some	O	O	DT	O
+13-18	people	13-19_nsubj	know	NNS	P14_passenger
+13-19	know	13-4_conj_but	decrees	VBP	O
+13-20	each	O	O	DT	O
+13-21	other	13-19_xcomp	know	JJ	P14_passenger
+13-22	and	O	O	O	O
+13-23	chat	O	O	NN	O
+13-24	.	O	O	O	O
+
+#id=14
+#text=Many tap away on their machines or play video games , others read books or enjoy the ride . 
+14-1	Many	14-2_nsubj	tap	DT	P15_passenger
+14-2	tap	14-13_ccomp	read	VB	O
+14-3	away	14-2_prt	tap	RP	O
+14-4	on	O	O	O	O
+14-5	their	O	O	PRP$	P15_passenger
+14-6	machines	14-2_prep_on	tap	NNS	P5_other
+14-7	or	O	O	O	O
+14-8	play	14-2_conj_or	tap	VB	O
+14-9	video	O	O	JJ	O
+14-10	games	14-8_dobj	play	NNS	P6_other
+14-11	,	O	O	O	O
+14-12	others	14-13_nsubj	read	NNS	P16_passenger
+14-13	read	O	O	VBD	O
+14-14	books	14-13_dobj	read	NNS	P7_other
+14-15	or	O	O	O	O
+14-16	enjoy	14-13_conj_or	read	VBP	O
+14-17	the	O	O	DT	O
+14-18	ride	14-16_dobj	enjoy	NN	P1_ride
+14-19	.	O	O	O	O
+
+#id=15
+#text=It ends at San Jose 's train station , where passengers can transfer to the San Francisco train , or take a rattling inferior 1-hour bus ride to Fremont to catch the BART mass transit line to Oakland , Richmond , or distant Pittsburg , where the California Delta begins . 
+15-1	It	15-2_nsubj	ends	PRP	P1_ride
+15-2	ends	O	O	VBZ	O
+15-3	at	O	O	O	O
+15-4	San	O	O	NNP	O
+15-5	Jose	O	O	NNP	P1_NPart_jose
+15-6	's	O	O	O	O
+15-7	train	O	O	NN	O
+15-8	station	15-2_prep_at	ends	NN	P1_NPart_station
+15-9	,	O	O	O	O
+15-10	where	15-13_advmod	transfer	WRB	O
+15-11	passengers	15-13_nsubj	transfer	NNS	P17_passenger
+15-12	can	15-13_aux	transfer	MD	O
+15-13	transfer	O	O	VB	O
+15-14	to	O	O	O	O
+15-15	the	O	O	DT	O
+15-16	San	O	O	NNP	O
+15-17	Francisco	O	O	NNP	P1_NPart_francisco
+15-18	train	15-13_prep_to	transfer	NN	P1_NPart_train
+15-19	,	O	O	O	O
+15-20	or	O	O	O	O
+15-21	take	15-13_conj_or	transfer	VB	O
+15-22	a	O	O	DT	O
+15-23	rattling	O	O	RB	O
+15-24	inferior	O	O	JJ	O
+15-25	1-hour	O	O	JJ	O
+15-26	bus	O	O	NN	O
+15-27	ride	15-21_dobj	take	NN	P1_ride
+15-28	to	O	O	O	O
+15-29	Fremont	15-21_prep_to	take	NNP	P2_destination
+15-30	to	15-31_aux	catch	TO	O
+15-31	catch	15-21_vmod	take	VB	O
+15-32	the	O	O	DT	O
+15-33	BART	O	O	NNP	O
+15-34	mass	O	O	NN	O
+15-35	transit	O	O	NN	O
+15-36	line	15-31_dobj	catch	NN	P8_other
+15-37	to	O	O	O	O
+15-38	Oakland	O	O	NNP	P3_destination
+15-39	,	O	O	O	O
+15-40	Richmond	15-31_prep_to	catch	NNP	P4_destination
+15-41	,	O	O	O	O
+15-42	or	O	O	O	O
+15-43	distant	O	O	NNP	O
+15-44	Pittsburg	O	O	NNP	P5_destination
+15-45	,	O	O	O	O
+15-46	where	15-50_advmod	begins	WRB	O
+15-47	the	O	O	DT	O
+15-48	California	O	O	NNP	O
+15-49	Delta	15-50_nsubj	begins	NNP	P9_other
+15-50	begins	O	O	VBZ	O
+15-51	.	O	O	O	O

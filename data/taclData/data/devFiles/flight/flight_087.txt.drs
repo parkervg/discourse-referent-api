@@ -1,0 +1,244 @@
+#id=1
+#text=I walked onto the plane and was greeted by the stewardess who had a very kind smile . 
+1-1	I	1-2_nsubj	walked	PRP	P1_passenger
+1-2	walked	O	O	VBD	O
+1-3	onto	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	plane	1-2_prep_onto	walked	NN	P1_plane
+1-6	and	O	O	O	O
+1-7	was	1-8_auxpass	greeted	VBD	O
+1-8	greeted	1-2_conj_and	walked	VBN	O
+1-9	by	O	O	O	O
+1-10	the	O	O	DT	O
+1-11	stewardess	1-8_agent	greeted	NNS	P1_staff
+1-12	who	1-13_nsubj	had	WP	P1_staff
+1-13	had	O	O	VBD	O
+1-14	a	O	O	DT	O
+1-15	very	O	O	RB	O
+1-16	kind	O	O	JJ	O
+1-17	smile	1-13_dobj	had	NN	P1_NPart_smile
+1-18	.	O	O	O	O
+
+#id=2
+#text=I walked slowly behind the other passengers as people were shoving their luggage into the overhead compartments . 
+2-1	I	2-2_nsubj	walked	PRP	P1_passenger
+2-2	walked	O	O	VBD	O
+2-3	slowly	2-2_advmod	walked	RB	O
+2-4	behind	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	other	O	O	JJ	O
+2-7	passengers	2-2_prep_behind	walked	NNS	P2_passenger
+2-8	as	2-11_mark	shoving	IN	O
+2-9	people	2-11_nsubj	shoving	NNS	P2_passenger
+2-10	were	2-11_aux	shoving	VBD	O
+2-11	shoving	2-2_advcl	walked	VBG	O
+2-12	their	O	O	PRP$	P2_passenger
+2-13	luggage	2-11_dobj	shoving	NN	P1_carry_on_luggage
+2-14	into	O	O	O	O
+2-15	the	O	O	DT	O
+2-16	overhead	O	O	JJ	O
+2-17	compartments	2-11_prep_into	shoving	NNS	P1_storage
+2-18	.	O	O	O	O
+
+#id=3
+#text=I found my seat just ahead of the right wing . 
+3-1	I	3-2_nsubj	found	PRP	P1_passenger
+3-2	found	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_passenger
+3-4	seat	3-2_dobj	found	NN	P1_seat
+3-5	just	O	O	RB	O
+3-6	ahead	O	O	O	O
+3-7	of	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	right	O	O	JJ	O
+3-10	wing	O	O	NN	P1_other
+3-11	.	O	O	O	O
+
+#id=4
+#text=I buckled into my seat next to the window , and prepared myself for takeoff . 
+4-1	I	4-2_nsubj	buckled	PRP	P1_passenger
+4-2	buckled	O	O	VBD	O
+4-3	into	O	O	O	O
+4-4	my	O	O	PRP$	P1_passenger
+4-5	seat	4-2_prep_into	buckled	NN	P1_seat
+4-6	next	O	O	O	O
+4-7	to	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	window	4-2_prep_next_to	buckled	NN	P1_in-flight_entertainment
+4-10	,	O	O	O	O
+4-11	and	O	O	O	O
+4-12	prepared	4-2_conj_and	buckled	VBD	O
+4-13	myself	4-12_dobj	prepared	PRP	P1_passenger
+4-14	for	O	O	O	O
+4-15	takeoff	4-12_prep_for	prepared	NN	O
+4-16	.	O	O	O	O
+
+#id=5
+#text=The stewardess explained all the pre-flight information about safety . 
+5-1	The	O	O	DT	O
+5-2	stewardess	5-3_nsubj	explained	NNS	P1_staff
+5-3	explained	O	O	VBD	O
+5-4	all	O	O	PDT	O
+5-5	the	O	O	DT	O
+5-6	pre-flight	O	O	JJ	O
+5-7	information	5-3_dobj	explained	NN	P1_safety_instructions
+5-8	about	O	O	O	O
+5-9	safety	5-3_prep_about	explained	NN	P2_safety_instructions
+5-10	.	O	O	O	O
+
+#id=6
+#text=The plane started to taxi to the runway . 
+6-1	The	O	O	DT	O
+6-2	plane	6-3_nsubj	started	NN	P1_plane
+6-3	started	O	O	VBD	O
+6-4	to	O	O	O	O
+6-5	taxi	6-3_prep_to	started	NN	O
+6-6	to	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	runway	6-3_prep_to	started	NN	P1_location_airplane
+6-9	.	O	O	O	O
+
+#id=7
+#text=My stomach started to get a little twisted . 
+7-1	My	O	O	PRP$	P1_passenger
+7-2	stomach	7-3_nsubj	started	NN	P1_NPart_stomach
+7-3	started	O	O	VBD	O
+7-4	to	O	O	TO	O
+7-5	get	O	O	VB	O
+7-6	a	O	O	DT	O
+7-7	little	O	O	RB	O
+7-8	twisted	7-3_xcomp	started	JJ	O
+7-9	.	O	O	O	O
+
+#id=8
+#text=The engines started to roar and the passengers were pushed back into their seats . 
+8-1	The	O	O	DT	O
+8-2	engines	8-3_nsubj	started	NNS	P2_plane
+8-3	started	O	O	VBD	O
+8-4	to	O	O	O	O
+8-5	roar	8-3_prep_to	started	NN	O
+8-6	and	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	passengers	8-10_nsubjpass	pushed	NNS	P3_passenger
+8-9	were	8-10_auxpass	pushed	VBD	O
+8-10	pushed	8-3_conj_and	started	VBN	O
+8-11	back	8-10_prt	pushed	RP	O
+8-12	into	O	O	O	O
+8-13	their	O	O	PRP$	P3_passenger
+8-14	seats	8-10_prep_into	pushed	NNS	P2_seat
+8-15	.	O	O	O	O
+
+#id=9
+#text=In a few seconds the plane started climbing and we were off . 
+9-1	In	O	O	O	O
+9-2	a	O	O	DT	O
+9-3	few	O	O	JJ	O
+9-4	seconds	9-7_prep_in	started	NNS	P1_time/date
+9-5	the	O	O	DT	O
+9-6	plane	9-7_nsubj	started	NN	P1_plane
+9-7	started	O	O	VBD	O
+9-8	climbing	9-7_xcomp	started	VBG	O
+9-9	and	O	O	O	O
+9-10	we	O	O	PRP	P1_plane
+9-11	were	O	O	VBD	O
+9-12	off	9-7_conj_and	started	RP	O
+9-13	.	O	O	O	O
+
+#id=10
+#text=I watched the the trees and the buildings get smaller and smaller . 
+10-1	I	10-2_nsubj	watched	PRP	P1_passenger
+10-2	watched	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	the	O	O	DT	O
+10-5	trees	10-9_nsubj	get	NNS	P1_NPart_trees
+10-6	and	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	buildings	O	O	NNS	P1_NPart_buildings
+10-9	get	10-2_ccomp	watched	VBP	O
+10-10	smaller	10-9_acomp	get	JJR	O
+10-11	and	O	O	O	O
+10-12	smaller	O	O	JJR	O
+10-13	.	O	O	O	O
+
+#id=11
+#text=After a few minutes we started to level off and everything on the ground looked miniature . 
+11-1	After	O	O	O	O
+11-2	a	O	O	DT	O
+11-3	few	O	O	JJ	O
+11-4	minutes	11-6_prep_after	started	NNS	P2_time/date
+11-5	we	11-6_nsubj	started	PRP	P1_plane
+11-6	started	O	O	VBD	O
+11-7	to	11-8_aux	level	TO	O
+11-8	level	11-6_xcomp	started	VB	O
+11-9	off	11-8_prt	level	RP	O
+11-10	and	O	O	O	O
+11-11	everything	11-15_nsubj	looked	NN	P1_NPart_everything
+11-12	on	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	ground	O	O	NN	P1_NPart_ground
+11-15	looked	11-6_conj_and	started	VBD	O
+11-16	miniature	11-15_dobj	looked	NN	P1_NPart_miniature
+11-17	.	O	O	O	O
+
+#id=12
+#text=We were above the clouds for most of the flight , but I still love looking out the window . 
+12-1	We	12-2_nsubj	were	PRP	P1_plane
+12-2	were	O	O	VBD	O
+12-3	above	O	O	O	O
+12-4	the	O	O	DT	O
+12-5	clouds	12-2_prep_above	were	NNS	P2_location_airplane
+12-6	for	O	O	O	O
+12-7	most	O	O	JJS	O
+12-8	of	O	O	O	O
+12-9	the	O	O	DT	O
+12-10	flight	O	O	NN	P1_flight
+12-11	,	O	O	O	O
+12-12	but	O	O	O	O
+12-13	I	12-15_nsubj	love	PRP	P1_passenger
+12-14	still	12-15_advmod	love	RB	O
+12-15	love	12-2_conj_but	were	VBP	O
+12-16	looking	12-15_xcomp	love	VBG	O
+12-17	out	12-16_prt	looking	RP	O
+12-18	the	O	O	DT	O
+12-19	window	12-16_dobj	looking	NN	P2_in-flight_entertainment
+12-20	.	O	O	O	O
+
+#id=13
+#text=As we began our descent , we went through rain clouds and it was a bit bumpy , but we landed safely and exited the plane the same way we began , slow and without efficiency . 
+13-1	As	13-3_mark	began	IN	O
+13-2	we	13-3_nsubj	began	PRP	P1_plane
+13-3	began	13-8_advcl	went	VBD	O
+13-4	our	O	O	PRP$	P1_plane
+13-5	descent	13-3_dobj	began	NN	O
+13-6	,	O	O	O	O
+13-7	we	13-8_nsubj	went	PRP	P1_plane
+13-8	went	O	O	VBD	O
+13-9	through	O	O	O	O
+13-10	rain	O	O	NN	O
+13-11	clouds	13-8_prep_through	went	NNS	P2_location_airplane
+13-12	and	O	O	O	O
+13-13	it	O	O	PRP	O
+13-14	was	O	O	VBD	O
+13-15	a	O	O	DT	O
+13-16	bit	O	O	RB	O
+13-17	bumpy	13-8_conj_and	went	JJ	O
+13-18	,	O	O	O	O
+13-19	but	O	O	O	O
+13-20	we	13-21_nsubj	landed	PRP	P3_passenger
+13-21	landed	13-8_conj_but	went	VBD	O
+13-22	safely	13-21_advmod	landed	RB	O
+13-23	and	O	O	O	O
+13-24	exited	13-21_conj_and	landed	VB	O
+13-25	the	O	O	DT	O
+13-26	plane	13-24_dobj	exited	NN	P1_plane
+13-27	the	O	O	DT	O
+13-28	same	O	O	JJ	O
+13-29	way	O	O	NN	O
+13-30	we	13-31_nsubj	began	PRP	P3_passenger
+13-31	began	O	O	VBD	O
+13-32	,	O	O	O	O
+13-33	slow	13-24_conj_and	exited	VB	O
+13-34	and	O	O	O	O
+13-35	without	13-24_conj_and	exited	IN	O
+13-36	efficiency	O	O	NN	P1_NPart_efficiency
+13-37	.	O	O	O	O

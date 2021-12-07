@@ -1,0 +1,7 @@
+models/
+glove/
+.git/
+img/
+playground.py
+visualize.py
+*.png

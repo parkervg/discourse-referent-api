@@ -1,0 +1,236 @@
+#id=1
+#text=The other day , my best friend and I were riding to his house . 
+1-1	The	O	O	DT	O
+1-2	other	O	O	JJ	O
+1-3	day	1-11_nsubj	riding	NN	P1_NPart_day
+1-4	,	O	O	O	O
+1-5	my	O	O	PRP$	P1_rider
+1-6	best	O	O	JJS	O
+1-7	friend	O	O	NN	P2_rider
+1-8	and	O	O	O	O
+1-9	I	O	O	PRP	P1_rider
+1-10	were	1-11_aux	riding	VBD	O
+1-11	riding	O	O	VBG	O
+1-12	to	O	O	O	O
+1-13	his	O	O	PRP$	P2_rider
+1-14	house	1-11_prep_to	riding	NN	P1_NPart_house
+1-15	.	O	O	O	O
+
+#id=2
+#text=When we were almost there , I noticed that the front tire on my bicycle felt rather wobbly and was most likely flat . 
+2-1	When	2-3_advmod	were	WRB	O
+2-2	we	2-3_nsubj	were	PRP	P3_rider
+2-3	were	2-8_advcl	noticed	VBD	O
+2-4	almost	O	O	RB	O
+2-5	there	2-3_advmod	were	RB	O
+2-6	,	O	O	O	O
+2-7	I	2-8_nsubj	noticed	PRP	P1_rider
+2-8	noticed	O	O	VBD	O
+2-9	that	2-16_mark	felt	IN	O
+2-10	the	O	O	DT	O
+2-11	front	O	O	JJ	O
+2-12	tire	2-16_nsubj	felt	NN	P1_tire
+2-13	on	O	O	O	O
+2-14	my	O	O	PRP$	P1_rider
+2-15	bicycle	O	O	NN	P1_bicycle
+2-16	felt	2-8_ccomp	noticed	VBD	O
+2-17	rather	2-16_prep	felt	RB	O
+2-18	wobbly	O	O	JJ	O
+2-19	and	O	O	O	O
+2-20	was	O	O	VBD	O
+2-21	most	O	O	RBS	O
+2-22	likely	O	O	RB	O
+2-23	flat	2-16_conj_and	felt	JJ	O
+2-24	.	O	O	O	O
+
+#id=3
+#text=I was in luck however , as my friend had a bicycle repair kit and some spare tires . 
+3-1	I	3-2_nsubj	was	PRP	P1_rider
+3-2	was	O	O	VBD	O
+3-3	in	O	O	O	O
+3-4	luck	3-2_prep_in	was	NN	P1_NPart_luck
+3-5	however	3-2_advmod	was	RB	O
+3-6	,	O	O	O	O
+3-7	as	3-10_mark	had	IN	O
+3-8	my	O	O	PRP$	P1_rider
+3-9	friend	3-10_nsubj	had	NN	P2_rider
+3-10	had	3-2_advcl	was	VBD	O
+3-11	a	O	O	DT	O
+3-12	bicycle	O	O	NN	O
+3-13	repair	O	O	NN	O
+3-14	kit	3-10_dobj	had	NN	P1_tool
+3-15	and	O	O	O	O
+3-16	some	O	O	DT	O
+3-17	spare	O	O	JJ	O
+3-18	tires	O	O	NNS	P1_spare_tube
+3-19	.	O	O	O	O
+
+#id=4
+#text=Once we arrived at my friend 's house , I asked my friend if he let me borrow his bicycle repair kit . 
+4-1	Once	4-3_mark	arrived	IN	O
+4-2	we	4-3_nsubj	arrived	PRP	P3_rider
+4-3	arrived	4-11_advcl	asked	VBD	O
+4-4	at	O	O	O	O
+4-5	my	O	O	PRP$	P1_rider
+4-6	friend	O	O	NN	P2_rider
+4-7	's	O	O	O	O
+4-8	house	4-3_prep_at	arrived	NN	P2_NPart_house
+4-9	,	O	O	O	O
+4-10	I	4-11_nsubj	asked	PRP	P1_rider
+4-11	asked	O	O	VBD	O
+4-12	my	O	O	PRP$	P1_rider
+4-13	friend	4-11_dobj	asked	NN	P2_rider
+4-14	if	4-16_mark	let	IN	O
+4-15	he	4-16_nsubj	let	PRP	P2_rider
+4-16	let	4-11_advcl	asked	VBP	O
+4-17	me	4-18_nsubj	borrow	PRP	P1_rider
+4-18	borrow	4-16_ccomp	let	VB	O
+4-19	his	O	O	PRP$	P2_rider
+4-20	bicycle	O	O	NN	O
+4-21	repair	O	O	NN	O
+4-22	kit	4-18_dobj	borrow	NN	P1_tool
+4-23	.	O	O	O	O
+
+#id=5
+#text=First , I turned the bike over and removed the front tire and tube . 
+5-1	First	5-4_advmod	turned	RB	O
+5-2	,	O	O	O	O
+5-3	I	5-4_nsubj	turned	PRP	P1_rider
+5-4	turned	O	O	VBD	O
+5-5	the	O	O	DT	O
+5-6	bike	5-4_dobj	turned	NN	P1_bicycle
+5-7	over	5-4_prt	turned	RP	O
+5-8	and	O	O	O	O
+5-9	removed	5-4_conj_and	turned	VBD	O
+5-10	the	O	O	DT	O
+5-11	front	O	O	JJ	O
+5-12	tire	5-9_dobj	removed	NN	P1_tire
+5-13	and	O	O	O	O
+5-14	tube	O	O	NN	P2_tire
+5-15	.	O	O	O	O
+
+#id=6
+#text=Next I filled the tube with air to check where the tube was damaged , and found a small glass shard which had punctured through it . 
+6-1	Next	6-3_advmod	filled	RB	O
+6-2	I	6-3_nsubj	filled	PRP	P1_rider
+6-3	filled	O	O	VBD	O
+6-4	the	O	O	DT	O
+6-5	tube	6-3_dobj	filled	NN	P2_tire
+6-6	with	O	O	O	O
+6-7	air	6-3_prep_with	filled	NN	P1_air
+6-8	to	6-9_aux	check	TO	O
+6-9	check	6-3_vmod	filled	VB	O
+6-10	where	6-14_advmod	damaged	WRB	O
+6-11	the	O	O	DT	O
+6-12	tube	6-14_nsubjpass	damaged	NN	P2_tire
+6-13	was	6-14_auxpass	damaged	VBD	O
+6-14	damaged	6-9_advcl	check	VBN	O
+6-15	,	O	O	O	O
+6-16	and	O	O	O	O
+6-17	found	6-3_conj_and	filled	VBD	O
+6-18	a	O	O	DT	O
+6-19	small	O	O	JJ	O
+6-20	glass	O	O	NN	O
+6-21	shard	6-17_dobj	found	NN	P1_object_damage
+6-22	which	6-24_nsubj	punctured	WDT	O
+6-23	had	6-24_aux	punctured	VBD	O
+6-24	punctured	O	O	VBN	O
+6-25	through	O	O	O	O
+6-26	it	6-24_prep_through	punctured	PRP	P2_tire
+6-27	.	O	O	O	O
+
+#id=7
+#text=After making ensure the tube was fully deflated , I repaired the puncture in the tube by using glue and applying a patch on top , then slid it back onto the tire using my hands . 
+7-1	After	O	O	O	O
+7-2	making	7-11_prepc_after	repaired	VBG	O
+7-3	ensure	7-2_ccomp	making	VB	O
+7-4	the	O	O	DT	O
+7-5	tube	O	O	NN	P2_tire
+7-6	was	O	O	VBD	O
+7-7	fully	O	O	RB	O
+7-8	deflated	7-3_ccomp	ensure	JJ	O
+7-9	,	O	O	O	O
+7-10	I	7-11_nsubj	repaired	PRP	P1_rider
+7-11	repaired	O	O	VBD	O
+7-12	the	O	O	DT	O
+7-13	puncture	7-11_dobj	repaired	NN	P2_object_damage
+7-14	in	O	O	O	O
+7-15	the	O	O	DT	O
+7-16	tube	O	O	NN	P2_tire
+7-17	by	O	O	O	O
+7-18	using	7-11_prepc_by	repaired	VBG	O
+7-19	glue	7-18_dobj	using	NN	P2_tool
+7-20	and	O	O	O	O
+7-21	applying	7-18_conj_and	using	VBG	O
+7-22	a	O	O	DT	O
+7-23	patch	7-21_dobj	applying	NN	P1_patch
+7-24	on	O	O	O	O
+7-25	top	O	O	NN	P1_NPart_top
+7-26	,	O	O	O	O
+7-27	then	7-28_advmod	slid	RB	O
+7-28	slid	7-11_dep	repaired	VBD	O
+7-29	it	7-28_dobj	slid	PRP	P2_tire
+7-30	back	7-28_advmod	slid	RB	O
+7-31	onto	O	O	O	O
+7-32	the	O	O	DT	O
+7-33	tire	7-28_prep_onto	slid	NN	P1_tire
+7-34	using	O	O	VBG	O
+7-35	my	O	O	PRP$	P1_rider
+7-36	hands	7-34_dobj	using	NNS	P1_other
+7-37	.	O	O	O	O
+
+#id=8
+#text=Next , I placed and pushed the tire back onto the tube . 
+8-1	Next	8-4_advmod	placed	RB	O
+8-2	,	O	O	O	O
+8-3	I	8-4_nsubj	placed	PRP	P1_rider
+8-4	placed	O	O	VBD	O
+8-5	and	O	O	O	O
+8-6	pushed	8-4_conj_and	placed	VBD	O
+8-7	the	O	O	DT	O
+8-8	tire	8-6_dobj	pushed	NN	P1_tire
+8-9	back	8-6_prt	pushed	RP	O
+8-10	onto	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	tube	8-6_prep_onto	pushed	NN	P2_tire
+8-13	.	O	O	O	O
+
+#id=9
+#text=After which , I reconnected the tire onto the bicycle . 
+9-1	After	O	O	IN	O
+9-2	which	9-5_advcl	reconnected	WDT	O
+9-3	,	O	O	O	O
+9-4	I	9-5_nsubj	reconnected	PRP	P1_rider
+9-5	reconnected	O	O	VBD	O
+9-6	the	O	O	DT	O
+9-7	tire	9-5_dobj	reconnected	NN	P1_tire
+9-8	onto	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	bicycle	9-5_prep_onto	reconnected	NN	P1_bicycle
+9-11	.	O	O	O	O
+
+#id=10
+#text=Finally , I pumped air into the tire until it was filled up and the bicycle was ready to be ridden again . 
+10-1	Finally	10-4_advmod	pumped	RB	O
+10-2	,	O	O	O	O
+10-3	I	10-4_nsubj	pumped	PRP	P1_rider
+10-4	pumped	O	O	VBD	O
+10-5	air	10-4_dobj	pumped	NN	P1_air
+10-6	into	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	tire	10-4_prep_into	pumped	NN	P1_tire
+10-9	until	10-12_mark	filled	IN	O
+10-10	it	10-12_nsubjpass	filled	PRP	P1_tire
+10-11	was	10-12_auxpass	filled	VBD	O
+10-12	filled	10-4_advcl	pumped	VBN	O
+10-13	up	10-12_prt	filled	RP	O
+10-14	and	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	bicycle	O	O	NN	P1_bicycle
+10-17	was	O	O	VBD	O
+10-18	ready	10-4_conj_and	pumped	JJ	O
+10-19	to	10-21_aux	ridden	TO	O
+10-20	be	10-21_auxpass	ridden	VB	O
+10-21	ridden	O	O	VBN	O
+10-22	again	10-21_advmod	ridden	RB	O
+10-23	.	O	O	O	O

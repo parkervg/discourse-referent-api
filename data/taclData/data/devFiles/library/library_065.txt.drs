@@ -1,0 +1,251 @@
+#id=1
+#text=For a long time , I was planning to read a book about stock trading . 
+1-1	For	O	O	O	O
+1-2	a	O	O	DT	O
+1-3	long	O	O	JJ	O
+1-4	time	1-8_prep_for	planning	NN	P1_NPart_time
+1-5	,	O	O	O	O
+1-6	I	1-8_nsubj	planning	PRP	P1_customer
+1-7	was	1-8_aux	planning	VBD	O
+1-8	planning	O	O	VBG	O
+1-9	to	1-10_aux	read	TO	O
+1-10	read	1-8_xcomp	planning	VB	O
+1-11	a	O	O	DT	O
+1-12	book	1-10_dobj	read	NN	P1_book
+1-13	about	O	O	O	O
+1-14	stock	O	O	NN	O
+1-15	trading	1-10_prep_about	read	NN	P1_NPart_trading
+1-16	.	O	O	O	O
+
+#id=2
+#text=When I went online most of the books were quite expensive . 
+2-1	When	2-3_advmod	went	WRB	O
+2-2	I	2-3_nsubj	went	PRP	P1_customer
+2-3	went	O	O	VBD	O
+2-4	online	2-3_prep	went	NN	O
+2-5	most	O	O	JJS	O
+2-6	of	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	books	O	O	NNS	P1_book
+2-9	were	O	O	VBD	O
+2-10	quite	O	O	RB	O
+2-11	expensive	O	O	JJ	O
+2-12	.	O	O	O	O
+
+#id=3
+#text=But there was a library very close to my house . 
+3-1	But	3-3_cc	was	CC	O
+3-2	there	3-3_expl	was	EX	O
+3-3	was	O	O	VBD	O
+3-4	a	O	O	DT	O
+3-5	library	O	O	NN	P1_library
+3-6	very	3-3_advmod	was	RB	O
+3-7	close	3-3_acomp	was	JJ	O
+3-8	to	O	O	O	O
+3-9	my	O	O	PRP$	P1_customer
+3-10	house	O	O	NN	P1_NPart_house
+3-11	.	O	O	O	O
+
+#id=4
+#text=That lead me to think about borrowing one book from the library . 
+4-1	That	4-2_nsubj	lead	DT	O
+4-2	lead	O	O	VBP	O
+4-3	me	4-2_dobj	lead	PRP	P1_customer
+4-4	to	4-5_aux	think	TO	O
+4-5	think	4-2_xcomp	lead	VB	O
+4-6	about	O	O	O	O
+4-7	borrowing	4-5_prepc_about	think	VBG	O
+4-8	one	O	O	CD	O
+4-9	book	4-7_dobj	borrowing	NN	P1_book
+4-10	from	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	library	4-7_prep_from	borrowing	NN	P2_library
+4-13	.	O	O	O	O
+
+#id=5
+#text=One Saturday morning I went there and browsed several books . 
+5-1	One	O	O	CD	O
+5-2	Saturday	O	O	JJ	O
+5-3	morning	5-5_tmod	went	NN	P1_NPart_morning
+5-4	I	5-5_nsubj	went	PRP	P1_customer
+5-5	went	O	O	VBD	O
+5-6	there	5-5_advmod	went	RB	P2_library
+5-7	and	O	O	O	O
+5-8	browsed	5-5_conj_and	went	VBD	O
+5-9	several	O	O	JJ	O
+5-10	books	5-8_dobj	browsed	NNS	P1_book
+5-11	.	O	O	O	O
+
+#id=6
+#text=I spent almost 2 hours to finalize a book . 
+6-1	I	6-2_nsubj	spent	PRP	P1_customer
+6-2	spent	O	O	VBD	O
+6-3	almost	O	O	RB	O
+6-4	2	O	O	CD	O
+6-5	hours	6-2_dobj	spent	NNS	P1_NPart_hours
+6-6	to	6-7_aux	finalize	TO	O
+6-7	finalize	6-2_vmod	spent	VB	O
+6-8	a	O	O	DT	O
+6-9	book	6-7_dobj	finalize	NN	P1_book
+6-10	.	O	O	O	O
+
+#id=7
+#text=Finally I stood in the line for the check out counter . 
+7-1	Finally	7-3_advmod	stood	RB	O
+7-2	I	7-3_nsubj	stood	PRP	P1_customer
+7-3	stood	O	O	VBD	O
+7-4	in	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	line	7-3_prep_in	stood	NN	P1_line
+7-7	for	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	check	O	O	NN	O
+7-10	out	7-3_advmod	stood	IN	O
+7-11	counter	O	O	RB	P1_check-out_desk
+7-12	.	O	O	O	O
+
+#id=8
+#text=When it was my turn , I gave the person at the counter the book that I chose . 
+8-1	When	O	O	WRB	O
+8-2	it	O	O	PRP	O
+8-3	was	O	O	VBD	O
+8-4	my	O	O	PRP$	P1_customer
+8-5	turn	8-8_advcl	gave	NN	O
+8-6	,	O	O	O	O
+8-7	I	8-8_nsubj	gave	PRP	P1_customer
+8-8	gave	O	O	VBD	O
+8-9	the	O	O	DT	O
+8-10	person	8-8_iobj	gave	NN	P1_staff
+8-11	at	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	counter	O	O	NN	P1_check-out_desk
+8-14	the	O	O	DT	O
+8-15	book	8-8_dobj	gave	NN	P1_book
+8-16	that	8-18_mark	chose	IN	O
+8-17	I	8-18_nsubj	chose	PRP	P1_customer
+8-18	chose	O	O	VBD	O
+8-19	.	O	O	O	O
+
+#id=9
+#text=They asked me for the membership card but that is when I realized that I did n't have one . 
+9-1	They	9-2_nsubj	asked	PRP	P2_staff
+9-2	asked	O	O	VBD	O
+9-3	me	9-2_dobj	asked	PRP	P1_customer
+9-4	for	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	membership	O	O	NN	O
+9-7	card	9-2_prep_for	asked	NN	P1_library_card
+9-8	but	O	O	O	O
+9-9	that	9-10_nsubj	is	DT	O
+9-10	is	9-2_conj_but	asked	VBZ	O
+9-11	when	9-13_advmod	realized	WRB	O
+9-12	I	9-13_nsubj	realized	PRP	P1_customer
+9-13	realized	9-10_advcl	is	VBD	O
+9-14	that	9-18_mark	have	IN	O
+9-15	I	9-18_nsubj	have	PRP	P1_customer
+9-16	did	9-18_aux	have	VBD	O
+9-17	n't	9-18_neg	have	RB	O
+9-18	have	9-13_ccomp	realized	VB	O
+9-19	one	9-18_dobj	have	CD	O
+9-20	.	O	O	O	O
+
+#id=10
+#text=I decided to apply for a new membership card . 
+10-1	I	10-2_nsubj	decided	PRP	P1_customer
+10-2	decided	O	O	VBD	O
+10-3	to	10-4_aux	apply	TO	O
+10-4	apply	10-2_xcomp	decided	VB	O
+10-5	for	O	O	O	O
+10-6	a	O	O	DT	O
+10-7	new	O	O	JJ	O
+10-8	membership	O	O	NN	O
+10-9	card	10-4_prep_for	apply	NN	P1_library_card
+10-10	.	O	O	O	O
+
+#id=11
+#text=All that was needed for the membership application was my ID card . 
+11-1	All	O	O	DT	O
+11-2	that	11-4_nsubjpass	needed	WDT	O
+11-3	was	11-4_auxpass	needed	VBD	O
+11-4	needed	O	O	VBN	O
+11-5	for	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	membership	O	O	NN	O
+11-8	application	11-4_prep_for	needed	NN	P1_other
+11-9	was	O	O	VBD	O
+11-10	my	O	O	PRP$	P1_customer
+11-11	ID	O	O	NNP	O
+11-12	card	O	O	NN	P1_NPart_card
+11-13	.	O	O	O	O
+
+#id=12
+#text=I gave them my driving license . 
+12-1	I	12-2_nsubj	gave	PRP	P1_customer
+12-2	gave	O	O	VBD	O
+12-3	them	12-2_iobj	gave	PRP	P3_staff
+12-4	my	O	O	PRP$	P1_customer
+12-5	driving	O	O	JJ	O
+12-6	license	12-2_dobj	gave	NN	P1_NPart_license
+12-7	.	O	O	O	O
+
+#id=13
+#text=I was given a new membership card within 5 minutes . 
+13-1	I	13-3_nsubjpass	given	PRP	P1_customer
+13-2	was	13-3_auxpass	given	VBD	O
+13-3	given	O	O	VBN	O
+13-4	a	O	O	DT	O
+13-5	new	O	O	JJ	O
+13-6	membership	O	O	NN	O
+13-7	card	13-3_dobj	given	NN	P1_library_card
+13-8	within	O	O	O	O
+13-9	5	O	O	CD	O
+13-10	minutes	13-3_prep_within	given	NNS	P1_NPart_minutes
+13-11	.	O	O	O	O
+
+#id=14
+#text=I used it to borrow the book that I selected . 
+14-1	I	14-2_nsubj	used	PRP	P1_customer
+14-2	used	O	O	VBD	O
+14-3	it	14-2_dobj	used	PRP	P2_library_card
+14-4	to	14-5_aux	borrow	TO	O
+14-5	borrow	14-2_xcomp	used	VB	O
+14-6	the	O	O	DT	O
+14-7	book	14-5_dobj	borrow	NN	P1_book
+14-8	that	14-10_mark	selected	IN	O
+14-9	I	14-10_nsubj	selected	PRP	P1_customer
+14-10	selected	14-5_ccomp	borrow	VBD	O
+14-11	.	O	O	O	O
+
+#id=15
+#text=I was told that the book needs to be returned within 7 days . 
+15-1	I	15-3_nsubjpass	told	PRP	P1_customer
+15-2	was	15-3_auxpass	told	VBD	O
+15-3	told	O	O	VBN	O
+15-4	that	15-7_mark	needs	IN	O
+15-5	the	O	O	DT	O
+15-6	book	15-7_nsubj	needs	NN	P1_book
+15-7	needs	15-3_ccomp	told	VBZ	O
+15-8	to	15-10_aux	returned	TO	O
+15-9	be	15-10_auxpass	returned	VB	O
+15-10	returned	15-7_xcomp	needs	VBN	O
+15-11	within	O	O	O	O
+15-12	7	O	O	CD	O
+15-13	days	15-10_prep_within	returned	NNS	P1_return_date
+15-14	.	O	O	O	O
+
+#id=16
+#text=Overall the experience was a nice one and I would keep going there . 
+16-1	Overall	O	O	RB	O
+16-2	the	O	O	DT	O
+16-3	experience	O	O	NN	P1_NPart_experience
+16-4	was	O	O	VBD	O
+16-5	a	O	O	DT	O
+16-6	nice	O	O	JJ	O
+16-7	one	O	O	NN	O
+16-8	and	O	O	O	O
+16-9	I	16-11_nsubj	keep	PRP	P1_customer
+16-10	would	16-11_aux	keep	MD	O
+16-11	keep	O	O	VB	O
+16-12	going	16-11_xcomp	keep	VBG	O
+16-13	there	16-12_advmod	going	RB	P2_library
+16-14	.	O	O	O	O

@@ -1,0 +1,198 @@
+#id=1
+#text=After touring the city , I arrived at the public bus stop and took a seat on the bench waiting for the bus to arrive . 
+1-1	After	O	O	O	O
+1-2	touring	1-7_prepc_after	arrived	VBG	O
+1-3	the	O	O	DT	O
+1-4	city	1-2_dobj	touring	NN	P1_NPart_city
+1-5	,	O	O	O	O
+1-6	I	1-7_nsubj	arrived	PRP	P1_passenger
+1-7	arrived	O	O	VBD	O
+1-8	at	O	O	O	O
+1-9	the	O	O	DT	O
+1-10	public	O	O	JJ	O
+1-11	bus	O	O	NN	O
+1-12	stop	1-7_prep_at	arrived	NN	P1_bus_stop
+1-13	and	O	O	O	O
+1-14	took	1-7_conj_and	arrived	VBD	O
+1-15	a	O	O	DT	O
+1-16	seat	1-14_dobj	took	NN	P1_NPart_seat
+1-17	on	O	O	O	O
+1-18	the	O	O	DT	O
+1-19	bench	1-14_prep_on	took	NN	P1_NPart_bench
+1-20	waiting	O	O	VBG	O
+1-21	for	O	O	O	O
+1-22	the	O	O	DT	O
+1-23	bus	1-20_prep_for	waiting	NN	P1_bus
+1-24	to	1-25_aux	arrive	TO	O
+1-25	arrive	1-20_xcomp	waiting	VB	O
+1-26	.	O	O	O	O
+
+#id=2
+#text=I looked at a map on what this bus 's route was , and it was heading towards where I needed to go . 
+2-1	I	2-2_nsubj	looked	PRP	P1_passenger
+2-2	looked	O	O	VBD	O
+2-3	at	O	O	O	O
+2-4	a	O	O	DT	O
+2-5	map	2-2_prep_at	looked	NN	P1_time-table
+2-6	on	O	O	O	O
+2-7	what	2-12_prep_on	was	WP	O
+2-8	this	O	O	DT	O
+2-9	bus	O	O	NN	P1_bus
+2-10	's	O	O	O	O
+2-11	route	2-12_nsubj	was	NN	P1_route
+2-12	was	O	O	VBD	O
+2-13	,	O	O	O	O
+2-14	and	O	O	O	O
+2-15	it	2-17_nsubj	heading	PRP	P1_bus
+2-16	was	2-17_aux	heading	VBD	O
+2-17	heading	2-2_conj_and	looked	VBG	O
+2-18	towards	O	O	O	O
+2-19	where	2-21_advmod	needed	WRB	O
+2-20	I	2-21_nsubj	needed	PRP	P1_passenger
+2-21	needed	2-17_prepc_towards	heading	VBD	O
+2-22	to	2-23_aux	go	TO	O
+2-23	go	2-21_xcomp	needed	VB	O
+2-24	.	O	O	O	O
+
+#id=3
+#text=Since I am easily bored , I brought my MP3 player with me to listen to music . 
+3-1	Since	3-5_mark	bored	IN	O
+3-2	I	3-5_nsubjpass	bored	PRP	P1_passenger
+3-3	am	3-5_auxpass	bored	VBP	O
+3-4	easily	3-5_advmod	bored	RB	O
+3-5	bored	3-8_advcl	brought	VBN	O
+3-6	,	O	O	O	O
+3-7	I	3-8_nsubj	brought	PRP	P1_passenger
+3-8	brought	O	O	VBD	O
+3-9	my	O	O	PRP$	P1_passenger
+3-10	MP3	O	O	NN	O
+3-11	player	3-8_dobj	brought	NN	P1_NPart_player
+3-12	with	O	O	O	O
+3-13	me	3-8_prep_with	brought	PRP	P1_passenger
+3-14	to	3-15_aux	listen	TO	O
+3-15	listen	3-8_vmod	brought	VB	O
+3-16	to	O	O	O	O
+3-17	music	3-15_prep_to	listen	NN	P1_NPart_music
+3-18	.	O	O	O	O
+
+#id=4
+#text=After a 10 minute wait the bus arrived and I got on with another person . 
+4-1	After	O	O	O	O
+4-2	a	O	O	DT	O
+4-3	10	O	O	CD	O
+4-4	minute	O	O	NN	O
+4-5	wait	4-8_prep_after	arrived	NN	P1_other
+4-6	the	O	O	DT	O
+4-7	bus	4-8_nsubj	arrived	NN	P1_bus
+4-8	arrived	O	O	VBD	O
+4-9	and	O	O	O	O
+4-10	I	4-11_nsubj	got	PRP	P1_passenger
+4-11	got	4-8_conj_and	arrived	VBD	O
+4-12	on	4-11_prt	got	RP	O
+4-13	with	O	O	O	O
+4-14	another	O	O	DT	O
+4-15	person	4-11_prep_with	got	NN	P2_passenger
+4-16	.	O	O	O	O
+
+#id=5
+#text=As I walked up on the bus , I paid the fee that is required since I do n't have a bus pass . 
+5-1	As	5-3_mark	walked	IN	O
+5-2	I	5-3_nsubj	walked	PRP	P1_passenger
+5-3	walked	5-10_advcl	paid	VBD	O
+5-4	up	5-3_prt	walked	RP	O
+5-5	on	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	bus	5-3_prep_on	walked	NN	P1_bus
+5-8	,	O	O	O	O
+5-9	I	5-10_nsubj	paid	PRP	P1_passenger
+5-10	paid	O	O	VBD	O
+5-11	the	O	O	DT	O
+5-12	fee	5-10_dobj	paid	NN	P1_money
+5-13	that	5-15_nsubjpass	required	WDT	O
+5-14	is	5-15_auxpass	required	VBZ	O
+5-15	required	O	O	VBN	O
+5-16	since	5-20_mark	have	IN	O
+5-17	I	5-20_nsubj	have	PRP	P1_passenger
+5-18	do	5-20_aux	have	VBP	O
+5-19	n't	5-20_neg	have	RB	O
+5-20	have	5-15_advcl	required	VB	O
+5-21	a	O	O	DT	O
+5-22	bus	O	O	NN	O
+5-23	pass	5-20_dobj	have	NN	P1_card/ticket
+5-24	.	O	O	O	O
+
+#id=6
+#text=Since most people in the city like to keep to themselves , I left them alone and found an open seat on the bus in the back . 
+6-1	Since	6-7_mark	like	IN	O
+6-2	most	O	O	JJS	O
+6-3	people	6-7_nsubj	like	NNS	P3_passenger
+6-4	in	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	city	O	O	NN	P2_NPart_city
+6-7	like	6-14_advcl	left	VBP	O
+6-8	to	6-9_aux	keep	TO	O
+6-9	keep	6-7_xcomp	like	VB	O
+6-10	to	O	O	O	O
+6-11	themselves	6-9_prep_to	keep	PRP	P3_passenger
+6-12	,	O	O	O	O
+6-13	I	6-14_nsubj	left	PRP	P1_passenger
+6-14	left	O	O	VBD	O
+6-15	them	O	O	PRP	P3_passenger
+6-16	alone	6-14_xcomp	left	RB	O
+6-17	and	O	O	O	O
+6-18	found	6-14_conj_and	left	VBD	O
+6-19	an	O	O	DT	O
+6-20	open	O	O	JJ	O
+6-21	seat	6-18_dobj	found	NN	P1_seat_in_bus
+6-22	on	O	O	O	O
+6-23	the	O	O	DT	O
+6-24	bus	6-18_prep_on	found	NN	P1_bus
+6-25	in	O	O	O	O
+6-26	the	O	O	DT	O
+6-27	back	O	O	NN	P1_NPart_back
+6-28	.	O	O	O	O
+
+#id=7
+#text=After about 20 minutes on the bus , they finally arrived at my destination spot and I got off . 
+7-1	After	O	O	O	O
+7-2	about	O	O	RB	O
+7-3	20	O	O	CD	O
+7-4	minutes	7-11_prep_after	arrived	NNS	P1_time/date
+7-5	on	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	bus	O	O	NN	P1_bus
+7-8	,	O	O	O	O
+7-9	they	7-11_nsubj	arrived	PRP	O
+7-10	finally	7-11_advmod	arrived	RB	O
+7-11	arrived	O	O	VBD	O
+7-12	at	O	O	O	O
+7-13	my	O	O	PRP$	P1_passenger
+7-14	destination	O	O	NN	O
+7-15	spot	7-11_prep_at	arrived	NN	P1_destination
+7-16	and	O	O	O	O
+7-17	I	7-18_nsubj	got	PRP	P1_passenger
+7-18	got	7-11_conj_and	arrived	VBD	O
+7-19	off	7-18_prt	got	RP	O
+7-20	.	O	O	O	O
+
+#id=8
+#text=After getting off the bus , I walked a couple more blocks over to where my hotel was . 
+8-1	After	O	O	O	O
+8-2	getting	8-8_prepc_after	walked	VBG	O
+8-3	off	8-2_prt	getting	RP	O
+8-4	the	O	O	DT	O
+8-5	bus	8-2_dobj	getting	NN	P1_bus
+8-6	,	O	O	O	O
+8-7	I	8-8_nsubj	walked	PRP	P1_passenger
+8-8	walked	O	O	VBD	O
+8-9	a	O	O	DT	O
+8-10	couple	8-8_dobj	walked	NN	O
+8-11	more	O	O	JJR	O
+8-12	blocks	O	O	NNS	P1_NPart_blocks
+8-13	over	8-8_prep	walked	IN	O
+8-14	to	O	O	TO	O
+8-15	where	8-18_advmod	was	WRB	O
+8-16	my	O	O	PRP$	P1_passenger
+8-17	hotel	8-18_nsubj	was	NN	P1_NPart_hotel
+8-18	was	O	O	VBD	O
+8-19	.	O	O	O	O

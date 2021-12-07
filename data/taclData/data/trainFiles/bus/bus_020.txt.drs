@@ -1,0 +1,183 @@
+#id=1
+#text=Needing to go across town , I decided to take a public bus rather than drive . 
+1-1	Needing	1-8_vmod	decided	VBG	O
+1-2	to	1-3_aux	go	TO	O
+1-3	go	1-1_xcomp	Needing	VB	O
+1-4	across	O	O	O	O
+1-5	town	1-3_prep_across	go	NN	P1_NPart_town
+1-6	,	O	O	O	O
+1-7	I	1-8_nsubj	decided	PRP	P1_passenger
+1-8	decided	O	O	VBD	O
+1-9	to	1-10_aux	take	TO	O
+1-10	take	1-8_xcomp	decided	VB	O
+1-11	a	O	O	DT	O
+1-12	public	O	O	JJ	O
+1-13	bus	1-10_dobj	take	NN	P1_bus
+1-14	rather	O	O	O	O
+1-15	than	O	O	O	O
+1-16	drive	O	O	NN	O
+1-17	.	O	O	O	O
+
+#id=2
+#text=I had no bus tokens to pay for the fare so I walked to the bus station downtown and bought some . 
+2-1	I	2-2_nsubj	had	PRP	P1_passenger
+2-2	had	O	O	VBD	O
+2-3	no	O	O	DT	O
+2-4	bus	O	O	NN	O
+2-5	tokens	2-2_dobj	had	NNS	P1_other
+2-6	to	2-7_aux	pay	TO	O
+2-7	pay	2-2_ccomp	had	VB	O
+2-8	for	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	fare	2-7_prep_for	pay	NN	P2_other
+2-11	so	2-13_mark	walked	IN	O
+2-12	I	2-13_nsubj	walked	PRP	P1_passenger
+2-13	walked	2-2_advcl	had	VBD	O
+2-14	to	O	O	O	O
+2-15	the	O	O	DT	O
+2-16	bus	O	O	NN	O
+2-17	station	O	O	NN	P3_other
+2-18	downtown	2-13_prep_to	walked	NN	P1_NPart_downtown
+2-19	and	O	O	O	O
+2-20	bought	2-13_conj_and	walked	VBD	O
+2-21	some	2-20_dobj	bought	DT	O
+2-22	.	O	O	O	O
+
+#id=3
+#text=Then I got a bus schedule and looked for a bus that was going across town . 
+3-1	Then	3-3_advmod	got	RB	O
+3-2	I	3-3_nsubj	got	PRP	P1_passenger
+3-3	got	O	O	VBD	O
+3-4	a	O	O	DT	O
+3-5	bus	O	O	NN	O
+3-6	schedule	3-3_dobj	got	NN	P1_time-table
+3-7	and	O	O	O	O
+3-8	looked	3-3_conj_and	got	VBD	O
+3-9	for	O	O	O	O
+3-10	a	O	O	DT	O
+3-11	bus	3-8_prep_for	looked	NN	P1_bus
+3-12	that	3-14_nsubj	going	WDT	O
+3-13	was	3-14_aux	going	VBD	O
+3-14	going	O	O	VBG	O
+3-15	across	O	O	O	O
+3-16	town	3-14_prep_across	going	NN	P2_NPart_town
+3-17	.	O	O	O	O
+
+#id=4
+#text=I would be riding bus number 6 . 
+4-1	I	4-4_nsubj	riding	PRP	P1_passenger
+4-2	would	4-4_aux	riding	MD	O
+4-3	be	4-4_aux	riding	VB	O
+4-4	riding	O	O	VBG	O
+4-5	bus	O	O	NN	O
+4-6	number	4-4_dobj	riding	NN	O
+4-7	6	O	O	CD	P1_bus
+4-8	.	O	O	O	O
+
+#id=5
+#text=So I went out to the platform where a lot of other people were waiting for their buses . 
+5-1	So	5-3_dep	went	IN	O
+5-2	I	5-3_nsubj	went	PRP	P1_passenger
+5-3	went	O	O	VBD	O
+5-4	out	5-3_prt	went	RP	O
+5-5	to	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	platform	5-3_prep_to	went	NN	P1_bus_stop
+5-8	where	5-15_advmod	waiting	WRB	O
+5-9	a	O	O	DT	O
+5-10	lot	5-15_nsubj	waiting	NN	P1_NPart_lot
+5-11	of	O	O	O	O
+5-12	other	O	O	JJ	O
+5-13	people	O	O	NNS	P2_passenger
+5-14	were	5-15_aux	waiting	VBD	O
+5-15	waiting	5-3_advcl	went	VBG	O
+5-16	for	O	O	O	O
+5-17	their	O	O	PRP$	P3_passenger
+5-18	buses	5-15_prep_for	waiting	NNS	P2_bus
+5-19	.	O	O	O	O
+
+#id=6
+#text=I found where number 6 stopped and got in the line . 
+6-1	I	6-2_nsubj	found	PRP	P1_passenger
+6-2	found	O	O	VBD	O
+6-3	where	6-6_advmod	stopped	WRB	O
+6-4	number	6-6_nsubj	stopped	NN	O
+6-5	6	O	O	CD	P1_bus
+6-6	stopped	6-2_advcl	found	VBD	O
+6-7	and	O	O	O	O
+6-8	got	6-6_conj_and	stopped	VBD	O
+6-9	in	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	line	6-6_prep_in	stopped	NN	P1_NPart_line
+6-12	.	O	O	O	O
+
+#id=7
+#text=When the bus came I had my token out and ready to deposit in the fare collection box . 
+7-1	When	7-4_advmod	came	WRB	O
+7-2	the	O	O	DT	O
+7-3	bus	7-4_nsubj	came	NN	P1_bus
+7-4	came	7-6_advcl	had	VBD	O
+7-5	I	7-6_nsubj	had	PRP	P1_passenger
+7-6	had	O	O	VBD	O
+7-7	my	O	O	PRP$	P1_passenger
+7-8	token	O	O	JJ	P1_other
+7-9	out	O	O	RB	O
+7-10	and	O	O	O	O
+7-11	ready	O	O	JJ	O
+7-12	to	O	O	O	O
+7-13	deposit	O	O	NN	O
+7-14	in	O	O	O	O
+7-15	the	O	O	DT	O
+7-16	fare	O	O	NN	O
+7-17	collection	O	O	NN	O
+7-18	box	7-6_dobj	had	NN	P1_payment_machine
+7-19	.	O	O	O	O
+
+#id=8
+#text=Then I went and found a seat . 
+8-1	Then	8-3_advmod	went	RB	O
+8-2	I	8-3_nsubj	went	PRP	P1_passenger
+8-3	went	O	O	VBD	O
+8-4	and	O	O	O	O
+8-5	found	8-3_conj_and	went	VBD	O
+8-6	a	O	O	DT	O
+8-7	seat	8-5_dobj	found	NN	P1_seat_in_bus
+8-8	.	O	O	O	O
+
+#id=9
+#text=I was going to sit next to a woman that looked like she was going to work . 
+9-1	I	9-3_nsubj	going	PRP	P1_passenger
+9-2	was	9-3_aux	going	VBD	O
+9-3	going	O	O	VBG	O
+9-4	to	9-5_aux	sit	TO	O
+9-5	sit	9-3_xcomp	going	VB	O
+9-6	next	O	O	O	O
+9-7	to	O	O	O	O
+9-8	a	O	O	DT	O
+9-9	woman	9-5_prep_next_to	sit	NN	P4_passenger
+9-10	that	9-11_nsubj	looked	WDT	O
+9-11	looked	O	O	VBD	O
+9-12	like	9-15_mark	going	IN	O
+9-13	she	9-15_nsubj	going	PRP	P4_passenger
+9-14	was	9-15_aux	going	VBD	O
+9-15	going	9-11_advcl	looked	VBG	O
+9-16	to	9-17_aux	work	TO	O
+9-17	work	9-15_xcomp	going	VB	O
+9-18	.	O	O	O	O
+
+#id=10
+#text=The bus meandered through the city and finally got me to my destination . 
+10-1	The	O	O	DT	O
+10-2	bus	10-3_nsubj	meandered	NN	P1_bus
+10-3	meandered	O	O	VBD	O
+10-4	through	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	city	10-3_prep_through	meandered	NN	P1_NPart_city
+10-7	and	O	O	O	O
+10-8	finally	10-9_advmod	got	RB	O
+10-9	got	10-3_conj_and	meandered	VBD	O
+10-10	me	10-9_dobj	got	PRP	P1_passenger
+10-11	to	O	O	O	O
+10-12	my	O	O	PRP$	P1_passenger
+10-13	destination	10-9_prep_to	got	NN	P1_destination
+10-14	.	O	O	O	O

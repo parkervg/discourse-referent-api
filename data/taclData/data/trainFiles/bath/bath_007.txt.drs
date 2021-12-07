@@ -1,0 +1,210 @@
+#id=1
+#text=Last night , I took a bath . 
+1-1	Last	O	O	JJ	O
+1-2	night	1-5_tmod	took	NN	P1_NPart_night
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	took	PRP	P1_bather
+1-5	took	O	O	VBD	O
+1-6	a	O	O	DT	O
+1-7	bath	1-5_dobj	took	NN	P1_bath
+1-8	.	O	O	O	O
+
+#id=2
+#text=I take baths when I have time to relax and soak in bubbles . 
+2-1	I	2-2_nsubj	take	PRP	P1_bather
+2-2	take	O	O	VBP	O
+2-3	baths	2-2_dobj	take	NNS	P1_bath
+2-4	when	2-6_advmod	have	WRB	O
+2-5	I	2-6_nsubj	have	PRP	P1_bather
+2-6	have	2-2_advcl	take	VBP	O
+2-7	time	2-6_dobj	have	NN	P1_NPart_time
+2-8	to	2-9_aux	relax	TO	O
+2-9	relax	O	O	VB	O
+2-10	and	O	O	O	O
+2-11	soak	2-9_conj_and	relax	VB	O
+2-12	in	O	O	O	O
+2-13	bubbles	2-9_prep_in	relax	NNS	P1_bath_means
+2-14	.	O	O	O	O
+
+#id=3
+#text=Baths are important for good hygiene and self esteem . 
+3-1	Baths	O	O	NNS	P1_bath
+3-2	are	O	O	VBP	O
+3-3	important	O	O	JJ	O
+3-4	for	O	O	O	O
+3-5	good	O	O	JJ	O
+3-6	hygiene	O	O	NN	P1_NPart_hygiene
+3-7	and	O	O	O	O
+3-8	self	O	O	NN	O
+3-9	esteem	O	O	NN	P1_NPart_esteem
+3-10	.	O	O	O	O
+
+#id=4
+#text=I always feel so much better when I am clean and smell like my favorite soap . 
+4-1	I	4-3_nsubj	feel	PRP	P1_bather
+4-2	always	4-3_advmod	feel	RB	O
+4-3	feel	O	O	VBP	O
+4-4	so	O	O	RB	O
+4-5	much	O	O	RB	O
+4-6	better	4-3_acomp	feel	JJR	O
+4-7	when	O	O	WRB	O
+4-8	I	O	O	PRP	P1_bather
+4-9	am	O	O	VBP	O
+4-10	clean	O	O	JJ	O
+4-11	and	O	O	O	O
+4-12	smell	O	O	VBP	O
+4-13	like	O	O	O	O
+4-14	my	O	O	PRP$	P1_bather
+4-15	favorite	O	O	JJ	O
+4-16	soap	4-12_prep_like	smell	NN	P1_washing_tools
+4-17	.	O	O	O	O
+
+#id=5
+#text=I like to fill the tub up as full as I can and pick a shower gel or bubble bath to make lots and lots of bubbles . 
+5-1	I	5-2_nsubj	like	PRP	P1_bather
+5-2	like	O	O	VBP	O
+5-3	to	5-4_aux	fill	TO	O
+5-4	fill	5-2_xcomp	like	VB	O
+5-5	the	O	O	DT	O
+5-6	tub	5-4_dobj	fill	NN	P1_bathtub
+5-7	up	5-4_prt	fill	RP	O
+5-8	as	O	O	RB	O
+5-9	full	5-4_advmod	fill	JJ	O
+5-10	as	O	O	IN	O
+5-11	I	O	O	PRP	P1_bather
+5-12	can	O	O	MD	O
+5-13	and	O	O	O	O
+5-14	pick	5-4_conj_and	fill	VB	O
+5-15	a	O	O	DT	O
+5-16	shower	O	O	NN	O
+5-17	gel	5-14_dobj	pick	NN	P2_bath_means
+5-18	or	O	O	O	O
+5-19	bubble	O	O	NN	O
+5-20	bath	O	O	NN	P1_bath_means
+5-21	to	5-22_aux	make	TO	O
+5-22	make	5-14_vmod	pick	VB	O
+5-23	lots	5-22_dobj	make	NNS	O
+5-24	and	O	O	O	O
+5-25	lots	O	O	NNS	O
+5-26	of	O	O	O	O
+5-27	bubbles	O	O	NNS	P1_bath_means
+5-28	.	O	O	O	O
+
+#id=6
+#text=I just soak in the bubbles and enjoy the time to myself . 
+6-1	I	6-3_nsubj	soak	PRP	P1_bather
+6-2	just	6-3_advmod	soak	RB	O
+6-3	soak	O	O	VB	O
+6-4	in	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	bubbles	6-3_prep_in	soak	NNS	P1_bath_means
+6-7	and	O	O	O	O
+6-8	enjoy	6-3_conj_and	soak	VB	O
+6-9	the	O	O	DT	O
+6-10	time	6-8_dobj	enjoy	NN	P2_NPart_time
+6-11	to	O	O	O	O
+6-12	myself	6-8_prep_to	enjoy	PRP	P1_bather
+6-13	.	O	O	O	O
+
+#id=7
+#text=Then I wash my hair with shampoo and conditioner . 
+7-1	Then	7-3_advmod	wash	RB	O
+7-2	I	7-3_nsubj	wash	PRP	P1_bather
+7-3	wash	O	O	VBP	O
+7-4	my	O	O	PRP$	P1_bather
+7-5	hair	7-3_dobj	wash	NN	P1_hair
+7-6	with	O	O	O	O
+7-7	shampoo	7-3_prep_with	wash	NN	P2_washing_tools
+7-8	and	O	O	O	O
+7-9	conditioner	O	O	NN	P3_washing_tools
+7-10	.	O	O	O	O
+
+#id=8
+#text=Next , I make sure to scrub everywhere from between my toes to behind my ears with soap . 
+8-1	Next	8-4_advmod	make	RB	O
+8-2	,	O	O	O	O
+8-3	I	8-4_nsubj	make	PRP	P1_bather
+8-4	make	O	O	VBP	O
+8-5	sure	8-4_acomp	make	JJ	O
+8-6	to	8-7_aux	scrub	TO	O
+8-7	scrub	O	O	VB	O
+8-8	everywhere	8-7_advmod	scrub	RB	P1_body_part
+8-9	from	8-7_dep	scrub	IN	O
+8-10	between	O	O	O	O
+8-11	my	O	O	PRP$	P1_bather
+8-12	toes	8-7_prep_between	scrub	NNS	P2_body_part
+8-13	to	8-14_aux	behind	TO	O
+8-14	behind	O	O	VB	O
+8-15	my	O	O	PRP$	P1_bather
+8-16	ears	8-14_dobj	behind	NNS	P3_body_part
+8-17	with	O	O	O	O
+8-18	soap	8-14_prep_with	behind	NN	P1_washing_tools
+8-19	.	O	O	O	O
+
+#id=9
+#text=After that , I am ready to dry off and get into some clean clothes . 
+9-1	After	O	O	O	O
+9-2	that	O	O	DT	O
+9-3	,	O	O	O	O
+9-4	I	O	O	PRP	P1_bather
+9-5	am	O	O	VBP	O
+9-6	ready	O	O	JJ	O
+9-7	to	9-8_aux	dry	TO	O
+9-8	dry	O	O	VB	O
+9-9	off	9-8_prt	dry	RP	O
+9-10	and	O	O	O	O
+9-11	get	9-8_conj_and	dry	VB	O
+9-12	into	O	O	O	O
+9-13	some	O	O	DT	O
+9-14	clean	O	O	JJ	O
+9-15	clothes	9-11_prep_into	get	NNS	P1_clothes
+9-16	.	O	O	O	O
+
+#id=10
+#text=If I do n't have time for a bath , I just take a shower . 
+10-1	If	10-5_mark	have	IN	O
+10-2	I	10-5_nsubj	have	PRP	P1_bather
+10-3	do	10-5_aux	have	VBP	O
+10-4	n't	10-5_neg	have	RB	O
+10-5	have	10-13_advcl	take	VB	O
+10-6	time	10-5_dobj	have	NN	P3_NPart_time
+10-7	for	O	O	O	O
+10-8	a	O	O	DT	O
+10-9	bath	O	O	NN	P1_bath
+10-10	,	O	O	O	O
+10-11	I	10-13_nsubj	take	PRP	P1_bather
+10-12	just	10-13_advmod	take	RB	O
+10-13	take	O	O	VBP	O
+10-14	a	O	O	DT	O
+10-15	shower	10-13_dobj	take	NN	P1_NPart_shower
+10-16	.	O	O	O	O
+
+#id=11
+#text=Showers are much faster ! 
+11-1	Showers	O	O	NNS	P1_NPart_showers
+11-2	are	O	O	VBP	O
+11-3	much	O	O	RB	O
+11-4	faster	O	O	JJR	O
+11-5	!	O	O	O	O
+
+#id=12
+#text=No matter what I choose , I make sure to take a bath or a shower every day . 
+12-1	No	O	O	DT	O
+12-2	matter	12-8_advmod	make	NN	O
+12-3	what	12-5_dobj	choose	WP	O
+12-4	I	12-5_nsubj	choose	PRP	P1_bather
+12-5	choose	O	O	VBP	O
+12-6	,	O	O	O	O
+12-7	I	12-8_nsubj	make	PRP	P1_bather
+12-8	make	O	O	VB	O
+12-9	sure	12-8_acomp	make	JJ	O
+12-10	to	12-11_aux	take	TO	O
+12-11	take	O	O	VB	O
+12-12	a	O	O	DT	O
+12-13	bath	12-11_dobj	take	NN	P1_bath
+12-14	or	O	O	O	O
+12-15	a	O	O	DT	O
+12-16	shower	O	O	NN	P2_NPart_shower
+12-17	every	O	O	DT	O
+12-18	day	O	O	NN	P1_NPart_day
+12-19	.	O	O	O	O

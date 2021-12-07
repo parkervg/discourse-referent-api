@@ -1,0 +1,219 @@
+#id=1
+#text=Baking a cake either for myself or for friends is a fun activity . 
+1-1	Baking	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	cake	1-1_dobj	Baking	NN	P1_cake
+1-4	either	1-1_preconj	Baking	CC	O
+1-5	for	O	O	O	O
+1-6	myself	1-1_prep_for	Baking	PRP	P1_cook
+1-7	or	O	O	O	O
+1-8	for	O	O	O	O
+1-9	friends	O	O	NNS	P1_beneficiary
+1-10	is	O	O	VBZ	O
+1-11	a	O	O	DT	O
+1-12	fun	O	O	NN	O
+1-13	activity	O	O	NN	P1_NPart_activity
+1-14	.	O	O	O	O
+
+#id=2
+#text=I first plan ahead , so I know what kind of cake I will be making and what supplies I will need for that cake . 
+2-1	I	2-3_nsubj	plan	PRP	P1_cook
+2-2	first	2-3_advmod	plan	RB	O
+2-3	plan	O	O	VBP	O
+2-4	ahead	2-3_advmod	plan	RB	O
+2-5	,	O	O	O	O
+2-6	so	2-3_dep	plan	IN	O
+2-7	I	2-8_nsubj	know	PRP	P1_cook
+2-8	know	2-3_parataxis	plan	VBP	O
+2-9	what	O	O	WP	O
+2-10	kind	2-16_dobj	making	NN	P1_NPart_kind
+2-11	of	O	O	O	O
+2-12	cake	O	O	NN	P1_cake
+2-13	I	2-16_nsubj	making	PRP	P1_cook
+2-14	will	2-16_aux	making	MD	O
+2-15	be	2-16_aux	making	VB	O
+2-16	making	2-8_dep	know	VBG	O
+2-17	and	O	O	O	O
+2-18	what	2-19_nsubj	supplies	WP	O
+2-19	supplies	2-16_conj_and	making	VBZ	P1_ingredients
+2-20	I	2-22_nsubj	need	PRP	P1_cook
+2-21	will	2-22_aux	need	MD	O
+2-22	need	2-19_ccomp	supplies	VB	O
+2-23	for	O	O	O	O
+2-24	that	O	O	DT	O
+2-25	cake	2-22_prep_for	need	NN	P1_cake
+2-26	.	O	O	O	O
+
+#id=3
+#text=I prepare my pans , so the cake wo n't stick to the sides or bottom and preheat my oven so that when my batter is mixed it can go right into the oven . 
+3-1	I	3-2_nsubj	prepare	PRP	P1_cook
+3-2	prepare	O	O	VBP	O
+3-3	my	O	O	PRP$	P1_cook
+3-4	pans	3-2_dobj	prepare	NNS	P1_cake_tin
+3-5	,	O	O	O	O
+3-6	so	3-2_dep	prepare	IN	O
+3-7	the	O	O	DT	O
+3-8	cake	3-11_nsubj	stick	NN	P1_cake
+3-9	wo	3-11_aux	stick	MD	O
+3-10	n't	3-11_neg	stick	RB	O
+3-11	stick	3-2_parataxis	prepare	VB	O
+3-12	to	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	sides	3-11_prep_to	stick	NNS	P1_NPart_sides
+3-15	or	O	O	O	O
+3-16	bottom	O	O	NN	P1_NPart_bottom
+3-17	and	O	O	O	O
+3-18	preheat	3-11_conj_and	stick	VB	O
+3-19	my	O	O	PRP$	P1_cook
+3-20	oven	3-18_dobj	preheat	NN	P1_oven
+3-21	so	3-30_advmod	go	RB	O
+3-22	that	3-30_mark	go	IN	O
+3-23	when	O	O	WRB	O
+3-24	my	O	O	PRP$	P1_cook
+3-25	batter	O	O	NN	P1_dough
+3-26	is	O	O	VBZ	O
+3-27	mixed	3-30_advcl	go	JJ	O
+3-28	it	3-30_nsubj	go	PRP	P1_dough
+3-29	can	3-30_aux	go	MD	O
+3-30	go	3-18_advcl	preheat	VB	O
+3-31	right	3-30_advmod	go	RB	O
+3-32	into	O	O	O	O
+3-33	the	O	O	DT	O
+3-34	oven	3-30_prep_into	go	NN	P1_oven
+3-35	.	O	O	O	O
+
+#id=4
+#text=A simple cake will usually require eggs , flower , baking powder and a few other things . 
+4-1	A	O	O	DT	O
+4-2	simple	O	O	JJ	O
+4-3	cake	4-6_nsubj	require	NN	P1_cake
+4-4	will	4-6_aux	require	MD	O
+4-5	usually	4-6_advmod	require	RB	O
+4-6	require	O	O	VB	O
+4-7	eggs	4-6_dobj	require	NNS	P2_ingredients
+4-8	,	O	O	O	O
+4-9	flower	O	O	NN	P3_ingredients
+4-10	,	O	O	O	O
+4-11	baking	O	O	JJ	O
+4-12	powder	O	O	NN	P4_ingredients
+4-13	and	O	O	O	O
+4-14	a	O	O	DT	O
+4-15	few	O	O	JJ	O
+4-16	other	O	O	JJ	O
+4-17	things	O	O	NNS	P5_ingredients
+4-18	.	O	O	O	O
+
+#id=5
+#text=Generally speaking I will mix the wet ingredients in one bowl and the dry in another before mixing them together . 
+5-1	Generally	5-2_advmod	speaking	RB	O
+5-2	speaking	5-5_csubj	mix	VBG	O
+5-3	I	5-2_dobj	speaking	PRP	P1_cook
+5-4	will	5-5_aux	mix	MD	O
+5-5	mix	O	O	VB	O
+5-6	the	O	O	DT	O
+5-7	wet	O	O	JJ	O
+5-8	ingredients	5-5_dobj	mix	NNS	P6_ingredients
+5-9	in	O	O	O	O
+5-10	one	O	O	CD	O
+5-11	bowl	O	O	NN	P1_utensil
+5-12	and	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	dry	O	O	JJ	O
+5-15	in	O	O	O	O
+5-16	another	O	O	DT	P2_utensil
+5-17	before	O	O	O	O
+5-18	mixing	5-5_prepc_before	mix	VBG	O
+5-19	them	5-18_dobj	mixing	PRP	P7_ingredients
+5-20	together	5-18_advmod	mixing	RB	O
+5-21	.	O	O	O	O
+
+#id=6
+#text=I like to use an industrial strength mixing bowl , as opposed to a hand mixer . 
+6-1	I	6-2_nsubj	like	PRP	P1_cook
+6-2	like	O	O	VBP	O
+6-3	to	6-4_aux	use	TO	O
+6-4	use	6-2_xcomp	like	VB	O
+6-5	an	O	O	DT	O
+6-6	industrial	O	O	JJ	O
+6-7	strength	6-4_dobj	use	NN	O
+6-8	mixing	O	O	VBG	O
+6-9	bowl	6-8_dobj	mixing	NN	P1_utensil
+6-10	,	O	O	O	O
+6-11	as	6-12_advmod	opposed	RB	O
+6-12	opposed	O	O	VBN	O
+6-13	to	O	O	O	O
+6-14	a	O	O	DT	O
+6-15	hand	O	O	NN	O
+6-16	mixer	6-8_prep_to	mixing	NN	P3_utensil
+6-17	.	O	O	O	O
+
+#id=7
+#text=I make sure that it is well mixed with no lumps , but not overly mixed , as that can ruin the batter . 
+7-1	I	7-2_nsubj	make	PRP	P1_cook
+7-2	make	O	O	VBP	O
+7-3	sure	7-2_acomp	make	JJ	O
+7-4	that	7-8_mark	mixed	IN	O
+7-5	it	7-8_nsubjpass	mixed	PRP	P2_dough
+7-6	is	7-8_auxpass	mixed	VBZ	O
+7-7	well	7-8_advmod	mixed	RB	O
+7-8	mixed	O	O	VBN	O
+7-9	with	O	O	O	O
+7-10	no	O	O	DT	O
+7-11	lumps	7-8_prep_with	mixed	NN	P1_NPart_lumps
+7-12	,	O	O	O	O
+7-13	but	O	O	O	O
+7-14	not	7-8_conj_but	mixed	RB	O
+7-15	overly	7-16_advmod	mixed	RB	O
+7-16	mixed	7-8_dep	mixed	VBN	O
+7-17	,	O	O	O	O
+7-18	as	7-21_mark	ruin	IN	O
+7-19	that	7-21_nsubj	ruin	DT	O
+7-20	can	7-21_aux	ruin	MD	O
+7-21	ruin	7-2_advcl	make	VB	O
+7-22	the	O	O	DT	O
+7-23	batter	7-21_dobj	ruin	NN	P2_dough
+7-24	.	O	O	O	O
+
+#id=8
+#text=Once the batter is smooth and yummy I pour it into the prepared pans and pop them in the over for about 20-30 minutes . 
+8-1	Once	O	O	IN	O
+8-2	the	O	O	DT	O
+8-3	batter	O	O	NN	P2_dough
+8-4	is	O	O	VBZ	O
+8-5	smooth	8-9_advcl	pour	JJ	O
+8-6	and	O	O	O	O
+8-7	yummy	O	O	JJ	O
+8-8	I	8-9_nsubj	pour	PRP	P1_cook
+8-9	pour	O	O	VBP	O
+8-10	it	8-9_dobj	pour	PRP	P2_dough
+8-11	into	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	prepared	O	O	JJ	O
+8-14	pans	8-9_prep_into	pour	NNS	P1_cake_tin
+8-15	and	O	O	O	O
+8-16	pop	8-9_conj_and	pour	VBP	O
+8-17	them	8-16_dobj	pop	PRP	P1_cake_tin
+8-18	in	8-16_prep	pop	IN	O
+8-19	the	O	O	DT	O
+8-20	over	O	O	RB	P1_oven
+8-21	for	O	O	O	O
+8-22	about	O	O	RB	O
+8-23	20-30	O	O	CD	O
+8-24	minutes	O	O	NNS	P1_time
+8-25	.	O	O	O	O
+
+#id=9
+#text=While the actually baking takes place , I can prepare the frosting . 
+9-1	While	9-5_mark	takes	IN	O
+9-2	the	O	O	DT	O
+9-3	actually	9-5_nsubj	takes	JJ	O
+9-4	baking	O	O	VBG	O
+9-5	takes	9-10_advcl	prepare	VBZ	O
+9-6	place	9-5_dobj	takes	NN	O
+9-7	,	O	O	O	O
+9-8	I	9-10_nsubj	prepare	PRP	P1_cook
+9-9	can	9-10_aux	prepare	MD	O
+9-10	prepare	O	O	VB	O
+9-11	the	O	O	DT	O
+9-12	frosting	9-10_dobj	prepare	NN	P8_ingredients
+9-13	.	O	O	O	O

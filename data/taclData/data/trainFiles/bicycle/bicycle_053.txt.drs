@@ -1,0 +1,208 @@
+#id=1
+#text=When I was riding my bike last week I must have ran over something sharp , because when I got home I noticed that the front tire was flat . 
+1-1	When	1-4_advmod	riding	WRB	O
+1-2	I	1-4_nsubj	riding	PRP	P1_rider
+1-3	was	1-4_aux	riding	VBD	O
+1-4	riding	1-12_advcl	ran	VBG	O
+1-5	my	O	O	PRP$	P1_rider
+1-6	bike	1-4_dobj	riding	NN	P1_bicycle
+1-7	last	O	O	JJ	O
+1-8	week	1-4_tmod	riding	NN	P1_NPart_week
+1-9	I	1-12_nsubj	ran	PRP	P1_rider
+1-10	must	1-12_aux	ran	MD	O
+1-11	have	1-12_aux	ran	VB	O
+1-12	ran	O	O	VBD	O
+1-13	over	O	O	O	O
+1-14	something	1-12_prep_over	ran	NN	P1_object_damage
+1-15	sharp	O	O	JJ	O
+1-16	,	O	O	O	O
+1-17	because	1-23_mark	noticed	IN	O
+1-18	when	1-20_advmod	got	WRB	O
+1-19	I	1-20_nsubj	got	PRP	P1_rider
+1-20	got	1-23_advcl	noticed	VBD	O
+1-21	home	1-20_dobj	got	NN	P1_NPart_home
+1-22	I	1-23_nsubj	noticed	PRP	P1_rider
+1-23	noticed	1-12_advcl	ran	VBD	O
+1-24	that	O	O	IN	O
+1-25	the	O	O	DT	O
+1-26	front	O	O	JJ	O
+1-27	tire	O	O	NN	P1_tire
+1-28	was	O	O	VBD	O
+1-29	flat	1-23_ccomp	noticed	JJ	O
+1-30	.	O	O	O	O
+
+#id=2
+#text=This was annoying especially since I did n't have the equipment to fix it . 
+2-1	This	O	O	DT	O
+2-2	was	O	O	VBD	O
+2-3	annoying	O	O	JJ	O
+2-4	especially	O	O	RB	O
+2-5	since	2-9_mark	have	IN	O
+2-6	I	2-9_nsubj	have	PRP	P1_rider
+2-7	did	2-9_aux	have	VBD	O
+2-8	n't	2-9_neg	have	RB	O
+2-9	have	O	O	VB	O
+2-10	the	O	O	DT	O
+2-11	equipment	2-9_dobj	have	NN	P1_tool
+2-12	to	2-13_aux	fix	TO	O
+2-13	fix	O	O	VB	O
+2-14	it	2-13_dobj	fix	PRP	P1_tire
+2-15	.	O	O	O	O
+
+#id=3
+#text=So later that day I drove over to the local sports store and bought a new tire inner tube and an air pump . 
+3-1	So	O	O	O	O
+3-2	later	O	O	RBR	O
+3-3	that	O	O	DT	O
+3-4	day	3-6_tmod	drove	NN	P1_NPart_day
+3-5	I	3-6_nsubj	drove	PRP	P1_rider
+3-6	drove	O	O	VBD	O
+3-7	over	3-6_prt	drove	RP	O
+3-8	to	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	local	O	O	JJ	O
+3-11	sports	O	O	NNS	O
+3-12	store	3-6_prep_to	drove	NN	P1_shop
+3-13	and	O	O	O	O
+3-14	bought	3-6_conj_and	drove	VBD	O
+3-15	a	O	O	DT	O
+3-16	new	O	O	JJ	O
+3-17	tire	O	O	NN	O
+3-18	inner	O	O	JJ	O
+3-19	tube	3-14_dobj	bought	NN	P1_spare_tube
+3-20	and	O	O	O	O
+3-21	an	O	O	DT	O
+3-22	air	O	O	NN	O
+3-23	pump	O	O	NN	P1_tool
+3-24	.	O	O	O	O
+
+#id=4
+#text=When I got home I took out the old punctured inner tube from the tire and replaced it with the new once . 
+4-1	When	4-3_advmod	got	WRB	O
+4-2	I	4-3_nsubj	got	PRP	P1_rider
+4-3	got	4-6_advcl	took	VBD	O
+4-4	home	4-3_dobj	got	NN	P2_NPart_home
+4-5	I	4-6_nsubj	took	PRP	P1_rider
+4-6	took	O	O	VBD	O
+4-7	out	4-6_prt	took	RP	O
+4-8	the	O	O	DT	O
+4-9	old	O	O	JJ	O
+4-10	punctured	O	O	JJ	O
+4-11	inner	O	O	JJ	O
+4-12	tube	4-6_dobj	took	NN	P1_tire
+4-13	from	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	tire	4-6_prep_from	took	NN	P1_tire
+4-16	and	O	O	O	O
+4-17	replaced	4-6_conj_and	took	VBD	O
+4-18	it	4-17_dobj	replaced	PRP	P1_tire
+4-19	with	O	O	O	O
+4-20	the	O	O	DT	O
+4-21	new	4-17_prep_with	replaced	JJ	O
+4-22	once	4-17_advmod	replaced	RB	P1_spare_tube
+4-23	.	O	O	O	O
+
+#id=5
+#text=I then unscrewed the air cap on the tire and attached the air pump . 
+5-1	I	5-3_nsubj	unscrewed	PRP	P1_rider
+5-2	then	5-3_advmod	unscrewed	RB	O
+5-3	unscrewed	O	O	VBD	O
+5-4	the	O	O	DT	O
+5-5	air	O	O	NN	O
+5-6	cap	5-3_dobj	unscrewed	NN	P1_bicycle_small_detail
+5-7	on	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	tire	5-3_prep_on	unscrewed	NN	P1_tire
+5-10	and	O	O	O	O
+5-11	attached	5-3_conj_and	unscrewed	VBD	O
+5-12	the	O	O	DT	O
+5-13	air	O	O	NN	O
+5-14	pump	5-11_dobj	attached	NN	P1_tool
+5-15	.	O	O	O	O
+
+#id=6
+#text=I began pumping air into the tire , it took about 30 pumps before it was fully filled up with air . 
+6-1	I	6-2_nsubj	began	PRP	P1_rider
+6-2	began	6-10_ccomp	took	VBD	O
+6-3	pumping	6-2_xcomp	began	VBG	O
+6-4	air	6-3_dobj	pumping	NN	P1_air
+6-5	into	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	tire	6-3_prep_into	pumping	NN	P1_tire
+6-8	,	O	O	O	O
+6-9	it	6-10_nsubj	took	PRP	O
+6-10	took	O	O	VBD	O
+6-11	about	O	O	RB	O
+6-12	30	O	O	CD	O
+6-13	pumps	6-10_dobj	took	NNS	P1_NPart_pumps
+6-14	before	6-18_mark	filled	IN	O
+6-15	it	6-18_nsubjpass	filled	PRP	P1_tire
+6-16	was	6-18_auxpass	filled	VBD	O
+6-17	fully	6-18_advmod	filled	RB	O
+6-18	filled	6-10_advcl	took	VBN	O
+6-19	up	6-18_prt	filled	RP	O
+6-20	with	O	O	O	O
+6-21	air	6-18_prep_with	filled	NN	P1_air
+6-22	.	O	O	O	O
+
+#id=7
+#text=I then got on the bike and tested it to see how it would hold up . 
+7-1	I	7-3_nsubj	got	PRP	P1_rider
+7-2	then	7-3_advmod	got	RB	O
+7-3	got	O	O	VBD	O
+7-4	on	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	bike	7-3_prep_on	got	NN	P1_bicycle
+7-7	and	O	O	O	O
+7-8	tested	7-3_conj_and	got	VBD	O
+7-9	it	7-8_dobj	tested	PRP	P1_tire
+7-10	to	7-11_aux	see	TO	O
+7-11	see	7-8_xcomp	tested	VB	O
+7-12	how	7-15_advmod	hold	WRB	O
+7-13	it	7-15_nsubj	hold	PRP	P1_tire
+7-14	would	7-15_aux	hold	MD	O
+7-15	hold	7-11_ccomp	see	VB	O
+7-16	up	7-15_prt	hold	RP	O
+7-17	.	O	O	O	O
+
+#id=8
+#text=It felt good as new . 
+8-1	It	8-2_nsubj	felt	PRP	O
+8-2	felt	O	O	VBD	O
+8-3	good	8-2_acomp	felt	JJ	O
+8-4	as	O	O	O	O
+8-5	new	8-2_prep_as	felt	JJ	O
+8-6	.	O	O	O	O
+
+#id=9
+#text=I rode around happy that it was fixed , and also happy that I now had the equipment to fix it again if it went flat in the future . 
+9-1	I	9-2_nsubj	rode	PRP	P1_rider
+9-2	rode	O	O	VBD	O
+9-3	around	9-2_prt	rode	RP	O
+9-4	happy	9-2_dep	rode	JJ	O
+9-5	that	9-8_mark	fixed	IN	O
+9-6	it	9-8_nsubjpass	fixed	PRP	P1_tire
+9-7	was	9-8_auxpass	fixed	VBD	O
+9-8	fixed	O	O	VBN	O
+9-9	,	O	O	O	O
+9-10	and	O	O	O	O
+9-11	also	O	O	RB	O
+9-12	happy	O	O	JJ	O
+9-13	that	9-16_mark	had	IN	O
+9-14	I	9-16_nsubj	had	PRP	P1_rider
+9-15	now	9-16_advmod	had	RB	O
+9-16	had	O	O	VBD	O
+9-17	the	O	O	DT	O
+9-18	equipment	9-16_dobj	had	NN	P1_tool
+9-19	to	9-20_aux	fix	TO	O
+9-20	fix	O	O	VB	O
+9-21	it	9-20_dobj	fix	PRP	P1_tire
+9-22	again	9-20_advmod	fix	RB	O
+9-23	if	9-25_mark	went	IN	O
+9-24	it	9-25_nsubj	went	PRP	P1_tire
+9-25	went	9-20_advcl	fix	VBD	O
+9-26	flat	9-25_acomp	went	JJ	O
+9-27	in	O	O	O	O
+9-28	the	O	O	DT	O
+9-29	future	9-25_prep_in	went	NN	O
+9-30	.	O	O	O	O

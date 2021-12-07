@@ -1,0 +1,226 @@
+#id=1
+#text=I decided my backyard needed another tree . 
+1-1	I	1-2_nsubj	decided	PRP	P1_gardener
+1-2	decided	O	O	VBD	O
+1-3	my	O	O	PRP$	P1_gardener
+1-4	backyard	1-5_nsubj	needed	NN	P1_location_garden
+1-5	needed	1-2_ccomp	decided	VBD	O
+1-6	another	O	O	DT	O
+1-7	tree	1-5_dobj	needed	NN	P1_tree
+1-8	.	O	O	O	O
+
+#id=2
+#text=So I went to the tree nursery and picked out a tree that I liked . 
+2-1	So	2-3_dep	went	IN	O
+2-2	I	2-3_nsubj	went	PRP	P1_gardener
+2-3	went	O	O	VBD	O
+2-4	to	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	tree	O	O	NN	O
+2-7	nursery	2-3_prep_to	went	NN	P1_shop
+2-8	and	O	O	O	O
+2-9	picked	2-3_conj_and	went	VBD	O
+2-10	out	2-9_prt	picked	RP	O
+2-11	a	O	O	DT	O
+2-12	tree	2-9_dobj	picked	NN	P1_tree
+2-13	that	2-15_mark	liked	IN	O
+2-14	I	2-15_nsubj	liked	PRP	P1_gardener
+2-15	liked	2-3_ccomp	went	VBD	O
+2-16	.	O	O	O	O
+
+#id=3
+#text=I rented a pickup truck to bring the tree home . 
+3-1	I	3-2_nsubj	rented	PRP	P1_gardener
+3-2	rented	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	pickup	O	O	NN	O
+3-5	truck	3-2_dobj	rented	NN	P1_other
+3-6	to	3-7_aux	bring	TO	O
+3-7	bring	3-2_vmod	rented	VB	O
+3-8	the	O	O	DT	O
+3-9	tree	O	O	NN	P1_tree
+3-10	home	3-7_dobj	bring	NN	P1_NPart_home
+3-11	.	O	O	O	O
+
+#id=4
+#text=I loaded the tree into the truck and drove it to my house . 
+4-1	I	4-2_nsubj	loaded	PRP	P1_gardener
+4-2	loaded	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	tree	4-2_dobj	loaded	NN	P1_tree
+4-5	into	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	truck	4-2_prep_into	loaded	NN	P1_other
+4-8	and	O	O	O	O
+4-9	drove	4-2_conj_and	loaded	VBD	O
+4-10	it	4-9_dobj	drove	PRP	P1_tree
+4-11	to	O	O	O	O
+4-12	my	O	O	PRP$	P1_gardener
+4-13	house	4-9_prep_to	drove	NN	P1_NPart_house
+4-14	.	O	O	O	O
+
+#id=5
+#text=I grabbed a shovel from my garage , and I dug a hole in my backyard where I wanted the tree to go . 
+5-1	I	5-2_nsubj	grabbed	PRP	P1_gardener
+5-2	grabbed	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	shovel	5-2_dobj	grabbed	NN	P1_gardening_tool
+5-5	from	O	O	O	O
+5-6	my	O	O	PRP$	P1_gardener
+5-7	garage	5-2_prep_from	grabbed	NN	P1_NPart_garage
+5-8	,	O	O	O	O
+5-9	and	O	O	O	O
+5-10	I	5-11_nsubj	dug	PRP	P1_gardener
+5-11	dug	5-2_conj_and	grabbed	VBD	O
+5-12	a	O	O	DT	O
+5-13	hole	5-11_dobj	dug	NN	P1_hole
+5-14	in	O	O	O	O
+5-15	my	O	O	PRP$	P1_gardener
+5-16	backyard	5-11_prep_in	dug	NN	P1_location_garden
+5-17	where	5-19_advmod	wanted	WRB	O
+5-18	I	5-19_nsubj	wanted	PRP	P1_gardener
+5-19	wanted	5-11_advcl	dug	VBD	O
+5-20	the	O	O	DT	O
+5-21	tree	5-19_dobj	wanted	NN	P1_tree
+5-22	to	5-23_aux	go	TO	O
+5-23	go	O	O	VB	O
+5-24	.	O	O	O	O
+
+#id=6
+#text=I poured some special tree fertilizer into the hole that I had bought from the tree nursery . 
+6-1	I	6-2_nsubj	poured	PRP	P1_gardener
+6-2	poured	O	O	VBD	O
+6-3	some	O	O	DT	O
+6-4	special	O	O	JJ	O
+6-5	tree	O	O	NN	O
+6-6	fertilizer	6-2_dobj	poured	NN	P1_fertilizer
+6-7	into	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	hole	6-2_prep_into	poured	NN	P1_hole
+6-10	that	6-13_mark	bought	IN	O
+6-11	I	6-13_nsubj	bought	PRP	P1_gardener
+6-12	had	6-13_aux	bought	VBD	O
+6-13	bought	6-2_ccomp	poured	VBN	O
+6-14	from	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	tree	O	O	NN	O
+6-17	nursery	6-13_prep_from	bought	NN	P1_shop
+6-18	.	O	O	O	O
+
+#id=7
+#text=I then asked a friend to help me , because the tree was very big and heavy . 
+7-1	I	7-3_nsubj	asked	PRP	P1_gardener
+7-2	then	7-3_advmod	asked	RB	O
+7-3	asked	O	O	VBD	O
+7-4	a	O	O	DT	O
+7-5	friend	7-3_dobj	asked	NN	P2_gardener
+7-6	to	7-7_aux	help	TO	O
+7-7	help	7-3_xcomp	asked	VB	O
+7-8	me	7-7_dobj	help	PRP	P1_gardener
+7-9	,	O	O	O	O
+7-10	because	O	O	IN	O
+7-11	the	O	O	DT	O
+7-12	tree	O	O	NN	P1_tree
+7-13	was	O	O	VBD	O
+7-14	very	O	O	RB	O
+7-15	big	7-3_advcl	asked	JJ	O
+7-16	and	O	O	O	O
+7-17	heavy	O	O	JJ	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=Together we placed the tree in the hole . 
+8-1	Together	8-3_advmod	placed	RB	O
+8-2	we	8-3_nsubj	placed	PRP	P3_gardener
+8-3	placed	O	O	VBD	O
+8-4	the	O	O	DT	O
+8-5	tree	8-3_dobj	placed	NN	P1_tree
+8-6	in	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	hole	8-3_prep_in	placed	NN	P1_hole
+8-9	.	O	O	O	O
+
+#id=9
+#text=I then started to fill up the dirt around the tree . 
+9-1	I	9-3_nsubj	started	PRP	P1_gardener
+9-2	then	9-3_advmod	started	RB	O
+9-3	started	O	O	VBD	O
+9-4	to	9-5_aux	fill	TO	O
+9-5	fill	9-3_xcomp	started	VB	O
+9-6	up	9-5_prt	fill	RP	O
+9-7	the	O	O	DT	O
+9-8	dirt	9-5_dobj	fill	NN	P1_dirt
+9-9	around	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	tree	O	O	NN	P1_tree
+9-12	.	O	O	O	O
+
+#id=10
+#text=Halfway through filling it , I took a garden hose and poured water down the hole . 
+10-1	Halfway	10-7_advmod	took	RB	O
+10-2	through	O	O	O	O
+10-3	filling	10-7_prepc_through	took	VBG	O
+10-4	it	10-3_dobj	filling	PRP	P1_dirt
+10-5	,	O	O	O	O
+10-6	I	10-7_nsubj	took	PRP	P1_gardener
+10-7	took	O	O	VBD	O
+10-8	a	O	O	DT	O
+10-9	garden	O	O	NN	O
+10-10	hose	10-7_dobj	took	NN	P2_gardening_tool
+10-11	and	O	O	O	O
+10-12	poured	10-7_conj_and	took	VBD	O
+10-13	water	10-12_dobj	poured	NN	P1_water
+10-14	down	10-12_advmod	poured	RB	O
+10-15	the	O	O	DT	O
+10-16	hole	O	O	NN	P1_hole
+10-17	.	O	O	O	O
+
+#id=11
+#text=When the water settled , I finished filling in the dirt . 
+11-1	When	11-4_advmod	settled	WRB	O
+11-2	the	O	O	DT	O
+11-3	water	11-4_nsubj	settled	NN	P1_water
+11-4	settled	11-7_advcl	finished	VBD	O
+11-5	,	O	O	O	O
+11-6	I	11-7_nsubj	finished	PRP	P1_gardener
+11-7	finished	O	O	VBD	O
+11-8	filling	11-7_xcomp	finished	VBG	O
+11-9	in	O	O	O	O
+11-10	the	O	O	DT	O
+11-11	dirt	11-8_prep_in	filling	NN	P1_dirt
+11-12	.	O	O	O	O
+
+#id=12
+#text=Over the dirt I placed a nice bed of mulch around the tree . 
+12-1	Over	O	O	O	O
+12-2	the	O	O	DT	O
+12-3	dirt	12-5_prep_over	placed	NN	P1_dirt
+12-4	I	12-5_nsubj	placed	PRP	P1_gardener
+12-5	placed	O	O	VBD	O
+12-6	a	O	O	DT	O
+12-7	nice	O	O	JJ	O
+12-8	bed	12-5_dobj	placed	NN	P1_NPart_bed
+12-9	of	O	O	O	O
+12-10	mulch	O	O	NN	P2_other
+12-11	around	O	O	O	O
+12-12	the	O	O	DT	O
+12-13	tree	12-5_prep_around	placed	NN	P1_tree
+12-14	.	O	O	O	O
+
+#id=13
+#text=I watered the tree once more , then stepped back to admire my work . 
+13-1	I	13-2_nsubj	watered	PRP	P1_gardener
+13-2	watered	O	O	VBD	O
+13-3	the	O	O	DT	O
+13-4	tree	13-2_dobj	watered	NN	P1_tree
+13-5	once	O	O	RB	O
+13-6	more	13-2_advmod	watered	RBR	O
+13-7	,	O	O	O	O
+13-8	then	13-9_advmod	stepped	RB	O
+13-9	stepped	13-2_dep	watered	VBD	O
+13-10	back	13-9_prt	stepped	RP	O
+13-11	to	13-12_aux	admire	TO	O
+13-12	admire	13-9_xcomp	stepped	VB	O
+13-13	my	O	O	PRP$	P1_gardener
+13-14	work	13-12_dobj	admire	NN	P1_NPart_work
+13-15	.	O	O	O	O

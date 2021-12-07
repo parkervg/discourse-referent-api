@@ -1,0 +1,213 @@
+#id=1
+#text=I waited too long to start working on my report that was due for my class . 
+1-1	I	1-2_nsubj	waited	PRP	P1_customer
+1-2	waited	O	O	VBD	O
+1-3	too	O	O	RB	O
+1-4	long	1-2_advmod	waited	RB	O
+1-5	to	1-6_aux	start	TO	O
+1-6	start	1-2_xcomp	waited	VB	O
+1-7	working	1-6_xcomp	start	VBG	O
+1-8	on	O	O	O	O
+1-9	my	O	O	PRP$	P1_customer
+1-10	report	1-7_prep_on	working	NN	P1_NPart_report
+1-11	that	O	O	WDT	O
+1-12	was	O	O	VBD	O
+1-13	due	O	O	JJ	O
+1-14	for	O	O	O	O
+1-15	my	O	O	PRP$	P1_customer
+1-16	class	O	O	NN	P1_NPart_class
+1-17	.	O	O	O	O
+
+#id=2
+#text=I was in a hurry , and had to get some research material for the assignment . 
+2-1	I	2-2_nsubj	was	PRP	P1_customer
+2-2	was	O	O	VBD	O
+2-3	in	O	O	O	O
+2-4	a	O	O	DT	O
+2-5	hurry	2-2_prep_in	was	NN	P1_NPart_hurry
+2-6	,	O	O	O	O
+2-7	and	O	O	O	O
+2-8	had	2-2_conj_and	was	VBD	O
+2-9	to	2-10_aux	get	TO	O
+2-10	get	2-8_xcomp	had	VB	O
+2-11	some	O	O	DT	O
+2-12	research	O	O	NN	O
+2-13	material	2-10_dobj	get	NN	O
+2-14	for	O	O	O	O
+2-15	the	O	O	DT	O
+2-16	assignment	2-10_prep_for	get	NN	P1_NPart_assignment
+2-17	.	O	O	O	O
+
+#id=3
+#text=Sadly , one of the requirements for this report was to have a couple citations from a book instead of other articles that can easily be found on the internet . 
+3-1	Sadly	3-10_advmod	was	RB	O
+3-2	,	O	O	O	O
+3-3	one	3-10_nsubj	was	CD	O
+3-4	of	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	requirements	O	O	NNS	P1_NPart_requirements
+3-7	for	O	O	O	O
+3-8	this	O	O	DT	O
+3-9	report	O	O	NN	P2_NPart_report
+3-10	was	O	O	VBD	O
+3-11	to	3-12_aux	have	TO	O
+3-12	have	3-10_xcomp	was	VB	O
+3-13	a	O	O	DT	O
+3-14	couple	O	O	NN	O
+3-15	citations	3-12_dobj	have	NNS	P1_NPart_citations
+3-16	from	O	O	O	O
+3-17	a	O	O	DT	O
+3-18	book	3-12_prep_from	have	NN	P1_book
+3-19	instead	O	O	O	O
+3-20	of	O	O	O	O
+3-21	other	O	O	JJ	O
+3-22	articles	O	O	NNS	P1_NPart_articles
+3-23	that	3-27_nsubjpass	found	WDT	O
+3-24	can	3-27_aux	found	MD	O
+3-25	easily	3-27_advmod	found	RB	O
+3-26	be	3-27_auxpass	found	VB	O
+3-27	found	O	O	VBN	O
+3-28	on	O	O	O	O
+3-29	the	O	O	DT	O
+3-30	internet	3-27_prep_on	found	NN	P1_NPart_internet
+3-31	.	O	O	O	O
+
+#id=4
+#text=After an hour of searching for my library card , I found it at last and head out . 
+4-1	After	O	O	O	O
+4-2	an	O	O	DT	O
+4-3	hour	4-12_prep_after	found	NN	P1_NPart_hour
+4-4	of	O	O	O	O
+4-5	searching	O	O	VBG	O
+4-6	for	O	O	O	O
+4-7	my	O	O	PRP$	P1_customer
+4-8	library	O	O	NN	O
+4-9	card	4-5_prep_for	searching	NN	P1_library_card
+4-10	,	O	O	O	O
+4-11	I	4-12_nsubj	found	PRP	P1_customer
+4-12	found	O	O	VBD	O
+4-13	it	4-12_dobj	found	PRP	P1_library_card
+4-14	at	O	O	O	O
+4-15	last	4-12_prep_at	found	JJ	O
+4-16	and	O	O	O	O
+4-17	head	4-12_conj_and	found	VBP	O
+4-18	out	4-17_prt	head	RP	O
+4-19	.	O	O	O	O
+
+#id=5
+#text=After I arrived I had to ask the librarian where they kept such books . 
+5-1	After	5-3_mark	arrived	IN	O
+5-2	I	5-3_nsubj	arrived	PRP	P1_customer
+5-3	arrived	5-5_advcl	had	VBD	O
+5-4	I	5-5_nsubj	had	PRP	P1_customer
+5-5	had	O	O	VBD	O
+5-6	to	5-7_aux	ask	TO	O
+5-7	ask	5-5_xcomp	had	VB	O
+5-8	the	O	O	DT	O
+5-9	librarian	5-7_dobj	ask	NN	P1_staff
+5-10	where	5-12_advmod	kept	WRB	O
+5-11	they	5-12_nsubj	kept	PRP	P1_staff
+5-12	kept	5-7_advcl	ask	VBD	O
+5-13	such	O	O	JJ	O
+5-14	books	5-12_dobj	kept	NNS	P1_book
+5-15	.	O	O	O	O
+
+#id=6
+#text=It was a while since I have been in there . 
+6-1	It	O	O	PRP	O
+6-2	was	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	while	O	O	NN	O
+6-5	since	6-8_mark	been	IN	O
+6-6	I	6-8_nsubj	been	PRP	P1_customer
+6-7	have	6-8_aux	been	VBP	O
+6-8	been	O	O	VBN	O
+6-9	in	6-8_prep	been	IN	O
+6-10	there	O	O	RB	O
+6-11	.	O	O	O	O
+
+#id=7
+#text=After finding the section . 
+7-1	After	O	O	IN	O
+7-2	finding	O	O	VBG	O
+7-3	the	O	O	DT	O
+7-4	section	7-2_dobj	finding	NN	P1_location_library
+7-5	.	O	O	O	O
+
+#id=8
+#text=I carefully looked through the books that caught my eye and picked the book that I needed for my report . 
+8-1	I	8-3_nsubj	looked	PRP	P1_customer
+8-2	carefully	8-3_advmod	looked	RB	O
+8-3	looked	O	O	VBD	O
+8-4	through	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	books	8-3_prep_through	looked	NNS	P1_book
+8-7	that	8-8_nsubj	caught	WDT	P1_book
+8-8	caught	O	O	VBD	O
+8-9	my	O	O	PRP$	P1_customer
+8-10	eye	8-8_dobj	caught	NN	O
+8-11	and	O	O	O	O
+8-12	picked	8-8_conj_and	caught	VBD	O
+8-13	the	O	O	DT	O
+8-14	book	8-12_dobj	picked	NN	P1_book
+8-15	that	8-17_mark	needed	IN	P1_book
+8-16	I	8-17_nsubj	needed	PRP	P1_customer
+8-17	needed	8-12_ccomp	picked	VBD	O
+8-18	for	O	O	O	O
+8-19	my	O	O	PRP$	P1_customer
+8-20	report	8-17_prep_for	needed	NN	P3_NPart_report
+8-21	.	O	O	O	O
+
+#id=9
+#text=I walked up to the librarian , and borrowed the book . 
+9-1	I	9-2_nsubj	walked	PRP	P1_customer
+9-2	walked	O	O	VBD	O
+9-3	up	9-2_prt	walked	RP	O
+9-4	to	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	librarian	9-2_prep_to	walked	NN	P1_staff
+9-7	,	O	O	O	O
+9-8	and	O	O	O	O
+9-9	borrowed	9-2_conj_and	walked	VBD	O
+9-10	the	O	O	DT	O
+9-11	book	9-9_dobj	borrowed	NN	P1_book
+9-12	.	O	O	O	O
+
+#id=10
+#text=But not without paying an old book fee I had from a year ago . 
+10-1	But	10-10_cc	had	CC	O
+10-2	not	10-10_neg	had	RB	O
+10-3	without	O	O	O	O
+10-4	paying	10-10_prepc_without	had	VBG	O
+10-5	an	O	O	DT	O
+10-6	old	O	O	JJ	O
+10-7	book	O	O	NN	O
+10-8	fee	10-4_dobj	paying	NN	P1_NPart_fee
+10-9	I	10-10_nsubj	had	PRP	P1_customer
+10-10	had	O	O	VBD	O
+10-11	from	O	O	O	O
+10-12	a	O	O	DT	O
+10-13	year	10-10_prep_from	had	NN	P1_NPart_year
+10-14	ago	O	O	IN	O
+10-15	.	O	O	O	O
+
+#id=11
+#text=After I paid , I walked out with the book in hand ready to do some research . 
+11-1	After	11-3_mark	paid	IN	O
+11-2	I	11-3_nsubj	paid	PRP	P1_customer
+11-3	paid	11-6_advcl	walked	VBD	O
+11-4	,	O	O	O	O
+11-5	I	11-6_nsubj	walked	PRP	P1_customer
+11-6	walked	O	O	VBD	O
+11-7	out	11-6_prt	walked	RP	O
+11-8	with	O	O	O	O
+11-9	the	O	O	DT	O
+11-10	book	11-6_prep_with	walked	NN	P1_book
+11-11	in	O	O	O	O
+11-12	hand	O	O	NN	P1_NPart_hand
+11-13	ready	11-6_dep	walked	JJ	O
+11-14	to	11-15_aux	do	TO	O
+11-15	do	O	O	VB	O
+11-16	some	O	O	DT	O
+11-17	research	11-15_dobj	do	NN	O
+11-18	.	O	O	O	O

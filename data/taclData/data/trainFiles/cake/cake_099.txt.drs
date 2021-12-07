@@ -1,0 +1,247 @@
+#id=1
+#text=Me and my friend decided we would bake a cake for our best friends birthday as opposed to purchasing it from a bakery like we usually do . 
+1-1	Me	1-5_nsubj	decided	PRP	O
+1-2	and	O	O	O	O
+1-3	my	O	O	PRP$	O
+1-4	friend	O	O	NN	P1_cook
+1-5	decided	O	O	VBD	O
+1-6	we	1-8_nsubj	bake	PRP	P2_cook
+1-7	would	1-8_aux	bake	MD	O
+1-8	bake	1-5_ccomp	decided	VB	O
+1-9	a	O	O	DT	O
+1-10	cake	1-8_dobj	bake	NN	P1_cake
+1-11	for	O	O	O	O
+1-12	our	O	O	PRP$	P2_cook
+1-13	best	O	O	JJS	O
+1-14	friends	O	O	NNS	P1_beneficiary
+1-15	birthday	O	O	NN	P1_NPart_birthday
+1-16	as	1-17_advmod	opposed	RB	O
+1-17	opposed	O	O	VBN	O
+1-18	to	O	O	O	O
+1-19	purchasing	1-8_prepc_to	bake	VBG	O
+1-20	it	1-19_dobj	purchasing	PRP	P1_cake
+1-21	from	O	O	O	O
+1-22	a	O	O	DT	O
+1-23	bakery	1-19_prep_from	purchasing	NN	P1_NPart_bakery
+1-24	like	1-27_mark	do	IN	O
+1-25	we	1-27_nsubj	do	PRP	P2_cook
+1-26	usually	1-27_advmod	do	RB	O
+1-27	do	1-19_advcl	purchasing	VBP	O
+1-28	.	O	O	O	O
+
+#id=2
+#text=First we headed out to the grocery store to pick up our baking supplies . 
+2-1	First	2-3_advmod	headed	RB	O
+2-2	we	2-3_nsubj	headed	PRP	P2_cook
+2-3	headed	O	O	VBD	O
+2-4	out	2-3_prt	headed	RP	O
+2-5	to	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	grocery	O	O	NN	O
+2-8	store	2-3_prep_to	headed	NN	P1_store
+2-9	to	2-10_aux	pick	TO	O
+2-10	pick	2-3_xcomp	headed	VB	O
+2-11	up	2-10_prt	pick	RP	O
+2-12	our	O	O	PRP$	P2_cook
+2-13	baking	O	O	VBG	O
+2-14	supplies	2-10_dobj	pick	NNS	P1_ingredients
+2-15	.	O	O	O	O
+
+#id=3
+#text=My friend took care of the appliances and pans while I handle the flour , sugar , frosting , and eggs . 
+3-1	My	O	O	PRP$	P2_cook
+3-2	friend	3-3_nsubj	took	NN	P1_cook
+3-3	took	O	O	VBD	O
+3-4	care	3-3_dobj	took	NN	O
+3-5	of	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	appliances	O	O	NNS	O
+3-8	and	O	O	O	O
+3-9	pans	O	O	NNS	P1_utensil
+3-10	while	3-12_mark	handle	IN	O
+3-11	I	3-12_nsubj	handle	PRP	P2_cook
+3-12	handle	3-3_advcl	took	VBP	O
+3-13	the	O	O	DT	O
+3-14	flour	3-12_dobj	handle	NN	P2_ingredients
+3-15	,	O	O	O	O
+3-16	sugar	O	O	NN	P3_ingredients
+3-17	,	O	O	O	O
+3-18	frosting	O	O	NN	P4_ingredients
+3-19	,	O	O	O	O
+3-20	and	O	O	O	O
+3-21	eggs	O	O	NNS	P5_ingredients
+3-22	.	O	O	O	O
+
+#id=4
+#text=When we arrived home we cleaned our utensils and began to bake the cake . 
+4-1	When	4-3_advmod	arrived	WRB	O
+4-2	we	4-3_nsubj	arrived	PRP	P2_cook
+4-3	arrived	4-6_advcl	cleaned	VBD	O
+4-4	home	4-3_dobj	arrived	NN	P1_kitchen/location
+4-5	we	4-6_nsubj	cleaned	PRP	P2_cook
+4-6	cleaned	O	O	VBD	O
+4-7	our	O	O	PRP$	P3_cook
+4-8	utensils	4-6_dobj	cleaned	NNS	P1_utensil
+4-9	and	O	O	O	O
+4-10	began	4-6_conj_and	cleaned	VBD	O
+4-11	to	4-12_aux	bake	TO	O
+4-12	bake	4-10_xcomp	began	VB	O
+4-13	the	O	O	DT	O
+4-14	cake	4-12_dobj	bake	NN	P1_cake
+4-15	.	O	O	O	O
+
+#id=5
+#text=First we started by pouring the cake batter in the bowl and cracking two eggs into the powder . 
+5-1	First	5-3_advmod	started	RB	O
+5-2	we	5-3_nsubj	started	PRP	P2_cook
+5-3	started	O	O	VBD	O
+5-4	by	O	O	O	O
+5-5	pouring	5-3_prepc_by	started	VBG	O
+5-6	the	O	O	DT	O
+5-7	cake	O	O	NN	O
+5-8	batter	5-5_dobj	pouring	NN	P1_dough
+5-9	in	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	bowl	O	O	NN	P2_utensil
+5-12	and	O	O	O	O
+5-13	cracking	5-5_conj_and	pouring	VBG	O
+5-14	two	O	O	CD	O
+5-15	eggs	5-13_dobj	cracking	NNS	P5_ingredients
+5-16	into	O	O	O	O
+5-17	the	O	O	DT	O
+5-18	powder	5-13_prep_into	cracking	NN	P1_dough
+5-19	.	O	O	O	O
+
+#id=6
+#text=Next we beat the mixture with a mixer until it was a creamy texture . 
+6-1	Next	6-3_advmod	beat	RB	O
+6-2	we	6-3_nsubj	beat	PRP	P2_cook
+6-3	beat	O	O	VBD	O
+6-4	the	O	O	DT	O
+6-5	mixture	6-3_dobj	beat	NN	P2_dough
+6-6	with	O	O	O	O
+6-7	a	O	O	DT	O
+6-8	mixer	6-3_prep_with	beat	NN	P3_utensil
+6-9	until	O	O	IN	O
+6-10	it	O	O	PRP	P2_dough
+6-11	was	O	O	VBD	O
+6-12	a	O	O	DT	O
+6-13	creamy	O	O	JJ	O
+6-14	texture	6-3_advcl	beat	NN	P1_NPart_texture
+6-15	.	O	O	O	O
+
+#id=7
+#text=We added the sugar , the flour , and the chocolate for an extra boost of flavor . 
+7-1	We	7-2_nsubj	added	PRP	P2_cook
+7-2	added	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	sugar	7-2_dobj	added	NN	P3_ingredients
+7-5	,	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	flour	O	O	NN	P2_ingredients
+7-8	,	O	O	O	O
+7-9	and	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	chocolate	O	O	NN	P6_ingredients
+7-12	for	O	O	O	O
+7-13	an	O	O	DT	O
+7-14	extra	O	O	JJ	O
+7-15	boost	7-2_prep_for	added	NN	P1_NPart_boost
+7-16	of	O	O	O	O
+7-17	flavor	O	O	NN	P1_NPart_flavor
+7-18	.	O	O	O	O
+
+#id=8
+#text=Finally Our cake was nice and mixed so we set the oven to three hundred fifty degrees and baked the cake . 
+8-1	Finally	O	O	RB	O
+8-2	Our	O	O	PRP$	P2_cook
+8-3	cake	O	O	NN	P1_cake
+8-4	was	O	O	VBD	O
+8-5	nice	O	O	JJ	O
+8-6	and	O	O	O	O
+8-7	mixed	O	O	JJ	O
+8-8	so	8-10_mark	set	IN	O
+8-9	we	8-10_nsubj	set	PRP	P2_cook
+8-10	set	O	O	VBD	O
+8-11	the	O	O	DT	O
+8-12	oven	8-10_dobj	set	NN	P1_oven
+8-13	to	O	O	O	O
+8-14	three	O	O	CD	O
+8-15	hundred	O	O	CD	O
+8-16	fifty	O	O	JJ	O
+8-17	degrees	8-10_prep_to	set	NNS	P1_temperature
+8-18	and	O	O	O	O
+8-19	baked	O	O	JJ	O
+8-20	the	O	O	DT	O
+8-21	cake	O	O	NN	P1_cake
+8-22	.	O	O	O	O
+
+#id=9
+#text=While the cake was baking my friend prepared the homemade vanilla frosting . 
+9-1	While	9-5_mark	baking	IN	O
+9-2	the	O	O	DT	O
+9-3	cake	9-5_nsubj	baking	NN	P1_cake
+9-4	was	9-5_aux	baking	VBD	O
+9-5	baking	9-8_csubj	prepared	VBG	O
+9-6	my	O	O	PRP$	P2_cook
+9-7	friend	9-5_dobj	baking	NN	P1_cook
+9-8	prepared	O	O	VBD	O
+9-9	the	O	O	DT	O
+9-10	homemade	O	O	JJ	O
+9-11	vanilla	O	O	NN	O
+9-12	frosting	9-8_dobj	prepared	NN	P1_decoration
+9-13	.	O	O	O	O
+
+#id=10
+#text=After an hour we took the cake out of the oven and were met with an amazing aroma . 
+10-1	After	O	O	O	O
+10-2	an	O	O	DT	O
+10-3	hour	10-5_prep_after	took	NN	P1_time
+10-4	we	10-5_nsubj	took	PRP	P2_cook
+10-5	took	O	O	VBD	O
+10-6	the	O	O	DT	O
+10-7	cake	10-5_dobj	took	NN	P1_cake
+10-8	out	O	O	O	O
+10-9	of	O	O	O	O
+10-10	the	O	O	DT	O
+10-11	oven	10-5_prep_out_of	took	NN	P2_oven
+10-12	and	O	O	O	O
+10-13	were	10-14_auxpass	met	VBD	O
+10-14	met	10-5_conj_and	took	VBN	O
+10-15	with	O	O	O	O
+10-16	an	O	O	DT	O
+10-17	amazing	O	O	JJ	O
+10-18	aroma	10-14_prep_with	met	NN	P1_NPart_aroma
+10-19	.	O	O	O	O
+
+#id=11
+#text=We decorated the cake with our homemade vanilla frosting and placed the cake in a glass cover so that it would remain fresh for our friend that night . 
+11-1	We	11-2_nsubj	decorated	PRP	P2_cook
+11-2	decorated	O	O	VBN	O
+11-3	the	O	O	DT	O
+11-4	cake	11-2_dobj	decorated	NN	P1_cake
+11-5	with	O	O	O	O
+11-6	our	O	O	PRP$	P2_cook
+11-7	homemade	O	O	JJ	O
+11-8	vanilla	O	O	NN	O
+11-9	frosting	11-2_prep_with	decorated	NN	P1_decoration
+11-10	and	O	O	O	O
+11-11	placed	11-2_conj_and	decorated	VBN	O
+11-12	the	O	O	DT	O
+11-13	cake	11-11_dobj	placed	NN	P1_cake
+11-14	in	O	O	O	O
+11-15	a	O	O	DT	O
+11-16	glass	O	O	NN	O
+11-17	cover	O	O	NN	P4_utensil
+11-18	so	11-22_advmod	remain	RB	O
+11-19	that	11-22_mark	remain	IN	O
+11-20	it	11-22_nsubj	remain	PRP	P1_cake
+11-21	would	11-22_aux	remain	MD	O
+11-22	remain	11-11_advcl	placed	VB	O
+11-23	fresh	11-22_acomp	remain	JJ	O
+11-24	for	O	O	O	O
+11-25	our	O	O	PRP$	P2_cook
+11-26	friend	O	O	NN	P1_beneficiary
+11-27	that	O	O	DT	O
+11-28	night	11-22_tmod	remain	NN	P1_NPart_night
+11-29	.	O	O	O	O

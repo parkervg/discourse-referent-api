@@ -1,0 +1,226 @@
+#id=1
+#text=First , you need to pick out where you want to put your tree . 
+1-1	First	1-4_advmod	need	RB	O
+1-2	,	O	O	O	O
+1-3	you	1-4_nsubj	need	PRP	P1_gardener
+1-4	need	O	O	VBP	O
+1-5	to	1-6_aux	pick	TO	O
+1-6	pick	1-4_xcomp	need	VB	O
+1-7	out	1-6_prt	pick	RP	O
+1-8	where	1-10_advmod	want	WRB	O
+1-9	you	1-10_nsubj	want	PRP	P1_gardener
+1-10	want	1-6_advcl	pick	VBP	O
+1-11	to	1-12_aux	put	TO	O
+1-12	put	1-10_xcomp	want	VB	O
+1-13	your	O	O	PRP$	P1_gardener
+1-14	tree	1-12_dobj	put	NN	P1_tree
+1-15	.	O	O	O	O
+
+#id=2
+#text=You 're going to be digging quite a large hole , so you need to consider a few things . 
+2-1	You	2-3_nsubj	going	PRP	P1_gardener
+2-2	're	2-3_aux	going	VBP	O
+2-3	going	O	O	VBG	O
+2-4	to	2-6_aux	digging	TO	O
+2-5	be	2-6_aux	digging	VB	O
+2-6	digging	2-3_xcomp	going	VBG	O
+2-7	quite	O	O	RB	O
+2-8	a	O	O	DT	O
+2-9	large	O	O	JJ	O
+2-10	hole	2-6_dobj	digging	NN	P1_hole
+2-11	,	O	O	O	O
+2-12	so	2-3_dep	going	IN	O
+2-13	you	2-14_nsubj	need	PRP	P1_gardener
+2-14	need	2-3_parataxis	going	VBP	O
+2-15	to	2-16_aux	consider	TO	O
+2-16	consider	2-14_xcomp	need	VB	O
+2-17	a	O	O	DT	O
+2-18	few	O	O	JJ	O
+2-19	things	2-16_dobj	consider	NNS	P1_NPart_things
+2-20	.	O	O	O	O
+
+#id=3
+#text=First of all , make sure you place your tree where it wo n't mess anything up as it grows . 
+3-1	First	3-5_nsubj	make	NNP	O
+3-2	of	O	O	O	O
+3-3	all	O	O	DT	O
+3-4	,	O	O	O	O
+3-5	make	O	O	VBP	O
+3-6	sure	3-5_acomp	make	JJ	O
+3-7	you	3-8_nsubj	place	PRP	P1_gardener
+3-8	place	O	O	VBP	O
+3-9	your	O	O	PRP$	P1_gardener
+3-10	tree	3-8_dobj	place	NN	P1_tree
+3-11	where	3-15_advmod	mess	WRB	O
+3-12	it	3-15_nsubj	mess	PRP	P1_tree
+3-13	wo	3-15_aux	mess	MD	O
+3-14	n't	3-15_neg	mess	RB	O
+3-15	mess	3-8_advcl	place	VB	O
+3-16	anything	3-15_dobj	mess	NN	O
+3-17	up	3-15_prt	mess	RP	O
+3-18	as	3-20_mark	grows	IN	O
+3-19	it	3-20_nsubj	grows	PRP	P1_tree
+3-20	grows	3-5_advcl	make	VBZ	O
+3-21	.	O	O	O	O
+
+#id=4
+#text=You want to put it somewhere where it has plenty of room to grow , with soft dirt . 
+4-1	You	4-2_nsubj	want	PRP	P1_gardener
+4-2	want	O	O	VBP	O
+4-3	to	4-4_aux	put	TO	O
+4-4	put	4-2_xcomp	want	VB	O
+4-5	it	4-4_dobj	put	PRP	P1_tree
+4-6	somewhere	4-4_advmod	put	RB	P1_location_garden
+4-7	where	4-9_advmod	has	WRB	O
+4-8	it	4-9_nsubj	has	PRP	P1_tree
+4-9	has	4-4_advcl	put	VBZ	O
+4-10	plenty	4-9_dobj	has	RB	O
+4-11	of	O	O	O	O
+4-12	room	O	O	NN	P1_NPart_room
+4-13	to	4-14_aux	grow	TO	O
+4-14	grow	O	O	VB	O
+4-15	,	O	O	O	O
+4-16	with	O	O	O	O
+4-17	soft	O	O	JJ	O
+4-18	dirt	4-14_prep_with	grow	NN	P1_dirt
+4-19	.	O	O	O	O
+
+#id=5
+#text=Next , you need to gather the tree you 're going to plant as well as a shovel . 
+5-1	Next	5-4_advmod	need	RB	O
+5-2	,	O	O	O	O
+5-3	you	5-4_nsubj	need	PRP	P1_gardener
+5-4	need	O	O	VBP	O
+5-5	to	5-6_aux	gather	TO	O
+5-6	gather	5-4_xcomp	need	VB	O
+5-7	the	O	O	DT	O
+5-8	tree	5-6_dobj	gather	NN	P1_tree
+5-9	you	5-11_nsubj	going	PRP	P1_gardener
+5-10	're	5-11_aux	going	VBP	O
+5-11	going	O	O	VBG	O
+5-12	to	O	O	O	O
+5-13	plant	5-11_prep_to	going	NN	O
+5-14	as	O	O	O	O
+5-15	well	O	O	O	O
+5-16	as	O	O	O	O
+5-17	a	O	O	DT	O
+5-18	shovel	O	O	NN	P1_gardening_tool
+5-19	.	O	O	O	O
+
+#id=6
+#text=Then you 're going to dig a nice big hole . 
+6-1	Then	6-4_advmod	going	RB	O
+6-2	you	6-4_nsubj	going	PRP	P1_gardener
+6-3	're	6-4_aux	going	VBP	O
+6-4	going	O	O	VBG	O
+6-5	to	6-6_aux	dig	TO	O
+6-6	dig	6-4_xcomp	going	VB	O
+6-7	a	O	O	DT	O
+6-8	nice	O	O	JJ	O
+6-9	big	O	O	JJ	O
+6-10	hole	6-6_dobj	dig	NN	P1_hole
+6-11	.	O	O	O	O
+
+#id=7
+#text=You want the entire roots of the tree to be covered sufficiently in dirt , so make sure it 's plenty big enough . 
+7-1	You	7-2_nsubj	want	PRP	P1_gardener
+7-2	want	O	O	VBP	O
+7-3	the	O	O	DT	O
+7-4	entire	O	O	JJ	O
+7-5	roots	7-2_dobj	want	NNS	P1_root
+7-6	of	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	tree	O	O	NN	P1_tree
+7-9	to	7-11_aux	covered	TO	O
+7-10	be	7-11_auxpass	covered	VB	O
+7-11	covered	7-2_xcomp	want	VBN	O
+7-12	sufficiently	7-11_advmod	covered	RB	O
+7-13	in	O	O	O	O
+7-14	dirt	O	O	NN	P1_dirt
+7-15	,	O	O	O	O
+7-16	so	7-17_advmod	make	RB	O
+7-17	make	7-2_ccomp	want	VB	O
+7-18	sure	7-17_acomp	make	JJ	O
+7-19	it	O	O	PRP	P1_hole
+7-20	's	O	O	VBZ	O
+7-21	plenty	O	O	RB	O
+7-22	big	O	O	JJ	O
+7-23	enough	O	O	RB	O
+7-24	.	O	O	O	O
+
+#id=8
+#text=Next , you place your tree in it 's hole . 
+8-1	Next	8-4_advmod	place	RB	O
+8-2	,	O	O	O	O
+8-3	you	8-4_nsubj	place	PRP	P1_gardener
+8-4	place	O	O	VBP	O
+8-5	your	O	O	PRP$	P1_gardener
+8-6	tree	8-4_dobj	place	NN	P1_tree
+8-7	in	O	O	O	O
+8-8	it	O	O	PRP	O
+8-9	's	O	O	O	O
+8-10	hole	8-4_prep_in	place	NN	P1_hole
+8-11	.	O	O	O	O
+
+#id=9
+#text=Position it properly . 
+9-1	Position	O	O	VB	O
+9-2	it	9-1_dobj	Position	PRP	P1_tree
+9-3	properly	9-1_advmod	Position	RB	O
+9-4	.	O	O	O	O
+
+#id=10
+#text=Make sure it 's got plenty of room . 
+10-1	Make	O	O	VB	O
+10-2	sure	10-1_acomp	Make	JJ	O
+10-3	it	10-5_nsubjpass	got	PRP	P1_tree
+10-4	's	10-5_auxpass	got	VBZ	O
+10-5	got	O	O	VBN	O
+10-6	plenty	10-5_dobj	got	RB	O
+10-7	of	O	O	O	O
+10-8	room	O	O	NN	P2_NPart_room
+10-9	.	O	O	O	O
+
+#id=11
+#text=Finally , you can fill in dirt around your tree . 
+11-1	Finally	11-5_advmod	fill	RB	O
+11-2	,	O	O	O	O
+11-3	you	11-5_nsubj	fill	PRP	P1_gardener
+11-4	can	11-5_aux	fill	MD	O
+11-5	fill	O	O	VB	O
+11-6	in	O	O	O	O
+11-7	dirt	11-5_prep_in	fill	NN	P1_dirt
+11-8	around	O	O	O	O
+11-9	your	O	O	PRP$	P1_gardener
+11-10	tree	11-5_prep_around	fill	NN	P1_tree
+11-11	.	O	O	O	O
+
+#id=12
+#text=Now you 're finished and you can watch your tree grow ! 
+12-1	Now	12-4_advmod	finished	RB	O
+12-2	you	12-4_nsubjpass	finished	PRP	P1_gardener
+12-3	're	12-4_auxpass	finished	VBP	O
+12-4	finished	O	O	VBN	O
+12-5	and	O	O	O	O
+12-6	you	12-8_nsubj	watch	PRP	P1_gardener
+12-7	can	12-8_aux	watch	MD	O
+12-8	watch	12-4_conj_and	finished	VB	O
+12-9	your	O	O	PRP$	P1_gardener
+12-10	tree	12-11_nsubj	grow	NN	P1_tree
+12-11	grow	12-8_ccomp	watch	VB	O
+12-12	!	O	O	O	O
+
+#id=13
+#text=Soon you 'll have a nice big tree to shade you ! 
+13-1	Soon	13-4_advmod	have	RB	O
+13-2	you	13-4_nsubj	have	PRP	P1_gardener
+13-3	'll	13-4_aux	have	MD	O
+13-4	have	O	O	VB	O
+13-5	a	O	O	DT	O
+13-6	nice	O	O	JJ	O
+13-7	big	O	O	JJ	O
+13-8	tree	13-4_dobj	have	NN	P1_tree
+13-9	to	13-10_aux	shade	TO	O
+13-10	shade	O	O	VB	O
+13-11	you	13-10_dobj	shade	PRP	P1_gardener
+13-12	!	O	O	O	O

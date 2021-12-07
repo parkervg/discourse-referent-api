@@ -1,0 +1,206 @@
+#id=1
+#text=Every Tuesday night I make the same routine . 
+1-1	Every	O	O	DT	O
+1-2	Tuesday	O	O	NNP	O
+1-3	night	O	O	NN	P1_NPart_night
+1-4	I	1-5_nsubj	make	NN	P1_shopper
+1-5	make	O	O	VBP	O
+1-6	the	O	O	DT	O
+1-7	same	O	O	JJ	O
+1-8	routine	1-5_dobj	make	NN	P1_NPart_routine
+1-9	.	O	O	O	O
+
+#id=2
+#text=I go out and buy groceries that night . 
+2-1	I	2-2_nsubj	go	PRP	P1_shopper
+2-2	go	O	O	VB	O
+2-3	out	2-2_prt	go	RP	O
+2-4	and	O	O	O	O
+2-5	buy	2-2_conj_and	go	VB	O
+2-6	groceries	2-5_dobj	buy	NNS	P1_groceries
+2-7	that	O	O	DT	O
+2-8	night	2-5_tmod	buy	NN	P2_NPart_night
+2-9	.	O	O	O	O
+
+#id=3
+#text=However , this week was different and I had a party to prepare for the weekend to celebrate a friend 's birthday . 
+3-1	However	O	O	RB	O
+3-2	,	O	O	O	O
+3-3	this	O	O	DT	O
+3-4	week	O	O	NN	P1_NPart_week
+3-5	was	O	O	VBD	O
+3-6	different	O	O	JJ	O
+3-7	and	O	O	O	O
+3-8	I	3-9_nsubj	had	PRP	P1_shopper
+3-9	had	O	O	VBD	O
+3-10	a	O	O	DT	O
+3-11	party	3-9_dobj	had	NN	P1_NPart_party
+3-12	to	3-13_aux	prepare	TO	O
+3-13	prepare	O	O	VB	O
+3-14	for	O	O	O	O
+3-15	the	O	O	DT	O
+3-16	weekend	3-13_prep_for	prepare	NN	P1_NPart_weekend
+3-17	to	3-18_aux	celebrate	TO	O
+3-18	celebrate	O	O	VB	O
+3-19	a	O	O	DT	O
+3-20	friend	O	O	NN	P1_NPart_friend
+3-21	's	O	O	O	O
+3-22	birthday	3-18_dobj	celebrate	NN	P1_NPart_birthday
+3-23	.	O	O	O	O
+
+#id=4
+#text=I created a check list of all the things I needed earlier in the day , and headed out to the store . 
+4-1	I	4-2_nsubj	created	PRP	P1_shopper
+4-2	created	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	check	O	O	NN	O
+4-5	list	4-2_dobj	created	NN	P1_grocery_list
+4-6	of	O	O	O	O
+4-7	all	O	O	PDT	O
+4-8	the	O	O	DT	O
+4-9	things	O	O	NNS	P1_groceries
+4-10	I	4-11_nsubj	needed	PRP	P1_shopper
+4-11	needed	O	O	VBD	O
+4-12	earlier	4-11_advmod	needed	RBR	O
+4-13	in	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	day	4-11_prep_in	needed	NN	P1_NPart_day
+4-16	,	O	O	O	O
+4-17	and	O	O	O	O
+4-18	headed	4-11_conj_and	needed	VBD	O
+4-19	out	4-18_prt	headed	RP	O
+4-20	to	O	O	O	O
+4-21	the	O	O	DT	O
+4-22	store	4-18_prep_to	headed	NN	P1_grocery_shop
+4-23	.	O	O	O	O
+
+#id=5
+#text=On arrival I went down each lane , and picked out on what I needed exactly . 
+5-1	On	O	O	O	O
+5-2	arrival	5-4_prep_on	went	NN	P1_NPart_arrival
+5-3	I	5-4_nsubj	went	PRP	P1_shopper
+5-4	went	O	O	VBD	O
+5-5	down	5-4_prt	went	RP	O
+5-6	each	O	O	DT	O
+5-7	lane	5-4_dobj	went	NN	P1_section
+5-8	,	O	O	O	O
+5-9	and	O	O	O	O
+5-10	picked	5-4_conj_and	went	VBD	O
+5-11	out	5-10_prt	picked	RP	O
+5-12	on	O	O	O	O
+5-13	what	5-15_dobj	needed	WP	P1_groceries
+5-14	I	5-15_nsubj	needed	PRP	P1_shopper
+5-15	needed	5-10_prepc_on	picked	VBD	O
+5-16	exactly	5-15_advmod	needed	RB	O
+5-17	.	O	O	O	O
+
+#id=6
+#text=This process can be very boring so I kept my MP3 player along with me to play music while I shop . 
+6-1	This	O	O	DT	O
+6-2	process	O	O	NN	P1_NPart_process
+6-3	can	O	O	MD	O
+6-4	be	O	O	VB	O
+6-5	very	O	O	RB	O
+6-6	boring	O	O	JJ	O
+6-7	so	6-9_mark	kept	IN	O
+6-8	I	6-9_nsubj	kept	PRP	P1_shopper
+6-9	kept	O	O	VBD	O
+6-10	my	O	O	PRP$	P1_shopper
+6-11	MP3	O	O	NN	O
+6-12	player	6-9_dobj	kept	NN	P1_NPart_player
+6-13	along	O	O	O	O
+6-14	with	O	O	O	O
+6-15	me	6-9_prep_along_with	kept	PRP	P1_shopper
+6-16	to	6-17_aux	play	TO	O
+6-17	play	6-9_vmod	kept	VB	O
+6-18	music	6-17_dobj	play	NN	P1_NPart_music
+6-19	while	6-21_mark	shop	IN	O
+6-20	I	6-21_nsubj	shop	PRP	P1_shopper
+6-21	shop	6-17_advcl	play	VB	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=After about 30 minutes of looking around , I finally had everything that I needed ! 
+7-1	After	O	O	O	O
+7-2	about	O	O	RB	O
+7-3	30	O	O	CD	O
+7-4	minutes	7-11_prep_after	had	NNS	P1_NPart_minutes
+7-5	of	O	O	O	O
+7-6	looking	O	O	VBG	O
+7-7	around	7-6_prt	looking	RP	O
+7-8	,	O	O	O	O
+7-9	I	7-11_nsubj	had	PRP	P1_shopper
+7-10	finally	7-11_advmod	had	RB	O
+7-11	had	O	O	VBD	O
+7-12	everything	7-11_dobj	had	NN	P1_groceries
+7-13	that	7-15_mark	needed	IN	P1_groceries
+7-14	I	7-15_nsubj	needed	PRP	P1_shopper
+7-15	needed	7-11_ccomp	had	VBD	O
+7-16	!	O	O	O	O
+
+#id=8
+#text=I go to the cashier , and ended up picking up a magazine on the way there . 
+8-1	I	8-2_nsubj	go	PRP	P1_shopper
+8-2	go	O	O	VBP	O
+8-3	to	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	cashier	8-2_prep_to	go	NN	P1_grocery_staff
+8-6	,	O	O	O	O
+8-7	and	O	O	O	O
+8-8	ended	8-2_conj_and	go	VBD	O
+8-9	up	8-8_prt	ended	RP	O
+8-10	picking	8-8_xcomp	ended	VBG	O
+8-11	up	8-10_prt	picking	RP	O
+8-12	a	O	O	DT	O
+8-13	magazine	8-10_dobj	picking	NN	P2_groceries
+8-14	on	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	way	O	O	NN	P1_NPart_way
+8-17	there	8-10_advmod	picking	RB	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=I paid the cashier using my credit card after watching them scan and bag my groceries . 
+9-1	I	9-2_nsubj	paid	PRP	P1_shopper
+9-2	paid	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	cashier	9-2_dobj	paid	NN	P1_grocery_staff
+9-5	using	O	O	VBG	O
+9-6	my	O	O	PRP$	P1_shopper
+9-7	credit	O	O	NN	O
+9-8	card	9-5_dobj	using	NN	P1_payment_means
+9-9	after	O	O	O	O
+9-10	watching	9-5_prepc_after	using	VBG	O
+9-11	them	9-12_nsubj	scan	PRP	P1_grocery_staff
+9-12	scan	9-10_ccomp	watching	VB	O
+9-13	and	O	O	O	O
+9-14	bag	9-12_conj_and	scan	VB	O
+9-15	my	O	O	PRP$	P1_shopper
+9-16	groceries	9-12_dobj	scan	NNS	P1_groceries
+9-17	.	O	O	O	O
+
+#id=10
+#text=I brought the kart all the way to my car and packed everything in . 
+10-1	I	10-2_nsubj	brought	PRP	P1_shopper
+10-2	brought	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	kart	10-2_iobj	brought	NN	P1_shopping_cart/basket
+10-5	all	O	O	PDT	O
+10-6	the	O	O	DT	O
+10-7	way	10-2_dobj	brought	NN	O
+10-8	to	O	O	O	O
+10-9	my	O	O	PRP$	P1_shopper
+10-10	car	10-2_prep_to	brought	NN	P1_vehicle
+10-11	and	O	O	O	O
+10-12	packed	10-2_conj_and	brought	VBD	O
+10-13	everything	10-12_dobj	packed	NN	P1_groceries
+10-14	in	10-12_prep	packed	IN	O
+10-15	.	O	O	O	O
+
+#id=11
+#text=I was finally done ! 
+11-1	I	11-4_nsubjpass	done	PRP	P1_shopper
+11-2	was	11-4_auxpass	done	VBD	O
+11-3	finally	11-4_advmod	done	RB	O
+11-4	done	O	O	VBN	O
+11-5	!	O	O	O	O

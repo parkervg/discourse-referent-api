@@ -1,0 +1,311 @@
+#id=1
+#text=When I went on vacation last year with my parents , we took a trip on a train for part of it . 
+1-1	When	1-3_advmod	went	WRB	O
+1-2	I	1-3_nsubj	went	PRP	P1_passenger
+1-3	went	1-13_advcl	took	VBD	O
+1-4	on	O	O	O	O
+1-5	vacation	1-3_prep_on	went	NN	O
+1-6	last	O	O	JJ	O
+1-7	year	1-3_tmod	went	NN	P1_time_date
+1-8	with	O	O	O	O
+1-9	my	O	O	PRP$	P2_passenger
+1-10	parents	1-3_prep_with	went	NNS	P3_passenger
+1-11	,	O	O	O	O
+1-12	we	1-13_nsubj	took	PRP	P4_passenger
+1-13	took	O	O	VBD	O
+1-14	a	O	O	DT	O
+1-15	trip	1-13_dobj	took	NN	P1_trip
+1-16	on	O	O	O	O
+1-17	a	O	O	DT	O
+1-18	train	1-13_prep_on	took	NN	P1_train
+1-19	for	O	O	O	O
+1-20	part	1-13_prep_for	took	NN	O
+1-21	of	O	O	O	O
+1-22	it	O	O	PRP	P1_NPart_it
+1-23	.	O	O	O	O
+
+#id=2
+#text=We picked the route we wanted to take to go visit my uncle , and had everything ready the day before , such as our suitcases . 
+2-1	We	2-2_nsubj	picked	PRP	P4_passenger
+2-2	picked	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	route	2-2_dobj	picked	NN	P1_other
+2-5	we	2-6_nsubj	wanted	PRP	P4_passenger
+2-6	wanted	O	O	VBD	O
+2-7	to	2-8_aux	take	TO	O
+2-8	take	2-6_xcomp	wanted	VB	O
+2-9	to	2-10_aux	go	TO	O
+2-10	go	2-8_xcomp	take	VB	O
+2-11	visit	2-10_xcomp	go	VB	O
+2-12	my	O	O	PRP$	P2_passenger
+2-13	uncle	2-11_dobj	visit	NN	P1_NPart_uncle
+2-14	,	O	O	O	O
+2-15	and	O	O	O	O
+2-16	had	2-6_conj_and	wanted	VBD	O
+2-17	everything	2-16_dobj	had	NN	O
+2-18	ready	O	O	JJ	O
+2-19	the	O	O	DT	O
+2-20	day	O	O	NN	P2_time_date
+2-21	before	O	O	IN	O
+2-22	,	O	O	O	O
+2-23	such	O	O	O	O
+2-24	as	O	O	O	O
+2-25	our	O	O	PRP$	P4_passenger
+2-26	suitcases	O	O	NNS	P1_luggage
+2-27	.	O	O	O	O
+
+#id=3
+#text=When the day arrived for us to go , my dad drove us to the train station where we parked in a designated lot , since we would be returning to the same train station . 
+3-1	When	3-4_advmod	arrived	WRB	O
+3-2	the	O	O	DT	O
+3-3	day	3-4_nsubj	arrived	NN	P3_time_date
+3-4	arrived	3-12_advcl	drove	VBD	O
+3-5	for	3-8_mark	go	IN	O
+3-6	us	3-8_nsubj	go	PRP	P4_passenger
+3-7	to	3-8_aux	go	TO	O
+3-8	go	3-4_advcl	arrived	VB	O
+3-9	,	O	O	O	O
+3-10	my	O	O	PRP$	P2_passenger
+3-11	dad	3-12_nsubj	drove	NN	P5_passenger
+3-12	drove	O	O	VBD	O
+3-13	us	3-12_dobj	drove	PRP	P4_passenger
+3-14	to	O	O	O	O
+3-15	the	O	O	DT	O
+3-16	train	O	O	NN	O
+3-17	station	3-12_prep_to	drove	NN	P1_train_station
+3-18	where	3-20_advmod	parked	WRB	O
+3-19	we	3-20_nsubj	parked	PRP	P4_passenger
+3-20	parked	3-12_advcl	drove	VBD	O
+3-21	in	O	O	O	O
+3-22	a	O	O	DT	O
+3-23	designated	O	O	VBN	O
+3-24	lot	3-20_prep_in	parked	NN	P1_NPart_lot
+3-25	,	O	O	O	O
+3-26	since	3-30_mark	returning	IN	O
+3-27	we	3-30_nsubj	returning	PRP	P4_passenger
+3-28	would	3-30_aux	returning	MD	O
+3-29	be	3-30_aux	returning	VB	O
+3-30	returning	3-20_advcl	parked	VBG	O
+3-31	to	O	O	O	O
+3-32	the	O	O	DT	O
+3-33	same	O	O	JJ	O
+3-34	train	O	O	NN	O
+3-35	station	3-30_prep_to	returning	NN	P1_train_station
+3-36	.	O	O	O	O
+
+#id=4
+#text=We then headed to the train station and went inside where my dad purchased our tickets . 
+4-1	We	4-3_nsubj	headed	PRP	P4_passenger
+4-2	then	4-3_advmod	headed	RB	O
+4-3	headed	O	O	VBD	O
+4-4	to	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	train	O	O	NN	O
+4-7	station	4-3_prep_to	headed	NN	P1_train_station
+4-8	and	O	O	O	O
+4-9	went	4-3_conj_and	headed	VBD	O
+4-10	inside	4-9_advmod	went	RB	O
+4-11	where	4-14_advmod	purchased	WRB	O
+4-12	my	O	O	PRP$	P2_passenger
+4-13	dad	4-14_nsubj	purchased	NN	P5_passenger
+4-14	purchased	4-9_advcl	went	VBD	O
+4-15	our	O	O	PRP$	P4_passenger
+4-16	tickets	4-14_dobj	purchased	NNS	P1_card/ticket
+4-17	.	O	O	O	O
+
+#id=5
+#text=We had some extra time , so we wandered around and found a little gift shop where we could buy souvenirs . 
+5-1	We	5-2_nsubj	had	PRP	P4_passenger
+5-2	had	O	O	VBD	O
+5-3	some	O	O	DT	O
+5-4	extra	O	O	JJ	O
+5-5	time	5-2_dobj	had	NN	O
+5-6	,	O	O	O	O
+5-7	so	5-2_dep	had	IN	O
+5-8	we	5-9_nsubj	wandered	PRP	P4_passenger
+5-9	wandered	5-2_parataxis	had	VBD	O
+5-10	around	5-9_prt	wandered	RP	O
+5-11	and	O	O	O	O
+5-12	found	5-9_conj_and	wandered	VBD	O
+5-13	a	O	O	DT	O
+5-14	little	O	O	JJ	O
+5-15	gift	O	O	NN	O
+5-16	shop	5-12_dobj	found	NN	P1_NPart_shop
+5-17	where	5-20_advmod	buy	WRB	O
+5-18	we	5-20_nsubj	buy	PRP	P4_passenger
+5-19	could	5-20_aux	buy	MD	O
+5-20	buy	5-12_advcl	found	VB	O
+5-21	souvenirs	5-20_dobj	buy	NNS	P1_NPart_souvenirs
+5-22	.	O	O	O	O
+
+#id=6
+#text=When it was time to board our train , we walked through the station to get to the correct area . 
+6-1	When	O	O	WRB	O
+6-2	it	O	O	PRP	O
+6-3	was	O	O	VBD	O
+6-4	time	6-11_advcl	walked	NN	P4_time_date
+6-5	to	6-6_aux	board	TO	O
+6-6	board	O	O	VB	O
+6-7	our	O	O	PRP$	P4_passenger
+6-8	train	6-6_dobj	board	NN	P1_train
+6-9	,	O	O	O	O
+6-10	we	6-11_nsubj	walked	PRP	P4_passenger
+6-11	walked	O	O	VBD	O
+6-12	through	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	station	6-11_prep_through	walked	NN	P2_train_station
+6-15	to	6-16_aux	get	TO	O
+6-16	get	6-11_xcomp	walked	VB	O
+6-17	to	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	correct	O	O	JJ	O
+6-20	area	6-16_prep_to	get	NN	P1_platform
+6-21	.	O	O	O	O
+
+#id=7
+#text=There were long hallways to get there , and then we went up a concrete pathway to where the train was outside . 
+7-1	There	7-2_expl	were	EX	O
+7-2	were	O	O	VBD	O
+7-3	long	O	O	RB	O
+7-4	hallways	7-2_acomp	were	JJ	P2_other
+7-5	to	7-6_aux	get	TO	O
+7-6	get	O	O	VB	O
+7-7	there	7-6_advmod	get	RB	P1_platform
+7-8	,	O	O	O	O
+7-9	and	O	O	O	O
+7-10	then	7-12_advmod	went	RB	O
+7-11	we	7-12_nsubj	went	PRP	P4_passenger
+7-12	went	7-2_conj_and	were	VBD	O
+7-13	up	7-12_prt	went	RP	O
+7-14	a	O	O	DT	O
+7-15	concrete	O	O	JJ	O
+7-16	pathway	7-12_dobj	went	NN	P1_NPart_pathway
+7-17	to	O	O	O	O
+7-18	where	7-21_advmod	was	WRB	O
+7-19	the	O	O	DT	O
+7-20	train	7-21_nsubj	was	NN	P1_train
+7-21	was	7-12_prepc_to	went	VBD	O
+7-22	outside	7-21_advmod	was	RB	O
+7-23	.	O	O	O	O
+
+#id=8
+#text=We had to give the ticket taker our tickets so she could verify we were getting on the right train . 
+8-1	We	8-2_nsubj	had	PRP	P6_passenger
+8-2	had	O	O	VBD	O
+8-3	to	8-4_aux	give	TO	O
+8-4	give	8-2_xcomp	had	VB	O
+8-5	the	O	O	DT	O
+8-6	ticket	O	O	NN	O
+8-7	taker	8-4_iobj	give	NN	P1_train_staff
+8-8	our	O	O	PRP$	P6_passenger
+8-9	tickets	8-4_dobj	give	NNS	P1_card/ticket
+8-10	so	8-13_mark	verify	IN	O
+8-11	she	8-13_nsubj	verify	PRP	P1_train_staff
+8-12	could	8-13_aux	verify	MD	O
+8-13	verify	8-2_advcl	had	VB	O
+8-14	we	8-16_nsubj	getting	PRP	P6_passenger
+8-15	were	8-16_aux	getting	VBD	O
+8-16	getting	8-13_ccomp	verify	VBG	O
+8-17	on	O	O	O	O
+8-18	the	O	O	DT	O
+8-19	right	O	O	JJ	O
+8-20	train	8-16_prep_on	getting	NN	P1_train
+8-21	.	O	O	O	O
+
+#id=9
+#text=We all gathered in the train and found some seats that had n't been taken . 
+9-1	We	9-3_nsubj	gathered	PRP	P6_passenger
+9-2	all	9-3_advmod	gathered	DT	O
+9-3	gathered	O	O	VBD	O
+9-4	in	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	train	9-3_prep_in	gathered	NN	P1_train
+9-7	and	O	O	O	O
+9-8	found	9-3_conj_and	gathered	VBD	O
+9-9	some	O	O	DT	O
+9-10	seats	9-8_dobj	found	NNS	P1_seat
+9-11	that	9-15_nsubjpass	taken	WDT	O
+9-12	had	9-15_aux	taken	VBD	O
+9-13	n't	9-15_neg	taken	RB	O
+9-14	been	9-15_auxpass	taken	VBN	O
+9-15	taken	O	O	VBN	O
+9-16	.	O	O	O	O
+
+#id=10
+#text=We stored our luggage and prepared for the train to begin its journey . 
+10-1	We	10-2_nsubj	stored	PRP	P6_passenger
+10-2	stored	O	O	VBD	O
+10-3	our	O	O	PRP$	P6_passenger
+10-4	luggage	10-2_dobj	stored	NN	P1_luggage
+10-5	and	O	O	O	O
+10-6	prepared	10-2_conj_and	stored	JJ	O
+10-7	for	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	train	O	O	NN	P1_train
+10-10	to	10-11_aux	begin	TO	O
+10-11	begin	O	O	VB	O
+10-12	its	O	O	PRP$	P1_train
+10-13	journey	10-11_dobj	begin	NN	P1_trip
+10-14	.	O	O	O	O
+
+#id=11
+#text=Once it was time to leave , we watched out the windows at all the passing scenery . 
+11-1	Once	O	O	IN	O
+11-2	it	O	O	PRP	O
+11-3	was	O	O	VBD	O
+11-4	time	11-9_advcl	watched	NN	P5_time_date
+11-5	to	11-6_aux	leave	TO	O
+11-6	leave	O	O	VB	O
+11-7	,	O	O	O	O
+11-8	we	11-9_nsubj	watched	PRP	P6_passenger
+11-9	watched	O	O	VBD	O
+11-10	out	11-9_prt	watched	RP	O
+11-11	the	O	O	DT	O
+11-12	windows	11-9_dobj	watched	NNS	P1_location_train
+11-13	at	O	O	O	O
+11-14	all	O	O	PDT	O
+11-15	the	O	O	DT	O
+11-16	passing	O	O	VBG	O
+11-17	scenery	11-9_prep_at	watched	NNS	P1_in-train_entertainment
+11-18	.	O	O	O	O
+
+#id=12
+#text=After awhile , we all started doing our own thing like reading or playing cards to pass the time . 
+12-1	After	12-6_prep	started	IN	O
+12-2	awhile	O	O	RB	O
+12-3	,	O	O	O	O
+12-4	we	12-6_nsubj	started	PRP	P6_passenger
+12-5	all	12-6_advmod	started	DT	O
+12-6	started	O	O	VBD	O
+12-7	doing	12-6_xcomp	started	VBG	O
+12-8	our	O	O	PRP$	P6_passenger
+12-9	own	O	O	JJ	O
+12-10	thing	12-7_dobj	doing	NN	P2_in-train_entertainment
+12-11	like	O	O	O	O
+12-12	reading	12-7_prepc_like	doing	VBG	O
+12-13	or	O	O	O	O
+12-14	playing	12-12_conj_or	reading	VBG	O
+12-15	cards	12-12_dobj	reading	NNS	P3_in-train_entertainment
+12-16	to	12-17_aux	pass	TO	O
+12-17	pass	O	O	VB	O
+12-18	the	O	O	DT	O
+12-19	time	12-17_dobj	pass	NN	O
+12-20	.	O	O	O	O
+
+#id=13
+#text=It was a lot of fun and really neat to take a train trip . 
+13-1	It	O	O	PRP	O
+13-2	was	O	O	VBD	O
+13-3	a	O	O	DT	O
+13-4	lot	O	O	NN	O
+13-5	of	O	O	O	O
+13-6	fun	O	O	NN	P1_NPart_fun
+13-7	and	O	O	O	O
+13-8	really	O	O	RB	O
+13-9	neat	O	O	JJ	O
+13-10	to	13-11_aux	take	TO	O
+13-11	take	O	O	VB	O
+13-12	a	O	O	DT	O
+13-13	train	13-11_dobj	take	NN	P2_trip
+13-14	trip	O	O	NN	P1_trip
+13-15	.	O	O	O	O

@@ -1,0 +1,260 @@
+#id=1
+#text=A while back I realized I needed some instructional material for a project I was working on , and searching for information on the internet was n't yielding the results I desired . 
+1-1	A	O	O	DT	O
+1-2	while	O	O	NN	O
+1-3	back	1-5_advmod	realized	RB	O
+1-4	I	1-5_nsubj	realized	PRP	P1_customer
+1-5	realized	O	O	VBD	O
+1-6	I	1-7_nsubj	needed	PRP	P1_customer
+1-7	needed	1-5_ccomp	realized	VBD	O
+1-8	some	O	O	DT	O
+1-9	instructional	O	O	JJ	O
+1-10	material	1-28_nsubj	yielding	NN	P1_NPart_material
+1-11	for	O	O	O	O
+1-12	a	O	O	DT	O
+1-13	project	O	O	NN	P1_NPart_project
+1-14	I	1-16_nsubj	working	PRP	P1_customer
+1-15	was	1-16_aux	working	VBD	O
+1-16	working	O	O	VBG	O
+1-17	on	1-16_prt	working	RP	O
+1-18	,	O	O	O	O
+1-19	and	O	O	O	O
+1-20	searching	1-16_conj_and	working	VBG	O
+1-21	for	O	O	O	O
+1-22	information	1-20_prep_for	searching	NN	P1_NPart_information
+1-23	on	O	O	O	O
+1-24	the	O	O	DT	O
+1-25	internet	O	O	NN	P1_NPart_internet
+1-26	was	1-28_aux	yielding	VBD	O
+1-27	n't	1-28_neg	yielding	RB	O
+1-28	yielding	1-7_ccomp	needed	VBG	O
+1-29	the	O	O	DT	O
+1-30	results	1-28_dobj	yielding	NNS	P1_NPart_results
+1-31	I	1-32_nsubj	desired	PRP	P1_customer
+1-32	desired	O	O	VBD	O
+1-33	.	O	O	O	O
+
+#id=2
+#text=I thought about other sources of information and realized that the library would probably have a book pertaining to what I needed . 
+2-1	I	2-2_nsubj	thought	PRP	P1_customer
+2-2	thought	O	O	VBD	O
+2-3	about	O	O	O	O
+2-4	other	O	O	JJ	O
+2-5	sources	2-2_prep_about	thought	NNS	P1_NPart_sources
+2-6	of	O	O	O	O
+2-7	information	O	O	NN	P2_NPart_information
+2-8	and	O	O	O	O
+2-9	realized	2-2_conj_and	thought	VBD	O
+2-10	that	2-15_mark	have	IN	O
+2-11	the	O	O	DT	O
+2-12	library	2-15_nsubj	have	NN	P1_library
+2-13	would	2-15_aux	have	MD	O
+2-14	probably	2-15_advmod	have	RB	O
+2-15	have	2-9_ccomp	realized	VB	O
+2-16	a	O	O	DT	O
+2-17	book	2-15_dobj	have	NN	P1_book
+2-18	pertaining	O	O	VBG	O
+2-19	to	O	O	O	O
+2-20	what	2-22_dobj	needed	WP	O
+2-21	I	2-22_nsubj	needed	PRP	P1_customer
+2-22	needed	2-18_prepc_to	pertaining	VBD	O
+2-23	.	O	O	O	O
+
+#id=3
+#text=So I got in my car and set off for the library . 
+3-1	So	3-3_dep	got	IN	O
+3-2	I	3-3_nsubj	got	PRP	P1_customer
+3-3	got	O	O	VBD	O
+3-4	in	O	O	O	O
+3-5	my	O	O	PRP$	P1_customer
+3-6	car	3-3_prep_in	got	NN	P1_NPart_car
+3-7	and	O	O	O	O
+3-8	set	3-3_conj_and	got	VBD	O
+3-9	off	3-8_prt	set	RP	O
+3-10	for	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	library	3-8_prep_for	set	NN	P1_library
+3-13	.	O	O	O	O
+
+#id=4
+#text=Once I got there , I signed up for a library card since I knew I 'd need that to be able to borrow a book . 
+4-1	Once	4-3_mark	got	IN	O
+4-2	I	4-3_nsubj	got	PRP	P1_customer
+4-3	got	4-7_advcl	signed	VBD	O
+4-4	there	4-3_advmod	got	RB	P1_library
+4-5	,	O	O	O	O
+4-6	I	4-7_nsubj	signed	PRP	P1_customer
+4-7	signed	O	O	VBD	O
+4-8	up	4-7_prt	signed	RP	O
+4-9	for	O	O	O	O
+4-10	a	O	O	DT	O
+4-11	library	O	O	NN	O
+4-12	card	4-7_prep_for	signed	NN	P1_library_card
+4-13	since	4-15_mark	knew	IN	O
+4-14	I	4-15_nsubj	knew	PRP	P1_customer
+4-15	knew	4-7_advcl	signed	VBD	O
+4-16	I	4-18_nsubj	need	PRP	P1_customer
+4-17	'd	4-18_aux	need	MD	O
+4-18	need	4-15_ccomp	knew	VB	O
+4-19	that	O	O	IN	O
+4-20	to	O	O	TO	O
+4-21	be	O	O	VB	O
+4-22	able	4-18_ccomp	need	JJ	O
+4-23	to	4-24_aux	borrow	TO	O
+4-24	borrow	O	O	VB	O
+4-25	a	O	O	DT	O
+4-26	book	4-24_dobj	borrow	NN	P1_book
+4-27	.	O	O	O	O
+
+#id=5
+#text=I then went to one of the reference computers and searched for the book I was looking for . 
+5-1	I	5-3_nsubj	went	PRP	P1_customer
+5-2	then	5-3_advmod	went	RB	O
+5-3	went	O	O	VBD	O
+5-4	to	O	O	O	O
+5-5	one	5-3_prep_to	went	CD	O
+5-6	of	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	reference	O	O	NN	O
+5-9	computers	O	O	NNS	P1_institutional_devices
+5-10	and	O	O	O	O
+5-11	searched	5-3_conj_and	went	VBD	O
+5-12	for	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	book	5-11_prep_for	searched	NN	P1_book
+5-15	I	5-17_nsubj	looking	PRP	P1_customer
+5-16	was	5-17_aux	looking	VBD	O
+5-17	looking	O	O	VBG	O
+5-18	for	5-17_prep	looking	IN	O
+5-19	.	O	O	O	O
+
+#id=6
+#text=I found the dewey decimal code for the book I wanted , and set off through the aisles . 
+6-1	I	6-2_nsubj	found	PRP	P1_customer
+6-2	found	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	dewey	O	O	JJ	O
+6-5	decimal	O	O	JJ	O
+6-6	code	6-2_dobj	found	NN	P1_book_id
+6-7	for	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	book	6-2_prep_for	found	NN	P1_book
+6-10	I	6-11_nsubj	wanted	PRP	P1_customer
+6-11	wanted	O	O	VBD	O
+6-12	,	O	O	O	O
+6-13	and	O	O	O	O
+6-14	set	6-11_conj_and	wanted	VBD	O
+6-15	off	6-14_prt	set	RP	O
+6-16	through	O	O	O	O
+6-17	the	O	O	DT	O
+6-18	aisles	6-14_prep_through	set	NNS	P1_shelf
+6-19	.	O	O	O	O
+
+#id=7
+#text=Finally , I found the aisle I was looking for . 
+7-1	Finally	7-4_advmod	found	RB	O
+7-2	,	O	O	O	O
+7-3	I	7-4_nsubj	found	PRP	P1_customer
+7-4	found	O	O	VBD	O
+7-5	the	O	O	DT	O
+7-6	aisle	7-4_dobj	found	NN	P2_shelf
+7-7	I	7-9_nsubj	looking	PRP	P1_customer
+7-8	was	7-9_aux	looking	VBD	O
+7-9	looking	O	O	VBG	O
+7-10	for	7-9_prep	looking	IN	O
+7-11	.	O	O	O	O
+
+#id=8
+#text=It only took me a moment from there to find the book I wanted . 
+8-1	It	8-3_nsubj	took	PRP	O
+8-2	only	8-3_advmod	took	RB	O
+8-3	took	O	O	VBD	O
+8-4	me	8-3_iobj	took	PRP	P1_customer
+8-5	a	O	O	DT	O
+8-6	moment	8-3_dobj	took	NN	P1_NPart_moment
+8-7	from	8-3_prep	took	IN	O
+8-8	there	O	O	RB	P3_shelf
+8-9	to	8-10_aux	find	TO	O
+8-10	find	8-3_vmod	took	VB	O
+8-11	the	O	O	DT	O
+8-12	book	8-10_dobj	find	NN	P1_book
+8-13	I	8-14_nsubj	wanted	PRP	P1_customer
+8-14	wanted	O	O	VBD	O
+8-15	.	O	O	O	O
+
+#id=9
+#text=Book in hand , I went back to the library counter . 
+9-1	Book	9-6_ccomp	went	VB	P2_book
+9-2	in	O	O	O	O
+9-3	hand	9-1_prep_in	Book	NN	O
+9-4	,	O	O	O	O
+9-5	I	9-6_nsubj	went	PRP	P1_customer
+9-6	went	O	O	VBD	O
+9-7	back	9-6_advmod	went	RB	O
+9-8	to	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	library	O	O	NN	O
+9-11	counter	9-6_prep_to	went	NN	P1_check-out_desk
+9-12	.	O	O	O	O
+
+#id=10
+#text=I told the librarian I 'd like to borrow the book . 
+10-1	I	10-2_nsubj	told	PRP	P1_customer
+10-2	told	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	librarian	10-2_dobj	told	NN	P1_staff
+10-5	I	10-7_nsubj	like	PRP	P1_customer
+10-6	'd	10-7_aux	like	MD	O
+10-7	like	O	O	VB	O
+10-8	to	10-9_aux	borrow	TO	O
+10-9	borrow	10-7_xcomp	like	VB	O
+10-10	the	O	O	DT	O
+10-11	book	10-9_dobj	borrow	NN	P1_book
+10-12	.	O	O	O	O
+
+#id=11
+#text=She wrote my information down and on the insert in the book , and gave me a due date . 
+11-1	She	11-2_nsubj	wrote	PRP	P1_staff
+11-2	wrote	O	O	VBD	O
+11-3	my	O	O	PRP$	P1_customer
+11-4	information	11-2_dobj	wrote	NN	P1_other
+11-5	down	11-2_prt	wrote	RP	O
+11-6	and	O	O	CC	O
+11-7	on	O	O	RP	O
+11-8	the	O	O	DT	O
+11-9	insert	11-2_dobj	wrote	NN	P3_book
+11-10	in	O	O	O	O
+11-11	the	O	O	DT	O
+11-12	book	O	O	NN	P1_book
+11-13	,	O	O	O	O
+11-14	and	O	O	O	O
+11-15	gave	11-2_conj_and	wrote	VBD	O
+11-16	me	11-15_iobj	gave	PRP	P1_customer
+11-17	a	O	O	DT	O
+11-18	due	O	O	JJ	O
+11-19	date	11-15_dobj	gave	NN	P1_return_date
+11-20	.	O	O	O	O
+
+#id=12
+#text=Then I was on my way . 
+12-1	Then	12-3_advmod	was	RB	O
+12-2	I	12-3_nsubj	was	PRP	P1_customer
+12-3	was	O	O	VBD	O
+12-4	on	O	O	O	O
+12-5	my	O	O	PRP$	P1_customer
+12-6	way	12-3_prep_on	was	NN	O
+12-7	.	O	O	O	O
+
+#id=13
+#text=That 's how I borrowed a book from the library . 
+13-1	That	13-2_nsubj	's	DT	O
+13-2	's	O	O	VBZ	O
+13-3	how	13-5_advmod	borrowed	WRB	O
+13-4	I	13-5_nsubj	borrowed	PRP	P1_customer
+13-5	borrowed	13-2_ccomp	's	VBD	O
+13-6	a	O	O	DT	O
+13-7	book	13-5_dobj	borrowed	NN	P1_book
+13-8	from	O	O	O	O
+13-9	the	O	O	DT	O
+13-10	library	13-5_prep_from	borrowed	NN	P1_library
+13-11	.	O	O	O	O

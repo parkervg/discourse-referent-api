@@ -1,0 +1,220 @@
+#id=1
+#text=Last year we had a fire . 
+1-1	Last	O	O	JJ	O
+1-2	year	1-4_tmod	had	NN	P1_NPart_year
+1-3	we	1-4_nsubj	had	PRP	P1_NPart_we
+1-4	had	O	O	VBD	O
+1-5	a	O	O	DT	O
+1-6	fire	1-4_dobj	had	NN	P1_NPart_fire
+1-7	.	O	O	O	O
+
+#id=2
+#text=A large fire , that burned down homes and trees . 
+2-1	A	O	O	DT	O
+2-2	large	O	O	JJ	O
+2-3	fire	O	O	NN	P2_NPart_fire
+2-4	,	O	O	O	O
+2-5	that	O	O	DT	O
+2-6	burned	O	O	VBN	O
+2-7	down	O	O	O	O
+2-8	homes	2-6_prep_down	burned	NNS	P1_NPart_homes
+2-9	and	O	O	O	O
+2-10	trees	O	O	NNS	P1_NPart_trees
+2-11	.	O	O	O	O
+
+#id=3
+#text=I felt lucky that my home had survived , but the trees nearby had not . 
+3-1	I	3-2_nsubj	felt	PRP	P1_gardener
+3-2	felt	O	O	VBD	O
+3-3	lucky	3-2_acomp	felt	JJ	O
+3-4	that	3-8_mark	survived	IN	O
+3-5	my	O	O	PRP$	P1_gardener
+3-6	home	3-8_nsubj	survived	NN	P1_NPart_home
+3-7	had	3-8_aux	survived	VBD	O
+3-8	survived	3-2_ccomp	felt	VBN	O
+3-9	,	O	O	O	O
+3-10	but	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	trees	3-14_nsubj	had	NNS	P1_tree
+3-13	nearby	3-14_advmod	had	RB	O
+3-14	had	3-2_conj_but	felt	VBD	O
+3-15	not	3-14_neg	had	RB	O
+3-16	.	O	O	O	O
+
+#id=4
+#text=I had just returned from a trip to the nursery where I had picked out a couple of small fruit bearing saplings . 
+4-1	I	4-4_nsubj	returned	PRP	P1_gardener
+4-2	had	4-4_aux	returned	VBD	O
+4-3	just	4-4_advmod	returned	RB	O
+4-4	returned	O	O	VBN	O
+4-5	from	O	O	O	O
+4-6	a	O	O	DT	O
+4-7	trip	4-4_prep_from	returned	NN	P1_NPart_trip
+4-8	to	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	nursery	4-4_prep_to	returned	NN	P1_shop
+4-11	where	4-14_advmod	picked	WRB	O
+4-12	I	4-14_nsubj	picked	PRP	P1_gardener
+4-13	had	4-14_aux	picked	VBD	O
+4-14	picked	O	O	VBN	O
+4-15	out	O	O	O	O
+4-16	a	O	O	DT	O
+4-17	couple	4-14_prep_out	picked	NN	O
+4-18	of	O	O	O	O
+4-19	small	O	O	JJ	O
+4-20	fruit	O	O	NN	O
+4-21	bearing	O	O	NN	O
+4-22	saplings	O	O	NNS	P1_tree
+4-23	.	O	O	O	O
+
+#id=5
+#text=One was cherry , the other was plum . 
+5-1	One	O	O	PRP	P1_tree
+5-2	was	O	O	VBD	O
+5-3	cherry	O	O	NN	P1_tree
+5-4	,	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	other	O	O	JJ	P1_tree
+5-7	was	O	O	VBD	O
+5-8	plum	O	O	NN	P1_tree
+5-9	.	O	O	O	O
+
+#id=6
+#text=Now they sit next to the car , along with a shovel . 
+6-1	Now	6-3_advmod	sit	RB	O
+6-2	they	6-3_nsubj	sit	PRP	P1_tree
+6-3	sit	O	O	VBP	O
+6-4	next	O	O	O	O
+6-5	to	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	car	6-3_prep_next_to	sit	NN	P1_NPart_car
+6-8	,	O	O	O	O
+6-9	along	O	O	O	O
+6-10	with	O	O	O	O
+6-11	a	O	O	DT	O
+6-12	shovel	O	O	NN	P1_gardening_tool
+6-13	.	O	O	O	O
+
+#id=7
+#text=After some consideration , I pulled on my gloves and stepped out into the now barren area next to my house to dig two holes , approximately 20 feet apart . 
+7-1	After	O	O	O	O
+7-2	some	O	O	DT	O
+7-3	consideration	7-6_prep_after	pulled	NN	P1_NPart_consideration
+7-4	,	O	O	O	O
+7-5	I	7-6_nsubj	pulled	PRP	P1_gardener
+7-6	pulled	O	O	VBD	O
+7-7	on	O	O	O	O
+7-8	my	O	O	PRP$	P1_gardener
+7-9	gloves	7-6_prep_on	pulled	NNS	P2_gardening_tool
+7-10	and	O	O	O	O
+7-11	stepped	7-6_conj_and	pulled	VBD	O
+7-12	out	7-11_prt	stepped	RP	O
+7-13	into	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	now	O	O	RB	O
+7-16	barren	O	O	JJ	O
+7-17	area	7-11_prep_into	stepped	NN	P1_location_garden
+7-18	next	O	O	O	O
+7-19	to	O	O	O	O
+7-20	my	O	O	PRP$	P1_gardener
+7-21	house	O	O	NN	P1_NPart_house
+7-22	to	7-23_aux	dig	TO	O
+7-23	dig	7-11_xcomp	stepped	VB	O
+7-24	two	O	O	CD	O
+7-25	holes	7-23_dobj	dig	NNS	P1_hole
+7-26	,	O	O	O	O
+7-27	approximately	O	O	RB	O
+7-28	20	O	O	CD	O
+7-29	feet	O	O	NNS	P1_NPart_feet
+7-30	apart	7-23_advmod	dig	RB	O
+7-31	.	O	O	O	O
+
+#id=8
+#text=I wanted to give them room to grow , yet close enough to have company . 
+8-1	I	8-2_nsubj	wanted	PRP	P1_gardener
+8-2	wanted	O	O	VBD	O
+8-3	to	8-4_aux	give	TO	O
+8-4	give	8-2_xcomp	wanted	VB	O
+8-5	them	8-4_iobj	give	PRP	P1_tree
+8-6	room	8-4_dobj	give	NN	P1_NPart_room
+8-7	to	8-8_aux	grow	TO	O
+8-8	grow	O	O	VB	O
+8-9	,	O	O	O	O
+8-10	yet	O	O	RB	O
+8-11	close	O	O	RB	O
+8-12	enough	O	O	RB	O
+8-13	to	8-14_aux	have	TO	O
+8-14	have	O	O	VB	O
+8-15	company	8-14_dobj	have	NN	P1_NPart_company
+8-16	.	O	O	O	O
+
+#id=9
+#text=This thought amused me . 
+9-1	This	9-2_nsubj	thought	DT	O
+9-2	thought	O	O	VBD	P1_NPart_thought
+9-3	amused	9-2_xcomp	thought	VBG	O
+9-4	me	9-3_dobj	amused	PRP	P1_gardener
+9-5	.	O	O	O	O
+
+#id=10
+#text=I places each sapling into its hole , patting new earth around it in a mound . 
+10-1	I	10-2_nsubj	places	PRP	P1_gardener
+10-2	places	O	O	VBZ	O
+10-3	each	O	O	DT	O
+10-4	sapling	10-2_dobj	places	NN	P1_tree
+10-5	into	O	O	O	O
+10-6	its	O	O	PRP$	P1_tree
+10-7	hole	10-2_prep_into	places	NN	P1_hole
+10-8	,	O	O	O	O
+10-9	patting	10-2_vmod	places	VBG	O
+10-10	new	O	O	JJ	O
+10-11	earth	10-9_dobj	patting	NN	P1_dirt
+10-12	around	O	O	O	O
+10-13	it	10-9_prep_around	patting	PRP	P1_tree
+10-14	in	O	O	O	O
+10-15	a	O	O	DT	O
+10-16	mound	10-9_prep_in	patting	NN	P1_NPart_mound
+10-17	.	O	O	O	O
+
+#id=11
+#text=The I turned on the water hose , and gave them a good drink , tapping down the new earth with the shovel . '' 
+11-1	The	O	O	DT	O
+11-2	I	11-3_nsubj	turned	NN	P1_gardener
+11-3	turned	O	O	VBD	O
+11-4	on	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	water	O	O	NN	O
+11-7	hose	11-3_prep_on	turned	NN	P3_gardening_tool
+11-8	,	O	O	O	O
+11-9	and	O	O	O	O
+11-10	gave	11-3_conj_and	turned	VBD	O
+11-11	them	11-10_iobj	gave	PRP	P1_tree
+11-12	a	O	O	DT	O
+11-13	good	O	O	JJ	O
+11-14	drink	11-10_dobj	gave	NN	P1_water
+11-15	,	O	O	O	O
+11-16	tapping	11-3_conj_and	turned	VBG	O
+11-17	down	11-16_prt	tapping	RP	O
+11-18	the	O	O	DT	O
+11-19	new	O	O	JJ	O
+11-20	earth	11-16_dobj	tapping	NN	P1_dirt
+11-21	with	O	O	O	O
+11-22	the	O	O	DT	O
+11-23	shovel	11-16_prep_with	tapping	NN	P1_gardening_tool
+11-24	.	O	O	O	O
+11-25	''	O	O	O	O
+
+#id=12
+#text=`` Welcome home '' '' I thought , as I smiled . 
+12-1	``	O	O	O	O
+12-2	Welcome	O	O	JJ	O
+12-3	home	12-7_nsubj	thought	NN	P2_NPart_home
+12-4	''	O	O	O	O
+12-5	''	O	O	O	O
+12-6	I	12-7_nsubj	thought	PRP	P1_gardener
+12-7	thought	O	O	VBD	O
+12-8	,	O	O	O	O
+12-9	as	12-11_mark	smiled	IN	O
+12-10	I	12-11_nsubj	smiled	PRP	P1_gardener
+12-11	smiled	12-7_advcl	thought	VBD	O
+12-12	.	O	O	O	O

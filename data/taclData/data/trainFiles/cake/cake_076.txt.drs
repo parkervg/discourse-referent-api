@@ -1,0 +1,340 @@
+#id=1
+#text=Baking a cake is so much fun . 
+1-1	Baking	O	O	RB	O
+1-2	a	O	O	DT	O
+1-3	cake	O	O	NN	P1_cake
+1-4	is	O	O	VBZ	O
+1-5	so	O	O	RB	O
+1-6	much	O	O	RB	O
+1-7	fun	O	O	NN	P1_NPart_fun
+1-8	.	O	O	O	O
+
+#id=2
+#text=I always love to buy the package from the grocery store since this is the easiest way . 
+2-1	I	2-3_nsubj	love	PRP	P1_cook
+2-2	always	2-3_advmod	love	RB	O
+2-3	love	O	O	VBP	O
+2-4	to	2-5_aux	buy	TO	O
+2-5	buy	2-3_xcomp	love	VB	O
+2-6	the	O	O	DT	O
+2-7	package	2-5_dobj	buy	NN	P1_ingredients
+2-8	from	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	grocery	O	O	NN	O
+2-11	store	2-5_prep_from	buy	NN	P1_store
+2-12	since	O	O	IN	O
+2-13	this	O	O	DT	O
+2-14	is	O	O	VBZ	O
+2-15	the	O	O	DT	O
+2-16	easiest	O	O	JJS	O
+2-17	way	2-5_advcl	buy	NN	O
+2-18	.	O	O	O	O
+
+#id=3
+#text=You just need to mix the package with some eggs and oil . 
+3-1	You	3-3_nsubj	need	PRP	P1_cook
+3-2	just	3-3_advmod	need	RB	O
+3-3	need	O	O	VBP	O
+3-4	to	3-5_aux	mix	TO	O
+3-5	mix	3-3_xcomp	need	VB	O
+3-6	the	O	O	DT	O
+3-7	package	3-5_dobj	mix	NN	P1_ingredients
+3-8	with	O	O	O	O
+3-9	some	O	O	DT	O
+3-10	eggs	3-5_prep_with	mix	NNS	P2_ingredients
+3-11	and	O	O	O	O
+3-12	oil	O	O	NN	P3_ingredients
+3-13	.	O	O	O	O
+
+#id=4
+#text=First I would pre-heat the oven to about four hundred degrees . 
+4-1	First	4-4_advmod	pre-heat	RB	O
+4-2	I	4-4_nsubj	pre-heat	PRP	P1_cook
+4-3	would	4-4_aux	pre-heat	MD	O
+4-4	pre-heat	O	O	VB	O
+4-5	the	O	O	DT	O
+4-6	oven	4-4_dobj	pre-heat	NN	P1_oven
+4-7	to	O	O	O	O
+4-8	about	O	O	RB	O
+4-9	four	O	O	CD	O
+4-10	hundred	O	O	CD	O
+4-11	degrees	4-4_prep_to	pre-heat	NNS	P1_temperature
+4-12	.	O	O	O	O
+
+#id=5
+#text=Then mix all the cake batter ingredients all together until the consistency of the cake mix is smooth and there are no chunks . 
+5-1	Then	5-2_advmod	mix	RB	O
+5-2	mix	O	O	VB	O
+5-3	all	O	O	PDT	O
+5-4	the	O	O	DT	O
+5-5	cake	O	O	NNP	P1_cake
+5-6	batter	O	O	NN	P1_dough
+5-7	ingredients	5-2_dobj	mix	NNS	P4_ingredients
+5-8	all	O	O	RB	O
+5-9	together	5-2_advmod	mix	RB	O
+5-10	until	O	O	IN	O
+5-11	the	O	O	DT	O
+5-12	consistency	O	O	NN	P1_NPart_consistency
+5-13	of	O	O	O	O
+5-14	the	O	O	DT	O
+5-15	cake	O	O	NN	O
+5-16	mix	O	O	NN	P2_dough
+5-17	is	O	O	VBZ	O
+5-18	smooth	O	O	JJ	O
+5-19	and	O	O	O	O
+5-20	there	5-21_expl	are	EX	O
+5-21	are	O	O	VBP	O
+5-22	no	O	O	DT	O
+5-23	chunks	5-21_nsubj	are	NNS	P1_other
+5-24	.	O	O	O	O
+
+#id=6
+#text=Then I slowly pour the batter into a cake pan and ensure that the batter is even in the pan . 
+6-1	Then	6-4_advmod	pour	RB	O
+6-2	I	6-4_nsubj	pour	PRP	P1_cook
+6-3	slowly	6-4_advmod	pour	RB	O
+6-4	pour	O	O	VBP	O
+6-5	the	O	O	DT	O
+6-6	batter	6-4_dobj	pour	NN	P2_dough
+6-7	into	O	O	O	O
+6-8	a	O	O	DT	O
+6-9	cake	6-4_prep_into	pour	NN	O
+6-10	pan	O	O	VB	P1_cake_tin
+6-11	and	O	O	O	O
+6-12	ensure	6-10_conj_and	pan	VB	O
+6-13	that	6-16_mark	is	IN	O
+6-14	the	O	O	DT	O
+6-15	batter	6-16_nsubj	is	NN	P2_dough
+6-16	is	6-12_ccomp	ensure	VBZ	O
+6-17	even	6-16_advmod	is	RB	O
+6-18	in	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	pan	6-16_prep_in	is	NN	P1_cake_tin
+6-21	.	O	O	O	O
+
+#id=7
+#text=Sometimes I use cooking spray to oil the pan and sometimes I forget but honestly I feel like it does not make that big of a difference . 
+7-1	Sometimes	7-3_advmod	use	RB	O
+7-2	I	7-3_nsubj	use	PRP	P1_cook
+7-3	use	O	O	VBP	O
+7-4	cooking	O	O	JJ	O
+7-5	spray	7-3_dobj	use	NN	P5_ingredients
+7-6	to	O	O	O	O
+7-7	oil	7-3_prep_to	use	NN	O
+7-8	the	O	O	DT	O
+7-9	pan	O	O	NN	P1_cake_tin
+7-10	and	O	O	O	O
+7-11	sometimes	7-13_advmod	forget	RB	O
+7-12	I	7-13_nsubj	forget	PRP	P1_cook
+7-13	forget	7-3_conj_and	use	VBP	O
+7-14	but	O	O	O	O
+7-15	honestly	7-17_advmod	feel	RB	O
+7-16	I	7-17_nsubj	feel	PRP	P1_cook
+7-17	feel	7-3_conj_but	use	VBP	O
+7-18	like	7-22_mark	make	IN	O
+7-19	it	7-22_nsubj	make	PRP	O
+7-20	does	7-22_aux	make	VBZ	O
+7-21	not	7-22_neg	make	RB	O
+7-22	make	7-17_advcl	feel	VB	O
+7-23	that	O	O	DT	O
+7-24	big	7-22_dobj	make	JJ	O
+7-25	of	O	O	O	O
+7-26	a	O	O	DT	O
+7-27	difference	O	O	NN	P1_NPart_difference
+7-28	.	O	O	O	O
+
+#id=8
+#text=Then I cook the cake and wait until it is done . 
+8-1	Then	8-3_advmod	cook	RB	O
+8-2	I	8-3_nsubj	cook	PRP	P1_cook
+8-3	cook	O	O	VBZ	O
+8-4	the	O	O	DT	O
+8-5	cake	8-3_dobj	cook	NN	P1_cake
+8-6	and	O	O	O	O
+8-7	wait	8-3_conj_and	cook	VBP	O
+8-8	until	8-11_mark	done	IN	O
+8-9	it	8-11_nsubjpass	done	PRP	P1_cake
+8-10	is	8-11_auxpass	done	VBZ	O
+8-11	done	8-7_advcl	wait	VBN	O
+8-12	.	O	O	O	O
+
+#id=9
+#text=Sometimes I like to look through the window on the oven door and watch how the cake will rise in the cake pan . 
+9-1	Sometimes	9-3_advmod	like	RB	O
+9-2	I	9-3_nsubj	like	PRP	P1_cook
+9-3	like	O	O	VBP	O
+9-4	to	9-5_aux	look	TO	O
+9-5	look	9-3_xcomp	like	VB	O
+9-6	through	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	window	9-5_prep_through	look	NN	P2_other
+9-9	on	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	oven	O	O	NN	O
+9-12	door	O	O	NN	P3_other
+9-13	and	O	O	O	O
+9-14	watch	9-5_conj_and	look	VB	O
+9-15	how	9-19_advmod	rise	WRB	O
+9-16	the	O	O	DT	O
+9-17	cake	9-19_nsubj	rise	NN	P1_cake
+9-18	will	9-19_aux	rise	MD	O
+9-19	rise	9-14_ccomp	watch	VB	O
+9-20	in	O	O	O	O
+9-21	the	O	O	DT	O
+9-22	cake	O	O	NN	O
+9-23	pan	9-19_prep_in	rise	NN	P2_cake_tin
+9-24	.	O	O	O	O
+
+#id=10
+#text=Then I love to smell the cake as the aroma fills the entire house , oh I love this part so much . 
+10-1	Then	10-3_advmod	love	RB	O
+10-2	I	10-3_nsubj	love	PRP	P1_cook
+10-3	love	O	O	VBP	O
+10-4	to	10-5_aux	smell	TO	O
+10-5	smell	10-3_xcomp	love	VB	O
+10-6	the	O	O	DT	O
+10-7	cake	10-5_dobj	smell	NN	P1_cake
+10-8	as	10-11_mark	fills	IN	O
+10-9	the	O	O	DT	O
+10-10	aroma	10-11_nsubj	fills	NN	P4_other
+10-11	fills	10-5_advcl	smell	VBZ	O
+10-12	the	O	O	DT	O
+10-13	entire	O	O	JJ	O
+10-14	house	10-11_dobj	fills	NN	P1_kitchen/location
+10-15	,	O	O	O	O
+10-16	oh	10-18_discourse	love	UH	O
+10-17	I	10-18_nsubj	love	PRP	P1_cook
+10-18	love	10-3_parataxis	love	VBP	O
+10-19	this	O	O	DT	O
+10-20	part	10-18_dobj	love	NN	P1_NPart_part
+10-21	so	O	O	RB	O
+10-22	much	10-18_advmod	love	RB	O
+10-23	.	O	O	O	O
+
+#id=11
+#text=Then the timer beeps and I am so happy . 
+11-1	Then	11-4_advmod	beeps	RB	O
+11-2	the	O	O	DT	O
+11-3	timer	11-4_nsubj	beeps	NN	P1_timer
+11-4	beeps	O	O	VBZ	O
+11-5	and	O	O	O	O
+11-6	I	O	O	PRP	P1_cook
+11-7	am	O	O	VBP	O
+11-8	so	O	O	RB	O
+11-9	happy	11-4_conj_and	beeps	JJ	O
+11-10	.	O	O	O	O
+
+#id=12
+#text=The most important part of baking a cake , as my mother always told me , is to turn off the oven when the cake is doing baking . 
+12-1	The	O	O	DT	O
+12-2	most	O	O	RBS	O
+12-3	important	O	O	JJ	O
+12-4	part	12-17_nsubj	is	NN	P2_NPart_part
+12-5	of	O	O	O	O
+12-6	baking	O	O	VBG	O
+12-7	a	O	O	DT	O
+12-8	cake	12-6_dobj	baking	NN	P1_cake
+12-9	,	O	O	O	O
+12-10	as	12-14_mark	told	IN	O
+12-11	my	O	O	PRP$	P1_cook
+12-12	mother	12-14_nsubj	told	NN	P1_NPart_mother
+12-13	always	12-14_advmod	told	RB	O
+12-14	told	O	O	VBD	O
+12-15	me	12-14_dobj	told	PRP	P1_cook
+12-16	,	O	O	O	O
+12-17	is	O	O	VBZ	O
+12-18	to	12-19_aux	turn	TO	O
+12-19	turn	12-17_xcomp	is	VB	O
+12-20	off	12-19_prt	turn	RP	O
+12-21	the	O	O	DT	O
+12-22	oven	12-19_dobj	turn	NN	P1_oven
+12-23	when	12-27_advmod	doing	WRB	O
+12-24	the	O	O	DT	O
+12-25	cake	12-27_nsubj	doing	NN	P1_cake
+12-26	is	12-27_aux	doing	VBZ	O
+12-27	doing	O	O	VBG	O
+12-28	baking	12-27_dobj	doing	VBG	O
+12-29	.	O	O	O	O
+
+#id=13
+#text=I pull it out and use a toothpick to make sure that the cake is done by making sure that the toothpick comes out clean from the middle of the cake . 
+13-1	I	13-2_nsubj	pull	PRP	P1_cook
+13-2	pull	O	O	VBP	O
+13-3	it	13-2_dobj	pull	PRP	P1_cake
+13-4	out	13-2_prt	pull	RP	O
+13-5	and	O	O	O	O
+13-6	use	13-2_conj_and	pull	VBP	O
+13-7	a	O	O	DT	O
+13-8	toothpick	13-6_dobj	use	NN	P1_utensil
+13-9	to	13-10_aux	make	TO	O
+13-10	make	13-6_vmod	use	VB	O
+13-11	sure	13-10_acomp	make	JJ	O
+13-12	that	13-16_mark	done	IN	O
+13-13	the	O	O	DT	O
+13-14	cake	13-16_nsubjpass	done	NN	P1_cake
+13-15	is	13-16_auxpass	done	VBZ	O
+13-16	done	13-10_ccomp	make	VBN	O
+13-17	by	O	O	O	O
+13-18	making	13-16_agent	done	VBG	O
+13-19	sure	13-18_acomp	making	JJ	O
+13-20	that	13-23_mark	comes	IN	O
+13-21	the	O	O	DT	O
+13-22	toothpick	13-23_nsubj	comes	NN	P1_utensil
+13-23	comes	13-18_ccomp	making	VBZ	O
+13-24	out	O	O	IN	O
+13-25	clean	13-23_acomp	comes	JJ	O
+13-26	from	O	O	O	O
+13-27	the	O	O	DT	O
+13-28	middle	O	O	NN	P1_NPart_middle
+13-29	of	O	O	O	O
+13-30	the	O	O	DT	O
+13-31	cake	O	O	NN	P1_cake
+13-32	.	O	O	O	O
+
+#id=14
+#text=Then I wait a while and then I mix together some frosting . 
+14-1	Then	14-3_advmod	wait	RB	O
+14-2	I	14-3_nsubj	wait	PRP	P1_cook
+14-3	wait	O	O	VBP	O
+14-4	a	O	O	DT	O
+14-5	while	14-3_dobj	wait	NN	O
+14-6	and	O	O	O	O
+14-7	then	14-9_advmod	mix	RB	O
+14-8	I	14-9_nsubj	mix	PRP	P1_cook
+14-9	mix	14-3_conj_and	wait	VB	O
+14-10	together	14-9_prt	mix	RP	O
+14-11	some	O	O	DT	O
+14-12	frosting	14-9_dobj	mix	NN	P6_ingredients
+14-13	.	O	O	O	O
+
+#id=15
+#text=I spread the frosting on the cake and cut myself a piece and I eat it ! 
+15-1	I	15-2_nsubj	spread	PRP	P1_cook
+15-2	spread	O	O	VBD	O
+15-3	the	O	O	DT	O
+15-4	frosting	15-2_dobj	spread	NN	P6_ingredients
+15-5	on	O	O	O	O
+15-6	the	O	O	DT	O
+15-7	cake	15-2_prep_on	spread	NN	P1_cake
+15-8	and	O	O	O	O
+15-9	cut	15-2_conj_and	spread	VBD	O
+15-10	myself	O	O	PRP	P1_cook
+15-11	a	O	O	DT	O
+15-12	piece	15-9_xcomp	cut	NN	P5_other
+15-13	and	O	O	O	O
+15-14	I	15-15_nsubj	eat	PRP	P1_cook
+15-15	eat	15-2_conj_and	spread	VBP	O
+15-16	it	15-15_dobj	eat	PRP	P5_other
+15-17	!	O	O	O	O
+
+#id=16
+#text=It tastes so amazing ! 
+16-1	It	16-2_nsubj	tastes	PRP	P5_other
+16-2	tastes	O	O	VBZ	O
+16-3	so	O	O	RB	O
+16-4	amazing	16-2_acomp	tastes	JJ	O
+16-5	!	O	O	O	O
+
+#id=17
+#text=! 
+17-1	!	O	O	O	O

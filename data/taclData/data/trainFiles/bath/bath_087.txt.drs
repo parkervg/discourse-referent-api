@@ -1,0 +1,224 @@
+#id=1
+#text=The first time I took a bath , I enjoyed it so much that I did not want to stop . 
+1-1	The	O	O	DT	O
+1-2	first	O	O	JJ	O
+1-3	time	1-10_nsubj	enjoyed	NN	P1_NPart_time
+1-4	I	1-5_nsubj	took	PRP	P1_bather
+1-5	took	O	O	VBD	O
+1-6	a	O	O	DT	O
+1-7	bath	1-5_dobj	took	NN	P1_bath
+1-8	,	O	O	O	O
+1-9	I	1-10_nsubj	enjoyed	PRP	P1_bather
+1-10	enjoyed	O	O	VBD	O
+1-11	it	1-10_dobj	enjoyed	PRP	P1_bath
+1-12	so	O	O	RB	O
+1-13	much	1-10_advmod	enjoyed	RB	O
+1-14	that	1-18_mark	want	IN	O
+1-15	I	1-18_nsubj	want	PRP	P1_bather
+1-16	did	1-18_aux	want	VBD	O
+1-17	not	1-18_neg	want	RB	O
+1-18	want	O	O	VB	O
+1-19	to	1-20_aux	stop	TO	O
+1-20	stop	1-18_xcomp	want	VB	O
+1-21	.	O	O	O	O
+
+#id=2
+#text=It felt like I was sitting in a pool of warm water . 
+2-1	It	2-2_nsubj	felt	PRP	O
+2-2	felt	O	O	VBD	O
+2-3	like	2-6_mark	sitting	IN	O
+2-4	I	2-6_nsubj	sitting	PRP	P1_bather
+2-5	was	2-6_aux	sitting	VBD	O
+2-6	sitting	2-2_advcl	felt	VBG	O
+2-7	in	O	O	O	O
+2-8	a	O	O	DT	O
+2-9	pool	2-6_prep_in	sitting	NN	O
+2-10	of	O	O	O	O
+2-11	warm	O	O	JJ	O
+2-12	water	O	O	NN	P1_water
+2-13	.	O	O	O	O
+
+#id=3
+#text=I was a young kid so it was a bubble bath and I had some toys to play with . 
+3-1	I	O	O	PRP	P1_bather
+3-2	was	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	young	O	O	JJ	O
+3-5	kid	O	O	NN	P1_bather
+3-6	so	O	O	IN	O
+3-7	it	O	O	PRP	P1_bath
+3-8	was	O	O	VBD	O
+3-9	a	O	O	DT	O
+3-10	bubble	O	O	NN	O
+3-11	bath	O	O	NN	P1_bath
+3-12	and	O	O	O	O
+3-13	I	3-14_nsubj	had	PRP	P1_bather
+3-14	had	O	O	VBD	O
+3-15	some	O	O	DT	O
+3-16	toys	3-14_dobj	had	NNS	P1_in-bath_entertainment
+3-17	to	3-18_aux	play	TO	O
+3-18	play	3-14_ccomp	had	VB	O
+3-19	with	3-18_prep	play	IN	O
+3-20	.	O	O	O	O
+
+#id=4
+#text=Either my mother or my father would wash my hair for me then they would help me wash the remainder of my body . 
+4-1	Either	4-8_dep	wash	CC	O
+4-2	my	O	O	PRP$	P1_bather
+4-3	mother	4-8_nsubj	wash	NN	P1_NPart_mother
+4-4	or	O	O	O	O
+4-5	my	O	O	PRP$	P1_bather
+4-6	father	O	O	NN	P1_NPart_father
+4-7	would	4-8_aux	wash	MD	O
+4-8	wash	O	O	VB	O
+4-9	my	O	O	PRP$	P1_bather
+4-10	hair	4-8_dobj	wash	NN	P1_hair
+4-11	for	O	O	O	O
+4-12	me	4-8_prep_for	wash	PRP	P1_bather
+4-13	then	4-8_advmod	wash	RB	O
+4-14	they	4-16_nsubj	help	PRP	P1_NPart_they
+4-15	would	4-16_aux	help	MD	O
+4-16	help	4-8_parataxis	wash	VB	O
+4-17	me	4-18_nsubj	wash	PRP	P1_bather
+4-18	wash	4-16_ccomp	help	VB	O
+4-19	the	O	O	DT	O
+4-20	remainder	4-18_dobj	wash	NN	P1_NPart_remainder
+4-21	of	O	O	O	O
+4-22	my	O	O	PRP$	P1_bather
+4-23	body	O	O	NN	P2_hair
+4-24	.	O	O	O	O
+
+#id=5
+#text=But they just told me not to splash the water and to keep the water in the tub . 
+5-1	But	5-4_cc	told	CC	O
+5-2	they	5-4_nsubj	told	PRP	P2_NPart_they
+5-3	just	5-4_advmod	told	RB	O
+5-4	told	O	O	VBD	O
+5-5	me	5-8_nsubj	splash	PRP	P1_bather
+5-6	not	5-8_neg	splash	RB	O
+5-7	to	5-8_aux	splash	TO	O
+5-8	splash	5-4_ccomp	told	VB	O
+5-9	the	O	O	DT	O
+5-10	water	5-8_dobj	splash	NN	P1_water
+5-11	and	O	O	O	O
+5-12	to	5-13_aux	keep	TO	O
+5-13	keep	5-8_conj_and	splash	VB	O
+5-14	the	O	O	DT	O
+5-15	water	5-13_dobj	keep	NN	P1_water
+5-16	in	O	O	O	O
+5-17	the	O	O	DT	O
+5-18	tub	O	O	NN	P1_bathtub
+5-19	.	O	O	O	O
+
+#id=6
+#text=I would play with my toys and get all clean in the bath tub . 
+6-1	I	6-3_nsubj	play	PRP	P1_bather
+6-2	would	6-3_aux	play	MD	O
+6-3	play	O	O	VB	O
+6-4	with	O	O	O	O
+6-5	my	O	O	PRP$	P1_bather
+6-6	toys	6-3_prep_with	play	NNS	P2_in-bath_entertainment
+6-7	and	O	O	O	O
+6-8	get	6-3_conj_and	play	VB	O
+6-9	all	O	O	DT	O
+6-10	clean	O	O	JJ	O
+6-11	in	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	bath	O	O	NN	O
+6-14	tub	6-8_dobj	get	NN	P1_bathtub
+6-15	.	O	O	O	O
+
+#id=7
+#text=After a few years I learned how to wash my own hair and I would prefer to take a bath over a shower since it was more fun to sit and relax in the warm water and enjoy a fun evening . 
+7-1	After	O	O	O	O
+7-2	a	O	O	DT	O
+7-3	few	O	O	JJ	O
+7-4	years	7-6_prep_after	learned	NNS	P1_NPart_years
+7-5	I	7-6_nsubj	learned	PRP	P1_bather
+7-6	learned	O	O	VBD	O
+7-7	how	7-9_advmod	wash	WRB	O
+7-8	to	7-9_aux	wash	TO	O
+7-9	wash	7-6_ccomp	learned	VB	O
+7-10	my	O	O	PRP$	P1_bather
+7-11	own	O	O	JJ	O
+7-12	hair	7-9_dobj	wash	NN	P1_hair
+7-13	and	O	O	O	O
+7-14	I	7-16_nsubj	prefer	PRP	P1_bather
+7-15	would	7-16_aux	prefer	MD	O
+7-16	prefer	7-6_conj_and	learned	VB	O
+7-17	to	7-18_aux	take	TO	O
+7-18	take	7-16_xcomp	prefer	VB	O
+7-19	a	O	O	DT	O
+7-20	bath	7-18_dobj	take	NN	P1_bath
+7-21	over	O	O	O	O
+7-22	a	O	O	DT	O
+7-23	shower	7-18_prep_over	take	NN	P1_shower
+7-24	since	O	O	IN	O
+7-25	it	O	O	PRP	O
+7-26	was	O	O	VBD	O
+7-27	more	O	O	JJR	O
+7-28	fun	7-18_advcl	take	NN	P1_NPart_fun
+7-29	to	7-30_aux	sit	TO	O
+7-30	sit	O	O	VB	O
+7-31	and	O	O	O	O
+7-32	relax	7-30_conj_and	sit	VB	O
+7-33	in	O	O	O	O
+7-34	the	O	O	DT	O
+7-35	warm	O	O	JJ	O
+7-36	water	7-30_prep_in	sit	NN	P1_water
+7-37	and	O	O	O	O
+7-38	enjoy	7-30_conj_and	sit	VB	O
+7-39	a	O	O	DT	O
+7-40	fun	O	O	NN	O
+7-41	evening	7-38_tmod	enjoy	NN	P1_NPart_evening
+7-42	.	O	O	O	O
+
+#id=8
+#text=From the best of my memory , I remember that I always loved taking a bath . 
+8-1	From	O	O	O	O
+8-2	the	O	O	DT	O
+8-3	best	8-9_prep_from	remember	JJS	O
+8-4	of	O	O	O	O
+8-5	my	O	O	PRP$	P1_bather
+8-6	memory	O	O	NN	P1_NPart_memory
+8-7	,	O	O	O	O
+8-8	I	8-9_nsubj	remember	PRP	P1_bather
+8-9	remember	O	O	VBP	O
+8-10	that	8-13_mark	loved	IN	O
+8-11	I	8-13_nsubj	loved	PRP	P1_bather
+8-12	always	8-13_advmod	loved	RB	O
+8-13	loved	8-9_ccomp	remember	VBD	O
+8-14	taking	8-13_xcomp	loved	VBG	O
+8-15	a	O	O	DT	O
+8-16	bath	8-14_dobj	taking	NN	P1_bath
+8-17	.	O	O	O	O
+
+#id=9
+#text=Then when I am done in the bath tub , I would get out and wrap up in a huge dry cotton towel and dry off ! 
+9-1	Then	9-13_advmod	get	RB	O
+9-2	when	9-5_advmod	done	WRB	O
+9-3	I	9-5_nsubjpass	done	PRP	P1_bather
+9-4	am	9-5_auxpass	done	VBP	O
+9-5	done	9-13_advcl	get	VBN	O
+9-6	in	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	bath	O	O	NN	O
+9-9	tub	9-5_prep_in	done	NN	P1_bathtub
+9-10	,	O	O	O	O
+9-11	I	9-13_nsubj	get	PRP	P1_bather
+9-12	would	9-13_aux	get	MD	O
+9-13	get	O	O	VB	O
+9-14	out	9-13_prt	get	RP	O
+9-15	and	O	O	O	O
+9-16	wrap	9-13_conj_and	get	VB	O
+9-17	up	9-16_prt	wrap	RP	O
+9-18	in	O	O	O	O
+9-19	a	O	O	DT	O
+9-20	huge	O	O	JJ	O
+9-21	dry	O	O	JJ	O
+9-22	cotton	O	O	NN	P1_NPart_cotton
+9-23	towel	9-16_prep_in	wrap	NN	P1_towel
+9-24	and	O	O	O	O
+9-25	dry	9-16_conj_and	wrap	VB	O
+9-26	off	9-25_prt	dry	RP	O
+9-27	!	O	O	O	O

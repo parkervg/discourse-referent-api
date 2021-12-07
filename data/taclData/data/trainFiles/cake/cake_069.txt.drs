@@ -1,0 +1,237 @@
+#id=1
+#text=My daughters birthday is today and She wants a pineapple upside down cake . 
+1-1	My	O	O	PRP$	P1_cook
+1-2	daughters	O	O	NNS	P1_beneficiary
+1-3	birthday	O	O	NN	P1_NPart_birthday
+1-4	is	O	O	VBZ	O
+1-5	today	O	O	NN	P1_NPart_today
+1-6	and	O	O	O	O
+1-7	She	1-8_nsubj	wants	PRP	P1_beneficiary
+1-8	wants	O	O	VBZ	O
+1-9	a	O	O	DT	O
+1-10	pineapple	O	O	NN	O
+1-11	upside	1-8_dobj	wants	NN	O
+1-12	down	O	O	O	O
+1-13	cake	1-8_prep_down	wants	NN	P1_cake
+1-14	.	O	O	O	O
+
+#id=2
+#text=I have all the ingredients and I gather them according to the recipe and place them on the counter . 
+2-1	I	2-2_nsubj	have	PRP	P1_cook
+2-2	have	O	O	VBP	O
+2-3	all	O	O	PDT	O
+2-4	the	O	O	DT	O
+2-5	ingredients	2-2_dobj	have	NNS	P1_ingredients
+2-6	and	O	O	O	O
+2-7	I	2-8_nsubj	gather	PRP	P1_cook
+2-8	gather	2-2_conj_and	have	VB	O
+2-9	them	2-8_dobj	gather	PRP	P1_ingredients
+2-10	according	O	O	O	O
+2-11	to	2-8_prepc_according_to	gather	TO	O
+2-12	the	O	O	DT	O
+2-13	recipe	2-8_pobj	gather	NN	P1_baking_instructions
+2-14	and	O	O	O	O
+2-15	place	2-8_conj_and	gather	VB	O
+2-16	them	2-15_dobj	place	PRP	P1_ingredients
+2-17	on	O	O	O	O
+2-18	the	O	O	DT	O
+2-19	counter	2-15_prep_on	place	NN	P1_other
+2-20	.	O	O	O	O
+
+#id=3
+#text=I like having everything together before hand . 
+3-1	I	3-2_nsubj	like	PRP	P1_cook
+3-2	like	O	O	VBP	O
+3-3	having	3-2_xcomp	like	VBG	O
+3-4	everything	3-3_dobj	having	NN	P1_ingredients
+3-5	together	3-3_advmod	having	RB	O
+3-6	before	O	O	O	O
+3-7	hand	3-3_prep_before	having	NN	O
+3-8	.	O	O	O	O
+
+#id=4
+#text=The cake needs to bake at 350 degrees , so I turned the oven on to preheat so it is at the right temperature when I am done mixing the cake , The recipes say to put all the wet ingredient into the mixer first and mix well . 
+4-1	The	O	O	DT	O
+4-2	cake	4-3_nsubj	needs	NN	P1_cake
+4-3	needs	4-35_ccomp	say	VBZ	O
+4-4	to	4-5_aux	bake	TO	O
+4-5	bake	4-3_xcomp	needs	VB	O
+4-6	at	O	O	O	O
+4-7	350	O	O	CD	O
+4-8	degrees	4-5_prep_at	bake	NNS	P1_temperature
+4-9	,	O	O	O	O
+4-10	so	4-3_dep	needs	IN	O
+4-11	I	4-12_nsubj	turned	PRP	P1_cook
+4-12	turned	4-3_parataxis	needs	VBD	O
+4-13	the	O	O	DT	O
+4-14	oven	4-12_dobj	turned	NN	P1_oven
+4-15	on	4-12_prt	turned	RP	O
+4-16	to	4-17_aux	preheat	TO	O
+4-17	preheat	4-12_vmod	turned	VB	O
+4-18	so	4-20_mark	is	IN	O
+4-19	it	4-20_nsubj	is	PRP	P1_oven
+4-20	is	4-17_advcl	preheat	VBZ	O
+4-21	at	O	O	O	O
+4-22	the	O	O	DT	O
+4-23	right	O	O	JJ	O
+4-24	temperature	4-20_prep_at	is	NN	P1_temperature
+4-25	when	4-28_advmod	done	WRB	O
+4-26	I	4-28_nsubjpass	done	PRP	P1_cook
+4-27	am	4-28_auxpass	done	VBP	O
+4-28	done	4-12_advcl	turned	VBN	O
+4-29	mixing	4-28_xcomp	done	VBG	O
+4-30	the	O	O	DT	O
+4-31	cake	4-29_dobj	mixing	NN	P1_cake
+4-32	,	O	O	O	O
+4-33	The	O	O	DT	O
+4-34	recipes	4-35_nsubj	say	NNS	P1_baking_instructions
+4-35	say	O	O	VBP	O
+4-36	to	4-37_aux	put	TO	O
+4-37	put	4-35_xcomp	say	VB	O
+4-38	all	O	O	PDT	O
+4-39	the	O	O	DT	O
+4-40	wet	O	O	JJ	O
+4-41	ingredient	4-37_dobj	put	NN	P2_ingredients
+4-42	into	O	O	O	O
+4-43	the	O	O	DT	O
+4-44	mixer	4-37_prep_into	put	NN	P1_utensil
+4-45	first	4-37_advmod	put	RB	O
+4-46	and	O	O	O	O
+4-47	mix	4-37_conj_and	put	VB	O
+4-48	well	4-47_advmod	mix	RB	O
+4-49	.	O	O	O	O
+
+#id=5
+#text=Then all the dry ingredients go in and mix for 3 minutes . 
+5-1	Then	5-6_advmod	go	RB	O
+5-2	all	O	O	PDT	O
+5-3	the	O	O	DT	O
+5-4	dry	O	O	JJ	O
+5-5	ingredients	5-6_nsubj	go	NNS	P3_ingredients
+5-6	go	O	O	VBP	O
+5-7	in	5-6_prt	go	RP	O
+5-8	and	O	O	O	O
+5-9	mix	5-6_conj_and	go	VB	O
+5-10	for	O	O	O	O
+5-11	3	O	O	CD	O
+5-12	minutes	5-9_prep_for	mix	NNS	P1_time
+5-13	.	O	O	O	O
+
+#id=6
+#text=The mixture is now a thick batter that I can pour into cake pans that have been greased with shortening or butter and coated with a bit of flour so the cake does not stick . 
+6-1	The	O	O	DT	O
+6-2	mixture	O	O	NN	P1_dough
+6-3	is	O	O	VBZ	O
+6-4	now	O	O	RB	O
+6-5	a	O	O	DT	O
+6-6	thick	O	O	JJ	O
+6-7	batter	O	O	NN	P1_dough
+6-8	that	6-11_mark	pour	IN	O
+6-9	I	6-11_nsubj	pour	PRP	P1_cook
+6-10	can	6-11_aux	pour	MD	O
+6-11	pour	O	O	VB	O
+6-12	into	O	O	O	O
+6-13	cake	O	O	NN	O
+6-14	pans	6-11_prep_into	pour	NNS	P1_cake_tin
+6-15	that	6-18_nsubjpass	greased	WDT	O
+6-16	have	6-18_aux	greased	VBP	O
+6-17	been	6-18_auxpass	greased	VBN	O
+6-18	greased	O	O	VBN	O
+6-19	with	O	O	O	O
+6-20	shortening	6-18_prep_with	greased	NN	P4_ingredients
+6-21	or	O	O	O	O
+6-22	butter	O	O	NN	P5_ingredients
+6-23	and	O	O	O	O
+6-24	coated	6-18_conj_and	greased	VBN	O
+6-25	with	O	O	O	O
+6-26	a	O	O	DT	O
+6-27	bit	6-24_prep_with	coated	NN	P1_NPart_bit
+6-28	of	O	O	O	O
+6-29	flour	O	O	NN	P6_ingredients
+6-30	so	6-35_mark	stick	IN	O
+6-31	the	O	O	DT	O
+6-32	cake	6-35_nsubj	stick	NN	P1_cake
+6-33	does	6-35_aux	stick	VBZ	O
+6-34	not	6-35_neg	stick	RB	O
+6-35	stick	6-24_advcl	coated	VB	O
+6-36	.	O	O	O	O
+
+#id=7
+#text=I place the brown sugar and pineapple in the bottom of the pan and split the batter equally between the two pans and put them into the oven . 
+7-1	I	7-2_nsubj	place	PRP	P1_cook
+7-2	place	O	O	VBP	O
+7-3	the	O	O	DT	O
+7-4	brown	O	O	JJ	O
+7-5	sugar	7-2_dobj	place	NN	P7_ingredients
+7-6	and	O	O	O	O
+7-7	pineapple	O	O	NN	P8_ingredients
+7-8	in	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	bottom	O	O	NN	P1_NPart_bottom
+7-11	of	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	pan	O	O	NN	P1_cake_tin
+7-14	and	O	O	O	O
+7-15	split	O	O	NN	O
+7-16	the	O	O	DT	O
+7-17	batter	O	O	NN	P1_dough
+7-18	equally	O	O	RB	O
+7-19	between	O	O	O	O
+7-20	the	O	O	DT	O
+7-21	two	O	O	CD	O
+7-22	pans	O	O	NNS	P1_cake_tin
+7-23	and	O	O	O	O
+7-24	put	7-2_conj_and	place	VBD	O
+7-25	them	7-24_dobj	put	PRP	P1_cake_tin
+7-26	into	O	O	O	O
+7-27	the	O	O	DT	O
+7-28	oven	7-24_prep_into	put	NN	P1_oven
+7-29	.	O	O	O	O
+
+#id=8
+#text=A short time late the cakes are done and I take them out to cool , when I turn the over I can see the pineapple is baked into the top of the cake . 
+8-1	A	O	O	DT	O
+8-2	short	O	O	JJ	O
+8-3	time	8-28_nsubjpass	baked	NN	P2_time
+8-4	late	O	O	RB	O
+8-5	the	O	O	DT	O
+8-6	cakes	8-8_nsubjpass	done	NNS	P1_cake
+8-7	are	8-8_auxpass	done	VBP	O
+8-8	done	O	O	VBN	O
+8-9	and	O	O	O	O
+8-10	I	8-11_nsubj	take	PRP	P1_cook
+8-11	take	8-8_conj_and	done	VBP	O
+8-12	them	8-11_dobj	take	PRP	P1_cake
+8-13	out	8-15_advmod	cool	RB	O
+8-14	to	8-15_aux	cool	TO	O
+8-15	cool	8-11_xcomp	take	VB	O
+8-16	,	O	O	O	O
+8-17	when	8-19_advmod	turn	WRB	O
+8-18	I	8-19_nsubj	turn	PRP	P1_cook
+8-19	turn	8-11_advcl	take	VBP	O
+8-20	the	O	O	DT	P1_cake
+8-21	over	8-19_advmod	turn	RB	O
+8-22	I	8-24_nsubj	see	PRP	P1_cook
+8-23	can	8-24_aux	see	MD	O
+8-24	see	O	O	VB	O
+8-25	the	O	O	DT	O
+8-26	pineapple	8-24_dobj	see	NN	P9_ingredients
+8-27	is	8-28_auxpass	baked	VBZ	O
+8-28	baked	O	O	VBN	O
+8-29	into	O	O	O	O
+8-30	the	O	O	DT	O
+8-31	top	8-28_prep_into	baked	NN	P1_NPart_top
+8-32	of	O	O	O	O
+8-33	the	O	O	DT	O
+8-34	cake	O	O	NN	P1_cake
+8-35	.	O	O	O	O
+
+#id=9
+#text=I know she will love it ! 
+9-1	I	9-2_nsubj	know	PRP	P1_cook
+9-2	know	O	O	VBP	O
+9-3	she	9-5_nsubj	love	PRP	P1_beneficiary
+9-4	will	9-5_aux	love	MD	O
+9-5	love	9-2_ccomp	know	VB	O
+9-6	it	9-5_dobj	love	PRP	P1_cake
+9-7	!	O	O	O	O

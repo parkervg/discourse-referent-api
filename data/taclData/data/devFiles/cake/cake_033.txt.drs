@@ -1,0 +1,215 @@
+#id=1
+#text=The first thing to do is to make sure you have the ingridents that is required to make a cake . 
+1-1	The	O	O	DT	O
+1-2	first	O	O	JJ	O
+1-3	thing	1-6_nsubj	is	NN	P1_NPart_thing
+1-4	to	1-5_aux	do	TO	O
+1-5	do	O	O	VB	O
+1-6	is	O	O	VBZ	O
+1-7	to	1-8_aux	make	TO	O
+1-8	make	1-6_xcomp	is	VB	O
+1-9	sure	1-8_acomp	make	JJ	O
+1-10	you	1-11_nsubj	have	PRP	P1_cook
+1-11	have	O	O	VBP	O
+1-12	the	O	O	DT	O
+1-13	ingridents	1-11_dobj	have	NNS	P1_ingredients
+1-14	that	1-16_nsubjpass	required	WDT	P1_ingredients
+1-15	is	1-16_auxpass	required	VBZ	O
+1-16	required	O	O	VBN	O
+1-17	to	1-18_aux	make	TO	O
+1-18	make	1-16_xcomp	required	VB	O
+1-19	a	O	O	DT	O
+1-20	cake	1-18_dobj	make	NN	P1_cake
+1-21	.	O	O	O	O
+
+#id=2
+#text=If I do n't I just head to the store and buy some supplies to make a cake and everything else I had to buy while I am there . 
+2-1	If	2-7_mark	head	IN	O
+2-2	I	2-7_nsubj	head	PRP	P1_cook
+2-3	do	2-7_aux	head	VBP	O
+2-4	n't	2-7_neg	head	RB	O
+2-5	I	O	O	CD	P1_cook
+2-6	just	2-7_advmod	head	RB	O
+2-7	head	2-23_advcl	had	VB	O
+2-8	to	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	store	2-7_prep_to	head	NN	P1_store
+2-11	and	O	O	O	O
+2-12	buy	2-7_conj_and	head	VB	O
+2-13	some	O	O	DT	O
+2-14	supplies	2-12_dobj	buy	NNS	P1_ingredients
+2-15	to	2-16_aux	make	TO	O
+2-16	make	2-12_xcomp	buy	VB	O
+2-17	a	O	O	DT	O
+2-18	cake	O	O	NN	P1_cake
+2-19	and	O	O	O	O
+2-20	everything	O	O	NN	P1_NPart_everything
+2-21	else	2-16_xcomp	make	RB	O
+2-22	I	2-23_nsubj	had	PRP	P1_cook
+2-23	had	O	O	VBD	O
+2-24	to	2-25_aux	buy	TO	O
+2-25	buy	2-23_xcomp	had	VB	O
+2-26	while	2-28_mark	am	IN	O
+2-27	I	2-28_nsubj	am	PRP	P1_cook
+2-28	am	2-25_advcl	buy	VBP	O
+2-29	there	2-28_advmod	am	RB	O
+2-30	.	O	O	O	O
+
+#id=3
+#text=In order to bake the cake , I preheat my oven to 350 degrees , and then i grease the cake pan . 
+3-1	In	3-4_mark	bake	IN	O
+3-2	order	3-4_dep	bake	NN	O
+3-3	to	3-4_aux	bake	TO	O
+3-4	bake	3-9_advcl	preheat	VB	O
+3-5	the	O	O	DT	O
+3-6	cake	3-4_dobj	bake	NN	P1_cake
+3-7	,	O	O	O	O
+3-8	I	3-9_nsubj	preheat	PRP	P1_cook
+3-9	preheat	O	O	VBP	O
+3-10	my	O	O	PRP$	P1_cook
+3-11	oven	3-9_dobj	preheat	NN	P1_oven
+3-12	to	O	O	O	O
+3-13	350	O	O	CD	O
+3-14	degrees	3-9_prep_to	preheat	NNS	P1_temperature
+3-15	,	O	O	O	O
+3-16	and	O	O	O	O
+3-17	then	3-19_advmod	grease	RB	O
+3-18	i	3-19_nsubj	grease	FW	P1_cook
+3-19	grease	3-9_conj_and	preheat	VBZ	O
+3-20	the	O	O	DT	O
+3-21	cake	3-22_nsubj	pan	NN	O
+3-22	pan	3-19_ccomp	grease	VB	P1_cake_tin
+3-23	.	O	O	O	O
+
+#id=4
+#text=After the pan has been greased , I get all the wet ingredients and I start mixing them in a bowl . 
+4-1	After	4-6_mark	greased	IN	O
+4-2	the	O	O	DT	O
+4-3	pan	4-6_nsubjpass	greased	NN	P1_cake_tin
+4-4	has	4-6_aux	greased	VBZ	O
+4-5	been	4-6_auxpass	greased	VBN	O
+4-6	greased	4-9_advcl	get	VBN	O
+4-7	,	O	O	O	O
+4-8	I	4-9_nsubj	get	PRP	P1_cook
+4-9	get	O	O	VBP	O
+4-10	all	O	O	PDT	O
+4-11	the	O	O	DT	O
+4-12	wet	O	O	JJ	O
+4-13	ingredients	4-9_dobj	get	NNS	P1_ingredients
+4-14	and	O	O	O	O
+4-15	I	4-16_nsubj	start	PRP	P1_cook
+4-16	start	4-9_conj_and	get	VBP	O
+4-17	mixing	4-16_xcomp	start	VBG	O
+4-18	them	4-17_dobj	mixing	PRP	P1_ingredients
+4-19	in	O	O	O	O
+4-20	a	O	O	DT	O
+4-21	bowl	4-17_prep_in	mixing	NN	P1_utensil
+4-22	.	O	O	O	O
+
+#id=5
+#text=Then I pull all the dry ingredients and start mixing them in a separate bowl from the wet ingredients . 
+5-1	Then	5-3_advmod	pull	RB	O
+5-2	I	5-3_nsubj	pull	PRP	P1_cook
+5-3	pull	O	O	VBP	O
+5-4	all	O	O	PDT	O
+5-5	the	O	O	DT	O
+5-6	dry	O	O	JJ	O
+5-7	ingredients	5-3_dobj	pull	NNS	P1_ingredients
+5-8	and	O	O	O	O
+5-9	start	5-3_conj_and	pull	VBP	O
+5-10	mixing	5-9_xcomp	start	VBG	O
+5-11	them	5-10_dobj	mixing	PRP	P1_ingredients
+5-12	in	O	O	O	O
+5-13	a	O	O	DT	O
+5-14	separate	O	O	JJ	O
+5-15	bowl	5-10_prep_in	mixing	NN	P1_utensil
+5-16	from	O	O	O	O
+5-17	the	O	O	DT	O
+5-18	wet	O	O	JJ	O
+5-19	ingredients	O	O	NNS	P1_ingredients
+5-20	.	O	O	O	O
+
+#id=6
+#text=After both bowls have been mixed in well , I start mixing in the dry ingredients in with the wet ingredients . 
+6-1	After	6-6_mark	mixed	IN	O
+6-2	both	O	O	DT	O
+6-3	bowls	6-6_nsubjpass	mixed	NN	P1_utensil
+6-4	have	6-6_aux	mixed	VBP	O
+6-5	been	6-6_auxpass	mixed	VBN	O
+6-6	mixed	6-11_advcl	start	VBN	O
+6-7	in	6-6_prep	mixed	IN	O
+6-8	well	O	O	RB	O
+6-9	,	O	O	O	O
+6-10	I	6-11_nsubj	start	PRP	P1_cook
+6-11	start	O	O	VBP	O
+6-12	mixing	6-11_xcomp	start	VBG	O
+6-13	in	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	dry	O	O	JJ	O
+6-16	ingredients	6-12_prep_in	mixing	NNS	P1_ingredients
+6-17	in	6-12_prep	mixing	IN	O
+6-18	with	O	O	IN	O
+6-19	the	O	O	DT	O
+6-20	wet	O	O	JJ	O
+6-21	ingredients	O	O	NNS	P1_ingredients
+6-22	.	O	O	O	O
+
+#id=7
+#text=After that has been mixed in well , I poor the cake mix into the pan very carefully and make sure it is applied evenly in the pan . 
+7-1	After	7-13_dep	mix	IN	O
+7-2	that	7-5_nsubjpass	mixed	WDT	P1_dough
+7-3	has	7-5_aux	mixed	VBZ	O
+7-4	been	7-5_auxpass	mixed	VBN	O
+7-5	mixed	O	O	VBN	O
+7-6	in	7-5_prep	mixed	IN	O
+7-7	well	O	O	RB	O
+7-8	,	O	O	O	O
+7-9	I	O	O	PRP	P1_cook
+7-10	poor	7-5_xcomp	mixed	JJ	O
+7-11	the	O	O	DT	O
+7-12	cake	7-13_nsubj	mix	NN	O
+7-13	mix	O	O	VB	P1_dough
+7-14	into	O	O	O	O
+7-15	the	O	O	DT	O
+7-16	pan	7-13_prep_into	mix	NN	P1_cake_tin
+7-17	very	O	O	RB	O
+7-18	carefully	7-13_advmod	mix	RB	O
+7-19	and	O	O	O	O
+7-20	make	7-13_conj_and	mix	VB	O
+7-21	sure	7-20_acomp	make	JJ	O
+7-22	it	7-24_nsubjpass	applied	PRP	P1_dough
+7-23	is	7-24_auxpass	applied	VBZ	O
+7-24	applied	O	O	VBN	O
+7-25	evenly	7-24_advmod	applied	RB	O
+7-26	in	O	O	O	O
+7-27	the	O	O	DT	O
+7-28	pan	7-24_prep_in	applied	NN	P1_cake_tin
+7-29	.	O	O	O	O
+
+#id=8
+#text=After a while the oven should be ready , and I place the cake pan in the oven rack carefully and let it bake . 
+8-1	After	O	O	O	O
+8-2	a	O	O	DT	O
+8-3	while	O	O	NN	O
+8-4	the	O	O	DT	O
+8-5	oven	O	O	NN	P1_oven
+8-6	should	O	O	MD	O
+8-7	be	O	O	VB	O
+8-8	ready	O	O	JJ	O
+8-9	,	O	O	O	O
+8-10	and	O	O	O	O
+8-11	I	8-12_nsubj	place	PRP	P1_cook
+8-12	place	O	O	VBP	O
+8-13	the	O	O	DT	O
+8-14	cake	8-15_nsubj	pan	NN	O
+8-15	pan	8-12_ccomp	place	VB	P1_cake_tin
+8-16	in	O	O	O	O
+8-17	the	O	O	DT	O
+8-18	oven	O	O	NN	O
+8-19	rack	8-15_prep_in	pan	NN	P1_oven
+8-20	carefully	8-15_advmod	pan	RB	O
+8-21	and	O	O	O	O
+8-22	let	8-15_conj_and	pan	VB	O
+8-23	it	O	O	PRP	P1_cake
+8-24	bake	8-22_xcomp	let	JJ	O
+8-25	.	O	O	O	O

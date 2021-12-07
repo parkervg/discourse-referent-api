@@ -1,0 +1,224 @@
+#id=1
+#text=I was hosting a party and needed to pick up some groceries for my guests . 
+1-1	I	1-3_nsubjpass	hosting	PRP	P1_shopper
+1-2	was	1-3_auxpass	hosting	VBD	O
+1-3	hosting	O	O	VBG	O
+1-4	a	O	O	DT	O
+1-5	party	1-3_dobj	hosting	NN	P1_NPart_party
+1-6	and	O	O	O	O
+1-7	needed	1-3_conj_and	hosting	VBN	O
+1-8	to	1-9_aux	pick	TO	O
+1-9	pick	1-7_xcomp	needed	VB	O
+1-10	up	1-9_prt	pick	RP	O
+1-11	some	O	O	DT	O
+1-12	groceries	1-9_dobj	pick	NNS	P1_groceries
+1-13	for	O	O	O	O
+1-14	my	O	O	PRP$	P1_shopper
+1-15	guests	O	O	NNS	P1_NPart_guests
+1-16	.	O	O	O	O
+
+#id=2
+#text=I started by making a list of all the food I needed to buy . 
+2-1	I	2-2_nsubj	started	PRP	P1_shopper
+2-2	started	O	O	VBD	O
+2-3	by	O	O	O	O
+2-4	making	2-2_prepc_by	started	VBG	O
+2-5	a	O	O	DT	O
+2-6	list	2-4_dobj	making	NN	P1_grocery_list
+2-7	of	O	O	O	O
+2-8	all	O	O	PDT	O
+2-9	the	O	O	DT	O
+2-10	food	O	O	NN	P1_groceries
+2-11	I	2-12_nsubj	needed	PRP	P1_shopper
+2-12	needed	O	O	VBD	O
+2-13	to	2-14_aux	buy	TO	O
+2-14	buy	2-12_xcomp	needed	VB	O
+2-15	.	O	O	O	O
+
+#id=3
+#text=Then I grabbed my reusable shopping bags and drove to the grocery store . 
+3-1	Then	3-3_advmod	grabbed	RB	O
+3-2	I	3-3_nsubj	grabbed	PRP	P1_shopper
+3-3	grabbed	O	O	VBD	O
+3-4	my	O	O	PRP$	P1_shopper
+3-5	reusable	O	O	JJ	O
+3-6	shopping	O	O	NN	O
+3-7	bags	3-3_dobj	grabbed	NNS	P1_shopping_bags
+3-8	and	O	O	O	O
+3-9	drove	3-3_conj_and	grabbed	VBD	O
+3-10	to	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	grocery	O	O	NN	O
+3-13	store	3-9_prep_to	drove	NN	P1_grocery_shop
+3-14	.	O	O	O	O
+
+#id=4
+#text=I chose a cart from outside and picked up a copy of the grocery store ad from the front of the store . 
+4-1	I	4-2_nsubj	chose	PRP	P1_shopper
+4-2	chose	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	cart	4-2_dobj	chose	NN	P1_shopping_cart/basket
+4-5	from	4-2_prep	chose	IN	O
+4-6	outside	O	O	RB	O
+4-7	and	O	O	O	O
+4-8	picked	4-2_conj_and	chose	VBD	O
+4-9	up	4-8_prt	picked	RP	O
+4-10	a	O	O	DT	O
+4-11	copy	4-8_dobj	picked	NN	O
+4-12	of	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	grocery	O	O	NN	O
+4-15	store	O	O	NN	O
+4-16	ad	O	O	NN	P1_other
+4-17	from	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	front	4-8_prep_from	picked	NN	O
+4-20	of	O	O	O	O
+4-21	the	O	O	DT	O
+4-22	store	O	O	NN	P1_grocery_shop
+4-23	.	O	O	O	O
+
+#id=5
+#text=I walked through all the aisles pushing my cart . 
+5-1	I	5-2_nsubj	walked	PRP	P1_shopper
+5-2	walked	O	O	VBD	O
+5-3	through	O	O	O	O
+5-4	all	O	O	PDT	O
+5-5	the	O	O	DT	O
+5-6	aisles	5-2_prep_through	walked	NNS	P1_section
+5-7	pushing	O	O	VBG	O
+5-8	my	O	O	PRP$	P1_shopper
+5-9	cart	5-7_dobj	pushing	NN	P1_shopping_cart/basket
+5-10	.	O	O	O	O
+
+#id=6
+#text=I picked out the food I needed from my list , making sure to choose food that was on sale or generic food . 
+6-1	I	6-2_nsubj	picked	PRP	P1_shopper
+6-2	picked	O	O	VBD	O
+6-3	out	6-2_prt	picked	RP	O
+6-4	the	O	O	DT	O
+6-5	food	6-2_dobj	picked	NN	P1_groceries
+6-6	I	6-7_nsubj	needed	PRP	P1_shopper
+6-7	needed	O	O	VBD	O
+6-8	from	O	O	O	O
+6-9	my	O	O	PRP$	P1_shopper
+6-10	list	6-7_prep_from	needed	NN	P1_grocery_list
+6-11	,	O	O	O	O
+6-12	making	6-7_xcomp	needed	VBG	O
+6-13	sure	6-12_acomp	making	JJ	O
+6-14	to	6-15_aux	choose	TO	O
+6-15	choose	O	O	VB	O
+6-16	food	6-15_dobj	choose	NN	P1_groceries
+6-17	that	6-18_nsubj	was	WDT	O
+6-18	was	O	O	VBD	O
+6-19	on	O	O	O	O
+6-20	sale	6-18_prep_on	was	NN	O
+6-21	or	O	O	O	O
+6-22	generic	O	O	JJ	O
+6-23	food	O	O	NN	P1_groceries
+6-24	.	O	O	O	O
+
+#id=7
+#text=When I had checked everything off on my list , I got in line at the store checkouts . 
+7-1	When	7-4_advmod	checked	WRB	O
+7-2	I	7-4_nsubj	checked	PRP	P1_shopper
+7-3	had	7-4_aux	checked	VBD	O
+7-4	checked	7-12_advcl	got	VBN	O
+7-5	everything	7-4_dobj	checked	NN	P1_groceries
+7-6	off	7-4_prt	checked	RP	O
+7-7	on	O	O	O	O
+7-8	my	O	O	PRP$	P1_shopper
+7-9	list	7-4_prep_on	checked	NN	P1_grocery_list
+7-10	,	O	O	O	O
+7-11	I	7-12_nsubj	got	PRP	P1_shopper
+7-12	got	O	O	VBD	O
+7-13	in	O	O	O	O
+7-14	line	7-12_prep_in	got	NN	P1_line
+7-15	at	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	store	O	O	NN	O
+7-18	checkouts	7-12_prep_at	got	NNS	P1_cash_desk
+7-19	.	O	O	O	O
+
+#id=8
+#text=There was a friendly cashier who scanned all of my groceries and told me how much money it cost . 
+8-1	There	8-2_expl	was	EX	O
+8-2	was	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	friendly	O	O	JJ	O
+8-5	cashier	8-2_nsubj	was	NN	P1_grocery_staff
+8-6	who	8-7_nsubj	scanned	WP	O
+8-7	scanned	O	O	VBD	O
+8-8	all	8-7_dobj	scanned	DT	O
+8-9	of	O	O	O	O
+8-10	my	O	O	PRP$	P1_shopper
+8-11	groceries	O	O	NNS	P1_groceries
+8-12	and	O	O	O	O
+8-13	told	8-7_conj_and	scanned	VBD	O
+8-14	me	8-13_dobj	told	PRP	P1_shopper
+8-15	how	O	O	WRB	O
+8-16	much	O	O	JJ	O
+8-17	money	8-19_dobj	cost	NN	P1_price
+8-18	it	8-19_nsubj	cost	PRP	O
+8-19	cost	8-13_dep	told	VBD	O
+8-20	.	O	O	O	O
+
+#id=9
+#text=There was also a friendly bagger who put all on my groceries in my bags . 
+9-1	There	9-2_expl	was	EX	O
+9-2	was	O	O	VBD	O
+9-3	also	9-2_advmod	was	RB	O
+9-4	a	O	O	DT	O
+9-5	friendly	O	O	JJ	O
+9-6	bagger	9-2_nsubj	was	NN	P2_grocery_staff
+9-7	who	9-8_nsubj	put	WP	O
+9-8	put	O	O	VBD	O
+9-9	all	9-8_dobj	put	DT	O
+9-10	on	O	O	O	O
+9-11	my	O	O	PRP$	P1_shopper
+9-12	groceries	9-8_prep_on	put	NNS	P1_groceries
+9-13	in	O	O	O	O
+9-14	my	O	O	PRP$	P1_shopper
+9-15	bags	9-8_prep_in	put	NNS	P1_shopping_bags
+9-16	.	O	O	O	O
+
+#id=10
+#text=At the end , the bagger offered to help put all of my groceries in the cart . 
+10-1	At	O	O	O	O
+10-2	the	O	O	DT	O
+10-3	end	10-7_prep_at	offered	NN	O
+10-4	,	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	bagger	10-7_nsubj	offered	NN	P2_grocery_staff
+10-7	offered	O	O	VBD	O
+10-8	to	10-9_aux	help	TO	O
+10-9	help	10-7_xcomp	offered	VB	O
+10-10	put	10-9_xcomp	help	VB	O
+10-11	all	10-10_dobj	put	DT	O
+10-12	of	O	O	O	O
+10-13	my	O	O	PRP$	P1_shopper
+10-14	groceries	O	O	NNS	P1_groceries
+10-15	in	O	O	O	O
+10-16	the	O	O	DT	O
+10-17	cart	10-10_prep_in	put	NN	P1_shopping_cart/basket
+10-18	.	O	O	O	O
+
+#id=11
+#text=As I left the parking lot , I waved goodbye to him after my successful trip . 
+11-1	As	11-3_mark	left	IN	O
+11-2	I	11-3_nsubj	left	PRP	P1_shopper
+11-3	left	11-9_advcl	waved	VBD	O
+11-4	the	O	O	DT	O
+11-5	parking	O	O	NN	O
+11-6	lot	11-3_dobj	left	NN	P1_NPart_lot
+11-7	,	O	O	O	O
+11-8	I	11-9_nsubj	waved	PRP	P1_shopper
+11-9	waved	O	O	VBD	O
+11-10	goodbye	11-9_dobj	waved	NN	P1_NPart_goodbye
+11-11	to	O	O	O	O
+11-12	him	11-9_prep_to	waved	PRP	P2_grocery_staff
+11-13	after	O	O	O	O
+11-14	my	O	O	PRP$	P1_shopper
+11-15	successful	O	O	JJ	O
+11-16	trip	11-9_prep_after	waved	NN	P1_NPart_trip
+11-17	.	O	O	O	O

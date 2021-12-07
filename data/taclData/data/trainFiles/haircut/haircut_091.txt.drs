@@ -1,0 +1,213 @@
+#id=1
+#text=I head to the beauty salon where my sister works as a hair dresser so I can get a hair cut . 
+1-1	I	1-2_nsubj	head	PRP	P1_customer
+1-2	head	O	O	VBP	O
+1-3	to	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	beauty	O	O	NN	O
+1-6	salon	1-2_prep_to	head	NN	P1_salon
+1-7	where	1-10_advmod	works	WRB	O
+1-8	my	O	O	PRP$	P1_customer
+1-9	sister	1-10_nsubj	works	NN	P1_hairdresser
+1-10	works	1-2_advcl	head	VBZ	O
+1-11	as	O	O	O	O
+1-12	a	O	O	DT	O
+1-13	hair	O	O	NN	O
+1-14	dresser	1-10_prep_as	works	NN	P1_hairdresser
+1-15	so	1-18_mark	get	IN	O
+1-16	I	1-18_nsubj	get	PRP	P1_customer
+1-17	can	1-18_aux	get	MD	O
+1-18	get	1-10_advcl	works	VB	O
+1-19	a	O	O	DT	O
+1-20	hair	O	O	NN	O
+1-21	cut	1-18_dobj	get	NN	O
+1-22	.	O	O	O	O
+
+#id=2
+#text=She always knows when I am coming so I never have to wait in line . 
+2-1	She	2-3_nsubj	knows	PRP	P1_hairdresser
+2-2	always	2-3_advmod	knows	RB	O
+2-3	knows	O	O	VBZ	O
+2-4	when	2-7_advmod	coming	WRB	O
+2-5	I	2-7_nsubj	coming	PRP	P1_customer
+2-6	am	2-7_aux	coming	VBP	O
+2-7	coming	2-3_ccomp	knows	VBG	O
+2-8	so	2-11_mark	have	IN	O
+2-9	I	2-11_nsubj	have	PRP	P1_customer
+2-10	never	2-11_neg	have	RB	O
+2-11	have	2-7_advcl	coming	VBP	O
+2-12	to	2-13_aux	wait	TO	O
+2-13	wait	2-11_xcomp	have	VB	O
+2-14	in	O	O	O	O
+2-15	line	2-13_prep_in	wait	NN	O
+2-16	.	O	O	O	O
+
+#id=3
+#text=I sit down in the chair and say '' `` the usual . '' '' 
+3-1	I	3-2_nsubj	sit	PRP	P1_customer
+3-2	sit	O	O	VBP	O
+3-3	down	3-2_prt	sit	RP	O
+3-4	in	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	chair	3-2_prep_in	sit	NN	P1_chair
+3-7	and	O	O	O	O
+3-8	say	3-2_conj_and	sit	VB	O
+3-9	''	O	O	O	O
+3-10	``	O	O	O	O
+3-11	the	3-8_dobj	say	DT	O
+3-12	usual	O	O	JJ	O
+3-13	.	O	O	O	O
+3-14	''	O	O	O	O
+3-15	''	O	O	O	O
+
+#id=4
+#text=and she gets right to work . 
+4-1	and	O	O	CC	O
+4-2	she	O	O	PRP	P1_hairdresser
+4-3	gets	O	O	VBZ	O
+4-4	right	O	O	JJ	O
+4-5	to	4-6_aux	work	TO	O
+4-6	work	O	O	VB	O
+4-7	.	O	O	O	O
+
+#id=5
+#text=She cuts the sides first and asks if I want to do something different with the top of my head but I always decline and like to keep my normal hair cut . 
+5-1	She	5-2_nsubj	cuts	PRP	P1_hairdresser
+5-2	cuts	O	O	VBZ	O
+5-3	the	O	O	DT	O
+5-4	sides	5-2_dobj	cuts	NNS	P1_hair
+5-5	first	5-2_advmod	cuts	RB	O
+5-6	and	O	O	O	O
+5-7	asks	5-2_conj_and	cuts	VBZ	O
+5-8	if	5-10_mark	want	IN	O
+5-9	I	5-10_nsubj	want	PRP	P1_customer
+5-10	want	5-7_advcl	asks	VBP	O
+5-11	to	5-12_aux	do	TO	O
+5-12	do	5-10_xcomp	want	VB	O
+5-13	something	5-12_dobj	do	NN	O
+5-14	different	O	O	JJ	O
+5-15	with	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	top	5-12_prep_with	do	NN	O
+5-18	of	O	O	O	O
+5-19	my	O	O	PRP$	P1_customer
+5-20	head	O	O	NN	P1_other
+5-21	but	O	O	O	O
+5-22	I	5-24_nsubj	decline	PRP	P1_customer
+5-23	always	5-24_advmod	decline	RB	O
+5-24	decline	5-2_conj_but	cuts	VB	O
+5-25	and	O	O	O	O
+5-26	like	5-24_conj_and	decline	VB	O
+5-27	to	5-28_aux	keep	TO	O
+5-28	keep	5-26_xcomp	like	VB	O
+5-29	my	O	O	PRP$	P1_customer
+5-30	normal	O	O	JJ	O
+5-31	hair	O	O	NN	O
+5-32	cut	5-28_dobj	keep	NN	P1_haircut
+5-33	.	O	O	O	O
+
+#id=6
+#text=When she 's all done cutting she blow drys the hair off of me . 
+6-1	When	6-5_advmod	done	WRB	O
+6-2	she	6-5_nsubjpass	done	PRP	P1_hairdresser
+6-3	's	6-5_auxpass	done	VBZ	O
+6-4	all	6-5_advmod	done	RB	O
+6-5	done	6-9_advcl	drys	VBN	O
+6-6	cutting	6-5_xcomp	done	VBG	O
+6-7	she	6-6_dobj	cutting	PRP	P1_hairdresser
+6-8	blow	6-9_nsubj	drys	NN	O
+6-9	drys	O	O	VBZ	O
+6-10	the	O	O	DT	O
+6-11	hair	6-9_dobj	drys	NN	P2_hair
+6-12	off	O	O	O	O
+6-13	of	O	O	O	O
+6-14	me	6-9_prep_off_of	drys	PRP	P1_customer
+6-15	.	O	O	O	O
+
+#id=7
+#text=When that 's done I walk over to the sink to get my hair washed because there is a lot of little hair pieces that might get in my clothes and make me itchy . 
+7-1	When	7-4_advmod	done	WRB	O
+7-2	that	7-4_nsubjpass	done	DT	O
+7-3	's	7-4_auxpass	done	VBZ	O
+7-4	done	7-15_advcl	washed	VBN	O
+7-5	I	7-6_nsubj	walk	PRP	P1_customer
+7-6	walk	7-4_ccomp	done	VB	O
+7-7	over	7-6_prt	walk	RP	O
+7-8	to	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	sink	7-6_prep_to	walk	NN	P1_wash_basin
+7-11	to	7-12_aux	get	TO	O
+7-12	get	7-4_xcomp	done	VB	O
+7-13	my	O	O	PRP$	P1_customer
+7-14	hair	7-12_dobj	get	NN	P2_hair
+7-15	washed	O	O	VBD	O
+7-16	because	7-18_mark	is	IN	O
+7-17	there	7-18_expl	is	EX	O
+7-18	is	7-15_advcl	washed	VBZ	O
+7-19	a	O	O	DT	O
+7-20	lot	7-18_nsubj	is	NN	O
+7-21	of	O	O	O	O
+7-22	little	O	O	JJ	O
+7-23	hair	O	O	NN	P2_hair
+7-24	pieces	O	O	NNS	O
+7-25	that	7-27_nsubj	get	WDT	O
+7-26	might	7-27_aux	get	MD	O
+7-27	get	O	O	VB	O
+7-28	in	O	O	O	O
+7-29	my	O	O	PRP$	P1_customer
+7-30	clothes	7-27_prep_in	get	NNS	P1_NPart_clothes
+7-31	and	O	O	O	O
+7-32	make	7-27_conj_and	get	VB	O
+7-33	me	7-32_dobj	make	PRP	P1_customer
+7-34	itchy	7-32_advmod	make	RB	O
+7-35	.	O	O	O	O
+
+#id=8
+#text=She shampoos and conditions my hair then dries my hair with a towel . 
+8-1	She	8-2_nsubj	shampoos	PRP	P2_hairdresser
+8-2	shampoos	O	O	VBZ	O
+8-3	and	O	O	O	O
+8-4	conditions	8-8_nsubj	dries	NNS	O
+8-5	my	O	O	PRP$	P1_customer
+8-6	hair	O	O	NN	P2_hair
+8-7	then	8-8_advmod	dries	RB	O
+8-8	dries	8-2_conj_and	shampoos	VBZ	O
+8-9	my	O	O	PRP$	P1_customer
+8-10	hair	8-8_dobj	dries	NN	P2_hair
+8-11	with	O	O	O	O
+8-12	a	O	O	DT	O
+8-13	towel	8-8_prep_with	dries	NN	P1_towel
+8-14	.	O	O	O	O
+
+#id=9
+#text=I never have to pay full price so I give my sister a nice tip on the side . 
+9-1	I	9-3_nsubj	have	PRP	P1_customer
+9-2	never	9-3_neg	have	RB	O
+9-3	have	O	O	VBP	O
+9-4	to	9-5_aux	pay	TO	O
+9-5	pay	9-3_xcomp	have	VB	O
+9-6	full	O	O	JJ	O
+9-7	price	9-5_dobj	pay	NN	P2_other
+9-8	so	9-10_mark	give	IN	O
+9-9	I	9-10_nsubj	give	PRP	P1_customer
+9-10	give	9-5_advcl	pay	VBP	O
+9-11	my	O	O	PRP$	P1_customer
+9-12	sister	9-10_dep	give	NN	P1_hairdresser
+9-13	a	O	O	DT	O
+9-14	nice	O	O	JJ	O
+9-15	tip	9-10_dobj	give	NN	P1_tip
+9-16	on	O	O	O	O
+9-17	the	O	O	DT	O
+9-18	side	O	O	NN	O
+9-19	.	O	O	O	O
+
+#id=10
+#text=Getting my hair cut is always fun . 
+10-1	Getting	O	O	VBG	O
+10-2	my	O	O	PRP$	P1_customer
+10-3	hair	O	O	NN	O
+10-4	cut	10-1_dobj	Getting	NN	P1_haircut
+10-5	is	O	O	VBZ	O
+10-6	always	O	O	RB	O
+10-7	fun	O	O	NN	O
+10-8	.	O	O	O	O

@@ -1,0 +1,349 @@
+#id=1
+#text=I had to bake a cake for a birthday party . 
+1-1	I	1-2_nsubj	had	PRP	P1_cook
+1-2	had	O	O	VBD	O
+1-3	to	1-4_aux	bake	TO	O
+1-4	bake	1-2_xcomp	had	VB	O
+1-5	a	O	O	DT	O
+1-6	cake	1-4_dobj	bake	NN	P1_cake
+1-7	for	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	birthday	O	O	NN	O
+1-10	party	O	O	NN	P1_beneficiary
+1-11	.	O	O	O	O
+
+#id=2
+#text=I took out the ingredients and put them on the counter : flour , sugar , eggs , vanilla , salt , baking soda , and milk . 
+2-1	I	2-2_nsubj	took	PRP	P1_cook
+2-2	took	O	O	VBD	O
+2-3	out	2-2_prt	took	RP	O
+2-4	the	O	O	DT	O
+2-5	ingredients	2-2_dobj	took	NNS	P1_ingredients
+2-6	and	O	O	O	O
+2-7	put	2-2_conj_and	took	VBD	O
+2-8	them	2-7_dobj	put	PRP	P1_ingredients
+2-9	on	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	counter	2-7_prep_on	put	NN	P1_kitchen/location
+2-12	:	O	O	O	O
+2-13	flour	O	O	NN	P2_ingredients
+2-14	,	O	O	O	O
+2-15	sugar	O	O	NN	P3_ingredients
+2-16	,	O	O	O	O
+2-17	eggs	O	O	NNS	P4_ingredients
+2-18	,	O	O	O	O
+2-19	vanilla	O	O	NN	P5_ingredients
+2-20	,	O	O	O	O
+2-21	salt	O	O	NN	P6_ingredients
+2-22	,	O	O	O	O
+2-23	baking	O	O	JJ	O
+2-24	soda	O	O	NN	P7_ingredients
+2-25	,	O	O	O	O
+2-26	and	O	O	O	O
+2-27	milk	O	O	NN	P8_ingredients
+2-28	.	O	O	O	O
+
+#id=3
+#text=I then turned on the oven , setting it at 375 degrees . 
+3-1	I	3-3_nsubj	turned	PRP	P1_cook
+3-2	then	3-3_advmod	turned	RB	O
+3-3	turned	O	O	VBD	O
+3-4	on	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	oven	3-3_prep_on	turned	NN	P1_oven
+3-7	,	O	O	O	O
+3-8	setting	3-3_xcomp	turned	VBG	O
+3-9	it	3-8_dobj	setting	PRP	P1_oven
+3-10	at	O	O	O	O
+3-11	375	O	O	CD	O
+3-12	degrees	3-8_prep_at	setting	NNS	P1_temperature
+3-13	.	O	O	O	O
+
+#id=4
+#text=While it was preheating , I got to work . 
+4-1	While	4-4_mark	preheating	IN	O
+4-2	it	4-4_nsubj	preheating	PRP	P1_oven
+4-3	was	4-4_aux	preheating	VBD	O
+4-4	preheating	4-7_advcl	got	VBG	O
+4-5	,	O	O	O	O
+4-6	I	4-7_nsubj	got	PRP	P1_cook
+4-7	got	O	O	VBD	O
+4-8	to	4-9_aux	work	TO	O
+4-9	work	4-7_xcomp	got	VB	O
+4-10	.	O	O	O	O
+
+#id=5
+#text=I mixed the wet ingredients together in a big bowl , and then slowly started adding the dry ingredients . 
+5-1	I	5-2_nsubj	mixed	PRP	P1_cook
+5-2	mixed	O	O	VBN	O
+5-3	the	O	O	DT	O
+5-4	wet	O	O	JJ	O
+5-5	ingredients	O	O	NNS	P1_ingredients
+5-6	together	5-2_advmod	mixed	RB	O
+5-7	in	O	O	O	O
+5-8	a	O	O	DT	O
+5-9	big	O	O	JJ	O
+5-10	bowl	5-2_prep_in	mixed	NN	P1_utensil
+5-11	,	O	O	O	O
+5-12	and	O	O	O	O
+5-13	then	5-15_nsubj	started	RB	O
+5-14	slowly	5-15_advmod	started	RB	O
+5-15	started	5-2_conj_and	mixed	VBD	O
+5-16	adding	5-15_xcomp	started	VBG	O
+5-17	the	O	O	DT	O
+5-18	dry	O	O	JJ	O
+5-19	ingredients	5-16_dobj	adding	NNS	P1_ingredients
+5-20	.	O	O	O	O
+
+#id=6
+#text=I used a blender to stir the ingredients together . 
+6-1	I	6-2_nsubj	used	PRP	P1_cook
+6-2	used	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	blender	6-2_dobj	used	NN	P2_utensil
+6-5	to	6-6_aux	stir	TO	O
+6-6	stir	O	O	VB	O
+6-7	the	O	O	DT	O
+6-8	ingredients	6-6_dobj	stir	NNS	P1_ingredients
+6-9	together	6-6_advmod	stir	RB	O
+6-10	.	O	O	O	O
+
+#id=7
+#text=When they were all mixed together , the batter was ready . 
+7-1	When	7-5_advmod	mixed	WRB	O
+7-2	they	7-5_nsubjpass	mixed	PRP	P1_ingredients
+7-3	were	7-5_auxpass	mixed	VBD	O
+7-4	all	7-5_advmod	mixed	RB	O
+7-5	mixed	O	O	VBN	O
+7-6	together	7-5_dep	mixed	RP	O
+7-7	,	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	batter	O	O	NN	P1_dough
+7-10	was	O	O	VBD	O
+7-11	ready	O	O	JJ	O
+7-12	.	O	O	O	O
+
+#id=8
+#text=It was the consistence of thick maple syrup . 
+8-1	It	O	O	PRP	P1_dough
+8-2	was	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	consistence	O	O	NN	P1_NPart_consistence
+8-5	of	O	O	O	O
+8-6	thick	O	O	JJ	O
+8-7	maple	O	O	NN	O
+8-8	syrup	O	O	NN	P1_NPart_syrup
+8-9	.	O	O	O	O
+
+#id=9
+#text=I sprayed spray oil on the inside of a pan and then poured the cake batter into the pan . 
+9-1	I	9-2_nsubj	sprayed	PRP	P1_cook
+9-2	sprayed	O	O	VBD	O
+9-3	spray	O	O	NN	O
+9-4	oil	9-2_dobj	sprayed	NN	P9_ingredients
+9-5	on	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	inside	9-2_prep_on	sprayed	NN	P1_NPart_inside
+9-8	of	O	O	O	O
+9-9	a	O	O	DT	O
+9-10	pan	O	O	NN	P1_cake_tin
+9-11	and	O	O	O	O
+9-12	then	9-13_advmod	poured	RB	O
+9-13	poured	9-2_conj_and	sprayed	VBD	O
+9-14	the	O	O	DT	O
+9-15	cake	O	O	NN	O
+9-16	batter	9-13_dobj	poured	NN	P1_dough
+9-17	into	O	O	O	O
+9-18	the	O	O	DT	O
+9-19	pan	9-13_prep_into	poured	NN	P1_cake_tin
+9-20	.	O	O	O	O
+
+#id=10
+#text=It was ready to go . 
+10-1	It	O	O	PRP	O
+10-2	was	O	O	VBD	O
+10-3	ready	O	O	JJ	O
+10-4	to	10-5_aux	go	TO	O
+10-5	go	O	O	VB	O
+10-6	.	O	O	O	O
+
+#id=11
+#text=When the oven beeped to let me know that it was finished preheating , I put the pan into the oven . 
+11-1	When	11-4_advmod	beeped	WRB	O
+11-2	the	O	O	DT	O
+11-3	oven	11-4_nsubj	beeped	NN	P1_oven
+11-4	beeped	11-16_advcl	put	VBD	O
+11-5	to	11-6_aux	let	TO	O
+11-6	let	11-4_xcomp	beeped	VB	O
+11-7	me	11-8_nsubj	know	PRP	P1_cook
+11-8	know	11-6_ccomp	let	VB	O
+11-9	that	11-12_mark	finished	IN	O
+11-10	it	11-12_nsubjpass	finished	PRP	P1_oven
+11-11	was	11-12_auxpass	finished	VBD	O
+11-12	finished	11-8_ccomp	know	VBN	O
+11-13	preheating	11-12_xcomp	finished	VBG	O
+11-14	,	O	O	O	O
+11-15	I	11-16_nsubj	put	PRP	P1_cook
+11-16	put	O	O	VBD	O
+11-17	the	O	O	DT	O
+11-18	pan	11-16_dobj	put	NN	P1_cake_tin
+11-19	into	O	O	O	O
+11-20	the	O	O	DT	O
+11-21	oven	11-16_prep_into	put	NN	P1_oven
+11-22	.	O	O	O	O
+
+#id=12
+#text=I put on a timer for 12 minutes . 
+12-1	I	12-2_nsubj	put	PRP	P1_cook
+12-2	put	O	O	VBD	O
+12-3	on	O	O	O	O
+12-4	a	O	O	DT	O
+12-5	timer	12-2_prep_on	put	NN	P1_timer
+12-6	for	O	O	O	O
+12-7	12	O	O	CD	O
+12-8	minutes	12-2_prep_for	put	NNS	P1_time
+12-9	.	O	O	O	O
+
+#id=13
+#text=When the timer went off , I opened the oven door and took the pan out . 
+13-1	When	13-4_advmod	went	WRB	O
+13-2	the	O	O	DT	O
+13-3	timer	13-4_nsubj	went	NN	P1_timer
+13-4	went	13-8_advcl	opened	VBD	O
+13-5	off	13-4_prt	went	RP	O
+13-6	,	O	O	O	O
+13-7	I	13-8_nsubj	opened	PRP	P1_cook
+13-8	opened	O	O	VBD	O
+13-9	the	O	O	DT	O
+13-10	oven	O	O	NN	O
+13-11	door	13-8_dobj	opened	NN	P1_oven
+13-12	and	O	O	O	O
+13-13	took	13-8_conj_and	opened	VBD	O
+13-14	the	O	O	DT	O
+13-15	pan	13-13_dobj	took	NN	P1_cake_tin
+13-16	out	13-13_prt	took	RP	O
+13-17	.	O	O	O	O
+
+#id=14
+#text=I inserted a toothpick into the center of the cake and took it out to see if the cake was done : the toothpick came out without any batter attached to it , so the cake was good to go . 
+14-1	I	14-2_nsubj	inserted	PRP	P1_cook
+14-2	inserted	O	O	VBD	O
+14-3	a	O	O	DT	O
+14-4	toothpick	14-2_dobj	inserted	NN	P3_utensil
+14-5	into	O	O	O	O
+14-6	the	O	O	DT	O
+14-7	center	14-2_prep_into	inserted	NN	P1_NPart_center
+14-8	of	O	O	O	O
+14-9	the	O	O	DT	O
+14-10	cake	O	O	NN	P1_cake
+14-11	and	O	O	O	O
+14-12	took	14-2_conj_and	inserted	VBD	O
+14-13	it	14-12_dobj	took	PRP	P3_utensil
+14-14	out	14-12_advmod	took	RB	O
+14-15	to	14-16_aux	see	TO	O
+14-16	see	14-12_vmod	took	VB	O
+14-17	if	14-21_mark	done	IN	O
+14-18	the	O	O	DT	O
+14-19	cake	14-21_nsubjpass	done	NN	P1_cake
+14-20	was	14-21_auxpass	done	VBD	O
+14-21	done	14-16_advcl	see	VBN	O
+14-22	:	O	O	O	O
+14-23	the	O	O	DT	O
+14-24	toothpick	14-25_nsubj	came	NN	P3_utensil
+14-25	came	14-2_parataxis	inserted	VBD	O
+14-26	out	14-25_prt	came	RP	O
+14-27	without	O	O	O	O
+14-28	any	O	O	DT	O
+14-29	batter	14-25_prep_without	came	NN	P1_dough
+14-30	attached	O	O	VBN	O
+14-31	to	O	O	O	O
+14-32	it	14-30_prep_to	attached	PRP	P3_utensil
+14-33	,	O	O	O	O
+14-34	so	14-25_dep	came	IN	O
+14-35	the	O	O	DT	O
+14-36	cake	O	O	NN	P1_cake
+14-37	was	O	O	VBD	O
+14-38	good	14-25_parataxis	came	JJ	O
+14-39	to	14-40_aux	go	TO	O
+14-40	go	O	O	VB	O
+14-41	.	O	O	O	O
+
+#id=15
+#text=I turned off the oven and left the cake in the pan on the counter to cool . 
+15-1	I	15-2_nsubj	turned	PRP	P1_cook
+15-2	turned	O	O	VBD	O
+15-3	off	15-2_prt	turned	RP	O
+15-4	the	O	O	DT	O
+15-5	oven	15-2_dobj	turned	NN	P1_oven
+15-6	and	O	O	O	O
+15-7	left	15-2_conj_and	turned	VBD	O
+15-8	the	O	O	DT	O
+15-9	cake	15-7_dobj	left	NN	P1_cake
+15-10	in	O	O	O	O
+15-11	the	O	O	DT	O
+15-12	pan	15-7_prep_in	left	NN	P1_cake_tin
+15-13	on	O	O	O	O
+15-14	the	O	O	DT	O
+15-15	counter	O	O	NN	P2_kitchen/location
+15-16	to	15-17_aux	cool	TO	O
+15-17	cool	15-7_vmod	left	VB	O
+15-18	.	O	O	O	O
+
+#id=16
+#text=After a while I moved the cake to a cooling rack . 
+16-1	After	O	O	O	O
+16-2	a	O	O	DT	O
+16-3	while	16-5_prep_after	moved	NN	O
+16-4	I	16-5_nsubj	moved	PRP	P1_cook
+16-5	moved	O	O	VBD	O
+16-6	the	O	O	DT	O
+16-7	cake	16-5_dobj	moved	NN	P1_cake
+16-8	to	O	O	O	O
+16-9	a	O	O	DT	O
+16-10	cooling	O	O	JJ	O
+16-11	rack	16-5_prep_to	moved	NN	P4_utensil
+16-12	.	O	O	O	O
+
+#id=17
+#text=When it was completely cool I covered it with chocolate frosting and wrote '' `` Happy Birthday ! '' '' 
+17-1	When	O	O	WRB	O
+17-2	it	O	O	PRP	P1_cake
+17-3	was	O	O	VBD	O
+17-4	completely	O	O	RB	O
+17-5	cool	17-7_advcl	covered	JJ	O
+17-6	I	17-7_nsubj	covered	PRP	P1_cook
+17-7	covered	O	O	VBD	O
+17-8	it	17-7_dobj	covered	PRP	P1_cake
+17-9	with	O	O	O	O
+17-10	chocolate	O	O	NN	O
+17-11	frosting	17-7_prep_with	covered	NN	P1_decoration
+17-12	and	O	O	O	O
+17-13	wrote	O	O	NN	O
+17-14	''	O	O	O	O
+17-15	``	O	O	O	O
+17-16	Happy	O	O	JJ	O
+17-17	Birthday	O	O	NN	O
+17-18	!	O	O	O	O
+17-19	''	O	O	O	O
+17-20	''	O	O	O	O
+
+#id=18
+#text=on the top with a tube of blue icing . 
+18-1	on	O	O	IN	O
+18-2	the	O	O	DT	O
+18-3	top	O	O	NN	O
+18-4	with	O	O	O	O
+18-5	a	O	O	DT	O
+18-6	tube	O	O	NN	O
+18-7	of	O	O	O	O
+18-8	blue	O	O	JJ	O
+18-9	icing	O	O	NN	P1_decoration
+18-10	.	O	O	O	O
+
+#id=19
+#text=The cake looked great ! 
+19-1	The	O	O	DT	O
+19-2	cake	19-3_nsubj	looked	NN	P1_cake
+19-3	looked	O	O	VBD	O
+19-4	great	19-3_acomp	looked	JJ	O
+19-5	!	O	O	O	O

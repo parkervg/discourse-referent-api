@@ -1,0 +1,216 @@
+#id=1
+#text=I did my research and made sure that whatever tree I was planting could survive in my region , since my state can get cold . 
+1-1	I	1-2_nsubj	did	PRP	P1_gardener
+1-2	did	O	O	VBD	O
+1-3	my	O	O	PRP$	P1_gardener
+1-4	research	1-2_dobj	did	NN	P1_NPart_research
+1-5	and	O	O	O	O
+1-6	made	1-2_conj_and	did	VBD	O
+1-7	sure	1-6_acomp	made	JJ	O
+1-8	that	1-15_mark	survive	IN	O
+1-9	whatever	O	O	JJ	O
+1-10	tree	1-15_nsubj	survive	NN	P1_tree
+1-11	I	1-13_nsubj	planting	PRP	P1_gardener
+1-12	was	1-13_aux	planting	VBD	O
+1-13	planting	O	O	VBG	O
+1-14	could	1-15_aux	survive	MD	O
+1-15	survive	O	O	VB	O
+1-16	in	O	O	O	O
+1-17	my	O	O	PRP$	P1_gardener
+1-18	region	1-15_prep_in	survive	NN	P1_NPart_region
+1-19	,	O	O	O	O
+1-20	since	O	O	IN	O
+1-21	my	O	O	PRP$	P1_gardener
+1-22	state	O	O	NN	P1_NPart_state
+1-23	can	O	O	MD	O
+1-24	get	O	O	VB	O
+1-25	cold	1-15_advcl	survive	JJ	O
+1-26	.	O	O	O	O
+
+#id=2
+#text=I checked to make sure it was okay to plant the tree . 
+2-1	I	2-2_nsubj	checked	PRP	P1_gardener
+2-2	checked	O	O	VBD	O
+2-3	to	2-4_aux	make	TO	O
+2-4	make	2-2_xcomp	checked	VB	O
+2-5	sure	2-4_acomp	make	JJ	O
+2-6	it	O	O	PRP	O
+2-7	was	O	O	VBD	O
+2-8	okay	O	O	JJ	O
+2-9	to	2-10_aux	plant	TO	O
+2-10	plant	O	O	VB	O
+2-11	the	O	O	DT	O
+2-12	tree	2-10_dobj	plant	NN	P1_tree
+2-13	.	O	O	O	O
+
+#id=3
+#text=Since my parents were the land-owners , they said yes . 
+3-1	Since	O	O	IN	O
+3-2	my	O	O	PRP$	P1_gardener
+3-3	parents	O	O	NNS	P1_NPart_parents
+3-4	were	O	O	VBD	O
+3-5	the	O	O	DT	O
+3-6	land-owners	3-9_advcl	said	NNS	P1_NPart_land-owners
+3-7	,	O	O	O	O
+3-8	they	3-9_nsubj	said	PRP	P1_NPart_they
+3-9	said	O	O	VBD	O
+3-10	yes	3-9_discourse	said	UH	O
+3-11	.	O	O	O	O
+
+#id=4
+#text=I made sure to plant it far away from the house and any piper or wires . 
+4-1	I	4-2_nsubj	made	PRP	P1_gardener
+4-2	made	O	O	VBD	O
+4-3	sure	4-2_acomp	made	JJ	O
+4-4	to	4-5_aux	plant	TO	O
+4-5	plant	O	O	VB	O
+4-6	it	4-5_dobj	plant	PRP	P1_tree
+4-7	far	4-5_advmod	plant	RB	O
+4-8	away	O	O	O	O
+4-9	from	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	house	4-5_prep_away_from	plant	NN	P1_NPart_house
+4-12	and	O	O	O	O
+4-13	any	O	O	DT	O
+4-14	piper	O	O	NN	P1_NPart_piper
+4-15	or	O	O	O	O
+4-16	wires	O	O	NNS	P1_NPart_wires
+4-17	.	O	O	O	O
+
+#id=5
+#text=That way , when it grew larger , it would not be dangerous . 
+5-1	That	O	O	DT	O
+5-2	way	O	O	NN	O
+5-3	,	O	O	O	O
+5-4	when	5-6_advmod	grew	WRB	O
+5-5	it	5-6_nsubj	grew	PRP	P1_tree
+5-6	grew	O	O	VBD	O
+5-7	larger	5-6_acomp	grew	JJR	O
+5-8	,	O	O	O	O
+5-9	it	O	O	PRP	P1_tree
+5-10	would	O	O	MD	O
+5-11	not	O	O	RB	O
+5-12	be	O	O	VB	O
+5-13	dangerous	O	O	JJ	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=I decided to plant a pine tree . 
+6-1	I	6-2_nsubj	decided	PRP	P1_gardener
+6-2	decided	O	O	VBD	O
+6-3	to	6-4_aux	plant	TO	O
+6-4	plant	6-2_xcomp	decided	VB	O
+6-5	a	O	O	DT	O
+6-6	pine	O	O	JJ	O
+6-7	tree	6-4_dobj	plant	NN	P1_tree
+6-8	.	O	O	O	O
+
+#id=7
+#text=They are not as messy in the fall , because they have needles that they keep instead of leaves that they shed . 
+7-1	They	O	O	PRP	P1_tree
+7-2	are	O	O	VBP	O
+7-3	not	O	O	RB	O
+7-4	as	O	O	RB	O
+7-5	messy	O	O	JJ	O
+7-6	in	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	fall	O	O	NN	P1_NPart_fall
+7-9	,	O	O	O	O
+7-10	because	7-13_mark	needles	IN	O
+7-11	they	7-13_nsubj	needles	PRP	P1_tree
+7-12	have	7-13_aux	needles	VBP	O
+7-13	needles	O	O	VBZ	P1_NPart_needles
+7-14	that	7-16_mark	keep	IN	O
+7-15	they	7-16_nsubj	keep	PRP	P1_tree
+7-16	keep	O	O	VBP	O
+7-17	instead	O	O	O	O
+7-18	of	O	O	O	O
+7-19	leaves	7-16_prep_instead_of	keep	NNS	P1_NPart_leaves
+7-20	that	7-22_mark	shed	IN	O
+7-21	they	7-22_nsubj	shed	PRP	P1_tree
+7-22	shed	7-16_ccomp	keep	VBD	O
+7-23	.	O	O	O	O
+
+#id=8
+#text=I bought a small sapling at a store . 
+8-1	I	8-2_nsubj	bought	PRP	P1_gardener
+8-2	bought	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	small	O	O	JJ	O
+8-5	sapling	8-2_dobj	bought	NN	P1_tree
+8-6	at	O	O	O	O
+8-7	a	O	O	DT	O
+8-8	store	8-2_prep_at	bought	NN	P1_shop
+8-9	.	O	O	O	O
+
+#id=9
+#text=Growing a tree from a seed is more difficult . 
+9-1	Growing	O	O	VBG	O
+9-2	a	O	O	DT	O
+9-3	tree	O	O	NN	P1_tree
+9-4	from	O	O	O	O
+9-5	a	O	O	DT	O
+9-6	seed	O	O	NN	P1_seeds
+9-7	is	O	O	VBZ	O
+9-8	more	O	O	RBR	O
+9-9	difficult	O	O	JJ	O
+9-10	.	O	O	O	O
+
+#id=10
+#text=I dug a hole in the ground wide enough to hold the roots well and about 4 inches deep . 
+10-1	I	10-2_nsubj	dug	PRP	P1_gardener
+10-2	dug	O	O	VBD	O
+10-3	a	O	O	DT	O
+10-4	hole	10-2_dobj	dug	NN	P1_hole
+10-5	in	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	ground	10-2_prep_in	dug	NN	P1_dirt
+10-8	wide	O	O	JJ	O
+10-9	enough	O	O	RB	O
+10-10	to	10-11_aux	hold	TO	O
+10-11	hold	O	O	VB	O
+10-12	the	O	O	DT	O
+10-13	roots	10-11_dobj	hold	NNS	P1_root
+10-14	well	10-11_advmod	hold	RB	O
+10-15	and	O	O	O	O
+10-16	about	O	O	RB	O
+10-17	4	O	O	CD	O
+10-18	inches	O	O	NNS	P1_NPart_inches
+10-19	deep	O	O	JJ	O
+10-20	.	O	O	O	O
+
+#id=11
+#text=I gently removed the tree from its container and placed it into the hole . 
+11-1	I	11-3_nsubj	removed	PRP	P1_gardener
+11-2	gently	11-3_advmod	removed	RB	O
+11-3	removed	O	O	VBD	O
+11-4	the	O	O	DT	O
+11-5	tree	11-3_dobj	removed	NN	P1_tree
+11-6	from	O	O	O	O
+11-7	its	O	O	PRP$	P1_tree
+11-8	container	11-3_prep_from	removed	NN	P1_wrapping
+11-9	and	O	O	O	O
+11-10	placed	11-3_conj_and	removed	VBD	O
+11-11	it	11-10_dobj	placed	PRP	P1_tree
+11-12	into	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	hole	11-10_prep_into	placed	NN	P1_hole
+11-15	.	O	O	O	O
+
+#id=12
+#text=Then , I covered the hole back up with soil and watered the tree . 
+12-1	Then	12-4_advmod	covered	RB	O
+12-2	,	O	O	O	O
+12-3	I	12-4_nsubj	covered	PRP	P1_gardener
+12-4	covered	O	O	VBD	O
+12-5	the	O	O	DT	O
+12-6	hole	12-4_dobj	covered	NN	P1_hole
+12-7	back	O	O	RB	O
+12-8	up	12-4_advmod	covered	RB	O
+12-9	with	O	O	O	O
+12-10	soil	O	O	NN	P1_dirt
+12-11	and	O	O	O	O
+12-12	watered	12-4_conj_and	covered	VBD	O
+12-13	the	O	O	DT	O
+12-14	tree	12-12_dobj	watered	NN	P1_tree
+12-15	.	O	O	O	O

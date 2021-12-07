@@ -1,0 +1,209 @@
+#id=1
+#text=I decided it was time to get my hair cut . 
+1-1	I	1-2_nsubj	decided	PRP	P1_customer
+1-2	decided	O	O	VBD	O
+1-3	it	O	O	PRP	O
+1-4	was	O	O	VBD	O
+1-5	time	1-2_ccomp	decided	NN	O
+1-6	to	1-7_aux	get	TO	O
+1-7	get	O	O	VB	O
+1-8	my	O	O	PRP$	P1_customer
+1-9	hair	O	O	NN	P1_hair
+1-10	cut	1-7_dobj	get	NN	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=I wanted a new style and a shorter length . 
+2-1	I	2-2_nsubj	wanted	PRP	P1_customer
+2-2	wanted	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	new	O	O	JJ	O
+2-5	style	2-2_dobj	wanted	NN	P1_haircut
+2-6	and	O	O	O	O
+2-7	a	O	O	DT	O
+2-8	shorter	O	O	JJR	O
+2-9	length	O	O	NN	P1_NPart_length
+2-10	.	O	O	O	O
+
+#id=3
+#text=I called the hair salon and made an appointment . 
+3-1	I	3-2_nsubj	called	PRP	P1_customer
+3-2	called	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	hair	O	O	NN	O
+3-5	salon	3-2_dobj	called	NN	P1_salon
+3-6	and	O	O	O	O
+3-7	made	3-2_conj_and	called	VBD	O
+3-8	an	O	O	DT	O
+3-9	appointment	3-7_dobj	made	NN	P1_appointment
+3-10	.	O	O	O	O
+
+#id=4
+#text=The stylist greeted me upon my arrival and directed me to sit at her station . 
+4-1	The	O	O	DT	O
+4-2	stylist	4-3_nsubj	greeted	NN	P1_hairdresser
+4-3	greeted	O	O	VBD	O
+4-4	me	4-3_dobj	greeted	PRP	P1_customer
+4-5	upon	O	O	O	O
+4-6	my	O	O	PRP$	P1_customer
+4-7	arrival	4-3_prep_upon	greeted	NN	P1_NPart_arrival
+4-8	and	O	O	O	O
+4-9	directed	4-3_conj_and	greeted	VBD	O
+4-10	me	4-9_dobj	directed	PRP	P1_customer
+4-11	to	4-12_aux	sit	TO	O
+4-12	sit	4-9_xcomp	directed	VB	O
+4-13	at	O	O	O	O
+4-14	her	O	O	PRP$	P1_hairdresser
+4-15	station	4-12_prep_at	sit	NN	P1_location_salon
+4-16	.	O	O	O	O
+
+#id=5
+#text=We discussed what style and length I wanted and I showed her a picture in a magazine as a reference . 
+5-1	We	5-2_nsubj	discussed	PRP	P1_hairdresser_customer
+5-2	discussed	O	O	VBD	O
+5-3	what	5-8_dobj	wanted	WP	O
+5-4	style	O	O	NN	P1_haircut
+5-5	and	O	O	O	O
+5-6	length	O	O	NN	P2_NPart_length
+5-7	I	5-8_nsubj	wanted	PRP	P1_customer
+5-8	wanted	5-2_ccomp	discussed	VBD	O
+5-9	and	O	O	O	O
+5-10	I	5-11_nsubj	showed	PRP	P1_customer
+5-11	showed	5-2_conj_and	discussed	VBD	O
+5-12	her	5-11_iobj	showed	PRP	P1_hairdresser
+5-13	a	O	O	DT	O
+5-14	picture	5-11_dobj	showed	NN	P1_NPart_picture
+5-15	in	O	O	O	O
+5-16	a	O	O	DT	O
+5-17	magazine	O	O	NN	P1_NPart_magazine
+5-18	as	O	O	O	O
+5-19	a	O	O	DT	O
+5-20	reference	O	O	NN	P1_NPart_reference
+5-21	.	O	O	O	O
+
+#id=6
+#text=She placed a fabric cape around my neck and directed me to wash bowls . 
+6-1	She	6-2_nsubj	placed	PRP	P1_hairdresser
+6-2	placed	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	fabric	O	O	NN	O
+6-5	cape	6-2_dobj	placed	NN	P1_cape
+6-6	around	O	O	O	O
+6-7	my	O	O	PRP$	P1_customer
+6-8	neck	6-2_prep_around	placed	NN	P1_NPart_neck
+6-9	and	O	O	O	O
+6-10	directed	6-2_conj_and	placed	VBD	O
+6-11	me	6-10_dobj	directed	PRP	P1_customer
+6-12	to	6-13_aux	wash	TO	O
+6-13	wash	6-10_xcomp	directed	VB	O
+6-14	bowls	6-13_dobj	wash	NNS	P1_wash_basin
+6-15	.	O	O	O	O
+
+#id=7
+#text=I sat in the wash chair , and leaned my head back into the bowl . 
+7-1	I	7-2_nsubj	sat	PRP	P1_customer
+7-2	sat	O	O	VBD	O
+7-3	in	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	wash	O	O	NN	O
+7-6	chair	7-2_prep_in	sat	NN	P1_chair
+7-7	,	O	O	O	O
+7-8	and	O	O	O	O
+7-9	leaned	7-2_conj_and	sat	VBD	O
+7-10	my	O	O	PRP$	P1_customer
+7-11	head	7-9_dobj	leaned	NN	P1_NPart_head
+7-12	back	7-9_prt	leaned	RP	O
+7-13	into	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	bowl	7-9_prep_into	leaned	NN	P2_wash_basin
+7-16	.	O	O	O	O
+
+#id=8
+#text=The stylist washed my hair and towel dried it , the directed me back to her station . 
+8-1	The	O	O	DT	O
+8-2	stylist	8-3_nsubj	washed	NN	P1_hairdresser
+8-3	washed	8-12_ccomp	directed	VBD	O
+8-4	my	O	O	PRP$	P1_customer
+8-5	hair	8-8_nsubj	dried	NN	P1_hair
+8-6	and	O	O	O	O
+8-7	towel	O	O	NN	O
+8-8	dried	8-3_ccomp	washed	VBD	O
+8-9	it	8-8_dobj	dried	PRP	P1_hair
+8-10	,	O	O	O	O
+8-11	the	8-12_nsubj	directed	DT	O
+8-12	directed	O	O	VBD	O
+8-13	me	8-12_dobj	directed	PRP	P1_customer
+8-14	back	8-12_advmod	directed	RB	O
+8-15	to	O	O	O	O
+8-16	her	O	O	PRP$	P1_hairdresser
+8-17	station	8-12_prep_to	directed	NN	P1_location_salon
+8-18	.	O	O	O	O
+
+#id=9
+#text=She combed my hair out and began to trim it with scissors . 
+9-1	She	9-2_nsubj	combed	PRP	P1_hairdresser
+9-2	combed	O	O	VBP	O
+9-3	my	O	O	PRP$	P1_customer
+9-4	hair	9-2_dobj	combed	NN	P1_hair
+9-5	out	9-2_prt	combed	RP	O
+9-6	and	O	O	O	O
+9-7	began	9-2_conj_and	combed	VBD	O
+9-8	to	9-9_aux	trim	TO	O
+9-9	trim	9-7_xcomp	began	VB	O
+9-10	it	9-9_dobj	trim	PRP	P1_hair
+9-11	with	O	O	O	O
+9-12	scissors	9-9_prep_with	trim	NNS	P1_scissors
+9-13	.	O	O	O	O
+
+#id=10
+#text=After she was finished cutting my hair , she blow dried it and styled it in the manner I asked . 
+10-1	After	10-4_mark	finished	IN	O
+10-2	she	10-4_nsubjpass	finished	PRP	P1_hairdresser
+10-3	was	10-4_auxpass	finished	VBD	O
+10-4	finished	10-11_advcl	dried	VBN	O
+10-5	cutting	10-4_xcomp	finished	VBG	O
+10-6	my	O	O	PRP$	P1_customer
+10-7	hair	10-5_dobj	cutting	NN	P1_hair
+10-8	,	O	O	O	O
+10-9	she	10-11_nsubj	dried	PRP	P1_hairdresser
+10-10	blow	10-11_advmod	dried	RB	O
+10-11	dried	O	O	VBD	O
+10-12	it	10-11_dobj	dried	PRP	P1_hair
+10-13	and	O	O	O	O
+10-14	styled	10-11_conj_and	dried	VBN	O
+10-15	it	10-14_dobj	styled	PRP	P1_hair
+10-16	in	O	O	O	O
+10-17	the	O	O	DT	O
+10-18	manner	10-14_prep_in	styled	NN	P1_NPart_manner
+10-19	I	10-20_nsubj	asked	PRP	P1_customer
+10-20	asked	O	O	VBD	O
+10-21	.	O	O	O	O
+
+#id=11
+#text=I paid her for the work and left a tip in her jar . 
+11-1	I	11-2_nsubj	paid	PRP	P1_customer
+11-2	paid	O	O	VBD	O
+11-3	her	11-2_dobj	paid	PRP	P1_hairdresser
+11-4	for	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	work	11-2_prep_for	paid	NN	P1_NPart_work
+11-7	and	O	O	O	O
+11-8	left	11-2_conj_and	paid	VBD	O
+11-9	a	O	O	DT	O
+11-10	tip	11-8_dobj	left	NN	P1_tip
+11-11	in	O	O	O	O
+11-12	her	O	O	PRP$	P1_hairdresser
+11-13	jar	11-8_prep_in	left	NN	P1_NPart_jar
+11-14	.	O	O	O	O
+
+#id=12
+#text=I was very pleased with my new haircut . 
+12-1	I	O	O	PRP	P1_customer
+12-2	was	O	O	VBD	O
+12-3	very	O	O	RB	O
+12-4	pleased	O	O	JJ	O
+12-5	with	O	O	O	O
+12-6	my	O	O	PRP$	P1_customer
+12-7	new	O	O	JJ	O
+12-8	haircut	O	O	NN	P1_haircut
+12-9	.	O	O	O	O

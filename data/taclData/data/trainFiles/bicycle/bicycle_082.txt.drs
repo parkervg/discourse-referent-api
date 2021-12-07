@@ -1,0 +1,220 @@
+#id=1
+#text=As I was riding home from school one day the worst possible thing that could happen did happen . 
+1-1	As	1-4_mark	riding	IN	O
+1-2	I	1-4_nsubj	riding	PRP	P1_rider
+1-3	was	1-4_aux	riding	VBD	O
+1-4	riding	1-18_csubj	happen	VBG	O
+1-5	home	1-4_advmod	riding	RB	P1_NPart_home
+1-6	from	O	O	O	O
+1-7	school	O	O	NN	P1_NPart_school
+1-8	one	O	O	CD	O
+1-9	day	1-4_prep_from	riding	NN	P1_NPart_day
+1-10	the	O	O	DT	O
+1-11	worst	O	O	JJS	O
+1-12	possible	O	O	JJ	O
+1-13	thing	1-4_dobj	riding	NN	P1_NPart_thing
+1-14	that	1-16_nsubj	happen	WDT	O
+1-15	could	1-16_aux	happen	MD	O
+1-16	happen	O	O	VB	O
+1-17	did	1-18_aux	happen	VBD	O
+1-18	happen	O	O	VB	O
+1-19	.	O	O	O	O
+
+#id=2
+#text=My tire popped . 
+2-1	My	O	O	PRP$	P1_rider
+2-2	tire	2-3_nsubj	popped	NN	P1_tire
+2-3	popped	O	O	VBD	O
+2-4	.	O	O	O	O
+
+#id=3
+#text=I knew I was in deep because I had no idea how to repair a flat bicycle tire . 
+3-1	I	3-2_nsubj	knew	PRP	P1_rider
+3-2	knew	O	O	VBD	O
+3-3	I	3-4_nsubj	was	PRP	P1_rider
+3-4	was	3-2_ccomp	knew	VBD	O
+3-5	in	O	O	O	O
+3-6	deep	3-4_prep_in	was	JJ	O
+3-7	because	3-9_mark	had	IN	O
+3-8	I	3-9_nsubj	had	PRP	P1_rider
+3-9	had	3-4_advcl	was	VBD	O
+3-10	no	O	O	DT	O
+3-11	idea	3-9_dobj	had	NN	O
+3-12	how	3-14_advmod	repair	WRB	O
+3-13	to	3-14_aux	repair	TO	O
+3-14	repair	3-9_xcomp	had	VB	O
+3-15	a	O	O	DT	O
+3-16	flat	O	O	JJ	O
+3-17	bicycle	O	O	NN	O
+3-18	tire	3-14_dobj	repair	NN	P2_tire
+3-19	.	O	O	O	O
+
+#id=4
+#text=Luckily my grandfather did and with his advice we went to get a new tube for the rims of my bike 's tire . 
+4-1	Luckily	4-4_advmod	did	RB	O
+4-2	my	O	O	PRP$	P1_rider
+4-3	grandfather	4-4_nsubj	did	NN	P1_NPart_grandfather
+4-4	did	O	O	VBD	O
+4-5	and	O	O	O	O
+4-6	with	O	O	O	O
+4-7	his	O	O	PRP$	P1_NPart_his
+4-8	advice	4-10_prep_with	went	NN	P1_NPart_advice
+4-9	we	4-10_nsubj	went	PRP	P2_rider
+4-10	went	4-4_conj_and	did	VBD	O
+4-11	to	4-12_aux	get	TO	O
+4-12	get	4-10_xcomp	went	VB	O
+4-13	a	O	O	DT	O
+4-14	new	O	O	JJ	O
+4-15	tube	4-12_dobj	get	NN	P1_spare_tube
+4-16	for	O	O	O	O
+4-17	the	O	O	DT	O
+4-18	rims	4-12_prep_for	get	NNS	P1_rim
+4-19	of	O	O	O	O
+4-20	my	O	O	PRP$	P3_rider
+4-21	bike	O	O	NN	P1_bicycle
+4-22	's	O	O	O	O
+4-23	tire	O	O	NN	P2_tire
+4-24	.	O	O	O	O
+
+#id=5
+#text=We arrive at the store and I am swamped . 
+5-1	We	5-2_nsubj	arrive	PRP	P2_rider
+5-2	arrive	O	O	VBP	O
+5-3	at	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	store	5-2_prep_at	arrive	NN	P1_shop
+5-6	and	O	O	O	O
+5-7	I	5-9_nsubjpass	swamped	PRP	P1_rider
+5-8	am	5-9_auxpass	swamped	VBP	O
+5-9	swamped	5-2_conj_and	arrive	VBN	O
+5-10	.	O	O	O	O
+
+#id=6
+#text=There are so many different kinds and sizes of tubes . 
+6-1	There	6-2_expl	are	EX	O
+6-2	are	O	O	VBP	O
+6-3	so	6-2_advmod	are	RB	O
+6-4	many	O	O	JJ	O
+6-5	different	O	O	JJ	O
+6-6	kinds	6-2_nsubj	are	NNS	P1_NPart_kinds
+6-7	and	O	O	O	O
+6-8	sizes	O	O	NNS	P1_NPart_sizes
+6-9	of	O	O	O	O
+6-10	tubes	O	O	NNS	P1_spare_tube
+6-11	.	O	O	O	O
+
+#id=7
+#text=Well luckily my grandfather had already looked before we had left and knew which kind we needed . 
+7-1	Well	7-2_discourse	luckily	UH	O
+7-2	luckily	O	O	VB	O
+7-3	my	O	O	PRP$	P4_rider
+7-4	grandfather	7-7_nsubj	looked	NN	P1_NPart_grandfather
+7-5	had	7-7_aux	looked	VBD	O
+7-6	already	7-7_advmod	looked	RB	O
+7-7	looked	7-2_ccomp	luckily	VBN	O
+7-8	before	7-11_mark	left	IN	O
+7-9	we	7-11_nsubj	left	PRP	P2_rider
+7-10	had	7-11_aux	left	VBD	O
+7-11	left	7-7_advcl	looked	VBN	O
+7-12	and	O	O	O	O
+7-13	knew	7-11_conj_and	left	VBD	O
+7-14	which	O	O	WDT	O
+7-15	kind	7-17_dobj	needed	NN	P1_spare_tube
+7-16	we	7-17_nsubj	needed	PRP	P2_rider
+7-17	needed	7-13_ccomp	knew	VBD	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=With that in mind we purchased the one we needed and returned home ready to go . 
+8-1	With	O	O	O	O
+8-2	that	8-6_prep_with	purchased	DT	O
+8-3	in	O	O	O	O
+8-4	mind	O	O	NN	P1_NPart_mind
+8-5	we	8-6_nsubj	purchased	PRP	P2_rider
+8-6	purchased	O	O	VBD	O
+8-7	the	O	O	DT	O
+8-8	one	8-6_dobj	purchased	NN	O
+8-9	we	8-10_nsubj	needed	PRP	P2_rider
+8-10	needed	O	O	VBD	O
+8-11	and	O	O	O	O
+8-12	returned	8-10_conj_and	needed	VBD	O
+8-13	home	8-10_dobj	needed	NN	P2_NPart_home
+8-14	ready	O	O	JJ	O
+8-15	to	8-16_aux	go	TO	O
+8-16	go	O	O	VB	O
+8-17	.	O	O	O	O
+
+#id=9
+#text=My grandfather showed me that to repair a tire you need to take off the old broken tube and the replace it with the new one . 
+9-1	My	O	O	PRP$	P1_rider
+9-2	grandfather	9-3_nsubj	showed	NN	P1_NPart_grandfather
+9-3	showed	O	O	VBD	O
+9-4	me	9-3_dobj	showed	PRP	P1_rider
+9-5	that	9-11_mark	need	IN	O
+9-6	to	9-7_aux	repair	TO	O
+9-7	repair	9-11_dep	need	VB	O
+9-8	a	O	O	DT	O
+9-9	tire	9-7_dobj	repair	NN	P2_tire
+9-10	you	9-11_nsubj	need	PRP	P5_rider
+9-11	need	9-3_ccomp	showed	VBP	O
+9-12	to	9-13_aux	take	TO	O
+9-13	take	9-11_xcomp	need	VB	O
+9-14	off	9-13_prt	take	RP	O
+9-15	the	O	O	DT	O
+9-16	old	O	O	JJ	O
+9-17	broken	O	O	JJ	O
+9-18	tube	9-13_dobj	take	NN	P2_tire
+9-19	and	O	O	O	O
+9-20	the	9-21_nsubj	replace	DT	O
+9-21	replace	9-11_conj_and	need	VBP	O
+9-22	it	9-21_dobj	replace	PRP	P2_tire
+9-23	with	O	O	O	O
+9-24	the	O	O	DT	O
+9-25	new	O	O	JJ	O
+9-26	one	9-21_prep_with	replace	NN	P1_spare_tube
+9-27	.	O	O	O	O
+
+#id=10
+#text=After that you take a pump and pump air into the tire until it is full . 
+10-1	After	O	O	O	O
+10-2	that	10-4_prep_after	take	DT	O
+10-3	you	10-4_nsubj	take	PRP	P5_rider
+10-4	take	O	O	VBP	O
+10-5	a	O	O	DT	O
+10-6	pump	O	O	NN	P1_tool
+10-7	and	O	O	O	O
+10-8	pump	O	O	NN	O
+10-9	air	10-4_dobj	take	NN	P1_air
+10-10	into	O	O	O	O
+10-11	the	O	O	DT	O
+10-12	tire	10-4_prep_into	take	NN	P1_spare_tube
+10-13	until	O	O	IN	O
+10-14	it	O	O	PRP	P1_spare_tube
+10-15	is	O	O	VBZ	O
+10-16	full	10-4_advcl	take	JJ	O
+10-17	.	O	O	O	O
+
+#id=11
+#text=I was n't prepared last time for my tire to pop but you can be sure that I will be the next 
+11-1	I	11-4_nsubjpass	prepared	PRP	P6_rider
+11-2	was	11-4_auxpass	prepared	VBD	O
+11-3	n't	11-4_neg	prepared	RB	O
+11-4	prepared	O	O	VBN	O
+11-5	last	O	O	JJ	O
+11-6	time	11-4_dobj	prepared	NN	P1_NPart_time
+11-7	for	O	O	O	O
+11-8	my	O	O	PRP$	P6_rider
+11-9	tire	11-4_prep_for	prepared	NN	P1_spare_tube
+11-10	to	11-11_aux	pop	TO	O
+11-11	pop	O	O	VB	O
+11-12	but	O	O	CC	O
+11-13	you	O	O	PRP	P6_rider
+11-14	can	O	O	MD	O
+11-15	be	O	O	VB	O
+11-16	sure	11-11_ccomp	pop	JJ	O
+11-17	that	O	O	IN	O
+11-18	I	O	O	PRP	P6_rider
+11-19	will	O	O	MD	O
+11-20	be	O	O	VB	O
+11-21	the	O	O	DT	O
+11-22	next	O	O	JJ	O

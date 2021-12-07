@@ -1,0 +1,332 @@
+#id=1
+#text=It 's spring ! 
+1-1	It	O	O	PRP	O
+1-2	's	O	O	VBZ	O
+1-3	spring	O	O	NN	P1_time
+1-4	!	O	O	O	O
+
+#id=2
+#text=After a long and dreary winter , most of us are ready to see green plants , blooming flowers , and a clean cut green lawn in our yards . 
+2-1	After	O	O	O	O
+2-2	a	O	O	DT	O
+2-3	long	O	O	JJ	O
+2-4	and	O	O	O	O
+2-5	dreary	O	O	JJ	O
+2-6	winter	O	O	NN	P1_NPart_winter
+2-7	,	O	O	O	O
+2-8	most	O	O	JJS	O
+2-9	of	O	O	O	O
+2-10	us	O	O	PRP	P1_gardener
+2-11	are	O	O	VBP	O
+2-12	ready	O	O	JJ	O
+2-13	to	2-14_aux	see	TO	O
+2-14	see	O	O	VB	O
+2-15	green	O	O	JJ	O
+2-16	plants	2-14_dobj	see	NNS	P1_tree
+2-17	,	O	O	O	O
+2-18	blooming	O	O	VBG	O
+2-19	flowers	O	O	NNS	P1_NPart_flowers
+2-20	,	O	O	O	O
+2-21	and	O	O	O	O
+2-22	a	O	O	DT	O
+2-23	clean	O	O	JJ	O
+2-24	cut	O	O	VBN	O
+2-25	green	O	O	NN	O
+2-26	lawn	O	O	NN	P1_NPart_lawn
+2-27	in	O	O	O	O
+2-28	our	O	O	PRP$	P1_gardener
+2-29	yards	O	O	NNS	P1_location_garden
+2-30	.	O	O	O	O
+
+#id=3
+#text=Springtime is also an opportunity to freshen up our yards with new plants . 
+3-1	Springtime	O	O	NNP	P1_time
+3-2	is	O	O	VBZ	O
+3-3	also	O	O	RB	O
+3-4	an	O	O	DT	O
+3-5	opportunity	O	O	NN	P1_NPart_opportunity
+3-6	to	3-7_aux	freshen	TO	O
+3-7	freshen	O	O	VB	O
+3-8	up	3-7_prt	freshen	RP	O
+3-9	our	O	O	PRP$	P1_gardener
+3-10	yards	3-7_dobj	freshen	NNS	P1_location_garden
+3-11	with	O	O	O	O
+3-12	new	O	O	JJ	O
+3-13	plants	3-7_prep_with	freshen	NNS	P1_tree
+3-14	.	O	O	O	O
+
+#id=4
+#text=Taking this into consideration , I decided to make a trip to my local lawn and garden shop . 
+4-1	Taking	4-7_vmod	decided	VBG	O
+4-2	this	4-1_dobj	Taking	DT	O
+4-3	into	O	O	O	O
+4-4	consideration	4-1_prep_into	Taking	NN	O
+4-5	,	O	O	O	O
+4-6	I	4-7_nsubj	decided	PRP	P1_gardener
+4-7	decided	O	O	VBD	O
+4-8	to	4-9_aux	make	TO	O
+4-9	make	4-7_xcomp	decided	VB	O
+4-10	a	O	O	DT	O
+4-11	trip	4-9_dobj	make	NN	P1_NPart_trip
+4-12	to	O	O	O	O
+4-13	my	O	O	PRP$	P1_gardener
+4-14	local	O	O	JJ	O
+4-15	lawn	4-9_prep_to	make	NN	O
+4-16	and	O	O	O	O
+4-17	garden	O	O	NN	O
+4-18	shop	O	O	NN	P1_shop
+4-19	.	O	O	O	O
+
+#id=5
+#text=As expected the shop had tons of blooming pot flowers . 
+5-1	As	5-2_mark	expected	IN	O
+5-2	expected	5-5_advcl	had	VBN	O
+5-3	the	O	O	DT	O
+5-4	shop	5-5_nsubj	had	NN	P1_shop
+5-5	had	O	O	VBD	O
+5-6	tons	5-5_dobj	had	NNS	O
+5-7	of	O	O	O	O
+5-8	blooming	O	O	VBG	O
+5-9	pot	O	O	NN	O
+5-10	flowers	O	O	NNS	P2_NPart_flowers
+5-11	.	O	O	O	O
+
+#id=6
+#text=I could n't help but pick at least one . 
+6-1	I	6-4_nsubj	help	PRP	P1_gardener
+6-2	could	6-4_aux	help	MD	O
+6-3	n't	6-4_neg	help	RB	O
+6-4	help	O	O	VB	O
+6-5	but	O	O	O	O
+6-6	pick	6-4_conj_but	help	VB	O
+6-7	at	O	O	IN	O
+6-8	least	O	O	JJS	O
+6-9	one	6-6_dobj	pick	CD	O
+6-10	.	O	O	O	O
+
+#id=7
+#text=I was tempted to even buy a fruit plant , but decided to save my money and buy that another time . 
+7-1	I	7-3_nsubjpass	tempted	PRP	P1_gardener
+7-2	was	7-3_auxpass	tempted	VBD	O
+7-3	tempted	O	O	VBN	O
+7-4	to	7-6_aux	buy	TO	O
+7-5	even	7-6_advmod	buy	RB	O
+7-6	buy	7-3_xcomp	tempted	VB	O
+7-7	a	O	O	DT	O
+7-8	fruit	O	O	NN	O
+7-9	plant	7-6_dobj	buy	NN	P1_tree
+7-10	,	O	O	O	O
+7-11	but	O	O	O	O
+7-12	decided	7-3_conj_but	tempted	VBD	O
+7-13	to	7-14_aux	save	TO	O
+7-14	save	7-12_xcomp	decided	VB	O
+7-15	my	O	O	PRP$	P1_gardener
+7-16	money	7-14_dobj	save	NN	P1_NPart_money
+7-17	and	O	O	O	O
+7-18	buy	7-14_conj_and	save	VB	O
+7-19	that	7-18_iobj	buy	DT	P1_tree
+7-20	another	O	O	DT	O
+7-21	time	7-18_dobj	buy	NN	O
+7-22	.	O	O	O	O
+
+#id=8
+#text=What particularly took my interest was a young oak sapling that was hiding in the back behind all the potted flowers . 
+8-1	What	8-3_nsubj	took	WP	O
+8-2	particularly	8-3_advmod	took	RB	O
+8-3	took	O	O	VBD	O
+8-4	my	O	O	PRP$	P1_gardener
+8-5	interest	O	O	NN	O
+8-6	was	O	O	VBD	O
+8-7	a	O	O	DT	O
+8-8	young	O	O	JJ	O
+8-9	oak	O	O	NN	O
+8-10	sapling	8-3_ccomp	took	NN	P1_tree
+8-11	that	8-13_nsubj	hiding	WDT	P1_tree
+8-12	was	8-13_aux	hiding	VBD	O
+8-13	hiding	O	O	VBG	O
+8-14	in	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	back	8-13_prep_in	hiding	NN	P1_NPart_back
+8-17	behind	O	O	O	O
+8-18	all	O	O	PDT	O
+8-19	the	O	O	DT	O
+8-20	potted	O	O	JJ	O
+8-21	flowers	O	O	NNS	P3_NPart_flowers
+8-22	.	O	O	O	O
+
+#id=9
+#text=I did n't have any oak trees in my yard , and to be honest neither did anyone in my neighborhood . 
+9-1	I	9-4_nsubj	have	PRP	P1_gardener
+9-2	did	9-4_aux	have	VBD	O
+9-3	n't	9-4_neg	have	RB	O
+9-4	have	O	O	VB	O
+9-5	any	O	O	DT	O
+9-6	oak	O	O	NN	O
+9-7	trees	9-4_dobj	have	NNS	P1_tree
+9-8	in	O	O	O	O
+9-9	my	O	O	PRP$	P1_gardener
+9-10	yard	O	O	NN	P1_location_garden
+9-11	,	O	O	O	O
+9-12	and	O	O	O	O
+9-13	to	O	O	TO	O
+9-14	be	O	O	VB	O
+9-15	honest	9-4_conj_and	have	JJ	O
+9-16	neither	9-4_dep	have	CC	O
+9-17	did	9-4_conj_and	have	VBD	O
+9-18	anyone	9-17_dobj	did	NN	P1_NPart_anyone
+9-19	in	O	O	O	O
+9-20	my	O	O	PRP$	P1_gardener
+9-21	neighborhood	9-17_prep_in	did	NN	P1_NPart_neighborhood
+9-22	.	O	O	O	O
+
+#id=10
+#text=I thought it would be a fantastic idea to introduce this tree to my front yard . 
+10-1	I	10-2_nsubj	thought	PRP	P1_gardener
+10-2	thought	O	O	VBD	O
+10-3	it	O	O	PRP	O
+10-4	would	O	O	MD	O
+10-5	be	O	O	VB	O
+10-6	a	O	O	DT	O
+10-7	fantastic	O	O	JJ	O
+10-8	idea	10-2_ccomp	thought	NN	P1_NPart_idea
+10-9	to	10-10_aux	introduce	TO	O
+10-10	introduce	O	O	VB	O
+10-11	this	O	O	DT	O
+10-12	tree	10-10_dobj	introduce	NN	P1_tree
+10-13	to	O	O	O	O
+10-14	my	O	O	PRP$	P1_gardener
+10-15	front	O	O	JJ	O
+10-16	yard	10-10_prep_to	introduce	NN	P1_location_garden
+10-17	.	O	O	O	O
+
+#id=11
+#text=So I paid the $ 15 for the young sapling and prepared to plant it next to my driveway . 
+11-1	So	11-3_dep	paid	IN	O
+11-2	I	11-3_nsubj	paid	PRP	P1_gardener
+11-3	paid	O	O	VBD	O
+11-4	the	O	O	DT	O
+11-5	$	11-3_dobj	paid	$	O
+11-6	15	O	O	CD	P1_NPart_15
+11-7	for	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	young	O	O	JJ	O
+11-10	sapling	O	O	NN	P1_tree
+11-11	and	O	O	O	O
+11-12	prepared	11-3_conj_and	paid	VBD	O
+11-13	to	11-14_aux	plant	TO	O
+11-14	plant	11-12_xcomp	prepared	VB	O
+11-15	it	11-14_dobj	plant	PRP	P1_tree
+11-16	next	O	O	O	O
+11-17	to	O	O	O	O
+11-18	my	O	O	PRP$	P1_gardener
+11-19	driveway	11-14_prep_next_to	plant	NN	P1_NPart_driveway
+11-20	.	O	O	O	O
+
+#id=12
+#text=To begin , I found a small shovel from my garage and dug out a 1 foot diameter and 1 foot deep circular hole . 
+12-1	To	12-2_aux	begin	TO	O
+12-2	begin	12-5_advcl	found	VB	O
+12-3	,	O	O	O	O
+12-4	I	12-5_nsubj	found	PRP	P1_gardener
+12-5	found	O	O	VBD	O
+12-6	a	O	O	DT	O
+12-7	small	O	O	JJ	O
+12-8	shovel	12-5_dobj	found	NN	P1_gardening_tool
+12-9	from	O	O	O	O
+12-10	my	O	O	PRP$	P1_gardener
+12-11	garage	12-5_prep_from	found	NN	P1_NPart_garage
+12-12	and	O	O	O	O
+12-13	dug	12-5_conj_and	found	VBD	O
+12-14	out	12-13_prt	dug	RP	O
+12-15	a	O	O	DT	O
+12-16	1	O	O	CD	O
+12-17	foot	O	O	NN	P1_NPart_foot
+12-18	diameter	12-13_dobj	dug	NN	P1_NPart_diameter
+12-19	and	O	O	O	O
+12-20	1	O	O	CD	O
+12-21	foot	O	O	NN	P2_NPart_foot
+12-22	deep	O	O	RB	O
+12-23	circular	O	O	JJ	O
+12-24	hole	O	O	NN	P1_hole
+12-25	.	O	O	O	O
+
+#id=13
+#text=I picked out any rocks that were remaining in the hole , removed any surrounding weeds . 
+13-1	I	13-2_nsubj	picked	PRP	P1_gardener
+13-2	picked	O	O	VBD	O
+13-3	out	13-2_prt	picked	RP	O
+13-4	any	O	O	DT	O
+13-5	rocks	13-2_dobj	picked	NNS	P1_NPart_rocks
+13-6	that	13-8_nsubj	remaining	WDT	O
+13-7	were	13-8_aux	remaining	VBD	O
+13-8	remaining	O	O	VBG	O
+13-9	in	O	O	O	O
+13-10	the	O	O	DT	O
+13-11	hole	13-8_prep_in	remaining	NN	P1_hole
+13-12	,	O	O	O	O
+13-13	removed	O	O	VBN	O
+13-14	any	O	O	DT	O
+13-15	surrounding	O	O	VBG	O
+13-16	weeds	13-13_dobj	removed	NNS	P1_NPart_weeds
+13-17	.	O	O	O	O
+
+#id=14
+#text=Then I removed the tree from its temporary pot and put it and the nutrient-filled soil it came in into the hole I dug out . 
+14-1	Then	14-3_advmod	removed	RB	O
+14-2	I	14-3_nsubj	removed	PRP	P1_gardener
+14-3	removed	O	O	VBD	O
+14-4	the	O	O	DT	O
+14-5	tree	14-3_dobj	removed	NN	P1_tree
+14-6	from	O	O	O	O
+14-7	its	O	O	PRP$	P1_tree
+14-8	temporary	O	O	JJ	O
+14-9	pot	14-3_prep_from	removed	NN	P1_wrapping
+14-10	and	O	O	O	O
+14-11	put	14-3_conj_and	removed	VBD	O
+14-12	it	14-11_dobj	put	PRP	P1_tree
+14-13	and	O	O	O	O
+14-14	the	O	O	DT	O
+14-15	nutrient-filled	O	O	JJ	O
+14-16	soil	14-24_nsubj	dug	NN	P1_dirt
+14-17	it	14-18_nsubj	came	PRP	P1_tree
+14-18	came	O	O	VBD	O
+14-19	in	14-18_prt	came	RP	O
+14-20	into	O	O	O	O
+14-21	the	O	O	DT	O
+14-22	hole	14-18_prep_into	came	NN	P1_hole
+14-23	I	14-24_nsubj	dug	PRP	P1_gardener
+14-24	dug	14-3_conj_and	removed	VBD	O
+14-25	out	14-24_prt	dug	RP	O
+14-26	.	O	O	O	O
+
+#id=15
+#text=Then filled the rest of the hole with dirt , gave the plant a little water , and waited for it to grow into a big healthy tree . 
+15-1	Then	15-11_advmod	gave	RB	O
+15-2	filled	15-11_dep	gave	VBN	O
+15-3	the	O	O	DT	O
+15-4	rest	15-2_dobj	filled	NN	O
+15-5	of	O	O	O	O
+15-6	the	O	O	DT	O
+15-7	hole	O	O	NN	P1_hole
+15-8	with	O	O	O	O
+15-9	dirt	O	O	NN	P1_dirt
+15-10	,	O	O	O	O
+15-11	gave	O	O	VBD	O
+15-12	the	O	O	DT	O
+15-13	plant	15-11_iobj	gave	NN	P1_tree
+15-14	a	O	O	DT	O
+15-15	little	O	O	JJ	O
+15-16	water	15-11_dobj	gave	NN	P1_water
+15-17	,	O	O	O	O
+15-18	and	O	O	O	O
+15-19	waited	15-11_conj_and	gave	VBD	O
+15-20	for	15-23_mark	grow	IN	O
+15-21	it	15-23_nsubj	grow	PRP	P1_tree
+15-22	to	15-23_aux	grow	TO	O
+15-23	grow	15-19_advcl	waited	VB	O
+15-24	into	O	O	O	O
+15-25	a	O	O	DT	O
+15-26	big	O	O	JJ	O
+15-27	healthy	O	O	JJ	O
+15-28	tree	15-23_prep_into	grow	NN	P1_tree
+15-29	.	O	O	O	O

@@ -1,0 +1,231 @@
+#id=1
+#text=I waited at the bus stop for my bus to come pick me up . 
+1-1	I	1-2_nsubj	waited	PRP	P1_passenger
+1-2	waited	O	O	VBD	O
+1-3	at	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	bus	O	O	NN	O
+1-6	stop	1-2_prep_at	waited	NN	P1_bus_stop
+1-7	for	O	O	O	O
+1-8	my	O	O	PRP$	P1_passenger
+1-9	bus	1-2_prep_for	waited	NN	P1_bus
+1-10	to	1-11_aux	come	TO	O
+1-11	come	O	O	VB	O
+1-12	pick	1-11_xcomp	come	VB	O
+1-13	me	1-12_dobj	pick	PRP	P1_passenger
+1-14	up	1-12_prt	pick	RP	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=It seemed to be running a little behind today . 
+2-1	It	2-2_nsubj	seemed	PRP	P1_bus
+2-2	seemed	O	O	VBD	O
+2-3	to	2-5_aux	running	TO	O
+2-4	be	2-5_aux	running	VB	O
+2-5	running	2-2_xcomp	seemed	VBG	O
+2-6	a	O	O	DT	O
+2-7	little	O	O	JJ	O
+2-8	behind	2-5_dobj	running	NN	O
+2-9	today	2-5_tmod	running	NN	O
+2-10	.	O	O	O	O
+
+#id=3
+#text=Finally , at 8:03 , the bus pulled up . 
+3-1	Finally	3-8_advmod	pulled	RB	O
+3-2	,	O	O	O	O
+3-3	at	O	O	O	O
+3-4	8:03	3-8_prep_at	pulled	CD	P1_time/date
+3-5	,	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	bus	3-8_nsubj	pulled	NN	P1_bus
+3-8	pulled	O	O	VBD	O
+3-9	up	3-8_prt	pulled	RP	O
+3-10	.	O	O	O	O
+
+#id=4
+#text=There were other people at the stop as well , so I waited in lined for my turn to get on . 
+4-1	There	4-2_expl	were	EX	O
+4-2	were	O	O	VBD	O
+4-3	other	O	O	JJ	O
+4-4	people	4-2_nsubj	were	NNS	P2_passenger
+4-5	at	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	stop	O	O	NN	P1_bus_stop
+4-8	as	O	O	RB	O
+4-9	well	4-2_advmod	were	RB	O
+4-10	,	O	O	O	O
+4-11	so	4-13_mark	waited	IN	O
+4-12	I	4-13_nsubj	waited	PRP	P1_passenger
+4-13	waited	O	O	VBD	O
+4-14	in	O	O	O	O
+4-15	lined	4-13_prepc_in	waited	VBN	O
+4-16	for	O	O	O	O
+4-17	my	O	O	PRP$	P1_passenger
+4-18	turn	4-15_prep_for	lined	NN	O
+4-19	to	4-20_aux	get	TO	O
+4-20	get	O	O	VB	O
+4-21	on	4-20_prt	get	RP	O
+4-22	.	O	O	O	O
+
+#id=5
+#text=I climbed the three steps up into the bus , and then deposited my change to pay for the trip . 
+5-1	I	5-2_nsubj	climbed	PRP	P1_passenger
+5-2	climbed	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	three	O	O	CD	O
+5-5	steps	5-2_dobj	climbed	NNS	P1_NPart_steps
+5-6	up	5-2_prt	climbed	RP	O
+5-7	into	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	bus	5-2_prep_into	climbed	NN	P1_bus
+5-10	,	O	O	O	O
+5-11	and	O	O	O	O
+5-12	then	5-13_advmod	deposited	RB	O
+5-13	deposited	5-2_conj_and	climbed	VBD	O
+5-14	my	O	O	PRP$	P1_passenger
+5-15	change	5-13_dobj	deposited	NN	P1_money
+5-16	to	5-17_aux	pay	TO	O
+5-17	pay	5-13_vmod	deposited	VB	O
+5-18	for	O	O	O	O
+5-19	the	O	O	DT	O
+5-20	trip	5-17_prep_for	pay	NN	P1_ride
+5-21	.	O	O	O	O
+
+#id=6
+#text=The fare was $ 1.50 so I put six quarters into the box . 
+6-1	The	O	O	DT	O
+6-2	fare	O	O	NN	P1_money
+6-3	was	O	O	VBD	O
+6-4	$	O	O	$	O
+6-5	1.50	O	O	CD	P1_money
+6-6	so	6-8_mark	put	IN	O
+6-7	I	6-8_nsubj	put	PRP	P3_passenger
+6-8	put	O	O	VBD	O
+6-9	six	O	O	CD	O
+6-10	quarters	6-8_dobj	put	NNS	P1_money
+6-11	into	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	box	6-8_prep_into	put	NN	P1_payment_machine
+6-14	.	O	O	O	O
+
+#id=7
+#text=Then I walked down the aisle of the bus and looked for an empty seat . 
+7-1	Then	7-3_advmod	walked	RB	O
+7-2	I	7-3_nsubj	walked	PRP	P3_passenger
+7-3	walked	O	O	VBD	O
+7-4	down	7-3_prt	walked	RP	O
+7-5	the	O	O	DT	O
+7-6	aisle	7-3_dobj	walked	NN	P1_NPart_aisle
+7-7	of	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	bus	O	O	NN	P1_bus
+7-10	and	O	O	O	O
+7-11	looked	7-3_conj_and	walked	VBD	O
+7-12	for	O	O	O	O
+7-13	an	O	O	DT	O
+7-14	empty	O	O	JJ	O
+7-15	seat	7-11_prep_for	looked	NN	P1_seat_in_bus
+7-16	.	O	O	O	O
+
+#id=8
+#text=I found one next to a young person listening to music on their headphones . 
+8-1	I	8-2_nsubj	found	PRP	P3_passenger
+8-2	found	O	O	VBD	O
+8-3	one	8-2_dobj	found	CD	P1_seat_in_bus
+8-4	next	O	O	O	O
+8-5	to	O	O	O	O
+8-6	a	O	O	DT	O
+8-7	young	O	O	JJ	O
+8-8	person	8-2_prep_next_to	found	NN	P4_passenger
+8-9	listening	O	O	VBG	O
+8-10	to	O	O	O	O
+8-11	music	8-9_prep_to	listening	NN	P1_in-bus_entertainment
+8-12	on	O	O	O	O
+8-13	their	O	O	PRP$	P4_passenger
+8-14	headphones	8-9_prep_on	listening	NNS	P2_in-bus_entertainment
+8-15	.	O	O	O	O
+
+#id=9
+#text=The bus pulled away from the curb . 
+9-1	The	O	O	DT	O
+9-2	bus	9-3_nsubj	pulled	NN	P1_bus
+9-3	pulled	O	O	VBD	O
+9-4	away	O	O	O	O
+9-5	from	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	curb	9-3_prep_away_from	pulled	NN	P1_NPart_curb
+9-8	.	O	O	O	O
+
+#id=10
+#text=As we rode , I looked out the window and watched the stores and houses pass by . 
+10-1	As	10-3_mark	rode	IN	O
+10-2	we	10-3_nsubj	rode	PRP	P1_bus
+10-3	rode	10-6_advcl	looked	VBD	O
+10-4	,	O	O	O	O
+10-5	I	10-6_nsubj	looked	PRP	P3_passenger
+10-6	looked	O	O	VBD	O
+10-7	out	10-6_prt	looked	RP	O
+10-8	the	O	O	DT	O
+10-9	window	10-6_dobj	looked	NN	P3_in-bus_entertainment
+10-10	and	O	O	O	O
+10-11	watched	10-6_conj_and	looked	VBD	O
+10-12	the	O	O	DT	O
+10-13	stores	10-16_nsubj	pass	NNS	P4_in-bus_entertainment
+10-14	and	O	O	O	O
+10-15	houses	O	O	NNS	P5_in-bus_entertainment
+10-16	pass	10-11_ccomp	watched	VBP	O
+10-17	by	10-16_prep	pass	IN	O
+10-18	.	O	O	O	O
+
+#id=11
+#text=After about 10 minutes , we reached my stop . 
+11-1	After	O	O	O	O
+11-2	about	O	O	RB	O
+11-3	10	O	O	CD	O
+11-4	minutes	11-7_prep_after	reached	NNS	P2_time/date
+11-5	,	O	O	O	O
+11-6	we	11-7_nsubj	reached	PRP	P1_bus
+11-7	reached	O	O	VBD	O
+11-8	my	O	O	PRP$	P3_passenger
+11-9	stop	11-7_dobj	reached	NN	P1_destination
+11-10	.	O	O	O	O
+
+#id=12
+#text=I waited for the bus to come to a complete stop and then exited , steeping down and then stepping back up the curb onto the sidewalk . 
+12-1	I	12-2_nsubj	waited	PRP	P3_passenger
+12-2	waited	O	O	VBD	O
+12-3	for	O	O	O	O
+12-4	the	O	O	DT	O
+12-5	bus	12-2_prep_for	waited	NN	P1_bus
+12-6	to	12-7_aux	come	TO	O
+12-7	come	12-2_xcomp	waited	VB	O
+12-8	to	O	O	O	O
+12-9	a	O	O	DT	O
+12-10	complete	O	O	JJ	O
+12-11	stop	12-7_prep_to	come	NN	O
+12-12	and	O	O	O	O
+12-13	then	12-14_advmod	exited	RB	O
+12-14	exited	12-2_conj_and	waited	VBD	O
+12-15	,	O	O	O	O
+12-16	steeping	12-2_ccomp	waited	VBG	O
+12-17	down	12-16_prt	steeping	RP	O
+12-18	and	O	O	O	O
+12-19	then	12-20_advmod	stepping	RB	O
+12-20	stepping	12-16_conj_and	steeping	VBG	O
+12-21	back	12-20_prt	stepping	RP	O
+12-22	up	12-20_advmod	stepping	RB	O
+12-23	the	O	O	DT	O
+12-24	curb	O	O	NN	P2_NPart_curb
+12-25	onto	O	O	O	O
+12-26	the	O	O	DT	O
+12-27	sidewalk	O	O	NN	P1_NPart_sidewalk
+12-28	.	O	O	O	O
+
+#id=13
+#text=Time to start another day ! 
+13-1	Time	O	O	NNP	O
+13-2	to	13-3_aux	start	TO	O
+13-3	start	O	O	VB	O
+13-4	another	O	O	DT	O
+13-5	day	13-3_tmod	start	NN	P1_NPart_day
+13-6	!	O	O	O	O

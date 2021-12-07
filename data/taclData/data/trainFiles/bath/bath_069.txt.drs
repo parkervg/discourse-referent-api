@@ -1,0 +1,202 @@
+#id=1
+#text=After a long day at work , the thing I want and love the most is a hot bath . 
+1-1	After	O	O	O	O
+1-2	a	O	O	DT	O
+1-3	long	O	O	JJ	O
+1-4	day	O	O	NN	P1_NPart_day
+1-5	at	O	O	O	O
+1-6	work	O	O	NN	P1_NPart_work
+1-7	,	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	thing	O	O	NN	P1_NPart_thing
+1-10	I	1-11_nsubj	want	PRP	P1_bather
+1-11	want	O	O	VBP	O
+1-12	and	O	O	O	O
+1-13	love	1-11_conj_and	want	VBP	O
+1-14	the	O	O	DT	O
+1-15	most	1-11_dobj	want	JJS	O
+1-16	is	O	O	VBZ	O
+1-17	a	O	O	DT	O
+1-18	hot	O	O	JJ	O
+1-19	bath	O	O	NN	P1_bath
+1-20	.	O	O	O	O
+
+#id=2
+#text=I like to run the water very hot ! 
+2-1	I	2-2_nsubj	like	PRP	P1_bather
+2-2	like	O	O	VBP	O
+2-3	to	2-4_aux	run	TO	O
+2-4	run	2-2_xcomp	like	VB	O
+2-5	the	O	O	DT	O
+2-6	water	O	O	NN	P1_water
+2-7	very	O	O	RB	O
+2-8	hot	2-4_xcomp	run	JJ	O
+2-9	!	O	O	O	O
+
+#id=3
+#text=I like bubbles added , the kind that smell like mangoes . 
+3-1	I	3-2_nsubj	like	PRP	P1_bather
+3-2	like	O	O	VBP	O
+3-3	bubbles	3-4_nsubj	added	NNS	P1_bath_means
+3-4	added	3-2_ccomp	like	VBD	O
+3-5	,	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	kind	3-4_dobj	added	NN	P1_bath_means
+3-8	that	3-9_nsubj	smell	WDT	O
+3-9	smell	O	O	VBP	O
+3-10	like	O	O	O	O
+3-11	mangoes	3-9_prep_like	smell	NNS	P1_NPart_mangoes
+3-12	.	O	O	O	O
+
+#id=4
+#text=I pour a glass of wine while the water runs , and bring it with me into the bathroom . 
+4-1	I	4-2_nsubj	pour	PRP	P1_bather
+4-2	pour	O	O	VBP	O
+4-3	a	O	O	DT	O
+4-4	glass	4-2_dobj	pour	NN	O
+4-5	of	O	O	O	O
+4-6	wine	O	O	NN	P1_in-bath_entertainment
+4-7	while	4-10_mark	runs	IN	O
+4-8	the	O	O	DT	O
+4-9	water	4-10_nsubj	runs	NN	P1_water
+4-10	runs	4-2_advcl	pour	VBZ	O
+4-11	,	O	O	O	O
+4-12	and	O	O	O	O
+4-13	bring	4-10_conj_and	runs	VBP	O
+4-14	it	4-13_dobj	bring	PRP	O
+4-15	with	O	O	O	O
+4-16	me	4-13_prep_with	bring	PRP	P1_bather
+4-17	into	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	bathroom	4-13_prep_into	bring	NN	P1_bathroom
+4-20	.	O	O	O	O
+
+#id=5
+#text=Once the tub is full , I finally allow myself to get in . 
+5-1	Once	O	O	IN	O
+5-2	the	O	O	DT	O
+5-3	tub	O	O	NN	P1_bathtub
+5-4	is	O	O	VBZ	O
+5-5	full	5-9_advcl	allow	JJ	O
+5-6	,	O	O	O	O
+5-7	I	5-9_nsubj	allow	PRP	P1_bather
+5-8	finally	5-9_advmod	allow	RB	O
+5-9	allow	O	O	VBP	O
+5-10	myself	5-9_dobj	allow	PRP	P1_bather
+5-11	to	5-12_aux	get	TO	O
+5-12	get	5-9_xcomp	allow	VB	O
+5-13	in	5-12_prt	get	RP	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=Ah , perfect ! 
+6-1	Ah	O	O	UH	O
+6-2	,	O	O	O	O
+6-3	perfect	O	O	UH	O
+6-4	!	O	O	O	O
+
+#id=7
+#text=I lay back and let the hours of work just slip away . 
+7-1	I	7-2_nsubj	lay	PRP	P1_bather
+7-2	lay	O	O	VBD	O
+7-3	back	7-2_advmod	lay	RB	O
+7-4	and	O	O	O	O
+7-5	let	7-2_conj_and	lay	VBD	O
+7-6	the	O	O	DT	O
+7-7	hours	7-11_nsubj	slip	NNS	O
+7-8	of	O	O	O	O
+7-9	work	O	O	NN	P2_NPart_work
+7-10	just	7-11_advmod	slip	RB	O
+7-11	slip	7-5_ccomp	let	VBP	O
+7-12	away	7-11_prt	slip	RP	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=Sometimes I 'll bring a book in with me and sink into a good story as the hot water dulls away any aches and pains . 
+8-1	Sometimes	8-4_advmod	bring	RB	O
+8-2	I	8-4_nsubj	bring	PRP	P1_bather
+8-3	'll	8-4_aux	bring	MD	O
+8-4	bring	O	O	VB	O
+8-5	a	O	O	DT	O
+8-6	book	8-4_dobj	bring	NN	P2_in-bath_entertainment
+8-7	in	8-4_prep	bring	IN	O
+8-8	with	O	O	IN	O
+8-9	me	O	O	PRP	P1_bather
+8-10	and	O	O	O	O
+8-11	sink	8-4_conj_and	bring	VB	O
+8-12	into	O	O	O	O
+8-13	a	O	O	DT	O
+8-14	good	O	O	JJ	O
+8-15	story	8-11_prep_into	sink	NN	P1_NPart_story
+8-16	as	8-20_mark	dulls	IN	O
+8-17	the	O	O	DT	O
+8-18	hot	O	O	JJ	O
+8-19	water	8-20_nsubj	dulls	NN	P1_water
+8-20	dulls	8-11_advcl	sink	VBZ	O
+8-21	away	8-20_prt	dulls	RP	O
+8-22	any	O	O	DT	O
+8-23	aches	8-20_dobj	dulls	NNS	P1_NPart_aches
+8-24	and	O	O	O	O
+8-25	pains	O	O	NNS	P1_NPart_pains
+8-26	.	O	O	O	O
+
+#id=9
+#text=I sip on my wine and enjoy the soft popping bubbles around me . 
+9-1	I	9-2_nsubj	sip	PRP	P1_bather
+9-2	sip	O	O	VBP	O
+9-3	on	O	O	O	O
+9-4	my	O	O	PRP$	P1_bather
+9-5	wine	9-2_prep_on	sip	NN	P1_in-bath_entertainment
+9-6	and	O	O	O	O
+9-7	enjoy	9-2_conj_and	sip	VBP	O
+9-8	the	O	O	DT	O
+9-9	soft	O	O	JJ	O
+9-10	popping	O	O	CD	O
+9-11	bubbles	9-7_dobj	enjoy	NNS	P1_bath_means
+9-12	around	O	O	O	O
+9-13	me	O	O	PRP	P1_bather
+9-14	.	O	O	O	O
+
+#id=10
+#text=When I have finally had enough , I 'll slowly drain the tub , and then get up and dry off with a huge fluffy towel . 
+10-1	When	10-5_advmod	had	WRB	O
+10-2	I	10-5_nsubj	had	PRP	P1_bather
+10-3	have	10-5_aux	had	VBP	O
+10-4	finally	10-5_advmod	had	RB	O
+10-5	had	10-11_advcl	drain	VBN	O
+10-6	enough	10-5_dobj	had	RB	O
+10-7	,	O	O	O	O
+10-8	I	10-11_nsubj	drain	PRP	P1_bather
+10-9	'll	10-11_aux	drain	MD	O
+10-10	slowly	10-11_advmod	drain	RB	O
+10-11	drain	O	O	VB	O
+10-12	the	O	O	DT	O
+10-13	tub	10-11_dobj	drain	NN	O
+10-14	,	O	O	O	O
+10-15	and	O	O	O	O
+10-16	then	10-17_advmod	get	RB	O
+10-17	get	10-11_conj_and	drain	VB	O
+10-18	up	10-17_prt	get	RP	O
+10-19	and	O	O	O	O
+10-20	dry	10-17_conj_and	get	VB	O
+10-21	off	10-20_prt	dry	RP	O
+10-22	with	O	O	O	O
+10-23	a	O	O	DT	O
+10-24	huge	O	O	JJ	O
+10-25	fluffy	O	O	JJ	O
+10-26	towel	10-20_prep_with	dry	NN	P1_towel
+10-27	.	O	O	O	O
+
+#id=11
+#text=After taking a bath I always feel refreshed and relaxed ! 
+11-1	After	O	O	O	O
+11-2	taking	11-7_prepc_after	feel	VBG	O
+11-3	a	O	O	DT	O
+11-4	bath	11-2_dobj	taking	NN	P1_bath
+11-5	I	11-7_nsubj	feel	PRP	P1_bather
+11-6	always	11-7_advmod	feel	RB	O
+11-7	feel	O	O	VBP	O
+11-8	refreshed	11-7_acomp	feel	JJ	O
+11-9	and	O	O	O	O
+11-10	relaxed	11-7_conj_and	feel	VBD	O
+11-11	!	O	O	O	O

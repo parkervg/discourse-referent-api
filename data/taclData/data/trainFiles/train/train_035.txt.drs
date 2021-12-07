@@ -1,0 +1,214 @@
+#id=1
+#text=Taking the train is an efficient method of transportation to get from place to place . 
+1-1	Taking	O	O	VBG	O
+1-2	the	O	O	DT	O
+1-3	train	1-1_dobj	Taking	NN	P1_train
+1-4	is	O	O	VBZ	O
+1-5	an	O	O	DT	O
+1-6	efficient	O	O	JJ	O
+1-7	method	O	O	NN	P1_NPart_method
+1-8	of	O	O	O	O
+1-9	transportation	O	O	NN	P1_NPart_transportation
+1-10	to	1-11_aux	get	TO	O
+1-11	get	O	O	VB	O
+1-12	from	O	O	O	O
+1-13	place	1-11_prep_from	get	NN	P1_NPart_place
+1-14	to	O	O	O	O
+1-15	place	1-11_prep_to	get	NN	P2_NPart_place
+1-16	.	O	O	O	O
+
+#id=2
+#text=Before taking the train , I will make sure my transit card has enough fare on it . 
+2-1	Before	O	O	O	O
+2-2	taking	2-8_prepc_before	make	VBG	O
+2-3	the	O	O	DT	O
+2-4	train	2-2_dobj	taking	NN	P1_train
+2-5	,	O	O	O	O
+2-6	I	2-8_nsubj	make	PRP	P1_passenger
+2-7	will	2-8_aux	make	MD	O
+2-8	make	O	O	VB	O
+2-9	sure	2-8_acomp	make	JJ	O
+2-10	my	O	O	PRP$	P1_passenger
+2-11	transit	O	O	NN	O
+2-12	card	2-13_nsubj	has	NN	P1_card/ticket
+2-13	has	O	O	VBZ	O
+2-14	enough	O	O	JJ	O
+2-15	fare	2-13_dobj	has	NN	P2_card/ticket
+2-16	on	O	O	O	O
+2-17	it	O	O	PRP	P1_card/ticket
+2-18	.	O	O	O	O
+
+#id=3
+#text=This can be checked at the ticketing machines . 
+3-1	This	3-4_nsubjpass	checked	DT	P1_NPart_this
+3-2	can	3-4_aux	checked	MD	O
+3-3	be	3-4_auxpass	checked	VB	O
+3-4	checked	O	O	VBN	O
+3-5	at	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	ticketing	O	O	VBG	O
+3-8	machines	3-4_prep_at	checked	NNS	P1_ticket_office/website
+3-9	.	O	O	O	O
+
+#id=4
+#text=If I am low , I will top-up the card with more money . 
+4-1	If	O	O	IN	O
+4-2	I	O	O	PRP	P1_passenger
+4-3	am	O	O	VBP	O
+4-4	low	4-8_advcl	top-up	JJ	O
+4-5	,	O	O	O	O
+4-6	I	4-8_nsubj	top-up	PRP	P1_passenger
+4-7	will	4-8_aux	top-up	MD	O
+4-8	top-up	O	O	VB	O
+4-9	the	O	O	DT	O
+4-10	card	4-8_dobj	top-up	NN	P1_card/ticket
+4-11	with	O	O	O	O
+4-12	more	O	O	JJR	O
+4-13	money	4-8_prep_with	top-up	NN	P1_payment_means
+4-14	.	O	O	O	O
+
+#id=5
+#text=Once this is all set , I will head towards the gate to scan my transit card . 
+5-1	Once	5-5_mark	set	IN	O
+5-2	this	5-5_nsubjpass	set	DT	O
+5-3	is	5-5_auxpass	set	VBZ	O
+5-4	all	5-5_advmod	set	RB	O
+5-5	set	5-9_advcl	head	VBN	O
+5-6	,	O	O	O	O
+5-7	I	5-9_nsubj	head	PRP	P1_passenger
+5-8	will	5-9_aux	head	MD	O
+5-9	head	O	O	VB	O
+5-10	towards	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	gate	5-9_prep_towards	head	NN	P1_other
+5-13	to	5-14_aux	scan	TO	O
+5-14	scan	O	O	VB	O
+5-15	my	O	O	PRP$	P1_passenger
+5-16	transit	O	O	NN	O
+5-17	card	5-14_dobj	scan	NN	P1_card/ticket
+5-18	.	O	O	O	O
+
+#id=6
+#text=The gates will open and the fare will be collected . 
+6-1	The	O	O	DT	O
+6-2	gates	6-4_nsubj	open	NNS	P1_other
+6-3	will	6-4_aux	open	MD	O
+6-4	open	O	O	VB	O
+6-5	and	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	fare	6-10_nsubjpass	collected	NN	P2_card/ticket
+6-8	will	6-10_aux	collected	MD	O
+6-9	be	6-10_auxpass	collected	VB	O
+6-10	collected	6-4_conj_and	open	VBN	O
+6-11	.	O	O	O	O
+
+#id=7
+#text=Usually I already know where I need to go , but in case I do not know . 
+7-1	Usually	7-4_advmod	know	RB	O
+7-2	I	7-4_nsubj	know	PRP	P1_passenger
+7-3	already	7-4_advmod	know	RB	O
+7-4	know	O	O	VBP	O
+7-5	where	7-7_advmod	need	WRB	O
+7-6	I	7-7_nsubj	need	PRP	P1_passenger
+7-7	need	7-4_ccomp	know	VBP	O
+7-8	to	7-9_aux	go	TO	O
+7-9	go	7-7_xcomp	need	VB	O
+7-10	,	O	O	O	O
+7-11	but	O	O	O	O
+7-12	in	O	O	O	O
+7-13	case	7-17_prep_in	know	NN	O
+7-14	I	7-17_nsubj	know	PRP	P1_passenger
+7-15	do	7-17_aux	know	VBP	O
+7-16	not	7-17_neg	know	RB	O
+7-17	know	7-4_conj_but	know	VB	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=I will check the many maps posted around the station . 
+8-1	I	8-3_nsubj	check	PRP	P1_passenger
+8-2	will	8-3_aux	check	MD	O
+8-3	check	O	O	VB	O
+8-4	the	O	O	DT	O
+8-5	many	O	O	JJ	O
+8-6	maps	8-3_dobj	check	NNS	P1_time-table
+8-7	posted	O	O	VBN	O
+8-8	around	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	station	8-7_prep_around	posted	NN	P1_train_station
+8-11	.	O	O	O	O
+
+#id=9
+#text=Knowing which direction the train heads towards is the most important thing as you do n't want to waste time going the wrong way . 
+9-1	Knowing	O	O	VBG	O
+9-2	which	9-6_prep_towards	heads	WDT	O
+9-3	direction	9-6_nsubj	heads	NN	P1_NPart_direction
+9-4	the	O	O	DT	O
+9-5	train	O	O	NN	P1_train
+9-6	heads	9-1_ccomp	Knowing	VBZ	O
+9-7	towards	O	O	O	O
+9-8	is	O	O	VBZ	O
+9-9	the	O	O	DT	O
+9-10	most	O	O	RBS	O
+9-11	important	O	O	JJ	O
+9-12	thing	O	O	NN	P1_NPart_thing
+9-13	as	9-17_mark	want	IN	O
+9-14	you	9-17_nsubj	want	PRP	P1_passenger
+9-15	do	9-17_aux	want	VBP	O
+9-16	n't	9-17_neg	want	RB	O
+9-17	want	O	O	VB	O
+9-18	to	9-19_aux	waste	TO	O
+9-19	waste	9-17_xcomp	want	VB	O
+9-20	time	9-19_dobj	waste	NN	O
+9-21	going	9-19_xcomp	waste	VBG	O
+9-22	the	O	O	DT	O
+9-23	wrong	O	O	JJ	O
+9-24	way	9-21_dobj	going	NN	P1_NPart_way
+9-25	.	O	O	O	O
+
+#id=10
+#text=Once this is determined , I will head towards the train platform and wait until the train arrives . 
+10-1	Once	10-4_mark	determined	IN	O
+10-2	this	10-4_nsubjpass	determined	DT	P2_NPart_this
+10-3	is	10-4_auxpass	determined	VBZ	O
+10-4	determined	10-8_advcl	head	VBN	O
+10-5	,	O	O	O	O
+10-6	I	10-8_nsubj	head	PRP	P1_passenger
+10-7	will	10-8_aux	head	MD	O
+10-8	head	O	O	VB	O
+10-9	towards	O	O	O	O
+10-10	the	O	O	DT	O
+10-11	train	O	O	NN	O
+10-12	platform	10-8_prep_towards	head	NN	P1_platform
+10-13	and	O	O	O	O
+10-14	wait	10-8_conj_and	head	VB	O
+10-15	until	10-18_mark	arrives	IN	O
+10-16	the	O	O	DT	O
+10-17	train	10-18_nsubj	arrives	NN	P1_train
+10-18	arrives	10-14_advcl	wait	VBZ	O
+10-19	.	O	O	O	O
+
+#id=11
+#text=Once the train is here , I am all set and I will board the train and get off at my destination . 
+11-1	Once	11-4_mark	is	IN	O
+11-2	the	O	O	DT	O
+11-3	train	11-4_nsubj	is	NN	P1_train
+11-4	is	11-10_advcl	set	VBZ	O
+11-5	here	11-4_advmod	is	RB	O
+11-6	,	O	O	O	O
+11-7	I	11-10_nsubjpass	set	PRP	P1_passenger
+11-8	am	11-10_auxpass	set	VBP	O
+11-9	all	11-10_advmod	set	RB	O
+11-10	set	O	O	VBN	O
+11-11	and	O	O	O	O
+11-12	I	11-14_nsubj	board	PRP	P1_passenger
+11-13	will	11-14_aux	board	MD	O
+11-14	board	11-10_conj_and	set	VB	O
+11-15	the	O	O	DT	O
+11-16	train	11-14_dobj	board	NN	P1_train
+11-17	and	O	O	O	O
+11-18	get	11-14_conj_and	board	VB	O
+11-19	off	11-18_prt	get	RP	O
+11-20	at	O	O	O	O
+11-21	my	O	O	PRP$	P1_passenger
+11-22	destination	11-18_prep_at	get	NN	P1_destination
+11-23	.	O	O	O	O

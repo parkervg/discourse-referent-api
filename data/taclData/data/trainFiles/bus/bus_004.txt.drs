@@ -1,0 +1,276 @@
+#id=1
+#text=My husband and I decided we 'd go down to owning just one car in the fall of 2013 . 
+1-1	My	O	O	PRP$	P1_passenger
+1-2	husband	1-5_nsubj	decided	NN	P1_NPart_husband
+1-3	and	O	O	O	O
+1-4	I	O	O	PRP	P2_passenger
+1-5	decided	O	O	VBD	O
+1-6	we	1-8_nsubj	go	PRP	P1_NPart_we
+1-7	'd	1-8_aux	go	MD	O
+1-8	go	1-5_ccomp	decided	VB	O
+1-9	down	1-8_prt	go	RP	O
+1-10	to	O	O	O	O
+1-11	owning	1-8_prepc_to	go	VBG	O
+1-12	just	O	O	RB	O
+1-13	one	O	O	CD	O
+1-14	car	1-11_dobj	owning	NN	P1_NPart_car
+1-15	in	O	O	O	O
+1-16	the	O	O	DT	O
+1-17	fall	1-11_prep_in	owning	NN	P1_NPart_fall
+1-18	of	O	O	O	O
+1-19	2013	O	O	CD	O
+1-20	.	O	O	O	O
+
+#id=2
+#text=I was not going to be working away from home during 2014 so we thought we could share and most of the time that went pretty well , but there were times when I had to take the bus . 
+2-1	I	2-4_nsubj	going	PRP	P2_passenger
+2-2	was	2-4_aux	going	VBD	O
+2-3	not	2-4_neg	going	RB	O
+2-4	going	O	O	VBG	O
+2-5	to	2-6_aux	be	TO	O
+2-6	be	2-4_xcomp	going	VB	O
+2-7	working	2-6_dep	be	VBG	O
+2-8	away	O	O	O	O
+2-9	from	O	O	O	O
+2-10	home	2-7_prep_away_from	working	NN	O
+2-11	during	O	O	O	O
+2-12	2014	2-7_prep_during	working	CD	O
+2-13	so	2-15_mark	thought	IN	O
+2-14	we	2-15_nsubj	thought	PRP	P2_NPart_we
+2-15	thought	2-7_advcl	working	VBD	O
+2-16	we	2-18_nsubj	share	PRP	P3_NPart_we
+2-17	could	2-18_aux	share	MD	O
+2-18	share	2-15_ccomp	thought	VB	O
+2-19	and	O	O	O	O
+2-20	most	2-7_conj_and	working	JJS	O
+2-21	of	O	O	O	O
+2-22	the	O	O	DT	O
+2-23	time	O	O	NN	P1_NPart_time
+2-24	that	2-25_nsubj	went	WDT	O
+2-25	went	O	O	VBD	O
+2-26	pretty	O	O	RB	O
+2-27	well	2-25_advmod	went	RB	O
+2-28	,	O	O	O	O
+2-29	but	O	O	O	O
+2-30	there	2-31_expl	were	EX	O
+2-31	were	2-4_conj_but	going	VBD	O
+2-32	times	2-31_nsubj	were	NNS	P1_NPart_times
+2-33	when	2-35_advmod	had	WRB	O
+2-34	I	2-35_nsubj	had	PRP	P2_passenger
+2-35	had	O	O	VBD	O
+2-36	to	2-37_aux	take	TO	O
+2-37	take	2-35_xcomp	had	VB	O
+2-38	the	O	O	DT	O
+2-39	bus	2-37_dobj	take	NN	P1_bus
+2-40	.	O	O	O	O
+
+#id=3
+#text=I knew I needed to get from a final day of teaching , for example , at the university to downtown to meet up with my husband . 
+3-1	I	3-2_nsubj	knew	PRP	P2_passenger
+3-2	knew	O	O	VBD	O
+3-3	I	3-4_nsubj	needed	PRP	P2_passenger
+3-4	needed	3-2_ccomp	knew	VBD	O
+3-5	to	3-6_aux	get	TO	O
+3-6	get	3-4_xcomp	needed	VB	O
+3-7	from	O	O	O	O
+3-8	a	O	O	DT	O
+3-9	final	O	O	JJ	O
+3-10	day	3-6_prep_from	get	NN	P1_NPart_day
+3-11	of	O	O	O	O
+3-12	teaching	O	O	NN	P1_NPart_teaching
+3-13	,	O	O	O	O
+3-14	for	O	O	O	O
+3-15	example	3-4_prep_for	needed	NN	P1_NPart_example
+3-16	,	O	O	O	O
+3-17	at	O	O	O	O
+3-18	the	O	O	DT	O
+3-19	university	3-4_prep_at	needed	NN	P1_NPart_university
+3-20	to	O	O	O	O
+3-21	downtown	O	O	NN	P1_NPart_downtown
+3-22	to	3-23_aux	meet	TO	O
+3-23	meet	O	O	VB	O
+3-24	up	3-23_prt	meet	RP	O
+3-25	with	O	O	O	O
+3-26	my	O	O	PRP$	P3_passenger
+3-27	husband	3-23_prep_with	meet	NN	P2_NPart_husband
+3-28	.	O	O	O	O
+
+#id=4
+#text=I checked the bus schedules online and determined I needed to take the number 7 bus . 
+4-1	I	4-2_nsubj	checked	PRP	P2_passenger
+4-2	checked	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	bus	O	O	NN	O
+4-5	schedules	4-2_dobj	checked	NNS	P1_time-table
+4-6	online	4-2_prep	checked	NN	O
+4-7	and	O	O	O	O
+4-8	determined	4-2_conj_and	checked	VBD	O
+4-9	I	4-10_nsubj	needed	PRP	P2_passenger
+4-10	needed	4-8_ccomp	determined	VBD	O
+4-11	to	4-12_aux	take	TO	O
+4-12	take	4-10_xcomp	needed	VB	O
+4-13	the	O	O	DT	O
+4-14	number	O	O	NN	O
+4-15	7	O	O	CD	O
+4-16	bus	4-12_dobj	take	NN	P1_bus
+4-17	.	O	O	O	O
+
+#id=5
+#text=I plotted this out on my phone as well so I 'd know the time for sure . 
+5-1	I	5-2_nsubj	plotted	PRP	P2_passenger
+5-2	plotted	O	O	VBD	O
+5-3	this	5-2_dobj	plotted	DT	O
+5-4	out	5-2_prt	plotted	RP	O
+5-5	on	O	O	O	O
+5-6	my	O	O	PRP$	P2_passenger
+5-7	phone	5-2_prep_on	plotted	NN	P1_NPart_phone
+5-8	as	O	O	RB	O
+5-9	well	5-13_advmod	know	RB	O
+5-10	so	5-13_mark	know	IN	O
+5-11	I	5-13_nsubj	know	PRP	P2_passenger
+5-12	'd	5-13_aux	know	MD	O
+5-13	know	5-2_advcl	plotted	VB	O
+5-14	the	O	O	DT	O
+5-15	time	5-13_dobj	know	NN	P2_NPart_time
+5-16	for	O	O	O	O
+5-17	sure	5-13_prep_for	know	JJ	O
+5-18	.	O	O	O	O
+
+#id=6
+#text=I walked across campus and waited at the stop . 
+6-1	I	6-2_nsubj	walked	PRP	P2_passenger
+6-2	walked	O	O	VBD	O
+6-3	across	O	O	O	O
+6-4	campus	6-2_prep_across	walked	NN	P1_NPart_campus
+6-5	and	O	O	O	O
+6-6	waited	6-2_conj_and	walked	VBD	O
+6-7	at	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	stop	6-6_prep_at	waited	NN	P1_bus_stop
+6-10	.	O	O	O	O
+
+#id=7
+#text=I had to wait about 10 minutes before the bus came . 
+7-1	I	7-2_nsubj	had	PRP	P2_passenger
+7-2	had	O	O	VBD	O
+7-3	to	7-4_aux	wait	TO	O
+7-4	wait	7-2_xcomp	had	VB	O
+7-5	about	O	O	RB	O
+7-6	10	O	O	CD	O
+7-7	minutes	7-11_dep	came	NNS	P1_time/date
+7-8	before	7-11_mark	came	IN	O
+7-9	the	O	O	DT	O
+7-10	bus	7-11_nsubj	came	NN	P1_bus
+7-11	came	7-4_advcl	wait	VBD	O
+7-12	.	O	O	O	O
+
+#id=8
+#text=Since this was just one trip I had cash that I put into the bus meter and found a seat . 
+8-1	Since	O	O	IN	O
+8-2	this	O	O	DT	O
+8-3	was	O	O	VBD	O
+8-4	just	O	O	RB	O
+8-5	one	O	O	CD	O
+8-6	trip	8-8_advcl	had	NN	P1_ride
+8-7	I	8-8_nsubj	had	PRP	P2_passenger
+8-8	had	O	O	VBD	O
+8-9	cash	8-8_dobj	had	NN	P1_money
+8-10	that	8-12_mark	put	IN	O
+8-11	I	8-12_nsubj	put	PRP	P2_passenger
+8-12	put	8-8_ccomp	had	VBD	O
+8-13	into	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	bus	O	O	NN	O
+8-16	meter	8-12_prep_into	put	NN	P1_payment_machine
+8-17	and	O	O	O	O
+8-18	found	8-12_conj_and	put	VBD	O
+8-19	a	O	O	DT	O
+8-20	seat	8-18_dobj	found	NN	P1_seat_in_bus
+8-21	.	O	O	O	O
+
+#id=9
+#text=The bus made a lot of stops on its way to downtown and I did n't take it as far as I could have to meet up with my husband . 
+9-1	The	O	O	DT	O
+9-2	bus	9-3_nsubj	made	NN	P1_bus
+9-3	made	O	O	VBD	O
+9-4	a	O	O	DT	O
+9-5	lot	9-3_dobj	made	NN	O
+9-6	of	O	O	O	O
+9-7	stops	O	O	NNS	P1_other
+9-8	on	O	O	O	O
+9-9	its	O	O	PRP$	P1_bus
+9-10	way	O	O	NN	P1_route
+9-11	to	O	O	O	O
+9-12	downtown	9-3_prep_to	made	NN	P2_NPart_downtown
+9-13	and	O	O	O	O
+9-14	I	9-17_nsubj	take	PRP	P2_passenger
+9-15	did	9-17_aux	take	VBD	O
+9-16	n't	9-17_neg	take	RB	O
+9-17	take	9-3_conj_and	made	VB	O
+9-18	it	9-17_dobj	take	PRP	P1_bus
+9-19	as	O	O	RB	O
+9-20	far	9-17_advmod	take	RB	O
+9-21	as	9-24_mark	have	IN	O
+9-22	I	9-24_nsubj	have	PRP	P2_passenger
+9-23	could	9-24_aux	have	MD	O
+9-24	have	O	O	VB	O
+9-25	to	9-26_aux	meet	TO	O
+9-26	meet	9-24_xcomp	have	VB	O
+9-27	up	9-26_prt	meet	RP	O
+9-28	with	O	O	O	O
+9-29	my	O	O	PRP$	P2_passenger
+9-30	husband	9-26_prep_with	meet	NN	P3_NPart_husband
+9-31	.	O	O	O	O
+
+#id=10
+#text=Instead I got off at an earlier stop once I recognized the area and walked . 
+10-1	Instead	10-3_advmod	got	RB	O
+10-2	I	10-3_nsubj	got	PRP	P2_passenger
+10-3	got	O	O	VBD	O
+10-4	off	10-3_prt	got	RP	O
+10-5	at	O	O	O	O
+10-6	an	O	O	DT	O
+10-7	earlier	O	O	JJR	O
+10-8	stop	10-3_prep_at	got	NN	P2_bus_stop
+10-9	once	10-11_mark	recognized	IN	O
+10-10	I	10-11_nsubj	recognized	PRP	P2_passenger
+10-11	recognized	10-3_advcl	got	VBD	O
+10-12	the	O	O	DT	O
+10-13	area	10-11_dobj	recognized	NN	P1_NPart_area
+10-14	and	O	O	O	O
+10-15	walked	10-11_conj_and	recognized	VBD	O
+10-16	.	O	O	O	O
+
+#id=11
+#text=It was a regular stop so I did n't have to pull the cord to ask the driver to let me off . '' 
+11-1	It	O	O	PRP	P1_NPart_it
+11-2	was	O	O	VBD	O
+11-3	a	O	O	DT	O
+11-4	regular	O	O	JJ	O
+11-5	stop	O	O	NN	P2_bus_stop
+11-6	so	11-10_mark	have	IN	O
+11-7	I	11-10_nsubj	have	PRP	P2_passenger
+11-8	did	11-10_aux	have	VBD	O
+11-9	n't	11-10_neg	have	RB	O
+11-10	have	O	O	VB	O
+11-11	to	11-12_aux	pull	TO	O
+11-12	pull	11-10_xcomp	have	VB	O
+11-13	the	O	O	DT	O
+11-14	cord	11-12_dobj	pull	NN	P1_stop_button/door_opener
+11-15	to	11-16_aux	ask	TO	O
+11-16	ask	O	O	VB	O
+11-17	the	O	O	DT	O
+11-18	driver	11-16_dobj	ask	NN	P1_bus_staff
+11-19	to	11-20_aux	let	TO	O
+11-20	let	O	O	VB	O
+11-21	me	11-20_dobj	let	PRP	P2_passenger
+11-22	off	11-20_prt	let	RP	O
+11-23	.	O	O	O	O
+11-24	''	O	O	O	O
+
+#id=12
+#text=, True story : 
+12-1	,	O	O	O	O
+12-2	True	O	O	JJ	O
+12-3	story	O	O	NN	P1_NPart_story
+12-4	:	O	O	O	O

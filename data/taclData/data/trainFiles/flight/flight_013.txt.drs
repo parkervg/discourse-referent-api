@@ -1,0 +1,375 @@
+#id=1
+#text=In September 2012 , I rode and flew in an airplane on my way back home from my parents ' country of birth , the Philippines . 
+1-1	In	O	O	O	O
+1-2	September	1-6_prep_in	rode	NNP	O
+1-3	2012	O	O	CD	P1_time/date
+1-4	,	O	O	O	O
+1-5	I	1-6_nsubj	rode	PRP	P1_passenger
+1-6	rode	O	O	VBD	O
+1-7	and	O	O	O	O
+1-8	flew	1-6_conj_and	rode	VBD	O
+1-9	in	O	O	O	O
+1-10	an	O	O	DT	O
+1-11	airplane	1-8_prep_in	flew	NN	P1_plane
+1-12	on	O	O	O	O
+1-13	my	O	O	PRP$	P1_passenger
+1-14	way	O	O	NN	O
+1-15	back	1-8_advmod	flew	RB	O
+1-16	home	O	O	NN	O
+1-17	from	O	O	O	O
+1-18	my	O	O	PRP$	P2_passenger
+1-19	parents	O	O	NNS	P1_NPart_parents
+1-20	'	O	O	O	O
+1-21	country	1-8_prep_from	flew	NN	P1_NPart_country
+1-22	of	O	O	O	O
+1-23	birth	O	O	NN	P1_NPart_birth
+1-24	,	O	O	O	O
+1-25	the	O	O	DT	O
+1-26	Philippines	O	O	NNPS	P1_NPart_philippines
+1-27	.	O	O	O	O
+
+#id=2
+#text=I rode two different planes , but this one will be about the second one , the trip on the way back to the United States . 
+2-1	I	2-2_nsubj	rode	PRP	P1_passenger
+2-2	rode	O	O	VBD	O
+2-3	two	O	O	CD	O
+2-4	different	O	O	JJ	O
+2-5	planes	2-2_dobj	rode	NNS	P1_plane
+2-6	,	O	O	O	O
+2-7	but	O	O	O	O
+2-8	this	O	O	DT	O
+2-9	one	2-11_nsubj	be	NN	O
+2-10	will	2-11_aux	be	MD	O
+2-11	be	2-2_conj_but	rode	VB	O
+2-12	about	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	second	O	O	JJ	O
+2-15	one	2-11_prep_about	be	NN	P1_plane
+2-16	,	O	O	O	O
+2-17	the	O	O	DT	O
+2-18	trip	O	O	NN	P1_flight
+2-19	on	O	O	O	O
+2-20	the	O	O	DT	O
+2-21	way	O	O	NN	O
+2-22	back	2-11_advmod	be	RB	O
+2-23	to	O	O	O	O
+2-24	the	O	O	DT	O
+2-25	United	O	O	NNP	O
+2-26	States	O	O	NNPS	P1_target_location
+2-27	.	O	O	O	O
+
+#id=3
+#text=I was in Narita International Airport and boarding my second flight . 
+3-1	I	3-2_nsubj	was	PRP	P1_passenger
+3-2	was	O	O	VBD	O
+3-3	in	3-2_dep	was	IN	O
+3-4	Narita	O	O	NNP	O
+3-5	International	O	O	NNP	O
+3-6	Airport	O	O	NNP	P1_airport
+3-7	and	O	O	O	O
+3-8	boarding	O	O	VBG	O
+3-9	my	O	O	PRP$	P1_passenger
+3-10	second	O	O	JJ	O
+3-11	flight	3-8_dobj	boarding	NN	P1_flight
+3-12	.	O	O	O	O
+
+#id=4
+#text=I forgot which airline it was . 
+4-1	I	4-2_nsubj	forgot	PRP	P1_passenger
+4-2	forgot	O	O	VBD	O
+4-3	which	O	O	WDT	O
+4-4	airline	4-2_dobj	forgot	NN	P1_other
+4-5	it	4-6_nsubj	was	PRP	O
+4-6	was	4-2_dep	forgot	VBD	O
+4-7	.	O	O	O	O
+
+#id=5
+#text=But like one would normally do , I waited in line , showed the boarding attendant my ticket and passport , and headed to the tunnel connecting the building and the plane . 
+5-1	But	O	O	O	O
+5-2	like	O	O	O	O
+5-3	one	5-9_prep_like	waited	CD	O
+5-4	would	5-6_aux	do	MD	O
+5-5	normally	5-6_advmod	do	RB	O
+5-6	do	O	O	VB	O
+5-7	,	O	O	O	O
+5-8	I	5-9_nsubj	waited	PRP	P1_passenger
+5-9	waited	O	O	VBD	O
+5-10	in	O	O	O	O
+5-11	line	5-9_prep_in	waited	NN	P1_line
+5-12	,	O	O	O	O
+5-13	showed	5-9_conj_but	waited	VBD	O
+5-14	the	O	O	DT	O
+5-15	boarding	O	O	JJ	O
+5-16	attendant	5-13_iobj	showed	NN	P1_staff
+5-17	my	O	O	PRP$	P1_passenger
+5-18	ticket	5-13_dobj	showed	NN	P1_ticket
+5-19	and	O	O	O	O
+5-20	passport	O	O	NN	P1_passport/ID
+5-21	,	O	O	O	O
+5-22	and	O	O	O	O
+5-23	headed	5-9_conj_and	waited	VBD	O
+5-24	to	O	O	O	O
+5-25	the	O	O	DT	O
+5-26	tunnel	5-23_prep_to	headed	NN	P2_other
+5-27	connecting	5-23_xcomp	headed	VBG	O
+5-28	the	O	O	DT	O
+5-29	building	5-27_dobj	connecting	NN	P1_airport
+5-30	and	O	O	O	O
+5-31	the	O	O	DT	O
+5-32	plane	O	O	NN	P1_plane
+5-33	.	O	O	O	O
+
+#id=6
+#text=As I headed for my seat , I tried looking at the seat numbers on the compartments above them . 
+6-1	As	6-3_mark	headed	IN	O
+6-2	I	6-3_nsubj	headed	PRP	P1_passenger
+6-3	headed	6-9_advcl	tried	VBD	O
+6-4	for	O	O	O	O
+6-5	my	O	O	PRP$	P1_passenger
+6-6	seat	6-3_prep_for	headed	NN	P1_seat
+6-7	,	O	O	O	O
+6-8	I	6-9_nsubj	tried	PRP	P1_passenger
+6-9	tried	O	O	VBD	O
+6-10	looking	6-9_xcomp	tried	VBG	O
+6-11	at	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	seat	O	O	NN	O
+6-14	numbers	6-10_prep_at	looking	NNS	P3_other
+6-15	on	O	O	O	O
+6-16	the	O	O	DT	O
+6-17	compartments	6-10_prep_on	looking	NNS	P1_storage
+6-18	above	O	O	O	O
+6-19	them	O	O	PRP	P1_seat
+6-20	.	O	O	O	O
+
+#id=7
+#text=I found mine , and opened the compartment to put my carry-on in . 
+7-1	I	7-2_nsubj	found	PRP	P1_passenger
+7-2	found	O	O	VBD	O
+7-3	mine	7-2_dobj	found	NN	P1_seat
+7-4	,	O	O	O	O
+7-5	and	O	O	O	O
+7-6	opened	7-2_conj_and	found	VBD	O
+7-7	the	O	O	DT	O
+7-8	compartment	7-6_dobj	opened	NN	P1_storage
+7-9	to	7-10_aux	put	TO	O
+7-10	put	7-6_vmod	opened	VB	O
+7-11	my	O	O	PRP$	P1_passenger
+7-12	carry-on	7-10_dobj	put	NN	P1_carry_on_luggage
+7-13	in	7-10_prep	put	IN	O
+7-14	.	O	O	O	O
+
+#id=8
+#text=I sat down and tried to make myself comfortable . 
+8-1	I	8-2_nsubj	sat	PRP	P1_passenger
+8-2	sat	O	O	VBD	O
+8-3	down	8-2_prt	sat	RP	O
+8-4	and	O	O	O	O
+8-5	tried	8-2_conj_and	sat	VBD	O
+8-6	to	8-7_aux	make	TO	O
+8-7	make	8-5_xcomp	tried	VB	O
+8-8	myself	O	O	PRP	P1_passenger
+8-9	comfortable	8-7_xcomp	make	JJ	O
+8-10	.	O	O	O	O
+
+#id=9
+#text=In about 15 minutes , we were ready for take-off . 
+9-1	In	O	O	O	O
+9-2	about	O	O	RB	O
+9-3	15	O	O	CD	O
+9-4	minutes	O	O	NNS	P2_time/date
+9-5	,	O	O	O	O
+9-6	we	O	O	PRP	P1_plane
+9-7	were	O	O	VBD	O
+9-8	ready	O	O	JJ	O
+9-9	for	O	O	O	O
+9-10	take-off	O	O	JJ	P4_other
+9-11	.	O	O	O	O
+
+#id=10
+#text=The flight attendant made some announcements , and we were set . 
+10-1	The	O	O	DT	O
+10-2	flight	O	O	NN	O
+10-3	attendant	10-4_nsubj	made	NN	P2_staff
+10-4	made	O	O	VBD	O
+10-5	some	O	O	DT	O
+10-6	announcements	10-4_dobj	made	NNS	P1_safety_instructions
+10-7	,	O	O	O	O
+10-8	and	O	O	O	O
+10-9	we	10-11_nsubjpass	set	PRP	P1_plane
+10-10	were	10-11_auxpass	set	VBD	O
+10-11	set	10-4_conj_and	made	VBN	O
+10-12	.	O	O	O	O
+
+#id=11
+#text=I was seated by the window , as I always do . 
+11-1	I	11-3_nsubjpass	seated	PRP	P1_passenger
+11-2	was	11-3_auxpass	seated	VBD	O
+11-3	seated	O	O	VBN	O
+11-4	by	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	window	11-3_agent	seated	NN	P5_other
+11-7	,	O	O	O	O
+11-8	as	11-11_mark	do	IN	O
+11-9	I	11-11_nsubj	do	PRP	P1_passenger
+11-10	always	11-11_advmod	do	RB	O
+11-11	do	11-3_advcl	seated	VBP	O
+11-12	.	O	O	O	O
+
+#id=12
+#text=I love sitting by the window . 
+12-1	I	12-2_nsubj	love	PRP	P1_passenger
+12-2	love	O	O	VBP	O
+12-3	sitting	12-2_xcomp	love	VBG	O
+12-4	by	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	window	12-3_prep_by	sitting	NN	P5_other
+12-7	.	O	O	O	O
+
+#id=13
+#text=The view is awe-inspiring when you ' re that high . 
+13-1	The	O	O	DT	O
+13-2	view	O	O	NN	P6_other
+13-3	is	O	O	VBZ	O
+13-4	awe-inspiring	O	O	JJ	O
+13-5	when	13-8_advmod	re	WRB	O
+13-6	you	13-8_nsubj	re	PRP	P1_passenger
+13-7	'	O	O	O	O
+13-8	re	O	O	VBP	O
+13-9	that	O	O	DT	O
+13-10	high	13-8_xcomp	re	JJ	O
+13-11	.	O	O	O	O
+
+#id=14
+#text=I decided to open up a fresh set of earphones and browsed the media player in front of me , and watched Avengers . 
+14-1	I	14-2_nsubj	decided	PRP	P1_passenger
+14-2	decided	O	O	VBD	O
+14-3	to	14-4_aux	open	TO	O
+14-4	open	14-2_xcomp	decided	VB	O
+14-5	up	14-4_prt	open	RP	O
+14-6	a	O	O	DT	O
+14-7	fresh	O	O	JJ	O
+14-8	set	14-4_dobj	open	NN	O
+14-9	of	O	O	O	O
+14-10	earphones	O	O	NNS	P1_in-flight_entertainment
+14-11	and	O	O	O	O
+14-12	browsed	14-2_conj_and	decided	VBD	O
+14-13	the	O	O	DT	O
+14-14	media	O	O	NNS	O
+14-15	player	14-12_dobj	browsed	NN	P2_in-flight_entertainment
+14-16	in	O	O	O	O
+14-17	front	O	O	O	O
+14-18	of	O	O	O	O
+14-19	me	14-12_prep_in_front_of	browsed	PRP	P1_passenger
+14-20	,	O	O	O	O
+14-21	and	O	O	O	O
+14-22	watched	14-2_conj_and	decided	VBD	O
+14-23	Avengers	14-22_dobj	watched	NNS	P3_in-flight_entertainment
+14-24	.	O	O	O	O
+
+#id=15
+#text=My viewing was interrupted when dinner was being served . 
+15-1	My	O	O	PRP$	P1_passenger
+15-2	viewing	15-4_nsubjpass	interrupted	NN	O
+15-3	was	15-4_auxpass	interrupted	VBD	O
+15-4	interrupted	O	O	VBN	O
+15-5	when	15-9_advmod	served	WRB	O
+15-6	dinner	15-9_nsubjpass	served	NN	P7_other
+15-7	was	15-9_aux	served	VBD	O
+15-8	being	15-9_auxpass	served	VBG	O
+15-9	served	15-4_advcl	interrupted	VBN	O
+15-10	.	O	O	O	O
+
+#id=16
+#text=I love airport food as well , for the most part . 
+16-1	I	16-2_nsubj	love	PRP	P1_passenger
+16-2	love	O	O	VBP	O
+16-3	airport	O	O	NN	O
+16-4	food	16-2_dobj	love	NN	P7_other
+16-5	as	O	O	RB	O
+16-6	well	16-2_advmod	love	RB	O
+16-7	,	O	O	O	O
+16-8	for	O	O	O	O
+16-9	the	O	O	DT	O
+16-10	most	O	O	JJS	O
+16-11	part	16-2_prep_for	love	NN	O
+16-12	.	O	O	O	O
+
+#id=17
+#text=It ' s not always the best , but most of the time I like it . 
+17-1	It	O	O	PRP	P7_other
+17-2	'	O	O	O	O
+17-3	s	O	O	VBZ	O
+17-4	not	O	O	RB	O
+17-5	always	O	O	RB	O
+17-6	the	O	O	DT	O
+17-7	best	O	O	JJS	O
+17-8	,	O	O	O	O
+17-9	but	O	O	O	O
+17-10	most	17-15_advmod	like	RBS	O
+17-11	of	O	O	O	O
+17-12	the	O	O	DT	O
+17-13	time	O	O	NN	P1_NPart_time
+17-14	I	17-15_nsubj	like	PRP	P1_passenger
+17-15	like	O	O	VBP	O
+17-16	it	17-15_dobj	like	PRP	P7_other
+17-17	.	O	O	O	O
+
+#id=18
+#text=After eating , I finished the movie and fell asleep . 
+18-1	After	O	O	O	O
+18-2	eating	18-5_prep_after	finished	NN	O
+18-3	,	O	O	O	O
+18-4	I	18-5_nsubj	finished	PRP	P1_passenger
+18-5	finished	O	O	VBD	O
+18-6	the	O	O	DT	O
+18-7	movie	18-5_dobj	finished	NN	P3_in-flight_entertainment
+18-8	and	O	O	O	O
+18-9	fell	18-5_conj_and	finished	VBD	O
+18-10	asleep	18-9_dep	fell	RB	O
+18-11	.	O	O	O	O
+
+#id=19
+#text=For the rest of the flight , I saw clouds , sunshine , and other planes , and by nighttime , we landed in New York , at the JFK International airport . 
+19-1	For	O	O	O	O
+19-2	the	O	O	DT	O
+19-3	rest	19-9_prep_for	saw	NN	O
+19-4	of	O	O	O	O
+19-5	the	O	O	DT	O
+19-6	flight	O	O	NN	P2_flight
+19-7	,	O	O	O	O
+19-8	I	19-9_nsubj	saw	PRP	P1_passenger
+19-9	saw	O	O	VBD	O
+19-10	clouds	19-9_dobj	saw	NNS	P1_NPart_clouds
+19-11	,	O	O	O	O
+19-12	sunshine	O	O	NN	P1_NPart_sunshine
+19-13	,	O	O	O	O
+19-14	and	O	O	O	O
+19-15	other	O	O	JJ	O
+19-16	planes	O	O	NNS	P1_NPart_planes
+19-17	,	O	O	O	O
+19-18	and	O	O	O	O
+19-19	by	O	O	O	O
+19-20	nighttime	19-23_prep_by	landed	NN	P3_time/date
+19-21	,	O	O	O	O
+19-22	we	19-23_nsubj	landed	PRP	P1_plane
+19-23	landed	19-9_conj_and	saw	VBD	O
+19-24	in	O	O	O	O
+19-25	New	O	O	NNP	O
+19-26	York	19-23_prep_in	landed	NNP	P1_target_location
+19-27	,	O	O	O	O
+19-28	at	O	O	O	O
+19-29	the	O	O	DT	O
+19-30	JFK	O	O	NNP	O
+19-31	International	O	O	NNP	O
+19-32	airport	19-23_prep_at	landed	NN	P2_airport
+19-33	.	O	O	O	O
+
+#id=20
+#text=It was a great flight . 
+20-1	It	O	O	PRP	O
+20-2	was	O	O	VBD	O
+20-3	a	O	O	DT	O
+20-4	great	O	O	JJ	O
+20-5	flight	O	O	NN	P2_flight
+20-6	.	O	O	O	O

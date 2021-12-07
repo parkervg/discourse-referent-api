@@ -1,0 +1,196 @@
+#id=1
+#text=Last week I got a phone call for a job interview , and I decided I should clean myself up before going there . 
+1-1	Last	O	O	JJ	O
+1-2	week	1-4_tmod	got	NN	P1_time/date
+1-3	I	1-4_nsubj	got	PRP	P1_customer
+1-4	got	O	O	VBD	O
+1-5	a	O	O	DT	O
+1-6	phone	O	O	NN	O
+1-7	call	1-4_dobj	got	NN	P1_NPart_call
+1-8	for	O	O	O	O
+1-9	a	O	O	DT	O
+1-10	job	O	O	NN	O
+1-11	interview	1-4_prep_for	got	NN	P1_NPart_interview
+1-12	,	O	O	O	O
+1-13	and	O	O	O	O
+1-14	I	1-15_nsubj	decided	PRP	P1_customer
+1-15	decided	1-4_conj_and	got	VBD	O
+1-16	I	1-18_nsubj	clean	PRP	P1_customer
+1-17	should	1-18_aux	clean	MD	O
+1-18	clean	1-15_ccomp	decided	VB	O
+1-19	myself	1-18_dobj	clean	PRP	P1_customer
+1-20	up	1-18_prt	clean	RP	O
+1-21	before	O	O	O	O
+1-22	going	1-18_prepc_before	clean	VBG	O
+1-23	there	1-22_advmod	going	RB	O
+1-24	.	O	O	O	O
+
+#id=2
+#text=The major thing I needed to do was get a haircut since my hair had become long and unkempt . 
+2-1	The	O	O	DT	O
+2-2	major	O	O	JJ	O
+2-3	thing	2-8_nsubj	was	NN	P1_NPart_thing
+2-4	I	2-5_nsubj	needed	PRP	P1_customer
+2-5	needed	O	O	VBD	O
+2-6	to	2-7_aux	do	TO	O
+2-7	do	2-5_xcomp	needed	VB	O
+2-8	was	O	O	VBD	O
+2-9	get	2-8_ccomp	was	VB	O
+2-10	a	O	O	DT	O
+2-11	haircut	2-9_dobj	get	NN	P1_haircut
+2-12	since	2-16_mark	become	IN	O
+2-13	my	O	O	PRP$	P1_customer
+2-14	hair	2-16_nsubj	become	NN	P1_hair
+2-15	had	2-16_aux	become	VBD	O
+2-16	become	2-9_advcl	get	VBN	O
+2-17	long	2-16_acomp	become	JJ	O
+2-18	and	O	O	O	O
+2-19	unkempt	O	O	JJ	O
+2-20	.	O	O	O	O
+
+#id=3
+#text=I went over to the local barber and signed into the waiting list . 
+3-1	I	3-2_nsubj	went	PRP	P1_customer
+3-2	went	O	O	VBD	O
+3-3	over	3-2_prt	went	RP	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	local	O	O	JJ	O
+3-7	barber	3-2_prep_to	went	NN	P1_salon
+3-8	and	O	O	O	O
+3-9	signed	3-2_conj_and	went	VBD	O
+3-10	into	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	waiting	O	O	VBG	O
+3-13	list	3-9_prep_into	signed	NN	P1_other
+3-14	.	O	O	O	O
+
+#id=4
+#text=I sat around waiting my turn , which took about 15 minutes . 
+4-1	I	4-2_nsubj	sat	PRP	P1_customer
+4-2	sat	O	O	VBD	O
+4-3	around	O	O	O	O
+4-4	waiting	4-2_prepc_around	sat	VBG	O
+4-5	my	O	O	PRP$	P1_customer
+4-6	turn	4-4_dobj	waiting	NN	P1_NPart_turn
+4-7	,	O	O	O	O
+4-8	which	4-9_nsubj	took	WDT	O
+4-9	took	O	O	VBD	O
+4-10	about	O	O	RB	O
+4-11	15	O	O	CD	O
+4-12	minutes	4-9_dobj	took	NNS	P2_time/date
+4-13	.	O	O	O	O
+
+#id=5
+#text=When they called my name I got up and sat in the barber chair . 
+5-1	When	5-3_advmod	called	WRB	O
+5-2	they	5-3_nsubj	called	PRP	P1_staff
+5-3	called	5-7_advcl	got	VBD	O
+5-4	my	O	O	PRP$	P1_customer
+5-5	name	5-3_dobj	called	NN	P1_NPart_name
+5-6	I	5-7_nsubj	got	PRP	P1_customer
+5-7	got	O	O	VBD	O
+5-8	up	5-7_prt	got	RP	O
+5-9	and	O	O	O	O
+5-10	sat	5-7_conj_and	got	VBD	O
+5-11	in	O	O	O	O
+5-12	the	O	O	DT	O
+5-13	barber	O	O	NN	O
+5-14	chair	5-10_prep_in	sat	NN	P1_chair
+5-15	.	O	O	O	O
+
+#id=6
+#text=The barber asked me what kind of haircut I wanted , and I just told them to give me a professional look . 
+6-1	The	O	O	DT	O
+6-2	barber	6-3_nsubj	asked	NN	P1_hairdresser
+6-3	asked	O	O	VBD	O
+6-4	me	6-3_dobj	asked	PRP	P1_customer
+6-5	what	O	O	WP	O
+6-6	kind	6-10_dobj	wanted	NN	P1_NPart_kind
+6-7	of	O	O	O	O
+6-8	haircut	O	O	NN	P1_haircut
+6-9	I	6-10_nsubj	wanted	PRP	P1_customer
+6-10	wanted	6-3_dep	asked	VBD	O
+6-11	,	O	O	O	O
+6-12	and	O	O	O	O
+6-13	I	6-15_nsubj	told	PRP	P1_customer
+6-14	just	6-15_advmod	told	RB	O
+6-15	told	6-3_conj_and	asked	VBD	O
+6-16	them	6-15_dobj	told	PRP	P1_hairdresser
+6-17	to	6-18_aux	give	TO	O
+6-18	give	6-15_xcomp	told	VB	O
+6-19	me	6-18_iobj	give	PRP	P1_customer
+6-20	a	O	O	DT	O
+6-21	professional	O	O	JJ	O
+6-22	look	6-18_dobj	give	NN	P1_NPart_look
+6-23	.	O	O	O	O
+
+#id=7
+#text=They were good at their job so they knew exactly what to do . 
+7-1	They	O	O	PRP	P2_hairdresser
+7-2	were	O	O	VBD	O
+7-3	good	O	O	JJ	O
+7-4	at	O	O	O	O
+7-5	their	O	O	PRP$	P1_hairdresser
+7-6	job	O	O	NN	P1_NPart_job
+7-7	so	7-9_mark	knew	IN	O
+7-8	they	7-9_nsubj	knew	PRP	P2_hairdresser
+7-9	knew	O	O	VBD	O
+7-10	exactly	O	O	RB	O
+7-11	what	7-13_nsubj	do	WP	O
+7-12	to	7-13_aux	do	TO	O
+7-13	do	7-9_ccomp	knew	VB	O
+7-14	.	O	O	O	O
+
+#id=8
+#text=The hair cutting process took about 10 minutes to finish , and once it was over I looked in the mirror and was very pleased with the result . 
+8-1	The	O	O	DT	O
+8-2	hair	O	O	NN	O
+8-3	cutting	O	O	VBG	O
+8-4	process	8-5_nsubj	took	NN	P2_haircut
+8-5	took	O	O	VBD	O
+8-6	about	O	O	RB	O
+8-7	10	O	O	CD	O
+8-8	minutes	8-5_dobj	took	NNS	P3_time/date
+8-9	to	8-10_aux	finish	TO	O
+8-10	finish	8-5_vmod	took	VB	O
+8-11	,	O	O	O	O
+8-12	and	O	O	O	O
+8-13	once	O	O	IN	O
+8-14	it	O	O	PRP	P2_haircut
+8-15	was	O	O	VBD	O
+8-16	over	8-18_advcl	looked	RP	O
+8-17	I	8-18_nsubj	looked	PRP	P1_customer
+8-18	looked	8-5_conj_and	took	VBD	O
+8-19	in	O	O	O	O
+8-20	the	O	O	DT	O
+8-21	mirror	8-18_prep_in	looked	NN	P1_mirror
+8-22	and	O	O	O	O
+8-23	was	O	O	VBD	O
+8-24	very	O	O	RB	O
+8-25	pleased	8-18_conj_and	looked	JJ	O
+8-26	with	O	O	O	O
+8-27	the	O	O	DT	O
+8-28	result	O	O	NN	P3_haircut
+8-29	.	O	O	O	O
+
+#id=9
+#text=I went to the front desk and paid , and I also gave the barber a tip . 
+9-1	I	9-2_nsubj	went	PRP	P1_customer
+9-2	went	O	O	VBD	O
+9-3	to	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	front	O	O	JJ	O
+9-6	desk	9-2_prep_to	went	NN	P1_check_in_desk
+9-7	and	O	O	O	O
+9-8	paid	9-2_conj_and	went	VBD	O
+9-9	,	O	O	O	O
+9-10	and	O	O	O	O
+9-11	I	9-13_nsubj	gave	PRP	P1_customer
+9-12	also	9-13_advmod	gave	RB	O
+9-13	gave	9-2_conj_and	went	VBD	O
+9-14	the	O	O	DT	O
+9-15	barber	9-13_iobj	gave	NN	P2_hairdresser
+9-16	a	O	O	DT	O
+9-17	tip	9-13_dobj	gave	NN	P1_tip
+9-18	.	O	O	O	O

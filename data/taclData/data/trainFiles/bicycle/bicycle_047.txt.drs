@@ -1,0 +1,229 @@
+#id=1
+#text=The other day my dad was riding his bike and started having trouble steering . 
+1-1	The	O	O	DT	O
+1-2	other	O	O	JJ	O
+1-3	day	1-7_tmod	riding	NN	P1_NPart_day
+1-4	my	O	O	PRP$	P1_NPart_my
+1-5	dad	1-7_nsubj	riding	NN	P1_rider
+1-6	was	1-7_aux	riding	VBD	O
+1-7	riding	O	O	VBG	O
+1-8	his	O	O	PRP$	P1_rider
+1-9	bike	1-7_dobj	riding	NN	P1_bicycle
+1-10	and	O	O	O	O
+1-11	started	1-7_conj_and	riding	VBD	O
+1-12	having	1-11_xcomp	started	VBG	O
+1-13	trouble	O	O	NN	O
+1-14	steering	1-12_dobj	having	NN	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=He rode the bike back home and then took it into the back yard to have a look at it . 
+2-1	He	2-2_nsubj	rode	PRP	P1_rider
+2-2	rode	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	bike	2-2_dobj	rode	NN	P1_bicycle
+2-5	back	2-2_advmod	rode	RB	O
+2-6	home	O	O	NN	P1_NPart_home
+2-7	and	O	O	O	O
+2-8	then	2-9_advmod	took	RB	O
+2-9	took	2-2_conj_and	rode	VBD	O
+2-10	it	2-9_dobj	took	PRP	P1_bicycle
+2-11	into	O	O	O	O
+2-12	the	O	O	DT	O
+2-13	back	O	O	JJ	O
+2-14	yard	2-9_prep_into	took	NN	P1_location_repair
+2-15	to	2-16_aux	have	TO	O
+2-16	have	2-9_vmod	took	VB	O
+2-17	a	O	O	DT	O
+2-18	look	2-16_dobj	have	NN	O
+2-19	at	O	O	O	O
+2-20	it	O	O	PRP	P1_bicycle
+2-21	.	O	O	O	O
+
+#id=3
+#text=He noticed that the front tire was flat and was n't keeping air in it . 
+3-1	He	3-2_nsubj	noticed	PRP	P1_rider
+3-2	noticed	O	O	VBD	O
+3-3	that	O	O	IN	O
+3-4	the	O	O	DT	O
+3-5	front	O	O	JJ	O
+3-6	tire	O	O	NN	P1_tire
+3-7	was	O	O	VBD	O
+3-8	flat	3-2_ccomp	noticed	JJ	O
+3-9	and	O	O	O	O
+3-10	was	3-12_aux	keeping	VBD	O
+3-11	n't	3-12_neg	keeping	RB	O
+3-12	keeping	3-2_conj_and	noticed	VBG	O
+3-13	air	3-12_dobj	keeping	NN	P1_air
+3-14	in	O	O	O	O
+3-15	it	O	O	PRP	P1_tire
+3-16	.	O	O	O	O
+
+#id=4
+#text=He took it off the bike . 
+4-1	He	4-2_nsubj	took	PRP	P1_rider
+4-2	took	O	O	VBD	O
+4-3	it	4-2_dobj	took	PRP	P1_tire
+4-4	off	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	bike	4-2_prep_off	took	NN	P1_bicycle
+4-7	.	O	O	O	O
+
+#id=5
+#text=First he pumped it up and tried to see if the tire would hold air . 
+5-1	First	5-3_advmod	pumped	RB	O
+5-2	he	5-3_nsubj	pumped	PRP	P1_rider
+5-3	pumped	O	O	VBD	O
+5-4	it	5-3_dobj	pumped	PRP	P1_tire
+5-5	up	5-3_prt	pumped	RP	O
+5-6	and	O	O	O	O
+5-7	tried	5-3_conj_and	pumped	VBD	O
+5-8	to	5-9_aux	see	TO	O
+5-9	see	5-7_xcomp	tried	VB	O
+5-10	if	5-14_mark	hold	IN	O
+5-11	the	O	O	DT	O
+5-12	tire	5-14_nsubj	hold	NN	P1_tire
+5-13	would	5-14_aux	hold	MD	O
+5-14	hold	5-9_advcl	see	VB	O
+5-15	air	5-14_dobj	hold	NN	P1_air
+5-16	.	O	O	O	O
+
+#id=6
+#text=It would not . 
+6-1	It	O	O	PRP	P1_tire
+6-2	would	O	O	MD	O
+6-3	not	O	O	RB	O
+6-4	.	O	O	O	O
+
+#id=7
+#text=Then he rubbed liquid dish detergent on the tire and pumped it up and looked for where it bubbled to see where the hole was . 
+7-1	Then	7-3_advmod	rubbed	RB	O
+7-2	he	7-3_nsubj	rubbed	PRP	P1_rider
+7-3	rubbed	O	O	VBD	O
+7-4	liquid	O	O	JJ	O
+7-5	dish	O	O	NN	O
+7-6	detergent	7-3_dobj	rubbed	NN	P1_tool
+7-7	on	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	tire	7-3_prep_on	rubbed	NN	P1_tire
+7-10	and	O	O	O	O
+7-11	pumped	7-3_conj_and	rubbed	VBD	O
+7-12	it	7-11_dobj	pumped	PRP	P1_tire
+7-13	up	7-11_prt	pumped	RP	O
+7-14	and	O	O	O	O
+7-15	looked	7-11_conj_and	pumped	VBD	O
+7-16	for	O	O	O	O
+7-17	where	7-19_advmod	bubbled	WRB	O
+7-18	it	7-19_nsubj	bubbled	PRP	P1_NPart_it
+7-19	bubbled	7-15_prepc_for	looked	VBD	O
+7-20	to	7-21_aux	see	TO	O
+7-21	see	7-19_xcomp	bubbled	VB	O
+7-22	where	7-25_advmod	was	WRB	O
+7-23	the	O	O	DT	O
+7-24	hole	7-25_nsubj	was	NN	P1_damage
+7-25	was	7-21_advcl	see	VBD	O
+7-26	.	O	O	O	O
+
+#id=8
+#text=Once he found the hole , he decided if it needed a patch or a plug . 
+8-1	Once	8-3_mark	found	IN	O
+8-2	he	8-3_nsubj	found	PRP	P1_rider
+8-3	found	8-8_advcl	decided	VBD	O
+8-4	the	O	O	DT	O
+8-5	hole	8-3_dobj	found	NN	P1_damage
+8-6	,	O	O	O	O
+8-7	he	8-8_nsubj	decided	PRP	P1_rider
+8-8	decided	O	O	VBD	O
+8-9	if	8-11_mark	needed	IN	O
+8-10	it	8-11_nsubj	needed	PRP	P1_damage
+8-11	needed	8-8_advcl	decided	VBD	O
+8-12	a	O	O	DT	O
+8-13	patch	8-11_dobj	needed	NN	P1_patch
+8-14	or	O	O	O	O
+8-15	a	O	O	DT	O
+8-16	plug	O	O	NN	P2_patch
+8-17	.	O	O	O	O
+
+#id=9
+#text=It was a small round hole so he decided to put a plug in it . 
+9-1	It	O	O	PRP	P1_damage
+9-2	was	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	small	O	O	JJ	O
+9-5	round	O	O	NN	O
+9-6	hole	O	O	NN	P1_damage
+9-7	so	9-9_mark	decided	IN	O
+9-8	he	9-9_nsubj	decided	PRP	P1_rider
+9-9	decided	O	O	VBD	O
+9-10	to	9-11_aux	put	TO	O
+9-11	put	9-9_xcomp	decided	VB	O
+9-12	a	O	O	DT	O
+9-13	plug	9-11_dobj	put	NN	P2_patch
+9-14	in	O	O	O	O
+9-15	it	O	O	PRP	P1_damage
+9-16	.	O	O	O	O
+
+#id=10
+#text=He got the packages of plugs and found one that was the right size . 
+10-1	He	10-2_nsubj	got	PRP	P1_rider
+10-2	got	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	packages	10-2_dobj	got	NNS	P1_NPart_packages
+10-5	of	O	O	O	O
+10-6	plugs	O	O	NNS	P2_patch
+10-7	and	O	O	O	O
+10-8	found	10-2_conj_and	got	VBD	O
+10-9	one	10-8_dobj	found	CD	P2_patch
+10-10	that	O	O	WDT	P2_patch
+10-11	was	O	O	VBD	O
+10-12	the	O	O	DT	O
+10-13	right	O	O	JJ	O
+10-14	size	O	O	NN	P1_NPart_size
+10-15	.	O	O	O	O
+
+#id=11
+#text=He followed the instructs on the package to insert the plug into the hole and secure it . 
+11-1	He	11-2_nsubj	followed	PRP	P1_rider
+11-2	followed	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	instructs	11-2_dobj	followed	NN	P1_NPart_instructs
+11-5	on	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	package	11-2_prep_on	followed	NN	P1_NPart_package
+11-8	to	11-9_aux	insert	TO	O
+11-9	insert	11-2_vmod	followed	VB	O
+11-10	the	O	O	DT	O
+11-11	plug	11-9_dobj	insert	NN	P2_patch
+11-12	into	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	hole	11-9_prep_into	insert	NN	P1_damage
+11-15	and	O	O	O	O
+11-16	secure	11-9_conj_and	insert	VB	O
+11-17	it	11-16_dobj	secure	PRP	P2_patch
+11-18	.	O	O	O	O
+
+#id=12
+#text=He pumped the tire back up and it held air . 
+12-1	He	12-2_nsubj	pumped	PRP	P1_rider
+12-2	pumped	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	tire	12-2_dobj	pumped	NN	P1_tire
+12-5	back	O	O	RB	O
+12-6	up	12-2_advmod	pumped	RB	O
+12-7	and	O	O	O	O
+12-8	it	12-9_nsubj	held	PRP	P1_tire
+12-9	held	12-2_conj_and	pumped	VBD	O
+12-10	air	12-9_dobj	held	NN	P1_air
+12-11	.	O	O	O	O
+
+#id=13
+#text=He put the tire back on the bike . 
+13-1	He	13-2_nsubj	put	PRP	P1_rider
+13-2	put	O	O	VBD	O
+13-3	the	O	O	DT	O
+13-4	tire	13-2_dobj	put	NN	P1_tire
+13-5	back	13-2_advmod	put	RB	O
+13-6	on	O	O	O	O
+13-7	the	O	O	DT	O
+13-8	bike	13-2_prep_on	put	NN	P1_bicycle
+13-9	.	O	O	O	O

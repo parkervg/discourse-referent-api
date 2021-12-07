@@ -1,0 +1,225 @@
+#id=1
+#text=I noticed my hair was getting very long and needed to get a trim . 
+1-1	I	1-2_nsubj	noticed	PRP	P1_customer
+1-2	noticed	O	O	VBD	O
+1-3	my	O	O	PRP$	P1_customer
+1-4	hair	O	O	NN	P1_hair
+1-5	was	O	O	VBD	O
+1-6	getting	O	O	VBG	O
+1-7	very	O	O	RB	O
+1-8	long	1-2_ccomp	noticed	JJ	O
+1-9	and	O	O	O	O
+1-10	needed	1-2_conj_and	noticed	VBD	O
+1-11	to	1-12_aux	get	TO	O
+1-12	get	1-10_xcomp	needed	VB	O
+1-13	a	O	O	DT	O
+1-14	trim	1-12_dobj	get	JJ	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=My previous haircut was done very poorly at what I thought it would be a decent place . 
+2-1	My	O	O	PRP$	P1_customer
+2-2	previous	O	O	JJ	O
+2-3	haircut	2-5_nsubjpass	done	NN	P1_haircut
+2-4	was	2-5_auxpass	done	VBD	O
+2-5	done	O	O	VBN	O
+2-6	very	O	O	RB	O
+2-7	poorly	2-5_advmod	done	RB	O
+2-8	at	O	O	O	O
+2-9	what	2-11_dobj	thought	WP	O
+2-10	I	2-11_nsubj	thought	PRP	P1_customer
+2-11	thought	O	O	VBD	O
+2-12	it	O	O	PRP	O
+2-13	would	O	O	MD	O
+2-14	be	O	O	VB	O
+2-15	a	O	O	DT	O
+2-16	decent	O	O	JJ	O
+2-17	place	2-11_ccomp	thought	NN	P1_salon
+2-18	.	O	O	O	O
+
+#id=3
+#text=I looked up other nearby barbers by doing a google search for them in my zip code . 
+3-1	I	3-2_nsubj	looked	PRP	P1_customer
+3-2	looked	O	O	VBD	O
+3-3	up	3-2_prt	looked	RP	O
+3-4	other	O	O	JJ	O
+3-5	nearby	O	O	JJ	O
+3-6	barbers	3-2_dobj	looked	NNS	P1_hairdresser
+3-7	by	O	O	O	O
+3-8	doing	3-2_prepc_by	looked	VBG	O
+3-9	a	O	O	DT	O
+3-10	google	O	O	JJ	O
+3-11	search	3-8_dobj	doing	NN	O
+3-12	for	O	O	O	O
+3-13	them	O	O	PRP	P1_hairdresser
+3-14	in	O	O	O	O
+3-15	my	O	O	PRP$	P1_customer
+3-16	zip	O	O	NN	O
+3-17	code	3-8_prep_in	doing	NN	P1_NPart_code
+3-18	.	O	O	O	O
+
+#id=4
+#text=I ended up choosing one place I used to frequent in the past and knew to be reliable . 
+4-1	I	4-2_nsubj	ended	PRP	P1_customer
+4-2	ended	O	O	VBD	O
+4-3	up	4-2_prt	ended	RP	O
+4-4	choosing	4-2_xcomp	ended	VBG	O
+4-5	one	O	O	CD	O
+4-6	place	4-4_dobj	choosing	NN	P2_salon
+4-7	I	4-8_nsubj	used	PRP	P1_customer
+4-8	used	O	O	VBD	O
+4-9	to	O	O	TO	O
+4-10	frequent	4-8_xcomp	used	JJ	O
+4-11	in	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	past	O	O	NN	P1_NPart_past
+4-14	and	O	O	O	O
+4-15	knew	4-8_conj_and	used	VBD	O
+4-16	to	O	O	TO	O
+4-17	be	O	O	VB	O
+4-18	reliable	4-15_xcomp	knew	JJ	O
+4-19	.	O	O	O	O
+
+#id=5
+#text=I drove over to the barber and entered the store . 
+5-1	I	5-2_nsubj	drove	PRP	P1_customer
+5-2	drove	O	O	VBD	O
+5-3	over	5-2_prt	drove	RP	O
+5-4	to	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	barber	5-2_prep_to	drove	NN	P2_hairdresser
+5-7	and	O	O	O	O
+5-8	entered	5-2_conj_and	drove	VBD	O
+5-9	the	O	O	DT	O
+5-10	store	5-8_dobj	entered	NN	P2_salon
+5-11	.	O	O	O	O
+
+#id=6
+#text=It was during a non-busy hour so when I entered they immediately asked me to come to the account register . 
+6-1	It	6-2_nsubj	was	PRP	O
+6-2	was	O	O	VBD	O
+6-3	during	O	O	O	O
+6-4	a	O	O	DT	O
+6-5	non-busy	O	O	JJ	O
+6-6	hour	6-2_prep_during	was	NN	O
+6-7	so	6-10_advmod	entered	RB	O
+6-8	when	6-10_advmod	entered	WRB	O
+6-9	I	6-10_nsubj	entered	PRP	P1_customer
+6-10	entered	6-2_advcl	was	VBD	O
+6-11	they	6-13_nsubj	asked	PRP	P1_staff
+6-12	immediately	6-13_advmod	asked	RB	O
+6-13	asked	6-10_ccomp	entered	VBD	O
+6-14	me	6-13_dobj	asked	PRP	P1_customer
+6-15	to	6-16_aux	come	TO	O
+6-16	come	6-13_xcomp	asked	VB	O
+6-17	to	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	account	O	O	NN	O
+6-20	register	6-16_prep_to	come	NN	P1_check_in_desk
+6-21	.	O	O	O	O
+
+#id=7
+#text=I gave them some basic info about me and was sat down in a chair . 
+7-1	I	7-2_nsubj	gave	PRP	P1_customer
+7-2	gave	O	O	VBD	O
+7-3	them	7-2_iobj	gave	PRP	P1_staff
+7-4	some	O	O	DT	O
+7-5	basic	O	O	JJ	O
+7-6	info	7-2_dobj	gave	NN	P1_NPart_info
+7-7	about	O	O	O	O
+7-8	me	O	O	PRP	P1_customer
+7-9	and	O	O	O	O
+7-10	was	7-11_auxpass	sat	VBD	O
+7-11	sat	7-2_conj_and	gave	VBN	O
+7-12	down	7-11_prt	sat	RP	O
+7-13	in	O	O	O	O
+7-14	a	O	O	DT	O
+7-15	chair	7-11_prep_in	sat	NN	P1_chair
+7-16	.	O	O	O	O
+
+#id=8
+#text=They asked me what style I would like and I told them I wanted to have a look similar to a celebrity I knew . 
+8-1	They	8-2_nsubj	asked	PRP	P2_hairdresser
+8-2	asked	O	O	VBD	O
+8-3	me	8-2_dobj	asked	PRP	P1_customer
+8-4	what	8-14_dobj	wanted	WP	O
+8-5	style	8-14_nsubj	wanted	NN	P2_haircut
+8-6	I	8-8_nsubj	like	PRP	P1_customer
+8-7	would	8-8_aux	like	MD	O
+8-8	like	O	O	VB	O
+8-9	and	O	O	O	O
+8-10	I	8-11_nsubj	told	PRP	P1_customer
+8-11	told	8-8_conj_and	like	VBD	O
+8-12	them	O	O	PRP	P2_hairdresser
+8-13	I	8-11_xcomp	told	PRP	P1_customer
+8-14	wanted	8-2_dep	asked	VBD	O
+8-15	to	8-16_aux	have	TO	O
+8-16	have	8-14_xcomp	wanted	VB	O
+8-17	a	O	O	DT	O
+8-18	look	O	O	NN	P2_haircut
+8-19	similar	8-16_xcomp	have	JJ	O
+8-20	to	O	O	O	O
+8-21	a	O	O	DT	O
+8-22	celebrity	O	O	NN	P1_NPart_celebrity
+8-23	I	8-24_nsubj	knew	PRP	P1_customer
+8-24	knew	O	O	VBD	O
+8-25	.	O	O	O	O
+
+#id=9
+#text=It was an unusual style so instead I ended up taking their recommendation . 
+9-1	It	O	O	PRP	P2_haircut
+9-2	was	O	O	VBD	O
+9-3	an	O	O	DT	O
+9-4	unusual	O	O	JJ	O
+9-5	style	O	O	NN	P2_haircut
+9-6	so	O	O	IN	O
+9-7	instead	9-9_advmod	ended	RB	O
+9-8	I	9-9_nsubj	ended	PRP	P1_customer
+9-9	ended	O	O	VBD	O
+9-10	up	9-9_prt	ended	RP	O
+9-11	taking	9-9_xcomp	ended	VBG	O
+9-12	their	O	O	PRP$	P2_hairdresser
+9-13	recommendation	9-11_dobj	taking	NN	O
+9-14	.	O	O	O	O
+
+#id=10
+#text=The haircut did n't take long at all . 
+10-1	The	O	O	DT	O
+10-2	haircut	10-5_nsubj	take	NN	P2_haircut
+10-3	did	10-5_aux	take	VBD	O
+10-4	n't	10-5_neg	take	RB	O
+10-5	take	O	O	VB	O
+10-6	long	O	O	RB	O
+10-7	at	10-5_advmod	take	IN	O
+10-8	all	O	O	DT	O
+10-9	.	O	O	O	O
+
+#id=11
+#text=And after I got out of my chair , I headed over to the register again and paid . 
+11-1	And	O	O	O	O
+11-2	after	11-4_mark	got	IN	O
+11-3	I	11-4_nsubj	got	PRP	P1_customer
+11-4	got	11-11_advcl	headed	VBD	O
+11-5	out	O	O	O	O
+11-6	of	O	O	O	O
+11-7	my	O	O	PRP$	P1_customer
+11-8	chair	11-4_prep_out_of	got	NN	P1_chair
+11-9	,	O	O	O	O
+11-10	I	11-11_nsubj	headed	PRP	P1_customer
+11-11	headed	O	O	VBD	O
+11-12	over	11-11_prt	headed	RP	O
+11-13	to	O	O	O	O
+11-14	the	O	O	DT	O
+11-15	register	11-11_prep_to	headed	NN	P1_check_in_desk
+11-16	again	11-11_advmod	headed	RB	O
+11-17	and	O	O	O	O
+11-18	paid	11-11_conj_and	headed	VBD	O
+11-19	.	O	O	O	O
+
+#id=12
+#text=My hair looked great . 
+12-1	My	O	O	PRP$	P1_customer
+12-2	hair	12-3_nsubj	looked	NN	P1_hair
+12-3	looked	O	O	VBD	O
+12-4	great	12-3_acomp	looked	JJ	O
+12-5	.	O	O	O	O

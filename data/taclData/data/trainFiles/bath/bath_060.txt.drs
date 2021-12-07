@@ -1,0 +1,196 @@
+#id=1
+#text=Last night I decided to take a bath to help me relax . 
+1-1	Last	O	O	JJ	O
+1-2	night	1-4_tmod	decided	NN	P1_NPart_night
+1-3	I	1-4_nsubj	decided	PRP	P1_bather
+1-4	decided	O	O	VBD	O
+1-5	to	1-6_aux	take	TO	O
+1-6	take	1-4_xcomp	decided	VB	O
+1-7	a	O	O	DT	O
+1-8	bath	1-6_dobj	take	NN	O
+1-9	to	1-10_aux	help	TO	O
+1-10	help	O	O	VB	O
+1-11	me	1-12_nsubj	relax	PRP	P1_bather
+1-12	relax	1-10_ccomp	help	VB	O
+1-13	.	O	O	O	O
+
+#id=2
+#text=I gather all the things that will help me relax with a bath such as bath salts , bubble bath , and candles to place in the bathroom . 
+2-1	I	2-2_nsubj	gather	PRP	P1_bather
+2-2	gather	O	O	VBP	O
+2-3	all	O	O	PDT	O
+2-4	the	O	O	DT	O
+2-5	things	2-2_dobj	gather	NNS	O
+2-6	that	2-8_nsubj	help	WDT	O
+2-7	will	2-8_aux	help	MD	O
+2-8	help	O	O	VB	O
+2-9	me	2-10_nsubj	relax	PRP	P1_bather
+2-10	relax	2-8_ccomp	help	VB	O
+2-11	with	O	O	O	O
+2-12	a	O	O	DT	O
+2-13	bath	2-10_prep_with	relax	NN	P1_bath
+2-14	such	O	O	O	O
+2-15	as	O	O	O	O
+2-16	bath	O	O	NN	O
+2-17	salts	O	O	NNS	P1_bath_means
+2-18	,	O	O	O	O
+2-19	bubble	O	O	NN	O
+2-20	bath	O	O	NN	P2_bath_means
+2-21	,	O	O	O	O
+2-22	and	O	O	O	O
+2-23	candles	O	O	NNS	P1_in-bath_entertainment
+2-24	to	2-25_aux	place	TO	O
+2-25	place	2-10_xcomp	relax	VB	O
+2-26	in	O	O	O	O
+2-27	the	O	O	DT	O
+2-28	bathroom	2-25_prep_in	place	NN	P1_bathroom
+2-29	.	O	O	O	O
+
+#id=3
+#text=I draw the bath by running warm water into the tub and then adding my favorite bath salts and bubble bath . 
+3-1	I	3-2_nsubj	draw	PRP	P1_bather
+3-2	draw	O	O	VBP	O
+3-3	the	O	O	DT	O
+3-4	bath	3-2_dobj	draw	NN	P1_bath
+3-5	by	O	O	O	O
+3-6	running	3-2_prepc_by	draw	VBG	O
+3-7	warm	O	O	JJ	O
+3-8	water	3-6_dobj	running	NN	P1_water
+3-9	into	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	tub	3-6_prep_into	running	NN	P1_bathtub
+3-12	and	O	O	O	O
+3-13	then	3-14_advmod	adding	RB	O
+3-14	adding	3-6_conj_and	running	VBG	O
+3-15	my	O	O	PRP$	P1_bather
+3-16	favorite	O	O	JJ	O
+3-17	bath	O	O	NN	O
+3-18	salts	3-14_dobj	adding	NNS	P1_bath_means
+3-19	and	O	O	O	O
+3-20	bubble	O	O	NN	O
+3-21	bath	O	O	NNS	P2_bath_means
+3-22	.	O	O	O	O
+
+#id=4
+#text=I light some candles for a nice lighting effect and to add some aromatherapy and fragrance to the room to help me relax . 
+4-1	I	4-2_nsubj	light	PRP	P1_bather
+4-2	light	O	O	VB	O
+4-3	some	O	O	DT	O
+4-4	candles	4-2_dobj	light	NNS	P1_in-bath_entertainment
+4-5	for	O	O	O	O
+4-6	a	O	O	DT	O
+4-7	nice	O	O	JJ	O
+4-8	lighting	O	O	NN	O
+4-9	effect	4-2_prep_for	light	NN	P1_NPart_effect
+4-10	and	O	O	O	O
+4-11	to	4-12_aux	add	TO	O
+4-12	add	4-2_conj_and	light	VB	O
+4-13	some	O	O	DT	O
+4-14	aromatherapy	4-12_dobj	add	NN	P2_in-bath_entertainment
+4-15	and	O	O	O	O
+4-16	fragrance	O	O	NN	P3_in-bath_entertainment
+4-17	to	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	room	4-12_prep_to	add	NN	P1_bathroom
+4-20	to	4-21_aux	help	TO	O
+4-21	help	O	O	VB	O
+4-22	me	4-23_nsubj	relax	PRP	P1_bather
+4-23	relax	4-21_ccomp	help	VB	O
+4-24	.	O	O	O	O
+
+#id=5
+#text=I also gather a few of my favorite magazines to read while I am in the bath . 
+5-1	I	5-3_nsubj	gather	PRP	P1_bather
+5-2	also	5-3_advmod	gather	RB	O
+5-3	gather	O	O	VBP	O
+5-4	a	O	O	DT	O
+5-5	few	5-3_dobj	gather	JJ	O
+5-6	of	O	O	O	O
+5-7	my	O	O	PRP$	P1_bather
+5-8	favorite	O	O	JJ	O
+5-9	magazines	O	O	NNS	P4_in-bath_entertainment
+5-10	to	5-11_aux	read	TO	O
+5-11	read	5-3_xcomp	gather	VB	O
+5-12	while	5-14_mark	am	IN	O
+5-13	I	5-14_nsubj	am	PRP	P1_bather
+5-14	am	5-11_advcl	read	VBP	O
+5-15	in	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	bath	5-14_prep_in	am	NN	P1_bath
+5-18	.	O	O	O	O
+
+#id=6
+#text=As soon as the water filled the tub and at the right temperature , I get into the tub and let the bath salts and bubbles relax me . 
+6-1	As	O	O	RB	O
+6-2	soon	6-16_advmod	get	RB	O
+6-3	as	6-6_mark	filled	IN	O
+6-4	the	O	O	DT	O
+6-5	water	6-6_nsubj	filled	NN	P1_water
+6-6	filled	O	O	VBN	O
+6-7	the	O	O	DT	O
+6-8	tub	6-6_dobj	filled	NN	P1_bathtub
+6-9	and	O	O	O	O
+6-10	at	O	O	IN	O
+6-11	the	O	O	DT	O
+6-12	right	O	O	JJ	O
+6-13	temperature	O	O	NN	P1_temperature
+6-14	,	O	O	O	O
+6-15	I	6-16_nsubj	get	PRP	P1_bather
+6-16	get	O	O	VB	O
+6-17	into	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	tub	6-16_prep_into	get	NN	P1_bathtub
+6-20	and	O	O	O	O
+6-21	let	6-16_conj_and	get	VB	O
+6-22	the	O	O	DT	O
+6-23	bath	O	O	NN	O
+6-24	salts	6-27_nsubj	relax	NNS	P1_bath_means
+6-25	and	O	O	O	O
+6-26	bubbles	O	O	NNS	P2_bath_means
+6-27	relax	6-21_ccomp	let	VB	O
+6-28	me	6-27_dobj	relax	PRP	P1_bather
+6-29	.	O	O	O	O
+
+#id=7
+#text=I will spend some time in the tub closing my eyes , relaxing , and then reading my magazines . 
+7-1	I	7-3_nsubj	spend	PRP	P1_bather
+7-2	will	7-3_aux	spend	MD	O
+7-3	spend	O	O	VB	O
+7-4	some	O	O	DT	O
+7-5	time	7-3_dobj	spend	NN	O
+7-6	in	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	tub	7-9_nsubj	closing	NN	P1_bathtub
+7-9	closing	7-3_prepc_in	spend	VBG	O
+7-10	my	O	O	PRP$	P1_bather
+7-11	eyes	7-9_dobj	closing	NNS	P1_NPart_eyes
+7-12	,	O	O	O	O
+7-13	relaxing	7-9_conj_and	closing	VBG	O
+7-14	,	O	O	O	O
+7-15	and	O	O	O	O
+7-16	then	7-17_advmod	reading	RB	O
+7-17	reading	7-9_conj_and	closing	VBG	O
+7-18	my	O	O	PRP$	P1_bather
+7-19	magazines	7-17_dobj	reading	NNS	P4_in-bath_entertainment
+7-20	.	O	O	O	O
+
+#id=8
+#text=It has been a long day and this bath will help me relax to go to sleep . 
+8-1	It	O	O	PRP	O
+8-2	has	O	O	VBZ	O
+8-3	been	O	O	VBN	O
+8-4	a	O	O	DT	O
+8-5	long	O	O	JJ	O
+8-6	day	O	O	NN	P1_NPart_day
+8-7	and	O	O	O	O
+8-8	this	O	O	DT	O
+8-9	bath	8-11_nsubj	help	NN	P1_bath
+8-10	will	8-11_aux	help	MD	O
+8-11	help	O	O	VB	O
+8-12	me	8-13_nsubj	relax	PRP	P1_bather
+8-13	relax	8-11_ccomp	help	VB	O
+8-14	to	8-15_aux	go	TO	O
+8-15	go	8-13_xcomp	relax	VB	O
+8-16	to	8-17_aux	sleep	TO	O
+8-17	sleep	8-15_xcomp	go	VB	O
+8-18	.	O	O	O	O

@@ -1,0 +1,209 @@
+#id=1
+#text=First I run plug the bath and run the hot water . 
+1-1	First	1-3_advmod	run	RB	O
+1-2	I	1-3_nsubj	run	PRP	P1_bather
+1-3	run	O	O	VBP	O
+1-4	plug	1-3_dep	run	VB	O
+1-5	the	O	O	DT	O
+1-6	bath	1-4_dobj	plug	NN	P1_bathtub
+1-7	and	O	O	O	O
+1-8	run	1-4_conj_and	plug	VB	O
+1-9	the	O	O	DT	O
+1-10	hot	O	O	JJ	O
+1-11	water	1-8_dobj	run	NN	P1_water
+1-12	.	O	O	O	O
+
+#id=2
+#text=Then I take off my jacket and socks . 
+2-1	Then	2-3_advmod	take	RB	O
+2-2	I	2-3_nsubj	take	PRP	P1_bather
+2-3	take	O	O	VBP	O
+2-4	off	2-3_prt	take	RP	O
+2-5	my	O	O	PRP$	P1_bather
+2-6	jacket	2-3_dobj	take	NN	P1_clothes
+2-7	and	O	O	O	O
+2-8	socks	O	O	NNS	P2_clothes
+2-9	.	O	O	O	O
+
+#id=3
+#text=Next I take off my shirt and pants . 
+3-1	Next	3-3_advmod	take	RB	O
+3-2	I	3-3_nsubj	take	PRP	P1_bather
+3-3	take	O	O	VBP	O
+3-4	off	3-3_prt	take	RP	O
+3-5	my	O	O	PRP$	P1_bather
+3-6	shirt	3-3_dobj	take	NN	P3_clothes
+3-7	and	O	O	O	O
+3-8	pants	O	O	NNS	P4_clothes
+3-9	.	O	O	O	O
+
+#id=4
+#text=Finally I take off my underwear . 
+4-1	Finally	4-3_advmod	take	RB	O
+4-2	I	4-3_nsubj	take	PRP	P1_bather
+4-3	take	O	O	VBP	O
+4-4	off	4-3_prt	take	RP	O
+4-5	my	O	O	PRP$	P1_bather
+4-6	underwear	4-3_dobj	take	NN	P5_clothes
+4-7	.	O	O	O	O
+
+#id=5
+#text=I am completely naked . 
+5-1	I	O	O	PRP	P1_bather
+5-2	am	O	O	VBP	O
+5-3	completely	O	O	RB	O
+5-4	naked	O	O	JJ	O
+5-5	.	O	O	O	O
+
+#id=6
+#text=One the bath is full I enter it . 
+6-1	One	O	O	CD	O
+6-2	the	O	O	DT	O
+6-3	bath	O	O	NN	P1_bathtub
+6-4	is	O	O	VBZ	O
+6-5	full	O	O	JJ	O
+6-6	I	6-7_nsubj	enter	PRP	P1_bather
+6-7	enter	O	O	VBP	O
+6-8	it	6-7_dobj	enter	PRP	P1_bathtub
+6-9	.	O	O	O	O
+
+#id=7
+#text=Usually it is a bit hot for me at first so I go in slowly . 
+7-1	Usually	O	O	RB	O
+7-2	it	O	O	PRP	P1_bath
+7-3	is	O	O	VBZ	O
+7-4	a	O	O	DT	O
+7-5	bit	O	O	RB	O
+7-6	hot	O	O	JJ	O
+7-7	for	O	O	O	O
+7-8	me	O	O	PRP	P1_bather
+7-9	at	O	O	O	O
+7-10	first	O	O	JJ	O
+7-11	so	7-13_mark	go	IN	O
+7-12	I	7-13_nsubj	go	PRP	P1_bather
+7-13	go	O	O	VBP	O
+7-14	in	7-13_prep	go	IN	O
+7-15	slowly	O	O	RB	O
+7-16	.	O	O	O	O
+
+#id=8
+#text=Once I 'm in I lie down and think about what happened to me during the day , the things I did , and what I plan on doing tomorrow . 
+8-1	Once	8-3_mark	'm	IN	O
+8-2	I	8-3_nsubj	'm	PRP	P1_bather
+8-3	'm	8-6_csubj	lie	VBP	O
+8-4	in	O	O	O	O
+8-5	I	8-3_prep_in	'm	PRP	P1_bather
+8-6	lie	O	O	VBP	O
+8-7	down	8-6_prt	lie	RP	O
+8-8	and	O	O	O	O
+8-9	think	8-6_conj_and	lie	VBP	O
+8-10	about	O	O	O	O
+8-11	what	8-12_nsubj	happened	WP	O
+8-12	happened	8-9_prepc_about	think	VBD	O
+8-13	to	O	O	O	O
+8-14	me	8-12_prep_to	happened	PRP	P1_bather
+8-15	during	O	O	O	O
+8-16	the	O	O	DT	O
+8-17	day	8-12_prep_during	happened	NN	P1_NPart_day
+8-18	,	O	O	O	O
+8-19	the	O	O	DT	O
+8-20	things	O	O	NNS	O
+8-21	I	8-22_nsubj	did	PRP	P1_bather
+8-22	did	8-12_dep	happened	VBD	O
+8-23	,	O	O	O	O
+8-24	and	O	O	O	O
+8-25	what	8-27_dobj	plan	WP	O
+8-26	I	8-27_nsubj	plan	PRP	P1_bather
+8-27	plan	8-22_conj_and	did	VBP	O
+8-28	on	O	O	O	O
+8-29	doing	8-27_prepc_on	plan	VBG	O
+8-30	tomorrow	8-29_tmod	doing	NN	P1_NPart_tomorrow
+8-31	.	O	O	O	O
+
+#id=9
+#text=Then I soap myself up , scrub myself down and make sure that I am nice and clean . 
+9-1	Then	9-7_advmod	scrub	RB	O
+9-2	I	9-3_nsubj	soap	PRP	P1_bather
+9-3	soap	9-7_parataxis	scrub	VBZ	O
+9-4	myself	9-3_dobj	soap	PRP	P1_bather
+9-5	up	9-3_prt	soap	RP	O
+9-6	,	O	O	O	O
+9-7	scrub	O	O	VB	O
+9-8	myself	9-7_dobj	scrub	PRP	P1_bather
+9-9	down	9-7_prt	scrub	RP	O
+9-10	and	O	O	O	O
+9-11	make	9-7_conj_and	scrub	VB	O
+9-12	sure	9-11_acomp	make	JJ	O
+9-13	that	O	O	IN	O
+9-14	I	O	O	PRP	P1_bather
+9-15	am	O	O	VBP	O
+9-16	nice	9-11_ccomp	make	JJ	O
+9-17	and	O	O	O	O
+9-18	clean	O	O	JJ	O
+9-19	.	O	O	O	O
+
+#id=10
+#text=When I get out I use that shower to rinse myself off and drain the bathwater . 
+10-1	When	10-3_advmod	get	WRB	O
+10-2	I	10-3_nsubj	get	PRP	P1_bather
+10-3	get	10-6_advcl	use	VBP	O
+10-4	out	10-3_prt	get	RP	O
+10-5	I	10-6_nsubj	use	PRP	P1_bather
+10-6	use	O	O	VBP	O
+10-7	that	O	O	DT	O
+10-8	shower	10-6_dobj	use	NN	P1_shower
+10-9	to	10-10_aux	rinse	TO	O
+10-10	rinse	10-6_xcomp	use	VB	O
+10-11	myself	10-10_dobj	rinse	PRP	P1_bather
+10-12	off	10-10_prt	rinse	RP	O
+10-13	and	O	O	O	O
+10-14	drain	10-10_conj_and	rinse	VB	O
+10-15	the	O	O	DT	O
+10-16	bathwater	10-14_dobj	drain	NN	P1_water
+10-17	.	O	O	O	O
+
+#id=11
+#text=Then I grab a towel and use it to dry the water off of my body . 
+11-1	Then	11-3_advmod	grab	RB	O
+11-2	I	11-3_nsubj	grab	PRP	P1_bather
+11-3	grab	O	O	VBP	O
+11-4	a	O	O	DT	O
+11-5	towel	11-3_dobj	grab	NN	P1_towel
+11-6	and	O	O	O	O
+11-7	use	11-3_conj_and	grab	VBP	O
+11-8	it	11-7_dobj	use	PRP	P1_towel
+11-9	to	11-10_aux	dry	TO	O
+11-10	dry	11-7_vmod	use	VB	O
+11-11	the	O	O	DT	O
+11-12	water	11-10_dobj	dry	NN	P1_water
+11-13	off	O	O	O	O
+11-14	of	O	O	O	O
+11-15	my	O	O	PRP$	P1_bather
+11-16	body	11-10_prep_off_of	dry	NN	P1_body_part
+11-17	.	O	O	O	O
+
+#id=12
+#text=Taking a bath is one of the most relaxing moments of my day . 
+12-1	Taking	O	O	VBG	O
+12-2	a	O	O	DT	O
+12-3	bath	12-1_dobj	Taking	NN	P1_bath
+12-4	is	O	O	VBZ	O
+12-5	one	O	O	CD	O
+12-6	of	O	O	O	O
+12-7	the	O	O	DT	O
+12-8	most	O	O	RBS	O
+12-9	relaxing	O	O	JJ	O
+12-10	moments	O	O	NNS	O
+12-11	of	O	O	O	O
+12-12	my	O	O	PRP$	P1_bather
+12-13	day	O	O	NN	P2_NPart_day
+12-14	.	O	O	O	O
+
+#id=13
+#text=I enjoy it a lot . 
+13-1	I	13-2_nsubj	enjoy	PRP	P1_bather
+13-2	enjoy	O	O	VBP	O
+13-3	it	O	O	PRP	O
+13-4	a	O	O	DT	O
+13-5	lot	13-2_xcomp	enjoy	NN	O
+13-6	.	O	O	O	O

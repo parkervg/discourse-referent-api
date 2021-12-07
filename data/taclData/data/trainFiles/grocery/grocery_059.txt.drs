@@ -1,0 +1,252 @@
+#id=1
+#text=We were starting to run out of food so I made a list of all the food items we were out of this morning . 
+1-1	We	1-3_nsubj	starting	PRP	P1_NPart_we
+1-2	were	1-3_aux	starting	VBD	O
+1-3	starting	O	O	VBG	O
+1-4	to	1-5_aux	run	TO	O
+1-5	run	1-3_xcomp	starting	VB	O
+1-6	out	1-5_prt	run	RP	O
+1-7	of	O	O	O	O
+1-8	food	1-5_prep_of	run	NN	P1_NPart_food
+1-9	so	1-11_mark	made	IN	O
+1-10	I	1-11_nsubj	made	PRP	P1_shopper
+1-11	made	1-5_advcl	run	VBD	O
+1-12	a	O	O	DT	O
+1-13	list	1-11_dobj	made	NN	P1_grocery_list
+1-14	of	O	O	O	O
+1-15	all	O	O	PDT	O
+1-16	the	O	O	DT	O
+1-17	food	O	O	NN	O
+1-18	items	O	O	NNS	P1_groceries
+1-19	we	1-20_nsubj	were	PRP	P2_NPart_we
+1-20	were	O	O	VBD	O
+1-21	out	O	O	O	O
+1-22	of	O	O	O	O
+1-23	this	O	O	DT	O
+1-24	morning	1-20_prep_out_of	were	NN	P1_NPart_morning
+1-25	.	O	O	O	O
+
+#id=2
+#text=I put on my jacket and shoes , grabbed my keys and left the house . 
+2-1	I	2-2_nsubj	put	PRP	P1_shopper
+2-2	put	O	O	VBD	O
+2-3	on	O	O	O	O
+2-4	my	O	O	PRP$	P1_shopper
+2-5	jacket	2-2_prep_on	put	NN	P1_NPart_jacket
+2-6	and	O	O	O	O
+2-7	shoes	O	O	NNS	P1_NPart_shoes
+2-8	,	O	O	O	O
+2-9	grabbed	2-2_conj_and	put	VBD	O
+2-10	my	O	O	PRP$	P1_shopper
+2-11	keys	2-9_dobj	grabbed	NNS	P1_NPart_keys
+2-12	and	O	O	O	O
+2-13	left	2-2_conj_and	put	VBD	O
+2-14	the	O	O	DT	O
+2-15	house	2-13_dobj	left	NN	P1_NPart_house
+2-16	.	O	O	O	O
+
+#id=3
+#text=I started my car and decided to drive to Fred Meyer 's , an excellent grocery store . 
+3-1	I	3-2_nsubj	started	PRP	P1_shopper
+3-2	started	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_shopper
+3-4	car	3-2_dobj	started	NN	P1_vehicle
+3-5	and	O	O	O	O
+3-6	decided	3-2_conj_and	started	VBD	O
+3-7	to	3-8_aux	drive	TO	O
+3-8	drive	3-6_xcomp	decided	VB	O
+3-9	to	O	O	O	O
+3-10	Fred	O	O	NNP	O
+3-11	Meyer	3-8_prep_to	drive	NNP	O
+3-12	's	O	O	POS	P1_grocery_shop
+3-13	,	O	O	O	O
+3-14	an	O	O	DT	O
+3-15	excellent	O	O	JJ	O
+3-16	grocery	O	O	NN	O
+3-17	store	O	O	NN	P1_grocery_shop
+3-18	.	O	O	O	O
+
+#id=4
+#text=I arrived at Fred Meyer 's and walked through the cold wind and into the safety of the store . 
+4-1	I	4-2_nsubj	arrived	PRP	P1_shopper
+4-2	arrived	O	O	VBD	O
+4-3	at	O	O	O	O
+4-4	Fred	O	O	NNP	O
+4-5	Meyer	4-2_prep_at	arrived	NNP	O
+4-6	's	O	O	POS	P1_grocery_shop
+4-7	and	O	O	O	O
+4-8	walked	4-8_conj_and	walked	VBD	O
+4-9	through	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	cold	O	O	JJ	O
+4-12	wind	4-8_prep_through	walked	NN	P1_NPart_wind
+4-13	and	O	O	O	O
+4-14	into	O	O	O	O
+4-15	the	O	O	DT	O
+4-16	safety	4-8_prep_into	walked	NN	P1_NPart_safety
+4-17	of	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	store	O	O	NN	P1_grocery_shop
+4-20	.	O	O	O	O
+
+#id=5
+#text=There were n't a lot of shoppers around thanks to the weather . 
+5-1	There	5-2_expl	were	EX	O
+5-2	were	O	O	VBD	O
+5-3	n't	5-2_neg	were	RB	O
+5-4	a	O	O	DT	O
+5-5	lot	5-2_nsubj	were	NN	O
+5-6	of	O	O	O	O
+5-7	shoppers	O	O	NNS	P2_shopper
+5-8	around	O	O	O	O
+5-9	thanks	O	O	NNS	O
+5-10	to	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	weather	O	O	NN	P1_NPart_weather
+5-13	.	O	O	O	O
+
+#id=6
+#text=I grabbed a hand basket and proceeded to the produce section first for apples , bananas and potatoes . 
+6-1	I	6-2_nsubj	grabbed	PRP	P1_shopper
+6-2	grabbed	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	hand	O	O	NN	O
+6-5	basket	6-2_dobj	grabbed	NN	P1_shopping_cart/basket
+6-6	and	O	O	O	O
+6-7	proceeded	6-2_conj_and	grabbed	VBD	O
+6-8	to	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	produce	O	O	NN	O
+6-11	section	6-7_prep_to	proceeded	NN	P1_section
+6-12	first	6-7_advmod	proceeded	RB	O
+6-13	for	O	O	O	O
+6-14	apples	6-7_prep_for	proceeded	NNS	P2_groceries
+6-15	,	O	O	O	O
+6-16	bananas	O	O	NNS	P3_groceries
+6-17	and	O	O	O	O
+6-18	potatoes	O	O	NNS	P4_groceries
+6-19	.	O	O	O	O
+
+#id=7
+#text=After that I went to the bread section and got english muffins and a loaf of wheat bread . 
+7-1	After	O	O	O	O
+7-2	that	7-4_prep_after	went	DT	O
+7-3	I	7-4_nsubj	went	PRP	P1_shopper
+7-4	went	O	O	VBD	O
+7-5	to	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	bread	O	O	NN	O
+7-8	section	7-4_prep_to	went	NN	P2_section
+7-9	and	O	O	O	O
+7-10	got	7-4_conj_and	went	VBD	O
+7-11	english	O	O	JJ	O
+7-12	muffins	7-10_dobj	got	NNS	P5_groceries
+7-13	and	O	O	O	O
+7-14	a	O	O	DT	O
+7-15	loaf	O	O	NN	O
+7-16	of	O	O	O	O
+7-17	wheat	O	O	NN	O
+7-18	bread	O	O	NN	P6_groceries
+7-19	.	O	O	O	O
+
+#id=8
+#text=Next I proceeded to the frozen food section for a frozen pizza . 
+8-1	Next	8-3_advmod	proceeded	RB	O
+8-2	I	8-3_nsubj	proceeded	PRP	P1_shopper
+8-3	proceeded	O	O	VBD	O
+8-4	to	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	frozen	O	O	JJ	O
+8-7	food	O	O	NN	O
+8-8	section	8-3_prep_to	proceeded	NN	P3_section
+8-9	for	O	O	O	O
+8-10	a	O	O	DT	O
+8-11	frozen	O	O	JJ	O
+8-12	pizza	8-3_prep_for	proceeded	NN	P7_groceries
+8-13	.	O	O	O	O
+
+#id=9
+#text=The basket was starting to get full and heavy but I only had two more items left : milk and cheese . 
+9-1	The	O	O	DT	O
+9-2	basket	9-4_nsubj	starting	NN	P1_shopping_cart/basket
+9-3	was	9-4_aux	starting	VBD	O
+9-4	starting	O	O	VBG	O
+9-5	to	O	O	TO	O
+9-6	get	O	O	VB	O
+9-7	full	9-4_xcomp	starting	JJ	O
+9-8	and	O	O	O	O
+9-9	heavy	O	O	JJ	O
+9-10	but	O	O	O	O
+9-11	I	9-13_nsubj	had	PRP	P1_shopper
+9-12	only	9-13_advmod	had	RB	O
+9-13	had	9-4_conj_but	starting	VBD	O
+9-14	two	O	O	CD	O
+9-15	more	O	O	JJR	O
+9-16	items	9-13_dobj	had	NNS	P8_groceries
+9-17	left	O	O	VBN	O
+9-18	:	O	O	O	O
+9-19	milk	O	O	NN	O
+9-20	and	O	O	O	O
+9-21	cheese	O	O	NN	P8_groceries
+9-22	.	O	O	O	O
+
+#id=10
+#text=I headed for the dairy section , acquired my last few items and proceeded to checkout . 
+10-1	I	10-2_nsubj	headed	PRP	P1_shopper
+10-2	headed	O	O	VBD	O
+10-3	for	O	O	O	O
+10-4	the	O	O	DT	O
+10-5	dairy	O	O	NN	O
+10-6	section	10-2_prep_for	headed	NN	P4_section
+10-7	,	O	O	O	O
+10-8	acquired	10-2_conj_and	headed	VBD	O
+10-9	my	O	O	PRP$	P1_shopper
+10-10	last	O	O	JJ	O
+10-11	few	O	O	JJ	O
+10-12	items	10-8_dobj	acquired	NNS	P9_groceries
+10-13	and	O	O	O	O
+10-14	proceeded	10-2_conj_and	headed	VBD	O
+10-15	to	O	O	O	O
+10-16	checkout	10-14_prep_to	proceeded	NN	P5_section
+10-17	.	O	O	O	O
+
+#id=11
+#text=Despite the store being not very busy the traditional checkout lines were all full so I used the self-checkout . 
+11-1	Despite	O	O	O	O
+11-2	the	O	O	DT	O
+11-3	store	O	O	NN	P1_grocery_shop
+11-4	being	O	O	VBG	O
+11-5	not	O	O	RB	O
+11-6	very	O	O	RB	O
+11-7	busy	O	O	JJ	O
+11-8	the	O	O	DT	O
+11-9	traditional	O	O	JJ	O
+11-10	checkout	O	O	NN	O
+11-11	lines	O	O	NNS	P1_line
+11-12	were	O	O	VBD	O
+11-13	all	O	O	RB	O
+11-14	full	O	O	JJ	O
+11-15	so	11-17_mark	used	IN	O
+11-16	I	11-17_nsubj	used	PRP	P1_shopper
+11-17	used	O	O	VBD	O
+11-18	the	O	O	DT	O
+11-19	self-checkout	11-17_dobj	used	NN	P5_section
+11-20	.	O	O	O	O
+
+#id=12
+#text=I got my receipt and my bagged items and headed home to cook lunch . 
+12-1	I	12-2_nsubj	got	PRP	P1_shopper
+12-2	got	O	O	VBD	O
+12-3	my	O	O	PRP$	P1_shopper
+12-4	receipt	12-2_dobj	got	NN	P1_receipt
+12-5	and	O	O	O	O
+12-6	my	O	O	PRP$	P1_shopper
+12-7	bagged	O	O	JJ	O
+12-8	items	O	O	NNS	P9_groceries
+12-9	and	O	O	O	O
+12-10	headed	12-2_conj_and	got	VBD	O
+12-11	home	12-10_dobj	headed	NN	P1_NPart_home
+12-12	to	12-13_aux	cook	TO	O
+12-13	cook	12-10_vmod	headed	VB	O
+12-14	lunch	12-13_dobj	cook	NN	P1_NPart_lunch
+12-15	.	O	O	O	O

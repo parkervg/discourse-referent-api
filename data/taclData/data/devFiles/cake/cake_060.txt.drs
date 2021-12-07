@@ -1,0 +1,241 @@
+#id=1
+#text=The church was having a bake sale . 
+1-1	The	O	O	DT	O
+1-2	church	1-4_nsubj	having	NN	P1_NPart_church
+1-3	was	1-4_aux	having	VBD	O
+1-4	having	O	O	VBG	O
+1-5	a	O	O	DT	O
+1-6	bake	O	O	JJ	O
+1-7	sale	1-4_dobj	having	NN	P1_NPart_sale
+1-8	.	O	O	O	O
+
+#id=2
+#text=I decided to make a pineapple upside down cake , as they are my favorite . 
+2-1	I	2-2_nsubj	decided	PRP	P1_cook
+2-2	decided	O	O	VBD	O
+2-3	to	2-4_aux	make	TO	O
+2-4	make	2-2_xcomp	decided	VB	O
+2-5	a	O	O	DT	O
+2-6	pineapple	2-4_dobj	make	NN	O
+2-7	upside	O	O	RB	O
+2-8	down	2-4_advmod	make	RB	O
+2-9	cake	2-2_dobj	decided	NN	P1_cake
+2-10	,	O	O	O	O
+2-11	as	O	O	IN	O
+2-12	they	O	O	PRP	P1_cake
+2-13	are	O	O	VBP	O
+2-14	my	O	O	PRP$	P1_cook
+2-15	favorite	O	O	NN	O
+2-16	.	O	O	O	O
+
+#id=3
+#text=I realized I needed a few ingredients so I made sure to include them in my shopping list when I went to the store . 
+3-1	I	3-2_nsubj	realized	PRP	P1_cook
+3-2	realized	O	O	VBD	O
+3-3	I	3-4_nsubj	needed	PRP	P1_cook
+3-4	needed	3-2_ccomp	realized	VBD	O
+3-5	a	O	O	DT	O
+3-6	few	O	O	JJ	O
+3-7	ingredients	3-4_dobj	needed	NNS	P1_ingredients
+3-8	so	3-10_mark	made	IN	O
+3-9	I	3-10_nsubj	made	PRP	P1_cook
+3-10	made	3-4_advcl	needed	VBD	O
+3-11	sure	3-10_acomp	made	JJ	O
+3-12	to	3-13_aux	include	TO	O
+3-13	include	O	O	VB	O
+3-14	them	3-13_dobj	include	PRP	P1_ingredients
+3-15	in	O	O	O	O
+3-16	my	O	O	PRP$	P1_cook
+3-17	shopping	O	O	NN	O
+3-18	list	3-13_prep_in	include	NN	P1_NPart_list
+3-19	when	3-21_advmod	went	WRB	O
+3-20	I	3-21_nsubj	went	PRP	P1_cook
+3-21	went	3-10_advcl	made	VBD	O
+3-22	to	O	O	O	O
+3-23	the	O	O	DT	O
+3-24	store	3-21_prep_to	went	NN	P1_store
+3-25	.	O	O	O	O
+
+#id=4
+#text=After I got home from shopping I gathered all the ingredients and equipment on the counter , opened the cookbook , and turned on the oven . 
+4-1	After	4-3_mark	got	IN	O
+4-2	I	4-3_nsubj	got	PRP	P1_cook
+4-3	got	4-8_advcl	gathered	VBD	O
+4-4	home	4-3_dobj	got	NN	P1_kitchen/location
+4-5	from	O	O	O	O
+4-6	shopping	4-3_prep_from	got	NN	O
+4-7	I	4-8_nsubj	gathered	PRP	P1_cook
+4-8	gathered	O	O	VBD	O
+4-9	all	O	O	PDT	O
+4-10	the	O	O	DT	O
+4-11	ingredients	4-8_dobj	gathered	NNS	P1_ingredients
+4-12	and	O	O	O	O
+4-13	equipment	O	O	NN	P1_utensil
+4-14	on	O	O	O	O
+4-15	the	O	O	DT	O
+4-16	counter	4-8_prep_on	gathered	NN	P1_other
+4-17	,	O	O	O	O
+4-18	opened	4-8_conj_and	gathered	VBD	O
+4-19	the	O	O	DT	O
+4-20	cookbook	4-18_dobj	opened	NN	P1_recipe_source
+4-21	,	O	O	O	O
+4-22	and	O	O	O	O
+4-23	turned	4-8_conj_and	gathered	VBD	O
+4-24	on	O	O	O	O
+4-25	the	O	O	DT	O
+4-26	oven	4-23_prep_on	turned	NN	P1_oven
+4-27	.	O	O	O	O
+
+#id=5
+#text=First I layered the pineapple in the baking dish , placed the cherries in the center of the rings and sprinkled the brown sugar on . 
+5-1	First	5-3_advmod	layered	RB	O
+5-2	I	5-3_nsubj	layered	PRP	P1_cook
+5-3	layered	O	O	VBD	O
+5-4	the	O	O	DT	O
+5-5	pineapple	5-3_dobj	layered	NN	P2_ingredients
+5-6	in	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	baking	O	O	JJ	O
+5-9	dish	5-3_prep_in	layered	NN	P1_cake_tin
+5-10	,	O	O	O	O
+5-11	placed	5-3_conj_and	layered	VBD	O
+5-12	the	O	O	DT	O
+5-13	cherries	5-11_dobj	placed	NNS	P3_ingredients
+5-14	in	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	center	5-11_prep_in	placed	NN	P1_NPart_center
+5-17	of	O	O	O	O
+5-18	the	O	O	DT	O
+5-19	rings	O	O	NNS	P2_ingredients
+5-20	and	O	O	O	O
+5-21	sprinkled	5-3_conj_and	layered	VBD	O
+5-22	the	O	O	DT	O
+5-23	brown	O	O	JJ	O
+5-24	sugar	5-21_dobj	sprinkled	NN	P4_ingredients
+5-25	on	5-21_prep	sprinkled	IN	O
+5-26	.	O	O	O	O
+
+#id=6
+#text=In the bowl I measured and added all the dry ingredients and mixed them before adding the wet ingredients in the order suggested by the recipe . 
+6-1	In	O	O	O	O
+6-2	the	O	O	DT	O
+6-3	bowl	6-5_prep_in	measured	NN	P2_utensil
+6-4	I	6-5_nsubj	measured	PRP	P1_cook
+6-5	measured	O	O	VBD	O
+6-6	and	O	O	O	O
+6-7	added	6-5_conj_and	measured	VBD	O
+6-8	all	O	O	PDT	O
+6-9	the	O	O	DT	O
+6-10	dry	O	O	JJ	O
+6-11	ingredients	6-5_dobj	measured	NNS	P5_ingredients
+6-12	and	O	O	O	O
+6-13	mixed	6-5_conj_and	measured	VBN	O
+6-14	them	6-13_dobj	mixed	PRP	P5_ingredients
+6-15	before	O	O	O	O
+6-16	adding	6-13_prepc_before	mixed	VBG	O
+6-17	the	O	O	DT	O
+6-18	wet	O	O	JJ	O
+6-19	ingredients	6-16_dobj	adding	NNS	P6_ingredients
+6-20	in	O	O	O	O
+6-21	the	O	O	DT	O
+6-22	order	O	O	NN	P1_NPart_order
+6-23	suggested	O	O	VBN	O
+6-24	by	O	O	O	O
+6-25	the	O	O	DT	O
+6-26	recipe	6-23_agent	suggested	NN	P1_baking_instructions
+6-27	.	O	O	O	O
+
+#id=7
+#text=After stirring the appropriate amount of time I carefully poured the batter into the baking dish , over the pineapple . 
+7-1	After	O	O	O	O
+7-2	stirring	7-10_prepc_after	poured	VBG	O
+7-3	the	O	O	DT	O
+7-4	appropriate	O	O	JJ	O
+7-5	amount	7-2_dobj	stirring	NN	P1_NPart_amount
+7-6	of	O	O	O	O
+7-7	time	O	O	NN	P1_time
+7-8	I	7-10_nsubj	poured	PRP	P1_cook
+7-9	carefully	7-10_advmod	poured	RB	O
+7-10	poured	O	O	VBD	O
+7-11	the	O	O	DT	O
+7-12	batter	7-10_dobj	poured	NN	P1_dough
+7-13	into	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	baking	O	O	JJ	O
+7-16	dish	7-10_prep_into	poured	NN	P1_cake_tin
+7-17	,	O	O	O	O
+7-18	over	O	O	O	O
+7-19	the	O	O	DT	O
+7-20	pineapple	7-10_prep_over	poured	NN	P2_ingredients
+7-21	.	O	O	O	O
+
+#id=8
+#text=I placed the dish in the oven , set the timer , and when the timer rang I checked it then removed it . 
+8-1	I	8-2_nsubj	placed	PRP	P1_cook
+8-2	placed	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	dish	8-2_dobj	placed	NN	P1_cake
+8-5	in	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	oven	8-2_prep_in	placed	NN	P1_oven
+8-8	,	O	O	O	O
+8-9	set	8-2_dep	placed	VBD	O
+8-10	the	O	O	DT	O
+8-11	timer	8-9_dobj	set	NN	P1_timer
+8-12	,	O	O	O	O
+8-13	and	O	O	O	O
+8-14	when	8-17_advmod	rang	WRB	O
+8-15	the	O	O	DT	O
+8-16	timer	8-17_nsubj	rang	NN	P1_timer
+8-17	rang	8-9_conj_and	set	VBD	O
+8-18	I	8-19_nsubj	checked	PRP	P1_cook
+8-19	checked	8-17_ccomp	rang	VBD	O
+8-20	it	8-22_nsubj	removed	PRP	P1_cake
+8-21	then	8-22_advmod	removed	RB	O
+8-22	removed	8-19_ccomp	checked	VBD	O
+8-23	it	8-22_dobj	removed	PRP	P1_cake
+8-24	.	O	O	O	O
+
+#id=9
+#text=I took it to church in the pan and placed it on a tray there as it was easier to transport that way . 
+9-1	I	9-2_nsubj	took	PRP	P1_cook
+9-2	took	O	O	VBD	O
+9-3	it	9-2_dobj	took	PRP	P1_cake
+9-4	to	O	O	O	O
+9-5	church	9-2_prep_to	took	NN	P2_NPart_church
+9-6	in	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	pan	9-2_prep_in	took	NN	P1_cake_tin
+9-9	and	O	O	O	O
+9-10	placed	9-2_conj_and	took	VBD	O
+9-11	it	9-10_dobj	placed	PRP	P1_cake
+9-12	on	O	O	O	O
+9-13	a	O	O	DT	O
+9-14	tray	9-10_prep_on	placed	NN	P3_utensil
+9-15	there	O	O	RB	O
+9-16	as	O	O	IN	O
+9-17	it	O	O	PRP	P1_cake
+9-18	was	O	O	VBD	O
+9-19	easier	9-10_advcl	placed	JJR	O
+9-20	to	9-21_aux	transport	TO	O
+9-21	transport	O	O	VB	O
+9-22	that	O	O	DT	O
+9-23	way	9-21_dobj	transport	NN	O
+9-24	.	O	O	O	O
+
+#id=10
+#text=It looked delicious and sold for more than any of the other cakes . 
+10-1	It	10-2_nsubj	looked	PRP	P1_cake
+10-2	looked	O	O	VBD	O
+10-3	delicious	10-2_acomp	looked	JJ	O
+10-4	and	O	O	O	O
+10-5	sold	10-2_conj_and	looked	VBD	O
+10-6	for	O	O	O	O
+10-7	more	10-5_prep_for	sold	JJR	O
+10-8	than	O	O	O	O
+10-9	any	O	O	DT	O
+10-10	of	O	O	O	O
+10-11	the	O	O	DT	O
+10-12	other	O	O	JJ	O
+10-13	cakes	O	O	NNS	P2_cake
+10-14	.	O	O	O	O

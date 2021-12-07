@@ -1,0 +1,236 @@
+#id=1
+#text=I bought a little flowering tree at a local greenhouse . 
+1-1	I	1-2_nsubj	bought	PRP	P1_gardener
+1-2	bought	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	little	O	O	JJ	O
+1-5	flowering	O	O	NN	O
+1-6	tree	1-2_dobj	bought	NN	P1_tree
+1-7	at	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	local	O	O	JJ	O
+1-10	greenhouse	1-2_prep_at	bought	NN	P1_shop
+1-11	.	O	O	O	O
+
+#id=2
+#text=It came with its roots bundled up in burlap , or something that looks like burlap . 
+2-1	It	2-2_nsubj	came	PRP	P1_tree
+2-2	came	O	O	VBD	O
+2-3	with	O	O	O	O
+2-4	its	O	O	PRP$	P1_tree
+2-5	roots	2-2_prep_with	came	NNS	P1_root
+2-6	bundled	O	O	VBN	O
+2-7	up	2-6_prt	bundled	RP	O
+2-8	in	O	O	O	O
+2-9	burlap	2-6_prep_in	bundled	NN	P1_wrapping
+2-10	,	O	O	O	O
+2-11	or	O	O	O	O
+2-12	something	O	O	NN	P1_wrapping
+2-13	that	2-14_nsubj	looks	WDT	O
+2-14	looks	O	O	VBZ	O
+2-15	like	O	O	O	O
+2-16	burlap	2-14_prep_like	looks	NN	P1_wrapping
+2-17	.	O	O	O	O
+
+#id=3
+#text=I dug a hole about two feet deep in my front yard , where I wanted the tree to grow . 
+3-1	I	3-2_nsubj	dug	PRP	P1_gardener
+3-2	dug	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	hole	3-2_dobj	dug	NN	P1_hole
+3-5	about	O	O	RB	O
+3-6	two	O	O	CD	O
+3-7	feet	O	O	NNS	P1_NPart_feet
+3-8	deep	3-2_advmod	dug	RB	O
+3-9	in	O	O	O	O
+3-10	my	O	O	PRP$	P1_gardener
+3-11	front	O	O	JJ	O
+3-12	yard	3-2_prep_in	dug	NN	P1_NPart_yard
+3-13	,	O	O	O	O
+3-14	where	3-16_advmod	wanted	WRB	O
+3-15	I	3-16_nsubj	wanted	PRP	P1_gardener
+3-16	wanted	3-2_advcl	dug	VBD	O
+3-17	the	O	O	DT	O
+3-18	tree	3-16_dobj	wanted	NN	P1_tree
+3-19	to	3-20_aux	grow	TO	O
+3-20	grow	O	O	VB	O
+3-21	.	O	O	O	O
+
+#id=4
+#text=The instructions said to leave the roots in the bag . 
+4-1	The	O	O	DT	O
+4-2	instructions	4-3_nsubj	said	NNS	P1_NPart_instructions
+4-3	said	O	O	VBD	O
+4-4	to	4-5_aux	leave	TO	O
+4-5	leave	4-3_xcomp	said	VB	O
+4-6	the	O	O	DT	O
+4-7	roots	4-5_dobj	leave	NNS	P1_root
+4-8	in	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	bag	4-5_prep_in	leave	NN	P1_wrapping
+4-11	.	O	O	O	O
+
+#id=5
+#text=The bag would naturally rot away with time and the roots would poke out of it as they grew . 
+5-1	The	O	O	DT	O
+5-2	bag	5-5_nsubj	rot	NN	P1_wrapping
+5-3	would	5-5_aux	rot	MD	O
+5-4	naturally	5-5_advmod	rot	RB	O
+5-5	rot	O	O	VB	O
+5-6	away	5-5_prt	rot	RP	O
+5-7	with	O	O	O	O
+5-8	time	5-5_prep_with	rot	NN	O
+5-9	and	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	roots	5-13_nsubj	poke	NNS	P1_root
+5-12	would	5-13_aux	poke	MD	O
+5-13	poke	5-5_conj_and	rot	VB	O
+5-14	out	O	O	O	O
+5-15	of	O	O	O	O
+5-16	it	5-13_prep_out_of	poke	PRP	P1_wrapping
+5-17	as	5-19_mark	grew	IN	O
+5-18	they	5-19_nsubj	grew	PRP	P1_root
+5-19	grew	5-13_advcl	poke	VBD	O
+5-20	.	O	O	O	O
+
+#id=6
+#text=Once my hole was dug , I moved the tree over to the spot and put it in the hole . 
+6-1	Once	O	O	IN	O
+6-2	my	O	O	PRP$	P1_gardener
+6-3	hole	O	O	NN	P1_hole
+6-4	was	O	O	VBD	O
+6-5	dug	6-8_advcl	moved	JJ	O
+6-6	,	O	O	O	O
+6-7	I	6-8_nsubj	moved	PRP	P1_gardener
+6-8	moved	O	O	VBD	O
+6-9	the	O	O	DT	O
+6-10	tree	6-8_dobj	moved	NN	P1_tree
+6-11	over	6-8_prt	moved	RP	O
+6-12	to	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	spot	6-8_prep_to	moved	NN	P1_location_garden
+6-15	and	O	O	O	O
+6-16	put	6-8_conj_and	moved	VBD	O
+6-17	it	6-16_dobj	put	PRP	P1_tree
+6-18	in	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	hole	6-16_prep_in	put	NN	P1_hole
+6-21	.	O	O	O	O
+
+#id=7
+#text=I then started filling up the hole I 'd made with the dirt that I 'd dug up . 
+7-1	I	7-3_nsubj	started	PRP	P1_gardener
+7-2	then	7-3_advmod	started	RB	O
+7-3	started	O	O	VBD	O
+7-4	filling	7-3_xcomp	started	VBG	O
+7-5	up	7-4_prt	filling	RP	O
+7-6	the	O	O	DT	O
+7-7	hole	7-4_dobj	filling	NN	P1_hole
+7-8	I	7-10_nsubj	made	PRP	P1_gardener
+7-9	'd	7-10_aux	made	VBD	O
+7-10	made	O	O	VBN	O
+7-11	with	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	dirt	7-10_prep_with	made	NN	P1_dirt
+7-14	that	7-17_mark	dug	IN	O
+7-15	I	7-17_nsubj	dug	PRP	P1_gardener
+7-16	'd	7-17_aux	dug	MD	O
+7-17	dug	7-4_ccomp	filling	VB	O
+7-18	up	7-17_prt	dug	RP	O
+7-19	.	O	O	O	O
+
+#id=8
+#text=I made sure the tree was standing straight and I tamped down the loose dirt by walking on it until the tree seemed to be firmly in place . 
+8-1	I	8-2_nsubj	made	PRP	P1_gardener
+8-2	made	O	O	VBD	O
+8-3	sure	8-2_acomp	made	JJ	O
+8-4	the	O	O	DT	O
+8-5	tree	8-7_nsubj	standing	NN	P1_tree
+8-6	was	8-7_aux	standing	VBD	O
+8-7	standing	O	O	VBG	O
+8-8	straight	8-7_advmod	standing	RB	O
+8-9	and	O	O	O	O
+8-10	I	8-11_nsubj	tamped	PRP	P1_gardener
+8-11	tamped	8-7_conj_and	standing	VBD	O
+8-12	down	8-11_prt	tamped	RP	O
+8-13	the	O	O	DT	O
+8-14	loose	O	O	JJ	O
+8-15	dirt	8-11_dobj	tamped	NN	P1_dirt
+8-16	by	O	O	O	O
+8-17	walking	8-11_prepc_by	tamped	VBG	O
+8-18	on	O	O	O	O
+8-19	it	8-17_prep_on	walking	PRP	P1_dirt
+8-20	until	8-23_mark	seemed	IN	O
+8-21	the	O	O	DT	O
+8-22	tree	8-23_nsubj	seemed	NN	P1_tree
+8-23	seemed	8-2_advcl	made	VBD	O
+8-24	to	8-25_aux	be	TO	O
+8-25	be	8-23_xcomp	seemed	VB	O
+8-26	firmly	8-25_advmod	be	RB	O
+8-27	in	O	O	O	O
+8-28	place	8-25_prep_in	be	NN	O
+8-29	.	O	O	O	O
+
+#id=9
+#text=I then put some mulch around the base of the tree in a circle . 
+9-1	I	9-3_nsubj	put	PRP	P1_gardener
+9-2	then	9-3_advmod	put	RB	O
+9-3	put	O	O	VBD	O
+9-4	some	O	O	DT	O
+9-5	mulch	9-3_dobj	put	NN	P1_NPart_mulch
+9-6	around	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	base	9-3_prep_around	put	NN	P1_NPart_base
+9-9	of	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	tree	O	O	NN	P1_tree
+9-12	in	O	O	O	O
+9-13	a	O	O	DT	O
+9-14	circle	9-3_prep_in	put	NN	P1_NPart_circle
+9-15	.	O	O	O	O
+
+#id=10
+#text=That 's supposed to help the area retain moisture , which the tree needs to survive . 
+10-1	That	10-3_nsubjpass	supposed	DT	O
+10-2	's	10-3_auxpass	supposed	VBZ	O
+10-3	supposed	O	O	VBN	O
+10-4	to	10-5_aux	help	TO	O
+10-5	help	10-3_xcomp	supposed	VB	O
+10-6	the	O	O	DT	O
+10-7	area	10-8_nsubj	retain	NN	P1_location_garden
+10-8	retain	10-5_ccomp	help	VB	O
+10-9	moisture	10-8_dobj	retain	NN	P1_NPart_moisture
+10-10	,	O	O	O	O
+10-11	which	10-14_dobj	needs	WDT	O
+10-12	the	O	O	DT	O
+10-13	tree	10-14_nsubj	needs	NN	P1_tree
+10-14	needs	O	O	VBZ	O
+10-15	to	10-16_aux	survive	TO	O
+10-16	survive	10-14_xcomp	needs	VB	O
+10-17	.	O	O	O	O
+
+#id=11
+#text=After that , I took out the hose and watered the tree a little to give it a good start in life . 
+11-1	After	O	O	O	O
+11-2	that	11-5_prep_after	took	DT	O
+11-3	,	O	O	O	O
+11-4	I	11-5_nsubj	took	PRP	P1_gardener
+11-5	took	O	O	VBD	O
+11-6	out	11-5_prt	took	RP	O
+11-7	the	O	O	DT	O
+11-8	hose	11-5_dobj	took	NN	P1_gardening_tool
+11-9	and	O	O	O	O
+11-10	watered	11-5_conj_and	took	VBD	O
+11-11	the	O	O	DT	O
+11-12	tree	11-10_dobj	watered	NN	P1_tree
+11-13	a	O	O	DT	O
+11-14	little	O	O	JJ	O
+11-15	to	11-16_aux	give	TO	O
+11-16	give	11-10_vmod	watered	VB	O
+11-17	it	11-16_iobj	give	PRP	P1_tree
+11-18	a	O	O	DT	O
+11-19	good	O	O	JJ	O
+11-20	start	11-16_dobj	give	NN	P1_NPart_start
+11-21	in	O	O	O	O
+11-22	life	O	O	NN	P1_NPart_life
+11-23	.	O	O	O	O

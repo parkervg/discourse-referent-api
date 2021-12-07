@@ -1,0 +1,189 @@
+#id=1
+#text=My classmates and I needed to plant a nice tree in front of the new school building that was just built this year . 
+1-1	My	O	O	PRP$	O
+1-2	classmates	1-5_nsubj	needed	NNS	O
+1-3	and	O	O	O	O
+1-4	I	O	O	PRP	P1_gardener
+1-5	needed	O	O	VBD	O
+1-6	to	1-7_aux	plant	TO	O
+1-7	plant	1-5_xcomp	needed	VB	O
+1-8	a	O	O	DT	O
+1-9	nice	O	O	JJ	O
+1-10	tree	1-7_dobj	plant	NN	P1_tree
+1-11	in	O	O	O	O
+1-12	front	O	O	O	O
+1-13	of	O	O	O	O
+1-14	the	O	O	DT	O
+1-15	new	O	O	JJ	O
+1-16	school	O	O	NN	O
+1-17	building	1-7_prep_in_front_of	plant	NN	P1_NPart_building
+1-18	that	1-21_nsubjpass	built	WDT	O
+1-19	was	1-21_auxpass	built	VBD	O
+1-20	just	1-21_advmod	built	RB	O
+1-21	built	O	O	VBN	O
+1-22	this	O	O	DT	O
+1-23	year	1-21_tmod	built	NN	P1_NPart_year
+1-24	.	O	O	O	O
+
+#id=2
+#text=I wanted to find a tree that would last a quite long time . 
+2-1	I	2-2_nsubj	wanted	PRP	P1_gardener
+2-2	wanted	O	O	VBD	O
+2-3	to	2-4_aux	find	TO	O
+2-4	find	2-2_xcomp	wanted	VB	O
+2-5	a	O	O	DT	O
+2-6	tree	2-4_dobj	find	NN	P1_tree
+2-7	that	2-9_nsubj	last	WDT	O
+2-8	would	2-9_aux	last	MD	O
+2-9	last	O	O	VB	O
+2-10	a	O	O	DT	O
+2-11	quite	O	O	RB	O
+2-12	long	O	O	JJ	O
+2-13	time	2-9_dobj	last	NN	P1_time
+2-14	.	O	O	O	O
+
+#id=3
+#text=We found a nice pine tree that was just large enough to be a foot . 
+3-1	We	3-2_nsubj	found	PRP	P1_gardener
+3-2	found	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	nice	O	O	JJ	O
+3-5	pine	O	O	NN	O
+3-6	tree	3-2_dobj	found	NN	P1_tree
+3-7	that	O	O	WDT	O
+3-8	was	O	O	VBD	O
+3-9	just	O	O	RB	O
+3-10	large	O	O	JJ	O
+3-11	enough	O	O	RB	O
+3-12	to	O	O	TO	O
+3-13	be	O	O	VB	O
+3-14	a	O	O	DT	O
+3-15	foot	O	O	NN	P1_NPart_foot
+3-16	.	O	O	O	O
+
+#id=4
+#text=We dug a nice hole in the ground , and insured the soil was the proper type to accept a tree of this size . 
+4-1	We	4-2_nsubj	dug	PRP	P1_gardener
+4-2	dug	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	nice	O	O	JJ	O
+4-5	hole	4-2_dobj	dug	NN	P1_hole
+4-6	in	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	ground	4-2_prep_in	dug	NN	P1_NPart_ground
+4-9	,	O	O	O	O
+4-10	and	O	O	O	O
+4-11	insured	4-2_conj_and	dug	JJ	O
+4-12	the	O	O	DT	O
+4-13	soil	O	O	NN	P1_dirt
+4-14	was	O	O	VBD	O
+4-15	the	O	O	DT	O
+4-16	proper	O	O	JJ	O
+4-17	type	O	O	NN	P1_NPart_type
+4-18	to	4-19_aux	accept	TO	O
+4-19	accept	O	O	VB	O
+4-20	a	O	O	DT	O
+4-21	tree	4-19_dobj	accept	NN	P1_tree
+4-22	of	O	O	O	O
+4-23	this	O	O	DT	O
+4-24	size	O	O	NN	P1_NPart_size
+4-25	.	O	O	O	O
+
+#id=5
+#text=It had to be nice and soft , and in a safe location where kids wo n't trample over it . 
+5-1	It	5-2_nsubj	had	PRP	P1_dirt
+5-2	had	O	O	VBD	O
+5-3	to	O	O	TO	O
+5-4	be	O	O	VB	O
+5-5	nice	5-2_xcomp	had	JJ	O
+5-6	and	O	O	O	O
+5-7	soft	O	O	JJ	O
+5-8	,	O	O	O	O
+5-9	and	O	O	O	O
+5-10	in	O	O	IN	O
+5-11	a	O	O	DT	O
+5-12	safe	O	O	JJ	O
+5-13	location	O	O	NN	P1_location_garden
+5-14	where	5-18_advmod	trample	WRB	O
+5-15	kids	5-18_nsubj	trample	NNS	P1_NPart_kids
+5-16	wo	5-18_aux	trample	MD	O
+5-17	n't	5-18_neg	trample	RB	O
+5-18	trample	O	O	VB	O
+5-19	over	5-18_prt	trample	RP	O
+5-20	it	5-18_dobj	trample	PRP	P1_dirt
+5-21	.	O	O	O	O
+
+#id=6
+#text=I dug the hole about 4 '' '' deep and insured it was wide enough for the tree . 
+6-1	I	6-2_nsubj	dug	PRP	P1_gardener
+6-2	dug	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	hole	6-2_dobj	dug	NN	P1_hole
+6-5	about	O	O	O	O
+6-6	4	O	O	CD	O
+6-7	''	O	O	O	O
+6-8	''	O	O	O	O
+6-9	deep	O	O	JJ	O
+6-10	and	O	O	O	O
+6-11	insured	O	O	VBN	O
+6-12	it	O	O	PRP	P1_hole
+6-13	was	O	O	VBD	O
+6-14	wide	O	O	RB	O
+6-15	enough	O	O	JJ	O
+6-16	for	O	O	O	O
+6-17	the	O	O	DT	O
+6-18	tree	O	O	NN	P1_tree
+6-19	.	O	O	O	O
+
+#id=7
+#text=We planted the tree and began to fill in the surrounding area of it with soil to make sure it would hold in place as perfect as possible . 
+7-1	We	7-2_nsubj	planted	PRP	P1_gardener
+7-2	planted	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	tree	7-2_dobj	planted	NN	P1_tree
+7-5	and	O	O	O	O
+7-6	began	7-2_conj_and	planted	VBD	O
+7-7	to	7-8_aux	fill	TO	O
+7-8	fill	7-6_xcomp	began	VB	O
+7-9	in	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	surrounding	O	O	VBG	O
+7-12	area	7-8_prep_in	fill	NN	P1_location_garden
+7-13	of	O	O	O	O
+7-14	it	O	O	PRP	P1_tree
+7-15	with	O	O	O	O
+7-16	soil	O	O	NN	P1_dirt
+7-17	to	7-18_aux	make	TO	O
+7-18	make	O	O	VB	O
+7-19	sure	7-18_acomp	make	JJ	O
+7-20	it	7-22_nsubj	hold	PRP	P1_tree
+7-21	would	7-22_aux	hold	MD	O
+7-22	hold	O	O	VB	O
+7-23	in	O	O	O	O
+7-24	place	7-22_prep_in	hold	NN	O
+7-25	as	O	O	RB	O
+7-26	perfect	7-8_acomp	fill	JJ	O
+7-27	as	O	O	O	O
+7-28	possible	O	O	JJ	O
+7-29	.	O	O	O	O
+
+#id=8
+#text=The tree looked perfect and was ready to withstand the first school year outside the new building . 
+8-1	The	O	O	DT	O
+8-2	tree	8-3_nsubj	looked	NN	P1_tree
+8-3	looked	O	O	VBD	O
+8-4	perfect	8-3_acomp	looked	JJ	O
+8-5	and	O	O	O	O
+8-6	was	O	O	VBD	O
+8-7	ready	8-3_conj_and	looked	JJ	O
+8-8	to	8-9_aux	withstand	TO	O
+8-9	withstand	O	O	VB	O
+8-10	the	O	O	DT	O
+8-11	first	O	O	JJ	O
+8-12	school	O	O	NN	O
+8-13	year	8-9_tmod	withstand	NN	P2_NPart_year
+8-14	outside	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	new	O	O	JJ	O
+8-17	building	8-9_prep_outside	withstand	NN	P2_NPart_building
+8-18	.	O	O	O	O

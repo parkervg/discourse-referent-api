@@ -1,0 +1,259 @@
+#id=1
+#text=Each night after we finish eating our dinner , I go upstairs to take a bath . 
+1-1	Each	O	O	DT	O
+1-2	night	1-11_tmod	go	NN	P1_NPart_night
+1-3	after	1-5_mark	finish	IN	O
+1-4	we	1-5_nsubj	finish	PRP	O
+1-5	finish	1-11_advcl	go	VBP	O
+1-6	eating	1-5_xcomp	finish	VBG	O
+1-7	our	O	O	PRP$	O
+1-8	dinner	1-6_dobj	eating	NN	P1_NPart_dinner
+1-9	,	O	O	O	O
+1-10	I	1-11_nsubj	go	PRP	P1_bather
+1-11	go	O	O	VBP	O
+1-12	upstairs	1-11_advmod	go	NN	O
+1-13	to	1-14_aux	take	TO	O
+1-14	take	1-11_xcomp	go	VB	O
+1-15	a	O	O	DT	O
+1-16	bath	1-14_dobj	take	NN	P1_bath
+1-17	.	O	O	O	O
+
+#id=2
+#text=The first thing that I do is get myself a clean towel and wash cloth . 
+2-1	The	O	O	DT	O
+2-2	first	O	O	JJ	O
+2-3	thing	2-8_nsubj	get	NN	O
+2-4	that	2-6_mark	do	IN	O
+2-5	I	2-6_nsubj	do	PRP	P1_bather
+2-6	do	O	O	VBP	O
+2-7	is	2-8_aux	get	VBZ	O
+2-8	get	O	O	VB	O
+2-9	myself	O	O	PRP	P1_bather
+2-10	a	O	O	DT	O
+2-11	clean	O	O	JJ	O
+2-12	towel	2-8_xcomp	get	NN	P1_towel
+2-13	and	O	O	O	O
+2-14	wash	O	O	NN	O
+2-15	cloth	O	O	NN	P1_washing_tools
+2-16	.	O	O	O	O
+
+#id=3
+#text=I put these items on the side of the bath tub in my bathroom . 
+3-1	I	3-2_nsubj	put	PRP	P1_bather
+3-2	put	O	O	VBD	O
+3-3	these	O	O	DT	O
+3-4	items	3-2_dobj	put	NNS	O
+3-5	on	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	side	3-2_prep_on	put	NN	P1_NPart_side
+3-8	of	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	bath	O	O	NN	O
+3-11	tub	O	O	NN	P1_bathtub
+3-12	in	O	O	O	O
+3-13	my	O	O	PRP$	P1_bather
+3-14	bathroom	3-2_prep_in	put	NN	P1_bathroom
+3-15	.	O	O	O	O
+
+#id=4
+#text=I then put the stopper in the drain of the bathtub and turn on the water faucet . 
+4-1	I	4-3_nsubj	put	PRP	P1_bather
+4-2	then	4-3_advmod	put	RB	O
+4-3	put	O	O	VBD	O
+4-4	the	O	O	DT	O
+4-5	stopper	4-3_dobj	put	NN	P1_plug
+4-6	in	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	drain	4-3_prep_in	put	NN	P1_drain
+4-9	of	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	bathtub	O	O	NN	P1_bathtub
+4-12	and	O	O	O	O
+4-13	turn	O	O	NN	O
+4-14	on	O	O	O	O
+4-15	the	O	O	DT	O
+4-16	water	O	O	NN	O
+4-17	faucet	4-3_prep_on	put	NN	P1_tap
+4-18	.	O	O	O	O
+
+#id=5
+#text=I wait for the water to warm up and check it with my hand to make sure it is warm and not too hot . 
+5-1	I	5-2_nsubj	wait	PRP	P1_bather
+5-2	wait	O	O	VBP	O
+5-3	for	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	water	5-2_prep_for	wait	NN	P1_water
+5-6	to	5-7_aux	warm	TO	O
+5-7	warm	O	O	VB	O
+5-8	up	5-7_prt	warm	RP	O
+5-9	and	O	O	O	O
+5-10	check	5-7_conj_and	warm	VB	O
+5-11	it	5-10_dobj	check	PRP	P1_water
+5-12	with	O	O	O	O
+5-13	my	O	O	PRP$	P1_bather
+5-14	hand	5-10_prep_with	check	NN	P1_body_part
+5-15	to	5-16_aux	make	TO	O
+5-16	make	O	O	VB	O
+5-17	sure	5-16_acomp	make	JJ	O
+5-18	it	O	O	PRP	P1_water
+5-19	is	O	O	VBZ	O
+5-20	warm	O	O	JJ	O
+5-21	and	O	O	O	O
+5-22	not	O	O	RB	O
+5-23	too	O	O	RB	O
+5-24	hot	O	O	JJ	O
+5-25	.	O	O	O	O
+
+#id=6
+#text=Once the bath tub is half way full , I turn off the water . 
+6-1	Once	O	O	IN	O
+6-2	the	O	O	DT	O
+6-3	bath	O	O	NN	O
+6-4	tub	O	O	NN	P1_bathtub
+6-5	is	O	O	VBZ	O
+6-6	half	O	O	DT	O
+6-7	way	O	O	NN	O
+6-8	full	6-11_advcl	turn	JJ	O
+6-9	,	O	O	O	O
+6-10	I	6-11_nsubj	turn	PRP	P1_bather
+6-11	turn	O	O	VBP	O
+6-12	off	6-11_prt	turn	RP	O
+6-13	the	O	O	DT	O
+6-14	water	6-11_dobj	turn	NN	P1_water
+6-15	.	O	O	O	O
+
+#id=7
+#text=Then I take off my clothes and climb into the bath tub . 
+7-1	Then	7-3_advmod	take	RB	O
+7-2	I	7-3_nsubj	take	PRP	P1_bather
+7-3	take	O	O	VBP	O
+7-4	off	7-3_prt	take	RP	O
+7-5	my	O	O	PRP$	P1_bather
+7-6	clothes	7-3_dobj	take	NNS	P1_clothes
+7-7	and	O	O	O	O
+7-8	climb	7-3_conj_and	take	VB	O
+7-9	into	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	bath	O	O	NN	O
+7-12	tub	7-8_prep_into	climb	NN	P1_bathtub
+7-13	.	O	O	O	O
+
+#id=8
+#text=I get my wash cloth and put it under the water . 
+8-1	I	8-2_nsubj	get	PRP	P1_bather
+8-2	get	O	O	VBP	O
+8-3	my	O	O	PRP$	P1_bather
+8-4	wash	O	O	NN	O
+8-5	cloth	8-2_dobj	get	NN	P1_washing_tools
+8-6	and	O	O	O	O
+8-7	put	8-2_conj_and	get	VBD	O
+8-8	it	8-7_dobj	put	PRP	P1_washing_tools
+8-9	under	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	water	8-7_prep_under	put	NN	P1_water
+8-12	.	O	O	O	O
+
+#id=9
+#text=I then get the soap and rub it on my wet wash cloth to make suds . 
+9-1	I	9-3_nsubj	get	PRP	P1_bather
+9-2	then	9-3_advmod	get	RB	O
+9-3	get	O	O	VB	O
+9-4	the	O	O	DT	O
+9-5	soap	9-3_dobj	get	NN	P2_washing_tools
+9-6	and	O	O	O	O
+9-7	rub	9-3_conj_and	get	VB	O
+9-8	it	9-7_dobj	rub	PRP	P2_washing_tools
+9-9	on	O	O	O	O
+9-10	my	O	O	PRP$	P1_bather
+9-11	wet	O	O	JJ	O
+9-12	wash	O	O	NN	O
+9-13	cloth	9-7_prep_on	rub	NN	P1_washing_tools
+9-14	to	9-15_aux	make	TO	O
+9-15	make	9-7_vmod	rub	VB	O
+9-16	suds	9-15_dobj	make	NNS	P1_other
+9-17	.	O	O	O	O
+
+#id=10
+#text=The next thing to do is take the wash cloth and wash my entire body , starting with my face and ending with my toes . 
+10-1	The	O	O	DT	O
+10-2	next	O	O	JJ	O
+10-3	thing	10-7_nsubj	take	NN	O
+10-4	to	10-5_aux	do	TO	O
+10-5	do	O	O	VB	O
+10-6	is	10-7_aux	take	VBZ	O
+10-7	take	O	O	VB	O
+10-8	the	O	O	DT	O
+10-9	wash	O	O	NN	O
+10-10	cloth	10-7_dobj	take	NN	P1_washing_tools
+10-11	and	O	O	O	O
+10-12	wash	10-7_conj_and	take	VB	O
+10-13	my	O	O	PRP$	P1_bather
+10-14	entire	O	O	JJ	O
+10-15	body	10-12_dobj	wash	NN	P2_body_part
+10-16	,	O	O	O	O
+10-17	starting	10-12_dep	wash	VBG	O
+10-18	with	O	O	O	O
+10-19	my	O	O	PRP$	P1_bather
+10-20	face	10-17_prep_with	starting	NN	P3_body_part
+10-21	and	O	O	O	O
+10-22	ending	10-17_conj_and	starting	VBG	O
+10-23	with	O	O	O	O
+10-24	my	O	O	PRP$	P1_bather
+10-25	toes	10-22_prep_with	ending	NNS	P4_body_part
+10-26	.	O	O	O	O
+
+#id=11
+#text=After I have washed everything , I rinse the soap from my body with the water in the tub . 
+11-1	After	11-4_mark	washed	IN	O
+11-2	I	11-4_nsubj	washed	PRP	P1_bather
+11-3	have	11-4_aux	washed	VBP	O
+11-4	washed	11-8_advcl	rinse	VBN	O
+11-5	everything	11-4_dobj	washed	NN	P2_body_part
+11-6	,	O	O	O	O
+11-7	I	11-8_nsubj	rinse	PRP	P1_bather
+11-8	rinse	O	O	VBD	O
+11-9	the	O	O	DT	O
+11-10	soap	11-8_dobj	rinse	NN	P2_washing_tools
+11-11	from	O	O	O	O
+11-12	my	O	O	PRP$	P1_bather
+11-13	body	11-8_prep_from	rinse	NN	P2_body_part
+11-14	with	O	O	O	O
+11-15	the	O	O	DT	O
+11-16	water	11-8_prep_with	rinse	NN	P1_water
+11-17	in	O	O	O	O
+11-18	the	O	O	DT	O
+11-19	tub	O	O	NN	P1_bathtub
+11-20	.	O	O	O	O
+
+#id=12
+#text=Finally , I get out of the tub , take the stopper out of the drain to let the water out , and use my towel to dry off . 
+12-1	Finally	12-4_advmod	get	RB	O
+12-2	,	O	O	O	O
+12-3	I	12-4_nsubj	get	PRP	P1_bather
+12-4	get	O	O	VB	O
+12-5	out	12-4_prt	get	RP	O
+12-6	of	O	O	O	O
+12-7	the	O	O	DT	O
+12-8	tub	12-4_prep_of	get	NN	P1_bathtub
+12-9	,	O	O	O	O
+12-10	take	12-4_conj_and	get	VB	O
+12-11	the	O	O	DT	O
+12-12	stopper	12-10_dobj	take	NN	P1_plug
+12-13	out	12-10_prt	take	RP	O
+12-14	of	O	O	O	O
+12-15	the	O	O	DT	O
+12-16	drain	12-10_prep_of	take	NN	P1_drain
+12-17	to	12-18_aux	let	TO	O
+12-18	let	O	O	VB	O
+12-19	the	O	O	DT	O
+12-20	water	12-18_dobj	let	NN	P1_water
+12-21	out	12-18_prt	let	RP	O
+12-22	,	O	O	O	O
+12-23	and	O	O	O	O
+12-24	use	12-4_conj_and	get	VB	O
+12-25	my	O	O	PRP$	P1_bather
+12-26	towel	12-24_dobj	use	NN	P1_towel
+12-27	to	12-28_aux	dry	TO	O
+12-28	dry	O	O	VB	O
+12-29	off	12-28_prt	dry	RP	O
+12-30	.	O	O	O	O

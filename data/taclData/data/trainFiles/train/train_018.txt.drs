@@ -1,0 +1,209 @@
+#id=1
+#text=Yesterday my sons and I received an invitation from their grandmother in Reno to come for a visit . 
+1-1	Yesterday	1-6_tmod	received	NN	P1_time_date
+1-2	my	O	O	PRP$	O
+1-3	sons	1-6_nsubj	received	NNS	O
+1-4	and	O	O	O	O
+1-5	I	O	O	PRP	P1_passenger
+1-6	received	O	O	VBD	O
+1-7	an	O	O	DT	O
+1-8	invitation	1-6_dobj	received	NN	P1_NPart_invitation
+1-9	from	O	O	O	O
+1-10	their	O	O	PRP$	P2_passenger
+1-11	grandmother	1-6_prep_from	received	NN	P1_NPart_grandmother
+1-12	in	O	O	O	O
+1-13	Reno	O	O	NNP	P1_destination
+1-14	to	1-15_aux	come	TO	O
+1-15	come	1-6_vmod	received	VB	O
+1-16	for	O	O	O	O
+1-17	a	O	O	DT	O
+1-18	visit	1-15_prep_for	come	NN	O
+1-19	.	O	O	O	O
+
+#id=2
+#text=I do n't really like to fly on an airplane and I thought taking a train would be a great way for my young sons to see the country . 
+2-1	I	2-5_nsubj	like	PRP	P1_passenger
+2-2	do	2-5_aux	like	VBP	O
+2-3	n't	2-5_neg	like	RB	O
+2-4	really	2-5_advmod	like	RB	O
+2-5	like	O	O	VB	O
+2-6	to	2-7_aux	fly	TO	O
+2-7	fly	2-5_xcomp	like	VB	O
+2-8	on	O	O	O	O
+2-9	an	O	O	DT	O
+2-10	airplane	2-7_prep_on	fly	NN	P1_NPart_airplane
+2-11	and	O	O	O	O
+2-12	I	2-13_nsubj	thought	PRP	P1_passenger
+2-13	thought	2-5_conj_and	like	VBD	O
+2-14	taking	2-13_xcomp	thought	VBG	O
+2-15	a	O	O	DT	O
+2-16	train	O	O	NN	P1_train
+2-17	would	O	O	MD	O
+2-18	be	O	O	VB	O
+2-19	a	O	O	DT	O
+2-20	great	O	O	JJ	O
+2-21	way	2-14_ccomp	taking	NN	O
+2-22	for	O	O	O	O
+2-23	my	O	O	PRP$	P1_passenger
+2-24	young	O	O	JJ	O
+2-25	sons	O	O	NNS	P2_passenger
+2-26	to	2-27_aux	see	TO	O
+2-27	see	O	O	VB	O
+2-28	the	O	O	DT	O
+2-29	country	2-27_dobj	see	NN	P1_in-train_entertainment
+2-30	.	O	O	O	O
+
+#id=3
+#text=So we went to the train station and bought train tickets . 
+3-1	So	3-3_dep	went	IN	O
+3-2	we	3-3_nsubj	went	PRP	P1_passenger
+3-3	went	O	O	VBD	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	train	O	O	NN	O
+3-7	station	3-3_prep_to	went	NN	P1_train_station
+3-8	and	O	O	O	O
+3-9	bought	3-3_conj_and	went	VBD	O
+3-10	train	O	O	NN	O
+3-11	tickets	3-9_dobj	bought	NNS	P1_card/ticket
+3-12	.	O	O	O	O
+
+#id=4
+#text=Then we went home and packed our suitcases for the journey . 
+4-1	Then	4-3_advmod	went	RB	O
+4-2	we	4-3_nsubj	went	PRP	P1_passenger
+4-3	went	O	O	VBD	O
+4-4	home	4-3_dobj	went	NN	P1_NPart_home
+4-5	and	O	O	O	O
+4-6	packed	4-3_conj_and	went	VBD	O
+4-7	our	O	O	PRP$	P1_passenger
+4-8	suitcases	4-6_dobj	packed	NNS	P1_luggage
+4-9	for	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	journey	4-6_prep_for	packed	NN	P1_trip
+4-12	.	O	O	O	O
+
+#id=5
+#text=The next day we went to the train station an hour early from the departure time . 
+5-1	The	O	O	DT	O
+5-2	next	O	O	JJ	O
+5-3	day	5-5_tmod	went	NN	P2_time_date
+5-4	we	5-5_nsubj	went	PRP	P1_passenger
+5-5	went	O	O	VBD	O
+5-6	to	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	train	O	O	NN	O
+5-9	station	5-5_prep_to	went	NN	P1_train_station
+5-10	an	O	O	DT	O
+5-11	hour	O	O	NN	P3_time_date
+5-12	early	O	O	RB	O
+5-13	from	O	O	O	O
+5-14	the	O	O	DT	O
+5-15	departure	O	O	NN	O
+5-16	time	O	O	NN	P4_time_date
+5-17	.	O	O	O	O
+
+#id=6
+#text=We gave our tickets to the station attendant and went outside to the platform to wait for our train . 
+6-1	We	6-2_nsubj	gave	PRP	P1_passenger
+6-2	gave	O	O	VBD	O
+6-3	our	O	O	PRP$	P1_passenger
+6-4	tickets	6-2_dobj	gave	NNS	P1_card/ticket
+6-5	to	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	station	O	O	NN	O
+6-8	attendant	6-2_prep_to	gave	NN	P1_NPart_attendant
+6-9	and	O	O	O	O
+6-10	went	6-2_conj_and	gave	VBD	O
+6-11	outside	6-10_advmod	went	IN	P1_NPart_outside
+6-12	to	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	platform	O	O	NN	P1_platform
+6-15	to	6-16_aux	wait	TO	O
+6-16	wait	6-10_xcomp	went	VB	O
+6-17	for	O	O	O	O
+6-18	our	O	O	PRP$	P1_passenger
+6-19	train	6-16_prep_for	wait	NN	P1_train
+6-20	.	O	O	O	O
+
+#id=7
+#text=The train pulled in just as we got out side . 
+7-1	The	O	O	DT	O
+7-2	train	7-3_nsubj	pulled	NN	P1_train
+7-3	pulled	O	O	VBD	O
+7-4	in	7-3_prt	pulled	RP	O
+7-5	just	7-8_advmod	got	RB	O
+7-6	as	7-8_mark	got	IN	O
+7-7	we	7-8_nsubj	got	PRP	P1_passenger
+7-8	got	7-3_advcl	pulled	VBD	O
+7-9	out	7-8_prt	got	RP	O
+7-10	side	7-8_dobj	got	NN	P1_NPart_side
+7-11	.	O	O	O	O
+
+#id=8
+#text=My sons were very excited to be going across the country by train . 
+8-1	My	O	O	PRP$	P1_passenger
+8-2	sons	O	O	NNS	P2_passenger
+8-3	were	O	O	VBD	O
+8-4	very	O	O	RB	O
+8-5	excited	O	O	JJ	O
+8-6	to	8-8_aux	going	TO	O
+8-7	be	8-8_aux	going	VB	O
+8-8	going	O	O	VBG	O
+8-9	across	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	country	8-8_prep_across	going	NN	P1_in-train_entertainment
+8-12	by	O	O	O	O
+8-13	train	8-8_prep_by	going	NN	P1_train
+8-14	.	O	O	O	O
+
+#id=9
+#text=Then after the train had stopped , we go on board . 
+9-1	Then	9-9_advmod	go	RB	O
+9-2	after	9-6_mark	stopped	IN	O
+9-3	the	O	O	DT	O
+9-4	train	9-6_nsubj	stopped	NN	P1_train
+9-5	had	9-6_aux	stopped	VBD	O
+9-6	stopped	9-9_advcl	go	VBN	O
+9-7	,	O	O	O	O
+9-8	we	9-9_nsubj	go	PRP	P1_passenger
+9-9	go	O	O	VBP	O
+9-10	on	O	O	O	O
+9-11	board	9-9_prep_on	go	NN	O
+9-12	.	O	O	O	O
+
+#id=10
+#text=The train went across the country and the landscape was beautiful ! 
+10-1	The	O	O	DT	O
+10-2	train	10-3_nsubj	went	NN	P1_train
+10-3	went	O	O	VBD	O
+10-4	across	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	country	10-3_prep_across	went	NN	P1_in-train_entertainment
+10-7	and	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	landscape	O	O	NN	P1_in-train_entertainment
+10-10	was	O	O	VBD	O
+10-11	beautiful	10-3_conj_and	went	JJ	O
+10-12	!	O	O	O	O
+
+#id=11
+#text=Three days later we arrived in Reno and were met by their grandmother at the train station . 
+11-1	Three	O	O	CD	O
+11-2	days	11-5_tmod	arrived	NNS	P5_time_date
+11-3	later	O	O	RB	O
+11-4	we	11-5_nsubj	arrived	PRP	P1_passenger
+11-5	arrived	O	O	VBD	O
+11-6	in	O	O	O	O
+11-7	Reno	11-5_prep_in	arrived	NNP	P1_destination
+11-8	and	O	O	O	O
+11-9	were	11-10_auxpass	met	VBD	O
+11-10	met	11-5_conj_and	arrived	VBN	O
+11-11	by	O	O	O	O
+11-12	their	O	O	PRP$	P2_passenger
+11-13	grandmother	11-10_agent	met	NN	P1_NPart_grandmother
+11-14	at	O	O	O	O
+11-15	the	O	O	DT	O
+11-16	train	O	O	NN	O
+11-17	station	11-10_prep_at	met	NN	P2_train_station
+11-18	.	O	O	O	O

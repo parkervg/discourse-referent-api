@@ -1,0 +1,190 @@
+#id=1
+#text=Being that we needed food in the house , I went through the cupboards and refrigerator to see what was there and made a list of what we needed . 
+1-1	Being	1-11_vmod	went	VBG	O
+1-2	that	1-4_mark	needed	IN	O
+1-3	we	1-4_nsubj	needed	PRP	P1_shopper
+1-4	needed	1-1_ccomp	Being	VBD	O
+1-5	food	1-4_dobj	needed	NN	P1_groceries
+1-6	in	O	O	O	O
+1-7	the	O	O	DT	O
+1-8	house	1-4_prep_in	needed	NN	P1_NPart_house
+1-9	,	O	O	O	O
+1-10	I	1-11_nsubj	went	PRP	P2_shopper
+1-11	went	O	O	VBD	O
+1-12	through	O	O	O	O
+1-13	the	O	O	DT	O
+1-14	cupboards	1-11_prep_through	went	NNS	P1_NPart_cupboards
+1-15	and	O	O	O	O
+1-16	refrigerator	O	O	NN	P1_NPart_refrigerator
+1-17	to	1-18_aux	see	TO	O
+1-18	see	1-11_xcomp	went	VB	O
+1-19	what	1-20_nsubj	was	WP	O
+1-20	was	1-18_ccomp	see	VBD	O
+1-21	there	1-20_advmod	was	RB	O
+1-22	and	O	O	O	O
+1-23	made	1-20_conj_and	was	VBD	O
+1-24	a	O	O	DT	O
+1-25	list	1-23_dobj	made	NN	P1_grocery_list
+1-26	of	O	O	O	O
+1-27	what	1-29_dobj	needed	WP	O
+1-28	we	1-29_nsubj	needed	PRP	P1_shopper
+1-29	needed	O	O	VBD	O
+1-30	.	O	O	O	O
+
+#id=2
+#text=We were almost out of food so it was a long list . 
+2-1	We	2-2_nsubj	were	PRP	P1_shopper
+2-2	were	O	O	VBD	O
+2-3	almost	2-2_advmod	were	RB	O
+2-4	out	O	O	O	O
+2-5	of	O	O	O	O
+2-6	food	2-2_prep_out_of	were	NN	P1_groceries
+2-7	so	O	O	IN	O
+2-8	it	O	O	PRP	P1_grocery_list
+2-9	was	O	O	VBD	O
+2-10	a	O	O	DT	O
+2-11	long	O	O	JJ	O
+2-12	list	2-2_advcl	were	NN	P1_grocery_list
+2-13	.	O	O	O	O
+
+#id=3
+#text=Then I drove to the grocery store . 
+3-1	Then	3-3_advmod	drove	RB	O
+3-2	I	3-3_nsubj	drove	PRP	P2_shopper
+3-3	drove	O	O	VBD	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	grocery	O	O	NN	O
+3-7	store	3-3_prep_to	drove	NN	P1_grocery_shop
+3-8	.	O	O	O	O
+
+#id=4
+#text=First I went to the meat isle and picked out some juicy steaks and a chicken . 
+4-1	First	4-3_advmod	went	RB	O
+4-2	I	4-3_nsubj	went	PRP	P2_shopper
+4-3	went	O	O	VBD	O
+4-4	to	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	meat	O	O	NN	O
+4-7	isle	4-3_prep_to	went	NN	P1_section
+4-8	and	O	O	O	O
+4-9	picked	4-3_conj_and	went	VBD	O
+4-10	out	4-9_prt	picked	RP	O
+4-11	some	O	O	DT	O
+4-12	juicy	O	O	JJ	O
+4-13	steaks	4-9_dobj	picked	NNS	P2_groceries
+4-14	and	O	O	O	O
+4-15	a	O	O	DT	O
+4-16	chicken	O	O	NN	P3_groceries
+4-17	.	O	O	O	O
+
+#id=5
+#text=Then I went the the vegetable isle and picked out some fresh asparagus , broccoli , and salad fixings . 
+5-1	Then	5-3_advmod	went	RB	O
+5-2	I	5-3_nsubj	went	PRP	P2_shopper
+5-3	went	O	O	VBD	O
+5-4	the	O	O	DT	O
+5-5	the	O	O	DT	O
+5-6	vegetable	O	O	NN	O
+5-7	isle	5-3_dobj	went	NN	P2_section
+5-8	and	O	O	O	O
+5-9	picked	5-3_conj_and	went	VBD	O
+5-10	out	5-9_prt	picked	RP	O
+5-11	some	O	O	DT	O
+5-12	fresh	O	O	JJ	O
+5-13	asparagus	5-9_dobj	picked	NNS	P4_groceries
+5-14	,	O	O	O	O
+5-15	broccoli	O	O	NN	P5_groceries
+5-16	,	O	O	O	O
+5-17	and	O	O	O	O
+5-18	salad	O	O	NN	O
+5-19	fixings	O	O	NNS	P6_groceries
+5-20	.	O	O	O	O
+
+#id=6
+#text=Next I went to the canned goods and picked out some cans to keep in the house . 
+6-1	Next	6-3_advmod	went	RB	O
+6-2	I	6-3_nsubj	went	PRP	P3_shopper
+6-3	went	O	O	VBD	O
+6-4	to	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	canned	O	O	VBN	O
+6-7	goods	6-3_prep_to	went	NNS	P3_section
+6-8	and	O	O	O	O
+6-9	picked	6-3_conj_and	went	VBD	O
+6-10	out	6-9_prt	picked	RP	O
+6-11	some	O	O	DT	O
+6-12	cans	6-9_dobj	picked	NNS	P7_groceries
+6-13	to	6-14_aux	keep	TO	O
+6-14	keep	O	O	VB	O
+6-15	in	O	O	O	O
+6-16	the	O	O	DT	O
+6-17	house	6-14_prep_in	keep	NN	P1_NPart_house
+6-18	.	O	O	O	O
+
+#id=7
+#text=I picked out some chili , soups and stews . 
+7-1	I	7-2_nsubj	picked	PRP	P3_shopper
+7-2	picked	O	O	VBD	O
+7-3	out	O	O	O	O
+7-4	some	O	O	DT	O
+7-5	chili	7-2_prep_out	picked	NNS	P8_groceries
+7-6	,	O	O	O	O
+7-7	soups	O	O	NNS	P9_groceries
+7-8	and	O	O	O	O
+7-9	stews	O	O	NNS	P10_groceries
+7-10	.	O	O	O	O
+
+#id=8
+#text=These are always good to have in the house for a quick meal . 
+8-1	These	O	O	DT	P11_groceries
+8-2	are	O	O	VBP	O
+8-3	always	O	O	RB	O
+8-4	good	O	O	JJ	O
+8-5	to	8-6_aux	have	TO	O
+8-6	have	O	O	VB	O
+8-7	in	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	house	8-6_prep_in	have	NN	P2_NPart_house
+8-10	for	O	O	O	O
+8-11	a	O	O	DT	O
+8-12	quick	O	O	JJ	O
+8-13	meal	O	O	NN	P1_NPart_meal
+8-14	.	O	O	O	O
+
+#id=9
+#text=Then I went to the dairy section and picked out some sour cream and milk . 
+9-1	Then	9-3_advmod	went	RB	O
+9-2	I	9-3_nsubj	went	PRP	P3_shopper
+9-3	went	O	O	VBD	O
+9-4	to	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	dairy	O	O	NN	O
+9-7	section	9-3_prep_to	went	NN	P4_section
+9-8	and	O	O	O	O
+9-9	picked	9-3_conj_and	went	VBD	O
+9-10	out	9-9_prt	picked	RP	O
+9-11	some	O	O	DT	O
+9-12	sour	O	O	JJ	O
+9-13	cream	9-9_dobj	picked	NN	P12_groceries
+9-14	and	O	O	O	O
+9-15	milk	O	O	NN	P13_groceries
+9-16	.	O	O	O	O
+
+#id=10
+#text=Then I pushed the cart to the payment isles and paid for the groceries . 
+10-1	Then	10-3_advmod	pushed	RB	O
+10-2	I	10-3_nsubj	pushed	PRP	P3_shopper
+10-3	pushed	O	O	VBD	O
+10-4	the	O	O	DT	O
+10-5	cart	10-3_dobj	pushed	NN	P1_shopping_cart/basket
+10-6	to	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	payment	O	O	NN	O
+10-9	isles	10-3_prep_to	pushed	NNS	P1_cash_desk
+10-10	and	O	O	O	O
+10-11	paid	10-3_conj_and	pushed	VBD	O
+10-12	for	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	groceries	10-11_prep_for	paid	NNS	P1_groceries
+10-15	.	O	O	O	O

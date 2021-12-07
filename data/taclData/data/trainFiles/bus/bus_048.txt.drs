@@ -1,0 +1,226 @@
+#id=1
+#text=My boss gave me tickets to the Pittsburgh Penguins hockey game . 
+1-1	My	O	O	PRP$	P1_passenger
+1-2	boss	1-3_nsubj	gave	NN	P1_NPart_boss
+1-3	gave	O	O	VBD	O
+1-4	me	1-3_iobj	gave	PRP	P1_passenger
+1-5	tickets	1-3_dobj	gave	NNS	P1_NPart_tickets
+1-6	to	O	O	O	O
+1-7	the	O	O	DT	O
+1-8	Pittsburgh	O	O	NNP	O
+1-9	Penguins	O	O	NNP	O
+1-10	hockey	O	O	NN	O
+1-11	game	O	O	NN	P1_NPart_game
+1-12	.	O	O	O	O
+
+#id=2
+#text=The penguins play in the Downtown area of my city . 
+2-1	The	O	O	DT	O
+2-2	penguins	2-3_nsubj	play	NNS	P1_NPart_penguins
+2-3	play	O	O	VBP	O
+2-4	in	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	Downtown	O	O	NN	O
+2-7	area	2-3_prep_in	play	NN	P1_NPart_area
+2-8	of	O	O	O	O
+2-9	my	O	O	PRP$	P1_passenger
+2-10	city	O	O	NN	P1_NPart_city
+2-11	.	O	O	O	O
+
+#id=3
+#text=I live in a busy city so driving a car to the downtown area is n't always the best idea . 
+3-1	I	3-2_nsubj	live	PRP	P1_passenger
+3-2	live	O	O	VBP	O
+3-3	in	O	O	O	O
+3-4	a	O	O	DT	O
+3-5	busy	O	O	JJ	O
+3-6	city	3-2_prep_in	live	NN	P2_NPart_city
+3-7	so	O	O	IN	O
+3-8	driving	O	O	VBG	O
+3-9	a	O	O	DT	O
+3-10	car	3-8_dobj	driving	NN	P1_NPart_car
+3-11	to	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	downtown	O	O	NN	O
+3-14	area	3-8_prep_to	driving	NN	P2_NPart_area
+3-15	is	O	O	VBZ	O
+3-16	n't	O	O	RB	O
+3-17	always	O	O	RB	O
+3-18	the	O	O	DT	O
+3-19	best	O	O	JJS	O
+3-20	idea	3-2_advcl	live	NN	P1_NPart_idea
+3-21	.	O	O	O	O
+
+#id=4
+#text=First , you have to deal with traffic . 
+4-1	First	4-4_advmod	have	RB	O
+4-2	,	O	O	O	O
+4-3	you	4-4_nsubj	have	PRP	P1_NPart_you
+4-4	have	O	O	VBP	O
+4-5	to	4-6_aux	deal	TO	O
+4-6	deal	4-4_xcomp	have	VB	O
+4-7	with	O	O	O	O
+4-8	traffic	4-6_prep_with	deal	NN	P1_NPart_traffic
+4-9	.	O	O	O	O
+
+#id=5
+#text=After dealing with traffic , you have to find a place to park . 
+5-1	After	O	O	O	O
+5-2	dealing	5-7_prepc_after	have	VBG	O
+5-3	with	O	O	O	O
+5-4	traffic	5-2_prep_with	dealing	NN	P2_NPart_traffic
+5-5	,	O	O	O	O
+5-6	you	5-7_nsubj	have	PRP	P2_NPart_you
+5-7	have	O	O	VBP	O
+5-8	to	5-9_aux	find	TO	O
+5-9	find	5-7_xcomp	have	VB	O
+5-10	a	O	O	DT	O
+5-11	place	5-9_dobj	find	NN	P1_NPart_place
+5-12	to	O	O	O	O
+5-13	park	5-9_prep_to	find	NN	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=Paying for parking is very expensive . 
+6-1	Paying	O	O	VBG	O
+6-2	for	O	O	O	O
+6-3	parking	6-1_prep_for	Paying	NN	O
+6-4	is	O	O	VBZ	O
+6-5	very	O	O	RB	O
+6-6	expensive	O	O	JJ	O
+6-7	.	O	O	O	O
+
+#id=7
+#text=A public bus is usually the quickest way to get to Downtown . 
+7-1	A	O	O	DT	O
+7-2	public	O	O	JJ	O
+7-3	bus	O	O	NN	P2_passenger
+7-4	is	O	O	VBZ	O
+7-5	usually	O	O	RB	O
+7-6	the	O	O	DT	O
+7-7	quickest	O	O	JJS	O
+7-8	way	O	O	NN	O
+7-9	to	7-10_aux	get	TO	O
+7-10	get	O	O	VB	O
+7-11	to	O	O	O	O
+7-12	Downtown	7-10_prep_to	get	NN	P1_NPart_downtown
+7-13	.	O	O	O	O
+
+#id=8
+#text=First , I had to go to the bus stop and get a schedule to plan my bus trip . 
+8-1	First	8-4_advmod	had	RB	O
+8-2	,	O	O	O	O
+8-3	I	8-4_nsubj	had	PRP	P1_passenger
+8-4	had	O	O	VBD	O
+8-5	to	8-6_aux	go	TO	O
+8-6	go	8-4_xcomp	had	VB	O
+8-7	to	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	bus	O	O	NN	O
+8-10	stop	8-6_prep_to	go	NN	P1_bus_stop
+8-11	and	O	O	O	O
+8-12	get	8-6_conj_and	go	VB	O
+8-13	a	O	O	DT	O
+8-14	schedule	8-12_dobj	get	NN	P1_time-table
+8-15	to	8-16_aux	plan	TO	O
+8-16	plan	O	O	VB	O
+8-17	my	O	O	PRP$	P1_passenger
+8-18	bus	O	O	NN	O
+8-19	trip	8-16_dobj	plan	NN	P1_ride
+8-20	.	O	O	O	O
+
+#id=9
+#text=I did this days in advance , because I was really excited for the game . 
+9-1	I	9-2_nsubj	did	PRP	P1_passenger
+9-2	did	O	O	VBD	O
+9-3	this	O	O	DT	O
+9-4	days	9-2_tmod	did	NNS	O
+9-5	in	O	O	O	O
+9-6	advance	9-2_prep_in	did	NN	O
+9-7	,	O	O	O	O
+9-8	because	O	O	IN	O
+9-9	I	O	O	PRP	P1_passenger
+9-10	was	O	O	VBD	O
+9-11	really	O	O	RB	O
+9-12	excited	9-2_advcl	did	JJ	O
+9-13	for	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	game	O	O	NN	P2_NPart_game
+9-16	.	O	O	O	O
+
+#id=10
+#text=After setting the time I would get on the bus , I made sure to arrive 10 minutes early so I do n't miss the bus . 
+10-1	After	O	O	O	O
+10-2	setting	10-13_prepc_after	made	VBG	O
+10-3	the	O	O	DT	O
+10-4	time	10-2_dobj	setting	NN	P1_time/date
+10-5	I	10-7_nsubj	get	PRP	P1_passenger
+10-6	would	10-7_aux	get	MD	O
+10-7	get	O	O	VB	O
+10-8	on	O	O	O	O
+10-9	the	O	O	DT	O
+10-10	bus	10-7_prep_on	get	NN	P2_passenger
+10-11	,	O	O	O	O
+10-12	I	10-13_nsubj	made	PRP	P1_passenger
+10-13	made	O	O	VBD	O
+10-14	sure	10-13_acomp	made	JJ	O
+10-15	to	10-16_aux	arrive	TO	O
+10-16	arrive	O	O	VB	O
+10-17	10	O	O	CD	O
+10-18	minutes	10-16_dobj	arrive	NNS	P2_time/date
+10-19	early	O	O	RB	O
+10-20	so	10-24_mark	miss	IN	O
+10-21	I	10-24_nsubj	miss	PRP	P1_passenger
+10-22	do	10-24_aux	miss	VBP	O
+10-23	n't	10-24_neg	miss	RB	O
+10-24	miss	10-16_advcl	arrive	VB	O
+10-25	the	O	O	DT	O
+10-26	bus	10-24_dobj	miss	NN	P2_passenger
+10-27	.	O	O	O	O
+
+#id=11
+#text=I got on the bus and paid my fare for the trip . 
+11-1	I	11-2_nsubj	got	PRP	P1_passenger
+11-2	got	O	O	VBD	O
+11-3	on	O	O	O	O
+11-4	the	O	O	DT	O
+11-5	bus	11-2_prep_on	got	NN	P2_passenger
+11-6	and	O	O	O	O
+11-7	paid	11-2_conj_and	got	VBD	O
+11-8	my	O	O	PRP$	P1_passenger
+11-9	fare	11-7_dobj	paid	NN	P1_money
+11-10	for	O	O	O	O
+11-11	the	O	O	DT	O
+11-12	trip	11-7_prep_for	paid	NN	P1_ride
+11-13	.	O	O	O	O
+
+#id=12
+#text=I sat back and let the bus driver take me right to the front entrance of the hockey arena because that 's where the bus stop was . 
+12-1	I	12-2_nsubj	sat	PRP	P1_passenger
+12-2	sat	O	O	VBD	O
+12-3	back	12-2_advmod	sat	RB	O
+12-4	and	O	O	O	O
+12-5	let	12-2_conj_and	sat	VBD	O
+12-6	the	O	O	DT	O
+12-7	bus	O	O	NN	O
+12-8	driver	12-9_nsubj	take	NN	P1_bus_staff
+12-9	take	12-5_ccomp	let	VB	O
+12-10	me	O	O	PRP	P1_passenger
+12-11	right	12-9_xcomp	take	JJ	O
+12-12	to	O	O	O	O
+12-13	the	O	O	DT	O
+12-14	front	O	O	JJ	O
+12-15	entrance	O	O	NN	P1_NPart_entrance
+12-16	of	O	O	O	O
+12-17	the	O	O	DT	O
+12-18	hockey	O	O	NN	O
+12-19	arena	O	O	NN	P1_destination
+12-20	because	12-22_mark	's	IN	O
+12-21	that	12-22_nsubj	's	DT	O
+12-22	's	12-9_advcl	take	VBZ	O
+12-23	where	12-27_advmod	was	WRB	O
+12-24	the	O	O	DT	O
+12-25	bus	O	O	NN	O
+12-26	stop	12-27_nsubj	was	NN	P2_bus_stop
+12-27	was	12-22_advcl	's	VBD	O
+12-28	.	O	O	O	O

@@ -1,0 +1,218 @@
+#id=1
+#text=Last weekend , I went to KeyFood by myself . 
+1-1	Last	O	O	JJ	O
+1-2	weekend	1-5_nsubj	went	NN	P1_NPart_weekend
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	went	PRP	P1_shopper
+1-5	went	O	O	VBD	O
+1-6	to	1-7_aux	KeyFood	TO	O
+1-7	KeyFood	1-5_xcomp	went	VB	P1_grocery_shop
+1-8	by	O	O	O	O
+1-9	myself	1-7_prep_by	KeyFood	PRP	P1_shopper
+1-10	.	O	O	O	O
+
+#id=2
+#text=It 's a grocery store with a good selection of reasonably priced items . 
+2-1	It	O	O	PRP	P1_grocery_shop
+2-2	's	O	O	VBZ	O
+2-3	a	O	O	DT	O
+2-4	grocery	O	O	NN	O
+2-5	store	O	O	NN	P1_grocery_shop
+2-6	with	O	O	O	O
+2-7	a	O	O	DT	O
+2-8	good	O	O	JJ	O
+2-9	selection	O	O	NN	O
+2-10	of	O	O	O	O
+2-11	reasonably	2-12_advmod	priced	RB	O
+2-12	priced	O	O	VBN	O
+2-13	items	O	O	NNS	P1_groceries
+2-14	.	O	O	O	O
+
+#id=3
+#text=I had made a grocery list in advance . 
+3-1	I	3-3_nsubj	made	PRP	P1_shopper
+3-2	had	3-3_aux	made	VBD	O
+3-3	made	O	O	VBN	O
+3-4	a	O	O	DT	O
+3-5	grocery	O	O	NN	O
+3-6	list	3-3_dobj	made	NN	P1_grocery_list
+3-7	in	O	O	O	O
+3-8	advance	O	O	NN	O
+3-9	.	O	O	O	O
+
+#id=4
+#text=I drove to KeyFood at 2pm . 
+4-1	I	4-2_nsubj	drove	PRP	P1_shopper
+4-2	drove	O	O	VBD	O
+4-3	to	4-4_aux	KeyFood	TO	O
+4-4	KeyFood	4-2_xcomp	drove	VB	P1_grocery_shop
+4-5	at	O	O	O	O
+4-6	2pm	4-4_prep_at	KeyFood	CD	O
+4-7	.	O	O	O	O
+
+#id=5
+#text=I parked in the parking lot . 
+5-1	I	5-2_nsubj	parked	PRP	P1_shopper
+5-2	parked	O	O	VBD	O
+5-3	in	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	parking	O	O	NN	O
+5-6	lot	5-2_prep_in	parked	NN	P1_NPart_lot
+5-7	.	O	O	O	O
+
+#id=6
+#text=I exited my car and locked it . 
+6-1	I	6-2_nsubj	exited	PRP	P1_shopper
+6-2	exited	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_shopper
+6-4	car	6-2_dobj	exited	NN	P1_vehicle
+6-5	and	O	O	O	O
+6-6	locked	6-2_conj_and	exited	VBD	O
+6-7	it	6-6_dobj	locked	PRP	P1_vehicle
+6-8	.	O	O	O	O
+
+#id=7
+#text=I walked to the entrance and grabbed a shopping cart . 
+7-1	I	7-2_nsubj	walked	PRP	P1_shopper
+7-2	walked	O	O	VBD	O
+7-3	to	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	entrance	7-2_prep_to	walked	NN	P1_section
+7-6	and	O	O	O	O
+7-7	grabbed	7-2_conj_and	walked	VBD	O
+7-8	a	O	O	DT	O
+7-9	shopping	O	O	VBG	O
+7-10	cart	7-2_dobj	walked	NN	P1_shopping_cart/basket
+7-11	.	O	O	O	O
+
+#id=8
+#text=I pushed the shopping cart into the store and began to search for the items on my list . 
+8-1	I	8-2_nsubj	pushed	PRP	P1_shopper
+8-2	pushed	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	shopping	O	O	NN	O
+8-5	cart	8-2_dobj	pushed	NN	P1_shopping_cart/basket
+8-6	into	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	store	8-2_prep_into	pushed	NN	P1_grocery_shop
+8-9	and	O	O	O	O
+8-10	began	8-2_conj_and	pushed	VBD	O
+8-11	to	8-12_aux	search	TO	O
+8-12	search	8-10_xcomp	began	VB	O
+8-13	for	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	items	8-12_prep_for	search	NNS	P2_groceries
+8-16	on	O	O	O	O
+8-17	my	O	O	PRP$	P1_shopper
+8-18	list	O	O	NN	P1_grocery_list
+8-19	.	O	O	O	O
+
+#id=9
+#text=I walked through each isle . 
+9-1	I	9-2_nsubj	walked	PRP	P1_shopper
+9-2	walked	O	O	VBD	O
+9-3	through	O	O	O	O
+9-4	each	O	O	DT	O
+9-5	isle	9-2_prep_through	walked	NN	P2_section
+9-6	.	O	O	O	O
+
+#id=10
+#text=I gathered all the items from my grocery list . 
+10-1	I	10-2_nsubj	gathered	PRP	P1_shopper
+10-2	gathered	O	O	VBD	O
+10-3	all	O	O	PDT	O
+10-4	the	O	O	DT	O
+10-5	items	10-2_dobj	gathered	NNS	P2_groceries
+10-6	from	O	O	O	O
+10-7	my	O	O	PRP$	P1_shopper
+10-8	grocery	O	O	NN	O
+10-9	list	10-2_prep_from	gathered	NN	P1_grocery_list
+10-10	.	O	O	O	O
+
+#id=11
+#text=When I was finished , I pushed my cart to the cashier to pay for my groceries . 
+11-1	When	11-4_advmod	finished	WRB	O
+11-2	I	11-4_nsubjpass	finished	PRP	P1_shopper
+11-3	was	11-4_auxpass	finished	VBD	O
+11-4	finished	11-7_advcl	pushed	VBN	O
+11-5	,	O	O	O	O
+11-6	I	11-7_nsubj	pushed	PRP	P1_shopper
+11-7	pushed	O	O	VBD	O
+11-8	my	O	O	PRP$	P1_shopper
+11-9	cart	11-7_dobj	pushed	NN	P1_shopping_cart/basket
+11-10	to	O	O	O	O
+11-11	the	O	O	DT	O
+11-12	cashier	11-7_prep_to	pushed	NN	P1_grocery_staff
+11-13	to	11-14_aux	pay	TO	O
+11-14	pay	11-7_vmod	pushed	VB	O
+11-15	for	O	O	O	O
+11-16	my	O	O	PRP$	P1_shopper
+11-17	groceries	11-14_prep_for	pay	NNS	P2_groceries
+11-18	.	O	O	O	O
+
+#id=12
+#text=I placed the items in front of the cashier so that he could account for my purchases . 
+12-1	I	12-2_nsubj	placed	PRP	P1_shopper
+12-2	placed	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	items	12-2_dobj	placed	NNS	P2_groceries
+12-5	in	O	O	O	O
+12-6	front	O	O	O	O
+12-7	of	O	O	O	O
+12-8	the	O	O	DT	O
+12-9	cashier	12-2_prep_in_front_of	placed	NN	P1_grocery_staff
+12-10	so	12-14_advmod	account	RB	O
+12-11	that	12-14_mark	account	IN	O
+12-12	he	12-14_nsubj	account	PRP	P1_grocery_staff
+12-13	could	12-14_aux	account	MD	O
+12-14	account	12-2_advcl	placed	VB	O
+12-15	for	O	O	O	O
+12-16	my	O	O	PRP$	P1_shopper
+12-17	purchases	12-14_prep_for	account	NNS	P2_groceries
+12-18	.	O	O	O	O
+
+#id=13
+#text=He tallied my total . 
+13-1	He	13-2_nsubj	tallied	PRP	P1_grocery_staff
+13-2	tallied	O	O	VBD	O
+13-3	my	O	O	PRP$	P1_shopper
+13-4	total	13-2_dobj	tallied	NN	P1_price
+13-5	.	O	O	O	O
+
+#id=14
+#text=I paid the total amount for the groceries and he gave me my change back . 
+14-1	I	14-2_nsubj	paid	PRP	P1_shopper
+14-2	paid	O	O	VBD	O
+14-3	the	O	O	DT	O
+14-4	total	O	O	JJ	O
+14-5	amount	14-2_dobj	paid	NN	P1_price
+14-6	for	O	O	O	O
+14-7	the	O	O	DT	O
+14-8	groceries	14-2_prep_for	paid	NNS	P2_groceries
+14-9	and	O	O	O	O
+14-10	he	14-11_nsubj	gave	PRP	P1_grocery_staff
+14-11	gave	14-2_conj_and	paid	VBD	O
+14-12	me	14-11_iobj	gave	PRP	P1_shopper
+14-13	my	O	O	PRP$	P1_shopper
+14-14	change	14-11_dobj	gave	NN	P1_other
+14-15	back	14-11_advmod	gave	RB	O
+14-16	.	O	O	O	O
+
+#id=15
+#text=Finally , I left the grocery store . 
+15-1	Finally	15-4_advmod	left	RB	O
+15-2	,	O	O	O	O
+15-3	I	15-4_nsubj	left	PRP	P1_shopper
+15-4	left	O	O	VBD	O
+15-5	the	O	O	DT	O
+15-6	grocery	O	O	NN	O
+15-7	store	15-4_dobj	left	NN	P1_grocery_shop
+15-8	.	O	O	O	O
+
+#id=16
+#text=I enjoy grocery shopping . 
+16-1	I	16-2_nsubj	enjoy	PRP	P1_shopper
+16-2	enjoy	O	O	VBP	O
+16-3	grocery	O	O	NN	O
+16-4	shopping	16-2_dobj	enjoy	NN	O
+16-5	.	O	O	O	O

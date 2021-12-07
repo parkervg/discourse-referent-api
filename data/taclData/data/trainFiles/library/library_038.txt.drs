@@ -1,0 +1,228 @@
+#id=1
+#text=In order to borrow a book from the library , I will check to be sure I have my library card on me , in my purse . 
+1-1	In	1-4_mark	borrow	IN	O
+1-2	order	1-4_dep	borrow	NN	O
+1-3	to	1-4_aux	borrow	TO	O
+1-4	borrow	1-13_advcl	check	VB	O
+1-5	a	O	O	DT	O
+1-6	book	1-4_dobj	borrow	NN	P1_book
+1-7	from	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	library	1-4_prep_from	borrow	NN	P1_library
+1-10	,	O	O	O	O
+1-11	I	1-13_nsubj	check	PRP	P1_customer
+1-12	will	1-13_aux	check	MD	O
+1-13	check	O	O	VB	O
+1-14	to	O	O	TO	O
+1-15	be	O	O	VB	O
+1-16	sure	1-13_xcomp	check	JJ	O
+1-17	I	1-18_nsubj	have	PRP	P1_customer
+1-18	have	O	O	VBP	O
+1-19	my	O	O	PRP$	P1_customer
+1-20	library	O	O	NN	O
+1-21	card	1-18_dobj	have	NN	P1_library_card
+1-22	on	O	O	O	O
+1-23	me	1-18_prep_on	have	PRP	P1_customer
+1-24	,	O	O	O	O
+1-25	in	O	O	O	O
+1-26	my	O	O	PRP$	P1_customer
+1-27	purse	1-18_prep_in	have	NN	P1_NPart_purse
+1-28	.	O	O	O	O
+
+#id=2
+#text=I drive to the local library and park my car . 
+2-1	I	2-2_nsubj	drive	PRP	P1_customer
+2-2	drive	O	O	VB	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	local	O	O	JJ	O
+2-6	library	2-2_prep_to	drive	NN	P1_library
+2-7	and	O	O	O	O
+2-8	park	2-2_conj_and	drive	VB	O
+2-9	my	O	O	PRP$	P1_customer
+2-10	car	2-8_dobj	park	NN	P1_NPart_car
+2-11	.	O	O	O	O
+
+#id=3
+#text=I walk into the library and head to where the books to check out are located . 
+3-1	I	3-2_nsubj	walk	PRP	P1_customer
+3-2	walk	O	O	VBP	O
+3-3	into	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	library	3-2_prep_into	walk	NN	P1_library
+3-6	and	O	O	O	O
+3-7	head	O	O	NN	O
+3-8	to	O	O	O	O
+3-9	where	3-16_advmod	located	WRB	O
+3-10	the	O	O	DT	O
+3-11	books	3-16_nsubjpass	located	NNS	P1_book
+3-12	to	3-13_aux	check	TO	O
+3-13	check	O	O	VB	O
+3-14	out	3-13_prt	check	RP	O
+3-15	are	3-16_auxpass	located	VBP	O
+3-16	located	O	O	VBN	O
+3-17	.	O	O	O	O
+
+#id=4
+#text=I head over there and start to look for the book I am interested in borrowing . 
+4-1	I	4-2_nsubj	head	PRP	P1_customer
+4-2	head	O	O	VBP	O
+4-3	over	4-2_prep	head	IN	O
+4-4	there	O	O	RB	O
+4-5	and	O	O	O	O
+4-6	start	4-2_conj_and	head	VBP	O
+4-7	to	4-8_aux	look	TO	O
+4-8	look	4-6_xcomp	start	VB	O
+4-9	for	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	book	4-8_prep_for	look	NN	P1_book
+4-12	I	O	O	PRP	P1_customer
+4-13	am	O	O	VBP	O
+4-14	interested	O	O	JJ	O
+4-15	in	O	O	O	O
+4-16	borrowing	O	O	NN	O
+4-17	.	O	O	O	O
+
+#id=5
+#text=If I am having a problem finding the book , I will go to the information desk and ask for help . 
+5-1	If	5-4_mark	having	IN	O
+5-2	I	5-4_nsubj	having	PRP	P1_customer
+5-3	am	5-4_aux	having	VBP	O
+5-4	having	5-13_advcl	go	VBG	O
+5-5	a	O	O	DT	O
+5-6	problem	5-4_dobj	having	NN	P1_NPart_problem
+5-7	finding	5-4_vmod	having	VBG	O
+5-8	the	O	O	DT	O
+5-9	book	5-7_dobj	finding	NN	P1_book
+5-10	,	O	O	O	O
+5-11	I	5-13_nsubj	go	PRP	P1_customer
+5-12	will	5-13_aux	go	MD	O
+5-13	go	O	O	VB	O
+5-14	to	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	information	O	O	NN	O
+5-17	desk	5-13_prep_to	go	NN	P1_location_library
+5-18	and	O	O	O	O
+5-19	ask	5-13_conj_and	go	VB	O
+5-20	for	O	O	O	O
+5-21	help	5-19_prep_for	ask	NN	P1_NPart_help
+5-22	.	O	O	O	O
+
+#id=6
+#text=Sometimes , it is hard to find for me to find a book on my own in the library , since they have a coding system that is sometimes confusing to me . 
+6-1	Sometimes	O	O	RB	O
+6-2	,	O	O	O	O
+6-3	it	O	O	PRP	O
+6-4	is	O	O	VBZ	O
+6-5	hard	O	O	JJ	O
+6-6	to	6-7_aux	find	TO	O
+6-7	find	O	O	VB	O
+6-8	for	6-11_mark	find	IN	O
+6-9	me	6-11_nsubj	find	PRP	P1_customer
+6-10	to	6-11_aux	find	TO	O
+6-11	find	6-7_advcl	find	VB	O
+6-12	a	O	O	DT	O
+6-13	book	6-11_dobj	find	NN	P1_book
+6-14	on	O	O	O	O
+6-15	my	O	O	PRP$	P1_customer
+6-16	own	O	O	JJ	O
+6-17	in	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	library	6-11_prep_in	find	NN	P1_library
+6-20	,	O	O	O	O
+6-21	since	6-23_mark	have	IN	O
+6-22	they	6-23_nsubj	have	PRP	P1_library
+6-23	have	6-11_advcl	find	VBP	O
+6-24	a	O	O	DT	O
+6-25	coding	O	O	VBG	O
+6-26	system	6-23_dobj	have	NN	P1_institutional_devices
+6-27	that	6-30_nsubj	confusing	WDT	P1_institutional_devices
+6-28	is	6-30_cop	confusing	VBZ	O
+6-29	sometimes	6-30_advmod	confusing	RB	O
+6-30	confusing	O	O	VBG	O
+6-31	to	O	O	O	O
+6-32	me	6-30_prep_to	confusing	PRP	P1_customer
+6-33	.	O	O	O	O
+
+#id=7
+#text=I either find my book available , or find that it is checked out . 
+7-1	I	7-3_nsubj	find	PRP	P1_customer
+7-2	either	7-3_advmod	find	RB	O
+7-3	find	O	O	VBP	O
+7-4	my	O	O	PRP$	P1_customer
+7-5	book	O	O	NN	P1_book
+7-6	available	7-3_xcomp	find	JJ	O
+7-7	,	O	O	O	O
+7-8	or	O	O	O	O
+7-9	find	7-3_conj_or	find	VBP	O
+7-10	that	7-13_mark	checked	IN	O
+7-11	it	7-13_nsubjpass	checked	PRP	P1_book
+7-12	is	7-13_auxpass	checked	VBZ	O
+7-13	checked	7-9_ccomp	find	VBN	O
+7-14	out	7-13_prt	checked	RP	O
+7-15	.	O	O	O	O
+
+#id=8
+#text=If it is available , I get my library card out and head to the check out section of the library . 
+8-1	If	O	O	IN	O
+8-2	it	O	O	PRP	P1_book
+8-3	is	O	O	VBZ	O
+8-4	available	8-7_advcl	get	JJ	O
+8-5	,	O	O	O	O
+8-6	I	8-7_nsubj	get	PRP	P1_customer
+8-7	get	O	O	VBP	O
+8-8	my	O	O	PRP$	P1_customer
+8-9	library	O	O	NN	O
+8-10	card	8-7_dobj	get	NN	P1_library_card
+8-11	out	8-7_prt	get	RP	O
+8-12	and	O	O	O	O
+8-13	head	8-7_conj_and	get	VBP	O
+8-14	to	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	check	8-13_prep_to	head	NN	O
+8-17	out	O	O	O	O
+8-18	section	8-13_prep_out	head	NN	P1_check-out_desk
+8-19	of	O	O	O	O
+8-20	the	O	O	DT	O
+8-21	library	O	O	NN	P1_library
+8-22	.	O	O	O	O
+
+#id=9
+#text=If it is n't available , I will ask as to when it will be . 
+9-1	If	O	O	IN	O
+9-2	it	O	O	PRP	P1_book
+9-3	is	O	O	VBZ	O
+9-4	n't	O	O	RB	O
+9-5	available	9-9_advcl	ask	JJ	O
+9-6	,	O	O	O	O
+9-7	I	9-9_nsubj	ask	PRP	P1_customer
+9-8	will	9-9_aux	ask	MD	O
+9-9	ask	O	O	VB	O
+9-10	as	O	O	O	O
+9-11	to	O	O	O	O
+9-12	when	9-15_advmod	be	WRB	O
+9-13	it	9-15_nsubj	be	PRP	P1_book
+9-14	will	9-15_aux	be	MD	O
+9-15	be	9-9_prepc_as_to	ask	VB	O
+9-16	.	O	O	O	O
+
+#id=10
+#text=I leave the library , get in my car and drive home to enjoy my borrowed book . 
+10-1	I	10-2_nsubj	leave	PRP	P1_customer
+10-2	leave	O	O	VB	O
+10-3	the	O	O	DT	O
+10-4	library	10-2_dobj	leave	NN	P1_library
+10-5	,	O	O	O	O
+10-6	get	10-2_conj_and	leave	VB	O
+10-7	in	O	O	O	O
+10-8	my	O	O	PRP$	P1_customer
+10-9	car	10-6_prep_in	get	NN	P2_NPart_car
+10-10	and	O	O	O	O
+10-11	drive	10-2_conj_and	leave	VB	O
+10-12	home	10-11_dobj	drive	NN	P1_NPart_home
+10-13	to	10-14_aux	enjoy	TO	O
+10-14	enjoy	10-11_vmod	drive	VB	O
+10-15	my	O	O	PRP$	P1_customer
+10-16	borrowed	O	O	VBN	O
+10-17	book	10-14_dobj	enjoy	NN	P1_book
+10-18	.	O	O	O	O

@@ -1,0 +1,193 @@
+#id=1
+#text=I recently got a flat bicycle tire while riding home from work . 
+1-1	I	1-3_nsubj	got	PRP	P1_rider
+1-2	recently	1-3_advmod	got	RB	O
+1-3	got	O	O	VBD	O
+1-4	a	O	O	DT	O
+1-5	flat	O	O	JJ	O
+1-6	bicycle	O	O	NN	O
+1-7	tire	1-3_dobj	got	NN	P1_tire
+1-8	while	O	O	O	O
+1-9	riding	1-3_prepc_while	got	VBG	O
+1-10	home	1-9_dobj	riding	NN	P1_NPart_home
+1-11	from	O	O	O	O
+1-12	work	1-9_prep_from	riding	NN	P1_NPart_work
+1-13	.	O	O	O	O
+
+#id=2
+#text=As soon as I got home , I removed the tire from the bike and checked for the cause . 
+2-1	As	O	O	RB	O
+2-2	soon	2-9_advmod	removed	RB	O
+2-3	as	2-5_mark	got	IN	O
+2-4	I	2-5_nsubj	got	PRP	P1_rider
+2-5	got	O	O	VBD	O
+2-6	home	2-5_dobj	got	NN	P2_NPart_home
+2-7	,	O	O	O	O
+2-8	I	2-9_nsubj	removed	PRP	P1_rider
+2-9	removed	O	O	VBD	O
+2-10	the	O	O	DT	O
+2-11	tire	2-9_dobj	removed	NN	P1_tire
+2-12	from	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	bike	2-9_prep_from	removed	NN	P1_bicycle
+2-15	and	O	O	O	O
+2-16	checked	2-9_conj_and	removed	VBD	O
+2-17	for	O	O	O	O
+2-18	the	O	O	DT	O
+2-19	cause	2-16_prep_for	checked	NN	P1_damage
+2-20	.	O	O	O	O
+
+#id=3
+#text=Sure enough , there was a small puncture , I must have run over something sharp while commuting home . 
+3-1	Sure	O	O	RB	O
+3-2	enough	3-13_advmod	run	RB	O
+3-3	,	O	O	O	O
+3-4	there	3-5_expl	was	EX	O
+3-5	was	3-13_parataxis	run	VBD	O
+3-6	a	O	O	DT	O
+3-7	small	O	O	JJ	O
+3-8	puncture	3-5_nsubj	was	NN	P1_damage
+3-9	,	O	O	O	O
+3-10	I	3-13_nsubj	run	PRP	P1_rider
+3-11	must	3-13_aux	run	MD	O
+3-12	have	3-13_aux	run	VB	O
+3-13	run	O	O	VBN	O
+3-14	over	O	O	O	O
+3-15	something	O	O	NN	P1_object_damage
+3-16	sharp	O	O	JJ	O
+3-17	while	3-13_prep_over	run	NN	O
+3-18	commuting	O	O	VBG	O
+3-19	home	3-18_dobj	commuting	NN	P3_NPart_home
+3-20	.	O	O	O	O
+
+#id=4
+#text=I then went to the local bike shop and the man at the shop recommended that I buy a patch kit , since doing so is much cheaper than replacing the entire tube . 
+4-1	I	4-3_nsubj	went	PRP	P1_rider
+4-2	then	4-3_advmod	went	RB	O
+4-3	went	O	O	VBD	O
+4-4	to	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	local	O	O	JJ	O
+4-7	bike	O	O	NN	O
+4-8	shop	4-3_prep_to	went	NN	P1_shop
+4-9	and	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	man	O	O	NN	P1_NPart_man
+4-12	at	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	shop	4-3_prep_at	went	NN	P1_shop
+4-15	recommended	O	O	VBN	O
+4-16	that	4-18_mark	buy	IN	O
+4-17	I	4-18_nsubj	buy	PRP	P1_rider
+4-18	buy	4-15_ccomp	recommended	VBP	O
+4-19	a	O	O	DT	O
+4-20	patch	O	O	NN	O
+4-21	kit	4-18_dobj	buy	NN	P1_tool
+4-22	,	O	O	O	O
+4-23	since	O	O	O	O
+4-24	doing	4-15_prepc_since	recommended	VBG	O
+4-25	so	O	O	IN	O
+4-26	is	O	O	VBZ	O
+4-27	much	O	O	RB	O
+4-28	cheaper	4-24_advcl	doing	JJR	O
+4-29	than	O	O	O	O
+4-30	replacing	O	O	VBG	O
+4-31	the	O	O	DT	O
+4-32	entire	O	O	JJ	O
+4-33	tube	4-30_dobj	replacing	NN	P1_tire
+4-34	.	O	O	O	O
+
+#id=5
+#text=The patch kit was very easy to use as the instructions were very details . 
+5-1	The	O	O	DT	O
+5-2	patch	O	O	NN	O
+5-3	kit	O	O	NN	P1_tool
+5-4	was	O	O	VBD	O
+5-5	very	O	O	RB	O
+5-6	easy	O	O	JJ	O
+5-7	to	5-8_aux	use	TO	O
+5-8	use	O	O	VB	O
+5-9	as	O	O	IN	O
+5-10	the	O	O	DT	O
+5-11	instructions	O	O	NNS	P1_NPart_instructions
+5-12	were	O	O	VBD	O
+5-13	very	O	O	JJ	O
+5-14	details	5-8_advcl	use	NNS	P1_NPart_details
+5-15	.	O	O	O	O
+
+#id=6
+#text=First I added glue to the area and then put the patch on top . 
+6-1	First	6-3_advmod	added	RB	O
+6-2	I	6-3_nsubj	added	PRP	P1_rider
+6-3	added	O	O	VBD	O
+6-4	glue	6-3_dobj	added	NN	P2_tool
+6-5	to	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	area	6-3_prep_to	added	NN	P1_damage
+6-8	and	O	O	O	O
+6-9	then	6-10_advmod	put	RB	O
+6-10	put	6-3_conj_and	added	VBD	O
+6-11	the	O	O	DT	O
+6-12	patch	6-10_dobj	put	NN	P1_patch
+6-13	on	O	O	O	O
+6-14	top	6-10_prep_on	put	NN	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=After holding the patch in place for a few minutes , I added a little talc . 
+7-1	After	O	O	O	O
+7-2	holding	7-13_prepc_after	added	VBG	O
+7-3	the	O	O	DT	O
+7-4	patch	7-2_dobj	holding	NN	P1_patch
+7-5	in	O	O	O	O
+7-6	place	7-2_prep_in	holding	NN	P1_NPart_place
+7-7	for	O	O	O	O
+7-8	a	O	O	DT	O
+7-9	few	O	O	JJ	O
+7-10	minutes	O	O	NNS	P1_NPart_minutes
+7-11	,	O	O	O	O
+7-12	I	7-13_nsubj	added	PRP	P1_rider
+7-13	added	O	O	VBD	O
+7-14	a	O	O	DT	O
+7-15	little	O	O	JJ	O
+7-16	talc	7-13_dobj	added	NN	P3_tool
+7-17	.	O	O	O	O
+
+#id=8
+#text=I also added a little talc to the inside of the tire . 
+8-1	I	8-3_nsubj	added	PRP	P1_rider
+8-2	also	8-3_advmod	added	RB	O
+8-3	added	O	O	VBD	O
+8-4	a	O	O	DT	O
+8-5	little	O	O	RB	O
+8-6	talc	8-3_acomp	added	JJ	P3_tool
+8-7	to	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	inside	O	O	NN	O
+8-10	of	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	tire	O	O	NN	P1_tire
+8-13	.	O	O	O	O
+
+#id=9
+#text=Once everything was set , I put the wheel back on the bike and everything was good as new . 
+9-1	Once	9-4_mark	set	IN	O
+9-2	everything	9-4_nsubjpass	set	NN	P1_NPart_everything
+9-3	was	9-4_auxpass	set	VBD	O
+9-4	set	9-7_advcl	put	VBN	O
+9-5	,	O	O	O	O
+9-6	I	9-7_nsubj	put	PRP	P1_rider
+9-7	put	O	O	VBD	O
+9-8	the	O	O	DT	O
+9-9	wheel	O	O	NN	P1_tire
+9-10	back	O	O	RB	O
+9-11	on	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	bike	O	O	NN	P1_bicycle
+9-14	and	O	O	O	O
+9-15	everything	O	O	NN	P2_NPart_everything
+9-16	was	O	O	VBD	O
+9-17	good	9-7_ccomp	put	JJ	O
+9-18	as	O	O	O	O
+9-19	new	O	O	JJ	O
+9-20	.	O	O	O	O

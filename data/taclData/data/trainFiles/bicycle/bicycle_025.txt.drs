@@ -1,0 +1,207 @@
+#id=1
+#text=I was riding my bike around my house and noticed I had to peddle harder than I usually do . 
+1-1	I	1-3_nsubj	riding	PRP	P1_rider
+1-2	was	1-3_aux	riding	VBD	O
+1-3	riding	O	O	VBG	O
+1-4	my	O	O	PRP$	P1_rider
+1-5	bike	1-3_dobj	riding	NN	P1_bicycle
+1-6	around	O	O	O	O
+1-7	my	O	O	PRP$	P1_rider
+1-8	house	1-3_prep_around	riding	NN	P1_location_repair
+1-9	and	O	O	O	O
+1-10	noticed	1-3_conj_and	riding	VBD	O
+1-11	I	1-12_nsubj	had	PRP	P1_rider
+1-12	had	1-10_ccomp	noticed	VBD	O
+1-13	to	1-14_aux	peddle	TO	O
+1-14	peddle	1-12_xcomp	had	VB	O
+1-15	harder	1-14_advmod	peddle	RBR	O
+1-16	than	1-19_mark	do	IN	O
+1-17	I	1-19_nsubj	do	PRP	P1_rider
+1-18	usually	1-19_advmod	do	RB	O
+1-19	do	O	O	VBP	O
+1-20	.	O	O	O	O
+
+#id=2
+#text=I got off my bike to see if everything was wrong . 
+2-1	I	2-2_nsubj	got	PRP	P1_rider
+2-2	got	O	O	VBD	O
+2-3	off	2-2_prt	got	RP	O
+2-4	my	O	O	PRP$	P1_rider
+2-5	bike	2-2_dobj	got	NN	P1_bicycle
+2-6	to	2-7_aux	see	TO	O
+2-7	see	O	O	VB	O
+2-8	if	O	O	IN	O
+2-9	everything	O	O	NN	P1_NPart_everything
+2-10	was	O	O	VBD	O
+2-11	wrong	2-7_advcl	see	JJ	O
+2-12	.	O	O	O	O
+
+#id=3
+#text=The front tire looked okay , the chain was still on the bike , but the back tire was flat unfortunately . 
+3-1	The	O	O	DT	O
+3-2	front	O	O	JJ	O
+3-3	tire	3-4_nsubj	looked	NN	P1_tire
+3-4	looked	O	O	VBD	O
+3-5	okay	3-4_acomp	looked	JJ	O
+3-6	,	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	chain	3-9_nsubj	was	NN	P1_other
+3-9	was	3-4_dep	looked	VBD	O
+3-10	still	3-9_advmod	was	RB	O
+3-11	on	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	bike	3-9_prep_on	was	NN	P1_bicycle
+3-14	,	O	O	O	O
+3-15	but	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	back	O	O	JJ	O
+3-18	tire	O	O	NN	P2_tire
+3-19	was	O	O	VBD	O
+3-20	flat	3-4_conj_but	looked	JJ	O
+3-21	unfortunately	O	O	RB	O
+3-22	.	O	O	O	O
+
+#id=4
+#text=I walked my bike back to my house because it is not safe to ride a bike with a flat tire . 
+4-1	I	4-2_nsubj	walked	PRP	P1_rider
+4-2	walked	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_rider
+4-4	bike	4-2_dobj	walked	NN	P1_bicycle
+4-5	back	4-2_advmod	walked	RB	O
+4-6	to	O	O	O	O
+4-7	my	O	O	PRP$	P1_rider
+4-8	house	4-2_prep_to	walked	NN	P1_location_repair
+4-9	because	O	O	IN	O
+4-10	it	O	O	PRP	O
+4-11	is	O	O	VBZ	O
+4-12	not	O	O	RB	O
+4-13	safe	4-2_advcl	walked	JJ	O
+4-14	to	4-15_aux	ride	TO	O
+4-15	ride	O	O	VB	O
+4-16	a	O	O	DT	O
+4-17	bike	4-15_dobj	ride	NN	P1_bicycle
+4-18	with	O	O	O	O
+4-19	a	O	O	DT	O
+4-20	flat	O	O	JJ	O
+4-21	tire	4-15_prep_with	ride	NN	P2_tire
+4-22	.	O	O	O	O
+
+#id=5
+#text=I went in my garage and looked for the air pump . 
+5-1	I	5-2_nsubj	went	PRP	P1_rider
+5-2	went	O	O	VBD	O
+5-3	in	O	O	O	O
+5-4	my	O	O	PRP$	P1_rider
+5-5	garage	5-2_prep_in	went	NN	P2_location_repair
+5-6	and	O	O	O	O
+5-7	looked	5-2_conj_and	went	VBD	O
+5-8	for	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	air	O	O	NN	O
+5-11	pump	5-7_prep_for	looked	NN	P1_tool
+5-12	.	O	O	O	O
+
+#id=6
+#text=I connected the valve of the pump to the valve on the tire . 
+6-1	I	6-2_nsubj	connected	PRP	P1_rider
+6-2	connected	O	O	VBN	O
+6-3	the	O	O	DT	O
+6-4	valve	6-2_dobj	connected	NN	P1_NPart_valve
+6-5	of	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	pump	O	O	NN	P1_tool
+6-8	to	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	valve	6-2_prep_to	connected	NN	P1_bicycle_small_detail
+6-11	on	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	tire	O	O	NN	P2_tire
+6-14	.	O	O	O	O
+
+#id=7
+#text=I pumped the air pump and kept checking the tire to make sure it was working . 
+7-1	I	7-2_nsubj	pumped	PRP	P1_rider
+7-2	pumped	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	air	O	O	NN	O
+7-5	pump	7-2_dobj	pumped	NN	P1_tool
+7-6	and	O	O	O	O
+7-7	kept	7-2_conj_and	pumped	VBD	O
+7-8	checking	7-7_xcomp	kept	VBG	O
+7-9	the	O	O	DT	O
+7-10	tire	7-8_dobj	checking	NN	P2_tire
+7-11	to	7-12_aux	make	TO	O
+7-12	make	O	O	VB	O
+7-13	sure	7-12_acomp	make	JJ	O
+7-14	it	7-16_nsubj	working	PRP	O
+7-15	was	7-16_aux	working	VBD	O
+7-16	working	O	O	VBG	O
+7-17	.	O	O	O	O
+
+#id=8
+#text=It was hard work and it took longer than I thought . 
+8-1	It	O	O	PRP	O
+8-2	was	O	O	VBD	O
+8-3	hard	O	O	JJ	O
+8-4	work	O	O	NN	P1_NPart_work
+8-5	and	O	O	O	O
+8-6	it	8-7_nsubj	took	PRP	O
+8-7	took	O	O	VBD	O
+8-8	longer	8-7_advmod	took	RBR	O
+8-9	than	8-11_mark	thought	IN	O
+8-10	I	8-11_nsubj	thought	PRP	P1_rider
+8-11	thought	8-7_advcl	took	VBD	O
+8-12	.	O	O	O	O
+
+#id=9
+#text=Eventually , the tire seemed full with air . 
+9-1	Eventually	9-5_advmod	seemed	RB	O
+9-2	,	O	O	O	O
+9-3	the	O	O	DT	O
+9-4	tire	9-5_nsubj	seemed	NN	P2_tire
+9-5	seemed	O	O	VBD	O
+9-6	full	9-5_acomp	seemed	JJ	O
+9-7	with	O	O	O	O
+9-8	air	9-5_prep_with	seemed	NN	P1_air
+9-9	.	O	O	O	O
+
+#id=10
+#text=I put my ear next to it to see if I could hear any air coming out but I did n't hear any . 
+10-1	I	10-2_nsubj	put	PRP	P1_rider
+10-2	put	O	O	VBD	O
+10-3	my	O	O	PRP$	P1_rider
+10-4	ear	10-2_dobj	put	NN	P2_other
+10-5	next	O	O	O	O
+10-6	to	O	O	O	O
+10-7	it	10-2_prep_next_to	put	PRP	P2_tire
+10-8	to	10-9_aux	see	TO	O
+10-9	see	10-2_vmod	put	VB	O
+10-10	if	10-13_mark	hear	IN	O
+10-11	I	10-13_nsubj	hear	PRP	P1_rider
+10-12	could	10-13_aux	hear	MD	O
+10-13	hear	10-9_advcl	see	VB	O
+10-14	any	O	O	DT	O
+10-15	air	10-13_dobj	hear	NN	P1_air
+10-16	coming	O	O	VBG	O
+10-17	out	10-16_prt	coming	RP	O
+10-18	but	O	O	O	O
+10-19	I	10-22_nsubj	hear	PRP	P1_rider
+10-20	did	10-22_aux	hear	VBD	O
+10-21	n't	10-22_neg	hear	RB	O
+10-22	hear	10-2_conj_but	put	VB	O
+10-23	any	10-22_dobj	hear	DT	O
+10-24	.	O	O	O	O
+
+#id=11
+#text=I got back on my bike and it rode fine . 
+11-1	I	11-2_nsubj	got	PRP	P1_rider
+11-2	got	O	O	VBD	O
+11-3	back	11-2_advmod	got	RB	O
+11-4	on	O	O	O	O
+11-5	my	O	O	PRP$	P1_rider
+11-6	bike	11-2_prep_on	got	NN	P1_bicycle
+11-7	and	O	O	O	O
+11-8	it	11-9_nsubj	rode	PRP	P1_bicycle
+11-9	rode	11-2_conj_and	got	VBD	O
+11-10	fine	11-9_acomp	rode	JJ	O
+11-11	.	O	O	O	O

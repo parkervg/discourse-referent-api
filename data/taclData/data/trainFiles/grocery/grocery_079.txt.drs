@@ -1,0 +1,310 @@
+#id=1
+#text=The Empty Refrigerator One evening I returned home from work and realized that I was very hungry . 
+1-1	The	O	O	DT	O
+1-2	Empty	O	O	JJ	O
+1-3	Refrigerator	O	O	NNP	O
+1-4	One	O	O	CD	O
+1-5	evening	1-7_tmod	returned	NN	P1_NPart_evening
+1-6	I	1-7_nsubj	returned	PRP	P1_shopper
+1-7	returned	O	O	VBD	O
+1-8	home	1-7_dobj	returned	NN	P1_NPart_home
+1-9	from	O	O	O	O
+1-10	work	1-7_prep_from	returned	NN	P1_NPart_work
+1-11	and	O	O	O	O
+1-12	realized	1-7_conj_and	returned	VBD	O
+1-13	that	O	O	IN	O
+1-14	I	O	O	PRP	P1_shopper
+1-15	was	O	O	VBD	O
+1-16	very	O	O	RB	O
+1-17	hungry	1-12_ccomp	realized	JJ	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=However , when I opened the door to my refrigerator , I saw that there was nothing in it besides a gallon of water and a half-used bottle of ketchup . 
+2-1	However	2-13_advmod	saw	RB	O
+2-2	,	O	O	O	O
+2-3	when	2-5_advmod	opened	WRB	O
+2-4	I	2-5_nsubj	opened	PRP	P1_shopper
+2-5	opened	2-13_advcl	saw	VBD	O
+2-6	the	O	O	DT	O
+2-7	door	2-5_dobj	opened	NN	P1_NPart_door
+2-8	to	O	O	O	O
+2-9	my	O	O	PRP$	P1_shopper
+2-10	refrigerator	2-5_prep_to	opened	NN	P1_NPart_it
+2-11	,	O	O	O	O
+2-12	I	2-13_nsubj	saw	PRP	P1_shopper
+2-13	saw	O	O	VBD	O
+2-14	that	2-16_mark	was	IN	O
+2-15	there	2-16_expl	was	EX	O
+2-16	was	2-13_ccomp	saw	VBD	O
+2-17	nothing	2-16_nsubj	was	NN	O
+2-18	in	O	O	O	O
+2-19	it	O	O	PRP	P1_NPart_it
+2-20	besides	O	O	O	O
+2-21	a	O	O	DT	O
+2-22	gallon	O	O	NN	O
+2-23	of	O	O	O	O
+2-24	water	O	O	NN	P1_groceries
+2-25	and	O	O	O	O
+2-26	a	O	O	DT	O
+2-27	half-used	O	O	JJ	O
+2-28	bottle	O	O	NN	O
+2-29	of	O	O	O	O
+2-30	ketchup	O	O	NN	P2_groceries
+2-31	.	O	O	O	O
+
+#id=3
+#text=I opened my freezer to only find two trays of ice . 
+3-1	I	3-2_nsubj	opened	PRP	P1_shopper
+3-2	opened	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_shopper
+3-4	freezer	3-2_dobj	opened	NN	P1_NPart_freezer
+3-5	to	3-7_aux	find	TO	O
+3-6	only	3-7_advmod	find	RB	O
+3-7	find	O	O	VB	O
+3-8	two	O	O	CD	O
+3-9	trays	3-7_dobj	find	NNS	P1_NPart_trays
+3-10	of	O	O	O	O
+3-11	ice	O	O	NN	P1_NPart_ice
+3-12	.	O	O	O	O
+
+#id=4
+#text=This did not look promising at all . 
+4-1	This	4-4_nsubj	look	DT	O
+4-2	did	4-4_aux	look	VBD	O
+4-3	not	4-4_neg	look	RB	O
+4-4	look	O	O	VB	O
+4-5	promising	4-4_xcomp	look	VBG	O
+4-6	at	4-5_advmod	promising	IN	O
+4-7	all	O	O	DT	O
+4-8	.	O	O	O	O
+
+#id=5
+#text=Since I was very hungry , I decided to go out to eat and then go grocery shopping . 
+5-1	Since	O	O	IN	O
+5-2	I	O	O	PRP	P1_shopper
+5-3	was	O	O	VBD	O
+5-4	very	O	O	RB	O
+5-5	hungry	5-8_advcl	decided	JJ	O
+5-6	,	O	O	O	O
+5-7	I	5-8_nsubj	decided	PRP	P1_shopper
+5-8	decided	O	O	VBD	O
+5-9	to	5-10_aux	go	TO	O
+5-10	go	5-8_xcomp	decided	VB	O
+5-11	out	5-10_prt	go	RP	O
+5-12	to	5-13_aux	eat	TO	O
+5-13	eat	5-10_xcomp	go	VB	O
+5-14	and	5-13_cc	eat	CC	O
+5-15	then	5-13_advmod	eat	RB	O
+5-16	go	5-13_dep	eat	VB	O
+5-17	grocery	O	O	NN	P3_groceries
+5-18	shopping	5-13_dobj	eat	NN	O
+5-19	.	O	O	O	O
+
+#id=6
+#text=I went to eat at a restaurant near my favorite grocery store and then started my grocery shopping quest . 
+6-1	I	6-2_nsubj	went	PRP	P1_shopper
+6-2	went	O	O	VBD	O
+6-3	to	6-4_aux	eat	TO	O
+6-4	eat	6-2_xcomp	went	VB	O
+6-5	at	O	O	O	O
+6-6	a	O	O	DT	O
+6-7	restaurant	6-4_prep_at	eat	NN	P1_NPart_restaurant
+6-8	near	O	O	O	O
+6-9	my	O	O	PRP$	P1_shopper
+6-10	favorite	O	O	JJ	O
+6-11	grocery	O	O	NN	O
+6-12	store	O	O	NN	P1_grocery_shop
+6-13	and	O	O	O	O
+6-14	then	6-15_advmod	started	RB	O
+6-15	started	6-2_conj_and	went	VBD	O
+6-16	my	O	O	PRP$	P1_shopper
+6-17	grocery	O	O	NN	O
+6-18	shopping	O	O	NN	O
+6-19	quest	6-15_dobj	started	NN	O
+6-20	.	O	O	O	O
+
+#id=7
+#text=I first went to the produce aisle and picked out an assortment of fruits and vegetables . 
+7-1	I	7-3_nsubj	went	PRP	P1_shopper
+7-2	first	7-3_advmod	went	RB	O
+7-3	went	O	O	VBD	O
+7-4	to	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	produce	O	O	NN	O
+7-7	aisle	7-3_prep_to	went	NN	P1_section
+7-8	and	O	O	O	O
+7-9	picked	7-3_conj_and	went	VBD	O
+7-10	out	7-9_prt	picked	RP	O
+7-11	an	O	O	DT	O
+7-12	assortment	7-9_dobj	picked	NN	O
+7-13	of	O	O	O	O
+7-14	fruits	O	O	NNS	P4_groceries
+7-15	and	O	O	O	O
+7-16	vegetables	O	O	NNS	P5_groceries
+7-17	.	O	O	O	O
+
+#id=8
+#text=I then proceeded to the meat section where I picked out some chicken , pork chops , hamburger , and a beef roast . 
+8-1	I	8-3_nsubj	proceeded	PRP	P1_shopper
+8-2	then	8-3_advmod	proceeded	RB	O
+8-3	proceeded	O	O	VBD	O
+8-4	to	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	meat	O	O	NN	O
+8-7	section	8-3_prep_to	proceeded	NN	P2_section
+8-8	where	8-10_advmod	picked	WRB	O
+8-9	I	8-10_nsubj	picked	PRP	P1_shopper
+8-10	picked	8-3_advcl	proceeded	VBD	O
+8-11	out	8-10_prt	picked	RP	O
+8-12	some	O	O	DT	O
+8-13	chicken	8-10_dobj	picked	NN	P6_groceries
+8-14	,	O	O	O	O
+8-15	pork	O	O	NN	O
+8-16	chops	O	O	NNS	P7_groceries
+8-17	,	O	O	O	O
+8-18	hamburger	O	O	NN	P8_groceries
+8-19	,	O	O	O	O
+8-20	and	O	O	O	O
+8-21	a	O	O	DT	O
+8-22	beef	O	O	NN	O
+8-23	roast	O	O	NN	P9_groceries
+8-24	.	O	O	O	O
+
+#id=9
+#text=Next , I picked up some canned items and some taco shells , taco seasoning , pizza crust mix , and peanut buttter . 
+9-1	Next	9-4_advmod	picked	RB	O
+9-2	,	O	O	O	O
+9-3	I	9-4_nsubj	picked	PRP	P1_shopper
+9-4	picked	O	O	VBD	O
+9-5	up	9-4_prt	picked	RP	O
+9-6	some	O	O	DT	O
+9-7	canned	O	O	VBN	O
+9-8	items	9-4_dobj	picked	NNS	P10_groceries
+9-9	and	O	O	O	O
+9-10	some	O	O	DT	O
+9-11	taco	O	O	JJ	O
+9-12	shells	O	O	NNS	P11_groceries
+9-13	,	O	O	O	O
+9-14	taco	O	O	NN	O
+9-15	seasoning	O	O	NN	P12_groceries
+9-16	,	O	O	O	O
+9-17	pizza	O	O	NN	O
+9-18	crust	O	O	NN	O
+9-19	mix	O	O	NN	P13_groceries
+9-20	,	O	O	O	O
+9-21	and	O	O	O	O
+9-22	peanut	O	O	NN	O
+9-23	buttter	O	O	NN	P14_groceries
+9-24	.	O	O	O	O
+
+#id=10
+#text=After this , I went to the dairy section and picked up some cheese and milk . 
+10-1	After	O	O	O	O
+10-2	this	10-5_prep_after	went	DT	O
+10-3	,	O	O	O	O
+10-4	I	10-5_nsubj	went	PRP	P1_shopper
+10-5	went	O	O	VBD	O
+10-6	to	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	dairy	O	O	NN	O
+10-9	section	10-5_prep_to	went	NN	P3_section
+10-10	and	O	O	O	O
+10-11	picked	10-5_conj_and	went	VBD	O
+10-12	up	10-11_prt	picked	RP	O
+10-13	some	O	O	DT	O
+10-14	cheese	10-11_dobj	picked	NN	P15_groceries
+10-15	and	O	O	O	O
+10-16	milk	O	O	NN	P16_groceries
+10-17	.	O	O	O	O
+
+#id=11
+#text=My next stop was the frozen section where I tossed some ready-made meals in my cart along with chicken strips , frozen vegetables , tator tots , and frozen pizza . 
+11-1	My	O	O	PRP$	P1_shopper
+11-2	next	O	O	JJ	O
+11-3	stop	O	O	NN	P1_NPart_stop
+11-4	was	O	O	VBD	O
+11-5	the	O	O	DT	O
+11-6	frozen	O	O	JJ	O
+11-7	section	O	O	NN	P4_section
+11-8	where	11-10_advmod	tossed	WRB	O
+11-9	I	11-10_nsubj	tossed	PRP	P1_shopper
+11-10	tossed	O	O	VBD	O
+11-11	some	O	O	DT	O
+11-12	ready-made	O	O	JJ	O
+11-13	meals	11-10_dobj	tossed	NNS	P17_groceries
+11-14	in	O	O	O	O
+11-15	my	O	O	PRP$	P1_shopper
+11-16	cart	11-10_prep_in	tossed	NN	P1_shopping_cart/basket
+11-17	along	O	O	O	O
+11-18	with	O	O	O	O
+11-19	chicken	O	O	NN	O
+11-20	strips	11-10_prep_along_with	tossed	NNS	P18_groceries
+11-21	,	O	O	O	O
+11-22	frozen	O	O	JJ	O
+11-23	vegetables	O	O	NNS	P19_groceries
+11-24	,	O	O	O	O
+11-25	tator	O	O	NN	O
+11-26	tots	O	O	NNS	P20_groceries
+11-27	,	O	O	O	O
+11-28	and	O	O	O	O
+11-29	frozen	O	O	JJ	O
+11-30	pizza	O	O	NN	P21_groceries
+11-31	.	O	O	O	O
+
+#id=12
+#text=Before I made it to the checkout area , I picked up a loaf of bread . 
+12-1	Before	12-3_mark	made	IN	O
+12-2	I	12-3_nsubj	made	PRP	P1_shopper
+12-3	made	12-11_advcl	picked	VBD	O
+12-4	it	12-3_dobj	made	PRP	O
+12-5	to	O	O	O	O
+12-6	the	O	O	DT	O
+12-7	checkout	O	O	NN	O
+12-8	area	12-3_prep_to	made	NN	P1_cash_desk
+12-9	,	O	O	O	O
+12-10	I	12-11_nsubj	picked	PRP	P1_shopper
+12-11	picked	O	O	VBD	O
+12-12	up	12-11_prt	picked	RP	O
+12-13	a	O	O	DT	O
+12-14	loaf	12-11_dobj	picked	NN	O
+12-15	of	O	O	O	O
+12-16	bread	O	O	NN	P22_groceries
+12-17	.	O	O	O	O
+
+#id=13
+#text=I know had a good assortment of food and it would be a long time before I would come home to an empty refrigerator and freezer again which was a very good thing . 
+13-1	I	13-2_nsubj	know	PRP	P1_shopper
+13-2	know	O	O	VBP	O
+13-3	had	13-2_ccomp	know	VBD	O
+13-4	a	O	O	DT	O
+13-5	good	O	O	JJ	O
+13-6	assortment	13-3_dobj	had	NN	O
+13-7	of	O	O	O	O
+13-8	food	O	O	NN	P23_groceries
+13-9	and	O	O	O	O
+13-10	it	O	O	PRP	O
+13-11	would	O	O	MD	O
+13-12	be	O	O	VB	O
+13-13	a	O	O	DT	O
+13-14	long	O	O	JJ	O
+13-15	time	13-2_conj_and	know	NN	O
+13-16	before	13-19_mark	come	IN	O
+13-17	I	13-19_nsubj	come	PRP	P1_shopper
+13-18	would	13-19_aux	come	MD	O
+13-19	come	O	O	VB	O
+13-20	home	13-19_dobj	come	NN	P1_NPart_home
+13-21	to	O	O	O	O
+13-22	an	O	O	DT	O
+13-23	empty	O	O	JJ	O
+13-24	refrigerator	13-19_prep_to	come	NN	P1_NPart_it
+13-25	and	O	O	O	O
+13-26	freezer	O	O	NN	P1_NPart_freezer
+13-27	again	O	O	RB	O
+13-28	which	O	O	WDT	O
+13-29	was	O	O	VBD	O
+13-30	a	O	O	DT	O
+13-31	very	O	O	RB	O
+13-32	good	O	O	JJ	O
+13-33	thing	O	O	NN	O
+13-34	.	O	O	O	O

@@ -1,0 +1,385 @@
+#id=1
+#text=I often use the public bus system locally to get around town , as it is much cheaper than driving . 
+1-1	I	1-3_nsubj	use	PRP	P1_bus
+1-2	often	1-3_advmod	use	RB	O
+1-3	use	O	O	VB	O
+1-4	the	O	O	DT	O
+1-5	public	O	O	JJ	O
+1-6	bus	O	O	NN	O
+1-7	system	1-3_dobj	use	NN	P1_other
+1-8	locally	1-3_advmod	use	RB	O
+1-9	to	1-10_aux	get	TO	O
+1-10	get	1-3_vmod	use	VB	O
+1-11	around	O	O	O	O
+1-12	town	1-10_prep_around	get	NN	P1_NPart_town
+1-13	,	O	O	O	O
+1-14	as	O	O	IN	O
+1-15	it	O	O	PRP	O
+1-16	is	O	O	VBZ	O
+1-17	much	O	O	RB	O
+1-18	cheaper	1-3_advcl	use	JJR	O
+1-19	than	O	O	O	O
+1-20	driving	O	O	VBG	O
+1-21	.	O	O	O	O
+
+#id=2
+#text=Before I leave home , I always make sure that I have enough money to pay for riding the bus wherever I need to go that day and back home . 
+2-1	Before	2-3_mark	leave	IN	O
+2-2	I	2-3_nsubj	leave	PRP	P1_bus
+2-3	leave	2-8_advcl	make	VBP	O
+2-4	home	2-3_dobj	leave	NN	P1_NPart_home
+2-5	,	O	O	O	O
+2-6	I	2-8_nsubj	make	PRP	P1_bus
+2-7	always	2-8_advmod	make	RB	O
+2-8	make	O	O	VBP	O
+2-9	sure	2-8_acomp	make	JJ	O
+2-10	that	2-12_mark	have	IN	O
+2-11	I	2-12_nsubj	have	PRP	P1_bus
+2-12	have	O	O	VBP	O
+2-13	enough	O	O	JJ	O
+2-14	money	2-12_dobj	have	NN	P1_money
+2-15	to	2-16_aux	pay	TO	O
+2-16	pay	O	O	VB	O
+2-17	for	O	O	O	O
+2-18	riding	2-16_prepc_for	pay	VBG	O
+2-19	the	O	O	DT	O
+2-20	bus	2-18_dobj	riding	NN	P2_bus
+2-21	wherever	2-23_advmod	need	WRB	O
+2-22	I	2-23_nsubj	need	PRP	P1_passenger
+2-23	need	2-12_advcl	have	VBP	O
+2-24	to	2-25_aux	go	TO	O
+2-25	go	2-23_xcomp	need	VB	O
+2-26	that	O	O	DT	O
+2-27	day	O	O	NN	P1_NPart_day
+2-28	and	O	O	O	O
+2-29	back	O	O	NN	O
+2-30	home	2-25_dobj	go	NN	P2_NPart_home
+2-31	.	O	O	O	O
+
+#id=3
+#text=This is especially important if I am going to be buying anything else that day . 
+3-1	This	O	O	DT	O
+3-2	is	O	O	VBZ	O
+3-3	especially	O	O	RB	O
+3-4	important	O	O	JJ	O
+3-5	if	3-8_mark	going	IN	O
+3-6	I	3-8_nsubj	going	PRP	P1_passenger
+3-7	am	3-8_aux	going	VBP	O
+3-8	going	O	O	VBG	O
+3-9	to	3-11_aux	buying	TO	O
+3-10	be	3-11_aux	buying	VB	O
+3-11	buying	3-8_xcomp	going	VBG	O
+3-12	anything	3-11_dobj	buying	NN	P1_NPart_anything
+3-13	else	O	O	RB	O
+3-14	that	O	O	DT	O
+3-15	day	3-11_tmod	buying	NN	P2_NPart_day
+3-16	.	O	O	O	O
+
+#id=4
+#text=Some bus systems have a special price for certain groups , like students . 
+4-1	Some	O	O	DT	O
+4-2	bus	O	O	NN	O
+4-3	systems	4-4_nsubj	have	NNS	P1_other
+4-4	have	O	O	VBP	O
+4-5	a	O	O	DT	O
+4-6	special	O	O	JJ	O
+4-7	price	4-4_dobj	have	NN	P2_money
+4-8	for	O	O	O	O
+4-9	certain	O	O	JJ	O
+4-10	groups	O	O	NNS	P1_NPart_groups
+4-11	,	O	O	O	O
+4-12	like	O	O	O	O
+4-13	students	4-4_prep_like	have	NNS	P1_NPart_students
+4-14	.	O	O	O	O
+
+#id=5
+#text=I am able to use my student ID card to get a discounted rate . 
+5-1	I	O	O	PRP	P1_passenger
+5-2	am	O	O	VBP	O
+5-3	able	O	O	JJ	O
+5-4	to	5-5_aux	use	TO	O
+5-5	use	O	O	VB	O
+5-6	my	O	O	PRP$	P1_passenger
+5-7	student	O	O	NN	O
+5-8	ID	O	O	NN	O
+5-9	card	5-5_dobj	use	NN	P1_NPart_card
+5-10	to	5-11_aux	get	TO	O
+5-11	get	5-5_vmod	use	VB	O
+5-12	a	O	O	DT	O
+5-13	discounted	O	O	VBN	O
+5-14	rate	5-11_dobj	get	NN	P2_money
+5-15	.	O	O	O	O
+
+#id=6
+#text=I have a bus schedule at home where I can easily check it , but I have it memorized because I use it so much . 
+6-1	I	6-2_nsubj	have	PRP	P1_passenger
+6-2	have	O	O	VBP	O
+6-3	a	O	O	DT	O
+6-4	bus	O	O	NN	O
+6-5	schedule	6-2_dobj	have	NN	P1_time-table
+6-6	at	O	O	O	O
+6-7	home	O	O	NN	P3_NPart_home
+6-8	where	6-12_advmod	check	WRB	O
+6-9	I	6-12_nsubj	check	PRP	P1_passenger
+6-10	can	6-12_aux	check	MD	O
+6-11	easily	6-12_advmod	check	RB	O
+6-12	check	O	O	VB	O
+6-13	it	6-12_dobj	check	PRP	P1_time-table
+6-14	,	O	O	O	O
+6-15	but	O	O	O	O
+6-16	I	6-17_nsubj	have	PRP	P1_passenger
+6-17	have	6-2_conj_but	have	VBP	O
+6-18	it	6-19_nsubj	memorized	PRP	P1_time-table
+6-19	memorized	6-17_ccomp	have	VBN	O
+6-20	because	6-22_mark	use	IN	O
+6-21	I	6-22_nsubj	use	PRP	P1_passenger
+6-22	use	6-19_advcl	memorized	VBP	O
+6-23	it	O	O	PRP	P1_time-table
+6-24	so	O	O	RB	O
+6-25	much	6-22_xcomp	use	JJ	O
+6-26	.	O	O	O	O
+
+#id=7
+#text=I make sure I leave to go to the bus stop so that I get there about five minutes early . 
+7-1	I	7-2_nsubj	make	PRP	P1_passenger
+7-2	make	O	O	VBP	O
+7-3	sure	7-2_acomp	make	JJ	O
+7-4	I	7-5_nsubj	leave	PRP	P1_passenger
+7-5	leave	O	O	VBP	O
+7-6	to	7-7_aux	go	TO	O
+7-7	go	7-5_xcomp	leave	VB	O
+7-8	to	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	bus	O	O	NN	O
+7-11	stop	7-7_prep_to	go	NN	P1_bus_stop
+7-12	so	7-15_advmod	get	RB	O
+7-13	that	7-15_mark	get	IN	O
+7-14	I	7-15_nsubj	get	PRP	P1_passenger
+7-15	get	7-7_advcl	go	VBP	O
+7-16	there	7-15_advmod	get	RB	P1_bus_stop
+7-17	about	O	O	RB	O
+7-18	five	O	O	CD	O
+7-19	minutes	7-15_dobj	get	NNS	P1_time/date
+7-20	early	O	O	JJ	O
+7-21	.	O	O	O	O
+
+#id=8
+#text=Usually the bus is on time , as long as there have n't been any issues that day . 
+8-1	Usually	8-4_advmod	is	RB	O
+8-2	the	O	O	DT	O
+8-3	bus	8-4_nsubj	is	NN	P2_bus
+8-4	is	O	O	VBZ	O
+8-5	on	O	O	O	O
+8-6	time	8-4_prep_on	is	NN	O
+8-7	,	O	O	O	O
+8-8	as	O	O	RB	O
+8-9	long	8-4_advmod	is	RB	O
+8-10	as	O	O	IN	O
+8-11	there	O	O	EX	O
+8-12	have	O	O	VBP	O
+8-13	n't	O	O	RB	O
+8-14	been	O	O	VBN	O
+8-15	any	O	O	DT	O
+8-16	issues	8-4_advcl	is	NNS	P1_NPart_issues
+8-17	that	O	O	DT	O
+8-18	day	O	O	NN	P3_NPart_day
+8-19	.	O	O	O	O
+
+#id=9
+#text=When the bus arrives , I first check that it is the bus number for where I want to go , as different bus lines go to different areas of the city . 
+9-1	When	9-4_advmod	arrives	WRB	O
+9-2	the	O	O	DT	O
+9-3	bus	9-4_nsubj	arrives	NN	P2_bus
+9-4	arrives	9-8_advcl	check	VBZ	O
+9-5	,	O	O	O	O
+9-6	I	9-8_nsubj	check	PRP	P1_passenger
+9-7	first	9-8_advmod	check	RB	O
+9-8	check	O	O	VBP	O
+9-9	that	O	O	IN	O
+9-10	it	O	O	PRP	O
+9-11	is	O	O	VBZ	O
+9-12	the	O	O	DT	O
+9-13	bus	O	O	NN	O
+9-14	number	9-8_ccomp	check	NN	P2_other
+9-15	for	O	O	O	O
+9-16	where	9-18_advmod	want	WRB	O
+9-17	I	9-18_nsubj	want	PRP	P1_passenger
+9-18	want	O	O	VBP	O
+9-19	to	9-20_aux	go	TO	O
+9-20	go	9-18_xcomp	want	VB	O
+9-21	,	O	O	O	O
+9-22	as	9-26_mark	go	IN	O
+9-23	different	O	O	JJ	O
+9-24	bus	O	O	NN	O
+9-25	lines	9-26_nsubj	go	NNS	P1_NPart_lines
+9-26	go	O	O	VBP	O
+9-27	to	O	O	O	O
+9-28	different	O	O	JJ	O
+9-29	areas	9-26_prep_to	go	NNS	P1_NPart_areas
+9-30	of	O	O	O	O
+9-31	the	O	O	DT	O
+9-32	city	O	O	NN	P1_NPart_city
+9-33	.	O	O	O	O
+
+#id=10
+#text=When I get on the bus , I have to show my ID and pay , and then I can go to a seat . 
+10-1	When	10-3_advmod	get	WRB	O
+10-2	I	10-3_nsubj	get	PRP	P1_passenger
+10-3	get	10-9_advcl	have	VBP	O
+10-4	on	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	bus	10-3_prep_on	get	NN	P2_bus
+10-7	,	O	O	O	O
+10-8	I	10-9_nsubj	have	PRP	P1_passenger
+10-9	have	O	O	VBP	O
+10-10	to	10-11_aux	show	TO	O
+10-11	show	10-9_xcomp	have	VB	O
+10-12	my	O	O	PRP$	P1_passenger
+10-13	ID	10-11_dobj	show	NN	P1_NPart_id
+10-14	and	O	O	O	O
+10-15	pay	10-11_conj_and	show	VB	O
+10-16	,	O	O	O	O
+10-17	and	O	O	O	O
+10-18	then	10-21_advmod	go	RB	O
+10-19	I	10-21_nsubj	go	PRP	P1_passenger
+10-20	can	10-21_aux	go	MD	O
+10-21	go	10-9_conj_and	have	VB	O
+10-22	to	O	O	O	O
+10-23	a	O	O	DT	O
+10-24	seat	10-21_prep_to	go	NN	P1_seat_in_bus
+10-25	.	O	O	O	O
+
+#id=11
+#text=Sometimes the bus can be pretty full , and I have to sit next to someone else . 
+11-1	Sometimes	O	O	RB	O
+11-2	the	O	O	DT	O
+11-3	bus	O	O	NN	P2_bus
+11-4	can	O	O	MD	O
+11-5	be	O	O	VB	O
+11-6	pretty	O	O	RB	O
+11-7	full	O	O	JJ	O
+11-8	,	O	O	O	O
+11-9	and	O	O	O	O
+11-10	I	11-11_nsubj	have	PRP	P1_passenger
+11-11	have	O	O	VBP	O
+11-12	to	11-13_aux	sit	TO	O
+11-13	sit	11-11_xcomp	have	VB	O
+11-14	next	O	O	O	O
+11-15	to	O	O	O	O
+11-16	someone	11-13_prep_next_to	sit	NN	P2_passenger
+11-17	else	O	O	RB	O
+11-18	.	O	O	O	O
+
+#id=12
+#text=A lot of the same people will often ride the bus with me , so I get to know them . 
+12-1	A	O	O	DT	O
+12-2	lot	12-9_nsubj	ride	NN	O
+12-3	of	O	O	O	O
+12-4	the	O	O	DT	O
+12-5	same	O	O	JJ	O
+12-6	people	O	O	NNS	P3_passenger
+12-7	will	12-9_aux	ride	MD	O
+12-8	often	12-9_advmod	ride	RB	O
+12-9	ride	O	O	VB	O
+12-10	the	O	O	DT	O
+12-11	bus	12-9_dobj	ride	NN	P2_bus
+12-12	with	O	O	O	O
+12-13	me	12-9_prep_with	ride	PRP	P1_passenger
+12-14	,	O	O	O	O
+12-15	so	12-9_dep	ride	IN	O
+12-16	I	12-17_nsubj	get	PRP	P1_passenger
+12-17	get	12-9_parataxis	ride	VBP	O
+12-18	to	12-19_aux	know	TO	O
+12-19	know	12-17_xcomp	get	VB	O
+12-20	them	12-19_dobj	know	PRP	P3_passenger
+12-21	.	O	O	O	O
+
+#id=13
+#text=I will sometimes bring a book with me to read while I ride the bus . 
+13-1	I	13-4_nsubj	bring	PRP	P1_passenger
+13-2	will	13-4_aux	bring	MD	O
+13-3	sometimes	13-4_advmod	bring	RB	O
+13-4	bring	O	O	VB	O
+13-5	a	O	O	DT	O
+13-6	book	13-4_dobj	bring	NN	P1_in-bus_entertainment
+13-7	with	O	O	O	O
+13-8	me	O	O	PRP	P1_passenger
+13-9	to	13-10_aux	read	TO	O
+13-10	read	13-4_vmod	bring	VB	O
+13-11	while	13-13_mark	ride	IN	O
+13-12	I	13-13_nsubj	ride	PRP	P1_passenger
+13-13	ride	13-10_advcl	read	VBP	O
+13-14	the	O	O	DT	O
+13-15	bus	13-13_dobj	ride	NN	P2_bus
+13-16	.	O	O	O	O
+
+#id=14
+#text=I make sure to pay attention to what stop we are at , and start to prepare one stop ahead of where I need to get off the bus . 
+14-1	I	14-2_nsubj	make	PRP	P1_passenger
+14-2	make	O	O	VBP	O
+14-3	sure	14-2_acomp	make	JJ	O
+14-4	to	14-5_aux	pay	TO	O
+14-5	pay	O	O	VB	O
+14-6	attention	14-5_dobj	pay	NN	O
+14-7	to	O	O	O	O
+14-8	what	14-9_nsubj	stop	WP	O
+14-9	stop	14-5_prepc_to	pay	VBP	P2_bus_stop
+14-10	we	14-11_nsubj	are	PRP	P1_passenger
+14-11	are	14-9_ccomp	stop	VBP	O
+14-12	at	14-11_prep	are	IN	O
+14-13	,	O	O	O	O
+14-14	and	O	O	O	O
+14-15	start	14-5_conj_and	pay	VB	O
+14-16	to	14-17_aux	prepare	TO	O
+14-17	prepare	14-15_xcomp	start	VB	O
+14-18	one	O	O	CD	O
+14-19	stop	14-17_dobj	prepare	NN	P3_bus_stop
+14-20	ahead	O	O	O	O
+14-21	of	O	O	O	O
+14-22	where	14-24_advmod	need	WRB	O
+14-23	I	14-24_nsubj	need	PRP	P1_passenger
+14-24	need	O	O	VBP	O
+14-25	to	14-26_aux	get	TO	O
+14-26	get	14-24_xcomp	need	VB	O
+14-27	off	14-26_prt	get	RP	O
+14-28	the	O	O	DT	O
+14-29	bus	14-26_dobj	get	NN	P2_bus
+14-30	.	O	O	O	O
+
+#id=15
+#text=Once I arrive at my bus stop , I walk to the front of the bus and thank the driver , then hop off and continue with whatever I need to do that day . 
+15-1	Once	15-3_mark	arrive	IN	O
+15-2	I	15-3_nsubj	arrive	PRP	P1_passenger
+15-3	arrive	15-10_advcl	walk	VBP	O
+15-4	at	O	O	O	O
+15-5	my	O	O	PRP$	P1_passenger
+15-6	bus	O	O	NN	O
+15-7	stop	15-3_prep_at	arrive	NN	P4_bus_stop
+15-8	,	O	O	O	O
+15-9	I	15-10_nsubj	walk	PRP	P1_passenger
+15-10	walk	O	O	VB	O
+15-11	to	O	O	O	O
+15-12	the	O	O	DT	O
+15-13	front	15-10_prep_to	walk	NN	P1_NPart_front
+15-14	of	O	O	O	O
+15-15	the	O	O	DT	O
+15-16	bus	O	O	NN	P2_bus
+15-17	and	O	O	O	O
+15-18	thank	15-10_conj_and	walk	VB	O
+15-19	the	O	O	DT	O
+15-20	driver	O	O	NN	P1_bus_staff
+15-21	,	O	O	O	O
+15-22	then	O	O	RB	O
+15-23	hop	15-18_dobj	thank	NN	O
+15-24	off	15-18_prt	thank	RP	O
+15-25	and	O	O	O	O
+15-26	continue	15-10_conj_and	walk	VB	O
+15-27	with	O	O	O	O
+15-28	whatever	15-30_dobj	need	WDT	O
+15-29	I	15-30_nsubj	need	PRP	P1_passenger
+15-30	need	15-26_prepc_with	continue	VBP	O
+15-31	to	15-32_aux	do	TO	O
+15-32	do	15-30_xcomp	need	VB	O
+15-33	that	O	O	DT	O
+15-34	day	15-32_tmod	do	NN	P4_NPart_day
+15-35	.	O	O	O	O

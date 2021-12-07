@@ -1,0 +1,230 @@
+#id=1
+#text=The last train trip I took was with a couple of friends to go and check out an art museum that was fairly far away . 
+1-1	The	O	O	DT	O
+1-2	last	O	O	JJ	O
+1-3	train	O	O	NN	O
+1-4	trip	1-7_nsubj	was	NN	P1_trip
+1-5	I	1-6_nsubj	took	PRP	P1_passenger
+1-6	took	O	O	VBD	O
+1-7	was	O	O	VBD	O
+1-8	with	O	O	O	O
+1-9	a	O	O	DT	O
+1-10	couple	1-7_prep_with	was	NN	O
+1-11	of	O	O	O	O
+1-12	friends	O	O	NNS	P2_passenger
+1-13	to	1-14_aux	go	TO	O
+1-14	go	1-7_xcomp	was	VB	O
+1-15	and	O	O	O	O
+1-16	check	1-14_conj_and	go	VB	O
+1-17	out	1-16_prt	check	RP	O
+1-18	an	O	O	DT	O
+1-19	art	O	O	NN	O
+1-20	museum	1-16_dobj	check	NN	P1_NPart_museum
+1-21	that	1-22_nsubj	was	WDT	O
+1-22	was	O	O	VBD	O
+1-23	fairly	O	O	RB	O
+1-24	far	O	O	RB	O
+1-25	away	1-22_advmod	was	RB	O
+1-26	.	O	O	O	O
+
+#id=2
+#text=We met up at the station with plenty of time to spare , so we chatted for a bit while we waited . 
+2-1	We	2-2_nsubj	met	PRP	P3_passenger
+2-2	met	O	O	VBD	O
+2-3	up	2-2_prt	met	RP	O
+2-4	at	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	station	2-2_prep_at	met	NN	P1_train_station
+2-7	with	O	O	IN	O
+2-8	plenty	O	O	RB	O
+2-9	of	O	O	O	O
+2-10	time	O	O	NN	O
+2-11	to	2-12_aux	spare	TO	O
+2-12	spare	2-2_xcomp	met	VB	O
+2-13	,	O	O	O	O
+2-14	so	2-16_mark	chatted	IN	O
+2-15	we	2-16_nsubj	chatted	PRP	P3_passenger
+2-16	chatted	2-2_advcl	met	VBD	O
+2-17	for	O	O	O	O
+2-18	a	O	O	DT	O
+2-19	bit	2-16_prep_for	chatted	NN	O
+2-20	while	2-22_mark	waited	IN	O
+2-21	we	2-22_nsubj	waited	PRP	P3_passenger
+2-22	waited	2-16_advcl	chatted	VBD	O
+2-23	.	O	O	O	O
+
+#id=3
+#text=We had already purchased our tickets ahead of time , just to make things easier . 
+3-1	We	3-4_nsubj	purchased	PRP	P3_passenger
+3-2	had	3-4_aux	purchased	VBD	O
+3-3	already	3-4_advmod	purchased	RB	O
+3-4	purchased	O	O	VBN	O
+3-5	our	O	O	PRP$	P3_passenger
+3-6	tickets	3-4_dobj	purchased	NNS	P1_card/ticket
+3-7	ahead	O	O	O	O
+3-8	of	O	O	O	O
+3-9	time	O	O	NN	O
+3-10	,	O	O	O	O
+3-11	just	3-13_advmod	make	RB	O
+3-12	to	3-13_aux	make	TO	O
+3-13	make	3-4_vmod	purchased	VB	O
+3-14	things	O	O	NNS	O
+3-15	easier	3-13_xcomp	make	RBR	O
+3-16	.	O	O	O	O
+
+#id=4
+#text=When the train arrived , we boarded and found our seats . 
+4-1	When	4-4_advmod	arrived	WRB	O
+4-2	the	O	O	DT	O
+4-3	train	4-4_nsubj	arrived	NN	P1_train
+4-4	arrived	4-7_advcl	boarded	VBD	O
+4-5	,	O	O	O	O
+4-6	we	4-7_nsubj	boarded	PRP	P3_passenger
+4-7	boarded	O	O	VBD	O
+4-8	and	O	O	O	O
+4-9	found	4-7_conj_and	boarded	VBD	O
+4-10	our	O	O	PRP$	P3_passenger
+4-11	seats	4-9_dobj	found	NNS	P1_seat
+4-12	.	O	O	O	O
+
+#id=5
+#text=We did n't bring much , just small bags , so we did n't have to stow anything . 
+5-1	We	5-4_nsubj	bring	PRP	P3_passenger
+5-2	did	5-4_aux	bring	VBD	O
+5-3	n't	5-4_neg	bring	RB	O
+5-4	bring	O	O	VB	O
+5-5	much	5-4_dobj	bring	RB	O
+5-6	,	O	O	O	O
+5-7	just	O	O	RB	O
+5-8	small	O	O	JJ	O
+5-9	bags	O	O	NNS	P1_personal_belongings
+5-10	,	O	O	O	O
+5-11	so	5-4_dep	bring	IN	O
+5-12	we	5-15_nsubj	have	PRP	P3_passenger
+5-13	did	5-15_aux	have	VBD	O
+5-14	n't	5-15_neg	have	RB	O
+5-15	have	5-4_parataxis	bring	VB	O
+5-16	to	5-17_aux	stow	TO	O
+5-17	stow	5-15_xcomp	have	VB	O
+5-18	anything	5-17_dobj	stow	NN	P1_luggage
+5-19	.	O	O	O	O
+
+#id=6
+#text=The conductor came by and checked our tickets as the train left the station . 
+6-1	The	O	O	DT	O
+6-2	conductor	6-3_nsubj	came	NN	P1_train_staff
+6-3	came	O	O	VBD	O
+6-4	by	6-3_prep	came	IN	O
+6-5	and	O	O	O	O
+6-6	checked	6-3_conj_and	came	VBD	O
+6-7	our	O	O	PRP$	P3_passenger
+6-8	tickets	6-6_dobj	checked	NNS	P1_card/ticket
+6-9	as	6-12_mark	left	IN	O
+6-10	the	O	O	DT	O
+6-11	train	6-12_nsubj	left	NN	P1_train
+6-12	left	6-6_advcl	checked	VBD	O
+6-13	the	O	O	DT	O
+6-14	station	6-12_dobj	left	NN	P1_train_station
+6-15	.	O	O	O	O
+
+#id=7
+#text=It was a nice ride . 
+7-1	It	O	O	PRP	O
+7-2	was	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	nice	O	O	JJ	O
+7-5	ride	O	O	NN	P1_trip
+7-6	.	O	O	O	O
+
+#id=8
+#text=The train seats are always fairly comfortable and we had time to play racing games on our DSs while we rode . 
+8-1	The	O	O	DT	O
+8-2	train	O	O	NN	O
+8-3	seats	O	O	NNS	P2_seat
+8-4	are	O	O	VBP	O
+8-5	always	O	O	RB	O
+8-6	fairly	O	O	RB	O
+8-7	comfortable	O	O	JJ	O
+8-8	and	O	O	O	O
+8-9	we	8-10_nsubj	had	PRP	P3_passenger
+8-10	had	O	O	VBD	O
+8-11	time	8-10_dobj	had	NN	O
+8-12	to	8-13_aux	play	TO	O
+8-13	play	8-10_ccomp	had	VB	O
+8-14	racing	O	O	VBG	O
+8-15	games	8-13_dobj	play	NNS	P1_in-train_entertainment
+8-16	on	O	O	O	O
+8-17	our	O	O	PRP$	P3_passenger
+8-18	DSs	O	O	NN	P2_in-train_entertainment
+8-19	while	8-21_mark	rode	IN	O
+8-20	we	8-21_nsubj	rode	PRP	P3_passenger
+8-21	rode	8-10_advcl	had	VBD	O
+8-22	.	O	O	O	O
+
+#id=9
+#text=I also got to watch some rather lovely scenery , once we got out of the city . 
+9-1	I	9-3_nsubj	got	PRP	P1_passenger
+9-2	also	9-3_advmod	got	RB	O
+9-3	got	O	O	VBD	O
+9-4	to	9-5_aux	watch	TO	O
+9-5	watch	9-3_xcomp	got	VB	O
+9-6	some	O	O	DT	O
+9-7	rather	O	O	RB	O
+9-8	lovely	O	O	JJ	O
+9-9	scenery	9-5_dobj	watch	NN	P3_in-train_entertainment
+9-10	,	O	O	O	O
+9-11	once	9-13_mark	got	IN	O
+9-12	we	9-13_nsubj	got	PRP	P3_passenger
+9-13	got	9-3_advcl	got	VBD	O
+9-14	out	O	O	O	O
+9-15	of	O	O	O	O
+9-16	the	O	O	DT	O
+9-17	city	9-13_prep_out_of	got	NN	P1_NPart_city
+9-18	.	O	O	O	O
+
+#id=10
+#text=Going by trees and landscapes and watching them pass is pretty fun too . 
+10-1	Going	O	O	VBG	O
+10-2	by	O	O	O	O
+10-3	trees	10-1_prep_by	Going	NNS	P4_in-train_entertainment
+10-4	and	O	O	O	O
+10-5	landscapes	O	O	NNS	P5_in-train_entertainment
+10-6	and	O	O	O	O
+10-7	watching	10-1_conj_and	Going	VBG	O
+10-8	them	10-9_nsubj	pass	PRP	P6_in-train_entertainment
+10-9	pass	10-7_ccomp	watching	VB	O
+10-10	is	O	O	VBZ	O
+10-11	pretty	O	O	RB	O
+10-12	fun	O	O	JJ	P1_NPart_fun
+10-13	too	O	O	RB	O
+10-14	.	O	O	O	O
+
+#id=11
+#text=Plus , there were n't that many other people in the train car that we were in , so it was a nice and peaceful ride . 
+11-1	Plus	11-4_cc	were	CC	O
+11-2	,	O	O	O	O
+11-3	there	11-4_expl	were	EX	O
+11-4	were	O	O	VBD	O
+11-5	n't	11-4_neg	were	RB	O
+11-6	that	O	O	DT	O
+11-7	many	O	O	JJ	O
+11-8	other	O	O	JJ	O
+11-9	people	11-4_nsubj	were	NNS	P4_passenger
+11-10	in	O	O	O	O
+11-11	the	O	O	DT	O
+11-12	train	O	O	NN	O
+11-13	car	O	O	NN	P1_coach
+11-14	that	11-16_mark	were	IN	O
+11-15	we	11-16_nsubj	were	PRP	P3_passenger
+11-16	were	11-4_ccomp	were	VBD	O
+11-17	in	11-16_advmod	were	RB	O
+11-18	,	O	O	O	O
+11-19	so	O	O	IN	O
+11-20	it	O	O	PRP	O
+11-21	was	O	O	VBD	O
+11-22	a	O	O	DT	O
+11-23	nice	O	O	JJ	O
+11-24	and	O	O	O	O
+11-25	peaceful	O	O	JJ	O
+11-26	ride	11-16_advcl	were	NN	P1_trip
+11-27	.	O	O	O	O

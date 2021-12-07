@@ -1,0 +1,202 @@
+#id=1
+#text=I was riding my bike home from school one day when I went through a thorny patch of ground while going through the park . 
+1-1	I	1-3_nsubj	riding	PRP	P1_rider
+1-2	was	1-3_aux	riding	VBD	O
+1-3	riding	O	O	VBG	O
+1-4	my	O	O	PRP$	P1_rider
+1-5	bike	O	O	NN	P1_bicycle
+1-6	home	1-3_dobj	riding	NN	O
+1-7	from	O	O	O	O
+1-8	school	1-3_prep_from	riding	NN	P1_NPart_school
+1-9	one	O	O	CD	O
+1-10	day	O	O	NN	P1_NPart_day
+1-11	when	1-13_advmod	went	WRB	O
+1-12	I	1-13_nsubj	went	PRP	P1_rider
+1-13	went	O	O	VBD	O
+1-14	through	O	O	O	O
+1-15	a	O	O	DT	O
+1-16	thorny	O	O	JJ	O
+1-17	patch	1-13_prep_through	went	NN	O
+1-18	of	O	O	O	O
+1-19	ground	O	O	NN	P1_NPart_ground
+1-20	while	1-21_mark	going	IN	O
+1-21	going	1-13_advcl	went	VBG	O
+1-22	through	O	O	O	O
+1-23	the	O	O	DT	O
+1-24	park	1-21_prep_through	going	NN	P1_NPart_park
+1-25	.	O	O	O	O
+
+#id=2
+#text=The tire then went flat after a few more minutes of riding and I was stuck a couple of miles from home . 
+2-1	The	O	O	DT	O
+2-2	tire	2-4_nsubj	went	NN	P1_tire
+2-3	then	2-4_advmod	went	RB	O
+2-4	went	O	O	VBD	O
+2-5	flat	O	O	JJ	O
+2-6	after	O	O	O	O
+2-7	a	O	O	DT	O
+2-8	few	O	O	JJ	O
+2-9	more	O	O	JJR	O
+2-10	minutes	2-4_dobj	went	NNS	P1_NPart_minutes
+2-11	of	O	O	O	O
+2-12	riding	O	O	NN	O
+2-13	and	O	O	O	O
+2-14	I	2-16_nsubjpass	stuck	PRP	P1_rider
+2-15	was	2-16_auxpass	stuck	VBD	O
+2-16	stuck	2-4_conj_and	went	VBN	O
+2-17	a	O	O	DT	O
+2-18	couple	2-16_dobj	stuck	NN	O
+2-19	of	O	O	O	O
+2-20	miles	O	O	NNS	P1_NPart_miles
+2-21	from	O	O	O	O
+2-22	home	2-16_prep_from	stuck	NN	P1_NPart_home
+2-23	.	O	O	O	O
+
+#id=3
+#text=I called my dad and told him what happened and where I was . 
+3-1	I	3-2_nsubj	called	PRP	P1_rider
+3-2	called	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_rider
+3-4	dad	3-2_dobj	called	NN	P1_other
+3-5	and	O	O	O	O
+3-6	told	3-2_conj_and	called	VBD	O
+3-7	him	3-6_dobj	told	PRP	P1_other
+3-8	what	3-9_nsubj	happened	WP	O
+3-9	happened	3-6_dep	told	VBD	O
+3-10	and	O	O	O	O
+3-11	where	3-13_advmod	was	WRB	O
+3-12	I	3-13_nsubj	was	PRP	P1_rider
+3-13	was	3-9_conj_and	happened	VBD	O
+3-14	.	O	O	O	O
+
+#id=4
+#text=After a few minutes , he showed up with new inner tubes and a few tools to help me fix my bike tires . 
+4-1	After	O	O	O	O
+4-2	a	O	O	DT	O
+4-3	few	O	O	JJ	O
+4-4	minutes	4-7_prep_after	showed	NNS	P2_NPart_minutes
+4-5	,	O	O	O	O
+4-6	he	4-7_nsubj	showed	PRP	P1_other
+4-7	showed	O	O	VBD	O
+4-8	up	4-7_prt	showed	RP	O
+4-9	with	O	O	O	O
+4-10	new	O	O	JJ	O
+4-11	inner	O	O	JJ	O
+4-12	tubes	4-7_prep_with	showed	NNS	P1_spare_tube
+4-13	and	O	O	O	O
+4-14	a	O	O	DT	O
+4-15	few	O	O	JJ	O
+4-16	tools	O	O	NNS	P1_tool
+4-17	to	4-18_aux	help	TO	O
+4-18	help	4-7_xcomp	showed	VB	O
+4-19	me	4-20_nsubj	fix	PRP	P1_rider
+4-20	fix	4-18_ccomp	help	VB	O
+4-21	my	O	O	PRP$	P1_rider
+4-22	bike	O	O	NN	O
+4-23	tires	4-20_dobj	fix	NNS	P2_tire
+4-24	.	O	O	O	O
+
+#id=5
+#text=We started by removing the outer rubber of the tires and getting the damaged inner tubes out . 
+5-1	We	5-2_nsubj	started	PRP	P2_rider
+5-2	started	O	O	VBD	O
+5-3	by	O	O	O	O
+5-4	removing	5-2_prepc_by	started	VBG	O
+5-5	the	O	O	DT	O
+5-6	outer	O	O	JJ	O
+5-7	rubber	5-4_dobj	removing	NN	P2_other
+5-8	of	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	tires	O	O	NNS	P2_tire
+5-11	and	O	O	O	O
+5-12	getting	5-4_conj_and	removing	VBG	O
+5-13	the	O	O	DT	O
+5-14	damaged	O	O	JJ	O
+5-15	inner	O	O	JJ	O
+5-16	tubes	5-12_dobj	getting	NNS	P2_tire
+5-17	out	5-12_prt	getting	RP	O
+5-18	.	O	O	O	O
+
+#id=6
+#text=Then we replaced them with new ones . 
+6-1	Then	6-3_advmod	replaced	RB	O
+6-2	we	6-3_nsubj	replaced	PRP	P2_rider
+6-3	replaced	O	O	VBD	O
+6-4	them	6-3_dobj	replaced	PRP	P2_tire
+6-5	with	O	O	O	O
+6-6	new	O	O	JJ	O
+6-7	ones	6-3_prep_with	replaced	NNS	P1_spare_tube
+6-8	.	O	O	O	O
+
+#id=7
+#text=After reinstalling the tubes and putting them back onto the bicycle , we had to inflate the tires which took a few minutes with a foot pump . 
+7-1	After	O	O	O	O
+7-2	reinstalling	7-14_prepc_after	had	VBG	O
+7-3	the	O	O	DT	O
+7-4	tubes	7-2_dobj	reinstalling	NNS	P1_spare_tube
+7-5	and	O	O	O	O
+7-6	putting	7-2_conj_and	reinstalling	VBG	O
+7-7	them	7-6_dobj	putting	PRP	P1_spare_tube
+7-8	back	7-6_advmod	putting	RB	O
+7-9	onto	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	bicycle	7-6_prep_onto	putting	NN	P2_bicycle
+7-12	,	O	O	O	O
+7-13	we	7-14_nsubj	had	PRP	P2_rider
+7-14	had	O	O	VBD	O
+7-15	to	7-16_aux	inflate	TO	O
+7-16	inflate	7-14_xcomp	had	VB	O
+7-17	the	O	O	DT	O
+7-18	tires	7-16_dobj	inflate	NNS	P1_spare_tube
+7-19	which	7-20_nsubj	took	WDT	O
+7-20	took	O	O	VBD	O
+7-21	a	O	O	DT	O
+7-22	few	O	O	JJ	O
+7-23	minutes	7-20_dobj	took	NNS	O
+7-24	with	O	O	O	O
+7-25	a	O	O	DT	O
+7-26	foot	O	O	NN	O
+7-27	pump	7-20_prep_with	took	NN	P2_tool
+7-28	.	O	O	O	O
+
+#id=8
+#text=Afterwards , he drove home and I followed on my repaired bike . 
+8-1	Afterwards	8-4_advmod	drove	RB	O
+8-2	,	O	O	O	O
+8-3	he	8-4_nsubj	drove	PRP	P1_other
+8-4	drove	O	O	VBD	O
+8-5	home	8-4_dobj	drove	NN	O
+8-6	and	O	O	O	O
+8-7	I	8-8_nsubj	followed	PRP	P1_rider
+8-8	followed	8-4_conj_and	drove	VBD	O
+8-9	on	O	O	O	O
+8-10	my	O	O	PRP$	P1_rider
+8-11	repaired	O	O	JJ	O
+8-12	bike	8-8_prep_on	followed	NN	P2_bicycle
+8-13	.	O	O	O	O
+
+#id=9
+#text=I promised to avoid patches of thorns after that since it cost me 2 weeks of allowance to buy the inner tubes . 
+9-1	I	9-2_nsubj	promised	PRP	P1_rider
+9-2	promised	O	O	VBD	O
+9-3	to	9-4_aux	avoid	TO	O
+9-4	avoid	9-2_xcomp	promised	VB	O
+9-5	patches	9-4_dobj	avoid	NNS	O
+9-6	of	O	O	O	O
+9-7	thorns	O	O	NNS	P1_NPart_thorns
+9-8	after	O	O	O	O
+9-9	that	9-4_prep_after	avoid	DT	O
+9-10	since	9-12_mark	cost	IN	O
+9-11	it	9-12_nsubj	cost	PRP	O
+9-12	cost	9-4_advcl	avoid	VBD	O
+9-13	me	9-12_iobj	cost	PRP	P1_rider
+9-14	2	O	O	CD	O
+9-15	weeks	9-12_dobj	cost	NNS	P1_NPart_weeks
+9-16	of	O	O	O	O
+9-17	allowance	O	O	NN	P1_NPart_allowance
+9-18	to	9-19_aux	buy	TO	O
+9-19	buy	O	O	VB	O
+9-20	the	O	O	DT	O
+9-21	inner	O	O	JJ	O
+9-22	tubes	9-19_dobj	buy	NNS	P1_spare_tube
+9-23	.	O	O	O	O

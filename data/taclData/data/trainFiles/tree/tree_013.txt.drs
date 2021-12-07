@@ -1,0 +1,201 @@
+#id=1
+#text=On the weekend I planted an apple an apple tree . 
+1-1	On	O	O	O	O
+1-2	the	O	O	DT	O
+1-3	weekend	1-5_prep_on	planted	NN	P1_NPart_weekend
+1-4	I	1-5_nsubj	planted	PRP	P1_gardener
+1-5	planted	O	O	VBD	O
+1-6	an	O	O	DT	O
+1-7	apple	O	O	NN	O
+1-8	an	O	O	DT	O
+1-9	apple	O	O	NN	O
+1-10	tree	1-5_xcomp	planted	NN	P1_tree
+1-11	.	O	O	O	O
+
+#id=2
+#text=first , I put on gardening gloves to protect my hands . 
+2-1	first	2-4_advmod	put	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	put	PRP	P1_gardener
+2-4	put	O	O	VBD	O
+2-5	on	O	O	O	O
+2-6	gardening	O	O	NN	O
+2-7	gloves	2-4_prep_on	put	NNS	P1_gardening_tool
+2-8	to	2-9_aux	protect	TO	O
+2-9	protect	2-4_xcomp	put	VB	O
+2-10	my	O	O	PRP$	P1_gardener
+2-11	hands	2-9_dobj	protect	NNS	P1_NPart_hands
+2-12	.	O	O	O	O
+
+#id=3
+#text=Next , I used a small shovel to dig a hole in a patch of dirt in my backyard . 
+3-1	Next	3-4_advmod	used	RB	O
+3-2	,	O	O	O	O
+3-3	I	3-4_nsubj	used	PRP	P1_gardener
+3-4	used	O	O	VBD	O
+3-5	a	O	O	DT	O
+3-6	small	O	O	JJ	O
+3-7	shovel	3-4_dobj	used	NN	P2_gardening_tool
+3-8	to	3-9_aux	dig	TO	O
+3-9	dig	3-4_vmod	used	VB	O
+3-10	a	O	O	DT	O
+3-11	hole	3-9_dobj	dig	NN	P1_hole
+3-12	in	O	O	O	O
+3-13	a	O	O	DT	O
+3-14	patch	O	O	NN	P1_NPart_patch
+3-15	of	O	O	O	O
+3-16	dirt	O	O	NN	P1_dirt
+3-17	in	O	O	O	O
+3-18	my	O	O	PRP$	P1_gardener
+3-19	backyard	3-9_prep_in	dig	NN	P1_NPart_backyard
+3-20	.	O	O	O	O
+
+#id=4
+#text=I then took an apple seed and placed it inside the hole . 
+4-1	I	4-3_nsubj	took	PRP	P1_gardener
+4-2	then	4-3_advmod	took	RB	O
+4-3	took	O	O	VBD	O
+4-4	an	O	O	DT	O
+4-5	apple	O	O	NN	O
+4-6	seed	4-3_dobj	took	NN	P1_tree
+4-7	and	O	O	O	O
+4-8	placed	4-3_conj_and	took	VBD	O
+4-9	it	4-8_dobj	placed	PRP	P1_tree
+4-10	inside	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	hole	4-8_prep_inside	placed	NN	P1_hole
+4-13	.	O	O	O	O
+
+#id=5
+#text=Next , I took the soil that I had dug out earlier and placed it on top of the seed , creating a thin layer of soil on top of the seed . 
+5-1	Next	5-4_advmod	took	RB	O
+5-2	,	O	O	O	O
+5-3	I	5-4_nsubj	took	PRP	P1_gardener
+5-4	took	O	O	VBD	O
+5-5	the	O	O	DT	O
+5-6	soil	5-4_dobj	took	NN	P1_dirt
+5-7	that	5-10_mark	dug	IN	O
+5-8	I	5-10_nsubj	dug	PRP	P1_gardener
+5-9	had	5-10_aux	dug	VBD	O
+5-10	dug	5-4_ccomp	took	VBN	O
+5-11	out	5-10_advmod	dug	IN	O
+5-12	earlier	O	O	RB	O
+5-13	and	O	O	O	O
+5-14	placed	5-10_conj_and	dug	VBN	O
+5-15	it	5-14_dobj	placed	PRP	P1_dirt
+5-16	on	O	O	O	O
+5-17	top	5-14_prep_on	placed	NN	P1_NPart_top
+5-18	of	O	O	O	O
+5-19	the	O	O	DT	O
+5-20	seed	O	O	NN	P1_tree
+5-21	,	O	O	O	O
+5-22	creating	5-14_vmod	placed	VBG	O
+5-23	a	O	O	DT	O
+5-24	thin	O	O	JJ	O
+5-25	layer	5-22_dobj	creating	NN	O
+5-26	of	O	O	O	O
+5-27	soil	O	O	NN	P1_dirt
+5-28	on	O	O	O	O
+5-29	top	O	O	O	O
+5-30	of	O	O	O	O
+5-31	the	O	O	DT	O
+5-32	seed	5-22_prep_on_top_of	creating	NN	P1_tree
+5-33	.	O	O	O	O
+
+#id=6
+#text=I then took my watering can over to the water hose and used the hose to fill the can up with water . 
+6-1	I	6-3_nsubj	took	PRP	P1_gardener
+6-2	then	6-3_advmod	took	RB	O
+6-3	took	O	O	VBD	O
+6-4	my	O	O	PRP$	P1_gardener
+6-5	watering	O	O	NN	O
+6-6	can	6-3_dobj	took	NN	P3_gardening_tool
+6-7	over	6-3_prt	took	RP	O
+6-8	to	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	water	O	O	NN	O
+6-11	hose	6-3_prep_to	took	NN	P4_gardening_tool
+6-12	and	O	O	O	O
+6-13	used	6-3_conj_and	took	VBD	O
+6-14	the	O	O	DT	O
+6-15	hose	6-13_dobj	used	NN	P4_gardening_tool
+6-16	to	6-17_aux	fill	TO	O
+6-17	fill	6-13_vmod	used	VB	O
+6-18	the	O	O	DT	O
+6-19	can	6-17_dobj	fill	NN	P3_gardening_tool
+6-20	up	6-17_prt	fill	RP	O
+6-21	with	O	O	O	O
+6-22	water	6-17_prep_with	fill	NN	P1_water
+6-23	.	O	O	O	O
+
+#id=7
+#text=When the can was full , I brought it back over to the patch of dirt where the apple seed was planted , and I gently poured the water from the watering can onto the patch of dirt , watering my newly-planted apple seed . 
+7-1	When	O	O	WRB	O
+7-2	the	O	O	DT	O
+7-3	can	O	O	NN	P3_gardening_tool
+7-4	was	O	O	VBD	O
+7-5	full	7-8_advcl	brought	JJ	O
+7-6	,	O	O	O	O
+7-7	I	7-8_nsubj	brought	PRP	P1_gardener
+7-8	brought	O	O	VBD	O
+7-9	it	7-8_dobj	brought	PRP	P3_gardening_tool
+7-10	back	O	O	RB	O
+7-11	over	7-8_advmod	brought	RB	O
+7-12	to	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	patch	7-8_prep_to	brought	NN	P1_NPart_patch
+7-15	of	O	O	O	O
+7-16	dirt	O	O	NN	P1_dirt
+7-17	where	7-22_advmod	planted	WRB	O
+7-18	the	O	O	DT	O
+7-19	apple	O	O	NN	O
+7-20	seed	7-22_nsubjpass	planted	NN	P1_tree
+7-21	was	7-22_auxpass	planted	VBD	O
+7-22	planted	7-8_advcl	brought	VBN	O
+7-23	,	O	O	O	O
+7-24	and	O	O	O	O
+7-25	I	7-27_nsubj	poured	PRP	P1_gardener
+7-26	gently	7-27_advmod	poured	RB	O
+7-27	poured	7-8_conj_and	brought	VBD	O
+7-28	the	O	O	DT	O
+7-29	water	7-27_dobj	poured	NN	P1_water
+7-30	from	O	O	O	O
+7-31	the	O	O	DT	O
+7-32	watering	O	O	NN	O
+7-33	can	7-27_prep_from	poured	NN	P3_gardening_tool
+7-34	onto	O	O	O	O
+7-35	the	O	O	DT	O
+7-36	patch	7-27_prep_onto	poured	NN	P1_NPart_patch
+7-37	of	O	O	O	O
+7-38	dirt	O	O	NN	P1_dirt
+7-39	,	O	O	O	O
+7-40	watering	7-27_vmod	poured	VBG	O
+7-41	my	O	O	PRP$	P1_gardener
+7-42	newly-planted	O	O	JJ	O
+7-43	apple	O	O	NN	O
+7-44	seed	7-40_dobj	watering	NN	P1_tree
+7-45	.	O	O	O	O
+
+#id=8
+#text=I thought happily about how exciting it will be when my tiny apple seed grows into a huge apple tree . 
+8-1	I	8-2_nsubj	thought	PRP	P1_gardener
+8-2	thought	O	O	VBD	O
+8-3	happily	8-2_advmod	thought	RB	O
+8-4	about	O	O	O	O
+8-5	how	O	O	WRB	O
+8-6	exciting	8-9_dep	be	JJ	O
+8-7	it	8-9_nsubj	be	PRP	O
+8-8	will	8-9_aux	be	MD	O
+8-9	be	8-2_prepc_about	thought	VB	O
+8-10	when	8-15_advmod	grows	WRB	O
+8-11	my	O	O	PRP$	P1_gardener
+8-12	tiny	O	O	JJ	O
+8-13	apple	O	O	NN	O
+8-14	seed	8-15_nsubj	grows	NN	P1_tree
+8-15	grows	8-9_advcl	be	VBZ	O
+8-16	into	O	O	O	O
+8-17	a	O	O	DT	O
+8-18	huge	O	O	JJ	O
+8-19	apple	O	O	NN	O
+8-20	tree	8-15_prep_into	grows	NN	P1_tree
+8-21	.	O	O	O	O

@@ -1,0 +1,222 @@
+#id=1
+#text=A few blocks from my home they are putting in a small park and playground for the children in the neighborhood . 
+1-1	A	O	O	DT	O
+1-2	few	O	O	JJ	O
+1-3	blocks	1-9_nsubj	putting	NNS	P1_NPart_blocks
+1-4	from	O	O	O	O
+1-5	my	O	O	PRP$	P1_gardener
+1-6	home	O	O	NN	P1_NPart_home
+1-7	they	1-9_nsubj	putting	PRP	P1_NPart_they
+1-8	are	1-9_aux	putting	VBP	O
+1-9	putting	O	O	VBG	O
+1-10	in	O	O	O	O
+1-11	a	O	O	DT	O
+1-12	small	O	O	JJ	O
+1-13	park	1-9_prep_in	putting	NN	P1_NPart_park
+1-14	and	O	O	O	O
+1-15	playground	O	O	NN	P1_NPart_playground
+1-16	for	O	O	O	O
+1-17	the	O	O	DT	O
+1-18	children	O	O	NNS	P1_NPart_children
+1-19	in	O	O	O	O
+1-20	the	O	O	DT	O
+1-21	neighborhood	O	O	NN	P1_NPart_neighborhood
+1-22	.	O	O	O	O
+
+#id=2
+#text=The community has raised money to purchase playground equipment and plant some trees in the park . 
+2-1	The	O	O	DT	O
+2-2	community	2-4_nsubj	raised	NN	P1_NPart_community
+2-3	has	2-4_aux	raised	VBZ	O
+2-4	raised	O	O	VBN	O
+2-5	money	2-4_dobj	raised	NN	P1_NPart_money
+2-6	to	2-7_aux	purchase	TO	O
+2-7	purchase	2-4_vmod	raised	VB	O
+2-8	playground	O	O	NN	O
+2-9	equipment	2-7_dobj	purchase	NN	P1_NPart_equipment
+2-10	and	O	O	O	O
+2-11	plant	2-7_conj_and	purchase	VB	O
+2-12	some	O	O	DT	O
+2-13	trees	2-11_dobj	plant	NNS	P1_tree
+2-14	in	O	O	O	O
+2-15	the	O	O	DT	O
+2-16	park	2-11_prep_in	plant	NN	P2_NPart_park
+2-17	.	O	O	O	O
+
+#id=3
+#text=The playground is nearly complete and all the is left to do is some landscaping and get the trees planted . 
+3-1	The	O	O	DT	O
+3-2	playground	O	O	NN	P2_NPart_playground
+3-3	is	O	O	VBZ	O
+3-4	nearly	O	O	RB	O
+3-5	complete	O	O	JJ	O
+3-6	and	O	O	O	O
+3-7	all	O	O	PDT	O
+3-8	the	3-10_nsubjpass	left	DT	O
+3-9	is	3-10_auxpass	left	VBZ	O
+3-10	left	O	O	VBN	O
+3-11	to	3-12_aux	do	TO	O
+3-12	do	3-10_xcomp	left	VB	O
+3-13	is	O	O	VBZ	O
+3-14	some	O	O	DT	O
+3-15	landscaping	3-12_ccomp	do	NN	O
+3-16	and	O	O	O	O
+3-17	get	3-12_conj_and	do	VB	O
+3-18	the	O	O	DT	O
+3-19	trees	3-17_dobj	get	NNS	P1_tree
+3-20	planted	O	O	VBN	O
+3-21	.	O	O	O	O
+
+#id=4
+#text=The trees arrived with their roots all covered in burlap , the roots of these small trees are actually quite large . 
+4-1	The	O	O	DT	O
+4-2	trees	4-3_nsubj	arrived	NNS	P1_tree
+4-3	arrived	O	O	VBD	O
+4-4	with	O	O	O	O
+4-5	their	O	O	PRP$	P1_tree
+4-6	roots	4-3_prep_with	arrived	NNS	P1_root
+4-7	all	4-3_dobj	arrived	DT	O
+4-8	covered	O	O	VBN	O
+4-9	in	O	O	O	O
+4-10	burlap	4-8_prep_in	covered	NN	P1_wrapping
+4-11	,	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	roots	O	O	NNS	P1_root
+4-14	of	O	O	O	O
+4-15	these	O	O	DT	O
+4-16	small	O	O	JJ	O
+4-17	trees	O	O	NNS	P1_tree
+4-18	are	O	O	VBP	O
+4-19	actually	O	O	RB	O
+4-20	quite	O	O	RB	O
+4-21	large	O	O	JJ	O
+4-22	.	O	O	O	O
+
+#id=5
+#text=The city has loaned us a small backhoe so we can dig the appropriate sized holes for the new trees and help move them into position . 
+5-1	The	O	O	DT	O
+5-2	city	5-4_nsubj	loaned	NN	P1_NPart_city
+5-3	has	5-4_aux	loaned	VBZ	O
+5-4	loaned	O	O	VBN	O
+5-5	us	O	O	PRP	P2_gardener
+5-6	a	O	O	DT	O
+5-7	small	O	O	JJ	O
+5-8	backhoe	5-4_xcomp	loaned	NN	P1_NPart_backhoe
+5-9	so	5-12_mark	dig	IN	O
+5-10	we	5-12_nsubj	dig	PRP	P2_gardener
+5-11	can	5-12_aux	dig	MD	O
+5-12	dig	5-4_advcl	loaned	VB	O
+5-13	the	O	O	DT	O
+5-14	appropriate	O	O	JJ	O
+5-15	sized	O	O	CD	O
+5-16	holes	5-12_dobj	dig	NNS	P1_hole
+5-17	for	O	O	O	O
+5-18	the	O	O	DT	O
+5-19	new	O	O	JJ	O
+5-20	trees	O	O	NNS	P1_tree
+5-21	and	O	O	O	O
+5-22	help	5-12_conj_and	dig	VB	O
+5-23	move	5-22_xcomp	help	VB	O
+5-24	them	5-23_dobj	move	PRP	P1_NPart_them
+5-25	into	O	O	O	O
+5-26	position	5-23_prep_into	move	NN	P1_NPart_position
+5-27	.	O	O	O	O
+
+#id=6
+#text=The operator has dug dole that 's about twice the size of the root ball and it takes about three people to hold and steady the tree in the hole as they fill in each one using the backhoe . 
+6-1	The	O	O	DT	O
+6-2	operator	6-3_nsubj	has	NN	P3_gardener
+6-3	has	O	O	VBZ	O
+6-4	dug	O	O	NNP	O
+6-5	dole	6-3_dobj	has	NNP	P1_hole
+6-6	that	6-7_nsubj	's	WDT	O
+6-7	's	O	O	VBZ	O
+6-8	about	O	O	O	O
+6-9	twice	O	O	RB	O
+6-10	the	O	O	DT	O
+6-11	size	6-7_prep_about	's	NN	P1_NPart_size
+6-12	of	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	root	O	O	NN	O
+6-15	ball	O	O	NN	P1_NPart_ball
+6-16	and	O	O	O	O
+6-17	it	6-18_nsubj	takes	PRP	P1_NPart_it
+6-18	takes	6-3_conj_and	has	VBZ	O
+6-19	about	O	O	RB	O
+6-20	three	O	O	CD	O
+6-21	people	6-18_dobj	takes	NNS	P4_gardener
+6-22	to	6-23_aux	hold	TO	O
+6-23	hold	6-18_vmod	takes	VB	O
+6-24	and	O	O	O	O
+6-25	steady	6-23_conj_and	hold	VB	O
+6-26	the	O	O	DT	O
+6-27	tree	6-23_dobj	hold	NN	P1_tree
+6-28	in	O	O	O	O
+6-29	the	O	O	DT	O
+6-30	hole	O	O	NN	P1_hole
+6-31	as	6-33_mark	fill	IN	O
+6-32	they	6-33_nsubj	fill	PRP	P2_gardener
+6-33	fill	6-18_advcl	takes	VBP	O
+6-34	in	O	O	O	O
+6-35	each	O	O	DT	O
+6-36	one	6-33_prep_in	fill	NN	O
+6-37	using	O	O	VBG	O
+6-38	the	O	O	DT	O
+6-39	backhoe	6-37_dobj	using	NN	P1_gardening_tool
+6-40	.	O	O	O	O
+
+#id=7
+#text=We plant about 10 trees in one afternoon . 
+7-1	We	O	O	PRP	P2_gardener
+7-2	plant	O	O	NN	O
+7-3	about	O	O	RB	O
+7-4	10	O	O	CD	O
+7-5	trees	O	O	NNS	P1_tree
+7-6	in	O	O	O	O
+7-7	one	O	O	CD	O
+7-8	afternoon	O	O	NN	P1_time
+7-9	.	O	O	O	O
+
+#id=8
+#text=As the sun starts to set we have planted water and fertilized all the trees for the park . 
+8-1	As	8-4_mark	starts	IN	O
+8-2	the	O	O	DT	O
+8-3	sun	8-4_nsubj	starts	NN	P1_NPart_sun
+8-4	starts	8-9_advcl	planted	VBZ	O
+8-5	to	8-6_aux	set	TO	O
+8-6	set	8-4_xcomp	starts	VB	O
+8-7	we	8-9_nsubj	planted	PRP	P2_gardener
+8-8	have	8-9_aux	planted	VBP	O
+8-9	planted	O	O	VBN	O
+8-10	water	8-9_dobj	planted	NN	O
+8-11	and	O	O	O	O
+8-12	fertilized	8-9_conj_and	planted	VBN	O
+8-13	all	O	O	PDT	O
+8-14	the	O	O	DT	O
+8-15	trees	8-12_dobj	fertilized	NNS	P1_tree
+8-16	for	O	O	O	O
+8-17	the	O	O	DT	O
+8-18	park	O	O	NN	P3_NPart_park
+8-19	.	O	O	O	O
+
+#id=9
+#text=The trees are beautiful and in a few years will provide shade to many areas of the park . 
+9-1	The	O	O	DT	O
+9-2	trees	O	O	NNS	P1_tree
+9-3	are	O	O	VBP	O
+9-4	beautiful	O	O	JJ	O
+9-5	and	O	O	O	O
+9-6	in	O	O	O	O
+9-7	a	O	O	DT	O
+9-8	few	O	O	JJ	O
+9-9	years	9-11_prep_in	provide	NNS	P2_time
+9-10	will	9-11_aux	provide	MD	O
+9-11	provide	O	O	VB	O
+9-12	shade	9-11_dobj	provide	NN	P1_NPart_shade
+9-13	to	O	O	O	O
+9-14	many	O	O	JJ	O
+9-15	areas	9-11_prep_to	provide	NNS	P1_NPart_areas
+9-16	of	O	O	O	O
+9-17	the	O	O	DT	O
+9-18	park	O	O	NN	P4_NPart_park
+9-19	.	O	O	O	O

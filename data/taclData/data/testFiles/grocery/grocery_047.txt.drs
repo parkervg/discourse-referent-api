@@ -1,0 +1,226 @@
+#id=1
+#text=One day I noticed that I was running out of food and needed to go grocery shopping . 
+1-1	One	O	O	CD	O
+1-2	day	1-4_tmod	noticed	NN	P1_NPart_day
+1-3	I	1-4_nsubj	noticed	PRP	P1_shopper
+1-4	noticed	O	O	VBD	O
+1-5	that	1-8_mark	running	IN	O
+1-6	I	1-8_nsubj	running	PRP	P1_shopper
+1-7	was	1-8_aux	running	VBD	O
+1-8	running	1-4_ccomp	noticed	VBG	O
+1-9	out	O	O	O	O
+1-10	of	O	O	O	O
+1-11	food	1-8_prep_out_of	running	NN	P1_groceries
+1-12	and	O	O	O	O
+1-13	needed	1-4_conj_and	noticed	VBD	O
+1-14	to	1-15_aux	go	TO	O
+1-15	go	1-13_xcomp	needed	VB	O
+1-16	grocery	O	O	NN	P1_groceries
+1-17	shopping	1-15_dobj	go	NN	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=I drove down to Sams Club and showed the man my card , got my shopping cart , and was on my way to get my things . 
+2-1	I	2-2_nsubj	drove	PRP	P1_shopper
+2-2	drove	O	O	VBD	O
+2-3	down	2-2_prt	drove	RP	O
+2-4	to	O	O	O	O
+2-5	Sams	O	O	NNP	O
+2-6	Club	2-2_prep_to	drove	NNP	P1_grocery_shop
+2-7	and	O	O	O	O
+2-8	showed	2-2_conj_and	drove	VBD	O
+2-9	the	O	O	DT	O
+2-10	man	2-8_iobj	showed	NN	P1_grocery_staff
+2-11	my	O	O	PRP$	P1_shopper
+2-12	card	2-8_dobj	showed	NN	P1_NPart_card
+2-13	,	O	O	O	O
+2-14	got	2-2_dep	drove	VBD	O
+2-15	my	O	O	PRP$	P1_shopper
+2-16	shopping	O	O	NN	O
+2-17	cart	2-14_dobj	got	NN	P1_shopping_cart/basket
+2-18	,	O	O	O	O
+2-19	and	O	O	O	O
+2-20	was	2-2_conj_and	drove	VBD	O
+2-21	on	O	O	O	O
+2-22	my	O	O	PRP$	P1_shopper
+2-23	way	2-20_prep_on	was	NN	P1_NPart_way
+2-24	to	2-25_aux	get	TO	O
+2-25	get	O	O	VB	O
+2-26	my	O	O	PRP$	P1_shopper
+2-27	things	2-25_dobj	get	NNS	P1_groceries
+2-28	.	O	O	O	O
+
+#id=3
+#text=I went through the aisles picking up everything I needed . 
+3-1	I	3-2_nsubj	went	PRP	P1_shopper
+3-2	went	O	O	VBD	O
+3-3	through	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	aisles	3-2_prep_through	went	NNS	P1_section
+3-6	picking	3-2_xcomp	went	VBG	O
+3-7	up	3-6_prt	picking	RP	O
+3-8	everything	3-6_dobj	picking	NN	P1_groceries
+3-9	I	3-10_nsubj	needed	PRP	P1_shopper
+3-10	needed	O	O	VBD	O
+3-11	.	O	O	O	O
+
+#id=4
+#text=Steaks , milk , eggs , pizza , bread , all the usual things . 
+4-1	Steaks	O	O	NNS	P2_groceries
+4-2	,	O	O	O	O
+4-3	milk	O	O	NN	P3_groceries
+4-4	,	O	O	O	O
+4-5	eggs	O	O	NNS	P4_groceries
+4-6	,	O	O	O	O
+4-7	pizza	O	O	NN	P5_groceries
+4-8	,	O	O	O	O
+4-9	bread	O	O	NN	P6_groceries
+4-10	,	O	O	O	O
+4-11	all	O	O	PDT	O
+4-12	the	O	O	DT	O
+4-13	usual	O	O	JJ	O
+4-14	things	O	O	NNS	P7_groceries
+4-15	.	O	O	O	O
+
+#id=5
+#text=I also stopped along the way and tried some of the free samples they had in the store . 
+5-1	I	5-3_nsubj	stopped	PRP	P1_shopper
+5-2	also	5-3_advmod	stopped	RB	O
+5-3	stopped	O	O	VBD	O
+5-4	along	5-3_prt	stopped	RP	O
+5-5	the	O	O	DT	O
+5-6	way	5-3_dobj	stopped	NN	P2_NPart_way
+5-7	and	O	O	O	O
+5-8	tried	5-3_conj_and	stopped	VBD	O
+5-9	some	5-8_dobj	tried	DT	O
+5-10	of	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	free	O	O	JJ	O
+5-13	samples	O	O	NNS	P8_groceries
+5-14	they	5-15_nsubj	had	PRP	P2_grocery_staff
+5-15	had	O	O	VBD	O
+5-16	in	O	O	O	O
+5-17	the	O	O	DT	O
+5-18	store	5-15_prep_in	had	NN	P2_shopping_cart/basket
+5-19	.	O	O	O	O
+
+#id=6
+#text=The ice cream sandwich I tried was so good I ended up getting a box even though it was not on my list . 
+6-1	The	O	O	DT	O
+6-2	ice	O	O	NN	O
+6-3	cream	O	O	NN	O
+6-4	sandwich	O	O	NN	P9_groceries
+6-5	I	6-6_nsubj	tried	PRP	P1_shopper
+6-6	tried	O	O	VBD	O
+6-7	was	O	O	VBD	O
+6-8	so	O	O	RB	O
+6-9	good	O	O	JJ	O
+6-10	I	6-11_nsubj	ended	PRP	P1_shopper
+6-11	ended	O	O	VBD	O
+6-12	up	6-11_prt	ended	RP	O
+6-13	getting	6-11_xcomp	ended	VBG	O
+6-14	a	O	O	DT	O
+6-15	box	6-13_dobj	getting	NN	P9_groceries
+6-16	even	6-19_advmod	was	RB	O
+6-17	though	6-19_mark	was	IN	O
+6-18	it	6-19_nsubj	was	PRP	P9_groceries
+6-19	was	O	O	VBD	O
+6-20	not	6-19_neg	was	RB	O
+6-21	on	O	O	O	O
+6-22	my	O	O	PRP$	P1_shopper
+6-23	list	6-19_prep_on	was	NN	P1_grocery_list
+6-24	.	O	O	O	O
+
+#id=7
+#text=I guess their sales pitch worked . 
+7-1	I	7-2_nsubj	guess	PRP	P1_shopper
+7-2	guess	O	O	VBP	O
+7-3	their	O	O	PRP$	P2_grocery_staff
+7-4	sales	O	O	NNS	O
+7-5	pitch	7-6_nsubj	worked	NN	P1_NPart_pitch
+7-6	worked	7-2_ccomp	guess	VBD	O
+7-7	.	O	O	O	O
+
+#id=8
+#text=After I had everything that I needed I took my cart to the register and waited in line to get checked out . 
+8-1	After	8-3_mark	had	IN	O
+8-2	I	8-3_nsubj	had	PRP	P1_shopper
+8-3	had	8-21_csubj	checked	VBD	O
+8-4	everything	8-3_dobj	had	NN	P1_groceries
+8-5	that	8-7_mark	needed	IN	P1_groceries
+8-6	I	8-7_nsubj	needed	PRP	P1_shopper
+8-7	needed	8-3_ccomp	had	VBD	O
+8-8	I	8-9_nsubj	took	PRP	P1_shopper
+8-9	took	8-7_ccomp	needed	VBD	O
+8-10	my	O	O	PRP$	P1_shopper
+8-11	cart	8-9_dobj	took	NN	P1_shopping_cart/basket
+8-12	to	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	register	8-9_prep_to	took	NN	P1_cash_desk
+8-15	and	O	O	O	O
+8-16	waited	8-9_conj_and	took	VBD	O
+8-17	in	O	O	O	O
+8-18	line	8-16_prep_in	waited	NN	P1_line
+8-19	to	8-20_aux	get	TO	O
+8-20	get	8-16_xcomp	waited	VB	O
+8-21	checked	O	O	VBD	O
+8-22	out	8-21_prt	checked	RP	O
+8-23	.	O	O	O	O
+
+#id=9
+#text=I put all my items on the belt and got rung up by the cashier . 
+9-1	I	9-2_nsubj	put	PRP	P1_shopper
+9-2	put	O	O	VBD	O
+9-3	all	O	O	PDT	O
+9-4	my	O	O	PRP$	P1_shopper
+9-5	items	9-2_dobj	put	NNS	P1_groceries
+9-6	on	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	belt	9-2_prep_on	put	NN	P1_conveyor_belt
+9-9	and	O	O	O	O
+9-10	got	9-11_auxpass	rung	VBD	O
+9-11	rung	9-2_conj_and	put	VBN	O
+9-12	up	9-11_prt	rung	RP	O
+9-13	by	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	cashier	9-11_agent	rung	NN	P3_grocery_staff
+9-16	.	O	O	O	O
+
+#id=10
+#text=I then paid the woman and left the store . 
+10-1	I	10-3_nsubj	paid	PRP	P1_shopper
+10-2	then	10-3_advmod	paid	RB	O
+10-3	paid	O	O	VBD	O
+10-4	the	O	O	DT	O
+10-5	woman	10-3_dobj	paid	NN	P3_grocery_staff
+10-6	and	O	O	O	O
+10-7	left	10-3_conj_and	paid	VBD	O
+10-8	the	O	O	DT	O
+10-9	store	10-7_dobj	left	NN	P1_grocery_shop
+10-10	.	O	O	O	O
+
+#id=11
+#text=On the way out I decided to rent a Redbox movie for the night since the kiosk was right by the store . 
+11-1	On	11-6_prep	decided	IN	O
+11-2	the	O	O	DT	O
+11-3	way	O	O	NN	P3_NPart_way
+11-4	out	O	O	IN	O
+11-5	I	11-6_nsubj	decided	PRP	P1_shopper
+11-6	decided	O	O	VBD	O
+11-7	to	11-8_aux	rent	TO	O
+11-8	rent	11-6_xcomp	decided	VB	O
+11-9	a	O	O	DT	O
+11-10	Redbox	O	O	NNP	O
+11-11	movie	11-8_dobj	rent	NN	P1_NPart_movie
+11-12	for	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	night	11-8_prep_for	rent	NN	P1_NPart_night
+11-15	since	O	O	IN	O
+11-16	the	O	O	DT	O
+11-17	kiosk	O	O	NN	P1_NPart_kiosk
+11-18	was	O	O	VBD	O
+11-19	right	11-8_advcl	rent	JJ	O
+11-20	by	O	O	O	O
+11-21	the	O	O	DT	O
+11-22	store	O	O	NN	P1_grocery_shop
+11-23	.	O	O	O	O

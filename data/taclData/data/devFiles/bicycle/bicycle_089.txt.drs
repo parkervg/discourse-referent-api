@@ -1,0 +1,230 @@
+#id=1
+#text=When I was younger , I would occasionally get flats on my tires . 
+1-1	When	O	O	WRB	O
+1-2	I	O	O	PRP	P1_rider
+1-3	was	O	O	VBD	O
+1-4	younger	1-9_advcl	get	JJR	O
+1-5	,	O	O	O	O
+1-6	I	1-9_nsubj	get	PRP	P1_rider
+1-7	would	1-9_aux	get	MD	O
+1-8	occasionally	1-9_advmod	get	RB	O
+1-9	get	O	O	VB	O
+1-10	flats	1-9_dobj	get	NNS	P1_other
+1-11	on	O	O	O	O
+1-12	my	O	O	PRP$	P1_rider
+1-13	tires	1-9_prep_on	get	NNS	P1_tire
+1-14	.	O	O	O	O
+
+#id=2
+#text=Whenever it happened I would repair it as soon as I had the opportunity . 
+2-1	Whenever	2-3_advmod	happened	WRB	O
+2-2	it	2-3_nsubj	happened	PRP	O
+2-3	happened	2-6_advcl	repair	VBD	O
+2-4	I	2-6_nsubj	repair	PRP	P1_rider
+2-5	would	2-6_aux	repair	MD	O
+2-6	repair	O	O	VB	O
+2-7	it	2-6_dobj	repair	PRP	P1_tire
+2-8	as	O	O	RB	O
+2-9	soon	2-6_advmod	repair	RB	O
+2-10	as	2-12_mark	had	IN	O
+2-11	I	2-12_nsubj	had	PRP	P1_rider
+2-12	had	O	O	VBD	O
+2-13	the	O	O	DT	O
+2-14	opportunity	2-12_dobj	had	NN	P1_NPart_opportunity
+2-15	.	O	O	O	O
+
+#id=3
+#text=In my garage I generally used a piece from an old inner tube and glue to patch the hole . 
+3-1	In	O	O	O	O
+3-2	my	O	O	PRP$	P1_rider
+3-3	garage	3-6_prep_in	used	NN	P1_location_repair
+3-4	I	3-6_nsubj	used	PRP	P1_rider
+3-5	generally	3-6_advmod	used	RB	O
+3-6	used	O	O	VBD	O
+3-7	a	O	O	DT	O
+3-8	piece	3-6_dobj	used	NN	P1_NPart_piece
+3-9	from	O	O	O	O
+3-10	an	O	O	DT	O
+3-11	old	O	O	JJ	O
+3-12	inner	O	O	JJ	O
+3-13	tube	3-6_prep_from	used	NN	P1_spare_tube
+3-14	and	O	O	O	O
+3-15	glue	O	O	NN	P1_tool
+3-16	to	3-17_aux	patch	TO	O
+3-17	patch	3-6_vmod	used	VB	O
+3-18	the	O	O	DT	O
+3-19	hole	3-17_dobj	patch	NN	P1_damage
+3-20	.	O	O	O	O
+
+#id=4
+#text=Before I patch it however , I would remove the wheel from the bike frame using a socket wrench to remove the nuts that secure the tire to the frame . 
+4-1	Before	4-3_mark	patch	IN	O
+4-2	I	4-3_nsubj	patch	PRP	P1_rider
+4-3	patch	4-9_advcl	remove	VBZ	O
+4-4	it	4-3_dobj	patch	PRP	P1_damage
+4-5	however	4-3_advmod	patch	RB	O
+4-6	,	O	O	O	O
+4-7	I	4-9_nsubj	remove	PRP	P1_rider
+4-8	would	4-9_aux	remove	MD	O
+4-9	remove	O	O	VB	O
+4-10	the	O	O	DT	O
+4-11	wheel	4-9_dobj	remove	NN	P1_tire
+4-12	from	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	bike	O	O	NN	O
+4-15	frame	4-9_prep_from	remove	NN	P1_rim
+4-16	using	O	O	VBG	O
+4-17	a	O	O	DT	O
+4-18	socket	O	O	NN	O
+4-19	wrench	4-16_dobj	using	NN	P2_tool
+4-20	to	4-21_aux	remove	TO	O
+4-21	remove	4-16_vmod	using	VB	O
+4-22	the	O	O	DT	O
+4-23	nuts	4-21_dobj	remove	NNS	P1_bicycle_small_detail
+4-24	that	4-25_nsubj	secure	WDT	O
+4-25	secure	O	O	VBP	O
+4-26	the	O	O	DT	O
+4-27	tire	4-25_dobj	secure	NN	P1_tire
+4-28	to	O	O	O	O
+4-29	the	O	O	DT	O
+4-30	frame	4-25_prep_to	secure	NN	P1_rim
+4-31	.	O	O	O	O
+
+#id=5
+#text=Then I would remove the inner tube from the outer tire . 
+5-1	Then	5-4_advmod	remove	RB	O
+5-2	I	5-4_nsubj	remove	PRP	P1_rider
+5-3	would	5-4_aux	remove	MD	O
+5-4	remove	O	O	VB	O
+5-5	the	O	O	DT	O
+5-6	inner	O	O	JJ	O
+5-7	tube	5-4_dobj	remove	NN	P1_tire
+5-8	from	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	outer	O	O	JJ	O
+5-11	tire	5-4_prep_from	remove	NN	P1_tire
+5-12	.	O	O	O	O
+
+#id=6
+#text=Then I would put the tube in a pan of water and look for bubbles and where they may be coming from ; the bubbles will lead me to the where the flat or flats are . 
+6-1	Then	6-4_advmod	put	RB	O
+6-2	I	6-4_nsubj	put	PRP	P1_rider
+6-3	would	6-4_aux	put	MD	O
+6-4	put	O	O	VB	O
+6-5	the	O	O	DT	O
+6-6	tube	6-4_dobj	put	NN	P1_tire
+6-7	in	O	O	O	O
+6-8	a	O	O	DT	O
+6-9	pan	6-4_prep_in	put	NN	O
+6-10	of	O	O	O	O
+6-11	water	O	O	NN	P2_other
+6-12	and	O	O	O	O
+6-13	look	6-4_conj_and	put	VB	O
+6-14	for	6-13_dep	look	IN	O
+6-15	bubbles	O	O	NNS	P1_NPart_bubbles
+6-16	and	O	O	O	O
+6-17	where	6-21_advmod	coming	WRB	O
+6-18	they	6-21_nsubj	coming	PRP	P1_NPart_they
+6-19	may	6-21_aux	coming	MD	O
+6-20	be	6-21_aux	coming	VB	O
+6-21	coming	O	O	VBG	O
+6-22	from	6-21_prep	coming	IN	O
+6-23	;	O	O	O	O
+6-24	the	O	O	DT	O
+6-25	bubbles	6-27_nsubj	lead	NNS	P2_NPart_bubbles
+6-26	will	6-27_aux	lead	MD	O
+6-27	lead	6-4_parataxis	put	VB	O
+6-28	me	6-27_dobj	lead	PRP	P1_rider
+6-29	to	O	O	O	O
+6-30	the	6-27_prep_to	lead	DT	O
+6-31	where	6-36_advmod	are	WRB	O
+6-32	the	O	O	DT	O
+6-33	flat	6-36_nsubj	are	NN	P1_other
+6-34	or	O	O	O	O
+6-35	flats	O	O	NNS	P1_other
+6-36	are	O	O	VBP	O
+6-37	.	O	O	O	O
+
+#id=7
+#text=I would then mark them with a marker or piece of tape , then cut a big enough section from the old inner tube I had in my garage and patch with the proper super glue and let it sit for at least an hour to properly harden . 
+7-1	I	7-4_nsubj	mark	PRP	P1_rider
+7-2	would	7-4_aux	mark	MD	O
+7-3	then	7-4_advmod	mark	RB	O
+7-4	mark	O	O	VB	O
+7-5	them	7-4_dobj	mark	PRP	P1_other
+7-6	with	O	O	O	O
+7-7	a	O	O	DT	O
+7-8	marker	7-4_prep_with	mark	NN	P3_tool
+7-9	or	O	O	O	O
+7-10	piece	O	O	NN	O
+7-11	of	O	O	O	O
+7-12	tape	O	O	NN	P4_tool
+7-13	,	O	O	O	O
+7-14	then	7-15_advmod	cut	RB	O
+7-15	cut	7-4_conj_and	mark	VB	O
+7-16	a	O	O	DT	O
+7-17	big	O	O	JJ	O
+7-18	enough	O	O	JJ	O
+7-19	section	7-15_dobj	cut	NN	P1_NPart_section
+7-20	from	O	O	O	O
+7-21	the	O	O	DT	O
+7-22	old	O	O	JJ	O
+7-23	inner	O	O	JJ	O
+7-24	tube	7-15_prep_from	cut	NN	P1_tire
+7-25	I	7-26_nsubj	had	PRP	P1_rider
+7-26	had	7-15_dep	cut	VBD	O
+7-27	in	O	O	O	O
+7-28	my	O	O	PRP$	P1_rider
+7-29	garage	7-26_prep_in	had	NN	P1_location_repair
+7-30	and	O	O	O	O
+7-31	patch	O	O	NN	O
+7-32	with	O	O	O	O
+7-33	the	O	O	DT	O
+7-34	proper	O	O	JJ	O
+7-35	super	O	O	JJ	O
+7-36	glue	O	O	NN	P5_tool
+7-37	and	O	O	O	O
+7-38	let	7-4_conj_and	mark	VB	O
+7-39	it	7-40_nsubj	sit	PRP	O
+7-40	sit	7-38_ccomp	let	VB	O
+7-41	for	7-40_prep	sit	IN	O
+7-42	at	O	O	IN	O
+7-43	least	O	O	RBS	O
+7-44	an	O	O	DT	O
+7-45	hour	O	O	NN	P1_NPart_hour
+7-46	to	7-48_aux	harden	TO	O
+7-47	properly	7-48_advmod	harden	RB	O
+7-48	harden	7-40_xcomp	sit	VB	O
+7-49	.	O	O	O	O
+
+#id=8
+#text=Then I would put the repaired inner tube back into the tire , put the tire back onto the bike , and then fill the tire with air . 
+8-1	Then	8-4_advmod	put	RB	O
+8-2	I	8-4_nsubj	put	PRP	P1_rider
+8-3	would	8-4_aux	put	MD	O
+8-4	put	O	O	VB	O
+8-5	the	O	O	DT	O
+8-6	repaired	O	O	JJ	O
+8-7	inner	O	O	JJ	O
+8-8	tube	8-4_dobj	put	NN	P1_tire
+8-9	back	8-4_prt	put	RP	O
+8-10	into	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	tire	8-4_prep_into	put	NN	P1_tire
+8-13	,	O	O	O	O
+8-14	put	8-4_conj_and	put	VB	O
+8-15	the	O	O	DT	O
+8-16	tire	8-14_dobj	put	NN	P1_tire
+8-17	back	8-14_prt	put	RP	O
+8-18	onto	O	O	O	O
+8-19	the	O	O	DT	O
+8-20	bike	8-14_prep_onto	put	NN	P1_bicycle
+8-21	,	O	O	O	O
+8-22	and	O	O	O	O
+8-23	then	8-24_advmod	fill	RB	O
+8-24	fill	8-4_conj_and	put	VB	O
+8-25	the	O	O	DT	O
+8-26	tire	8-24_dobj	fill	NN	P1_tire
+8-27	with	O	O	O	O
+8-28	air	O	O	NN	P1_air
+8-29	.	O	O	O	O

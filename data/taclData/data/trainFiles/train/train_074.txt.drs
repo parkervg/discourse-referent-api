@@ -1,0 +1,223 @@
+#id=1
+#text=I was going to visit my grandmother in Philadelphia for the weekend . 
+1-1	I	1-3_nsubj	going	PRP	P1_passenger
+1-2	was	1-3_aux	going	VBD	O
+1-3	going	O	O	VBG	O
+1-4	to	1-5_aux	visit	TO	O
+1-5	visit	1-3_xcomp	going	VB	O
+1-6	my	O	O	PRP$	P1_passenger
+1-7	grandmother	1-5_dobj	visit	NN	P1_NPart_grandmother
+1-8	in	O	O	O	O
+1-9	Philadelphia	1-5_prep_in	visit	NNP	P1_destination
+1-10	for	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	weekend	O	O	NN	P1_NPart_weekend
+1-13	.	O	O	O	O
+
+#id=2
+#text=I had never been to Philadelphia before but was eager to try their legendary Philly Cheese Steak sandwiches . 
+2-1	I	2-4_nsubj	been	PRP	P1_passenger
+2-2	had	2-4_aux	been	VBD	O
+2-3	never	2-4_neg	been	RB	O
+2-4	been	O	O	VBN	O
+2-5	to	O	O	O	O
+2-6	Philadelphia	2-4_prep_to	been	NNP	P1_destination
+2-7	before	2-4_advmod	been	RB	O
+2-8	but	O	O	O	O
+2-9	was	O	O	VBD	O
+2-10	eager	2-4_conj_but	been	JJ	O
+2-11	to	2-12_aux	try	TO	O
+2-12	try	O	O	VB	O
+2-13	their	O	O	PRP$	P1_NPart_their
+2-14	legendary	O	O	JJ	O
+2-15	Philly	O	O	NNP	O
+2-16	Cheese	O	O	NNP	O
+2-17	Steak	O	O	NNP	O
+2-18	sandwiches	2-12_dobj	try	NNS	P1_NPart_sandwiches
+2-19	.	O	O	O	O
+
+#id=3
+#text=The quickest way was to take the train there . 
+3-1	The	O	O	DT	O
+3-2	quickest	O	O	JJS	O
+3-3	way	3-4_nsubj	was	NN	O
+3-4	was	O	O	VBD	O
+3-5	to	3-6_aux	take	TO	O
+3-6	take	3-4_xcomp	was	VB	O
+3-7	the	O	O	DT	O
+3-8	train	3-6_dobj	take	NN	P1_train
+3-9	there	3-6_advmod	take	RB	P1_destination
+3-10	.	O	O	O	O
+
+#id=4
+#text=I got to the train station early in the morning and tried to figure out how to get there . 
+4-1	I	4-2_nsubj	got	PRP	P1_passenger
+4-2	got	O	O	VBD	O
+4-3	to	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	train	O	O	NN	O
+4-6	station	4-2_prep_to	got	NN	P1_train_station
+4-7	early	O	O	RB	O
+4-8	in	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	morning	O	O	NN	P1_time_date
+4-11	and	O	O	O	O
+4-12	tried	4-2_conj_and	got	VBD	O
+4-13	to	4-14_aux	figure	TO	O
+4-14	figure	4-12_xcomp	tried	VB	O
+4-15	out	4-14_prt	figure	RP	O
+4-16	how	4-18_advmod	get	WRB	O
+4-17	to	4-18_aux	get	TO	O
+4-18	get	4-14_ccomp	figure	VB	O
+4-19	there	4-18_advmod	get	RB	O
+4-20	.	O	O	O	O
+
+#id=5
+#text=I was a little confused so I asked one of the customer service representatives in the ticket booth . 
+5-1	I	5-5_nsubjpass	confused	PRP	P1_passenger
+5-2	was	5-5_auxpass	confused	VBD	O
+5-3	a	O	O	DT	O
+5-4	little	5-5_dobj	confused	JJ	O
+5-5	confused	O	O	VBN	O
+5-6	so	5-8_mark	asked	IN	O
+5-7	I	5-8_nsubj	asked	PRP	P1_passenger
+5-8	asked	5-5_advcl	confused	VBD	O
+5-9	one	5-8_dobj	asked	CD	O
+5-10	of	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	customer	O	O	NN	P1_NPart_customer
+5-13	service	O	O	NN	P1_NPart_service
+5-14	representatives	O	O	NNS	P1_train_staff
+5-15	in	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	ticket	O	O	NN	O
+5-18	booth	5-8_prep_in	asked	NN	P1_ticket_office/website
+5-19	.	O	O	O	O
+
+#id=6
+#text=The woman told me I could to take the 8:05 train and that it would be leaving from Gate F . 
+6-1	The	O	O	DT	O
+6-2	woman	6-3_nsubj	told	NN	P1_train_staff
+6-3	told	O	O	VBD	O
+6-4	me	6-3_dobj	told	PRP	P1_passenger
+6-5	I	O	O	PRP	P1_passenger
+6-6	could	6-3_ccomp	told	MD	O
+6-7	to	6-8_aux	take	TO	O
+6-8	take	O	O	VB	O
+6-9	the	O	O	DT	O
+6-10	8:05	O	O	CD	P2_time_date
+6-11	train	6-8_dobj	take	NN	P1_train
+6-12	and	O	O	O	O
+6-13	that	6-17_mark	leaving	IN	O
+6-14	it	6-17_nsubj	leaving	PRP	P1_train
+6-15	would	6-17_aux	leaving	MD	O
+6-16	be	6-17_aux	leaving	VB	O
+6-17	leaving	O	O	VBG	O
+6-18	from	O	O	O	O
+6-19	Gate	O	O	NNP	O
+6-20	F	6-17_prep_from	leaving	NNP	P1_NPart_f
+6-21	.	O	O	O	O
+
+#id=7
+#text=She said that I could buy the tickets from her or from a machine . 
+7-1	She	7-2_nsubj	said	PRP	P2_train_staff
+7-2	said	O	O	VBD	O
+7-3	that	7-6_mark	buy	IN	O
+7-4	I	7-6_nsubj	buy	PRP	P1_passenger
+7-5	could	7-6_aux	buy	MD	O
+7-6	buy	7-2_ccomp	said	VB	O
+7-7	the	O	O	DT	O
+7-8	tickets	7-6_dobj	buy	NNS	P1_card/ticket
+7-9	from	O	O	O	O
+7-10	her	7-6_prep_from	buy	PRP	P1_train_staff
+7-11	or	O	O	O	O
+7-12	from	O	O	O	O
+7-13	a	O	O	DT	O
+7-14	machine	O	O	NN	P1_other
+7-15	.	O	O	O	O
+
+#id=8
+#text=I decided to buy it from her and it cost $ 75 dollars . 
+8-1	I	8-2_nsubj	decided	PRP	P1_passenger
+8-2	decided	O	O	VBD	O
+8-3	to	8-4_aux	buy	TO	O
+8-4	buy	8-2_xcomp	decided	VB	O
+8-5	it	8-4_dobj	buy	PRP	P1_card/ticket
+8-6	from	O	O	O	O
+8-7	her	8-4_prep_from	buy	PRP	P1_train_staff
+8-8	and	O	O	O	O
+8-9	it	8-10_nsubj	cost	PRP	P1_card/ticket
+8-10	cost	8-2_conj_and	decided	VBD	O
+8-11	$	8-10_dep	cost	$	O
+8-12	75	O	O	CD	O
+8-13	dollars	8-10_dobj	cost	NNS	P2_other
+8-14	.	O	O	O	O
+
+#id=9
+#text=I paid in cash and got my ticket . 
+9-1	I	9-2_nsubj	paid	PRP	P1_passenger
+9-2	paid	O	O	VBD	O
+9-3	in	O	O	O	O
+9-4	cash	9-2_prep_in	paid	NN	O
+9-5	and	O	O	O	O
+9-6	got	9-2_conj_and	paid	VBD	O
+9-7	my	O	O	PRP$	P1_passenger
+9-8	ticket	9-6_dobj	got	NN	P1_card/ticket
+9-9	.	O	O	O	O
+
+#id=10
+#text=the train was leaving in ten minutes and the gate had been announced so i rushed to the gate . 
+10-1	the	O	O	DT	O
+10-2	train	10-4_nsubj	leaving	NN	P1_train
+10-3	was	10-4_aux	leaving	VBD	O
+10-4	leaving	O	O	VBG	O
+10-5	in	O	O	O	O
+10-6	ten	O	O	CD	O
+10-7	minutes	10-4_prep_in	leaving	NNS	P3_time_date
+10-8	and	O	O	O	O
+10-9	the	O	O	DT	O
+10-10	gate	10-13_nsubjpass	announced	NN	P1_platform
+10-11	had	10-13_aux	announced	VBD	O
+10-12	been	10-13_auxpass	announced	VBN	O
+10-13	announced	10-4_conj_and	leaving	VBN	O
+10-14	so	10-16_mark	rushed	IN	O
+10-15	i	10-16_nsubj	rushed	FW	P1_passenger
+10-16	rushed	10-13_advcl	announced	VBD	O
+10-17	to	O	O	O	O
+10-18	the	O	O	DT	O
+10-19	gate	10-16_prep_to	rushed	NN	P1_platform
+10-20	.	O	O	O	O
+
+#id=11
+#text=I got there with time to spare and found a seat in the back . 
+11-1	I	11-2_nsubj	got	PRP	P1_passenger
+11-2	got	O	O	VBD	O
+11-3	there	11-2_advmod	got	RB	P1_platform
+11-4	with	O	O	O	O
+11-5	time	11-2_prep_with	got	NN	P4_time_date
+11-6	to	11-7_aux	spare	TO	O
+11-7	spare	11-2_xcomp	got	VB	O
+11-8	and	O	O	O	O
+11-9	found	11-2_conj_and	got	VBD	O
+11-10	a	O	O	DT	O
+11-11	seat	11-9_dobj	found	NN	P1_seat
+11-12	in	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	back	11-9_prep_in	found	NN	P1_NPart_back
+11-15	.	O	O	O	O
+
+#id=12
+#text=About an hour later i was in Philadelphia and was very excited . 
+12-1	About	O	O	RB	O
+12-2	an	O	O	DT	O
+12-3	hour	O	O	NN	P5_time_date
+12-4	later	12-6_advmod	was	RB	O
+12-5	i	12-6_nsubj	was	FW	P1_passenger
+12-6	was	O	O	VBD	O
+12-7	in	O	O	O	O
+12-8	Philadelphia	12-6_prep_in	was	NNP	P1_destination
+12-9	and	O	O	O	O
+12-10	was	O	O	VBD	O
+12-11	very	O	O	RB	O
+12-12	excited	12-6_conj_and	was	JJ	O
+12-13	.	O	O	O	O

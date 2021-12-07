@@ -1,0 +1,200 @@
+#id=1
+#text=Last night , I decided to take a bath . 
+1-1	Last	O	O	JJ	O
+1-2	night	1-5_tmod	decided	NN	P1_NPart_night
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	decided	PRP	P1_bather
+1-5	decided	O	O	VBD	O
+1-6	to	1-7_aux	take	TO	O
+1-7	take	1-5_xcomp	decided	VB	O
+1-8	a	O	O	DT	O
+1-9	bath	1-7_dobj	take	NN	O
+1-10	.	O	O	O	O
+
+#id=2
+#text=I usually take a shower instead , but my muscles felt sore and I thought I could use a bath with some epsom salt . 
+2-1	I	2-3_nsubj	take	PRP	P1_bather
+2-2	usually	2-3_advmod	take	RB	O
+2-3	take	O	O	VB	O
+2-4	a	O	O	DT	O
+2-5	shower	2-3_dobj	take	NN	O
+2-6	instead	2-3_advmod	take	RB	O
+2-7	,	O	O	O	O
+2-8	but	O	O	O	O
+2-9	my	O	O	PRP$	P1_bather
+2-10	muscles	2-11_nsubj	felt	NNS	P1_body_part
+2-11	felt	2-3_conj_but	take	VBD	O
+2-12	sore	2-11_dobj	felt	JJ	O
+2-13	and	O	O	O	O
+2-14	I	2-15_nsubj	thought	PRP	P1_bather
+2-15	thought	2-11_conj_and	felt	VBD	O
+2-16	I	2-18_nsubj	use	PRP	P1_bather
+2-17	could	2-18_aux	use	MD	O
+2-18	use	2-15_ccomp	thought	VB	O
+2-19	a	O	O	DT	O
+2-20	bath	2-18_dobj	use	NN	O
+2-21	with	O	O	O	O
+2-22	some	O	O	DT	O
+2-23	epsom	O	O	NN	O
+2-24	salt	2-18_prep_with	use	NN	P1_bath_means
+2-25	.	O	O	O	O
+
+#id=3
+#text=The epsom salt bath is really good at soothing sore muscles , plus it is very relaxing . 
+3-1	The	O	O	DT	O
+3-2	epsom	O	O	NN	O
+3-3	salt	O	O	NN	O
+3-4	bath	O	O	NN	P1_bath
+3-5	is	O	O	VBZ	O
+3-6	really	O	O	RB	O
+3-7	good	O	O	JJ	O
+3-8	at	O	O	O	O
+3-9	soothing	O	O	VBG	O
+3-10	sore	O	O	JJ	O
+3-11	muscles	O	O	NNS	P1_body_part
+3-12	,	O	O	O	O
+3-13	plus	O	O	CC	O
+3-14	it	O	O	PRP	P1_bath
+3-15	is	O	O	VBZ	O
+3-16	very	O	O	RB	O
+3-17	relaxing	O	O	JJ	O
+3-18	.	O	O	O	O
+
+#id=4
+#text=I ran a very hot bath and poured some epsom salt in so it could dissolve . 
+4-1	I	4-2_nsubj	ran	PRP	P1_bather
+4-2	ran	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	very	O	O	RB	O
+4-5	hot	O	O	JJ	O
+4-6	bath	4-2_dobj	ran	NN	P1_water
+4-7	and	O	O	O	O
+4-8	poured	4-2_conj_and	ran	VBD	O
+4-9	some	O	O	DT	O
+4-10	epsom	O	O	NN	O
+4-11	salt	4-8_dobj	poured	NN	P1_bath_means
+4-12	in	O	O	O	O
+4-13	so	4-16_mark	dissolve	IN	O
+4-14	it	4-16_nsubj	dissolve	PRP	P1_bath_means
+4-15	could	4-16_aux	dissolve	MD	O
+4-16	dissolve	4-8_prepc_in	poured	VB	O
+4-17	.	O	O	O	O
+
+#id=5
+#text=While the bath was running , I grabbed a towel and a book I was reading . 
+5-1	While	5-5_mark	running	IN	O
+5-2	the	O	O	DT	O
+5-3	bath	5-5_nsubj	running	NN	P1_water
+5-4	was	5-5_aux	running	VBD	O
+5-5	running	5-8_advcl	grabbed	VBG	O
+5-6	,	O	O	O	O
+5-7	I	5-8_nsubj	grabbed	PRP	P1_bather
+5-8	grabbed	O	O	VBD	O
+5-9	a	O	O	DT	O
+5-10	towel	5-8_dobj	grabbed	NN	P1_towel
+5-11	and	O	O	O	O
+5-12	a	O	O	DT	O
+5-13	book	O	O	NN	P1_in-bath_entertainment
+5-14	I	5-16_nsubj	reading	PRP	P1_bather
+5-15	was	5-16_aux	reading	VBD	O
+5-16	reading	O	O	VBG	O
+5-17	.	O	O	O	O
+
+#id=6
+#text=I set it all up next to the tub and undressed . 
+6-1	I	6-2_nsubj	set	PRP	P1_bather
+6-2	set	O	O	VBD	O
+6-3	it	O	O	PRP	O
+6-4	all	O	O	DT	O
+6-5	up	6-2_xcomp	set	IN	O
+6-6	next	O	O	O	O
+6-7	to	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	tub	O	O	NN	P1_bathtub
+6-10	and	O	O	O	O
+6-11	undressed	6-2_conj_and	set	VBD	O
+6-12	.	O	O	O	O
+
+#id=7
+#text=I slid into the hot water and felt the salt granules prickling my skin , as my muscles finally relaxed . 
+7-1	I	7-2_nsubj	slid	PRP	P1_bather
+7-2	slid	O	O	VBD	O
+7-3	into	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	hot	O	O	JJ	O
+7-6	water	7-2_prep_into	slid	NN	P1_water
+7-7	and	O	O	O	O
+7-8	felt	7-2_conj_and	slid	VBD	O
+7-9	the	O	O	DT	O
+7-10	salt	7-11_nsubj	granules	NN	O
+7-11	granules	7-8_ccomp	felt	VBZ	P1_bath_means
+7-12	prickling	7-11_xcomp	granules	VBG	O
+7-13	my	O	O	PRP$	P1_bather
+7-14	skin	7-12_dobj	prickling	NN	P2_body_part
+7-15	,	O	O	O	O
+7-16	as	7-20_mark	relaxed	IN	O
+7-17	my	O	O	PRP$	P1_bather
+7-18	muscles	7-20_nsubj	relaxed	NNS	P1_body_part
+7-19	finally	7-20_advmod	relaxed	RB	O
+7-20	relaxed	7-11_advcl	granules	VBD	O
+7-21	.	O	O	O	O
+
+#id=8
+#text=After some time , the water cooled , so I added some more hot water . 
+8-1	After	O	O	O	O
+8-2	some	O	O	DT	O
+8-3	time	8-7_prep_after	cooled	NN	O
+8-4	,	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	water	8-7_nsubj	cooled	NN	P1_water
+8-7	cooled	O	O	VBD	O
+8-8	,	O	O	O	O
+8-9	so	8-7_dep	cooled	IN	O
+8-10	I	8-11_nsubj	added	PRP	P1_bather
+8-11	added	8-7_parataxis	cooled	VBD	O
+8-12	some	O	O	DT	O
+8-13	more	O	O	RBR	O
+8-14	hot	O	O	JJ	O
+8-15	water	8-11_dobj	added	NN	P2_water
+8-16	.	O	O	O	O
+
+#id=9
+#text=I stayed in the bathtub for about 45 minutes , until my muscles felt better . 
+9-1	I	9-2_nsubj	stayed	PRP	P1_bather
+9-2	stayed	O	O	VBD	O
+9-3	in	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	bathtub	9-2_prep_in	stayed	NN	P1_bathtub
+9-6	for	O	O	O	O
+9-7	about	O	O	RB	O
+9-8	45	O	O	CD	O
+9-9	minutes	9-2_prep_for	stayed	NNS	P1_NPart_minutes
+9-10	,	O	O	O	O
+9-11	until	9-14_mark	felt	IN	O
+9-12	my	O	O	PRP$	P1_bather
+9-13	muscles	9-14_nsubj	felt	NNS	P1_body_part
+9-14	felt	9-2_advcl	stayed	VBD	O
+9-15	better	9-14_advmod	felt	RBR	O
+9-16	.	O	O	O	O
+
+#id=10
+#text=When I was finally done , I drained the cooled water , toweled off , and got dressed . 
+10-1	When	10-5_advmod	done	WRB	O
+10-2	I	10-5_nsubjpass	done	PRP	P1_bather
+10-3	was	10-5_auxpass	done	VBD	O
+10-4	finally	10-5_advmod	done	RB	O
+10-5	done	10-8_advcl	drained	VBN	O
+10-6	,	O	O	O	O
+10-7	I	10-8_nsubj	drained	PRP	P1_bather
+10-8	drained	O	O	VBZ	O
+10-9	the	O	O	DT	O
+10-10	cooled	O	O	JJ	O
+10-11	water	10-8_dobj	drained	NN	P3_water
+10-12	,	O	O	O	O
+10-13	toweled	10-8_conj_and	drained	VBD	O
+10-14	off	10-13_prt	toweled	RP	O
+10-15	,	O	O	O	O
+10-16	and	O	O	O	O
+10-17	got	10-18_auxpass	dressed	VBD	O
+10-18	dressed	10-8_conj_and	drained	VBN	O
+10-19	.	O	O	O	O

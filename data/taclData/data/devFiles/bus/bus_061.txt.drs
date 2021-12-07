@@ -1,0 +1,187 @@
+#id=1
+#text=Where I live , I always need to take a public bus to the train station to get to my destinations . 
+1-1	Where	1-3_advmod	live	WRB	O
+1-2	I	1-3_nsubj	live	PRP	P1_passenger
+1-3	live	1-7_advcl	need	VBP	O
+1-4	,	O	O	O	O
+1-5	I	1-7_nsubj	need	PRP	P1_passenger
+1-6	always	1-7_advmod	need	RB	O
+1-7	need	O	O	VBP	O
+1-8	to	1-9_aux	take	TO	O
+1-9	take	1-7_xcomp	need	VB	O
+1-10	a	O	O	DT	O
+1-11	public	O	O	JJ	O
+1-12	bus	1-9_dobj	take	NN	P1_bus
+1-13	to	O	O	O	O
+1-14	the	O	O	DT	O
+1-15	train	O	O	NN	O
+1-16	station	1-9_prep_to	take	NN	P1_destination
+1-17	to	1-18_aux	get	TO	O
+1-18	get	1-9_vmod	take	VB	O
+1-19	to	O	O	O	O
+1-20	my	O	O	PRP$	P1_passenger
+1-21	destinations	1-18_prep_to	get	NNS	P2_destination
+1-22	.	O	O	O	O
+
+#id=2
+#text=The bus is not usually on schedule so sometimes this can be frustrating especially on a cold winter day as you are waiting for a bus . 
+2-1	The	O	O	DT	O
+2-2	bus	2-3_nsubj	is	NN	P2_bus
+2-3	is	O	O	VBZ	O
+2-4	not	2-3_neg	is	RB	O
+2-5	usually	2-3_advmod	is	RB	O
+2-6	on	O	O	O	O
+2-7	schedule	2-3_prep_on	is	NN	O
+2-8	so	2-3_dep	is	IN	O
+2-9	sometimes	O	O	RB	O
+2-10	this	O	O	DT	O
+2-11	can	O	O	MD	O
+2-12	be	O	O	VB	O
+2-13	frustrating	2-3_parataxis	is	JJ	O
+2-14	especially	O	O	RB	O
+2-15	on	O	O	O	O
+2-16	a	O	O	DT	O
+2-17	cold	O	O	JJ	O
+2-18	winter	O	O	NN	O
+2-19	day	O	O	NN	P1_NPart_day
+2-20	as	2-23_mark	waiting	IN	O
+2-21	you	2-23_nsubj	waiting	PRP	P1_passenger
+2-22	are	2-23_aux	waiting	VBP	O
+2-23	waiting	O	O	VBG	O
+2-24	for	O	O	O	O
+2-25	a	O	O	DT	O
+2-26	bus	2-23_prep_for	waiting	NN	P2_bus
+2-27	.	O	O	O	O
+
+#id=3
+#text=Since the discovery of a bustimes app on my iphone , i am able to know exactlly when my bus arrives using their GPS technology . 
+3-1	Since	O	O	O	O
+3-2	the	O	O	DT	O
+3-3	discovery	O	O	NN	P1_NPart_discovery
+3-4	of	O	O	O	O
+3-5	a	O	O	DT	O
+3-6	bustimes	O	O	JJ	O
+3-7	app	O	O	NN	P1_time-table
+3-8	on	O	O	O	O
+3-9	my	O	O	PRP$	P1_passenger
+3-10	iphone	O	O	NN	P1_NPart_iphone
+3-11	,	O	O	O	O
+3-12	i	O	O	FW	P1_passenger
+3-13	am	O	O	VBP	O
+3-14	able	O	O	JJ	O
+3-15	to	3-16_aux	know	TO	O
+3-16	know	O	O	VB	O
+3-17	exactlly	3-16_advmod	know	RB	O
+3-18	when	3-21_advmod	arrives	WRB	O
+3-19	my	O	O	PRP$	P1_passenger
+3-20	bus	3-21_nsubj	arrives	NN	P2_bus
+3-21	arrives	3-16_ccomp	know	VBZ	O
+3-22	using	3-21_xcomp	arrives	VBG	O
+3-23	their	O	O	PRP$	P1_NPart_their
+3-24	GPS	O	O	NNP	O
+3-25	technology	3-22_dobj	using	NN	P1_time-table
+3-26	.	O	O	O	O
+
+#id=4
+#text=It is accurate most of the times . 
+4-1	It	O	O	PRP	P1_time-table
+4-2	is	O	O	VBZ	O
+4-3	accurate	O	O	JJ	O
+4-4	most	O	O	JJS	O
+4-5	of	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	times	O	O	NNS	O
+4-8	.	O	O	O	O
+
+#id=5
+#text=I get ready to leave my house , look at my bustimes app to see when the bus is arriving , and then leave my house to catch the bus without wasting my time waiting for the bus . 
+5-1	I	O	O	PRP	P1_passenger
+5-2	get	O	O	VBP	O
+5-3	ready	O	O	JJ	O
+5-4	to	5-5_aux	leave	TO	O
+5-5	leave	O	O	VB	O
+5-6	my	O	O	PRP$	P1_passenger
+5-7	house	5-5_dobj	leave	NN	P1_NPart_house
+5-8	,	O	O	O	O
+5-9	look	5-5_conj_and	leave	VB	O
+5-10	at	O	O	O	O
+5-11	my	O	O	PRP$	P1_passenger
+5-12	bustimes	O	O	JJ	O
+5-13	app	5-9_prep_at	look	NN	P1_time-table
+5-14	to	5-15_aux	see	TO	O
+5-15	see	5-9_xcomp	look	VB	O
+5-16	when	5-20_advmod	arriving	WRB	O
+5-17	the	O	O	DT	O
+5-18	bus	5-20_nsubj	arriving	NN	P2_bus
+5-19	is	5-20_aux	arriving	VBZ	O
+5-20	arriving	5-15_advcl	see	VBG	O
+5-21	,	O	O	O	O
+5-22	and	O	O	O	O
+5-23	then	5-24_advmod	leave	RB	O
+5-24	leave	5-5_conj_and	leave	VB	O
+5-25	my	O	O	PRP$	P1_passenger
+5-26	house	5-24_dobj	leave	NN	P2_NPart_house
+5-27	to	5-28_aux	catch	TO	O
+5-28	catch	O	O	VB	O
+5-29	the	O	O	DT	O
+5-30	bus	5-28_dobj	catch	NN	P2_bus
+5-31	without	O	O	O	O
+5-32	wasting	5-28_prepc_without	catch	VBG	O
+5-33	my	O	O	PRP$	P1_passenger
+5-34	time	5-32_dobj	wasting	NN	O
+5-35	waiting	5-32_vmod	wasting	VBG	O
+5-36	for	O	O	O	O
+5-37	the	O	O	DT	O
+5-38	bus	5-35_prep_for	waiting	NN	P2_bus
+5-39	.	O	O	O	O
+
+#id=6
+#text=I pay the fare getting on the bus , greet the driver with a smile , and find a seat to sit down . 
+6-1	I	6-2_nsubj	pay	PRP	P1_passenger
+6-2	pay	O	O	VB	O
+6-3	the	O	O	DT	O
+6-4	fare	6-2_dobj	pay	NN	P1_money
+6-5	getting	O	O	VBG	O
+6-6	on	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	bus	6-5_prep_on	getting	NN	P2_bus
+6-9	,	O	O	O	O
+6-10	greet	6-2_conj_and	pay	VB	O
+6-11	the	O	O	DT	O
+6-12	driver	6-10_dobj	greet	NN	P1_bus_staff
+6-13	with	O	O	O	O
+6-14	a	O	O	DT	O
+6-15	smile	6-10_prep_with	greet	NN	P1_NPart_smile
+6-16	,	O	O	O	O
+6-17	and	O	O	O	O
+6-18	find	6-2_conj_and	pay	VB	O
+6-19	a	O	O	DT	O
+6-20	seat	6-18_dobj	find	NN	P1_seat_in_bus
+6-21	to	6-22_aux	sit	TO	O
+6-22	sit	O	O	VB	O
+6-23	down	6-22_prt	sit	RP	O
+6-24	.	O	O	O	O
+
+#id=7
+#text=It is a short ride to my train station where i can get on the train to my final destination . 
+7-1	It	O	O	PRP	O
+7-2	is	O	O	VBZ	O
+7-3	a	O	O	DT	O
+7-4	short	O	O	JJ	O
+7-5	ride	O	O	NN	P1_ride
+7-6	to	O	O	O	O
+7-7	my	O	O	PRP$	P1_passenger
+7-8	train	O	O	NN	O
+7-9	station	O	O	NN	P1_destination
+7-10	where	7-13_advmod	get	WRB	O
+7-11	i	7-13_nsubj	get	FW	P1_passenger
+7-12	can	7-13_aux	get	MD	O
+7-13	get	O	O	VB	O
+7-14	on	O	O	O	O
+7-15	the	O	O	DT	O
+7-16	train	7-13_prep_on	get	NN	P1_NPart_train
+7-17	to	O	O	O	O
+7-18	my	O	O	PRP$	P1_passenger
+7-19	final	O	O	JJ	O
+7-20	destination	7-13_prep_to	get	NN	P2_destination
+7-21	.	O	O	O	O

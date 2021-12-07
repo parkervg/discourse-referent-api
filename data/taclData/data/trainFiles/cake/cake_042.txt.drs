@@ -1,0 +1,255 @@
+#id=1
+#text=I like to help Mom bake cakes . 
+1-1	I	1-2_nsubj	like	PRP	P1_cook
+1-2	like	O	O	VBP	O
+1-3	to	1-4_aux	help	TO	O
+1-4	help	1-2_xcomp	like	VB	O
+1-5	Mom	O	O	NN	P2_cook
+1-6	bake	O	O	NN	O
+1-7	cakes	1-4_dobj	help	NNS	P1_cake
+1-8	.	O	O	O	O
+
+#id=2
+#text=It 's something we enjoy doing together . 
+2-1	It	O	O	PRP	O
+2-2	's	O	O	VBZ	O
+2-3	something	O	O	NN	O
+2-4	we	2-5_nsubj	enjoy	PRP	P3_cook
+2-5	enjoy	O	O	VBP	O
+2-6	doing	2-5_xcomp	enjoy	VBG	O
+2-7	together	2-6_advmod	doing	RB	O
+2-8	.	O	O	O	O
+
+#id=3
+#text=Mom decided she was going to make a chocolate cake , and chocolate is my favorite ! 
+3-1	Mom	3-2_nsubj	decided	NN	P2_cook
+3-2	decided	O	O	VBD	O
+3-3	she	3-5_nsubj	going	PRP	P2_cook
+3-4	was	3-5_aux	going	VBD	O
+3-5	going	3-2_ccomp	decided	VBG	O
+3-6	to	3-7_aux	make	TO	O
+3-7	make	3-5_xcomp	going	VB	O
+3-8	a	O	O	DT	O
+3-9	chocolate	O	O	NN	O
+3-10	cake	3-7_dobj	make	NN	P1_cake
+3-11	,	O	O	O	O
+3-12	and	O	O	O	O
+3-13	chocolate	O	O	NN	P1_ingredients
+3-14	is	O	O	VBZ	O
+3-15	my	O	O	PRP$	P1_cook
+3-16	favorite	3-2_conj_and	decided	NN	O
+3-17	!	O	O	O	O
+
+#id=4
+#text=First , we washed our hands carefully with plenty of soap . 
+4-1	First	4-4_advmod	washed	RB	O
+4-2	,	O	O	O	O
+4-3	we	4-4_nsubj	washed	PRP	P3_cook
+4-4	washed	O	O	VBD	O
+4-5	our	O	O	PRP$	P3_cook
+4-6	hands	4-4_dobj	washed	NNS	P1_NPart_hands
+4-7	carefully	4-4_advmod	washed	RB	O
+4-8	with	4-4_prep	washed	IN	O
+4-9	plenty	O	O	RB	O
+4-10	of	O	O	O	O
+4-11	soap	O	O	NN	P1_NPart_soap
+4-12	.	O	O	O	O
+
+#id=5
+#text=Then we dried our hands . 
+5-1	Then	5-3_advmod	dried	RB	O
+5-2	we	5-3_nsubj	dried	PRP	P3_cook
+5-3	dried	O	O	VBD	O
+5-4	our	O	O	PRP$	P3_cook
+5-5	hands	5-3_dobj	dried	NNS	P2_NPart_hands
+5-6	.	O	O	O	O
+
+#id=6
+#text=The first thing we had to do was sift the dry ingredients . 
+6-1	The	O	O	DT	O
+6-2	first	O	O	JJ	O
+6-3	thing	6-9_nsubj	sift	NN	O
+6-4	we	6-5_nsubj	had	PRP	P3_cook
+6-5	had	O	O	VBD	O
+6-6	to	6-7_aux	do	TO	O
+6-7	do	6-5_xcomp	had	VB	O
+6-8	was	6-9_aux	sift	VBD	O
+6-9	sift	O	O	VBG	O
+6-10	the	O	O	DT	O
+6-11	dry	O	O	JJ	O
+6-12	ingredients	6-9_dobj	sift	NNS	P2_ingredients
+6-13	.	O	O	O	O
+
+#id=7
+#text=Mom got out a really big mixing bowl made of aluminum . 
+7-1	Mom	7-2_nsubj	got	NN	P2_cook
+7-2	got	O	O	VBD	O
+7-3	out	7-2_prt	got	RP	O
+7-4	a	O	O	DT	O
+7-5	really	O	O	RB	O
+7-6	big	O	O	JJ	O
+7-7	mixing	O	O	JJ	O
+7-8	bowl	7-2_dobj	got	NN	P1_utensil
+7-9	made	O	O	VBN	O
+7-10	of	O	O	O	O
+7-11	aluminum	7-9_prep_of	made	NN	P1_NPart_aluminum
+7-12	.	O	O	O	O
+
+#id=8
+#text=We put in the flour , sugar , salt , and baking powder . 
+8-1	We	8-2_nsubj	put	PRP	P3_cook
+8-2	put	O	O	VBD	O
+8-3	in	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	flour	8-2_prep_in	put	NN	P3_ingredients
+8-6	,	O	O	O	O
+8-7	sugar	O	O	NN	P4_ingredients
+8-8	,	O	O	O	O
+8-9	salt	O	O	NN	P5_ingredients
+8-10	,	O	O	O	O
+8-11	and	O	O	O	O
+8-12	baking	O	O	JJ	O
+8-13	powder	O	O	NN	P6_ingredients
+8-14	.	O	O	O	O
+
+#id=9
+#text=Mom likes turbinado sugar the best because it 's more healthy , so we used that . 
+9-1	Mom	9-2_nsubj	likes	NN	P2_cook
+9-2	likes	O	O	VBZ	O
+9-3	turbinado	O	O	NN	O
+9-4	sugar	9-2_iobj	likes	NN	P4_ingredients
+9-5	the	O	O	DT	O
+9-6	best	9-2_dobj	likes	JJS	O
+9-7	because	O	O	IN	O
+9-8	it	O	O	PRP	P4_ingredients
+9-9	's	O	O	VBZ	O
+9-10	more	O	O	RBR	O
+9-11	healthy	O	O	JJ	O
+9-12	,	O	O	O	O
+9-13	so	9-2_dep	likes	IN	O
+9-14	we	9-15_nsubj	used	PRP	P3_cook
+9-15	used	9-2_parataxis	likes	VBD	O
+9-16	that	9-15_dobj	used	DT	P4_ingredients
+9-17	.	O	O	O	O
+
+#id=10
+#text=The four was King Arthur cake flour . 
+10-1	The	O	O	DT	O
+10-2	four	O	O	CD	P3_ingredients
+10-3	was	O	O	VBD	O
+10-4	King	O	O	NNP	O
+10-5	Arthur	O	O	NNP	O
+10-6	cake	O	O	NN	O
+10-7	flour	O	O	NNS	P3_ingredients
+10-8	.	O	O	O	O
+
+#id=11
+#text=We blended the dry ingredients carefully with a whip . 
+11-1	We	11-2_nsubj	blended	PRP	P3_cook
+11-2	blended	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	dry	O	O	JJ	O
+11-5	ingredients	O	O	NNS	P2_ingredients
+11-6	carefully	11-2_advmod	blended	RB	O
+11-7	with	O	O	O	O
+11-8	a	O	O	DT	O
+11-9	whip	11-2_prep_with	blended	NN	P2_utensil
+11-10	.	O	O	O	O
+
+#id=12
+#text=Then we got another bowl and mixed the eggs , milk , and butter . 
+12-1	Then	12-3_advmod	got	RB	O
+12-2	we	12-3_nsubj	got	PRP	P3_cook
+12-3	got	O	O	VBD	O
+12-4	another	O	O	DT	O
+12-5	bowl	12-3_dobj	got	NN	P3_utensil
+12-6	and	O	O	O	O
+12-7	mixed	12-3_conj_and	got	VBN	O
+12-8	the	O	O	DT	O
+12-9	eggs	12-7_dobj	mixed	NNS	P7_ingredients
+12-10	,	O	O	O	O
+12-11	milk	O	O	NN	P8_ingredients
+12-12	,	O	O	O	O
+12-13	and	O	O	O	O
+12-14	butter	O	O	NN	P9_ingredients
+12-15	.	O	O	O	O
+
+#id=13
+#text=Mom took a little pan and melted the chocolate on the stove on very low heat . 
+13-1	Mom	13-2_nsubj	took	NN	P2_cook
+13-2	took	O	O	VBD	O
+13-3	a	O	O	DT	O
+13-4	little	O	O	JJ	O
+13-5	pan	13-2_dobj	took	NN	P4_utensil
+13-6	and	O	O	O	O
+13-7	melted	13-2_conj_and	took	VBD	O
+13-8	the	O	O	DT	O
+13-9	chocolate	13-7_dobj	melted	NN	P1_ingredients
+13-10	on	O	O	O	O
+13-11	the	O	O	DT	O
+13-12	stove	13-7_prep_on	melted	NN	P1_oven
+13-13	on	O	O	O	O
+13-14	very	O	O	RB	O
+13-15	low	O	O	JJ	O
+13-16	heat	O	O	NN	P1_temperature
+13-17	.	O	O	O	O
+
+#id=14
+#text=We mixed the chocolate with the liquids and then poured it all into the big bowl . 
+14-1	We	14-2_nsubj	mixed	PRP	P3_cook
+14-2	mixed	O	O	VBD	O
+14-3	the	O	O	DT	O
+14-4	chocolate	14-2_dobj	mixed	NN	P1_ingredients
+14-5	with	O	O	O	O
+14-6	the	O	O	DT	O
+14-7	liquids	14-2_prep_with	mixed	NNS	P10_ingredients
+14-8	and	O	O	O	O
+14-9	then	14-10_advmod	poured	RB	O
+14-10	poured	14-2_conj_and	mixed	VBD	O
+14-11	it	14-10_dobj	poured	PRP	P11_ingredients
+14-12	all	14-10_dep	poured	DT	O
+14-13	into	O	O	O	O
+14-14	the	O	O	DT	O
+14-15	big	O	O	JJ	O
+14-16	bowl	14-10_prep_into	poured	NN	P1_utensil
+14-17	.	O	O	O	O
+
+#id=15
+#text=We baked the cake for 40 minutes -- it seemed like a long time ! 
+15-1	We	15-2_nsubj	baked	PRP	P3_cook
+15-2	baked	O	O	VBZ	O
+15-3	the	O	O	DT	O
+15-4	cake	15-2_dobj	baked	NN	P1_cake
+15-5	for	O	O	O	O
+15-6	40	O	O	CD	O
+15-7	minutes	O	O	NNS	P1_time
+15-8	--	O	O	O	O
+15-9	it	15-10_nsubj	seemed	PRP	O
+15-10	seemed	15-2_parataxis	baked	VBD	O
+15-11	like	O	O	O	O
+15-12	a	O	O	DT	O
+15-13	long	O	O	JJ	O
+15-14	time	15-10_prep_like	seemed	NN	P1_time
+15-15	!	O	O	O	O
+
+#id=16
+#text=-- and after it cooled we iced it and ate some . 
+16-1	--	O	O	O	O
+16-2	and	O	O	VB	O
+16-3	after	16-5_mark	cooled	IN	O
+16-4	it	16-5_nsubj	cooled	PRP	P1_cake
+16-5	cooled	16-2_advcl	and	VBD	O
+16-6	we	16-7_nsubj	iced	PRP	P3_cook
+16-7	iced	16-5_ccomp	cooled	VBZ	O
+16-8	it	16-7_dobj	iced	PRP	P1_cake
+16-9	and	O	O	O	O
+16-10	ate	16-7_conj_and	iced	VBD	O
+16-11	some	16-10_dobj	ate	DT	O
+16-12	.	O	O	O	O
+
+#id=17
+#text=It was delicious . 
+17-1	It	O	O	PRP	P1_cake
+17-2	was	O	O	VBD	O
+17-3	delicious	O	O	JJ	O
+17-4	.	O	O	O	O

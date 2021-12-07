@@ -1,0 +1,201 @@
+#id=1
+#text=I have really long hair so I tend to trim my hair myself . 
+1-1	I	1-5_nsubj	hair	PRP	P1_customer
+1-2	have	1-5_aux	hair	VBP	O
+1-3	really	1-5_advmod	hair	RB	O
+1-4	long	1-5_advmod	hair	RB	O
+1-5	hair	O	O	VBN	P1_hair
+1-6	so	1-8_mark	tend	IN	O
+1-7	I	1-8_nsubj	tend	PRP	P1_customer
+1-8	tend	1-5_advcl	hair	VBP	O
+1-9	to	1-10_aux	trim	TO	O
+1-10	trim	1-8_xcomp	tend	VB	O
+1-11	my	O	O	PRP$	P1_customer
+1-12	hair	O	O	NN	P1_hair
+1-13	myself	1-10_xcomp	trim	PRP	P1_customer
+1-14	.	O	O	O	O
+
+#id=2
+#text=If I need to go in to get it done , it 's because I need a really good trim . 
+2-1	If	2-3_mark	need	IN	O
+2-2	I	2-3_nsubj	need	PRP	P1_customer
+2-3	need	2-13_advcl	's	VBP	O
+2-4	to	2-5_aux	go	TO	O
+2-5	go	2-3_xcomp	need	VB	O
+2-6	in	2-5_prt	go	RP	O
+2-7	to	2-8_aux	get	TO	O
+2-8	get	2-5_xcomp	go	VB	O
+2-9	it	2-10_nsubj	done	PRP	O
+2-10	done	2-8_dep	get	VBN	O
+2-11	,	O	O	O	O
+2-12	it	2-13_nsubj	's	PRP	P1_NPart_it
+2-13	's	O	O	VBZ	O
+2-14	because	2-16_mark	need	IN	P2_customer
+2-15	I	2-16_nsubj	need	PRP	O
+2-16	need	2-13_advcl	's	VBP	O
+2-17	a	O	O	DT	O
+2-18	really	O	O	RB	O
+2-19	good	O	O	JJ	P1_haircut
+2-20	trim	2-16_dobj	need	NN	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=My hair goes all the way down almost to my butt , so I am very leery of letting other people mess with my hair . 
+3-1	My	O	O	PRP$	P1_customer
+3-2	hair	3-3_nsubj	goes	NN	P1_hair
+3-3	goes	O	O	VBZ	O
+3-4	all	O	O	PDT	O
+3-5	the	O	O	DT	O
+3-6	way	3-3_dobj	goes	NN	O
+3-7	down	O	O	RB	O
+3-8	almost	3-3_advmod	goes	RB	O
+3-9	to	O	O	O	O
+3-10	my	O	O	PRP$	P1_customer
+3-11	butt	O	O	NN	P1_NPart_butt
+3-12	,	O	O	O	O
+3-13	so	3-3_dep	goes	IN	O
+3-14	I	O	O	PRP	P1_customer
+3-15	am	O	O	VBP	O
+3-16	very	O	O	RB	O
+3-17	leery	3-3_parataxis	goes	JJ	O
+3-18	of	O	O	O	O
+3-19	letting	O	O	VBG	O
+3-20	other	O	O	JJ	O
+3-21	people	O	O	NNS	P1_hairdresser
+3-22	mess	3-19_dobj	letting	NN	O
+3-23	with	O	O	O	O
+3-24	my	O	O	PRP$	P1_customer
+3-25	hair	3-19_prep_with	letting	NN	P1_hair
+3-26	.	O	O	O	O
+
+#id=4
+#text=I will sit there and listen to them say how much they think needs to be trimmed and then tell them how much I want trimmed and it ends up somewhere in between . 
+4-1	I	4-3_nsubj	sit	PRP	P1_customer
+4-2	will	4-3_aux	sit	MD	O
+4-3	sit	O	O	VB	O
+4-4	there	4-3_advmod	sit	RB	O
+4-5	and	O	O	O	O
+4-6	listen	4-3_conj_and	sit	VB	O
+4-7	to	O	O	O	O
+4-8	them	4-9_nsubj	say	PRP	P1_hairdresser
+4-9	say	4-6_prepc_to	listen	VBP	O
+4-10	how	O	O	WRB	O
+4-11	much	4-13_dep	think	JJ	O
+4-12	they	4-13_nsubj	think	PRP	P1_hairdresser
+4-13	think	4-9_ccomp	say	VBP	O
+4-14	needs	4-13_dobj	think	NNS	O
+4-15	to	4-17_aux	trimmed	TO	O
+4-16	be	4-17_auxpass	trimmed	VB	O
+4-17	trimmed	4-13_xcomp	think	VBN	O
+4-18	and	O	O	O	O
+4-19	then	4-20_advmod	tell	RB	O
+4-20	tell	4-17_conj_and	trimmed	VB	O
+4-21	them	4-20_dobj	tell	PRP	P1_hairdresser
+4-22	how	O	O	WRB	O
+4-23	much	4-25_dep	want	JJ	O
+4-24	I	4-25_nsubj	want	PRP	P1_customer
+4-25	want	4-20_dep	tell	VBP	O
+4-26	trimmed	4-25_dep	want	VBN	O
+4-27	and	O	O	O	O
+4-28	it	4-29_nsubj	ends	PRP	O
+4-29	ends	4-9_conj_and	say	VBZ	O
+4-30	up	O	O	RB	O
+4-31	somewhere	4-29_advmod	ends	RB	O
+4-32	in	4-29_prep	ends	IN	O
+4-33	between	O	O	IN	O
+4-34	.	O	O	O	O
+
+#id=5
+#text=It is really annoying when you have long hair and want to keep it that way and the girl who chops it off just does n't understand some people happen to like having it really long . 
+5-1	It	O	O	PRP	O
+5-2	is	O	O	VBZ	O
+5-3	really	O	O	RB	O
+5-4	annoying	O	O	JJ	O
+5-5	when	5-7_advmod	have	WRB	O
+5-6	you	5-7_nsubj	have	PRP	P1_customer
+5-7	have	O	O	VBP	O
+5-8	long	O	O	JJ	O
+5-9	hair	5-7_dobj	have	NN	P1_hair
+5-10	and	O	O	O	O
+5-11	want	5-7_conj_and	have	VBP	O
+5-12	to	5-13_aux	keep	TO	O
+5-13	keep	5-11_xcomp	want	VB	O
+5-14	it	5-13_dobj	keep	PRP	P1_hair
+5-15	that	5-27_mark	understand	IN	O
+5-16	way	5-27_nsubj	understand	NN	O
+5-17	and	O	O	O	O
+5-18	the	O	O	DT	O
+5-19	girl	O	O	NN	P1_hairdresser
+5-20	who	5-21_nsubj	chops	WP	P1_hairdresser
+5-21	chops	O	O	VBD	O
+5-22	it	5-21_dobj	chops	PRP	P1_hair
+5-23	off	5-21_prt	chops	RP	O
+5-24	just	5-21_advmod	chops	RB	O
+5-25	does	5-27_aux	understand	VBZ	O
+5-26	n't	5-27_neg	understand	RB	O
+5-27	understand	5-13_ccomp	keep	VB	O
+5-28	some	O	O	DT	O
+5-29	people	5-30_nsubj	happen	NNS	P1_customer
+5-30	happen	5-27_ccomp	understand	VB	O
+5-31	to	5-32_aux	like	TO	O
+5-32	like	5-30_xcomp	happen	VB	O
+5-33	having	5-32_dep	like	VBG	O
+5-34	it	5-33_dobj	having	PRP	P1_hair
+5-35	really	O	O	RB	O
+5-36	long	5-33_dep	having	JJ	O
+5-37	.	O	O	O	O
+
+#id=6
+#text=So , I usually avoid going and getting it cut , and just trim it myself . 
+6-1	So	6-5_advmod	avoid	RB	O
+6-2	,	O	O	O	O
+6-3	I	6-5_nsubj	avoid	PRP	P1_customer
+6-4	usually	6-5_advmod	avoid	RB	O
+6-5	avoid	O	O	VBP	O
+6-6	going	6-5_xcomp	avoid	VBG	O
+6-7	and	O	O	O	O
+6-8	getting	6-6_conj_and	going	VBG	O
+6-9	it	6-10_nsubj	cut	PRP	P1_hair
+6-10	cut	6-6_ccomp	going	VBD	O
+6-11	,	O	O	O	O
+6-12	and	O	O	O	O
+6-13	just	6-14_advmod	trim	RB	O
+6-14	trim	6-10_conj_and	cut	VB	O
+6-15	it	O	O	PRP	P1_hair
+6-16	myself	6-14_xcomp	trim	PRP	P1_customer
+6-17	.	O	O	O	O
+
+#id=7
+#text=It 's easy , I know what I want , I wo n't chop it all off , and if I screw up I have no one to blame but myself . 
+7-1	It	O	O	PRP	O
+7-2	's	O	O	VBZ	O
+7-3	easy	O	O	JJ	O
+7-4	,	O	O	O	O
+7-5	I	7-6_nsubj	know	PRP	P1_customer
+7-6	know	O	O	VBP	O
+7-7	what	7-9_dobj	want	WP	O
+7-8	I	7-9_nsubj	want	PRP	P1_customer
+7-9	want	7-6_ccomp	know	VBP	O
+7-10	,	O	O	O	O
+7-11	I	7-14_nsubj	chop	PRP	P1_customer
+7-12	wo	7-14_aux	chop	MD	O
+7-13	n't	7-14_neg	chop	RB	O
+7-14	chop	O	O	VB	O
+7-15	it	7-14_dobj	chop	PRP	P1_hair
+7-16	all	O	O	DT	O
+7-17	off	7-14_advmod	chop	RB	O
+7-18	,	O	O	O	O
+7-19	and	O	O	O	O
+7-20	if	7-22_mark	screw	IN	O
+7-21	I	7-22_nsubj	screw	PRP	P1_customer
+7-22	screw	7-25_advcl	have	VBD	O
+7-23	up	7-22_prt	screw	RP	O
+7-24	I	7-25_nsubj	have	PRP	P1_customer
+7-25	have	O	O	VBP	O
+7-26	no	O	O	DT	O
+7-27	one	7-25_dobj	have	NN	P1_NPart_one
+7-28	to	7-29_aux	blame	TO	O
+7-29	blame	O	O	VB	O
+7-30	but	7-29_advmod	blame	CC	O
+7-31	myself	7-29_dobj	blame	PRP	P1_customer
+7-32	.	O	O	O	O

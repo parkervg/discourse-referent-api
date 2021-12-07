@@ -1,0 +1,196 @@
+#id=1
+#text=I was riding in the bike lane going to work when I felt my tire pop and give out on me . 
+1-1	I	1-3_nsubj	riding	PRP	P1_rider
+1-2	was	1-3_aux	riding	VBD	O
+1-3	riding	O	O	VBG	O
+1-4	in	O	O	O	O
+1-5	the	O	O	DT	O
+1-6	bike	O	O	NN	O
+1-7	lane	1-3_prep_in	riding	NN	P1_NPart_lane
+1-8	going	O	O	VBG	O
+1-9	to	1-10_aux	work	TO	O
+1-10	work	1-8_xcomp	going	VB	O
+1-11	when	1-13_advmod	felt	WRB	O
+1-12	I	1-13_nsubj	felt	PRP	P1_rider
+1-13	felt	1-10_advcl	work	VBD	O
+1-14	my	O	O	PRP$	P1_rider
+1-15	tire	O	O	NN	P1_tire
+1-16	pop	1-13_dobj	felt	NN	O
+1-17	and	O	O	O	O
+1-18	give	1-10_conj_and	work	VB	O
+1-19	out	1-18_prt	give	RP	O
+1-20	on	O	O	O	O
+1-21	me	1-18_prep_on	give	PRP	P1_rider
+1-22	.	O	O	O	O
+
+#id=2
+#text=I quickly pulled over to the side walk and got off my bike to take a good look at it . 
+2-1	I	2-3_nsubj	pulled	PRP	P1_rider
+2-2	quickly	2-3_advmod	pulled	RB	O
+2-3	pulled	O	O	VBD	O
+2-4	over	2-3_prt	pulled	RP	O
+2-5	to	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	side	O	O	NN	O
+2-8	walk	2-3_prep_to	pulled	NN	P1_location_repair
+2-9	and	O	O	O	O
+2-10	got	2-3_conj_and	pulled	VBD	O
+2-11	off	2-10_prt	got	RP	O
+2-12	my	O	O	PRP$	P1_rider
+2-13	bike	2-10_dobj	got	NN	P1_bicycle
+2-14	to	2-15_aux	take	TO	O
+2-15	take	O	O	VB	O
+2-16	a	O	O	DT	O
+2-17	good	O	O	JJ	O
+2-18	look	2-15_dobj	take	NN	O
+2-19	at	O	O	O	O
+2-20	it	2-10_prep_at	got	PRP	P1_bicycle
+2-21	.	O	O	O	O
+
+#id=3
+#text=A rock was embedded into my tire tube . 
+3-1	A	O	O	DT	O
+3-2	rock	3-4_nsubjpass	embedded	NN	P1_object_damage
+3-3	was	3-4_auxpass	embedded	VBD	O
+3-4	embedded	O	O	VBN	O
+3-5	into	O	O	O	O
+3-6	my	O	O	PRP$	P1_rider
+3-7	tire	O	O	NN	O
+3-8	tube	3-4_prep_into	embedded	NN	P1_tire
+3-9	.	O	O	O	O
+
+#id=4
+#text=I pried the rock out with my fingers and got my patch kit from my backpack . 
+4-1	I	4-2_nsubj	pried	PRP	P1_rider
+4-2	pried	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	rock	4-2_dobj	pried	NN	P1_object_damage
+4-5	out	4-2_prt	pried	RP	O
+4-6	with	O	O	O	O
+4-7	my	O	O	PRP$	P1_rider
+4-8	fingers	4-2_prep_with	pried	NNS	P1_NPart_fingers
+4-9	and	O	O	O	O
+4-10	got	4-2_conj_and	pried	VBD	O
+4-11	my	O	O	PRP$	P1_rider
+4-12	patch	O	O	NN	O
+4-13	kit	4-10_dobj	got	NN	P1_tool
+4-14	from	O	O	O	O
+4-15	my	O	O	PRP$	P1_rider
+4-16	backpack	4-10_prep_from	got	NN	P1_NPart_backpack
+4-17	.	O	O	O	O
+
+#id=5
+#text=I made sure there was no other debris in the tire and then applied the glue . 
+5-1	I	5-2_nsubj	made	PRP	P1_rider
+5-2	made	O	O	VBD	O
+5-3	sure	5-2_acomp	made	JJ	O
+5-4	there	5-5_expl	was	EX	O
+5-5	was	O	O	VBD	O
+5-6	no	O	O	DT	O
+5-7	other	O	O	JJ	O
+5-8	debris	5-5_nsubj	was	NN	P1_damage
+5-9	in	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	tire	O	O	NN	P1_tire
+5-12	and	O	O	O	O
+5-13	then	5-14_advmod	applied	RB	O
+5-14	applied	5-2_conj_and	made	VBD	O
+5-15	the	O	O	DT	O
+5-16	glue	5-14_dobj	applied	NN	P2_tool
+5-17	.	O	O	O	O
+
+#id=6
+#text=I stuck the patch onto the glue and made sure it was a nice fit and held well . 
+6-1	I	6-2_nsubj	stuck	PRP	P1_rider
+6-2	stuck	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	patch	6-2_dobj	stuck	NN	P1_patch
+6-5	onto	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	glue	6-2_prep_onto	stuck	NN	P2_tool
+6-8	and	O	O	O	O
+6-9	made	6-2_conj_and	stuck	VBN	O
+6-10	sure	6-9_acomp	made	JJ	O
+6-11	it	O	O	PRP	P1_patch
+6-12	was	O	O	VBD	O
+6-13	a	O	O	DT	O
+6-14	nice	O	O	JJ	O
+6-15	fit	O	O	NN	P1_NPart_fit
+6-16	and	O	O	O	O
+6-17	held	6-9_conj_and	made	VBN	O
+6-18	well	6-17_advmod	held	RB	O
+6-19	.	O	O	O	O
+
+#id=7
+#text=After that i pumped my tire back up with air and checked to make sure it would hold up to the rigors of the road . 
+7-1	After	7-4_mark	pumped	IN	O
+7-2	that	O	O	DT	O
+7-3	i	7-4_nsubj	pumped	FW	P1_rider
+7-4	pumped	7-18_advcl	hold	VBD	O
+7-5	my	O	O	PRP$	P1_rider
+7-6	tire	7-4_dobj	pumped	NN	P1_tire
+7-7	back	O	O	RB	O
+7-8	up	7-4_advmod	pumped	RB	O
+7-9	with	O	O	O	O
+7-10	air	O	O	NN	P1_air
+7-11	and	O	O	O	O
+7-12	checked	7-4_conj_and	pumped	VBD	O
+7-13	to	7-14_aux	make	TO	O
+7-14	make	7-12_xcomp	checked	VB	O
+7-15	sure	7-14_acomp	make	JJ	O
+7-16	it	7-18_nsubj	hold	PRP	P1_tire
+7-17	would	7-18_aux	hold	MD	O
+7-18	hold	O	O	VB	O
+7-19	up	7-18_prt	hold	RP	O
+7-20	to	O	O	O	O
+7-21	the	O	O	DT	O
+7-22	rigors	7-18_prep_to	hold	NNS	P1_NPart_rigors
+7-23	of	O	O	O	O
+7-24	the	O	O	DT	O
+7-25	road	O	O	NN	P1_NPart_road
+7-26	.	O	O	O	O
+
+#id=8
+#text=After that I hopped back on my bike and slowly rode to work careful of anymore rocks . 
+8-1	After	O	O	O	O
+8-2	that	8-4_prep_after	hopped	DT	O
+8-3	I	8-4_nsubj	hopped	PRP	P1_rider
+8-4	hopped	O	O	VBD	O
+8-5	back	8-4_prt	hopped	RP	O
+8-6	on	O	O	O	O
+8-7	my	O	O	PRP$	P1_rider
+8-8	bike	8-4_prep_on	hopped	NN	P1_bicycle
+8-9	and	O	O	O	O
+8-10	slowly	8-11_advmod	rode	RB	O
+8-11	rode	8-4_conj_and	hopped	VBD	O
+8-12	to	8-13_aux	work	TO	O
+8-13	work	8-11_xcomp	rode	VB	P1_NPart_work
+8-14	careful	O	O	JJ	O
+8-15	of	O	O	IN	O
+8-16	anymore	O	O	RB	O
+8-17	rocks	8-13_dobj	work	NNS	P2_object_damage
+8-18	.	O	O	O	O
+
+#id=9
+#text=I got to work on time . 
+9-1	I	9-2_nsubj	got	PRP	P1_rider
+9-2	got	O	O	VBD	O
+9-3	to	9-4_aux	work	TO	O
+9-4	work	9-2_xcomp	got	VB	P2_NPart_work
+9-5	on	O	O	O	O
+9-6	time	9-4_prep_on	work	NN	O
+9-7	.	O	O	O	O
+
+#id=10
+#text=This is why i always carry around my repair kit . 
+10-1	This	10-2_nsubj	is	DT	O
+10-2	is	O	O	VBZ	O
+10-3	why	10-6_advmod	carry	WRB	O
+10-4	i	10-6_nsubj	carry	FW	P1_rider
+10-5	always	10-6_advmod	carry	RB	O
+10-6	carry	10-2_advcl	is	VBP	O
+10-7	around	O	O	O	O
+10-8	my	O	O	PRP$	P1_rider
+10-9	repair	O	O	NN	O
+10-10	kit	10-6_prep_around	carry	NN	P1_tool
+10-11	.	O	O	O	O

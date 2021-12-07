@@ -1,0 +1,223 @@
+#id=1
+#text=I once had a flat tire on my bicycle . 
+1-1	I	1-3_nsubj	had	PRP	P1_rider
+1-2	once	1-3_advmod	had	RB	O
+1-3	had	O	O	VBD	O
+1-4	a	O	O	DT	O
+1-5	flat	O	O	JJ	O
+1-6	tire	1-3_dobj	had	NN	P1_tire
+1-7	on	O	O	O	O
+1-8	my	O	O	PRP$	P1_rider
+1-9	bicycle	O	O	NN	P1_bicycle
+1-10	.	O	O	O	O
+
+#id=2
+#text=It was quite a surprise when it happened . 
+2-1	It	O	O	PRP	O
+2-2	was	O	O	VBD	O
+2-3	quite	O	O	RB	O
+2-4	a	O	O	DT	O
+2-5	surprise	O	O	NN	P1_NPart_surprise
+2-6	when	2-8_advmod	happened	WRB	O
+2-7	it	2-8_nsubj	happened	PRP	O
+2-8	happened	O	O	VBD	O
+2-9	.	O	O	O	O
+
+#id=3
+#text=I had been having a good time riding my bike along a trail and the air went right out of it . 
+3-1	I	3-4_nsubj	having	PRP	P1_rider
+3-2	had	3-4_aux	having	VBD	O
+3-3	been	3-4_aux	having	VBN	O
+3-4	having	O	O	VBG	O
+3-5	a	O	O	DT	O
+3-6	good	O	O	JJ	O
+3-7	time	3-4_dobj	having	NN	O
+3-8	riding	3-4_vmod	having	VBG	O
+3-9	my	O	O	PRP$	P1_rider
+3-10	bike	3-8_dobj	riding	NN	P1_bicycle
+3-11	along	O	O	O	O
+3-12	a	O	O	DT	O
+3-13	trail	3-8_prep_along	riding	NN	P1_other
+3-14	and	O	O	O	O
+3-15	the	O	O	DT	O
+3-16	air	3-17_nsubj	went	NN	P1_NPart_air
+3-17	went	3-4_conj_and	having	VBD	O
+3-18	right	3-17_advmod	went	RB	O
+3-19	out	O	O	O	O
+3-20	of	O	O	O	O
+3-21	it	3-17_prep_out_of	went	PRP	P1_bicycle
+3-22	.	O	O	O	O
+
+#id=4
+#text=I proceeded to flip my bicycle over so it was standing on the handlebars and seat to inspect the damage . 
+4-1	I	4-2_nsubj	proceeded	PRP	P1_rider
+4-2	proceeded	O	O	VBD	O
+4-3	to	4-4_aux	flip	TO	O
+4-4	flip	4-2_xcomp	proceeded	VB	O
+4-5	my	O	O	PRP$	P1_rider
+4-6	bicycle	4-4_dobj	flip	NN	P1_bicycle
+4-7	over	4-4_prt	flip	RP	O
+4-8	so	4-11_mark	standing	IN	O
+4-9	it	4-11_nsubj	standing	PRP	P1_bicycle
+4-10	was	4-11_aux	standing	VBD	O
+4-11	standing	4-2_advcl	proceeded	VBG	O
+4-12	on	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	handlebars	4-11_prep_on	standing	NNS	P1_bicycle_small_detail
+4-15	and	O	O	O	O
+4-16	seat	O	O	NN	O
+4-17	to	4-18_aux	inspect	TO	O
+4-18	inspect	4-11_xcomp	standing	VB	O
+4-19	the	O	O	DT	O
+4-20	damage	4-18_dobj	inspect	NN	P1_damage
+4-21	.	O	O	O	O
+
+#id=5
+#text=Once I had that accomplished I had to remove the wheel from the bike . 
+5-1	Once	5-3_mark	had	IN	O
+5-2	I	5-3_nsubj	had	PRP	P1_rider
+5-3	had	5-7_advcl	had	VBD	O
+5-4	that	5-3_dobj	had	DT	O
+5-5	accomplished	O	O	VBN	O
+5-6	I	5-7_nsubj	had	PRP	P1_rider
+5-7	had	O	O	VBD	O
+5-8	to	5-9_aux	remove	TO	O
+5-9	remove	5-7_xcomp	had	VB	O
+5-10	the	O	O	DT	O
+5-11	wheel	5-9_dobj	remove	NN	P1_wheel
+5-12	from	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	bike	5-9_prep_from	remove	NN	P1_bicycle
+5-15	.	O	O	O	O
+
+#id=6
+#text=This took a little bit and I needed some tools to finish this task . 
+6-1	This	6-2_nsubj	took	DT	O
+6-2	took	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	little	O	O	JJ	O
+6-5	bit	6-2_dobj	took	NN	O
+6-6	and	O	O	O	O
+6-7	I	6-8_nsubj	needed	PRP	P1_rider
+6-8	needed	6-2_conj_and	took	VBD	O
+6-9	some	O	O	DT	O
+6-10	tools	6-8_dobj	needed	NNS	P1_tool
+6-11	to	6-12_aux	finish	TO	O
+6-12	finish	6-8_vmod	needed	VB	O
+6-13	this	O	O	DT	O
+6-14	task	6-12_dobj	finish	NN	P1_NPart_task
+6-15	.	O	O	O	O
+
+#id=7
+#text=My bike has a tube in each tire to keep it inflated . 
+7-1	My	O	O	PRP$	P1_rider
+7-2	bike	7-3_nsubj	has	NN	P1_bicycle
+7-3	has	O	O	VBZ	O
+7-4	a	O	O	DT	O
+7-5	tube	7-3_dobj	has	NN	P2_bicycle_small_detail
+7-6	in	O	O	O	O
+7-7	each	O	O	DT	O
+7-8	tire	O	O	NN	P2_tire
+7-9	to	7-10_aux	keep	TO	O
+7-10	keep	O	O	VB	O
+7-11	it	O	O	PRP	P2_tire
+7-12	inflated	7-10_xcomp	keep	JJ	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=Something had gone through the outer rubber and punctured that inner tube . 
+8-1	Something	8-3_nsubj	gone	NN	P1_object_damage
+8-2	had	8-3_aux	gone	VBD	O
+8-3	gone	O	O	VBN	O
+8-4	through	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	outer	O	O	JJ	O
+8-7	rubber	8-3_prep_through	gone	NN	P3_tire
+8-8	and	O	O	O	O
+8-9	punctured	8-3_conj_and	gone	VBN	O
+8-10	that	O	O	DT	O
+8-11	inner	O	O	JJ	O
+8-12	tube	8-9_dobj	punctured	NN	P4_tire
+8-13	.	O	O	O	O
+
+#id=9
+#text=I had to remove the outer rubber and find the spot on the inner tube where the hole was . 
+9-1	I	9-2_nsubj	had	PRP	P1_rider
+9-2	had	O	O	VBD	O
+9-3	to	9-4_aux	remove	TO	O
+9-4	remove	9-2_xcomp	had	VB	O
+9-5	the	O	O	DT	O
+9-6	outer	O	O	JJ	O
+9-7	rubber	9-4_dobj	remove	NN	P3_tire
+9-8	and	O	O	O	O
+9-9	find	9-4_conj_and	remove	VB	O
+9-10	the	O	O	DT	O
+9-11	spot	9-9_dobj	find	NN	P1_NPart_spot
+9-12	on	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	inner	O	O	JJ	O
+9-15	tube	9-9_prep_on	find	NN	P4_tire
+9-16	where	9-19_advmod	was	WRB	O
+9-17	the	O	O	DT	O
+9-18	hole	9-19_nsubj	was	NN	P1_damage
+9-19	was	9-2_advcl	had	VBD	O
+9-20	.	O	O	O	O
+
+#id=10
+#text=Luckily I had a patch kit with me and was able to patch the tube once I found the hole . 
+10-1	Luckily	10-3_advmod	had	RB	O
+10-2	I	10-3_nsubj	had	PRP	P1_rider
+10-3	had	O	O	VBD	O
+10-4	a	O	O	DT	O
+10-5	patch	O	O	NN	P1_patch
+10-6	kit	10-3_dobj	had	NN	P2_tool
+10-7	with	O	O	O	O
+10-8	me	O	O	PRP	P1_rider
+10-9	and	O	O	O	O
+10-10	was	O	O	VBD	O
+10-11	able	10-3_conj_and	had	JJ	O
+10-12	to	10-13_aux	patch	TO	O
+10-13	patch	O	O	VB	O
+10-14	the	O	O	DT	O
+10-15	tube	10-13_dobj	patch	NN	P4_tire
+10-16	once	10-18_mark	found	IN	O
+10-17	I	10-18_nsubj	found	PRP	P1_rider
+10-18	found	10-13_advcl	patch	VBD	O
+10-19	the	O	O	DT	O
+10-20	hole	10-18_dobj	found	NN	P1_damage
+10-21	.	O	O	O	O
+
+#id=11
+#text=After waiting for the patch adhesive to set I put the wheel back together . 
+11-1	After	O	O	O	O
+11-2	waiting	11-10_prepc_after	put	VBG	O
+11-3	for	O	O	O	O
+11-4	the	O	O	DT	O
+11-5	patch	O	O	NN	P2_patch
+11-6	adhesive	11-2_prep_for	waiting	NN	P2_other
+11-7	to	11-8_aux	set	TO	O
+11-8	set	11-2_xcomp	waiting	VB	O
+11-9	I	11-10_nsubj	put	PRP	P1_rider
+11-10	put	O	O	VBD	O
+11-11	the	O	O	DT	O
+11-12	wheel	11-10_dobj	put	NN	P1_wheel
+11-13	back	11-10_prt	put	RP	O
+11-14	together	11-10_advmod	put	RB	O
+11-15	.	O	O	O	O
+
+#id=12
+#text=Once the wheel was back on my bike I was off riding again . 
+12-1	Once	12-4_mark	was	IN	O
+12-2	the	O	O	DT	O
+12-3	wheel	12-4_nsubj	was	NN	P1_wheel
+12-4	was	12-12_advcl	riding	VBD	O
+12-5	back	12-4_advmod	was	RB	O
+12-6	on	O	O	O	O
+12-7	my	O	O	PRP$	P1_rider
+12-8	bike	12-4_prep_on	was	NN	P1_bicycle
+12-9	I	12-12_nsubj	riding	PRP	P1_rider
+12-10	was	12-12_aux	riding	VBD	O
+12-11	off	12-12_advmod	riding	RB	O
+12-12	riding	O	O	VBG	O
+12-13	again	12-12_advmod	riding	RB	O
+12-14	.	O	O	O	O

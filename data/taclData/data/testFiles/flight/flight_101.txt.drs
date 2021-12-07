@@ -1,0 +1,229 @@
+#id=1
+#text=Last week I went to Ireland to visit my family . 
+1-1	Last	O	O	JJ	O
+1-2	week	1-4_tmod	went	NN	P1_time/date
+1-3	I	1-4_nsubj	went	PRP	P1_passenger
+1-4	went	O	O	VBD	O
+1-5	to	O	O	O	O
+1-6	Ireland	1-4_prep_to	went	NNP	P1_target_location
+1-7	to	1-8_aux	visit	TO	O
+1-8	visit	1-4_xcomp	went	VB	O
+1-9	my	O	O	PRP$	P1_passenger
+1-10	family	1-8_dobj	visit	NN	P1_accomp_person
+1-11	.	O	O	O	O
+
+#id=2
+#text=I rode the bus to the airport . 
+2-1	I	2-2_nsubj	rode	PRP	P1_passenger
+2-2	rode	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	bus	2-2_dobj	rode	NN	P1_NPart_bus
+2-5	to	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	airport	2-2_prep_to	rode	NN	P1_airport
+2-8	.	O	O	O	O
+
+#id=3
+#text=At the airport I checked in my luggage and went through security . 
+3-1	At	O	O	O	O
+3-2	the	O	O	DT	O
+3-3	airport	3-5_prep_at	checked	NN	P1_airport
+3-4	I	3-5_nsubj	checked	PRP	P1_passenger
+3-5	checked	O	O	VBD	O
+3-6	in	O	O	O	O
+3-7	my	O	O	PRP$	P1_passenger
+3-8	luggage	3-5_prep_in	checked	NN	P1_check_in_luggage
+3-9	and	O	O	O	O
+3-10	went	3-5_conj_and	checked	VBD	O
+3-11	through	O	O	O	O
+3-12	security	3-10_prep_through	went	NN	P1_security_check
+3-13	.	O	O	O	O
+
+#id=4
+#text=After going through security I headed towards the departure gate . 
+4-1	After	O	O	O	O
+4-2	going	4-6_prepc_after	headed	VBG	O
+4-3	through	O	O	O	O
+4-4	security	4-2_prep_through	going	NN	P1_security_check
+4-5	I	4-6_nsubj	headed	PRP	P1_passenger
+4-6	headed	O	O	VBD	O
+4-7	towards	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	departure	O	O	NN	O
+4-10	gate	4-6_prep_towards	headed	NN	P1_terminal/gate
+4-11	.	O	O	O	O
+
+#id=5
+#text=I waited at the gate for about 30minutes and then people started to board . 
+5-1	I	5-2_nsubj	waited	PRP	P1_passenger
+5-2	waited	O	O	VBD	O
+5-3	at	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	gate	5-2_prep_at	waited	NN	P1_terminal/gate
+5-6	for	O	O	O	O
+5-7	about	O	O	IN	O
+5-8	30minutes	O	O	CD	P2_time/date
+5-9	and	O	O	O	O
+5-10	then	O	O	RB	O
+5-11	people	O	O	NNS	P2_passenger
+5-12	started	O	O	VBN	O
+5-13	to	O	O	O	O
+5-14	board	5-12_prep_to	started	NN	O
+5-15	.	O	O	O	O
+
+#id=6
+#text=The airline woman checked my ticket and passport and I got on the plane . 
+6-1	The	O	O	DT	O
+6-2	airline	O	O	NN	O
+6-3	woman	6-4_nsubj	checked	NN	P1_staff
+6-4	checked	O	O	VBD	O
+6-5	my	O	O	PRP$	P1_passenger
+6-6	ticket	6-4_dobj	checked	NN	P1_ticket
+6-7	and	O	O	O	O
+6-8	passport	O	O	NN	P1_passport/ID
+6-9	and	O	O	O	O
+6-10	I	6-11_nsubj	got	PRP	P1_passenger
+6-11	got	6-4_conj_and	checked	VBD	O
+6-12	on	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	plane	6-11_prep_on	got	NN	P1_plane
+6-15	.	O	O	O	O
+
+#id=7
+#text=Before the plane took off the air hostesses gave a quick security briefing . 
+7-1	Before	7-4_mark	took	IN	O
+7-2	the	O	O	DT	O
+7-3	plane	7-4_nsubj	took	NN	P2_plane
+7-4	took	7-9_advcl	gave	VBD	O
+7-5	off	7-4_prt	took	RP	O
+7-6	the	O	O	DT	O
+7-7	air	O	O	NN	O
+7-8	hostesses	7-9_nsubj	gave	NNS	P1_staff
+7-9	gave	O	O	VBD	O
+7-10	a	O	O	DT	O
+7-11	quick	O	O	JJ	O
+7-12	security	O	O	NN	O
+7-13	briefing	7-9_dobj	gave	NN	P1_safety_instructions
+7-14	.	O	O	O	O
+
+#id=8
+#text=On the plane I sat beside a nice old man . 
+8-1	On	O	O	O	O
+8-2	the	O	O	DT	O
+8-3	plane	8-5_prep_on	sat	NN	P3_plane
+8-4	I	8-5_nsubj	sat	PRP	P1_passenger
+8-5	sat	O	O	VBD	O
+8-6	beside	O	O	O	O
+8-7	a	O	O	DT	O
+8-8	nice	O	O	JJ	O
+8-9	old	O	O	JJ	O
+8-10	man	8-5_prep_beside	sat	NN	P3_passenger
+8-11	.	O	O	O	O
+
+#id=9
+#text=We talked about what we were going to do in Ireland . 
+9-1	We	9-2_nsubj	talked	PRP	P4_passenger
+9-2	talked	O	O	VBD	O
+9-3	about	O	O	O	O
+9-4	what	9-7_dobj	going	WP	O
+9-5	we	9-7_nsubj	going	PRP	P4_passenger
+9-6	were	9-7_aux	going	VBD	O
+9-7	going	9-2_prepc_about	talked	VBG	O
+9-8	to	9-9_aux	do	TO	O
+9-9	do	9-7_xcomp	going	VB	O
+9-10	in	O	O	O	O
+9-11	Ireland	9-9_prep_in	do	NNP	P1_target_location
+9-12	.	O	O	O	O
+
+#id=10
+#text=He said that he wanted to meet new friends and visit the popular tourist spots . 
+10-1	He	10-2_nsubj	said	PRP	P3_passenger
+10-2	said	O	O	VBD	O
+10-3	that	10-5_mark	wanted	IN	O
+10-4	he	10-5_nsubj	wanted	PRP	P3_passenger
+10-5	wanted	10-2_ccomp	said	VBD	O
+10-6	to	10-7_aux	meet	TO	O
+10-7	meet	10-5_xcomp	wanted	VB	O
+10-8	new	O	O	JJ	O
+10-9	friends	10-7_dobj	meet	NNS	P1_NPart_friends
+10-10	and	O	O	O	O
+10-11	visit	10-7_conj_and	meet	VB	O
+10-12	the	O	O	DT	O
+10-13	popular	O	O	JJ	O
+10-14	tourist	O	O	NN	O
+10-15	spots	10-11_dobj	visit	NNS	P1_NPart_spots
+10-16	.	O	O	O	O
+
+#id=11
+#text=After about an hour the air hostess brought me some refreshments . 
+11-1	After	O	O	O	O
+11-2	about	O	O	RB	O
+11-3	an	O	O	DT	O
+11-4	hour	11-8_prep_after	brought	NN	P3_time/date
+11-5	the	O	O	DT	O
+11-6	air	O	O	NN	O
+11-7	hostess	11-8_nsubj	brought	NNS	P1_staff
+11-8	brought	O	O	VBD	O
+11-9	me	O	O	PRP	P1_passenger
+11-10	some	O	O	DT	O
+11-11	refreshments	11-8_xcomp	brought	NNS	P1_in-flight_entertainment
+11-12	.	O	O	O	O
+
+#id=12
+#text=They were tasty . 
+12-1	They	O	O	PRP	P1_in-flight_entertainment
+12-2	were	O	O	VBD	O
+12-3	tasty	O	O	JJ	O
+12-4	.	O	O	O	O
+
+#id=13
+#text=After 2 hours we landed at our destination . 
+13-1	After	O	O	O	O
+13-2	2	O	O	CD	O
+13-3	hours	13-5_prep_after	landed	NNS	P4_time/date
+13-4	we	13-5_nsubj	landed	PRP	P5_passenger
+13-5	landed	O	O	VBD	O
+13-6	at	O	O	O	O
+13-7	our	O	O	PRP$	P6_passenger
+13-8	destination	13-5_prep_at	landed	NN	P1_target_location
+13-9	.	O	O	O	O
+
+#id=14
+#text=I exited the plane and collected my suitcase . 
+14-1	I	14-2_nsubj	exited	PRP	P1_passenger
+14-2	exited	O	O	VBD	O
+14-3	the	O	O	DT	O
+14-4	plane	14-2_dobj	exited	NN	P1_plane
+14-5	and	O	O	O	O
+14-6	collected	14-2_conj_and	exited	VBD	O
+14-7	my	O	O	PRP$	P1_passenger
+14-8	suitcase	14-6_dobj	collected	NN	P1_check_in_luggage
+14-9	.	O	O	O	O
+
+#id=15
+#text=I walked through the exit doors and saw my family waiting for me outside . 
+15-1	I	15-2_nsubj	walked	PRP	P1_passenger
+15-2	walked	O	O	VBD	O
+15-3	through	O	O	O	O
+15-4	the	O	O	DT	O
+15-5	exit	O	O	NN	O
+15-6	doors	15-2_prep_through	walked	NNS	P1_NPart_doors
+15-7	and	O	O	O	O
+15-8	saw	15-2_conj_and	walked	VBD	O
+15-9	my	O	O	PRP$	P1_passenger
+15-10	family	15-8_dobj	saw	NN	P1_accomp_person
+15-11	waiting	15-8_xcomp	saw	VBG	O
+15-12	for	O	O	O	O
+15-13	me	15-11_prep_for	waiting	PRP	P1_passenger
+15-14	outside	15-11_advmod	waiting	RB	O
+15-15	.	O	O	O	O
+
+#id=16
+#text=I really enjoyed my trip home . 
+16-1	I	16-3_nsubj	enjoyed	PRP	P1_passenger
+16-2	really	16-3_advmod	enjoyed	RB	O
+16-3	enjoyed	O	O	VBD	O
+16-4	my	O	O	PRP$	P1_passenger
+16-5	trip	O	O	NN	P1_NPart_trip
+16-6	home	16-3_dobj	enjoyed	NN	P1_target_location
+16-7	.	O	O	O	O

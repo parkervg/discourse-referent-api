@@ -1,0 +1,193 @@
+#id=1
+#text=I must have struck something while riding my bike because it suddenly lost all its pressure . 
+1-1	I	1-4_nsubj	struck	PRP	P1_rider
+1-2	must	1-4_aux	struck	MD	O
+1-3	have	1-4_aux	struck	VB	O
+1-4	struck	O	O	VBN	O
+1-5	something	1-4_dobj	struck	NN	P1_object_damage
+1-6	while	O	O	O	O
+1-7	riding	1-4_prepc_while	struck	VBG	O
+1-8	my	O	O	PRP$	P1_rider
+1-9	bike	1-7_dobj	riding	NN	P1_bicycle
+1-10	because	1-13_mark	lost	IN	O
+1-11	it	1-13_nsubj	lost	PRP	P1_bicycle
+1-12	suddenly	1-13_advmod	lost	RB	O
+1-13	lost	1-7_advcl	riding	VBD	O
+1-14	all	O	O	PDT	O
+1-15	its	O	O	PRP$	P1_bicycle
+1-16	pressure	1-13_dobj	lost	NN	P1_pressure
+1-17	.	O	O	O	O
+
+#id=2
+#text=Upon closer examination , I found a screw in it . 
+2-1	Upon	O	O	O	O
+2-2	closer	O	O	JJR	O
+2-3	examination	2-6_prep_upon	found	NN	P1_NPart_examination
+2-4	,	O	O	O	O
+2-5	I	2-6_nsubj	found	PRP	P1_rider
+2-6	found	O	O	VBD	O
+2-7	a	O	O	DT	O
+2-8	screw	2-6_dobj	found	NN	P1_object_damage
+2-9	in	O	O	O	O
+2-10	it	2-6_prep_in	found	PRP	P1_bicycle
+2-11	.	O	O	O	O
+
+#id=3
+#text=I sighed with frustration and laid the bike on its side . 
+3-1	I	3-2_nsubj	sighed	PRP	P1_rider
+3-2	sighed	O	O	VBD	O
+3-3	with	O	O	O	O
+3-4	frustration	3-2_prep_with	sighed	NN	P1_NPart_frustration
+3-5	and	O	O	O	O
+3-6	laid	3-2_conj_and	sighed	VBD	O
+3-7	the	O	O	DT	O
+3-8	bike	3-6_dobj	laid	NN	P1_bicycle
+3-9	on	O	O	O	O
+3-10	its	O	O	PRP$	P1_bicycle
+3-11	side	3-6_prep_on	laid	NN	P1_NPart_side
+3-12	.	O	O	O	O
+
+#id=4
+#text=I took out a wrench , a tube , and a tire tool out of my bag . 
+4-1	I	4-2_nsubj	took	PRP	P1_rider
+4-2	took	O	O	VBD	O
+4-3	out	4-2_prt	took	RP	O
+4-4	a	O	O	DT	O
+4-5	wrench	4-2_dobj	took	NN	P1_tool
+4-6	,	O	O	O	O
+4-7	a	O	O	DT	O
+4-8	tube	O	O	NN	P1_spare_tube
+4-9	,	O	O	O	O
+4-10	and	O	O	O	O
+4-11	a	O	O	DT	O
+4-12	tire	O	O	NN	O
+4-13	tool	O	O	NN	P2_tool
+4-14	out	O	O	O	O
+4-15	of	O	O	O	O
+4-16	my	O	O	PRP$	P1_rider
+4-17	bag	O	O	NN	P1_NPart_bag
+4-18	.	O	O	O	O
+
+#id=5
+#text=I loosened the nut holding the wheel on my bike with the wrench and then undid the rest with my hands . 
+5-1	I	5-2_nsubj	loosened	PRP	P1_rider
+5-2	loosened	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	nut	5-2_dobj	loosened	NN	P1_bicycle_small_detail
+5-5	holding	5-2_xcomp	loosened	VBG	O
+5-6	the	O	O	DT	O
+5-7	wheel	5-5_dobj	holding	NN	P1_wheel
+5-8	on	O	O	O	O
+5-9	my	O	O	PRP$	P1_rider
+5-10	bike	5-5_prep_on	holding	NN	P1_bicycle
+5-11	with	O	O	O	O
+5-12	the	O	O	DT	O
+5-13	wrench	O	O	NN	P1_tool
+5-14	and	O	O	O	O
+5-15	then	5-16_advmod	undid	RB	O
+5-16	undid	5-2_conj_and	loosened	VBD	O
+5-17	the	O	O	DT	O
+5-18	rest	5-16_dobj	undid	NN	O
+5-19	with	O	O	O	O
+5-20	my	O	O	PRP$	P1_rider
+5-21	hands	5-16_prep_with	undid	NNS	P1_NPart_hands
+5-22	.	O	O	O	O
+
+#id=6
+#text=When the wheel was free , I took the tire tool and wedged it between the wheel and tire to remove the rubber . 
+6-1	When	O	O	WRB	O
+6-2	the	O	O	DT	O
+6-3	wheel	O	O	NN	P1_wheel
+6-4	was	O	O	VBD	O
+6-5	free	6-8_advcl	took	JJ	O
+6-6	,	O	O	O	O
+6-7	I	6-8_nsubj	took	PRP	P1_rider
+6-8	took	O	O	VBD	O
+6-9	the	O	O	DT	O
+6-10	tire	O	O	NN	O
+6-11	tool	6-8_dobj	took	NN	P2_tool
+6-12	and	O	O	O	O
+6-13	wedged	6-8_conj_and	took	VBD	O
+6-14	it	6-13_dobj	wedged	PRP	P2_tool
+6-15	between	O	O	O	O
+6-16	the	O	O	DT	O
+6-17	wheel	6-13_prep_between	wedged	NN	P1_wheel
+6-18	and	O	O	O	O
+6-19	tire	O	O	NN	P1_tire
+6-20	to	6-21_aux	remove	TO	O
+6-21	remove	6-13_vmod	wedged	VB	O
+6-22	the	O	O	DT	O
+6-23	rubber	6-21_dobj	remove	NN	P1_tire
+6-24	.	O	O	O	O
+
+#id=7
+#text=I examined the inner tube and it was definitely beyond repair . 
+7-1	I	7-2_nsubj	examined	PRP	P1_rider
+7-2	examined	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	inner	O	O	JJ	O
+7-5	tube	7-2_dobj	examined	NN	P2_tire
+7-6	and	O	O	O	O
+7-7	it	7-8_nsubj	was	PRP	P2_tire
+7-8	was	7-2_conj_and	examined	VBD	O
+7-9	definitely	7-8_advmod	was	RB	O
+7-10	beyond	O	O	O	O
+7-11	repair	7-8_prep_beyond	was	NN	O
+7-12	.	O	O	O	O
+
+#id=8
+#text=I removed the damaged tube and replaced it with the new one . 
+8-1	I	8-2_nsubj	removed	PRP	P1_rider
+8-2	removed	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	damaged	O	O	VBN	O
+8-5	tube	8-2_dobj	removed	NN	P2_tire
+8-6	and	O	O	O	O
+8-7	replaced	8-2_conj_and	removed	VBD	O
+8-8	it	8-7_dobj	replaced	PRP	P2_tire
+8-9	with	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	new	O	O	JJ	O
+8-12	one	8-7_prep_with	replaced	NN	P1_spare_tube
+8-13	.	O	O	O	O
+
+#id=9
+#text=I put the tire back onto the wheel and pulled the air pin through the hole on the wheel . 
+9-1	I	9-2_nsubj	put	PRP	P1_rider
+9-2	put	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	tire	9-2_dobj	put	NN	P1_tire
+9-5	back	9-2_prt	put	RP	O
+9-6	onto	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	wheel	9-2_prep_onto	put	NN	P1_wheel
+9-9	and	O	O	O	O
+9-10	pulled	9-2_conj_and	put	VBD	O
+9-11	the	O	O	DT	O
+9-12	air	O	O	NN	O
+9-13	pin	9-10_dobj	pulled	NN	P3_tool
+9-14	through	O	O	O	O
+9-15	the	O	O	DT	O
+9-16	hole	9-10_prep_through	pulled	NN	P1_NPart_hole
+9-17	on	O	O	O	O
+9-18	the	O	O	DT	O
+9-19	wheel	O	O	NN	P1_wheel
+9-20	.	O	O	O	O
+
+#id=10
+#text=I took out my air pump and began to refill the tire with air . 
+10-1	I	10-2_nsubj	took	PRP	P1_rider
+10-2	took	O	O	VBD	O
+10-3	out	10-2_prt	took	RP	O
+10-4	my	O	O	PRP$	P1_rider
+10-5	air	O	O	NN	O
+10-6	pump	10-2_dobj	took	NN	P4_tool
+10-7	and	O	O	O	O
+10-8	began	10-2_conj_and	took	VBD	O
+10-9	to	10-10_aux	refill	TO	O
+10-10	refill	10-8_xcomp	began	VB	O
+10-11	the	O	O	DT	O
+10-12	tire	10-10_dobj	refill	NN	P1_tire
+10-13	with	O	O	O	O
+10-14	air	10-10_prep_with	refill	NN	P1_air
+10-15	.	O	O	O	O

@@ -1,0 +1,201 @@
+#id=1
+#text=I usually get a haircut every few months to maintain . 
+1-1	I	1-3_nsubj	get	PRP	P1_customer
+1-2	usually	1-3_advmod	get	RB	O
+1-3	get	O	O	VBP	O
+1-4	a	O	O	DT	O
+1-5	haircut	1-3_dobj	get	NN	P1_haircut
+1-6	every	O	O	DT	O
+1-7	few	O	O	JJ	O
+1-8	months	1-3_tmod	get	NNS	P1_time/date
+1-9	to	1-10_aux	maintain	TO	O
+1-10	maintain	1-3_vmod	get	VB	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=I choose a day where I have time to relax and will reserve an appointment at my favorite salon and with my favorite stylist to get my haircut . 
+2-1	I	2-2_nsubj	choose	PRP	P1_customer
+2-2	choose	O	O	VBP	O
+2-3	a	O	O	DT	O
+2-4	day	2-2_tmod	choose	NN	P2_time/date
+2-5	where	2-7_advmod	have	WRB	O
+2-6	I	2-7_nsubj	have	PRP	P1_customer
+2-7	have	2-2_advcl	choose	VBP	O
+2-8	time	2-7_dobj	have	NN	P3_time/date
+2-9	to	2-10_aux	relax	TO	O
+2-10	relax	O	O	VB	O
+2-11	and	O	O	O	O
+2-12	will	2-13_aux	reserve	MD	O
+2-13	reserve	2-13_conj_and	reserve	VB	O
+2-14	an	O	O	DT	O
+2-15	appointment	2-13_dobj	reserve	NN	P1_appointment
+2-16	at	O	O	O	O
+2-17	my	O	O	PRP$	P1_customer
+2-18	favorite	O	O	JJ	O
+2-19	salon	2-13_prep_at	reserve	NN	P1_salon
+2-20	and	O	O	O	O
+2-21	with	O	O	O	O
+2-22	my	O	O	PRP$	P1_customer
+2-23	favorite	O	O	JJ	O
+2-24	stylist	2-13_prep_with	reserve	NN	P1_hairdresser
+2-25	to	2-26_aux	get	TO	O
+2-26	get	O	O	VB	O
+2-27	my	O	O	PRP$	P1_customer
+2-28	haircut	2-26_dobj	get	NN	P1_haircut
+2-29	.	O	O	O	O
+
+#id=3
+#text=I arrive at my salon and was greeted nicely . 
+3-1	I	3-2_nsubj	arrive	PRP	P1_customer
+3-2	arrive	O	O	VBP	O
+3-3	at	O	O	O	O
+3-4	my	O	O	PRP$	P2_customer
+3-5	salon	3-2_prep_at	arrive	NN	P1_salon
+3-6	and	O	O	O	O
+3-7	was	3-8_auxpass	greeted	VBD	O
+3-8	greeted	3-2_conj_and	arrive	VBN	O
+3-9	nicely	3-8_advmod	greeted	RB	O
+3-10	.	O	O	O	O
+
+#id=4
+#text=I hang my jacket in their closet . 
+4-1	I	4-2_nsubj	hang	PRP	P1_customer
+4-2	hang	O	O	VBP	O
+4-3	my	O	O	PRP$	P1_customer
+4-4	jacket	4-2_dobj	hang	NN	P1_other
+4-5	in	O	O	O	O
+4-6	their	O	O	PRP$	P1_salon
+4-7	closet	4-2_prep_in	hang	NN	P1_NPart_closet
+4-8	.	O	O	O	O
+
+#id=5
+#text=I start my getting a hair wash . 
+5-1	I	5-2_nsubj	start	PRP	P1_customer
+5-2	start	O	O	VBP	O
+5-3	my	5-4_nsubj	getting	PRP$	P1_customer
+5-4	getting	5-2_dep	start	VBG	O
+5-5	a	O	O	DT	O
+5-6	hair	O	O	NN	O
+5-7	wash	5-4_dobj	getting	NN	P2_other
+5-8	.	O	O	O	O
+
+#id=6
+#text=I sit and relax as they massage and wash my hair with very fragrant shampoos and conditioners . 
+6-1	I	6-2_nsubj	sit	PRP	P1_customer
+6-2	sit	O	O	VBP	O
+6-3	and	O	O	O	O
+6-4	relax	6-2_conj_and	sit	VBP	O
+6-5	as	6-7_mark	massage	IN	O
+6-6	they	6-7_nsubj	massage	PRP	P2_hairdresser
+6-7	massage	6-4_advcl	relax	VB	O
+6-8	and	O	O	O	O
+6-9	wash	6-7_conj_and	massage	VB	O
+6-10	my	O	O	PRP$	P1_customer
+6-11	hair	6-7_dobj	massage	NN	P1_hair
+6-12	with	O	O	O	O
+6-13	very	O	O	RB	O
+6-14	fragrant	O	O	JJ	O
+6-15	shampoos	6-7_prep_with	massage	NNS	P1_hair_styling/treatment
+6-16	and	O	O	O	O
+6-17	conditioners	O	O	NNS	P2_hair_styling/treatment
+6-18	.	O	O	O	O
+
+#id=7
+#text=After the hair wash I go sit in the chair of my favorite stylist . 
+7-1	After	O	O	O	O
+7-2	the	O	O	DT	O
+7-3	hair	O	O	NN	O
+7-4	wash	7-6_prep_after	go	NN	P2_other
+7-5	I	7-6_nsubj	go	PRP	P1_customer
+7-6	go	O	O	VBP	O
+7-7	sit	7-6_xcomp	go	VB	O
+7-8	in	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	chair	7-7_prep_in	sit	NN	P1_chair
+7-11	of	O	O	O	O
+7-12	my	O	O	PRP$	P1_customer
+7-13	favorite	O	O	JJ	O
+7-14	stylist	O	O	NN	P1_hairdresser
+7-15	.	O	O	O	O
+
+#id=8
+#text=He greets me with a smile and asks me what kind of haircut would I like this time and I had said just a trim . 
+8-1	He	8-2_nsubj	greets	PRP	P1_hairdresser
+8-2	greets	O	O	VBZ	O
+8-3	me	8-2_dobj	greets	PRP	P1_customer
+8-4	with	O	O	O	O
+8-5	a	O	O	DT	O
+8-6	smile	8-2_prep_with	greets	NN	P1_NPart_smile
+8-7	and	O	O	O	O
+8-8	asks	8-2_conj_and	greets	VBZ	O
+8-9	me	8-8_dobj	asks	PRP	P1_customer
+8-10	what	O	O	WP	O
+8-11	kind	O	O	NN	P1_NPart_kind
+8-12	of	O	O	O	O
+8-13	haircut	O	O	NN	P1_haircut
+8-14	would	O	O	MD	O
+8-15	I	O	O	PRP	P1_customer
+8-16	like	O	O	O	O
+8-17	this	O	O	DT	O
+8-18	time	O	O	NN	P4_time/date
+8-19	and	O	O	O	O
+8-20	I	8-22_nsubj	said	PRP	P1_customer
+8-21	had	8-22_aux	said	VBD	O
+8-22	said	8-2_conj_and	greets	VBN	O
+8-23	just	O	O	RB	O
+8-24	a	O	O	DT	O
+8-25	trim	8-22_dobj	said	JJ	P2_haircut
+8-26	.	O	O	O	O
+
+#id=9
+#text=He blows my hair dry first and cuts my hair nicely as always and then ends it by styling it with some hair product . 
+9-1	He	9-2_nsubj	blows	PRP	P1_hairdresser
+9-2	blows	O	O	VBD	O
+9-3	my	O	O	PRP$	P1_customer
+9-4	hair	O	O	NN	P1_hair
+9-5	dry	9-2_xcomp	blows	JJ	O
+9-6	first	O	O	RB	O
+9-7	and	O	O	O	O
+9-8	cuts	9-2_conj_and	blows	VBZ	O
+9-9	my	O	O	PRP$	P1_customer
+9-10	hair	9-8_dobj	cuts	NN	P1_hair
+9-11	nicely	O	O	RB	O
+9-12	as	9-8_advmod	cuts	RB	O
+9-13	always	9-8_advmod	cuts	RB	O
+9-14	and	O	O	O	O
+9-15	then	9-16_advmod	ends	RB	O
+9-16	ends	9-8_conj_and	cuts	VBZ	O
+9-17	it	9-16_dobj	ends	PRP	P1_NPart_it
+9-18	by	O	O	O	O
+9-19	styling	9-16_prepc_by	ends	VBG	O
+9-20	it	9-19_dobj	styling	PRP	P1_hair
+9-21	with	O	O	O	O
+9-22	some	O	O	DT	O
+9-23	hair	O	O	NN	O
+9-24	product	9-19_prep_with	styling	NN	P3_hair_styling/treatment
+9-25	.	O	O	O	O
+
+#id=10
+#text=I pay the cashier and tip my stylist well . 
+10-1	I	10-2_nsubj	pay	PRP	P1_customer
+10-2	pay	O	O	VB	O
+10-3	the	O	O	DT	O
+10-4	cashier	10-2_iobj	pay	NN	P1_staff
+10-5	and	O	O	O	O
+10-6	tip	O	O	NN	O
+10-7	my	O	O	PRP$	P1_customer
+10-8	stylist	O	O	NN	P1_hairdresser
+10-9	well	10-2_dobj	pay	NN	O
+10-10	.	O	O	O	O
+
+#id=11
+#text=I leave the salon with nice salon hair . 
+11-1	I	11-2_nsubj	leave	PRP	P1_customer
+11-2	leave	O	O	VBP	O
+11-3	the	O	O	DT	O
+11-4	salon	11-2_dobj	leave	NN	P1_salon
+11-5	with	O	O	O	O
+11-6	nice	O	O	JJ	O
+11-7	salon	O	O	NN	P1_location_salon
+11-8	hair	O	O	NN	P1_hair
+11-9	.	O	O	O	O

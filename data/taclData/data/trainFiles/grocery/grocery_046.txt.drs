@@ -1,0 +1,237 @@
+#id=1
+#text=After breakfast I got in my car and drove to the grocery store to buy food for the next several days . 
+1-1	After	O	O	O	O
+1-2	breakfast	1-4_prep_after	got	NN	P1_NPart_breakfast
+1-3	I	1-4_nsubj	got	PRP	P1_shopper
+1-4	got	O	O	VBD	O
+1-5	in	O	O	O	O
+1-6	my	O	O	PRP$	P1_shopper
+1-7	car	1-4_prep_in	got	NN	P1_vehicle
+1-8	and	O	O	O	O
+1-9	drove	1-4_conj_and	got	VBD	O
+1-10	to	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	grocery	O	O	NN	O
+1-13	store	1-9_prep_to	drove	NN	P1_grocery_shop
+1-14	to	1-15_aux	buy	TO	O
+1-15	buy	1-9_xcomp	drove	VB	O
+1-16	food	1-15_dobj	buy	NN	P1_groceries
+1-17	for	O	O	O	O
+1-18	the	O	O	DT	O
+1-19	next	O	O	JJ	O
+1-20	several	O	O	JJ	O
+1-21	days	1-15_prep_for	buy	NNS	P1_NPart_days
+1-22	.	O	O	O	O
+
+#id=2
+#text=I like to walk so I parked in the back row of the parking lot . 
+2-1	I	2-2_nsubj	like	PRP	P1_shopper
+2-2	like	O	O	VBP	O
+2-3	to	2-4_aux	walk	TO	O
+2-4	walk	2-2_xcomp	like	VB	O
+2-5	so	2-7_mark	parked	IN	O
+2-6	I	2-7_nsubj	parked	PRP	P1_shopper
+2-7	parked	2-4_advcl	walk	VBD	O
+2-8	in	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	back	O	O	JJ	O
+2-11	row	2-7_prep_in	parked	NN	P1_NPart_row
+2-12	of	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	parking	O	O	NN	O
+2-15	lot	O	O	NN	P1_NPart_lot
+2-16	.	O	O	O	O
+
+#id=3
+#text=I walked in the store and selected a shopping cart that did n't have stuck wheels . 
+3-1	I	3-2_nsubj	walked	PRP	P1_shopper
+3-2	walked	O	O	VBD	O
+3-3	in	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	store	3-2_prep_in	walked	NN	P1_grocery_shop
+3-6	and	O	O	O	O
+3-7	selected	3-2_conj_and	walked	VBD	O
+3-8	a	O	O	DT	O
+3-9	shopping	O	O	NN	O
+3-10	cart	3-7_dobj	selected	NN	P1_shopping_cart/basket
+3-11	that	3-15_nsubj	stuck	WDT	P1_shopping_cart/basket
+3-12	did	3-15_aux	stuck	VBD	O
+3-13	n't	3-15_neg	stuck	RB	O
+3-14	have	3-15_aux	stuck	VB	O
+3-15	stuck	O	O	VBN	O
+3-16	wheels	3-15_dobj	stuck	NNS	P1_NPart_wheels
+3-17	.	O	O	O	O
+
+#id=4
+#text=As I normally do I first proceeded to the deli department and got a number . 
+4-1	As	4-4_mark	do	IN	O
+4-2	I	4-4_nsubj	do	PRP	P1_shopper
+4-3	normally	4-4_advmod	do	RB	O
+4-4	do	4-7_advcl	proceeded	VBP	O
+4-5	I	4-7_nsubj	proceeded	PRP	P1_shopper
+4-6	first	4-7_advmod	proceeded	RB	O
+4-7	proceeded	O	O	VBD	O
+4-8	to	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	deli	O	O	NNS	O
+4-11	department	4-7_prep_to	proceeded	NN	P1_section
+4-12	and	O	O	O	O
+4-13	got	4-7_conj_and	proceeded	VBD	O
+4-14	a	O	O	DT	O
+4-15	number	4-13_dobj	got	NN	P1_NPart_number
+4-16	.	O	O	O	O
+
+#id=5
+#text=Since there were several people in front of me I started my shopping near the deli . 
+5-1	Since	5-3_mark	were	IN	O
+5-2	there	5-3_expl	were	EX	O
+5-3	were	5-11_advcl	started	VBD	O
+5-4	several	O	O	JJ	O
+5-5	people	5-3_nsubj	were	NNS	P2_shopper
+5-6	in	O	O	O	O
+5-7	front	O	O	O	O
+5-8	of	O	O	O	O
+5-9	me	O	O	PRP	P1_shopper
+5-10	I	5-11_nsubj	started	PRP	P1_shopper
+5-11	started	O	O	VBD	O
+5-12	my	O	O	PRP$	P1_shopper
+5-13	shopping	5-11_dobj	started	NN	O
+5-14	near	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	deli	5-11_prep_near	started	NNS	P1_section
+5-17	.	O	O	O	O
+
+#id=6
+#text=I picked some fresh produce and vegetables until my number was called . 
+6-1	I	6-2_nsubj	picked	PRP	P1_shopper
+6-2	picked	O	O	VBD	O
+6-3	some	O	O	DT	O
+6-4	fresh	O	O	JJ	O
+6-5	produce	6-2_dobj	picked	NN	P2_groceries
+6-6	and	O	O	O	O
+6-7	vegetables	O	O	NNS	P3_groceries
+6-8	until	6-12_mark	called	IN	O
+6-9	my	O	O	PRP$	P1_shopper
+6-10	number	6-12_nsubjpass	called	NN	P2_NPart_number
+6-11	was	6-12_auxpass	called	VBD	O
+6-12	called	6-2_advcl	picked	VBN	O
+6-13	.	O	O	O	O
+
+#id=7
+#text=At the deli I purchased ham , cheese and salami . 
+7-1	At	O	O	O	O
+7-2	the	O	O	DT	O
+7-3	deli	7-5_prep_at	purchased	NNS	P1_section
+7-4	I	7-5_nsubj	purchased	PRP	P1_shopper
+7-5	purchased	O	O	VBD	O
+7-6	ham	7-5_dobj	purchased	NN	P4_groceries
+7-7	,	O	O	O	O
+7-8	cheese	O	O	NN	P5_groceries
+7-9	and	O	O	O	O
+7-10	salami	O	O	NN	P6_groceries
+7-11	.	O	O	O	O
+
+#id=8
+#text=I picked up a whole chicken and a steak , the steak would be for tonight the chicken for a few days . 
+8-1	I	8-2_nsubj	picked	PRP	P1_shopper
+8-2	picked	O	O	VBD	O
+8-3	up	8-2_prt	picked	RP	O
+8-4	a	O	O	DT	O
+8-5	whole	O	O	JJ	O
+8-6	chicken	8-2_dobj	picked	NN	P7_groceries
+8-7	and	O	O	O	O
+8-8	a	O	O	DT	O
+8-9	steak	O	O	NN	P8_groceries
+8-10	,	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	steak	O	O	NN	P8_groceries
+8-13	would	O	O	MD	O
+8-14	be	O	O	VB	O
+8-15	for	O	O	IN	O
+8-16	tonight	O	O	RB	O
+8-17	the	O	O	DT	O
+8-18	chicken	O	O	NN	P7_groceries
+8-19	for	O	O	O	O
+8-20	a	O	O	DT	O
+8-21	few	O	O	JJ	O
+8-22	days	O	O	NNS	P2_NPart_days
+8-23	.	O	O	O	O
+
+#id=9
+#text=I picked up stuffing and gravy for the chicken . 
+9-1	I	9-2_nsubj	picked	PRP	P1_shopper
+9-2	picked	O	O	VBD	O
+9-3	up	9-2_prt	picked	RP	O
+9-4	stuffing	9-2_dobj	picked	VBG	P9_groceries
+9-5	and	O	O	O	O
+9-6	gravy	9-4_conj_and	stuffing	NN	P10_groceries
+9-7	for	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	chicken	9-4_prep_for	stuffing	NN	P7_groceries
+9-10	.	O	O	O	O
+
+#id=10
+#text=I browsed through the isles selecting various items that I did n't really need . 
+10-1	I	10-2_nsubj	browsed	PRP	P1_shopper
+10-2	browsed	O	O	VBD	O
+10-3	through	O	O	O	O
+10-4	the	O	O	DT	O
+10-5	isles	10-2_prep_through	browsed	NNS	P2_section
+10-6	selecting	O	O	VBG	O
+10-7	various	O	O	JJ	O
+10-8	items	10-6_dobj	selecting	NNS	P11_groceries
+10-9	that	10-14_mark	need	IN	P11_groceries
+10-10	I	10-14_nsubj	need	PRP	P1_shopper
+10-11	did	10-14_aux	need	VBD	O
+10-12	n't	10-14_neg	need	RB	O
+10-13	really	10-14_advmod	need	RB	O
+10-14	need	10-6_ccomp	selecting	VB	O
+10-15	.	O	O	O	O
+
+#id=11
+#text=As I proceeded to the checkout there was a sale isle which I picked up a few more items . 
+11-1	As	11-3_mark	proceeded	IN	O
+11-2	I	11-3_nsubj	proceeded	PRP	P1_shopper
+11-3	proceeded	11-8_advcl	was	VBD	O
+11-4	to	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	checkout	11-3_prep_to	proceeded	NN	P1_cash_desk
+11-7	there	11-8_expl	was	EX	O
+11-8	was	O	O	VBD	O
+11-9	a	O	O	DT	O
+11-10	sale	O	O	NN	O
+11-11	isle	11-8_nsubj	was	NN	P3_section
+11-12	which	11-14_dobj	picked	WDT	O
+11-13	I	11-14_nsubj	picked	PRP	P1_shopper
+11-14	picked	O	O	VBD	O
+11-15	up	O	O	IN	O
+11-16	a	O	O	DT	O
+11-17	few	O	O	JJ	O
+11-18	more	O	O	JJR	O
+11-19	items	11-14_dobj	picked	NNS	P11_groceries
+11-20	.	O	O	O	O
+
+#id=12
+#text=I paid for my groceries and walked back to my car , placing the bags in the car and drove home . 
+12-1	I	12-2_nsubj	paid	PRP	P1_shopper
+12-2	paid	O	O	VBD	O
+12-3	for	O	O	O	O
+12-4	my	O	O	PRP$	P1_shopper
+12-5	groceries	12-2_prep_for	paid	NNS	P11_groceries
+12-6	and	O	O	O	O
+12-7	walked	12-2_conj_and	paid	VBD	O
+12-8	back	12-7_prt	walked	RP	O
+12-9	to	O	O	O	O
+12-10	my	O	O	PRP$	P1_shopper
+12-11	car	12-7_prep_to	walked	NN	P1_vehicle
+12-12	,	O	O	O	O
+12-13	placing	12-7_dep	walked	VBG	O
+12-14	the	O	O	DT	O
+12-15	bags	12-13_dobj	placing	NNS	P1_shopping_bags
+12-16	in	O	O	O	O
+12-17	the	O	O	DT	O
+12-18	car	12-13_prep_in	placing	NN	P1_vehicle
+12-19	and	O	O	O	O
+12-20	drove	12-7_conj_and	walked	VBD	O
+12-21	home	12-20_dobj	drove	NN	P1_NPart_home
+12-22	.	O	O	O	O

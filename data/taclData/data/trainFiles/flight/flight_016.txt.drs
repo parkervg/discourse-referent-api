@@ -1,0 +1,328 @@
+#id=1
+#text=My first flight out of the United States was to Myanmar . 
+1-1	My	O	O	PRP$	P1_passenger
+1-2	first	O	O	JJ	O
+1-3	flight	1-9_nsubj	was	NN	P1_flight
+1-4	out	O	O	O	O
+1-5	of	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	United	O	O	NNP	O
+1-8	States	O	O	NNPS	P1_NPart_states
+1-9	was	O	O	VBD	O
+1-10	to	O	O	O	O
+1-11	Myanmar	1-9_prep_to	was	NNP	P1_target_location
+1-12	.	O	O	O	O
+
+#id=2
+#text=I was excited but very nervous all at the same time . 
+2-1	I	O	O	PRP	P1_passenger
+2-2	was	O	O	VBD	O
+2-3	excited	O	O	JJ	O
+2-4	but	O	O	CC	O
+2-5	very	O	O	RB	O
+2-6	nervous	O	O	JJ	O
+2-7	all	O	O	DT	O
+2-8	at	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	same	O	O	JJ	O
+2-11	time	O	O	NN	O
+2-12	.	O	O	O	O
+
+#id=3
+#text=Going through security checks and all that comes with it is nerve racking . 
+3-1	Going	O	O	VBG	O
+3-2	through	O	O	O	O
+3-3	security	O	O	NN	O
+3-4	checks	3-1_prep_through	Going	NNS	P1_security_check
+3-5	and	O	O	O	O
+3-6	all	O	O	DT	O
+3-7	that	3-8_nsubj	comes	WDT	O
+3-8	comes	O	O	VBZ	O
+3-9	with	O	O	O	O
+3-10	it	3-8_prep_with	comes	PRP	O
+3-11	is	O	O	VBZ	O
+3-12	nerve	O	O	NN	O
+3-13	racking	O	O	VBG	O
+3-14	.	O	O	O	O
+
+#id=4
+#text=But once I finished with that part , the next thing was understand the time change and how that affects my flights and connections was a real hassle . 
+4-1	But	4-12_cc	was	CC	O
+4-2	once	4-4_mark	finished	IN	O
+4-3	I	4-4_nsubj	finished	PRP	P1_passenger
+4-4	finished	4-12_advcl	was	VBD	O
+4-5	with	O	O	O	O
+4-6	that	O	O	DT	O
+4-7	part	4-4_prep_with	finished	NN	P1_NPart_part
+4-8	,	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	next	O	O	JJ	O
+4-11	thing	4-12_nsubj	was	NN	P1_NPart_thing
+4-12	was	O	O	VBD	O
+4-13	understand	4-12_dep	was	VBP	O
+4-14	the	O	O	DT	O
+4-15	time	O	O	NN	O
+4-16	change	4-13_dobj	understand	NN	P1_time/date
+4-17	and	O	O	O	O
+4-18	how	4-20_advmod	affects	WRB	O
+4-19	that	4-20_nsubj	affects	DT	P1_time/date
+4-20	affects	4-13_conj_and	understand	VBZ	O
+4-21	my	O	O	PRP$	P1_passenger
+4-22	flights	O	O	NNS	P1_flight
+4-23	and	O	O	O	O
+4-24	connections	O	O	NNS	P1_other
+4-25	was	O	O	VBD	O
+4-26	a	O	O	DT	O
+4-27	real	O	O	JJ	O
+4-28	hassle	4-20_ccomp	affects	NN	P1_NPart_hassle
+4-29	.	O	O	O	O
+
+#id=5
+#text=Once we got on the plane it was absolutely wonderful . 
+5-1	Once	5-3_mark	got	IN	O
+5-2	we	5-3_nsubj	got	PRP	P2_passenger
+5-3	got	O	O	VBD	O
+5-4	on	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	plane	5-3_prep_on	got	NN	P1_plane
+5-7	it	O	O	PRP	O
+5-8	was	O	O	VBD	O
+5-9	absolutely	O	O	RB	O
+5-10	wonderful	O	O	JJ	O
+5-11	.	O	O	O	O
+
+#id=6
+#text=The flight attendants took great care of us never stopping to rest for the entire 20 hours flight . 
+6-1	The	O	O	DT	O
+6-2	flight	O	O	NN	O
+6-3	attendants	6-4_nsubj	took	NNS	P1_staff
+6-4	took	O	O	VBD	O
+6-5	great	O	O	JJ	O
+6-6	care	6-4_dobj	took	NN	O
+6-7	of	O	O	O	O
+6-8	us	6-10_nsubj	stopping	PRP	P3_passenger
+6-9	never	6-10_neg	stopping	RB	O
+6-10	stopping	O	O	VBG	O
+6-11	to	6-12_aux	rest	TO	O
+6-12	rest	6-10_xcomp	stopping	VB	O
+6-13	for	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	entire	O	O	JJ	O
+6-16	20	O	O	CD	O
+6-17	hours	O	O	NNS	P2_time/date
+6-18	flight	6-12_prep_for	rest	NN	P1_flight
+6-19	.	O	O	O	O
+
+#id=7
+#text=They brought food , warm face towels , drinks and snacks and all this was included in the price of the ticket . 
+7-1	They	7-2_nsubj	brought	PRP	P2_staff
+7-2	brought	O	O	VBD	O
+7-3	food	O	O	NN	O
+7-4	,	O	O	O	O
+7-5	warm	O	O	JJ	O
+7-6	face	O	O	NN	O
+7-7	towels	7-16_nsubjpass	included	NNS	O
+7-8	,	O	O	O	O
+7-9	drinks	O	O	NNS	O
+7-10	and	O	O	O	O
+7-11	snacks	O	O	NNS	P2_other
+7-12	and	O	O	O	O
+7-13	all	O	O	PDT	O
+7-14	this	O	O	DT	P2_other
+7-15	was	7-16_auxpass	included	VBD	O
+7-16	included	7-2_ccomp	brought	VBN	O
+7-17	in	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	price	7-16_prep_in	included	NN	P3_other
+7-20	of	O	O	O	O
+7-21	the	O	O	DT	O
+7-22	ticket	O	O	NN	P1_ticket
+7-23	.	O	O	O	O
+
+#id=8
+#text=I am very afraid of flying the take off the landing are the worst parts for me . 
+8-1	I	O	O	PRP	P1_passenger
+8-2	am	O	O	VBP	O
+8-3	very	O	O	RB	O
+8-4	afraid	O	O	JJ	O
+8-5	of	O	O	O	O
+8-6	flying	O	O	VBG	O
+8-7	the	O	O	DT	O
+8-8	take	8-6_dobj	flying	NN	O
+8-9	off	8-6_prt	flying	RP	O
+8-10	the	O	O	DT	O
+8-11	landing	O	O	NN	O
+8-12	are	O	O	VBP	O
+8-13	the	O	O	DT	O
+8-14	worst	O	O	JJS	O
+8-15	parts	O	O	NNS	P1_NPart_parts
+8-16	for	O	O	O	O
+8-17	me	O	O	PRP	P1_passenger
+8-18	.	O	O	O	O
+
+#id=9
+#text=True to my phobia I was in near tears and gripping the seats but once the flight was off the ground I was happy . 
+9-1	True	9-6_advmod	was	JJ	O
+9-2	to	O	O	O	O
+9-3	my	O	O	PRP$	P1_passenger
+9-4	phobia	O	O	NN	P1_NPart_phobia
+9-5	I	9-6_nsubj	was	PRP	P1_passenger
+9-6	was	O	O	VBD	O
+9-7	in	O	O	O	O
+9-8	near	O	O	JJ	O
+9-9	tears	9-6_prep_in	was	NNS	P1_NPart_tears
+9-10	and	O	O	O	O
+9-11	gripping	O	O	JJ	O
+9-12	the	O	O	DT	O
+9-13	seats	O	O	NNS	P1_seat
+9-14	but	O	O	O	O
+9-15	once	9-18_mark	was	IN	O
+9-16	the	O	O	DT	O
+9-17	flight	9-18_nsubj	was	NN	P1_flight
+9-18	was	O	O	VBD	O
+9-19	off	O	O	O	O
+9-20	the	O	O	DT	O
+9-21	ground	9-18_prep_off	was	NN	P1_location_airplane
+9-22	I	O	O	PRP	P1_passenger
+9-23	was	O	O	VBD	O
+9-24	happy	9-6_conj_but	was	JJ	O
+9-25	.	O	O	O	O
+
+#id=10
+#text=The flight came with a TV in the back of the set in front of you and there was so many choices of what to watch . 
+10-1	The	O	O	DT	O
+10-2	flight	10-3_nsubj	came	NN	P1_flight
+10-3	came	O	O	VBD	O
+10-4	with	O	O	O	O
+10-5	a	O	O	DT	O
+10-6	TV	10-3_prep_with	came	NN	P1_in-flight_entertainment
+10-7	in	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	back	O	O	NN	O
+10-10	of	O	O	O	O
+10-11	the	O	O	DT	O
+10-12	set	O	O	NN	P2_seat
+10-13	in	O	O	O	O
+10-14	front	O	O	O	O
+10-15	of	O	O	O	O
+10-16	you	10-3_prep_in_front_of	came	PRP	P1_passenger
+10-17	and	O	O	O	O
+10-18	there	10-19_expl	was	EX	O
+10-19	was	10-3_conj_and	came	VBD	O
+10-20	so	10-19_advmod	was	RB	O
+10-21	many	O	O	JJ	O
+10-22	choices	10-19_nsubj	was	NNS	P1_NPart_choices
+10-23	of	O	O	O	O
+10-24	what	10-26_nsubj	watch	WP	O
+10-25	to	10-26_aux	watch	TO	O
+10-26	watch	O	O	VB	O
+10-27	.	O	O	O	O
+
+#id=11
+#text=I love documentaries and there were numerous ones . 
+11-1	I	11-2_nsubj	love	PRP	P1_passenger
+11-2	love	O	O	VBP	O
+11-3	documentaries	11-2_dobj	love	NNS	P2_in-flight_entertainment
+11-4	and	O	O	O	O
+11-5	there	11-6_expl	were	EX	O
+11-6	were	11-2_conj_and	love	VBD	O
+11-7	numerous	O	O	JJ	O
+11-8	ones	11-6_nsubj	were	NNS	O
+11-9	.	O	O	O	O
+
+#id=12
+#text=I almost hated when the flight was over . 
+12-1	I	12-3_nsubj	hated	PRP	P1_passenger
+12-2	almost	12-3_advmod	hated	RB	O
+12-3	hated	O	O	VBZ	O
+12-4	when	O	O	WRB	O
+12-5	the	O	O	DT	O
+12-6	flight	O	O	NN	P2_flight
+12-7	was	O	O	VBD	O
+12-8	over	12-3_advcl	hated	RP	O
+12-9	.	O	O	O	O
+
+#id=13
+#text=The only part that I found difficult was that , I did not have an end seat and so I hesitated to use the bathroom and did n't do so until I was in extreme discomfort because I did n't want to bother the person on the end seat . 
+13-1	The	O	O	DT	O
+13-2	only	O	O	JJ	O
+13-3	part	13-8_nsubj	was	NN	P2_NPart_part
+13-4	that	13-6_mark	found	IN	O
+13-5	I	13-6_nsubj	found	PRP	P1_passenger
+13-6	found	O	O	VBD	O
+13-7	difficult	13-6_acomp	found	JJ	O
+13-8	was	O	O	VBD	O
+13-9	that	13-14_mark	have	IN	O
+13-10	,	O	O	O	O
+13-11	I	13-14_nsubj	have	PRP	P1_passenger
+13-12	did	13-14_aux	have	VBD	O
+13-13	not	13-14_neg	have	RB	O
+13-14	have	13-8_advcl	was	VB	O
+13-15	an	O	O	DT	O
+13-16	end	O	O	NN	O
+13-17	seat	13-14_dobj	have	NN	P3_seat
+13-18	and	O	O	O	O
+13-19	so	13-21_mark	hesitated	IN	O
+13-20	I	13-21_nsubj	hesitated	PRP	P1_passenger
+13-21	hesitated	13-14_conj_and	have	VBD	O
+13-22	to	13-23_aux	use	TO	O
+13-23	use	13-21_xcomp	hesitated	VB	O
+13-24	the	O	O	DT	O
+13-25	bathroom	13-23_dobj	use	NN	P1_location_airplane_indoor
+13-26	and	O	O	O	O
+13-27	did	13-29_aux	do	VBD	O
+13-28	n't	13-29_neg	do	RB	O
+13-29	do	13-21_conj_and	hesitated	VB	O
+13-30	so	13-33_advmod	was	RB	O
+13-31	until	13-33_mark	was	IN	O
+13-32	I	13-33_nsubj	was	PRP	P1_passenger
+13-33	was	13-29_advcl	do	VBD	O
+13-34	in	O	O	O	O
+13-35	extreme	O	O	JJ	O
+13-36	discomfort	13-33_prep_in	was	NN	P1_NPart_discomfort
+13-37	because	13-41_mark	want	IN	O
+13-38	I	13-41_nsubj	want	PRP	P1_passenger
+13-39	did	13-41_aux	want	VBD	O
+13-40	n't	13-41_neg	want	RB	O
+13-41	want	13-33_advcl	was	VB	O
+13-42	to	13-43_aux	bother	TO	O
+13-43	bother	13-41_xcomp	want	VB	O
+13-44	the	O	O	DT	O
+13-45	person	13-43_dobj	bother	NN	P4_passenger
+13-46	on	O	O	O	O
+13-47	the	O	O	DT	O
+13-48	end	O	O	NN	O
+13-49	seat	13-43_prep_on	bother	NN	P3_seat
+13-50	.	O	O	O	O
+
+#id=14
+#text=So , next time I decide to travel the only change I would make is to select an end seat that way bathroom use is not an issue . 
+14-1	So	14-15_advmod	is	RB	O
+14-2	,	O	O	O	O
+14-3	next	O	O	JJ	O
+14-4	time	14-15_nsubj	is	NN	O
+14-5	I	14-6_nsubj	decide	PRP	P1_passenger
+14-6	decide	O	O	VBP	O
+14-7	to	14-8_aux	travel	TO	O
+14-8	travel	14-6_xcomp	decide	VB	O
+14-9	the	O	O	DT	O
+14-10	only	O	O	JJ	O
+14-11	change	14-8_dobj	travel	NN	P1_NPart_change
+14-12	I	14-14_nsubj	make	PRP	P1_passenger
+14-13	would	14-14_aux	make	MD	O
+14-14	make	O	O	VB	O
+14-15	is	O	O	VBZ	O
+14-16	to	14-17_aux	select	TO	O
+14-17	select	14-15_xcomp	is	VB	O
+14-18	an	O	O	DT	O
+14-19	end	O	O	NN	O
+14-20	seat	14-17_dobj	select	NN	P3_seat
+14-21	that	O	O	IN	O
+14-22	way	O	O	NN	O
+14-23	bathroom	O	O	NN	P1_location_airplane_indoor
+14-24	use	O	O	NN	O
+14-25	is	O	O	VBZ	O
+14-26	not	O	O	RB	O
+14-27	an	O	O	DT	O
+14-28	issue	14-17_ccomp	select	NN	P1_NPart_issue
+14-29	.	O	O	O	O

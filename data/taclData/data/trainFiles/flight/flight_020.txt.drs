@@ -1,0 +1,200 @@
+#id=1
+#text=I made sure that the doors to the airplane were all closed and all the passengers were seated and buckled in . 
+1-1	I	1-2_nsubj	made	PRP	P1_staff
+1-2	made	O	O	VBD	O
+1-3	sure	1-2_acomp	made	JJ	O
+1-4	that	O	O	IN	O
+1-5	the	O	O	DT	O
+1-6	doors	O	O	NNS	P1_other
+1-7	to	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	airplane	O	O	NN	P1_plane
+1-10	were	O	O	VBD	O
+1-11	all	O	O	RB	O
+1-12	closed	1-2_ccomp	made	JJ	O
+1-13	and	O	O	O	O
+1-14	all	O	O	PDT	O
+1-15	the	O	O	DT	O
+1-16	passengers	1-18_nsubjpass	seated	NNS	P1_passenger
+1-17	were	1-18_auxpass	seated	VBD	O
+1-18	seated	O	O	VBN	O
+1-19	and	O	O	O	O
+1-20	buckled	1-18_conj_and	seated	VBD	O
+1-21	in	1-20_prt	buckled	RP	O
+1-22	.	O	O	O	O
+
+#id=2
+#text=After I went on the speaker and told everybody we were ready to depart , I carefully increased the speed of the plane as it bolted down the runway . 
+2-1	After	2-3_mark	went	IN	O
+2-2	I	2-3_nsubj	went	PRP	P1_staff
+2-3	went	2-18_advcl	increased	VBD	O
+2-4	on	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	speaker	2-3_prep_on	went	NN	P1_institutional_devices
+2-7	and	O	O	O	O
+2-8	told	2-3_conj_and	went	VBD	O
+2-9	everybody	2-8_dobj	told	NN	P2_passenger
+2-10	we	O	O	PRP	P1_plane
+2-11	were	O	O	VBD	O
+2-12	ready	2-8_dep	told	JJ	O
+2-13	to	2-14_aux	depart	TO	O
+2-14	depart	O	O	VB	O
+2-15	,	O	O	O	O
+2-16	I	2-18_nsubj	increased	PRP	P1_staff
+2-17	carefully	2-18_advmod	increased	RB	O
+2-18	increased	O	O	VBD	O
+2-19	the	O	O	DT	O
+2-20	speed	2-18_dobj	increased	NN	P2_other
+2-21	of	O	O	O	O
+2-22	the	O	O	DT	O
+2-23	plane	O	O	NN	P1_plane
+2-24	as	2-26_mark	bolted	IN	O
+2-25	it	2-26_nsubj	bolted	PRP	P1_plane
+2-26	bolted	2-18_advcl	increased	VBN	O
+2-27	down	2-26_prt	bolted	RP	O
+2-28	the	O	O	DT	O
+2-29	runway	2-26_dobj	bolted	NN	P1_location_airplane
+2-30	.	O	O	O	O
+
+#id=3
+#text=As the plane reached maximum speed on the driveway , i slowly pulled on the lever to lift the plane off the ground slowly . 
+3-1	As	3-4_mark	reached	IN	O
+3-2	the	O	O	DT	O
+3-3	plane	3-4_nsubj	reached	NN	P1_plane
+3-4	reached	3-13_advcl	pulled	VBD	O
+3-5	maximum	O	O	JJ	O
+3-6	speed	3-4_dobj	reached	NN	P1_NPart_speed
+3-7	on	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	driveway	3-4_prep_on	reached	NN	P2_location_airplane
+3-10	,	O	O	O	O
+3-11	i	3-13_nsubj	pulled	FW	P1_staff
+3-12	slowly	3-13_advmod	pulled	RB	O
+3-13	pulled	O	O	VBD	O
+3-14	on	O	O	O	O
+3-15	the	O	O	DT	O
+3-16	lever	3-13_prep_on	pulled	NN	P3_other
+3-17	to	3-18_aux	lift	TO	O
+3-18	lift	3-13_xcomp	pulled	VB	O
+3-19	the	O	O	DT	O
+3-20	plane	3-18_dobj	lift	NN	P1_plane
+3-21	off	3-18_prt	lift	RP	O
+3-22	the	O	O	DT	O
+3-23	ground	O	O	NN	P1_location_airplane
+3-24	slowly	3-18_advmod	lift	RB	O
+3-25	.	O	O	O	O
+
+#id=4
+#text=The plane eventually came completely off the runway and was in flight . 
+4-1	The	O	O	DT	O
+4-2	plane	4-4_nsubj	came	NN	P1_plane
+4-3	eventually	4-4_advmod	came	RB	O
+4-4	came	O	O	VBD	O
+4-5	completely	4-4_advmod	came	RB	O
+4-6	off	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	runway	4-4_prep_off	came	NN	P1_location_airplane
+4-9	and	O	O	O	O
+4-10	was	4-4_conj_and	came	VBD	O
+4-11	in	O	O	O	O
+4-12	flight	4-10_prep_in	was	NN	P1_flight
+4-13	.	O	O	O	O
+
+#id=5
+#text=I pulled the lever to lift the wheels into the plane . 
+5-1	I	5-2_nsubj	pulled	PRP	P1_staff
+5-2	pulled	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	lever	5-2_dobj	pulled	NN	P3_other
+5-5	to	5-6_aux	lift	TO	O
+5-6	lift	O	O	VB	O
+5-7	the	O	O	DT	O
+5-8	wheels	5-6_dobj	lift	NNS	P4_other
+5-9	into	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	plane	5-6_prep_into	lift	NN	P1_plane
+5-12	.	O	O	O	O
+
+#id=6
+#text=I manuveured the plane 's direction with the pilot wheel to aim it at the direction I wanted to go . 
+6-1	I	6-2_nsubj	manuveured	PRP	P1_staff
+6-2	manuveured	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	plane	O	O	NN	P1_plane
+6-5	's	O	O	O	O
+6-6	direction	6-2_dobj	manuveured	NN	P3_location_airplane
+6-7	with	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	pilot	O	O	NN	O
+6-10	wheel	6-2_prep_with	manuveured	NN	P5_other
+6-11	to	6-12_aux	aim	TO	O
+6-12	aim	6-2_vmod	manuveured	VB	O
+6-13	it	6-12_dobj	aim	PRP	P1_plane
+6-14	at	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	direction	6-12_prep_at	aim	NN	P3_location_airplane
+6-17	I	6-18_nsubj	wanted	PRP	P1_staff
+6-18	wanted	O	O	VBD	O
+6-19	to	6-20_aux	go	TO	O
+6-20	go	6-18_xcomp	wanted	VB	O
+6-21	.	O	O	O	O
+
+#id=7
+#text=As soon as the plane was at a maximum flying height I put the autopilot on and let the plane 's computer fly it automatically . 
+7-1	As	O	O	RB	O
+7-2	soon	7-13_advmod	put	RB	O
+7-3	as	7-6_mark	was	IN	O
+7-4	the	O	O	DT	O
+7-5	plane	7-6_nsubj	was	NN	P1_plane
+7-6	was	O	O	VBD	O
+7-7	at	O	O	O	O
+7-8	a	O	O	DT	O
+7-9	maximum	O	O	NN	P1_NPart_maximum
+7-10	flying	O	O	VBG	O
+7-11	height	7-6_prep_at	was	NN	P4_location_airplane
+7-12	I	7-13_nsubj	put	PRP	P1_staff
+7-13	put	O	O	VBP	O
+7-14	the	O	O	DT	O
+7-15	autopilot	7-13_dobj	put	NN	P6_other
+7-16	on	7-13_prt	put	RP	O
+7-17	and	O	O	O	O
+7-18	let	7-13_conj_and	put	VBD	O
+7-19	the	O	O	DT	O
+7-20	plane	O	O	NN	P1_plane
+7-21	's	O	O	O	O
+7-22	computer	7-23_nsubj	fly	NN	P6_other
+7-23	fly	7-18_ccomp	let	VBP	O
+7-24	it	7-23_dobj	fly	PRP	P1_plane
+7-25	automatically	7-23_advmod	fly	RB	O
+7-26	.	O	O	O	O
+
+#id=8
+#text=I sat back and kept watched over the data on the plane 's dashboard the rest of the flight until we got to where we were going . 
+8-1	I	8-2_nsubj	sat	PRP	P1_staff
+8-2	sat	8-6_dep	watched	VBD	O
+8-3	back	8-2_advmod	sat	RB	O
+8-4	and	O	O	O	O
+8-5	kept	8-2_conj_and	sat	VBD	O
+8-6	watched	O	O	VBD	O
+8-7	over	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	data	8-6_prep_over	watched	NNS	P7_other
+8-10	on	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	plane	O	O	NN	P1_plane
+8-13	's	O	O	O	O
+8-14	dashboard	8-6_prep_on	watched	NN	P8_other
+8-15	the	O	O	DT	O
+8-16	rest	8-6_nsubj	watched	NN	P1_NPart_rest
+8-17	of	O	O	O	O
+8-18	the	O	O	DT	O
+8-19	flight	O	O	NN	P2_flight
+8-20	until	O	O	O	O
+8-21	we	8-22_nsubj	got	PRP	P1_plane
+8-22	got	O	O	VBD	O
+8-23	to	O	O	O	O
+8-24	where	8-27_advmod	going	WRB	O
+8-25	we	8-27_nsubj	going	PRP	P1_plane
+8-26	were	8-27_aux	going	VBD	O
+8-27	going	8-22_prepc_to	got	VBG	O
+8-28	.	O	O	O	O

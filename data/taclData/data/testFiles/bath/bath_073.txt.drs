@@ -1,0 +1,242 @@
+#id=1
+#text=Every night before putting my son to bed he gets his bath . 
+1-1	Every	O	O	DT	O
+1-2	night	1-10_npadvmod	gets	NN	P1_NPart_night
+1-3	before	O	O	O	O
+1-4	putting	1-10_prepc_before	gets	VBG	O
+1-5	my	O	O	PRP$	P1_NPart_my
+1-6	son	1-4_dobj	putting	NN	P1_bather
+1-7	to	O	O	O	O
+1-8	bed	1-4_prep_to	putting	NN	P1_NPart_bed
+1-9	he	1-10_nsubj	gets	PRP	P1_bather
+1-10	gets	O	O	VBZ	O
+1-11	his	O	O	PRP$	P1_bather
+1-12	bath	1-10_dobj	gets	NN	P1_bath
+1-13	.	O	O	O	O
+
+#id=2
+#text=we go up to the bathroom and I start the water and add his favorite bubbles . 
+2-1	we	2-2_nsubj	go	PRP	P2_bather
+2-2	go	O	O	VBP	O
+2-3	up	2-2_prt	go	RP	O
+2-4	to	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	bathroom	2-2_prep_to	go	NN	P1_bathroom
+2-7	and	O	O	O	O
+2-8	I	2-9_nsubj	start	PRP	P1_NPart_i
+2-9	start	2-2_conj_and	go	VB	O
+2-10	the	O	O	DT	O
+2-11	water	2-9_dobj	start	NN	P1_water
+2-12	and	O	O	O	O
+2-13	add	2-9_conj_and	start	VB	O
+2-14	his	O	O	PRP$	P1_bather
+2-15	favorite	O	O	JJ	O
+2-16	bubbles	2-13_dobj	add	NNS	P1_bath_means
+2-17	.	O	O	O	O
+
+#id=3
+#text=After he is undressed he stands next to the tub and giggles and dances watching the running water create a mass of bubbles ! 
+3-1	After	3-4_mark	undressed	IN	O
+3-2	he	3-4_nsubjpass	undressed	PRP	P1_bather
+3-3	is	3-4_auxpass	undressed	VBZ	O
+3-4	undressed	3-6_advcl	stands	VBN	O
+3-5	he	3-6_nsubj	stands	PRP	P1_bather
+3-6	stands	O	O	VBZ	O
+3-7	next	O	O	O	O
+3-8	to	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	tub	3-6_prep_next_to	stands	NN	P2_bathroom
+3-11	and	O	O	O	O
+3-12	giggles	O	O	NNS	O
+3-13	and	O	O	O	O
+3-14	dances	O	O	NNS	O
+3-15	watching	O	O	VBG	O
+3-16	the	O	O	DT	O
+3-17	running	O	O	JJ	O
+3-18	water	3-19_nsubj	create	NN	P1_water
+3-19	create	3-15_ccomp	watching	VB	O
+3-20	a	O	O	DT	O
+3-21	mass	3-19_dobj	create	NN	O
+3-22	of	O	O	O	O
+3-23	bubbles	O	O	NNS	P1_bath_means
+3-24	!	O	O	O	O
+
+#id=4
+#text=I make sure the water is warm enough , because his baths tend to last a bit longer than most . 
+4-1	I	4-2_nsubj	make	PRP	P2_NPart_i
+4-2	make	O	O	VBP	O
+4-3	sure	4-2_acomp	make	JJ	O
+4-4	the	O	O	DT	O
+4-5	water	O	O	NN	P1_water
+4-6	is	O	O	VBZ	O
+4-7	warm	O	O	JJ	O
+4-8	enough	O	O	RB	O
+4-9	,	O	O	O	O
+4-10	because	4-13_mark	tend	IN	O
+4-11	his	O	O	PRP$	P1_bather
+4-12	baths	4-13_nsubj	tend	NNS	P1_bath
+4-13	tend	4-2_advcl	make	VBP	O
+4-14	to	4-15_aux	last	TO	O
+4-15	last	4-13_xcomp	tend	VB	O
+4-16	a	O	O	DT	O
+4-17	bit	O	O	RB	P1_NPart_bit
+4-18	longer	4-15_advmod	last	RBR	O
+4-19	than	O	O	O	O
+4-20	most	O	O	JJS	P1_NPart_most
+4-21	.	O	O	O	O
+
+#id=5
+#text=When the water is ready , he throws in all his tub toys , lizards and dinosaurs , cups and cars . 
+5-1	When	O	O	WRB	O
+5-2	the	O	O	DT	O
+5-3	water	O	O	NN	P1_water
+5-4	is	O	O	VBZ	O
+5-5	ready	5-8_advcl	throws	JJ	O
+5-6	,	O	O	O	O
+5-7	he	5-8_nsubj	throws	PRP	P1_bather
+5-8	throws	O	O	VBZ	O
+5-9	in	O	O	O	O
+5-10	all	O	O	DT	O
+5-11	his	O	O	PRP$	P3_bather
+5-12	tub	O	O	NN	O
+5-13	toys	5-8_prep_in	throws	NNS	P1_in-bath_entertainment
+5-14	,	O	O	O	O
+5-15	lizards	O	O	NNS	O
+5-16	and	O	O	O	O
+5-17	dinosaurs	O	O	NNS	O
+5-18	,	O	O	O	O
+5-19	cups	O	O	NNS	O
+5-20	and	O	O	O	O
+5-21	cars	O	O	NNS	P1_in-bath_entertainment
+5-22	.	O	O	O	O
+
+#id=6
+#text=The cars are his under water taxi 's for the fish , he says . 
+6-1	The	O	O	DT	O
+6-2	cars	O	O	NNS	P1_in-bath_entertainment
+6-3	are	O	O	VBP	O
+6-4	his	6-14_ccomp	says	PRP$	P1_bather
+6-5	under	O	O	O	O
+6-6	water	O	O	NN	O
+6-7	taxi	O	O	NN	P2_in-bath_entertainment
+6-8	's	O	O	POS	O
+6-9	for	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	fish	O	O	NN	P1_NPart_fish
+6-12	,	O	O	O	O
+6-13	he	6-14_nsubj	says	PRP	P1_bather
+6-14	says	O	O	VBZ	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=He sits amiss the bubbles playing with his toys and laughing . 
+7-1	He	7-2_nsubj	sits	PRP	P1_bather
+7-2	sits	O	O	VBZ	O
+7-3	amiss	7-2_acomp	sits	JJ	O
+7-4	the	O	O	DT	O
+7-5	bubbles	O	O	NNS	P1_bath_means
+7-6	playing	O	O	VBG	O
+7-7	with	O	O	O	O
+7-8	his	O	O	PRP$	P1_bather
+7-9	toys	7-6_prep_with	playing	NNS	P1_in-bath_entertainment
+7-10	and	O	O	O	O
+7-11	laughing	7-6_conj_and	playing	VBG	O
+7-12	.	O	O	O	O
+
+#id=8
+#text=We do the toe test , which is when i look at his toes and if they are wrinkle then time is up . 
+8-1	We	8-2_nsubj	do	PRP	P2_bather
+8-2	do	O	O	VBP	O
+8-3	the	O	O	DT	O
+8-4	toe	O	O	NN	P1_body_part
+8-5	test	8-22_nsubj	is	NN	P1_NPart_test
+8-6	,	O	O	O	O
+8-7	which	8-8_nsubj	is	WDT	O
+8-8	is	O	O	VBZ	O
+8-9	when	8-11_advmod	look	WRB	O
+8-10	i	8-11_nsubj	look	FW	O
+8-11	look	8-8_advcl	is	VBP	O
+8-12	at	O	O	O	O
+8-13	his	O	O	PRP$	P1_bather
+8-14	toes	8-11_prep_at	look	NNS	P2_body_part
+8-15	and	O	O	O	O
+8-16	if	8-19_mark	wrinkle	IN	O
+8-17	they	8-19_nsubj	wrinkle	PRP	P2_body_part
+8-18	are	8-19_aux	wrinkle	VBP	O
+8-19	wrinkle	8-11_conj_and	look	VBG	O
+8-20	then	8-19_advmod	wrinkle	RB	O
+8-21	time	8-19_dobj	wrinkle	NN	O
+8-22	is	8-2_ccomp	do	VBZ	O
+8-23	up	8-22_advmod	is	RB	O
+8-24	.	O	O	O	O
+
+#id=9
+#text=Yup toes are wrinkled , he laughs as wash his body and hair . 
+9-1	Yup	O	O	NNP	O
+9-2	toes	9-4_nsubjpass	wrinkled	NNS	P2_body_part
+9-3	are	9-4_auxpass	wrinkled	VBP	O
+9-4	wrinkled	9-7_ccomp	laughs	VBN	O
+9-5	,	O	O	O	O
+9-6	he	9-7_nsubj	laughs	PRP	P1_bather
+9-7	laughs	O	O	VBZ	O
+9-8	as	9-9_mark	wash	IN	O
+9-9	wash	9-7_advcl	laughs	VBP	O
+9-10	his	O	O	PRP$	P1_bather
+9-11	body	9-9_dobj	wash	NN	P3_body_part
+9-12	and	O	O	O	O
+9-13	hair	O	O	NN	P4_body_part
+9-14	.	O	O	O	O
+
+#id=10
+#text=I let the water out as he sits there and waits for the tub to empty , only then does he want to get out . 
+10-1	I	10-2_nsubj	let	PRP	P3_NPart_i
+10-2	let	O	O	VB	O
+10-3	the	O	O	DT	O
+10-4	water	10-2_dobj	let	NN	P1_water
+10-5	out	10-2_prt	let	RP	O
+10-6	as	10-8_mark	sits	IN	O
+10-7	he	10-8_nsubj	sits	PRP	P1_bather
+10-8	sits	10-20_dep	does	VBZ	O
+10-9	there	10-8_advmod	sits	RB	O
+10-10	and	O	O	O	O
+10-11	waits	10-20_conj_and	does	VBZ	O
+10-12	for	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	tub	10-11_prep_for	waits	NN	P1_bathtub
+10-15	to	10-16_aux	empty	TO	O
+10-16	empty	O	O	VB	O
+10-17	,	O	O	O	O
+10-18	only	10-20_advmod	does	RB	O
+10-19	then	10-20_advmod	does	RB	O
+10-20	does	10-2_advcl	let	VBZ	O
+10-21	he	10-22_nsubj	want	PRP	P1_bather
+10-22	want	10-20_ccomp	does	VBP	O
+10-23	to	10-24_aux	get	TO	O
+10-24	get	10-22_xcomp	want	VB	O
+10-25	out	10-24_prt	get	RP	O
+10-26	.	O	O	O	O
+
+#id=11
+#text=He helps to dry himself off and put his pajamas on . 
+11-1	He	11-2_nsubj	helps	PRP	P1_bather
+11-2	helps	O	O	VBZ	O
+11-3	to	11-4_aux	dry	TO	O
+11-4	dry	11-2_xcomp	helps	VB	O
+11-5	himself	11-4_dobj	dry	PRP	P1_bather
+11-6	off	11-4_prt	dry	RP	O
+11-7	and	O	O	O	O
+11-8	put	11-4_conj_and	dry	VB	O
+11-9	his	O	O	PRP$	P1_bather
+11-10	pajamas	11-8_dobj	put	NNS	P1_clothes
+11-11	on	11-8_prt	put	RP	O
+11-12	.	O	O	O	O
+
+#id=12
+#text=Now it is time for bed . 
+12-1	Now	O	O	RB	O
+12-2	it	O	O	PRP	O
+12-3	is	O	O	VBZ	O
+12-4	time	O	O	NN	O
+12-5	for	O	O	O	O
+12-6	bed	O	O	NN	P2_NPart_bed
+12-7	.	O	O	O	O

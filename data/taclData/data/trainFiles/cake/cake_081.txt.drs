@@ -1,0 +1,217 @@
+#id=1
+#text=When I bake a cake , it is usually for a birthday . 
+1-1	When	1-3_advmod	bake	WRB	O
+1-2	I	1-3_nsubj	bake	PRP	P1_cook
+1-3	bake	1-8_advcl	is	VBP	O
+1-4	a	O	O	DT	O
+1-5	cake	1-3_dobj	bake	NN	P1_cake
+1-6	,	O	O	O	O
+1-7	it	1-8_nsubj	is	PRP	P1_cake
+1-8	is	O	O	VBZ	O
+1-9	usually	1-8_advmod	is	RB	O
+1-10	for	O	O	O	O
+1-11	a	O	O	DT	O
+1-12	birthday	1-8_prep_for	is	NN	P1_NPart_birthday
+1-13	.	O	O	O	O
+
+#id=2
+#text=When I am baking a cake , I find a good recipe online with good reviews and make sure that I have all of the ingredients needed . 
+2-1	When	2-4_advmod	baking	WRB	O
+2-2	I	2-4_nsubj	baking	PRP	P1_cook
+2-3	am	2-4_aux	baking	VBP	O
+2-4	baking	2-9_advcl	find	VBG	O
+2-5	a	O	O	DT	O
+2-6	cake	2-4_dobj	baking	NN	P1_cake
+2-7	,	O	O	O	O
+2-8	I	2-9_nsubj	find	PRP	P1_cook
+2-9	find	O	O	VB	O
+2-10	a	O	O	DT	O
+2-11	good	O	O	JJ	O
+2-12	recipe	2-9_dobj	find	NN	P1_baking_instructions
+2-13	online	2-9_dep	find	NN	P1_recipe_source
+2-14	with	O	O	O	O
+2-15	good	O	O	JJ	O
+2-16	reviews	2-9_prep_with	find	NNS	P1_NPart_reviews
+2-17	and	O	O	O	O
+2-18	make	2-9_conj_and	find	VB	O
+2-19	sure	2-18_acomp	make	JJ	O
+2-20	that	2-22_mark	have	IN	O
+2-21	I	2-22_nsubj	have	PRP	P1_cook
+2-22	have	2-18_ccomp	make	VBP	O
+2-23	all	2-22_dobj	have	DT	O
+2-24	of	O	O	O	O
+2-25	the	O	O	DT	O
+2-26	ingredients	O	O	NNS	P1_ingredients
+2-27	needed	O	O	VBN	O
+2-28	.	O	O	O	O
+
+#id=3
+#text=I take all of the ingredients out and then I preheat the oven . 
+3-1	I	3-2_nsubj	take	PRP	P1_cook
+3-2	take	O	O	VBP	O
+3-3	all	3-2_dobj	take	DT	O
+3-4	of	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	ingredients	O	O	NNS	P2_ingredients
+3-7	out	3-2_prt	take	RP	O
+3-8	and	O	O	O	O
+3-9	then	3-11_advmod	preheat	RB	O
+3-10	I	3-11_nsubj	preheat	PRP	P1_cook
+3-11	preheat	3-2_conj_and	take	VBP	O
+3-12	the	O	O	DT	O
+3-13	oven	3-11_dobj	preheat	NN	P1_oven
+3-14	.	O	O	O	O
+
+#id=4
+#text=I find the appropriate pans needed and make sure they are clean . 
+4-1	I	4-2_nsubj	find	PRP	P1_cook
+4-2	find	O	O	VBP	O
+4-3	the	O	O	DT	O
+4-4	appropriate	O	O	JJ	O
+4-5	pans	4-6_nsubj	needed	NNS	P1_cake_tin
+4-6	needed	4-2_ccomp	find	VBD	O
+4-7	and	O	O	O	O
+4-8	make	4-6_conj_and	needed	VBP	O
+4-9	sure	4-8_acomp	make	JJ	O
+4-10	they	O	O	PRP	P1_cake_tin
+4-11	are	O	O	VBP	O
+4-12	clean	O	O	JJ	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=Then I grease and flour the pans and add parchment paper to the bottom . 
+5-1	Then	5-3_advmod	grease	RB	O
+5-2	I	5-3_nsubj	grease	PRP	P1_cook
+5-3	grease	O	O	VBZ	O
+5-4	and	O	O	O	O
+5-5	flour	5-3_conj_and	grease	VB	O
+5-6	the	O	O	DT	O
+5-7	pans	5-5_dobj	flour	NNS	P1_cake_tin
+5-8	and	O	O	O	O
+5-9	add	5-5_conj_and	flour	VB	O
+5-10	parchment	O	O	JJ	O
+5-11	paper	5-9_dobj	add	NN	P1_utensil
+5-12	to	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	bottom	5-9_prep_to	add	NN	P1_NPart_bottom
+5-15	.	O	O	O	O
+
+#id=6
+#text=Next , I will measure and combine all of the dry ingredients , sifting if necessary . 
+6-1	Next	6-5_advmod	measure	RB	O
+6-2	,	O	O	O	O
+6-3	I	6-5_nsubj	measure	PRP	P1_cook
+6-4	will	6-5_aux	measure	MD	O
+6-5	measure	O	O	VB	O
+6-6	and	O	O	O	O
+6-7	combine	6-5_conj_and	measure	VB	O
+6-8	all	6-5_dobj	measure	DT	O
+6-9	of	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	dry	O	O	JJ	O
+6-12	ingredients	O	O	NNS	P3_ingredients
+6-13	,	O	O	O	O
+6-14	sifting	O	O	VBG	O
+6-15	if	O	O	IN	O
+6-16	necessary	6-14_advcl	sifting	JJ	O
+6-17	.	O	O	O	O
+
+#id=7
+#text=Then I combine the wet ingredients after measuring them and wisk together . 
+7-1	Then	7-3_advmod	combine	RB	O
+7-2	I	7-3_nsubj	combine	PRP	P1_cook
+7-3	combine	O	O	VBP	O
+7-4	the	O	O	DT	O
+7-5	wet	O	O	JJ	O
+7-6	ingredients	7-3_dobj	combine	NNS	P4_ingredients
+7-7	after	O	O	O	O
+7-8	measuring	7-3_prepc_after	combine	VBG	O
+7-9	them	7-8_dobj	measuring	PRP	P4_ingredients
+7-10	and	O	O	O	O
+7-11	wisk	7-3_conj_and	combine	VBP	O
+7-12	together	7-11_advmod	wisk	RB	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=Lastly , I combine the wet and dry gently and stir as little as possible before pouring into the pans and placing into the oven , taking note of the time I need to take them back out . 
+8-1	Lastly	8-4_advmod	combine	RB	O
+8-2	,	O	O	O	O
+8-3	I	8-4_nsubj	combine	PRP	P1_cook
+8-4	combine	O	O	VB	O
+8-5	the	O	O	DT	O
+8-6	wet	O	O	JJ	P4_ingredients
+8-7	and	O	O	O	O
+8-8	dry	O	O	JJ	P3_ingredients
+8-9	gently	8-4_dobj	combine	NN	O
+8-10	and	O	O	O	O
+8-11	stir	8-4_conj_and	combine	VB	O
+8-12	as	8-11_prep	stir	IN	O
+8-13	little	O	O	RB	O
+8-14	as	8-33_mark	need	IN	O
+8-15	possible	8-33_advmod	need	RB	O
+8-16	before	O	O	O	O
+8-17	pouring	8-33_prepc_before	need	VBG	O
+8-18	into	O	O	O	O
+8-19	the	O	O	DT	O
+8-20	pans	8-17_prep_into	pouring	NNS	P1_cake_tin
+8-21	and	O	O	O	O
+8-22	placing	8-17_conj_and	pouring	VBG	O
+8-23	into	O	O	O	O
+8-24	the	O	O	DT	O
+8-25	oven	8-22_prep_into	placing	NN	P2_oven
+8-26	,	O	O	O	O
+8-27	taking	8-22_vmod	placing	VBG	O
+8-28	note	8-27_dobj	taking	NN	O
+8-29	of	O	O	O	O
+8-30	the	O	O	DT	O
+8-31	time	O	O	NN	P1_time
+8-32	I	8-33_nsubj	need	PRP	P1_cook
+8-33	need	8-11_advcl	stir	VBP	O
+8-34	to	8-35_aux	take	TO	O
+8-35	take	8-33_xcomp	need	VB	O
+8-36	them	8-35_dobj	take	PRP	P1_cake_tin
+8-37	back	O	O	RB	O
+8-38	out	8-35_advmod	take	RB	O
+8-39	.	O	O	O	O
+
+#id=9
+#text=Once baked , I will cool the cakes and frost , either with canned frosting or homemade frosting . 
+9-1	Once	9-6_advmod	cool	RB	O
+9-2	baked	O	O	VBG	O
+9-3	,	O	O	O	O
+9-4	I	9-6_nsubj	cool	PRP	P1_cook
+9-5	will	9-6_aux	cool	MD	O
+9-6	cool	O	O	VB	O
+9-7	the	O	O	DT	O
+9-8	cakes	9-6_dobj	cool	NNS	P1_cake
+9-9	and	O	O	O	O
+9-10	frost	9-6_conj_and	cool	VB	O
+9-11	,	O	O	O	O
+9-12	either	9-10_advmod	frost	RB	O
+9-13	with	O	O	O	O
+9-14	canned	O	O	JJ	O
+9-15	frosting	9-10_prep_with	frost	NN	P5_ingredients
+9-16	or	O	O	O	O
+9-17	homemade	O	O	NN	O
+9-18	frosting	O	O	NN	P6_ingredients
+9-19	.	O	O	O	O
+
+#id=10
+#text=At the very end I will decorate the cake since it is probably for a birthday . 
+10-1	At	O	O	O	O
+10-2	the	O	O	DT	O
+10-3	very	O	O	JJ	O
+10-4	end	10-7_prep_at	decorate	NN	P1_NPart_end
+10-5	I	10-7_nsubj	decorate	PRP	P1_cook
+10-6	will	10-7_aux	decorate	MD	O
+10-7	decorate	O	O	VB	O
+10-8	the	O	O	DT	O
+10-9	cake	10-7_dobj	decorate	NN	P1_cake
+10-10	since	10-12_mark	is	IN	O
+10-11	it	10-12_nsubj	is	PRP	P1_cake
+10-12	is	10-7_advcl	decorate	VBZ	O
+10-13	probably	10-12_advmod	is	RB	O
+10-14	for	O	O	O	O
+10-15	a	O	O	DT	O
+10-16	birthday	10-12_prep_for	is	NN	P2_NPart_birthday
+10-17	.	O	O	O	O

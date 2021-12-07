@@ -1,0 +1,205 @@
+#id=1
+#text=One day my bicycle tire got flat due to hitting some glass in the street . 
+1-1	One	O	O	CD	O
+1-2	day	O	O	NN	P1_NPart_day
+1-3	my	O	O	PRP$	P1_rider
+1-4	bicycle	O	O	NN	O
+1-5	tire	O	O	NN	P1_tire
+1-6	got	O	O	VBD	O
+1-7	flat	O	O	RB	O
+1-8	due	O	O	JJ	O
+1-9	to	O	O	O	O
+1-10	hitting	O	O	VBG	O
+1-11	some	O	O	DT	O
+1-12	glass	1-10_dobj	hitting	NN	P1_object_damage
+1-13	in	O	O	O	O
+1-14	the	O	O	DT	O
+1-15	street	1-10_prep_in	hitting	NN	P1_NPart_street
+1-16	.	O	O	O	O
+
+#id=2
+#text=I then had to walk the rest of the way home . 
+2-1	I	2-3_nsubj	had	PRP	P1_rider
+2-2	then	2-3_advmod	had	RB	O
+2-3	had	O	O	VBD	O
+2-4	to	2-5_aux	walk	TO	O
+2-5	walk	2-3_xcomp	had	VB	O
+2-6	the	O	O	DT	O
+2-7	rest	2-5_dobj	walk	NN	P1_NPart_rest
+2-8	of	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	way	O	O	NN	P1_NPart_way
+2-11	home	O	O	NN	P1_location_repair
+2-12	.	O	O	O	O
+
+#id=3
+#text=I took it into my garage and tried to repair it by putting some duct tape on it and pumping it with air . 
+3-1	I	3-2_nsubj	took	PRP	P1_rider
+3-2	took	O	O	VBD	O
+3-3	it	3-2_dobj	took	PRP	P1_tire
+3-4	into	O	O	O	O
+3-5	my	O	O	PRP$	P1_rider
+3-6	garage	3-2_prep_into	took	NN	P2_location_repair
+3-7	and	O	O	O	O
+3-8	tried	3-2_conj_and	took	VBD	O
+3-9	to	3-10_aux	repair	TO	O
+3-10	repair	3-8_xcomp	tried	VB	O
+3-11	it	3-10_dobj	repair	PRP	P1_tire
+3-12	by	O	O	O	O
+3-13	putting	3-10_prepc_by	repair	VBG	O
+3-14	some	O	O	DT	O
+3-15	duct	O	O	JJ	O
+3-16	tape	3-13_dobj	putting	NN	P1_patch
+3-17	on	O	O	O	O
+3-18	it	3-13_prep_on	putting	PRP	P1_tire
+3-19	and	O	O	O	O
+3-20	pumping	3-13_conj_and	putting	VBG	O
+3-21	it	3-20_dobj	pumping	PRP	P1_tire
+3-22	with	O	O	O	O
+3-23	air	3-20_prep_with	pumping	NN	P1_air
+3-24	.	O	O	O	O
+
+#id=4
+#text=This , however , only made matters worst and all the air ended up making another hole in my tire because I over inflated it . 
+4-1	This	4-6_nsubj	made	DT	O
+4-2	,	O	O	O	O
+4-3	however	4-6_advmod	made	RB	O
+4-4	,	O	O	O	O
+4-5	only	4-6_advmod	made	RB	O
+4-6	made	O	O	VBD	O
+4-7	matters	4-6_dobj	made	NNS	O
+4-8	worst	4-13_nsubj	ended	JJS	O
+4-9	and	O	O	O	O
+4-10	all	O	O	PDT	O
+4-11	the	O	O	DT	O
+4-12	air	O	O	NN	P1_air
+4-13	ended	O	O	VBD	O
+4-14	up	4-13_prt	ended	RP	O
+4-15	making	4-13_xcomp	ended	VBG	O
+4-16	another	O	O	DT	O
+4-17	hole	4-15_dobj	making	NN	P2_object_damage
+4-18	in	O	O	O	O
+4-19	my	O	O	PRP$	P1_rider
+4-20	tire	4-15_prep_in	making	NN	P1_tire
+4-21	because	4-24_mark	inflated	IN	O
+4-22	I	4-24_nsubj	inflated	PRP	P1_rider
+4-23	over	4-24_advmod	inflated	RB	O
+4-24	inflated	4-15_advcl	making	VBD	O
+4-25	it	4-24_dobj	inflated	PRP	P1_tire
+4-26	.	O	O	O	O
+
+#id=5
+#text=I decided that I had no other options and I ordered a new tire on Amazon for my bike . 
+5-1	I	5-2_nsubj	decided	PRP	P1_rider
+5-2	decided	O	O	VBD	O
+5-3	that	5-5_mark	had	IN	O
+5-4	I	5-5_nsubj	had	PRP	P1_rider
+5-5	had	5-2_ccomp	decided	VBD	O
+5-6	no	O	O	DT	O
+5-7	other	O	O	JJ	O
+5-8	options	5-5_dobj	had	NNS	P1_NPart_options
+5-9	and	O	O	O	O
+5-10	I	5-11_nsubj	ordered	PRP	P1_rider
+5-11	ordered	5-2_conj_and	decided	VBD	O
+5-12	a	O	O	DT	O
+5-13	new	O	O	JJ	O
+5-14	tire	5-11_dobj	ordered	NN	P1_spare_tube
+5-15	on	O	O	O	O
+5-16	Amazon	5-11_prep_on	ordered	NNP	P1_shop
+5-17	for	O	O	O	O
+5-18	my	O	O	PRP$	P1_rider
+5-19	bike	5-11_prep_for	ordered	NN	P1_bicycle
+5-20	.	O	O	O	O
+
+#id=6
+#text=Once that came in the mail it was time to repair my broken bike . 
+6-1	Once	6-3_mark	came	IN	O
+6-2	that	6-3_nsubj	came	DT	P1_spare_tube
+6-3	came	O	O	VBD	O
+6-4	in	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	mail	6-3_prep_in	came	NN	P1_NPart_mail
+6-7	it	O	O	PRP	O
+6-8	was	O	O	VBD	O
+6-9	time	O	O	NN	O
+6-10	to	6-11_aux	repair	TO	O
+6-11	repair	O	O	VB	O
+6-12	my	O	O	PRP$	P1_rider
+6-13	broken	O	O	JJ	O
+6-14	bike	6-11_dobj	repair	NN	P1_bicycle
+6-15	.	O	O	O	O
+
+#id=7
+#text=I got a socket wrench and unscrewed the nut of the bike that attached to the wheel . 
+7-1	I	7-2_nsubj	got	PRP	P1_rider
+7-2	got	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	socket	O	O	NN	O
+7-5	wrench	7-2_dobj	got	NN	P1_tool
+7-6	and	O	O	O	O
+7-7	unscrewed	7-2_conj_and	got	VBD	O
+7-8	the	O	O	DT	O
+7-9	nut	7-7_dobj	unscrewed	NN	P1_bicycle_small_detail
+7-10	of	O	O	O	O
+7-11	the	O	O	DT	O
+7-12	bike	O	O	NN	P1_bicycle
+7-13	that	7-14_nsubj	attached	WDT	O
+7-14	attached	O	O	VBN	O
+7-15	to	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	wheel	7-14_prep_to	attached	NN	P1_wheel
+7-18	.	O	O	O	O
+
+#id=8
+#text=After that I got my new bike tire and put it on the frame of the bike and screwed it back on . 
+8-1	After	O	O	O	O
+8-2	that	8-4_prep_after	got	DT	O
+8-3	I	8-4_nsubj	got	PRP	P1_rider
+8-4	got	O	O	VBD	O
+8-5	my	O	O	PRP$	P1_rider
+8-6	new	O	O	JJ	O
+8-7	bike	O	O	NN	O
+8-8	tire	8-4_dobj	got	NN	P1_spare_tube
+8-9	and	O	O	O	O
+8-10	put	8-4_conj_and	got	VBN	O
+8-11	it	8-10_dobj	put	PRP	P1_spare_tube
+8-12	on	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	frame	8-10_prep_on	put	NN	P1_rim
+8-15	of	O	O	O	O
+8-16	the	O	O	DT	O
+8-17	bike	O	O	NN	P1_bicycle
+8-18	and	O	O	O	O
+8-19	screwed	8-10_conj_and	put	VBN	O
+8-20	it	8-19_dobj	screwed	PRP	P2_tire
+8-21	back	O	O	RB	O
+8-22	on	8-19_advmod	screwed	RB	O
+8-23	.	O	O	O	O
+
+#id=9
+#text=Once that was complete my bike was as good as new and I was back to riding my daily bike trail by my house . 
+9-1	Once	O	O	IN	O
+9-2	that	O	O	DT	O
+9-3	was	O	O	VBD	O
+9-4	complete	O	O	JJ	O
+9-5	my	O	O	PRP$	P1_rider
+9-6	bike	O	O	NN	P1_bicycle
+9-7	was	O	O	VBD	O
+9-8	as	O	O	RB	O
+9-9	good	O	O	JJ	O
+9-10	as	O	O	O	O
+9-11	new	O	O	JJ	O
+9-12	and	O	O	O	O
+9-13	I	9-14_nsubj	was	PRP	P1_rider
+9-14	was	O	O	VBD	O
+9-15	back	9-14_advmod	was	RB	O
+9-16	to	O	O	O	O
+9-17	riding	O	O	VBG	O
+9-18	my	O	O	PRP$	P1_rider
+9-19	daily	O	O	JJ	O
+9-20	bike	O	O	NN	O
+9-21	trail	9-17_dobj	riding	NN	P1_NPart_trail
+9-22	by	O	O	O	O
+9-23	my	O	O	PRP$	P1_rider
+9-24	house	9-17_prep_by	riding	NN	P1_location_repair
+9-25	.	O	O	O	O

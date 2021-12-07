@@ -1,0 +1,201 @@
+#id=1
+#text=Last week on a bike ride to my friends house , I was traveling on a very rough road with a lot of rocks on the side of it . 
+1-1	Last	O	O	JJ	O
+1-2	week	1-14_tmod	traveling	NN	P1_NPart_week
+1-3	on	O	O	O	O
+1-4	a	O	O	DT	O
+1-5	bike	O	O	NN	O
+1-6	ride	1-14_prep_on	traveling	NN	P1_ride
+1-7	to	O	O	O	O
+1-8	my	O	O	PRP$	P1_rider
+1-9	friends	O	O	NNS	P1_NPart_friends
+1-10	house	O	O	NN	P1_NPart_house
+1-11	,	O	O	O	O
+1-12	I	1-14_nsubj	traveling	PRP	P1_rider
+1-13	was	1-14_aux	traveling	VBD	O
+1-14	traveling	O	O	VBG	O
+1-15	on	O	O	O	O
+1-16	a	O	O	DT	O
+1-17	very	O	O	RB	O
+1-18	rough	O	O	JJ	O
+1-19	road	1-14_prep_on	traveling	NN	P1_location_repair
+1-20	with	O	O	O	O
+1-21	a	O	O	DT	O
+1-22	lot	O	O	NN	P1_NPart_lot
+1-23	of	O	O	O	O
+1-24	rocks	O	O	NNS	P1_NPart_rocks
+1-25	on	O	O	O	O
+1-26	the	O	O	DT	O
+1-27	side	O	O	NN	P1_NPart_side
+1-28	of	O	O	O	O
+1-29	it	O	O	PRP	P1_location_repair
+1-30	.	O	O	O	O
+
+#id=2
+#text=I realized after about 10 minutes into my ride that I had a very bad flat tire . 
+2-1	I	2-2_nsubj	realized	PRP	P1_rider
+2-2	realized	O	O	VBD	O
+2-3	after	O	O	O	O
+2-4	about	O	O	RB	O
+2-5	10	O	O	CD	O
+2-6	minutes	2-2_prep_after	realized	NNS	P1_NPart_minutes
+2-7	into	O	O	O	O
+2-8	my	O	O	PRP$	P1_rider
+2-9	ride	2-2_prep_into	realized	NN	P2_ride
+2-10	that	2-12_mark	had	IN	O
+2-11	I	2-12_nsubj	had	PRP	P1_rider
+2-12	had	2-2_ccomp	realized	VBD	O
+2-13	a	O	O	DT	O
+2-14	very	O	O	RB	O
+2-15	bad	O	O	JJ	O
+2-16	flat	O	O	JJ	O
+2-17	tire	2-12_dobj	had	NN	P1_tire
+2-18	.	O	O	O	O
+
+#id=3
+#text=Thankfully I carry the proper tools and items with me to fix it . 
+3-1	Thankfully	3-3_advmod	carry	RB	O
+3-2	I	3-3_nsubj	carry	PRP	P1_rider
+3-3	carry	O	O	VBP	O
+3-4	the	O	O	DT	O
+3-5	proper	O	O	JJ	O
+3-6	tools	3-3_dobj	carry	NNS	P1_tool
+3-7	and	O	O	O	O
+3-8	items	O	O	NNS	P1_tool
+3-9	with	O	O	O	O
+3-10	me	3-3_prep_with	carry	PRP	P1_rider
+3-11	to	3-12_aux	fix	TO	O
+3-12	fix	3-3_vmod	carry	VB	O
+3-13	it	3-12_dobj	fix	PRP	P1_tire
+3-14	.	O	O	O	O
+
+#id=4
+#text=I pulled off the road and opened my bag with my tools . 
+4-1	I	4-2_nsubj	pulled	PRP	P1_rider
+4-2	pulled	O	O	VBD	O
+4-3	off	4-2_prt	pulled	RP	O
+4-4	the	O	O	DT	O
+4-5	road	4-2_dobj	pulled	NN	P1_location_repair
+4-6	and	O	O	O	O
+4-7	opened	4-2_conj_and	pulled	VBD	O
+4-8	my	O	O	PRP$	P1_rider
+4-9	bag	4-7_dobj	opened	NN	P1_NPart_bag
+4-10	with	O	O	O	O
+4-11	my	O	O	PRP$	P1_rider
+4-12	tools	4-7_prep_with	opened	NNS	P1_tool
+4-13	.	O	O	O	O
+
+#id=5
+#text=After removing the tire and the tube inside , I used my tools to put a brand new tube inside of the tire . 
+5-1	After	O	O	O	O
+5-2	removing	5-11_prepc_after	used	VBG	O
+5-3	the	O	O	DT	O
+5-4	tire	5-2_dobj	removing	NN	P1_tire
+5-5	and	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	tube	O	O	NN	P2_tire
+5-8	inside	5-2_advmod	removing	RB	O
+5-9	,	O	O	O	O
+5-10	I	5-11_nsubj	used	PRP	P1_rider
+5-11	used	O	O	VBD	O
+5-12	my	O	O	PRP$	P1_rider
+5-13	tools	5-11_dobj	used	NNS	P1_tool
+5-14	to	5-15_aux	put	TO	O
+5-15	put	5-11_vmod	used	VB	O
+5-16	a	O	O	DT	O
+5-17	brand	O	O	NN	O
+5-18	new	O	O	JJ	O
+5-19	tube	O	O	NN	P1_spare_tube
+5-20	inside	5-15_dobj	put	NN	O
+5-21	of	O	O	O	O
+5-22	the	O	O	DT	O
+5-23	tire	O	O	NN	P1_tire
+5-24	.	O	O	O	O
+
+#id=6
+#text=I checked it to make sure that I had aligned everything correctly and after ensuring that I did , I placed the tire back onto the bike . 
+6-1	I	6-2_nsubj	checked	PRP	P1_rider
+6-2	checked	O	O	VBD	O
+6-3	it	6-2_dobj	checked	PRP	P1_tire
+6-4	to	6-5_aux	make	TO	O
+6-5	make	6-2_xcomp	checked	VB	O
+6-6	sure	6-5_acomp	make	JJ	O
+6-7	that	6-10_mark	aligned	IN	O
+6-8	I	6-10_nsubj	aligned	PRP	P1_rider
+6-9	had	6-10_aux	aligned	VBD	O
+6-10	aligned	6-5_ccomp	make	VBN	O
+6-11	everything	6-10_dobj	aligned	NN	O
+6-12	correctly	6-10_advmod	aligned	RB	O
+6-13	and	O	O	O	O
+6-14	after	O	O	O	O
+6-15	ensuring	6-21_prepc_after	placed	VBG	O
+6-16	that	6-18_mark	did	IN	O
+6-17	I	6-18_nsubj	did	PRP	P1_rider
+6-18	did	6-15_ccomp	ensuring	VBD	O
+6-19	,	O	O	O	O
+6-20	I	6-21_nsubj	placed	PRP	P1_rider
+6-21	placed	6-2_conj_and	checked	VBD	O
+6-22	the	O	O	DT	O
+6-23	tire	6-21_dobj	placed	NN	P1_tire
+6-24	back	6-21_advmod	placed	RB	O
+6-25	onto	O	O	O	O
+6-26	the	O	O	DT	O
+6-27	bike	6-21_prep_onto	placed	NN	P1_bicycle
+6-28	.	O	O	O	O
+
+#id=7
+#text=I then used my portable pump to make sure that I had the proper amount of air pressure inside of it , because I did n't want another flat . 
+7-1	I	7-3_nsubj	used	PRP	P1_rider
+7-2	then	7-3_advmod	used	RB	O
+7-3	used	O	O	VBD	O
+7-4	my	O	O	PRP$	P1_rider
+7-5	portable	O	O	JJ	O
+7-6	pump	7-3_dobj	used	NN	P1_tool
+7-7	to	7-8_aux	make	TO	O
+7-8	make	7-3_vmod	used	VB	O
+7-9	sure	7-8_acomp	make	JJ	O
+7-10	that	7-12_mark	had	IN	O
+7-11	I	7-12_nsubj	had	PRP	P1_rider
+7-12	had	7-8_ccomp	make	VBD	O
+7-13	the	O	O	DT	O
+7-14	proper	O	O	JJ	O
+7-15	amount	7-12_dobj	had	NN	O
+7-16	of	O	O	O	O
+7-17	air	O	O	NN	O
+7-18	pressure	O	O	NN	P1_pressure
+7-19	inside	O	O	NN	O
+7-20	of	O	O	O	O
+7-21	it	O	O	PRP	P1_tire
+7-22	,	O	O	O	O
+7-23	because	7-27_mark	want	IN	O
+7-24	I	7-27_nsubj	want	PRP	P1_rider
+7-25	did	7-27_aux	want	VBD	O
+7-26	n't	7-27_neg	want	RB	O
+7-27	want	7-12_advcl	had	VB	O
+7-28	another	O	O	DT	O
+7-29	flat	7-27_xcomp	want	JJ	P3_tire
+7-30	.	O	O	O	O
+
+#id=8
+#text=After checking everything twice , I was on my way again . 
+8-1	After	O	O	O	O
+8-2	checking	8-7_prepc_after	was	VBG	O
+8-3	everything	8-2_dobj	checking	NN	O
+8-4	twice	8-2_advmod	checking	RB	O
+8-5	,	O	O	O	O
+8-6	I	8-7_nsubj	was	PRP	P1_rider
+8-7	was	O	O	VBD	O
+8-8	on	O	O	O	O
+8-9	my	O	O	PRP$	P1_rider
+8-10	way	8-7_prep_on	was	NN	P1_NPart_way
+8-11	again	8-7_advmod	was	RB	O
+8-12	.	O	O	O	O
+
+#id=9
+#text=It was an easy fix . 
+9-1	It	O	O	PRP	O
+9-2	was	O	O	VBD	O
+9-3	an	O	O	DT	O
+9-4	easy	O	O	JJ	O
+9-5	fix	O	O	NN	P1_NPart_fix
+9-6	.	O	O	O	O

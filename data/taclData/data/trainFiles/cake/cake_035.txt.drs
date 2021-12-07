@@ -1,0 +1,241 @@
+#id=1
+#text=I need to bake a cake for my friend 's birthday . 
+1-1	I	1-2_nsubj	need	PRP	P1_cook
+1-2	need	O	O	VBP	O
+1-3	to	1-4_aux	bake	TO	O
+1-4	bake	1-2_xcomp	need	VB	O
+1-5	a	O	O	DT	O
+1-6	cake	1-4_dobj	bake	NN	P1_cake
+1-7	for	O	O	O	O
+1-8	my	O	O	PRP$	P1_cook
+1-9	friend	O	O	NN	O
+1-10	's	O	O	O	O
+1-11	birthday	O	O	NN	P1_NPart_birthday
+1-12	.	O	O	O	O
+
+#id=2
+#text=I have decided to buy a store cake mix to save some time . 
+2-1	I	2-3_nsubj	decided	PRP	P1_cook
+2-2	have	2-3_aux	decided	VBP	O
+2-3	decided	O	O	VBN	O
+2-4	to	2-5_aux	buy	TO	O
+2-5	buy	2-3_xcomp	decided	VB	O
+2-6	a	O	O	DT	O
+2-7	store	O	O	NN	O
+2-8	cake	O	O	NN	O
+2-9	mix	2-5_dobj	buy	NN	P1_ingredients
+2-10	to	2-11_aux	save	TO	O
+2-11	save	2-5_vmod	buy	VB	O
+2-12	some	O	O	DT	O
+2-13	time	2-11_dobj	save	NN	P1_time
+2-14	.	O	O	O	O
+
+#id=3
+#text=I decide to get a Devil 's Food cake mix , since that is her favorite . 
+3-1	I	3-2_nsubj	decide	PRP	P1_cook
+3-2	decide	O	O	VBP	O
+3-3	to	3-4_aux	get	TO	O
+3-4	get	3-2_xcomp	decide	VB	O
+3-5	a	O	O	DT	O
+3-6	Devil	O	O	NNP	O
+3-7	's	O	O	O	O
+3-8	Food	O	O	NNP	O
+3-9	cake	O	O	NN	O
+3-10	mix	3-4_dobj	get	NN	P1_ingredients
+3-11	,	O	O	O	O
+3-12	since	O	O	IN	O
+3-13	that	O	O	DT	P1_ingredients
+3-14	is	O	O	VBZ	O
+3-15	her	O	O	PRP$	P1_beneficiary
+3-16	favorite	3-4_advcl	get	NN	P1_NPart_favorite
+3-17	.	O	O	O	O
+
+#id=4
+#text=I drive to the store , and head to the isle that has cake mixes . 
+4-1	I	4-2_nsubj	drive	PRP	P1_cook
+4-2	drive	O	O	VBP	O
+4-3	to	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	store	4-2_prep_to	drive	NN	P1_store
+4-6	,	O	O	O	O
+4-7	and	O	O	O	O
+4-8	head	4-15_nsubj	mixes	NN	O
+4-9	to	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	isle	O	O	NN	P1_other
+4-12	that	4-13_nsubj	has	WDT	O
+4-13	has	O	O	VBZ	O
+4-14	cake	4-13_dobj	has	NN	O
+4-15	mixes	4-2_conj_and	drive	VBZ	P1_ingredients
+4-16	.	O	O	O	O
+
+#id=5
+#text=I find the cake mix I want and purchase it . 
+5-1	I	5-2_nsubj	find	PRP	P1_cook
+5-2	find	O	O	VBP	O
+5-3	the	O	O	DT	O
+5-4	cake	O	O	NN	O
+5-5	mix	5-2_dobj	find	NN	P1_ingredients
+5-6	I	5-7_nsubj	want	PRP	P1_cook
+5-7	want	O	O	VBP	O
+5-8	and	O	O	O	O
+5-9	purchase	5-7_conj_and	want	VBP	O
+5-10	it	5-7_dobj	want	PRP	P1_ingredients
+5-11	.	O	O	O	O
+
+#id=6
+#text=I also check the back of the box to be sure I have all the ingredients I will need , like eggs , oil , etc. . 
+6-1	I	6-3_nsubj	check	PRP	P1_cook
+6-2	also	6-3_advmod	check	RB	O
+6-3	check	O	O	VBP	O
+6-4	the	O	O	DT	O
+6-5	back	6-3_dobj	check	NN	P1_NPart_back
+6-6	of	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	box	O	O	NN	P1_recipe_source
+6-9	to	O	O	TO	O
+6-10	be	O	O	VB	O
+6-11	sure	O	O	JJ	O
+6-12	I	6-13_nsubj	have	PRP	P1_cook
+6-13	have	O	O	VBP	O
+6-14	all	O	O	PDT	O
+6-15	the	O	O	DT	O
+6-16	ingredients	6-13_dobj	have	NNS	P2_ingredients
+6-17	I	6-19_nsubj	need	PRP	P1_cook
+6-18	will	6-19_aux	need	MD	O
+6-19	need	O	O	VB	O
+6-20	,	O	O	O	O
+6-21	like	O	O	O	O
+6-22	eggs	O	O	NNS	P3_ingredients
+6-23	,	O	O	O	O
+6-24	oil	6-19_prep_like	need	NN	P4_ingredients
+6-25	,	O	O	O	O
+6-26	etc.	O	O	FW	O
+6-27	.	O	O	O	O
+
+#id=7
+#text=I bring the cake mix home and get started . 
+7-1	I	7-2_nsubj	bring	PRP	P1_cook
+7-2	bring	O	O	VB	O
+7-3	the	O	O	DT	O
+7-4	cake	O	O	NN	O
+7-5	mix	O	O	NN	P1_ingredients
+7-6	home	7-2_dobj	bring	NN	P1_kitchen/location
+7-7	and	O	O	O	O
+7-8	get	7-9_auxpass	started	VB	O
+7-9	started	7-2_conj_and	bring	VBN	O
+7-10	.	O	O	O	O
+
+#id=8
+#text=I read the instructions which tell me to preheat the oven . 
+8-1	I	8-2_nsubj	read	PRP	P1_cook
+8-2	read	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	instructions	8-2_dobj	read	NNS	P1_baking_instructions
+8-5	which	8-6_nsubj	tell	WDT	O
+8-6	tell	O	O	VBP	O
+8-7	me	8-6_dobj	tell	PRP	P1_cook
+8-8	to	8-9_aux	preheat	TO	O
+8-9	preheat	8-6_xcomp	tell	VB	O
+8-10	the	O	O	DT	O
+8-11	oven	8-9_dobj	preheat	NN	P1_oven
+8-12	.	O	O	O	O
+
+#id=9
+#text=I get all my ingredients in front of me and read the instructions to mix them properly . 
+9-1	I	9-2_nsubj	get	PRP	P1_cook
+9-2	get	O	O	VBP	O
+9-3	all	O	O	PDT	O
+9-4	my	O	O	PRP$	P1_cook
+9-5	ingredients	9-2_dobj	get	NNS	P2_ingredients
+9-6	in	O	O	O	O
+9-7	front	O	O	O	O
+9-8	of	O	O	O	O
+9-9	me	9-2_prep_in_front_of	get	PRP	P1_cook
+9-10	and	O	O	O	O
+9-11	read	9-2_conj_and	get	VBD	O
+9-12	the	O	O	DT	O
+9-13	instructions	9-11_dobj	read	NNS	P1_baking_instructions
+9-14	to	9-15_aux	mix	TO	O
+9-15	mix	9-11_vmod	read	VB	O
+9-16	them	9-15_dobj	mix	PRP	P2_ingredients
+9-17	properly	9-15_advmod	mix	RB	O
+9-18	.	O	O	O	O
+
+#id=10
+#text=I get my cake pan out and prep it , as that is what the instructions say to do . 
+10-1	I	10-2_nsubj	get	PRP	P1_cook
+10-2	get	O	O	VBP	O
+10-3	my	O	O	PRP$	P1_cook
+10-4	cake	10-5_nsubj	pan	NN	O
+10-5	pan	10-2_ccomp	get	VB	P1_cake_tin
+10-6	out	10-5_prt	pan	RP	O
+10-7	and	O	O	O	O
+10-8	prep	10-5_conj_and	pan	VB	O
+10-9	it	10-8_dobj	prep	PRP	P1_cake_tin
+10-10	,	O	O	O	O
+10-11	as	10-13_mark	is	IN	O
+10-12	that	10-13_nsubj	is	DT	O
+10-13	is	10-2_advcl	get	VBZ	O
+10-14	what	10-17_dobj	say	WP	O
+10-15	the	O	O	DT	O
+10-16	instructions	10-17_nsubj	say	NNS	P1_baking_instructions
+10-17	say	10-13_ccomp	is	VBP	O
+10-18	to	10-19_aux	do	TO	O
+10-19	do	10-17_xcomp	say	VB	O
+10-20	.	O	O	O	O
+
+#id=11
+#text=I mix my cake ingredients in a bowl and pour this mixture into the pan and place it in the oven for the time listed on the instructions . 
+11-1	I	11-2_nsubj	mix	PRP	P1_cook
+11-2	mix	O	O	VB	O
+11-3	my	O	O	PRP$	P1_cook
+11-4	cake	O	O	NN	O
+11-5	ingredients	11-2_dobj	mix	NNS	P2_ingredients
+11-6	in	O	O	O	O
+11-7	a	O	O	DT	O
+11-8	bowl	11-2_prep_in	mix	NN	P1_utensil
+11-9	and	O	O	O	O
+11-10	pour	11-2_conj_and	mix	VB	O
+11-11	this	O	O	DT	O
+11-12	mixture	11-10_dobj	pour	NN	P1_dough
+11-13	into	O	O	O	O
+11-14	the	O	O	DT	O
+11-15	pan	11-10_prep_into	pour	NN	P1_cake_tin
+11-16	and	O	O	O	O
+11-17	place	11-2_conj_and	mix	VB	O
+11-18	it	11-17_dobj	place	PRP	P1_cake_tin
+11-19	in	O	O	O	O
+11-20	the	O	O	DT	O
+11-21	oven	11-17_prep_in	place	NN	P1_oven
+11-22	for	O	O	O	O
+11-23	the	O	O	DT	O
+11-24	time	O	O	NN	P2_time
+11-25	listed	O	O	VBN	O
+11-26	on	O	O	O	O
+11-27	the	O	O	DT	O
+11-28	instructions	11-25_prep_on	listed	NNS	P1_baking_instructions
+11-29	.	O	O	O	O
+
+#id=12
+#text=When the cake is done baking , I take it out of the oven and let it cool off . 
+12-1	When	12-5_advmod	done	WRB	O
+12-2	the	O	O	DT	O
+12-3	cake	12-5_nsubjpass	done	NN	P1_cake
+12-4	is	12-5_auxpass	done	VBZ	O
+12-5	done	12-9_advcl	take	VBN	O
+12-6	baking	12-5_xcomp	done	VBG	O
+12-7	,	O	O	O	O
+12-8	I	12-9_nsubj	take	PRP	P1_cook
+12-9	take	O	O	VB	O
+12-10	it	12-9_dobj	take	PRP	P1_cake
+12-11	out	O	O	O	O
+12-12	of	O	O	O	O
+12-13	the	O	O	DT	O
+12-14	oven	12-9_prep_out_of	take	NN	P1_oven
+12-15	and	O	O	O	O
+12-16	let	12-9_conj_and	take	VB	O
+12-17	it	12-18_nsubj	cool	PRP	P1_cake
+12-18	cool	12-16_ccomp	let	VB	O
+12-19	off	12-18_prt	cool	RP	O
+12-20	.	O	O	O	O

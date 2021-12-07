@@ -1,0 +1,253 @@
+#id=1
+#text=I 'd had my old bike sitting around the house for a few months , but now that the weather is getting warmer I decided I should probably do something about the flat tire in the front . 
+1-1	I	1-3_nsubj	had	PRP	P1_rider
+1-2	'd	1-3_aux	had	VBD	O
+1-3	had	O	O	VBN	O
+1-4	my	O	O	PRP$	P1_rider
+1-5	old	O	O	JJ	O
+1-6	bike	1-3_dobj	had	NN	P1_bicycle
+1-7	sitting	1-3_xcomp	had	VBG	O
+1-8	around	1-7_prt	sitting	RP	O
+1-9	the	O	O	DT	O
+1-10	house	1-7_dobj	sitting	NN	P1_NPart_house
+1-11	for	O	O	O	O
+1-12	a	O	O	DT	O
+1-13	few	O	O	JJ	O
+1-14	months	O	O	NNS	P1_NPart_months
+1-15	,	O	O	O	O
+1-16	but	O	O	O	O
+1-17	now	1-22_advmod	getting	RB	O
+1-18	that	1-22_mark	getting	IN	O
+1-19	the	O	O	DT	O
+1-20	weather	1-22_nsubj	getting	NN	P1_NPart_weather
+1-21	is	1-22_aux	getting	VBZ	O
+1-22	getting	1-25_advcl	decided	VBG	O
+1-23	warmer	1-22_dobj	getting	JJR	O
+1-24	I	1-25_nsubj	decided	PRP	P1_rider
+1-25	decided	1-3_conj_but	had	VBD	O
+1-26	I	1-29_nsubj	do	PRP	P1_rider
+1-27	should	1-29_aux	do	MD	O
+1-28	probably	1-29_advmod	do	RB	O
+1-29	do	1-25_ccomp	decided	VB	O
+1-30	something	1-29_dobj	do	NN	O
+1-31	about	O	O	O	O
+1-32	the	O	O	DT	O
+1-33	flat	O	O	JJ	O
+1-34	tire	1-29_prep_about	do	NN	P1_tire
+1-35	in	O	O	O	O
+1-36	the	O	O	DT	O
+1-37	front	O	O	NN	O
+1-38	.	O	O	O	O
+
+#id=2
+#text=I 'd already tried using my bike pump ; it would inflate a little but I could never get it anywhere close to fully inflated . 
+2-1	I	2-4_nsubj	tried	PRP	P1_rider
+2-2	'd	2-4_aux	tried	VBD	O
+2-3	already	2-4_advmod	tried	RB	O
+2-4	tried	O	O	VBN	O
+2-5	using	2-4_xcomp	tried	VBG	O
+2-6	my	O	O	PRP$	P1_rider
+2-7	bike	O	O	NN	O
+2-8	pump	2-5_dobj	using	NN	P1_tool
+2-9	;	O	O	O	O
+2-10	it	2-12_nsubj	inflate	PRP	P2_tool
+2-11	would	2-12_aux	inflate	MD	O
+2-12	inflate	2-4_parataxis	tried	VB	O
+2-13	a	O	O	DT	O
+2-14	little	2-12_dobj	inflate	JJ	O
+2-15	but	O	O	O	O
+2-16	I	2-19_nsubj	get	PRP	P1_rider
+2-17	could	2-19_aux	get	MD	O
+2-18	never	2-19_neg	get	RB	O
+2-19	get	2-12_conj_but	inflate	VB	O
+2-20	it	O	O	PRP	O
+2-21	anywhere	O	O	RB	O
+2-22	close	2-19_xcomp	get	JJ	O
+2-23	to	O	O	TO	O
+2-24	fully	O	O	RB	O
+2-25	inflated	O	O	JJ	O
+2-26	.	O	O	O	O
+
+#id=3
+#text=I know from past experience those fix-a-flat or emergency bike repair kits are pretty worthless . 
+3-1	I	3-2_nsubj	know	PRP	P1_rider
+3-2	know	O	O	VBP	O
+3-3	from	O	O	O	O
+3-4	past	O	O	JJ	O
+3-5	experience	3-2_prep_from	know	NN	P1_NPart_experience
+3-6	those	O	O	DT	O
+3-7	fix-a-flat	O	O	NN	O
+3-8	or	O	O	O	O
+3-9	emergency	O	O	NN	O
+3-10	bike	3-2_dobj	know	NN	O
+3-11	repair	O	O	NN	O
+3-12	kits	O	O	NNS	P3_tool
+3-13	are	O	O	VBP	O
+3-14	pretty	O	O	RB	O
+3-15	worthless	O	O	JJ	O
+3-16	.	O	O	O	O
+
+#id=4
+#text=I think they 're made for the narrow old tires you 'd see on ten-speed street bikes . 
+4-1	I	4-2_nsubj	think	PRP	P1_rider
+4-2	think	4-13_dep	see	VBP	O
+4-3	they	4-5_nsubjpass	made	PRP	P3_tool
+4-4	're	4-5_auxpass	made	VBP	O
+4-5	made	4-2_ccomp	think	VBN	O
+4-6	for	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	narrow	O	O	JJ	O
+4-9	old	O	O	JJ	O
+4-10	tires	4-5_prep_for	made	NNS	P2_tire
+4-11	you	4-13_nsubj	see	PRP	P1_NPart_you
+4-12	'd	4-13_aux	see	MD	O
+4-13	see	O	O	VB	O
+4-14	on	O	O	O	O
+4-15	ten-speed	O	O	JJ	O
+4-16	street	O	O	NN	O
+4-17	bikes	4-13_prep_on	see	NNS	P2_bicycle
+4-18	.	O	O	O	O
+
+#id=5
+#text=I have a mountain bike with large tires and a lot of pressure is needed to keep them inflated . 
+5-1	I	5-2_nsubj	have	PRP	P1_rider
+5-2	have	O	O	VBP	O
+5-3	a	O	O	DT	O
+5-4	mountain	O	O	NN	O
+5-5	bike	5-2_dobj	have	NN	P1_bicycle
+5-6	with	O	O	O	O
+5-7	large	O	O	JJ	O
+5-8	tires	5-2_prep_with	have	NNS	P3_tire
+5-9	and	O	O	O	O
+5-10	a	O	O	DT	O
+5-11	lot	5-15_nsubjpass	needed	NN	O
+5-12	of	O	O	O	O
+5-13	pressure	O	O	NN	P1_pressure
+5-14	is	5-15_auxpass	needed	VBZ	O
+5-15	needed	5-2_conj_and	have	VBN	O
+5-16	to	5-17_aux	keep	TO	O
+5-17	keep	5-15_xcomp	needed	VB	O
+5-18	them	O	O	PRP	P3_tire
+5-19	inflated	5-17_xcomp	keep	JJ	O
+5-20	.	O	O	O	O
+
+#id=6
+#text=Since I only live a few blocks from a bicycle repair shop I decided to take the bike there . 
+6-1	Since	6-4_mark	live	IN	O
+6-2	I	6-4_nsubj	live	PRP	P1_rider
+6-3	only	6-4_advmod	live	RB	O
+6-4	live	6-14_advcl	decided	VBP	O
+6-5	a	O	O	DT	O
+6-6	few	O	O	JJ	O
+6-7	blocks	6-4_dobj	live	NNS	P1_NPart_blocks
+6-8	from	O	O	O	O
+6-9	a	O	O	DT	O
+6-10	bicycle	O	O	NN	O
+6-11	repair	O	O	NN	O
+6-12	shop	6-4_prep_from	live	NN	P1_shop
+6-13	I	6-14_nsubj	decided	PRP	P1_rider
+6-14	decided	O	O	VBD	O
+6-15	to	6-16_aux	take	TO	O
+6-16	take	6-14_xcomp	decided	VB	O
+6-17	the	O	O	DT	O
+6-18	bike	6-16_dobj	take	NN	P1_bicycle
+6-19	there	6-16_advmod	take	RB	P1_shop
+6-20	.	O	O	O	O
+
+#id=7
+#text=I bought it at that shop anyway so I figured they 'd do the service for free , as promised . 
+7-1	I	7-2_nsubj	bought	PRP	P1_rider
+7-2	bought	O	O	VBD	O
+7-3	it	7-2_dobj	bought	PRP	P1_bicycle
+7-4	at	O	O	O	O
+7-5	that	O	O	DT	O
+7-6	shop	7-2_prep_at	bought	NN	P1_shop
+7-7	anyway	7-10_advmod	figured	RB	O
+7-8	so	7-10_mark	figured	IN	O
+7-9	I	7-10_nsubj	figured	PRP	P1_rider
+7-10	figured	7-2_advcl	bought	VBD	O
+7-11	they	7-13_nsubj	do	PRP	P1_shop
+7-12	'd	7-13_aux	do	MD	O
+7-13	do	7-10_ccomp	figured	VB	O
+7-14	the	O	O	DT	O
+7-15	service	7-13_dobj	do	NN	P1_other
+7-16	for	O	O	O	O
+7-17	free	7-13_prep_for	do	JJ	O
+7-18	,	O	O	O	O
+7-19	as	7-20_mark	promised	IN	O
+7-20	promised	7-13_advcl	do	VBD	O
+7-21	.	O	O	O	O
+
+#id=8
+#text=I stopped by , they took it in the back , replaced the inner tube of the tire , inflated it , and it was as good as new . 
+8-1	I	8-2_nsubj	stopped	PRP	P1_rider
+8-2	stopped	O	O	VBD	O
+8-3	by	8-2_prep	stopped	IN	O
+8-4	,	O	O	O	O
+8-5	they	8-6_nsubj	took	PRP	P1_shop
+8-6	took	8-2_dep	stopped	VBD	O
+8-7	it	8-6_dobj	took	PRP	P1_bicycle
+8-8	in	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	back	8-6_prep_in	took	NN	P1_location_repair
+8-11	,	O	O	O	O
+8-12	replaced	O	O	VBN	O
+8-13	the	O	O	DT	O
+8-14	inner	O	O	JJ	O
+8-15	tube	8-12_dobj	replaced	NN	P1_spare_tube
+8-16	of	O	O	O	O
+8-17	the	O	O	DT	O
+8-18	tire	O	O	NN	P4_tire
+8-19	,	O	O	O	O
+8-20	inflated	O	O	VBN	O
+8-21	it	8-20_dobj	inflated	PRP	P1_spare_tube
+8-22	,	O	O	O	O
+8-23	and	O	O	O	O
+8-24	it	O	O	PRP	P1_spare_tube
+8-25	was	O	O	VBD	O
+8-26	as	O	O	RB	O
+8-27	good	8-2_conj_and	stopped	JJ	O
+8-28	as	O	O	O	O
+8-29	new	O	O	JJ	O
+8-30	.	O	O	O	O
+
+#id=9
+#text=Best of all , they only charged me ten bucks for the tube . 
+9-1	Best	9-7_ccomp	charged	JJS	O
+9-2	of	O	O	O	O
+9-3	all	O	O	DT	O
+9-4	,	O	O	O	O
+9-5	they	9-7_nsubj	charged	PRP	P1_shop
+9-6	only	9-7_advmod	charged	RB	O
+9-7	charged	O	O	VBD	O
+9-8	me	O	O	PRP	P1_rider
+9-9	ten	O	O	CD	O
+9-10	bucks	9-7_xcomp	charged	NNS	P1_NPart_bucks
+9-11	for	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	tube	O	O	NN	P1_spare_tube
+9-14	.	O	O	O	O
+
+#id=10
+#text=That 's the beauty of local , independently own businesses . 
+10-1	That	O	O	DT	O
+10-2	's	O	O	VBZ	O
+10-3	the	O	O	DT	O
+10-4	beauty	O	O	NN	P1_NPart_beauty
+10-5	of	O	O	O	O
+10-6	local	O	O	JJ	O
+10-7	,	O	O	O	O
+10-8	independently	O	O	JJ	O
+10-9	own	O	O	JJ	O
+10-10	businesses	O	O	NNS	P1_NPart_businesses
+10-11	.	O	O	O	O
+
+#id=11
+#text=They really care about their customers . 
+11-1	They	11-3_nsubj	care	PRP	P1_shop
+11-2	really	11-3_advmod	care	RB	O
+11-3	care	O	O	VBP	O
+11-4	about	O	O	O	O
+11-5	their	O	O	PRP$	P1_shop
+11-6	customers	11-3_prep_about	care	NNS	P2_other
+11-7	.	O	O	O	O

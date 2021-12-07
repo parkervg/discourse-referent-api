@@ -1,0 +1,211 @@
+#id=1
+#text=I was about to ride my bicycle to the park one day when I noticed that the front tire was flat . 
+1-1	I	O	O	PRP	P1_rider
+1-2	was	O	O	VBD	O
+1-3	about	O	O	IN	O
+1-4	to	1-5_aux	ride	TO	O
+1-5	ride	O	O	VB	O
+1-6	my	O	O	PRP$	P1_rider
+1-7	bicycle	1-5_dobj	ride	NN	P1_bicycle
+1-8	to	O	O	O	O
+1-9	the	O	O	DT	O
+1-10	park	1-5_prep_to	ride	NN	P1_NPart_park
+1-11	one	O	O	CD	O
+1-12	day	O	O	NN	O
+1-13	when	1-15_advmod	noticed	WRB	O
+1-14	I	1-15_nsubj	noticed	PRP	P1_rider
+1-15	noticed	O	O	VBD	O
+1-16	that	O	O	IN	O
+1-17	the	O	O	DT	O
+1-18	front	O	O	JJ	O
+1-19	tire	O	O	NN	P1_tire
+1-20	was	O	O	VBD	O
+1-21	flat	1-15_ccomp	noticed	JJ	O
+1-22	.	O	O	O	O
+
+#id=2
+#text=I realized I would have to repair it . 
+2-1	I	2-2_nsubj	realized	PRP	P1_rider
+2-2	realized	O	O	VBD	O
+2-3	I	2-5_nsubj	have	PRP	P1_rider
+2-4	would	2-5_aux	have	MD	O
+2-5	have	2-2_ccomp	realized	VB	O
+2-6	to	2-7_aux	repair	TO	O
+2-7	repair	2-5_xcomp	have	VB	O
+2-8	it	2-7_dobj	repair	PRP	P1_tire
+2-9	.	O	O	O	O
+
+#id=3
+#text=I went into my garage to get some tools . 
+3-1	I	3-2_nsubj	went	PRP	P1_rider
+3-2	went	O	O	VBD	O
+3-3	into	O	O	O	O
+3-4	my	O	O	PRP$	P1_rider
+3-5	garage	3-2_prep_into	went	NN	P1_NPart_garage
+3-6	to	3-7_aux	get	TO	O
+3-7	get	O	O	VB	O
+3-8	some	O	O	DT	O
+3-9	tools	3-7_dobj	get	NNS	P1_tool
+3-10	.	O	O	O	O
+
+#id=4
+#text=The first thing I did was remove the tire by unscrewing the screws that were holding the wheel in place . 
+4-1	The	O	O	DT	O
+4-2	first	O	O	JJ	O
+4-3	thing	4-6_nsubj	was	NN	O
+4-4	I	4-5_nsubj	did	PRP	P1_rider
+4-5	did	O	O	VBD	O
+4-6	was	O	O	VBD	O
+4-7	remove	4-6_ccomp	was	VB	O
+4-8	the	O	O	DT	O
+4-9	tire	4-7_dobj	remove	NN	P1_tire
+4-10	by	O	O	O	O
+4-11	unscrewing	4-7_prepc_by	remove	VBG	O
+4-12	the	O	O	DT	O
+4-13	screws	4-11_dobj	unscrewing	NNS	P1_bicycle_small_detail
+4-14	that	4-16_nsubj	holding	WDT	O
+4-15	were	4-16_aux	holding	VBD	O
+4-16	holding	O	O	VBG	O
+4-17	the	O	O	DT	O
+4-18	wheel	4-16_dobj	holding	NN	P1_tire
+4-19	in	O	O	O	O
+4-20	place	O	O	NN	O
+4-21	.	O	O	O	O
+
+#id=5
+#text=Once that was done , I examined the wheel to see what the damage was . 
+5-1	Once	5-4_mark	done	IN	O
+5-2	that	5-4_nsubjpass	done	DT	O
+5-3	was	5-4_auxpass	done	VBD	O
+5-4	done	5-7_advcl	examined	VBN	O
+5-5	,	O	O	O	O
+5-6	I	5-7_nsubj	examined	PRP	P1_rider
+5-7	examined	O	O	VBD	O
+5-8	the	O	O	DT	O
+5-9	wheel	5-7_dobj	examined	NN	P1_tire
+5-10	to	5-11_aux	see	TO	O
+5-11	see	O	O	VB	O
+5-12	what	5-15_dobj	was	WP	O
+5-13	the	O	O	DT	O
+5-14	damage	5-15_nsubj	was	NN	P1_damage
+5-15	was	5-11_ccomp	see	VBD	O
+5-16	.	O	O	O	O
+
+#id=6
+#text=It turns out a nail must have punctured the tire . 
+6-1	It	6-2_nsubj	turns	PRP	O
+6-2	turns	O	O	VBZ	O
+6-3	out	6-2_prt	turns	RP	O
+6-4	a	O	O	DT	O
+6-5	nail	6-8_nsubj	punctured	NN	P1_object_damage
+6-6	must	6-8_aux	punctured	MD	O
+6-7	have	6-8_aux	punctured	VB	O
+6-8	punctured	6-2_ccomp	turns	VBN	O
+6-9	the	O	O	DT	O
+6-10	tire	6-8_dobj	punctured	NN	P1_tire
+6-11	.	O	O	O	O
+
+#id=7
+#text=I took some glue and proceeded to glue a tube patch over the tiny hole . 
+7-1	I	7-2_nsubj	took	PRP	P1_rider
+7-2	took	O	O	VBD	O
+7-3	some	O	O	DT	O
+7-4	glue	7-2_dobj	took	NN	P2_tool
+7-5	and	O	O	O	O
+7-6	proceeded	7-2_conj_and	took	VBD	O
+7-7	to	7-8_aux	glue	TO	O
+7-8	glue	7-6_xcomp	proceeded	VB	O
+7-9	a	O	O	DT	O
+7-10	tube	O	O	NN	O
+7-11	patch	7-8_dobj	glue	NN	P1_patch
+7-12	over	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	tiny	O	O	JJ	O
+7-15	hole	7-8_prep_over	glue	NN	P1_damage
+7-16	.	O	O	O	O
+
+#id=8
+#text=I continued to apply pressure to the tube patch . 
+8-1	I	8-2_nsubj	continued	PRP	P1_rider
+8-2	continued	O	O	VBD	O
+8-3	to	8-4_aux	apply	TO	O
+8-4	apply	8-2_xcomp	continued	VB	O
+8-5	pressure	8-4_dobj	apply	NN	P1_pressure
+8-6	to	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	tube	O	O	NN	O
+8-9	patch	8-4_prep_to	apply	NN	P1_patch
+8-10	.	O	O	O	O
+
+#id=9
+#text=When that was done , I inflated the tire back to fullness . 
+9-1	When	9-4_advmod	done	WRB	O
+9-2	that	9-4_nsubjpass	done	DT	O
+9-3	was	9-4_auxpass	done	VBD	O
+9-4	done	9-7_advcl	inflated	VBN	O
+9-5	,	O	O	O	O
+9-6	I	9-7_nsubj	inflated	PRP	P1_rider
+9-7	inflated	O	O	VBD	O
+9-8	the	O	O	DT	O
+9-9	tire	9-7_dobj	inflated	NN	P1_tire
+9-10	back	9-7_advmod	inflated	RB	O
+9-11	to	O	O	O	O
+9-12	fullness	9-7_prep_to	inflated	NNS	O
+9-13	.	O	O	O	O
+
+#id=10
+#text=As I was inflating the tire , I made sure the patch stayed in place . 
+10-1	As	10-4_mark	inflating	IN	O
+10-2	I	10-4_nsubj	inflating	PRP	P1_rider
+10-3	was	10-4_aux	inflating	VBD	O
+10-4	inflating	10-9_advcl	made	VBG	O
+10-5	the	O	O	DT	O
+10-6	tire	10-4_dobj	inflating	NN	P1_tire
+10-7	,	O	O	O	O
+10-8	I	10-9_nsubj	made	PRP	P1_rider
+10-9	made	O	O	VBD	O
+10-10	sure	10-9_acomp	made	JJ	O
+10-11	the	O	O	DT	O
+10-12	patch	10-13_nsubj	stayed	NN	P1_patch
+10-13	stayed	O	O	VBD	O
+10-14	in	O	O	O	O
+10-15	place	10-13_prep_in	stayed	NN	O
+10-16	.	O	O	O	O
+
+#id=11
+#text=I then reattached the wheel back on the bicycle and it was good to go . 
+11-1	I	11-3_nsubj	reattached	PRP	P1_rider
+11-2	then	11-3_advmod	reattached	RB	O
+11-3	reattached	O	O	VBD	O
+11-4	the	O	O	DT	O
+11-5	wheel	11-3_dobj	reattached	NN	P1_tire
+11-6	back	11-3_advmod	reattached	RB	O
+11-7	on	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	bicycle	11-3_prep_on	reattached	NN	P1_bicycle
+11-10	and	O	O	O	O
+11-11	it	O	O	PRP	P1_bicycle
+11-12	was	O	O	VBD	O
+11-13	good	11-3_conj_and	reattached	JJ	O
+11-14	to	11-15_aux	go	TO	O
+11-15	go	O	O	VB	O
+11-16	.	O	O	O	O
+
+#id=12
+#text=I happily took my bike out to the park as I had initially wanted to . 
+12-1	I	12-3_nsubj	took	PRP	P1_rider
+12-2	happily	12-3_advmod	took	RB	O
+12-3	took	O	O	VBD	O
+12-4	my	O	O	PRP$	P1_rider
+12-5	bike	12-3_dobj	took	NN	P1_bicycle
+12-6	out	12-3_prt	took	RP	O
+12-7	to	O	O	O	O
+12-8	the	O	O	DT	O
+12-9	park	12-3_prep_to	took	NN	P1_NPart_park
+12-10	as	12-14_mark	wanted	IN	O
+12-11	I	12-14_nsubj	wanted	PRP	P1_rider
+12-12	had	12-14_aux	wanted	VBD	O
+12-13	initially	12-14_advmod	wanted	RB	O
+12-14	wanted	12-3_advcl	took	VBN	O
+12-15	to	12-14_xcomp	wanted	TO	O
+12-16	.	O	O	O	O

@@ -1,0 +1,224 @@
+#id=1
+#text=My family moved into a new house and we wanted to plant a year to celebrate our new beginning . 
+1-1	My	O	O	PRP$	P1_gardener
+1-2	family	1-3_nsubj	moved	NN	P2_gardener
+1-3	moved	O	O	VBD	O
+1-4	into	O	O	O	O
+1-5	a	O	O	DT	O
+1-6	new	O	O	JJ	O
+1-7	house	1-3_prep_into	moved	NN	P1_NPart_house
+1-8	and	O	O	O	O
+1-9	we	1-10_nsubj	wanted	PRP	P3_gardener
+1-10	wanted	1-3_conj_and	moved	VBD	O
+1-11	to	O	O	O	O
+1-12	plant	1-10_prep_to	wanted	NN	O
+1-13	a	O	O	DT	O
+1-14	year	1-10_tmod	wanted	NN	P1_tree
+1-15	to	1-16_aux	celebrate	TO	O
+1-16	celebrate	1-10_vmod	wanted	VB	O
+1-17	our	O	O	PRP$	P3_gardener
+1-18	new	O	O	JJ	O
+1-19	beginning	1-16_dobj	celebrate	NN	P1_NPart_beginning
+1-20	.	O	O	O	O
+
+#id=2
+#text=We knew that the tree would grow over the years and would be a great reminder of how long we had lived there . 
+2-1	We	2-2_nsubj	knew	PRP	P3_gardener
+2-2	knew	O	O	VBD	O
+2-3	that	2-7_mark	grow	IN	O
+2-4	the	O	O	DT	O
+2-5	tree	2-7_nsubj	grow	NN	P1_tree
+2-6	would	2-7_aux	grow	MD	O
+2-7	grow	2-2_ccomp	knew	VB	O
+2-8	over	2-7_prt	grow	RP	O
+2-9	the	O	O	DT	O
+2-10	years	2-7_tmod	grow	NNS	P1_time
+2-11	and	O	O	O	O
+2-12	would	O	O	MD	O
+2-13	be	O	O	VB	O
+2-14	a	O	O	DT	O
+2-15	great	O	O	JJ	O
+2-16	reminder	2-2_conj_and	knew	NN	P1_tree
+2-17	of	O	O	O	O
+2-18	how	O	O	WRB	O
+2-19	long	2-22_dep	lived	JJ	O
+2-20	we	2-22_nsubj	lived	PRP	P3_gardener
+2-21	had	2-22_aux	lived	VBD	O
+2-22	lived	O	O	VBN	O
+2-23	there	2-22_advmod	lived	RB	O
+2-24	.	O	O	O	O
+
+#id=3
+#text=We chose a spot in our yard where the tree would have plenty of space to grow . 
+3-1	We	3-2_nsubj	chose	PRP	P3_gardener
+3-2	chose	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	spot	3-2_dobj	chose	NN	P1_location_garden
+3-5	in	O	O	O	O
+3-6	our	O	O	PRP$	P3_gardener
+3-7	yard	3-2_prep_in	chose	NN	P1_NPart_yard
+3-8	where	3-12_advmod	have	WRB	O
+3-9	the	O	O	DT	O
+3-10	tree	3-12_nsubj	have	NN	P1_tree
+3-11	would	3-12_aux	have	MD	O
+3-12	have	3-2_advcl	chose	VB	O
+3-13	plenty	3-12_dobj	have	RB	O
+3-14	of	O	O	O	O
+3-15	space	O	O	NN	P1_NPart_space
+3-16	to	3-17_aux	grow	TO	O
+3-17	grow	3-12_ccomp	have	VB	O
+3-18	.	O	O	O	O
+
+#id=4
+#text=My dad brought out some shovels and we all helped to dig a big hole . 
+4-1	My	O	O	PRP$	P1_gardener
+4-2	dad	4-3_nsubj	brought	NN	P4_gardener
+4-3	brought	O	O	VBD	O
+4-4	out	4-3_prt	brought	RP	O
+4-5	some	O	O	DT	O
+4-6	shovels	4-3_dobj	brought	NNS	P1_gardening_tool
+4-7	and	O	O	O	O
+4-8	we	4-10_nsubj	helped	PRP	P3_gardener
+4-9	all	4-10_advmod	helped	DT	O
+4-10	helped	4-3_conj_and	brought	VBD	O
+4-11	to	4-12_aux	dig	TO	O
+4-12	dig	4-10_xcomp	helped	VB	O
+4-13	a	O	O	DT	O
+4-14	big	O	O	JJ	O
+4-15	hole	4-12_dobj	dig	NN	P1_hole
+4-16	.	O	O	O	O
+
+#id=5
+#text=The tree was not very large yet , but the ball of roots at the bottom made it very heavy . 
+5-1	The	O	O	DT	O
+5-2	tree	O	O	NN	P1_tree
+5-3	was	O	O	VBD	O
+5-4	not	O	O	RB	O
+5-5	very	O	O	RB	O
+5-6	large	O	O	JJ	O
+5-7	yet	O	O	RB	O
+5-8	,	O	O	O	O
+5-9	but	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	ball	5-17_nsubj	made	NN	P1_NPart_ball
+5-12	of	O	O	O	O
+5-13	roots	O	O	NNS	P1_root
+5-14	at	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	bottom	O	O	NN	P1_NPart_bottom
+5-17	made	O	O	VBD	O
+5-18	it	O	O	PRP	P1_tree
+5-19	very	O	O	RB	O
+5-20	heavy	5-17_xcomp	made	JJ	O
+5-21	.	O	O	O	O
+
+#id=6
+#text=We all helped Dad lift the tree and carry it over to the hole . 
+6-1	We	6-3_nsubj	helped	PRP	P3_gardener
+6-2	all	6-3_advmod	helped	DT	O
+6-3	helped	O	O	VBD	O
+6-4	Dad	6-5_nsubj	lift	NNP	P4_gardener
+6-5	lift	6-3_ccomp	helped	VB	O
+6-6	the	O	O	DT	O
+6-7	tree	6-5_dobj	lift	NN	P1_tree
+6-8	and	O	O	O	O
+6-9	carry	6-5_conj_and	lift	VB	O
+6-10	it	6-9_dobj	carry	PRP	P1_tree
+6-11	over	6-9_prt	carry	RP	O
+6-12	to	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	hole	6-9_prep_to	carry	NN	P1_hole
+6-15	.	O	O	O	O
+
+#id=7
+#text=We placed it in gently , being very careful not to damage the roots or the branches . 
+7-1	We	7-2_nsubj	placed	PRP	P3_gardener
+7-2	placed	O	O	VBD	O
+7-3	it	7-2_dobj	placed	PRP	P1_tree
+7-4	in	7-2_prep	placed	IN	O
+7-5	gently	O	O	RB	O
+7-6	,	O	O	O	O
+7-7	being	O	O	VBG	O
+7-8	very	O	O	RB	O
+7-9	careful	7-2_vmod	placed	JJ	O
+7-10	not	7-12_neg	damage	RB	O
+7-11	to	7-12_aux	damage	TO	O
+7-12	damage	O	O	VB	O
+7-13	the	O	O	DT	O
+7-14	roots	7-12_dobj	damage	NNS	P2_root
+7-15	or	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	branches	O	O	NNS	P1_other
+7-18	.	O	O	O	O
+
+#id=8
+#text=We threw some fertilizer into the hole to feed the tree and then we started to refill the hole with the dirt we had dug out . 
+8-1	We	8-2_nsubj	threw	PRP	P3_gardener
+8-2	threw	O	O	VBD	O
+8-3	some	O	O	DT	O
+8-4	fertilizer	8-2_dobj	threw	NN	P1_fertilizer
+8-5	into	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	hole	8-2_prep_into	threw	NN	P1_hole
+8-8	to	8-9_aux	feed	TO	O
+8-9	feed	8-2_vmod	threw	VB	O
+8-10	the	O	O	DT	O
+8-11	tree	8-9_dobj	feed	NN	P1_tree
+8-12	and	O	O	O	O
+8-13	then	8-15_advmod	started	RB	O
+8-14	we	8-15_nsubj	started	PRP	P3_gardener
+8-15	started	8-2_conj_and	threw	VBD	O
+8-16	to	8-17_aux	refill	TO	O
+8-17	refill	8-15_xcomp	started	VB	O
+8-18	the	O	O	DT	O
+8-19	hole	8-17_dobj	refill	NN	P1_hole
+8-20	with	O	O	O	O
+8-21	the	O	O	DT	O
+8-22	dirt	8-17_prep_with	refill	NN	P1_dirt
+8-23	we	8-25_nsubj	dug	PRP	P3_gardener
+8-24	had	8-25_aux	dug	VBD	O
+8-25	dug	O	O	VBN	O
+8-26	out	8-25_prt	dug	RP	O
+8-27	.	O	O	O	O
+
+#id=9
+#text=We made sure the tree was nice and straight and standing tall and then began patting down the dirt . 
+9-1	We	9-2_nsubj	made	PRP	P3_gardener
+9-2	made	O	O	VBD	O
+9-3	sure	9-2_acomp	made	JJ	O
+9-4	the	O	O	DT	O
+9-5	tree	O	O	NN	P1_tree
+9-6	was	O	O	VBD	O
+9-7	nice	O	O	JJ	O
+9-8	and	O	O	O	O
+9-9	straight	O	O	JJ	O
+9-10	and	O	O	O	O
+9-11	standing	O	O	VBG	O
+9-12	tall	9-11_acomp	standing	JJ	O
+9-13	and	O	O	O	O
+9-14	then	9-15_advmod	began	RB	O
+9-15	began	9-2_conj_and	made	VBD	O
+9-16	patting	9-15_xcomp	began	VBG	O
+9-17	down	9-16_prt	patting	RP	O
+9-18	the	O	O	DT	O
+9-19	dirt	9-16_dobj	patting	NN	P2_dirt
+9-20	.	O	O	O	O
+
+#id=10
+#text=When it was finished we turned on the hose and gave it plenty of water . 
+10-1	When	10-4_advmod	finished	WRB	O
+10-2	it	10-4_nsubjpass	finished	PRP	P1_NPart_it
+10-3	was	10-4_auxpass	finished	VBD	O
+10-4	finished	10-6_advcl	turned	VBN	O
+10-5	we	10-6_nsubj	turned	PRP	P3_gardener
+10-6	turned	O	O	VBD	O
+10-7	on	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	hose	10-6_prep_on	turned	NN	P2_gardening_tool
+10-10	and	O	O	O	O
+10-11	gave	10-6_conj_and	turned	VBD	O
+10-12	it	10-11_iobj	gave	PRP	P1_tree
+10-13	plenty	10-11_dobj	gave	RB	O
+10-14	of	O	O	O	O
+10-15	water	O	O	NN	P1_water
+10-16	.	O	O	O	O

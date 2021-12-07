@@ -1,0 +1,227 @@
+#id=1
+#text=Every morning I take a bath . 
+1-1	Every	O	O	DT	O
+1-2	morning	1-4_tmod	take	NN	P1_NPart_morning
+1-3	I	1-4_nsubj	take	PRP	P1_bather
+1-4	take	O	O	VBP	O
+1-5	a	O	O	DT	O
+1-6	bath	1-4_dobj	take	NN	P1_bath
+1-7	.	O	O	O	O
+
+#id=2
+#text=Before I get into the bath tub , I turn on the water . 
+2-1	Before	2-3_mark	get	IN	O
+2-2	I	2-3_nsubj	get	PRP	P1_bather
+2-3	get	2-10_advcl	turn	VBP	O
+2-4	into	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	bath	O	O	NN	O
+2-7	tub	2-3_prep_into	get	NN	P1_bathtub
+2-8	,	O	O	O	O
+2-9	I	2-10_nsubj	turn	PRP	P1_bather
+2-10	turn	O	O	VBP	O
+2-11	on	O	O	O	O
+2-12	the	O	O	DT	O
+2-13	water	2-10_prep_on	turn	NN	P1_water
+2-14	.	O	O	O	O
+
+#id=3
+#text=I adjust the cold and the hot water to make a bearable temperature . 
+3-1	I	3-2_nsubj	adjust	PRP	P1_bather
+3-2	adjust	O	O	VBP	O
+3-3	the	O	O	DT	O
+3-4	cold	3-2_dobj	adjust	NN	O
+3-5	and	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	hot	O	O	JJ	O
+3-8	water	O	O	NN	P1_water
+3-9	to	3-10_aux	make	TO	O
+3-10	make	3-2_xcomp	adjust	VB	O
+3-11	a	O	O	DT	O
+3-12	bearable	O	O	JJ	O
+3-13	temperature	3-10_dobj	make	NN	P1_temperature
+3-14	.	O	O	O	O
+
+#id=4
+#text=I adjust the water before entering the tub so I wo n't burn or freeze myself . 
+4-1	I	4-2_nsubj	adjust	PRP	P1_bather
+4-2	adjust	O	O	VBP	O
+4-3	the	O	O	DT	O
+4-4	water	4-2_dobj	adjust	NN	P1_water
+4-5	before	O	O	O	O
+4-6	entering	4-2_prepc_before	adjust	VBG	O
+4-7	the	O	O	DT	O
+4-8	tub	4-6_dobj	entering	NN	P1_bathtub
+4-9	so	4-13_mark	burn	IN	O
+4-10	I	4-13_nsubj	burn	PRP	P1_bather
+4-11	wo	4-13_aux	burn	MD	O
+4-12	n't	4-13_neg	burn	RB	O
+4-13	burn	4-6_advcl	entering	VB	O
+4-14	or	O	O	O	O
+4-15	freeze	4-13_conj_or	burn	VB	O
+4-16	myself	4-13_dobj	burn	PRP	P1_bather
+4-17	.	O	O	O	O
+
+#id=5
+#text=After the water is just right , I take off all my clothes and enter the tub . 
+5-1	After	O	O	IN	O
+5-2	the	O	O	DT	O
+5-3	water	O	O	NN	P1_water
+5-4	is	O	O	VBZ	O
+5-5	just	O	O	RB	O
+5-6	right	5-9_advcl	take	JJ	O
+5-7	,	O	O	O	O
+5-8	I	5-9_nsubj	take	PRP	P1_bather
+5-9	take	O	O	VB	O
+5-10	off	5-9_prt	take	RP	O
+5-11	all	O	O	PDT	O
+5-12	my	O	O	PRP$	P1_bather
+5-13	clothes	5-9_dobj	take	NNS	P1_clothes
+5-14	and	O	O	O	O
+5-15	enter	5-9_conj_and	take	VB	O
+5-16	the	O	O	DT	O
+5-17	tub	5-15_dobj	enter	NN	P1_bathtub
+5-18	.	O	O	O	O
+
+#id=6
+#text=I pour water on my body then I lather up with either soap or shower gel . 
+6-1	I	6-2_nsubj	pour	PRP	P1_bather
+6-2	pour	O	O	VBP	O
+6-3	water	6-2_dobj	pour	NN	P1_water
+6-4	on	O	O	O	O
+6-5	my	O	O	PRP$	P1_bather
+6-6	body	O	O	NN	P1_body_part
+6-7	then	6-2_advmod	pour	RB	O
+6-8	I	6-9_nsubj	lather	PRP	P1_bather
+6-9	lather	6-2_parataxis	pour	VBP	O
+6-10	up	6-9_prt	lather	RP	O
+6-11	with	O	O	O	O
+6-12	either	O	O	DT	O
+6-13	soap	O	O	NN	P1_washing_tools
+6-14	or	O	O	O	O
+6-15	shower	O	O	NN	O
+6-16	gel	6-9_prep_with	lather	NN	P2_washing_tools
+6-17	.	O	O	O	O
+
+#id=7
+#text=Once I have soap all over my body , I take my loofah sponge and pour soap on that as well . 
+7-1	Once	7-4_mark	soap	IN	O
+7-2	I	7-4_nsubj	soap	PRP	P1_bather
+7-3	have	7-4_aux	soap	VBP	O
+7-4	soap	7-11_advcl	take	VBN	P3_washing_tools
+7-5	all	7-4_dep	soap	DT	O
+7-6	over	O	O	O	O
+7-7	my	O	O	PRP$	P1_bather
+7-8	body	7-4_prep_over	soap	NN	P2_body_part
+7-9	,	O	O	O	O
+7-10	I	7-11_nsubj	take	PRP	P1_bather
+7-11	take	O	O	VBP	O
+7-12	my	O	O	PRP$	P1_bather
+7-13	loofah	7-14_nsubj	sponge	NN	O
+7-14	sponge	7-11_ccomp	take	VBP	P4_washing_tools
+7-15	and	O	O	O	O
+7-16	pour	7-14_conj_and	sponge	VBP	O
+7-17	soap	7-14_dobj	sponge	NN	P3_washing_tools
+7-18	on	O	O	O	O
+7-19	that	O	O	DT	O
+7-20	as	O	O	RB	O
+7-21	well	7-14_advmod	sponge	RB	O
+7-22	.	O	O	O	O
+
+#id=8
+#text=I , then , begin to scrub my body as firm but gently as I can . 
+8-1	I	8-5_nsubj	begin	PRP	P1_bather
+8-2	,	O	O	O	O
+8-3	then	8-5_advmod	begin	RB	O
+8-4	,	O	O	O	O
+8-5	begin	O	O	VBP	O
+8-6	to	8-7_aux	scrub	TO	O
+8-7	scrub	8-5_xcomp	begin	VB	O
+8-8	my	O	O	PRP$	P1_bather
+8-9	body	8-7_dobj	scrub	NN	P3_body_part
+8-10	as	O	O	O	O
+8-11	firm	8-7_prep_as	scrub	NN	O
+8-12	but	8-5_cc	begin	CC	O
+8-13	gently	O	O	RB	O
+8-14	as	O	O	IN	O
+8-15	I	O	O	PRP	P1_bather
+8-16	can	8-5_advcl	begin	MD	O
+8-17	.	O	O	O	O
+
+#id=9
+#text=I do this to ensure that all the dirt washes off my skin . 
+9-1	I	9-2_nsubj	do	PRP	P1_bather
+9-2	do	O	O	VBP	O
+9-3	this	9-2_dobj	do	DT	O
+9-4	to	9-5_aux	ensure	TO	O
+9-5	ensure	9-2_xcomp	do	VB	O
+9-6	that	9-10_mark	washes	IN	O
+9-7	all	O	O	PDT	O
+9-8	the	O	O	DT	O
+9-9	dirt	9-10_nsubj	washes	NN	P1_NPart_dirt
+9-10	washes	9-5_ccomp	ensure	VBZ	O
+9-11	off	9-10_prt	washes	RP	O
+9-12	my	O	O	PRP$	P1_bather
+9-13	skin	9-10_dobj	washes	NN	P4_body_part
+9-14	.	O	O	O	O
+
+#id=10
+#text=While I am scrubbing my body , I like to sing in the shower . 
+10-1	While	10-4_mark	scrubbing	IN	O
+10-2	I	10-4_nsubj	scrubbing	PRP	P1_bather
+10-3	am	10-4_aux	scrubbing	VBP	O
+10-4	scrubbing	10-9_advcl	like	VBG	O
+10-5	my	O	O	PRP$	P1_bather
+10-6	body	10-4_dobj	scrubbing	NN	P3_body_part
+10-7	,	O	O	O	O
+10-8	I	10-9_nsubj	like	PRP	P1_bather
+10-9	like	O	O	VBP	O
+10-10	to	10-11_aux	sing	TO	O
+10-11	sing	10-9_xcomp	like	VB	O
+10-12	in	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	shower	10-11_prep_in	sing	NN	P1_shower
+10-15	.	O	O	O	O
+
+#id=11
+#text=After I scrub really good and finish singing , I pour water continuously on my body until all the soap washes off . 
+11-1	After	11-3_mark	scrub	IN	O
+11-2	I	11-3_nsubj	scrub	PRP	P1_bather
+11-3	scrub	11-11_advcl	pour	VB	O
+11-4	really	O	O	RB	O
+11-5	good	11-3_acomp	scrub	JJ	O
+11-6	and	O	O	O	O
+11-7	finish	11-3_conj_and	scrub	VB	O
+11-8	singing	11-7_dobj	finish	NN	O
+11-9	,	O	O	O	O
+11-10	I	11-11_nsubj	pour	PRP	P1_bather
+11-11	pour	O	O	VBP	O
+11-12	water	11-11_dobj	pour	NN	P1_water
+11-13	continuously	11-11_advmod	pour	RB	O
+11-14	on	O	O	O	O
+11-15	my	O	O	PRP$	P1_bather
+11-16	body	11-11_prep_on	pour	NN	P3_body_part
+11-17	until	11-21_mark	washes	IN	O
+11-18	all	O	O	PDT	O
+11-19	the	O	O	DT	O
+11-20	soap	11-21_nsubj	washes	NN	P3_washing_tools
+11-21	washes	11-11_advcl	pour	VBZ	O
+11-22	off	11-21_prt	washes	RP	O
+11-23	.	O	O	O	O
+
+#id=12
+#text=I stay in the shower for about twenty minutes until I feel clean . 
+12-1	I	12-2_nsubj	stay	PRP	P1_bather
+12-2	stay	O	O	VBP	O
+12-3	in	O	O	O	O
+12-4	the	O	O	DT	O
+12-5	shower	12-2_prep_in	stay	NN	P1_shower
+12-6	for	O	O	O	O
+12-7	about	O	O	RB	O
+12-8	twenty	O	O	CD	O
+12-9	minutes	12-12_dep	feel	NNS	P1_NPart_minutes
+12-10	until	12-12_mark	feel	IN	O
+12-11	I	12-12_nsubj	feel	PRP	P1_bather
+12-12	feel	O	O	VBP	O
+12-13	clean	12-12_acomp	feel	JJ	O
+12-14	.	O	O	O	O

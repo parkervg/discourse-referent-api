@@ -1,0 +1,274 @@
+#id=1
+#text=I flew to Iceland one year on vacation . 
+1-1	I	1-2_nsubj	flew	PRP	P1_passenger
+1-2	flew	O	O	VBD	O
+1-3	to	O	O	O	O
+1-4	Iceland	1-2_prep_to	flew	NNP	P1_target_location
+1-5	one	O	O	CD	O
+1-6	year	1-2_tmod	flew	NN	P1_time/date
+1-7	on	O	O	O	O
+1-8	vacation	1-2_prep_on	flew	NN	P1_NPart_vacation
+1-9	.	O	O	O	O
+
+#id=2
+#text=I left JFK airport in New York and flew to Keflavik in Iceland . 
+2-1	I	2-2_nsubj	left	PRP	P1_passenger
+2-2	left	O	O	VBD	O
+2-3	JFK	O	O	NNP	O
+2-4	airport	2-2_dobj	left	NN	P1_airport
+2-5	in	O	O	O	O
+2-6	New	O	O	NNP	O
+2-7	York	2-2_prep_in	left	NNP	P1_NPart_york
+2-8	and	O	O	O	O
+2-9	flew	2-2_conj_and	left	VBD	O
+2-10	to	O	O	O	O
+2-11	Keflavik	2-9_prep_to	flew	NNP	P2_target_location
+2-12	in	O	O	O	O
+2-13	Iceland	2-9_prep_in	flew	NNP	P1_target_location
+2-14	.	O	O	O	O
+
+#id=3
+#text=JFK is an enormous airport . 
+3-1	JFK	O	O	NNP	P1_airport
+3-2	is	O	O	VBZ	O
+3-3	an	O	O	DT	O
+3-4	enormous	O	O	JJ	O
+3-5	airport	O	O	NN	P1_airport
+3-6	.	O	O	O	O
+
+#id=4
+#text=I parked in long term parking and then took a shuttle to actual terminals . 
+4-1	I	4-2_nsubj	parked	PRP	P1_passenger
+4-2	parked	O	O	VBD	O
+4-3	in	O	O	O	O
+4-4	long	O	O	JJ	O
+4-5	term	O	O	NN	O
+4-6	parking	4-2_prep_in	parked	NN	P1_other
+4-7	and	O	O	O	O
+4-8	then	4-9_advmod	took	RB	O
+4-9	took	4-2_conj_and	parked	VBD	O
+4-10	a	O	O	DT	O
+4-11	shuttle	4-9_dobj	took	NN	P2_other
+4-12	to	O	O	O	O
+4-13	actual	O	O	JJ	O
+4-14	terminals	4-9_prep_to	took	NNS	P1_terminal/gate
+4-15	.	O	O	O	O
+
+#id=5
+#text=I felt so nervous that I would n't make my flight ! 
+5-1	I	5-2_nsubj	felt	PRP	P1_passenger
+5-2	felt	O	O	VBD	O
+5-3	so	O	O	RB	O
+5-4	nervous	5-2_acomp	felt	JJ	O
+5-5	that	5-9_mark	make	IN	O
+5-6	I	5-9_nsubj	make	PRP	P1_passenger
+5-7	would	5-9_aux	make	MD	O
+5-8	n't	5-9_neg	make	RB	O
+5-9	make	5-2_ccomp	felt	VB	O
+5-10	my	O	O	PRP$	P1_passenger
+5-11	flight	5-9_dobj	make	NN	P1_flight
+5-12	!	O	O	O	O
+
+#id=6
+#text=I was so afraid beforehand of getting my bag lost that I just packed everything I needed into a small carry on bag . 
+6-1	I	O	O	PRP	P1_passenger
+6-2	was	O	O	VBD	O
+6-3	so	O	O	RB	O
+6-4	afraid	O	O	JJ	O
+6-5	beforehand	O	O	RB	O
+6-6	of	O	O	O	O
+6-7	getting	O	O	VBG	O
+6-8	my	O	O	PRP$	P1_passenger
+6-9	bag	6-10_nsubj	lost	NN	P1_check_in_luggage
+6-10	lost	6-7_ccomp	getting	VBD	O
+6-11	that	6-14_mark	packed	IN	O
+6-12	I	6-14_nsubj	packed	PRP	P1_passenger
+6-13	just	6-14_advmod	packed	RB	O
+6-14	packed	6-10_ccomp	lost	VBD	O
+6-15	everything	6-14_dobj	packed	NN	P1_personal_belongings
+6-16	I	6-17_nsubj	needed	PRP	P1_passenger
+6-17	needed	O	O	VBD	O
+6-18	into	O	O	O	O
+6-19	a	O	O	DT	O
+6-20	small	O	O	JJ	O
+6-21	carry	6-17_prep_into	needed	NN	O
+6-22	on	O	O	O	O
+6-23	bag	6-17_prep_on	needed	NN	P1_carry_on_luggage
+6-24	.	O	O	O	O
+
+#id=7
+#text=I checked in and then went to security . 
+7-1	I	7-2_nsubj	checked	PRP	P1_passenger
+7-2	checked	O	O	VBD	O
+7-3	in	7-2_prt	checked	RP	O
+7-4	and	O	O	O	O
+7-5	then	7-6_advmod	went	RB	O
+7-6	went	7-2_conj_and	checked	VBD	O
+7-7	to	O	O	O	O
+7-8	security	7-6_prep_to	went	NN	P1_security_check
+7-9	.	O	O	O	O
+
+#id=8
+#text=Security moved along quickly and I was waiting at my gate to catch my flight . 
+8-1	Security	8-2_nsubj	moved	NNP	P1_security_check
+8-2	moved	O	O	VBD	O
+8-3	along	8-2_prt	moved	RP	O
+8-4	quickly	8-2_advmod	moved	RB	O
+8-5	and	O	O	O	O
+8-6	I	8-8_nsubj	waiting	PRP	P1_passenger
+8-7	was	8-8_aux	waiting	VBD	O
+8-8	waiting	8-2_conj_and	moved	VBG	O
+8-9	at	O	O	O	O
+8-10	my	O	O	PRP$	P1_passenger
+8-11	gate	8-8_prep_at	waiting	NN	P2_terminal/gate
+8-12	to	8-13_aux	catch	TO	O
+8-13	catch	O	O	VB	O
+8-14	my	O	O	PRP$	P1_passenger
+8-15	flight	8-13_dobj	catch	NN	P2_flight
+8-16	.	O	O	O	O
+
+#id=9
+#text=JFK airport is pretty gross ! 
+9-1	JFK	O	O	NNP	O
+9-2	airport	O	O	NN	P1_airport
+9-3	is	O	O	VBZ	O
+9-4	pretty	O	O	RB	O
+9-5	gross	O	O	JJ	O
+9-6	!	O	O	O	O
+
+#id=10
+#text=While I was waiting , I had a beer at a restaurant . 
+10-1	While	10-4_mark	waiting	IN	O
+10-2	I	10-4_nsubj	waiting	PRP	P1_passenger
+10-3	was	10-4_aux	waiting	VBD	O
+10-4	waiting	10-7_advcl	had	VBG	O
+10-5	,	O	O	O	O
+10-6	I	10-7_nsubj	had	PRP	P1_passenger
+10-7	had	O	O	VBD	O
+10-8	a	O	O	DT	O
+10-9	beer	10-7_dobj	had	NN	P1_NPart_beer
+10-10	at	O	O	O	O
+10-11	a	O	O	DT	O
+10-12	restaurant	O	O	NN	P1_NPart_restaurant
+10-13	.	O	O	O	O
+
+#id=11
+#text=A roach fell on my husband who was with me ! 
+11-1	A	O	O	DT	O
+11-2	roach	11-3_nsubj	fell	NN	P1_NPart_roach
+11-3	fell	O	O	VBD	O
+11-4	on	O	O	O	O
+11-5	my	O	O	PRP$	P1_passenger
+11-6	husband	11-3_prep_on	fell	NN	P2_passenger
+11-7	who	11-8_nsubj	was	WP	O
+11-8	was	O	O	VBD	O
+11-9	with	O	O	O	O
+11-10	me	11-8_prep_with	was	PRP	P1_passenger
+11-11	!	O	O	O	O
+
+#id=12
+#text=We quietly called our server over and she stepped on it and told us it happens all the time ! 
+12-1	We	12-3_nsubj	called	PRP	P3_passenger
+12-2	quietly	12-3_advmod	called	RB	O
+12-3	called	O	O	VBD	O
+12-4	our	O	O	PRP$	P1_NPart_our
+12-5	server	12-3_dobj	called	NN	P1_staff
+12-6	over	12-3_prt	called	RP	O
+12-7	and	O	O	O	O
+12-8	she	12-9_nsubj	stepped	PRP	P1_staff
+12-9	stepped	12-3_conj_and	called	VBD	O
+12-10	on	O	O	O	O
+12-11	it	12-9_prep_on	stepped	PRP	O
+12-12	and	O	O	O	O
+12-13	told	12-9_conj_and	stepped	VBD	O
+12-14	us	12-13_dobj	told	PRP	P3_passenger
+12-15	it	12-16_nsubj	happens	PRP	O
+12-16	happens	12-13_dep	told	VBZ	O
+12-17	all	O	O	PDT	O
+12-18	the	O	O	DT	O
+12-19	time	12-16_dobj	happens	NN	P1_NPart_time
+12-20	!	O	O	O	O
+
+#id=13
+#text=We were so disgusted . 
+13-1	We	13-4_nsubjpass	disgusted	PRP	P3_passenger
+13-2	were	13-4_auxpass	disgusted	VBD	O
+13-3	so	13-4_advmod	disgusted	RB	O
+13-4	disgusted	O	O	VBN	O
+13-5	.	O	O	O	O
+
+#id=14
+#text=It actually made us want to get on the plane even quicker and get out of there . 
+14-1	It	14-3_nsubj	made	PRP	O
+14-2	actually	14-3_advmod	made	RB	O
+14-3	made	O	O	VBD	O
+14-4	us	14-5_nsubj	want	PRP	P3_passenger
+14-5	want	14-3_ccomp	made	VBP	O
+14-6	to	14-7_aux	get	TO	O
+14-7	get	14-5_xcomp	want	VB	O
+14-8	on	O	O	O	O
+14-9	the	O	O	DT	O
+14-10	plane	14-7_prep_on	get	NN	P1_plane
+14-11	even	O	O	RB	O
+14-12	quicker	O	O	JJR	O
+14-13	and	O	O	O	O
+14-14	get	14-7_conj_and	get	VB	O
+14-15	out	O	O	O	O
+14-16	of	O	O	O	O
+14-17	there	14-14_prep_out_of	get	RB	P1_NPart_there
+14-18	.	O	O	O	O
+
+#id=15
+#text=Finally , we boarded the plane and were seated next to some nice people from Oregon . 
+15-1	Finally	15-4_advmod	boarded	RB	O
+15-2	,	O	O	O	O
+15-3	we	15-4_nsubj	boarded	PRP	P3_passenger
+15-4	boarded	O	O	VBD	O
+15-5	the	O	O	DT	O
+15-6	plane	15-4_dobj	boarded	NN	P1_plane
+15-7	and	O	O	O	O
+15-8	were	15-9_auxpass	seated	VBD	O
+15-9	seated	15-4_conj_and	boarded	VBN	O
+15-10	next	O	O	O	O
+15-11	to	O	O	O	O
+15-12	some	O	O	DT	O
+15-13	nice	O	O	JJ	O
+15-14	people	15-9_prep_next_to	seated	NNS	P4_passenger
+15-15	from	O	O	O	O
+15-16	Oregon	15-9_prep_from	seated	NNP	P1_NPart_oregon
+15-17	.	O	O	O	O
+
+#id=16
+#text=We chatted a bit with them and I watched an in-flight movie of Jane Eyre . 
+16-1	We	16-2_nsubj	chatted	PRP	P3_passenger
+16-2	chatted	O	O	VBD	O
+16-3	a	O	O	DT	O
+16-4	bit	16-2_dobj	chatted	NN	O
+16-5	with	O	O	O	O
+16-6	them	16-2_prep_with	chatted	PRP	P4_passenger
+16-7	and	O	O	O	O
+16-8	I	16-9_nsubj	watched	PRP	P5_passenger
+16-9	watched	16-2_conj_and	chatted	VBD	O
+16-10	an	O	O	DT	O
+16-11	in-flight	O	O	JJ	O
+16-12	movie	16-9_dobj	watched	NN	P1_in-flight_entertainment
+16-13	of	O	O	O	O
+16-14	Jane	O	O	NNP	O
+16-15	Eyre	O	O	NNP	P1_NPart_eyre
+16-16	.	O	O	O	O
+
+#id=17
+#text=Finally we got to Iceland . 
+17-1	Finally	17-3_advmod	got	RB	O
+17-2	we	17-3_nsubj	got	PRP	P2_plane
+17-3	got	O	O	VBD	O
+17-4	to	O	O	O	O
+17-5	Iceland	17-3_prep_to	got	NNP	P1_target_location
+17-6	.	O	O	O	O
+
+#id=18
+#text=I loved flying ! 
+18-1	I	18-2_nsubj	loved	PRP	P1_passenger
+18-2	loved	O	O	VBD	O
+18-3	flying	18-2_xcomp	loved	VBG	O
+18-4	!	O	O	O	O

@@ -1,0 +1,230 @@
+#id=1
+#text=I wanted to go to Atlanta to visit my daughter , son-in-law and granddaughter . 
+1-1	I	1-2_nsubj	wanted	PRP	P1_passenger
+1-2	wanted	O	O	VBD	O
+1-3	to	1-4_aux	go	TO	O
+1-4	go	1-2_xcomp	wanted	VB	O
+1-5	to	O	O	O	O
+1-6	Atlanta	1-4_prep_to	go	NNP	P1_target_location
+1-7	to	1-8_aux	visit	TO	O
+1-8	visit	1-4_xcomp	go	VB	O
+1-9	my	O	O	PRP$	P1_passenger
+1-10	daughter	1-8_dobj	visit	NN	P1_accomp_person
+1-11	,	O	O	O	O
+1-12	son-in-law	O	O	NNS	P1_NPart_son-in-law
+1-13	and	O	O	O	O
+1-14	granddaughter	O	O	NN	P1_NPart_granddaughter
+1-15	.	O	O	O	O
+
+#id=2
+#text=I went on-line and searched for the cheapest flights for the weekend on which I wanted to go . 
+2-1	I	2-2_nsubj	went	PRP	P1_passenger
+2-2	went	O	O	VBD	O
+2-3	on-line	2-2_advmod	went	JJ	O
+2-4	and	O	O	O	O
+2-5	searched	2-2_conj_and	went	VBD	O
+2-6	for	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	cheapest	O	O	JJS	O
+2-9	flights	2-5_prep_for	searched	NNS	P1_flight
+2-10	for	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	weekend	O	O	NN	P1_time/date
+2-13	on	O	O	O	O
+2-14	which	2-16_prep_on	wanted	WDT	O
+2-15	I	2-16_nsubj	wanted	PRP	P1_passenger
+2-16	wanted	O	O	VBD	O
+2-17	to	2-18_aux	go	TO	O
+2-18	go	2-16_xcomp	wanted	VB	O
+2-19	.	O	O	O	O
+
+#id=3
+#text=I saw that Frontier Airlines had a really reasonable rate so I purchased a ticket for Friday , March 13th through Sunday , March 15th . 
+3-1	I	3-2_nsubj	saw	PRP	P1_passenger
+3-2	saw	O	O	VBD	O
+3-3	that	3-6_mark	had	IN	O
+3-4	Frontier	O	O	NNP	O
+3-5	Airlines	3-6_nsubj	had	NNPS	P1_other
+3-6	had	3-2_ccomp	saw	VBD	O
+3-7	a	O	O	DT	O
+3-8	really	O	O	RB	O
+3-9	reasonable	O	O	JJ	O
+3-10	rate	3-6_dobj	had	NN	P2_other
+3-11	so	3-13_mark	purchased	IN	O
+3-12	I	3-13_nsubj	purchased	PRP	P1_passenger
+3-13	purchased	O	O	VBD	O
+3-14	a	O	O	DT	O
+3-15	ticket	3-13_dobj	purchased	NN	P1_ticket
+3-16	for	O	O	O	O
+3-17	Friday	O	O	NNP	P2_time/date
+3-18	,	O	O	O	O
+3-19	March	O	O	NNP	O
+3-20	13th	O	O	NNP	P3_time/date
+3-21	through	O	O	O	O
+3-22	Sunday	O	O	NNP	P4_time/date
+3-23	,	O	O	O	O
+3-24	March	3-13_tmod	purchased	NNP	P5_time/date
+3-25	15th	O	O	CD	O
+3-26	.	O	O	O	O
+
+#id=4
+#text=Several hours before my flight was due , I drove to National Airport and parked in the daily-rate lot . 
+4-1	Several	O	O	JJ	O
+4-2	hours	O	O	NNS	P6_time/date
+4-3	before	O	O	O	O
+4-4	my	O	O	PRP$	P1_passenger
+4-5	flight	O	O	NN	P1_flight
+4-6	was	O	O	VBD	O
+4-7	due	4-10_ccomp	drove	JJ	O
+4-8	,	O	O	O	O
+4-9	I	4-10_nsubj	drove	PRP	P1_passenger
+4-10	drove	O	O	VBD	O
+4-11	to	O	O	O	O
+4-12	National	O	O	NNP	O
+4-13	Airport	4-10_prep_to	drove	NNP	P1_airport
+4-14	and	O	O	O	O
+4-15	parked	4-10_conj_and	drove	VBN	O
+4-16	in	O	O	O	O
+4-17	the	O	O	DT	O
+4-18	daily-rate	O	O	JJ	O
+4-19	lot	4-15_prep_in	parked	NN	P1_NPart_lot
+4-20	.	O	O	O	O
+
+#id=5
+#text=I went into the airport and passed through the security checkpoint , showing the TSA agent my electronic ticket\/boarding pass and my driver 's license . 
+5-1	I	5-2_nsubj	went	PRP	P1_passenger
+5-2	went	O	O	VBD	O
+5-3	into	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	airport	5-2_prep_into	went	NN	P2_airport
+5-6	and	O	O	O	O
+5-7	passed	5-2_conj_and	went	VBD	O
+5-8	through	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	security	O	O	NN	O
+5-11	checkpoint	5-7_prep_through	passed	NN	P1_security_check
+5-12	,	O	O	O	O
+5-13	showing	5-7_xcomp	passed	VBG	O
+5-14	the	O	O	DT	O
+5-15	TSA	O	O	NNP	O
+5-16	agent	5-13_iobj	showing	NN	P1_staff
+5-17	my	O	O	PRP$	P1_passenger
+5-18	electronic	O	O	JJ	O
+5-19	ticket\/boarding	O	O	VBG	O
+5-20	pass	5-13_dobj	showing	NN	P1_boarding_pass
+5-21	and	O	O	O	O
+5-22	my	O	O	PRP$	P1_passenger
+5-23	driver	O	O	NN	O
+5-24	's	O	O	O	O
+5-25	license	O	O	NN	P3_other
+5-26	.	O	O	O	O
+
+#id=6
+#text=Once through security I waited at the gate until the plane had landed for my flight . 
+6-1	Once	6-5_advmod	waited	RB	O
+6-2	through	O	O	O	O
+6-3	security	O	O	NN	P2_security_check
+6-4	I	6-5_nsubj	waited	PRP	P1_passenger
+6-5	waited	O	O	VBD	O
+6-6	at	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	gate	6-5_prep_at	waited	NN	P1_terminal/gate
+6-9	until	6-13_mark	landed	IN	O
+6-10	the	O	O	DT	O
+6-11	plane	6-13_nsubj	landed	NN	P1_plane
+6-12	had	6-13_aux	landed	VBD	O
+6-13	landed	6-5_advcl	waited	VBN	O
+6-14	for	O	O	O	O
+6-15	my	O	O	PRP$	P1_passenger
+6-16	flight	6-13_prep_for	landed	NN	P1_flight
+6-17	.	O	O	O	O
+
+#id=7
+#text=Once boarding started , I got in line with my boarding pass and entered the plane . 
+7-1	Once	7-3_mark	started	IN	O
+7-2	boarding	7-3_nsubj	started	NN	O
+7-3	started	7-6_advcl	got	VBD	O
+7-4	,	O	O	O	O
+7-5	I	7-6_nsubj	got	PRP	P1_passenger
+7-6	got	O	O	VBD	O
+7-7	in	O	O	O	O
+7-8	line	7-6_prep_in	got	NN	O
+7-9	with	O	O	O	O
+7-10	my	O	O	PRP$	P1_passenger
+7-11	boarding	O	O	JJ	O
+7-12	pass	7-6_prep_with	got	NN	P2_boarding_pass
+7-13	and	O	O	O	O
+7-14	entered	7-6_conj_and	got	VBD	O
+7-15	the	O	O	DT	O
+7-16	plane	7-14_dobj	entered	NN	P1_plane
+7-17	.	O	O	O	O
+
+#id=8
+#text=I found my seat , the aisle seat in row 26 , and sat down . 
+8-1	I	8-2_nsubj	found	PRP	P1_passenger
+8-2	found	O	O	VBD	O
+8-3	my	O	O	PRP$	P1_passenger
+8-4	seat	8-2_dobj	found	NN	P1_seat
+8-5	,	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	aisle	O	O	NN	O
+8-8	seat	O	O	NN	P2_seat
+8-9	in	O	O	O	O
+8-10	row	O	O	NN	P4_other
+8-11	26	O	O	CD	O
+8-12	,	O	O	O	O
+8-13	and	O	O	O	O
+8-14	sat	8-2_conj_and	found	VBD	O
+8-15	down	8-14_prt	sat	RP	O
+8-16	.	O	O	O	O
+
+#id=9
+#text=After the safety instructions had been given , the flight taxied to the end of the runway and then took off . 
+9-1	After	9-7_mark	given	IN	O
+9-2	the	O	O	DT	O
+9-3	safety	O	O	NN	O
+9-4	instructions	9-7_nsubjpass	given	NNS	P1_safety_instructions
+9-5	had	9-7_aux	given	VBD	O
+9-6	been	9-7_auxpass	given	VBN	O
+9-7	given	9-11_advcl	taxied	VBN	O
+9-8	,	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	flight	9-11_nsubj	taxied	NN	P1_plane
+9-11	taxied	O	O	VBD	O
+9-12	to	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	end	9-11_prep_to	taxied	NN	O
+9-15	of	O	O	O	O
+9-16	the	O	O	DT	O
+9-17	runway	O	O	NN	P1_location_airplane
+9-18	and	O	O	O	O
+9-19	then	9-20_advmod	took	RB	O
+9-20	took	9-11_conj_and	taxied	VBD	O
+9-21	off	9-20_prt	took	RP	O
+9-22	.	O	O	O	O
+
+#id=10
+#text=In just a few short hours we had safely touched down at the Atlanta airport where my daughter was waiting for me . 
+10-1	In	O	O	O	O
+10-2	just	O	O	RB	O
+10-3	a	O	O	DT	O
+10-4	few	O	O	JJ	O
+10-5	short	O	O	JJ	O
+10-6	hours	10-10_prep_in	touched	NNS	P7_time/date
+10-7	we	10-10_nsubj	touched	PRP	P1_plane
+10-8	had	10-10_aux	touched	VBD	O
+10-9	safely	10-10_advmod	touched	RB	O
+10-10	touched	O	O	VBN	O
+10-11	down	10-10_prt	touched	RP	O
+10-12	at	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	Atlanta	O	O	NNP	O
+10-15	airport	10-10_prep_at	touched	NN	P1_target_location
+10-16	where	10-20_advmod	waiting	WRB	O
+10-17	my	O	O	PRP$	P1_passenger
+10-18	daughter	10-20_nsubj	waiting	NN	P2_accomp_person
+10-19	was	10-20_aux	waiting	VBD	O
+10-20	waiting	10-10_advcl	touched	VBG	O
+10-21	for	O	O	O	O
+10-22	me	10-20_prep_for	waiting	PRP	P1_passenger
+10-23	.	O	O	O	O

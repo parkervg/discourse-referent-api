@@ -1,0 +1,538 @@
+#id=1
+#text=I love cherries . 
+1-1	I	1-2_nsubj	love	PRP	P1_gardener
+1-2	love	O	O	VBP	O
+1-3	cherries	1-2_dobj	love	NNS	P1_NPart_cherries
+1-4	.	O	O	O	O
+
+#id=2
+#text=I thought it would nice if I had a cherry tree in my backyard . 
+2-1	I	2-2_nsubj	thought	PRP	P1_gardener
+2-2	thought	O	O	VBD	O
+2-3	it	O	O	PRP	O
+2-4	would	2-2_ccomp	thought	MD	O
+2-5	nice	2-8_dep	had	JJ	O
+2-6	if	2-8_mark	had	IN	O
+2-7	I	2-8_nsubj	had	PRP	P1_gardener
+2-8	had	O	O	VBD	O
+2-9	a	O	O	DT	O
+2-10	cherry	O	O	JJ	O
+2-11	tree	2-8_dobj	had	NN	P1_tree
+2-12	in	O	O	O	O
+2-13	my	O	O	PRP$	P1_gardener
+2-14	backyard	O	O	NN	P1_NPart_backyard
+2-15	.	O	O	O	O
+
+#id=3
+#text=There was plenty of room in my yard for a large tree , so I decided to plant one . 
+3-1	There	3-2_expl	was	EX	O
+3-2	was	O	O	VBD	O
+3-3	plenty	3-2_nsubj	was	RB	O
+3-4	of	O	O	O	O
+3-5	room	O	O	NN	P1_NPart_room
+3-6	in	O	O	O	O
+3-7	my	O	O	PRP$	P1_gardener
+3-8	yard	O	O	NN	P1_NPart_yard
+3-9	for	O	O	O	O
+3-10	a	O	O	DT	O
+3-11	large	O	O	JJ	O
+3-12	tree	O	O	NN	P1_tree
+3-13	,	O	O	O	O
+3-14	so	3-2_dep	was	IN	O
+3-15	I	3-16_nsubj	decided	PRP	P1_gardener
+3-16	decided	3-2_parataxis	was	VBD	O
+3-17	to	3-18_aux	plant	TO	O
+3-18	plant	3-16_xcomp	decided	VB	O
+3-19	one	3-18_dobj	plant	CD	P1_tree
+3-20	.	O	O	O	O
+
+#id=4
+#text=I drove my pickup truck to a nursery near where I live . 
+4-1	I	4-2_nsubj	drove	PRP	P1_gardener
+4-2	drove	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_gardener
+4-4	pickup	O	O	NN	O
+4-5	truck	4-2_dobj	drove	NN	P1_NPart_truck
+4-6	to	O	O	O	O
+4-7	a	O	O	DT	O
+4-8	nursery	4-2_prep_to	drove	NN	P1_shop
+4-9	near	O	O	O	O
+4-10	where	4-12_advmod	live	WRB	O
+4-11	I	4-12_nsubj	live	PRP	P1_gardener
+4-12	live	O	O	VBP	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=They had many different types of trees there , all growing in large pots . 
+5-1	They	5-2_nsubj	had	PRP	P1_staff
+5-2	had	O	O	VBD	O
+5-3	many	O	O	JJ	O
+5-4	different	O	O	JJ	O
+5-5	types	5-2_dobj	had	NNS	O
+5-6	of	O	O	O	O
+5-7	trees	O	O	NNS	P1_tree
+5-8	there	O	O	RB	P1_shop
+5-9	,	O	O	O	O
+5-10	all	O	O	DT	O
+5-11	growing	O	O	VBG	O
+5-12	in	O	O	O	O
+5-13	large	O	O	JJ	O
+5-14	pots	O	O	NNS	P1_NPart_pots
+5-15	.	O	O	O	O
+
+#id=6
+#text=The trees were very skinny , but I knew once they were out of the pots and planted in the ground , they would grow into large trees . 
+6-1	The	O	O	DT	O
+6-2	trees	O	O	NNS	P1_tree
+6-3	were	O	O	VBD	O
+6-4	very	O	O	RB	O
+6-5	skinny	O	O	JJ	O
+6-6	,	O	O	O	O
+6-7	but	O	O	O	O
+6-8	I	6-9_nsubj	knew	PRP	P1_gardener
+6-9	knew	O	O	VBD	O
+6-10	once	6-12_mark	were	IN	O
+6-11	they	6-12_nsubj	were	PRP	P1_tree
+6-12	were	6-25_advcl	grow	VBD	O
+6-13	out	O	O	O	O
+6-14	of	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	pots	6-12_prep_out_of	were	NNS	P1_wrapping
+6-17	and	O	O	O	O
+6-18	planted	6-12_conj_and	were	VBD	O
+6-19	in	O	O	O	O
+6-20	the	O	O	DT	O
+6-21	ground	6-18_prep_in	planted	NN	P1_NPart_ground
+6-22	,	O	O	O	O
+6-23	they	6-25_nsubj	grow	PRP	P1_tree
+6-24	would	6-25_aux	grow	MD	O
+6-25	grow	6-9_ccomp	knew	VB	O
+6-26	into	O	O	O	O
+6-27	large	O	O	JJ	O
+6-28	trees	6-25_prep_into	grow	NNS	P1_tree
+6-29	.	O	O	O	O
+
+#id=7
+#text=I found some cherry trees and saw how much they would cost . 
+7-1	I	7-2_nsubj	found	PRP	P1_gardener
+7-2	found	O	O	VBD	O
+7-3	some	O	O	DT	O
+7-4	cherry	O	O	JJ	O
+7-5	trees	7-2_dobj	found	NNS	P1_tree
+7-6	and	O	O	O	O
+7-7	saw	7-2_conj_and	found	VBD	O
+7-8	how	O	O	WRB	O
+7-9	much	7-12_dep	cost	JJ	O
+7-10	they	7-12_nsubj	cost	PRP	P1_tree
+7-11	would	7-12_aux	cost	MD	O
+7-12	cost	7-7_ccomp	saw	VB	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=I asked a man who worked at the nursery if he would put the tree in my pickup after I paid for it . 
+8-1	I	8-2_nsubj	asked	PRP	P1_gardener
+8-2	asked	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	man	8-2_dobj	asked	NN	P2_staff
+8-5	who	8-6_nsubj	worked	WP	O
+8-6	worked	O	O	VBD	O
+8-7	at	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	nursery	8-6_prep_at	worked	NN	P1_shop
+8-10	if	8-13_mark	put	IN	O
+8-11	he	8-13_nsubj	put	PRP	P2_staff
+8-12	would	8-13_aux	put	MD	O
+8-13	put	8-6_advcl	worked	VB	O
+8-14	the	O	O	DT	O
+8-15	tree	8-13_dobj	put	NN	P1_tree
+8-16	in	O	O	O	O
+8-17	my	O	O	PRP$	P1_gardener
+8-18	pickup	8-13_prep_in	put	NN	P1_NPart_pickup
+8-19	after	8-21_mark	paid	IN	O
+8-20	I	8-21_nsubj	paid	PRP	P1_gardener
+8-21	paid	8-13_advcl	put	VBD	O
+8-22	for	O	O	O	O
+8-23	it	8-21_prep_for	paid	PRP	P1_tree
+8-24	.	O	O	O	O
+
+#id=9
+#text=I went to the cashier and paid for the tree and the man loaded it into my truck . 
+9-1	I	9-2_nsubj	went	PRP	P1_gardener
+9-2	went	O	O	VBD	O
+9-3	to	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	cashier	9-2_prep_to	went	NN	P3_staff
+9-6	and	O	O	O	O
+9-7	paid	9-2_conj_and	went	VBD	O
+9-8	for	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	tree	9-7_prep_for	paid	NN	P1_tree
+9-11	and	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	man	9-14_nsubj	loaded	NN	P2_staff
+9-14	loaded	9-2_conj_and	went	VBD	O
+9-15	it	9-14_dobj	loaded	PRP	P1_tree
+9-16	into	O	O	O	O
+9-17	my	O	O	PRP$	P1_gardener
+9-18	truck	9-14_prep_into	loaded	NN	P2_NPart_truck
+9-19	.	O	O	O	O
+
+#id=10
+#text=When I got home , I got a shovel and dug a huge hole where I wanted the tree to grow . 
+10-1	When	10-3_advmod	got	WRB	O
+10-2	I	10-3_nsubj	got	PRP	P1_gardener
+10-3	got	10-7_advcl	got	VBD	O
+10-4	home	10-3_dobj	got	NN	P1_NPart_home
+10-5	,	O	O	O	O
+10-6	I	10-7_nsubj	got	PRP	P1_gardener
+10-7	got	O	O	VBD	O
+10-8	a	O	O	DT	O
+10-9	shovel	10-7_dobj	got	NN	P1_gardening_tool
+10-10	and	O	O	O	O
+10-11	dug	10-7_conj_and	got	VBD	O
+10-12	a	O	O	DT	O
+10-13	huge	O	O	JJ	O
+10-14	hole	10-11_dobj	dug	NN	P1_hole
+10-15	where	10-17_advmod	wanted	WRB	O
+10-16	I	10-17_nsubj	wanted	PRP	P1_gardener
+10-17	wanted	10-11_advcl	dug	VBD	O
+10-18	the	O	O	DT	O
+10-19	tree	10-17_dobj	wanted	NN	P1_tree
+10-20	to	10-21_aux	grow	TO	O
+10-21	grow	O	O	VB	O
+10-22	.	O	O	O	O
+
+#id=11
+#text=I made sure all the big rocks and roots from other trees were not left in the hole . 
+11-1	I	11-2_nsubj	made	PRP	P1_gardener
+11-2	made	O	O	VBD	O
+11-3	sure	11-2_acomp	made	JJ	O
+11-4	all	O	O	PDT	O
+11-5	the	O	O	DT	O
+11-6	big	O	O	JJ	O
+11-7	rocks	11-15_nsubjpass	left	NNS	P1_NPart_rocks
+11-8	and	O	O	O	O
+11-9	roots	O	O	NNS	P1_NPart_roots
+11-10	from	O	O	O	O
+11-11	other	O	O	JJ	O
+11-12	trees	O	O	NNS	P2_tree
+11-13	were	11-15_auxpass	left	VBD	O
+11-14	not	11-15_neg	left	RB	O
+11-15	left	O	O	VBN	O
+11-16	in	O	O	O	O
+11-17	the	O	O	DT	O
+11-18	hole	11-15_prep_in	left	NN	P1_hole
+11-19	.	O	O	O	O
+
+#id=12
+#text=I added some manure so the roots would get all the extra nutrients a growing tree would need . 
+12-1	I	12-2_nsubj	added	PRP	P1_gardener
+12-2	added	O	O	VBD	O
+12-3	some	O	O	DT	O
+12-4	manure	12-2_dobj	added	NN	P1_fertilizer
+12-5	so	12-9_mark	get	IN	O
+12-6	the	O	O	DT	O
+12-7	roots	12-9_nsubj	get	NNS	P1_root
+12-8	would	12-9_aux	get	MD	O
+12-9	get	12-2_advcl	added	VB	O
+12-10	all	O	O	PDT	O
+12-11	the	O	O	DT	O
+12-12	extra	O	O	JJ	O
+12-13	nutrients	12-9_dobj	get	NNS	P1_NPart_nutrients
+12-14	a	O	O	DT	O
+12-15	growing	O	O	VBG	O
+12-16	tree	12-18_nsubj	need	NN	P1_tree
+12-17	would	12-18_aux	need	MD	O
+12-18	need	O	O	VB	O
+12-19	.	O	O	O	O
+
+#id=13
+#text=In the middle of the hole I made the soil higher in the shape of an upside down cone . 
+13-1	In	O	O	O	O
+13-2	the	O	O	DT	O
+13-3	middle	13-8_prep_in	made	NN	P1_NPart_middle
+13-4	of	O	O	O	O
+13-5	the	O	O	DT	O
+13-6	hole	O	O	NN	P1_hole
+13-7	I	13-8_nsubj	made	PRP	P1_gardener
+13-8	made	O	O	VBD	O
+13-9	the	O	O	DT	O
+13-10	soil	O	O	NN	P1_dirt
+13-11	higher	13-8_advmod	made	JJR	O
+13-12	in	O	O	O	O
+13-13	the	O	O	DT	O
+13-14	shape	13-8_prep_in	made	NN	P1_NPart_shape
+13-15	of	O	O	O	O
+13-16	an	O	O	DT	O
+13-17	upside	O	O	JJ	O
+13-18	down	O	O	JJ	O
+13-19	cone	O	O	NN	P1_NPart_cone
+13-20	.	O	O	O	O
+
+#id=14
+#text=I took the tree out of my truck and removed it from the pot . 
+14-1	I	14-2_nsubj	took	PRP	P1_gardener
+14-2	took	O	O	VBD	O
+14-3	the	O	O	DT	O
+14-4	tree	14-2_dobj	took	NN	P1_tree
+14-5	out	O	O	O	O
+14-6	of	O	O	O	O
+14-7	my	O	O	PRP$	P1_gardener
+14-8	truck	14-2_prep_out_of	took	NN	P3_NPart_truck
+14-9	and	O	O	O	O
+14-10	removed	14-2_conj_and	took	VBD	O
+14-11	it	14-10_dobj	removed	PRP	P1_tree
+14-12	from	O	O	O	O
+14-13	the	O	O	DT	O
+14-14	pot	14-10_prep_from	removed	NN	P1_NPart_pot
+14-15	.	O	O	O	O
+
+#id=15
+#text=I stood the tree up in the middle of the hole , with the tree on the top of the cone and the roots spread out around it . 
+15-1	I	15-2_nsubj	stood	PRP	P1_gardener
+15-2	stood	O	O	VBD	O
+15-3	the	O	O	DT	O
+15-4	tree	15-2_dobj	stood	NN	P1_tree
+15-5	up	15-2_prt	stood	RP	O
+15-6	in	O	O	O	O
+15-7	the	O	O	DT	O
+15-8	middle	15-2_prep_in	stood	NN	P2_NPart_middle
+15-9	of	O	O	O	O
+15-10	the	O	O	DT	O
+15-11	hole	O	O	NN	P1_hole
+15-12	,	O	O	O	O
+15-13	with	O	O	O	O
+15-14	the	O	O	DT	O
+15-15	tree	15-2_prep_with	stood	NN	P1_tree
+15-16	on	O	O	O	O
+15-17	the	O	O	DT	O
+15-18	top	O	O	NN	P1_NPart_top
+15-19	of	O	O	O	O
+15-20	the	O	O	DT	O
+15-21	cone	O	O	NN	P2_NPart_cone
+15-22	and	O	O	O	O
+15-23	the	O	O	DT	O
+15-24	roots	O	O	NNS	P1_root
+15-25	spread	O	O	VBN	O
+15-26	out	15-25_prt	spread	RP	O
+15-27	around	O	O	O	O
+15-28	it	15-25_prep_around	spread	PRP	P1_NPart_it
+15-29	.	O	O	O	O
+
+#id=16
+#text=This would make sure the tree would not be standing in water and the roots could drink the water easily . 
+16-1	This	16-3_nsubj	make	DT	O
+16-2	would	16-3_aux	make	MD	O
+16-3	make	O	O	VB	O
+16-4	sure	16-3_acomp	make	JJ	O
+16-5	the	O	O	DT	O
+16-6	tree	16-10_nsubj	standing	NN	P1_tree
+16-7	would	16-10_aux	standing	MD	O
+16-8	not	16-10_neg	standing	RB	O
+16-9	be	16-10_aux	standing	VB	O
+16-10	standing	O	O	VBG	O
+16-11	in	O	O	O	O
+16-12	water	16-10_prep_in	standing	NN	P1_water
+16-13	and	O	O	O	O
+16-14	the	O	O	DT	O
+16-15	roots	16-17_nsubj	drink	NNS	P1_root
+16-16	could	16-17_aux	drink	MD	O
+16-17	drink	16-3_conj_and	make	VB	O
+16-18	the	O	O	DT	O
+16-19	water	16-17_dobj	drink	NN	P1_water
+16-20	easily	16-17_advmod	drink	RB	O
+16-21	.	O	O	O	O
+
+#id=17
+#text=I replaced the dirt , making sure the tree was even with the ground around the hole . 
+17-1	I	17-2_nsubj	replaced	PRP	P1_gardener
+17-2	replaced	O	O	VBD	O
+17-3	the	O	O	DT	O
+17-4	dirt	17-2_dobj	replaced	NN	P1_dirt
+17-5	,	O	O	O	O
+17-6	making	17-2_vmod	replaced	VBG	O
+17-7	sure	17-6_acomp	making	JJ	O
+17-8	the	O	O	DT	O
+17-9	tree	17-10_nsubj	was	NN	P1_tree
+17-10	was	O	O	VBD	O
+17-11	even	17-10_advmod	was	RB	O
+17-12	with	O	O	O	O
+17-13	the	O	O	DT	O
+17-14	ground	17-10_prep_with	was	NN	P2_NPart_ground
+17-15	around	O	O	O	O
+17-16	the	O	O	DT	O
+17-17	hole	O	O	NN	P1_hole
+17-18	.	O	O	O	O
+
+#id=18
+#text=When the hole was all filled up I stomped all around the tree to make sure the roots of the tree were firmly connected with the soil . 
+18-1	When	18-6_advmod	filled	WRB	O
+18-2	the	O	O	DT	O
+18-3	hole	18-6_nsubjpass	filled	NN	P1_hole
+18-4	was	18-6_auxpass	filled	VBD	O
+18-5	all	18-6_advmod	filled	RB	O
+18-6	filled	18-9_advcl	stomped	VBN	O
+18-7	up	18-6_prt	filled	RP	O
+18-8	I	18-9_nsubj	stomped	PRP	P1_gardener
+18-9	stomped	O	O	VBD	O
+18-10	all	18-9_dobj	stomped	DT	O
+18-11	around	O	O	O	O
+18-12	the	O	O	DT	O
+18-13	tree	18-9_prep_around	stomped	NN	P1_tree
+18-14	to	18-15_aux	make	TO	O
+18-15	make	18-9_vmod	stomped	VB	O
+18-16	sure	18-15_acomp	make	JJ	O
+18-17	the	O	O	DT	O
+18-18	roots	18-24_nsubjpass	connected	NNS	P1_root
+18-19	of	O	O	O	O
+18-20	the	O	O	DT	O
+18-21	tree	O	O	NN	P1_tree
+18-22	were	18-24_auxpass	connected	VBD	O
+18-23	firmly	18-24_advmod	connected	RB	O
+18-24	connected	O	O	VBN	O
+18-25	with	O	O	O	O
+18-26	the	O	O	DT	O
+18-27	soil	18-24_prep_with	connected	NN	P1_dirt
+18-28	.	O	O	O	O
+
+#id=19
+#text=When I was sure the tree was firmly in the ground and would not move , I got my garden hose . 
+19-1	When	O	O	WRB	O
+19-2	I	O	O	PRP	P1_gardener
+19-3	was	O	O	VBD	O
+19-4	sure	19-18_advcl	got	JJ	O
+19-5	the	O	O	DT	O
+19-6	tree	19-7_nsubj	was	NN	P1_tree
+19-7	was	O	O	VBD	O
+19-8	firmly	19-7_advmod	was	RB	O
+19-9	in	O	O	O	O
+19-10	the	O	O	DT	O
+19-11	ground	19-7_prep_in	was	NN	P3_NPart_ground
+19-12	and	O	O	O	O
+19-13	would	19-15_aux	move	MD	O
+19-14	not	19-15_neg	move	RB	O
+19-15	move	19-7_conj_and	was	VB	O
+19-16	,	O	O	O	O
+19-17	I	19-18_nsubj	got	PRP	P1_gardener
+19-18	got	O	O	VBD	O
+19-19	my	O	O	PRP$	P1_gardener
+19-20	garden	O	O	NN	O
+19-21	hose	19-18_dobj	got	NN	P2_gardening_tool
+19-22	.	O	O	O	O
+
+#id=20
+#text=I turned on the water and slowly watered the tree . 
+20-1	I	20-2_nsubj	turned	PRP	P1_gardener
+20-2	turned	O	O	VBD	O
+20-3	on	O	O	O	O
+20-4	the	O	O	DT	O
+20-5	water	20-2_prep_on	turned	NN	P1_water
+20-6	and	O	O	O	O
+20-7	slowly	20-8_advmod	watered	RB	O
+20-8	watered	20-2_conj_and	turned	VBD	O
+20-9	the	O	O	DT	O
+20-10	tree	20-8_dobj	watered	NN	P1_tree
+20-11	.	O	O	O	O
+
+#id=21
+#text=After a few hours , I watered it again . 
+21-1	After	O	O	O	O
+21-2	a	O	O	DT	O
+21-3	few	O	O	JJ	O
+21-4	hours	21-7_prep_after	watered	NNS	P1_NPart_hours
+21-5	,	O	O	O	O
+21-6	I	21-7_nsubj	watered	PRP	P1_gardener
+21-7	watered	O	O	VBD	O
+21-8	it	21-7_dobj	watered	PRP	P1_tree
+21-9	again	21-7_advmod	watered	RB	O
+21-10	.	O	O	O	O
+
+#id=22
+#text=When all the water had sunk into the ground , I put a few inches of mulch all around the tree to keep the roots moist and stop weeds from growing . 
+22-1	When	22-6_advmod	sunk	WRB	O
+22-2	all	O	O	PDT	O
+22-3	the	O	O	DT	O
+22-4	water	22-6_nsubj	sunk	NN	P1_water
+22-5	had	22-6_aux	sunk	VBD	O
+22-6	sunk	22-12_advcl	put	VBN	O
+22-7	into	O	O	O	O
+22-8	the	O	O	DT	O
+22-9	ground	22-6_prep_into	sunk	NN	P4_NPart_ground
+22-10	,	O	O	O	O
+22-11	I	22-12_nsubj	put	PRP	P1_gardener
+22-12	put	O	O	VBD	O
+22-13	a	O	O	DT	O
+22-14	few	O	O	JJ	O
+22-15	inches	22-12_dobj	put	NNS	P1_NPart_inches
+22-16	of	O	O	O	O
+22-17	mulch	O	O	NN	P1_NPart_mulch
+22-18	all	22-12_dep	put	DT	O
+22-19	around	O	O	O	O
+22-20	the	O	O	DT	O
+22-21	tree	22-12_prep_around	put	NN	P1_tree
+22-22	to	22-23_aux	keep	TO	O
+22-23	keep	O	O	VB	O
+22-24	the	O	O	DT	O
+22-25	roots	O	O	NNS	P1_root
+22-26	moist	22-23_dobj	keep	NN	O
+22-27	and	O	O	O	O
+22-28	stop	22-23_conj_and	keep	VB	O
+22-29	weeds	22-28_dobj	stop	NNS	P1_NPart_weeds
+22-30	from	O	O	O	O
+22-31	growing	22-28_prep_from	stop	VBG	O
+22-32	.	O	O	O	O
+
+#id=23
+#text=I knew that I would have to water the the tree every week until the roots got established . 
+23-1	I	23-2_nsubj	knew	PRP	P1_gardener
+23-2	knew	O	O	VBD	O
+23-3	that	23-6_mark	have	IN	O
+23-4	I	23-6_nsubj	have	PRP	P1_gardener
+23-5	would	23-6_aux	have	MD	O
+23-6	have	23-2_ccomp	knew	VB	O
+23-7	to	23-8_aux	water	TO	O
+23-8	water	23-6_xcomp	have	VB	O
+23-9	the	O	O	DT	O
+23-10	the	O	O	DT	O
+23-11	tree	23-8_dobj	water	NN	P1_tree
+23-12	every	O	O	DT	O
+23-13	week	O	O	NN	P1_NPart_week
+23-14	until	23-18_mark	established	IN	O
+23-15	the	O	O	DT	O
+23-16	roots	23-18_nsubjpass	established	NNS	P1_root
+23-17	got	23-18_auxpass	established	VBD	O
+23-18	established	23-6_advcl	have	VBN	O
+23-19	.	O	O	O	O
+
+#id=24
+#text=The tree will get bigger every year , and I 'm looking forward to the day when I 'll be able to pick cherries in my own back yard ! 
+24-1	The	O	O	DT	O
+24-2	tree	O	O	NN	P1_tree
+24-3	will	O	O	MD	O
+24-4	get	O	O	VB	O
+24-5	bigger	O	O	JJR	O
+24-6	every	O	O	DT	O
+24-7	year	O	O	NN	P1_NPart_year
+24-8	,	O	O	O	O
+24-9	and	O	O	O	O
+24-10	I	24-12_nsubj	looking	PRP	P1_gardener
+24-11	'm	24-12_aux	looking	VBP	O
+24-12	looking	O	O	VBG	O
+24-13	forward	24-12_prt	looking	RP	O
+24-14	to	O	O	O	O
+24-15	the	O	O	DT	O
+24-16	day	24-12_prep_to	looking	NN	P1_NPart_day
+24-17	when	O	O	WRB	O
+24-18	I	O	O	PRP	P1_gardener
+24-19	'll	O	O	MD	O
+24-20	be	O	O	VB	O
+24-21	able	24-12_advcl	looking	JJ	O
+24-22	to	24-23_aux	pick	TO	O
+24-23	pick	O	O	VB	O
+24-24	cherries	24-23_dobj	pick	NNS	P2_NPart_cherries
+24-25	in	O	O	O	O
+24-26	my	O	O	PRP$	P1_gardener
+24-27	own	O	O	JJ	O
+24-28	back	O	O	JJ	O
+24-29	yard	24-23_prep_in	pick	NN	P2_NPart_yard
+24-30	!	O	O	O	O

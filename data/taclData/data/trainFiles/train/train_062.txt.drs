@@ -1,0 +1,222 @@
+#id=1
+#text=My friend and I set aside a date that we could meet each other . 
+1-1	My	O	O	PRP$	P1_passenger
+1-2	friend	1-5_nsubj	set	NN	P1_NPart_friend
+1-3	and	O	O	O	O
+1-4	I	O	O	PRP	P1_passenger
+1-5	set	O	O	VBD	O
+1-6	aside	1-5_prt	set	RP	O
+1-7	a	O	O	DT	O
+1-8	date	1-5_dobj	set	NN	P1_time_date
+1-9	that	1-12_mark	meet	IN	O
+1-10	we	1-12_nsubj	meet	PRP	P1_NPart_we
+1-11	could	1-12_aux	meet	MD	O
+1-12	meet	1-5_ccomp	set	VB	O
+1-13	each	O	O	DT	O
+1-14	other	1-12_dobj	meet	JJ	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=She lives in another area so I had to buy a train ticket . 
+2-1	She	2-2_nsubj	lives	PRP	P1_NPart_she
+2-2	lives	O	O	VBZ	O
+2-3	in	O	O	O	O
+2-4	another	O	O	DT	O
+2-5	area	2-2_prep_in	lives	NN	P1_NPart_area
+2-6	so	2-8_mark	had	IN	O
+2-7	I	2-8_nsubj	had	PRP	P1_passenger
+2-8	had	2-2_advcl	lives	VBD	O
+2-9	to	2-10_aux	buy	TO	O
+2-10	buy	2-8_xcomp	had	VB	O
+2-11	a	O	O	DT	O
+2-12	train	O	O	NN	O
+2-13	ticket	2-10_dobj	buy	NN	P1_card/ticket
+2-14	.	O	O	O	O
+
+#id=3
+#text=Since we planned the trip early , I was able to save a little bit of money . 
+3-1	Since	3-3_mark	planned	IN	O
+3-2	we	3-3_nsubj	planned	PRP	P2_NPart_we
+3-3	planned	O	O	VBD	O
+3-4	the	O	O	DT	O
+3-5	trip	O	O	NN	P1_trip
+3-6	early	3-3_advmod	planned	RB	O
+3-7	,	O	O	O	O
+3-8	I	O	O	PRP	P1_passenger
+3-9	was	O	O	VBD	O
+3-10	able	O	O	JJ	O
+3-11	to	3-12_aux	save	TO	O
+3-12	save	O	O	VB	O
+3-13	a	O	O	DT	O
+3-14	little	O	O	JJ	O
+3-15	bit	3-12_dobj	save	NN	P1_NPart_bit
+3-16	of	O	O	O	O
+3-17	money	O	O	NN	P1_NPart_money
+3-18	.	O	O	O	O
+
+#id=4
+#text=The trip would n't be for another two weeks . 
+4-1	The	O	O	DT	O
+4-2	trip	4-5_nsubj	be	NN	P1_trip
+4-3	would	4-5_aux	be	MD	O
+4-4	n't	4-5_neg	be	RB	O
+4-5	be	O	O	VB	O
+4-6	for	O	O	O	O
+4-7	another	O	O	DT	O
+4-8	two	O	O	CD	O
+4-9	weeks	4-5_prep_for	be	NNS	P2_time_date
+4-10	.	O	O	O	O
+
+#id=5
+#text=I bought the tickets online . 
+5-1	I	5-2_nsubj	bought	PRP	P1_passenger
+5-2	bought	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	tickets	5-2_dobj	bought	NNS	P1_card/ticket
+5-5	online	5-2_prep	bought	NN	O
+5-6	.	O	O	O	O
+
+#id=6
+#text=Once the day finally came , I took a cab to the train station . 
+6-1	Once	6-5_mark	came	IN	O
+6-2	the	O	O	DT	O
+6-3	day	6-5_nsubj	came	NN	P3_time_date
+6-4	finally	6-5_advmod	came	RB	O
+6-5	came	6-8_advcl	took	VBD	O
+6-6	,	O	O	O	O
+6-7	I	6-8_nsubj	took	PRP	P1_passenger
+6-8	took	O	O	VBD	O
+6-9	a	O	O	DT	O
+6-10	cab	6-8_dobj	took	NN	P1_NPart_cab
+6-11	to	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	train	O	O	NN	O
+6-14	station	6-8_prep_to	took	NN	P1_train_station
+6-15	.	O	O	O	O
+
+#id=7
+#text=It was n't very far . 
+7-1	It	O	O	PRP	P1_train_station
+7-2	was	O	O	VBD	O
+7-3	n't	O	O	RB	O
+7-4	very	O	O	RB	O
+7-5	far	O	O	RB	O
+7-6	.	O	O	O	O
+
+#id=8
+#text=Once , inside the station , I checked the displays for any signs of my train being late . 
+8-1	Once	8-8_advmod	checked	RB	O
+8-2	,	O	O	O	O
+8-3	inside	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	station	8-8_prep_inside	checked	NN	P1_train_station
+8-6	,	O	O	O	O
+8-7	I	8-8_nsubj	checked	PRP	P1_passenger
+8-8	checked	O	O	VBD	O
+8-9	the	O	O	DT	O
+8-10	displays	8-8_dobj	checked	NNS	P1_time-table
+8-11	for	O	O	O	O
+8-12	any	O	O	DT	O
+8-13	signs	8-8_prep_for	checked	NNS	P1_NPart_signs
+8-14	of	O	O	O	O
+8-15	my	O	O	PRP$	P2_passenger
+8-16	train	O	O	NN	P1_train
+8-17	being	O	O	VBG	O
+8-18	late	8-8_xcomp	checked	JJ	O
+8-19	.	O	O	O	O
+
+#id=9
+#text=Today , there were n't any . 
+9-1	Today	9-4_tmod	were	NN	P1_NPart_today
+9-2	,	O	O	O	O
+9-3	there	9-4_expl	were	EX	O
+9-4	were	O	O	VBD	O
+9-5	n't	9-4_neg	were	RB	O
+9-6	any	9-4_nsubj	were	DT	O
+9-7	.	O	O	O	O
+
+#id=10
+#text=About fifteen minutes later , my train showed up and I got on board . 
+10-1	About	O	O	RB	O
+10-2	fifteen	O	O	CD	O
+10-3	minutes	O	O	NNS	P4_time_date
+10-4	later	10-8_advmod	showed	RB	O
+10-5	,	O	O	O	O
+10-6	my	O	O	PRP$	P1_passenger
+10-7	train	10-8_nsubj	showed	NN	P1_train
+10-8	showed	O	O	VBD	O
+10-9	up	10-8_prt	showed	RP	O
+10-10	and	O	O	O	O
+10-11	I	10-12_nsubj	got	PRP	P1_passenger
+10-12	got	10-8_conj_and	showed	VBD	O
+10-13	on	O	O	O	O
+10-14	board	10-12_prep_on	got	NN	O
+10-15	.	O	O	O	O
+
+#id=11
+#text=It was crowded but not as much as one of the local trains . 
+11-1	It	O	O	PRP	P2_train
+11-2	was	O	O	VBD	O
+11-3	crowded	O	O	JJ	O
+11-4	but	O	O	O	O
+11-5	not	O	O	RB	O
+11-6	as	O	O	RB	O
+11-7	much	O	O	JJ	O
+11-8	as	O	O	O	O
+11-9	one	O	O	CD	O
+11-10	of	O	O	O	O
+11-11	the	O	O	DT	O
+11-12	local	O	O	JJ	O
+11-13	trains	O	O	NNS	P1_train
+11-14	.	O	O	O	O
+
+#id=12
+#text=I made sure to listen for any announcements about what stops we were arriving at so I 'd know when I was close to my destination . 
+12-1	I	12-2_nsubj	made	PRP	P1_passenger
+12-2	made	O	O	VBD	O
+12-3	sure	12-2_acomp	made	JJ	O
+12-4	to	12-5_aux	listen	TO	O
+12-5	listen	O	O	VB	O
+12-6	for	O	O	O	O
+12-7	any	O	O	DT	O
+12-8	announcements	12-5_prep_for	listen	NNS	P1_NPart_announcements
+12-9	about	O	O	O	O
+12-10	what	12-11_nsubj	stops	WP	O
+12-11	stops	O	O	VBZ	P1_other
+12-12	we	12-14_nsubj	arriving	PRP	P1_passenger
+12-13	were	12-14_aux	arriving	VBD	O
+12-14	arriving	12-11_ccomp	stops	VBG	O
+12-15	at	O	O	O	O
+12-16	so	12-19_mark	know	IN	O
+12-17	I	12-19_nsubj	know	PRP	P1_passenger
+12-18	'd	12-19_aux	know	MD	O
+12-19	know	12-14_prepc_at	arriving	VB	O
+12-20	when	O	O	WRB	O
+12-21	I	O	O	PRP	P1_passenger
+12-22	was	O	O	VBD	O
+12-23	close	12-19_ccomp	know	JJ	O
+12-24	to	O	O	O	O
+12-25	my	O	O	PRP$	P3_passenger
+12-26	destination	O	O	NN	P1_destination
+12-27	.	O	O	O	O
+
+#id=13
+#text=Finally , the train arrived at my destination and I met my friend just outside the station . 
+13-1	Finally	13-5_advmod	arrived	RB	O
+13-2	,	O	O	O	O
+13-3	the	O	O	DT	O
+13-4	train	13-5_nsubj	arrived	NN	P1_train
+13-5	arrived	O	O	VBD	O
+13-6	at	O	O	O	O
+13-7	my	O	O	PRP$	P1_passenger
+13-8	destination	13-5_prep_at	arrived	NN	P1_destination
+13-9	and	O	O	O	O
+13-10	I	13-11_nsubj	met	PRP	P1_passenger
+13-11	met	13-5_conj_and	arrived	VBD	O
+13-12	my	O	O	PRP$	P1_passenger
+13-13	friend	13-11_dobj	met	NN	P2_NPart_friend
+13-14	just	13-11_advmod	met	RB	O
+13-15	outside	O	O	O	O
+13-16	the	O	O	DT	O
+13-17	station	13-11_prep_outside	met	NN	P1_train_station
+13-18	.	O	O	O	O

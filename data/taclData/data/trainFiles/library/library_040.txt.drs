@@ -1,0 +1,218 @@
+#id=1
+#text=I used to go to the library all the time . 
+1-1	I	1-2_nsubj	used	PRP	P1_customer
+1-2	used	O	O	VBD	O
+1-3	to	1-4_aux	go	TO	O
+1-4	go	1-2_xcomp	used	VB	O
+1-5	to	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	library	1-4_prep_to	go	NN	P1_library
+1-8	all	O	O	PDT	O
+1-9	the	O	O	DT	O
+1-10	time	1-4_dobj	go	NN	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=I am a complete bookworm , and since I do n't have the time to read completely through a 200 page novel anymore , I do n't borrow books very often anymore . 
+2-1	I	O	O	PRP	P1_customer
+2-2	am	O	O	VBP	O
+2-3	a	O	O	DT	O
+2-4	complete	O	O	JJ	O
+2-5	bookworm	O	O	NN	P1_NPart_bookworm
+2-6	,	O	O	O	O
+2-7	and	O	O	O	O
+2-8	since	2-12_mark	have	IN	O
+2-9	I	2-12_nsubj	have	PRP	P1_customer
+2-10	do	2-12_aux	have	VBP	O
+2-11	n't	2-12_neg	have	RB	O
+2-12	have	2-28_advcl	borrow	VB	O
+2-13	the	O	O	DT	O
+2-14	time	2-12_dobj	have	NN	P1_NPart_time
+2-15	to	2-16_aux	read	TO	O
+2-16	read	O	O	VB	O
+2-17	completely	2-16_advmod	read	RB	O
+2-18	through	O	O	O	O
+2-19	a	O	O	DT	O
+2-20	200	O	O	CD	O
+2-21	page	O	O	NN	O
+2-22	novel	O	O	NN	P1_book
+2-23	anymore	2-16_advmod	read	RB	O
+2-24	,	O	O	O	O
+2-25	I	2-28_nsubj	borrow	PRP	P1_customer
+2-26	do	2-28_aux	borrow	VBP	O
+2-27	n't	2-28_neg	borrow	RB	O
+2-28	borrow	O	O	VB	O
+2-29	books	2-28_dobj	borrow	NNS	P1_book
+2-30	very	O	O	RB	O
+2-31	often	2-28_advmod	borrow	RB	O
+2-32	anymore	2-28_advmod	borrow	RB	O
+2-33	.	O	O	O	O
+
+#id=3
+#text=I loved to go look through all the fiction books . 
+3-1	I	3-2_nsubj	loved	PRP	P1_customer
+3-2	loved	O	O	VBD	O
+3-3	to	3-4_aux	go	TO	O
+3-4	go	3-2_xcomp	loved	VB	O
+3-5	look	3-4_dobj	go	NN	O
+3-6	through	O	O	O	O
+3-7	all	O	O	PDT	O
+3-8	the	O	O	DT	O
+3-9	fiction	O	O	NN	O
+3-10	books	3-4_prep_through	go	NNS	P1_book
+3-11	.	O	O	O	O
+
+#id=4
+#text=The science fiction and fantasy novels always caught my eye . 
+4-1	The	O	O	DT	O
+4-2	science	O	O	NN	O
+4-3	fiction	4-8_nsubj	caught	NN	O
+4-4	and	O	O	O	O
+4-5	fantasy	O	O	NN	O
+4-6	novels	O	O	NNS	P1_book
+4-7	always	4-8_advmod	caught	RB	O
+4-8	caught	O	O	VBD	O
+4-9	my	O	O	PRP$	P1_customer
+4-10	eye	4-8_dobj	caught	NN	O
+4-11	.	O	O	O	O
+
+#id=5
+#text=I am just in love with the creative imagination involved with writing out such beautiful worlds and bringing me into them to see what they see . 
+5-1	I	5-10_nsubjpass	involved	PRP	P1_customer
+5-2	am	5-10_auxpass	involved	VBP	O
+5-3	just	5-10_advmod	involved	RB	O
+5-4	in	O	O	O	O
+5-5	love	O	O	NN	P1_NPart_love
+5-6	with	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	creative	O	O	JJ	O
+5-9	imagination	O	O	NN	P1_NPart_imagination
+5-10	involved	O	O	VBN	O
+5-11	with	O	O	O	O
+5-12	writing	5-10_prepc_with	involved	VBG	O
+5-13	out	5-12_prt	writing	RP	O
+5-14	such	O	O	JJ	O
+5-15	beautiful	O	O	JJ	O
+5-16	worlds	5-12_dobj	writing	NNS	P1_NPart_worlds
+5-17	and	O	O	O	O
+5-18	bringing	5-12_conj_and	writing	VBG	O
+5-19	me	5-18_dobj	bringing	PRP	P1_customer
+5-20	into	O	O	O	O
+5-21	them	5-18_prep_into	bringing	PRP	P1_NPart_them
+5-22	to	5-23_aux	see	TO	O
+5-23	see	5-18_vmod	bringing	VB	O
+5-24	what	5-26_dobj	see	WP	O
+5-25	they	5-26_nsubj	see	PRP	P1_NPart_they
+5-26	see	5-23_ccomp	see	VBP	O
+5-27	.	O	O	O	O
+
+#id=6
+#text=So after I had chosen my book , I would go up to the desk . 
+6-1	So	6-11_dep	go	IN	O
+6-2	after	6-5_mark	chosen	IN	O
+6-3	I	6-5_nsubj	chosen	PRP	P1_customer
+6-4	had	6-5_aux	chosen	VBD	O
+6-5	chosen	6-11_advcl	go	VBN	O
+6-6	my	O	O	PRP$	P1_customer
+6-7	book	6-5_dobj	chosen	NN	P1_book
+6-8	,	O	O	O	O
+6-9	I	6-11_nsubj	go	PRP	P1_customer
+6-10	would	6-11_aux	go	MD	O
+6-11	go	O	O	VB	O
+6-12	up	6-11_prt	go	RP	O
+6-13	to	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	desk	6-11_prep_to	go	NN	P1_check-out_desk
+6-16	.	O	O	O	O
+
+#id=7
+#text=When I was checking them out , you had to bring your library card so they could scan it . 
+7-1	When	7-4_advmod	checking	WRB	O
+7-2	I	7-4_nsubj	checking	PRP	P1_customer
+7-3	was	7-4_aux	checking	VBD	O
+7-4	checking	7-9_advcl	had	VBG	O
+7-5	them	7-4_dobj	checking	PRP	P1_book
+7-6	out	7-4_prt	checking	RP	O
+7-7	,	O	O	O	O
+7-8	you	7-9_nsubj	had	PRP	P1_customer
+7-9	had	O	O	VBD	O
+7-10	to	7-11_aux	bring	TO	O
+7-11	bring	7-9_xcomp	had	VB	O
+7-12	your	O	O	PRP$	P1_customer
+7-13	library	O	O	NN	O
+7-14	card	7-11_dobj	bring	NN	P1_library_card
+7-15	so	7-18_mark	scan	IN	O
+7-16	they	7-18_nsubj	scan	PRP	P1_staff
+7-17	could	7-18_aux	scan	MD	O
+7-18	scan	7-11_advcl	bring	VB	O
+7-19	it	7-18_dobj	scan	PRP	P1_library_card
+7-20	.	O	O	O	O
+
+#id=8
+#text=They would then scan the card , scan each book , and give you a card with a stamped due date on it . 
+8-1	They	8-4_nsubj	scan	PRP	P1_staff
+8-2	would	8-4_aux	scan	MD	O
+8-3	then	8-4_advmod	scan	RB	O
+8-4	scan	O	O	VB	O
+8-5	the	O	O	DT	O
+8-6	card	8-4_dobj	scan	NN	P1_library_card
+8-7	,	O	O	O	O
+8-8	scan	8-4_conj_and	scan	VB	O
+8-9	each	O	O	DT	O
+8-10	book	8-8_dobj	scan	NN	P1_book
+8-11	,	O	O	O	O
+8-12	and	O	O	O	O
+8-13	give	8-4_conj_and	scan	VB	O
+8-14	you	8-13_iobj	give	PRP	P1_customer
+8-15	a	O	O	DT	O
+8-16	card	8-13_dobj	give	NN	P1_receipt
+8-17	with	O	O	O	O
+8-18	a	O	O	DT	O
+8-19	stamped	O	O	JJ	O
+8-20	due	O	O	JJ	O
+8-21	date	O	O	NN	P1_return_date
+8-22	on	O	O	O	O
+8-23	it	O	O	PRP	P1_receipt
+8-24	.	O	O	O	O
+
+#id=9
+#text=You could bring it back before that time , or , if the book was n't insanely popular and had no one waiting on it , you could recheck it out if you needed more time to read . 
+9-1	You	9-3_nsubj	bring	PRP	P1_customer
+9-2	could	9-3_aux	bring	MD	O
+9-3	bring	9-29_ccomp	recheck	VB	O
+9-4	it	9-3_dobj	bring	PRP	P1_book
+9-5	back	9-3_prt	bring	RP	O
+9-6	before	O	O	O	O
+9-7	that	O	O	DT	O
+9-8	time	9-3_prep_before	bring	NN	P1_return_date
+9-9	,	O	O	O	O
+9-10	or	O	O	O	O
+9-11	,	O	O	O	O
+9-12	if	O	O	IN	O
+9-13	the	O	O	DT	O
+9-14	book	O	O	NN	P1_book
+9-15	was	O	O	VBD	O
+9-16	n't	O	O	RB	O
+9-17	insanely	O	O	RB	O
+9-18	popular	9-3_conj_or	bring	JJ	O
+9-19	and	O	O	O	O
+9-20	had	9-3_conj_and	bring	VBD	O
+9-21	no	O	O	DT	O
+9-22	one	9-20_dobj	had	NN	P2_customer
+9-23	waiting	O	O	VBG	O
+9-24	on	O	O	O	O
+9-25	it	9-23_prep_on	waiting	PRP	P1_book
+9-26	,	O	O	O	O
+9-27	you	9-29_nsubj	recheck	PRP	P1_customer
+9-28	could	9-29_aux	recheck	MD	O
+9-29	recheck	O	O	VB	O
+9-30	it	9-34_nsubj	needed	PRP	P1_book
+9-31	out	9-34_dep	needed	RB	O
+9-32	if	9-34_mark	needed	IN	O
+9-33	you	9-34_nsubj	needed	PRP	P1_customer
+9-34	needed	9-29_xcomp	recheck	VBD	O
+9-35	more	O	O	JJR	O
+9-36	time	9-34_dobj	needed	NN	P2_NPart_time
+9-37	to	9-38_aux	read	TO	O
+9-38	read	9-34_vmod	needed	VB	O
+9-39	.	O	O	O	O

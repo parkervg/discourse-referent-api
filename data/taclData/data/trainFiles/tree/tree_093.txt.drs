@@ -1,0 +1,215 @@
+#id=1
+#text=Last weekend I thought it would be neat to make my back yard more lively . 
+1-1	Last	O	O	JJ	O
+1-2	weekend	1-4_nsubj	thought	NN	P1_time
+1-3	I	1-4_nsubj	thought	PRP	P1_gardener
+1-4	thought	O	O	VBD	O
+1-5	it	O	O	PRP	O
+1-6	would	O	O	MD	O
+1-7	be	O	O	VB	O
+1-8	neat	1-4_ccomp	thought	JJ	O
+1-9	to	1-10_aux	make	TO	O
+1-10	make	O	O	VB	O
+1-11	my	O	O	PRP$	P1_gardener
+1-12	back	O	O	JJ	O
+1-13	yard	O	O	NN	P1_location_garden
+1-14	more	O	O	RBR	O
+1-15	lively	1-10_xcomp	make	JJ	O
+1-16	.	O	O	O	O
+
+#id=2
+#text=I went to the local landscaping store and picked out some trees I thought would look nice in my yard . 
+2-1	I	2-2_nsubj	went	PRP	P1_gardener
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	local	O	O	JJ	O
+2-6	landscaping	O	O	NN	O
+2-7	store	2-2_prep_to	went	NN	P1_shop
+2-8	and	O	O	O	O
+2-9	picked	2-2_conj_and	went	VBD	O
+2-10	out	2-9_prt	picked	RP	O
+2-11	some	O	O	DT	O
+2-12	trees	2-9_dobj	picked	NNS	P1_tree
+2-13	I	2-14_nsubj	thought	PRP	P1_gardener
+2-14	thought	O	O	VBD	O
+2-15	would	2-16_aux	look	MD	O
+2-16	look	2-14_ccomp	thought	VB	O
+2-17	nice	2-16_acomp	look	JJ	O
+2-18	in	O	O	O	O
+2-19	my	O	O	PRP$	P1_gardener
+2-20	yard	2-9_prep_in	picked	NN	P1_location_garden
+2-21	.	O	O	O	O
+
+#id=3
+#text=After returning home I called to my kids to come help me install the new plants . 
+3-1	After	O	O	O	O
+3-2	returning	3-5_prepc_after	called	VBG	O
+3-3	home	3-2_dobj	returning	NN	P1_other
+3-4	I	3-5_nsubj	called	PRP	P1_gardener
+3-5	called	O	O	VBD	O
+3-6	to	O	O	O	O
+3-7	my	O	O	PRP$	P1_gardener
+3-8	kids	3-5_prep_to	called	NNS	P2_gardener
+3-9	to	3-10_aux	come	TO	O
+3-10	come	3-5_xcomp	called	VB	O
+3-11	help	3-10_xcomp	come	VB	O
+3-12	me	3-13_nsubj	install	PRP	P1_gardener
+3-13	install	3-11_ccomp	help	VB	O
+3-14	the	O	O	DT	O
+3-15	new	O	O	JJ	O
+3-16	plants	3-13_dobj	install	NNS	P1_tree
+3-17	.	O	O	O	O
+
+#id=4
+#text=We all grabbed shovels , gloves , and buckets and went to work . 
+4-1	We	4-3_nsubj	grabbed	PRP	P3_gardener
+4-2	all	4-3_advmod	grabbed	RB	O
+4-3	grabbed	O	O	VBD	O
+4-4	shovels	4-3_dobj	grabbed	NNS	P1_gardening_tool
+4-5	,	O	O	O	O
+4-6	gloves	O	O	NNS	P2_gardening_tool
+4-7	,	O	O	O	O
+4-8	and	O	O	O	O
+4-9	buckets	O	O	NNS	P3_gardening_tool
+4-10	and	O	O	O	O
+4-11	went	4-3_conj_and	grabbed	VBD	O
+4-12	to	4-13_aux	work	TO	O
+4-13	work	4-11_xcomp	went	VB	O
+4-14	.	O	O	O	O
+
+#id=5
+#text=We dug holes around the yard where we thought it would be nice to have the trees grow . 
+5-1	We	5-2_nsubj	dug	PRP	P3_gardener
+5-2	dug	O	O	VBD	O
+5-3	holes	5-2_dobj	dug	NNS	P1_hole
+5-4	around	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	yard	5-2_prep_around	dug	NN	P1_location_garden
+5-7	where	5-9_advmod	thought	WRB	O
+5-8	we	5-9_nsubj	thought	PRP	P3_gardener
+5-9	thought	5-2_advcl	dug	VBD	O
+5-10	it	O	O	PRP	O
+5-11	would	O	O	MD	O
+5-12	be	O	O	VB	O
+5-13	nice	5-9_ccomp	thought	JJ	O
+5-14	to	5-15_aux	have	TO	O
+5-15	have	O	O	VB	O
+5-16	the	O	O	DT	O
+5-17	trees	5-18_nsubj	grow	NNS	P1_tree
+5-18	grow	5-15_ccomp	have	VB	O
+5-19	.	O	O	O	O
+
+#id=6
+#text=We carefully each picked our favorite tree for each spot . 
+6-1	We	6-4_nsubj	picked	PRP	P3_gardener
+6-2	carefully	6-4_advmod	picked	RB	O
+6-3	each	6-4_advmod	picked	DT	O
+6-4	picked	O	O	VBD	O
+6-5	our	O	O	PRP$	P3_gardener
+6-6	favorite	O	O	JJ	O
+6-7	tree	6-4_dobj	picked	NN	P1_tree
+6-8	for	O	O	O	O
+6-9	each	O	O	DT	O
+6-10	spot	6-4_prep_for	picked	NN	P2_location_garden
+6-11	.	O	O	O	O
+
+#id=7
+#text=Once we had settled on the location of each tree we set them in the holes and covered them back up with dirt . 
+7-1	Once	7-4_mark	settled	IN	O
+7-2	we	7-4_nsubj	settled	PRP	P3_gardener
+7-3	had	7-4_aux	settled	VBD	O
+7-4	settled	7-12_advcl	set	VBN	O
+7-5	on	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	location	7-4_prep_on	settled	NN	P2_location_garden
+7-8	of	O	O	O	O
+7-9	each	O	O	DT	O
+7-10	tree	O	O	NN	P1_tree
+7-11	we	7-12_nsubj	set	PRP	P3_gardener
+7-12	set	O	O	VBD	O
+7-13	them	7-12_dobj	set	PRP	P1_tree
+7-14	in	O	O	O	O
+7-15	the	O	O	DT	O
+7-16	holes	7-12_prep_in	set	NNS	P1_hole
+7-17	and	O	O	O	O
+7-18	covered	7-12_conj_and	set	VBD	O
+7-19	them	7-18_dobj	covered	PRP	P1_tree
+7-20	back	O	O	RB	O
+7-21	up	7-18_advmod	covered	RB	O
+7-22	with	O	O	O	O
+7-23	dirt	O	O	NN	P1_dirt
+7-24	.	O	O	O	O
+
+#id=8
+#text=After placing some mulch around each tree to hold moisture it was time to water the plants . 
+8-1	After	O	O	O	O
+8-2	placing	O	O	VBG	O
+8-3	some	O	O	DT	O
+8-4	mulch	8-2_dobj	placing	NN	P1_fertilizer
+8-5	around	O	O	O	O
+8-6	each	O	O	DT	O
+8-7	tree	8-2_prep_around	placing	NN	P1_tree
+8-8	to	8-9_aux	hold	TO	O
+8-9	hold	O	O	VB	O
+8-10	moisture	8-9_dobj	hold	NN	P2_other
+8-11	it	O	O	PRP	O
+8-12	was	O	O	VBD	O
+8-13	time	O	O	NN	O
+8-14	to	8-15_aux	water	TO	O
+8-15	water	O	O	VB	O
+8-16	the	O	O	DT	O
+8-17	plants	8-15_dobj	water	NNS	P1_tree
+8-18	.	O	O	O	O
+
+#id=9
+#text=We were all pretty worn out by this time so we played rock , paper , scissors to determine who would have to get the hose and water the new trees . 
+9-1	We	9-5_nsubjpass	worn	PRP	P3_gardener
+9-2	were	9-5_auxpass	worn	VBD	O
+9-3	all	O	O	DT	O
+9-4	pretty	9-5_advmod	worn	RB	O
+9-5	worn	O	O	VBN	O
+9-6	out	9-5_prt	worn	RP	O
+9-7	by	O	O	O	O
+9-8	this	O	O	DT	O
+9-9	time	9-5_agent	worn	NN	P2_time
+9-10	so	9-12_mark	played	IN	O
+9-11	we	9-12_nsubj	played	PRP	P3_gardener
+9-12	played	9-5_advcl	worn	VBD	O
+9-13	rock	9-17_nsubj	scissors	NN	P1_NPart_rock
+9-14	,	O	O	O	O
+9-15	paper	O	O	NN	P1_NPart_paper
+9-16	,	O	O	O	O
+9-17	scissors	9-12_ccomp	played	VBZ	P1_NPart_scissors
+9-18	to	9-19_aux	determine	TO	O
+9-19	determine	9-17_xcomp	scissors	VB	O
+9-20	who	9-22_nsubj	have	WP	P4_gardener
+9-21	would	9-22_aux	have	MD	O
+9-22	have	9-19_ccomp	determine	VB	O
+9-23	to	9-24_aux	get	TO	O
+9-24	get	9-22_xcomp	have	VB	O
+9-25	the	O	O	DT	O
+9-26	hose	9-24_dobj	get	NN	P4_gardening_tool
+9-27	and	O	O	O	O
+9-28	water	9-24_conj_and	get	VB	O
+9-29	the	O	O	DT	O
+9-30	new	O	O	JJ	O
+9-31	trees	9-28_dobj	water	NNS	P1_tree
+9-32	.	O	O	O	O
+
+#id=10
+#text=I ended up losing the game and was assigned the task of watering . 
+10-1	I	10-2_nsubj	ended	PRP	P1_gardener
+10-2	ended	O	O	VBD	O
+10-3	up	10-2_prt	ended	RP	O
+10-4	losing	10-2_xcomp	ended	VBG	O
+10-5	the	O	O	DT	O
+10-6	game	10-4_dobj	losing	NN	P1_NPart_game
+10-7	and	O	O	O	O
+10-8	was	10-9_auxpass	assigned	VBD	O
+10-9	assigned	10-2_conj_and	ended	VBN	O
+10-10	the	O	O	DT	O
+10-11	task	10-9_dobj	assigned	NN	P1_NPart_task
+10-12	of	O	O	O	O
+10-13	watering	O	O	NN	O
+10-14	.	O	O	O	O

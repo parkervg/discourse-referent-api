@@ -1,0 +1,301 @@
+#id=1
+#text=It was in last spring , when we were taking photos by standing in front of our house , we felt like our photos lacked something . 
+1-1	It	O	O	PRP	O
+1-2	was	O	O	VBD	O
+1-3	in	O	O	IN	O
+1-4	last	O	O	JJ	O
+1-5	spring	1-21_ccomp	felt	NN	P1_NPart_spring
+1-6	,	O	O	O	O
+1-7	when	1-10_advmod	taking	WRB	O
+1-8	we	1-10_nsubj	taking	PRP	P1_gardener
+1-9	were	1-10_aux	taking	VBD	O
+1-10	taking	O	O	VBG	O
+1-11	photos	1-10_dobj	taking	NNS	P1_NPart_photos
+1-12	by	O	O	O	O
+1-13	standing	1-10_prepc_by	taking	VBG	O
+1-14	in	O	O	O	O
+1-15	front	O	O	O	O
+1-16	of	O	O	O	O
+1-17	our	O	O	PRP$	P1_gardener
+1-18	house	1-13_prep_in_front_of	standing	NN	P1_NPart_house
+1-19	,	O	O	O	O
+1-20	we	1-21_nsubj	felt	PRP	P1_NPart_we
+1-21	felt	O	O	VBD	O
+1-22	like	1-25_mark	lacked	IN	O
+1-23	our	O	O	PRP$	P1_gardener
+1-24	photos	1-25_nsubj	lacked	NNS	P2_NPart_photos
+1-25	lacked	1-21_advcl	felt	VBD	O
+1-26	something	1-25_dobj	lacked	NN	O
+1-27	.	O	O	O	O
+
+#id=2
+#text=Later we reached a conclusion that we do n't have enough green around our house . 
+2-1	Later	2-3_advmod	reached	RB	O
+2-2	we	2-3_nsubj	reached	PRP	P1_gardener
+2-3	reached	O	O	VBD	O
+2-4	a	O	O	DT	O
+2-5	conclusion	2-3_dobj	reached	NN	P1_NPart_conclusion
+2-6	that	2-10_mark	have	IN	O
+2-7	we	2-10_nsubj	have	PRP	P1_gardener
+2-8	do	2-10_aux	have	VBP	O
+2-9	n't	2-10_neg	have	RB	O
+2-10	have	2-3_ccomp	reached	VB	O
+2-11	enough	O	O	RB	O
+2-12	green	2-10_acomp	have	JJ	P1_NPart_green
+2-13	around	O	O	O	O
+2-14	our	O	O	PRP$	P1_gardener
+2-15	house	O	O	NN	P2_NPart_house
+2-16	.	O	O	O	O
+
+#id=3
+#text=So we thought it would be nice if we plant a tree in our yard . 
+3-1	So	3-3_dep	thought	IN	O
+3-2	we	3-3_nsubj	thought	PRP	P1_gardener
+3-3	thought	O	O	VBD	O
+3-4	it	O	O	PRP	O
+3-5	would	O	O	MD	O
+3-6	be	O	O	VB	O
+3-7	nice	3-3_ccomp	thought	JJ	O
+3-8	if	3-10_mark	plant	IN	O
+3-9	we	3-10_nsubj	plant	PRP	P1_gardener
+3-10	plant	O	O	VB	O
+3-11	a	O	O	DT	O
+3-12	tree	3-10_dobj	plant	NN	P1_tree
+3-13	in	O	O	O	O
+3-14	our	O	O	PRP$	P1_gardener
+3-15	yard	3-10_prep_in	plant	NN	P1_NPart_yard
+3-16	.	O	O	O	O
+
+#id=4
+#text=So we started our search on trees . 
+4-1	So	4-3_dep	started	IN	O
+4-2	we	4-3_nsubj	started	PRP	P1_gardener
+4-3	started	O	O	VBD	O
+4-4	our	O	O	PRP$	P2_gardener
+4-5	search	4-3_dobj	started	NN	P1_NPart_search
+4-6	on	O	O	O	O
+4-7	trees	4-3_prep_on	started	NNS	P1_tree
+4-8	.	O	O	O	O
+
+#id=5
+#text=During summer time a lot of rabbits come to our house and destroy all plants . 
+5-1	During	O	O	O	O
+5-2	summer	5-8_prep_during	come	NN	P1_NPart_summer
+5-3	time	5-8_nsubj	come	NN	P1_NPart_time
+5-4	a	O	O	DT	O
+5-5	lot	5-8_nsubj	come	NN	O
+5-6	of	O	O	O	O
+5-7	rabbits	O	O	NNS	P1_NPart_rabbits
+5-8	come	O	O	VBP	O
+5-9	to	O	O	O	O
+5-10	our	O	O	PRP$	P1_gardener
+5-11	house	5-8_prep_to	come	NN	P3_NPart_house
+5-12	and	O	O	O	O
+5-13	destroy	5-8_conj_and	come	VBP	O
+5-14	all	O	O	DT	O
+5-15	plants	5-13_dobj	destroy	NNS	P1_other
+5-16	.	O	O	O	O
+
+#id=6
+#text=Therefore we are in need of a plant that should n't attract rabbits . 
+6-1	Therefore	6-3_advmod	are	RB	O
+6-2	we	6-3_nsubj	are	PRP	P1_gardener
+6-3	are	O	O	VBP	O
+6-4	in	O	O	O	O
+6-5	need	6-3_prep_in	are	NN	O
+6-6	of	O	O	O	O
+6-7	a	O	O	DT	O
+6-8	plant	O	O	NN	P1_other
+6-9	that	6-12_nsubj	attract	WDT	O
+6-10	should	6-12_aux	attract	MD	O
+6-11	n't	6-12_neg	attract	RB	O
+6-12	attract	O	O	VB	O
+6-13	rabbits	6-12_dobj	attract	NNS	P2_NPart_rabbits
+6-14	.	O	O	O	O
+
+#id=7
+#text=We read reviews of different types of trees . 
+7-1	We	7-2_nsubj	read	PRP	P1_gardener
+7-2	read	O	O	VBP	O
+7-3	reviews	7-2_dobj	read	NNS	P2_other
+7-4	of	O	O	O	O
+7-5	different	O	O	JJ	O
+7-6	types	O	O	NNS	O
+7-7	of	O	O	O	O
+7-8	trees	O	O	NNS	P1_tree
+7-9	.	O	O	O	O
+
+#id=8
+#text=At last we reached a conclusion to buy a maple tree so that we can enjoy fall too . 
+8-1	At	O	O	O	O
+8-2	last	8-4_prep_at	reached	JJ	O
+8-3	we	8-4_nsubj	reached	PRP	P1_gardener
+8-4	reached	O	O	VBD	O
+8-5	a	O	O	DT	O
+8-6	conclusion	8-4_dobj	reached	NN	O
+8-7	to	8-8_aux	buy	TO	O
+8-8	buy	O	O	VB	O
+8-9	a	O	O	DT	O
+8-10	maple	O	O	JJ	O
+8-11	tree	8-8_dobj	buy	NN	P1_tree
+8-12	so	8-16_advmod	enjoy	RB	O
+8-13	that	8-16_mark	enjoy	IN	O
+8-14	we	8-16_nsubj	enjoy	PRP	P1_gardener
+8-15	can	8-16_aux	enjoy	MD	O
+8-16	enjoy	8-8_advcl	buy	VB	O
+8-17	fall	8-16_tmod	enjoy	NN	P1_time
+8-18	too	8-16_advmod	enjoy	RB	O
+8-19	.	O	O	O	O
+
+#id=9
+#text=We were new to planting a tree , so we watched some videos to get some information . 
+9-1	We	O	O	PRP	P1_gardener
+9-2	were	O	O	VBD	O
+9-3	new	O	O	JJ	O
+9-4	to	O	O	O	O
+9-5	planting	O	O	VBG	O
+9-6	a	O	O	DT	O
+9-7	tree	9-5_dobj	planting	NN	P1_tree
+9-8	,	O	O	O	O
+9-9	so	O	O	IN	O
+9-10	we	9-11_nsubj	watched	PRP	P1_gardener
+9-11	watched	O	O	VBD	O
+9-12	some	O	O	DT	O
+9-13	videos	9-11_dobj	watched	NNS	P3_other
+9-14	to	9-15_aux	get	TO	O
+9-15	get	9-11_vmod	watched	VB	O
+9-16	some	O	O	DT	O
+9-17	information	9-15_dobj	get	NN	O
+9-18	.	O	O	O	O
+
+#id=10
+#text=In one website they suggested to plant a somewhat tall plant rather than a small plant . 
+10-1	In	O	O	O	O
+10-2	one	O	O	CD	O
+10-3	website	10-5_prep_in	suggested	NN	P1_NPart_website
+10-4	they	10-5_nsubj	suggested	PRP	P1_NPart_they
+10-5	suggested	O	O	VBD	O
+10-6	to	10-7_aux	plant	TO	O
+10-7	plant	10-5_xcomp	suggested	VB	O
+10-8	a	O	O	DT	O
+10-9	somewhat	O	O	RB	O
+10-10	tall	O	O	JJ	O
+10-11	plant	10-7_dobj	plant	NN	P1_tree
+10-12	rather	10-7_advmod	plant	RB	O
+10-13	than	O	O	O	O
+10-14	a	O	O	DT	O
+10-15	small	O	O	JJ	O
+10-16	plant	10-7_prep_than	plant	NN	P2_tree
+10-17	.	O	O	O	O
+
+#id=11
+#text=So we went to Home Depot bought a plant and a shovel . 
+11-1	So	11-3_dep	went	IN	O
+11-2	we	11-3_nsubj	went	PRP	P1_gardener
+11-3	went	O	O	VBD	O
+11-4	to	O	O	O	O
+11-5	Home	O	O	NNP	O
+11-6	Depot	11-3_prep_to	went	NNP	P1_NPart_depot
+11-7	bought	O	O	VBN	O
+11-8	a	O	O	DT	O
+11-9	plant	11-7_dobj	bought	NN	P1_tree
+11-10	and	O	O	O	O
+11-11	a	O	O	DT	O
+11-12	shovel	O	O	NN	P1_gardening_tool
+11-13	.	O	O	O	O
+
+#id=12
+#text=It was a very beautiful maple tree . 
+12-1	It	O	O	PRP	O
+12-2	was	O	O	VBD	O
+12-3	a	O	O	DT	O
+12-4	very	O	O	RB	O
+12-5	beautiful	O	O	JJ	O
+12-6	maple	O	O	NN	O
+12-7	tree	O	O	NN	P1_tree
+12-8	.	O	O	O	O
+
+#id=13
+#text=After reaching home I dug a pit just to fit the plant base which was packed with some soil . 
+13-1	After	O	O	O	O
+13-2	reaching	13-5_prepc_after	dug	VBG	O
+13-3	home	13-2_dobj	reaching	NN	P1_NPart_home
+13-4	I	13-5_nsubj	dug	PRP	P3_gardener
+13-5	dug	O	O	VBD	O
+13-6	a	O	O	DT	O
+13-7	pit	13-5_dobj	dug	NN	P1_hole
+13-8	just	13-5_advmod	dug	RB	O
+13-9	to	13-10_aux	fit	TO	O
+13-10	fit	13-5_vmod	dug	VB	O
+13-11	the	O	O	DT	O
+13-12	plant	O	O	NN	O
+13-13	base	13-10_dobj	fit	NN	P1_root
+13-14	which	13-16_nsubjpass	packed	WDT	O
+13-15	was	13-16_auxpass	packed	VBD	O
+13-16	packed	O	O	VBN	O
+13-17	with	O	O	O	O
+13-18	some	O	O	DT	O
+13-19	soil	13-16_prep_with	packed	NN	P1_dirt
+13-20	.	O	O	O	O
+
+#id=14
+#text=Me and my wife held it and kept the plant in to the pit and removed the plastic sheets which wrapped the plant base together with the soil . 
+14-1	Me	14-5_nsubj	held	PRP	P3_gardener
+14-2	and	O	O	O	O
+14-3	my	O	O	PRP$	P3_gardener
+14-4	wife	O	O	NN	P4_gardener
+14-5	held	O	O	VBD	O
+14-6	it	14-5_dobj	held	PRP	P1_tree
+14-7	and	O	O	O	O
+14-8	kept	14-5_conj_and	held	VBD	O
+14-9	the	O	O	DT	O
+14-10	plant	14-8_dobj	kept	NN	P1_tree
+14-11	in	14-8_prep	kept	IN	O
+14-12	to	O	O	TO	O
+14-13	the	O	O	DT	O
+14-14	pit	O	O	NN	P2_hole
+14-15	and	O	O	O	O
+14-16	removed	14-8_conj_and	kept	VBD	O
+14-17	the	O	O	DT	O
+14-18	plastic	O	O	JJ	O
+14-19	sheets	14-16_dobj	removed	NNS	P1_wrapping
+14-20	which	14-21_nsubj	wrapped	WDT	O
+14-21	wrapped	O	O	VBD	O
+14-22	the	O	O	DT	O
+14-23	plant	O	O	NN	O
+14-24	base	14-21_dobj	wrapped	NN	P1_tree
+14-25	together	O	O	O	O
+14-26	with	O	O	O	O
+14-27	the	O	O	DT	O
+14-28	soil	14-21_prep_together_with	wrapped	NN	P1_dirt
+14-29	.	O	O	O	O
+
+#id=15
+#text=After that we poured the soil back to the pit and made the plant to stand straight . 
+15-1	After	O	O	O	O
+15-2	that	15-4_prep_after	poured	DT	O
+15-3	we	15-4_nsubj	poured	PRP	P1_gardener
+15-4	poured	O	O	VBD	O
+15-5	the	O	O	DT	O
+15-6	soil	15-4_dobj	poured	NN	P1_dirt
+15-7	back	15-4_prt	poured	RP	O
+15-8	to	O	O	O	O
+15-9	the	O	O	DT	O
+15-10	pit	15-4_prep_to	poured	NN	P2_hole
+15-11	and	O	O	O	O
+15-12	made	15-4_conj_and	poured	VBD	O
+15-13	the	O	O	DT	O
+15-14	plant	15-12_dobj	made	NN	P1_tree
+15-15	to	15-16_aux	stand	TO	O
+15-16	stand	15-12_vmod	made	VB	O
+15-17	straight	15-16_advmod	stand	RB	O
+15-18	.	O	O	O	O
+
+#id=16
+#text=It was a please experience . 
+16-1	It	O	O	PRP	O
+16-2	was	O	O	VBD	O
+16-3	a	O	O	DT	O
+16-4	please	O	O	JJ	O
+16-5	experience	O	O	NN	P1_NPart_experience
+16-6	.	O	O	O	O

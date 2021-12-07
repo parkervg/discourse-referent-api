@@ -1,0 +1,206 @@
+#id=1
+#text=The other night I went grocery shopping and first I drove my car to the store and parked in the parking lot . 
+1-1	The	O	O	DT	O
+1-2	other	O	O	JJ	O
+1-3	night	1-5_dep	went	NN	P1_NPart_night
+1-4	I	1-5_nsubj	went	PRP	P1_shopper
+1-5	went	O	O	VBD	O
+1-6	grocery	O	O	NN	P1_groceries
+1-7	shopping	1-5_dobj	went	NN	O
+1-8	and	O	O	O	O
+1-9	first	1-11_advmod	drove	RB	O
+1-10	I	1-11_nsubj	drove	PRP	P1_shopper
+1-11	drove	1-5_conj_and	went	VBD	O
+1-12	my	O	O	PRP$	P1_shopper
+1-13	car	1-11_dobj	drove	NN	P1_vehicle
+1-14	to	O	O	O	O
+1-15	the	O	O	DT	O
+1-16	store	1-11_prep_to	drove	NN	P1_grocery_shop
+1-17	and	O	O	O	O
+1-18	parked	1-11_conj_and	drove	VBN	O
+1-19	in	O	O	O	O
+1-20	the	O	O	DT	O
+1-21	parking	O	O	NN	O
+1-22	lot	1-18_prep_in	parked	NN	P1_NPart_lot
+1-23	.	O	O	O	O
+
+#id=2
+#text=Then I walked into the store and got a shopping cart . 
+2-1	Then	2-3_advmod	walked	RB	O
+2-2	I	2-3_nsubj	walked	PRP	P1_shopper
+2-3	walked	O	O	VBD	O
+2-4	into	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	store	2-3_prep_into	walked	NN	P1_grocery_shop
+2-7	and	O	O	O	O
+2-8	got	2-3_conj_and	walked	VBD	O
+2-9	a	O	O	DT	O
+2-10	shopping	O	O	VBG	O
+2-11	cart	2-3_dobj	walked	NN	P1_shopping_cart/basket
+2-12	.	O	O	O	O
+
+#id=3
+#text=I took the shopping cart and began walking down the isles while I looked at my shopping list . 
+3-1	I	3-2_nsubj	took	PRP	P1_shopper
+3-2	took	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	shopping	O	O	NN	O
+3-5	cart	3-2_dobj	took	NN	P1_shopping_cart/basket
+3-6	and	O	O	O	O
+3-7	began	3-2_conj_and	took	VBD	O
+3-8	walking	3-7_xcomp	began	VBG	O
+3-9	down	3-8_prt	walking	RP	O
+3-10	the	O	O	DT	O
+3-11	isles	3-8_dobj	walking	NNS	P1_section
+3-12	while	3-14_mark	looked	IN	O
+3-13	I	3-14_nsubj	looked	PRP	P1_shopper
+3-14	looked	3-7_advcl	began	VBD	O
+3-15	at	O	O	O	O
+3-16	my	O	O	PRP$	P1_shopper
+3-17	shopping	O	O	NN	O
+3-18	list	3-14_prep_at	looked	NN	P1_grocery_list
+3-19	.	O	O	O	O
+
+#id=4
+#text=I usually write a shopping list when I go to the store to make sure that I do n't forget anything . 
+4-1	I	4-3_nsubj	write	PRP	P1_shopper
+4-2	usually	4-3_advmod	write	RB	O
+4-3	write	O	O	VBP	O
+4-4	a	O	O	DT	O
+4-5	shopping	O	O	VBG	O
+4-6	list	4-3_dobj	write	NN	P1_grocery_list
+4-7	when	4-9_advmod	go	WRB	O
+4-8	I	4-9_nsubj	go	PRP	P1_shopper
+4-9	go	4-3_advcl	write	VBP	O
+4-10	to	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	store	4-9_prep_to	go	NN	P1_grocery_shop
+4-13	to	4-14_aux	make	TO	O
+4-14	make	O	O	VB	O
+4-15	sure	4-14_acomp	make	JJ	O
+4-16	that	4-20_mark	forget	IN	O
+4-17	I	4-20_nsubj	forget	PRP	P1_shopper
+4-18	do	4-20_aux	forget	VBP	O
+4-19	n't	4-20_neg	forget	RB	O
+4-20	forget	4-14_ccomp	make	VB	O
+4-21	anything	4-20_dobj	forget	NN	P1_groceries
+4-22	.	O	O	O	O
+
+#id=5
+#text=I grabbed items from many different isles , like grabbing milk from the fridge at the back of the store and some cheese in the isle next to that . 
+5-1	I	5-2_nsubj	grabbed	PRP	P1_shopper
+5-2	grabbed	O	O	VBD	O
+5-3	items	5-2_dobj	grabbed	NNS	P1_groceries
+5-4	from	O	O	O	O
+5-5	many	O	O	JJ	O
+5-6	different	O	O	JJ	O
+5-7	isles	5-2_prep_from	grabbed	NNS	P1_section
+5-8	,	O	O	O	O
+5-9	like	O	O	O	O
+5-10	grabbing	5-2_prepc_like	grabbed	VBG	O
+5-11	milk	5-10_dobj	grabbing	NN	P2_groceries
+5-12	from	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	fridge	5-10_prep_from	grabbing	NN	P1_NPart_fridge
+5-15	at	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	back	O	O	NN	P1_NPart_back
+5-18	of	O	O	O	O
+5-19	the	O	O	DT	O
+5-20	store	O	O	NN	P1_grocery_shop
+5-21	and	O	O	O	O
+5-22	some	O	O	DT	O
+5-23	cheese	O	O	NN	P3_groceries
+5-24	in	O	O	O	O
+5-25	the	O	O	DT	O
+5-26	isle	O	O	NN	P1_section
+5-27	next	O	O	O	O
+5-28	to	O	O	O	O
+5-29	that	O	O	DT	O
+5-30	.	O	O	O	O
+
+#id=6
+#text=Once I got everything on my list I took the shopping cart and wheeled it over to the line for the checkout counter and my items are scanned and go down the belt to be bagged . 
+6-1	Once	6-3_mark	got	IN	O
+6-2	I	6-3_nsubj	got	PRP	P1_shopper
+6-3	got	6-9_advcl	took	VBD	O
+6-4	everything	6-3_dobj	got	NN	P1_groceries
+6-5	on	O	O	O	O
+6-6	my	O	O	PRP$	P1_shopper
+6-7	list	6-3_prep_on	got	NN	P1_grocery_list
+6-8	I	6-9_nsubj	took	PRP	P1_shopper
+6-9	took	O	O	VBD	O
+6-10	the	O	O	DT	O
+6-11	shopping	O	O	NN	O
+6-12	cart	6-9_dobj	took	NN	P1_shopping_cart/basket
+6-13	and	O	O	O	O
+6-14	wheeled	6-9_conj_and	took	VBZ	O
+6-15	it	6-14_dobj	wheeled	PRP	P1_shopping_cart/basket
+6-16	over	6-14_prt	wheeled	RP	O
+6-17	to	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	line	6-14_prep_to	wheeled	NN	P1_line
+6-20	for	O	O	O	O
+6-21	the	O	O	DT	O
+6-22	checkout	O	O	NN	O
+6-23	counter	O	O	NN	P1_cash_desk
+6-24	and	O	O	O	O
+6-25	my	O	O	PRP$	P1_shopper
+6-26	items	6-28_nsubjpass	scanned	NNS	P1_groceries
+6-27	are	6-28_auxpass	scanned	VBP	O
+6-28	scanned	6-9_conj_and	took	VBN	O
+6-29	and	O	O	O	O
+6-30	go	6-28_conj_and	scanned	VB	O
+6-31	down	6-30_prt	go	RP	O
+6-32	the	O	O	DT	O
+6-33	belt	6-30_dobj	go	NN	P1_conveyor_belt
+6-34	to	6-36_aux	bagged	TO	O
+6-35	be	6-36_auxpass	bagged	VB	O
+6-36	bagged	O	O	VBN	O
+6-37	.	O	O	O	O
+
+#id=7
+#text=Finally a bagger bags my groceries and I put them in my cart and out the door of the grocery store and put the grocery bags in my car and put the cart away in the designated shopping cart drop off point . 
+7-1	Finally	7-4_advmod	bags	RB	O
+7-2	a	O	O	DT	O
+7-3	bagger	7-4_nsubj	bags	NN	P1_grocery_staff
+7-4	bags	O	O	VBZ	O
+7-5	my	O	O	PRP$	P1_shopper
+7-6	groceries	7-4_dobj	bags	NNS	P1_groceries
+7-7	and	O	O	O	O
+7-8	I	7-9_nsubj	put	PRP	P1_shopper
+7-9	put	7-9_conj_and	put	VB	O
+7-10	them	7-9_dobj	put	PRP	P1_groceries
+7-11	in	O	O	O	O
+7-12	my	O	O	PRP$	P1_shopper
+7-13	cart	7-9_prep_in	put	NN	P1_shopping_cart/basket
+7-14	and	O	O	O	O
+7-15	out	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	door	7-9_prep_out	put	NN	P1_NPart_door
+7-18	of	O	O	O	O
+7-19	the	O	O	DT	O
+7-20	grocery	O	O	NN	O
+7-21	store	O	O	NN	P1_grocery_shop
+7-22	and	O	O	O	O
+7-23	put	7-9_conj_and	put	VB	O
+7-24	the	O	O	DT	O
+7-25	grocery	O	O	NN	O
+7-26	bags	7-23_dobj	put	NNS	P1_shopping_bags
+7-27	in	O	O	O	O
+7-28	my	O	O	PRP$	P1_shopper
+7-29	car	7-23_prep_in	put	NN	P1_vehicle
+7-30	and	O	O	O	O
+7-31	put	7-9_conj_and	put	VB	O
+7-32	the	O	O	DT	O
+7-33	cart	7-31_dobj	put	NN	P1_shopping_cart/basket
+7-34	away	7-31_prt	put	RP	O
+7-35	in	O	O	O	O
+7-36	the	O	O	DT	O
+7-37	designated	O	O	VBN	O
+7-38	shopping	O	O	NN	O
+7-39	cart	O	O	NN	P1_shopping_cart/basket
+7-40	drop	7-31_prep_in	put	NN	O
+7-41	off	O	O	O	O
+7-42	point	O	O	NN	P1_NPart_point
+7-43	.	O	O	O	O

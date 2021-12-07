@@ -1,0 +1,189 @@
+#id=1
+#text=While casually browsing through my friends pictures online I discovered a new revelation . 
+1-1	While	1-3_mark	browsing	IN	O
+1-2	casually	1-3_advmod	browsing	RB	O
+1-3	browsing	1-10_advcl	discovered	VBG	O
+1-4	through	O	O	O	O
+1-5	my	O	O	PRP$	P1_bather
+1-6	friends	1-3_prep_through	browsing	NNS	O
+1-7	pictures	1-3_prep	browsing	NN	P1_NPart_pictures
+1-8	online	O	O	NN	O
+1-9	I	1-10_nsubj	discovered	PRP	P1_bather
+1-10	discovered	O	O	VBD	O
+1-11	a	O	O	DT	O
+1-12	new	O	O	JJ	O
+1-13	revelation	1-10_dobj	discovered	NN	O
+1-14	.	O	O	O	O
+
+#id=2
+#text=They are called Lush bath bombs and the are colorful scented fizz balls . 
+2-1	They	2-3_nsubjpass	called	PRP	P1_bath_means
+2-2	are	2-3_auxpass	called	VBP	O
+2-3	called	O	O	VBN	O
+2-4	Lush	O	O	JJ	O
+2-5	bath	O	O	NN	O
+2-6	bombs	2-3_dobj	called	NNS	P1_bath_means
+2-7	and	O	O	O	O
+2-8	the	O	O	DT	O
+2-9	are	O	O	VBP	O
+2-10	colorful	O	O	JJ	O
+2-11	scented	O	O	JJ	O
+2-12	fizz	O	O	NN	O
+2-13	balls	2-3_conj_and	called	NNS	P1_bath_means
+2-14	.	O	O	O	O
+
+#id=3
+#text=I quickly ordered a few online from their website and when they came I was overcome with excitement . 
+3-1	I	3-3_nsubj	ordered	PRP	P1_bather
+3-2	quickly	3-3_advmod	ordered	RB	O
+3-3	ordered	O	O	VBD	O
+3-4	a	O	O	DT	O
+3-5	few	O	O	JJ	P1_bath_means
+3-6	online	3-3_dobj	ordered	NN	P1_NPart_online
+3-7	from	3-3_dep	ordered	IN	O
+3-8	their	O	O	PRP$	P1_NPart_their
+3-9	website	O	O	NN	P1_NPart_website
+3-10	and	O	O	O	O
+3-11	when	3-13_advmod	came	WRB	O
+3-12	they	3-13_nsubj	came	PRP	P1_bath_means
+3-13	came	O	O	VBD	O
+3-14	I	3-16_nsubjpass	overcome	PRP	P1_bather
+3-15	was	3-16_auxpass	overcome	VBD	O
+3-16	overcome	3-13_ccomp	came	VBN	O
+3-17	with	O	O	O	O
+3-18	excitement	3-16_prep_with	overcome	NN	O
+3-19	.	O	O	O	O
+
+#id=4
+#text=I brought a Pink Potion one with a flower inside and a Blue Dream glitter one . 
+4-1	I	4-2_nsubj	brought	PRP	P1_bather
+4-2	brought	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	Pink	O	O	NNP	O
+4-5	Potion	O	O	NNP	O
+4-6	one	4-2_dobj	brought	NN	P2_bath_means
+4-7	with	O	O	O	O
+4-8	a	O	O	DT	O
+4-9	flower	O	O	NN	P1_NPart_flower
+4-10	inside	4-2_prep_with	brought	NN	O
+4-11	and	O	O	O	O
+4-12	a	O	O	DT	O
+4-13	Blue	O	O	JJ	O
+4-14	Dream	O	O	NN	O
+4-15	glitter	O	O	NN	O
+4-16	one	O	O	NN	P3_bath_means
+4-17	.	O	O	O	O
+
+#id=5
+#text=I put the Hello Kitty tub stopper in my bath tub and ran my bathwater until the tub was halfway full . 
+5-1	I	5-2_nsubj	put	PRP	P1_bather
+5-2	put	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	Hello	O	O	NNP	O
+5-5	Kitty	O	O	NNP	O
+5-6	tub	O	O	NN	O
+5-7	stopper	5-2_dobj	put	NN	P1_plug
+5-8	in	O	O	O	O
+5-9	my	O	O	PRP$	P1_bather
+5-10	bath	O	O	NN	O
+5-11	tub	O	O	NN	P1_bathtub
+5-12	and	O	O	O	O
+5-13	ran	5-2_conj_and	put	VBD	O
+5-14	my	O	O	PRP$	P1_bather
+5-15	bathwater	5-13_dobj	ran	NN	P1_water
+5-16	until	O	O	IN	O
+5-17	the	O	O	DT	O
+5-18	tub	O	O	NN	P1_bathtub
+5-19	was	O	O	VBD	O
+5-20	halfway	O	O	RB	O
+5-21	full	5-13_advcl	ran	JJ	O
+5-22	.	O	O	O	O
+
+#id=6
+#text=Then I dropped the bath bomb in the water and was anointed by the wonderful smell of lavender . 
+6-1	Then	6-3_advmod	dropped	RB	O
+6-2	I	6-3_nsubj	dropped	PRP	P1_bather
+6-3	dropped	O	O	VBD	O
+6-4	the	O	O	DT	O
+6-5	bath	O	O	NN	O
+6-6	bomb	6-3_dobj	dropped	NN	P1_bath_means
+6-7	in	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	water	6-3_prep_in	dropped	NN	P1_water
+6-10	and	O	O	O	O
+6-11	was	6-12_auxpass	anointed	VBD	O
+6-12	anointed	6-3_conj_and	dropped	VBN	O
+6-13	by	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	wonderful	O	O	JJ	O
+6-16	smell	6-12_agent	anointed	NN	P1_NPart_smell
+6-17	of	O	O	O	O
+6-18	lavender	O	O	NN	P1_NPart_lavender
+6-19	.	O	O	O	O
+
+#id=7
+#text=The water in the tub fizzled with pretty blue glitter . 
+7-1	The	O	O	DT	O
+7-2	water	7-6_nsubj	fizzled	NN	P1_water
+7-3	in	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	tub	O	O	NN	P1_bathtub
+7-6	fizzled	O	O	VBD	O
+7-7	with	O	O	O	O
+7-8	pretty	O	O	RB	O
+7-9	blue	O	O	JJ	O
+7-10	glitter	7-6_prep_with	fizzled	NN	O
+7-11	.	O	O	O	O
+
+#id=8
+#text=I got in an soaked for more than an hour and got out feeling like a million bucks . 
+8-1	I	8-2_nsubj	got	PRP	P1_bather
+8-2	got	O	O	VBD	O
+8-3	in	O	O	O	O
+8-4	an	O	O	DT	O
+8-5	soaked	8-2_prep_in	got	NN	O
+8-6	for	O	O	O	O
+8-7	more	O	O	JJR	O
+8-8	than	O	O	IN	O
+8-9	an	O	O	DT	O
+8-10	hour	8-2_prep_for	got	NN	P1_other
+8-11	and	O	O	O	O
+8-12	got	8-2_conj_and	got	VBD	O
+8-13	out	8-12_prt	got	RP	O
+8-14	feeling	8-12_xcomp	got	VBG	O
+8-15	like	O	O	O	O
+8-16	a	O	O	DT	O
+8-17	million	O	O	CD	O
+8-18	bucks	8-14_prep_like	feeling	NNS	O
+8-19	.	O	O	O	O
+
+#id=9
+#text=I seemed to be a thousand times cleaner than I was before I got it . 
+9-1	I	9-2_nsubj	seemed	PRP	P1_bather
+9-2	seemed	O	O	VBD	O
+9-3	to	O	O	TO	O
+9-4	be	O	O	VB	O
+9-5	a	O	O	DT	O
+9-6	thousand	O	O	CD	O
+9-7	times	O	O	NNS	O
+9-8	cleaner	9-2_xcomp	seemed	JJR	O
+9-9	than	9-11_mark	was	IN	O
+9-10	I	9-11_nsubj	was	PRP	P1_bather
+9-11	was	O	O	VBD	O
+9-12	before	9-14_mark	got	IN	O
+9-13	I	9-14_nsubj	got	PRP	P1_bather
+9-14	got	9-11_advcl	was	VBD	O
+9-15	it	9-14_dobj	got	PRP	P1_bath
+9-16	.	O	O	O	O
+
+#id=10
+#text=I even smelled great the whole entire day . 
+10-1	I	10-3_nsubj	smelled	PRP	P1_bather
+10-2	even	10-3_advmod	smelled	RB	O
+10-3	smelled	O	O	VBD	O
+10-4	great	O	O	JJ	O
+10-5	the	O	O	DT	O
+10-6	whole	10-3_dobj	smelled	NN	O
+10-7	entire	O	O	JJ	O
+10-8	day	10-3_tmod	smelled	NN	P1_NPart_day
+10-9	.	O	O	O	O

@@ -1,0 +1,206 @@
+#id=1
+#text=I wanted to spend the evening at the theater on Friday . 
+1-1	I	1-2_nsubj	wanted	PRP	P1_passenger
+1-2	wanted	O	O	VBD	O
+1-3	to	1-4_aux	spend	TO	O
+1-4	spend	1-2_xcomp	wanted	VB	O
+1-5	the	O	O	DT	O
+1-6	evening	1-4_tmod	spend	NN	P1_NPart_evening
+1-7	at	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	theater	1-4_prep_at	spend	NN	P1_NPart_theater
+1-10	on	O	O	O	O
+1-11	Friday	O	O	NNP	P1_NPart_friday
+1-12	.	O	O	O	O
+
+#id=2
+#text=There was a good play on in town and I decided to take the bus . 
+2-1	There	2-2_expl	was	EX	O
+2-2	was	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	good	O	O	JJ	O
+2-5	play	2-2_nsubj	was	NN	P1_NPart_play
+2-6	on	2-2_prep	was	IN	O
+2-7	in	O	O	IN	O
+2-8	town	O	O	NN	P1_NPart_town
+2-9	and	O	O	O	O
+2-10	I	2-11_nsubj	decided	PRP	P1_passenger
+2-11	decided	2-2_conj_and	was	VBD	O
+2-12	to	2-13_aux	take	TO	O
+2-13	take	2-11_xcomp	decided	VB	O
+2-14	the	O	O	DT	O
+2-15	bus	2-13_dobj	take	NN	P1_bus
+2-16	.	O	O	O	O
+
+#id=3
+#text=at 6:30 PM , I walked to the bus stop near my house . 
+3-1	at	O	O	O	O
+3-2	6:30	O	O	NNP	O
+3-3	PM	3-6_prep_at	walked	NNP	P1_time/date
+3-4	,	O	O	O	O
+3-5	I	3-6_nsubj	walked	PRP	P1_passenger
+3-6	walked	O	O	VBD	O
+3-7	to	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	bus	O	O	NN	O
+3-10	stop	3-6_prep_to	walked	NN	P1_bus_stop
+3-11	near	O	O	O	O
+3-12	my	O	O	PRP$	P1_passenger
+3-13	house	3-6_prep_near	walked	NN	P1_NPart_house
+3-14	.	O	O	O	O
+
+#id=4
+#text=It was a ten-minute walk in nice weather . 
+4-1	It	O	O	PRP	O
+4-2	was	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	ten-minute	O	O	JJ	O
+4-5	walk	O	O	NN	P1_NPart_walk
+4-6	in	O	O	O	O
+4-7	nice	O	O	JJ	O
+4-8	weather	O	O	NN	P1_NPart_weather
+4-9	.	O	O	O	O
+
+#id=5
+#text=At the bus stop , I waited only two minutes before the bus arrived . 
+5-1	At	O	O	O	O
+5-2	the	O	O	DT	O
+5-3	bus	O	O	NN	O
+5-4	stop	5-7_prep_at	waited	NN	P1_bus_stop
+5-5	,	O	O	O	O
+5-6	I	5-7_nsubj	waited	PRP	P1_passenger
+5-7	waited	O	O	VBD	O
+5-8	only	O	O	RB	O
+5-9	two	O	O	CD	O
+5-10	minutes	5-14_dep	arrived	NNS	P2_time/date
+5-11	before	5-14_mark	arrived	IN	O
+5-12	the	O	O	DT	O
+5-13	bus	5-14_nsubj	arrived	NN	P1_bus
+5-14	arrived	5-7_advcl	waited	VBD	O
+5-15	.	O	O	O	O
+
+#id=6
+#text=I stepped onto the public bus and paid for a one-way ticket . 
+6-1	I	6-2_nsubj	stepped	PRP	P1_passenger
+6-2	stepped	O	O	VBD	O
+6-3	onto	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	public	O	O	JJ	O
+6-6	bus	6-2_prep_onto	stepped	NN	P1_bus
+6-7	and	O	O	O	O
+6-8	paid	6-2_conj_and	stepped	VBD	O
+6-9	for	O	O	O	O
+6-10	a	O	O	DT	O
+6-11	one-way	O	O	JJ	O
+6-12	ticket	6-8_prep_for	paid	NN	P1_card/ticket
+6-13	.	O	O	O	O
+
+#id=7
+#text=The trip into town took fifteen minutes because the bus had other stops to make in the area before returning to the station . 
+7-1	The	O	O	DT	O
+7-2	trip	7-5_nsubj	took	NN	P1_ride
+7-3	into	O	O	O	O
+7-4	town	O	O	NN	P2_NPart_town
+7-5	took	O	O	VBD	O
+7-6	fifteen	O	O	CD	O
+7-7	minutes	7-5_dobj	took	NNS	P3_time/date
+7-8	because	7-11_mark	had	IN	O
+7-9	the	O	O	DT	O
+7-10	bus	7-11_nsubj	had	NN	P1_bus
+7-11	had	7-5_advcl	took	VBD	O
+7-12	other	O	O	JJ	O
+7-13	stops	7-11_dobj	had	NNS	P2_bus_stop
+7-14	to	7-15_aux	make	TO	O
+7-15	make	O	O	VB	O
+7-16	in	O	O	O	O
+7-17	the	O	O	DT	O
+7-18	area	7-15_prep_in	make	NN	P1_NPart_area
+7-19	before	O	O	O	O
+7-20	returning	7-15_prepc_before	make	VBG	O
+7-21	to	O	O	O	O
+7-22	the	O	O	DT	O
+7-23	station	7-20_prep_to	returning	NN	P3_bus_stop
+7-24	.	O	O	O	O
+
+#id=8
+#text=I saw someone I knew on the bus and we spent most of the travel time talking . 
+8-1	I	8-2_nsubj	saw	PRP	P1_passenger
+8-2	saw	O	O	VBD	O
+8-3	someone	8-2_dobj	saw	NN	P2_passenger
+8-4	I	8-5_nsubj	knew	PRP	P1_passenger
+8-5	knew	O	O	VBD	O
+8-6	on	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	bus	8-5_prep_on	knew	NN	P1_bus
+8-9	and	O	O	O	O
+8-10	we	8-11_nsubj	spent	PRP	P3_passenger
+8-11	spent	8-2_conj_and	saw	VBD	O
+8-12	most	8-11_dobj	spent	JJS	O
+8-13	of	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	travel	O	O	NN	O
+8-16	time	O	O	NN	P4_time/date
+8-17	talking	O	O	VBG	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=Then we reached the bus station . 
+9-1	Then	9-3_advmod	reached	RB	O
+9-2	we	9-3_nsubj	reached	PRP	O
+9-3	reached	O	O	VBD	O
+9-4	the	O	O	DT	O
+9-5	bus	O	O	NN	O
+9-6	station	9-3_dobj	reached	NN	P3_bus_stop
+9-7	.	O	O	O	O
+
+#id=10
+#text=The driver slowed down , and maneuvered the bus into its numbered space . 
+10-1	The	O	O	DT	O
+10-2	driver	10-3_nsubj	slowed	NN	P1_bus_staff
+10-3	slowed	O	O	VBD	O
+10-4	down	10-3_prt	slowed	RP	O
+10-5	,	O	O	O	O
+10-6	and	O	O	O	O
+10-7	maneuvered	10-3_conj_and	slowed	VBD	O
+10-8	the	O	O	DT	O
+10-9	bus	10-7_dobj	maneuvered	NN	P1_bus
+10-10	into	O	O	O	O
+10-11	its	O	O	PRP$	P1_bus
+10-12	numbered	O	O	JJ	O
+10-13	space	10-7_prep_into	maneuvered	NN	P1_NPart_space
+10-14	.	O	O	O	O
+
+#id=11
+#text=The doors opened and the passengers began to exit , moving together smoothly at a leisurely pace . 
+11-1	The	O	O	DT	O
+11-2	doors	11-3_nsubj	opened	NNS	P1_door
+11-3	opened	O	O	VBD	O
+11-4	and	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	passengers	11-7_nsubj	began	NNS	P4_passenger
+11-7	began	11-3_conj_and	opened	VBD	O
+11-8	to	11-9_aux	exit	TO	O
+11-9	exit	11-7_xcomp	began	VB	O
+11-10	,	O	O	O	O
+11-11	moving	11-7_xcomp	began	VBG	O
+11-12	together	O	O	RB	O
+11-13	smoothly	11-11_advmod	moving	RB	O
+11-14	at	O	O	O	O
+11-15	a	O	O	DT	O
+11-16	leisurely	O	O	JJ	O
+11-17	pace	11-11_prep_at	moving	NN	P1_NPart_pace
+11-18	.	O	O	O	O
+
+#id=12
+#text=I got off the bus and went to the theater . 
+12-1	I	12-2_nsubj	got	PRP	P1_passenger
+12-2	got	O	O	VBD	O
+12-3	off	12-2_prt	got	RP	O
+12-4	the	O	O	DT	O
+12-5	bus	12-2_dobj	got	NN	P1_bus
+12-6	and	O	O	O	O
+12-7	went	12-2_conj_and	got	VBD	O
+12-8	to	O	O	O	O
+12-9	the	O	O	DT	O
+12-10	theater	12-7_prep_to	went	NN	P2_NPart_theater
+12-11	.	O	O	O	O

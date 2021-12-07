@@ -1,0 +1,235 @@
+#id=1
+#text=I have actually planted a few trees in my day . 
+1-1	I	1-4_nsubj	planted	PRP	P1_gardener
+1-2	have	1-4_aux	planted	VBP	O
+1-3	actually	1-4_advmod	planted	RB	O
+1-4	planted	O	O	VBN	O
+1-5	a	O	O	DT	O
+1-6	few	O	O	JJ	O
+1-7	trees	1-4_dobj	planted	NNS	P1_tree
+1-8	in	O	O	O	O
+1-9	my	O	O	PRP$	P1_gardener
+1-10	day	O	O	NN	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=I helped my mom plant a few fruit trees that she had bought . 
+2-1	I	2-2_nsubj	helped	PRP	P1_gardener
+2-2	helped	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_gardener
+2-4	mom	2-5_nsubj	plant	NN	P2_gardener
+2-5	plant	2-2_ccomp	helped	VB	O
+2-6	a	O	O	DT	O
+2-7	few	O	O	JJ	O
+2-8	fruit	O	O	NN	O
+2-9	trees	2-5_dobj	plant	NNS	P1_tree
+2-10	that	2-13_mark	bought	IN	P1_tree
+2-11	she	2-13_nsubj	bought	PRP	P2_gardener
+2-12	had	2-13_aux	bought	VBD	O
+2-13	bought	2-5_ccomp	plant	VBN	O
+2-14	.	O	O	O	O
+
+#id=3
+#text=Interestingly enough , we never leave them in the pot , but we never put them in the ground dirt either . 
+3-1	Interestingly	O	O	RB	O
+3-2	enough	3-6_ccomp	leave	JJ	O
+3-3	,	O	O	O	O
+3-4	we	3-6_nsubj	leave	PRP	P3_gardener
+3-5	never	3-6_neg	leave	RB	O
+3-6	leave	O	O	VBP	O
+3-7	them	3-6_dobj	leave	PRP	P1_tree
+3-8	in	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	pot	3-6_prep_in	leave	NN	P1_wrapping
+3-11	,	O	O	O	O
+3-12	but	O	O	O	O
+3-13	we	3-15_nsubj	put	PRP	P3_gardener
+3-14	never	3-15_neg	put	RB	O
+3-15	put	3-6_conj_but	leave	VBD	O
+3-16	them	3-15_dobj	put	PRP	P1_tree
+3-17	in	O	O	O	O
+3-18	the	O	O	DT	O
+3-19	ground	O	O	NN	O
+3-20	dirt	3-15_prep_in	put	NN	P1_dirt
+3-21	either	3-15_advmod	put	RB	O
+3-22	.	O	O	O	O
+
+#id=4
+#text=We start out by digging a pretty deep hole . 
+4-1	We	4-2_nsubj	start	PRP	P3_gardener
+4-2	start	O	O	VBP	O
+4-3	out	4-2_prt	start	RP	O
+4-4	by	O	O	O	O
+4-5	digging	4-2_prepc_by	start	VBG	O
+4-6	a	O	O	DT	O
+4-7	pretty	O	O	RB	O
+4-8	deep	O	O	JJ	O
+4-9	hole	4-5_dobj	digging	NN	P1_hole
+4-10	.	O	O	O	O
+
+#id=5
+#text=Depending on the size of the tree and the roots , its usually about a foot and a half deep and about a foot wide . 
+5-1	Depending	O	O	O	O
+5-2	on	5-24_prepc_depending_on	foot	IN	O
+5-3	the	O	O	DT	O
+5-4	size	5-24_pobj	foot	NN	P1_NPart_size
+5-5	of	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	tree	O	O	NN	P1_tree
+5-8	and	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	roots	O	O	NNS	P1_root
+5-11	,	O	O	O	O
+5-12	its	O	O	PRP$	P1_hole
+5-13	usually	O	O	RB	O
+5-14	about	O	O	O	O
+5-15	a	O	O	DT	O
+5-16	foot	O	O	NN	P1_NPart_foot
+5-17	and	O	O	O	O
+5-18	a	O	O	DT	O
+5-19	half	O	O	NN	P1_NPart_half
+5-20	deep	5-24_nsubj	foot	NN	O
+5-21	and	O	O	O	O
+5-22	about	O	O	RB	O
+5-23	a	O	O	DT	O
+5-24	foot	O	O	VBP	P2_NPart_foot
+5-25	wide	5-24_acomp	foot	JJ	O
+5-26	.	O	O	O	O
+
+#id=6
+#text=we then put soft planting soil in the bottom to make sure that the tree will have more nutrition . 
+6-1	we	6-3_nsubj	put	PRP	P3_gardener
+6-2	then	6-3_advmod	put	RB	O
+6-3	put	O	O	VBD	O
+6-4	soft	O	O	JJ	O
+6-5	planting	O	O	NN	O
+6-6	soil	6-3_dobj	put	NN	P1_dirt
+6-7	in	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	bottom	6-3_prep_in	put	NN	P1_NPart_bottom
+6-10	to	6-11_aux	make	TO	O
+6-11	make	6-3_vmod	put	VB	O
+6-12	sure	6-11_acomp	make	JJ	O
+6-13	that	6-17_mark	have	IN	O
+6-14	the	O	O	DT	O
+6-15	tree	6-17_nsubj	have	NN	P1_tree
+6-16	will	6-17_aux	have	MD	O
+6-17	have	6-11_ccomp	make	VB	O
+6-18	more	O	O	JJR	O
+6-19	nutrition	6-17_dobj	have	NN	P1_NPart_nutrition
+6-20	.	O	O	O	O
+
+#id=7
+#text=My mom also has manure that she uses sometimes , but I let her handle that one . 
+7-1	My	O	O	PRP$	P1_gardener
+7-2	mom	7-5_nsubj	manure	NN	P2_gardener
+7-3	also	7-5_advmod	manure	RB	O
+7-4	has	7-5_aux	manure	VBZ	O
+7-5	manure	O	O	VBN	P1_fertilizer
+7-6	that	7-8_mark	uses	IN	P1_fertilizer
+7-7	she	7-8_nsubj	uses	PRP	P2_gardener
+7-8	uses	7-5_ccomp	manure	VBZ	O
+7-9	sometimes	7-8_advmod	uses	RB	O
+7-10	,	O	O	O	O
+7-11	but	O	O	O	O
+7-12	I	7-13_nsubj	let	PRP	P1_gardener
+7-13	let	7-5_conj_but	manure	VBP	O
+7-14	her	7-15_nsubj	handle	PRP	P2_gardener
+7-15	handle	7-13_ccomp	let	VB	O
+7-16	that	O	O	DT	O
+7-17	one	7-15_dobj	handle	NN	P1_fertilizer
+7-18	.	O	O	O	O
+
+#id=8
+#text=After we have everything set up , we take the tree out of the pot , and gently spread out the roots to make sure they can grow with some more space . 
+8-1	After	8-3_mark	have	IN	O
+8-2	we	8-3_nsubj	have	PRP	P3_gardener
+8-3	have	8-9_advcl	take	VBP	O
+8-4	everything	8-3_dobj	have	NN	P1_NPart_everything
+8-5	set	O	O	VBN	O
+8-6	up	8-5_prt	set	RP	O
+8-7	,	O	O	O	O
+8-8	we	8-9_nsubj	take	PRP	P3_gardener
+8-9	take	O	O	VBP	O
+8-10	the	O	O	DT	O
+8-11	tree	8-9_dobj	take	NN	P1_tree
+8-12	out	O	O	O	O
+8-13	of	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	pot	O	O	NN	P1_wrapping
+8-16	,	O	O	O	O
+8-17	and	O	O	O	O
+8-18	gently	8-19_advmod	spread	RB	O
+8-19	spread	8-28_dep	grow	VB	O
+8-20	out	8-19_prt	spread	RP	O
+8-21	the	O	O	DT	O
+8-22	roots	8-19_dobj	spread	NNS	P1_root
+8-23	to	8-24_aux	make	TO	O
+8-24	make	8-19_vmod	spread	VB	O
+8-25	sure	8-24_acomp	make	JJ	O
+8-26	they	8-28_nsubj	grow	PRP	P1_root
+8-27	can	8-28_aux	grow	MD	O
+8-28	grow	8-9_conj_and	take	VB	O
+8-29	with	O	O	O	O
+8-30	some	O	O	DT	O
+8-31	more	O	O	JJR	O
+8-32	space	8-28_prep_with	grow	NN	P1_NPart_space
+8-33	.	O	O	O	O
+
+#id=9
+#text=Then we stick in in the hole , and put more dirt and whatever around it and gently pack it in . 
+9-1	Then	9-3_advmod	stick	RB	O
+9-2	we	9-3_nsubj	stick	PRP	P3_gardener
+9-3	stick	O	O	VBP	O
+9-4	in	9-3_prt	stick	RP	P1_tree
+9-5	in	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	hole	9-3_prep_in	stick	NN	P1_hole
+9-8	,	O	O	O	O
+9-9	and	O	O	O	O
+9-10	put	9-3_conj_and	stick	VBD	O
+9-11	more	O	O	JJR	O
+9-12	dirt	9-10_dobj	put	NN	P1_dirt
+9-13	and	O	O	O	O
+9-14	whatever	9-10_conj_and	put	NN	P1_NPart_whatever
+9-15	around	O	O	RP	O
+9-16	it	O	O	PRP	P1_tree
+9-17	and	O	O	O	O
+9-18	gently	9-19_advmod	pack	RB	O
+9-19	pack	9-10_conj_and	put	VB	O
+9-20	it	9-19_dobj	pack	PRP	P1_tree
+9-21	in	9-19_prep	pack	IN	O
+9-22	.	O	O	O	O
+
+#id=10
+#text=After all that , we find a stake of some sort and tie it next to the tree so it has something to keep it upright while it grows . 
+10-1	After	O	O	O	O
+10-2	all	O	O	PDT	O
+10-3	that	10-6_prep_after	find	DT	O
+10-4	,	O	O	O	O
+10-5	we	10-6_nsubj	find	PRP	P3_gardener
+10-6	find	O	O	VB	O
+10-7	a	O	O	DT	O
+10-8	stake	10-6_dobj	find	NN	P1_stake
+10-9	of	O	O	O	O
+10-10	some	O	O	DT	O
+10-11	sort	O	O	NN	P1_NPart_sort
+10-12	and	O	O	O	O
+10-13	tie	10-6_conj_and	find	VB	O
+10-14	it	10-13_dobj	tie	PRP	P1_stake
+10-15	next	O	O	O	O
+10-16	to	O	O	O	O
+10-17	the	O	O	DT	O
+10-18	tree	10-13_prep_next_to	tie	NN	P1_tree
+10-19	so	10-21_mark	has	IN	O
+10-20	it	10-21_nsubj	has	PRP	P1_tree
+10-21	has	10-13_advcl	tie	VBZ	O
+10-22	something	10-21_dobj	has	NN	P1_stake
+10-23	to	10-24_aux	keep	TO	O
+10-24	keep	O	O	VB	O
+10-25	it	10-29_nsubj	grows	PRP	P1_tree
+10-26	upright	10-29_dep	grows	JJ	O
+10-27	while	10-29_mark	grows	IN	O
+10-28	it	10-29_nsubj	grows	PRP	P1_tree
+10-29	grows	10-24_xcomp	keep	VBZ	O
+10-30	.	O	O	O	O

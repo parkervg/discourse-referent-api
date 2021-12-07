@@ -1,0 +1,202 @@
+#id=1
+#text=I got my Yeti 575 enduro bike out and had made some minor adjustments to the tuning . 
+1-1	I	1-2_nsubj	got	PRP	P1_rider
+1-2	got	O	O	VBD	O
+1-3	my	O	O	PRP$	P1_rider
+1-4	Yeti	O	O	NNP	O
+1-5	575	O	O	NNP	O
+1-6	enduro	O	O	NN	O
+1-7	bike	1-2_dobj	got	NN	P1_bicycle
+1-8	out	1-2_prt	got	RP	O
+1-9	and	O	O	O	O
+1-10	had	1-11_aux	made	VBD	O
+1-11	made	1-2_conj_and	got	VBN	O
+1-12	some	O	O	DT	O
+1-13	minor	O	O	JJ	O
+1-14	adjustments	1-11_dobj	made	NNS	P1_NPart_adjustments
+1-15	to	O	O	O	O
+1-16	the	O	O	DT	O
+1-17	tuning	1-11_prep_to	made	NN	P1_NPart_tuning
+1-18	.	O	O	O	O
+
+#id=2
+#text=One other adjustment I made was to put some road tires on it so I could ride Capital Circle road of Tallahassee south to the major bike trail . 
+2-1	One	O	O	CD	O
+2-2	other	O	O	JJ	O
+2-3	adjustment	2-6_nsubj	was	NN	P1_NPart_adjustment
+2-4	I	2-5_nsubj	made	PRP	P1_rider
+2-5	made	O	O	VBD	O
+2-6	was	O	O	VBD	O
+2-7	to	2-8_aux	put	TO	O
+2-8	put	2-6_xcomp	was	VB	O
+2-9	some	O	O	DT	O
+2-10	road	O	O	NN	O
+2-11	tires	2-8_dobj	put	NNS	P1_tire
+2-12	on	O	O	O	O
+2-13	it	2-8_prep_on	put	PRP	P1_bicycle
+2-14	so	2-17_mark	ride	IN	O
+2-15	I	2-17_nsubj	ride	PRP	P1_rider
+2-16	could	2-17_aux	ride	MD	O
+2-17	ride	2-8_advcl	put	VB	O
+2-18	Capital	O	O	NNP	O
+2-19	Circle	O	O	NNP	O
+2-20	road	2-17_dobj	ride	NN	P1_NPart_road
+2-21	of	O	O	O	O
+2-22	Tallahassee	O	O	NNP	P1_NPart_tallahassee
+2-23	south	2-17_advmod	ride	RB	O
+2-24	to	O	O	O	O
+2-25	the	O	O	DT	O
+2-26	major	O	O	JJ	O
+2-27	bike	O	O	NN	O
+2-28	trail	O	O	NN	P1_NPart_trail
+2-29	.	O	O	O	O
+
+#id=3
+#text=As I made my way through traffic in the bike lane the wind blew on my face and the sun warmed my skin . 
+3-1	As	3-3_mark	made	IN	O
+3-2	I	3-3_nsubj	made	PRP	P1_rider
+3-3	made	3-14_advcl	blew	VBD	O
+3-4	my	O	O	PRP$	P1_rider
+3-5	way	3-3_dobj	made	NN	O
+3-6	through	O	O	O	O
+3-7	traffic	3-3_prep_through	made	NN	P1_NPart_traffic
+3-8	in	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	bike	O	O	NN	O
+3-11	lane	3-3_prep_in	made	NN	P1_NPart_lane
+3-12	the	O	O	DT	O
+3-13	wind	3-14_nsubj	blew	NN	P1_NPart_wind
+3-14	blew	O	O	VBD	O
+3-15	on	O	O	O	O
+3-16	my	O	O	PRP$	P1_rider
+3-17	face	3-14_prep_on	blew	NN	P1_NPart_face
+3-18	and	O	O	O	O
+3-19	the	O	O	DT	O
+3-20	sun	3-21_nsubj	warmed	NN	P1_NPart_sun
+3-21	warmed	3-14_conj_and	blew	VBD	O
+3-22	my	O	O	PRP$	P1_rider
+3-23	skin	3-21_dobj	warmed	NN	P1_NPart_skin
+3-24	.	O	O	O	O
+
+#id=4
+#text=I was in a great mood . 
+4-1	I	4-2_nsubj	was	PRP	P1_rider
+4-2	was	O	O	VBD	O
+4-3	in	O	O	O	O
+4-4	a	O	O	DT	O
+4-5	great	O	O	JJ	O
+4-6	mood	4-2_prep_in	was	NN	P1_NPart_mood
+4-7	.	O	O	O	O
+
+#id=5
+#text=Then all of a sudden the mood was dampened and corrupted by that horrible noise of leaking air . 
+5-1	Then	5-9_advmod	dampened	RB	O
+5-2	all	O	O	RB	O
+5-3	of	5-9_advmod	dampened	IN	O
+5-4	a	O	O	DT	O
+5-5	sudden	O	O	JJ	O
+5-6	the	O	O	DT	O
+5-7	mood	5-9_nsubjpass	dampened	NN	P2_NPart_mood
+5-8	was	5-9_auxpass	dampened	VBD	O
+5-9	dampened	O	O	VBN	O
+5-10	and	O	O	O	O
+5-11	corrupted	5-9_conj_and	dampened	VBN	O
+5-12	by	O	O	O	O
+5-13	that	O	O	DT	O
+5-14	horrible	O	O	JJ	O
+5-15	noise	5-9_agent	dampened	NN	P1_NPart_noise
+5-16	of	O	O	O	O
+5-17	leaking	O	O	VBG	O
+5-18	air	5-17_dobj	leaking	NN	P1_air
+5-19	.	O	O	O	O
+
+#id=6
+#text=I had hit some road debree that caused a flat tire . 
+6-1	I	6-3_nsubj	hit	PRP	P1_rider
+6-2	had	6-3_aux	hit	VBD	O
+6-3	hit	O	O	VBN	O
+6-4	some	O	O	DT	O
+6-5	road	O	O	NN	O
+6-6	debree	6-3_dobj	hit	NN	P1_object_damage
+6-7	that	6-8_nsubj	caused	WDT	P1_object_damage
+6-8	caused	O	O	VBD	O
+6-9	a	O	O	DT	O
+6-10	flat	O	O	JJ	O
+6-11	tire	6-8_dobj	caused	NN	P1_tire
+6-12	.	O	O	O	O
+
+#id=7
+#text=After cursing the event and going through a small tantrum I consulted the tools of my backpack which I always brought with me . 
+7-1	After	O	O	O	O
+7-2	cursing	7-12_prepc_after	consulted	VBG	O
+7-3	the	O	O	DT	O
+7-4	event	7-2_dobj	cursing	NN	P1_NPart_event
+7-5	and	O	O	O	O
+7-6	going	7-2_conj_and	cursing	VBG	O
+7-7	through	O	O	O	O
+7-8	a	O	O	DT	O
+7-9	small	O	O	JJ	O
+7-10	tantrum	7-6_prep_through	going	NN	P1_NPart_tantrum
+7-11	I	7-12_nsubj	consulted	PRP	P1_rider
+7-12	consulted	O	O	VBZ	O
+7-13	the	O	O	DT	O
+7-14	tools	7-12_dobj	consulted	NNS	P1_tool
+7-15	of	O	O	O	O
+7-16	my	O	O	PRP$	P1_rider
+7-17	backpack	O	O	NN	P1_NPart_backpack
+7-18	which	7-21_dobj	brought	WDT	P1_tool
+7-19	I	7-21_nsubj	brought	PRP	P1_rider
+7-20	always	7-21_advmod	brought	RB	O
+7-21	brought	O	O	VBD	O
+7-22	with	O	O	O	O
+7-23	me	7-21_prep_with	brought	PRP	P1_rider
+7-24	.	O	O	O	O
+
+#id=8
+#text=I took the tire off , removed the tube , isolated the puncture , and then applied the patch . 
+8-1	I	8-2_nsubj	took	PRP	P1_rider
+8-2	took	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	tire	8-2_dobj	took	NN	P1_tire
+8-5	off	8-2_prt	took	RP	O
+8-6	,	O	O	O	O
+8-7	removed	8-2_conj_and	took	VBD	O
+8-8	the	O	O	DT	O
+8-9	tube	8-7_dobj	removed	NN	P1_tire
+8-10	,	O	O	O	O
+8-11	isolated	8-2_conj_and	took	VBD	O
+8-12	the	O	O	DT	O
+8-13	puncture	8-11_dobj	isolated	NN	P1_damage
+8-14	,	O	O	O	O
+8-15	and	O	O	O	O
+8-16	then	8-17_advmod	applied	RB	O
+8-17	applied	8-2_conj_and	took	VBD	O
+8-18	the	O	O	DT	O
+8-19	patch	8-17_dobj	applied	NN	P1_patch
+8-20	.	O	O	O	O
+
+#id=9
+#text=I reassembled the tube and tire , pumped it up with my small hand pump , and made my way back home . 
+9-1	I	9-2_nsubj	reassembled	PRP	P1_rider
+9-2	reassembled	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	tube	9-2_dobj	reassembled	NN	P1_tire
+9-5	and	O	O	O	O
+9-6	tire	O	O	NN	P1_tire
+9-7	,	O	O	O	O
+9-8	pumped	9-2_conj_and	reassembled	VBD	O
+9-9	it	9-8_dobj	pumped	PRP	P1_tire
+9-10	up	9-8_prt	pumped	RP	O
+9-11	with	O	O	O	O
+9-12	my	O	O	PRP$	P1_rider
+9-13	small	O	O	JJ	O
+9-14	hand	O	O	NN	O
+9-15	pump	9-8_prep_with	pumped	NN	P2_tool
+9-16	,	O	O	O	O
+9-17	and	O	O	O	O
+9-18	made	9-2_conj_and	reassembled	VBD	O
+9-19	my	O	O	PRP$	P1_rider
+9-20	way	9-18_dobj	made	NN	O
+9-21	back	9-18_advmod	made	RB	O
+9-22	home	O	O	NN	P1_NPart_home
+9-23	.	O	O	O	O

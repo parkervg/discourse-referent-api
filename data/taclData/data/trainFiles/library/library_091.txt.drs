@@ -1,0 +1,209 @@
+#id=1
+#text=Reading is very important to me , and with the amount that I read , it is economical to use a library to borrow the books I would like to read . 
+1-1	Reading	O	O	NNP	O
+1-2	is	O	O	VBZ	O
+1-3	very	O	O	RB	O
+1-4	important	O	O	JJ	O
+1-5	to	O	O	O	O
+1-6	me	O	O	PRP	P1_customer
+1-7	,	O	O	O	O
+1-8	and	O	O	O	O
+1-9	with	O	O	O	O
+1-10	the	O	O	DT	O
+1-11	amount	O	O	NN	P1_book
+1-12	that	1-14_mark	read	IN	O
+1-13	I	1-14_nsubj	read	PRP	P1_customer
+1-14	read	O	O	VBD	O
+1-15	,	O	O	O	O
+1-16	it	O	O	PRP	O
+1-17	is	O	O	VBZ	O
+1-18	economical	O	O	JJ	O
+1-19	to	1-20_aux	use	TO	O
+1-20	use	O	O	VB	O
+1-21	a	O	O	DT	O
+1-22	library	1-20_dobj	use	NN	P1_library
+1-23	to	1-24_aux	borrow	TO	O
+1-24	borrow	O	O	VB	O
+1-25	the	O	O	DT	O
+1-26	books	1-24_dobj	borrow	NNS	P2_book
+1-27	I	1-29_nsubj	like	PRP	P1_customer
+1-28	would	1-29_aux	like	MD	O
+1-29	like	O	O	VB	O
+1-30	to	1-31_aux	read	TO	O
+1-31	read	1-29_xcomp	like	VB	O
+1-32	.	O	O	O	O
+
+#id=2
+#text=When borrowing a book , I get my son into the car and we drive to the library . 
+2-1	When	2-2_advmod	borrowing	WRB	O
+2-2	borrowing	2-7_advcl	get	VBG	O
+2-3	a	O	O	DT	O
+2-4	book	2-2_dobj	borrowing	NN	P3_book
+2-5	,	O	O	O	O
+2-6	I	2-7_nsubj	get	PRP	P1_customer
+2-7	get	O	O	VBP	O
+2-8	my	O	O	PRP$	P1_customer
+2-9	son	2-7_dobj	get	NN	P2_customer
+2-10	into	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	car	2-7_prep_into	get	NN	P1_NPart_car
+2-13	and	O	O	O	O
+2-14	we	2-15_nsubj	drive	PRP	P3_customer
+2-15	drive	2-7_conj_and	get	VBP	O
+2-16	to	O	O	O	O
+2-17	the	O	O	DT	O
+2-18	library	2-15_prep_to	drive	NN	P2_library
+2-19	.	O	O	O	O
+
+#id=3
+#text=Usually we find a few books for him to borrow as well , so we go to the children 's section first and pick out two or three books for him . 
+3-1	Usually	3-3_advmod	find	RB	O
+3-2	we	3-3_nsubj	find	PRP	P3_customer
+3-3	find	O	O	VBP	O
+3-4	a	O	O	DT	O
+3-5	few	O	O	JJ	O
+3-6	books	3-3_dobj	find	NNS	P4_book
+3-7	for	O	O	O	O
+3-8	him	O	O	PRP	P2_customer
+3-9	to	3-10_aux	borrow	TO	O
+3-10	borrow	3-3_xcomp	find	VB	O
+3-11	as	O	O	RB	O
+3-12	well	3-10_advmod	borrow	RB	O
+3-13	,	O	O	O	O
+3-14	so	3-16_mark	go	IN	O
+3-15	we	3-16_nsubj	go	PRP	P3_customer
+3-16	go	3-3_advcl	find	VB	O
+3-17	to	O	O	O	O
+3-18	the	O	O	DT	O
+3-19	children	O	O	NNS	O
+3-20	's	O	O	O	O
+3-21	section	3-16_prep_to	go	NN	P1_location_library
+3-22	first	3-16_advmod	go	RB	O
+3-23	and	O	O	O	O
+3-24	pick	3-16_conj_and	go	VB	O
+3-25	out	3-24_prt	pick	RP	O
+3-26	two	O	O	CD	O
+3-27	or	O	O	O	O
+3-28	three	O	O	CD	O
+3-29	books	3-24_dobj	pick	NNS	P4_book
+3-30	for	O	O	O	O
+3-31	him	O	O	PRP	P2_customer
+3-32	.	O	O	O	O
+
+#id=4
+#text=That way , when we go to find a book for me , he has something to entertain him . 
+4-1	That	O	O	DT	O
+4-2	way	4-15_nsubj	has	NN	O
+4-3	,	O	O	O	O
+4-4	when	4-6_advmod	go	WRB	O
+4-5	we	4-6_nsubj	go	PRP	P3_customer
+4-6	go	4-15_advcl	has	VBP	O
+4-7	to	4-8_aux	find	TO	O
+4-8	find	4-6_xcomp	go	VB	O
+4-9	a	O	O	DT	O
+4-10	book	4-8_dobj	find	NN	P5_book
+4-11	for	O	O	O	O
+4-12	me	O	O	PRP	P1_customer
+4-13	,	O	O	O	O
+4-14	he	4-15_nsubj	has	PRP	P2_customer
+4-15	has	O	O	VBZ	O
+4-16	something	4-15_dobj	has	NN	P4_book
+4-17	to	4-18_aux	entertain	TO	O
+4-18	entertain	O	O	VB	O
+4-19	him	4-18_dobj	entertain	PRP	P2_customer
+4-20	.	O	O	O	O
+
+#id=5
+#text=Then we go to the fiction section for adults . 
+5-1	Then	5-3_advmod	go	RB	O
+5-2	we	5-3_nsubj	go	PRP	P3_customer
+5-3	go	O	O	VBP	O
+5-4	to	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	fiction	O	O	NN	O
+5-7	section	5-3_prep_to	go	NN	P2_location_library
+5-8	for	O	O	O	O
+5-9	adults	O	O	NNS	P1_NPart_adults
+5-10	.	O	O	O	O
+
+#id=6
+#text=Usually my son Ryan will sit on the floor looking at his books next to me while I find book to check out . 
+6-1	Usually	6-6_advmod	sit	RB	O
+6-2	my	O	O	PRP$	P1_customer
+6-3	son	O	O	NN	P2_customer
+6-4	Ryan	6-6_nsubj	sit	NNP	P2_customer
+6-5	will	6-6_aux	sit	MD	O
+6-6	sit	O	O	VB	O
+6-7	on	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	floor	6-6_prep_on	sit	NN	P1_NPart_floor
+6-10	looking	O	O	VBG	O
+6-11	at	O	O	O	O
+6-12	his	O	O	PRP$	P2_customer
+6-13	books	6-10_prep_at	looking	NNS	P4_book
+6-14	next	O	O	O	O
+6-15	to	O	O	O	O
+6-16	me	6-19_prep_next_to	find	PRP	P1_customer
+6-17	while	6-19_mark	find	IN	O
+6-18	I	6-19_nsubj	find	PRP	P1_customer
+6-19	find	6-10_advcl	looking	VBP	O
+6-20	book	6-19_dobj	find	NN	P5_book
+6-21	to	6-22_aux	check	TO	O
+6-22	check	6-19_vmod	find	VB	O
+6-23	out	6-22_prt	check	RP	O
+6-24	.	O	O	O	O
+
+#id=7
+#text=I find a book or two and then Ryan and I go to the check out and use my library card to check out the books . 
+7-1	I	7-2_nsubj	find	PRP	P1_customer
+7-2	find	O	O	VBP	O
+7-3	a	O	O	DT	O
+7-4	book	7-2_dobj	find	NN	P5_book
+7-5	or	O	O	O	O
+7-6	two	O	O	CD	O
+7-7	and	O	O	CC	O
+7-8	then	7-2_dep	find	RB	O
+7-9	Ryan	O	O	NNP	P2_customer
+7-10	and	O	O	O	O
+7-11	I	7-12_nsubj	go	PRP	P1_customer
+7-12	go	7-2_conj_and	find	VBP	O
+7-13	to	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	check	7-12_prep_to	go	NN	O
+7-16	out	7-12_advmod	go	RB	P1_check-out_desk
+7-17	and	O	O	O	O
+7-18	use	7-12_conj_and	go	VBP	O
+7-19	my	O	O	PRP$	P1_customer
+7-20	library	O	O	NN	O
+7-21	card	7-18_dobj	use	NN	P1_library_card
+7-22	to	7-23_aux	check	TO	O
+7-23	check	7-18_vmod	use	VB	O
+7-24	out	7-23_prt	check	RP	O
+7-25	the	O	O	DT	O
+7-26	books	7-23_dobj	check	NNS	P6_book
+7-27	.	O	O	O	O
+
+#id=8
+#text=The librarian usually puts them in a bag and then we leave the library to go home and enjoy our books . 
+8-1	The	O	O	DT	O
+8-2	librarian	8-4_nsubj	puts	NN	P1_staff
+8-3	usually	8-4_advmod	puts	RB	O
+8-4	puts	O	O	VBZ	O
+8-5	them	8-4_dobj	puts	PRP	P6_book
+8-6	in	O	O	O	O
+8-7	a	O	O	DT	O
+8-8	bag	8-4_prep_in	puts	NN	P1_bag
+8-9	and	O	O	O	O
+8-10	then	8-12_advmod	leave	RB	O
+8-11	we	8-12_nsubj	leave	PRP	P3_customer
+8-12	leave	8-4_conj_and	puts	VBP	O
+8-13	the	O	O	DT	O
+8-14	library	8-12_dobj	leave	NN	P2_library
+8-15	to	8-16_aux	go	TO	O
+8-16	go	8-12_xcomp	leave	VB	O
+8-17	home	8-16_dobj	go	NN	P1_NPart_home
+8-18	and	O	O	O	O
+8-19	enjoy	8-16_conj_and	go	VB	O
+8-20	our	O	O	PRP$	P3_customer
+8-21	books	8-19_dobj	enjoy	NNS	P6_book
+8-22	.	O	O	O	O

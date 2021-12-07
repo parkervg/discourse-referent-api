@@ -1,0 +1,208 @@
+#id=1
+#text=My yard was very bare and plain-looking so I decided to add some trees to the landscape . 
+1-1	My	O	O	PRP$	P1_gardener
+1-2	yard	O	O	NN	P1_NPart_yard
+1-3	was	O	O	VBD	O
+1-4	very	O	O	RB	O
+1-5	bare	O	O	JJ	O
+1-6	and	O	O	O	O
+1-7	plain-looking	O	O	JJ	O
+1-8	so	1-10_mark	decided	IN	O
+1-9	I	1-10_nsubj	decided	PRP	P1_gardener
+1-10	decided	O	O	VBD	O
+1-11	to	1-12_aux	add	TO	O
+1-12	add	1-10_xcomp	decided	VB	O
+1-13	some	O	O	DT	O
+1-14	trees	1-12_dobj	add	NNS	P1_tree
+1-15	to	O	O	O	O
+1-16	the	O	O	DT	O
+1-17	landscape	1-12_prep_to	add	NN	P1_NPart_landscape
+1-18	.	O	O	O	O
+
+#id=2
+#text=First , I went to the local nursery and asked them for advice on what kinds of trees would do well in my area , level of sunlight , amount of precipitation , etc . 
+2-1	First	2-4_advmod	went	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	went	PRP	P1_gardener
+2-4	went	O	O	VBD	O
+2-5	to	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	local	O	O	JJ	O
+2-8	nursery	2-4_prep_to	went	NN	P1_shop
+2-9	and	O	O	O	O
+2-10	asked	2-4_conj_and	went	VBD	O
+2-11	them	2-10_dobj	asked	PRP	P1_staff
+2-12	for	O	O	O	O
+2-13	advice	2-10_prep_for	asked	NN	O
+2-14	on	O	O	O	O
+2-15	what	2-20_prep_on	do	WP	O
+2-16	kinds	2-20_nsubj	do	NNS	P1_NPart_kinds
+2-17	of	O	O	O	O
+2-18	trees	O	O	NNS	P1_tree
+2-19	would	2-20_aux	do	MD	O
+2-20	do	O	O	VB	O
+2-21	well	2-20_advmod	do	RB	O
+2-22	in	O	O	O	O
+2-23	my	O	O	PRP$	P1_gardener
+2-24	area	O	O	NN	P1_NPart_area
+2-25	,	O	O	O	O
+2-26	level	2-20_prep_in	do	NN	P1_NPart_level
+2-27	of	O	O	O	O
+2-28	sunlight	O	O	NN	P1_NPart_sunlight
+2-29	,	O	O	O	O
+2-30	amount	O	O	NN	O
+2-31	of	O	O	O	O
+2-32	precipitation	O	O	NN	P1_NPart_precipitation
+2-33	,	O	O	O	O
+2-34	etc	O	O	FW	O
+2-35	.	O	O	O	O
+
+#id=3
+#text=They gave me some ideas and I picked out a Bradford pear tree sapling . 
+3-1	They	3-2_nsubj	gave	PRP	P1_staff
+3-2	gave	O	O	VBD	O
+3-3	me	3-2_iobj	gave	PRP	P1_gardener
+3-4	some	O	O	DT	O
+3-5	ideas	3-2_dobj	gave	NNS	P1_NPart_ideas
+3-6	and	O	O	O	O
+3-7	I	3-8_nsubj	picked	PRP	P1_gardener
+3-8	picked	3-2_conj_and	gave	VBD	O
+3-9	out	3-8_prt	picked	RP	O
+3-10	a	O	O	DT	O
+3-11	Bradford	O	O	NNP	O
+3-12	pear	O	O	NN	O
+3-13	tree	3-8_dobj	picked	NN	O
+3-14	sapling	O	O	VBG	P1_tree
+3-15	.	O	O	O	O
+
+#id=4
+#text=I took it home and left it in shade while I prepared to plant it . 
+4-1	I	4-2_nsubj	took	PRP	P1_gardener
+4-2	took	O	O	VBD	O
+4-3	it	4-2_dobj	took	PRP	P1_tree
+4-4	home	4-2_advmod	took	RB	P1_NPart_home
+4-5	and	O	O	O	O
+4-6	left	4-2_conj_and	took	VBD	O
+4-7	it	4-6_dobj	left	PRP	P1_tree
+4-8	in	O	O	O	O
+4-9	shade	4-6_prep_in	left	NN	P1_NPart_shade
+4-10	while	4-12_mark	prepared	IN	O
+4-11	I	4-12_nsubj	prepared	PRP	P1_gardener
+4-12	prepared	4-6_advcl	left	VBD	O
+4-13	to	4-14_aux	plant	TO	O
+4-14	plant	4-12_xcomp	prepared	VB	O
+4-15	it	4-14_dobj	plant	PRP	P1_tree
+4-16	.	O	O	O	O
+
+#id=5
+#text=First I got out a shovel and dug a deep enough hole to cover the whole root ball of the tree . 
+5-1	First	5-3_advmod	got	RB	O
+5-2	I	5-3_nsubj	got	PRP	P1_gardener
+5-3	got	O	O	VBD	O
+5-4	out	5-3_prt	got	RP	O
+5-5	a	O	O	DT	O
+5-6	shovel	5-3_dobj	got	NN	P1_gardening_tool
+5-7	and	O	O	O	O
+5-8	dug	5-3_conj_and	got	VBD	O
+5-9	a	O	O	DT	O
+5-10	deep	O	O	JJ	O
+5-11	enough	O	O	JJ	O
+5-12	hole	5-8_dobj	dug	NN	P1_hole
+5-13	to	5-14_aux	cover	TO	O
+5-14	cover	5-8_vmod	dug	VB	O
+5-15	the	O	O	DT	O
+5-16	whole	O	O	JJ	O
+5-17	root	O	O	NN	O
+5-18	ball	5-14_dobj	cover	NN	P1_root
+5-19	of	O	O	O	O
+5-20	the	O	O	DT	O
+5-21	tree	O	O	NN	P1_tree
+5-22	.	O	O	O	O
+
+#id=6
+#text=Then I placed some fertilizer in the bottom of the hole . 
+6-1	Then	6-3_advmod	placed	RB	O
+6-2	I	6-3_nsubj	placed	PRP	P1_gardener
+6-3	placed	O	O	VBD	O
+6-4	some	O	O	DT	O
+6-5	fertilizer	6-3_dobj	placed	NN	P1_fertilizer
+6-6	in	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	bottom	6-3_prep_in	placed	NN	P1_NPart_bottom
+6-9	of	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	hole	O	O	NN	P1_hole
+6-12	.	O	O	O	O
+
+#id=7
+#text=Next I unwrapped the root ball from the burlap sack which contained it and placed it in the hole that I had dug . 
+7-1	Next	7-3_advmod	unwrapped	RB	O
+7-2	I	7-3_nsubj	unwrapped	PRP	P1_gardener
+7-3	unwrapped	O	O	VBD	O
+7-4	the	O	O	DT	O
+7-5	root	O	O	NN	O
+7-6	ball	7-3_dobj	unwrapped	NN	P1_root
+7-7	from	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	burlap	O	O	NN	O
+7-10	sack	7-3_prep_from	unwrapped	NN	P1_wrapping
+7-11	which	7-12_nsubj	contained	WDT	O
+7-12	contained	O	O	VBD	O
+7-13	it	7-12_dobj	contained	PRP	P1_root
+7-14	and	O	O	O	O
+7-15	placed	7-12_conj_and	contained	VBD	O
+7-16	it	7-15_dobj	placed	PRP	P1_root
+7-17	in	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	hole	7-15_prep_in	placed	NN	P1_hole
+7-20	that	7-23_mark	dug	IN	O
+7-21	I	7-23_nsubj	dug	PRP	P1_gardener
+7-22	had	7-23_aux	dug	VBD	O
+7-23	dug	7-15_ccomp	placed	VBD	O
+7-24	.	O	O	O	O
+
+#id=8
+#text=Once it was in , I shoveled the dirt back into the opening and tamped it firmly around the base of the tree . 
+8-1	Once	8-3_mark	was	IN	O
+8-2	it	8-3_nsubj	was	PRP	P1_root
+8-3	was	8-7_advcl	shoveled	VBD	O
+8-4	in	8-3_prep	was	IN	O
+8-5	,	O	O	O	O
+8-6	I	8-7_nsubj	shoveled	PRP	P1_gardener
+8-7	shoveled	O	O	VBD	O
+8-8	the	O	O	DT	O
+8-9	dirt	8-7_dobj	shoveled	NN	P1_dirt
+8-10	back	8-7_prt	shoveled	RP	O
+8-11	into	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	opening	8-7_prep_into	shoveled	NN	P1_hole
+8-14	and	O	O	O	O
+8-15	tamped	8-7_conj_and	shoveled	VBD	O
+8-16	it	8-15_dobj	tamped	PRP	P1_dirt
+8-17	firmly	8-15_advmod	tamped	RB	O
+8-18	around	O	O	O	O
+8-19	the	O	O	DT	O
+8-20	base	8-15_prep_around	tamped	NN	P1_NPart_base
+8-21	of	O	O	O	O
+8-22	the	O	O	DT	O
+8-23	tree	O	O	NN	P1_tree
+8-24	.	O	O	O	O
+
+#id=9
+#text=After that I placed a soaker hose near it to give it plenty of water . 
+9-1	After	O	O	O	O
+9-2	that	9-4_prep_after	placed	DT	O
+9-3	I	9-4_nsubj	placed	PRP	P1_gardener
+9-4	placed	O	O	VBD	O
+9-5	a	O	O	DT	O
+9-6	soaker	O	O	NN	O
+9-7	hose	9-4_dobj	placed	NN	P2_gardening_tool
+9-8	near	O	O	O	O
+9-9	it	9-4_prep_near	placed	PRP	P1_tree
+9-10	to	9-11_aux	give	TO	O
+9-11	give	9-4_vmod	placed	VB	O
+9-12	it	9-11_iobj	give	PRP	P1_tree
+9-13	plenty	9-11_dobj	give	RB	O
+9-14	of	O	O	O	O
+9-15	water	O	O	NN	P1_water
+9-16	.	O	O	O	O

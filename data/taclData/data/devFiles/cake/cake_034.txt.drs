@@ -1,0 +1,274 @@
+#id=1
+#text=Baking a cake begins with a good recipe that you want to use . 
+1-1	Baking	1-4_advmod	begins	RB	O
+1-2	a	O	O	DT	O
+1-3	cake	1-4_nsubj	begins	NN	P1_cake
+1-4	begins	O	O	VBZ	O
+1-5	with	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	good	O	O	JJ	O
+1-8	recipe	1-4_prep_with	begins	NN	P1_baking_instructions
+1-9	that	1-11_mark	want	IN	O
+1-10	you	1-11_nsubj	want	PRP	P1_cook
+1-11	want	1-4_ccomp	begins	VBP	O
+1-12	to	1-13_aux	use	TO	O
+1-13	use	1-11_xcomp	want	VB	O
+1-14	.	O	O	O	O
+
+#id=2
+#text=Follow the recipe to get all the ingredients at the store . 
+2-1	Follow	O	O	VB	O
+2-2	the	O	O	DT	O
+2-3	recipe	2-1_dobj	Follow	NN	P1_baking_instructions
+2-4	to	2-5_aux	get	TO	O
+2-5	get	O	O	VB	O
+2-6	all	O	O	PDT	O
+2-7	the	O	O	DT	O
+2-8	ingredients	2-5_dobj	get	NNS	P1_ingredients
+2-9	at	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	store	2-5_prep_at	get	NN	P1_store
+2-12	.	O	O	O	O
+
+#id=3
+#text=Assuming you have all the ingredients , you will also need to acquire all the tools necessary to bake the cake . 
+3-1	Assuming	3-11_vmod	need	VBG	O
+3-2	you	3-3_nsubj	have	PRP	P1_cook
+3-3	have	3-1_ccomp	Assuming	VB	O
+3-4	all	O	O	PDT	O
+3-5	the	O	O	DT	O
+3-6	ingredients	3-3_dobj	have	NNS	P1_ingredients
+3-7	,	O	O	O	O
+3-8	you	3-11_nsubj	need	PRP	P1_cook
+3-9	will	3-11_aux	need	MD	O
+3-10	also	3-11_advmod	need	RB	O
+3-11	need	O	O	VB	O
+3-12	to	3-13_aux	acquire	TO	O
+3-13	acquire	3-11_xcomp	need	VB	O
+3-14	all	O	O	PDT	O
+3-15	the	O	O	DT	O
+3-16	tools	O	O	NNS	P1_utensil
+3-17	necessary	3-13_xcomp	acquire	JJ	O
+3-18	to	3-19_aux	bake	TO	O
+3-19	bake	O	O	VB	O
+3-20	the	O	O	DT	O
+3-21	cake	3-19_dobj	bake	NN	P1_cake
+3-22	.	O	O	O	O
+
+#id=4
+#text=This usually includes measuring cups , mixing bowls , and the actual mixer . 
+4-1	This	4-3_nsubj	includes	DT	O
+4-2	usually	4-3_advmod	includes	RB	O
+4-3	includes	O	O	VBZ	O
+4-4	measuring	4-3_xcomp	includes	VBG	O
+4-5	cups	4-4_dobj	measuring	NNS	P2_utensil
+4-6	,	O	O	O	O
+4-7	mixing	O	O	NNP	O
+4-8	bowls	O	O	NNP	P3_utensil
+4-9	,	O	O	O	O
+4-10	and	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	actual	O	O	JJ	O
+4-13	mixer	O	O	NN	P4_utensil
+4-14	.	O	O	O	O
+
+#id=5
+#text=You will then follow the recipe to measure out the ingredients in the exact proportions that the recipe calls for . 
+5-1	You	5-4_nsubj	follow	PRP	P1_cook
+5-2	will	5-4_aux	follow	MD	O
+5-3	then	5-4_advmod	follow	RB	O
+5-4	follow	O	O	VB	O
+5-5	the	O	O	DT	O
+5-6	recipe	5-4_dobj	follow	NN	P1_baking_instructions
+5-7	to	5-8_aux	measure	TO	O
+5-8	measure	O	O	VB	O
+5-9	out	5-8_prt	measure	RP	O
+5-10	the	O	O	DT	O
+5-11	ingredients	5-8_dobj	measure	NNS	P1_ingredients
+5-12	in	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	exact	O	O	JJ	O
+5-15	proportions	O	O	NNS	P1_NPart_proportions
+5-16	that	5-19_mark	calls	IN	O
+5-17	the	O	O	DT	O
+5-18	recipe	5-19_nsubj	calls	NN	P1_baking_instructions
+5-19	calls	5-8_ccomp	measure	VBZ	O
+5-20	for	5-19_prep	calls	IN	O
+5-21	.	O	O	O	O
+
+#id=6
+#text=This has to be done very accurately else the cake will not bake properly . 
+6-1	This	6-2_nsubj	has	DT	O
+6-2	has	O	O	VBZ	O
+6-3	to	6-5_aux	done	TO	O
+6-4	be	6-5_auxpass	done	VB	O
+6-5	done	6-2_xcomp	has	VBN	O
+6-6	very	O	O	RB	O
+6-7	accurately	6-5_advmod	done	RB	O
+6-8	else	O	O	RB	O
+6-9	the	O	O	DT	O
+6-10	cake	6-13_nsubj	bake	NN	P1_cake
+6-11	will	6-13_aux	bake	MD	O
+6-12	not	6-13_neg	bake	RB	O
+6-13	bake	O	O	VB	O
+6-14	properly	6-13_advmod	bake	RB	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=Once all the ingredients in the mixing bowl , use the mixer to mix all the ingredients into a nice batter . 
+7-1	Once	7-8_mark	bowl	IN	O
+7-2	all	O	O	PDT	O
+7-3	the	O	O	DT	O
+7-4	ingredients	7-8_nsubj	bowl	NNS	P1_ingredients
+7-5	in	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	mixing	O	O	NN	O
+7-8	bowl	7-10_advcl	use	VBP	P3_utensil
+7-9	,	O	O	O	O
+7-10	use	O	O	VB	O
+7-11	the	O	O	DT	O
+7-12	mixer	7-10_dobj	use	NN	P4_utensil
+7-13	to	7-14_aux	mix	TO	O
+7-14	mix	O	O	VB	O
+7-15	all	O	O	PDT	O
+7-16	the	O	O	DT	O
+7-17	ingredients	7-14_dobj	mix	NNS	P1_ingredients
+7-18	into	O	O	O	O
+7-19	a	O	O	DT	O
+7-20	nice	O	O	JJ	O
+7-21	batter	7-14_prep_into	mix	NN	P1_dough
+7-22	.	O	O	O	O
+
+#id=8
+#text=Be sure to mix until all the lumps are gone . 
+8-1	Be	O	O	VB	O
+8-2	sure	O	O	JJ	O
+8-3	to	8-4_aux	mix	TO	O
+8-4	mix	O	O	VB	O
+8-5	until	8-10_mark	gone	IN	O
+8-6	all	O	O	PDT	O
+8-7	the	O	O	DT	O
+8-8	lumps	8-10_nsubjpass	gone	NN	P1_other
+8-9	are	8-10_auxpass	gone	VBP	O
+8-10	gone	8-4_advcl	mix	VBN	O
+8-11	.	O	O	O	O
+
+#id=9
+#text=Next pre-heat the over to the temperature the recipe calls for . 
+9-1	Next	O	O	JJ	O
+9-2	pre-heat	9-10_nsubj	calls	NN	O
+9-3	the	O	O	DT	O
+9-4	over	9-10_advmod	calls	JJ	P1_oven
+9-5	to	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	temperature	O	O	NN	P1_temperature
+9-8	the	O	O	DT	O
+9-9	recipe	O	O	NN	P1_baking_instructions
+9-10	calls	O	O	VBZ	O
+9-11	for	9-10_prep	calls	IN	O
+9-12	.	O	O	O	O
+
+#id=10
+#text=Once the oven is pre-heated you can pour the cake batter into a cake pan and then put the cake pan into the over . 
+10-1	Once	O	O	IN	O
+10-2	the	O	O	DT	O
+10-3	oven	O	O	NN	P1_oven
+10-4	is	O	O	VBZ	O
+10-5	pre-heated	10-8_advcl	pour	JJ	O
+10-6	you	10-8_nsubj	pour	PRP	P1_cook
+10-7	can	10-8_aux	pour	MD	O
+10-8	pour	O	O	VB	O
+10-9	the	O	O	DT	O
+10-10	cake	O	O	NN	O
+10-11	batter	10-8_dobj	pour	NN	P1_dough
+10-12	into	O	O	O	O
+10-13	a	O	O	DT	O
+10-14	cake	O	O	NN	O
+10-15	pan	10-8_prep_into	pour	NN	P1_cake_tin
+10-16	and	O	O	O	O
+10-17	then	10-18_advmod	put	RB	O
+10-18	put	10-8_conj_and	pour	VB	O
+10-19	the	O	O	DT	O
+10-20	cake	10-21_nsubj	pan	NN	O
+10-21	pan	10-18_ccomp	put	VB	P1_cake_tin
+10-22	into	10-21_prep	pan	IN	O
+10-23	the	O	O	DT	O
+10-24	over	O	O	RB	P1_oven
+10-25	.	O	O	O	O
+
+#id=11
+#text=Set the timer for however long the cake is supposed to bake for and be ready to take out the cake when the timer is done . 
+11-1	Set	O	O	VB	O
+11-2	the	O	O	DT	O
+11-3	timer	11-1_dobj	Set	NN	P1_timer
+11-4	for	11-1_prep	Set	IN	O
+11-5	however	O	O	RB	O
+11-6	long	11-10_advmod	supposed	RB	O
+11-7	the	O	O	DT	O
+11-8	cake	11-10_nsubjpass	supposed	NN	P1_cake
+11-9	is	11-10_auxpass	supposed	VBZ	O
+11-10	supposed	11-1_dep	Set	VBN	O
+11-11	to	11-12_aux	bake	TO	O
+11-12	bake	11-10_xcomp	supposed	VB	O
+11-13	for	11-12_prep	bake	IN	O
+11-14	and	O	O	O	O
+11-15	be	O	O	VB	O
+11-16	ready	11-1_conj_and	Set	JJ	O
+11-17	to	11-18_aux	take	TO	O
+11-18	take	O	O	VB	O
+11-19	out	11-18_prt	take	RP	O
+11-20	the	O	O	DT	O
+11-21	cake	11-18_dobj	take	NN	P1_cake
+11-22	when	11-26_advmod	done	WRB	O
+11-23	the	O	O	DT	O
+11-24	timer	11-26_nsubjpass	done	NN	P1_timer
+11-25	is	11-26_auxpass	done	VBZ	O
+11-26	done	O	O	VBN	O
+11-27	.	O	O	O	O
+
+#id=12
+#text=Be careful when taking the cake out of the oven as the cake and the over will be extremely hot . 
+12-1	Be	O	O	VB	O
+12-2	careful	O	O	JJ	O
+12-3	when	O	O	WRB	O
+12-4	taking	O	O	VBG	O
+12-5	the	O	O	DT	O
+12-6	cake	12-4_dobj	taking	NN	P1_cake
+12-7	out	O	O	O	O
+12-8	of	O	O	O	O
+12-9	the	O	O	DT	O
+12-10	oven	12-4_prep_out_of	taking	NN	P1_oven
+12-11	as	O	O	O	O
+12-12	the	O	O	DT	O
+12-13	cake	O	O	NN	P1_cake
+12-14	and	O	O	O	O
+12-15	the	O	O	DT	O
+12-16	over	O	O	RB	P1_oven
+12-17	will	O	O	MD	O
+12-18	be	O	O	VB	O
+12-19	extremely	O	O	RB	O
+12-20	hot	O	O	JJ	O
+12-21	.	O	O	O	O
+
+#id=13
+#text=Once the cake cools , you can decorate the cake with icing and other toppings for an enjoyable treat ! 
+13-1	Once	13-4_mark	cools	IN	O
+13-2	the	O	O	DT	O
+13-3	cake	13-4_nsubj	cools	NN	P1_cake
+13-4	cools	13-8_advcl	decorate	VBZ	O
+13-5	,	O	O	O	O
+13-6	you	13-8_nsubj	decorate	PRP	P1_cook
+13-7	can	13-8_aux	decorate	MD	O
+13-8	decorate	O	O	VB	O
+13-9	the	O	O	DT	O
+13-10	cake	13-8_dobj	decorate	NN	P1_cake
+13-11	with	O	O	O	O
+13-12	icing	O	O	JJ	P2_ingredients
+13-13	and	O	O	O	O
+13-14	other	O	O	JJ	O
+13-15	toppings	O	O	NNS	P3_ingredients
+13-16	for	O	O	O	O
+13-17	an	O	O	DT	O
+13-18	enjoyable	O	O	JJ	O
+13-19	treat	13-8_prep_for	decorate	NN	P1_NPart_treat
+13-20	!	O	O	O	O

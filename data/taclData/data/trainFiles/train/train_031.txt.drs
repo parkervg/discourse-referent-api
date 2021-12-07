@@ -1,0 +1,273 @@
+#id=1
+#text=Recently , I was heading to New York for a business trip with a co-worker . 
+1-1	Recently	1-5_advmod	heading	RB	O
+1-2	,	O	O	O	O
+1-3	I	1-5_nsubj	heading	PRP	P1_passenger
+1-4	was	1-5_aux	heading	VBD	O
+1-5	heading	O	O	VBG	O
+1-6	to	O	O	O	O
+1-7	New	O	O	NNP	O
+1-8	York	1-5_prep_to	heading	NNP	P1_destination
+1-9	for	O	O	O	O
+1-10	a	O	O	DT	O
+1-11	business	O	O	NN	O
+1-12	trip	O	O	NN	P1_trip
+1-13	with	O	O	O	O
+1-14	a	O	O	DT	O
+1-15	co-worker	1-5_prep_with	heading	NN	P2_passenger
+1-16	.	O	O	O	O
+
+#id=2
+#text=We prefer to ride on trains because they are cheaper and we can enjoy the scenery along the way . 
+2-1	We	2-2_nsubj	prefer	PRP	P3_passenger
+2-2	prefer	O	O	VBP	O
+2-3	to	2-4_aux	ride	TO	O
+2-4	ride	2-2_xcomp	prefer	VB	O
+2-5	on	O	O	O	O
+2-6	trains	2-4_prep_on	ride	NNS	P1_train
+2-7	because	O	O	IN	O
+2-8	they	O	O	PRP	P1_train
+2-9	are	O	O	VBP	O
+2-10	cheaper	2-4_advcl	ride	JJR	O
+2-11	and	O	O	O	O
+2-12	we	2-14_nsubj	enjoy	PRP	P3_passenger
+2-13	can	2-14_aux	enjoy	MD	O
+2-14	enjoy	2-2_conj_and	prefer	VB	O
+2-15	the	O	O	DT	O
+2-16	scenery	2-14_dobj	enjoy	NN	P1_location_train
+2-17	along	O	O	O	O
+2-18	the	O	O	DT	O
+2-19	way	O	O	NN	P1_NPart_way
+2-20	.	O	O	O	O
+
+#id=3
+#text=We arrive at the train station at 5:30 am , snacks and blankets in tow in our bags . 
+3-1	We	3-2_nsubj	arrive	PRP	P3_passenger
+3-2	arrive	O	O	VBP	O
+3-3	at	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	train	O	O	NN	O
+3-6	station	3-2_prep_at	arrive	NN	P1_train_station
+3-7	at	O	O	O	O
+3-8	5:30	O	O	CD	O
+3-9	am	O	O	RB	P1_time_date
+3-10	,	O	O	O	O
+3-11	snacks	O	O	NNS	P1_personal_belongings
+3-12	and	O	O	O	O
+3-13	blankets	O	O	NNS	P2_personal_belongings
+3-14	in	O	O	IN	O
+3-15	tow	O	O	RB	O
+3-16	in	O	O	O	O
+3-17	our	O	O	PRP$	P3_passenger
+3-18	bags	3-2_prep_in	arrive	NNS	P1_luggage
+3-19	.	O	O	O	O
+
+#id=4
+#text=We purchased our tickets the other day , so we did n't have to worry about going to a booth to buy any . 
+4-1	We	4-2_nsubj	purchased	PRP	P3_passenger
+4-2	purchased	O	O	VBD	O
+4-3	our	O	O	PRP$	P3_passenger
+4-4	tickets	4-2_dobj	purchased	NNS	P1_card/ticket
+4-5	the	O	O	DT	O
+4-6	other	O	O	JJ	O
+4-7	day	4-2_tmod	purchased	NN	P2_time_date
+4-8	,	O	O	O	O
+4-9	so	4-2_dep	purchased	IN	O
+4-10	we	4-13_nsubj	have	PRP	P3_passenger
+4-11	did	4-13_aux	have	VBD	O
+4-12	n't	4-13_neg	have	RB	O
+4-13	have	4-2_parataxis	purchased	VB	O
+4-14	to	4-15_aux	worry	TO	O
+4-15	worry	4-13_xcomp	have	VB	O
+4-16	about	O	O	O	O
+4-17	going	4-15_prepc_about	worry	VBG	O
+4-18	to	O	O	O	O
+4-19	a	O	O	DT	O
+4-20	booth	4-17_prep_to	going	NN	P1_ticket_office/website
+4-21	to	4-22_aux	buy	TO	O
+4-22	buy	4-13_xcomp	have	VB	O
+4-23	any	4-22_dobj	buy	DT	O
+4-24	.	O	O	O	O
+
+#id=5
+#text=We went up to the attendant who was taking the train tickets to allow people on board , and we handed him ours . 
+5-1	We	5-2_nsubj	went	PRP	P3_passenger
+5-2	went	O	O	VBD	O
+5-3	up	5-2_prt	went	RP	O
+5-4	to	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	attendant	5-2_prep_to	went	NN	P1_train_staff
+5-7	who	5-9_nsubj	taking	WP	P1_train_staff
+5-8	was	5-9_aux	taking	VBD	O
+5-9	taking	O	O	VBG	O
+5-10	the	O	O	DT	O
+5-11	train	O	O	NN	O
+5-12	tickets	5-9_dobj	taking	NNS	P1_card/ticket
+5-13	to	5-14_aux	allow	TO	O
+5-14	allow	5-9_vmod	taking	VB	O
+5-15	people	5-14_dobj	allow	NNS	P4_passenger
+5-16	on	O	O	O	O
+5-17	board	5-14_prep_on	allow	NN	P1_NPart_board
+5-18	,	O	O	O	O
+5-19	and	O	O	O	O
+5-20	we	5-21_nsubj	handed	PRP	P3_passenger
+5-21	handed	5-2_conj_and	went	VBD	O
+5-22	him	5-21_iobj	handed	PRP	P1_train_staff
+5-23	ours	5-21_dobj	handed	PRP	P1_card/ticket
+5-24	.	O	O	O	O
+
+#id=6
+#text=We hopped onto the train and took our seats towards the back of the train so that we could discuss a lot of what we were going to say and do in the meetings for our trip without being distracted much . 
+6-1	We	6-2_nsubj	hopped	PRP	P3_passenger
+6-2	hopped	O	O	VBD	O
+6-3	onto	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	train	6-2_prep_onto	hopped	NN	P1_train
+6-6	and	O	O	O	O
+6-7	took	6-2_conj_and	hopped	VBD	O
+6-8	our	O	O	PRP$	P3_passenger
+6-9	seats	6-7_dobj	took	NNS	P1_seat
+6-10	towards	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	back	6-7_prep_towards	took	NN	P1_NPart_back
+6-13	of	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	train	O	O	NN	P1_train
+6-16	so	6-20_advmod	discuss	RB	O
+6-17	that	6-20_mark	discuss	IN	O
+6-18	we	6-20_nsubj	discuss	PRP	P3_passenger
+6-19	could	6-20_aux	discuss	MD	O
+6-20	discuss	6-7_advcl	took	VB	O
+6-21	a	O	O	DT	O
+6-22	lot	6-20_dobj	discuss	NN	O
+6-23	of	O	O	O	O
+6-24	what	6-27_dobj	going	WP	P1_NPart_what
+6-25	we	6-27_nsubj	going	PRP	P3_passenger
+6-26	were	6-27_aux	going	VBD	O
+6-27	going	O	O	VBG	O
+6-28	to	6-29_aux	say	TO	O
+6-29	say	6-27_xcomp	going	VB	O
+6-30	and	O	O	O	O
+6-31	do	6-29_conj_and	say	VB	O
+6-32	in	O	O	O	O
+6-33	the	O	O	DT	O
+6-34	meetings	6-29_prep_in	say	NNS	P1_NPart_meetings
+6-35	for	O	O	O	O
+6-36	our	O	O	PRP$	P3_passenger
+6-37	trip	O	O	NN	P1_trip
+6-38	without	O	O	O	O
+6-39	being	6-40_auxpass	distracted	VBG	O
+6-40	distracted	6-29_prepc_without	say	VBN	O
+6-41	much	6-40_advmod	distracted	RB	O
+6-42	.	O	O	O	O
+
+#id=7
+#text=As we discussed our plans and strategies , we 'd occasionally look out the window and see lush trees and valleys , animals , plains , and all manner of environments as we traveled from state to state . 
+7-1	As	7-3_mark	discussed	IN	O
+7-2	we	7-3_nsubj	discussed	PRP	P3_passenger
+7-3	discussed	7-12_advcl	look	VBD	O
+7-4	our	O	O	PRP$	P3_passenger
+7-5	plans	7-3_dobj	discussed	NNS	P1_NPart_plans
+7-6	and	O	O	O	O
+7-7	strategies	O	O	NNS	P1_NPart_strategies
+7-8	,	O	O	O	O
+7-9	we	7-12_nsubj	look	PRP	P3_passenger
+7-10	'd	7-12_aux	look	MD	O
+7-11	occasionally	7-12_advmod	look	RB	O
+7-12	look	O	O	VB	O
+7-13	out	7-12_prt	look	RP	O
+7-14	the	O	O	DT	O
+7-15	window	7-12_dobj	look	NN	P1_in-train_entertainment
+7-16	and	O	O	O	O
+7-17	see	7-12_conj_and	look	VB	O
+7-18	lush	O	O	JJ	O
+7-19	trees	7-17_dobj	see	NNS	P1_NPart_trees
+7-20	and	O	O	O	O
+7-21	valleys	O	O	NNS	P1_NPart_valleys
+7-22	,	O	O	O	O
+7-23	animals	O	O	NNS	P1_NPart_animals
+7-24	,	O	O	O	O
+7-25	plains	O	O	NNS	P1_NPart_plains
+7-26	,	O	O	O	O
+7-27	and	O	O	O	O
+7-28	all	O	O	DT	O
+7-29	manner	O	O	NN	O
+7-30	of	O	O	O	O
+7-31	environments	O	O	NNS	P1_NPart_environments
+7-32	as	7-34_mark	traveled	IN	O
+7-33	we	7-34_nsubj	traveled	PRP	P3_passenger
+7-34	traveled	7-17_advcl	see	VBD	O
+7-35	from	O	O	O	O
+7-36	state	7-34_prep_from	traveled	NN	P1_NPart_state
+7-37	to	O	O	O	O
+7-38	state	7-34_prep_to	traveled	NN	P2_NPart_state
+7-39	.	O	O	O	O
+
+#id=8
+#text=We had to switch trains a few times at different stations , but the process was pretty smooth and it is always nice to hear that whistle and the ALL ABOARD ! 
+8-1	We	8-2_nsubj	had	PRP	P3_passenger
+8-2	had	O	O	VBD	O
+8-3	to	8-4_aux	switch	TO	O
+8-4	switch	8-2_xcomp	had	VB	O
+8-5	trains	8-4_iobj	switch	NNS	P1_train
+8-6	a	O	O	DT	O
+8-7	few	O	O	JJ	O
+8-8	times	8-4_dobj	switch	NNS	O
+8-9	at	O	O	O	O
+8-10	different	O	O	JJ	O
+8-11	stations	8-4_prep_at	switch	NNS	P1_train_station
+8-12	,	O	O	O	O
+8-13	but	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	process	O	O	NN	P1_NPart_process
+8-16	was	O	O	VBD	O
+8-17	pretty	O	O	RB	O
+8-18	smooth	8-2_conj_but	had	JJ	O
+8-19	and	O	O	O	O
+8-20	it	O	O	PRP	O
+8-21	is	O	O	VBZ	O
+8-22	always	O	O	RB	O
+8-23	nice	O	O	JJ	O
+8-24	to	8-25_aux	hear	TO	O
+8-25	hear	O	O	VB	O
+8-26	that	O	O	DT	O
+8-27	whistle	8-25_dobj	hear	NN	P1_NPart_whistle
+8-28	and	O	O	O	O
+8-29	the	O	O	DT	O
+8-30	ALL	O	O	NNP	O
+8-31	ABOARD	O	O	NNP	P1_NPart_aboard
+8-32	!	O	O	O	O
+
+#id=9
+#text=When we arrived at our destination , we got off of the train , exited the train station , and made our way to 52nd Street in our rental car . 
+9-1	When	9-3_advmod	arrived	WRB	O
+9-2	we	9-3_nsubj	arrived	PRP	P3_passenger
+9-3	arrived	9-9_advcl	got	VBD	O
+9-4	at	O	O	O	O
+9-5	our	O	O	PRP$	P3_passenger
+9-6	destination	9-3_prep_at	arrived	NN	P1_destination
+9-7	,	O	O	O	O
+9-8	we	9-9_nsubj	got	PRP	P3_passenger
+9-9	got	O	O	VBD	O
+9-10	off	O	O	O	O
+9-11	of	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	train	9-9_prep_off_of	got	NN	P1_train
+9-14	,	O	O	O	O
+9-15	exited	9-9_conj_and	got	VBD	O
+9-16	the	O	O	DT	O
+9-17	train	O	O	NN	O
+9-18	station	9-15_dobj	exited	NN	P1_train_station
+9-19	,	O	O	O	O
+9-20	and	O	O	O	O
+9-21	made	9-9_conj_and	got	VBD	O
+9-22	our	O	O	PRP$	P3_passenger
+9-23	way	9-21_dobj	made	NN	O
+9-24	to	O	O	O	O
+9-25	52nd	O	O	JJ	O
+9-26	Street	9-21_prep_to	made	NNP	P1_NPart_street
+9-27	in	O	O	O	O
+9-28	our	O	O	PRP$	P3_passenger
+9-29	rental	O	O	JJ	O
+9-30	car	9-21_prep_in	made	NN	P1_NPart_car
+9-31	.	O	O	O	O

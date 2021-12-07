@@ -1,0 +1,293 @@
+#id=1
+#text=I was excited to go home for the holidays last December , but I was less excited about having to take an airplane ! 
+1-1	I	O	O	PRP	P1_passenger
+1-2	was	O	O	VBD	O
+1-3	excited	O	O	JJ	O
+1-4	to	1-5_aux	go	TO	O
+1-5	go	O	O	VB	O
+1-6	home	1-5_dobj	go	NN	P1_target_location
+1-7	for	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	holidays	1-5_prep_for	go	NNS	P1_NPart_holidays
+1-10	last	O	O	JJ	O
+1-11	December	1-5_tmod	go	NNP	P1_NPart_december
+1-12	,	O	O	O	O
+1-13	but	O	O	O	O
+1-14	I	O	O	PRP	P1_passenger
+1-15	was	O	O	VBD	O
+1-16	less	O	O	RBR	O
+1-17	excited	O	O	JJ	O
+1-18	about	O	O	O	O
+1-19	having	O	O	VBG	O
+1-20	to	1-21_aux	take	TO	O
+1-21	take	1-19_xcomp	having	VB	O
+1-22	an	O	O	DT	O
+1-23	airplane	1-21_dobj	take	NN	P1_plane
+1-24	!	O	O	O	O
+
+#id=2
+#text=I normally would drive , but my mother persuaded me to take a plane because she was afraid I would have to drive through snow . 
+2-1	I	2-4_nsubj	drive	PRP	P1_passenger
+2-2	normally	2-4_advmod	drive	RB	O
+2-3	would	2-4_aux	drive	MD	O
+2-4	drive	O	O	VB	O
+2-5	,	O	O	O	O
+2-6	but	O	O	O	O
+2-7	my	O	O	PRP$	P1_passenger
+2-8	mother	2-9_nsubj	persuaded	NN	P1_NPart_mother
+2-9	persuaded	2-4_conj_but	drive	VBD	O
+2-10	me	2-9_dobj	persuaded	PRP	P1_passenger
+2-11	to	2-12_aux	take	TO	O
+2-12	take	2-9_xcomp	persuaded	VB	O
+2-13	a	O	O	DT	O
+2-14	plane	2-12_dobj	take	NN	P2_plane
+2-15	because	O	O	IN	O
+2-16	she	O	O	PRP	P1_NPart_she
+2-17	was	O	O	VBD	O
+2-18	afraid	2-12_advcl	take	JJ	O
+2-19	I	2-21_nsubj	have	PRP	P1_passenger
+2-20	would	2-21_aux	have	MD	O
+2-21	have	O	O	VB	O
+2-22	to	2-23_aux	drive	TO	O
+2-23	drive	2-21_xcomp	have	VB	O
+2-24	through	O	O	O	O
+2-25	snow	2-23_prep_through	drive	NN	P1_NPart_snow
+2-26	.	O	O	O	O
+
+#id=3
+#text=I filled a single suitcase with as many necessities I could fit , because I did not want to have to deal with putting multiple suitcases through the luggage handler . 
+3-1	I	3-2_nsubj	filled	PRP	P1_passenger
+3-2	filled	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	single	O	O	JJ	O
+3-5	suitcase	3-2_dobj	filled	NN	P1_check_in_luggage
+3-6	with	3-2_dep	filled	IN	O
+3-7	as	O	O	O	O
+3-8	many	O	O	JJ	O
+3-9	necessities	3-2_prep_as	filled	NNS	P1_personal_belongings
+3-10	I	3-12_nsubj	fit	PRP	P1_passenger
+3-11	could	3-12_aux	fit	MD	O
+3-12	fit	O	O	VB	O
+3-13	,	O	O	O	O
+3-14	because	3-18_mark	want	IN	O
+3-15	I	3-18_nsubj	want	PRP	P1_passenger
+3-16	did	3-18_aux	want	VBD	O
+3-17	not	3-18_neg	want	RB	O
+3-18	want	3-2_advcl	filled	VB	O
+3-19	to	3-20_aux	have	TO	O
+3-20	have	3-18_xcomp	want	VB	O
+3-21	to	3-22_aux	deal	TO	O
+3-22	deal	3-20_xcomp	have	VB	O
+3-23	with	O	O	O	O
+3-24	putting	3-22_prepc_with	deal	VBG	O
+3-25	multiple	O	O	JJ	O
+3-26	suitcases	3-24_dobj	putting	NNS	P2_check_in_luggage
+3-27	through	O	O	O	O
+3-28	the	O	O	DT	O
+3-29	luggage	O	O	JJ	O
+3-30	handler	3-24_prep_through	putting	NN	P1_institutional_devices
+3-31	.	O	O	O	O
+
+#id=4
+#text=I arrived at the airport and waited in line to check in . 
+4-1	I	4-2_nsubj	arrived	PRP	P1_passenger
+4-2	arrived	O	O	VBD	O
+4-3	at	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	airport	4-2_prep_at	arrived	NN	P1_airport
+4-6	and	O	O	O	O
+4-7	waited	4-2_conj_and	arrived	VBD	O
+4-8	in	O	O	O	O
+4-9	line	4-7_prep_in	waited	NN	O
+4-10	to	4-11_aux	check	TO	O
+4-11	check	4-7_xcomp	waited	VB	O
+4-12	in	4-11_prt	check	RP	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=I let the TSA search me for any contraband that would not be allowed on the plane , and then waited to be allowed to board . 
+5-1	I	5-2_nsubj	let	PRP	P1_passenger
+5-2	let	O	O	VBP	O
+5-3	the	O	O	DT	O
+5-4	TSA	5-5_nsubj	search	NNP	P1_staff
+5-5	search	5-2_ccomp	let	VB	O
+5-6	me	5-5_dobj	search	PRP	P2_passenger
+5-7	for	O	O	O	O
+5-8	any	O	O	DT	O
+5-9	contraband	5-5_prep_for	search	NN	P1_other
+5-10	that	5-14_nsubjpass	allowed	WDT	O
+5-11	would	5-14_aux	allowed	MD	O
+5-12	not	5-14_neg	allowed	RB	O
+5-13	be	5-14_auxpass	allowed	VB	O
+5-14	allowed	O	O	VBN	O
+5-15	on	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	plane	5-14_prep_on	allowed	NN	P1_plane
+5-18	,	O	O	O	O
+5-19	and	O	O	O	O
+5-20	then	5-21_advmod	waited	RB	O
+5-21	waited	5-14_conj_and	allowed	VBD	O
+5-22	to	5-24_aux	allowed	TO	O
+5-23	be	5-24_auxpass	allowed	VB	O
+5-24	allowed	5-21_xcomp	waited	VBN	O
+5-25	to	O	O	O	O
+5-26	board	5-24_prep_to	allowed	NN	O
+5-27	.	O	O	O	O
+
+#id=6
+#text=Once we were let on the plane , I walked over to my seat and shoved my suitcase into the overhead compartment . 
+6-1	Once	6-4_mark	let	IN	O
+6-2	we	6-4_nsubjpass	let	PRP	P3_passenger
+6-3	were	6-4_auxpass	let	VBD	O
+6-4	let	6-10_advcl	walked	VBN	O
+6-5	on	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	plane	6-4_prep_on	let	NN	P1_plane
+6-8	,	O	O	O	O
+6-9	I	6-10_nsubj	walked	PRP	P1_passenger
+6-10	walked	O	O	VBD	O
+6-11	over	6-10_prt	walked	RP	O
+6-12	to	O	O	O	O
+6-13	my	O	O	PRP$	P4_passenger
+6-14	seat	6-10_prep_to	walked	NN	P1_seat
+6-15	and	O	O	O	O
+6-16	shoved	6-10_conj_and	walked	VBD	O
+6-17	my	O	O	PRP$	P1_passenger
+6-18	suitcase	6-16_dobj	shoved	NN	P1_carry_on_luggage
+6-19	into	O	O	O	O
+6-20	the	O	O	DT	O
+6-21	overhead	O	O	JJ	O
+6-22	compartment	6-16_prep_into	shoved	NN	P2_other
+6-23	.	O	O	O	O
+
+#id=7
+#text=Luckily it fit , so I would be able to keep it with me . 
+7-1	Luckily	7-3_advmod	fit	RB	O
+7-2	it	7-3_nsubj	fit	PRP	P1_carry_on_luggage
+7-3	fit	O	O	VBP	O
+7-4	,	O	O	O	O
+7-5	so	7-3_dep	fit	IN	O
+7-6	I	O	O	PRP	P1_passenger
+7-7	would	O	O	MD	O
+7-8	be	O	O	VB	O
+7-9	able	7-3_parataxis	fit	JJ	O
+7-10	to	7-11_aux	keep	TO	O
+7-11	keep	O	O	VB	O
+7-12	it	7-11_dobj	keep	PRP	P1_carry_on_luggage
+7-13	with	O	O	O	O
+7-14	me	7-11_prep_with	keep	PRP	P1_passenger
+7-15	.	O	O	O	O
+
+#id=8
+#text=I snuggled into my seat and tried to ignore the butterflies in my stomach . 
+8-1	I	8-2_nsubj	snuggled	PRP	P1_passenger
+8-2	snuggled	O	O	VBD	O
+8-3	into	O	O	O	O
+8-4	my	O	O	PRP$	P1_passenger
+8-5	seat	8-2_prep_into	snuggled	NN	P2_seat
+8-6	and	O	O	O	O
+8-7	tried	8-2_conj_and	snuggled	VBD	O
+8-8	to	8-9_aux	ignore	TO	O
+8-9	ignore	8-7_xcomp	tried	VB	O
+8-10	the	O	O	DT	O
+8-11	butterflies	8-9_dobj	ignore	NNS	P1_NPart_butterflies
+8-12	in	O	O	O	O
+8-13	my	O	O	PRP$	P1_passenger
+8-14	stomach	8-9_prep_in	ignore	NN	P1_NPart_stomach
+8-15	.	O	O	O	O
+
+#id=9
+#text=Flying always makes me nervous . 
+9-1	Flying	9-3_nsubj	makes	NNP	O
+9-2	always	9-3_advmod	makes	RB	O
+9-3	makes	O	O	VBZ	O
+9-4	me	O	O	PRP	P1_passenger
+9-5	nervous	9-3_xcomp	makes	JJ	O
+9-6	.	O	O	O	O
+
+#id=10
+#text=The person seated directly next to me was a middle aged woman flying alone . 
+10-1	The	O	O	DT	O
+10-2	person	O	O	NN	P5_passenger
+10-3	seated	O	O	VBN	O
+10-4	directly	10-3_advmod	seated	RB	O
+10-5	next	O	O	O	O
+10-6	to	O	O	O	O
+10-7	me	10-3_prep_next_to	seated	PRP	P1_passenger
+10-8	was	O	O	VBD	O
+10-9	a	O	O	DT	O
+10-10	middle	O	O	JJ	O
+10-11	aged	O	O	JJ	O
+10-12	woman	O	O	NN	P5_passenger
+10-13	flying	O	O	VBG	O
+10-14	alone	10-13_advmod	flying	RB	O
+10-15	.	O	O	O	O
+
+#id=11
+#text=She gave me a sympathetic smile and asked me if I was as nervous as she was . 
+11-1	She	11-2_nsubj	gave	PRP	P5_passenger
+11-2	gave	O	O	VBD	O
+11-3	me	11-2_iobj	gave	PRP	P1_passenger
+11-4	a	O	O	DT	O
+11-5	sympathetic	O	O	JJ	O
+11-6	smile	11-2_dobj	gave	NN	P1_NPart_smile
+11-7	and	O	O	O	O
+11-8	asked	11-2_conj_and	gave	VBD	O
+11-9	me	11-8_dobj	asked	PRP	P1_passenger
+11-10	if	O	O	IN	O
+11-11	I	O	O	PRP	P1_passenger
+11-12	was	O	O	VBD	O
+11-13	as	O	O	RB	O
+11-14	nervous	11-8_advcl	asked	JJ	O
+11-15	as	11-17_mark	was	IN	O
+11-16	she	11-17_nsubj	was	PRP	P5_passenger
+11-17	was	O	O	VBD	O
+11-18	.	O	O	O	O
+
+#id=12
+#text=I said yes , and I think we both felt better that at least we would be good seatmates . 
+12-1	I	12-2_nsubj	said	PRP	P1_passenger
+12-2	said	O	O	VBD	O
+12-3	yes	12-2_discourse	said	UH	O
+12-4	,	O	O	O	O
+12-5	and	O	O	O	O
+12-6	I	12-7_nsubj	think	PRP	P1_passenger
+12-7	think	12-2_conj_and	said	VBP	O
+12-8	we	12-10_nsubj	felt	PRP	P6_passenger
+12-9	both	12-10_dep	felt	DT	O
+12-10	felt	12-7_ccomp	think	VBD	O
+12-11	better	12-10_advmod	felt	RBR	O
+12-12	that	O	O	IN	O
+12-13	at	O	O	IN	O
+12-14	least	O	O	JJS	O
+12-15	we	O	O	PRP	P7_passenger
+12-16	would	O	O	MD	O
+12-17	be	O	O	VB	O
+12-18	good	O	O	JJ	O
+12-19	seatmates	12-10_ccomp	felt	NNS	P8_passenger
+12-20	.	O	O	O	O
+
+#id=13
+#text=The plane ride was uneventful ; after five hours in the air , we landed at our destination in one piece . 
+13-1	The	O	O	DT	O
+13-2	plane	O	O	NN	O
+13-3	ride	O	O	NN	P1_flight
+13-4	was	O	O	VBD	O
+13-5	uneventful	O	O	JJ	O
+13-6	;	O	O	O	O
+13-7	after	O	O	O	O
+13-8	five	O	O	CD	O
+13-9	hours	13-15_prep_after	landed	NNS	P1_time/date
+13-10	in	O	O	O	O
+13-11	the	O	O	DT	O
+13-12	air	O	O	NN	P1_location_airplane
+13-13	,	O	O	O	O
+13-14	we	13-15_nsubj	landed	PRP	P1_plane
+13-15	landed	O	O	VBD	O
+13-16	at	O	O	O	O
+13-17	our	O	O	PRP$	P1_plane
+13-18	destination	13-15_prep_at	landed	NN	P2_target_location
+13-19	in	O	O	O	O
+13-20	one	O	O	CD	O
+13-21	piece	13-15_prep_in	landed	NN	P1_NPart_piece
+13-22	.	O	O	O	O

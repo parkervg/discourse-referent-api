@@ -1,0 +1,341 @@
+#id=1
+#text=How you take a bath varies a bit with what type of bathing facilities you have . 
+1-1	How	1-3_advmod	take	WRB	O
+1-2	you	1-3_nsubj	take	PRP	P1_bather
+1-3	take	1-16_advcl	have	VBP	O
+1-4	a	O	O	DT	O
+1-5	bath	1-6_nsubj	varies	NN	P1_bath
+1-6	varies	1-3_ccomp	take	VBZ	O
+1-7	a	O	O	DT	O
+1-8	bit	1-6_dobj	varies	NN	O
+1-9	with	O	O	O	O
+1-10	what	O	O	WP	O
+1-11	type	1-6_prep_with	varies	NN	O
+1-12	of	O	O	O	O
+1-13	bathing	O	O	NN	O
+1-14	facilities	O	O	NNS	P1_bathtub
+1-15	you	1-16_nsubj	have	PRP	P1_bather
+1-16	have	O	O	VBP	O
+1-17	.	O	O	O	O
+
+#id=2
+#text=I 'm going to describe the typical definition of a bath . 
+2-1	I	2-3_nsubj	going	PRP	P1_bather
+2-2	'm	2-3_aux	going	VBP	O
+2-3	going	O	O	VBG	O
+2-4	to	2-5_aux	describe	TO	O
+2-5	describe	2-3_xcomp	going	VB	O
+2-6	the	O	O	DT	O
+2-7	typical	O	O	JJ	O
+2-8	definition	2-5_dobj	describe	NN	O
+2-9	of	O	O	O	O
+2-10	a	O	O	DT	O
+2-11	bath	O	O	NN	P1_bath
+2-12	.	O	O	O	O
+
+#id=3
+#text=Go to your tub and take the shower curtain out of the tub if it is inside it . 
+3-1	Go	O	O	VB	O
+3-2	to	O	O	O	O
+3-3	your	O	O	PRP$	P1_bather
+3-4	tub	3-1_prep_to	Go	NN	P2_bathtub
+3-5	and	O	O	O	O
+3-6	take	3-1_conj_and	Go	VB	O
+3-7	the	O	O	DT	O
+3-8	shower	O	O	NN	O
+3-9	curtain	3-6_dobj	take	NN	P1_other
+3-10	out	O	O	O	O
+3-11	of	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	tub	3-6_prep_out_of	take	NN	P2_bathtub
+3-14	if	O	O	IN	O
+3-15	it	O	O	PRP	P1_other
+3-16	is	O	O	VBZ	O
+3-17	inside	O	O	RB	O
+3-18	it	3-6_advcl	take	PRP	P2_bathtub
+3-19	.	O	O	O	O
+
+#id=4
+#text=You do n't want it to get wet ! 
+4-1	You	4-4_nsubj	want	PRP	P1_bather
+4-2	do	4-4_aux	want	VBP	O
+4-3	n't	4-4_neg	want	RB	O
+4-4	want	O	O	VB	O
+4-5	it	4-4_dobj	want	PRP	P1_other
+4-6	to	O	O	TO	O
+4-7	get	O	O	VB	O
+4-8	wet	4-4_xcomp	want	JJ	O
+4-9	!	O	O	O	O
+
+#id=5
+#text=Before you close the drain you should turn on the water and let it run for a little bit so you can get it to the right temperature before you start filling the tub . 
+5-1	Before	5-3_mark	close	IN	O
+5-2	you	5-3_nsubj	close	PRP	P1_bather
+5-3	close	5-8_advcl	turn	VB	O
+5-4	the	O	O	DT	O
+5-5	drain	5-3_dobj	close	NN	P1_drain
+5-6	you	5-8_nsubj	turn	PRP	P1_bather
+5-7	should	5-8_aux	turn	MD	O
+5-8	turn	O	O	VB	O
+5-9	on	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	water	5-8_prep_on	turn	NN	P1_water
+5-12	and	O	O	O	O
+5-13	let	5-8_conj_and	turn	VB	O
+5-14	it	5-15_nsubj	run	PRP	P1_water
+5-15	run	5-13_ccomp	let	VB	O
+5-16	for	O	O	O	O
+5-17	a	O	O	DT	O
+5-18	little	O	O	JJ	O
+5-19	bit	5-15_prep_for	run	NN	O
+5-20	so	5-23_mark	get	IN	O
+5-21	you	5-23_nsubj	get	PRP	P1_bather
+5-22	can	5-23_aux	get	MD	O
+5-23	get	5-15_advcl	run	VB	O
+5-24	it	5-23_dobj	get	PRP	P1_water
+5-25	to	O	O	O	O
+5-26	the	O	O	DT	O
+5-27	right	O	O	JJ	O
+5-28	temperature	5-23_prep_to	get	NN	P1_temperature
+5-29	before	5-31_mark	start	IN	O
+5-30	you	5-31_nsubj	start	PRP	P1_bather
+5-31	start	5-23_advcl	get	VBP	O
+5-32	filling	5-31_xcomp	start	VBG	O
+5-33	the	O	O	DT	O
+5-34	tub	5-32_dobj	filling	NN	P2_bathtub
+5-35	.	O	O	O	O
+
+#id=6
+#text=If you have somewhere to store the water you can place a bucket under the warming water and use it for another purpose . 
+6-1	If	6-3_mark	have	IN	O
+6-2	you	6-3_nsubj	have	PRP	P1_bather
+6-3	have	6-11_advcl	place	VBP	O
+6-4	somewhere	6-3_advmod	have	RB	O
+6-5	to	6-6_aux	store	TO	O
+6-6	store	6-3_xcomp	have	VB	O
+6-7	the	O	O	DT	O
+6-8	water	6-6_dobj	store	NN	P1_water
+6-9	you	6-11_nsubj	place	PRP	P1_bather
+6-10	can	6-11_aux	place	MD	O
+6-11	place	O	O	VB	O
+6-12	a	O	O	DT	O
+6-13	bucket	6-11_dobj	place	NN	P1_NPart_bucket
+6-14	under	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	warming	O	O	NN	O
+6-17	water	6-11_prep_under	place	NN	P1_water
+6-18	and	O	O	O	O
+6-19	use	6-11_conj_and	place	VB	O
+6-20	it	6-19_dobj	use	PRP	P1_water
+6-21	for	O	O	O	O
+6-22	another	O	O	DT	O
+6-23	purpose	6-19_prep_for	use	NN	P1_NPart_purpose
+6-24	.	O	O	O	O
+
+#id=7
+#text=Conservation ! 
+7-1	Conservation	O	O	O	O
+7-2	!	O	O	O	O
+
+#id=8
+#text=Once the water coming from the tap is at the temperature you like you can place the stopper in the drain and start filling the tub . 
+8-1	Once	8-8_mark	is	IN	O
+8-2	the	O	O	DT	O
+8-3	water	8-8_nsubj	is	NN	P1_water
+8-4	coming	O	O	VBG	O
+8-5	from	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	tap	8-4_prep_from	coming	NN	P1_tap
+8-8	is	8-13_advcl	like	VBZ	O
+8-9	at	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	temperature	8-8_prep_at	is	NN	P1_temperature
+8-12	you	8-13_nsubj	like	PRP	P1_bather
+8-13	like	O	O	VBP	O
+8-14	you	8-16_nsubj	place	PRP	P1_bather
+8-15	can	8-16_aux	place	MD	O
+8-16	place	8-13_ccomp	like	VB	O
+8-17	the	O	O	DT	O
+8-18	stopper	8-16_dobj	place	NN	P1_plug
+8-19	in	O	O	O	O
+8-20	the	O	O	DT	O
+8-21	drain	O	O	NN	P1_drain
+8-22	and	O	O	O	O
+8-23	start	8-16_conj_and	place	VB	O
+8-24	filling	8-23_xcomp	start	VBG	O
+8-25	the	O	O	DT	O
+8-26	tub	8-24_dobj	filling	NN	P2_bathtub
+8-27	.	O	O	O	O
+
+#id=9
+#text=Make sure you do n't fill the tub all the way to the top because the water will displace once you get into the tub . 
+9-1	Make	O	O	VB	O
+9-2	sure	9-1_acomp	Make	JJ	O
+9-3	you	9-6_nsubj	fill	PRP	P1_bather
+9-4	do	9-6_aux	fill	VBP	O
+9-5	n't	9-6_neg	fill	RB	O
+9-6	fill	O	O	VB	O
+9-7	the	O	O	DT	O
+9-8	tub	9-6_dobj	fill	NN	P2_bathtub
+9-9	all	9-6_advmod	fill	RB	O
+9-10	the	O	O	DT	O
+9-11	way	O	O	NN	O
+9-12	to	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	top	O	O	NN	P1_NPart_top
+9-15	because	9-19_mark	displace	IN	O
+9-16	the	O	O	DT	O
+9-17	water	9-19_nsubj	displace	NN	P1_water
+9-18	will	9-19_aux	displace	MD	O
+9-19	displace	9-6_advcl	fill	VB	O
+9-20	once	9-22_mark	get	IN	O
+9-21	you	9-22_nsubj	get	PRP	P1_bather
+9-22	get	9-19_advcl	displace	VBP	O
+9-23	into	O	O	O	O
+9-24	the	O	O	DT	O
+9-25	tub	9-22_prep_into	get	NN	P2_bathtub
+9-26	.	O	O	O	O
+
+#id=10
+#text=You can also get in as the tub is filling so you can make a better judgment about when to turn off the water . 
+10-1	You	10-4_nsubj	get	PRP	P1_bather
+10-2	can	10-4_aux	get	MD	O
+10-3	also	10-4_advmod	get	RB	O
+10-4	get	O	O	VB	O
+10-5	in	10-4_prt	get	RP	O
+10-6	as	10-10_mark	filling	IN	O
+10-7	the	O	O	DT	O
+10-8	tub	10-10_nsubj	filling	NN	P2_bathtub
+10-9	is	10-10_aux	filling	VBZ	O
+10-10	filling	10-4_advcl	get	VBG	O
+10-11	so	10-14_mark	make	IN	O
+10-12	you	10-14_nsubj	make	PRP	P1_bather
+10-13	can	10-14_aux	make	MD	O
+10-14	make	10-10_advcl	filling	VB	O
+10-15	a	O	O	DT	O
+10-16	better	O	O	JJR	O
+10-17	judgment	10-14_dobj	make	NN	O
+10-18	about	O	O	O	O
+10-19	when	10-21_advmod	turn	WRB	O
+10-20	to	10-21_aux	turn	TO	O
+10-21	turn	10-14_prepc_about	make	VB	O
+10-22	off	10-21_prt	turn	RP	O
+10-23	the	O	O	DT	O
+10-24	water	10-21_dobj	turn	NN	P1_water
+10-25	.	O	O	O	O
+
+#id=11
+#text=While you are in the tub you should take a wash cloth and soap or bodywash to give yourself a good scrub down . 
+11-1	While	11-3_mark	are	IN	O
+11-2	you	11-3_nsubj	are	PRP	P1_bather
+11-3	are	11-9_advcl	take	VBP	O
+11-4	in	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	tub	11-3_prep_in	are	NN	P2_bathtub
+11-7	you	11-9_nsubj	take	PRP	P1_bather
+11-8	should	11-9_aux	take	MD	O
+11-9	take	O	O	VB	O
+11-10	a	O	O	DT	O
+11-11	wash	O	O	NN	O
+11-12	cloth	11-9_dobj	take	NN	P1_washing_tools
+11-13	and	O	O	O	O
+11-14	soap	O	O	NN	P2_washing_tools
+11-15	or	O	O	O	O
+11-16	bodywash	11-9_conj_or	take	VB	P3_washing_tools
+11-17	to	11-18_aux	give	TO	O
+11-18	give	11-16_xcomp	bodywash	VB	O
+11-19	yourself	11-18_iobj	give	PRP	P1_bather
+11-20	a	O	O	DT	O
+11-21	good	O	O	JJ	O
+11-22	scrub	11-18_dobj	give	NN	O
+11-23	down	O	O	RP	O
+11-24	.	O	O	O	O
+
+#id=12
+#text=If you need to wash your hair it is often better to do it after your bath . 
+12-1	If	12-3_mark	need	IN	O
+12-2	you	12-3_nsubj	need	PRP	P1_bather
+12-3	need	O	O	VBP	O
+12-4	to	12-5_aux	wash	TO	O
+12-5	wash	12-3_xcomp	need	VB	O
+12-6	your	O	O	PRP$	P1_bather
+12-7	hair	12-5_dobj	wash	NN	P1_hair
+12-8	it	O	O	PRP	O
+12-9	is	O	O	VBZ	O
+12-10	often	O	O	RB	O
+12-11	better	O	O	JJR	O
+12-12	to	12-13_aux	do	TO	O
+12-13	do	O	O	VB	O
+12-14	it	12-13_dobj	do	PRP	O
+12-15	after	O	O	O	O
+12-16	your	O	O	PRP$	P1_bather
+12-17	bath	12-13_prep_after	do	NN	P1_bath
+12-18	.	O	O	O	O
+
+#id=13
+#text=You can put the shampoo in your hair and as the tub empties place your head under the faucet to rinse out the soap . 
+13-1	You	13-3_nsubj	put	PRP	P1_bather
+13-2	can	13-3_aux	put	MD	O
+13-3	put	13-3_conj_and	put	VB	O
+13-4	the	O	O	DT	O
+13-5	shampoo	13-3_dobj	put	NN	P4_washing_tools
+13-6	in	O	O	O	O
+13-7	your	O	O	PRP$	P1_bather
+13-8	hair	13-3_prep_in	put	NN	P1_hair
+13-9	and	O	O	O	O
+13-10	as	O	O	O	O
+13-11	the	O	O	DT	O
+13-12	tub	O	O	NN	P2_bathtub
+13-13	empties	O	O	NNS	O
+13-14	place	13-3_prep_as	put	NN	O
+13-15	your	O	O	PRP$	P1_bather
+13-16	head	13-3_pobj	put	NN	P1_body_part
+13-17	under	O	O	O	O
+13-18	the	O	O	DT	O
+13-19	faucet	13-3_prep_under	put	NN	P1_tap
+13-20	to	13-21_aux	rinse	TO	O
+13-21	rinse	O	O	VB	O
+13-22	out	13-21_prt	rinse	RP	O
+13-23	the	O	O	DT	O
+13-24	soap	13-21_dobj	rinse	NN	P2_washing_tools
+13-25	.	O	O	O	O
+
+#id=14
+#text=Enjoy your bath ! 
+14-1	Enjoy	O	O	RB	O
+14-2	your	O	O	PRP$	P1_bather
+14-3	bath	O	O	NN	P1_bath
+14-4	!	O	O	O	O
+
+#id=15
+#text=, This one was a little tough . 
+15-1	,	O	O	O	O
+15-2	This	O	O	DT	O
+15-3	one	O	O	PRP	O
+15-4	was	O	O	VBD	O
+15-5	a	O	O	DT	O
+15-6	little	O	O	RB	O
+15-7	tough	O	O	JJ	O
+15-8	.	O	O	O	O
+
+#id=16
+#text=I was n't sure how much detail to go into about taking the bath versus setting up the bath 
+16-1	I	O	O	PRP	P1_bather
+16-2	was	O	O	VBD	O
+16-3	n't	O	O	RB	O
+16-4	sure	O	O	JJ	O
+16-5	how	O	O	WRB	O
+16-6	much	O	O	JJ	O
+16-7	detail	O	O	NN	P1_NPart_detail
+16-8	to	16-9_aux	go	TO	O
+16-9	go	O	O	VB	O
+16-10	into	16-9_prep	go	IN	O
+16-11	about	O	O	IN	O
+16-12	taking	O	O	VBG	O
+16-13	the	O	O	DT	O
+16-14	bath	16-12_dobj	taking	NN	P1_bath
+16-15	versus	O	O	O	O
+16-16	setting	O	O	VBG	O
+16-17	up	16-16_prt	setting	RP	O
+16-18	the	O	O	DT	O
+16-19	bath	16-16_dobj	setting	NN	P1_bath

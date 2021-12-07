@@ -1,0 +1,196 @@
+#id=1
+#text=I was riding down the sidewalk and noticed that my bicycle tire had gone flat . 
+1-1	I	1-3_nsubj	riding	PRP	P1_rider
+1-2	was	1-3_aux	riding	VBD	O
+1-3	riding	O	O	VBG	O
+1-4	down	1-3_prt	riding	RP	O
+1-5	the	O	O	DT	O
+1-6	sidewalk	1-3_dobj	riding	NN	P1_NPart_sidewalk
+1-7	and	O	O	O	O
+1-8	noticed	1-3_conj_and	riding	VBD	O
+1-9	that	1-14_mark	gone	IN	O
+1-10	my	O	O	PRP$	P1_rider
+1-11	bicycle	O	O	NN	O
+1-12	tire	1-14_nsubj	gone	NN	P1_tire
+1-13	had	1-14_aux	gone	VBD	O
+1-14	gone	1-8_ccomp	noticed	VBN	O
+1-15	flat	1-14_acomp	gone	JJ	O
+1-16	.	O	O	O	O
+
+#id=2
+#text=I took my bike home and attempted to put air in the tire . 
+2-1	I	2-2_nsubj	took	PRP	P1_rider
+2-2	took	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_rider
+2-4	bike	O	O	NN	P1_bicycle
+2-5	home	2-2_dobj	took	NN	P1_NPart_home
+2-6	and	O	O	O	O
+2-7	attempted	2-2_conj_and	took	VBD	O
+2-8	to	2-9_aux	put	TO	O
+2-9	put	2-7_xcomp	attempted	VB	O
+2-10	air	2-9_dobj	put	NN	P1_air
+2-11	in	O	O	O	O
+2-12	the	O	O	DT	O
+2-13	tire	2-9_prep_in	put	NN	P1_tire
+2-14	.	O	O	O	O
+
+#id=3
+#text=I noticed a hissing noise coming from the tire and realized that it had a hole in it . 
+3-1	I	3-2_nsubj	noticed	PRP	P1_rider
+3-2	noticed	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	hissing	O	O	VBG	O
+3-5	noise	3-2_dobj	noticed	NN	P1_NPart_noise
+3-6	coming	O	O	VBG	O
+3-7	from	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	tire	3-6_prep_from	coming	NN	P1_tire
+3-10	and	O	O	O	O
+3-11	realized	3-2_conj_and	noticed	VBD	O
+3-12	that	3-14_mark	had	IN	O
+3-13	it	3-14_nsubj	had	PRP	P1_tire
+3-14	had	3-11_ccomp	realized	VBD	O
+3-15	a	O	O	DT	O
+3-16	hole	3-14_dobj	had	NN	P1_object_damage
+3-17	in	O	O	O	O
+3-18	it	O	O	PRP	P1_tire
+3-19	.	O	O	O	O
+
+#id=4
+#text=I had a can of tire patch on the shelf in the garage . 
+4-1	I	4-2_nsubj	had	PRP	P1_rider
+4-2	had	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	can	4-2_dobj	had	NN	P1_NPart_can
+4-5	of	O	O	O	O
+4-6	tire	O	O	NN	O
+4-7	patch	O	O	NN	P1_patch
+4-8	on	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	shelf	4-2_prep_on	had	NN	P1_other
+4-11	in	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	garage	O	O	NN	P1_location_repair
+4-14	.	O	O	O	O
+
+#id=5
+#text=I took a screwdriver and loosened the tire from the metal rim of the bicycle . 
+5-1	I	5-2_nsubj	took	PRP	P1_rider
+5-2	took	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	screwdriver	5-2_dobj	took	NN	P1_tool
+5-5	and	O	O	O	O
+5-6	loosened	5-2_conj_and	took	VBN	O
+5-7	the	O	O	DT	O
+5-8	tire	5-6_dobj	loosened	NN	P1_tire
+5-9	from	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	metal	O	O	NN	O
+5-12	rim	5-6_prep_from	loosened	NN	P1_rim
+5-13	of	O	O	O	O
+5-14	the	O	O	DT	O
+5-15	bicycle	O	O	NN	P1_bicycle
+5-16	.	O	O	O	O
+
+#id=6
+#text=After I got the tire off , I opened the can of tire patch and , with a wooden spatula , I applied some of the black tire patch to the inside of the tire where the hole was . 
+6-1	After	6-3_mark	got	IN	O
+6-2	I	6-3_nsubj	got	PRP	P1_rider
+6-3	got	6-9_advcl	opened	VBD	O
+6-4	the	O	O	DT	O
+6-5	tire	6-3_dobj	got	NN	P1_tire
+6-6	off	6-3_prt	got	RP	O
+6-7	,	O	O	O	O
+6-8	I	6-9_nsubj	opened	PRP	P1_rider
+6-9	opened	O	O	VBD	O
+6-10	the	O	O	DT	O
+6-11	can	6-9_dobj	opened	NN	P2_NPart_can
+6-12	of	O	O	O	O
+6-13	tire	O	O	NN	O
+6-14	patch	O	O	NN	P1_patch
+6-15	and	O	O	O	O
+6-16	,	O	O	O	O
+6-17	with	O	O	O	O
+6-18	a	O	O	DT	O
+6-19	wooden	O	O	JJ	O
+6-20	spatula	6-23_prep_with	applied	NN	P2_tool
+6-21	,	O	O	O	O
+6-22	I	6-23_nsubj	applied	PRP	P1_rider
+6-23	applied	6-9_conj_and	opened	VBD	O
+6-24	some	6-23_dobj	applied	DT	O
+6-25	of	O	O	O	O
+6-26	the	O	O	DT	O
+6-27	black	O	O	JJ	O
+6-28	tire	O	O	NN	O
+6-29	patch	O	O	NN	P1_patch
+6-30	to	O	O	O	O
+6-31	the	O	O	DT	O
+6-32	inside	6-23_prep_to	applied	NN	P1_NPart_inside
+6-33	of	O	O	O	O
+6-34	the	O	O	DT	O
+6-35	tire	O	O	NN	P1_tire
+6-36	where	6-39_advmod	was	WRB	O
+6-37	the	O	O	DT	O
+6-38	hole	6-39_nsubj	was	NN	P1_object_damage
+6-39	was	6-23_advcl	applied	VBD	O
+6-40	.	O	O	O	O
+
+#id=7
+#text=I allowed it to dry for a few hours . 
+7-1	I	7-2_nsubj	allowed	PRP	P1_rider
+7-2	allowed	O	O	VBD	O
+7-3	it	7-2_dobj	allowed	PRP	P1_patch
+7-4	to	7-5_aux	dry	TO	O
+7-5	dry	7-2_xcomp	allowed	VB	O
+7-6	for	O	O	O	O
+7-7	a	O	O	DT	O
+7-8	few	O	O	JJ	O
+7-9	hours	7-5_prep_for	dry	NNS	P1_NPart_hours
+7-10	.	O	O	O	O
+
+#id=8
+#text=I put the rubber tire back on the tire rim , and added air . 
+8-1	I	8-2_nsubj	put	PRP	P1_rider
+8-2	put	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	rubber	O	O	NN	O
+8-5	tire	8-2_dobj	put	NN	P1_tire
+8-6	back	8-2_prt	put	RP	O
+8-7	on	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	tire	O	O	NN	O
+8-10	rim	8-2_prep_on	put	NN	P1_rim
+8-11	,	O	O	O	O
+8-12	and	O	O	O	O
+8-13	added	8-2_conj_and	put	VBD	O
+8-14	air	8-13_dobj	added	NN	P1_air
+8-15	.	O	O	O	O
+
+#id=9
+#text=The tire held air and there was no longer a hissing noise . 
+9-1	The	O	O	DT	O
+9-2	tire	9-3_nsubj	held	NN	P1_tire
+9-3	held	O	O	VBD	O
+9-4	air	9-3_dobj	held	NN	P1_air
+9-5	and	O	O	O	O
+9-6	there	9-7_expl	was	EX	O
+9-7	was	9-3_conj_and	held	VBD	O
+9-8	no	O	O	RB	O
+9-9	longer	9-7_advmod	was	RB	O
+9-10	a	O	O	DT	O
+9-11	hissing	O	O	JJ	O
+9-12	noise	9-7_nsubj	was	NN	P2_NPart_noise
+9-13	.	O	O	O	O
+
+#id=10
+#text=I hope my repair holds for a long while . 
+10-1	I	10-2_nsubj	hope	PRP	P1_rider
+10-2	hope	O	O	VBP	O
+10-3	my	O	O	PRP$	P1_rider
+10-4	repair	10-5_nsubj	holds	NN	P1_NPart_repair
+10-5	holds	10-2_ccomp	hope	VBZ	O
+10-6	for	O	O	O	O
+10-7	a	O	O	DT	O
+10-8	long	O	O	JJ	O
+10-9	while	10-5_prep_for	holds	NN	O
+10-10	.	O	O	O	O

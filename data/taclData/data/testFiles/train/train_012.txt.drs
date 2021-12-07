@@ -1,0 +1,432 @@
+#id=1
+#text=To go on a train ride to Chicago , I had to have a ticket . 
+1-1	To	1-2_aux	go	TO	O
+1-2	go	1-11_advcl	had	VB	O
+1-3	on	O	O	O	O
+1-4	a	O	O	DT	O
+1-5	train	O	O	NN	O
+1-6	ride	1-2_prep_on	go	NN	P1_trip
+1-7	to	O	O	O	O
+1-8	Chicago	1-2_prep_to	go	NNP	P1_destination
+1-9	,	O	O	O	O
+1-10	I	1-11_nsubj	had	PRP	P1_passenger
+1-11	had	O	O	VBD	O
+1-12	to	1-13_aux	have	TO	O
+1-13	have	1-11_xcomp	had	VB	O
+1-14	a	O	O	DT	O
+1-15	ticket	1-13_dobj	have	NN	P1_card/ticket
+1-16	.	O	O	O	O
+
+#id=2
+#text=It is possible to buy tickets online , but it was fun to go to the train station to get them . 
+2-1	It	O	O	PRP	O
+2-2	is	O	O	VBZ	O
+2-3	possible	O	O	JJ	O
+2-4	to	2-5_aux	buy	TO	O
+2-5	buy	O	O	VB	O
+2-6	tickets	2-5_dobj	buy	NNS	P2_card/ticket
+2-7	online	2-5_prep	buy	NN	P1_NPart_online
+2-8	,	O	O	O	O
+2-9	but	O	O	O	O
+2-10	it	O	O	PRP	O
+2-11	was	O	O	VBD	O
+2-12	fun	O	O	NN	O
+2-13	to	2-14_aux	go	TO	O
+2-14	go	O	O	VB	O
+2-15	to	O	O	O	O
+2-16	the	O	O	DT	O
+2-17	train	O	O	NN	O
+2-18	station	2-14_prep_to	go	NN	P1_train_station
+2-19	to	2-20_aux	get	TO	O
+2-20	get	2-14_xcomp	go	VB	O
+2-21	them	2-20_dobj	get	PRP	P2_card/ticket
+2-22	.	O	O	O	O
+
+#id=3
+#text=At the train station , I got in line and waited my turn . 
+3-1	At	O	O	O	O
+3-2	the	O	O	DT	O
+3-3	train	O	O	NN	O
+3-4	station	3-7_prep_at	got	NN	P1_train_station
+3-5	,	O	O	O	O
+3-6	I	3-7_nsubj	got	PRP	P1_passenger
+3-7	got	O	O	VBD	O
+3-8	in	O	O	O	O
+3-9	line	3-7_prep_in	got	NN	P1_line
+3-10	and	O	O	O	O
+3-11	waited	3-7_conj_and	got	VBD	O
+3-12	my	O	O	PRP$	P1_passenger
+3-13	turn	3-11_dobj	waited	NN	O
+3-14	.	O	O	O	O
+
+#id=4
+#text=When I got to the window , I told the station agent where I wanted to go , when , and what kind of ticket I wanted . 
+4-1	When	4-3_advmod	got	WRB	O
+4-2	I	4-3_nsubj	got	PRP	P1_passenger
+4-3	got	4-9_advcl	told	VBD	O
+4-4	to	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	window	4-3_prep_to	got	NN	P1_location_train
+4-7	,	O	O	O	O
+4-8	I	4-9_nsubj	told	PRP	P1_passenger
+4-9	told	O	O	VBD	O
+4-10	the	O	O	DT	O
+4-11	station	O	O	NN	O
+4-12	agent	4-9_dobj	told	NN	P1_NPart_agent
+4-13	where	4-15_advmod	wanted	WRB	O
+4-14	I	4-15_nsubj	wanted	PRP	P1_passenger
+4-15	wanted	4-9_ccomp	told	VBD	O
+4-16	to	4-17_aux	go	TO	O
+4-17	go	4-15_xcomp	wanted	VB	O
+4-18	,	O	O	O	O
+4-19	when	4-17_discourse	go	WRB	O
+4-20	,	O	O	O	O
+4-21	and	O	O	O	O
+4-22	what	O	O	WP	O
+4-23	kind	4-27_dobj	wanted	NN	O
+4-24	of	O	O	O	O
+4-25	ticket	O	O	NN	P1_card/ticket
+4-26	I	4-27_nsubj	wanted	PRP	P1_passenger
+4-27	wanted	4-15_conj_and	wanted	VBD	O
+4-28	.	O	O	O	O
+
+#id=5
+#text=She told me how much I had to pay . 
+5-1	She	5-2_nsubj	told	PRP	P1_NPart_she
+5-2	told	O	O	VBD	O
+5-3	me	5-2_dobj	told	PRP	P1_passenger
+5-4	how	O	O	WRB	O
+5-5	much	5-7_dep	had	JJ	O
+5-6	I	5-7_nsubj	had	PRP	P1_passenger
+5-7	had	5-2_dep	told	VBD	O
+5-8	to	5-9_aux	pay	TO	O
+5-9	pay	5-7_xcomp	had	VB	O
+5-10	.	O	O	O	O
+
+#id=6
+#text=You can pay with cash , but I paid by credit card . 
+6-1	You	6-3_nsubj	pay	PRP	P1_passenger
+6-2	can	6-3_aux	pay	MD	O
+6-3	pay	O	O	VB	O
+6-4	with	O	O	O	O
+6-5	cash	6-3_prep_with	pay	NN	P1_payment_means
+6-6	,	O	O	O	O
+6-7	but	O	O	O	O
+6-8	I	6-9_nsubj	paid	PRP	P1_passenger
+6-9	paid	6-3_conj_but	pay	VBD	O
+6-10	by	O	O	O	O
+6-11	credit	O	O	NN	O
+6-12	card	6-9_prep_by	paid	NN	P2_payment_means
+6-13	.	O	O	O	O
+
+#id=7
+#text=It is a long trip , so I had to show my identification as well . 
+7-1	It	O	O	PRP	O
+7-2	is	O	O	VBZ	O
+7-3	a	O	O	DT	O
+7-4	long	O	O	JJ	O
+7-5	trip	O	O	NN	P1_trip
+7-6	,	O	O	O	O
+7-7	so	O	O	IN	O
+7-8	I	7-9_nsubj	had	PRP	P1_passenger
+7-9	had	O	O	VBD	O
+7-10	to	7-11_aux	show	TO	O
+7-11	show	7-9_xcomp	had	VB	O
+7-12	my	O	O	PRP$	P1_passenger
+7-13	identification	7-11_dobj	show	NN	P1_NPart_identification
+7-14	as	O	O	RB	O
+7-15	well	7-11_advmod	show	RB	O
+7-16	.	O	O	O	O
+
+#id=8
+#text=Since I was going in an hour , I waited for the train . 
+8-1	Since	8-4_mark	going	IN	O
+8-2	I	8-4_nsubj	going	PRP	P1_passenger
+8-3	was	8-4_aux	going	VBD	O
+8-4	going	8-10_advcl	waited	VBG	O
+8-5	in	O	O	O	O
+8-6	an	O	O	DT	O
+8-7	hour	8-4_prep_in	going	NN	P1_time_date
+8-8	,	O	O	O	O
+8-9	I	8-10_nsubj	waited	PRP	P1_passenger
+8-10	waited	O	O	VBD	O
+8-11	for	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	train	8-10_prep_for	waited	NN	P1_train
+8-14	.	O	O	O	O
+
+#id=9
+#text=You can wait in the station , but I waited on the platform . 
+9-1	You	9-3_nsubj	wait	PRP	P1_passenger
+9-2	can	9-3_aux	wait	MD	O
+9-3	wait	O	O	VB	O
+9-4	in	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	station	9-3_prep_in	wait	NN	P1_train_station
+9-7	,	O	O	O	O
+9-8	but	O	O	O	O
+9-9	I	9-10_nsubj	waited	PRP	P1_passenger
+9-10	waited	9-3_conj_but	wait	VBD	O
+9-11	on	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	platform	9-10_prep_on	waited	NN	P1_platform
+9-14	.	O	O	O	O
+
+#id=10
+#text=The ticket will tell which platform you want . 
+10-1	The	O	O	DT	O
+10-2	ticket	10-4_nsubj	tell	NN	P1_card/ticket
+10-3	will	10-4_aux	tell	MD	O
+10-4	tell	O	O	VB	O
+10-5	which	O	O	WDT	O
+10-6	platform	10-8_dobj	want	NN	P1_platform
+10-7	you	10-8_nsubj	want	PRP	P1_passenger
+10-8	want	10-4_ccomp	tell	VBP	O
+10-9	.	O	O	O	O
+
+#id=11
+#text=The train arrived at the platform in plenty of time for everyone to get on board . 
+11-1	The	O	O	DT	O
+11-2	train	11-3_nsubj	arrived	NN	P1_train
+11-3	arrived	O	O	VBD	O
+11-4	at	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	platform	11-3_prep_at	arrived	NN	P1_platform
+11-7	in	O	O	IN	O
+11-8	plenty	O	O	RB	O
+11-9	of	O	O	O	O
+11-10	time	O	O	NN	P1_NPart_time
+11-11	for	O	O	O	O
+11-12	everyone	11-3_prep_for	arrived	NN	P2_passenger
+11-13	to	11-14_aux	get	TO	O
+11-14	get	11-3_xcomp	arrived	VB	O
+11-15	on	O	O	O	O
+11-16	board	11-14_prep_on	get	NN	O
+11-17	.	O	O	O	O
+
+#id=12
+#text=As I got on , I showed my ticket to the conductor , but kept it . 
+12-1	As	12-3_mark	got	IN	O
+12-2	I	12-3_nsubj	got	PRP	P1_passenger
+12-3	got	12-7_advcl	showed	VBD	O
+12-4	on	12-3_prt	got	RP	O
+12-5	,	O	O	O	O
+12-6	I	12-7_nsubj	showed	PRP	P1_passenger
+12-7	showed	O	O	VBD	O
+12-8	my	O	O	PRP$	P1_passenger
+12-9	ticket	12-7_dobj	showed	NN	P1_card/ticket
+12-10	to	O	O	O	O
+12-11	the	O	O	DT	O
+12-12	conductor	12-7_prep_to	showed	NN	P1_train_staff
+12-13	,	O	O	O	O
+12-14	but	O	O	O	O
+12-15	kept	12-7_conj_but	showed	VBD	O
+12-16	it	12-15_dobj	kept	PRP	P1_card/ticket
+12-17	.	O	O	O	O
+
+#id=13
+#text=Then I found myself a nice seat . 
+13-1	Then	13-3_advmod	found	RB	O
+13-2	I	13-3_nsubj	found	PRP	P1_passenger
+13-3	found	O	O	VBD	O
+13-4	myself	O	O	PRP	P1_passenger
+13-5	a	O	O	DT	O
+13-6	nice	O	O	JJ	O
+13-7	seat	13-3_xcomp	found	NN	P1_seat
+13-8	.	O	O	O	O
+
+#id=14
+#text=Usually , young able-bodied people will take the upstairs seats , and leave the downstairs seats for people who want to sit down right away . 
+14-1	Usually	14-7_advmod	take	RB	O
+14-2	,	O	O	O	O
+14-3	young	O	O	JJ	O
+14-4	able-bodied	O	O	JJ	O
+14-5	people	14-7_nsubj	take	NNS	P3_passenger
+14-6	will	14-7_aux	take	MD	O
+14-7	take	O	O	VB	O
+14-8	the	O	O	DT	O
+14-9	upstairs	O	O	NN	P2_location_train
+14-10	seats	14-7_dobj	take	NNS	P2_seat
+14-11	,	O	O	O	O
+14-12	and	O	O	O	O
+14-13	leave	14-7_conj_and	take	VB	O
+14-14	the	O	O	DT	O
+14-15	downstairs	O	O	JJ	P3_location_train
+14-16	seats	14-13_dobj	leave	NNS	P3_seat
+14-17	for	O	O	O	O
+14-18	people	14-13_prep_for	leave	NNS	P4_passenger
+14-19	who	14-20_nsubj	want	WP	O
+14-20	want	O	O	VBP	O
+14-21	to	14-22_aux	sit	TO	O
+14-22	sit	14-20_xcomp	want	VB	O
+14-23	down	O	O	RB	O
+14-24	right	O	O	RB	O
+14-25	away	14-22_advmod	sit	RB	O
+14-26	.	O	O	O	O
+
+#id=15
+#text=Soon after I took my seat , I heard someone outside call , All aboard ! 
+15-1	Soon	15-4_advmod	took	RB	O
+15-2	after	15-4_mark	took	IN	O
+15-3	I	15-4_nsubj	took	PRP	P1_passenger
+15-4	took	15-9_advcl	heard	VBD	O
+15-5	my	O	O	PRP$	P1_passenger
+15-6	seat	15-4_dobj	took	NN	P1_seat
+15-7	,	O	O	O	O
+15-8	I	15-9_nsubj	heard	PRP	P1_passenger
+15-9	heard	O	O	VBD	O
+15-10	someone	15-9_dobj	heard	NN	P1_NPart_someone
+15-11	outside	O	O	O	O
+15-12	call	15-9_prep_outside	heard	NN	O
+15-13	,	O	O	O	O
+15-14	All	O	O	DT	O
+15-15	aboard	15-9_advmod	heard	IN	O
+15-16	!	O	O	O	O
+
+#id=16
+#text=There was a gentle chugging sound as the train slowly got underway . 
+16-1	There	16-2_expl	was	EX	O
+16-2	was	O	O	VBD	O
+16-3	a	O	O	DT	O
+16-4	gentle	O	O	JJ	O
+16-5	chugging	O	O	VBG	O
+16-6	sound	16-2_nsubj	was	NN	P1_NPart_sound
+16-7	as	16-11_mark	got	IN	O
+16-8	the	O	O	DT	O
+16-9	train	16-11_nsubj	got	NN	P1_train
+16-10	slowly	16-11_advmod	got	RB	O
+16-11	got	16-2_advcl	was	VBD	O
+16-12	underway	16-11_advmod	got	RB	O
+16-13	.	O	O	O	O
+
+#id=17
+#text=The conductor soon came and took my ticket , and fastened up a card with my destination by my seat . 
+17-1	The	O	O	DT	O
+17-2	conductor	17-4_nsubj	came	NN	P1_train_staff
+17-3	soon	17-4_advmod	came	RB	O
+17-4	came	O	O	VBD	O
+17-5	and	O	O	O	O
+17-6	took	17-4_conj_and	came	VBD	O
+17-7	my	O	O	PRP$	P1_passenger
+17-8	ticket	17-4_dobj	came	NN	P1_card/ticket
+17-9	,	O	O	O	O
+17-10	and	O	O	O	O
+17-11	fastened	17-4_conj_and	came	VBN	O
+17-12	up	17-11_prt	fastened	RP	O
+17-13	a	O	O	DT	O
+17-14	card	17-11_dobj	fastened	NN	P1_NPart_card
+17-15	with	O	O	O	O
+17-16	my	O	O	PRP$	P1_passenger
+17-17	destination	O	O	NN	P1_destination
+17-18	by	O	O	O	O
+17-19	my	O	O	PRP$	P1_passenger
+17-20	seat	17-11_prep_by	fastened	NN	P1_seat
+17-21	.	O	O	O	O
+
+#id=18
+#text=Now I was free to roam about the train , looking out the windows and watching the countryside fly by . 
+18-1	Now	O	O	RB	O
+18-2	I	O	O	PRP	P1_passenger
+18-3	was	O	O	VBD	O
+18-4	free	O	O	JJ	O
+18-5	to	O	O	O	O
+18-6	roam	O	O	VBG	O
+18-7	about	O	O	O	O
+18-8	the	O	O	DT	O
+18-9	train	18-6_prep_about	roam	NN	P1_train
+18-10	,	O	O	O	O
+18-11	looking	18-6_conj_and	roam	VBG	O
+18-12	out	18-11_prt	looking	RP	O
+18-13	the	O	O	DT	O
+18-14	windows	18-11_dobj	looking	NNS	P1_in-train_entertainment
+18-15	and	O	O	O	O
+18-16	watching	18-6_conj_and	roam	VBG	O
+18-17	the	O	O	DT	O
+18-18	countryside	O	O	NN	P2_in-train_entertainment
+18-19	fly	18-16_dobj	watching	NN	O
+18-20	by	18-16_prep	watching	IN	O
+18-21	.	O	O	O	O
+
+#id=19
+#text=Each stop was announced over the P.A. system well in advance , so I knew just when to get off the train . 
+19-1	Each	O	O	DT	O
+19-2	stop	19-4_nsubjpass	announced	NN	P1_NPart_stop
+19-3	was	19-4_auxpass	announced	VBD	O
+19-4	announced	O	O	VBN	O
+19-5	over	O	O	O	O
+19-6	the	O	O	DT	O
+19-7	P.A.	O	O	NNP	O
+19-8	system	19-4_prep_over	announced	NN	P1_NPart_system
+19-9	well	19-4_advmod	announced	RB	O
+19-10	in	O	O	O	O
+19-11	advance	19-4_prep_in	announced	NN	O
+19-12	,	O	O	O	O
+19-13	so	19-4_dep	announced	IN	O
+19-14	I	19-15_nsubj	knew	PRP	P1_passenger
+19-15	knew	19-4_parataxis	announced	VBD	O
+19-16	just	19-19_advmod	get	RB	O
+19-17	when	19-19_advmod	get	WRB	O
+19-18	to	19-19_aux	get	TO	O
+19-19	get	19-15_xcomp	knew	VB	O
+19-20	off	19-19_prt	get	RP	O
+19-21	the	O	O	DT	O
+19-22	train	19-19_dobj	get	NN	P1_train
+19-23	.	O	O	O	O
+
+#id=20
+#text=When I heard Chicago announced , I went downstairs to wait with the other people who were getting off there . 
+20-1	When	20-3_advmod	heard	WRB	O
+20-2	I	20-3_nsubj	heard	PRP	P1_passenger
+20-3	heard	20-8_advcl	went	VBD	O
+20-4	Chicago	20-5_nsubj	announced	NNP	P1_destination
+20-5	announced	20-3_ccomp	heard	VBD	O
+20-6	,	O	O	O	O
+20-7	I	20-8_nsubj	went	PRP	P1_passenger
+20-8	went	O	O	VBD	O
+20-9	downstairs	20-8_dobj	went	NNS	P3_location_train
+20-10	to	20-11_aux	wait	TO	O
+20-11	wait	20-8_vmod	went	VB	O
+20-12	with	O	O	O	O
+20-13	the	O	O	DT	O
+20-14	other	O	O	JJ	O
+20-15	people	20-11_prep_with	wait	NNS	P2_passenger
+20-16	who	20-18_nsubj	getting	WP	O
+20-17	were	20-18_aux	getting	VBD	O
+20-18	getting	O	O	VBG	O
+20-19	off	20-18_prt	getting	RP	O
+20-20	there	20-18_advmod	getting	RB	P1_destination
+20-21	.	O	O	O	O
+
+#id=21
+#text=We were all standing up , so we hung on tight . 
+21-1	We	21-4_nsubj	standing	PRP	P2_passenger
+21-2	were	21-4_aux	standing	VBD	O
+21-3	all	21-4_advmod	standing	RB	O
+21-4	standing	O	O	VBG	O
+21-5	up	21-4_prt	standing	RP	O
+21-6	,	O	O	O	O
+21-7	so	21-4_dep	standing	IN	O
+21-8	we	21-9_nsubj	hung	PRP	P2_passenger
+21-9	hung	21-4_parataxis	standing	VBD	O
+21-10	on	O	O	O	O
+21-11	tight	21-9_prep_on	hung	JJ	O
+21-12	.	O	O	O	O
+
+#id=22
+#text=When the train doors opened , we stepped down carefully onto the platform in Chicago . 
+22-1	When	22-5_advmod	opened	WRB	O
+22-2	the	O	O	DT	O
+22-3	train	O	O	NN	O
+22-4	doors	22-5_nsubj	opened	NNS	P1_door
+22-5	opened	22-8_advcl	stepped	VBD	O
+22-6	,	O	O	O	O
+22-7	we	22-8_nsubj	stepped	PRP	P2_passenger
+22-8	stepped	O	O	VBD	O
+22-9	down	O	O	RB	O
+22-10	carefully	22-8_advmod	stepped	RB	O
+22-11	onto	O	O	O	O
+22-12	the	O	O	DT	O
+22-13	platform	22-8_prep_onto	stepped	NN	P2_platform
+22-14	in	O	O	O	O
+22-15	Chicago	O	O	NNP	P1_destination
+22-16	.	O	O	O	O

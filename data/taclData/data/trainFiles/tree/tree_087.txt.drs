@@ -1,0 +1,200 @@
+#id=1
+#text=Planting a tree is a wonderful thing you can do for your community and your environment . 
+1-1	Planting	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	tree	1-1_dobj	Planting	NN	P1_tree
+1-4	is	O	O	VBZ	O
+1-5	a	O	O	DT	O
+1-6	wonderful	O	O	JJ	O
+1-7	thing	O	O	NN	P1_NPart_thing
+1-8	you	1-10_nsubj	do	PRP	P1_gardener
+1-9	can	1-10_aux	do	MD	O
+1-10	do	O	O	VB	O
+1-11	for	O	O	O	O
+1-12	your	O	O	PRP$	P1_gardener
+1-13	community	1-10_prep_for	do	NN	P1_NPart_community
+1-14	and	O	O	O	O
+1-15	your	O	O	PRP$	P1_gardener
+1-16	environment	O	O	NN	P1_NPart_environment
+1-17	.	O	O	O	O
+
+#id=2
+#text=Trees provide with life sustaining oxygen . 
+2-1	Trees	2-2_nsubj	provide	NNP	P1_tree
+2-2	provide	O	O	VBP	O
+2-3	with	O	O	O	O
+2-4	life	2-2_prep_with	provide	NN	P1_NPart_life
+2-5	sustaining	O	O	VBG	O
+2-6	oxygen	2-5_dobj	sustaining	NN	P1_NPart_oxygen
+2-7	.	O	O	O	O
+
+#id=3
+#text=They are also beautiful and we need them from , something to build a fort in , to wood to build our homes . 
+3-1	They	O	O	PRP	P1_tree
+3-2	are	O	O	VBP	O
+3-3	also	O	O	RB	O
+3-4	beautiful	O	O	JJ	O
+3-5	and	O	O	O	O
+3-6	we	3-7_nsubj	need	PRP	P1_NPart_we
+3-7	need	O	O	VBP	O
+3-8	them	3-7_dobj	need	PRP	P1_tree
+3-9	from	3-7_prep	need	IN	O
+3-10	,	O	O	O	O
+3-11	something	3-7_dobj	need	NN	P1_NPart_something
+3-12	to	3-13_aux	build	TO	O
+3-13	build	O	O	VB	O
+3-14	a	O	O	DT	O
+3-15	fort	3-13_dobj	build	NN	P1_NPart_fort
+3-16	in	3-13_prep	build	IN	O
+3-17	,	O	O	O	O
+3-18	to	O	O	O	O
+3-19	wood	3-13_prep_to	build	NN	P1_NPart_wood
+3-20	to	3-21_aux	build	TO	O
+3-21	build	O	O	VB	O
+3-22	our	O	O	PRP$	P1_NPart_our
+3-23	homes	3-21_dobj	build	NNS	P1_NPart_homes
+3-24	.	O	O	O	O
+
+#id=4
+#text=Plant a tree by selecting the species you think would be best suited for the location and soil that you have . 
+4-1	Plant	O	O	VB	O
+4-2	a	O	O	DT	O
+4-3	tree	4-1_dobj	Plant	NN	P1_tree
+4-4	by	O	O	O	O
+4-5	selecting	4-1_prepc_by	Plant	VBG	O
+4-6	the	O	O	DT	O
+4-7	species	4-5_dobj	selecting	NN	P1_tree
+4-8	you	4-9_nsubj	think	PRP	P1_gardener
+4-9	think	O	O	VBP	O
+4-10	would	4-13_aux	suited	MD	O
+4-11	be	4-13_auxpass	suited	VB	O
+4-12	best	4-13_advmod	suited	RBS	O
+4-13	suited	4-9_ccomp	think	VBN	O
+4-14	for	O	O	O	O
+4-15	the	O	O	DT	O
+4-16	location	4-13_prep_for	suited	NN	P1_location_garden
+4-17	and	O	O	O	O
+4-18	soil	O	O	NN	P1_dirt
+4-19	that	4-21_mark	have	IN	O
+4-20	you	4-21_nsubj	have	PRP	P1_gardener
+4-21	have	4-1_ccomp	Plant	VBP	O
+4-22	.	O	O	O	O
+
+#id=5
+#text=You then dig a hole that will keep the top of the rootball just slightly below ground level and the base of the tree just so it can have a shallow circle made around it . 
+5-1	You	5-3_nsubj	dig	PRP	P1_gardener
+5-2	then	5-3_advmod	dig	RB	O
+5-3	dig	O	O	VB	O
+5-4	a	O	O	DT	O
+5-5	hole	5-3_dobj	dig	NN	P1_hole
+5-6	that	5-8_nsubj	keep	WDT	O
+5-7	will	5-8_aux	keep	MD	O
+5-8	keep	O	O	VB	O
+5-9	the	O	O	DT	O
+5-10	top	5-8_dobj	keep	NN	O
+5-11	of	O	O	O	O
+5-12	the	O	O	DT	O
+5-13	rootball	O	O	NN	P1_other
+5-14	just	O	O	RB	O
+5-15	slightly	O	O	RB	O
+5-16	below	O	O	IN	O
+5-17	ground	O	O	NN	O
+5-18	level	O	O	NN	P1_NPart_level
+5-19	and	O	O	O	O
+5-20	the	O	O	DT	O
+5-21	base	O	O	NN	P1_NPart_base
+5-22	of	O	O	O	O
+5-23	the	O	O	DT	O
+5-24	tree	O	O	NN	P1_tree
+5-25	just	5-29_advmod	have	RB	O
+5-26	so	5-29_mark	have	IN	O
+5-27	it	5-29_nsubj	have	PRP	P1_tree
+5-28	can	5-29_aux	have	MD	O
+5-29	have	5-8_advcl	keep	VB	O
+5-30	a	O	O	DT	O
+5-31	shallow	O	O	JJ	O
+5-32	circle	5-29_dobj	have	NN	P1_NPart_circle
+5-33	made	O	O	VBN	O
+5-34	around	O	O	O	O
+5-35	it	5-33_prep_around	made	PRP	O
+5-36	.	O	O	O	O
+
+#id=6
+#text=Fill in some fresh soil or even compost made from old rotting leaves and grass clippings . 
+6-1	Fill	O	O	VB	O
+6-2	in	O	O	O	O
+6-3	some	O	O	DT	O
+6-4	fresh	O	O	JJ	O
+6-5	soil	6-1_prep_in	Fill	NN	P2_dirt
+6-6	or	O	O	O	O
+6-7	even	O	O	RB	O
+6-8	compost	O	O	NN	P2_other
+6-9	made	O	O	VBN	O
+6-10	from	O	O	O	O
+6-11	old	6-12_dep	rotting	JJ	O
+6-12	rotting	O	O	VBG	O
+6-13	leaves	6-9_prep_from	made	NNS	P1_NPart_leaves
+6-14	and	O	O	O	O
+6-15	grass	O	O	NN	O
+6-16	clippings	O	O	NNS	P1_NPart_clippings
+6-17	.	O	O	O	O
+
+#id=7
+#text=This will help fertilize the tree and if you want you can add some fertilizer . 
+7-1	This	7-3_nsubj	help	DT	O
+7-2	will	7-3_aux	help	MD	O
+7-3	help	O	O	VB	O
+7-4	fertilize	7-3_advcl	help	VB	O
+7-5	the	O	O	DT	O
+7-6	tree	7-4_dobj	fertilize	NN	P1_tree
+7-7	and	O	O	O	O
+7-8	if	7-10_mark	want	IN	O
+7-9	you	7-10_nsubj	want	PRP	P1_gardener
+7-10	want	7-4_conj_and	fertilize	VBP	O
+7-11	you	7-13_nsubj	add	PRP	P1_gardener
+7-12	can	7-13_aux	add	MD	O
+7-13	add	7-10_ccomp	want	VB	O
+7-14	some	O	O	DT	O
+7-15	fertilizer	7-13_dobj	add	NN	P1_fertilizer
+7-16	.	O	O	O	O
+
+#id=8
+#text=Cover it up and make a small ring around the base of the tree to help catch water . 
+8-1	Cover	O	O	VB	O
+8-2	it	8-1_dobj	Cover	PRP	P1_hole
+8-3	up	8-1_prt	Cover	RP	O
+8-4	and	O	O	O	O
+8-5	make	8-1_conj_and	Cover	VB	O
+8-6	a	O	O	DT	O
+8-7	small	O	O	JJ	O
+8-8	ring	8-5_dobj	make	NN	P1_NPart_ring
+8-9	around	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	base	8-5_prep_around	make	NN	P2_NPart_base
+8-12	of	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	tree	O	O	NN	P1_tree
+8-15	to	8-16_aux	help	TO	O
+8-16	help	O	O	VB	O
+8-17	catch	O	O	NN	O
+8-18	water	8-16_dobj	help	NN	P1_water
+8-19	.	O	O	O	O
+
+#id=9
+#text=Then water the tree for a good long time so the roots will grow deep . 
+9-1	Then	9-2_advmod	water	RB	O
+9-2	water	O	O	VB	O
+9-3	the	O	O	DT	O
+9-4	tree	9-2_dobj	water	NN	P1_tree
+9-5	for	O	O	O	O
+9-6	a	O	O	DT	O
+9-7	good	O	O	JJ	O
+9-8	long	O	O	JJ	O
+9-9	time	O	O	NN	P1_time
+9-10	so	9-14_mark	grow	IN	O
+9-11	the	O	O	DT	O
+9-12	roots	9-14_nsubj	grow	NNS	P3_other
+9-13	will	9-14_aux	grow	MD	O
+9-14	grow	9-2_advcl	water	VB	O
+9-15	deep	9-14_advmod	grow	RB	O
+9-16	.	O	O	O	O

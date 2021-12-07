@@ -1,0 +1,208 @@
+#id=1
+#text=I thought about taking my usual shower today , but decided to take a bath instead . 
+1-1	I	1-2_nsubj	thought	PRP	P1_bather
+1-2	thought	O	O	VBD	O
+1-3	about	O	O	O	O
+1-4	taking	1-2_prepc_about	thought	VBG	O
+1-5	my	O	O	PRP$	P1_bather
+1-6	usual	O	O	JJ	O
+1-7	shower	1-4_dobj	taking	NN	P1_shower
+1-8	today	1-4_tmod	taking	NN	O
+1-9	,	O	O	O	O
+1-10	but	O	O	O	O
+1-11	decided	1-2_conj_but	thought	VBD	O
+1-12	to	1-13_aux	take	TO	O
+1-13	take	1-11_xcomp	decided	VB	O
+1-14	a	O	O	DT	O
+1-15	bath	1-13_dobj	take	NN	O
+1-16	instead	1-13_advmod	take	RB	O
+1-17	.	O	O	O	O
+
+#id=2
+#text=I have had a stressful week and the relaxation will do me good . 
+2-1	I	2-3_nsubj	had	PRP	P1_bather
+2-2	have	2-3_aux	had	VBP	O
+2-3	had	O	O	VBN	O
+2-4	a	O	O	DT	O
+2-5	stressful	O	O	JJ	O
+2-6	week	2-3_tmod	had	NN	P1_NPart_week
+2-7	and	O	O	O	O
+2-8	the	O	O	DT	O
+2-9	relaxation	2-11_nsubj	do	NN	P1_NPart_relaxation
+2-10	will	2-11_aux	do	MD	O
+2-11	do	2-3_conj_and	had	VB	O
+2-12	me	O	O	PRP	P1_bather
+2-13	good	2-11_xcomp	do	JJ	O
+2-14	.	O	O	O	O
+
+#id=3
+#text=I get everything ready that I will need-my towel , my bath beads , a book and a candle . 
+3-1	I	3-2_nsubj	get	PRP	P1_bather
+3-2	get	O	O	VBP	O
+3-3	everything	O	O	NN	O
+3-4	ready	3-2_xcomp	get	JJ	O
+3-5	that	3-8_mark	need-my	IN	O
+3-6	I	3-8_nsubj	need-my	PRP	P1_bather
+3-7	will	3-8_aux	need-my	MD	O
+3-8	need-my	3-2_ccomp	get	VB	P1_bather
+3-9	towel	3-8_dobj	need-my	NN	P1_towel
+3-10	,	O	O	O	O
+3-11	my	O	O	PRP$	P1_bather
+3-12	bath	O	O	NN	O
+3-13	beads	O	O	NNS	P1_bath_means
+3-14	,	O	O	O	O
+3-15	a	O	O	DT	O
+3-16	book	O	O	NN	P1_in-bath_entertainment
+3-17	and	O	O	O	O
+3-18	a	O	O	DT	O
+3-19	candle	O	O	NN	P2_in-bath_entertainment
+3-20	.	O	O	O	O
+
+#id=4
+#text=I run the water just a bit on the warm side since I do n't want the bath getting cold too soon . 
+4-1	I	4-2_nsubj	run	PRP	P1_bather
+4-2	run	O	O	VBP	O
+4-3	the	O	O	DT	O
+4-4	water	4-2_dobj	run	NN	P1_water
+4-5	just	4-2_advmod	run	RB	O
+4-6	a	O	O	DT	O
+4-7	bit	O	O	RB	O
+4-8	on	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	warm	O	O	JJ	O
+4-11	side	O	O	NN	O
+4-12	since	4-16_mark	want	IN	O
+4-13	I	4-16_nsubj	want	PRP	P1_bather
+4-14	do	4-16_aux	want	VBP	O
+4-15	n't	4-16_neg	want	RB	O
+4-16	want	O	O	VB	O
+4-17	the	O	O	DT	O
+4-18	bath	4-16_dobj	want	NN	P1_bath
+4-19	getting	O	O	VBG	O
+4-20	cold	4-19_advmod	getting	NN	O
+4-21	too	O	O	RB	O
+4-22	soon	4-19_advmod	getting	RB	O
+4-23	.	O	O	O	O
+
+#id=5
+#text=I put the stopper in on the bath drain and then pour in my bath beads . 
+5-1	I	5-2_nsubj	put	PRP	P1_bather
+5-2	put	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	stopper	5-2_dobj	put	NN	P1_plug
+5-5	in	5-2_prep	put	IN	O
+5-6	on	O	O	IN	O
+5-7	the	O	O	DT	O
+5-8	bath	O	O	NN	O
+5-9	drain	O	O	NN	P1_drain
+5-10	and	O	O	O	O
+5-11	then	5-12_advmod	pour	RB	O
+5-12	pour	5-2_conj_and	put	VBP	O
+5-13	in	O	O	O	O
+5-14	my	O	O	PRP$	P1_bather
+5-15	bath	O	O	NN	O
+5-16	beads	5-12_prep_in	pour	NNS	P1_bath_means
+5-17	.	O	O	O	O
+
+#id=6
+#text=Time to run the water . 
+6-1	Time	6-3_nsubj	run	NNP	P1_NPart_time
+6-2	to	6-3_aux	run	TO	O
+6-3	run	O	O	VB	O
+6-4	the	O	O	DT	O
+6-5	water	6-3_dobj	run	NN	P1_water
+6-6	.	O	O	O	O
+
+#id=7
+#text=I 've lit my candle and grabbed my book . 
+7-1	I	7-3_nsubj	lit	PRP	P1_bather
+7-2	've	7-3_aux	lit	VBP	O
+7-3	lit	O	O	VBD	O
+7-4	my	O	O	PRP$	P1_bather
+7-5	candle	7-3_dobj	lit	NN	P2_in-bath_entertainment
+7-6	and	O	O	O	O
+7-7	grabbed	7-3_conj_and	lit	VBD	O
+7-8	my	O	O	PRP$	P1_bather
+7-9	book	7-7_dobj	grabbed	NN	P1_in-bath_entertainment
+7-10	.	O	O	O	O
+
+#id=8
+#text=I love to soak for a bit , it 's so relaxing . 
+8-1	I	8-2_nsubj	love	PRP	P1_bather
+8-2	love	O	O	VBP	O
+8-3	to	8-4_aux	soak	TO	O
+8-4	soak	8-2_xcomp	love	VB	O
+8-5	for	O	O	O	O
+8-6	a	O	O	DT	O
+8-7	bit	8-4_prep_for	soak	NN	O
+8-8	,	O	O	O	O
+8-9	it	O	O	PRP	O
+8-10	's	O	O	VBZ	O
+8-11	so	O	O	RB	O
+8-12	relaxing	O	O	JJ	O
+8-13	.	O	O	O	O
+
+#id=9
+#text=I will get through a chapter or two of my book , depending how fast I feel like reading . 
+9-1	I	9-3_nsubj	get	PRP	P1_bather
+9-2	will	9-3_aux	get	MD	O
+9-3	get	O	O	VB	O
+9-4	through	O	O	O	O
+9-5	a	O	O	DT	O
+9-6	chapter	9-3_prep_through	get	NN	O
+9-7	or	O	O	O	O
+9-8	two	O	O	CD	O
+9-9	of	O	O	O	O
+9-10	my	O	O	PRP$	P1_bather
+9-11	book	O	O	NN	P1_in-bath_entertainment
+9-12	,	O	O	O	O
+9-13	depending	O	O	O	O
+9-14	how	O	O	WRB	O
+9-15	fast	9-17_dep	feel	JJ	O
+9-16	I	9-17_nsubj	feel	PRP	P1_bather
+9-17	feel	O	O	VBP	O
+9-18	like	O	O	O	O
+9-19	reading	9-17_prep_like	feel	NN	O
+9-20	.	O	O	O	O
+
+#id=10
+#text=The whole atmosphere is de-stressing me . 
+10-1	The	O	O	DT	O
+10-2	whole	O	O	JJ	O
+10-3	atmosphere	10-5_nsubj	de-stressing	NN	P1_NPart_atmosphere
+10-4	is	10-5_aux	de-stressing	VBZ	O
+10-5	de-stressing	O	O	VBG	O
+10-6	me	10-5_dobj	de-stressing	PRP	P1_bather
+10-7	.	O	O	O	O
+
+#id=11
+#text=After my bath , I will towel off and get into my pajamas . 
+11-1	After	O	O	O	O
+11-2	my	O	O	PRP$	P1_bather
+11-3	bath	11-7_prep_after	towel	NN	P1_bath
+11-4	,	O	O	O	O
+11-5	I	11-7_nsubj	towel	PRP	P1_bather
+11-6	will	11-7_aux	towel	MD	O
+11-7	towel	O	O	VB	O
+11-8	off	11-7_prt	towel	RP	O
+11-9	and	O	O	O	O
+11-10	get	11-7_conj_and	towel	VB	O
+11-11	into	O	O	O	O
+11-12	my	O	O	PRP$	P1_bather
+11-13	pajamas	11-10_prep_into	get	NNS	P1_clothes
+11-14	.	O	O	O	O
+
+#id=12
+#text=I always seem to sleep better after taking a relaxing bath . 
+12-1	I	12-3_nsubj	seem	PRP	P1_bather
+12-2	always	12-3_advmod	seem	RB	O
+12-3	seem	O	O	VBP	O
+12-4	to	12-5_aux	sleep	TO	O
+12-5	sleep	12-3_xcomp	seem	VB	O
+12-6	better	12-5_advmod	sleep	RBR	O
+12-7	after	O	O	O	O
+12-8	taking	12-5_prepc_after	sleep	VBG	O
+12-9	a	O	O	DT	O
+12-10	relaxing	O	O	JJ	O
+12-11	bath	12-8_dobj	taking	NN	O
+12-12	.	O	O	O	O

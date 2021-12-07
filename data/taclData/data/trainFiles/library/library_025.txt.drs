@@ -1,0 +1,213 @@
+#id=1
+#text=I love reading books , and once I finished all my books in the library , I decided that I needed new books . 
+1-1	I	1-2_nsubj	love	PRP	P1_customer
+1-2	love	O	O	VBP	O
+1-3	reading	1-2_xcomp	love	VBG	O
+1-4	books	1-3_dobj	reading	NNS	P1_book
+1-5	,	O	O	O	O
+1-6	and	O	O	O	O
+1-7	once	1-9_mark	finished	IN	O
+1-8	I	1-9_nsubj	finished	PRP	P1_customer
+1-9	finished	1-18_advcl	decided	VBD	O
+1-10	all	O	O	PDT	O
+1-11	my	O	O	PRP$	P1_customer
+1-12	books	1-9_dobj	finished	NNS	P1_book
+1-13	in	O	O	O	O
+1-14	the	O	O	DT	O
+1-15	library	1-9_prep_in	finished	NN	P1_library
+1-16	,	O	O	O	O
+1-17	I	1-18_nsubj	decided	PRP	P1_customer
+1-18	decided	1-2_conj_and	love	VBD	O
+1-19	that	1-21_mark	needed	IN	O
+1-20	I	1-21_nsubj	needed	PRP	P1_customer
+1-21	needed	1-18_ccomp	decided	VBD	O
+1-22	new	O	O	JJ	O
+1-23	books	1-21_dobj	needed	NNS	P1_book
+1-24	.	O	O	O	O
+
+#id=2
+#text=The best place in my neighborhood for getting new books for free was the local library . 
+2-1	The	O	O	DT	O
+2-2	best	O	O	JJS	O
+2-3	place	O	O	NN	P1_library
+2-4	in	O	O	O	O
+2-5	my	O	O	PRP$	P1_customer
+2-6	neighborhood	O	O	NN	P1_NPart_neighborhood
+2-7	for	O	O	O	O
+2-8	getting	O	O	VBG	O
+2-9	new	O	O	JJ	O
+2-10	books	2-8_dobj	getting	NNS	P1_book
+2-11	for	O	O	O	O
+2-12	free	2-8_prep_for	getting	JJ	O
+2-13	was	O	O	VBD	O
+2-14	the	O	O	DT	O
+2-15	local	O	O	JJ	O
+2-16	library	O	O	NN	P1_library
+2-17	.	O	O	O	O
+
+#id=3
+#text=To borrow from the library , all you needed was a simple library card . 
+3-1	To	3-2_aux	borrow	TO	O
+3-2	borrow	O	O	VB	O
+3-3	from	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	library	3-2_prep_from	borrow	NN	P1_library
+3-6	,	O	O	O	O
+3-7	all	O	O	DT	O
+3-8	you	3-9_nsubj	needed	PRP	P1_customer
+3-9	needed	O	O	VBD	O
+3-10	was	O	O	VBD	O
+3-11	a	O	O	DT	O
+3-12	simple	O	O	JJ	O
+3-13	library	O	O	NN	O
+3-14	card	O	O	NN	P1_library_card
+3-15	.	O	O	O	O
+
+#id=4
+#text=I walked to the local library and went to my favorite section of the library . 
+4-1	I	4-2_nsubj	walked	PRP	P1_customer
+4-2	walked	O	O	VBD	O
+4-3	to	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	local	O	O	JJ	O
+4-6	library	4-2_prep_to	walked	NN	P1_library
+4-7	and	O	O	O	O
+4-8	went	4-2_conj_and	walked	VBD	O
+4-9	to	O	O	O	O
+4-10	my	O	O	PRP$	P1_customer
+4-11	favorite	O	O	JJ	O
+4-12	section	4-8_prep_to	went	NN	P1_location_library
+4-13	of	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	library	O	O	NN	P1_library
+4-16	.	O	O	O	O
+
+#id=5
+#text=The history section had my favorite books about Napoleon . 
+5-1	The	O	O	DT	O
+5-2	history	O	O	NN	O
+5-3	section	5-4_nsubj	had	NN	P1_location_library
+5-4	had	O	O	VBD	O
+5-5	my	O	O	PRP$	P1_customer
+5-6	favorite	O	O	JJ	O
+5-7	books	5-4_dobj	had	NNS	P1_book
+5-8	about	O	O	O	O
+5-9	Napoleon	O	O	NNP	P1_NPart_napoleon
+5-10	.	O	O	O	O
+
+#id=6
+#text=Once I found my favorite book , I took it with me and brought it over to the check outline . 
+6-1	Once	6-3_mark	found	IN	O
+6-2	I	6-3_nsubj	found	PRP	P1_customer
+6-3	found	6-9_advcl	took	VBD	O
+6-4	my	O	O	PRP$	P1_customer
+6-5	favorite	O	O	JJ	O
+6-6	book	6-3_dobj	found	NN	P2_book
+6-7	,	O	O	O	O
+6-8	I	6-9_nsubj	took	PRP	P1_customer
+6-9	took	O	O	VBD	O
+6-10	it	6-9_dobj	took	PRP	P2_book
+6-11	with	O	O	O	O
+6-12	me	6-9_prep_with	took	PRP	P1_customer
+6-13	and	O	O	O	O
+6-14	brought	6-9_conj_and	took	VBD	O
+6-15	it	6-14_dobj	brought	PRP	P2_book
+6-16	over	6-14_prt	brought	RP	O
+6-17	to	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	check	O	O	NN	O
+6-20	outline	6-14_prep_to	brought	NN	P2_location_library
+6-21	.	O	O	O	O
+
+#id=7
+#text=I waited in line until it was my turn . 
+7-1	I	7-2_nsubj	waited	PRP	P1_customer
+7-2	waited	O	O	VBD	O
+7-3	in	O	O	O	O
+7-4	line	7-2_prep_in	waited	NN	P1_line
+7-5	until	O	O	IN	O
+7-6	it	O	O	PRP	O
+7-7	was	O	O	VBD	O
+7-8	my	O	O	PRP$	P1_customer
+7-9	turn	7-2_advcl	waited	NN	O
+7-10	.	O	O	O	O
+
+#id=8
+#text=I gave the librarian my book and library card and they checked it out for me . 
+8-1	I	8-2_nsubj	gave	PRP	P1_customer
+8-2	gave	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	librarian	8-2_iobj	gave	NN	P1_staff
+8-5	my	O	O	PRP$	P1_customer
+8-6	book	8-2_dobj	gave	NN	P2_book
+8-7	and	O	O	O	O
+8-8	library	O	O	NN	O
+8-9	card	O	O	NN	P1_library_card
+8-10	and	O	O	O	O
+8-11	they	8-12_nsubj	checked	PRP	P1_staff
+8-12	checked	8-2_conj_and	gave	VBD	O
+8-13	it	8-12_dobj	checked	PRP	P2_book
+8-14	out	8-12_prt	checked	RP	O
+8-15	for	O	O	O	O
+8-16	me	8-12_prep_for	checked	PRP	P1_customer
+8-17	.	O	O	O	O
+
+#id=9
+#text=I was given a receipt and a date to return the book . 
+9-1	I	9-3_nsubjpass	given	PRP	P1_customer
+9-2	was	9-3_auxpass	given	VBD	O
+9-3	given	O	O	VBN	O
+9-4	a	O	O	DT	O
+9-5	receipt	9-3_dobj	given	NN	P1_receipt
+9-6	and	O	O	O	O
+9-7	a	O	O	DT	O
+9-8	date	O	O	NN	P1_return_date
+9-9	to	9-10_aux	return	TO	O
+9-10	return	9-3_xcomp	given	VB	O
+9-11	the	O	O	DT	O
+9-12	book	9-10_dobj	return	NN	P2_book
+9-13	.	O	O	O	O
+
+#id=10
+#text=I had three weeks to finish the book before I had to go back and return it . 
+10-1	I	10-2_nsubj	had	PRP	P1_customer
+10-2	had	O	O	VBD	O
+10-3	three	O	O	CD	O
+10-4	weeks	10-2_tmod	had	NNS	P1_NPart_weeks
+10-5	to	10-6_aux	finish	TO	O
+10-6	finish	10-2_vmod	had	VB	O
+10-7	the	O	O	DT	O
+10-8	book	10-6_dobj	finish	NN	P2_book
+10-9	before	10-11_mark	had	IN	O
+10-10	I	10-11_nsubj	had	PRP	P1_customer
+10-11	had	10-6_advcl	finish	VBD	O
+10-12	to	10-13_aux	go	TO	O
+10-13	go	10-11_xcomp	had	VB	O
+10-14	back	10-13_advmod	go	RB	O
+10-15	and	O	O	O	O
+10-16	return	10-13_conj_and	go	VB	O
+10-17	it	10-16_dobj	return	PRP	P2_book
+10-18	.	O	O	O	O
+
+#id=11
+#text=When I left the library , the security checked my receipt and my books and allowed me to leave . 
+11-1	When	11-3_advmod	left	WRB	O
+11-2	I	11-3_nsubj	left	PRP	P1_customer
+11-3	left	11-9_advcl	checked	VBD	O
+11-4	the	O	O	DT	O
+11-5	library	11-3_dobj	left	NN	P1_library
+11-6	,	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	security	11-9_nsubj	checked	NN	P2_staff
+11-9	checked	O	O	VBD	O
+11-10	my	O	O	PRP$	P1_customer
+11-11	receipt	11-9_dobj	checked	NN	P1_receipt
+11-12	and	O	O	O	O
+11-13	my	O	O	PRP$	P1_customer
+11-14	books	O	O	NNS	P2_book
+11-15	and	O	O	O	O
+11-16	allowed	11-9_conj_and	checked	VBD	O
+11-17	me	11-16_dobj	allowed	PRP	P1_customer
+11-18	to	11-19_aux	leave	TO	O
+11-19	leave	11-16_xcomp	allowed	VB	O
+11-20	.	O	O	O	O

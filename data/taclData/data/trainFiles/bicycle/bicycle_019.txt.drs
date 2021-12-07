@@ -1,0 +1,351 @@
+#id=1
+#text=While I was riding my bike I accidentally ran over a nail . 
+1-1	While	1-4_mark	riding	IN	O
+1-2	I	1-4_nsubj	riding	PRP	P1_rider
+1-3	was	1-4_aux	riding	VBD	O
+1-4	riding	1-9_advcl	ran	VBG	O
+1-5	my	O	O	PRP$	P1_rider
+1-6	bike	1-4_dobj	riding	NN	P1_bicycle
+1-7	I	1-9_nsubj	ran	PRP	P1_rider
+1-8	accidentally	1-9_advmod	ran	RB	O
+1-9	ran	O	O	VBD	O
+1-10	over	O	O	O	O
+1-11	a	O	O	DT	O
+1-12	nail	1-9_prep_over	ran	NN	P1_object_damage
+1-13	.	O	O	O	O
+
+#id=2
+#text=My rear tire quickly deflated . 
+2-1	My	O	O	PRP$	P1_rider
+2-2	rear	O	O	JJ	O
+2-3	tire	2-5_nsubj	deflated	NN	P1_tire
+2-4	quickly	2-5_advmod	deflated	RB	O
+2-5	deflated	O	O	VBD	O
+2-6	.	O	O	O	O
+
+#id=3
+#text=I walked the bike home . 
+3-1	I	3-2_nsubj	walked	PRP	P1_rider
+3-2	walked	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	bike	O	O	NN	P1_bicycle
+3-5	home	3-2_dobj	walked	NN	P1_location_repair
+3-6	.	O	O	O	O
+
+#id=4
+#text=My bike tire had an inner tube , and I had an extra one in my basement . 
+4-1	My	O	O	PRP$	P1_rider
+4-2	bike	O	O	NN	O
+4-3	tire	4-4_nsubj	had	NN	P1_tire
+4-4	had	O	O	VBD	O
+4-5	an	O	O	DT	O
+4-6	inner	O	O	JJ	O
+4-7	tube	4-4_dobj	had	NN	P2_tire
+4-8	,	O	O	O	O
+4-9	and	O	O	O	O
+4-10	I	4-11_nsubj	had	PRP	P1_rider
+4-11	had	4-4_conj_and	had	VBD	O
+4-12	an	O	O	DT	O
+4-13	extra	O	O	JJ	O
+4-14	one	4-11_dobj	had	NN	P1_spare_tube
+4-15	in	O	O	O	O
+4-16	my	O	O	PRP$	P1_rider
+4-17	basement	O	O	NN	P1_other
+4-18	.	O	O	O	O
+
+#id=5
+#text=I got the extra inner tube and went to work . 
+5-1	I	5-2_nsubj	got	PRP	P1_rider
+5-2	got	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	extra	O	O	JJ	O
+5-5	inner	O	O	JJ	O
+5-6	tube	5-2_dobj	got	NN	P1_spare_tube
+5-7	and	O	O	O	O
+5-8	went	5-2_conj_and	got	VBD	O
+5-9	to	5-10_aux	work	TO	O
+5-10	work	5-8_xcomp	went	VB	O
+5-11	.	O	O	O	O
+
+#id=6
+#text=In order to fix my tire , I had to pry the rubber outer tire out of the wheel 's metal rim . 
+6-1	In	6-4_mark	fix	IN	O
+6-2	order	6-4_dep	fix	NN	O
+6-3	to	6-4_aux	fix	TO	O
+6-4	fix	6-9_advcl	had	VB	O
+6-5	my	O	O	PRP$	P1_rider
+6-6	tire	6-4_dobj	fix	NN	P1_tire
+6-7	,	O	O	O	O
+6-8	I	6-9_nsubj	had	PRP	P1_rider
+6-9	had	O	O	VBD	O
+6-10	to	6-11_aux	pry	TO	O
+6-11	pry	6-9_xcomp	had	VB	O
+6-12	the	O	O	DT	O
+6-13	rubber	O	O	NN	P1_NPart_rubber
+6-14	outer	O	O	JJ	O
+6-15	tire	6-11_dobj	pry	NN	P1_tire
+6-16	out	O	O	O	O
+6-17	of	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	wheel	O	O	NN	P1_wheel
+6-20	's	O	O	O	O
+6-21	metal	O	O	NN	O
+6-22	rim	6-11_prep_out_of	pry	NN	P1_rim
+6-23	.	O	O	O	O
+
+#id=7
+#text=I got a screwdriver and inserted it between the metal and rubber , lifting the rubber out . 
+7-1	I	7-2_nsubj	got	PRP	P1_rider
+7-2	got	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	screwdriver	7-2_dobj	got	NN	P1_tool
+7-5	and	O	O	O	O
+7-6	inserted	7-2_conj_and	got	VBD	O
+7-7	it	7-6_dobj	inserted	PRP	P1_tool
+7-8	between	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	metal	7-6_prep_between	inserted	NN	P1_rim
+7-11	and	O	O	O	O
+7-12	rubber	O	O	NN	P1_tire
+7-13	,	O	O	O	O
+7-14	lifting	7-6_dep	inserted	VBG	O
+7-15	the	O	O	DT	O
+7-16	rubber	7-14_dobj	lifting	NN	P1_tire
+7-17	out	7-14_prt	lifting	RP	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=I went around the rim that way taking the tire out of the rim . 
+8-1	I	8-2_nsubj	went	PRP	P1_rider
+8-2	went	O	O	VBD	O
+8-3	around	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	rim	8-2_prep_around	went	NN	P1_rim
+8-6	that	O	O	DT	O
+8-7	way	O	O	NN	O
+8-8	taking	8-2_xcomp	went	VBG	O
+8-9	the	O	O	DT	O
+8-10	tire	8-8_dobj	taking	NN	P1_tire
+8-11	out	O	O	O	O
+8-12	of	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	rim	8-8_prep_out_of	taking	NN	P1_rim
+8-15	.	O	O	O	O
+
+#id=9
+#text=Once it was out , I was able to pull the broken inner tube out . 
+9-1	Once	9-3_mark	was	IN	O
+9-2	it	9-3_nsubj	was	PRP	P1_tire
+9-3	was	O	O	VBD	O
+9-4	out	9-3_advmod	was	RB	O
+9-5	,	O	O	O	O
+9-6	I	O	O	PRP	P1_rider
+9-7	was	O	O	VBD	O
+9-8	able	O	O	JJ	O
+9-9	to	9-10_aux	pull	TO	O
+9-10	pull	O	O	VB	O
+9-11	the	O	O	DT	O
+9-12	broken	O	O	JJ	O
+9-13	inner	O	O	JJ	O
+9-14	tube	9-10_dobj	pull	NN	P2_tire
+9-15	out	9-10_prt	pull	RP	O
+9-16	.	O	O	O	O
+
+#id=10
+#text=As I 'd figured , there was a big hole in it from the nail . 
+10-1	As	10-4_mark	figured	IN	O
+10-2	I	10-4_nsubj	figured	PRP	P1_rider
+10-3	'd	10-4_aux	figured	VBD	O
+10-4	figured	10-7_advcl	was	VBN	O
+10-5	,	O	O	O	O
+10-6	there	10-7_expl	was	EX	O
+10-7	was	O	O	VBD	O
+10-8	a	O	O	DT	O
+10-9	big	O	O	JJ	O
+10-10	hole	10-7_nsubj	was	NN	P2_object_damage
+10-11	in	O	O	O	O
+10-12	it	O	O	PRP	P2_tire
+10-13	from	O	O	O	O
+10-14	the	O	O	DT	O
+10-15	nail	10-7_prep_from	was	NN	P1_object_damage
+10-16	.	O	O	O	O
+
+#id=11
+#text=I put the old inner tube aside and got the new one . 
+11-1	I	11-2_nsubj	put	PRP	P1_rider
+11-2	put	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	old	O	O	JJ	O
+11-5	inner	O	O	JJ	O
+11-6	tube	11-2_dobj	put	NN	P2_tire
+11-7	aside	11-2_advmod	put	RB	O
+11-8	and	O	O	O	O
+11-9	got	11-2_conj_and	put	VBD	O
+11-10	the	O	O	DT	O
+11-11	new	O	O	JJ	O
+11-12	one	11-9_dobj	got	NN	P1_spare_tube
+11-13	.	O	O	O	O
+
+#id=12
+#text=There 's a part on the tube where a valve comes out . 
+12-1	There	12-2_expl	's	EX	O
+12-2	's	O	O	VBZ	O
+12-3	a	O	O	DT	O
+12-4	part	12-2_nsubj	's	NN	P1_NPart_part
+12-5	on	O	O	O	O
+12-6	the	O	O	DT	O
+12-7	tube	O	O	NN	P1_spare_tube
+12-8	where	12-11_advmod	comes	WRB	O
+12-9	a	O	O	DT	O
+12-10	valve	12-11_nsubj	comes	NN	P1_bicycle_small_detail
+12-11	comes	O	O	VBZ	O
+12-12	out	12-11_prt	comes	RP	O
+12-13	.	O	O	O	O
+
+#id=13
+#text=That 's where you attach a pump to fill the tube with air . 
+13-1	That	13-2_nsubj	's	DT	O
+13-2	's	O	O	VBZ	O
+13-3	where	13-5_advmod	attach	WRB	O
+13-4	you	13-5_nsubj	attach	PRP	P1_rider
+13-5	attach	13-2_advcl	's	VBP	O
+13-6	a	O	O	DT	O
+13-7	pump	13-5_dobj	attach	NN	P2_tool
+13-8	to	13-9_aux	fill	TO	O
+13-9	fill	13-5_xcomp	attach	VB	O
+13-10	the	O	O	DT	O
+13-11	tube	13-9_dobj	fill	NN	P1_spare_tube
+13-12	with	O	O	O	O
+13-13	air	13-9_prep_with	fill	NN	P1_air
+13-14	.	O	O	O	O
+
+#id=14
+#text=I put this valve through the hole in the rim that it 's supposed to stick through . 
+14-1	I	14-2_nsubj	put	PRP	P1_rider
+14-2	put	O	O	VBD	O
+14-3	this	O	O	DT	O
+14-4	valve	14-2_dobj	put	NN	P1_bicycle_small_detail
+14-5	through	O	O	O	O
+14-6	the	O	O	DT	O
+14-7	hole	14-2_prep_through	put	NN	P2_bicycle_small_detail
+14-8	in	O	O	O	O
+14-9	the	O	O	DT	O
+14-10	rim	O	O	NN	P1_rim
+14-11	that	14-14_mark	supposed	IN	O
+14-12	it	14-14_nsubjpass	supposed	PRP	P1_bicycle_small_detail
+14-13	's	14-14_auxpass	supposed	VBZ	O
+14-14	supposed	14-2_ccomp	put	VBN	O
+14-15	to	14-16_aux	stick	TO	O
+14-16	stick	14-14_xcomp	supposed	VB	O
+14-17	through	14-16_prt	stick	RP	O
+14-18	.	O	O	O	O
+
+#id=15
+#text=Then I went around the rim squeezing the inner tube into the tire . 
+15-1	Then	15-3_advmod	went	RB	O
+15-2	I	15-3_nsubj	went	PRP	P1_rider
+15-3	went	O	O	VBD	O
+15-4	around	O	O	O	O
+15-5	the	O	O	DT	O
+15-6	rim	15-3_prep_around	went	NN	P1_rim
+15-7	squeezing	15-3_xcomp	went	VBG	O
+15-8	the	O	O	DT	O
+15-9	inner	O	O	JJ	O
+15-10	tube	15-7_dobj	squeezing	NN	P1_spare_tube
+15-11	into	O	O	O	O
+15-12	the	O	O	DT	O
+15-13	tire	15-7_prep_into	squeezing	NN	P1_tire
+15-14	.	O	O	O	O
+
+#id=16
+#text=Once I had the inner tube in place , I went around the rim again pushing the outer part of the tire back into the rim . 
+16-1	Once	16-3_mark	had	IN	O
+16-2	I	16-3_nsubj	had	PRP	P1_rider
+16-3	had	16-11_advcl	went	VBD	O
+16-4	the	O	O	DT	O
+16-5	inner	O	O	JJ	O
+16-6	tube	16-3_dobj	had	NN	P1_spare_tube
+16-7	in	O	O	O	O
+16-8	place	O	O	NN	O
+16-9	,	O	O	O	O
+16-10	I	16-11_nsubj	went	PRP	P1_rider
+16-11	went	O	O	VBD	O
+16-12	around	O	O	O	O
+16-13	the	O	O	DT	O
+16-14	rim	16-16_nsubj	pushing	NN	P1_rim
+16-15	again	16-16_advmod	pushing	RB	O
+16-16	pushing	16-11_prepc_around	went	VBG	O
+16-17	the	O	O	DT	O
+16-18	outer	O	O	JJ	O
+16-19	part	16-16_dobj	pushing	NN	P2_NPart_part
+16-20	of	O	O	O	O
+16-21	the	O	O	DT	O
+16-22	tire	O	O	NN	P1_tire
+16-23	back	16-16_prt	pushing	RP	O
+16-24	into	O	O	O	O
+16-25	the	O	O	DT	O
+16-26	rim	16-16_prep_into	pushing	NN	P1_rim
+16-27	.	O	O	O	O
+
+#id=17
+#text=That was hard work , but I finally managed it . 
+17-1	That	O	O	DT	O
+17-2	was	O	O	VBD	O
+17-3	hard	O	O	JJ	O
+17-4	work	O	O	NN	P1_NPart_work
+17-5	,	O	O	O	O
+17-6	but	O	O	O	O
+17-7	I	17-9_nsubj	managed	PRP	P1_rider
+17-8	finally	17-9_advmod	managed	RB	O
+17-9	managed	O	O	VBD	O
+17-10	it	17-9_dobj	managed	PRP	O
+17-11	.	O	O	O	O
+
+#id=18
+#text=Once that was done , I got out my bike pump , fitted it to the inner tube 's valve , and filled the new tire with air . 
+18-1	Once	18-4_mark	done	IN	O
+18-2	that	18-4_nsubjpass	done	DT	O
+18-3	was	18-4_auxpass	done	VBD	O
+18-4	done	18-7_advcl	got	VBN	O
+18-5	,	O	O	O	O
+18-6	I	18-7_nsubj	got	PRP	P1_rider
+18-7	got	O	O	VBD	O
+18-8	out	18-7_prt	got	RP	O
+18-9	my	O	O	PRP$	P1_rider
+18-10	bike	O	O	NN	O
+18-11	pump	18-7_dobj	got	NN	P2_tool
+18-12	,	O	O	O	O
+18-13	fitted	18-7_conj_and	got	VBD	O
+18-14	it	18-13_dobj	fitted	PRP	P2_tool
+18-15	to	O	O	O	O
+18-16	the	O	O	DT	O
+18-17	inner	O	O	JJ	O
+18-18	tube	O	O	NN	P1_spare_tube
+18-19	's	O	O	O	O
+18-20	valve	18-13_prep_to	fitted	NN	P1_bicycle_small_detail
+18-21	,	O	O	O	O
+18-22	and	O	O	O	O
+18-23	filled	18-7_conj_and	got	VBD	O
+18-24	the	O	O	DT	O
+18-25	new	O	O	JJ	O
+18-26	tire	18-23_dobj	filled	NN	P1_tire
+18-27	with	O	O	O	O
+18-28	air	18-23_prep_with	filled	NN	P1_air
+18-29	.	O	O	O	O
+
+#id=19
+#text=Soon my tire was completely repaired and I was able to ride again ! 
+19-1	Soon	19-6_advmod	repaired	RB	O
+19-2	my	O	O	PRP$	P1_rider
+19-3	tire	19-6_nsubjpass	repaired	NN	P1_tire
+19-4	was	19-6_auxpass	repaired	VBD	O
+19-5	completely	19-6_advmod	repaired	RB	O
+19-6	repaired	O	O	VBN	O
+19-7	and	O	O	O	O
+19-8	I	O	O	PRP	P1_rider
+19-9	was	O	O	VBD	O
+19-10	able	19-6_conj_and	repaired	JJ	O
+19-11	to	19-12_aux	ride	TO	O
+19-12	ride	O	O	VB	O
+19-13	again	19-12_advmod	ride	RB	O
+19-14	!	O	O	O	O

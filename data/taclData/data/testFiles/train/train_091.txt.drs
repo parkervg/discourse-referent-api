@@ -1,0 +1,196 @@
+#id=1
+#text=This morning we needed to take the train into the city . 
+1-1	This	O	O	DT	O
+1-2	morning	1-4_tmod	needed	NN	P1_time_date
+1-3	we	1-4_nsubj	needed	PRP	P1_passenger
+1-4	needed	O	O	VBD	O
+1-5	to	1-6_aux	take	TO	O
+1-6	take	1-4_xcomp	needed	VB	O
+1-7	the	O	O	DT	O
+1-8	train	1-6_dobj	take	NN	P1_train
+1-9	into	O	O	O	O
+1-10	the	O	O	DT	O
+1-11	city	1-6_prep_into	take	NN	P1_destination
+1-12	.	O	O	O	O
+
+#id=2
+#text=We grabbed our laptop computers to use while we were going to be traveling . 
+2-1	We	2-2_nsubj	grabbed	PRP	P1_passenger
+2-2	grabbed	O	O	VBD	O
+2-3	our	O	O	PRP$	P1_passenger
+2-4	laptop	O	O	JJ	O
+2-5	computers	2-2_dobj	grabbed	NNS	P1_personal_belongings
+2-6	to	2-7_aux	use	TO	O
+2-7	use	2-2_vmod	grabbed	VB	O
+2-8	while	2-11_mark	going	IN	O
+2-9	we	2-11_nsubj	going	PRP	P1_passenger
+2-10	were	2-11_aux	going	VBD	O
+2-11	going	2-7_advcl	use	VBG	O
+2-12	to	2-14_aux	traveling	TO	O
+2-13	be	2-14_aux	traveling	VB	O
+2-14	traveling	2-11_xcomp	going	VBG	O
+2-15	.	O	O	O	O
+
+#id=3
+#text=We had to make sure we also remembered our passes to get on the train . 
+3-1	We	3-2_nsubj	had	PRP	P1_passenger
+3-2	had	O	O	VBD	O
+3-3	to	3-4_aux	make	TO	O
+3-4	make	3-2_xcomp	had	VB	O
+3-5	sure	3-4_acomp	make	JJ	O
+3-6	we	3-8_nsubj	remembered	PRP	P1_passenger
+3-7	also	3-8_advmod	remembered	RB	O
+3-8	remembered	O	O	VBD	O
+3-9	our	O	O	PRP$	P1_passenger
+3-10	passes	3-8_dobj	remembered	NNS	P1_other
+3-11	to	3-12_aux	get	TO	O
+3-12	get	3-8_vmod	remembered	VB	O
+3-13	on	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	train	3-12_prep_on	get	NN	P1_train
+3-16	.	O	O	O	O
+
+#id=4
+#text=As we arrived at the station , we saw the train coming in . 
+4-1	As	4-3_mark	arrived	IN	O
+4-2	we	4-3_nsubj	arrived	PRP	P1_passenger
+4-3	arrived	4-9_advcl	saw	VBD	O
+4-4	at	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	station	4-3_prep_at	arrived	NN	P1_train_station
+4-7	,	O	O	O	O
+4-8	we	4-9_nsubj	saw	PRP	P1_passenger
+4-9	saw	O	O	VBD	O
+4-10	the	O	O	DT	O
+4-11	train	4-9_dobj	saw	NN	P1_train
+4-12	coming	O	O	VBG	O
+4-13	in	4-12_prt	coming	RP	O
+4-14	.	O	O	O	O
+
+#id=5
+#text=Many people got off the train when it arrived and then we entered the train . 
+5-1	Many	O	O	JJ	O
+5-2	people	5-3_nsubj	got	NNS	P2_passenger
+5-3	got	O	O	VBD	O
+5-4	off	5-3_prt	got	RP	O
+5-5	the	O	O	DT	O
+5-6	train	5-3_dobj	got	NN	P1_train
+5-7	when	5-9_advmod	arrived	WRB	O
+5-8	it	5-9_nsubj	arrived	PRP	P1_train
+5-9	arrived	O	O	VBD	O
+5-10	and	O	O	O	O
+5-11	then	5-13_advmod	entered	RB	O
+5-12	we	5-13_nsubj	entered	PRP	P1_passenger
+5-13	entered	5-3_conj_and	got	VBD	O
+5-14	the	O	O	DT	O
+5-15	train	5-13_dobj	entered	NN	P1_train
+5-16	.	O	O	O	O
+
+#id=6
+#text=We were able to find seats even though the train was pretty full . 
+6-1	We	O	O	PRP	P1_passenger
+6-2	were	O	O	VBD	O
+6-3	able	O	O	JJ	O
+6-4	to	6-5_aux	find	TO	O
+6-5	find	O	O	VB	O
+6-6	seats	6-5_dobj	find	NNS	P1_seat
+6-7	even	O	O	RB	O
+6-8	though	O	O	IN	O
+6-9	the	O	O	DT	O
+6-10	train	O	O	NN	P1_train
+6-11	was	O	O	VBD	O
+6-12	pretty	O	O	RB	O
+6-13	full	6-5_advcl	find	JJ	O
+6-14	.	O	O	O	O
+
+#id=7
+#text=As the train left the station we started working on our computers , and the 20 minute ride seemed to just fly by . 
+7-1	As	7-4_mark	left	IN	O
+7-2	the	O	O	DT	O
+7-3	train	7-4_nsubj	left	NN	P1_train
+7-4	left	7-8_advcl	started	VBD	O
+7-5	the	O	O	DT	O
+7-6	station	7-4_dobj	left	NN	P2_train_station
+7-7	we	7-8_nsubj	started	PRP	P1_passenger
+7-8	started	O	O	VBD	O
+7-9	working	7-8_xcomp	started	VBG	O
+7-10	on	O	O	O	O
+7-11	our	O	O	PRP$	P1_passenger
+7-12	computers	7-9_prep_on	working	NNS	P1_personal_belongings
+7-13	,	O	O	O	O
+7-14	and	O	O	O	O
+7-15	the	O	O	DT	O
+7-16	20	O	O	CD	O
+7-17	minute	O	O	NN	P2_time_date
+7-18	ride	7-19_nsubj	seemed	NN	P1_trip
+7-19	seemed	7-8_conj_and	started	VBD	O
+7-20	to	7-22_aux	fly	TO	O
+7-21	just	7-22_advmod	fly	RB	O
+7-22	fly	7-19_xcomp	seemed	VB	O
+7-23	by	7-22_prep	fly	IN	O
+7-24	.	O	O	O	O
+
+#id=8
+#text=The view of the city from the train was beautiful . 
+8-1	The	O	O	DT	O
+8-2	view	O	O	NN	P1_in-train_entertainment
+8-3	of	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	city	O	O	NN	P1_destination
+8-6	from	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	train	O	O	NN	P1_train
+8-9	was	O	O	VBD	O
+8-10	beautiful	O	O	JJ	O
+8-11	.	O	O	O	O
+
+#id=9
+#text=When we arrived at the station in the city , the people on the train started to queue up at the doorways . 
+9-1	When	9-3_advmod	arrived	WRB	O
+9-2	we	9-3_nsubj	arrived	PRP	P1_train
+9-3	arrived	9-16_advcl	started	VBD	O
+9-4	at	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	station	9-3_prep_at	arrived	NN	P3_train_station
+9-7	in	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	city	9-3_prep_in	arrived	NN	P1_destination
+9-10	,	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	people	9-16_nsubj	started	NNS	P3_passenger
+9-13	on	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	train	O	O	NN	P1_train
+9-16	started	O	O	VBD	O
+9-17	to	9-18_aux	queue	TO	O
+9-18	queue	9-16_xcomp	started	VB	O
+9-19	up	9-18_prt	queue	RP	O
+9-20	at	O	O	O	O
+9-21	the	O	O	DT	O
+9-22	doorways	9-18_prep_at	queue	NNS	P1_door
+9-23	.	O	O	O	O
+
+#id=10
+#text=The train came to a smooth stop and all the people poured out onto the platform where it was lightly raining . 
+10-1	The	O	O	DT	O
+10-2	train	10-3_nsubj	came	NN	P1_train
+10-3	came	O	O	VBD	O
+10-4	to	O	O	O	O
+10-5	a	O	O	DT	O
+10-6	smooth	O	O	JJ	O
+10-7	stop	10-3_prep_to	came	NN	O
+10-8	and	O	O	O	O
+10-9	all	O	O	PDT	O
+10-10	the	O	O	DT	O
+10-11	people	10-12_nsubj	poured	NNS	P3_passenger
+10-12	poured	10-3_conj_and	came	VBD	O
+10-13	out	10-12_prt	poured	RP	O
+10-14	onto	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	platform	10-12_prep_onto	poured	NN	P1_platform
+10-17	where	10-21_advmod	raining	WRB	P1_platform
+10-18	it	10-21_nsubj	raining	PRP	O
+10-19	was	10-21_aux	raining	VBD	O
+10-20	lightly	10-21_advmod	raining	RB	O
+10-21	raining	10-12_advcl	poured	VBG	O
+10-22	.	O	O	O	O

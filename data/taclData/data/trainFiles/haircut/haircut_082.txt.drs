@@ -1,0 +1,274 @@
+#id=1
+#text=I went to the hair stylist for a trim . 
+1-1	I	1-2_nsubj	went	PRP	P1_customer
+1-2	went	O	O	VBD	O
+1-3	to	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	hair	O	O	NN	O
+1-6	stylist	1-2_prep_to	went	NN	P1_hairdresser
+1-7	for	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	trim	1-2_prep_for	went	JJ	P1_haircut
+1-10	.	O	O	O	O
+
+#id=2
+#text=While I was seated in the waiting area , I happened to glance a cover of a hair styling book and , being intrigued , decided to pick it up and browse . 
+2-1	While	2-4_mark	seated	IN	O
+2-2	I	2-4_nsubjpass	seated	PRP	P1_customer
+2-3	was	2-4_auxpass	seated	VBD	O
+2-4	seated	2-11_advcl	happened	VBN	O
+2-5	in	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	waiting	O	O	VBG	O
+2-8	area	2-4_prep_in	seated	NN	P1_location_salon
+2-9	,	O	O	O	O
+2-10	I	2-11_nsubj	happened	PRP	P1_customer
+2-11	happened	O	O	VBD	O
+2-12	to	2-13_aux	glance	TO	O
+2-13	glance	2-11_xcomp	happened	VB	O
+2-14	a	O	O	DT	O
+2-15	cover	2-13_dobj	glance	NN	O
+2-16	of	O	O	O	O
+2-17	a	O	O	DT	O
+2-18	hair	O	O	NN	P1_hair
+2-19	styling	O	O	VBG	O
+2-20	book	O	O	NN	P1_other
+2-21	and	O	O	O	O
+2-22	,	O	O	O	O
+2-23	being	2-24_auxpass	intrigued	VBG	O
+2-24	intrigued	2-11_parataxis	happened	VBN	O
+2-25	,	O	O	O	O
+2-26	decided	2-11_conj_and	happened	VBN	O
+2-27	to	2-28_aux	pick	TO	O
+2-28	pick	2-26_xcomp	decided	VB	O
+2-29	it	2-28_dobj	pick	PRP	P1_other
+2-30	up	2-28_prt	pick	RP	O
+2-31	and	O	O	O	O
+2-32	browse	2-28_conj_and	pick	VB	O
+2-33	.	O	O	O	O
+
+#id=3
+#text=I found a haircut I really liked . 
+3-1	I	3-2_nsubj	found	PRP	P1_customer
+3-2	found	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	haircut	3-2_dobj	found	NN	P2_haircut
+3-5	I	3-7_nsubj	liked	PRP	P1_customer
+3-6	really	3-7_advmod	liked	RB	O
+3-7	liked	O	O	VBD	O
+3-8	.	O	O	O	O
+
+#id=4
+#text=My hairstylist called my name and led me back to her barber chair . 
+4-1	My	O	O	PRP$	P1_customer
+4-2	hairstylist	4-3_nsubj	called	NN	P1_hairdresser
+4-3	called	O	O	VBD	O
+4-4	my	O	O	PRP$	P1_customer
+4-5	name	4-3_dobj	called	NN	P1_NPart_name
+4-6	and	O	O	O	O
+4-7	led	4-3_conj_and	called	VBD	O
+4-8	me	4-7_dobj	led	PRP	P1_customer
+4-9	back	4-7_prt	led	RP	O
+4-10	to	O	O	O	O
+4-11	her	O	O	PRP$	P1_hairdresser
+4-12	barber	O	O	NN	O
+4-13	chair	4-7_prep_to	led	NN	P1_chair
+4-14	.	O	O	O	O
+
+#id=5
+#text=She wrapped a drape around my shoulders to protect my clothes from hair clippings , asking me what I was looking to do with my hair this time . 
+5-1	She	5-2_nsubj	wrapped	PRP	P1_hairdresser
+5-2	wrapped	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	drape	5-2_dobj	wrapped	NN	P1_cape
+5-5	around	O	O	O	O
+5-6	my	O	O	PRP$	P1_customer
+5-7	shoulders	5-2_prep_around	wrapped	NNS	P1_NPart_shoulders
+5-8	to	5-9_aux	protect	TO	O
+5-9	protect	5-2_vmod	wrapped	VB	O
+5-10	my	O	O	PRP$	P1_customer
+5-11	clothes	5-9_dobj	protect	NNS	P1_NPart_clothes
+5-12	from	O	O	O	O
+5-13	hair	O	O	NN	O
+5-14	clippings	5-9_prep_from	protect	NNS	P2_other
+5-15	,	O	O	O	O
+5-16	asking	5-2_xcomp	wrapped	VBG	O
+5-17	me	5-16_dobj	asking	PRP	P1_customer
+5-18	what	5-21_dobj	looking	WP	O
+5-19	I	5-21_nsubj	looking	PRP	P1_customer
+5-20	was	5-21_aux	looking	VBD	O
+5-21	looking	5-16_dep	asking	VBG	O
+5-22	to	5-23_aux	do	TO	O
+5-23	do	5-21_xcomp	looking	VB	O
+5-24	with	O	O	O	O
+5-25	my	O	O	PRP$	P1_customer
+5-26	hair	5-23_prep_with	do	NN	P2_hair
+5-27	this	O	O	DT	O
+5-28	time	5-23_dobj	do	NN	P1_time/date
+5-29	.	O	O	O	O
+
+#id=6
+#text=I pointed out the book I had been looking through and showed her the picture I had found . 
+6-1	I	6-2_nsubj	pointed	PRP	P1_customer
+6-2	pointed	6-18_dep	found	VBD	O
+6-3	out	6-2_prt	pointed	RP	O
+6-4	the	O	O	DT	O
+6-5	book	6-2_dobj	pointed	NN	P1_other
+6-6	I	6-9_nsubj	looking	PRP	P1_customer
+6-7	had	6-9_aux	looking	VBD	O
+6-8	been	6-9_aux	looking	VBN	O
+6-9	looking	O	O	VBG	O
+6-10	through	6-9_prt	looking	RP	O
+6-11	and	O	O	O	O
+6-12	showed	6-2_conj_and	pointed	VBD	O
+6-13	her	O	O	PRP	P1_hairdresser
+6-14	the	O	O	DT	P2_customer
+6-15	picture	6-12_xcomp	showed	NN	P3_other
+6-16	I	6-18_nsubj	found	PRP	P1_customer
+6-17	had	6-18_aux	found	VBD	O
+6-18	found	O	O	VBN	O
+6-19	.	O	O	O	O
+
+#id=7
+#text=She nodded , spritzed water on my head with her spray bottle , then grabbed her comb and started running it through my hair . 
+7-1	She	7-2_nsubj	nodded	PRP	P1_hairdresser
+7-2	nodded	O	O	VBD	O
+7-3	,	O	O	O	O
+7-4	spritzed	7-2_conj_and	nodded	VBD	O
+7-5	water	7-4_dobj	spritzed	NN	P4_other
+7-6	on	O	O	O	O
+7-7	my	O	O	PRP$	P1_customer
+7-8	head	7-4_prep_on	spritzed	NN	P5_other
+7-9	with	O	O	O	O
+7-10	her	O	O	PRP$	P1_hairdresser
+7-11	spray	O	O	NN	O
+7-12	bottle	7-4_prep_with	spritzed	NN	P6_other
+7-13	,	O	O	O	O
+7-14	then	7-15_advmod	grabbed	RB	O
+7-15	grabbed	7-2_conj_and	nodded	VBD	O
+7-16	her	O	O	PRP$	P1_hairdresser
+7-17	comb	7-15_dobj	grabbed	NN	P1_comb
+7-18	and	O	O	O	O
+7-19	started	7-2_conj_and	nodded	VBD	O
+7-20	running	7-19_xcomp	started	VBG	O
+7-21	it	7-20_dobj	running	PRP	P1_comb
+7-22	through	O	O	O	O
+7-23	my	O	O	PRP$	P1_customer
+7-24	hair	7-20_prep_through	running	NN	P2_hair
+7-25	.	O	O	O	O
+
+#id=8
+#text=She then grabbed her scissors and started trimming the length , parted some hair to one side and clipped that side . 
+8-1	She	8-3_nsubj	grabbed	PRP	P1_hairdresser
+8-2	then	8-3_advmod	grabbed	RB	O
+8-3	grabbed	O	O	VBD	O
+8-4	her	O	O	PRP$	P1_hairdresser
+8-5	scissors	8-3_dobj	grabbed	NNS	P1_scissors
+8-6	and	O	O	O	O
+8-7	started	8-3_conj_and	grabbed	VBD	O
+8-8	trimming	8-7_xcomp	started	VBG	O
+8-9	the	O	O	DT	O
+8-10	length	8-8_dobj	trimming	NN	P7_other
+8-11	,	O	O	O	O
+8-12	parted	8-3_dep	grabbed	VBD	O
+8-13	some	O	O	DT	O
+8-14	hair	8-12_dobj	parted	NN	P2_hair
+8-15	to	O	O	O	O
+8-16	one	O	O	CD	O
+8-17	side	8-12_prep_to	parted	NN	P8_other
+8-18	and	O	O	O	O
+8-19	clipped	8-3_conj_and	grabbed	VBD	O
+8-20	that	O	O	DT	O
+8-21	side	8-19_dobj	clipped	NN	P8_other
+8-22	.	O	O	O	O
+
+#id=9
+#text=Then she parted and clipped the other to match , all the while chatting with me about stuff . 
+9-1	Then	9-3_advmod	parted	RB	O
+9-2	she	9-3_nsubj	parted	PRP	P1_hairdresser
+9-3	parted	O	O	VBD	O
+9-4	and	O	O	O	O
+9-5	clipped	9-3_conj_and	parted	VBD	O
+9-6	the	O	O	DT	O
+9-7	other	9-5_dobj	clipped	JJ	P9_other
+9-8	to	9-9_aux	match	TO	O
+9-9	match	9-5_vmod	clipped	VB	O
+9-10	,	O	O	O	O
+9-11	all	O	O	PDT	O
+9-12	the	O	O	DT	O
+9-13	while	9-9_dobj	match	NN	P1_NPart_while
+9-14	chatting	9-9_xcomp	match	VBG	O
+9-15	with	O	O	O	O
+9-16	me	9-14_prep_with	chatting	PRP	P1_customer
+9-17	about	O	O	O	O
+9-18	stuff	9-14_prep_about	chatting	NN	P1_NPart_stuff
+9-19	.	O	O	O	O
+
+#id=10
+#text=A few moments later , she applied a little hair gel and worked it through my hair . 
+10-1	A	O	O	DT	O
+10-2	few	O	O	JJ	O
+10-3	moments	O	O	NNS	P2_time/date
+10-4	later	10-7_advmod	applied	RB	O
+10-5	,	O	O	O	O
+10-6	she	10-7_nsubj	applied	PRP	P1_hairdresser
+10-7	applied	O	O	VBD	O
+10-8	a	O	O	DT	O
+10-9	little	O	O	JJ	O
+10-10	hair	O	O	NN	O
+10-11	gel	10-7_dobj	applied	NN	P1_hair_styling/treatment
+10-12	and	O	O	O	O
+10-13	worked	10-7_conj_and	applied	VBD	O
+10-14	it	10-13_dobj	worked	PRP	P1_hair_styling/treatment
+10-15	through	O	O	O	O
+10-16	my	O	O	PRP$	P1_customer
+10-17	hair	10-13_prep_through	worked	NN	P3_hair
+10-18	.	O	O	O	O
+
+#id=11
+#text=Pleased with the outcome , she spun me around so I could see the mirror and asked how I liked my new hairdo . 
+11-1	Pleased	11-7_vmod	spun	VBN	O
+11-2	with	O	O	O	O
+11-3	the	O	O	DT	O
+11-4	outcome	11-1_prep_with	Pleased	NN	P10_other
+11-5	,	O	O	O	O
+11-6	she	11-7_nsubj	spun	PRP	P1_hairdresser
+11-7	spun	O	O	VBD	O
+11-8	me	11-7_dobj	spun	PRP	P1_customer
+11-9	around	11-7_advmod	spun	RB	O
+11-10	so	11-13_mark	see	IN	O
+11-11	I	11-13_nsubj	see	PRP	P1_customer
+11-12	could	11-13_aux	see	MD	O
+11-13	see	11-7_advcl	spun	VB	O
+11-14	the	O	O	DT	O
+11-15	mirror	11-13_dobj	see	NN	P1_mirror
+11-16	and	O	O	O	O
+11-17	asked	11-7_conj_and	spun	VBD	O
+11-18	how	11-20_advmod	liked	WRB	O
+11-19	I	11-20_nsubj	liked	PRP	P1_customer
+11-20	liked	11-17_ccomp	asked	VBD	O
+11-21	my	O	O	PRP$	P1_customer
+11-22	new	O	O	JJ	O
+11-23	hairdo	11-20_dobj	liked	NN	P2_haircut
+11-24	.	O	O	O	O
+
+#id=12
+#text=I loved it so much that I gave her a nice tip when I paid the bill ! 
+12-1	I	12-2_nsubj	loved	PRP	P1_customer
+12-2	loved	O	O	VBD	O
+12-3	it	12-2_dobj	loved	PRP	O
+12-4	so	O	O	RB	O
+12-5	much	12-2_advmod	loved	RB	O
+12-6	that	12-8_mark	gave	IN	O
+12-7	I	12-8_nsubj	gave	PRP	P1_customer
+12-8	gave	O	O	VBD	O
+12-9	her	12-8_iobj	gave	PRP	P1_hairdresser
+12-10	a	O	O	DT	O
+12-11	nice	O	O	JJ	O
+12-12	tip	12-8_dobj	gave	NN	P1_tip
+12-13	when	12-15_advmod	paid	WRB	O
+12-14	I	12-15_nsubj	paid	PRP	P1_customer
+12-15	paid	O	O	VBD	O
+12-16	the	O	O	DT	O
+12-17	bill	12-15_dobj	paid	NN	P1_bill
+12-18	!	O	O	O	O

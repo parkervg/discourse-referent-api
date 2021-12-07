@@ -1,0 +1,278 @@
+#id=1
+#text=I needed a bath . 
+1-1	I	1-2_nsubj	needed	PRP	P1_bather
+1-2	needed	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	bath	1-2_dobj	needed	NN	O
+1-5	.	O	O	O	O
+
+#id=2
+#text=I turned on the cold and hot taps to let the bathtub fill with warm water . 
+2-1	I	2-2_nsubj	turned	PRP	P1_bather
+2-2	turned	O	O	VBD	O
+2-3	on	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	cold	O	O	JJ	O
+2-6	and	O	O	O	O
+2-7	hot	O	O	JJ	O
+2-8	taps	2-2_prep_on	turned	NNS	P1_tap
+2-9	to	2-10_aux	let	TO	O
+2-10	let	2-2_xcomp	turned	VB	O
+2-11	the	O	O	DT	O
+2-12	bathtub	2-13_nsubj	fill	NN	P1_bathtub
+2-13	fill	2-10_ccomp	let	VB	O
+2-14	with	O	O	O	O
+2-15	warm	O	O	JJ	O
+2-16	water	2-13_prep_with	fill	NN	P1_water
+2-17	.	O	O	O	O
+
+#id=3
+#text=Then I got a towel and draped it over the curtain rod . 
+3-1	Then	3-3_advmod	got	RB	O
+3-2	I	3-3_nsubj	got	PRP	P1_bather
+3-3	got	O	O	VBD	O
+3-4	a	O	O	DT	O
+3-5	towel	3-3_dobj	got	NN	P1_towel
+3-6	and	O	O	O	O
+3-7	draped	3-3_conj_and	got	VBD	O
+3-8	it	3-7_dobj	draped	PRP	P1_towel
+3-9	over	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	curtain	O	O	NN	O
+3-12	rod	3-7_prep_over	draped	NN	P1_NPart_rod
+3-13	.	O	O	O	O
+
+#id=4
+#text=I took off my clothes and grabbed my favorite rubber ducky from a shelf . 
+4-1	I	4-2_nsubj	took	PRP	P1_bather
+4-2	took	O	O	VBD	O
+4-3	off	4-2_prt	took	RP	O
+4-4	my	O	O	PRP$	P1_bather
+4-5	clothes	4-2_dobj	took	NNS	P1_clothes
+4-6	and	O	O	O	O
+4-7	grabbed	4-2_conj_and	took	VBD	O
+4-8	my	O	O	PRP$	P1_bather
+4-9	favorite	O	O	JJ	O
+4-10	rubber	O	O	NN	O
+4-11	ducky	4-7_dobj	grabbed	NN	P1_in-bath_entertainment
+4-12	from	O	O	O	O
+4-13	a	O	O	DT	O
+4-14	shelf	4-7_prep_from	grabbed	NN	P1_other
+4-15	.	O	O	O	O
+
+#id=5
+#text=I dropped him into the tub . 
+5-1	I	5-2_nsubj	dropped	PRP	P1_bather
+5-2	dropped	O	O	VBD	O
+5-3	him	5-2_dobj	dropped	PRP	P1_in-bath_entertainment
+5-4	into	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	tub	5-2_prep_into	dropped	NN	P1_bathtub
+5-7	.	O	O	O	O
+
+#id=6
+#text=If I needed a bath , so did he . 
+6-1	If	6-3_mark	needed	IN	O
+6-2	I	6-3_nsubj	needed	PRP	P1_bather
+6-3	needed	6-8_advcl	did	VBD	O
+6-4	a	O	O	DT	O
+6-5	bath	6-3_dobj	needed	NN	P1_bath
+6-6	,	O	O	O	O
+6-7	so	6-8_advmod	did	RB	O
+6-8	did	O	O	VBD	O
+6-9	he	6-8_dobj	did	PRP	P1_in-bath_entertainment
+6-10	.	O	O	O	O
+
+#id=7
+#text=I also poured some bubble bath into the tub as it was filling with water . 
+7-1	I	7-3_nsubj	poured	PRP	P1_bather
+7-2	also	7-3_advmod	poured	RB	O
+7-3	poured	O	O	VBD	O
+7-4	some	O	O	DT	O
+7-5	bubble	O	O	NN	O
+7-6	bath	7-3_dobj	poured	NN	P1_bath_means
+7-7	into	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	tub	7-3_prep_into	poured	NN	P1_bathtub
+7-10	as	7-13_mark	filling	IN	O
+7-11	it	7-13_nsubj	filling	PRP	P1_bathtub
+7-12	was	7-13_aux	filling	VBD	O
+7-13	filling	7-3_advcl	poured	VBG	O
+7-14	with	O	O	O	O
+7-15	water	7-13_prep_with	filling	NN	P1_water
+7-16	.	O	O	O	O
+
+#id=8
+#text=It foamed up into lots of bubbles . 
+8-1	It	8-2_nsubj	foamed	PRP	P1_bath_means
+8-2	foamed	O	O	VBD	O
+8-3	up	8-2_prt	foamed	RP	O
+8-4	into	O	O	O	O
+8-5	lots	8-2_prep_into	foamed	NNS	O
+8-6	of	O	O	O	O
+8-7	bubbles	O	O	NNS	P2_other
+8-8	.	O	O	O	O
+
+#id=9
+#text=When the tub was full enough , I turned off the water and got into the tub , being careful not to slip on the slippery porcelain . 
+9-1	When	O	O	WRB	O
+9-2	the	O	O	DT	O
+9-3	tub	O	O	NN	P1_bathtub
+9-4	was	O	O	VBD	O
+9-5	full	O	O	RB	O
+9-6	enough	9-9_advcl	turned	JJ	O
+9-7	,	O	O	O	O
+9-8	I	9-9_nsubj	turned	PRP	P1_bather
+9-9	turned	O	O	VBD	O
+9-10	off	9-9_prt	turned	RP	O
+9-11	the	O	O	DT	O
+9-12	water	9-9_dobj	turned	NN	P1_water
+9-13	and	O	O	O	O
+9-14	got	9-9_conj_and	turned	VBD	O
+9-15	into	O	O	O	O
+9-16	the	O	O	DT	O
+9-17	tub	9-14_prep_into	got	NN	P1_bathtub
+9-18	,	O	O	O	O
+9-19	being	O	O	VBG	O
+9-20	careful	9-14_xcomp	got	JJ	O
+9-21	not	9-23_neg	slip	RB	O
+9-22	to	9-23_aux	slip	TO	O
+9-23	slip	O	O	VB	O
+9-24	on	O	O	O	O
+9-25	the	O	O	DT	O
+9-26	slippery	O	O	JJ	O
+9-27	porcelain	9-23_prep_on	slip	NN	O
+9-28	.	O	O	O	O
+
+#id=10
+#text=I lay back in the warm water and shut my eyes , relaxing . 
+10-1	I	10-2_nsubj	lay	PRP	P1_bather
+10-2	lay	O	O	VBD	O
+10-3	back	10-2_prt	lay	RP	O
+10-4	in	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	warm	O	O	JJ	O
+10-7	water	10-2_prep_in	lay	NN	P1_water
+10-8	and	O	O	O	O
+10-9	shut	10-2_conj_and	lay	VBD	O
+10-10	my	O	O	PRP$	P1_bather
+10-11	eyes	10-9_dobj	shut	NNS	P1_NPart_eyes
+10-12	,	O	O	O	O
+10-13	relaxing	10-2_vmod	lay	VBG	O
+10-14	.	O	O	O	O
+
+#id=11
+#text=When the water started to get cold , I stood up and grabbed the towel from the curtain rod . 
+11-1	When	11-4_advmod	started	WRB	O
+11-2	the	O	O	DT	O
+11-3	water	11-4_nsubj	started	NN	P1_water
+11-4	started	11-10_advcl	stood	VBD	O
+11-5	to	O	O	TO	O
+11-6	get	O	O	VB	O
+11-7	cold	11-4_xcomp	started	JJ	O
+11-8	,	O	O	O	O
+11-9	I	11-10_nsubj	stood	PRP	P1_bather
+11-10	stood	O	O	VBD	O
+11-11	up	11-10_prt	stood	RP	O
+11-12	and	O	O	O	O
+11-13	grabbed	11-10_conj_and	stood	VBD	O
+11-14	the	O	O	DT	O
+11-15	towel	11-13_dobj	grabbed	NN	P1_towel
+11-16	from	O	O	O	O
+11-17	the	O	O	DT	O
+11-18	curtain	O	O	NN	O
+11-19	rod	11-13_prep_from	grabbed	NN	P2_NPart_rod
+11-20	.	O	O	O	O
+
+#id=12
+#text=I draped it around myself and then opened the tub 's drain so the water could drain out . 
+12-1	I	12-2_nsubj	draped	PRP	P1_bather
+12-2	draped	O	O	VBD	O
+12-3	it	12-2_dobj	draped	PRP	P1_towel
+12-4	around	O	O	O	O
+12-5	myself	12-2_prep_around	draped	PRP	P1_bather
+12-6	and	O	O	O	O
+12-7	then	12-8_advmod	opened	RB	O
+12-8	opened	12-2_conj_and	draped	VBD	O
+12-9	the	O	O	DT	O
+12-10	tub	O	O	NN	P1_bathtub
+12-11	's	O	O	O	O
+12-12	drain	12-8_dobj	opened	NN	P1_drain
+12-13	so	12-17_mark	drain	IN	O
+12-14	the	O	O	DT	O
+12-15	water	12-17_nsubj	drain	NN	P1_water
+12-16	could	12-17_aux	drain	MD	O
+12-17	drain	12-2_advcl	draped	VB	O
+12-18	out	12-17_prt	drain	RP	O
+12-19	.	O	O	O	O
+
+#id=13
+#text=I went off to get dressed , and when I was done I went back to the bathroom and turned the shower on for a minute so the bubbles would all go down the drain . 
+13-1	I	13-2_nsubj	went	PRP	P1_bather
+13-2	went	O	O	VBD	O
+13-3	off	13-2_prt	went	RP	O
+13-4	to	13-6_aux	dressed	TO	O
+13-5	get	13-6_auxpass	dressed	VB	O
+13-6	dressed	13-2_xcomp	went	VBN	O
+13-7	,	O	O	O	O
+13-8	and	O	O	O	O
+13-9	when	13-12_advmod	done	WRB	O
+13-10	I	13-12_nsubjpass	done	PRP	P1_bather
+13-11	was	13-12_auxpass	done	VBD	O
+13-12	done	13-14_advcl	went	VBN	O
+13-13	I	13-14_nsubj	went	PRP	P1_bather
+13-14	went	13-2_conj_and	went	VBD	O
+13-15	back	13-14_prt	went	RP	O
+13-16	to	O	O	O	O
+13-17	the	O	O	DT	O
+13-18	bathroom	13-14_prep_to	went	NN	P1_bathroom
+13-19	and	O	O	O	O
+13-20	turned	13-14_conj_and	went	VBD	O
+13-21	the	O	O	DT	O
+13-22	shower	13-20_dobj	turned	NN	P1_shower
+13-23	on	13-20_prep	turned	IN	O
+13-24	for	O	O	IN	O
+13-25	a	O	O	DT	O
+13-26	minute	O	O	NN	P1_NPart_minute
+13-27	so	13-14_dep	went	IN	O
+13-28	the	O	O	DT	O
+13-29	bubbles	13-32_nsubj	go	NNS	P3_other
+13-30	would	13-32_aux	go	MD	O
+13-31	all	13-32_advmod	go	RB	O
+13-32	go	13-14_parataxis	went	VB	O
+13-33	down	13-32_prt	go	RP	O
+13-34	the	O	O	DT	O
+13-35	drain	13-32_dobj	go	NN	P1_drain
+13-36	.	O	O	O	O
+
+#id=14
+#text=I picked up my rubber ducky and gave him a squeeze until he quacked . 
+14-1	I	14-2_nsubj	picked	PRP	P1_bather
+14-2	picked	O	O	VBD	O
+14-3	up	14-2_prt	picked	RP	O
+14-4	my	O	O	PRP$	P1_bather
+14-5	rubber	O	O	NN	O
+14-6	ducky	14-2_dobj	picked	NN	P1_in-bath_entertainment
+14-7	and	O	O	O	O
+14-8	gave	14-2_conj_and	picked	VBD	O
+14-9	him	14-8_iobj	gave	PRP	P1_in-bath_entertainment
+14-10	a	O	O	DT	O
+14-11	squeeze	14-8_dobj	gave	NN	P1_NPart_squeeze
+14-12	until	14-14_mark	quacked	IN	O
+14-13	he	14-14_nsubj	quacked	PRP	P1_in-bath_entertainment
+14-14	quacked	14-2_advcl	picked	VBD	O
+14-15	.	O	O	O	O
+
+#id=15
+#text=Then I put him on the shelf until next time . 
+15-1	Then	15-3_advmod	put	RB	O
+15-2	I	15-3_nsubj	put	PRP	P1_bather
+15-3	put	O	O	VBD	O
+15-4	him	15-3_dobj	put	PRP	P1_in-bath_entertainment
+15-5	on	O	O	O	O
+15-6	the	O	O	DT	O
+15-7	shelf	15-3_prep_on	put	NN	P4_other
+15-8	until	O	O	O	O
+15-9	next	O	O	JJ	O
+15-10	time	15-3_prep_until	put	NN	O
+15-11	.	O	O	O	O

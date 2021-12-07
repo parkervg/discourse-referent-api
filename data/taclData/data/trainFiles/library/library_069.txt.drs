@@ -1,0 +1,209 @@
+#id=1
+#text=I was about to go on a trip and I knew I 'd want some books to read on the plane and on the beach . 
+1-1	I	O	O	PRP	P1_customer
+1-2	was	O	O	VBD	O
+1-3	about	O	O	IN	O
+1-4	to	1-5_aux	go	TO	O
+1-5	go	O	O	VB	O
+1-6	on	O	O	O	O
+1-7	a	O	O	DT	O
+1-8	trip	1-5_prep_on	go	NN	P1_NPart_trip
+1-9	and	O	O	O	O
+1-10	I	1-11_nsubj	knew	PRP	P1_customer
+1-11	knew	O	O	VBD	O
+1-12	I	1-14_nsubj	want	PRP	P1_customer
+1-13	'd	1-14_aux	want	MD	O
+1-14	want	1-11_ccomp	knew	VB	O
+1-15	some	O	O	DT	O
+1-16	books	1-14_dobj	want	NNS	P1_book
+1-17	to	1-18_aux	read	TO	O
+1-18	read	1-14_xcomp	want	VB	O
+1-19	on	O	O	O	O
+1-20	the	O	O	DT	O
+1-21	plane	1-18_prep_on	read	NN	P1_NPart_plane
+1-22	and	O	O	O	O
+1-23	on	O	O	O	O
+1-24	the	O	O	DT	O
+1-25	beach	O	O	NN	P1_NPart_beach
+1-26	.	O	O	O	O
+
+#id=2
+#text=I 'd spent enough money on this trip , no need to pay for books too ! 
+2-1	I	2-3_nsubj	spent	PRP	P1_customer
+2-2	'd	2-3_aux	spent	VBD	O
+2-3	spent	O	O	VBN	O
+2-4	enough	O	O	JJ	O
+2-5	money	2-3_dobj	spent	NN	P1_NPart_money
+2-6	on	O	O	O	O
+2-7	this	O	O	DT	O
+2-8	trip	2-3_prep_on	spent	NN	P2_NPart_trip
+2-9	,	O	O	O	O
+2-10	no	O	O	DT	O
+2-11	need	O	O	NN	O
+2-12	to	2-13_aux	pay	TO	O
+2-13	pay	2-3_vmod	spent	VB	O
+2-14	for	O	O	O	O
+2-15	books	2-13_prep_for	pay	NNS	P1_book
+2-16	too	2-13_advmod	pay	RB	O
+2-17	!	O	O	O	O
+
+#id=3
+#text=Instead , I found my library card and headed down to my local branch of the county library . 
+3-1	Instead	3-4_advmod	found	RB	O
+3-2	,	O	O	O	O
+3-3	I	3-4_nsubj	found	PRP	P1_customer
+3-4	found	O	O	VBD	O
+3-5	my	O	O	PRP$	P1_customer
+3-6	library	O	O	NN	O
+3-7	card	3-4_dobj	found	NN	P1_library_card
+3-8	and	O	O	O	O
+3-9	headed	3-4_conj_and	found	VBD	O
+3-10	down	3-9_prt	headed	RP	O
+3-11	to	O	O	O	O
+3-12	my	O	O	PRP$	P1_customer
+3-13	local	O	O	JJ	O
+3-14	branch	3-9_prep_to	headed	NN	P1_NPart_branch
+3-15	of	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	county	O	O	NN	O
+3-18	library	O	O	NN	P1_library
+3-19	.	O	O	O	O
+
+#id=4
+#text=There , I perused the shelves . 
+4-1	There	4-4_advmod	perused	RB	O
+4-2	,	O	O	O	O
+4-3	I	4-4_nsubj	perused	PRP	P1_customer
+4-4	perused	O	O	VBD	O
+4-5	the	O	O	DT	O
+4-6	shelves	4-4_dobj	perused	NNS	P1_shelf
+4-7	.	O	O	O	O
+
+#id=5
+#text=They say not to pick a book by it 's cover but I always do . 
+5-1	They	5-2_nsubj	say	PRP	P1_staff
+5-2	say	O	O	VBP	P1_NPart_say
+5-3	not	5-5_neg	pick	RB	O
+5-4	to	5-5_aux	pick	TO	O
+5-5	pick	5-2_xcomp	say	VB	O
+5-6	a	O	O	DT	O
+5-7	book	5-5_dobj	pick	NN	P1_book
+5-8	by	O	O	O	O
+5-9	it	O	O	PRP	O
+5-10	's	O	O	O	O
+5-11	cover	5-5_prep_by	pick	NN	P1_other
+5-12	but	O	O	O	O
+5-13	I	5-15_nsubj	do	PRP	P1_customer
+5-14	always	5-15_advmod	do	RB	O
+5-15	do	5-2_conj_but	say	VBP	O
+5-16	.	O	O	O	O
+
+#id=6
+#text=I always find myself grabbing the books the librarians have put up on display on top of the shelves . 
+6-1	I	6-3_nsubj	find	PRP	P1_customer
+6-2	always	6-3_advmod	find	RB	O
+6-3	find	O	O	VBP	O
+6-4	myself	6-5_nsubj	grabbing	PRP	P1_customer
+6-5	grabbing	6-3_dep	find	VBG	O
+6-6	the	O	O	DT	O
+6-7	books	6-5_dobj	grabbing	NNS	P1_book
+6-8	the	O	O	DT	O
+6-9	librarians	6-11_nsubj	put	NNS	P2_staff
+6-10	have	6-11_aux	put	VBP	O
+6-11	put	O	O	VBN	O
+6-12	up	6-11_prt	put	RP	O
+6-13	on	O	O	O	O
+6-14	display	6-11_prep_on	put	NN	O
+6-15	on	O	O	O	O
+6-16	top	O	O	O	O
+6-17	of	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	shelves	6-11_prep_on_top_of	put	NNS	P1_shelf
+6-20	.	O	O	O	O
+
+#id=7
+#text=Soon I had an armful of books and I headed for the desk . 
+7-1	Soon	7-3_advmod	had	RB	O
+7-2	I	7-3_nsubj	had	PRP	P1_customer
+7-3	had	O	O	VBD	O
+7-4	an	O	O	DT	O
+7-5	armful	7-3_dobj	had	NN	O
+7-6	of	O	O	O	O
+7-7	books	O	O	NNS	P1_book
+7-8	and	O	O	O	O
+7-9	I	7-10_nsubj	headed	PRP	P1_customer
+7-10	headed	7-3_conj_and	had	VBN	O
+7-11	for	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	desk	7-10_prep_for	headed	NN	P1_check-out_desk
+7-14	.	O	O	O	O
+
+#id=8
+#text=The librarian was very friendly as she scanned a code inside each book and then asked for my library card . 
+8-1	The	O	O	DT	O
+8-2	librarian	O	O	NN	P2_staff
+8-3	was	O	O	VBD	O
+8-4	very	O	O	RB	O
+8-5	friendly	O	O	JJ	O
+8-6	as	8-8_mark	scanned	IN	O
+8-7	she	8-8_nsubj	scanned	PRP	P2_staff
+8-8	scanned	O	O	VBD	O
+8-9	a	O	O	DT	O
+8-10	code	8-8_dobj	scanned	NN	P1_NPart_code
+8-11	inside	O	O	O	O
+8-12	each	O	O	DT	O
+8-13	book	8-8_prep_inside	scanned	NN	P1_book
+8-14	and	O	O	O	O
+8-15	then	8-16_advmod	asked	RB	O
+8-16	asked	8-8_conj_and	scanned	VBD	O
+8-17	for	O	O	O	O
+8-18	my	O	O	PRP$	P1_customer
+8-19	library	O	O	NN	O
+8-20	card	8-16_prep_for	asked	NN	P2_library_card
+8-21	.	O	O	O	O
+
+#id=9
+#text=As I headed for the door , she reminded me the books would be due back in two weeks . 
+9-1	As	9-3_mark	headed	IN	O
+9-2	I	9-3_nsubj	headed	PRP	P1_customer
+9-3	headed	9-9_advcl	reminded	VBD	O
+9-4	for	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	door	9-3_prep_for	headed	NN	P2_other
+9-7	,	O	O	O	O
+9-8	she	9-9_nsubj	reminded	PRP	P2_staff
+9-9	reminded	O	O	VBD	O
+9-10	me	9-9_dobj	reminded	PRP	P2_customer
+9-11	the	O	O	DT	O
+9-12	books	O	O	NNS	P1_book
+9-13	would	O	O	MD	O
+9-14	be	O	O	VB	O
+9-15	due	9-9_dep	reminded	JJ	O
+9-16	back	O	O	RB	O
+9-17	in	O	O	O	O
+9-18	two	O	O	CD	O
+9-19	weeks	O	O	NNS	P1_return_date
+9-20	.	O	O	O	O
+
+#id=10
+#text=That worked out perfectly , because that happened to be right when I would be back from my trip . 
+10-1	That	10-2_nsubj	worked	DT	O
+10-2	worked	O	O	VBD	O
+10-3	out	10-2_prt	worked	RP	O
+10-4	perfectly	10-2_advmod	worked	RB	O
+10-5	,	O	O	O	O
+10-6	because	10-8_mark	happened	IN	O
+10-7	that	10-8_nsubj	happened	DT	O
+10-8	happened	10-2_advcl	worked	VBD	O
+10-9	to	O	O	TO	O
+10-10	be	O	O	VB	O
+10-11	right	10-8_xcomp	happened	JJ	O
+10-12	when	10-15_advmod	be	WRB	O
+10-13	I	10-15_nsubj	be	PRP	P1_customer
+10-14	would	10-15_aux	be	MD	O
+10-15	be	O	O	VB	O
+10-16	back	10-15_advmod	be	RB	O
+10-17	from	O	O	O	O
+10-18	my	O	O	PRP$	P1_customer
+10-19	trip	10-15_prep_from	be	NN	P3_NPart_trip
+10-20	.	O	O	O	O

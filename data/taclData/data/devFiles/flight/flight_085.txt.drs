@@ -1,0 +1,244 @@
+#id=1
+#text=Flying in an airplane is always exciting . 
+1-1	Flying	O	O	NNP	O
+1-2	in	O	O	O	O
+1-3	an	O	O	DT	O
+1-4	airplane	O	O	NN	P1_plane
+1-5	is	O	O	VBZ	O
+1-6	always	O	O	RB	O
+1-7	exciting	O	O	JJ	O
+1-8	.	O	O	O	O
+
+#id=2
+#text=The day before , I always make sure that my bags are packed . 
+2-1	The	O	O	DT	O
+2-2	day	O	O	NN	O
+2-3	before	2-7_advmod	make	RB	P1_time/date
+2-4	,	O	O	O	O
+2-5	I	2-7_nsubj	make	PRP	P1_passenger
+2-6	always	2-7_advmod	make	RB	O
+2-7	make	O	O	VBP	O
+2-8	sure	2-7_acomp	make	JJ	O
+2-9	that	2-13_mark	packed	IN	O
+2-10	my	O	O	PRP$	P1_passenger
+2-11	bags	2-13_nsubjpass	packed	NNS	P1_check_in_luggage
+2-12	are	2-13_auxpass	packed	VBP	O
+2-13	packed	O	O	VBN	O
+2-14	.	O	O	O	O
+
+#id=3
+#text=If you are bringing a carry on , pack that as well but make sure you follow guidelines for liquids . 
+3-1	If	3-4_mark	bringing	IN	O
+3-2	you	3-4_nsubj	bringing	PRP	P1_passenger
+3-3	are	3-4_aux	bringing	VBP	O
+3-4	bringing	3-9_advcl	pack	VBG	O
+3-5	a	O	O	DT	O
+3-6	carry	3-4_dobj	bringing	NN	O
+3-7	on	3-4_prt	bringing	RP	P1_carry_on_luggage
+3-8	,	O	O	O	O
+3-9	pack	O	O	VB	O
+3-10	that	3-9_dobj	pack	DT	P1_carry_on_luggage
+3-11	as	O	O	RB	O
+3-12	well	3-9_advmod	pack	RB	O
+3-13	but	O	O	O	O
+3-14	make	3-9_conj_but	pack	VB	O
+3-15	sure	3-14_acomp	make	JJ	O
+3-16	you	3-17_nsubj	follow	PRP	P1_passenger
+3-17	follow	O	O	VBP	O
+3-18	guidelines	3-17_dobj	follow	NNS	P1_NPart_guidelines
+3-19	for	O	O	O	O
+3-20	liquids	O	O	NNS	P1_NPart_liquids
+3-21	.	O	O	O	O
+
+#id=4
+#text=Also make sure your bags do not weigh too much to avoid extra charges . 
+4-1	Also	4-2_advmod	make	RB	O
+4-2	make	O	O	VB	O
+4-3	sure	4-2_acomp	make	JJ	O
+4-4	your	O	O	PRP$	P1_passenger
+4-5	bags	4-8_nsubj	weigh	NNS	P1_check_in_luggage
+4-6	do	4-8_aux	weigh	VBP	O
+4-7	not	4-8_neg	weigh	RB	O
+4-8	weigh	O	O	VB	O
+4-9	too	O	O	RB	O
+4-10	much	4-8_advmod	weigh	RB	O
+4-11	to	4-12_aux	avoid	TO	O
+4-12	avoid	4-8_xcomp	weigh	VB	O
+4-13	extra	O	O	JJ	O
+4-14	charges	4-12_dobj	avoid	NNS	P1_NPart_charges
+4-15	.	O	O	O	O
+
+#id=5
+#text=The morning of your flight , make sure you get there one or two hours early , depending on the size of the airport . 
+5-1	The	O	O	DT	O
+5-2	morning	5-7_nsubj	make	NN	P2_time/date
+5-3	of	O	O	O	O
+5-4	your	O	O	PRP$	P1_passenger
+5-5	flight	O	O	NN	P1_flight
+5-6	,	O	O	O	O
+5-7	make	O	O	VBP	O
+5-8	sure	5-7_acomp	make	JJ	O
+5-9	you	5-10_nsubj	get	PRP	P1_passenger
+5-10	get	O	O	VBP	O
+5-11	there	5-10_advmod	get	RB	O
+5-12	one	O	O	CD	O
+5-13	or	O	O	O	O
+5-14	two	O	O	CD	O
+5-15	hours	O	O	NNS	P3_time/date
+5-16	early	5-10_advmod	get	RB	O
+5-17	,	O	O	O	O
+5-18	depending	O	O	O	O
+5-19	on	5-10_prepc_depending_on	get	IN	O
+5-20	the	O	O	DT	O
+5-21	size	5-10_pobj	get	NN	P1_NPart_size
+5-22	of	O	O	O	O
+5-23	the	O	O	DT	O
+5-24	airport	O	O	NN	P1_airport
+5-25	.	O	O	O	O
+
+#id=6
+#text=Check your bags in necessary and recieve your boarding ticket . 
+6-1	Check	O	O	VB	O
+6-2	your	O	O	PRP$	P1_passenger
+6-3	bags	6-1_dobj	Check	NNS	P1_check_in_luggage
+6-4	in	O	O	O	O
+6-5	necessary	6-1_prep_in	Check	JJ	O
+6-6	and	O	O	O	O
+6-7	recieve	6-1_conj_and	Check	VB	O
+6-8	your	O	O	PRP$	P1_passenger
+6-9	boarding	O	O	VBG	O
+6-10	ticket	6-7_dobj	recieve	NN	P1_boarding_pass
+6-11	.	O	O	O	O
+
+#id=7
+#text=After that , you can head over to security . 
+7-1	After	O	O	O	O
+7-2	that	7-6_prep_after	head	DT	O
+7-3	,	O	O	O	O
+7-4	you	7-6_nsubj	head	PRP	P1_passenger
+7-5	can	7-6_aux	head	MD	O
+7-6	head	O	O	VB	O
+7-7	over	7-6_prt	head	RP	O
+7-8	to	O	O	O	O
+7-9	security	7-6_prep_to	head	NN	P1_security_check
+7-10	.	O	O	O	O
+
+#id=8
+#text=At Security , take off your shoes and any metal and put them in a bin along with your phone and carry on . 
+8-1	At	O	O	O	O
+8-2	Security	8-4_prep_at	take	NNP	P1_security_check
+8-3	,	O	O	O	O
+8-4	take	O	O	VB	O
+8-5	off	8-4_prt	take	RP	O
+8-6	your	O	O	PRP$	P1_passenger
+8-7	shoes	8-4_dobj	take	NNS	P1_personal_belongings
+8-8	and	O	O	O	O
+8-9	any	O	O	DT	O
+8-10	metal	O	O	NN	P2_personal_belongings
+8-11	and	O	O	O	O
+8-12	put	8-4_conj_and	take	VB	O
+8-13	them	8-12_dobj	put	PRP	P3_personal_belongings
+8-14	in	O	O	O	O
+8-15	a	O	O	DT	O
+8-16	bin	8-12_prep_in	put	NNP	P1_NPart_bin
+8-17	along	O	O	O	O
+8-18	with	O	O	O	O
+8-19	your	O	O	PRP$	P1_passenger
+8-20	phone	O	O	NN	P4_personal_belongings
+8-21	and	O	O	O	O
+8-22	carry	8-4_conj_and	take	VB	O
+8-23	on	8-22_prt	carry	RP	P1_carry_on_luggage
+8-24	.	O	O	O	O
+
+#id=9
+#text=When the guard tells you to do so , walk through the scanner . 
+9-1	When	9-4_advmod	tells	WRB	O
+9-2	the	O	O	DT	O
+9-3	guard	9-4_nsubj	tells	NN	P1_staff
+9-4	tells	9-10_advcl	walk	VBZ	O
+9-5	you	9-4_dobj	tells	PRP	P1_passenger
+9-6	to	9-7_aux	do	TO	O
+9-7	do	9-4_xcomp	tells	VB	O
+9-8	so	9-7_advmod	do	RB	O
+9-9	,	O	O	O	O
+9-10	walk	O	O	VB	O
+9-11	through	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	scanner	9-10_prep_through	walk	NN	P2_security_check
+9-14	.	O	O	O	O
+
+#id=10
+#text=Once cleared , you can grab your things back . 
+10-1	Once	10-2_mark	cleared	IN	O
+10-2	cleared	10-6_advcl	grab	VBD	O
+10-3	,	O	O	O	O
+10-4	you	10-6_nsubj	grab	PRP	P1_passenger
+10-5	can	10-6_aux	grab	MD	O
+10-6	grab	O	O	VB	O
+10-7	your	O	O	PRP$	P1_passenger
+10-8	things	10-6_dobj	grab	NNS	P3_personal_belongings
+10-9	back	10-6_advmod	grab	RB	O
+10-10	.	O	O	O	O
+
+#id=11
+#text=Now wait until your flight is called to board . 
+11-1	Now	11-2_discourse	wait	RB	O
+11-2	wait	O	O	VB	O
+11-3	until	11-7_mark	called	IN	O
+11-4	your	O	O	PRP$	P1_passenger
+11-5	flight	11-7_nsubjpass	called	NN	P2_flight
+11-6	is	11-7_auxpass	called	VBZ	O
+11-7	called	11-2_advcl	wait	VBN	O
+11-8	to	O	O	O	O
+11-9	board	11-7_prep_to	called	NN	O
+11-10	.	O	O	O	O
+
+#id=12
+#text=When it is time , hand oyur boarding pass the the flight attendant and take you seat . 
+12-1	When	O	O	WRB	O
+12-2	it	O	O	PRP	O
+12-3	is	O	O	VBZ	O
+12-4	time	12-9_advcl	pass	NN	O
+12-5	,	O	O	O	O
+12-6	hand	O	O	NN	O
+12-7	oyur	12-9_nsubj	pass	NN	P1_passenger
+12-8	boarding	O	O	VBG	O
+12-9	pass	O	O	VB	P1_boarding_pass
+12-10	the	O	O	DT	O
+12-11	the	O	O	DT	O
+12-12	flight	O	O	NN	O
+12-13	attendant	12-9_dobj	pass	NN	P2_staff
+12-14	and	O	O	O	O
+12-15	take	12-9_conj_and	pass	VB	O
+12-16	you	12-15_dobj	take	PRP	P1_passenger
+12-17	seat	12-9_dobj	pass	NN	P1_seat
+12-18	.	O	O	O	O
+
+#id=13
+#text=Stow your carry on and buckle your seatbelt . 
+13-1	Stow	O	O	VB	O
+13-2	your	O	O	PRP$	P1_passenger
+13-3	carry	13-1_dobj	Stow	NN	O
+13-4	on	13-1_prt	Stow	RP	P1_carry_on_luggage
+13-5	and	O	O	O	O
+13-6	buckle	13-1_conj_and	Stow	VB	O
+13-7	your	O	O	PRP$	P1_passenger
+13-8	seatbelt	13-6_dobj	buckle	NN	P1_seat_belt
+13-9	.	O	O	O	O
+
+#id=14
+#text=Watch the flight attendant give the safty demonstration , and enjoy your flight ! 
+14-1	Watch	O	O	VB	O
+14-2	the	O	O	DT	O
+14-3	flight	O	O	NN	O
+14-4	attendant	14-5_nsubj	give	NN	P2_staff
+14-5	give	14-1_ccomp	Watch	VB	O
+14-6	the	O	O	DT	O
+14-7	safty	O	O	JJ	O
+14-8	demonstration	14-5_dobj	give	NN	P1_safety_instructions
+14-9	,	O	O	O	O
+14-10	and	O	O	O	O
+14-11	enjoy	14-5_conj_and	give	VB	O
+14-12	your	O	O	PRP$	P1_passenger
+14-13	flight	14-11_dobj	enjoy	NN	P2_flight
+14-14	!	O	O	O	O

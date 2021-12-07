@@ -1,0 +1,213 @@
+#id=1
+#text=One of my favorite weekly activities is going grocery shopping . 
+1-1	One	1-8_nsubj	going	CD	O
+1-2	of	O	O	O	O
+1-3	my	O	O	PRP$	P1_shopper
+1-4	favorite	O	O	JJ	O
+1-5	weekly	O	O	JJ	O
+1-6	activities	O	O	NNS	P1_NPart_activities
+1-7	is	1-8_aux	going	VBZ	O
+1-8	going	O	O	VBG	O
+1-9	grocery	O	O	NN	O
+1-10	shopping	1-8_dobj	going	NN	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=Yesterday afternoon I took a casual stroll to my local Whole Foods and could not resist their tempting and rather delicious items . 
+2-1	Yesterday	O	O	NN	O
+2-2	afternoon	2-4_nsubj	took	NN	P1_NPart_afternoon
+2-3	I	2-4_nsubj	took	PRP	P1_shopper
+2-4	took	O	O	VBD	O
+2-5	a	O	O	DT	O
+2-6	casual	O	O	JJ	O
+2-7	stroll	2-4_dobj	took	NN	O
+2-8	to	O	O	O	O
+2-9	my	O	O	PRP$	P1_shopper
+2-10	local	O	O	JJ	O
+2-11	Whole	O	O	JJ	O
+2-12	Foods	2-4_prep_to	took	NNPS	P1_grocery_shop
+2-13	and	O	O	O	O
+2-14	could	2-16_aux	resist	MD	O
+2-15	not	2-16_neg	resist	RB	O
+2-16	resist	2-4_conj_and	took	VB	O
+2-17	their	O	O	PRP$	P1_grocery_shop
+2-18	tempting	O	O	JJ	O
+2-19	and	O	O	O	O
+2-20	rather	O	O	RB	O
+2-21	delicious	O	O	JJ	O
+2-22	items	2-16_dobj	resist	NNS	P1_groceries
+2-23	.	O	O	O	O
+
+#id=3
+#text=My favorite place is the bakery . 
+3-1	My	O	O	PRP$	P1_shopper
+3-2	favorite	O	O	JJ	O
+3-3	place	O	O	NN	P1_NPart_place
+3-4	is	O	O	VBZ	O
+3-5	the	O	O	DT	O
+3-6	bakery	O	O	NN	P1_section
+3-7	.	O	O	O	O
+
+#id=4
+#text=From the warm , freshly baked chocolate chip cookies , to the elaborate berries and cream cakes , there is not a product that does not disappoint . 
+4-1	From	O	O	O	O
+4-2	the	O	O	DT	O
+4-3	warm	4-20_prep_from	is	JJ	O
+4-4	,	O	O	O	O
+4-5	freshly	O	O	RB	O
+4-6	baked	O	O	JJ	O
+4-7	chocolate	O	O	NN	O
+4-8	chip	O	O	NN	O
+4-9	cookies	O	O	NNS	P2_groceries
+4-10	,	O	O	O	O
+4-11	to	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	elaborate	O	O	JJ	O
+4-14	berries	O	O	NNS	P3_groceries
+4-15	and	O	O	O	O
+4-16	cream	O	O	NN	O
+4-17	cakes	O	O	NNS	P4_groceries
+4-18	,	O	O	O	O
+4-19	there	4-20_expl	is	EX	O
+4-20	is	O	O	VBZ	O
+4-21	not	4-20_neg	is	RB	O
+4-22	a	O	O	DT	O
+4-23	product	4-20_nsubj	is	NN	P5_groceries
+4-24	that	4-27_nsubj	disappoint	WDT	O
+4-25	does	4-27_aux	disappoint	VBZ	O
+4-26	not	4-27_neg	disappoint	RB	O
+4-27	disappoint	O	O	VB	O
+4-28	.	O	O	O	O
+
+#id=5
+#text=Another section I perused was the prepared food section . 
+5-1	Another	O	O	DT	O
+5-2	section	O	O	NN	P2_section
+5-3	I	5-4_nsubj	perused	PRP	P1_shopper
+5-4	perused	O	O	VBD	O
+5-5	was	O	O	VBD	O
+5-6	the	O	O	DT	O
+5-7	prepared	O	O	JJ	O
+5-8	food	O	O	NN	P1_NPart_food
+5-9	section	O	O	NN	P3_section
+5-10	.	O	O	O	O
+
+#id=6
+#text=From pizza , tacos , a salad bar , and fried chicken , there was plenty to choose from . 
+6-1	From	O	O	O	O
+6-2	pizza	6-15_prep_from	was	NN	P6_groceries
+6-3	,	O	O	O	O
+6-4	tacos	O	O	NNS	P7_groceries
+6-5	,	O	O	O	O
+6-6	a	O	O	DT	O
+6-7	salad	O	O	NN	O
+6-8	bar	O	O	NN	P4_section
+6-9	,	O	O	O	O
+6-10	and	O	O	O	O
+6-11	fried	O	O	JJ	O
+6-12	chicken	O	O	NN	P8_groceries
+6-13	,	O	O	O	O
+6-14	there	6-15_expl	was	EX	O
+6-15	was	O	O	VBD	O
+6-16	plenty	6-15_advmod	was	RB	O
+6-17	to	6-18_aux	choose	TO	O
+6-18	choose	6-15_xcomp	was	VB	O
+6-19	from	6-18_prep	choose	IN	O
+6-20	.	O	O	O	O
+
+#id=7
+#text=My eyes wandered to the burrito bar , as I glanced at the grilled chicken , steak and fajita vegetables . 
+7-1	My	O	O	PRP$	P1_shopper
+7-2	eyes	7-3_nsubj	wandered	NNS	P1_NPart_eyes
+7-3	wandered	O	O	VBD	O
+7-4	to	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	burrito	O	O	NN	O
+7-7	bar	7-3_prep_to	wandered	NN	P5_section
+7-8	,	O	O	O	O
+7-9	as	7-11_mark	glanced	IN	O
+7-10	I	7-11_nsubj	glanced	PRP	P1_shopper
+7-11	glanced	7-3_advcl	wandered	VBD	O
+7-12	at	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	grilled	O	O	JJ	O
+7-15	chicken	O	O	NN	P9_groceries
+7-16	,	O	O	O	O
+7-17	steak	O	O	NN	P10_groceries
+7-18	and	O	O	O	O
+7-19	fajita	O	O	NN	O
+7-20	vegetables	7-11_prep_at	glanced	NNS	P11_groceries
+7-21	.	O	O	O	O
+
+#id=8
+#text=I ordered a grilled steak burrito stuffed with cheese , hot sauce , salsa , and guacamole . 
+8-1	I	8-2_nsubj	ordered	PRP	P1_shopper
+8-2	ordered	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	grilled	O	O	JJ	O
+8-5	steak	O	O	NN	P1_NPart_steak
+8-6	burrito	8-7_nsubj	stuffed	NN	P12_groceries
+8-7	stuffed	8-2_ccomp	ordered	VBD	O
+8-8	with	O	O	O	O
+8-9	cheese	8-7_prep_with	stuffed	NN	P13_groceries
+8-10	,	O	O	O	O
+8-11	hot	O	O	JJ	O
+8-12	sauce	O	O	NN	P14_groceries
+8-13	,	O	O	O	O
+8-14	salsa	O	O	NN	P15_groceries
+8-15	,	O	O	O	O
+8-16	and	O	O	O	O
+8-17	guacamole	O	O	NN	P16_groceries
+8-18	.	O	O	O	O
+
+#id=9
+#text=After I paid the kind chef who created it , I took one large mammoth bite and dug in . 
+9-1	After	9-3_mark	paid	IN	O
+9-2	I	9-3_nsubj	paid	PRP	P1_shopper
+9-3	paid	9-12_advcl	took	VBD	O
+9-4	the	O	O	DT	O
+9-5	kind	O	O	NN	O
+9-6	chef	9-3_dobj	paid	NN	P1_NPart_chef
+9-7	who	9-8_nsubj	created	WP	O
+9-8	created	O	O	VBD	O
+9-9	it	9-8_dobj	created	PRP	P12_groceries
+9-10	,	O	O	O	O
+9-11	I	9-12_nsubj	took	PRP	P1_shopper
+9-12	took	O	O	VBD	O
+9-13	one	O	O	CD	O
+9-14	large	O	O	JJ	O
+9-15	mammoth	O	O	JJ	O
+9-16	bite	9-12_dobj	took	NNS	P1_NPart_bite
+9-17	and	O	O	O	O
+9-18	dug	9-12_conj_and	took	VBD	O
+9-19	in	9-18_prt	dug	RP	O
+9-20	.	O	O	O	O
+
+#id=10
+#text=It was one of the most delicious burritos I had ever tasted . 
+10-1	It	O	O	PRP	P12_groceries
+10-2	was	O	O	VBD	O
+10-3	one	O	O	CD	O
+10-4	of	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	most	O	O	RBS	O
+10-7	delicious	O	O	JJ	O
+10-8	burritos	O	O	NNS	P12_groceries
+10-9	I	10-12_nsubj	tasted	PRP	P1_shopper
+10-10	had	10-12_aux	tasted	VBD	O
+10-11	ever	10-12_advmod	tasted	RB	O
+10-12	tasted	O	O	VBN	O
+10-13	.	O	O	O	O
+
+#id=11
+#text=I made sure to definitely come back next time ! 
+11-1	I	11-2_nsubj	made	PRP	P1_shopper
+11-2	made	O	O	VBD	O
+11-3	sure	11-2_acomp	made	JJ	O
+11-4	to	11-6_aux	come	TO	O
+11-5	definitely	11-6_advmod	come	RB	O
+11-6	come	O	O	VB	O
+11-7	back	11-6_prt	come	RP	O
+11-8	next	O	O	JJ	O
+11-9	time	11-6_dobj	come	NN	O
+11-10	!	O	O	O	O

@@ -1,0 +1,207 @@
+#id=1
+#text=My family recently moved to a new home with a bland and boring yard . 
+1-1	My	O	O	PRP$	P1_gardener
+1-2	family	1-4_nsubj	moved	NN	P2_gardener
+1-3	recently	1-4_advmod	moved	RB	O
+1-4	moved	O	O	VBD	O
+1-5	to	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	new	O	O	JJ	O
+1-8	home	1-4_prep_to	moved	NN	P1_NPart_home
+1-9	with	O	O	O	O
+1-10	a	O	O	DT	O
+1-11	bland	O	O	JJ	O
+1-12	and	O	O	O	O
+1-13	boring	O	O	JJ	O
+1-14	yard	1-4_prep_with	moved	NN	P1_NPart_yard
+1-15	.	O	O	O	O
+
+#id=2
+#text=We decided to plant some trees to spice up the place , so my mother , father , siblings and I all packed ourselves into the SUV and drove to a nearby nursery . 
+2-1	We	2-2_nsubj	decided	PRP	P3_gardener
+2-2	decided	O	O	VBD	O
+2-3	to	2-4_aux	plant	TO	O
+2-4	plant	2-2_xcomp	decided	VB	O
+2-5	some	O	O	DT	O
+2-6	trees	2-4_dobj	plant	NNS	P1_tree
+2-7	to	2-8_aux	spice	TO	O
+2-8	spice	2-4_xcomp	plant	VB	O
+2-9	up	2-8_prt	spice	RP	O
+2-10	the	O	O	DT	O
+2-11	place	2-8_dobj	spice	NN	P1_NPart_place
+2-12	,	O	O	O	O
+2-13	so	2-2_dep	decided	IN	O
+2-14	my	O	O	PRP$	P1_gardener
+2-15	mother	2-23_nsubj	packed	NN	P4_gardener
+2-16	,	O	O	O	O
+2-17	father	O	O	NN	P5_gardener
+2-18	,	O	O	O	O
+2-19	siblings	O	O	NNS	P6_gardener
+2-20	and	O	O	O	O
+2-21	I	O	O	PRP	P1_gardener
+2-22	all	O	O	DT	O
+2-23	packed	2-2_parataxis	decided	VBD	O
+2-24	ourselves	2-23_dobj	packed	PRP	P3_gardener
+2-25	into	O	O	O	O
+2-26	the	O	O	DT	O
+2-27	SUV	2-23_prep_into	packed	NNP	P1_NPart_suv
+2-28	and	O	O	O	O
+2-29	drove	2-23_conj_and	packed	VBD	O
+2-30	to	O	O	O	O
+2-31	a	O	O	DT	O
+2-32	nearby	O	O	JJ	O
+2-33	nursery	2-29_prep_to	drove	NN	P1_shop
+2-34	.	O	O	O	O
+
+#id=3
+#text=We looked at many different types of trees before settling on the apple trees . 
+3-1	We	3-2_nsubj	looked	PRP	P3_gardener
+3-2	looked	O	O	VBD	O
+3-3	at	O	O	O	O
+3-4	many	O	O	JJ	O
+3-5	different	O	O	JJ	O
+3-6	types	3-2_prep_at	looked	NNS	P1_NPart_types
+3-7	of	O	O	O	O
+3-8	trees	O	O	NNS	P1_tree
+3-9	before	O	O	O	O
+3-10	settling	3-2_prepc_before	looked	VBG	O
+3-11	on	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	apple	O	O	NN	O
+3-14	trees	3-10_prep_on	settling	NNS	P1_tree
+3-15	.	O	O	O	O
+
+#id=4
+#text=We bought several baby apple trees and took them home for planting . 
+4-1	We	4-2_nsubj	bought	PRP	P3_gardener
+4-2	bought	O	O	VBD	O
+4-3	several	O	O	JJ	O
+4-4	baby	O	O	NN	O
+4-5	apple	O	O	NN	O
+4-6	trees	4-2_dobj	bought	NNS	P1_tree
+4-7	and	O	O	O	O
+4-8	took	4-2_conj_and	bought	VBD	O
+4-9	them	4-8_dobj	took	PRP	P1_tree
+4-10	home	4-8_advmod	took	NN	P2_NPart_home
+4-11	for	O	O	O	O
+4-12	planting	4-8_prep_for	took	NN	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=First , my father and older brother dug large holes in the ground . 
+5-1	First	5-8_advmod	dug	RB	O
+5-2	,	O	O	O	O
+5-3	my	O	O	PRP$	P1_gardener
+5-4	father	5-8_nsubj	dug	NN	P5_gardener
+5-5	and	O	O	O	O
+5-6	older	O	O	JJR	O
+5-7	brother	O	O	NN	P7_gardener
+5-8	dug	O	O	VBD	O
+5-9	large	O	O	JJ	O
+5-10	holes	5-8_dobj	dug	NNS	P1_hole
+5-11	in	O	O	O	O
+5-12	the	O	O	DT	O
+5-13	ground	5-8_prep_in	dug	NN	P1_NPart_ground
+5-14	.	O	O	O	O
+
+#id=6
+#text=I wanted to help , but they said I was too young to hold the shovel ! 
+6-1	I	6-2_nsubj	wanted	PRP	P1_gardener
+6-2	wanted	O	O	VBD	O
+6-3	to	6-4_aux	help	TO	O
+6-4	help	6-2_xcomp	wanted	VB	O
+6-5	,	O	O	O	O
+6-6	but	O	O	O	O
+6-7	they	6-8_nsubj	said	PRP	P8_gardener
+6-8	said	6-2_conj_but	wanted	VBD	O
+6-9	I	O	O	PRP	P1_gardener
+6-10	was	O	O	VBD	O
+6-11	too	O	O	RB	O
+6-12	young	6-8_ccomp	said	JJ	O
+6-13	to	6-14_aux	hold	TO	O
+6-14	hold	O	O	VB	O
+6-15	the	O	O	DT	O
+6-16	shovel	6-14_dobj	hold	NN	P1_gardening_tool
+6-17	!	O	O	O	O
+
+#id=7
+#text=After the holes were dug , the apple trees were placed inside . 
+7-1	After	O	O	IN	O
+7-2	the	O	O	DT	O
+7-3	holes	O	O	NNS	P1_hole
+7-4	were	O	O	VBD	O
+7-5	dug	7-11_advcl	placed	JJ	O
+7-6	,	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	apple	O	O	NN	O
+7-9	trees	7-11_nsubjpass	placed	NNS	P1_tree
+7-10	were	7-11_auxpass	placed	VBD	O
+7-11	placed	O	O	VBN	O
+7-12	inside	7-11_advmod	placed	RB	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=Then , we shoveled dirt into the holes to fix the apple trees in place . 
+8-1	Then	8-4_advmod	shoveled	RB	O
+8-2	,	O	O	O	O
+8-3	we	8-4_nsubj	shoveled	PRP	P3_gardener
+8-4	shoveled	O	O	VBD	O
+8-5	dirt	8-4_dobj	shoveled	NN	P1_dirt
+8-6	into	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	holes	8-4_prep_into	shoveled	NNS	P1_hole
+8-9	to	8-10_aux	fix	TO	O
+8-10	fix	8-4_vmod	shoveled	VB	O
+8-11	the	O	O	DT	O
+8-12	apple	O	O	NN	O
+8-13	trees	8-10_dobj	fix	NNS	P1_tree
+8-14	in	O	O	O	O
+8-15	place	8-10_prep_in	fix	NN	O
+8-16	.	O	O	O	O
+
+#id=9
+#text=I was allowed to help with that , thankfully . 
+9-1	I	9-3_nsubjpass	allowed	PRP	P1_gardener
+9-2	was	9-3_auxpass	allowed	VBD	O
+9-3	allowed	O	O	VBN	O
+9-4	to	9-5_aux	help	TO	O
+9-5	help	9-3_xcomp	allowed	VB	O
+9-6	with	O	O	O	O
+9-7	that	9-5_prep_with	help	DT	O
+9-8	,	O	O	O	O
+9-9	thankfully	9-5_advmod	help	RB	O
+9-10	.	O	O	O	O
+
+#id=10
+#text=After all that , our baby apple trees were planted in the ground and we were all very excited to see what they would look like as they grew up . 
+10-1	After	O	O	O	O
+10-2	all	O	O	PDT	O
+10-3	that	10-10_prep_after	planted	DT	O
+10-4	,	O	O	O	O
+10-5	our	O	O	PRP$	P3_gardener
+10-6	baby	O	O	NN	O
+10-7	apple	O	O	NN	O
+10-8	trees	10-10_nsubjpass	planted	NNS	P1_tree
+10-9	were	10-10_auxpass	planted	VBD	O
+10-10	planted	O	O	VBN	O
+10-11	in	O	O	O	O
+10-12	the	O	O	DT	O
+10-13	ground	10-10_prep_in	planted	NN	P2_NPart_ground
+10-14	and	O	O	O	O
+10-15	we	O	O	PRP	P3_gardener
+10-16	were	O	O	VBD	O
+10-17	all	O	O	RB	O
+10-18	very	O	O	RB	O
+10-19	excited	10-10_conj_and	planted	JJ	O
+10-20	to	10-21_aux	see	TO	O
+10-21	see	O	O	VB	O
+10-22	what	10-25_dobj	look	WP	O
+10-23	they	10-25_nsubj	look	PRP	P1_tree
+10-24	would	10-25_aux	look	MD	O
+10-25	look	10-21_ccomp	see	VB	O
+10-26	like	O	O	O	O
+10-27	as	10-29_mark	grew	IN	O
+10-28	they	10-29_nsubj	grew	PRP	P1_tree
+10-29	grew	10-25_prepc_like	look	VBD	O
+10-30	up	10-29_prt	grew	RP	O
+10-31	.	O	O	O	O

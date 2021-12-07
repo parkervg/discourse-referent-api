@@ -1,0 +1,209 @@
+#id=1
+#text=I decided to go to the library this morning as I had run out of books to read . 
+1-1	I	1-2_nsubj	decided	PRP	P1_customer
+1-2	decided	O	O	VBD	O
+1-3	to	1-4_aux	go	TO	O
+1-4	go	1-2_xcomp	decided	VB	O
+1-5	to	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	library	1-4_prep_to	go	NN	P1_library
+1-8	this	O	O	DT	O
+1-9	morning	1-4_tmod	go	NN	P1_NPart_morning
+1-10	as	1-13_mark	run	IN	O
+1-11	I	1-13_nsubj	run	PRP	P1_customer
+1-12	had	1-13_aux	run	VBD	O
+1-13	run	1-4_advcl	go	VBN	O
+1-14	out	O	O	O	O
+1-15	of	O	O	O	O
+1-16	books	1-13_prep_out_of	run	NNS	P1_book
+1-17	to	1-18_aux	read	TO	O
+1-18	read	1-13_xcomp	run	VB	O
+1-19	.	O	O	O	O
+
+#id=2
+#text=I still love using the public library because they give me the option to borrow the book . 
+2-1	I	2-3_nsubj	love	PRP	P1_customer
+2-2	still	2-3_advmod	love	RB	O
+2-3	love	O	O	VBP	O
+2-4	using	2-3_xcomp	love	VBG	O
+2-5	the	O	O	DT	O
+2-6	public	O	O	JJ	O
+2-7	library	2-4_dobj	using	NN	P1_library
+2-8	because	2-10_mark	give	IN	O
+2-9	they	2-10_nsubj	give	PRP	P1_library
+2-10	give	2-4_advcl	using	VBP	O
+2-11	me	2-10_iobj	give	PRP	P1_customer
+2-12	the	O	O	DT	O
+2-13	option	2-10_dobj	give	NN	P1_NPart_option
+2-14	to	2-15_aux	borrow	TO	O
+2-15	borrow	O	O	VB	O
+2-16	the	O	O	DT	O
+2-17	book	2-15_dobj	borrow	NN	P2_book
+2-18	.	O	O	O	O
+
+#id=3
+#text=When I arrived at the library I was greeted at the door kindly , which I always like about the public library . 
+3-1	When	3-3_advmod	arrived	WRB	O
+3-2	I	3-3_nsubj	arrived	PRP	P1_customer
+3-3	arrived	3-9_advcl	greeted	VBD	O
+3-4	at	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	library	3-3_prep_at	arrived	NN	P1_library
+3-7	I	3-9_nsubjpass	greeted	PRP	P1_customer
+3-8	was	3-9_auxpass	greeted	VBD	O
+3-9	greeted	O	O	VBN	O
+3-10	at	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	door	3-9_prep_at	greeted	NN	P1_NPart_door
+3-13	kindly	3-9_advmod	greeted	RB	O
+3-14	,	O	O	O	O
+3-15	which	3-18_dobj	like	WDT	O
+3-16	I	3-18_nsubj	like	PRP	P1_customer
+3-17	always	3-18_advmod	like	RB	O
+3-18	like	3-9_ccomp	greeted	VBP	O
+3-19	about	O	O	O	O
+3-20	the	O	O	DT	O
+3-21	public	O	O	JJ	O
+3-22	library	3-18_prep_about	like	NN	P1_library
+3-23	.	O	O	O	O
+
+#id=4
+#text=They feel more like a friend of yours than anything else . 
+4-1	They	4-2_nsubj	feel	PRP	P1_staff
+4-2	feel	O	O	VBP	O
+4-3	more	4-2_advmod	feel	RBR	O
+4-4	like	O	O	O	O
+4-5	a	O	O	DT	O
+4-6	friend	4-2_prep_like	feel	NN	P1_NPart_friend
+4-7	of	O	O	O	O
+4-8	yours	O	O	PRP$	O
+4-9	than	O	O	IN	O
+4-10	anything	O	O	NN	O
+4-11	else	O	O	NN	O
+4-12	.	O	O	O	O
+
+#id=5
+#text=I wanted to the fiction section as I like to read stories that are make believe . 
+5-1	I	5-2_nsubj	wanted	PRP	P1_customer
+5-2	wanted	O	O	VBD	O
+5-3	to	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	fiction	O	O	NN	O
+5-6	section	5-2_prep_to	wanted	NN	P1_location_library
+5-7	as	5-9_mark	like	IN	O
+5-8	I	5-9_nsubj	like	PRP	P1_customer
+5-9	like	5-2_advcl	wanted	VBP	O
+5-10	to	5-11_aux	read	TO	O
+5-11	read	5-9_xcomp	like	VB	O
+5-12	stories	5-11_dobj	read	NNS	P3_book
+5-13	that	5-14_nsubj	are	WDT	O
+5-14	are	O	O	VBP	O
+5-15	make	5-14_ccomp	are	VB	O
+5-16	believe	5-15_xcomp	make	VB	O
+5-17	.	O	O	O	O
+
+#id=6
+#text=I found a few books that I was interested in reading and decided to sit down and read a few chapters of them to see if I would like to check them out . 
+6-1	I	6-2_nsubj	found	PRP	P1_customer
+6-2	found	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	few	O	O	JJ	O
+6-5	books	6-2_dobj	found	NNS	P4_book
+6-6	that	O	O	IN	O
+6-7	I	O	O	PRP	P1_customer
+6-8	was	O	O	VBD	O
+6-9	interested	6-2_ccomp	found	JJ	O
+6-10	in	O	O	O	O
+6-11	reading	O	O	NN	O
+6-12	and	O	O	O	O
+6-13	decided	O	O	VBD	O
+6-14	to	6-15_aux	sit	TO	O
+6-15	sit	6-13_xcomp	decided	VB	O
+6-16	down	6-15_prt	sit	RP	O
+6-17	and	O	O	O	O
+6-18	read	6-15_conj_and	sit	VB	O
+6-19	a	O	O	DT	O
+6-20	few	O	O	JJ	O
+6-21	chapters	6-18_dobj	read	NNS	P1_other
+6-22	of	O	O	O	O
+6-23	them	O	O	PRP	P4_book
+6-24	to	6-25_aux	see	TO	O
+6-25	see	6-18_vmod	read	VB	O
+6-26	if	6-29_mark	like	IN	O
+6-27	I	6-29_nsubj	like	PRP	P1_customer
+6-28	would	6-29_aux	like	MD	O
+6-29	like	6-25_advcl	see	VB	O
+6-30	to	6-31_aux	check	TO	O
+6-31	check	6-29_xcomp	like	VB	O
+6-32	them	6-31_dobj	check	PRP	P4_book
+6-33	out	6-31_prt	check	RP	O
+6-34	.	O	O	O	O
+
+#id=7
+#text=I grabbed myself a cup of coffee from the desk first and then proceeded to sit down and read the book . 
+7-1	I	7-2_nsubj	grabbed	PRP	P1_customer
+7-2	grabbed	O	O	VBD	O
+7-3	myself	O	O	PRP	P1_customer
+7-4	a	O	O	DT	O
+7-5	cup	7-2_xcomp	grabbed	NN	O
+7-6	of	O	O	O	O
+7-7	coffee	O	O	NN	P1_NPart_coffee
+7-8	from	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	desk	O	O	NN	P2_location_library
+7-11	first	O	O	JJ	O
+7-12	and	O	O	O	O
+7-13	then	7-14_advmod	proceeded	RB	O
+7-14	proceeded	7-2_conj_and	grabbed	VBD	O
+7-15	to	7-16_aux	sit	TO	O
+7-16	sit	7-14_xcomp	proceeded	VB	O
+7-17	down	7-16_prt	sit	RP	O
+7-18	and	O	O	O	O
+7-19	read	7-16_conj_and	sit	VB	O
+7-20	the	O	O	DT	O
+7-21	book	7-19_dobj	read	NN	P4_book
+7-22	.	O	O	O	O
+
+#id=8
+#text=After reading the books for about an hour I decided to borrow all 3 of them . 
+8-1	After	O	O	O	O
+8-2	reading	8-10_prepc_after	decided	VBG	O
+8-3	the	O	O	DT	O
+8-4	books	8-2_dobj	reading	NNS	P4_book
+8-5	for	O	O	O	O
+8-6	about	O	O	RB	O
+8-7	an	O	O	DT	O
+8-8	hour	8-2_prep_for	reading	NN	P1_NPart_hour
+8-9	I	8-10_nsubj	decided	PRP	P1_customer
+8-10	decided	O	O	VBD	O
+8-11	to	8-12_aux	borrow	TO	O
+8-12	borrow	8-10_xcomp	decided	VB	O
+8-13	all	O	O	DT	O
+8-14	3	8-12_dobj	borrow	CD	O
+8-15	of	O	O	O	O
+8-16	them	O	O	PRP	P4_book
+8-17	.	O	O	O	O
+
+#id=9
+#text=I went to the librarian and checked them out . 
+9-1	I	9-2_nsubj	went	PRP	P1_customer
+9-2	went	O	O	VBD	O
+9-3	to	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	librarian	9-2_prep_to	went	NN	P2_staff
+9-6	and	O	O	O	O
+9-7	checked	9-2_conj_and	went	VBD	O
+9-8	them	9-7_dobj	checked	PRP	P4_book
+9-9	out	9-7_prt	checked	RP	O
+9-10	.	O	O	O	O
+
+#id=10
+#text=I then left satisfied with my experience . 
+10-1	I	10-3_nsubj	left	PRP	P1_customer
+10-2	then	10-3_advmod	left	RB	O
+10-3	left	O	O	VBD	O
+10-4	satisfied	10-3_acomp	left	JJ	O
+10-5	with	O	O	O	O
+10-6	my	O	O	PRP$	P1_customer
+10-7	experience	10-3_prep_with	left	NN	P1_NPart_experience
+10-8	.	O	O	O	O

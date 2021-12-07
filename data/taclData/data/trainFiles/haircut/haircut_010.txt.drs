@@ -1,0 +1,215 @@
+#id=1
+#text=Carla decided to get her hair cut today . 
+1-1	Carla	1-2_nsubj	decided	NNP	P1_customer
+1-2	decided	O	O	VBD	O
+1-3	to	1-4_aux	get	TO	O
+1-4	get	1-2_xcomp	decided	VB	O
+1-5	her	O	O	PRP$	P1_customer
+1-6	hair	O	O	NN	P1_hair
+1-7	cut	1-4_dobj	get	NN	O
+1-8	today	1-4_tmod	get	NN	P1_NPart_today
+1-9	.	O	O	O	O
+
+#id=2
+#text=So , she stopped by a nearby hair salon . 
+2-1	So	2-4_advmod	stopped	RB	O
+2-2	,	O	O	O	O
+2-3	she	2-4_nsubj	stopped	PRP	P1_customer
+2-4	stopped	O	O	VBD	O
+2-5	by	O	O	O	O
+2-6	a	O	O	DT	O
+2-7	nearby	O	O	JJ	O
+2-8	hair	O	O	NN	O
+2-9	salon	2-4_prep_by	stopped	NN	P1_salon
+2-10	.	O	O	O	O
+
+#id=3
+#text=After saying hello to the hairdresser and waiting for a few minutes , she sat on one of the chairs that were now free . 
+3-1	After	O	O	O	O
+3-2	saying	3-15_prepc_after	sat	VBG	O
+3-3	hello	3-2_dobj	saying	UH	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	hairdresser	3-2_prep_to	saying	NN	P1_hairdresser
+3-7	and	O	O	O	O
+3-8	waiting	3-2_conj_and	saying	VBG	O
+3-9	for	O	O	O	O
+3-10	a	O	O	DT	O
+3-11	few	O	O	JJ	O
+3-12	minutes	3-8_prep_for	waiting	NNS	P1_time/date
+3-13	,	O	O	O	O
+3-14	she	3-15_nsubj	sat	PRP	P1_customer
+3-15	sat	O	O	VBD	O
+3-16	on	O	O	O	O
+3-17	one	3-15_prep_on	sat	CD	O
+3-18	of	O	O	O	O
+3-19	the	O	O	DT	O
+3-20	chairs	O	O	NNS	P1_chair
+3-21	that	O	O	WDT	O
+3-22	were	O	O	VBD	O
+3-23	now	O	O	RB	O
+3-24	free	O	O	JJ	O
+3-25	.	O	O	O	O
+
+#id=4
+#text=The hairdresser next washed Carla 's hair with water and shampoo . 
+4-1	The	O	O	DT	O
+4-2	hairdresser	4-4_nsubj	washed	NN	P1_hairdresser
+4-3	next	4-4_advmod	washed	RB	O
+4-4	washed	O	O	VBD	O
+4-5	Carla	O	O	NNP	P1_customer
+4-6	's	O	O	O	O
+4-7	hair	4-4_dobj	washed	NN	P1_hair
+4-8	with	O	O	O	O
+4-9	water	4-4_prep_with	washed	NN	P1_NPart_water
+4-10	and	O	O	O	O
+4-11	shampoo	O	O	NN	P1_hair_styling/treatment
+4-12	.	O	O	O	O
+
+#id=5
+#text=Once the hair was dry , she inspected Carla 's face shape and asked what kind of hair style she wanted . 
+5-1	Once	O	O	IN	O
+5-2	the	O	O	DT	O
+5-3	hair	O	O	NN	P1_hair
+5-4	was	O	O	VBD	O
+5-5	dry	5-8_advcl	inspected	JJ	O
+5-6	,	O	O	O	O
+5-7	she	5-8_nsubj	inspected	PRP	P1_hairdresser
+5-8	inspected	O	O	VBD	O
+5-9	Carla	O	O	NNP	P1_customer
+5-10	's	O	O	O	O
+5-11	face	O	O	NN	O
+5-12	shape	5-8_dobj	inspected	NN	P1_NPart_shape
+5-13	and	O	O	O	O
+5-14	asked	5-8_conj_and	inspected	VBD	O
+5-15	what	O	O	WP	O
+5-16	kind	5-21_dobj	wanted	NN	P1_NPart_kind
+5-17	of	O	O	O	O
+5-18	hair	O	O	NN	O
+5-19	style	O	O	NN	P1_haircut
+5-20	she	5-21_nsubj	wanted	PRP	P1_customer
+5-21	wanted	5-14_ccomp	asked	VBD	O
+5-22	.	O	O	O	O
+
+#id=6
+#text=They discussed this for about a minute before a decision was made . 
+6-1	They	6-2_nsubj	discussed	PRP	P1_hairdresser_customer
+6-2	discussed	O	O	VBD	O
+6-3	this	6-2_dobj	discussed	DT	O
+6-4	for	O	O	O	O
+6-5	about	O	O	RB	O
+6-6	a	O	O	DT	O
+6-7	minute	6-12_dep	made	NN	P2_time/date
+6-8	before	6-12_mark	made	IN	O
+6-9	a	O	O	DT	O
+6-10	decision	6-12_nsubjpass	made	NN	P1_NPart_decision
+6-11	was	6-12_auxpass	made	VBD	O
+6-12	made	O	O	VBN	O
+6-13	.	O	O	O	O
+
+#id=7
+#text=The hairdresser then prepared the hair , separating it into different sections before she began cutting it . 
+7-1	The	O	O	DT	O
+7-2	hairdresser	7-4_nsubj	prepared	NN	P1_hairdresser
+7-3	then	7-4_advmod	prepared	RB	O
+7-4	prepared	O	O	VBD	O
+7-5	the	O	O	DT	O
+7-6	hair	7-4_dobj	prepared	NN	P1_hair
+7-7	,	O	O	O	O
+7-8	separating	7-4_vmod	prepared	VBG	O
+7-9	it	7-8_dobj	separating	PRP	P1_hair
+7-10	into	O	O	O	O
+7-11	different	O	O	JJ	O
+7-12	sections	7-8_prep_into	separating	NNS	P1_NPart_sections
+7-13	before	7-15_mark	began	IN	O
+7-14	she	7-15_nsubj	began	PRP	P1_hairdresser
+7-15	began	7-8_advcl	separating	VBD	O
+7-16	cutting	7-15_xcomp	began	VBG	O
+7-17	it	7-16_dobj	cutting	PRP	P1_hair
+7-18	.	O	O	O	O
+
+#id=8
+#text=She worked calmly and carefully , making sure that she would successfully achieve the style Carla wanted . 
+8-1	She	8-2_nsubj	worked	PRP	P1_hairdresser
+8-2	worked	O	O	VBD	O
+8-3	calmly	8-2_advmod	worked	RB	O
+8-4	and	O	O	O	O
+8-5	carefully	8-17_advmod	wanted	RB	O
+8-6	,	O	O	O	O
+8-7	making	8-17_dep	wanted	VBG	O
+8-8	sure	8-7_acomp	making	JJ	O
+8-9	that	8-13_mark	achieve	IN	O
+8-10	she	8-13_nsubj	achieve	PRP	P1_hairdresser
+8-11	would	8-13_aux	achieve	MD	O
+8-12	successfully	8-13_advmod	achieve	RB	O
+8-13	achieve	8-7_ccomp	making	VB	O
+8-14	the	O	O	DT	O
+8-15	style	8-13_dobj	achieve	NN	P1_haircut
+8-16	Carla	8-17_nsubj	wanted	NNP	P1_customer
+8-17	wanted	8-2_conj_and	worked	VBD	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=After about 30 minutes , the hairdresser had almost finished . 
+9-1	After	O	O	O	O
+9-2	about	O	O	RB	O
+9-3	30	O	O	CD	O
+9-4	minutes	9-10_prep_after	finished	NNS	P3_time/date
+9-5	,	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	hairdresser	9-10_nsubj	finished	NN	P1_hairdresser
+9-8	had	9-10_aux	finished	VBD	O
+9-9	almost	9-10_advmod	finished	RB	O
+9-10	finished	O	O	VBN	O
+9-11	.	O	O	O	O
+
+#id=10
+#text=So , she made last-minute touches by drying the hair using a blow dryer , and some final trimming . 
+10-1	So	10-4_advmod	made	RB	O
+10-2	,	O	O	O	O
+10-3	she	10-4_nsubj	made	PRP	P1_hairdresser
+10-4	made	O	O	VBD	O
+10-5	last-minute	O	O	JJ	O
+10-6	touches	10-4_dobj	made	NNS	O
+10-7	by	O	O	O	O
+10-8	drying	10-4_prepc_by	made	VBG	O
+10-9	the	O	O	DT	O
+10-10	hair	10-8_dobj	drying	NN	P1_hair
+10-11	using	O	O	VBG	O
+10-12	a	O	O	DT	O
+10-13	blow	O	O	NN	O
+10-14	dryer	10-11_dobj	using	NN	P1_hairdryer
+10-15	,	O	O	O	O
+10-16	and	O	O	O	O
+10-17	some	O	O	DT	O
+10-18	final	O	O	JJ	O
+10-19	trimming	O	O	NN	O
+10-20	.	O	O	O	O
+
+#id=11
+#text=Once this was finished , Carla checked herself in the mirror and was very happy once she saw how nice her new hairstyle looked . 
+11-1	Once	11-4_mark	finished	IN	O
+11-2	this	11-4_nsubjpass	finished	DT	O
+11-3	was	11-4_auxpass	finished	VBD	O
+11-4	finished	11-7_advcl	checked	VBN	O
+11-5	,	O	O	O	O
+11-6	Carla	11-7_nsubj	checked	NNP	P1_customer
+11-7	checked	O	O	VBD	O
+11-8	herself	11-7_dobj	checked	PRP	P1_customer
+11-9	in	O	O	O	O
+11-10	the	O	O	DT	O
+11-11	mirror	11-7_prep_in	checked	NN	P1_mirror
+11-12	and	O	O	O	O
+11-13	was	O	O	VBD	O
+11-14	very	O	O	RB	O
+11-15	happy	11-7_conj_and	checked	JJ	O
+11-16	once	11-18_mark	saw	IN	O
+11-17	she	11-18_nsubj	saw	PRP	P1_customer
+11-18	saw	O	O	VBD	O
+11-19	how	11-24_advmod	looked	WRB	O
+11-20	nice	O	O	JJ	O
+11-21	her	O	O	PRP$	P1_customer
+11-22	new	O	O	JJ	O
+11-23	hairstyle	11-24_nsubj	looked	NN	P1_haircut
+11-24	looked	11-18_ccomp	saw	VBD	O
+11-25	.	O	O	O	O

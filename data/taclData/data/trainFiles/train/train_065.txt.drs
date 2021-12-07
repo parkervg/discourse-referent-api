@@ -1,0 +1,325 @@
+#id=1
+#text=Yesterday I traveled from London in the United Kingdom to my home in Manchester . 
+1-1	Yesterday	1-3_tmod	traveled	NN	P1_NPart_yesterday
+1-2	I	1-3_nsubj	traveled	PRP	P1_passenger
+1-3	traveled	O	O	VBD	O
+1-4	from	O	O	O	O
+1-5	London	1-3_prep_from	traveled	NNP	P1_NPart_london
+1-6	in	O	O	O	O
+1-7	the	O	O	DT	O
+1-8	United	O	O	NNP	O
+1-9	Kingdom	O	O	NNP	P1_NPart_kingdom
+1-10	to	O	O	O	O
+1-11	my	O	O	PRP$	P1_passenger
+1-12	home	1-3_prep_to	traveled	NN	P1_NPart_home
+1-13	in	O	O	O	O
+1-14	Manchester	O	O	NNP	P1_destination
+1-15	.	O	O	O	O
+
+#id=2
+#text=I visited a website for train times and tickets the day before . 
+2-1	I	2-2_nsubj	visited	PRP	P1_passenger
+2-2	visited	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	website	2-2_dobj	visited	NN	P1_ticket_office/website
+2-5	for	O	O	O	O
+2-6	train	O	O	NN	O
+2-7	times	2-2_prep_for	visited	NNS	P1_time_date
+2-8	and	O	O	O	O
+2-9	tickets	O	O	NNS	P1_card/ticket
+2-10	the	O	O	DT	O
+2-11	day	O	O	NN	P2_time_date
+2-12	before	2-2_prep	visited	IN	O
+2-13	.	O	O	O	O
+
+#id=3
+#text=I knew when I needed to arrive in Manchester so I searched using my desired arrival time . 
+3-1	I	3-2_nsubj	knew	PRP	P1_passenger
+3-2	knew	O	O	VBD	O
+3-3	when	3-5_advmod	needed	WRB	O
+3-4	I	3-5_nsubj	needed	PRP	P1_passenger
+3-5	needed	3-2_ccomp	knew	VBD	O
+3-6	to	3-7_aux	arrive	TO	O
+3-7	arrive	3-5_xcomp	needed	VB	O
+3-8	in	O	O	O	O
+3-9	Manchester	3-7_prep_in	arrive	NNP	P1_destination
+3-10	so	3-12_mark	searched	IN	O
+3-11	I	3-12_nsubj	searched	PRP	P1_passenger
+3-12	searched	3-7_advcl	arrive	VBD	O
+3-13	using	3-12_xcomp	searched	VBG	O
+3-14	my	O	O	PRP$	P1_passenger
+3-15	desired	O	O	VBN	O
+3-16	arrival	O	O	NN	O
+3-17	time	3-13_dobj	using	NN	P3_time_date
+3-18	.	O	O	O	O
+
+#id=4
+#text=I selected a ticket that worked for me and had the lowest price . 
+4-1	I	4-2_nsubj	selected	PRP	P1_passenger
+4-2	selected	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	ticket	4-2_dobj	selected	NN	P1_card/ticket
+4-5	that	4-6_nsubj	worked	WDT	O
+4-6	worked	O	O	VBD	O
+4-7	for	O	O	O	O
+4-8	me	4-6_prep_for	worked	PRP	P1_passenger
+4-9	and	O	O	O	O
+4-10	had	4-6_conj_and	worked	VBD	O
+4-11	the	O	O	DT	O
+4-12	lowest	O	O	JJS	O
+4-13	price	4-10_dobj	had	NN	P1_other
+4-14	.	O	O	O	O
+
+#id=5
+#text=I used my debit card to pay and selected the option to collect the ticket at the train station . 
+5-1	I	5-2_nsubj	used	PRP	P1_passenger
+5-2	used	O	O	VBD	O
+5-3	my	O	O	PRP$	P1_passenger
+5-4	debit	O	O	NN	O
+5-5	card	5-2_dobj	used	NN	P1_NPart_card
+5-6	to	5-7_aux	pay	TO	O
+5-7	pay	5-2_vmod	used	VB	O
+5-8	and	O	O	O	O
+5-9	selected	5-2_conj_and	used	VBD	O
+5-10	the	O	O	DT	O
+5-11	option	5-9_dobj	selected	NN	P1_NPart_option
+5-12	to	5-13_aux	collect	TO	O
+5-13	collect	5-9_vmod	selected	VB	O
+5-14	the	O	O	DT	O
+5-15	ticket	5-13_dobj	collect	NN	P1_card/ticket
+5-16	at	O	O	O	O
+5-17	the	O	O	DT	O
+5-18	train	O	O	NN	O
+5-19	station	5-13_prep_at	collect	NN	P1_train_station
+5-20	.	O	O	O	O
+
+#id=6
+#text=I arrived at the train station in plenty of time because I know there can be long queues at the machines where tickets are collected . 
+6-1	I	6-2_nsubj	arrived	PRP	P1_passenger
+6-2	arrived	O	O	VBD	O
+6-3	at	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	train	O	O	NN	O
+6-6	station	6-2_prep_at	arrived	NN	P1_train_station
+6-7	in	O	O	IN	O
+6-8	plenty	O	O	RB	P1_NPart_plenty
+6-9	of	O	O	O	O
+6-10	time	O	O	NN	P4_time_date
+6-11	because	6-13_mark	know	IN	O
+6-12	I	6-13_nsubj	know	PRP	P1_passenger
+6-13	know	6-2_advcl	arrived	VBP	O
+6-14	there	O	O	EX	O
+6-15	can	O	O	MD	O
+6-16	be	O	O	VB	O
+6-17	long	O	O	JJ	O
+6-18	queues	6-13_ccomp	know	NNS	P1_line
+6-19	at	O	O	O	O
+6-20	the	O	O	DT	O
+6-21	machines	O	O	NNS	P2_other
+6-22	where	6-25_advmod	collected	WRB	O
+6-23	tickets	6-25_nsubjpass	collected	NNS	P1_card/ticket
+6-24	are	6-25_auxpass	collected	VBP	O
+6-25	collected	O	O	VBN	O
+6-26	.	O	O	O	O
+
+#id=7
+#text=When it was my turn at the ticket machine , I followed the instructions and input my ticket reference number , which I had stored on my smartphone . 
+7-1	When	O	O	WRB	O
+7-2	it	O	O	PRP	O
+7-3	was	O	O	VBD	O
+7-4	my	O	O	PRP$	P1_passenger
+7-5	turn	7-12_advcl	followed	NN	O
+7-6	at	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	ticket	O	O	NN	O
+7-9	machine	O	O	NN	P2_other
+7-10	,	O	O	O	O
+7-11	I	7-12_nsubj	followed	PRP	P1_passenger
+7-12	followed	O	O	VBD	O
+7-13	the	O	O	DT	O
+7-14	instructions	7-12_iobj	followed	NNS	P1_NPart_instructions
+7-15	and	O	O	O	O
+7-16	input	O	O	NN	O
+7-17	my	O	O	PRP$	P1_passenger
+7-18	ticket	O	O	NN	O
+7-19	reference	O	O	NN	O
+7-20	number	7-12_dobj	followed	NN	P3_other
+7-21	,	O	O	O	O
+7-22	which	7-25_dobj	stored	WDT	O
+7-23	I	7-25_nsubj	stored	PRP	P1_passenger
+7-24	had	7-25_aux	stored	VBD	O
+7-25	stored	O	O	VBN	O
+7-26	on	O	O	O	O
+7-27	my	O	O	PRP$	P1_passenger
+7-28	smartphone	7-25_prep_on	stored	NN	P1_NPart_smartphone
+7-29	.	O	O	O	O
+
+#id=8
+#text=The machine printed out my tickets and I picked them up , checking them to make sure they were correct . 
+8-1	The	O	O	DT	O
+8-2	machine	8-3_nsubj	printed	NN	P2_other
+8-3	printed	O	O	VBN	O
+8-4	out	8-3_prt	printed	RP	O
+8-5	my	O	O	PRP$	P1_passenger
+8-6	tickets	8-3_dobj	printed	NNS	P1_card/ticket
+8-7	and	O	O	O	O
+8-8	I	8-9_nsubj	picked	PRP	P1_passenger
+8-9	picked	8-3_conj_and	printed	VBD	O
+8-10	them	8-9_dobj	picked	PRP	P1_card/ticket
+8-11	up	8-9_prt	picked	RP	O
+8-12	,	O	O	O	O
+8-13	checking	8-9_xcomp	picked	VBG	O
+8-14	them	8-13_dobj	checking	PRP	P1_card/ticket
+8-15	to	8-16_aux	make	TO	O
+8-16	make	8-13_xcomp	checking	VB	O
+8-17	sure	8-16_acomp	make	JJ	O
+8-18	they	O	O	PRP	P1_card/ticket
+8-19	were	O	O	VBD	O
+8-20	correct	O	O	JJ	O
+8-21	.	O	O	O	O
+
+#id=9
+#text=Next I needed to determine which platform my train would be departing from . 
+9-1	Next	9-3_advmod	needed	RB	O
+9-2	I	9-3_nsubj	needed	PRP	P1_passenger
+9-3	needed	O	O	VBD	O
+9-4	to	9-5_aux	determine	TO	O
+9-5	determine	9-3_xcomp	needed	VB	O
+9-6	which	O	O	WDT	O
+9-7	platform	9-12_prep_from	departing	NN	P1_platform
+9-8	my	O	O	PRP$	P1_passenger
+9-9	train	9-12_nsubjpass	departing	NN	P1_train
+9-10	would	9-12_aux	departing	MD	O
+9-11	be	9-12_auxpass	departing	VB	O
+9-12	departing	9-5_ccomp	determine	VBN	O
+9-13	from	O	O	O	O
+9-14	.	O	O	O	O
+
+#id=10
+#text=I walked over to the large electronic display boards . 
+10-1	I	10-2_nsubj	walked	PRP	P1_passenger
+10-2	walked	O	O	VBD	O
+10-3	over	10-2_prt	walked	RP	O
+10-4	to	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	large	O	O	JJ	O
+10-7	electronic	O	O	JJ	O
+10-8	display	O	O	NN	O
+10-9	boards	10-2_prep_to	walked	NNS	P1_time-table
+10-10	.	O	O	O	O
+
+#id=11
+#text=Lots of destinations were listed and I had to wait a little while before Manchester showed up . 
+11-1	Lots	11-5_nsubjpass	listed	NNS	O
+11-2	of	O	O	O	O
+11-3	destinations	O	O	NNS	P2_destination
+11-4	were	11-5_auxpass	listed	VBD	O
+11-5	listed	O	O	VBN	O
+11-6	and	O	O	O	O
+11-7	I	11-8_nsubj	had	PRP	P1_passenger
+11-8	had	11-5_conj_and	listed	VBD	O
+11-9	to	11-10_aux	wait	TO	O
+11-10	wait	11-8_xcomp	had	VB	O
+11-11	a	O	O	DT	O
+11-12	little	O	O	JJ	O
+11-13	while	11-10_dobj	wait	NN	O
+11-14	before	11-16_mark	showed	IN	O
+11-15	Manchester	11-16_nsubj	showed	NNP	P1_destination
+11-16	showed	11-10_advcl	wait	VBD	O
+11-17	up	11-16_prt	showed	RP	O
+11-18	.	O	O	O	O
+
+#id=12
+#text=There was more than one train to Manchester , so I confirmed which one was mine by the train company and the departure time . 
+12-1	There	12-2_expl	was	EX	O
+12-2	was	O	O	VBD	O
+12-3	more	O	O	JJR	O
+12-4	than	O	O	IN	O
+12-5	one	O	O	CD	O
+12-6	train	12-2_nsubj	was	NN	P1_train
+12-7	to	O	O	O	O
+12-8	Manchester	12-2_prep_to	was	NNP	P1_destination
+12-9	,	O	O	O	O
+12-10	so	12-2_dep	was	IN	O
+12-11	I	12-12_nsubj	confirmed	PRP	P1_passenger
+12-12	confirmed	12-2_parataxis	was	VBD	O
+12-13	which	O	O	WDT	O
+12-14	one	O	O	PRP	P1_train
+12-15	was	O	O	VBD	O
+12-16	mine	12-12_ccomp	confirmed	NN	P2_passenger
+12-17	by	O	O	O	O
+12-18	the	O	O	DT	O
+12-19	train	O	O	NN	O
+12-20	company	O	O	NN	P4_other
+12-21	and	O	O	O	O
+12-22	the	O	O	DT	O
+12-23	departure	O	O	NN	O
+12-24	time	O	O	NN	P5_time_date
+12-25	.	O	O	O	O
+
+#id=13
+#text=It said it would leave from Platform 6 so I followed the signs to the platform . 
+13-1	It	13-2_nsubj	said	PRP	P1_NPart_it
+13-2	said	O	O	VBD	O
+13-3	it	13-5_nsubj	leave	PRP	P1_train
+13-4	would	13-5_aux	leave	MD	O
+13-5	leave	13-2_ccomp	said	VB	O
+13-6	from	O	O	O	O
+13-7	Platform	13-5_prep_from	leave	NNP	P1_platform
+13-8	6	O	O	CD	O
+13-9	so	13-11_mark	followed	IN	O
+13-10	I	13-11_nsubj	followed	PRP	P1_passenger
+13-11	followed	13-5_advcl	leave	VBD	O
+13-12	the	O	O	DT	O
+13-13	signs	13-11_dobj	followed	NNS	P5_other
+13-14	to	O	O	O	O
+13-15	the	O	O	DT	O
+13-16	platform	13-11_prep_to	followed	NN	P1_platform
+13-17	.	O	O	O	O
+
+#id=14
+#text=Once at the platform I sat and waited until my train arrived . 
+14-1	Once	14-6_advmod	sat	RB	O
+14-2	at	O	O	O	O
+14-3	the	O	O	DT	O
+14-4	platform	O	O	NN	P1_platform
+14-5	I	14-6_nsubj	sat	PRP	P1_passenger
+14-6	sat	O	O	VBD	O
+14-7	and	O	O	O	O
+14-8	waited	14-6_conj_and	sat	VBD	O
+14-9	until	14-12_mark	arrived	IN	O
+14-10	my	O	O	PRP$	P1_passenger
+14-11	train	14-12_nsubj	arrived	NN	P1_train
+14-12	arrived	14-8_advcl	waited	VBD	O
+14-13	.	O	O	O	O
+
+#id=15
+#text=After all of the arriving people got off , I boarded the car indicated on my ticket and took my reserved seat , ready for the journey . 
+15-1	After	15-7_mark	got	IN	O
+15-2	all	15-7_nsubj	got	DT	O
+15-3	of	O	O	O	O
+15-4	the	O	O	DT	O
+15-5	arriving	O	O	JJ	O
+15-6	people	O	O	NNS	P3_passenger
+15-7	got	15-11_advcl	boarded	VBD	O
+15-8	off	15-7_prt	got	RP	O
+15-9	,	O	O	O	O
+15-10	I	15-11_nsubj	boarded	PRP	P1_passenger
+15-11	boarded	O	O	VBD	O
+15-12	the	O	O	DT	O
+15-13	car	15-14_nsubj	indicated	NN	P1_coach
+15-14	indicated	15-11_ccomp	boarded	VBD	O
+15-15	on	O	O	O	O
+15-16	my	O	O	PRP$	P1_passenger
+15-17	ticket	15-14_prep_on	indicated	NN	P1_card/ticket
+15-18	and	O	O	O	O
+15-19	took	15-14_conj_and	indicated	VBD	O
+15-20	my	O	O	PRP$	P1_passenger
+15-21	reserved	O	O	VBN	O
+15-22	seat	15-14_dobj	indicated	NN	P1_seat
+15-23	,	O	O	O	O
+15-24	ready	15-11_dep	boarded	JJ	O
+15-25	for	O	O	O	O
+15-26	the	O	O	DT	O
+15-27	journey	O	O	NN	P1_trip
+15-28	.	O	O	O	O

@@ -1,0 +1,209 @@
+#id=1
+#text=A few weeks ago , I flew in an airplane to visit my brother in Tampa , Florida , which is a thousand miles from me . 
+1-1	A	O	O	DT	O
+1-2	few	O	O	JJ	O
+1-3	weeks	O	O	NNS	P1_NPart_weeks
+1-4	ago	1-7_advmod	flew	RB	O
+1-5	,	O	O	O	O
+1-6	I	1-7_nsubj	flew	PRP	P1_passenger
+1-7	flew	O	O	VBD	O
+1-8	in	O	O	O	O
+1-9	an	O	O	DT	O
+1-10	airplane	1-7_prep_in	flew	NN	P1_plane
+1-11	to	1-12_aux	visit	TO	O
+1-12	visit	1-7_xcomp	flew	VB	O
+1-13	my	O	O	PRP$	P1_passenger
+1-14	brother	1-12_dobj	visit	NN	P1_accomp_person
+1-15	in	O	O	O	O
+1-16	Tampa	O	O	NNP	P1_target_location
+1-17	,	O	O	O	O
+1-18	Florida	1-12_prep_in	visit	NNP	P2_target_location
+1-19	,	O	O	O	O
+1-20	which	O	O	WDT	O
+1-21	is	O	O	VBZ	O
+1-22	a	O	O	DT	O
+1-23	thousand	O	O	CD	O
+1-24	miles	O	O	NNS	P1_NPart_miles
+1-25	from	O	O	O	O
+1-26	me	O	O	PRP	P1_passenger
+1-27	.	O	O	O	O
+
+#id=2
+#text=I had bought my ticket six weeks earlier on the internet , and had packed my bags the night before . 
+2-1	I	2-3_nsubj	bought	PRP	P1_passenger
+2-2	had	2-3_aux	bought	VBD	O
+2-3	bought	O	O	VBN	O
+2-4	my	O	O	PRP$	P1_passenger
+2-5	ticket	2-3_dobj	bought	NN	P1_ticket
+2-6	six	O	O	CD	O
+2-7	weeks	O	O	NNS	P1_time/date
+2-8	earlier	2-3_advmod	bought	RBR	O
+2-9	on	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	internet	2-3_prep_on	bought	NN	P1_other
+2-12	,	O	O	O	O
+2-13	and	O	O	O	O
+2-14	had	2-15_aux	packed	VBD	O
+2-15	packed	2-3_conj_and	bought	VBN	O
+2-16	my	O	O	PRP$	P1_passenger
+2-17	bags	2-15_dobj	packed	NNS	O
+2-18	the	O	O	DT	O
+2-19	night	2-15_tmod	packed	NN	P2_time/date
+2-20	before	2-15_prep	packed	IN	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=The weather in Tampa is very warm , so I packed all summer clothes even though it was still winter . 
+3-1	The	O	O	DT	O
+3-2	weather	O	O	NN	P1_NPart_weather
+3-3	in	O	O	O	O
+3-4	Tampa	O	O	NNP	P1_target_location
+3-5	is	O	O	VBZ	O
+3-6	very	O	O	RB	O
+3-7	warm	O	O	JJ	O
+3-8	,	O	O	O	O
+3-9	so	O	O	IN	O
+3-10	I	3-11_nsubj	packed	PRP	P1_passenger
+3-11	packed	O	O	VBD	O
+3-12	all	O	O	DT	O
+3-13	summer	O	O	NN	O
+3-14	clothes	3-11_dobj	packed	NNS	P1_personal_belongings
+3-15	even	O	O	RB	O
+3-16	though	O	O	IN	O
+3-17	it	O	O	PRP	O
+3-18	was	O	O	VBD	O
+3-19	still	O	O	RB	O
+3-20	winter	3-11_advcl	packed	NN	P1_NPart_winter
+3-21	.	O	O	O	O
+
+#id=4
+#text=On the day of my flight , I arrived early so that I would have time to go through the security line , where they made me take off my shoes and my belt , and put my bag through the x-ray machine . 
+4-1	On	O	O	O	O
+4-2	the	O	O	DT	O
+4-3	day	4-9_prep_on	arrived	NN	P3_time/date
+4-4	of	O	O	O	O
+4-5	my	O	O	PRP$	P1_passenger
+4-6	flight	O	O	NN	P1_flight
+4-7	,	O	O	O	O
+4-8	I	4-9_nsubj	arrived	PRP	P1_passenger
+4-9	arrived	O	O	VBD	O
+4-10	early	O	O	RB	O
+4-11	so	4-9_advmod	arrived	RB	O
+4-12	that	4-15_mark	have	IN	O
+4-13	I	4-15_nsubj	have	PRP	P1_passenger
+4-14	would	4-15_aux	have	MD	O
+4-15	have	4-9_ccomp	arrived	VB	O
+4-16	time	4-15_dobj	have	NN	O
+4-17	to	4-18_aux	go	TO	O
+4-18	go	4-15_vmod	have	VB	O
+4-19	through	O	O	O	O
+4-20	the	O	O	DT	O
+4-21	security	O	O	NN	O
+4-22	line	4-18_prep_through	go	NN	P1_line
+4-23	,	O	O	O	O
+4-24	where	4-26_advmod	made	WRB	O
+4-25	they	4-26_nsubj	made	PRP	P1_staff
+4-26	made	O	O	VBD	O
+4-27	me	4-28_nsubj	take	PRP	P1_passenger
+4-28	take	4-26_ccomp	made	VB	O
+4-29	off	4-28_prt	take	RP	O
+4-30	my	O	O	PRP$	P1_passenger
+4-31	shoes	4-28_dobj	take	NNS	P1_NPart_shoes
+4-32	and	O	O	O	O
+4-33	my	O	O	PRP$	P1_passenger
+4-34	belt	O	O	NN	P1_NPart_belt
+4-35	,	O	O	O	O
+4-36	and	O	O	O	O
+4-37	put	4-18_conj_and	go	VB	O
+4-38	my	O	O	PRP$	P1_passenger
+4-39	bag	4-37_dobj	put	NN	P1_carry_on_luggage
+4-40	through	O	O	O	O
+4-41	the	O	O	DT	O
+4-42	x-ray	O	O	JJ	O
+4-43	machine	4-37_prep_through	put	NN	P1_NPart_machine
+4-44	.	O	O	O	O
+
+#id=5
+#text=An airline worker made an announcement when it was time for us to board the flight . 
+5-1	An	O	O	DT	O
+5-2	airline	O	O	NN	O
+5-3	worker	5-4_nsubj	made	NN	P2_staff
+5-4	made	O	O	VBD	O
+5-5	an	O	O	DT	O
+5-6	announcement	5-4_dobj	made	NN	P2_other
+5-7	when	O	O	WRB	O
+5-8	it	O	O	PRP	O
+5-9	was	O	O	VBD	O
+5-10	time	5-4_advcl	made	NN	O
+5-11	for	O	O	O	O
+5-12	us	O	O	PRP	P2_passenger
+5-13	to	5-14_aux	board	TO	O
+5-14	board	O	O	VB	O
+5-15	the	O	O	DT	O
+5-16	flight	5-14_dobj	board	NN	P1_flight
+5-17	.	O	O	O	O
+
+#id=6
+#text=We went to our assigned seats , put our bags in the overhead compartments , and then buckled in . 
+6-1	We	6-2_nsubj	went	PRP	P2_passenger
+6-2	went	O	O	VBD	O
+6-3	to	O	O	O	O
+6-4	our	O	O	PRP$	P2_passenger
+6-5	assigned	O	O	JJ	O
+6-6	seats	6-2_prep_to	went	NNS	P1_seat
+6-7	,	O	O	O	O
+6-8	put	6-2_conj_and	went	VBD	O
+6-9	our	O	O	PRP$	P2_passenger
+6-10	bags	6-8_dobj	put	NNS	P2_carry_on_luggage
+6-11	in	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	overhead	O	O	JJ	O
+6-14	compartments	6-8_prep_in	put	NNS	P1_storage
+6-15	,	O	O	O	O
+6-16	and	O	O	O	O
+6-17	then	6-18_advmod	buckled	RB	O
+6-18	buckled	6-2_conj_and	went	VBD	O
+6-19	in	6-18_prt	buckled	RP	O
+6-20	.	O	O	O	O
+
+#id=7
+#text=During the flight , I watched a movie on my Kindle and got a Coke zero from the flight attended . 
+7-1	During	O	O	O	O
+7-2	the	O	O	DT	O
+7-3	flight	7-6_prep_during	watched	NN	P1_flight
+7-4	,	O	O	O	O
+7-5	I	7-6_nsubj	watched	PRP	P1_passenger
+7-6	watched	O	O	VBD	O
+7-7	a	O	O	DT	O
+7-8	movie	7-6_dobj	watched	NN	P1_in-flight_entertainment
+7-9	on	O	O	O	O
+7-10	my	O	O	PRP$	P1_passenger
+7-11	Kindle	7-6_prep_on	watched	NN	P2_in-flight_entertainment
+7-12	and	O	O	O	O
+7-13	got	7-6_conj_and	watched	VBD	O
+7-14	a	O	O	DT	O
+7-15	Coke	7-13_dobj	got	NNP	O
+7-16	zero	O	O	CD	P3_in-flight_entertainment
+7-17	from	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	flight	7-13_prep_from	got	NN	O
+7-20	attended	O	O	VBN	P3_staff
+7-21	.	O	O	O	O
+
+#id=8
+#text=When the flight landed , my brother was waiting for me outside the airport . 
+8-1	When	8-4_advmod	landed	WRB	O
+8-2	the	O	O	DT	O
+8-3	flight	8-4_nsubj	landed	NN	P1_flight
+8-4	landed	8-9_advcl	waiting	VBD	O
+8-5	,	O	O	O	O
+8-6	my	O	O	PRP$	P1_passenger
+8-7	brother	8-9_nsubj	waiting	NN	P1_accomp_person
+8-8	was	8-9_aux	waiting	VBD	O
+8-9	waiting	O	O	VBG	O
+8-10	for	O	O	O	O
+8-11	me	8-9_prep_for	waiting	PRP	P1_passenger
+8-12	outside	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	airport	8-9_prep_outside	waiting	NN	P1_airport
+8-15	.	O	O	O	O

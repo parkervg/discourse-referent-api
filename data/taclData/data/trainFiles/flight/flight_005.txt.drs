@@ -1,0 +1,319 @@
+#id=1
+#text=Last week , I flew in an airplane to visit a different state . 
+1-1	Last	O	O	JJ	O
+1-2	week	1-5_tmod	flew	NN	P1_time/date
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	flew	PRP	P1_passenger
+1-5	flew	O	O	VBD	O
+1-6	in	O	O	O	O
+1-7	an	O	O	DT	O
+1-8	airplane	1-5_prep_in	flew	NN	P1_plane
+1-9	to	1-10_aux	visit	TO	O
+1-10	visit	1-5_xcomp	flew	VB	O
+1-11	a	O	O	DT	O
+1-12	different	O	O	JJ	O
+1-13	state	1-10_dobj	visit	NN	P1_target_location
+1-14	.	O	O	O	O
+
+#id=2
+#text=After I parked my car in the parking lot , I found the right ticket counter for my airline and then turned in my suitcase so it could travel in the cargo of the plane . 
+2-1	After	2-3_mark	parked	IN	O
+2-2	I	2-3_nsubj	parked	PRP	P1_passenger
+2-3	parked	2-12_advcl	found	VBD	O
+2-4	my	O	O	PRP$	P1_passenger
+2-5	car	2-3_dobj	parked	NN	O
+2-6	in	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	parking	O	O	NN	O
+2-9	lot	2-3_prep_in	parked	NN	P1_NPart_lot
+2-10	,	O	O	O	O
+2-11	I	2-12_nsubj	found	PRP	P1_passenger
+2-12	found	O	O	VBD	O
+2-13	the	O	O	DT	O
+2-14	right	O	O	JJ	O
+2-15	ticket	O	O	NN	O
+2-16	counter	2-12_dobj	found	NN	P1_check_in_desk
+2-17	for	O	O	O	O
+2-18	my	O	O	PRP$	P1_passenger
+2-19	airline	2-12_prep_for	found	NN	P1_other
+2-20	and	O	O	O	O
+2-21	then	2-22_advmod	turned	RB	O
+2-22	turned	2-12_conj_and	found	VBD	O
+2-23	in	O	O	O	O
+2-24	my	O	O	PRP$	P1_passenger
+2-25	suitcase	2-22_prep_in	turned	NN	P1_check_in_luggage
+2-26	so	2-29_mark	travel	IN	O
+2-27	it	2-29_nsubj	travel	PRP	P1_check_in_luggage
+2-28	could	2-29_aux	travel	MD	O
+2-29	travel	2-12_advcl	found	VB	O
+2-30	in	O	O	O	O
+2-31	the	O	O	DT	O
+2-32	cargo	2-29_prep_in	travel	NN	P2_other
+2-33	of	O	O	O	O
+2-34	the	O	O	DT	O
+2-35	plane	O	O	NN	P1_plane
+2-36	.	O	O	O	O
+
+#id=3
+#text=Then I went to a place called a gate which is really just an indoor place to wait for my plane to arrive . 
+3-1	Then	3-3_advmod	went	RB	O
+3-2	I	3-3_nsubj	went	PRP	P1_passenger
+3-3	went	O	O	VBD	O
+3-4	to	O	O	O	O
+3-5	a	O	O	DT	O
+3-6	place	3-3_prep_to	went	NN	P1_terminal/gate
+3-7	called	O	O	VBN	O
+3-8	a	O	O	DT	O
+3-9	gate	3-7_dobj	called	NN	P1_terminal/gate
+3-10	which	O	O	WDT	O
+3-11	is	O	O	VBZ	O
+3-12	really	O	O	RB	O
+3-13	just	O	O	RB	O
+3-14	an	O	O	DT	O
+3-15	indoor	O	O	JJ	O
+3-16	place	O	O	NN	P1_terminal/gate
+3-17	to	3-18_aux	wait	TO	O
+3-18	wait	O	O	VB	O
+3-19	for	O	O	O	O
+3-20	my	O	O	PRP$	P1_passenger
+3-21	plane	3-18_prep_for	wait	NN	P1_plane
+3-22	to	3-23_aux	arrive	TO	O
+3-23	arrive	O	O	VB	O
+3-24	.	O	O	O	O
+
+#id=4
+#text=It has a big window where I watched the planes and waited for my turn to get on one . 
+4-1	It	4-2_nsubj	has	PRP	P1_terminal/gate
+4-2	has	O	O	VBZ	O
+4-3	a	O	O	DT	O
+4-4	big	O	O	JJ	O
+4-5	window	4-2_dobj	has	NN	P1_NPart_window
+4-6	where	4-8_advmod	watched	WRB	O
+4-7	I	4-8_nsubj	watched	PRP	P1_passenger
+4-8	watched	O	O	VBD	O
+4-9	the	O	O	DT	O
+4-10	planes	4-8_dobj	watched	NNS	P1_plane
+4-11	and	O	O	O	O
+4-12	waited	4-8_conj_and	watched	VBD	O
+4-13	for	O	O	O	O
+4-14	my	O	O	PRP$	P1_passenger
+4-15	turn	4-12_prep_for	waited	NN	P1_NPart_turn
+4-16	to	4-17_aux	get	TO	O
+4-17	get	O	O	VB	O
+4-18	on	O	O	O	O
+4-19	one	4-17_prep_on	get	CD	P1_plane
+4-20	.	O	O	O	O
+
+#id=5
+#text=Once my plane arrived , a nice flight attendant showed me to my seat and I sat down to wait . 
+5-1	Once	5-4_mark	arrived	IN	O
+5-2	my	O	O	PRP$	P1_passenger
+5-3	plane	5-4_nsubj	arrived	NN	P1_plane
+5-4	arrived	5-10_advcl	showed	VBD	O
+5-5	,	O	O	O	O
+5-6	a	O	O	DT	O
+5-7	nice	O	O	JJ	O
+5-8	flight	O	O	NN	O
+5-9	attendant	5-10_nsubj	showed	NN	P1_staff
+5-10	showed	O	O	VBD	O
+5-11	me	5-10_dobj	showed	PRP	P1_passenger
+5-12	to	O	O	O	O
+5-13	my	O	O	PRP$	P1_passenger
+5-14	seat	5-10_prep_to	showed	NN	P1_seat
+5-15	and	O	O	O	O
+5-16	I	5-17_nsubj	sat	PRP	P1_passenger
+5-17	sat	5-10_conj_and	showed	VBD	O
+5-18	down	5-17_prt	sat	RP	O
+5-19	to	5-20_aux	wait	TO	O
+5-20	wait	5-17_xcomp	sat	VB	O
+5-21	.	O	O	O	O
+
+#id=6
+#text=My seat was comfortable , but small , and there were people sitting on each side of me . 
+6-1	My	O	O	PRP$	P1_passenger
+6-2	seat	O	O	NN	P1_seat
+6-3	was	O	O	VBD	O
+6-4	comfortable	O	O	JJ	O
+6-5	,	O	O	O	O
+6-6	but	O	O	O	O
+6-7	small	O	O	JJ	O
+6-8	,	O	O	O	O
+6-9	and	O	O	O	O
+6-10	there	6-11_expl	were	EX	O
+6-11	were	O	O	VBD	O
+6-12	people	6-11_nsubj	were	NNS	P2_passenger
+6-13	sitting	O	O	VBG	O
+6-14	on	O	O	O	O
+6-15	each	O	O	DT	O
+6-16	side	6-13_prep_on	sitting	NN	P1_NPart_side
+6-17	of	O	O	O	O
+6-18	me	O	O	PRP	P1_passenger
+6-19	.	O	O	O	O
+
+#id=7
+#text=Once everyone settled in , the plane started and then drove down the runway to wait its turn to take off . 
+7-1	Once	7-3_mark	settled	IN	O
+7-2	everyone	7-3_nsubj	settled	NN	P2_passenger
+7-3	settled	7-8_advcl	started	VBD	O
+7-4	in	7-3_prt	settled	RP	O
+7-5	,	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	plane	7-8_nsubj	started	NN	P1_plane
+7-8	started	O	O	VBD	O
+7-9	and	O	O	O	O
+7-10	then	7-11_advmod	drove	RB	O
+7-11	drove	7-8_conj_and	started	VBD	O
+7-12	down	7-11_prt	drove	RP	O
+7-13	the	O	O	DT	O
+7-14	runway	7-11_dobj	drove	NN	P1_location_airplane
+7-15	to	7-16_aux	wait	TO	O
+7-16	wait	O	O	VB	O
+7-17	its	O	O	PRP$	P1_plane
+7-18	turn	7-16_dobj	wait	NN	P2_NPart_turn
+7-19	to	7-20_aux	take	TO	O
+7-20	take	O	O	VB	O
+7-21	off	7-20_prt	take	RP	O
+7-22	.	O	O	O	O
+
+#id=8
+#text=When we took off , it rose into the air and then leveled off to what the pilot called cruising speed . 
+8-1	When	8-3_advmod	took	WRB	O
+8-2	we	8-3_nsubj	took	PRP	P1_plane
+8-3	took	8-7_advcl	rose	VBD	O
+8-4	off	8-3_prt	took	RP	O
+8-5	,	O	O	O	O
+8-6	it	8-7_nsubj	rose	PRP	P1_plane
+8-7	rose	O	O	VBD	O
+8-8	into	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	air	8-7_prep_into	rose	NN	P2_location_airplane
+8-11	and	O	O	O	O
+8-12	then	8-13_advmod	leveled	RB	O
+8-13	leveled	8-7_conj_and	rose	VBD	O
+8-14	off	8-13_prt	leveled	RP	O
+8-15	to	O	O	O	O
+8-16	what	8-19_dobj	called	WP	O
+8-17	the	O	O	DT	O
+8-18	pilot	8-19_nsubj	called	NN	P2_staff
+8-19	called	8-13_prepc_to	leveled	VBD	O
+8-20	cruising	8-19_xcomp	called	VBG	O
+8-21	speed	8-20_dobj	cruising	NN	P3_other
+8-22	.	O	O	O	O
+
+#id=9
+#text=Then the flight attendants brought around food and drinks . 
+9-1	Then	9-5_advmod	brought	RB	O
+9-2	the	O	O	DT	O
+9-3	flight	O	O	NN	O
+9-4	attendants	9-5_nsubj	brought	NNS	P1_staff
+9-5	brought	O	O	VBD	O
+9-6	around	O	O	O	O
+9-7	food	9-5_prep_around	brought	NN	P4_other
+9-8	and	O	O	O	O
+9-9	drinks	O	O	NNS	P5_other
+9-10	.	O	O	O	O
+
+#id=10
+#text=The plane was a little noisy , but it was fun to watch the people and the food was pretty good . 
+10-1	The	O	O	DT	O
+10-2	plane	O	O	NN	P1_plane
+10-3	was	O	O	VBD	O
+10-4	a	O	O	DT	O
+10-5	little	O	O	RB	O
+10-6	noisy	O	O	JJ	O
+10-7	,	O	O	O	O
+10-8	but	O	O	O	O
+10-9	it	O	O	PRP	O
+10-10	was	O	O	VBD	O
+10-11	fun	O	O	NN	O
+10-12	to	10-13_aux	watch	TO	O
+10-13	watch	O	O	VB	O
+10-14	the	O	O	DT	O
+10-15	people	10-13_dobj	watch	NNS	P2_passenger
+10-16	and	O	O	O	O
+10-17	the	O	O	DT	O
+10-18	food	O	O	NN	P4_other
+10-19	was	O	O	VBD	O
+10-20	pretty	O	O	RB	O
+10-21	good	O	O	JJ	O
+10-22	.	O	O	O	O
+
+#id=11
+#text=The plane ride was short and we had barely finished our food and drinks before the pilot said it was time to land in the next town . 
+11-1	The	O	O	DT	O
+11-2	plane	O	O	NN	O
+11-3	ride	O	O	NN	P1_flight
+11-4	was	O	O	VBD	O
+11-5	short	O	O	JJ	O
+11-6	and	O	O	O	O
+11-7	we	11-10_nsubj	finished	PRP	P2_passenger
+11-8	had	11-10_aux	finished	VBD	O
+11-9	barely	11-10_advmod	finished	RB	O
+11-10	finished	O	O	VBN	O
+11-11	our	O	O	PRP$	P1_NPart_our
+11-12	food	11-10_dobj	finished	NN	P4_other
+11-13	and	O	O	O	O
+11-14	drinks	O	O	NNS	P5_other
+11-15	before	11-18_mark	said	IN	O
+11-16	the	O	O	DT	O
+11-17	pilot	11-18_nsubj	said	NN	P2_staff
+11-18	said	11-10_advcl	finished	VBD	O
+11-19	it	O	O	PRP	O
+11-20	was	O	O	VBD	O
+11-21	time	11-18_ccomp	said	NN	O
+11-22	to	11-23_aux	land	TO	O
+11-23	land	O	O	VB	O
+11-24	in	O	O	O	O
+11-25	the	O	O	DT	O
+11-26	next	O	O	JJ	O
+11-27	town	11-23_prep_in	land	NN	P2_target_location
+11-28	.	O	O	O	O
+
+#id=12
+#text=The flight attendants came back around to pick up our trash and then we had to buckle our seat belts again for the plane to land . 
+12-1	The	O	O	DT	O
+12-2	flight	O	O	NN	O
+12-3	attendants	12-4_nsubj	came	NNS	P1_staff
+12-4	came	O	O	VBD	O
+12-5	back	12-4_advmod	came	RB	O
+12-6	around	O	O	RP	O
+12-7	to	12-8_aux	pick	TO	O
+12-8	pick	O	O	VB	O
+12-9	up	12-8_prt	pick	RP	O
+12-10	our	O	O	PRP$	P3_passenger
+12-11	trash	12-8_dobj	pick	NN	P6_other
+12-12	and	O	O	O	O
+12-13	then	12-15_advmod	had	RB	O
+12-14	we	12-15_nsubj	had	PRP	P2_passenger
+12-15	had	12-4_conj_and	came	VBD	O
+12-16	to	12-17_aux	buckle	TO	O
+12-17	buckle	12-15_xcomp	had	VB	O
+12-18	our	O	O	PRP$	P2_passenger
+12-19	seat	O	O	NN	O
+12-20	belts	12-17_dobj	buckle	NNS	P1_seat_belt
+12-21	again	12-17_advmod	buckle	RB	O
+12-22	for	O	O	O	O
+12-23	the	O	O	DT	O
+12-24	plane	12-17_prep_for	buckle	NN	P1_plane
+12-25	to	12-26_aux	land	TO	O
+12-26	land	12-15_xcomp	had	VB	O
+12-27	.	O	O	O	O
+
+#id=13
+#text=It was a fun trip and I hope I get to do it again sometime . 
+13-1	It	O	O	PRP	O
+13-2	was	O	O	VBD	O
+13-3	a	O	O	DT	O
+13-4	fun	O	O	NN	O
+13-5	trip	O	O	NN	P1_flight
+13-6	and	O	O	O	O
+13-7	I	13-8_nsubj	hope	PRP	P1_passenger
+13-8	hope	O	O	VBP	O
+13-9	I	13-10_nsubj	get	PRP	P1_passenger
+13-10	get	13-8_ccomp	hope	VBP	O
+13-11	to	13-12_aux	do	TO	O
+13-12	do	13-10_xcomp	get	VB	O
+13-13	it	13-12_dobj	do	PRP	P1_flight
+13-14	again	O	O	RB	O
+13-15	sometime	13-12_advmod	do	RB	O
+13-16	.	O	O	O	O

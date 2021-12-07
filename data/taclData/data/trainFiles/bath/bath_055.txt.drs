@@ -1,0 +1,200 @@
+#id=1
+#text=I decided to take a bath today rather than a shower . 
+1-1	I	1-2_nsubj	decided	PRP	P1_bather
+1-2	decided	O	O	VBD	O
+1-3	to	1-4_aux	take	TO	O
+1-4	take	1-2_xcomp	decided	VB	O
+1-5	a	O	O	DT	O
+1-6	bath	O	O	NN	O
+1-7	today	1-4_dobj	take	NN	O
+1-8	rather	O	O	O	O
+1-9	than	O	O	O	O
+1-10	a	O	O	DT	O
+1-11	shower	O	O	NN	P1_shower
+1-12	.	O	O	O	O
+
+#id=2
+#text=First I scrubbed the tub with cleanser and rinsed it well . 
+2-1	First	2-3_advmod	scrubbed	RB	O
+2-2	I	2-3_nsubj	scrubbed	PRP	P1_bather
+2-3	scrubbed	O	O	VBD	O
+2-4	the	O	O	DT	O
+2-5	tub	2-3_dobj	scrubbed	NN	P1_bathtub
+2-6	with	O	O	O	O
+2-7	cleanser	2-3_prep_with	scrubbed	NN	P1_NPart_cleanser
+2-8	and	O	O	O	O
+2-9	rinsed	2-3_conj_and	scrubbed	VBD	O
+2-10	it	2-9_dobj	rinsed	PRP	P1_bathtub
+2-11	well	2-9_advmod	rinsed	RB	O
+2-12	.	O	O	O	O
+
+#id=3
+#text=I put the plug in the drain and turned on the hot water . 
+3-1	I	3-2_nsubj	put	PRP	P1_bather
+3-2	put	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	plug	3-2_dobj	put	NN	P1_plug
+3-5	in	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	drain	3-2_prep_in	put	NN	P1_drain
+3-8	and	O	O	O	O
+3-9	turned	3-2_conj_and	put	VBD	O
+3-10	on	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	hot	O	O	JJ	O
+3-13	water	3-9_prep_on	turned	NN	P1_water
+3-14	.	O	O	O	O
+
+#id=4
+#text=While the tub was filling I gathered all the supplies I would need including my favorite bathrobe , bubble bath soap , a fresh towel and wash cloth , and a new bar of soap . 
+4-1	While	4-5_mark	filling	IN	O
+4-2	the	O	O	DT	O
+4-3	tub	4-5_nsubj	filling	NN	P1_bathtub
+4-4	was	4-5_aux	filling	VBD	O
+4-5	filling	4-13_advcl	need	VBG	O
+4-6	I	4-7_nsubj	gathered	PRP	P1_bather
+4-7	gathered	4-5_ccomp	filling	VBD	O
+4-8	all	O	O	PDT	O
+4-9	the	O	O	DT	O
+4-10	supplies	4-7_dobj	gathered	NNS	O
+4-11	I	4-13_nsubj	need	PRP	P1_bather
+4-12	would	4-13_aux	need	MD	O
+4-13	need	O	O	VB	O
+4-14	including	O	O	O	O
+4-15	my	O	O	PRP$	P1_bather
+4-16	favorite	O	O	JJ	O
+4-17	bathrobe	4-13_prep_including	need	NN	P1_clothes
+4-18	,	O	O	O	O
+4-19	bubble	O	O	NN	O
+4-20	bath	O	O	NN	O
+4-21	soap	O	O	NN	P1_bath_means
+4-22	,	O	O	O	O
+4-23	a	O	O	DT	O
+4-24	fresh	O	O	JJ	O
+4-25	towel	O	O	NN	P1_washing_tools
+4-26	and	O	O	O	O
+4-27	wash	O	O	NN	O
+4-28	cloth	O	O	NN	P2_washing_tools
+4-29	,	O	O	O	O
+4-30	and	O	O	O	O
+4-31	a	O	O	DT	O
+4-32	new	O	O	JJ	O
+4-33	bar	O	O	NN	O
+4-34	of	O	O	O	O
+4-35	soap	O	O	NN	P3_washing_tools
+4-36	.	O	O	O	O
+
+#id=5
+#text=I tied my hair up into a bun . 
+5-1	I	5-2_nsubj	tied	PRP	P1_bather
+5-2	tied	O	O	VBD	O
+5-3	my	O	O	PRP$	P1_bather
+5-4	hair	5-2_dobj	tied	NN	P1_hair
+5-5	up	5-2_prt	tied	RP	O
+5-6	into	O	O	O	O
+5-7	a	O	O	DT	O
+5-8	bun	5-2_prep_into	tied	NN	P1_NPart_bun
+5-9	.	O	O	O	O
+
+#id=6
+#text=As the bath was nearing the level I desired I checked the water temperature and added just enough cold water to make it comfortable , and I added enough bubble bath to cover the surface with foam . 
+6-1	As	6-5_mark	nearing	IN	O
+6-2	the	O	O	DT	O
+6-3	bath	6-5_nsubj	nearing	NN	P1_water
+6-4	was	6-5_aux	nearing	VBD	O
+6-5	nearing	6-9_advcl	desired	VBG	O
+6-6	the	O	O	DT	O
+6-7	level	6-5_dobj	nearing	NN	P1_NPart_level
+6-8	I	6-9_nsubj	desired	PRP	P1_bather
+6-9	desired	O	O	VBD	O
+6-10	I	6-11_nsubj	checked	PRP	P1_bather
+6-11	checked	6-9_ccomp	desired	VBD	O
+6-12	the	O	O	DT	O
+6-13	water	O	O	NN	O
+6-14	temperature	6-11_dobj	checked	NN	P1_temperature
+6-15	and	O	O	O	O
+6-16	added	6-11_conj_and	checked	VBD	O
+6-17	just	O	O	RB	O
+6-18	enough	O	O	RB	O
+6-19	cold	O	O	JJ	O
+6-20	water	6-16_dobj	added	NN	P1_water
+6-21	to	6-22_aux	make	TO	O
+6-22	make	O	O	VB	O
+6-23	it	O	O	PRP	P1_water
+6-24	comfortable	6-22_xcomp	make	JJ	O
+6-25	,	O	O	O	O
+6-26	and	O	O	O	O
+6-27	I	6-28_nsubj	added	PRP	P1_bather
+6-28	added	6-9_conj_and	desired	VBD	O
+6-29	enough	O	O	JJ	O
+6-30	bubble	O	O	NN	O
+6-31	bath	6-28_dobj	added	NN	P1_bath_means
+6-32	to	6-33_aux	cover	TO	O
+6-33	cover	6-28_vmod	added	VB	O
+6-34	the	O	O	DT	O
+6-35	surface	6-33_dobj	cover	NN	P1_NPart_surface
+6-36	with	O	O	O	O
+6-37	foam	6-33_prep_with	cover	NN	P1_bath_means
+6-38	.	O	O	O	O
+
+#id=7
+#text=I carefully stepped into the tub , immersed myself , and remained there for more than half an hour relaxing . 
+7-1	I	7-3_nsubj	stepped	PRP	P1_bather
+7-2	carefully	7-3_advmod	stepped	RB	O
+7-3	stepped	O	O	VBD	O
+7-4	into	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	tub	7-3_prep_into	stepped	NN	P1_bathtub
+7-7	,	O	O	O	O
+7-8	immersed	O	O	VBN	O
+7-9	myself	7-8_dobj	immersed	PRP	P1_bather
+7-10	,	O	O	O	O
+7-11	and	O	O	O	O
+7-12	remained	7-3_conj_and	stepped	VBD	O
+7-13	there	7-12_advmod	remained	RB	O
+7-14	for	O	O	O	O
+7-15	more	O	O	JJR	O
+7-16	than	O	O	IN	O
+7-17	half	7-12_prep_for	remained	PDT	O
+7-18	an	O	O	DT	O
+7-19	hour	O	O	NN	P1_NPart_hour
+7-20	relaxing	7-3_acomp	stepped	JJ	O
+7-21	.	O	O	O	O
+
+#id=8
+#text=Before the water go too cold I used the soap and washcloth to clean myself . 
+8-1	Before	8-4_mark	go	IN	O
+8-2	the	O	O	DT	O
+8-3	water	8-4_nsubj	go	NN	P1_water
+8-4	go	8-8_advcl	used	VBP	O
+8-5	too	O	O	RB	O
+8-6	cold	8-4_acomp	go	JJ	O
+8-7	I	8-8_nsubj	used	PRP	P1_bather
+8-8	used	O	O	VBD	O
+8-9	the	O	O	DT	O
+8-10	soap	8-8_dobj	used	NN	P3_washing_tools
+8-11	and	O	O	O	O
+8-12	washcloth	O	O	NN	P2_washing_tools
+8-13	to	8-14_aux	clean	TO	O
+8-14	clean	8-8_vmod	used	VB	O
+8-15	myself	8-14_dobj	clean	PRP	P1_bather
+8-16	.	O	O	O	O
+
+#id=9
+#text=I pulled the plug , got out , dried myself and put on my robe . 
+9-1	I	9-2_nsubj	pulled	PRP	P1_bather
+9-2	pulled	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	plug	9-9_nsubj	dried	NN	P1_plug
+9-5	,	O	O	O	O
+9-6	got	O	O	VBN	O
+9-7	out	9-6_prt	got	RP	O
+9-8	,	O	O	O	O
+9-9	dried	9-2_ccomp	pulled	VBD	O
+9-10	myself	9-9_dobj	dried	PRP	P1_bather
+9-11	and	O	O	O	O
+9-12	put	9-9_conj_and	dried	VBD	O
+9-13	on	O	O	O	O
+9-14	my	O	O	PRP$	P1_bather
+9-15	robe	9-12_prep_on	put	NN	P1_clothes
+9-16	.	O	O	O	O

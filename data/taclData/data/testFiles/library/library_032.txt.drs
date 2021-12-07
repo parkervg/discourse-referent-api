@@ -1,0 +1,192 @@
+#id=1
+#text=For a school assignment I needed to find a book from the library . 
+1-1	For	O	O	O	O
+1-2	a	O	O	DT	O
+1-3	school	O	O	NN	O
+1-4	assignment	1-6_prep_for	needed	NN	P1_NPart_assignment
+1-5	I	1-6_nsubj	needed	PRP	P1_customer
+1-6	needed	O	O	VBD	O
+1-7	to	1-8_aux	find	TO	O
+1-8	find	1-6_xcomp	needed	VB	O
+1-9	a	O	O	DT	O
+1-10	book	1-8_dobj	find	NN	P1_book
+1-11	from	O	O	O	O
+1-12	the	O	O	DT	O
+1-13	library	1-8_prep_from	find	NN	P1_library
+1-14	.	O	O	O	O
+
+#id=2
+#text=I went to the library after class and looked the book up on the computer which had the library 's catalogue . 
+2-1	I	2-2_nsubj	went	PRP	P1_customer
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	library	2-2_prep_to	went	NN	P1_library
+2-6	after	O	O	O	O
+2-7	class	2-2_prep_after	went	NN	P1_NPart_class
+2-8	and	O	O	O	O
+2-9	looked	2-2_conj_and	went	VBD	O
+2-10	the	O	O	DT	O
+2-11	book	2-9_dobj	looked	NN	P1_book
+2-12	up	2-9_prt	looked	RP	O
+2-13	on	O	O	O	O
+2-14	the	O	O	DT	O
+2-15	computer	2-9_prep_on	looked	NN	P1_institutional_devices
+2-16	which	2-17_nsubj	had	WDT	P1_institutional_devices
+2-17	had	O	O	VBD	O
+2-18	the	O	O	DT	O
+2-19	library	O	O	NN	P1_library
+2-20	's	O	O	O	O
+2-21	catalogue	2-17_dobj	had	NN	P1_catalog
+2-22	.	O	O	O	O
+
+#id=3
+#text=The book was upstairs , so I went there and followed the call numbers until I found what I was looking for . 
+3-1	The	O	O	DT	O
+3-2	book	3-3_nsubj	was	NN	P1_book
+3-3	was	O	O	VBD	O
+3-4	upstairs	3-3_advmod	was	NN	O
+3-5	,	O	O	O	O
+3-6	so	3-8_mark	went	IN	O
+3-7	I	3-8_nsubj	went	PRP	P1_customer
+3-8	went	3-3_advcl	was	VBD	O
+3-9	there	3-8_advmod	went	RB	O
+3-10	and	O	O	O	O
+3-11	followed	3-8_conj_and	went	VBD	O
+3-12	the	O	O	DT	O
+3-13	call	O	O	NN	O
+3-14	numbers	3-11_dobj	followed	NNS	P1_section_id
+3-15	until	3-17_mark	found	IN	O
+3-16	I	3-17_nsubj	found	PRP	P1_customer
+3-17	found	3-11_advcl	followed	VBD	O
+3-18	what	3-21_prep_for	looking	WP	P1_book
+3-19	I	3-21_nsubj	looking	PRP	P1_customer
+3-20	was	3-21_aux	looking	VBD	O
+3-21	looking	3-17_ccomp	found	VBG	O
+3-22	for	O	O	O	O
+3-23	.	O	O	O	O
+
+#id=4
+#text=I then went back downstairs to the circulation desk . 
+4-1	I	4-3_nsubj	went	PRP	P1_customer
+4-2	then	4-3_advmod	went	RB	O
+4-3	went	O	O	VBD	O
+4-4	back	O	O	JJ	O
+4-5	downstairs	4-3_dobj	went	NNS	O
+4-6	to	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	circulation	O	O	NN	O
+4-9	desk	4-3_prep_to	went	NN	P1_check-out_desk
+4-10	.	O	O	O	O
+
+#id=5
+#text=I placed the book on the counter and the friendly librarian swiped my library card and then scanned the book . 
+5-1	I	5-2_nsubj	placed	PRP	P1_customer
+5-2	placed	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	book	5-12_nsubj	swiped	NN	P1_book
+5-5	on	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	counter	O	O	NN	P1_check-out_desk
+5-8	and	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	friendly	O	O	JJ	O
+5-11	librarian	O	O	NN	P1_staff
+5-12	swiped	5-2_ccomp	placed	VBD	O
+5-13	my	O	O	PRP$	P1_customer
+5-14	library	O	O	NN	O
+5-15	card	5-12_dobj	swiped	NN	P1_library_card
+5-16	and	O	O	O	O
+5-17	then	5-18_advmod	scanned	RB	O
+5-18	scanned	5-12_conj_and	swiped	VBD	O
+5-19	the	O	O	DT	O
+5-20	book	5-18_dobj	scanned	NN	P1_book
+5-21	.	O	O	O	O
+
+#id=6
+#text=Turns out I owed a fine which I had to pay before I could have the book . 
+6-1	Turns	O	O	VBG	O
+6-2	out	6-1_prt	Turns	RP	O
+6-3	I	6-1_dobj	Turns	PRP	P1_customer
+6-4	owed	6-1_dep	Turns	VBD	O
+6-5	a	O	O	DT	O
+6-6	fine	6-1_nsubj	Turns	NN	P1_NPart_fine
+6-7	which	6-9_dobj	had	WDT	P1_NPart_which
+6-8	I	6-9_nsubj	had	PRP	P1_customer
+6-9	had	O	O	VBD	O
+6-10	to	6-11_aux	pay	TO	O
+6-11	pay	6-9_xcomp	had	VB	O
+6-12	before	6-15_mark	have	IN	O
+6-13	I	6-15_nsubj	have	PRP	P1_customer
+6-14	could	6-15_aux	have	MD	O
+6-15	have	6-11_advcl	pay	VB	O
+6-16	the	O	O	DT	O
+6-17	book	6-15_dobj	have	NN	P1_book
+6-18	.	O	O	O	O
+
+#id=7
+#text=It was only a dime which thankfully I had on my person . 
+7-1	It	O	O	PRP	O
+7-2	was	O	O	VBD	O
+7-3	only	O	O	RB	O
+7-4	a	O	O	DT	O
+7-5	dime	O	O	NN	P1_NPart_dime
+7-6	which	7-7_nsubj	thankfully	WDT	O
+7-7	thankfully	O	O	VBP	O
+7-8	I	7-9_nsubj	had	PRP	P1_customer
+7-9	had	7-7_ccomp	thankfully	VBD	O
+7-10	on	O	O	O	O
+7-11	my	O	O	PRP$	P1_customer
+7-12	person	7-9_prep_on	had	NN	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=After paying the fine the book was stamped with a due date and the librarian gave it to me . 
+8-1	After	O	O	O	O
+8-2	paying	8-8_prepc_after	stamped	VBG	O
+8-3	the	O	O	DT	O
+8-4	fine	8-2_dobj	paying	NN	P2_NPart_fine
+8-5	the	O	O	DT	O
+8-6	book	8-8_nsubjpass	stamped	NN	P1_book
+8-7	was	8-8_auxpass	stamped	VBD	O
+8-8	stamped	O	O	VBN	O
+8-9	with	O	O	O	O
+8-10	a	O	O	DT	O
+8-11	due	O	O	JJ	O
+8-12	date	8-8_prep_with	stamped	NN	P1_return_date
+8-13	and	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	librarian	8-16_nsubj	gave	NN	P1_staff
+8-16	gave	8-8_conj_and	stamped	VBD	O
+8-17	it	8-16_dobj	gave	PRP	P1_book
+8-18	to	O	O	O	O
+8-19	me	8-16_prep_to	gave	PRP	P1_customer
+8-20	.	O	O	O	O
+
+#id=9
+#text=It was raining out so she gave me a rain bag to protect the book . 
+9-1	It	9-3_nsubj	raining	PRP	O
+9-2	was	9-3_aux	raining	VBD	O
+9-3	raining	O	O	VBG	O
+9-4	out	9-3_prt	raining	RP	O
+9-5	so	9-7_mark	gave	IN	O
+9-6	she	9-7_nsubj	gave	PRP	P1_staff
+9-7	gave	9-3_advcl	raining	VBD	O
+9-8	me	9-7_iobj	gave	PRP	P1_customer
+9-9	a	O	O	DT	O
+9-10	rain	O	O	NN	O
+9-11	bag	9-7_dobj	gave	NN	P1_bag
+9-12	to	9-13_aux	protect	TO	O
+9-13	protect	9-7_vmod	gave	VB	O
+9-14	the	O	O	DT	O
+9-15	book	9-13_dobj	protect	NN	P1_book
+9-16	.	O	O	O	O
+
+#id=10
+#text=I was on my way . 
+10-1	I	10-2_nsubj	was	PRP	P1_customer
+10-2	was	O	O	VBD	O
+10-3	on	O	O	O	O
+10-4	my	O	O	PRP$	P1_customer
+10-5	way	10-2_prep_on	was	NN	O
+10-6	.	O	O	O	O

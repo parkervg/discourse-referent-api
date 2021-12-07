@@ -1,0 +1,227 @@
+#id=1
+#text=I like to cook a lot but I am not a very good baker . 
+1-1	I	1-2_nsubj	like	PRP	P1_cook
+1-2	like	O	O	VBP	O
+1-3	to	1-4_aux	cook	TO	O
+1-4	cook	1-2_xcomp	like	VB	O
+1-5	a	O	O	DT	O
+1-6	lot	1-4_dobj	cook	NN	O
+1-7	but	O	O	O	O
+1-8	I	O	O	PRP	P1_cook
+1-9	am	O	O	VBP	O
+1-10	not	O	O	RB	O
+1-11	a	O	O	DT	O
+1-12	very	O	O	RB	O
+1-13	good	O	O	JJ	O
+1-14	baker	1-2_conj_but	like	NN	P1_cook
+1-15	.	O	O	O	O
+
+#id=2
+#text=So I never bake cakes from scratch . 
+2-1	So	2-4_dep	bake	IN	O
+2-2	I	2-4_nsubj	bake	PRP	P1_cook
+2-3	never	2-4_neg	bake	RB	O
+2-4	bake	O	O	VBP	O
+2-5	cakes	2-4_dobj	bake	NNS	P1_cake
+2-6	from	O	O	O	O
+2-7	scratch	2-4_prep_from	bake	NN	O
+2-8	.	O	O	O	O
+
+#id=3
+#text=However I do like cake al ot so I do bake them . 
+3-1	However	3-3_advmod	do	RB	O
+3-2	I	3-3_nsubj	do	PRP	P1_cook
+3-3	do	O	O	VBP	O
+3-4	like	3-7_mark	ot	IN	O
+3-5	cake	O	O	NNP	P1_cake
+3-6	al	3-7_nsubj	ot	NNP	O
+3-7	ot	3-3_advcl	do	VBP	O
+3-8	so	3-11_mark	bake	IN	O
+3-9	I	3-11_nsubj	bake	PRP	P1_cook
+3-10	do	3-11_aux	bake	VBP	O
+3-11	bake	3-7_advcl	ot	VB	O
+3-12	them	3-11_dobj	bake	PRP	P1_cake
+3-13	.	O	O	O	O
+
+#id=4
+#text=I use box mixes . 
+4-1	I	4-2_nsubj	use	PRP	P1_cook
+4-2	use	O	O	VBP	O
+4-3	box	4-4_nsubj	mixes	NN	O
+4-4	mixes	4-2_ccomp	use	VBZ	P1_ingredients
+4-5	.	O	O	O	O
+
+#id=5
+#text=They are easy to use and make a very nice cake . 
+5-1	They	O	O	PRP	P1_ingredients
+5-2	are	O	O	VBP	O
+5-3	easy	O	O	JJ	O
+5-4	to	5-5_aux	use	TO	O
+5-5	use	O	O	VB	O
+5-6	and	O	O	O	O
+5-7	make	5-5_conj_and	use	VB	O
+5-8	a	O	O	DT	O
+5-9	very	O	O	RB	O
+5-10	nice	O	O	JJ	O
+5-11	cake	5-5_dobj	use	NN	P1_cake
+5-12	.	O	O	O	O
+
+#id=6
+#text=it really does n't take much time . 
+6-1	it	6-5_nsubj	take	PRP	O
+6-2	really	6-5_advmod	take	RB	O
+6-3	does	6-5_aux	take	VBZ	O
+6-4	n't	6-5_neg	take	RB	O
+6-5	take	O	O	VB	O
+6-6	much	O	O	JJ	O
+6-7	time	6-5_dobj	take	NN	O
+6-8	.	O	O	O	O
+
+#id=7
+#text=All you need to do is get one bowl . 
+7-1	All	7-7_nsubj	get	DT	O
+7-2	you	7-3_nsubj	need	PRP	P1_cook
+7-3	need	O	O	VBP	O
+7-4	to	7-5_aux	do	TO	O
+7-5	do	7-3_xcomp	need	VB	O
+7-6	is	7-7_aux	get	VBZ	O
+7-7	get	O	O	VB	O
+7-8	one	O	O	CD	O
+7-9	bowl	7-7_dobj	get	NN	P1_utensil
+7-10	.	O	O	O	O
+
+#id=8
+#text=Add the cake mix from the box . 
+8-1	Add	O	O	VB	O
+8-2	the	O	O	DT	O
+8-3	cake	O	O	NN	O
+8-4	mix	8-1_dobj	Add	NN	P1_ingredients
+8-5	from	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	box	8-1_prep_from	Add	NN	P1_NPart_box
+8-8	.	O	O	O	O
+
+#id=9
+#text=Either 2 or 3 eggs added to the bowl . 
+9-1	Either	9-6_dep	added	CC	O
+9-2	2	O	O	CD	O
+9-3	or	O	O	O	O
+9-4	3	O	O	CD	O
+9-5	eggs	9-6_nsubj	added	NNS	P2_ingredients
+9-6	added	O	O	VBD	O
+9-7	to	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	bowl	9-6_prep_to	added	NN	P1_utensil
+9-10	.	O	O	O	O
+
+#id=10
+#text=Then a half cup of oil and finally about a cup of water . 
+10-1	Then	10-4_advmod	cup	RB	O
+10-2	a	O	O	DT	O
+10-3	half	10-4_nsubj	cup	NN	O
+10-4	cup	O	O	VBD	O
+10-5	of	10-4_dep	cup	IN	O
+10-6	oil	O	O	NN	P3_ingredients
+10-7	and	O	O	O	O
+10-8	finally	O	O	RB	O
+10-9	about	O	O	O	O
+10-10	a	O	O	DT	O
+10-11	cup	10-4_prep_about	cup	NN	O
+10-12	of	O	O	O	O
+10-13	water	O	O	NN	P4_ingredients
+10-14	.	O	O	O	O
+
+#id=11
+#text=Then you need to get your mixer and put it on medium and mix it all up for 2 to 3 minutes . 
+11-1	Then	11-3_advmod	need	RB	O
+11-2	you	11-3_nsubj	need	PRP	P1_cook
+11-3	need	O	O	VBP	O
+11-4	to	11-5_aux	get	TO	O
+11-5	get	11-3_xcomp	need	VB	O
+11-6	your	O	O	PRP$	P1_cook
+11-7	mixer	11-5_dobj	get	NN	P2_utensil
+11-8	and	O	O	O	O
+11-9	put	11-5_conj_and	get	VB	O
+11-10	it	11-9_dobj	put	PRP	P2_utensil
+11-11	on	O	O	O	O
+11-12	medium	11-9_prep_on	put	NN	P1_NPart_medium
+11-13	and	O	O	O	O
+11-14	mix	11-9_conj_and	put	VB	O
+11-15	it	11-14_dobj	mix	PRP	P1_dough
+11-16	all	O	O	DT	O
+11-17	up	11-14_advmod	mix	RB	O
+11-18	for	O	O	O	O
+11-19	2	O	O	CD	O
+11-20	to	O	O	TO	O
+11-21	3	O	O	CD	O
+11-22	minutes	11-14_prep_for	mix	NNS	P1_time
+11-23	.	O	O	O	O
+
+#id=12
+#text=Then put it into a non stick cake pan and bake for about 30 minutes . 
+12-1	Then	12-2_advmod	put	RB	O
+12-2	put	O	O	VB	O
+12-3	it	12-2_dobj	put	PRP	P1_dough
+12-4	into	O	O	O	O
+12-5	a	O	O	DT	O
+12-6	non	O	O	NN	O
+12-7	stick	O	O	NN	O
+12-8	cake	O	O	NN	O
+12-9	pan	12-2_prep_into	put	NN	P1_cake_tin
+12-10	and	O	O	O	O
+12-11	bake	12-2_conj_and	put	VB	O
+12-12	for	O	O	O	O
+12-13	about	O	O	RB	O
+12-14	30	O	O	CD	O
+12-15	minutes	12-11_prep_for	bake	NNS	P2_time
+12-16	.	O	O	O	O
+
+#id=13
+#text=So all together about 10 minutes preparation and 30 minutes baking you can have a good tasting cake in 40 minutes . 
+13-1	So	13-14_dep	have	IN	O
+13-2	all	O	O	DT	O
+13-3	together	O	O	RB	O
+13-4	about	O	O	RB	O
+13-5	10	O	O	CD	O
+13-6	minutes	O	O	NNS	P3_time
+13-7	preparation	13-14_nsubj	have	NN	P1_NPart_preparation
+13-8	and	O	O	O	O
+13-9	30	O	O	CD	O
+13-10	minutes	O	O	NNS	P2_time
+13-11	baking	O	O	VBG	O
+13-12	you	13-11_dobj	baking	PRP	P1_cook
+13-13	can	13-14_aux	have	MD	O
+13-14	have	O	O	VB	O
+13-15	a	O	O	DT	O
+13-16	good	O	O	JJ	O
+13-17	tasting	O	O	NN	O
+13-18	cake	13-14_dobj	have	NN	P1_cake
+13-19	in	O	O	O	O
+13-20	40	O	O	CD	O
+13-21	minutes	O	O	NNS	P4_time
+13-22	.	O	O	O	O
+
+#id=14
+#text=. 
+14-1	.	O	O	O	O
+
+#id=15
+#text=I do n't really like frosting so as soon as it cools I cut myself a slice . 
+15-1	I	15-5_nsubj	like	PRP	P1_cook
+15-2	do	15-5_aux	like	VBP	O
+15-3	n't	15-5_neg	like	RB	O
+15-4	really	15-5_advmod	like	RB	O
+15-5	like	O	O	VB	O
+15-6	frosting	15-5_xcomp	like	VBG	P1_decoration
+15-7	so	15-12_advmod	cools	RB	O
+15-8	as	15-12_advmod	cools	RB	O
+15-9	soon	15-12_advmod	cools	RB	O
+15-10	as	15-12_mark	cools	IN	O
+15-11	it	15-12_nsubj	cools	PRP	P1_cake
+15-12	cools	15-6_advcl	frosting	VBZ	O
+15-13	I	15-14_nsubj	cut	PRP	P1_cook
+15-14	cut	15-12_ccomp	cools	VB	O
+15-15	myself	15-14_iobj	cut	PRP	P1_cook
+15-16	a	O	O	DT	O
+15-17	slice	15-14_dobj	cut	NN	P1_cake
+15-18	.	O	O	O	O

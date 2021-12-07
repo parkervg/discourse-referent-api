@@ -1,0 +1,286 @@
+#id=1
+#text=Last night , I had to bake a cake for my son 's birthday party . 
+1-1	Last	O	O	JJ	O
+1-2	night	1-5_tmod	had	NN	P1_NPart_night
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	had	PRP	P1_cook
+1-5	had	O	O	VBD	O
+1-6	to	1-7_aux	bake	TO	O
+1-7	bake	1-5_xcomp	had	VB	O
+1-8	a	O	O	DT	O
+1-9	cake	1-7_dobj	bake	NN	P2_cook
+1-10	for	O	O	O	O
+1-11	my	O	O	PRP$	P3_cook
+1-12	son	O	O	NN	P1_beneficiary
+1-13	's	O	O	O	O
+1-14	birthday	O	O	NN	O
+1-15	party	O	O	NN	P1_NPart_party
+1-16	.	O	O	O	O
+
+#id=2
+#text=I decided to go online to find a recipe to follow that a lot of people seemed to like . 
+2-1	I	2-2_nsubj	decided	PRP	P1_cook
+2-2	decided	O	O	VBD	O
+2-3	to	2-4_aux	go	TO	O
+2-4	go	2-2_xcomp	decided	VB	O
+2-5	online	2-4_prep	go	NN	P1_recipe_source
+2-6	to	2-7_aux	find	TO	O
+2-7	find	2-4_xcomp	go	VB	O
+2-8	a	O	O	DT	O
+2-9	recipe	2-7_dobj	find	NN	P1_baking_instructions
+2-10	to	2-11_aux	follow	TO	O
+2-11	follow	O	O	VB	O
+2-12	that	2-17_mark	seemed	IN	O
+2-13	a	O	O	DT	O
+2-14	lot	2-17_nsubj	seemed	NN	O
+2-15	of	O	O	O	O
+2-16	people	O	O	NNS	P1_NPart_people
+2-17	seemed	2-11_ccomp	follow	VBD	O
+2-18	to	2-19_aux	like	TO	O
+2-19	like	2-17_xcomp	seemed	VB	O
+2-20	.	O	O	O	O
+
+#id=3
+#text=I found a great chocolate cake recipe and printed it out . 
+3-1	I	3-2_nsubj	found	PRP	P1_cook
+3-2	found	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	great	O	O	JJ	O
+3-5	chocolate	O	O	NN	O
+3-6	cake	O	O	NN	P1_cake
+3-7	recipe	3-2_dobj	found	NN	P2_baking_instructions
+3-8	and	O	O	O	O
+3-9	printed	3-2_conj_and	found	VBD	O
+3-10	it	3-9_dobj	printed	PRP	P2_baking_instructions
+3-11	out	3-9_prt	printed	RP	O
+3-12	.	O	O	O	O
+
+#id=4
+#text=Once it was done being printed , I brought it into the kitchen and started gathering supplies . 
+4-1	Once	4-4_mark	done	IN	O
+4-2	it	4-4_nsubjpass	done	PRP	P2_baking_instructions
+4-3	was	4-4_auxpass	done	VBD	O
+4-4	done	4-9_advcl	brought	VBN	O
+4-5	being	4-6_auxpass	printed	VBG	O
+4-6	printed	4-4_xcomp	done	VBN	O
+4-7	,	O	O	O	O
+4-8	I	4-9_nsubj	brought	PRP	P1_cook
+4-9	brought	O	O	VBD	O
+4-10	it	4-9_dobj	brought	PRP	P2_baking_instructions
+4-11	into	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	kitchen	4-9_prep_into	brought	NN	P1_kitchen/location
+4-14	and	O	O	O	O
+4-15	started	4-9_conj_and	brought	VBD	O
+4-16	gathering	O	O	NN	O
+4-17	supplies	4-15_dobj	started	NNS	P1_ingredients
+4-18	.	O	O	O	O
+
+#id=5
+#text=Among the supplies were eggs , flour , sugar , and more . 
+5-1	Among	O	O	O	O
+5-2	the	O	O	DT	O
+5-3	supplies	5-4_prep_among	were	NNS	P1_ingredients
+5-4	were	O	O	VBD	O
+5-5	eggs	5-4_nsubj	were	NNS	O
+5-6	,	O	O	O	O
+5-7	flour	O	O	NN	O
+5-8	,	O	O	O	O
+5-9	sugar	O	O	NN	O
+5-10	,	O	O	O	O
+5-11	and	O	O	O	O
+5-12	more	O	O	JJR	P1_ingredients
+5-13	.	O	O	O	O
+
+#id=6
+#text=First thing 's first : I had to set the oven for 350 degrees . 
+6-1	First	O	O	NNP	O
+6-2	thing	O	O	NN	P1_NPart_thing
+6-3	's	O	O	VBZ	O
+6-4	first	O	O	JJ	O
+6-5	:	O	O	O	O
+6-6	I	6-7_nsubj	had	PRP	P1_cook
+6-7	had	O	O	VBD	O
+6-8	to	6-9_aux	set	TO	O
+6-9	set	6-7_xcomp	had	VB	O
+6-10	the	O	O	DT	O
+6-11	oven	6-9_dobj	set	NN	P1_oven
+6-12	for	O	O	O	O
+6-13	350	O	O	CD	O
+6-14	degrees	O	O	NNS	P1_temperature
+6-15	.	O	O	O	O
+
+#id=7
+#text=The best way to follow a baking recipe is by adding the dry ingredients like flour and baking powder together first . 
+7-1	The	O	O	DT	O
+7-2	best	O	O	JJS	O
+7-3	way	7-9_nsubj	is	NN	P1_NPart_way
+7-4	to	7-5_aux	follow	TO	O
+7-5	follow	O	O	VB	O
+7-6	a	O	O	DT	O
+7-7	baking	O	O	VBG	O
+7-8	recipe	7-5_dobj	follow	NN	P3_baking_instructions
+7-9	is	O	O	VBZ	O
+7-10	by	O	O	O	O
+7-11	adding	7-9_prepc_by	is	VBG	O
+7-12	the	O	O	DT	O
+7-13	dry	O	O	JJ	O
+7-14	ingredients	7-11_dobj	adding	NNS	P1_ingredients
+7-15	like	O	O	O	O
+7-16	flour	O	O	NN	O
+7-17	and	O	O	O	O
+7-18	baking	7-11_conj_and	adding	VBG	O
+7-19	powder	7-18_dobj	baking	NN	P1_ingredients
+7-20	together	7-18_advmod	baking	RB	O
+7-21	first	7-18_advmod	baking	RB	O
+7-22	.	O	O	O	O
+
+#id=8
+#text=Once those are mixed together , the wet ingredients are mixed together and added to the dry ingredients . 
+8-1	Once	O	O	IN	O
+8-2	those	O	O	DT	P1_ingredients
+8-3	are	O	O	VBP	O
+8-4	mixed	8-11_advcl	mixed	JJ	O
+8-5	together	O	O	RB	O
+8-6	,	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	wet	O	O	JJ	O
+8-9	ingredients	8-11_nsubjpass	mixed	NNS	P2_ingredients
+8-10	are	8-11_auxpass	mixed	VBP	O
+8-11	mixed	O	O	VBN	O
+8-12	together	8-11_advmod	mixed	RB	O
+8-13	and	O	O	O	O
+8-14	added	8-11_conj_and	mixed	VBN	O
+8-15	to	O	O	O	O
+8-16	the	O	O	DT	O
+8-17	dry	O	O	JJ	O
+8-18	ingredients	8-14_prep_to	added	NNS	P2_ingredients
+8-19	.	O	O	O	O
+
+#id=9
+#text=I followed the measurements in the recipe and mixed together the cake batter . 
+9-1	I	9-2_nsubj	followed	PRP	P1_cook
+9-2	followed	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	measurements	9-2_dobj	followed	NNS	P1_other
+9-5	in	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	recipe	9-2_prep_in	followed	NN	P4_baking_instructions
+9-8	and	O	O	O	O
+9-9	mixed	9-2_conj_and	followed	VBN	O
+9-10	together	9-9_prt	mixed	RP	O
+9-11	the	O	O	DT	O
+9-12	cake	O	O	NN	O
+9-13	batter	9-9_dobj	mixed	NN	P1_dough
+9-14	.	O	O	O	O
+
+#id=10
+#text=I grabbed a rectangle cake pan , oiled it and shook some flour around the edges . 
+10-1	I	10-2_nsubj	grabbed	PRP	P1_cook
+10-2	grabbed	O	O	VBD	O
+10-3	a	O	O	DT	O
+10-4	rectangle	O	O	NN	P1_NPart_rectangle
+10-5	cake	10-6_nsubj	pan	NN	O
+10-6	pan	10-2_ccomp	grabbed	VB	P1_cake_tin
+10-7	,	O	O	O	O
+10-8	oiled	10-2_conj_and	grabbed	VBD	O
+10-9	it	10-8_dobj	oiled	PRP	P1_cake_tin
+10-10	and	O	O	O	O
+10-11	shook	10-2_conj_and	grabbed	VBD	O
+10-12	some	O	O	DT	O
+10-13	flour	10-11_dobj	shook	NN	P1_ingredients
+10-14	around	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	edges	10-11_prep_around	shook	NNS	P1_NPart_edges
+10-17	.	O	O	O	O
+
+#id=11
+#text=I poured the cake into the pan and put it into the oven for about 18 minutes . 
+11-1	I	11-2_nsubj	poured	PRP	P1_cook
+11-2	poured	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	cake	11-2_dobj	poured	NN	P1_cake
+11-5	into	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	pan	11-2_prep_into	poured	NN	P1_cake_tin
+11-8	and	O	O	O	O
+11-9	put	11-2_conj_and	poured	VBD	O
+11-10	it	11-9_dobj	put	PRP	P1_cake_tin
+11-11	into	O	O	O	O
+11-12	the	O	O	DT	O
+11-13	oven	11-9_prep_into	put	NN	P1_oven
+11-14	for	O	O	O	O
+11-15	about	O	O	RB	O
+11-16	18	O	O	CD	O
+11-17	minutes	O	O	NNS	P1_time
+11-18	.	O	O	O	O
+
+#id=12
+#text=When I thought it was done , I checked the cake with a toothpick by putting it in the middle . 
+12-1	When	12-3_advmod	thought	WRB	O
+12-2	I	12-3_nsubj	thought	PRP	P1_cook
+12-3	thought	12-9_advcl	checked	VBD	O
+12-4	it	12-6_nsubjpass	done	PRP	P1_cake
+12-5	was	12-6_auxpass	done	VBD	O
+12-6	done	12-3_ccomp	thought	VBN	O
+12-7	,	O	O	O	O
+12-8	I	12-9_nsubj	checked	PRP	P1_cook
+12-9	checked	O	O	VBD	O
+12-10	the	O	O	DT	O
+12-11	cake	12-9_dobj	checked	NN	P1_cake
+12-12	with	O	O	O	O
+12-13	a	O	O	DT	O
+12-14	toothpick	12-9_prep_with	checked	NN	P1_utensil
+12-15	by	O	O	O	O
+12-16	putting	12-9_prepc_by	checked	VBG	O
+12-17	it	12-16_dobj	putting	PRP	P1_utensil
+12-18	in	O	O	O	O
+12-19	the	O	O	DT	O
+12-20	middle	12-16_prep_in	putting	NN	P1_NPart_middle
+12-21	.	O	O	O	O
+
+#id=13
+#text=The toothpick came out clean , without any batter on it , so I knew the cake was done . 
+13-1	The	O	O	DT	O
+13-2	toothpick	13-3_nsubj	came	NN	P1_utensil
+13-3	came	O	O	VBD	O
+13-4	out	13-3_prt	came	RP	O
+13-5	clean	13-3_acomp	came	JJ	O
+13-6	,	O	O	O	O
+13-7	without	O	O	O	O
+13-8	any	O	O	DT	O
+13-9	batter	13-3_prep_without	came	NN	P2_dough
+13-10	on	O	O	O	O
+13-11	it	O	O	PRP	P1_utensil
+13-12	,	O	O	O	O
+13-13	so	13-15_mark	knew	IN	O
+13-14	I	13-15_nsubj	knew	PRP	P1_cook
+13-15	knew	13-3_advcl	came	VBD	O
+13-16	the	O	O	DT	O
+13-17	cake	13-19_nsubjpass	done	NN	P1_cake
+13-18	was	13-19_auxpass	done	VBD	O
+13-19	done	13-15_ccomp	knew	VBN	O
+13-20	.	O	O	O	O
+
+#id=14
+#text=I let it cool for a few hours , added icing , and enjoyed it at the birthday party . 
+14-1	I	14-2_nsubj	let	PRP	P1_cook
+14-2	let	O	O	VBD	O
+14-3	it	O	O	PRP	P1_cake
+14-4	cool	14-2_xcomp	let	JJ	O
+14-5	for	O	O	O	O
+14-6	a	O	O	DT	O
+14-7	few	O	O	JJ	O
+14-8	hours	O	O	NNS	P2_time
+14-9	,	O	O	O	O
+14-10	added	14-2_conj_and	let	VBD	O
+14-11	icing	14-10_xcomp	added	VBG	P1_decoration
+14-12	,	O	O	O	O
+14-13	and	O	O	O	O
+14-14	enjoyed	14-2_conj_and	let	VBD	O
+14-15	it	14-14_dobj	enjoyed	PRP	P1_cake
+14-16	at	O	O	O	O
+14-17	the	O	O	DT	O
+14-18	birthday	O	O	NN	O
+14-19	party	14-14_prep_at	enjoyed	NN	P2_NPart_party
+14-20	.	O	O	O	O

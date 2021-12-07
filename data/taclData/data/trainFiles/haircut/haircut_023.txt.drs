@@ -1,0 +1,197 @@
+#id=1
+#text=Last week , I went to one of my favorite hairstylists after trying to get an appointment with her for over a month . 
+1-1	Last	O	O	JJ	O
+1-2	week	1-5_tmod	went	NN	P1_NPart_week
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	went	PRP	P1_customer
+1-5	went	O	O	VBD	O
+1-6	to	O	O	O	O
+1-7	one	1-5_prep_to	went	CD	P1_hairdresser
+1-8	of	O	O	O	O
+1-9	my	O	O	PRP$	P1_customer
+1-10	favorite	O	O	JJ	O
+1-11	hairstylists	O	O	NNS	P1_hairdresser
+1-12	after	O	O	O	O
+1-13	trying	1-5_prepc_after	went	VBG	O
+1-14	to	1-15_aux	get	TO	O
+1-15	get	1-13_xcomp	trying	VB	O
+1-16	an	O	O	DT	O
+1-17	appointment	1-15_dobj	get	NN	P1_appointment
+1-18	with	O	O	O	O
+1-19	her	O	O	PRP	P1_hairdresser
+1-20	for	1-15_prep	get	IN	O
+1-21	over	O	O	IN	O
+1-22	a	O	O	DT	O
+1-23	month	O	O	NN	P1_time/date
+1-24	.	O	O	O	O
+
+#id=2
+#text=She 's very in demand and it is hard to get an appointment with her . 
+2-1	She	O	O	PRP	P1_hairdresser
+2-2	's	O	O	VBZ	O
+2-3	very	O	O	RB	O
+2-4	in	O	O	O	O
+2-5	demand	O	O	NN	O
+2-6	and	O	O	O	O
+2-7	it	O	O	PRP	O
+2-8	is	O	O	VBZ	O
+2-9	hard	O	O	JJ	O
+2-10	to	2-11_aux	get	TO	O
+2-11	get	O	O	VB	O
+2-12	an	O	O	DT	O
+2-13	appointment	2-11_dobj	get	NN	P1_appointment
+2-14	with	O	O	O	O
+2-15	her	2-11_prep_with	get	PRP	P1_hairdresser
+2-16	.	O	O	O	O
+
+#id=3
+#text=After finally getting one , I was very happy to be able to see her as my hair had gotten a bit too long for my tastes . 
+3-1	After	O	O	O	O
+3-2	finally	3-3_advmod	getting	RB	O
+3-3	getting	O	O	VBG	O
+3-4	one	3-3_dobj	getting	CD	P1_appointment
+3-5	,	O	O	O	O
+3-6	I	O	O	PRP	P1_customer
+3-7	was	O	O	VBD	O
+3-8	very	O	O	RB	O
+3-9	happy	O	O	JJ	O
+3-10	to	O	O	TO	O
+3-11	be	O	O	VB	O
+3-12	able	O	O	JJ	O
+3-13	to	3-14_aux	see	TO	O
+3-14	see	O	O	VB	O
+3-15	her	3-14_dobj	see	PRP	P1_hairdresser
+3-16	as	O	O	IN	O
+3-17	my	O	O	PRP$	P1_customer
+3-18	hair	O	O	NN	P1_hair
+3-19	had	O	O	VBD	O
+3-20	gotten	O	O	VBN	O
+3-21	a	O	O	DT	O
+3-22	bit	O	O	RB	O
+3-23	too	O	O	RB	O
+3-24	long	3-14_advcl	see	JJ	O
+3-25	for	O	O	O	O
+3-26	my	O	O	PRP$	P1_customer
+3-27	tastes	O	O	NNS	P1_NPart_tastes
+3-28	.	O	O	O	O
+
+#id=4
+#text=When I got there , she started with a very gentle shampooing and scalp massage . 
+4-1	When	4-3_advmod	got	WRB	O
+4-2	I	4-3_nsubj	got	PRP	P1_customer
+4-3	got	4-7_advcl	started	VBD	O
+4-4	there	4-3_advmod	got	RB	P1_salon
+4-5	,	O	O	O	O
+4-6	she	4-7_nsubj	started	PRP	P1_hairdresser
+4-7	started	O	O	VBD	O
+4-8	with	O	O	O	O
+4-9	a	O	O	DT	O
+4-10	very	O	O	RB	O
+4-11	gentle	O	O	JJ	O
+4-12	shampooing	4-7_prep_with	started	NN	O
+4-13	and	O	O	O	O
+4-14	scalp	O	O	NN	O
+4-15	massage	O	O	NN	O
+4-16	.	O	O	O	O
+
+#id=5
+#text=She also gave me a beer to have while this was happening . 
+5-1	She	5-3_nsubj	gave	PRP	P1_hairdresser
+5-2	also	5-3_advmod	gave	RB	O
+5-3	gave	O	O	VBD	O
+5-4	me	5-3_iobj	gave	PRP	P1_customer
+5-5	a	O	O	DT	O
+5-6	beer	5-3_dobj	gave	NN	P1_entertainment
+5-7	to	5-8_aux	have	TO	O
+5-8	have	O	O	VB	O
+5-9	while	5-12_mark	happening	IN	O
+5-10	this	5-12_nsubj	happening	DT	O
+5-11	was	5-12_aux	happening	VBD	O
+5-12	happening	5-8_advcl	have	VBG	O
+5-13	.	O	O	O	O
+
+#id=6
+#text=Afterwards she did some aromatherapy and walked me back over to her chair where she cut my hair . 
+6-1	Afterwards	6-3_advmod	did	RB	O
+6-2	she	6-3_nsubj	did	PRP	P1_hairdresser
+6-3	did	O	O	VBD	O
+6-4	some	O	O	DT	O
+6-5	aromatherapy	6-3_dobj	did	NN	O
+6-6	and	O	O	O	O
+6-7	walked	6-3_conj_and	did	VBD	O
+6-8	me	6-7_dobj	walked	PRP	P1_customer
+6-9	back	O	O	RB	O
+6-10	over	6-7_advmod	walked	RB	O
+6-11	to	O	O	O	O
+6-12	her	O	O	PRP$	P1_hairdresser
+6-13	chair	O	O	NN	P1_chair
+6-14	where	6-16_advmod	cut	WRB	O
+6-15	she	6-16_nsubj	cut	PRP	P1_hairdresser
+6-16	cut	6-7_advcl	walked	VBD	O
+6-17	my	O	O	PRP$	P1_customer
+6-18	hair	6-16_dobj	cut	NN	P1_hair
+6-19	.	O	O	O	O
+
+#id=7
+#text=She knows me well as I go to her fairly often when I feel like spending good money on a haircut , so it turned out great ! 
+7-1	She	7-2_nsubj	knows	PRP	P1_hairdresser
+7-2	knows	O	O	VBZ	O
+7-3	me	7-2_dobj	knows	PRP	P1_customer
+7-4	well	7-2_advmod	knows	RB	O
+7-5	as	7-7_mark	go	IN	O
+7-6	I	7-7_nsubj	go	PRP	P1_customer
+7-7	go	7-2_advcl	knows	VBP	O
+7-8	to	O	O	O	O
+7-9	her	7-7_prep_to	go	PRP	P1_hairdresser
+7-10	fairly	O	O	RB	O
+7-11	often	7-7_advmod	go	RB	O
+7-12	when	7-14_advmod	feel	WRB	O
+7-13	I	7-14_nsubj	feel	PRP	P1_customer
+7-14	feel	O	O	VBP	O
+7-15	like	O	O	O	O
+7-16	spending	7-14_prepc_like	feel	VBG	O
+7-17	good	O	O	JJ	O
+7-18	money	7-16_dobj	spending	NN	P1_payment_means
+7-19	on	O	O	O	O
+7-20	a	O	O	DT	O
+7-21	haircut	7-16_prep_on	spending	NN	P1_haircut
+7-22	,	O	O	O	O
+7-23	so	7-2_dep	knows	IN	O
+7-24	it	7-25_nsubj	turned	PRP	P1_haircut
+7-25	turned	7-2_parataxis	knows	VBD	O
+7-26	out	7-25_prt	turned	RP	O
+7-27	great	7-25_dep	turned	JJ	O
+7-28	!	O	O	O	O
+
+#id=8
+#text=Afterwards , I thanked her and made sure to leave her a nice tip for her good work . 
+8-1	Afterwards	8-4_advmod	thanked	RB	O
+8-2	,	O	O	O	O
+8-3	I	8-4_nsubj	thanked	PRP	P1_customer
+8-4	thanked	O	O	VBD	O
+8-5	her	8-4_dobj	thanked	PRP	P1_hairdresser
+8-6	and	O	O	O	O
+8-7	made	8-4_conj_and	thanked	VBD	O
+8-8	sure	8-7_acomp	made	JJ	O
+8-9	to	8-10_aux	leave	TO	O
+8-10	leave	O	O	VB	O
+8-11	her	8-10_iobj	leave	PRP	P1_hairdresser
+8-12	a	O	O	DT	O
+8-13	nice	O	O	JJ	O
+8-14	tip	8-10_dobj	leave	NN	P1_tip
+8-15	for	O	O	O	O
+8-16	her	O	O	PRP$	P1_hairdresser
+8-17	good	O	O	JJ	O
+8-18	work	O	O	NN	P1_NPart_work
+8-19	.	O	O	O	O
+
+#id=9
+#text=Finally , I left and went home . 
+9-1	Finally	9-4_advmod	left	RB	O
+9-2	,	O	O	O	O
+9-3	I	9-4_nsubj	left	PRP	P1_customer
+9-4	left	O	O	VBD	O
+9-5	and	O	O	O	O
+9-6	went	9-4_conj_and	left	VBD	O
+9-7	home	9-6_dobj	went	NN	P1_NPart_home
+9-8	.	O	O	O	O

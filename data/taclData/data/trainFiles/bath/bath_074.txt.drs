@@ -1,0 +1,201 @@
+#id=1
+#text=Everyone knows that cleanliness is close to Godliness . 
+1-1	Everyone	1-2_nsubj	knows	NN	O
+1-2	knows	O	O	VBZ	O
+1-3	that	O	O	IN	O
+1-4	cleanliness	O	O	NN	P1_NPart_cleanliness
+1-5	is	O	O	VBZ	O
+1-6	close	1-2_ccomp	knows	JJ	O
+1-7	to	O	O	O	O
+1-8	Godliness	O	O	NNP	P1_NPart_godliness
+1-9	.	O	O	O	O
+
+#id=2
+#text=It was this mind frame that led me to take my third bath of the day a few minutes ago . 
+2-1	It	O	O	PRP	O
+2-2	was	O	O	VBD	O
+2-3	this	O	O	DT	O
+2-4	mind	O	O	NN	O
+2-5	frame	O	O	NN	P1_NPart_frame
+2-6	that	2-7_nsubj	led	WDT	O
+2-7	led	O	O	VBD	O
+2-8	me	2-7_dobj	led	PRP	P1_bather
+2-9	to	2-10_aux	take	TO	O
+2-10	take	2-7_xcomp	led	VB	O
+2-11	my	O	O	PRP$	P1_bather
+2-12	third	O	O	JJ	O
+2-13	bath	2-10_dobj	take	NN	P1_bath
+2-14	of	O	O	O	O
+2-15	the	O	O	DT	O
+2-16	day	O	O	NN	P1_NPart_day
+2-17	a	O	O	DT	O
+2-18	few	O	O	JJ	O
+2-19	minutes	O	O	NNS	P1_NPart_minutes
+2-20	ago	O	O	RB	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=I had decided to go outside and shoot my assault rifle and do some pistol drills since it was such a warm and beautiful day outside . 
+3-1	I	3-3_nsubj	decided	PRP	P1_bather
+3-2	had	3-3_aux	decided	VBD	O
+3-3	decided	O	O	VBN	O
+3-4	to	3-5_aux	go	TO	O
+3-5	go	3-3_xcomp	decided	VB	O
+3-6	outside	3-5_advmod	go	RB	O
+3-7	and	O	O	O	O
+3-8	shoot	3-5_conj_and	go	VB	O
+3-9	my	O	O	PRP$	P1_bather
+3-10	assault	O	O	NN	O
+3-11	rifle	3-8_dobj	shoot	NN	P1_NPart_rifle
+3-12	and	O	O	O	O
+3-13	do	3-8_conj_and	shoot	VB	O
+3-14	some	O	O	DT	O
+3-15	pistol	O	O	NN	O
+3-16	drills	3-13_dobj	do	NNS	P1_NPart_drills
+3-17	since	O	O	IN	O
+3-18	it	O	O	PRP	O
+3-19	was	O	O	VBD	O
+3-20	such	O	O	PDT	O
+3-21	a	O	O	DT	O
+3-22	warm	3-13_advcl	do	JJ	O
+3-23	and	O	O	O	O
+3-24	beautiful	O	O	JJ	O
+3-25	day	O	O	NN	P2_NPart_day
+3-26	outside	O	O	NN	O
+3-27	.	O	O	O	O
+
+#id=4
+#text=The sweat started coming from my body as I trained hard and the spent gunpowder began to cling to my sweat moistened skin . 
+4-1	The	O	O	DT	O
+4-2	sweat	4-3_nsubj	started	NN	P1_NPart_sweat
+4-3	started	O	O	VBD	O
+4-4	coming	4-3_xcomp	started	VBG	O
+4-5	from	O	O	O	O
+4-6	my	O	O	PRP$	P1_bather
+4-7	body	4-4_prep_from	coming	NN	P1_NPart_body
+4-8	as	4-10_mark	trained	IN	O
+4-9	I	4-10_nsubj	trained	PRP	P1_bather
+4-10	trained	4-3_advcl	started	VBN	O
+4-11	hard	4-10_advmod	trained	RB	O
+4-12	and	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	spent	O	O	VBN	O
+4-15	gunpowder	4-16_nsubj	began	NN	P1_NPart_gunpowder
+4-16	began	4-10_conj_and	trained	VBD	O
+4-17	to	4-18_aux	cling	TO	O
+4-18	cling	4-16_xcomp	began	VB	O
+4-19	to	O	O	O	O
+4-20	my	O	O	PRP$	P1_bather
+4-21	sweat	O	O	NN	P2_NPart_sweat
+4-22	moistened	O	O	NN	O
+4-23	skin	4-18_prep_to	cling	NN	P1_body_part
+4-24	.	O	O	O	O
+
+#id=5
+#text=Soon I was rather stinky and covered in gun powder . 
+5-1	Soon	O	O	RB	O
+5-2	I	O	O	PRP	P1_bather
+5-3	was	O	O	VBD	O
+5-4	rather	O	O	RB	O
+5-5	stinky	O	O	JJ	O
+5-6	and	O	O	O	O
+5-7	covered	O	O	VBN	O
+5-8	in	O	O	O	O
+5-9	gun	O	O	NN	O
+5-10	powder	5-7_prep_in	covered	NN	P1_NPart_powder
+5-11	.	O	O	O	O
+
+#id=6
+#text=Time to go inside , clean my weapons and prepare a good hot bath . 
+6-1	Time	6-3_nsubj	go	NNP	O
+6-2	to	6-3_aux	go	TO	O
+6-3	go	O	O	VB	O
+6-4	inside	6-3_advmod	go	RB	O
+6-5	,	O	O	O	O
+6-6	clean	6-3_conj_and	go	VB	O
+6-7	my	O	O	PRP$	P1_bather
+6-8	weapons	6-6_dobj	clean	NNS	P1_NPart_weapons
+6-9	and	O	O	O	O
+6-10	prepare	6-3_conj_and	go	VB	O
+6-11	a	O	O	DT	O
+6-12	good	O	O	JJ	O
+6-13	hot	O	O	JJ	O
+6-14	bath	6-10_dobj	prepare	NN	P1_bath
+6-15	.	O	O	O	O
+
+#id=7
+#text=Not just any bath but one that is piping hot and with bubbles in it . 
+7-1	Not	O	O	RB	O
+7-2	just	O	O	RB	O
+7-3	any	O	O	DT	O
+7-4	bath	O	O	NN	P1_bath
+7-5	but	O	O	CC	O
+7-6	one	O	O	CD	O
+7-7	that	7-9_nsubj	piping	WDT	O
+7-8	is	7-9_aux	piping	VBZ	O
+7-9	piping	O	O	VBG	O
+7-10	hot	7-9_acomp	piping	JJ	O
+7-11	and	O	O	O	O
+7-12	with	O	O	IN	O
+7-13	bubbles	O	O	NNS	P1_bath_means
+7-14	in	O	O	O	O
+7-15	it	O	O	PRP	P1_bath
+7-16	.	O	O	O	O
+
+#id=8
+#text=I removed my clothing and carefully put one foot in the hot water . 
+8-1	I	8-2_nsubj	removed	PRP	P2_bather
+8-2	removed	O	O	VBD	O
+8-3	my	O	O	PRP$	P3_bather
+8-4	clothing	8-2_dobj	removed	NN	P1_clothes
+8-5	and	O	O	O	O
+8-6	carefully	8-7_advmod	put	RB	O
+8-7	put	8-2_conj_and	removed	VBD	O
+8-8	one	O	O	CD	O
+8-9	foot	8-7_dobj	put	NN	P2_body_part
+8-10	in	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	hot	O	O	JJ	O
+8-13	water	O	O	NN	P1_water
+8-14	.	O	O	O	O
+
+#id=9
+#text=Ouch ! 
+9-1	Ouch	O	O	O	O
+9-2	!	O	O	O	O
+
+#id=10
+#text=Very hot just the way I like it . 
+10-1	Very	O	O	RB	O
+10-2	hot	O	O	JJ	O
+10-3	just	O	O	RB	O
+10-4	the	O	O	DT	O
+10-5	way	10-7_dep	like	NN	O
+10-6	I	10-7_nsubj	like	PRP	P2_bather
+10-7	like	O	O	VBP	O
+10-8	it	10-7_dobj	like	PRP	O
+10-9	.	O	O	O	O
+
+#id=11
+#text=I eased my body into the tub , lit a cigarette and soaked away the fatigue of my previous workout . 
+11-1	I	11-2_nsubj	eased	PRP	P2_bather
+11-2	eased	O	O	VBD	O
+11-3	my	O	O	PRP$	P4_bather
+11-4	body	11-2_dobj	eased	NN	P3_body_part
+11-5	into	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	tub	11-2_prep_into	eased	NN	P1_bathtub
+11-8	,	O	O	O	O
+11-9	lit	11-2_conj_and	eased	VBD	O
+11-10	a	O	O	DT	O
+11-11	cigarette	11-9_dobj	lit	NN	P1_in-bath_entertainment
+11-12	and	O	O	O	O
+11-13	soaked	11-2_conj_and	eased	VBD	O
+11-14	away	11-13_prt	soaked	RP	O
+11-15	the	O	O	DT	O
+11-16	fatigue	11-13_dobj	soaked	NN	P1_NPart_fatigue
+11-17	of	O	O	O	O
+11-18	my	O	O	PRP$	P4_bather
+11-19	previous	O	O	JJ	O
+11-20	workout	O	O	NN	P1_NPart_workout
+11-21	.	O	O	O	O

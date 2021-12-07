@@ -1,0 +1,260 @@
+#id=1
+#text=I paid a visit to the library a couple of days ago . 
+1-1	I	1-2_nsubj	paid	PRP	P1_customer
+1-2	paid	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	visit	1-2_dobj	paid	NN	O
+1-5	to	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	library	1-2_prep_to	paid	NN	P1_library
+1-8	a	O	O	DT	O
+1-9	couple	O	O	NN	P1_NPart_couple
+1-10	of	O	O	O	O
+1-11	days	O	O	NNS	P1_NPart_days
+1-12	ago	O	O	IN	O
+1-13	.	O	O	O	O
+
+#id=2
+#text=After getting off work at 5pm , I walked over to a library branch a couple of blocks from my home . 
+2-1	After	O	O	O	O
+2-2	getting	2-9_prepc_after	walked	VBG	O
+2-3	off	2-2_prt	getting	RP	O
+2-4	work	2-2_dobj	getting	NN	P1_NPart_work
+2-5	at	O	O	O	O
+2-6	5pm	2-2_prep_at	getting	CD	O
+2-7	,	O	O	O	O
+2-8	I	2-9_nsubj	walked	PRP	P1_customer
+2-9	walked	O	O	VBD	O
+2-10	over	O	O	RB	O
+2-11	to	O	O	O	O
+2-12	a	O	O	DT	O
+2-13	library	O	O	NN	O
+2-14	branch	O	O	NN	P1_library
+2-15	a	O	O	DT	O
+2-16	couple	2-9_dobj	walked	NN	P2_NPart_couple
+2-17	of	O	O	O	O
+2-18	blocks	O	O	NNS	P1_NPart_blocks
+2-19	from	O	O	O	O
+2-20	my	O	O	PRP$	P1_customer
+2-21	home	2-9_prep_from	walked	NN	P1_NPart_home
+2-22	.	O	O	O	O
+
+#id=3
+#text=I was looking to borrow a novel that I 'd been meaning to read for some time . 
+3-1	I	3-3_nsubj	looking	PRP	P1_customer
+3-2	was	3-3_aux	looking	VBD	O
+3-3	looking	O	O	VBG	O
+3-4	to	3-5_aux	borrow	TO	O
+3-5	borrow	3-3_xcomp	looking	VB	O
+3-6	a	O	O	DT	O
+3-7	novel	3-5_dobj	borrow	NN	P1_book
+3-8	that	3-12_mark	meaning	IN	O
+3-9	I	3-12_nsubj	meaning	PRP	P1_customer
+3-10	'd	3-12_aux	meaning	VBD	O
+3-11	been	3-12_aux	meaning	VBN	O
+3-12	meaning	3-5_ccomp	borrow	VBG	O
+3-13	to	3-14_aux	read	TO	O
+3-14	read	3-12_xcomp	meaning	VB	O
+3-15	for	O	O	O	O
+3-16	some	O	O	DT	O
+3-17	time	3-14_prep_for	read	NN	P1_NPart_time
+3-18	.	O	O	O	O
+
+#id=4
+#text=I got there at around 6pm . 
+4-1	I	4-2_nsubj	got	PRP	P1_customer
+4-2	got	O	O	VBD	O
+4-3	there	4-2_advmod	got	RB	P1_library
+4-4	at	4-2_prep	got	IN	O
+4-5	around	O	O	IN	O
+4-6	6pm	O	O	CD	P1_NPart_6pm
+4-7	.	O	O	O	O
+
+#id=5
+#text=I first logged onto one of the library computers to confirm that the book was still there . 
+5-1	I	5-3_nsubj	logged	PRP	P1_customer
+5-2	first	5-3_advmod	logged	RB	O
+5-3	logged	O	O	VBD	O
+5-4	onto	O	O	O	O
+5-5	one	5-3_prep_onto	logged	CD	P1_institutional_devices
+5-6	of	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	library	O	O	NN	O
+5-9	computers	O	O	NNS	P2_institutional_devices
+5-10	to	5-11_aux	confirm	TO	O
+5-11	confirm	5-3_xcomp	logged	VB	O
+5-12	that	5-15_mark	was	IN	O
+5-13	the	O	O	DT	O
+5-14	book	5-15_nsubj	was	NN	P1_book
+5-15	was	5-11_ccomp	confirm	VBD	O
+5-16	still	5-15_advmod	was	RB	O
+5-17	there	5-15_advmod	was	RB	P1_library
+5-18	.	O	O	O	O
+
+#id=6
+#text=After confirming this , I went upstairs to the fiction section , located on the second floor of the library . 
+6-1	After	O	O	O	O
+6-2	confirming	6-6_prepc_after	went	VBG	O
+6-3	this	6-2_dobj	confirming	DT	O
+6-4	,	O	O	O	O
+6-5	I	6-6_nsubj	went	PRP	P1_customer
+6-6	went	O	O	VBD	O
+6-7	upstairs	6-6_advmod	went	NN	P1_location_library
+6-8	to	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	fiction	O	O	NN	O
+6-11	section	6-6_prep_to	went	NN	P2_location_library
+6-12	,	O	O	O	O
+6-13	located	O	O	VBN	O
+6-14	on	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	second	O	O	JJ	O
+6-17	floor	6-13_prep_on	located	NN	P3_location_library
+6-18	of	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	library	O	O	NN	P1_library
+6-21	.	O	O	O	O
+
+#id=7
+#text=Once I was in the fiction section . 
+7-1	Once	7-3_advmod	was	RB	O
+7-2	I	7-3_nsubj	was	PRP	P1_customer
+7-3	was	O	O	VBD	O
+7-4	in	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	fiction	O	O	NN	O
+7-7	section	7-3_prep_in	was	NN	P2_location_library
+7-8	.	O	O	O	O
+
+#id=8
+#text=I walked over to the bookshelves and searched for the novel , successfully finding it fairly quickly . 
+8-1	I	8-2_nsubj	walked	PRP	P1_customer
+8-2	walked	O	O	VBD	O
+8-3	over	8-2_prt	walked	RP	O
+8-4	to	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	bookshelves	8-2_prep_to	walked	NNS	P1_shelf
+8-7	and	O	O	O	O
+8-8	searched	8-2_conj_and	walked	VBD	O
+8-9	for	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	novel	8-8_prep_for	searched	NN	P1_book
+8-12	,	O	O	O	O
+8-13	successfully	8-14_advmod	finding	RB	O
+8-14	finding	8-8_xcomp	searched	VBG	O
+8-15	it	8-14_dobj	finding	PRP	P1_book
+8-16	fairly	O	O	RB	O
+8-17	quickly	8-14_advmod	finding	RB	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=I then walk downstairs to the library 's checkout desk . 
+9-1	I	9-3_nsubj	walk	PRP	P1_customer
+9-2	then	9-3_advmod	walk	RB	O
+9-3	walk	O	O	VBP	O
+9-4	downstairs	9-3_dobj	walk	NNS	P4_location_library
+9-5	to	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	library	O	O	NN	P1_library
+9-8	's	O	O	O	O
+9-9	checkout	O	O	NN	O
+9-10	desk	9-3_prep_to	walk	NN	P1_check-out_desk
+9-11	.	O	O	O	O
+
+#id=10
+#text=I placed the book onto the counter and also took my library card from my wallet . 
+10-1	I	10-2_nsubj	placed	PRP	P1_customer
+10-2	placed	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	book	10-2_dobj	placed	NN	P1_book
+10-5	onto	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	counter	10-2_prep_onto	placed	NN	P1_check-out_desk
+10-8	and	O	O	O	O
+10-9	also	10-10_advmod	took	RB	O
+10-10	took	10-2_conj_and	placed	VBD	O
+10-11	my	O	O	PRP$	P1_customer
+10-12	library	O	O	NN	O
+10-13	card	10-10_dobj	took	NN	P1_library_card
+10-14	from	O	O	O	O
+10-15	my	O	O	PRP$	P1_customer
+10-16	wallet	10-10_prep_from	took	NN	P1_NPart_wallet
+10-17	.	O	O	O	O
+
+#id=11
+#text=I showed the librarian the card , where she then checked out the book after scanning my card . 
+11-1	I	11-2_nsubj	showed	PRP	P1_customer
+11-2	showed	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	librarian	11-2_iobj	showed	NN	P1_staff
+11-5	the	O	O	DT	O
+11-6	card	11-2_dobj	showed	NN	P1_library_card
+11-7	,	O	O	O	O
+11-8	where	11-11_advmod	checked	WRB	O
+11-9	she	11-11_nsubj	checked	PRP	P1_staff
+11-10	then	11-11_advmod	checked	RB	O
+11-11	checked	O	O	VBD	O
+11-12	out	11-11_prt	checked	RP	O
+11-13	the	O	O	DT	O
+11-14	book	11-11_dobj	checked	NN	P1_book
+11-15	after	O	O	O	O
+11-16	scanning	11-11_prepc_after	checked	VBG	O
+11-17	my	O	O	PRP$	P1_customer
+11-18	card	11-16_dobj	scanning	NN	P1_library_card
+11-19	.	O	O	O	O
+
+#id=12
+#text=Next , once it came out , she handed me a receipt where the return date was printed on . 
+12-1	Next	12-9_advmod	handed	RB	O
+12-2	,	O	O	O	O
+12-3	once	12-5_mark	came	IN	O
+12-4	it	12-5_nsubj	came	PRP	P1_receipt
+12-5	came	12-9_advcl	handed	VBD	O
+12-6	out	12-5_prt	came	RP	O
+12-7	,	O	O	O	O
+12-8	she	12-9_nsubj	handed	PRP	P1_staff
+12-9	handed	O	O	VBD	O
+12-10	me	12-9_iobj	handed	PRP	P1_customer
+12-11	a	O	O	DT	O
+12-12	receipt	12-9_dobj	handed	NN	P1_receipt
+12-13	where	12-18_advmod	printed	WRB	O
+12-14	the	O	O	DT	O
+12-15	return	O	O	NN	O
+12-16	date	12-18_nsubjpass	printed	NN	P1_return_date
+12-17	was	12-18_auxpass	printed	VBD	O
+12-18	printed	O	O	VBN	O
+12-19	on	12-18_prt	printed	RP	O
+12-20	.	O	O	O	O
+
+#id=13
+#text=Once I received this , I walked to my apartment with the novel in my hand . 
+13-1	Once	13-3_mark	received	IN	O
+13-2	I	13-3_nsubj	received	PRP	P1_customer
+13-3	received	13-7_advcl	walked	VBD	O
+13-4	this	13-3_dobj	received	DT	P1_receipt
+13-5	,	O	O	O	O
+13-6	I	13-7_nsubj	walked	PRP	P1_customer
+13-7	walked	O	O	VBD	O
+13-8	to	O	O	O	O
+13-9	my	O	O	PRP$	P1_customer
+13-10	apartment	13-7_prep_to	walked	NN	P1_NPart_apartment
+13-11	with	O	O	O	O
+13-12	the	O	O	DT	O
+13-13	novel	13-7_prep_with	walked	NN	P1_book
+13-14	in	O	O	O	O
+13-15	my	O	O	PRP$	P1_customer
+13-16	hand	O	O	NN	P1_NPart_hand
+13-17	.	O	O	O	O
+
+#id=14
+#text=I was really looking forward to reading the novel . 
+14-1	I	14-4_nsubj	looking	PRP	P1_customer
+14-2	was	14-4_aux	looking	VBD	O
+14-3	really	14-4_advmod	looking	RB	O
+14-4	looking	O	O	VBG	O
+14-5	forward	14-4_advmod	looking	RB	O
+14-6	to	O	O	O	O
+14-7	reading	14-4_prepc_to	looking	VBG	O
+14-8	the	O	O	DT	O
+14-9	novel	14-7_dobj	reading	NN	P1_book
+14-10	.	O	O	O	O

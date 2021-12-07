@@ -1,0 +1,227 @@
+#id=1
+#text=A few years ago I rode the train from Arizona to Washington state . 
+1-1	A	O	O	DT	O
+1-2	few	O	O	JJ	O
+1-3	years	O	O	NNS	P1_time_date
+1-4	ago	1-6_advmod	rode	RB	O
+1-5	I	1-6_nsubj	rode	PRP	P1_passenger
+1-6	rode	O	O	VBD	O
+1-7	the	O	O	DT	O
+1-8	train	1-6_dobj	rode	NN	P1_train
+1-9	from	O	O	O	O
+1-10	Arizona	1-6_prep_from	rode	NNP	P1_NPart_arizona
+1-11	to	O	O	O	O
+1-12	Washington	O	O	NNP	O
+1-13	state	1-6_prep_to	rode	NN	P1_destination
+1-14	.	O	O	O	O
+
+#id=2
+#text=It took a long time . 
+2-1	It	2-2_nsubj	took	PRP	O
+2-2	took	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	long	O	O	JJ	O
+2-5	time	2-2_dobj	took	NN	P2_time_date
+2-6	.	O	O	O	O
+
+#id=3
+#text=I purchased my ticket online . 
+3-1	I	3-2_nsubj	purchased	PRP	P1_passenger
+3-2	purchased	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_passenger
+3-4	ticket	3-2_dobj	purchased	NN	P1_card/ticket
+3-5	online	3-2_prep	purchased	NN	O
+3-6	.	O	O	O	O
+
+#id=4
+#text=When it came time to board the train I got a ride from a friend , who dropped me off right next to the tracks . 
+4-1	When	4-3_advmod	came	WRB	O
+4-2	it	4-3_nsubj	came	PRP	O
+4-3	came	4-10_advcl	got	VBD	O
+4-4	time	4-3_dobj	came	NN	O
+4-5	to	4-6_aux	board	TO	O
+4-6	board	4-3_vmod	came	VB	O
+4-7	the	O	O	DT	O
+4-8	train	4-6_dobj	board	NN	P1_train
+4-9	I	4-10_nsubj	got	PRP	P1_passenger
+4-10	got	O	O	VBD	O
+4-11	a	O	O	DT	O
+4-12	ride	4-10_dobj	got	NN	O
+4-13	from	O	O	O	O
+4-14	a	O	O	DT	O
+4-15	friend	4-10_prep_from	got	NN	P1_NPart_friend
+4-16	,	O	O	O	O
+4-17	who	4-18_nsubj	dropped	WP	O
+4-18	dropped	O	O	VBD	O
+4-19	me	4-18_dobj	dropped	PRP	P2_passenger
+4-20	off	4-18_prt	dropped	RP	O
+4-21	right	4-18_advmod	dropped	RB	O
+4-22	next	O	O	O	O
+4-23	to	O	O	O	O
+4-24	the	O	O	DT	O
+4-25	tracks	4-18_prep_next_to	dropped	NNS	P1_other
+4-26	.	O	O	O	O
+
+#id=5
+#text=I showed my ticket to the train attendant , and he let me aboard the train . 
+5-1	I	5-2_nsubj	showed	PRP	P1_passenger
+5-2	showed	O	O	VBD	O
+5-3	my	O	O	PRP$	P1_passenger
+5-4	ticket	5-2_dobj	showed	NN	P2_card/ticket
+5-5	to	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	train	O	O	NN	O
+5-8	attendant	5-2_prep_to	showed	NN	P1_train_staff
+5-9	,	O	O	O	O
+5-10	and	O	O	O	O
+5-11	he	5-12_nsubj	let	PRP	P1_train_staff
+5-12	let	5-2_conj_and	showed	VBD	O
+5-13	me	5-12_dobj	let	PRP	P1_passenger
+5-14	aboard	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	train	5-12_prep_aboard	let	NN	P1_train
+5-17	.	O	O	O	O
+
+#id=6
+#text=There was another person on the train who showed me what seat to sit in . 
+6-1	There	6-2_expl	was	EX	O
+6-2	was	O	O	VBD	O
+6-3	another	O	O	DT	O
+6-4	person	6-2_nsubj	was	NN	P2_train_staff
+6-5	on	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	train	O	O	NN	P1_train
+6-8	who	6-9_nsubj	showed	WP	O
+6-9	showed	O	O	VBD	O
+6-10	me	6-9_dobj	showed	PRP	P1_passenger
+6-11	what	6-14_dobj	sit	WP	O
+6-12	seat	6-14_nsubj	sit	NN	P1_seat
+6-13	to	6-14_aux	sit	TO	O
+6-14	sit	6-9_xcomp	showed	VB	O
+6-15	in	6-14_prt	sit	RP	O
+6-16	.	O	O	O	O
+
+#id=7
+#text=After everyone had boarded , the train got moving . 
+7-1	After	7-4_mark	boarded	IN	O
+7-2	everyone	7-4_nsubj	boarded	NN	P3_passenger
+7-3	had	7-4_aux	boarded	VBD	O
+7-4	boarded	7-8_advcl	got	VBN	O
+7-5	,	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	train	7-8_nsubj	got	NN	P1_train
+7-8	got	O	O	VBD	O
+7-9	moving	7-8_xcomp	got	VBG	O
+7-10	.	O	O	O	O
+
+#id=8
+#text=The trip from Arizona to Washington takes a week , with a lot of stops in between . 
+8-1	The	O	O	DT	O
+8-2	trip	8-7_nsubj	takes	NN	P1_trip
+8-3	from	O	O	O	O
+8-4	Arizona	O	O	NNP	P2_NPart_arizona
+8-5	to	O	O	O	O
+8-6	Washington	O	O	NNP	P1_destination
+8-7	takes	O	O	VBZ	O
+8-8	a	O	O	DT	O
+8-9	week	8-7_tmod	takes	NN	P1_NPart_week
+8-10	,	O	O	O	O
+8-11	with	O	O	O	O
+8-12	a	O	O	DT	O
+8-13	lot	8-7_prep_with	takes	NN	O
+8-14	of	O	O	O	O
+8-15	stops	O	O	NNS	P2_other
+8-16	in	O	O	IN	O
+8-17	between	O	O	IN	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=The serve food right on the train , but it also stops in a lot of towns where you can get off and eat or buy souvenirs . 
+9-1	The	9-2_nsubj	serve	NNP	O
+9-2	serve	O	O	VBP	O
+9-3	food	O	O	NN	P3_other
+9-4	right	9-2_dobj	serve	NN	O
+9-5	on	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	train	O	O	NN	P1_train
+9-8	,	O	O	O	O
+9-9	but	O	O	O	O
+9-10	it	9-12_nsubj	stops	PRP	P1_train
+9-11	also	9-12_advmod	stops	RB	O
+9-12	stops	9-2_conj_but	serve	VBZ	O
+9-13	in	O	O	O	O
+9-14	a	O	O	DT	O
+9-15	lot	9-12_prep_in	stops	NN	O
+9-16	of	O	O	O	O
+9-17	towns	O	O	NNS	P1_NPart_towns
+9-18	where	9-21_advmod	get	WRB	O
+9-19	you	9-21_nsubj	get	PRP	P1_passenger
+9-20	can	9-21_aux	get	MD	O
+9-21	get	9-12_advcl	stops	VB	O
+9-22	off	9-21_prt	get	RP	O
+9-23	and	O	O	O	O
+9-24	eat	9-21_conj_and	get	VB	O
+9-25	or	O	O	O	O
+9-26	buy	9-24_conj_or	eat	VB	O
+9-27	souvenirs	9-24_dobj	eat	NNS	P1_NPart_souvenirs
+9-28	.	O	O	O	O
+
+#id=10
+#text=Not much happens while you are on the train , but there is a lot to look out and see from the windows . 
+10-1	Not	O	O	RB	O
+10-2	much	10-3_nsubj	happens	JJ	O
+10-3	happens	O	O	VBZ	O
+10-4	while	10-6_mark	are	IN	O
+10-5	you	10-6_nsubj	are	PRP	P1_passenger
+10-6	are	10-3_advcl	happens	VBP	O
+10-7	on	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	train	10-6_prep_on	are	NN	P1_train
+10-10	,	O	O	O	O
+10-11	but	O	O	O	O
+10-12	there	10-13_expl	is	EX	O
+10-13	is	10-3_conj_but	happens	VBZ	O
+10-14	a	O	O	DT	O
+10-15	lot	10-13_nsubj	is	NN	O
+10-16	to	10-17_aux	look	TO	O
+10-17	look	O	O	VB	O
+10-18	out	10-17_prt	look	RP	O
+10-19	and	O	O	O	O
+10-20	see	10-17_conj_and	look	VB	O
+10-21	from	O	O	O	O
+10-22	the	O	O	DT	O
+10-23	windows	10-20_prep_from	see	NNS	P1_in-train_entertainment
+10-24	.	O	O	O	O
+
+#id=11
+#text=When we finally reached Washington the train conductor made an announcement over the intercom , and I got off at my stop , then went home to my family . 
+11-1	When	11-4_advmod	reached	WRB	O
+11-2	we	11-4_nsubj	reached	PRP	P4_passenger
+11-3	finally	11-4_advmod	reached	RB	O
+11-4	reached	11-25_advcl	went	VBD	O
+11-5	Washington	11-4_dobj	reached	NNP	P1_destination
+11-6	the	O	O	DT	O
+11-7	train	O	O	NN	P1_NPart_train
+11-8	conductor	11-9_nsubj	made	NN	P3_train_staff
+11-9	made	O	O	VBD	O
+11-10	an	O	O	DT	O
+11-11	announcement	11-9_dobj	made	NN	P4_other
+11-12	over	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	intercom	11-9_prep_over	made	NN	P5_other
+11-15	,	O	O	O	O
+11-16	and	O	O	O	O
+11-17	I	11-18_nsubj	got	PRP	P1_passenger
+11-18	got	11-4_conj_and	reached	VBD	O
+11-19	off	11-18_prt	got	RP	O
+11-20	at	O	O	O	O
+11-21	my	O	O	PRP$	P1_passenger
+11-22	stop	11-18_prep_at	got	NN	P1_destination
+11-23	,	O	O	O	O
+11-24	then	11-25_nsubj	went	RB	O
+11-25	went	O	O	VBD	O
+11-26	home	11-25_dobj	went	NN	O
+11-27	to	O	O	O	O
+11-28	my	O	O	PRP$	P1_passenger
+11-29	family	11-25_prep_to	went	NN	P1_NPart_family
+11-30	.	O	O	O	O

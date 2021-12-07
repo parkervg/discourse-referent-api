@@ -1,0 +1,221 @@
+#id=1
+#text=I was excited for the upcoming party . 
+1-1	I	1-3_nsubjpass	excited	PRP	P1_shopper
+1-2	was	1-3_auxpass	excited	VBD	O
+1-3	excited	O	O	VBN	O
+1-4	for	O	O	O	O
+1-5	the	O	O	DT	O
+1-6	upcoming	O	O	VBG	O
+1-7	party	1-3_prep_for	excited	NN	P1_NPart_party
+1-8	.	O	O	O	O
+
+#id=2
+#text=I knew that I had a big day ahead of me which would be filled with planning and buying groceries . 
+2-1	I	2-2_nsubj	knew	PRP	P1_shopper
+2-2	knew	O	O	VBD	O
+2-3	that	2-5_mark	had	IN	O
+2-4	I	2-5_nsubj	had	PRP	P1_shopper
+2-5	had	2-2_ccomp	knew	VBD	O
+2-6	a	O	O	DT	O
+2-7	big	O	O	JJ	O
+2-8	day	2-5_dobj	had	NN	P1_NPart_day
+2-9	ahead	O	O	O	O
+2-10	of	O	O	O	O
+2-11	me	O	O	PRP	P1_shopper
+2-12	which	2-15_nsubjpass	filled	WDT	O
+2-13	would	2-15_aux	filled	MD	O
+2-14	be	2-15_auxpass	filled	VB	O
+2-15	filled	O	O	VBN	O
+2-16	with	O	O	O	O
+2-17	planning	2-15_prepc_with	filled	VBG	O
+2-18	and	O	O	O	O
+2-19	buying	2-17_conj_and	planning	VBG	O
+2-20	groceries	2-17_dobj	planning	NNS	P1_groceries
+2-21	.	O	O	O	O
+
+#id=3
+#text=i made a list of everything that I would need . 
+3-1	i	3-2_nsubj	made	FW	P1_shopper
+3-2	made	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	list	3-2_dobj	made	NN	P1_grocery_list
+3-5	of	O	O	O	O
+3-6	everything	O	O	NN	P1_groceries
+3-7	that	3-10_mark	need	IN	O
+3-8	I	3-10_nsubj	need	PRP	P1_shopper
+3-9	would	3-10_aux	need	MD	O
+3-10	need	3-2_ccomp	made	VB	O
+3-11	.	O	O	O	O
+
+#id=4
+#text=Chips , dip , pretzels , soda , cheese , crackers , frozen pizza , and frozen mozzarella sticks were just some of the things I needed to get . 
+4-1	Chips	O	O	NNP	P2_groceries
+4-2	,	O	O	O	O
+4-3	dip	O	O	NN	P3_groceries
+4-4	,	O	O	O	O
+4-5	pretzels	O	O	NNS	P4_groceries
+4-6	,	O	O	O	O
+4-7	soda	O	O	NN	P5_groceries
+4-8	,	O	O	O	O
+4-9	cheese	O	O	NN	P6_groceries
+4-10	,	O	O	O	O
+4-11	crackers	O	O	NNS	P7_groceries
+4-12	,	O	O	O	O
+4-13	frozen	O	O	JJ	O
+4-14	pizza	O	O	NN	P8_groceries
+4-15	,	O	O	O	O
+4-16	and	O	O	O	O
+4-17	frozen	O	O	JJ	O
+4-18	mozzarella	O	O	NN	O
+4-19	sticks	O	O	VBZ	P9_groceries
+4-20	were	O	O	VBD	O
+4-21	just	O	O	RB	O
+4-22	some	O	O	DT	O
+4-23	of	O	O	O	O
+4-24	the	O	O	DT	O
+4-25	things	O	O	NNS	P1_groceries
+4-26	I	4-27_nsubj	needed	PRP	P1_shopper
+4-27	needed	O	O	VBD	O
+4-28	to	4-29_aux	get	TO	O
+4-29	get	4-27_xcomp	needed	VB	O
+4-30	.	O	O	O	O
+
+#id=5
+#text=I drove to the supermarket and decided to get a big shopping cart to put everything in . 
+5-1	I	5-2_nsubj	drove	PRP	P1_shopper
+5-2	drove	O	O	VBD	O
+5-3	to	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	supermarket	5-2_prep_to	drove	NN	P1_grocery_shop
+5-6	and	O	O	O	O
+5-7	decided	5-2_conj_and	drove	VBD	O
+5-8	to	5-9_aux	get	TO	O
+5-9	get	5-7_xcomp	decided	VB	O
+5-10	a	O	O	DT	O
+5-11	big	O	O	JJ	O
+5-12	shopping	O	O	NN	O
+5-13	cart	5-9_dobj	get	NN	P1_shopping_cart/basket
+5-14	to	5-15_aux	put	TO	O
+5-15	put	5-9_vmod	get	VB	O
+5-16	everything	5-15_dobj	put	NN	P1_groceries
+5-17	in	5-15_prep	put	IN	O
+5-18	.	O	O	O	O
+
+#id=6
+#text=I checked my list and then pushed my shopping cart from aisle to aisle . 
+6-1	I	6-2_nsubj	checked	PRP	P1_shopper
+6-2	checked	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_shopper
+6-4	list	6-2_dobj	checked	NN	P1_grocery_list
+6-5	and	O	O	O	O
+6-6	then	6-7_advmod	pushed	RB	O
+6-7	pushed	6-2_conj_and	checked	VBD	O
+6-8	my	O	O	PRP$	P1_shopper
+6-9	shopping	O	O	NN	O
+6-10	cart	6-7_dobj	pushed	NN	P1_shopping_cart/basket
+6-11	from	O	O	O	O
+6-12	aisle	6-7_prep_from	pushed	NN	P1_section
+6-13	to	O	O	O	O
+6-14	aisle	6-7_prep_to	pushed	NN	P2_section
+6-15	.	O	O	O	O
+
+#id=7
+#text=I saw that the chips were on sale so I was able to get an extra bag . 
+7-1	I	7-2_nsubj	saw	PRP	P1_shopper
+7-2	saw	O	O	VBD	O
+7-3	that	7-6_mark	were	IN	O
+7-4	the	O	O	DT	O
+7-5	chips	7-6_nsubj	were	NNS	P2_groceries
+7-6	were	7-2_ccomp	saw	VBD	O
+7-7	on	O	O	O	O
+7-8	sale	7-6_prep_on	were	NN	O
+7-9	so	O	O	IN	O
+7-10	I	O	O	PRP	P1_shopper
+7-11	was	O	O	VBD	O
+7-12	able	7-6_advcl	were	JJ	O
+7-13	to	7-14_aux	get	TO	O
+7-14	get	O	O	VB	O
+7-15	an	O	O	DT	O
+7-16	extra	O	O	JJ	O
+7-17	bag	7-14_dobj	get	NN	P2_groceries
+7-18	.	O	O	O	O
+
+#id=8
+#text=After all of the snacks I went to the frozen aisle in order to get the pizza and mozzarella sticks . 
+8-1	After	O	O	O	O
+8-2	all	8-7_prep_after	went	DT	O
+8-3	of	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	snacks	O	O	NNS	P10_groceries
+8-6	I	8-7_nsubj	went	PRP	P1_shopper
+8-7	went	O	O	VBD	O
+8-8	to	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	frozen	O	O	JJ	O
+8-11	aisle	8-7_prep_to	went	NN	P3_section
+8-12	in	8-15_mark	get	IN	O
+8-13	order	8-15_dep	get	NN	O
+8-14	to	8-15_aux	get	TO	O
+8-15	get	8-7_advcl	went	VB	O
+8-16	the	O	O	DT	O
+8-17	pizza	8-15_dobj	get	NN	P8_groceries
+8-18	and	O	O	O	O
+8-19	mozzarella	8-20_nsubj	sticks	NN	O
+8-20	sticks	8-7_conj_and	went	VBZ	P11_groceries
+8-21	.	O	O	O	O
+
+#id=9
+#text=It was time for checkout so i waited on line until it was my turn . 
+9-1	It	O	O	PRP	O
+9-2	was	O	O	VBD	O
+9-3	time	O	O	NN	P1_NPart_time
+9-4	for	O	O	O	O
+9-5	checkout	O	O	NN	O
+9-6	so	9-8_mark	waited	IN	O
+9-7	i	9-8_nsubj	waited	FW	P1_shopper
+9-8	waited	O	O	VBD	O
+9-9	on	O	O	O	O
+9-10	line	9-8_prep_on	waited	NN	P1_line
+9-11	until	O	O	IN	O
+9-12	it	O	O	PRP	P1_NPart_it
+9-13	was	O	O	VBD	O
+9-14	my	O	O	PRP$	P1_shopper
+9-15	turn	9-8_advcl	waited	NN	O
+9-16	.	O	O	O	O
+
+#id=10
+#text=The cashier scanned my items and I swiped my credit card to pay for them . 
+10-1	The	O	O	DT	O
+10-2	cashier	10-3_nsubj	scanned	NN	P1_grocery_staff
+10-3	scanned	O	O	VBD	O
+10-4	my	O	O	PRP$	P1_shopper
+10-5	items	10-3_dobj	scanned	NNS	P1_groceries
+10-6	and	O	O	O	O
+10-7	I	10-8_nsubj	swiped	PRP	P1_shopper
+10-8	swiped	10-3_conj_and	scanned	VBD	O
+10-9	my	O	O	PRP$	P1_shopper
+10-10	credit	O	O	NN	O
+10-11	card	10-8_dobj	swiped	NN	P1_payment_means
+10-12	to	10-13_aux	pay	TO	O
+10-13	pay	10-8_vmod	swiped	VB	O
+10-14	for	O	O	O	O
+10-15	them	10-13_prep_for	pay	PRP	P1_groceries
+10-16	.	O	O	O	O
+
+#id=11
+#text=She bagged everything up and I was ready to go on my way home . 
+11-1	She	11-2_nsubj	bagged	PRP	P1_grocery_staff
+11-2	bagged	O	O	VBD	O
+11-3	everything	11-2_dobj	bagged	NN	P1_groceries
+11-4	up	11-2_prt	bagged	RP	O
+11-5	and	O	O	O	O
+11-6	I	O	O	PRP	P1_shopper
+11-7	was	O	O	VBD	O
+11-8	ready	11-2_conj_and	bagged	JJ	O
+11-9	to	11-10_aux	go	TO	O
+11-10	go	O	O	VB	O
+11-11	on	O	O	O	O
+11-12	my	O	O	PRP$	P1_shopper
+11-13	way	O	O	NN	O
+11-14	home	11-10_prep_on	go	NN	P1_NPart_home
+11-15	.	O	O	O	O

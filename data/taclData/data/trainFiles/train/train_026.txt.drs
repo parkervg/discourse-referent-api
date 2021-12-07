@@ -1,0 +1,226 @@
+#id=1
+#text=I was very excited to go on a train trip . 
+1-1	I	O	O	PRP	P1_passenger
+1-2	was	O	O	VBD	O
+1-3	very	O	O	RB	O
+1-4	excited	O	O	JJ	O
+1-5	to	1-6_aux	go	TO	O
+1-6	go	O	O	VB	O
+1-7	on	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	train	O	O	NN	O
+1-10	trip	1-6_prep_on	go	NN	P1_trip
+1-11	.	O	O	O	O
+
+#id=2
+#text=I went over to the ticket counter and gave the teller the money I had saved for my ticket . 
+2-1	I	2-2_nsubj	went	PRP	P1_passenger
+2-2	went	2-16_dep	saved	VBD	O
+2-3	over	2-2_prt	went	RP	O
+2-4	to	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	ticket	O	O	NN	O
+2-7	counter	2-2_prep_to	went	NN	P1_ticket_office/website
+2-8	and	O	O	O	O
+2-9	gave	2-2_conj_and	went	VBD	O
+2-10	the	O	O	DT	O
+2-11	teller	2-9_iobj	gave	NN	P1_train_staff
+2-12	the	O	O	DT	O
+2-13	money	2-9_dobj	gave	NN	P1_payment_means
+2-14	I	2-16_nsubj	saved	PRP	P1_passenger
+2-15	had	2-16_aux	saved	VBD	O
+2-16	saved	O	O	VBN	O
+2-17	for	O	O	O	O
+2-18	my	O	O	PRP$	P1_passenger
+2-19	ticket	2-16_prep_for	saved	NN	P1_card/ticket
+2-20	.	O	O	O	O
+
+#id=3
+#text=I could hardly wait until the train finally arrived . 
+3-1	I	3-4_nsubj	wait	PRP	P1_passenger
+3-2	could	3-4_aux	wait	MD	O
+3-3	hardly	3-4_advmod	wait	RB	O
+3-4	wait	O	O	VB	O
+3-5	until	3-9_mark	arrived	IN	O
+3-6	the	O	O	DT	O
+3-7	train	3-9_nsubj	arrived	NN	P1_train
+3-8	finally	3-9_advmod	arrived	RB	O
+3-9	arrived	3-4_advcl	wait	VBD	O
+3-10	.	O	O	O	O
+
+#id=4
+#text=I climbed aboard , put my suitcases next to all the other people 's suitcases , and found a seat . 
+4-1	I	4-2_nsubj	climbed	PRP	P1_passenger
+4-2	climbed	O	O	VBD	O
+4-3	aboard	4-2_advmod	climbed	RB	O
+4-4	,	O	O	O	O
+4-5	put	4-2_conj_and	climbed	VBD	O
+4-6	my	O	O	PRP$	P1_passenger
+4-7	suitcases	4-5_dobj	put	NNS	P1_luggage
+4-8	next	O	O	O	O
+4-9	to	O	O	O	O
+4-10	all	O	O	PDT	O
+4-11	the	O	O	DT	O
+4-12	other	O	O	JJ	O
+4-13	people	O	O	NNS	P2_passenger
+4-14	's	O	O	O	O
+4-15	suitcases	4-5_prep_next_to	put	NNS	P1_luggage
+4-16	,	O	O	O	O
+4-17	and	O	O	O	O
+4-18	found	4-2_conj_and	climbed	VBD	O
+4-19	a	O	O	DT	O
+4-20	seat	4-18_dobj	found	NN	P1_seat
+4-21	.	O	O	O	O
+
+#id=5
+#text=Once the train started going , the conductor came by to punch everyone 's tickets . 
+5-1	Once	5-4_mark	started	IN	O
+5-2	the	O	O	DT	O
+5-3	train	5-4_nsubj	started	NN	P1_train
+5-4	started	5-9_advcl	came	VBD	O
+5-5	going	5-4_xcomp	started	VBG	O
+5-6	,	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	conductor	5-9_nsubj	came	NN	P2_train_staff
+5-9	came	O	O	VBD	O
+5-10	by	5-9_prt	came	RP	O
+5-11	to	5-12_aux	punch	TO	O
+5-12	punch	5-9_xcomp	came	VB	O
+5-13	everyone	O	O	NN	P3_passenger
+5-14	's	O	O	O	O
+5-15	tickets	5-12_dobj	punch	NNS	P1_card/ticket
+5-16	.	O	O	O	O
+
+#id=6
+#text=I gladly handed him mine to be punched . 
+6-1	I	6-3_nsubj	handed	PRP	P1_passenger
+6-2	gladly	6-3_advmod	handed	RB	O
+6-3	handed	O	O	VBD	O
+6-4	him	6-5_nsubj	mine	PRP	P2_train_staff
+6-5	mine	6-3_ccomp	handed	VBP	P1_card/ticket
+6-6	to	6-8_aux	punched	TO	O
+6-7	be	6-8_auxpass	punched	VB	O
+6-8	punched	6-5_xcomp	mine	VBN	O
+6-9	.	O	O	O	O
+
+#id=7
+#text=After that , I decided I would get some lunch . 
+7-1	After	O	O	O	O
+7-2	that	7-5_prep_after	decided	DT	O
+7-3	,	O	O	O	O
+7-4	I	7-5_nsubj	decided	PRP	P1_passenger
+7-5	decided	O	O	VBD	O
+7-6	I	7-8_nsubj	get	PRP	P1_passenger
+7-7	would	7-8_aux	get	MD	O
+7-8	get	7-5_ccomp	decided	VB	O
+7-9	some	O	O	DT	O
+7-10	lunch	7-8_dobj	get	NN	P1_in-train_entertainment
+7-11	.	O	O	O	O
+
+#id=8
+#text=I walked to the back of the train to the lunch car and ordered some food . 
+8-1	I	8-2_nsubj	walked	PRP	P1_passenger
+8-2	walked	O	O	VBD	O
+8-3	to	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	back	8-2_prep_to	walked	NN	P1_NPart_back
+8-6	of	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	train	O	O	NN	P1_train
+8-9	to	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	lunch	O	O	NN	O
+8-12	car	8-2_prep_to	walked	NN	P1_coach
+8-13	and	O	O	O	O
+8-14	ordered	8-2_conj_and	walked	VBD	O
+8-15	some	O	O	DT	O
+8-16	food	8-14_dobj	ordered	NN	P1_in-train_entertainment
+8-17	.	O	O	O	O
+
+#id=9
+#text=It was fun to eat while watching the world pass by through the window as the train rolled down the tracks . 
+9-1	It	O	O	PRP	O
+9-2	was	O	O	VBD	O
+9-3	fun	O	O	NN	P1_NPart_fun
+9-4	to	9-5_aux	eat	TO	O
+9-5	eat	O	O	VB	O
+9-6	while	9-18_mark	rolled	IN	O
+9-7	watching	9-18_csubj	rolled	VBG	O
+9-8	the	O	O	DT	O
+9-9	world	O	O	NN	P1_NPart_world
+9-10	pass	9-7_dobj	watching	NN	O
+9-11	by	9-7_dep	watching	IN	O
+9-12	through	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	window	9-7_prep_through	watching	NN	P2_in-train_entertainment
+9-15	as	O	O	O	O
+9-16	the	O	O	DT	O
+9-17	train	O	O	NN	P1_train
+9-18	rolled	9-5_advcl	eat	VBD	O
+9-19	down	9-18_prt	rolled	RP	O
+9-20	the	O	O	DT	O
+9-21	tracks	9-18_dobj	rolled	NNS	P1_NPart_tracks
+9-22	.	O	O	O	O
+
+#id=10
+#text=Before I knew it , we had arrived at the destination . 
+10-1	Before	10-3_mark	knew	IN	O
+10-2	I	10-3_nsubj	knew	PRP	P1_passenger
+10-3	knew	10-8_advcl	arrived	VBD	O
+10-4	it	10-3_dobj	knew	PRP	O
+10-5	,	O	O	O	O
+10-6	we	10-8_nsubj	arrived	PRP	P3_passenger
+10-7	had	10-8_aux	arrived	VBD	O
+10-8	arrived	O	O	VBN	O
+10-9	at	O	O	O	O
+10-10	the	O	O	DT	O
+10-11	destination	10-8_prep_at	arrived	NN	P1_destination
+10-12	.	O	O	O	O
+
+#id=11
+#text=I gathered up my things , grabbed my suitcase , and climbed down out of the train as the conductor gave me a hand . 
+11-1	I	11-2_nsubj	gathered	PRP	P1_passenger
+11-2	gathered	O	O	VBD	O
+11-3	up	11-2_prt	gathered	RP	O
+11-4	my	O	O	PRP$	P1_passenger
+11-5	things	11-2_dobj	gathered	NNS	P1_personal_belongings
+11-6	,	O	O	O	O
+11-7	grabbed	11-2_conj_and	gathered	VBD	O
+11-8	my	O	O	PRP$	P1_passenger
+11-9	suitcase	11-7_dobj	grabbed	NN	P1_luggage
+11-10	,	O	O	O	O
+11-11	and	O	O	O	O
+11-12	climbed	11-2_conj_and	gathered	VBD	O
+11-13	down	11-12_prt	climbed	RP	O
+11-14	out	O	O	O	O
+11-15	of	O	O	O	O
+11-16	the	O	O	DT	O
+11-17	train	11-12_prep_out_of	climbed	NN	P1_train
+11-18	as	11-21_mark	gave	IN	O
+11-19	the	O	O	DT	O
+11-20	conductor	11-21_nsubj	gave	NN	P2_train_staff
+11-21	gave	O	O	VBD	O
+11-22	me	11-21_iobj	gave	PRP	P1_passenger
+11-23	a	O	O	DT	O
+11-24	hand	11-21_dobj	gave	NN	O
+11-25	.	O	O	O	O
+
+#id=12
+#text=It had been a very fun trip , and I ca n't wait to ride again . 
+12-1	It	O	O	PRP	O
+12-2	had	O	O	VBD	O
+12-3	been	O	O	VBN	O
+12-4	a	O	O	DT	O
+12-5	very	O	O	JJ	O
+12-6	fun	O	O	NN	O
+12-7	trip	O	O	NN	P1_trip
+12-8	,	O	O	O	O
+12-9	and	O	O	O	O
+12-10	I	12-13_nsubj	wait	PRP	P1_passenger
+12-11	ca	12-13_aux	wait	MD	O
+12-12	n't	12-13_neg	wait	RB	O
+12-13	wait	O	O	VB	O
+12-14	to	12-15_aux	ride	TO	O
+12-15	ride	12-13_xcomp	wait	VB	O
+12-16	again	12-15_advmod	ride	RB	O
+12-17	.	O	O	O	O

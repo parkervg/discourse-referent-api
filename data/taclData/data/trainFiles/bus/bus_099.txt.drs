@@ -1,0 +1,189 @@
+#id=1
+#text=Riding in a public bus is an inexpensive way to get around your city . 
+1-1	Riding	O	O	VBG	O
+1-2	in	O	O	O	O
+1-3	a	O	O	DT	O
+1-4	public	O	O	JJ	O
+1-5	bus	1-1_prep_in	Riding	NN	P1_bus
+1-6	is	O	O	VBZ	O
+1-7	an	O	O	DT	O
+1-8	inexpensive	O	O	JJ	O
+1-9	way	O	O	NN	O
+1-10	to	1-11_aux	get	TO	O
+1-11	get	O	O	VB	O
+1-12	around	1-11_prt	get	RP	O
+1-13	your	O	O	PRP$	P1_passenger
+1-14	city	1-11_dobj	get	NN	P1_NPart_city
+1-15	.	O	O	O	O
+
+#id=2
+#text=I did this often last year . 
+2-1	I	2-2_nsubj	did	PRP	P1_passenger
+2-2	did	O	O	VBD	O
+2-3	this	2-2_dep	did	DT	O
+2-4	often	O	O	RB	O
+2-5	last	O	O	JJ	O
+2-6	year	2-2_tmod	did	NN	P1_time/date
+2-7	.	O	O	O	O
+
+#id=3
+#text=First , I look up where I need to go on google maps and map it from my address to my destination address using public transit as my option . 
+3-1	First	3-4_advmod	look	RB	O
+3-2	,	O	O	O	O
+3-3	I	3-4_nsubj	look	PRP	P1_passenger
+3-4	look	O	O	VBP	O
+3-5	up	3-4_prt	look	RP	O
+3-6	where	3-8_advmod	need	WRB	O
+3-7	I	3-8_nsubj	need	PRP	P1_passenger
+3-8	need	3-4_advcl	look	VBP	O
+3-9	to	3-10_aux	go	TO	O
+3-10	go	3-8_xcomp	need	VB	O
+3-11	on	O	O	O	O
+3-12	google	O	O	JJ	O
+3-13	maps	3-10_prep_on	go	NNS	P1_NPart_maps
+3-14	and	O	O	O	O
+3-15	map	3-4_conj_and	look	VBP	O
+3-16	it	3-15_dobj	map	PRP	O
+3-17	from	O	O	O	O
+3-18	my	O	O	PRP$	P1_passenger
+3-19	address	3-24_nsubj	using	NN	P1_NPart_address
+3-20	to	O	O	O	O
+3-21	my	O	O	PRP$	P1_passenger
+3-22	destination	O	O	NN	O
+3-23	address	O	O	NN	P1_destination
+3-24	using	3-15_prepc_from	map	VBG	O
+3-25	public	O	O	JJ	O
+3-26	transit	3-24_dobj	using	NN	P1_other
+3-27	as	O	O	O	O
+3-28	my	O	O	PRP$	P1_passenger
+3-29	option	3-24_prep_as	using	NN	P1_NPart_option
+3-30	.	O	O	O	O
+
+#id=4
+#text=I then factor the departure and arrival times into my schedule , as well as make sure I have the proper amount of cash and\/or change for the fare . 
+4-1	I	4-3_nsubj	factor	PRP	P1_passenger
+4-2	then	4-3_advmod	factor	RB	O
+4-3	factor	O	O	VBD	O
+4-4	the	O	O	DT	O
+4-5	departure	O	O	NN	O
+4-6	and	O	O	O	O
+4-7	arrival	O	O	NN	O
+4-8	times	4-3_dobj	factor	NNS	P2_time/date
+4-9	into	O	O	O	O
+4-10	my	O	O	PRP$	P1_passenger
+4-11	schedule	4-3_prep_into	factor	NN	P1_time-table
+4-12	,	O	O	O	O
+4-13	as	O	O	O	O
+4-14	well	O	O	O	O
+4-15	as	O	O	O	O
+4-16	make	4-3_conj_and	factor	VBP	O
+4-17	sure	4-3_acomp	factor	JJ	O
+4-18	I	4-19_nsubj	have	PRP	P1_passenger
+4-19	have	O	O	VBP	O
+4-20	the	O	O	DT	O
+4-21	proper	O	O	JJ	O
+4-22	amount	4-19_dobj	have	NN	O
+4-23	of	O	O	O	O
+4-24	cash	O	O	NN	P1_money
+4-25	and\/or	O	O	NN	O
+4-26	change	O	O	NN	P1_money
+4-27	for	O	O	O	O
+4-28	the	O	O	DT	O
+4-29	fare	O	O	NN	P2_money
+4-30	.	O	O	O	O
+
+#id=5
+#text=I would then walk to the bus stop at least 5 minuted ahead of time , as they can sometimes come early . 
+5-1	I	5-4_nsubj	walk	PRP	P1_passenger
+5-2	would	5-4_aux	walk	MD	O
+5-3	then	5-4_advmod	walk	RB	O
+5-4	walk	O	O	VB	O
+5-5	to	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	bus	O	O	NN	O
+5-8	stop	5-4_prep_to	walk	NN	P1_bus_stop
+5-9	at	O	O	IN	O
+5-10	least	O	O	JJS	O
+5-11	5	O	O	CD	O
+5-12	minuted	O	O	NN	P3_time/date
+5-13	ahead	O	O	O	O
+5-14	of	O	O	O	O
+5-15	time	O	O	NN	O
+5-16	,	O	O	O	O
+5-17	as	5-21_mark	come	IN	O
+5-18	they	5-21_nsubj	come	PRP	P2_bus
+5-19	can	5-21_aux	come	MD	O
+5-20	sometimes	5-21_advmod	come	RB	O
+5-21	come	5-4_advcl	walk	VB	O
+5-22	early	5-21_advmod	come	RB	O
+5-23	.	O	O	O	O
+
+#id=6
+#text=When the bus appears I wait for him to stop and then I greet the driver , deposit the fare -LRB- exact change -RRB- and take a seat where available . 
+6-1	When	6-4_advmod	appears	WRB	O
+6-2	the	O	O	DT	O
+6-3	bus	6-4_nsubj	appears	NN	P1_bus
+6-4	appears	6-18_advcl	deposit	VBZ	O
+6-5	I	6-6_nsubj	wait	PRP	P1_passenger
+6-6	wait	6-4_ccomp	appears	VB	O
+6-7	for	6-10_mark	stop	IN	O
+6-8	him	6-10_nsubj	stop	PRP	P1_bus
+6-9	to	6-10_aux	stop	TO	O
+6-10	stop	6-6_advcl	wait	VB	O
+6-11	and	O	O	O	O
+6-12	then	6-14_advmod	greet	RB	O
+6-13	I	6-14_nsubj	greet	PRP	P1_passenger
+6-14	greet	6-4_conj_and	appears	VBP	O
+6-15	the	O	O	DT	O
+6-16	driver	6-14_dobj	greet	NN	P1_bus_staff
+6-17	,	O	O	O	O
+6-18	deposit	O	O	VB	O
+6-19	the	O	O	DT	O
+6-20	fare	6-18_dobj	deposit	NN	P2_money
+6-21	-LRB-	O	O	O	O
+6-22	exact	O	O	JJ	O
+6-23	change	O	O	NN	P1_money
+6-24	-RRB-	O	O	O	O
+6-25	and	O	O	O	O
+6-26	take	6-18_conj_and	deposit	VB	O
+6-27	a	O	O	DT	O
+6-28	seat	6-26_dobj	take	NN	P1_seat_in_bus
+6-29	where	O	O	WRB	O
+6-30	available	6-26_advcl	take	JJ	O
+6-31	.	O	O	O	O
+
+#id=7
+#text=While on the bus I look out the window to see where I am , and make sure that I press the button or pull the cord when my stop is near . 
+7-1	While	7-6_mark	look	IN	O
+7-2	on	O	O	O	O
+7-3	the	O	O	DT	O
+7-4	bus	7-6_prep_on	look	NN	P1_bus
+7-5	I	7-6_nsubj	look	PRP	P1_passenger
+7-6	look	7-14_advcl	am	VBP	O
+7-7	out	7-6_prt	look	RP	O
+7-8	the	O	O	DT	O
+7-9	window	7-6_dobj	look	NN	P1_NPart_window
+7-10	to	7-11_aux	see	TO	O
+7-11	see	O	O	VB	O
+7-12	where	7-11_ccomp	see	WRB	O
+7-13	I	7-14_nsubj	am	PRP	P1_passenger
+7-14	am	O	O	VBP	O
+7-15	,	O	O	O	O
+7-16	and	O	O	O	O
+7-17	make	7-14_conj_and	am	VB	O
+7-18	sure	7-17_acomp	make	JJ	O
+7-19	that	7-21_mark	press	IN	O
+7-20	I	7-21_nsubj	press	PRP	P1_passenger
+7-21	press	7-17_ccomp	make	VBP	O
+7-22	the	O	O	DT	O
+7-23	button	7-21_dobj	press	NN	P1_stop_button/door_opener
+7-24	or	O	O	O	O
+7-25	pull	7-17_conj_or	make	VB	O
+7-26	the	O	O	DT	O
+7-27	cord	7-25_dobj	pull	NN	P2_stop_button/door_opener
+7-28	when	O	O	WRB	O
+7-29	my	O	O	PRP$	P1_passenger
+7-30	stop	O	O	NN	P2_bus_stop
+7-31	is	O	O	VBZ	O
+7-32	near	7-25_advcl	pull	JJ	O
+7-33	.	O	O	O	O

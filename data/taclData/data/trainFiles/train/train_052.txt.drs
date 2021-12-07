@@ -1,0 +1,269 @@
+#id=1
+#text=As I hung the phone with my friend , I was very excited . 
+1-1	As	1-3_mark	hung	IN	O
+1-2	I	1-3_nsubj	hung	PRP	P1_passenger
+1-3	hung	O	O	VBD	O
+1-4	the	O	O	DT	O
+1-5	phone	1-3_dobj	hung	NN	P1_NPart_phone
+1-6	with	O	O	O	O
+1-7	my	O	O	PRP$	P2_passenger
+1-8	friend	1-3_prep_with	hung	NN	P1_NPart_friend
+1-9	,	O	O	O	O
+1-10	I	O	O	PRP	P1_passenger
+1-11	was	O	O	VBD	O
+1-12	very	O	O	RB	O
+1-13	excited	O	O	JJ	O
+1-14	.	O	O	O	O
+
+#id=2
+#text=I was going to visit her today , and I would get to travel by train . 
+2-1	I	2-3_nsubj	going	PRP	P1_passenger
+2-2	was	2-3_aux	going	VBD	O
+2-3	going	O	O	VBG	O
+2-4	to	2-5_aux	visit	TO	O
+2-5	visit	2-3_xcomp	going	VB	O
+2-6	her	O	O	PRP$	P1_NPart_her
+2-7	today	2-5_tmod	visit	NN	O
+2-8	,	O	O	O	O
+2-9	and	O	O	O	O
+2-10	I	2-12_nsubj	get	PRP	P1_passenger
+2-11	would	2-12_aux	get	MD	O
+2-12	get	2-3_conj_and	going	VB	O
+2-13	to	2-14_aux	travel	TO	O
+2-14	travel	2-12_xcomp	get	VB	O
+2-15	by	O	O	O	O
+2-16	train	2-14_prep_by	travel	NN	P1_train
+2-17	.	O	O	O	O
+
+#id=3
+#text=I called for a taxi , then quickly packed up a day bag with a few things I would need . 
+3-1	I	3-2_nsubj	called	PRP	P1_passenger
+3-2	called	3-9_ccomp	packed	VBD	O
+3-3	for	O	O	O	O
+3-4	a	O	O	DT	O
+3-5	taxi	3-2_prep_for	called	NN	P1_NPart_taxi
+3-6	,	O	O	O	O
+3-7	then	3-9_advmod	packed	RB	O
+3-8	quickly	3-9_advmod	packed	RB	O
+3-9	packed	O	O	VBD	O
+3-10	up	3-9_prt	packed	RP	O
+3-11	a	O	O	DT	O
+3-12	day	O	O	NN	O
+3-13	bag	3-9_nsubj	packed	NN	P1_NPart_bag
+3-14	with	O	O	O	O
+3-15	a	O	O	DT	O
+3-16	few	O	O	JJ	O
+3-17	things	O	O	NNS	P1_NPart_things
+3-18	I	3-20_nsubj	need	PRP	P1_passenger
+3-19	would	3-20_aux	need	MD	O
+3-20	need	O	O	VB	O
+3-21	.	O	O	O	O
+
+#id=4
+#text=As the taxi took me to the train station , I realized I had not traveled by train in many years , and wondered what might have changed . 
+4-1	As	4-4_mark	took	IN	O
+4-2	the	O	O	DT	O
+4-3	taxi	4-4_nsubj	took	NN	P2_NPart_taxi
+4-4	took	4-12_advcl	realized	VBD	O
+4-5	me	4-4_dobj	took	PRP	P1_passenger
+4-6	to	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	train	O	O	NN	O
+4-9	station	4-4_prep_to	took	NN	P1_train_station
+4-10	,	O	O	O	O
+4-11	I	4-12_nsubj	realized	PRP	P1_passenger
+4-12	realized	O	O	VBD	O
+4-13	I	4-16_nsubj	traveled	PRP	P1_passenger
+4-14	had	4-16_aux	traveled	VBD	O
+4-15	not	4-16_neg	traveled	RB	O
+4-16	traveled	4-12_ccomp	realized	VBN	O
+4-17	by	O	O	O	O
+4-18	train	4-16_prep_by	traveled	NN	P1_train
+4-19	in	O	O	O	O
+4-20	many	O	O	JJ	O
+4-21	years	O	O	NNS	P1_NPart_years
+4-22	,	O	O	O	O
+4-23	and	O	O	O	O
+4-24	wondered	4-16_conj_and	traveled	VBD	O
+4-25	what	4-28_nsubj	changed	WP	O
+4-26	might	4-28_aux	changed	MD	O
+4-27	have	4-28_aux	changed	VB	O
+4-28	changed	4-24_ccomp	wondered	VBN	O
+4-29	.	O	O	O	O
+
+#id=5
+#text=As soon as I arrived , it was obvious . 
+5-1	As	O	O	RB	O
+5-2	soon	O	O	RB	O
+5-3	as	5-5_mark	arrived	IN	O
+5-4	I	5-5_nsubj	arrived	PRP	P1_passenger
+5-5	arrived	O	O	VBD	O
+5-6	,	O	O	O	O
+5-7	it	O	O	PRP	O
+5-8	was	O	O	VBD	O
+5-9	obvious	O	O	JJ	O
+5-10	.	O	O	O	O
+
+#id=6
+#text=Now you didnt have to wait in line to buy tickets from a person , but instead from a machine . 
+6-1	Now	6-3_advmod	didnt	RB	O
+6-2	you	6-3_nsubj	didnt	PRP	P1_passenger
+6-3	didnt	O	O	VBP	O
+6-4	have	6-3_xcomp	didnt	VB	O
+6-5	to	6-6_aux	wait	TO	O
+6-6	wait	6-4_xcomp	have	VB	O
+6-7	in	O	O	O	O
+6-8	line	6-6_prep_in	wait	NN	O
+6-9	to	6-10_aux	buy	TO	O
+6-10	buy	6-4_xcomp	have	VB	O
+6-11	tickets	6-10_dobj	buy	NNS	P1_card/ticket
+6-12	from	6-10_prep	buy	IN	O
+6-13	a	O	O	DT	O
+6-14	person	O	O	NN	P1_NPart_person
+6-15	,	O	O	O	O
+6-16	but	O	O	O	O
+6-17	instead	O	O	RB	O
+6-18	from	O	O	IN	O
+6-19	a	O	O	DT	O
+6-20	machine	O	O	NN	P1_other
+6-21	.	O	O	O	O
+
+#id=7
+#text=I found one that was unused , and stepped up to read the directions . 
+7-1	I	7-2_nsubj	found	PRP	P1_passenger
+7-2	found	O	O	VBD	O
+7-3	one	7-2_dobj	found	CD	P1_other
+7-4	that	O	O	WDT	O
+7-5	was	O	O	VBD	O
+7-6	unused	O	O	JJ	O
+7-7	,	O	O	O	O
+7-8	and	O	O	O	O
+7-9	stepped	7-2_conj_and	found	VBD	O
+7-10	up	7-9_prt	stepped	RP	O
+7-11	to	7-12_aux	read	TO	O
+7-12	read	7-9_xcomp	stepped	VB	O
+7-13	the	O	O	DT	O
+7-14	directions	7-12_dobj	read	NNS	P1_NPart_directions
+7-15	.	O	O	O	O
+
+#id=8
+#text=I thought this was very confusing , until a station employee stopped and explained the process to me . 
+8-1	I	8-2_nsubj	thought	PRP	P1_passenger
+8-2	thought	O	O	VBD	O
+8-3	this	O	O	DT	O
+8-4	was	O	O	VBD	O
+8-5	very	O	O	RB	O
+8-6	confusing	8-2_ccomp	thought	JJ	O
+8-7	,	O	O	O	O
+8-8	until	8-12_mark	stopped	IN	O
+8-9	a	O	O	DT	O
+8-10	station	O	O	NN	O
+8-11	employee	8-12_nsubj	stopped	NN	P1_train_staff
+8-12	stopped	O	O	VBD	O
+8-13	and	O	O	O	O
+8-14	explained	8-12_conj_and	stopped	VBD	O
+8-15	the	O	O	DT	O
+8-16	process	8-14_dobj	explained	NN	P1_NPart_process
+8-17	to	O	O	O	O
+8-18	me	8-14_prep_to	explained	PRP	P1_passenger
+8-19	.	O	O	O	O
+
+#id=9
+#text=Soon I had my ticket , and was walking to line where I would await the train 's arrival . 
+9-1	Soon	9-3_advmod	had	RB	O
+9-2	I	9-3_nsubj	had	PRP	P1_passenger
+9-3	had	O	O	VBD	O
+9-4	my	O	O	PRP$	P1_passenger
+9-5	ticket	9-3_dobj	had	NN	P1_card/ticket
+9-6	,	O	O	O	O
+9-7	and	O	O	O	O
+9-8	was	9-9_aux	walking	VBD	O
+9-9	walking	9-3_conj_and	had	VBG	O
+9-10	to	9-11_aux	line	TO	O
+9-11	line	9-9_xcomp	walking	VB	P1_line
+9-12	where	9-15_advmod	await	WRB	O
+9-13	I	9-15_nsubj	await	PRP	P1_passenger
+9-14	would	9-15_aux	await	MD	O
+9-15	await	9-11_advcl	line	VB	O
+9-16	the	O	O	DT	O
+9-17	train	O	O	NN	P1_train
+9-18	's	O	O	O	O
+9-19	arrival	9-15_dobj	await	NN	P2_other
+9-20	.	O	O	O	O
+
+#id=10
+#text=If was not far , and there was even an empty bench seat . 
+10-1	If	10-2_mark	was	IN	O
+10-2	was	O	O	VBD	O
+10-3	not	O	O	RB	O
+10-4	far	10-2_advmod	was	RB	O
+10-5	,	O	O	O	O
+10-6	and	O	O	O	O
+10-7	there	O	O	RB	O
+10-8	was	O	O	VBD	O
+10-9	even	O	O	RB	O
+10-10	an	O	O	DT	O
+10-11	empty	O	O	JJ	O
+10-12	bench	O	O	NN	O
+10-13	seat	O	O	NN	P1_NPart_seat
+10-14	.	O	O	O	O
+
+#id=11
+#text=Soon the train arrived and I stepped up into the car printed on my ticket , and found my seat . 
+11-1	Soon	11-4_advmod	arrived	RB	O
+11-2	the	O	O	DT	O
+11-3	train	11-4_nsubj	arrived	NN	P1_train
+11-4	arrived	O	O	VBD	O
+11-5	and	O	O	O	O
+11-6	I	11-7_nsubj	stepped	PRP	P1_passenger
+11-7	stepped	11-4_conj_and	arrived	VBD	O
+11-8	up	11-7_prt	stepped	RP	O
+11-9	into	O	O	O	O
+11-10	the	O	O	DT	O
+11-11	car	11-7_prep_into	stepped	NN	P1_coach
+11-12	printed	O	O	VBN	O
+11-13	on	O	O	O	O
+11-14	my	O	O	PRP$	P1_passenger
+11-15	ticket	11-12_prep_on	printed	NN	P1_card/ticket
+11-16	,	O	O	O	O
+11-17	and	O	O	O	O
+11-18	found	11-7_conj_and	stepped	VBD	O
+11-19	my	O	O	PRP$	P1_passenger
+11-20	seat	11-18_dobj	found	NN	P1_seat
+11-21	.	O	O	O	O
+
+#id=12
+#text=After the train was in motion , a conductor came by to check and punch my ticket . 
+12-1	After	12-4_mark	was	IN	O
+12-2	the	O	O	DT	O
+12-3	train	12-4_nsubj	was	NN	P1_train
+12-4	was	12-10_advcl	came	VBD	O
+12-5	in	O	O	O	O
+12-6	motion	12-4_prep_in	was	NN	O
+12-7	,	O	O	O	O
+12-8	a	O	O	DT	O
+12-9	conductor	12-10_nsubj	came	NN	P2_train_staff
+12-10	came	O	O	VBD	O
+12-11	by	12-10_prt	came	RP	O
+12-12	to	12-13_aux	check	TO	O
+12-13	check	12-10_xcomp	came	VB	O
+12-14	and	O	O	O	O
+12-15	punch	12-13_conj_and	check	VB	O
+12-16	my	O	O	PRP$	P1_passenger
+12-17	ticket	12-13_dobj	check	NN	P1_card/ticket
+12-18	.	O	O	O	O
+
+#id=13
+#text=He smiled , and told me to have a good trip . 
+13-1	He	13-2_nsubj	smiled	PRP	P2_train_staff
+13-2	smiled	O	O	VBD	O
+13-3	,	O	O	O	O
+13-4	and	O	O	O	O
+13-5	told	13-2_conj_and	smiled	VBD	O
+13-6	me	13-5_dobj	told	PRP	P1_passenger
+13-7	to	13-8_aux	have	TO	O
+13-8	have	13-5_xcomp	told	VB	O
+13-9	a	O	O	DT	O
+13-10	good	O	O	JJ	O
+13-11	trip	13-8_dobj	have	NN	P1_trip
+13-12	.	O	O	O	O

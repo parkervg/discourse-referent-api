@@ -1,0 +1,236 @@
+#id=1
+#text=Riding on a train is a great way to commute , especially when frequenting a city ! 
+1-1	Riding	O	O	VBG	O
+1-2	on	O	O	O	O
+1-3	a	O	O	DT	O
+1-4	train	1-1_prep_on	Riding	NN	P1_train
+1-5	is	O	O	VBZ	O
+1-6	a	O	O	DT	O
+1-7	great	O	O	JJ	O
+1-8	way	O	O	NN	O
+1-9	to	O	O	O	O
+1-10	commute	O	O	NN	O
+1-11	,	O	O	O	O
+1-12	especially	O	O	RB	O
+1-13	when	1-14_advmod	frequenting	WRB	O
+1-14	frequenting	O	O	VBG	O
+1-15	a	O	O	DT	O
+1-16	city	1-14_dobj	frequenting	NN	P1_NPart_city
+1-17	!	O	O	O	O
+
+#id=2
+#text=It 's a great reminder of transportation of the past , and a great way to spend an afternoon . 
+2-1	It	O	O	PRP	P1_train
+2-2	's	O	O	VBZ	O
+2-3	a	O	O	DT	O
+2-4	great	O	O	JJ	O
+2-5	reminder	O	O	NN	P1_NPart_reminder
+2-6	of	O	O	O	O
+2-7	transportation	O	O	NN	P1_other
+2-8	of	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	past	O	O	NN	P1_NPart_past
+2-11	,	O	O	O	O
+2-12	and	O	O	O	O
+2-13	a	O	O	DT	O
+2-14	great	O	O	JJ	O
+2-15	way	O	O	NN	O
+2-16	to	2-17_aux	spend	TO	O
+2-17	spend	O	O	VB	O
+2-18	an	O	O	DT	O
+2-19	afternoon	2-17_dobj	spend	NN	P1_NPart_afternoon
+2-20	.	O	O	O	O
+
+#id=3
+#text=A specific example would be when I frequent the great city of Boston . 
+3-1	A	O	O	DT	O
+3-2	specific	O	O	JJ	O
+3-3	example	3-5_nsubj	be	NN	P1_NPart_example
+3-4	would	3-5_aux	be	MD	O
+3-5	be	O	O	VB	O
+3-6	when	3-8_advmod	frequent	WRB	O
+3-7	I	3-8_nsubj	frequent	PRP	P1_passenger
+3-8	frequent	3-5_advcl	be	VBZ	O
+3-9	the	O	O	DT	O
+3-10	great	O	O	JJ	O
+3-11	city	3-8_dobj	frequent	NN	O
+3-12	of	O	O	O	O
+3-13	Boston	O	O	NNP	P1_destination
+3-14	.	O	O	O	O
+
+#id=4
+#text=I always choose to take the train in , as driving into the big city can be a great hassle . 
+4-1	I	4-3_nsubj	choose	PRP	P1_passenger
+4-2	always	4-3_advmod	choose	RB	O
+4-3	choose	O	O	VBP	O
+4-4	to	4-5_aux	take	TO	O
+4-5	take	4-3_xcomp	choose	VB	O
+4-6	the	O	O	DT	O
+4-7	train	4-5_dobj	take	NN	P1_train
+4-8	in	4-5_prep	take	IN	O
+4-9	,	O	O	O	O
+4-10	as	O	O	IN	O
+4-11	driving	O	O	VBG	O
+4-12	into	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	big	O	O	JJ	O
+4-15	city	4-11_prep_into	driving	NN	P1_destination
+4-16	can	O	O	MD	O
+4-17	be	O	O	VB	O
+4-18	a	O	O	DT	O
+4-19	great	O	O	JJ	O
+4-20	hassle	4-5_advcl	take	NN	P1_NPart_hassle
+4-21	.	O	O	O	O
+
+#id=5
+#text=In this day and age it 's convenient to look up train times ahead of time on the appropriate website . 
+5-1	In	O	O	O	O
+5-2	this	O	O	DT	O
+5-3	day	O	O	NN	P1_NPart_day
+5-4	and	O	O	O	O
+5-5	age	O	O	NN	P1_NPart_age
+5-6	it	O	O	PRP	O
+5-7	's	O	O	VBZ	O
+5-8	convenient	O	O	JJ	O
+5-9	to	5-10_aux	look	TO	O
+5-10	look	O	O	VB	O
+5-11	up	5-10_prt	look	RP	O
+5-12	train	O	O	NN	O
+5-13	times	5-10_dobj	look	NNS	P1_time-table
+5-14	ahead	O	O	O	O
+5-15	of	O	O	O	O
+5-16	time	O	O	NN	P1_NPart_time
+5-17	on	O	O	O	O
+5-18	the	O	O	DT	O
+5-19	appropriate	O	O	JJ	O
+5-20	website	5-10_prep_on	look	NN	P1_ticket_office/website
+5-21	.	O	O	O	O
+
+#id=6
+#text=Once you determine the train that you will take you will need to find transportation to the train stop , either by walking , bus , or getting dropped off . 
+6-1	Once	6-3_mark	determine	IN	O
+6-2	you	6-3_nsubj	determine	PRP	P2_passenger
+6-3	determine	6-29_csubj	dropped	VBP	O
+6-4	the	O	O	DT	O
+6-5	train	6-3_dobj	determine	NN	P2_train
+6-6	that	6-9_mark	take	IN	O
+6-7	you	6-9_nsubj	take	PRP	P2_passenger
+6-8	will	6-9_aux	take	MD	O
+6-9	take	6-3_ccomp	determine	VB	O
+6-10	you	6-12_nsubj	need	PRP	P2_passenger
+6-11	will	6-12_aux	need	MD	O
+6-12	need	6-9_ccomp	take	VB	O
+6-13	to	6-14_aux	find	TO	O
+6-14	find	6-12_xcomp	need	VB	O
+6-15	transportation	6-14_dobj	find	NN	P1_NPart_transportation
+6-16	to	O	O	O	O
+6-17	the	O	O	DT	O
+6-18	train	O	O	NN	O
+6-19	stop	6-14_prep_to	find	NN	P1_train_station
+6-20	,	O	O	O	O
+6-21	either	6-14_dep	find	CC	O
+6-22	by	6-14_conj	find	IN	O
+6-23	walking	O	O	VBG	O
+6-24	,	O	O	O	O
+6-25	bus	6-23_conj_or	walking	VBG	P1_NPart_bus
+6-26	,	O	O	O	O
+6-27	or	O	O	O	O
+6-28	getting	6-23_conj_or	walking	VBG	O
+6-29	dropped	O	O	VBD	O
+6-30	off	6-29_prt	dropped	RP	O
+6-31	.	O	O	O	O
+
+#id=7
+#text=Once at the train station go up to the ticket window or use a handy kiosk to purchase your ticket . 
+7-1	Once	7-6_advmod	go	RB	O
+7-2	at	O	O	O	O
+7-3	the	O	O	DT	O
+7-4	train	O	O	NN	O
+7-5	station	O	O	NN	P1_train_station
+7-6	go	O	O	VB	O
+7-7	up	7-6_prt	go	RP	O
+7-8	to	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	ticket	O	O	NN	O
+7-11	window	7-6_prep_to	go	NN	P2_ticket_office/website
+7-12	or	O	O	O	O
+7-13	use	7-6_conj_or	go	VB	O
+7-14	a	O	O	DT	O
+7-15	handy	O	O	JJ	O
+7-16	kiosk	7-13_dobj	use	NN	P3_ticket_office/website
+7-17	to	7-18_aux	purchase	TO	O
+7-18	purchase	7-13_vmod	use	VB	O
+7-19	your	O	O	PRP$	P2_passenger
+7-20	ticket	7-18_dobj	purchase	NN	P1_card/ticket
+7-21	.	O	O	O	O
+
+#id=8
+#text=Take this ticket and head through the checkpoint , or if you are using a commuter rail bring it with you to give to the train attendant . 
+8-1	Take	O	O	VB	O
+8-2	this	O	O	DT	O
+8-3	ticket	8-1_dobj	Take	NN	P1_card/ticket
+8-4	and	O	O	O	O
+8-5	head	8-1_conj_and	Take	VB	O
+8-6	through	8-5_dep	head	IN	O
+8-7	the	O	O	DT	O
+8-8	checkpoint	O	O	NN	P2_other
+8-9	,	O	O	O	O
+8-10	or	O	O	O	O
+8-11	if	8-14_mark	using	IN	O
+8-12	you	8-14_nsubj	using	PRP	P2_passenger
+8-13	are	8-14_aux	using	VBP	O
+8-14	using	O	O	VBG	O
+8-15	a	O	O	DT	O
+8-16	commuter	O	O	NN	O
+8-17	rail	8-18_nsubj	bring	NN	P2_card/ticket
+8-18	bring	8-14_ccomp	using	VB	O
+8-19	it	8-18_dobj	bring	PRP	P2_card/ticket
+8-20	with	8-23_mark	give	IN	O
+8-21	you	8-23_nsubj	give	PRP	P2_passenger
+8-22	to	8-23_aux	give	TO	O
+8-23	give	8-18_advcl	bring	VB	O
+8-24	to	O	O	O	O
+8-25	the	O	O	DT	O
+8-26	train	O	O	NN	O
+8-27	attendant	8-23_prep_to	give	NN	P1_train_staff
+8-28	.	O	O	O	O
+
+#id=9
+#text=As you start moving and stopping they will announce each stop . 
+9-1	As	9-3_mark	start	IN	O
+9-2	you	9-3_nsubj	start	PRP	P3_train
+9-3	start	9-9_csubj	announce	VBP	O
+9-4	moving	9-3_xcomp	start	VBG	O
+9-5	and	O	O	O	O
+9-6	stopping	9-4_conj_and	moving	VBG	O
+9-7	they	9-4_dobj	moving	PRP	P2_train_staff
+9-8	will	9-9_aux	announce	MD	O
+9-9	announce	O	O	VB	O
+9-10	each	O	O	DT	O
+9-11	stop	9-9_dobj	announce	NN	P2_train_station
+9-12	.	O	O	O	O
+
+#id=10
+#text=Wait until your stop has approached and exit the train . 
+10-1	Wait	O	O	VB	O
+10-2	until	10-6_mark	approached	IN	O
+10-3	your	O	O	PRP$	P2_passenger
+10-4	stop	10-6_nsubj	approached	NN	P2_destination
+10-5	has	10-6_aux	approached	VBZ	O
+10-6	approached	10-1_advcl	Wait	VBN	O
+10-7	and	O	O	O	O
+10-8	exit	10-1_conj_and	Wait	VB	O
+10-9	the	O	O	DT	O
+10-10	train	10-8_dobj	exit	NN	P2_train
+10-11	.	O	O	O	O
+
+#id=11
+#text=Congratulations , you just saw the countryside ! 
+11-1	Congratulations	11-5_advmod	saw	RB	O
+11-2	,	O	O	O	O
+11-3	you	11-5_nsubj	saw	PRP	P2_passenger
+11-4	just	11-5_advmod	saw	RB	O
+11-5	saw	O	O	VBD	O
+11-6	the	O	O	DT	O
+11-7	countryside	11-5_dobj	saw	NN	P1_NPart_countryside
+11-8	!	O	O	O	O

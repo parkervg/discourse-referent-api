@@ -1,0 +1,251 @@
+#id=1
+#text=After I planted a tree the other day , I was all dirty and tired . 
+1-1	After	1-3_mark	planted	IN	O
+1-2	I	1-3_nsubj	planted	PRP	P1_bather
+1-3	planted	O	O	VBD	O
+1-4	a	O	O	DT	O
+1-5	tree	1-3_dobj	planted	NN	P1_NPart_tree
+1-6	the	O	O	DT	O
+1-7	other	O	O	JJ	O
+1-8	day	1-3_tmod	planted	NN	P1_NPart_day
+1-9	,	O	O	O	O
+1-10	I	O	O	PRP	P1_bather
+1-11	was	O	O	VBD	O
+1-12	all	O	O	DT	O
+1-13	dirty	O	O	JJ	O
+1-14	and	O	O	O	O
+1-15	tired	O	O	JJ	O
+1-16	.	O	O	O	O
+
+#id=2
+#text=I decided for a change that instead of a shower I was going to have a bath tonight and relax . 
+2-1	I	2-2_nsubj	decided	PRP	P1_bather
+2-2	decided	O	O	VBD	O
+2-3	for	O	O	O	O
+2-4	a	O	O	DT	O
+2-5	change	2-2_prep_for	decided	NN	O
+2-6	that	2-13_mark	going	IN	O
+2-7	instead	O	O	O	O
+2-8	of	O	O	O	O
+2-9	a	O	O	DT	O
+2-10	shower	2-13_prep_instead_of	going	NN	P1_shower
+2-11	I	2-13_nsubj	going	PRP	P1_bather
+2-12	was	2-13_aux	going	VBD	O
+2-13	going	2-2_ccomp	decided	VBG	O
+2-14	to	2-15_aux	have	TO	O
+2-15	have	2-13_xcomp	going	VB	O
+2-16	a	O	O	DT	O
+2-17	bath	2-15_iobj	have	NN	P1_bath
+2-18	tonight	2-15_dobj	have	NN	P1_NPart_tonight
+2-19	and	O	O	O	O
+2-20	relax	2-15_conj_and	have	VB	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=First I moved my soap and shampoo down to the side of the tub instead of on their normal shower shelf , then started the water running . 
+3-1	First	3-3_dep	moved	JJ	O
+3-2	I	3-3_nsubj	moved	PRP	P1_bather
+3-3	moved	3-24_ccomp	started	VBD	O
+3-4	my	O	O	PRP$	P1_bather
+3-5	soap	3-3_dobj	moved	NN	P1_washing_tools
+3-6	and	O	O	O	O
+3-7	shampoo	O	O	NN	P2_washing_tools
+3-8	down	3-3_prt	moved	RP	O
+3-9	to	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	side	3-3_prep_to	moved	NN	O
+3-12	of	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	tub	O	O	NN	P1_bathtub
+3-15	instead	O	O	O	O
+3-16	of	O	O	O	O
+3-17	on	O	O	O	O
+3-18	their	O	O	PRP$	P1_NPart_their
+3-19	normal	O	O	JJ	O
+3-20	shower	O	O	NN	O
+3-21	shelf	3-3_prep_on	moved	NN	P1_other
+3-22	,	O	O	O	O
+3-23	then	3-24_nsubj	started	RB	O
+3-24	started	O	O	VBD	O
+3-25	the	O	O	DT	O
+3-26	water	3-24_dobj	started	NN	P1_water
+3-27	running	O	O	VBG	O
+3-28	.	O	O	O	O
+
+#id=4
+#text=Once I got it hot , but not too hot , I closed the drain so the tub would start to fill up . 
+4-1	Once	4-3_mark	got	IN	O
+4-2	I	4-3_nsubj	got	PRP	P1_bather
+4-3	got	4-20_advcl	start	VBD	O
+4-4	it	O	O	PRP	P1_water
+4-5	hot	4-3_xcomp	got	JJ	O
+4-6	,	O	O	O	O
+4-7	but	O	O	O	O
+4-8	not	O	O	O	O
+4-9	too	O	O	RB	O
+4-10	hot	O	O	JJ	O
+4-11	,	O	O	O	O
+4-12	I	4-13_nsubj	closed	PRP	P1_bather
+4-13	closed	O	O	VBD	O
+4-14	the	O	O	DT	O
+4-15	drain	4-13_dobj	closed	NN	P1_drain
+4-16	so	4-13_advmod	closed	RB	O
+4-17	the	O	O	DT	O
+4-18	tub	4-20_nsubj	start	NN	P1_bathtub
+4-19	would	4-20_aux	start	MD	O
+4-20	start	O	O	VB	O
+4-21	to	4-22_aux	fill	TO	O
+4-22	fill	4-20_xcomp	start	VB	O
+4-23	up	4-22_prt	fill	RP	O
+4-24	.	O	O	O	O
+
+#id=5
+#text=I had an idea at the last minute and grabbed my tablet and a ziploc bag and put the tablet inside it to protect it from splashes . 
+5-1	I	5-2_nsubj	had	PRP	P1_bather
+5-2	had	O	O	VBD	O
+5-3	an	O	O	DT	O
+5-4	idea	5-2_dobj	had	NN	P1_NPart_idea
+5-5	at	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	last	O	O	JJ	O
+5-8	minute	O	O	NN	P1_NPart_minute
+5-9	and	O	O	O	O
+5-10	grabbed	5-2_conj_and	had	VBD	O
+5-11	my	O	O	PRP$	P1_bather
+5-12	tablet	5-10_dobj	grabbed	NN	P1_in-bath_entertainment
+5-13	and	O	O	O	O
+5-14	a	O	O	DT	O
+5-15	ziploc	O	O	JJ	O
+5-16	bag	O	O	NN	P2_other
+5-17	and	O	O	O	O
+5-18	put	5-10_conj_and	grabbed	VBD	O
+5-19	the	O	O	DT	O
+5-20	tablet	5-18_dobj	put	NN	P1_in-bath_entertainment
+5-21	inside	O	O	O	O
+5-22	it	O	O	PRP	P2_other
+5-23	to	5-24_aux	protect	TO	O
+5-24	protect	5-18_vmod	put	VB	O
+5-25	it	5-24_dobj	protect	PRP	P1_in-bath_entertainment
+5-26	from	O	O	O	O
+5-27	splashes	5-24_prep_from	protect	NNS	P1_water
+5-28	.	O	O	O	O
+
+#id=6
+#text=I turned up my stereo so I could head it in the bathroom , then got into the tub . 
+6-1	I	6-2_nsubj	turned	PRP	P1_bather
+6-2	turned	O	O	VBD	O
+6-3	up	6-2_prt	turned	RP	O
+6-4	my	O	O	PRP$	P1_bather
+6-5	stereo	6-2_dobj	turned	NN	P2_in-bath_entertainment
+6-6	so	6-9_mark	head	IN	O
+6-7	I	6-9_nsubj	head	PRP	P1_bather
+6-8	could	6-9_aux	head	MD	O
+6-9	head	6-2_advcl	turned	VB	O
+6-10	it	6-9_dobj	head	PRP	P2_in-bath_entertainment
+6-11	in	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	bathroom	6-9_prep_in	head	NN	P1_bathroom
+6-14	,	O	O	O	O
+6-15	then	6-16_advmod	got	RB	O
+6-16	got	O	O	VBN	O
+6-17	into	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	tub	6-16_prep_into	got	NN	P1_bathtub
+6-20	.	O	O	O	O
+
+#id=7
+#text=I settled into the warm water and relaxed for a little while , then grabbed my tablet and started reading a book . 
+7-1	I	7-2_nsubj	settled	PRP	P1_bather
+7-2	settled	O	O	VBD	O
+7-3	into	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	warm	O	O	JJ	O
+7-6	water	7-2_prep_into	settled	NN	P1_water
+7-7	and	O	O	O	O
+7-8	relaxed	7-2_conj_and	settled	VBD	O
+7-9	for	O	O	O	O
+7-10	a	O	O	DT	O
+7-11	little	O	O	JJ	O
+7-12	while	7-8_prep_for	relaxed	NN	P1_NPart_while
+7-13	,	O	O	O	O
+7-14	then	7-15_advmod	grabbed	RB	O
+7-15	grabbed	7-2_dep	settled	VBD	O
+7-16	my	O	O	PRP$	P1_bather
+7-17	tablet	7-15_dobj	grabbed	NN	P1_in-bath_entertainment
+7-18	and	O	O	O	O
+7-19	started	7-2_conj_and	settled	VBD	O
+7-20	reading	7-19_xcomp	started	VBG	O
+7-21	a	O	O	DT	O
+7-22	book	7-20_dobj	reading	NN	P3_in-bath_entertainment
+7-23	.	O	O	O	O
+
+#id=8
+#text=After about 30 minutes of relaxing , I let some of the water out since it was getting cold , filled up with more hot water and started washing . 
+8-1	After	O	O	O	O
+8-2	about	O	O	RB	O
+8-3	30	O	O	CD	O
+8-4	minutes	8-9_prep_after	let	NNS	P1_NPart_minutes
+8-5	of	O	O	O	O
+8-6	relaxing	O	O	VBG	O
+8-7	,	O	O	O	O
+8-8	I	8-9_nsubj	let	PRP	P1_bather
+8-9	let	O	O	VBD	O
+8-10	some	8-9_dobj	let	DT	O
+8-11	of	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	water	O	O	NN	P1_water
+8-14	out	O	O	O	O
+8-15	since	8-18_mark	getting	IN	O
+8-16	it	8-18_nsubj	getting	PRP	P1_water
+8-17	was	8-18_aux	getting	VBD	O
+8-18	getting	8-9_prepc_out	let	VBG	O
+8-19	cold	8-18_advmod	getting	NN	O
+8-20	,	O	O	O	O
+8-21	filled	8-9_conj_and	let	VBD	O
+8-22	up	8-21_prt	filled	RP	O
+8-23	with	O	O	O	O
+8-24	more	O	O	JJR	O
+8-25	hot	O	O	JJ	O
+8-26	water	8-21_prep_with	filled	NN	P1_water
+8-27	and	O	O	O	O
+8-28	started	8-9_conj_and	let	VBD	O
+8-29	washing	8-28_xcomp	started	VBG	O
+8-30	.	O	O	O	O
+
+#id=9
+#text=Once I was cleaned off , I opened the drain and finished up by washing my hair under the shower . 
+9-1	Once	9-4_mark	cleaned	IN	O
+9-2	I	9-4_nsubjpass	cleaned	PRP	P1_bather
+9-3	was	9-4_auxpass	cleaned	VBD	O
+9-4	cleaned	9-8_advcl	opened	VBN	O
+9-5	off	9-4_prt	cleaned	RP	O
+9-6	,	O	O	O	O
+9-7	I	9-8_nsubj	opened	PRP	P1_bather
+9-8	opened	O	O	VBD	O
+9-9	the	O	O	DT	O
+9-10	drain	9-8_dobj	opened	NN	P1_drain
+9-11	and	O	O	O	O
+9-12	finished	9-8_conj_and	opened	VBD	O
+9-13	up	9-12_prt	finished	RP	O
+9-14	by	O	O	O	O
+9-15	washing	9-12_prepc_by	finished	VBG	O
+9-16	my	O	O	PRP$	P1_bather
+9-17	hair	9-15_dobj	washing	NN	P1_body_part
+9-18	under	O	O	O	O
+9-19	the	O	O	DT	O
+9-20	shower	9-15_prep_under	washing	NN	P1_shower
+9-21	.	O	O	O	O
+
+#id=10
+#text=It was a nice change from showering all the time . 
+10-1	It	O	O	PRP	O
+10-2	was	O	O	VBD	O
+10-3	a	O	O	DT	O
+10-4	nice	O	O	JJ	O
+10-5	change	O	O	NN	O
+10-6	from	O	O	O	O
+10-7	showering	O	O	VBG	O
+10-8	all	O	O	PDT	O
+10-9	the	O	O	DT	O
+10-10	time	10-7_dobj	showering	NN	P1_NPart_time
+10-11	.	O	O	O	O

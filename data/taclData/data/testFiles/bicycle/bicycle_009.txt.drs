@@ -1,0 +1,326 @@
+#id=1
+#text=Some years ago , I used my bike to get around town a lot . 
+1-1	Some	O	O	DT	O
+1-2	years	O	O	NNS	P1_NPart_years
+1-3	ago	1-6_advmod	used	RB	O
+1-4	,	O	O	O	O
+1-5	I	1-6_nsubj	used	PRP	P1_rider
+1-6	used	O	O	VBD	O
+1-7	my	O	O	PRP$	P1_rider
+1-8	bike	1-6_dobj	used	NN	P1_bicycle
+1-9	to	1-10_aux	get	TO	O
+1-10	get	O	O	VB	O
+1-11	around	O	O	O	O
+1-12	town	1-10_prep_around	get	NN	P1_NPart_town
+1-13	a	O	O	DT	O
+1-14	lot	O	O	NN	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=Of course , came the time when you have to make repairs . 
+2-1	Of	O	O	O	O
+2-2	course	2-4_prep_of	came	NN	O
+2-3	,	O	O	O	O
+2-4	came	O	O	VBD	O
+2-5	the	O	O	DT	O
+2-6	time	2-4_dobj	came	NN	O
+2-7	when	2-9_advmod	have	WRB	O
+2-8	you	2-9_nsubj	have	PRP	P1_rider
+2-9	have	2-4_advcl	came	VBP	O
+2-10	to	2-11_aux	make	TO	O
+2-11	make	2-9_xcomp	have	VB	O
+2-12	repairs	2-11_dobj	make	NNS	O
+2-13	.	O	O	O	O
+
+#id=3
+#text=I found out a lot about bicycle tires during this time . 
+3-1	I	3-2_nsubj	found	PRP	P1_rider
+3-2	found	O	O	VBD	O
+3-3	out	3-2_prt	found	RP	O
+3-4	a	O	O	DT	O
+3-5	lot	3-2_dobj	found	NN	O
+3-6	about	O	O	O	O
+3-7	bicycle	O	O	NN	O
+3-8	tires	O	O	NNS	P1_tire
+3-9	during	O	O	O	O
+3-10	this	O	O	DT	O
+3-11	time	3-2_prep_during	found	NN	O
+3-12	.	O	O	O	O
+
+#id=4
+#text=My tire had a leak so I bought a repair kit . 
+4-1	My	O	O	PRP$	P1_rider
+4-2	tire	4-3_nsubj	had	NN	P1_tire
+4-3	had	O	O	VBD	O
+4-4	a	O	O	DT	O
+4-5	leak	4-3_dobj	had	NN	P1_object_damage
+4-6	so	4-8_mark	bought	IN	O
+4-7	I	4-8_nsubj	bought	PRP	P1_rider
+4-8	bought	4-3_advcl	had	VBD	O
+4-9	a	O	O	DT	O
+4-10	repair	O	O	NN	O
+4-11	kit	4-8_dobj	bought	NN	P1_tool
+4-12	.	O	O	O	O
+
+#id=5
+#text=I had no idea how to use it but I did find out . 
+5-1	I	5-2_nsubj	had	PRP	P1_rider
+5-2	had	O	O	VBD	O
+5-3	no	O	O	DT	O
+5-4	idea	5-2_dobj	had	NN	P1_NPart_idea
+5-5	how	5-7_advmod	use	WRB	O
+5-6	to	5-7_aux	use	TO	O
+5-7	use	5-2_xcomp	had	VB	O
+5-8	it	5-7_dobj	use	PRP	P1_tool
+5-9	but	O	O	O	O
+5-10	I	5-11_nsubj	did	PRP	P1_rider
+5-11	did	5-2_conj_but	had	VBD	O
+5-12	find	5-11_ccomp	did	VB	O
+5-13	out	5-12_prt	find	RP	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=I had to take the whole wheel off the bicycle . 
+6-1	I	6-2_nsubj	had	PRP	P1_rider
+6-2	had	O	O	VBD	O
+6-3	to	6-4_aux	take	TO	O
+6-4	take	6-2_xcomp	had	VB	O
+6-5	the	O	O	DT	O
+6-6	whole	O	O	JJ	O
+6-7	wheel	6-4_dobj	take	NN	P1_wheel
+6-8	off	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	bicycle	6-4_prep_off	take	NN	P1_bicycle
+6-11	.	O	O	O	O
+
+#id=7
+#text=Next I pried the tires from the rim and that took some doing . 
+7-1	Next	7-3_advmod	pried	RB	O
+7-2	I	7-3_nsubj	pried	PRP	P1_rider
+7-3	pried	O	O	VBD	O
+7-4	the	O	O	DT	O
+7-5	tires	7-3_dobj	pried	NNS	P1_tire
+7-6	from	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	rim	7-3_prep_from	pried	NN	P1_rim
+7-9	and	O	O	O	O
+7-10	that	7-11_nsubj	took	DT	O
+7-11	took	7-3_conj_and	pried	VBD	O
+7-12	some	7-11_dobj	took	DT	O
+7-13	doing	O	O	VBG	O
+7-14	.	O	O	O	O
+
+#id=8
+#text=Okay once I got that off I had to take the inner tube out also and I learned that I had to be very careful with the inner tube because I could cause more damage by being rough . 
+8-1	Okay	O	O	RB	O
+8-2	once	8-4_advmod	got	RB	O
+8-3	I	8-4_nsubj	got	PRP	P1_rider
+8-4	got	O	O	VBD	O
+8-5	that	8-8_mark	had	IN	P1_tire
+8-6	off	8-8_advmod	had	RB	O
+8-7	I	8-8_nsubj	had	PRP	P1_rider
+8-8	had	8-4_ccomp	got	VBD	O
+8-9	to	8-10_aux	take	TO	O
+8-10	take	8-8_xcomp	had	VB	O
+8-11	the	O	O	DT	O
+8-12	inner	O	O	JJ	O
+8-13	tube	8-10_dobj	take	NN	P2_tire
+8-14	out	8-10_prt	take	RP	O
+8-15	also	8-10_advmod	take	RB	O
+8-16	and	O	O	O	O
+8-17	I	8-18_nsubj	learned	PRP	P1_rider
+8-18	learned	8-8_conj_and	had	VBD	O
+8-19	that	8-21_mark	had	IN	O
+8-20	I	8-21_nsubj	had	PRP	P1_rider
+8-21	had	8-18_ccomp	learned	VBD	O
+8-22	to	O	O	TO	O
+8-23	be	O	O	VB	O
+8-24	very	O	O	RB	O
+8-25	careful	8-21_xcomp	had	JJ	O
+8-26	with	O	O	O	O
+8-27	the	O	O	DT	O
+8-28	inner	O	O	JJ	O
+8-29	tube	O	O	NN	P2_tire
+8-30	because	8-33_mark	cause	IN	O
+8-31	I	8-33_nsubj	cause	PRP	P1_rider
+8-32	could	8-33_aux	cause	MD	O
+8-33	cause	O	O	VB	O
+8-34	more	O	O	JJR	O
+8-35	damage	8-33_dobj	cause	NN	P1_damage
+8-36	by	O	O	O	O
+8-37	being	O	O	VBG	O
+8-38	rough	8-33_prepc_by	cause	JJ	O
+8-39	.	O	O	O	O
+
+#id=9
+#text=Next , I took the inner tube to the gas station to get air since I did n't have a manual air pump . 
+9-1	Next	9-4_advmod	took	RB	O
+9-2	,	O	O	O	O
+9-3	I	9-4_nsubj	took	PRP	P1_rider
+9-4	took	O	O	VBD	O
+9-5	the	O	O	DT	O
+9-6	inner	O	O	JJ	O
+9-7	tube	9-4_dobj	took	NN	P2_tire
+9-8	to	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	gas	O	O	NN	O
+9-11	station	9-4_prep_to	took	NN	P1_other
+9-12	to	9-13_aux	get	TO	O
+9-13	get	9-4_vmod	took	VB	O
+9-14	air	9-13_dobj	get	NN	P1_air
+9-15	since	9-19_mark	have	IN	O
+9-16	I	9-19_nsubj	have	PRP	P1_rider
+9-17	did	9-19_aux	have	VBD	O
+9-18	n't	9-19_neg	have	RB	O
+9-19	have	9-13_advcl	get	VB	O
+9-20	a	O	O	DT	O
+9-21	manual	O	O	JJ	O
+9-22	air	O	O	NN	O
+9-23	pump	9-19_dobj	have	NN	P2_tool
+9-24	.	O	O	O	O
+
+#id=10
+#text=I learned really quickly that I needed to fill the inner tube with care or I would be buying another one since the air fills it quickly and the tube can pop . 
+10-1	I	10-2_nsubj	learned	PRP	P1_rider
+10-2	learned	O	O	VBD	O
+10-3	really	10-2_advmod	learned	RB	O
+10-4	quickly	10-7_advmod	needed	RB	O
+10-5	that	10-7_mark	needed	IN	O
+10-6	I	10-7_nsubj	needed	PRP	P1_rider
+10-7	needed	10-2_dep	learned	VBD	O
+10-8	to	10-9_aux	fill	TO	O
+10-9	fill	10-7_xcomp	needed	VB	O
+10-10	the	O	O	DT	O
+10-11	inner	O	O	JJ	O
+10-12	tube	10-9_dobj	fill	NN	P2_tire
+10-13	with	O	O	O	O
+10-14	care	10-9_prep_with	fill	NN	P1_NPart_care
+10-15	or	O	O	O	O
+10-16	I	10-19_nsubj	buying	PRP	P1_rider
+10-17	would	10-19_aux	buying	MD	O
+10-18	be	10-19_aux	buying	VB	O
+10-19	buying	10-2_conj_or	learned	VBG	O
+10-20	another	O	O	DT	O
+10-21	one	10-19_dobj	buying	NN	P2_tire
+10-22	since	10-25_mark	fills	IN	O
+10-23	the	O	O	DT	O
+10-24	air	10-25_nsubj	fills	NN	P1_air
+10-25	fills	10-2_dep	learned	VBZ	O
+10-26	it	10-25_dobj	fills	PRP	P2_tire
+10-27	quickly	10-25_advmod	fills	RB	O
+10-28	and	O	O	O	O
+10-29	the	O	O	DT	O
+10-30	tube	10-32_nsubj	pop	NN	P2_tire
+10-31	can	10-32_aux	pop	MD	O
+10-32	pop	10-2_conj_and	learned	VB	O
+10-33	.	O	O	O	O
+
+#id=11
+#text=Once I put a little air in the tube I had to listen as I pressed the air out to determine where the leak was actually at . 
+11-1	Once	11-3_mark	put	IN	O
+11-2	I	11-3_nsubj	put	PRP	P1_rider
+11-3	put	11-11_advcl	had	VBD	O
+11-4	a	O	O	DT	O
+11-5	little	O	O	JJ	O
+11-6	air	11-3_dobj	put	NN	P1_air
+11-7	in	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	tube	11-3_prep_in	put	NN	P2_tire
+11-10	I	11-11_nsubj	had	PRP	P1_rider
+11-11	had	O	O	VBD	O
+11-12	to	11-13_aux	listen	TO	O
+11-13	listen	11-11_xcomp	had	VB	O
+11-14	as	11-16_mark	pressed	IN	O
+11-15	I	11-16_nsubj	pressed	PRP	P1_rider
+11-16	pressed	11-13_advcl	listen	VBD	O
+11-17	the	O	O	DT	O
+11-18	air	11-16_dobj	pressed	NN	P1_air
+11-19	out	11-16_prt	pressed	RP	O
+11-20	to	11-21_aux	determine	TO	O
+11-21	determine	11-16_vmod	pressed	VB	O
+11-22	where	11-25_advmod	was	WRB	O
+11-23	the	O	O	DT	O
+11-24	leak	11-25_nsubj	was	NN	P1_object_damage
+11-25	was	11-21_advcl	determine	VBD	O
+11-26	actually	11-25_advmod	was	RB	O
+11-27	at	11-16_prep	pressed	IN	O
+11-28	.	O	O	O	O
+
+#id=12
+#text=Once the leak location was identified then I was able to take the tube home and use the glue from the kit and apply the rubber patch . 
+12-1	Once	12-6_mark	identified	IN	O
+12-2	the	O	O	DT	O
+12-3	leak	O	O	NN	O
+12-4	location	12-6_nsubjpass	identified	NN	P1_NPart_location
+12-5	was	12-6_auxpass	identified	VBD	O
+12-6	identified	O	O	VBN	O
+12-7	then	12-6_advmod	identified	RB	O
+12-8	I	O	O	PRP	P1_rider
+12-9	was	O	O	VBD	O
+12-10	able	O	O	JJ	O
+12-11	to	12-12_aux	take	TO	O
+12-12	take	O	O	VB	O
+12-13	the	O	O	DT	O
+12-14	tube	O	O	NN	P2_tire
+12-15	home	12-12_dobj	take	NN	P1_NPart_home
+12-16	and	O	O	O	O
+12-17	use	12-12_conj_and	take	VB	O
+12-18	the	O	O	DT	O
+12-19	glue	12-17_dobj	use	NN	P3_tool
+12-20	from	O	O	O	O
+12-21	the	O	O	DT	O
+12-22	kit	12-17_prep_from	use	NN	P1_tool
+12-23	and	O	O	O	O
+12-24	apply	12-17_conj_and	use	VB	O
+12-25	the	O	O	DT	O
+12-26	rubber	O	O	NN	O
+12-27	patch	12-24_dobj	apply	NN	P1_patch
+12-28	.	O	O	O	O
+
+#id=13
+#text=Of course I had to allow the tube to dry and then deflate it to get it back on the bicycle . 
+13-1	Of	O	O	O	O
+13-2	course	13-4_prep_of	had	NN	O
+13-3	I	13-4_nsubj	had	PRP	P1_rider
+13-4	had	O	O	VBD	O
+13-5	to	13-6_aux	allow	TO	O
+13-6	allow	13-4_xcomp	had	VB	O
+13-7	the	O	O	DT	O
+13-8	tube	13-6_dobj	allow	NN	P2_tire
+13-9	to	13-10_aux	dry	TO	O
+13-10	dry	O	O	VB	O
+13-11	and	O	O	O	O
+13-12	then	13-13_advmod	deflate	RB	O
+13-13	deflate	13-10_conj_and	dry	VB	O
+13-14	it	13-13_dobj	deflate	PRP	P2_tire
+13-15	to	13-16_aux	get	TO	O
+13-16	get	13-13_xcomp	deflate	VB	O
+13-17	it	13-16_dobj	get	PRP	P2_tire
+13-18	back	13-16_prt	get	RP	O
+13-19	on	O	O	O	O
+13-20	the	O	O	DT	O
+13-21	bicycle	13-16_prep_on	get	NN	P1_bicycle
+13-22	.	O	O	O	O
+
+#id=14
+#text=Once I got it all put back together I walked my bike back to the gas station for air . 
+14-1	Once	14-3_mark	got	IN	O
+14-2	I	14-3_nsubj	got	PRP	P1_rider
+14-3	got	14-10_advcl	walked	VBD	O
+14-4	it	14-6_nsubj	put	PRP	O
+14-5	all	14-6_advmod	put	RB	O
+14-6	put	14-3_ccomp	got	VB	O
+14-7	back	O	O	RB	O
+14-8	together	14-6_advmod	put	RB	O
+14-9	I	14-10_nsubj	walked	PRP	P1_rider
+14-10	walked	O	O	VBD	O
+14-11	my	O	O	PRP$	P1_rider
+14-12	bike	14-10_dobj	walked	NN	P1_bicycle
+14-13	back	14-10_advmod	walked	RB	O
+14-14	to	O	O	O	O
+14-15	the	O	O	DT	O
+14-16	gas	O	O	NN	O
+14-17	station	14-10_prep_to	walked	NN	P1_other
+14-18	for	O	O	O	O
+14-19	air	O	O	NN	P1_air
+14-20	.	O	O	O	O

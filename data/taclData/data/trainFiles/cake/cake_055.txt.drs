@@ -1,0 +1,341 @@
+#id=1
+#text=Today I am going to bake a Lemon Pound Cake . 
+1-1	Today	1-4_tmod	going	NN	P1_NPart_today
+1-2	I	1-4_nsubj	going	PRP	P1_cook
+1-3	am	1-4_aux	going	VBP	O
+1-4	going	O	O	VBG	O
+1-5	to	1-6_aux	bake	TO	O
+1-6	bake	1-4_xcomp	going	VB	O
+1-7	a	O	O	DT	O
+1-8	Lemon	O	O	NNP	O
+1-9	Pound	O	O	NNP	O
+1-10	Cake	1-6_dobj	bake	NNP	P1_cake
+1-11	.	O	O	O	O
+
+#id=2
+#text=I look at the recipe gather all of the ingredients I will need and put them on the counter . 
+2-1	I	2-2_nsubj	look	PRP	P1_cook
+2-2	look	2-13_dep	need	VBP	O
+2-3	at	2-2_advmod	look	IN	O
+2-4	the	O	O	DT	O
+2-5	recipe	O	O	NN	P1_baking_instructions
+2-6	gather	2-2_dep	look	VB	O
+2-7	all	2-6_dobj	gather	DT	O
+2-8	of	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	ingredients	O	O	NNS	P1_ingredients
+2-11	I	2-13_nsubj	need	PRP	P1_cook
+2-12	will	2-13_aux	need	MD	O
+2-13	need	O	O	VB	O
+2-14	and	O	O	O	O
+2-15	put	2-13_conj_and	need	VB	O
+2-16	them	2-13_dobj	need	PRP	P1_ingredients
+2-17	on	O	O	O	O
+2-18	the	O	O	DT	O
+2-19	counter	2-13_prep_on	need	NN	P1_kitchen/location
+2-20	.	O	O	O	O
+
+#id=3
+#text=I get out one lemon cake mix , one instant lemon pudding , four eggs , a one cup measuring cup that I fill with water , and 1\/3 cup measuring cup that I fill with vegetable oil . 
+3-1	I	3-2_nsubj	get	PRP	P1_cook
+3-2	get	O	O	VBP	O
+3-3	out	3-2_prt	get	RP	O
+3-4	one	O	O	CD	O
+3-5	lemon	O	O	JJ	O
+3-6	cake	O	O	NN	O
+3-7	mix	3-2_dobj	get	NN	P2_ingredients
+3-8	,	O	O	O	O
+3-9	one	O	O	CD	O
+3-10	instant	O	O	JJ	O
+3-11	lemon	O	O	JJ	O
+3-12	pudding	O	O	NN	P3_ingredients
+3-13	,	O	O	O	O
+3-14	four	O	O	CD	O
+3-15	eggs	O	O	NNS	P4_ingredients
+3-16	,	O	O	O	O
+3-17	a	O	O	DT	O
+3-18	one	O	O	CD	O
+3-19	cup	O	O	NN	O
+3-20	measuring	O	O	VBG	O
+3-21	cup	3-20_dobj	measuring	NN	P1_utensil
+3-22	that	3-24_mark	fill	IN	O
+3-23	I	3-24_nsubj	fill	PRP	P1_cook
+3-24	fill	3-20_ccomp	measuring	VBP	O
+3-25	with	O	O	O	O
+3-26	water	3-24_prep_with	fill	NN	P5_ingredients
+3-27	,	O	O	O	O
+3-28	and	O	O	O	O
+3-29	1\/3	O	O	CD	O
+3-30	cup	O	O	NN	O
+3-31	measuring	O	O	VBG	O
+3-32	cup	3-31_dobj	measuring	NN	P2_utensil
+3-33	that	3-35_mark	fill	IN	O
+3-34	I	3-35_nsubj	fill	PRP	P1_cook
+3-35	fill	3-31_ccomp	measuring	VBP	O
+3-36	with	O	O	O	O
+3-37	vegetable	O	O	NN	O
+3-38	oil	3-35_prep_with	fill	NN	P6_ingredients
+3-39	.	O	O	O	O
+
+#id=4
+#text=I turn on my oven to 350 in order for it to preheat while I am preparing the batter . 
+4-1	I	4-2_nsubj	turn	PRP	P1_cook
+4-2	turn	O	O	VBP	O
+4-3	on	O	O	O	O
+4-4	my	O	O	PRP$	P1_cook
+4-5	oven	4-2_prep_on	turn	NN	P1_oven
+4-6	to	O	O	O	O
+4-7	350	O	O	CD	P1_temperature
+4-8	in	4-13_mark	preheat	IN	O
+4-9	order	4-13_dep	preheat	NN	O
+4-10	for	4-13_mark	preheat	IN	O
+4-11	it	4-13_nsubj	preheat	PRP	P1_oven
+4-12	to	4-13_aux	preheat	TO	O
+4-13	preheat	4-2_advcl	turn	VB	O
+4-14	while	4-17_mark	preparing	IN	O
+4-15	I	4-17_nsubj	preparing	PRP	P1_cook
+4-16	am	4-17_aux	preparing	VBP	O
+4-17	preparing	4-13_advcl	preheat	VBG	O
+4-18	the	O	O	DT	O
+4-19	batter	4-17_dobj	preparing	NN	P1_dough
+4-20	.	O	O	O	O
+
+#id=5
+#text=I get out my bunt pan and spray it with cooking oil . 
+5-1	I	5-2_nsubj	get	PRP	P1_cook
+5-2	get	O	O	VBP	O
+5-3	out	5-2_prt	get	RP	O
+5-4	my	O	O	PRP$	P1_cook
+5-5	bunt	5-6_nsubj	pan	NN	O
+5-6	pan	5-2_ccomp	get	VB	P1_cake_tin
+5-7	and	O	O	O	O
+5-8	spray	5-6_conj_and	pan	VB	O
+5-9	it	5-6_dobj	pan	PRP	P1_cake_tin
+5-10	with	O	O	O	O
+5-11	cooking	O	O	JJ	O
+5-12	oil	5-6_prep_with	pan	NN	P7_ingredients
+5-13	.	O	O	O	O
+
+#id=6
+#text=I put my mixer on the counter and plug it up . 
+6-1	I	6-2_nsubj	put	PRP	P1_cook
+6-2	put	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_cook
+6-4	mixer	6-2_dobj	put	NN	P3_utensil
+6-5	on	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	counter	6-2_prep_on	put	NN	P1_kitchen/location
+6-8	and	O	O	O	O
+6-9	plug	6-2_conj_and	put	VBP	O
+6-10	it	6-9_dobj	plug	PRP	P3_utensil
+6-11	up	6-9_prt	plug	RP	O
+6-12	.	O	O	O	O
+
+#id=7
+#text=I remove my mixing bowl and add each of my ingredients to the mixer ' s bowl except the eggs . 
+7-1	I	7-2_nsubj	remove	PRP	P1_cook
+7-2	remove	O	O	VB	O
+7-3	my	O	O	PRP$	P1_cook
+7-4	mixing	O	O	JJ	O
+7-5	bowl	7-2_dobj	remove	NN	P4_utensil
+7-6	and	O	O	O	O
+7-7	add	7-2_conj_and	remove	VB	O
+7-8	each	7-7_dobj	add	DT	O
+7-9	of	O	O	O	O
+7-10	my	O	O	PRP$	P1_cook
+7-11	ingredients	O	O	NNS	P1_ingredients
+7-12	to	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	mixer	O	O	NN	P3_utensil
+7-15	'	O	O	O	O
+7-16	s	O	O	JJ	O
+7-17	bowl	7-7_prep_to	add	NN	P4_utensil
+7-18	except	O	O	O	O
+7-19	the	O	O	DT	O
+7-20	eggs	7-7_prep_except	add	NNS	P4_ingredients
+7-21	.	O	O	O	O
+
+#id=8
+#text=I put the bowl back on the mixer stand and start mixing the ingredients at slow speed . 
+8-1	I	8-2_nsubj	put	PRP	P1_cook
+8-2	put	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	bowl	8-2_dobj	put	NN	P4_utensil
+8-5	back	8-2_prt	put	RP	O
+8-6	on	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	mixer	O	O	NN	O
+8-9	stand	8-2_prep_on	put	NN	P5_utensil
+8-10	and	O	O	O	O
+8-11	start	8-2_conj_and	put	VBP	O
+8-12	mixing	8-11_xcomp	start	VBG	O
+8-13	the	O	O	DT	O
+8-14	ingredients	8-12_dobj	mixing	NNS	P1_ingredients
+8-15	at	O	O	O	O
+8-16	slow	O	O	JJ	O
+8-17	speed	8-12_prep_at	mixing	NN	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=After a minute I add the eggs to the mixture one at a time and let it continue mixing for another two minutes . 
+9-1	After	O	O	O	O
+9-2	a	O	O	DT	O
+9-3	minute	9-5_prep_after	add	NN	P1_NPart_minute
+9-4	I	9-5_nsubj	add	PRP	P1_cook
+9-5	add	O	O	VBP	O
+9-6	the	O	O	DT	O
+9-7	eggs	9-5_dobj	add	NNS	P4_ingredients
+9-8	to	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	mixture	O	O	NN	P1_dough
+9-11	one	9-5_prep_to	add	NN	O
+9-12	at	O	O	O	O
+9-13	a	O	O	DT	O
+9-14	time	O	O	NN	O
+9-15	and	O	O	O	O
+9-16	let	9-5_conj_and	add	VBD	O
+9-17	it	9-18_nsubj	continue	PRP	P1_dough
+9-18	continue	9-16_ccomp	let	VBP	O
+9-19	mixing	9-18_xcomp	continue	VBG	O
+9-20	for	O	O	O	O
+9-21	another	O	O	DT	O
+9-22	two	O	O	CD	O
+9-23	minutes	9-19_prep_for	mixing	NNS	P1_time
+9-24	.	O	O	O	O
+
+#id=10
+#text=Then I pour my cake batter into the bunt pan and put it in the oven for an hour . 
+10-1	Then	10-3_advmod	pour	RB	O
+10-2	I	10-3_nsubj	pour	PRP	P1_cook
+10-3	pour	O	O	VBP	O
+10-4	my	O	O	PRP$	P1_cook
+10-5	cake	O	O	NN	O
+10-6	batter	10-3_dobj	pour	NN	P1_dough
+10-7	into	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	bunt	O	O	NN	O
+10-10	pan	10-3_prep_into	pour	NN	P1_cake_tin
+10-11	and	O	O	O	O
+10-12	put	10-3_conj_and	pour	VBD	O
+10-13	it	10-12_dobj	put	PRP	P1_cake_tin
+10-14	in	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	oven	10-12_prep_in	put	NN	P1_oven
+10-17	for	O	O	O	O
+10-18	an	O	O	DT	O
+10-19	hour	O	O	NN	P2_time
+10-20	.	O	O	O	O
+
+#id=11
+#text=After an hour I take it out . 
+11-1	After	O	O	O	O
+11-2	an	O	O	DT	O
+11-3	hour	11-5_prep_after	take	NN	P2_time
+11-4	I	11-5_nsubj	take	PRP	P1_cook
+11-5	take	O	O	VBP	O
+11-6	it	11-5_dobj	take	PRP	P1_cake_tin
+11-7	out	11-5_prt	take	RP	O
+11-8	.	O	O	O	O
+
+#id=12
+#text=I place a plate on top of my bunt pan and then turn it upside down so that the cake is now on the plate . 
+12-1	I	12-2_nsubj	place	PRP	P1_cook
+12-2	place	O	O	VBP	O
+12-3	a	O	O	DT	O
+12-4	plate	12-10_nsubj	pan	NN	P6_utensil
+12-5	on	O	O	O	O
+12-6	top	O	O	O	O
+12-7	of	O	O	O	O
+12-8	my	O	O	PRP$	P1_cook
+12-9	bunt	O	O	NN	O
+12-10	pan	12-2_ccomp	place	VB	P1_cake_tin
+12-11	and	O	O	O	O
+12-12	then	12-13_advmod	turn	RB	O
+12-13	turn	12-10_conj_and	pan	VB	O
+12-14	it	12-13_dobj	turn	PRP	P1_cake_tin
+12-15	upside	O	O	RB	O
+12-16	down	O	O	RB	O
+12-17	so	12-13_advmod	turn	RB	O
+12-18	that	12-21_mark	is	IN	O
+12-19	the	O	O	DT	O
+12-20	cake	12-21_nsubj	is	NN	P1_cake
+12-21	is	12-13_ccomp	turn	VBZ	O
+12-22	now	12-21_advmod	is	RB	O
+12-23	on	O	O	O	O
+12-24	the	O	O	DT	O
+12-25	plate	12-21_prep_on	is	NN	P6_utensil
+12-26	.	O	O	O	O
+
+#id=13
+#text=I let the cake sit for two hours . 
+13-1	I	13-2_nsubj	let	PRP	P1_cook
+13-2	let	O	O	VBD	O
+13-3	the	O	O	DT	O
+13-4	cake	13-5_nsubj	sit	NN	P1_cake
+13-5	sit	13-2_ccomp	let	VBP	O
+13-6	for	O	O	O	O
+13-7	two	O	O	CD	O
+13-8	hours	13-5_prep_for	sit	NNS	P3_time
+13-9	.	O	O	O	O
+
+#id=14
+#text=Now I ' m going to put lemon icing on it that I bought from the store already prepared . 
+14-1	Now	14-4_advmod	m	RB	O
+14-2	I	14-4_nsubj	m	PRP	P1_cook
+14-3	'	O	O	O	O
+14-4	m	O	O	VBP	O
+14-5	going	14-4_xcomp	m	VBG	O
+14-6	to	14-7_aux	put	TO	O
+14-7	put	14-5_xcomp	going	VB	O
+14-8	lemon	O	O	JJ	O
+14-9	icing	14-7_dobj	put	NN	P8_ingredients
+14-10	on	O	O	O	O
+14-11	it	14-7_prep_on	put	PRP	P1_cake
+14-12	that	14-14_mark	bought	IN	O
+14-13	I	14-14_nsubj	bought	PRP	P1_cook
+14-14	bought	14-7_ccomp	put	VBD	O
+14-15	from	O	O	O	O
+14-16	the	O	O	DT	O
+14-17	store	14-14_prep_from	bought	NN	P1_store
+14-18	already	14-19_advmod	prepared	RB	O
+14-19	prepared	O	O	VBN	O
+14-20	.	O	O	O	O
+
+#id=15
+#text=I get a spatula and open the icing . 
+15-1	I	15-2_nsubj	get	PRP	P1_cook
+15-2	get	O	O	VB	O
+15-3	a	O	O	DT	O
+15-4	spatula	15-2_dobj	get	NN	P7_utensil
+15-5	and	O	O	O	O
+15-6	open	15-2_conj_and	get	VB	O
+15-7	the	O	O	DT	O
+15-8	icing	15-6_dobj	open	NN	P8_ingredients
+15-9	.	O	O	O	O
+
+#id=16
+#text=I use the spatula to spread the icing evenly all over the cake . 
+16-1	I	16-2_nsubj	use	PRP	P1_cook
+16-2	use	O	O	VBP	O
+16-3	the	O	O	DT	O
+16-4	spatula	16-2_dobj	use	NN	P7_utensil
+16-5	to	16-6_aux	spread	TO	O
+16-6	spread	16-2_xcomp	use	VB	O
+16-7	the	O	O	DT	O
+16-8	icing	16-6_dobj	spread	NN	P8_ingredients
+16-9	evenly	O	O	RB	O
+16-10	all	16-6_advmod	spread	RB	O
+16-11	over	O	O	O	O
+16-12	the	O	O	DT	O
+16-13	cake	16-6_prep_over	spread	NN	P1_cake
+16-14	.	O	O	O	O
+
+#id=17
+#text=Now it is ready to eat . 
+17-1	Now	O	O	RB	O
+17-2	it	O	O	PRP	P1_cake
+17-3	is	O	O	VBZ	O
+17-4	ready	O	O	JJ	O
+17-5	to	17-6_aux	eat	TO	O
+17-6	eat	O	O	VB	O
+17-7	.	O	O	O	O

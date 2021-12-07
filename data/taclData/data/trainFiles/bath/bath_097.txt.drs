@@ -1,0 +1,211 @@
+#id=1
+#text=There 's nothing I love more after a long day at work then to come home to a warm bath . 
+1-1	There	1-2_expl	's	EX	O
+1-2	's	O	O	VBZ	O
+1-3	nothing	1-2_nsubj	's	NN	O
+1-4	I	1-5_nsubj	love	PRP	P1_bather
+1-5	love	O	O	VBP	O
+1-6	more	1-5_advmod	love	RBR	O
+1-7	after	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	long	O	O	JJ	O
+1-10	day	1-5_prep_after	love	NN	P1_NPart_day
+1-11	at	O	O	O	O
+1-12	work	O	O	NN	P1_NPart_work
+1-13	then	1-15_advmod	come	RB	O
+1-14	to	1-15_aux	come	TO	O
+1-15	come	1-5_xcomp	love	VB	O
+1-16	home	1-15_dobj	come	NN	P1_NPart_home
+1-17	to	O	O	O	O
+1-18	a	O	O	DT	O
+1-19	warm	O	O	JJ	O
+1-20	bath	1-15_prep_to	come	NN	P1_bath
+1-21	.	O	O	O	O
+
+#id=2
+#text=Most people think that taking a bath is a simple process . 
+2-1	Most	O	O	JJS	O
+2-2	people	2-3_nsubj	think	NNS	P1_NPart_people
+2-3	think	O	O	VBP	O
+2-4	that	O	O	IN	O
+2-5	taking	O	O	VBG	O
+2-6	a	O	O	DT	O
+2-7	bath	2-5_dobj	taking	NN	P1_bath
+2-8	is	O	O	VBZ	O
+2-9	a	O	O	DT	O
+2-10	simple	O	O	JJ	O
+2-11	process	2-3_ccomp	think	NN	P1_NPart_process
+2-12	.	O	O	O	O
+
+#id=3
+#text=Oh how they are wrong . 
+3-1	Oh	O	O	VB	O
+3-2	how	O	O	WRB	O
+3-3	they	O	O	PRP	P1_NPart_they
+3-4	are	O	O	VBP	O
+3-5	wrong	3-1_ccomp	Oh	JJ	O
+3-6	.	O	O	O	O
+
+#id=4
+#text=Taking a bath is actually a long process involving many steps . 
+4-1	Taking	O	O	VBG	O
+4-2	a	O	O	DT	O
+4-3	bath	4-1_dobj	Taking	NN	P1_bath
+4-4	is	O	O	VBZ	O
+4-5	actually	O	O	RB	O
+4-6	a	O	O	DT	O
+4-7	long	O	O	JJ	O
+4-8	process	O	O	NN	P2_NPart_process
+4-9	involving	O	O	O	O
+4-10	many	O	O	JJ	O
+4-11	steps	O	O	NNS	P1_NPart_steps
+4-12	.	O	O	O	O
+
+#id=5
+#text=First I must start drawing the water which is a challenge in itself as I want to make sure it warm , but not too warm . 
+5-1	First	5-4_advmod	start	RB	O
+5-2	I	5-4_nsubj	start	PRP	P1_bather
+5-3	must	5-4_aux	start	MD	O
+5-4	start	O	O	VB	O
+5-5	drawing	5-4_xcomp	start	VBG	O
+5-6	the	O	O	DT	O
+5-7	water	5-5_dobj	drawing	NN	P1_water
+5-8	which	O	O	WDT	O
+5-9	is	O	O	VBZ	O
+5-10	a	O	O	DT	O
+5-11	challenge	O	O	NN	P1_NPart_challenge
+5-12	in	O	O	O	O
+5-13	itself	O	O	PRP	O
+5-14	as	5-16_mark	want	IN	O
+5-15	I	5-16_nsubj	want	PRP	P1_bather
+5-16	want	5-4_advcl	start	VBP	O
+5-17	to	5-18_aux	make	TO	O
+5-18	make	5-16_xcomp	want	VB	O
+5-19	sure	5-18_acomp	make	JJ	O
+5-20	it	5-21_nsubj	warm	PRP	P1_water
+5-21	warm	5-18_ccomp	make	VB	O
+5-22	,	O	O	O	O
+5-23	but	O	O	O	O
+5-24	not	O	O	RB	O
+5-25	too	O	O	RB	O
+5-26	warm	5-21_conj_but	warm	JJ	O
+5-27	.	O	O	O	O
+
+#id=6
+#text=Next as the water is still running I add a little bit of bubble soap for the added benefits . 
+6-1	Next	6-7_nsubj	running	NNP	O
+6-2	as	O	O	O	O
+6-3	the	O	O	DT	O
+6-4	water	O	O	NN	P1_water
+6-5	is	6-7_aux	running	VBZ	O
+6-6	still	6-7_advmod	running	RB	O
+6-7	running	O	O	VBG	O
+6-8	I	6-9_nsubj	add	PRP	P1_bather
+6-9	add	6-7_ccomp	running	VB	O
+6-10	a	O	O	DT	O
+6-11	little	O	O	JJ	O
+6-12	bit	6-9_dobj	add	NN	O
+6-13	of	O	O	O	O
+6-14	bubble	O	O	NN	O
+6-15	soap	O	O	NN	P1_bath_means
+6-16	for	O	O	O	O
+6-17	the	O	O	DT	O
+6-18	added	O	O	VBN	O
+6-19	benefits	O	O	NNS	P1_NPart_benefits
+6-20	.	O	O	O	O
+
+#id=7
+#text=But I do n't just want bubbles I want a relaxing aromatherapy . 
+7-1	But	7-6_cc	want	CC	O
+7-2	I	7-6_nsubj	want	PRP	P1_bather
+7-3	do	7-6_aux	want	VBP	O
+7-4	n't	7-6_neg	want	RB	O
+7-5	just	7-6_advmod	want	RB	O
+7-6	want	O	O	VB	O
+7-7	bubbles	7-6_dobj	want	NNS	P1_bath_means
+7-8	I	7-9_nsubj	want	PRP	P1_bather
+7-9	want	O	O	VBP	O
+7-10	a	O	O	DT	O
+7-11	relaxing	O	O	JJ	O
+7-12	aromatherapy	7-9_dobj	want	NN	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=With this in mind I add a little bit of essential oils and minerals . 
+8-1	With	O	O	O	O
+8-2	this	8-6_prep_with	add	DT	O
+8-3	in	O	O	O	O
+8-4	mind	O	O	NN	O
+8-5	I	8-6_nsubj	add	PRP	P1_bather
+8-6	add	O	O	VBP	O
+8-7	a	O	O	DT	O
+8-8	little	O	O	JJ	O
+8-9	bit	8-6_dobj	add	NN	O
+8-10	of	O	O	O	O
+8-11	essential	O	O	JJ	O
+8-12	oils	O	O	NNS	P2_bath_means
+8-13	and	O	O	O	O
+8-14	minerals	O	O	NNS	P3_bath_means
+8-15	.	O	O	O	O
+
+#id=9
+#text=Finally I am ready to get into the water . 
+9-1	Finally	O	O	RB	O
+9-2	I	O	O	PRP	P1_bather
+9-3	am	O	O	VBP	O
+9-4	ready	O	O	JJ	O
+9-5	to	9-6_aux	get	TO	O
+9-6	get	O	O	VB	O
+9-7	into	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	water	9-6_prep_into	get	NN	P1_water
+9-10	.	O	O	O	O
+
+#id=10
+#text=But this is nowhere near the end of the process . 
+10-1	But	10-3_cc	is	CC	O
+10-2	this	10-3_nsubj	is	DT	O
+10-3	is	O	O	VBZ	O
+10-4	nowhere	10-3_advmod	is	RB	O
+10-5	near	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	end	10-3_prep_near	is	NN	O
+10-8	of	O	O	O	O
+10-9	the	O	O	DT	O
+10-10	process	O	O	NN	P3_NPart_process
+10-11	.	O	O	O	O
+
+#id=11
+#text=Now I relax in the water while reading my novel and letting the oils soak into my skin . 
+11-1	Now	11-3_advmod	relax	RB	O
+11-2	I	11-3_nsubj	relax	PRP	P1_bather
+11-3	relax	O	O	VBP	O
+11-4	in	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	water	11-3_prep_in	relax	NN	P1_water
+11-7	while	11-8_mark	reading	IN	O
+11-8	reading	11-3_advcl	relax	VBG	O
+11-9	my	O	O	PRP$	P1_bather
+11-10	novel	11-8_dobj	reading	NN	P1_in-bath_entertainment
+11-11	and	O	O	O	O
+11-12	letting	11-8_conj_and	reading	VBG	O
+11-13	the	O	O	DT	O
+11-14	oils	11-15_nsubj	soak	NNS	P2_bath_means
+11-15	soak	11-12_ccomp	letting	VB	O
+11-16	into	O	O	O	O
+11-17	my	O	O	PRP$	P1_bather
+11-18	skin	11-15_prep_into	soak	NN	P1_body_part
+11-19	.	O	O	O	O
+
+#id=12
+#text=Ah this is how we are meant to relax . 
+12-1	Ah	12-3_advmod	is	RB	O
+12-2	this	12-3_nsubj	is	DT	O
+12-3	is	O	O	VBZ	O
+12-4	how	12-7_advmod	meant	WRB	O
+12-5	we	12-7_nsubjpass	meant	PRP	P1_NPart_we
+12-6	are	12-7_auxpass	meant	VBP	O
+12-7	meant	12-3_ccomp	is	VBN	O
+12-8	to	12-9_aux	relax	TO	O
+12-9	relax	12-7_xcomp	meant	VB	O
+12-10	.	O	O	O	O

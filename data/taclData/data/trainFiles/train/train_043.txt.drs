@@ -1,0 +1,217 @@
+#id=1
+#text=I entered the train depot and went up to the window . 
+1-1	I	1-2_nsubj	entered	PRP	P1_passenger
+1-2	entered	O	O	VBD	O
+1-3	the	O	O	DT	O
+1-4	train	O	O	NN	O
+1-5	depot	1-2_dobj	entered	NN	P1_train_station
+1-6	and	O	O	O	O
+1-7	went	1-2_conj_and	entered	VBD	O
+1-8	up	1-7_prt	went	RP	O
+1-9	to	O	O	O	O
+1-10	the	O	O	DT	O
+1-11	window	1-7_prep_to	went	NN	P1_ticket_office/website
+1-12	.	O	O	O	O
+
+#id=2
+#text=I asked for a ticket to Chicago . 
+2-1	I	2-2_nsubj	asked	PRP	P1_passenger
+2-2	asked	O	O	VBD	O
+2-3	for	O	O	O	O
+2-4	a	O	O	DT	O
+2-5	ticket	2-2_prep_for	asked	NN	P1_card/ticket
+2-6	to	O	O	O	O
+2-7	Chicago	2-2_prep_to	asked	NNP	P1_destination
+2-8	.	O	O	O	O
+
+#id=3
+#text=I paid for it and clerk gave me my ticket . 
+3-1	I	3-2_nsubj	paid	PRP	P1_passenger
+3-2	paid	O	O	VBD	O
+3-3	for	O	O	O	O
+3-4	it	3-2_prep_for	paid	PRP	P1_card/ticket
+3-5	and	O	O	O	O
+3-6	clerk	3-7_nsubj	gave	NN	P1_train_staff
+3-7	gave	3-2_conj_and	paid	VBD	O
+3-8	me	3-7_iobj	gave	PRP	P1_passenger
+3-9	my	O	O	PRP$	P1_passenger
+3-10	ticket	3-7_dobj	gave	NN	P1_card/ticket
+3-11	.	O	O	O	O
+
+#id=4
+#text=The train was already boarding , so I went directly to the platform and boarded . 
+4-1	The	O	O	DT	O
+4-2	train	4-5_nsubj	boarding	NN	P1_train
+4-3	was	4-5_aux	boarding	VBD	O
+4-4	already	4-5_advmod	boarding	RB	O
+4-5	boarding	O	O	VBG	O
+4-6	,	O	O	O	O
+4-7	so	4-5_dep	boarding	IN	O
+4-8	I	4-9_nsubj	went	PRP	P1_passenger
+4-9	went	4-5_parataxis	boarding	VBD	O
+4-10	directly	4-9_advmod	went	RB	O
+4-11	to	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	platform	4-9_prep_to	went	NN	P1_platform
+4-14	and	O	O	O	O
+4-15	boarded	4-9_conj_and	went	VBD	O
+4-16	.	O	O	O	O
+
+#id=5
+#text=I went down the aisle and found an empty seat . 
+5-1	I	5-2_nsubj	went	PRP	P1_passenger
+5-2	went	O	O	VBD	O
+5-3	down	5-2_prt	went	RP	O
+5-4	the	O	O	DT	O
+5-5	aisle	5-2_dobj	went	NN	P1_coach
+5-6	and	O	O	O	O
+5-7	found	5-2_conj_and	went	VBD	O
+5-8	an	O	O	DT	O
+5-9	empty	O	O	JJ	O
+5-10	seat	5-7_dobj	found	NN	P1_seat
+5-11	.	O	O	O	O
+
+#id=6
+#text=The train pulled out of the station . 
+6-1	The	O	O	DT	O
+6-2	train	6-3_nsubj	pulled	NN	P1_train
+6-3	pulled	O	O	VBD	O
+6-4	out	O	O	O	O
+6-5	of	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	station	6-3_prep_out_of	pulled	NN	P1_train_station
+6-8	.	O	O	O	O
+
+#id=7
+#text=After a few minutes , the conductor came by and checked my ticket , punching it with a small hole punch . 
+7-1	After	O	O	O	O
+7-2	a	O	O	DT	O
+7-3	few	O	O	JJ	O
+7-4	minutes	7-8_prep_after	came	NNS	P1_NPart_minutes
+7-5	,	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	conductor	7-8_nsubj	came	NN	P2_train_staff
+7-8	came	O	O	VBD	O
+7-9	by	7-8_prep	came	IN	O
+7-10	and	O	O	O	O
+7-11	checked	7-8_conj_and	came	VBD	O
+7-12	my	O	O	PRP$	P1_passenger
+7-13	ticket	7-11_dobj	checked	NN	P1_card/ticket
+7-14	,	O	O	O	O
+7-15	punching	7-8_vmod	came	VBG	O
+7-16	it	7-15_dobj	punching	PRP	P1_card/ticket
+7-17	with	O	O	O	O
+7-18	a	O	O	DT	O
+7-19	small	O	O	JJ	O
+7-20	hole	O	O	NN	O
+7-21	punch	7-15_prep_with	punching	NN	P1_NPart_punch
+7-22	.	O	O	O	O
+
+#id=8
+#text=I looked out the window . 
+8-1	I	8-2_nsubj	looked	PRP	P1_passenger
+8-2	looked	O	O	VBD	O
+8-3	out	8-2_prt	looked	RP	O
+8-4	the	O	O	DT	O
+8-5	window	8-2_dobj	looked	NN	P1_in-train_entertainment
+8-6	.	O	O	O	O
+
+#id=9
+#text=People 's houses and huge warehouses passed by . 
+9-1	People	O	O	NNS	P1_NPart_people
+9-2	's	O	O	O	O
+9-3	houses	9-7_nsubj	passed	NNS	P1_NPart_houses
+9-4	and	O	O	O	O
+9-5	huge	O	O	JJ	O
+9-6	warehouses	O	O	NNS	P1_NPart_warehouses
+9-7	passed	O	O	VBD	O
+9-8	by	9-7_prep	passed	IN	O
+9-9	.	O	O	O	O
+
+#id=10
+#text=Later , as we got into the country , I saw a cow or two . 
+10-1	Later	10-11_advmod	saw	RB	O
+10-2	,	O	O	O	O
+10-3	as	10-5_mark	got	IN	O
+10-4	we	10-5_nsubj	got	PRP	P2_passenger
+10-5	got	10-11_advcl	saw	VBD	O
+10-6	into	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	country	10-5_prep_into	got	NN	P1_location_train
+10-9	,	O	O	O	O
+10-10	I	10-11_nsubj	saw	PRP	P1_passenger
+10-11	saw	O	O	VBD	O
+10-12	a	O	O	DT	O
+10-13	cow	10-11_dobj	saw	NN	P1_NPart_cow
+10-14	or	O	O	O	O
+10-15	two	O	O	CD	O
+10-16	.	O	O	O	O
+
+#id=11
+#text=After about a half hour we pulled into the station in Chicago . 
+11-1	After	O	O	O	O
+11-2	about	O	O	RB	O
+11-3	a	O	O	DT	O
+11-4	half	O	O	NN	O
+11-5	hour	11-7_prep_after	pulled	NN	P1_time_date
+11-6	we	11-7_nsubj	pulled	PRP	P2_passenger
+11-7	pulled	O	O	VBD	O
+11-8	into	O	O	O	O
+11-9	the	O	O	DT	O
+11-10	station	11-7_prep_into	pulled	NN	P1_train_station
+11-11	in	O	O	O	O
+11-12	Chicago	11-7_prep_in	pulled	NNP	P1_destination
+11-13	.	O	O	O	O
+
+#id=12
+#text=The train pulled and stopped rather suddenly , throwing me forward a bit . 
+12-1	The	O	O	DT	O
+12-2	train	12-3_nsubj	pulled	NN	P1_train
+12-3	pulled	O	O	VBD	O
+12-4	and	O	O	O	O
+12-5	stopped	12-3_conj_and	pulled	VBD	O
+12-6	rather	12-5_prep	stopped	RB	O
+12-7	suddenly	O	O	RB	O
+12-8	,	O	O	O	O
+12-9	throwing	12-5_xcomp	stopped	VBG	O
+12-10	me	12-9_dobj	throwing	PRP	P1_passenger
+12-11	forward	12-9_advmod	throwing	RB	O
+12-12	a	O	O	DT	O
+12-13	bit	O	O	RB	O
+12-14	.	O	O	O	O
+
+#id=13
+#text=I got up and went down the aisle and exited the train , stepping down to the platform and exiting the station . 
+13-1	I	13-2_nsubj	got	PRP	P1_passenger
+13-2	got	O	O	VBD	O
+13-3	up	13-2_prt	got	RP	O
+13-4	and	O	O	O	O
+13-5	went	13-2_conj_and	got	VBD	O
+13-6	down	13-5_prt	went	RP	O
+13-7	the	O	O	DT	O
+13-8	aisle	13-5_dobj	went	NN	P1_coach
+13-9	and	O	O	O	O
+13-10	exited	13-5_conj_and	went	VBD	O
+13-11	the	O	O	DT	O
+13-12	train	13-10_dobj	exited	NN	P1_train
+13-13	,	O	O	O	O
+13-14	stepping	13-2_ccomp	got	VBG	O
+13-15	down	13-14_prt	stepping	RP	O
+13-16	to	O	O	O	O
+13-17	the	O	O	DT	O
+13-18	platform	13-14_prep_to	stepping	NN	P1_platform
+13-19	and	O	O	O	O
+13-20	exiting	13-14_conj_and	stepping	VBG	O
+13-21	the	O	O	DT	O
+13-22	station	13-20_dobj	exiting	NN	P1_train_station
+13-23	.	O	O	O	O
+
+#id=14
+#text=Windy City , here I come ! 
+14-1	Windy	O	O	NNP	O
+14-2	City	14-6_nsubj	come	NNP	P1_destination
+14-3	,	O	O	O	O
+14-4	here	O	O	RB	O
+14-5	I	14-6_nsubj	come	PRP	P1_passenger
+14-6	come	O	O	VBP	O
+14-7	!	O	O	O	O

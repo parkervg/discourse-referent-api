@@ -1,0 +1,191 @@
+#id=1
+#text=As I was looking in my cabinets and fridge for something to fix for my families supper I realized that a trip to get groceries was very much needed as I was low on food supplies . 
+1-1	As	1-4_mark	looking	IN	O
+1-2	I	1-4_nsubj	looking	PRP	P1_shopper
+1-3	was	1-4_aux	looking	VBD	O
+1-4	looking	1-19_advcl	realized	VBG	O
+1-5	in	O	O	O	O
+1-6	my	O	O	PRP$	P1_shopper
+1-7	cabinets	1-4_prep_in	looking	NNS	P1_NPart_cabinets
+1-8	and	O	O	O	O
+1-9	fridge	O	O	NN	P1_NPart_fridge
+1-10	for	O	O	O	O
+1-11	something	O	O	NN	P1_NPart_something
+1-12	to	1-13_aux	fix	TO	O
+1-13	fix	1-4_xcomp	looking	VB	O
+1-14	for	O	O	O	O
+1-15	my	O	O	PRP$	P1_shopper
+1-16	families	O	O	NNS	O
+1-17	supper	1-13_prep_for	fix	NN	P1_NPart_supper
+1-18	I	1-19_nsubj	realized	PRP	P1_shopper
+1-19	realized	O	O	VBD	O
+1-20	that	1-29_mark	needed	IN	O
+1-21	a	O	O	DT	O
+1-22	trip	1-29_nsubjpass	needed	NN	P1_NPart_trip
+1-23	to	1-24_aux	get	TO	O
+1-24	get	O	O	VB	O
+1-25	groceries	1-24_dobj	get	NNS	P1_groceries
+1-26	was	1-29_auxpass	needed	VBD	O
+1-27	very	O	O	RB	O
+1-28	much	1-29_advmod	needed	RB	O
+1-29	needed	1-19_ccomp	realized	VBN	O
+1-30	as	O	O	IN	O
+1-31	I	O	O	PRP	P1_shopper
+1-32	was	O	O	VBD	O
+1-33	low	1-29_advcl	needed	JJ	O
+1-34	on	O	O	O	O
+1-35	food	O	O	NN	O
+1-36	supplies	O	O	NNS	P2_groceries
+1-37	.	O	O	O	O
+
+#id=2
+#text=I grabbed a pen and paoper and made me a list of all that was needed . 
+2-1	I	2-2_nsubj	grabbed	PRP	P1_shopper
+2-2	grabbed	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	pen	2-2_dobj	grabbed	NN	P1_NPart_pen
+2-5	and	O	O	O	O
+2-6	paoper	O	O	NN	P1_NPart_paoper
+2-7	and	O	O	O	O
+2-8	made	2-2_conj_and	grabbed	VBD	O
+2-9	me	O	O	PRP	P1_shopper
+2-10	a	O	O	DT	O
+2-11	list	2-8_xcomp	made	NN	P1_grocery_list
+2-12	of	O	O	O	O
+2-13	all	O	O	DT	P3_groceries
+2-14	that	2-16_nsubjpass	needed	WDT	O
+2-15	was	2-16_auxpass	needed	VBD	O
+2-16	needed	O	O	VBN	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=I then got dressed and ready . 
+3-1	I	3-3_nsubj	got	PRP	P1_shopper
+3-2	then	3-3_advmod	got	RB	O
+3-3	got	O	O	VBD	O
+3-4	dressed	3-3_dep	got	VBN	O
+3-5	and	O	O	O	O
+3-6	ready	3-4_conj_and	dressed	JJ	O
+3-7	.	O	O	O	O
+
+#id=4
+#text=I inspected my handgun to make sure it was cocked , locked and loaded and placed it securely on my right hip . 
+4-1	I	4-2_nsubj	inspected	PRP	P1_shopper
+4-2	inspected	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_shopper
+4-4	handgun	4-2_dobj	inspected	NN	P1_NPart_it
+4-5	to	4-6_aux	make	TO	O
+4-6	make	O	O	VB	O
+4-7	sure	4-6_acomp	make	JJ	O
+4-8	it	4-10_nsubjpass	cocked	PRP	P1_NPart_it
+4-9	was	4-10_auxpass	cocked	VBD	O
+4-10	cocked	O	O	VBN	O
+4-11	,	O	O	O	O
+4-12	locked	4-10_conj_and	cocked	VBN	O
+4-13	and	O	O	O	O
+4-14	loaded	4-10_conj_and	cocked	VBN	O
+4-15	and	O	O	O	O
+4-16	placed	4-10_conj_and	cocked	VBN	O
+4-17	it	4-10_dobj	cocked	PRP	P1_NPart_it
+4-18	securely	4-6_advmod	make	RB	O
+4-19	on	O	O	O	O
+4-20	my	O	O	PRP$	P1_shopper
+4-21	right	O	O	JJ	O
+4-22	hip	O	O	NN	P1_NPart_hip
+4-23	.	O	O	O	O
+
+#id=5
+#text=I then made sure I had a extra magazine of ammunition in my left hand pant pocket . 
+5-1	I	5-3_nsubj	made	PRP	P1_shopper
+5-2	then	5-3_advmod	made	RB	O
+5-3	made	O	O	VBD	O
+5-4	sure	5-3_acomp	made	JJ	O
+5-5	I	5-6_nsubj	had	PRP	P1_shopper
+5-6	had	O	O	VBD	O
+5-7	a	O	O	DT	O
+5-8	extra	O	O	JJ	O
+5-9	magazine	5-6_dobj	had	NN	P1_NPart_magazine
+5-10	of	O	O	O	O
+5-11	ammunition	O	O	NN	P1_NPart_ammunition
+5-12	in	O	O	O	O
+5-13	my	O	O	PRP$	P1_shopper
+5-14	left	O	O	JJ	O
+5-15	hand	O	O	NN	O
+5-16	pant	O	O	NN	O
+5-17	pocket	5-6_prep_in	had	NN	P1_NPart_pocket
+5-18	.	O	O	O	O
+
+#id=6
+#text=All that being good I got in the car and off to the store I went . 
+6-1	All	O	O	PDT	O
+6-2	that	O	O	DT	O
+6-3	being	O	O	VBG	O
+6-4	good	O	O	JJ	O
+6-5	I	6-6_nsubj	got	PRP	P1_shopper
+6-6	got	O	O	VBD	O
+6-7	in	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	car	6-6_prep_in	got	NN	P1_vehicle
+6-10	and	O	O	O	O
+6-11	off	6-16_advmod	went	RB	O
+6-12	to	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	store	O	O	NN	P1_grocery_shop
+6-15	I	6-16_nsubj	went	PRP	P1_shopper
+6-16	went	O	O	VBD	O
+6-17	.	O	O	O	O
+
+#id=7
+#text=I always start by getting the dry and canned goods first so that my perishables will stay fresh until I get them home . 
+7-1	I	7-3_nsubj	start	PRP	P1_shopper
+7-2	always	7-3_advmod	start	RB	O
+7-3	start	O	O	VBP	O
+7-4	by	O	O	O	O
+7-5	getting	7-3_prepc_by	start	VBG	O
+7-6	the	O	O	DT	O
+7-7	dry	O	O	JJ	O
+7-8	and	O	O	O	O
+7-9	canned	O	O	JJ	O
+7-10	goods	O	O	NNS	P4_groceries
+7-11	first	7-5_xcomp	getting	JJ	O
+7-12	so	O	O	RB	O
+7-13	that	7-17_mark	stay	IN	O
+7-14	my	O	O	PRP$	P1_shopper
+7-15	perishables	7-17_nsubj	stay	NNS	P5_groceries
+7-16	will	7-17_aux	stay	MD	O
+7-17	stay	O	O	VB	O
+7-18	fresh	7-17_acomp	stay	JJ	O
+7-19	until	7-21_mark	get	IN	O
+7-20	I	7-21_nsubj	get	PRP	P1_shopper
+7-21	get	7-17_advcl	stay	VBP	O
+7-22	them	7-21_dobj	get	PRP	P5_groceries
+7-23	home	7-21_advmod	get	RB	P1_other
+7-24	.	O	O	O	O
+
+#id=8
+#text=So many canned items , dry items , then meats and ice cream and frozen goods later I went home and put everything away . 
+8-1	So	8-19_advmod	went	RB	O
+8-2	many	O	O	JJ	O
+8-3	canned	O	O	JJ	O
+8-4	items	8-19_nsubj	went	NNS	P6_groceries
+8-5	,	O	O	O	O
+8-6	dry	O	O	JJ	O
+8-7	items	O	O	NNS	P7_groceries
+8-8	,	O	O	O	O
+8-9	then	8-19_advmod	went	RB	O
+8-10	meats	O	O	NNS	P8_groceries
+8-11	and	O	O	O	O
+8-12	ice	O	O	NN	O
+8-13	cream	O	O	NN	P9_groceries
+8-14	and	O	O	O	O
+8-15	frozen	O	O	JJ	O
+8-16	goods	O	O	NNS	P10_groceries
+8-17	later	8-19_advmod	went	RB	O
+8-18	I	8-19_nsubj	went	PRP	P1_shopper
+8-19	went	O	O	VBD	O
+8-20	home	O	O	NN	P1_other
+8-21	and	O	O	O	O
+8-22	put	O	O	NN	O
+8-23	everything	8-19_dobj	went	NN	P11_groceries
+8-24	away	8-19_advmod	went	RB	O
+8-25	.	O	O	O	O

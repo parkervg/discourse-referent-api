@@ -1,0 +1,243 @@
+#id=1
+#text=Every Sunday , I love to bake cake for a family dessert . 
+1-1	Every	O	O	DT	O
+1-2	Sunday	1-5_tmod	love	NNP	P1_NPart_sunday
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	love	PRP	P1_cook
+1-5	love	O	O	VBP	O
+1-6	to	1-7_aux	bake	TO	O
+1-7	bake	1-5_xcomp	love	VB	O
+1-8	cake	1-7_dobj	bake	NN	P1_cake
+1-9	for	O	O	O	O
+1-10	a	O	O	DT	O
+1-11	family	O	O	NN	P1_NPart_family
+1-12	dessert	1-7_prep_for	bake	NN	P1_NPart_dessert
+1-13	.	O	O	O	O
+
+#id=2
+#text=But before I bake my cake , I make sure I go to the supermarket to get all of my ingredients . 
+2-1	But	2-9_cc	make	CC	O
+2-2	before	2-4_mark	bake	IN	O
+2-3	I	2-4_nsubj	bake	PRP	P1_cook
+2-4	bake	2-9_advcl	make	VBP	O
+2-5	my	O	O	PRP$	P2_cook
+2-6	cake	2-4_dobj	bake	NN	P1_cake
+2-7	,	O	O	O	O
+2-8	I	2-9_nsubj	make	PRP	P1_cook
+2-9	make	O	O	VBP	O
+2-10	sure	2-9_acomp	make	JJ	O
+2-11	I	2-12_nsubj	go	PRP	P1_cook
+2-12	go	O	O	VBP	O
+2-13	to	O	O	O	O
+2-14	the	O	O	DT	O
+2-15	supermarket	2-12_prep_to	go	NN	P1_store
+2-16	to	2-17_aux	get	TO	O
+2-17	get	O	O	VB	O
+2-18	all	2-17_dobj	get	DT	O
+2-19	of	O	O	O	O
+2-20	my	O	O	PRP$	P1_cook
+2-21	ingredients	O	O	NNS	P1_ingredients
+2-22	.	O	O	O	O
+
+#id=3
+#text=My ingredients include baking powder , milk , eggs , sugar , and the list continues . 
+3-1	My	O	O	PRP$	P1_cook
+3-2	ingredients	3-3_nsubj	include	NNS	P1_ingredients
+3-3	include	O	O	VBP	O
+3-4	baking	O	O	JJ	O
+3-5	powder	3-16_nsubj	continues	NN	P2_ingredients
+3-6	,	O	O	O	O
+3-7	milk	O	O	NN	P3_ingredients
+3-8	,	O	O	O	O
+3-9	eggs	O	O	NNS	P4_ingredients
+3-10	,	O	O	O	O
+3-11	sugar	O	O	NN	P5_ingredients
+3-12	,	O	O	O	O
+3-13	and	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	list	O	O	NN	P1_NPart_list
+3-16	continues	3-3_ccomp	include	VBZ	O
+3-17	.	O	O	O	O
+
+#id=4
+#text=Once I purchase all of my ingredients , I go home and get my electric appliances such as mixer and other tools ready to use . 
+4-1	Once	4-3_mark	purchase	IN	O
+4-2	I	4-3_nsubj	purchase	PRP	P1_cook
+4-3	purchase	4-10_advcl	go	VBP	O
+4-4	all	4-3_dobj	purchase	DT	O
+4-5	of	O	O	O	O
+4-6	my	O	O	PRP$	P1_cook
+4-7	ingredients	O	O	NNS	P1_ingredients
+4-8	,	O	O	O	O
+4-9	I	4-10_nsubj	go	PRP	P1_cook
+4-10	go	O	O	VB	O
+4-11	home	4-10_dobj	go	NN	P1_kitchen/location
+4-12	and	O	O	O	O
+4-13	get	4-10_conj_and	go	VB	O
+4-14	my	O	O	PRP$	P1_cook
+4-15	electric	O	O	JJ	O
+4-16	appliances	O	O	NNS	P1_utensil
+4-17	such	O	O	O	O
+4-18	as	O	O	O	O
+4-19	mixer	O	O	NN	O
+4-20	and	O	O	O	O
+4-21	other	O	O	JJ	O
+4-22	tools	O	O	NNS	P1_utensil
+4-23	ready	4-13_xcomp	get	JJ	O
+4-24	to	4-25_aux	use	TO	O
+4-25	use	O	O	VB	O
+4-26	.	O	O	O	O
+
+#id=5
+#text=Now , I 'm ready to finally bake ! 
+5-1	Now	O	O	RB	O
+5-2	,	O	O	O	O
+5-3	I	O	O	PRP	P1_cook
+5-4	'm	O	O	VBP	O
+5-5	ready	O	O	JJ	O
+5-6	to	5-8_aux	bake	TO	O
+5-7	finally	5-8_advmod	bake	RB	O
+5-8	bake	O	O	VB	O
+5-9	!	O	O	O	O
+
+#id=6
+#text=It 's usually very fun to bake a cake because I bake with my sister . 
+6-1	It	O	O	PRP	O
+6-2	's	O	O	VBZ	O
+6-3	usually	O	O	RB	O
+6-4	very	O	O	RB	O
+6-5	fun	O	O	JJ	P1_NPart_fun
+6-6	to	6-7_aux	bake	TO	O
+6-7	bake	O	O	VB	O
+6-8	a	O	O	DT	O
+6-9	cake	6-7_dobj	bake	NN	P1_cake
+6-10	because	6-12_mark	bake	IN	O
+6-11	I	6-12_nsubj	bake	PRP	P1_cook
+6-12	bake	6-7_advcl	bake	VBP	O
+6-13	with	O	O	O	O
+6-14	my	O	O	PRP$	P3_cook
+6-15	sister	6-12_prep_with	bake	NN	P4_cook
+6-16	.	O	O	O	O
+
+#id=7
+#text=We always make a mess in the kitchen and always laugh about it . 
+7-1	We	7-3_nsubj	make	PRP	P5_cook
+7-2	always	7-3_advmod	make	RB	O
+7-3	make	O	O	VB	O
+7-4	a	O	O	DT	O
+7-5	mess	7-3_dobj	make	NN	O
+7-6	in	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	kitchen	O	O	NN	P2_kitchen/location
+7-9	and	O	O	O	O
+7-10	always	7-11_advmod	laugh	RB	O
+7-11	laugh	7-3_conj_and	make	VB	O
+7-12	about	O	O	O	O
+7-13	it	7-11_prep_about	laugh	PRP	O
+7-14	.	O	O	O	O
+
+#id=8
+#text=Whether it 's baking powder all over our clothes , or broken eggs on the floor , we make a big mess . 
+8-1	Whether	O	O	IN	O
+8-2	it	O	O	PRP	O
+8-3	's	O	O	VBZ	O
+8-4	baking	O	O	VBG	O
+8-5	powder	8-19_advcl	make	NN	P2_ingredients
+8-6	all	O	O	DT	O
+8-7	over	O	O	O	O
+8-8	our	O	O	PRP$	P6_cook
+8-9	clothes	O	O	NNS	P1_NPart_clothes
+8-10	,	O	O	O	O
+8-11	or	O	O	O	O
+8-12	broken	O	O	VBN	O
+8-13	eggs	O	O	NNS	P4_ingredients
+8-14	on	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	floor	O	O	NN	P1_NPart_floor
+8-17	,	O	O	O	O
+8-18	we	8-19_nsubj	make	PRP	P7_cook
+8-19	make	O	O	VBP	O
+8-20	a	O	O	DT	O
+8-21	big	O	O	JJ	O
+8-22	mess	8-19_dobj	make	NN	O
+8-23	.	O	O	O	O
+
+#id=9
+#text=But at the end , we get everything right and actually bake a decent cake . 
+9-1	But	O	O	O	O
+9-2	at	O	O	O	O
+9-3	the	O	O	DT	O
+9-4	end	9-7_prep_at	get	NN	P1_NPart_end
+9-5	,	O	O	O	O
+9-6	we	9-7_nsubj	get	PRP	P8_cook
+9-7	get	O	O	VBP	O
+9-8	everything	O	O	NN	O
+9-9	right	9-7_dobj	get	NN	O
+9-10	and	O	O	O	O
+9-11	actually	9-12_advmod	bake	RB	O
+9-12	bake	9-7_conj_and	get	VBP	O
+9-13	a	O	O	DT	O
+9-14	decent	O	O	JJ	O
+9-15	cake	9-12_dobj	bake	NN	P1_cake
+9-16	.	O	O	O	O
+
+#id=10
+#text=We tend to bake vanilla or red velvet cake . 
+10-1	We	10-2_nsubj	tend	PRP	P9_cook
+10-2	tend	O	O	VBP	O
+10-3	to	10-4_aux	bake	TO	O
+10-4	bake	10-2_xcomp	tend	VB	O
+10-5	vanilla	O	O	NN	P1_NPart_vanilla
+10-6	or	O	O	O	O
+10-7	red	O	O	JJ	O
+10-8	velvet	O	O	NN	P1_NPart_velvet
+10-9	cake	10-4_dobj	bake	NN	P1_cake
+10-10	.	O	O	O	O
+
+#id=11
+#text=That 's our favorite . 
+11-1	That	O	O	DT	P1_cake
+11-2	's	O	O	VBZ	O
+11-3	our	O	O	PRP$	P10_cook
+11-4	favorite	O	O	NN	O
+11-5	.	O	O	O	O
+
+#id=12
+#text=Once the cake is ready , we wait an hour until we put icing on top of the cake . 
+12-1	Once	O	O	IN	O
+12-2	the	O	O	DT	O
+12-3	cake	O	O	NN	P1_cake
+12-4	is	O	O	VBZ	O
+12-5	ready	12-8_advcl	wait	JJ	O
+12-6	,	O	O	O	O
+12-7	we	12-8_nsubj	wait	PRP	P11_cook
+12-8	wait	O	O	VBP	O
+12-9	an	O	O	DT	O
+12-10	hour	12-13_dep	put	NN	P1_NPart_hour
+12-11	until	12-13_mark	put	IN	O
+12-12	we	12-13_nsubj	put	PRP	P12_cook
+12-13	put	12-8_advcl	wait	VBD	O
+12-14	icing	12-13_xcomp	put	VBG	P6_ingredients
+12-15	on	O	O	O	O
+12-16	top	O	O	O	O
+12-17	of	O	O	O	O
+12-18	the	O	O	DT	O
+12-19	cake	12-14_prep_on_top_of	icing	NN	P1_cake
+12-20	.	O	O	O	O
+
+#id=13
+#text=Later on after dinner , the family enjoys a nice slice of cake . 
+13-1	Later	13-8_advmod	enjoys	RB	O
+13-2	on	O	O	IN	O
+13-3	after	O	O	IN	O
+13-4	dinner	O	O	NN	P1_NPart_dinner
+13-5	,	O	O	O	O
+13-6	the	O	O	DT	O
+13-7	family	13-8_nsubj	enjoys	NN	P1_beneficiary
+13-8	enjoys	O	O	VBZ	O
+13-9	a	O	O	DT	O
+13-10	nice	O	O	JJ	O
+13-11	slice	13-8_dobj	enjoys	NN	O
+13-12	of	O	O	O	O
+13-13	cake	O	O	NN	P2_cake
+13-14	.	O	O	O	O

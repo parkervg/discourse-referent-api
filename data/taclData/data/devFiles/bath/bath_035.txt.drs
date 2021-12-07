@@ -1,0 +1,242 @@
+#id=1
+#text=For me there is nothing more relaxing then taking a nice hot bath after a long day of work . 
+1-1	For	O	O	O	O
+1-2	me	1-4_prep_for	is	PRP	P1_bather
+1-3	there	1-4_expl	is	EX	O
+1-4	is	O	O	VBZ	O
+1-5	nothing	1-4_advmod	is	NN	O
+1-6	more	O	O	RBR	O
+1-7	relaxing	1-4_acomp	is	JJ	O
+1-8	then	1-9_advmod	taking	RB	O
+1-9	taking	1-4_ccomp	is	VBG	O
+1-10	a	O	O	DT	O
+1-11	nice	O	O	JJ	O
+1-12	hot	O	O	JJ	O
+1-13	bath	1-9_dobj	taking	NN	O
+1-14	after	O	O	O	O
+1-15	a	O	O	DT	O
+1-16	long	O	O	JJ	O
+1-17	day	1-9_prep_after	taking	NN	P1_NPart_day
+1-18	of	O	O	O	O
+1-19	work	O	O	NN	P1_NPart_work
+1-20	.	O	O	O	O
+
+#id=2
+#text=When I got home the first thing I did was start the running water in the tub . 
+2-1	When	2-3_advmod	got	WRB	O
+2-2	I	2-3_nsubj	got	PRP	P1_bather
+2-3	got	2-10_advcl	was	VBD	O
+2-4	home	2-3_advmod	got	RB	O
+2-5	the	O	O	DT	O
+2-6	first	O	O	JJ	O
+2-7	thing	2-3_dobj	got	NN	O
+2-8	I	2-9_nsubj	did	PRP	P1_bather
+2-9	did	O	O	VBD	O
+2-10	was	O	O	VBD	O
+2-11	start	2-10_ccomp	was	VB	O
+2-12	the	O	O	DT	O
+2-13	running	O	O	VBG	O
+2-14	water	2-11_dobj	start	NN	P1_water
+2-15	in	O	O	O	O
+2-16	the	O	O	DT	O
+2-17	tub	O	O	NN	P1_bathtub
+2-18	.	O	O	O	O
+
+#id=3
+#text=I made sure the temperature was perfect before putting the drain stopper in place . 
+3-1	I	3-2_nsubj	made	PRP	P1_bather
+3-2	made	O	O	VBD	O
+3-3	sure	3-2_acomp	made	JJ	O
+3-4	the	O	O	DT	O
+3-5	temperature	O	O	NN	P1_temperature
+3-6	was	O	O	VBD	O
+3-7	perfect	O	O	JJ	O
+3-8	before	O	O	O	O
+3-9	putting	O	O	VBG	O
+3-10	the	O	O	DT	O
+3-11	drain	O	O	NN	O
+3-12	stopper	3-9_dobj	putting	NN	P1_plug
+3-13	in	O	O	O	O
+3-14	place	3-9_prep_in	putting	NN	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=I then went to my room and got some clean clothes and a towel from the closet . 
+4-1	I	4-3_nsubj	went	PRP	P1_bather
+4-2	then	4-3_advmod	went	RB	O
+4-3	went	O	O	VBD	O
+4-4	to	O	O	O	O
+4-5	my	O	O	PRP$	P1_bather
+4-6	room	4-3_prep_to	went	NN	P1_NPart_room
+4-7	and	O	O	O	O
+4-8	got	4-3_conj_and	went	VBD	O
+4-9	some	O	O	DT	O
+4-10	clean	O	O	JJ	O
+4-11	clothes	4-8_dobj	got	NNS	P1_clothes
+4-12	and	O	O	O	O
+4-13	a	O	O	DT	O
+4-14	towel	O	O	NN	P1_towel
+4-15	from	O	O	O	O
+4-16	the	O	O	DT	O
+4-17	closet	4-8_prep_from	got	NN	P1_NPart_closet
+4-18	.	O	O	O	O
+
+#id=5
+#text=I like to listen to music when I take a bath so I brought along my i-pod and small speakers . 
+5-1	I	5-2_nsubj	like	PRP	P1_bather
+5-2	like	O	O	VBP	O
+5-3	to	5-4_aux	listen	TO	O
+5-4	listen	5-2_xcomp	like	VB	O
+5-5	to	O	O	O	O
+5-6	music	5-4_prep_to	listen	NN	P1_in-bath_entertainment
+5-7	when	5-9_advmod	take	WRB	O
+5-8	I	5-9_nsubj	take	PRP	P1_bather
+5-9	take	5-4_advcl	listen	VBP	O
+5-10	a	O	O	DT	O
+5-11	bath	5-9_dobj	take	NN	O
+5-12	so	5-14_mark	brought	IN	O
+5-13	I	5-14_nsubj	brought	PRP	P1_bather
+5-14	brought	5-9_advcl	take	VBD	O
+5-15	along	5-14_prt	brought	RP	O
+5-16	my	O	O	PRP$	P1_bather
+5-17	i-pod	O	O	JJ	P2_in-bath_entertainment
+5-18	and	O	O	O	O
+5-19	small	O	O	JJ	O
+5-20	speakers	5-14_dobj	brought	NNS	P3_in-bath_entertainment
+5-21	.	O	O	O	O
+
+#id=6
+#text=When the tub was almost filled I stop the water , turned the music on , and stepped inside the tub . 
+6-1	When	6-6_advmod	filled	WRB	O
+6-2	the	O	O	DT	O
+6-3	tub	6-6_nsubjpass	filled	NN	P1_bathtub
+6-4	was	6-6_auxpass	filled	VBD	O
+6-5	almost	6-6_advmod	filled	RB	O
+6-6	filled	6-8_advcl	stop	VBN	O
+6-7	I	6-8_nsubj	stop	PRP	P1_bather
+6-8	stop	O	O	VBP	O
+6-9	the	O	O	DT	O
+6-10	water	6-8_dobj	stop	NN	P1_water
+6-11	,	O	O	O	O
+6-12	turned	6-8_conj_and	stop	VBD	O
+6-13	the	O	O	DT	O
+6-14	music	6-12_dobj	turned	NN	P1_in-bath_entertainment
+6-15	on	6-12_prep	turned	IN	O
+6-16	,	O	O	O	O
+6-17	and	O	O	O	O
+6-18	stepped	6-8_conj_and	stop	VBD	O
+6-19	inside	O	O	O	O
+6-20	the	O	O	DT	O
+6-21	tub	6-18_prep_inside	stepped	NN	P1_bathtub
+6-22	.	O	O	O	O
+
+#id=7
+#text=It was like a little piece of heaven as the warm water washed over my body . 
+7-1	It	7-2_nsubj	was	PRP	O
+7-2	was	O	O	VBD	O
+7-3	like	O	O	O	O
+7-4	a	O	O	DT	O
+7-5	little	O	O	JJ	O
+7-6	piece	7-2_prep_like	was	NN	O
+7-7	of	O	O	O	O
+7-8	heaven	O	O	NN	P1_NPart_heaven
+7-9	as	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	warm	O	O	JJ	O
+7-12	water	7-2_prep_as	was	NN	P1_water
+7-13	washed	O	O	VBN	O
+7-14	over	O	O	O	O
+7-15	my	O	O	PRP$	P1_bather
+7-16	body	7-13_prep_over	washed	NN	P1_body_part
+7-17	.	O	O	O	O
+
+#id=8
+#text=After about 10 minutes of relaxing I found the soap and started to apply it all over my body . 
+8-1	After	O	O	O	O
+8-2	about	O	O	RB	O
+8-3	10	O	O	CD	O
+8-4	minutes	8-8_prep_after	found	NNS	P1_NPart_minutes
+8-5	of	O	O	O	O
+8-6	relaxing	O	O	VBG	O
+8-7	I	8-8_nsubj	found	PRP	P1_bather
+8-8	found	O	O	VBD	O
+8-9	the	O	O	DT	O
+8-10	soap	8-8_dobj	found	NN	P1_washing_tools
+8-11	and	O	O	O	O
+8-12	started	8-8_conj_and	found	VBD	O
+8-13	to	8-14_aux	apply	TO	O
+8-14	apply	8-12_xcomp	started	VB	O
+8-15	it	8-14_dobj	apply	PRP	P1_washing_tools
+8-16	all	8-14_dep	apply	DT	O
+8-17	over	O	O	O	O
+8-18	my	O	O	PRP$	P1_bather
+8-19	body	8-14_prep_over	apply	NN	P1_body_part
+8-20	.	O	O	O	O
+
+#id=9
+#text=When I was finished I pulled the drain stopper and started to rinse the soap off . 
+9-1	When	9-4_advmod	finished	WRB	O
+9-2	I	9-4_nsubjpass	finished	PRP	P1_bather
+9-3	was	9-4_auxpass	finished	VBD	O
+9-4	finished	9-6_advcl	pulled	VBN	O
+9-5	I	9-6_nsubj	pulled	PRP	P1_bather
+9-6	pulled	O	O	VBD	O
+9-7	the	O	O	DT	O
+9-8	drain	O	O	NN	O
+9-9	stopper	9-6_dobj	pulled	NN	P1_plug
+9-10	and	O	O	O	O
+9-11	started	9-6_conj_and	pulled	VBD	O
+9-12	to	9-13_aux	rinse	TO	O
+9-13	rinse	9-11_xcomp	started	VB	O
+9-14	the	O	O	DT	O
+9-15	soap	9-13_dobj	rinse	NN	P1_washing_tools
+9-16	off	9-13_prt	rinse	RP	O
+9-17	.	O	O	O	O
+
+#id=10
+#text=After all the water was drained I grabbed my towel and started to dry off , then I finally slipped into my clean clothes . 
+10-1	After	10-6_mark	drained	IN	O
+10-2	all	O	O	PDT	O
+10-3	the	O	O	DT	O
+10-4	water	10-6_nsubjpass	drained	NN	P1_water
+10-5	was	10-6_auxpass	drained	VBD	O
+10-6	drained	10-20_advcl	slipped	VBN	O
+10-7	I	10-8_nsubj	grabbed	PRP	P1_bather
+10-8	grabbed	10-6_ccomp	drained	VBD	O
+10-9	my	O	O	PRP$	P1_bather
+10-10	towel	10-8_dobj	grabbed	NN	P1_towel
+10-11	and	O	O	O	O
+10-12	started	10-8_conj_and	grabbed	VBD	O
+10-13	to	10-14_aux	dry	TO	O
+10-14	dry	10-12_xcomp	started	VB	O
+10-15	off	10-14_prt	dry	RP	O
+10-16	,	O	O	O	O
+10-17	then	O	O	RB	O
+10-18	I	10-20_nsubj	slipped	PRP	P1_bather
+10-19	finally	10-20_advmod	slipped	RB	O
+10-20	slipped	O	O	VBD	O
+10-21	into	O	O	O	O
+10-22	my	O	O	PRP$	P1_bather
+10-23	clean	O	O	JJ	O
+10-24	clothes	10-20_prep_into	slipped	NNS	P1_clothes
+10-25	.	O	O	O	O
+
+#id=11
+#text=It was so relaxing , I just ca n't wait to do it again very soon . 
+11-1	It	O	O	PRP	O
+11-2	was	O	O	VBD	O
+11-3	so	O	O	RB	O
+11-4	relaxing	11-10_ccomp	wait	JJ	O
+11-5	,	O	O	O	O
+11-6	I	11-10_nsubj	wait	PRP	P1_bather
+11-7	just	11-10_advmod	wait	RB	O
+11-8	ca	11-10_aux	wait	MD	O
+11-9	n't	11-10_neg	wait	RB	O
+11-10	wait	O	O	VB	O
+11-11	to	11-12_aux	do	TO	O
+11-12	do	11-10_xcomp	wait	VB	O
+11-13	it	11-12_dobj	do	PRP	O
+11-14	again	O	O	RB	O
+11-15	very	O	O	RB	O
+11-16	soon	11-12_advmod	do	RB	O
+11-17	.	O	O	O	O

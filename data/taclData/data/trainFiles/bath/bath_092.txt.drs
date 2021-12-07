@@ -1,0 +1,196 @@
+#id=1
+#text=Before I go into the bathroom I always grab a towel from the linen closet where we keep our towels , soap and shampoo . 
+1-1	Before	1-3_mark	go	IN	O
+1-2	I	1-3_nsubj	go	PRP	P1_bather
+1-3	go	1-9_advcl	grab	VBP	O
+1-4	into	O	O	O	O
+1-5	the	O	O	DT	O
+1-6	bathroom	1-3_prep_into	go	NN	P1_bathroom
+1-7	I	1-9_nsubj	grab	PRP	P1_bather
+1-8	always	1-9_advmod	grab	RB	O
+1-9	grab	O	O	VBP	O
+1-10	a	O	O	DT	O
+1-11	towel	1-9_dobj	grab	NN	P1_towel
+1-12	from	O	O	O	O
+1-13	the	O	O	DT	O
+1-14	linen	O	O	NN	O
+1-15	closet	1-9_prep_from	grab	NN	P1_other
+1-16	where	1-18_advmod	keep	WRB	O
+1-17	we	1-18_nsubj	keep	PRP	P1_NPart_our
+1-18	keep	1-9_advcl	grab	VBP	O
+1-19	our	O	O	PRP$	P1_NPart_our
+1-20	towels	1-18_dobj	keep	NNS	P1_towel
+1-21	,	O	O	O	O
+1-22	soap	O	O	NN	P1_washing_tools
+1-23	and	O	O	O	O
+1-24	shampoo	O	O	NN	P2_washing_tools
+1-25	.	O	O	O	O
+
+#id=2
+#text=I like to put a radio on while I take a bath so I can relax and enjoy myself . 
+2-1	I	2-2_nsubj	like	PRP	P1_bather
+2-2	like	O	O	VBP	O
+2-3	to	2-4_aux	put	TO	O
+2-4	put	2-2_xcomp	like	VB	O
+2-5	a	O	O	DT	O
+2-6	radio	2-4_dobj	put	NN	P1_in-bath_entertainment
+2-7	on	O	O	O	O
+2-8	while	2-10_mark	take	IN	O
+2-9	I	2-10_nsubj	take	PRP	P1_bather
+2-10	take	2-4_prepc_on	put	VBP	O
+2-11	a	O	O	DT	O
+2-12	bath	2-10_dobj	take	NN	O
+2-13	so	2-16_mark	relax	IN	O
+2-14	I	2-16_nsubj	relax	PRP	P1_bather
+2-15	can	2-16_aux	relax	MD	O
+2-16	relax	2-10_advcl	take	VB	O
+2-17	and	O	O	O	O
+2-18	enjoy	2-16_conj_and	relax	VB	O
+2-19	myself	2-16_dobj	relax	PRP	P1_bather
+2-20	.	O	O	O	O
+
+#id=3
+#text=I plug the tub with a water stopper and turn on the water so it 's nice and warm but not too hot . 
+3-1	I	3-2_nsubj	plug	PRP	P1_bather
+3-2	plug	O	O	VB	O
+3-3	the	O	O	DT	O
+3-4	tub	3-2_dobj	plug	NN	P1_bathtub
+3-5	with	O	O	O	O
+3-6	a	O	O	DT	O
+3-7	water	O	O	NN	P1_water
+3-8	stopper	3-2_prep_with	plug	NN	P1_plug
+3-9	and	O	O	O	O
+3-10	turn	3-2_conj_and	plug	VB	O
+3-11	on	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	water	3-10_prep_on	turn	NN	P2_water
+3-14	so	O	O	IN	O
+3-15	it	O	O	PRP	P2_water
+3-16	's	O	O	VBZ	O
+3-17	nice	3-10_advcl	turn	JJ	O
+3-18	and	O	O	O	O
+3-19	warm	O	O	JJ	O
+3-20	but	O	O	O	O
+3-21	not	O	O	RB	O
+3-22	too	O	O	RB	O
+3-23	hot	O	O	JJ	O
+3-24	.	O	O	O	O
+
+#id=4
+#text=I put in some bubbles so it makes it nice and bubbly and smelling good . 
+4-1	I	4-2_nsubj	put	PRP	P1_bather
+4-2	put	O	O	VBD	O
+4-3	in	O	O	O	O
+4-4	some	O	O	DT	O
+4-5	bubbles	4-2_prep_in	put	NNS	P2_in-bath_entertainment
+4-6	so	4-8_mark	makes	IN	O
+4-7	it	4-8_nsubj	makes	PRP	O
+4-8	makes	4-2_advcl	put	VBZ	O
+4-9	it	4-8_dobj	makes	PRP	P1_bath
+4-10	nice	4-8_acomp	makes	JJ	O
+4-11	and	O	O	O	O
+4-12	bubbly	O	O	JJ	O
+4-13	and	O	O	O	O
+4-14	smelling	O	O	VBG	O
+4-15	good	4-14_acomp	smelling	JJ	O
+4-16	.	O	O	O	O
+
+#id=5
+#text=When the tub is all filled I stop the water and slowly get inside . 
+5-1	When	5-6_advmod	filled	WRB	O
+5-2	the	O	O	DT	O
+5-3	tub	5-6_nsubjpass	filled	NN	P1_bathtub
+5-4	is	5-6_auxpass	filled	VBZ	O
+5-5	all	5-6_advmod	filled	RB	O
+5-6	filled	5-8_advcl	stop	VBN	O
+5-7	I	5-6_dobj	filled	PRP	P1_bather
+5-8	stop	O	O	VB	O
+5-9	the	O	O	DT	O
+5-10	water	5-8_dobj	stop	NN	P3_water
+5-11	and	O	O	O	O
+5-12	slowly	5-13_advmod	get	RB	O
+5-13	get	5-8_conj_and	stop	VB	O
+5-14	inside	5-13_advmod	get	RB	O
+5-15	.	O	O	O	O
+
+#id=6
+#text=I sit down for about ten minutes relaxing with my eyes closed and just thinking about the day . 
+6-1	I	6-2_nsubj	sit	PRP	P1_bather
+6-2	sit	O	O	VBP	O
+6-3	down	6-8_advmod	relaxing	RB	O
+6-4	for	O	O	O	O
+6-5	about	O	O	RB	O
+6-6	ten	O	O	CD	O
+6-7	minutes	O	O	NNS	P1_NPart_minutes
+6-8	relaxing	6-2_ccomp	sit	VBG	O
+6-9	with	6-12_mark	closed	IN	O
+6-10	my	O	O	PRP$	P1_bather
+6-11	eyes	6-12_nsubj	closed	NNS	P1_NPart_eyes
+6-12	closed	6-8_advcl	relaxing	VBD	O
+6-13	and	O	O	O	O
+6-14	just	6-15_advmod	thinking	RB	O
+6-15	thinking	6-8_conj_and	relaxing	VBG	O
+6-16	about	O	O	RB	O
+6-17	the	O	O	DT	O
+6-18	day	6-15_tmod	thinking	NN	P1_NPart_day
+6-19	.	O	O	O	O
+
+#id=7
+#text=After about ten minutes I take the stopper out so the tub can drain and turn the shower head on . 
+7-1	After	O	O	O	O
+7-2	about	O	O	RB	O
+7-3	ten	O	O	CD	O
+7-4	minutes	7-6_prep_after	take	NNS	P1_NPart_minutes
+7-5	I	7-6_nsubj	take	PRP	P1_bather
+7-6	take	O	O	VBP	O
+7-7	the	O	O	DT	O
+7-8	stopper	O	O	NN	P1_plug
+7-9	out	7-6_advmod	take	IN	O
+7-10	so	7-14_mark	drain	IN	O
+7-11	the	O	O	DT	O
+7-12	tub	7-14_nsubj	drain	NN	P1_bathtub
+7-13	can	7-14_aux	drain	MD	O
+7-14	drain	7-6_advcl	take	VB	O
+7-15	and	O	O	O	O
+7-16	turn	7-14_conj_and	drain	VB	O
+7-17	the	O	O	DT	O
+7-18	shower	O	O	NN	O
+7-19	head	7-14_dobj	drain	NN	P1_shower
+7-20	on	7-14_prep	drain	IN	O
+7-21	.	O	O	O	O
+
+#id=8
+#text=I like to wash myself off after a bath because there are a lot of bubbles all over me . 
+8-1	I	8-2_nsubj	like	PRP	P1_bather
+8-2	like	O	O	VBP	O
+8-3	to	8-4_aux	wash	TO	O
+8-4	wash	8-2_xcomp	like	VB	O
+8-5	myself	8-4_dobj	wash	PRP	P1_bather
+8-6	off	8-4_prt	wash	RP	O
+8-7	after	O	O	O	O
+8-8	a	O	O	DT	O
+8-9	bath	8-4_prep_after	wash	NN	P2_bath
+8-10	because	8-12_mark	are	IN	O
+8-11	there	8-12_expl	are	EX	O
+8-12	are	8-4_advcl	wash	VBP	O
+8-13	a	O	O	DT	O
+8-14	lot	8-12_nsubj	are	NN	O
+8-15	of	O	O	O	O
+8-16	bubbles	O	O	NNS	P2_in-bath_entertainment
+8-17	all	8-12_advmod	are	RB	O
+8-18	over	O	O	O	O
+8-19	me	O	O	PRP	P1_bather
+8-20	.	O	O	O	O
+
+#id=9
+#text=I love taking baths because they are very relaxing . 
+9-1	I	9-2_nsubj	love	PRP	P1_bather
+9-2	love	O	O	VBP	O
+9-3	taking	9-2_xcomp	love	VBG	O
+9-4	baths	9-3_dobj	taking	NNS	O
+9-5	because	O	O	IN	O
+9-6	they	O	O	PRP	P3_bath
+9-7	are	O	O	VBP	O
+9-8	very	O	O	RB	O
+9-9	relaxing	9-3_advcl	taking	JJ	O
+9-10	.	O	O	O	O

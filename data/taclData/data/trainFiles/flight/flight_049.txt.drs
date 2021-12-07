@@ -1,0 +1,212 @@
+#id=1
+#text=My wife decided she wanted to go to the beach last summer . 
+1-1	My	O	O	PRP$	P1_passenger
+1-2	wife	1-3_nsubj	decided	NN	P2_passenger
+1-3	decided	O	O	VBD	O
+1-4	she	1-5_nsubj	wanted	PRP	P2_passenger
+1-5	wanted	1-3_ccomp	decided	VBD	O
+1-6	to	1-7_aux	go	TO	O
+1-7	go	1-5_xcomp	wanted	VB	O
+1-8	to	O	O	O	O
+1-9	the	O	O	DT	O
+1-10	beach	1-7_prep_to	go	NN	P1_target_location
+1-11	last	O	O	JJ	O
+1-12	summer	1-7_tmod	go	NN	P1_NPart_summer
+1-13	.	O	O	O	O
+
+#id=2
+#text=We decided the best way to get there would be an airplane . 
+2-1	We	2-2_nsubj	decided	PRP	P3_passenger
+2-2	decided	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	best	O	O	JJS	O
+2-5	way	2-2_dobj	decided	NN	O
+2-6	to	2-7_aux	get	TO	O
+2-7	get	2-2_vmod	decided	VB	O
+2-8	there	O	O	EX	P1_target_location
+2-9	would	O	O	MD	O
+2-10	be	O	O	VB	O
+2-11	an	O	O	DT	O
+2-12	airplane	2-7_ccomp	get	NN	P1_plane
+2-13	.	O	O	O	O
+
+#id=3
+#text=We booked the tickets 3 months in advance to ensure we would have tickets to board the plane to take us to our vacation destination . 
+3-1	We	3-2_nsubj	booked	PRP	P3_passenger
+3-2	booked	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	tickets	3-2_dobj	booked	NNS	P1_ticket
+3-5	3	O	O	CD	O
+3-6	months	3-2_tmod	booked	NNS	P1_time/date
+3-7	in	O	O	O	O
+3-8	advance	3-2_prep_in	booked	NN	O
+3-9	to	3-10_aux	ensure	TO	O
+3-10	ensure	3-2_vmod	booked	VB	O
+3-11	we	3-13_nsubj	have	PRP	P3_passenger
+3-12	would	3-13_aux	have	MD	O
+3-13	have	3-10_ccomp	ensure	VB	O
+3-14	tickets	3-13_dobj	have	NNS	P1_ticket
+3-15	to	3-16_aux	board	TO	O
+3-16	board	3-13_ccomp	have	VB	O
+3-17	the	O	O	DT	O
+3-18	plane	3-16_dobj	board	NN	P1_plane
+3-19	to	3-20_aux	take	TO	O
+3-20	take	O	O	VB	O
+3-21	us	3-20_dobj	take	PRP	P3_passenger
+3-22	to	O	O	O	O
+3-23	our	O	O	PRP$	P3_passenger
+3-24	vacation	O	O	NN	O
+3-25	destination	3-20_prep_to	take	NN	P1_target_location
+3-26	.	O	O	O	O
+
+#id=4
+#text=When the day finally came fly on the airplane , we made sure we arrived at least an hour and a half early . 
+4-1	When	4-5_advmod	came	WRB	O
+4-2	the	O	O	DT	O
+4-3	day	4-5_nsubj	came	NN	P2_time/date
+4-4	finally	4-5_advmod	came	RB	O
+4-5	came	4-12_advcl	made	VBD	O
+4-6	fly	4-5_xcomp	came	VB	O
+4-7	on	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	airplane	4-6_prep_on	fly	NN	P1_plane
+4-10	,	O	O	O	O
+4-11	we	4-12_nsubj	made	PRP	P3_passenger
+4-12	made	O	O	VBD	O
+4-13	sure	4-12_acomp	made	JJ	O
+4-14	we	4-15_nsubj	arrived	PRP	P3_passenger
+4-15	arrived	O	O	VBD	O
+4-16	at	O	O	IN	O
+4-17	least	O	O	JJS	O
+4-18	an	O	O	DT	O
+4-19	hour	O	O	NN	P3_time/date
+4-20	and	O	O	CC	O
+4-21	a	O	O	DT	O
+4-22	half	O	O	NN	O
+4-23	early	4-15_advmod	arrived	RB	O
+4-24	.	O	O	O	O
+
+#id=5
+#text=There are many delays before you actually get on board an airplane . 
+5-1	There	5-2_expl	are	EX	O
+5-2	are	O	O	VBP	O
+5-3	many	O	O	JJ	O
+5-4	delays	5-2_nsubj	are	NNS	P1_other
+5-5	before	5-8_mark	get	IN	O
+5-6	you	5-8_nsubj	get	PRP	P3_passenger
+5-7	actually	5-8_advmod	get	RB	O
+5-8	get	5-2_advcl	are	VBP	O
+5-9	on	O	O	O	O
+5-10	board	5-8_prep_on	get	NN	P2_other
+5-11	an	O	O	DT	O
+5-12	airplane	O	O	NN	P1_plane
+5-13	.	O	O	O	O
+
+#id=6
+#text=First , , you have to go through a metal detector and wait in long lines just to get to the metal detectors . 
+6-1	First	6-5_nsubj	have	NNP	O
+6-2	,	O	O	O	O
+6-3	,	O	O	O	O
+6-4	you	6-5_nsubj	have	PRP	P3_passenger
+6-5	have	O	O	VBP	O
+6-6	to	6-7_aux	go	TO	O
+6-7	go	6-5_xcomp	have	VB	O
+6-8	through	O	O	O	O
+6-9	a	O	O	DT	O
+6-10	metal	O	O	NN	O
+6-11	detector	6-7_prep_through	go	NN	P1_NPart_detector
+6-12	and	O	O	O	O
+6-13	wait	6-7_conj_and	go	VB	O
+6-14	in	O	O	O	O
+6-15	long	O	O	JJ	O
+6-16	lines	6-13_prep_in	wait	NNS	P1_line
+6-17	just	6-13_advmod	wait	RB	O
+6-18	to	6-19_aux	get	TO	O
+6-19	get	6-5_xcomp	have	VB	O
+6-20	to	O	O	O	O
+6-21	the	O	O	DT	O
+6-22	metal	O	O	NN	O
+6-23	detectors	6-19_prep_to	get	NNS	P1_NPart_detectors
+6-24	.	O	O	O	O
+
+#id=7
+#text=Then you have to check your luggage . 
+7-1	Then	7-3_advmod	have	RB	O
+7-2	you	7-3_nsubj	have	PRP	P3_passenger
+7-3	have	O	O	VBP	O
+7-4	to	7-5_aux	check	TO	O
+7-5	check	7-3_xcomp	have	VB	O
+7-6	your	O	O	PRP$	P3_passenger
+7-7	luggage	7-5_dobj	check	NN	P1_check_in_luggage
+7-8	.	O	O	O	O
+
+#id=8
+#text=After that , you have to go to the terminal and provide proof of a ticket . 
+8-1	After	O	O	O	O
+8-2	that	8-5_prep_after	have	DT	O
+8-3	,	O	O	O	O
+8-4	you	8-5_nsubj	have	PRP	P3_passenger
+8-5	have	O	O	VBP	O
+8-6	to	8-7_aux	go	TO	O
+8-7	go	8-5_xcomp	have	VB	O
+8-8	to	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	terminal	8-7_prep_to	go	NN	P1_terminal/gate
+8-11	and	O	O	O	O
+8-12	provide	8-7_conj_and	go	VB	O
+8-13	proof	8-12_dobj	provide	NN	P1_NPart_proof
+8-14	of	O	O	O	O
+8-15	a	O	O	DT	O
+8-16	ticket	O	O	NN	P2_ticket
+8-17	.	O	O	O	O
+
+#id=9
+#text=Once you get on an airplane , you have to prepare for turbulence . 
+9-1	Once	9-3_mark	get	IN	O
+9-2	you	9-3_nsubj	get	PRP	P3_passenger
+9-3	get	9-9_advcl	have	VBP	O
+9-4	on	O	O	O	O
+9-5	an	O	O	DT	O
+9-6	airplane	9-3_prep_on	get	NN	P1_plane
+9-7	,	O	O	O	O
+9-8	you	9-9_nsubj	have	PRP	P3_passenger
+9-9	have	O	O	VBP	O
+9-10	to	9-11_aux	prepare	TO	O
+9-11	prepare	9-9_xcomp	have	VB	O
+9-12	for	O	O	O	O
+9-13	turbulence	9-11_prep_for	prepare	NN	P3_other
+9-14	.	O	O	O	O
+
+#id=10
+#text=Other than that , flying on an airplane is a safe and efficient way to travel . 
+10-1	Other	O	O	JJ	O
+10-2	than	O	O	O	O
+10-3	that	O	O	DT	O
+10-4	,	O	O	O	O
+10-5	flying	O	O	VBG	O
+10-6	on	O	O	O	O
+10-7	an	O	O	DT	O
+10-8	airplane	10-5_prep_on	flying	NN	P1_plane
+10-9	is	O	O	VBZ	O
+10-10	a	O	O	DT	O
+10-11	safe	O	O	JJ	O
+10-12	and	O	O	O	O
+10-13	efficient	O	O	JJ	O
+10-14	way	O	O	NN	O
+10-15	to	10-16_aux	travel	TO	O
+10-16	travel	O	O	VB	O
+10-17	.	O	O	O	O
+
+#id=11
+#text=When we landed , we went straight to the beach . 
+11-1	When	11-3_advmod	landed	WRB	O
+11-2	we	11-3_nsubj	landed	PRP	P3_passenger
+11-3	landed	11-6_advcl	went	VBD	O
+11-4	,	O	O	O	O
+11-5	we	11-6_nsubj	went	PRP	P3_passenger
+11-6	went	O	O	VBD	O
+11-7	straight	11-6_advmod	went	RB	O
+11-8	to	O	O	O	O
+11-9	the	O	O	DT	O
+11-10	beach	11-6_prep_to	went	NN	P1_target_location
+11-11	.	O	O	O	O

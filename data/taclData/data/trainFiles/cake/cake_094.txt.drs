@@ -1,0 +1,260 @@
+#id=1
+#text=When I baked a cake , I got my dishes out from the cupboard in my kitchen . 
+1-1	When	1-3_advmod	baked	WRB	O
+1-2	I	1-3_nsubj	baked	PRP	P1_cook
+1-3	baked	1-8_advcl	got	VBZ	O
+1-4	a	O	O	DT	O
+1-5	cake	1-3_dobj	baked	NN	P1_cake
+1-6	,	O	O	O	O
+1-7	I	1-8_nsubj	got	PRP	P1_cook
+1-8	got	O	O	VBD	O
+1-9	my	O	O	PRP$	P1_cook
+1-10	dishes	1-8_dobj	got	NNS	P1_utensil
+1-11	out	1-8_prt	got	RP	O
+1-12	from	O	O	O	O
+1-13	the	O	O	DT	O
+1-14	cupboard	1-8_prep_from	got	NN	P1_cabinet
+1-15	in	O	O	O	O
+1-16	my	O	O	PRP$	P1_cook
+1-17	kitchen	O	O	NN	P1_kitchen/location
+1-18	.	O	O	O	O
+
+#id=2
+#text=I laid out all the dishes and ingredients needed to bake my cake . 
+2-1	I	2-2_nsubj	laid	PRP	P1_cook
+2-2	laid	O	O	VBD	O
+2-3	out	2-2_prt	laid	RP	O
+2-4	all	O	O	PDT	O
+2-5	the	O	O	DT	O
+2-6	dishes	2-2_dobj	laid	NNS	P1_utensil
+2-7	and	O	O	O	O
+2-8	ingredients	O	O	NNS	P1_ingredients
+2-9	needed	O	O	VBN	O
+2-10	to	2-11_aux	bake	TO	O
+2-11	bake	2-9_xcomp	needed	VB	O
+2-12	my	O	O	PRP$	P1_cook
+2-13	cake	2-11_dobj	bake	NN	P1_cake
+2-14	.	O	O	O	O
+
+#id=3
+#text=After preheating the dishes and preheating the oven to a set temperature , I started on making my frosting . 
+3-1	After	O	O	O	O
+3-2	preheating	3-15_prepc_after	started	VBG	O
+3-3	the	O	O	DT	O
+3-4	dishes	3-2_dobj	preheating	NNS	P1_utensil
+3-5	and	O	O	O	O
+3-6	preheating	3-2_conj_and	preheating	VBG	O
+3-7	the	O	O	DT	O
+3-8	oven	3-6_dobj	preheating	NN	P1_oven
+3-9	to	O	O	O	O
+3-10	a	O	O	DT	O
+3-11	set	O	O	NN	O
+3-12	temperature	3-6_prep_to	preheating	NN	P1_temperature
+3-13	,	O	O	O	O
+3-14	I	3-15_nsubj	started	PRP	P1_cook
+3-15	started	O	O	VBD	O
+3-16	on	O	O	O	O
+3-17	making	3-15_prepc_on	started	VBG	O
+3-18	my	O	O	PRP$	P1_cook
+3-19	frosting	3-17_dobj	making	NN	P1_decoration
+3-20	.	O	O	O	O
+
+#id=4
+#text=I broke the eggs and separated the yolks and the whites , and I set up my flour in my pans . 
+4-1	I	4-2_nsubj	broke	PRP	P1_cook
+4-2	broke	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	eggs	4-2_dobj	broke	NNS	P2_ingredients
+4-5	and	O	O	O	O
+4-6	separated	4-2_conj_and	broke	VBN	O
+4-7	the	O	O	DT	O
+4-8	yolks	4-6_dobj	separated	NNS	P3_ingredients
+4-9	and	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	whites	O	O	NNS	P4_ingredients
+4-12	,	O	O	O	O
+4-13	and	O	O	O	O
+4-14	I	4-15_nsubj	set	PRP	P1_cook
+4-15	set	4-2_conj_and	broke	VBD	O
+4-16	up	4-15_prt	set	RP	O
+4-17	my	O	O	PRP$	P1_cook
+4-18	flour	4-15_dobj	set	NN	P5_ingredients
+4-19	in	O	O	O	O
+4-20	my	O	O	PRP$	P1_cook
+4-21	pans	4-15_prep_in	set	NNS	P2_utensil
+4-22	.	O	O	O	O
+
+#id=5
+#text=I then went on to making and mixing my frosting and my batter in their respective bowls . 
+5-1	I	5-3_nsubj	went	PRP	P1_cook
+5-2	then	5-3_advmod	went	RB	O
+5-3	went	O	O	VBD	O
+5-4	on	5-3_prt	went	RP	O
+5-5	to	O	O	O	O
+5-6	making	5-3_prepc_to	went	VBG	O
+5-7	and	O	O	O	O
+5-8	mixing	5-6_conj_and	making	VBG	O
+5-9	my	O	O	PRP$	P1_cook
+5-10	frosting	5-6_dobj	making	NN	P6_ingredients
+5-11	and	O	O	O	O
+5-12	my	O	O	PRP$	P1_cook
+5-13	batter	5-3_conj_and	went	NN	P1_dough
+5-14	in	O	O	O	O
+5-15	their	O	O	PRP$	P1_NPart_their
+5-16	respective	O	O	JJ	O
+5-17	bowls	O	O	NN	P3_utensil
+5-18	.	O	O	O	O
+
+#id=6
+#text=The batter was finished and then placed into the baking pan for about the next half hour . 
+6-1	The	O	O	DT	O
+6-2	batter	6-4_nsubjpass	finished	NN	P1_dough
+6-3	was	6-4_auxpass	finished	VBD	O
+6-4	finished	O	O	VBN	O
+6-5	and	O	O	O	O
+6-6	then	6-7_advmod	placed	RB	O
+6-7	placed	6-4_conj_and	finished	VBN	O
+6-8	into	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	baking	O	O	VBG	O
+6-11	pan	6-7_prep_into	placed	NN	P1_cake_tin
+6-12	for	O	O	O	O
+6-13	about	O	O	RB	O
+6-14	the	O	O	DT	O
+6-15	next	O	O	JJ	O
+6-16	half	O	O	DT	O
+6-17	hour	O	O	NN	P1_time
+6-18	.	O	O	O	O
+
+#id=7
+#text=After the oven timer went off , I checked on the way the batter had risen and settled , and found that my cake was ready to be decorated with the frosting . 
+7-1	After	7-5_mark	went	IN	O
+7-2	the	O	O	DT	O
+7-3	oven	O	O	NN	O
+7-4	timer	7-5_nsubj	went	NN	P1_timer
+7-5	went	7-9_advcl	checked	VBD	O
+7-6	off	7-5_prt	went	RP	O
+7-7	,	O	O	O	O
+7-8	I	7-9_nsubj	checked	PRP	P1_cook
+7-9	checked	O	O	VBD	O
+7-10	on	O	O	O	O
+7-11	the	O	O	DT	O
+7-12	way	7-9_prep_on	checked	NN	P1_NPart_way
+7-13	the	O	O	DT	O
+7-14	batter	7-16_nsubj	risen	NN	P1_dough
+7-15	had	7-16_aux	risen	VBD	O
+7-16	risen	O	O	VBN	O
+7-17	and	O	O	O	O
+7-18	settled	7-16_conj_and	risen	VBN	O
+7-19	,	O	O	O	O
+7-20	and	O	O	O	O
+7-21	found	7-9_conj_and	checked	VBD	O
+7-22	that	O	O	IN	O
+7-23	my	O	O	PRP$	P1_cook
+7-24	cake	O	O	NN	P1_cake
+7-25	was	O	O	VBD	O
+7-26	ready	7-21_ccomp	found	JJ	O
+7-27	to	7-29_aux	decorated	TO	O
+7-28	be	7-29_auxpass	decorated	VB	O
+7-29	decorated	O	O	VBN	O
+7-30	with	O	O	O	O
+7-31	the	O	O	DT	O
+7-32	frosting	7-29_prep_with	decorated	NN	P1_decoration
+7-33	.	O	O	O	O
+
+#id=8
+#text=This was meant to be a birthday cake , so I bought festive frosting add-ons to go with my original homemade frosting . 
+8-1	This	8-3_nsubjpass	meant	DT	O
+8-2	was	8-3_auxpass	meant	VBD	O
+8-3	meant	O	O	VBN	O
+8-4	to	O	O	TO	O
+8-5	be	O	O	VB	O
+8-6	a	O	O	DT	O
+8-7	birthday	O	O	NN	O
+8-8	cake	8-3_xcomp	meant	NN	P1_cake
+8-9	,	O	O	O	O
+8-10	so	8-3_dep	meant	IN	O
+8-11	I	8-12_nsubj	bought	PRP	P1_cook
+8-12	bought	8-3_parataxis	meant	VBD	O
+8-13	festive	O	O	JJ	O
+8-14	frosting	O	O	NN	P1_decoration
+8-15	add-ons	8-12_dobj	bought	NNS	P2_decoration
+8-16	to	8-17_aux	go	TO	O
+8-17	go	8-12_vmod	bought	VB	O
+8-18	with	O	O	O	O
+8-19	my	O	O	PRP$	P1_cook
+8-20	original	O	O	JJ	O
+8-21	homemade	O	O	NN	O
+8-22	frosting	8-17_prep_with	go	NN	P1_decoration
+8-23	.	O	O	O	O
+
+#id=9
+#text=I applied the homemade frosting to the cake first , then squirted the store-bought frosting onto the cake through the funnel . 
+9-1	I	9-2_nsubj	applied	PRP	P1_cook
+9-2	applied	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	homemade	9-12_nsubj	squirted	NN	O
+9-5	frosting	O	O	VBG	P1_decoration
+9-6	to	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	cake	9-5_prep_to	frosting	NN	P1_cake
+9-9	first	9-5_advmod	frosting	RB	O
+9-10	,	O	O	O	O
+9-11	then	9-5_advmod	frosting	RB	O
+9-12	squirted	9-2_ccomp	applied	VBD	O
+9-13	the	O	O	DT	O
+9-14	store-bought	O	O	JJ	O
+9-15	frosting	9-12_dobj	squirted	NN	P1_decoration
+9-16	onto	O	O	O	O
+9-17	the	O	O	DT	O
+9-18	cake	9-12_prep_onto	squirted	NN	P1_cake
+9-19	through	O	O	O	O
+9-20	the	O	O	DT	O
+9-21	funnel	9-12_prep_through	squirted	NN	P4_utensil
+9-22	.	O	O	O	O
+
+#id=10
+#text=I wrote several words on the cake as well to make it more personalized for the person whom the birthday was happening for . 
+10-1	I	10-2_nsubj	wrote	PRP	P1_cook
+10-2	wrote	O	O	VBD	O
+10-3	several	O	O	JJ	O
+10-4	words	10-2_dobj	wrote	NNS	P1_NPart_words
+10-5	on	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	cake	O	O	NN	P1_cake
+10-8	as	O	O	RB	O
+10-9	well	10-2_advmod	wrote	RB	O
+10-10	to	10-11_aux	make	TO	O
+10-11	make	O	O	VB	O
+10-12	it	10-22_nsubj	happening	PRP	P1_cake
+10-13	more	O	O	RBR	O
+10-14	personalized	10-22_dep	happening	JJ	O
+10-15	for	O	O	O	O
+10-16	the	O	O	DT	O
+10-17	person	O	O	NN	P1_beneficiary
+10-18	whom	10-22_prep_for	happening	WP	O
+10-19	the	O	O	DT	O
+10-20	birthday	10-22_nsubj	happening	NN	P1_NPart_birthday
+10-21	was	10-22_aux	happening	VBD	O
+10-22	happening	10-11_xcomp	make	VBG	O
+10-23	for	O	O	O	O
+10-24	.	O	O	O	O
+
+#id=11
+#text=I also set aside several candles for the birthday boy to blow out later on . 
+11-1	I	11-3_nsubj	set	PRP	P2_cook
+11-2	also	11-3_advmod	set	RB	O
+11-3	set	O	O	VBD	O
+11-4	aside	11-3_prt	set	RP	O
+11-5	several	O	O	JJ	O
+11-6	candles	11-3_dobj	set	NNS	P1_NPart_candles
+11-7	for	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	birthday	O	O	NN	O
+11-10	boy	O	O	NN	P1_beneficiary
+11-11	to	11-12_aux	blow	TO	O
+11-12	blow	11-3_vmod	set	VB	O
+11-13	out	11-12_prt	blow	RP	O
+11-14	later	O	O	RB	O
+11-15	on	11-12_advmod	blow	RB	O
+11-16	.	O	O	O	O

@@ -1,0 +1,224 @@
+#id=1
+#text=Riding a public bus is n't something I look forward to doing . 
+1-1	Riding	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	public	O	O	JJ	O
+1-4	bus	1-1_dobj	Riding	NN	P1_bus
+1-5	is	O	O	VBZ	O
+1-6	n't	O	O	RB	O
+1-7	something	O	O	NN	P1_NPart_something
+1-8	I	1-9_nsubj	look	PRP	P1_passenger
+1-9	look	O	O	VBP	O
+1-10	forward	1-9_advmod	look	RB	O
+1-11	to	O	O	O	O
+1-12	doing	1-9_prepc_to	look	VBG	O
+1-13	.	O	O	O	O
+
+#id=2
+#text=When I was a teenager some friends convinced me that it would be fun to jump on a bus and ride around . 
+2-1	When	O	O	WRB	O
+2-2	I	O	O	PRP	P1_passenger
+2-3	was	O	O	VBD	O
+2-4	a	O	O	DT	O
+2-5	teenager	2-8_advcl	convinced	NN	P1_NPart_teenager
+2-6	some	O	O	DT	O
+2-7	friends	2-8_nsubj	convinced	NNS	P1_NPart_friends
+2-8	convinced	O	O	VBD	O
+2-9	me	2-8_dobj	convinced	PRP	P1_passenger
+2-10	that	O	O	IN	O
+2-11	it	O	O	PRP	O
+2-12	would	O	O	MD	O
+2-13	be	O	O	VB	O
+2-14	fun	2-8_ccomp	convinced	JJ	P1_NPart_fun
+2-15	to	2-16_aux	jump	TO	O
+2-16	jump	O	O	VB	O
+2-17	on	O	O	O	O
+2-18	a	O	O	DT	O
+2-19	bus	2-16_prep_on	jump	NN	P1_bus
+2-20	and	O	O	O	O
+2-21	ride	2-16_conj_and	jump	VB	O
+2-22	around	2-21_prt	ride	RP	O
+2-23	.	O	O	O	O
+
+#id=3
+#text=Having done so , I disagree , it is n't fun . 
+3-1	Having	3-2_aux	done	VBG	O
+3-2	done	3-6_vmod	disagree	VBN	O
+3-3	so	3-2_advmod	done	RB	O
+3-4	,	O	O	O	O
+3-5	I	3-6_nsubj	disagree	PRP	P1_passenger
+3-6	disagree	O	O	VBP	O
+3-7	,	O	O	O	O
+3-8	it	O	O	PRP	O
+3-9	is	O	O	VBZ	O
+3-10	n't	O	O	RB	O
+3-11	fun	O	O	NN	P2_NPart_fun
+3-12	.	O	O	O	O
+
+#id=4
+#text=However , for some people the bus is the only mode of transportation available . 
+4-1	However	O	O	RB	O
+4-2	,	O	O	O	O
+4-3	for	O	O	O	O
+4-4	some	O	O	DT	O
+4-5	people	O	O	NNS	P2_passenger
+4-6	the	O	O	DT	O
+4-7	bus	O	O	NN	P1_bus
+4-8	is	O	O	VBZ	O
+4-9	the	O	O	DT	O
+4-10	only	O	O	JJ	O
+4-11	mode	O	O	NN	P1_NPart_mode
+4-12	of	O	O	O	O
+4-13	transportation	O	O	NN	P1_NPart_transportation
+4-14	available	O	O	JJ	O
+4-15	.	O	O	O	O
+
+#id=5
+#text=Riding the bus does require a little research . 
+5-1	Riding	5-5_csubj	require	VBG	O
+5-2	the	O	O	DT	O
+5-3	bus	5-1_dobj	Riding	NN	P1_bus
+5-4	does	5-5_aux	require	VBZ	O
+5-5	require	O	O	VB	O
+5-6	a	O	O	DT	O
+5-7	little	O	O	JJ	O
+5-8	research	5-5_dobj	require	NN	P1_NPart_research
+5-9	.	O	O	O	O
+
+#id=6
+#text=You have to know which line you are riding , whether it is an express or whether it will be making many stops . 
+6-1	You	6-2_nsubj	have	PRP	P1_passenger
+6-2	have	O	O	VBP	O
+6-3	to	6-4_aux	know	TO	O
+6-4	know	6-2_xcomp	have	VB	O
+6-5	which	O	O	WDT	O
+6-6	line	6-9_dobj	riding	NN	P2_bus
+6-7	you	6-9_nsubj	riding	PRP	P1_passenger
+6-8	are	6-9_aux	riding	VBP	O
+6-9	riding	6-4_ccomp	know	VBG	O
+6-10	,	O	O	O	O
+6-11	whether	O	O	IN	O
+6-12	it	O	O	PRP	P1_bus
+6-13	is	O	O	VBZ	O
+6-14	an	O	O	DT	O
+6-15	express	6-9_conj_or	riding	NN	O
+6-16	or	O	O	O	O
+6-17	whether	6-21_mark	making	IN	O
+6-18	it	6-21_nsubj	making	PRP	P1_bus
+6-19	will	6-21_aux	making	MD	O
+6-20	be	6-21_aux	making	VB	O
+6-21	making	6-9_conj_or	riding	VBG	O
+6-22	many	O	O	JJ	O
+6-23	stops	6-21_dobj	making	NNS	P1_bus_stop
+6-24	.	O	O	O	O
+
+#id=7
+#text=You must also have the appropriate amount of fare ready to pay . 
+7-1	You	7-4_nsubj	have	PRP	P1_passenger
+7-2	must	7-4_aux	have	MD	O
+7-3	also	7-4_advmod	have	RB	O
+7-4	have	O	O	VB	O
+7-5	the	O	O	DT	O
+7-6	appropriate	O	O	JJ	O
+7-7	amount	O	O	NN	O
+7-8	of	O	O	O	O
+7-9	fare	O	O	NN	P1_money
+7-10	ready	7-4_xcomp	have	JJ	O
+7-11	to	7-12_aux	pay	TO	O
+7-12	pay	O	O	VB	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=Once on board the bus , it 's best to find a hopefully clean seat nearby a normal looking person . 
+8-1	Once	O	O	IN	O
+8-2	on	O	O	O	O
+8-3	board	O	O	NN	P1_NPart_board
+8-4	the	O	O	DT	O
+8-5	bus	O	O	NN	P1_bus
+8-6	,	O	O	O	O
+8-7	it	O	O	PRP	O
+8-8	's	O	O	VBZ	O
+8-9	best	O	O	JJS	O
+8-10	to	8-11_aux	find	TO	O
+8-11	find	O	O	VB	O
+8-12	a	O	O	DT	O
+8-13	hopefully	O	O	JJ	O
+8-14	clean	O	O	JJ	O
+8-15	seat	8-11_iobj	find	NN	P1_seat_in_bus
+8-16	nearby	O	O	JJ	O
+8-17	a	O	O	DT	O
+8-18	normal	8-19_dep	looking	JJ	O
+8-19	looking	O	O	VBG	O
+8-20	person	8-11_dobj	find	NN	P2_passenger
+8-21	.	O	O	O	O
+
+#id=9
+#text=Since bus fare is quite cheap and anyone can use it , they do tend to attract undesirable types , so it 's best to be aware of that fact and watch yourself and your belongings closely . 
+9-1	Since	O	O	IN	O
+9-2	bus	O	O	NN	O
+9-3	fare	O	O	NN	P1_money
+9-4	is	O	O	VBZ	O
+9-5	quite	O	O	RB	O
+9-6	cheap	9-14_advcl	do	JJ	O
+9-7	and	O	O	O	O
+9-8	anyone	9-10_nsubj	use	NN	P2_passenger
+9-9	can	9-10_aux	use	MD	O
+9-10	use	O	O	VB	O
+9-11	it	9-10_dobj	use	PRP	P1_bus
+9-12	,	O	O	O	O
+9-13	they	9-14_nsubj	do	PRP	P1_bus
+9-14	do	O	O	VBP	O
+9-15	tend	9-14_ccomp	do	VBP	O
+9-16	to	9-17_aux	attract	TO	O
+9-17	attract	9-15_xcomp	tend	VB	O
+9-18	undesirable	O	O	JJ	O
+9-19	types	9-17_dobj	attract	NNS	P2_passenger
+9-20	,	O	O	O	O
+9-21	so	9-14_dep	do	IN	O
+9-22	it	O	O	PRP	O
+9-23	's	O	O	VBZ	O
+9-24	best	9-14_parataxis	do	JJS	O
+9-25	to	O	O	TO	O
+9-26	be	O	O	VB	O
+9-27	aware	O	O	JJ	O
+9-28	of	O	O	O	O
+9-29	that	O	O	DT	O
+9-30	fact	O	O	NN	P1_NPart_fact
+9-31	and	O	O	O	O
+9-32	watch	O	O	VB	O
+9-33	yourself	9-32_dobj	watch	PRP	P1_passenger
+9-34	and	O	O	O	O
+9-35	your	O	O	PRP$	P1_passenger
+9-36	belongings	9-32_conj_and	watch	NNS	P1_in-bus_entertainment
+9-37	closely	O	O	RB	O
+9-38	.	O	O	O	O
+
+#id=10
+#text=Listen and watch to make sure you do n't miss your stop , since busses do get crowded and you do n't want to miss it . 
+10-1	Listen	O	O	VB	O
+10-2	and	O	O	O	O
+10-3	watch	10-1_conj_and	Listen	VB	O
+10-4	to	10-5_aux	make	TO	O
+10-5	make	10-3_xcomp	watch	VB	O
+10-6	sure	10-5_acomp	make	JJ	O
+10-7	you	10-10_nsubj	miss	PRP	P1_passenger
+10-8	do	10-10_aux	miss	VBP	O
+10-9	n't	10-10_neg	miss	RB	O
+10-10	miss	O	O	VB	O
+10-11	your	O	O	PRP$	P1_passenger
+10-12	stop	10-10_dobj	miss	NN	P1_bus_stop
+10-13	,	O	O	O	O
+10-14	since	10-16_mark	do	IN	O
+10-15	busses	10-16_nsubj	do	NNS	P1_bus
+10-16	do	10-3_advcl	watch	VBP	O
+10-17	get	O	O	VB	O
+10-18	crowded	10-16_ccomp	do	JJ	O
+10-19	and	O	O	O	O
+10-20	you	10-23_nsubj	want	PRP	P1_passenger
+10-21	do	10-23_aux	want	VBP	O
+10-22	n't	10-23_neg	want	RB	O
+10-23	want	10-16_conj_and	do	VB	O
+10-24	to	10-25_aux	miss	TO	O
+10-25	miss	10-23_xcomp	want	VB	O
+10-26	it	10-25_dobj	miss	PRP	P1_bus_stop
+10-27	.	O	O	O	O

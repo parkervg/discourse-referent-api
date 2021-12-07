@@ -1,0 +1,257 @@
+#id=1
+#text=Yesterday , I decided to visit my sister who lives a few towns away . 
+1-1	Yesterday	1-4_tmod	decided	NN	P1_NPart_yesterday
+1-2	,	O	O	O	O
+1-3	I	1-4_nsubj	decided	PRP	P1_passenger
+1-4	decided	O	O	VBD	O
+1-5	to	1-6_aux	visit	TO	O
+1-6	visit	1-4_xcomp	decided	VB	O
+1-7	my	O	O	PRP$	P1_passenger
+1-8	sister	1-6_dobj	visit	NN	P1_NPart_sister
+1-9	who	1-10_nsubj	lives	WP	O
+1-10	lives	O	O	VBZ	O
+1-11	a	O	O	DT	O
+1-12	few	O	O	JJ	O
+1-13	towns	1-10_dobj	lives	NNS	P1_NPart_towns
+1-14	away	1-10_advmod	lives	RB	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=I wanted to take the train because it is cheaper than putting gas in my car . 
+2-1	I	2-2_nsubj	wanted	PRP	P1_passenger
+2-2	wanted	O	O	VBD	O
+2-3	to	2-4_aux	take	TO	O
+2-4	take	2-2_xcomp	wanted	VB	O
+2-5	the	O	O	DT	O
+2-6	train	2-4_dobj	take	NN	P1_train
+2-7	because	O	O	IN	O
+2-8	it	O	O	PRP	P1_train
+2-9	is	O	O	VBZ	O
+2-10	cheaper	2-4_advcl	take	JJR	O
+2-11	than	O	O	O	O
+2-12	putting	O	O	VBG	O
+2-13	gas	2-12_dobj	putting	NN	P1_NPart_gas
+2-14	in	O	O	O	O
+2-15	my	O	O	PRP$	P1_passenger
+2-16	car	2-12_prep_in	putting	NN	P1_NPart_car
+2-17	.	O	O	O	O
+
+#id=3
+#text=So I drove to the train station and parked my car in the parking lot . 
+3-1	So	3-3_dep	drove	IN	O
+3-2	I	3-3_nsubj	drove	PRP	P1_passenger
+3-3	drove	O	O	VBD	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	train	O	O	NN	O
+3-7	station	3-3_prep_to	drove	NN	P1_train_station
+3-8	and	O	O	O	O
+3-9	parked	3-3_conj_and	drove	VBD	O
+3-10	my	O	O	PRP$	P1_passenger
+3-11	car	3-9_dobj	parked	NN	P2_NPart_car
+3-12	in	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	parking	O	O	NN	O
+3-15	lot	3-9_prep_in	parked	NN	P1_NPart_lot
+3-16	.	O	O	O	O
+
+#id=4
+#text=I walked to the cashier 's window and waited in line . 
+4-1	I	4-2_nsubj	walked	PRP	P1_passenger
+4-2	walked	O	O	VBD	O
+4-3	to	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	cashier	O	O	NN	O
+4-6	's	O	O	O	O
+4-7	window	4-2_prep_to	walked	NN	P1_ticket_office/website
+4-8	and	O	O	O	O
+4-9	waited	4-2_conj_and	walked	VBD	O
+4-10	in	O	O	O	O
+4-11	line	4-9_prep_in	waited	NN	P1_line
+4-12	.	O	O	O	O
+
+#id=5
+#text=Once I reached the front of the line , I greeted the cashier and bought a train ticket . 
+5-1	Once	5-3_mark	reached	IN	O
+5-2	I	5-3_nsubj	reached	PRP	P1_passenger
+5-3	reached	5-11_advcl	greeted	VBD	O
+5-4	the	O	O	DT	O
+5-5	front	5-3_dobj	reached	NN	O
+5-6	of	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	line	O	O	NN	P1_line
+5-9	,	O	O	O	O
+5-10	I	5-11_nsubj	greeted	PRP	P1_passenger
+5-11	greeted	O	O	VBD	O
+5-12	the	O	O	DT	O
+5-13	cashier	5-11_dobj	greeted	NN	P1_train_staff
+5-14	and	O	O	O	O
+5-15	bought	5-11_conj_and	greeted	VBD	O
+5-16	a	O	O	DT	O
+5-17	train	O	O	NN	O
+5-18	ticket	5-15_dobj	bought	NN	P1_card/ticket
+5-19	.	O	O	O	O
+
+#id=6
+#text=I walked to the train platform and waited for the train to arrive . 
+6-1	I	6-2_nsubj	walked	PRP	P1_passenger
+6-2	walked	O	O	VBD	O
+6-3	to	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	train	O	O	NN	O
+6-6	platform	6-2_prep_to	walked	NN	P1_platform
+6-7	and	O	O	O	O
+6-8	waited	6-2_conj_and	walked	VBD	O
+6-9	for	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	train	6-8_prep_for	waited	NN	P1_train
+6-12	to	6-13_aux	arrive	TO	O
+6-13	arrive	6-8_xcomp	waited	VB	O
+6-14	.	O	O	O	O
+
+#id=7
+#text=When the train finally arrived , I got on the train and located my seat , which was printed on my ticket . 
+7-1	When	7-5_advmod	arrived	WRB	O
+7-2	the	O	O	DT	O
+7-3	train	7-5_nsubj	arrived	NN	P1_train
+7-4	finally	7-5_advmod	arrived	RB	O
+7-5	arrived	7-8_advcl	got	VBD	O
+7-6	,	O	O	O	O
+7-7	I	7-8_nsubj	got	PRP	P1_passenger
+7-8	got	O	O	VBD	O
+7-9	on	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	train	7-8_prep_on	got	NN	P1_train
+7-12	and	O	O	O	O
+7-13	located	7-8_conj_and	got	VBN	O
+7-14	my	O	O	PRP$	P1_passenger
+7-15	seat	7-13_dobj	located	NN	P1_seat
+7-16	,	O	O	O	O
+7-17	which	7-19_nsubjpass	printed	WDT	O
+7-18	was	7-19_auxpass	printed	VBD	O
+7-19	printed	O	O	VBN	O
+7-20	on	O	O	O	O
+7-21	my	O	O	PRP$	P2_passenger
+7-22	ticket	7-19_prep_on	printed	NN	P1_card/ticket
+7-23	.	O	O	O	O
+
+#id=8
+#text=I sat in my seat and took out the magazine that I had brought to read on the ride . 
+8-1	I	8-2_nsubj	sat	PRP	P1_passenger
+8-2	sat	O	O	VBD	O
+8-3	in	O	O	O	O
+8-4	my	O	O	PRP$	P1_passenger
+8-5	seat	8-2_prep_in	sat	NN	P1_seat
+8-6	and	O	O	O	O
+8-7	took	8-2_conj_and	sat	VBD	O
+8-8	out	8-7_prt	took	RP	O
+8-9	the	O	O	DT	O
+8-10	magazine	8-7_dobj	took	NN	P1_in-train_entertainment
+8-11	that	8-14_mark	brought	IN	O
+8-12	I	8-14_nsubj	brought	PRP	P1_passenger
+8-13	had	8-14_aux	brought	VBD	O
+8-14	brought	8-2_ccomp	sat	VBN	O
+8-15	to	8-16_aux	read	TO	O
+8-16	read	8-14_xcomp	brought	VB	O
+8-17	on	O	O	O	O
+8-18	the	O	O	DT	O
+8-19	ride	8-16_prep_on	read	NN	P1_trip
+8-20	.	O	O	O	O
+
+#id=9
+#text=The train eventually started back up and left the station . 
+9-1	The	O	O	DT	O
+9-2	train	9-4_nsubj	started	NN	P1_train
+9-3	eventually	9-4_advmod	started	RB	O
+9-4	started	O	O	VBD	O
+9-5	back	9-4_prt	started	RP	O
+9-6	up	9-4_prt	started	RP	O
+9-7	and	O	O	O	O
+9-8	left	9-4_conj_and	started	VBD	O
+9-9	the	O	O	DT	O
+9-10	station	9-8_dobj	left	NN	P1_train_station
+9-11	.	O	O	O	O
+
+#id=10
+#text=Before long , a ticket taker came over and asked for my ticket to verify that I had paid for my ride and was in the correct seat . 
+10-1	Before	10-7_advmod	came	IN	O
+10-2	long	O	O	RB	O
+10-3	,	O	O	O	O
+10-4	a	O	O	DT	O
+10-5	ticket	O	O	NN	O
+10-6	taker	10-7_nsubj	came	NN	P2_train_staff
+10-7	came	O	O	VBD	O
+10-8	over	10-7_prt	came	RP	O
+10-9	and	O	O	O	O
+10-10	asked	10-7_conj_and	came	VBD	O
+10-11	for	O	O	O	O
+10-12	my	O	O	PRP$	P1_passenger
+10-13	ticket	10-10_prep_for	asked	NN	P1_card/ticket
+10-14	to	10-15_aux	verify	TO	O
+10-15	verify	O	O	VB	O
+10-16	that	10-19_mark	paid	IN	O
+10-17	I	10-19_nsubj	paid	PRP	P1_passenger
+10-18	had	10-19_aux	paid	VBD	O
+10-19	paid	10-15_ccomp	verify	VBN	O
+10-20	for	O	O	O	O
+10-21	my	O	O	PRP$	P1_passenger
+10-22	ride	10-19_prep_for	paid	NN	P1_trip
+10-23	and	O	O	O	O
+10-24	was	10-19_conj_and	paid	VBD	O
+10-25	in	O	O	O	O
+10-26	the	O	O	DT	O
+10-27	correct	O	O	JJ	O
+10-28	seat	10-24_prep_in	was	NN	P1_seat
+10-29	.	O	O	O	O
+
+#id=11
+#text=I greeted the ticket taker and gave him my ticket . 
+11-1	I	11-2_nsubj	greeted	PRP	P1_passenger
+11-2	greeted	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	ticket	O	O	NN	O
+11-5	taker	11-2_dobj	greeted	NN	P2_train_staff
+11-6	and	O	O	O	O
+11-7	gave	11-2_conj_and	greeted	VBD	O
+11-8	him	11-7_iobj	gave	PRP	P2_train_staff
+11-9	my	O	O	PRP$	P1_passenger
+11-10	ticket	11-7_dobj	gave	NN	P1_card/ticket
+11-11	.	O	O	O	O
+
+#id=12
+#text=When I arrived at my sister 's city , I got off the train and she was there to meet me at the station . 
+12-1	When	12-3_advmod	arrived	WRB	O
+12-2	I	12-3_nsubj	arrived	PRP	P1_passenger
+12-3	arrived	12-11_advcl	got	VBD	O
+12-4	at	O	O	O	O
+12-5	my	O	O	PRP$	P1_passenger
+12-6	sister	O	O	NN	P2_NPart_sister
+12-7	's	O	O	O	O
+12-8	city	12-3_prep_at	arrived	NN	P1_destination
+12-9	,	O	O	O	O
+12-10	I	12-11_nsubj	got	PRP	P1_passenger
+12-11	got	O	O	VBD	O
+12-12	off	12-11_prt	got	RP	O
+12-13	the	O	O	DT	O
+12-14	train	12-11_dobj	got	NN	P1_train
+12-15	and	O	O	O	O
+12-16	she	12-17_nsubj	was	PRP	P1_NPart_she
+12-17	was	12-11_conj_and	got	VBD	O
+12-18	there	12-17_advmod	was	RB	O
+12-19	to	12-20_aux	meet	TO	O
+12-20	meet	12-17_xcomp	was	VB	O
+12-21	me	12-20_dobj	meet	PRP	P1_passenger
+12-22	at	O	O	O	O
+12-23	the	O	O	DT	O
+12-24	station	12-20_prep_at	meet	NN	P1_train_station
+12-25	.	O	O	O	O
+
+#id=13
+#text=We had a very nice visit . 
+13-1	We	13-2_nsubj	had	PRP	P1_NPart_we
+13-2	had	O	O	VBD	O
+13-3	a	O	O	DT	O
+13-4	very	O	O	RB	O
+13-5	nice	O	O	JJ	O
+13-6	visit	13-2_dobj	had	NN	P1_NPart_visit
+13-7	.	O	O	O	O

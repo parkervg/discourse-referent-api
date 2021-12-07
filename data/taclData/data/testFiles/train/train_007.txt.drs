@@ -1,0 +1,313 @@
+#id=1
+#text=I like to ride on trains because you can see lots of countryside without having to worry about driving . 
+1-1	I	1-2_nsubj	like	PRP	P1_passenger
+1-2	like	O	O	VBP	O
+1-3	to	1-4_aux	ride	TO	O
+1-4	ride	1-2_xcomp	like	VB	O
+1-5	on	O	O	O	O
+1-6	trains	1-4_prep_on	ride	NNS	P1_train
+1-7	because	1-10_mark	see	IN	O
+1-8	you	1-10_nsubj	see	PRP	P1_passenger
+1-9	can	1-10_aux	see	MD	O
+1-10	see	1-4_advcl	ride	VB	O
+1-11	lots	1-10_dobj	see	NNS	O
+1-12	of	O	O	O	O
+1-13	countryside	O	O	NN	P1_in-train_entertainment
+1-14	without	O	O	O	O
+1-15	having	1-10_prepc_without	see	VBG	O
+1-16	to	1-17_aux	worry	TO	O
+1-17	worry	1-15_xcomp	having	VB	O
+1-18	about	O	O	O	O
+1-19	driving	1-17_prep_about	worry	VBG	O
+1-20	.	O	O	O	O
+
+#id=2
+#text=One time , when I lived in Alaska , I rode on a train from Fairbanks to Denali park . 
+2-1	One	O	O	CD	O
+2-2	time	2-11_nsubj	rode	NN	O
+2-3	,	O	O	O	O
+2-4	when	2-6_advmod	lived	WRB	O
+2-5	I	2-6_nsubj	lived	PRP	P1_passenger
+2-6	lived	2-11_advcl	rode	VBD	O
+2-7	in	O	O	O	O
+2-8	Alaska	2-6_prep_in	lived	NNP	P1_NPart_alaska
+2-9	,	O	O	O	O
+2-10	I	2-11_nsubj	rode	PRP	P1_passenger
+2-11	rode	O	O	VBD	O
+2-12	on	O	O	O	O
+2-13	a	O	O	DT	O
+2-14	train	2-11_prep_on	rode	NN	P1_train
+2-15	from	O	O	O	O
+2-16	Fairbanks	O	O	NNP	P1_NPart_fairbanks
+2-17	to	O	O	O	O
+2-18	Denali	O	O	NNP	O
+2-19	park	2-11_prep_to	rode	NN	P1_destination
+2-20	.	O	O	O	O
+
+#id=3
+#text=Just like with all train rides , I had to buy a ticket first and then I had to stand in line to wait for the train to stop at the station . 
+3-1	Just	O	O	RB	O
+3-2	like	3-9_prep	had	IN	O
+3-3	with	O	O	IN	O
+3-4	all	O	O	DT	O
+3-5	train	O	O	NN	O
+3-6	rides	O	O	NNS	P1_trip
+3-7	,	O	O	O	O
+3-8	I	3-9_nsubj	had	PRP	P1_passenger
+3-9	had	O	O	VBD	O
+3-10	to	3-11_aux	buy	TO	O
+3-11	buy	3-9_xcomp	had	VB	O
+3-12	a	O	O	DT	O
+3-13	ticket	3-11_dobj	buy	NN	P1_card/ticket
+3-14	first	3-11_advmod	buy	RB	O
+3-15	and	O	O	O	O
+3-16	then	3-18_advmod	had	RB	O
+3-17	I	3-18_nsubj	had	PRP	P1_passenger
+3-18	had	3-9_conj_and	had	VBD	O
+3-19	to	3-20_aux	stand	TO	O
+3-20	stand	3-18_xcomp	had	VB	O
+3-21	in	O	O	O	O
+3-22	line	3-20_prep_in	stand	NN	P1_line
+3-23	to	3-24_aux	wait	TO	O
+3-24	wait	3-18_xcomp	had	VB	O
+3-25	for	O	O	O	O
+3-26	the	O	O	DT	O
+3-27	train	3-24_prep_for	wait	NN	P1_train
+3-28	to	3-29_aux	stop	TO	O
+3-29	stop	O	O	VB	O
+3-30	at	O	O	O	O
+3-31	the	O	O	DT	O
+3-32	station	3-29_prep_at	stop	NN	P1_train_station
+3-33	.	O	O	O	O
+
+#id=4
+#text=Then I climbed onto the train and picked a seat . 
+4-1	Then	4-3_advmod	climbed	RB	O
+4-2	I	4-3_nsubj	climbed	PRP	P1_passenger
+4-3	climbed	O	O	VBD	O
+4-4	onto	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	train	4-3_prep_onto	climbed	NN	P1_train
+4-7	and	O	O	O	O
+4-8	picked	4-3_conj_and	climbed	VBD	O
+4-9	a	O	O	DT	O
+4-10	seat	4-8_dobj	picked	NN	P1_seat
+4-11	.	O	O	O	O
+
+#id=5
+#text=The different places you can sit in a train are called cars . 
+5-1	The	O	O	DT	O
+5-2	different	O	O	JJ	O
+5-3	places	5-11_nsubjpass	called	NNS	P1_coach
+5-4	you	5-6_nsubj	sit	PRP	P1_passenger
+5-5	can	5-6_aux	sit	MD	O
+5-6	sit	O	O	VB	O
+5-7	in	O	O	O	O
+5-8	a	O	O	DT	O
+5-9	train	5-6_prep_in	sit	NN	P1_train
+5-10	are	5-11_auxpass	called	VBP	O
+5-11	called	O	O	VBN	O
+5-12	cars	5-11_dobj	called	NNS	P1_coach
+5-13	.	O	O	O	O
+
+#id=6
+#text=You do n't have assigned seats like on a plane and the seats are wide for more than one person to sit . 
+6-1	You	6-5_nsubj	assigned	PRP	P1_passenger
+6-2	do	6-5_aux	assigned	VBP	O
+6-3	n't	6-5_neg	assigned	RB	O
+6-4	have	6-5_aux	assigned	VB	O
+6-5	assigned	O	O	VBN	O
+6-6	seats	6-5_dobj	assigned	NNS	P1_seat
+6-7	like	O	O	JJ	O
+6-8	on	O	O	O	O
+6-9	a	O	O	DT	O
+6-10	plane	O	O	NN	P1_NPart_plane
+6-11	and	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	seats	O	O	NNS	P1_seat
+6-14	are	O	O	VBP	O
+6-15	wide	6-5_conj_and	assigned	JJ	O
+6-16	for	O	O	O	O
+6-17	more	O	O	JJR	O
+6-18	than	O	O	IN	O
+6-19	one	O	O	CD	O
+6-20	person	O	O	NN	P2_passenger
+6-21	to	6-22_aux	sit	TO	O
+6-22	sit	O	O	VB	O
+6-23	.	O	O	O	O
+
+#id=7
+#text=So , I picked one in a car in the back and sat right beside the window . 
+7-1	So	7-4_advmod	picked	RB	O
+7-2	,	O	O	O	O
+7-3	I	7-4_nsubj	picked	PRP	P1_passenger
+7-4	picked	O	O	VBD	O
+7-5	one	7-4_dobj	picked	CD	P1_seat
+7-6	in	O	O	O	O
+7-7	a	O	O	DT	O
+7-8	car	7-4_prep_in	picked	NN	P2_coach
+7-9	in	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	back	O	O	NN	P1_location_train
+7-12	and	O	O	O	O
+7-13	sat	7-4_conj_and	picked	VBD	O
+7-14	right	7-13_advmod	sat	RB	O
+7-15	beside	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	window	7-13_prep_beside	sat	NN	P2_in-train_entertainment
+7-18	.	O	O	O	O
+
+#id=8
+#text=After the train started moving , a train attendant walked through to check our tickets and then I stood up to walk around . 
+8-1	After	8-4_mark	started	IN	O
+8-2	the	O	O	DT	O
+8-3	train	8-4_nsubj	started	NN	P1_train
+8-4	started	8-10_advcl	walked	VBD	O
+8-5	moving	8-4_xcomp	started	VBG	O
+8-6	,	O	O	O	O
+8-7	a	O	O	DT	O
+8-8	train	O	O	NN	O
+8-9	attendant	8-10_nsubj	walked	NN	P1_train_staff
+8-10	walked	O	O	VBD	O
+8-11	through	8-10_prt	walked	RP	O
+8-12	to	8-13_aux	check	TO	O
+8-13	check	8-10_xcomp	walked	VB	O
+8-14	our	O	O	PRP$	P3_passenger
+8-15	tickets	8-13_dobj	check	NNS	P2_card/ticket
+8-16	and	O	O	O	O
+8-17	then	8-19_advmod	stood	RB	O
+8-18	I	8-19_nsubj	stood	PRP	P1_passenger
+8-19	stood	8-10_conj_and	walked	VBD	O
+8-20	up	8-19_prt	stood	RP	O
+8-21	to	8-22_aux	walk	TO	O
+8-22	walk	8-19_xcomp	stood	VB	O
+8-23	around	8-22_prt	walk	RP	O
+8-24	.	O	O	O	O
+
+#id=9
+#text=You can walk from car to car on a train and can even go out of the back of the very last car and stand outside , so I did that . 
+9-1	You	9-3_nsubj	walk	PRP	P1_passenger
+9-2	can	9-3_aux	walk	MD	O
+9-3	walk	O	O	VB	O
+9-4	from	O	O	O	O
+9-5	car	9-3_prep_from	walk	NN	P1_coach
+9-6	to	O	O	O	O
+9-7	car	9-3_prep_to	walk	NN	P1_coach
+9-8	on	O	O	O	O
+9-9	a	O	O	DT	O
+9-10	train	O	O	NN	P1_train
+9-11	and	O	O	O	O
+9-12	can	9-14_aux	go	MD	O
+9-13	even	9-14_advmod	go	RB	O
+9-14	go	9-3_conj_and	walk	VB	O
+9-15	out	O	O	O	O
+9-16	of	O	O	O	O
+9-17	the	O	O	DT	O
+9-18	back	9-14_prep_out_of	go	NN	P2_location_train
+9-19	of	O	O	O	O
+9-20	the	O	O	DT	O
+9-21	very	O	O	RB	O
+9-22	last	O	O	JJ	O
+9-23	car	O	O	NN	P1_coach
+9-24	and	O	O	O	O
+9-25	stand	9-14_conj_and	go	VB	O
+9-26	outside	9-25_advmod	stand	RB	P3_location_train
+9-27	,	O	O	O	O
+9-28	so	9-3_dep	walk	IN	O
+9-29	I	9-30_nsubj	did	PRP	P1_passenger
+9-30	did	9-3_parataxis	walk	VBD	O
+9-31	that	9-30_dobj	did	DT	O
+9-32	.	O	O	O	O
+
+#id=10
+#text=It was very fun to be standing outside while the train was moving and I hung onto the railing to be sure I was safe . 
+10-1	It	O	O	PRP	O
+10-2	was	O	O	VBD	O
+10-3	very	O	O	RB	O
+10-4	fun	O	O	JJ	O
+10-5	to	10-7_aux	standing	TO	O
+10-6	be	10-7_aux	standing	VB	O
+10-7	standing	O	O	VBG	O
+10-8	outside	10-7_advmod	standing	RB	P3_location_train
+10-9	while	10-13_mark	moving	IN	O
+10-10	the	O	O	DT	O
+10-11	train	10-13_nsubj	moving	NN	P1_train
+10-12	was	10-13_aux	moving	VBD	O
+10-13	moving	10-7_advcl	standing	VBG	O
+10-14	and	O	O	O	O
+10-15	I	10-16_nsubj	hung	PRP	P1_passenger
+10-16	hung	O	O	VBD	O
+10-17	onto	O	O	O	O
+10-18	the	O	O	DT	O
+10-19	railing	10-16_prep_onto	hung	NN	P1_NPart_railing
+10-20	to	O	O	TO	O
+10-21	be	O	O	VB	O
+10-22	sure	10-16_xcomp	hung	JJ	O
+10-23	I	O	O	PRP	P1_passenger
+10-24	was	O	O	VBD	O
+10-25	safe	O	O	JJ	O
+10-26	.	O	O	O	O
+
+#id=11
+#text=Then I went back inside and went to the dining car where I bought a sandwich and water . 
+11-1	Then	11-3_advmod	went	RB	O
+11-2	I	11-3_nsubj	went	PRP	P1_passenger
+11-3	went	O	O	VBD	O
+11-4	back	O	O	RB	O
+11-5	inside	11-3_advmod	went	RB	P4_location_train
+11-6	and	O	O	O	O
+11-7	went	11-3_conj_and	went	VBD	O
+11-8	to	O	O	O	O
+11-9	the	O	O	DT	O
+11-10	dining	O	O	NN	O
+11-11	car	11-7_prep_to	went	NN	P3_coach
+11-12	where	11-14_advmod	bought	WRB	O
+11-13	I	11-14_nsubj	bought	PRP	P1_passenger
+11-14	bought	11-7_advcl	went	VBD	O
+11-15	a	O	O	DT	O
+11-16	sandwich	11-14_dobj	bought	NN	P3_in-train_entertainment
+11-17	and	O	O	O	O
+11-18	water	O	O	NN	P4_in-train_entertainment
+11-19	.	O	O	O	O
+
+#id=12
+#text=After I got back to my seat , I ate and watched the scenery through the window . 
+12-1	After	12-3_mark	got	IN	O
+12-2	I	12-3_nsubj	got	PRP	P1_passenger
+12-3	got	12-10_advcl	ate	VBD	O
+12-4	back	12-3_advmod	got	RB	O
+12-5	to	O	O	O	O
+12-6	my	O	O	PRP$	P1_passenger
+12-7	seat	12-3_prep_to	got	NN	P1_seat
+12-8	,	O	O	O	O
+12-9	I	12-10_nsubj	ate	PRP	P1_passenger
+12-10	ate	O	O	VBD	O
+12-11	and	O	O	O	O
+12-12	watched	12-10_conj_and	ate	VBD	O
+12-13	the	O	O	DT	O
+12-14	scenery	12-12_dobj	watched	NN	P1_in-train_entertainment
+12-15	through	O	O	O	O
+12-16	the	O	O	DT	O
+12-17	window	12-12_prep_through	watched	NN	P2_in-train_entertainment
+12-18	.	O	O	O	O
+
+#id=13
+#text=I saw lots of interesting things including a moose and we arrived at Denali right after that . 
+13-1	I	13-2_nsubj	saw	PRP	P1_passenger
+13-2	saw	O	O	VBD	O
+13-3	lots	13-2_dobj	saw	NNS	O
+13-4	of	O	O	O	O
+13-5	interesting	O	O	JJ	O
+13-6	things	O	O	NNS	P5_in-train_entertainment
+13-7	including	O	O	O	O
+13-8	a	O	O	DT	O
+13-9	moose	O	O	NN	P6_in-train_entertainment
+13-10	and	O	O	O	O
+13-11	we	13-12_nsubj	arrived	PRP	P3_passenger
+13-12	arrived	13-2_conj_and	saw	VBD	O
+13-13	at	O	O	O	O
+13-14	Denali	O	O	NNP	P1_destination
+13-15	right	13-12_prep_at	arrived	NN	O
+13-16	after	O	O	O	O
+13-17	that	13-12_prep_after	arrived	DT	O
+13-18	.	O	O	O	O

@@ -1,0 +1,197 @@
+#id=1
+#text=I bought a ticket for a train ride to the city . 
+1-1	I	1-2_nsubj	bought	PRP	P1_passenger
+1-2	bought	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	ticket	1-2_dobj	bought	NN	P1_card/ticket
+1-5	for	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	train	O	O	NN	O
+1-8	ride	1-2_prep_for	bought	NN	P1_trip
+1-9	to	O	O	O	O
+1-10	the	O	O	DT	O
+1-11	city	1-2_prep_to	bought	NN	P1_destination
+1-12	.	O	O	O	O
+
+#id=2
+#text=I made sure I was at the station at least 15 minutes early so that I would not miss the train . 
+2-1	I	2-2_nsubj	made	PRP	P1_passenger
+2-2	made	O	O	VBD	O
+2-3	sure	2-2_acomp	made	JJ	O
+2-4	I	2-5_nsubj	was	PRP	P1_passenger
+2-5	was	O	O	VBD	O
+2-6	at	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	station	2-5_prep_at	was	NN	P1_train_station
+2-9	at	O	O	IN	O
+2-10	least	O	O	JJS	O
+2-11	15	O	O	CD	O
+2-12	minutes	2-2_dobj	made	NNS	P1_time_date
+2-13	early	O	O	RB	O
+2-14	so	2-19_advmod	miss	RB	O
+2-15	that	2-19_mark	miss	IN	O
+2-16	I	2-19_nsubj	miss	PRP	P1_passenger
+2-17	would	2-19_aux	miss	MD	O
+2-18	not	2-19_neg	miss	RB	O
+2-19	miss	2-2_advcl	made	VB	O
+2-20	the	O	O	DT	O
+2-21	train	2-19_dobj	miss	NN	P1_train
+2-22	.	O	O	O	O
+
+#id=3
+#text=After waiting for a few minutes , my train was ready to be boarded . 
+3-1	After	O	O	O	O
+3-2	waiting	O	O	VBG	O
+3-3	for	O	O	O	O
+3-4	a	O	O	DT	O
+3-5	few	O	O	JJ	O
+3-6	minutes	3-2_prep_for	waiting	NNS	P2_time_date
+3-7	,	O	O	O	O
+3-8	my	O	O	PRP$	P1_passenger
+3-9	train	O	O	NN	P1_train
+3-10	was	O	O	VBD	O
+3-11	ready	O	O	JJ	O
+3-12	to	3-14_aux	boarded	TO	O
+3-13	be	3-14_auxpass	boarded	VB	O
+3-14	boarded	O	O	VBN	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=I lined up with the other passengers and gave my ticket to the lady at the counter . 
+4-1	I	4-2_nsubj	lined	PRP	P1_passenger
+4-2	lined	O	O	VBD	O
+4-3	up	4-2_prt	lined	RP	O
+4-4	with	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	other	O	O	JJ	O
+4-7	passengers	4-2_prep_with	lined	NNS	P2_passenger
+4-8	and	O	O	O	O
+4-9	gave	4-2_conj_and	lined	VBD	O
+4-10	my	O	O	PRP$	P1_passenger
+4-11	ticket	4-9_dobj	gave	NN	P1_card/ticket
+4-12	to	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	lady	4-9_prep_to	gave	NN	P1_NPart_lady
+4-15	at	O	O	O	O
+4-16	the	O	O	DT	O
+4-17	counter	4-9_prep_at	gave	NN	P1_ticket_office/website
+4-18	.	O	O	O	O
+
+#id=5
+#text=We all boarded the train in an orderly fashion and waited until it was time to depart . 
+5-1	We	5-3_nsubj	boarded	PRP	P3_passenger
+5-2	all	5-3_advmod	boarded	DT	O
+5-3	boarded	O	O	VBD	O
+5-4	the	O	O	DT	O
+5-5	train	5-3_dobj	boarded	NN	P1_train
+5-6	in	O	O	O	O
+5-7	an	O	O	DT	O
+5-8	orderly	O	O	JJ	O
+5-9	fashion	5-3_prep_in	boarded	NN	O
+5-10	and	O	O	O	O
+5-11	waited	5-3_conj_and	boarded	VBD	O
+5-12	until	O	O	IN	O
+5-13	it	O	O	PRP	O
+5-14	was	O	O	VBD	O
+5-15	time	5-11_advcl	waited	NN	P3_time_date
+5-16	to	5-17_aux	depart	TO	O
+5-17	depart	O	O	VB	O
+5-18	.	O	O	O	O
+
+#id=6
+#text=It was n't too long until it was time for the train to go . 
+6-1	It	O	O	PRP	O
+6-2	was	O	O	VBD	O
+6-3	n't	O	O	RB	O
+6-4	too	O	O	RB	O
+6-5	long	O	O	JJ	O
+6-6	until	O	O	IN	O
+6-7	it	O	O	PRP	O
+6-8	was	O	O	VBD	O
+6-9	time	O	O	NN	P4_time_date
+6-10	for	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	train	O	O	NN	P1_train
+6-13	to	6-14_aux	go	TO	O
+6-14	go	O	O	VB	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=I quietly sat by the window seat and looked at the great scenery outside as the train went by . 
+7-1	I	7-3_nsubj	sat	PRP	P1_passenger
+7-2	quietly	7-3_advmod	sat	RB	O
+7-3	sat	O	O	VBD	O
+7-4	by	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	window	O	O	NN	O
+7-7	seat	7-3_prep_by	sat	NN	P1_seat
+7-8	and	O	O	O	O
+7-9	looked	7-3_conj_and	sat	VBD	O
+7-10	at	O	O	O	O
+7-11	the	O	O	DT	O
+7-12	great	O	O	JJ	O
+7-13	scenery	O	O	NN	P1_in-train_entertainment
+7-14	outside	7-9_prep_at	looked	NN	O
+7-15	as	7-18_mark	went	IN	O
+7-16	the	O	O	DT	O
+7-17	train	7-18_nsubj	went	NN	P1_train
+7-18	went	7-9_advcl	looked	VBD	O
+7-19	by	7-18_prep	went	IN	O
+7-20	.	O	O	O	O
+
+#id=8
+#text=I would have never seen some of the scenery had I not taken the train . 
+8-1	I	8-5_nsubj	seen	PRP	P1_passenger
+8-2	would	8-5_aux	seen	MD	O
+8-3	have	8-5_aux	seen	VB	O
+8-4	never	8-5_neg	seen	RB	O
+8-5	seen	8-13_dep	taken	VBN	O
+8-6	some	8-5_dobj	seen	DT	O
+8-7	of	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	scenery	O	O	NN	P2_in-train_entertainment
+8-10	had	8-13_aux	taken	VBD	O
+8-11	I	8-13_dobj	taken	PRP	P1_passenger
+8-12	not	8-13_neg	taken	RB	O
+8-13	taken	O	O	VBN	O
+8-14	the	O	O	DT	O
+8-15	train	8-13_nsubj	taken	NN	P1_train
+8-16	.	O	O	O	O
+
+#id=9
+#text=Before I knew it , the train had arrived at our destination in the city . 
+9-1	Before	9-3_mark	knew	IN	O
+9-2	I	9-3_nsubj	knew	PRP	P1_passenger
+9-3	knew	9-9_advcl	arrived	VBD	O
+9-4	it	9-3_dobj	knew	PRP	O
+9-5	,	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	train	9-9_nsubj	arrived	NN	P1_train
+9-8	had	9-9_aux	arrived	VBD	O
+9-9	arrived	O	O	VBN	O
+9-10	at	O	O	O	O
+9-11	our	O	O	PRP$	P3_passenger
+9-12	destination	9-9_prep_at	arrived	NN	P1_destination
+9-13	in	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	city	O	O	NN	P1_destination
+9-16	.	O	O	O	O
+
+#id=10
+#text=I am glad I decided to take the train this time because I enjoyed it . 
+10-1	I	O	O	PRP	P1_passenger
+10-2	am	O	O	VBP	O
+10-3	glad	O	O	JJ	O
+10-4	I	10-5_nsubj	decided	PRP	P1_passenger
+10-5	decided	O	O	VBD	O
+10-6	to	10-7_aux	take	TO	O
+10-7	take	10-5_xcomp	decided	VB	O
+10-8	the	O	O	DT	O
+10-9	train	10-7_dobj	take	NN	P1_train
+10-10	this	O	O	DT	O
+10-11	time	10-5_dobj	decided	NN	O
+10-12	because	10-14_mark	enjoyed	IN	O
+10-13	I	10-14_nsubj	enjoyed	PRP	P1_passenger
+10-14	enjoyed	10-5_advcl	decided	VBD	O
+10-15	it	10-14_dobj	enjoyed	PRP	O
+10-16	.	O	O	O	O

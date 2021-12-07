@@ -1,0 +1,183 @@
+#id=1
+#text=My bike tire was flat so I went to the bike shop and bought a replacement . 
+1-1	My	O	O	PRP$	P1_rider
+1-2	bike	O	O	NN	O
+1-3	tire	O	O	NN	P1_tire
+1-4	was	O	O	VBD	O
+1-5	flat	O	O	JJ	O
+1-6	so	1-8_mark	went	IN	O
+1-7	I	1-8_nsubj	went	PRP	P1_rider
+1-8	went	O	O	VBD	O
+1-9	to	O	O	O	O
+1-10	the	O	O	DT	O
+1-11	bike	O	O	NN	O
+1-12	shop	1-8_prep_to	went	NN	P1_shop
+1-13	and	O	O	O	O
+1-14	bought	1-8_conj_and	went	VBD	O
+1-15	a	O	O	DT	O
+1-16	replacement	1-14_dobj	bought	NN	P1_spare_tube
+1-17	.	O	O	O	O
+
+#id=2
+#text=I first took the old tire off of my bike . 
+2-1	I	2-3_nsubj	took	PRP	P1_rider
+2-2	first	2-3_advmod	took	RB	O
+2-3	took	O	O	VBD	O
+2-4	the	O	O	DT	O
+2-5	old	O	O	JJ	O
+2-6	tire	2-3_dobj	took	NN	P1_tire
+2-7	off	O	O	O	O
+2-8	of	O	O	O	O
+2-9	my	O	O	PRP$	P1_rider
+2-10	bike	2-3_prep_off_of	took	NN	P1_bicycle
+2-11	.	O	O	O	O
+
+#id=3
+#text=Then I set my bike on a rack to that the flat tire would be easy to get to . 
+3-1	Then	3-3_advmod	set	RB	O
+3-2	I	3-3_nsubj	set	PRP	P1_rider
+3-3	set	O	O	VBD	O
+3-4	my	O	O	PRP$	P1_rider
+3-5	bike	3-3_dobj	set	NN	P1_bicycle
+3-6	on	O	O	O	O
+3-7	a	O	O	DT	O
+3-8	rack	3-3_prep_on	set	NN	P1_NPart_rack
+3-9	to	O	O	O	O
+3-10	that	O	O	WDT	O
+3-11	the	O	O	DT	O
+3-12	flat	O	O	JJ	O
+3-13	tire	O	O	NN	P1_tire
+3-14	would	O	O	MD	O
+3-15	be	O	O	VB	O
+3-16	easy	O	O	JJ	O
+3-17	to	3-18_aux	get	TO	O
+3-18	get	O	O	VB	O
+3-19	to	3-18_prep	get	TO	O
+3-20	.	O	O	O	O
+
+#id=4
+#text=Then I put the new tire around the wheel to see if it fits . 
+4-1	Then	4-3_advmod	put	RB	O
+4-2	I	4-3_nsubj	put	PRP	P1_rider
+4-3	put	O	O	VBD	O
+4-4	the	O	O	DT	O
+4-5	new	O	O	JJ	O
+4-6	tire	4-3_dobj	put	NN	P1_spare_tube
+4-7	around	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	wheel	4-3_prep_around	put	NN	P1_wheel
+4-10	to	4-11_aux	see	TO	O
+4-11	see	4-3_vmod	put	VB	O
+4-12	if	4-14_mark	fits	IN	O
+4-13	it	4-14_nsubj	fits	PRP	P1_spare_tube
+4-14	fits	4-11_advcl	see	VBZ	O
+4-15	.	O	O	O	O
+
+#id=5
+#text=It did . 
+5-1	It	5-2_nsubj	did	PRP	P1_spare_tube
+5-2	did	O	O	VBD	O
+5-3	.	O	O	O	O
+
+#id=6
+#text=Then I put the new tire into the grooves inside the wheel . 
+6-1	Then	6-3_advmod	put	RB	O
+6-2	I	6-3_nsubj	put	PRP	P1_rider
+6-3	put	O	O	VBD	O
+6-4	the	O	O	DT	O
+6-5	new	O	O	JJ	O
+6-6	tire	6-3_dobj	put	NN	P1_spare_tube
+6-7	into	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	grooves	6-3_prep_into	put	NN	P1_NPart_grooves
+6-10	inside	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	wheel	O	O	NN	P1_wheel
+6-13	.	O	O	O	O
+
+#id=7
+#text=Then I walked with my bike to the gas station just around the corner to fill it up with air . 
+7-1	Then	7-3_advmod	walked	RB	O
+7-2	I	7-3_nsubj	walked	PRP	P1_rider
+7-3	walked	O	O	VBD	O
+7-4	with	O	O	O	O
+7-5	my	O	O	PRP$	P1_rider
+7-6	bike	7-3_prep_with	walked	NN	P1_bicycle
+7-7	to	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	gas	O	O	NN	O
+7-10	station	7-3_prep_to	walked	NN	P1_location_repair
+7-11	just	7-3_advmod	walked	RB	O
+7-12	around	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	corner	7-3_prep_around	walked	NN	O
+7-15	to	7-16_aux	fill	TO	O
+7-16	fill	O	O	VB	O
+7-17	it	7-16_dobj	fill	PRP	P1_spare_tube
+7-18	up	7-16_prt	fill	RP	O
+7-19	with	O	O	O	O
+7-20	air	7-16_prep_with	fill	NN	P1_air
+7-21	.	O	O	O	O
+
+#id=8
+#text=I put a quarter into the air machine and put my bike next to the air hose and filled the tire up . 
+8-1	I	8-2_nsubj	put	PRP	P1_rider
+8-2	put	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	quarter	8-2_dobj	put	NN	P1_NPart_quarter
+8-5	into	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	air	O	O	NN	O
+8-8	machine	8-2_prep_into	put	NN	P1_tool
+8-9	and	O	O	O	O
+8-10	put	8-2_conj_and	put	VB	O
+8-11	my	O	O	PRP$	P1_rider
+8-12	bike	8-10_dobj	put	NN	P1_bicycle
+8-13	next	O	O	O	O
+8-14	to	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	air	O	O	NN	O
+8-17	hose	8-10_prep_next_to	put	NN	P2_tool
+8-18	and	O	O	O	O
+8-19	filled	8-2_conj_and	put	VBD	O
+8-20	the	O	O	DT	O
+8-21	tire	8-19_dobj	filled	NN	P1_spare_tube
+8-22	up	8-19_prt	filled	RP	O
+8-23	.	O	O	O	O
+
+#id=9
+#text=I checked the air pressure with a gauge and it was alright . 
+9-1	I	9-2_nsubj	checked	PRP	P1_rider
+9-2	checked	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	air	O	O	NN	O
+9-5	pressure	9-2_dobj	checked	NN	P1_pressure
+9-6	with	O	O	O	O
+9-7	a	O	O	DT	O
+9-8	gauge	9-2_prep_with	checked	NN	P3_tool
+9-9	and	O	O	O	O
+9-10	it	O	O	PRP	P1_pressure
+9-11	was	O	O	VBD	O
+9-12	alright	9-2_conj_and	checked	JJ	O
+9-13	.	O	O	O	O
+
+#id=10
+#text=I felt around the tire to make sure that it was solidly in place and it was . 
+10-1	I	10-2_nsubj	felt	PRP	P1_rider
+10-2	felt	O	O	VBD	O
+10-3	around	O	O	O	O
+10-4	the	O	O	DT	O
+10-5	tire	10-2_prep_around	felt	NN	P1_spare_tube
+10-6	to	10-7_aux	make	TO	O
+10-7	make	10-2_xcomp	felt	VB	O
+10-8	sure	10-7_acomp	make	JJ	O
+10-9	that	10-11_mark	was	IN	O
+10-10	it	10-11_nsubj	was	PRP	P1_spare_tube
+10-11	was	10-7_ccomp	make	VBD	O
+10-12	solidly	10-11_advmod	was	RB	O
+10-13	in	O	O	O	O
+10-14	place	10-11_prep_in	was	NN	O
+10-15	and	O	O	O	O
+10-16	it	10-17_nsubj	was	PRP	P1_spare_tube
+10-17	was	10-2_conj_and	felt	VBD	O
+10-18	.	O	O	O	O

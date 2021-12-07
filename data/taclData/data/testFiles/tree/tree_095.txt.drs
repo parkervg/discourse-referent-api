@@ -1,0 +1,182 @@
+#id=1
+#text=Last year , I was outside working in the garden when I realized that my front yard would like much nicer if I planted a tree to provide it with a little shade . 
+1-1	Last	O	O	JJ	O
+1-2	year	1-7_tmod	working	NN	P1_time
+1-3	,	O	O	O	O
+1-4	I	1-7_nsubj	working	PRP	P1_gardener
+1-5	was	1-7_aux	working	VBD	O
+1-6	outside	1-7_advmod	working	RB	O
+1-7	working	O	O	VBG	O
+1-8	in	O	O	O	O
+1-9	the	O	O	DT	O
+1-10	garden	1-7_prep_in	working	NN	P1_location_garden
+1-11	when	1-13_advmod	realized	WRB	O
+1-12	I	1-13_nsubj	realized	PRP	P1_gardener
+1-13	realized	1-7_advcl	working	VBD	O
+1-14	that	1-19_mark	like	IN	O
+1-15	my	O	O	PRP$	P1_gardener
+1-16	front	O	O	JJ	O
+1-17	yard	1-19_nsubj	like	NN	P2_location_garden
+1-18	would	1-19_aux	like	MD	O
+1-19	like	1-13_ccomp	realized	VB	O
+1-20	much	O	O	RB	O
+1-21	nicer	1-19_acomp	like	JJR	O
+1-22	if	1-24_mark	planted	IN	O
+1-23	I	1-24_nsubj	planted	PRP	P1_gardener
+1-24	planted	1-19_advcl	like	VBD	O
+1-25	a	O	O	DT	O
+1-26	tree	1-24_dobj	planted	NN	P1_tree
+1-27	to	1-28_aux	provide	TO	O
+1-28	provide	O	O	VB	O
+1-29	it	1-28_dobj	provide	PRP	P2_location_garden
+1-30	with	O	O	O	O
+1-31	a	O	O	DT	O
+1-32	little	O	O	JJ	O
+1-33	shade	1-28_prep_with	provide	NN	P1_other
+1-34	.	O	O	O	O
+
+#id=2
+#text=I went to the gardeners store down the street and pick up some seeds to plant my tree . 
+2-1	I	2-2_nsubj	went	PRP	P1_gardener
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	gardeners	2-2_prep_to	went	NNS	O
+2-6	store	2-2_ccomp	went	VB	P1_shop
+2-7	down	2-6_prt	store	RP	O
+2-8	the	O	O	DT	O
+2-9	street	2-6_dobj	store	NN	P1_NPart_street
+2-10	and	O	O	O	O
+2-11	pick	2-6_conj_and	store	VB	O
+2-12	up	2-11_prt	pick	RP	O
+2-13	some	O	O	DT	O
+2-14	seeds	2-11_dobj	pick	NNS	P1_seeds
+2-15	to	2-16_aux	plant	TO	O
+2-16	plant	2-11_vmod	pick	VB	O
+2-17	my	O	O	PRP$	P1_gardener
+2-18	tree	2-16_dobj	plant	NN	P1_tree
+2-19	.	O	O	O	O
+
+#id=3
+#text=I decided on a maple tree as that would look nice and make a perfect amount of shade for my front lawn . 
+3-1	I	3-2_nsubj	decided	PRP	P1_gardener
+3-2	decided	O	O	VBD	O
+3-3	on	O	O	O	O
+3-4	a	O	O	DT	O
+3-5	maple	O	O	JJ	O
+3-6	tree	3-2_prep_on	decided	NN	P1_tree
+3-7	as	3-10_mark	look	IN	O
+3-8	that	3-10_nsubj	look	DT	P1_tree
+3-9	would	3-10_aux	look	MD	O
+3-10	look	3-2_advcl	decided	VB	O
+3-11	nice	3-10_acomp	look	JJ	O
+3-12	and	O	O	O	O
+3-13	make	3-10_conj_and	look	VB	O
+3-14	a	O	O	DT	O
+3-15	perfect	O	O	JJ	O
+3-16	amount	3-13_dobj	make	NN	O
+3-17	of	O	O	O	O
+3-18	shade	O	O	NN	P2_other
+3-19	for	O	O	O	O
+3-20	my	O	O	PRP$	P1_gardener
+3-21	front	O	O	JJ	O
+3-22	lawn	3-13_prep_for	make	NN	P2_location_garden
+3-23	.	O	O	O	O
+
+#id=4
+#text=I dug a small hole where I wanted to plant the tree and put the seeds in place . 
+4-1	I	4-2_nsubj	dug	PRP	P1_gardener
+4-2	dug	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	small	O	O	JJ	O
+4-5	hole	4-2_dobj	dug	NN	P1_hole
+4-6	where	4-8_advmod	wanted	WRB	O
+4-7	I	4-8_nsubj	wanted	PRP	P1_gardener
+4-8	wanted	4-2_advcl	dug	VBD	O
+4-9	to	4-10_aux	plant	TO	O
+4-10	plant	4-8_xcomp	wanted	VB	O
+4-11	the	O	O	DT	O
+4-12	tree	4-10_dobj	plant	NN	P1_tree
+4-13	and	O	O	O	O
+4-14	put	4-10_conj_and	plant	VB	O
+4-15	the	O	O	DT	O
+4-16	seeds	4-14_dobj	put	NNS	P1_seeds
+4-17	in	O	O	O	O
+4-18	place	4-14_prep_in	put	NN	P1_hole
+4-19	.	O	O	O	O
+
+#id=5
+#text=Every few weeks I noticed that the tree started to grow more and more as I provided it with the correct amount of water and nutrients . 
+5-1	Every	O	O	DT	O
+5-2	few	O	O	JJ	O
+5-3	weeks	5-5_tmod	noticed	NNS	P2_time
+5-4	I	5-5_nsubj	noticed	PRP	P1_gardener
+5-5	noticed	O	O	VBD	O
+5-6	that	5-9_mark	started	IN	O
+5-7	the	O	O	DT	O
+5-8	tree	5-9_nsubj	started	NN	P1_tree
+5-9	started	5-5_ccomp	noticed	VBD	O
+5-10	to	5-11_aux	grow	TO	O
+5-11	grow	5-9_xcomp	started	VB	O
+5-12	more	5-11_advmod	grow	RBR	O
+5-13	and	O	O	O	O
+5-14	more	O	O	RBR	O
+5-15	as	5-17_mark	provided	IN	O
+5-16	I	5-17_nsubj	provided	PRP	P1_gardener
+5-17	provided	5-11_advcl	grow	VBD	O
+5-18	it	5-17_dobj	provided	PRP	P1_tree
+5-19	with	O	O	O	O
+5-20	the	O	O	DT	O
+5-21	correct	O	O	JJ	O
+5-22	amount	5-17_prep_with	provided	NN	O
+5-23	of	O	O	O	O
+5-24	water	O	O	NN	P1_water
+5-25	and	O	O	O	O
+5-26	nutrients	O	O	NNS	P1_fertilizer
+5-27	.	O	O	O	O
+
+#id=6
+#text=After about 12 months the tree I had planted was nearly fully grown and looked wonderful next to me garden . 
+6-1	After	O	O	O	O
+6-2	about	O	O	RB	O
+6-3	12	O	O	CD	O
+6-4	months	6-13_prep_after	grown	NNS	P3_time
+6-5	the	O	O	DT	O
+6-6	tree	6-13_nsubjpass	grown	NN	P1_tree
+6-7	I	6-9_nsubj	planted	PRP	P1_gardener
+6-8	had	6-9_aux	planted	VBD	O
+6-9	planted	O	O	VBN	O
+6-10	was	6-13_auxpass	grown	VBD	O
+6-11	nearly	6-13_advmod	grown	RB	O
+6-12	fully	6-13_advmod	grown	RB	O
+6-13	grown	O	O	VBN	O
+6-14	and	O	O	O	O
+6-15	looked	6-13_conj_and	grown	VBD	O
+6-16	wonderful	O	O	JJ	O
+6-17	next	O	O	O	O
+6-18	to	O	O	O	O
+6-19	me	O	O	PRP	P1_gardener
+6-20	garden	6-15_dobj	looked	NN	P2_location_garden
+6-21	.	O	O	O	O
+
+#id=7
+#text=I was very satisfied with the entire situation and love the idea of plants growing from the ground . 
+7-1	I	O	O	PRP	P1_gardener
+7-2	was	O	O	VBD	O
+7-3	very	O	O	RB	O
+7-4	satisfied	O	O	JJ	O
+7-5	with	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	entire	O	O	JJ	O
+7-8	situation	O	O	NN	P1_NPart_situation
+7-9	and	O	O	O	O
+7-10	love	O	O	VBP	O
+7-11	the	O	O	DT	O
+7-12	idea	7-10_dobj	love	NN	P1_NPart_idea
+7-13	of	O	O	O	O
+7-14	plants	O	O	NNS	P2_tree
+7-15	growing	O	O	VBG	O
+7-16	from	O	O	O	O
+7-17	the	O	O	DT	O
+7-18	ground	7-15_prep_from	growing	NN	P3_other
+7-19	.	O	O	O	O

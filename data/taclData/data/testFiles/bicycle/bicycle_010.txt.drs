@@ -1,0 +1,352 @@
+#id=1
+#text=I went out to ride my bicycle one morning , only to find that my front tire was very flat . 
+1-1	I	1-2_nsubj	went	PRP	P1_rider
+1-2	went	O	O	VBD	O
+1-3	out	1-2_prt	went	RP	O
+1-4	to	1-5_aux	ride	TO	O
+1-5	ride	1-2_xcomp	went	VB	O
+1-6	my	O	O	PRP$	P1_rider
+1-7	bicycle	1-5_dobj	ride	NN	P1_bicycle
+1-8	one	O	O	CD	O
+1-9	morning	1-2_tmod	went	NN	P1_NPart_morning
+1-10	,	O	O	O	O
+1-11	only	1-13_advmod	find	RB	O
+1-12	to	1-13_aux	find	TO	O
+1-13	find	1-2_vmod	went	VB	O
+1-14	that	O	O	IN	O
+1-15	my	O	O	PRP$	P1_rider
+1-16	front	O	O	JJ	O
+1-17	tire	O	O	NN	P1_tire
+1-18	was	O	O	VBD	O
+1-19	very	O	O	RB	O
+1-20	flat	1-13_ccomp	find	JJ	O
+1-21	.	O	O	O	O
+
+#id=2
+#text=I grabbed my manual air pump and tried to put air into it , but it would not hold any and kept going flat . 
+2-1	I	2-2_nsubj	grabbed	PRP	P1_rider
+2-2	grabbed	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_rider
+2-4	manual	O	O	JJ	O
+2-5	air	O	O	NN	O
+2-6	pump	2-2_dobj	grabbed	NN	P1_tool
+2-7	and	O	O	O	O
+2-8	tried	2-2_conj_and	grabbed	VBD	O
+2-9	to	2-10_aux	put	TO	O
+2-10	put	2-8_xcomp	tried	VB	O
+2-11	air	2-10_dobj	put	NN	P1_air
+2-12	into	O	O	O	O
+2-13	it	2-10_prep_into	put	PRP	P1_tire
+2-14	,	O	O	O	O
+2-15	but	O	O	O	O
+2-16	it	2-19_nsubj	hold	PRP	P1_tire
+2-17	would	2-19_aux	hold	MD	O
+2-18	not	2-19_neg	hold	RB	O
+2-19	hold	2-2_conj_but	grabbed	VB	O
+2-20	any	2-19_dobj	hold	DT	O
+2-21	and	O	O	O	O
+2-22	kept	2-19_conj_and	hold	VBD	O
+2-23	going	2-22_xcomp	kept	VBG	O
+2-24	flat	2-23_acomp	going	JJ	O
+2-25	.	O	O	O	O
+
+#id=3
+#text=I heard a hissing sound , so I knew I had punctured the tire somehow . 
+3-1	I	3-2_nsubj	heard	PRP	P1_rider
+3-2	heard	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	hissing	O	O	VBG	O
+3-5	sound	3-2_dobj	heard	NN	P1_NPart_sound
+3-6	,	O	O	O	O
+3-7	so	3-2_dep	heard	IN	O
+3-8	I	3-9_nsubj	knew	PRP	P1_rider
+3-9	knew	3-2_parataxis	heard	VBD	O
+3-10	I	3-12_nsubj	punctured	PRP	P1_rider
+3-11	had	3-12_aux	punctured	VBD	O
+3-12	punctured	3-9_ccomp	knew	VBN	O
+3-13	the	O	O	DT	O
+3-14	tire	3-12_dobj	punctured	NN	P1_tire
+3-15	somehow	3-12_advmod	punctured	RB	O
+3-16	.	O	O	O	O
+
+#id=4
+#text=Luckily I had a spare inner tube that I could put on . 
+4-1	Luckily	4-3_advmod	had	RB	O
+4-2	I	4-3_nsubj	had	PRP	P1_rider
+4-3	had	O	O	VBD	O
+4-4	a	O	O	DT	O
+4-5	spare	O	O	JJ	O
+4-6	inner	O	O	JJ	O
+4-7	tube	4-3_dobj	had	NN	P1_spare_tube
+4-8	that	4-11_mark	put	IN	O
+4-9	I	4-11_nsubj	put	PRP	P1_rider
+4-10	could	4-11_aux	put	MD	O
+4-11	put	4-3_ccomp	had	VB	O
+4-12	on	4-11_prt	put	RP	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=I flipped my bicycle over and took a wrench to remove the tire from the spokes . 
+5-1	I	5-2_nsubj	flipped	PRP	P1_rider
+5-2	flipped	O	O	VBD	O
+5-3	my	O	O	PRP$	P1_rider
+5-4	bicycle	5-2_dobj	flipped	NN	P1_bicycle
+5-5	over	5-2_prt	flipped	RP	O
+5-6	and	O	O	O	O
+5-7	took	5-2_conj_and	flipped	VBD	O
+5-8	a	O	O	DT	O
+5-9	wrench	5-7_dobj	took	NN	P2_tool
+5-10	to	5-11_aux	remove	TO	O
+5-11	remove	5-7_vmod	took	VB	O
+5-12	the	O	O	DT	O
+5-13	tire	5-11_dobj	remove	NN	P1_tire
+5-14	from	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	spokes	5-11_prep_from	remove	NNS	P1_wheel
+5-17	.	O	O	O	O
+
+#id=6
+#text=It was kind of greasy and messy , but I did n't mind . 
+6-1	It	O	O	PRP	P1_tire
+6-2	was	O	O	VBD	O
+6-3	kind	O	O	NN	O
+6-4	of	O	O	O	O
+6-5	greasy	O	O	NN	O
+6-6	and	O	O	O	O
+6-7	messy	O	O	NN	O
+6-8	,	O	O	O	O
+6-9	but	O	O	O	O
+6-10	I	6-13_nsubj	mind	PRP	P1_rider
+6-11	did	6-13_aux	mind	VBD	O
+6-12	n't	6-13_neg	mind	RB	O
+6-13	mind	O	O	VB	O
+6-14	.	O	O	O	O
+
+#id=7
+#text=I was able to get it off pretty easily . 
+7-1	I	O	O	PRP	P1_rider
+7-2	was	O	O	VBD	O
+7-3	able	O	O	JJ	O
+7-4	to	7-5_aux	get	TO	O
+7-5	get	O	O	VB	O
+7-6	it	7-5_dobj	get	PRP	P1_tire
+7-7	off	7-5_prt	get	RP	O
+7-8	pretty	O	O	RB	O
+7-9	easily	7-5_advmod	get	RB	O
+7-10	.	O	O	O	O
+
+#id=8
+#text=I then pushed the tire off of the rim all the way around . 
+8-1	I	8-3_nsubj	pushed	PRP	P1_rider
+8-2	then	8-3_advmod	pushed	RB	O
+8-3	pushed	O	O	VBD	O
+8-4	the	O	O	DT	O
+8-5	tire	8-3_dobj	pushed	NN	P1_tire
+8-6	off	O	O	O	O
+8-7	of	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	rim	8-3_prep_off_of	pushed	NN	P1_rim
+8-10	all	O	O	PDT	O
+8-11	the	O	O	DT	O
+8-12	way	O	O	NN	O
+8-13	around	O	O	IN	O
+8-14	.	O	O	O	O
+
+#id=9
+#text=When the tire was off the rim , I took the spare tube I had and put it all around the inside of the tire . 
+9-1	When	9-4_advmod	was	WRB	O
+9-2	the	O	O	DT	O
+9-3	tire	9-4_nsubj	was	NN	P1_tire
+9-4	was	9-10_advcl	took	VBD	O
+9-5	off	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	rim	9-4_prep_off	was	NN	P1_rim
+9-8	,	O	O	O	O
+9-9	I	9-10_nsubj	took	PRP	P1_rider
+9-10	took	O	O	VBD	O
+9-11	the	O	O	DT	O
+9-12	spare	O	O	JJ	O
+9-13	tube	9-10_dobj	took	NN	P1_spare_tube
+9-14	I	9-15_nsubj	had	PRP	P1_rider
+9-15	had	O	O	VBD	O
+9-16	and	O	O	O	O
+9-17	put	9-15_conj_and	had	VBD	O
+9-18	it	9-17_dobj	put	PRP	P1_spare_tube
+9-19	all	9-17_dep	put	DT	O
+9-20	around	O	O	O	O
+9-21	the	O	O	DT	O
+9-22	inside	9-17_prep_around	put	NN	P1_NPart_inside
+9-23	of	O	O	O	O
+9-24	the	O	O	DT	O
+9-25	tire	O	O	NN	P1_tire
+9-26	.	O	O	O	O
+
+#id=10
+#text=I then pushed the tire back onto the rim . 
+10-1	I	10-3_nsubj	pushed	PRP	P1_rider
+10-2	then	10-3_advmod	pushed	RB	O
+10-3	pushed	O	O	VBD	O
+10-4	the	O	O	DT	O
+10-5	tire	10-3_dobj	pushed	NN	P1_tire
+10-6	back	10-3_advmod	pushed	RB	O
+10-7	onto	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	rim	10-3_prep_onto	pushed	NN	P1_rim
+10-10	.	O	O	O	O
+
+#id=11
+#text=It did not go on as easily as it came off , and it took a bit of struggling with the tire to get it back on . 
+11-1	It	11-4_nsubj	go	PRP	P1_tire
+11-2	did	11-4_aux	go	VBD	O
+11-3	not	11-4_neg	go	RB	O
+11-4	go	O	O	VB	O
+11-5	on	11-4_prt	go	RP	O
+11-6	as	O	O	RB	O
+11-7	easily	11-4_advmod	go	RB	O
+11-8	as	11-10_mark	came	IN	O
+11-9	it	11-10_nsubj	came	PRP	P1_tire
+11-10	came	O	O	VBD	O
+11-11	off	11-10_prt	came	RP	O
+11-12	,	O	O	O	O
+11-13	and	O	O	O	O
+11-14	it	11-15_nsubj	took	PRP	O
+11-15	took	11-4_conj_and	go	VBD	O
+11-16	a	O	O	DT	O
+11-17	bit	11-15_dobj	took	NN	O
+11-18	of	O	O	O	O
+11-19	struggling	O	O	VBG	O
+11-20	with	O	O	O	O
+11-21	the	O	O	DT	O
+11-22	tire	11-19_prep_with	struggling	NN	P1_tire
+11-23	to	11-24_aux	get	TO	O
+11-24	get	O	O	VB	O
+11-25	it	11-24_dobj	get	PRP	P1_tire
+11-26	back	O	O	RB	O
+11-27	on	11-24_advmod	get	RB	O
+11-28	.	O	O	O	O
+
+#id=12
+#text=Finally I had it on . 
+12-1	Finally	12-3_advmod	had	RB	O
+12-2	I	12-3_nsubj	had	PRP	P1_rider
+12-3	had	O	O	VBD	O
+12-4	it	12-3_dobj	had	PRP	P1_tire
+12-5	on	12-3_prep	had	IN	O
+12-6	.	O	O	O	O
+
+#id=13
+#text=I took my manual air pump and pumped up the tube inside of the tire . 
+13-1	I	13-2_nsubj	took	PRP	P1_rider
+13-2	took	O	O	VBD	O
+13-3	my	O	O	PRP$	P1_rider
+13-4	manual	O	O	JJ	O
+13-5	air	O	O	NN	O
+13-6	pump	13-2_dobj	took	NN	P1_tool
+13-7	and	O	O	O	O
+13-8	pumped	13-2_conj_and	took	VBD	O
+13-9	up	13-8_prt	pumped	RP	O
+13-10	the	O	O	DT	O
+13-11	tube	O	O	NN	P1_spare_tube
+13-12	inside	13-8_dobj	pumped	NN	O
+13-13	of	O	O	O	O
+13-14	the	O	O	DT	O
+13-15	tire	O	O	NN	P1_tire
+13-16	.	O	O	O	O
+
+#id=14
+#text=It held air very nicely , and I did n't hear any hissing and it did not go flat . 
+14-1	It	14-2_nsubj	held	PRP	P1_tire
+14-2	held	O	O	VBD	O
+14-3	air	14-2_dobj	held	NN	P1_air
+14-4	very	O	O	RB	O
+14-5	nicely	14-2_advmod	held	RB	O
+14-6	,	O	O	O	O
+14-7	and	O	O	O	O
+14-8	I	14-11_nsubj	hear	PRP	P1_rider
+14-9	did	14-11_aux	hear	VBD	O
+14-10	n't	14-11_neg	hear	RB	O
+14-11	hear	14-2_conj_and	held	VB	O
+14-12	any	O	O	DT	O
+14-13	hissing	14-11_dobj	hear	NN	O
+14-14	and	O	O	O	O
+14-15	it	14-18_nsubj	go	PRP	P1_tire
+14-16	did	14-18_aux	go	VBD	O
+14-17	not	14-18_neg	go	RB	O
+14-18	go	14-11_conj_and	hear	VB	O
+14-19	flat	14-18_acomp	go	JJ	O
+14-20	.	O	O	O	O
+
+#id=15
+#text=I then put the tire back on the front bicycle fork , and tightened the nuts so it would hold very well and not slip or come off . 
+15-1	I	15-3_nsubj	put	PRP	P1_rider
+15-2	then	15-3_advmod	put	RB	O
+15-3	put	O	O	VBD	O
+15-4	the	O	O	DT	O
+15-5	tire	15-3_dobj	put	NN	P1_tire
+15-6	back	15-3_prt	put	RP	O
+15-7	on	O	O	O	O
+15-8	the	O	O	DT	O
+15-9	front	O	O	JJ	O
+15-10	bicycle	O	O	NN	O
+15-11	fork	15-3_prep_on	put	NN	P1_bicycle_small_detail
+15-12	,	O	O	O	O
+15-13	and	O	O	O	O
+15-14	tightened	15-3_conj_and	put	VBD	O
+15-15	the	O	O	DT	O
+15-16	nuts	15-14_dobj	tightened	NNS	P2_bicycle_small_detail
+15-17	so	15-20_mark	hold	IN	O
+15-18	it	15-20_nsubj	hold	PRP	P1_tire
+15-19	would	15-20_aux	hold	MD	O
+15-20	hold	15-14_advcl	tightened	VB	O
+15-21	very	O	O	RB	O
+15-22	well	15-20_advmod	hold	RB	O
+15-23	and	O	O	O	O
+15-24	not	15-25_neg	slip	RB	O
+15-25	slip	15-20_conj_and	hold	VB	O
+15-26	or	O	O	O	O
+15-27	come	15-25_conj_or	slip	VB	O
+15-28	off	15-27_prt	come	RP	O
+15-29	.	O	O	O	O
+
+#id=16
+#text=I then flipped my bicycle over and made sure the tire was still holding air . 
+16-1	I	16-3_nsubj	flipped	PRP	P1_rider
+16-2	then	16-3_advmod	flipped	RB	O
+16-3	flipped	O	O	VBD	O
+16-4	my	O	O	PRP$	P1_rider
+16-5	bicycle	16-3_dobj	flipped	NN	P1_bicycle
+16-6	over	16-3_prt	flipped	RP	O
+16-7	and	O	O	O	O
+16-8	made	16-3_conj_and	flipped	VBD	O
+16-9	sure	16-8_acomp	made	JJ	O
+16-10	the	O	O	DT	O
+16-11	tire	16-14_nsubj	holding	NN	P1_tire
+16-12	was	16-14_aux	holding	VBD	O
+16-13	still	16-14_advmod	holding	RB	O
+16-14	holding	O	O	VBG	O
+16-15	air	16-14_dobj	holding	NN	P1_air
+16-16	.	O	O	O	O
+
+#id=17
+#text=It was , so I put on my helmet , and finally was able to enjoy my morning bike ride . 
+17-1	It	17-2_nsubj	was	PRP	P1_tire
+17-2	was	O	O	VBD	O
+17-3	,	O	O	O	O
+17-4	so	17-2_dep	was	IN	O
+17-5	I	17-6_nsubj	put	PRP	P1_rider
+17-6	put	17-2_parataxis	was	VBD	O
+17-7	on	O	O	O	O
+17-8	my	O	O	PRP$	P1_rider
+17-9	helmet	17-6_prep_on	put	NN	P1_NPart_helmet
+17-10	,	O	O	O	O
+17-11	and	O	O	O	O
+17-12	finally	O	O	RB	O
+17-13	was	O	O	VBD	O
+17-14	able	17-6_conj_and	put	JJ	O
+17-15	to	17-16_aux	enjoy	TO	O
+17-16	enjoy	O	O	VB	O
+17-17	my	O	O	PRP$	P1_rider
+17-18	morning	O	O	NN	O
+17-19	bike	O	O	NN	O
+17-20	ride	17-16_dobj	enjoy	NN	P1_ride
+17-21	.	O	O	O	O

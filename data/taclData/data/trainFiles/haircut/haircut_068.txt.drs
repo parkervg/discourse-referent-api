@@ -1,0 +1,249 @@
+#id=1
+#text=Every few months when my hair starts to feel shaggy , I know it is time for a hair cut . 
+1-1	Every	O	O	DT	O
+1-2	few	O	O	JJ	O
+1-3	months	1-13_nsubj	know	NNS	P1_NPart_months
+1-4	when	1-7_advmod	starts	WRB	O
+1-5	my	O	O	PRP$	P1_customer
+1-6	hair	1-7_nsubj	starts	NN	P1_hair
+1-7	starts	O	O	VBZ	O
+1-8	to	1-9_aux	feel	TO	O
+1-9	feel	1-7_xcomp	starts	VB	O
+1-10	shaggy	1-9_dobj	feel	JJ	O
+1-11	,	O	O	O	O
+1-12	I	1-13_nsubj	know	PRP	P1_customer
+1-13	know	O	O	VBP	O
+1-14	it	O	O	PRP	O
+1-15	is	O	O	VBZ	O
+1-16	time	1-13_ccomp	know	NN	O
+1-17	for	O	O	O	O
+1-18	a	O	O	DT	O
+1-19	hair	O	O	NN	O
+1-20	cut	O	O	NN	P1_haircut
+1-21	.	O	O	O	O
+
+#id=2
+#text=Mom calls to make an appointment with the stylist . 
+2-1	Mom	2-2_nsubj	calls	NN	P1_NPart_mom
+2-2	calls	O	O	VBZ	O
+2-3	to	2-4_aux	make	TO	O
+2-4	make	2-2_xcomp	calls	VB	O
+2-5	an	O	O	DT	O
+2-6	appointment	2-4_dobj	make	NN	P1_appointment
+2-7	with	O	O	O	O
+2-8	the	O	O	DT	O
+2-9	stylist	2-4_prep_with	make	NN	P1_hairdresser
+2-10	.	O	O	O	O
+
+#id=3
+#text=When we arrive to the salon , the hair dresser greets me . 
+3-1	When	3-3_advmod	arrive	WRB	O
+3-2	we	3-3_nsubj	arrive	PRP	P2_customer
+3-3	arrive	3-11_advcl	greets	VBP	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	salon	3-3_prep_to	arrive	NN	P1_salon
+3-7	,	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	hair	O	O	NN	O
+3-10	dresser	3-11_nsubj	greets	NN	P1_hairdresser
+3-11	greets	O	O	VBZ	O
+3-12	me	3-11_dobj	greets	PRP	P1_customer
+3-13	.	O	O	O	O
+
+#id=4
+#text=She drapes a cape around me to keep hair from sticking to my clothes , and invites me to sit in a special chair . 
+4-1	She	4-2_nsubj	drapes	PRP	P1_hairdresser
+4-2	drapes	O	O	VBZ	O
+4-3	a	O	O	DT	O
+4-4	cape	4-2_dobj	drapes	NN	P1_cape
+4-5	around	O	O	O	O
+4-6	me	O	O	PRP	P1_customer
+4-7	to	4-8_aux	keep	TO	O
+4-8	keep	4-2_vmod	drapes	VB	O
+4-9	hair	4-8_dobj	keep	NN	P1_hair
+4-10	from	O	O	O	O
+4-11	sticking	4-8_prepc_from	keep	VBG	O
+4-12	to	O	O	O	O
+4-13	my	O	O	PRP$	P1_customer
+4-14	clothes	4-11_prep_to	sticking	NNS	P1_NPart_clothes
+4-15	,	O	O	O	O
+4-16	and	O	O	O	O
+4-17	invites	4-2_conj_and	drapes	VBZ	O
+4-18	me	4-17_dobj	invites	PRP	P1_customer
+4-19	to	4-20_aux	sit	TO	O
+4-20	sit	4-17_xcomp	invites	VB	O
+4-21	in	O	O	O	O
+4-22	a	O	O	DT	O
+4-23	special	O	O	JJ	O
+4-24	chair	4-20_prep_in	sit	NN	P1_chair
+4-25	.	O	O	O	O
+
+#id=5
+#text=First , she leans me back to shampoo and rinse my hair . 
+5-1	First	5-4_advmod	leans	RB	O
+5-2	,	O	O	O	O
+5-3	she	5-4_nsubj	leans	PRP	P1_hairdresser
+5-4	leans	O	O	VBZ	O
+5-5	me	5-4_dobj	leans	PRP	P1_customer
+5-6	back	5-4_prt	leans	RP	O
+5-7	to	O	O	O	O
+5-8	shampoo	5-4_prep_to	leans	NN	O
+5-9	and	O	O	O	O
+5-10	rinse	5-4_conj_and	leans	VBP	O
+5-11	my	O	O	PRP$	P1_customer
+5-12	hair	5-10_dobj	rinse	NN	P1_hair
+5-13	.	O	O	O	O
+
+#id=6
+#text=Once my hair is nice and clean , the hair dresser combs it out , gently removing any tangles . 
+6-1	Once	O	O	IN	O
+6-2	my	O	O	PRP$	P1_customer
+6-3	hair	O	O	NN	P1_hair
+6-4	is	O	O	VBZ	O
+6-5	nice	6-12_advcl	combs	JJ	O
+6-6	and	O	O	O	O
+6-7	clean	O	O	JJ	O
+6-8	,	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	hair	O	O	NN	O
+6-11	dresser	6-12_nsubj	combs	NN	P1_hairdresser
+6-12	combs	O	O	VBD	O
+6-13	it	6-12_dobj	combs	PRP	P2_hair
+6-14	out	6-12_prt	combs	RP	O
+6-15	,	O	O	O	O
+6-16	gently	6-17_advmod	removing	RB	O
+6-17	removing	6-12_xcomp	combs	VBG	O
+6-18	any	O	O	DT	O
+6-19	tangles	6-17_dobj	removing	NNS	P1_NPart_tangles
+6-20	.	O	O	O	O
+
+#id=7
+#text=Then she grabs a pair of professional scissors to cut my hair . 
+7-1	Then	7-3_advmod	grabs	RB	O
+7-2	she	7-3_nsubj	grabs	PRP	P1_hairdresser
+7-3	grabs	O	O	VBZ	O
+7-4	a	O	O	DT	O
+7-5	pair	7-3_dobj	grabs	NN	O
+7-6	of	O	O	O	O
+7-7	professional	O	O	JJ	O
+7-8	scissors	O	O	NNS	P1_scissors
+7-9	to	7-10_aux	cut	TO	O
+7-10	cut	7-3_xcomp	grabs	VB	O
+7-11	my	O	O	PRP$	P1_customer
+7-12	hair	7-10_dobj	cut	NN	P1_hair
+7-13	.	O	O	O	O
+
+#id=8
+#text=She trims the ends , which are often damaged . 
+8-1	She	8-2_nsubj	trims	PRP	P1_hairdresser
+8-2	trims	O	O	VBZ	O
+8-3	the	O	O	DT	O
+8-4	ends	8-2_dobj	trims	NNS	O
+8-5	,	O	O	O	O
+8-6	which	8-9_nsubjpass	damaged	WDT	O
+8-7	are	8-9_auxpass	damaged	VBP	O
+8-8	often	8-9_advmod	damaged	RB	O
+8-9	damaged	O	O	VBN	O
+8-10	.	O	O	O	O
+
+#id=9
+#text=Sometimes she will add layers into my hair as well . 
+9-1	Sometimes	9-4_advmod	add	RB	O
+9-2	she	9-4_nsubj	add	PRP	P1_hairdresser
+9-3	will	9-4_aux	add	MD	O
+9-4	add	O	O	VB	O
+9-5	layers	9-4_dobj	add	NNS	P1_other
+9-6	into	O	O	O	O
+9-7	my	O	O	PRP$	P1_customer
+9-8	hair	9-4_prep_into	add	NN	P1_hair
+9-9	as	O	O	RB	O
+9-10	well	9-4_advmod	add	RB	O
+9-11	.	O	O	O	O
+
+#id=10
+#text=After trimming my hair , she uses a hair dryer to dry it . 
+10-1	After	O	O	O	O
+10-2	trimming	10-7_prepc_after	uses	VBG	O
+10-3	my	O	O	PRP$	P1_customer
+10-4	hair	10-2_dobj	trimming	NN	P1_hair
+10-5	,	O	O	O	O
+10-6	she	10-7_nsubj	uses	PRP	P1_hairdresser
+10-7	uses	O	O	VBZ	O
+10-8	a	O	O	DT	O
+10-9	hair	O	O	NN	O
+10-10	dryer	10-7_dobj	uses	NN	P1_hairdryer
+10-11	to	10-12_aux	dry	TO	O
+10-12	dry	10-7_xcomp	uses	VB	O
+10-13	it	10-12_dobj	dry	PRP	P1_hair
+10-14	.	O	O	O	O
+
+#id=11
+#text=Finally , she brushes my hair . 
+11-1	Finally	11-4_advmod	brushes	RB	O
+11-2	,	O	O	O	O
+11-3	she	11-4_nsubj	brushes	PRP	P1_hairdresser
+11-4	brushes	O	O	VBZ	O
+11-5	my	O	O	PRP$	P1_customer
+11-6	hair	11-4_dobj	brushes	NN	P1_hair
+11-7	.	O	O	O	O
+
+#id=12
+#text=When she is finished , I look in the mirror , pleased with my freshly cut hair . 
+12-1	When	12-4_advmod	finished	WRB	O
+12-2	she	12-4_nsubjpass	finished	PRP	P1_hairdresser
+12-3	is	12-4_auxpass	finished	VBZ	O
+12-4	finished	12-7_advcl	look	VBN	O
+12-5	,	O	O	O	O
+12-6	I	12-7_nsubj	look	PRP	P1_customer
+12-7	look	O	O	VBP	O
+12-8	in	O	O	O	O
+12-9	the	O	O	DT	O
+12-10	mirror	12-7_prep_in	look	NN	P1_mirror
+12-11	,	O	O	O	O
+12-12	pleased	O	O	VBN	O
+12-13	with	O	O	O	O
+12-14	my	O	O	PRP$	P1_customer
+12-15	freshly	O	O	JJ	O
+12-16	cut	O	O	NN	O
+12-17	hair	12-12_prep_with	pleased	NN	P1_hair
+12-18	.	O	O	O	O
+
+#id=13
+#text=I hop off the chair and remove the cape . 
+13-1	I	13-2_nsubj	hop	PRP	P1_customer
+13-2	hop	O	O	VBD	O
+13-3	off	13-2_prt	hop	RP	O
+13-4	the	O	O	DT	O
+13-5	chair	13-2_dobj	hop	NN	P1_chair
+13-6	and	O	O	O	O
+13-7	remove	13-2_conj_and	hop	VB	O
+13-8	the	O	O	DT	O
+13-9	cape	13-7_dobj	remove	NN	P2_cape
+13-10	.	O	O	O	O
+
+#id=14
+#text=After mom pays the stylist , I thank her and say " I ' ll see you in a few months . " 
+14-1	After	14-3_mark	pays	IN	O
+14-2	mom	14-3_nsubj	pays	NN	P2_NPart_mom
+14-3	pays	14-8_advcl	thank	VBZ	O
+14-4	the	O	O	DT	O
+14-5	stylist	14-3_dobj	pays	NN	P1_hairdresser
+14-6	,	O	O	O	O
+14-7	I	14-8_nsubj	thank	PRP	P1_customer
+14-8	thank	O	O	VB	O
+14-9	her	14-8_dobj	thank	PRP	P1_hairdresser
+14-10	and	O	O	O	O
+14-11	say	14-8_conj_and	thank	VB	O
+14-12	"	O	O	O	O
+14-13	I	14-16_nsubj	O	PRP	P1_customer
+14-14	'	O	O	O	O
+14-15	ll	14-16_aux	say	NN	O
+14-16	see	14-11_ccomp	O	VB	O
+14-17	you	14-16_dobj	see	PRP	P1_hairdresser
+14-18	in	O	O	O	O
+14-19	a	O	O	DT	O
+14-20	few	O	O	JJ	O
+14-21	months	14-16_prep_in	see	NNS	P1_time/date
+14-22	.	O	O	O	O
+14-23	"	O	O	O	O

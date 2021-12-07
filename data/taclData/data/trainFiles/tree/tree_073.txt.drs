@@ -1,0 +1,190 @@
+#id=1
+#text=Unfortunately my poor dog just passed away . 
+1-1	Unfortunately	1-6_advmod	passed	RB	O
+1-2	my	O	O	PRP$	P1_gardener
+1-3	poor	O	O	JJ	O
+1-4	dog	1-6_nsubj	passed	NN	P1_NPart_dog
+1-5	just	1-6_advmod	passed	RB	O
+1-6	passed	O	O	VBD	O
+1-7	away	1-6_prt	passed	RP	O
+1-8	.	O	O	O	O
+
+#id=2
+#text=He was a good and loyal friend who never failed to alert me if someone came on my property . 
+2-1	He	O	O	PRP	P1_NPart_he
+2-2	was	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	good	O	O	JJ	O
+2-5	and	O	O	O	O
+2-6	loyal	O	O	JJ	O
+2-7	friend	O	O	NN	P1_NPart_friend
+2-8	who	2-10_nsubj	failed	WP	O
+2-9	never	2-10_neg	failed	RB	O
+2-10	failed	O	O	VBD	O
+2-11	to	2-12_aux	alert	TO	O
+2-12	alert	2-10_xcomp	failed	VB	O
+2-13	me	2-12_dobj	alert	PRP	P1_gardener
+2-14	if	2-16_mark	came	IN	O
+2-15	someone	2-16_nsubj	came	NN	O
+2-16	came	2-12_advcl	alert	VBD	O
+2-17	on	O	O	O	O
+2-18	my	O	O	PRP$	P1_gardener
+2-19	property	2-16_prep_on	came	NN	P1_other
+2-20	.	O	O	O	O
+
+#id=3
+#text=As I was looking upon his poor stiffening body I could not find a way to say goodbye to such a great creature . 
+3-1	As	3-4_mark	looking	IN	O
+3-2	I	3-4_nsubj	looking	PRP	P1_gardener
+3-3	was	3-4_aux	looking	VBD	O
+3-4	looking	3-13_advcl	find	VBG	O
+3-5	upon	O	O	O	O
+3-6	his	O	O	PRP$	P1_NPart_his
+3-7	poor	O	O	JJ	O
+3-8	stiffening	O	O	NN	O
+3-9	body	3-4_prep_upon	looking	NN	P1_NPart_body
+3-10	I	3-13_nsubj	find	PRP	P1_gardener
+3-11	could	3-13_aux	find	MD	O
+3-12	not	3-13_neg	find	RB	O
+3-13	find	O	O	VB	O
+3-14	a	O	O	DT	O
+3-15	way	3-13_dobj	find	NN	O
+3-16	to	3-17_aux	say	TO	O
+3-17	say	O	O	VB	O
+3-18	goodbye	3-17_dobj	say	NN	O
+3-19	to	O	O	O	O
+3-20	such	O	O	PDT	O
+3-21	a	O	O	DT	O
+3-22	great	O	O	JJ	O
+3-23	creature	3-17_prep_to	say	NN	P1_NPart_creature
+3-24	.	O	O	O	O
+
+#id=4
+#text=Finally I decided to bury him in the front yard of the house he had so faithfully guarded for many , many years . 
+4-1	Finally	4-3_advmod	decided	RB	O
+4-2	I	4-3_nsubj	decided	PRP	P1_gardener
+4-3	decided	4-18_dep	guarded	VBD	O
+4-4	to	4-5_aux	bury	TO	O
+4-5	bury	4-3_xcomp	decided	VB	O
+4-6	him	4-5_dobj	bury	PRP	P1_NPart_him
+4-7	in	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	front	O	O	JJ	O
+4-10	yard	4-5_prep_in	bury	NN	P1_location_garden
+4-11	of	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	house	O	O	NN	P1_NPart_house
+4-14	he	4-18_nsubj	guarded	PRP	P2_NPart_he
+4-15	had	4-18_aux	guarded	VBD	O
+4-16	so	4-18_advmod	guarded	RB	O
+4-17	faithfully	4-18_advmod	guarded	RB	O
+4-18	guarded	O	O	VBN	O
+4-19	for	O	O	O	O
+4-20	many	O	O	JJ	O
+4-21	,	O	O	O	O
+4-22	many	O	O	JJ	O
+4-23	years	4-18_prep_for	guarded	NNS	P1_NPart_years
+4-24	.	O	O	O	O
+
+#id=5
+#text=I went to the store and purchased a black cherry tree . 
+5-1	I	5-2_nsubj	went	PRP	P1_gardener
+5-2	went	O	O	VBD	O
+5-3	to	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	store	5-2_prep_to	went	NN	P1_NPart_store
+5-6	and	O	O	O	O
+5-7	purchased	5-2_conj_and	went	VBD	O
+5-8	a	O	O	DT	O
+5-9	black	O	O	JJ	O
+5-10	cherry	O	O	JJ	O
+5-11	tree	5-7_dobj	purchased	NN	P1_tree
+5-12	.	O	O	O	O
+
+#id=6
+#text=I dug a hole and placed his carefully and lovingly wrapped body in to the hole . 
+6-1	I	6-2_nsubj	dug	PRP	P1_gardener
+6-2	dug	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	hole	6-2_dobj	dug	NN	P1_hole
+6-5	and	O	O	O	O
+6-6	placed	6-2_conj_and	dug	VBD	O
+6-7	his	O	O	PRP$	P2_NPart_his
+6-8	carefully	O	O	JJ	O
+6-9	and	O	O	O	O
+6-10	lovingly	O	O	JJ	O
+6-11	wrapped	O	O	JJ	O
+6-12	body	6-6_dobj	placed	NN	P2_NPart_body
+6-13	in	6-6_prep	placed	IN	O
+6-14	to	O	O	TO	O
+6-15	the	O	O	DT	O
+6-16	hole	O	O	NN	P1_hole
+6-17	.	O	O	O	O
+
+#id=7
+#text=I then placed the cherry tree on top of where he lay for eternal rest and watered it and staked it and placed a small fence around it . 
+7-1	I	7-3_nsubj	placed	PRP	P1_gardener
+7-2	then	7-3_advmod	placed	RB	O
+7-3	placed	O	O	VBN	O
+7-4	the	O	O	DT	O
+7-5	cherry	O	O	JJ	O
+7-6	tree	7-3_dobj	placed	NN	P1_tree
+7-7	on	O	O	O	O
+7-8	top	O	O	O	O
+7-9	of	O	O	O	O
+7-10	where	7-12_advmod	lay	WRB	O
+7-11	he	7-12_nsubj	lay	PRP	P3_NPart_he
+7-12	lay	7-3_prepc_on_top_of	placed	VBD	O
+7-13	for	O	O	O	O
+7-14	eternal	O	O	JJ	O
+7-15	rest	7-12_prep_for	lay	NN	P1_NPart_rest
+7-16	and	O	O	O	O
+7-17	watered	7-12_conj_and	lay	VBD	O
+7-18	it	7-17_dobj	watered	PRP	P1_tree
+7-19	and	O	O	O	O
+7-20	staked	7-3_conj_and	placed	VBN	O
+7-21	it	7-20_dobj	staked	PRP	P1_tree
+7-22	and	O	O	O	O
+7-23	placed	7-3_conj_and	placed	VBD	O
+7-24	a	O	O	DT	O
+7-25	small	O	O	JJ	O
+7-26	fence	7-23_dobj	placed	NN	P2_other
+7-27	around	O	O	O	O
+7-28	it	7-23_prep_around	placed	PRP	P1_tree
+7-29	.	O	O	O	O
+
+#id=8
+#text=Now as the tree grows it will absorb my frind and in a sense he will always be there to watch over my home and the yard he loved to play in . 
+8-1	Now	8-5_advmod	grows	RB	O
+8-2	as	8-5_mark	grows	IN	O
+8-3	the	O	O	DT	O
+8-4	tree	8-5_nsubj	grows	NN	P1_tree
+8-5	grows	8-29_advcl	loved	VBZ	O
+8-6	it	8-8_nsubj	absorb	PRP	P1_tree
+8-7	will	8-8_aux	absorb	MD	O
+8-8	absorb	8-5_dep	grows	VB	O
+8-9	my	O	O	PRP$	P1_gardener
+8-10	frind	8-8_dobj	absorb	NN	P1_NPart_frind
+8-11	and	O	O	O	O
+8-12	in	O	O	O	O
+8-13	a	O	O	DT	O
+8-14	sense	8-18_prep_in	be	NN	P1_NPart_sense
+8-15	he	8-18_nsubj	be	PRP	P4_NPart_he
+8-16	will	8-18_aux	be	MD	O
+8-17	always	8-18_advmod	be	RB	O
+8-18	be	8-8_conj_and	absorb	VB	O
+8-19	there	8-18_dobj	be	EX	O
+8-20	to	8-21_aux	watch	TO	O
+8-21	watch	8-18_xcomp	be	VB	O
+8-22	over	O	O	O	O
+8-23	my	O	O	PRP$	P1_gardener
+8-24	home	8-21_prep_over	watch	NN	P1_NPart_home
+8-25	and	O	O	O	O
+8-26	the	O	O	DT	O
+8-27	yard	O	O	NN	P1_NPart_yard
+8-28	he	8-29_nsubj	loved	PRP	P5_NPart_he
+8-29	loved	O	O	VBD	O
+8-30	to	8-31_aux	play	TO	O
+8-31	play	8-29_xcomp	loved	VB	O
+8-32	in	8-31_prt	play	RP	O
+8-33	.	O	O	O	O

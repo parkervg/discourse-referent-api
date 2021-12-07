@@ -1,0 +1,253 @@
+#id=1
+#text=When I was a freshman in high school we each had the opportunity to buy an inexpensive tree as part of the Arbor Day holiday . 
+1-1	When	O	O	WRB	O
+1-2	I	O	O	PRP	P1_gardener
+1-3	was	O	O	VBD	O
+1-4	a	O	O	DT	O
+1-5	freshman	1-11_advcl	had	NN	P1_NPart_freshman
+1-6	in	O	O	O	O
+1-7	high	O	O	JJ	O
+1-8	school	O	O	NN	P1_NPart_school
+1-9	we	1-11_nsubj	had	PRP	P2_gardener
+1-10	each	1-11_advmod	had	DT	O
+1-11	had	O	O	VBD	O
+1-12	the	O	O	DT	O
+1-13	opportunity	1-11_dobj	had	NN	O
+1-14	to	1-15_aux	buy	TO	O
+1-15	buy	O	O	VB	O
+1-16	an	O	O	DT	O
+1-17	inexpensive	O	O	JJ	O
+1-18	tree	1-15_dobj	buy	NN	P1_tree
+1-19	as	O	O	O	O
+1-20	part	1-15_prep_as	buy	NN	P1_NPart_part
+1-21	of	O	O	O	O
+1-22	the	O	O	DT	O
+1-23	Arbor	O	O	NNP	O
+1-24	Day	O	O	NNP	O
+1-25	holiday	O	O	NN	P1_NPart_holiday
+1-26	.	O	O	O	O
+
+#id=2
+#text=Part of the proceeds for the purchase were going to plant more trees in town . 
+2-1	Part	2-9_nsubj	going	NN	O
+2-2	of	O	O	O	O
+2-3	the	O	O	DT	O
+2-4	proceeds	O	O	NNS	P1_NPart_proceeds
+2-5	for	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	purchase	O	O	NN	P1_NPart_purchase
+2-8	were	2-9_aux	going	VBD	O
+2-9	going	O	O	VBG	O
+2-10	to	2-11_aux	plant	TO	O
+2-11	plant	2-9_xcomp	going	VB	O
+2-12	more	O	O	JJR	O
+2-13	trees	2-11_dobj	plant	NNS	P1_tree
+2-14	in	O	O	O	O
+2-15	town	2-11_prep_in	plant	NN	P1_NPart_town
+2-16	.	O	O	O	O
+
+#id=3
+#text=The tree I had was some kind of evergreen tree and I planned to plant it in the front yard . 
+3-1	The	O	O	DT	O
+3-2	tree	O	O	NN	P1_tree
+3-3	I	3-4_nsubj	had	PRP	P1_gardener
+3-4	had	O	O	VBD	O
+3-5	was	O	O	VBD	O
+3-6	some	O	O	DT	O
+3-7	kind	O	O	NN	O
+3-8	of	O	O	O	O
+3-9	evergreen	O	O	NN	O
+3-10	tree	O	O	NN	P1_tree
+3-11	and	O	O	O	O
+3-12	I	3-13_nsubj	planned	PRP	P1_gardener
+3-13	planned	O	O	VBD	O
+3-14	to	3-15_aux	plant	TO	O
+3-15	plant	3-13_xcomp	planned	VB	O
+3-16	it	3-15_dobj	plant	PRP	P1_tree
+3-17	in	O	O	O	O
+3-18	the	O	O	DT	O
+3-19	front	O	O	JJ	O
+3-20	yard	3-15_prep_in	plant	NN	P1_location_garden
+3-21	.	O	O	O	O
+
+#id=4
+#text=I asked my Dad where it 'd be best to plant it and we picked a spot where there were some flowers , but no trees . 
+4-1	I	4-2_nsubj	asked	PRP	P1_gardener
+4-2	asked	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_gardener
+4-4	Dad	4-2_dobj	asked	NN	P1_NPart_dad
+4-5	where	O	O	WRB	O
+4-6	it	O	O	PRP	O
+4-7	'd	O	O	MD	O
+4-8	be	O	O	VB	O
+4-9	best	4-2_advcl	asked	JJS	O
+4-10	to	4-11_aux	plant	TO	O
+4-11	plant	O	O	VB	O
+4-12	it	4-11_dobj	plant	PRP	P1_tree
+4-13	and	O	O	O	O
+4-14	we	4-15_nsubj	picked	PRP	P3_gardener
+4-15	picked	4-2_conj_and	asked	VBD	O
+4-16	a	O	O	DT	O
+4-17	spot	4-15_dobj	picked	NN	P2_location_garden
+4-18	where	4-20_advmod	were	WRB	O
+4-19	there	4-20_expl	were	EX	O
+4-20	were	4-15_advcl	picked	VBD	O
+4-21	some	O	O	DT	O
+4-22	flowers	4-20_nsubj	were	NNS	P1_NPart_flowers
+4-23	,	O	O	O	O
+4-24	but	O	O	O	O
+4-25	no	O	O	DT	O
+4-26	trees	O	O	NNS	P1_NPart_trees
+4-27	.	O	O	O	O
+
+#id=5
+#text=In order to plant it I read the instructions that came with the tree and started by digging a hole that was about twice the size of the root ball of the tree . 
+5-1	In	5-4_mark	plant	IN	O
+5-2	order	5-4_dep	plant	NN	O
+5-3	to	5-4_aux	plant	TO	O
+5-4	plant	5-7_advcl	read	VB	O
+5-5	it	5-4_dobj	plant	PRP	P1_tree
+5-6	I	5-7_nsubj	read	PRP	P1_gardener
+5-7	read	O	O	VBD	O
+5-8	the	O	O	DT	O
+5-9	instructions	5-7_dobj	read	NNS	P1_NPart_instructions
+5-10	that	5-11_nsubj	came	WDT	O
+5-11	came	O	O	VBD	O
+5-12	with	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	tree	5-11_prep_with	came	NN	P1_tree
+5-15	and	O	O	O	O
+5-16	started	5-11_conj_and	came	VBD	O
+5-17	by	O	O	O	O
+5-18	digging	5-16_prep_by	started	NN	O
+5-19	a	O	O	DT	O
+5-20	hole	5-11_dobj	came	NN	P1_hole
+5-21	that	5-22_nsubj	was	WDT	O
+5-22	was	O	O	VBD	O
+5-23	about	O	O	O	O
+5-24	twice	O	O	RB	O
+5-25	the	O	O	DT	O
+5-26	size	5-22_prep_about	was	NN	P1_NPart_size
+5-27	of	O	O	O	O
+5-28	the	O	O	DT	O
+5-29	root	O	O	NN	O
+5-30	ball	O	O	NN	P1_root
+5-31	of	O	O	O	O
+5-32	the	O	O	DT	O
+5-33	tree	O	O	NN	P1_tree
+5-34	.	O	O	O	O
+
+#id=6
+#text=It was a small tree so this was not a big hole . 
+6-1	It	O	O	PRP	P1_tree
+6-2	was	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	small	O	O	JJ	O
+6-5	tree	O	O	NN	P1_tree
+6-6	so	O	O	IN	O
+6-7	this	O	O	DT	P1_hole
+6-8	was	O	O	VBD	O
+6-9	not	O	O	RB	O
+6-10	a	O	O	DT	O
+6-11	big	O	O	JJ	O
+6-12	hole	O	O	NN	P1_hole
+6-13	.	O	O	O	O
+
+#id=7
+#text=I then tried to make the hole a good shape before putting in some moss and fill dirt . 
+7-1	I	7-3_nsubj	tried	PRP	P1_gardener
+7-2	then	7-3_advmod	tried	RB	O
+7-3	tried	O	O	VBD	O
+7-4	to	7-5_aux	make	TO	O
+7-5	make	7-3_xcomp	tried	VB	O
+7-6	the	O	O	DT	O
+7-7	hole	7-5_iobj	make	NN	P1_hole
+7-8	a	O	O	DT	O
+7-9	good	O	O	JJ	O
+7-10	shape	7-5_dobj	make	NN	P1_NPart_shape
+7-11	before	O	O	O	O
+7-12	putting	O	O	VBG	O
+7-13	in	O	O	O	O
+7-14	some	O	O	DT	O
+7-15	moss	7-12_prep_in	putting	NNS	P1_NPart_moss
+7-16	and	O	O	O	O
+7-17	fill	7-5_conj_and	make	VB	O
+7-18	dirt	7-17_dobj	fill	NN	P1_dirt
+7-19	.	O	O	O	O
+
+#id=8
+#text=I watered the tree that day and made sure to water it each day for about a week until we had a good rain . 
+8-1	I	8-2_nsubj	watered	PRP	P1_gardener
+8-2	watered	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	tree	8-2_dobj	watered	NN	P1_tree
+8-5	that	O	O	DT	O
+8-6	day	O	O	NN	P1_NPart_day
+8-7	and	O	O	O	O
+8-8	made	8-2_conj_and	watered	VBD	O
+8-9	sure	8-8_acomp	made	JJ	O
+8-10	to	8-11_aux	water	TO	O
+8-11	water	O	O	VB	O
+8-12	it	8-11_dobj	water	PRP	P1_tree
+8-13	each	O	O	DT	O
+8-14	day	8-11_tmod	water	NN	P2_NPart_day
+8-15	for	O	O	O	O
+8-16	about	O	O	RB	O
+8-17	a	8-8_prep_for	made	DT	O
+8-18	week	8-8_tmod	made	NN	P1_NPart_week
+8-19	until	8-21_mark	had	IN	O
+8-20	we	8-21_nsubj	had	PRP	P3_gardener
+8-21	had	8-8_advcl	made	VBD	O
+8-22	a	O	O	DT	O
+8-23	good	O	O	JJ	O
+8-24	rain	8-21_dobj	had	NN	P1_water
+8-25	.	O	O	O	O
+
+#id=9
+#text=The tree grew and became quite large . 
+9-1	The	O	O	DT	O
+9-2	tree	9-3_nsubj	grew	NN	P1_tree
+9-3	grew	O	O	VBD	O
+9-4	and	O	O	O	O
+9-5	became	9-3_conj_and	grew	VBD	O
+9-6	quite	O	O	RB	O
+9-7	large	9-5_acomp	became	JJ	O
+9-8	.	O	O	O	O
+
+#id=10
+#text=The one thing I did n't realize is that I should have planned better for how big the tree was going to get because it ended up shadowing over the flower planters a bit . 
+10-1	The	O	O	DT	O
+10-2	one	O	O	CD	O
+10-3	thing	10-8_nsubj	is	NN	O
+10-4	I	10-7_nsubj	realize	PRP	P1_gardener
+10-5	did	10-7_aux	realize	VBD	O
+10-6	n't	10-7_neg	realize	RB	O
+10-7	realize	O	O	VB	O
+10-8	is	O	O	VBZ	O
+10-9	that	10-13_mark	planned	IN	O
+10-10	I	10-13_nsubj	planned	PRP	P1_gardener
+10-11	should	10-13_aux	planned	MD	O
+10-12	have	10-13_aux	planned	VB	O
+10-13	planned	10-8_ccomp	is	VBN	O
+10-14	better	10-13_advmod	planned	RBR	O
+10-15	for	O	O	O	O
+10-16	how	O	O	WRB	O
+10-17	big	10-21_dep	going	JJ	O
+10-18	the	O	O	DT	O
+10-19	tree	10-21_nsubj	going	NN	P1_tree
+10-20	was	10-21_aux	going	VBD	O
+10-21	going	10-13_prepc_for	planned	VBG	O
+10-22	to	10-23_aux	get	TO	O
+10-23	get	10-21_xcomp	going	VB	O
+10-24	because	10-26_mark	ended	IN	O
+10-25	it	10-26_nsubj	ended	PRP	P1_tree
+10-26	ended	10-23_advcl	get	VBD	O
+10-27	up	10-26_prt	ended	RP	O
+10-28	shadowing	10-26_xcomp	ended	VBG	O
+10-29	over	O	O	O	O
+10-30	the	O	O	DT	O
+10-31	flower	O	O	NN	O
+10-32	planters	10-28_prep_over	shadowing	NNS	P1_NPart_planters
+10-33	a	O	O	DT	O
+10-34	bit	O	O	NN	O
+10-35	.	O	O	O	O

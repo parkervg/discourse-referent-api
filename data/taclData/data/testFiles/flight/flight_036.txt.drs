@@ -1,0 +1,195 @@
+#id=1
+#text=Flying in an airplane for the first time can be a wonderful experience . 
+1-1	Flying	O	O	NNP	O
+1-2	in	O	O	O	O
+1-3	an	O	O	DT	O
+1-4	airplane	O	O	NN	P1_plane
+1-5	for	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	first	O	O	JJ	O
+1-8	time	O	O	NN	O
+1-9	can	O	O	MD	O
+1-10	be	O	O	VB	O
+1-11	a	O	O	DT	O
+1-12	wonderful	O	O	JJ	O
+1-13	experience	O	O	NN	P1_NPart_experience
+1-14	.	O	O	O	O
+
+#id=2
+#text=Once you are all settled into your seat you will hear all the safety messages . 
+2-1	Once	2-5_mark	settled	IN	O
+2-2	you	2-5_nsubjpass	settled	PRP	P1_passenger
+2-3	are	2-5_auxpass	settled	VBP	O
+2-4	all	2-5_advmod	settled	RB	O
+2-5	settled	2-11_advcl	hear	VBN	O
+2-6	into	O	O	O	O
+2-7	your	O	O	PRP$	P1_passenger
+2-8	seat	2-5_prep_into	settled	NN	P1_seat
+2-9	you	2-11_nsubj	hear	PRP	P1_passenger
+2-10	will	2-11_aux	hear	MD	O
+2-11	hear	O	O	VB	O
+2-12	all	O	O	PDT	O
+2-13	the	O	O	DT	O
+2-14	safety	O	O	NN	O
+2-15	messages	2-11_dobj	hear	NNS	P1_NPart_messages
+2-16	.	O	O	O	O
+
+#id=3
+#text=These tend to be pretty boring but every now and then an airline will give the safety messages some new twist or humor . 
+3-1	These	3-2_nsubj	tend	DT	O
+3-2	tend	3-15_dep	give	VBP	O
+3-3	to	O	O	TO	O
+3-4	be	O	O	VB	O
+3-5	pretty	O	O	RB	O
+3-6	boring	3-2_xcomp	tend	JJ	O
+3-7	but	O	O	CC	O
+3-8	every	O	O	DT	O
+3-9	now	O	O	RB	O
+3-10	and	O	O	O	O
+3-11	then	O	O	RB	O
+3-12	an	O	O	DT	O
+3-13	airline	3-15_nsubj	give	NN	P1_other
+3-14	will	3-15_aux	give	MD	O
+3-15	give	O	O	VB	O
+3-16	the	O	O	DT	O
+3-17	safety	O	O	NN	O
+3-18	messages	3-15_iobj	give	NNS	P1_safety_instructions
+3-19	some	O	O	DT	O
+3-20	new	O	O	JJ	O
+3-21	twist	3-15_dobj	give	NN	P1_NPart_twist
+3-22	or	O	O	O	O
+3-23	humor	O	O	NN	P1_NPart_humor
+3-24	.	O	O	O	O
+
+#id=4
+#text=During the safety briefing , the plane will be heading towards the runaway for takeoff . 
+4-1	During	O	O	O	O
+4-2	the	O	O	DT	O
+4-3	safety	O	O	NN	O
+4-4	briefing	4-10_prep_during	heading	NN	P1_NPart_briefing
+4-5	,	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	plane	4-10_nsubj	heading	NN	P1_plane
+4-8	will	4-10_aux	heading	MD	O
+4-9	be	4-10_aux	heading	VB	O
+4-10	heading	O	O	VBG	O
+4-11	towards	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	runaway	4-10_prep_towards	heading	JJ	P1_location_airplane
+4-14	for	O	O	O	O
+4-15	takeoff	O	O	NN	O
+4-16	.	O	O	O	O
+
+#id=5
+#text=Once the plane is ready for takeoff , all the flight attendants will sit and buckle themselves in . 
+5-1	Once	O	O	IN	O
+5-2	the	O	O	DT	O
+5-3	plane	O	O	NN	P1_plane
+5-4	is	O	O	VBZ	O
+5-5	ready	5-14_advcl	sit	JJ	O
+5-6	for	O	O	O	O
+5-7	takeoff	O	O	NN	O
+5-8	,	O	O	O	O
+5-9	all	O	O	PDT	O
+5-10	the	O	O	DT	O
+5-11	flight	O	O	NN	O
+5-12	attendants	5-14_nsubj	sit	NNS	P1_staff
+5-13	will	5-14_aux	sit	MD	O
+5-14	sit	O	O	VB	O
+5-15	and	O	O	O	O
+5-16	buckle	5-14_conj_and	sit	VB	O
+5-17	themselves	5-14_dobj	sit	PRP	P1_staff
+5-18	in	5-14_prep	sit	IN	O
+5-19	.	O	O	O	O
+
+#id=6
+#text=Next comes the best part - the plane will accelerate very quickly from sitting to flying in the air . 
+6-1	Next	6-2_nsubj	comes	NNP	O
+6-2	comes	O	O	VBZ	O
+6-3	the	O	O	DT	O
+6-4	best	O	O	JJS	O
+6-5	part	6-2_dobj	comes	NN	O
+6-6	-	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	plane	6-10_nsubj	accelerate	NN	P1_plane
+6-9	will	6-10_aux	accelerate	MD	O
+6-10	accelerate	6-2_parataxis	comes	VB	O
+6-11	very	O	O	RB	O
+6-12	quickly	6-10_advmod	accelerate	RB	O
+6-13	from	O	O	O	O
+6-14	sitting	6-10_prepc_from	accelerate	VBG	O
+6-15	to	O	O	O	O
+6-16	flying	6-14_prepc_to	sitting	VBG	O
+6-17	in	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	air	6-16_prep_in	flying	NN	P2_location_airplane
+6-20	.	O	O	O	O
+
+#id=7
+#text=The process barely takes a minute but you 'll feel the rush from going so fast . 
+7-1	The	O	O	DT	O
+7-2	process	7-4_nsubj	takes	NN	O
+7-3	barely	7-4_advmod	takes	RB	O
+7-4	takes	O	O	VBZ	O
+7-5	a	O	O	DT	O
+7-6	minute	7-4_dobj	takes	NN	P1_NPart_minute
+7-7	but	O	O	O	O
+7-8	you	7-10_nsubj	feel	PRP	P1_passenger
+7-9	'll	7-10_aux	feel	MD	O
+7-10	feel	7-4_conj_but	takes	VB	O
+7-11	the	O	O	DT	O
+7-12	rush	7-10_dobj	feel	NN	P1_NPart_rush
+7-13	from	O	O	O	O
+7-14	going	7-10_prepc_from	feel	VBG	O
+7-15	so	O	O	RB	O
+7-16	fast	7-14_advmod	going	RB	O
+7-17	.	O	O	O	O
+
+#id=8
+#text=You 'll continue feeling the effects until the plane gets high enough into the air to reach a cruising altitude . 
+8-1	You	8-3_nsubj	continue	PRP	P1_passenger
+8-2	'll	8-3_aux	continue	MD	O
+8-3	continue	O	O	VB	O
+8-4	feeling	8-3_xcomp	continue	VBG	O
+8-5	the	O	O	DT	O
+8-6	effects	8-4_dobj	feeling	NNS	P1_NPart_effects
+8-7	until	8-10_mark	gets	IN	O
+8-8	the	O	O	DT	O
+8-9	plane	8-10_nsubj	gets	NN	P1_plane
+8-10	gets	8-3_advcl	continue	VBZ	O
+8-11	high	8-10_acomp	gets	JJ	O
+8-12	enough	O	O	RB	O
+8-13	into	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	air	O	O	NN	P2_location_airplane
+8-16	to	8-17_aux	reach	TO	O
+8-17	reach	O	O	VB	O
+8-18	a	O	O	DT	O
+8-19	cruising	O	O	JJ	O
+8-20	altitude	8-17_dobj	reach	NN	P2_location_airplane
+8-21	.	O	O	O	O
+
+#id=9
+#text=Once this height is reached , you will barely notice you 're in the air unless you look outside the window . 
+9-1	Once	9-5_mark	reached	IN	O
+9-2	this	O	O	DT	O
+9-3	height	9-5_nsubjpass	reached	NN	P2_location_airplane
+9-4	is	9-5_auxpass	reached	VBZ	O
+9-5	reached	9-10_advcl	notice	VBN	O
+9-6	,	O	O	O	O
+9-7	you	9-10_nsubj	notice	PRP	P1_passenger
+9-8	will	9-10_aux	notice	MD	O
+9-9	barely	9-10_advmod	notice	RB	O
+9-10	notice	O	O	VB	O
+9-11	you	9-12_nsubj	're	PRP	P1_passenger
+9-12	're	9-10_ccomp	notice	VBP	O
+9-13	in	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	air	9-12_prep_in	're	NN	P2_location_airplane
+9-16	unless	9-18_mark	look	IN	O
+9-17	you	9-18_nsubj	look	PRP	P1_passenger
+9-18	look	9-12_advcl	're	VBP	O
+9-19	outside	O	O	O	O
+9-20	the	O	O	DT	O
+9-21	window	9-18_prep_outside	look	NN	P1_in-flight_entertainment
+9-22	.	O	O	O	O

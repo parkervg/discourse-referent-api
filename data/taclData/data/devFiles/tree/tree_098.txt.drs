@@ -1,0 +1,217 @@
+#id=1
+#text=I found a beautiful little tree at the local nursery and brought it home to plant in my garden . 
+1-1	I	1-2_nsubj	found	PRP	P1_gardener
+1-2	found	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	beautiful	O	O	JJ	O
+1-5	little	O	O	JJ	O
+1-6	tree	1-2_dobj	found	NN	P1_tree
+1-7	at	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	local	O	O	JJ	O
+1-10	nursery	1-2_prep_at	found	NN	P1_shop
+1-11	and	O	O	O	O
+1-12	brought	1-2_conj_and	found	VBD	O
+1-13	it	1-12_dobj	brought	PRP	P1_tree
+1-14	home	1-12_advmod	brought	RB	P1_other
+1-15	to	1-16_aux	plant	TO	O
+1-16	plant	1-12_vmod	brought	VB	O
+1-17	in	O	O	O	O
+1-18	my	O	O	PRP$	P1_gardener
+1-19	garden	1-16_prep_in	plant	NN	P1_location_garden
+1-20	.	O	O	O	O
+
+#id=2
+#text=I had already picked the spot it was to go , a place in the middle of my yard where it could get full sun . 
+2-1	I	2-4_nsubj	picked	PRP	P1_gardener
+2-2	had	2-4_aux	picked	VBD	O
+2-3	already	2-4_advmod	picked	RB	O
+2-4	picked	O	O	VBN	O
+2-5	the	O	O	DT	O
+2-6	spot	2-4_dobj	picked	NN	P2_location_garden
+2-7	it	2-8_nsubj	was	PRP	P1_tree
+2-8	was	O	O	VBD	O
+2-9	to	2-10_aux	go	TO	O
+2-10	go	2-8_xcomp	was	VB	O
+2-11	,	O	O	O	O
+2-12	a	O	O	DT	O
+2-13	place	O	O	NN	P2_location_garden
+2-14	in	O	O	O	O
+2-15	the	O	O	DT	O
+2-16	middle	O	O	NN	O
+2-17	of	O	O	O	O
+2-18	my	O	O	PRP$	P1_gardener
+2-19	yard	O	O	NN	P1_location_garden
+2-20	where	2-23_advmod	get	WRB	O
+2-21	it	2-23_nsubj	get	PRP	P1_tree
+2-22	could	2-23_aux	get	MD	O
+2-23	get	O	O	VB	O
+2-24	full	O	O	JJ	O
+2-25	sun	2-23_dobj	get	NN	P1_NPart_sun
+2-26	.	O	O	O	O
+
+#id=3
+#text=After gathering the shovel and watering hose , and putting on my gardening gloves , I set to work on digging the hole . 
+3-1	After	O	O	O	O
+3-2	gathering	3-17_prepc_after	set	VBG	O
+3-3	the	O	O	DT	O
+3-4	shovel	3-2_dobj	gathering	NN	P1_gardening_tool
+3-5	and	O	O	O	O
+3-6	watering	3-2_conj_and	gathering	VBG	O
+3-7	hose	3-6_dobj	watering	NN	P2_gardening_tool
+3-8	,	O	O	O	O
+3-9	and	O	O	O	O
+3-10	putting	3-2_conj_and	gathering	VBG	O
+3-11	on	O	O	O	O
+3-12	my	O	O	PRP$	P1_gardener
+3-13	gardening	O	O	VBG	O
+3-14	gloves	3-10_prep_on	putting	NNS	P3_gardening_tool
+3-15	,	O	O	O	O
+3-16	I	3-17_nsubj	set	PRP	P1_gardener
+3-17	set	O	O	VBD	O
+3-18	to	3-19_aux	work	TO	O
+3-19	work	3-17_xcomp	set	VB	O
+3-20	on	O	O	O	O
+3-21	digging	3-19_prepc_on	work	VBG	O
+3-22	the	O	O	DT	O
+3-23	hole	3-21_dobj	digging	NN	P1_hole
+3-24	.	O	O	O	O
+
+#id=4
+#text=I had to make sure the hole was deep enough to fit its roots comfortably . 
+4-1	I	4-2_nsubj	had	PRP	P1_gardener
+4-2	had	O	O	VBD	O
+4-3	to	4-4_aux	make	TO	O
+4-4	make	4-2_xcomp	had	VB	O
+4-5	sure	4-4_acomp	make	JJ	O
+4-6	the	O	O	DT	O
+4-7	hole	O	O	NN	P1_hole
+4-8	was	O	O	VBD	O
+4-9	deep	O	O	JJ	O
+4-10	enough	O	O	RB	O
+4-11	to	4-12_aux	fit	TO	O
+4-12	fit	O	O	VB	O
+4-13	its	O	O	PRP$	P1_tree
+4-14	roots	4-12_dobj	fit	NNS	P1_root
+4-15	comfortably	4-12_advmod	fit	RB	O
+4-16	.	O	O	O	O
+
+#id=5
+#text=I dampened the soil in the hole with a little water . 
+5-1	I	5-2_nsubj	dampened	PRP	P1_gardener
+5-2	dampened	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	soil	5-2_dobj	dampened	NN	P1_dirt
+5-5	in	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	hole	5-2_prep_in	dampened	NN	P1_hole
+5-8	with	O	O	O	O
+5-9	a	O	O	DT	O
+5-10	little	O	O	JJ	O
+5-11	water	5-2_prep_with	dampened	NN	P1_water
+5-12	.	O	O	O	O
+
+#id=6
+#text=Once the hole was ready , I laid the tree on its side and gently removed the pot from it . 
+6-1	Once	O	O	IN	O
+6-2	the	O	O	DT	O
+6-3	hole	O	O	NN	P1_hole
+6-4	was	O	O	VBD	O
+6-5	ready	6-8_advcl	laid	JJ	O
+6-6	,	O	O	O	O
+6-7	I	6-8_nsubj	laid	PRP	P1_gardener
+6-8	laid	O	O	VBD	O
+6-9	the	O	O	DT	O
+6-10	tree	6-8_dobj	laid	NN	P1_tree
+6-11	on	O	O	O	O
+6-12	its	O	O	PRP$	P1_hole
+6-13	side	6-8_prep_on	laid	NN	O
+6-14	and	O	O	O	O
+6-15	gently	6-16_advmod	removed	RB	O
+6-16	removed	6-8_conj_and	laid	VBD	O
+6-17	the	O	O	DT	O
+6-18	pot	6-16_dobj	removed	NN	P1_wrapping
+6-19	from	O	O	O	O
+6-20	it	6-16_prep_from	removed	PRP	P1_tree
+6-21	.	O	O	O	O
+
+#id=7
+#text=I placed the sapling into the hole and looked to see that the base of its trunk would be level with the ground , then began scraping the soil back into the hole , over the roots . 
+7-1	I	7-2_nsubj	placed	PRP	P1_gardener
+7-2	placed	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	sapling	7-2_dobj	placed	NN	P1_tree
+7-5	into	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	hole	7-2_prep_into	placed	NN	P1_hole
+7-8	and	O	O	O	O
+7-9	looked	7-2_conj_and	placed	VBD	O
+7-10	to	7-11_aux	see	TO	O
+7-11	see	7-9_xcomp	looked	VB	O
+7-12	that	O	O	IN	O
+7-13	the	O	O	DT	O
+7-14	base	O	O	NN	O
+7-15	of	O	O	O	O
+7-16	its	O	O	PRP$	P1_tree
+7-17	trunk	O	O	NN	P2_other
+7-18	would	O	O	MD	O
+7-19	be	O	O	VB	O
+7-20	level	7-11_ccomp	see	NN	O
+7-21	with	O	O	O	O
+7-22	the	O	O	DT	O
+7-23	ground	O	O	NN	P3_other
+7-24	,	O	O	O	O
+7-25	then	7-26_advmod	began	RB	O
+7-26	began	7-2_dep	placed	VBD	O
+7-27	scraping	7-26_xcomp	began	VBG	O
+7-28	the	O	O	DT	O
+7-29	soil	7-27_dobj	scraping	NN	P2_dirt
+7-30	back	7-27_prt	scraping	RP	O
+7-31	into	O	O	O	O
+7-32	the	O	O	DT	O
+7-33	hole	7-27_prep_into	scraping	NN	P1_hole
+7-34	,	O	O	O	O
+7-35	over	O	O	O	O
+7-36	the	O	O	DT	O
+7-37	roots	7-2_prep_over	placed	NNS	P1_root
+7-38	.	O	O	O	O
+
+#id=8
+#text=I tamped the soil down , so as to prevent any air pockets , and watered it once more . 
+8-1	I	8-2_nsubj	tamped	PRP	P1_gardener
+8-2	tamped	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	soil	O	O	NN	P3_dirt
+8-5	down	8-2_advmod	tamped	RB	O
+8-6	,	O	O	O	O
+8-7	so	O	O	RB	O
+8-8	as	8-2_advmod	tamped	RB	O
+8-9	to	8-10_aux	prevent	TO	O
+8-10	prevent	8-2_xcomp	tamped	VB	O
+8-11	any	O	O	DT	O
+8-12	air	O	O	NN	O
+8-13	pockets	8-10_dobj	prevent	NNS	P4_other
+8-14	,	O	O	O	O
+8-15	and	O	O	O	O
+8-16	watered	8-2_conj_and	tamped	VBD	O
+8-17	it	O	O	PRP	P1_tree
+8-18	once	O	O	RB	O
+8-19	more	8-16_xcomp	watered	RBR	O
+8-20	.	O	O	O	O
+
+#id=9
+#text=I think this little tree will make a wonderful addition to my yard ! 
+9-1	I	9-2_nsubj	think	PRP	P1_gardener
+9-2	think	O	O	VBP	O
+9-3	this	O	O	DT	O
+9-4	little	O	O	JJ	O
+9-5	tree	9-7_nsubj	make	NN	P1_tree
+9-6	will	9-7_aux	make	MD	O
+9-7	make	9-2_ccomp	think	VB	O
+9-8	a	O	O	DT	O
+9-9	wonderful	O	O	JJ	O
+9-10	addition	9-7_dobj	make	NN	P1_NPart_addition
+9-11	to	O	O	O	O
+9-12	my	O	O	PRP$	P1_gardener
+9-13	yard	9-7_prep_to	make	NN	P1_location_garden
+9-14	!	O	O	O	O

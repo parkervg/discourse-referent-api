@@ -1,0 +1,245 @@
+#id=1
+#text=Grocery shopping can be a stressful event , but if you come prepared then you can usually leave without a headache . 
+1-1	Grocery	O	O	NNP	P1_groceries
+1-2	shopping	O	O	NN	O
+1-3	can	O	O	MD	O
+1-4	be	O	O	VB	O
+1-5	a	O	O	DT	O
+1-6	stressful	O	O	JJ	O
+1-7	event	O	O	NN	P1_NPart_event
+1-8	,	O	O	O	O
+1-9	but	O	O	O	O
+1-10	if	1-12_mark	come	IN	O
+1-11	you	1-12_nsubj	come	PRP	P1_shopper
+1-12	come	1-18_advcl	leave	VBP	O
+1-13	prepared	1-12_acomp	come	JJ	O
+1-14	then	1-18_advmod	leave	RB	O
+1-15	you	1-18_nsubj	leave	PRP	P1_shopper
+1-16	can	1-18_aux	leave	MD	O
+1-17	usually	1-18_advmod	leave	RB	O
+1-18	leave	O	O	VB	O
+1-19	without	O	O	O	O
+1-20	a	O	O	DT	O
+1-21	headache	1-18_prep_without	leave	NN	P1_NPart_headache
+1-22	.	O	O	O	O
+
+#id=2
+#text=Before we head over to the store we need to make a list of all the items that we need . 
+2-1	Before	2-3_mark	head	IN	O
+2-2	we	2-3_nsubj	head	PRP	P2_shopper
+2-3	head	2-9_advcl	need	VBP	O
+2-4	over	2-3_prt	head	RP	O
+2-5	to	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	store	2-3_prep_to	head	NN	P1_grocery_shop
+2-8	we	2-9_nsubj	need	PRP	P2_shopper
+2-9	need	O	O	VBP	O
+2-10	to	2-11_aux	make	TO	O
+2-11	make	2-9_xcomp	need	VB	O
+2-12	a	O	O	DT	O
+2-13	list	2-11_dobj	make	NN	P1_grocery_list
+2-14	of	O	O	O	O
+2-15	all	O	O	PDT	O
+2-16	the	O	O	DT	O
+2-17	items	O	O	NNS	P2_groceries
+2-18	that	2-20_mark	need	IN	O
+2-19	we	2-20_nsubj	need	PRP	P2_shopper
+2-20	need	2-11_ccomp	make	VBP	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=Once you arrive at the store if you have a short list make sure to grab a basket . 
+3-1	Once	3-3_mark	arrive	IN	O
+3-2	you	3-3_nsubj	arrive	PRP	P1_shopper
+3-3	arrive	3-13_csubj	make	VBP	O
+3-4	at	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	store	3-3_prep_at	arrive	NN	P1_grocery_shop
+3-7	if	3-9_mark	have	IN	O
+3-8	you	3-9_nsubj	have	PRP	P1_shopper
+3-9	have	3-3_advcl	arrive	VBP	O
+3-10	a	O	O	DT	O
+3-11	short	O	O	JJ	O
+3-12	list	3-9_dobj	have	NN	P1_grocery_list
+3-13	make	O	O	VBP	O
+3-14	sure	3-13_acomp	make	JJ	O
+3-15	to	3-16_aux	grab	TO	O
+3-16	grab	O	O	VB	O
+3-17	a	O	O	DT	O
+3-18	basket	3-16_dobj	grab	NN	P1_shopping_cart/basket
+3-19	.	O	O	O	O
+
+#id=4
+#text=If you are purchasing a wider variety of items then grab a shopping cart . 
+4-1	If	4-4_mark	purchasing	IN	O
+4-2	you	4-4_nsubj	purchasing	PRP	P1_shopper
+4-3	are	4-4_aux	purchasing	VBP	O
+4-4	purchasing	4-11_advcl	grab	VBG	O
+4-5	a	O	O	DT	O
+4-6	wider	O	O	JJR	O
+4-7	variety	4-4_dobj	purchasing	NN	O
+4-8	of	O	O	O	O
+4-9	items	O	O	NNS	P2_groceries
+4-10	then	4-11_advmod	grab	RB	O
+4-11	grab	O	O	VBP	O
+4-12	a	O	O	DT	O
+4-13	shopping	O	O	NN	O
+4-14	cart	4-11_dobj	grab	NN	P2_shopping_cart/basket
+4-15	.	O	O	O	O
+
+#id=5
+#text=I would recommend starting on the outside perimeter of the store , hitting up your dairy , meats , and vegetables . 
+5-1	I	5-3_nsubj	recommend	PRP	P3_shopper
+5-2	would	5-3_aux	recommend	MD	O
+5-3	recommend	O	O	VB	O
+5-4	starting	5-3_prep	recommend	VBG	O
+5-5	on	5-4_pcomp	starting	IN	O
+5-6	the	O	O	DT	O
+5-7	outside	O	O	JJ	O
+5-8	perimeter	O	O	NN	O
+5-9	of	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	store	O	O	NN	P1_grocery_shop
+5-12	,	O	O	O	O
+5-13	hitting	5-3_xcomp	recommend	VBG	O
+5-14	up	5-13_prt	hitting	RP	O
+5-15	your	O	O	PRP$	P1_shopper
+5-16	dairy	5-13_dobj	hitting	NN	P3_groceries
+5-17	,	O	O	O	O
+5-18	meats	O	O	NNS	P4_groceries
+5-19	,	O	O	O	O
+5-20	and	O	O	O	O
+5-21	vegetables	O	O	NNS	P5_groceries
+5-22	.	O	O	O	O
+
+#id=6
+#text=While you are working your way clockwise or counter-clockwise you can frequent the aisles in the middle to pickup the remainder of items . 
+6-1	While	6-4_mark	working	IN	O
+6-2	you	6-4_nsubj	working	PRP	P1_shopper
+6-3	are	6-4_aux	working	VBP	O
+6-4	working	6-12_advcl	frequent	VBG	O
+6-5	your	O	O	PRP$	P1_shopper
+6-6	way	6-4_dobj	working	NN	O
+6-7	clockwise	O	O	JJ	O
+6-8	or	O	O	O	O
+6-9	counter-clockwise	O	O	JJ	O
+6-10	you	6-12_nsubj	frequent	PRP	P1_shopper
+6-11	can	6-12_aux	frequent	MD	O
+6-12	frequent	O	O	VB	O
+6-13	the	O	O	DT	O
+6-14	aisles	6-12_dobj	frequent	NNS	P1_section
+6-15	in	O	O	O	O
+6-16	the	O	O	DT	O
+6-17	middle	6-12_prep_in	frequent	NN	O
+6-18	to	6-19_aux	pickup	TO	O
+6-19	pickup	O	O	VB	O
+6-20	the	O	O	DT	O
+6-21	remainder	6-19_dobj	pickup	NN	O
+6-22	of	O	O	O	O
+6-23	items	O	O	NNS	P2_groceries
+6-24	.	O	O	O	O
+
+#id=7
+#text=Spending a lot of time in the aisles can become frustrating since people are more likely to be in your way . 
+7-1	Spending	7-10_nsubj	become	NN	O
+7-2	a	O	O	DT	O
+7-3	lot	O	O	NN	O
+7-4	of	O	O	O	O
+7-5	time	O	O	NN	O
+7-6	in	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	aisles	O	O	NNS	P2_section
+7-9	can	7-10_aux	become	MD	O
+7-10	become	O	O	VB	O
+7-11	frustrating	7-10_acomp	become	JJ	O
+7-12	since	O	O	IN	O
+7-13	people	O	O	NNS	P4_shopper
+7-14	are	O	O	VBP	O
+7-15	more	O	O	RBR	O
+7-16	likely	7-10_advcl	become	JJ	O
+7-17	to	7-18_aux	be	TO	O
+7-18	be	O	O	VB	O
+7-19	in	O	O	O	O
+7-20	your	O	O	PRP$	P1_shopper
+7-21	way	7-18_prep_in	be	NN	O
+7-22	.	O	O	O	O
+
+#id=8
+#text=After you select all the items to purchase , find the shortest checkout line . 
+8-1	After	8-3_mark	select	IN	O
+8-2	you	8-3_nsubj	select	PRP	P1_shopper
+8-3	select	8-10_advcl	find	VBP	O
+8-4	all	O	O	PDT	O
+8-5	the	O	O	DT	O
+8-6	items	8-3_dobj	select	NNS	P2_groceries
+8-7	to	8-8_aux	purchase	TO	O
+8-8	purchase	8-3_xcomp	select	VB	O
+8-9	,	O	O	O	O
+8-10	find	O	O	VB	O
+8-11	the	O	O	DT	O
+8-12	shortest	O	O	JJS	O
+8-13	checkout	O	O	NN	O
+8-14	line	8-10_dobj	find	NN	P1_line
+8-15	.	O	O	O	O
+
+#id=9
+#text=Once you are close enough start piling your groceries on the belt , and take out your form of payment . 
+9-1	Once	O	O	IN	O
+9-2	you	O	O	PRP	P1_shopper
+9-3	are	O	O	VBP	O
+9-4	close	O	O	RB	O
+9-5	enough	9-6_csubj	start	JJ	O
+9-6	start	O	O	VB	O
+9-7	piling	9-6_xcomp	start	VBG	O
+9-8	your	O	O	PRP$	P1_shopper
+9-9	groceries	9-7_dobj	piling	NNS	P2_groceries
+9-10	on	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	belt	9-7_prep_on	piling	NN	P1_conveyor_belt
+9-13	,	O	O	O	O
+9-14	and	O	O	O	O
+9-15	take	9-6_conj_and	start	VB	O
+9-16	out	9-15_prt	take	RP	O
+9-17	your	O	O	PRP$	P1_shopper
+9-18	form	9-15_dobj	take	NN	O
+9-19	of	O	O	O	O
+9-20	payment	O	O	NN	P1_payment_means
+9-21	.	O	O	O	O
+
+#id=10
+#text=Once paid , the store will generally bag your groceries for you . 
+10-1	Once	10-2_mark	paid	IN	O
+10-2	paid	10-8_advcl	bag	VBD	O
+10-3	,	O	O	O	O
+10-4	the	O	O	DT	O
+10-5	store	10-8_nsubj	bag	NN	P1_grocery_staff
+10-6	will	10-8_aux	bag	MD	O
+10-7	generally	10-8_advmod	bag	RB	O
+10-8	bag	O	O	VB	O
+10-9	your	O	O	PRP$	P1_shopper
+10-10	groceries	10-8_dobj	bag	NNS	P2_groceries
+10-11	for	O	O	O	O
+10-12	you	10-8_prep_for	bag	PRP	P1_shopper
+10-13	.	O	O	O	O
+
+#id=11
+#text=Now you just need to load your car , drive home , and unload all of your bounty ! 
+11-1	Now	11-4_advmod	need	RB	O
+11-2	you	11-4_nsubj	need	PRP	P1_shopper
+11-3	just	11-4_advmod	need	RB	O
+11-4	need	O	O	VBP	O
+11-5	to	11-6_aux	load	TO	O
+11-6	load	11-4_xcomp	need	VB	O
+11-7	your	O	O	PRP$	P1_shopper
+11-8	car	11-6_dobj	load	NN	P1_vehicle
+11-9	,	O	O	O	O
+11-10	drive	11-6_conj_and	load	VB	O
+11-11	home	11-10_dobj	drive	NN	P1_NPart_home
+11-12	,	O	O	O	O
+11-13	and	O	O	O	O
+11-14	unload	11-6_conj_and	load	VB	O
+11-15	all	11-14_dobj	unload	DT	O
+11-16	of	O	O	O	O
+11-17	your	O	O	PRP$	P1_shopper
+11-18	bounty	O	O	NN	P2_groceries
+11-19	!	O	O	O	O

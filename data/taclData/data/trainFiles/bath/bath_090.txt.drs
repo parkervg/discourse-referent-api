@@ -1,0 +1,283 @@
+#id=1
+#text=A few weeks ago , I took a bath . 
+1-1	A	O	O	DT	O
+1-2	few	O	O	JJ	O
+1-3	weeks	O	O	NNS	P1_NPart_weeks
+1-4	ago	1-7_advmod	took	RB	O
+1-5	,	O	O	O	O
+1-6	I	1-7_nsubj	took	PRP	P1_bather
+1-7	took	O	O	VBD	O
+1-8	a	O	O	DT	O
+1-9	bath	1-7_dobj	took	NN	P1_bath
+1-10	.	O	O	O	O
+
+#id=2
+#text=I do not normally take baths , instead I take showers , but I had the house to myself . 
+2-1	I	2-5_nsubj	take	PRP	P1_bather
+2-2	do	2-5_aux	take	VBP	O
+2-3	not	2-5_neg	take	RB	O
+2-4	normally	2-5_advmod	take	RB	O
+2-5	take	O	O	VB	O
+2-6	baths	2-5_dobj	take	NNS	P1_bath
+2-7	,	O	O	O	O
+2-8	instead	2-10_advmod	take	RB	O
+2-9	I	2-10_nsubj	take	PRP	P1_bather
+2-10	take	2-5_parataxis	take	VBP	O
+2-11	showers	2-10_dobj	take	NNS	P1_shower
+2-12	,	O	O	O	O
+2-13	but	O	O	O	O
+2-14	I	2-15_nsubj	had	PRP	P1_bather
+2-15	had	2-5_conj_but	take	VBD	O
+2-16	the	O	O	DT	O
+2-17	house	2-15_dobj	had	NN	P1_NPart_house
+2-18	to	O	O	O	O
+2-19	myself	O	O	PRP	P1_bather
+2-20	.	O	O	O	O
+
+#id=3
+#text=My back was hurting and I wanted to relax with some heat on it . 
+3-1	My	O	O	PRP$	P1_bather
+3-2	back	3-4_nsubj	hurting	NN	P1_body_part
+3-3	was	3-4_aux	hurting	VBD	O
+3-4	hurting	O	O	VBG	O
+3-5	and	O	O	O	O
+3-6	I	3-7_nsubj	wanted	PRP	P1_bather
+3-7	wanted	3-4_conj_and	hurting	VBD	O
+3-8	to	3-9_aux	relax	TO	O
+3-9	relax	3-7_xcomp	wanted	VB	O
+3-10	with	O	O	O	O
+3-11	some	O	O	DT	O
+3-12	heat	3-9_prep_with	relax	NN	P1_temperature
+3-13	on	O	O	O	O
+3-14	it	O	O	PRP	P1_body_part
+3-15	.	O	O	O	O
+
+#id=4
+#text=I start out cleaning up the bathtub . 
+4-1	I	4-2_nsubj	start	PRP	P1_bather
+4-2	start	O	O	VBP	O
+4-3	out	4-2_prt	start	RP	O
+4-4	cleaning	4-2_xcomp	start	VBG	O
+4-5	up	4-4_prt	cleaning	RP	O
+4-6	the	O	O	DT	O
+4-7	bathtub	4-4_dobj	cleaning	NN	P1_bathtub
+4-8	.	O	O	O	O
+
+#id=5
+#text=It is not dirty really , but I want the tub to be spotless if I am going to be taking a bath . 
+5-1	It	O	O	PRP	P1_bathtub
+5-2	is	O	O	VBZ	O
+5-3	not	O	O	RB	O
+5-4	dirty	O	O	JJ	O
+5-5	really	O	O	RB	O
+5-6	,	O	O	O	O
+5-7	but	O	O	O	O
+5-8	I	5-9_nsubj	want	PRP	P1_bather
+5-9	want	O	O	VBP	O
+5-10	the	O	O	DT	O
+5-11	tub	5-9_dobj	want	NN	P1_bathtub
+5-12	to	O	O	TO	O
+5-13	be	O	O	VB	O
+5-14	spotless	5-9_xcomp	want	JJ	O
+5-15	if	5-18_mark	going	IN	O
+5-16	I	5-18_nsubj	going	PRP	P1_bather
+5-17	am	5-18_aux	going	VBP	O
+5-18	going	O	O	VBG	O
+5-19	to	5-21_aux	taking	TO	O
+5-20	be	5-21_aux	taking	VB	O
+5-21	taking	5-18_xcomp	going	VBG	O
+5-22	a	O	O	DT	O
+5-23	bath	5-21_dobj	taking	NN	P1_bath
+5-24	.	O	O	O	O
+
+#id=6
+#text=I first took a quick shower to get everything washed off and clean . 
+6-1	I	6-3_nsubj	took	PRP	P1_bather
+6-2	first	6-3_advmod	took	RB	O
+6-3	took	O	O	VBD	O
+6-4	a	O	O	DT	O
+6-5	quick	O	O	JJ	O
+6-6	shower	6-3_dobj	took	NN	P1_shower
+6-7	to	6-8_aux	get	TO	O
+6-8	get	6-3_vmod	took	VB	O
+6-9	everything	6-8_dobj	get	NN	P2_body_part
+6-10	washed	O	O	VBN	O
+6-11	off	6-10_prt	washed	RP	O
+6-12	and	O	O	O	O
+6-13	clean	6-8_conj_and	get	VB	O
+6-14	.	O	O	O	O
+
+#id=7
+#text=I did n't want to sit in a tepid pool of my own fifth . 
+7-1	I	7-4_nsubj	want	PRP	P1_bather
+7-2	did	7-4_aux	want	VBD	O
+7-3	n't	7-4_neg	want	RB	O
+7-4	want	O	O	VB	O
+7-5	to	7-6_aux	sit	TO	O
+7-6	sit	7-4_xcomp	want	VB	O
+7-7	in	O	O	O	O
+7-8	a	O	O	DT	O
+7-9	tepid	O	O	JJ	O
+7-10	pool	7-6_prep_in	sit	NN	P1_NPart_pool
+7-11	of	O	O	O	O
+7-12	my	O	O	PRP$	P1_bather
+7-13	own	O	O	JJ	O
+7-14	fifth	O	O	NN	O
+7-15	.	O	O	O	O
+
+#id=8
+#text=After that was finished , I turned on the hot water and filled the tub . 
+8-1	After	8-4_mark	finished	IN	O
+8-2	that	8-4_nsubjpass	finished	DT	O
+8-3	was	8-4_auxpass	finished	VBD	O
+8-4	finished	8-7_advcl	turned	VBN	O
+8-5	,	O	O	O	O
+8-6	I	8-7_nsubj	turned	PRP	P1_bather
+8-7	turned	O	O	VBD	O
+8-8	on	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	hot	O	O	JJ	O
+8-11	water	8-7_prep_on	turned	NN	P1_water
+8-12	and	O	O	O	O
+8-13	filled	8-7_conj_and	turned	VBD	O
+8-14	the	O	O	DT	O
+8-15	tub	8-13_dobj	filled	NN	P1_bathtub
+8-16	.	O	O	O	O
+
+#id=9
+#text=I like to have a really hot bath , because it generally gets cold so quick . 
+9-1	I	9-2_nsubj	like	PRP	P1_bather
+9-2	like	O	O	VBP	O
+9-3	to	9-4_aux	have	TO	O
+9-4	have	9-2_xcomp	like	VB	O
+9-5	a	O	O	DT	O
+9-6	really	O	O	RB	O
+9-7	hot	O	O	JJ	O
+9-8	bath	9-4_dobj	have	NN	P1_bath
+9-9	,	O	O	O	O
+9-10	because	O	O	IN	O
+9-11	it	O	O	PRP	P1_water
+9-12	generally	O	O	RB	O
+9-13	gets	O	O	VBZ	O
+9-14	cold	O	O	NN	O
+9-15	so	O	O	IN	O
+9-16	quick	O	O	JJ	O
+9-17	.	O	O	O	O
+
+#id=10
+#text=I found some of my daughter 's bubble bath and added a pretty generous amount . 
+10-1	I	10-2_nsubj	found	PRP	P1_bather
+10-2	found	O	O	VBD	O
+10-3	some	10-2_dobj	found	DT	O
+10-4	of	O	O	O	O
+10-5	my	O	O	PRP$	P1_bather
+10-6	daughter	O	O	NN	P1_NPart_daughter
+10-7	's	O	O	O	O
+10-8	bubble	O	O	NN	O
+10-9	bath	O	O	NN	P1_other
+10-10	and	O	O	O	O
+10-11	added	10-2_conj_and	found	VBD	O
+10-12	a	O	O	DT	O
+10-13	pretty	O	O	RB	O
+10-14	generous	O	O	JJ	O
+10-15	amount	10-11_dobj	added	NN	P1_other
+10-16	.	O	O	O	O
+
+#id=11
+#text=I figured , Hey , you have to treat yourself right . 
+11-1	I	11-2_nsubj	figured	PRP	P1_bather
+11-2	figured	O	O	VBD	O
+11-3	,	O	O	O	O
+11-4	Hey	11-7_discourse	have	UH	O
+11-5	,	O	O	O	O
+11-6	you	11-7_nsubj	have	PRP	P1_bather
+11-7	have	11-2_ccomp	figured	VBP	O
+11-8	to	11-9_aux	treat	TO	O
+11-9	treat	11-7_xcomp	have	VB	O
+11-10	yourself	O	O	PRP	P1_bather
+11-11	right	11-9_xcomp	treat	RB	O
+11-12	.	O	O	O	O
+
+#id=12
+#text=So , I got it and folded a towel for my head and laid down . 
+12-1	So	12-4_advmod	got	RB	O
+12-2	,	O	O	O	O
+12-3	I	12-4_nsubj	got	PRP	P1_bather
+12-4	got	O	O	VBD	O
+12-5	it	12-4_dobj	got	PRP	O
+12-6	and	O	O	O	O
+12-7	folded	12-4_conj_and	got	VBN	O
+12-8	a	O	O	DT	O
+12-9	towel	12-7_dobj	folded	NN	P1_towel
+12-10	for	O	O	O	O
+12-11	my	O	O	PRP$	P1_bather
+12-12	head	O	O	NN	P3_body_part
+12-13	and	O	O	O	O
+12-14	laid	12-7_conj_and	folded	VBN	O
+12-15	down	12-14_prt	laid	RP	O
+12-16	.	O	O	O	O
+
+#id=13
+#text=I had a beer while I was relaxing in the tub . 
+13-1	I	13-2_nsubj	had	PRP	P1_bather
+13-2	had	O	O	VBD	O
+13-3	a	O	O	DT	O
+13-4	beer	13-2_dobj	had	NN	P1_in-bath_entertainment
+13-5	while	13-8_mark	relaxing	IN	O
+13-6	I	13-8_nsubj	relaxing	PRP	P1_bather
+13-7	was	13-8_aux	relaxing	VBD	O
+13-8	relaxing	13-2_advcl	had	VBG	O
+13-9	in	O	O	O	O
+13-10	the	O	O	DT	O
+13-11	tub	13-8_prep_in	relaxing	NN	P1_bathtub
+13-12	.	O	O	O	O
+
+#id=14
+#text=My back was loosening up and I was feeling better after about fifteen minutes . 
+14-1	My	O	O	PRP$	P1_bather
+14-2	back	14-4_nsubj	loosening	NN	P1_body_part
+14-3	was	14-4_aux	loosening	VBD	O
+14-4	loosening	O	O	VBG	O
+14-5	up	14-4_prt	loosening	RP	O
+14-6	and	O	O	O	O
+14-7	I	14-9_nsubj	feeling	PRP	P1_bather
+14-8	was	14-9_aux	feeling	VBD	O
+14-9	feeling	14-4_conj_and	loosening	VBG	O
+14-10	better	14-9_advmod	feeling	RBR	O
+14-11	after	O	O	O	O
+14-12	about	O	O	RB	O
+14-13	fifteen	O	O	CD	O
+14-14	minutes	14-9_prep_after	feeling	NNS	P1_NPart_minutes
+14-15	.	O	O	O	O
+
+#id=15
+#text=The water was getting cold , so I decided to get out . 
+15-1	The	O	O	DT	O
+15-2	water	15-4_nsubj	getting	NN	P1_water
+15-3	was	15-4_aux	getting	VBD	O
+15-4	getting	O	O	VBG	O
+15-5	cold	15-4_advmod	getting	NN	O
+15-6	,	O	O	O	O
+15-7	so	15-4_dep	getting	IN	O
+15-8	I	15-9_nsubj	decided	PRP	P1_bather
+15-9	decided	15-4_parataxis	getting	VBD	O
+15-10	to	15-11_aux	get	TO	O
+15-11	get	15-9_xcomp	decided	VB	O
+15-12	out	15-11_prt	get	RP	O
+15-13	.	O	O	O	O
+
+#id=16
+#text=I dried off and got dressed and I felt a lot better . 
+16-1	I	16-2_nsubj	dried	PRP	P1_bather
+16-2	dried	O	O	VBD	O
+16-3	off	16-2_prt	dried	RP	O
+16-4	and	O	O	O	O
+16-5	got	16-6_auxpass	dressed	VBD	O
+16-6	dressed	16-2_conj_and	dried	VBN	O
+16-7	and	O	O	O	O
+16-8	I	16-9_nsubj	felt	PRP	P1_bather
+16-9	felt	16-2_conj_and	dried	VBD	O
+16-10	a	O	O	DT	O
+16-11	lot	O	O	RB	O
+16-12	better	16-9_acomp	felt	JJR	O
+16-13	.	O	O	O	O

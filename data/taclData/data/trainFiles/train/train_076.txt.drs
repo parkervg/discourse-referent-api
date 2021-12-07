@@ -1,0 +1,223 @@
+#id=1
+#text=I remembered the first long train trip i had , it was incredible . 
+1-1	I	1-2_nsubj	remembered	PRP	P1_passenger
+1-2	remembered	O	O	VBD	O
+1-3	the	O	O	DT	O
+1-4	first	O	O	JJ	O
+1-5	long	O	O	JJ	O
+1-6	train	O	O	NN	O
+1-7	trip	1-2_dobj	remembered	NN	P1_trip
+1-8	i	1-9_nsubj	had	FW	P1_passenger
+1-9	had	O	O	VBD	O
+1-10	,	O	O	O	O
+1-11	it	O	O	PRP	P1_trip
+1-12	was	O	O	VBD	O
+1-13	incredible	O	O	JJ	O
+1-14	.	O	O	O	O
+
+#id=2
+#text=I was talking to my family about going on a trip to Virginia and they decided it was about time we booked the trip . 
+2-1	I	2-3_nsubj	talking	PRP	P1_passenger
+2-2	was	2-3_aux	talking	VBD	O
+2-3	talking	O	O	VBG	O
+2-4	to	O	O	O	O
+2-5	my	O	O	PRP$	P1_passenger
+2-6	family	2-3_prep_to	talking	NN	P2_passenger
+2-7	about	O	O	O	O
+2-8	going	2-3_prepc_about	talking	VBG	O
+2-9	on	O	O	O	O
+2-10	a	O	O	DT	O
+2-11	trip	2-8_prep_on	going	NN	P1_trip
+2-12	to	O	O	O	O
+2-13	Virginia	2-8_prep_to	going	NNP	P1_destination
+2-14	and	O	O	O	O
+2-15	they	2-16_nsubj	decided	PRP	P2_passenger
+2-16	decided	2-3_conj_and	talking	VBD	O
+2-17	it	O	O	PRP	O
+2-18	was	O	O	VBD	O
+2-19	about	O	O	RB	O
+2-20	time	2-16_ccomp	decided	NN	O
+2-21	we	2-22_nsubj	booked	PRP	P3_passenger
+2-22	booked	O	O	VBD	O
+2-23	the	O	O	DT	O
+2-24	trip	2-22_dobj	booked	NN	P1_card/ticket
+2-25	.	O	O	O	O
+
+#id=3
+#text=My dad called Amtrak -LRB- train company -RRB- and ordered 5 tickets for the next weekend . 
+3-1	My	O	O	PRP$	P1_passenger
+3-2	dad	3-3_nsubj	called	NN	P4_passenger
+3-3	called	O	O	VBD	O
+3-4	Amtrak	3-3_dobj	called	NNP	O
+3-5	-LRB-	O	O	O	O
+3-6	train	O	O	NN	O
+3-7	company	O	O	NN	P1_ticket_office/website
+3-8	-RRB-	O	O	O	O
+3-9	and	O	O	O	O
+3-10	ordered	3-3_conj_and	called	VBD	O
+3-11	5	O	O	CD	O
+3-12	tickets	3-10_dobj	ordered	NNS	P1_card/ticket
+3-13	for	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	next	O	O	JJ	O
+3-16	weekend	3-10_prep_for	ordered	NN	P1_time_date
+3-17	.	O	O	O	O
+
+#id=4
+#text=When the weekend came we got onto the train . 
+4-1	When	4-4_advmod	came	WRB	O
+4-2	the	O	O	DT	O
+4-3	weekend	4-4_nsubj	came	NN	P1_time_date
+4-4	came	4-6_advcl	got	VBD	O
+4-5	we	4-6_nsubj	got	PRP	P3_passenger
+4-6	got	O	O	VBD	O
+4-7	onto	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	train	4-6_prep_onto	got	NN	P1_train
+4-10	.	O	O	O	O
+
+#id=5
+#text=This train was different , it was a double-decker or a train with two floors . 
+5-1	This	O	O	DT	O
+5-2	train	O	O	NN	P1_train
+5-3	was	O	O	VBD	O
+5-4	different	O	O	JJ	O
+5-5	,	O	O	O	O
+5-6	it	O	O	PRP	P1_train
+5-7	was	O	O	VBD	O
+5-8	a	O	O	DT	O
+5-9	double-decker	O	O	JJ	P2_train
+5-10	or	O	O	O	O
+5-11	a	O	O	DT	O
+5-12	train	O	O	NN	P1_train
+5-13	with	O	O	O	O
+5-14	two	O	O	CD	O
+5-15	floors	O	O	NNS	P1_other
+5-16	.	O	O	O	O
+
+#id=6
+#text=We got to our seats and to the side was huge windows that went from the back of the train car to the front . 
+6-1	We	6-2_nsubj	got	PRP	P3_passenger
+6-2	got	O	O	VBD	O
+6-3	to	O	O	O	O
+6-4	our	O	O	PRP$	P3_passenger
+6-5	seats	6-2_prep_to	got	NNS	P1_seat
+6-6	and	O	O	O	O
+6-7	to	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	side	O	O	NN	P1_location_train
+6-10	was	O	O	VBD	O
+6-11	huge	O	O	JJ	O
+6-12	windows	O	O	NNS	P2_location_train
+6-13	that	6-14_nsubj	went	WDT	O
+6-14	went	O	O	VBD	O
+6-15	from	O	O	O	O
+6-16	the	O	O	DT	O
+6-17	back	6-14_prep_from	went	NN	O
+6-18	of	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	train	O	O	NN	O
+6-21	car	O	O	NN	P1_coach
+6-22	to	O	O	O	O
+6-23	the	O	O	DT	O
+6-24	front	6-14_prep_to	went	NN	O
+6-25	.	O	O	O	O
+
+#id=7
+#text=I could n't believe how incredible all the trees and birds looked . 
+7-1	I	7-4_nsubj	believe	PRP	P1_passenger
+7-2	could	7-4_aux	believe	MD	O
+7-3	n't	7-4_neg	believe	RB	O
+7-4	believe	O	O	VB	O
+7-5	how	7-12_advmod	looked	WRB	O
+7-6	incredible	O	O	RB	O
+7-7	all	O	O	PDT	O
+7-8	the	O	O	DT	O
+7-9	trees	7-12_nsubj	looked	NNS	P1_NPart_trees
+7-10	and	O	O	O	O
+7-11	birds	O	O	NNS	P1_NPart_birds
+7-12	looked	7-4_ccomp	believe	VBD	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=Then we got to the observation car . 
+8-1	Then	8-3_advmod	got	RB	O
+8-2	we	8-3_nsubj	got	PRP	P3_passenger
+8-3	got	O	O	VBD	O
+8-4	to	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	observation	O	O	NN	O
+8-7	car	8-3_prep_to	got	NN	P2_coach
+8-8	.	O	O	O	O
+
+#id=9
+#text=I did n't even think this type of car existed . 
+9-1	I	9-5_nsubj	think	PRP	P1_passenger
+9-2	did	9-5_aux	think	VBD	O
+9-3	n't	9-5_neg	think	RB	O
+9-4	even	9-5_advmod	think	RB	O
+9-5	think	O	O	VB	O
+9-6	this	O	O	DT	O
+9-7	type	9-5_dobj	think	NN	O
+9-8	of	O	O	O	O
+9-9	car	O	O	NN	P2_coach
+9-10	existed	O	O	VBN	O
+9-11	.	O	O	O	O
+
+#id=10
+#text=The train car was all class except for the floor and the lower parts of the wall , above was all glass . 
+10-1	The	O	O	DT	O
+10-2	train	O	O	NN	O
+10-3	car	O	O	NN	P2_coach
+10-4	was	O	O	VBD	O
+10-5	all	O	O	DT	O
+10-6	class	O	O	NN	O
+10-7	except	O	O	IN	O
+10-8	for	O	O	O	O
+10-9	the	O	O	DT	O
+10-10	floor	O	O	NN	P3_location_train
+10-11	and	O	O	O	O
+10-12	the	O	O	DT	O
+10-13	lower	O	O	JJR	O
+10-14	parts	O	O	NNS	O
+10-15	of	O	O	O	O
+10-16	the	O	O	DT	O
+10-17	wall	O	O	NN	P4_location_train
+10-18	,	O	O	O	O
+10-19	above	O	O	RB	O
+10-20	was	O	O	VBD	O
+10-21	all	O	O	DT	O
+10-22	glass	O	O	NN	P1_NPart_glass
+10-23	.	O	O	O	O
+
+#id=11
+#text=Then we rode in the observation and watched as the rain fell down . 
+11-1	Then	11-3_advmod	rode	RB	O
+11-2	we	11-3_nsubj	rode	PRP	P3_passenger
+11-3	rode	O	O	VBD	O
+11-4	in	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	observation	11-3_prep_in	rode	NN	P2_coach
+11-7	and	O	O	O	O
+11-8	watched	11-3_conj_and	rode	VBD	O
+11-9	as	11-12_mark	fell	IN	O
+11-10	the	O	O	DT	O
+11-11	rain	11-12_nsubj	fell	NN	P1_NPart_rain
+11-12	fell	11-8_advcl	watched	VBD	O
+11-13	down	11-12_prt	fell	RP	O
+11-14	.	O	O	O	O
+
+#id=12
+#text=It was an unbelievable event and I would highly recommend it . 
+12-1	It	O	O	PRP	O
+12-2	was	O	O	VBD	O
+12-3	an	O	O	DT	O
+12-4	unbelievable	O	O	JJ	O
+12-5	event	O	O	NN	O
+12-6	and	O	O	O	O
+12-7	I	12-10_nsubj	recommend	PRP	P1_passenger
+12-8	would	12-10_aux	recommend	MD	O
+12-9	highly	12-10_advmod	recommend	RB	O
+12-10	recommend	O	O	VB	O
+12-11	it	12-10_dobj	recommend	PRP	O
+12-12	.	O	O	O	O

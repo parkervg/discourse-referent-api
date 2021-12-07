@@ -1,0 +1,209 @@
+#id=1
+#text=Before leaving my house , I check the bus schedule on the internet . 
+1-1	Before	O	O	O	O
+1-2	leaving	1-7_prepc_before	check	VBG	O
+1-3	my	O	O	PRP$	P1_passenger
+1-4	house	1-2_dobj	leaving	NN	P1_NPart_house
+1-5	,	O	O	O	O
+1-6	I	1-7_nsubj	check	PRP	P1_passenger
+1-7	check	O	O	VBP	O
+1-8	the	O	O	DT	O
+1-9	bus	O	O	NN	O
+1-10	schedule	1-7_dobj	check	NN	P1_time-table
+1-11	on	O	O	O	O
+1-12	the	O	O	DT	O
+1-13	internet	O	O	NN	P1_NPart_internet
+1-14	.	O	O	O	O
+
+#id=2
+#text=I noticed the bus was running late today , but I went outside to wait at the bus stop anyway . 
+2-1	I	2-2_nsubj	noticed	PRP	P1_passenger
+2-2	noticed	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	bus	2-6_nsubj	running	NN	P1_bus
+2-5	was	2-6_aux	running	VBD	O
+2-6	running	2-2_ccomp	noticed	VBG	O
+2-7	late	O	O	JJ	O
+2-8	today	2-6_tmod	running	NN	P1_time/date
+2-9	,	O	O	O	O
+2-10	but	O	O	O	O
+2-11	I	2-12_nsubj	went	PRP	P1_passenger
+2-12	went	2-2_conj_but	noticed	VBD	O
+2-13	outside	2-12_advmod	went	RB	O
+2-14	to	2-15_aux	wait	TO	O
+2-15	wait	2-12_xcomp	went	VB	O
+2-16	at	O	O	O	O
+2-17	the	O	O	DT	O
+2-18	bus	O	O	NN	O
+2-19	stop	2-15_prep_at	wait	NN	P1_bus_stop
+2-20	anyway	2-15_advmod	wait	RB	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=The bus actually arrived even later than it was estimated on the internet . 
+3-1	The	O	O	DT	O
+3-2	bus	3-4_nsubj	arrived	NN	P1_bus
+3-3	actually	3-4_advmod	arrived	RB	O
+3-4	arrived	O	O	VBD	O
+3-5	even	O	O	RB	O
+3-6	later	3-4_advmod	arrived	RB	O
+3-7	than	3-10_mark	estimated	IN	O
+3-8	it	3-10_nsubjpass	estimated	PRP	O
+3-9	was	3-10_auxpass	estimated	VBD	O
+3-10	estimated	3-4_advcl	arrived	VBN	O
+3-11	on	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	internet	3-10_prep_on	estimated	NN	P2_NPart_internet
+3-14	.	O	O	O	O
+
+#id=4
+#text=I got onto the bus after the arriving passengers exited . 
+4-1	I	4-2_nsubj	got	PRP	P1_passenger
+4-2	got	O	O	VBD	O
+4-3	onto	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	bus	4-2_prep_onto	got	NN	P1_bus
+4-6	after	4-10_mark	exited	IN	O
+4-7	the	O	O	DT	O
+4-8	arriving	O	O	JJ	O
+4-9	passengers	4-10_nsubj	exited	NNS	P2_passenger
+4-10	exited	4-2_advcl	got	VBD	O
+4-11	.	O	O	O	O
+
+#id=5
+#text=I paid with exact change into the money collector . 
+5-1	I	5-2_nsubj	paid	PRP	P1_passenger
+5-2	paid	O	O	VBD	O
+5-3	with	O	O	O	O
+5-4	exact	O	O	JJ	O
+5-5	change	5-2_prep_with	paid	NN	P1_money
+5-6	into	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	money	O	O	NN	O
+5-9	collector	5-2_prep_into	paid	NN	P1_payment_machine
+5-10	.	O	O	O	O
+
+#id=6
+#text=There were no empty seats on the bus and almost all the places to stand were full too . 
+6-1	There	6-2_expl	were	EX	O
+6-2	were	O	O	VBD	O
+6-3	no	O	O	DT	O
+6-4	empty	O	O	JJ	O
+6-5	seats	6-2_nsubj	were	NNS	P1_seat_in_bus
+6-6	on	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	bus	O	O	NN	P1_bus
+6-9	and	O	O	O	O
+6-10	almost	O	O	RB	O
+6-11	all	O	O	PDT	O
+6-12	the	O	O	DT	O
+6-13	places	O	O	VBZ	P1_other
+6-14	to	6-15_aux	stand	TO	O
+6-15	stand	6-13_xcomp	places	VB	O
+6-16	were	O	O	VBD	O
+6-17	full	6-2_conj_and	were	JJ	O
+6-18	too	O	O	RB	O
+6-19	.	O	O	O	O
+
+#id=7
+#text=I found a spot next to a man who smelled like he was eating onions . 
+7-1	I	7-2_nsubj	found	PRP	P1_passenger
+7-2	found	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	spot	7-2_dobj	found	NN	P1_other
+7-5	next	O	O	O	O
+7-6	to	O	O	O	O
+7-7	a	O	O	DT	O
+7-8	man	7-2_prep_next_to	found	NN	P3_passenger
+7-9	who	7-10_nsubj	smelled	WP	O
+7-10	smelled	O	O	VBD	O
+7-11	like	7-14_mark	eating	IN	O
+7-12	he	7-14_nsubj	eating	PRP	P3_passenger
+7-13	was	7-14_aux	eating	VBD	O
+7-14	eating	7-10_advcl	smelled	VBG	O
+7-15	onions	7-14_dobj	eating	NNS	P1_NPart_onions
+7-16	.	O	O	O	O
+
+#id=8
+#text=For the next 22 blocks I had to smell him before he exited the bus . 
+8-1	For	O	O	O	O
+8-2	the	O	O	DT	O
+8-3	next	O	O	JJ	O
+8-4	22	O	O	CD	O
+8-5	blocks	8-7_prep_for	had	NNS	P1_NPart_blocks
+8-6	I	8-7_nsubj	had	PRP	P1_passenger
+8-7	had	O	O	VBD	O
+8-8	to	8-9_aux	smell	TO	O
+8-9	smell	8-7_xcomp	had	VB	O
+8-10	him	8-9_dobj	smell	PRP	P3_passenger
+8-11	before	8-13_mark	exited	IN	O
+8-12	he	8-13_nsubj	exited	PRP	P3_passenger
+8-13	exited	8-9_advcl	smell	VBD	O
+8-14	the	O	O	DT	O
+8-15	bus	8-13_dobj	exited	NN	P1_bus
+8-16	.	O	O	O	O
+
+#id=9
+#text=The next person who stood by me was a morbidly obese man who liked to talk about anything he could think of . 
+9-1	The	O	O	DT	O
+9-2	next	O	O	JJ	O
+9-3	person	O	O	NN	P4_passenger
+9-4	who	9-5_nsubj	stood	WP	O
+9-5	stood	O	O	VBD	O
+9-6	by	O	O	O	O
+9-7	me	9-5_prep_by	stood	PRP	P1_passenger
+9-8	was	O	O	VBD	O
+9-9	a	O	O	DT	O
+9-10	morbidly	O	O	RB	O
+9-11	obese	O	O	JJ	O
+9-12	man	O	O	NN	P4_passenger
+9-13	who	9-14_nsubj	liked	WP	O
+9-14	liked	O	O	VBD	O
+9-15	to	9-16_aux	talk	TO	O
+9-16	talk	9-14_xcomp	liked	VB	O
+9-17	about	O	O	O	O
+9-18	anything	9-16_prep_about	talk	NN	P1_NPart_anything
+9-19	he	9-21_nsubj	think	PRP	P4_passenger
+9-20	could	9-21_aux	think	MD	O
+9-21	think	O	O	VB	O
+9-22	of	9-21_prep	think	IN	O
+9-23	.	O	O	O	O
+
+#id=10
+#text=I tried to just look out the window because it was so uncomfortable . 
+10-1	I	10-2_nsubj	tried	PRP	P1_passenger
+10-2	tried	O	O	VBD	O
+10-3	to	10-5_aux	look	TO	O
+10-4	just	10-5_advmod	look	RB	O
+10-5	look	10-2_xcomp	tried	VB	O
+10-6	out	10-5_prt	look	RP	O
+10-7	the	O	O	DT	O
+10-8	window	10-5_dobj	look	NN	P1_NPart_window
+10-9	because	O	O	IN	O
+10-10	it	O	O	PRP	O
+10-11	was	O	O	VBD	O
+10-12	so	O	O	RB	O
+10-13	uncomfortable	10-2_advcl	tried	JJ	O
+10-14	.	O	O	O	O
+
+#id=11
+#text=Finally , seven blocks later I was at my stop and I could not have been more relieved . 
+11-1	Finally	11-7_advmod	was	RB	O
+11-2	,	O	O	O	O
+11-3	seven	O	O	CD	O
+11-4	blocks	O	O	NNS	P2_NPart_blocks
+11-5	later	11-7_advmod	was	RB	O
+11-6	I	11-7_nsubj	was	PRP	P1_passenger
+11-7	was	O	O	VBD	O
+11-8	at	O	O	O	O
+11-9	my	O	O	PRP$	P1_passenger
+11-10	stop	11-7_prep_at	was	NN	P2_bus_stop
+11-11	and	O	O	O	O
+11-12	I	11-18_nsubjpass	relieved	PRP	P1_passenger
+11-13	could	11-18_aux	relieved	MD	O
+11-14	not	11-18_neg	relieved	RB	O
+11-15	have	11-18_aux	relieved	VB	O
+11-16	been	11-18_auxpass	relieved	VBN	O
+11-17	more	11-18_advmod	relieved	RBR	O
+11-18	relieved	11-7_conj_and	was	VBN	O
+11-19	.	O	O	O	O

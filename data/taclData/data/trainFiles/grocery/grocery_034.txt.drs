@@ -1,0 +1,341 @@
+#id=1
+#text=I drove to the grocery store , parked , and went into the building . 
+1-1	I	1-2_nsubj	drove	PRP	P1_shopper
+1-2	drove	O	O	VBD	O
+1-3	to	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	grocery	O	O	NN	O
+1-6	store	1-2_prep_to	drove	NN	P1_grocery_shop
+1-7	,	O	O	O	O
+1-8	parked	1-2_conj_and	drove	VBD	O
+1-9	,	O	O	O	O
+1-10	and	O	O	O	O
+1-11	went	1-2_conj_and	drove	VBD	O
+1-12	into	O	O	O	O
+1-13	the	O	O	DT	O
+1-14	building	1-11_prep_into	went	NN	P1_grocery_shop
+1-15	.	O	O	O	O
+
+#id=2
+#text=There was a line of shopping carts at the front of the store , just inside the doors . 
+2-1	There	2-2_expl	was	EX	O
+2-2	was	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	line	2-2_nsubj	was	NN	O
+2-5	of	O	O	O	O
+2-6	shopping	O	O	NN	O
+2-7	carts	O	O	NNS	P1_shopping_cart/basket
+2-8	at	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	front	2-2_prep_at	was	NN	P1_NPart_front
+2-11	of	O	O	O	O
+2-12	the	O	O	DT	O
+2-13	store	O	O	NN	P1_grocery_shop
+2-14	,	O	O	O	O
+2-15	just	2-2_advmod	was	RB	O
+2-16	inside	O	O	O	O
+2-17	the	O	O	DT	O
+2-18	doors	2-2_prep_inside	was	NNS	P1_NPart_doors
+2-19	.	O	O	O	O
+
+#id=3
+#text=I took one and walked to the wide produce aisle at the left of the store . 
+3-1	I	3-2_nsubj	took	PRP	P1_shopper
+3-2	took	O	O	VBD	O
+3-3	one	3-2_dobj	took	CD	P1_shopping_cart/basket
+3-4	and	O	O	O	O
+3-5	walked	3-2_conj_and	took	VBD	O
+3-6	to	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	wide	O	O	JJ	O
+3-9	produce	O	O	NN	O
+3-10	aisle	3-5_prep_to	walked	NN	P1_section
+3-11	at	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	left	3-5_prep_at	walked	NN	O
+3-14	of	O	O	O	O
+3-15	the	O	O	DT	O
+3-16	store	O	O	NN	P1_grocery_shop
+3-17	.	O	O	O	O
+
+#id=4
+#text=I walked down every aisle in the store , adding things to my cart as I did . 
+4-1	I	4-2_nsubj	walked	PRP	P1_shopper
+4-2	walked	O	O	VBD	O
+4-3	down	4-2_prt	walked	RP	O
+4-4	every	O	O	DT	O
+4-5	aisle	4-2_dobj	walked	NN	P2_section
+4-6	in	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	store	O	O	NN	P1_grocery_shop
+4-9	,	O	O	O	O
+4-10	adding	4-2_vmod	walked	VBG	O
+4-11	things	4-10_dobj	adding	NNS	P1_groceries
+4-12	to	O	O	O	O
+4-13	my	O	O	PRP$	P1_shopper
+4-14	cart	4-10_prep_to	adding	NN	P1_shopping_cart/basket
+4-15	as	4-17_mark	did	IN	O
+4-16	I	4-17_nsubj	did	PRP	P1_shopper
+4-17	did	4-10_advcl	adding	VBD	O
+4-18	.	O	O	O	O
+
+#id=5
+#text=I had a shopping list with me and managed to find everything I needed . 
+5-1	I	5-2_nsubj	had	PRP	P1_shopper
+5-2	had	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	shopping	O	O	NN	O
+5-5	list	5-2_dobj	had	NN	P1_grocery_list
+5-6	with	O	O	O	O
+5-7	me	O	O	PRP	P1_shopper
+5-8	and	O	O	O	O
+5-9	managed	5-2_conj_and	had	VBD	O
+5-10	to	5-11_aux	find	TO	O
+5-11	find	5-9_xcomp	managed	VB	O
+5-12	everything	5-11_dobj	find	NN	P1_groceries
+5-13	I	5-14_nsubj	needed	PRP	P1_shopper
+5-14	needed	O	O	VBD	O
+5-15	.	O	O	O	O
+
+#id=6
+#text=I bought material for making a big salad for dinner : lettuce , tomatoes , peppers , cucumbers , and croutons . 
+6-1	I	6-2_nsubj	bought	PRP	P1_shopper
+6-2	bought	O	O	VBD	O
+6-3	material	6-2_dobj	bought	NN	P2_groceries
+6-4	for	O	O	O	O
+6-5	making	6-2_prepc_for	bought	VBG	O
+6-6	a	O	O	DT	O
+6-7	big	O	O	JJ	O
+6-8	salad	6-5_dobj	making	NN	P1_NPart_salad
+6-9	for	O	O	O	O
+6-10	dinner	6-5_prep_for	making	NN	P1_NPart_dinner
+6-11	:	O	O	O	O
+6-12	lettuce	6-16_nsubj	peppers	NN	P2_groceries
+6-13	,	O	O	O	O
+6-14	tomatoes	O	O	NNS	P2_groceries
+6-15	,	O	O	O	O
+6-16	peppers	6-2_parataxis	bought	VBZ	P2_groceries
+6-17	,	O	O	O	O
+6-18	cucumbers	6-16_conj_and	peppers	VBZ	P2_groceries
+6-19	,	O	O	O	O
+6-20	and	O	O	O	O
+6-21	croutons	6-16_conj_and	peppers	VBZ	P2_groceries
+6-22	.	O	O	O	O
+
+#id=7
+#text=And I bought two packages of chicken and one package of hamburg . 
+7-1	And	7-3_cc	bought	CC	O
+7-2	I	7-3_nsubj	bought	PRP	P1_shopper
+7-3	bought	O	O	VBD	O
+7-4	two	O	O	CD	O
+7-5	packages	7-3_dobj	bought	NNS	O
+7-6	of	O	O	O	O
+7-7	chicken	O	O	NN	P3_groceries
+7-8	and	O	O	O	O
+7-9	one	O	O	CD	O
+7-10	package	O	O	NN	O
+7-11	of	O	O	O	O
+7-12	hamburg	O	O	NN	P4_groceries
+7-13	.	O	O	O	O
+
+#id=8
+#text=I also bought things like paper towels and toilet paper and frozen food . 
+8-1	I	8-3_nsubj	bought	PRP	P1_shopper
+8-2	also	8-3_advmod	bought	RB	O
+8-3	bought	O	O	VBD	O
+8-4	things	8-3_dobj	bought	NNS	P5_groceries
+8-5	like	O	O	O	O
+8-6	paper	O	O	NN	O
+8-7	towels	O	O	NNS	P5_groceries
+8-8	and	O	O	O	O
+8-9	toilet	O	O	NN	O
+8-10	paper	O	O	NN	P5_groceries
+8-11	and	O	O	O	O
+8-12	frozen	O	O	VBN	O
+8-13	food	O	O	NN	P5_groceries
+8-14	.	O	O	O	O
+
+#id=9
+#text=When I was finished adding items to my cart , I walked to one of the registers . 
+9-1	When	9-4_advmod	finished	WRB	O
+9-2	I	9-4_nsubjpass	finished	PRP	P1_shopper
+9-3	was	9-4_auxpass	finished	VBD	O
+9-4	finished	9-12_advcl	walked	VBN	O
+9-5	adding	9-4_xcomp	finished	VBG	O
+9-6	items	9-5_dobj	adding	NNS	P6_groceries
+9-7	to	O	O	O	O
+9-8	my	O	O	PRP$	P1_shopper
+9-9	cart	9-5_prep_to	adding	NN	P1_shopping_cart/basket
+9-10	,	O	O	O	O
+9-11	I	9-12_nsubj	walked	PRP	P1_shopper
+9-12	walked	O	O	VBD	O
+9-13	to	O	O	O	O
+9-14	one	9-12_prep_to	walked	CD	O
+9-15	of	O	O	O	O
+9-16	the	O	O	DT	O
+9-17	registers	O	O	NN	P1_cash_desk
+9-18	.	O	O	O	O
+
+#id=10
+#text=There are more than twenty registers in the store . 
+10-1	There	10-2_expl	are	EX	O
+10-2	are	O	O	VBP	O
+10-3	more	O	O	JJR	O
+10-4	than	O	O	IN	O
+10-5	twenty	O	O	CD	O
+10-6	registers	10-2_nsubj	are	CD	P1_cash_desk
+10-7	in	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	store	O	O	NN	P1_grocery_shop
+10-10	.	O	O	O	O
+
+#id=11
+#text=I chose the one with the shortest line . 
+11-1	I	11-2_nsubj	chose	PRP	P1_shopper
+11-2	chose	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	one	11-2_dobj	chose	NN	P1_cash_desk
+11-5	with	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	shortest	O	O	JJS	O
+11-8	line	11-2_prep_with	chose	NN	P1_line
+11-9	.	O	O	O	O
+
+#id=12
+#text=When it was my turn I put the things I had in my cart onto the conveyor belt . 
+12-1	When	O	O	WRB	O
+12-2	it	O	O	PRP	P1_NPart_it
+12-3	was	O	O	VBD	O
+12-4	my	O	O	PRP$	P1_shopper
+12-5	turn	12-7_advcl	put	NN	O
+12-6	I	12-7_nsubj	put	PRP	P1_shopper
+12-7	put	O	O	VBD	O
+12-8	the	O	O	DT	O
+12-9	things	12-7_dobj	put	NNS	P1_groceries
+12-10	I	12-11_nsubj	had	PRP	P1_shopper
+12-11	had	O	O	VBD	O
+12-12	in	O	O	O	O
+12-13	my	O	O	PRP$	P1_shopper
+12-14	cart	12-11_prep_in	had	NN	P1_shopping_cart/basket
+12-15	onto	O	O	O	O
+12-16	the	O	O	DT	O
+12-17	conveyor	O	O	NN	O
+12-18	belt	12-7_prep_onto	put	NN	P1_conveyor_belt
+12-19	.	O	O	O	O
+
+#id=13
+#text=The woman at the cash register scanned the items , and a man at the end of the counter put my items in plastic bags . 
+13-1	The	O	O	DT	O
+13-2	woman	13-7_nsubj	scanned	NN	P1_grocery_staff
+13-3	at	O	O	O	O
+13-4	the	O	O	DT	O
+13-5	cash	O	O	NN	O
+13-6	register	O	O	NN	P1_cash_desk
+13-7	scanned	O	O	VBD	O
+13-8	the	O	O	DT	O
+13-9	items	13-7_dobj	scanned	NNS	P1_groceries
+13-10	,	O	O	O	O
+13-11	and	O	O	O	O
+13-12	a	O	O	DT	O
+13-13	man	13-20_nsubj	put	NN	P2_grocery_staff
+13-14	at	O	O	O	O
+13-15	the	O	O	DT	O
+13-16	end	O	O	NN	O
+13-17	of	O	O	O	O
+13-18	the	O	O	DT	O
+13-19	counter	O	O	NN	P2_cash_desk
+13-20	put	13-7_conj_and	scanned	VBD	O
+13-21	my	O	O	PRP$	P1_shopper
+13-22	items	13-20_dobj	put	NNS	P1_groceries
+13-23	in	O	O	O	O
+13-24	plastic	O	O	JJ	O
+13-25	bags	13-20_prep_in	put	NNS	P1_shopping_bags
+13-26	.	O	O	O	O
+
+#id=14
+#text=When she was finished scanning my order , she told me how much I owed . 
+14-1	When	14-4_advmod	finished	WRB	O
+14-2	she	14-4_nsubjpass	finished	PRP	P1_grocery_staff
+14-3	was	14-4_auxpass	finished	VBD	O
+14-4	finished	14-10_advcl	told	VBN	O
+14-5	scanning	14-4_xcomp	finished	VBG	O
+14-6	my	O	O	PRP$	P1_shopper
+14-7	order	14-5_dobj	scanning	NN	P1_groceries
+14-8	,	O	O	O	O
+14-9	she	14-10_nsubj	told	PRP	P1_grocery_staff
+14-10	told	O	O	VBD	O
+14-11	me	14-10_dobj	told	PRP	P1_shopper
+14-12	how	O	O	WRB	O
+14-13	much	14-15_dep	owed	JJ	O
+14-14	I	14-15_nsubj	owed	PRP	P1_shopper
+14-15	owed	14-10_dep	told	VBD	O
+14-16	.	O	O	O	O
+
+#id=15
+#text=I swiped my credit card into the machine . 
+15-1	I	15-2_nsubj	swiped	PRP	P1_shopper
+15-2	swiped	O	O	VBD	O
+15-3	my	O	O	PRP$	P1_shopper
+15-4	credit	O	O	NN	O
+15-5	card	15-2_dobj	swiped	NN	P1_payment_means
+15-6	into	O	O	O	O
+15-7	the	O	O	DT	O
+15-8	machine	15-2_prep_into	swiped	NN	P2_payment_means
+15-9	.	O	O	O	O
+
+#id=16
+#text=The machine approved my card , and I signed the machine with a special pen . 
+16-1	The	O	O	DT	O
+16-2	machine	16-3_nsubj	approved	NN	P2_payment_means
+16-3	approved	O	O	VBD	O
+16-4	my	O	O	PRP$	P1_shopper
+16-5	card	16-3_dobj	approved	NN	P1_payment_means
+16-6	,	O	O	O	O
+16-7	and	O	O	O	O
+16-8	I	16-9_nsubj	signed	PRP	P1_shopper
+16-9	signed	16-3_conj_and	approved	VBD	O
+16-10	the	O	O	DT	O
+16-11	machine	16-9_dobj	signed	NN	P2_payment_means
+16-12	with	O	O	O	O
+16-13	a	O	O	DT	O
+16-14	special	O	O	JJ	O
+16-15	pen	16-9_prep_with	signed	NN	P1_NPart_pen
+16-16	.	O	O	O	O
+
+#id=17
+#text=The bagger had finished bagging my items by then and had put all the bags in my shopping cart . 
+17-1	The	O	O	DT	O
+17-2	bagger	17-4_nsubj	finished	NN	P2_grocery_staff
+17-3	had	17-4_aux	finished	VBD	O
+17-4	finished	O	O	VBN	O
+17-5	bagging	17-4_xcomp	finished	VBG	O
+17-6	my	O	O	PRP$	P1_shopper
+17-7	items	17-5_dobj	bagging	NNS	P1_groceries
+17-8	by	17-5_prep	bagging	IN	O
+17-9	then	O	O	RB	O
+17-10	and	O	O	O	O
+17-11	had	17-12_aux	put	VBD	O
+17-12	put	17-4_conj_and	finished	VBN	O
+17-13	all	O	O	PDT	O
+17-14	the	O	O	DT	O
+17-15	bags	17-12_dobj	put	NNS	P1_shopping_bags
+17-16	in	O	O	O	O
+17-17	my	O	O	PRP$	P1_shopper
+17-18	shopping	O	O	NN	O
+17-19	cart	O	O	NN	P1_shopping_cart/basket
+17-20	.	O	O	O	O
+
+#id=18
+#text=I left the store to put the bags in my car . 
+18-1	I	18-2_nsubj	left	PRP	P1_shopper
+18-2	left	O	O	VBD	O
+18-3	the	O	O	DT	O
+18-4	store	18-2_dobj	left	NN	P1_grocery_shop
+18-5	to	18-6_aux	put	TO	O
+18-6	put	O	O	VB	O
+18-7	the	O	O	DT	O
+18-8	bags	18-6_dobj	put	NNS	P1_shopping_bags
+18-9	in	O	O	O	O
+18-10	my	O	O	PRP$	P1_shopper
+18-11	car	18-6_prep_in	put	NN	P1_NPart_car
+18-12	.	O	O	O	O

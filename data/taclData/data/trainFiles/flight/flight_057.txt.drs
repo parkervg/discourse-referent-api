@@ -1,0 +1,224 @@
+#id=1
+#text=A year ago I had to go visit my relatives who lives in England . 
+1-1	A	O	O	DT	O
+1-2	year	O	O	NN	P1_NPart_year
+1-3	ago	1-5_advmod	had	RB	O
+1-4	I	1-5_nsubj	had	PRP	P1_passenger
+1-5	had	O	O	VBD	O
+1-6	to	1-7_aux	go	TO	O
+1-7	go	1-5_xcomp	had	VB	O
+1-8	visit	1-7_xcomp	go	VB	O
+1-9	my	O	O	PRP$	P1_passenger
+1-10	relatives	1-8_dobj	visit	NNS	P1_NPart_relatives
+1-11	who	1-12_nsubj	lives	WP	O
+1-12	lives	O	O	VBZ	O
+1-13	in	O	O	O	O
+1-14	England	1-12_prep_in	lives	NNP	P1_target_location
+1-15	.	O	O	O	O
+
+#id=2
+#text=Of course this meant the only viable method of travel would be to fly on an airplane . 
+2-1	Of	O	O	O	O
+2-2	course	2-4_prep_of	meant	NN	O
+2-3	this	2-4_nsubj	meant	DT	O
+2-4	meant	O	O	VBD	O
+2-5	the	O	O	DT	O
+2-6	only	O	O	RB	O
+2-7	viable	O	O	JJ	O
+2-8	method	2-12_nsubj	be	NN	P1_NPart_method
+2-9	of	O	O	O	O
+2-10	travel	O	O	NN	P1_NPart_travel
+2-11	would	2-12_aux	be	MD	O
+2-12	be	2-4_ccomp	meant	VB	O
+2-13	to	2-14_aux	fly	TO	O
+2-14	fly	2-12_xcomp	be	VB	O
+2-15	on	O	O	O	O
+2-16	an	O	O	DT	O
+2-17	airplane	2-14_prep_on	fly	NN	P1_plane
+2-18	.	O	O	O	O
+
+#id=3
+#text=I 've never flown on an airplane before so I was n't sure what the process involved . 
+3-1	I	3-4_nsubj	flown	PRP	P1_passenger
+3-2	've	3-4_aux	flown	VBP	O
+3-3	never	3-4_neg	flown	RB	O
+3-4	flown	O	O	VBN	O
+3-5	on	O	O	O	O
+3-6	an	O	O	DT	O
+3-7	airplane	3-4_prep_on	flown	NN	P1_plane
+3-8	before	O	O	RB	O
+3-9	so	O	O	IN	O
+3-10	I	O	O	PRP	P1_passenger
+3-11	was	O	O	VBD	O
+3-12	n't	O	O	RB	O
+3-13	sure	3-4_advcl	flown	JJ	O
+3-14	what	3-17_dobj	involved	WP	O
+3-15	the	O	O	DT	O
+3-16	process	3-17_nsubj	involved	NN	P1_NPart_process
+3-17	involved	O	O	VBD	O
+3-18	.	O	O	O	O
+
+#id=4
+#text=I decided to go online and do some research about what I would need to do . 
+4-1	I	4-2_nsubj	decided	PRP	P1_passenger
+4-2	decided	O	O	VBD	O
+4-3	to	4-4_aux	go	TO	O
+4-4	go	4-2_xcomp	decided	VB	O
+4-5	online	4-4_prep	go	NN	P1_other
+4-6	and	O	O	O	O
+4-7	do	4-4_conj_and	go	VB	O
+4-8	some	O	O	DT	O
+4-9	research	4-7_dobj	do	NN	O
+4-10	about	O	O	O	O
+4-11	what	4-14_dobj	need	WP	O
+4-12	I	4-14_nsubj	need	PRP	P1_passenger
+4-13	would	4-14_aux	need	MD	O
+4-14	need	4-7_prepc_about	do	VB	O
+4-15	to	4-16_aux	do	TO	O
+4-16	do	4-14_xcomp	need	VB	O
+4-17	.	O	O	O	O
+
+#id=5
+#text=I found out it was actually a lot easier than I anticipated . 
+5-1	I	5-2_nsubj	found	PRP	P1_passenger
+5-2	found	O	O	VBD	O
+5-3	out	5-2_prt	found	RP	O
+5-4	it	O	O	PRP	O
+5-5	was	O	O	VBD	O
+5-6	actually	O	O	RB	O
+5-7	a	O	O	DT	O
+5-8	lot	O	O	RB	O
+5-9	easier	5-2_ccomp	found	JJR	O
+5-10	than	5-12_mark	anticipated	IN	O
+5-11	I	5-12_nsubj	anticipated	PRP	P1_passenger
+5-12	anticipated	O	O	VBD	O
+5-13	.	O	O	O	O
+
+#id=6
+#text=I was able to buy my ticket online , and when the day of the flight came I had my friend drop me off at the airport . 
+6-1	I	O	O	PRP	P1_passenger
+6-2	was	O	O	VBD	O
+6-3	able	O	O	JJ	O
+6-4	to	6-5_aux	buy	TO	O
+6-5	buy	O	O	VB	O
+6-6	my	O	O	PRP$	P1_passenger
+6-7	ticket	6-5_dobj	buy	NN	P1_ticket
+6-8	online	6-5_prep	buy	NN	P1_other
+6-9	,	O	O	O	O
+6-10	and	O	O	O	O
+6-11	when	6-17_advmod	came	WRB	O
+6-12	the	O	O	DT	O
+6-13	day	6-17_nsubj	came	NN	P1_time/date
+6-14	of	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	flight	O	O	NN	P1_flight
+6-17	came	6-22_advcl	drop	VBD	O
+6-18	I	6-19_nsubj	had	PRP	P1_passenger
+6-19	had	6-17_ccomp	came	VBD	O
+6-20	my	O	O	PRP$	P1_passenger
+6-21	friend	6-19_dobj	had	NN	P1_accomp_person
+6-22	drop	O	O	VBP	O
+6-23	me	6-22_dobj	drop	PRP	P1_passenger
+6-24	off	6-22_prt	drop	RP	O
+6-25	at	O	O	O	O
+6-26	the	O	O	DT	O
+6-27	airport	6-22_prep_at	drop	NN	P1_airport
+6-28	.	O	O	O	O
+
+#id=7
+#text=I got in the security line which was very annoying and took a long time to get through . 
+7-1	I	7-2_nsubj	got	PRP	P1_passenger
+7-2	got	O	O	VBD	O
+7-3	in	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	security	O	O	NN	O
+7-6	line	7-2_prep_in	got	NN	P1_line
+7-7	which	O	O	WDT	O
+7-8	was	O	O	VBD	O
+7-9	very	O	O	RB	O
+7-10	annoying	O	O	JJ	O
+7-11	and	O	O	O	O
+7-12	took	7-2_conj_and	got	VBD	O
+7-13	a	O	O	DT	O
+7-14	long	O	O	JJ	O
+7-15	time	7-12_dobj	took	NN	P2_time/date
+7-16	to	7-17_aux	get	TO	O
+7-17	get	7-12_vmod	took	VB	O
+7-18	through	7-17_prt	get	RP	O
+7-19	.	O	O	O	O
+
+#id=8
+#text=Finally I got to the terminal and was able to board the plane . 
+8-1	Finally	8-3_advmod	got	RB	O
+8-2	I	8-3_nsubj	got	PRP	P1_passenger
+8-3	got	O	O	VBD	O
+8-4	to	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	terminal	8-3_prep_to	got	NN	P1_terminal/gate
+8-7	and	O	O	O	O
+8-8	was	O	O	VBD	O
+8-9	able	8-3_conj_and	got	JJ	O
+8-10	to	8-11_aux	board	TO	O
+8-11	board	O	O	VB	O
+8-12	the	O	O	DT	O
+8-13	plane	8-11_dobj	board	NN	P1_plane
+8-14	.	O	O	O	O
+
+#id=9
+#text=I got on and stowed my luggage and took my seat . 
+9-1	I	9-2_nsubj	got	PRP	P1_passenger
+9-2	got	O	O	VBD	O
+9-3	on	9-2_prt	got	RP	O
+9-4	and	O	O	O	O
+9-5	stowed	9-2_conj_and	got	VBD	O
+9-6	my	O	O	PRP$	P1_passenger
+9-7	luggage	9-5_dobj	stowed	NN	P1_carry_on_luggage
+9-8	and	O	O	O	O
+9-9	took	9-5_conj_and	stowed	VBD	O
+9-10	my	O	O	PRP$	P1_passenger
+9-11	seat	9-9_dobj	took	NN	P1_seat
+9-12	.	O	O	O	O
+
+#id=10
+#text=When the plane took off I tried to fall asleep to pass the time , but I was too excited . 
+10-1	When	10-4_advmod	took	WRB	O
+10-2	the	O	O	DT	O
+10-3	plane	10-4_nsubj	took	NN	P1_plane
+10-4	took	10-7_advcl	tried	VBD	O
+10-5	off	10-4_prt	took	RP	O
+10-6	I	10-7_nsubj	tried	PRP	P1_passenger
+10-7	tried	O	O	VBD	O
+10-8	to	10-9_aux	fall	TO	O
+10-9	fall	10-7_xcomp	tried	VB	O
+10-10	asleep	10-9_acomp	fall	JJ	O
+10-11	to	10-12_aux	pass	TO	O
+10-12	pass	O	O	VB	O
+10-13	the	O	O	DT	O
+10-14	time	10-12_dobj	pass	NN	O
+10-15	,	O	O	O	O
+10-16	but	O	O	O	O
+10-17	I	O	O	PRP	P1_passenger
+10-18	was	O	O	VBD	O
+10-19	too	O	O	RB	O
+10-20	excited	10-7_conj_but	tried	JJ	O
+10-21	.	O	O	O	O
+
+#id=11
+#text=Luckily I had a safe flight and was able to arrive in England with no problems . 
+11-1	Luckily	11-3_advmod	had	RB	O
+11-2	I	11-3_nsubj	had	PRP	P1_passenger
+11-3	had	O	O	VBD	O
+11-4	a	O	O	DT	O
+11-5	safe	O	O	JJ	O
+11-6	flight	11-3_dobj	had	NN	P1_flight
+11-7	and	O	O	O	O
+11-8	was	O	O	VBD	O
+11-9	able	11-3_conj_and	had	JJ	O
+11-10	to	11-11_aux	arrive	TO	O
+11-11	arrive	O	O	VB	O
+11-12	in	O	O	O	O
+11-13	England	11-11_prep_in	arrive	NNP	P1_target_location
+11-14	with	O	O	O	O
+11-15	no	O	O	DT	O
+11-16	problems	O	O	NNS	P1_NPart_problems
+11-17	.	O	O	O	O

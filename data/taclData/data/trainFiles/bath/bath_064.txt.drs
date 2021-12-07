@@ -1,0 +1,194 @@
+#id=1
+#text=When I came inside from the cold , I decided to take a hot bath to warm myself up and get clean . 
+1-1	When	1-3_advmod	came	WRB	O
+1-2	I	1-3_nsubj	came	PRP	P1_bather
+1-3	came	1-10_advcl	decided	VBD	O
+1-4	inside	1-3_advmod	came	RB	O
+1-5	from	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	cold	1-3_prep_from	came	NN	O
+1-8	,	O	O	O	O
+1-9	I	1-10_nsubj	decided	PRP	P1_bather
+1-10	decided	O	O	VBD	O
+1-11	to	1-12_aux	take	TO	O
+1-12	take	1-10_xcomp	decided	VB	O
+1-13	a	O	O	DT	O
+1-14	hot	O	O	JJ	O
+1-15	bath	1-12_dobj	take	NN	P1_bath
+1-16	to	1-17_aux	warm	TO	O
+1-17	warm	1-12_vmod	take	VB	O
+1-18	myself	1-17_dobj	warm	PRP	P1_bather
+1-19	up	1-17_prt	warm	RP	O
+1-20	and	O	O	O	O
+1-21	get	O	O	VB	O
+1-22	clean	1-17_conj_and	warm	JJ	O
+1-23	.	O	O	O	O
+
+#id=2
+#text=I put the drain stopper in the tub , and then filled the tub with hot water while I took off my clothes . 
+2-1	I	2-2_nsubj	put	PRP	P1_bather
+2-2	put	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	drain	O	O	NN	O
+2-5	stopper	2-2_dobj	put	NN	P1_plug
+2-6	in	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	tub	2-2_prep_in	put	NN	P1_bathtub
+2-9	,	O	O	O	O
+2-10	and	O	O	O	O
+2-11	then	2-12_advmod	filled	RB	O
+2-12	filled	2-2_conj_and	put	VBN	O
+2-13	the	O	O	DT	O
+2-14	tub	2-12_dobj	filled	NN	P1_bathtub
+2-15	with	O	O	O	O
+2-16	hot	O	O	JJ	O
+2-17	water	2-12_prep_with	filled	NN	P1_water
+2-18	while	2-20_mark	took	IN	O
+2-19	I	2-20_nsubj	took	PRP	P1_bather
+2-20	took	2-12_advcl	filled	VBD	O
+2-21	off	2-20_prt	took	RP	O
+2-22	my	O	O	PRP$	P1_bather
+2-23	clothes	2-20_dobj	took	NNS	P1_clothes
+2-24	.	O	O	O	O
+
+#id=3
+#text=Once I was naked , I eased my way into the tub and let myself sink into the water , I washed my face with a gentle soap , and then rubbed a different soap over my body , making sure to get every part nice and clean . 
+3-1	Once	O	O	IN	O
+3-2	I	O	O	PRP	P1_bather
+3-3	was	O	O	VBD	O
+3-4	naked	3-7_advcl	eased	JJ	O
+3-5	,	O	O	O	O
+3-6	I	3-7_nsubj	eased	PRP	P1_bather
+3-7	eased	3-22_ccomp	washed	VBD	O
+3-8	my	O	O	PRP$	P1_bather
+3-9	way	3-7_dobj	eased	NN	O
+3-10	into	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	tub	3-7_prep_into	eased	NN	P1_bathtub
+3-13	and	O	O	O	O
+3-14	let	3-7_conj_and	eased	VBD	O
+3-15	myself	3-16_nsubj	sink	PRP	P1_bather
+3-16	sink	3-14_ccomp	let	VB	O
+3-17	into	O	O	O	O
+3-18	the	O	O	DT	O
+3-19	water	3-16_prep_into	sink	NN	P2_water
+3-20	,	O	O	O	O
+3-21	I	3-22_nsubj	washed	PRP	P1_bather
+3-22	washed	O	O	VBD	O
+3-23	my	O	O	PRP$	P1_bather
+3-24	face	3-22_dobj	washed	NN	P1_NPart_face
+3-25	with	O	O	O	O
+3-26	a	O	O	DT	O
+3-27	gentle	O	O	JJ	O
+3-28	soap	3-22_prep_with	washed	NN	P1_washing_tools
+3-29	,	O	O	O	O
+3-30	and	O	O	O	O
+3-31	then	3-32_advmod	rubbed	RB	O
+3-32	rubbed	3-22_conj_and	washed	VBD	O
+3-33	a	O	O	DT	O
+3-34	different	O	O	JJ	O
+3-35	soap	3-32_dobj	rubbed	NN	P1_washing_tools
+3-36	over	O	O	O	O
+3-37	my	O	O	PRP$	P1_bather
+3-38	body	3-32_prep_over	rubbed	NN	P1_body_part
+3-39	,	O	O	O	O
+3-40	making	3-32_vmod	rubbed	VBG	O
+3-41	sure	3-40_acomp	making	JJ	O
+3-42	to	3-43_aux	get	TO	O
+3-43	get	O	O	VB	O
+3-44	every	O	O	DT	O
+3-45	part	3-43_dobj	get	NN	P2_body_part
+3-46	nice	O	O	JJ	O
+3-47	and	O	O	O	O
+3-48	clean	O	O	JJ	O
+3-49	.	O	O	O	O
+
+#id=4
+#text=When I was done washing myself , I stayed in the tub for another ten or fifteen minutes , and just daydream about swimming in waters near a tropical island . 
+4-1	When	4-4_advmod	done	WRB	O
+4-2	I	4-4_nsubjpass	done	PRP	P1_bather
+4-3	was	4-4_auxpass	done	VBD	O
+4-4	done	4-9_advcl	stayed	VBN	O
+4-5	washing	4-4_xcomp	done	VBG	O
+4-6	myself	4-5_dobj	washing	PRP	P1_bather
+4-7	,	O	O	O	O
+4-8	I	4-9_nsubj	stayed	PRP	P1_bather
+4-9	stayed	O	O	VBD	O
+4-10	in	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	tub	4-9_prep_in	stayed	NN	P1_bathtub
+4-13	for	O	O	O	O
+4-14	another	O	O	DT	O
+4-15	ten	O	O	CD	O
+4-16	or	O	O	O	O
+4-17	fifteen	O	O	CD	O
+4-18	minutes	O	O	NNS	P1_NPart_minutes
+4-19	,	O	O	O	O
+4-20	and	O	O	CC	O
+4-21	just	O	O	RB	O
+4-22	daydream	O	O	NN	O
+4-23	about	O	O	O	O
+4-24	swimming	4-9_prepc_about	stayed	VBG	O
+4-25	in	O	O	O	O
+4-26	waters	4-24_prep_in	swimming	NNS	P3_water
+4-27	near	O	O	O	O
+4-28	a	O	O	DT	O
+4-29	tropical	O	O	JJ	O
+4-30	island	O	O	NN	P1_NPart_island
+4-31	.	O	O	O	O
+
+#id=5
+#text=I completely forgot that it was winter outside . 
+5-1	I	5-3_nsubj	forgot	PRP	P1_bather
+5-2	completely	5-3_advmod	forgot	RB	O
+5-3	forgot	O	O	VBD	O
+5-4	that	O	O	IN	O
+5-5	it	O	O	PRP	O
+5-6	was	O	O	VBD	O
+5-7	winter	O	O	NN	P1_NPart_winter
+5-8	outside	5-3_ccomp	forgot	NN	O
+5-9	.	O	O	O	O
+
+#id=6
+#text=Eventually , I got out of the tub and used a towel to dry my body and my hair . 
+6-1	Eventually	6-4_advmod	got	RB	O
+6-2	,	O	O	O	O
+6-3	I	6-4_nsubj	got	PRP	P1_bather
+6-4	got	O	O	VBD	O
+6-5	out	O	O	O	O
+6-6	of	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	tub	6-4_prep_out_of	got	NN	P1_bathtub
+6-9	and	O	O	O	O
+6-10	used	6-4_conj_and	got	VBD	O
+6-11	a	O	O	DT	O
+6-12	towel	6-10_dobj	used	NN	P1_towel
+6-13	to	6-14_aux	dry	TO	O
+6-14	dry	6-10_vmod	used	VB	O
+6-15	my	O	O	PRP$	P1_bather
+6-16	body	6-14_dobj	dry	NN	P1_body_part
+6-17	and	O	O	O	O
+6-18	my	O	O	PRP$	P1_bather
+6-19	hair	O	O	NN	P3_body_part
+6-20	.	O	O	O	O
+
+#id=7
+#text=I then put on some clean clothes and went to make myself a cup of hot cocoa . 
+7-1	I	7-3_nsubj	put	PRP	P1_bather
+7-2	then	7-3_advmod	put	RB	O
+7-3	put	O	O	VBD	O
+7-4	on	O	O	O	O
+7-5	some	O	O	DT	O
+7-6	clean	O	O	JJ	O
+7-7	clothes	7-3_prep_on	put	NNS	P1_clothes
+7-8	and	O	O	O	O
+7-9	went	7-3_conj_and	put	VBD	O
+7-10	to	7-11_aux	make	TO	O
+7-11	make	7-9_xcomp	went	VB	O
+7-12	myself	O	O	PRP	P1_bather
+7-13	a	O	O	DT	O
+7-14	cup	7-11_xcomp	make	NN	O
+7-15	of	O	O	O	O
+7-16	hot	O	O	JJ	O
+7-17	cocoa	O	O	NN	P1_NPart_cocoa
+7-18	.	O	O	O	O

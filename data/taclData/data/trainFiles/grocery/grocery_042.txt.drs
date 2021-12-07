@@ -1,0 +1,209 @@
+#id=1
+#text=My cupboard is bare , so it is time to go grocery shopping . 
+1-1	My	O	O	PRP$	P1_shopper
+1-2	cupboard	O	O	NN	P1_NPart_cupboard
+1-3	is	O	O	VBZ	O
+1-4	bare	O	O	JJ	O
+1-5	,	O	O	O	O
+1-6	so	O	O	IN	O
+1-7	it	O	O	PRP	O
+1-8	is	O	O	VBZ	O
+1-9	time	O	O	NN	O
+1-10	to	1-11_aux	go	TO	O
+1-11	go	O	O	VB	O
+1-12	grocery	O	O	NN	P1_groceries
+1-13	shopping	1-11_dobj	go	NN	O
+1-14	.	O	O	O	O
+
+#id=2
+#text=I do n't want to over-spend , so I make sure to bring a grocery list . 
+2-1	I	2-4_nsubj	want	PRP	P1_shopper
+2-2	do	2-4_aux	want	VBP	O
+2-3	n't	2-4_neg	want	RB	O
+2-4	want	O	O	VB	O
+2-5	to	O	O	O	O
+2-6	over-spend	2-4_prep_to	want	NN	O
+2-7	,	O	O	O	O
+2-8	so	2-4_dep	want	IN	O
+2-9	I	2-10_nsubj	make	PRP	P1_shopper
+2-10	make	2-4_parataxis	want	VBP	O
+2-11	sure	2-10_acomp	make	JJ	O
+2-12	to	2-13_aux	bring	TO	O
+2-13	bring	O	O	VB	O
+2-14	a	O	O	DT	O
+2-15	grocery	O	O	NN	O
+2-16	list	2-13_dobj	bring	NN	P1_grocery_list
+2-17	.	O	O	O	O
+
+#id=3
+#text=I usually have a list of items I will need as I run out of them , I post them to the fridge . 
+3-1	I	3-3_nsubj	have	PRP	P1_shopper
+3-2	usually	3-3_advmod	have	RB	O
+3-3	have	O	O	VBP	O
+3-4	a	O	O	DT	O
+3-5	list	3-3_dobj	have	NN	P1_grocery_list
+3-6	of	O	O	O	O
+3-7	items	O	O	NNS	P1_groceries
+3-8	I	3-10_nsubj	need	PRP	P1_shopper
+3-9	will	3-10_aux	need	MD	O
+3-10	need	O	O	VB	O
+3-11	as	3-13_mark	run	IN	O
+3-12	I	3-13_nsubj	run	PRP	P1_shopper
+3-13	run	3-10_advcl	need	VBP	O
+3-14	out	O	O	O	O
+3-15	of	O	O	O	O
+3-16	them	3-13_prep_out_of	run	PRP	P1_groceries
+3-17	,	O	O	O	O
+3-18	I	3-19_nsubj	post	PRP	P1_shopper
+3-19	post	3-3_ccomp	have	VB	O
+3-20	them	3-19_dobj	post	PRP	P1_groceries
+3-21	to	O	O	O	O
+3-22	the	O	O	DT	O
+3-23	fridge	3-19_prep_to	post	NN	P1_NPart_fridge
+3-24	.	O	O	O	O
+
+#id=4
+#text=I grabbed my list and looked around to see if I need any additional items . 
+4-1	I	4-2_nsubj	grabbed	PRP	P1_shopper
+4-2	grabbed	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_shopper
+4-4	list	4-2_dobj	grabbed	NN	P1_grocery_list
+4-5	and	O	O	O	O
+4-6	looked	4-2_conj_and	grabbed	VBD	O
+4-7	around	4-6_prt	looked	RP	O
+4-8	to	4-9_aux	see	TO	O
+4-9	see	4-6_xcomp	looked	VB	O
+4-10	if	4-12_mark	need	IN	O
+4-11	I	4-12_nsubj	need	PRP	P1_shopper
+4-12	need	4-9_advcl	see	VBP	O
+4-13	any	O	O	DT	O
+4-14	additional	O	O	JJ	O
+4-15	items	4-12_dobj	need	NNS	P1_groceries
+4-16	.	O	O	O	O
+
+#id=5
+#text=I added any items and left my house . 
+5-1	I	5-2_nsubj	added	PRP	P1_shopper
+5-2	added	O	O	VBD	O
+5-3	any	O	O	DT	O
+5-4	items	5-2_dobj	added	NNS	P1_groceries
+5-5	and	O	O	O	O
+5-6	left	5-2_conj_and	added	VBD	O
+5-7	my	O	O	PRP$	P1_shopper
+5-8	house	5-6_dobj	left	NN	P1_NPart_house
+5-9	.	O	O	O	O
+
+#id=6
+#text=I got into my car and drove to the nearest grocery store , my favorite one . 
+6-1	I	6-2_nsubj	got	PRP	P1_shopper
+6-2	got	O	O	VBD	O
+6-3	into	O	O	O	O
+6-4	my	O	O	PRP$	P1_shopper
+6-5	car	6-2_prep_into	got	NN	P1_vehicle
+6-6	and	O	O	O	O
+6-7	drove	6-2_conj_and	got	VBD	O
+6-8	to	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	nearest	O	O	JJS	O
+6-11	grocery	O	O	NN	O
+6-12	store	6-7_prep_to	drove	NN	P1_grocery_shop
+6-13	,	O	O	O	O
+6-14	my	O	O	PRP$	P1_shopper
+6-15	favorite	O	O	JJ	O
+6-16	one	O	O	NN	P1_grocery_shop
+6-17	.	O	O	O	O
+
+#id=7
+#text=With my list in hand , I start shopping . 
+7-1	With	O	O	O	O
+7-2	my	O	O	PRP$	P1_shopper
+7-3	list	7-8_prep_with	start	NN	P1_grocery_list
+7-4	in	O	O	O	O
+7-5	hand	O	O	NN	O
+7-6	,	O	O	O	O
+7-7	I	7-8_nsubj	start	PRP	P1_shopper
+7-8	start	O	O	VBP	O
+7-9	shopping	7-8_dobj	start	NN	O
+7-10	.	O	O	O	O
+
+#id=8
+#text=I went to the middle isles first , since I want to get my refrigerated and frozen items last , do n't want them getting warm or thawing before I even get them home . 
+8-1	I	8-2_nsubj	went	PRP	P1_shopper
+8-2	went	O	O	VBD	O
+8-3	to	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	middle	O	O	JJ	O
+8-6	isles	8-2_prep_to	went	NNS	P1_section
+8-7	first	8-23_nsubj	want	JJ	O
+8-8	,	O	O	O	O
+8-9	since	O	O	O	O
+8-10	I	8-11_nsubj	want	PRP	P1_shopper
+8-11	want	O	O	VBP	O
+8-12	to	8-13_aux	get	TO	O
+8-13	get	8-11_xcomp	want	VB	O
+8-14	my	O	O	PRP$	P1_shopper
+8-15	refrigerated	O	O	JJ	O
+8-16	and	O	O	O	O
+8-17	frozen	O	O	JJ	O
+8-18	items	8-13_dobj	get	NNS	P1_groceries
+8-19	last	8-13_advmod	get	RB	O
+8-20	,	O	O	O	O
+8-21	do	8-23_aux	want	VBP	O
+8-22	n't	8-23_neg	want	RB	O
+8-23	want	8-2_ccomp	went	VB	O
+8-24	them	O	O	PRP	P1_groceries
+8-25	getting	O	O	VBG	O
+8-26	warm	8-23_ccomp	want	JJ	O
+8-27	or	O	O	O	O
+8-28	thawing	O	O	VBG	O
+8-29	before	8-32_mark	get	IN	O
+8-30	I	8-32_nsubj	get	PRP	P1_shopper
+8-31	even	8-32_advmod	get	RB	O
+8-32	get	8-28_advcl	thawing	VBP	O
+8-33	them	8-32_dobj	get	PRP	P1_groceries
+8-34	home	8-32_advmod	get	RB	P1_NPart_home
+8-35	.	O	O	O	O
+
+#id=9
+#text=I chose the express lane since I was n't getting too many items . 
+9-1	I	9-2_nsubj	chose	PRP	P1_shopper
+9-2	chose	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	express	O	O	JJ	O
+9-5	lane	9-2_dobj	chose	NN	P1_line
+9-6	since	9-10_mark	getting	IN	O
+9-7	I	9-10_nsubj	getting	PRP	P1_shopper
+9-8	was	9-10_aux	getting	VBD	O
+9-9	n't	9-10_neg	getting	RB	O
+9-10	getting	9-2_advcl	chose	VBG	O
+9-11	too	O	O	RB	O
+9-12	many	O	O	JJ	O
+9-13	items	9-10_dobj	getting	NNS	P1_groceries
+9-14	.	O	O	O	O
+
+#id=10
+#text=The cashier was courteous to me , as I was to her . 
+10-1	The	O	O	DT	O
+10-2	cashier	O	O	NN	P1_grocery_staff
+10-3	was	O	O	VBD	O
+10-4	courteous	O	O	JJ	O
+10-5	to	O	O	O	O
+10-6	me	O	O	PRP	P1_shopper
+10-7	,	O	O	O	O
+10-8	as	10-10_mark	was	IN	O
+10-9	I	10-10_nsubj	was	PRP	P1_shopper
+10-10	was	O	O	VBD	O
+10-11	to	O	O	O	O
+10-12	her	10-10_prep_to	was	PRP	P1_grocery_staff
+10-13	.	O	O	O	O
+
+#id=11
+#text=I bought my items and headed home . 
+11-1	I	11-2_nsubj	bought	PRP	P1_shopper
+11-2	bought	O	O	VBD	O
+11-3	my	O	O	PRP$	P1_shopper
+11-4	items	11-2_dobj	bought	NNS	P1_groceries
+11-5	and	O	O	O	O
+11-6	headed	11-2_conj_and	bought	VBD	O
+11-7	home	11-6_dobj	headed	NN	P2_NPart_home
+11-8	.	O	O	O	O

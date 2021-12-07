@@ -1,0 +1,424 @@
+#id=1
+#text=One day when I was riding my bicycle , and I realized my back tire was getting low . 
+1-1	One	O	O	CD	O
+1-2	day	O	O	NN	P1_NPart_day
+1-3	when	1-6_advmod	riding	WRB	O
+1-4	I	1-6_nsubj	riding	PRP	P1_rider
+1-5	was	1-6_aux	riding	VBD	O
+1-6	riding	O	O	VBG	O
+1-7	my	O	O	PRP$	P1_rider
+1-8	bicycle	1-6_dobj	riding	NN	P1_bicycle
+1-9	,	O	O	O	O
+1-10	and	O	O	O	O
+1-11	I	1-12_nsubj	realized	PRP	P1_rider
+1-12	realized	1-6_conj_and	riding	VBD	O
+1-13	my	O	O	PRP$	P1_rider
+1-14	back	O	O	JJ	O
+1-15	tire	1-12_dobj	realized	NN	P1_tire
+1-16	was	O	O	VBD	O
+1-17	getting	O	O	VBG	O
+1-18	low	O	O	JJ	O
+1-19	.	O	O	O	O
+
+#id=2
+#text=I walked the bicycle back home and pulled out my patch kit . 
+2-1	I	2-2_nsubj	walked	PRP	P1_rider
+2-2	walked	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	bicycle	2-2_dobj	walked	NN	P1_bicycle
+2-5	back	2-2_advmod	walked	RB	O
+2-6	home	O	O	NN	P1_location_repair
+2-7	and	O	O	O	O
+2-8	pulled	2-2_conj_and	walked	VBD	O
+2-9	out	2-8_prt	pulled	RP	O
+2-10	my	O	O	PRP$	P1_rider
+2-11	patch	O	O	NN	O
+2-12	kit	2-8_dobj	pulled	NN	O
+2-13	.	O	O	O	O
+
+#id=3
+#text=After removing my back tire from the bicycle I let the remaining air out from the valve , and used the small tool on the edge of the tire , to lift the tire away and clicked the tool onto one of the spokes . 
+3-1	After	O	O	O	O
+3-2	removing	3-10_prepc_after	let	VBG	O
+3-3	my	O	O	PRP$	P1_rider
+3-4	back	O	O	JJ	O
+3-5	tire	3-2_dobj	removing	NN	P1_tire
+3-6	from	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	bicycle	3-2_prep_from	removing	NN	P1_bicycle
+3-9	I	3-10_nsubj	let	PRP	P1_rider
+3-10	let	O	O	VBD	O
+3-11	the	O	O	DT	O
+3-12	remaining	O	O	JJ	O
+3-13	air	3-10_dobj	let	NN	P1_air
+3-14	out	3-10_prt	let	RP	O
+3-15	from	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	valve	3-10_prep_from	let	NN	P1_bicycle_small_detail
+3-18	,	O	O	O	O
+3-19	and	O	O	O	O
+3-20	used	3-10_conj_and	let	VBN	O
+3-21	the	O	O	DT	O
+3-22	small	O	O	JJ	O
+3-23	tool	3-20_dobj	used	NN	P2_tool
+3-24	on	O	O	O	O
+3-25	the	O	O	DT	O
+3-26	edge	O	O	NN	O
+3-27	of	O	O	O	O
+3-28	the	O	O	DT	O
+3-29	tire	O	O	NN	P1_tire
+3-30	,	O	O	O	O
+3-31	to	3-32_aux	lift	TO	O
+3-32	lift	3-20_vmod	used	VB	O
+3-33	the	O	O	DT	O
+3-34	tire	3-32_dobj	lift	NN	P1_tire
+3-35	away	3-32_advmod	lift	RB	O
+3-36	and	O	O	O	O
+3-37	clicked	3-10_conj_and	let	VBD	O
+3-38	the	O	O	DT	O
+3-39	tool	3-37_dobj	clicked	NN	P2_tool
+3-40	onto	O	O	O	O
+3-41	one	3-37_prep_onto	clicked	CD	O
+3-42	of	O	O	O	O
+3-43	the	O	O	DT	O
+3-44	spokes	O	O	NNS	P2_bicycle_small_detail
+3-45	.	O	O	O	O
+
+#id=4
+#text=Using more of the tools , I continued to lift the tire away from the rim until I could easily remove the rest of the tire with my fingers . 
+4-1	Using	4-8_vmod	continued	VBG	O
+4-2	more	4-1_dobj	Using	JJR	O
+4-3	of	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	tools	O	O	NNS	P3_tool
+4-6	,	O	O	O	O
+4-7	I	4-8_nsubj	continued	PRP	P1_rider
+4-8	continued	O	O	VBD	O
+4-9	to	4-10_aux	lift	TO	O
+4-10	lift	4-8_xcomp	continued	VB	O
+4-11	the	O	O	DT	O
+4-12	tire	4-10_dobj	lift	NN	P1_tire
+4-13	away	O	O	O	O
+4-14	from	O	O	O	O
+4-15	the	O	O	DT	O
+4-16	rim	4-10_prep_away_from	lift	NN	P1_rim
+4-17	until	4-21_mark	remove	IN	O
+4-18	I	4-21_nsubj	remove	PRP	P1_rider
+4-19	could	4-21_aux	remove	MD	O
+4-20	easily	4-21_advmod	remove	RB	O
+4-21	remove	4-10_advcl	lift	VB	O
+4-22	the	O	O	DT	O
+4-23	rest	4-21_dobj	remove	NN	P1_NPart_rest
+4-24	of	O	O	O	O
+4-25	the	O	O	DT	O
+4-26	tire	O	O	NN	P1_tire
+4-27	with	O	O	O	O
+4-28	my	O	O	PRP$	P1_rider
+4-29	fingers	4-21_prep_with	remove	NNS	P1_NPart_fingers
+4-30	.	O	O	O	O
+
+#id=5
+#text=By this time , the inner tube was exposed , and pushing the valve through , I removed the tube completely from the tire . 
+5-1	By	O	O	O	O
+5-2	this	O	O	DT	O
+5-3	time	5-9_agent	exposed	NN	P1_NPart_time
+5-4	,	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	inner	O	O	JJ	O
+5-7	tube	5-9_nsubjpass	exposed	NN	P1_tire
+5-8	was	5-9_auxpass	exposed	VBD	O
+5-9	exposed	O	O	VBN	O
+5-10	,	O	O	O	O
+5-11	and	O	O	O	O
+5-12	pushing	5-18_vmod	removed	VBG	O
+5-13	the	O	O	DT	O
+5-14	valve	5-12_dobj	pushing	NN	P1_bicycle_small_detail
+5-15	through	5-12_prep	pushing	IN	O
+5-16	,	O	O	O	O
+5-17	I	5-18_nsubj	removed	PRP	P1_rider
+5-18	removed	5-9_conj_and	exposed	VBD	O
+5-19	the	O	O	DT	O
+5-20	tube	5-18_dobj	removed	NN	P1_tire
+5-21	completely	5-18_advmod	removed	RB	O
+5-22	from	O	O	O	O
+5-23	the	O	O	DT	O
+5-24	tire	5-18_prep_from	removed	NN	P1_tire
+5-25	.	O	O	O	O
+
+#id=6
+#text=I put the tube into a bucket of water , and used the air pump to pump air back into the tube , and watched for bubbles to see where the hole was . 
+6-1	I	6-2_nsubj	put	PRP	P1_rider
+6-2	put	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	tube	6-2_dobj	put	NN	P1_tire
+6-5	into	O	O	O	O
+6-6	a	O	O	DT	O
+6-7	bucket	6-2_prep_into	put	NN	O
+6-8	of	O	O	O	O
+6-9	water	O	O	NN	P1_other
+6-10	,	O	O	O	O
+6-11	and	O	O	O	O
+6-12	used	6-2_conj_and	put	VBD	O
+6-13	the	O	O	DT	O
+6-14	air	6-15_nsubj	pump	NN	O
+6-15	pump	6-12_ccomp	used	VBP	P4_tool
+6-16	to	6-17_aux	pump	TO	O
+6-17	pump	6-15_xcomp	pump	VB	O
+6-18	air	6-17_dobj	pump	NN	P2_air
+6-19	back	6-17_prt	pump	RP	O
+6-20	into	O	O	O	O
+6-21	the	O	O	DT	O
+6-22	tube	6-17_prep_into	pump	NN	P1_tire
+6-23	,	O	O	O	O
+6-24	and	O	O	O	O
+6-25	watched	6-2_conj_and	put	VBD	O
+6-26	for	O	O	O	O
+6-27	bubbles	6-25_prep_for	watched	NNS	P1_NPart_bubbles
+6-28	to	6-29_aux	see	TO	O
+6-29	see	6-25_xcomp	watched	VB	O
+6-30	where	6-33_advmod	was	WRB	O
+6-31	the	O	O	DT	O
+6-32	hole	6-33_nsubj	was	NN	P1_damage
+6-33	was	6-29_advcl	see	VBD	O
+6-34	.	O	O	O	O
+
+#id=7
+#text=I kept a close eye on where the hole was , and taking the tube out of the bucket , I dried the tube with a towel . 
+7-1	I	7-2_nsubj	kept	PRP	P1_rider
+7-2	kept	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	close	O	O	JJ	O
+7-5	eye	7-2_dobj	kept	NN	O
+7-6	on	O	O	O	O
+7-7	where	7-10_advmod	was	WRB	O
+7-8	the	O	O	DT	O
+7-9	hole	7-10_nsubj	was	NN	P1_damage
+7-10	was	7-2_prepc_on	kept	VBD	O
+7-11	,	O	O	O	O
+7-12	and	O	O	O	O
+7-13	taking	7-22_vmod	dried	VBG	O
+7-14	the	O	O	DT	O
+7-15	tube	7-13_dobj	taking	NN	P1_tire
+7-16	out	O	O	O	O
+7-17	of	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	bucket	7-13_prep_out_of	taking	NN	P2_other
+7-20	,	O	O	O	O
+7-21	I	7-22_nsubj	dried	PRP	P1_rider
+7-22	dried	7-2_conj_and	kept	VBD	O
+7-23	the	O	O	DT	O
+7-24	tube	7-22_dobj	dried	NN	P1_tire
+7-25	with	O	O	O	O
+7-26	a	O	O	DT	O
+7-27	towel	7-22_prep_with	dried	NN	P5_tool
+7-28	.	O	O	O	O
+
+#id=8
+#text=I used the small sandpaper from the kit , and carefully roughed the area around the hole . 
+8-1	I	8-2_nsubj	used	PRP	P1_rider
+8-2	used	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	small	O	O	JJ	O
+8-5	sandpaper	8-2_dobj	used	NN	P6_tool
+8-6	from	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	kit	8-2_prep_from	used	NN	P1_tool
+8-9	,	O	O	O	O
+8-10	and	O	O	O	O
+8-11	carefully	8-12_advmod	roughed	RB	O
+8-12	roughed	8-2_conj_and	used	VBD	O
+8-13	the	O	O	DT	O
+8-14	area	8-12_dobj	roughed	NN	P1_NPart_area
+8-15	around	O	O	O	O
+8-16	the	O	O	DT	O
+8-17	hole	8-12_prep_around	roughed	NN	P1_damage
+8-18	.	O	O	O	O
+
+#id=9
+#text=I then chose a patch . 
+9-1	I	9-3_nsubj	chose	PRP	P1_rider
+9-2	then	9-3_advmod	chose	RB	O
+9-3	chose	O	O	VBD	O
+9-4	a	O	O	DT	O
+9-5	patch	9-3_dobj	chose	NN	P1_patch
+9-6	.	O	O	O	O
+
+#id=10
+#text=A round one for a puncture , or the rectangle for a slice . 
+10-1	A	O	O	DT	O
+10-2	round	O	O	NN	O
+10-3	one	O	O	CD	P1_patch
+10-4	for	O	O	O	O
+10-5	a	O	O	DT	O
+10-6	puncture	O	O	NN	P3_other
+10-7	,	O	O	O	O
+10-8	or	O	O	O	O
+10-9	the	O	O	DT	O
+10-10	rectangle	O	O	NN	P1_patch
+10-11	for	O	O	O	O
+10-12	a	O	O	DT	O
+10-13	slice	O	O	NN	P2_damage
+10-14	.	O	O	O	O
+
+#id=11
+#text=I placed glue on the patch , and firmly placed it on the tube . 
+11-1	I	11-2_nsubj	placed	PRP	P1_rider
+11-2	placed	O	O	VBD	O
+11-3	glue	11-2_dobj	placed	NN	P7_tool
+11-4	on	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	patch	11-2_prep_on	placed	NN	P1_patch
+11-7	,	O	O	O	O
+11-8	and	O	O	O	O
+11-9	firmly	11-10_advmod	placed	RB	O
+11-10	placed	11-2_conj_and	placed	VBD	O
+11-11	it	11-10_dobj	placed	PRP	P1_patch
+11-12	on	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	tube	11-10_prep_on	placed	NN	P1_tire
+11-15	.	O	O	O	O
+
+#id=12
+#text=I was very careful , because last time I got glue on my fingers , and my fingers felt funny for days ! 
+12-1	I	O	O	PRP	P1_rider
+12-2	was	O	O	VBD	O
+12-3	very	O	O	RB	O
+12-4	careful	O	O	JJ	O
+12-5	,	O	O	O	O
+12-6	because	12-10_mark	got	IN	O
+12-7	last	O	O	JJ	O
+12-8	time	12-10_nsubj	got	NN	P2_NPart_time
+12-9	I	12-10_nsubj	got	PRP	P1_rider
+12-10	got	O	O	VBD	O
+12-11	glue	12-10_dobj	got	NN	P4_other
+12-12	on	O	O	O	O
+12-13	my	O	O	PRP$	P1_rider
+12-14	fingers	12-10_prep_on	got	NNS	P2_NPart_fingers
+12-15	,	O	O	O	O
+12-16	and	O	O	O	O
+12-17	my	O	O	PRP$	P1_rider
+12-18	fingers	12-19_nsubj	felt	NNS	P3_NPart_fingers
+12-19	felt	O	O	VBD	O
+12-20	funny	12-19_acomp	felt	JJ	O
+12-21	for	O	O	O	O
+12-22	days	12-19_prep_for	felt	NNS	P1_NPart_days
+12-23	!	O	O	O	O
+
+#id=13
+#text=I went for some lemonade while I waited for the patch to dry . 
+13-1	I	13-2_nsubj	went	PRP	P1_rider
+13-2	went	O	O	VBD	O
+13-3	for	O	O	O	O
+13-4	some	O	O	DT	O
+13-5	lemonade	13-2_prep_for	went	NN	P1_NPart_lemonade
+13-6	while	13-8_mark	waited	IN	O
+13-7	I	13-8_nsubj	waited	PRP	P1_rider
+13-8	waited	13-2_advcl	went	VBD	O
+13-9	for	O	O	O	O
+13-10	the	O	O	DT	O
+13-11	patch	13-8_prep_for	waited	NN	P1_patch
+13-12	to	13-13_aux	dry	TO	O
+13-13	dry	13-8_xcomp	waited	VB	O
+13-14	.	O	O	O	O
+
+#id=14
+#text=Boy , that lemonade was good on such a hot day . 
+14-1	Boy	O	O	RB	O
+14-2	,	O	O	O	O
+14-3	that	O	O	DT	O
+14-4	lemonade	O	O	NN	P2_NPart_lemonade
+14-5	was	O	O	VBD	O
+14-6	good	O	O	JJ	O
+14-7	on	O	O	O	O
+14-8	such	O	O	PDT	O
+14-9	a	O	O	DT	O
+14-10	hot	O	O	JJ	O
+14-11	day	O	O	NN	P2_NPart_day
+14-12	.	O	O	O	O
+
+#id=15
+#text=I tried pumping some air back in the tube , and carefully watched around the patch , to make sure no air was leaking . 
+15-1	I	15-2_nsubj	tried	PRP	P1_rider
+15-2	tried	O	O	VBD	O
+15-3	pumping	15-2_xcomp	tried	VBG	O
+15-4	some	O	O	DT	O
+15-5	air	15-3_dobj	pumping	NN	P3_air
+15-6	back	15-3_prt	pumping	RP	O
+15-7	in	O	O	O	O
+15-8	the	O	O	DT	O
+15-9	tube	15-3_prep_in	pumping	NN	P1_tire
+15-10	,	O	O	O	O
+15-11	and	O	O	O	O
+15-12	carefully	15-13_advmod	watched	RB	O
+15-13	watched	15-2_conj_and	tried	VBD	O
+15-14	around	O	O	O	O
+15-15	the	O	O	DT	O
+15-16	patch	15-13_prep_around	watched	NN	P1_patch
+15-17	,	O	O	O	O
+15-18	to	15-19_aux	make	TO	O
+15-19	make	15-13_xcomp	watched	VB	O
+15-20	sure	15-19_acomp	make	JJ	O
+15-21	no	O	O	DT	O
+15-22	air	15-24_nsubj	leaking	NN	P3_air
+15-23	was	15-24_aux	leaking	VBD	O
+15-24	leaking	O	O	VBG	O
+15-25	.	O	O	O	O
+
+#id=16
+#text=I was in luck , the patch was good . 
+16-1	I	16-2_nsubj	was	PRP	P1_rider
+16-2	was	O	O	VBD	O
+16-3	in	O	O	O	O
+16-4	luck	16-2_prep_in	was	NN	O
+16-5	,	O	O	O	O
+16-6	the	O	O	DT	O
+16-7	patch	O	O	NN	P1_patch
+16-8	was	O	O	VBD	O
+16-9	good	O	O	JJ	O
+16-10	.	O	O	O	O
+
+#id=17
+#text=I carefully replaced the tube into the tire , and used the small tools to replace the tire into the rim and used the air pump to fill it back up . 
+17-1	I	17-3_nsubj	replaced	PRP	P1_rider
+17-2	carefully	17-3_advmod	replaced	RB	O
+17-3	replaced	O	O	VBD	O
+17-4	the	O	O	DT	O
+17-5	tube	17-3_dobj	replaced	NN	P1_tire
+17-6	into	O	O	O	O
+17-7	the	O	O	DT	O
+17-8	tire	17-3_prep_into	replaced	NN	P1_tire
+17-9	,	O	O	O	O
+17-10	and	O	O	O	O
+17-11	used	17-3_conj_and	replaced	VBN	O
+17-12	the	O	O	DT	O
+17-13	small	O	O	JJ	O
+17-14	tools	17-11_dobj	used	NNS	P8_tool
+17-15	to	17-16_aux	replace	TO	O
+17-16	replace	17-11_vmod	used	VB	O
+17-17	the	O	O	DT	O
+17-18	tire	17-16_dobj	replace	NN	P1_tire
+17-19	into	O	O	O	O
+17-20	the	O	O	DT	O
+17-21	rim	17-16_prep_into	replace	NN	P1_rim
+17-22	and	O	O	O	O
+17-23	used	17-3_conj_and	replaced	VBD	O
+17-24	the	O	O	DT	O
+17-25	air	17-26_nsubj	pump	NN	O
+17-26	pump	17-23_ccomp	used	VBP	P9_tool
+17-27	to	17-28_aux	fill	TO	O
+17-28	fill	17-26_xcomp	pump	VB	O
+17-29	it	17-28_dobj	fill	PRP	P2_tire
+17-30	back	O	O	RB	O
+17-31	up	17-28_advmod	fill	RB	O
+17-32	.	O	O	O	O
+
+#id=18
+#text=Now I was ready for more adventures ! 
+18-1	Now	O	O	RB	O
+18-2	I	O	O	PRP	P1_rider
+18-3	was	O	O	VBD	O
+18-4	ready	O	O	JJ	O
+18-5	for	O	O	O	O
+18-6	more	O	O	JJR	O
+18-7	adventures	O	O	NNS	P1_NPart_adventures
+18-8	!	O	O	O	O

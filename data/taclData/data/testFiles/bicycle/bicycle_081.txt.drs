@@ -1,0 +1,209 @@
+#id=1
+#text=Sometimes , something happens that can really just ruin your day . 
+1-1	Sometimes	1-4_advmod	happens	RB	O
+1-2	,	O	O	O	O
+1-3	something	1-4_nsubj	happens	NN	O
+1-4	happens	O	O	VBZ	O
+1-5	that	1-9_mark	ruin	IN	O
+1-6	can	1-9_aux	ruin	MD	O
+1-7	really	1-9_advmod	ruin	RB	O
+1-8	just	1-9_advmod	ruin	RB	O
+1-9	ruin	1-4_ccomp	happens	VB	O
+1-10	your	O	O	PRP$	P1_rider
+1-11	day	1-9_tmod	ruin	NN	P1_NPart_day
+1-12	.	O	O	O	O
+
+#id=2
+#text=Take , for example , going for a fun bicycle ride only to have the tire go flat ! 
+2-1	Take	O	O	VB	O
+2-2	,	O	O	O	O
+2-3	for	O	O	O	O
+2-4	example	2-1_prep_for	Take	NN	O
+2-5	,	O	O	O	O
+2-6	going	2-1_xcomp	Take	VBG	O
+2-7	for	O	O	O	O
+2-8	a	O	O	DT	O
+2-9	fun	O	O	NN	O
+2-10	bicycle	O	O	NN	O
+2-11	ride	2-6_prep_for	going	NN	P1_ride
+2-12	only	2-6_advmod	going	RB	O
+2-13	to	2-14_aux	have	TO	O
+2-14	have	2-6_xcomp	going	VB	O
+2-15	the	O	O	DT	O
+2-16	tire	2-17_nsubj	go	NN	P1_tire
+2-17	go	2-14_ccomp	have	VB	O
+2-18	flat	2-17_acomp	go	JJ	O
+2-19	!	O	O	O	O
+
+#id=3
+#text=When something like this happens , it can seem like a big deal , but is only a small inconvenience . 
+3-1	When	3-5_advmod	happens	WRB	O
+3-2	something	3-5_nsubj	happens	NN	O
+3-3	like	O	O	O	O
+3-4	this	O	O	DT	O
+3-5	happens	3-9_advcl	seem	VBZ	O
+3-6	,	O	O	O	O
+3-7	it	3-9_nsubj	seem	PRP	O
+3-8	can	3-9_aux	seem	MD	O
+3-9	seem	O	O	VB	O
+3-10	like	O	O	O	O
+3-11	a	O	O	DT	O
+3-12	big	O	O	JJ	O
+3-13	deal	3-9_prep_like	seem	NN	O
+3-14	,	O	O	O	O
+3-15	but	O	O	O	O
+3-16	is	O	O	VBZ	O
+3-17	only	O	O	RB	O
+3-18	a	O	O	DT	O
+3-19	small	O	O	JJ	O
+3-20	inconvenience	3-9_conj_but	seem	NN	P1_NPart_inconvenience
+3-21	.	O	O	O	O
+
+#id=4
+#text=I do n't even know how to repair a flat bicycle tire , but I know how I could do it myself . 
+4-1	I	4-5_nsubj	know	PRP	P1_rider
+4-2	do	4-5_aux	know	VBP	O
+4-3	n't	4-5_neg	know	RB	O
+4-4	even	4-5_advmod	know	RB	O
+4-5	know	O	O	VB	O
+4-6	how	4-8_advmod	repair	WRB	O
+4-7	to	4-8_aux	repair	TO	O
+4-8	repair	4-5_ccomp	know	VB	O
+4-9	a	O	O	DT	O
+4-10	flat	O	O	JJ	O
+4-11	bicycle	O	O	NN	O
+4-12	tire	4-8_dobj	repair	NN	P1_tire
+4-13	,	O	O	O	O
+4-14	but	O	O	O	O
+4-15	I	4-16_nsubj	know	PRP	P1_rider
+4-16	know	4-5_conj_but	know	VBP	O
+4-17	how	4-20_advmod	do	WRB	O
+4-18	I	4-20_nsubj	do	PRP	P1_rider
+4-19	could	4-20_aux	do	MD	O
+4-20	do	4-16_ccomp	know	VB	O
+4-21	it	4-20_iobj	do	PRP	O
+4-22	myself	4-20_dobj	do	PRP	P1_rider
+4-23	.	O	O	O	O
+
+#id=5
+#text=First , I would read about how to fix it and maybe look at a video from the internet . 
+5-1	First	5-5_advmod	read	RB	O
+5-2	,	O	O	O	O
+5-3	I	5-5_nsubj	read	PRP	P1_rider
+5-4	would	5-5_aux	read	MD	O
+5-5	read	O	O	VB	O
+5-6	about	O	O	O	O
+5-7	how	5-9_advmod	fix	WRB	O
+5-8	to	5-9_aux	fix	TO	O
+5-9	fix	5-5_prepc_about	read	VB	O
+5-10	it	5-9_dobj	fix	PRP	P1_tire
+5-11	and	O	O	O	O
+5-12	maybe	5-13_advmod	look	RB	O
+5-13	look	5-9_conj_and	fix	VB	O
+5-14	at	O	O	O	O
+5-15	a	O	O	DT	O
+5-16	video	5-13_prep_at	look	NN	P1_other
+5-17	from	O	O	O	O
+5-18	the	O	O	DT	O
+5-19	internet	O	O	NN	P1_NPart_internet
+5-20	.	O	O	O	O
+
+#id=6
+#text=After I have learned how to repair it , I would go to the store to get some supplies . 
+6-1	After	6-4_mark	learned	IN	O
+6-2	I	6-4_nsubj	learned	PRP	P1_rider
+6-3	have	6-4_aux	learned	VBP	O
+6-4	learned	6-12_advcl	go	VBN	O
+6-5	how	6-7_advmod	repair	WRB	O
+6-6	to	6-7_aux	repair	TO	O
+6-7	repair	6-4_ccomp	learned	VB	O
+6-8	it	6-7_dobj	repair	PRP	P1_tire
+6-9	,	O	O	O	O
+6-10	I	6-12_nsubj	go	PRP	P1_rider
+6-11	would	6-12_aux	go	MD	O
+6-12	go	O	O	VB	O
+6-13	to	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	store	6-12_prep_to	go	NN	P1_shop
+6-16	to	6-17_aux	get	TO	O
+6-17	get	O	O	VB	O
+6-18	some	O	O	DT	O
+6-19	supplies	6-17_dobj	get	NNS	P1_tool
+6-20	.	O	O	O	O
+
+#id=7
+#text=I would need the tools to fix it and a new tire or things to use for the repair . 
+7-1	I	7-3_nsubj	need	PRP	P1_rider
+7-2	would	7-3_aux	need	MD	O
+7-3	need	O	O	VB	O
+7-4	the	O	O	DT	O
+7-5	tools	7-3_dobj	need	NNS	P2_tool
+7-6	to	7-7_aux	fix	TO	O
+7-7	fix	7-3_xcomp	need	VB	O
+7-8	it	7-7_dobj	fix	PRP	P1_tire
+7-9	and	O	O	O	O
+7-10	a	O	O	DT	O
+7-11	new	O	O	JJ	O
+7-12	tire	O	O	NN	P1_tire
+7-13	or	O	O	O	O
+7-14	things	O	O	NNS	P3_tool
+7-15	to	7-16_aux	use	TO	O
+7-16	use	7-7_vmod	fix	VB	O
+7-17	for	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	repair	7-16_prep_for	use	NN	P2_other
+7-20	.	O	O	O	O
+
+#id=8
+#text=After arriving home , I would review the things I learned about how to repair the tire and I would follow the directions . 
+8-1	After	O	O	O	O
+8-2	arriving	8-7_prepc_after	review	VBG	O
+8-3	home	8-2_dobj	arriving	NN	P1_NPart_home
+8-4	,	O	O	O	O
+8-5	I	8-7_nsubj	review	PRP	P1_rider
+8-6	would	8-7_aux	review	MD	O
+8-7	review	O	O	VB	O
+8-8	the	O	O	DT	O
+8-9	things	8-7_dobj	review	NNS	O
+8-10	I	8-11_nsubj	learned	PRP	P1_rider
+8-11	learned	O	O	VBD	O
+8-12	about	O	O	O	O
+8-13	how	8-15_advmod	repair	WRB	O
+8-14	to	8-15_aux	repair	TO	O
+8-15	repair	8-11_prepc_about	learned	VB	O
+8-16	the	O	O	DT	O
+8-17	tire	8-15_dobj	repair	NN	P1_tire
+8-18	and	O	O	O	O
+8-19	I	8-21_nsubj	follow	PRP	P1_rider
+8-20	would	8-21_aux	follow	MD	O
+8-21	follow	8-11_conj_and	learned	VB	O
+8-22	the	O	O	DT	O
+8-23	directions	8-21_dobj	follow	NNS	P1_NPart_directions
+8-24	.	O	O	O	O
+
+#id=9
+#text=Once it was repaired , I would test out the bicycle to make sure it was repaired and then I would clean up . 
+9-1	Once	9-4_mark	repaired	IN	O
+9-2	it	9-4_nsubjpass	repaired	PRP	P1_tire
+9-3	was	9-4_auxpass	repaired	VBD	O
+9-4	repaired	9-8_advcl	test	VBN	O
+9-5	,	O	O	O	O
+9-6	I	9-8_nsubj	test	PRP	P1_rider
+9-7	would	9-8_aux	test	MD	O
+9-8	test	O	O	VB	O
+9-9	out	9-8_prt	test	RP	O
+9-10	the	O	O	DT	O
+9-11	bicycle	9-8_dobj	test	NN	P1_bicycle
+9-12	to	9-13_aux	make	TO	O
+9-13	make	O	O	VB	O
+9-14	sure	9-13_acomp	make	JJ	O
+9-15	it	9-17_nsubjpass	repaired	PRP	P1_bicycle
+9-16	was	9-17_auxpass	repaired	VBD	O
+9-17	repaired	O	O	VBN	O
+9-18	and	O	O	O	O
+9-19	then	9-22_advmod	clean	RB	O
+9-20	I	9-22_nsubj	clean	PRP	P1_rider
+9-21	would	9-22_aux	clean	MD	O
+9-22	clean	9-8_conj_and	test	VB	O
+9-23	up	9-22_prt	clean	RP	O
+9-24	.	O	O	O	O

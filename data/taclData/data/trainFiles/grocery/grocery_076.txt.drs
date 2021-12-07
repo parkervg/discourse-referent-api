@@ -1,0 +1,240 @@
+#id=1
+#text='' `` Going grocery shopping '' '' Going to the grocery for me is kind of a burden . 
+1-1	''	O	O	O	O
+1-2	``	O	O	O	O
+1-3	Going	O	O	JJ	O
+1-4	grocery	O	O	NN	O
+1-5	shopping	1-8_nsubj	Going	NN	O
+1-6	''	O	O	O	O
+1-7	''	O	O	O	O
+1-8	Going	O	O	VB	O
+1-9	to	O	O	O	O
+1-10	the	O	O	DT	O
+1-11	grocery	1-8_prep_to	Going	NN	P1_grocery_shop
+1-12	for	1-8_dep	Going	IN	O
+1-13	me	O	O	PRP	P1_shopper
+1-14	is	O	O	VBZ	O
+1-15	kind	1-8_parataxis	Going	NN	O
+1-16	of	O	O	O	O
+1-17	a	O	O	DT	O
+1-18	burden	O	O	NN	O
+1-19	.	O	O	O	O
+
+#id=2
+#text=I like going ahead and getting everything I need for at least two weeks . 
+2-1	I	2-2_nsubj	like	PRP	P1_shopper
+2-2	like	O	O	VBP	O
+2-3	going	2-2_ccomp	like	VBG	O
+2-4	ahead	2-3_advmod	going	RB	O
+2-5	and	O	O	O	O
+2-6	getting	2-3_conj_and	going	VBG	O
+2-7	everything	2-6_dobj	getting	NN	P1_groceries
+2-8	I	2-9_nsubj	need	PRP	P1_shopper
+2-9	need	O	O	VBP	O
+2-10	for	O	O	O	O
+2-11	at	O	O	IN	O
+2-12	least	O	O	JJS	O
+2-13	two	O	O	CD	O
+2-14	weeks	2-9_prep_for	need	NNS	P1_NPart_weeks
+2-15	.	O	O	O	O
+
+#id=3
+#text=The longer I can wait to have to go back , the better . 
+3-1	The	O	O	DT	O
+3-2	longer	3-5_dep	wait	JJR	O
+3-3	I	3-5_nsubj	wait	PRP	P1_shopper
+3-4	can	3-5_aux	wait	MD	O
+3-5	wait	O	O	VB	O
+3-6	to	3-7_aux	have	TO	O
+3-7	have	3-5_xcomp	wait	VB	O
+3-8	to	3-9_aux	go	TO	O
+3-9	go	3-7_xcomp	have	VB	O
+3-10	back	3-9_advmod	go	RB	O
+3-11	,	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	better	3-5_parataxis	wait	JJR	O
+3-14	.	O	O	O	O
+
+#id=4
+#text=I normally go to two different stores . 
+4-1	I	4-3_nsubj	go	PRP	P1_shopper
+4-2	normally	4-3_advmod	go	RB	O
+4-3	go	O	O	VBP	O
+4-4	to	O	O	O	O
+4-5	two	O	O	CD	O
+4-6	different	O	O	JJ	O
+4-7	stores	4-3_prep_to	go	NNS	P2_grocery_shop
+4-8	.	O	O	O	O
+
+#id=5
+#text=One is a traditional grocery store and the other is a dollar store . 
+5-1	One	O	O	PRP	P3_grocery_shop
+5-2	is	O	O	VBZ	O
+5-3	a	O	O	DT	O
+5-4	traditional	O	O	JJ	O
+5-5	grocery	O	O	NN	O
+5-6	store	O	O	NN	P3_grocery_shop
+5-7	and	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	other	O	O	JJ	P4_grocery_shop
+5-10	is	O	O	VBZ	O
+5-11	a	O	O	DT	O
+5-12	dollar	O	O	NN	O
+5-13	store	O	O	NN	P4_grocery_shop
+5-14	.	O	O	O	O
+
+#id=6
+#text=When I go to the traditional grocery store , I get frustrated because I find it hard to find certain things . 
+6-1	When	6-3_advmod	go	WRB	O
+6-2	I	6-3_nsubj	go	PRP	P1_shopper
+6-3	go	O	O	VBP	O
+6-4	to	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	traditional	O	O	JJ	O
+6-7	grocery	O	O	NN	O
+6-8	store	6-3_prep_to	go	NN	P3_grocery_shop
+6-9	,	O	O	O	O
+6-10	I	O	O	PRP	P1_shopper
+6-11	get	O	O	VBP	O
+6-12	frustrated	O	O	JJ	O
+6-13	because	6-15_mark	find	IN	O
+6-14	I	6-15_nsubj	find	PRP	P1_shopper
+6-15	find	O	O	VBP	O
+6-16	it	O	O	PRP	O
+6-17	hard	6-15_xcomp	find	JJ	O
+6-18	to	6-19_aux	find	TO	O
+6-19	find	O	O	VB	O
+6-20	certain	O	O	JJ	O
+6-21	things	6-19_dobj	find	NNS	P2_groceries
+6-22	.	O	O	O	O
+
+#id=7
+#text=Baking soda is an example . 
+7-1	Baking	O	O	NNP	O
+7-2	soda	O	O	NN	P3_groceries
+7-3	is	O	O	VBZ	O
+7-4	an	O	O	DT	O
+7-5	example	O	O	NN	P1_NPart_example
+7-6	.	O	O	O	O
+
+#id=8
+#text=One day , I asked an employee who was working in the baking supplies isle where the baking soda was . 
+8-1	One	O	O	CD	O
+8-2	day	8-5_tmod	asked	NN	P1_NPart_day
+8-3	,	O	O	O	O
+8-4	I	8-5_nsubj	asked	PRP	P1_shopper
+8-5	asked	O	O	VBD	O
+8-6	an	O	O	DT	O
+8-7	employee	8-15_nsubj	isle	NN	P1_grocery_staff
+8-8	who	8-10_nsubj	working	WP	P1_grocery_staff
+8-9	was	8-10_aux	working	VBD	O
+8-10	working	O	O	VBG	O
+8-11	in	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	baking	O	O	VBG	O
+8-14	supplies	8-10_prep_in	working	NNS	O
+8-15	isle	8-5_ccomp	asked	VBP	P1_section
+8-16	where	8-20_advmod	was	WRB	O
+8-17	the	O	O	DT	O
+8-18	baking	O	O	VBG	O
+8-19	soda	8-20_nsubj	was	NN	P3_groceries
+8-20	was	8-15_advcl	isle	VBD	O
+8-21	.	O	O	O	O
+
+#id=9
+#text=We could not find it . 
+9-1	We	9-4_nsubj	find	PRP	P2_shopper
+9-2	could	9-4_aux	find	MD	O
+9-3	not	9-4_neg	find	RB	O
+9-4	find	O	O	VB	O
+9-5	it	9-4_dobj	find	PRP	P3_groceries
+9-6	.	O	O	O	O
+
+#id=10
+#text=Again , this was on the baking supplies isle . 
+10-1	Again	10-4_advmod	was	RB	O
+10-2	,	O	O	O	O
+10-3	this	10-4_nsubj	was	DT	O
+10-4	was	O	O	VBD	O
+10-5	on	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	baking	O	O	JJ	O
+10-8	supplies	O	O	NNS	O
+10-9	isle	10-4_prep_on	was	NN	P1_section
+10-10	.	O	O	O	O
+
+#id=11
+#text=As I walk through the store looking for things I need , I 'll see a display of chips or something at the end of an isle . 
+11-1	As	11-3_mark	walk	IN	O
+11-2	I	11-3_nsubj	walk	PRP	P1_shopper
+11-3	walk	11-15_advcl	see	VBP	O
+11-4	through	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	store	11-3_prep_through	walk	NN	P3_grocery_shop
+11-7	looking	O	O	VBG	O
+11-8	for	O	O	O	O
+11-9	things	11-7_prep_for	looking	NNS	P4_groceries
+11-10	I	11-11_nsubj	need	PRP	P1_shopper
+11-11	need	O	O	VBP	O
+11-12	,	O	O	O	O
+11-13	I	11-15_nsubj	see	PRP	P1_shopper
+11-14	'll	11-15_aux	see	MD	O
+11-15	see	O	O	VB	O
+11-16	a	O	O	DT	O
+11-17	display	11-15_dobj	see	NN	O
+11-18	of	O	O	O	O
+11-19	chips	O	O	NNS	P5_groceries
+11-20	or	O	O	O	O
+11-21	something	O	O	NN	O
+11-22	at	O	O	O	O
+11-23	the	O	O	DT	O
+11-24	end	11-15_prep_at	see	NN	O
+11-25	of	O	O	O	O
+11-26	an	O	O	DT	O
+11-27	isle	O	O	NN	P2_section
+11-28	.	O	O	O	O
+
+#id=12
+#text=This makes me think that there are chips on that isle . 
+12-1	This	12-2_nsubj	makes	DT	O
+12-2	makes	O	O	VBZ	O
+12-3	me	12-4_nsubj	think	PRP	P1_shopper
+12-4	think	12-2_ccomp	makes	VBP	O
+12-5	that	12-7_mark	are	IN	O
+12-6	there	12-7_expl	are	EX	O
+12-7	are	12-4_ccomp	think	VBP	O
+12-8	chips	12-7_nsubj	are	NNS	P5_groceries
+12-9	on	O	O	O	O
+12-10	that	O	O	DT	O
+12-11	isle	O	O	NN	P2_section
+12-12	.	O	O	O	O
+
+#id=13
+#text=There are no chips on that isle . 
+13-1	There	13-2_expl	are	EX	O
+13-2	are	O	O	VBP	O
+13-3	no	O	O	DT	O
+13-4	chips	13-2_nsubj	are	NNS	P5_groceries
+13-5	on	O	O	O	O
+13-6	that	O	O	DT	O
+13-7	isle	O	O	NN	P2_section
+13-8	.	O	O	O	O
+
+#id=14
+#text=It 's a good trip when I have everything I need for a few weeks . 
+14-1	It	O	O	PRP	O
+14-2	's	O	O	VBZ	O
+14-3	a	O	O	DT	O
+14-4	good	O	O	JJ	O
+14-5	trip	O	O	NN	P1_NPart_trip
+14-6	when	14-8_advmod	have	WRB	O
+14-7	I	14-8_nsubj	have	PRP	P1_shopper
+14-8	have	O	O	VBP	O
+14-9	everything	14-8_dobj	have	NN	O
+14-10	I	14-11_nsubj	need	PRP	P1_shopper
+14-11	need	O	O	VBP	O
+14-12	for	O	O	O	O
+14-13	a	O	O	DT	O
+14-14	few	O	O	JJ	O
+14-15	weeks	14-11_prep_for	need	NNS	P2_NPart_weeks
+14-16	.	O	O	O	O

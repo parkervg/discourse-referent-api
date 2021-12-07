@@ -1,0 +1,208 @@
+#id=1
+#text=I really like to take the bus when I have to run errands . 
+1-1	I	1-3_nsubj	like	PRP	P1_passenger
+1-2	really	1-3_advmod	like	RB	O
+1-3	like	O	O	VBP	O
+1-4	to	1-5_aux	take	TO	O
+1-5	take	1-3_xcomp	like	VB	O
+1-6	the	O	O	DT	O
+1-7	bus	1-5_dobj	take	NN	P1_bus
+1-8	when	1-10_advmod	have	WRB	O
+1-9	I	1-10_nsubj	have	PRP	P1_passenger
+1-10	have	1-5_advcl	take	VBP	O
+1-11	to	1-12_aux	run	TO	O
+1-12	run	1-10_xcomp	have	VB	O
+1-13	errands	1-12_dobj	run	NNS	P1_NPart_errands
+1-14	.	O	O	O	O
+
+#id=2
+#text=There is a bus stop right outside of my apartment building . 
+2-1	There	2-2_expl	is	EX	O
+2-2	is	O	O	VBZ	O
+2-3	a	O	O	DT	O
+2-4	bus	O	O	NN	O
+2-5	stop	2-2_nsubj	is	NN	P1_bus_stop
+2-6	right	O	O	RB	O
+2-7	outside	O	O	O	O
+2-8	of	O	O	O	O
+2-9	my	O	O	PRP$	P1_passenger
+2-10	apartment	O	O	NN	O
+2-11	building	O	O	NN	P1_NPart_building
+2-12	.	O	O	O	O
+
+#id=3
+#text=When I have to go to the store , I wait at the bus stop . 
+3-1	When	3-3_advmod	have	WRB	O
+3-2	I	3-3_nsubj	have	PRP	P1_passenger
+3-3	have	3-11_advcl	wait	VBP	O
+3-4	to	3-5_aux	go	TO	O
+3-5	go	3-3_xcomp	have	VB	O
+3-6	to	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	store	3-5_prep_to	go	NN	P1_NPart_store
+3-9	,	O	O	O	O
+3-10	I	3-11_nsubj	wait	PRP	P1_passenger
+3-11	wait	O	O	VBP	O
+3-12	at	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	bus	O	O	NN	O
+3-15	stop	3-11_prep_at	wait	NN	P1_bus_stop
+3-16	.	O	O	O	O
+
+#id=4
+#text=When the bus pulls up , I pay the bus fare using quarters . 
+4-1	When	4-4_advmod	pulls	WRB	O
+4-2	the	O	O	DT	O
+4-3	bus	4-4_nsubj	pulls	NN	P1_bus
+4-4	pulls	4-8_advcl	pay	VBZ	O
+4-5	up	4-4_prt	pulls	RP	O
+4-6	,	O	O	O	O
+4-7	I	4-8_nsubj	pay	PRP	P1_passenger
+4-8	pay	O	O	VBP	O
+4-9	the	O	O	DT	O
+4-10	bus	4-11_nsubj	fare	NN	O
+4-11	fare	4-8_ccomp	pay	VBP	P1_money
+4-12	using	4-11_xcomp	fare	VBG	O
+4-13	quarters	4-12_dobj	using	NNS	P1_money
+4-14	.	O	O	O	O
+
+#id=5
+#text=It costs six quarters to ride the bus . 
+5-1	It	5-2_nsubj	costs	PRP	O
+5-2	costs	O	O	VBZ	O
+5-3	six	O	O	CD	O
+5-4	quarters	5-2_dobj	costs	NNS	P1_money
+5-5	to	5-6_aux	ride	TO	O
+5-6	ride	5-2_vmod	costs	VB	O
+5-7	the	O	O	DT	O
+5-8	bus	5-6_dobj	ride	NN	P1_bus
+5-9	.	O	O	O	O
+
+#id=6
+#text=The bus makes lots of different stops before it gets to the grocery store , so I am on it for several minutes . 
+6-1	The	O	O	DT	O
+6-2	bus	6-3_nsubj	makes	NN	P1_bus
+6-3	makes	O	O	VBZ	O
+6-4	lots	6-3_dobj	makes	NNS	O
+6-5	of	O	O	O	O
+6-6	different	O	O	JJ	O
+6-7	stops	O	O	NNS	P2_bus_stop
+6-8	before	6-10_mark	gets	IN	O
+6-9	it	6-10_nsubj	gets	PRP	P1_bus
+6-10	gets	6-3_advcl	makes	VBZ	O
+6-11	to	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	grocery	O	O	NN	O
+6-14	store	6-10_prep_to	gets	NN	P1_destination
+6-15	,	O	O	O	O
+6-16	so	6-3_dep	makes	IN	O
+6-17	I	6-18_nsubj	am	PRP	P1_passenger
+6-18	am	6-3_parataxis	makes	VBP	O
+6-19	on	O	O	O	O
+6-20	it	6-18_prep_on	am	PRP	P1_bus
+6-21	for	O	O	O	O
+6-22	several	O	O	JJ	O
+6-23	minutes	O	O	NNS	P1_time/date
+6-24	.	O	O	O	O
+
+#id=7
+#text=I sit quietly in my seat . 
+7-1	I	7-2_nsubj	sit	PRP	P1_passenger
+7-2	sit	O	O	VBP	O
+7-3	quietly	7-2_advmod	sit	RB	O
+7-4	in	O	O	O	O
+7-5	my	O	O	PRP$	P1_passenger
+7-6	seat	7-2_prep_in	sit	NN	P1_seat_in_bus
+7-7	.	O	O	O	O
+
+#id=8
+#text=Sometimes other people on the bus will say hello and we will have a small conversation . 
+8-1	Sometimes	8-8_advmod	say	RB	O
+8-2	other	O	O	JJ	O
+8-3	people	8-8_nsubj	say	NNS	P2_passenger
+8-4	on	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	bus	O	O	NN	P1_bus
+8-7	will	8-8_aux	say	MD	O
+8-8	say	O	O	VB	O
+8-9	hello	8-8_dobj	say	UH	P1_NPart_hello
+8-10	and	O	O	O	O
+8-11	we	8-13_nsubj	have	PRP	P3_passenger
+8-12	will	8-13_aux	have	MD	O
+8-13	have	8-8_conj_and	say	VB	O
+8-14	a	O	O	DT	O
+8-15	small	O	O	JJ	O
+8-16	conversation	8-13_dobj	have	NN	P1_in-bus_entertainment
+8-17	.	O	O	O	O
+
+#id=9
+#text=When I get to the store and finish shopping , I wait at another bus stop so I can go home . 
+9-1	When	9-3_advmod	get	WRB	O
+9-2	I	9-3_nsubj	get	PRP	P1_passenger
+9-3	get	9-12_advcl	wait	VBP	O
+9-4	to	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	store	O	O	NN	P1_destination
+9-7	and	O	O	O	O
+9-8	finish	O	O	NN	O
+9-9	shopping	9-3_prep_to	get	NN	O
+9-10	,	O	O	O	O
+9-11	I	9-12_nsubj	wait	PRP	P1_passenger
+9-12	wait	O	O	VBP	O
+9-13	at	O	O	O	O
+9-14	another	O	O	DT	O
+9-15	bus	O	O	NN	O
+9-16	stop	9-12_prep_at	wait	NN	P3_bus_stop
+9-17	so	9-20_mark	go	IN	O
+9-18	I	9-20_nsubj	go	PRP	P1_passenger
+9-19	can	9-20_aux	go	MD	O
+9-20	go	9-12_advcl	wait	VB	O
+9-21	home	9-20_dobj	go	NN	P2_destination
+9-22	.	O	O	O	O
+
+#id=10
+#text=I pay the bus fare again , sit in my seat and patiently wait for the bus to get to my apartment . 
+10-1	I	10-2_nsubj	pay	PRP	P1_passenger
+10-2	pay	O	O	VBP	O
+10-3	the	O	O	DT	O
+10-4	bus	10-5_nsubj	fare	NN	O
+10-5	fare	10-2_ccomp	pay	VBP	P1_money
+10-6	again	10-5_advmod	fare	RB	O
+10-7	,	O	O	O	O
+10-8	sit	10-5_conj_and	fare	VBP	O
+10-9	in	O	O	O	O
+10-10	my	O	O	PRP$	P1_passenger
+10-11	seat	10-8_prep_in	sit	NN	P1_seat_in_bus
+10-12	and	O	O	O	O
+10-13	patiently	10-14_advmod	wait	RB	O
+10-14	wait	10-5_conj_and	fare	VBP	O
+10-15	for	O	O	O	O
+10-16	the	O	O	DT	O
+10-17	bus	10-14_prep_for	wait	NN	P1_bus
+10-18	to	10-19_aux	get	TO	O
+10-19	get	10-14_xcomp	wait	VB	O
+10-20	to	O	O	O	O
+10-21	my	O	O	PRP$	P1_passenger
+10-22	apartment	10-19_prep_to	get	NN	P2_destination
+10-23	.	O	O	O	O
+
+#id=11
+#text=When it stops in front of my apartment , I get off the bus and go inside . 
+11-1	When	11-3_advmod	stops	WRB	O
+11-2	it	11-3_nsubj	stops	PRP	P1_bus
+11-3	stops	11-11_advcl	get	VBZ	O
+11-4	in	O	O	O	O
+11-5	front	O	O	O	O
+11-6	of	O	O	O	O
+11-7	my	O	O	PRP$	P1_passenger
+11-8	apartment	11-3_prep_in_front_of	stops	NN	P2_destination
+11-9	,	O	O	O	O
+11-10	I	11-11_nsubj	get	PRP	P1_passenger
+11-11	get	O	O	VBP	O
+11-12	off	11-11_prt	get	RP	O
+11-13	the	O	O	DT	O
+11-14	bus	11-11_dobj	get	NN	P1_bus
+11-15	and	O	O	O	O
+11-16	go	11-11_conj_and	get	VBP	O
+11-17	inside	11-16_advmod	go	RB	O
+11-18	.	O	O	O	O

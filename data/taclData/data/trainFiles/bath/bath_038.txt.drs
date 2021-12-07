@@ -1,0 +1,270 @@
+#id=1
+#text=I love taking baths ! 
+1-1	I	1-2_nsubj	love	PRP	P1_bather
+1-2	love	O	O	VBP	O
+1-3	taking	1-2_xcomp	love	VBG	O
+1-4	baths	1-3_dobj	taking	NNS	O
+1-5	!	O	O	O	O
+
+#id=2
+#text=They are so relaxing after a long day . 
+2-1	They	O	O	PRP	P1_bath
+2-2	are	O	O	VBP	O
+2-3	so	O	O	RB	O
+2-4	relaxing	O	O	JJ	O
+2-5	after	O	O	O	O
+2-6	a	O	O	DT	O
+2-7	long	O	O	JJ	O
+2-8	day	O	O	NN	P1_NPart_day
+2-9	.	O	O	O	O
+
+#id=3
+#text=When I get home from work , often , the first thing I do is start to fill the bathtub . 
+3-1	When	3-3_advmod	get	WRB	O
+3-2	I	3-3_nsubj	get	PRP	P1_bather
+3-3	get	3-16_advcl	start	VBP	O
+3-4	home	3-3_dobj	get	NN	P1_NPart_home
+3-5	from	O	O	O	O
+3-6	work	3-3_prep_from	get	NN	P1_NPart_work
+3-7	,	O	O	O	O
+3-8	often	3-16_advmod	start	RB	O
+3-9	,	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	first	O	O	JJ	O
+3-12	thing	3-16_nsubj	start	NN	O
+3-13	I	3-14_nsubj	do	PRP	P1_bather
+3-14	do	O	O	VBP	O
+3-15	is	3-16_aux	start	VBZ	O
+3-16	start	O	O	VB	O
+3-17	to	3-18_aux	fill	TO	O
+3-18	fill	3-16_xcomp	start	VB	O
+3-19	the	O	O	DT	O
+3-20	bathtub	3-18_dobj	fill	NN	P1_bathtub
+3-21	.	O	O	O	O
+
+#id=4
+#text=I set the water temperature to a nice warm setting . 
+4-1	I	4-2_nsubj	set	PRP	P1_bather
+4-2	set	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	water	O	O	NN	O
+4-5	temperature	4-2_dobj	set	NN	P1_temperature
+4-6	to	O	O	O	O
+4-7	a	O	O	DT	O
+4-8	nice	O	O	JJ	O
+4-9	warm	O	O	JJ	O
+4-10	setting	4-2_prep_to	set	NN	P1_NPart_setting
+4-11	.	O	O	O	O
+
+#id=5
+#text=While the tub is filling , I will gather two fluffy towels and a face cloth . 
+5-1	While	5-5_mark	filling	IN	O
+5-2	the	O	O	DT	O
+5-3	tub	5-5_nsubj	filling	NN	P1_bathtub
+5-4	is	5-5_aux	filling	VBZ	O
+5-5	filling	5-9_advcl	gather	VBG	O
+5-6	,	O	O	O	O
+5-7	I	5-9_nsubj	gather	PRP	P1_bather
+5-8	will	5-9_aux	gather	MD	O
+5-9	gather	O	O	VB	O
+5-10	two	O	O	CD	O
+5-11	fluffy	O	O	JJ	O
+5-12	towels	5-9_dobj	gather	NNS	P1_towel
+5-13	and	O	O	O	O
+5-14	a	O	O	DT	O
+5-15	face	O	O	NN	O
+5-16	cloth	O	O	NN	P1_washing_tools
+5-17	.	O	O	O	O
+
+#id=6
+#text=I also pour myself a glass of ice water to sip on while I 'm soaking . 
+6-1	I	6-3_nsubj	pour	PRP	P1_bather
+6-2	also	6-3_advmod	pour	RB	O
+6-3	pour	O	O	VBP	O
+6-4	myself	6-3_iobj	pour	PRP	P1_bather
+6-5	a	O	O	DT	O
+6-6	glass	6-3_dobj	pour	NN	O
+6-7	of	O	O	O	O
+6-8	ice	O	O	NN	O
+6-9	water	O	O	NN	P1_in-bath_entertainment
+6-10	to	6-11_aux	sip	TO	O
+6-11	sip	O	O	VB	O
+6-12	on	6-11_prt	sip	RP	O
+6-13	while	6-16_mark	soaking	IN	O
+6-14	I	6-16_nsubj	soaking	PRP	P1_bather
+6-15	'm	6-16_aux	soaking	VBP	O
+6-16	soaking	6-11_advcl	sip	VBG	O
+6-17	.	O	O	O	O
+
+#id=7
+#text=I go and grab the latest magazine that I 've been waiting to read and put it next to the tub . 
+7-1	I	7-2_nsubj	go	PRP	P1_bather
+7-2	go	O	O	VBP	O
+7-3	and	O	O	O	O
+7-4	grab	7-2_conj_and	go	VBP	O
+7-5	the	O	O	DT	O
+7-6	latest	O	O	JJS	O
+7-7	magazine	7-2_dobj	go	NN	P2_in-bath_entertainment
+7-8	that	7-12_mark	waiting	IN	P2_in-bath_entertainment
+7-9	I	7-12_nsubj	waiting	PRP	P1_bather
+7-10	've	7-12_aux	waiting	VBP	O
+7-11	been	7-12_aux	waiting	VBN	O
+7-12	waiting	O	O	VBG	O
+7-13	to	7-14_aux	read	TO	O
+7-14	read	7-12_xcomp	waiting	VB	O
+7-15	and	O	O	O	O
+7-16	put	7-14_conj_and	read	VB	O
+7-17	it	7-14_dobj	read	PRP	P2_in-bath_entertainment
+7-18	next	O	O	O	O
+7-19	to	O	O	O	O
+7-20	the	O	O	DT	O
+7-21	tub	7-14_prep_next_to	read	NN	P1_bathtub
+7-22	.	O	O	O	O
+
+#id=8
+#text=Once the tub is filled , I climb in . 
+8-1	Once	8-5_mark	filled	IN	O
+8-2	the	O	O	DT	O
+8-3	tub	8-5_nsubjpass	filled	NN	P1_bathtub
+8-4	is	8-5_auxpass	filled	VBZ	O
+8-5	filled	8-8_advcl	climb	VBN	O
+8-6	,	O	O	O	O
+8-7	I	8-8_nsubj	climb	PRP	P1_bather
+8-8	climb	O	O	VB	O
+8-9	in	8-8_prt	climb	RP	O
+8-10	.	O	O	O	O
+
+#id=9
+#text=I start by washing my face and then my hair . 
+9-1	I	9-2_nsubj	start	PRP	P1_bather
+9-2	start	O	O	VBP	O
+9-3	by	O	O	O	O
+9-4	washing	9-2_prepc_by	start	VBG	O
+9-5	my	O	O	PRP$	P1_bather
+9-6	face	9-4_dobj	washing	NN	P1_body_part
+9-7	and	O	O	O	O
+9-8	then	O	O	RB	O
+9-9	my	O	O	PRP$	P1_bather
+9-10	hair	O	O	NN	P1_hair
+9-11	.	O	O	O	O
+
+#id=10
+#text=After my hair is washed , I put a deep conditioner in my hair . 
+10-1	After	10-5_mark	washed	IN	O
+10-2	my	O	O	PRP$	P1_bather
+10-3	hair	10-5_nsubjpass	washed	NN	P1_hair
+10-4	is	10-5_auxpass	washed	VBZ	O
+10-5	washed	10-8_advcl	put	VBN	O
+10-6	,	O	O	O	O
+10-7	I	10-8_nsubj	put	PRP	P1_bather
+10-8	put	O	O	VBD	O
+10-9	a	O	O	DT	O
+10-10	deep	O	O	JJ	O
+10-11	conditioner	10-8_dobj	put	NN	P2_washing_tools
+10-12	in	O	O	O	O
+10-13	my	O	O	PRP$	P1_bather
+10-14	hair	10-8_prep_in	put	NN	P1_hair
+10-15	.	O	O	O	O
+
+#id=11
+#text=Now , it 's time to relax . 
+11-1	Now	O	O	RB	O
+11-2	,	O	O	O	O
+11-3	it	O	O	PRP	O
+11-4	's	O	O	VBZ	O
+11-5	time	O	O	NN	O
+11-6	to	11-7_aux	relax	TO	O
+11-7	relax	O	O	VB	O
+11-8	.	O	O	O	O
+
+#id=12
+#text=I let the conditioner sit while I read my magazine and sip some water . 
+12-1	I	12-2_nsubj	let	PRP	P1_bather
+12-2	let	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	conditioner	12-5_nsubj	sit	NN	P2_washing_tools
+12-5	sit	12-2_ccomp	let	VBP	O
+12-6	while	12-8_mark	read	IN	O
+12-7	I	12-8_nsubj	read	PRP	P1_bather
+12-8	read	12-5_advcl	sit	VBD	O
+12-9	my	O	O	PRP$	P1_bather
+12-10	magazine	12-8_dobj	read	NN	P2_in-bath_entertainment
+12-11	and	O	O	O	O
+12-12	sip	12-8_conj_and	read	VBP	O
+12-13	some	O	O	DT	O
+12-14	water	12-12_dobj	sip	NN	P1_in-bath_entertainment
+12-15	.	O	O	O	O
+
+#id=13
+#text=After 15 minutes , I rinse my hair out and then wash my body with soap . 
+13-1	After	O	O	O	O
+13-2	15	O	O	CD	O
+13-3	minutes	13-6_prep_after	rinse	NNS	P1_NPart_minutes
+13-4	,	O	O	O	O
+13-5	I	13-6_nsubj	rinse	PRP	P1_bather
+13-6	rinse	O	O	VBP	O
+13-7	my	O	O	PRP$	P1_bather
+13-8	hair	13-6_dobj	rinse	NN	P1_hair
+13-9	out	13-6_prt	rinse	RP	O
+13-10	and	O	O	O	O
+13-11	then	13-12_advmod	wash	RB	O
+13-12	wash	13-6_conj_and	rinse	VBP	O
+13-13	my	O	O	PRP$	P1_bather
+13-14	body	13-12_dobj	wash	NN	P2_body_part
+13-15	with	O	O	O	O
+13-16	soap	O	O	NN	P3_washing_tools
+13-17	.	O	O	O	O
+
+#id=14
+#text=I rinse off and then give myself a few more minutes of soaking before I empty the tub . 
+14-1	I	14-2_nsubj	rinse	PRP	P1_bather
+14-2	rinse	O	O	VBP	O
+14-3	off	14-2_prt	rinse	RP	O
+14-4	and	O	O	O	O
+14-5	then	14-6_advmod	give	RB	O
+14-6	give	14-2_conj_and	rinse	VB	O
+14-7	myself	14-6_iobj	give	PRP	P1_bather
+14-8	a	O	O	DT	O
+14-9	few	O	O	JJ	O
+14-10	more	O	O	JJR	O
+14-11	minutes	14-6_dobj	give	NNS	O
+14-12	of	O	O	O	O
+14-13	soaking	14-6_prepc_of	give	VBG	O
+14-14	before	14-16_mark	empty	IN	O
+14-15	I	14-16_nsubj	empty	PRP	P1_bather
+14-16	empty	14-13_advcl	soaking	VBP	O
+14-17	the	O	O	DT	O
+14-18	tub	14-16_dobj	empty	NN	P1_bathtub
+14-19	.	O	O	O	O
+
+#id=15
+#text=After I dry off , I rinse the tub out to make sure that I leave the tub clean and shiny for the next time I use it . 
+15-1	After	15-3_mark	dry	IN	O
+15-2	I	15-3_nsubj	dry	PRP	P1_bather
+15-3	dry	15-7_advcl	rinse	VB	O
+15-4	off	15-3_prt	dry	RP	O
+15-5	,	O	O	O	O
+15-6	I	15-7_nsubj	rinse	PRP	P1_bather
+15-7	rinse	O	O	VBD	O
+15-8	the	O	O	DT	O
+15-9	tub	15-7_dobj	rinse	NN	P1_bathtub
+15-10	out	15-7_prt	rinse	RP	O
+15-11	to	15-12_aux	make	TO	O
+15-12	make	15-7_vmod	rinse	VB	O
+15-13	sure	15-12_acomp	make	JJ	O
+15-14	that	15-16_mark	leave	IN	O
+15-15	I	15-16_nsubj	leave	PRP	P1_bather
+15-16	leave	15-7_ccomp	rinse	VBP	O
+15-17	the	O	O	DT	O
+15-18	tub	O	O	JJ	P1_bathtub
+15-19	clean	15-16_dobj	leave	JJ	O
+15-20	and	O	O	O	O
+15-21	shiny	O	O	JJ	O
+15-22	for	O	O	O	O
+15-23	the	O	O	DT	O
+15-24	next	O	O	JJ	O
+15-25	time	15-16_prep_for	leave	NN	O
+15-26	I	15-27_nsubj	use	PRP	P1_bather
+15-27	use	O	O	VBP	O
+15-28	it	15-27_dobj	use	PRP	P1_bathtub
+15-29	.	O	O	O	O

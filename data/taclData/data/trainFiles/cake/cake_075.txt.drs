@@ -1,0 +1,208 @@
+#id=1
+#text=It was the day before my girlfriend 's birthday and I decided to do something special for her ! 
+1-1	It	O	O	PRP	O
+1-2	was	O	O	VBD	O
+1-3	the	O	O	DT	O
+1-4	day	O	O	NN	P1_NPart_day
+1-5	before	O	O	O	O
+1-6	my	O	O	PRP$	P1_cook
+1-7	girlfriend	O	O	NN	P1_beneficiary
+1-8	's	O	O	O	O
+1-9	birthday	O	O	NN	P1_NPart_birthday
+1-10	and	O	O	O	O
+1-11	I	1-12_nsubj	decided	PRP	P2_cook
+1-12	decided	O	O	VBD	O
+1-13	to	1-14_aux	do	TO	O
+1-14	do	1-12_xcomp	decided	VB	O
+1-15	something	1-14_dobj	do	NN	O
+1-16	special	O	O	JJ	O
+1-17	for	O	O	O	O
+1-18	her	1-14_prep_for	do	PRP	P1_beneficiary
+1-19	!	O	O	O	O
+
+#id=2
+#text=Her favorite flavor is strawberry so I will make her a strawberry cake as a surprise . 
+2-1	Her	O	O	PRP$	P1_beneficiary
+2-2	favorite	O	O	JJ	O
+2-3	flavor	O	O	NN	P1_NPart_flavor
+2-4	is	O	O	VBZ	O
+2-5	strawberry	O	O	JJ	P1_NPart_strawberry
+2-6	so	2-9_mark	make	IN	O
+2-7	I	2-9_nsubj	make	PRP	P2_cook
+2-8	will	2-9_aux	make	MD	O
+2-9	make	O	O	VB	O
+2-10	her	O	O	PRP	P1_beneficiary
+2-11	a	O	O	DT	O
+2-12	strawberry	O	O	JJ	O
+2-13	cake	2-9_xcomp	make	NN	P1_cake
+2-14	as	O	O	O	O
+2-15	a	O	O	DT	O
+2-16	surprise	O	O	NN	P1_NPart_surprise
+2-17	.	O	O	O	O
+
+#id=3
+#text=I began by getting the best strawberries and most delicious cake batter from the store I could find . 
+3-1	I	3-2_nsubj	began	PRP	P2_cook
+3-2	began	O	O	VBD	O
+3-3	by	O	O	O	O
+3-4	getting	3-2_prepc_by	began	VBG	O
+3-5	the	O	O	DT	O
+3-6	best	O	O	RBS	O
+3-7	strawberries	O	O	JJ	P1_ingredients
+3-8	and	O	O	O	O
+3-9	most	O	O	RBS	O
+3-10	delicious	O	O	JJ	O
+3-11	cake	O	O	NN	O
+3-12	batter	3-4_dobj	getting	NN	P1_dough
+3-13	from	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	store	3-4_prep_from	getting	NN	P1_store
+3-16	I	3-18_nsubj	find	PRP	P2_cook
+3-17	could	3-18_aux	find	MD	O
+3-18	find	O	O	VB	O
+3-19	.	O	O	O	O
+
+#id=4
+#text=When I arrived home I turned on the oven and began to make the batter . 
+4-1	When	4-3_advmod	arrived	WRB	O
+4-2	I	4-3_nsubj	arrived	PRP	P2_cook
+4-3	arrived	4-6_advcl	turned	VBD	O
+4-4	home	4-3_dobj	arrived	NN	P1_kitchen/location
+4-5	I	4-6_nsubj	turned	PRP	P2_cook
+4-6	turned	O	O	VBD	O
+4-7	on	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	oven	4-6_prep_on	turned	NN	P1_oven
+4-10	and	O	O	O	O
+4-11	began	4-6_conj_and	turned	VBD	O
+4-12	to	4-13_aux	make	TO	O
+4-13	make	4-11_xcomp	began	VB	O
+4-14	the	O	O	DT	O
+4-15	batter	4-13_dobj	make	NN	P1_dough
+4-16	.	O	O	O	O
+
+#id=5
+#text=I mix the ingredients together and put the cake together . 
+5-1	I	5-2_nsubj	mix	PRP	P2_cook
+5-2	mix	O	O	VB	O
+5-3	the	O	O	DT	O
+5-4	ingredients	5-2_dobj	mix	NNS	P2_ingredients
+5-5	together	5-2_advmod	mix	RB	O
+5-6	and	O	O	O	O
+5-7	put	5-2_conj_and	mix	VB	O
+5-8	the	O	O	DT	O
+5-9	cake	5-7_dobj	put	NN	P1_cake
+5-10	together	5-7_advmod	put	RB	O
+5-11	.	O	O	O	O
+
+#id=6
+#text=It then goes in the oven to bake and become golden and perfect for eating . 
+6-1	It	6-3_nsubj	goes	PRP	P1_cake
+6-2	then	6-3_advmod	goes	RB	O
+6-3	goes	O	O	VBZ	O
+6-4	in	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	oven	6-3_prep_in	goes	NN	P1_oven
+6-7	to	6-8_aux	bake	TO	O
+6-8	bake	O	O	VB	O
+6-9	and	O	O	O	O
+6-10	become	6-8_conj_and	bake	VB	O
+6-11	golden	6-10_acomp	become	JJ	O
+6-12	and	O	O	O	O
+6-13	perfect	O	O	JJ	O
+6-14	for	O	O	O	O
+6-15	eating	6-10_prepc_for	become	VBG	O
+6-16	.	O	O	O	O
+
+#id=7
+#text=I take the cake out after it has baked and put sprinkles on top and place the candles . 
+7-1	I	7-2_nsubj	take	PRP	P2_cook
+7-2	take	7-12_dep	sprinkles	VB	O
+7-3	the	O	O	DT	O
+7-4	cake	7-2_dobj	take	NN	P1_cake
+7-5	out	7-2_prt	take	RP	O
+7-6	after	7-9_mark	baked	IN	O
+7-7	it	7-9_nsubj	baked	PRP	P1_cake
+7-8	has	7-9_aux	baked	VBZ	O
+7-9	baked	7-2_advcl	take	VBN	O
+7-10	and	O	O	O	O
+7-11	put	7-9_conj_and	baked	VBN	O
+7-12	sprinkles	O	O	VBZ	P3_ingredients
+7-13	on	O	O	O	O
+7-14	top	7-12_prep_on	sprinkles	NN	P1_NPart_top
+7-15	and	O	O	O	O
+7-16	place	O	O	NN	O
+7-17	the	O	O	DT	O
+7-18	candles	7-12_nsubj	sprinkles	NNS	P1_other
+7-19	.	O	O	O	O
+
+#id=8
+#text=I write on the cake happy birthday princess ! 
+8-1	I	8-2_nsubj	write	PRP	P2_cook
+8-2	write	O	O	VBP	O
+8-3	on	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	cake	O	O	NN	P1_cake
+8-6	happy	O	O	JJ	O
+8-7	birthday	O	O	NN	P2_NPart_birthday
+8-8	princess	8-2_prep_on	write	NNS	P1_beneficiary
+8-9	!	O	O	O	O
+
+#id=9
+#text=! 
+9-1	!	O	O	O	O
+
+#id=10
+#text=The next day I surprise her with the best cake that she has ever seen . 
+10-1	The	O	O	DT	O
+10-2	next	O	O	JJ	O
+10-3	day	10-5_tmod	surprise	NN	P2_NPart_day
+10-4	I	10-5_nsubj	surprise	PRP	P2_cook
+10-5	surprise	O	O	VBD	O
+10-6	her	10-5_dobj	surprise	PRP	P1_beneficiary
+10-7	with	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	best	O	O	JJS	O
+10-10	cake	10-5_prep_with	surprise	NN	P1_cake
+10-11	that	10-15_mark	seen	IN	O
+10-12	she	10-15_nsubj	seen	PRP	P1_beneficiary
+10-13	has	10-15_aux	seen	VBZ	O
+10-14	ever	10-15_advmod	seen	RB	O
+10-15	seen	10-5_ccomp	surprise	VBN	O
+10-16	.	O	O	O	O
+
+#id=11
+#text=She is so surprised that she faints ! 
+11-1	She	O	O	PRP	P1_beneficiary
+11-2	is	O	O	VBZ	O
+11-3	so	O	O	RB	O
+11-4	surprised	O	O	JJ	O
+11-5	that	11-7_mark	faints	IN	O
+11-6	she	11-7_nsubj	faints	PRP	P1_beneficiary
+11-7	faints	O	O	VBZ	O
+11-8	!	O	O	O	O
+
+#id=12
+#text=After waking back up she enjoys the cake and tells me it is the best that she has had in years . 
+12-1	After	O	O	O	O
+12-2	waking	O	O	VBG	O
+12-3	back	O	O	RB	O
+12-4	up	12-2_advmod	waking	RB	O
+12-5	she	12-6_nsubj	enjoys	PRP	P1_beneficiary
+12-6	enjoys	O	O	VBZ	O
+12-7	the	O	O	DT	O
+12-8	cake	12-6_dobj	enjoys	NN	P1_cake
+12-9	and	O	O	O	O
+12-10	tells	12-6_conj_and	enjoys	VBZ	O
+12-11	me	12-10_dobj	tells	PRP	P2_cook
+12-12	it	O	O	PRP	P1_cake
+12-13	is	O	O	VBZ	O
+12-14	the	O	O	DT	O
+12-15	best	O	O	JJS	O
+12-16	that	12-19_mark	had	IN	O
+12-17	she	12-19_nsubj	had	PRP	P1_beneficiary
+12-18	has	12-19_aux	had	VBZ	O
+12-19	had	O	O	VBN	O
+12-20	in	O	O	O	O
+12-21	years	12-19_prep_in	had	NNS	P1_NPart_years
+12-22	.	O	O	O	O

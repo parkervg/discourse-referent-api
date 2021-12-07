@@ -1,0 +1,218 @@
+#id=1
+#text=Friday was Madison 's birthday party and I wanted to make sure that I looked my best . 
+1-1	Friday	O	O	NNP	P1_time/date
+1-2	was	O	O	VBD	O
+1-3	Madison	O	O	NNP	P1_NPart_madison
+1-4	's	O	O	O	O
+1-5	birthday	O	O	NN	O
+1-6	party	O	O	NN	P1_NPart_party
+1-7	and	O	O	O	O
+1-8	I	1-9_nsubj	wanted	PRP	P1_customer
+1-9	wanted	O	O	VBD	O
+1-10	to	1-11_aux	make	TO	O
+1-11	make	1-9_xcomp	wanted	VB	O
+1-12	sure	1-11_acomp	make	JJ	O
+1-13	that	1-15_mark	looked	IN	O
+1-14	I	1-15_nsubj	looked	PRP	P1_customer
+1-15	looked	1-11_ccomp	make	VBD	O
+1-16	my	O	O	PRP$	P1_customer
+1-17	best	1-15_dobj	looked	JJS	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=I asked my dad to take me to the local barber shop . 
+2-1	I	2-2_nsubj	asked	PRP	P1_customer
+2-2	asked	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_customer
+2-4	dad	2-2_dobj	asked	NN	P1_NPart_dad
+2-5	to	2-6_aux	take	TO	O
+2-6	take	O	O	VB	O
+2-7	me	2-6_dobj	take	PRP	P1_customer
+2-8	to	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	local	O	O	JJ	O
+2-11	barber	O	O	NN	O
+2-12	shop	2-6_prep_to	take	NN	P1_salon
+2-13	.	O	O	O	O
+
+#id=3
+#text=When I got there , I sat down and saw that there were two other people waiting . 
+3-1	When	3-3_advmod	got	WRB	O
+3-2	I	3-3_nsubj	got	PRP	P1_customer
+3-3	got	3-7_advcl	sat	VBD	O
+3-4	there	3-3_advmod	got	RB	P1_salon
+3-5	,	O	O	O	O
+3-6	I	3-7_nsubj	sat	PRP	P1_customer
+3-7	sat	O	O	VBD	O
+3-8	down	3-7_prt	sat	RP	O
+3-9	and	O	O	O	O
+3-10	saw	3-7_conj_and	sat	VBD	O
+3-11	that	3-13_mark	were	IN	O
+3-12	there	3-13_expl	were	EX	P1_salon
+3-13	were	3-10_ccomp	saw	VBD	O
+3-14	two	O	O	CD	O
+3-15	other	O	O	JJ	O
+3-16	people	3-13_nsubj	were	NNS	P2_customer
+3-17	waiting	O	O	VBG	O
+3-18	.	O	O	O	O
+
+#id=4
+#text=I decided to go over to the magazine rack and I found a magazine about baseball . 
+4-1	I	4-2_nsubj	decided	PRP	P1_customer
+4-2	decided	O	O	VBD	O
+4-3	to	4-4_aux	go	TO	O
+4-4	go	4-2_xcomp	decided	VB	O
+4-5	over	4-4_prt	go	RP	O
+4-6	to	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	magazine	O	O	NN	O
+4-9	rack	4-4_prep_to	go	NN	P1_other
+4-10	and	O	O	O	O
+4-11	I	4-12_nsubj	found	PRP	P1_customer
+4-12	found	4-2_conj_and	decided	VBD	O
+4-13	a	O	O	DT	O
+4-14	magazine	4-12_dobj	found	NN	P1_entertainment
+4-15	about	O	O	O	O
+4-16	baseball	4-12_prep_about	found	NN	P1_NPart_baseball
+4-17	.	O	O	O	O
+
+#id=5
+#text=I really enjoyed all of the stories that were in the magazine . 
+5-1	I	5-3_nsubj	enjoyed	PRP	P1_customer
+5-2	really	5-3_advmod	enjoyed	RB	O
+5-3	enjoyed	O	O	VBD	O
+5-4	all	5-3_dobj	enjoyed	DT	O
+5-5	of	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	stories	O	O	NNS	P1_NPart_stories
+5-8	that	5-9_nsubj	were	WDT	O
+5-9	were	O	O	VBD	O
+5-10	in	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	magazine	5-9_prep_in	were	NN	P1_entertainment
+5-13	.	O	O	O	O
+
+#id=6
+#text=Before I knew it , the barber called me over to the chair . 
+6-1	Before	6-3_mark	knew	IN	O
+6-2	I	6-3_nsubj	knew	PRP	P1_customer
+6-3	knew	6-8_advcl	called	VBD	O
+6-4	it	6-3_dobj	knew	PRP	O
+6-5	,	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	barber	6-8_nsubj	called	NN	P1_hairdresser
+6-8	called	O	O	VBD	O
+6-9	me	6-8_dobj	called	PRP	P3_customer
+6-10	over	6-8_prt	called	RP	O
+6-11	to	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	chair	6-8_prep_to	called	NN	P1_chair
+6-14	.	O	O	O	O
+
+#id=7
+#text=I sat down and then he asked me what kind of haircut I wanted . 
+7-1	I	7-2_nsubj	sat	PRP	P1_customer
+7-2	sat	O	O	VBD	O
+7-3	down	7-2_prt	sat	RP	O
+7-4	and	O	O	O	O
+7-5	then	7-7_advmod	asked	RB	O
+7-6	he	7-7_nsubj	asked	PRP	P1_hairdresser
+7-7	asked	7-2_conj_and	sat	VBD	O
+7-8	me	7-7_dobj	asked	PRP	P1_customer
+7-9	what	O	O	WP	O
+7-10	kind	7-14_dobj	wanted	NN	O
+7-11	of	O	O	O	O
+7-12	haircut	O	O	NN	P1_haircut
+7-13	I	7-14_nsubj	wanted	PRP	P1_customer
+7-14	wanted	7-7_dep	asked	VBD	O
+7-15	.	O	O	O	O
+
+#id=8
+#text=It was summer so I decided to get a crew cut . 
+8-1	It	O	O	PRP	P1_NPart_it
+8-2	was	O	O	VBD	O
+8-3	summer	O	O	NN	P2_time/date
+8-4	so	8-6_mark	decided	IN	O
+8-5	I	8-6_nsubj	decided	PRP	P1_customer
+8-6	decided	O	O	VBD	O
+8-7	to	8-8_aux	get	TO	O
+8-8	get	8-6_xcomp	decided	VB	O
+8-9	a	O	O	DT	O
+8-10	crew	O	O	NN	O
+8-11	cut	8-8_dobj	get	NN	P1_haircut
+8-12	.	O	O	O	O
+
+#id=9
+#text=He started off by using the electric razor on my head . 
+9-1	He	9-2_nsubj	started	PRP	P1_hairdresser
+9-2	started	O	O	VBD	O
+9-3	off	9-2_prt	started	RP	O
+9-4	by	O	O	O	O
+9-5	using	9-2_prepc_by	started	VBG	O
+9-6	the	O	O	DT	O
+9-7	electric	O	O	JJ	O
+9-8	razor	9-5_dobj	using	NN	P2_other
+9-9	on	O	O	O	O
+9-10	my	O	O	PRP$	P1_customer
+9-11	head	9-5_prep_on	using	NN	P3_other
+9-12	.	O	O	O	O
+
+#id=10
+#text=After that , he got out the scissors in order to cut some of the remaining hair . 
+10-1	After	O	O	O	O
+10-2	that	10-5_prep_after	got	DT	O
+10-3	,	O	O	O	O
+10-4	he	10-5_nsubj	got	PRP	P1_hairdresser
+10-5	got	O	O	VBD	O
+10-6	out	10-5_prt	got	RP	O
+10-7	the	O	O	DT	O
+10-8	scissors	10-5_dobj	got	NNS	P1_scissors
+10-9	in	O	O	O	O
+10-10	order	O	O	NN	P1_NPart_order
+10-11	to	10-12_aux	cut	TO	O
+10-12	cut	10-5_vmod	got	VB	O
+10-13	some	10-12_dobj	cut	DT	O
+10-14	of	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	remaining	O	O	VBG	O
+10-17	hair	O	O	NN	P1_hair
+10-18	.	O	O	O	O
+
+#id=11
+#text=After he finished , he put some powder on my face and brushed off any hair that had fallen . 
+11-1	After	11-3_mark	finished	IN	O
+11-2	he	11-3_nsubj	finished	PRP	P1_hairdresser
+11-3	finished	11-6_advcl	put	VBD	O
+11-4	,	O	O	O	O
+11-5	he	11-6_nsubj	put	PRP	P1_hairdresser
+11-6	put	O	O	VBD	O
+11-7	some	O	O	DT	O
+11-8	powder	11-6_dobj	put	NN	P4_other
+11-9	on	O	O	O	O
+11-10	my	O	O	PRP$	P1_customer
+11-11	face	11-6_prep_on	put	NN	P1_NPart_face
+11-12	and	O	O	O	O
+11-13	brushed	11-6_conj_and	put	VBD	O
+11-14	off	11-13_prt	brushed	RP	O
+11-15	any	O	O	DT	O
+11-16	hair	11-13_dobj	brushed	NN	P1_hair
+11-17	that	11-19_nsubj	fallen	WDT	O
+11-18	had	11-19_aux	fallen	VBD	O
+11-19	fallen	O	O	VBN	O
+11-20	.	O	O	O	O
+
+#id=12
+#text=He showed me the haircut in a mirror and I was pleased . 
+12-1	He	12-2_nsubj	showed	PRP	P1_hairdresser
+12-2	showed	O	O	VBD	O
+12-3	me	12-2_iobj	showed	PRP	P1_customer
+12-4	the	O	O	DT	O
+12-5	haircut	12-2_dobj	showed	NN	P1_haircut
+12-6	in	O	O	O	O
+12-7	a	O	O	DT	O
+12-8	mirror	O	O	NN	P1_mirror
+12-9	and	O	O	O	O
+12-10	I	O	O	PRP	P1_customer
+12-11	was	O	O	VBD	O
+12-12	pleased	12-2_conj_and	showed	JJ	O
+12-13	.	O	O	O	O

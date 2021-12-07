@@ -1,0 +1,200 @@
+#id=1
+#text=My husband and I are huge health junkies . 
+1-1	My	O	O	PRP$	P1_rider
+1-2	husband	O	O	NN	P1_NPart_husband
+1-3	and	O	O	O	O
+1-4	I	O	O	PRP	P1_rider
+1-5	are	O	O	VBP	O
+1-6	huge	O	O	JJ	O
+1-7	health	O	O	NN	O
+1-8	junkies	O	O	NNS	P1_NPart_junkies
+1-9	.	O	O	O	O
+
+#id=2
+#text=We ride our bikes to and from work everyday . 
+2-1	We	2-2_nsubj	ride	PRP	P2_rider
+2-2	ride	2-2_conj_and	ride	VBP	O
+2-3	our	O	O	PRP$	P2_rider
+2-4	bikes	2-2_dobj	ride	NNS	P1_bicycle
+2-5	to	O	O	O	O
+2-6	and	O	O	O	O
+2-7	from	O	O	O	O
+2-8	work	2-2_prep_to	ride	NN	P1_NPart_work
+2-9	everyday	O	O	JJ	O
+2-10	.	O	O	O	O
+
+#id=3
+#text=Yes , we own a car but we love getting that extra thirty minute workout everyday . 
+3-1	Yes	3-4_discourse	own	UH	O
+3-2	,	O	O	O	O
+3-3	we	3-4_nsubj	own	PRP	P2_rider
+3-4	own	O	O	VBP	O
+3-5	a	O	O	DT	O
+3-6	car	3-4_dobj	own	NN	P1_NPart_car
+3-7	but	O	O	O	O
+3-8	we	3-9_nsubj	love	PRP	P2_rider
+3-9	love	3-4_conj_but	own	VBP	O
+3-10	getting	3-9_xcomp	love	VBG	O
+3-11	that	O	O	DT	O
+3-12	extra	O	O	JJ	O
+3-13	thirty	O	O	CD	O
+3-14	minute	O	O	NN	O
+3-15	workout	3-10_iobj	getting	NN	P1_NPart_workout
+3-16	everyday	3-10_dobj	getting	NN	O
+3-17	.	O	O	O	O
+
+#id=4
+#text=Last week , I rode over a piece of cracked glass from a bottle . 
+4-1	Last	O	O	JJ	O
+4-2	week	4-5_tmod	rode	NN	P1_NPart_week
+4-3	,	O	O	O	O
+4-4	I	4-5_nsubj	rode	PRP	P1_rider
+4-5	rode	O	O	VBD	O
+4-6	over	4-5_prt	rode	RP	O
+4-7	a	O	O	DT	O
+4-8	piece	4-5_dobj	rode	NN	O
+4-9	of	O	O	O	O
+4-10	cracked	O	O	VBN	O
+4-11	glass	O	O	NN	P1_object_damage
+4-12	from	O	O	O	O
+4-13	a	O	O	DT	O
+4-14	bottle	O	O	NN	P1_NPart_bottle
+4-15	.	O	O	O	O
+
+#id=5
+#text=The tire on my bike slowly began to deflate . 
+5-1	The	O	O	DT	O
+5-2	tire	5-7_nsubj	began	NN	P1_tire
+5-3	on	O	O	O	O
+5-4	my	O	O	PRP$	P1_rider
+5-5	bike	O	O	NN	P1_bicycle
+5-6	slowly	5-7_advmod	began	RB	O
+5-7	began	O	O	VBD	O
+5-8	to	5-9_aux	deflate	TO	O
+5-9	deflate	5-7_xcomp	began	VB	O
+5-10	.	O	O	O	O
+
+#id=6
+#text=I called my husband to come get me and we took the bike home to get fixed . 
+6-1	I	6-2_nsubj	called	PRP	P1_rider
+6-2	called	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_rider
+6-4	husband	6-2_dobj	called	NN	P1_NPart_husband
+6-5	to	6-6_aux	come	TO	O
+6-6	come	O	O	VB	O
+6-7	get	6-6_xcomp	come	VB	O
+6-8	me	6-7_dobj	get	PRP	P1_rider
+6-9	and	O	O	O	O
+6-10	we	6-11_nsubj	took	PRP	P1_other
+6-11	took	6-2_conj_and	called	VBD	O
+6-12	the	O	O	DT	O
+6-13	bike	O	O	NN	P1_bicycle
+6-14	home	6-11_dobj	took	NN	O
+6-15	to	6-17_aux	fixed	TO	O
+6-16	get	6-17_auxpass	fixed	VB	O
+6-17	fixed	6-11_vmod	took	VBN	O
+6-18	.	O	O	O	O
+
+#id=7
+#text=I washed it with soapy water to see where the hole was . 
+7-1	I	7-2_nsubj	washed	PRP	P1_rider
+7-2	washed	O	O	VBD	O
+7-3	it	7-2_dobj	washed	PRP	P2_bicycle
+7-4	with	O	O	O	O
+7-5	soapy	O	O	JJ	O
+7-6	water	7-2_prep_with	washed	NN	P2_other
+7-7	to	7-8_aux	see	TO	O
+7-8	see	7-2_vmod	washed	VB	O
+7-9	where	7-12_advmod	was	WRB	O
+7-10	the	O	O	DT	O
+7-11	hole	7-12_nsubj	was	NN	P1_damage
+7-12	was	7-8_advcl	see	VBD	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=I got out my air pump and began to pump . 
+8-1	I	8-2_nsubj	got	PRP	P1_rider
+8-2	got	O	O	VBD	O
+8-3	out	8-2_prt	got	RP	O
+8-4	my	O	O	PRP$	P1_rider
+8-5	air	O	O	NN	O
+8-6	pump	8-2_dobj	got	NN	P1_tool
+8-7	and	O	O	O	O
+8-8	began	8-2_conj_and	got	VBD	O
+8-9	to	8-10_aux	pump	TO	O
+8-10	pump	8-8_xcomp	began	VB	O
+8-11	.	O	O	O	O
+
+#id=9
+#text=The part where there was a hole blew out air around the wet wheel . 
+9-1	The	O	O	DT	O
+9-2	part	9-8_nsubj	blew	NN	P1_NPart_part
+9-3	where	9-5_advmod	was	WRB	O
+9-4	there	9-5_expl	was	EX	O
+9-5	was	O	O	VBD	O
+9-6	a	O	O	DT	O
+9-7	hole	9-5_nsubj	was	NN	P1_damage
+9-8	blew	O	O	VBD	O
+9-9	out	9-8_prt	blew	RP	O
+9-10	air	9-8_dobj	blew	NN	P1_air
+9-11	around	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	wet	O	O	JJ	O
+9-14	wheel	O	O	NN	P2_tire
+9-15	.	O	O	O	O
+
+#id=10
+#text=I got a bike patch and just stuff it on over the spot once the wheel had dried . 
+10-1	I	10-2_nsubj	got	PRP	P1_rider
+10-2	got	O	O	VBD	O
+10-3	a	O	O	DT	O
+10-4	bike	O	O	NN	O
+10-5	patch	10-2_dobj	got	NN	P1_patch
+10-6	and	O	O	O	O
+10-7	just	10-8_advmod	stuff	RB	O
+10-8	stuff	10-2_conj_and	got	VBP	O
+10-9	it	10-8_dobj	stuff	PRP	P1_patch
+10-10	on	10-8_prt	stuff	RP	O
+10-11	over	O	O	O	O
+10-12	the	O	O	DT	O
+10-13	spot	10-8_prep_over	stuff	NN	P1_NPart_spot
+10-14	once	10-18_mark	dried	IN	O
+10-15	the	O	O	DT	O
+10-16	wheel	10-18_nsubj	dried	NN	P2_tire
+10-17	had	10-18_aux	dried	VBD	O
+10-18	dried	10-8_advcl	stuff	VBD	O
+10-19	.	O	O	O	O
+
+#id=11
+#text=Put some more air into the tire and test drove it around the street and back . 
+11-1	Put	11-10_csubj	drove	VB	O
+11-2	some	O	O	DT	O
+11-3	more	O	O	JJR	O
+11-4	air	11-1_dobj	Put	NN	P2_air
+11-5	into	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	tire	11-1_prep_into	Put	NN	P2_tire
+11-8	and	O	O	O	O
+11-9	test	O	O	NN	P1_NPart_test
+11-10	drove	O	O	VBD	O
+11-11	it	11-10_dobj	drove	PRP	P1_bicycle
+11-12	around	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	street	11-10_prep_around	drove	NN	P1_NPart_street
+11-15	and	O	O	O	O
+11-16	back	O	O	NN	O
+11-17	.	O	O	O	O
+
+#id=12
+#text=My sweet bicycle was back and even better than ever . 
+12-1	My	O	O	PRP$	P1_rider
+12-2	sweet	O	O	JJ	O
+12-3	bicycle	12-4_nsubj	was	NN	P1_bicycle
+12-4	was	O	O	VBD	O
+12-5	back	12-4_advmod	was	RB	O
+12-6	and	O	O	O	O
+12-7	even	O	O	RB	O
+12-8	better	O	O	RBR	O
+12-9	than	12-4_advmod	was	IN	O
+12-10	ever	O	O	RB	O
+12-11	.	O	O	O	O

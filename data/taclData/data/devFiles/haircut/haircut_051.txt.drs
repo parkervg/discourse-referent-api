@@ -1,0 +1,209 @@
+#id=1
+#text=My son in law cuts my hair . 
+1-1	My	O	O	PRP$	P1_customer
+1-2	son	1-5_nsubj	cuts	NN	O
+1-3	in	O	O	O	O
+1-4	law	O	O	NN	P1_hairdresser
+1-5	cuts	O	O	VBZ	O
+1-6	my	O	O	PRP$	P1_customer
+1-7	hair	1-5_dobj	cuts	NN	P1_hair
+1-8	.	O	O	O	O
+
+#id=2
+#text=He texts me to come and get a haircut . 
+2-1	He	2-2_nsubj	texts	PRP	P1_hairdresser
+2-2	texts	O	O	VBZ	O
+2-3	me	2-2_dobj	texts	PRP	P1_customer
+2-4	to	2-5_aux	come	TO	O
+2-5	come	2-2_xcomp	texts	VB	O
+2-6	and	O	O	O	O
+2-7	get	2-5_conj_and	come	VB	O
+2-8	a	O	O	DT	O
+2-9	haircut	2-5_dobj	come	NN	P1_haircut
+2-10	.	O	O	O	O
+
+#id=3
+#text=I go to the upscale salon and get the royal treatment . 
+3-1	I	3-2_nsubj	go	PRP	P1_customer
+3-2	go	O	O	VBP	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	upscale	O	O	JJ	O
+3-6	salon	3-2_prep_to	go	NN	P1_salon
+3-7	and	O	O	O	O
+3-8	get	3-2_conj_and	go	VBP	O
+3-9	the	O	O	DT	O
+3-10	royal	O	O	JJ	O
+3-11	treatment	3-8_dobj	get	NN	O
+3-12	.	O	O	O	O
+
+#id=4
+#text=It starts with me remembering how to get there easily . 
+4-1	It	4-2_nsubj	starts	PRP	O
+4-2	starts	O	O	VBZ	O
+4-3	with	O	O	O	O
+4-4	me	4-5_nsubj	remembering	PRP	P1_customer
+4-5	remembering	4-2_prepc_with	starts	VBG	O
+4-6	how	4-8_advmod	get	WRB	O
+4-7	to	4-8_aux	get	TO	O
+4-8	get	4-5_ccomp	remembering	VB	O
+4-9	there	4-8_advmod	get	RB	O
+4-10	easily	4-8_advmod	get	RB	O
+4-11	.	O	O	O	O
+
+#id=5
+#text=It is downtown and they are all one way streets and canyons . 
+5-1	It	O	O	PRP	P1_salon
+5-2	is	O	O	VBZ	O
+5-3	downtown	O	O	JJ	P1_NPart_downtown
+5-4	and	O	O	O	O
+5-5	they	O	O	PRP	P1_NPart_they
+5-6	are	O	O	VBP	O
+5-7	all	O	O	PDT	O
+5-8	one	O	O	CD	O
+5-9	way	O	O	NN	O
+5-10	streets	O	O	NNS	P1_NPart_streets
+5-11	and	O	O	O	O
+5-12	canyons	O	O	NNS	P1_NPart_canyons
+5-13	.	O	O	O	O
+
+#id=6
+#text=I find my lucky parking spot and go around the corner into the salon and am greeted . 
+6-1	I	6-2_nsubj	find	PRP	P1_customer
+6-2	find	O	O	VBP	O
+6-3	my	O	O	PRP$	P1_customer
+6-4	lucky	O	O	JJ	O
+6-5	parking	O	O	NN	O
+6-6	spot	6-2_dobj	find	NN	P1_NPart_spot
+6-7	and	O	O	O	O
+6-8	go	6-2_conj_and	find	VB	O
+6-9	around	6-8_prt	go	RP	O
+6-10	the	O	O	DT	O
+6-11	corner	6-8_dobj	go	NN	P1_NPart_corner
+6-12	into	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	salon	6-8_prep_into	go	NN	P1_salon
+6-15	and	O	O	O	O
+6-16	am	6-17_auxpass	greeted	VBP	O
+6-17	greeted	6-2_conj_and	find	VBN	O
+6-18	.	O	O	O	O
+
+#id=7
+#text=I noticed that they remodeled . 
+7-1	I	7-2_nsubj	noticed	PRP	P1_customer
+7-2	noticed	O	O	VBD	O
+7-3	that	7-5_mark	remodeled	IN	O
+7-4	they	7-5_nsubj	remodeled	PRP	P1_salon
+7-5	remodeled	7-2_ccomp	noticed	VBD	O
+7-6	.	O	O	O	O
+
+#id=8
+#text=I see my son in - law and says '' `` go get a smock '' '' . 
+8-1	I	8-2_nsubj	see	PRP	P1_customer
+8-2	see	O	O	VBP	O
+8-3	my	O	O	PRP$	P1_customer
+8-4	son	8-2_dobj	see	NN	O
+8-5	in	O	O	O	O
+8-6	-	O	O	O	O
+8-7	law	8-2_prep_in	see	NN	P1_hairdresser
+8-8	and	O	O	O	O
+8-9	says	8-2_conj_and	see	VBZ	O
+8-10	''	O	O	O	O
+8-11	``	O	O	O	O
+8-12	go	8-13_csubj	get	VB	O
+8-13	get	8-2_ccomp	see	VBP	O
+8-14	a	O	O	DT	O
+8-15	smock	8-13_dobj	get	NN	P1_cape
+8-16	''	O	O	O	O
+8-17	''	O	O	O	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=I went into the little room , picked out a black smock and put on and sit down . 
+9-1	I	9-2_nsubj	went	PRP	P1_customer
+9-2	went	O	O	VBD	O
+9-3	into	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	little	O	O	JJ	O
+9-6	room	9-2_prep_into	went	NN	P1_location_salon
+9-7	,	O	O	O	O
+9-8	picked	9-2_conj_and	went	VBD	O
+9-9	out	9-8_prt	picked	RP	O
+9-10	a	O	O	DT	O
+9-11	black	O	O	JJ	O
+9-12	smock	9-8_dobj	picked	NN	P1_cape
+9-13	and	O	O	O	O
+9-14	put	9-2_conj_and	went	VB	O
+9-15	on	9-14_prt	put	RP	O
+9-16	and	O	O	O	O
+9-17	sit	9-14_conj_and	put	VB	O
+9-18	down	9-17_prt	sit	RP	O
+9-19	.	O	O	O	O
+
+#id=10
+#text=I come with my hair wet . 
+10-1	I	10-2_nsubj	come	PRP	P1_customer
+10-2	come	O	O	VBP	O
+10-3	with	O	O	O	O
+10-4	my	O	O	PRP$	P1_customer
+10-5	hair	O	O	NN	P1_hair
+10-6	wet	10-2_prep_with	come	NN	O
+10-7	.	O	O	O	O
+
+#id=11
+#text=He colors the hair , I sit under the dryer . 
+11-1	He	11-2_nsubj	colors	PRP	P1_hairdresser
+11-2	colors	11-7_ccomp	sit	VBZ	O
+11-3	the	O	O	DT	O
+11-4	hair	11-2_dobj	colors	NN	P1_hair
+11-5	,	O	O	O	O
+11-6	I	11-7_nsubj	sit	PRP	P1_customer
+11-7	sit	O	O	VBP	O
+11-8	under	O	O	O	O
+11-9	the	O	O	DT	O
+11-10	dryer	11-7_prep_under	sit	NN	P1_hairdryer
+11-11	.	O	O	O	O
+
+#id=12
+#text=We wash the hair , I get back in the chair and he cuts it . 
+12-1	We	12-2_nsubj	wash	PRP	P1_hairdresser_customer
+12-2	wash	O	O	VBP	O
+12-3	the	O	O	DT	O
+12-4	hair	12-2_dobj	wash	NN	P1_hair
+12-5	,	O	O	O	O
+12-6	I	12-7_nsubj	get	PRP	P1_customer
+12-7	get	12-2_conj_and	wash	VBP	O
+12-8	back	12-7_advmod	get	RB	O
+12-9	in	O	O	O	O
+12-10	the	O	O	DT	O
+12-11	chair	12-7_prep_in	get	NN	P1_chair
+12-12	and	O	O	O	O
+12-13	he	12-14_nsubj	cuts	PRP	P1_hairdresser
+12-14	cuts	12-2_conj_and	wash	VBZ	O
+12-15	it	12-14_dobj	cuts	PRP	P1_hair
+12-16	.	O	O	O	O
+
+#id=13
+#text=The whole thing takes a couple of hours . 
+13-1	The	O	O	DT	O
+13-2	whole	O	O	JJ	O
+13-3	thing	13-4_nsubj	takes	NN	P1_NPart_thing
+13-4	takes	O	O	VBZ	O
+13-5	a	O	O	DT	O
+13-6	couple	13-4_dobj	takes	NN	O
+13-7	of	O	O	O	O
+13-8	hours	O	O	NNS	P1_time/date
+13-9	.	O	O	O	O
+
+#id=14
+#text=I always feel so beautiful on the way home . 
+14-1	I	14-3_nsubj	feel	PRP	P1_customer
+14-2	always	14-3_advmod	feel	RB	O
+14-3	feel	O	O	VBP	O
+14-4	so	O	O	RB	O
+14-5	beautiful	14-3_acomp	feel	JJ	O
+14-6	on	O	O	O	O
+14-7	the	O	O	DT	O
+14-8	way	O	O	NN	P1_NPart_way
+14-9	home	14-3_prep_on	feel	NN	O
+14-10	.	O	O	O	O

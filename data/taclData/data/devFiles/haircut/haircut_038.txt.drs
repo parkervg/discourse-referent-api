@@ -1,0 +1,203 @@
+#id=1
+#text=I had a job interview coming up in a couple days . 
+1-1	I	1-2_nsubj	had	PRP	P1_customer
+1-2	had	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	job	O	O	NN	O
+1-5	interview	1-2_dobj	had	NN	P1_NPart_interview
+1-6	coming	O	O	VBG	O
+1-7	up	1-6_prt	coming	RP	O
+1-8	in	O	O	O	O
+1-9	a	O	O	DT	O
+1-10	couple	O	O	NN	O
+1-11	days	1-6_prep_in	coming	NNS	P1_NPart_days
+1-12	.	O	O	O	O
+
+#id=2
+#text=After filling out so many applications I noticed that my hair was getting very long . 
+2-1	After	O	O	O	O
+2-2	filling	2-8_prepc_after	noticed	VBG	O
+2-3	out	2-2_prt	filling	RP	O
+2-4	so	O	O	RB	O
+2-5	many	O	O	JJ	O
+2-6	applications	2-2_dobj	filling	NNS	P1_NPart_applications
+2-7	I	2-8_nsubj	noticed	PRP	P1_customer
+2-8	noticed	O	O	VBD	O
+2-9	that	O	O	IN	O
+2-10	my	O	O	PRP$	P1_customer
+2-11	hair	O	O	NN	P1_hair
+2-12	was	O	O	VBD	O
+2-13	getting	O	O	VBG	O
+2-14	very	O	O	RB	O
+2-15	long	2-8_ccomp	noticed	JJ	O
+2-16	.	O	O	O	O
+
+#id=3
+#text=So I ended up deciding to get my hair cut in order to look good for the upcoming interview . 
+3-1	So	3-3_dep	ended	IN	O
+3-2	I	3-3_nsubj	ended	PRP	P1_customer
+3-3	ended	O	O	VBD	O
+3-4	up	3-3_prt	ended	RP	O
+3-5	deciding	3-3_xcomp	ended	VBG	O
+3-6	to	3-7_aux	get	TO	O
+3-7	get	3-5_xcomp	deciding	VB	O
+3-8	my	O	O	PRP$	P1_customer
+3-9	hair	O	O	NN	P1_hair
+3-10	cut	3-7_dobj	get	NN	O
+3-11	in	3-14_mark	look	IN	O
+3-12	order	3-14_dep	look	NN	O
+3-13	to	3-14_aux	look	TO	O
+3-14	look	3-7_advcl	get	VB	O
+3-15	good	3-14_acomp	look	JJ	O
+3-16	for	O	O	O	O
+3-17	the	O	O	DT	O
+3-18	upcoming	O	O	VBG	O
+3-19	interview	3-14_prep_for	look	NN	P2_NPart_interview
+3-20	.	O	O	O	O
+
+#id=4
+#text=I got in the care in the early afternoon and drove off to my usual barber . 
+4-1	I	4-2_nsubj	got	PRP	P1_customer
+4-2	got	O	O	VBD	O
+4-3	in	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	care	4-2_prep_in	got	NN	O
+4-6	in	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	early	O	O	JJ	O
+4-9	afternoon	4-2_prep_in	got	NN	P1_time/date
+4-10	and	O	O	O	O
+4-11	drove	4-2_conj_and	got	VBD	O
+4-12	off	4-11_prt	drove	RP	O
+4-13	to	O	O	O	O
+4-14	my	O	O	PRP$	P1_customer
+4-15	usual	O	O	JJ	O
+4-16	barber	4-11_prep_to	drove	NN	P1_hairdresser
+4-17	.	O	O	O	O
+
+#id=5
+#text=I have been going to this barber for the last 5 years , and never had a problem . 
+5-1	I	5-4_nsubj	going	PRP	P1_customer
+5-2	have	5-4_aux	going	VBP	O
+5-3	been	5-4_aux	going	VBN	O
+5-4	going	O	O	VBG	O
+5-5	to	O	O	O	O
+5-6	this	O	O	DT	O
+5-7	barber	5-4_prep_to	going	NN	P1_hairdresser
+5-8	for	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	last	O	O	JJ	O
+5-11	5	O	O	CD	O
+5-12	years	O	O	NNS	P1_NPart_years
+5-13	,	O	O	O	O
+5-14	and	O	O	O	O
+5-15	never	5-16_neg	had	RB	O
+5-16	had	5-4_conj_and	going	VBD	O
+5-17	a	O	O	DT	O
+5-18	problem	5-16_dobj	had	NN	P1_NPart_problem
+5-19	.	O	O	O	O
+
+#id=6
+#text=Once I arrived for the appointment , I sat down on the chair and told her I wanted the usual . 
+6-1	Once	6-3_mark	arrived	IN	O
+6-2	I	6-3_nsubj	arrived	PRP	P1_customer
+6-3	arrived	6-9_advcl	sat	VBD	O
+6-4	for	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	appointment	6-3_prep_for	arrived	NN	P1_appointment
+6-7	,	O	O	O	O
+6-8	I	6-9_nsubj	sat	PRP	P1_customer
+6-9	sat	O	O	VBD	O
+6-10	down	6-9_prt	sat	RP	O
+6-11	on	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	chair	6-9_prep_on	sat	NN	P1_chair
+6-14	and	O	O	O	O
+6-15	told	6-9_conj_and	sat	VBD	O
+6-16	her	6-15_dobj	told	PRP	P1_hairdresser
+6-17	I	6-18_nsubj	wanted	PRP	P1_customer
+6-18	wanted	6-15_dep	told	VBD	O
+6-19	the	O	O	DT	O
+6-20	usual	6-18_dobj	wanted	JJ	P1_haircut
+6-21	.	O	O	O	O
+
+#id=7
+#text=She asked what the occasion was and I told her that I had a job interview in a couple days . 
+7-1	She	7-2_nsubj	asked	PRP	P1_hairdresser
+7-2	asked	O	O	VBD	O
+7-3	what	7-6_dobj	was	WP	O
+7-4	the	O	O	DT	O
+7-5	occasion	7-6_nsubj	was	NN	P1_NPart_occasion
+7-6	was	7-2_ccomp	asked	VBD	O
+7-7	and	O	O	O	O
+7-8	I	7-9_nsubj	told	PRP	P1_customer
+7-9	told	7-2_conj_and	asked	VBD	O
+7-10	her	7-9_dobj	told	PRP	P1_hairdresser
+7-11	that	7-13_mark	had	IN	O
+7-12	I	7-13_nsubj	had	PRP	P1_customer
+7-13	had	7-9_ccomp	told	VBD	O
+7-14	a	O	O	DT	O
+7-15	job	O	O	NN	O
+7-16	interview	7-13_dobj	had	NN	P3_NPart_interview
+7-17	in	O	O	O	O
+7-18	a	O	O	DT	O
+7-19	couple	O	O	NN	O
+7-20	days	O	O	NNS	P2_NPart_days
+7-21	.	O	O	O	O
+
+#id=8
+#text=She wished me the best of luck while she continued cutting my hair . 
+8-1	She	8-2_nsubj	wished	PRP	P1_hairdresser
+8-2	wished	O	O	VBD	O
+8-3	me	O	O	PRP	P1_customer
+8-4	the	O	O	DT	O
+8-5	best	8-2_dobj	wished	JJS	O
+8-6	of	O	O	O	O
+8-7	luck	O	O	NN	P1_NPart_luck
+8-8	while	8-10_mark	continued	IN	O
+8-9	she	8-10_nsubj	continued	PRP	P1_hairdresser
+8-10	continued	8-2_advcl	wished	VBD	O
+8-11	cutting	8-10_xcomp	continued	VBG	O
+8-12	my	O	O	PRP$	P1_customer
+8-13	hair	8-11_dobj	cutting	NN	P1_hair
+8-14	.	O	O	O	O
+
+#id=9
+#text=After some conversation , she was done . 
+9-1	After	O	O	O	O
+9-2	some	O	O	DT	O
+9-3	conversation	9-7_prep_after	done	NN	P1_entertainment
+9-4	,	O	O	O	O
+9-5	she	9-7_nsubjpass	done	PRP	P1_hairdresser
+9-6	was	9-7_auxpass	done	VBD	O
+9-7	done	O	O	VBN	O
+9-8	.	O	O	O	O
+
+#id=10
+#text=I ended up paying her a good tip considering I felt bad that I did n't get a good hair cut in a long time . 
+10-1	I	10-2_nsubj	ended	PRP	P1_customer
+10-2	ended	O	O	VBD	O
+10-3	up	10-2_prt	ended	RP	O
+10-4	paying	10-2_xcomp	ended	VBG	O
+10-5	her	10-4_iobj	paying	PRP	P1_hairdresser
+10-6	a	O	O	DT	O
+10-7	good	O	O	JJ	O
+10-8	tip	10-4_dobj	paying	NN	P1_tip
+10-9	considering	O	O	VBG	O
+10-10	I	10-11_nsubj	felt	PRP	P1_customer
+10-11	felt	10-9_ccomp	considering	VBD	O
+10-12	bad	10-11_acomp	felt	JJ	O
+10-13	that	10-17_mark	get	IN	O
+10-14	I	10-17_nsubj	get	PRP	P1_customer
+10-15	did	10-17_aux	get	VBD	O
+10-16	n't	10-17_neg	get	RB	O
+10-17	get	10-11_ccomp	felt	VB	O
+10-18	a	O	O	DT	O
+10-19	good	O	O	JJ	O
+10-20	hair	O	O	NN	O
+10-21	cut	10-17_dobj	get	NN	P1_haircut
+10-22	in	O	O	O	O
+10-23	a	O	O	DT	O
+10-24	long	O	O	JJ	O
+10-25	time	10-17_prep_in	get	NN	O
+10-26	.	O	O	O	O

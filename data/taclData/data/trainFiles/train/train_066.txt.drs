@@ -1,0 +1,191 @@
+#id=1
+#text=I wanted to go on a trip into the city to go clothes shopping . 
+1-1	I	1-2_nsubj	wanted	PRP	P1_passenger
+1-2	wanted	O	O	VBD	O
+1-3	to	1-4_aux	go	TO	O
+1-4	go	1-2_xcomp	wanted	VB	O
+1-5	on	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	trip	1-4_prep_on	go	NN	P1_trip
+1-8	into	O	O	O	O
+1-9	the	O	O	DT	O
+1-10	city	1-4_prep_into	go	NN	P1_destination
+1-11	to	1-12_aux	go	TO	O
+1-12	go	O	O	VB	O
+1-13	clothes	O	O	NNS	P1_NPart_clothes
+1-14	shopping	1-12_dobj	go	NN	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=So I got into my car and drove to the local commuter train station in my town . 
+2-1	So	2-3_dep	got	IN	O
+2-2	I	2-3_nsubj	got	PRP	P1_passenger
+2-3	got	O	O	VBD	O
+2-4	into	O	O	O	O
+2-5	my	O	O	PRP$	P1_passenger
+2-6	car	2-3_prep_into	got	NN	P1_NPart_car
+2-7	and	O	O	O	O
+2-8	drove	2-3_conj_and	got	VBD	O
+2-9	to	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	local	O	O	JJ	O
+2-12	commuter	O	O	NN	P1_NPart_commuter
+2-13	train	O	O	NN	O
+2-14	station	2-8_prep_to	drove	NN	P1_train_station
+2-15	in	O	O	O	O
+2-16	my	O	O	PRP$	P1_passenger
+2-17	town	2-8_prep_in	drove	NN	P1_NPart_town
+2-18	.	O	O	O	O
+
+#id=3
+#text=When I got to the train station , I paid my ten dollar fare , and hopped on the train . 
+3-1	When	3-3_advmod	got	WRB	O
+3-2	I	3-3_nsubj	got	PRP	P1_passenger
+3-3	got	3-10_advcl	paid	VBD	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	train	O	O	NN	O
+3-7	station	3-3_prep_to	got	NN	P2_train_station
+3-8	,	O	O	O	O
+3-9	I	3-10_nsubj	paid	PRP	P1_passenger
+3-10	paid	O	O	VBD	O
+3-11	my	O	O	PRP$	P1_passenger
+3-12	ten	O	O	CD	O
+3-13	dollar	O	O	NN	P1_NPart_dollar
+3-14	fare	3-10_dobj	paid	NN	P1_other
+3-15	,	O	O	O	O
+3-16	and	O	O	O	O
+3-17	hopped	3-10_conj_and	paid	VBD	O
+3-18	on	O	O	O	O
+3-19	the	O	O	DT	O
+3-20	train	3-17_prep_on	hopped	NN	P1_train
+3-21	.	O	O	O	O
+
+#id=4
+#text=As I got on the train , there were two different levels , a top and bottom level . 
+4-1	As	4-3_mark	got	IN	O
+4-2	I	4-3_nsubj	got	PRP	P1_passenger
+4-3	got	4-9_advcl	were	VBD	O
+4-4	on	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	train	4-3_prep_on	got	NN	P1_train
+4-7	,	O	O	O	O
+4-8	there	4-9_expl	were	EX	O
+4-9	were	O	O	VBD	O
+4-10	two	O	O	CD	O
+4-11	different	O	O	JJ	O
+4-12	levels	4-9_nsubj	were	NNS	P1_location_train
+4-13	,	O	O	O	O
+4-14	a	O	O	DT	O
+4-15	top	O	O	NN	O
+4-16	and	O	O	O	O
+4-17	bottom	O	O	JJ	O
+4-18	level	O	O	NN	P1_location_train
+4-19	.	O	O	O	O
+
+#id=5
+#text=I climbed the stairs to get to the top level , and proceeded to walk down the aisle to find a decent seat , preferably by the window . 
+5-1	I	5-2_nsubj	climbed	PRP	P1_passenger
+5-2	climbed	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	stairs	5-2_dobj	climbed	NNS	P1_NPart_stairs
+5-5	to	5-6_aux	get	TO	O
+5-6	get	5-2_vmod	climbed	VB	O
+5-7	to	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	top	O	O	JJ	O
+5-10	level	5-6_prep_to	get	NN	P1_location_train
+5-11	,	O	O	O	O
+5-12	and	O	O	O	O
+5-13	proceeded	5-2_conj_and	climbed	VBD	O
+5-14	to	5-15_aux	walk	TO	O
+5-15	walk	5-13_xcomp	proceeded	VB	O
+5-16	down	5-15_prt	walk	RP	O
+5-17	the	O	O	DT	O
+5-18	aisle	5-15_dobj	walk	NN	P1_location_train
+5-19	to	5-20_aux	find	TO	O
+5-20	find	O	O	VB	O
+5-21	a	O	O	DT	O
+5-22	decent	O	O	JJ	O
+5-23	seat	5-20_dobj	find	NN	P1_seat
+5-24	,	O	O	O	O
+5-25	preferably	5-20_advmod	find	RB	O
+5-26	by	O	O	O	O
+5-27	the	O	O	DT	O
+5-28	window	5-13_prep_by	proceeded	NN	P1_in-train_entertainment
+5-29	.	O	O	O	O
+
+#id=6
+#text=As I sat down , I looked at the window with curiosity as the train started whizzing by our surroundings . 
+6-1	As	6-3_mark	sat	IN	O
+6-2	I	6-3_nsubj	sat	PRP	P1_passenger
+6-3	sat	6-7_advcl	looked	VBD	O
+6-4	down	6-3_prt	sat	RP	O
+6-5	,	O	O	O	O
+6-6	I	6-7_nsubj	looked	PRP	P1_passenger
+6-7	looked	O	O	VBD	O
+6-8	at	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	window	6-7_prep_at	looked	NN	P1_in-train_entertainment
+6-11	with	O	O	O	O
+6-12	curiosity	O	O	NN	P1_NPart_curiosity
+6-13	as	6-16_mark	started	IN	O
+6-14	the	O	O	DT	O
+6-15	train	6-16_nsubj	started	NN	P1_train
+6-16	started	6-7_advcl	looked	VBD	O
+6-17	whizzing	6-16_xcomp	started	VBG	O
+6-18	by	O	O	O	O
+6-19	our	O	O	PRP$	P1_NPart_our
+6-20	surroundings	6-17_prep_by	whizzing	NNS	P1_NPart_surroundings
+6-21	.	O	O	O	O
+
+#id=7
+#text=We made plenty of stops , and each time plenty of fresh new faces came abroad , awaiting to get to their destination . 
+7-1	We	7-2_nsubj	made	PRP	P2_passenger
+7-2	made	O	O	VBD	O
+7-3	plenty	7-2_dobj	made	RB	O
+7-4	of	O	O	O	O
+7-5	stops	O	O	NNS	P2_other
+7-6	,	O	O	O	O
+7-7	and	O	O	O	O
+7-8	each	O	O	DT	O
+7-9	time	O	O	NN	P1_NPart_time
+7-10	plenty	7-15_nsubj	came	NN	P1_NPart_plenty
+7-11	of	O	O	O	O
+7-12	fresh	O	O	JJ	O
+7-13	new	O	O	JJ	O
+7-14	faces	O	O	NNS	P3_passenger
+7-15	came	7-2_conj_and	made	VBD	O
+7-16	abroad	7-15_advmod	came	RB	O
+7-17	,	O	O	O	O
+7-18	awaiting	7-15_xcomp	came	VBG	O
+7-19	to	7-20_aux	get	TO	O
+7-20	get	7-18_xcomp	awaiting	VB	O
+7-21	to	O	O	O	O
+7-22	their	O	O	PRP$	P1_NPart_their
+7-23	destination	7-20_prep_to	get	NN	P2_destination
+7-24	.	O	O	O	O
+
+#id=8
+#text=On the train I made a few new friends , and the trip into the city was very fun indeed . 
+8-1	On	O	O	O	O
+8-2	the	O	O	DT	O
+8-3	train	8-5_prep_on	made	NN	P1_train
+8-4	I	8-5_nsubj	made	PRP	P1_passenger
+8-5	made	O	O	VBD	O
+8-6	a	O	O	DT	O
+8-7	few	O	O	JJ	O
+8-8	new	O	O	JJ	O
+8-9	friends	8-5_dobj	made	NNS	P4_passenger
+8-10	,	O	O	O	O
+8-11	and	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	trip	O	O	NN	P2_trip
+8-14	into	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	city	O	O	NN	P1_destination
+8-17	was	O	O	VBD	O
+8-18	very	O	O	RB	O
+8-19	fun	8-5_conj_and	made	JJ	P1_NPart_fun
+8-20	indeed	O	O	RB	O
+8-21	.	O	O	O	O

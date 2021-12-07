@@ -1,0 +1,207 @@
+#id=1
+#text=I needed to do my weekly grocery shopping . 
+1-1	I	1-2_nsubj	needed	PRP	P1_shopper
+1-2	needed	O	O	VBD	O
+1-3	to	1-4_aux	do	TO	O
+1-4	do	1-2_xcomp	needed	VB	O
+1-5	my	O	O	PRP$	P1_shopper
+1-6	weekly	O	O	JJ	O
+1-7	grocery	O	O	NN	P1_groceries
+1-8	shopping	1-4_dobj	do	NN	O
+1-9	.	O	O	O	O
+
+#id=2
+#text=I prepared by first looking through my cupboards and the refrigerator and freezer to see what I already had and what I needed . 
+2-1	I	2-2_nsubj	prepared	PRP	P1_shopper
+2-2	prepared	O	O	VBD	O
+2-3	by	O	O	O	O
+2-4	first	2-5_advmod	looking	RB	O
+2-5	looking	2-2_prepc_by	prepared	VBG	O
+2-6	through	O	O	O	O
+2-7	my	O	O	PRP$	P1_shopper
+2-8	cupboards	2-5_prep_through	looking	NNS	P1_NPart_cupboards
+2-9	and	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	refrigerator	O	O	NN	P1_NPart_refrigerator
+2-12	and	O	O	O	O
+2-13	freezer	O	O	NN	P1_NPart_freezer
+2-14	to	2-15_aux	see	TO	O
+2-15	see	2-5_xcomp	looking	VB	O
+2-16	what	2-19_dobj	had	WP	O
+2-17	I	2-19_nsubj	had	PRP	P1_shopper
+2-18	already	2-19_advmod	had	RB	O
+2-19	had	2-15_dep	see	VBD	O
+2-20	and	O	O	O	O
+2-21	what	2-23_dobj	needed	WP	O
+2-22	I	2-23_nsubj	needed	PRP	P1_shopper
+2-23	needed	2-19_conj_and	had	VBD	O
+2-24	.	O	O	O	O
+
+#id=3
+#text=Then I made a list by category of everything I needed for the upcoming week . 
+3-1	Then	3-3_advmod	made	RB	O
+3-2	I	3-3_nsubj	made	PRP	P1_shopper
+3-3	made	O	O	VBD	O
+3-4	a	O	O	DT	O
+3-5	list	3-3_dobj	made	NN	P1_grocery_list
+3-6	by	O	O	O	O
+3-7	category	3-3_prep_by	made	NN	P1_NPart_category
+3-8	of	O	O	O	O
+3-9	everything	O	O	NN	P2_groceries
+3-10	I	3-11_nsubj	needed	PRP	P1_shopper
+3-11	needed	O	O	VBD	O
+3-12	for	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	upcoming	3-11_prep_for	needed	NN	O
+3-15	week	3-11_tmod	needed	NN	P1_NPart_week
+3-16	.	O	O	O	O
+
+#id=4
+#text=I drove to Shopper 's Food Warehouse , parked the car , found a cart near the front door and went in to begin my shopping . 
+4-1	I	4-2_nsubj	drove	PRP	P1_shopper
+4-2	drove	O	O	VBD	O
+4-3	to	O	O	O	O
+4-4	Shopper	O	O	NNP	O
+4-5	's	O	O	O	O
+4-6	Food	O	O	NNP	O
+4-7	Warehouse	4-2_prep_to	drove	NNP	P1_grocery_shop
+4-8	,	O	O	O	O
+4-9	parked	4-2_conj_and	drove	VBD	O
+4-10	the	O	O	DT	O
+4-11	car	4-9_dobj	parked	NN	P1_vehicle
+4-12	,	O	O	O	O
+4-13	found	4-2_conj_and	drove	VBD	O
+4-14	a	O	O	DT	O
+4-15	cart	4-13_dobj	found	NN	P1_shopping_cart/basket
+4-16	near	O	O	O	O
+4-17	the	O	O	DT	O
+4-18	front	O	O	JJ	O
+4-19	door	O	O	NN	P1_NPart_door
+4-20	and	O	O	O	O
+4-21	went	4-2_conj_and	drove	VBD	O
+4-22	in	4-21_prt	went	RP	O
+4-23	to	4-24_aux	begin	TO	O
+4-24	begin	4-21_xcomp	went	VB	O
+4-25	my	O	O	PRP$	P1_shopper
+4-26	shopping	4-24_dobj	begin	NN	O
+4-27	.	O	O	O	O
+
+#id=5
+#text=I started in the produce section and picked out everything I needed in the way of fruits and vegetables . 
+5-1	I	5-2_nsubj	started	PRP	P1_shopper
+5-2	started	O	O	VBD	O
+5-3	in	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	produce	O	O	NN	O
+5-6	section	5-2_prep_in	started	NN	P1_section
+5-7	and	O	O	O	O
+5-8	picked	5-2_conj_and	started	VBD	O
+5-9	out	5-8_prt	picked	RP	O
+5-10	everything	5-8_dobj	picked	NN	P3_groceries
+5-11	I	5-12_nsubj	needed	PRP	P1_shopper
+5-12	needed	O	O	VBD	O
+5-13	in	O	O	O	O
+5-14	the	O	O	DT	O
+5-15	way	5-8_prep_in	picked	NN	O
+5-16	of	O	O	O	O
+5-17	fruits	O	O	NNS	P4_groceries
+5-18	and	O	O	O	O
+5-19	vegetables	O	O	NNS	P5_groceries
+5-20	.	O	O	O	O
+
+#id=6
+#text=Then I shopped for meats , cheeses , canned goods , milk , eggs , juice , bread , cereal , paper products , and frozen items . 
+6-1	Then	6-3_advmod	shopped	RB	O
+6-2	I	6-3_nsubj	shopped	PRP	P1_shopper
+6-3	shopped	O	O	VBD	O
+6-4	for	O	O	O	O
+6-5	meats	6-3_prep_for	shopped	NNS	P6_groceries
+6-6	,	O	O	O	O
+6-7	cheeses	O	O	NNS	P7_groceries
+6-8	,	O	O	O	O
+6-9	canned	O	O	JJ	O
+6-10	goods	O	O	NNS	P8_groceries
+6-11	,	O	O	O	O
+6-12	milk	O	O	NN	P9_groceries
+6-13	,	O	O	O	O
+6-14	eggs	O	O	NNS	P10_groceries
+6-15	,	O	O	O	O
+6-16	juice	O	O	NN	P11_groceries
+6-17	,	O	O	O	O
+6-18	bread	O	O	NN	P12_groceries
+6-19	,	O	O	O	O
+6-20	cereal	O	O	NN	P13_groceries
+6-21	,	O	O	O	O
+6-22	paper	O	O	NN	O
+6-23	products	O	O	NNS	P14_groceries
+6-24	,	O	O	O	O
+6-25	and	O	O	O	O
+6-26	frozen	O	O	JJ	O
+6-27	items	O	O	NNS	P15_groceries
+6-28	.	O	O	O	O
+
+#id=7
+#text=I went through the check-out line with my purchases and paid with a credit card . 
+7-1	I	7-2_nsubj	went	PRP	P1_shopper
+7-2	went	O	O	VBD	O
+7-3	through	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	check-out	O	O	JJ	O
+7-6	line	7-2_prep_through	went	NN	P1_line
+7-7	with	O	O	O	O
+7-8	my	O	O	PRP$	P1_shopper
+7-9	purchases	7-2_prep_with	went	NNS	P2_groceries
+7-10	and	O	O	O	O
+7-11	paid	7-2_conj_and	went	VBD	O
+7-12	with	O	O	O	O
+7-13	a	O	O	DT	O
+7-14	credit	O	O	NN	O
+7-15	card	7-11_prep_with	paid	NN	P1_payment_means
+7-16	.	O	O	O	O
+
+#id=8
+#text=The cashier bagged all my items and put them back in the cart . 
+8-1	The	O	O	DT	O
+8-2	cashier	8-3_nsubj	bagged	NN	P1_grocery_staff
+8-3	bagged	O	O	VBD	O
+8-4	all	O	O	PDT	O
+8-5	my	O	O	PRP$	P1_shopper
+8-6	items	8-3_dobj	bagged	NNS	P2_groceries
+8-7	and	O	O	O	O
+8-8	put	8-3_conj_and	bagged	VBD	O
+8-9	them	8-8_dobj	put	PRP	P2_groceries
+8-10	back	8-8_prt	put	RP	O
+8-11	in	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	cart	8-8_prep_in	put	NN	P1_shopping_cart/basket
+8-14	.	O	O	O	O
+
+#id=9
+#text=I rolled the cart close to my car and unloaded the bags into the trunk of my car , then went home and put everything away . 
+9-1	I	9-2_nsubj	rolled	PRP	P1_shopper
+9-2	rolled	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	cart	O	O	NN	P1_shopping_cart/basket
+9-5	close	9-2_dobj	rolled	NN	O
+9-6	to	O	O	O	O
+9-7	my	O	O	PRP$	P1_shopper
+9-8	car	9-2_prep_to	rolled	NN	P1_vehicle
+9-9	and	O	O	O	O
+9-10	unloaded	9-2_conj_and	rolled	JJ	O
+9-11	the	O	O	DT	O
+9-12	bags	O	O	NNS	P1_shopping_bags
+9-13	into	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	trunk	O	O	NN	P1_NPart_trunk
+9-16	of	O	O	O	O
+9-17	my	O	O	PRP$	P1_shopper
+9-18	car	O	O	NN	P1_vehicle
+9-19	,	O	O	O	O
+9-20	then	9-21_advmod	went	RB	O
+9-21	went	9-2_dep	rolled	VBD	O
+9-22	home	O	O	NN	P1_NPart_home
+9-23	and	O	O	O	O
+9-24	put	O	O	NN	O
+9-25	everything	9-21_dobj	went	NN	P2_groceries
+9-26	away	9-21_prt	went	RP	O
+9-27	.	O	O	O	O

@@ -1,0 +1,217 @@
+#id=1
+#text=I wanted to go to San Francisco from my home in San Jose and I did n't feel like driving . 
+1-1	I	1-2_nsubj	wanted	PRP	P1_passenger
+1-2	wanted	O	O	VBD	O
+1-3	to	1-4_aux	go	TO	O
+1-4	go	1-2_xcomp	wanted	VB	O
+1-5	to	O	O	O	O
+1-6	San	O	O	NNP	O
+1-7	Francisco	1-4_prep_to	go	NNP	P1_destination
+1-8	from	O	O	O	O
+1-9	my	O	O	PRP$	P2_passenger
+1-10	home	1-4_prep_from	go	NN	P1_NPart_home
+1-11	in	O	O	O	O
+1-12	San	O	O	NNP	O
+1-13	Jose	O	O	NNP	P1_NPart_jose
+1-14	and	O	O	O	O
+1-15	I	1-18_nsubj	feel	PRP	P1_passenger
+1-16	did	1-18_aux	feel	VBD	O
+1-17	n't	1-18_neg	feel	RB	O
+1-18	feel	1-2_conj_and	wanted	VB	O
+1-19	like	O	O	O	O
+1-20	driving	1-18_prep_like	feel	VBG	O
+1-21	.	O	O	O	O
+
+#id=2
+#text=I looked online and found a bus route from here to there that was leaving in just about 30 minutes . 
+2-1	I	2-2_nsubj	looked	PRP	P1_passenger
+2-2	looked	O	O	VBD	O
+2-3	online	2-2_prep	looked	NN	O
+2-4	and	O	O	O	O
+2-5	found	2-2_conj_and	looked	VBD	O
+2-6	a	O	O	DT	O
+2-7	bus	O	O	NN	O
+2-8	route	2-5_dobj	found	NN	P1_route
+2-9	from	2-5_prep	found	IN	O
+2-10	here	O	O	RB	O
+2-11	to	2-5_prep	found	TO	O
+2-12	there	O	O	RB	O
+2-13	that	2-15_nsubj	leaving	WDT	O
+2-14	was	2-15_aux	leaving	VBD	O
+2-15	leaving	O	O	VBG	O
+2-16	in	O	O	O	O
+2-17	just	O	O	RB	O
+2-18	about	O	O	RB	O
+2-19	30	O	O	CD	O
+2-20	minutes	2-15_prep_in	leaving	NNS	P1_time/date
+2-21	.	O	O	O	O
+
+#id=3
+#text=I walked out of my house to the bus stop and got on it . 
+3-1	I	3-2_nsubj	walked	PRP	P1_passenger
+3-2	walked	O	O	VBD	O
+3-3	out	O	O	O	O
+3-4	of	O	O	O	O
+3-5	my	O	O	PRP$	P3_passenger
+3-6	house	3-2_prep_out_of	walked	NN	P1_NPart_house
+3-7	to	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	bus	O	O	NN	O
+3-10	stop	3-2_prep_to	walked	NN	P1_bus_stop
+3-11	and	O	O	O	O
+3-12	got	3-2_conj_and	walked	VBD	O
+3-13	on	O	O	O	O
+3-14	it	3-12_prep_on	got	PRP	P1_bus
+3-15	.	O	O	O	O
+
+#id=4
+#text=It was a very empty bus and I stared out of the window at the scenery . 
+4-1	It	O	O	PRP	P1_bus
+4-2	was	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	very	O	O	RB	O
+4-5	empty	O	O	JJ	O
+4-6	bus	O	O	NN	P1_bus
+4-7	and	O	O	O	O
+4-8	I	4-9_nsubj	stared	PRP	P1_passenger
+4-9	stared	O	O	VBD	O
+4-10	out	O	O	O	O
+4-11	of	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	window	4-9_prep_out_of	stared	NN	P1_other
+4-14	at	O	O	O	O
+4-15	the	O	O	DT	O
+4-16	scenery	4-9_prep_at	stared	NN	P1_NPart_scenery
+4-17	.	O	O	O	O
+
+#id=5
+#text=The bus driver was very nice and asked me how my day was . 
+5-1	The	O	O	DT	O
+5-2	bus	O	O	NN	O
+5-3	driver	O	O	NN	P1_bus_staff
+5-4	was	O	O	VBD	O
+5-5	very	O	O	RB	O
+5-6	nice	O	O	JJ	O
+5-7	and	O	O	O	O
+5-8	asked	O	O	VBD	O
+5-9	me	5-8_dobj	asked	PRP	P1_passenger
+5-10	how	5-13_advmod	was	WRB	O
+5-11	my	O	O	PRP$	P1_passenger
+5-12	day	5-13_nsubj	was	NN	P1_NPart_day
+5-13	was	5-8_dep	asked	VBD	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=We spoke for the whole entire ride and after a short time , we arrived into San Francisco . 
+6-1	We	6-2_nsubj	spoke	PRP	P2_other
+6-2	spoke	O	O	VBD	O
+6-3	for	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	whole	O	O	JJ	O
+6-6	entire	O	O	JJ	O
+6-7	ride	6-2_prep_for	spoke	NN	P1_ride
+6-8	and	O	O	O	O
+6-9	after	O	O	O	O
+6-10	a	O	O	DT	O
+6-11	short	O	O	JJ	O
+6-12	time	6-15_prep_after	arrived	NN	P2_time/date
+6-13	,	O	O	O	O
+6-14	we	6-15_nsubj	arrived	PRP	P1_bus
+6-15	arrived	6-2_conj_and	spoke	VBD	O
+6-16	into	O	O	O	O
+6-17	San	O	O	NNP	O
+6-18	Francisco	6-15_prep_into	arrived	NNP	P1_destination
+6-19	.	O	O	O	O
+
+#id=7
+#text=It was very pleasant not having to drive and it was a very smooth ride on the bus . 
+7-1	It	O	O	PRP	O
+7-2	was	O	O	VBD	O
+7-3	very	O	O	RB	O
+7-4	pleasant	O	O	JJ	O
+7-5	not	O	O	RB	O
+7-6	having	O	O	VBG	O
+7-7	to	7-8_aux	drive	TO	O
+7-8	drive	7-6_xcomp	having	VB	O
+7-9	and	O	O	O	O
+7-10	it	O	O	PRP	O
+7-11	was	O	O	VBD	O
+7-12	a	O	O	DT	O
+7-13	very	O	O	RB	O
+7-14	smooth	O	O	JJ	O
+7-15	ride	O	O	NN	P1_ride
+7-16	on	O	O	O	O
+7-17	the	O	O	DT	O
+7-18	bus	O	O	NN	P1_bus
+7-19	.	O	O	O	O
+
+#id=8
+#text=Luckily , there was n't much traffic so we got there in a very short time frame . 
+8-1	Luckily	8-4_advmod	was	RB	O
+8-2	,	O	O	O	O
+8-3	there	8-4_expl	was	EX	O
+8-4	was	O	O	VBD	O
+8-5	n't	8-4_neg	was	RB	O
+8-6	much	O	O	JJ	O
+8-7	traffic	8-4_nsubj	was	NN	P1_NPart_traffic
+8-8	so	8-10_mark	got	IN	O
+8-9	we	8-10_nsubj	got	PRP	P1_bus
+8-10	got	8-4_advcl	was	VBD	O
+8-11	there	8-10_advmod	got	RB	P1_destination
+8-12	in	O	O	O	O
+8-13	a	O	O	DT	O
+8-14	very	O	O	RB	O
+8-15	short	O	O	JJ	O
+8-16	time	O	O	NN	O
+8-17	frame	8-10_prep_in	got	NN	P3_time/date
+8-18	.	O	O	O	O
+
+#id=9
+#text=After getting to the bus stop , the driver opened his doors for me and wished me a great day . 
+9-1	After	O	O	O	O
+9-2	getting	9-10_prepc_after	opened	VBG	O
+9-3	to	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	bus	O	O	NN	O
+9-6	stop	9-2_prep_to	getting	NN	P2_bus_stop
+9-7	,	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	driver	9-10_nsubj	opened	NN	P1_bus_staff
+9-10	opened	O	O	VBD	O
+9-11	his	O	O	PRP$	P1_bus_staff
+9-12	doors	9-10_dobj	opened	NNS	P1_door
+9-13	for	O	O	O	O
+9-14	me	9-10_prep_for	opened	PRP	P1_passenger
+9-15	and	O	O	O	O
+9-16	wished	9-10_conj_and	opened	VBD	O
+9-17	me	9-16_dobj	wished	PRP	P1_passenger
+9-18	a	O	O	DT	O
+9-19	great	O	O	JJ	O
+9-20	day	9-16_tmod	wished	NN	P2_NPart_day
+9-21	.	O	O	O	O
+
+#id=10
+#text=I did the same and stepped off of the bus . 
+10-1	I	10-2_nsubj	did	PRP	P1_passenger
+10-2	did	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	same	10-2_dobj	did	JJ	P1_NPart_same
+10-5	and	O	O	O	O
+10-6	stepped	10-2_conj_and	did	VBD	O
+10-7	off	O	O	O	O
+10-8	of	O	O	O	O
+10-9	the	O	O	DT	O
+10-10	bus	10-6_prep_off_of	stepped	NN	P2_bus
+10-11	.	O	O	O	O
+
+#id=11
+#text=it was a very easy and fun experience . 
+11-1	it	O	O	PRP	O
+11-2	was	O	O	VBD	O
+11-3	a	O	O	DT	O
+11-4	very	O	O	RB	O
+11-5	easy	O	O	JJ	O
+11-6	and	O	O	O	O
+11-7	fun	O	O	JJ	O
+11-8	experience	O	O	NN	P1_NPart_experience
+11-9	.	O	O	O	O

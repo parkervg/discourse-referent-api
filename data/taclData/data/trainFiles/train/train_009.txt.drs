@@ -1,0 +1,260 @@
+#id=1
+#text=Last summer , I got to visit my grandma in Seattle ! 
+1-1	Last	O	O	JJ	O
+1-2	summer	1-5_tmod	got	NN	P1_time_date
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	got	PRP	P1_passenger
+1-5	got	O	O	VBD	O
+1-6	to	1-7_aux	visit	TO	O
+1-7	visit	1-5_xcomp	got	VB	O
+1-8	my	O	O	PRP$	P1_passenger
+1-9	grandma	1-7_dobj	visit	NN	P1_NPart_grandma
+1-10	in	O	O	O	O
+1-11	Seattle	1-7_prep_in	visit	NNP	P1_destination
+1-12	!	O	O	O	O
+
+#id=2
+#text=I took a train to visit her . 
+2-1	I	2-2_nsubj	took	PRP	P1_passenger
+2-2	took	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	train	2-2_dobj	took	NN	P1_train
+2-5	to	2-6_aux	visit	TO	O
+2-6	visit	O	O	VB	O
+2-7	her	2-6_dobj	visit	PRP	P1_NPart_her
+2-8	.	O	O	O	O
+
+#id=3
+#text=In advance , I called the train station to see when the trains would be going to Seattle and how much the tickets would cost . 
+3-1	In	O	O	O	O
+3-2	advance	3-5_prep_in	called	NN	O
+3-3	,	O	O	O	O
+3-4	I	3-5_nsubj	called	PRP	P1_passenger
+3-5	called	O	O	VBD	O
+3-6	the	O	O	DT	O
+3-7	train	O	O	NN	O
+3-8	station	3-5_dobj	called	NN	P1_train_station
+3-9	to	3-10_aux	see	TO	O
+3-10	see	3-5_vmod	called	VB	O
+3-11	when	3-16_advmod	going	WRB	O
+3-12	the	O	O	DT	O
+3-13	trains	3-16_nsubj	going	NNS	P2_train
+3-14	would	3-16_aux	going	MD	O
+3-15	be	3-16_aux	going	VB	O
+3-16	going	3-10_advcl	see	VBG	O
+3-17	to	O	O	O	O
+3-18	Seattle	3-16_prep_to	going	NNP	P1_destination
+3-19	and	O	O	O	O
+3-20	how	O	O	WRB	O
+3-21	much	3-25_dep	cost	JJ	O
+3-22	the	O	O	DT	O
+3-23	tickets	3-25_nsubj	cost	NNS	P1_card/ticket
+3-24	would	3-25_aux	cost	MD	O
+3-25	cost	3-16_conj_and	going	VB	O
+3-26	.	O	O	O	O
+
+#id=4
+#text=I chose a day and arrived at the train station 1 hour before my train was scheduled to leave . 
+4-1	I	4-2_nsubj	chose	PRP	P1_passenger
+4-2	chose	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	day	4-2_tmod	chose	NN	P2_time_date
+4-5	and	O	O	O	O
+4-6	arrived	4-2_conj_and	chose	VBD	O
+4-7	at	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	train	O	O	NN	O
+4-10	station	4-6_prep_at	arrived	NN	P1_train_station
+4-11	1	O	O	CD	O
+4-12	hour	O	O	NN	P3_time_date
+4-13	before	4-17_mark	scheduled	IN	O
+4-14	my	O	O	PRP$	P1_passenger
+4-15	train	4-17_nsubjpass	scheduled	NN	P1_train
+4-16	was	4-17_auxpass	scheduled	VBD	O
+4-17	scheduled	4-6_advcl	arrived	VBN	O
+4-18	to	4-19_aux	leave	TO	O
+4-19	leave	4-17_xcomp	scheduled	VB	O
+4-20	.	O	O	O	O
+
+#id=5
+#text=There was a ticket counter in the station . 
+5-1	There	5-2_expl	was	EX	O
+5-2	was	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	ticket	O	O	NN	O
+5-5	counter	5-2_advmod	was	RB	P1_ticket_office/website
+5-6	in	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	station	5-2_prep_in	was	NN	P1_train_station
+5-9	.	O	O	O	O
+
+#id=6
+#text=I walked up the counter and bought my ticket from a lady behind the counter . 
+6-1	I	6-2_nsubj	walked	PRP	P1_passenger
+6-2	walked	O	O	VBD	O
+6-3	up	6-2_prt	walked	RP	O
+6-4	the	O	O	DT	O
+6-5	counter	6-2_dobj	walked	NN	P1_ticket_office/website
+6-6	and	O	O	O	O
+6-7	bought	6-2_conj_and	walked	VBD	O
+6-8	my	O	O	PRP$	P1_passenger
+6-9	ticket	6-7_dobj	bought	NN	P2_card/ticket
+6-10	from	O	O	O	O
+6-11	a	O	O	DT	O
+6-12	lady	6-7_prep_from	bought	NN	P1_NPart_lady
+6-13	behind	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	counter	O	O	NN	P1_ticket_office/website
+6-16	.	O	O	O	O
+
+#id=7
+#text=After I got my ticket , I needed to wait for the train to board passengers . 
+7-1	After	7-3_mark	got	IN	O
+7-2	I	7-3_nsubj	got	PRP	P1_passenger
+7-3	got	7-8_advcl	needed	VBD	O
+7-4	my	O	O	PRP$	P1_passenger
+7-5	ticket	7-3_dobj	got	NN	P2_card/ticket
+7-6	,	O	O	O	O
+7-7	I	7-8_nsubj	needed	PRP	P1_passenger
+7-8	needed	O	O	VBD	O
+7-9	to	7-10_aux	wait	TO	O
+7-10	wait	7-8_xcomp	needed	VB	O
+7-11	for	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	train	7-10_prep_for	wait	NN	P1_train
+7-14	to	O	O	O	O
+7-15	board	O	O	NN	O
+7-16	passengers	7-10_prep_to	wait	NNS	P2_passenger
+7-17	.	O	O	O	O
+
+#id=8
+#text=I sat on a big wooden bench inside the train station . 
+8-1	I	8-2_nsubj	sat	PRP	P1_passenger
+8-2	sat	O	O	VBD	O
+8-3	on	O	O	O	O
+8-4	a	O	O	DT	O
+8-5	big	O	O	JJ	O
+8-6	wooden	O	O	JJ	O
+8-7	bench	8-2_prep_on	sat	NN	P1_NPart_bench
+8-8	inside	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	train	O	O	NN	O
+8-11	station	O	O	NN	P1_train_station
+8-12	.	O	O	O	O
+
+#id=9
+#text=When it was time to get on the train , the doors opened and a ticketperson took each of our tickets as we got on the train . 
+9-1	When	O	O	WRB	O
+9-2	it	O	O	PRP	O
+9-3	was	O	O	VBD	O
+9-4	time	9-13_advcl	opened	NN	P4_time_date
+9-5	to	9-6_aux	get	TO	O
+9-6	get	O	O	VB	O
+9-7	on	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	train	9-6_prep_on	get	NN	P1_train
+9-10	,	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	doors	9-13_nsubj	opened	NNS	P1_door
+9-13	opened	O	O	VBD	O
+9-14	and	O	O	O	O
+9-15	a	O	O	DT	O
+9-16	ticketperson	9-17_nsubj	took	NN	P1_train_staff
+9-17	took	9-13_conj_and	opened	VBD	O
+9-18	each	9-17_dobj	took	DT	P1_card/ticket
+9-19	of	O	O	O	O
+9-20	our	O	O	PRP$	P2_passenger
+9-21	tickets	O	O	NNS	P1_card/ticket
+9-22	as	9-24_mark	got	IN	O
+9-23	we	9-24_nsubj	got	PRP	P2_passenger
+9-24	got	9-17_advcl	took	VBD	O
+9-25	on	O	O	O	O
+9-26	the	O	O	DT	O
+9-27	train	9-24_prep_on	got	NN	P1_train
+9-28	.	O	O	O	O
+
+#id=10
+#text=We got to choose our seats . 
+10-1	We	10-2_nsubj	got	PRP	P2_passenger
+10-2	got	O	O	VBD	O
+10-3	to	10-4_aux	choose	TO	O
+10-4	choose	10-2_xcomp	got	VB	O
+10-5	our	O	O	PRP$	P2_passenger
+10-6	seats	10-4_dobj	choose	NNS	P1_seat
+10-7	.	O	O	O	O
+
+#id=11
+#text=I choose a window seat and put my bags in the compartment nearby . 
+11-1	I	11-2_nsubj	choose	PRP	P1_passenger
+11-2	choose	O	O	VBP	O
+11-3	a	O	O	DT	O
+11-4	window	O	O	NN	O
+11-5	seat	11-2_dobj	choose	NN	P2_seat
+11-6	and	O	O	O	O
+11-7	put	11-2_conj_and	choose	VBD	O
+11-8	my	O	O	PRP$	P1_passenger
+11-9	bags	11-7_dobj	put	NNS	P1_luggage
+11-10	in	O	O	O	O
+11-11	the	O	O	DT	O
+11-12	compartment	11-7_prep_in	put	NN	P1_NPart_compartment
+11-13	nearby	11-7_advmod	put	RB	O
+11-14	.	O	O	O	O
+
+#id=12
+#text=Partway through the ride , a train employee came by with snacks and drinks . 
+12-1	Partway	12-9_advmod	came	RB	O
+12-2	through	O	O	O	O
+12-3	the	O	O	DT	O
+12-4	ride	12-9_prep_through	came	NN	P1_trip
+12-5	,	O	O	O	O
+12-6	a	O	O	DT	O
+12-7	train	O	O	NN	O
+12-8	employee	12-9_nsubj	came	NN	P2_train_staff
+12-9	came	O	O	VBD	O
+12-10	by	12-9_prep	came	IN	O
+12-11	with	O	O	IN	O
+12-12	snacks	O	O	NNS	P1_in-train_entertainment
+12-13	and	O	O	O	O
+12-14	drinks	O	O	NNS	P2_in-train_entertainment
+12-15	.	O	O	O	O
+
+#id=13
+#text=I looked out the window and read a book . 
+13-1	I	13-2_nsubj	looked	PRP	P1_passenger
+13-2	looked	O	O	VBD	O
+13-3	out	13-2_prt	looked	RP	O
+13-4	the	O	O	DT	O
+13-5	window	13-2_dobj	looked	NN	P3_in-train_entertainment
+13-6	and	O	O	O	O
+13-7	read	13-2_conj_and	looked	VBD	O
+13-8	a	O	O	DT	O
+13-9	book	13-7_dobj	read	NN	P4_in-train_entertainment
+13-10	.	O	O	O	O
+
+#id=14
+#text=When we arrived in Seattle , I grabbed my bags from the baggage compartment , exited the train , and hugged my waiting grandma ! 
+14-1	When	14-3_advmod	arrived	WRB	O
+14-2	we	14-3_nsubj	arrived	PRP	P2_passenger
+14-3	arrived	14-8_advcl	grabbed	VBD	O
+14-4	in	O	O	O	O
+14-5	Seattle	14-3_prep_in	arrived	NNP	P1_destination
+14-6	,	O	O	O	O
+14-7	I	14-8_nsubj	grabbed	PRP	P1_passenger
+14-8	grabbed	O	O	VBD	O
+14-9	my	O	O	PRP$	P1_passenger
+14-10	bags	14-8_dobj	grabbed	NNS	P1_luggage
+14-11	from	O	O	O	O
+14-12	the	O	O	DT	O
+14-13	baggage	O	O	NN	O
+14-14	compartment	14-8_prep_from	grabbed	NN	P1_NPart_compartment
+14-15	,	O	O	O	O
+14-16	exited	14-8_conj_and	grabbed	VBD	O
+14-17	the	O	O	DT	O
+14-18	train	14-16_dobj	exited	NN	P1_train
+14-19	,	O	O	O	O
+14-20	and	O	O	O	O
+14-21	hugged	14-8_conj_and	grabbed	VBD	O
+14-22	my	O	O	PRP$	P1_passenger
+14-23	waiting	O	O	VBG	O
+14-24	grandma	14-21_dobj	hugged	NN	P1_NPart_her
+14-25	!	O	O	O	O

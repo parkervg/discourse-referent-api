@@ -1,0 +1,206 @@
+#id=1
+#text=I made sure I had my ticket in advance and checked to make sure my flight was not canceled . 
+1-1	I	1-2_nsubj	made	PRP	P1_passenger
+1-2	made	O	O	VBD	O
+1-3	sure	1-2_acomp	made	JJ	O
+1-4	I	1-5_nsubj	had	PRP	P1_passenger
+1-5	had	O	O	VBD	O
+1-6	my	O	O	PRP$	P1_passenger
+1-7	ticket	1-5_dobj	had	NN	P1_ticket
+1-8	in	O	O	O	O
+1-9	advance	O	O	NN	O
+1-10	and	O	O	O	O
+1-11	checked	1-5_conj_and	had	VBD	O
+1-12	to	1-13_aux	make	TO	O
+1-13	make	1-11_xcomp	checked	VB	O
+1-14	sure	1-13_acomp	make	JJ	O
+1-15	my	O	O	PRP$	P1_passenger
+1-16	flight	1-19_nsubjpass	canceled	NN	P1_flight
+1-17	was	1-19_auxpass	canceled	VBD	O
+1-18	not	1-19_neg	canceled	RB	O
+1-19	canceled	O	O	VBN	O
+1-20	.	O	O	O	O
+
+#id=2
+#text=I had pre-packed what I needed and doubled checked the list to make sure that all my items were approved . 
+2-1	I	2-3_nsubj	pre-packed	PRP	P1_passenger
+2-2	had	2-3_aux	pre-packed	VBD	O
+2-3	pre-packed	O	O	VBN	O
+2-4	what	2-6_dobj	needed	WP	O
+2-5	I	2-6_nsubj	needed	PRP	P1_passenger
+2-6	needed	2-3_ccomp	pre-packed	VBD	O
+2-7	and	O	O	O	O
+2-8	doubled	2-6_conj_and	needed	VBD	O
+2-9	checked	2-8_dep	doubled	VBN	O
+2-10	the	O	O	DT	O
+2-11	list	2-9_dobj	checked	NN	P1_NPart_list
+2-12	to	2-13_aux	make	TO	O
+2-13	make	O	O	VB	O
+2-14	sure	2-13_acomp	make	JJ	O
+2-15	that	2-20_mark	approved	IN	O
+2-16	all	O	O	PDT	O
+2-17	my	O	O	PRP$	P1_passenger
+2-18	items	2-20_nsubjpass	approved	NNS	P1_personal_belongings
+2-19	were	2-20_auxpass	approved	VBD	O
+2-20	approved	2-13_ccomp	make	VBN	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=Then , I arrived at the airport about one and a half hours early . 
+3-1	Then	3-4_advmod	arrived	RB	O
+3-2	,	O	O	O	O
+3-3	I	3-4_nsubj	arrived	PRP	P1_passenger
+3-4	arrived	O	O	VBD	O
+3-5	at	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	airport	3-4_prep_at	arrived	NN	P1_airport
+3-8	about	O	O	O	O
+3-9	one	O	O	CD	O
+3-10	and	O	O	O	O
+3-11	a	O	O	DT	O
+3-12	half	O	O	NN	O
+3-13	hours	3-4_prep_about	arrived	NNS	P1_time/date
+3-14	early	3-4_advmod	arrived	RB	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=I made sure to go through security first , since there were long lines for that . 
+4-1	I	4-2_nsubj	made	PRP	P1_passenger
+4-2	made	O	O	VBD	O
+4-3	sure	4-2_acomp	made	JJ	O
+4-4	to	4-5_aux	go	TO	O
+4-5	go	O	O	VB	O
+4-6	through	4-5_prt	go	RP	O
+4-7	security	4-5_dobj	go	NN	P1_security_check
+4-8	first	4-5_advmod	go	RB	O
+4-9	,	O	O	O	O
+4-10	since	4-12_mark	were	IN	O
+4-11	there	4-12_expl	were	EX	O
+4-12	were	4-5_advcl	go	VBD	O
+4-13	long	O	O	JJ	O
+4-14	lines	4-12_nsubj	were	NNS	P1_line
+4-15	for	O	O	O	O
+4-16	that	O	O	DT	P1_security_check
+4-17	.	O	O	O	O
+
+#id=5
+#text=I had to take off my shoes and put my bags through an x-ray . 
+5-1	I	5-2_nsubj	had	PRP	P1_passenger
+5-2	had	O	O	VBD	O
+5-3	to	5-4_aux	take	TO	O
+5-4	take	5-2_xcomp	had	VB	O
+5-5	off	5-4_prt	take	RP	O
+5-6	my	O	O	PRP$	P1_passenger
+5-7	shoes	5-4_dobj	take	NNS	P1_NPart_shoes
+5-8	and	O	O	O	O
+5-9	put	5-4_conj_and	take	VB	O
+5-10	my	O	O	PRP$	P1_passenger
+5-11	bags	5-9_dobj	put	NNS	P1_carry_on_luggage
+5-12	through	O	O	O	O
+5-13	an	O	O	DT	O
+5-14	x-ray	5-9_prep_through	put	NN	P1_NPart_x-ray
+5-15	.	O	O	O	O
+
+#id=6
+#text=After I was done , I put my luggage in the correct area so it could be loaded on the plane . 
+6-1	After	6-4_mark	done	IN	O
+6-2	I	6-4_nsubjpass	done	PRP	P1_passenger
+6-3	was	6-4_auxpass	done	VBD	O
+6-4	done	6-7_advcl	put	VBN	O
+6-5	,	O	O	O	O
+6-6	I	6-7_nsubj	put	PRP	P1_passenger
+6-7	put	O	O	VBD	O
+6-8	my	O	O	PRP$	P1_passenger
+6-9	luggage	6-7_dobj	put	NN	P1_check_in_luggage
+6-10	in	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	correct	O	O	JJ	O
+6-13	area	6-7_prep_in	put	NN	P1_NPart_area
+6-14	so	6-18_mark	loaded	IN	O
+6-15	it	6-18_nsubjpass	loaded	PRP	P1_check_in_luggage
+6-16	could	6-18_aux	loaded	MD	O
+6-17	be	6-18_auxpass	loaded	VB	O
+6-18	loaded	6-7_advcl	put	VBN	O
+6-19	on	O	O	O	O
+6-20	the	O	O	DT	O
+6-21	plane	6-18_prep_on	loaded	NN	P1_plane
+6-22	.	O	O	O	O
+
+#id=7
+#text=I waited until my plane was ready to board and showed the flight attendant my boarding pass . 
+7-1	I	7-2_nsubj	waited	PRP	P1_passenger
+7-2	waited	O	O	VBD	O
+7-3	until	O	O	IN	O
+7-4	my	O	O	PRP$	P1_passenger
+7-5	plane	O	O	NN	P1_plane
+7-6	was	O	O	VBD	O
+7-7	ready	7-2_advcl	waited	JJ	O
+7-8	to	O	O	O	O
+7-9	board	O	O	NN	O
+7-10	and	O	O	O	O
+7-11	showed	7-2_conj_and	waited	VBD	O
+7-12	the	O	O	DT	O
+7-13	flight	O	O	NN	O
+7-14	attendant	7-11_iobj	showed	NN	P1_staff
+7-15	my	O	O	PRP$	P1_passenger
+7-16	boarding	O	O	JJ	O
+7-17	pass	7-11_dobj	showed	NN	P1_boarding_pass
+7-18	.	O	O	O	O
+
+#id=8
+#text=I stayed quietly on the plane and made sure I was in my assigned seat . 
+8-1	I	8-2_nsubj	stayed	PRP	P1_passenger
+8-2	stayed	O	O	VBD	O
+8-3	quietly	8-2_advmod	stayed	RB	O
+8-4	on	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	plane	8-2_prep_on	stayed	NN	P1_plane
+8-7	and	O	O	O	O
+8-8	made	8-2_conj_and	stayed	VBD	O
+8-9	sure	8-8_acomp	made	JJ	O
+8-10	I	8-11_nsubj	was	PRP	P1_passenger
+8-11	was	O	O	VBD	O
+8-12	in	O	O	O	O
+8-13	my	O	O	PRP$	P1_passenger
+8-14	assigned	O	O	VBN	O
+8-15	seat	8-11_prep_in	was	NN	P1_seat
+8-16	.	O	O	O	O
+
+#id=9
+#text=It can be crowded and boring , so I read my book on the flight . 
+9-1	It	O	O	PRP	O
+9-2	can	O	O	MD	O
+9-3	be	O	O	VB	O
+9-4	crowded	O	O	JJ	O
+9-5	and	O	O	O	O
+9-6	boring	O	O	JJ	O
+9-7	,	O	O	O	O
+9-8	so	O	O	IN	O
+9-9	I	9-10_nsubj	read	PRP	P1_passenger
+9-10	read	O	O	VBD	O
+9-11	my	O	O	PRP$	P1_passenger
+9-12	book	9-10_dobj	read	NN	P1_in-flight_entertainment
+9-13	on	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	flight	9-10_prep_on	read	NN	P1_flight
+9-16	.	O	O	O	O
+
+#id=10
+#text=I made sure to listen to the flight attendants when they had an announcement to make . 
+10-1	I	10-2_nsubj	made	PRP	P1_passenger
+10-2	made	O	O	VBD	O
+10-3	sure	10-2_acomp	made	JJ	O
+10-4	to	10-5_aux	listen	TO	O
+10-5	listen	O	O	VB	O
+10-6	to	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	flight	O	O	NN	O
+10-9	attendants	10-5_prep_to	listen	NNS	P2_staff
+10-10	when	10-12_advmod	had	WRB	O
+10-11	they	10-12_nsubj	had	PRP	P2_staff
+10-12	had	10-2_advcl	made	VBD	O
+10-13	an	O	O	DT	O
+10-14	announcement	10-12_dobj	had	NN	P1_safety_instructions
+10-15	to	10-16_aux	make	TO	O
+10-16	make	O	O	VB	O
+10-17	.	O	O	O	O

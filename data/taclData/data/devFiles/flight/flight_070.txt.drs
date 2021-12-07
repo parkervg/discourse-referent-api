@@ -1,0 +1,539 @@
+#id=1
+#text=I was planning a relaxing vacation at the beach . 
+1-1	I	1-3_nsubj	planning	PRP	P1_passenger
+1-2	was	1-3_aux	planning	VBD	O
+1-3	planning	O	O	VBG	O
+1-4	a	O	O	DT	O
+1-5	relaxing	O	O	JJ	O
+1-6	vacation	1-3_dobj	planning	NN	P1_NPart_vacation
+1-7	at	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	beach	O	O	NN	P1_NPart_beach
+1-10	.	O	O	O	O
+
+#id=2
+#text=There was only one problem : I did n't live anywhere near a beach ! 
+2-1	There	2-2_expl	was	EX	O
+2-2	was	O	O	VBD	O
+2-3	only	O	O	RB	O
+2-4	one	O	O	CD	O
+2-5	problem	2-2_nsubj	was	NN	P1_NPart_problem
+2-6	:	O	O	O	O
+2-7	I	2-10_nsubj	live	PRP	P1_passenger
+2-8	did	2-10_aux	live	VBD	O
+2-9	n't	2-10_neg	live	RB	O
+2-10	live	2-2_parataxis	was	VB	O
+2-11	anywhere	2-10_advmod	live	RB	O
+2-12	near	O	O	O	O
+2-13	a	O	O	DT	O
+2-14	beach	2-10_prep_near	live	NN	P2_NPart_beach
+2-15	!	O	O	O	O
+
+#id=3
+#text=Driving to one in a car would take up too much of my fun vacation time . 
+3-1	Driving	3-8_csubj	take	VBG	O
+3-2	to	O	O	O	O
+3-3	one	3-1_prep_to	Driving	CD	O
+3-4	in	O	O	O	O
+3-5	a	O	O	DT	O
+3-6	car	3-1_prep_in	Driving	NN	P1_NPart_car
+3-7	would	3-8_aux	take	MD	O
+3-8	take	O	O	VB	O
+3-9	up	3-8_prt	take	RP	O
+3-10	too	O	O	RB	O
+3-11	much	3-8_dobj	take	RB	O
+3-12	of	O	O	O	O
+3-13	my	O	O	PRP$	P1_passenger
+3-14	fun	O	O	NN	O
+3-15	vacation	O	O	NN	O
+3-16	time	O	O	NN	P1_NPart_time
+3-17	.	O	O	O	O
+
+#id=4
+#text=I had to buy tickets for an airplane ride , which would take much less time because airplanes go very fast . 
+4-1	I	4-2_nsubj	had	PRP	P1_passenger
+4-2	had	O	O	VBD	O
+4-3	to	4-4_aux	buy	TO	O
+4-4	buy	4-2_xcomp	had	VB	O
+4-5	tickets	4-4_dobj	buy	NNS	P1_ticket
+4-6	for	O	O	O	O
+4-7	an	O	O	DT	O
+4-8	airplane	O	O	NN	O
+4-9	ride	4-4_prep_for	buy	NN	P1_flight
+4-10	,	O	O	O	O
+4-11	which	4-13_nsubj	take	WDT	O
+4-12	would	4-13_aux	take	MD	O
+4-13	take	O	O	VB	O
+4-14	much	O	O	RB	O
+4-15	less	O	O	JJR	O
+4-16	time	4-13_dobj	take	NN	O
+4-17	because	4-19_mark	go	IN	O
+4-18	airplanes	4-19_nsubj	go	NNS	P1_plane
+4-19	go	4-13_advcl	take	VBP	O
+4-20	very	O	O	RB	O
+4-21	fast	4-19_acomp	go	JJ	O
+4-22	.	O	O	O	O
+
+#id=5
+#text=I went to the website of my local airport and found the available planes traveling to the city where I wanted to go at the time I was going on vacation and bought a ticket . 
+5-1	I	5-2_nsubj	went	PRP	P1_passenger
+5-2	went	O	O	VBD	O
+5-3	to	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	website	5-2_prep_to	went	NN	P1_other
+5-6	of	O	O	O	O
+5-7	my	O	O	PRP$	P1_passenger
+5-8	local	O	O	JJ	O
+5-9	airport	O	O	NN	P1_airport
+5-10	and	O	O	O	O
+5-11	found	5-2_conj_and	went	VBD	O
+5-12	the	O	O	DT	O
+5-13	available	O	O	JJ	O
+5-14	planes	5-11_dobj	found	NNS	P1_plane
+5-15	traveling	O	O	VBG	O
+5-16	to	O	O	O	O
+5-17	the	O	O	DT	O
+5-18	city	5-15_prep_to	traveling	NN	P1_target_location
+5-19	where	5-21_advmod	wanted	WRB	O
+5-20	I	5-21_nsubj	wanted	PRP	P1_passenger
+5-21	wanted	5-15_advcl	traveling	VBD	O
+5-22	to	5-23_aux	go	TO	O
+5-23	go	5-21_xcomp	wanted	VB	O
+5-24	at	O	O	O	O
+5-25	the	O	O	DT	O
+5-26	time	5-23_prep_at	go	NN	O
+5-27	I	5-29_nsubj	going	PRP	P1_passenger
+5-28	was	5-29_aux	going	VBD	O
+5-29	going	O	O	VBG	O
+5-30	on	O	O	O	O
+5-31	vacation	5-29_prep_on	going	NN	P2_NPart_vacation
+5-32	and	O	O	O	O
+5-33	bought	5-21_conj_and	wanted	VBD	O
+5-34	a	O	O	DT	O
+5-35	ticket	5-33_dobj	bought	NN	P1_ticket
+5-36	.	O	O	O	O
+
+#id=6
+#text=The planes were ready to fly only at certain times . 
+6-1	The	O	O	DT	O
+6-2	planes	O	O	NNS	P1_plane
+6-3	were	O	O	VBD	O
+6-4	ready	O	O	JJ	O
+6-5	to	6-6_aux	fly	TO	O
+6-6	fly	O	O	VB	O
+6-7	only	6-6_advmod	fly	RB	O
+6-8	at	O	O	O	O
+6-9	certain	O	O	JJ	O
+6-10	times	6-6_prep_at	fly	NNS	O
+6-11	.	O	O	O	O
+
+#id=7
+#text=When it came time to go on my trip , I packed up my suitcases , drove to the airport before my plane was ready to fly , and parked my car . 
+7-1	When	7-3_advmod	came	WRB	O
+7-2	it	7-3_nsubj	came	PRP	O
+7-3	came	7-12_advcl	packed	VBD	O
+7-4	time	7-3_dobj	came	NN	O
+7-5	to	7-6_aux	go	TO	O
+7-6	go	7-3_vmod	came	VB	O
+7-7	on	O	O	O	O
+7-8	my	O	O	PRP$	P1_passenger
+7-9	trip	7-6_prep_on	go	NN	P1_flight
+7-10	,	O	O	O	O
+7-11	I	7-12_nsubj	packed	PRP	P1_passenger
+7-12	packed	O	O	VBD	O
+7-13	up	7-12_prt	packed	RP	O
+7-14	my	O	O	PRP$	P1_passenger
+7-15	suitcases	7-12_dobj	packed	NNS	P1_carry_on_luggage
+7-16	,	O	O	O	O
+7-17	drove	7-12_conj_and	packed	VBD	O
+7-18	to	O	O	O	O
+7-19	the	O	O	DT	O
+7-20	airport	7-17_prep_to	drove	NN	P1_airport
+7-21	before	O	O	IN	O
+7-22	my	O	O	PRP$	P1_passenger
+7-23	plane	O	O	NN	P1_plane
+7-24	was	O	O	VBD	O
+7-25	ready	7-17_advcl	drove	JJ	O
+7-26	to	7-27_aux	fly	TO	O
+7-27	fly	O	O	VB	O
+7-28	,	O	O	O	O
+7-29	and	O	O	O	O
+7-30	parked	7-12_conj_and	packed	VBD	O
+7-31	my	O	O	PRP$	P1_passenger
+7-32	car	7-30_dobj	parked	NN	P2_NPart_car
+7-33	.	O	O	O	O
+
+#id=8
+#text=Inside the airport , I had to go through a long line for security , so that they can make sure there are no dangerous items being taken on the plane . 
+8-1	Inside	O	O	O	O
+8-2	the	O	O	DT	O
+8-3	airport	8-6_prep_inside	had	NN	P1_airport
+8-4	,	O	O	O	O
+8-5	I	8-6_nsubj	had	PRP	P1_passenger
+8-6	had	O	O	VBD	O
+8-7	to	8-8_aux	go	TO	O
+8-8	go	8-6_xcomp	had	VB	O
+8-9	through	O	O	O	O
+8-10	a	O	O	DT	O
+8-11	long	O	O	JJ	O
+8-12	line	8-8_prep_through	go	NN	P1_line
+8-13	for	O	O	O	O
+8-14	security	O	O	NN	P1_security_check
+8-15	,	O	O	O	O
+8-16	so	8-20_advmod	make	RB	O
+8-17	that	8-20_mark	make	IN	O
+8-18	they	8-20_nsubj	make	PRP	P1_staff
+8-19	can	8-20_aux	make	MD	O
+8-20	make	8-8_advcl	go	VB	O
+8-21	sure	8-20_acomp	make	JJ	O
+8-22	there	8-28_expl	taken	EX	O
+8-23	are	8-28_aux	taken	VBP	O
+8-24	no	8-28_advmod	taken	RB	O
+8-25	dangerous	O	O	JJ	O
+8-26	items	O	O	NNS	P1_NPart_items
+8-27	being	8-28_auxpass	taken	VBG	O
+8-28	taken	O	O	VBN	O
+8-29	on	O	O	O	O
+8-30	the	O	O	DT	O
+8-31	plane	8-28_prep_on	taken	NN	P1_plane
+8-32	.	O	O	O	O
+
+#id=9
+#text=The workers looked inside my suitcases with an X-Ray machine and checked the clothing I was wearing to make sure I was safe , too . 
+9-1	The	O	O	DT	O
+9-2	workers	9-3_nsubj	looked	NNS	P1_staff
+9-3	looked	O	O	VBD	O
+9-4	inside	O	O	O	O
+9-5	my	O	O	PRP$	P1_passenger
+9-6	suitcases	9-3_prep_inside	looked	NNS	P1_carry_on_luggage
+9-7	with	O	O	O	O
+9-8	an	O	O	DT	O
+9-9	X-Ray	O	O	JJ	O
+9-10	machine	9-3_prep_with	looked	NN	P1_security_check
+9-11	and	O	O	O	O
+9-12	checked	9-3_conj_and	looked	VBD	O
+9-13	the	O	O	DT	O
+9-14	clothing	9-12_dobj	checked	NN	P1_NPart_clothing
+9-15	I	9-17_nsubj	wearing	PRP	P1_passenger
+9-16	was	9-17_aux	wearing	VBD	O
+9-17	wearing	O	O	VBG	O
+9-18	to	9-19_aux	make	TO	O
+9-19	make	9-17_xcomp	wearing	VB	O
+9-20	sure	9-19_acomp	make	JJ	O
+9-21	I	O	O	PRP	P1_passenger
+9-22	was	O	O	VBD	O
+9-23	safe	O	O	JJ	O
+9-24	,	O	O	O	O
+9-25	too	9-12_advmod	checked	RB	O
+9-26	.	O	O	O	O
+
+#id=10
+#text=When I was all done in security , I had to find the gate for my plane , where it would be ready to pick me and other passengers up . 
+10-1	When	10-5_advmod	done	WRB	O
+10-2	I	10-5_nsubjpass	done	PRP	P1_passenger
+10-3	was	10-5_auxpass	done	VBD	O
+10-4	all	10-5_advmod	done	RB	O
+10-5	done	10-10_advcl	had	VBN	O
+10-6	in	O	O	O	O
+10-7	security	10-5_prep_in	done	NN	P1_security_check
+10-8	,	O	O	O	O
+10-9	I	10-10_nsubj	had	PRP	P1_passenger
+10-10	had	O	O	VBD	O
+10-11	to	10-12_aux	find	TO	O
+10-12	find	10-10_xcomp	had	VB	O
+10-13	the	O	O	DT	O
+10-14	gate	10-12_dobj	find	NN	P1_terminal/gate
+10-15	for	O	O	O	O
+10-16	my	O	O	PRP$	P1_passenger
+10-17	plane	O	O	NN	P1_plane
+10-18	,	O	O	O	O
+10-19	where	O	O	WRB	O
+10-20	it	O	O	PRP	P1_plane
+10-21	would	O	O	MD	O
+10-22	be	O	O	VB	O
+10-23	ready	O	O	JJ	O
+10-24	to	10-25_aux	pick	TO	O
+10-25	pick	O	O	VB	O
+10-26	me	10-25_dobj	pick	PRP	P1_passenger
+10-27	and	O	O	CC	O
+10-28	other	O	O	JJ	O
+10-29	passengers	O	O	NNS	P2_passenger
+10-30	up	O	O	RB	O
+10-31	.	O	O	O	O
+
+#id=11
+#text=When it was time to board the plane , the stewardess helped me find my assigned seat and put my suitcase in the compartment above me . 
+11-1	When	O	O	WRB	O
+11-2	it	O	O	PRP	O
+11-3	was	O	O	VBD	O
+11-4	time	11-12_advcl	helped	NN	O
+11-5	to	11-6_aux	board	TO	O
+11-6	board	O	O	VB	O
+11-7	the	O	O	DT	O
+11-8	plane	11-6_dobj	board	NN	P1_plane
+11-9	,	O	O	O	O
+11-10	the	O	O	DT	O
+11-11	stewardess	11-12_nsubj	helped	NNS	P2_staff
+11-12	helped	O	O	VBD	O
+11-13	me	11-14_nsubj	find	PRP	P1_passenger
+11-14	find	11-12_ccomp	helped	VB	O
+11-15	my	O	O	PRP$	P1_passenger
+11-16	assigned	O	O	VBN	O
+11-17	seat	11-14_dobj	find	NN	P1_seat
+11-18	and	O	O	O	O
+11-19	put	11-14_conj_and	find	VB	O
+11-20	my	O	O	PRP$	P1_passenger
+11-21	suitcase	11-19_dobj	put	NN	P1_carry_on_luggage
+11-22	in	O	O	O	O
+11-23	the	O	O	DT	O
+11-24	compartment	11-19_prep_in	put	NN	P1_storage
+11-25	above	O	O	O	O
+11-26	me	O	O	PRP	P1_passenger
+11-27	.	O	O	O	O
+
+#id=12
+#text=I buckled my seat belt and waited for the plane to take off . 
+12-1	I	12-2_nsubj	buckled	PRP	P1_passenger
+12-2	buckled	O	O	VBD	O
+12-3	my	O	O	PRP$	P1_passenger
+12-4	seat	O	O	NN	O
+12-5	belt	12-2_dobj	buckled	NN	P1_seat_belt
+12-6	and	O	O	O	O
+12-7	waited	12-2_conj_and	buckled	VBD	O
+12-8	for	O	O	O	O
+12-9	the	O	O	DT	O
+12-10	plane	12-7_prep_for	waited	NN	P1_plane
+12-11	to	12-12_aux	take	TO	O
+12-12	take	12-7_xcomp	waited	VB	O
+12-13	off	12-12_prt	take	RP	O
+12-14	.	O	O	O	O
+
+#id=13
+#text=When all the passengers were on board , the stewardess explained what to do in an emergency , and the plane began to move . 
+13-1	When	13-5_advmod	were	WRB	O
+13-2	all	O	O	PDT	O
+13-3	the	O	O	DT	O
+13-4	passengers	13-5_nsubj	were	NNS	P3_passenger
+13-5	were	13-11_advcl	explained	VBD	O
+13-6	on	O	O	O	O
+13-7	board	13-5_prep_on	were	NN	O
+13-8	,	O	O	O	O
+13-9	the	O	O	DT	O
+13-10	stewardess	13-11_nsubj	explained	NNS	P2_staff
+13-11	explained	O	O	VBD	O
+13-12	what	13-14_nsubj	do	WP	O
+13-13	to	13-14_aux	do	TO	O
+13-14	do	13-11_ccomp	explained	VB	O
+13-15	in	O	O	O	O
+13-16	an	O	O	DT	O
+13-17	emergency	13-14_prep_in	do	NN	P1_safety_instructions
+13-18	,	O	O	O	O
+13-19	and	O	O	O	O
+13-20	the	O	O	DT	O
+13-21	plane	13-22_nsubj	began	NN	P1_plane
+13-22	began	13-11_conj_and	explained	VBD	O
+13-23	to	13-24_aux	move	TO	O
+13-24	move	13-22_xcomp	began	VB	O
+13-25	.	O	O	O	O
+
+#id=14
+#text=It became very noisy and all of a sudden , outside the window , I could see the ground get farther away . 
+14-1	It	14-2_nsubj	became	PRP	O
+14-2	became	O	O	VBD	O
+14-3	very	O	O	RB	O
+14-4	noisy	14-2_acomp	became	JJ	O
+14-5	and	O	O	O	O
+14-6	all	14-17_nsubj	see	DT	O
+14-7	of	O	O	O	O
+14-8	a	O	O	DT	O
+14-9	sudden	O	O	JJ	O
+14-10	,	O	O	O	O
+14-11	outside	O	O	O	O
+14-12	the	O	O	DT	O
+14-13	window	14-17_prep_outside	see	NN	P1_NPart_window
+14-14	,	O	O	O	O
+14-15	I	14-17_nsubj	see	PRP	P1_passenger
+14-16	could	14-17_aux	see	MD	O
+14-17	see	14-2_conj_and	became	VB	O
+14-18	the	O	O	DT	O
+14-19	ground	14-20_nsubj	get	NN	P1_NPart_ground
+14-20	get	14-17_ccomp	see	VB	O
+14-21	farther	O	O	RBR	O
+14-22	away	14-20_advmod	get	RB	O
+14-23	.	O	O	O	O
+
+#id=15
+#text=I felt like my body was being pushed against my seat a little bit . 
+15-1	I	15-2_nsubj	felt	PRP	P1_passenger
+15-2	felt	O	O	VBD	O
+15-3	like	15-8_mark	pushed	IN	O
+15-4	my	O	O	PRP$	P1_passenger
+15-5	body	15-8_nsubjpass	pushed	NN	P1_NPart_body
+15-6	was	15-8_aux	pushed	VBD	O
+15-7	being	15-8_auxpass	pushed	VBG	O
+15-8	pushed	15-2_advcl	felt	VBN	O
+15-9	against	O	O	O	O
+15-10	my	O	O	PRP$	P1_passenger
+15-11	seat	15-8_prep_against	pushed	NN	P1_seat
+15-12	a	O	O	DT	O
+15-13	little	O	O	JJ	O
+15-14	bit	O	O	NN	O
+15-15	.	O	O	O	O
+
+#id=16
+#text=After a few minutes , the plane stopped going up and the stewardess told us we could take our seat belts off . 
+16-1	After	O	O	O	O
+16-2	a	O	O	DT	O
+16-3	few	O	O	JJ	O
+16-4	minutes	16-8_prep_after	stopped	NNS	P1_time/date
+16-5	,	O	O	O	O
+16-6	the	O	O	DT	O
+16-7	plane	16-8_nsubj	stopped	NN	P1_plane
+16-8	stopped	O	O	VBD	O
+16-9	going	16-8_xcomp	stopped	VBG	O
+16-10	up	16-9_prt	going	RP	O
+16-11	and	O	O	O	O
+16-12	the	O	O	DT	O
+16-13	stewardess	16-14_nsubj	told	NNS	P2_staff
+16-14	told	16-8_conj_and	stopped	VBD	O
+16-15	us	16-14_dobj	told	PRP	P3_passenger
+16-16	we	16-18_nsubj	take	PRP	P3_passenger
+16-17	could	16-18_aux	take	MD	O
+16-18	take	16-14_dep	told	VB	O
+16-19	our	O	O	PRP$	P3_passenger
+16-20	seat	O	O	NN	O
+16-21	belts	16-18_dobj	take	NNS	P1_seat_belt
+16-22	off	16-18_prt	take	RP	O
+16-23	.	O	O	O	O
+
+#id=17
+#text=She offered us drinks from a cart , and I was able to read a book I brought on the plane . 
+17-1	She	17-2_nsubj	offered	PRP	P2_staff
+17-2	offered	O	O	VBD	O
+17-3	us	17-4_nsubj	drinks	PRP	P3_passenger
+17-4	drinks	17-2_ccomp	offered	VBZ	P1_in-flight_entertainment
+17-5	from	O	O	O	O
+17-6	a	O	O	DT	O
+17-7	cart	17-4_prep_from	drinks	NN	P1_NPart_cart
+17-8	,	O	O	O	O
+17-9	and	O	O	O	O
+17-10	I	O	O	PRP	P1_passenger
+17-11	was	O	O	VBD	O
+17-12	able	17-2_conj_and	offered	JJ	O
+17-13	to	17-14_aux	read	TO	O
+17-14	read	O	O	VB	O
+17-15	a	O	O	DT	O
+17-16	book	17-14_dobj	read	NN	P2_in-flight_entertainment
+17-17	I	17-18_nsubj	brought	PRP	P1_passenger
+17-18	brought	O	O	VBD	O
+17-19	on	O	O	O	O
+17-20	the	O	O	DT	O
+17-21	plane	17-18_prep_on	brought	NN	P1_plane
+17-22	.	O	O	O	O
+
+#id=18
+#text=I knew the ride would last a fair amount of time , so I made sure I had something to do . 
+18-1	I	18-2_nsubj	knew	PRP	P1_passenger
+18-2	knew	O	O	VBD	O
+18-3	the	O	O	DT	O
+18-4	ride	18-6_nsubj	last	NN	P1_flight
+18-5	would	18-6_aux	last	MD	O
+18-6	last	18-2_ccomp	knew	VB	O
+18-7	a	O	O	DT	O
+18-8	fair	O	O	JJ	O
+18-9	amount	18-6_dobj	last	NN	O
+18-10	of	O	O	O	O
+18-11	time	O	O	NN	P2_time/date
+18-12	,	O	O	O	O
+18-13	so	18-2_dep	knew	IN	O
+18-14	I	18-15_nsubj	made	PRP	P1_passenger
+18-15	made	18-2_parataxis	knew	VBD	O
+18-16	sure	18-15_acomp	made	JJ	O
+18-17	I	18-18_nsubj	had	PRP	P1_passenger
+18-18	had	O	O	VBD	O
+18-19	something	18-18_dobj	had	NN	P3_in-flight_entertainment
+18-20	to	18-21_aux	do	TO	O
+18-21	do	O	O	VB	O
+18-22	.	O	O	O	O
+
+#id=19
+#text=After a few hours , the captain explained on the intercom that we were arriving in the city . 
+19-1	After	O	O	O	O
+19-2	a	O	O	DT	O
+19-3	few	O	O	JJ	O
+19-4	hours	19-8_prep_after	explained	NNS	P3_time/date
+19-5	,	O	O	O	O
+19-6	the	O	O	DT	O
+19-7	captain	19-8_nsubj	explained	NN	P3_staff
+19-8	explained	O	O	VBD	O
+19-9	on	O	O	O	O
+19-10	the	O	O	DT	O
+19-11	intercom	19-8_prep_on	explained	NN	P1_institutional_devices
+19-12	that	19-15_mark	arriving	IN	O
+19-13	we	19-15_nsubj	arriving	PRP	P3_passenger
+19-14	were	19-15_aux	arriving	VBD	O
+19-15	arriving	19-8_ccomp	explained	VBG	O
+19-16	in	O	O	O	O
+19-17	the	O	O	DT	O
+19-18	city	19-15_prep_in	arriving	NN	P1_target_location
+19-19	.	O	O	O	O
+
+#id=20
+#text=He told us to buckle our seat belts again , and the plane gently came closer to the ground . 
+20-1	He	20-2_nsubj	told	PRP	P3_staff
+20-2	told	O	O	VBD	O
+20-3	us	20-2_dobj	told	PRP	P3_passenger
+20-4	to	20-5_aux	buckle	TO	O
+20-5	buckle	20-2_xcomp	told	VB	O
+20-6	our	O	O	PRP$	P3_passenger
+20-7	seat	O	O	NN	O
+20-8	belts	20-5_dobj	buckle	NNS	P2_seat_belt
+20-9	again	20-5_advmod	buckle	RB	O
+20-10	,	O	O	O	O
+20-11	and	O	O	O	O
+20-12	the	O	O	DT	O
+20-13	plane	20-15_nsubj	came	NN	P1_plane
+20-14	gently	20-15_advmod	came	RB	O
+20-15	came	20-2_conj_and	told	VBD	O
+20-16	closer	20-15_advmod	came	RBR	O
+20-17	to	O	O	O	O
+20-18	the	O	O	DT	O
+20-19	ground	20-15_prep_to	came	NN	P1_location_airplane
+20-20	.	O	O	O	O
+
+#id=21
+#text=Finally , I felt a bump as the plane arrived at the airport in the new city . 
+21-1	Finally	21-4_advmod	felt	RB	O
+21-2	,	O	O	O	O
+21-3	I	21-4_nsubj	felt	PRP	P1_passenger
+21-4	felt	O	O	VBD	O
+21-5	a	O	O	DT	O
+21-6	bump	21-4_dobj	felt	NN	P1_NPart_bump
+21-7	as	O	O	O	O
+21-8	the	O	O	DT	O
+21-9	plane	21-4_prep_as	felt	NN	P1_plane
+21-10	arrived	O	O	VBN	O
+21-11	at	O	O	O	O
+21-12	the	O	O	DT	O
+21-13	airport	21-10_prep_at	arrived	NN	P2_airport
+21-14	in	O	O	O	O
+21-15	the	O	O	DT	O
+21-16	new	O	O	JJ	O
+21-17	city	O	O	NN	P1_target_location
+21-18	.	O	O	O	O
+
+#id=22
+#text=My plane ride was over , and my beach vacation was beginning . 
+22-1	My	O	O	PRP$	P1_passenger
+22-2	plane	O	O	NN	O
+22-3	ride	O	O	NN	P1_flight
+22-4	was	O	O	VBD	O
+22-5	over	O	O	RP	O
+22-6	,	O	O	O	O
+22-7	and	O	O	O	O
+22-8	my	O	O	PRP$	P1_passenger
+22-9	beach	O	O	NN	O
+22-10	vacation	22-12_nsubj	beginning	NN	P3_NPart_vacation
+22-11	was	22-12_aux	beginning	VBD	O
+22-12	beginning	O	O	VBG	O
+22-13	.	O	O	O	O

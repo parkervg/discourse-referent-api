@@ -1,0 +1,250 @@
+#id=1
+#text=I love to ride the bus in my town . 
+1-1	I	1-2_nsubj	love	PRP	P1_passenger
+1-2	love	O	O	VBP	O
+1-3	to	1-4_aux	ride	TO	O
+1-4	ride	1-2_xcomp	love	VB	O
+1-5	the	O	O	DT	O
+1-6	bus	1-4_dobj	ride	NN	P1_bus
+1-7	in	O	O	O	O
+1-8	my	O	O	PRP$	P1_passenger
+1-9	town	O	O	NN	P1_destination
+1-10	.	O	O	O	O
+
+#id=2
+#text=The fare is only 75 cents . 
+2-1	The	O	O	DT	O
+2-2	fare	O	O	NN	P1_money
+2-3	is	O	O	VBZ	O
+2-4	only	O	O	RB	O
+2-5	75	O	O	CD	O
+2-6	cents	O	O	NNS	P1_money
+2-7	.	O	O	O	O
+
+#id=3
+#text=It will take you anywhere . 
+3-1	It	3-3_nsubj	take	PRP	P1_bus
+3-2	will	3-3_aux	take	MD	O
+3-3	take	O	O	VB	O
+3-4	you	3-3_dobj	take	PRP	P2_passenger
+3-5	anywhere	3-3_advmod	take	RB	P1_NPart_anywhere
+3-6	.	O	O	O	O
+
+#id=4
+#text=On Saturdays I get up early and walk down to the bus stop . 
+4-1	On	O	O	O	O
+4-2	Saturdays	4-4_prep_on	get	NNP	P1_NPart_saturdays
+4-3	I	4-4_nsubj	get	PRP	P1_passenger
+4-4	get	O	O	VBP	O
+4-5	up	O	O	RB	O
+4-6	early	4-4_advmod	get	RB	O
+4-7	and	O	O	O	O
+4-8	walk	4-4_conj_and	get	VBP	O
+4-9	down	4-8_prt	walk	RP	O
+4-10	to	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	bus	O	O	NN	O
+4-13	stop	4-8_prep_to	walk	NN	P1_bus_stop
+4-14	.	O	O	O	O
+
+#id=5
+#text=I wait for the bus to come at 8:15 . 
+5-1	I	5-2_nsubj	wait	PRP	P1_passenger
+5-2	wait	O	O	VBP	O
+5-3	for	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	bus	5-2_prep_for	wait	NN	P1_bus
+5-6	to	5-7_aux	come	TO	O
+5-7	come	O	O	VB	O
+5-8	at	O	O	O	O
+5-9	8:15	5-7_prep_at	come	CD	P1_time/date
+5-10	.	O	O	O	O
+
+#id=6
+#text=I climb up the stairs and drop my fare into the collection box and say hello to the driver . 
+6-1	I	6-2_nsubj	climb	PRP	P1_passenger
+6-2	climb	O	O	VB	O
+6-3	up	6-2_prt	climb	RP	O
+6-4	the	O	O	DT	O
+6-5	stairs	6-2_dobj	climb	NNS	P1_other
+6-6	and	O	O	O	O
+6-7	drop	6-2_conj_and	climb	VB	O
+6-8	my	O	O	PRP$	P1_passenger
+6-9	fare	6-7_dobj	drop	NN	P1_money
+6-10	into	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	collection	O	O	NN	O
+6-13	box	6-7_prep_into	drop	NN	P1_payment_machine
+6-14	and	O	O	O	O
+6-15	say	6-2_conj_and	climb	VB	O
+6-16	hello	6-15_dobj	say	UH	O
+6-17	to	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	driver	6-15_prep_to	say	NN	P1_bus_staff
+6-20	.	O	O	O	O
+
+#id=7
+#text=Before the bus starts up again I move all the way to the back to sit in the last row of seats . 
+7-1	Before	7-4_mark	starts	IN	O
+7-2	the	O	O	DT	O
+7-3	bus	7-4_nsubj	starts	NN	P1_bus
+7-4	starts	7-8_advcl	move	VBZ	O
+7-5	up	7-4_prt	starts	RP	O
+7-6	again	7-4_advmod	starts	RB	O
+7-7	I	7-8_nsubj	move	PRP	P1_passenger
+7-8	move	O	O	VBP	O
+7-9	all	O	O	PDT	O
+7-10	the	O	O	DT	O
+7-11	way	7-8_dobj	move	NN	P1_NPart_way
+7-12	to	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	back	7-8_prep_to	move	NN	P2_other
+7-15	to	7-16_aux	sit	TO	O
+7-16	sit	O	O	VB	O
+7-17	in	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	last	O	O	JJ	O
+7-20	row	7-16_prep_in	sit	NN	O
+7-21	of	O	O	O	O
+7-22	seats	O	O	NNS	P1_seat_in_bus
+7-23	.	O	O	O	O
+
+#id=8
+#text=Lots of different people get on . 
+8-1	Lots	8-5_nsubj	get	NNS	O
+8-2	of	O	O	O	O
+8-3	different	O	O	JJ	O
+8-4	people	O	O	NNS	P3_passenger
+8-5	get	O	O	VBP	O
+8-6	on	8-5_prt	get	RP	O
+8-7	.	O	O	O	O
+
+#id=9
+#text=Some with shopping bags , others all dressed up and some like me dressed casual for a summer morning . 
+9-1	Some	9-8_nsubj	dressed	DT	O
+9-2	with	O	O	O	O
+9-3	shopping	O	O	NN	O
+9-4	bags	O	O	NNS	P1_NPart_bags
+9-5	,	O	O	O	O
+9-6	others	O	O	NNS	P1_NPart_others
+9-7	all	O	O	DT	O
+9-8	dressed	O	O	VBD	O
+9-9	up	9-8_prt	dressed	RP	O
+9-10	and	O	O	O	O
+9-11	some	9-12_nsubj	like	DT	O
+9-12	like	9-8_conj_and	dressed	VBP	O
+9-13	me	9-14_nsubj	dressed	PRP	P1_passenger
+9-14	dressed	9-12_ccomp	like	VBD	O
+9-15	casual	9-14_dobj	dressed	JJ	O
+9-16	for	O	O	O	O
+9-17	a	O	O	DT	O
+9-18	summer	O	O	NN	O
+9-19	morning	O	O	NN	P1_NPart_morning
+9-20	.	O	O	O	O
+
+#id=10
+#text=I take the bus all the way until it gets to the center of town where I get off . 
+10-1	I	10-2_nsubj	take	PRP	P1_passenger
+10-2	take	O	O	VBP	O
+10-3	the	O	O	DT	O
+10-4	bus	10-2_iobj	take	NN	P1_bus
+10-5	all	O	O	PDT	O
+10-6	the	O	O	DT	O
+10-7	way	10-2_dobj	take	NN	P2_NPart_way
+10-8	until	10-10_mark	gets	IN	O
+10-9	it	10-10_nsubj	gets	PRP	P1_bus
+10-10	gets	10-2_advcl	take	VBZ	O
+10-11	to	O	O	O	O
+10-12	the	O	O	DT	O
+10-13	center	10-10_prep_to	gets	NN	O
+10-14	of	O	O	O	O
+10-15	town	O	O	NN	P1_destination
+10-16	where	10-18_advmod	get	WRB	O
+10-17	I	10-18_nsubj	get	PRP	P1_passenger
+10-18	get	10-10_advcl	gets	VBP	O
+10-19	off	10-18_prt	get	RP	O
+10-20	.	O	O	O	O
+
+#id=11
+#text=Before i get off I get a transfer ticket . 
+11-1	Before	11-3_mark	get	IN	O
+11-2	i	11-3_nsubj	get	FW	P1_passenger
+11-3	get	11-6_advcl	get	VBP	O
+11-4	off	11-3_prt	get	RP	O
+11-5	I	11-6_nsubj	get	PRP	P1_passenger
+11-6	get	O	O	VBP	O
+11-7	a	O	O	DT	O
+11-8	transfer	O	O	NN	O
+11-9	ticket	11-6_dobj	get	NN	P1_card/ticket
+11-10	.	O	O	O	O
+
+#id=12
+#text=And then the fun begins . 
+12-1	And	12-5_cc	begins	CC	O
+12-2	then	12-5_advmod	begins	RB	O
+12-3	the	O	O	DT	O
+12-4	fun	12-5_nsubj	begins	NN	P1_NPart_fun
+12-5	begins	O	O	VBZ	O
+12-6	.	O	O	O	O
+
+#id=13
+#text=I look at the bus route map at the bus stop and look for a part of the city i want to explore . 
+13-1	I	13-2_nsubj	look	PRP	P1_passenger
+13-2	look	O	O	VBP	O
+13-3	at	O	O	O	O
+13-4	the	O	O	DT	O
+13-5	bus	O	O	NN	O
+13-6	route	O	O	NN	O
+13-7	map	13-2_prep_at	look	NN	P3_other
+13-8	at	O	O	O	O
+13-9	the	O	O	DT	O
+13-10	bus	O	O	NN	O
+13-11	stop	13-2_ccomp	look	VB	P2_bus_stop
+13-12	and	O	O	O	O
+13-13	look	13-11_conj_and	stop	VB	O
+13-14	for	O	O	O	O
+13-15	a	O	O	DT	O
+13-16	part	13-11_prep_for	stop	NN	O
+13-17	of	O	O	O	O
+13-18	the	O	O	DT	O
+13-19	city	O	O	NN	P1_destination
+13-20	i	13-21_nsubj	want	FW	P1_passenger
+13-21	want	13-11_ccomp	stop	VBP	O
+13-22	to	13-23_aux	explore	TO	O
+13-23	explore	13-21_xcomp	want	VB	O
+13-24	.	O	O	O	O
+
+#id=14
+#text=For 75 cents i can get to any part of my city . 
+14-1	For	O	O	O	O
+14-2	75	O	O	CD	O
+14-3	cents	14-6_prep_for	get	NNS	P1_money
+14-4	i	14-6_nsubj	get	FW	P1_passenger
+14-5	can	14-6_aux	get	MD	O
+14-6	get	O	O	VB	O
+14-7	to	O	O	O	O
+14-8	any	O	O	DT	O
+14-9	part	14-6_prep_to	get	NN	P1_NPart_part
+14-10	of	O	O	O	O
+14-11	my	O	O	PRP$	P1_passenger
+14-12	city	O	O	NN	P1_destination
+14-13	.	O	O	O	O
+
+#id=15
+#text=I see all kinds of people and get to explore the city I live in . 
+15-1	I	15-2_nsubj	see	PRP	P4_passenger
+15-2	see	O	O	VBP	O
+15-3	all	O	O	DT	O
+15-4	kinds	15-2_dobj	see	NNS	O
+15-5	of	O	O	O	O
+15-6	people	O	O	NNS	P1_NPart_people
+15-7	and	O	O	O	O
+15-8	get	15-2_conj_and	see	VBP	O
+15-9	to	15-10_aux	explore	TO	O
+15-10	explore	15-8_xcomp	get	VB	O
+15-11	the	O	O	DT	O
+15-12	city	15-10_dobj	explore	NN	P1_destination
+15-13	I	15-14_nsubj	live	PRP	P5_passenger
+15-14	live	O	O	VBP	O
+15-15	in	15-14_prt	live	RP	O
+15-16	.	O	O	O	O

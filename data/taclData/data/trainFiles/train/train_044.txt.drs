@@ -1,0 +1,228 @@
+#id=1
+#text=When you need to go outside the city limits of London , it is best to take a train . 
+1-1	When	1-3_advmod	need	WRB	O
+1-2	you	1-3_nsubj	need	PRP	P1_passenger
+1-3	need	O	O	VBP	O
+1-4	to	1-5_aux	go	TO	O
+1-5	go	1-3_xcomp	need	VB	O
+1-6	outside	O	O	O	O
+1-7	the	O	O	DT	O
+1-8	city	O	O	NN	O
+1-9	limits	1-5_prep_outside	go	NNS	P1_NPart_limits
+1-10	of	O	O	O	O
+1-11	London	O	O	NNP	P1_NPart_london
+1-12	,	O	O	O	O
+1-13	it	O	O	PRP	O
+1-14	is	O	O	VBZ	O
+1-15	best	O	O	JJS	O
+1-16	to	1-17_aux	take	TO	O
+1-17	take	O	O	VB	O
+1-18	a	O	O	DT	O
+1-19	train	1-17_dobj	take	NN	P1_train
+1-20	.	O	O	O	O
+
+#id=2
+#text=Cars are a poor choice as they hit traffic often , as well as cost money to drive , for me it is far cheaper to take the train . 
+2-1	Cars	O	O	NNS	P1_NPart_cars
+2-2	are	O	O	VBP	O
+2-3	a	O	O	DT	O
+2-4	poor	O	O	JJ	O
+2-5	choice	O	O	NN	P1_NPart_choice
+2-6	as	2-8_mark	hit	IN	O
+2-7	they	2-8_nsubj	hit	PRP	P1_NPart_they
+2-8	hit	O	O	VBD	O
+2-9	traffic	2-8_dobj	hit	NN	P1_NPart_traffic
+2-10	often	2-8_advmod	hit	RB	O
+2-11	,	O	O	O	O
+2-12	as	O	O	O	O
+2-13	well	O	O	O	O
+2-14	as	O	O	O	O
+2-15	cost	O	O	NN	O
+2-16	money	O	O	NN	P1_NPart_money
+2-17	to	2-18_aux	drive	TO	O
+2-18	drive	O	O	VB	O
+2-19	,	O	O	O	O
+2-20	for	O	O	O	O
+2-21	me	2-18_prep_for	drive	PRP	P1_passenger
+2-22	it	O	O	PRP	O
+2-23	is	O	O	VBZ	O
+2-24	far	O	O	RB	O
+2-25	cheaper	2-18_ccomp	drive	JJR	O
+2-26	to	2-27_aux	take	TO	O
+2-27	take	O	O	VB	O
+2-28	the	O	O	DT	O
+2-29	train	2-27_dobj	take	NN	P1_train
+2-30	.	O	O	O	O
+
+#id=3
+#text=This , of course , was when I lived in London which I do not do now . 
+3-1	This	3-6_nsubj	was	DT	O
+3-2	,	O	O	O	O
+3-3	of	O	O	O	O
+3-4	course	O	O	NN	O
+3-5	,	O	O	O	O
+3-6	was	O	O	VBD	O
+3-7	when	3-9_advmod	lived	WRB	O
+3-8	I	3-9_nsubj	lived	PRP	P1_passenger
+3-9	lived	3-6_advcl	was	VBD	O
+3-10	in	O	O	O	O
+3-11	London	3-9_prep_in	lived	NNP	P2_NPart_london
+3-12	which	3-16_dobj	do	WDT	O
+3-13	I	3-16_nsubj	do	PRP	P1_passenger
+3-14	do	3-16_aux	do	VBP	O
+3-15	not	3-16_neg	do	RB	O
+3-16	do	3-9_ccomp	lived	VB	O
+3-17	now	3-16_advmod	do	RB	O
+3-18	.	O	O	O	O
+
+#id=4
+#text=Anyway , when I wanted to visit the beach town of Brighton I took the train . 
+4-1	Anyway	4-14_advmod	took	RB	O
+4-2	,	O	O	O	O
+4-3	when	4-5_advmod	wanted	WRB	O
+4-4	I	4-5_nsubj	wanted	PRP	P1_passenger
+4-5	wanted	4-14_advcl	took	VBD	O
+4-6	to	4-7_aux	visit	TO	O
+4-7	visit	4-5_xcomp	wanted	VB	O
+4-8	the	O	O	DT	O
+4-9	beach	O	O	NN	O
+4-10	town	4-7_dobj	visit	NN	P1_destination
+4-11	of	O	O	O	O
+4-12	Brighton	O	O	NNP	P1_destination
+4-13	I	4-14_nsubj	took	PRP	P1_passenger
+4-14	took	O	O	VBD	O
+4-15	the	O	O	DT	O
+4-16	train	4-14_dobj	took	NN	P1_train
+4-17	.	O	O	O	O
+
+#id=5
+#text=I made sure to research the time schedule as to find the correct train and time . 
+5-1	I	5-2_nsubj	made	PRP	P1_passenger
+5-2	made	O	O	VBD	O
+5-3	sure	5-2_acomp	made	JJ	O
+5-4	to	5-5_aux	research	TO	O
+5-5	research	O	O	VB	O
+5-6	the	O	O	DT	O
+5-7	time	O	O	NN	O
+5-8	schedule	5-5_dobj	research	NN	P1_time-table
+5-9	as	O	O	O	O
+5-10	to	5-11_aux	find	TO	O
+5-11	find	5-5_prep_as	research	VB	O
+5-12	the	O	O	DT	O
+5-13	correct	O	O	JJ	O
+5-14	train	5-11_dobj	find	NN	P1_train
+5-15	and	O	O	O	O
+5-16	time	5-11_conj_and	find	NN	P1_time_date
+5-17	.	O	O	O	O
+
+#id=6
+#text=I found there was one going when I wanted and it was leaving from Victoria station . 
+6-1	I	6-2_nsubj	found	PRP	P1_passenger
+6-2	found	O	O	VBD	O
+6-3	there	6-4_expl	was	EX	O
+6-4	was	6-2_ccomp	found	VBD	O
+6-5	one	6-4_nsubj	was	CD	P1_train
+6-6	going	O	O	VBG	O
+6-7	when	6-9_advmod	wanted	WRB	O
+6-8	I	6-9_nsubj	wanted	PRP	P1_passenger
+6-9	wanted	6-6_advcl	going	VBD	O
+6-10	and	O	O	O	O
+6-11	it	6-13_nsubj	leaving	PRP	P1_train
+6-12	was	6-13_aux	leaving	VBD	O
+6-13	leaving	6-2_conj_and	found	VBG	O
+6-14	from	O	O	O	O
+6-15	Victoria	O	O	NNP	O
+6-16	station	6-13_prep_from	leaving	NN	P1_train_station
+6-17	.	O	O	O	O
+
+#id=7
+#text=I made sure to get there early so as to purchase a ticket and get a good seat , I do n't like traveling backwards . 
+7-1	I	7-2_nsubj	made	PRP	P1_passenger
+7-2	made	7-23_ccomp	like	VBD	O
+7-3	sure	7-2_acomp	made	JJ	O
+7-4	to	7-5_aux	get	TO	O
+7-5	get	O	O	VB	O
+7-6	there	O	O	RB	O
+7-7	early	O	O	RB	O
+7-8	so	O	O	RB	O
+7-9	as	7-5_advmod	get	RB	O
+7-10	to	7-11_aux	purchase	TO	O
+7-11	purchase	7-5_xcomp	get	VB	O
+7-12	a	O	O	DT	O
+7-13	ticket	7-11_dobj	purchase	NN	P1_card/ticket
+7-14	and	O	O	O	O
+7-15	get	7-11_conj_and	purchase	VB	O
+7-16	a	O	O	DT	O
+7-17	good	O	O	JJ	O
+7-18	seat	7-15_dobj	get	NN	P1_seat
+7-19	,	O	O	O	O
+7-20	I	7-23_nsubj	like	PRP	P1_passenger
+7-21	do	7-23_aux	like	VBP	O
+7-22	n't	7-23_neg	like	RB	O
+7-23	like	O	O	VB	O
+7-24	traveling	O	O	VBG	O
+7-25	backwards	7-23_dobj	like	NNS	O
+7-26	.	O	O	O	O
+
+#id=8
+#text=Having bought my ticket at the counter I walked to the waiting train . 
+8-1	Having	8-2_aux	bought	VBG	O
+8-2	bought	8-9_dep	walked	VBN	O
+8-3	my	O	O	PRP$	P1_passenger
+8-4	ticket	8-2_dobj	bought	NN	P1_card/ticket
+8-5	at	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	counter	8-2_prep_at	bought	NN	P1_ticket_office/website
+8-8	I	8-9_nsubj	walked	PRP	P1_passenger
+8-9	walked	O	O	VBD	O
+8-10	to	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	waiting	O	O	VBG	O
+8-13	train	8-9_prep_to	walked	NN	P1_train
+8-14	.	O	O	O	O
+
+#id=9
+#text=It was very nice and new and I had little trouble finding a good seat . 
+9-1	It	O	O	PRP	P1_train
+9-2	was	O	O	VBD	O
+9-3	very	O	O	RB	O
+9-4	nice	O	O	JJ	O
+9-5	and	O	O	O	O
+9-6	new	O	O	JJ	O
+9-7	and	O	O	O	O
+9-8	I	9-9_nsubj	had	PRP	P1_passenger
+9-9	had	O	O	VBD	O
+9-10	little	O	O	JJ	O
+9-11	trouble	9-9_dobj	had	NN	P1_NPart_trouble
+9-12	finding	O	O	VBG	O
+9-13	a	O	O	DT	O
+9-14	good	O	O	JJ	O
+9-15	seat	9-12_dobj	finding	NN	P1_seat
+9-16	.	O	O	O	O
+
+#id=10
+#text=I settled in and closed my eyes , ready to rest on the exceedingly comfortable train that was taking me on an adventure . 
+10-1	I	10-2_nsubj	settled	PRP	P1_passenger
+10-2	settled	O	O	VBD	O
+10-3	in	10-2_prt	settled	RP	O
+10-4	and	O	O	O	O
+10-5	closed	10-2_conj_and	settled	VBD	O
+10-6	my	O	O	PRP$	P1_passenger
+10-7	eyes	10-5_dobj	closed	NNS	P1_NPart_eyes
+10-8	,	O	O	O	O
+10-9	ready	O	O	JJ	O
+10-10	to	10-11_aux	rest	TO	O
+10-11	rest	O	O	VB	O
+10-12	on	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	exceedingly	O	O	RB	O
+10-15	comfortable	O	O	JJ	O
+10-16	train	10-11_prep_on	rest	NN	P1_train
+10-17	that	10-19_nsubj	taking	WDT	P1_train
+10-18	was	10-19_aux	taking	VBD	O
+10-19	taking	O	O	VBG	O
+10-20	me	10-19_dobj	taking	PRP	P1_passenger
+10-21	on	O	O	O	O
+10-22	an	O	O	DT	O
+10-23	adventure	10-19_prep_on	taking	NN	P1_NPart_adventure
+10-24	.	O	O	O	O

@@ -1,0 +1,197 @@
+#id=1
+#text=I needed to read a book for my history class , so I decided to see if the local library had a copy . 
+1-1	I	1-2_nsubj	needed	PRP	P1_customer
+1-2	needed	O	O	VBD	O
+1-3	to	1-4_aux	read	TO	O
+1-4	read	1-2_xcomp	needed	VB	O
+1-5	a	O	O	DT	O
+1-6	book	1-4_dobj	read	NN	P1_book
+1-7	for	O	O	O	O
+1-8	my	O	O	PRP$	P1_customer
+1-9	history	O	O	NN	O
+1-10	class	O	O	NN	P1_NPart_class
+1-11	,	O	O	O	O
+1-12	so	1-2_dep	needed	IN	O
+1-13	I	1-14_nsubj	decided	PRP	P1_customer
+1-14	decided	1-2_parataxis	needed	VBD	O
+1-15	to	1-16_aux	see	TO	O
+1-16	see	1-14_xcomp	decided	VB	O
+1-17	if	1-21_mark	had	IN	O
+1-18	the	O	O	DT	O
+1-19	local	O	O	JJ	O
+1-20	library	1-21_nsubj	had	NN	P1_library
+1-21	had	1-16_advcl	see	VBD	O
+1-22	a	O	O	DT	O
+1-23	copy	1-21_dobj	had	NN	P1_book
+1-24	.	O	O	O	O
+
+#id=2
+#text=I went to the library 's website and searched for the book . 
+2-1	I	2-2_nsubj	went	PRP	P1_customer
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	library	O	O	NN	P1_library
+2-6	's	O	O	O	O
+2-7	website	2-2_prep_to	went	NN	P1_NPart_website
+2-8	and	O	O	O	O
+2-9	searched	2-2_conj_and	went	VBD	O
+2-10	for	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	book	2-9_prep_for	searched	NN	P1_book
+2-13	.	O	O	O	O
+
+#id=3
+#text=I saw that they had it in stock , so I walked to the library . 
+3-1	I	3-2_nsubj	saw	PRP	P1_customer
+3-2	saw	O	O	VBD	O
+3-3	that	3-5_mark	had	IN	O
+3-4	they	3-5_nsubj	had	PRP	P1_staff
+3-5	had	3-2_ccomp	saw	VBD	O
+3-6	it	3-5_dobj	had	PRP	P1_book
+3-7	in	O	O	O	O
+3-8	stock	3-5_prep_in	had	NN	O
+3-9	,	O	O	O	O
+3-10	so	3-12_mark	walked	IN	O
+3-11	I	3-12_nsubj	walked	PRP	P1_customer
+3-12	walked	3-5_advcl	had	VBD	O
+3-13	to	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	library	3-12_prep_to	walked	NN	P1_library
+3-16	.	O	O	O	O
+
+#id=4
+#text=When I entered the library , I walked over to the front desk and told the librarian the name of the book I was looking for . 
+4-1	When	4-3_advmod	entered	WRB	O
+4-2	I	4-3_nsubj	entered	PRP	P1_customer
+4-3	entered	4-8_advcl	walked	VBD	O
+4-4	the	O	O	DT	O
+4-5	library	4-3_dobj	entered	NN	P1_library
+4-6	,	O	O	O	O
+4-7	I	4-8_nsubj	walked	PRP	P1_customer
+4-8	walked	O	O	VBD	O
+4-9	over	4-8_prt	walked	RP	O
+4-10	to	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	front	O	O	JJ	O
+4-13	desk	4-8_prep_to	walked	NN	P1_check-out_desk
+4-14	and	O	O	O	O
+4-15	told	4-8_conj_and	walked	VBD	O
+4-16	the	O	O	DT	O
+4-17	librarian	4-15_dobj	told	NN	P2_staff
+4-18	the	O	O	DT	O
+4-19	name	4-8_dobj	walked	NN	P1_NPart_name
+4-20	of	O	O	O	O
+4-21	the	O	O	DT	O
+4-22	book	O	O	NN	P1_book
+4-23	I	4-25_nsubj	looking	PRP	P1_customer
+4-24	was	4-25_aux	looking	VBD	O
+4-25	looking	O	O	VBG	O
+4-26	for	4-25_prep	looking	IN	O
+4-27	.	O	O	O	O
+
+#id=5
+#text=He showed me where the book was and asked me if I 'd like to look for anything else . 
+5-1	He	5-2_nsubj	showed	PRP	P2_staff
+5-2	showed	O	O	VBD	O
+5-3	me	5-2_dobj	showed	PRP	P1_customer
+5-4	where	5-7_advmod	was	WRB	O
+5-5	the	O	O	DT	O
+5-6	book	5-7_nsubj	was	NN	P1_book
+5-7	was	5-2_advcl	showed	VBD	O
+5-8	and	O	O	O	O
+5-9	asked	5-7_conj_and	was	VBD	O
+5-10	me	5-9_dobj	asked	PRP	P1_customer
+5-11	if	5-14_mark	like	IN	O
+5-12	I	5-14_nsubj	like	PRP	P1_customer
+5-13	'd	5-14_aux	like	MD	O
+5-14	like	5-9_advcl	asked	VB	O
+5-15	to	5-16_aux	look	TO	O
+5-16	look	5-14_xcomp	like	VB	O
+5-17	for	O	O	O	O
+5-18	anything	5-16_prep_for	look	NN	P2_book
+5-19	else	O	O	RB	O
+5-20	.	O	O	O	O
+
+#id=6
+#text=I said that would be all , so he took the book over to the front desk , and I followed . 
+6-1	I	6-2_nsubj	said	PRP	P1_customer
+6-2	said	O	O	VBD	O
+6-3	that	O	O	IN	O
+6-4	would	O	O	MD	O
+6-5	be	O	O	VB	O
+6-6	all	6-2_ccomp	said	DT	O
+6-7	,	O	O	O	O
+6-8	so	6-2_dep	said	IN	O
+6-9	he	6-10_nsubj	took	PRP	P2_staff
+6-10	took	6-2_ccomp	said	VBD	O
+6-11	the	O	O	DT	O
+6-12	book	6-10_dobj	took	NN	P1_book
+6-13	over	6-10_prt	took	RP	O
+6-14	to	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	front	O	O	JJ	O
+6-17	desk	6-10_prep_to	took	NN	P1_check-out_desk
+6-18	,	O	O	O	O
+6-19	and	O	O	O	O
+6-20	I	6-21_nsubj	followed	PRP	P1_customer
+6-21	followed	6-2_conj_and	said	VBD	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=At the desk , he scanned the book and asked me if I had a library card . 
+7-1	At	O	O	O	O
+7-2	the	O	O	DT	O
+7-3	desk	7-6_prep_at	scanned	NN	P1_check-out_desk
+7-4	,	O	O	O	O
+7-5	he	7-6_nsubj	scanned	PRP	P2_staff
+7-6	scanned	O	O	VBD	O
+7-7	the	O	O	DT	O
+7-8	book	7-6_dobj	scanned	NN	P1_book
+7-9	and	O	O	O	O
+7-10	asked	7-6_conj_and	scanned	VBD	O
+7-11	me	7-10_dobj	asked	PRP	P1_customer
+7-12	if	7-14_mark	had	IN	O
+7-13	I	7-14_nsubj	had	PRP	P1_customer
+7-14	had	7-10_advcl	asked	VBD	O
+7-15	a	O	O	DT	O
+7-16	library	O	O	NN	O
+7-17	card	7-14_dobj	had	NN	P1_library_card
+7-18	.	O	O	O	O
+
+#id=8
+#text=I said I did and showed him . 
+8-1	I	8-2_nsubj	said	PRP	P1_customer
+8-2	said	O	O	VBD	O
+8-3	I	8-4_nsubj	did	PRP	P1_customer
+8-4	did	8-2_ccomp	said	VBD	O
+8-5	and	O	O	O	O
+8-6	showed	8-4_conj_and	did	VBD	O
+8-7	him	8-6_dobj	showed	PRP	P2_staff
+8-8	.	O	O	O	O
+
+#id=9
+#text=He then scanned my card , handed me the book , and told me it would be due back in two weeks . 
+9-1	He	9-3_nsubj	scanned	PRP	P2_staff
+9-2	then	9-3_advmod	scanned	RB	O
+9-3	scanned	O	O	VBD	O
+9-4	my	O	O	PRP$	P1_customer
+9-5	card	9-3_dobj	scanned	NN	P1_library_card
+9-6	,	O	O	O	O
+9-7	handed	9-3_conj_and	scanned	VBD	O
+9-8	me	9-7_iobj	handed	PRP	P1_customer
+9-9	the	O	O	DT	O
+9-10	book	9-7_dobj	handed	NN	P1_book
+9-11	,	O	O	O	O
+9-12	and	O	O	O	O
+9-13	told	9-3_conj_and	scanned	VBD	O
+9-14	me	9-13_dobj	told	PRP	P1_customer
+9-15	it	O	O	PRP	P1_book
+9-16	would	O	O	MD	O
+9-17	be	O	O	VB	O
+9-18	due	9-13_dep	told	JJ	O
+9-19	back	O	O	RB	O
+9-20	in	O	O	O	O
+9-21	two	O	O	CD	O
+9-22	weeks	O	O	NNS	P1_NPart_weeks
+9-23	.	O	O	O	O

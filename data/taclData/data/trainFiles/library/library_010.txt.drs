@@ -1,0 +1,257 @@
+#id=1
+#text=I needed to learn about gardening and was n't sure where to start . 
+1-1	I	1-2_nsubj	needed	PRP	P1_customer
+1-2	needed	O	O	VBD	O
+1-3	to	1-4_aux	learn	TO	O
+1-4	learn	1-2_xcomp	needed	VB	O
+1-5	about	O	O	O	O
+1-6	gardening	1-4_prep_about	learn	NN	O
+1-7	and	O	O	O	O
+1-8	was	O	O	VBD	O
+1-9	n't	O	O	RB	O
+1-10	sure	1-2_conj_and	needed	JJ	O
+1-11	where	1-13_advmod	start	WRB	O
+1-12	to	1-13_aux	start	TO	O
+1-13	start	O	O	VB	O
+1-14	.	O	O	O	O
+
+#id=2
+#text=A friend of mine recommended a book . 
+2-1	A	O	O	DT	O
+2-2	friend	2-5_nsubj	recommended	NN	P1_NPart_friend
+2-3	of	O	O	O	O
+2-4	mine	O	O	NN	P1_customer
+2-5	recommended	O	O	VBD	O
+2-6	a	O	O	DT	O
+2-7	book	2-5_dobj	recommended	NN	P1_book
+2-8	.	O	O	O	O
+
+#id=3
+#text=I decided to check it out from the local library . 
+3-1	I	3-2_nsubj	decided	PRP	P1_customer
+3-2	decided	O	O	VBD	O
+3-3	to	3-4_aux	check	TO	O
+3-4	check	3-2_xcomp	decided	VB	O
+3-5	it	3-4_dobj	check	PRP	P1_book
+3-6	out	3-4_prt	check	RP	O
+3-7	from	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	local	O	O	JJ	O
+3-10	library	3-4_prep_from	check	NN	P1_library
+3-11	.	O	O	O	O
+
+#id=4
+#text=I walked to the library . 
+4-1	I	4-2_nsubj	walked	PRP	P1_customer
+4-2	walked	O	O	VBD	O
+4-3	to	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	library	4-2_prep_to	walked	NN	P1_library
+4-6	.	O	O	O	O
+
+#id=5
+#text=Inside there was a computer to look up where books are located . 
+5-1	Inside	O	O	NNP	O
+5-2	there	O	O	RB	O
+5-3	was	O	O	VBD	O
+5-4	a	O	O	DT	O
+5-5	computer	O	O	NN	P1_institutional_devices
+5-6	to	5-7_aux	look	TO	O
+5-7	look	O	O	VB	O
+5-8	up	5-7_prt	look	RP	O
+5-9	where	5-12_advmod	located	WRB	O
+5-10	books	5-12_nsubjpass	located	NNS	P2_book
+5-11	are	5-12_auxpass	located	VBP	O
+5-12	located	5-7_advcl	look	VBN	O
+5-13	.	O	O	O	O
+
+#id=6
+#text=I typed in the name of the book I was looking for and it showed me the call number , a unique number used to tell where the book is located in the library . 
+6-1	I	6-2_nsubj	typed	PRP	P1_customer
+6-2	typed	O	O	VBN	O
+6-3	in	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	name	6-2_prep_in	typed	NN	P1_NPart_name
+6-6	of	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	book	O	O	NN	P1_book
+6-9	I	6-11_nsubj	looking	PRP	P1_customer
+6-10	was	6-11_aux	looking	VBD	O
+6-11	looking	O	O	VBG	O
+6-12	for	6-11_prep	looking	IN	O
+6-13	and	O	O	O	O
+6-14	it	6-15_nsubj	showed	PRP	P1_institutional_devices
+6-15	showed	6-2_conj_and	typed	VBD	O
+6-16	me	6-15_iobj	showed	PRP	P2_customer
+6-17	the	O	O	DT	O
+6-18	call	O	O	NN	O
+6-19	number	6-15_dobj	showed	NN	P1_section_id
+6-20	,	O	O	O	O
+6-21	a	O	O	DT	O
+6-22	unique	O	O	JJ	O
+6-23	number	O	O	NN	P1_section_id
+6-24	used	O	O	VBN	O
+6-25	to	6-26_aux	tell	TO	O
+6-26	tell	6-24_xcomp	used	VB	O
+6-27	where	6-31_advmod	located	WRB	O
+6-28	the	O	O	DT	O
+6-29	book	6-31_nsubjpass	located	NN	P1_book
+6-30	is	6-31_auxpass	located	VBZ	O
+6-31	located	6-26_ccomp	tell	VBN	O
+6-32	in	O	O	O	O
+6-33	the	O	O	DT	O
+6-34	library	6-31_prep_in	located	NN	P1_library
+6-35	.	O	O	O	O
+
+#id=7
+#text=I wrote the call number down and looked at the stacks of books . 
+7-1	I	7-2_nsubj	wrote	PRP	P1_customer
+7-2	wrote	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	call	O	O	NN	O
+7-5	number	7-2_dobj	wrote	NN	P1_section_id
+7-6	down	7-2_prt	wrote	RP	O
+7-7	and	O	O	O	O
+7-8	looked	7-2_conj_and	wrote	VBD	O
+7-9	at	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	stacks	7-8_prep_at	looked	NNS	O
+7-12	of	O	O	O	O
+7-13	books	O	O	NNS	P2_book
+7-14	.	O	O	O	O
+
+#id=8
+#text=Each stack had a range of numbers printed on a card taped to the side of the bookshelf . 
+8-1	Each	O	O	DT	O
+8-2	stack	8-3_nsubj	had	NN	O
+8-3	had	O	O	VBD	O
+8-4	a	O	O	DT	O
+8-5	range	8-3_dobj	had	NN	O
+8-6	of	O	O	O	O
+8-7	numbers	O	O	NNS	P1_section_id
+8-8	printed	O	O	VBN	O
+8-9	on	O	O	O	O
+8-10	a	O	O	DT	O
+8-11	card	8-8_prep_on	printed	NN	P1_NPart_card
+8-12	taped	O	O	VBN	O
+8-13	to	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	side	8-12_prep_to	taped	NN	O
+8-16	of	O	O	O	O
+8-17	the	O	O	DT	O
+8-18	bookshelf	O	O	NN	P1_shelf
+8-19	.	O	O	O	O
+
+#id=9
+#text=I looked for my call number on the printed cards on the side of the bookshelves , then searched the books until I found the one I was looking for . 
+9-1	I	9-2_nsubj	looked	PRP	P1_customer
+9-2	looked	9-19_ccomp	searched	VBD	O
+9-3	for	O	O	O	O
+9-4	my	O	O	PRP$	P1_customer
+9-5	call	O	O	NN	O
+9-6	number	9-2_prep_for	looked	NN	P1_section_id
+9-7	on	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	printed	O	O	VBN	O
+9-10	cards	9-2_prep_on	looked	NNS	P1_NPart_cards
+9-11	on	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	side	O	O	NN	O
+9-14	of	O	O	O	O
+9-15	the	O	O	DT	O
+9-16	bookshelves	O	O	NNS	P2_shelf
+9-17	,	O	O	O	O
+9-18	then	9-19_nsubj	searched	RB	O
+9-19	searched	O	O	VBD	O
+9-20	the	O	O	DT	O
+9-21	books	9-19_dobj	searched	NNS	P2_book
+9-22	until	9-24_mark	found	IN	O
+9-23	I	9-24_nsubj	found	PRP	P1_customer
+9-24	found	9-19_advcl	searched	VBD	O
+9-25	the	O	O	DT	O
+9-26	one	9-24_dobj	found	NN	P1_book
+9-27	I	9-29_nsubj	looking	PRP	P1_customer
+9-28	was	9-29_aux	looking	VBD	O
+9-29	looking	O	O	VBG	O
+9-30	for	9-29_prep	looking	IN	O
+9-31	.	O	O	O	O
+
+#id=10
+#text=I brought the book up to the front of the library . 
+10-1	I	10-2_nsubj	brought	PRP	P1_customer
+10-2	brought	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	book	10-2_dobj	brought	NN	P1_book
+10-5	up	10-2_prt	brought	RP	O
+10-6	to	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	front	10-2_prep_to	brought	NN	P1_location_library
+10-9	of	O	O	O	O
+10-10	the	O	O	DT	O
+10-11	library	O	O	NN	P1_library
+10-12	.	O	O	O	O
+
+#id=11
+#text=The librarian took my library card and scanned it and my book with a special scanner . 
+11-1	The	O	O	DT	O
+11-2	librarian	11-3_nsubj	took	NN	P1_staff
+11-3	took	O	O	VBD	O
+11-4	my	O	O	PRP$	P1_customer
+11-5	library	O	O	NN	O
+11-6	card	11-3_dobj	took	NN	P1_library_card
+11-7	and	O	O	O	O
+11-8	scanned	11-3_conj_and	took	VBD	O
+11-9	it	11-8_dobj	scanned	PRP	P1_library_card
+11-10	and	O	O	O	O
+11-11	my	O	O	PRP$	P1_customer
+11-12	book	O	O	NN	P1_book
+11-13	with	O	O	O	O
+11-14	a	O	O	DT	O
+11-15	special	O	O	JJ	O
+11-16	scanner	11-8_prep_with	scanned	NN	P2_institutional_devices
+11-17	.	O	O	O	O
+
+#id=12
+#text=She gave me a piece of paper inside the book that said I needed to bring it back within 2 weeks . 
+12-1	She	12-2_nsubj	gave	PRP	P1_staff
+12-2	gave	O	O	VBD	O
+12-3	me	12-2_iobj	gave	PRP	P1_customer
+12-4	a	O	O	DT	O
+12-5	piece	12-2_dobj	gave	NN	P1_receipt
+12-6	of	O	O	O	O
+12-7	paper	O	O	NN	P1_receipt
+12-8	inside	O	O	O	O
+12-9	the	O	O	DT	O
+12-10	book	O	O	NN	P1_book
+12-11	that	12-12_nsubj	said	WDT	O
+12-12	said	O	O	VBD	O
+12-13	I	12-14_nsubj	needed	PRP	P1_customer
+12-14	needed	12-12_ccomp	said	VBD	O
+12-15	to	12-16_aux	bring	TO	O
+12-16	bring	12-14_xcomp	needed	VB	O
+12-17	it	12-16_dobj	bring	PRP	P1_book
+12-18	back	12-16_prt	bring	RP	O
+12-19	within	O	O	O	O
+12-20	2	O	O	CD	O
+12-21	weeks	12-16_prep_within	bring	NNS	P1_NPart_weeks
+12-22	.	O	O	O	O
+
+#id=13
+#text=I brought the book home and read it , then brought it back to the librarian . 
+13-1	I	13-2_nsubj	brought	PRP	P1_customer
+13-2	brought	O	O	VBD	O
+13-3	the	O	O	DT	O
+13-4	book	O	O	NN	P1_book
+13-5	home	13-2_dobj	brought	NN	P1_NPart_home
+13-6	and	O	O	O	O
+13-7	read	13-2_conj_and	brought	VBD	O
+13-8	it	13-7_dobj	read	PRP	P1_book
+13-9	,	O	O	O	O
+13-10	then	13-11_advmod	brought	RB	O
+13-11	brought	13-2_dep	brought	VBD	O
+13-12	it	13-11_dobj	brought	PRP	P1_book
+13-13	back	13-11_prt	brought	RP	O
+13-14	to	O	O	O	O
+13-15	the	O	O	DT	O
+13-16	librarian	13-11_prep_to	brought	NN	P1_staff
+13-17	.	O	O	O	O

@@ -1,0 +1,247 @@
+#id=1
+#text=I was feeling like relaxing after a long day , so I had the idea to take a bath . 
+1-1	I	1-3_nsubj	feeling	PRP	P1_bather
+1-2	was	1-3_aux	feeling	VBD	O
+1-3	feeling	O	O	VBG	O
+1-4	like	O	O	O	O
+1-5	relaxing	1-3_prepc_like	feeling	VBG	O
+1-6	after	O	O	O	O
+1-7	a	O	O	DT	O
+1-8	long	O	O	JJ	O
+1-9	day	1-5_prep_after	relaxing	NN	P1_NPart_day
+1-10	,	O	O	O	O
+1-11	so	1-3_dep	feeling	IN	O
+1-12	I	1-13_nsubj	had	PRP	P1_bather
+1-13	had	1-3_parataxis	feeling	VBD	O
+1-14	the	O	O	DT	O
+1-15	idea	1-13_dobj	had	NN	P1_NPart_idea
+1-16	to	1-17_aux	take	TO	O
+1-17	take	O	O	VB	O
+1-18	a	O	O	DT	O
+1-19	bath	1-17_dobj	take	NN	O
+1-20	.	O	O	O	O
+
+#id=2
+#text=I went to the bathroom . 
+2-1	I	2-2_nsubj	went	PRP	P1_bather
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	bathroom	2-2_prep_to	went	NN	P1_bathroom
+2-6	.	O	O	O	O
+
+#id=3
+#text=I removed my clothes . 
+3-1	I	3-2_nsubj	removed	PRP	P1_bather
+3-2	removed	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_bather
+3-4	clothes	3-2_dobj	removed	NNS	P1_clothes
+3-5	.	O	O	O	O
+
+#id=4
+#text=Then I started the water and adjusted the temperature with the faucet . 
+4-1	Then	4-3_advmod	started	RB	O
+4-2	I	4-3_nsubj	started	PRP	P1_bather
+4-3	started	O	O	VBD	O
+4-4	the	O	O	DT	O
+4-5	water	4-3_dobj	started	NN	P1_water
+4-6	and	O	O	O	O
+4-7	adjusted	4-3_conj_and	started	VBD	O
+4-8	the	O	O	DT	O
+4-9	temperature	4-7_dobj	adjusted	NN	P1_temperature
+4-10	with	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	faucet	4-7_prep_with	adjusted	NN	P1_tap
+4-13	.	O	O	O	O
+
+#id=5
+#text=I grabbed some bath oils and put them in the water . 
+5-1	I	5-2_nsubj	grabbed	PRP	P1_bather
+5-2	grabbed	O	O	VBD	O
+5-3	some	O	O	DT	O
+5-4	bath	O	O	NN	O
+5-5	oils	5-2_dobj	grabbed	NNS	P1_bath_means
+5-6	and	O	O	O	O
+5-7	put	5-2_conj_and	grabbed	VBD	O
+5-8	them	5-7_dobj	put	PRP	P1_bath_means
+5-9	in	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	water	5-7_prep_in	put	NN	P1_water
+5-12	.	O	O	O	O
+
+#id=6
+#text=Once the water was high enough , I stepped into the tub . 
+6-1	Once	O	O	IN	O
+6-2	the	O	O	DT	O
+6-3	water	O	O	NN	P1_water
+6-4	was	O	O	VBD	O
+6-5	high	6-9_advcl	stepped	JJ	O
+6-6	enough	O	O	RB	O
+6-7	,	O	O	O	O
+6-8	I	6-9_nsubj	stepped	PRP	P1_bather
+6-9	stepped	O	O	VBD	O
+6-10	into	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	tub	6-9_prep_into	stepped	NN	P1_bathtub
+6-13	.	O	O	O	O
+
+#id=7
+#text=It was very warm . 
+7-1	It	O	O	PRP	O
+7-2	was	O	O	VBD	O
+7-3	very	O	O	RB	O
+7-4	warm	O	O	JJ	O
+7-5	.	O	O	O	O
+
+#id=8
+#text=I slid my body underneath the water . 
+8-1	I	8-2_nsubj	slid	PRP	P1_bather
+8-2	slid	O	O	VBD	O
+8-3	my	O	O	PRP$	P1_bather
+8-4	body	8-2_dobj	slid	NN	P1_body_part
+8-5	underneath	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	water	8-2_prep_underneath	slid	NN	P1_water
+8-8	.	O	O	O	O
+
+#id=9
+#text=Steam drifted up from the surface of the water . 
+9-1	Steam	9-2_nsubj	drifted	NNP	P1_other
+9-2	drifted	O	O	VBD	O
+9-3	up	9-2_prt	drifted	RP	O
+9-4	from	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	surface	9-2_prep_from	drifted	NN	P1_NPart_surface
+9-7	of	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	water	O	O	NN	P1_water
+9-10	.	O	O	O	O
+
+#id=10
+#text=I felt my muscles loosening up and relaxing . 
+10-1	I	10-2_nsubj	felt	PRP	P1_bather
+10-2	felt	O	O	VBD	O
+10-3	my	O	O	PRP$	P1_bather
+10-4	muscles	10-2_dobj	felt	NNS	P2_body_part
+10-5	loosening	10-2_dep	felt	VBG	O
+10-6	up	10-5_prt	loosening	RP	O
+10-7	and	O	O	O	O
+10-8	relaxing	10-5_conj_and	loosening	VBG	O
+10-9	.	O	O	O	O
+
+#id=11
+#text=The bath oils gave off a minty aroma . 
+11-1	The	O	O	DT	O
+11-2	bath	O	O	NN	O
+11-3	oils	11-4_nsubj	gave	NNS	P1_bath_means
+11-4	gave	O	O	VBD	O
+11-5	off	11-4_prt	gave	RP	O
+11-6	a	O	O	DT	O
+11-7	minty	O	O	JJ	O
+11-8	aroma	11-4_dobj	gave	NN	P1_NPart_aroma
+11-9	.	O	O	O	O
+
+#id=12
+#text=After some time luxuriating in the water , I took my washcloth and put some soap on it . 
+12-1	After	O	O	O	O
+12-2	some	O	O	DT	O
+12-3	time	12-10_prep_after	took	NN	P1_NPart_time
+12-4	luxuriating	O	O	VBG	O
+12-5	in	O	O	O	O
+12-6	the	O	O	DT	O
+12-7	water	12-4_prep_in	luxuriating	NN	P1_water
+12-8	,	O	O	O	O
+12-9	I	12-10_nsubj	took	PRP	P1_bather
+12-10	took	O	O	VBD	O
+12-11	my	O	O	PRP$	P1_bather
+12-12	washcloth	12-10_dobj	took	NN	P1_washing_tools
+12-13	and	O	O	O	O
+12-14	put	12-10_conj_and	took	VBD	O
+12-15	some	O	O	DT	O
+12-16	soap	12-14_dobj	put	NN	P2_washing_tools
+12-17	on	O	O	O	O
+12-18	it	12-14_prep_on	put	PRP	P1_washing_tools
+12-19	.	O	O	O	O
+
+#id=13
+#text=I began to soap up my skin . 
+13-1	I	13-2_nsubj	began	PRP	P1_bather
+13-2	began	O	O	VBD	O
+13-3	to	13-4_aux	soap	TO	O
+13-4	soap	13-2_xcomp	began	VB	O
+13-5	up	13-4_prt	soap	RP	O
+13-6	my	O	O	PRP$	P1_bather
+13-7	skin	13-4_dobj	soap	NN	P3_body_part
+13-8	.	O	O	O	O
+
+#id=14
+#text=I started with my face , then worked my way down to my feet . 
+14-1	I	14-2_nsubj	started	PRP	P1_bather
+14-2	started	O	O	VBD	O
+14-3	with	O	O	O	O
+14-4	my	O	O	PRP$	P1_bather
+14-5	face	14-2_prep_with	started	NN	P4_body_part
+14-6	,	O	O	O	O
+14-7	then	14-8_advmod	worked	RB	O
+14-8	worked	14-2_dep	started	VBD	O
+14-9	my	O	O	PRP$	P1_bather
+14-10	way	14-8_dobj	worked	NN	P1_NPart_way
+14-11	down	14-8_prt	worked	RP	O
+14-12	to	O	O	O	O
+14-13	my	O	O	PRP$	P1_bather
+14-14	feet	14-8_prep_to	worked	NNS	P5_body_part
+14-15	.	O	O	O	O
+
+#id=15
+#text=Once I went over my whole body , I rinsed off the washcloth and hung it up . 
+15-1	Once	15-3_mark	went	IN	O
+15-2	I	15-3_nsubj	went	PRP	P1_bather
+15-3	went	15-10_advcl	rinsed	VBD	O
+15-4	over	O	O	O	O
+15-5	my	O	O	PRP$	P1_bather
+15-6	whole	O	O	JJ	O
+15-7	body	15-3_prep_over	went	NN	P1_body_part
+15-8	,	O	O	O	O
+15-9	I	15-10_nsubj	rinsed	PRP	P1_bather
+15-10	rinsed	O	O	VBD	O
+15-11	off	15-10_prt	rinsed	RP	O
+15-12	the	O	O	DT	O
+15-13	washcloth	15-10_dobj	rinsed	NN	P1_washing_tools
+15-14	and	O	O	O	O
+15-15	hung	15-10_conj_and	rinsed	VBD	O
+15-16	it	15-15_dobj	hung	PRP	P1_washing_tools
+15-17	up	15-15_prt	hung	RP	O
+15-18	.	O	O	O	O
+
+#id=16
+#text=The water began to feel lukewarm , so I decided to end my bath . 
+16-1	The	O	O	DT	O
+16-2	water	16-3_nsubj	began	NN	P1_water
+16-3	began	O	O	VBD	O
+16-4	to	16-5_aux	feel	TO	O
+16-5	feel	16-3_xcomp	began	VB	O
+16-6	lukewarm	16-5_dobj	feel	JJ	O
+16-7	,	O	O	O	O
+16-8	so	16-3_dep	began	IN	O
+16-9	I	16-10_nsubj	decided	PRP	P1_bather
+16-10	decided	16-3_parataxis	began	VBD	O
+16-11	to	16-12_aux	end	TO	O
+16-12	end	16-10_xcomp	decided	VB	O
+16-13	my	O	O	PRP$	P1_bather
+16-14	bath	16-12_dobj	end	NN	P1_bath
+16-15	.	O	O	O	O
+
+#id=17
+#text=I took out the stopper and stepped out of the tub . 
+17-1	I	17-2_nsubj	took	PRP	P1_bather
+17-2	took	O	O	VBD	O
+17-3	out	17-2_prt	took	RP	O
+17-4	the	O	O	DT	O
+17-5	stopper	17-2_dobj	took	NN	P1_plug
+17-6	and	O	O	O	O
+17-7	stepped	17-2_conj_and	took	VBD	O
+17-8	out	O	O	O	O
+17-9	of	O	O	O	O
+17-10	the	O	O	DT	O
+17-11	tub	17-7_prep_out_of	stepped	NN	P1_bathtub
+17-12	.	O	O	O	O

@@ -1,0 +1,230 @@
+#id=1
+#text=Today I planted a tree . 
+1-1	Today	1-3_tmod	planted	NN	O
+1-2	I	1-3_nsubj	planted	PRP	P1_gardener
+1-3	planted	O	O	VBD	O
+1-4	a	O	O	DT	O
+1-5	tree	1-3_dobj	planted	NN	P1_tree
+1-6	.	O	O	O	O
+
+#id=2
+#text=I used a small evergreen tree that I had purchased from a mail order company a few weeks before . 
+2-1	I	2-2_nsubj	used	PRP	P1_gardener
+2-2	used	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	small	O	O	JJ	O
+2-5	evergreen	O	O	NN	O
+2-6	tree	2-2_dobj	used	NN	P1_tree
+2-7	that	2-10_mark	purchased	IN	O
+2-8	I	2-10_nsubj	purchased	PRP	P1_gardener
+2-9	had	2-10_aux	purchased	VBD	O
+2-10	purchased	2-2_ccomp	used	VBN	O
+2-11	from	O	O	O	O
+2-12	a	O	O	DT	O
+2-13	mail	O	O	NN	O
+2-14	order	O	O	NN	O
+2-15	company	2-10_prep_from	purchased	NN	P1_other
+2-16	a	O	O	DT	O
+2-17	few	O	O	JJ	O
+2-18	weeks	O	O	NNS	P1_time
+2-19	before	O	O	IN	O
+2-20	.	O	O	O	O
+
+#id=3
+#text=Since it arrived just the day before , I had to plant it today , before it died . 
+3-1	Since	3-3_mark	arrived	IN	O
+3-2	it	3-3_nsubj	arrived	PRP	P1_tree
+3-3	arrived	3-10_advcl	had	VBD	O
+3-4	just	O	O	RB	O
+3-5	the	O	O	DT	O
+3-6	day	3-3_tmod	arrived	NN	P2_time
+3-7	before	3-3_prep	arrived	IN	O
+3-8	,	O	O	O	O
+3-9	I	3-10_nsubj	had	PRP	P1_gardener
+3-10	had	O	O	VBD	O
+3-11	to	3-12_aux	plant	TO	O
+3-12	plant	3-10_xcomp	had	VB	O
+3-13	it	3-12_dobj	plant	PRP	P1_tree
+3-14	today	3-12_tmod	plant	NN	O
+3-15	,	O	O	O	O
+3-16	before	3-18_mark	died	IN	O
+3-17	it	3-18_nsubj	died	PRP	P1_tree
+3-18	died	3-12_advcl	plant	VBD	O
+3-19	.	O	O	O	O
+
+#id=4
+#text=First I gathered up all the things I would need . 
+4-1	First	4-3_advmod	gathered	RB	O
+4-2	I	4-3_nsubj	gathered	PRP	P1_gardener
+4-3	gathered	O	O	VBD	O
+4-4	up	4-3_prt	gathered	RP	O
+4-5	all	O	O	PDT	O
+4-6	the	O	O	DT	O
+4-7	things	4-3_dobj	gathered	NNS	P1_gardening_tool
+4-8	I	4-10_nsubj	need	PRP	P1_gardener
+4-9	would	4-10_aux	need	MD	O
+4-10	need	O	O	VB	O
+4-11	.	O	O	O	O
+
+#id=5
+#text=I got my gloves , my shovel , my small trowel and my gardening apron , as well as some potting soil I had bought from the store earlier in the week . 
+5-1	I	5-2_nsubj	got	PRP	P1_gardener
+5-2	got	O	O	VBD	O
+5-3	my	O	O	PRP$	P1_gardener
+5-4	gloves	5-2_dobj	got	NNS	O
+5-5	,	O	O	O	O
+5-6	my	O	O	PRP$	O
+5-7	shovel	O	O	NN	O
+5-8	,	O	O	O	O
+5-9	my	O	O	PRP$	O
+5-10	small	O	O	JJ	O
+5-11	trowel	O	O	NN	O
+5-12	and	O	O	O	O
+5-13	my	O	O	PRP$	O
+5-14	gardening	O	O	VBG	O
+5-15	apron	O	O	NN	O
+5-16	,	O	O	O	O
+5-17	as	O	O	O	O
+5-18	well	O	O	O	O
+5-19	as	O	O	O	O
+5-20	some	O	O	DT	O
+5-21	potting	O	O	JJ	O
+5-22	soil	O	O	NN	P1_gardening_tool
+5-23	I	5-25_nsubj	bought	PRP	P2_gardener
+5-24	had	5-25_aux	bought	VBD	O
+5-25	bought	O	O	VBN	O
+5-26	from	O	O	O	O
+5-27	the	O	O	DT	O
+5-28	store	O	O	NN	P1_shop
+5-29	earlier	5-25_prepc_from	bought	RBR	O
+5-30	in	O	O	O	O
+5-31	the	O	O	DT	O
+5-32	week	5-25_prep_in	bought	NN	P3_time
+5-33	.	O	O	O	O
+
+#id=6
+#text=I carried all this to the spot I had picked out for my new tree . 
+6-1	I	6-2_nsubj	carried	PRP	P2_gardener
+6-2	carried	O	O	VBD	O
+6-3	all	O	O	PDT	O
+6-4	this	6-2_dobj	carried	DT	P1_gardening_tool
+6-5	to	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	spot	6-2_prep_to	carried	NN	P1_location_garden
+6-8	I	6-10_nsubj	picked	PRP	P2_gardener
+6-9	had	6-10_aux	picked	VBD	O
+6-10	picked	O	O	VBN	O
+6-11	out	6-10_prt	picked	RP	O
+6-12	for	O	O	O	O
+6-13	my	O	O	PRP$	P2_gardener
+6-14	new	O	O	JJ	O
+6-15	tree	6-10_prep_for	picked	NN	P1_tree
+6-16	.	O	O	O	O
+
+#id=7
+#text=The first thing I did when I arrived at my spot was to take my shovel and dig a hole that was 12 inches deep . 
+7-1	The	O	O	DT	O
+7-2	first	O	O	JJ	O
+7-3	thing	7-12_nsubj	was	NN	O
+7-4	I	7-5_nsubj	did	PRP	P2_gardener
+7-5	did	O	O	VBD	O
+7-6	when	7-8_advmod	arrived	WRB	O
+7-7	I	7-8_nsubj	arrived	PRP	P2_gardener
+7-8	arrived	7-5_advcl	did	VBD	O
+7-9	at	O	O	O	O
+7-10	my	O	O	PRP$	P2_gardener
+7-11	spot	7-8_prep_at	arrived	NN	P1_location_garden
+7-12	was	O	O	VBD	O
+7-13	to	7-14_aux	take	TO	O
+7-14	take	7-12_xcomp	was	VB	O
+7-15	my	O	O	PRP$	P2_gardener
+7-16	shovel	7-14_dobj	take	NN	P2_gardening_tool
+7-17	and	O	O	O	O
+7-18	dig	7-14_conj_and	take	VB	O
+7-19	a	O	O	DT	O
+7-20	hole	7-18_dobj	dig	NN	P1_hole
+7-21	that	O	O	WDT	O
+7-22	was	O	O	VBD	O
+7-23	12	O	O	CD	O
+7-24	inches	O	O	NNS	P1_NPart_inches
+7-25	deep	O	O	JJ	O
+7-26	.	O	O	O	O
+
+#id=8
+#text=Next , I took the tree and removed that burlap sack that encased the roots , and placed the tree in the hole . 
+8-1	Next	8-4_advmod	took	RB	O
+8-2	,	O	O	O	O
+8-3	I	8-4_nsubj	took	PRP	P2_gardener
+8-4	took	O	O	VBD	O
+8-5	the	O	O	DT	O
+8-6	tree	8-4_dobj	took	NN	P1_tree
+8-7	and	O	O	O	O
+8-8	removed	8-4_conj_and	took	VBD	O
+8-9	that	O	O	DT	O
+8-10	burlap	O	O	NN	O
+8-11	sack	8-8_dobj	removed	NN	P1_wrapping
+8-12	that	8-13_nsubj	encased	WDT	O
+8-13	encased	O	O	VBD	O
+8-14	the	O	O	DT	O
+8-15	roots	8-13_dobj	encased	NNS	P1_root
+8-16	,	O	O	O	O
+8-17	and	O	O	O	O
+8-18	placed	8-13_conj_and	encased	VBD	O
+8-19	the	O	O	DT	O
+8-20	tree	8-18_dobj	placed	NN	P1_tree
+8-21	in	O	O	O	O
+8-22	the	O	O	DT	O
+8-23	hole	8-18_prep_in	placed	NN	P1_hole
+8-24	.	O	O	O	O
+
+#id=9
+#text=I then used my small trowel to fill in the hole with the potting soil . 
+9-1	I	9-3_nsubj	used	PRP	P2_gardener
+9-2	then	9-3_advmod	used	RB	O
+9-3	used	O	O	VBD	O
+9-4	my	O	O	PRP$	P2_gardener
+9-5	small	O	O	JJ	O
+9-6	trowel	9-3_dobj	used	NN	P3_gardening_tool
+9-7	to	9-8_aux	fill	TO	O
+9-8	fill	9-3_vmod	used	VB	O
+9-9	in	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	hole	9-8_prep_in	fill	NN	P1_hole
+9-12	with	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	potting	O	O	VBG	O
+9-15	soil	O	O	NN	P1_dirt
+9-16	.	O	O	O	O
+
+#id=10
+#text=After I was done I used the large shovel to tamp the dirt down around the tree , to pack it tight so the tree would n't fall over . 
+10-1	After	10-4_mark	done	IN	O
+10-2	I	10-4_nsubjpass	done	PRP	P2_gardener
+10-3	was	10-4_auxpass	done	VBD	O
+10-4	done	10-6_advcl	used	VBN	O
+10-5	I	10-6_nsubj	used	PRP	P2_gardener
+10-6	used	O	O	VBD	O
+10-7	the	O	O	DT	O
+10-8	large	O	O	JJ	O
+10-9	shovel	10-6_dobj	used	NN	P4_gardening_tool
+10-10	to	10-11_aux	tamp	TO	O
+10-11	tamp	O	O	VB	O
+10-12	the	O	O	DT	O
+10-13	dirt	10-11_dobj	tamp	NN	P1_dirt
+10-14	down	10-11_prt	tamp	RP	O
+10-15	around	O	O	O	O
+10-16	the	O	O	DT	O
+10-17	tree	10-11_prep_around	tamp	NN	P1_tree
+10-18	,	O	O	O	O
+10-19	to	10-20_aux	pack	TO	O
+10-20	pack	10-6_vmod	used	VB	O
+10-21	it	10-20_dobj	pack	PRP	P1_dirt
+10-22	tight	10-20_advmod	pack	RB	O
+10-23	so	10-28_mark	fall	IN	O
+10-24	the	O	O	DT	O
+10-25	tree	10-28_nsubj	fall	NN	P1_tree
+10-26	would	10-28_aux	fall	MD	O
+10-27	n't	10-28_neg	fall	RB	O
+10-28	fall	10-20_advcl	pack	VB	O
+10-29	over	10-28_prt	fall	RP	O
+10-30	.	O	O	O	O

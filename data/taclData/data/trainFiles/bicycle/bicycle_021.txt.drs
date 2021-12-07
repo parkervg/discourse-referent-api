@@ -1,0 +1,179 @@
+#id=1
+#text=One time I drove over a piece of glass and it put a hole into my bicycle tire . 
+1-1	One	O	O	CD	O
+1-2	time	1-4_dep	drove	NN	O
+1-3	I	1-4_nsubj	drove	PRP	P1_rider
+1-4	drove	O	O	VBD	O
+1-5	over	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	piece	1-4_prep_over	drove	NN	P1_object_damage
+1-8	of	O	O	O	O
+1-9	glass	O	O	NN	P1_object_damage
+1-10	and	O	O	O	O
+1-11	it	1-12_nsubj	put	PRP	P1_object_damage
+1-12	put	1-4_conj_and	drove	VBD	O
+1-13	a	O	O	DT	O
+1-14	hole	1-12_dobj	put	NN	P2_object_damage
+1-15	into	O	O	O	O
+1-16	my	O	O	PRP$	P1_rider
+1-17	bicycle	O	O	NN	O
+1-18	tire	1-12_prep_into	put	NN	P1_tire
+1-19	.	O	O	O	O
+
+#id=2
+#text=I had to walk my bicycle all the way home , which was very unpleasant , and then I could not use my bike again until I had fixed it . 
+2-1	I	2-2_nsubj	had	PRP	P1_rider
+2-2	had	O	O	VBD	O
+2-3	to	2-4_aux	walk	TO	O
+2-4	walk	2-2_xcomp	had	VB	O
+2-5	my	O	O	PRP$	P1_rider
+2-6	bicycle	2-4_dep	walk	NN	P1_bicycle
+2-7	all	O	O	PDT	O
+2-8	the	O	O	DT	O
+2-9	way	O	O	NN	O
+2-10	home	2-4_dobj	walk	NN	P1_location_repair
+2-11	,	O	O	O	O
+2-12	which	O	O	WDT	O
+2-13	was	O	O	VBD	O
+2-14	very	O	O	RB	O
+2-15	unpleasant	O	O	JJ	O
+2-16	,	O	O	O	O
+2-17	and	O	O	O	O
+2-18	then	2-22_advmod	use	RB	O
+2-19	I	2-22_nsubj	use	PRP	P1_rider
+2-20	could	2-22_aux	use	MD	O
+2-21	not	2-22_neg	use	RB	O
+2-22	use	2-2_conj_and	had	VB	O
+2-23	my	O	O	PRP$	P1_rider
+2-24	bike	2-22_dobj	use	NN	P1_bicycle
+2-25	again	2-22_advmod	use	RB	O
+2-26	until	2-29_mark	fixed	IN	O
+2-27	I	2-29_nsubj	fixed	PRP	P1_rider
+2-28	had	2-29_aux	fixed	VBD	O
+2-29	fixed	2-22_advcl	use	VBN	O
+2-30	it	2-29_dobj	fixed	PRP	P1_bicycle
+2-31	.	O	O	O	O
+
+#id=3
+#text=So I looked up online how to fix a punctured tire , and went to the hardware store to pick up the necessary tools . 
+3-1	So	3-3_dep	looked	IN	O
+3-2	I	3-3_nsubj	looked	PRP	P1_rider
+3-3	looked	O	O	VBD	O
+3-4	up	3-3_prt	looked	RP	O
+3-5	online	3-3_xcomp	looked	VBG	O
+3-6	how	3-8_advmod	fix	WRB	O
+3-7	to	3-8_aux	fix	TO	O
+3-8	fix	3-5_ccomp	online	VB	O
+3-9	a	O	O	DT	O
+3-10	punctured	O	O	JJ	O
+3-11	tire	3-8_dobj	fix	NN	P1_tire
+3-12	,	O	O	O	O
+3-13	and	O	O	O	O
+3-14	went	3-3_conj_and	looked	VBD	O
+3-15	to	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	hardware	O	O	NN	O
+3-18	store	3-14_prep_to	went	NN	P1_shop
+3-19	to	3-20_aux	pick	TO	O
+3-20	pick	3-14_xcomp	went	VB	O
+3-21	up	3-20_prt	pick	RP	O
+3-22	the	O	O	DT	O
+3-23	necessary	O	O	JJ	O
+3-24	tools	3-20_dobj	pick	NNS	P1_tool
+3-25	.	O	O	O	O
+
+#id=4
+#text=After purchasing these tools I pumped some air into the tire to locate the hole and then I took the tire off of the wheel to repair it . 
+4-1	After	O	O	O	O
+4-2	purchasing	4-6_prepc_after	pumped	VBG	O
+4-3	these	O	O	DT	O
+4-4	tools	4-2_dobj	purchasing	NNS	P1_tool
+4-5	I	4-6_nsubj	pumped	PRP	P1_rider
+4-6	pumped	O	O	VBD	O
+4-7	some	O	O	DT	O
+4-8	air	4-6_dobj	pumped	NN	P1_air
+4-9	into	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	tire	4-6_prep_into	pumped	NN	P1_tire
+4-12	to	4-13_aux	locate	TO	O
+4-13	locate	4-6_vmod	pumped	VB	O
+4-14	the	O	O	DT	O
+4-15	hole	4-13_dobj	locate	NN	P2_object_damage
+4-16	and	O	O	O	O
+4-17	then	4-19_advmod	took	RB	O
+4-18	I	4-19_nsubj	took	PRP	P1_rider
+4-19	took	4-6_conj_and	pumped	VBD	O
+4-20	the	O	O	DT	O
+4-21	tire	4-19_dobj	took	NN	P1_tire
+4-22	off	O	O	O	O
+4-23	of	O	O	O	O
+4-24	the	O	O	DT	O
+4-25	wheel	4-19_prep_off_of	took	NN	P1_wheel
+4-26	to	4-27_aux	repair	TO	O
+4-27	repair	4-19_vmod	took	VB	O
+4-28	it	4-27_dobj	repair	PRP	P1_tire
+4-29	.	O	O	O	O
+
+#id=5
+#text=I followed the directions on the repair kit which were actually very simple . 
+5-1	I	5-2_nsubj	followed	PRP	P1_rider
+5-2	followed	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	directions	5-2_dobj	followed	NNS	P1_other
+5-5	on	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	repair	O	O	NN	O
+5-8	kit	5-2_prep_on	followed	NN	P2_tool
+5-9	which	O	O	WDT	O
+5-10	were	O	O	VBD	O
+5-11	actually	O	O	RB	O
+5-12	very	O	O	RB	O
+5-13	simple	O	O	JJ	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=After I had patched the hole , I waited for the adhesive material to dry and then I took the bike out for a short test run to make sure that if the tire failed again I would not be far from home . 
+6-1	After	6-4_mark	patched	IN	O
+6-2	I	6-4_nsubj	patched	PRP	P1_rider
+6-3	had	6-4_aux	patched	VBD	O
+6-4	patched	6-9_advcl	waited	VBN	O
+6-5	the	O	O	DT	O
+6-6	hole	6-4_dobj	patched	NN	P2_object_damage
+6-7	,	O	O	O	O
+6-8	I	6-9_nsubj	waited	PRP	P1_rider
+6-9	waited	O	O	VBD	O
+6-10	for	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	adhesive	O	O	JJ	O
+6-13	material	6-9_prep_for	waited	NN	P1_patch
+6-14	to	6-15_aux	dry	TO	O
+6-15	dry	6-9_xcomp	waited	VB	O
+6-16	and	O	O	O	O
+6-17	then	6-19_advmod	took	RB	O
+6-18	I	6-19_nsubj	took	PRP	P1_rider
+6-19	took	6-9_conj_and	waited	VBD	O
+6-20	the	O	O	DT	O
+6-21	bike	6-19_dobj	took	NN	P1_bicycle
+6-22	out	6-19_advmod	took	RB	O
+6-23	for	O	O	O	O
+6-24	a	O	O	DT	O
+6-25	short	O	O	JJ	O
+6-26	test	6-19_prep_for	took	NN	O
+6-27	run	O	O	VBN	O
+6-28	to	6-29_aux	make	TO	O
+6-29	make	6-27_xcomp	run	VB	O
+6-30	sure	6-29_acomp	make	JJ	O
+6-31	that	6-40_mark	be	IN	O
+6-32	if	6-35_mark	failed	IN	O
+6-33	the	O	O	DT	O
+6-34	tire	6-35_nsubj	failed	NN	P1_tire
+6-35	failed	6-40_advcl	be	VBD	O
+6-36	again	6-35_advmod	failed	RB	O
+6-37	I	6-40_nsubj	be	PRP	P1_rider
+6-38	would	6-40_aux	be	MD	O
+6-39	not	6-40_neg	be	RB	O
+6-40	be	6-29_ccomp	make	VB	O
+6-41	far	O	O	O	O
+6-42	from	O	O	O	O
+6-43	home	6-40_prep_far_from	be	NN	P1_location_repair
+6-44	.	O	O	O	O

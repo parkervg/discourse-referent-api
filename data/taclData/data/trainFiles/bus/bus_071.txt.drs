@@ -1,0 +1,448 @@
+#id=1
+#text=One afternoon , I decided to go to the library to check out some books and movies . 
+1-1	One	O	O	CD	O
+1-2	afternoon	1-5_nsubj	decided	NN	P1_NPart_afternoon
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	decided	PRP	P1_passenger
+1-5	decided	O	O	VBD	O
+1-6	to	1-7_aux	go	TO	O
+1-7	go	1-5_xcomp	decided	VB	O
+1-8	to	O	O	O	O
+1-9	the	O	O	DT	O
+1-10	library	1-7_prep_to	go	NN	P1_destination
+1-11	to	1-12_aux	check	TO	O
+1-12	check	O	O	VB	O
+1-13	out	1-12_prt	check	RP	O
+1-14	some	O	O	DT	O
+1-15	books	1-12_dobj	check	NNS	P1_NPart_books
+1-16	and	O	O	O	O
+1-17	movies	O	O	NNS	P1_NPart_movies
+1-18	.	O	O	O	O
+
+#id=2
+#text=It was too far away to walk , so I decided to ride the bus . 
+2-1	It	2-2_nsubj	was	PRP	P1_destination
+2-2	was	O	O	VBD	O
+2-3	too	O	O	RB	O
+2-4	far	O	O	RB	O
+2-5	away	2-2_advmod	was	RB	O
+2-6	to	2-7_aux	walk	TO	O
+2-7	walk	2-2_xcomp	was	VB	O
+2-8	,	O	O	O	O
+2-9	so	2-2_dep	was	IN	O
+2-10	I	2-11_nsubj	decided	PRP	P1_passenger
+2-11	decided	2-2_parataxis	was	VBD	O
+2-12	to	2-13_aux	ride	TO	O
+2-13	ride	2-11_xcomp	decided	VB	O
+2-14	the	O	O	DT	O
+2-15	bus	2-13_dobj	ride	NN	P1_bus
+2-16	.	O	O	O	O
+
+#id=3
+#text=I found a map and looked for my home and the library . 
+3-1	I	3-2_nsubj	found	PRP	P2_bus
+3-2	found	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	map	3-2_dobj	found	NN	P1_NPart_map
+3-5	and	O	O	O	O
+3-6	looked	3-2_conj_and	found	VBD	O
+3-7	for	O	O	O	O
+3-8	my	O	O	PRP$	P1_passenger
+3-9	home	3-6_prep_for	looked	NN	P1_NPart_home
+3-10	and	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	library	O	O	NN	P1_destination
+3-13	.	O	O	O	O
+
+#id=4
+#text=On the map , there was a symbol that stood for '' `` Bus '' '' at a street corner a block from where I lived . 
+4-1	On	O	O	O	O
+4-2	the	O	O	DT	O
+4-3	map	4-6_prep_on	was	NN	P2_NPart_map
+4-4	,	O	O	O	O
+4-5	there	4-6_expl	was	EX	O
+4-6	was	O	O	VBD	O
+4-7	a	O	O	DT	O
+4-8	symbol	4-6_nsubj	was	NN	P1_NPart_symbol
+4-9	that	4-10_nsubj	stood	WDT	O
+4-10	stood	O	O	VBD	O
+4-11	for	O	O	O	O
+4-12	''	O	O	O	O
+4-13	``	O	O	O	O
+4-14	Bus	4-10_prep_for	stood	NN	P1_bus
+4-15	''	O	O	O	O
+4-16	''	O	O	O	O
+4-17	at	O	O	O	O
+4-18	a	O	O	DT	O
+4-19	street	O	O	NN	O
+4-20	corner	O	O	NN	P1_NPart_corner
+4-21	a	O	O	DT	O
+4-22	block	4-10_dobj	stood	NN	P1_NPart_block
+4-23	from	O	O	O	O
+4-24	where	4-26_advmod	lived	WRB	O
+4-25	I	4-26_nsubj	lived	PRP	P1_passenger
+4-26	lived	O	O	VBD	O
+4-27	.	O	O	O	O
+
+#id=5
+#text=There was another symbol for the bus on the road right in front of the library . 
+5-1	There	5-2_expl	was	EX	O
+5-2	was	O	O	VBD	O
+5-3	another	O	O	DT	O
+5-4	symbol	5-2_nsubj	was	NN	P2_NPart_symbol
+5-5	for	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	bus	O	O	NN	P1_bus
+5-8	on	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	road	O	O	NN	P1_NPart_road
+5-11	right	O	O	NN	O
+5-12	in	O	O	O	O
+5-13	front	O	O	O	O
+5-14	of	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	library	O	O	NN	P1_destination
+5-17	.	O	O	O	O
+
+#id=6
+#text=I looked up the name of each of these stops on the map , and it said that the Number 5 bus goes to both of these stops . 
+6-1	I	6-2_nsubj	looked	PRP	P1_passenger
+6-2	looked	O	O	VBD	O
+6-3	up	6-2_prt	looked	RP	O
+6-4	the	O	O	DT	O
+6-5	name	6-2_dobj	looked	NN	P1_NPart_name
+6-6	of	O	O	O	O
+6-7	each	O	O	DT	O
+6-8	of	O	O	O	O
+6-9	these	O	O	DT	O
+6-10	stops	O	O	NNS	P1_bus_stop
+6-11	on	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	map	6-2_prep_on	looked	NN	P3_NPart_map
+6-14	,	O	O	O	O
+6-15	and	O	O	O	O
+6-16	it	6-17_nsubj	said	PRP	O
+6-17	said	6-2_conj_and	looked	VBD	O
+6-18	that	6-23_mark	goes	IN	O
+6-19	the	O	O	DT	O
+6-20	Number	O	O	NNP	O
+6-21	5	O	O	CD	O
+6-22	bus	6-23_nsubj	goes	NN	P1_bus
+6-23	goes	6-17_ccomp	said	VBZ	O
+6-24	to	O	O	O	O
+6-25	both	6-23_prep_to	goes	DT	O
+6-26	of	O	O	O	O
+6-27	these	O	O	DT	O
+6-28	stops	O	O	NNS	P1_bus_stop
+6-29	.	O	O	O	O
+
+#id=7
+#text=It also listed what times the Number 5 bus arrives at each of these stops . 
+7-1	It	7-3_nsubj	listed	PRP	O
+7-2	also	7-3_advmod	listed	RB	O
+7-3	listed	O	O	VBD	O
+7-4	what	O	O	WP	O
+7-5	times	7-10_dobj	arrives	NNS	P1_time/date
+7-6	the	O	O	DT	O
+7-7	Number	O	O	NNP	O
+7-8	5	O	O	CD	O
+7-9	bus	7-10_nsubj	arrives	NN	P1_bus
+7-10	arrives	7-3_ccomp	listed	VBZ	O
+7-11	at	O	O	O	O
+7-12	each	7-10_prep_at	arrives	DT	O
+7-13	of	O	O	O	O
+7-14	these	O	O	DT	O
+7-15	stops	O	O	NNS	P1_bus_stop
+7-16	.	O	O	O	O
+
+#id=8
+#text=When it was a few minutes before the bus was due to arrive at the stop at my street corner , I checked my piggy bank and took out some dollar bills and quarters , and then I walked to the bus stop . 
+8-1	When	O	O	WRB	O
+8-2	it	O	O	PRP	O
+8-3	was	O	O	VBD	O
+8-4	a	O	O	DT	O
+8-5	few	O	O	JJ	O
+8-6	minutes	8-23_advcl	checked	NNS	P2_time/date
+8-7	before	O	O	IN	O
+8-8	the	O	O	DT	O
+8-9	bus	O	O	NN	P1_bus
+8-10	was	O	O	VBD	O
+8-11	due	O	O	JJ	O
+8-12	to	8-13_aux	arrive	TO	O
+8-13	arrive	O	O	VB	O
+8-14	at	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	stop	8-13_prep_at	arrive	NN	P2_bus_stop
+8-17	at	O	O	O	O
+8-18	my	O	O	PRP$	P1_passenger
+8-19	street	O	O	NN	O
+8-20	corner	O	O	NN	P2_NPart_corner
+8-21	,	O	O	O	O
+8-22	I	8-23_nsubj	checked	PRP	P1_passenger
+8-23	checked	O	O	VBD	O
+8-24	my	O	O	PRP$	P1_passenger
+8-25	piggy	O	O	JJ	O
+8-26	bank	8-23_dobj	checked	NN	P1_NPart_bank
+8-27	and	O	O	O	O
+8-28	took	8-23_conj_and	checked	VBD	O
+8-29	out	8-28_prt	took	RP	O
+8-30	some	O	O	DT	O
+8-31	dollar	O	O	NN	O
+8-32	bills	8-28_dobj	took	NNS	P1_money
+8-33	and	O	O	O	O
+8-34	quarters	O	O	NNS	P2_money
+8-35	,	O	O	O	O
+8-36	and	O	O	O	O
+8-37	then	8-39_advmod	walked	RB	O
+8-38	I	8-39_nsubj	walked	PRP	P1_passenger
+8-39	walked	8-23_conj_and	checked	VBD	O
+8-40	to	O	O	O	O
+8-41	the	O	O	DT	O
+8-42	bus	O	O	NN	O
+8-43	stop	8-39_prep_to	walked	NN	P2_bus_stop
+8-44	.	O	O	O	O
+
+#id=9
+#text=After waiting for a few minutes , a big bus that said '' `` Number 5 '' '' pulled up , and the driver opened the door . 
+9-1	After	O	O	O	O
+9-2	waiting	9-19_prep_after	pulled	NN	O
+9-3	for	O	O	O	O
+9-4	a	O	O	DT	O
+9-5	few	O	O	JJ	O
+9-6	minutes	O	O	NNS	P3_time/date
+9-7	,	O	O	O	O
+9-8	a	O	O	DT	O
+9-9	big	O	O	JJ	O
+9-10	bus	O	O	NN	P1_bus
+9-11	that	9-12_nsubj	said	WDT	O
+9-12	said	O	O	VBD	O
+9-13	''	O	O	O	O
+9-14	``	O	O	O	O
+9-15	Number	9-19_nsubj	pulled	NNP	P1_other
+9-16	5	O	O	CD	O
+9-17	''	O	O	O	O
+9-18	''	O	O	O	O
+9-19	pulled	O	O	VBD	O
+9-20	up	9-19_prt	pulled	RP	O
+9-21	,	O	O	O	O
+9-22	and	9-25_cc	opened	CC	O
+9-23	the	O	O	DT	O
+9-24	driver	9-25_nsubj	opened	NN	P1_bus_staff
+9-25	opened	9-19_parataxis	pulled	VBD	O
+9-26	the	O	O	DT	O
+9-27	door	9-19_dep	pulled	NN	P1_door
+9-28	.	O	O	O	O
+
+#id=10
+#text=I walked on and read the sign explaining the fare . 
+10-1	I	10-2_nsubj	walked	PRP	P1_passenger
+10-2	walked	O	O	VBD	O
+10-3	on	10-2_prt	walked	RP	O
+10-4	and	O	O	O	O
+10-5	read	10-2_conj_and	walked	VBD	O
+10-6	the	O	O	DT	O
+10-7	sign	10-5_dobj	read	NN	P1_NPart_sign
+10-8	explaining	10-5_xcomp	read	VBG	O
+10-9	the	O	O	DT	O
+10-10	fare	10-8_dobj	explaining	NN	P3_money
+10-11	.	O	O	O	O
+
+#id=11
+#text=I paid exactly what the sign said into the machine near the driver and found a seat near the middle of the bus . 
+11-1	I	11-2_nsubj	paid	PRP	P1_passenger
+11-2	paid	O	O	VBD	O
+11-3	exactly	O	O	RB	O
+11-4	what	11-7_dep	said	WP	O
+11-5	the	O	O	DT	O
+11-6	sign	11-7_nsubj	said	NN	P1_NPart_sign
+11-7	said	11-2_ccomp	paid	VBD	O
+11-8	into	O	O	O	O
+11-9	the	O	O	DT	O
+11-10	machine	11-7_prep_into	said	NN	P1_payment_machine
+11-11	near	O	O	O	O
+11-12	the	O	O	DT	O
+11-13	driver	O	O	NN	P1_bus_staff
+11-14	and	O	O	O	O
+11-15	found	11-7_conj_and	said	VBD	O
+11-16	a	O	O	DT	O
+11-17	seat	11-15_dobj	found	NN	P1_seat_in_bus
+11-18	near	O	O	O	O
+11-19	the	O	O	DT	O
+11-20	middle	11-15_prep_near	found	NN	P1_NPart_middle
+11-21	of	O	O	O	O
+11-22	the	O	O	DT	O
+11-23	bus	O	O	NN	P1_bus
+11-24	.	O	O	O	O
+
+#id=12
+#text=As the bus drove down the road , the names of each stop appeared in writing near the front of the bus . 
+12-1	As	12-4_mark	drove	IN	O
+12-2	the	O	O	DT	O
+12-3	bus	12-4_nsubj	drove	NN	P1_bus
+12-4	drove	12-14_advcl	appeared	VBD	O
+12-5	down	12-4_prt	drove	RP	O
+12-6	the	O	O	DT	O
+12-7	road	12-4_dobj	drove	NN	P1_route
+12-8	,	O	O	O	O
+12-9	the	O	O	DT	O
+12-10	names	12-14_nsubj	appeared	NNS	P1_NPart_names
+12-11	of	O	O	O	O
+12-12	each	O	O	DT	O
+12-13	stop	O	O	NN	P3_bus_stop
+12-14	appeared	O	O	VBD	O
+12-15	in	O	O	O	O
+12-16	writing	12-14_prepc_in	appeared	VBG	P1_NPart_writing
+12-17	near	O	O	O	O
+12-18	the	O	O	DT	O
+12-19	front	12-16_prep_near	writing	NN	P1_NPart_front
+12-20	of	O	O	O	O
+12-21	the	O	O	DT	O
+12-22	bus	O	O	NN	P1_bus
+12-23	.	O	O	O	O
+
+#id=13
+#text=An electronic voice also said the names out loud so that the deaf would know what stop they are approaching . 
+13-1	An	O	O	DT	O
+13-2	electronic	O	O	JJ	O
+13-3	voice	13-5_nsubj	said	NN	P2_other
+13-4	also	13-5_advmod	said	RB	O
+13-5	said	O	O	VBD	O
+13-6	the	O	O	DT	O
+13-7	names	13-5_dobj	said	NNS	P2_NPart_names
+13-8	out	O	O	RB	O
+13-9	loud	O	O	JJ	O
+13-10	so	13-5_advmod	said	RB	O
+13-11	that	13-15_mark	know	IN	O
+13-12	the	O	O	DT	O
+13-13	deaf	13-15_nsubj	know	NN	P2_passenger
+13-14	would	13-15_aux	know	MD	O
+13-15	know	O	O	VB	O
+13-16	what	13-17_nsubj	stop	WP	O
+13-17	stop	13-15_ccomp	know	VBP	O
+13-18	they	13-20_nsubj	approaching	PRP	P2_passenger
+13-19	are	13-20_aux	approaching	VBP	O
+13-20	approaching	13-17_ccomp	stop	VBG	O
+13-21	.	O	O	O	O
+
+#id=14
+#text=Sometimes the bus driver would stop and let more people on board , and sometimes people got off . 
+14-1	Sometimes	14-6_advmod	stop	RB	O
+14-2	the	O	O	DT	O
+14-3	bus	O	O	NN	O
+14-4	driver	14-6_nsubj	stop	NN	P1_bus_staff
+14-5	would	14-6_aux	stop	MD	O
+14-6	stop	O	O	VB	O
+14-7	and	O	O	O	O
+14-8	let	14-6_conj_and	stop	VB	O
+14-9	more	O	O	JJR	O
+14-10	people	14-6_dobj	stop	NNS	P3_passenger
+14-11	on	O	O	O	O
+14-12	board	14-6_prep_on	stop	NN	O
+14-13	,	O	O	O	O
+14-14	and	O	O	O	O
+14-15	sometimes	14-17_advmod	got	RB	O
+14-16	people	14-17_nsubj	got	NNS	P3_passenger
+14-17	got	14-6_conj_and	stop	VBD	O
+14-18	off	14-17_prt	got	RP	O
+14-19	.	O	O	O	O
+
+#id=15
+#text=Sometimes there was nobody waiting at a stop and nobody trying to get off , so the driver kept on moving . 
+15-1	Sometimes	15-3_advmod	was	RB	O
+15-2	there	15-3_expl	was	EX	O
+15-3	was	O	O	VBD	O
+15-4	nobody	15-3_nsubj	was	NN	P1_NPart_nobody
+15-5	waiting	O	O	VBG	O
+15-6	at	O	O	O	O
+15-7	a	O	O	DT	O
+15-8	stop	15-5_prep_at	waiting	NN	P3_bus_stop
+15-9	and	O	O	O	O
+15-10	nobody	O	O	NN	P2_NPart_nobody
+15-11	trying	O	O	VBG	O
+15-12	to	15-13_aux	get	TO	O
+15-13	get	15-11_xcomp	trying	VB	O
+15-14	off	15-13_prt	get	RP	O
+15-15	,	O	O	O	O
+15-16	so	15-3_dep	was	IN	O
+15-17	the	O	O	DT	O
+15-18	driver	15-19_nsubj	kept	NN	P1_bus_staff
+15-19	kept	15-3_parataxis	was	VBD	O
+15-20	on	O	O	O	O
+15-21	moving	15-19_prepc_on	kept	VBG	O
+15-22	.	O	O	O	O
+
+#id=16
+#text=When I saw the name of the stop outside the library appear , I pulled a big yellow cord hanging above the window . 
+16-1	When	16-3_advmod	saw	WRB	O
+16-2	I	16-3_nsubj	saw	PRP	P1_passenger
+16-3	saw	16-15_advcl	pulled	VBD	O
+16-4	the	O	O	DT	O
+16-5	name	16-12_nsubj	appear	NN	P2_NPart_name
+16-6	of	O	O	O	O
+16-7	the	O	O	DT	O
+16-8	stop	O	O	NN	P4_bus_stop
+16-9	outside	O	O	O	O
+16-10	the	O	O	DT	O
+16-11	library	O	O	NN	P1_destination
+16-12	appear	16-3_ccomp	saw	VBP	O
+16-13	,	O	O	O	O
+16-14	I	16-15_nsubj	pulled	PRP	P1_passenger
+16-15	pulled	O	O	VBD	O
+16-16	a	O	O	DT	O
+16-17	big	O	O	JJ	O
+16-18	yellow	O	O	JJ	O
+16-19	cord	16-15_dobj	pulled	NN	P1_stop_button/door_opener
+16-20	hanging	O	O	VBG	O
+16-21	above	O	O	O	O
+16-22	the	O	O	DT	O
+16-23	window	16-20_prep_above	hanging	NN	P1_NPart_window
+16-24	.	O	O	O	O
+
+#id=17
+#text=This made a noise and notified the bus driver that I wanted to get off at this stop . 
+17-1	This	17-2_nsubj	made	DT	O
+17-2	made	O	O	VBD	O
+17-3	a	O	O	DT	O
+17-4	noise	17-2_dobj	made	NN	O
+17-5	and	O	O	O	O
+17-6	notified	17-2_conj_and	made	VBD	O
+17-7	the	O	O	DT	O
+17-8	bus	O	O	NN	O
+17-9	driver	17-6_dobj	notified	NN	P1_bus_staff
+17-10	that	17-12_mark	wanted	IN	O
+17-11	I	17-12_nsubj	wanted	PRP	P1_passenger
+17-12	wanted	17-6_ccomp	notified	VBD	O
+17-13	to	17-14_aux	get	TO	O
+17-14	get	17-12_xcomp	wanted	VB	O
+17-15	off	17-14_prt	get	RP	O
+17-16	at	O	O	O	O
+17-17	this	O	O	DT	O
+17-18	stop	17-14_prep_at	get	NN	P4_bus_stop
+17-19	.	O	O	O	O
+
+#id=18
+#text=He stopped the bus when we arrived , opened the doors , and I got off to enjoy my afternoon at the library . 
+18-1	He	18-2_nsubj	stopped	PRP	P1_bus_staff
+18-2	stopped	O	O	VBD	O
+18-3	the	O	O	DT	O
+18-4	bus	18-2_dobj	stopped	NN	P1_bus
+18-5	when	18-7_advmod	arrived	WRB	O
+18-6	we	18-7_nsubj	arrived	PRP	P4_passenger
+18-7	arrived	18-2_advcl	stopped	VBD	O
+18-8	,	O	O	O	O
+18-9	opened	18-7_dep	arrived	VBD	O
+18-10	the	O	O	DT	O
+18-11	doors	18-7_dobj	arrived	NNS	P1_door
+18-12	,	O	O	O	O
+18-13	and	O	O	O	O
+18-14	I	18-15_nsubj	got	PRP	P1_passenger
+18-15	got	18-2_conj_and	stopped	VBD	O
+18-16	off	18-15_prt	got	RP	O
+18-17	to	18-18_aux	enjoy	TO	O
+18-18	enjoy	18-15_xcomp	got	VB	O
+18-19	my	O	O	PRP$	P1_passenger
+18-20	afternoon	18-18_dobj	enjoy	NN	P2_NPart_afternoon
+18-21	at	O	O	O	O
+18-22	the	O	O	DT	O
+18-23	library	18-18_prep_at	enjoy	NN	P1_destination
+18-24	.	O	O	O	O

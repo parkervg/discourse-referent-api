@@ -1,0 +1,212 @@
+#id=1
+#text=Everytime I get my haircut , I have terrible anxiety . 
+1-1	Everytime	1-3_nsubj	get	RB	O
+1-2	I	1-3_nsubj	get	PRP	P1_customer
+1-3	get	1-8_ccomp	have	VBP	O
+1-4	my	O	O	PRP$	P1_customer
+1-5	haircut	1-3_dobj	get	NN	O
+1-6	,	O	O	O	O
+1-7	I	1-8_nsubj	have	PRP	P1_customer
+1-8	have	O	O	VBP	O
+1-9	terrible	O	O	JJ	O
+1-10	anxiety	1-8_dobj	have	NN	P1_NPart_anxiety
+1-11	.	O	O	O	O
+
+#id=2
+#text=I got a really really bad haircut once and never got over it . 
+2-1	I	2-2_nsubj	got	PRP	P1_customer
+2-2	got	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	really	O	O	RB	O
+2-5	really	O	O	RB	O
+2-6	bad	O	O	JJ	O
+2-7	haircut	2-2_dobj	got	NN	O
+2-8	once	2-2_advmod	got	RB	O
+2-9	and	O	O	O	O
+2-10	never	2-11_neg	got	RB	O
+2-11	got	2-2_conj_and	got	VBD	O
+2-12	over	2-11_prt	got	RP	O
+2-13	it	2-11_dobj	got	PRP	P1_haircut
+2-14	.	O	O	O	O
+
+#id=3
+#text=When I get a haircut , first I research different haircuts and styles that I might like and compile a bunch that I like . 
+3-1	When	3-3_advmod	get	WRB	O
+3-2	I	3-3_nsubj	get	PRP	P1_customer
+3-3	get	3-9_advcl	research	VBP	O
+3-4	a	O	O	DT	O
+3-5	haircut	3-3_dobj	get	NN	O
+3-6	,	O	O	O	O
+3-7	first	O	O	RB	O
+3-8	I	3-9_nsubj	research	PRP	P1_customer
+3-9	research	O	O	VB	O
+3-10	different	O	O	JJ	O
+3-11	haircuts	3-9_dobj	research	NNS	P2_haircut
+3-12	and	O	O	O	O
+3-13	styles	O	O	NNS	P1_hair_styling/treatment
+3-14	that	3-17_mark	like	IN	O
+3-15	I	3-17_nsubj	like	PRP	P1_customer
+3-16	might	3-17_aux	like	MD	O
+3-17	like	3-9_ccomp	research	VB	O
+3-18	and	O	O	O	O
+3-19	compile	3-17_conj_and	like	VB	O
+3-20	a	O	O	DT	O
+3-21	bunch	3-17_dobj	like	NN	O
+3-22	that	3-24_mark	like	IN	O
+3-23	I	3-24_nsubj	like	PRP	P1_customer
+3-24	like	3-17_ccomp	like	VBP	O
+3-25	.	O	O	O	O
+
+#id=4
+#text=Then I make my appointment with a trusted hairstylist . 
+4-1	Then	4-3_advmod	make	RB	O
+4-2	I	4-3_nsubj	make	PRP	P1_customer
+4-3	make	O	O	VBP	O
+4-4	my	O	O	PRP$	P1_customer
+4-5	appointment	4-3_dobj	make	NN	P1_appointment
+4-6	with	O	O	O	O
+4-7	a	O	O	DT	O
+4-8	trusted	O	O	VBN	O
+4-9	hairstylist	4-3_prep_with	make	NN	P1_hairdresser
+4-10	.	O	O	O	O
+
+#id=5
+#text=The day of I drive to the hair salon and give my name . 
+5-1	The	O	O	DT	O
+5-2	day	5-5_nsubj	drive	NN	P1_time/date
+5-3	of	O	O	O	O
+5-4	I	O	O	PRP	P1_customer
+5-5	drive	O	O	VBP	O
+5-6	to	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	hair	O	O	NN	O
+5-9	salon	5-5_prep_to	drive	NN	P1_salon
+5-10	and	O	O	O	O
+5-11	give	5-5_conj_and	drive	VBP	O
+5-12	my	O	O	PRP$	P1_customer
+5-13	name	5-11_dobj	give	NN	P1_other
+5-14	.	O	O	O	O
+
+#id=6
+#text=I wait while for a bit and then they bring me to the back to wash my hair . 
+6-1	I	6-2_nsubj	wait	PRP	P1_customer
+6-2	wait	O	O	VBP	O
+6-3	while	6-10_mark	bring	IN	O
+6-4	for	O	O	O	O
+6-5	a	O	O	DT	O
+6-6	bit	6-10_prep_for	bring	NN	O
+6-7	and	O	O	O	O
+6-8	then	O	O	RB	O
+6-9	they	6-10_nsubj	bring	PRP	P1_staff
+6-10	bring	6-2_advcl	wait	VBP	O
+6-11	me	6-10_dobj	bring	PRP	P1_customer
+6-12	to	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	back	6-10_prep_to	bring	NN	P1_location_salon
+6-15	to	6-16_aux	wash	TO	O
+6-16	wash	O	O	VB	O
+6-17	my	O	O	PRP$	P1_customer
+6-18	hair	6-16_dobj	wash	NN	P1_hair
+6-19	.	O	O	O	O
+
+#id=7
+#text=Once done , I see the hair stylist and I show her my pictures . 
+7-1	Once	O	O	RB	O
+7-2	done	7-5_advmod	see	RB	O
+7-3	,	O	O	O	O
+7-4	I	7-5_nsubj	see	PRP	P1_customer
+7-5	see	O	O	VBP	O
+7-6	the	O	O	DT	O
+7-7	hair	O	O	NN	O
+7-8	stylist	7-5_dobj	see	NN	P1_hairdresser
+7-9	and	O	O	O	O
+7-10	I	7-11_nsubj	show	PRP	P1_customer
+7-11	show	7-5_conj_and	see	VBP	O
+7-12	her	7-11_iobj	show	PRP	P1_hairdresser
+7-13	my	O	O	PRP$	P1_customer
+7-14	pictures	7-11_dobj	show	NNS	P2_other
+7-15	.	O	O	O	O
+
+#id=8
+#text=While she brushes out my washed hair , we make a decision as to what cut and style will look best on me . 
+8-1	While	8-3_mark	brushes	IN	O
+8-2	she	8-3_nsubj	brushes	PRP	P1_hairdresser
+8-3	brushes	8-10_advcl	make	VBZ	O
+8-4	out	8-3_prt	brushes	RP	O
+8-5	my	O	O	PRP$	P1_customer
+8-6	washed	O	O	JJ	O
+8-7	hair	8-3_dobj	brushes	NN	P1_hair
+8-8	,	O	O	O	O
+8-9	we	8-10_nsubj	make	PRP	P1_hairdresser_customer
+8-10	make	O	O	VBP	O
+8-11	a	O	O	DT	O
+8-12	decision	8-10_dobj	make	NN	O
+8-13	as	O	O	O	O
+8-14	to	O	O	O	O
+8-15	what	8-20_dobj	look	WP	O
+8-16	cut	8-20_nsubj	look	NN	P2_haircut
+8-17	and	O	O	O	O
+8-18	style	O	O	NN	P1_hair_styling/treatment
+8-19	will	8-20_aux	look	MD	O
+8-20	look	O	O	VB	O
+8-21	best	8-20_dobj	look	JJS	O
+8-22	on	O	O	O	O
+8-23	me	O	O	PRP	P1_customer
+8-24	.	O	O	O	O
+
+#id=9
+#text=Then she gets to cutting my hair . 
+9-1	Then	9-3_advmod	gets	RB	O
+9-2	she	9-3_nsubj	gets	PRP	P1_hairdresser
+9-3	gets	O	O	VBZ	O
+9-4	to	O	O	O	O
+9-5	cutting	9-3_prepc_to	gets	VBG	O
+9-6	my	O	O	PRP$	P1_customer
+9-7	hair	9-5_dobj	cutting	NN	P1_hair
+9-8	.	O	O	O	O
+
+#id=10
+#text=Once she is done cutting , she dries and styles my hair and checks that it is to my liking . 
+10-1	Once	10-4_mark	done	IN	O
+10-2	she	10-4_nsubjpass	done	PRP	P1_hairdresser
+10-3	is	10-4_auxpass	done	VBZ	O
+10-4	done	10-8_advcl	dries	VBN	O
+10-5	cutting	10-4_xcomp	done	VBG	O
+10-6	,	O	O	O	O
+10-7	she	10-8_nsubj	dries	PRP	P1_hairdresser
+10-8	dries	O	O	VBZ	O
+10-9	and	O	O	O	O
+10-10	styles	10-8_conj_and	dries	VBZ	O
+10-11	my	O	O	PRP$	P1_customer
+10-12	hair	10-8_dobj	dries	NN	P1_hair
+10-13	and	O	O	O	O
+10-14	checks	O	O	NNS	O
+10-15	that	10-17_mark	is	IN	O
+10-16	it	10-17_nsubj	is	PRP	P3_haircut
+10-17	is	10-8_ccomp	dries	VBZ	O
+10-18	to	O	O	O	O
+10-19	my	O	O	PRP$	P1_customer
+10-20	liking	10-17_prep_to	is	NN	O
+10-21	.	O	O	O	O
+
+#id=11
+#text=Small change are made , and then I tip her , pay my bill , and go home . 
+11-1	Small	O	O	JJ	O
+11-2	change	11-4_nsubjpass	made	NN	O
+11-3	are	11-4_auxpass	made	VBP	O
+11-4	made	O	O	VBN	O
+11-5	,	O	O	O	O
+11-6	and	O	O	O	O
+11-7	then	11-9_advmod	tip	RB	O
+11-8	I	11-9_nsubj	tip	PRP	P1_customer
+11-9	tip	11-4_conj_and	made	VB	O
+11-10	her	11-9_dobj	tip	PRP	P1_hairdresser
+11-11	,	O	O	O	O
+11-12	pay	11-9_conj_and	tip	VB	O
+11-13	my	O	O	PRP$	P1_customer
+11-14	bill	11-12_dobj	pay	NN	P1_bill
+11-15	,	O	O	O	O
+11-16	and	O	O	O	O
+11-17	go	11-9_conj_and	tip	VB	O
+11-18	home	11-17_dobj	go	NN	P1_NPart_home
+11-19	.	O	O	O	O

@@ -1,0 +1,523 @@
+#id=1
+#text='' `` Baking A Cake '' '' Grandma June was making a cake for uncle Max 's Birthday . 
+1-1	''	O	O	O	O
+1-2	``	O	O	O	O
+1-3	Baking	O	O	NNP	O
+1-4	A	1-5_nsubj	Cake	NNP	O
+1-5	Cake	O	O	VBP	P1_cake
+1-6	''	O	O	O	O
+1-7	''	O	O	O	O
+1-8	Grandma	1-5_advmod	Cake	RB	O
+1-9	June	1-11_nsubj	making	NNP	P1_cook
+1-10	was	1-11_aux	making	VBD	O
+1-11	making	1-5_parataxis	Cake	VBG	O
+1-12	a	O	O	DT	O
+1-13	cake	1-11_dobj	making	NN	P1_cake
+1-14	for	O	O	O	O
+1-15	uncle	O	O	NNP	O
+1-16	Max	O	O	NNP	P1_beneficiary
+1-17	's	O	O	O	O
+1-18	Birthday	O	O	NN	P1_NPart_birthday
+1-19	.	O	O	O	O
+
+#id=2
+#text=Uncle Max was 45 years old ! 
+2-1	Uncle	O	O	NNP	O
+2-2	Max	O	O	NNP	P1_beneficiary
+2-3	was	O	O	VBD	O
+2-4	45	O	O	CD	O
+2-5	years	O	O	NNS	P1_NPart_years
+2-6	old	O	O	JJ	O
+2-7	!	O	O	O	O
+
+#id=3
+#text=Julia thought that was pretty old . 
+3-1	Julia	3-2_nsubj	thought	NNP	P2_cook
+3-2	thought	O	O	VBD	O
+3-3	that	O	O	IN	O
+3-4	was	O	O	VBD	O
+3-5	pretty	O	O	RB	O
+3-6	old	3-2_ccomp	thought	JJ	O
+3-7	.	O	O	O	O
+
+#id=4
+#text=She was excited because , Grandma June agreed to let her help . 
+4-1	She	O	O	PRP	P2_cook
+4-2	was	O	O	VBD	O
+4-3	excited	O	O	JJ	O
+4-4	because	4-8_mark	agreed	IN	O
+4-5	,	O	O	O	O
+4-6	Grandma	O	O	NNP	O
+4-7	June	4-8_nsubj	agreed	NNP	P1_cook
+4-8	agreed	O	O	VBD	O
+4-9	to	4-10_aux	let	TO	O
+4-10	let	4-8_xcomp	agreed	VB	O
+4-11	her	O	O	PRP$	P2_cook
+4-12	help	4-10_dobj	let	NN	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=They both washed their hands Grandma June said that is always the first step you take when cooking so you do n't spread germs . 
+5-1	They	5-3_nsubj	washed	PRP	P3_cook
+5-2	both	5-3_dep	washed	DT	P4_cook
+5-3	washed	O	O	VBD	O
+5-4	their	O	O	PRP$	P4_cook
+5-5	hands	5-3_dobj	washed	NNS	P1_NPart_hands
+5-6	Grandma	O	O	NNP	O
+5-7	June	5-8_nsubj	said	NNP	P1_cook
+5-8	said	5-3_dep	washed	VBD	O
+5-9	that	O	O	IN	O
+5-10	is	O	O	VBZ	O
+5-11	always	O	O	RB	O
+5-12	the	O	O	DT	O
+5-13	first	O	O	JJ	O
+5-14	step	5-8_ccomp	said	NN	O
+5-15	you	5-16_nsubj	take	PRP	P1_cook
+5-16	take	O	O	VBP	O
+5-17	when	5-18_advmod	cooking	WRB	O
+5-18	cooking	5-16_advcl	take	VBG	O
+5-19	so	5-23_mark	spread	IN	O
+5-20	you	5-23_nsubj	spread	PRP	P1_cook
+5-21	do	5-23_aux	spread	VBP	O
+5-22	n't	5-23_neg	spread	RB	O
+5-23	spread	5-18_advcl	cooking	VB	O
+5-24	germs	5-23_dobj	spread	NNS	P1_NPart_germs
+5-25	.	O	O	O	O
+
+#id=6
+#text=Then Grandma June picked two shiny round cake pans . 
+6-1	Then	6-4_advmod	picked	RB	O
+6-2	Grandma	O	O	NNP	O
+6-3	June	6-4_nsubj	picked	NNP	P1_cook
+6-4	picked	O	O	VBD	O
+6-5	two	O	O	CD	O
+6-6	shiny	O	O	JJ	O
+6-7	round	O	O	NN	O
+6-8	cake	6-9_nsubj	pans	NN	O
+6-9	pans	6-4_ccomp	picked	VBZ	P1_cake_tin
+6-10	.	O	O	O	O
+
+#id=7
+#text=She let Julia grease the whole inside of each pan with Shortening and then Grandma June dusted each pan lightly with flour . 
+7-1	She	7-2_nsubj	let	PRP	P1_cook
+7-2	let	O	O	VBD	O
+7-3	Julia	7-4_nsubj	grease	NNP	P2_cook
+7-4	grease	7-2_ccomp	let	VBD	O
+7-5	the	O	O	DT	O
+7-6	whole	O	O	JJ	O
+7-7	inside	7-4_dobj	grease	NN	P1_NPart_inside
+7-8	of	O	O	O	O
+7-9	each	O	O	DT	O
+7-10	pan	O	O	NN	P1_cake_tin
+7-11	with	O	O	O	O
+7-12	Shortening	7-4_prep_with	grease	NNP	P1_ingredients
+7-13	and	O	O	O	O
+7-14	then	7-17_advmod	dusted	RB	O
+7-15	Grandma	O	O	NNP	O
+7-16	June	7-17_nsubj	dusted	NNP	P1_cook
+7-17	dusted	7-2_conj_and	let	VBD	O
+7-18	each	7-19_nsubj	pan	DT	O
+7-19	pan	7-17_ccomp	dusted	VB	P1_cake_tin
+7-20	lightly	7-19_advmod	pan	RB	O
+7-21	with	O	O	O	O
+7-22	flour	7-19_prep_with	pan	NN	P2_ingredients
+7-23	.	O	O	O	O
+
+#id=8
+#text=This is so the cooked cakes would not stick . 
+8-1	This	8-2_nsubj	is	DT	O
+8-2	is	O	O	VBZ	O
+8-3	so	8-9_mark	stick	IN	O
+8-4	the	O	O	DT	O
+8-5	cooked	O	O	JJ	O
+8-6	cakes	8-9_nsubj	stick	NNS	P1_cake
+8-7	would	8-9_aux	stick	MD	O
+8-8	not	8-9_neg	stick	RB	O
+8-9	stick	8-2_advcl	is	VB	O
+8-10	.	O	O	O	O
+
+#id=9
+#text=Grandma June turned the oven on to heat up to 350 degrees then she placed two bowl onto the counter one was for dry things such as flour , sugar , baking powder and salt . 
+9-1	Grandma	O	O	NNP	O
+9-2	June	9-3_nsubj	turned	NNP	P1_cook
+9-3	turned	O	O	VBD	O
+9-4	the	O	O	DT	O
+9-5	oven	9-3_dobj	turned	NN	P1_oven
+9-6	on	9-3_prep	turned	IN	O
+9-7	to	9-8_aux	heat	TO	O
+9-8	heat	9-3_vmod	turned	VB	O
+9-9	up	O	O	IN	O
+9-10	to	O	O	TO	O
+9-11	350	O	O	CD	O
+9-12	degrees	9-8_dobj	heat	NNS	P1_temperature
+9-13	then	O	O	RB	O
+9-14	she	9-15_nsubj	placed	PRP	P1_cook
+9-15	placed	O	O	VBD	O
+9-16	two	O	O	CD	O
+9-17	bowl	9-22_nsubj	was	NN	P1_utensil
+9-18	onto	O	O	O	O
+9-19	the	O	O	DT	O
+9-20	counter	O	O	JJ	P1_other
+9-21	one	O	O	NN	O
+9-22	was	9-15_ccomp	placed	VBD	O
+9-23	for	O	O	O	O
+9-24	dry	O	O	JJ	O
+9-25	things	9-22_prep_for	was	NNS	P3_ingredients
+9-26	such	O	O	O	O
+9-27	as	O	O	O	O
+9-28	flour	O	O	NN	P4_ingredients
+9-29	,	O	O	O	O
+9-30	sugar	O	O	NN	P5_ingredients
+9-31	,	O	O	O	O
+9-32	baking	O	O	JJ	O
+9-33	powder	O	O	NN	P6_ingredients
+9-34	and	O	O	O	O
+9-35	salt	O	O	NN	P7_ingredients
+9-36	.	O	O	O	O
+
+#id=10
+#text=Grandma June carefully measured each one and let Julia pour them in . 
+10-1	Grandma	O	O	NNP	O
+10-2	June	10-4_nsubj	measured	NNP	P1_cook
+10-3	carefully	10-4_advmod	measured	RB	O
+10-4	measured	O	O	VBD	O
+10-5	each	O	O	DT	O
+10-6	one	10-4_dobj	measured	NN	O
+10-7	and	O	O	O	O
+10-8	let	10-4_conj_and	measured	VBD	O
+10-9	Julia	10-10_nsubj	pour	NNP	P2_cook
+10-10	pour	10-8_ccomp	let	VBP	O
+10-11	them	10-10_dobj	pour	PRP	P8_ingredients
+10-12	in	10-10_prep	pour	IN	O
+10-13	.	O	O	O	O
+
+#id=11
+#text=Then she mixed all the dry stuff really well . 
+11-1	Then	11-3_advmod	mixed	RB	O
+11-2	she	11-3_nsubj	mixed	PRP	P2_cook
+11-3	mixed	O	O	VBP	O
+11-4	all	O	O	PDT	O
+11-5	the	O	O	DT	O
+11-6	dry	O	O	JJ	O
+11-7	stuff	11-3_dobj	mixed	NN	P8_ingredients
+11-8	really	11-3_advmod	mixed	RB	O
+11-9	well	11-3_advmod	mixed	RB	O
+11-10	.	O	O	O	O
+
+#id=12
+#text=Julia 's Grandma June told her to mix well but carefully so the ingredients would not spill because baking is an exact science and the measurements had to be correct . 
+12-1	Julia	O	O	NNP	P2_cook
+12-2	's	O	O	O	O
+12-3	Grandma	O	O	NNP	O
+12-4	June	12-5_nsubj	told	NNP	P1_cook
+12-5	told	O	O	VBD	O
+12-6	her	12-5_dobj	told	PRP	P2_cook
+12-7	to	12-8_aux	mix	TO	O
+12-8	mix	12-5_xcomp	told	VB	O
+12-9	well	12-8_advmod	mix	RB	O
+12-10	but	O	O	O	O
+12-11	carefully	O	O	RB	O
+12-12	so	12-17_mark	spill	IN	O
+12-13	the	O	O	DT	O
+12-14	ingredients	12-17_nsubj	spill	NNS	P8_ingredients
+12-15	would	12-17_aux	spill	MD	O
+12-16	not	12-17_neg	spill	RB	O
+12-17	spill	12-8_advcl	mix	VB	O
+12-18	because	O	O	IN	O
+12-19	baking	O	O	VBG	O
+12-20	is	O	O	VBZ	O
+12-21	an	O	O	DT	O
+12-22	exact	O	O	JJ	O
+12-23	science	12-17_advcl	spill	NN	P1_NPart_science
+12-24	and	O	O	O	O
+12-25	the	O	O	DT	O
+12-26	measurements	12-27_nsubj	had	NNS	P2_other
+12-27	had	O	O	VBD	O
+12-28	to	O	O	TO	O
+12-29	be	O	O	VB	O
+12-30	correct	12-27_xcomp	had	JJ	O
+12-31	.	O	O	O	O
+
+#id=13
+#text=In the next bowl they measured all the wet things . 
+13-1	In	O	O	O	O
+13-2	the	O	O	DT	O
+13-3	next	O	O	JJ	O
+13-4	bowl	13-6_prep_in	measured	NN	P2_utensil
+13-5	they	13-6_nsubj	measured	PRP	P4_cook
+13-6	measured	O	O	VBD	O
+13-7	all	O	O	PDT	O
+13-8	the	O	O	DT	O
+13-9	wet	O	O	JJ	O
+13-10	things	13-6_dobj	measured	NNS	P9_ingredients
+13-11	.	O	O	O	O
+
+#id=14
+#text=In went butter , milk , vanilla and eggs . 
+14-1	In	14-2_prep	went	IN	O
+14-2	went	O	O	VBD	O
+14-3	butter	14-2_nsubj	went	NN	P10_ingredients
+14-4	,	O	O	O	O
+14-5	milk	O	O	NN	P11_ingredients
+14-6	,	O	O	O	O
+14-7	vanilla	O	O	NN	P12_ingredients
+14-8	and	O	O	O	O
+14-9	eggs	O	O	NNS	P13_ingredients
+14-10	.	O	O	O	O
+
+#id=15
+#text=Grandma June mixed them very smooth with a hand mixer . 
+15-1	Grandma	O	O	NNP	O
+15-2	June	15-3_nsubj	mixed	NNP	P1_cook
+15-3	mixed	O	O	VBN	O
+15-4	them	O	O	PRP	P9_ingredients
+15-5	very	O	O	RB	O
+15-6	smooth	15-3_xcomp	mixed	JJ	O
+15-7	with	O	O	O	O
+15-8	a	O	O	DT	O
+15-9	hand	O	O	NN	O
+15-10	mixer	O	O	NN	P3_utensil
+15-11	.	O	O	O	O
+
+#id=16
+#text=Next they slowly added the wet ingredients to the dry a bit at a time mixing them well into a smooth batter . 
+16-1	Next	16-4_advmod	added	RB	O
+16-2	they	16-4_nsubj	added	PRP	P4_cook
+16-3	slowly	16-4_advmod	added	RB	O
+16-4	added	O	O	VBD	O
+16-5	the	O	O	DT	O
+16-6	wet	O	O	JJ	O
+16-7	ingredients	16-4_dobj	added	NNS	P9_ingredients
+16-8	to	O	O	O	O
+16-9	the	O	O	DT	O
+16-10	dry	16-4_prep_to	added	JJ	O
+16-11	a	O	O	DT	O
+16-12	bit	O	O	NN	O
+16-13	at	O	O	O	O
+16-14	a	O	O	DT	O
+16-15	time	16-4_prep_at	added	NN	O
+16-16	mixing	O	O	VBG	O
+16-17	them	16-16_dobj	mixing	PRP	P14_ingredients
+16-18	well	16-16_advmod	mixing	RB	O
+16-19	into	O	O	O	O
+16-20	a	O	O	DT	O
+16-21	smooth	O	O	JJ	O
+16-22	batter	16-16_prep_into	mixing	NN	P1_dough
+16-23	.	O	O	O	O
+
+#id=17
+#text=The batter get divided evenly between the two cake pans and placed in the hot oven to bake . 
+17-1	The	O	O	DT	O
+17-2	batter	17-3_nsubj	get	NN	P1_dough
+17-3	get	O	O	VBP	O
+17-4	divided	17-3_ccomp	get	VBN	O
+17-5	evenly	17-4_advmod	divided	RB	O
+17-6	between	O	O	O	O
+17-7	the	O	O	DT	O
+17-8	two	O	O	CD	O
+17-9	cake	O	O	NN	O
+17-10	pans	17-4_prep_between	divided	NNS	P1_cake_tin
+17-11	and	O	O	O	O
+17-12	placed	17-4_conj_and	divided	VBN	O
+17-13	in	O	O	O	O
+17-14	the	O	O	DT	O
+17-15	hot	O	O	JJ	O
+17-16	oven	17-12_prep_in	placed	NN	P1_oven
+17-17	to	17-18_aux	bake	TO	O
+17-18	bake	17-4_xcomp	divided	VB	O
+17-19	.	O	O	O	O
+
+#id=18
+#text=After thirty minutes Grandma June poked each cake with a toothpick and it came out with no cake on it . 
+18-1	After	O	O	O	O
+18-2	thirty	O	O	CD	O
+18-3	minutes	18-6_prep_after	poked	NNS	P1_time
+18-4	Grandma	O	O	NNP	O
+18-5	June	18-6_nsubj	poked	NNP	P1_cook
+18-6	poked	O	O	VBD	O
+18-7	each	O	O	DT	O
+18-8	cake	18-6_dobj	poked	NN	P1_cake
+18-9	with	O	O	O	O
+18-10	a	O	O	DT	O
+18-11	toothpick	18-6_prep_with	poked	NN	P4_utensil
+18-12	and	O	O	O	O
+18-13	it	18-14_nsubj	came	PRP	P4_utensil
+18-14	came	18-6_conj_and	poked	VBD	O
+18-15	out	18-14_prt	came	RP	O
+18-16	with	O	O	O	O
+18-17	no	O	O	DT	O
+18-18	cake	18-14_prep_with	came	NN	P1_cake
+18-19	on	O	O	O	O
+18-20	it	O	O	PRP	P4_utensil
+18-21	.	O	O	O	O
+
+#id=19
+#text=This meant the cakes were done . 
+19-1	This	19-2_nsubj	meant	DT	O
+19-2	meant	O	O	VBD	O
+19-3	the	O	O	DT	O
+19-4	cakes	19-6_nsubjpass	done	NNS	P1_cake
+19-5	were	19-6_auxpass	done	VBD	O
+19-6	done	19-2_ccomp	meant	VBN	O
+19-7	.	O	O	O	O
+
+#id=20
+#text=Grandma June carefully flipped the cakes over onto a cooling rack leave the cake there with no pan on it to cool . 
+20-1	Grandma	O	O	NNP	O
+20-2	June	20-4_nsubj	flipped	NNP	P1_cook
+20-3	carefully	20-4_advmod	flipped	RB	O
+20-4	flipped	O	O	VBD	O
+20-5	the	O	O	DT	O
+20-6	cakes	20-4_dobj	flipped	NNS	P1_cake
+20-7	over	20-4_prt	flipped	RP	O
+20-8	onto	O	O	O	O
+20-9	a	O	O	DT	O
+20-10	cooling	O	O	JJ	O
+20-11	rack	20-4_prep_onto	flipped	NN	P5_utensil
+20-12	leave	20-4_dep	flipped	VB	O
+20-13	the	O	O	DT	O
+20-14	cake	O	O	NN	P1_cake
+20-15	there	20-12_advmod	leave	RB	O
+20-16	with	O	O	O	O
+20-17	no	O	O	DT	O
+20-18	pan	20-12_prep_with	leave	NN	P1_cake_tin
+20-19	on	O	O	O	O
+20-20	it	O	O	PRP	P1_cake
+20-21	to	20-22_aux	cool	TO	O
+20-22	cool	20-12_xcomp	leave	VB	O
+20-23	.	O	O	O	O
+
+#id=21
+#text=Julia waited for what seemed like a very long time until Grandma June said they were cool . 
+21-1	Julia	21-2_nsubj	waited	NNP	P2_cook
+21-2	waited	O	O	VBD	O
+21-3	for	O	O	O	O
+21-4	what	21-5_nsubj	seemed	WP	O
+21-5	seemed	21-2_prepc_for	waited	VBD	O
+21-6	like	O	O	O	O
+21-7	a	O	O	DT	O
+21-8	very	O	O	RB	O
+21-9	long	O	O	JJ	O
+21-10	time	21-5_prep_like	seemed	NN	P2_time
+21-11	until	21-14_mark	said	IN	O
+21-12	Grandma	O	O	NNP	O
+21-13	June	21-14_nsubj	said	NNP	P1_cook
+21-14	said	21-5_advcl	seemed	VBD	O
+21-15	they	O	O	PRP	P1_cake
+21-16	were	O	O	VBD	O
+21-17	cool	21-14_ccomp	said	JJ	O
+21-18	.	O	O	O	O
+
+#id=22
+#text=She brought out her cake stand and placed one cake on it . 
+22-1	She	22-2_nsubj	brought	PRP	P1_cook
+22-2	brought	O	O	VBD	O
+22-3	out	22-2_prt	brought	RP	O
+22-4	her	O	O	PRP$	P1_cook
+22-5	cake	O	O	NN	O
+22-6	stand	22-2_dobj	brought	NN	P6_utensil
+22-7	and	O	O	O	O
+22-8	placed	22-2_conj_and	brought	VBD	O
+22-9	one	O	O	CD	O
+22-10	cake	22-8_dobj	placed	NN	P1_cake
+22-11	on	O	O	O	O
+22-12	it	O	O	PRP	P6_utensil
+22-13	.	O	O	O	O
+
+#id=23
+#text=Julia watched as Grandma June frosted the layer lightly then placed the other cake on top . 
+23-1	Julia	23-2_nsubj	watched	NNP	P2_cook
+23-2	watched	O	O	VBD	O
+23-3	as	23-6_mark	frosted	IN	O
+23-4	Grandma	O	O	NNP	O
+23-5	June	23-6_nsubj	frosted	NNP	P1_cook
+23-6	frosted	23-2_advcl	watched	VBD	O
+23-7	the	O	O	DT	O
+23-8	layer	23-11_nsubj	placed	NN	P1_NPart_layer
+23-9	lightly	23-11_advmod	placed	RB	O
+23-10	then	23-11_advmod	placed	RB	O
+23-11	placed	23-6_ccomp	frosted	VBD	O
+23-12	the	O	O	DT	O
+23-13	other	O	O	JJ	O
+23-14	cake	23-11_dobj	placed	NN	P1_cake
+23-15	on	O	O	O	O
+23-16	top	O	O	NN	O
+23-17	.	O	O	O	O
+
+#id=24
+#text=She made quick work of frosting both layers of stacked cakes with smooth fluffy white frosting . 
+24-1	She	24-2_nsubj	made	PRP	P1_cook
+24-2	made	O	O	VBD	O
+24-3	quick	O	O	JJ	O
+24-4	work	24-2_dobj	made	NN	O
+24-5	of	O	O	O	O
+24-6	frosting	O	O	VBG	O
+24-7	both	O	O	DT	O
+24-8	layers	24-6_dobj	frosting	NNS	P1_NPart_layers
+24-9	of	O	O	O	O
+24-10	stacked	O	O	JJ	O
+24-11	cakes	O	O	NNS	P1_cake
+24-12	with	O	O	O	O
+24-13	smooth	O	O	JJ	O
+24-14	fluffy	O	O	JJ	O
+24-15	white	O	O	JJ	O
+24-16	frosting	24-6_prep_with	frosting	NN	P15_ingredients
+24-17	.	O	O	O	O
+
+#id=25
+#text=Then came Julias part . 
+25-1	Then	25-2_advmod	came	RB	O
+25-2	came	O	O	VBD	O
+25-3	Julias	O	O	NNP	P2_cook
+25-4	part	25-2_nsubj	came	NN	O
+25-5	.	O	O	O	O
+
+#id=26
+#text=She placed the bid number four and five shaped candles next to each other on the cake . 
+26-1	She	26-2_nsubj	placed	PRP	P2_cook
+26-2	placed	O	O	VBD	O
+26-3	the	O	O	DT	O
+26-4	bid	O	O	NN	O
+26-5	number	26-2_dobj	placed	NN	O
+26-6	four	26-2_npadvmod	placed	CD	O
+26-7	and	O	O	O	O
+26-8	five	O	O	CD	O
+26-9	shaped	O	O	JJ	O
+26-10	candles	O	O	NNS	P1_decoration
+26-11	next	O	O	O	O
+26-12	to	O	O	O	O
+26-13	each	O	O	DT	O
+26-14	other	26-2_prep_next_to	placed	JJ	O
+26-15	on	O	O	O	O
+26-16	the	O	O	DT	O
+26-17	cake	26-2_prep_on	placed	NN	P1_cake
+26-18	.	O	O	O	O
+
+#id=27
+#text=Julia thought making a cake was lots of work but fun as well . 
+27-1	Julia	27-2_nsubj	thought	NNP	P2_cook
+27-2	thought	O	O	VBD	O
+27-3	making	27-2_xcomp	thought	VBG	O
+27-4	a	O	O	DT	O
+27-5	cake	O	O	NN	P1_cake
+27-6	was	O	O	VBD	O
+27-7	lots	27-3_ccomp	making	NNS	O
+27-8	of	O	O	O	O
+27-9	work	O	O	NN	P1_NPart_work
+27-10	but	O	O	O	O
+27-11	fun	27-2_conj_but	thought	NN	P1_NPart_fun
+27-12	as	O	O	RB	O
+27-13	well	O	O	RB	O
+27-14	.	O	O	O	O
+
+#id=28
+#text=Especially when she did it with her grandma . 
+28-1	Especially	O	O	RB	O
+28-2	when	28-4_advmod	did	WRB	O
+28-3	she	28-4_nsubj	did	PRP	P2_cook
+28-4	did	O	O	VBD	O
+28-5	it	28-4_dobj	did	PRP	O
+28-6	with	O	O	O	O
+28-7	her	O	O	PRP$	P2_cook
+28-8	grandma	28-4_prep_with	did	NN	P1_cook
+28-9	.	O	O	O	O

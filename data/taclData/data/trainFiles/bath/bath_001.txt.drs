@@ -1,0 +1,280 @@
+#id=1
+#text='' After playing football with my friends , I was all sweaty and dirty , so I decide I should take a bath . 
+1-1	''	O	O	O	O
+1-2	After	O	O	O	O
+1-3	playing	O	O	VBG	O
+1-4	football	1-3_dobj	playing	NN	P1_NPart_football
+1-5	with	O	O	O	O
+1-6	my	O	O	PRP$	P1_bather
+1-7	friends	1-3_prep_with	playing	NNS	P1_NPart_friends
+1-8	,	O	O	O	O
+1-9	I	O	O	PRP	P1_bather
+1-10	was	O	O	VBD	O
+1-11	all	O	O	DT	O
+1-12	sweaty	O	O	JJ	O
+1-13	and	O	O	O	O
+1-14	dirty	O	O	JJ	O
+1-15	,	O	O	O	O
+1-16	so	O	O	IN	O
+1-17	I	1-18_nsubj	decide	PRP	P1_bather
+1-18	decide	O	O	VBP	O
+1-19	I	1-21_nsubj	take	PRP	P1_bather
+1-20	should	1-21_aux	take	MD	O
+1-21	take	1-18_ccomp	decide	VB	O
+1-22	a	O	O	DT	O
+1-23	bath	1-21_dobj	take	NN	P1_bath
+1-24	.	O	O	O	O
+
+#id=2
+#text=First I made sure there were clean towels available and enough soap and shampoo to thoroughly clean my skin and hair . 
+2-1	First	2-3_advmod	made	RB	O
+2-2	I	2-3_nsubj	made	PRP	P1_bather
+2-3	made	O	O	VBD	O
+2-4	sure	2-3_acomp	made	JJ	O
+2-5	there	2-6_expl	were	EX	O
+2-6	were	O	O	VBD	O
+2-7	clean	2-6_acomp	were	JJ	O
+2-8	towels	O	O	VBG	P1_towel
+2-9	available	O	O	JJ	O
+2-10	and	O	O	O	O
+2-11	enough	O	O	JJ	O
+2-12	soap	2-8_dobj	towels	NN	P1_washing_tools
+2-13	and	O	O	O	O
+2-14	shampoo	O	O	NN	P2_washing_tools
+2-15	to	2-17_aux	clean	TO	O
+2-16	thoroughly	2-17_advmod	clean	RB	O
+2-17	clean	2-8_vmod	towels	VB	O
+2-18	my	O	O	PRP$	P1_bather
+2-19	skin	2-17_dobj	clean	NN	P1_body_part
+2-20	and	O	O	O	O
+2-21	hair	O	O	NN	P1_hair
+2-22	.	O	O	O	O
+
+#id=3
+#text=I put the plug in the bottom of the bath tub and turned on the water , being careful to adjust the water to a nice warm , but no too hot , temperature . 
+3-1	I	3-2_nsubj	put	PRP	P1_bather
+3-2	put	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	plug	3-2_dobj	put	NN	P1_plug
+3-5	in	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	bottom	3-2_prep_in	put	NN	P1_NPart_bottom
+3-8	of	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	bath	O	O	NN	O
+3-11	tub	O	O	NN	P1_bathtub
+3-12	and	O	O	O	O
+3-13	turned	3-2_conj_and	put	VBD	O
+3-14	on	O	O	O	O
+3-15	the	O	O	DT	O
+3-16	water	3-13_prep_on	turned	NN	P1_water
+3-17	,	O	O	O	O
+3-18	being	O	O	VBG	O
+3-19	careful	3-13_xcomp	turned	JJ	O
+3-20	to	3-21_aux	adjust	TO	O
+3-21	adjust	O	O	VB	O
+3-22	the	O	O	DT	O
+3-23	water	3-21_dobj	adjust	NN	P1_water
+3-24	to	O	O	O	O
+3-25	a	O	O	DT	O
+3-26	nice	O	O	JJ	O
+3-27	warm	O	O	JJ	O
+3-28	,	O	O	O	O
+3-29	but	O	O	O	O
+3-30	no	O	O	RB	O
+3-31	too	O	O	RB	O
+3-32	hot	O	O	JJ	O
+3-33	,	O	O	O	O
+3-34	temperature	3-21_prep_to	adjust	NN	P1_temperature
+3-35	.	O	O	O	O
+
+#id=4
+#text=I used my finger to determine just the right temperature . 
+4-1	I	4-2_nsubj	used	PRP	P1_bather
+4-2	used	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_bather
+4-4	finger	4-2_dobj	used	NN	P2_body_part
+4-5	to	4-6_aux	determine	TO	O
+4-6	determine	O	O	VB	O
+4-7	just	O	O	RB	O
+4-8	the	O	O	DT	O
+4-9	right	O	O	JJ	O
+4-10	temperature	4-6_dobj	determine	NN	P1_temperature
+4-11	.	O	O	O	O
+
+#id=5
+#text=After removing my clothes and placing them in the hamper , I carefully stepped into the tub , being sure to steady myself as I entered . 
+5-1	After	O	O	O	O
+5-2	removing	5-14_prepc_after	stepped	VBG	O
+5-3	my	O	O	PRP$	P1_bather
+5-4	clothes	5-2_dobj	removing	NNS	P1_clothes
+5-5	and	O	O	O	O
+5-6	placing	5-2_conj_and	removing	VBG	O
+5-7	them	5-6_dobj	placing	PRP	P1_clothes
+5-8	in	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	hamper	5-6_prep_in	placing	NN	P1_hamper
+5-11	,	O	O	O	O
+5-12	I	5-14_nsubj	stepped	PRP	P1_bather
+5-13	carefully	5-14_advmod	stepped	RB	O
+5-14	stepped	O	O	VBD	O
+5-15	into	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	tub	5-14_prep_into	stepped	NN	P1_bathtub
+5-18	,	O	O	O	O
+5-19	being	O	O	VBG	O
+5-20	sure	5-14_xcomp	stepped	JJ	O
+5-21	to	5-22_aux	steady	TO	O
+5-22	steady	O	O	VB	O
+5-23	myself	5-22_dobj	steady	PRP	P1_bather
+5-24	as	5-26_mark	entered	IN	O
+5-25	I	5-26_nsubj	entered	PRP	P1_bather
+5-26	entered	5-22_advcl	steady	VBD	O
+5-27	.	O	O	O	O
+
+#id=6
+#text=I gingerly lowered myself into the nice warm water and immediately began to relax . 
+6-1	I	6-3_nsubj	lowered	PRP	P1_bather
+6-2	gingerly	6-3_advmod	lowered	RB	O
+6-3	lowered	O	O	VBD	O
+6-4	myself	6-3_dobj	lowered	PRP	P1_bather
+6-5	into	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	nice	O	O	JJ	O
+6-8	warm	O	O	JJ	O
+6-9	water	6-3_prep_into	lowered	NN	P1_water
+6-10	and	O	O	O	O
+6-11	immediately	6-12_advmod	began	RB	O
+6-12	began	6-3_conj_and	lowered	VBD	O
+6-13	to	6-14_aux	relax	TO	O
+6-14	relax	6-12_xcomp	began	VB	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=After a few minutes of rest and relaxation , I got out the soap and thoroughly washed my whole body , making sure to get all of the dirt and grass stains off that I had accumulated from playing football . 
+7-1	After	O	O	O	O
+7-2	a	O	O	DT	O
+7-3	few	O	O	JJ	O
+7-4	minutes	7-11_prep_after	got	NNS	O
+7-5	of	O	O	O	O
+7-6	rest	O	O	NN	P1_NPart_rest
+7-7	and	O	O	O	O
+7-8	relaxation	O	O	NN	P1_NPart_relaxation
+7-9	,	O	O	O	O
+7-10	I	7-11_nsubj	got	PRP	P1_bather
+7-11	got	O	O	VBD	O
+7-12	out	7-11_prt	got	RP	O
+7-13	the	O	O	DT	O
+7-14	soap	7-11_dobj	got	NN	P1_washing_tools
+7-15	and	O	O	O	O
+7-16	thoroughly	7-17_advmod	washed	RB	O
+7-17	washed	7-11_conj_and	got	VBD	O
+7-18	my	O	O	PRP$	P1_bather
+7-19	whole	O	O	JJ	O
+7-20	body	7-17_dobj	washed	NN	P1_body_part
+7-21	,	O	O	O	O
+7-22	making	7-17_vmod	washed	VBG	O
+7-23	sure	7-22_acomp	making	JJ	O
+7-24	to	7-25_aux	get	TO	O
+7-25	get	O	O	VB	O
+7-26	all	7-25_dobj	get	DT	O
+7-27	of	O	O	O	O
+7-28	the	O	O	DT	O
+7-29	dirt	O	O	NN	P1_other
+7-30	and	O	O	O	O
+7-31	grass	O	O	NN	O
+7-32	stains	O	O	NNS	P2_other
+7-33	off	7-25_prep	get	RP	O
+7-34	that	7-37_mark	accumulated	IN	O
+7-35	I	7-37_nsubj	accumulated	PRP	P1_bather
+7-36	had	7-37_aux	accumulated	VBD	O
+7-37	accumulated	7-25_ccomp	get	VBN	O
+7-38	from	O	O	O	O
+7-39	playing	7-37_prepc_from	accumulated	VBG	O
+7-40	football	7-39_dobj	playing	NN	P2_NPart_football
+7-41	.	O	O	O	O
+
+#id=8
+#text=Next I washed my hair with shampoo and laid back into the water to really rinse it out well . 
+8-1	Next	8-3_advmod	washed	RB	O
+8-2	I	8-3_nsubj	washed	PRP	P1_bather
+8-3	washed	O	O	VBD	O
+8-4	my	O	O	PRP$	P1_bather
+8-5	hair	8-3_dobj	washed	NN	P1_hair
+8-6	with	O	O	O	O
+8-7	shampoo	8-3_prep_with	washed	NN	P2_washing_tools
+8-8	and	O	O	O	O
+8-9	laid	8-3_conj_and	washed	VBD	O
+8-10	back	8-9_prt	laid	RP	O
+8-11	into	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	water	8-9_prep_into	laid	NN	P1_water
+8-14	to	8-16_aux	rinse	TO	O
+8-15	really	8-16_advmod	rinse	RB	O
+8-16	rinse	8-9_xcomp	laid	VB	O
+8-17	it	8-16_dobj	rinse	PRP	P1_hair
+8-18	out	8-16_prt	rinse	RP	O
+8-19	well	8-16_advmod	rinse	RB	O
+8-20	.	O	O	O	O
+
+#id=9
+#text=I carefully exited the bath tub , making sure to step onto the bath mat so I would n't slip on the smooth floor tiles , and got a towel and dried myself off . 
+9-1	I	9-3_nsubj	exited	PRP	P1_bather
+9-2	carefully	9-3_advmod	exited	RB	O
+9-3	exited	O	O	VBD	O
+9-4	the	O	O	DT	O
+9-5	bath	O	O	NN	O
+9-6	tub	9-3_dobj	exited	NN	P1_bathtub
+9-7	,	O	O	O	O
+9-8	making	9-3_vmod	exited	VBG	O
+9-9	sure	9-8_acomp	making	JJ	O
+9-10	to	9-11_aux	step	TO	O
+9-11	step	O	O	VB	O
+9-12	onto	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	bath	O	O	NN	O
+9-15	mat	9-11_prep_onto	step	NN	P3_other
+9-16	so	9-20_mark	slip	IN	O
+9-17	I	9-20_nsubj	slip	PRP	P1_bather
+9-18	would	9-20_aux	slip	MD	O
+9-19	n't	9-20_neg	slip	RB	O
+9-20	slip	9-11_advcl	step	VB	O
+9-21	on	O	O	O	O
+9-22	the	O	O	DT	O
+9-23	smooth	O	O	JJ	O
+9-24	floor	O	O	NN	O
+9-25	tiles	9-20_prep_on	slip	NNS	P1_NPart_tiles
+9-26	,	O	O	O	O
+9-27	and	O	O	O	O
+9-28	got	9-20_conj_and	slip	VBD	O
+9-29	a	O	O	DT	O
+9-30	towel	9-28_dobj	got	NN	P2_towel
+9-31	and	O	O	O	O
+9-32	dried	9-3_conj_and	exited	VBD	O
+9-33	myself	9-32_dobj	dried	PRP	P1_bather
+9-34	off	9-32_prt	dried	RP	O
+9-35	.	O	O	O	O
+
+#id=10
+#text=Now my bath was complete and I felt so nice and clean ! 
+10-1	Now	O	O	RB	O
+10-2	my	O	O	PRP$	P1_bather
+10-3	bath	O	O	NN	P1_bath
+10-4	was	O	O	VBD	O
+10-5	complete	O	O	JJ	O
+10-6	and	O	O	O	O
+10-7	I	10-8_nsubj	felt	PRP	P1_bather
+10-8	felt	O	O	VBD	O
+10-9	so	O	O	RB	O
+10-10	nice	10-8_acomp	felt	JJ	O
+10-11	and	O	O	O	O
+10-12	clean	O	O	JJ	O
+10-13	!	O	O	O	O
+
+#id=11
+#text=What a great feeling ! 
+11-1	What	O	O	WDT	O
+11-2	a	O	O	FW	O
+11-3	great	O	O	JJ	O
+11-4	feeling	O	O	NN	P1_NPart_feeling
+11-5	!	O	O	O	O

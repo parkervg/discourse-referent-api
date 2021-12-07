@@ -1,0 +1,243 @@
+#id=1
+#text=The trick to getting around an island as congested with traffic as Oahu , is to ride the public bus . 
+1-1	The	O	O	DT	O
+1-2	trick	1-15_nsubj	is	NN	P1_NPart_trick
+1-3	to	O	O	O	O
+1-4	getting	O	O	VBG	O
+1-5	around	1-4_prt	getting	RP	O
+1-6	an	O	O	DT	O
+1-7	island	1-4_dobj	getting	NN	P1_NPart_island
+1-8	as	O	O	O	O
+1-9	congested	O	O	NN	O
+1-10	with	O	O	O	O
+1-11	traffic	1-4_prep_with	getting	NN	P1_NPart_traffic
+1-12	as	O	O	O	O
+1-13	Oahu	1-4_prep_as	getting	NNP	P1_NPart_oahu
+1-14	,	O	O	O	O
+1-15	is	O	O	VBZ	O
+1-16	to	1-17_aux	ride	TO	O
+1-17	ride	1-15_xcomp	is	VB	O
+1-18	the	O	O	DT	O
+1-19	public	O	O	JJ	O
+1-20	bus	1-17_dobj	ride	NN	P1_bus
+1-21	.	O	O	O	O
+
+#id=2
+#text=There are too many cars , in too small of an area , and the result is hours of gridlock on the roads . 
+2-1	There	2-2_expl	are	EX	O
+2-2	are	O	O	VBP	O
+2-3	too	2-2_advmod	are	RB	O
+2-4	many	O	O	JJ	O
+2-5	cars	2-2_nsubj	are	NNS	P1_NPart_cars
+2-6	,	O	O	O	O
+2-7	in	O	O	O	O
+2-8	too	O	O	RB	O
+2-9	small	2-2_prep_in	are	JJ	O
+2-10	of	O	O	O	O
+2-11	an	O	O	DT	O
+2-12	area	O	O	NN	P1_NPart_area
+2-13	,	O	O	O	O
+2-14	and	O	O	O	O
+2-15	the	O	O	DT	O
+2-16	result	O	O	NN	P1_NPart_result
+2-17	is	O	O	VBZ	O
+2-18	hours	2-2_conj_and	are	NNS	P1_NPart_hours
+2-19	of	O	O	O	O
+2-20	gridlock	O	O	NN	P1_NPart_gridlock
+2-21	on	O	O	O	O
+2-22	the	O	O	DT	O
+2-23	roads	O	O	NNS	P1_NPart_roads
+2-24	.	O	O	O	O
+
+#id=3
+#text=The bus can use special lanes , and helps reduce the overall traffic . 
+3-1	The	O	O	DT	O
+3-2	bus	3-4_nsubj	use	NN	P1_bus
+3-3	can	3-4_aux	use	MD	O
+3-4	use	O	O	VB	O
+3-5	special	O	O	JJ	O
+3-6	lanes	3-4_dobj	use	NNS	P1_route
+3-7	,	O	O	O	O
+3-8	and	O	O	O	O
+3-9	helps	3-4_conj_and	use	VBZ	O
+3-10	reduce	3-9_ccomp	helps	VB	O
+3-11	the	O	O	DT	O
+3-12	overall	O	O	JJ	O
+3-13	traffic	3-10_dobj	reduce	NN	P2_NPart_traffic
+3-14	.	O	O	O	O
+
+#id=4
+#text=Learning to ride the public bus was a little stressful at first . 
+4-1	Learning	O	O	NNP	O
+4-2	to	4-3_aux	ride	TO	O
+4-3	ride	O	O	VB	O
+4-4	the	O	O	DT	O
+4-5	public	O	O	JJ	O
+4-6	bus	4-3_dobj	ride	NN	P1_bus
+4-7	was	O	O	VBD	O
+4-8	a	O	O	DT	O
+4-9	little	O	O	RB	O
+4-10	stressful	O	O	JJ	O
+4-11	at	O	O	IN	O
+4-12	first	O	O	RB	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=I studied bus routes online on their website , there are quite a few and it seemed like it 'd be easy to get on the wrong bus . 
+5-1	I	5-2_nsubj	studied	PRP	P1_passenger
+5-2	studied	O	O	VBD	O
+5-3	bus	O	O	NN	O
+5-4	routes	5-2_dobj	studied	NNS	P2_route
+5-5	online	5-2_dep	studied	NN	O
+5-6	on	O	O	O	O
+5-7	their	O	O	PRP$	P1_bus
+5-8	website	5-2_prep_on	studied	NN	P1_time-table
+5-9	,	O	O	O	O
+5-10	there	5-11_expl	are	EX	O
+5-11	are	5-2_conj_and	studied	VBP	O
+5-12	quite	O	O	RB	O
+5-13	a	O	O	DT	O
+5-14	few	5-11_nsubj	are	JJ	P2_route
+5-15	and	O	O	O	O
+5-16	it	5-17_nsubj	seemed	PRP	O
+5-17	seemed	5-2_conj_and	studied	VBD	O
+5-18	like	O	O	IN	O
+5-19	it	O	O	PRP	O
+5-20	'd	O	O	MD	O
+5-21	be	O	O	VB	O
+5-22	easy	5-17_advcl	seemed	JJ	O
+5-23	to	5-24_aux	get	TO	O
+5-24	get	O	O	VB	O
+5-25	on	O	O	O	O
+5-26	the	O	O	DT	O
+5-27	wrong	O	O	JJ	O
+5-28	bus	5-24_prep_on	get	NN	P1_bus
+5-29	.	O	O	O	O
+
+#id=6
+#text=I learned each bus has a number assigned to it and displayed on the front though . 
+6-1	I	6-2_nsubj	learned	PRP	P1_passenger
+6-2	learned	O	O	VBD	O
+6-3	each	O	O	DT	O
+6-4	bus	6-5_nsubj	has	NN	P1_bus
+6-5	has	6-2_ccomp	learned	VBZ	O
+6-6	a	O	O	DT	O
+6-7	number	6-5_dobj	has	NN	P1_other
+6-8	assigned	O	O	VBN	O
+6-9	to	O	O	O	O
+6-10	it	6-8_prep_to	assigned	PRP	P1_bus
+6-11	and	O	O	O	O
+6-12	displayed	6-8_conj_and	assigned	VBN	O
+6-13	on	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	front	6-12_prep_on	displayed	NN	O
+6-16	though	6-12_advmod	displayed	RB	O
+6-17	.	O	O	O	O
+
+#id=7
+#text=With that in mind , and armed with maps , I learned to stand at my local bus stop and climb on board where I drop my change into the toll taker next to the driver . 
+7-1	With	O	O	O	O
+7-2	that	7-12_prep_with	learned	DT	O
+7-3	in	O	O	O	O
+7-4	mind	O	O	NN	P1_NPart_mind
+7-5	,	O	O	O	O
+7-6	and	O	O	O	O
+7-7	armed	O	O	JJ	O
+7-8	with	O	O	O	O
+7-9	maps	O	O	NNS	P1_NPart_maps
+7-10	,	O	O	O	O
+7-11	I	7-12_nsubj	learned	PRP	P1_passenger
+7-12	learned	O	O	VBD	O
+7-13	to	7-14_aux	stand	TO	O
+7-14	stand	7-12_xcomp	learned	VB	O
+7-15	at	O	O	O	O
+7-16	my	O	O	PRP$	P1_passenger
+7-17	local	O	O	JJ	O
+7-18	bus	O	O	NN	O
+7-19	stop	7-14_prep_at	stand	NN	P1_bus_stop
+7-20	and	O	O	O	O
+7-21	climb	7-14_conj_and	stand	VB	O
+7-22	on	O	O	O	O
+7-23	board	7-21_prep_on	climb	NN	O
+7-24	where	7-26_advmod	drop	WRB	O
+7-25	I	7-26_nsubj	drop	PRP	P1_passenger
+7-26	drop	7-21_advcl	climb	VB	O
+7-27	my	O	O	PRP$	P1_passenger
+7-28	change	7-26_dobj	drop	NN	P1_money
+7-29	into	O	O	O	O
+7-30	the	O	O	DT	O
+7-31	toll	O	O	NN	O
+7-32	taker	7-26_prep_into	drop	NN	P1_payment_machine
+7-33	next	O	O	O	O
+7-34	to	O	O	O	O
+7-35	the	O	O	DT	O
+7-36	driver	O	O	NN	P1_bus_staff
+7-37	.	O	O	O	O
+
+#id=8
+#text=I always look for an empty seat , and then relax , watching the scenery roll by . 
+8-1	I	8-3_nsubj	look	PRP	P1_passenger
+8-2	always	8-3_advmod	look	RB	O
+8-3	look	O	O	VBP	O
+8-4	for	O	O	O	O
+8-5	an	O	O	DT	O
+8-6	empty	O	O	JJ	O
+8-7	seat	8-3_prep_for	look	NN	P1_seat_in_bus
+8-8	,	O	O	O	O
+8-9	and	O	O	O	O
+8-10	then	8-11_advmod	relax	RB	O
+8-11	relax	8-3_conj_and	look	VBP	O
+8-12	,	O	O	O	O
+8-13	watching	8-3_conj_and	look	VBG	O
+8-14	the	O	O	DT	O
+8-15	scenery	O	O	NN	P1_in-bus_entertainment
+8-16	roll	8-13_dobj	watching	NN	O
+8-17	by	8-13_prep	watching	IN	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=As my stop approaches , I stand and pull the bell , and the driver stops the bus . 
+9-1	As	O	O	O	O
+9-2	my	O	O	PRP$	P1_passenger
+9-3	stop	O	O	NN	P1_destination
+9-4	approaches	9-7_prep_as	stand	NNS	O
+9-5	,	O	O	O	O
+9-6	I	9-7_nsubj	stand	PRP	P1_passenger
+9-7	stand	O	O	VBP	O
+9-8	and	O	O	O	O
+9-9	pull	9-7_conj_and	stand	VBP	O
+9-10	the	O	O	DT	O
+9-11	bell	9-7_dobj	stand	NN	P1_stop_button/door_opener
+9-12	,	O	O	O	O
+9-13	and	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	driver	9-16_nsubj	stops	NN	P2_seat_in_bus
+9-16	stops	9-7_conj_and	stand	VBZ	O
+9-17	the	O	O	DT	O
+9-18	bus	9-16_dobj	stops	NN	P1_bus
+9-19	.	O	O	O	O
+
+#id=10
+#text=Now that I regularly ride the public bus , I find I do n't mind the long commute nearly as much ! 
+10-1	Now	10-5_advmod	ride	RB	O
+10-2	that	10-5_mark	ride	IN	O
+10-3	I	10-5_nsubj	ride	PRP	P1_passenger
+10-4	regularly	10-5_advmod	ride	RB	O
+10-5	ride	10-11_advcl	find	VB	O
+10-6	the	O	O	DT	O
+10-7	public	O	O	JJ	O
+10-8	bus	10-5_dobj	ride	NN	P1_bus
+10-9	,	O	O	O	O
+10-10	I	10-11_nsubj	find	PRP	P1_passenger
+10-11	find	O	O	VBP	O
+10-12	I	10-15_nsubj	mind	PRP	P1_passenger
+10-13	do	10-15_aux	mind	VBP	O
+10-14	n't	10-15_neg	mind	RB	O
+10-15	mind	10-11_ccomp	find	VB	O
+10-16	the	O	O	DT	O
+10-17	long	O	O	JJ	O
+10-18	commute	10-15_dobj	mind	NN	P1_NPart_commute
+10-19	nearly	O	O	RB	O
+10-20	as	O	O	RB	O
+10-21	much	10-15_advmod	mind	RB	O
+10-22	!	O	O	O	O

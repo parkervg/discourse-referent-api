@@ -1,0 +1,194 @@
+#id=1
+#text=As a young male I never envisioned myself baking a cake . 
+1-1	As	O	O	O	O
+1-2	a	O	O	DT	O
+1-3	young	O	O	JJ	O
+1-4	male	1-7_prep_as	envisioned	NN	P1_cook
+1-5	I	1-7_nsubj	envisioned	PRP	P1_cook
+1-6	never	1-7_neg	envisioned	RB	O
+1-7	envisioned	O	O	VBD	O
+1-8	myself	1-7_dobj	envisioned	PRP	P1_cook
+1-9	baking	1-7_xcomp	envisioned	VBG	O
+1-10	a	O	O	DT	O
+1-11	cake	1-9_dobj	baking	NN	P1_cake
+1-12	.	O	O	O	O
+
+#id=2
+#text=Of course I also did n't think I would have a girlfriend whom preferred homemade gifts over anything else . 
+2-1	Of	O	O	O	O
+2-2	course	2-7_prep_of	think	NN	O
+2-3	I	2-7_nsubj	think	PRP	P1_cook
+2-4	also	2-7_advmod	think	RB	O
+2-5	did	2-7_aux	think	VBD	O
+2-6	n't	2-7_neg	think	RB	O
+2-7	think	O	O	VB	O
+2-8	I	2-10_nsubj	have	PRP	P1_cook
+2-9	would	2-10_aux	have	MD	O
+2-10	have	2-7_ccomp	think	VB	O
+2-11	a	O	O	DT	O
+2-12	girlfriend	2-10_dobj	have	NN	P1_beneficiary
+2-13	whom	2-14_nsubj	preferred	WP	O
+2-14	preferred	O	O	VBD	O
+2-15	homemade	O	O	JJ	O
+2-16	gifts	2-14_dobj	preferred	NNS	P1_NPart_gifts
+2-17	over	O	O	O	O
+2-18	anything	2-14_prep_over	preferred	NN	O
+2-19	else	O	O	RB	O
+2-20	.	O	O	O	O
+
+#id=3
+#text=Well here goes nothing I think , as I head to the supermarket to get what I need . 
+3-1	Well	3-3_nsubj	goes	NNP	O
+3-2	here	3-3_advmod	goes	RB	O
+3-3	goes	O	O	VBZ	O
+3-4	nothing	3-3_dobj	goes	NN	O
+3-5	I	3-6_nsubj	think	PRP	P1_cook
+3-6	think	O	O	VBP	O
+3-7	,	O	O	O	O
+3-8	as	3-10_mark	head	IN	O
+3-9	I	3-10_nsubj	head	PRP	P1_cook
+3-10	head	3-3_advcl	goes	VBP	O
+3-11	to	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	supermarket	3-10_prep_to	head	NN	P1_store
+3-14	to	3-15_aux	get	TO	O
+3-15	get	O	O	VB	O
+3-16	what	3-18_dobj	need	WP	O
+3-17	I	3-18_nsubj	need	PRP	P1_cook
+3-18	need	3-15_ccomp	get	VBP	O
+3-19	.	O	O	O	O
+
+#id=4
+#text=The first thing I get is the cake mix , then I use it to figure out what exactly it is that I need for the other ingredients . 
+4-1	The	O	O	DT	O
+4-2	first	O	O	JJ	O
+4-3	thing	O	O	NN	P1_ingredients
+4-4	I	4-5_nsubj	get	PRP	P1_cook
+4-5	get	O	O	VBP	O
+4-6	is	O	O	VBZ	O
+4-7	the	O	O	DT	O
+4-8	cake	O	O	NN	O
+4-9	mix	O	O	NN	P1_ingredients
+4-10	,	O	O	O	O
+4-11	then	4-13_advmod	use	RB	O
+4-12	I	4-13_nsubj	use	PRP	P1_cook
+4-13	use	O	O	VBP	O
+4-14	it	4-13_dobj	use	PRP	P1_baking_instructions
+4-15	to	4-16_aux	figure	TO	O
+4-16	figure	4-13_xcomp	use	VB	O
+4-17	out	4-16_prt	figure	RP	O
+4-18	what	4-21_dobj	is	WP	O
+4-19	exactly	4-21_advmod	is	RB	O
+4-20	it	4-21_nsubj	is	PRP	O
+4-21	is	4-16_ccomp	figure	VBZ	O
+4-22	that	4-24_mark	need	IN	O
+4-23	I	4-24_nsubj	need	PRP	P1_cook
+4-24	need	4-21_ccomp	is	VBP	O
+4-25	for	O	O	O	O
+4-26	the	O	O	DT	O
+4-27	other	O	O	JJ	O
+4-28	ingredients	4-24_prep_for	need	NNS	P2_ingredients
+4-29	.	O	O	O	O
+
+#id=5
+#text=I get all the ingredients I need and am actually starting to look forward to baking this cake . 
+5-1	I	5-2_nsubj	get	PRP	P1_cook
+5-2	get	O	O	VBP	O
+5-3	all	O	O	PDT	O
+5-4	the	O	O	DT	O
+5-5	ingredients	5-2_dobj	get	NNS	P2_ingredients
+5-6	I	5-7_nsubj	need	PRP	P1_cook
+5-7	need	O	O	VBP	O
+5-8	and	O	O	O	O
+5-9	am	5-11_aux	starting	VBP	O
+5-10	actually	5-11_advmod	starting	RB	O
+5-11	starting	5-7_conj_and	need	VBG	O
+5-12	to	5-13_aux	look	TO	O
+5-13	look	5-11_xcomp	starting	VB	O
+5-14	forward	5-13_advmod	look	RB	O
+5-15	to	O	O	O	O
+5-16	baking	5-13_prepc_to	look	VBG	O
+5-17	this	O	O	DT	O
+5-18	cake	5-16_dobj	baking	NN	P1_cake
+5-19	.	O	O	O	O
+
+#id=6
+#text=I arrive home and preheat the oven . 
+6-1	I	6-2_nsubj	arrive	PRP	P1_cook
+6-2	arrive	O	O	VBP	O
+6-3	home	6-2_dobj	arrive	NN	O
+6-4	and	O	O	O	O
+6-5	preheat	6-2_conj_and	arrive	VBP	O
+6-6	the	O	O	DT	O
+6-7	oven	6-5_dobj	preheat	NN	P1_oven
+6-8	.	O	O	O	O
+
+#id=7
+#text=I look at the instructions on the back of the cake mix and then begin to mix stuff . 
+7-1	I	7-2_nsubj	look	PRP	P1_cook
+7-2	look	O	O	VBP	O
+7-3	at	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	instructions	7-2_prep_at	look	NNS	P1_baking_instructions
+7-6	on	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	back	O	O	NN	O
+7-9	of	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	cake	O	O	NN	O
+7-12	mix	O	O	NN	P1_ingredients
+7-13	and	O	O	O	O
+7-14	then	7-15_advmod	begin	RB	O
+7-15	begin	7-2_conj_and	look	VBP	O
+7-16	to	7-17_aux	mix	TO	O
+7-17	mix	7-15_xcomp	begin	VB	O
+7-18	stuff	7-17_dobj	mix	NN	P3_ingredients
+7-19	.	O	O	O	O
+
+#id=8
+#text=When the cake is finally ready and in a pan I place it in the oven . 
+8-1	When	O	O	WRB	O
+8-2	the	O	O	DT	O
+8-3	cake	O	O	NN	P1_cake
+8-4	is	O	O	VBZ	O
+8-5	finally	O	O	RB	O
+8-6	ready	8-12_advcl	place	JJ	O
+8-7	and	O	O	O	O
+8-8	in	O	O	IN	O
+8-9	a	O	O	DT	O
+8-10	pan	O	O	NN	P1_cake_tin
+8-11	I	8-12_nsubj	place	PRP	P1_cook
+8-12	place	O	O	VBP	O
+8-13	it	8-12_dobj	place	PRP	P1_cake
+8-14	in	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	oven	8-12_prep_in	place	NN	P1_oven
+8-17	.	O	O	O	O
+
+#id=9
+#text=After it is out I put the words happy birthday on the cake with icing . 
+9-1	After	O	O	IN	O
+9-2	it	O	O	PRP	P1_cake
+9-3	is	O	O	VBZ	O
+9-4	out	9-6_advcl	put	RP	O
+9-5	I	9-6_nsubj	put	PRP	P1_cook
+9-6	put	O	O	VBD	O
+9-7	the	O	O	DT	O
+9-8	words	O	O	NNS	P1_NPart_words
+9-9	happy	O	O	JJ	O
+9-10	birthday	9-6_dobj	put	NN	P1_NPart_birthday
+9-11	on	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	cake	O	O	NN	P1_cake
+9-14	with	O	O	O	O
+9-15	icing	9-6_prepc_with	put	VBG	P1_decoration
+9-16	.	O	O	O	O
+
+#id=10
+#text=Someone is getting laid today . 
+10-1	Someone	10-4_nsubjpass	laid	NN	P1_beneficiary
+10-2	is	10-4_aux	laid	VBZ	O
+10-3	getting	10-4_auxpass	laid	VBG	O
+10-4	laid	O	O	VBN	O
+10-5	today	10-4_tmod	laid	NN	O
+10-6	.	O	O	O	O

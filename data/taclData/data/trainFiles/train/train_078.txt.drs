@@ -1,0 +1,235 @@
+#id=1
+#text=Every time I have to go to the city , I have to take the train . 
+1-1	Every	O	O	DT	O
+1-2	time	1-4_nsubj	have	NN	O
+1-3	I	1-4_nsubj	have	PRP	P1_passenger
+1-4	have	1-12_ccomp	have	VBP	O
+1-5	to	1-6_aux	go	TO	O
+1-6	go	1-4_xcomp	have	VB	O
+1-7	to	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	city	1-6_prep_to	go	NN	P1_destination
+1-10	,	O	O	O	O
+1-11	I	1-12_nsubj	have	PRP	P1_passenger
+1-12	have	O	O	VBP	O
+1-13	to	1-14_aux	take	TO	O
+1-14	take	1-12_xcomp	have	VB	O
+1-15	the	O	O	DT	O
+1-16	train	1-14_dobj	take	NN	P1_train
+1-17	.	O	O	O	O
+
+#id=2
+#text=One day , when I was on the train , I had to wait twenty minutes for the next train to arrive . 
+2-1	One	O	O	CD	O
+2-2	day	2-12_tmod	had	NN	P1_time_date
+2-3	,	O	O	O	O
+2-4	when	2-6_advmod	was	WRB	O
+2-5	I	2-6_nsubj	was	PRP	P1_passenger
+2-6	was	2-12_advcl	had	VBD	O
+2-7	on	O	O	O	O
+2-8	the	O	O	DT	O
+2-9	train	2-6_prep_on	was	NN	P2_train
+2-10	,	O	O	O	O
+2-11	I	2-12_nsubj	had	PRP	P1_passenger
+2-12	had	O	O	VBD	O
+2-13	to	2-14_aux	wait	TO	O
+2-14	wait	2-12_xcomp	had	VB	O
+2-15	twenty	O	O	CD	O
+2-16	minutes	2-14_dobj	wait	NNS	P2_time_date
+2-17	for	O	O	O	O
+2-18	the	O	O	DT	O
+2-19	next	O	O	JJ	O
+2-20	train	O	O	NN	P3_train
+2-21	to	2-22_aux	arrive	TO	O
+2-22	arrive	2-12_xcomp	had	VB	O
+2-23	.	O	O	O	O
+
+#id=3
+#text=When it arrived , , the place was full . 
+3-1	When	3-3_advmod	arrived	WRB	O
+3-2	it	3-3_nsubj	arrived	PRP	P3_train
+3-3	arrived	O	O	VBD	O
+3-4	,	O	O	O	O
+3-5	,	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	place	O	O	NN	P3_train
+3-8	was	O	O	VBD	O
+3-9	full	O	O	JJ	O
+3-10	.	O	O	O	O
+
+#id=4
+#text=It was full because it was rush hour . 
+4-1	It	O	O	PRP	P3_train
+4-2	was	O	O	VBD	O
+4-3	full	O	O	JJ	O
+4-4	because	O	O	IN	O
+4-5	it	O	O	PRP	O
+4-6	was	O	O	VBD	O
+4-7	rush	O	O	NN	O
+4-8	hour	O	O	NN	P3_time_date
+4-9	.	O	O	O	O
+
+#id=5
+#text=That 's the time when everyone is coming out of work or school . 
+5-1	That	O	O	DT	O
+5-2	's	O	O	VBZ	O
+5-3	the	O	O	DT	O
+5-4	time	O	O	NN	P3_time_date
+5-5	when	5-8_advmod	coming	WRB	O
+5-6	everyone	5-8_nsubj	coming	NN	P2_passenger
+5-7	is	5-8_aux	coming	VBZ	O
+5-8	coming	O	O	VBG	O
+5-9	out	O	O	O	O
+5-10	of	O	O	O	O
+5-11	work	5-8_prep_out_of	coming	NN	P1_NPart_work
+5-12	or	O	O	O	O
+5-13	school	O	O	NN	P1_NPart_school
+5-14	.	O	O	O	O
+
+#id=6
+#text=I could n't find a seat at all ! 
+6-1	I	6-4_nsubj	find	PRP	P1_passenger
+6-2	could	6-4_aux	find	MD	O
+6-3	n't	6-4_neg	find	RB	O
+6-4	find	O	O	VB	O
+6-5	a	O	O	DT	O
+6-6	seat	6-4_dobj	find	NN	P1_seat
+6-7	at	6-4_advmod	find	IN	O
+6-8	all	O	O	DT	O
+6-9	!	O	O	O	O
+
+#id=7
+#text=I had to stand up throughout my whole ride . 
+7-1	I	7-2_nsubj	had	PRP	P1_passenger
+7-2	had	O	O	VBD	O
+7-3	to	7-4_aux	stand	TO	O
+7-4	stand	7-2_xcomp	had	VB	O
+7-5	up	7-4_prt	stand	RP	O
+7-6	throughout	O	O	O	O
+7-7	my	O	O	PRP$	P1_passenger
+7-8	whole	O	O	JJ	O
+7-9	ride	7-4_prep_throughout	stand	NN	P1_trip
+7-10	.	O	O	O	O
+
+#id=8
+#text=It was very uncomfortable because I had to stand up for an hour ride . 
+8-1	It	O	O	PRP	O
+8-2	was	O	O	VBD	O
+8-3	very	O	O	RB	O
+8-4	uncomfortable	O	O	JJ	O
+8-5	because	8-7_mark	had	IN	O
+8-6	I	8-7_nsubj	had	PRP	P1_passenger
+8-7	had	O	O	VBD	O
+8-8	to	8-9_aux	stand	TO	O
+8-9	stand	8-7_xcomp	had	VB	O
+8-10	up	8-9_prt	stand	RP	O
+8-11	for	O	O	O	O
+8-12	an	O	O	DT	O
+8-13	hour	O	O	NN	O
+8-14	ride	8-9_prep_for	stand	NN	P2_trip
+8-15	.	O	O	O	O
+
+#id=9
+#text=To make matters worse , more people wanted to squeeze inside the train . 
+9-1	To	9-2_aux	make	TO	O
+9-2	make	9-8_advcl	wanted	VB	O
+9-3	matters	O	O	NNS	O
+9-4	worse	9-2_xcomp	make	RBR	O
+9-5	,	O	O	O	O
+9-6	more	O	O	JJR	O
+9-7	people	9-8_nsubj	wanted	NNS	P3_passenger
+9-8	wanted	O	O	VBD	O
+9-9	to	9-10_aux	squeeze	TO	O
+9-10	squeeze	9-8_xcomp	wanted	VB	O
+9-11	inside	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	train	9-10_prep_inside	squeeze	NN	P3_train
+9-14	.	O	O	O	O
+
+#id=10
+#text=Now everybody was on top of one another . 
+10-1	Now	10-3_advmod	was	RB	O
+10-2	everybody	10-3_nsubj	was	NN	P3_passenger
+10-3	was	O	O	VBD	O
+10-4	on	O	O	O	O
+10-5	top	O	O	O	O
+10-6	of	O	O	O	O
+10-7	one	10-3_prep_on_top_of	was	CD	O
+10-8	another	O	O	DT	O
+10-9	.	O	O	O	O
+
+#id=11
+#text=Soon , the train could n't move anymore because there were just too many people on the train . 
+11-1	Soon	11-7_advmod	move	RB	O
+11-2	,	O	O	O	O
+11-3	the	O	O	DT	O
+11-4	train	11-7_nsubj	move	NN	P3_train
+11-5	could	11-7_aux	move	MD	O
+11-6	n't	11-7_neg	move	RB	O
+11-7	move	O	O	VB	O
+11-8	anymore	11-7_advmod	move	RB	O
+11-9	because	11-11_mark	were	IN	O
+11-10	there	11-11_expl	were	EX	O
+11-11	were	11-7_advcl	move	VBD	O
+11-12	just	O	O	RB	O
+11-13	too	O	O	RB	O
+11-14	many	O	O	JJ	O
+11-15	people	11-11_nsubj	were	NNS	P3_passenger
+11-16	on	O	O	O	O
+11-17	the	O	O	DT	O
+11-18	train	11-11_prep_on	were	NN	P3_train
+11-19	.	O	O	O	O
+
+#id=12
+#text=The door would n't close therefore ; the conductor could n't drive the train . 
+12-1	The	O	O	DT	O
+12-2	door	12-5_nsubj	close	NN	P1_door
+12-3	would	12-5_aux	close	MD	O
+12-4	n't	12-5_neg	close	RB	O
+12-5	close	O	O	VB	O
+12-6	therefore	12-5_advmod	close	RB	O
+12-7	;	O	O	O	O
+12-8	the	O	O	DT	O
+12-9	conductor	12-12_nsubj	drive	NN	P1_train_staff
+12-10	could	12-12_aux	drive	MD	O
+12-11	n't	12-12_neg	drive	RB	O
+12-12	drive	12-5_parataxis	close	VB	O
+12-13	the	O	O	DT	O
+12-14	train	12-12_dobj	drive	NN	P3_train
+12-15	.	O	O	O	O
+
+#id=13
+#text=Eventually , people started to come out and I was able to breathe . 
+13-1	Eventually	13-4_advmod	started	RB	O
+13-2	,	O	O	O	O
+13-3	people	13-4_nsubj	started	NNS	P3_passenger
+13-4	started	O	O	VBD	O
+13-5	to	13-6_aux	come	TO	O
+13-6	come	13-4_xcomp	started	VB	O
+13-7	out	13-6_prt	come	RP	O
+13-8	and	O	O	O	O
+13-9	I	O	O	PRP	P1_passenger
+13-10	was	O	O	VBD	O
+13-11	able	13-4_conj_and	started	JJ	O
+13-12	to	13-13_aux	breathe	TO	O
+13-13	breathe	O	O	VB	O
+13-14	.	O	O	O	O
+
+#id=14
+#text=Finally , I reached my stop and was relieved to be out of that train . 
+14-1	Finally	14-4_advmod	reached	RB	O
+14-2	,	O	O	O	O
+14-3	I	14-4_nsubj	reached	PRP	P1_passenger
+14-4	reached	O	O	VBD	O
+14-5	my	O	O	PRP$	P1_passenger
+14-6	stop	14-4_dobj	reached	NN	P2_destination
+14-7	and	O	O	O	O
+14-8	was	14-9_auxpass	relieved	VBD	O
+14-9	relieved	14-4_conj_and	reached	VBN	O
+14-10	to	O	O	TO	O
+14-11	be	O	O	VB	O
+14-12	out	14-9_xcomp	relieved	JJ	O
+14-13	of	O	O	O	O
+14-14	that	O	O	WDT	O
+14-15	train	O	O	NN	P3_train
+14-16	.	O	O	O	O

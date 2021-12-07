@@ -1,0 +1,211 @@
+#id=1
+#text=The other week I had to take a trip on a train to visit some family that lives down south . 
+1-1	The	O	O	DT	O
+1-2	other	O	O	JJ	O
+1-3	week	1-5_tmod	had	NN	P1_NPart_week
+1-4	I	1-5_nsubj	had	PRP	P1_passenger
+1-5	had	O	O	VBD	O
+1-6	to	1-7_aux	take	TO	O
+1-7	take	1-5_xcomp	had	VB	O
+1-8	a	O	O	DT	O
+1-9	trip	1-7_dobj	take	NN	P1_trip
+1-10	on	O	O	O	O
+1-11	a	O	O	DT	O
+1-12	train	1-7_prep_on	take	NN	P1_train
+1-13	to	1-14_aux	visit	TO	O
+1-14	visit	1-5_xcomp	had	VB	O
+1-15	some	O	O	DT	O
+1-16	family	1-14_dobj	visit	NN	P1_NPart_family
+1-17	that	1-18_nsubj	lives	WDT	O
+1-18	lives	O	O	VBZ	O
+1-19	down	O	O	RB	O
+1-20	south	1-18_advmod	lives	RB	O
+1-21	.	O	O	O	O
+
+#id=2
+#text=Once I bought my train ticket I waited with a big group of people for the train to come . 
+2-1	Once	2-3_mark	bought	IN	O
+2-2	I	2-3_nsubj	bought	PRP	P1_passenger
+2-3	bought	2-8_advcl	waited	VBD	O
+2-4	my	O	O	PRP$	P1_passenger
+2-5	train	O	O	NN	O
+2-6	ticket	2-3_dobj	bought	NN	P1_card/ticket
+2-7	I	2-8_nsubj	waited	PRP	P1_passenger
+2-8	waited	O	O	VBD	O
+2-9	with	O	O	O	O
+2-10	a	O	O	DT	O
+2-11	big	O	O	JJ	O
+2-12	group	2-8_prep_with	waited	NN	O
+2-13	of	O	O	O	O
+2-14	people	O	O	NNS	P2_passenger
+2-15	for	O	O	O	O
+2-16	the	O	O	DT	O
+2-17	train	O	O	NN	P2_train
+2-18	to	2-19_aux	come	TO	O
+2-19	come	2-8_xcomp	waited	VB	O
+2-20	.	O	O	O	O
+
+#id=3
+#text=Once the train came down the track we all got onto the train and took our seats . 
+3-1	Once	3-4_mark	came	IN	O
+3-2	the	O	O	DT	O
+3-3	train	3-4_nsubj	came	NN	P2_train
+3-4	came	3-10_advcl	got	VBD	O
+3-5	down	3-4_prt	came	RP	O
+3-6	the	O	O	DT	O
+3-7	track	3-4_dobj	came	NN	P1_NPart_track
+3-8	we	3-10_nsubj	got	PRP	P3_passenger
+3-9	all	3-10_advmod	got	DT	O
+3-10	got	O	O	VBD	O
+3-11	onto	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	train	3-10_prep_onto	got	NN	P2_train
+3-14	and	O	O	O	O
+3-15	took	3-10_conj_and	got	VBD	O
+3-16	our	O	O	PRP$	P3_passenger
+3-17	seats	3-15_dobj	took	NNS	P1_seat
+3-18	.	O	O	O	O
+
+#id=4
+#text=A ticket-man came and asked to see our tickets and make sure that we all were supposed to be on the train , and also that we 're all in the right seats . 
+4-1	A	O	O	DT	O
+4-2	ticket-man	4-3_nsubj	came	NN	P1_train_staff
+4-3	came	O	O	VBD	O
+4-4	and	O	O	O	O
+4-5	asked	4-3_conj_and	came	VBD	O
+4-6	to	4-7_aux	see	TO	O
+4-7	see	4-5_xcomp	asked	VB	O
+4-8	our	O	O	PRP$	P3_passenger
+4-9	tickets	4-7_dobj	see	NNS	P1_card/ticket
+4-10	and	O	O	O	O
+4-11	make	4-7_conj_and	see	VB	O
+4-12	sure	4-11_acomp	make	JJ	O
+4-13	that	4-17_mark	supposed	IN	O
+4-14	we	4-17_nsubjpass	supposed	PRP	P3_passenger
+4-15	all	4-17_advmod	supposed	DT	O
+4-16	were	4-17_auxpass	supposed	VBD	O
+4-17	supposed	4-11_ccomp	make	VBN	O
+4-18	to	4-19_aux	be	TO	O
+4-19	be	4-17_xcomp	supposed	VB	O
+4-20	on	O	O	O	O
+4-21	the	O	O	DT	O
+4-22	train	4-19_prep_on	be	NN	P2_train
+4-23	,	O	O	O	O
+4-24	and	O	O	O	O
+4-25	also	O	O	RB	O
+4-26	that	O	O	IN	O
+4-27	we	O	O	PRP	P3_passenger
+4-28	're	O	O	VBP	O
+4-29	all	4-17_conj_and	supposed	DT	O
+4-30	in	O	O	O	O
+4-31	the	O	O	DT	O
+4-32	right	O	O	JJ	O
+4-33	seats	O	O	NNS	P1_seat
+4-34	.	O	O	O	O
+
+#id=5
+#text=Once that is all taken care of I walk to the food train-car and get some food . 
+5-1	Once	5-5_mark	taken	IN	O
+5-2	that	5-5_nsubjpass	taken	DT	O
+5-3	is	5-5_auxpass	taken	VBZ	O
+5-4	all	5-5_advmod	taken	RB	O
+5-5	taken	5-9_csubj	walk	VBN	O
+5-6	care	5-5_dobj	taken	NN	O
+5-7	of	O	O	O	O
+5-8	I	O	O	PRP	P1_passenger
+5-9	walk	O	O	VB	O
+5-10	to	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	food	O	O	NN	O
+5-13	train-car	5-9_prep_to	walk	NN	P1_coach
+5-14	and	O	O	O	O
+5-15	get	5-9_conj_and	walk	VB	O
+5-16	some	O	O	DT	O
+5-17	food	5-15_dobj	get	NN	P1_in-train_entertainment
+5-18	.	O	O	O	O
+
+#id=6
+#text=I sit down at the train-car table and eat my food . 
+6-1	I	6-2_nsubj	sit	PRP	P1_passenger
+6-2	sit	O	O	VBP	O
+6-3	down	6-2_prt	sit	RP	O
+6-4	at	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	train-car	O	O	JJ	O
+6-7	table	6-2_prep_at	sit	NN	P1_NPart_table
+6-8	and	O	O	O	O
+6-9	eat	6-2_conj_and	sit	VBP	O
+6-10	my	O	O	PRP$	P1_passenger
+6-11	food	6-9_dobj	eat	NN	P1_in-train_entertainment
+6-12	.	O	O	O	O
+
+#id=7
+#text=The food is good , but was prepared quickly . 
+7-1	The	O	O	DT	O
+7-2	food	O	O	NN	P1_in-train_entertainment
+7-3	is	O	O	VBZ	O
+7-4	good	O	O	JJ	O
+7-5	,	O	O	O	O
+7-6	but	O	O	O	O
+7-7	was	7-8_auxpass	prepared	VBD	O
+7-8	prepared	O	O	VBN	O
+7-9	quickly	7-8_advmod	prepared	RB	O
+7-10	.	O	O	O	O
+
+#id=8
+#text=After I eat my food I throw away the trash from my meal and walk back to my seat where I fall asleep for a little while and then when I wake up I am at my destination and exit the train where I meet up with my family who are waiting for me . 
+8-1	After	O	O	O	O
+8-2	I	8-3_nsubj	eat	PRP	P1_passenger
+8-3	eat	8-7_prepc_after	throw	VB	O
+8-4	my	O	O	PRP$	P1_passenger
+8-5	food	8-3_dobj	eat	NN	P1_in-train_entertainment
+8-6	I	8-7_nsubj	throw	PRP	P1_passenger
+8-7	throw	O	O	VB	O
+8-8	away	8-7_prt	throw	RP	O
+8-9	the	O	O	DT	O
+8-10	trash	8-7_dobj	throw	NN	P1_NPart_trash
+8-11	from	O	O	O	O
+8-12	my	O	O	PRP$	P1_passenger
+8-13	meal	O	O	NN	P1_in-train_entertainment
+8-14	and	O	O	O	O
+8-15	walk	8-7_conj_and	throw	VB	O
+8-16	back	8-15_prt	walk	RP	O
+8-17	to	O	O	O	O
+8-18	my	O	O	PRP$	P1_passenger
+8-19	seat	8-15_prep_to	walk	NN	P1_seat
+8-20	where	8-22_advmod	fall	WRB	O
+8-21	I	8-22_nsubj	fall	PRP	P1_passenger
+8-22	fall	8-15_advcl	walk	VBP	O
+8-23	asleep	8-22_acomp	fall	RB	O
+8-24	for	O	O	O	O
+8-25	a	O	O	DT	O
+8-26	little	O	O	JJ	O
+8-27	while	8-22_prep_for	fall	NN	O
+8-28	and	O	O	O	O
+8-29	then	8-35_advmod	am	RB	O
+8-30	when	8-32_advmod	wake	WRB	O
+8-31	I	8-32_nsubj	wake	PRP	P1_passenger
+8-32	wake	8-35_advcl	am	VBP	O
+8-33	up	8-32_prt	wake	RP	O
+8-34	I	8-35_nsubj	am	PRP	P1_passenger
+8-35	am	8-22_conj_and	fall	VBP	O
+8-36	at	O	O	O	O
+8-37	my	O	O	PRP$	P1_passenger
+8-38	destination	8-35_prep_at	am	NN	P1_destination
+8-39	and	O	O	O	O
+8-40	exit	8-7_conj_and	throw	VB	O
+8-41	the	O	O	DT	O
+8-42	train	8-40_dobj	exit	NN	P2_train
+8-43	where	8-45_advmod	meet	WRB	O
+8-44	I	8-45_nsubj	meet	PRP	P1_passenger
+8-45	meet	8-40_advcl	exit	VBP	O
+8-46	up	8-45_prt	meet	RP	O
+8-47	with	O	O	O	O
+8-48	my	O	O	PRP$	P1_passenger
+8-49	family	8-45_prep_with	meet	NN	P2_NPart_family
+8-50	who	8-52_nsubj	waiting	WP	P1_NPart_who
+8-51	are	8-52_aux	waiting	VBP	O
+8-52	waiting	O	O	VBG	O
+8-53	for	O	O	O	O
+8-54	me	8-52_prep_for	waiting	PRP	P1_passenger
+8-55	.	O	O	O	O

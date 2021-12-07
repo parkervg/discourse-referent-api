@@ -1,0 +1,205 @@
+#id=1
+#text=In the morning , I woke up to prepare for the day . 
+1-1	In	O	O	O	O
+1-2	the	O	O	DT	O
+1-3	morning	1-6_prep_in	woke	NN	P1_NPart_morning
+1-4	,	O	O	O	O
+1-5	I	1-6_nsubj	woke	PRP	P1_gardener
+1-6	woke	O	O	VBD	O
+1-7	up	1-6_prt	woke	RP	O
+1-8	to	1-9_aux	prepare	TO	O
+1-9	prepare	1-6_xcomp	woke	VB	O
+1-10	for	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	day	1-9_prep_for	prepare	NN	P1_NPart_day
+1-13	.	O	O	O	O
+
+#id=2
+#text=After getting coffee ready , I took on breakfast . 
+2-1	After	O	O	O	O
+2-2	getting	2-7_prepc_after	took	VBG	O
+2-3	coffee	O	O	NN	P1_NPart_coffee
+2-4	ready	2-2_xcomp	getting	JJ	O
+2-5	,	O	O	O	O
+2-6	I	2-7_nsubj	took	PRP	P1_gardener
+2-7	took	O	O	VBD	O
+2-8	on	O	O	O	O
+2-9	breakfast	2-7_prep_on	took	NN	P1_NPart_breakfast
+2-10	.	O	O	O	O
+
+#id=3
+#text=My partner awoke , and she began to get ready in the bathroom . 
+3-1	My	O	O	PRP$	P1_gardener
+3-2	partner	3-3_nsubj	awoke	NN	P2_gardener
+3-3	awoke	O	O	VBD	O
+3-4	,	O	O	O	O
+3-5	and	O	O	O	O
+3-6	she	3-7_nsubj	began	PRP	P2_gardener
+3-7	began	3-3_conj_and	awoke	VBD	O
+3-8	to	O	O	TO	O
+3-9	get	O	O	VB	O
+3-10	ready	3-7_xcomp	began	JJ	O
+3-11	in	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	bathroom	O	O	NN	P1_NPart_bathroom
+3-14	.	O	O	O	O
+
+#id=4
+#text=She was out by the time food was ready . 
+4-1	She	4-2_nsubj	was	PRP	P2_gardener
+4-2	was	O	O	VBD	O
+4-3	out	4-2_advmod	was	IN	O
+4-4	by	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	time	O	O	NN	O
+4-7	food	O	O	NN	P1_NPart_food
+4-8	was	O	O	VBD	O
+4-9	ready	O	O	JJ	O
+4-10	.	O	O	O	O
+
+#id=5
+#text=We spoke about our plans for the day , and what we intended our goals to be . 
+5-1	We	5-2_nsubj	spoke	PRP	P3_gardener
+5-2	spoke	O	O	VBD	O
+5-3	about	O	O	O	O
+5-4	our	O	O	PRP$	P3_gardener
+5-5	plans	5-2_prep_about	spoke	NNS	P1_NPart_plans
+5-6	for	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	day	5-2_prep_for	spoke	NN	P2_NPart_day
+5-9	,	O	O	O	O
+5-10	and	O	O	O	O
+5-11	what	5-13_dep	intended	WP	O
+5-12	we	5-13_nsubj	intended	PRP	P3_gardener
+5-13	intended	5-2_conj_and	spoke	VBD	O
+5-14	our	O	O	PRP$	P3_gardener
+5-15	goals	5-13_dobj	intended	NNS	P1_NPart_goals
+5-16	to	5-17_aux	be	TO	O
+5-17	be	5-13_vmod	intended	VB	O
+5-18	.	O	O	O	O
+
+#id=6
+#text=After getting dressed up to head outside , we headed over to the gardening store to choose a tree for our yard . 
+6-1	After	O	O	O	O
+6-2	getting	6-3_auxpass	dressed	VBG	O
+6-3	dressed	6-10_prepc_after	headed	VBN	O
+6-4	up	6-3_prt	dressed	RP	O
+6-5	to	6-6_aux	head	TO	O
+6-6	head	6-3_xcomp	dressed	VB	O
+6-7	outside	6-6_advmod	head	RB	O
+6-8	,	O	O	O	O
+6-9	we	6-10_nsubj	headed	PRP	P3_gardener
+6-10	headed	O	O	VBD	O
+6-11	over	6-10_prt	headed	RP	O
+6-12	to	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	gardening	O	O	NN	O
+6-15	store	6-10_prep_to	headed	NN	P1_shop
+6-16	to	6-17_aux	choose	TO	O
+6-17	choose	6-10_xcomp	headed	VB	O
+6-18	a	O	O	DT	O
+6-19	tree	6-17_dobj	choose	NN	P1_tree
+6-20	for	O	O	O	O
+6-21	our	O	O	PRP$	P3_gardener
+6-22	yard	O	O	NN	P1_location_garden
+6-23	.	O	O	O	O
+
+#id=7
+#text=Both of us were hoping for a nice Japanese Maple tree . 
+7-1	Both	7-5_nsubj	hoping	DT	O
+7-2	of	O	O	O	O
+7-3	us	O	O	PRP	P3_gardener
+7-4	were	7-5_aux	hoping	VBD	O
+7-5	hoping	O	O	VBG	O
+7-6	for	O	O	O	O
+7-7	a	O	O	DT	O
+7-8	nice	O	O	JJ	O
+7-9	Japanese	O	O	JJ	O
+7-10	Maple	O	O	NNP	O
+7-11	tree	7-5_prep_for	hoping	NN	P1_tree
+7-12	.	O	O	O	O
+
+#id=8
+#text=The checkout lady was nice , we found exactly what we were looking for after we got into the store . 
+8-1	The	O	O	DT	O
+8-2	checkout	O	O	NN	O
+8-3	lady	O	O	NN	P1_staff
+8-4	was	O	O	VBD	O
+8-5	nice	8-8_ccomp	found	JJ	O
+8-6	,	O	O	O	O
+8-7	we	8-8_nsubj	found	PRP	P3_gardener
+8-8	found	O	O	VBD	O
+8-9	exactly	O	O	RB	O
+8-10	what	8-13_dep	looking	WP	P1_tree
+8-11	we	8-13_nsubj	looking	PRP	P3_gardener
+8-12	were	8-13_aux	looking	VBD	O
+8-13	looking	8-8_ccomp	found	VBG	O
+8-14	for	O	O	O	O
+8-15	after	8-17_mark	got	IN	O
+8-16	we	8-17_nsubj	got	PRP	P3_gardener
+8-17	got	8-13_prepc_for	looking	VBD	O
+8-18	into	O	O	O	O
+8-19	the	O	O	DT	O
+8-20	store	8-17_prep_into	got	NN	P1_shop
+8-21	.	O	O	O	O
+
+#id=9
+#text=Driving home , we could barely contain our excitement . 
+9-1	Driving	9-7_vmod	contain	VBG	O
+9-2	home	9-1_dobj	Driving	NN	P1_NPart_home
+9-3	,	O	O	O	O
+9-4	we	9-7_nsubj	contain	PRP	P3_gardener
+9-5	could	9-7_aux	contain	MD	O
+9-6	barely	9-7_advmod	contain	RB	O
+9-7	contain	O	O	VB	O
+9-8	our	O	O	PRP$	P3_gardener
+9-9	excitement	9-7_dobj	contain	NN	P1_NPart_excitement
+9-10	.	O	O	O	O
+
+#id=10
+#text=After stepping back in the house for a quick snack and another cup of coffee , we set out to the shed to get the right tools . 
+10-1	After	O	O	O	O
+10-2	stepping	10-18_prepc_after	set	VBG	O
+10-3	back	10-2_prt	stepping	RP	O
+10-4	in	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	house	10-2_prep_in	stepping	NN	P1_NPart_house
+10-7	for	O	O	O	O
+10-8	a	O	O	DT	O
+10-9	quick	O	O	JJ	O
+10-10	snack	O	O	NN	P1_NPart_snack
+10-11	and	O	O	O	O
+10-12	another	O	O	DT	O
+10-13	cup	O	O	NN	O
+10-14	of	O	O	O	O
+10-15	coffee	O	O	NN	P2_NPart_coffee
+10-16	,	O	O	O	O
+10-17	we	10-18_nsubj	set	PRP	P3_gardener
+10-18	set	O	O	VBD	O
+10-19	out	10-18_prt	set	RP	O
+10-20	to	O	O	O	O
+10-21	the	O	O	DT	O
+10-22	shed	10-18_prep_to	set	NN	P1_NPart_shed
+10-23	to	10-24_aux	get	TO	O
+10-24	get	10-18_xcomp	set	VB	O
+10-25	the	O	O	DT	O
+10-26	right	O	O	JJ	O
+10-27	tools	10-24_dobj	get	NNS	P1_gardening_tool
+10-28	.	O	O	O	O
+
+#id=11
+#text=The hole was easy to dig , and the tree was transplanted successfully . 
+11-1	The	O	O	DT	O
+11-2	hole	O	O	NN	P1_hole
+11-3	was	O	O	VBD	O
+11-4	easy	O	O	JJ	O
+11-5	to	11-6_aux	dig	TO	O
+11-6	dig	O	O	VB	O
+11-7	,	O	O	O	O
+11-8	and	O	O	O	O
+11-9	the	O	O	DT	O
+11-10	tree	11-12_nsubjpass	transplanted	NN	P1_tree
+11-11	was	11-12_auxpass	transplanted	VBD	O
+11-12	transplanted	O	O	VBN	O
+11-13	successfully	11-12_advmod	transplanted	RB	O
+11-14	.	O	O	O	O

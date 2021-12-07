@@ -1,0 +1,414 @@
+#id=1
+#text=While preparing a dinner of Spaghetti and Meatballs tonight , I realized I needed to go grocery shopping to restock my refrigerator . 
+1-1	While	1-2_mark	preparing	IN	O
+1-2	preparing	1-12_advcl	realized	VBG	O
+1-3	a	O	O	DT	O
+1-4	dinner	1-2_iobj	preparing	NN	P1_NPart_dinner
+1-5	of	O	O	O	O
+1-6	Spaghetti	O	O	NNP	P1_NPart_spaghetti
+1-7	and	O	O	O	O
+1-8	Meatballs	O	O	NNP	P1_NPart_meatballs
+1-9	tonight	1-2_dobj	preparing	NN	O
+1-10	,	O	O	O	O
+1-11	I	1-12_nsubj	realized	PRP	P1_shopper
+1-12	realized	O	O	VBD	O
+1-13	I	1-14_nsubj	needed	PRP	P1_shopper
+1-14	needed	1-12_ccomp	realized	VBD	O
+1-15	to	1-16_aux	go	TO	O
+1-16	go	1-14_xcomp	needed	VB	O
+1-17	grocery	O	O	NN	P1_groceries
+1-18	shopping	1-16_dobj	go	NN	O
+1-19	to	1-20_aux	restock	TO	O
+1-20	restock	1-16_vmod	go	VB	O
+1-21	my	O	O	PRP$	P1_shopper
+1-22	refrigerator	1-20_dobj	restock	NN	P1_NPart_refrigerator
+1-23	.	O	O	O	O
+
+#id=2
+#text=It was still early and the store wasn ' t close so I made a trip to the store . 
+2-1	It	O	O	PRP	O
+2-2	was	O	O	VBD	O
+2-3	still	O	O	RB	O
+2-4	early	O	O	JJ	O
+2-5	and	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	store	O	O	NN	P1_grocery_shop
+2-8	wasn	O	O	NN	O
+2-9	'	O	O	O	O
+2-10	t	2-11_nsubj	close	NN	O
+2-11	close	O	O	VBP	O
+2-12	so	2-14_mark	made	IN	O
+2-13	I	2-14_nsubj	made	PRP	P1_shopper
+2-14	made	2-11_advcl	close	VBD	O
+2-15	a	O	O	DT	O
+2-16	trip	2-14_dobj	made	NN	O
+2-17	to	O	O	O	O
+2-18	the	O	O	DT	O
+2-19	store	2-14_prep_to	made	NN	P2_grocery_shop
+2-20	.	O	O	O	O
+
+#id=3
+#text=I grabbed a shopping cart because I ' m out of eggs , bread , orange juice , milk etc . 
+3-1	I	3-2_nsubj	grabbed	PRP	P1_shopper
+3-2	grabbed	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	shopping	O	O	NN	O
+3-5	cart	3-2_dobj	grabbed	NN	P1_shopping_cart/basket
+3-6	because	O	O	O	O
+3-7	I	O	O	PRP	P1_shopper
+3-8	'	O	O	O	O
+3-9	m	3-2_prep_because	grabbed	NN	O
+3-10	out	O	O	O	O
+3-11	of	O	O	O	O
+3-12	eggs	O	O	NNS	P2_groceries
+3-13	,	O	O	O	O
+3-14	bread	O	O	NN	P3_groceries
+3-15	,	O	O	O	O
+3-16	orange	O	O	JJ	O
+3-17	juice	O	O	NN	P4_groceries
+3-18	,	O	O	O	O
+3-19	milk	O	O	NN	P5_groceries
+3-20	etc	O	O	NN	O
+3-21	.	O	O	O	O
+
+#id=4
+#text=I don ' t like can foods but I like to keep some stocked in my cabinet just in case . 
+4-1	I	4-2_nsubj	don	PRP	P1_shopper
+4-2	don	O	O	VBD	O
+4-3	'	O	O	O	O
+4-4	t	4-2_dobj	don	NN	O
+4-5	like	O	O	O	O
+4-6	can	O	O	NN	O
+4-7	foods	4-2_prep_like	don	NNS	P6_groceries
+4-8	but	O	O	O	O
+4-9	I	4-10_nsubj	like	PRP	P1_shopper
+4-10	like	4-2_conj_but	don	VBP	O
+4-11	to	4-12_aux	keep	TO	O
+4-12	keep	4-10_xcomp	like	VB	O
+4-13	some	4-12_dobj	keep	DT	P7_groceries
+4-14	stocked	O	O	VBN	O
+4-15	in	O	O	O	O
+4-16	my	O	O	PRP$	P1_shopper
+4-17	cabinet	4-14_prep_in	stocked	NN	P1_NPart_cabinet
+4-18	just	O	O	RB	O
+4-19	in	O	O	O	O
+4-20	case	O	O	NN	O
+4-21	.	O	O	O	O
+
+#id=5
+#text=I needed corn , beets , soup etc. . 
+5-1	I	5-2_nsubj	needed	PRP	P1_shopper
+5-2	needed	O	O	VBD	O
+5-3	corn	O	O	NN	P8_groceries
+5-4	,	O	O	O	O
+5-5	beets	O	O	NNS	P9_groceries
+5-6	,	O	O	O	O
+5-7	soup	O	O	NN	P10_groceries
+5-8	etc.	5-2_dobj	needed	NN	O
+5-9	.	O	O	O	O
+
+#id=6
+#text=I had to eat bread ends because I was out of whole wheat bread . 
+6-1	I	6-2_nsubj	had	PRP	P1_shopper
+6-2	had	O	O	VBD	O
+6-3	to	6-4_aux	eat	TO	O
+6-4	eat	6-2_xcomp	had	VB	O
+6-5	bread	O	O	NN	O
+6-6	ends	6-4_dobj	eat	NNS	P11_groceries
+6-7	because	6-9_mark	was	IN	O
+6-8	I	6-9_nsubj	was	PRP	P1_shopper
+6-9	was	6-4_advcl	eat	VBD	O
+6-10	out	O	O	O	O
+6-11	of	O	O	O	O
+6-12	whole	O	O	JJ	O
+6-13	wheat	O	O	NN	O
+6-14	bread	6-9_prep_out_of	was	NN	P12_groceries
+6-15	.	O	O	O	O
+
+#id=7
+#text=The store wasn ' t so crowded considering it would be closing in an hour or so . 
+7-1	The	O	O	DT	O
+7-2	store	O	O	NN	P2_grocery_shop
+7-3	wasn	O	O	NN	O
+7-4	'	O	O	O	O
+7-5	t	7-7_nsubj	crowded	NN	O
+7-6	so	7-7_advmod	crowded	RB	O
+7-7	crowded	O	O	VBD	O
+7-8	considering	7-7_xcomp	crowded	VBG	O
+7-9	it	7-12_nsubj	closing	PRP	P2_grocery_shop
+7-10	would	7-12_aux	closing	MD	O
+7-11	be	7-12_aux	closing	VB	O
+7-12	closing	7-8_ccomp	considering	VBG	O
+7-13	in	O	O	O	O
+7-14	an	O	O	DT	O
+7-15	hour	7-12_prep_in	closing	NN	P1_NPart_hour
+7-16	or	O	O	CC	O
+7-17	so	O	O	RB	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=I got in the shortest line and of course the register broke down . 
+8-1	I	8-2_nsubj	got	PRP	P1_shopper
+8-2	got	O	O	VBD	O
+8-3	in	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	shortest	O	O	JJS	O
+8-6	line	8-2_prep_in	got	NN	P1_line
+8-7	and	O	O	O	O
+8-8	of	O	O	O	O
+8-9	course	8-12_prep_of	broke	NN	O
+8-10	the	O	O	DT	O
+8-11	register	8-12_nsubj	broke	NN	P1_cash_desk
+8-12	broke	8-2_conj_and	got	VBD	O
+8-13	down	8-12_prt	broke	RP	O
+8-14	.	O	O	O	O
+
+#id=9
+#text=I waited and waited . 
+9-1	I	9-2_nsubj	waited	PRP	P1_shopper
+9-2	waited	O	O	VBD	O
+9-3	and	O	O	O	O
+9-4	waited	9-2_conj_and	waited	VBD	O
+9-5	.	O	O	O	O
+
+#id=10
+#text=I could have gotten out of line but I didn ' t . 
+10-1	I	10-4_nsubj	gotten	PRP	P1_shopper
+10-2	could	10-4_aux	gotten	MD	O
+10-3	have	10-4_aux	gotten	VB	O
+10-4	gotten	O	O	VBN	O
+10-5	out	O	O	O	O
+10-6	of	O	O	O	O
+10-7	line	10-4_prep_out_of	gotten	NN	P1_line
+10-8	but	O	O	CC	O
+10-9	I	O	O	NNP	P1_shopper
+10-10	didn	O	O	NNP	O
+10-11	'	O	O	O	O
+10-12	t	O	O	NN	O
+10-13	.	O	O	O	O
+
+#id=11
+#text=When I finally got to the register , it was time for my checker to leave . 
+11-1	When	11-4_advmod	got	WRB	O
+11-2	I	11-4_nsubj	got	PRP	P1_shopper
+11-3	finally	11-4_advmod	got	RB	O
+11-4	got	O	O	VBD	O
+11-5	to	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	register	11-4_prep_to	got	NN	P1_cash_desk
+11-8	,	O	O	O	O
+11-9	it	O	O	PRP	O
+11-10	was	O	O	VBD	O
+11-11	time	O	O	NN	O
+11-12	for	O	O	O	O
+11-13	my	O	O	PRP$	P1_shopper
+11-14	checker	O	O	NN	P1_grocery_staff
+11-15	to	11-16_aux	leave	TO	O
+11-16	leave	O	O	VB	O
+11-17	.	O	O	O	O
+
+#id=12
+#text=I had to wait until an assistant manager signed in the register to ring up my purchases . 
+12-1	I	12-2_nsubj	had	PRP	P1_shopper
+12-2	had	O	O	VBD	O
+12-3	to	12-4_aux	wait	TO	O
+12-4	wait	12-2_xcomp	had	VB	O
+12-5	until	12-9_mark	signed	IN	O
+12-6	an	O	O	DT	O
+12-7	assistant	O	O	JJ	O
+12-8	manager	12-9_nsubj	signed	NN	P2_grocery_staff
+12-9	signed	12-4_advcl	wait	VBD	O
+12-10	in	O	O	O	O
+12-11	the	O	O	DT	O
+12-12	register	12-9_prep_in	signed	NN	P1_cash_desk
+12-13	to	12-14_aux	ring	TO	O
+12-14	ring	12-9_xcomp	signed	VB	O
+12-15	up	12-14_prt	ring	RP	O
+12-16	my	O	O	PRP$	P1_shopper
+12-17	purchases	12-14_dobj	ring	NNS	P13_groceries
+12-18	.	O	O	O	O
+
+#id=13
+#text=The register was out of tape so I was delayed again . 
+13-1	The	O	O	DT	O
+13-2	register	13-3_nsubj	was	NN	P1_cash_desk
+13-3	was	O	O	VBD	O
+13-4	out	O	O	O	O
+13-5	of	O	O	O	O
+13-6	tape	13-3_prep_out_of	was	NN	P1_NPart_tape
+13-7	so	13-10_mark	delayed	IN	O
+13-8	I	13-10_nsubjpass	delayed	PRP	P1_shopper
+13-9	was	13-10_auxpass	delayed	VBD	O
+13-10	delayed	13-3_advcl	was	VBN	O
+13-11	again	13-10_advmod	delayed	RB	O
+13-12	.	O	O	O	O
+
+#id=14
+#text=I wished I ' d waited until tomorrow . 
+14-1	I	14-2_nsubj	wished	PRP	P1_shopper
+14-2	wished	O	O	VBD	O
+14-3	I	O	O	PRP	P1_shopper
+14-4	'	O	O	O	O
+14-5	d	14-6_nsubj	waited	NN	O
+14-6	waited	14-2_ccomp	wished	VBD	O
+14-7	until	O	O	O	O
+14-8	tomorrow	14-6_prep_until	waited	NN	O
+14-9	.	O	O	O	O
+
+#id=15
+#text=There were no baggers to bag my groceries so I did it myself . 
+15-1	There	15-2_expl	were	EX	O
+15-2	were	O	O	VBD	O
+15-3	no	O	O	DT	O
+15-4	baggers	15-2_nsubj	were	NNS	P3_grocery_staff
+15-5	to	15-6_aux	bag	TO	O
+15-6	bag	O	O	VB	O
+15-7	my	O	O	PRP$	P1_shopper
+15-8	groceries	15-6_dobj	bag	NNS	P14_groceries
+15-9	so	15-11_mark	did	IN	O
+15-10	I	15-11_nsubj	did	PRP	P1_shopper
+15-11	did	15-6_advcl	bag	VBD	O
+15-12	it	15-11_iobj	did	PRP	P1_NPart_it
+15-13	myself	15-11_dobj	did	PRP	P1_shopper
+15-14	.	O	O	O	O
+
+#id=16
+#text=My total came to $ 51.34 and I only had $ 20.00 cash on me . 
+16-1	My	O	O	PRP$	P1_shopper
+16-2	total	16-3_nsubj	came	NN	P1_price
+16-3	came	O	O	VBD	O
+16-4	to	O	O	O	O
+16-5	$	16-3_prep_to	came	$	O
+16-6	51.34	O	O	CD	P1_price
+16-7	and	O	O	O	O
+16-8	I	16-10_nsubj	had	PRP	P1_shopper
+16-9	only	16-10_advmod	had	RB	O
+16-10	had	16-3_conj_and	came	VBD	O
+16-11	$	O	O	$	O
+16-12	20.00	O	O	CD	O
+16-13	cash	16-10_dobj	had	NN	P1_payment_means
+16-14	on	O	O	O	O
+16-15	me	O	O	PRP	P1_shopper
+16-16	.	O	O	O	O
+
+#id=17
+#text=That ' s all I thought I was going to spend . 
+17-1	That	17-6_dep	thought	DT	O
+17-2	'	O	O	O	O
+17-3	s	17-6_nsubj	thought	PRP	O
+17-4	all	17-6_advmod	thought	RB	O
+17-5	I	17-6_nsubj	thought	PRP	P2_shopper
+17-6	thought	O	O	VBD	O
+17-7	I	17-9_nsubj	going	PRP	P3_shopper
+17-8	was	17-9_aux	going	VBD	O
+17-9	going	17-6_ccomp	thought	VBG	O
+17-10	to	17-11_aux	spend	TO	O
+17-11	spend	17-9_xcomp	going	VB	O
+17-12	.	O	O	O	O
+
+#id=18
+#text=I gave the clerk a credit card which didn ' t go through and the people behind me started blowing and hissing under their breath . 
+18-1	I	18-2_nsubj	gave	PRP	P3_shopper
+18-2	gave	O	O	VBD	O
+18-3	the	O	O	DT	O
+18-4	clerk	18-2_iobj	gave	NN	P4_grocery_staff
+18-5	a	O	O	DT	O
+18-6	credit	O	O	NN	O
+18-7	card	18-2_dobj	gave	NN	P2_payment_means
+18-8	which	18-12_dep	go	WDT	P2_payment_means
+18-9	didn	O	O	NN	O
+18-10	'	O	O	O	O
+18-11	t	18-12_nsubj	go	NN	O
+18-12	go	O	O	VBP	O
+18-13	through	18-12_prt	go	RP	O
+18-14	and	O	O	O	O
+18-15	the	O	O	DT	O
+18-16	people	18-19_nsubj	started	NNS	P4_shopper
+18-17	behind	O	O	O	O
+18-18	me	O	O	PRP	P3_shopper
+18-19	started	18-12_conj_and	go	VBD	O
+18-20	blowing	18-19_xcomp	started	VBG	O
+18-21	and	O	O	O	O
+18-22	hissing	18-20_conj_and	blowing	VBG	O
+18-23	under	O	O	O	O
+18-24	their	O	O	PRP$	P4_shopper
+18-25	breath	18-20_prep_under	blowing	NN	P1_NPart_breath
+18-26	.	O	O	O	O
+
+#id=19
+#text=I offered another card . 
+19-1	I	19-2_nsubj	offered	PRP	P3_shopper
+19-2	offered	O	O	VBD	O
+19-3	another	O	O	DT	O
+19-4	card	19-2_dobj	offered	NN	P3_payment_means
+19-5	.	O	O	O	O
+
+#id=20
+#text=Thank God that one went through . 
+20-1	Thank	O	O	VB	O
+20-2	God	20-1_dobj	Thank	NNP	P1_NPart_god
+20-3	that	20-5_mark	went	IN	O
+20-4	one	20-5_nsubj	went	PRP	P3_payment_means
+20-5	went	20-1_ccomp	Thank	VBD	O
+20-6	through	20-5_prt	went	RP	O
+20-7	.	O	O	O	O
+
+#id=21
+#text=The employees had locked the door I ' d plan to exit out of . 
+21-1	The	O	O	DT	O
+21-2	employees	21-4_nsubj	locked	NNS	P5_grocery_staff
+21-3	had	21-4_aux	locked	VBD	O
+21-4	locked	O	O	VBN	O
+21-5	the	O	O	DT	O
+21-6	door	O	O	NN	P1_NPart_door
+21-7	I	O	O	NN	P3_shopper
+21-8	'	O	O	O	O
+21-9	d	O	O	JJ	O
+21-10	plan	21-4_dobj	locked	NN	O
+21-11	to	21-12_aux	exit	TO	O
+21-12	exit	21-4_vmod	locked	VB	O
+21-13	out	21-12_prt	exit	RP	O
+21-14	of	21-12_prep	exit	IN	O
+21-15	.	O	O	O	O
+
+#id=22
+#text=The manager came over and let me out . 
+22-1	The	O	O	DT	O
+22-2	manager	22-3_nsubj	came	NN	P6_grocery_staff
+22-3	came	O	O	VBD	O
+22-4	over	22-3_prt	came	RP	O
+22-5	and	O	O	O	O
+22-6	let	22-3_conj_and	came	VBP	O
+22-7	me	22-6_dobj	let	PRP	P3_shopper
+22-8	out	22-6_prt	let	RP	O
+22-9	.	O	O	O	O
+
+#id=23
+#text=My car was the only car parked in the Customer ' s parking lot . 
+23-1	My	O	O	PRP$	P3_shopper
+23-2	car	O	O	NN	P1_vehicle
+23-3	was	O	O	VBD	O
+23-4	the	O	O	DT	O
+23-5	only	O	O	JJ	O
+23-6	car	O	O	NN	P1_vehicle
+23-7	parked	O	O	VBN	O
+23-8	in	O	O	O	O
+23-9	the	O	O	DT	O
+23-10	Customer	O	O	NN	P5_shopper
+23-11	'	O	O	O	O
+23-12	s	O	O	JJ	O
+23-13	parking	O	O	NN	O
+23-14	lot	23-7_prep_in	parked	NN	P1_NPart_lot
+23-15	.	O	O	O	O
+
+#id=24
+#text=I wished I ' d stayed at home . 
+24-1	I	24-2_nsubj	wished	PRP	P3_shopper
+24-2	wished	O	O	VBD	O
+24-3	I	O	O	PRP	P3_shopper
+24-4	'	O	O	O	O
+24-5	d	24-6_nsubj	stayed	NN	O
+24-6	stayed	24-2_ccomp	wished	VBD	O
+24-7	at	O	O	O	O
+24-8	home	24-6_prep_at	stayed	NN	P1_NPart_home
+24-9	.	O	O	O	O

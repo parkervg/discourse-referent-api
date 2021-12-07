@@ -1,0 +1,230 @@
+#id=1
+#text=I wanted to make a chocolate cake for my niece 's birthday , so I looked through my kitchen cupboards to make sure I had all the ingredients . 
+1-1	I	1-2_nsubj	wanted	PRP	P1_cook
+1-2	wanted	O	O	VBD	O
+1-3	to	1-4_aux	make	TO	O
+1-4	make	1-2_xcomp	wanted	VB	O
+1-5	a	O	O	DT	O
+1-6	chocolate	O	O	NN	O
+1-7	cake	1-4_dobj	make	NN	P1_cake
+1-8	for	O	O	O	O
+1-9	my	O	O	PRP$	P1_cook
+1-10	niece	O	O	NN	P1_beneficiary
+1-11	's	O	O	O	O
+1-12	birthday	O	O	NN	P1_NPart_birthday
+1-13	,	O	O	O	O
+1-14	so	1-2_dep	wanted	IN	O
+1-15	I	1-16_nsubj	looked	PRP	P1_cook
+1-16	looked	1-2_parataxis	wanted	VBD	O
+1-17	through	O	O	O	O
+1-18	my	O	O	PRP$	P1_cook
+1-19	kitchen	O	O	NN	O
+1-20	cupboards	1-16_prep_through	looked	NNS	P1_cabinet
+1-21	to	1-22_aux	make	TO	O
+1-22	make	1-16_xcomp	looked	VB	O
+1-23	sure	1-22_acomp	make	JJ	O
+1-24	I	1-25_nsubj	had	PRP	P1_cook
+1-25	had	O	O	VBD	O
+1-26	all	O	O	PDT	O
+1-27	the	O	O	DT	O
+1-28	ingredients	1-25_dobj	had	NNS	P1_ingredients
+1-29	.	O	O	O	O
+
+#id=2
+#text=Luckily , my kitchen was well-stocked with baking goods . 
+2-1	Luckily	2-6_advmod	well-stocked	RB	O
+2-2	,	O	O	O	O
+2-3	my	O	O	PRP$	P1_cook
+2-4	kitchen	2-6_nsubjpass	well-stocked	NN	P1_kitchen/location
+2-5	was	2-6_auxpass	well-stocked	VBD	O
+2-6	well-stocked	O	O	VBN	O
+2-7	with	O	O	O	O
+2-8	baking	O	O	VBG	O
+2-9	goods	2-6_prep_with	well-stocked	NNS	P1_ingredients
+2-10	.	O	O	O	O
+
+#id=3
+#text=I gathered up the butter , eggs , sugar , flour , vanilla extract and cocoa . 
+3-1	I	3-2_nsubj	gathered	PRP	P1_cook
+3-2	gathered	O	O	VBD	O
+3-3	up	3-2_prt	gathered	RP	O
+3-4	the	O	O	DT	O
+3-5	butter	3-2_dobj	gathered	NN	P2_ingredients
+3-6	,	O	O	O	O
+3-7	eggs	O	O	NNS	P3_ingredients
+3-8	,	O	O	O	O
+3-9	sugar	O	O	NN	P4_ingredients
+3-10	,	O	O	O	O
+3-11	flour	O	O	NN	P5_ingredients
+3-12	,	O	O	O	O
+3-13	vanilla	O	O	NN	O
+3-14	extract	O	O	NNS	P6_ingredients
+3-15	and	O	O	O	O
+3-16	cocoa	O	O	NN	P7_ingredients
+3-17	.	O	O	O	O
+
+#id=4
+#text=I also had a mixing bowl with a built-in electric whisk . 
+4-1	I	4-3_nsubj	had	PRP	P1_cook
+4-2	also	4-3_advmod	had	RB	O
+4-3	had	O	O	VBD	O
+4-4	a	O	O	DT	O
+4-5	mixing	O	O	JJ	O
+4-6	bowl	4-3_dobj	had	NN	P1_utensil
+4-7	with	O	O	O	O
+4-8	a	O	O	DT	O
+4-9	built-in	O	O	JJ	O
+4-10	electric	O	O	JJ	O
+4-11	whisk	O	O	NN	P2_utensil
+4-12	.	O	O	O	O
+
+#id=5
+#text=I tossed in two sticks of butter and 2 cups of sugar and blended them together before adding the vanilla , flour and cocoa . 
+5-1	I	5-2_nsubj	tossed	PRP	P1_cook
+5-2	tossed	O	O	VBD	O
+5-3	in	O	O	O	O
+5-4	two	O	O	CD	O
+5-5	sticks	5-2_prep_in	tossed	NNS	O
+5-6	of	O	O	O	O
+5-7	butter	O	O	NN	P2_ingredients
+5-8	and	O	O	O	O
+5-9	2	O	O	CD	O
+5-10	cups	O	O	NNS	O
+5-11	of	O	O	O	O
+5-12	sugar	O	O	NN	P8_ingredients
+5-13	and	O	O	O	O
+5-14	blended	5-2_conj_and	tossed	VBD	O
+5-15	them	5-14_dobj	blended	PRP	P9_ingredients
+5-16	together	5-14_advmod	blended	RB	O
+5-17	before	O	O	O	O
+5-18	adding	5-14_prepc_before	blended	VBG	O
+5-19	the	O	O	DT	O
+5-20	vanilla	5-18_dobj	adding	NN	P6_ingredients
+5-21	,	O	O	O	O
+5-22	flour	O	O	NN	P5_ingredients
+5-23	and	O	O	O	O
+5-24	cocoa	O	O	NN	P7_ingredients
+5-25	.	O	O	O	O
+
+#id=6
+#text=Then I pulled a cake pan out of a drawer and greased it up with Crisco to make sure the cake would not stick . 
+6-1	Then	6-3_advmod	pulled	RB	O
+6-2	I	6-3_nsubj	pulled	PRP	P1_cook
+6-3	pulled	O	O	VBD	O
+6-4	a	O	O	DT	O
+6-5	cake	6-6_nsubj	pan	NN	O
+6-6	pan	6-3_ccomp	pulled	VB	P1_cake_tin
+6-7	out	O	O	O	O
+6-8	of	O	O	O	O
+6-9	a	O	O	DT	O
+6-10	drawer	6-6_prep_out_of	pan	NN	P2_cabinet
+6-11	and	O	O	O	O
+6-12	greased	6-3_conj_and	pulled	VBD	O
+6-13	it	6-12_dobj	greased	PRP	P1_cake_tin
+6-14	up	6-12_prt	greased	RP	O
+6-15	with	O	O	O	O
+6-16	Crisco	6-12_prep_with	greased	NNP	P10_ingredients
+6-17	to	6-18_aux	make	TO	O
+6-18	make	6-12_vmod	greased	VB	O
+6-19	sure	6-18_acomp	make	JJ	O
+6-20	the	O	O	DT	O
+6-21	cake	6-24_nsubj	stick	NN	P1_cake
+6-22	would	6-24_aux	stick	MD	O
+6-23	not	6-24_neg	stick	RB	O
+6-24	stick	O	O	VB	O
+6-25	.	O	O	O	O
+
+#id=7
+#text=I used a spatula to spread the cake batter evenly into the dish and then , just to make the cake even tastier , I grabbed two cups of chocolate pudding out of my fridge and swirled the pudding into the cake mix . 
+7-1	I	7-2_nsubj	used	PRP	P1_cook
+7-2	used	7-26_ccomp	grabbed	VBD	O
+7-3	a	O	O	DT	O
+7-4	spatula	7-2_dobj	used	NN	P3_utensil
+7-5	to	7-6_aux	spread	TO	O
+7-6	spread	O	O	VB	O
+7-7	the	O	O	DT	O
+7-8	cake	O	O	NN	O
+7-9	batter	7-6_dobj	spread	NN	P1_dough
+7-10	evenly	7-6_advmod	spread	RB	O
+7-11	into	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	dish	O	O	NN	P1_cake_tin
+7-14	and	O	O	O	O
+7-15	then	O	O	RB	O
+7-16	,	O	O	O	O
+7-17	just	O	O	RB	O
+7-18	to	7-19_aux	make	TO	O
+7-19	make	7-6_vmod	spread	VB	O
+7-20	the	O	O	DT	O
+7-21	cake	7-19_dobj	make	NN	P1_cake
+7-22	even	O	O	RB	O
+7-23	tastier	O	O	JJR	O
+7-24	,	O	O	O	O
+7-25	I	7-26_nsubj	grabbed	PRP	P1_cook
+7-26	grabbed	O	O	VBD	O
+7-27	two	O	O	CD	O
+7-28	cups	7-26_dobj	grabbed	NNS	P4_utensil
+7-29	of	O	O	O	O
+7-30	chocolate	O	O	NN	O
+7-31	pudding	O	O	NN	P11_ingredients
+7-32	out	O	O	O	O
+7-33	of	O	O	O	O
+7-34	my	O	O	PRP$	P1_cook
+7-35	fridge	O	O	NN	P2_kitchen/location
+7-36	and	O	O	O	O
+7-37	swirled	7-26_conj_and	grabbed	VBD	O
+7-38	the	O	O	DT	O
+7-39	pudding	7-37_dobj	swirled	NN	P11_ingredients
+7-40	into	O	O	O	O
+7-41	the	O	O	DT	O
+7-42	cake	O	O	NN	O
+7-43	mix	7-37_prep_into	swirled	NN	P1_dough
+7-44	.	O	O	O	O
+
+#id=8
+#text=It makes for a very moist and tasty treat ! 
+8-1	It	8-2_nsubj	makes	PRP	O
+8-2	makes	O	O	VBZ	O
+8-3	for	O	O	O	O
+8-4	a	O	O	DT	O
+8-5	very	O	O	RB	O
+8-6	moist	O	O	JJ	O
+8-7	and	O	O	O	O
+8-8	tasty	O	O	JJ	O
+8-9	treat	8-2_prep_for	makes	NN	P1_NPart_treat
+8-10	!	O	O	O	O
+
+#id=9
+#text=I placed the cake inside the oven and cooked it at 350 degrees for 45 minute . 
+9-1	I	9-2_nsubj	placed	PRP	P1_cook
+9-2	placed	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	cake	9-2_dobj	placed	NN	P1_cake
+9-5	inside	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	oven	9-2_prep_inside	placed	NN	P1_oven
+9-8	and	O	O	O	O
+9-9	cooked	9-2_conj_and	placed	VBD	O
+9-10	it	9-9_dobj	cooked	PRP	P1_cake
+9-11	at	O	O	O	O
+9-12	350	O	O	CD	O
+9-13	degrees	9-9_prep_at	cooked	NNS	P1_temperature
+9-14	for	O	O	O	O
+9-15	45	O	O	CD	O
+9-16	minute	O	O	NN	P1_time
+9-17	.	O	O	O	O
+
+#id=10
+#text=Hopefully my niece will enjoy her homemade confection on her birthday . 
+10-1	Hopefully	10-5_advmod	enjoy	RB	O
+10-2	my	O	O	PRP$	P1_cook
+10-3	niece	10-5_nsubj	enjoy	NN	P1_beneficiary
+10-4	will	10-5_aux	enjoy	MD	O
+10-5	enjoy	O	O	VB	O
+10-6	her	O	O	PRP$	P1_beneficiary
+10-7	homemade	O	O	JJ	O
+10-8	confection	10-5_dobj	enjoy	NN	P1_cake
+10-9	on	O	O	O	O
+10-10	her	O	O	PRP$	P1_beneficiary
+10-11	birthday	10-5_prep_on	enjoy	NN	P2_NPart_birthday
+10-12	.	O	O	O	O

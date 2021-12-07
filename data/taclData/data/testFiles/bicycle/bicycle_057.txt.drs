@@ -1,0 +1,223 @@
+#id=1
+#text=I was having a nice bicycle ride on a sunny day . 
+1-1	I	1-3_nsubj	having	PRP	P1_rider
+1-2	was	1-3_aux	having	VBD	O
+1-3	having	O	O	VBG	O
+1-4	a	O	O	DT	O
+1-5	nice	O	O	JJ	O
+1-6	bicycle	O	O	NN	O
+1-7	ride	1-3_dobj	having	NN	P1_ride
+1-8	on	O	O	O	O
+1-9	a	O	O	DT	O
+1-10	sunny	O	O	JJ	O
+1-11	day	O	O	NN	P1_NPart_day
+1-12	.	O	O	O	O
+
+#id=2
+#text=Something seemed off about my bike but it took me quite the while before I realized what had happened . 
+2-1	Something	2-2_nsubj	seemed	NN	O
+2-2	seemed	O	O	VBD	O
+2-3	off	2-2_prt	seemed	RP	O
+2-4	about	O	O	O	O
+2-5	my	O	O	PRP$	P1_rider
+2-6	bike	2-2_prep_about	seemed	NN	P1_bicycle
+2-7	but	O	O	O	O
+2-8	it	2-9_nsubj	took	PRP	O
+2-9	took	2-2_conj_but	seemed	VBD	O
+2-10	me	2-9_iobj	took	PRP	P1_rider
+2-11	quite	O	O	RB	O
+2-12	the	O	O	DT	O
+2-13	while	2-9_dobj	took	NN	O
+2-14	before	2-16_mark	realized	IN	O
+2-15	I	2-16_nsubj	realized	PRP	P1_rider
+2-16	realized	2-9_advcl	took	VBD	O
+2-17	what	2-19_nsubj	happened	WP	O
+2-18	had	2-19_aux	happened	VBD	O
+2-19	happened	2-16_ccomp	realized	VBN	O
+2-20	.	O	O	O	O
+
+#id=3
+#text=At some point , one of my bike 's tires went flat . 
+3-1	At	O	O	O	O
+3-2	some	O	O	DT	O
+3-3	point	3-11_prep_at	went	NN	O
+3-4	,	O	O	O	O
+3-5	one	3-11_nsubj	went	CD	O
+3-6	of	O	O	O	O
+3-7	my	O	O	PRP$	P1_rider
+3-8	bike	O	O	NN	P1_bicycle
+3-9	's	O	O	O	O
+3-10	tires	O	O	NNS	P1_tire
+3-11	went	O	O	VBD	O
+3-12	flat	3-11_acomp	went	JJ	O
+3-13	.	O	O	O	O
+
+#id=4
+#text=I got off at a safe stopping point away from the highway and turned my bicycle upside down . 
+4-1	I	4-2_nsubj	got	PRP	P1_rider
+4-2	got	O	O	VBD	O
+4-3	off	4-2_prt	got	RP	O
+4-4	at	O	O	O	O
+4-5	a	O	O	DT	O
+4-6	safe	O	O	JJ	O
+4-7	stopping	O	O	NN	O
+4-8	point	4-2_prep_at	got	NN	P1_location_repair
+4-9	away	O	O	O	O
+4-10	from	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	highway	4-2_prep_away_from	got	NN	P1_NPart_highway
+4-13	and	O	O	O	O
+4-14	turned	4-2_conj_and	got	VBD	O
+4-15	my	O	O	PRP$	P1_rider
+4-16	bicycle	4-14_dobj	turned	NN	P1_bicycle
+4-17	upside	O	O	RB	O
+4-18	down	4-14_advmod	turned	RB	O
+4-19	.	O	O	O	O
+
+#id=5
+#text=Sure enough , one of my tires was flat , the back tire specifically . 
+5-1	Sure	O	O	RB	O
+5-2	enough	O	O	RB	O
+5-3	,	O	O	O	O
+5-4	one	O	O	CD	O
+5-5	of	O	O	O	O
+5-6	my	O	O	PRP$	P1_rider
+5-7	tires	O	O	NNS	P1_tire
+5-8	was	O	O	VBD	O
+5-9	flat	O	O	JJ	O
+5-10	,	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	back	O	O	JJ	O
+5-13	tire	O	O	NN	P1_tire
+5-14	specifically	O	O	RB	O
+5-15	.	O	O	O	O
+
+#id=6
+#text=This was why I always carried a small travel bag of tools . 
+6-1	This	6-2_nsubj	was	DT	O
+6-2	was	O	O	VBD	O
+6-3	why	6-6_advmod	carried	WRB	O
+6-4	I	6-6_nsubj	carried	PRP	P1_rider
+6-5	always	6-6_advmod	carried	RB	O
+6-6	carried	6-2_advcl	was	VBD	O
+6-7	a	O	O	DT	O
+6-8	small	O	O	JJ	O
+6-9	travel	O	O	NN	O
+6-10	bag	6-6_dobj	carried	NN	P1_NPart_bag
+6-11	of	O	O	O	O
+6-12	tools	O	O	NNS	P1_tool
+6-13	.	O	O	O	O
+
+#id=7
+#text=I set down the bag and began to work . 
+7-1	I	7-2_nsubj	set	PRP	P1_rider
+7-2	set	O	O	VBD	O
+7-3	down	7-2_prt	set	RP	O
+7-4	the	O	O	DT	O
+7-5	bag	7-2_dobj	set	NN	P2_NPart_bag
+7-6	and	O	O	O	O
+7-7	began	7-2_conj_and	set	VBD	O
+7-8	to	7-9_aux	work	TO	O
+7-9	work	7-7_xcomp	began	VB	O
+7-10	.	O	O	O	O
+
+#id=8
+#text=First I took off my tire . 
+8-1	First	8-3_advmod	took	RB	O
+8-2	I	8-3_nsubj	took	PRP	P1_rider
+8-3	took	O	O	VBD	O
+8-4	off	8-3_prt	took	RP	O
+8-5	my	O	O	PRP$	P1_rider
+8-6	tire	8-3_dobj	took	NN	P1_tire
+8-7	.	O	O	O	O
+
+#id=9
+#text=There was a quick release which made it very easy to take off . 
+9-1	There	9-2_expl	was	EX	O
+9-2	was	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	quick	O	O	JJ	O
+9-5	release	9-2_nsubj	was	NN	P1_NPart_release
+9-6	which	9-7_nsubj	made	WDT	O
+9-7	made	O	O	VBD	O
+9-8	it	9-12_nsubj	take	PRP	P1_tire
+9-9	very	O	O	RB	O
+9-10	easy	9-12_dep	take	JJ	O
+9-11	to	9-12_aux	take	TO	O
+9-12	take	9-7_xcomp	made	VB	O
+9-13	off	9-12_prt	take	RP	O
+9-14	.	O	O	O	O
+
+#id=10
+#text=I just moved a simple lever . 
+10-1	I	10-3_nsubj	moved	PRP	P1_rider
+10-2	just	10-3_advmod	moved	RB	O
+10-3	moved	O	O	VBD	O
+10-4	a	O	O	DT	O
+10-5	simple	O	O	JJ	O
+10-6	lever	10-3_dobj	moved	NN	P2_tool
+10-7	.	O	O	O	O
+
+#id=11
+#text=Next , I used my tire lever to detach the tire from the rim . 
+11-1	Next	11-4_advmod	used	RB	O
+11-2	,	O	O	O	O
+11-3	I	11-4_nsubj	used	PRP	P1_rider
+11-4	used	O	O	VBD	O
+11-5	my	O	O	PRP$	P1_rider
+11-6	tire	O	O	NN	O
+11-7	lever	11-4_dobj	used	NN	P3_tool
+11-8	to	11-9_aux	detach	TO	O
+11-9	detach	11-4_vmod	used	VB	O
+11-10	the	O	O	DT	O
+11-11	tire	11-9_dobj	detach	NN	P1_tire
+11-12	from	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	rim	11-9_prep_from	detach	NN	P1_rim
+11-15	.	O	O	O	O
+
+#id=12
+#text=Before putting in a new tube from my bag , I filled it with just a little bit of air . 
+12-1	Before	O	O	O	O
+12-2	putting	12-12_prepc_before	filled	VBG	O
+12-3	in	O	O	O	O
+12-4	a	O	O	DT	O
+12-5	new	O	O	JJ	O
+12-6	tube	12-2_prep_in	putting	NN	P1_spare_tube
+12-7	from	O	O	O	O
+12-8	my	O	O	PRP$	P1_rider
+12-9	bag	O	O	NN	P3_NPart_bag
+12-10	,	O	O	O	O
+12-11	I	12-12_nsubj	filled	PRP	P1_rider
+12-12	filled	O	O	VBD	O
+12-13	it	12-12_dobj	filled	PRP	P1_tire
+12-14	with	O	O	O	O
+12-15	just	O	O	RB	O
+12-16	a	O	O	DT	O
+12-17	little	O	O	JJ	O
+12-18	bit	12-12_prep_with	filled	NN	O
+12-19	of	O	O	O	O
+12-20	air	O	O	NN	P1_air
+12-21	.	O	O	O	O
+
+#id=13
+#text=Once it was set in place , I just put the tire back on and continued my trip . 
+13-1	Once	13-4_mark	set	IN	O
+13-2	it	13-4_nsubjpass	set	PRP	P1_spare_tube
+13-3	was	13-4_auxpass	set	VBD	O
+13-4	set	13-10_advcl	put	VBN	O
+13-5	in	O	O	O	O
+13-6	place	13-4_prep_in	set	NN	O
+13-7	,	O	O	O	O
+13-8	I	13-10_nsubj	put	PRP	P1_rider
+13-9	just	13-10_advmod	put	RB	O
+13-10	put	O	O	VBD	O
+13-11	the	O	O	DT	O
+13-12	tire	13-10_dobj	put	NN	P1_tire
+13-13	back	13-10_prt	put	RP	O
+13-14	on	13-10_prep	put	IN	O
+13-15	and	O	O	O	O
+13-16	continued	13-10_conj_and	put	VBD	O
+13-17	my	O	O	PRP$	P1_rider
+13-18	trip	13-16_dobj	continued	NN	P1_ride
+13-19	.	O	O	O	O

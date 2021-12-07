@@ -1,0 +1,203 @@
+#id=1
+#text=A few months ago , I went to the library to check out a couple of books . 
+1-1	A	O	O	DT	O
+1-2	few	O	O	JJ	O
+1-3	months	O	O	NNS	P1_NPart_months
+1-4	ago	1-7_advmod	went	RB	O
+1-5	,	O	O	O	O
+1-6	I	1-7_nsubj	went	PRP	P1_customer
+1-7	went	O	O	VBD	O
+1-8	to	O	O	O	O
+1-9	the	O	O	DT	O
+1-10	library	1-7_prep_to	went	NN	P1_library
+1-11	to	1-12_aux	check	TO	O
+1-12	check	1-7_xcomp	went	VB	O
+1-13	out	1-12_prt	check	RP	O
+1-14	a	O	O	DT	O
+1-15	couple	1-12_dobj	check	NN	O
+1-16	of	O	O	O	O
+1-17	books	O	O	NNS	P1_book
+1-18	.	O	O	O	O
+
+#id=2
+#text=Our local library is very large and full of very interesting books , magazines and movies . 
+2-1	Our	O	O	PRP$	P1_NPart_our
+2-2	local	O	O	JJ	O
+2-3	library	O	O	NN	P1_library
+2-4	is	O	O	VBZ	O
+2-5	very	O	O	RB	O
+2-6	large	O	O	JJ	O
+2-7	and	O	O	O	O
+2-8	full	O	O	JJ	O
+2-9	of	O	O	O	O
+2-10	very	O	O	RB	O
+2-11	interesting	O	O	JJ	O
+2-12	books	O	O	NNS	P1_book
+2-13	,	O	O	O	O
+2-14	magazines	O	O	NNS	P1_NPart_magazines
+2-15	and	O	O	O	O
+2-16	movies	O	O	NNS	P1_NPart_movies
+2-17	.	O	O	O	O
+
+#id=3
+#text=Before I went to find my books , I stopped at the coffee shop in the library . 
+3-1	Before	3-3_mark	went	IN	O
+3-2	I	3-3_nsubj	went	PRP	P1_customer
+3-3	went	3-10_advcl	stopped	VBD	O
+3-4	to	3-5_aux	find	TO	O
+3-5	find	3-3_xcomp	went	VB	O
+3-6	my	O	O	PRP$	P1_customer
+3-7	books	3-5_dobj	find	NNS	P1_book
+3-8	,	O	O	O	O
+3-9	I	3-10_nsubj	stopped	PRP	P1_customer
+3-10	stopped	O	O	VBD	O
+3-11	at	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	coffee	O	O	NN	O
+3-14	shop	3-10_prep_at	stopped	NN	P1_NPart_shop
+3-15	in	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	library	3-10_prep_in	stopped	NN	P1_library
+3-18	.	O	O	O	O
+
+#id=4
+#text=I ordered a coffee and a blueberry muffin so I could have a snack . 
+4-1	I	4-2_nsubj	ordered	PRP	P1_customer
+4-2	ordered	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	coffee	4-2_dobj	ordered	NN	P1_NPart_coffee
+4-5	and	O	O	O	O
+4-6	a	O	O	DT	O
+4-7	blueberry	O	O	JJ	O
+4-8	muffin	O	O	NN	P1_NPart_muffin
+4-9	so	4-12_mark	have	IN	O
+4-10	I	4-12_nsubj	have	PRP	P1_customer
+4-11	could	4-12_aux	have	MD	O
+4-12	have	4-2_advcl	ordered	VB	O
+4-13	a	O	O	DT	O
+4-14	snack	4-12_dobj	have	NN	P1_NPart_snack
+4-15	.	O	O	O	O
+
+#id=5
+#text=Once I finished my snack , I began to look for my books . 
+5-1	Once	5-3_mark	finished	IN	O
+5-2	I	5-3_nsubj	finished	PRP	P1_customer
+5-3	finished	5-8_advcl	began	VBD	O
+5-4	my	O	O	PRP$	P1_customer
+5-5	snack	5-3_dobj	finished	NN	P2_NPart_snack
+5-6	,	O	O	O	O
+5-7	I	5-8_nsubj	began	PRP	P1_customer
+5-8	began	O	O	VBD	O
+5-9	to	5-10_aux	look	TO	O
+5-10	look	5-8_xcomp	began	VB	O
+5-11	for	O	O	O	O
+5-12	my	O	O	PRP$	P1_customer
+5-13	books	5-10_prep_for	look	NNS	P1_book
+5-14	.	O	O	O	O
+
+#id=6
+#text=I used the library 's computer to find the location of each book . 
+6-1	I	6-2_nsubj	used	PRP	P1_customer
+6-2	used	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	library	O	O	NN	P1_library
+6-5	's	O	O	O	O
+6-6	computer	6-2_dobj	used	NN	P1_institutional_devices
+6-7	to	6-8_aux	find	TO	O
+6-8	find	O	O	VB	O
+6-9	the	O	O	DT	O
+6-10	location	6-8_dobj	find	NN	P1_location_library
+6-11	of	O	O	O	O
+6-12	each	O	O	DT	O
+6-13	book	O	O	NN	P1_book
+6-14	.	O	O	O	O
+
+#id=7
+#text=Finding the books only took me about 10 minutes . 
+7-1	Finding	7-5_csubj	took	VBG	O
+7-2	the	O	O	DT	O
+7-3	books	7-1_dobj	Finding	NNS	P1_book
+7-4	only	7-1_advmod	Finding	RB	O
+7-5	took	O	O	VBD	O
+7-6	me	7-5_dobj	took	PRP	P1_customer
+7-7	about	O	O	O	O
+7-8	10	O	O	CD	O
+7-9	minutes	7-5_prep_about	took	NNS	P1_NPart_minutes
+7-10	.	O	O	O	O
+
+#id=8
+#text=After I found the books , I sat down in a comfortable chair that was next to a lamp . 
+8-1	After	8-3_mark	found	IN	O
+8-2	I	8-3_nsubj	found	PRP	P1_customer
+8-3	found	8-8_advcl	sat	VBD	O
+8-4	the	O	O	DT	O
+8-5	books	8-3_dobj	found	NNS	P1_book
+8-6	,	O	O	O	O
+8-7	I	8-8_nsubj	sat	PRP	P1_customer
+8-8	sat	O	O	VBD	O
+8-9	down	8-8_prt	sat	RP	O
+8-10	in	O	O	O	O
+8-11	a	O	O	DT	O
+8-12	comfortable	O	O	JJ	O
+8-13	chair	8-8_prep_in	sat	NN	P1_reading_area_furniture
+8-14	that	O	O	WDT	P1_reading_area_furniture
+8-15	was	O	O	VBD	O
+8-16	next	O	O	JJ	O
+8-17	to	O	O	O	O
+8-18	a	O	O	DT	O
+8-19	lamp	O	O	NN	P1_NPart_lamp
+8-20	.	O	O	O	O
+
+#id=9
+#text=I began reading one of my books while I was drinking my coffee . 
+9-1	I	9-2_nsubj	began	PRP	P1_customer
+9-2	began	O	O	VBD	O
+9-3	reading	9-2_xcomp	began	VBG	O
+9-4	one	9-3_dobj	reading	CD	O
+9-5	of	O	O	O	O
+9-6	my	O	O	PRP$	P1_customer
+9-7	books	O	O	NNS	P1_book
+9-8	while	9-11_mark	drinking	IN	O
+9-9	I	9-11_nsubj	drinking	PRP	P1_customer
+9-10	was	9-11_aux	drinking	VBD	O
+9-11	drinking	9-2_advcl	began	VBG	O
+9-12	my	O	O	PRP$	P1_customer
+9-13	coffee	9-11_dobj	drinking	NN	P2_NPart_coffee
+9-14	.	O	O	O	O
+
+#id=10
+#text=I stayed at the library and read for about thirty minutes . 
+10-1	I	10-2_nsubj	stayed	PRP	P1_customer
+10-2	stayed	O	O	VBD	O
+10-3	at	O	O	O	O
+10-4	the	O	O	DT	O
+10-5	library	10-2_prep_at	stayed	NN	P1_library
+10-6	and	O	O	O	O
+10-7	read	10-2_conj_and	stayed	VBD	O
+10-8	for	O	O	O	O
+10-9	about	O	O	RB	O
+10-10	thirty	O	O	CD	O
+10-11	minutes	10-7_prep_for	read	NNS	P2_NPart_minutes
+10-12	.	O	O	O	O
+
+#id=11
+#text=I went to the checkout to check out my books , and then I left to walk home . 
+11-1	I	11-2_nsubj	went	PRP	P1_customer
+11-2	went	O	O	VBD	O
+11-3	to	O	O	O	O
+11-4	the	O	O	DT	O
+11-5	checkout	11-2_prep_to	went	NN	P1_check-out_desk
+11-6	to	11-7_aux	check	TO	O
+11-7	check	11-2_xcomp	went	VB	O
+11-8	out	11-7_prt	check	RP	O
+11-9	my	O	O	PRP$	P1_customer
+11-10	books	11-7_dobj	check	NNS	P1_book
+11-11	,	O	O	O	O
+11-12	and	O	O	O	O
+11-13	then	11-15_advmod	left	RB	O
+11-14	I	11-15_nsubj	left	PRP	P1_customer
+11-15	left	11-2_conj_and	went	VBD	O
+11-16	to	11-17_aux	walk	TO	O
+11-17	walk	11-15_xcomp	left	VB	O
+11-18	home	11-17_dobj	walk	NN	P1_NPart_home
+11-19	.	O	O	O	O

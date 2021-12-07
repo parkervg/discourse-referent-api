@@ -1,0 +1,191 @@
+#id=1
+#text=I have many local libraries where I can borrow books for reading pleasure and reference without having to buy the books . 
+1-1	I	1-2_nsubj	have	PRP	P1_customer
+1-2	have	O	O	VBP	O
+1-3	many	O	O	JJ	O
+1-4	local	O	O	JJ	O
+1-5	libraries	1-2_dobj	have	NNS	P1_library
+1-6	where	1-9_advmod	borrow	WRB	O
+1-7	I	1-9_nsubj	borrow	PRP	P1_customer
+1-8	can	1-9_aux	borrow	MD	O
+1-9	borrow	O	O	VB	O
+1-10	books	1-9_dobj	borrow	NNS	P1_book
+1-11	for	O	O	O	O
+1-12	reading	1-9_prepc_for	borrow	VBG	O
+1-13	pleasure	1-12_dobj	reading	NN	P1_NPart_pleasure
+1-14	and	O	O	O	O
+1-15	reference	O	O	NN	P1_NPart_reference
+1-16	without	O	O	O	O
+1-17	having	1-12_prepc_without	reading	VBG	O
+1-18	to	1-19_aux	buy	TO	O
+1-19	buy	1-17_xcomp	having	VB	O
+1-20	the	O	O	DT	O
+1-21	books	1-19_dobj	buy	NNS	P1_book
+1-22	.	O	O	O	O
+
+#id=2
+#text=I first find my valid library card and visit my local library . 
+2-1	I	2-3_nsubj	find	PRP	P1_customer
+2-2	first	2-3_advmod	find	RB	O
+2-3	find	O	O	VB	O
+2-4	my	O	O	PRP$	P1_customer
+2-5	valid	O	O	JJ	O
+2-6	library	O	O	NN	O
+2-7	card	2-3_dobj	find	NN	P1_library_card
+2-8	and	O	O	O	O
+2-9	visit	2-3_conj_and	find	VB	O
+2-10	my	O	O	PRP$	P1_customer
+2-11	local	O	O	JJ	O
+2-12	library	2-9_dobj	visit	NN	P1_library
+2-13	.	O	O	O	O
+
+#id=3
+#text=The library is quiet with many different types of people there . 
+3-1	The	O	O	DT	O
+3-2	library	O	O	NN	P1_library
+3-3	is	O	O	VBZ	O
+3-4	quiet	O	O	JJ	O
+3-5	with	O	O	O	O
+3-6	many	O	O	JJ	O
+3-7	different	O	O	JJ	O
+3-8	types	O	O	NNS	O
+3-9	of	O	O	O	O
+3-10	people	O	O	NNS	P1_NPart_people
+3-11	there	O	O	RB	O
+3-12	.	O	O	O	O
+
+#id=4
+#text=It is relaxing place to just sit and browse through some books . 
+4-1	It	4-3_nsubj	relaxing	PRP	P1_library
+4-2	is	4-3_aux	relaxing	VBZ	O
+4-3	relaxing	O	O	VBG	O
+4-4	place	4-3_dobj	relaxing	NN	P1_NPart_place
+4-5	to	4-7_aux	sit	TO	O
+4-6	just	4-7_advmod	sit	RB	O
+4-7	sit	4-3_vmod	relaxing	VB	O
+4-8	and	O	O	O	O
+4-9	browse	4-7_conj_and	sit	VB	O
+4-10	through	O	O	O	O
+4-11	some	O	O	DT	O
+4-12	books	4-7_prep_through	sit	NNS	P1_book
+4-13	.	O	O	O	O
+
+#id=5
+#text=I ask the librarian for help in finding some travel books I wanted to borrow for my trip . 
+5-1	I	5-2_nsubj	ask	PRP	P1_customer
+5-2	ask	O	O	VBP	O
+5-3	the	O	O	DT	O
+5-4	librarian	5-2_dobj	ask	NN	P1_staff
+5-5	for	O	O	O	O
+5-6	help	O	O	NN	P1_NPart_help
+5-7	in	O	O	O	O
+5-8	finding	5-2_prepc_in	ask	VBG	O
+5-9	some	O	O	DT	O
+5-10	travel	O	O	NN	O
+5-11	books	5-8_dobj	finding	NNS	P1_book
+5-12	I	5-13_nsubj	wanted	PRP	P1_customer
+5-13	wanted	O	O	VBD	O
+5-14	to	5-15_aux	borrow	TO	O
+5-15	borrow	5-13_xcomp	wanted	VB	O
+5-16	for	O	O	O	O
+5-17	my	O	O	PRP$	P1_customer
+5-18	trip	5-15_prep_for	borrow	NN	P1_NPart_trip
+5-19	.	O	O	O	O
+
+#id=6
+#text=She is very helpful and directs me to the area where the travel books are . 
+6-1	She	O	O	PRP	P2_staff
+6-2	is	O	O	VBZ	O
+6-3	very	O	O	RB	O
+6-4	helpful	O	O	JJ	O
+6-5	and	O	O	O	O
+6-6	directs	O	O	VBZ	O
+6-7	me	6-6_dobj	directs	PRP	P1_customer
+6-8	to	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	area	6-6_prep_to	directs	NN	P1_location_library
+6-11	where	6-15_advmod	are	WRB	O
+6-12	the	O	O	DT	O
+6-13	travel	O	O	NN	O
+6-14	books	6-15_nsubj	are	NNS	P1_book
+6-15	are	O	O	VBP	O
+6-16	.	O	O	O	O
+
+#id=7
+#text=I look through the shelves and find the books I need . 
+7-1	I	7-2_nsubj	look	PRP	P1_customer
+7-2	look	7-11_dep	need	VBP	O
+7-3	through	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	shelves	7-2_prep_through	look	NNS	P1_shelf
+7-6	and	O	O	O	O
+7-7	find	7-2_conj_and	look	VBP	O
+7-8	the	O	O	DT	O
+7-9	books	7-7_dobj	find	NNS	P1_book
+7-10	I	7-11_nsubj	need	PRP	P1_customer
+7-11	need	O	O	VBP	O
+7-12	.	O	O	O	O
+
+#id=8
+#text=I check them out and borrow them with my library card . 
+8-1	I	8-2_nsubj	check	PRP	P1_customer
+8-2	check	O	O	VBP	O
+8-3	them	8-2_dobj	check	PRP	P1_book
+8-4	out	8-2_prt	check	RP	O
+8-5	and	O	O	O	O
+8-6	borrow	8-2_conj_and	check	VBP	O
+8-7	them	8-6_dobj	borrow	PRP	P1_book
+8-8	with	O	O	O	O
+8-9	my	O	O	PRP$	P1_customer
+8-10	library	O	O	NN	O
+8-11	card	8-6_prep_with	borrow	NN	P1_library_card
+8-12	.	O	O	O	O
+
+#id=9
+#text=I have a certain amount of time to return the books so I will make sure to return them on time in good condition so that I do not get fined . 
+9-1	I	9-2_nsubj	have	PRP	P1_customer
+9-2	have	O	O	VBP	O
+9-3	a	O	O	DT	O
+9-4	certain	O	O	JJ	O
+9-5	amount	9-2_dobj	have	NN	O
+9-6	of	O	O	O	O
+9-7	time	O	O	NN	P1_return_date
+9-8	to	9-9_aux	return	TO	O
+9-9	return	9-2_vmod	have	VB	O
+9-10	the	O	O	DT	O
+9-11	books	9-9_dobj	return	NNS	P1_book
+9-12	so	9-15_mark	make	IN	O
+9-13	I	9-15_nsubj	make	PRP	P1_customer
+9-14	will	9-15_aux	make	MD	O
+9-15	make	9-9_advcl	return	VB	O
+9-16	sure	9-15_acomp	make	JJ	O
+9-17	to	9-18_aux	return	TO	O
+9-18	return	O	O	VB	O
+9-19	them	9-18_dobj	return	PRP	P1_book
+9-20	on	O	O	O	O
+9-21	time	9-18_prep_on	return	NN	O
+9-22	in	O	O	O	O
+9-23	good	O	O	JJ	O
+9-24	condition	O	O	NN	P1_NPart_condition
+9-25	so	9-31_advmod	fined	RB	O
+9-26	that	9-31_mark	fined	IN	O
+9-27	I	9-31_nsubjpass	fined	PRP	P1_customer
+9-28	do	9-31_aux	fined	VBP	O
+9-29	not	9-31_neg	fined	RB	O
+9-30	get	9-31_auxpass	fined	VB	O
+9-31	fined	9-15_advcl	make	VBN	O
+9-32	.	O	O	O	O
+
+#id=10
+#text=I leave the library satisfied with the books I borrowed . 
+10-1	I	10-2_nsubj	leave	PRP	P1_customer
+10-2	leave	O	O	VBP	O
+10-3	the	O	O	DT	O
+10-4	library	10-10_nsubj	borrowed	NN	P1_library
+10-5	satisfied	10-10_dep	borrowed	JJ	O
+10-6	with	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	books	O	O	NNS	P1_book
+10-9	I	10-10_nsubj	borrowed	PRP	P1_customer
+10-10	borrowed	10-2_xcomp	leave	VBD	O
+10-11	.	O	O	O	O

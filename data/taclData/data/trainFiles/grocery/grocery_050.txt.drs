@@ -1,0 +1,225 @@
+#id=1
+#text=I do most of the grocery shopping for my family , I really enjoy buying food . 
+1-1	I	1-2_nsubj	do	PRP	P1_shopper
+1-2	do	1-14_ccomp	enjoy	VBP	O
+1-3	most	1-2_dobj	do	JJS	O
+1-4	of	O	O	O	O
+1-5	the	O	O	DT	O
+1-6	grocery	O	O	NN	P1_groceries
+1-7	shopping	O	O	NN	O
+1-8	for	O	O	O	O
+1-9	my	O	O	PRP$	P1_shopper
+1-10	family	O	O	NN	P1_NPart_family
+1-11	,	O	O	O	O
+1-12	I	1-14_nsubj	enjoy	PRP	P1_shopper
+1-13	really	1-14_advmod	enjoy	RB	O
+1-14	enjoy	O	O	VBP	O
+1-15	buying	1-14_xcomp	enjoy	VBG	O
+1-16	food	1-15_dobj	buying	NN	P1_groceries
+1-17	.	O	O	O	O
+
+#id=2
+#text=I went to the grocery and started with the produce section . 
+2-1	I	2-2_nsubj	went	PRP	P1_shopper
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	grocery	2-2_prep_to	went	NN	P1_grocery_shop
+2-6	and	O	O	O	O
+2-7	started	2-2_conj_and	went	VBD	O
+2-8	with	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	produce	O	O	NN	O
+2-11	section	2-7_prep_with	started	NN	P1_section
+2-12	.	O	O	O	O
+
+#id=3
+#text=It 's pleasant to see all the fresh greenery and ripe fruit on display . 
+3-1	It	O	O	PRP	O
+3-2	's	O	O	VBZ	O
+3-3	pleasant	O	O	JJ	O
+3-4	to	3-5_aux	see	TO	O
+3-5	see	O	O	VB	O
+3-6	all	O	O	PDT	O
+3-7	the	O	O	DT	O
+3-8	fresh	O	O	JJ	O
+3-9	greenery	O	O	JJ	P2_groceries
+3-10	and	O	O	O	O
+3-11	ripe	O	O	JJ	O
+3-12	fruit	3-5_dobj	see	NN	P3_groceries
+3-13	on	O	O	O	O
+3-14	display	O	O	NN	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=I picked out a bunch of asparagus and a bag of Minneola oranges . 
+4-1	I	4-2_nsubj	picked	PRP	P1_shopper
+4-2	picked	O	O	VBD	O
+4-3	out	4-2_prt	picked	RP	O
+4-4	a	O	O	DT	O
+4-5	bunch	4-2_dobj	picked	NN	O
+4-6	of	O	O	O	O
+4-7	asparagus	O	O	NNS	P4_groceries
+4-8	and	O	O	O	O
+4-9	a	O	O	DT	O
+4-10	bag	O	O	NN	O
+4-11	of	O	O	O	O
+4-12	Minneola	O	O	NNP	O
+4-13	oranges	O	O	NNS	P5_groceries
+4-14	.	O	O	O	O
+
+#id=5
+#text=Then I moved on to the bread section where I chose a loaf of wheat bread and a French baguette . 
+5-1	Then	5-3_advmod	moved	RB	O
+5-2	I	5-3_nsubj	moved	PRP	P1_shopper
+5-3	moved	O	O	VBD	O
+5-4	on	5-3_prep	moved	IN	O
+5-5	to	O	O	TO	O
+5-6	the	O	O	DT	O
+5-7	bread	O	O	NN	O
+5-8	section	O	O	NN	P2_section
+5-9	where	5-11_advmod	chose	WRB	O
+5-10	I	5-11_nsubj	chose	PRP	P1_shopper
+5-11	chose	5-3_advcl	moved	VBD	O
+5-12	a	O	O	DT	O
+5-13	loaf	5-11_dobj	chose	NN	O
+5-14	of	O	O	O	O
+5-15	wheat	O	O	NN	O
+5-16	bread	O	O	NN	P6_groceries
+5-17	and	O	O	O	O
+5-18	a	O	O	DT	O
+5-19	French	O	O	JJ	O
+5-20	baguette	O	O	NN	P7_groceries
+5-21	.	O	O	O	O
+
+#id=6
+#text=I was out of olive oil from cooking rigatoni last week , so I went to the oil section . 
+6-1	I	O	O	PRP	P1_shopper
+6-2	was	O	O	VBD	O
+6-3	out	O	O	O	O
+6-4	of	O	O	O	O
+6-5	olive	O	O	JJ	O
+6-6	oil	O	O	NN	P8_groceries
+6-7	from	O	O	O	O
+6-8	cooking	O	O	JJ	O
+6-9	rigatoni	O	O	NNS	P1_NPart_rigatoni
+6-10	last	O	O	JJ	O
+6-11	week	O	O	NN	P1_NPart_week
+6-12	,	O	O	O	O
+6-13	so	6-15_mark	went	IN	O
+6-14	I	6-15_nsubj	went	PRP	P1_shopper
+6-15	went	O	O	VBD	O
+6-16	to	O	O	O	O
+6-17	the	O	O	DT	O
+6-18	oil	O	O	NN	O
+6-19	section	6-15_prep_to	went	NN	P3_section
+6-20	.	O	O	O	O
+
+#id=7
+#text=Luckily they had my favorite brand , Frantoia . 
+7-1	Luckily	7-3_advmod	had	RB	O
+7-2	they	7-3_nsubj	had	PRP	P1_grocery_shop
+7-3	had	O	O	VBD	O
+7-4	my	O	O	PRP$	P1_shopper
+7-5	favorite	O	O	JJ	O
+7-6	brand	7-3_dobj	had	NN	P1_NPart_brand
+7-7	,	O	O	O	O
+7-8	Frantoia	O	O	NNP	P1_NPart_frantoia
+7-9	.	O	O	O	O
+
+#id=8
+#text=I selected a bottle and went on . 
+8-1	I	8-2_nsubj	selected	PRP	P1_shopper
+8-2	selected	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	bottle	8-2_dobj	selected	NN	P8_groceries
+8-5	and	O	O	O	O
+8-6	went	8-2_conj_and	selected	VBD	O
+8-7	on	8-6_prt	went	RP	O
+8-8	.	O	O	O	O
+
+#id=9
+#text=During the rest of the trip , i bought meat , cereal , milk , eggs , freezer bags and other items . 
+9-1	During	O	O	O	O
+9-2	the	O	O	DT	O
+9-3	rest	9-9_prep_during	bought	NN	O
+9-4	of	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	trip	O	O	NN	P1_other
+9-7	,	O	O	O	O
+9-8	i	9-9_nsubj	bought	FW	P1_shopper
+9-9	bought	O	O	VBD	O
+9-10	meat	9-9_dobj	bought	NN	P9_groceries
+9-11	,	O	O	O	O
+9-12	cereal	O	O	NN	P10_groceries
+9-13	,	O	O	O	O
+9-14	milk	O	O	NN	P11_groceries
+9-15	,	O	O	O	O
+9-16	eggs	O	O	NNS	P12_groceries
+9-17	,	O	O	O	O
+9-18	freezer	O	O	NN	O
+9-19	bags	O	O	NNS	P13_groceries
+9-20	and	O	O	O	O
+9-21	other	O	O	JJ	O
+9-22	items	O	O	NNS	P14_groceries
+9-23	.	O	O	O	O
+
+#id=10
+#text=When I was finished i went to the cashier and had my purchases rung up . 
+10-1	When	10-4_advmod	finished	WRB	O
+10-2	I	10-4_nsubjpass	finished	PRP	P1_shopper
+10-3	was	10-4_auxpass	finished	VBD	O
+10-4	finished	10-6_advcl	went	VBN	O
+10-5	i	10-6_nsubj	went	FW	P1_shopper
+10-6	went	O	O	VBD	O
+10-7	to	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	cashier	10-6_prep_to	went	NN	P1_grocery_staff
+10-10	and	O	O	O	O
+10-11	had	10-14_aux	rung	VBD	O
+10-12	my	O	O	PRP$	P1_shopper
+10-13	purchases	10-14_dobj	rung	NNS	P1_groceries
+10-14	rung	10-6_conj_and	went	VBN	O
+10-15	up	10-14_prt	rung	RP	O
+10-16	.	O	O	O	O
+
+#id=11
+#text=The total bill was $ 43.25 . 
+11-1	The	O	O	DT	O
+11-2	total	O	O	JJ	O
+11-3	bill	O	O	NN	P1_receipt
+11-4	was	O	O	VBD	O
+11-5	$	O	O	$	O
+11-6	43.25	O	O	CD	P1_price
+11-7	.	O	O	O	O
+
+#id=12
+#text=I handed the cashier a 50 dollar bill , and received change of $ 6.75 . 
+12-1	I	12-2_nsubj	handed	PRP	P1_shopper
+12-2	handed	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	cashier	12-2_iobj	handed	NN	P1_grocery_staff
+12-5	a	O	O	DT	O
+12-6	50	O	O	CD	O
+12-7	dollar	O	O	NN	O
+12-8	bill	12-2_dobj	handed	NN	P1_payment_means
+12-9	,	O	O	O	O
+12-10	and	O	O	O	O
+12-11	received	12-2_conj_and	handed	VBD	O
+12-12	change	12-11_dobj	received	NN	P2_payment_means
+12-13	of	O	O	O	O
+12-14	$	O	O	$	O
+12-15	6.75	O	O	CD	O
+12-16	.	O	O	O	O
+
+#id=13
+#text=My grocery shopping was finished for the day . 
+13-1	My	O	O	PRP$	P1_shopper
+13-2	grocery	O	O	NN	P1_groceries
+13-3	shopping	13-5_nsubjpass	finished	NN	O
+13-4	was	13-5_auxpass	finished	VBD	O
+13-5	finished	O	O	VBN	O
+13-6	for	O	O	O	O
+13-7	the	O	O	DT	O
+13-8	day	13-5_prep_for	finished	NN	P1_NPart_day
+13-9	.	O	O	O	O

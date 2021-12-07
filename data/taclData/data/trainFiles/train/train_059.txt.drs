@@ -1,0 +1,226 @@
+#id=1
+#text=I walked into the train station , stood in line , and purchased a round trip ticket to Chicago . 
+1-1	I	1-2_nsubj	walked	PRP	P1_passenger
+1-2	walked	O	O	VBD	O
+1-3	into	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	train	O	O	NN	O
+1-6	station	1-2_prep_into	walked	NN	P1_train_station
+1-7	,	O	O	O	O
+1-8	stood	1-2_conj_and	walked	VBD	O
+1-9	in	O	O	O	O
+1-10	line	1-8_prep_in	stood	NN	P1_line
+1-11	,	O	O	O	O
+1-12	and	O	O	O	O
+1-13	purchased	1-2_conj_and	walked	VBD	O
+1-14	a	O	O	DT	O
+1-15	round	O	O	NN	O
+1-16	trip	O	O	NN	P1_trip
+1-17	ticket	1-13_dobj	purchased	NN	P1_card/ticket
+1-18	to	O	O	O	O
+1-19	Chicago	1-13_prep_to	purchased	NNP	P1_destination
+1-20	.	O	O	O	O
+
+#id=2
+#text=I placed my ticket in my pocket and then walked outside to wait for the train . 
+2-1	I	2-2_nsubj	placed	PRP	P1_passenger
+2-2	placed	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_passenger
+2-4	ticket	2-2_dobj	placed	NN	P2_card/ticket
+2-5	in	O	O	O	O
+2-6	my	O	O	PRP$	P1_passenger
+2-7	pocket	2-2_prep_in	placed	NN	P1_NPart_pocket
+2-8	and	O	O	O	O
+2-9	then	2-10_advmod	walked	RB	O
+2-10	walked	2-2_conj_and	placed	VBD	O
+2-11	outside	2-10_advmod	walked	RB	O
+2-12	to	2-13_aux	wait	TO	O
+2-13	wait	2-10_xcomp	walked	VB	O
+2-14	for	O	O	O	O
+2-15	the	O	O	DT	O
+2-16	train	2-13_prep_for	wait	NN	P1_train
+2-17	.	O	O	O	O
+
+#id=3
+#text=I stood next to many other people that were also waiting for the train . 
+3-1	I	3-2_nsubj	stood	PRP	P1_passenger
+3-2	stood	O	O	VBD	O
+3-3	next	O	O	JJ	O
+3-4	to	O	O	TO	O
+3-5	many	O	O	JJ	O
+3-6	other	O	O	JJ	O
+3-7	people	3-2_dobj	stood	NNS	P2_passenger
+3-8	that	3-11_nsubj	waiting	WDT	O
+3-9	were	3-11_aux	waiting	VBD	O
+3-10	also	3-11_advmod	waiting	RB	O
+3-11	waiting	O	O	VBG	O
+3-12	for	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	train	3-11_prep_for	waiting	NN	P1_train
+3-15	.	O	O	O	O
+
+#id=4
+#text=We heard the train coming when it was still a long distance away . 
+4-1	We	4-2_nsubj	heard	PRP	P3_passenger
+4-2	heard	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	train	4-2_dobj	heard	NN	P1_train
+4-5	coming	4-2_xcomp	heard	VBG	O
+4-6	when	O	O	WRB	O
+4-7	it	O	O	PRP	P1_train
+4-8	was	O	O	VBD	O
+4-9	still	O	O	RB	O
+4-10	a	O	O	DT	O
+4-11	long	O	O	JJ	O
+4-12	distance	4-5_advcl	coming	NN	P1_NPart_distance
+4-13	away	O	O	RB	O
+4-14	.	O	O	O	O
+
+#id=5
+#text=It finally pulled up to the tracks . 
+5-1	It	5-3_nsubj	pulled	PRP	P1_train
+5-2	finally	5-3_advmod	pulled	RB	O
+5-3	pulled	O	O	VBD	O
+5-4	up	5-3_prt	pulled	RP	O
+5-5	to	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	tracks	5-3_prep_to	pulled	NNS	O
+5-8	.	O	O	O	O
+
+#id=6
+#text=Everyone lined up to get inside the doors . 
+6-1	Everyone	6-2_nsubj	lined	NN	P3_passenger
+6-2	lined	O	O	VBD	O
+6-3	up	6-2_prt	lined	RP	O
+6-4	to	6-5_aux	get	TO	O
+6-5	get	6-2_xcomp	lined	VB	O
+6-6	inside	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	doors	6-5_prep_inside	get	NNS	P1_door
+6-9	.	O	O	O	O
+
+#id=7
+#text=The doors open and we all filed in . 
+7-1	The	O	O	DT	O
+7-2	doors	7-3_nsubj	open	NNS	P1_door
+7-3	open	O	O	VBP	O
+7-4	and	O	O	O	O
+7-5	we	7-7_nsubj	filed	PRP	P3_passenger
+7-6	all	7-7_advmod	filed	DT	O
+7-7	filed	7-3_conj_and	open	VBD	O
+7-8	in	7-7_prt	filed	RP	O
+7-9	.	O	O	O	O
+
+#id=8
+#text=I found a seat by myself at the back of the train . 
+8-1	I	8-2_nsubj	found	PRP	P1_passenger
+8-2	found	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	seat	8-2_dobj	found	NN	P1_seat
+8-5	by	O	O	O	O
+8-6	myself	8-2_prep_by	found	PRP	P1_passenger
+8-7	at	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	back	8-2_prep_at	found	NN	P1_NPart_back
+8-10	of	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	train	O	O	NN	P1_train
+8-13	.	O	O	O	O
+
+#id=9
+#text=I sat down and looked out the window at the passing towns . 
+9-1	I	9-2_nsubj	sat	PRP	P1_passenger
+9-2	sat	O	O	VBD	O
+9-3	down	9-2_prt	sat	RP	O
+9-4	and	O	O	O	O
+9-5	looked	9-2_conj_and	sat	VBD	O
+9-6	out	9-5_prt	looked	RP	O
+9-7	the	O	O	DT	O
+9-8	window	9-5_dobj	looked	NN	P1_in-train_entertainment
+9-9	at	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	passing	O	O	VBG	O
+9-12	towns	O	O	NNS	P1_NPart_towns
+9-13	.	O	O	O	O
+
+#id=10
+#text=After awhile , the announcer said the next and final stop would be Chicago . 
+10-1	After	10-6_prep	said	IN	O
+10-2	awhile	O	O	RB	O
+10-3	,	O	O	O	O
+10-4	the	O	O	DT	O
+10-5	announcer	10-6_nsubj	said	NN	P1_train_staff
+10-6	said	O	O	VBD	O
+10-7	the	O	O	DT	O
+10-8	next	O	O	JJ	O
+10-9	and	O	O	O	O
+10-10	final	O	O	JJ	O
+10-11	stop	O	O	NN	P1_destination
+10-12	would	O	O	MD	O
+10-13	be	O	O	VB	O
+10-14	Chicago	10-6_ccomp	said	NNP	P1_destination
+10-15	.	O	O	O	O
+
+#id=11
+#text=I stood up and walked over to the doors . 
+11-1	I	11-2_nsubj	stood	PRP	P1_passenger
+11-2	stood	O	O	VBD	O
+11-3	up	11-2_prt	stood	RP	O
+11-4	and	O	O	O	O
+11-5	walked	11-2_conj_and	stood	VBD	O
+11-6	over	11-5_prt	walked	RP	O
+11-7	to	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	doors	11-5_prep_to	walked	NNS	P1_door
+11-10	.	O	O	O	O
+
+#id=12
+#text=The train pulled into the station , making a loud screeching noise . 
+12-1	The	O	O	DT	O
+12-2	train	12-3_nsubj	pulled	NN	P1_train
+12-3	pulled	O	O	VBD	O
+12-4	into	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	station	12-3_prep_into	pulled	NN	P2_destination
+12-7	,	O	O	O	O
+12-8	making	12-3_xcomp	pulled	VBG	O
+12-9	a	O	O	DT	O
+12-10	loud	O	O	JJ	O
+12-11	screeching	O	O	VBG	O
+12-12	noise	12-8_dobj	making	NN	P1_NPart_noise
+12-13	.	O	O	O	O
+
+#id=13
+#text=It slowly came to a stop inside the station . 
+13-1	It	13-3_nsubj	came	PRP	P1_train
+13-2	slowly	13-3_advmod	came	RB	O
+13-3	came	O	O	VBD	O
+13-4	to	O	O	O	O
+13-5	a	O	O	DT	O
+13-6	stop	13-3_prep_to	came	NN	O
+13-7	inside	O	O	O	O
+13-8	the	O	O	DT	O
+13-9	station	O	O	NN	P2_destination
+13-10	.	O	O	O	O
+
+#id=14
+#text=The doors opened and all the passengers climbed off the train , and into Union Station in Chicago . 
+14-1	The	O	O	DT	O
+14-2	doors	14-3_nsubj	opened	NNS	P1_door
+14-3	opened	O	O	VBD	O
+14-4	and	O	O	O	O
+14-5	all	O	O	PDT	O
+14-6	the	O	O	DT	O
+14-7	passengers	14-8_nsubj	climbed	NNS	P3_passenger
+14-8	climbed	14-8_conj_and	climbed	VBD	O
+14-9	off	O	O	O	O
+14-10	the	O	O	DT	O
+14-11	train	14-8_prep_off	climbed	NN	P1_train
+14-12	,	O	O	O	O
+14-13	and	O	O	O	O
+14-14	into	O	O	O	O
+14-15	Union	O	O	NNP	O
+14-16	Station	14-8_prep_into	climbed	NNP	P1_NPart_station
+14-17	in	O	O	O	O
+14-18	Chicago	14-8_prep_in	climbed	NNP	P1_destination
+14-19	.	O	O	O	O

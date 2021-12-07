@@ -1,0 +1,189 @@
+#id=1
+#text=I found myself in my youth in a precarious and annoying position . 
+1-1	I	1-2_nsubj	found	PRP	P1_passenger
+1-2	found	O	O	VBD	O
+1-3	myself	1-2_dobj	found	PRP	P1_passenger
+1-4	in	O	O	O	O
+1-5	my	O	O	PRP$	P1_passenger
+1-6	youth	1-2_prep_in	found	NN	P1_NPart_youth
+1-7	in	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	precarious	O	O	JJ	O
+1-10	and	O	O	O	O
+1-11	annoying	O	O	JJ	O
+1-12	position	1-2_prep_in	found	NN	P1_NPart_position
+1-13	.	O	O	O	O
+
+#id=2
+#text=Not only did I live in the very rough part of town with theives , drug dealers , and crack addicts , but I was without reliable transportation . 
+2-1	Not	O	O	RB	O
+2-2	only	2-5_preconj	live	JJ	O
+2-3	did	2-5_aux	live	VBD	O
+2-4	I	2-5_nsubj	live	PRP	P1_passenger
+2-5	live	O	O	VB	O
+2-6	in	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	very	O	O	RB	O
+2-9	rough	O	O	JJ	O
+2-10	part	2-5_prep_in	live	NN	O
+2-11	of	O	O	O	O
+2-12	town	O	O	NN	P1_NPart_town
+2-13	with	O	O	O	O
+2-14	theives	2-5_prep_with	live	NNS	P1_NPart_theives
+2-15	,	O	O	O	O
+2-16	drug	O	O	NN	O
+2-17	dealers	O	O	NNS	P1_NPart_dealers
+2-18	,	O	O	O	O
+2-19	and	O	O	O	O
+2-20	crack	O	O	NN	O
+2-21	addicts	O	O	NNS	P1_NPart_addicts
+2-22	,	O	O	O	O
+2-23	but	O	O	O	O
+2-24	I	2-25_nsubj	was	PRP	P1_passenger
+2-25	was	2-5_conj_but	live	VBD	O
+2-26	without	O	O	O	O
+2-27	reliable	O	O	JJ	O
+2-28	transportation	2-25_prep_without	was	NN	P1_NPart_transportation
+2-29	.	O	O	O	O
+
+#id=3
+#text=I did , however , have enough money for bus fare . 
+3-1	I	3-2_nsubj	did	PRP	P1_passenger
+3-2	did	O	O	VBD	O
+3-3	,	O	O	O	O
+3-4	however	3-2_advmod	did	RB	O
+3-5	,	O	O	O	O
+3-6	have	3-2_ccomp	did	VB	O
+3-7	enough	O	O	JJ	O
+3-8	money	3-6_dobj	have	NN	P1_money
+3-9	for	O	O	O	O
+3-10	bus	O	O	NN	O
+3-11	fare	O	O	NN	P2_money
+3-12	.	O	O	O	O
+
+#id=4
+#text=As the job search continued I found an oportunity on the other side of town working for Subway . 
+4-1	As	4-5_mark	continued	IN	O
+4-2	the	O	O	DT	O
+4-3	job	O	O	NN	O
+4-4	search	4-5_nsubj	continued	NN	P1_NPart_search
+4-5	continued	4-7_advcl	found	VBD	O
+4-6	I	4-7_nsubj	found	PRP	P1_passenger
+4-7	found	O	O	VBD	O
+4-8	an	O	O	DT	O
+4-9	oportunity	4-7_dobj	found	NN	P1_NPart_oportunity
+4-10	on	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	other	O	O	JJ	O
+4-13	side	4-7_prep_on	found	NN	O
+4-14	of	O	O	O	O
+4-15	town	O	O	NN	P2_NPart_town
+4-16	working	4-7_xcomp	found	VBG	O
+4-17	for	O	O	O	O
+4-18	Subway	4-16_prep_for	working	NNP	P1_NPart_subway
+4-19	.	O	O	O	O
+
+#id=5
+#text=I utilized the bus service . 
+5-1	I	5-2_nsubj	utilized	PRP	P1_passenger
+5-2	utilized	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	bus	O	O	NN	O
+5-5	service	5-2_dobj	utilized	NN	P1_bus
+5-6	.	O	O	O	O
+
+#id=6
+#text=The characters on the bus were generally normal people but there were always a few outliers that were a bit intimidating . 
+6-1	The	O	O	DT	O
+6-2	characters	O	O	NNS	P2_passenger
+6-3	on	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	bus	O	O	NN	P1_bus
+6-6	were	O	O	VBD	O
+6-7	generally	O	O	RB	O
+6-8	normal	O	O	JJ	O
+6-9	people	O	O	NNS	P2_passenger
+6-10	but	O	O	O	O
+6-11	there	6-12_expl	were	EX	O
+6-12	were	O	O	VBD	O
+6-13	always	6-12_advmod	were	RB	O
+6-14	a	O	O	DT	O
+6-15	few	O	O	JJ	O
+6-16	outliers	6-12_nsubj	were	NNS	P3_passenger
+6-17	that	O	O	WDT	O
+6-18	were	O	O	VBD	O
+6-19	a	O	O	DT	O
+6-20	bit	O	O	RB	O
+6-21	intimidating	O	O	JJ	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=Most of these reeked of alcohol and insanity . 
+7-1	Most	O	O	JJS	O
+7-2	of	O	O	O	O
+7-3	these	O	O	DT	P3_passenger
+7-4	reeked	O	O	NN	O
+7-5	of	O	O	O	O
+7-6	alcohol	O	O	NN	P1_NPart_alcohol
+7-7	and	O	O	O	O
+7-8	insanity	O	O	NN	P1_NPart_insanity
+7-9	.	O	O	O	O
+
+#id=8
+#text=They were probably homeless people . 
+8-1	They	O	O	PRP	P3_passenger
+8-2	were	O	O	VBD	O
+8-3	probably	O	O	RB	O
+8-4	homeless	O	O	JJ	O
+8-5	people	O	O	NNS	P3_passenger
+8-6	.	O	O	O	O
+
+#id=9
+#text=I usually did n't talk to too many people on the bus , just kept to myself . 
+9-1	I	9-5_nsubj	talk	PRP	P1_passenger
+9-2	usually	9-5_advmod	talk	RB	O
+9-3	did	9-5_aux	talk	VBD	O
+9-4	n't	9-5_neg	talk	RB	O
+9-5	talk	O	O	VB	O
+9-6	to	O	O	O	O
+9-7	too	O	O	RB	O
+9-8	many	O	O	JJ	O
+9-9	people	9-5_prep_to	talk	NNS	P4_passenger
+9-10	on	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	bus	9-5_prep_on	talk	NN	P1_bus
+9-13	,	O	O	O	O
+9-14	just	9-15_advmod	kept	RB	O
+9-15	kept	O	O	VBN	O
+9-16	to	O	O	O	O
+9-17	myself	9-15_prep_to	kept	PRP	P1_passenger
+9-18	.	O	O	O	O
+
+#id=10
+#text=I would go to the transfer spot in downtown , and switch to the bus that would take me to my final location at Subway . 
+10-1	I	10-3_nsubj	go	PRP	P1_passenger
+10-2	would	10-3_aux	go	MD	O
+10-3	go	O	O	VB	O
+10-4	to	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	transfer	O	O	NN	O
+10-7	spot	10-3_prep_to	go	NN	P1_bus_stop
+10-8	in	O	O	O	O
+10-9	downtown	O	O	NN	P1_NPart_downtown
+10-10	,	O	O	O	O
+10-11	and	O	O	O	O
+10-12	switch	10-3_conj_and	go	VB	O
+10-13	to	O	O	O	O
+10-14	the	O	O	DT	O
+10-15	bus	10-12_prep_to	switch	NN	P1_bus
+10-16	that	10-18_nsubj	take	WDT	P1_bus
+10-17	would	10-18_aux	take	MD	O
+10-18	take	O	O	VB	O
+10-19	me	10-18_dobj	take	PRP	P1_passenger
+10-20	to	O	O	O	O
+10-21	my	O	O	PRP$	P1_passenger
+10-22	final	O	O	JJ	O
+10-23	location	10-18_prep_to	take	NN	P1_destination
+10-24	at	O	O	O	O
+10-25	Subway	O	O	NNP	P2_NPart_subway
+10-26	.	O	O	O	O

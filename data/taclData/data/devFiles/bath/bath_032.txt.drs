@@ -1,0 +1,376 @@
+#id=1
+#text=It 's been a while since I have taken a bath , I usually shower . 
+1-1	It	O	O	PRP	O
+1-2	's	O	O	VBZ	O
+1-3	been	O	O	VBN	O
+1-4	a	O	O	DT	O
+1-5	while	O	O	NN	O
+1-6	since	1-9_mark	taken	IN	O
+1-7	I	1-9_nsubj	taken	PRP	P1_bather
+1-8	have	1-9_aux	taken	VBP	O
+1-9	taken	O	O	VBN	O
+1-10	a	O	O	DT	O
+1-11	bath	1-15_nsubj	shower	NN	O
+1-12	,	O	O	O	O
+1-13	I	1-15_nsubj	shower	PRP	P1_bather
+1-14	usually	1-15_advmod	shower	RB	O
+1-15	shower	1-9_ccomp	taken	VB	O
+1-16	.	O	O	O	O
+
+#id=2
+#text=When I do bathe , I tend to make a big deal of it , with bubble bath or bath oil , and book to read in the tub , and very hot water . 
+2-1	When	O	O	WRB	O
+2-2	I	O	O	PRP	P1_bather
+2-3	do	O	O	VBP	O
+2-4	bathe	2-7_advcl	tend	JJ	O
+2-5	,	O	O	O	O
+2-6	I	2-7_nsubj	tend	PRP	P1_bather
+2-7	tend	O	O	VBP	O
+2-8	to	2-9_aux	make	TO	O
+2-9	make	2-7_xcomp	tend	VB	O
+2-10	a	O	O	DT	O
+2-11	big	O	O	JJ	O
+2-12	deal	2-9_dobj	make	NN	O
+2-13	of	O	O	O	O
+2-14	it	O	O	PRP	O
+2-15	,	O	O	O	O
+2-16	with	O	O	O	O
+2-17	bubble	O	O	NN	O
+2-18	bath	2-9_prep_with	make	NN	P1_bath_means
+2-19	or	O	O	O	O
+2-20	bath	O	O	NN	O
+2-21	oil	O	O	NN	P2_bath_means
+2-22	,	O	O	O	O
+2-23	and	O	O	O	O
+2-24	book	O	O	NN	P1_in-bath_entertainment
+2-25	to	2-26_aux	read	TO	O
+2-26	read	O	O	VB	O
+2-27	in	O	O	O	O
+2-28	the	O	O	DT	O
+2-29	tub	2-26_prep_in	read	NN	P1_bathtub
+2-30	,	O	O	O	O
+2-31	and	O	O	CC	O
+2-32	very	O	O	RB	O
+2-33	hot	O	O	JJ	O
+2-34	water	O	O	NN	P1_water
+2-35	.	O	O	O	O
+
+#id=3
+#text=Some bubble bath comes in carnation fragrance , and sometimes I have a packet in one of the bathroom drawers . 
+3-1	Some	O	O	DT	O
+3-2	bubble	O	O	NN	O
+3-3	bath	3-4_nsubj	comes	NN	P1_bath_means
+3-4	comes	O	O	VBZ	O
+3-5	in	O	O	O	O
+3-6	carnation	O	O	NN	O
+3-7	fragrance	3-4_prep_in	comes	NN	P1_NPart_fragrance
+3-8	,	O	O	O	O
+3-9	and	O	O	O	O
+3-10	sometimes	3-12_advmod	have	RB	O
+3-11	I	3-12_nsubj	have	PRP	P1_bather
+3-12	have	3-4_conj_and	comes	VBP	O
+3-13	a	O	O	DT	O
+3-14	packet	3-12_dobj	have	NN	P1_bath_means
+3-15	in	O	O	O	O
+3-16	one	O	O	CD	O
+3-17	of	O	O	O	O
+3-18	the	O	O	DT	O
+3-19	bathroom	O	O	NN	O
+3-20	drawers	O	O	NNS	P1_other
+3-21	.	O	O	O	O
+
+#id=4
+#text=If I have one , I put in the bathtub plug and open the packet and empty it under the bath tap . 
+4-1	If	4-3_mark	have	IN	O
+4-2	I	4-3_nsubj	have	PRP	P1_bather
+4-3	have	4-7_advcl	put	VBP	O
+4-4	one	4-3_dobj	have	CD	P1_bath_means
+4-5	,	O	O	O	O
+4-6	I	4-7_nsubj	put	PRP	P1_bather
+4-7	put	O	O	VB	O
+4-8	in	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	bathtub	O	O	NN	O
+4-11	plug	4-7_prep_in	put	NN	P1_plug
+4-12	and	O	O	O	O
+4-13	open	4-7_conj_and	put	VB	O
+4-14	the	O	O	DT	O
+4-15	packet	4-13_dobj	open	NN	P1_bath_means
+4-16	and	O	O	O	O
+4-17	empty	4-7_conj_and	put	VB	O
+4-18	it	4-17_dobj	empty	PRP	P1_bath_means
+4-19	under	O	O	O	O
+4-20	the	O	O	DT	O
+4-21	bath	O	O	NN	O
+4-22	tap	4-17_prep_under	empty	NN	P1_tap
+4-23	.	O	O	O	O
+
+#id=5
+#text=I turn on only the hot water , because at my house it starts out cold and only gradually heats up . 
+5-1	I	5-2_nsubj	turn	PRP	P1_bather
+5-2	turn	O	O	VBP	O
+5-3	on	O	O	O	O
+5-4	only	O	O	RB	O
+5-5	the	O	O	DT	O
+5-6	hot	O	O	JJ	O
+5-7	water	5-2_prep_on	turn	NN	P1_water
+5-8	,	O	O	O	O
+5-9	because	5-14_mark	starts	IN	O
+5-10	at	O	O	O	O
+5-11	my	O	O	PRP$	P1_bather
+5-12	house	5-14_prep_at	starts	NN	P1_NPart_house
+5-13	it	5-14_nsubj	starts	PRP	P1_water
+5-14	starts	5-2_advcl	turn	VBZ	O
+5-15	out	5-14_advmod	starts	IN	O
+5-16	cold	O	O	NN	O
+5-17	and	O	O	O	O
+5-18	only	O	O	RB	O
+5-19	gradually	5-14_advmod	starts	RB	O
+5-20	heats	5-14_conj_and	starts	VBZ	O
+5-21	up	5-20_prt	heats	RP	O
+5-22	.	O	O	O	O
+
+#id=6
+#text=I do test the temperature on my arm and adjust it as the tub fills . 
+6-1	I	6-3_nsubj	test	PRP	P1_bather
+6-2	do	6-3_aux	test	VBP	O
+6-3	test	O	O	VB	O
+6-4	the	O	O	DT	O
+6-5	temperature	6-3_dobj	test	NN	P1_temperature
+6-6	on	O	O	O	O
+6-7	my	O	O	PRP$	P1_bather
+6-8	arm	6-3_prep_on	test	NN	P1_body_part
+6-9	and	O	O	O	O
+6-10	adjust	6-3_conj_and	test	VB	O
+6-11	it	6-10_dobj	adjust	PRP	P1_temperature
+6-12	as	6-15_mark	fills	IN	O
+6-13	the	O	O	DT	O
+6-14	tub	6-15_nsubj	fills	NN	P1_bathtub
+6-15	fills	6-10_advcl	adjust	VBZ	O
+6-16	.	O	O	O	O
+
+#id=7
+#text=I get fresh clothes and put them on the counter . 
+7-1	I	7-2_nsubj	get	PRP	P1_bather
+7-2	get	O	O	VBP	O
+7-3	fresh	O	O	JJ	O
+7-4	clothes	7-2_dobj	get	NNS	P1_clothes
+7-5	and	O	O	O	O
+7-6	put	7-2_conj_and	get	VBD	O
+7-7	them	7-6_dobj	put	PRP	P1_clothes
+7-8	on	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	counter	7-6_prep_on	put	NN	P1_NPart_counter
+7-11	.	O	O	O	O
+
+#id=8
+#text=I also get an old paperback book , and put it by the tub . 
+8-1	I	8-3_nsubj	get	PRP	P1_bather
+8-2	also	8-3_advmod	get	RB	O
+8-3	get	O	O	VBP	O
+8-4	an	O	O	DT	O
+8-5	old	O	O	JJ	O
+8-6	paperback	O	O	NN	O
+8-7	book	8-3_dobj	get	NN	P1_in-bath_entertainment
+8-8	,	O	O	O	O
+8-9	and	O	O	O	O
+8-10	put	8-3_conj_and	get	VBD	O
+8-11	it	8-10_dobj	put	PRP	P1_in-bath_entertainment
+8-12	by	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	tub	8-10_prep_by	put	NN	P1_bathtub
+8-15	.	O	O	O	O
+
+#id=9
+#text=Finally I undress , and usually put the clothes I 'm taking off in the hamper . 
+9-1	Finally	9-3_advmod	undress	RB	O
+9-2	I	9-3_nsubj	undress	PRP	P1_bather
+9-3	undress	O	O	VBZ	O
+9-4	,	O	O	O	O
+9-5	and	O	O	O	O
+9-6	usually	9-7_advmod	put	RB	O
+9-7	put	9-3_conj_and	undress	VBD	O
+9-8	the	O	O	DT	O
+9-9	clothes	9-7_dobj	put	NNS	P2_clothes
+9-10	I	9-12_nsubj	taking	PRP	P1_bather
+9-11	'm	9-12_aux	taking	VBP	O
+9-12	taking	O	O	VBG	O
+9-13	off	9-12_prt	taking	RP	O
+9-14	in	O	O	O	O
+9-15	the	O	O	DT	O
+9-16	hamper	9-12_prep_in	taking	NN	P1_hamper
+9-17	.	O	O	O	O
+
+#id=10
+#text=I do all this rather slowly , because the tub fills so slowly . 
+10-1	I	10-2_nsubj	do	PRP	P1_bather
+10-2	do	O	O	VBP	O
+10-3	all	O	O	PDT	O
+10-4	this	10-2_dobj	do	DT	O
+10-5	rather	O	O	RB	O
+10-6	slowly	10-2_advmod	do	RB	O
+10-7	,	O	O	O	O
+10-8	because	10-11_mark	fills	IN	O
+10-9	the	O	O	DT	O
+10-10	tub	10-11_nsubj	fills	NN	P1_bathtub
+10-11	fills	10-2_advcl	do	VBZ	O
+10-12	so	O	O	RB	O
+10-13	slowly	10-11_advmod	fills	RB	O
+10-14	.	O	O	O	O
+
+#id=11
+#text=I climb in carefully , and again slowly , because the water is so hot . 
+11-1	I	11-2_nsubj	climb	PRP	P1_bather
+11-2	climb	O	O	VB	O
+11-3	in	O	O	RB	O
+11-4	carefully	11-2_advmod	climb	RB	O
+11-5	,	O	O	O	O
+11-6	and	O	O	O	O
+11-7	again	O	O	RB	O
+11-8	slowly	O	O	RB	O
+11-9	,	O	O	O	O
+11-10	because	O	O	IN	O
+11-11	the	O	O	DT	O
+11-12	water	O	O	NN	P1_water
+11-13	is	O	O	VBZ	O
+11-14	so	O	O	RB	O
+11-15	hot	11-2_advcl	climb	JJ	O
+11-16	.	O	O	O	O
+
+#id=12
+#text=I slither down in the tub , so I am buried in suds . 
+12-1	I	12-2_nsubj	slither	PRP	P1_bather
+12-2	slither	O	O	VBP	O
+12-3	down	12-2_prt	slither	RP	O
+12-4	in	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	tub	12-2_prep_in	slither	NN	P1_bathtub
+12-7	,	O	O	O	O
+12-8	so	12-2_dep	slither	IN	O
+12-9	I	12-11_nsubjpass	buried	PRP	P1_bather
+12-10	am	12-11_auxpass	buried	VBP	O
+12-11	buried	12-2_parataxis	slither	VBN	O
+12-12	in	O	O	O	O
+12-13	suds	12-11_prep_in	buried	NNS	P3_bath_means
+12-14	.	O	O	O	O
+
+#id=13
+#text=Then I pick up my book and start to read . 
+13-1	Then	13-3_advmod	pick	RB	O
+13-2	I	13-3_nsubj	pick	PRP	P1_bather
+13-3	pick	O	O	VBP	O
+13-4	up	13-3_prt	pick	RP	O
+13-5	my	O	O	PRP$	P1_bather
+13-6	book	13-3_dobj	pick	NN	P1_in-bath_entertainment
+13-7	and	O	O	O	O
+13-8	start	13-3_conj_and	pick	VBP	O
+13-9	to	13-10_aux	read	TO	O
+13-10	read	13-8_xcomp	start	VB	O
+13-11	.	O	O	O	O
+
+#id=14
+#text=Chances are , unless I 'm really grubby I wont scrub until the bubbles start to diminish , if then . 
+14-1	Chances	14-2_nsubj	are	NNS	O
+14-2	are	O	O	VBP	O
+14-3	,	O	O	O	O
+14-4	unless	O	O	IN	O
+14-5	I	O	O	PRP	P1_bather
+14-6	'm	O	O	VBP	O
+14-7	really	O	O	RB	O
+14-8	grubby	14-2_advcl	are	JJ	O
+14-9	I	14-10_nsubj	wont	PRP	P1_bather
+14-10	wont	O	O	VBP	O
+14-11	scrub	14-10_dobj	wont	NN	O
+14-12	until	14-15_mark	start	IN	O
+14-13	the	O	O	DT	O
+14-14	bubbles	14-15_nsubj	start	NNS	P4_bath_means
+14-15	start	14-10_advcl	wont	VBP	O
+14-16	to	14-17_aux	diminish	TO	O
+14-17	diminish	14-15_xcomp	start	VB	O
+14-18	,	O	O	O	O
+14-19	if	14-17_dep	diminish	IN	O
+14-20	then	O	O	RB	O
+14-21	.	O	O	O	O
+
+#id=15
+#text=I just let the heat soak into me . 
+15-1	I	15-3_nsubj	let	PRP	P1_bather
+15-2	just	15-3_advmod	let	RB	O
+15-3	let	O	O	VBP	O
+15-4	the	O	O	DT	O
+15-5	heat	15-6_nsubj	soak	NN	P1_temperature
+15-6	soak	15-3_ccomp	let	VB	O
+15-7	into	O	O	O	O
+15-8	me	15-6_prep_into	soak	PRP	P1_bather
+15-9	.	O	O	O	O
+
+#id=16
+#text=Finally I wash , emphasizing body folds , using just bar soap , no washcloth . 
+16-1	Finally	16-3_advmod	wash	RB	O
+16-2	I	16-3_nsubj	wash	PRP	P1_bather
+16-3	wash	O	O	VBP	O
+16-4	,	O	O	O	O
+16-5	emphasizing	16-3_parataxis	wash	VBG	O
+16-6	body	O	O	NN	O
+16-7	folds	16-5_dobj	emphasizing	NNS	P2_body_part
+16-8	,	O	O	O	O
+16-9	using	16-5_dep	emphasizing	VBG	O
+16-10	just	O	O	RB	O
+16-11	bar	O	O	NN	O
+16-12	soap	16-9_dobj	using	NN	P1_washing_tools
+16-13	,	O	O	O	O
+16-14	no	O	O	DT	O
+16-15	washcloth	16-3_dobj	wash	NN	P2_washing_tools
+16-16	.	O	O	O	O
+
+#id=17
+#text=I drain the bath tub and stand up , and sometimes I 'll shower quickly to refresh myself , because I 'm so relaxed I could fall asleep where I stand . 
+17-1	I	17-2_nsubj	drain	PRP	P1_bather
+17-2	drain	O	O	VB	O
+17-3	the	O	O	DT	O
+17-4	bath	O	O	NN	O
+17-5	tub	17-2_dobj	drain	NN	P1_bathtub
+17-6	and	O	O	O	O
+17-7	stand	17-2_conj_and	drain	VB	O
+17-8	up	17-7_prt	stand	RP	O
+17-9	,	O	O	O	O
+17-10	and	O	O	O	O
+17-11	sometimes	17-14_advmod	shower	RB	O
+17-12	I	17-14_nsubj	shower	PRP	P1_bather
+17-13	'll	17-14_aux	shower	MD	O
+17-14	shower	17-2_conj_and	drain	VB	O
+17-15	quickly	17-14_advmod	shower	RB	O
+17-16	to	17-17_aux	refresh	TO	O
+17-17	refresh	17-14_xcomp	shower	VB	O
+17-18	myself	17-17_dobj	refresh	PRP	P1_bather
+17-19	,	O	O	O	O
+17-20	because	17-24_mark	relaxed	IN	O
+17-21	I	17-24_nsubjpass	relaxed	PRP	P1_bather
+17-22	'm	17-24_auxpass	relaxed	VBP	O
+17-23	so	17-24_advmod	relaxed	RB	O
+17-24	relaxed	17-14_advcl	shower	VBN	O
+17-25	I	17-27_nsubj	fall	PRP	P1_bather
+17-26	could	17-27_aux	fall	MD	O
+17-27	fall	17-24_ccomp	relaxed	VB	O
+17-28	asleep	17-27_acomp	fall	RB	O
+17-29	where	17-31_advmod	stand	WRB	O
+17-30	I	17-31_nsubj	stand	PRP	P1_bather
+17-31	stand	17-27_advcl	fall	VBP	O
+17-32	.	O	O	O	O
+
+#id=18
+#text=I climb onto the mat and get dressed , usually ready for bed . 
+18-1	I	18-2_nsubj	climb	PRP	P1_bather
+18-2	climb	O	O	VB	O
+18-3	onto	O	O	O	O
+18-4	the	O	O	DT	O
+18-5	mat	18-2_prep_onto	climb	NN	P1_NPart_mat
+18-6	and	O	O	O	O
+18-7	get	O	O	VB	O
+18-8	dressed	O	O	JJ	O
+18-9	,	O	O	O	O
+18-10	usually	O	O	RB	O
+18-11	ready	18-2_conj_and	climb	JJ	O
+18-12	for	O	O	O	O
+18-13	bed	O	O	NN	P1_NPart_bed
+18-14	.	O	O	O	O

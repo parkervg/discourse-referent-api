@@ -1,0 +1,238 @@
+#id=1
+#text=My backyard was looking a little empty , so I decided I would plant something in it . 
+1-1	My	O	O	PRP$	P1_gardener
+1-2	backyard	1-4_nsubj	looking	NN	P1_NPart_backyard
+1-3	was	1-4_aux	looking	VBD	O
+1-4	looking	O	O	VBG	O
+1-5	a	O	O	DT	O
+1-6	little	O	O	RB	O
+1-7	empty	1-4_acomp	looking	JJ	O
+1-8	,	O	O	O	O
+1-9	so	1-4_dep	looking	IN	O
+1-10	I	1-11_nsubj	decided	PRP	P1_gardener
+1-11	decided	1-4_parataxis	looking	VBD	O
+1-12	I	1-14_nsubj	plant	PRP	P1_gardener
+1-13	would	1-14_aux	plant	MD	O
+1-14	plant	1-11_ccomp	decided	VB	O
+1-15	something	1-14_dobj	plant	NN	P1_tree
+1-16	in	O	O	O	O
+1-17	it	1-14_prep_in	plant	PRP	P1_NPart_it
+1-18	.	O	O	O	O
+
+#id=2
+#text=I decided on a tree . 
+2-1	I	2-2_nsubj	decided	PRP	P1_gardener
+2-2	decided	O	O	VBD	O
+2-3	on	O	O	O	O
+2-4	a	O	O	DT	O
+2-5	tree	2-2_prep_on	decided	NN	P1_tree
+2-6	.	O	O	O	O
+
+#id=3
+#text=I went out and bought some tree seeds . 
+3-1	I	3-2_nsubj	went	PRP	P1_gardener
+3-2	went	O	O	VBD	O
+3-3	out	3-2_prt	went	RP	O
+3-4	and	O	O	O	O
+3-5	bought	3-2_conj_and	went	VBD	O
+3-6	some	O	O	DT	O
+3-7	tree	O	O	NN	O
+3-8	seeds	3-5_dobj	bought	NNS	P1_seeds
+3-9	.	O	O	O	O
+
+#id=4
+#text=I picked a species that I thought would grow well in the sun since my back yard receives a lot of sunlight . 
+4-1	I	4-2_nsubj	picked	PRP	P1_gardener
+4-2	picked	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	species	4-2_dobj	picked	NN	P1_tree
+4-5	that	4-7_mark	thought	IN	P1_tree
+4-6	I	4-7_nsubj	thought	PRP	P1_gardener
+4-7	thought	4-2_ccomp	picked	VBD	O
+4-8	would	4-9_aux	grow	MD	O
+4-9	grow	4-7_ccomp	thought	VB	O
+4-10	well	4-9_advmod	grow	RB	O
+4-11	in	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	sun	4-9_prep_in	grow	NN	P1_NPart_sun
+4-14	since	4-18_mark	receives	IN	O
+4-15	my	O	O	PRP$	P1_gardener
+4-16	back	O	O	JJ	O
+4-17	yard	4-18_nsubj	receives	NN	P1_NPart_yard
+4-18	receives	4-9_advcl	grow	VBZ	O
+4-19	a	O	O	DT	O
+4-20	lot	4-18_dobj	receives	NN	O
+4-21	of	O	O	O	O
+4-22	sunlight	O	O	NN	P1_NPart_sunlight
+4-23	.	O	O	O	O
+
+#id=5
+#text=Once I was back home , I brought out all my gardening tools . 
+5-1	Once	5-3_mark	was	IN	O
+5-2	I	5-3_nsubj	was	PRP	P1_gardener
+5-3	was	5-8_advcl	brought	VBD	O
+5-4	back	5-3_advmod	was	RB	O
+5-5	home	O	O	NN	P1_NPart_home
+5-6	,	O	O	O	O
+5-7	I	5-8_nsubj	brought	PRP	P1_gardener
+5-8	brought	O	O	VBD	O
+5-9	out	5-8_prt	brought	RP	O
+5-10	all	O	O	PDT	O
+5-11	my	O	O	PRP$	P1_gardener
+5-12	gardening	O	O	NN	O
+5-13	tools	5-8_dobj	brought	NNS	P1_gardening_tool
+5-14	.	O	O	O	O
+
+#id=6
+#text=I found a shovel and a watering can . 
+6-1	I	6-2_nsubj	found	PRP	P1_gardener
+6-2	found	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	shovel	O	O	NN	P1_gardening_tool
+6-5	and	O	O	O	O
+6-6	a	O	O	DT	O
+6-7	watering	O	O	NN	O
+6-8	can	6-2_ccomp	found	MD	P1_gardening_tool
+6-9	.	O	O	O	O
+
+#id=7
+#text=With my seeds and tools , I found a spot in my yard that looked like it would get enough sunshine . 
+7-1	With	O	O	O	O
+7-2	my	O	O	PRP$	P1_gardener
+7-3	seeds	7-8_prep_with	found	NNS	P1_seeds
+7-4	and	O	O	O	O
+7-5	tools	O	O	NNS	P1_gardening_tool
+7-6	,	O	O	O	O
+7-7	I	7-8_nsubj	found	PRP	P1_gardener
+7-8	found	O	O	VBD	O
+7-9	a	O	O	DT	O
+7-10	spot	7-8_dobj	found	NN	P1_location_garden
+7-11	in	O	O	O	O
+7-12	my	O	O	PRP$	P1_gardener
+7-13	yard	O	O	NN	P2_NPart_yard
+7-14	that	7-15_nsubj	looked	WDT	P1_location_garden
+7-15	looked	O	O	VBD	O
+7-16	like	7-19_mark	get	IN	O
+7-17	it	7-19_nsubj	get	PRP	P1_location_garden
+7-18	would	7-19_aux	get	MD	O
+7-19	get	7-15_advcl	looked	VB	O
+7-20	enough	O	O	JJ	O
+7-21	sunshine	7-19_dobj	get	NN	P1_NPart_sunshine
+7-22	.	O	O	O	O
+
+#id=8
+#text=There , I dug a hole for the seeds . 
+8-1	There	8-4_advmod	dug	RB	O
+8-2	,	O	O	O	O
+8-3	I	8-4_nsubj	dug	PRP	P1_gardener
+8-4	dug	O	O	VBD	O
+8-5	a	O	O	DT	O
+8-6	hole	8-4_dobj	dug	NN	P1_hole
+8-7	for	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	seeds	8-4_prep_for	dug	NNS	P1_seeds
+8-10	.	O	O	O	O
+
+#id=9
+#text=I put a few in , and covered dirt back on top . 
+9-1	I	9-2_nsubj	put	PRP	P1_gardener
+9-2	put	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	few	9-2_dobj	put	JJ	P1_seeds
+9-5	in	9-2_prep	put	IN	O
+9-6	,	O	O	O	O
+9-7	and	O	O	O	O
+9-8	covered	9-2_conj_and	put	VBD	O
+9-9	dirt	9-8_dobj	covered	NN	P1_dirt
+9-10	back	9-8_prt	covered	RP	O
+9-11	on	O	O	O	O
+9-12	top	9-8_prep_on	covered	NN	P1_NPart_top
+9-13	.	O	O	O	O
+
+#id=10
+#text=After that I patted the the mound of earth back down . 
+10-1	After	O	O	O	O
+10-2	that	10-4_prep_after	patted	DT	O
+10-3	I	10-4_nsubj	patted	PRP	P1_gardener
+10-4	patted	O	O	VBD	O
+10-5	the	O	O	DT	O
+10-6	the	O	O	DT	O
+10-7	mound	10-4_dobj	patted	NN	O
+10-8	of	O	O	O	O
+10-9	earth	O	O	NN	P1_dirt
+10-10	back	O	O	RB	O
+10-11	down	10-4_advmod	patted	RB	O
+10-12	.	O	O	O	O
+
+#id=11
+#text=Once that was done , I took my watering can and watered the seeds until the soil was fairly moist . 
+11-1	Once	11-4_mark	done	IN	O
+11-2	that	11-4_nsubjpass	done	DT	O
+11-3	was	11-4_auxpass	done	VBD	O
+11-4	done	11-7_advcl	took	VBN	O
+11-5	,	O	O	O	O
+11-6	I	11-7_nsubj	took	PRP	P1_gardener
+11-7	took	O	O	VBD	O
+11-8	my	O	O	PRP$	P1_gardener
+11-9	watering	O	O	NN	O
+11-10	can	11-7_ccomp	took	MD	P1_gardening_tool
+11-11	and	O	O	O	O
+11-12	watered	O	O	VBD	O
+11-13	the	O	O	DT	O
+11-14	seeds	11-12_dobj	watered	NNS	P1_seeds
+11-15	until	O	O	IN	O
+11-16	the	O	O	DT	O
+11-17	soil	O	O	NN	P1_dirt
+11-18	was	O	O	VBD	O
+11-19	fairly	O	O	RB	O
+11-20	moist	11-12_advcl	watered	JJ	O
+11-21	.	O	O	O	O
+
+#id=12
+#text=After that , I went to put away gardening supplies . 
+12-1	After	O	O	O	O
+12-2	that	12-5_prep_after	went	DT	O
+12-3	,	O	O	O	O
+12-4	I	12-5_nsubj	went	PRP	P1_gardener
+12-5	went	O	O	VBD	O
+12-6	to	12-7_aux	put	TO	O
+12-7	put	12-5_xcomp	went	VB	O
+12-8	away	12-7_prt	put	RP	O
+12-9	gardening	O	O	VBG	O
+12-10	supplies	12-7_dobj	put	NNS	P1_gardening_tool
+12-11	.	O	O	O	O
+
+#id=13
+#text=I planned to water my tree periodically . 
+13-1	I	13-2_nsubj	planned	PRP	P1_gardener
+13-2	planned	O	O	VBD	O
+13-3	to	13-4_aux	water	TO	O
+13-4	water	13-2_xcomp	planned	VB	O
+13-5	my	O	O	PRP$	P1_gardener
+13-6	tree	13-4_dobj	water	NN	P1_tree
+13-7	periodically	13-4_advmod	water	RB	O
+13-8	.	O	O	O	O
+
+#id=14
+#text=I knew that if I took good care of it , it would grow up to be a full-sized tree . 
+14-1	I	14-2_nsubj	knew	PRP	P1_gardener
+14-2	knew	O	O	VBD	O
+14-3	that	14-14_mark	grow	IN	O
+14-4	if	14-6_mark	took	IN	O
+14-5	I	14-6_nsubj	took	PRP	P1_gardener
+14-6	took	14-14_advcl	grow	VBD	O
+14-7	good	O	O	JJ	O
+14-8	care	14-6_dobj	took	NN	O
+14-9	of	O	O	O	O
+14-10	it	O	O	PRP	P1_tree
+14-11	,	O	O	O	O
+14-12	it	14-14_nsubj	grow	PRP	P1_tree
+14-13	would	14-14_aux	grow	MD	O
+14-14	grow	14-2_ccomp	knew	VB	O
+14-15	up	14-14_prt	grow	RP	O
+14-16	to	O	O	TO	O
+14-17	be	O	O	VB	O
+14-18	a	O	O	DT	O
+14-19	full-sized	O	O	JJ	O
+14-20	tree	14-14_xcomp	grow	NN	P1_tree
+14-21	.	O	O	O	O

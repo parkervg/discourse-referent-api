@@ -1,0 +1,441 @@
+#id=1
+#text=There are many ways to plant a tree . 
+1-1	There	1-2_expl	are	EX	O
+1-2	are	O	O	VBP	O
+1-3	many	O	O	JJ	O
+1-4	ways	1-2_nsubj	are	NNS	O
+1-5	to	1-6_aux	plant	TO	O
+1-6	plant	O	O	VB	O
+1-7	a	O	O	DT	O
+1-8	tree	1-6_dobj	plant	NN	P1_tree
+1-9	.	O	O	O	O
+
+#id=2
+#text=One of the least expensive is planting a bare root tree . 
+2-1	One	2-7_nsubj	planting	CD	O
+2-2	of	O	O	O	O
+2-3	the	O	O	DT	O
+2-4	least	O	O	JJS	O
+2-5	expensive	O	O	JJ	O
+2-6	is	2-7_aux	planting	VBZ	O
+2-7	planting	O	O	VBG	O
+2-8	a	O	O	DT	O
+2-9	bare	O	O	JJ	O
+2-10	root	O	O	NN	O
+2-11	tree	2-7_dobj	planting	NN	P1_tree
+2-12	.	O	O	O	O
+
+#id=3
+#text=I had to chose the right tree for my area and my particular situation . 
+3-1	I	3-2_nsubj	had	PRP	P1_gardener
+3-2	had	O	O	VBD	O
+3-3	to	3-4_aux	chose	TO	O
+3-4	chose	3-2_xcomp	had	VB	O
+3-5	the	O	O	DT	O
+3-6	right	O	O	JJ	O
+3-7	tree	3-4_dobj	chose	NN	P1_tree
+3-8	for	O	O	O	O
+3-9	my	O	O	PRP$	P1_gardener
+3-10	area	3-4_prep_for	chose	NN	P1_location_garden
+3-11	and	O	O	O	O
+3-12	my	O	O	PRP$	P1_gardener
+3-13	particular	O	O	JJ	O
+3-14	situation	O	O	NN	P1_location_garden
+3-15	.	O	O	O	O
+
+#id=4
+#text=My local nursery carries only plants suited to our area , but since I bought from a catalog I checked for suitability in a Sunset Garden Book . 
+4-1	My	O	O	PRP$	P1_gardener
+4-2	local	O	O	JJ	O
+4-3	nursery	4-4_nsubj	carries	NN	P1_shop
+4-4	carries	O	O	VBZ	O
+4-5	only	O	O	JJ	O
+4-6	plants	4-4_dobj	carries	NNS	P1_tree
+4-7	suited	O	O	VBN	O
+4-8	to	O	O	O	O
+4-9	our	O	O	PRP$	P1_gardener
+4-10	area	4-7_prep_to	suited	NN	P1_location_garden
+4-11	,	O	O	O	O
+4-12	but	O	O	O	O
+4-13	since	4-15_mark	bought	IN	O
+4-14	I	4-15_nsubj	bought	PRP	P1_gardener
+4-15	bought	4-20_advcl	checked	VBD	O
+4-16	from	O	O	O	O
+4-17	a	O	O	DT	O
+4-18	catalog	4-15_prep_from	bought	NN	P1_NPart_catalog
+4-19	I	4-20_nsubj	checked	PRP	P1_gardener
+4-20	checked	4-4_conj_but	carries	VBD	O
+4-21	for	O	O	O	O
+4-22	suitability	4-20_prep_for	checked	NN	P1_NPart_suitability
+4-23	in	O	O	O	O
+4-24	a	O	O	DT	O
+4-25	Sunset	O	O	NNP	O
+4-26	Garden	O	O	NNP	O
+4-27	Book	4-20_prep_in	checked	NNP	P1_NPart_book
+4-28	.	O	O	O	O
+
+#id=5
+#text=I also had to site the tree properly . 
+5-1	I	5-3_nsubj	had	PRP	P1_gardener
+5-2	also	5-3_advmod	had	RB	O
+5-3	had	O	O	VBD	O
+5-4	to	5-5_aux	site	TO	O
+5-5	site	5-3_xcomp	had	VB	O
+5-6	the	O	O	DT	O
+5-7	tree	5-5_dobj	site	NN	P1_tree
+5-8	properly	5-5_advmod	site	RB	O
+5-9	.	O	O	O	O
+
+#id=6
+#text=It could n't be under power lines , and needed room to spread . 
+6-1	It	6-4_nsubj	be	PRP	P1_tree
+6-2	could	6-4_aux	be	MD	O
+6-3	n't	6-4_neg	be	RB	O
+6-4	be	O	O	VB	O
+6-5	under	O	O	O	O
+6-6	power	O	O	NN	O
+6-7	lines	6-4_prep_under	be	NNS	P1_NPart_lines
+6-8	,	O	O	O	O
+6-9	and	O	O	O	O
+6-10	needed	6-4_conj_and	be	VBD	O
+6-11	room	6-10_dobj	needed	NN	P1_NPart_room
+6-12	to	O	O	O	O
+6-13	spread	6-10_prep_to	needed	NN	O
+6-14	.	O	O	O	O
+
+#id=7
+#text=I finally planted a magnolia . 
+7-1	I	7-3_nsubj	planted	PRP	P1_gardener
+7-2	finally	7-3_advmod	planted	RB	O
+7-3	planted	O	O	VBD	O
+7-4	a	O	O	DT	O
+7-5	magnolia	7-3_dobj	planted	NN	P1_tree
+7-6	.	O	O	O	O
+
+#id=8
+#text=It began as a bare root tree , and it now flowers every early spring , even in our drought . 
+8-1	It	8-2_nsubj	began	PRP	P1_tree
+8-2	began	O	O	VBD	O
+8-3	as	O	O	O	O
+8-4	a	O	O	DT	O
+8-5	bare	O	O	JJ	O
+8-6	root	O	O	NN	O
+8-7	tree	8-2_prep_as	began	NN	P1_tree
+8-8	,	O	O	O	O
+8-9	and	O	O	O	O
+8-10	it	8-12_nsubj	flowers	PRP	P1_tree
+8-11	now	8-12_advmod	flowers	RB	O
+8-12	flowers	8-2_conj_and	began	VBZ	O
+8-13	every	O	O	DT	O
+8-14	early	O	O	JJ	O
+8-15	spring	8-12_tmod	flowers	NN	P1_time
+8-16	,	O	O	O	O
+8-17	even	8-12_advmod	flowers	RB	O
+8-18	in	O	O	O	O
+8-19	our	O	O	PRP$	P1_gardener
+8-20	drought	8-12_prep_in	flowers	NN	P1_NPart_drought
+8-21	.	O	O	O	O
+
+#id=9
+#text=First , I dug a planting hole . 
+9-1	First	9-4_advmod	dug	RB	O
+9-2	,	O	O	O	O
+9-3	I	9-4_nsubj	dug	PRP	P1_gardener
+9-4	dug	O	O	VBD	O
+9-5	a	O	O	DT	O
+9-6	planting	O	O	NN	O
+9-7	hole	9-4_dobj	dug	NN	P1_hole
+9-8	.	O	O	O	O
+
+#id=10
+#text=The hole was wider at the bottom than at the top , and had a cone of firm soil in its center to support the tree . 
+10-1	The	O	O	DT	O
+10-2	hole	O	O	NN	P1_hole
+10-3	was	O	O	VBD	O
+10-4	wider	O	O	JJR	O
+10-5	at	O	O	IN	O
+10-6	the	O	O	DT	O
+10-7	bottom	O	O	NN	P1_NPart_bottom
+10-8	than	O	O	IN	O
+10-9	at	O	O	O	O
+10-10	the	O	O	DT	O
+10-11	top	O	O	NN	P1_NPart_top
+10-12	,	O	O	O	O
+10-13	and	O	O	O	O
+10-14	had	O	O	VBD	O
+10-15	a	O	O	DT	O
+10-16	cone	10-14_dobj	had	NN	O
+10-17	of	O	O	O	O
+10-18	firm	O	O	NN	O
+10-19	soil	O	O	NN	P1_dirt
+10-20	in	O	O	O	O
+10-21	its	O	O	PRP$	P1_hole
+10-22	center	O	O	NN	P1_NPart_center
+10-23	to	10-24_aux	support	TO	O
+10-24	support	O	O	VB	O
+10-25	the	O	O	DT	O
+10-26	tree	10-24_dobj	support	NN	P1_tree
+10-27	.	O	O	O	O
+
+#id=11
+#text=The hole was about five times as wide across as the tree . 
+11-1	The	O	O	DT	O
+11-2	hole	O	O	NN	P1_hole
+11-3	was	O	O	VBD	O
+11-4	about	O	O	RB	O
+11-5	five	O	O	CD	O
+11-6	times	O	O	NNS	O
+11-7	as	O	O	RB	O
+11-8	wide	O	O	JJ	O
+11-9	across	O	O	IN	O
+11-10	as	O	O	IN	O
+11-11	the	O	O	DT	O
+11-12	tree	O	O	NN	P1_tree
+11-13	.	O	O	O	O
+
+#id=12
+#text=I started the hole with a shovel , but finished by hacking at the soil underground with a spade to undercut the hole and so the roots could get purchase when they started to spread . 
+12-1	I	12-2_nsubj	started	PRP	P1_gardener
+12-2	started	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	hole	12-2_dobj	started	NN	P1_hole
+12-5	with	O	O	O	O
+12-6	a	O	O	DT	O
+12-7	shovel	12-2_prep_with	started	NN	P1_gardening_tool
+12-8	,	O	O	O	O
+12-9	but	O	O	O	O
+12-10	finished	12-2_conj_but	started	VBD	O
+12-11	by	O	O	O	O
+12-12	hacking	12-10_prep_by	finished	NN	O
+12-13	at	O	O	O	O
+12-14	the	O	O	DT	O
+12-15	soil	O	O	NN	O
+12-16	underground	12-10_prep_at	finished	NN	P1_dirt
+12-17	with	O	O	O	O
+12-18	a	O	O	DT	O
+12-19	spade	O	O	NN	P2_gardening_tool
+12-20	to	12-21_aux	undercut	TO	O
+12-21	undercut	12-10_xcomp	finished	VB	O
+12-22	the	O	O	DT	O
+12-23	hole	12-21_dobj	undercut	NN	P1_hole
+12-24	and	O	O	O	O
+12-25	so	O	O	O	O
+12-26	the	O	O	DT	O
+12-27	roots	12-29_nsubj	get	NNS	P1_root
+12-28	could	12-29_aux	get	MD	O
+12-29	get	12-2_conj_and	started	VB	O
+12-30	purchase	12-29_dobj	get	NN	P1_NPart_purchase
+12-31	when	12-33_advmod	started	WRB	O
+12-32	they	12-33_nsubj	started	PRP	P1_root
+12-33	started	12-29_advcl	get	VBD	O
+12-34	to	12-35_aux	spread	TO	O
+12-35	spread	12-33_xcomp	started	VB	O
+12-36	.	O	O	O	O
+
+#id=13
+#text=I set the bare root tree on the cone I left in the center of the hole and spread out its roots over the cone . 
+13-1	I	13-2_nsubj	set	PRP	P1_gardener
+13-2	set	O	O	VBD	O
+13-3	the	O	O	DT	O
+13-4	bare	O	O	JJ	O
+13-5	root	O	O	NN	O
+13-6	tree	13-2_dobj	set	NN	P1_tree
+13-7	on	O	O	O	O
+13-8	the	O	O	DT	O
+13-9	cone	13-2_prep_on	set	NN	P1_dirt
+13-10	I	13-11_nsubj	left	PRP	P1_gardener
+13-11	left	O	O	VBD	O
+13-12	in	O	O	O	O
+13-13	the	O	O	DT	O
+13-14	center	13-11_prep_in	left	NN	P2_NPart_center
+13-15	of	O	O	O	O
+13-16	the	O	O	DT	O
+13-17	hole	O	O	NN	P1_hole
+13-18	and	O	O	O	O
+13-19	spread	13-11_conj_and	left	VBD	O
+13-20	out	13-19_prt	spread	RP	O
+13-21	its	O	O	PRP$	P1_tree
+13-22	roots	13-19_dobj	spread	NNS	P1_root
+13-23	over	O	O	O	O
+13-24	the	O	O	DT	O
+13-25	cone	13-19_prep_over	spread	NN	P1_dirt
+13-26	.	O	O	O	O
+
+#id=14
+#text=I arranged the roots so the tree would be level , no roots would be exposed , and the upper bark would n't be buried . 
+14-1	I	14-2_nsubj	arranged	PRP	P1_gardener
+14-2	arranged	O	O	VBD	O
+14-3	the	O	O	DT	O
+14-4	roots	14-2_dobj	arranged	NNS	P1_root
+14-5	so	O	O	IN	O
+14-6	the	O	O	DT	O
+14-7	tree	O	O	NN	P1_tree
+14-8	would	O	O	MD	O
+14-9	be	O	O	VB	O
+14-10	level	14-2_advcl	arranged	NN	P1_NPart_level
+14-11	,	O	O	O	O
+14-12	no	O	O	DT	O
+14-13	roots	14-16_nsubjpass	exposed	NNS	P1_root
+14-14	would	14-16_aux	exposed	MD	O
+14-15	be	14-16_auxpass	exposed	VB	O
+14-16	exposed	14-2_dep	arranged	VBN	O
+14-17	,	O	O	O	O
+14-18	and	O	O	O	O
+14-19	the	O	O	DT	O
+14-20	upper	O	O	JJ	O
+14-21	bark	14-25_nsubjpass	buried	NN	P1_NPart_bark
+14-22	would	14-25_aux	buried	MD	O
+14-23	n't	14-25_neg	buried	RB	O
+14-24	be	14-25_auxpass	buried	VB	O
+14-25	buried	14-2_conj_and	arranged	VBN	O
+14-26	.	O	O	O	O
+
+#id=15
+#text=Then I nearly filled the hole with soil , firming it lightly by patting it as I went . 
+15-1	Then	15-4_advmod	filled	RB	O
+15-2	I	15-4_nsubj	filled	PRP	P1_gardener
+15-3	nearly	15-4_advmod	filled	RB	O
+15-4	filled	O	O	VBD	O
+15-5	the	O	O	DT	O
+15-6	hole	15-4_dobj	filled	NN	P1_hole
+15-7	with	O	O	O	O
+15-8	soil	15-4_prep_with	filled	NN	P1_dirt
+15-9	,	O	O	O	O
+15-10	firming	15-4_vmod	filled	VBG	O
+15-11	it	15-10_dobj	firming	PRP	P1_dirt
+15-12	lightly	15-10_advmod	firming	RB	O
+15-13	by	O	O	O	O
+15-14	patting	15-10_agent	firming	VBG	O
+15-15	it	15-14_dobj	patting	PRP	P1_dirt
+15-16	as	15-18_mark	went	IN	O
+15-17	I	15-18_nsubj	went	PRP	P1_gardener
+15-18	went	15-14_advcl	patting	VBD	O
+15-19	.	O	O	O	O
+
+#id=16
+#text=When the hole was almost full , I watered slowly , holding the tree straight as the water soaked in . 
+16-1	When	O	O	WRB	O
+16-2	the	O	O	DT	O
+16-3	hole	O	O	NN	P1_hole
+16-4	was	O	O	VBD	O
+16-5	almost	O	O	RB	O
+16-6	full	16-9_advcl	watered	JJ	O
+16-7	,	O	O	O	O
+16-8	I	16-9_nsubj	watered	PRP	P1_gardener
+16-9	watered	O	O	VBD	O
+16-10	slowly	16-9_advmod	watered	RB	O
+16-11	,	O	O	O	O
+16-12	holding	16-9_xcomp	watered	VBG	O
+16-13	the	O	O	DT	O
+16-14	tree	16-12_dobj	holding	NN	P1_tree
+16-15	straight	16-12_advmod	holding	RB	O
+16-16	as	O	O	O	O
+16-17	the	O	O	DT	O
+16-18	water	16-12_prep_as	holding	NN	P1_water
+16-19	soaked	O	O	VBN	O
+16-20	in	16-19_prep	soaked	IN	O
+16-21	.	O	O	O	O
+
+#id=17
+#text=Then I filled up the hole completely . 
+17-1	Then	17-3_advmod	filled	RB	O
+17-2	I	17-3_nsubj	filled	PRP	P1_gardener
+17-3	filled	O	O	VBD	O
+17-4	up	17-3_prt	filled	RP	O
+17-5	the	O	O	DT	O
+17-6	hole	17-3_dobj	filled	NN	P1_hole
+17-7	completely	17-3_advmod	filled	RB	O
+17-8	.	O	O	O	O
+
+#id=18
+#text=finally , I made a ring of soil around the tree , to hold in water when the rainy season ended and I would have to irrigate . 
+18-1	finally	18-4_advmod	made	RB	O
+18-2	,	O	O	O	O
+18-3	I	18-4_nsubj	made	PRP	P1_gardener
+18-4	made	O	O	VBD	O
+18-5	a	O	O	DT	O
+18-6	ring	18-4_dobj	made	NN	P1_NPart_ring
+18-7	of	O	O	O	O
+18-8	soil	O	O	NN	P1_dirt
+18-9	around	O	O	O	O
+18-10	the	O	O	DT	O
+18-11	tree	18-4_prep_around	made	NN	P1_tree
+18-12	,	O	O	O	O
+18-13	to	18-14_aux	hold	TO	O
+18-14	hold	18-4_vmod	made	VB	O
+18-15	in	O	O	O	O
+18-16	water	18-14_prep_in	hold	NN	P1_water
+18-17	when	18-21_advmod	ended	WRB	O
+18-18	the	O	O	DT	O
+18-19	rainy	O	O	JJ	O
+18-20	season	18-21_nsubj	ended	NN	P1_NPart_season
+18-21	ended	18-14_advcl	hold	VBD	O
+18-22	and	O	O	O	O
+18-23	I	18-25_nsubj	have	PRP	P1_gardener
+18-24	would	18-25_aux	have	MD	O
+18-25	have	18-4_conj_and	made	VB	O
+18-26	to	18-27_aux	irrigate	TO	O
+18-27	irrigate	18-25_xcomp	have	VB	O
+18-28	.	O	O	O	O
+
+#id=19
+#text=I used no fertilizer or amendments when I planted , because our sandy soil is fairly fertile , and I did n't want to make a dividing line that would encourage the tree to grow only in its tiny pothole of enriched soil . 
+19-1	I	19-2_nsubj	used	PRP	P1_gardener
+19-2	used	O	O	VBD	O
+19-3	no	O	O	DT	O
+19-4	fertilizer	19-2_dobj	used	NN	P1_fertilizer
+19-5	or	O	O	O	O
+19-6	amendments	O	O	NNS	P2_fertilizer
+19-7	when	19-9_advmod	planted	WRB	O
+19-8	I	19-9_nsubj	planted	PRP	P1_gardener
+19-9	planted	19-2_advcl	used	VBD	O
+19-10	,	O	O	O	O
+19-11	because	O	O	IN	O
+19-12	our	O	O	PRP$	P1_gardener
+19-13	sandy	O	O	JJ	O
+19-14	soil	O	O	NN	P1_dirt
+19-15	is	O	O	VBZ	O
+19-16	fairly	O	O	RB	O
+19-17	fertile	19-9_advcl	planted	JJ	O
+19-18	,	O	O	O	O
+19-19	and	O	O	O	O
+19-20	I	19-23_nsubj	want	PRP	P1_gardener
+19-21	did	19-23_aux	want	VBD	O
+19-22	n't	19-23_neg	want	RB	O
+19-23	want	19-2_conj_and	used	VB	O
+19-24	to	19-25_aux	make	TO	O
+19-25	make	19-23_xcomp	want	VB	O
+19-26	a	O	O	DT	O
+19-27	dividing	O	O	JJ	O
+19-28	line	19-25_dobj	make	NN	P1_NPart_line
+19-29	that	19-31_nsubj	encourage	WDT	O
+19-30	would	19-31_aux	encourage	MD	O
+19-31	encourage	O	O	VB	O
+19-32	the	O	O	DT	O
+19-33	tree	19-31_dobj	encourage	NN	P1_tree
+19-34	to	19-35_aux	grow	TO	O
+19-35	grow	O	O	VB	O
+19-36	only	19-35_advmod	grow	RB	O
+19-37	in	O	O	O	O
+19-38	its	O	O	PRP$	P1_tree
+19-39	tiny	O	O	JJ	O
+19-40	pothole	19-35_prep_in	grow	NN	P1_hole
+19-41	of	O	O	O	O
+19-42	enriched	O	O	JJ	O
+19-43	soil	O	O	NN	P1_dirt
+19-44	.	O	O	O	O
+
+#id=20
+#text=I wanted it to spread its roots , and it has . 
+20-1	I	20-2_nsubj	wanted	PRP	P1_gardener
+20-2	wanted	O	O	VBD	O
+20-3	it	20-2_dobj	wanted	PRP	P1_tree
+20-4	to	20-5_aux	spread	TO	O
+20-5	spread	20-2_xcomp	wanted	VB	O
+20-6	its	O	O	PRP$	P1_tree
+20-7	roots	20-5_dobj	spread	NNS	P1_root
+20-8	,	O	O	O	O
+20-9	and	O	O	O	O
+20-10	it	20-11_nsubj	has	PRP	P1_tree
+20-11	has	20-2_conj_and	wanted	VBZ	O
+20-12	.	O	O	O	O

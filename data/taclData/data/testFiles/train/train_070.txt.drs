@@ -1,0 +1,206 @@
+#id=1
+#text=Taking the train into the city is so much fun ! 
+1-1	Taking	O	O	VBG	O
+1-2	the	O	O	DT	O
+1-3	train	1-1_dobj	Taking	NN	P1_train
+1-4	into	O	O	O	O
+1-5	the	O	O	DT	O
+1-6	city	1-1_prep_into	Taking	NN	P1_destination
+1-7	is	O	O	VBZ	O
+1-8	so	O	O	RB	O
+1-9	much	O	O	RB	O
+1-10	fun	O	O	NN	P1_NPart_fun
+1-11	!	O	O	O	O
+
+#id=2
+#text=We go into the train station and buy tickets for the train we want to take . 
+2-1	We	2-2_nsubj	go	PRP	P1_passenger
+2-2	go	2-14_dep	want	VB	O
+2-3	into	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	train	O	O	NN	O
+2-6	station	2-2_prep_into	go	NN	P1_train_station
+2-7	and	O	O	O	O
+2-8	buy	2-2_conj_and	go	VB	O
+2-9	tickets	2-8_dobj	buy	NNS	P1_card/ticket
+2-10	for	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	train	O	O	NN	P1_train
+2-13	we	2-14_nsubj	want	PRP	P1_passenger
+2-14	want	O	O	VBP	O
+2-15	to	2-16_aux	take	TO	O
+2-16	take	2-14_xcomp	want	VB	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=When the train arrives at the station it is very loud . 
+3-1	When	3-4_advmod	arrives	WRB	O
+3-2	the	O	O	DT	O
+3-3	train	3-4_nsubj	arrives	NN	P1_train
+3-4	arrives	O	O	VBZ	O
+3-5	at	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	station	3-4_prep_at	arrives	NN	P1_train_station
+3-8	it	O	O	PRP	P1_train
+3-9	is	O	O	VBZ	O
+3-10	very	O	O	RB	O
+3-11	loud	O	O	JJ	O
+3-12	.	O	O	O	O
+
+#id=4
+#text=We wait for it to stop and then follow the other passengers on board . 
+4-1	We	4-2_nsubj	wait	PRP	P1_passenger
+4-2	wait	O	O	VBP	O
+4-3	for	4-6_mark	stop	IN	O
+4-4	it	4-6_nsubj	stop	PRP	P1_train
+4-5	to	4-6_aux	stop	TO	O
+4-6	stop	4-2_advcl	wait	VB	O
+4-7	and	4-6_cc	stop	CC	O
+4-8	then	4-6_advmod	stop	RB	O
+4-9	follow	4-6_dep	stop	VB	O
+4-10	the	O	O	DT	O
+4-11	other	O	O	JJ	O
+4-12	passengers	4-6_dobj	stop	NNS	P1_passenger
+4-13	on	O	O	O	O
+4-14	board	4-6_prep_on	stop	NN	O
+4-15	.	O	O	O	O
+
+#id=5
+#text=We find our seats , hopefully near a window , and sit down . 
+5-1	We	5-2_nsubj	find	PRP	P1_passenger
+5-2	find	O	O	VBP	O
+5-3	our	O	O	PRP$	P1_passenger
+5-4	seats	5-2_dobj	find	NNS	P1_seat
+5-5	,	O	O	O	O
+5-6	hopefully	5-2_conj_and	find	RB	O
+5-7	near	O	O	O	O
+5-8	a	O	O	DT	O
+5-9	window	O	O	NN	P1_in-train_entertainment
+5-10	,	O	O	O	O
+5-11	and	O	O	O	O
+5-12	sit	5-2_conj_and	find	VBP	O
+5-13	down	5-12_prt	sit	RP	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=When the conductor comes around , we give him our tickets and he punches a hole in each of them . 
+6-1	When	6-4_advmod	comes	WRB	O
+6-2	the	O	O	DT	O
+6-3	conductor	6-4_nsubj	comes	NN	P1_train_staff
+6-4	comes	6-8_advcl	give	VBZ	O
+6-5	around	6-4_prt	comes	RP	O
+6-6	,	O	O	O	O
+6-7	we	6-8_nsubj	give	PRP	P1_passenger
+6-8	give	O	O	VBP	O
+6-9	him	6-8_iobj	give	PRP	P1_train_staff
+6-10	our	O	O	PRP$	P2_passenger
+6-11	tickets	6-8_dobj	give	NNS	P2_card/ticket
+6-12	and	O	O	O	O
+6-13	he	6-14_nsubj	punches	PRP	P2_train_staff
+6-14	punches	6-8_conj_and	give	VBZ	O
+6-15	a	O	O	DT	O
+6-16	hole	6-14_dobj	punches	NN	P1_NPart_hole
+6-17	in	O	O	O	O
+6-18	each	O	O	DT	O
+6-19	of	O	O	O	O
+6-20	them	O	O	PRP	P2_card/ticket
+6-21	.	O	O	O	O
+
+#id=7
+#text=The train begins to move and it makes a clickety-clack sound as it travels towards the next stop . 
+7-1	The	O	O	DT	O
+7-2	train	7-3_nsubj	begins	NN	P1_train
+7-3	begins	O	O	VBZ	O
+7-4	to	7-5_aux	move	TO	O
+7-5	move	7-3_xcomp	begins	VB	O
+7-6	and	O	O	O	O
+7-7	it	7-8_nsubj	makes	PRP	P1_train
+7-8	makes	7-3_conj_and	begins	VBZ	O
+7-9	a	O	O	DT	O
+7-10	clickety-clack	O	O	JJ	O
+7-11	sound	7-8_dobj	makes	NN	P1_NPart_sound
+7-12	as	7-14_mark	travels	IN	O
+7-13	it	7-14_nsubj	travels	PRP	P1_train
+7-14	travels	7-8_advcl	makes	VBZ	O
+7-15	towards	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	next	O	O	JJ	O
+7-18	stop	7-14_prep_towards	travels	NN	P1_other
+7-19	.	O	O	O	O
+
+#id=8
+#text=The buildings and trees we pass look blurry because we are going so fast . 
+8-1	The	O	O	DT	O
+8-2	buildings	8-7_nsubj	look	NNS	P1_NPart_buildings
+8-3	and	O	O	O	O
+8-4	trees	O	O	NNS	P1_NPart_trees
+8-5	we	8-6_nsubj	pass	PRP	P1_passenger
+8-6	pass	O	O	VBP	O
+8-7	look	O	O	VBP	O
+8-8	blurry	8-7_acomp	look	JJ	O
+8-9	because	8-12_mark	going	IN	O
+8-10	we	8-12_nsubj	going	PRP	P1_passenger
+8-11	are	8-12_aux	going	VBP	O
+8-12	going	O	O	VBG	O
+8-13	so	O	O	RB	O
+8-14	fast	8-12_advmod	going	RB	O
+8-15	.	O	O	O	O
+
+#id=9
+#text=We pass railroad crossings with cars lined up waiting for us to pass . 
+9-1	We	9-2_nsubj	pass	PRP	P1_passenger
+9-2	pass	O	O	VBP	O
+9-3	railroad	O	O	NN	O
+9-4	crossings	9-2_dobj	pass	NNS	P1_NPart_crossings
+9-5	with	O	O	O	O
+9-6	cars	9-2_prep_with	pass	NNS	P1_NPart_cars
+9-7	lined	O	O	VBN	O
+9-8	up	9-7_prt	lined	RP	O
+9-9	waiting	9-7_xcomp	lined	VBG	O
+9-10	for	9-13_mark	pass	IN	O
+9-11	us	9-13_nsubj	pass	PRP	P1_passenger
+9-12	to	9-13_aux	pass	TO	O
+9-13	pass	9-9_advcl	waiting	VB	O
+9-14	.	O	O	O	O
+
+#id=10
+#text=After 10 stops , at different train stations , we arrive at the big one in the city . 
+10-1	After	O	O	O	O
+10-2	10	O	O	CD	O
+10-3	stops	10-11_prep_after	arrive	NNS	P2_other
+10-4	,	O	O	O	O
+10-5	at	O	O	O	O
+10-6	different	O	O	JJ	O
+10-7	train	O	O	NN	O
+10-8	stations	10-11_prep_at	arrive	NNS	P2_train_station
+10-9	,	O	O	O	O
+10-10	we	10-11_nsubj	arrive	PRP	P1_passenger
+10-11	arrive	O	O	VBP	O
+10-12	at	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	big	O	O	JJ	O
+10-15	one	10-11_prep_at	arrive	NN	P2_train_station
+10-16	in	O	O	O	O
+10-17	the	O	O	DT	O
+10-18	city	O	O	NN	P1_destination
+10-19	.	O	O	O	O
+
+#id=11
+#text=We get off the train and take the escalator up to get out of the station . 
+11-1	We	11-2_nsubj	get	PRP	P1_passenger
+11-2	get	O	O	VB	O
+11-3	off	11-2_prt	get	RP	O
+11-4	the	O	O	DT	O
+11-5	train	11-2_dobj	get	NN	P1_train
+11-6	and	O	O	O	O
+11-7	take	11-2_conj_and	get	VB	O
+11-8	the	O	O	DT	O
+11-9	escalator	11-7_dobj	take	NN	P3_other
+11-10	up	11-7_prt	take	RP	O
+11-11	to	11-12_aux	get	TO	O
+11-12	get	11-7_vmod	take	VB	O
+11-13	out	O	O	O	O
+11-14	of	O	O	O	O
+11-15	the	O	O	DT	O
+11-16	station	11-12_prep_out_of	get	NN	P2_train_station
+11-17	.	O	O	O	O

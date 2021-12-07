@@ -1,0 +1,240 @@
+#id=1
+#text=Every week I go to the grocery store to get food for my family . 
+1-1	Every	O	O	DT	O
+1-2	week	1-4_tmod	go	NN	P1_NPart_week
+1-3	I	1-4_nsubj	go	PRP	P1_shopper
+1-4	go	O	O	VBP	O
+1-5	to	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	grocery	O	O	NN	O
+1-8	store	1-4_prep_to	go	NN	P1_grocery_shop
+1-9	to	1-10_aux	get	TO	O
+1-10	get	1-4_xcomp	go	VB	O
+1-11	food	1-10_dobj	get	NN	P1_groceries
+1-12	for	O	O	O	O
+1-13	my	O	O	PRP$	P1_shopper
+1-14	family	1-10_prep_for	get	NN	P1_NPart_family
+1-15	.	O	O	O	O
+
+#id=2
+#text=I write a list of all the foods I will need and gather together any coupons I will be able to use . 
+2-1	I	2-2_nsubj	write	PRP	P1_shopper
+2-2	write	O	O	VBP	O
+2-3	a	O	O	DT	O
+2-4	list	2-2_dobj	write	NN	P1_grocery_list
+2-5	of	O	O	O	O
+2-6	all	O	O	PDT	O
+2-7	the	O	O	DT	O
+2-8	foods	O	O	NNS	P1_groceries
+2-9	I	2-11_nsubj	need	PRP	P1_shopper
+2-10	will	2-11_aux	need	MD	O
+2-11	need	O	O	VB	O
+2-12	and	O	O	O	O
+2-13	gather	2-11_conj_and	need	VB	O
+2-14	together	2-13_prt	gather	RP	O
+2-15	any	O	O	DT	O
+2-16	coupons	2-13_dobj	gather	NNS	P1_deal_coupon
+2-17	I	O	O	PRP	P1_shopper
+2-18	will	O	O	MD	O
+2-19	be	O	O	VB	O
+2-20	able	O	O	JJ	O
+2-21	to	2-22_aux	use	TO	O
+2-22	use	O	O	VB	O
+2-23	.	O	O	O	O
+
+#id=3
+#text=I drive to the grocery store and get a cart to put the food in . 
+3-1	I	3-2_nsubj	drive	PRP	P1_shopper
+3-2	drive	O	O	VB	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	grocery	O	O	NN	O
+3-6	store	3-2_prep_to	drive	NN	P1_grocery_shop
+3-7	and	O	O	O	O
+3-8	get	3-2_conj_and	drive	VB	O
+3-9	a	O	O	DT	O
+3-10	cart	3-8_dobj	get	NN	P1_shopping_cart/basket
+3-11	to	3-12_aux	put	TO	O
+3-12	put	O	O	VB	O
+3-13	the	O	O	DT	O
+3-14	food	3-12_dobj	put	NN	P1_groceries
+3-15	in	3-12_prep	put	IN	O
+3-16	.	O	O	O	O
+
+#id=4
+#text=I take out my list and coupons and put them where I will be able to see them easily . 
+4-1	I	4-2_nsubj	take	PRP	P1_shopper
+4-2	take	O	O	VBP	O
+4-3	out	4-2_prt	take	RP	O
+4-4	my	O	O	PRP$	P1_shopper
+4-5	list	4-2_dobj	take	NN	O
+4-6	and	O	O	O	O
+4-7	coupons	O	O	NNS	P1_other
+4-8	and	O	O	O	O
+4-9	put	4-2_conj_and	take	VBD	O
+4-10	them	4-9_dobj	put	PRP	P2_other
+4-11	where	O	O	WRB	O
+4-12	I	O	O	PRP	P1_shopper
+4-13	will	O	O	MD	O
+4-14	be	O	O	VB	O
+4-15	able	4-9_advcl	put	JJ	O
+4-16	to	4-17_aux	see	TO	O
+4-17	see	O	O	VB	O
+4-18	them	4-17_dobj	see	PRP	P2_other
+4-19	easily	4-17_advmod	see	RB	O
+4-20	.	O	O	O	O
+
+#id=5
+#text=I walk up and down the aisles finding the food on my list . 
+5-1	I	5-2_nsubj	walk	PRP	P1_shopper
+5-2	walk	O	O	VBP	O
+5-3	up	5-2_prt	walk	RP	O
+5-4	and	O	O	CC	O
+5-5	down	O	O	RP	O
+5-6	the	O	O	DT	O
+5-7	aisles	5-2_dobj	walk	NNS	P1_section
+5-8	finding	5-2_xcomp	walk	VBG	O
+5-9	the	O	O	DT	O
+5-10	food	5-8_dobj	finding	NN	P1_groceries
+5-11	on	O	O	O	O
+5-12	my	O	O	PRP$	P1_shopper
+5-13	list	5-8_prep_on	finding	NN	P1_grocery_list
+5-14	.	O	O	O	O
+
+#id=6
+#text=I put each one into the grocery cart as I find it , then cross it off my list . 
+6-1	I	6-2_nsubj	put	PRP	P1_shopper
+6-2	put	O	O	VBD	O
+6-3	each	O	O	DT	O
+6-4	one	6-2_dobj	put	NN	P1_groceries
+6-5	into	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	grocery	O	O	NN	O
+6-8	cart	6-2_prep_into	put	NN	P2_shopping_cart/basket
+6-9	as	6-11_mark	find	IN	O
+6-10	I	6-11_nsubj	find	PRP	P1_shopper
+6-11	find	6-2_advcl	put	VB	O
+6-12	it	6-11_dobj	find	PRP	P1_groceries
+6-13	,	O	O	O	O
+6-14	then	6-15_advmod	cross	RB	O
+6-15	cross	6-11_dep	find	VB	O
+6-16	it	6-15_dobj	cross	PRP	P1_groceries
+6-17	off	O	O	O	O
+6-18	my	O	O	PRP$	P2_shopper
+6-19	list	6-15_prep_off	cross	NN	P1_grocery_list
+6-20	.	O	O	O	O
+
+#id=7
+#text=When I have all of the food I need , I take my cart full of food to the register area . 
+7-1	When	7-3_advmod	have	WRB	O
+7-2	I	7-3_nsubj	have	PRP	P2_shopper
+7-3	have	7-12_advcl	take	VBP	O
+7-4	all	7-3_dobj	have	DT	O
+7-5	of	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	food	O	O	NN	P1_groceries
+7-8	I	7-9_nsubj	need	PRP	P2_shopper
+7-9	need	O	O	VBP	O
+7-10	,	O	O	O	O
+7-11	I	7-12_nsubj	take	PRP	P2_shopper
+7-12	take	O	O	VBP	O
+7-13	my	O	O	PRP$	P2_shopper
+7-14	cart	7-12_dobj	take	NN	P2_shopping_cart/basket
+7-15	full	O	O	JJ	O
+7-16	of	O	O	O	O
+7-17	food	O	O	NN	P1_groceries
+7-18	to	O	O	O	O
+7-19	the	O	O	DT	O
+7-20	register	O	O	NN	O
+7-21	area	7-12_prep_to	take	NN	P2_section
+7-22	.	O	O	O	O
+
+#id=8
+#text=I empty my cart , put all of the food onto the belt and hand the cashier my coupons . 
+8-1	I	8-2_nsubj	empty	PRP	P2_shopper
+8-2	empty	O	O	VB	O
+8-3	my	O	O	PRP$	P2_shopper
+8-4	cart	8-2_dobj	empty	NN	P2_shopping_cart/basket
+8-5	,	O	O	O	O
+8-6	put	8-2_conj_and	empty	VB	O
+8-7	all	8-6_dobj	put	DT	O
+8-8	of	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	food	O	O	NN	P1_groceries
+8-11	onto	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	belt	8-6_prep_onto	put	NN	P1_conveyor_belt
+8-14	and	O	O	O	O
+8-15	hand	8-2_conj_and	empty	VB	O
+8-16	the	O	O	DT	O
+8-17	cashier	8-15_iobj	hand	NN	P1_grocery_staff
+8-18	my	O	O	PRP$	P2_shopper
+8-19	coupons	8-15_dobj	hand	NNS	P1_deal_coupon
+8-20	.	O	O	O	O
+
+#id=9
+#text=She scans the bar codes on each item and places it into a bag , then she scans the coupons . 
+9-1	She	9-2_nsubj	scans	PRP	P1_grocery_staff
+9-2	scans	O	O	VBZ	O
+9-3	the	O	O	DT	O
+9-4	bar	O	O	NN	O
+9-5	codes	9-2_dobj	scans	NNS	O
+9-6	on	O	O	O	O
+9-7	each	O	O	DT	O
+9-8	item	9-2_prep_on	scans	NN	P1_groceries
+9-9	and	O	O	O	O
+9-10	places	9-2_conj_and	scans	VBZ	O
+9-11	it	9-10_dobj	places	PRP	P1_groceries
+9-12	into	O	O	O	O
+9-13	a	O	O	DT	O
+9-14	bag	9-10_prep_into	places	NN	P3_shopping_cart/basket
+9-15	,	O	O	O	O
+9-16	then	9-18_advmod	scans	RB	O
+9-17	she	9-18_nsubj	scans	PRP	P1_grocery_staff
+9-18	scans	9-2_parataxis	scans	VBZ	O
+9-19	the	O	O	DT	O
+9-20	coupons	9-18_dobj	scans	NNS	P1_deal_coupon
+9-21	.	O	O	O	O
+
+#id=10
+#text=When everything has been scanned , the cashier tells me the total cost and I give her the money for the food . 
+10-1	When	10-5_advmod	scanned	WRB	O
+10-2	everything	10-5_nsubjpass	scanned	NN	P1_groceries
+10-3	has	10-5_aux	scanned	VBZ	O
+10-4	been	10-5_auxpass	scanned	VBN	O
+10-5	scanned	10-9_advcl	tells	VBN	O
+10-6	,	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	cashier	10-9_nsubj	tells	NN	P1_grocery_staff
+10-9	tells	O	O	VBZ	O
+10-10	me	10-9_iobj	tells	PRP	P2_shopper
+10-11	the	O	O	DT	O
+10-12	total	O	O	JJ	O
+10-13	cost	10-9_dobj	tells	NN	P1_price
+10-14	and	O	O	O	O
+10-15	I	10-16_nsubj	give	PRP	P2_shopper
+10-16	give	10-9_conj_and	tells	VBP	O
+10-17	her	10-16_iobj	give	PRP	P1_grocery_staff
+10-18	the	O	O	DT	O
+10-19	money	10-16_dobj	give	NN	P1_payment_means
+10-20	for	O	O	O	O
+10-21	the	O	O	DT	O
+10-22	food	O	O	NN	P1_groceries
+10-23	.	O	O	O	O
+
+#id=11
+#text=I place the bags into my cart and walk back to my car . 
+11-1	I	11-2_nsubj	place	PRP	P2_shopper
+11-2	place	O	O	VBP	O
+11-3	the	O	O	DT	O
+11-4	bags	11-2_dobj	place	NNS	P1_shopping_bags
+11-5	into	O	O	O	O
+11-6	my	O	O	PRP$	P2_shopper
+11-7	cart	11-2_prep_into	place	NN	P2_shopping_cart/basket
+11-8	and	O	O	O	O
+11-9	walk	11-2_conj_and	place	NN	O
+11-10	back	O	O	RB	O
+11-11	to	O	O	O	O
+11-12	my	O	O	PRP$	P2_shopper
+11-13	car	O	O	NN	P1_vehicle
+11-14	.	O	O	O	O

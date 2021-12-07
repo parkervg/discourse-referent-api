@@ -1,0 +1,214 @@
+#id=1
+#text=Getting a hair cut can be a stressful activity . 
+1-1	Getting	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	hair	O	O	NN	O
+1-4	cut	1-1_dobj	Getting	NN	P1_haircut
+1-5	can	O	O	MD	O
+1-6	be	O	O	VB	O
+1-7	a	O	O	DT	O
+1-8	stressful	O	O	JJ	O
+1-9	activity	O	O	NN	P1_NPart_activity
+1-10	.	O	O	O	O
+
+#id=2
+#text=You have to know where you are going to go for this service and how much you want to spend . 
+2-1	You	2-2_nsubj	have	PRP	P1_customer
+2-2	have	O	O	VBP	O
+2-3	to	2-4_aux	know	TO	O
+2-4	know	2-2_xcomp	have	VB	O
+2-5	where	2-8_advmod	going	WRB	O
+2-6	you	2-8_nsubj	going	PRP	P1_customer
+2-7	are	2-8_aux	going	VBP	O
+2-8	going	2-4_ccomp	know	VBG	O
+2-9	to	2-10_aux	go	TO	O
+2-10	go	2-8_xcomp	going	VB	O
+2-11	for	O	O	O	O
+2-12	this	O	O	DT	O
+2-13	service	2-10_prep_for	go	NN	P1_NPart_service
+2-14	and	O	O	O	O
+2-15	how	O	O	WRB	O
+2-16	much	2-18_dep	want	JJ	O
+2-17	you	2-18_nsubj	want	PRP	P1_customer
+2-18	want	2-8_conj_and	going	VBP	O
+2-19	to	2-20_aux	spend	TO	O
+2-20	spend	2-18_xcomp	want	VB	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=Some people have one hair dresser they like and stick with that person over years . 
+3-1	Some	O	O	DT	O
+3-2	people	3-3_nsubj	have	NNS	P1_NPart_people
+3-3	have	O	O	VBP	O
+3-4	one	O	O	CD	O
+3-5	hair	O	O	NN	O
+3-6	dresser	3-3_dobj	have	NN	P1_hairdresser
+3-7	they	3-8_nsubj	like	PRP	P1_NPart_they
+3-8	like	O	O	VBP	O
+3-9	and	O	O	O	O
+3-10	stick	3-8_conj_and	like	VBP	O
+3-11	with	O	O	O	O
+3-12	that	O	O	DT	O
+3-13	person	3-8_prep_with	like	NN	P1_hairdresser
+3-14	over	O	O	O	O
+3-15	years	O	O	NNS	O
+3-16	.	O	O	O	O
+
+#id=4
+#text=I have n't had such luck , so I sometime have to take a gamble and just make an appointment at a random salon . 
+4-1	I	4-4_nsubj	had	PRP	P1_customer
+4-2	have	4-4_aux	had	VBP	O
+4-3	n't	4-4_neg	had	RB	O
+4-4	had	O	O	VBN	O
+4-5	such	O	O	JJ	O
+4-6	luck	4-4_dobj	had	NN	O
+4-7	,	O	O	O	O
+4-8	so	4-4_dep	had	IN	O
+4-9	I	4-11_nsubj	have	PRP	P1_customer
+4-10	sometime	4-11_advmod	have	RB	O
+4-11	have	4-4_parataxis	had	VBP	O
+4-12	to	4-13_aux	take	TO	O
+4-13	take	4-11_xcomp	have	VB	O
+4-14	a	O	O	DT	O
+4-15	gamble	4-13_dobj	take	NN	O
+4-16	and	O	O	O	O
+4-17	just	4-18_advmod	make	RB	O
+4-18	make	4-13_conj_and	take	VB	O
+4-19	an	O	O	DT	O
+4-20	appointment	4-18_dobj	make	NN	P1_appointment
+4-21	at	O	O	O	O
+4-22	a	O	O	DT	O
+4-23	random	O	O	JJ	O
+4-24	salon	4-18_prep_at	make	NN	P1_salon
+4-25	.	O	O	O	O
+
+#id=5
+#text=If I want a new look , I 'll make sure to be prepared with an example picture of exactly what I want , or if I just want a trim I coach myself into being very firm about not cutting too much . 
+5-1	If	5-3_mark	want	IN	O
+5-2	I	5-3_nsubj	want	PRP	P1_customer
+5-3	want	5-10_advcl	make	VBP	O
+5-4	a	O	O	DT	O
+5-5	new	O	O	JJ	O
+5-6	look	5-3_dobj	want	NN	P1_NPart_look
+5-7	,	O	O	O	O
+5-8	I	5-10_nsubj	make	PRP	P1_customer
+5-9	'll	5-10_aux	make	MD	O
+5-10	make	O	O	VB	O
+5-11	sure	5-10_acomp	make	JJ	O
+5-12	to	5-14_aux	prepared	TO	O
+5-13	be	5-14_auxpass	prepared	VB	O
+5-14	prepared	O	O	VBN	O
+5-15	with	O	O	O	O
+5-16	an	O	O	DT	O
+5-17	example	O	O	NN	O
+5-18	picture	5-14_prep_with	prepared	NN	P1_NPart_picture
+5-19	of	O	O	O	O
+5-20	exactly	O	O	RB	O
+5-21	what	5-23_dep	want	WP	P1_NPart_what
+5-22	I	5-23_nsubj	want	PRP	P1_customer
+5-23	want	O	O	VBP	O
+5-24	,	O	O	O	O
+5-25	or	O	O	O	O
+5-26	if	5-29_mark	want	IN	O
+5-27	I	5-29_nsubj	want	PRP	P1_customer
+5-28	just	5-29_advmod	want	RB	O
+5-29	want	5-23_conj_or	want	VBP	O
+5-30	a	O	O	DT	O
+5-31	trim	O	O	JJ	P1_haircut
+5-32	I	O	O	NN	P1_customer
+5-33	coach	O	O	NN	O
+5-34	myself	5-29_xcomp	want	PRP	P1_customer
+5-35	into	O	O	O	O
+5-36	being	O	O	VBG	O
+5-37	very	O	O	RB	O
+5-38	firm	5-10_prepc_into	make	JJ	O
+5-39	about	O	O	O	O
+5-40	not	5-41_neg	cutting	RB	O
+5-41	cutting	O	O	VBG	O
+5-42	too	O	O	RB	O
+5-43	much	5-41_advmod	cutting	RB	O
+5-44	.	O	O	O	O
+
+#id=6
+#text=I try to get to my appointment early , in case they 're ready to see me sooner than they expected . 
+6-1	I	6-2_nsubj	try	PRP	P1_customer
+6-2	try	O	O	VBP	O
+6-3	to	6-4_aux	get	TO	O
+6-4	get	6-2_xcomp	try	VB	O
+6-5	to	O	O	O	O
+6-6	my	O	O	PRP$	P1_customer
+6-7	appointment	6-4_prep_to	get	NN	P1_appointment
+6-8	early	O	O	RB	O
+6-9	,	O	O	O	O
+6-10	in	O	O	O	O
+6-11	case	6-4_prep_in	get	NN	O
+6-12	they	O	O	PRP	P1_hairdresser
+6-13	're	O	O	VBP	O
+6-14	ready	O	O	JJ	O
+6-15	to	6-16_aux	see	TO	O
+6-16	see	O	O	VB	O
+6-17	me	6-16_dobj	see	PRP	P1_customer
+6-18	sooner	6-16_advmod	see	RBR	O
+6-19	than	6-21_mark	expected	IN	O
+6-20	they	6-21_nsubj	expected	PRP	P1_hairdresser
+6-21	expected	O	O	VBD	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=There is generally small talk back and forth during the process , which can be uncomfortable for socially awkard folks like myself , but I muddle through it somehow . 
+7-1	There	7-2_expl	is	EX	O
+7-2	is	O	O	VBZ	O
+7-3	generally	O	O	RB	O
+7-4	small	7-2_acomp	is	JJ	O
+7-5	talk	7-2_ccomp	is	VB	P1_entertainment
+7-6	back	7-5_advmod	talk	RB	O
+7-7	and	O	O	O	O
+7-8	forth	O	O	RB	O
+7-9	during	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	process	7-5_prep_during	talk	NN	P1_NPart_process
+7-12	,	O	O	O	O
+7-13	which	O	O	WDT	O
+7-14	can	O	O	MD	O
+7-15	be	O	O	VB	O
+7-16	uncomfortable	O	O	JJ	O
+7-17	for	O	O	O	O
+7-18	socially	O	O	RB	O
+7-19	awkard	O	O	JJ	O
+7-20	folks	O	O	NNS	P1_customer
+7-21	like	O	O	O	O
+7-22	myself	O	O	PRP	P1_customer
+7-23	,	O	O	O	O
+7-24	but	O	O	O	O
+7-25	I	7-26_nsubj	muddle	PRP	P1_customer
+7-26	muddle	7-2_conj_but	is	VBP	O
+7-27	through	O	O	O	O
+7-28	it	7-26_prep_through	muddle	PRP	P1_entertainment
+7-29	somehow	7-26_advmod	muddle	RB	O
+7-30	.	O	O	O	O
+
+#id=8
+#text=If I am happy with my service and with how my hair looks , I make sure to leave a generous tip . 
+8-1	If	O	O	IN	O
+8-2	I	O	O	PRP	P1_customer
+8-3	am	O	O	VBP	O
+8-4	happy	8-16_advcl	make	JJ	O
+8-5	with	O	O	O	O
+8-6	my	O	O	PRP$	P1_customer
+8-7	service	O	O	NN	P2_NPart_service
+8-8	and	O	O	O	O
+8-9	with	O	O	O	O
+8-10	how	8-13_advmod	looks	WRB	O
+8-11	my	O	O	PRP$	P1_customer
+8-12	hair	8-13_nsubj	looks	NN	P1_hair
+8-13	looks	O	O	VBZ	O
+8-14	,	O	O	O	O
+8-15	I	8-16_nsubj	make	PRP	P1_customer
+8-16	make	O	O	VBP	O
+8-17	sure	8-16_acomp	make	JJ	O
+8-18	to	8-19_aux	leave	TO	O
+8-19	leave	O	O	VB	O
+8-20	a	O	O	DT	O
+8-21	generous	O	O	JJ	O
+8-22	tip	8-19_dobj	leave	NN	P1_tip
+8-23	.	O	O	O	O

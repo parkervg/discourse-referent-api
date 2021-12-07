@@ -1,0 +1,199 @@
+#id=1
+#text=Last weekend my girlfriend and I decided we would like to make a special treat for Sunday dinner with our families . 
+1-1	Last	O	O	JJ	O
+1-2	weekend	1-7_nsubj	decided	NN	P1_NPart_weekend
+1-3	my	O	O	PRP$	P1_cook
+1-4	girlfriend	1-7_nsubj	decided	NN	O
+1-5	and	O	O	O	O
+1-6	I	O	O	NN	P1_cook
+1-7	decided	O	O	VBD	O
+1-8	we	1-10_nsubj	like	PRP	P2_cook
+1-9	would	1-10_aux	like	MD	O
+1-10	like	1-7_ccomp	decided	VB	O
+1-11	to	1-12_aux	make	TO	O
+1-12	make	1-10_xcomp	like	VB	O
+1-13	a	O	O	DT	O
+1-14	special	O	O	JJ	O
+1-15	treat	1-12_dobj	make	NN	P1_cake
+1-16	for	O	O	O	O
+1-17	Sunday	O	O	NNP	P1_NPart_sunday
+1-18	dinner	O	O	NN	P1_NPart_dinner
+1-19	with	O	O	O	O
+1-20	our	O	O	PRP$	P2_cook
+1-21	families	1-12_prep_with	make	NNS	P1_beneficiary
+1-22	.	O	O	O	O
+
+#id=2
+#text=We decided we would make a special dessert to have after the meal . 
+2-1	We	2-2_nsubj	decided	PRP	P2_cook
+2-2	decided	O	O	VBD	O
+2-3	we	2-5_nsubj	make	PRP	P2_cook
+2-4	would	2-5_aux	make	MD	O
+2-5	make	2-2_ccomp	decided	VB	O
+2-6	a	O	O	DT	O
+2-7	special	O	O	JJ	O
+2-8	dessert	2-5_dobj	make	NN	P1_cake
+2-9	to	2-10_aux	have	TO	O
+2-10	have	2-5_vmod	make	VB	O
+2-11	after	O	O	O	O
+2-12	the	O	O	DT	O
+2-13	meal	2-10_prep_after	have	NN	P1_NPart_meal
+2-14	.	O	O	O	O
+
+#id=3
+#text=We went to the grocery store to get some of the ingredients we thought we would need . 
+3-1	We	3-2_nsubj	went	PRP	P2_cook
+3-2	went	3-14_dep	thought	VBD	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	grocery	O	O	NN	O
+3-6	store	3-2_prep_to	went	NN	P1_store
+3-7	to	3-8_aux	get	TO	O
+3-8	get	3-2_xcomp	went	VB	O
+3-9	some	3-8_dobj	get	DT	O
+3-10	of	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	ingredients	O	O	NNS	P1_ingredients
+3-13	we	3-14_nsubj	thought	PRP	P3_cook
+3-14	thought	O	O	VBD	O
+3-15	we	3-17_nsubj	need	PRP	P2_cook
+3-16	would	3-17_aux	need	MD	O
+3-17	need	3-14_ccomp	thought	VB	O
+3-18	.	O	O	O	O
+
+#id=4
+#text=Once at the grocery store we chose the dessert we were going to serve as a treat for our guests . 
+4-1	Once	4-7_mark	chose	IN	O
+4-2	at	O	O	O	O
+4-3	the	O	O	DT	O
+4-4	grocery	O	O	NN	O
+4-5	store	4-7_prep_at	chose	NN	P1_store
+4-6	we	4-7_nsubj	chose	PRP	P2_cook
+4-7	chose	4-12_advcl	going	VBD	O
+4-8	the	O	O	DT	O
+4-9	dessert	4-7_dobj	chose	NN	P1_cake
+4-10	we	4-12_nsubj	going	PRP	P2_cook
+4-11	were	4-12_aux	going	VBD	O
+4-12	going	O	O	VBG	O
+4-13	to	4-14_aux	serve	TO	O
+4-14	serve	4-12_xcomp	going	VB	O
+4-15	as	O	O	O	O
+4-16	a	O	O	DT	O
+4-17	treat	4-14_prep_as	serve	NN	P1_cake
+4-18	for	O	O	O	O
+4-19	our	O	O	PRP$	P4_cook
+4-20	guests	O	O	NNS	P1_beneficiary
+4-21	.	O	O	O	O
+
+#id=5
+#text=We picked up flour , sugar , and several other ingredients needed to bake a cake . 
+5-1	We	5-2_nsubj	picked	PRP	P2_cook
+5-2	picked	O	O	VBD	O
+5-3	up	5-2_prt	picked	RP	O
+5-4	flour	5-2_dobj	picked	NN	P2_ingredients
+5-5	,	O	O	O	O
+5-6	sugar	O	O	NN	P3_ingredients
+5-7	,	O	O	O	O
+5-8	and	O	O	O	O
+5-9	several	O	O	JJ	O
+5-10	other	O	O	JJ	O
+5-11	ingredients	O	O	NNS	P4_ingredients
+5-12	needed	O	O	VBN	O
+5-13	to	5-14_aux	bake	TO	O
+5-14	bake	5-12_xcomp	needed	VB	O
+5-15	a	O	O	DT	O
+5-16	cake	5-14_dobj	bake	NN	P1_cake
+5-17	.	O	O	O	O
+
+#id=6
+#text=Once we returned home we started to mix together a batter for our cake . 
+6-1	Once	6-3_mark	returned	IN	O
+6-2	we	6-3_nsubj	returned	PRP	P2_cook
+6-3	returned	6-6_advcl	started	VBD	O
+6-4	home	6-3_dobj	returned	NN	O
+6-5	we	6-6_nsubj	started	PRP	P5_cook
+6-6	started	O	O	VBD	O
+6-7	to	6-8_aux	mix	TO	O
+6-8	mix	6-6_xcomp	started	VB	O
+6-9	together	6-8_prt	mix	RP	O
+6-10	a	O	O	DT	O
+6-11	batter	6-8_dobj	mix	NN	P1_dough
+6-12	for	O	O	O	O
+6-13	our	O	O	PRP$	P6_cook
+6-14	cake	O	O	NN	P1_cake
+6-15	.	O	O	O	O
+
+#id=7
+#text=Once the batter was just right we evenly spread it in a pan and placed it in the oven . 
+7-1	Once	O	O	IN	O
+7-2	the	O	O	DT	O
+7-3	batter	O	O	NN	P1_dough
+7-4	was	O	O	VBD	O
+7-5	just	O	O	RB	O
+7-6	right	7-9_advcl	spread	JJ	O
+7-7	we	7-9_nsubj	spread	PRP	P2_cook
+7-8	evenly	7-9_advmod	spread	RB	O
+7-9	spread	O	O	VBD	O
+7-10	it	7-9_dobj	spread	PRP	P1_dough
+7-11	in	O	O	O	O
+7-12	a	O	O	DT	O
+7-13	pan	7-9_prep_in	spread	NN	P1_cake_tin
+7-14	and	O	O	O	O
+7-15	placed	7-9_conj_and	spread	VBD	O
+7-16	it	7-15_dobj	placed	PRP	P1_dough
+7-17	in	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	oven	7-15_prep_in	placed	NN	P1_oven
+7-20	.	O	O	O	O
+
+#id=8
+#text=After some time in the oven to bake our cake was ready to take out so we could add frosting . 
+8-1	After	O	O	O	O
+8-2	some	O	O	DT	O
+8-3	time	O	O	NN	P1_time
+8-4	in	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	oven	O	O	NN	P1_oven
+8-7	to	8-8_aux	bake	TO	O
+8-8	bake	O	O	VB	O
+8-9	our	O	O	PRP$	P2_cook
+8-10	cake	O	O	NN	P1_cake
+8-11	was	O	O	VBD	O
+8-12	ready	O	O	JJ	O
+8-13	to	8-14_aux	take	TO	O
+8-14	take	O	O	VB	O
+8-15	out	8-14_prt	take	RP	O
+8-16	so	8-19_mark	add	IN	O
+8-17	we	8-19_nsubj	add	PRP	P2_cook
+8-18	could	8-19_aux	add	MD	O
+8-19	add	8-14_advcl	take	VB	O
+8-20	frosting	8-19_dobj	add	NN	P1_decoration
+8-21	.	O	O	O	O
+
+#id=9
+#text=After the cake cooled we added the frosting and set it aside to wait for our guests to come and try the delicious treat . 
+9-1	After	O	O	O	O
+9-2	the	O	O	DT	O
+9-3	cake	9-6_prep_after	added	NN	P1_cake
+9-4	cooled	O	O	VBN	O
+9-5	we	9-6_nsubj	added	PRP	P2_cook
+9-6	added	O	O	VBD	O
+9-7	the	O	O	DT	O
+9-8	frosting	9-6_dobj	added	NN	P2_decoration
+9-9	and	O	O	O	O
+9-10	set	9-6_conj_and	added	VBD	O
+9-11	it	9-10_dobj	set	PRP	P1_cake
+9-12	aside	9-10_advmod	set	RB	O
+9-13	to	9-14_aux	wait	TO	O
+9-14	wait	9-10_vmod	set	VB	O
+9-15	for	O	O	O	O
+9-16	our	O	O	PRP$	P7_cook
+9-17	guests	9-14_prep_for	wait	NNS	P1_beneficiary
+9-18	to	9-19_aux	come	TO	O
+9-19	come	O	O	VB	O
+9-20	and	O	O	O	O
+9-21	try	9-19_conj_and	come	VB	O
+9-22	the	O	O	DT	O
+9-23	delicious	O	O	JJ	O
+9-24	treat	9-19_dobj	come	NN	P1_cake
+9-25	.	O	O	O	O

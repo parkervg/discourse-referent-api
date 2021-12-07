@@ -1,0 +1,203 @@
+#id=1
+#text=I preheated the oven to 350 degrees . 
+1-1	I	1-2_nsubj	preheated	PRP	P1_cook
+1-2	preheated	O	O	VBD	O
+1-3	the	O	O	DT	O
+1-4	oven	1-2_dobj	preheated	NN	P1_oven
+1-5	to	O	O	O	O
+1-6	350	O	O	CD	O
+1-7	degrees	1-2_prep_to	preheated	NNS	P1_temperature
+1-8	.	O	O	O	O
+
+#id=2
+#text=As I waited , I gathered my ingredients : butter , flour , baking powder , salt , sugar , eggs , and heavy cream . 
+2-1	As	2-3_mark	waited	IN	O
+2-2	I	2-3_nsubj	waited	PRP	P1_cook
+2-3	waited	2-6_advcl	gathered	VBD	O
+2-4	,	O	O	O	O
+2-5	I	2-6_nsubj	gathered	PRP	P1_cook
+2-6	gathered	O	O	VBD	O
+2-7	my	O	O	PRP$	P1_cook
+2-8	ingredients	2-6_dobj	gathered	NNS	P1_ingredients
+2-9	:	O	O	O	O
+2-10	butter	O	O	NN	P2_ingredients
+2-11	,	O	O	O	O
+2-12	flour	O	O	NN	P3_ingredients
+2-13	,	O	O	O	O
+2-14	baking	O	O	JJ	O
+2-15	powder	O	O	NN	P4_ingredients
+2-16	,	O	O	O	O
+2-17	salt	O	O	NN	P5_ingredients
+2-18	,	O	O	O	O
+2-19	sugar	O	O	NN	P6_ingredients
+2-20	,	O	O	O	O
+2-21	eggs	O	O	NNS	P7_ingredients
+2-22	,	O	O	O	O
+2-23	and	O	O	O	O
+2-24	heavy	O	O	JJ	O
+2-25	cream	O	O	NN	P8_ingredients
+2-26	.	O	O	O	O
+
+#id=3
+#text=I mixed all the ingredients together in a large bowl with a large spoon , following a recipe I found in a cookbook . 
+3-1	I	3-2_nsubj	mixed	PRP	P1_cook
+3-2	mixed	O	O	VBN	O
+3-3	all	O	O	PDT	O
+3-4	the	O	O	DT	O
+3-5	ingredients	3-2_dobj	mixed	NNS	P1_ingredients
+3-6	together	3-2_advmod	mixed	RB	O
+3-7	in	O	O	O	O
+3-8	a	O	O	DT	O
+3-9	large	O	O	JJ	O
+3-10	bowl	3-2_prep_in	mixed	NN	P1_utensil
+3-11	with	O	O	O	O
+3-12	a	O	O	DT	O
+3-13	large	O	O	JJ	O
+3-14	spoon	3-2_prep_with	mixed	NN	P2_utensil
+3-15	,	O	O	O	O
+3-16	following	O	O	O	O
+3-17	a	O	O	DT	O
+3-18	recipe	3-2_prep_following	mixed	NN	P1_baking_instructions
+3-19	I	3-20_nsubj	found	PRP	P1_cook
+3-20	found	O	O	VBD	O
+3-21	in	O	O	O	O
+3-22	a	O	O	DT	O
+3-23	cookbook	3-20_prep_in	found	NN	P1_recipe_source
+3-24	.	O	O	O	O
+
+#id=4
+#text=I greased a cake pan with butter and flour so the cake would n't stick then poured the batter inside . 
+4-1	I	4-2_nsubj	greased	PRP	P1_cook
+4-2	greased	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	cake	4-5_nsubj	pan	NN	O
+4-5	pan	4-2_ccomp	greased	VB	P1_cake_tin
+4-6	with	O	O	O	O
+4-7	butter	4-5_prep_with	pan	NN	P2_ingredients
+4-8	and	O	O	O	O
+4-9	flour	O	O	NN	P3_ingredients
+4-10	so	4-15_mark	stick	IN	O
+4-11	the	O	O	DT	O
+4-12	cake	4-15_nsubj	stick	NN	P1_cake
+4-13	would	4-15_aux	stick	MD	O
+4-14	n't	4-15_neg	stick	RB	O
+4-15	stick	4-5_advcl	pan	VB	O
+4-16	then	4-15_advmod	stick	RB	O
+4-17	poured	4-15_dep	stick	VBN	O
+4-18	the	O	O	DT	O
+4-19	batter	4-17_dobj	poured	NN	P1_dough
+4-20	inside	4-17_advmod	poured	RB	O
+4-21	.	O	O	O	O
+
+#id=5
+#text=I put the cake pan in the oven for approximately 30 minutes . 
+5-1	I	5-2_nsubj	put	PRP	P1_cook
+5-2	put	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	cake	5-5_nsubj	pan	NN	O
+5-5	pan	5-2_ccomp	put	VB	P1_cake_tin
+5-6	in	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	oven	5-5_prep_in	pan	NN	P1_oven
+5-9	for	O	O	O	O
+5-10	approximately	O	O	RB	O
+5-11	30	O	O	CD	O
+5-12	minutes	O	O	NNS	P1_time
+5-13	.	O	O	O	O
+
+#id=6
+#text=I watched the cake closely in the oven . 
+6-1	I	6-2_nsubj	watched	PRP	P1_cook
+6-2	watched	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	cake	6-2_dobj	watched	NN	P1_cake
+6-5	closely	6-2_advmod	watched	RB	O
+6-6	in	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	oven	6-2_prep_in	watched	NN	P1_oven
+6-9	.	O	O	O	O
+
+#id=7
+#text=Once it turned lightly golden grown on top , I tested the center . 
+7-1	Once	7-3_mark	turned	IN	O
+7-2	it	7-3_nsubj	turned	PRP	P1_cake
+7-3	turned	7-11_advcl	tested	VBD	O
+7-4	lightly	7-3_advmod	turned	RB	O
+7-5	golden	7-3_dobj	turned	JJ	O
+7-6	grown	O	O	VBN	O
+7-7	on	O	O	O	O
+7-8	top	7-6_prep_on	grown	NN	P1_NPart_top
+7-9	,	O	O	O	O
+7-10	I	7-11_nsubj	tested	PRP	P1_cook
+7-11	tested	O	O	VBD	O
+7-12	the	O	O	DT	O
+7-13	center	7-11_dobj	tested	NN	P1_cake
+7-14	.	O	O	O	O
+
+#id=8
+#text=Once the center was the correct firmness -- not too hard , not too soft -- I removed the cake . 
+8-1	Once	O	O	IN	O
+8-2	the	O	O	DT	O
+8-3	center	O	O	NN	P1_cake
+8-4	was	O	O	VBD	O
+8-5	the	O	O	DT	O
+8-6	correct	O	O	JJ	O
+8-7	firmness	8-18_advcl	removed	NN	P1_NPart_firmness
+8-8	--	O	O	O	O
+8-9	not	O	O	RB	O
+8-10	too	O	O	RB	O
+8-11	hard	O	O	JJ	O
+8-12	,	O	O	O	O
+8-13	not	O	O	RB	O
+8-14	too	O	O	RB	O
+8-15	soft	O	O	JJ	O
+8-16	--	O	O	O	O
+8-17	I	8-18_nsubj	removed	PRP	P1_cook
+8-18	removed	O	O	VBD	O
+8-19	the	O	O	DT	O
+8-20	cake	8-18_dobj	removed	NN	P1_cake
+8-21	.	O	O	O	O
+
+#id=9
+#text=I let the cake cool for 10 minutes in order to allow it to solidify . 
+9-1	I	9-2_nsubj	let	PRP	P1_cook
+9-2	let	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	cake	O	O	NN	P1_cake
+9-5	cool	9-2_dobj	let	NN	O
+9-6	for	O	O	O	O
+9-7	10	O	O	CD	O
+9-8	minutes	9-2_prep_for	let	NNS	P2_time
+9-9	in	9-12_mark	allow	IN	O
+9-10	order	9-12_dep	allow	NN	O
+9-11	to	9-12_aux	allow	TO	O
+9-12	allow	9-2_advcl	let	VB	O
+9-13	it	9-12_dobj	allow	PRP	P1_cake
+9-14	to	9-15_aux	solidify	TO	O
+9-15	solidify	9-12_xcomp	allow	VB	O
+9-16	.	O	O	O	O
+
+#id=10
+#text=I used a knife around it 's edge to separate it from the pan then removed the cake onto parchment paper . 
+10-1	I	10-2_nsubj	used	PRP	P1_cook
+10-2	used	O	O	VBD	O
+10-3	a	O	O	DT	O
+10-4	knife	10-2_dobj	used	NN	P3_utensil
+10-5	around	O	O	O	O
+10-6	it	O	O	PRP	P1_cake
+10-7	's	O	O	O	O
+10-8	edge	10-2_prep_around	used	NN	P1_NPart_edge
+10-9	to	10-10_aux	separate	TO	O
+10-10	separate	O	O	VB	O
+10-11	it	10-10_dobj	separate	PRP	P1_cake
+10-12	from	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	pan	10-10_prep_from	separate	NN	P1_cake_tin
+10-15	then	10-16_advmod	removed	RB	O
+10-16	removed	O	O	VBN	O
+10-17	the	O	O	DT	O
+10-18	cake	10-16_dobj	removed	NN	P1_cake
+10-19	onto	O	O	O	O
+10-20	parchment	O	O	JJ	O
+10-21	paper	10-16_prep_onto	removed	NN	P4_utensil
+10-22	.	O	O	O	O

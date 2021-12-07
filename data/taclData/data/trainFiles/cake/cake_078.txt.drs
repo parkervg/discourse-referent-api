@@ -1,0 +1,217 @@
+#id=1
+#text=Yesterday , I decided to bake a simple white cake for my friend 's birthday . 
+1-1	Yesterday	1-4_tmod	decided	NN	O
+1-2	,	O	O	O	O
+1-3	I	1-4_nsubj	decided	PRP	P1_cook
+1-4	decided	O	O	VBD	O
+1-5	to	1-6_aux	bake	TO	O
+1-6	bake	1-4_xcomp	decided	VB	O
+1-7	a	O	O	DT	O
+1-8	simple	O	O	JJ	O
+1-9	white	O	O	JJ	O
+1-10	cake	1-6_dobj	bake	NN	P1_cake
+1-11	for	O	O	O	O
+1-12	my	O	O	PRP$	P1_cook
+1-13	friend	O	O	NN	P1_beneficiary
+1-14	's	O	O	O	O
+1-15	birthday	O	O	NN	P1_NPart_birthday
+1-16	.	O	O	O	O
+
+#id=2
+#text=I went the store to purchase all the ingredients I would need : sugar , butter , eggs , all-purpose flour , baking soda , milk and vanilla extract for the cake , along with powdered sugar to make a basic vanilla frosting . 
+2-1	I	2-2_nsubj	went	PRP	P1_cook
+2-2	went	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	store	2-2_dobj	went	NN	P1_store
+2-5	to	2-6_aux	purchase	TO	O
+2-6	purchase	O	O	VB	O
+2-7	all	O	O	PDT	O
+2-8	the	O	O	DT	O
+2-9	ingredients	2-6_dobj	purchase	NNS	P1_ingredients
+2-10	I	2-12_nsubj	need	PRP	P1_cook
+2-11	would	2-12_aux	need	MD	O
+2-12	need	O	O	VB	O
+2-13	:	O	O	O	O
+2-14	sugar	2-29_nsubj	extract	NN	O
+2-15	,	O	O	O	O
+2-16	butter	O	O	NN	O
+2-17	,	O	O	O	O
+2-18	eggs	O	O	NNS	O
+2-19	,	O	O	O	O
+2-20	all-purpose	O	O	JJ	O
+2-21	flour	O	O	NN	O
+2-22	,	O	O	O	O
+2-23	baking	O	O	JJ	O
+2-24	soda	O	O	NN	O
+2-25	,	O	O	O	O
+2-26	milk	O	O	NN	O
+2-27	and	O	O	O	O
+2-28	vanilla	O	O	NN	O
+2-29	extract	2-12_ccomp	need	VB	P1_ingredients
+2-30	for	O	O	O	O
+2-31	the	O	O	DT	O
+2-32	cake	2-29_prep_for	extract	NN	P1_cake
+2-33	,	O	O	O	O
+2-34	along	O	O	O	O
+2-35	with	O	O	O	O
+2-36	powdered	O	O	JJ	O
+2-37	sugar	O	O	NN	P2_ingredients
+2-38	to	2-39_aux	make	TO	O
+2-39	make	2-2_vmod	went	VB	O
+2-40	a	O	O	DT	O
+2-41	basic	O	O	JJ	O
+2-42	vanilla	O	O	NN	O
+2-43	frosting	2-39_dobj	make	NN	P1_decoration
+2-44	.	O	O	O	O
+
+#id=3
+#text=Once I arrived home , I preheat my oven to 350 degrees . 
+3-1	Once	3-3_mark	arrived	IN	O
+3-2	I	3-3_nsubj	arrived	PRP	P1_cook
+3-3	arrived	3-7_advcl	preheat	VBD	O
+3-4	home	3-3_dobj	arrived	NN	P1_kitchen/location
+3-5	,	O	O	O	O
+3-6	I	3-7_nsubj	preheat	PRP	P1_cook
+3-7	preheat	O	O	VBP	O
+3-8	my	O	O	PRP$	P2_cook
+3-9	oven	3-7_dobj	preheat	NN	P1_oven
+3-10	to	O	O	O	O
+3-11	350	O	O	CD	O
+3-12	degrees	3-7_prep_to	preheat	NNS	P1_temperature
+3-13	.	O	O	O	O
+
+#id=4
+#text=I measured the amount of each ingredient I would need . 
+4-1	I	4-2_nsubj	measured	PRP	P1_cook
+4-2	measured	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	amount	4-2_dobj	measured	NN	P1_NPart_amount
+4-5	of	O	O	O	O
+4-6	each	O	O	DT	O
+4-7	ingredient	O	O	NN	P1_ingredients
+4-8	I	4-10_nsubj	need	PRP	P1_cook
+4-9	would	4-10_aux	need	MD	O
+4-10	need	O	O	VB	O
+4-11	.	O	O	O	O
+
+#id=5
+#text=In my mixer , I combined all of the cake ingredients to form a smooth batter . 
+5-1	In	O	O	O	O
+5-2	my	O	O	PRP$	P1_cook
+5-3	mixer	5-6_prep_in	combined	NN	P1_utensil
+5-4	,	O	O	O	O
+5-5	I	5-6_nsubj	combined	PRP	P1_cook
+5-6	combined	O	O	VBD	O
+5-7	all	5-6_dobj	combined	DT	O
+5-8	of	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	cake	O	O	NN	O
+5-11	ingredients	O	O	NNS	P1_ingredients
+5-12	to	5-13_aux	form	TO	O
+5-13	form	5-6_vmod	combined	VB	O
+5-14	a	O	O	DT	O
+5-15	smooth	O	O	JJ	O
+5-16	batter	5-13_dobj	form	NN	P1_dough
+5-17	.	O	O	O	O
+
+#id=6
+#text=I poured the batter into a pan that was coated with cooking spray . 
+6-1	I	6-2_nsubj	poured	PRP	P1_cook
+6-2	poured	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	batter	6-2_dobj	poured	NN	P1_dough
+6-5	into	O	O	O	O
+6-6	a	O	O	DT	O
+6-7	pan	6-2_prep_into	poured	NN	P1_cake_tin
+6-8	that	6-10_nsubjpass	coated	WDT	O
+6-9	was	6-10_auxpass	coated	VBD	O
+6-10	coated	O	O	VBN	O
+6-11	with	O	O	O	O
+6-12	cooking	O	O	JJ	O
+6-13	spray	6-10_prep_with	coated	NN	P3_ingredients
+6-14	.	O	O	O	O
+
+#id=7
+#text=I baked the cake for 35 minutes and turned off the oven . 
+7-1	I	7-2_nsubj	baked	PRP	P1_cook
+7-2	baked	O	O	VBZ	O
+7-3	the	O	O	DT	O
+7-4	cake	7-2_dobj	baked	NN	P1_cake
+7-5	for	O	O	O	O
+7-6	35	O	O	CD	O
+7-7	minutes	O	O	NNS	P1_time
+7-8	and	O	O	O	O
+7-9	turned	7-2_conj_and	baked	VBD	O
+7-10	off	7-9_prt	turned	RP	O
+7-11	the	O	O	DT	O
+7-12	oven	7-9_dobj	turned	NN	P1_oven
+7-13	.	O	O	O	O
+
+#id=8
+#text=I let the cake cool for several hours . 
+8-1	I	8-2_nsubj	let	PRP	P1_cook
+8-2	let	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	cake	O	O	NN	P1_cake
+8-5	cool	8-2_dobj	let	NN	O
+8-6	for	O	O	O	O
+8-7	several	O	O	JJ	O
+8-8	hours	8-2_prep_for	let	NNS	P2_time
+8-9	.	O	O	O	O
+
+#id=9
+#text=While waiting , I used powdered sugar , butter , milk and vanilla to make the vanilla frosting . 
+9-1	While	9-2_mark	waiting	IN	O
+9-2	waiting	9-5_advcl	used	VBG	O
+9-3	,	O	O	O	O
+9-4	I	9-5_nsubj	used	PRP	P1_cook
+9-5	used	O	O	VBD	O
+9-6	powdered	9-5_xcomp	used	VBG	O
+9-7	sugar	9-6_dobj	powdered	NN	P2_ingredients
+9-8	,	O	O	O	O
+9-9	butter	O	O	NN	P1_ingredients
+9-10	,	O	O	O	O
+9-11	milk	O	O	NN	P1_ingredients
+9-12	and	O	O	O	O
+9-13	vanilla	O	O	NN	P1_ingredients
+9-14	to	9-15_aux	make	TO	O
+9-15	make	9-6_vmod	powdered	VB	O
+9-16	the	O	O	DT	O
+9-17	vanilla	O	O	NN	O
+9-18	frosting	9-15_dobj	make	NN	P1_decoration
+9-19	.	O	O	O	O
+
+#id=10
+#text=Once the cake had cooked , I decorated it with the frosting . 
+10-1	Once	10-5_mark	cooked	IN	O
+10-2	the	O	O	DT	O
+10-3	cake	10-5_nsubj	cooked	NN	P1_cake
+10-4	had	10-5_aux	cooked	VBD	O
+10-5	cooked	10-8_advcl	decorated	VBN	O
+10-6	,	O	O	O	O
+10-7	I	10-8_nsubj	decorated	PRP	P1_cook
+10-8	decorated	O	O	VBD	O
+10-9	it	10-8_dobj	decorated	PRP	P1_cake
+10-10	with	O	O	O	O
+10-11	the	O	O	DT	O
+10-12	frosting	10-8_prep_with	decorated	NN	P4_ingredients
+10-13	.	O	O	O	O
+
+#id=11
+#text=I decided to add a couple strawberries on top to make the cake look nicer . 
+11-1	I	11-2_nsubj	decided	PRP	P1_cook
+11-2	decided	O	O	VBD	O
+11-3	to	11-4_aux	add	TO	O
+11-4	add	11-2_xcomp	decided	VB	O
+11-5	a	O	O	DT	O
+11-6	couple	O	O	NN	O
+11-7	strawberries	11-4_dobj	add	NNS	P2_decoration
+11-8	on	O	O	O	O
+11-9	top	11-4_prep_on	add	NN	O
+11-10	to	11-11_aux	make	TO	O
+11-11	make	11-4_vmod	add	VB	O
+11-12	the	O	O	DT	O
+11-13	cake	11-14_nsubj	look	NN	P1_cake
+11-14	look	11-11_ccomp	make	VB	O
+11-15	nicer	11-14_acomp	look	JJR	O
+11-16	.	O	O	O	O

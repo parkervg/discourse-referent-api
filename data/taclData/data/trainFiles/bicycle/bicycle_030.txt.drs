@@ -1,0 +1,521 @@
+#id=1
+#text=Carrying a spare inner tube saves lots of time and trouble , since I have to carry a patch kit anyway . 
+1-1	Carrying	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	spare	O	O	JJ	O
+1-4	inner	O	O	JJ	O
+1-5	tube	1-1_dobj	Carrying	NN	P1_spare_tube
+1-6	saves	1-1_dep	Carrying	VBZ	O
+1-7	lots	1-1_nsubj	Carrying	NNS	O
+1-8	of	O	O	O	O
+1-9	time	O	O	NN	P1_NPart_time
+1-10	and	O	O	O	O
+1-11	trouble	O	O	NN	P1_NPart_trouble
+1-12	,	O	O	O	O
+1-13	since	O	O	O	O
+1-14	I	1-15_nsubj	have	PRP	P1_rider
+1-15	have	O	O	VBP	O
+1-16	to	1-17_aux	carry	TO	O
+1-17	carry	1-15_xcomp	have	VB	O
+1-18	a	O	O	DT	O
+1-19	patch	O	O	NN	O
+1-20	kit	1-17_dobj	carry	NN	P1_tool
+1-21	anyway	1-17_advmod	carry	RB	O
+1-22	.	O	O	O	O
+
+#id=2
+#text=However , if I do n't have one , I can still fix a flat . 
+2-1	However	2-13_advmod	fix	RB	O
+2-2	,	O	O	O	O
+2-3	if	2-7_mark	have	IN	O
+2-4	I	2-7_nsubj	have	PRP	P1_rider
+2-5	do	2-7_aux	have	VBP	O
+2-6	n't	2-7_neg	have	RB	O
+2-7	have	2-13_advcl	fix	VB	O
+2-8	one	2-7_dobj	have	CD	P1_spare_tube
+2-9	,	O	O	O	O
+2-10	I	2-13_nsubj	fix	PRP	P1_rider
+2-11	can	2-13_aux	fix	MD	O
+2-12	still	2-13_advmod	fix	RB	O
+2-13	fix	O	O	VB	O
+2-14	a	O	O	DT	O
+2-15	flat	2-13_dobj	fix	JJ	P1_tire
+2-16	.	O	O	O	O
+
+#id=3
+#text=First I turn the bike over , and remove the brake by opening the quick release lever . 
+3-1	First	3-3_advmod	turn	RB	O
+3-2	I	3-3_nsubj	turn	PRP	P1_rider
+3-3	turn	O	O	VBP	O
+3-4	the	O	O	DT	O
+3-5	bike	3-3_dobj	turn	NN	P1_bicycle
+3-6	over	3-3_prt	turn	RP	O
+3-7	,	O	O	O	O
+3-8	and	O	O	O	O
+3-9	remove	3-3_conj_and	turn	VB	O
+3-10	the	O	O	DT	O
+3-11	brake	3-9_dobj	remove	NN	P1_bicycle_small_detail
+3-12	by	O	O	O	O
+3-13	opening	3-9_prepc_by	remove	VBG	O
+3-14	the	O	O	DT	O
+3-15	quick	O	O	JJ	O
+3-16	release	O	O	NN	O
+3-17	lever	3-13_dobj	opening	NN	P2_bicycle_small_detail
+3-18	.	O	O	O	O
+
+#id=4
+#text=Then I remove the tire with its quick release lever . 
+4-1	Then	4-3_advmod	remove	RB	O
+4-2	I	4-3_nsubj	remove	PRP	P1_rider
+4-3	remove	O	O	VBD	O
+4-4	the	O	O	DT	O
+4-5	tire	4-3_dobj	remove	NN	P1_tire
+4-6	with	O	O	O	O
+4-7	its	O	O	PRP$	P1_tire
+4-8	quick	O	O	JJ	O
+4-9	release	O	O	NN	O
+4-10	lever	4-3_prep_with	remove	NN	P3_bicycle_small_detail
+4-11	.	O	O	O	O
+
+#id=5
+#text=Now I inspect the outside of the tire , to try to find the source of the problem . 
+5-1	Now	5-3_advmod	inspect	RB	O
+5-2	I	5-3_nsubj	inspect	PRP	P1_rider
+5-3	inspect	O	O	VBP	O
+5-4	the	O	O	DT	O
+5-5	outside	5-3_dobj	inspect	NN	P1_NPart_outside
+5-6	of	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	tire	O	O	NN	P1_tire
+5-9	,	O	O	O	O
+5-10	to	5-11_aux	try	TO	O
+5-11	try	5-3_vmod	inspect	VB	O
+5-12	to	5-13_aux	find	TO	O
+5-13	find	5-11_xcomp	try	VB	O
+5-14	the	O	O	DT	O
+5-15	source	5-13_dobj	find	NN	P1_object_damage
+5-16	of	O	O	O	O
+5-17	the	O	O	DT	O
+5-18	problem	O	O	NN	P1_NPart_problem
+5-19	.	O	O	O	O
+
+#id=6
+#text=I look for imbedded glass , thorns , cuts or tears . 
+6-1	I	6-2_nsubj	look	PRP	P1_rider
+6-2	look	O	O	VBP	O
+6-3	for	O	O	O	O
+6-4	imbedded	O	O	JJ	O
+6-5	glass	6-2_prep_for	look	NN	P2_object_damage
+6-6	,	O	O	O	O
+6-7	thorns	O	O	NNS	P3_object_damage
+6-8	,	O	O	O	O
+6-9	cuts	O	O	NNS	P4_object_damage
+6-10	or	O	O	O	O
+6-11	tears	O	O	NNS	P5_object_damage
+6-12	.	O	O	O	O
+
+#id=7
+#text=If I find a foreign object , I remove it . 
+7-1	If	7-3_mark	find	IN	O
+7-2	I	7-3_nsubj	find	PRP	P1_rider
+7-3	find	7-9_advcl	remove	VBP	O
+7-4	a	O	O	DT	O
+7-5	foreign	O	O	JJ	O
+7-6	object	7-3_dobj	find	NN	P1_object_damage
+7-7	,	O	O	O	O
+7-8	I	7-9_nsubj	remove	PRP	P1_rider
+7-9	remove	O	O	VB	O
+7-10	it	7-9_dobj	remove	PRP	P1_object_damage
+7-11	.	O	O	O	O
+
+#id=8
+#text=Then I take the tire off . 
+8-1	Then	8-3_advmod	take	RB	O
+8-2	I	8-3_nsubj	take	PRP	P1_rider
+8-3	take	O	O	VBP	O
+8-4	the	O	O	DT	O
+8-5	tire	8-3_dobj	take	NN	P1_tire
+8-6	off	8-3_prt	take	RP	O
+8-7	.	O	O	O	O
+
+#id=9
+#text=I deflate it , and push the side of the tire towards the middle , trying to expose the tube . 
+9-1	I	9-2_nsubj	deflate	PRP	P1_rider
+9-2	deflate	O	O	VBP	O
+9-3	it	9-2_dep	deflate	PRP	P1_tire
+9-4	,	O	O	O	O
+9-5	and	O	O	O	O
+9-6	push	9-2_conj_and	deflate	VBP	O
+9-7	the	O	O	DT	O
+9-8	side	9-2_dobj	deflate	NN	P1_NPart_side
+9-9	of	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	tire	O	O	NN	P1_tire
+9-12	towards	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	middle	O	O	NN	P1_NPart_middle
+9-15	,	O	O	O	O
+9-16	trying	O	O	VBG	O
+9-17	to	9-18_aux	expose	TO	O
+9-18	expose	9-16_xcomp	trying	VB	O
+9-19	the	O	O	DT	O
+9-20	tube	9-18_dobj	expose	NN	P2_tire
+9-21	.	O	O	O	O
+
+#id=10
+#text=If that fails , I use tire irons , if I have them . 
+10-1	If	10-3_mark	fails	IN	O
+10-2	that	10-3_nsubj	fails	DT	O
+10-3	fails	10-6_advcl	use	VBZ	O
+10-4	,	O	O	O	O
+10-5	I	10-6_nsubj	use	PRP	P1_rider
+10-6	use	O	O	VBP	O
+10-7	tire	O	O	NN	O
+10-8	irons	10-6_dobj	use	NNS	P2_tool
+10-9	,	O	O	O	O
+10-10	if	10-12_mark	have	IN	O
+10-11	I	10-12_nsubj	have	PRP	P1_rider
+10-12	have	10-6_advcl	use	VBP	O
+10-13	them	10-12_dobj	have	PRP	P2_tool
+10-14	.	O	O	O	O
+
+#id=11
+#text=I shove one in on the opposite side of the wheel form the valve , and lever the edge of the tire out of the rim . 
+11-1	I	11-2_nsubj	shove	PRP	P1_rider
+11-2	shove	O	O	VB	O
+11-3	one	11-2_dobj	shove	CD	P3_tool
+11-4	in	11-2_dep	shove	IN	O
+11-5	on	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	opposite	O	O	JJ	O
+11-8	side	11-2_prep_on	shove	NN	P2_NPart_side
+11-9	of	O	O	O	O
+11-10	the	O	O	DT	O
+11-11	wheel	O	O	NN	P1_wheel
+11-12	form	O	O	NN	O
+11-13	the	O	O	DT	O
+11-14	valve	O	O	NN	P4_bicycle_small_detail
+11-15	,	O	O	O	O
+11-16	and	O	O	O	O
+11-17	lever	11-2_conj_and	shove	VB	O
+11-18	the	O	O	DT	O
+11-19	edge	11-17_dobj	lever	NN	P1_NPart_edge
+11-20	of	O	O	O	O
+11-21	the	O	O	DT	O
+11-22	tire	O	O	NN	P1_tire
+11-23	out	O	O	O	O
+11-24	of	O	O	O	O
+11-25	the	O	O	DT	O
+11-26	rim	O	O	NN	P1_rim
+11-27	.	O	O	O	O
+
+#id=12
+#text=Then I put in the next tire iron about three spokes away and try to lift the section of tire in between up and away from the rim . 
+12-1	Then	12-3_advmod	put	RB	O
+12-2	I	12-3_nsubj	put	PRP	P1_rider
+12-3	put	O	O	VBD	O
+12-4	in	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	next	O	O	JJ	O
+12-7	tire	O	O	NN	O
+12-8	iron	12-3_prep_in	put	NN	P4_tool
+12-9	about	O	O	RB	O
+12-10	three	O	O	CD	O
+12-11	spokes	O	O	NNS	P5_bicycle_small_detail
+12-12	away	12-3_advmod	put	RB	O
+12-13	and	O	O	O	O
+12-14	try	12-3_conj_and	put	VBP	O
+12-15	to	12-16_aux	lift	TO	O
+12-16	lift	12-14_xcomp	try	VB	O
+12-17	the	O	O	DT	O
+12-18	section	12-16_dobj	lift	NN	P1_NPart_section
+12-19	of	O	O	O	O
+12-20	tire	O	O	NN	P1_tire
+12-21	in	12-16_prep	lift	IN	O
+12-22	between	O	O	IN	O
+12-23	up	O	O	RB	O
+12-24	and	O	O	O	O
+12-25	away	O	O	RB	O
+12-26	from	O	O	O	O
+12-27	the	O	O	DT	O
+12-28	rim	12-16_prep_from	lift	NN	P1_rim
+12-29	.	O	O	O	O
+
+#id=13
+#text=This makes it possible to take the whole tire out and remove it . 
+13-1	This	13-2_nsubj	makes	DT	O
+13-2	makes	O	O	VBZ	O
+13-3	it	O	O	PRP	O
+13-4	possible	13-2_xcomp	makes	JJ	O
+13-5	to	13-6_aux	take	TO	O
+13-6	take	O	O	VB	O
+13-7	the	O	O	DT	O
+13-8	whole	O	O	JJ	O
+13-9	tire	13-6_dobj	take	NN	P1_tire
+13-10	out	13-6_prt	take	RP	O
+13-11	and	O	O	O	O
+13-12	remove	13-6_conj_and	take	VB	O
+13-13	it	13-12_dobj	remove	PRP	P1_tire
+13-14	.	O	O	O	O
+
+#id=14
+#text=I look for the leak inside the tire , and then on the tube . 
+14-1	I	14-2_nsubj	look	PRP	P1_rider
+14-2	look	14-2_conj_and	look	VBP	O
+14-3	for	O	O	O	O
+14-4	the	O	O	DT	O
+14-5	leak	14-2_prep_for	look	NN	P1_object_damage
+14-6	inside	O	O	O	O
+14-7	the	O	O	DT	O
+14-8	tire	O	O	NN	P1_tire
+14-9	,	O	O	O	O
+14-10	and	O	O	O	O
+14-11	then	14-2_advmod	look	RB	O
+14-12	on	O	O	O	O
+14-13	the	O	O	DT	O
+14-14	tube	14-2_prep_on	look	NN	P2_tire
+14-15	.	O	O	O	O
+
+#id=15
+#text=I deflate the tube by pushing the valve center until I hear air hiss . 
+15-1	I	15-2_nsubj	deflate	PRP	P1_rider
+15-2	deflate	O	O	VBP	O
+15-3	the	O	O	DT	O
+15-4	tube	15-2_dobj	deflate	NN	P2_tire
+15-5	by	O	O	O	O
+15-6	pushing	15-2_prepc_by	deflate	VBG	O
+15-7	the	O	O	DT	O
+15-8	valve	O	O	NN	O
+15-9	center	15-6_dobj	pushing	NN	P4_bicycle_small_detail
+15-10	until	15-12_mark	hear	IN	O
+15-11	I	15-12_nsubj	hear	PRP	P1_rider
+15-12	hear	15-6_advcl	pushing	VBP	O
+15-13	air	O	O	NN	P1_air
+15-14	hiss	15-12_dobj	hear	NNS	O
+15-15	.	O	O	O	O
+
+#id=16
+#text=If I can not find the leak , I put the tube in a bucket of water and look for bubbles . 
+16-1	If	16-5_mark	find	IN	O
+16-2	I	16-5_nsubj	find	PRP	P1_rider
+16-3	can	16-5_aux	find	MD	O
+16-4	not	16-5_neg	find	RB	O
+16-5	find	16-10_advcl	put	VB	O
+16-6	the	O	O	DT	O
+16-7	leak	16-5_dobj	find	NN	P1_object_damage
+16-8	,	O	O	O	O
+16-9	I	16-10_nsubj	put	PRP	P1_rider
+16-10	put	O	O	VBD	O
+16-11	the	O	O	DT	O
+16-12	tube	16-10_dobj	put	NN	P2_tire
+16-13	in	O	O	O	O
+16-14	a	O	O	DT	O
+16-15	bucket	16-10_prep_in	put	NN	P1_NPart_bucket
+16-16	of	O	O	O	O
+16-17	water	O	O	NN	P1_NPart_water
+16-18	and	O	O	O	O
+16-19	look	O	O	NN	O
+16-20	for	O	O	O	O
+16-21	bubbles	16-10_prep_for	put	NNS	P1_air
+16-22	.	O	O	O	O
+
+#id=17
+#text=If I can not do that , I listen , and then I look around the valve . 
+17-1	If	17-5_mark	do	IN	O
+17-2	I	17-5_nsubj	do	PRP	P1_rider
+17-3	can	17-5_aux	do	MD	O
+17-4	not	17-5_neg	do	RB	O
+17-5	do	17-9_advcl	listen	VB	O
+17-6	that	17-5_dobj	do	DT	O
+17-7	,	O	O	O	O
+17-8	I	17-9_nsubj	listen	PRP	P1_rider
+17-9	listen	O	O	VBP	O
+17-10	,	O	O	O	O
+17-11	and	O	O	O	O
+17-12	then	17-14_advmod	look	RB	O
+17-13	I	17-14_nsubj	look	PRP	P1_rider
+17-14	look	17-9_conj_and	listen	VBP	O
+17-15	around	O	O	O	O
+17-16	the	O	O	DT	O
+17-17	valve	17-14_prep_around	look	NN	P4_bicycle_small_detail
+17-18	.	O	O	O	O
+
+#id=18
+#text=I also inspect the inside of the tire . 
+18-1	I	18-3_nsubj	inspect	PRP	P1_rider
+18-2	also	18-3_advmod	inspect	RB	O
+18-3	inspect	O	O	VBP	O
+18-4	the	O	O	DT	O
+18-5	inside	18-3_dobj	inspect	NN	P1_NPart_inside
+18-6	of	O	O	O	O
+18-7	the	O	O	DT	O
+18-8	tire	O	O	NN	P1_tire
+18-9	.	O	O	O	O
+
+#id=19
+#text=Now , I need a patch kit . 
+19-1	Now	19-4_advmod	need	RB	O
+19-2	,	O	O	O	O
+19-3	I	19-4_nsubj	need	PRP	P1_rider
+19-4	need	O	O	VBP	O
+19-5	a	O	O	DT	O
+19-6	patch	O	O	NN	O
+19-7	kit	19-4_dobj	need	NN	P1_tool
+19-8	.	O	O	O	O
+
+#id=20
+#text=I clean the outside of the tire near the leak as much as I can . 
+20-1	I	20-2_nsubj	clean	PRP	P1_rider
+20-2	clean	O	O	VB	O
+20-3	the	O	O	DT	O
+20-4	outside	20-2_dobj	clean	NN	P2_NPart_outside
+20-5	of	O	O	O	O
+20-6	the	O	O	DT	O
+20-7	tire	O	O	NN	P1_tire
+20-8	near	O	O	O	O
+20-9	the	O	O	DT	O
+20-10	leak	O	O	NN	P1_object_damage
+20-11	as	O	O	RB	O
+20-12	much	20-2_advmod	clean	RB	O
+20-13	as	O	O	IN	O
+20-14	I	O	O	PRP	P1_rider
+20-15	can	20-2_advcl	clean	MD	O
+20-16	.	O	O	O	O
+
+#id=21
+#text=Then I roughen the area with the scratchy thing provided . 
+21-1	Then	21-3_advmod	roughen	RB	O
+21-2	I	21-3_nsubj	roughen	PRP	P1_rider
+21-3	roughen	O	O	VBP	O
+21-4	the	O	O	DT	O
+21-5	area	21-3_dobj	roughen	NN	P1_NPart_area
+21-6	with	O	O	O	O
+21-7	the	O	O	DT	O
+21-8	scratchy	O	O	JJ	O
+21-9	thing	21-3_prep_with	roughen	NN	P5_tool
+21-10	provided	O	O	VBN	O
+21-11	.	O	O	O	O
+
+#id=22
+#text=I spread the foul-smelling glue , let it dry until it is tacky , and press on the patch , starting at its center , and being careful not to glue the tire to itself . 
+22-1	I	22-2_nsubj	spread	PRP	P1_rider
+22-2	spread	O	O	VBP	O
+22-3	the	O	O	DT	O
+22-4	foul-smelling	O	O	JJ	O
+22-5	glue	22-2_dobj	spread	NN	P6_tool
+22-6	,	O	O	O	O
+22-7	let	22-2_conj_and	spread	VB	O
+22-8	it	O	O	PRP	P6_tool
+22-9	dry	22-7_xcomp	let	JJ	O
+22-10	until	O	O	IN	O
+22-11	it	O	O	PRP	P6_tool
+22-12	is	O	O	VBZ	O
+22-13	tacky	22-7_advcl	let	JJ	O
+22-14	,	O	O	O	O
+22-15	and	O	O	O	O
+22-16	press	22-2_conj_and	spread	VBP	O
+22-17	on	O	O	O	O
+22-18	the	O	O	DT	O
+22-19	patch	22-2_prep_on	spread	NN	P1_patch
+22-20	,	O	O	O	O
+22-21	starting	22-2_conj_and	spread	VBG	O
+22-22	at	O	O	O	O
+22-23	its	O	O	PRP$	P1_patch
+22-24	center	22-21_prep_at	starting	NN	P1_NPart_center
+22-25	,	O	O	O	O
+22-26	and	O	O	O	O
+22-27	being	O	O	VBG	O
+22-28	careful	22-21_conj_and	starting	JJ	O
+22-29	not	22-31_neg	glue	RB	O
+22-30	to	22-31_aux	glue	TO	O
+22-31	glue	O	O	VB	O
+22-32	the	O	O	DT	O
+22-33	tire	22-31_dobj	glue	NN	P1_tire
+22-34	to	O	O	O	O
+22-35	itself	22-31_prep_to	glue	PRP	P1_tire
+22-36	.	O	O	O	O
+
+#id=23
+#text=Now I partially re-inflate the tube , and replace it in the tire , making sure the spoke cushion stays in place . 
+23-1	Now	23-4_advmod	re-inflate	RB	O
+23-2	I	23-4_nsubj	re-inflate	PRP	P1_rider
+23-3	partially	23-4_advmod	re-inflate	RB	O
+23-4	re-inflate	O	O	VBP	O
+23-5	the	O	O	DT	O
+23-6	tube	23-4_dobj	re-inflate	NN	P2_tire
+23-7	,	O	O	O	O
+23-8	and	O	O	O	O
+23-9	replace	23-4_conj_and	re-inflate	VB	O
+23-10	it	23-9_dobj	replace	PRP	P2_tire
+23-11	in	O	O	O	O
+23-12	the	O	O	DT	O
+23-13	tire	23-9_prep_in	replace	NN	P1_tire
+23-14	,	O	O	O	O
+23-15	making	23-4_conj_and	re-inflate	VBG	O
+23-16	sure	23-15_acomp	making	JJ	O
+23-17	the	O	O	DT	O
+23-18	spoke	O	O	JJ	O
+23-19	cushion	O	O	NN	P6_bicycle_small_detail
+23-20	stays	O	O	NNS	O
+23-21	in	O	O	O	O
+23-22	place	O	O	NN	O
+23-23	.	O	O	O	O
+
+#id=24
+#text=I put the tire on the wheel , and check to see that the valve is pointed straight to the center . 
+24-1	I	24-2_nsubj	put	PRP	P1_rider
+24-2	put	O	O	VBD	O
+24-3	the	O	O	DT	O
+24-4	tire	24-2_dobj	put	NN	P1_tire
+24-5	on	O	O	O	O
+24-6	the	O	O	DT	O
+24-7	wheel	24-2_prep_on	put	NN	P1_wheel
+24-8	,	O	O	O	O
+24-9	and	O	O	O	O
+24-10	check	24-2_conj_and	put	VBP	O
+24-11	to	24-12_aux	see	TO	O
+24-12	see	24-10_xcomp	check	VB	O
+24-13	that	24-17_mark	pointed	IN	O
+24-14	the	O	O	DT	O
+24-15	valve	24-17_nsubjpass	pointed	NN	P4_bicycle_small_detail
+24-16	is	24-17_auxpass	pointed	VBZ	O
+24-17	pointed	24-12_ccomp	see	VBN	O
+24-18	straight	24-17_advmod	pointed	RB	O
+24-19	to	O	O	O	O
+24-20	the	O	O	DT	O
+24-21	center	24-17_prep_to	pointed	NN	P2_NPart_center
+24-22	.	O	O	O	O
+
+#id=25
+#text=I re-inflate the tube , and then replace the wheel and reattach it and reattach the brake . 
+25-1	I	25-2_nsubj	re-inflate	PRP	P1_rider
+25-2	re-inflate	O	O	VBP	O
+25-3	the	O	O	DT	O
+25-4	tube	25-2_dobj	re-inflate	NN	P2_tire
+25-5	,	O	O	O	O
+25-6	and	O	O	O	O
+25-7	then	25-8_advmod	replace	RB	O
+25-8	replace	25-2_conj_and	re-inflate	VB	O
+25-9	the	O	O	DT	O
+25-10	wheel	25-8_dobj	replace	NN	P1_wheel
+25-11	and	O	O	O	O
+25-12	reattach	25-8_conj_and	replace	VB	O
+25-13	it	25-12_dobj	reattach	PRP	P1_wheel
+25-14	and	O	O	O	O
+25-15	reattach	25-8_conj_and	replace	VB	O
+25-16	the	O	O	DT	O
+25-17	brake	25-15_dobj	reattach	NN	P1_bicycle_small_detail
+25-18	.	O	O	O	O
+
+#id=26
+#text=And I turn the bike over again and ride . 
+26-1	And	O	O	O	O
+26-2	I	26-3_nsubj	turn	PRP	P1_rider
+26-3	turn	O	O	VB	O
+26-4	the	O	O	DT	O
+26-5	bike	26-3_dobj	turn	NN	P1_bicycle
+26-6	over	26-3_prt	turn	RP	O
+26-7	again	26-3_advmod	turn	RB	O
+26-8	and	O	O	O	O
+26-9	ride	26-3_conj_and	turn	VB	O
+26-10	.	O	O	O	O

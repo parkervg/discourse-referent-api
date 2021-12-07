@@ -1,0 +1,215 @@
+#id=1
+#text=I like traveling by plane . 
+1-1	I	1-2_nsubj	like	PRP	P1_passenger
+1-2	like	O	O	VBP	O
+1-3	traveling	1-2_xcomp	like	VBG	O
+1-4	by	O	O	O	O
+1-5	plane	1-3_prep_by	traveling	NN	P1_plane
+1-6	.	O	O	O	O
+
+#id=2
+#text=I love the sound of the big metal bird racing off the runway . 
+2-1	I	2-2_nsubj	love	PRP	P1_passenger
+2-2	love	O	O	VBP	O
+2-3	the	O	O	DT	O
+2-4	sound	2-2_dobj	love	NN	P1_NPart_sound
+2-5	of	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	big	O	O	JJ	O
+2-8	metal	O	O	NN	O
+2-9	bird	O	O	NN	P1_plane
+2-10	racing	O	O	VBG	O
+2-11	off	2-10_prt	racing	RP	O
+2-12	the	O	O	DT	O
+2-13	runway	2-10_dobj	racing	NN	P1_location_airplane
+2-14	.	O	O	O	O
+
+#id=3
+#text=I have flown when the skies have been blue and other times the sky has been gray . 
+3-1	I	3-3_nsubj	flown	PRP	P1_passenger
+3-2	have	3-3_aux	flown	VBP	O
+3-3	flown	O	O	VBN	O
+3-4	when	O	O	WRB	O
+3-5	the	O	O	DT	O
+3-6	skies	O	O	NNS	P1_NPart_skies
+3-7	have	O	O	VBP	O
+3-8	been	O	O	VBN	O
+3-9	blue	O	O	JJ	O
+3-10	and	O	O	O	O
+3-11	other	O	O	JJ	O
+3-12	times	3-3_advcl	flown	NNS	P1_NPart_times
+3-13	the	O	O	DT	O
+3-14	sky	O	O	NN	P1_NPart_sky
+3-15	has	O	O	VBZ	O
+3-16	been	O	O	VBN	O
+3-17	gray	O	O	JJ	O
+3-18	.	O	O	O	O
+
+#id=4
+#text=I ' ve met many people traveling from different places on the globe . 
+4-1	I	O	O	PRP	P1_passenger
+4-2	'	O	O	O	O
+4-3	ve	4-4_nsubj	met	NN	O
+4-4	met	O	O	VBD	O
+4-5	many	O	O	JJ	O
+4-6	people	4-4_dobj	met	NNS	P2_passenger
+4-7	traveling	O	O	VBG	O
+4-8	from	O	O	O	O
+4-9	different	O	O	JJ	O
+4-10	places	4-7_prep_from	traveling	NNS	P1_NPart_places
+4-11	on	O	O	O	O
+4-12	the	O	O	DT	O
+4-13	globe	O	O	NN	P1_NPart_globe
+4-14	.	O	O	O	O
+
+#id=5
+#text=The one thing I will never understand is why the flight attendants only give you a half a can of soda and small bag of peanuts . 
+5-1	The	O	O	DT	O
+5-2	one	O	O	CD	O
+5-3	thing	5-8_nsubj	is	NN	P1_NPart_thing
+5-4	I	5-7_nsubj	understand	PRP	P1_passenger
+5-5	will	5-7_aux	understand	MD	O
+5-6	never	5-7_neg	understand	RB	O
+5-7	understand	O	O	VB	O
+5-8	is	O	O	VBZ	O
+5-9	why	5-14_advmod	give	WRB	O
+5-10	the	O	O	DT	O
+5-11	flight	O	O	NN	O
+5-12	attendants	5-14_nsubj	give	NNS	P1_staff
+5-13	only	5-14_advmod	give	RB	O
+5-14	give	5-8_advcl	is	VBP	O
+5-15	you	5-14_iobj	give	PRP	P1_passenger
+5-16	a	O	O	DT	O
+5-17	half	O	O	PDT	O
+5-18	a	O	O	DT	O
+5-19	can	5-14_dobj	give	NN	O
+5-20	of	O	O	O	O
+5-21	soda	O	O	NN	P1_other
+5-22	and	O	O	O	O
+5-23	small	O	O	JJ	O
+5-24	bag	O	O	NN	O
+5-25	of	O	O	O	O
+5-26	peanuts	O	O	NNS	P2_other
+5-27	.	O	O	O	O
+
+#id=6
+#text=I love the safety show the flight attendants put on in case there ' s an emergency . 
+6-1	I	6-2_nsubj	love	PRP	P1_passenger
+6-2	love	O	O	VBP	O
+6-3	the	O	O	DT	O
+6-4	safety	6-5_nsubj	show	NN	O
+6-5	show	6-2_ccomp	love	VBP	P3_other
+6-6	the	O	O	DT	O
+6-7	flight	O	O	NN	O
+6-8	attendants	O	O	NNS	P1_staff
+6-9	put	O	O	VBN	O
+6-10	on	6-9_prt	put	RP	O
+6-11	in	O	O	O	O
+6-12	case	6-9_prep_in	put	NN	O
+6-13	there	6-9_advmod	put	RB	O
+6-14	'	O	O	O	O
+6-15	s	O	O	VBZ	O
+6-16	an	O	O	DT	O
+6-17	emergency	6-5_ccomp	show	NN	P1_NPart_emergency
+6-18	.	O	O	O	O
+
+#id=7
+#text=However , I hate turbulence because it sounds like the plane is banging into other planes in the sky . 
+7-1	However	7-4_advmod	hate	RB	O
+7-2	,	O	O	O	O
+7-3	I	7-4_nsubj	hate	PRP	P1_passenger
+7-4	hate	O	O	VBP	O
+7-5	turbulence	7-4_dobj	hate	NN	P4_other
+7-6	because	7-8_mark	sounds	IN	O
+7-7	it	7-8_nsubj	sounds	PRP	O
+7-8	sounds	7-4_advcl	hate	VBZ	O
+7-9	like	7-13_mark	banging	IN	O
+7-10	the	O	O	DT	O
+7-11	plane	7-13_nsubj	banging	NN	P1_plane
+7-12	is	7-13_aux	banging	VBZ	O
+7-13	banging	7-8_advcl	sounds	VBG	O
+7-14	into	O	O	O	O
+7-15	other	O	O	JJ	O
+7-16	planes	7-13_prep_into	banging	NNS	P1_plane
+7-17	in	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	sky	O	O	NN	P2_location_airplane
+7-20	.	O	O	O	O
+
+#id=8
+#text=One time I flew on a plane with only nine other passengers . 
+8-1	One	O	O	CD	O
+8-2	time	8-4_nsubj	flew	NN	O
+8-3	I	8-4_nsubj	flew	PRP	P1_passenger
+8-4	flew	O	O	VBD	O
+8-5	on	O	O	O	O
+8-6	a	O	O	DT	O
+8-7	plane	8-4_prep_on	flew	NN	P1_plane
+8-8	with	O	O	O	O
+8-9	only	O	O	RB	O
+8-10	nine	O	O	CD	O
+8-11	other	O	O	JJ	O
+8-12	passengers	8-4_prep_with	flew	NNS	P3_passenger
+8-13	.	O	O	O	O
+
+#id=9
+#text=I had a seat to myself . 
+9-1	I	9-2_nsubj	had	PRP	P1_passenger
+9-2	had	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	seat	9-2_dobj	had	NN	P1_seat
+9-5	to	O	O	O	O
+9-6	myself	O	O	PRP	P1_passenger
+9-7	.	O	O	O	O
+
+#id=10
+#text=I stretched out like I was at home and watched a movie . 
+10-1	I	10-2_nsubj	stretched	PRP	P1_passenger
+10-2	stretched	O	O	VBD	O
+10-3	out	10-2_prt	stretched	RP	O
+10-4	like	10-6_mark	was	IN	O
+10-5	I	10-6_nsubj	was	PRP	P1_passenger
+10-6	was	10-2_advcl	stretched	VBD	O
+10-7	at	10-6_advmod	was	IN	O
+10-8	home	O	O	NN	O
+10-9	and	O	O	O	O
+10-10	watched	10-6_conj_and	was	VBD	O
+10-11	a	O	O	DT	O
+10-12	movie	10-10_dobj	watched	NN	P1_in-flight_entertainment
+10-13	.	O	O	O	O
+
+#id=11
+#text=Undisturbed ! 
+11-1	Undisturbed	O	O	O	O
+11-2	!	O	O	O	O
+
+#id=12
+#text=One day I hope to have a concession stand in an airport . 
+12-1	One	O	O	CD	O
+12-2	day	12-4_tmod	hope	NN	P1_time/date
+12-3	I	12-4_nsubj	hope	PRP	P1_passenger
+12-4	hope	O	O	VBP	O
+12-5	to	12-6_aux	have	TO	O
+12-6	have	12-4_xcomp	hope	VB	O
+12-7	a	O	O	DT	O
+12-8	concession	O	O	NN	O
+12-9	stand	12-6_dobj	have	NN	P1_NPart_stand
+12-10	in	O	O	O	O
+12-11	an	O	O	DT	O
+12-12	airport	O	O	NN	P1_airport
+12-13	.	O	O	O	O
+
+#id=13
+#text=They seemed to make a lot of money off people flying . 
+13-1	They	13-2_nsubj	seemed	PRP	O
+13-2	seemed	O	O	VBD	O
+13-3	to	13-4_aux	make	TO	O
+13-4	make	13-2_xcomp	seemed	VB	O
+13-5	a	O	O	DT	O
+13-6	lot	13-4_dobj	make	NN	O
+13-7	of	O	O	O	O
+13-8	money	O	O	NN	O
+13-9	off	O	O	O	O
+13-10	people	13-4_prep_off	make	NNS	P4_passenger
+13-11	flying	O	O	VBG	O
+13-12	.	O	O	O	O

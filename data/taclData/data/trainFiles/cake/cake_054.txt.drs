@@ -1,0 +1,319 @@
+#id=1
+#text=I love too cook . 
+1-1	I	1-2_nsubj	love	PRP	P1_cook
+1-2	love	O	O	VBP	O
+1-3	too	O	O	RB	O
+1-4	cook	1-2_acomp	love	JJ	O
+1-5	.	O	O	O	O
+
+#id=2
+#text=Cooking is far easier than most people think , in fact , I believe that it is often as easy to make good food from scratch as it is to make something from a box , and it tastes a million times better . 
+2-1	Cooking	O	O	NNP	P1_NPart_cooking
+2-2	is	O	O	VBZ	O
+2-3	far	O	O	RB	O
+2-4	easier	O	O	JJR	O
+2-5	than	2-8_mark	think	IN	O
+2-6	most	O	O	JJS	O
+2-7	people	2-8_nsubj	think	NNS	P1_NPart_people
+2-8	think	O	O	VBP	O
+2-9	,	O	O	O	O
+2-10	in	O	O	O	O
+2-11	fact	2-14_prep_in	believe	NN	O
+2-12	,	O	O	O	O
+2-13	I	2-14_nsubj	believe	PRP	P1_cook
+2-14	believe	O	O	VBP	O
+2-15	that	O	O	IN	O
+2-16	it	O	O	PRP	O
+2-17	is	O	O	VBZ	O
+2-18	often	O	O	RB	O
+2-19	as	O	O	RB	O
+2-20	easy	2-14_ccomp	believe	JJ	O
+2-21	to	2-22_aux	make	TO	O
+2-22	make	O	O	VB	O
+2-23	good	O	O	JJ	O
+2-24	food	2-22_dobj	make	NN	P1_other
+2-25	from	O	O	O	O
+2-26	scratch	2-22_prep_from	make	NN	O
+2-27	as	2-29_mark	is	IN	O
+2-28	it	2-29_nsubj	is	PRP	O
+2-29	is	O	O	VBZ	O
+2-30	to	2-31_aux	make	TO	O
+2-31	make	2-29_xcomp	is	VB	O
+2-32	something	2-31_dobj	make	NN	O
+2-33	from	O	O	O	O
+2-34	a	O	O	DT	O
+2-35	box	2-31_prep_from	make	NN	P2_other
+2-36	,	O	O	O	O
+2-37	and	O	O	O	O
+2-38	it	2-39_nsubj	tastes	PRP	O
+2-39	tastes	O	O	VBZ	O
+2-40	a	O	O	DT	O
+2-41	million	O	O	CD	O
+2-42	times	O	O	NNS	O
+2-43	better	2-39_acomp	tastes	JJR	O
+2-44	.	O	O	O	O
+
+#id=3
+#text=One of the best examples of this is a simple cake . 
+3-1	One	O	O	CD	O
+3-2	of	O	O	O	O
+3-3	the	O	O	DT	O
+3-4	best	O	O	JJS	O
+3-5	examples	O	O	NNS	P1_NPart_examples
+3-6	of	O	O	O	O
+3-7	this	O	O	DT	O
+3-8	is	O	O	VBZ	O
+3-9	a	O	O	DT	O
+3-10	simple	O	O	JJ	O
+3-11	cake	O	O	NN	P1_cake
+3-12	.	O	O	O	O
+
+#id=4
+#text=A basic yellow cake takes only a few ingredients ; flour , sugar , eggs milk , baking powder , salt , vanilla , and water . 
+4-1	A	O	O	DT	O
+4-2	basic	O	O	JJ	O
+4-3	yellow	O	O	JJ	O
+4-4	cake	4-5_nsubj	takes	NN	P1_cake
+4-5	takes	O	O	VBZ	O
+4-6	only	O	O	RB	O
+4-7	a	O	O	DT	O
+4-8	few	O	O	JJ	O
+4-9	ingredients	4-5_dobj	takes	NNS	P1_ingredients
+4-10	;	O	O	O	O
+4-11	flour	O	O	NN	P2_ingredients
+4-12	,	O	O	O	O
+4-13	sugar	O	O	NN	P3_ingredients
+4-14	,	O	O	O	O
+4-15	eggs	O	O	NNS	P4_ingredients
+4-16	milk	O	O	NN	P5_ingredients
+4-17	,	O	O	O	O
+4-18	baking	O	O	JJ	O
+4-19	powder	O	O	NN	P6_ingredients
+4-20	,	O	O	O	O
+4-21	salt	O	O	NN	P7_ingredients
+4-22	,	O	O	O	O
+4-23	vanilla	O	O	NN	P8_ingredients
+4-24	,	O	O	O	O
+4-25	and	O	O	O	O
+4-26	water	O	O	NN	P9_ingredients
+4-27	.	O	O	O	O
+
+#id=5
+#text=Once a person sifts the dry ingredients together it is the same a making a box cake mix . 
+5-1	Once	5-4_mark	sifts	IN	O
+5-2	a	O	O	DT	O
+5-3	person	5-4_nsubj	sifts	NN	P2_cook
+5-4	sifts	O	O	VBZ	O
+5-5	the	O	O	DT	O
+5-6	dry	O	O	JJ	O
+5-7	ingredients	5-4_dobj	sifts	NNS	P10_ingredients
+5-8	together	5-4_advmod	sifts	RB	O
+5-9	it	O	O	PRP	O
+5-10	is	O	O	VBZ	O
+5-11	the	O	O	DT	O
+5-12	same	O	O	JJ	O
+5-13	a	O	O	DT	O
+5-14	making	O	O	VBG	O
+5-15	a	O	O	DT	O
+5-16	box	O	O	NN	O
+5-17	cake	O	O	NN	O
+5-18	mix	5-14_dobj	making	NN	P11_ingredients
+5-19	.	O	O	O	O
+
+#id=6
+#text=The time and directions are nearly identical , but the result is much cheaper and more delicious than anything out of a box . 
+6-1	The	O	O	DT	O
+6-2	time	O	O	NN	P1_time
+6-3	and	O	O	O	O
+6-4	directions	O	O	NNS	P1_baking_instructions
+6-5	are	O	O	VBP	O
+6-6	nearly	O	O	RB	O
+6-7	identical	O	O	JJ	O
+6-8	,	O	O	O	O
+6-9	but	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	result	O	O	NN	P1_cake
+6-12	is	O	O	VBZ	O
+6-13	much	O	O	RB	O
+6-14	cheaper	O	O	JJR	O
+6-15	and	O	O	O	O
+6-16	more	O	O	RBR	O
+6-17	delicious	O	O	JJ	O
+6-18	than	O	O	O	O
+6-19	anything	O	O	NN	O
+6-20	out	O	O	O	O
+6-21	of	O	O	O	O
+6-22	a	O	O	DT	O
+6-23	box	O	O	NN	P2_other
+6-24	.	O	O	O	O
+
+#id=7
+#text=While the cake is baking it is wise to make a good frosting for the cake , once someone has home made frosting , the stuff in a can tastes only like chemicals . 
+7-1	While	7-5_mark	baking	IN	O
+7-2	the	O	O	DT	O
+7-3	cake	7-5_nsubj	baking	NN	P1_cake
+7-4	is	7-5_aux	baking	VBZ	O
+7-5	baking	7-30_advcl	tastes	VBG	O
+7-6	it	O	O	PRP	O
+7-7	is	O	O	VBZ	O
+7-8	wise	7-5_ccomp	baking	JJ	O
+7-9	to	7-10_aux	make	TO	O
+7-10	make	O	O	VB	O
+7-11	a	O	O	DT	O
+7-12	good	O	O	JJ	O
+7-13	frosting	7-10_dobj	make	NN	P12_ingredients
+7-14	for	O	O	O	O
+7-15	the	O	O	DT	O
+7-16	cake	O	O	NN	P1_cake
+7-17	,	O	O	O	O
+7-18	once	7-22_mark	made	IN	O
+7-19	someone	7-22_nsubj	made	NN	O
+7-20	has	7-22_aux	made	VBZ	O
+7-21	home	7-22_advmod	made	RB	O
+7-22	made	O	O	VBN	O
+7-23	frosting	7-22_xcomp	made	VBG	P12_ingredients
+7-24	,	O	O	O	O
+7-25	the	O	O	DT	O
+7-26	stuff	7-30_nsubj	tastes	NN	P1_NPart_stuff
+7-27	in	O	O	O	O
+7-28	a	O	O	DT	O
+7-29	can	O	O	NN	O
+7-30	tastes	O	O	VBZ	O
+7-31	only	7-30_advmod	tastes	RB	O
+7-32	like	O	O	O	O
+7-33	chemicals	7-30_prep_like	tastes	NNS	P1_NPart_chemicals
+7-34	.	O	O	O	O
+
+#id=8
+#text=Frosting is even easier than the cake to prepare , Vanilla butter cream frosting the just ; powdered sugar , vanilla , butter and milk . 
+8-1	Frosting	O	O	NNP	P12_ingredients
+8-2	is	O	O	VBZ	O
+8-3	even	O	O	RB	O
+8-4	easier	O	O	JJR	O
+8-5	than	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	cake	O	O	NN	P1_cake
+8-8	to	8-9_aux	prepare	TO	O
+8-9	prepare	O	O	VB	O
+8-10	,	O	O	O	O
+8-11	Vanilla	O	O	NNP	O
+8-12	butter	O	O	NN	O
+8-13	cream	8-14_nsubj	frosting	NN	O
+8-14	frosting	O	O	VBG	P12_ingredients
+8-15	the	O	O	DT	O
+8-16	just	8-14_dobj	frosting	RB	O
+8-17	;	O	O	O	O
+8-18	powdered	O	O	VBG	O
+8-19	sugar	8-18_dobj	powdered	NN	P3_ingredients
+8-20	,	O	O	O	O
+8-21	vanilla	O	O	NN	P8_ingredients
+8-22	,	O	O	O	O
+8-23	butter	O	O	NN	P13_ingredients
+8-24	and	O	O	O	O
+8-25	milk	O	O	NN	P5_ingredients
+8-26	.	O	O	O	O
+
+#id=9
+#text=When mixed in the correct proportions and whipped up this is the perfect topping for any cake , and with food coloring is an excellent medium for any decorated cakes , because any color will take easily to the stark white base . 
+9-1	When	O	O	WRB	O
+9-2	mixed	O	O	VBN	O
+9-3	in	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	correct	O	O	JJ	O
+9-6	proportions	9-2_prep_in	mixed	NNS	P1_NPart_proportions
+9-7	and	O	O	O	O
+9-8	whipped	9-2_conj_and	mixed	VBN	O
+9-9	up	9-8_prt	whipped	RP	O
+9-10	this	9-8_dobj	whipped	DT	P12_ingredients
+9-11	is	O	O	VBZ	O
+9-12	the	O	O	DT	O
+9-13	perfect	O	O	JJ	O
+9-14	topping	9-14_conj_and	topping	VBG	P12_ingredients
+9-15	for	O	O	O	O
+9-16	any	O	O	DT	O
+9-17	cake	9-14_prep_for	topping	NN	P1_cake
+9-18	,	O	O	O	O
+9-19	and	O	O	O	O
+9-20	with	O	O	O	O
+9-21	food	9-14_prep_with	topping	NN	O
+9-22	coloring	O	O	NN	P14_ingredients
+9-23	is	O	O	VBZ	O
+9-24	an	O	O	DT	O
+9-25	excellent	O	O	JJ	O
+9-26	medium	O	O	NN	P1_NPart_medium
+9-27	for	O	O	O	O
+9-28	any	9-29_advmod	decorated	RB	O
+9-29	decorated	O	O	VBN	O
+9-30	cakes	O	O	NNS	P1_cake
+9-31	,	O	O	O	O
+9-32	because	9-36_mark	take	IN	O
+9-33	any	O	O	DT	O
+9-34	color	9-36_nsubj	take	NN	P1_NPart_color
+9-35	will	9-36_aux	take	MD	O
+9-36	take	O	O	VB	O
+9-37	easily	9-36_advmod	take	RB	O
+9-38	to	O	O	O	O
+9-39	the	O	O	DT	O
+9-40	stark	O	O	JJ	O
+9-41	white	O	O	JJ	O
+9-42	base	9-36_prep_to	take	NN	P1_NPart_base
+9-43	.	O	O	O	O
+
+#id=10
+#text=Once the cake is baked it is important to watch it , to be sure it cools enough before removing it from the pan to frost . 
+10-1	Once	O	O	IN	O
+10-2	the	O	O	DT	O
+10-3	cake	O	O	NN	P1_cake
+10-4	is	O	O	VBZ	O
+10-5	baked	O	O	JJ	O
+10-6	it	O	O	PRP	O
+10-7	is	O	O	VBZ	O
+10-8	important	O	O	JJ	O
+10-9	to	10-10_aux	watch	TO	O
+10-10	watch	O	O	VB	O
+10-11	it	10-10_dobj	watch	PRP	P1_cake
+10-12	,	O	O	O	O
+10-13	to	O	O	TO	O
+10-14	be	O	O	VB	O
+10-15	sure	10-10_vmod	watch	JJ	O
+10-16	it	10-17_nsubj	cools	PRP	P1_cake
+10-17	cools	O	O	VBZ	O
+10-18	enough	10-17_acomp	cools	JJ	O
+10-19	before	O	O	O	O
+10-20	removing	O	O	VBG	O
+10-21	it	10-20_dobj	removing	PRP	P1_cake
+10-22	from	O	O	O	O
+10-23	the	O	O	DT	O
+10-24	pan	10-20_prep_from	removing	NN	P1_cake_tin
+10-25	to	10-26_aux	frost	TO	O
+10-26	frost	O	O	VB	O
+10-27	.	O	O	O	O
+
+#id=11
+#text=A cake plate -LRB- the kind on a small pedestal -RRB- is the perfect thing to make guests fawn over this quick and easy dessert . 
+11-1	A	O	O	DT	O
+11-2	cake	O	O	NN	O
+11-3	plate	O	O	NN	P1_utensil
+11-4	-LRB-	O	O	O	O
+11-5	the	O	O	DT	O
+11-6	kind	O	O	NN	O
+11-7	on	O	O	O	O
+11-8	a	O	O	DT	O
+11-9	small	O	O	JJ	O
+11-10	pedestal	O	O	NN	P3_other
+11-11	-RRB-	O	O	O	O
+11-12	is	O	O	VBZ	O
+11-13	the	O	O	DT	O
+11-14	perfect	O	O	JJ	O
+11-15	thing	O	O	NN	P1_utensil
+11-16	to	11-17_aux	make	TO	O
+11-17	make	O	O	VB	O
+11-18	guests	O	O	NNS	P1_beneficiary
+11-19	fawn	11-17_dobj	make	NN	O
+11-20	over	O	O	O	O
+11-21	this	O	O	DT	O
+11-22	quick	O	O	JJ	O
+11-23	and	O	O	O	O
+11-24	easy	O	O	JJ	O
+11-25	dessert	O	O	NN	P1_cake
+11-26	.	O	O	O	O

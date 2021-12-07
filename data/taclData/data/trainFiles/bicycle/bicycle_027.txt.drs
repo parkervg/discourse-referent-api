@@ -1,0 +1,248 @@
+#id=1
+#text=As an avid mountain biker , I have found myself in many precarious situations . 
+1-1	As	O	O	O	O
+1-2	an	O	O	DT	O
+1-3	avid	O	O	JJ	O
+1-4	mountain	O	O	NN	O
+1-5	biker	1-9_prep_as	found	NN	P1_rider
+1-6	,	O	O	O	O
+1-7	I	1-9_nsubj	found	PRP	P1_rider
+1-8	have	1-9_aux	found	VBP	O
+1-9	found	O	O	VBN	O
+1-10	myself	1-9_dobj	found	PRP	P1_rider
+1-11	in	O	O	O	O
+1-12	many	O	O	JJ	O
+1-13	precarious	O	O	JJ	O
+1-14	situations	1-9_prep_in	found	NNS	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=From run ins with bears , to falling into prickly bushes . 
+2-1	From	2-2_nsubj	run	NNP	O
+2-2	run	O	O	VBP	O
+2-3	ins	2-2_dobj	run	NN	O
+2-4	with	O	O	O	O
+2-5	bears	2-2_prep_with	run	NNS	P1_NPart_bears
+2-6	,	O	O	O	O
+2-7	to	O	O	O	O
+2-8	falling	2-2_prepc_to	run	VBG	O
+2-9	into	O	O	O	O
+2-10	prickly	O	O	JJ	O
+2-11	bushes	2-8_prep_into	falling	NNS	P1_NPart_bushes
+2-12	.	O	O	O	O
+
+#id=3
+#text=It is always an adventure when you are riding your mountain bike through the great outdoors . 
+3-1	It	O	O	PRP	O
+3-2	is	O	O	VBZ	O
+3-3	always	O	O	RB	O
+3-4	an	O	O	DT	O
+3-5	adventure	O	O	NN	O
+3-6	when	3-9_advmod	riding	WRB	O
+3-7	you	3-9_nsubj	riding	PRP	P1_rider
+3-8	are	3-9_aux	riding	VBP	O
+3-9	riding	O	O	VBG	O
+3-10	your	O	O	PRP$	P1_rider
+3-11	mountain	O	O	NN	O
+3-12	bike	3-9_dobj	riding	NN	P1_bicycle
+3-13	through	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	great	O	O	JJ	O
+3-16	outdoors	3-9_prep_through	riding	NNS	O
+3-17	.	O	O	O	O
+
+#id=4
+#text=One particular issue that affects all mountain bikers , is flat tires . 
+4-1	One	O	O	CD	O
+4-2	particular	O	O	JJ	O
+4-3	issue	O	O	NN	O
+4-4	that	4-5_nsubj	affects	WDT	O
+4-5	affects	O	O	VBZ	O
+4-6	all	O	O	DT	O
+4-7	mountain	O	O	NN	O
+4-8	bikers	4-5_dobj	affects	NNS	P2_rider
+4-9	,	O	O	O	O
+4-10	is	O	O	VBZ	O
+4-11	flat	O	O	JJ	O
+4-12	tires	O	O	NNS	P1_tire
+4-13	.	O	O	O	O
+
+#id=5
+#text=I have had numerous flat tires during my years riding . 
+5-1	I	5-3_nsubj	had	PRP	P1_rider
+5-2	have	5-3_aux	had	VBP	O
+5-3	had	O	O	VBN	O
+5-4	numerous	O	O	JJ	O
+5-5	flat	O	O	JJ	O
+5-6	tires	5-3_dobj	had	NNS	P1_tire
+5-7	during	O	O	O	O
+5-8	my	O	O	PRP$	P1_rider
+5-9	years	5-3_prep_during	had	NNS	P1_NPart_years
+5-10	riding	O	O	VBG	O
+5-11	.	O	O	O	O
+
+#id=6
+#text=The first flat tire I ever had left me stranded miles away form civilization . 
+6-1	The	O	O	DT	O
+6-2	first	O	O	JJ	O
+6-3	flat	O	O	JJ	O
+6-4	tire	6-13_nsubj	form	NN	P2_tire
+6-5	I	6-8_nsubj	left	PRP	P1_rider
+6-6	ever	6-8_advmod	left	RB	O
+6-7	had	6-8_aux	left	VBD	O
+6-8	left	O	O	VBN	O
+6-9	me	6-8_iobj	left	PRP	P1_rider
+6-10	stranded	O	O	CD	O
+6-11	miles	6-8_dobj	left	NNS	P1_NPart_miles
+6-12	away	6-13_advmod	form	RB	O
+6-13	form	O	O	VBP	O
+6-14	civilization	6-13_dobj	form	NN	P1_NPart_civilization
+6-15	.	O	O	O	O
+
+#id=7
+#text=I had to hoof it out on foot , carrying a broken bike . 
+7-1	I	7-2_nsubj	had	PRP	P1_rider
+7-2	had	O	O	VBD	O
+7-3	to	7-4_aux	hoof	TO	O
+7-4	hoof	7-2_xcomp	had	VB	O
+7-5	it	7-4_dobj	hoof	PRP	P1_bicycle
+7-6	out	7-4_prt	hoof	RP	O
+7-7	on	O	O	O	O
+7-8	foot	7-4_prep_on	hoof	NN	O
+7-9	,	O	O	O	O
+7-10	carrying	7-4_vmod	hoof	VBG	O
+7-11	a	O	O	DT	O
+7-12	broken	O	O	JJ	O
+7-13	bike	7-10_dobj	carrying	NN	P1_bicycle
+7-14	.	O	O	O	O
+
+#id=8
+#text=It was an experience I did not want to relive again . 
+8-1	It	O	O	PRP	O
+8-2	was	O	O	VBD	O
+8-3	an	O	O	DT	O
+8-4	experience	O	O	NN	O
+8-5	I	8-8_nsubj	want	PRP	P1_rider
+8-6	did	8-8_aux	want	VBD	O
+8-7	not	8-8_neg	want	RB	O
+8-8	want	O	O	VB	O
+8-9	to	8-10_aux	relive	TO	O
+8-10	relive	8-8_xcomp	want	VB	O
+8-11	again	8-10_advmod	relive	RB	O
+8-12	.	O	O	O	O
+
+#id=9
+#text=From then on I purchased and kept many bicycle tire tubes in my riding gear . 
+9-1	From	9-5_prep	purchased	IN	O
+9-2	then	O	O	RB	O
+9-3	on	O	O	RB	O
+9-4	I	9-5_nsubj	purchased	PRP	P1_rider
+9-5	purchased	O	O	VBD	O
+9-6	and	O	O	O	O
+9-7	kept	9-5_conj_and	purchased	VBD	O
+9-8	many	O	O	JJ	O
+9-9	bicycle	O	O	NN	O
+9-10	tire	O	O	NN	O
+9-11	tubes	9-7_dobj	kept	NNS	P1_spare_tube
+9-12	in	O	O	O	O
+9-13	my	O	O	PRP$	P1_rider
+9-14	riding	O	O	NN	O
+9-15	gear	9-7_prep_in	kept	NN	P1_other
+9-16	.	O	O	O	O
+
+#id=10
+#text=To replace a bicycle tire is now a simple process for me . 
+10-1	To	10-2_aux	replace	TO	O
+10-2	replace	O	O	VB	O
+10-3	a	O	O	DT	O
+10-4	bicycle	O	O	NN	O
+10-5	tire	10-2_dobj	replace	NN	P3_tire
+10-6	is	O	O	VBZ	O
+10-7	now	O	O	RB	O
+10-8	a	O	O	DT	O
+10-9	simple	O	O	JJ	O
+10-10	process	O	O	NN	P1_NPart_process
+10-11	for	O	O	O	O
+10-12	me	O	O	PRP	P1_rider
+10-13	.	O	O	O	O
+
+#id=11
+#text=You break the bead on the old tire shell and pull it slightly to the side . 
+11-1	You	11-2_nsubj	break	PRP	P1_rider
+11-2	break	O	O	VB	O
+11-3	the	O	O	DT	O
+11-4	bead	11-2_dobj	break	NN	P1_bicycle_small_detail
+11-5	on	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	old	O	O	JJ	O
+11-8	tire	O	O	NN	O
+11-9	shell	11-2_prep_on	break	NN	O
+11-10	and	O	O	O	O
+11-11	pull	11-2_conj_and	break	VB	O
+11-12	it	11-11_dobj	pull	PRP	O
+11-13	slightly	11-11_advmod	pull	RB	O
+11-14	to	O	O	O	O
+11-15	the	O	O	DT	O
+11-16	side	11-11_prep_to	pull	NN	P1_NPart_side
+11-17	.	O	O	O	O
+
+#id=12
+#text=You work the tube out from between the rim and the tire itself . 
+12-1	You	12-2_nsubj	work	PRP	P1_rider
+12-2	work	O	O	VBP	O
+12-3	the	O	O	DT	O
+12-4	tube	O	O	NN	P3_tire
+12-5	out	12-2_advmod	work	IN	O
+12-6	from	12-2_dep	work	IN	O
+12-7	between	O	O	O	O
+12-8	the	O	O	DT	O
+12-9	rim	12-2_prep_between	work	NN	P1_rim
+12-10	and	O	O	O	O
+12-11	the	O	O	DT	O
+12-12	tire	O	O	NN	P3_tire
+12-13	itself	12-2_dobj	work	PRP	P3_tire
+12-14	.	O	O	O	O
+
+#id=13
+#text=You then stuff the new rubber tube where the old one was , making sure the nipple matches with the nipple hole . 
+13-1	You	13-3_nsubj	stuff	PRP	P1_rider
+13-2	then	13-3_advmod	stuff	RB	O
+13-3	stuff	O	O	VBP	O
+13-4	the	O	O	DT	O
+13-5	new	O	O	JJ	O
+13-6	rubber	O	O	NN	O
+13-7	tube	13-3_dobj	stuff	NN	P2_spare_tube
+13-8	where	13-12_advmod	was	WRB	O
+13-9	the	O	O	DT	O
+13-10	old	O	O	JJ	O
+13-11	one	13-12_nsubj	was	NN	P3_tire
+13-12	was	13-3_advcl	stuff	VBD	O
+13-13	,	O	O	O	O
+13-14	making	13-3_xcomp	stuff	VBG	O
+13-15	sure	13-14_acomp	making	JJ	O
+13-16	the	O	O	DT	O
+13-17	nipple	13-18_nsubj	matches	NN	P2_bicycle_small_detail
+13-18	matches	O	O	VBZ	O
+13-19	with	O	O	O	O
+13-20	the	O	O	DT	O
+13-21	nipple	O	O	JJ	O
+13-22	hole	13-18_prep_with	matches	NN	P3_bicycle_small_detail
+13-23	.	O	O	O	O
+
+#id=14
+#text=You then move the outer tire back into position and pump up the tire . 
+14-1	You	14-3_nsubj	move	PRP	P1_rider
+14-2	then	14-3_advmod	move	RB	O
+14-3	move	O	O	VB	O
+14-4	the	O	O	DT	O
+14-5	outer	O	O	JJ	O
+14-6	tire	14-3_dobj	move	NN	P3_tire
+14-7	back	14-3_prt	move	RP	O
+14-8	into	O	O	O	O
+14-9	position	14-3_prep_into	move	NN	P1_NPart_position
+14-10	and	O	O	O	O
+14-11	pump	14-3_conj_and	move	VB	O
+14-12	up	14-11_prt	pump	RP	O
+14-13	the	O	O	DT	O
+14-14	tire	14-11_dobj	pump	NN	P3_tire
+14-15	.	O	O	O	O

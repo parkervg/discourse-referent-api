@@ -1,0 +1,205 @@
+#id=1
+#text=Yesterday I went to the library to look at some books . 
+1-1	Yesterday	1-3_tmod	went	NN	P1_NPart_yesterday
+1-2	I	1-3_nsubj	went	PRP	P1_customer
+1-3	went	O	O	VBD	O
+1-4	to	O	O	O	O
+1-5	the	O	O	DT	O
+1-6	library	1-3_prep_to	went	NN	P1_library
+1-7	to	1-8_aux	look	TO	O
+1-8	look	1-3_xcomp	went	VB	O
+1-9	at	O	O	O	O
+1-10	some	O	O	DT	O
+1-11	books	1-8_prep_at	look	NNS	P1_book
+1-12	.	O	O	O	O
+
+#id=2
+#text=My favorite type of books are books about animals . 
+2-1	My	O	O	PRP$	P1_customer
+2-2	favorite	O	O	JJ	O
+2-3	type	O	O	NN	O
+2-4	of	O	O	O	O
+2-5	books	O	O	NNS	P1_book
+2-6	are	O	O	VBP	O
+2-7	books	O	O	NNS	P1_book
+2-8	about	O	O	O	O
+2-9	animals	O	O	NNS	P1_NPart_animals
+2-10	.	O	O	O	O
+
+#id=3
+#text=I love cats and wolves and many other fantastic creatures . 
+3-1	I	3-2_nsubj	love	PRP	P1_customer
+3-2	love	O	O	VBP	O
+3-3	cats	3-2_dobj	love	NNS	P1_NPart_cats
+3-4	and	O	O	O	O
+3-5	wolves	O	O	NNS	P1_NPart_wolves
+3-6	and	O	O	O	O
+3-7	many	O	O	JJ	O
+3-8	other	O	O	JJ	O
+3-9	fantastic	O	O	JJ	O
+3-10	creatures	O	O	NNS	P1_NPart_creatures
+3-11	.	O	O	O	O
+
+#id=4
+#text=My dad dropped me off at the library at 3:00 PM . 
+4-1	My	O	O	PRP$	P1_customer
+4-2	dad	4-3_nsubj	dropped	NN	P1_NPart_dad
+4-3	dropped	O	O	VBD	O
+4-4	me	4-3_dobj	dropped	PRP	P1_customer
+4-5	off	4-3_prt	dropped	RP	O
+4-6	at	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	library	4-3_prep_at	dropped	NN	P1_library
+4-9	at	O	O	O	O
+4-10	3:00	O	O	CD	O
+4-11	PM	O	O	NN	O
+4-12	.	O	O	O	O
+
+#id=5
+#text=I asked the librarian at the desk where I could find some books on animals . 
+5-1	I	5-2_nsubj	asked	PRP	P1_customer
+5-2	asked	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	librarian	5-2_dobj	asked	NN	P1_staff
+5-5	at	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	desk	5-2_prep_at	asked	NN	P1_check-out_desk
+5-8	where	5-11_advmod	find	WRB	O
+5-9	I	5-11_nsubj	find	PRP	P1_customer
+5-10	could	5-11_aux	find	MD	O
+5-11	find	5-2_advcl	asked	VB	O
+5-12	some	O	O	DT	O
+5-13	books	5-11_dobj	find	NNS	P1_book
+5-14	on	O	O	O	O
+5-15	animals	5-11_prep_on	find	NNS	P2_NPart_animals
+5-16	.	O	O	O	O
+
+#id=6
+#text=She directed me to a large shelf in the back . 
+6-1	She	6-2_nsubj	directed	PRP	P1_staff
+6-2	directed	O	O	VBD	O
+6-3	me	6-2_dobj	directed	PRP	P1_customer
+6-4	to	O	O	O	O
+6-5	a	O	O	DT	O
+6-6	large	O	O	JJ	O
+6-7	shelf	6-2_prep_to	directed	NN	P1_shelf
+6-8	in	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	back	6-2_prep_in	directed	NN	P1_location_library
+6-11	.	O	O	O	O
+
+#id=7
+#text=I started to look at the books and found one on wolves and another on leopards . 
+7-1	I	7-2_nsubj	started	PRP	P1_customer
+7-2	started	O	O	VBD	O
+7-3	to	7-4_aux	look	TO	O
+7-4	look	7-2_xcomp	started	VB	O
+7-5	at	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	books	7-4_prep_at	look	NNS	P1_book
+7-8	and	O	O	O	O
+7-9	found	7-2_conj_and	started	VBD	O
+7-10	one	7-9_dobj	found	CD	P1_book
+7-11	on	O	O	O	O
+7-12	wolves	7-9_prep_on	found	NNS	P2_NPart_wolves
+7-13	and	O	O	O	O
+7-14	another	O	O	DT	O
+7-15	on	O	O	O	O
+7-16	leopards	7-9_prep_on	found	NNS	P1_NPart_leopards
+7-17	.	O	O	O	O
+
+#id=8
+#text=I took the books off the shelf and sat down at a table . 
+8-1	I	8-2_nsubj	took	PRP	P1_customer
+8-2	took	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	books	8-2_dobj	took	NNS	P1_book
+8-5	off	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	shelf	8-2_prep_off	took	NN	P1_shelf
+8-8	and	O	O	O	O
+8-9	sat	8-2_conj_and	took	VBD	O
+8-10	down	8-9_prt	sat	RP	O
+8-11	at	O	O	O	O
+8-12	a	O	O	DT	O
+8-13	table	8-9_prep_at	sat	NN	P1_reading_area_furniture
+8-14	.	O	O	O	O
+
+#id=9
+#text=I started reading them and was so into them that I lost track of time . 
+9-1	I	9-2_nsubj	started	PRP	P1_customer
+9-2	started	O	O	VBD	O
+9-3	reading	9-2_xcomp	started	VBG	O
+9-4	them	9-3_dobj	reading	PRP	P1_book
+9-5	and	O	O	O	O
+9-6	was	9-2_conj_and	started	VBD	O
+9-7	so	9-6_advmod	was	RB	O
+9-8	into	O	O	O	O
+9-9	them	O	O	PRP	P1_book
+9-10	that	9-12_mark	lost	IN	O
+9-11	I	9-12_nsubj	lost	PRP	P1_customer
+9-12	lost	O	O	VBD	O
+9-13	track	9-12_dobj	lost	NN	O
+9-14	of	O	O	O	O
+9-15	time	O	O	NN	O
+9-16	.	O	O	O	O
+
+#id=10
+#text=Soon it was 6:00 PM and my father was waiting outside to pick me up . 
+10-1	Soon	O	O	RB	O
+10-2	it	O	O	PRP	O
+10-3	was	O	O	VBD	O
+10-4	6:00	O	O	CD	O
+10-5	PM	O	O	NN	O
+10-6	and	O	O	O	O
+10-7	my	O	O	PRP$	P1_customer
+10-8	father	10-10_nsubj	waiting	NN	P1_NPart_father
+10-9	was	10-10_aux	waiting	VBD	O
+10-10	waiting	O	O	VBG	O
+10-11	outside	10-10_advmod	waiting	RB	O
+10-12	to	10-13_aux	pick	TO	O
+10-13	pick	10-10_xcomp	waiting	VB	O
+10-14	me	10-13_dobj	pick	PRP	P1_customer
+10-15	up	10-13_prt	pick	RP	O
+10-16	.	O	O	O	O
+
+#id=11
+#text=I took both books to the front desk and had the librarian check them out for me . 
+11-1	I	11-2_nsubj	took	PRP	P1_customer
+11-2	took	O	O	VBD	O
+11-3	both	O	O	DT	O
+11-4	books	11-2_dobj	took	NNS	P1_book
+11-5	to	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	front	O	O	JJ	O
+11-8	desk	11-2_prep_to	took	NN	P1_check-out_desk
+11-9	and	O	O	O	O
+11-10	had	11-2_conj_and	took	VBD	O
+11-11	the	O	O	DT	O
+11-12	librarian	11-10_dobj	had	NN	P1_staff
+11-13	check	11-2_dep	took	VB	O
+11-14	them	11-13_dobj	check	PRP	P1_book
+11-15	out	11-13_prt	check	RP	O
+11-16	for	O	O	O	O
+11-17	me	11-13_prep_for	check	PRP	P1_customer
+11-18	.	O	O	O	O
+
+#id=12
+#text=I was so excited to continue reading them and I went outside and we drove home . 
+12-1	I	O	O	PRP	P2_customer
+12-2	was	O	O	VBD	O
+12-3	so	O	O	RB	O
+12-4	excited	O	O	JJ	O
+12-5	to	12-6_aux	continue	TO	O
+12-6	continue	O	O	VB	O
+12-7	reading	12-6_xcomp	continue	VBG	O
+12-8	them	12-7_dobj	reading	PRP	P1_book
+12-9	and	O	O	O	O
+12-10	I	12-11_nsubj	went	PRP	P3_customer
+12-11	went	O	O	VBD	O
+12-12	outside	12-11_advmod	went	RB	O
+12-13	and	O	O	O	O
+12-14	we	12-15_nsubj	drove	PRP	P4_customer
+12-15	drove	12-11_conj_and	went	VBD	O
+12-16	home	12-15_dobj	drove	NN	O
+12-17	.	O	O	O	O

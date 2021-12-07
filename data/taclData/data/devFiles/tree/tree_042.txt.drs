@@ -1,0 +1,186 @@
+#id=1
+#text=It was Arbor day and because of the occasion I decided to plant a tree in my backyard . 
+1-1	It	1-3_nsubjpass	Arbor	PRP	O
+1-2	was	1-3_auxpass	Arbor	VBD	O
+1-3	Arbor	O	O	VBN	O
+1-4	day	1-3_tmod	Arbor	NN	P1_NPart_day
+1-5	and	O	O	O	O
+1-6	because	O	O	O	O
+1-7	of	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	occasion	1-11_prep_because_of	decided	NN	P1_NPart_occasion
+1-10	I	1-11_nsubj	decided	PRP	P1_gardener
+1-11	decided	1-3_conj_and	Arbor	VBD	O
+1-12	to	1-13_aux	plant	TO	O
+1-13	plant	1-11_xcomp	decided	VB	O
+1-14	a	O	O	DT	O
+1-15	tree	1-13_dobj	plant	NN	P1_tree
+1-16	in	O	O	O	O
+1-17	my	O	O	PRP$	P1_gardener
+1-18	backyard	O	O	NN	P1_location_garden
+1-19	.	O	O	O	O
+
+#id=2
+#text=I figured it would help the environment as well as be an oxygen source and in a few years I could maybe cut it down for firewood . 
+2-1	I	2-2_nsubj	figured	PRP	P1_gardener
+2-2	figured	O	O	VBD	O
+2-3	it	2-5_nsubj	help	PRP	P1_tree
+2-4	would	2-5_aux	help	MD	O
+2-5	help	2-2_ccomp	figured	VB	O
+2-6	the	O	O	DT	O
+2-7	environment	2-5_dobj	help	NN	P1_NPart_environment
+2-8	as	O	O	O	O
+2-9	well	O	O	O	O
+2-10	as	O	O	O	O
+2-11	be	O	O	VB	O
+2-12	an	O	O	DT	O
+2-13	oxygen	O	O	NN	O
+2-14	source	2-5_conj_and	help	NN	P1_NPart_source
+2-15	and	O	O	O	O
+2-16	in	O	O	O	O
+2-17	a	O	O	DT	O
+2-18	few	O	O	JJ	O
+2-19	years	2-23_prep_in	cut	NNS	P1_time
+2-20	I	2-23_nsubj	cut	PRP	P1_gardener
+2-21	could	2-23_aux	cut	MD	O
+2-22	maybe	2-23_advmod	cut	RB	O
+2-23	cut	2-2_conj_and	figured	VB	O
+2-24	it	2-23_dobj	cut	PRP	P1_tree
+2-25	down	2-23_prt	cut	RP	O
+2-26	for	O	O	O	O
+2-27	firewood	2-23_prep_for	cut	NN	P1_NPart_firewood
+2-28	.	O	O	O	O
+
+#id=3
+#text=I decided to go down to my local Home Depot and buy tree seeds and a shovel . 
+3-1	I	3-2_nsubj	decided	PRP	P1_gardener
+3-2	decided	O	O	VBD	O
+3-3	to	3-4_aux	go	TO	O
+3-4	go	3-2_xcomp	decided	VB	O
+3-5	down	3-4_prt	go	RP	O
+3-6	to	O	O	O	O
+3-7	my	O	O	PRP$	P1_gardener
+3-8	local	O	O	JJ	O
+3-9	Home	O	O	NNP	O
+3-10	Depot	3-4_prep_to	go	NNP	P1_shop
+3-11	and	O	O	O	O
+3-12	buy	3-4_conj_and	go	VB	O
+3-13	tree	O	O	NN	O
+3-14	seeds	3-12_dobj	buy	NNS	P1_seeds
+3-15	and	O	O	O	O
+3-16	a	O	O	DT	O
+3-17	shovel	O	O	NN	P1_gardening_tool
+3-18	.	O	O	O	O
+
+#id=4
+#text=I then went back to my house and started uprooting the earth , creating a nice hole of dirt in which to plant my new tree . 
+4-1	I	4-3_nsubj	went	PRP	P1_gardener
+4-2	then	4-3_advmod	went	RB	O
+4-3	went	O	O	VBD	O
+4-4	back	4-3_prt	went	RP	O
+4-5	to	O	O	O	O
+4-6	my	O	O	PRP$	P1_gardener
+4-7	house	4-3_prep_to	went	NN	P1_NPart_house
+4-8	and	O	O	O	O
+4-9	started	4-3_conj_and	went	VBD	O
+4-10	uprooting	4-9_ccomp	started	VBG	O
+4-11	the	O	O	DT	O
+4-12	earth	4-10_dobj	uprooting	NN	P1_dirt
+4-13	,	O	O	O	O
+4-14	creating	4-10_dep	uprooting	VBG	O
+4-15	a	O	O	DT	O
+4-16	nice	O	O	JJ	O
+4-17	hole	4-14_dobj	creating	NN	P1_hole
+4-18	of	O	O	O	O
+4-19	dirt	O	O	NN	P1_dirt
+4-20	in	O	O	O	O
+4-21	which	4-23_nsubj	plant	WDT	P1_hole
+4-22	to	4-23_aux	plant	TO	O
+4-23	plant	4-14_prepc_in	creating	VB	O
+4-24	my	O	O	PRP$	P1_gardener
+4-25	new	O	O	JJ	O
+4-26	tree	4-23_dobj	plant	NN	P1_tree
+4-27	.	O	O	O	O
+
+#id=5
+#text=I got the tree seed and planted it into the dirt and covered it into the ground . 
+5-1	I	5-2_nsubj	got	PRP	P1_gardener
+5-2	got	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	tree	O	O	NN	O
+5-5	seed	5-2_dobj	got	NN	P1_seeds
+5-6	and	O	O	O	O
+5-7	planted	5-2_conj_and	got	VBD	O
+5-8	it	5-7_dobj	planted	PRP	P1_seeds
+5-9	into	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	dirt	5-7_prep_into	planted	NN	P1_dirt
+5-12	and	O	O	O	O
+5-13	covered	5-7_conj_and	planted	VBD	O
+5-14	it	5-13_dobj	covered	PRP	P1_seeds
+5-15	into	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	ground	5-13_prep_into	covered	NN	P1_dirt
+5-18	.	O	O	O	O
+
+#id=6
+#text=The good thing about trees are they are low maintenance and pretty self sufficient unlike other plants or flowers . 
+6-1	The	O	O	DT	O
+6-2	good	O	O	JJ	O
+6-3	thing	6-6_nsubj	are	NN	O
+6-4	about	O	O	O	O
+6-5	trees	O	O	NNS	P1_tree
+6-6	are	O	O	VBP	O
+6-7	they	O	O	PRP	P1_tree
+6-8	are	O	O	VBP	O
+6-9	low	O	O	JJ	O
+6-10	maintenance	6-6_ccomp	are	NN	P1_NPart_maintenance
+6-11	and	O	O	O	O
+6-12	pretty	O	O	RB	O
+6-13	self	O	O	RB	O
+6-14	sufficient	O	O	JJ	O
+6-15	unlike	O	O	O	O
+6-16	other	O	O	JJ	O
+6-17	plants	O	O	NNS	P1_NPart_plants
+6-18	or	O	O	O	O
+6-19	flowers	O	O	NNS	P1_NPart_flowers
+6-20	.	O	O	O	O
+
+#id=7
+#text=I still watered it every day to get it going and in a few years I will have a large majestic oak tree to provide shade and a new home for birds and other wildlife . 
+7-1	I	7-3_nsubj	watered	PRP	P1_gardener
+7-2	still	7-3_advmod	watered	RB	O
+7-3	watered	O	O	VBD	O
+7-4	it	7-3_dobj	watered	PRP	P1_tree
+7-5	every	O	O	DT	O
+7-6	day	7-3_tmod	watered	NN	P2_time
+7-7	to	7-8_aux	get	TO	O
+7-8	get	7-3_vmod	watered	VB	O
+7-9	it	7-10_nsubj	going	PRP	P1_tree
+7-10	going	7-8_dep	get	VBG	O
+7-11	and	O	O	O	O
+7-12	in	O	O	O	O
+7-13	a	O	O	DT	O
+7-14	few	O	O	JJ	O
+7-15	years	7-18_prep_in	have	NNS	P1_time
+7-16	I	7-18_nsubj	have	PRP	P1_gardener
+7-17	will	7-18_aux	have	MD	O
+7-18	have	7-3_conj_and	watered	VB	O
+7-19	a	O	O	DT	O
+7-20	large	O	O	JJ	O
+7-21	majestic	O	O	JJ	O
+7-22	oak	O	O	NN	O
+7-23	tree	7-18_dobj	have	NN	P1_tree
+7-24	to	7-25_aux	provide	TO	O
+7-25	provide	7-18_vmod	have	VB	O
+7-26	shade	7-25_dobj	provide	NN	P1_NPart_shade
+7-27	and	O	O	O	O
+7-28	a	O	O	DT	O
+7-29	new	O	O	JJ	O
+7-30	home	O	O	NN	P1_NPart_home
+7-31	for	O	O	O	O
+7-32	birds	7-25_prep_for	provide	NNS	P1_NPart_birds
+7-33	and	O	O	O	O
+7-34	other	O	O	JJ	O
+7-35	wildlife	O	O	NN	P1_NPart_wildlife
+7-36	.	O	O	O	O

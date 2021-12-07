@@ -1,0 +1,357 @@
+#id=1
+#text=I rolled my cart out of my apartment and locked my front door . 
+1-1	I	1-2_nsubj	rolled	PRP	P1_shopper
+1-2	rolled	O	O	VBD	O
+1-3	my	O	O	PRP$	P1_shopper
+1-4	cart	1-2_dobj	rolled	NN	P1_shopping_cart/basket
+1-5	out	O	O	O	O
+1-6	of	O	O	O	O
+1-7	my	O	O	PRP$	P1_shopper
+1-8	apartment	1-2_prep_out_of	rolled	NN	P1_NPart_apartment
+1-9	and	O	O	O	O
+1-10	locked	1-2_conj_and	rolled	VBD	O
+1-11	my	O	O	PRP$	P1_shopper
+1-12	front	O	O	JJ	O
+1-13	door	1-10_dobj	locked	NN	P1_NPart_door
+1-14	.	O	O	O	O
+
+#id=2
+#text=I dragged the empty cart down the stairs and pushed it down the block toward the supermarket . 
+2-1	I	2-2_nsubj	dragged	PRP	P1_shopper
+2-2	dragged	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	empty	O	O	JJ	O
+2-5	cart	2-2_dobj	dragged	NN	P1_shopping_cart/basket
+2-6	down	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	stairs	2-2_prep_down	dragged	NNS	P1_NPart_stairs
+2-9	and	O	O	O	O
+2-10	pushed	2-2_conj_and	dragged	VBD	O
+2-11	it	2-10_dobj	pushed	PRP	P1_shopping_cart/basket
+2-12	down	2-10_prt	pushed	RP	O
+2-13	the	O	O	DT	O
+2-14	block	2-10_dobj	pushed	NN	P1_NPart_block
+2-15	toward	O	O	O	O
+2-16	the	O	O	DT	O
+2-17	supermarket	O	O	NN	P1_grocery_shop
+2-18	.	O	O	O	O
+
+#id=3
+#text=As I walked , I mentally rehearsed some of the items I intended to buy . 
+3-1	As	3-3_mark	walked	IN	O
+3-2	I	3-3_nsubj	walked	PRP	P1_shopper
+3-3	walked	3-7_advcl	rehearsed	VBD	O
+3-4	,	O	O	O	O
+3-5	I	3-7_nsubj	rehearsed	PRP	P1_shopper
+3-6	mentally	3-7_advmod	rehearsed	RB	O
+3-7	rehearsed	O	O	VBD	O
+3-8	some	3-7_dobj	rehearsed	DT	O
+3-9	of	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	items	O	O	NNS	P1_groceries
+3-12	I	3-13_nsubj	intended	PRP	P1_shopper
+3-13	intended	O	O	VBD	O
+3-14	to	3-15_aux	buy	TO	O
+3-15	buy	3-13_xcomp	intended	VB	O
+3-16	.	O	O	O	O
+
+#id=4
+#text=I needed eggs , milk , bread , cookies , and bananas . 
+4-1	I	4-2_nsubj	needed	PRP	P1_shopper
+4-2	needed	O	O	VBD	O
+4-3	eggs	4-2_dobj	needed	NNS	P2_groceries
+4-4	,	O	O	O	O
+4-5	milk	O	O	NN	P3_groceries
+4-6	,	O	O	O	O
+4-7	bread	O	O	NN	P4_groceries
+4-8	,	O	O	O	O
+4-9	cookies	O	O	NNS	P5_groceries
+4-10	,	O	O	O	O
+4-11	and	O	O	O	O
+4-12	bananas	O	O	NNS	P6_groceries
+4-13	.	O	O	O	O
+
+#id=5
+#text=Maybe I would get a few other things if they looked good . 
+5-1	Maybe	5-4_advmod	get	RB	O
+5-2	I	5-4_nsubj	get	PRP	P1_shopper
+5-3	would	5-4_aux	get	MD	O
+5-4	get	O	O	VB	O
+5-5	a	O	O	DT	O
+5-6	few	O	O	JJ	O
+5-7	other	O	O	JJ	O
+5-8	things	5-4_dobj	get	NNS	P7_groceries
+5-9	if	5-11_mark	looked	IN	O
+5-10	they	5-11_nsubj	looked	PRP	P8_groceries
+5-11	looked	5-4_advcl	get	VBD	O
+5-12	good	5-11_acomp	looked	JJ	O
+5-13	.	O	O	O	O
+
+#id=6
+#text=I arrived at the store and hooked my cart to the store 's larger metal shopping cart . 
+6-1	I	6-2_nsubj	arrived	PRP	P1_shopper
+6-2	arrived	O	O	VBN	O
+6-3	at	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	store	6-2_prep_at	arrived	NN	P1_grocery_shop
+6-6	and	O	O	O	O
+6-7	hooked	6-2_conj_and	arrived	JJ	O
+6-8	my	O	O	PRP$	P1_shopper
+6-9	cart	O	O	NN	P1_shopping_cart/basket
+6-10	to	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	store	O	O	NN	P1_grocery_shop
+6-13	's	O	O	O	O
+6-14	larger	O	O	JJR	O
+6-15	metal	O	O	NN	P1_NPart_metal
+6-16	shopping	O	O	NN	O
+6-17	cart	O	O	NN	P1_shopping_cart/basket
+6-18	.	O	O	O	O
+
+#id=7
+#text=I pushed it down the aisle . 
+7-1	I	7-2_nsubj	pushed	PRP	P1_shopper
+7-2	pushed	O	O	VBD	O
+7-3	it	7-2_dobj	pushed	PRP	P1_shopping_cart/basket
+7-4	down	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	aisle	7-2_prep_down	pushed	NN	P1_section
+7-7	.	O	O	O	O
+
+#id=8
+#text=I passed the section with the bread fist , and put it in my cart . 
+8-1	I	8-2_nsubj	passed	PRP	P1_shopper
+8-2	passed	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	section	8-2_dobj	passed	NN	P2_section
+8-5	with	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	bread	O	O	NN	P9_groceries
+8-8	fist	8-2_prep_with	passed	NN	P1_NPart_fist
+8-9	,	O	O	O	O
+8-10	and	O	O	O	O
+8-11	put	8-2_conj_and	passed	VBD	O
+8-12	it	8-11_dobj	put	PRP	P9_groceries
+8-13	in	O	O	O	O
+8-14	my	O	O	PRP$	P1_shopper
+8-15	cart	8-11_prep_in	put	NN	P1_shopping_cart/basket
+8-16	.	O	O	O	O
+
+#id=9
+#text=The cookies were near the bread . 
+9-1	The	O	O	DT	O
+9-2	cookies	9-3_nsubj	were	NNS	P10_groceries
+9-3	were	O	O	VBD	O
+9-4	near	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	bread	9-3_prep_near	were	NN	P9_groceries
+9-7	.	O	O	O	O
+
+#id=10
+#text=I took a while looking at the ingredients for different packages of cookies and finally decided to get a box that looked fresh and delicious without too many preservatives . 
+10-1	I	10-2_nsubj	took	PRP	P1_shopper
+10-2	took	O	O	VBD	O
+10-3	a	O	O	DT	O
+10-4	while	10-2_dobj	took	NN	O
+10-5	looking	O	O	VBG	O
+10-6	at	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	ingredients	10-5_prep_at	looking	NNS	P1_other
+10-9	for	O	O	O	O
+10-10	different	O	O	JJ	O
+10-11	packages	O	O	NNS	P2_other
+10-12	of	O	O	O	O
+10-13	cookies	O	O	NNS	P10_groceries
+10-14	and	O	O	O	O
+10-15	finally	10-16_advmod	decided	RB	O
+10-16	decided	10-2_conj_and	took	VBD	O
+10-17	to	10-18_aux	get	TO	O
+10-18	get	10-16_xcomp	decided	VB	O
+10-19	a	O	O	DT	O
+10-20	box	10-18_dobj	get	NN	P2_other
+10-21	that	10-22_nsubj	looked	WDT	O
+10-22	looked	O	O	VBD	O
+10-23	fresh	10-22_acomp	looked	JJ	O
+10-24	and	O	O	O	O
+10-25	delicious	O	O	JJ	O
+10-26	without	O	O	O	O
+10-27	too	O	O	RB	O
+10-28	many	O	O	JJ	O
+10-29	preservatives	10-22_prep_without	looked	NNS	P1_NPart_preservatives
+10-30	.	O	O	O	O
+
+#id=11
+#text=I put my chosen cookies into my cart and kept pushing . 
+11-1	I	11-2_nsubj	put	PRP	P1_shopper
+11-2	put	O	O	VBD	O
+11-3	my	O	O	PRP$	P2_shopper
+11-4	chosen	O	O	JJ	O
+11-5	cookies	11-2_dobj	put	NNS	P10_groceries
+11-6	into	O	O	O	O
+11-7	my	O	O	PRP$	P1_shopper
+11-8	cart	11-2_prep_into	put	NN	P1_shopping_cart/basket
+11-9	and	O	O	O	O
+11-10	kept	11-2_conj_and	put	VBD	O
+11-11	pushing	11-10_xcomp	kept	VBG	O
+11-12	.	O	O	O	O
+
+#id=12
+#text=I reached the refrigerated section and found the milk . 
+12-1	I	12-2_nsubj	reached	PRP	P3_shopper
+12-2	reached	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	refrigerated	O	O	JJ	O
+12-5	section	12-2_dobj	reached	NN	P3_section
+12-6	and	O	O	O	O
+12-7	found	12-2_conj_and	reached	VBD	O
+12-8	the	O	O	DT	O
+12-9	milk	12-7_dobj	found	NN	P11_groceries
+12-10	.	O	O	O	O
+
+#id=13
+#text=I added a carton to my cart , and also chose some yogurt . 
+13-1	I	13-2_nsubj	added	PRP	P1_shopper
+13-2	added	O	O	VBD	O
+13-3	a	O	O	DT	O
+13-4	carton	13-2_dobj	added	NN	P11_groceries
+13-5	to	O	O	O	O
+13-6	my	O	O	PRP$	P1_shopper
+13-7	cart	13-2_prep_to	added	NN	P1_shopping_cart/basket
+13-8	,	O	O	O	O
+13-9	and	O	O	O	O
+13-10	also	13-11_advmod	chose	RB	O
+13-11	chose	13-2_conj_and	added	VBD	O
+13-12	some	O	O	DT	O
+13-13	yogurt	13-11_dobj	chose	NN	P12_groceries
+13-14	.	O	O	O	O
+
+#id=14
+#text=I looked at the eggs and checked them for cracks before adding them . 
+14-1	I	14-2_nsubj	looked	PRP	P1_shopper
+14-2	looked	O	O	VBD	O
+14-3	at	O	O	O	O
+14-4	the	O	O	DT	O
+14-5	eggs	14-2_prep_at	looked	NNS	P13_groceries
+14-6	and	O	O	O	O
+14-7	checked	14-2_conj_and	looked	VBD	O
+14-8	them	14-7_dobj	checked	PRP	P13_groceries
+14-9	for	O	O	O	O
+14-10	cracks	14-7_prep_for	checked	NNS	P1_NPart_cracks
+14-11	before	O	O	O	O
+14-12	adding	14-7_prepc_before	checked	VBG	O
+14-13	them	14-12_dobj	adding	PRP	P13_groceries
+14-14	.	O	O	O	O
+
+#id=15
+#text=Then I turned my cart toward the fruit and vegetable aisle . 
+15-1	Then	15-3_advmod	turned	RB	O
+15-2	I	15-3_nsubj	turned	PRP	P1_shopper
+15-3	turned	O	O	VBD	O
+15-4	my	O	O	PRP$	P1_shopper
+15-5	cart	15-3_dobj	turned	NN	P1_shopping_cart/basket
+15-6	toward	O	O	O	O
+15-7	the	O	O	DT	O
+15-8	fruit	O	O	NN	P1_NPart_fruit
+15-9	and	O	O	O	O
+15-10	vegetable	O	O	NN	P1_NPart_vegetable
+15-11	aisle	15-3_prep_toward	turned	NN	P4_section
+15-12	.	O	O	O	O
+
+#id=16
+#text=I added bananas and then my eye caught some avocados that were on sale , so I decided to buy two of them . 
+16-1	I	16-2_nsubj	added	PRP	P1_shopper
+16-2	added	O	O	VBD	O
+16-3	bananas	16-2_dobj	added	NNS	P14_groceries
+16-4	and	O	O	O	O
+16-5	then	16-8_advmod	caught	RB	O
+16-6	my	O	O	PRP$	P4_shopper
+16-7	eye	16-8_nsubj	caught	NN	P1_NPart_eye
+16-8	caught	16-2_conj_and	added	VBD	O
+16-9	some	O	O	DT	O
+16-10	avocados	16-8_dobj	caught	NNS	P15_groceries
+16-11	that	16-12_nsubj	were	WDT	O
+16-12	were	O	O	VBD	O
+16-13	on	O	O	O	O
+16-14	sale	16-12_prep_on	were	NN	O
+16-15	,	O	O	O	O
+16-16	so	16-2_dep	added	IN	O
+16-17	I	16-18_nsubj	decided	PRP	P1_shopper
+16-18	decided	16-2_parataxis	added	VBD	O
+16-19	to	16-20_aux	buy	TO	O
+16-20	buy	16-18_xcomp	decided	VB	O
+16-21	two	16-20_dobj	buy	CD	O
+16-22	of	O	O	O	O
+16-23	them	O	O	PRP	P15_groceries
+16-24	.	O	O	O	O
+
+#id=17
+#text=I also got a few apples and a box of cherry tomatoes . 
+17-1	I	17-3_nsubj	got	PRP	P1_shopper
+17-2	also	17-3_advmod	got	RB	O
+17-3	got	O	O	VBD	O
+17-4	a	O	O	DT	O
+17-5	few	O	O	JJ	O
+17-6	apples	17-3_dobj	got	NNS	P16_groceries
+17-7	and	O	O	O	O
+17-8	a	O	O	DT	O
+17-9	box	O	O	NN	O
+17-10	of	O	O	O	O
+17-11	cherry	O	O	JJ	O
+17-12	tomatoes	O	O	NNS	P17_groceries
+17-13	.	O	O	O	O
+
+#id=18
+#text=I rolled my cart toward the cashier and got on line to pay . 
+18-1	I	18-2_nsubj	rolled	PRP	P1_shopper
+18-2	rolled	O	O	VBD	O
+18-3	my	O	O	PRP$	P1_shopper
+18-4	cart	18-2_dobj	rolled	NN	P1_shopping_cart/basket
+18-5	toward	O	O	O	O
+18-6	the	O	O	DT	O
+18-7	cashier	18-2_prep_toward	rolled	NN	P1_grocery_staff
+18-8	and	O	O	O	O
+18-9	got	18-2_conj_and	rolled	VBD	O
+18-10	on	O	O	O	O
+18-11	line	18-9_prep_on	got	NN	P1_line
+18-12	to	18-13_aux	pay	TO	O
+18-13	pay	18-9_xcomp	got	VB	O
+18-14	.	O	O	O	O
+
+#id=19
+#text=When it was my turn I paid in cash and then put my bagged items into my cart . 
+19-1	When	O	O	WRB	O
+19-2	it	O	O	PRP	O
+19-3	was	O	O	VBD	O
+19-4	my	O	O	PRP$	P1_shopper
+19-5	turn	19-7_advcl	paid	NN	O
+19-6	I	19-7_nsubj	paid	PRP	P1_shopper
+19-7	paid	O	O	VBD	O
+19-8	in	O	O	O	O
+19-9	cash	19-7_prep_in	paid	NN	P1_payment_means
+19-10	and	O	O	O	O
+19-11	then	19-12_advmod	put	RB	O
+19-12	put	19-7_conj_and	paid	VBD	O
+19-13	my	O	O	PRP$	P1_shopper
+19-14	bagged	O	O	JJ	O
+19-15	items	19-12_dobj	put	NNS	P18_groceries
+19-16	into	O	O	O	O
+19-17	my	O	O	PRP$	P1_shopper
+19-18	cart	19-12_prep_into	put	NN	P1_shopping_cart/basket
+19-19	.	O	O	O	O
+
+#id=20
+#text=Then I pushed my cart home and unloaded my items in my kitchen . 
+20-1	Then	20-3_advmod	pushed	RB	O
+20-2	I	20-3_nsubj	pushed	PRP	P1_shopper
+20-3	pushed	O	O	VBD	O
+20-4	my	O	O	PRP$	P1_shopper
+20-5	cart	O	O	NN	P1_shopping_cart/basket
+20-6	home	20-3_dobj	pushed	NN	O
+20-7	and	O	O	O	O
+20-8	unloaded	20-3_conj_and	pushed	JJ	O
+20-9	my	O	O	PRP$	P1_shopper
+20-10	items	O	O	NNS	P18_groceries
+20-11	in	O	O	O	O
+20-12	my	O	O	PRP$	P1_shopper
+20-13	kitchen	O	O	NN	P1_NPart_kitchen
+20-14	.	O	O	O	O

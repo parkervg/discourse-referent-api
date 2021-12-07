@@ -1,0 +1,418 @@
+#id=1
+#text=My hair grows so fast . 
+1-1	My	O	O	PRP$	P1_customer
+1-2	hair	1-3_nsubj	grows	NN	P1_hair
+1-3	grows	O	O	VBZ	O
+1-4	so	O	O	RB	O
+1-5	fast	1-3_advmod	grows	RB	O
+1-6	.	O	O	O	O
+
+#id=2
+#text=The other day I noticed it was getting a little wild . 
+2-1	The	O	O	DT	O
+2-2	other	O	O	JJ	O
+2-3	day	2-5_tmod	noticed	NN	P1_time/date
+2-4	I	2-5_nsubj	noticed	PRP	P1_customer
+2-5	noticed	O	O	VBD	O
+2-6	it	O	O	PRP	P1_hair
+2-7	was	O	O	VBD	O
+2-8	getting	O	O	VBG	O
+2-9	a	O	O	DT	O
+2-10	little	O	O	RB	O
+2-11	wild	2-5_ccomp	noticed	JJ	O
+2-12	.	O	O	O	O
+
+#id=3
+#text=I thought to myself , '' `` It is time for a hair cut ! '' '' 
+3-1	I	3-2_nsubj	thought	PRP	P1_customer
+3-2	thought	O	O	VBD	O
+3-3	to	O	O	O	O
+3-4	myself	3-2_prep_to	thought	PRP	P1_customer
+3-5	,	O	O	O	O
+3-6	''	O	O	O	O
+3-7	``	O	O	O	O
+3-8	It	O	O	PRP	O
+3-9	is	O	O	VBZ	O
+3-10	time	O	O	NN	O
+3-11	for	O	O	O	O
+3-12	a	O	O	DT	O
+3-13	hair	O	O	NN	O
+3-14	cut	O	O	NN	P1_haircut
+3-15	!	O	O	O	O
+3-16	''	O	O	O	O
+3-17	''	O	O	O	O
+
+#id=4
+#text=I have heard of a great salon in town called Cuts-R-Us and thought I would give it a try . 
+4-1	I	4-3_nsubj	heard	PRP	P1_customer
+4-2	have	4-3_aux	heard	VBP	O
+4-3	heard	O	O	VBN	O
+4-4	of	O	O	O	O
+4-5	a	O	O	DT	O
+4-6	great	O	O	JJ	O
+4-7	salon	4-3_prep_of	heard	NN	P1_salon
+4-8	in	O	O	O	O
+4-9	town	O	O	NN	P1_NPart_town
+4-10	called	O	O	VBN	O
+4-11	Cuts-R-Us	O	O	NNS	P1_salon
+4-12	and	O	O	O	O
+4-13	thought	4-3_conj_and	heard	VBD	O
+4-14	I	4-16_nsubj	give	PRP	P1_customer
+4-15	would	4-16_aux	give	MD	O
+4-16	give	4-13_ccomp	thought	VB	O
+4-17	it	4-16_iobj	give	PRP	P1_salon
+4-18	a	O	O	DT	O
+4-19	try	4-16_dobj	give	NN	O
+4-20	.	O	O	O	O
+
+#id=5
+#text=I looked up the phone number , and I gave them a call . 
+5-1	I	5-2_nsubj	looked	PRP	P1_customer
+5-2	looked	O	O	VBD	O
+5-3	up	5-2_prt	looked	RP	O
+5-4	the	O	O	DT	O
+5-5	phone	O	O	NN	O
+5-6	number	5-2_dobj	looked	NN	P1_NPart_number
+5-7	,	O	O	O	O
+5-8	and	O	O	O	O
+5-9	I	5-10_nsubj	gave	PRP	P1_customer
+5-10	gave	5-2_conj_and	looked	VBD	O
+5-11	them	5-10_iobj	gave	PRP	P1_staff
+5-12	a	O	O	DT	O
+5-13	call	5-10_dobj	gave	NN	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=A girl named Gina answered the phone and asked how she could help . 
+6-1	A	O	O	DT	O
+6-2	girl	6-3_nsubj	named	NN	P1_staff
+6-3	named	O	O	VBD	O
+6-4	Gina	6-5_nsubj	answered	NNP	P1_staff
+6-5	answered	6-3_ccomp	named	VBD	O
+6-6	the	O	O	DT	O
+6-7	phone	6-5_dobj	answered	NN	O
+6-8	and	O	O	O	O
+6-9	asked	6-5_conj_and	answered	VBD	O
+6-10	how	6-13_advmod	help	WRB	O
+6-11	she	6-13_nsubj	help	PRP	P1_staff
+6-12	could	6-13_aux	help	MD	O
+6-13	help	6-9_ccomp	asked	VB	O
+6-14	.	O	O	O	O
+
+#id=7
+#text=I told her that I need an appointment for a hair cut . 
+7-1	I	7-2_nsubj	told	PRP	P1_customer
+7-2	told	O	O	VBD	O
+7-3	her	7-2_dobj	told	PRP	P1_staff
+7-4	that	7-6_mark	need	IN	O
+7-5	I	7-6_nsubj	need	PRP	P1_customer
+7-6	need	7-2_ccomp	told	VBP	O
+7-7	an	O	O	DT	O
+7-8	appointment	7-6_dobj	need	NN	P1_appointment
+7-9	for	O	O	O	O
+7-10	a	O	O	DT	O
+7-11	hair	O	O	NN	O
+7-12	cut	O	O	NN	P1_haircut
+7-13	.	O	O	O	O
+
+#id=8
+#text=We set the appointment for 2:00 the next day . 
+8-1	We	8-2_nsubj	set	PRP	P1_hairdresser_customer
+8-2	set	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	appointment	8-2_dobj	set	NN	P1_appointment
+8-5	for	O	O	O	O
+8-6	2:00	O	O	CD	O
+8-7	the	O	O	DT	O
+8-8	next	O	O	JJ	O
+8-9	day	8-2_tmod	set	NN	P2_time/date
+8-10	.	O	O	O	O
+
+#id=9
+#text=This is exciting to try a new salon ! 
+9-1	This	O	O	DT	O
+9-2	is	O	O	VBZ	O
+9-3	exciting	O	O	JJ	O
+9-4	to	9-5_aux	try	TO	O
+9-5	try	O	O	VB	O
+9-6	a	O	O	DT	O
+9-7	new	O	O	JJ	O
+9-8	salon	9-5_dobj	try	NN	P1_salon
+9-9	!	O	O	O	O
+
+#id=10
+#text=The next day rolled around and I went to Cuts-R-Us at about 1:45 , it never hurts to be a little early . 
+10-1	The	O	O	DT	O
+10-2	next	O	O	JJ	O
+10-3	day	10-4_nsubj	rolled	NN	P2_time/date
+10-4	rolled	10-17_ccomp	hurts	VBD	O
+10-5	around	10-4_prt	rolled	RP	O
+10-6	and	O	O	O	O
+10-7	I	10-8_nsubj	went	PRP	P1_customer
+10-8	went	10-4_conj_and	rolled	VBD	O
+10-9	to	O	O	O	O
+10-10	Cuts-R-Us	10-8_prep_to	went	NNP	P1_salon
+10-11	at	O	O	O	O
+10-12	about	O	O	RB	O
+10-13	1:45	10-8_prep_at	went	CD	O
+10-14	,	O	O	O	O
+10-15	it	10-17_nsubj	hurts	PRP	O
+10-16	never	10-17_neg	hurts	RB	O
+10-17	hurts	O	O	VBZ	O
+10-18	to	O	O	TO	O
+10-19	be	O	O	VB	O
+10-20	a	O	O	DT	O
+10-21	little	O	O	RB	O
+10-22	early	10-17_xcomp	hurts	JJ	O
+10-23	.	O	O	O	O
+
+#id=11
+#text=Gina greeted me and said that Shelly would be cutting my hair . 
+11-1	Gina	11-2_nsubj	greeted	NNP	P1_staff
+11-2	greeted	O	O	VBD	O
+11-3	me	11-2_dobj	greeted	PRP	P1_customer
+11-4	and	O	O	O	O
+11-5	said	11-2_conj_and	greeted	VBD	O
+11-6	that	11-10_mark	cutting	IN	O
+11-7	Shelly	11-10_nsubj	cutting	NNP	P1_hairdresser
+11-8	would	11-10_aux	cutting	MD	O
+11-9	be	11-10_aux	cutting	VB	O
+11-10	cutting	11-5_ccomp	said	VBG	O
+11-11	my	O	O	PRP$	P1_customer
+11-12	hair	11-10_dobj	cutting	NN	P1_hair
+11-13	.	O	O	O	O
+
+#id=12
+#text=Shelly was just finishing up with a client and cleaning her area . 
+12-1	Shelly	12-4_nsubj	finishing	NNP	P1_hairdresser
+12-2	was	12-4_aux	finishing	VBD	O
+12-3	just	12-4_advmod	finishing	RB	O
+12-4	finishing	O	O	VBG	O
+12-5	up	12-4_prt	finishing	RP	O
+12-6	with	O	O	O	O
+12-7	a	O	O	DT	O
+12-8	client	12-4_prep_with	finishing	NN	P2_customer
+12-9	and	O	O	O	O
+12-10	cleaning	12-4_conj_and	finishing	VBG	O
+12-11	her	O	O	PRP$	P1_hairdresser
+12-12	area	12-10_dobj	cleaning	NN	P1_location_salon
+12-13	.	O	O	O	O
+
+#id=13
+#text=Shelly called me over and we discussed what style I would like . 
+13-1	Shelly	13-2_nsubj	called	NNP	P1_hairdresser
+13-2	called	O	O	VBD	O
+13-3	me	13-2_dobj	called	PRP	P1_customer
+13-4	over	13-2_prt	called	RP	O
+13-5	and	O	O	O	O
+13-6	we	13-7_nsubj	discussed	PRP	P2_hairdresser_customer
+13-7	discussed	13-2_conj_and	called	VBD	O
+13-8	what	O	O	WP	O
+13-9	style	13-7_dobj	discussed	NN	P1_haircut
+13-10	I	13-12_nsubj	like	PRP	P1_customer
+13-11	would	13-12_aux	like	MD	O
+13-12	like	O	O	VB	O
+13-13	.	O	O	O	O
+
+#id=14
+#text=I just wanted a trim with some layers . 
+14-1	I	14-3_nsubj	wanted	PRP	P1_customer
+14-2	just	14-3_advmod	wanted	RB	O
+14-3	wanted	O	O	VBD	O
+14-4	a	O	O	DT	O
+14-5	trim	14-3_dobj	wanted	JJ	P1_haircut
+14-6	with	O	O	O	O
+14-7	some	O	O	DT	O
+14-8	layers	14-3_prep_with	wanted	NNS	P1_haircut
+14-9	.	O	O	O	O
+
+#id=15
+#text=Shelly put a cape around my neck and adjusted my chair . 
+15-1	Shelly	15-2_nsubj	put	NNP	P1_hairdresser
+15-2	put	O	O	VBD	O
+15-3	a	O	O	DT	O
+15-4	cape	15-2_dobj	put	NN	P1_cape
+15-5	around	O	O	O	O
+15-6	my	O	O	PRP$	P1_customer
+15-7	neck	15-2_prep_around	put	NN	P1_NPart_neck
+15-8	and	O	O	O	O
+15-9	adjusted	15-2_conj_and	put	VBD	O
+15-10	my	O	O	PRP$	P1_customer
+15-11	chair	15-9_dobj	adjusted	NN	P1_chair
+15-12	.	O	O	O	O
+
+#id=16
+#text=She got a water bottle and sprayed my hair ; it is easier to cut wet hair . 
+16-1	She	16-2_nsubj	got	PRP	P1_hairdresser
+16-2	got	O	O	VBD	O
+16-3	a	O	O	DT	O
+16-4	water	O	O	NN	O
+16-5	bottle	16-2_dobj	got	NN	P1_NPart_bottle
+16-6	and	O	O	O	O
+16-7	sprayed	16-2_conj_and	got	VBN	O
+16-8	my	O	O	PRP$	P1_customer
+16-9	hair	16-7_dobj	sprayed	NN	P1_hair
+16-10	;	O	O	O	O
+16-11	it	O	O	PRP	O
+16-12	is	O	O	VBZ	O
+16-13	easier	16-2_parataxis	got	JJR	O
+16-14	to	16-15_aux	cut	TO	O
+16-15	cut	O	O	VB	O
+16-16	wet	O	O	JJ	O
+16-17	hair	16-15_dobj	cut	NN	P1_hair
+16-18	.	O	O	O	O
+
+#id=17
+#text=She then cut , cut , and cut some more . 
+17-1	She	17-3_nsubj	cut	PRP	P1_hairdresser
+17-2	then	17-3_advmod	cut	RB	O
+17-3	cut	O	O	VBD	O
+17-4	,	O	O	O	O
+17-5	cut	17-3_conj_and	cut	VBD	O
+17-6	,	O	O	O	O
+17-7	and	O	O	O	O
+17-8	cut	17-3_conj_and	cut	VBD	O
+17-9	some	O	O	DT	O
+17-10	more	17-8_xcomp	cut	JJR	O
+17-11	.	O	O	O	O
+
+#id=18
+#text=It took a long time . 
+18-1	It	18-2_nsubj	took	PRP	O
+18-2	took	O	O	VBD	O
+18-3	a	O	O	DT	O
+18-4	long	O	O	JJ	O
+18-5	time	18-2_dobj	took	NN	O
+18-6	.	O	O	O	O
+
+#id=19
+#text=Shelly blow dried my hair and styled it for me . 
+19-1	Shelly	O	O	NNP	P1_hairdresser
+19-2	blow	19-3_nsubj	dried	NN	O
+19-3	dried	O	O	VBD	O
+19-4	my	O	O	PRP$	P1_customer
+19-5	hair	19-3_dobj	dried	NN	P1_hair
+19-6	and	O	O	O	O
+19-7	styled	19-3_conj_and	dried	VBN	O
+19-8	it	19-7_dobj	styled	PRP	P1_hair
+19-9	for	O	O	O	O
+19-10	me	19-7_prep_for	styled	PRP	P1_customer
+19-11	.	O	O	O	O
+
+#id=20
+#text=It looks very nice now ! 
+20-1	It	20-2_nsubj	looks	PRP	P1_hair
+20-2	looks	O	O	VBZ	O
+20-3	very	O	O	RB	O
+20-4	nice	20-2_acomp	looks	JJ	O
+20-5	now	20-2_advmod	looks	RB	O
+20-6	!	O	O	O	O
+
+#id=21
+#text=She used a little brush to get small stray hairs off of my face , and then she removed my cape . 
+21-1	She	21-2_nsubj	used	PRP	P1_hairdresser
+21-2	used	O	O	VBD	O
+21-3	a	O	O	DT	O
+21-4	little	O	O	JJ	O
+21-5	brush	21-2_dobj	used	NN	P1_other
+21-6	to	21-7_aux	get	TO	O
+21-7	get	21-2_vmod	used	VB	O
+21-8	small	O	O	JJ	O
+21-9	stray	O	O	JJ	O
+21-10	hairs	21-7_dobj	get	NNS	P1_hair
+21-11	off	O	O	O	O
+21-12	of	O	O	O	O
+21-13	my	O	O	PRP$	P1_customer
+21-14	face	21-7_prep_off_of	get	NN	P1_NPart_face
+21-15	,	O	O	O	O
+21-16	and	O	O	O	O
+21-17	then	21-19_advmod	removed	RB	O
+21-18	she	21-19_nsubj	removed	PRP	P1_hairdresser
+21-19	removed	21-2_conj_and	used	VBD	O
+21-20	my	O	O	PRP$	P1_customer
+21-21	cape	21-19_dobj	removed	NN	P1_cape
+21-22	.	O	O	O	O
+
+#id=22
+#text=I went up to the cash register where Gina complemented my new cut . 
+22-1	I	22-2_nsubj	went	PRP	P1_customer
+22-2	went	O	O	VBD	O
+22-3	up	22-2_prt	went	RP	O
+22-4	to	O	O	O	O
+22-5	the	O	O	DT	O
+22-6	cash	O	O	NN	O
+22-7	register	22-2_prep_to	went	NN	P1_check_in_desk
+22-8	where	22-10_advmod	complemented	WRB	O
+22-9	Gina	22-10_nsubj	complemented	NNP	P1_staff
+22-10	complemented	22-2_advcl	went	VBD	O
+22-11	my	O	O	PRP$	P1_customer
+22-12	new	O	O	JJ	O
+22-13	cut	22-10_dobj	complemented	NN	P1_haircut
+22-14	.	O	O	O	O
+
+#id=23
+#text=I paid for my hair cut and left a little tip for Shelly . 
+23-1	I	23-2_nsubj	paid	PRP	P1_customer
+23-2	paid	O	O	VBD	O
+23-3	for	O	O	O	O
+23-4	my	O	O	PRP$	P1_customer
+23-5	hair	23-2_prep_for	paid	NN	O
+23-6	cut	O	O	VBN	P1_haircut
+23-7	and	O	O	O	O
+23-8	left	23-6_conj_and	cut	VBN	O
+23-9	a	O	O	DT	O
+23-10	little	O	O	JJ	O
+23-11	tip	23-6_dobj	cut	NN	P1_tip
+23-12	for	O	O	O	O
+23-13	Shelly	23-6_prep_for	cut	NNP	P1_hairdresser
+23-14	.	O	O	O	O
+
+#id=24
+#text=Sometimes , when someone does a good job , I like to give them a little extra to show my appreciation . 
+24-1	Sometimes	24-11_advmod	like	RB	O
+24-2	,	O	O	O	O
+24-3	when	24-5_advmod	does	WRB	O
+24-4	someone	24-5_nsubj	does	NN	P1_hairdresser
+24-5	does	24-11_advcl	like	VBZ	O
+24-6	a	O	O	DT	O
+24-7	good	O	O	JJ	O
+24-8	job	24-5_dobj	does	NN	P1_NPart_job
+24-9	,	O	O	O	O
+24-10	I	24-11_nsubj	like	PRP	P1_customer
+24-11	like	O	O	VBP	O
+24-12	to	24-13_aux	give	TO	O
+24-13	give	24-11_xcomp	like	VB	O
+24-14	them	24-13_iobj	give	PRP	P1_hairdresser
+24-15	a	O	O	DT	O
+24-16	little	O	O	JJ	O
+24-17	extra	24-13_dobj	give	JJ	P1_tip
+24-18	to	24-19_aux	show	TO	O
+24-19	show	24-13_vmod	give	VB	O
+24-20	my	O	O	PRP$	P1_customer
+24-21	appreciation	24-19_dobj	show	NN	P1_NPart_appreciation
+24-22	.	O	O	O	O
+
+#id=25
+#text=Then I went home . 
+25-1	Then	25-3_advmod	went	RB	O
+25-2	I	25-3_nsubj	went	PRP	P1_customer
+25-3	went	O	O	VBD	O
+25-4	home	25-3_dobj	went	NN	P1_NPart_home
+25-5	.	O	O	O	O
+
+#id=26
+#text=I enjoyed the services at Cuts-R-Us , and I love my new cut ! 
+26-1	I	26-2_nsubj	enjoyed	PRP	P1_customer
+26-2	enjoyed	O	O	VBD	O
+26-3	the	O	O	DT	O
+26-4	services	26-2_dobj	enjoyed	NNS	P1_NPart_services
+26-5	at	O	O	O	O
+26-6	Cuts-R-Us	26-2_prep_at	enjoyed	NNP	P1_salon
+26-7	,	O	O	O	O
+26-8	and	O	O	O	O
+26-9	I	26-10_nsubj	love	PRP	P1_customer
+26-10	love	26-2_conj_and	enjoyed	VBP	O
+26-11	my	O	O	PRP$	P1_customer
+26-12	new	O	O	JJ	O
+26-13	cut	26-10_dobj	love	NN	P1_haircut
+26-14	!	O	O	O	O

@@ -1,0 +1,194 @@
+#id=1
+#text=My husband was riding down a steep hill a few miles from home when he got a blow out . 
+1-1	My	O	O	PRP$	P1_other
+1-2	husband	1-4_nsubj	riding	NN	P1_rider
+1-3	was	1-4_aux	riding	VBD	O
+1-4	riding	O	O	VBG	O
+1-5	down	1-4_prt	riding	RP	O
+1-6	a	O	O	DT	O
+1-7	steep	O	O	JJ	O
+1-8	hill	1-4_dobj	riding	NN	P1_NPart_hill
+1-9	a	O	O	DT	O
+1-10	few	O	O	JJ	O
+1-11	miles	1-4_npadvmod	riding	NNS	P1_NPart_miles
+1-12	from	O	O	O	O
+1-13	home	1-4_prep_from	riding	NN	P1_NPart_home
+1-14	when	1-16_advmod	got	WRB	O
+1-15	he	1-16_nsubj	got	PRP	P1_rider
+1-16	got	O	O	VBD	O
+1-17	a	O	O	DT	O
+1-18	blow	1-16_dobj	got	NN	O
+1-19	out	1-16_prt	got	RP	O
+1-20	.	O	O	O	O
+
+#id=2
+#text=He called me to come and get him . 
+2-1	He	2-2_nsubj	called	PRP	P1_rider
+2-2	called	O	O	VBD	O
+2-3	me	2-2_dobj	called	PRP	P1_other
+2-4	to	2-5_aux	come	TO	O
+2-5	come	2-2_xcomp	called	VB	O
+2-6	and	O	O	O	O
+2-7	get	2-5_conj_and	come	VB	O
+2-8	him	2-5_dobj	come	PRP	P1_rider
+2-9	.	O	O	O	O
+
+#id=3
+#text=Luckily he was n't hurt . 
+3-1	Luckily	3-5_advmod	hurt	RB	O
+3-2	he	3-5_nsubjpass	hurt	PRP	P1_rider
+3-3	was	3-5_auxpass	hurt	VBD	O
+3-4	n't	3-5_neg	hurt	RB	O
+3-5	hurt	O	O	VBN	O
+3-6	.	O	O	O	O
+
+#id=4
+#text=He had the bicycle repair kit on him . 
+4-1	He	4-2_nsubj	had	PRP	P1_rider
+4-2	had	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	bicycle	O	O	NN	O
+4-5	repair	O	O	NN	O
+4-6	kit	4-2_dobj	had	NN	P1_tool
+4-7	on	O	O	O	O
+4-8	him	O	O	PRP	P1_rider
+4-9	.	O	O	O	O
+
+#id=5
+#text=We took the tire off with some tools . 
+5-1	We	5-2_nsubj	took	PRP	P2_rider
+5-2	took	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	tire	5-2_dobj	took	NN	P1_tire
+5-5	off	5-2_prt	took	RP	O
+5-6	with	O	O	O	O
+5-7	some	O	O	DT	O
+5-8	tools	5-2_prep_with	took	NNS	P1_tool
+5-9	.	O	O	O	O
+
+#id=6
+#text=We took the inner tube out . 
+6-1	We	6-2_nsubj	took	PRP	P2_rider
+6-2	took	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	inner	O	O	JJ	O
+6-5	tube	6-2_dobj	took	NN	P1_tire
+6-6	out	6-2_prt	took	RP	O
+6-7	.	O	O	O	O
+
+#id=7
+#text=He checked the inner tube for holes by putting air in it . 
+7-1	He	7-2_nsubj	checked	PRP	P1_rider
+7-2	checked	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	inner	O	O	JJ	O
+7-5	tube	7-2_dobj	checked	NN	P1_tire
+7-6	for	O	O	O	O
+7-7	holes	7-2_prep_for	checked	NNS	P1_damage
+7-8	by	O	O	O	O
+7-9	putting	7-2_prepc_by	checked	VBG	O
+7-10	air	7-9_dobj	putting	NN	P1_air
+7-11	in	O	O	O	O
+7-12	it	7-9_prep_in	putting	PRP	P1_tire
+7-13	.	O	O	O	O
+
+#id=8
+#text=He found the hole and marked it . 
+8-1	He	8-2_nsubj	found	PRP	P1_rider
+8-2	found	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	hole	8-2_dobj	found	NN	P1_damage
+8-5	and	O	O	O	O
+8-6	marked	8-2_conj_and	found	VBD	O
+8-7	it	8-6_dobj	marked	PRP	P1_damage
+8-8	.	O	O	O	O
+
+#id=9
+#text=That is the place where he put the patch and glued it . 
+9-1	That	O	O	DT	O
+9-2	is	O	O	VBZ	O
+9-3	the	O	O	DT	O
+9-4	place	O	O	NN	P1_damage
+9-5	where	9-7_advmod	put	WRB	O
+9-6	he	9-7_nsubj	put	PRP	P1_rider
+9-7	put	O	O	VBD	O
+9-8	the	O	O	DT	O
+9-9	patch	9-7_dobj	put	NN	P1_patch
+9-10	and	O	O	O	O
+9-11	glued	9-7_conj_and	put	VBN	O
+9-12	it	9-11_dobj	glued	PRP	P1_patch
+9-13	.	O	O	O	O
+
+#id=10
+#text=My husband put the tube back in the bicycle . 
+10-1	My	O	O	PRP$	P1_other
+10-2	husband	10-3_nsubj	put	NN	P1_rider
+10-3	put	O	O	VBD	O
+10-4	the	O	O	DT	O
+10-5	tube	10-3_dobj	put	NN	P1_tire
+10-6	back	10-3_advmod	put	RB	O
+10-7	in	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	bicycle	10-3_prep_in	put	NN	P1_bicycle
+10-10	.	O	O	O	O
+
+#id=11
+#text=The frame was a little bent but the bike was okay . 
+11-1	The	O	O	DT	O
+11-2	frame	O	O	NN	P2_other
+11-3	was	O	O	VBD	O
+11-4	a	O	O	DT	O
+11-5	little	O	O	RB	O
+11-6	bent	O	O	JJ	O
+11-7	but	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	bike	O	O	NN	P1_bicycle
+11-10	was	O	O	VBD	O
+11-11	okay	O	O	JJ	O
+11-12	.	O	O	O	O
+
+#id=12
+#text=I followed him for a little while . 
+12-1	I	12-2_nsubj	followed	PRP	P1_other
+12-2	followed	O	O	VBD	O
+12-3	him	12-2_dobj	followed	PRP	P1_rider
+12-4	for	O	O	O	O
+12-5	a	O	O	DT	O
+12-6	little	O	O	JJ	O
+12-7	while	12-2_prep_for	followed	NN	O
+12-8	.	O	O	O	O
+
+#id=13
+#text=He was almost to the park so I met him there . 
+13-1	He	13-2_nsubj	was	PRP	P1_rider
+13-2	was	O	O	VBD	O
+13-3	almost	13-2_advmod	was	RB	O
+13-4	to	O	O	O	O
+13-5	the	O	O	DT	O
+13-6	park	13-2_prep_to	was	NN	P1_NPart_park
+13-7	so	13-9_mark	met	IN	O
+13-8	I	13-9_nsubj	met	PRP	P1_other
+13-9	met	13-2_advcl	was	VBD	O
+13-10	him	13-9_dobj	met	PRP	P1_rider
+13-11	there	13-9_advmod	met	RB	O
+13-12	.	O	O	O	O
+
+#id=14
+#text=After a while we put the bike in the back of the truck and drove home . 
+14-1	After	O	O	O	O
+14-2	a	O	O	DT	O
+14-3	while	14-5_prep_after	put	NN	O
+14-4	we	14-5_nsubj	put	PRP	P2_rider
+14-5	put	O	O	VBD	O
+14-6	the	O	O	DT	O
+14-7	bike	14-5_dobj	put	NN	P1_bicycle
+14-8	in	O	O	O	O
+14-9	the	O	O	DT	O
+14-10	back	14-5_prep_in	put	NN	P1_NPart_back
+14-11	of	O	O	O	O
+14-12	the	O	O	DT	O
+14-13	truck	O	O	NN	P1_NPart_truck
+14-14	and	O	O	O	O
+14-15	drove	14-5_conj_and	put	VBD	O
+14-16	home	14-15_dobj	drove	NN	P2_NPart_home
+14-17	.	O	O	O	O

@@ -1,0 +1,198 @@
+#id=1
+#text=I was riding my bike home when I noticed that it had a flat tire . 
+1-1	I	1-3_nsubj	riding	PRP	P1_rider
+1-2	was	1-3_aux	riding	VBD	O
+1-3	riding	O	O	VBG	O
+1-4	my	O	O	PRP$	P1_rider
+1-5	bike	O	O	NN	P1_bicycle
+1-6	home	1-3_dobj	riding	NN	P1_NPart_home
+1-7	when	1-9_advmod	noticed	WRB	O
+1-8	I	1-9_nsubj	noticed	PRP	P1_rider
+1-9	noticed	1-3_advcl	riding	VBD	O
+1-10	that	1-12_mark	had	IN	O
+1-11	it	1-12_nsubj	had	PRP	P1_bicycle
+1-12	had	1-9_ccomp	noticed	VBD	O
+1-13	a	O	O	DT	O
+1-14	flat	O	O	JJ	O
+1-15	tire	1-12_dobj	had	NN	P1_tire
+1-16	.	O	O	O	O
+
+#id=2
+#text=Lucky for me there was a hardware store near by . 
+2-1	Lucky	2-5_dep	was	JJ	O
+2-2	for	O	O	O	O
+2-3	me	O	O	PRP	P1_rider
+2-4	there	2-5_expl	was	EX	O
+2-5	was	O	O	VBD	O
+2-6	a	O	O	DT	O
+2-7	hardware	O	O	NN	O
+2-8	store	2-5_nsubj	was	NN	P1_shop
+2-9	near	O	O	IN	O
+2-10	by	O	O	IN	O
+2-11	.	O	O	O	O
+
+#id=3
+#text=I walked in and purchased a patch kit . 
+3-1	I	3-2_nsubj	walked	PRP	P1_rider
+3-2	walked	O	O	VBD	O
+3-3	in	3-2_prt	walked	RP	O
+3-4	and	O	O	O	O
+3-5	purchased	3-2_conj_and	walked	VBD	O
+3-6	a	O	O	DT	O
+3-7	patch	O	O	NN	O
+3-8	kit	3-5_dobj	purchased	NN	P1_tool
+3-9	.	O	O	O	O
+
+#id=4
+#text=It was only a few dollars . 
+4-1	It	O	O	PRP	P1_tool
+4-2	was	O	O	VBD	O
+4-3	only	O	O	RB	O
+4-4	a	O	O	DT	O
+4-5	few	O	O	JJ	O
+4-6	dollars	O	O	NNS	P1_NPart_dollars
+4-7	.	O	O	O	O
+
+#id=5
+#text=They loaned me a chanellock to get the tire off . 
+5-1	They	5-2_nsubj	loaned	PRP	P1_shop
+5-2	loaned	O	O	VBD	O
+5-3	me	5-2_iobj	loaned	PRP	P1_rider
+5-4	a	O	O	DT	O
+5-5	chanellock	5-2_dobj	loaned	NN	P2_tool
+5-6	to	5-7_aux	get	TO	O
+5-7	get	O	O	VB	O
+5-8	the	O	O	DT	O
+5-9	tire	5-7_dobj	get	NN	P1_tire
+5-10	off	5-7_prt	get	RP	O
+5-11	.	O	O	O	O
+
+#id=6
+#text=It came off easy and I pulled the tire off the rim . 
+6-1	It	6-2_nsubj	came	PRP	P1_tire
+6-2	came	O	O	VBD	O
+6-3	off	6-2_prt	came	RP	O
+6-4	easy	6-2_advmod	came	RB	O
+6-5	and	O	O	O	O
+6-6	I	6-7_nsubj	pulled	PRP	P1_rider
+6-7	pulled	6-2_conj_and	came	VBD	O
+6-8	the	O	O	DT	O
+6-9	tire	6-7_dobj	pulled	NN	P1_tire
+6-10	off	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	rim	6-7_prep_off	pulled	NN	P1_rim
+6-13	.	O	O	O	O
+
+#id=7
+#text=It had a nail hole so I took the wire scrubber in the repair kit and scruffed up the rubber . 
+7-1	It	7-2_nsubj	had	PRP	P1_tire
+7-2	had	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	nail	O	O	NN	P1_object_damage
+7-5	hole	7-2_dobj	had	NN	P1_damage
+7-6	so	7-8_mark	took	IN	O
+7-7	I	7-8_nsubj	took	PRP	P1_rider
+7-8	took	7-2_advcl	had	VBD	O
+7-9	the	O	O	DT	O
+7-10	wire	O	O	NN	O
+7-11	scrubber	7-8_dobj	took	NN	P3_tool
+7-12	in	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	repair	O	O	NN	O
+7-15	kit	7-8_prep_in	took	NN	P1_tool
+7-16	and	O	O	O	O
+7-17	scruffed	7-8_conj_and	took	VBD	O
+7-18	up	7-17_prt	scruffed	RP	O
+7-19	the	O	O	DT	O
+7-20	rubber	7-17_dobj	scruffed	NN	P4_tool
+7-21	.	O	O	O	O
+
+#id=8
+#text=I applied the risen and stuck on the patch , and I held thumb pressure on it for a few minutes . 
+8-1	I	8-2_nsubj	applied	PRP	P1_rider
+8-2	applied	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	risen	8-2_dobj	applied	NN	P5_tool
+8-5	and	O	O	O	O
+8-6	stuck	8-2_conj_and	applied	VBD	O
+8-7	on	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	patch	8-6_prep_on	stuck	NN	P1_patch
+8-10	,	O	O	O	O
+8-11	and	O	O	O	O
+8-12	I	8-13_nsubj	held	PRP	P1_rider
+8-13	held	8-2_conj_and	applied	VBD	O
+8-14	thumb	O	O	NN	O
+8-15	pressure	8-13_dobj	held	NN	P1_pressure
+8-16	on	O	O	O	O
+8-17	it	8-13_prep_on	held	PRP	P1_patch
+8-18	for	O	O	O	O
+8-19	a	O	O	DT	O
+8-20	few	O	O	JJ	O
+8-21	minutes	8-13_prep_for	held	NNS	O
+8-22	.	O	O	O	O
+
+#id=9
+#text=I started putting the tire back on the rim , which was easy I got it back on the bike . 
+9-1	I	9-2_nsubj	started	PRP	P1_rider
+9-2	started	O	O	VBD	O
+9-3	putting	9-2_xcomp	started	VBG	O
+9-4	the	O	O	DT	O
+9-5	tire	9-3_dobj	putting	NN	P1_tire
+9-6	back	9-3_prt	putting	RP	O
+9-7	on	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	rim	9-3_prep_on	putting	NN	P1_rim
+9-10	,	O	O	O	O
+9-11	which	O	O	WDT	O
+9-12	was	O	O	VBD	O
+9-13	easy	O	O	JJ	O
+9-14	I	9-15_nsubj	got	PRP	P1_rider
+9-15	got	O	O	VBD	O
+9-16	it	9-15_dobj	got	PRP	P1_tire
+9-17	back	9-15_advmod	got	RB	O
+9-18	on	O	O	O	O
+9-19	the	O	O	DT	O
+9-20	bike	9-15_prep_on	got	NN	P1_bicycle
+9-21	.	O	O	O	O
+
+#id=10
+#text=Lucky for me the hardware store had a portable tire air filler and I was able to fill the tire . 
+10-1	Lucky	O	O	JJ	O
+10-2	for	O	O	O	O
+10-3	me	O	O	PRP	P1_rider
+10-4	the	O	O	DT	O
+10-5	hardware	O	O	NN	P1_NPart_hardware
+10-6	store	10-7_nsubj	had	NN	P1_shop
+10-7	had	O	O	VBD	O
+10-8	a	O	O	DT	O
+10-9	portable	O	O	JJ	O
+10-10	tire	O	O	NN	P2_tire
+10-11	air	O	O	NN	O
+10-12	filler	10-7_dobj	had	NN	P6_tool
+10-13	and	O	O	O	O
+10-14	I	O	O	PRP	P1_rider
+10-15	was	O	O	VBD	O
+10-16	able	10-7_conj_and	had	JJ	O
+10-17	to	10-18_aux	fill	TO	O
+10-18	fill	O	O	VB	O
+10-19	the	O	O	DT	O
+10-20	tire	10-18_dobj	fill	NN	P1_tire
+10-21	.	O	O	O	O
+
+#id=11
+#text=I thanked them and finished my ride home and the tire did great . 
+11-1	I	11-2_nsubj	thanked	PRP	P1_rider
+11-2	thanked	O	O	VBD	O
+11-3	them	11-2_dobj	thanked	PRP	P1_shop
+11-4	and	O	O	O	O
+11-5	finished	11-2_conj_and	thanked	VBD	O
+11-6	my	O	O	PRP$	P1_rider
+11-7	ride	O	O	NN	P1_ride
+11-8	home	11-5_dobj	finished	NN	P1_NPart_home
+11-9	and	O	O	O	O
+11-10	the	O	O	DT	O
+11-11	tire	O	O	NN	P1_tire
+11-12	did	O	O	VBD	O
+11-13	great	11-2_conj_and	thanked	JJ	O
+11-14	.	O	O	O	O

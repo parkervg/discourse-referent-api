@@ -1,0 +1,191 @@
+#id=1
+#text=Today my sweat tooth is acting up . 
+1-1	Today	1-6_tmod	acting	NN	P1_NPart_today
+1-2	my	O	O	PRP$	P1_cook
+1-3	sweat	O	O	NN	O
+1-4	tooth	1-6_nsubj	acting	NN	P1_NPart_tooth
+1-5	is	1-6_aux	acting	VBZ	O
+1-6	acting	O	O	VBG	O
+1-7	up	1-6_prt	acting	RP	O
+1-8	.	O	O	O	O
+
+#id=2
+#text=I think a good cake is in order for myself and my family to enjoy as dessert after supper . 
+2-1	I	2-2_nsubj	think	PRP	P1_cook
+2-2	think	O	O	VBP	O
+2-3	a	O	O	DT	O
+2-4	good	O	O	JJ	O
+2-5	cake	2-6_nsubj	is	NN	P1_cake
+2-6	is	2-2_ccomp	think	VBZ	O
+2-7	in	O	O	O	O
+2-8	order	2-6_prep_in	is	NN	O
+2-9	for	O	O	O	O
+2-10	myself	O	O	PRP	P1_beneficiary
+2-11	and	O	O	O	O
+2-12	my	O	O	PRP$	P1_cook
+2-13	family	O	O	NN	P2_beneficiary
+2-14	to	2-15_aux	enjoy	TO	O
+2-15	enjoy	O	O	VB	O
+2-16	as	O	O	O	O
+2-17	dessert	2-15_prep_as	enjoy	NN	P1_NPart_dessert
+2-18	after	O	O	O	O
+2-19	supper	2-15_prep_after	enjoy	NN	P1_NPart_supper
+2-20	.	O	O	O	O
+
+#id=3
+#text=I scan my cabinets for the ingredients and realize that a trip to the store is in order to get what I require . 
+3-1	I	3-2_nsubj	scan	PRP	P1_cook
+3-2	scan	O	O	VB	O
+3-3	my	O	O	PRP$	P2_cook
+3-4	cabinets	3-2_dobj	scan	NNS	P1_cabinet
+3-5	for	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	ingredients	3-2_prep_for	scan	NNS	P1_ingredients
+3-8	and	O	O	O	O
+3-9	realize	3-2_conj_and	scan	VB	O
+3-10	that	3-16_mark	is	IN	O
+3-11	a	O	O	DT	O
+3-12	trip	3-16_nsubj	is	NN	P1_NPart_trip
+3-13	to	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	store	O	O	NN	P1_store
+3-16	is	3-9_ccomp	realize	VBZ	O
+3-17	in	3-20_mark	get	IN	O
+3-18	order	3-20_dep	get	NN	O
+3-19	to	3-20_aux	get	TO	O
+3-20	get	3-16_advcl	is	VB	O
+3-21	what	3-23_dobj	require	WP	O
+3-22	I	3-23_nsubj	require	PRP	P1_cook
+3-23	require	3-20_ccomp	get	VBP	O
+3-24	.	O	O	O	O
+
+#id=4
+#text=After a fast trip to the local store i have everything I need for a delicious pineapple upside down cake . 
+4-1	After	O	O	O	O
+4-2	a	O	O	DT	O
+4-3	fast	O	O	JJ	O
+4-4	trip	4-10_prep_after	have	NN	P2_NPart_trip
+4-5	to	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	local	O	O	JJ	O
+4-8	store	O	O	NN	P2_store
+4-9	i	4-10_nsubj	have	FW	P1_cook
+4-10	have	O	O	VBP	O
+4-11	everything	4-10_dobj	have	NN	O
+4-12	I	4-13_nsubj	need	PRP	P1_cook
+4-13	need	O	O	VBP	O
+4-14	for	O	O	O	O
+4-15	a	O	O	DT	O
+4-16	delicious	O	O	JJ	O
+4-17	pineapple	4-13_prep_for	need	NN	O
+4-18	upside	O	O	RB	O
+4-19	down	O	O	O	O
+4-20	cake	O	O	NN	P1_cake
+4-21	.	O	O	O	O
+
+#id=5
+#text=Butter , mix , fresh pineapple , cherries , yum , yum ! 
+5-1	Butter	5-12_nsubj	yum	NN	P2_ingredients
+5-2	,	O	O	O	O
+5-3	mix	O	O	NN	P3_ingredients
+5-4	,	O	O	O	O
+5-5	fresh	O	O	JJ	O
+5-6	pineapple	O	O	NN	P4_ingredients
+5-7	,	O	O	O	O
+5-8	cherries	O	O	NNS	P5_ingredients
+5-9	,	O	O	O	O
+5-10	yum	O	O	NN	O
+5-11	,	O	O	O	O
+5-12	yum	O	O	VBP	O
+5-13	!	O	O	O	O
+
+#id=6
+#text=Now time to get the oven preheated and mix the stuff up and get it ready to bake . 
+6-1	Now	6-2_discourse	time	RB	O
+6-2	time	O	O	VB	O
+6-3	to	6-4_aux	get	TO	O
+6-4	get	6-2_xcomp	time	VB	O
+6-5	the	O	O	DT	O
+6-6	oven	O	O	NN	P1_oven
+6-7	preheated	6-4_dobj	get	NN	O
+6-8	and	O	O	O	O
+6-9	mix	6-2_conj_and	time	VB	O
+6-10	the	O	O	DT	O
+6-11	stuff	6-9_dobj	mix	NN	P6_ingredients
+6-12	up	6-9_prt	mix	RP	O
+6-13	and	O	O	O	O
+6-14	get	6-2_conj_and	time	VB	O
+6-15	it	O	O	PRP	P1_cake
+6-16	ready	6-14_xcomp	get	JJ	O
+6-17	to	6-18_aux	bake	TO	O
+6-18	bake	O	O	VB	O
+6-19	.	O	O	O	O
+
+#id=7
+#text=Twenty minutes later a delicious cake goes into the oven and another 45 minutes later a wonderful smelling masterpiece comes out of it . 
+7-1	Twenty	O	O	CD	O
+7-2	minutes	7-7_dep	goes	NNS	P1_time
+7-3	later	O	O	RB	O
+7-4	a	O	O	DT	O
+7-5	delicious	O	O	JJ	O
+7-6	cake	7-7_nsubj	goes	NN	P1_cake
+7-7	goes	O	O	VBZ	O
+7-8	into	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	oven	7-7_prep_into	goes	NN	P1_oven
+7-11	and	O	O	O	O
+7-12	another	O	O	DT	O
+7-13	45	O	O	CD	O
+7-14	minutes	O	O	NNS	P2_time
+7-15	later	7-20_advmod	comes	RB	O
+7-16	a	O	O	DT	O
+7-17	wonderful	O	O	JJ	O
+7-18	smelling	O	O	NN	O
+7-19	masterpiece	7-20_nsubj	comes	NN	P1_cake
+7-20	comes	7-7_conj_and	goes	VBZ	O
+7-21	out	O	O	O	O
+7-22	of	O	O	O	O
+7-23	it	7-20_prep_out_of	comes	PRP	P1_oven
+7-24	.	O	O	O	O
+
+#id=8
+#text=Ten minutes to cool slightly and then flip it over onto a board to finish cooling . 
+8-1	Ten	O	O	CD	O
+8-2	minutes	8-4_nsubj	cool	NNS	P1_temperature
+8-3	to	8-4_aux	cool	TO	O
+8-4	cool	O	O	VB	O
+8-5	slightly	8-4_advmod	cool	RB	O
+8-6	and	O	O	O	O
+8-7	then	8-8_advmod	flip	RB	O
+8-8	flip	8-4_conj_and	cool	VB	O
+8-9	it	8-8_dobj	flip	PRP	P1_cake
+8-10	over	8-8_prt	flip	RP	O
+8-11	onto	O	O	O	O
+8-12	a	O	O	DT	O
+8-13	board	8-8_prep_onto	flip	NN	P1_NPart_board
+8-14	to	8-15_aux	finish	TO	O
+8-15	finish	O	O	VB	O
+8-16	cooling	8-15_dobj	finish	NN	O
+8-17	.	O	O	O	O
+
+#id=9
+#text=I sneak a taste from one corner and find it is as delicious as it looks and smells . 
+9-1	I	9-2_nsubj	sneak	PRP	P1_cook
+9-2	sneak	O	O	VBP	O
+9-3	a	O	O	DT	O
+9-4	taste	9-2_dobj	sneak	NN	P1_NPart_taste
+9-5	from	O	O	O	O
+9-6	one	O	O	CD	O
+9-7	corner	9-2_prep_from	sneak	NN	P1_NPart_corner
+9-8	and	O	O	O	O
+9-9	find	9-2_conj_and	sneak	VBP	O
+9-10	it	O	O	PRP	P1_cake
+9-11	is	O	O	VBZ	O
+9-12	as	O	O	RB	O
+9-13	delicious	9-9_ccomp	find	JJ	O
+9-14	as	9-16_mark	looks	IN	O
+9-15	it	9-16_nsubj	looks	PRP	P1_cake
+9-16	looks	O	O	VBZ	O
+9-17	and	O	O	O	O
+9-18	smells	9-16_conj_and	looks	VBZ	O
+9-19	.	O	O	O	O

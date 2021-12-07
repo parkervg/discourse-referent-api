@@ -1,0 +1,204 @@
+#id=1
+#text=My friend 's yard needed some more shade to help make it cooler during the summer . 
+1-1	My	O	O	PRP$	P1_gardener
+1-2	friend	O	O	NN	P2_gardener
+1-3	's	O	O	O	O
+1-4	yard	1-5_nsubj	needed	NN	P1_NPart_yard
+1-5	needed	O	O	VBD	O
+1-6	some	O	O	DT	O
+1-7	more	O	O	JJR	O
+1-8	shade	1-5_dobj	needed	NN	P1_NPart_shade
+1-9	to	1-10_aux	help	TO	O
+1-10	help	1-5_vmod	needed	VB	O
+1-11	make	1-10_ccomp	help	VB	O
+1-12	it	O	O	PRP	P1_NPart_it
+1-13	cooler	1-11_xcomp	make	JJR	O
+1-14	during	O	O	O	O
+1-15	the	O	O	DT	O
+1-16	summer	O	O	NN	P1_NPart_summer
+1-17	.	O	O	O	O
+
+#id=2
+#text=We both decided to plant a tree to help with the problem . 
+2-1	We	2-3_nsubj	decided	PRP	P3_gardener
+2-2	both	2-3_dep	decided	DT	O
+2-3	decided	O	O	VBD	O
+2-4	to	2-5_aux	plant	TO	O
+2-5	plant	2-3_xcomp	decided	VB	O
+2-6	a	O	O	DT	O
+2-7	tree	2-5_dobj	plant	NN	P1_tree
+2-8	to	2-9_aux	help	TO	O
+2-9	help	O	O	VB	O
+2-10	with	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	problem	2-9_prep_with	help	NN	P1_NPart_problem
+2-13	.	O	O	O	O
+
+#id=3
+#text=We went to the store and bought a small tree that we could plant and grow . 
+3-1	We	3-2_nsubj	went	PRP	P3_gardener
+3-2	went	O	O	VBD	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	store	3-2_prep_to	went	NN	P1_shop
+3-6	and	O	O	O	O
+3-7	bought	3-2_conj_and	went	VBD	O
+3-8	a	O	O	DT	O
+3-9	small	O	O	JJ	O
+3-10	tree	3-7_dobj	bought	NN	P1_tree
+3-11	that	3-14_mark	plant	IN	O
+3-12	we	3-14_nsubj	plant	PRP	P3_gardener
+3-13	could	3-14_aux	plant	MD	O
+3-14	plant	3-7_ccomp	bought	VB	O
+3-15	and	O	O	O	O
+3-16	grow	3-14_conj_and	plant	VB	O
+3-17	.	O	O	O	O
+
+#id=4
+#text=We then took it home . 
+4-1	We	4-3_nsubj	took	PRP	P3_gardener
+4-2	then	4-3_advmod	took	RB	O
+4-3	took	O	O	VBD	O
+4-4	it	4-3_dobj	took	PRP	P1_tree
+4-5	home	4-3_advmod	took	RB	P1_NPart_home
+4-6	.	O	O	O	O
+
+#id=5
+#text=The next step was to plant it . 
+5-1	The	O	O	DT	O
+5-2	next	O	O	JJ	O
+5-3	step	5-4_nsubj	was	NN	O
+5-4	was	O	O	VBD	O
+5-5	to	5-6_aux	plant	TO	O
+5-6	plant	5-4_xcomp	was	VB	O
+5-7	it	5-6_dobj	plant	PRP	P1_tree
+5-8	.	O	O	O	O
+
+#id=6
+#text=We had to dig up a hole in the backyard to plant it in . 
+6-1	We	6-2_nsubj	had	PRP	P3_gardener
+6-2	had	O	O	VBD	O
+6-3	to	6-4_aux	dig	TO	O
+6-4	dig	6-2_xcomp	had	VB	O
+6-5	up	6-4_prt	dig	RP	O
+6-6	a	O	O	DT	O
+6-7	hole	6-4_dobj	dig	NN	P1_hole
+6-8	in	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	backyard	O	O	NN	P1_NPart_backyard
+6-11	to	6-12_aux	plant	TO	O
+6-12	plant	6-2_xcomp	had	VB	O
+6-13	it	6-12_dobj	plant	PRP	P1_tree
+6-14	in	6-12_prep	plant	IN	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=We used shovels and a wheelbarrow to pick up the dirt and take it away . 
+7-1	We	7-2_nsubj	used	PRP	P3_gardener
+7-2	used	O	O	VBD	O
+7-3	shovels	7-2_dobj	used	NNS	P1_gardening_tool
+7-4	and	O	O	O	O
+7-5	a	O	O	DT	O
+7-6	wheelbarrow	O	O	NN	P2_gardening_tool
+7-7	to	7-8_aux	pick	TO	O
+7-8	pick	7-2_xcomp	used	VB	O
+7-9	up	7-8_prt	pick	RP	O
+7-10	the	O	O	DT	O
+7-11	dirt	7-8_dobj	pick	NN	P1_dirt
+7-12	and	O	O	O	O
+7-13	take	7-8_conj_and	pick	VB	O
+7-14	it	7-13_dobj	take	PRP	P1_dirt
+7-15	away	7-13_advmod	take	RB	O
+7-16	.	O	O	O	O
+
+#id=8
+#text=When the hole was good enough , we planted the tree in the hole . 
+8-1	When	O	O	WRB	O
+8-2	the	O	O	DT	O
+8-3	hole	O	O	NN	P1_hole
+8-4	was	O	O	VBD	O
+8-5	good	8-9_advcl	planted	JJ	O
+8-6	enough	O	O	RB	O
+8-7	,	O	O	O	O
+8-8	we	8-9_nsubj	planted	PRP	P3_gardener
+8-9	planted	O	O	VBD	O
+8-10	the	O	O	DT	O
+8-11	tree	8-9_dobj	planted	NN	P1_tree
+8-12	in	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	hole	8-9_prep_in	planted	NN	P1_hole
+8-15	.	O	O	O	O
+
+#id=9
+#text=We then made sure to put back some of the dirt around the root and base of the tree to make sure it was secure . 
+9-1	We	9-3_nsubj	made	PRP	P3_gardener
+9-2	then	9-3_advmod	made	RB	O
+9-3	made	O	O	VBD	O
+9-4	sure	9-3_acomp	made	JJ	O
+9-5	to	9-6_aux	put	TO	O
+9-6	put	O	O	VB	O
+9-7	back	9-6_prt	put	RP	O
+9-8	some	9-6_dobj	put	DT	O
+9-9	of	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	dirt	O	O	NN	P1_dirt
+9-12	around	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	root	O	O	NN	P1_root
+9-15	and	O	O	O	O
+9-16	base	O	O	NN	P1_NPart_base
+9-17	of	O	O	O	O
+9-18	the	O	O	DT	O
+9-19	tree	O	O	NN	P1_tree
+9-20	to	9-21_aux	make	TO	O
+9-21	make	9-6_vmod	put	VB	O
+9-22	sure	9-21_acomp	make	JJ	O
+9-23	it	O	O	PRP	P1_tree
+9-24	was	O	O	VBD	O
+9-25	secure	O	O	JJ	O
+9-26	.	O	O	O	O
+
+#id=10
+#text=After we were sure the tree was secure , my friend and I watered the area surrounding it to make sure it would grow properly . 
+10-1	After	O	O	IN	O
+10-2	we	O	O	PRP	P3_gardener
+10-3	were	O	O	VBD	O
+10-4	sure	10-14_advcl	watered	JJ	O
+10-5	the	O	O	DT	O
+10-6	tree	O	O	NN	P1_tree
+10-7	was	O	O	VBD	O
+10-8	secure	O	O	JJ	O
+10-9	,	O	O	O	O
+10-10	my	O	O	PRP$	P1_gardener
+10-11	friend	10-14_nsubj	watered	NN	P2_gardener
+10-12	and	O	O	O	O
+10-13	I	O	O	PRP	P1_gardener
+10-14	watered	O	O	VBD	O
+10-15	the	O	O	DT	O
+10-16	area	10-14_dobj	watered	NN	P1_location_garden
+10-17	surrounding	10-14_xcomp	watered	VBG	O
+10-18	it	10-17_dobj	surrounding	PRP	P1_tree
+10-19	to	10-20_aux	make	TO	O
+10-20	make	10-17_xcomp	surrounding	VB	O
+10-21	sure	10-20_acomp	make	JJ	O
+10-22	it	10-24_nsubj	grow	PRP	P1_tree
+10-23	would	10-24_aux	grow	MD	O
+10-24	grow	O	O	VB	O
+10-25	properly	10-24_advmod	grow	RB	O
+10-26	.	O	O	O	O
+
+#id=11
+#text=We hope that the tree will offer some shade by next summer . 
+11-1	We	11-2_nsubj	hope	PRP	P3_gardener
+11-2	hope	O	O	VBP	O
+11-3	that	11-7_mark	offer	IN	O
+11-4	the	O	O	DT	O
+11-5	tree	11-7_nsubj	offer	NN	P1_tree
+11-6	will	11-7_aux	offer	MD	O
+11-7	offer	11-2_ccomp	hope	VB	O
+11-8	some	O	O	DT	O
+11-9	shade	11-7_dobj	offer	NN	P2_NPart_shade
+11-10	by	O	O	O	O
+11-11	next	O	O	JJ	O
+11-12	summer	11-7_prep_by	offer	NN	P2_NPart_summer
+11-13	.	O	O	O	O

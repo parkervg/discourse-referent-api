@@ -1,0 +1,277 @@
+#id=1
+#text=As I got out of the shower and looked in the mirror today I realized that my hair was getting quite shaggy and long . 
+1-1	As	1-3_mark	got	IN	O
+1-2	I	1-3_nsubj	got	PRP	P1_customer
+1-3	got	1-15_advcl	realized	VBD	O
+1-4	out	O	O	O	O
+1-5	of	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	shower	1-3_prep_out_of	got	NN	P1_NPart_shower
+1-8	and	O	O	O	O
+1-9	looked	1-3_conj_and	got	VBD	O
+1-10	in	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	mirror	1-9_prep_in	looked	NN	P1_NPart_mirror
+1-13	today	1-9_tmod	looked	NN	O
+1-14	I	1-15_nsubj	realized	PRP	P1_customer
+1-15	realized	O	O	VBD	O
+1-16	that	O	O	IN	O
+1-17	my	O	O	PRP$	P1_customer
+1-18	hair	O	O	NN	P1_hair
+1-19	was	O	O	VBD	O
+1-20	getting	O	O	VBG	O
+1-21	quite	O	O	RB	O
+1-22	shaggy	1-15_ccomp	realized	JJ	O
+1-23	and	O	O	O	O
+1-24	long	O	O	JJ	O
+1-25	.	O	O	O	O
+
+#id=2
+#text=I think that it was time for a brand new hair cut ! 
+2-1	I	2-2_nsubj	think	PRP	P1_customer
+2-2	think	O	O	VBP	O
+2-3	that	O	O	IN	O
+2-4	it	O	O	PRP	O
+2-5	was	O	O	VBD	O
+2-6	time	2-2_ccomp	think	NN	O
+2-7	for	O	O	O	O
+2-8	a	O	O	DT	O
+2-9	brand	O	O	NN	O
+2-10	new	O	O	JJ	O
+2-11	hair	O	O	NN	O
+2-12	cut	O	O	NN	P1_haircut
+2-13	!	O	O	O	O
+
+#id=3
+#text=I went down to the barber shop and just as I should of known , coming in on a Saturday was not one of my most brightest ideas in hindsight . 
+3-1	I	3-2_nsubj	went	PRP	P1_customer
+3-2	went	O	O	VBD	O
+3-3	down	3-2_prt	went	RP	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	barber	O	O	NN	O
+3-7	shop	3-2_prep_to	went	NN	P1_salon
+3-8	and	O	O	O	O
+3-9	just	3-14_advmod	known	RB	O
+3-10	as	3-14_mark	known	IN	O
+3-11	I	3-14_nsubj	known	PRP	P1_customer
+3-12	should	3-14_aux	known	MD	O
+3-13	of	3-14_prep	known	IN	O
+3-14	known	O	O	VBN	O
+3-15	,	O	O	O	O
+3-16	coming	3-14_xcomp	known	VBG	O
+3-17	in	3-16_prt	coming	RP	O
+3-18	on	O	O	O	O
+3-19	a	O	O	DT	O
+3-20	Saturday	3-16_prep_on	coming	NNP	P1_time/date
+3-21	was	O	O	VBD	O
+3-22	not	O	O	RB	O
+3-23	one	3-2_conj_and	went	CD	O
+3-24	of	O	O	O	O
+3-25	my	O	O	PRP$	P1_customer
+3-26	most	O	O	RBS	O
+3-27	brightest	O	O	JJ	O
+3-28	ideas	O	O	NNS	P1_NPart_ideas
+3-29	in	O	O	O	O
+3-30	hindsight	O	O	NN	O
+3-31	.	O	O	O	O
+
+#id=4
+#text=There was quite a crowd , but I figured I was already here so I might as well just wait . 
+4-1	There	4-2_expl	was	EX	O
+4-2	was	O	O	VBD	O
+4-3	quite	4-2_advmod	was	RB	O
+4-4	a	O	O	DT	O
+4-5	crowd	O	O	NN	P1_NPart_crowd
+4-6	,	O	O	O	O
+4-7	but	O	O	O	O
+4-8	I	4-9_nsubj	figured	PRP	P1_customer
+4-9	figured	4-2_conj_but	was	VBD	O
+4-10	I	4-11_nsubj	was	PRP	P1_customer
+4-11	was	4-9_ccomp	figured	VBD	O
+4-12	already	4-11_advmod	was	RB	O
+4-13	here	4-11_advmod	was	RB	O
+4-14	so	4-20_mark	wait	IN	O
+4-15	I	4-20_nsubj	wait	PRP	P1_customer
+4-16	might	4-20_aux	wait	MD	O
+4-17	as	O	O	RB	O
+4-18	well	O	O	RB	O
+4-19	just	4-20_advmod	wait	RB	O
+4-20	wait	4-11_advcl	was	VB	O
+4-21	.	O	O	O	O
+
+#id=5
+#text=I went over and put my name down under my barber , Bill , who has been cutting my hair for the past 10 years . 
+5-1	I	5-2_nsubj	went	PRP	P1_customer
+5-2	went	O	O	VBD	O
+5-3	over	5-2_prt	went	RP	O
+5-4	and	O	O	O	O
+5-5	put	5-2_conj_and	went	VBD	O
+5-6	my	O	O	PRP$	P1_customer
+5-7	name	5-5_dobj	put	NN	P1_NPart_name
+5-8	down	5-5_prt	put	RP	O
+5-9	under	O	O	O	O
+5-10	my	O	O	PRP$	P1_customer
+5-11	barber	5-5_prep_under	put	NN	P1_hairdresser
+5-12	,	O	O	O	O
+5-13	Bill	O	O	NNP	P1_hairdresser
+5-14	,	O	O	O	O
+5-15	who	5-18_nsubj	cutting	WP	P1_hairdresser
+5-16	has	5-18_aux	cutting	VBZ	O
+5-17	been	5-18_aux	cutting	VBN	O
+5-18	cutting	O	O	VBG	O
+5-19	my	O	O	PRP$	P1_customer
+5-20	hair	5-18_dobj	cutting	NN	P1_hair
+5-21	for	O	O	O	O
+5-22	the	O	O	DT	O
+5-23	past	O	O	JJ	O
+5-24	10	O	O	CD	O
+5-25	years	5-18_prep_for	cutting	NNS	P1_NPart_years
+5-26	.	O	O	O	O
+
+#id=6
+#text=As I waited I grabbed a Sports Illustrated and sat down and began to read how the Pirates were doing in the World Series . 
+6-1	As	6-3_mark	waited	IN	O
+6-2	I	6-3_nsubj	waited	PRP	P1_customer
+6-3	waited	6-5_advcl	grabbed	VBD	O
+6-4	I	6-5_nsubj	grabbed	PRP	P1_customer
+6-5	grabbed	O	O	VBD	O
+6-6	a	O	O	DT	O
+6-7	Sports	O	O	NNP	O
+6-8	Illustrated	6-5_dobj	grabbed	NNP	P1_entertainment
+6-9	and	O	O	O	O
+6-10	sat	6-5_conj_and	grabbed	VBD	O
+6-11	down	6-10_prt	sat	RP	O
+6-12	and	O	O	O	O
+6-13	began	6-10_conj_and	sat	VBD	O
+6-14	to	6-15_aux	read	TO	O
+6-15	read	6-13_xcomp	began	VB	O
+6-16	how	6-20_advmod	doing	WRB	O
+6-17	the	O	O	DT	O
+6-18	Pirates	6-20_nsubj	doing	NNPS	P1_NPart_pirates
+6-19	were	6-20_aux	doing	VBD	O
+6-20	doing	6-15_ccomp	read	VBG	O
+6-21	in	O	O	O	O
+6-22	the	O	O	DT	O
+6-23	World	O	O	NNP	O
+6-24	Series	6-20_prep_in	doing	NNP	P1_NPart_series
+6-25	.	O	O	O	O
+
+#id=7
+#text=After about 20 minutes or so Bill called my name up and asked me what kind of hair cut I wanted . 
+7-1	After	7-19_dep	cut	IN	O
+7-2	about	O	O	RB	O
+7-3	20	O	O	CD	O
+7-4	minutes	O	O	NNS	P2_time/date
+7-5	or	O	O	O	O
+7-6	so	7-8_mark	called	IN	O
+7-7	Bill	7-8_nsubj	called	NNP	P1_hairdresser
+7-8	called	O	O	VBD	O
+7-9	my	O	O	PRP$	P1_customer
+7-10	name	7-8_dobj	called	NN	P2_NPart_name
+7-11	up	7-8_prt	called	RP	O
+7-12	and	O	O	O	O
+7-13	asked	7-8_conj_and	called	VBD	O
+7-14	me	7-13_dobj	asked	PRP	P1_customer
+7-15	what	O	O	WP	O
+7-16	kind	7-19_nsubj	cut	NN	O
+7-17	of	O	O	O	O
+7-18	hair	O	O	NN	O
+7-19	cut	O	O	VBD	P1_haircut
+7-20	I	7-21_nsubj	wanted	PRP	P1_customer
+7-21	wanted	7-19_ccomp	cut	VBD	O
+7-22	.	O	O	O	O
+
+#id=8
+#text=I told him to stick with the usual and he put the big barber apron around me and began to cut my hair while we talked about life and caught up on what has been going on since the last time I saw him , which was about a month ago . 
+8-1	I	8-2_nsubj	told	PRP	P1_customer
+8-2	told	O	O	VBD	O
+8-3	him	8-2_dobj	told	PRP	P1_hairdresser
+8-4	to	8-5_aux	stick	TO	O
+8-5	stick	8-2_xcomp	told	VB	O
+8-6	with	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	usual	8-5_prep_with	stick	JJ	P1_haircut
+8-9	and	O	O	O	O
+8-10	he	8-11_nsubj	put	PRP	P1_hairdresser
+8-11	put	8-2_conj_and	told	VBD	O
+8-12	the	O	O	DT	O
+8-13	big	O	O	JJ	O
+8-14	barber	O	O	NN	O
+8-15	apron	8-11_dobj	put	NN	P1_cape
+8-16	around	O	O	O	O
+8-17	me	8-11_prep_around	put	PRP	P1_customer
+8-18	and	O	O	O	O
+8-19	began	8-11_conj_and	put	VBD	O
+8-20	to	8-21_aux	cut	TO	O
+8-21	cut	8-19_xcomp	began	VB	O
+8-22	my	O	O	PRP$	P1_customer
+8-23	hair	8-21_dobj	cut	NN	P1_hair
+8-24	while	8-26_mark	talked	IN	O
+8-25	we	8-26_nsubj	talked	PRP	P1_hairdresser_customer
+8-26	talked	8-21_advcl	cut	VBN	O
+8-27	about	O	O	O	O
+8-28	life	8-26_prep_about	talked	NN	P1_NPart_life
+8-29	and	O	O	O	O
+8-30	caught	8-26_conj_and	talked	VBN	O
+8-31	up	8-30_prt	caught	RP	O
+8-32	on	O	O	O	O
+8-33	what	8-36_nsubj	going	WP	O
+8-34	has	8-36_aux	going	VBZ	O
+8-35	been	8-36_aux	going	VBN	O
+8-36	going	8-30_prepc_on	caught	VBG	O
+8-37	on	8-36_dep	going	IN	O
+8-38	since	O	O	O	O
+8-39	the	O	O	DT	O
+8-40	last	O	O	JJ	O
+8-41	time	8-36_prep_since	going	NN	O
+8-42	I	8-43_nsubj	saw	PRP	P1_customer
+8-43	saw	O	O	VBD	O
+8-44	him	8-43_dobj	saw	PRP	P1_hairdresser
+8-45	,	O	O	O	O
+8-46	which	8-47_nsubj	was	WDT	O
+8-47	was	O	O	VBD	O
+8-48	about	O	O	O	O
+8-49	a	O	O	DT	O
+8-50	month	8-47_prep_about	was	NN	P1_NPart_month
+8-51	ago	O	O	IN	O
+8-52	.	O	O	O	O
+
+#id=9
+#text=Afterwards my haircut was done and I looked great ! 
+9-1	Afterwards	9-5_advmod	done	RB	O
+9-2	my	O	O	PRP$	P1_customer
+9-3	haircut	9-5_nsubjpass	done	NN	P1_haircut
+9-4	was	9-5_auxpass	done	VBD	O
+9-5	done	O	O	VBN	O
+9-6	and	O	O	O	O
+9-7	I	9-8_nsubj	looked	PRP	P1_customer
+9-8	looked	9-5_conj_and	done	VBD	O
+9-9	great	9-8_acomp	looked	JJ	O
+9-10	!	O	O	O	O
+
+#id=10
+#text=We went up to the register and I paid him and gave him a good tip , then was on my way . 
+10-1	We	10-2_nsubj	went	PRP	P1_hairdresser_customer
+10-2	went	10-19_ccomp	was	VBD	O
+10-3	up	10-2_prt	went	RP	O
+10-4	to	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	register	10-2_prep_to	went	NN	P1_check_in_desk
+10-7	and	O	O	O	O
+10-8	I	10-9_nsubj	paid	PRP	P1_customer
+10-9	paid	10-2_conj_and	went	VBD	O
+10-10	him	10-9_dobj	paid	PRP	P1_hairdresser
+10-11	and	O	O	O	O
+10-12	gave	10-9_conj_and	paid	VBD	O
+10-13	him	10-12_iobj	gave	PRP	P1_hairdresser
+10-14	a	O	O	DT	O
+10-15	good	O	O	JJ	O
+10-16	tip	10-12_dobj	gave	NN	P1_tip
+10-17	,	O	O	O	O
+10-18	then	10-19_nsubj	was	RB	O
+10-19	was	O	O	VBD	O
+10-20	on	O	O	O	O
+10-21	my	O	O	PRP$	P1_customer
+10-22	way	10-19_prep_on	was	NN	O
+10-23	.	O	O	O	O

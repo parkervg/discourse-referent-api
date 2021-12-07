@@ -1,0 +1,245 @@
+#id=1
+#text=After a long day at school followed by soccer practice , taking a bath is one of the most relaxing and enjoyable parts of my day . 
+1-1	After	O	O	O	O
+1-2	a	O	O	DT	O
+1-3	long	O	O	JJ	O
+1-4	day	O	O	NN	P1_NPart_day
+1-5	at	O	O	O	O
+1-6	school	O	O	NN	P1_NPart_school
+1-7	followed	O	O	VBN	O
+1-8	by	O	O	O	O
+1-9	soccer	O	O	NN	O
+1-10	practice	1-7_agent	followed	NN	P1_NPart_practice
+1-11	,	O	O	O	O
+1-12	taking	O	O	VBG	O
+1-13	a	O	O	DT	O
+1-14	bath	1-12_dobj	taking	NN	P1_bath
+1-15	is	O	O	VBZ	O
+1-16	one	O	O	CD	O
+1-17	of	O	O	O	O
+1-18	the	O	O	DT	O
+1-19	most	O	O	RBS	O
+1-20	relaxing	O	O	JJ	O
+1-21	and	O	O	O	O
+1-22	enjoyable	O	O	JJ	O
+1-23	parts	O	O	NNS	O
+1-24	of	O	O	O	O
+1-25	my	O	O	PRP$	P1_bather
+1-26	day	O	O	NN	P2_NPart_day
+1-27	.	O	O	O	O
+
+#id=2
+#text=First , I fill the tub with warm water . 
+2-1	First	2-4_advmod	fill	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	fill	PRP	P1_bather
+2-4	fill	O	O	VBP	O
+2-5	the	O	O	DT	O
+2-6	tub	2-4_dobj	fill	NN	P1_bathtub
+2-7	with	O	O	O	O
+2-8	warm	O	O	JJ	O
+2-9	water	O	O	NN	P1_water
+2-10	.	O	O	O	O
+
+#id=3
+#text=I like the water to be the perfect temperature ; not too hot , but not too cold . 
+3-1	I	3-2_nsubj	like	PRP	P1_bather
+3-2	like	O	O	VBP	O
+3-3	the	O	O	DT	O
+3-4	water	3-2_dobj	like	NN	P1_water
+3-5	to	O	O	TO	O
+3-6	be	O	O	VB	O
+3-7	the	O	O	DT	O
+3-8	perfect	O	O	JJ	O
+3-9	temperature	3-2_xcomp	like	NN	P1_temperature
+3-10	;	O	O	O	O
+3-11	not	O	O	RB	O
+3-12	too	O	O	RB	O
+3-13	hot	O	O	JJ	O
+3-14	,	O	O	O	O
+3-15	but	O	O	O	O
+3-16	not	O	O	O	O
+3-17	too	O	O	RB	O
+3-18	cold	O	O	JJ	O
+3-19	.	O	O	O	O
+
+#id=4
+#text=Sometimes I pour some bubble bath under the running faucet . 
+4-1	Sometimes	4-3_advmod	pour	RB	O
+4-2	I	4-3_nsubj	pour	PRP	P1_bather
+4-3	pour	O	O	VBP	O
+4-4	some	O	O	DT	O
+4-5	bubble	O	O	NN	O
+4-6	bath	4-3_dobj	pour	NN	P1_bath_means
+4-7	under	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	running	O	O	JJ	O
+4-10	faucet	4-3_prep_under	pour	NN	P1_tap
+4-11	.	O	O	O	O
+
+#id=5
+#text=The bubbles are fun and relaxing , not to mention they smell good too . 
+5-1	The	O	O	DT	O
+5-2	bubbles	O	O	NNS	P2_bath_means
+5-3	are	O	O	VBP	O
+5-4	fun	O	O	JJ	O
+5-5	and	O	O	O	O
+5-6	relaxing	O	O	JJ	O
+5-7	,	O	O	O	O
+5-8	not	5-10_neg	mention	RB	O
+5-9	to	5-10_aux	mention	TO	O
+5-10	mention	O	O	VB	O
+5-11	they	5-12_nsubj	smell	PRP	P2_bath_means
+5-12	smell	5-10_ccomp	mention	VBP	O
+5-13	good	5-12_acomp	smell	JJ	O
+5-14	too	O	O	RB	O
+5-15	.	O	O	O	O
+
+#id=6
+#text=While the water runs , I grab a large towel and washcloth , placing them near the tub . 
+6-1	While	6-4_mark	runs	IN	O
+6-2	the	O	O	DT	O
+6-3	water	6-4_nsubj	runs	NN	P1_water
+6-4	runs	6-7_advcl	grab	VBZ	O
+6-5	,	O	O	O	O
+6-6	I	6-7_nsubj	grab	PRP	P1_bather
+6-7	grab	O	O	VBP	O
+6-8	a	O	O	DT	O
+6-9	large	O	O	JJ	O
+6-10	towel	6-7_dobj	grab	NN	P1_towel
+6-11	and	O	O	O	O
+6-12	washcloth	O	O	NN	P1_washing_tools
+6-13	,	O	O	O	O
+6-14	placing	6-7_vmod	grab	VBG	O
+6-15	them	6-14_dobj	placing	PRP	P2_washing_tools
+6-16	near	O	O	O	O
+6-17	the	O	O	DT	O
+6-18	tub	6-14_prep_near	placing	NN	P1_bathtub
+6-19	.	O	O	O	O
+
+#id=7
+#text=After undressing , I step into the tub and enjoy the warmth of the soapy water . 
+7-1	After	O	O	O	O
+7-2	undressing	7-5_prep_after	step	NN	O
+7-3	,	O	O	O	O
+7-4	I	7-5_nsubj	step	PRP	P1_bather
+7-5	step	O	O	VBP	O
+7-6	into	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	tub	7-5_prep_into	step	NN	P1_bathtub
+7-9	and	O	O	O	O
+7-10	enjoy	7-5_conj_and	step	VBP	O
+7-11	the	O	O	DT	O
+7-12	warmth	7-10_dobj	enjoy	NN	P2_temperature
+7-13	of	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	soapy	O	O	JJ	O
+7-16	water	O	O	NN	P1_water
+7-17	.	O	O	O	O
+
+#id=8
+#text=I pour some shampoo on my palm , place my hands on my head , and rub vigorously . 
+8-1	I	8-2_nsubj	pour	PRP	P1_bather
+8-2	pour	O	O	VB	O
+8-3	some	O	O	DT	O
+8-4	shampoo	8-2_dobj	pour	NN	P3_washing_tools
+8-5	on	O	O	O	O
+8-6	my	O	O	PRP$	P1_bather
+8-7	palm	8-2_prep_on	pour	NN	P1_body_part
+8-8	,	O	O	O	O
+8-9	place	8-2_conj_and	pour	VB	O
+8-10	my	O	O	PRP$	P2_bather
+8-11	hands	8-9_dobj	place	NNS	P2_body_part
+8-12	on	O	O	O	O
+8-13	my	O	O	PRP$	P1_bather
+8-14	head	8-9_prep_on	place	NN	P3_body_part
+8-15	,	O	O	O	O
+8-16	and	O	O	O	O
+8-17	rub	8-2_conj_and	pour	VB	O
+8-18	vigorously	8-17_advmod	rub	RB	O
+8-19	.	O	O	O	O
+
+#id=9
+#text=Then I rinse the shampoo out of my hair , and repeat the process with conditioner . 
+9-1	Then	9-3_advmod	rinse	RB	O
+9-2	I	9-3_nsubj	rinse	PRP	P1_bather
+9-3	rinse	O	O	VBD	O
+9-4	the	O	O	DT	O
+9-5	shampoo	9-3_dobj	rinse	NN	P3_washing_tools
+9-6	out	O	O	O	O
+9-7	of	O	O	O	O
+9-8	my	O	O	PRP$	P1_bather
+9-9	hair	9-3_prep_out_of	rinse	NN	P4_body_part
+9-10	,	O	O	O	O
+9-11	and	O	O	O	O
+9-12	repeat	9-3_conj_and	rinse	VB	O
+9-13	the	O	O	DT	O
+9-14	process	9-12_dobj	repeat	NN	P1_NPart_process
+9-15	with	O	O	O	O
+9-16	conditioner	9-12_prep_with	repeat	NN	P4_washing_tools
+9-17	.	O	O	O	O
+
+#id=10
+#text=Finally , I take a bar of soap and clean my entire body , using a washcloth to scrub . 
+10-1	Finally	10-4_advmod	take	RB	O
+10-2	,	O	O	O	O
+10-3	I	10-4_nsubj	take	PRP	P1_bather
+10-4	take	O	O	VB	O
+10-5	a	O	O	DT	O
+10-6	bar	10-4_dobj	take	NN	O
+10-7	of	O	O	O	O
+10-8	soap	O	O	NN	P5_washing_tools
+10-9	and	O	O	O	O
+10-10	clean	10-4_conj_and	take	VB	O
+10-11	my	O	O	PRP$	P1_bather
+10-12	entire	O	O	JJ	O
+10-13	body	10-10_dobj	clean	NN	P5_body_part
+10-14	,	O	O	O	O
+10-15	using	10-10_vmod	clean	VBG	O
+10-16	a	O	O	DT	O
+10-17	washcloth	10-15_dobj	using	NN	P6_washing_tools
+10-18	to	O	O	O	O
+10-19	scrub	10-15_prep_to	using	NN	O
+10-20	.	O	O	O	O
+
+#id=11
+#text=After my hair and body are clean , I drain the tub . 
+11-1	After	O	O	IN	O
+11-2	my	O	O	PRP$	P1_bather
+11-3	hair	O	O	NN	P4_body_part
+11-4	and	O	O	O	O
+11-5	body	O	O	NN	P5_body_part
+11-6	are	O	O	VBP	O
+11-7	clean	11-10_advcl	drain	JJ	O
+11-8	,	O	O	O	O
+11-9	I	11-10_nsubj	drain	PRP	P1_bather
+11-10	drain	O	O	VB	O
+11-11	the	O	O	DT	O
+11-12	tub	11-10_dobj	drain	NN	P1_bathtub
+11-13	.	O	O	O	O
+
+#id=12
+#text=I grab the towel , dry off , and get into my PJ ' s , ready for the new day ahead . 
+12-1	I	12-2_nsubj	grab	PRP	P1_bather
+12-2	grab	O	O	VB	O
+12-3	the	O	O	DT	O
+12-4	towel	12-2_dobj	grab	NN	P2_towel
+12-5	,	O	O	O	O
+12-6	dry	12-2_conj_and	grab	VB	O
+12-7	off	12-6_prt	dry	RP	O
+12-8	,	O	O	O	O
+12-9	and	O	O	O	O
+12-10	get	12-2_conj_and	grab	VB	O
+12-11	into	O	O	O	O
+12-12	my	O	O	PRP$	P1_bather
+12-13	PJ	O	O	NN	O
+12-14	'	O	O	O	O
+12-15	s	12-10_prep_into	get	NN	P1_clothes
+12-16	,	O	O	O	O
+12-17	ready	O	O	JJ	O
+12-18	for	O	O	O	O
+12-19	the	O	O	DT	O
+12-20	new	O	O	JJ	O
+12-21	day	O	O	NN	P3_NPart_day
+12-22	ahead	12-10_advmod	get	RB	O
+12-23	.	O	O	O	O

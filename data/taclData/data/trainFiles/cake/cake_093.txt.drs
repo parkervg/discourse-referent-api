@@ -1,0 +1,255 @@
+#id=1
+#text=This weekend , I decided I wanted to try baking my first cake . 
+1-1	This	O	O	DT	O
+1-2	weekend	1-5_nsubj	decided	NN	P1_NPart_weekend
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	decided	PRP	P1_cook
+1-5	decided	O	O	VBD	O
+1-6	I	1-7_nsubj	wanted	PRP	P1_cook
+1-7	wanted	1-5_ccomp	decided	VBD	O
+1-8	to	1-9_aux	try	TO	O
+1-9	try	1-7_xcomp	wanted	VB	O
+1-10	baking	1-9_xcomp	try	VBG	O
+1-11	my	O	O	PRP$	P1_cook
+1-12	first	O	O	JJ	O
+1-13	cake	1-10_dobj	baking	NN	P1_cake
+1-14	.	O	O	O	O
+
+#id=2
+#text=I found a recipe online for an easy to make cake , printed out a list of the ingredients , and went to the grocery store to get them . 
+2-1	I	2-2_nsubj	found	PRP	P1_cook
+2-2	found	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	recipe	2-2_dobj	found	NN	P1_baking_instructions
+2-5	online	2-2_dep	found	NN	P1_recipe_source
+2-6	for	O	O	O	O
+2-7	an	O	O	DT	O
+2-8	easy	O	O	JJ	O
+2-9	to	2-10_aux	make	TO	O
+2-10	make	O	O	VB	O
+2-11	cake	2-2_prep_for	found	NN	P1_cake
+2-12	,	O	O	O	O
+2-13	printed	2-2_conj_and	found	VBD	O
+2-14	out	2-13_prt	printed	RP	O
+2-15	a	O	O	DT	O
+2-16	list	2-13_dobj	printed	NN	P1_other
+2-17	of	O	O	O	O
+2-18	the	O	O	DT	O
+2-19	ingredients	O	O	NNS	P1_ingredients
+2-20	,	O	O	O	O
+2-21	and	O	O	O	O
+2-22	went	2-2_conj_and	found	VBD	O
+2-23	to	O	O	O	O
+2-24	the	O	O	DT	O
+2-25	grocery	O	O	NN	O
+2-26	store	2-22_prep_to	went	NN	P1_store
+2-27	to	2-28_aux	get	TO	O
+2-28	get	2-22_xcomp	went	VB	O
+2-29	them	2-28_dobj	get	PRP	P1_ingredients
+2-30	.	O	O	O	O
+
+#id=3
+#text=I knew about some of the common things , like eggs , flour , and sugar , but the list helped me get a lot of things I did n't own and would n't know to get . 
+3-1	I	3-2_nsubj	knew	PRP	P1_cook
+3-2	knew	O	O	VBD	O
+3-3	about	O	O	RB	O
+3-4	some	3-2_dobj	knew	DT	O
+3-5	of	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	common	O	O	JJ	O
+3-8	things	O	O	NNS	P2_ingredients
+3-9	,	O	O	O	O
+3-10	like	O	O	O	O
+3-11	eggs	3-2_prep_like	knew	NNS	O
+3-12	,	O	O	O	O
+3-13	flour	O	O	NN	O
+3-14	,	O	O	O	O
+3-15	and	O	O	O	O
+3-16	sugar	O	O	NN	P2_ingredients
+3-17	,	O	O	O	O
+3-18	but	O	O	O	O
+3-19	the	O	O	DT	O
+3-20	list	3-21_nsubj	helped	NN	P1_other
+3-21	helped	3-2_conj_but	knew	VBD	O
+3-22	me	3-23_nsubj	get	PRP	P2_cook
+3-23	get	3-21_ccomp	helped	VBP	O
+3-24	a	O	O	DT	O
+3-25	lot	3-23_dobj	get	NN	O
+3-26	of	O	O	O	O
+3-27	things	O	O	NNS	P3_ingredients
+3-28	I	3-31_nsubj	own	PRP	P1_cook
+3-29	did	3-31_aux	own	VBD	O
+3-30	n't	3-31_neg	own	RB	O
+3-31	own	O	O	VB	O
+3-32	and	O	O	O	O
+3-33	would	3-35_aux	know	MD	O
+3-34	n't	3-35_neg	know	RB	O
+3-35	know	3-31_conj_and	own	VB	O
+3-36	to	3-37_aux	get	TO	O
+3-37	get	3-35_xcomp	know	VB	O
+3-38	.	O	O	O	O
+
+#id=4
+#text=When I got home , I followed the recipe as closely as I could , adding each of the ingredients at the exact amount of the recipe asked for . 
+4-1	When	4-3_advmod	got	WRB	O
+4-2	I	4-3_nsubj	got	PRP	P1_cook
+4-3	got	4-7_advcl	followed	VBD	O
+4-4	home	4-3_dobj	got	NN	P1_kitchen/location
+4-5	,	O	O	O	O
+4-6	I	4-7_nsubj	followed	PRP	P1_cook
+4-7	followed	O	O	VBD	O
+4-8	the	O	O	DT	O
+4-9	recipe	4-7_dobj	followed	NN	P1_baking_instructions
+4-10	as	O	O	RB	O
+4-11	closely	4-7_advmod	followed	RB	O
+4-12	as	O	O	IN	O
+4-13	I	O	O	PRP	P1_cook
+4-14	could	4-7_advcl	followed	MD	O
+4-15	,	O	O	O	O
+4-16	adding	4-7_xcomp	followed	VBG	O
+4-17	each	4-16_dobj	adding	DT	O
+4-18	of	O	O	O	O
+4-19	the	O	O	DT	O
+4-20	ingredients	O	O	NNS	P1_ingredients
+4-21	at	O	O	O	O
+4-22	the	O	O	DT	O
+4-23	exact	O	O	JJ	O
+4-24	amount	4-16_prep_at	adding	NN	P1_NPart_amount
+4-25	of	O	O	O	O
+4-26	the	O	O	DT	O
+4-27	recipe	O	O	NN	P2_baking_instructions
+4-28	asked	O	O	VBN	O
+4-29	for	4-28_prep	asked	IN	O
+4-30	.	O	O	O	O
+
+#id=5
+#text=I mixed them all up as described , and put them into a pan that I had borrowed from my mother . 
+5-1	I	5-2_nsubj	mixed	PRP	P1_cook
+5-2	mixed	O	O	VBD	O
+5-3	them	5-7_nsubj	described	PRP	P1_ingredients
+5-4	all	O	O	DT	O
+5-5	up	O	O	RB	O
+5-6	as	5-7_advmod	described	RB	O
+5-7	described	5-2_ccomp	mixed	VBD	O
+5-8	,	O	O	O	O
+5-9	and	O	O	O	O
+5-10	put	5-7_conj_and	described	VBD	O
+5-11	them	5-10_dobj	put	PRP	P1_ingredients
+5-12	into	O	O	O	O
+5-13	a	O	O	DT	O
+5-14	pan	5-10_prep_into	put	NN	P1_cake_tin
+5-15	that	5-18_mark	borrowed	IN	O
+5-16	I	5-18_nsubj	borrowed	PRP	P1_cook
+5-17	had	5-18_aux	borrowed	VBD	O
+5-18	borrowed	5-10_ccomp	put	VBN	O
+5-19	from	O	O	O	O
+5-20	my	O	O	PRP$	P1_cook
+5-21	mother	5-18_prep_from	borrowed	NN	P1_NPart_mother
+5-22	.	O	O	O	O
+
+#id=6
+#text=I put the pan in the oven and let the cake cook . 
+6-1	I	6-2_nsubj	put	PRP	P1_cook
+6-2	put	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	pan	6-2_dobj	put	NN	P1_cake_tin
+6-5	in	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	oven	6-2_prep_in	put	NN	P1_oven
+6-8	and	O	O	O	O
+6-9	let	6-2_conj_and	put	VBD	O
+6-10	the	O	O	DT	O
+6-11	cake	O	O	NN	P1_cake
+6-12	cook	6-9_dobj	let	NN	O
+6-13	.	O	O	O	O
+
+#id=7
+#text=I checked on it occasionally to see if it was looking ok , and because I was really excited to see how it was turning out . 
+7-1	I	7-2_nsubj	checked	PRP	P1_cook
+7-2	checked	O	O	VBD	O
+7-3	on	O	O	O	O
+7-4	it	7-2_prep_on	checked	PRP	P1_cake
+7-5	occasionally	7-2_advmod	checked	RB	O
+7-6	to	7-7_aux	see	TO	O
+7-7	see	7-2_xcomp	checked	VB	O
+7-8	if	7-11_mark	looking	IN	O
+7-9	it	7-11_nsubj	looking	PRP	P1_cake
+7-10	was	7-11_aux	looking	VBD	O
+7-11	looking	7-7_advcl	see	VBG	O
+7-12	ok	7-11_dobj	looking	NN	O
+7-13	,	O	O	O	O
+7-14	and	O	O	O	O
+7-15	because	O	O	IN	O
+7-16	I	O	O	PRP	P1_cook
+7-17	was	O	O	VBD	O
+7-18	really	O	O	RB	O
+7-19	excited	7-11_conj_and	looking	JJ	O
+7-20	to	7-21_aux	see	TO	O
+7-21	see	O	O	VB	O
+7-22	how	7-25_advmod	turning	WRB	O
+7-23	it	7-25_nsubj	turning	PRP	P1_cake
+7-24	was	7-25_aux	turning	VBD	O
+7-25	turning	7-21_ccomp	see	VBG	O
+7-26	out	7-25_prt	turning	RP	O
+7-27	.	O	O	O	O
+
+#id=8
+#text=When it was done in the oven I removed it , and applied an extra thick coat of frosting . 
+8-1	When	8-4_advmod	done	WRB	O
+8-2	it	8-4_nsubjpass	done	PRP	P1_cake
+8-3	was	8-4_auxpass	done	VBD	O
+8-4	done	8-9_advcl	removed	VBN	O
+8-5	in	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	oven	8-4_prep_in	done	NN	P1_oven
+8-8	I	8-9_nsubj	removed	PRP	P1_cook
+8-9	removed	O	O	VBD	O
+8-10	it	8-9_dobj	removed	PRP	P1_cake
+8-11	,	O	O	O	O
+8-12	and	O	O	O	O
+8-13	applied	8-9_conj_and	removed	VBD	O
+8-14	an	O	O	DT	O
+8-15	extra	O	O	JJ	O
+8-16	thick	O	O	JJ	O
+8-17	coat	8-13_dobj	applied	NN	P1_NPart_coat
+8-18	of	O	O	O	O
+8-19	frosting	O	O	NN	P1_decoration
+8-20	.	O	O	O	O
+
+#id=9
+#text=I was supposed to wait for the cake to cook , but I was too excited to try it out and ate it much sooner than recommended . 
+9-1	I	9-3_nsubjpass	supposed	PRP	P1_cook
+9-2	was	9-3_auxpass	supposed	VBD	O
+9-3	supposed	O	O	VBN	O
+9-4	to	9-5_aux	wait	TO	O
+9-5	wait	9-3_xcomp	supposed	VB	O
+9-6	for	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	cake	9-5_prep_for	wait	NN	P1_cake
+9-9	to	9-10_aux	cook	TO	O
+9-10	cook	O	O	VB	O
+9-11	,	O	O	O	O
+9-12	but	O	O	O	O
+9-13	I	O	O	PRP	P1_cook
+9-14	was	O	O	VBD	O
+9-15	too	O	O	RB	O
+9-16	excited	9-3_conj_but	supposed	JJ	O
+9-17	to	9-18_aux	try	TO	O
+9-18	try	O	O	VB	O
+9-19	it	9-18_dobj	try	PRP	P1_cake
+9-20	out	9-18_prt	try	RP	O
+9-21	and	O	O	O	O
+9-22	ate	O	O	VBD	O
+9-23	it	9-27_nsubj	recommended	PRP	P1_cake
+9-24	much	O	O	RB	O
+9-25	sooner	O	O	RBR	O
+9-26	than	9-27_advmod	recommended	IN	O
+9-27	recommended	9-22_ccomp	ate	VBD	O
+9-28	.	O	O	O	O
+
+#id=10
+#text=It was delicious ! 
+10-1	It	O	O	PRP	P1_cake
+10-2	was	O	O	VBD	O
+10-3	delicious	O	O	JJ	O
+10-4	!	O	O	O	O

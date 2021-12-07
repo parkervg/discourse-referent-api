@@ -1,0 +1,218 @@
+#id=1
+#text=I travel to the local nursery to select a tree for planting , today I have decided to purchase a flowering maple tree . 
+1-1	I	1-2_nsubj	travel	PRP	P1_gardener
+1-2	travel	O	O	VBP	O
+1-3	to	O	O	O	O
+1-4	the	O	O	DT	O
+1-5	local	O	O	JJ	O
+1-6	nursery	1-2_prep_to	travel	NN	P1_shop
+1-7	to	1-8_aux	select	TO	O
+1-8	select	1-2_xcomp	travel	VB	O
+1-9	a	O	O	DT	O
+1-10	tree	1-8_dobj	select	NN	P1_tree
+1-11	for	O	O	O	O
+1-12	planting	O	O	NN	O
+1-13	,	O	O	O	O
+1-14	today	1-17_tmod	decided	NN	O
+1-15	I	1-17_nsubj	decided	PRP	P1_gardener
+1-16	have	1-17_aux	decided	VBP	O
+1-17	decided	1-2_parataxis	travel	VBN	O
+1-18	to	1-19_aux	purchase	TO	O
+1-19	purchase	1-17_xcomp	decided	VB	O
+1-20	a	O	O	DT	O
+1-21	flowering	O	O	JJ	O
+1-22	maple	O	O	NN	O
+1-23	tree	1-19_dobj	purchase	NN	P1_tree
+1-24	.	O	O	O	O
+
+#id=2
+#text=I ensure the one I pick is high quality with no rotting and looks healthy . 
+2-1	I	2-2_nsubj	ensure	PRP	P1_gardener
+2-2	ensure	O	O	VB	O
+2-3	the	O	O	DT	O
+2-4	one	2-2_dobj	ensure	NN	P1_tree
+2-5	I	2-6_nsubj	pick	PRP	P1_gardener
+2-6	pick	O	O	VBP	O
+2-7	is	O	O	VBZ	O
+2-8	high	O	O	JJ	O
+2-9	quality	2-6_ccomp	pick	NN	P1_NPart_quality
+2-10	with	O	O	O	O
+2-11	no	O	O	DT	O
+2-12	rotting	O	O	NN	O
+2-13	and	O	O	O	O
+2-14	looks	O	O	VBZ	O
+2-15	healthy	2-14_acomp	looks	JJ	O
+2-16	.	O	O	O	O
+
+#id=3
+#text=Once in my yard I determine the best location based on the expected height it will grow and other plants in the yard . 
+3-1	Once	3-6_mark	determine	IN	O
+3-2	in	O	O	O	O
+3-3	my	O	O	PRP$	P1_gardener
+3-4	yard	3-6_prep_in	determine	NN	P1_NPart_yard
+3-5	I	3-6_nsubj	determine	PRP	P1_gardener
+3-6	determine	3-17_advcl	grow	VBP	O
+3-7	the	O	O	DT	O
+3-8	best	O	O	JJS	O
+3-9	location	3-6_dobj	determine	NN	P1_location_garden
+3-10	based	O	O	O	O
+3-11	on	O	O	IN	O
+3-12	the	O	O	DT	O
+3-13	expected	O	O	JJ	O
+3-14	height	O	O	NN	P1_NPart_height
+3-15	it	3-17_nsubj	grow	PRP	P1_tree
+3-16	will	3-17_aux	grow	MD	O
+3-17	grow	O	O	VB	O
+3-18	and	O	O	O	O
+3-19	other	O	O	JJ	O
+3-20	plants	3-17_conj_and	grow	NNS	P1_NPart_plants
+3-21	in	O	O	O	O
+3-22	the	O	O	DT	O
+3-23	yard	O	O	NN	P2_NPart_yard
+3-24	.	O	O	O	O
+
+#id=4
+#text=With my garden shovel I dig a hole at least twice the size of the roots of the tree . 
+4-1	With	O	O	O	O
+4-2	my	O	O	PRP$	P1_gardener
+4-3	garden	O	O	NN	O
+4-4	shovel	4-6_prep_with	dig	NN	P1_gardening_tool
+4-5	I	4-6_nsubj	dig	PRP	P1_gardener
+4-6	dig	O	O	VBZ	O
+4-7	a	O	O	DT	O
+4-8	hole	4-6_iobj	dig	NN	P1_hole
+4-9	at	O	O	IN	O
+4-10	least	O	O	JJS	O
+4-11	twice	O	O	JJ	O
+4-12	the	O	O	DT	O
+4-13	size	4-6_dobj	dig	NN	P1_NPart_size
+4-14	of	O	O	O	O
+4-15	the	O	O	DT	O
+4-16	roots	O	O	NNS	P1_root
+4-17	of	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	tree	O	O	NN	P1_tree
+4-20	.	O	O	O	O
+
+#id=5
+#text=I ensure rocks and are removed from the hole . 
+5-1	I	5-2_nsubj	ensure	PRP	P1_gardener
+5-2	ensure	O	O	VB	O
+5-3	rocks	5-2_dobj	ensure	NNS	P1_NPart_rocks
+5-4	and	O	O	O	O
+5-5	are	5-6_auxpass	removed	VBP	O
+5-6	removed	5-2_conj_and	ensure	VBN	O
+5-7	from	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	hole	5-6_prep_from	removed	NN	P1_hole
+5-10	.	O	O	O	O
+
+#id=6
+#text=I put plenty of organic matter in the hole to ensure good growth . 
+6-1	I	6-2_nsubj	put	PRP	P1_gardener
+6-2	put	O	O	VBD	O
+6-3	plenty	6-2_dobj	put	RB	O
+6-4	of	O	O	O	O
+6-5	organic	O	O	JJ	O
+6-6	matter	O	O	NN	P1_fertilizer
+6-7	in	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	hole	6-2_prep_in	put	NN	P1_hole
+6-10	to	6-11_aux	ensure	TO	O
+6-11	ensure	O	O	VB	O
+6-12	good	O	O	JJ	O
+6-13	growth	6-11_dobj	ensure	NN	P1_NPart_growth
+6-14	.	O	O	O	O
+
+#id=7
+#text=I gently place the tree in the hole and refill with the shoveled dirt . 
+7-1	I	7-3_nsubj	place	PRP	P1_gardener
+7-2	gently	7-3_advmod	place	RB	O
+7-3	place	O	O	VBP	O
+7-4	the	O	O	DT	O
+7-5	tree	7-3_dobj	place	NN	P1_tree
+7-6	in	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	hole	O	O	NN	P1_hole
+7-9	and	O	O	O	O
+7-10	refill	O	O	NN	O
+7-11	with	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	shoveled	O	O	JJ	O
+7-14	dirt	O	O	NN	P1_dirt
+7-15	.	O	O	O	O
+
+#id=8
+#text=I place my garden hose at the base of the tree and turn the water to a very slow stream so it will absorb into the soil properly . 
+8-1	I	8-2_nsubj	place	PRP	P1_gardener
+8-2	place	O	O	VB	O
+8-3	my	O	O	PRP$	P1_gardener
+8-4	garden	O	O	NN	O
+8-5	hose	8-2_dobj	place	NN	P2_gardening_tool
+8-6	at	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	base	8-2_prep_at	place	NN	P1_NPart_base
+8-9	of	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	tree	O	O	NN	P1_tree
+8-12	and	O	O	O	O
+8-13	turn	8-2_conj_and	place	VB	O
+8-14	the	O	O	DT	O
+8-15	water	8-13_dobj	turn	NN	P1_water
+8-16	to	O	O	O	O
+8-17	a	O	O	DT	O
+8-18	very	O	O	RB	O
+8-19	slow	O	O	JJ	O
+8-20	stream	8-13_prep_to	turn	NN	P1_NPart_stream
+8-21	so	8-24_mark	absorb	IN	O
+8-22	it	8-24_nsubj	absorb	PRP	P1_water
+8-23	will	8-24_aux	absorb	MD	O
+8-24	absorb	8-13_advcl	turn	VB	O
+8-25	into	O	O	O	O
+8-26	the	O	O	DT	O
+8-27	soil	8-24_prep_into	absorb	NN	P1_dirt
+8-28	properly	8-24_advmod	absorb	RB	O
+8-29	.	O	O	O	O
+
+#id=9
+#text=I allow the water to run for about and hour ensuring it does n't get soggy . 
+9-1	I	9-2_nsubj	allow	PRP	P1_gardener
+9-2	allow	O	O	VBP	O
+9-3	the	O	O	DT	O
+9-4	water	9-2_dobj	allow	NN	P1_water
+9-5	to	9-6_aux	run	TO	O
+9-6	run	9-2_xcomp	allow	VB	O
+9-7	for	9-6_prep	run	IN	O
+9-8	about	O	O	RB	O
+9-9	and	O	O	O	O
+9-10	hour	O	O	CD	P1_time
+9-11	ensuring	9-6_xcomp	run	VBG	O
+9-12	it	9-15_nsubj	get	PRP	P1_dirt
+9-13	does	9-15_aux	get	VBZ	O
+9-14	n't	9-15_neg	get	RB	O
+9-15	get	9-11_ccomp	ensuring	VB	O
+9-16	soggy	9-15_dobj	get	JJ	O
+9-17	.	O	O	O	O
+
+#id=10
+#text=I step back and admire my new tree and envision what it will look like a year from now . 
+10-1	I	10-2_nsubj	step	PRP	P1_gardener
+10-2	step	O	O	VB	O
+10-3	back	10-2_advmod	step	RB	O
+10-4	and	O	O	O	O
+10-5	admire	10-2_conj_and	step	VB	O
+10-6	my	O	O	PRP$	P1_gardener
+10-7	new	O	O	JJ	O
+10-8	tree	10-5_dobj	admire	NN	P1_tree
+10-9	and	O	O	O	O
+10-10	envision	10-2_conj_and	step	VB	O
+10-11	what	10-14_dobj	look	WP	O
+10-12	it	10-14_nsubj	look	PRP	P1_tree
+10-13	will	10-14_aux	look	MD	O
+10-14	look	10-10_ccomp	envision	VB	O
+10-15	like	O	O	O	O
+10-16	a	O	O	DT	O
+10-17	year	10-14_prep_like	look	NN	P2_time
+10-18	from	O	O	IN	O
+10-19	now	O	O	RB	O
+10-20	.	O	O	O	O

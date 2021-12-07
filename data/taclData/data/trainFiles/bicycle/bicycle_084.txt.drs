@@ -1,0 +1,258 @@
+#id=1
+#text=Last summer , I was riding my bike and I must have ran over something sharp because my tire started going flat . 
+1-1	Last	O	O	JJ	O
+1-2	summer	1-6_tmod	riding	NN	P1_NPart_summer
+1-3	,	O	O	O	O
+1-4	I	1-6_nsubj	riding	PRP	P1_rider
+1-5	was	1-6_aux	riding	VBD	O
+1-6	riding	O	O	VBG	O
+1-7	my	O	O	PRP$	P1_rider
+1-8	bike	1-6_dobj	riding	NN	P1_bicycle
+1-9	and	O	O	O	O
+1-10	I	1-13_nsubj	ran	PRP	P1_rider
+1-11	must	1-13_aux	ran	MD	O
+1-12	have	1-13_aux	ran	VB	O
+1-13	ran	1-6_conj_and	riding	VBD	O
+1-14	over	O	O	O	O
+1-15	something	1-13_prep_over	ran	NN	P1_object_damage
+1-16	sharp	O	O	JJ	O
+1-17	because	1-20_mark	started	IN	O
+1-18	my	O	O	PRP$	P1_rider
+1-19	tire	1-20_nsubj	started	NN	P1_tire
+1-20	started	1-13_advcl	ran	VBD	O
+1-21	going	1-20_xcomp	started	VBG	O
+1-22	flat	1-21_acomp	going	JJ	O
+1-23	.	O	O	O	O
+
+#id=2
+#text=I tried to use a repair kit , but the hole was too big and the patch would not stay on the old tube . 
+2-1	I	2-2_nsubj	tried	PRP	P1_rider
+2-2	tried	O	O	VBD	O
+2-3	to	2-4_aux	use	TO	O
+2-4	use	2-2_xcomp	tried	VB	O
+2-5	a	O	O	DT	O
+2-6	repair	O	O	NN	O
+2-7	kit	2-4_dobj	use	NN	P1_tool
+2-8	,	O	O	O	O
+2-9	but	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	hole	O	O	NN	P1_damage
+2-12	was	O	O	VBD	O
+2-13	too	O	O	RB	O
+2-14	big	2-2_conj_but	tried	JJ	O
+2-15	and	O	O	O	O
+2-16	the	O	O	DT	O
+2-17	patch	2-20_nsubj	stay	NN	P1_patch
+2-18	would	2-20_aux	stay	MD	O
+2-19	not	2-20_neg	stay	RB	O
+2-20	stay	O	O	VB	O
+2-21	on	O	O	O	O
+2-22	the	O	O	DT	O
+2-23	old	O	O	JJ	O
+2-24	tube	2-20_prep_on	stay	NN	P1_tire
+2-25	.	O	O	O	O
+
+#id=3
+#text=It turns out that I ran over a screw and it had been lodged through the tire and into the tube . 
+3-1	It	3-2_nsubj	turns	PRP	O
+3-2	turns	O	O	VBZ	O
+3-3	out	3-2_prt	turns	RP	O
+3-4	that	3-6_mark	ran	IN	O
+3-5	I	3-6_nsubj	ran	PRP	P1_rider
+3-6	ran	3-2_ccomp	turns	VBD	O
+3-7	over	O	O	O	O
+3-8	a	O	O	DT	O
+3-9	screw	3-6_prep_over	ran	NN	P1_object_damage
+3-10	and	O	O	O	O
+3-11	it	3-14_nsubjpass	lodged	PRP	P1_object_damage
+3-12	had	3-14_aux	lodged	VBD	O
+3-13	been	3-14_auxpass	lodged	VBN	O
+3-14	lodged	3-14_conj_and	lodged	VBN	O
+3-15	through	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	tire	3-14_prep_through	lodged	NN	P1_tire
+3-18	and	O	O	O	O
+3-19	into	O	O	O	O
+3-20	the	O	O	DT	O
+3-21	tube	3-14_prep_into	lodged	NN	P1_tire
+3-22	.	O	O	O	O
+
+#id=4
+#text=I knew that I had a twenty six inch wheel , so I went up to the local hardware store . 
+4-1	I	4-2_nsubj	knew	PRP	P1_rider
+4-2	knew	O	O	VBD	O
+4-3	that	4-5_mark	had	IN	O
+4-4	I	4-5_nsubj	had	PRP	P1_rider
+4-5	had	4-2_ccomp	knew	VBD	O
+4-6	a	O	O	DT	O
+4-7	twenty	O	O	CD	O
+4-8	six	O	O	CD	O
+4-9	inch	O	O	NN	P1_other
+4-10	wheel	4-5_dobj	had	NN	P1_tire
+4-11	,	O	O	O	O
+4-12	so	4-2_dep	knew	IN	O
+4-13	I	4-14_nsubj	went	PRP	P1_rider
+4-14	went	4-2_parataxis	knew	VBD	O
+4-15	up	4-14_prt	went	RP	O
+4-16	to	O	O	O	O
+4-17	the	O	O	DT	O
+4-18	local	O	O	JJ	O
+4-19	hardware	O	O	NN	O
+4-20	store	4-14_prep_to	went	NN	P1_shop
+4-21	.	O	O	O	O
+
+#id=5
+#text=They had a new tube and I bought a new tire , just in case there were any other problems . 
+5-1	They	5-2_nsubj	had	PRP	P2_other
+5-2	had	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	new	O	O	JJ	O
+5-5	tube	5-2_dobj	had	NN	P1_spare_tube
+5-6	and	O	O	O	O
+5-7	I	5-8_nsubj	bought	PRP	P1_rider
+5-8	bought	5-2_conj_and	had	VBD	O
+5-9	a	O	O	DT	O
+5-10	new	O	O	JJ	O
+5-11	tire	5-8_dobj	bought	NN	P1_spare_tube
+5-12	,	O	O	O	O
+5-13	just	5-17_advmod	were	RB	O
+5-14	in	5-17_mark	were	IN	O
+5-15	case	5-17_dep	were	NN	O
+5-16	there	5-17_expl	were	EX	O
+5-17	were	5-2_dep	had	VBD	O
+5-18	any	O	O	DT	O
+5-19	other	O	O	JJ	O
+5-20	problems	5-17_nsubj	were	NNS	P1_NPart_problems
+5-21	.	O	O	O	O
+
+#id=6
+#text=I followed the instructions and I took the old tire off . 
+6-1	I	6-2_nsubj	followed	PRP	P1_rider
+6-2	followed	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	instructions	6-2_dobj	followed	NNS	P1_NPart_instructions
+6-5	and	O	O	O	O
+6-6	I	6-7_nsubj	took	PRP	P1_rider
+6-7	took	6-2_conj_and	followed	VBD	O
+6-8	the	O	O	DT	O
+6-9	old	O	O	JJ	O
+6-10	tire	6-7_dobj	took	NN	P1_tire
+6-11	off	6-7_prt	took	RP	O
+6-12	.	O	O	O	O
+
+#id=7
+#text=The somehow got the new tube and tire onto the wheel , but it was kind of a pain to do . 
+7-1	The	O	O	DT	O
+7-2	somehow	7-3_nsubj	got	NN	O
+7-3	got	O	O	VBD	O
+7-4	the	O	O	DT	O
+7-5	new	O	O	JJ	O
+7-6	tube	7-3_dobj	got	NN	P1_spare_tube
+7-7	and	O	O	O	O
+7-8	tire	O	O	NN	P1_spare_tube
+7-9	onto	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	wheel	7-3_prep_onto	got	NN	P1_wheel
+7-12	,	O	O	O	O
+7-13	but	O	O	O	O
+7-14	it	O	O	PRP	O
+7-15	was	O	O	VBD	O
+7-16	kind	7-3_conj_but	got	NN	O
+7-17	of	O	O	O	O
+7-18	a	O	O	DT	O
+7-19	pain	O	O	NN	P1_NPart_pain
+7-20	to	7-21_aux	do	TO	O
+7-21	do	O	O	VB	O
+7-22	.	O	O	O	O
+
+#id=8
+#text=I finally got it on and all that I had to do was put in some air . 
+8-1	I	8-3_nsubj	got	PRP	P1_rider
+8-2	finally	8-3_advmod	got	RB	O
+8-3	got	O	O	VBD	O
+8-4	it	8-3_dobj	got	PRP	P1_spare_tube
+8-5	on	8-3_prep	got	IN	O
+8-6	and	O	O	O	O
+8-7	all	8-14_nsubjpass	put	DT	O
+8-8	that	8-10_mark	had	IN	O
+8-9	I	8-10_nsubj	had	PRP	P1_rider
+8-10	had	O	O	VBD	O
+8-11	to	8-12_aux	do	TO	O
+8-12	do	8-10_xcomp	had	VB	O
+8-13	was	8-14_auxpass	put	VBD	O
+8-14	put	8-3_conj_and	got	VBN	O
+8-15	in	O	O	O	O
+8-16	some	O	O	DT	O
+8-17	air	8-14_prep_in	put	NN	P1_air
+8-18	.	O	O	O	O
+
+#id=9
+#text=I plugged in my air compressor but it would not turn on for some reason . 
+9-1	I	9-2_nsubj	plugged	PRP	P1_rider
+9-2	plugged	O	O	VBD	O
+9-3	in	O	O	O	O
+9-4	my	O	O	PRP$	P1_rider
+9-5	air	O	O	NN	O
+9-6	compressor	9-2_prep_in	plugged	NN	P2_tool
+9-7	but	O	O	O	O
+9-8	it	9-11_nsubj	turn	PRP	P2_tool
+9-9	would	9-11_aux	turn	MD	O
+9-10	not	9-11_neg	turn	RB	O
+9-11	turn	9-2_conj_but	plugged	VB	O
+9-12	on	9-11_prt	turn	RP	O
+9-13	for	O	O	O	O
+9-14	some	O	O	DT	O
+9-15	reason	9-11_prep_for	turn	NN	P1_NPart_reason
+9-16	.	O	O	O	O
+
+#id=10
+#text=I found an old tire pump buried in my garage and I was finally able to put air into the tires . 
+10-1	I	10-2_nsubj	found	PRP	P1_rider
+10-2	found	O	O	VBD	O
+10-3	an	O	O	DT	O
+10-4	old	O	O	JJ	O
+10-5	tire	O	O	NN	O
+10-6	pump	10-2_dobj	found	NN	P3_tool
+10-7	buried	O	O	VBN	O
+10-8	in	O	O	O	O
+10-9	my	O	O	PRP$	P1_rider
+10-10	garage	10-7_prep_in	buried	NN	P1_location_repair
+10-11	and	O	O	O	O
+10-12	I	O	O	PRP	P1_rider
+10-13	was	O	O	VBD	O
+10-14	finally	O	O	RB	O
+10-15	able	10-2_conj_and	found	JJ	O
+10-16	to	10-17_aux	put	TO	O
+10-17	put	O	O	VB	O
+10-18	air	10-17_dobj	put	NN	P1_air
+10-19	into	O	O	O	O
+10-20	the	O	O	DT	O
+10-21	tires	10-17_prep_into	put	NNS	P2_tire
+10-22	.	O	O	O	O
+
+#id=11
+#text=In the future , I am going to be more careful to avoid sharp exits because repairing the flat tire was a pain . 
+11-1	In	O	O	O	O
+11-2	the	O	O	DT	O
+11-3	future	11-7_prep_in	going	NN	P1_NPart_future
+11-4	,	O	O	O	O
+11-5	I	11-7_nsubj	going	PRP	P1_rider
+11-6	am	11-7_aux	going	VBP	O
+11-7	going	O	O	VBG	O
+11-8	to	O	O	TO	O
+11-9	be	O	O	VB	O
+11-10	more	O	O	RBR	O
+11-11	careful	11-7_xcomp	going	JJ	O
+11-12	to	11-13_aux	avoid	TO	O
+11-13	avoid	O	O	VB	O
+11-14	sharp	O	O	JJ	O
+11-15	exits	11-13_dobj	avoid	NNS	P1_NPart_exits
+11-16	because	O	O	IN	O
+11-17	repairing	O	O	VBG	O
+11-18	the	O	O	DT	O
+11-19	flat	O	O	JJ	O
+11-20	tire	11-17_dobj	repairing	NN	P2_tire
+11-21	was	O	O	VBD	O
+11-22	a	O	O	DT	O
+11-23	pain	11-13_advcl	avoid	NN	O
+11-24	.	O	O	O	O

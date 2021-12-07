@@ -1,0 +1,292 @@
+#id=1
+#text=This weekend I went to get a haircut . 
+1-1	This	O	O	DT	O
+1-2	weekend	1-4_nsubj	went	NN	P1_time/date
+1-3	I	1-4_nsubj	went	PRP	P1_customer
+1-4	went	O	O	VBD	O
+1-5	to	1-6_aux	get	TO	O
+1-6	get	1-4_xcomp	went	VB	O
+1-7	a	O	O	DT	O
+1-8	haircut	1-6_dobj	get	NN	P1_haircut
+1-9	.	O	O	O	O
+
+#id=2
+#text=I went down town to my favorite barber shop and waited for the barber to be done with his current client . 
+2-1	I	2-2_nsubj	went	PRP	P1_customer
+2-2	went	O	O	VBD	O
+2-3	down	2-2_prt	went	RP	O
+2-4	town	2-2_dobj	went	NN	P1_NPart_town
+2-5	to	O	O	O	O
+2-6	my	O	O	PRP$	P1_customer
+2-7	favorite	O	O	JJ	O
+2-8	barber	O	O	NN	O
+2-9	shop	2-2_prep_to	went	NN	P1_salon
+2-10	and	O	O	O	O
+2-11	waited	2-2_conj_and	went	VBD	O
+2-12	for	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	barber	2-11_prep_for	waited	NN	P1_hairdresser
+2-15	to	2-17_aux	done	TO	O
+2-16	be	2-17_auxpass	done	VB	O
+2-17	done	2-11_xcomp	waited	VBN	O
+2-18	with	O	O	O	O
+2-19	his	O	O	PRP$	P1_hairdresser
+2-20	current	O	O	JJ	O
+2-21	client	2-17_prep_with	done	NN	P2_customer
+2-22	.	O	O	O	O
+
+#id=3
+#text=I sat and read some magazines while I waited . 
+3-1	I	3-2_nsubj	sat	PRP	P1_customer
+3-2	sat	O	O	VBD	O
+3-3	and	O	O	O	O
+3-4	read	3-2_conj_and	sat	VBD	O
+3-5	some	O	O	DT	O
+3-6	magazines	3-4_dobj	read	NNS	P1_entertainment
+3-7	while	3-9_mark	waited	IN	O
+3-8	I	3-9_nsubj	waited	PRP	P1_customer
+3-9	waited	3-4_advcl	read	VBD	O
+3-10	.	O	O	O	O
+
+#id=4
+#text=Then when it was my turn . 
+4-1	Then	O	O	RB	O
+4-2	when	O	O	WRB	O
+4-3	it	O	O	PRP	O
+4-4	was	O	O	VBD	O
+4-5	my	O	O	PRP$	P1_customer
+4-6	turn	O	O	NN	O
+4-7	.	O	O	O	O
+
+#id=5
+#text=If I wanted , I could choose from a selection of hair cuts he had on his walls , or I could ask for something specific , but I just wanted my usual . 
+5-1	If	5-3_mark	wanted	IN	O
+5-2	I	5-3_nsubj	wanted	PRP	P1_customer
+5-3	wanted	5-7_advcl	choose	VBD	O
+5-4	,	O	O	O	O
+5-5	I	5-7_nsubj	choose	PRP	P1_customer
+5-6	could	5-7_aux	choose	MD	O
+5-7	choose	O	O	VB	O
+5-8	from	O	O	O	O
+5-9	a	O	O	DT	O
+5-10	selection	5-7_prep_from	choose	NN	O
+5-11	of	O	O	O	O
+5-12	hair	O	O	NN	O
+5-13	cuts	O	O	NNS	P1_haircut
+5-14	he	5-15_nsubj	had	PRP	P1_hairdresser
+5-15	had	5-7_ccomp	choose	VBD	O
+5-16	on	O	O	O	O
+5-17	his	O	O	PRP$	P1_hairdresser
+5-18	walls	5-15_prep_on	had	NNS	P1_NPart_walls
+5-19	,	O	O	O	O
+5-20	or	O	O	O	O
+5-21	I	5-23_nsubj	ask	PRP	P1_customer
+5-22	could	5-23_aux	ask	MD	O
+5-23	ask	5-15_conj_or	had	VB	O
+5-24	for	O	O	O	O
+5-25	something	O	O	NN	P1_haircut
+5-26	specific	5-23_prep_for	ask	NN	O
+5-27	,	O	O	O	O
+5-28	but	O	O	O	O
+5-29	I	5-31_nsubj	wanted	PRP	P1_customer
+5-30	just	5-31_advmod	wanted	RB	O
+5-31	wanted	5-7_conj_but	choose	VBD	O
+5-32	my	O	O	PRP$	P1_customer
+5-33	usual	5-31_dobj	wanted	JJ	P1_haircut
+5-34	.	O	O	O	O
+
+#id=6
+#text=I had n't come in for a hair cut in a while , so I had a lot of hair to remove . 
+6-1	I	6-4_nsubj	come	PRP	P1_customer
+6-2	had	6-4_aux	come	VBD	O
+6-3	n't	6-4_neg	come	RB	O
+6-4	come	O	O	VBN	O
+6-5	in	6-4_dep	come	IN	O
+6-6	for	O	O	O	O
+6-7	a	O	O	DT	O
+6-8	hair	6-4_prep_for	come	NN	O
+6-9	cut	O	O	VBN	P1_haircut
+6-10	in	O	O	O	O
+6-11	a	O	O	DT	O
+6-12	while	6-9_prep_in	cut	NN	O
+6-13	,	O	O	O	O
+6-14	so	6-4_dep	come	IN	O
+6-15	I	6-16_nsubj	had	PRP	P1_customer
+6-16	had	6-4_parataxis	come	VBD	O
+6-17	a	O	O	DT	O
+6-18	lot	6-16_dobj	had	NN	O
+6-19	of	O	O	O	O
+6-20	hair	O	O	NN	P1_hair
+6-21	to	6-22_aux	remove	TO	O
+6-22	remove	O	O	VB	O
+6-23	.	O	O	O	O
+
+#id=7
+#text=I sat in his barber chair , and he put a cloth around my neck to keep the hair off of my clothes . 
+7-1	I	7-2_nsubj	sat	PRP	P1_customer
+7-2	sat	O	O	VBD	O
+7-3	in	O	O	O	O
+7-4	his	O	O	PRP$	P1_hairdresser
+7-5	barber	O	O	NN	O
+7-6	chair	7-2_prep_in	sat	NN	P1_chair
+7-7	,	O	O	O	O
+7-8	and	O	O	O	O
+7-9	he	7-10_nsubj	put	PRP	P1_hairdresser
+7-10	put	7-2_conj_and	sat	VBD	O
+7-11	a	O	O	DT	O
+7-12	cloth	7-10_dobj	put	NN	P1_cape
+7-13	around	O	O	O	O
+7-14	my	O	O	PRP$	P1_customer
+7-15	neck	7-10_prep_around	put	NN	P1_NPart_neck
+7-16	to	7-17_aux	keep	TO	O
+7-17	keep	O	O	VB	O
+7-18	the	O	O	DT	O
+7-19	hair	7-17_dobj	keep	NN	P1_hair
+7-20	off	O	O	O	O
+7-21	of	O	O	O	O
+7-22	my	O	O	PRP$	P1_customer
+7-23	clothes	7-17_prep_off_of	keep	NNS	P1_NPart_clothes
+7-24	.	O	O	O	O
+
+#id=8
+#text=He sprayed my hair with a little water to keep the loose hair together , and then he began clipping away the larger amounts of hair with a pair of scissors . 
+8-1	He	8-2_nsubj	sprayed	PRP	P1_hairdresser
+8-2	sprayed	O	O	VBD	O
+8-3	my	O	O	PRP$	P1_customer
+8-4	hair	8-2_dobj	sprayed	NN	P1_hair
+8-5	with	O	O	O	O
+8-6	a	O	O	DT	O
+8-7	little	O	O	JJ	O
+8-8	water	8-2_prep_with	sprayed	NN	P1_hair_styling/treatment
+8-9	to	8-10_aux	keep	TO	O
+8-10	keep	8-2_vmod	sprayed	VB	O
+8-11	the	O	O	DT	O
+8-12	loose	O	O	JJ	O
+8-13	hair	8-10_dobj	keep	NN	P1_hair
+8-14	together	8-10_advmod	keep	RB	O
+8-15	,	O	O	O	O
+8-16	and	O	O	O	O
+8-17	then	8-19_advmod	began	RB	O
+8-18	he	8-19_nsubj	began	PRP	P1_hairdresser
+8-19	began	8-2_conj_and	sprayed	VBD	O
+8-20	clipping	8-19_xcomp	began	VBG	O
+8-21	away	8-20_prt	clipping	RP	O
+8-22	the	O	O	DT	O
+8-23	larger	O	O	JJR	O
+8-24	amounts	8-20_dobj	clipping	NNS	O
+8-25	of	O	O	O	O
+8-26	hair	O	O	NN	P1_hair
+8-27	with	O	O	O	O
+8-28	a	O	O	DT	O
+8-29	pair	8-20_prep_with	clipping	NN	O
+8-30	of	O	O	O	O
+8-31	scissors	O	O	NNS	P1_scissors
+8-32	.	O	O	O	O
+
+#id=9
+#text=Then when my hair was shorter , he brought out some electric hair clippers and started trimming my hair to an even length . 
+9-1	Then	9-9_advmod	brought	RB	O
+9-2	when	O	O	WRB	O
+9-3	my	O	O	PRP$	P1_customer
+9-4	hair	O	O	NN	P1_hair
+9-5	was	O	O	VBD	O
+9-6	shorter	9-9_advcl	brought	JJR	O
+9-7	,	O	O	O	O
+9-8	he	9-9_nsubj	brought	PRP	P1_hairdresser
+9-9	brought	O	O	VBD	O
+9-10	out	9-9_prt	brought	RP	O
+9-11	some	O	O	DT	O
+9-12	electric	O	O	JJ	O
+9-13	hair	O	O	NN	O
+9-14	clippers	9-9_dobj	brought	NNS	P2_scissors
+9-15	and	O	O	O	O
+9-16	started	9-9_conj_and	brought	VBD	O
+9-17	trimming	9-16_xcomp	started	VBG	O
+9-18	my	O	O	PRP$	P1_customer
+9-19	hair	9-17_dobj	trimming	NN	P1_hair
+9-20	to	O	O	O	O
+9-21	an	O	O	DT	O
+9-22	even	O	O	JJ	O
+9-23	length	9-17_prep_to	trimming	NN	P1_NPart_length
+9-24	.	O	O	O	O
+
+#id=10
+#text=The clippers made a loud buzzing noise in my ear , which used to scare me but now I think is kind of fun . 
+10-1	The	O	O	DT	O
+10-2	clippers	10-3_nsubj	made	NNS	P2_scissors
+10-3	made	O	O	VBD	O
+10-4	a	O	O	DT	O
+10-5	loud	O	O	JJ	O
+10-6	buzzing	O	O	JJ	O
+10-7	noise	10-3_dobj	made	NN	P1_NPart_noise
+10-8	in	O	O	O	O
+10-9	my	O	O	PRP$	P1_customer
+10-10	ear	10-3_prep_in	made	NN	P1_NPart_ear
+10-11	,	O	O	O	O
+10-12	which	10-13_nsubj	used	WDT	O
+10-13	used	O	O	VBD	O
+10-14	to	10-15_aux	scare	TO	O
+10-15	scare	10-13_xcomp	used	VB	O
+10-16	me	10-15_dobj	scare	PRP	P1_customer
+10-17	but	O	O	O	O
+10-18	now	10-20_advmod	think	RB	O
+10-19	I	10-20_nsubj	think	PRP	P1_customer
+10-20	think	10-3_conj_but	made	VBP	O
+10-21	is	O	O	VBZ	O
+10-22	kind	10-20_ccomp	think	NN	O
+10-23	of	O	O	O	O
+10-24	fun	O	O	NN	P1_NPart_fun
+10-25	.	O	O	O	O
+
+#id=11
+#text=Finally , he used the scissors again to trim any stray hairs , and then wiped me off and took off the cloth . 
+11-1	Finally	11-4_advmod	used	RB	O
+11-2	,	O	O	O	O
+11-3	he	11-4_nsubj	used	PRP	P1_hairdresser
+11-4	used	O	O	VBD	O
+11-5	the	O	O	DT	O
+11-6	scissors	11-4_dobj	used	NNS	P1_scissors
+11-7	again	11-4_advmod	used	RB	O
+11-8	to	11-9_aux	trim	TO	O
+11-9	trim	11-4_vmod	used	VB	O
+11-10	any	O	O	DT	O
+11-11	stray	O	O	JJ	O
+11-12	hairs	11-9_dobj	trim	NNS	P1_hair
+11-13	,	O	O	O	O
+11-14	and	O	O	O	O
+11-15	then	11-16_advmod	wiped	RB	O
+11-16	wiped	11-4_conj_and	used	VBD	O
+11-17	me	11-16_dobj	wiped	PRP	P1_customer
+11-18	off	11-16_prt	wiped	RP	O
+11-19	and	O	O	O	O
+11-20	took	11-16_conj_and	wiped	VBD	O
+11-21	off	11-20_prt	took	RP	O
+11-22	the	O	O	DT	O
+11-23	cloth	11-20_dobj	took	NN	P1_cape
+11-24	.	O	O	O	O
+
+#id=12
+#text=I paid him , shook his hand and thanked him , and left the barber shop with my nice clean hair cut . 
+12-1	I	12-2_nsubj	paid	PRP	P1_customer
+12-2	paid	O	O	VBD	O
+12-3	him	12-2_dobj	paid	PRP	P1_hairdresser
+12-4	,	O	O	O	O
+12-5	shook	12-2_conj_and	paid	VBD	O
+12-6	his	O	O	PRP$	P1_hairdresser
+12-7	hand	12-5_dobj	shook	NN	P1_NPart_hand
+12-8	and	O	O	O	O
+12-9	thanked	12-2_conj_and	paid	VBD	O
+12-10	him	12-9_dobj	thanked	PRP	P1_hairdresser
+12-11	,	O	O	O	O
+12-12	and	O	O	O	O
+12-13	left	12-2_conj_and	paid	VBD	O
+12-14	the	O	O	DT	O
+12-15	barber	O	O	NN	O
+12-16	shop	12-13_dobj	left	NN	P1_salon
+12-17	with	O	O	O	O
+12-18	my	O	O	PRP$	P1_customer
+12-19	nice	O	O	JJ	O
+12-20	clean	O	O	JJ	O
+12-21	hair	O	O	NN	O
+12-22	cut	12-13_prep_with	left	NN	P1_haircut
+12-23	.	O	O	O	O

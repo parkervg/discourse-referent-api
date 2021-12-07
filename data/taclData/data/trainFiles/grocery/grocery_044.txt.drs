@@ -1,0 +1,289 @@
+#id=1
+#text=When I go grocery shopping it is usually pretty hectic . 
+1-1	When	1-3_advmod	go	WRB	O
+1-2	I	1-3_nsubj	go	PRP	P1_shopper
+1-3	go	O	O	VBP	O
+1-4	grocery	O	O	NN	P1_groceries
+1-5	shopping	1-3_dobj	go	NN	O
+1-6	it	O	O	PRP	O
+1-7	is	O	O	VBZ	O
+1-8	usually	O	O	RB	O
+1-9	pretty	O	O	RB	O
+1-10	hectic	O	O	JJ	O
+1-11	.	O	O	O	O
+
+#id=2
+#text=Right now I ca n't drive , so I have to find a ride there . 
+2-1	Right	O	O	RB	O
+2-2	now	2-6_advmod	drive	RB	O
+2-3	I	2-6_nsubj	drive	PRP	P1_shopper
+2-4	ca	2-6_aux	drive	MD	O
+2-5	n't	2-6_neg	drive	RB	O
+2-6	drive	O	O	VB	O
+2-7	,	O	O	O	O
+2-8	so	2-6_dep	drive	IN	O
+2-9	I	2-10_nsubj	have	PRP	P1_shopper
+2-10	have	2-6_parataxis	drive	VBP	O
+2-11	to	2-12_aux	find	TO	O
+2-12	find	2-10_xcomp	have	VB	O
+2-13	a	O	O	DT	O
+2-14	ride	2-12_dobj	find	NN	P1_NPart_ride
+2-15	there	2-12_advmod	find	RB	O
+2-16	.	O	O	O	O
+
+#id=3
+#text=I also have to make sure that I find someone who has a car that my two children will fit in as well . 
+3-1	I	3-3_nsubj	have	PRP	P1_shopper
+3-2	also	3-3_advmod	have	RB	O
+3-3	have	O	O	VBP	O
+3-4	to	3-5_aux	make	TO	O
+3-5	make	3-3_xcomp	have	VB	O
+3-6	sure	3-5_acomp	make	JJ	O
+3-7	that	3-9_mark	find	IN	O
+3-8	I	3-9_nsubj	find	PRP	P1_shopper
+3-9	find	3-5_ccomp	make	VBP	O
+3-10	someone	3-9_dobj	find	NN	P1_NPart_someone
+3-11	who	3-12_nsubj	has	WP	O
+3-12	has	O	O	VBZ	O
+3-13	a	O	O	DT	O
+3-14	car	3-12_dobj	has	NN	P1_vehicle
+3-15	that	3-20_mark	fit	IN	P1_vehicle
+3-16	my	O	O	PRP$	P1_shopper
+3-17	two	O	O	CD	O
+3-18	children	3-20_nsubj	fit	NNS	P2_shopper
+3-19	will	3-20_aux	fit	MD	O
+3-20	fit	O	O	VB	O
+3-21	in	3-20_prt	fit	RP	O
+3-22	as	O	O	RB	O
+3-23	well	3-20_advmod	fit	RB	O
+3-24	.	O	O	O	O
+
+#id=4
+#text=So , after finding a way to get there , I get a cart wiped down and put my youngest in the seat . 
+4-1	So	4-12_advmod	get	RB	O
+4-2	,	O	O	O	O
+4-3	after	O	O	O	O
+4-4	finding	4-12_prepc_after	get	VBG	O
+4-5	a	O	O	DT	O
+4-6	way	4-4_dobj	finding	NN	P1_NPart_way
+4-7	to	4-8_aux	get	TO	O
+4-8	get	O	O	VB	O
+4-9	there	4-8_advmod	get	RB	O
+4-10	,	O	O	O	O
+4-11	I	4-12_nsubj	get	PRP	P1_shopper
+4-12	get	O	O	VBP	O
+4-13	a	O	O	DT	O
+4-14	cart	4-15_nsubj	wiped	NN	P1_shopping_cart/basket
+4-15	wiped	4-12_ccomp	get	VBD	O
+4-16	down	4-15_prt	wiped	RP	O
+4-17	and	O	O	O	O
+4-18	put	4-15_conj_and	wiped	VBD	O
+4-19	my	O	O	PRP$	P1_shopper
+4-20	youngest	4-18_dobj	put	JJS	P3_shopper
+4-21	in	O	O	O	O
+4-22	the	O	O	DT	O
+4-23	seat	4-18_prep_in	put	NN	P1_other
+4-24	.	O	O	O	O
+
+#id=5
+#text=Of course , if there happens to be a car cart , we have to take that one so both kids can sit inside . 
+5-1	Of	O	O	O	O
+5-2	course	5-14_prep_of	have	NN	O
+5-3	,	O	O	O	O
+5-4	if	5-6_mark	happens	IN	O
+5-5	there	5-6_expl	happens	EX	O
+5-6	happens	5-14_advcl	have	VBZ	O
+5-7	to	O	O	TO	O
+5-8	be	O	O	VB	O
+5-9	a	O	O	DT	O
+5-10	car	O	O	NN	O
+5-11	cart	5-6_xcomp	happens	NN	P1_shopping_cart/basket
+5-12	,	O	O	O	O
+5-13	we	5-14_nsubj	have	PRP	P4_shopper
+5-14	have	O	O	VBP	O
+5-15	to	5-16_aux	take	TO	O
+5-16	take	5-14_xcomp	have	VB	O
+5-17	that	5-23_mark	sit	IN	O
+5-18	one	O	O	CD	P1_shopping_cart/basket
+5-19	so	O	O	RB	O
+5-20	both	O	O	DT	O
+5-21	kids	5-23_nsubj	sit	NNS	P2_shopper
+5-22	can	5-23_aux	sit	MD	O
+5-23	sit	5-16_ccomp	take	VB	O
+5-24	inside	5-23_advmod	sit	RB	O
+5-25	.	O	O	O	O
+
+#id=6
+#text=If I remembered to bring my list , I get all of the stuff on it first . 
+6-1	If	6-3_mark	remembered	IN	O
+6-2	I	6-3_nsubj	remembered	PRP	P1_shopper
+6-3	remembered	6-10_advcl	get	VBD	O
+6-4	to	6-5_aux	bring	TO	O
+6-5	bring	6-3_xcomp	remembered	VB	O
+6-6	my	O	O	PRP$	P1_shopper
+6-7	list	6-5_dobj	bring	NN	P1_grocery_list
+6-8	,	O	O	O	O
+6-9	I	6-10_nsubj	get	PRP	P1_shopper
+6-10	get	O	O	VBP	O
+6-11	all	6-10_dobj	get	DT	O
+6-12	of	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	stuff	O	O	NN	P1_groceries
+6-15	on	O	O	O	O
+6-16	it	O	O	PRP	P1_grocery_list
+6-17	first	6-10_advmod	get	RB	O
+6-18	.	O	O	O	O
+
+#id=7
+#text=I always grab other things as I see them and realize I need them . 
+7-1	I	7-3_nsubj	grab	PRP	P1_shopper
+7-2	always	7-3_advmod	grab	RB	O
+7-3	grab	O	O	VBP	O
+7-4	other	O	O	JJ	O
+7-5	things	7-3_dobj	grab	NNS	P1_groceries
+7-6	as	7-8_mark	see	IN	O
+7-7	I	7-8_nsubj	see	PRP	P1_shopper
+7-8	see	7-3_advcl	grab	VBP	O
+7-9	them	7-8_dobj	see	PRP	P1_groceries
+7-10	and	O	O	O	O
+7-11	realize	7-8_conj_and	see	VBP	O
+7-12	I	7-13_nsubj	need	PRP	P1_shopper
+7-13	need	7-11_ccomp	realize	VBP	O
+7-14	them	7-13_dobj	need	PRP	P1_groceries
+7-15	.	O	O	O	O
+
+#id=8
+#text=It can be a good thing , or a bad thing . 
+8-1	It	O	O	PRP	O
+8-2	can	O	O	MD	O
+8-3	be	O	O	VB	O
+8-4	a	O	O	DT	O
+8-5	good	O	O	JJ	O
+8-6	thing	O	O	NN	P1_NPart_thing
+8-7	,	O	O	O	O
+8-8	or	O	O	O	O
+8-9	a	O	O	DT	O
+8-10	bad	O	O	JJ	O
+8-11	thing	O	O	NN	P2_NPart_thing
+8-12	.	O	O	O	O
+
+#id=9
+#text=We usually end up with quite a bit more than I intended , but since I ca n't go to the store whenever I want , I usually justify it to myself . 
+9-1	We	9-3_nsubj	end	PRP	P4_shopper
+9-2	usually	9-3_advmod	end	RB	O
+9-3	end	O	O	VBP	O
+9-4	up	9-3_advmod	end	RB	O
+9-5	with	O	O	O	O
+9-6	quite	O	O	RB	O
+9-7	a	O	O	DT	O
+9-8	bit	O	O	NN	O
+9-9	more	O	O	RBR	O
+9-10	than	9-12_mark	intended	IN	O
+9-11	I	9-12_nsubj	intended	PRP	P1_shopper
+9-12	intended	9-3_advcl	end	VBD	O
+9-13	,	O	O	O	O
+9-14	but	O	O	O	O
+9-15	since	9-19_mark	go	IN	O
+9-16	I	9-19_nsubj	go	PRP	P1_shopper
+9-17	ca	9-19_aux	go	MD	O
+9-18	n't	9-19_neg	go	RB	O
+9-19	go	9-12_conj_but	intended	VB	O
+9-20	to	O	O	O	O
+9-21	the	O	O	DT	O
+9-22	store	9-19_prep_to	go	NN	P1_grocery_shop
+9-23	whenever	9-25_advmod	want	WRB	O
+9-24	I	9-25_nsubj	want	PRP	P1_shopper
+9-25	want	9-19_advcl	go	VBP	O
+9-26	,	O	O	O	O
+9-27	I	9-29_nsubj	justify	PRP	P1_shopper
+9-28	usually	9-29_advmod	justify	RB	O
+9-29	justify	9-25_ccomp	want	VB	O
+9-30	it	9-29_dobj	justify	PRP	O
+9-31	to	O	O	O	O
+9-32	myself	9-29_prep_to	justify	PRP	P1_shopper
+9-33	.	O	O	O	O
+
+#id=10
+#text=So , we get into the check out line and of course I have to tell my oldest child we ca n't get every candy he sees in the aisle while we are waiting . 
+10-1	So	10-4_advmod	get	RB	O
+10-2	,	O	O	O	O
+10-3	we	10-4_nsubj	get	PRP	P4_shopper
+10-4	get	O	O	VBP	O
+10-5	into	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	check	10-4_prep_into	get	NN	O
+10-8	out	O	O	O	O
+10-9	line	10-4_prep_out	get	NN	P1_line
+10-10	and	O	O	O	O
+10-11	of	O	O	O	O
+10-12	course	10-14_prep_of	have	NN	O
+10-13	I	10-14_nsubj	have	PRP	P1_shopper
+10-14	have	10-4_conj_and	get	VBP	O
+10-15	to	10-16_aux	tell	TO	O
+10-16	tell	10-14_xcomp	have	VB	O
+10-17	my	O	O	PRP$	P1_shopper
+10-18	oldest	O	O	JJS	O
+10-19	child	10-16_dobj	tell	NN	P5_shopper
+10-20	we	10-23_nsubj	get	PRP	P4_shopper
+10-21	ca	10-23_aux	get	MD	O
+10-22	n't	10-23_neg	get	RB	O
+10-23	get	O	O	VB	O
+10-24	every	O	O	DT	O
+10-25	candy	10-23_dobj	get	NN	P2_groceries
+10-26	he	10-27_nsubj	sees	PRP	P5_shopper
+10-27	sees	O	O	VBZ	O
+10-28	in	O	O	O	O
+10-29	the	O	O	DT	O
+10-30	aisle	10-27_prep_in	sees	NN	P1_section
+10-31	while	10-34_mark	waiting	IN	O
+10-32	we	10-34_nsubj	waiting	PRP	P4_shopper
+10-33	are	10-34_aux	waiting	VBP	O
+10-34	waiting	10-27_advcl	sees	VBG	O
+10-35	.	O	O	O	O
+
+#id=11
+#text=After we check out , we go outside and I get the kiddos in first . 
+11-1	After	11-3_mark	check	IN	O
+11-2	we	11-3_nsubj	check	PRP	P4_shopper
+11-3	check	11-7_advcl	go	VBP	O
+11-4	out	11-3_prt	check	RP	O
+11-5	,	O	O	O	O
+11-6	we	11-7_nsubj	go	PRP	P4_shopper
+11-7	go	O	O	VBP	O
+11-8	outside	11-7_advmod	go	RB	O
+11-9	and	O	O	O	O
+11-10	I	11-11_nsubj	get	PRP	P1_shopper
+11-11	get	11-7_conj_and	go	VBP	O
+11-12	the	O	O	DT	O
+11-13	kiddos	11-11_dobj	get	NNS	P6_shopper
+11-14	in	O	O	O	O
+11-15	first	O	O	JJ	O
+11-16	.	O	O	O	O
+
+#id=12
+#text=Then to bring our shopping trip to an end , I puzzle piece everything into the back of our car and return the cart . 
+12-1	Then	12-3_advmod	bring	RB	O
+12-2	to	12-3_aux	bring	TO	O
+12-3	bring	12-12_advcl	puzzle	VB	O
+12-4	our	O	O	PRP$	P4_shopper
+12-5	shopping	O	O	NN	O
+12-6	trip	12-3_dobj	bring	NN	P2_other
+12-7	to	O	O	O	O
+12-8	an	O	O	DT	O
+12-9	end	12-3_prep_to	bring	NN	P1_NPart_end
+12-10	,	O	O	O	O
+12-11	I	12-12_nsubj	puzzle	PRP	P1_shopper
+12-12	puzzle	O	O	VBD	O
+12-13	piece	O	O	NN	O
+12-14	everything	12-12_dobj	puzzle	NN	P1_groceries
+12-15	into	O	O	O	O
+12-16	the	O	O	DT	O
+12-17	back	12-12_prep_into	puzzle	NN	P1_NPart_back
+12-18	of	O	O	O	O
+12-19	our	O	O	PRP$	P4_shopper
+12-20	car	O	O	NN	P1_vehicle
+12-21	and	O	O	O	O
+12-22	return	12-12_conj_and	puzzle	VB	O
+12-23	the	O	O	DT	O
+12-24	cart	12-22_dobj	return	NN	P1_shopping_cart/basket
+12-25	.	O	O	O	O

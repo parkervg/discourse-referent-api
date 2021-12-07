@@ -1,0 +1,228 @@
+#id=1
+#text=Last Fourth of July we had a nice family dinner outside . 
+1-1	Last	O	O	JJ	O
+1-2	Fourth	1-6_nsubj	had	NNS	O
+1-3	of	O	O	O	O
+1-4	July	O	O	NNP	P1_time
+1-5	we	1-6_nsubj	had	PRP	P1_gardener
+1-6	had	O	O	VBD	O
+1-7	a	O	O	DT	O
+1-8	nice	O	O	JJ	O
+1-9	family	1-6_dobj	had	NN	P1_NPart_family
+1-10	dinner	1-6_prep	had	NN	P1_NPart_dinner
+1-11	outside	O	O	NN	O
+1-12	.	O	O	O	O
+
+#id=2
+#text=Unfortunately the sun was so hot and we had nothing to provide us shade . 
+2-1	Unfortunately	O	O	RB	O
+2-2	the	O	O	DT	O
+2-3	sun	O	O	NN	P1_NPart_sun
+2-4	was	O	O	VBD	O
+2-5	so	O	O	RB	O
+2-6	hot	O	O	JJ	O
+2-7	and	O	O	O	O
+2-8	we	2-9_nsubj	had	PRP	P2_gardener
+2-9	had	O	O	VBD	O
+2-10	nothing	2-9_dobj	had	NN	O
+2-11	to	2-12_aux	provide	TO	O
+2-12	provide	O	O	VB	O
+2-13	us	2-12_iobj	provide	PRP	P1_gardener
+2-14	shade	2-12_dobj	provide	NN	P1_NPart_shade
+2-15	.	O	O	O	O
+
+#id=3
+#text=This year I wanted to do something different so I decided to plant a tree right where the table was outside . 
+3-1	This	O	O	DT	O
+3-2	year	3-4_tmod	wanted	NN	P2_time
+3-3	I	3-4_nsubj	wanted	PRP	P3_gardener
+3-4	wanted	O	O	VBD	O
+3-5	to	3-6_aux	do	TO	O
+3-6	do	3-4_xcomp	wanted	VB	O
+3-7	something	3-6_dobj	do	NN	O
+3-8	different	O	O	JJ	O
+3-9	so	3-11_mark	decided	IN	O
+3-10	I	3-11_nsubj	decided	PRP	P3_gardener
+3-11	decided	3-6_advcl	do	VBD	O
+3-12	to	3-13_aux	plant	TO	O
+3-13	plant	3-11_xcomp	decided	VB	O
+3-14	a	O	O	DT	O
+3-15	tree	O	O	NN	P1_tree
+3-16	right	3-13_dobj	plant	NN	O
+3-17	where	3-20_advmod	was	WRB	O
+3-18	the	O	O	DT	O
+3-19	table	3-20_nsubj	was	NN	P1_NPart_table
+3-20	was	3-13_advcl	plant	VBD	O
+3-21	outside	3-20_advmod	was	RB	O
+3-22	.	O	O	O	O
+
+#id=4
+#text=Maybe this year we would have some shade to keep us cool . 
+4-1	Maybe	O	O	RB	O
+4-2	this	O	O	DT	O
+4-3	year	4-6_tmod	have	NN	P2_time
+4-4	we	4-6_nsubj	have	PRP	P1_gardener
+4-5	would	4-6_aux	have	MD	O
+4-6	have	4-12_dep	cool	VB	O
+4-7	some	O	O	DT	O
+4-8	shade	4-6_dobj	have	NN	P2_NPart_shade
+4-9	to	4-10_aux	keep	TO	O
+4-10	keep	O	O	VB	O
+4-11	us	4-12_nsubj	cool	PRP	P1_gardener
+4-12	cool	O	O	VBP	O
+4-13	.	O	O	O	O
+
+#id=5
+#text=I went to the local farmer , farmer Jack and asked him if he could help me out . 
+5-1	I	5-2_nsubj	went	PRP	P3_gardener
+5-2	went	O	O	VBD	O
+5-3	to	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	local	O	O	JJ	O
+5-6	farmer	5-2_prep_to	went	NN	P1_other
+5-7	,	O	O	O	O
+5-8	farmer	O	O	NNP	P1_other
+5-9	Jack	O	O	NNP	P1_other
+5-10	and	O	O	O	O
+5-11	asked	5-2_conj_and	went	VBD	O
+5-12	him	5-11_dobj	asked	PRP	P1_other
+5-13	if	5-16_mark	help	IN	O
+5-14	he	5-16_nsubj	help	PRP	P1_other
+5-15	could	5-16_aux	help	MD	O
+5-16	help	5-11_advcl	asked	VB	O
+5-17	me	5-16_dobj	help	PRP	P3_gardener
+5-18	out	5-16_prt	help	RP	O
+5-19	.	O	O	O	O
+
+#id=6
+#text=He told me that I would want to grow a nice oak tree right by that table . 
+6-1	He	6-2_nsubj	told	PRP	P1_other
+6-2	told	O	O	VBD	O
+6-3	me	6-2_dobj	told	PRP	P3_gardener
+6-4	that	6-7_mark	want	IN	O
+6-5	I	6-7_nsubj	want	PRP	P3_gardener
+6-6	would	6-7_aux	want	MD	O
+6-7	want	6-2_ccomp	told	VB	O
+6-8	to	6-9_aux	grow	TO	O
+6-9	grow	6-7_xcomp	want	VB	O
+6-10	a	O	O	DT	O
+6-11	nice	O	O	JJ	O
+6-12	oak	O	O	NN	O
+6-13	tree	6-9_dobj	grow	NN	P1_tree
+6-14	right	6-9_advmod	grow	RB	P1_NPart_right
+6-15	by	O	O	O	O
+6-16	that	O	O	DT	O
+6-17	table	O	O	NN	P2_NPart_table
+6-18	.	O	O	O	O
+
+#id=7
+#text=He was able to give me some seeds to use so I could make my plan happen . 
+7-1	He	O	O	PRP	P1_other
+7-2	was	O	O	VBD	O
+7-3	able	O	O	JJ	O
+7-4	to	7-5_aux	give	TO	O
+7-5	give	O	O	VB	O
+7-6	me	7-5_iobj	give	PRP	P3_gardener
+7-7	some	O	O	DT	O
+7-8	seeds	7-5_dobj	give	NNS	P1_seeds
+7-9	to	7-10_aux	use	TO	O
+7-10	use	O	O	VB	O
+7-11	so	7-14_mark	make	IN	O
+7-12	I	7-14_nsubj	make	PRP	P3_gardener
+7-13	could	7-14_aux	make	MD	O
+7-14	make	7-10_advcl	use	VB	O
+7-15	my	O	O	PRP$	P3_gardener
+7-16	plan	7-17_nsubj	happen	NN	P1_NPart_plan
+7-17	happen	7-14_ccomp	make	VB	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=I used a small gardening tool to dig up some dirt . 
+8-1	I	8-2_nsubj	used	PRP	P3_gardener
+8-2	used	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	small	O	O	JJ	O
+8-5	gardening	O	O	NN	O
+8-6	tool	8-2_dobj	used	NN	P1_gardening_tool
+8-7	to	8-8_aux	dig	TO	O
+8-8	dig	8-2_vmod	used	VB	O
+8-9	up	8-8_prt	dig	RP	O
+8-10	some	O	O	DT	O
+8-11	dirt	8-8_dobj	dig	NN	P1_dirt
+8-12	.	O	O	O	O
+
+#id=9
+#text=I placed the seeds inside the dirt and then covered it up again . 
+9-1	I	9-2_nsubj	placed	PRP	P3_gardener
+9-2	placed	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	seeds	9-2_dobj	placed	NNS	P1_seeds
+9-5	inside	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	dirt	9-2_prep_inside	placed	NN	P1_dirt
+9-8	and	O	O	O	O
+9-9	then	9-10_advmod	covered	RB	O
+9-10	covered	9-2_conj_and	placed	VBD	O
+9-11	it	9-10_dobj	covered	PRP	P1_dirt
+9-12	up	O	O	RB	O
+9-13	again	9-10_advmod	covered	RB	O
+9-14	.	O	O	O	O
+
+#id=10
+#text=I took a watering can and filled it up with water from the hose . 
+10-1	I	10-2_nsubj	took	PRP	P3_gardener
+10-2	took	O	O	VBD	O
+10-3	a	O	O	DT	O
+10-4	watering	O	O	NN	O
+10-5	can	10-2_ccomp	took	MD	P2_gardening_tool
+10-6	and	O	O	O	O
+10-7	filled	O	O	VBD	O
+10-8	it	10-7_dobj	filled	PRP	P1_NPart_it
+10-9	up	10-7_prt	filled	RP	O
+10-10	with	O	O	O	O
+10-11	water	10-7_prep_with	filled	NN	P1_water
+10-12	from	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	hose	10-7_prep_from	filled	NN	P3_gardening_tool
+10-15	.	O	O	O	O
+
+#id=11
+#text=I watered the dirt where the seeds were and did this every day without fail . 
+11-1	I	11-2_nsubj	watered	PRP	P3_gardener
+11-2	watered	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	dirt	11-2_dobj	watered	NN	P1_dirt
+11-5	where	11-8_advmod	were	WRB	O
+11-6	the	O	O	DT	O
+11-7	seeds	11-8_nsubj	were	NNS	P1_seeds
+11-8	were	11-2_advcl	watered	VBD	O
+11-9	and	O	O	O	O
+11-10	did	11-8_conj_and	were	VBD	O
+11-11	this	11-10_dobj	did	DT	O
+11-12	every	O	O	DT	O
+11-13	day	O	O	NN	P3_time
+11-14	without	O	O	O	O
+11-15	fail	11-10_prep_without	did	NNP	P1_NPart_fail
+11-16	.	O	O	O	O
+
+#id=12
+#text=I 've started to see a tree sprouting and am excited for Fourth of July to get here . 
+12-1	I	12-3_nsubj	started	PRP	P3_gardener
+12-2	've	12-3_aux	started	VBP	O
+12-3	started	O	O	VBN	O
+12-4	to	12-5_aux	see	TO	O
+12-5	see	12-3_xcomp	started	VB	O
+12-6	a	O	O	DT	O
+12-7	tree	12-5_dobj	see	NN	P2_tree
+12-8	sprouting	O	O	VBG	O
+12-9	and	O	O	O	O
+12-10	am	12-11_auxpass	excited	VBP	O
+12-11	excited	12-3_conj_and	started	VBN	O
+12-12	for	O	O	O	O
+12-13	Fourth	12-11_prep_for	excited	JJ	O
+12-14	of	O	O	O	O
+12-15	July	O	O	NNP	P4_time
+12-16	to	12-17_aux	get	TO	O
+12-17	get	12-11_xcomp	excited	VB	O
+12-18	here	12-17_advmod	get	RB	O
+12-19	.	O	O	O	O

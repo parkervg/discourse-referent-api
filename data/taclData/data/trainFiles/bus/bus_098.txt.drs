@@ -1,0 +1,205 @@
+#id=1
+#text=I went to New York City on a business trip . 
+1-1	I	1-2_nsubj	went	PRP	P1_passenger
+1-2	went	O	O	VBD	O
+1-3	to	O	O	O	O
+1-4	New	O	O	NNP	O
+1-5	York	O	O	NNP	O
+1-6	City	1-2_prep_to	went	NNP	P1_NPart_city
+1-7	on	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	business	O	O	NN	O
+1-10	trip	1-2_prep_on	went	NN	P1_NPart_trip
+1-11	.	O	O	O	O
+
+#id=2
+#text=I was In Manhattan . 
+2-1	I	2-2_nsubj	was	PRP	P1_passenger
+2-2	was	O	O	VBD	O
+2-3	In	O	O	O	O
+2-4	Manhattan	2-2_prep_in	was	NNP	P1_NPart_manhattan
+2-5	.	O	O	O	O
+
+#id=3
+#text=I wanted to go to Ellis Island . 
+3-1	I	3-2_nsubj	wanted	PRP	P1_passenger
+3-2	wanted	O	O	VBD	O
+3-3	to	3-4_aux	go	TO	O
+3-4	go	3-2_xcomp	wanted	VB	O
+3-5	to	O	O	O	O
+3-6	Ellis	O	O	NNP	O
+3-7	Island	3-4_prep_to	go	NNP	P1_destination
+3-8	.	O	O	O	O
+
+#id=4
+#text=I looked up the bus numbers that I would need to take to get to Ellis Island and what time they run . 
+4-1	I	4-2_nsubj	looked	PRP	P1_passenger
+4-2	looked	O	O	VBD	O
+4-3	up	4-2_prt	looked	RP	O
+4-4	the	O	O	DT	O
+4-5	bus	O	O	NN	O
+4-6	numbers	4-2_dobj	looked	NNS	P1_other
+4-7	that	4-10_mark	need	IN	O
+4-8	I	4-10_nsubj	need	PRP	P1_passenger
+4-9	would	4-10_aux	need	MD	O
+4-10	need	4-2_ccomp	looked	VB	O
+4-11	to	4-12_aux	take	TO	O
+4-12	take	4-10_xcomp	need	VB	O
+4-13	to	4-14_aux	get	TO	O
+4-14	get	4-12_xcomp	take	VB	O
+4-15	to	O	O	O	O
+4-16	Ellis	O	O	NNP	O
+4-17	Island	4-14_prep_to	get	NNP	P1_destination
+4-18	and	O	O	O	O
+4-19	what	O	O	WP	O
+4-20	time	4-22_dobj	run	NN	P1_time/date
+4-21	they	4-22_nsubj	run	PRP	P1_NPart_they
+4-22	run	4-10_conj_and	need	VBP	O
+4-23	.	O	O	O	O
+
+#id=5
+#text=I got on the first bus , which took me to the destination to catch the 2nd bus which would take me directly to Battery Park where I caught the ferry to go to Ellis Island . 
+5-1	I	5-2_nsubj	got	PRP	P1_passenger
+5-2	got	O	O	VBD	O
+5-3	on	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	first	O	O	JJ	O
+5-6	bus	5-2_prep_on	got	NN	P1_bus
+5-7	,	O	O	O	O
+5-8	which	5-9_nsubj	took	WDT	O
+5-9	took	O	O	VBD	O
+5-10	me	5-9_dobj	took	PRP	P2_destination
+5-11	to	O	O	O	O
+5-12	the	O	O	DT	O
+5-13	destination	5-9_prep_to	took	NN	O
+5-14	to	5-15_aux	catch	TO	O
+5-15	catch	5-9_vmod	took	VB	O
+5-16	the	O	O	DT	O
+5-17	2nd	O	O	JJ	O
+5-18	bus	5-15_dobj	catch	NN	P2_bus
+5-19	which	5-21_nsubj	take	WDT	O
+5-20	would	5-21_aux	take	MD	O
+5-21	take	O	O	VB	O
+5-22	me	5-29_nsubj	caught	PRP	P1_passenger
+5-23	directly	5-29_dep	caught	RB	O
+5-24	to	O	O	O	O
+5-25	Battery	O	O	NNP	O
+5-26	Park	O	O	NNP	P1_NPart_park
+5-27	where	5-29_advmod	caught	WRB	O
+5-28	I	5-29_nsubj	caught	PRP	P1_passenger
+5-29	caught	5-21_xcomp	take	VBD	O
+5-30	the	O	O	DT	O
+5-31	ferry	5-29_dobj	caught	NN	P1_NPart_ferry
+5-32	to	5-33_aux	go	TO	O
+5-33	go	O	O	VB	O
+5-34	to	O	O	O	O
+5-35	Ellis	O	O	NNP	O
+5-36	Island	5-33_prep_to	go	NNP	P1_destination
+5-37	.	O	O	O	O
+
+#id=6
+#text=I stayed for a few hours . 
+6-1	I	6-2_nsubj	stayed	PRP	P1_passenger
+6-2	stayed	O	O	VBD	O
+6-3	for	O	O	O	O
+6-4	a	O	O	DT	O
+6-5	few	O	O	JJ	O
+6-6	hours	6-2_prep_for	stayed	NNS	P2_time/date
+6-7	.	O	O	O	O
+
+#id=7
+#text=I looked up the bus routes to return to my location in Manhattan . 
+7-1	I	7-2_nsubj	looked	PRP	P1_passenger
+7-2	looked	O	O	VBD	O
+7-3	up	7-2_prt	looked	RP	O
+7-4	the	O	O	DT	O
+7-5	bus	O	O	NN	O
+7-6	routes	7-2_dobj	looked	NNS	P1_route
+7-7	to	7-8_aux	return	TO	O
+7-8	return	7-2_vmod	looked	VB	O
+7-9	to	O	O	O	O
+7-10	my	O	O	PRP$	P1_passenger
+7-11	location	7-8_prep_to	return	NN	P3_destination
+7-12	in	O	O	O	O
+7-13	Manhattan	O	O	NNP	P2_NPart_manhattan
+7-14	.	O	O	O	O
+
+#id=8
+#text=I took the ferry back to Battery Park where I caught the bus that took me to the connecting bus to take me back to my location in Manhattan . 
+8-1	I	8-2_nsubj	took	PRP	P1_passenger
+8-2	took	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	ferry	O	O	NN	P2_NPart_ferry
+8-5	back	8-2_advmod	took	RB	O
+8-6	to	O	O	O	O
+8-7	Battery	O	O	NNP	O
+8-8	Park	8-2_prep_to	took	NNP	P2_NPart_park
+8-9	where	8-11_advmod	caught	WRB	O
+8-10	I	8-11_nsubj	caught	PRP	P1_passenger
+8-11	caught	8-2_advcl	took	VBD	O
+8-12	the	O	O	DT	O
+8-13	bus	8-11_dobj	caught	NN	P3_bus
+8-14	that	8-15_nsubj	took	WDT	O
+8-15	took	O	O	VBD	O
+8-16	me	8-15_dobj	took	PRP	P1_passenger
+8-17	to	O	O	O	O
+8-18	the	O	O	DT	O
+8-19	connecting	O	O	JJ	O
+8-20	bus	8-15_prep_to	took	NN	P4_bus
+8-21	to	8-22_aux	take	TO	O
+8-22	take	8-15_vmod	took	VB	O
+8-23	me	8-22_dobj	take	PRP	P1_passenger
+8-24	back	8-22_prt	take	RP	O
+8-25	to	O	O	O	O
+8-26	my	O	O	PRP$	P1_passenger
+8-27	location	8-22_prep_to	take	NN	P3_destination
+8-28	in	O	O	O	O
+8-29	Manhattan	O	O	NNP	P3_NPart_manhattan
+8-30	.	O	O	O	O
+
+#id=9
+#text=The bus dropped me off one block away from where I was staying . 
+9-1	The	O	O	DT	O
+9-2	bus	9-3_nsubj	dropped	NN	P4_bus
+9-3	dropped	O	O	VBD	O
+9-4	me	9-7_nsubj	block	PRP	P1_passenger
+9-5	off	9-7_advmod	block	RB	O
+9-6	one	O	O	CD	O
+9-7	block	9-3_ccomp	dropped	VBP	P1_NPart_block
+9-8	away	O	O	O	O
+9-9	from	O	O	O	O
+9-10	where	9-13_advmod	staying	WRB	O
+9-11	I	9-13_nsubj	staying	PRP	P1_passenger
+9-12	was	9-13_aux	staying	VBD	O
+9-13	staying	9-7_prepc_away_from	block	VBG	O
+9-14	.	O	O	O	O
+
+#id=10
+#text=I walked back to my hotel . 
+10-1	I	10-2_nsubj	walked	PRP	P1_passenger
+10-2	walked	O	O	VBD	O
+10-3	back	10-2_advmod	walked	RB	O
+10-4	to	O	O	O	O
+10-5	my	O	O	PRP$	P1_passenger
+10-6	hotel	10-2_prep_to	walked	NN	P3_destination
+10-7	.	O	O	O	O
+
+#id=11
+#text=I very much enjoyed my day of sightseeing using the public bus in New York City . 
+11-1	I	11-4_nsubj	enjoyed	PRP	P1_passenger
+11-2	very	O	O	RB	O
+11-3	much	11-4_advmod	enjoyed	RB	O
+11-4	enjoyed	O	O	VBD	O
+11-5	my	O	O	PRP$	P1_passenger
+11-6	day	11-4_dobj	enjoyed	NN	P3_time/date
+11-7	of	O	O	O	O
+11-8	sightseeing	O	O	NN	P1_NPart_sightseeing
+11-9	using	O	O	VBG	O
+11-10	the	O	O	DT	O
+11-11	public	O	O	JJ	O
+11-12	bus	11-9_dobj	using	NN	P5_bus
+11-13	in	O	O	O	O
+11-14	New	O	O	NNP	O
+11-15	York	O	O	NNP	O
+11-16	City	O	O	NNP	P2_NPart_city
+11-17	.	O	O	O	O

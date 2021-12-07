@@ -1,0 +1,294 @@
+#id=1
+#text=Last year when I worked for a friend doing landscaping jobs , we often had to plant trees . 
+1-1	Last	O	O	JJ	O
+1-2	year	1-15_tmod	had	NN	P1_time
+1-3	when	1-5_advmod	worked	WRB	O
+1-4	I	1-5_nsubj	worked	PRP	P1_gardener
+1-5	worked	1-15_advcl	had	VBD	O
+1-6	for	O	O	O	O
+1-7	a	O	O	DT	O
+1-8	friend	1-5_prep_for	worked	NN	P2_gardener
+1-9	doing	O	O	VBG	O
+1-10	landscaping	O	O	NN	O
+1-11	jobs	1-9_dobj	doing	NNS	P1_NPart_jobs
+1-12	,	O	O	O	O
+1-13	we	1-15_nsubj	had	PRP	P3_gardener
+1-14	often	1-15_advmod	had	RB	O
+1-15	had	O	O	VBD	O
+1-16	to	1-17_aux	plant	TO	O
+1-17	plant	1-15_xcomp	had	VB	O
+1-18	trees	1-17_dobj	plant	NNS	P1_tree
+1-19	.	O	O	O	O
+
+#id=2
+#text=Generally , we would choose a tree from a near by plant store based on what our customer desired . 
+2-1	Generally	2-5_advmod	choose	RB	O
+2-2	,	O	O	O	O
+2-3	we	2-5_nsubj	choose	PRP	P3_gardener
+2-4	would	2-5_aux	choose	MD	O
+2-5	choose	O	O	VB	O
+2-6	a	O	O	DT	O
+2-7	tree	2-5_dobj	choose	NN	P2_tree
+2-8	from	O	O	O	O
+2-9	a	O	O	DT	O
+2-10	near	O	O	IN	O
+2-11	by	O	O	O	O
+2-12	plant	O	O	NN	O
+2-13	store	2-5_prep_from	choose	NN	P1_shop
+2-14	based	O	O	O	O
+2-15	on	O	O	IN	O
+2-16	what	2-19_dobj	desired	WP	O
+2-17	our	O	O	PRP$	P3_gardener
+2-18	customer	2-19_nsubj	desired	NN	O
+2-19	desired	O	O	VBD	O
+2-20	.	O	O	O	O
+
+#id=3
+#text=Trees can be purchased at all different ages , from very small to the size of a large pot . 
+3-1	Trees	3-4_nsubjpass	purchased	NNP	P3_tree
+3-2	can	3-4_aux	purchased	MD	O
+3-3	be	3-4_auxpass	purchased	VB	O
+3-4	purchased	O	O	VBN	O
+3-5	at	O	O	O	O
+3-6	all	O	O	DT	O
+3-7	different	O	O	JJ	O
+3-8	ages	3-4_prep_at	purchased	NNS	P1_NPart_ages
+3-9	,	O	O	O	O
+3-10	from	O	O	O	O
+3-11	very	O	O	RB	O
+3-12	small	3-4_prep_from	purchased	JJ	O
+3-13	to	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	size	O	O	NN	O
+3-16	of	O	O	O	O
+3-17	a	O	O	DT	O
+3-18	large	O	O	JJ	O
+3-19	pot	O	O	NN	P1_NPart_pot
+3-20	.	O	O	O	O
+
+#id=4
+#text=Then , after buying the tree or trees , we would purchase mulch , or fertilizer , to give the tree the proper nutrients so it can grow big and strong . 
+4-1	Then	4-12_advmod	purchase	RB	O
+4-2	,	O	O	O	O
+4-3	after	O	O	O	O
+4-4	buying	4-12_prepc_after	purchase	VBG	O
+4-5	the	O	O	DT	O
+4-6	tree	4-4_dobj	buying	NN	P2_tree
+4-7	or	O	O	O	O
+4-8	trees	O	O	NNS	P4_tree
+4-9	,	O	O	O	O
+4-10	we	4-12_nsubj	purchase	PRP	P3_gardener
+4-11	would	4-12_aux	purchase	MD	O
+4-12	purchase	O	O	VB	O
+4-13	mulch	4-12_dobj	purchase	NN	P1_fertilizer
+4-14	,	O	O	O	O
+4-15	or	O	O	O	O
+4-16	fertilizer	O	O	NN	P2_fertilizer
+4-17	,	O	O	O	O
+4-18	to	4-19_aux	give	TO	O
+4-19	give	4-12_vmod	purchase	VB	O
+4-20	the	O	O	DT	O
+4-21	tree	4-19_iobj	give	NN	P2_tree
+4-22	the	O	O	DT	O
+4-23	proper	O	O	JJ	O
+4-24	nutrients	4-19_dobj	give	NNS	P3_fertilizer
+4-25	so	4-28_mark	grow	IN	O
+4-26	it	4-28_nsubj	grow	PRP	P2_tree
+4-27	can	4-28_aux	grow	MD	O
+4-28	grow	O	O	VB	O
+4-29	big	4-28_acomp	grow	JJ	O
+4-30	and	O	O	O	O
+4-31	strong	O	O	JJ	O
+4-32	.	O	O	O	O
+
+#id=5
+#text=After the tree and fertilizer is purchased , we were off the house to perform our various activities . 
+5-1	After	5-7_mark	purchased	IN	O
+5-2	the	O	O	DT	O
+5-3	tree	5-7_nsubjpass	purchased	NN	P2_tree
+5-4	and	O	O	O	O
+5-5	fertilizer	O	O	NN	P4_fertilizer
+5-6	is	5-7_auxpass	purchased	VBZ	O
+5-7	purchased	5-10_advcl	were	VBN	O
+5-8	,	O	O	O	O
+5-9	we	5-10_nsubj	were	PRP	P3_gardener
+5-10	were	O	O	VBD	O
+5-11	off	5-10_advmod	were	RB	O
+5-12	the	O	O	DT	O
+5-13	house	O	O	NN	P1_NPart_house
+5-14	to	5-15_aux	perform	TO	O
+5-15	perform	5-10_xcomp	were	VB	O
+5-16	our	O	O	PRP$	P3_gardener
+5-17	various	O	O	JJ	O
+5-18	activities	5-15_dobj	perform	NNS	P1_NPart_activities
+5-19	.	O	O	O	O
+
+#id=6
+#text=We lived in a desert environment , so we first had to push all the rocks out of the way with either a rake , a hoe , or one of our other tools . 
+6-1	We	6-2_nsubj	lived	PRP	P3_gardener
+6-2	lived	O	O	VBD	O
+6-3	in	O	O	O	O
+6-4	a	O	O	DT	O
+6-5	desert	O	O	NN	O
+6-6	environment	6-2_prep_in	lived	NN	P1_NPart_environment
+6-7	,	O	O	O	O
+6-8	so	6-2_dep	lived	IN	O
+6-9	we	6-11_nsubj	had	PRP	P3_gardener
+6-10	first	6-11_advmod	had	RB	O
+6-11	had	6-2_parataxis	lived	VBD	O
+6-12	to	6-13_aux	push	TO	O
+6-13	push	6-11_xcomp	had	VB	O
+6-14	all	O	O	PDT	O
+6-15	the	O	O	DT	O
+6-16	rocks	6-13_dobj	push	NNS	P1_other
+6-17	out	O	O	O	O
+6-18	of	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	way	6-13_prep_out_of	push	NN	O
+6-21	with	O	O	O	O
+6-22	either	O	O	RB	O
+6-23	a	O	O	DT	O
+6-24	rake	O	O	NN	P1_gardening_tool
+6-25	,	O	O	O	O
+6-26	a	O	O	DT	O
+6-27	hoe	O	O	NN	P2_gardening_tool
+6-28	,	O	O	O	O
+6-29	or	O	O	O	O
+6-30	one	O	O	CD	O
+6-31	of	O	O	O	O
+6-32	our	O	O	PRP$	P3_gardener
+6-33	other	O	O	JJ	O
+6-34	tools	O	O	NNS	P3_gardening_tool
+6-35	.	O	O	O	O
+
+#id=7
+#text=After clearing the area in the yard for the tree , we then took our shovels and started digging away in the area chosen to plant the tree . 
+7-1	After	O	O	O	O
+7-2	clearing	7-14_prepc_after	took	VBG	O
+7-3	the	O	O	DT	O
+7-4	area	7-2_dobj	clearing	NN	P1_location_garden
+7-5	in	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	yard	7-2_prep_in	clearing	NN	P2_location_garden
+7-8	for	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	tree	O	O	NN	P2_tree
+7-11	,	O	O	O	O
+7-12	we	7-14_nsubj	took	PRP	P3_gardener
+7-13	then	7-14_advmod	took	RB	O
+7-14	took	O	O	VBD	O
+7-15	our	O	O	PRP$	P3_gardener
+7-16	shovels	7-14_dobj	took	NNS	P4_gardening_tool
+7-17	and	O	O	O	O
+7-18	started	7-14_conj_and	took	VBD	O
+7-19	digging	7-18_dobj	started	NN	O
+7-20	away	7-18_prt	started	RP	O
+7-21	in	O	O	O	O
+7-22	the	O	O	DT	O
+7-23	area	7-18_prep_in	started	NN	P3_location_garden
+7-24	chosen	O	O	VBN	O
+7-25	to	7-26_aux	plant	TO	O
+7-26	plant	7-24_xcomp	chosen	VB	O
+7-27	the	O	O	DT	O
+7-28	tree	7-26_dobj	plant	NN	P2_tree
+7-29	.	O	O	O	O
+
+#id=8
+#text=We had to dig our hole big enough so that the entire bottom of the tree with roots and dirt fits snugly into the ground . 
+8-1	We	8-2_nsubj	had	PRP	P3_gardener
+8-2	had	O	O	VBD	O
+8-3	to	8-4_aux	dig	TO	O
+8-4	dig	8-2_xcomp	had	VB	O
+8-5	our	O	O	PRP$	P3_gardener
+8-6	hole	8-4_dobj	dig	NN	P1_hole
+8-7	big	8-4_advmod	dig	JJ	O
+8-8	enough	O	O	RB	O
+8-9	so	O	O	RB	O
+8-10	that	8-21_mark	fits	IN	O
+8-11	the	O	O	DT	O
+8-12	entire	O	O	JJ	O
+8-13	bottom	8-21_nsubj	fits	NN	O
+8-14	of	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	tree	O	O	NN	P2_tree
+8-17	with	O	O	O	O
+8-18	roots	O	O	NNS	P1_root
+8-19	and	O	O	O	O
+8-20	dirt	O	O	NN	P1_dirt
+8-21	fits	O	O	VBZ	O
+8-22	snugly	8-21_advmod	fits	RB	O
+8-23	into	O	O	O	O
+8-24	the	O	O	DT	O
+8-25	ground	8-21_prep_into	fits	NN	P1_hole
+8-26	.	O	O	O	O
+
+#id=9
+#text=After that is done , we would fill the hole with a mixture of mulch and the dirt we pulled up when we first shoveled our hole open . 
+9-1	After	9-4_mark	done	IN	O
+9-2	that	9-4_nsubjpass	done	DT	O
+9-3	is	9-4_auxpass	done	VBZ	O
+9-4	done	9-8_advcl	fill	VBN	O
+9-5	,	O	O	O	O
+9-6	we	9-8_nsubj	fill	PRP	P3_gardener
+9-7	would	9-8_aux	fill	MD	O
+9-8	fill	O	O	VB	O
+9-9	the	O	O	DT	O
+9-10	hole	9-8_dobj	fill	NN	P1_hole
+9-11	with	O	O	O	O
+9-12	a	O	O	DT	O
+9-13	mixture	9-8_prep_with	fill	NN	O
+9-14	of	O	O	O	O
+9-15	mulch	O	O	NN	P1_fertilizer
+9-16	and	O	O	O	O
+9-17	the	O	O	DT	O
+9-18	dirt	O	O	NN	P2_dirt
+9-19	we	9-20_nsubj	pulled	PRP	P3_gardener
+9-20	pulled	O	O	VBD	O
+9-21	up	9-20_prt	pulled	RP	O
+9-22	when	9-25_advmod	shoveled	WRB	O
+9-23	we	9-25_nsubj	shoveled	PRP	P3_gardener
+9-24	first	9-25_advmod	shoveled	RB	O
+9-25	shoveled	9-20_advcl	pulled	VBD	O
+9-26	our	O	O	PRP$	P3_gardener
+9-27	hole	O	O	NN	P1_hole
+9-28	open	9-25_xcomp	shoveled	JJ	O
+9-29	.	O	O	O	O
+
+#id=10
+#text=After the tree has been firmly planted , we either had to turn on the sprinklers in the lawn , or find the nearest hose and water the plants for about five to ten minutes . 
+10-1	After	10-7_mark	planted	IN	O
+10-2	the	O	O	DT	O
+10-3	tree	10-7_nsubjpass	planted	NN	P2_tree
+10-4	has	10-7_aux	planted	VBZ	O
+10-5	been	10-7_auxpass	planted	VBN	O
+10-6	firmly	10-7_advmod	planted	RB	O
+10-7	planted	10-11_advcl	had	VBN	O
+10-8	,	O	O	O	O
+10-9	we	10-11_nsubj	had	PRP	P3_gardener
+10-10	either	10-11_advmod	had	RB	O
+10-11	had	O	O	VBD	O
+10-12	to	10-13_aux	turn	TO	O
+10-13	turn	10-11_xcomp	had	VB	O
+10-14	on	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	sprinklers	10-13_prep_on	turn	NNS	P5_gardening_tool
+10-17	in	O	O	O	O
+10-18	the	O	O	DT	O
+10-19	lawn	O	O	NN	P4_location_garden
+10-20	,	O	O	O	O
+10-21	or	O	O	O	O
+10-22	find	10-13_conj_or	turn	VB	O
+10-23	the	O	O	DT	O
+10-24	nearest	O	O	JJS	O
+10-25	hose	10-22_dobj	find	NN	P6_gardening_tool
+10-26	and	O	O	O	O
+10-27	water	10-22_conj_and	find	VB	O
+10-28	the	O	O	DT	O
+10-29	plants	10-27_dobj	water	NNS	P5_tree
+10-30	for	O	O	O	O
+10-31	about	O	O	RB	O
+10-32	five	O	O	CD	O
+10-33	to	O	O	TO	O
+10-34	ten	O	O	CD	O
+10-35	minutes	10-27_prep_for	water	NNS	P2_time
+10-36	.	O	O	O	O

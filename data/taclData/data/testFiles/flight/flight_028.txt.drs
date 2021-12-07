@@ -1,0 +1,189 @@
+#id=1
+#text=The last time that I flew in an airplane I bought a ticket to New Orleans . 
+1-1	The	O	O	DT	O
+1-2	last	O	O	JJ	O
+1-3	time	1-11_nsubj	bought	NN	P1_NPart_time
+1-4	that	1-6_mark	flew	IN	O
+1-5	I	1-6_nsubj	flew	PRP	P1_passenger
+1-6	flew	O	O	VBD	O
+1-7	in	O	O	O	O
+1-8	an	O	O	DT	O
+1-9	airplane	O	O	NN	P1_plane
+1-10	I	1-6_prep_in	flew	NN	P2_passenger
+1-11	bought	O	O	VBD	O
+1-12	a	O	O	DT	O
+1-13	ticket	1-11_dobj	bought	NN	P1_ticket
+1-14	to	O	O	O	O
+1-15	New	O	O	NNP	O
+1-16	Orleans	1-11_prep_to	bought	NNP	P1_target_location
+1-17	.	O	O	O	O
+
+#id=2
+#text=I bought the ticket early to make sure it was as cheap as possible . 
+2-1	I	2-2_nsubj	bought	PRP	P1_passenger
+2-2	bought	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	ticket	O	O	NN	P1_ticket
+2-5	early	2-2_advmod	bought	RB	O
+2-6	to	2-7_aux	make	TO	O
+2-7	make	2-2_xcomp	bought	VB	O
+2-8	sure	2-7_acomp	make	JJ	O
+2-9	it	O	O	PRP	P1_ticket
+2-10	was	O	O	VBD	O
+2-11	as	O	O	RB	O
+2-12	cheap	O	O	JJ	O
+2-13	as	O	O	O	O
+2-14	possible	O	O	JJ	O
+2-15	.	O	O	O	O
+
+#id=3
+#text=Then I started packing my bags to make sure I had everything that I needed for my trip . 
+3-1	Then	3-3_advmod	started	RB	O
+3-2	I	3-3_nsubj	started	PRP	P1_passenger
+3-3	started	O	O	VBD	O
+3-4	packing	3-3_xcomp	started	VBG	O
+3-5	my	O	O	PRP$	P1_passenger
+3-6	bags	3-4_dobj	packing	NNS	O
+3-7	to	3-8_aux	make	TO	O
+3-8	make	3-4_vmod	packing	VB	O
+3-9	sure	3-8_acomp	make	JJ	O
+3-10	I	3-11_nsubj	had	PRP	P1_passenger
+3-11	had	O	O	VBD	O
+3-12	everything	3-11_dobj	had	NN	O
+3-13	that	3-15_mark	needed	IN	O
+3-14	I	3-15_nsubj	needed	PRP	P1_passenger
+3-15	needed	3-11_ccomp	had	VBD	O
+3-16	for	O	O	O	O
+3-17	my	O	O	PRP$	P1_passenger
+3-18	trip	3-15_prep_for	needed	NN	P1_NPart_trip
+3-19	.	O	O	O	O
+
+#id=4
+#text=I also planned to figure out how I was going to arrive at the airport . 
+4-1	I	4-3_nsubj	planned	PRP	P1_passenger
+4-2	also	4-3_advmod	planned	RB	O
+4-3	planned	O	O	VBD	O
+4-4	to	4-5_aux	figure	TO	O
+4-5	figure	4-3_xcomp	planned	VB	O
+4-6	out	4-5_prt	figure	RP	O
+4-7	how	4-10_advmod	going	WRB	O
+4-8	I	4-10_nsubj	going	PRP	P1_passenger
+4-9	was	4-10_aux	going	VBD	O
+4-10	going	4-5_ccomp	figure	VBG	O
+4-11	to	4-12_aux	arrive	TO	O
+4-12	arrive	4-10_xcomp	going	VB	O
+4-13	at	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	airport	4-12_prep_at	arrive	NN	P1_airport
+4-16	.	O	O	O	O
+
+#id=5
+#text=On the day of the flight , once I arrived at the airport , I checked one of my bags and proceeded to the TSA terminal . 
+5-1	On	O	O	O	O
+5-2	the	O	O	DT	O
+5-3	day	5-16_prep_on	checked	NN	P1_time/date
+5-4	of	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	flight	O	O	NN	P1_flight
+5-7	,	O	O	O	O
+5-8	once	5-10_mark	arrived	IN	O
+5-9	I	5-10_nsubj	arrived	PRP	P1_passenger
+5-10	arrived	5-16_advcl	checked	VBD	O
+5-11	at	O	O	O	O
+5-12	the	O	O	DT	O
+5-13	airport	5-10_prep_at	arrived	NN	P1_airport
+5-14	,	O	O	O	O
+5-15	I	5-16_nsubj	checked	PRP	P1_passenger
+5-16	checked	O	O	VBD	O
+5-17	one	5-16_dobj	checked	CD	O
+5-18	of	O	O	O	O
+5-19	my	O	O	PRP$	P1_passenger
+5-20	bags	O	O	NNS	P1_check_in_luggage
+5-21	and	O	O	O	O
+5-22	proceeded	5-16_conj_and	checked	VBD	O
+5-23	to	O	O	O	O
+5-24	the	O	O	DT	O
+5-25	TSA	O	O	NNP	O
+5-26	terminal	5-22_prep_to	proceeded	NN	P1_security_check
+5-27	.	O	O	O	O
+
+#id=6
+#text=At the TSA the check your ID and make sure you do n't bring anything that is not allowed on the plane . 
+6-1	At	O	O	O	O
+6-2	the	O	O	DT	O
+6-3	TSA	O	O	NNP	P1_security_check
+6-4	the	6-5_nsubj	check	NNP	P1_staff
+6-5	check	6-14_prepc_at	bring	VB	O
+6-6	your	O	O	PRP$	P1_passenger
+6-7	ID	6-5_dobj	check	NN	P1_passport/ID
+6-8	and	O	O	O	O
+6-9	make	6-5_conj_and	check	VB	O
+6-10	sure	6-9_acomp	make	JJ	O
+6-11	you	6-14_nsubj	bring	PRP	P1_passenger
+6-12	do	6-14_aux	bring	VBP	O
+6-13	n't	6-14_neg	bring	RB	O
+6-14	bring	O	O	VB	O
+6-15	anything	6-14_dobj	bring	NN	O
+6-16	that	6-19_nsubjpass	allowed	WDT	O
+6-17	is	6-19_auxpass	allowed	VBZ	O
+6-18	not	6-19_neg	allowed	RB	O
+6-19	allowed	O	O	VBN	O
+6-20	on	O	O	O	O
+6-21	the	O	O	DT	O
+6-22	plane	6-19_prep_on	allowed	NN	P2_plane
+6-23	.	O	O	O	O
+
+#id=7
+#text=I was not bringing anything that was not allowed so I got in with no problems . 
+7-1	I	7-4_nsubj	bringing	PRP	P1_passenger
+7-2	was	7-4_aux	bringing	VBD	O
+7-3	not	7-4_neg	bringing	RB	O
+7-4	bringing	O	O	VBG	O
+7-5	anything	7-4_dobj	bringing	NN	O
+7-6	that	7-9_nsubjpass	allowed	WDT	O
+7-7	was	7-9_auxpass	allowed	VBD	O
+7-8	not	7-9_neg	allowed	RB	O
+7-9	allowed	O	O	VBN	O
+7-10	so	7-12_mark	got	IN	O
+7-11	I	7-12_nsubj	got	PRP	P1_passenger
+7-12	got	7-9_advcl	allowed	VBD	O
+7-13	in	7-12_prt	got	RP	O
+7-14	with	O	O	O	O
+7-15	no	O	O	DT	O
+7-16	problems	7-12_prep_with	got	NNS	P1_NPart_problems
+7-17	.	O	O	O	O
+
+#id=8
+#text=After that I found my gate , waited a bit and boarded the plane . 
+8-1	After	O	O	O	O
+8-2	that	8-4_prep_after	found	DT	O
+8-3	I	8-4_nsubj	found	PRP	P1_passenger
+8-4	found	O	O	VBD	O
+8-5	my	O	O	PRP$	P1_passenger
+8-6	gate	8-4_dobj	found	NN	P1_terminal/gate
+8-7	,	O	O	O	O
+8-8	waited	8-4_conj_and	found	VBD	O
+8-9	a	O	O	DT	O
+8-10	bit	8-8_dobj	waited	NN	P1_NPart_bit
+8-11	and	O	O	O	O
+8-12	boarded	8-4_conj_and	found	VBD	O
+8-13	the	O	O	DT	O
+8-14	plane	8-12_dobj	boarded	NN	P1_plane
+8-15	.	O	O	O	O
+
+#id=9
+#text=On the plane I looked out of the window and took some naps . 
+9-1	On	O	O	O	O
+9-2	the	O	O	DT	O
+9-3	plane	9-5_prep_on	looked	NN	P1_plane
+9-4	I	9-5_nsubj	looked	PRP	P1_passenger
+9-5	looked	O	O	VBD	O
+9-6	out	O	O	O	O
+9-7	of	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	window	9-5_prep_out_of	looked	NN	P1_other
+9-10	and	O	O	O	O
+9-11	took	9-5_conj_and	looked	VBD	O
+9-12	some	O	O	DT	O
+9-13	naps	9-11_dobj	took	NNS	O
+9-14	.	O	O	O	O

@@ -1,0 +1,222 @@
+#id=1
+#text=Before going shopping I make a shopping list and look through my fridge and cupboards to make sure I buy everything I need . 
+1-1	Before	O	O	O	O
+1-2	going	1-20_prepc_before	buy	VBG	O
+1-3	shopping	1-2_vmod	going	VBG	O
+1-4	I	1-5_nsubj	make	PRP	P1_shopper
+1-5	make	1-3_ccomp	shopping	VB	O
+1-6	a	O	O	DT	O
+1-7	shopping	O	O	NN	O
+1-8	list	1-5_dobj	make	NN	P1_grocery_list
+1-9	and	O	O	O	O
+1-10	look	1-5_conj_and	make	VB	O
+1-11	through	O	O	O	O
+1-12	my	O	O	PRP$	P1_shopper
+1-13	fridge	1-10_prep_through	look	NN	P1_NPart_fridge
+1-14	and	O	O	O	O
+1-15	cupboards	O	O	NNS	P1_NPart_cupboards
+1-16	to	1-17_aux	make	TO	O
+1-17	make	1-10_xcomp	look	VB	O
+1-18	sure	1-17_acomp	make	JJ	O
+1-19	I	1-20_nsubj	buy	PRP	P1_shopper
+1-20	buy	O	O	VB	O
+1-21	everything	1-20_dobj	buy	NN	P1_groceries
+1-22	I	1-23_nsubj	need	PRP	P1_shopper
+1-23	need	1-20_dep	buy	VBP	O
+1-24	.	O	O	O	O
+
+#id=2
+#text=I then get into my car and drive to the store . 
+2-1	I	2-3_nsubj	get	PRP	P1_shopper
+2-2	then	2-3_advmod	get	RB	O
+2-3	get	O	O	VBP	O
+2-4	into	O	O	O	O
+2-5	my	O	O	PRP$	P1_shopper
+2-6	car	2-3_prep_into	get	NN	P1_vehicle
+2-7	and	O	O	O	O
+2-8	drive	O	O	NN	O
+2-9	to	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	store	2-3_prep_to	get	NN	P1_grocery_shop
+2-12	.	O	O	O	O
+
+#id=3
+#text=Upon entering the store I grab a shopping cart and walk to the fresh fruits and vegetables . 
+3-1	Upon	O	O	O	O
+3-2	entering	3-6_prepc_upon	grab	VBG	O
+3-3	the	O	O	DT	O
+3-4	store	3-2_dobj	entering	NN	P1_grocery_shop
+3-5	I	3-6_nsubj	grab	PRP	P1_shopper
+3-6	grab	O	O	VBP	O
+3-7	a	O	O	DT	O
+3-8	shopping	3-9_nsubj	cart	NN	O
+3-9	cart	3-6_ccomp	grab	VBP	P1_shopping_cart/basket
+3-10	and	O	O	O	O
+3-11	walk	3-9_conj_and	cart	VBP	O
+3-12	to	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	fresh	O	O	JJ	O
+3-15	fruits	3-9_prep_to	cart	NNS	P2_groceries
+3-16	and	O	O	O	O
+3-17	vegetables	O	O	NNS	P3_groceries
+3-18	.	O	O	O	O
+
+#id=4
+#text=After getting all of my fresh items I go to the butcher stand and get some chicken and beef . 
+4-1	After	O	O	O	O
+4-2	getting	4-9_prepc_after	go	VBG	O
+4-3	all	4-2_dobj	getting	DT	O
+4-4	of	O	O	O	O
+4-5	my	O	O	PRP$	P1_shopper
+4-6	fresh	O	O	JJ	O
+4-7	items	O	O	NNS	P4_groceries
+4-8	I	4-9_nsubj	go	PRP	P1_shopper
+4-9	go	O	O	VB	O
+4-10	to	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	butcher	O	O	NN	O
+4-13	stand	4-9_prep_to	go	NN	P1_section
+4-14	and	O	O	O	O
+4-15	get	4-9_conj_and	go	VB	O
+4-16	some	O	O	DT	O
+4-17	chicken	4-15_dobj	get	NN	P5_groceries
+4-18	and	O	O	O	O
+4-19	beef	O	O	NN	P6_groceries
+4-20	.	O	O	O	O
+
+#id=5
+#text=I sometimes make a stop to et lunch meat and bread so I can make sandwiches for lunch . 
+5-1	I	5-3_nsubj	make	PRP	P1_shopper
+5-2	sometimes	5-3_advmod	make	RB	O
+5-3	make	O	O	VBP	O
+5-4	a	O	O	DT	O
+5-5	stop	5-3_dobj	make	NN	O
+5-6	to	O	O	O	O
+5-7	et	O	O	O	O
+5-8	lunch	O	O	NN	O
+5-9	meat	5-3_prep_to	make	NN	P7_groceries
+5-10	and	O	O	O	O
+5-11	bread	O	O	NN	P8_groceries
+5-12	so	5-15_mark	make	IN	O
+5-13	I	5-15_nsubj	make	PRP	P1_shopper
+5-14	can	5-15_aux	make	MD	O
+5-15	make	5-3_advcl	make	VB	O
+5-16	sandwiches	5-15_dobj	make	NNS	P1_NPart_sandwiches
+5-17	for	O	O	O	O
+5-18	lunch	O	O	NN	P1_NPart_lunch
+5-19	.	O	O	O	O
+
+#id=6
+#text=Next I go to the dairy section where I buy cheese , milk and eggs . 
+6-1	Next	6-3_advmod	go	RB	O
+6-2	I	6-3_nsubj	go	PRP	P1_shopper
+6-3	go	O	O	VBP	O
+6-4	to	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	dairy	O	O	NN	O
+6-7	section	6-3_prep_to	go	NN	P2_section
+6-8	where	6-10_advmod	buy	WRB	O
+6-9	I	6-10_nsubj	buy	PRP	P1_shopper
+6-10	buy	6-3_advcl	go	VBP	O
+6-11	cheese	6-10_dobj	buy	NN	P9_groceries
+6-12	,	O	O	O	O
+6-13	milk	O	O	NN	P10_groceries
+6-14	and	O	O	O	O
+6-15	eggs	O	O	NNS	P11_groceries
+6-16	.	O	O	O	O
+
+#id=7
+#text=After that I go buy some snacks and canned items . 
+7-1	After	O	O	O	O
+7-2	that	7-4_prep_after	go	DT	O
+7-3	I	7-4_nsubj	go	PRP	P1_shopper
+7-4	go	O	O	VBP	O
+7-5	buy	7-4_xcomp	go	VB	O
+7-6	some	O	O	DT	O
+7-7	snacks	7-5_dobj	buy	NNS	P12_groceries
+7-8	and	O	O	O	O
+7-9	canned	O	O	VBN	O
+7-10	items	O	O	NNS	P13_groceries
+7-11	.	O	O	O	O
+
+#id=8
+#text=To end my trip I go to the frozen foods section because I want to make sure my frozen items stay cold until I am home . 
+8-1	To	8-2_aux	end	TO	O
+8-2	end	8-6_dep	go	VB	O
+8-3	my	O	O	PRP$	P1_shopper
+8-4	trip	8-2_dobj	end	NN	P1_NPart_trip
+8-5	I	8-6_nsubj	go	PRP	P1_shopper
+8-6	go	O	O	VBP	O
+8-7	to	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	frozen	O	O	JJ	O
+8-10	foods	O	O	NNS	O
+8-11	section	8-6_prep_to	go	NN	P3_section
+8-12	because	8-14_mark	want	IN	O
+8-13	I	8-14_nsubj	want	PRP	P1_shopper
+8-14	want	8-6_advcl	go	VBP	O
+8-15	to	8-16_aux	make	TO	O
+8-16	make	8-14_xcomp	want	VB	O
+8-17	sure	8-16_acomp	make	JJ	O
+8-18	my	O	O	PRP$	P1_shopper
+8-19	frozen	O	O	JJ	O
+8-20	items	8-21_nsubj	stay	NNS	P14_groceries
+8-21	stay	O	O	VBP	O
+8-22	cold	8-21_advmod	stay	NN	O
+8-23	until	O	O	IN	O
+8-24	I	O	O	PRP	P1_shopper
+8-25	am	O	O	VBP	O
+8-26	home	8-21_advcl	stay	NN	P1_NPart_home
+8-27	.	O	O	O	O
+
+#id=9
+#text=I get in line and wait to be cashed out . 
+9-1	I	9-2_nsubj	get	PRP	P1_shopper
+9-2	get	O	O	VBP	O
+9-3	in	O	O	O	O
+9-4	line	9-2_prep_in	get	NN	P1_line
+9-5	and	O	O	O	O
+9-6	wait	O	O	NN	O
+9-7	to	9-9_aux	cashed	TO	O
+9-8	be	9-9_auxpass	cashed	VB	O
+9-9	cashed	9-2_xcomp	get	VBN	O
+9-10	out	9-9_prt	cashed	RP	O
+9-11	.	O	O	O	O
+
+#id=10
+#text=I almost always pay with my credit card so I do n't have to worry about money . 
+10-1	I	10-4_nsubj	pay	PRP	P1_shopper
+10-2	almost	O	O	RB	O
+10-3	always	10-4_advmod	pay	RB	O
+10-4	pay	O	O	VBP	O
+10-5	with	O	O	O	O
+10-6	my	O	O	PRP$	P1_shopper
+10-7	credit	O	O	NN	O
+10-8	card	10-4_prep_with	pay	NN	P1_payment_means
+10-9	so	10-13_mark	have	IN	O
+10-10	I	10-13_nsubj	have	PRP	P1_shopper
+10-11	do	10-13_aux	have	VBP	O
+10-12	n't	10-13_neg	have	RB	O
+10-13	have	10-4_advcl	pay	VB	O
+10-14	to	10-15_aux	worry	TO	O
+10-15	worry	10-13_xcomp	have	VB	O
+10-16	about	O	O	O	O
+10-17	money	10-15_prep_about	worry	NN	P2_payment_means
+10-18	.	O	O	O	O
+
+#id=11
+#text=I then leave the store , head home and unload all my groceries . 
+11-1	I	11-3_nsubj	leave	PRP	P1_shopper
+11-2	then	11-3_advmod	leave	RB	O
+11-3	leave	O	O	VB	O
+11-4	the	O	O	DT	O
+11-5	store	11-3_dobj	leave	NN	P1_grocery_shop
+11-6	,	O	O	O	O
+11-7	head	11-3_conj_and	leave	VB	O
+11-8	home	11-7_dobj	head	NN	P2_NPart_home
+11-9	and	O	O	O	O
+11-10	unload	11-3_conj_and	leave	VB	O
+11-11	all	O	O	PDT	O
+11-12	my	O	O	PRP$	P1_shopper
+11-13	groceries	11-10_dobj	unload	NNS	P1_groceries
+11-14	.	O	O	O	O

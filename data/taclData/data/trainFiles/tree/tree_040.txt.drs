@@ -1,0 +1,200 @@
+#id=1
+#text=Planting a tree is an important activity for most of us . 
+1-1	Planting	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	tree	1-1_dobj	Planting	NN	P1_tree
+1-4	is	O	O	VBZ	O
+1-5	an	O	O	DT	O
+1-6	important	O	O	JJ	O
+1-7	activity	O	O	NN	P1_NPart_activity
+1-8	for	O	O	O	O
+1-9	most	O	O	JJS	O
+1-10	of	O	O	O	O
+1-11	us	O	O	PRP	P1_gardener
+1-12	.	O	O	O	O
+
+#id=2
+#text=We need trees to survive , and we need to replace the ones that are being cut down . 
+2-1	We	2-2_nsubj	need	PRP	P1_gardener
+2-2	need	O	O	VBP	O
+2-3	trees	2-2_dobj	need	NNS	P1_tree
+2-4	to	2-5_aux	survive	TO	O
+2-5	survive	2-2_xcomp	need	VB	O
+2-6	,	O	O	O	O
+2-7	and	O	O	O	O
+2-8	we	2-9_nsubj	need	PRP	P1_gardener
+2-9	need	2-2_conj_and	need	VBP	O
+2-10	to	2-11_aux	replace	TO	O
+2-11	replace	2-9_xcomp	need	VB	O
+2-12	the	O	O	DT	O
+2-13	ones	2-11_dobj	replace	NNS	P1_tree
+2-14	that	2-17_nsubjpass	cut	WDT	P1_tree
+2-15	are	2-17_aux	cut	VBP	O
+2-16	being	2-17_auxpass	cut	VBG	O
+2-17	cut	O	O	VBN	O
+2-18	down	2-17_prt	cut	RP	O
+2-19	.	O	O	O	O
+
+#id=3
+#text=To do this , the right tools and location are necessary . 
+3-1	To	3-2_aux	do	TO	O
+3-2	do	O	O	VB	O
+3-3	this	3-2_dobj	do	DT	O
+3-4	,	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	right	O	O	JJ	O
+3-7	tools	O	O	NNS	P1_gardening_tool
+3-8	and	O	O	O	O
+3-9	location	O	O	NN	P1_location_garden
+3-10	are	O	O	VBP	O
+3-11	necessary	O	O	JJ	O
+3-12	.	O	O	O	O
+
+#id=4
+#text=I would begin by getting the striplings from a local nursery , as well as the right mulch and shovel . 
+4-1	I	4-3_nsubj	begin	PRP	P1_gardener
+4-2	would	4-3_aux	begin	MD	O
+4-3	begin	O	O	VB	O
+4-4	by	O	O	O	O
+4-5	getting	4-3_prepc_by	begin	VBG	O
+4-6	the	O	O	DT	O
+4-7	striplings	4-5_dobj	getting	NNS	P1_tree
+4-8	from	O	O	O	O
+4-9	a	O	O	DT	O
+4-10	local	O	O	JJ	O
+4-11	nursery	4-5_prep_from	getting	NN	P1_shop
+4-12	,	O	O	O	O
+4-13	as	O	O	O	O
+4-14	well	O	O	O	O
+4-15	as	O	O	O	O
+4-16	the	O	O	DT	O
+4-17	right	O	O	JJ	O
+4-18	mulch	O	O	NN	P1_fertilizer
+4-19	and	O	O	O	O
+4-20	shovel	O	O	NN	P1_gardening_tool
+4-21	.	O	O	O	O
+
+#id=5
+#text=Next I would find the right spot , somewhere with plenty of shade and also sunlight , where the roots can grow and not destroy a sidewalk or driveway . 
+5-1	Next	5-4_advmod	find	RB	O
+5-2	I	5-4_nsubj	find	PRP	P1_gardener
+5-3	would	5-4_aux	find	MD	O
+5-4	find	O	O	VB	O
+5-5	the	O	O	DT	O
+5-6	right	O	O	JJ	O
+5-7	spot	5-4_dobj	find	NN	P1_location_garden
+5-8	,	O	O	O	O
+5-9	somewhere	5-4_advmod	find	RB	P1_location_garden
+5-10	with	O	O	IN	O
+5-11	plenty	O	O	RB	O
+5-12	of	O	O	O	O
+5-13	shade	O	O	NN	P1_NPart_shade
+5-14	and	O	O	CC	O
+5-15	also	O	O	RB	O
+5-16	sunlight	O	O	NN	P1_NPart_sunlight
+5-17	,	O	O	O	O
+5-18	where	5-22_advmod	grow	WRB	O
+5-19	the	O	O	DT	O
+5-20	roots	5-22_nsubj	grow	NNS	P1_root
+5-21	can	5-22_aux	grow	MD	O
+5-22	grow	5-4_advcl	find	VB	O
+5-23	and	O	O	O	O
+5-24	not	5-22_conj_and	grow	RB	O
+5-25	destroy	5-22_dep	grow	VB	O
+5-26	a	O	O	DT	O
+5-27	sidewalk	5-22_dobj	grow	NN	P1_NPart_sidewalk
+5-28	or	O	O	O	O
+5-29	driveway	O	O	NN	P1_NPart_driveway
+5-30	.	O	O	O	O
+
+#id=6
+#text=With the right location in mind , I would dig down pretty deep , deep enough that it wo n't topple out or be dug out by passing dogs or anything . 
+6-1	With	O	O	O	O
+6-2	the	O	O	DT	O
+6-3	right	O	O	JJ	O
+6-4	location	6-10_prep_with	dig	NN	P1_location_garden
+6-5	in	O	O	O	O
+6-6	mind	O	O	NN	O
+6-7	,	O	O	O	O
+6-8	I	6-10_nsubj	dig	PRP	P1_gardener
+6-9	would	6-10_aux	dig	MD	O
+6-10	dig	O	O	VB	O
+6-11	down	O	O	RB	O
+6-12	pretty	O	O	RB	O
+6-13	deep	6-10_advmod	dig	JJ	O
+6-14	,	O	O	O	O
+6-15	deep	O	O	RB	O
+6-16	enough	6-10_advmod	dig	RB	O
+6-17	that	6-21_mark	topple	IN	O
+6-18	it	6-21_nsubj	topple	PRP	P1_tree
+6-19	wo	6-21_aux	topple	MD	O
+6-20	n't	6-21_neg	topple	RB	O
+6-21	topple	O	O	VB	O
+6-22	out	6-21_prt	topple	RP	O
+6-23	or	O	O	O	O
+6-24	be	6-25_auxpass	dug	VB	O
+6-25	dug	6-21_conj_or	topple	VBN	O
+6-26	out	6-25_prt	dug	RP	O
+6-27	by	O	O	O	O
+6-28	passing	6-25_agent	dug	VBG	O
+6-29	dogs	6-28_dobj	passing	NNS	P1_NPart_dogs
+6-30	or	O	O	O	O
+6-31	anything	O	O	NN	P1_NPart_anything
+6-32	.	O	O	O	O
+
+#id=7
+#text=Once the hole is dug , I can plant the stripling , fill the remainder of the hole with mulch and dirt and then attach some type of thin but sturdy pole or stick next to the baby tree so that it will have something supporting it until it grows strong and tall . 
+7-1	Once	O	O	IN	O
+7-2	the	O	O	DT	O
+7-3	hole	O	O	NN	P1_hole
+7-4	is	O	O	VBZ	O
+7-5	dug	7-9_advcl	plant	JJ	O
+7-6	,	O	O	O	O
+7-7	I	7-9_nsubj	plant	PRP	P1_gardener
+7-8	can	7-9_aux	plant	MD	O
+7-9	plant	O	O	VB	O
+7-10	the	O	O	DT	O
+7-11	stripling	7-9_dobj	plant	NN	P1_tree
+7-12	,	O	O	O	O
+7-13	fill	7-9_conj_and	plant	VB	O
+7-14	the	O	O	DT	O
+7-15	remainder	7-13_dobj	fill	NN	O
+7-16	of	O	O	O	O
+7-17	the	O	O	DT	O
+7-18	hole	O	O	NN	P1_hole
+7-19	with	O	O	O	O
+7-20	mulch	7-13_prep_with	fill	NN	P1_fertilizer
+7-21	and	O	O	O	O
+7-22	dirt	O	O	NN	P1_dirt
+7-23	and	O	O	O	O
+7-24	then	7-25_advmod	attach	RB	O
+7-25	attach	7-9_conj_and	plant	VB	O
+7-26	some	O	O	DT	O
+7-27	type	7-25_dobj	attach	NN	O
+7-28	of	O	O	O	O
+7-29	thin	O	O	JJ	O
+7-30	but	O	O	O	O
+7-31	sturdy	O	O	JJ	O
+7-32	pole	O	O	NN	P1_stake
+7-33	or	O	O	O	O
+7-34	stick	7-25_conj_or	attach	VB	P1_stake
+7-35	next	O	O	O	O
+7-36	to	O	O	O	O
+7-37	the	O	O	DT	O
+7-38	baby	O	O	NN	O
+7-39	tree	7-34_prep_next_to	stick	NN	P1_tree
+7-40	so	7-44_advmod	have	RB	O
+7-41	that	7-44_mark	have	IN	O
+7-42	it	7-44_nsubj	have	PRP	P1_tree
+7-43	will	7-44_aux	have	MD	O
+7-44	have	7-34_advcl	stick	VB	O
+7-45	something	7-44_dobj	have	NN	P1_stake
+7-46	supporting	O	O	VBG	O
+7-47	it	7-46_dobj	supporting	PRP	P1_tree
+7-48	until	7-50_mark	grows	IN	O
+7-49	it	7-50_nsubj	grows	PRP	P1_tree
+7-50	grows	7-46_advcl	supporting	VBZ	O
+7-51	strong	7-50_acomp	grows	JJ	O
+7-52	and	O	O	O	O
+7-53	tall	O	O	JJ	O
+7-54	.	O	O	O	O

@@ -1,0 +1,252 @@
+#id=1
+#text=Today is my friend 's birthday so I decided I wanted to bake a cake for her . 
+1-1	Today	O	O	NNP	P1_NPart_today
+1-2	is	O	O	VBZ	O
+1-3	my	O	O	PRP$	P1_cook
+1-4	friend	O	O	NN	P1_beneficiary
+1-5	's	O	O	O	O
+1-6	birthday	O	O	NN	P1_NPart_birthday
+1-7	so	1-9_mark	decided	IN	O
+1-8	I	1-9_nsubj	decided	PRP	P1_cook
+1-9	decided	O	O	VBD	O
+1-10	I	1-11_nsubj	wanted	PRP	P1_cook
+1-11	wanted	1-9_ccomp	decided	VBD	O
+1-12	to	1-13_aux	bake	TO	O
+1-13	bake	1-11_xcomp	wanted	VB	O
+1-14	a	O	O	DT	O
+1-15	cake	1-13_dobj	bake	NN	P1_cake
+1-16	for	O	O	O	O
+1-17	her	O	O	PRP	P1_beneficiary
+1-18	.	O	O	O	O
+
+#id=2
+#text=First , I went to the grocery store and bought all the ingredients I would need to make the cake like flour , eggs , oil , sugar and butter . 
+2-1	First	2-4_advmod	went	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	went	PRP	P1_cook
+2-4	went	O	O	VBD	O
+2-5	to	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	grocery	O	O	NN	O
+2-8	store	2-4_prep_to	went	NN	P1_store
+2-9	and	O	O	O	O
+2-10	bought	2-4_conj_and	went	VBD	O
+2-11	all	O	O	PDT	O
+2-12	the	O	O	DT	O
+2-13	ingredients	2-10_dobj	bought	NNS	P1_ingredients
+2-14	I	2-16_nsubj	need	PRP	P1_cook
+2-15	would	2-16_aux	need	MD	O
+2-16	need	2-10_dep	bought	VB	O
+2-17	to	2-18_aux	make	TO	O
+2-18	make	2-16_xcomp	need	VB	O
+2-19	the	O	O	DT	O
+2-20	cake	2-18_dobj	make	NN	P1_cake
+2-21	like	O	O	O	O
+2-22	flour	2-18_prep_like	make	NN	P2_ingredients
+2-23	,	O	O	O	O
+2-24	eggs	O	O	NNS	P3_ingredients
+2-25	,	O	O	O	O
+2-26	oil	O	O	NN	P4_ingredients
+2-27	,	O	O	O	O
+2-28	sugar	O	O	NN	P5_ingredients
+2-29	and	O	O	O	O
+2-30	butter	O	O	NN	P6_ingredients
+2-31	.	O	O	O	O
+
+#id=3
+#text=I also bought some candles to put on top of the cake once it was done . 
+3-1	I	3-3_nsubj	bought	PRP	P1_cook
+3-2	also	3-3_advmod	bought	RB	O
+3-3	bought	O	O	VBD	O
+3-4	some	O	O	DT	O
+3-5	candles	3-3_dobj	bought	NNS	P1_decoration
+3-6	to	3-7_aux	put	TO	O
+3-7	put	3-3_vmod	bought	VB	O
+3-8	on	O	O	O	O
+3-9	top	O	O	O	O
+3-10	of	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	cake	3-7_prep_on_top_of	put	NN	P1_cake
+3-13	once	3-16_mark	done	IN	O
+3-14	it	3-16_nsubjpass	done	PRP	P1_cake
+3-15	was	3-16_auxpass	done	VBD	O
+3-16	done	3-7_advcl	put	VBN	O
+3-17	.	O	O	O	O
+
+#id=4
+#text=Then I went home and headed for the kitchen . 
+4-1	Then	4-3_advmod	went	RB	O
+4-2	I	4-3_nsubj	went	PRP	P1_cook
+4-3	went	O	O	VBD	O
+4-4	home	4-3_dobj	went	NN	P1_kitchen/location
+4-5	and	O	O	O	O
+4-6	headed	4-3_conj_and	went	VBN	O
+4-7	for	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	kitchen	4-6_prep_for	headed	NN	P2_kitchen/location
+4-10	.	O	O	O	O
+
+#id=5
+#text=I preheated the oven so it would be hot and ready for the cake and then got out my bowls and measuring cups and spoons . 
+5-1	I	5-2_nsubj	preheated	PRP	P1_cook
+5-2	preheated	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	oven	5-2_dobj	preheated	NN	P1_oven
+5-5	so	O	O	IN	O
+5-6	it	O	O	PRP	P1_oven
+5-7	would	O	O	MD	O
+5-8	be	O	O	VB	O
+5-9	hot	5-2_advcl	preheated	JJ	O
+5-10	and	O	O	O	O
+5-11	ready	O	O	JJ	O
+5-12	for	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	cake	O	O	NN	P1_cake
+5-15	and	O	O	O	O
+5-16	then	5-17_advmod	got	RB	O
+5-17	got	5-2_conj_and	preheated	VBD	O
+5-18	out	5-17_prt	got	RP	O
+5-19	my	O	O	PRP$	P1_cook
+5-20	bowls	5-17_dobj	got	NN	P1_utensil
+5-21	and	O	O	O	O
+5-22	measuring	O	O	NN	O
+5-23	cups	O	O	NNS	P2_utensil
+5-24	and	O	O	O	O
+5-25	spoons	O	O	NNS	P3_utensil
+5-26	.	O	O	O	O
+
+#id=6
+#text=I mixed all the ingredients in a bowl then got out a cake pan and greased it with butter so the cake would not stick , poured the cake batter in the pan and put the pan in the oven to bake . 
+6-1	I	6-10_nsubj	got	PRP	P1_cook
+6-2	mixed	O	O	VBN	O
+6-3	all	O	O	PDT	O
+6-4	the	O	O	DT	O
+6-5	ingredients	6-2_dobj	mixed	NNS	P1_ingredients
+6-6	in	O	O	O	O
+6-7	a	O	O	DT	O
+6-8	bowl	O	O	NN	P1_utensil
+6-9	then	6-10_advmod	got	RB	O
+6-10	got	O	O	VBD	O
+6-11	out	6-10_prt	got	RP	O
+6-12	a	O	O	DT	O
+6-13	cake	O	O	NN	O
+6-14	pan	6-10_dobj	got	NN	P1_cake_tin
+6-15	and	O	O	O	O
+6-16	greased	6-10_conj_and	got	VBD	O
+6-17	it	6-16_dobj	greased	PRP	P1_cake_tin
+6-18	with	O	O	O	O
+6-19	butter	6-16_prep_with	greased	NN	P6_ingredients
+6-20	so	6-25_mark	stick	IN	O
+6-21	the	O	O	DT	O
+6-22	cake	6-25_nsubj	stick	NN	P1_cake
+6-23	would	6-25_aux	stick	MD	O
+6-24	not	6-25_neg	stick	RB	O
+6-25	stick	6-16_advcl	greased	VB	O
+6-26	,	O	O	O	O
+6-27	poured	6-10_dep	got	VBD	O
+6-28	the	O	O	DT	O
+6-29	cake	O	O	NN	O
+6-30	batter	6-27_dobj	poured	NN	P1_dough
+6-31	in	O	O	O	O
+6-32	the	O	O	DT	O
+6-33	pan	6-27_prep_in	poured	NN	P1_cake_tin
+6-34	and	O	O	O	O
+6-35	put	6-10_conj_and	got	VBD	O
+6-36	the	O	O	DT	O
+6-37	pan	6-35_dobj	put	NN	P1_cake_tin
+6-38	in	O	O	O	O
+6-39	the	O	O	DT	O
+6-40	oven	6-35_prep_in	put	NN	P1_oven
+6-41	to	6-42_aux	bake	TO	O
+6-42	bake	O	O	VB	O
+6-43	.	O	O	O	O
+
+#id=7
+#text=I set the timer on the oven so it would beep when the cake was done , then cleaned up the bowls and spoons I had used . 
+7-1	I	7-2_nsubj	set	PRP	P1_cook
+7-2	set	7-19_ccomp	cleaned	VBD	O
+7-3	the	O	O	DT	O
+7-4	timer	7-2_dobj	set	NN	P1_timer
+7-5	on	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	oven	7-2_prep_on	set	NN	P1_oven
+7-8	so	7-11_mark	beep	IN	O
+7-9	it	7-11_nsubj	beep	PRP	P1_timer
+7-10	would	7-11_aux	beep	MD	O
+7-11	beep	7-2_advcl	set	VB	O
+7-12	when	7-16_advmod	done	WRB	O
+7-13	the	O	O	DT	O
+7-14	cake	7-16_nsubjpass	done	NN	P1_cake
+7-15	was	7-16_auxpass	done	VBD	O
+7-16	done	7-11_advcl	beep	VBN	O
+7-17	,	O	O	O	O
+7-18	then	7-19_nsubj	cleaned	RB	O
+7-19	cleaned	O	O	VBD	O
+7-20	up	7-19_prt	cleaned	RP	O
+7-21	the	O	O	DT	O
+7-22	bowls	7-19_dobj	cleaned	NN	P1_utensil
+7-23	and	O	O	O	O
+7-24	spoons	7-19_conj_and	cleaned	VBZ	P3_utensil
+7-25	I	7-27_nsubj	used	PRP	P1_cook
+7-26	had	7-27_aux	used	VBD	O
+7-27	used	7-24_ccomp	spoons	VBN	O
+7-28	.	O	O	O	O
+
+#id=8
+#text=When the cake was done I took it out of the oven and let it cool then decorated it with frosting and candles . 
+8-1	When	8-5_advmod	done	WRB	O
+8-2	the	O	O	DT	O
+8-3	cake	8-5_nsubjpass	done	NN	P1_cake
+8-4	was	8-5_auxpass	done	VBD	O
+8-5	done	8-7_advcl	took	VBN	O
+8-6	I	8-7_nsubj	took	PRP	P1_cook
+8-7	took	O	O	VBD	O
+8-8	it	8-7_dobj	took	PRP	P1_cake
+8-9	out	O	O	O	O
+8-10	of	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	oven	8-7_prep_out_of	took	NN	P1_oven
+8-13	and	O	O	O	O
+8-14	let	8-7_conj_and	took	VBD	O
+8-15	it	8-16_nsubj	cool	PRP	P1_cake
+8-16	cool	8-14_ccomp	let	VBP	O
+8-17	then	8-16_advmod	cool	RB	O
+8-18	decorated	8-16_dep	cool	VB	O
+8-19	it	8-18_dobj	decorated	PRP	P1_cake
+8-20	with	O	O	O	O
+8-21	frosting	8-18_prep_with	decorated	NN	P7_ingredients
+8-22	and	O	O	O	O
+8-23	candles	O	O	NNS	P1_decoration
+8-24	.	O	O	O	O
+
+#id=9
+#text=When I saw my friend later that day , I lit the candles and sang Happy Birthday to her . 
+9-1	When	9-3_advmod	saw	WRB	O
+9-2	I	9-3_nsubj	saw	PRP	P1_cook
+9-3	saw	9-11_advcl	lit	VBD	O
+9-4	my	O	O	PRP$	P1_cook
+9-5	friend	9-3_dobj	saw	NN	P1_beneficiary
+9-6	later	O	O	RBR	O
+9-7	that	O	O	DT	O
+9-8	day	9-3_tmod	saw	NN	P1_NPart_day
+9-9	,	O	O	O	O
+9-10	I	9-11_nsubj	lit	PRP	P1_cook
+9-11	lit	O	O	VBD	O
+9-12	the	O	O	DT	O
+9-13	candles	9-11_dobj	lit	NNS	P1_decoration
+9-14	and	O	O	O	O
+9-15	sang	9-11_conj_and	lit	VBD	O
+9-16	Happy	O	O	JJ	O
+9-17	Birthday	9-15_dobj	sang	NN	P2_NPart_birthday
+9-18	to	O	O	O	O
+9-19	her	9-15_prep_to	sang	PRP	P1_beneficiary
+9-20	.	O	O	O	O
+
+#id=10
+#text=She really liked her cake . 
+10-1	She	10-3_nsubj	liked	PRP	P1_beneficiary
+10-2	really	10-3_advmod	liked	RB	O
+10-3	liked	O	O	VBD	O
+10-4	her	O	O	PRP$	P1_beneficiary
+10-5	cake	10-3_dobj	liked	NN	P1_cake
+10-6	.	O	O	O	O

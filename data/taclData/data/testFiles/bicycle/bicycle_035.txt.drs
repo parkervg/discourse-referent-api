@@ -1,0 +1,201 @@
+#id=1
+#text=My friend Adam and I decided to go to the flea market today because the weather was nice and we were hoping to take some random junk home with us . 
+1-1	My	O	O	PRP$	P1_rider
+1-2	friend	1-3_nsubj	Adam	NN	O
+1-3	Adam	O	O	VBZ	P1_NPart_adam
+1-4	and	O	O	O	O
+1-5	I	1-6_nsubj	decided	PRP	P1_rider
+1-6	decided	1-3_conj_and	Adam	VBD	O
+1-7	to	1-8_aux	go	TO	O
+1-8	go	1-6_xcomp	decided	VB	O
+1-9	to	O	O	O	O
+1-10	the	O	O	DT	O
+1-11	flea	O	O	NN	O
+1-12	market	1-8_prep_to	go	NN	P1_NPart_market
+1-13	today	1-8_tmod	go	NN	O
+1-14	because	O	O	IN	O
+1-15	the	O	O	DT	O
+1-16	weather	O	O	NN	P1_NPart_weather
+1-17	was	O	O	VBD	O
+1-18	nice	1-8_advcl	go	JJ	O
+1-19	and	O	O	O	O
+1-20	we	1-22_nsubj	hoping	PRP	P1_NPart_we
+1-21	were	1-22_aux	hoping	VBD	O
+1-22	hoping	O	O	VBG	O
+1-23	to	1-24_aux	take	TO	O
+1-24	take	1-22_xcomp	hoping	VB	O
+1-25	some	O	O	DT	O
+1-26	random	O	O	JJ	O
+1-27	junk	O	O	NN	P1_NPart_junk
+1-28	home	1-24_dobj	take	NN	O
+1-29	with	O	O	O	O
+1-30	us	1-24_prep_with	take	PRP	P1_NPart_us
+1-31	.	O	O	O	O
+
+#id=2
+#text=We walked around for a while , but nothing really caught our attention . 
+2-1	We	2-2_nsubj	walked	PRP	P2_NPart_we
+2-2	walked	O	O	VBD	O
+2-3	around	2-2_prt	walked	RP	O
+2-4	for	O	O	O	O
+2-5	a	O	O	DT	O
+2-6	while	2-2_prep_for	walked	NN	O
+2-7	,	O	O	O	O
+2-8	but	O	O	O	O
+2-9	nothing	2-11_nsubj	caught	NN	P1_NPart_nothing
+2-10	really	2-11_advmod	caught	RB	O
+2-11	caught	2-2_conj_but	walked	VBD	O
+2-12	our	O	O	PRP$	P1_NPart_our
+2-13	attention	2-11_dobj	caught	NN	P1_NPart_attention
+2-14	.	O	O	O	O
+
+#id=3
+#text=We were looking for something special amount all this junk . 
+3-1	We	3-3_nsubj	looking	PRP	P3_NPart_we
+3-2	were	3-3_aux	looking	VBD	O
+3-3	looking	O	O	VBG	O
+3-4	for	O	O	O	O
+3-5	something	O	O	NN	P1_NPart_something
+3-6	special	O	O	JJ	P1_NPart_special
+3-7	amount	3-3_prep_for	looking	NN	O
+3-8	all	O	O	PDT	O
+3-9	this	O	O	DT	O
+3-10	junk	O	O	NN	P2_NPart_junk
+3-11	.	O	O	O	O
+
+#id=4
+#text=Suddenly something caught my eye , it was an old Schwinn with a flat tire . 
+4-1	Suddenly	4-3_advmod	caught	RB	O
+4-2	something	4-3_nsubj	caught	NN	P2_NPart_something
+4-3	caught	O	O	VBD	O
+4-4	my	O	O	PRP$	P1_rider
+4-5	eye	4-3_dobj	caught	NN	O
+4-6	,	O	O	O	O
+4-7	it	O	O	PRP	P1_NPart_it
+4-8	was	O	O	VBD	O
+4-9	an	O	O	DT	O
+4-10	old	O	O	JJ	O
+4-11	Schwinn	O	O	NN	P1_bicycle
+4-12	with	O	O	O	O
+4-13	a	O	O	DT	O
+4-14	flat	O	O	JJ	O
+4-15	tire	O	O	NN	P1_tire
+4-16	.	O	O	O	O
+
+#id=5
+#text=The price was right so I decided to take it home with me . 
+5-1	The	O	O	DT	O
+5-2	price	O	O	NN	P1_NPart_price
+5-3	was	O	O	VBD	O
+5-4	right	O	O	JJ	O
+5-5	so	5-7_mark	decided	IN	O
+5-6	I	5-7_nsubj	decided	PRP	P1_rider
+5-7	decided	O	O	VBD	O
+5-8	to	5-9_aux	take	TO	O
+5-9	take	5-7_xcomp	decided	VB	O
+5-10	it	5-9_dobj	take	PRP	P1_bicycle
+5-11	home	5-9_advmod	take	RB	P1_NPart_home
+5-12	with	O	O	O	O
+5-13	me	5-9_prep_with	take	PRP	P1_rider
+5-14	.	O	O	O	O
+
+#id=6
+#text=Fixing the flat tire was a trivial task , I could do it in my sleep . 
+6-1	Fixing	6-12_vmod	do	VBG	O
+6-2	the	O	O	DT	O
+6-3	flat	O	O	JJ	O
+6-4	tire	O	O	NN	P1_tire
+6-5	was	O	O	VBD	O
+6-6	a	O	O	DT	O
+6-7	trivial	O	O	JJ	O
+6-8	task	6-1_ccomp	Fixing	NN	P1_NPart_task
+6-9	,	O	O	O	O
+6-10	I	6-12_nsubj	do	PRP	P1_rider
+6-11	could	6-12_aux	do	MD	O
+6-12	do	O	O	VB	O
+6-13	it	6-12_dobj	do	PRP	O
+6-14	in	O	O	O	O
+6-15	my	O	O	PRP$	P1_rider
+6-16	sleep	6-12_prep_in	do	NN	P1_NPart_sleep
+6-17	.	O	O	O	O
+
+#id=7
+#text=All I had to do was remove the brakes off the back wheel , then I needed to remove the wheel from the axle , next I would take the old tube off of the rim and replace it with the new one , lastly I would just put the tire back on the axle and reattach the brakes . 
+7-1	All	7-6_nsubj	was	DT	O
+7-2	I	7-3_nsubj	had	PRP	P1_rider
+7-3	had	O	O	VBD	O
+7-4	to	7-5_aux	do	TO	O
+7-5	do	7-3_xcomp	had	VB	O
+7-6	was	O	O	VBD	O
+7-7	remove	7-6_ccomp	was	VB	O
+7-8	the	O	O	DT	O
+7-9	brakes	7-7_dobj	remove	NNS	P1_bicycle_small_detail
+7-10	off	O	O	O	O
+7-11	the	O	O	DT	O
+7-12	back	O	O	JJ	O
+7-13	wheel	7-7_prep_off	remove	NN	P1_tire
+7-14	,	O	O	O	O
+7-15	then	7-17_advmod	needed	RB	O
+7-16	I	7-17_nsubj	needed	PRP	P1_rider
+7-17	needed	7-6_parataxis	was	VBD	O
+7-18	to	7-19_aux	remove	TO	O
+7-19	remove	7-17_xcomp	needed	VB	O
+7-20	the	O	O	DT	O
+7-21	wheel	7-19_dobj	remove	NN	P1_tire
+7-22	from	O	O	O	O
+7-23	the	O	O	DT	O
+7-24	axle	7-19_prep_from	remove	NN	P2_bicycle_small_detail
+7-25	,	O	O	O	O
+7-26	next	7-29_advmod	take	RB	O
+7-27	I	7-29_nsubj	take	PRP	P1_rider
+7-28	would	7-29_aux	take	MD	O
+7-29	take	7-6_parataxis	was	VB	O
+7-30	the	O	O	DT	O
+7-31	old	O	O	JJ	O
+7-32	tube	7-29_dobj	take	NN	P1_tire
+7-33	off	O	O	O	O
+7-34	of	O	O	O	O
+7-35	the	O	O	DT	O
+7-36	rim	7-29_prep_off_of	take	NN	P1_rim
+7-37	and	O	O	O	O
+7-38	replace	7-29_conj_and	take	VB	O
+7-39	it	7-38_dobj	replace	PRP	P1_tire
+7-40	with	O	O	O	O
+7-41	the	O	O	DT	O
+7-42	new	O	O	JJ	O
+7-43	one	7-38_prep_with	replace	NN	P1_spare_tube
+7-44	,	O	O	O	O
+7-45	lastly	7-49_advmod	put	RB	O
+7-46	I	7-49_nsubj	put	PRP	P1_rider
+7-47	would	7-49_aux	put	MD	O
+7-48	just	7-49_advmod	put	RB	O
+7-49	put	7-6_parataxis	was	VB	O
+7-50	the	O	O	DT	O
+7-51	tire	7-49_dobj	put	NN	P1_tire
+7-52	back	7-49_prt	put	RP	O
+7-53	on	O	O	O	O
+7-54	the	O	O	DT	O
+7-55	axle	7-49_prep_on	put	NN	P2_bicycle_small_detail
+7-56	and	O	O	O	O
+7-57	reattach	7-49_conj_and	put	VB	O
+7-58	the	O	O	DT	O
+7-59	brakes	7-57_dobj	reattach	NNS	P1_bicycle_small_detail
+7-60	.	O	O	O	O
+
+#id=8
+#text=With this little amount of effort I would have myself a brand new Schwinn . 
+8-1	With	O	O	O	O
+8-2	this	O	O	DT	O
+8-3	little	O	O	JJ	O
+8-4	amount	8-9_prep_with	have	NN	O
+8-5	of	O	O	O	O
+8-6	effort	O	O	NN	P1_NPart_effort
+8-7	I	8-9_nsubj	have	PRP	P1_rider
+8-8	would	8-9_aux	have	MD	O
+8-9	have	O	O	VB	O
+8-10	myself	O	O	PRP	P1_rider
+8-11	a	O	O	DT	O
+8-12	brand	O	O	NN	O
+8-13	new	O	O	JJ	O
+8-14	Schwinn	8-9_xcomp	have	NN	P1_bicycle
+8-15	.	O	O	O	O

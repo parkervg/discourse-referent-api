@@ -1,0 +1,218 @@
+#id=1
+#text=I love to read , and today I remembered that I had already finished my last mystery novel . 
+1-1	I	1-2_nsubj	love	PRP	P1_customer
+1-2	love	O	O	VBP	O
+1-3	to	1-4_aux	read	TO	O
+1-4	read	1-2_xcomp	love	VB	O
+1-5	,	O	O	O	O
+1-6	and	O	O	O	O
+1-7	today	1-9_tmod	remembered	NN	O
+1-8	I	1-9_nsubj	remembered	PRP	P1_customer
+1-9	remembered	1-2_conj_and	love	VBD	O
+1-10	that	1-14_mark	finished	IN	O
+1-11	I	1-14_nsubj	finished	PRP	P1_customer
+1-12	had	1-14_aux	finished	VBD	O
+1-13	already	1-14_advmod	finished	RB	O
+1-14	finished	1-9_ccomp	remembered	VBN	O
+1-15	my	O	O	PRP$	P1_customer
+1-16	last	O	O	JJ	O
+1-17	mystery	O	O	NN	O
+1-18	novel	1-14_dobj	finished	NN	P1_book
+1-19	.	O	O	O	O
+
+#id=2
+#text=So now it was time to head back to the library . 
+2-1	So	2-4_dep	was	IN	O
+2-2	now	2-4_advmod	was	RB	O
+2-3	it	2-4_nsubj	was	PRP	O
+2-4	was	O	O	VBD	O
+2-5	time	O	O	NN	O
+2-6	to	O	O	TO	O
+2-7	head	2-4_advmod	was	NN	O
+2-8	back	2-4_advmod	was	RB	O
+2-9	to	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	library	O	O	NN	P1_library
+2-12	.	O	O	O	O
+
+#id=3
+#text=It was a short walk , but one I enjoyed as I considered what kind of stories I would check out next . 
+3-1	It	O	O	PRP	O
+3-2	was	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	short	O	O	JJ	O
+3-5	walk	O	O	NN	P1_NPart_walk
+3-6	,	O	O	O	O
+3-7	but	O	O	O	O
+3-8	one	O	O	CD	O
+3-9	I	3-10_nsubj	enjoyed	NN	P1_customer
+3-10	enjoyed	O	O	VBD	O
+3-11	as	3-13_mark	considered	IN	O
+3-12	I	3-13_nsubj	considered	PRP	P1_customer
+3-13	considered	3-10_advcl	enjoyed	VBD	O
+3-14	what	O	O	WP	O
+3-15	kind	3-20_dobj	check	NN	O
+3-16	of	O	O	O	O
+3-17	stories	O	O	NNS	P1_book
+3-18	I	3-20_nsubj	check	PRP	P1_customer
+3-19	would	3-20_aux	check	MD	O
+3-20	check	3-13_ccomp	considered	VB	O
+3-21	out	3-20_prt	check	RP	O
+3-22	next	3-20_dobj	check	JJ	O
+3-23	.	O	O	O	O
+
+#id=4
+#text=I dropped my return books into the slot at the entrance , and entered the library . 
+4-1	I	4-2_nsubj	dropped	PRP	P1_customer
+4-2	dropped	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_customer
+4-4	return	O	O	NN	O
+4-5	books	4-2_dobj	dropped	NNS	P1_book
+4-6	into	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	slot	4-2_prep_into	dropped	NN	P1_drop_box
+4-9	at	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	entrance	O	O	NN	P1_NPart_entrance
+4-12	,	O	O	O	O
+4-13	and	O	O	O	O
+4-14	entered	4-2_conj_and	dropped	VBD	O
+4-15	the	O	O	DT	O
+4-16	library	4-14_dobj	entered	NN	P1_library
+4-17	.	O	O	O	O
+
+#id=5
+#text=Oh how I love the smell of books ! 
+5-1	Oh	O	O	JJ	O
+5-2	how	5-4_advmod	love	WRB	O
+5-3	I	5-4_nsubj	love	PRP	P1_customer
+5-4	love	O	O	VBP	O
+5-5	the	O	O	DT	O
+5-6	smell	5-4_dobj	love	NN	P1_NPart_smell
+5-7	of	O	O	O	O
+5-8	books	O	O	NNS	P1_book
+5-9	!	O	O	O	O
+
+#id=6
+#text=I made my way over to the fiction area , and randomly layed eyes on the book bindings , until a title would catch my eye . 
+6-1	I	6-2_nsubj	made	PRP	P1_customer
+6-2	made	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_customer
+6-4	way	6-2_dobj	made	NN	P1_NPart_way
+6-5	over	6-2_prep	made	IN	O
+6-6	to	O	O	TO	O
+6-7	the	O	O	DT	O
+6-8	fiction	O	O	NN	O
+6-9	area	O	O	NN	P1_location_library
+6-10	,	O	O	O	O
+6-11	and	O	O	CC	O
+6-12	randomly	O	O	RB	O
+6-13	layed	O	O	JJ	O
+6-14	eyes	O	O	NNS	P1_NPart_eyes
+6-15	on	O	O	O	O
+6-16	the	O	O	DT	O
+6-17	book	O	O	NN	O
+6-18	bindings	6-2_prep_on	made	NNS	P1_book
+6-19	,	O	O	O	O
+6-20	until	6-24_mark	catch	IN	O
+6-21	a	O	O	DT	O
+6-22	title	6-24_nsubj	catch	NN	P1_NPart_title
+6-23	would	6-24_aux	catch	MD	O
+6-24	catch	6-2_advcl	made	VB	O
+6-25	my	O	O	PRP$	P1_customer
+6-26	eye	6-24_dobj	catch	NN	P1_NPart_eye
+6-27	.	O	O	O	O
+
+#id=7
+#text=After 2 to 3 more , I would take my selections to the check out desk . 
+7-1	After	O	O	O	O
+7-2	2	O	O	CD	O
+7-3	to	O	O	TO	O
+7-4	3	O	O	CD	O
+7-5	more	7-9_prep_after	take	JJR	O
+7-6	,	O	O	O	O
+7-7	I	7-9_nsubj	take	PRP	P1_customer
+7-8	would	7-9_aux	take	MD	O
+7-9	take	O	O	VB	O
+7-10	my	O	O	PRP$	P1_customer
+7-11	selections	7-9_dobj	take	NNS	P1_book
+7-12	to	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	check	7-9_prep_to	take	NN	O
+7-15	out	O	O	O	O
+7-16	desk	7-9_prep_out	take	NN	P1_check-out_desk
+7-17	.	O	O	O	O
+
+#id=8
+#text=The librarian , who knows me well , smiled and noted the books I had chosen in the system . 
+8-1	The	O	O	DT	O
+8-2	librarian	8-9_nsubj	smiled	NN	P1_staff
+8-3	,	O	O	O	O
+8-4	who	8-5_nsubj	knows	WP	P1_staff
+8-5	knows	O	O	VBZ	O
+8-6	me	8-5_dobj	knows	PRP	P1_customer
+8-7	well	8-5_advmod	knows	RB	O
+8-8	,	O	O	O	O
+8-9	smiled	O	O	VBD	O
+8-10	and	O	O	O	O
+8-11	noted	8-9_conj_and	smiled	VBD	O
+8-12	the	O	O	DT	O
+8-13	books	8-9_dobj	smiled	NNS	P1_book
+8-14	I	8-16_nsubj	chosen	PRP	P1_customer
+8-15	had	8-16_aux	chosen	VBD	O
+8-16	chosen	O	O	VBN	O
+8-17	in	O	O	O	O
+8-18	the	O	O	DT	O
+8-19	system	8-16_prep_in	chosen	NN	P1_institutional_devices
+8-20	.	O	O	O	O
+
+#id=9
+#text=The library has a scanner now . 
+9-1	The	O	O	DT	O
+9-2	library	9-3_nsubj	has	NN	P1_library
+9-3	has	O	O	VBZ	O
+9-4	a	O	O	DT	O
+9-5	scanner	9-3_dobj	has	NN	P1_institutional_devices
+9-6	now	9-3_advmod	has	RB	O
+9-7	.	O	O	O	O
+
+#id=10
+#text=It makes the check out process so much faster now . 
+10-1	It	10-2_nsubj	makes	PRP	P1_institutional_devices
+10-2	makes	O	O	VBZ	O
+10-3	the	O	O	DT	O
+10-4	check	10-2_dobj	makes	NN	O
+10-5	out	O	O	O	O
+10-6	process	10-2_prep_out	makes	NN	P1_NPart_process
+10-7	so	O	O	RB	O
+10-8	much	10-2_advmod	makes	RB	O
+10-9	faster	O	O	RBR	O
+10-10	now	O	O	RB	O
+10-11	.	O	O	O	O
+
+#id=11
+#text=I picked up the books on the other side , placed them in my bag , and stepped out into the autumn air . 
+11-1	I	11-2_nsubj	picked	PRP	P1_customer
+11-2	picked	O	O	VBD	O
+11-3	up	11-2_prt	picked	RP	O
+11-4	the	O	O	DT	O
+11-5	books	11-2_dobj	picked	NNS	P1_book
+11-6	on	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	other	O	O	JJ	O
+11-9	side	O	O	NN	P1_NPart_side
+11-10	,	O	O	O	O
+11-11	placed	11-2_conj_and	picked	VBD	O
+11-12	them	11-11_dobj	placed	PRP	P1_book
+11-13	in	O	O	O	O
+11-14	my	O	O	PRP$	P1_customer
+11-15	bag	11-11_prep_in	placed	NN	P1_bag
+11-16	,	O	O	O	O
+11-17	and	O	O	O	O
+11-18	stepped	11-2_conj_and	picked	VBD	O
+11-19	out	11-18_prt	stepped	RP	O
+11-20	into	O	O	O	O
+11-21	the	O	O	DT	O
+11-22	autumn	O	O	NN	O
+11-23	air	11-18_prep_into	stepped	NN	P1_NPart_air
+11-24	.	O	O	O	O

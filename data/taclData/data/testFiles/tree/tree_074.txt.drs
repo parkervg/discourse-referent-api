@@ -1,0 +1,193 @@
+#id=1
+#text=I bought a tree from my local plant supply store . 
+1-1	I	1-2_nsubj	bought	PRP	P1_gardener
+1-2	bought	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	tree	1-2_dobj	bought	NN	P1_tree
+1-5	from	O	O	O	O
+1-6	my	O	O	PRP$	P1_gardener
+1-7	local	O	O	JJ	O
+1-8	plant	O	O	NN	O
+1-9	supply	O	O	NN	O
+1-10	store	1-2_prep_from	bought	NN	P1_shop
+1-11	.	O	O	O	O
+
+#id=2
+#text=It was a small sapling with only a few branches on it . 
+2-1	It	O	O	PRP	P1_tree
+2-2	was	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	small	O	O	JJ	O
+2-5	sapling	O	O	NN	P1_tree
+2-6	with	O	O	O	O
+2-7	only	O	O	RB	O
+2-8	a	O	O	DT	O
+2-9	few	O	O	JJ	O
+2-10	branches	O	O	NNS	P1_NPart_branches
+2-11	on	O	O	O	O
+2-12	it	O	O	PRP	P1_tree
+2-13	.	O	O	O	O
+
+#id=3
+#text=I took a shovel out of my garage and found a good place for the tree next to my house . 
+3-1	I	3-2_nsubj	took	PRP	P1_gardener
+3-2	took	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	shovel	3-2_dobj	took	NN	P1_gardening_tool
+3-5	out	O	O	O	O
+3-6	of	O	O	O	O
+3-7	my	O	O	PRP$	P1_gardener
+3-8	garage	3-2_prep_out_of	took	NN	P1_NPart_garage
+3-9	and	O	O	O	O
+3-10	found	3-2_conj_and	took	VBD	O
+3-11	a	O	O	DT	O
+3-12	good	O	O	JJ	O
+3-13	place	3-10_dobj	found	NN	P1_location_garden
+3-14	for	O	O	O	O
+3-15	the	O	O	DT	O
+3-16	tree	3-10_prep_for	found	NN	P1_tree
+3-17	next	O	O	O	O
+3-18	to	O	O	O	O
+3-19	my	O	O	PRP$	P1_gardener
+3-20	house	O	O	NN	P1_NPart_house
+3-21	.	O	O	O	O
+
+#id=4
+#text=I began digging a hole with the shovel for a few minutes until the hole was about one and a half feet deep . 
+4-1	I	4-2_nsubj	began	PRP	P1_gardener
+4-2	began	O	O	VBD	O
+4-3	digging	4-2_xcomp	began	VBG	O
+4-4	a	O	O	DT	O
+4-5	hole	4-3_dobj	digging	NN	P1_hole
+4-6	with	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	shovel	4-3_prep_with	digging	NN	P1_gardening_tool
+4-9	for	O	O	O	O
+4-10	a	O	O	DT	O
+4-11	few	O	O	JJ	O
+4-12	minutes	O	O	NNS	P1_time
+4-13	until	O	O	IN	O
+4-14	the	O	O	DT	O
+4-15	hole	O	O	NN	P1_hole
+4-16	was	O	O	VBD	O
+4-17	about	O	O	RB	O
+4-18	one	O	O	CD	O
+4-19	and	O	O	O	O
+4-20	a	O	O	DT	O
+4-21	half	O	O	NN	O
+4-22	feet	O	O	NNS	P1_NPart_feet
+4-23	deep	4-2_advcl	began	JJ	O
+4-24	.	O	O	O	O
+
+#id=5
+#text=I set down the shovel , and removed the plastic wrap from the tree 's roots . 
+5-1	I	5-2_nsubj	set	PRP	P1_gardener
+5-2	set	O	O	VBD	O
+5-3	down	5-2_prt	set	RP	O
+5-4	the	O	O	DT	O
+5-5	shovel	5-2_dobj	set	NN	P1_gardening_tool
+5-6	,	O	O	O	O
+5-7	and	O	O	O	O
+5-8	removed	5-2_conj_and	set	VBD	O
+5-9	the	O	O	DT	O
+5-10	plastic	O	O	JJ	O
+5-11	wrap	5-8_dobj	removed	NN	P1_wrapping
+5-12	from	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	tree	O	O	NN	P1_tree
+5-15	's	O	O	O	O
+5-16	roots	5-8_prep_from	removed	NNS	P1_root
+5-17	.	O	O	O	O
+
+#id=6
+#text=I separated the roots and loosened them apart . 
+6-1	I	6-2_nsubj	separated	PRP	P1_gardener
+6-2	separated	O	O	VBN	O
+6-3	the	O	O	DT	O
+6-4	roots	6-2_dobj	separated	NNS	P1_root
+6-5	and	O	O	O	O
+6-6	loosened	6-2_conj_and	separated	VBN	O
+6-7	them	6-6_dep	loosened	PRP	P1_root
+6-8	apart	O	O	RB	O
+6-9	.	O	O	O	O
+
+#id=7
+#text=I set the tree down into the hole , and used the shovel to fill in the space around the roots with dirt and fertilizer that would help the tree grow better . 
+7-1	I	7-2_nsubj	set	PRP	P1_gardener
+7-2	set	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	tree	7-2_dobj	set	NN	P1_tree
+7-5	down	7-2_prt	set	RP	O
+7-6	into	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	hole	7-2_prep_into	set	NN	P1_hole
+7-9	,	O	O	O	O
+7-10	and	O	O	O	O
+7-11	used	7-2_conj_and	set	VBD	O
+7-12	the	O	O	DT	O
+7-13	shovel	7-11_dobj	used	NN	P1_gardening_tool
+7-14	to	7-15_aux	fill	TO	O
+7-15	fill	7-11_vmod	used	VB	O
+7-16	in	O	O	O	O
+7-17	the	O	O	DT	O
+7-18	space	7-15_prep_in	fill	NN	P1_NPart_space
+7-19	around	O	O	O	O
+7-20	the	O	O	DT	O
+7-21	roots	O	O	NNS	P1_root
+7-22	with	O	O	O	O
+7-23	dirt	O	O	NN	P1_dirt
+7-24	and	O	O	O	O
+7-25	fertilizer	O	O	NN	P1_fertilizer
+7-26	that	7-28_nsubj	help	WDT	O
+7-27	would	7-28_aux	help	MD	O
+7-28	help	O	O	VB	O
+7-29	the	O	O	DT	O
+7-30	tree	7-31_nsubj	grow	NN	P1_tree
+7-31	grow	7-28_ccomp	help	VB	O
+7-32	better	7-31_advmod	grow	RBR	O
+7-33	.	O	O	O	O
+
+#id=8
+#text=Then , I took a bag of mulch from out of the garage and spread some of it around the tree to help protect it from other invasive plants . 
+8-1	Then	8-4_advmod	took	RB	O
+8-2	,	O	O	O	O
+8-3	I	8-4_nsubj	took	PRP	P1_gardener
+8-4	took	O	O	VBD	O
+8-5	a	O	O	DT	O
+8-6	bag	8-4_dobj	took	NN	P1_NPart_bag
+8-7	of	O	O	O	O
+8-8	mulch	O	O	NN	P1_other
+8-9	from	O	O	O	O
+8-10	out	8-4_prep_from	took	NN	O
+8-11	of	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	garage	O	O	NN	P2_NPart_garage
+8-14	and	O	O	O	O
+8-15	spread	8-4_conj_and	took	VBD	O
+8-16	some	8-15_dobj	spread	DT	O
+8-17	of	O	O	O	O
+8-18	it	O	O	PRP	P1_other
+8-19	around	O	O	O	O
+8-20	the	O	O	DT	O
+8-21	tree	8-15_prep_around	spread	NN	P1_tree
+8-22	to	8-23_aux	help	TO	O
+8-23	help	O	O	VB	O
+8-24	protect	8-23_xcomp	help	VB	O
+8-25	it	8-24_dobj	protect	PRP	P1_tree
+8-26	from	O	O	O	O
+8-27	other	O	O	JJ	O
+8-28	invasive	O	O	NN	O
+8-29	plants	8-24_prep_from	protect	NNS	P1_NPart_plants
+8-30	.	O	O	O	O
+
+#id=9
+#text=I watered the tree with a watering can . 
+9-1	I	9-2_nsubj	watered	PRP	P1_gardener
+9-2	watered	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	tree	O	O	NN	P1_tree
+9-5	with	O	O	O	O
+9-6	a	O	O	DT	O
+9-7	watering	O	O	NN	O
+9-8	can	9-2_ccomp	watered	MD	P1_NPart_can
+9-9	.	O	O	O	O

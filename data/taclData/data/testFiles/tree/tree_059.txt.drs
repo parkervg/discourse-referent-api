@@ -1,0 +1,226 @@
+#id=1
+#text=Yesterday , I noticed my yard did not have any shade , so I decided to plant a tree . 
+1-1	Yesterday	1-4_tmod	noticed	NN	O
+1-2	,	O	O	O	O
+1-3	I	1-4_nsubj	noticed	PRP	P1_gardener
+1-4	noticed	O	O	VBD	O
+1-5	my	O	O	PRP$	P1_gardener
+1-6	yard	1-9_nsubj	have	NN	P1_location_garden
+1-7	did	1-9_aux	have	VBD	O
+1-8	not	1-9_neg	have	RB	O
+1-9	have	1-4_ccomp	noticed	VB	O
+1-10	any	O	O	DT	O
+1-11	shade	1-9_dobj	have	NN	P1_NPart_shade
+1-12	,	O	O	O	O
+1-13	so	1-15_mark	decided	IN	O
+1-14	I	1-15_nsubj	decided	PRP	P1_gardener
+1-15	decided	1-9_advcl	have	VBD	O
+1-16	to	1-17_aux	plant	TO	O
+1-17	plant	1-15_xcomp	decided	VB	O
+1-18	a	O	O	DT	O
+1-19	tree	1-17_dobj	plant	NN	P1_tree
+1-20	.	O	O	O	O
+
+#id=2
+#text=First , I went to the garden store and bought a sapling ; a baby tree . 
+2-1	First	2-4_advmod	went	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	went	PRP	P1_gardener
+2-4	went	O	O	VBD	O
+2-5	to	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	garden	O	O	NN	O
+2-8	store	2-4_prep_to	went	NN	P1_shop
+2-9	and	O	O	O	O
+2-10	bought	2-4_conj_and	went	VBD	O
+2-11	a	O	O	DT	O
+2-12	sapling	2-10_dobj	bought	NN	P1_tree
+2-13	;	O	O	O	O
+2-14	a	O	O	DT	O
+2-15	baby	O	O	NN	O
+2-16	tree	O	O	NN	P1_tree
+2-17	.	O	O	O	O
+
+#id=3
+#text=I took the sapling home and surveyed my yard for the best place to plant it . 
+3-1	I	3-2_nsubj	took	PRP	P1_gardener
+3-2	took	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	sapling	O	O	VBG	P1_tree
+3-5	home	3-2_dobj	took	NN	P1_NPart_home
+3-6	and	O	O	O	O
+3-7	surveyed	3-2_conj_and	took	VBD	O
+3-8	my	O	O	PRP$	P1_gardener
+3-9	yard	3-7_dobj	surveyed	NN	P1_location_garden
+3-10	for	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	best	O	O	JJS	O
+3-13	place	3-7_prep_for	surveyed	NN	P2_location_garden
+3-14	to	3-15_aux	plant	TO	O
+3-15	plant	3-7_vmod	surveyed	VB	O
+3-16	it	3-15_dobj	plant	PRP	P1_tree
+3-17	.	O	O	O	O
+
+#id=4
+#text=I choose a sunny spot right in the middle of my backyard . 
+4-1	I	4-2_nsubj	choose	PRP	P1_gardener
+4-2	choose	O	O	VBP	O
+4-3	a	O	O	DT	O
+4-4	sunny	O	O	JJ	O
+4-5	spot	O	O	NN	P2_location_garden
+4-6	right	4-2_dobj	choose	NN	O
+4-7	in	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	middle	4-2_prep_in	choose	NN	P1_NPart_middle
+4-10	of	O	O	O	O
+4-11	my	O	O	PRP$	P1_gardener
+4-12	backyard	O	O	NN	P1_location_garden
+4-13	.	O	O	O	O
+
+#id=5
+#text=I then took a shovel and dug into the earth at the spot I decided on . 
+5-1	I	5-3_nsubj	took	PRP	P1_gardener
+5-2	then	5-3_advmod	took	RB	O
+5-3	took	5-15_dep	decided	VBD	O
+5-4	a	O	O	DT	O
+5-5	shovel	5-3_dobj	took	NN	P1_gardening_tool
+5-6	and	O	O	O	O
+5-7	dug	5-3_conj_and	took	VBD	O
+5-8	into	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	earth	5-7_prep_into	dug	NN	P1_dirt
+5-11	at	O	O	O	O
+5-12	the	O	O	DT	O
+5-13	spot	5-7_prep_at	dug	NN	P2_location_garden
+5-14	I	5-15_nsubj	decided	PRP	P1_gardener
+5-15	decided	O	O	VBD	O
+5-16	on	5-15_prt	decided	RP	O
+5-17	.	O	O	O	O
+
+#id=6
+#text=I dug a little hole in that area . 
+6-1	I	6-2_nsubj	dug	PRP	P1_gardener
+6-2	dug	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	little	O	O	JJ	O
+6-5	hole	6-2_dobj	dug	NN	P1_hole
+6-6	in	O	O	O	O
+6-7	that	O	O	DT	O
+6-8	area	6-2_prep_in	dug	NN	P2_location_garden
+6-9	.	O	O	O	O
+
+#id=7
+#text=I unwrapped the root of the sapling and placed it in the small hole that I had dug . 
+7-1	I	7-2_nsubj	unwrapped	PRP	P1_gardener
+7-2	unwrapped	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	root	7-2_dobj	unwrapped	NN	P1_root
+7-5	of	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	sapling	O	O	NN	P1_tree
+7-8	and	O	O	O	O
+7-9	placed	7-2_conj_and	unwrapped	VBD	O
+7-10	it	7-9_dobj	placed	PRP	P1_root
+7-11	in	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	small	O	O	JJ	O
+7-14	hole	7-9_prep_in	placed	NN	P1_hole
+7-15	that	7-18_mark	dug	IN	P1_hole
+7-16	I	7-18_nsubj	dug	PRP	P1_gardener
+7-17	had	7-18_aux	dug	VBD	O
+7-18	dug	7-9_ccomp	placed	VBD	O
+7-19	.	O	O	O	O
+
+#id=8
+#text=Then I used a spade to fill in the dirt around the tree root , so that the roots were totally covered by dirt . 
+8-1	Then	8-3_advmod	used	RB	O
+8-2	I	8-3_nsubj	used	PRP	P1_gardener
+8-3	used	O	O	VBD	O
+8-4	a	O	O	DT	O
+8-5	spade	8-3_dobj	used	NN	P2_gardening_tool
+8-6	to	8-7_aux	fill	TO	O
+8-7	fill	8-3_vmod	used	VB	O
+8-8	in	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	dirt	8-7_prep_in	fill	NN	P1_dirt
+8-11	around	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	tree	O	O	NN	O
+8-14	root	O	O	NN	P1_root
+8-15	,	O	O	O	O
+8-16	so	8-22_advmod	covered	RB	O
+8-17	that	8-22_mark	covered	IN	O
+8-18	the	O	O	DT	O
+8-19	roots	8-22_nsubjpass	covered	NNS	P1_root
+8-20	were	8-22_auxpass	covered	VBD	O
+8-21	totally	8-22_advmod	covered	RB	O
+8-22	covered	8-3_advcl	used	VBN	O
+8-23	by	O	O	O	O
+8-24	dirt	8-22_agent	covered	NN	P1_dirt
+8-25	.	O	O	O	O
+
+#id=9
+#text=I added a little fertilizer in the dirt around the roots so that the tree would grow big and strong . 
+9-1	I	9-2_nsubj	added	PRP	P1_gardener
+9-2	added	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	little	O	O	JJ	O
+9-5	fertilizer	9-2_dobj	added	NN	P1_fertilizer
+9-6	in	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	dirt	9-2_prep_in	added	NN	P1_dirt
+9-9	around	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	roots	O	O	NNS	P1_root
+9-12	so	9-17_advmod	grow	RB	O
+9-13	that	9-17_mark	grow	IN	O
+9-14	the	O	O	DT	O
+9-15	tree	9-17_nsubj	grow	NN	P1_tree
+9-16	would	9-17_aux	grow	MD	O
+9-17	grow	9-2_advcl	added	VB	O
+9-18	big	9-17_acomp	grow	JJ	O
+9-19	and	O	O	O	O
+9-20	strong	O	O	JJ	O
+9-21	.	O	O	O	O
+
+#id=10
+#text=I stepped back and looked at my new tree and was so happy that the task was accomplished . 
+10-1	I	10-2_nsubj	stepped	PRP	P1_gardener
+10-2	stepped	O	O	VBD	O
+10-3	back	10-2_advmod	stepped	RB	O
+10-4	and	O	O	O	O
+10-5	looked	10-2_conj_and	stepped	VBD	O
+10-6	at	O	O	O	O
+10-7	my	O	O	PRP$	P1_gardener
+10-8	new	O	O	JJ	O
+10-9	tree	10-5_prep_at	looked	NN	P1_tree
+10-10	and	O	O	O	O
+10-11	was	O	O	VBD	O
+10-12	so	O	O	RB	O
+10-13	happy	10-5_conj_and	looked	JJ	O
+10-14	that	10-18_mark	accomplished	IN	O
+10-15	the	O	O	DT	O
+10-16	task	10-18_nsubjpass	accomplished	NN	P1_NPart_task
+10-17	was	10-18_auxpass	accomplished	VBD	O
+10-18	accomplished	O	O	VBN	O
+10-19	.	O	O	O	O
+
+#id=11
+#text=One day that sapling will grow into a large tree and provide shade to my backyard . 
+11-1	One	O	O	CD	O
+11-2	day	11-6_tmod	grow	NN	P1_time
+11-3	that	O	O	DT	O
+11-4	sapling	11-6_nsubj	grow	NN	P1_tree
+11-5	will	11-6_aux	grow	MD	O
+11-6	grow	O	O	VB	O
+11-7	into	O	O	O	O
+11-8	a	O	O	DT	O
+11-9	large	O	O	JJ	O
+11-10	tree	11-6_prep_into	grow	NN	P1_tree
+11-11	and	O	O	O	O
+11-12	provide	11-6_conj_and	grow	VB	O
+11-13	shade	11-12_dobj	provide	NN	P2_NPart_shade
+11-14	to	O	O	O	O
+11-15	my	O	O	PRP$	P1_gardener
+11-16	backyard	11-12_prep_to	provide	NN	P1_location_garden
+11-17	.	O	O	O	O

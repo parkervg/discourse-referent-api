@@ -1,0 +1,282 @@
+#id=1
+#text=My friend and his wife have a dessert business and baking cakes is their specialty . 
+1-1	My	O	O	PRP$	O
+1-2	friend	1-6_nsubj	have	NN	O
+1-3	and	O	O	O	O
+1-4	his	O	O	PRP$	O
+1-5	wife	O	O	NN	P1_cook
+1-6	have	O	O	VBP	O
+1-7	a	O	O	DT	O
+1-8	dessert	O	O	NN	O
+1-9	business	1-6_dobj	have	NN	P1_NPart_business
+1-10	and	O	O	O	O
+1-11	baking	O	O	VBG	O
+1-12	cakes	O	O	NNS	P1_cake
+1-13	is	O	O	VBZ	O
+1-14	their	O	O	PRP$	P1_cook
+1-15	specialty	1-6_conj_and	have	NN	P1_NPart_specialty
+1-16	.	O	O	O	O
+
+#id=2
+#text=Often , they 'll call me up to help them out in the shop for a few extra dollars if I have the time . 
+2-1	Often	2-5_advmod	call	RB	O
+2-2	,	O	O	O	O
+2-3	they	2-5_nsubj	call	PRP	P1_cook
+2-4	'll	2-5_aux	call	MD	O
+2-5	call	O	O	VB	O
+2-6	me	2-5_dobj	call	PRP	P1_cook
+2-7	up	2-5_prt	call	RP	O
+2-8	to	2-9_aux	help	TO	O
+2-9	help	2-5_vmod	call	VB	O
+2-10	them	2-9_dobj	help	PRP	P1_cook
+2-11	out	2-9_prt	help	RP	O
+2-12	in	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	shop	2-9_prep_in	help	NN	P1_NPart_shop
+2-15	for	O	O	O	O
+2-16	a	O	O	DT	O
+2-17	few	O	O	JJ	O
+2-18	extra	O	O	JJ	O
+2-19	dollars	O	O	NNS	P1_NPart_dollars
+2-20	if	2-22_mark	have	IN	O
+2-21	I	2-22_nsubj	have	PRP	P1_cook
+2-22	have	2-9_advcl	help	VBP	O
+2-23	the	O	O	DT	O
+2-24	time	2-22_dobj	have	NN	P1_NPart_time
+2-25	.	O	O	O	O
+
+#id=3
+#text=I am always up to doing it ! 
+3-1	I	3-2_nsubj	am	PRP	P1_cook
+3-2	am	O	O	VBP	O
+3-3	always	O	O	RB	O
+3-4	up	3-2_advmod	am	RB	O
+3-5	to	O	O	O	O
+3-6	doing	O	O	VBG	O
+3-7	it	3-6_dobj	doing	PRP	O
+3-8	!	O	O	O	O
+
+#id=4
+#text=It is messy , but it is fun , and I can lick the spoon ! 
+4-1	It	O	O	PRP	O
+4-2	is	O	O	VBZ	O
+4-3	messy	O	O	JJ	O
+4-4	,	O	O	O	O
+4-5	but	O	O	O	O
+4-6	it	O	O	PRP	O
+4-7	is	O	O	VBZ	O
+4-8	fun	O	O	NN	P1_NPart_fun
+4-9	,	O	O	O	O
+4-10	and	O	O	O	O
+4-11	I	4-13_nsubj	lick	PRP	P1_cook
+4-12	can	4-13_aux	lick	MD	O
+4-13	lick	O	O	VB	O
+4-14	the	O	O	DT	O
+4-15	spoon	4-13_dobj	lick	NN	P1_utensil
+4-16	!	O	O	O	O
+
+#id=5
+#text=Anyway , they were baking a few cakes the other day , and I came over just in time to help them with their last order . 
+5-1	Anyway	5-5_advmod	baking	RB	O
+5-2	,	O	O	O	O
+5-3	they	5-5_nsubj	baking	PRP	P1_cook
+5-4	were	5-5_aux	baking	VBD	O
+5-5	baking	O	O	VBG	O
+5-6	a	O	O	DT	O
+5-7	few	O	O	JJ	O
+5-8	cakes	5-5_dobj	baking	NNS	P1_cake
+5-9	the	O	O	DT	O
+5-10	other	O	O	JJ	O
+5-11	day	5-5_tmod	baking	NN	P1_NPart_day
+5-12	,	O	O	O	O
+5-13	and	O	O	O	O
+5-14	I	5-15_nsubj	came	PRP	P1_cook
+5-15	came	5-5_conj_and	baking	VBD	O
+5-16	over	5-15_prt	came	RP	O
+5-17	just	5-15_advmod	came	RB	O
+5-18	in	O	O	O	O
+5-19	time	5-15_prep_in	came	NN	O
+5-20	to	5-21_aux	help	TO	O
+5-21	help	5-15_xcomp	came	VB	O
+5-22	them	5-21_dobj	help	PRP	P1_cook
+5-23	with	O	O	O	O
+5-24	their	O	O	PRP$	P1_cook
+5-25	last	O	O	JJ	O
+5-26	order	5-21_prep_with	help	NN	P1_NPart_order
+5-27	.	O	O	O	O
+
+#id=6
+#text=I put on my apron as we got out the flour , eggs , sugar , butter , and cake mix . 
+6-1	I	6-2_nsubj	put	PRP	P1_cook
+6-2	put	O	O	VBD	O
+6-3	on	O	O	O	O
+6-4	my	O	O	PRP$	P1_cook
+6-5	apron	6-2_prep_on	put	NN	P2_utensil
+6-6	as	6-8_mark	got	IN	O
+6-7	we	6-8_nsubj	got	PRP	P2_cook
+6-8	got	6-2_advcl	put	VBD	O
+6-9	out	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	flour	O	O	NN	P1_ingredients
+6-12	,	O	O	O	O
+6-13	eggs	O	O	NNS	P2_ingredients
+6-14	,	O	O	O	O
+6-15	sugar	O	O	NN	P3_ingredients
+6-16	,	O	O	O	O
+6-17	butter	6-8_prep_out	got	NN	P4_ingredients
+6-18	,	O	O	O	O
+6-19	and	O	O	O	O
+6-20	cake	O	O	NN	O
+6-21	mix	O	O	NN	P5_ingredients
+6-22	.	O	O	O	O
+
+#id=7
+#text=We poured the cake mix , sugar , and flour in a bowl while we melted the butter and mixed it in with the eggs and some added water . 
+7-1	We	7-2_nsubj	poured	PRP	P2_cook
+7-2	poured	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	cake	O	O	NN	O
+7-5	mix	7-2_dobj	poured	NN	P5_ingredients
+7-6	,	O	O	O	O
+7-7	sugar	O	O	NN	P3_ingredients
+7-8	,	O	O	O	O
+7-9	and	O	O	O	O
+7-10	flour	O	O	NN	P1_ingredients
+7-11	in	O	O	O	O
+7-12	a	O	O	DT	O
+7-13	bowl	O	O	NN	P3_utensil
+7-14	while	7-16_mark	melted	IN	O
+7-15	we	7-16_nsubj	melted	PRP	P2_cook
+7-16	melted	7-2_advcl	poured	VBD	O
+7-17	the	O	O	DT	O
+7-18	butter	7-16_dobj	melted	NN	P4_ingredients
+7-19	and	O	O	O	O
+7-20	mixed	7-16_conj_and	melted	VBN	O
+7-21	it	7-20_dobj	mixed	PRP	P4_ingredients
+7-22	in	7-20_dep	mixed	IN	O
+7-23	with	O	O	O	O
+7-24	the	O	O	DT	O
+7-25	eggs	7-20_prep_with	mixed	NNS	P2_ingredients
+7-26	and	O	O	O	O
+7-27	some	O	O	DT	O
+7-28	added	O	O	VBN	O
+7-29	water	O	O	NN	P6_ingredients
+7-30	.	O	O	O	O
+
+#id=8
+#text=Then , we mixed everything together with a beater . 
+8-1	Then	8-4_advmod	mixed	RB	O
+8-2	,	O	O	O	O
+8-3	we	8-4_nsubj	mixed	PRP	P2_cook
+8-4	mixed	O	O	VBN	O
+8-5	everything	8-4_dobj	mixed	NN	P7_ingredients
+8-6	together	O	O	O	O
+8-7	with	O	O	O	O
+8-8	a	O	O	DT	O
+8-9	beater	8-4_prep_together_with	mixed	NN	P4_utensil
+8-10	.	O	O	O	O
+
+#id=9
+#text=I swear , that is always the best part of baking a cake ! 
+9-1	I	9-2_nsubj	swear	PRP	P1_cook
+9-2	swear	O	O	VBP	O
+9-3	,	O	O	O	O
+9-4	that	O	O	DT	O
+9-5	is	O	O	VBZ	O
+9-6	always	O	O	RB	O
+9-7	the	O	O	DT	O
+9-8	best	O	O	JJS	O
+9-9	part	O	O	NN	O
+9-10	of	O	O	O	O
+9-11	baking	O	O	VBG	O
+9-12	a	O	O	DT	O
+9-13	cake	9-11_dobj	baking	NN	P1_cake
+9-14	!	O	O	O	O
+
+#id=10
+#text=I licked the little beater things clean while my friend 's wife greased the pans . 
+10-1	I	10-2_nsubj	licked	PRP	P1_cook
+10-2	licked	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	little	O	O	JJ	O
+10-5	beater	O	O	NN	O
+10-6	things	10-13_nsubj	greased	NNS	P5_utensil
+10-7	clean	10-13_dep	greased	JJ	O
+10-8	while	10-13_mark	greased	IN	O
+10-9	my	O	O	PRP$	P1_cook
+10-10	friend	O	O	NN	P1_cook
+10-11	's	O	O	O	O
+10-12	wife	10-13_nsubj	greased	NN	P1_cook
+10-13	greased	10-2_xcomp	licked	VBD	O
+10-14	the	O	O	DT	O
+10-15	pans	10-13_dobj	greased	NNS	P1_cake_tin
+10-16	.	O	O	O	O
+
+#id=11
+#text=We then pour the cake batter into the pans and put it into the oven which had already been preheated to 350 degrees . 
+11-1	We	11-3_nsubj	pour	PRP	P2_cook
+11-2	then	11-3_advmod	pour	RB	O
+11-3	pour	O	O	VBP	O
+11-4	the	O	O	DT	O
+11-5	cake	O	O	NN	O
+11-6	batter	11-3_dobj	pour	NN	P1_dough
+11-7	into	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	pans	11-3_prep_into	pour	NNS	P1_cake_tin
+11-10	and	O	O	O	O
+11-11	put	11-3_conj_and	pour	VBD	O
+11-12	it	11-11_dobj	put	PRP	P1_dough
+11-13	into	O	O	O	O
+11-14	the	O	O	DT	O
+11-15	oven	11-11_prep_into	put	NN	P1_oven
+11-16	which	11-20_nsubjpass	preheated	WDT	P1_oven
+11-17	had	11-20_aux	preheated	VBD	O
+11-18	already	11-20_advmod	preheated	RB	O
+11-19	been	11-20_auxpass	preheated	VBN	O
+11-20	preheated	O	O	VBN	O
+11-21	to	O	O	O	O
+11-22	350	O	O	CD	O
+11-23	degrees	11-20_prep_to	preheated	NNS	P1_temperature
+11-24	.	O	O	O	O
+
+#id=12
+#text=We left them in the oven for 25 minutes and once they were done , we got them out and put them on a window sill to cool . 
+12-1	We	12-2_nsubj	left	PRP	P2_cook
+12-2	left	O	O	VBD	O
+12-3	them	12-2_dobj	left	PRP	P1_cake
+12-4	in	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	oven	12-2_prep_in	left	NN	P1_oven
+12-7	for	O	O	O	O
+12-8	25	O	O	CD	O
+12-9	minutes	12-2_prep_for	left	NNS	P1_time
+12-10	and	O	O	O	O
+12-11	once	12-14_mark	done	IN	O
+12-12	they	12-14_nsubjpass	done	PRP	P1_cake
+12-13	were	12-14_auxpass	done	VBD	O
+12-14	done	12-17_advcl	got	VBN	O
+12-15	,	O	O	O	O
+12-16	we	12-17_nsubj	got	PRP	P2_cook
+12-17	got	12-2_conj_and	left	VBD	O
+12-18	them	12-17_dobj	got	PRP	P1_cake
+12-19	out	12-17_prt	got	RP	O
+12-20	and	O	O	O	O
+12-21	put	12-17_conj_and	got	VBD	O
+12-22	them	12-21_dobj	put	PRP	P1_cake
+12-23	on	O	O	O	O
+12-24	a	O	O	DT	O
+12-25	window	O	O	NN	O
+12-26	sill	12-21_prep_on	put	NN	P1_kitchen/location
+12-27	to	12-28_aux	cool	TO	O
+12-28	cool	12-21_vmod	put	VB	O
+12-29	.	O	O	O	O
+
+#id=13
+#text=Ah , the smell was wonderful ! 
+13-1	Ah	O	O	UH	O
+13-2	,	O	O	O	O
+13-3	the	O	O	DT	O
+13-4	smell	O	O	NN	P1_NPart_smell
+13-5	was	O	O	VBD	O
+13-6	wonderful	O	O	JJ	O
+13-7	!	O	O	O	O

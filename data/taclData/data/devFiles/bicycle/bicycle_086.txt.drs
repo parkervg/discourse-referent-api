@@ -1,0 +1,202 @@
+#id=1
+#text=Yesterday , I woke up and realized how gorgeous of a day it was so I decided to eat my breakfast and then go outside for a nice bike ride with some friends at the park . 
+1-1	Yesterday	1-4_tmod	woke	NN	P1_NPart_yesterday
+1-2	,	O	O	O	O
+1-3	I	1-4_nsubj	woke	PRP	P1_rider
+1-4	woke	O	O	VBD	O
+1-5	up	1-4_prt	woke	RP	O
+1-6	and	O	O	O	O
+1-7	realized	1-4_conj_and	woke	VBD	O
+1-8	how	O	O	WRB	O
+1-9	gorgeous	1-14_dobj	was	JJ	O
+1-10	of	O	O	O	O
+1-11	a	O	O	DT	O
+1-12	day	O	O	NN	P1_NPart_day
+1-13	it	1-14_nsubj	was	PRP	O
+1-14	was	1-7_ccomp	realized	VBD	O
+1-15	so	1-17_mark	decided	IN	O
+1-16	I	1-17_nsubj	decided	PRP	P1_rider
+1-17	decided	1-14_advcl	was	VBD	O
+1-18	to	1-19_aux	eat	TO	O
+1-19	eat	1-17_xcomp	decided	VB	O
+1-20	my	O	O	PRP$	P1_rider
+1-21	breakfast	1-19_dobj	eat	NN	P1_NPart_breakfast
+1-22	and	O	O	O	O
+1-23	then	1-24_advmod	go	RB	O
+1-24	go	1-19_conj_and	eat	VB	O
+1-25	outside	1-24_advmod	go	IN	O
+1-26	for	O	O	O	O
+1-27	a	O	O	DT	O
+1-28	nice	O	O	JJ	O
+1-29	bike	O	O	NN	O
+1-30	ride	O	O	NN	P1_ride
+1-31	with	O	O	O	O
+1-32	some	O	O	DT	O
+1-33	friends	1-24_prep_with	go	NNS	P1_NPart_friends
+1-34	at	O	O	O	O
+1-35	the	O	O	DT	O
+1-36	park	O	O	NN	P1_NPart_park
+1-37	.	O	O	O	O
+
+#id=2
+#text=When I went into the garage to grab my bicycle I noticed that the tire had gone flat and I would need to repair it if I wanted to go for a ride with my friends . 
+2-1	When	2-3_advmod	went	WRB	O
+2-2	I	2-3_nsubj	went	PRP	P1_rider
+2-3	went	2-12_advcl	noticed	VBD	O
+2-4	into	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	garage	2-3_prep_into	went	NN	P1_NPart_garage
+2-7	to	2-8_aux	grab	TO	O
+2-8	grab	2-3_xcomp	went	VB	O
+2-9	my	O	O	PRP$	P1_rider
+2-10	bicycle	2-8_dobj	grab	NN	P1_bicycle
+2-11	I	2-12_nsubj	noticed	PRP	P1_rider
+2-12	noticed	O	O	VBD	O
+2-13	that	2-17_mark	gone	IN	O
+2-14	the	O	O	DT	O
+2-15	tire	2-17_nsubj	gone	NN	P1_tire
+2-16	had	2-17_aux	gone	VBD	O
+2-17	gone	2-12_ccomp	noticed	VBN	O
+2-18	flat	2-17_acomp	gone	JJ	O
+2-19	and	O	O	O	O
+2-20	I	2-22_nsubj	need	PRP	P1_rider
+2-21	would	2-22_aux	need	MD	O
+2-22	need	2-12_conj_and	noticed	VB	O
+2-23	to	2-24_aux	repair	TO	O
+2-24	repair	2-22_xcomp	need	VB	O
+2-25	it	2-24_dobj	repair	PRP	P2_tire
+2-26	if	2-28_mark	wanted	IN	O
+2-27	I	2-28_nsubj	wanted	PRP	P1_rider
+2-28	wanted	2-24_advcl	repair	VBD	O
+2-29	to	2-30_aux	go	TO	O
+2-30	go	2-28_xcomp	wanted	VB	O
+2-31	for	O	O	O	O
+2-32	a	O	O	DT	O
+2-33	ride	2-30_prep_for	go	NN	P1_ride
+2-34	with	O	O	O	O
+2-35	my	O	O	PRP$	P1_rider
+2-36	friends	O	O	NNS	P2_NPart_friends
+2-37	.	O	O	O	O
+
+#id=3
+#text=I called my friend Joey up and asked if he could give me a half hour to replace the tire . 
+3-1	I	3-2_nsubj	called	PRP	P1_rider
+3-2	called	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_rider
+3-4	friend	O	O	NN	O
+3-5	Joey	3-2_dobj	called	NN	P1_NPart_joey
+3-6	up	3-2_prt	called	RP	O
+3-7	and	O	O	O	O
+3-8	asked	3-2_conj_and	called	VBD	O
+3-9	if	3-12_mark	give	IN	O
+3-10	he	3-12_nsubj	give	PRP	P1_NPart_he
+3-11	could	3-12_aux	give	MD	O
+3-12	give	3-8_advcl	asked	VB	O
+3-13	me	3-12_iobj	give	PRP	P1_rider
+3-14	a	O	O	DT	O
+3-15	half	O	O	DT	O
+3-16	hour	3-12_dobj	give	NN	P1_NPart_hour
+3-17	to	3-18_aux	replace	TO	O
+3-18	replace	3-12_vmod	give	VB	O
+3-19	the	O	O	DT	O
+3-20	tire	3-18_dobj	replace	NN	P1_tire
+3-21	.	O	O	O	O
+
+#id=4
+#text=Joey said that was fine so I went and got some tools and a spare tire to replace the flat one with . 
+4-1	Joey	4-2_nsubj	said	NNP	P2_NPart_joey
+4-2	said	O	O	VBD	O
+4-3	that	O	O	IN	O
+4-4	was	O	O	VBD	O
+4-5	fine	4-2_ccomp	said	JJ	O
+4-6	so	4-8_mark	went	IN	O
+4-7	I	4-8_nsubj	went	PRP	P1_rider
+4-8	went	O	O	VBD	O
+4-9	and	O	O	O	O
+4-10	got	4-8_conj_and	went	VBD	O
+4-11	some	O	O	DT	O
+4-12	tools	4-10_dobj	got	NNS	P1_tool
+4-13	and	O	O	O	O
+4-14	a	O	O	DT	O
+4-15	spare	O	O	JJ	O
+4-16	tire	O	O	NN	P1_spare_tube
+4-17	to	4-18_aux	replace	TO	O
+4-18	replace	4-10_vmod	got	VB	O
+4-19	the	O	O	DT	O
+4-20	flat	O	O	JJ	O
+4-21	one	4-18_dobj	replace	NN	P1_tire
+4-22	with	4-18_prep	replace	IN	O
+4-23	.	O	O	O	O
+
+#id=5
+#text=I took the old tire off and tightly put the new one on . 
+5-1	I	5-2_nsubj	took	PRP	P1_rider
+5-2	took	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	old	O	O	JJ	O
+5-5	tire	5-9_nsubj	put	NN	P1_tire
+5-6	off	5-9_advmod	put	RB	O
+5-7	and	O	O	O	O
+5-8	tightly	O	O	RB	O
+5-9	put	5-2_ccomp	took	VBD	O
+5-10	the	O	O	DT	O
+5-11	new	O	O	JJ	O
+5-12	one	5-9_dobj	put	NN	P1_spare_tube
+5-13	on	5-9_prep	put	IN	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=To make sure that everything was in place I took it for a test ride around the block before calling my friend Joey back and letting him know that I was now ready for a ride . 
+6-1	To	6-2_aux	make	TO	O
+6-2	make	6-10_dep	took	VB	O
+6-3	sure	6-2_acomp	make	JJ	O
+6-4	that	6-6_mark	was	IN	O
+6-5	everything	6-6_nsubj	was	NN	O
+6-6	was	6-2_ccomp	make	VBD	O
+6-7	in	O	O	O	O
+6-8	place	6-6_prep_in	was	NN	O
+6-9	I	6-10_nsubj	took	PRP	P1_rider
+6-10	took	O	O	VBD	O
+6-11	it	6-10_dobj	took	PRP	P1_bicycle
+6-12	for	O	O	O	O
+6-13	a	O	O	DT	O
+6-14	test	O	O	NN	O
+6-15	ride	6-10_prep_for	took	NN	P1_ride
+6-16	around	O	O	O	O
+6-17	the	O	O	DT	O
+6-18	block	6-10_prep_around	took	NN	P1_NPart_block
+6-19	before	O	O	O	O
+6-20	calling	6-10_prepc_before	took	VBG	O
+6-21	my	O	O	PRP$	P1_rider
+6-22	friend	O	O	NN	O
+6-23	Joey	6-20_dobj	calling	NN	P3_NPart_joey
+6-24	back	6-20_advmod	calling	RB	O
+6-25	and	O	O	O	O
+6-26	letting	6-20_conj_and	calling	VBG	O
+6-27	him	6-28_nsubj	know	PRP	P1_NPart_him
+6-28	know	6-26_ccomp	letting	VBP	O
+6-29	that	O	O	IN	O
+6-30	I	O	O	PRP	P1_rider
+6-31	was	O	O	VBD	O
+6-32	now	O	O	RB	O
+6-33	ready	6-28_ccomp	know	JJ	O
+6-34	for	O	O	O	O
+6-35	a	O	O	DT	O
+6-36	ride	O	O	NN	P1_ride
+6-37	.	O	O	O	O
+
+#id=7
+#text=After that I went on the bike ride and everything went perfectly . 
+7-1	After	7-11_dep	went	IN	O
+7-2	that	7-4_mark	went	IN	O
+7-3	I	7-4_nsubj	went	PRP	P1_rider
+7-4	went	O	O	VBD	O
+7-5	on	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	bike	7-4_prep_on	went	NN	O
+7-8	ride	7-11_nsubj	went	NN	P1_ride
+7-9	and	O	O	O	O
+7-10	everything	O	O	NN	O
+7-11	went	O	O	VBD	O
+7-12	perfectly	7-11_advmod	went	RB	O
+7-13	.	O	O	O	O

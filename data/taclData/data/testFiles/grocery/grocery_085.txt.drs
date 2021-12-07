@@ -1,0 +1,233 @@
+#id=1
+#text=On Friday , I decided to go grocery shopping . 
+1-1	On	O	O	O	O
+1-2	Friday	1-5_prep_on	decided	NNP	P1_NPart_friday
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	decided	PRP	P1_shopper
+1-5	decided	O	O	VBD	O
+1-6	to	1-7_aux	go	TO	O
+1-7	go	1-5_xcomp	decided	VB	O
+1-8	grocery	O	O	NN	P1_groceries
+1-9	shopping	1-7_dobj	go	NN	O
+1-10	.	O	O	O	O
+
+#id=2
+#text=My mother made a list of all the items we needed and I went to go buy them . 
+2-1	My	O	O	PRP$	P1_shopper
+2-2	mother	2-3_nsubj	made	NN	P1_NPart_mother
+2-3	made	O	O	VBD	O
+2-4	a	O	O	DT	O
+2-5	list	2-3_dobj	made	NN	P1_grocery_list
+2-6	of	O	O	O	O
+2-7	all	O	O	PDT	O
+2-8	the	O	O	DT	O
+2-9	items	O	O	NNS	P2_groceries
+2-10	we	2-11_nsubj	needed	PRP	P1_NPart_we
+2-11	needed	O	O	VBD	O
+2-12	and	O	O	O	O
+2-13	I	2-14_nsubj	went	PRP	P1_shopper
+2-14	went	2-3_conj_and	made	VBD	O
+2-15	to	2-16_aux	go	TO	O
+2-16	go	2-14_xcomp	went	VB	O
+2-17	buy	2-16_xcomp	go	VB	O
+2-18	them	2-17_dobj	buy	PRP	P2_groceries
+2-19	.	O	O	O	O
+
+#id=3
+#text=While I was at the grocery store , I looked for everything on the list . 
+3-1	While	3-3_mark	was	IN	O
+3-2	I	3-3_nsubj	was	PRP	P1_shopper
+3-3	was	3-10_advcl	looked	VBD	O
+3-4	at	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	grocery	O	O	NN	O
+3-7	store	3-3_prep_at	was	NN	P1_grocery_shop
+3-8	,	O	O	O	O
+3-9	I	3-10_nsubj	looked	PRP	P1_shopper
+3-10	looked	O	O	VBD	O
+3-11	for	O	O	O	O
+3-12	everything	3-10_prep_for	looked	NN	P3_groceries
+3-13	on	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	list	3-10_prep_on	looked	NN	P1_grocery_list
+3-16	.	O	O	O	O
+
+#id=4
+#text=Some of them were hard to find , so I had to ask a worker where to find them . 
+4-1	Some	O	O	DT	O
+4-2	of	O	O	O	O
+4-3	them	O	O	PRP	P3_groceries
+4-4	were	O	O	VBD	O
+4-5	hard	O	O	JJ	O
+4-6	to	4-7_aux	find	TO	O
+4-7	find	O	O	VB	O
+4-8	,	O	O	O	O
+4-9	so	O	O	IN	O
+4-10	I	4-11_nsubj	had	PRP	P1_shopper
+4-11	had	O	O	VBD	O
+4-12	to	4-13_aux	ask	TO	O
+4-13	ask	4-11_xcomp	had	VB	O
+4-14	a	O	O	DT	O
+4-15	worker	4-13_dobj	ask	NN	P1_grocery_staff
+4-16	where	4-18_advmod	find	WRB	O
+4-17	to	4-18_aux	find	TO	O
+4-18	find	4-13_xcomp	ask	VB	O
+4-19	them	4-18_dobj	find	PRP	P3_groceries
+4-20	.	O	O	O	O
+
+#id=5
+#text=They were very helpful and pointed where to go . 
+5-1	They	O	O	PRP	P1_grocery_staff
+5-2	were	O	O	VBD	O
+5-3	very	O	O	RB	O
+5-4	helpful	O	O	JJ	O
+5-5	and	O	O	O	O
+5-6	pointed	O	O	JJ	O
+5-7	where	5-9_advmod	go	WRB	O
+5-8	to	5-9_aux	go	TO	O
+5-9	go	O	O	VB	O
+5-10	.	O	O	O	O
+
+#id=6
+#text=Some of the items were not available so I had to get a raincheck . 
+6-1	Some	O	O	DT	O
+6-2	of	O	O	O	O
+6-3	the	O	O	DT	O
+6-4	items	O	O	NNS	P3_groceries
+6-5	were	O	O	VBD	O
+6-6	not	O	O	RB	O
+6-7	available	O	O	JJ	O
+6-8	so	6-10_mark	had	IN	O
+6-9	I	6-10_nsubj	had	PRP	P1_shopper
+6-10	had	O	O	VBD	O
+6-11	to	6-12_aux	get	TO	O
+6-12	get	6-10_xcomp	had	VB	O
+6-13	a	O	O	DT	O
+6-14	raincheck	6-12_dobj	get	NN	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=After I got all the available items , I had to stand on line at the checkout . 
+7-1	After	7-3_mark	got	IN	O
+7-2	I	7-3_nsubj	got	PRP	P1_shopper
+7-3	got	7-10_advcl	had	VBD	O
+7-4	all	O	O	PDT	O
+7-5	the	O	O	DT	O
+7-6	available	O	O	JJ	O
+7-7	items	7-3_dobj	got	NNS	P3_groceries
+7-8	,	O	O	O	O
+7-9	I	7-10_nsubj	had	PRP	P1_shopper
+7-10	had	O	O	VBD	O
+7-11	to	7-12_aux	stand	TO	O
+7-12	stand	7-10_xcomp	had	VB	O
+7-13	on	O	O	O	O
+7-14	line	7-12_prep_on	stand	NN	P1_line
+7-15	at	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	checkout	7-12_prep_at	stand	NN	P1_cash_desk
+7-18	.	O	O	O	O
+
+#id=8
+#text=The line was very long and there were no other checkout lines open . 
+8-1	The	O	O	DT	O
+8-2	line	O	O	NN	P1_line
+8-3	was	O	O	VBD	O
+8-4	very	O	O	RB	O
+8-5	long	O	O	JJ	O
+8-6	and	O	O	O	O
+8-7	there	8-8_expl	were	EX	O
+8-8	were	O	O	VBD	O
+8-9	no	8-8_advmod	were	RB	O
+8-10	other	O	O	JJ	O
+8-11	checkout	O	O	NN	O
+8-12	lines	O	O	NNS	P2_line
+8-13	open	8-8_acomp	were	JJ	O
+8-14	.	O	O	O	O
+
+#id=9
+#text=It was frustrating because I did not have that much items to buy . 
+9-1	It	O	O	PRP	O
+9-2	was	O	O	VBD	O
+9-3	frustrating	O	O	JJ	O
+9-4	because	9-8_mark	have	IN	O
+9-5	I	9-8_nsubj	have	PRP	P1_shopper
+9-6	did	9-8_aux	have	VBD	O
+9-7	not	9-8_neg	have	RB	O
+9-8	have	O	O	VB	O
+9-9	that	O	O	DT	O
+9-10	much	O	O	JJ	O
+9-11	items	9-8_dobj	have	NNS	P3_groceries
+9-12	to	9-13_aux	buy	TO	O
+9-13	buy	9-8_ccomp	have	VB	O
+9-14	.	O	O	O	O
+
+#id=10
+#text=Meanwhile , there were at least four people ahead of me with a lot of items to buy . 
+10-1	Meanwhile	10-4_advmod	were	RB	O
+10-2	,	O	O	O	O
+10-3	there	10-4_expl	were	EX	O
+10-4	were	O	O	VBD	O
+10-5	at	O	O	IN	O
+10-6	least	O	O	JJS	O
+10-7	four	O	O	CD	O
+10-8	people	10-4_npadvmod	were	NNS	P2_shopper
+10-9	ahead	O	O	O	O
+10-10	of	O	O	O	O
+10-11	me	10-4_prep_ahead_of	were	PRP	P1_shopper
+10-12	with	O	O	O	O
+10-13	a	O	O	DT	O
+10-14	lot	10-4_prep_with	were	NN	O
+10-15	of	O	O	O	O
+10-16	items	O	O	NNS	P4_groceries
+10-17	to	10-18_aux	buy	TO	O
+10-18	buy	10-4_xcomp	were	VB	O
+10-19	.	O	O	O	O
+
+#id=11
+#text=I am very impatient . 
+11-1	I	O	O	PRP	P1_shopper
+11-2	am	O	O	VBP	O
+11-3	very	O	O	RB	O
+11-4	impatient	O	O	JJ	O
+11-5	.	O	O	O	O
+
+#id=12
+#text=Fortunately , one person ahead of me was kind enough to let me skip him . 
+12-1	Fortunately	O	O	RB	O
+12-2	,	O	O	O	O
+12-3	one	O	O	CD	O
+12-4	person	O	O	NN	P3_shopper
+12-5	ahead	O	O	O	O
+12-6	of	O	O	O	O
+12-7	me	O	O	PRP	P1_shopper
+12-8	was	O	O	VBD	O
+12-9	kind	O	O	JJ	O
+12-10	enough	O	O	RB	O
+12-11	to	12-12_aux	let	TO	O
+12-12	let	O	O	VB	O
+12-13	me	12-14_nsubj	skip	PRP	P1_shopper
+12-14	skip	12-12_ccomp	let	VB	O
+12-15	him	12-14_dobj	skip	PRP	P3_shopper
+12-16	.	O	O	O	O
+
+#id=13
+#text=I was very appreciative . 
+13-1	I	O	O	PRP	P1_shopper
+13-2	was	O	O	VBD	O
+13-3	very	O	O	RB	O
+13-4	appreciative	O	O	JJ	O
+13-5	.	O	O	O	O
+
+#id=14
+#text=Finally , I left the grocery store with my items . 
+14-1	Finally	14-4_advmod	left	RB	O
+14-2	,	O	O	O	O
+14-3	I	14-4_nsubj	left	PRP	P1_shopper
+14-4	left	O	O	VBD	O
+14-5	the	O	O	DT	O
+14-6	grocery	O	O	NN	O
+14-7	store	14-4_dobj	left	NN	P1_grocery_shop
+14-8	with	O	O	O	O
+14-9	my	O	O	PRP$	P1_shopper
+14-10	items	14-4_prep_with	left	NNS	P3_groceries
+14-11	.	O	O	O	O

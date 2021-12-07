@@ -1,0 +1,199 @@
+#id=1
+#text=I was babysitting my nephew and thought it would be fun to take him to the library . 
+1-1	I	1-3_nsubj	babysitting	PRP	P1_customer
+1-2	was	1-3_aux	babysitting	VBD	O
+1-3	babysitting	O	O	VBG	O
+1-4	my	O	O	PRP$	P1_customer
+1-5	nephew	1-3_dobj	babysitting	NN	P2_customer
+1-6	and	O	O	O	O
+1-7	thought	1-3_conj_and	babysitting	VBD	O
+1-8	it	O	O	PRP	O
+1-9	would	O	O	MD	O
+1-10	be	O	O	VB	O
+1-11	fun	1-7_ccomp	thought	JJ	P1_NPart_fun
+1-12	to	1-13_aux	take	TO	O
+1-13	take	O	O	VB	O
+1-14	him	1-13_dobj	take	PRP	P2_customer
+1-15	to	O	O	O	O
+1-16	the	O	O	DT	O
+1-17	library	1-13_prep_to	take	NN	P1_library
+1-18	.	O	O	O	O
+
+#id=2
+#text=We went to the local library . 
+2-1	We	2-2_nsubj	went	PRP	P3_customer
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	local	O	O	JJ	O
+2-6	library	2-2_prep_to	went	NN	P1_library
+2-7	.	O	O	O	O
+
+#id=3
+#text=He was excited because he never visited the library before . 
+3-1	He	O	O	PRP	P2_customer
+3-2	was	O	O	VBD	O
+3-3	excited	O	O	JJ	O
+3-4	because	3-7_mark	visited	IN	O
+3-5	he	3-7_nsubj	visited	PRP	P2_customer
+3-6	never	3-7_neg	visited	RB	O
+3-7	visited	O	O	VBD	O
+3-8	the	O	O	DT	O
+3-9	library	3-7_dobj	visited	NN	P1_library
+3-10	before	3-7_advmod	visited	RB	O
+3-11	.	O	O	O	O
+
+#id=4
+#text=We picked out some books that were in the children 's section . 
+4-1	We	4-2_nsubj	picked	PRP	P3_customer
+4-2	picked	O	O	VBD	O
+4-3	out	4-2_prt	picked	RP	O
+4-4	some	O	O	DT	O
+4-5	books	4-2_dobj	picked	NNS	P1_book
+4-6	that	4-7_nsubj	were	WDT	P1_book
+4-7	were	O	O	VBD	O
+4-8	in	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	children	O	O	NNS	O
+4-11	's	O	O	O	O
+4-12	section	4-7_prep_in	were	NN	P1_location_library
+4-13	.	O	O	O	O
+
+#id=5
+#text=He is interested in dinosaurs . 
+5-1	He	O	O	PRP	P2_customer
+5-2	is	O	O	VBZ	O
+5-3	interested	O	O	JJ	O
+5-4	in	O	O	O	O
+5-5	dinosaurs	O	O	NNS	P1_NPart_dinosaurs
+5-6	.	O	O	O	O
+
+#id=6
+#text=We picked the ones with big pictures . 
+6-1	We	6-2_nsubj	picked	PRP	P3_customer
+6-2	picked	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	ones	6-2_dobj	picked	NNS	P1_book
+6-5	with	O	O	O	O
+6-6	big	O	O	JJ	O
+6-7	pictures	6-2_prep_with	picked	NNS	P1_NPart_pictures
+6-8	.	O	O	O	O
+
+#id=7
+#text=I told him he could borrow three . 
+7-1	I	7-2_nsubj	told	PRP	P1_customer
+7-2	told	O	O	VBD	O
+7-3	him	7-2_dobj	told	PRP	P2_customer
+7-4	he	7-6_nsubj	borrow	PRP	P2_customer
+7-5	could	7-6_aux	borrow	MD	O
+7-6	borrow	7-2_dep	told	VB	O
+7-7	three	7-6_dobj	borrow	CD	P1_book
+7-8	.	O	O	O	O
+
+#id=8
+#text=I almost got a book for myself but I need to finish the ones I already started . 
+8-1	I	8-3_nsubj	got	PRP	P1_customer
+8-2	almost	8-3_advmod	got	RB	O
+8-3	got	O	O	VBD	O
+8-4	a	O	O	DT	O
+8-5	book	8-3_dobj	got	NN	P1_book
+8-6	for	O	O	O	O
+8-7	myself	8-3_prep_for	got	PRP	P1_customer
+8-8	but	O	O	O	O
+8-9	I	8-10_nsubj	need	PRP	P1_customer
+8-10	need	8-3_conj_but	got	VBP	O
+8-11	to	8-12_aux	finish	TO	O
+8-12	finish	8-10_xcomp	need	VB	O
+8-13	the	O	O	DT	O
+8-14	ones	8-12_dobj	finish	NNS	P1_book
+8-15	I	8-17_nsubj	started	PRP	P1_customer
+8-16	already	8-17_advmod	started	RB	O
+8-17	started	O	O	VBD	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=We checked out the books and I let him hand them to the librarian . 
+9-1	We	9-2_nsubj	checked	PRP	P3_customer
+9-2	checked	O	O	VBD	O
+9-3	out	9-2_prt	checked	RP	O
+9-4	the	O	O	DT	O
+9-5	books	9-2_dobj	checked	NNS	P1_book
+9-6	and	O	O	O	O
+9-7	I	9-8_nsubj	let	PRP	P1_customer
+9-8	let	9-2_conj_and	checked	VBP	O
+9-9	him	9-10_nsubj	hand	PRP	P2_customer
+9-10	hand	9-8_ccomp	let	VB	O
+9-11	them	9-10_dobj	hand	PRP	P1_book
+9-12	to	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	librarian	9-10_prep_to	hand	NN	P1_staff
+9-15	.	O	O	O	O
+
+#id=10
+#text=They had a record of me and issued me a new card . 
+10-1	They	10-2_nsubj	had	PRP	P1_staff
+10-2	had	O	O	VBD	O
+10-3	a	O	O	DT	O
+10-4	record	10-2_dobj	had	NN	P1_NPart_record
+10-5	of	O	O	O	O
+10-6	me	O	O	PRP	P1_customer
+10-7	and	O	O	O	O
+10-8	issued	10-2_conj_and	had	VBD	O
+10-9	me	O	O	PRP	P1_customer
+10-10	a	O	O	DT	O
+10-11	new	O	O	JJ	O
+10-12	card	10-8_xcomp	issued	NN	P1_library_card
+10-13	.	O	O	O	O
+
+#id=11
+#text=We went to the park and read them under a tree . 
+11-1	We	11-2_nsubj	went	PRP	P3_customer
+11-2	went	O	O	VBD	O
+11-3	to	O	O	O	O
+11-4	the	O	O	DT	O
+11-5	park	11-2_prep_to	went	NN	P1_NPart_park
+11-6	and	O	O	O	O
+11-7	read	11-2_conj_and	went	VBD	O
+11-8	them	11-7_dobj	read	PRP	P1_book
+11-9	under	O	O	O	O
+11-10	a	O	O	DT	O
+11-11	tree	11-7_prep_under	read	NN	P1_NPart_tree
+11-12	.	O	O	O	O
+
+#id=12
+#text=Then we went back to the library and I let him return them in the metal bin out front . 
+12-1	Then	12-3_advmod	went	RB	O
+12-2	we	12-3_nsubj	went	PRP	P3_customer
+12-3	went	O	O	VBD	O
+12-4	back	12-3_advmod	went	RB	O
+12-5	to	O	O	O	O
+12-6	the	O	O	DT	O
+12-7	library	12-3_prep_to	went	NN	P1_library
+12-8	and	O	O	O	O
+12-9	I	12-10_nsubj	let	PRP	P1_customer
+12-10	let	12-3_conj_and	went	VBP	O
+12-11	him	12-12_nsubj	return	PRP	P2_customer
+12-12	return	12-10_ccomp	let	VB	O
+12-13	them	12-12_dobj	return	PRP	P1_book
+12-14	in	O	O	O	O
+12-15	the	O	O	DT	O
+12-16	metal	12-12_prep_in	return	NN	O
+12-17	bin	O	O	VBG	P1_drop_box
+12-18	out	12-17_prt	bin	RP	O
+12-19	front	12-17_dobj	bin	NN	O
+12-20	.	O	O	O	O
+
+#id=13
+#text=Over all I think it was a day he will remember . 
+13-1	Over	O	O	O	O
+13-2	all	13-4_prep_over	think	DT	O
+13-3	I	13-4_nsubj	think	PRP	P1_customer
+13-4	think	O	O	VBP	O
+13-5	it	O	O	PRP	O
+13-6	was	O	O	VBD	O
+13-7	a	O	O	DT	O
+13-8	day	13-4_ccomp	think	NN	P1_NPart_day
+13-9	he	13-11_nsubj	remember	PRP	P2_customer
+13-10	will	13-11_aux	remember	MD	O
+13-11	remember	O	O	VB	O
+13-12	.	O	O	O	O

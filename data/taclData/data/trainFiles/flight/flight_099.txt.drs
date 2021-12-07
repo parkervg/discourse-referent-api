@@ -1,0 +1,257 @@
+#id=1
+#text=Flying in an airplane is a great way to see someone in a far away place . 
+1-1	Flying	O	O	NNP	O
+1-2	in	O	O	O	O
+1-3	an	O	O	DT	O
+1-4	airplane	O	O	NN	P1_plane
+1-5	is	O	O	VBZ	O
+1-6	a	O	O	DT	O
+1-7	great	O	O	JJ	O
+1-8	way	O	O	NN	O
+1-9	to	1-10_aux	see	TO	O
+1-10	see	O	O	VB	O
+1-11	someone	1-10_dobj	see	NN	P1_NPart_someone
+1-12	in	O	O	O	O
+1-13	a	O	O	DT	O
+1-14	far	O	O	RB	O
+1-15	away	O	O	RB	O
+1-16	place	1-10_prep_in	see	NN	P1_NPart_place
+1-17	.	O	O	O	O
+
+#id=2
+#text=I search my tickets online , either by going through a third party company like CheapOFlights or going to the flight company 's website directly , like Delta.com . 
+2-1	I	2-2_nsubj	search	PRP	P1_passenger
+2-2	search	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_passenger
+2-4	tickets	2-2_dobj	search	NNS	P1_ticket
+2-5	online	2-2_prep	search	NN	O
+2-6	,	O	O	O	O
+2-7	either	2-2_dep	search	CC	O
+2-8	by	O	O	O	O
+2-9	going	2-2_prepc_by	search	VBG	O
+2-10	through	O	O	O	O
+2-11	a	O	O	DT	O
+2-12	third	O	O	JJ	O
+2-13	party	O	O	NN	O
+2-14	company	2-9_prep_through	going	NN	P1_NPart_company
+2-15	like	O	O	O	O
+2-16	CheapOFlights	O	O	NNP	P1_NPart_cheapoflights
+2-17	or	O	O	O	O
+2-18	going	2-9_conj_or	going	VBG	O
+2-19	to	O	O	O	O
+2-20	the	O	O	DT	O
+2-21	flight	O	O	NN	O
+2-22	company	O	O	NN	P1_other
+2-23	's	O	O	O	O
+2-24	website	2-18_prep_to	going	NN	P2_other
+2-25	directly	2-18_advmod	going	RB	O
+2-26	,	O	O	O	O
+2-27	like	2-2_dep	search	IN	O
+2-28	Delta.com	O	O	NNP	P2_other
+2-29	.	O	O	O	O
+
+#id=3
+#text=I find the best prices for the date and time I would like to leave my place of origin and land at my destination . 
+3-1	I	3-2_nsubj	find	PRP	P1_passenger
+3-2	find	O	O	VBP	O
+3-3	the	O	O	DT	O
+3-4	best	O	O	JJS	O
+3-5	prices	3-2_dobj	find	NNS	P1_NPart_prices
+3-6	for	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	date	O	O	NN	P1_time/date
+3-9	and	O	O	O	O
+3-10	time	O	O	NN	P2_time/date
+3-11	I	3-13_nsubj	like	PRP	P1_passenger
+3-12	would	3-13_aux	like	MD	O
+3-13	like	O	O	VB	O
+3-14	to	3-15_aux	leave	TO	O
+3-15	leave	3-13_xcomp	like	VB	O
+3-16	my	O	O	PRP$	P1_passenger
+3-17	place	3-15_dobj	leave	NN	P2_NPart_place
+3-18	of	O	O	O	O
+3-19	origin	O	O	NN	P1_NPart_origin
+3-20	and	O	O	O	O
+3-21	land	O	O	NN	O
+3-22	at	O	O	O	O
+3-23	my	O	O	PRP$	P1_passenger
+3-24	destination	3-15_prep_at	leave	NN	P1_target_location
+3-25	.	O	O	O	O
+
+#id=4
+#text=I find that it is cheaper to do it at least two weeks ahead of time for the best price . 
+4-1	I	4-2_nsubj	find	PRP	P1_passenger
+4-2	find	O	O	VBP	O
+4-3	that	O	O	IN	O
+4-4	it	O	O	PRP	O
+4-5	is	O	O	VBZ	O
+4-6	cheaper	4-2_ccomp	find	JJR	O
+4-7	to	4-8_aux	do	TO	O
+4-8	do	O	O	VB	O
+4-9	it	4-8_dobj	do	PRP	O
+4-10	at	O	O	IN	O
+4-11	least	O	O	JJS	O
+4-12	two	O	O	CD	O
+4-13	weeks	4-8_npadvmod	do	NNS	P3_time/date
+4-14	ahead	O	O	O	O
+4-15	of	O	O	O	O
+4-16	time	4-8_prep_ahead_of	do	NN	O
+4-17	for	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	best	O	O	JJS	O
+4-20	price	O	O	NN	P1_NPart_price
+4-21	.	O	O	O	O
+
+#id=5
+#text=Within a week of my flight I prepare by packing my clothes and any other necessary items in a maximum of two bags . 
+5-1	Within	O	O	O	O
+5-2	a	O	O	DT	O
+5-3	week	5-8_prep_within	prepare	NN	P4_time/date
+5-4	of	O	O	O	O
+5-5	my	O	O	PRP$	P1_passenger
+5-6	flight	O	O	NN	P1_flight
+5-7	I	5-8_nsubj	prepare	PRP	P1_passenger
+5-8	prepare	O	O	VBP	O
+5-9	by	O	O	O	O
+5-10	packing	5-8_prepc_by	prepare	VBG	O
+5-11	my	O	O	PRP$	P1_passenger
+5-12	clothes	5-10_dobj	packing	NNS	P1_personal_belongings
+5-13	and	O	O	O	O
+5-14	any	O	O	DT	O
+5-15	other	O	O	JJ	O
+5-16	necessary	O	O	JJ	O
+5-17	items	O	O	NNS	P2_personal_belongings
+5-18	in	O	O	O	O
+5-19	a	O	O	DT	O
+5-20	maximum	5-10_prep_in	packing	NN	O
+5-21	of	O	O	O	O
+5-22	two	O	O	CD	O
+5-23	bags	O	O	NNS	P1_check_in_luggage
+5-24	.	O	O	O	O
+
+#id=6
+#text=The day of the flight I strive to get to the airport two hours before my flight is scheduled to leave . 
+6-1	The	O	O	DT	O
+6-2	day	6-19_nsubjpass	scheduled	NN	P1_NPart_day
+6-3	of	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	flight	O	O	NN	P1_flight
+6-6	I	6-7_nsubj	strive	PRP	P1_passenger
+6-7	strive	O	O	VBP	O
+6-8	to	6-9_aux	get	TO	O
+6-9	get	6-7_xcomp	strive	VB	O
+6-10	to	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	airport	6-9_prep_to	get	NN	P1_airport
+6-13	two	O	O	CD	O
+6-14	hours	O	O	NNS	P5_time/date
+6-15	before	O	O	O	O
+6-16	my	O	O	PRP$	P1_passenger
+6-17	flight	6-9_prep_before	get	NN	P1_flight
+6-18	is	6-19_auxpass	scheduled	VBZ	O
+6-19	scheduled	O	O	VBN	O
+6-20	to	6-21_aux	leave	TO	O
+6-21	leave	6-19_xcomp	scheduled	VB	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=Once I am at the airport I park , then bring my luggage through checkout and confirm and receive my ticket . 
+7-1	Once	7-3_mark	am	IN	O
+7-2	I	7-3_nsubj	am	PRP	P1_passenger
+7-3	am	7-11_advcl	bring	VBP	O
+7-4	at	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	airport	O	O	NN	P1_airport
+7-7	I	O	O	NN	P1_passenger
+7-8	park	7-3_prep_at	am	NN	O
+7-9	,	O	O	O	O
+7-10	then	7-11_advmod	bring	RB	O
+7-11	bring	O	O	VB	O
+7-12	my	O	O	PRP$	P1_passenger
+7-13	luggage	7-11_dobj	bring	NN	P1_check_in_luggage
+7-14	through	O	O	O	O
+7-15	checkout	7-11_prep_through	bring	NN	P2_check_in_luggage
+7-16	and	O	O	O	O
+7-17	confirm	7-11_conj_and	bring	VB	O
+7-18	and	O	O	O	O
+7-19	receive	7-17_conj_and	confirm	VB	O
+7-20	my	O	O	PRP$	P1_passenger
+7-21	ticket	7-17_dobj	confirm	NN	P2_ticket
+7-22	.	O	O	O	O
+
+#id=8
+#text=After checkout I get checked by security . 
+8-1	After	O	O	O	O
+8-2	checkout	8-5_prep_after	checked	NN	P2_check_in_luggage
+8-3	I	8-5_nsubjpass	checked	PRP	P1_passenger
+8-4	get	8-5_auxpass	checked	VBP	O
+8-5	checked	O	O	VBN	O
+8-6	by	O	O	O	O
+8-7	security	8-5_agent	checked	NN	P1_staff
+8-8	.	O	O	O	O
+
+#id=9
+#text=Afterwards I go to my gate and wait for my plane to load when they call my seat section listed on my flight ticket . 
+9-1	Afterwards	9-3_advmod	go	RB	O
+9-2	I	9-3_nsubj	go	PRP	P1_passenger
+9-3	go	O	O	VBP	O
+9-4	to	O	O	O	O
+9-5	my	O	O	PRP$	P1_passenger
+9-6	gate	9-3_prep_to	go	NN	P1_terminal/gate
+9-7	and	O	O	O	O
+9-8	wait	O	O	NN	O
+9-9	for	O	O	O	O
+9-10	my	O	O	PRP$	P1_passenger
+9-11	plane	9-3_prep_for	go	NN	P1_plane
+9-12	to	9-13_aux	load	TO	O
+9-13	load	O	O	VB	O
+9-14	when	9-16_advmod	call	WRB	O
+9-15	they	9-16_nsubj	call	PRP	P2_staff
+9-16	call	9-13_advcl	load	VBP	O
+9-17	my	O	O	PRP$	P1_passenger
+9-18	seat	O	O	NN	O
+9-19	section	9-16_dobj	call	NN	P1_seat
+9-20	listed	O	O	VBN	O
+9-21	on	O	O	O	O
+9-22	my	O	O	PRP$	P1_passenger
+9-23	flight	O	O	NN	O
+9-24	ticket	9-20_prep_on	listed	NN	P2_ticket
+9-25	.	O	O	O	O
+
+#id=10
+#text=Once in the plane , I either sleep , read a book , or listen to music when the pilot okays it . 
+10-1	Once	10-8_mark	sleep	IN	O
+10-2	in	O	O	O	O
+10-3	the	O	O	DT	O
+10-4	plane	10-8_prep_in	sleep	NN	P1_plane
+10-5	,	O	O	O	O
+10-6	I	10-8_nsubj	sleep	PRP	P1_passenger
+10-7	either	10-8_advmod	sleep	RB	O
+10-8	sleep	10-10_advcl	read	VBP	O
+10-9	,	O	O	O	O
+10-10	read	O	O	VB	O
+10-11	a	O	O	DT	O
+10-12	book	10-10_dobj	read	NN	P1_in-flight_entertainment
+10-13	,	O	O	O	O
+10-14	or	O	O	O	O
+10-15	listen	10-10_conj_or	read	VB	O
+10-16	to	O	O	O	O
+10-17	music	10-15_prep_to	listen	NN	P2_in-flight_entertainment
+10-18	when	10-21_advmod	okays	WRB	O
+10-19	the	O	O	DT	O
+10-20	pilot	10-21_nsubj	okays	NN	P3_staff
+10-21	okays	10-15_advcl	listen	VBZ	O
+10-22	it	10-21_dobj	okays	PRP	P1_NPart_it
+10-23	.	O	O	O	O
+
+#id=11
+#text=It is a very safe and fun experience ! 
+11-1	It	O	O	PRP	O
+11-2	is	O	O	VBZ	O
+11-3	a	O	O	DT	O
+11-4	very	O	O	RB	O
+11-5	safe	O	O	JJ	O
+11-6	and	O	O	O	O
+11-7	fun	O	O	JJ	O
+11-8	experience	O	O	NN	P1_NPart_experience
+11-9	!	O	O	O	O

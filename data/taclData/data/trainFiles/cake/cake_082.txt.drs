@@ -1,0 +1,273 @@
+#id=1
+#text=Today I decided to bake a cake for my daughter 's birthday . 
+1-1	Today	1-3_tmod	decided	NN	O
+1-2	I	1-3_nsubj	decided	PRP	P1_cook
+1-3	decided	O	O	VBD	O
+1-4	to	1-5_aux	bake	TO	O
+1-5	bake	1-3_xcomp	decided	VB	O
+1-6	a	O	O	DT	O
+1-7	cake	1-5_dobj	bake	NN	P1_cake
+1-8	for	O	O	O	O
+1-9	my	O	O	PRP$	P1_cook
+1-10	daughter	O	O	NN	P1_beneficiary
+1-11	's	O	O	O	O
+1-12	birthday	O	O	NN	P1_NPart_birthday
+1-13	.	O	O	O	O
+
+#id=2
+#text=I knew she would want a chocolate cake , so I went to the store to purchase ingredients . 
+2-1	I	2-2_nsubj	knew	PRP	P1_cook
+2-2	knew	O	O	VBD	O
+2-3	she	2-5_nsubj	want	PRP	P1_beneficiary
+2-4	would	2-5_aux	want	MD	O
+2-5	want	2-2_ccomp	knew	VB	O
+2-6	a	O	O	DT	O
+2-7	chocolate	O	O	NN	O
+2-8	cake	2-5_dobj	want	NN	P1_cake
+2-9	,	O	O	O	O
+2-10	so	2-2_dep	knew	IN	O
+2-11	I	2-12_nsubj	went	PRP	P1_cook
+2-12	went	2-2_parataxis	knew	VBD	O
+2-13	to	O	O	O	O
+2-14	the	O	O	DT	O
+2-15	store	2-12_prep_to	went	NN	P1_store
+2-16	to	2-17_aux	purchase	TO	O
+2-17	purchase	2-12_xcomp	went	VB	O
+2-18	ingredients	2-17_dobj	purchase	NNS	P1_ingredients
+2-19	.	O	O	O	O
+
+#id=3
+#text=I bought cake mix and frosting , as well as ingredients necessary to make the cake such as eggs and oil . 
+3-1	I	3-2_nsubj	bought	PRP	P1_cook
+3-2	bought	O	O	VBD	O
+3-3	cake	O	O	NN	O
+3-4	mix	3-2_dobj	bought	NN	P2_ingredients
+3-5	and	O	O	O	O
+3-6	frosting	O	O	VBG	P1_decoration
+3-7	,	O	O	O	O
+3-8	as	O	O	O	O
+3-9	well	O	O	O	O
+3-10	as	O	O	O	O
+3-11	ingredients	O	O	NNS	P3_ingredients
+3-12	necessary	O	O	JJ	O
+3-13	to	3-14_aux	make	TO	O
+3-14	make	O	O	VB	O
+3-15	the	O	O	DT	O
+3-16	cake	3-14_dobj	make	NN	P1_cake
+3-17	such	O	O	O	O
+3-18	as	O	O	O	O
+3-19	eggs	O	O	NNS	P4_ingredients
+3-20	and	O	O	O	O
+3-21	oil	O	O	NN	P5_ingredients
+3-22	.	O	O	O	O
+
+#id=4
+#text=I came home and made sure that my kitchen was clean and ready to bake in . 
+4-1	I	4-2_nsubj	came	PRP	P1_cook
+4-2	came	O	O	VBD	O
+4-3	home	4-2_dobj	came	NN	O
+4-4	and	O	O	O	O
+4-5	made	4-2_conj_and	came	VBD	O
+4-6	sure	4-5_acomp	made	JJ	O
+4-7	that	O	O	IN	O
+4-8	my	O	O	PRP$	P1_cook
+4-9	kitchen	O	O	NN	P1_kitchen/location
+4-10	was	O	O	VBD	O
+4-11	clean	O	O	JJ	O
+4-12	and	O	O	O	O
+4-13	ready	O	O	JJ	O
+4-14	to	4-15_aux	bake	TO	O
+4-15	bake	O	O	VB	O
+4-16	in	4-15_prt	bake	RP	O
+4-17	.	O	O	O	O
+
+#id=5
+#text=I set the oven to preheat and went about mixing up the cake batter . 
+5-1	I	5-2_nsubj	set	PRP	P1_cook
+5-2	set	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	oven	5-2_dobj	set	NN	P1_oven
+5-5	to	O	O	O	O
+5-6	preheat	5-2_prep_to	set	NN	O
+5-7	and	O	O	O	O
+5-8	went	5-2_conj_and	set	VBD	O
+5-9	about	O	O	O	O
+5-10	mixing	5-8_prepc_about	went	VBG	O
+5-11	up	5-10_prt	mixing	RP	O
+5-12	the	O	O	DT	O
+5-13	cake	O	O	NN	O
+5-14	batter	5-10_dobj	mixing	NN	P1_dough
+5-15	.	O	O	O	O
+
+#id=6
+#text=While the oven was preheating , I greased and floured a cake pan and dumped the batter into it . 
+6-1	While	6-5_mark	preheating	IN	O
+6-2	the	O	O	DT	O
+6-3	oven	6-5_nsubj	preheating	NN	P1_oven
+6-4	was	6-5_aux	preheating	VBD	O
+6-5	preheating	6-8_advcl	greased	VBG	O
+6-6	,	O	O	O	O
+6-7	I	6-8_nsubj	greased	PRP	P1_cook
+6-8	greased	O	O	VBD	O
+6-9	and	O	O	O	O
+6-10	floured	6-8_conj_and	greased	VBD	O
+6-11	a	O	O	DT	O
+6-12	cake	O	O	NN	O
+6-13	pan	6-8_dobj	greased	NN	P1_cake_tin
+6-14	and	O	O	O	O
+6-15	dumped	6-8_conj_and	greased	VBD	O
+6-16	the	O	O	DT	O
+6-17	batter	6-15_dobj	dumped	NN	P1_dough
+6-18	into	O	O	O	O
+6-19	it	6-15_prep_into	dumped	PRP	P1_cake_tin
+6-20	.	O	O	O	O
+
+#id=7
+#text=Finally , the oven beeped which signaled that it was ready . 
+7-1	Finally	7-5_advmod	beeped	RB	O
+7-2	,	O	O	O	O
+7-3	the	O	O	DT	O
+7-4	oven	7-5_nsubj	beeped	NN	P1_oven
+7-5	beeped	O	O	VBD	O
+7-6	which	7-7_nsubj	signaled	WDT	O
+7-7	signaled	7-5_ccomp	beeped	VBD	O
+7-8	that	O	O	IN	O
+7-9	it	O	O	PRP	P1_oven
+7-10	was	O	O	VBD	O
+7-11	ready	7-7_ccomp	signaled	JJ	O
+7-12	.	O	O	O	O
+
+#id=8
+#text=I placed the cake on the middle rack in the oven and shut the oven door . 
+8-1	I	8-2_nsubj	placed	PRP	P1_cook
+8-2	placed	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	cake	8-2_dobj	placed	NN	P1_cake
+8-5	on	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	middle	O	O	JJ	O
+8-8	rack	8-2_prep_on	placed	NN	P1_other
+8-9	in	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	oven	O	O	NN	P1_oven
+8-12	and	O	O	O	O
+8-13	shut	8-2_conj_and	placed	VBD	O
+8-14	the	O	O	DT	O
+8-15	oven	O	O	NN	O
+8-16	door	8-13_dobj	shut	NN	P2_other
+8-17	.	O	O	O	O
+
+#id=9
+#text=I checked the back of the cake mix box to see timing instructions for the pan size I chose , and set the built-in timer on my oven accordingly . 
+9-1	I	9-2_nsubj	checked	PRP	P1_cook
+9-2	checked	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	back	9-2_dobj	checked	NN	P1_recipe_source
+9-5	of	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	cake	O	O	NN	O
+9-8	mix	O	O	NN	O
+9-9	box	O	O	NN	P3_other
+9-10	to	9-11_aux	see	TO	O
+9-11	see	9-2_vmod	checked	VB	O
+9-12	timing	O	O	NN	O
+9-13	instructions	9-11_dobj	see	NNS	P1_baking_instructions
+9-14	for	O	O	O	O
+9-15	the	O	O	DT	O
+9-16	pan	O	O	JJ	O
+9-17	size	9-11_prep_for	see	NN	P4_other
+9-18	I	9-19_nsubj	chose	PRP	P1_cook
+9-19	chose	O	O	VBD	O
+9-20	,	O	O	O	O
+9-21	and	O	O	O	O
+9-22	set	9-19_conj_and	chose	VBD	O
+9-23	the	O	O	DT	O
+9-24	built-in	O	O	JJ	O
+9-25	timer	9-22_dobj	set	NN	P1_timer
+9-26	on	O	O	O	O
+9-27	my	O	O	PRP$	P2_cook
+9-28	oven	9-22_prep_on	set	NN	P1_oven
+9-29	accordingly	9-22_advmod	set	RB	O
+9-30	.	O	O	O	O
+
+#id=10
+#text=While the cake was baking , I cleaned up my mess . 
+10-1	While	10-5_mark	baking	IN	O
+10-2	the	O	O	DT	O
+10-3	cake	10-5_nsubj	baking	NN	P1_cake
+10-4	was	10-5_aux	baking	VBD	O
+10-5	baking	10-8_advcl	cleaned	VBG	O
+10-6	,	O	O	O	O
+10-7	I	10-8_nsubj	cleaned	PRP	P1_cook
+10-8	cleaned	O	O	VBD	O
+10-9	up	10-8_prt	cleaned	RP	O
+10-10	my	O	O	PRP$	P3_cook
+10-11	mess	10-8_dobj	cleaned	NN	P1_NPart_mess
+10-12	.	O	O	O	O
+
+#id=11
+#text=I wiped down the counters , put the mixer away , and loaded the dishwasher . 
+11-1	I	11-2_nsubj	wiped	PRP	P1_cook
+11-2	wiped	O	O	VBD	O
+11-3	down	11-2_prt	wiped	RP	O
+11-4	the	O	O	DT	O
+11-5	counters	11-2_dobj	wiped	NNS	P5_other
+11-6	,	O	O	O	O
+11-7	put	11-2_conj_and	wiped	VBP	O
+11-8	the	O	O	DT	O
+11-9	mixer	11-7_dobj	put	NN	P1_utensil
+11-10	away	11-7_prt	put	RP	O
+11-11	,	O	O	O	O
+11-12	and	O	O	O	O
+11-13	loaded	11-2_conj_and	wiped	VBD	O
+11-14	the	O	O	DT	O
+11-15	dishwasher	11-13_dobj	loaded	NN	P6_other
+11-16	.	O	O	O	O
+
+#id=12
+#text=Once the timer went off , I removed the cake from the oven and set it aside to cool . 
+12-1	Once	12-4_mark	went	IN	O
+12-2	the	O	O	DT	O
+12-3	timer	12-4_nsubj	went	NN	P1_timer
+12-4	went	12-8_advcl	removed	VBD	O
+12-5	off	12-4_prt	went	RP	O
+12-6	,	O	O	O	O
+12-7	I	12-8_nsubj	removed	PRP	P1_cook
+12-8	removed	O	O	VBD	O
+12-9	the	O	O	DT	O
+12-10	cake	12-8_dobj	removed	NN	P1_cake
+12-11	from	O	O	O	O
+12-12	the	O	O	DT	O
+12-13	oven	12-8_prep_from	removed	NN	P1_oven
+12-14	and	O	O	O	O
+12-15	set	12-8_conj_and	removed	VBD	O
+12-16	it	12-15_dobj	set	PRP	P1_cake
+12-17	aside	12-15_advmod	set	RB	O
+12-18	to	12-19_aux	cool	TO	O
+12-19	cool	12-15_vmod	set	VB	O
+12-20	.	O	O	O	O
+
+#id=13
+#text=Once it was cool , I frosted and decorated it . 
+13-1	Once	O	O	IN	O
+13-2	it	O	O	PRP	P1_cake
+13-3	was	O	O	VBD	O
+13-4	cool	13-7_advcl	frosted	JJ	O
+13-5	,	O	O	O	O
+13-6	I	13-7_nsubj	frosted	PRP	P1_cook
+13-7	frosted	O	O	VBD	O
+13-8	and	O	O	O	O
+13-9	decorated	13-7_conj_and	frosted	VBN	O
+13-10	it	13-9_dobj	decorated	PRP	P1_cake
+13-11	.	O	O	O	O
+
+#id=14
+#text=That 's how I baked my cake . 
+14-1	That	14-2_nsubj	's	DT	O
+14-2	's	O	O	VBZ	O
+14-3	how	14-5_advmod	baked	WRB	O
+14-4	I	14-5_nsubj	baked	PRP	P1_cook
+14-5	baked	14-2_ccomp	's	VBZ	O
+14-6	my	O	O	PRP$	P4_cook
+14-7	cake	14-5_dobj	baked	NN	P1_cake
+14-8	.	O	O	O	O

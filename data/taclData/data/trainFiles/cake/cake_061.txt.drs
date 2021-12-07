@@ -1,0 +1,232 @@
+#id=1
+#text=Last week was my friend 's birthday . 
+1-1	Last	O	O	JJ	O
+1-2	week	O	O	NN	O
+1-3	was	O	O	VBD	O
+1-4	my	O	O	PRP$	P1_cook
+1-5	friend	O	O	NN	P1_beneficiary
+1-6	's	O	O	O	O
+1-7	birthday	O	O	NN	O
+1-8	.	O	O	O	O
+
+#id=2
+#text=I asked him if he was going to do anything special and he said no . 
+2-1	I	2-2_nsubj	asked	PRP	P1_cook
+2-2	asked	O	O	VBD	O
+2-3	him	2-2_dobj	asked	PRP	P1_beneficiary
+2-4	if	2-7_mark	going	IN	O
+2-5	he	2-7_nsubj	going	PRP	P1_beneficiary
+2-6	was	2-7_aux	going	VBD	O
+2-7	going	2-2_advcl	asked	VBG	O
+2-8	to	2-9_aux	do	TO	O
+2-9	do	2-7_xcomp	going	VB	O
+2-10	anything	2-9_dobj	do	NN	O
+2-11	special	O	O	JJ	O
+2-12	and	O	O	O	O
+2-13	he	2-14_nsubj	said	PRP	P1_beneficiary
+2-14	said	2-2_conj_and	asked	VBD	O
+2-15	no	2-14_discourse	said	UH	O
+2-16	.	O	O	O	O
+
+#id=3
+#text=I felt bad for him , so I said I would at least bake him a cake . 
+3-1	I	3-2_nsubj	felt	PRP	P1_cook
+3-2	felt	O	O	VBD	O
+3-3	bad	3-2_acomp	felt	JJ	O
+3-4	for	O	O	O	O
+3-5	him	3-2_prep_for	felt	PRP	P1_beneficiary
+3-6	,	O	O	O	O
+3-7	so	3-2_dep	felt	IN	O
+3-8	I	3-9_nsubj	said	PRP	P1_cook
+3-9	said	3-2_parataxis	felt	VBD	O
+3-10	I	3-14_nsubj	bake	PRP	P1_cook
+3-11	would	3-14_aux	bake	MD	O
+3-12	at	3-14_advmod	bake	IN	O
+3-13	least	O	O	JJS	O
+3-14	bake	3-9_ccomp	said	VB	O
+3-15	him	O	O	PRP	P1_beneficiary
+3-16	a	O	O	DT	O
+3-17	cake	3-14_xcomp	bake	NN	P1_cake
+3-18	.	O	O	O	O
+
+#id=4
+#text=Maybe this was a hasty decision since I have no experience baking cakes . 
+4-1	Maybe	O	O	RB	O
+4-2	this	O	O	DT	O
+4-3	was	O	O	VBD	O
+4-4	a	O	O	DT	O
+4-5	hasty	O	O	JJ	O
+4-6	decision	O	O	NN	O
+4-7	since	4-9_mark	have	IN	O
+4-8	I	4-9_nsubj	have	PRP	P1_cook
+4-9	have	O	O	VBP	O
+4-10	no	O	O	DT	O
+4-11	experience	4-9_dobj	have	NN	O
+4-12	baking	O	O	VBG	O
+4-13	cakes	4-12_dobj	baking	NNS	P1_cake
+4-14	.	O	O	O	O
+
+#id=5
+#text=So I looked online to see what I needed to do . 
+5-1	So	5-3_dep	looked	IN	O
+5-2	I	5-3_nsubj	looked	PRP	P1_cook
+5-3	looked	O	O	VBD	O
+5-4	online	5-3_prep	looked	NN	P1_recipe_source
+5-5	to	5-6_aux	see	TO	O
+5-6	see	5-3_xcomp	looked	VB	O
+5-7	what	5-9_dobj	needed	WP	O
+5-8	I	5-9_nsubj	needed	PRP	P1_cook
+5-9	needed	5-6_ccomp	see	VBD	O
+5-10	to	5-11_aux	do	TO	O
+5-11	do	5-9_xcomp	needed	VB	O
+5-12	.	O	O	O	O
+
+#id=6
+#text=I found a recipe that looked easy enough , so later that day I drove over to the grocery store to buy all the ingredients I would need to bake the cake . 
+6-1	I	6-2_nsubj	found	PRP	P1_cook
+6-2	found	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	recipe	6-2_dobj	found	NN	P1_baking_instructions
+6-5	that	6-6_nsubj	looked	WDT	O
+6-6	looked	O	O	VBD	O
+6-7	easy	O	O	RB	O
+6-8	enough	6-6_acomp	looked	JJ	O
+6-9	,	O	O	O	O
+6-10	so	6-2_dep	found	IN	O
+6-11	later	O	O	RBR	O
+6-12	that	O	O	DT	O
+6-13	day	6-15_tmod	drove	NN	O
+6-14	I	6-15_nsubj	drove	PRP	P1_cook
+6-15	drove	6-2_parataxis	found	VBD	O
+6-16	over	6-15_prt	drove	RP	O
+6-17	to	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	grocery	O	O	NN	O
+6-20	store	6-15_prep_to	drove	NN	P1_store
+6-21	to	6-22_aux	buy	TO	O
+6-22	buy	6-15_xcomp	drove	VB	O
+6-23	all	O	O	PDT	O
+6-24	the	O	O	DT	O
+6-25	ingredients	6-22_dobj	buy	NNS	P1_ingredients
+6-26	I	6-28_nsubj	need	PRP	P1_cook
+6-27	would	6-28_aux	need	MD	O
+6-28	need	O	O	VB	O
+6-29	to	6-30_aux	bake	TO	O
+6-30	bake	6-28_xcomp	need	VB	O
+6-31	the	O	O	DT	O
+6-32	cake	6-30_dobj	bake	NN	P1_cake
+6-33	.	O	O	O	O
+
+#id=7
+#text=When I got to the store I started gathering up everything I needed . 
+7-1	When	7-3_advmod	got	WRB	O
+7-2	I	7-3_nsubj	got	PRP	P1_cook
+7-3	got	7-8_advcl	started	VBD	O
+7-4	to	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	store	7-3_prep_to	got	NN	P1_store
+7-7	I	7-8_nsubj	started	PRP	P1_cook
+7-8	started	O	O	VBD	O
+7-9	gathering	7-8_xcomp	started	VBG	O
+7-10	up	7-9_prt	gathering	RP	O
+7-11	everything	7-9_dobj	gathering	NN	P1_ingredients
+7-12	I	7-13_nsubj	needed	PRP	P1_cook
+7-13	needed	O	O	VBD	O
+7-14	.	O	O	O	O
+
+#id=8
+#text=Once I almost had everything I turned down an aisle and noticed there were boxed of pre-made cake mix I could buy . 
+8-1	Once	8-4_mark	had	IN	O
+8-2	I	8-4_nsubj	had	PRP	P1_cook
+8-3	almost	8-4_advmod	had	RB	O
+8-4	had	8-22_advcl	buy	VBD	O
+8-5	everything	8-4_dobj	had	NN	P1_ingredients
+8-6	I	8-7_nsubj	turned	PRP	P1_cook
+8-7	turned	O	O	VBD	O
+8-8	down	8-7_prt	turned	RP	O
+8-9	an	O	O	DT	O
+8-10	aisle	8-7_dobj	turned	NN	O
+8-11	and	O	O	O	O
+8-12	noticed	8-7_conj_and	turned	VBD	O
+8-13	there	8-15_expl	boxed	EX	O
+8-14	were	8-15_auxpass	boxed	VBD	O
+8-15	boxed	8-12_ccomp	noticed	VBN	O
+8-16	of	O	O	O	O
+8-17	pre-made	O	O	JJ	O
+8-18	cake	O	O	NN	O
+8-19	mix	8-15_prep_of	boxed	NN	P2_ingredients
+8-20	I	8-22_nsubj	buy	PRP	P1_cook
+8-21	could	8-22_aux	buy	MD	O
+8-22	buy	O	O	VB	O
+8-23	.	O	O	O	O
+
+#id=9
+#text=This seemed like an easy option , so I put all the ingredients back and bought one of those mixes . 
+9-1	This	9-2_nsubj	seemed	DT	O
+9-2	seemed	O	O	VBD	O
+9-3	like	O	O	O	O
+9-4	an	O	O	DT	O
+9-5	easy	O	O	JJ	O
+9-6	option	9-2_prep_like	seemed	NN	O
+9-7	,	O	O	O	O
+9-8	so	9-2_dep	seemed	IN	O
+9-9	I	9-10_nsubj	put	PRP	P1_cook
+9-10	put	9-2_parataxis	seemed	VBD	O
+9-11	all	O	O	PDT	O
+9-12	the	O	O	DT	O
+9-13	ingredients	9-10_dobj	put	NNS	P1_ingredients
+9-14	back	9-10_advmod	put	RB	O
+9-15	and	O	O	O	O
+9-16	bought	9-10_conj_and	put	VBD	O
+9-17	one	9-16_dobj	bought	CD	O
+9-18	of	O	O	O	O
+9-19	those	O	O	DT	O
+9-20	mixes	O	O	NN	P2_ingredients
+9-21	.	O	O	O	O
+
+#id=10
+#text=I got home and started baking . 
+10-1	I	10-2_nsubj	got	PRP	P1_cook
+10-2	got	O	O	VBD	O
+10-3	home	10-2_dobj	got	NN	P1_kitchen/location
+10-4	and	O	O	O	O
+10-5	started	10-2_conj_and	got	VBD	O
+10-6	baking	10-5_dobj	started	VBG	O
+10-7	.	O	O	O	O
+
+#id=11
+#text=All I needed to add to the mix was a couple eggs and some vegetable oil . 
+11-1	All	O	O	DT	O
+11-2	I	11-3_nsubj	needed	PRP	P1_cook
+11-3	needed	O	O	VBD	O
+11-4	to	11-5_aux	add	TO	O
+11-5	add	11-3_xcomp	needed	VB	O
+11-6	to	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	mix	11-5_prep_to	add	NN	P2_ingredients
+11-9	was	O	O	VBD	O
+11-10	a	O	O	DT	O
+11-11	couple	O	O	NN	O
+11-12	eggs	O	O	NNS	P3_ingredients
+11-13	and	O	O	O	O
+11-14	some	O	O	DT	O
+11-15	vegetable	O	O	NN	O
+11-16	oil	O	O	NN	P4_ingredients
+11-17	.	O	O	O	O
+
+#id=12
+#text=After it was in the oven for an hour the cake was ready . 
+12-1	After	12-3_mark	was	IN	O
+12-2	it	12-3_nsubj	was	PRP	P1_cake
+12-3	was	O	O	VBD	O
+12-4	in	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	oven	12-3_prep_in	was	NN	P1_oven
+12-7	for	O	O	O	O
+12-8	an	O	O	DT	O
+12-9	hour	O	O	NN	P1_time
+12-10	the	O	O	DT	O
+12-11	cake	O	O	NN	P1_cake
+12-12	was	O	O	VBD	O
+12-13	ready	O	O	JJ	O
+12-14	.	O	O	O	O

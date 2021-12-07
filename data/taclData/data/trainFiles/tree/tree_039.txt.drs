@@ -1,0 +1,218 @@
+#id=1
+#text=Yesterday I planted a tree . 
+1-1	Yesterday	1-3_tmod	planted	NN	O
+1-2	I	1-3_nsubj	planted	PRP	P1_gardener
+1-3	planted	O	O	VBD	O
+1-4	a	O	O	DT	O
+1-5	tree	1-3_dobj	planted	NN	P1_tree
+1-6	.	O	O	O	O
+
+#id=2
+#text=First I went to a nursery . 
+2-1	First	2-3_advmod	went	RB	O
+2-2	I	2-3_nsubj	went	PRP	P1_gardener
+2-3	went	O	O	VBD	O
+2-4	to	O	O	O	O
+2-5	a	O	O	DT	O
+2-6	nursery	2-3_prep_to	went	NN	P1_shop
+2-7	.	O	O	O	O
+
+#id=3
+#text=A nursery is a place where they have , flowers , plants , shrubs and trees . 
+3-1	A	O	O	DT	O
+3-2	nursery	O	O	NN	P1_shop
+3-3	is	O	O	VBZ	O
+3-4	a	O	O	DT	O
+3-5	place	O	O	NN	P1_NPart_place
+3-6	where	3-8_advmod	have	WRB	O
+3-7	they	3-8_nsubj	have	PRP	P1_staff
+3-8	have	O	O	VBP	O
+3-9	,	O	O	O	O
+3-10	flowers	O	O	NNS	P1_NPart_flowers
+3-11	,	O	O	O	O
+3-12	plants	O	O	NNS	P1_NPart_plants
+3-13	,	O	O	O	O
+3-14	shrubs	O	O	NNS	P1_NPart_shrubs
+3-15	and	O	O	O	O
+3-16	trees	O	O	NNS	P1_tree
+3-17	.	O	O	O	O
+
+#id=4
+#text=I chose a sapling - a young tree - paid for it and put in in the back of my pickup truck . 
+4-1	I	4-2_nsubj	chose	PRP	P1_gardener
+4-2	chose	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	sapling	4-10_nsubj	paid	NN	P1_tree
+4-5	-	O	O	O	O
+4-6	a	O	O	DT	O
+4-7	young	O	O	JJ	O
+4-8	tree	O	O	NN	P1_tree
+4-9	-	O	O	O	O
+4-10	paid	4-2_ccomp	chose	VBD	O
+4-11	for	O	O	O	O
+4-12	it	4-10_prep_for	paid	PRP	P1_tree
+4-13	and	O	O	O	O
+4-14	put	4-10_conj_and	paid	VBD	O
+4-15	in	4-14_prt	put	RP	P1_tree
+4-16	in	O	O	O	O
+4-17	the	O	O	DT	O
+4-18	back	4-14_prep_in	put	NN	P1_NPart_back
+4-19	of	O	O	O	O
+4-20	my	O	O	PRP$	P1_gardener
+4-21	pickup	O	O	NN	O
+4-22	truck	O	O	NN	P1_NPart_truck
+4-23	.	O	O	O	O
+
+#id=5
+#text=When I got home I got a shovel out of my shed and dug a hole where I wanted to tree to grow , making sure it was n't too near my house . 
+5-1	When	5-3_advmod	got	WRB	O
+5-2	I	5-3_nsubj	got	PRP	P1_gardener
+5-3	got	O	O	VBD	O
+5-4	home	5-3_dobj	got	NN	P1_NPart_home
+5-5	I	5-6_nsubj	got	PRP	P1_gardener
+5-6	got	O	O	VBD	O
+5-7	a	O	O	DT	O
+5-8	shovel	5-6_dobj	got	NN	P1_gardening_tool
+5-9	out	O	O	O	O
+5-10	of	O	O	O	O
+5-11	my	O	O	PRP$	P1_gardener
+5-12	shed	5-6_prep_out_of	got	NN	P1_NPart_shed
+5-13	and	O	O	O	O
+5-14	dug	5-6_conj_and	got	VBD	O
+5-15	a	O	O	DT	O
+5-16	hole	5-14_dobj	dug	NN	P1_hole
+5-17	where	5-19_advmod	wanted	WRB	O
+5-18	I	5-19_nsubj	wanted	PRP	P1_gardener
+5-19	wanted	5-14_advcl	dug	VBD	O
+5-20	to	O	O	O	O
+5-21	tree	5-19_prep_to	wanted	NN	P1_tree
+5-22	to	5-23_aux	grow	TO	O
+5-23	grow	5-19_xcomp	wanted	VB	O
+5-24	,	O	O	O	O
+5-25	making	5-3_vmod	got	VBG	O
+5-26	sure	5-25_acomp	making	JJ	O
+5-27	it	O	O	PRP	P1_tree
+5-28	was	O	O	VBD	O
+5-29	n't	O	O	RB	O
+5-30	too	O	O	RB	O
+5-31	near	O	O	O	O
+5-32	my	O	O	PRP$	P1_gardener
+5-33	house	O	O	NN	P1_NPart_house
+5-34	.	O	O	O	O
+
+#id=6
+#text=I dug the hole about two feet deep , a little bigger than the root ball on the bottom of my tree . 
+6-1	I	6-2_nsubj	dug	PRP	P1_gardener
+6-2	dug	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	hole	6-2_dobj	dug	NN	P1_hole
+6-5	about	O	O	O	O
+6-6	two	O	O	CD	O
+6-7	feet	O	O	NNS	P1_NPart_feet
+6-8	deep	6-2_prep_about	dug	JJ	O
+6-9	,	O	O	O	O
+6-10	a	O	O	DT	O
+6-11	little	O	O	RB	O
+6-12	bigger	6-2_acomp	dug	JJR	O
+6-13	than	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	root	O	O	NN	O
+6-16	ball	O	O	NN	P1_root
+6-17	on	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	bottom	6-2_prep_on	dug	NN	P1_NPart_bottom
+6-20	of	O	O	O	O
+6-21	my	O	O	PRP$	P1_gardener
+6-22	tree	O	O	NN	P1_tree
+6-23	.	O	O	O	O
+
+#id=7
+#text=Once I had the hole dug , I dropped the tree in , making sure the trunk was straight . 
+7-1	Once	7-3_mark	had	IN	O
+7-2	I	7-3_nsubj	had	PRP	P1_gardener
+7-3	had	7-9_advcl	dropped	VBD	O
+7-4	the	O	O	DT	O
+7-5	hole	7-3_dobj	had	NN	P1_hole
+7-6	dug	O	O	VBD	O
+7-7	,	O	O	O	O
+7-8	I	7-9_nsubj	dropped	PRP	P1_gardener
+7-9	dropped	O	O	VBD	O
+7-10	the	O	O	DT	O
+7-11	tree	7-9_dobj	dropped	NN	P1_tree
+7-12	in	7-9_prep	dropped	IN	O
+7-13	,	O	O	O	O
+7-14	making	7-9_vmod	dropped	VBG	O
+7-15	sure	7-14_acomp	making	JJ	O
+7-16	the	O	O	DT	O
+7-17	trunk	O	O	NN	P1_tree
+7-18	was	O	O	VBD	O
+7-19	straight	O	O	RB	O
+7-20	.	O	O	O	O
+
+#id=8
+#text=I cut the burlap surrounding the root ball , and then filled in the space around the tree with the dirt I had dug out earlier . 
+8-1	I	8-2_nsubj	cut	PRP	P1_gardener
+8-2	cut	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	burlap	8-2_dobj	cut	NN	P1_wrapping
+8-5	surrounding	O	O	VBG	O
+8-6	the	O	O	DT	O
+8-7	root	O	O	NN	O
+8-8	ball	8-5_dobj	surrounding	NN	P1_root
+8-9	,	O	O	O	O
+8-10	and	O	O	O	O
+8-11	then	8-12_advmod	filled	RB	O
+8-12	filled	8-5_conj_and	surrounding	VBN	O
+8-13	in	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	space	8-12_prep_in	filled	NN	P1_hole
+8-16	around	O	O	O	O
+8-17	the	O	O	DT	O
+8-18	tree	O	O	NN	P1_tree
+8-19	with	O	O	O	O
+8-20	the	O	O	DT	O
+8-21	dirt	8-2_prep_with	cut	NN	P1_dirt
+8-22	I	8-24_nsubj	dug	PRP	P1_gardener
+8-23	had	8-24_aux	dug	VBD	O
+8-24	dug	O	O	VBD	O
+8-25	out	8-24_prt	dug	RP	O
+8-26	earlier	8-24_advmod	dug	RBR	O
+8-27	.	O	O	O	O
+
+#id=9
+#text=Finally , I grabbed a garden hose and watered the tree , making sure to give it a good soaking . 
+9-1	Finally	9-4_advmod	grabbed	RB	O
+9-2	,	O	O	O	O
+9-3	I	9-4_nsubj	grabbed	PRP	P1_gardener
+9-4	grabbed	O	O	VBD	O
+9-5	a	O	O	DT	O
+9-6	garden	O	O	NN	O
+9-7	hose	9-4_dobj	grabbed	NN	P2_gardening_tool
+9-8	and	O	O	O	O
+9-9	watered	9-4_conj_and	grabbed	VBD	O
+9-10	the	O	O	DT	O
+9-11	tree	9-9_dobj	watered	NN	P1_tree
+9-12	,	O	O	O	O
+9-13	making	9-4_vmod	grabbed	VBG	O
+9-14	sure	9-13_acomp	making	JJ	O
+9-15	to	9-16_aux	give	TO	O
+9-16	give	O	O	VB	O
+9-17	it	9-16_iobj	give	PRP	P1_tree
+9-18	a	O	O	DT	O
+9-19	good	O	O	JJ	O
+9-20	soaking	9-16_dobj	give	NN	O
+9-21	.	O	O	O	O
+
+#id=10
+#text=The tree should give us pleasure for years to come . 
+10-1	The	O	O	DT	O
+10-2	tree	10-4_nsubj	give	NN	P1_tree
+10-3	should	10-4_aux	give	MD	O
+10-4	give	O	O	VB	O
+10-5	us	10-4_iobj	give	PRP	P1_gardener
+10-6	pleasure	10-4_dobj	give	NN	P1_NPart_pleasure
+10-7	for	O	O	O	O
+10-8	years	O	O	NNS	P1_time
+10-9	to	10-10_aux	come	TO	O
+10-10	come	O	O	VB	O
+10-11	.	O	O	O	O

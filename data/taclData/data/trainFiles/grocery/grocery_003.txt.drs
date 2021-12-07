@@ -1,0 +1,230 @@
+#id=1
+#text=Upon the realization I was out of milk and had nothing to make for dinner , I decided to stop at the grocery store . 
+1-1	Upon	O	O	O	O
+1-2	the	O	O	DT	O
+1-3	realization	1-5_prep_upon	was	NN	O
+1-4	I	1-5_nsubj	was	PRP	P1_shopper
+1-5	was	1-18_ccomp	decided	VBD	O
+1-6	out	O	O	O	O
+1-7	of	O	O	O	O
+1-8	milk	1-5_prep_out_of	was	NN	P1_groceries
+1-9	and	O	O	O	O
+1-10	had	1-5_conj_and	was	VBD	O
+1-11	nothing	1-10_dobj	had	NN	O
+1-12	to	1-13_aux	make	TO	O
+1-13	make	O	O	VB	O
+1-14	for	O	O	O	O
+1-15	dinner	1-13_prep_for	make	NN	P1_NPart_dinner
+1-16	,	O	O	O	O
+1-17	I	1-18_nsubj	decided	PRP	P1_shopper
+1-18	decided	O	O	VBD	O
+1-19	to	1-20_aux	stop	TO	O
+1-20	stop	1-18_xcomp	decided	VB	O
+1-21	at	O	O	O	O
+1-22	the	O	O	DT	O
+1-23	grocery	O	O	NN	O
+1-24	store	1-20_prep_at	stop	NN	P1_grocery_shop
+1-25	.	O	O	O	O
+
+#id=2
+#text=It was down the street from my apartment , so I hopped into my car and was there within minutes . 
+2-1	It	2-2_nsubj	was	PRP	P1_grocery_shop
+2-2	was	O	O	VBD	O
+2-3	down	2-2_advmod	was	RB	O
+2-4	the	O	O	DT	O
+2-5	street	O	O	NN	P1_NPart_street
+2-6	from	O	O	O	O
+2-7	my	O	O	PRP$	P1_shopper
+2-8	apartment	2-2_prep_from	was	NN	P1_NPart_apartment
+2-9	,	O	O	O	O
+2-10	so	2-2_dep	was	IN	O
+2-11	I	2-12_nsubj	hopped	PRP	P1_shopper
+2-12	hopped	2-2_parataxis	was	VBD	O
+2-13	into	O	O	O	O
+2-14	my	O	O	PRP$	P1_shopper
+2-15	car	2-12_prep_into	hopped	NN	P1_vehicle
+2-16	and	O	O	O	O
+2-17	was	2-12_conj_and	hopped	VBD	O
+2-18	there	2-17_advmod	was	RB	P1_grocery_shop
+2-19	within	O	O	O	O
+2-20	minutes	2-17_prep_within	was	NNS	O
+2-21	.	O	O	O	O
+
+#id=3
+#text=I grabbed a basket and headed to the back right corner to get some ground beef , then headed to the back left to grab some milk . 
+3-1	I	3-2_nsubj	grabbed	PRP	P1_shopper
+3-2	grabbed	O	O	VBD	O
+3-3	a	O	O	DT	O
+3-4	basket	3-2_dobj	grabbed	NN	P1_shopping_cart/basket
+3-5	and	O	O	O	O
+3-6	headed	3-2_conj_and	grabbed	VBD	O
+3-7	to	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	back	O	O	JJ	O
+3-10	right	O	O	NN	O
+3-11	corner	3-6_prep_to	headed	NN	P1_section
+3-12	to	3-13_aux	get	TO	O
+3-13	get	3-6_xcomp	headed	VB	O
+3-14	some	O	O	DT	O
+3-15	ground	O	O	NN	O
+3-16	beef	3-13_dobj	get	NN	P2_groceries
+3-17	,	O	O	O	O
+3-18	then	3-19_advmod	headed	RB	O
+3-19	headed	O	O	VBN	O
+3-20	to	O	O	O	O
+3-21	the	O	O	DT	O
+3-22	back	3-19_prep_to	headed	NN	O
+3-23	left	O	O	VBN	P2_section
+3-24	to	3-25_aux	grab	TO	O
+3-25	grab	3-23_xcomp	left	VB	O
+3-26	some	O	O	DT	O
+3-27	milk	3-25_dobj	grab	NN	P1_groceries
+3-28	.	O	O	O	O
+
+#id=4
+#text=My journey then continued to the produce department where I snagged some broccoli and onions . 
+4-1	My	O	O	PRP$	P1_shopper
+4-2	journey	4-4_nsubj	continued	NN	P1_NPart_journey
+4-3	then	4-4_advmod	continued	RB	O
+4-4	continued	O	O	VBD	O
+4-5	to	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	produce	O	O	NN	O
+4-8	department	4-4_prep_to	continued	NN	P3_section
+4-9	where	4-11_advmod	snagged	WRB	O
+4-10	I	4-11_nsubj	snagged	PRP	P1_shopper
+4-11	snagged	4-4_advcl	continued	VBN	O
+4-12	some	O	O	DT	O
+4-13	broccoli	4-11_dobj	snagged	NN	P3_groceries
+4-14	and	O	O	O	O
+4-15	onions	O	O	NNS	P4_groceries
+4-16	.	O	O	O	O
+
+#id=5
+#text=With my eyes fixed on the checkout line , I headed in that direction trying to keep my eyes away from the ice cream section . 
+5-1	With	O	O	O	O
+5-2	my	O	O	PRP$	P1_shopper
+5-3	eyes	5-11_prep_with	headed	NNS	P1_NPart_eyes
+5-4	fixed	O	O	VBN	O
+5-5	on	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	checkout	O	O	NN	O
+5-8	line	5-4_prep_on	fixed	NN	P1_line
+5-9	,	O	O	O	O
+5-10	I	5-11_nsubj	headed	PRP	P1_shopper
+5-11	headed	O	O	VBD	O
+5-12	in	O	O	O	O
+5-13	that	O	O	DT	O
+5-14	direction	5-11_prep_in	headed	NN	P1_NPart_direction
+5-15	trying	O	O	VBG	O
+5-16	to	5-17_aux	keep	TO	O
+5-17	keep	5-15_xcomp	trying	VB	O
+5-18	my	O	O	PRP$	P1_shopper
+5-19	eyes	5-17_dobj	keep	NNS	P1_NPart_eyes
+5-20	away	O	O	O	O
+5-21	from	O	O	O	O
+5-22	the	O	O	DT	O
+5-23	ice	O	O	NN	O
+5-24	cream	O	O	NN	O
+5-25	section	5-17_prep_away_from	keep	NN	P4_section
+5-26	.	O	O	O	O
+
+#id=6
+#text=I failed and took some chocolate ice cream , went to check out . 
+6-1	I	6-2_nsubj	failed	PRP	P1_shopper
+6-2	failed	O	O	VBD	O
+6-3	and	O	O	O	O
+6-4	took	6-2_conj_and	failed	VBD	O
+6-5	some	O	O	DT	O
+6-6	chocolate	O	O	NN	O
+6-7	ice	O	O	NN	O
+6-8	cream	6-4_dobj	took	NN	P5_groceries
+6-9	,	O	O	O	O
+6-10	went	6-2_dep	failed	VBD	O
+6-11	to	6-12_aux	check	TO	O
+6-12	check	6-10_xcomp	went	VB	O
+6-13	out	6-12_prt	check	RP	P1_cash_desk
+6-14	.	O	O	O	O
+
+#id=7
+#text=The line was long , my eyes then wandered to the tabloids while the line moved forward . 
+7-1	The	O	O	DT	O
+7-2	line	O	O	NN	P2_line
+7-3	was	O	O	VBD	O
+7-4	long	7-9_ccomp	wandered	JJ	O
+7-5	,	O	O	O	O
+7-6	my	O	O	PRP$	P1_shopper
+7-7	eyes	7-9_nsubj	wandered	NNS	P1_NPart_eyes
+7-8	then	7-9_advmod	wandered	RB	O
+7-9	wandered	O	O	VBD	O
+7-10	to	O	O	O	O
+7-11	the	O	O	DT	O
+7-12	tabloids	7-9_prep_to	wandered	NNS	P6_groceries
+7-13	while	7-16_mark	moved	IN	O
+7-14	the	O	O	DT	O
+7-15	line	7-16_nsubj	moved	NN	P2_line
+7-16	moved	7-9_advcl	wandered	VBD	O
+7-17	forward	7-16_advmod	moved	RB	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=I put my products onto the conveyer belt and smiled at the check out lady . 
+8-1	I	8-2_nsubj	put	PRP	P1_shopper
+8-2	put	O	O	VBD	O
+8-3	my	O	O	PRP$	P1_shopper
+8-4	products	8-2_dobj	put	NNS	P7_groceries
+8-5	onto	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	conveyer	O	O	NN	O
+8-8	belt	8-2_prep_onto	put	NN	P1_conveyor_belt
+8-9	and	O	O	O	O
+8-10	smiled	8-2_conj_and	put	VBD	O
+8-11	at	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	check	8-10_prep_at	smiled	NN	O
+8-14	out	O	O	O	O
+8-15	lady	8-10_prep_out	smiled	NN	P1_grocery_staff
+8-16	.	O	O	O	O
+
+#id=9
+#text=After I typed in my phone number for a slight discount , I swung my purse around me to get my wallet and paid . 
+9-1	After	9-3_mark	typed	IN	O
+9-2	I	9-3_nsubj	typed	PRP	P1_shopper
+9-3	typed	9-14_advcl	swung	VBN	O
+9-4	in	O	O	O	O
+9-5	my	O	O	PRP$	P1_shopper
+9-6	phone	O	O	NN	O
+9-7	number	9-3_prep_in	typed	NN	P1_NPart_number
+9-8	for	O	O	O	O
+9-9	a	O	O	DT	O
+9-10	slight	O	O	JJ	O
+9-11	discount	O	O	NN	P1_saving
+9-12	,	O	O	O	O
+9-13	I	9-14_nsubj	swung	PRP	P1_shopper
+9-14	swung	O	O	VBD	O
+9-15	my	O	O	PRP$	P1_shopper
+9-16	purse	9-14_dobj	swung	NN	P1_NPart_purse
+9-17	around	O	O	O	O
+9-18	me	9-14_prep_around	swung	PRP	P1_shopper
+9-19	to	9-20_aux	get	TO	O
+9-20	get	9-14_vmod	swung	VB	O
+9-21	my	O	O	PRP$	P1_shopper
+9-22	wallet	9-20_dobj	get	NN	P1_NPart_wallet
+9-23	and	O	O	O	O
+9-24	paid	9-14_conj_and	swung	VBD	O
+9-25	.	O	O	O	O
+
+#id=10
+#text=I took my bags of stuff and walked to my car . 
+10-1	I	10-2_nsubj	took	PRP	P1_shopper
+10-2	took	O	O	VBD	O
+10-3	my	O	O	PRP$	P1_shopper
+10-4	bags	10-2_dobj	took	NNS	P1_shopping_bags
+10-5	of	O	O	O	O
+10-6	stuff	O	O	NN	P7_groceries
+10-7	and	O	O	O	O
+10-8	walked	10-2_conj_and	took	VBD	O
+10-9	to	O	O	O	O
+10-10	my	O	O	PRP$	P1_shopper
+10-11	car	10-8_prep_to	walked	NN	P1_vehicle
+10-12	.	O	O	O	O

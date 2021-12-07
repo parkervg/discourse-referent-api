@@ -1,0 +1,248 @@
+#id=1
+#text=I was riding my bike yesterday and somehow I must have run over something and punctured the front tire of my bike . 
+1-1	I	1-3_nsubj	riding	PRP	P1_rider
+1-2	was	1-3_aux	riding	VBD	O
+1-3	riding	O	O	VBG	O
+1-4	my	O	O	PRP$	P1_rider
+1-5	bike	1-3_dobj	riding	NN	P1_bicycle
+1-6	yesterday	1-3_tmod	riding	NN	P1_NPart_yesterday
+1-7	and	O	O	O	O
+1-8	somehow	1-12_advmod	run	RB	O
+1-9	I	1-12_nsubj	run	PRP	P1_rider
+1-10	must	1-12_aux	run	MD	O
+1-11	have	1-12_aux	run	VB	O
+1-12	run	1-3_conj_and	riding	VBN	O
+1-13	over	O	O	O	O
+1-14	something	1-12_prep_over	run	NN	O
+1-15	and	O	O	O	O
+1-16	punctured	1-12_conj_and	run	VBN	O
+1-17	the	O	O	DT	O
+1-18	front	O	O	JJ	O
+1-19	tire	1-16_dobj	punctured	NN	P1_tire
+1-20	of	O	O	O	O
+1-21	my	O	O	PRP$	P1_rider
+1-22	bike	O	O	NN	P1_bicycle
+1-23	.	O	O	O	O
+
+#id=2
+#text=I measured my tire height and wrote down my model of my bike before I wen to the bike shop to buy a new inner tube . 
+2-1	I	2-2_nsubj	measured	PRP	P1_rider
+2-2	measured	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_rider
+2-4	tire	O	O	NN	O
+2-5	height	2-2_dobj	measured	NN	P1_other
+2-6	and	O	O	O	O
+2-7	wrote	2-2_conj_and	measured	VBD	O
+2-8	down	2-7_prt	wrote	RP	O
+2-9	my	O	O	PRP$	P1_rider
+2-10	model	2-7_dobj	wrote	NN	P2_other
+2-11	of	O	O	O	O
+2-12	my	O	O	PRP$	P2_rider
+2-13	bike	O	O	NN	P1_bicycle
+2-14	before	2-16_mark	wen	IN	O
+2-15	I	2-16_nsubj	wen	PRP	P1_rider
+2-16	wen	2-2_advcl	measured	VBP	O
+2-17	to	O	O	O	O
+2-18	the	O	O	DT	O
+2-19	bike	O	O	NN	O
+2-20	shop	2-16_prep_to	wen	NN	P1_shop
+2-21	to	2-22_aux	buy	TO	O
+2-22	buy	2-16_xcomp	wen	VB	O
+2-23	a	O	O	DT	O
+2-24	new	O	O	JJ	O
+2-25	inner	O	O	JJ	O
+2-26	tube	2-22_dobj	buy	NN	P1_spare_tube
+2-27	.	O	O	O	O
+
+#id=3
+#text=I go to the bike shop and the man behind the counter asked what I needed help with . 
+3-1	I	3-2_nsubj	go	PRP	P1_rider
+3-2	go	O	O	VBP	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	bike	O	O	NN	O
+3-6	shop	3-2_prep_to	go	NN	P1_shop
+3-7	and	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	man	3-13_nsubj	asked	NN	P3_other
+3-10	behind	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	counter	O	O	NN	P1_NPart_counter
+3-13	asked	3-2_conj_and	go	VBD	O
+3-14	what	3-16_prep_with	needed	WP	O
+3-15	I	3-16_nsubj	needed	PRP	P1_rider
+3-16	needed	3-13_ccomp	asked	VBD	O
+3-17	help	3-16_dobj	needed	NN	P1_NPart_help
+3-18	with	O	O	O	O
+3-19	.	O	O	O	O
+
+#id=4
+#text=I explained I needed a new inner tube for my bike since I had gotten a flat tire . 
+4-1	I	4-2_nsubj	explained	PRP	P1_rider
+4-2	explained	O	O	VBD	O
+4-3	I	4-4_nsubj	needed	PRP	P1_rider
+4-4	needed	4-2_ccomp	explained	VBD	O
+4-5	a	O	O	DT	O
+4-6	new	O	O	JJ	O
+4-7	inner	O	O	JJ	O
+4-8	tube	4-4_dobj	needed	NN	P1_spare_tube
+4-9	for	O	O	O	O
+4-10	my	O	O	PRP$	P1_rider
+4-11	bike	4-4_prep_for	needed	NN	P1_bicycle
+4-12	since	4-15_mark	gotten	IN	O
+4-13	I	4-15_nsubj	gotten	PRP	P1_rider
+4-14	had	4-15_aux	gotten	VBD	O
+4-15	gotten	4-4_advcl	needed	VBN	O
+4-16	a	O	O	DT	O
+4-17	flat	O	O	JJ	O
+4-18	tire	4-15_dobj	gotten	NN	P1_tire
+4-19	.	O	O	O	O
+
+#id=5
+#text=I showed him the model number and the tire height an d he quickly went a got the inner tube I needed . 
+5-1	I	5-2_nsubj	showed	PRP	P1_rider
+5-2	showed	O	O	VBD	O
+5-3	him	5-2_iobj	showed	PRP	P3_other
+5-4	the	O	O	DT	O
+5-5	model	O	O	NN	O
+5-6	number	5-2_dobj	showed	NN	P4_other
+5-7	and	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	tire	O	O	NN	O
+5-10	height	O	O	NN	P1_other
+5-11	an	O	O	,	O
+5-12	d	O	O	SYM	O
+5-13	he	5-15_nsubj	went	PRP	P3_other
+5-14	quickly	5-15_advmod	went	RB	O
+5-15	went	O	O	VBD	O
+5-16	a	5-17_nsubj	got	SYM	O
+5-17	got	5-15_ccomp	went	VBD	O
+5-18	the	O	O	DT	O
+5-19	inner	O	O	JJ	O
+5-20	tube	5-17_dobj	got	NN	P1_spare_tube
+5-21	I	5-22_nsubj	needed	PRP	P1_rider
+5-22	needed	O	O	VBD	O
+5-23	.	O	O	O	O
+
+#id=6
+#text=I payed for my purchase , thank the man and went home to fix my bike . 
+6-1	I	6-2_nsubj	payed	PRP	P1_rider
+6-2	payed	O	O	VBD	O
+6-3	for	O	O	O	O
+6-4	my	O	O	PRP$	P1_rider
+6-5	purchase	6-2_prep_for	payed	NN	P1_spare_tube
+6-6	,	O	O	O	O
+6-7	thank	6-2_conj_and	payed	VBP	O
+6-8	the	O	O	DT	O
+6-9	man	6-7_dobj	thank	NN	P3_other
+6-10	and	O	O	O	O
+6-11	went	6-2_conj_and	payed	VBD	O
+6-12	home	6-11_dobj	went	NN	O
+6-13	to	6-14_aux	fix	TO	O
+6-14	fix	6-11_vmod	went	VB	O
+6-15	my	O	O	PRP$	P1_rider
+6-16	bike	6-14_dobj	fix	NN	P1_bicycle
+6-17	.	O	O	O	O
+
+#id=7
+#text=I took the front tire off and gently pried the outer tire off . 
+7-1	I	7-2_nsubj	took	PRP	P1_rider
+7-2	took	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	front	O	O	JJ	O
+7-5	tire	7-2_dobj	took	NN	P1_tire
+7-6	off	7-2_prt	took	RP	O
+7-7	and	O	O	O	O
+7-8	gently	7-9_advmod	pried	RB	O
+7-9	pried	7-2_conj_and	took	VBD	O
+7-10	the	O	O	DT	O
+7-11	outer	O	O	JJ	O
+7-12	tire	7-9_dobj	pried	NN	P1_tire
+7-13	off	7-9_prt	pried	RP	O
+7-14	.	O	O	O	O
+
+#id=8
+#text=The inner tube is sort of pliable so I stretched it over and off of the rim . 
+8-1	The	O	O	DT	O
+8-2	inner	O	O	JJ	O
+8-3	tube	O	O	NN	P1_tire
+8-4	is	O	O	VBZ	O
+8-5	sort	O	O	NN	O
+8-6	of	O	O	IN	O
+8-7	pliable	O	O	JJ	O
+8-8	so	8-10_mark	stretched	IN	O
+8-9	I	8-10_nsubj	stretched	PRP	P1_rider
+8-10	stretched	O	O	VBD	O
+8-11	it	8-10_dobj	stretched	PRP	P1_tire
+8-12	over	8-10_prt	stretched	RP	O
+8-13	and	O	O	CC	O
+8-14	off	O	O	RP	O
+8-15	of	O	O	O	O
+8-16	the	O	O	DT	O
+8-17	rim	8-10_prep_of	stretched	NN	P1_rim
+8-18	.	O	O	O	O
+
+#id=9
+#text=I took the new inner tube and stretched it on the metal rim , making sure the stem when you inflate the tire was lined up with the hole on the metal rim . 
+9-1	I	9-2_nsubj	took	PRP	P1_rider
+9-2	took	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	new	O	O	JJ	O
+9-5	inner	O	O	JJ	O
+9-6	tube	9-2_dobj	took	NN	P1_spare_tube
+9-7	and	O	O	O	O
+9-8	stretched	9-2_conj_and	took	VBD	O
+9-9	it	9-8_dobj	stretched	PRP	P1_spare_tube
+9-10	on	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	metal	O	O	NN	O
+9-13	rim	9-8_prep_on	stretched	NN	P1_rim
+9-14	,	O	O	O	O
+9-15	making	9-8_dep	stretched	VBG	O
+9-16	sure	9-15_advmod	making	RB	O
+9-17	the	O	O	DT	O
+9-18	stem	O	O	NN	P1_bicycle_small_detail
+9-19	when	9-21_advmod	inflate	WRB	O
+9-20	you	9-21_nsubj	inflate	PRP	P1_rider
+9-21	inflate	9-15_advcl	making	VB	O
+9-22	the	O	O	DT	O
+9-23	tire	9-25_nsubjpass	lined	NN	P1_spare_tube
+9-24	was	9-25_auxpass	lined	VBD	O
+9-25	lined	9-21_ccomp	inflate	VBN	O
+9-26	up	9-25_prt	lined	RP	O
+9-27	with	O	O	O	O
+9-28	the	O	O	DT	O
+9-29	hole	9-25_prep_with	lined	NN	P2_bicycle_small_detail
+9-30	on	O	O	O	O
+9-31	the	O	O	DT	O
+9-32	metal	O	O	NN	O
+9-33	rim	O	O	NN	P1_rim
+9-34	.	O	O	O	O
+
+#id=10
+#text=I replaced the outer tire and re-inflated the tire with my bicycle pump . 
+10-1	I	10-2_nsubj	replaced	PRP	P1_rider
+10-2	replaced	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	outer	O	O	JJ	O
+10-5	tire	10-2_dobj	replaced	NN	P1_spare_tube
+10-6	and	O	O	O	O
+10-7	re-inflated	10-2_conj_and	replaced	VBD	O
+10-8	the	O	O	DT	O
+10-9	tire	10-7_dobj	re-inflated	NN	P1_spare_tube
+10-10	with	O	O	O	O
+10-11	my	O	O	PRP$	P1_rider
+10-12	bicycle	O	O	NN	O
+10-13	pump	10-7_prep_with	re-inflated	NN	P1_tool
+10-14	.	O	O	O	O
+
+#id=11
+#text=Now I can ride my bike again ! 
+11-1	Now	11-4_advmod	ride	RB	O
+11-2	I	11-4_nsubj	ride	PRP	P1_rider
+11-3	can	11-4_aux	ride	MD	O
+11-4	ride	O	O	VB	O
+11-5	my	O	O	PRP$	P1_rider
+11-6	bike	11-4_dobj	ride	NN	P1_bicycle
+11-7	again	11-4_advmod	ride	RB	O
+11-8	!	O	O	O	O

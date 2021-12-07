@@ -1,0 +1,244 @@
+#id=1
+#text=Today , I decided I really needed to get a haircut , so I went by Lou ' s. Lou has been my barber since I first had hair , and my father went there before that . 
+1-1	Today	1-4_tmod	decided	NN	O
+1-2	,	O	O	O	O
+1-3	I	1-4_nsubj	decided	PRP	P1_customer
+1-4	decided	O	O	VBD	O
+1-5	I	1-7_nsubj	needed	PRP	P1_customer
+1-6	really	1-7_advmod	needed	RB	O
+1-7	needed	1-4_ccomp	decided	VBD	O
+1-8	to	1-9_aux	get	TO	O
+1-9	get	1-7_xcomp	needed	VB	O
+1-10	a	O	O	DT	O
+1-11	haircut	1-9_dobj	get	NN	P1_haircut
+1-12	,	O	O	O	O
+1-13	so	1-4_dep	decided	IN	O
+1-14	I	1-15_nsubj	went	PRP	P1_customer
+1-15	went	1-4_dep	decided	VBD	O
+1-16	by	O	O	O	O
+1-17	Lou	O	O	NNP	O
+1-18	'	O	O	O	O
+1-19	s.	1-15_prep_by	went	NN	P1_salon
+1-20	Lou	O	O	NNP	P1_hairdresser
+1-21	has	O	O	VBZ	O
+1-22	been	O	O	VBN	O
+1-23	my	O	O	PRP$	P1_customer
+1-24	barber	1-4_dep	decided	NN	P1_hairdresser
+1-25	since	1-28_mark	had	IN	O
+1-26	I	1-28_nsubj	had	PRP	P1_customer
+1-27	first	1-28_advmod	had	RB	O
+1-28	had	O	O	VBD	O
+1-29	hair	1-28_dobj	had	NN	P1_hair
+1-30	,	O	O	O	O
+1-31	and	O	O	O	O
+1-32	my	O	O	PRP$	P1_customer
+1-33	father	1-34_nsubj	went	NN	P2_customer
+1-34	went	1-4_conj_and	decided	VBD	O
+1-35	there	1-34_advmod	went	RB	O
+1-36	before	O	O	O	O
+1-37	that	1-34_prep_before	went	DT	O
+1-38	.	O	O	O	O
+
+#id=2
+#text=When you enter his place , he immediately says ' ? 
+2-1	When	2-3_advmod	enter	WRB	O
+2-2	you	2-3_nsubj	enter	PRP	P1_customer
+2-3	enter	2-9_advcl	says	VBP	O
+2-4	his	O	O	PRP$	P1_hairdresser
+2-5	place	2-3_dobj	enter	NN	P1_salon
+2-6	,	O	O	O	O
+2-7	he	2-9_nsubj	says	PRP	P1_hairdresser
+2-8	immediately	2-9_advmod	says	RB	O
+2-9	says	O	O	VBZ	O
+2-10	'	O	O	O	O
+2-11	?	O	O	O	O
+
+#id=3
+#text=welcome ' . 
+3-1	welcome	O	O	O	O
+3-2	'	O	O	O	O
+3-3	.	O	O	O	O
+
+#id=4
+#text=He sits you in his adjustable barber ' s chair , and gets just the right height while facing you toward his wall size mirror . 
+4-1	He	4-2_nsubj	sits	PRP	P1_hairdresser
+4-2	sits	O	O	VBZ	O
+4-3	you	4-2_dobj	sits	PRP	P1_customer
+4-4	in	O	O	O	O
+4-5	his	O	O	PRP$	P1_hairdresser
+4-6	adjustable	O	O	JJ	O
+4-7	barber	O	O	NN	P1_hairdresser
+4-8	'	O	O	O	O
+4-9	s	O	O	JJ	O
+4-10	chair	4-2_prep_in	sits	NN	P1_chair
+4-11	,	O	O	O	O
+4-12	and	O	O	O	O
+4-13	gets	4-2_conj_and	sits	VBZ	O
+4-14	just	O	O	RB	O
+4-15	the	O	O	DT	O
+4-16	right	O	O	JJ	O
+4-17	height	4-13_dobj	gets	NN	P1_NPart_height
+4-18	while	4-25_mark	mirror	IN	O
+4-19	facing	4-25_csubj	mirror	VBG	O
+4-20	you	4-19_dobj	facing	PRP	P1_customer
+4-21	toward	O	O	O	O
+4-22	his	O	O	PRP$	P1_hairdresser
+4-23	wall	O	O	NN	O
+4-24	size	4-19_prep_toward	facing	NN	O
+4-25	mirror	4-13_advcl	gets	VBP	P1_mirror
+4-26	.	O	O	O	O
+
+#id=5
+#text=He pulls out his comb and pulls it through your hair as you both talk about the length the hair needs to be , and whether you need a shave also . 
+5-1	He	5-2_nsubj	pulls	PRP	P1_hairdresser
+5-2	pulls	O	O	VBZ	O
+5-3	out	5-2_prt	pulls	RP	O
+5-4	his	O	O	PRP$	P1_hairdresser
+5-5	comb	5-2_dobj	pulls	NN	P1_comb
+5-6	and	O	O	O	O
+5-7	pulls	5-2_conj_and	pulls	VBZ	O
+5-8	it	5-7_dobj	pulls	PRP	P1_comb
+5-9	through	O	O	O	O
+5-10	your	O	O	PRP$	P1_customer
+5-11	hair	5-7_prep_through	pulls	NN	P1_hair
+5-12	as	5-15_mark	talk	IN	O
+5-13	you	5-15_nsubj	talk	PRP	P1_hairdresser_customer
+5-14	both	5-15_dep	talk	DT	O
+5-15	talk	5-2_advcl	pulls	VBP	O
+5-16	about	O	O	O	O
+5-17	the	O	O	DT	O
+5-18	length	5-15_prep_about	talk	NN	P1_NPart_length
+5-19	the	O	O	DT	O
+5-20	hair	5-21_nsubj	needs	NN	P1_hair
+5-21	needs	5-15_ccomp	talk	VBZ	O
+5-22	to	5-23_aux	be	TO	O
+5-23	be	5-21_xcomp	needs	VB	O
+5-24	,	O	O	O	O
+5-25	and	O	O	O	O
+5-26	whether	5-28_mark	need	IN	O
+5-27	you	5-28_nsubj	need	PRP	P1_customer
+5-28	need	5-21_conj_and	needs	VBP	O
+5-29	a	O	O	DT	O
+5-30	shave	5-28_dobj	need	NN	P1_other
+5-31	also	5-28_advmod	need	RB	O
+5-32	.	O	O	O	O
+
+#id=6
+#text=Then the magic happens . 
+6-1	Then	6-4_advmod	happens	RB	O
+6-2	the	O	O	DT	O
+6-3	magic	6-4_nsubj	happens	NN	O
+6-4	happens	O	O	VBZ	O
+6-5	.	O	O	O	O
+
+#id=7
+#text=He turns you away from the mirror and starts clipping away , the whole time talking with you about the weather and sports . 
+7-1	He	7-2_nsubj	turns	PRP	P1_hairdresser
+7-2	turns	O	O	VBZ	O
+7-3	you	7-2_dobj	turns	PRP	P1_customer
+7-4	away	7-2_prt	turns	RP	O
+7-5	from	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	mirror	7-2_prep_from	turns	NN	P1_mirror
+7-8	and	O	O	O	O
+7-9	starts	7-2_conj_and	turns	VBZ	O
+7-10	clipping	7-9_xcomp	starts	VBG	O
+7-11	away	7-10_advmod	clipping	RB	O
+7-12	,	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	whole	O	O	JJ	O
+7-15	time	7-16_nsubj	talking	NN	O
+7-16	talking	7-10_vmod	clipping	VBG	O
+7-17	with	O	O	O	O
+7-18	you	7-16_prep_with	talking	PRP	P1_customer
+7-19	about	O	O	O	O
+7-20	the	O	O	DT	O
+7-21	weather	7-16_prep_about	talking	NN	P1_NPart_weather
+7-22	and	O	O	O	O
+7-23	sports	O	O	NNS	P1_NPart_sports
+7-24	.	O	O	O	O
+
+#id=8
+#text=He asks about your family , and whether the fish are biting down at the local lake . 
+8-1	He	8-2_nsubj	asks	PRP	P1_hairdresser
+8-2	asks	O	O	VBZ	O
+8-3	about	8-2_dep	asks	IN	O
+8-4	your	O	O	PRP$	P1_customer
+8-5	family	O	O	NN	P1_NPart_family
+8-6	,	O	O	O	O
+8-7	and	O	O	O	O
+8-8	whether	8-12_mark	biting	IN	O
+8-9	the	O	O	DT	O
+8-10	fish	8-12_nsubj	biting	NN	P1_NPart_fish
+8-11	are	8-12_aux	biting	VBP	O
+8-12	biting	O	O	VBG	O
+8-13	down	8-12_prt	biting	RP	O
+8-14	at	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	local	O	O	JJ	O
+8-17	lake	8-12_prep_at	biting	NN	P1_NPart_lake
+8-18	.	O	O	O	O
+
+#id=9
+#text=In what seems just like seconds , Lou takes one last clip and spins you back to the mirror to show you his creation on your head . 
+9-1	In	9-9_dep	takes	IN	O
+9-2	what	9-3_nsubj	seems	WP	O
+9-3	seems	O	O	VBZ	O
+9-4	just	9-3_advmod	seems	RB	O
+9-5	like	O	O	O	O
+9-6	seconds	9-3_prep_like	seems	NNS	P1_NPart_seconds
+9-7	,	O	O	O	O
+9-8	Lou	9-9_nsubj	takes	NNP	P1_hairdresser
+9-9	takes	O	O	VBZ	O
+9-10	one	O	O	CD	O
+9-11	last	O	O	JJ	O
+9-12	clip	9-9_dobj	takes	NN	O
+9-13	and	O	O	O	O
+9-14	spins	9-9_conj_and	takes	VBZ	O
+9-15	you	9-14_dobj	spins	PRP	P1_customer
+9-16	back	9-14_prt	spins	RP	O
+9-17	to	O	O	O	O
+9-18	the	O	O	DT	O
+9-19	mirror	9-14_prep_to	spins	NN	P1_mirror
+9-20	to	9-21_aux	show	TO	O
+9-21	show	9-9_xcomp	takes	VB	O
+9-22	you	O	O	PRP	P1_customer
+9-23	his	O	O	PRP$	P1_hairdresser
+9-24	creation	9-21_xcomp	show	NN	P1_haircut
+9-25	on	O	O	O	O
+9-26	your	O	O	PRP$	P1_customer
+9-27	head	O	O	NN	P1_NPart_head
+9-28	.	O	O	O	O
+
+#id=10
+#text=When you are satisfied , you pay him plus a little extra for the sheer perfection of this haircut , and tell him you will see him next month . 
+10-1	When	O	O	WRB	O
+10-2	you	O	O	PRP	P1_customer
+10-3	are	O	O	VBP	O
+10-4	satisfied	10-7_advcl	pay	JJ	O
+10-5	,	O	O	O	O
+10-6	you	10-7_nsubj	pay	PRP	P1_customer
+10-7	pay	10-26_dep	see	VB	O
+10-8	him	10-7_dobj	pay	PRP	P1_hairdresser
+10-9	plus	10-7_prep	pay	CC	O
+10-10	a	O	O	DT	O
+10-11	little	O	O	RB	O
+10-12	extra	O	O	JJ	P1_tip
+10-13	for	O	O	O	O
+10-14	the	O	O	DT	O
+10-15	sheer	O	O	JJ	O
+10-16	perfection	10-7_prep_for	pay	NN	P1_NPart_perfection
+10-17	of	O	O	O	O
+10-18	this	O	O	DT	O
+10-19	haircut	O	O	NN	P1_haircut
+10-20	,	O	O	O	O
+10-21	and	O	O	O	O
+10-22	tell	10-7_conj_and	pay	VB	O
+10-23	him	10-22_dobj	tell	PRP	P1_hairdresser
+10-24	you	10-26_nsubj	see	PRP	P1_customer
+10-25	will	10-26_aux	see	MD	O
+10-26	see	O	O	VB	O
+10-27	him	10-26_dobj	see	PRP	P1_hairdresser
+10-28	next	O	O	JJ	O
+10-29	month	10-26_tmod	see	NN	P1_time/date
+10-30	.	O	O	O	O

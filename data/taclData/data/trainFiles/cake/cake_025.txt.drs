@@ -1,0 +1,225 @@
+#id=1
+#text=Baking a cake and be fun and eating the cake even more fun . 
+1-1	Baking	O	O	VB	O
+1-2	a	O	O	DT	O
+1-3	cake	1-1_dobj	Baking	NN	P1_cake
+1-4	and	O	O	O	O
+1-5	be	O	O	VB	O
+1-6	fun	1-1_conj_and	Baking	NN	P1_NPart_fun
+1-7	and	O	O	O	O
+1-8	eating	1-1_conj_and	Baking	VBG	O
+1-9	the	O	O	DT	O
+1-10	cake	O	O	NN	P1_cake
+1-11	even	O	O	RB	O
+1-12	more	O	O	JJR	O
+1-13	fun	1-8_dobj	eating	NN	P2_NPart_fun
+1-14	.	O	O	O	O
+
+#id=2
+#text=I have made cakes homemade from scratch using a recipe from my mom . 
+2-1	I	2-3_nsubj	made	PRP	P1_cook
+2-2	have	2-3_aux	made	VBP	O
+2-3	made	O	O	VBN	O
+2-4	cakes	2-8_nsubj	using	NNS	P1_cake
+2-5	homemade	2-8_dep	using	JJ	O
+2-6	from	O	O	O	O
+2-7	scratch	O	O	NN	O
+2-8	using	2-3_xcomp	made	VBG	O
+2-9	a	O	O	DT	O
+2-10	recipe	2-8_dobj	using	NN	P1_baking_instructions
+2-11	from	O	O	O	O
+2-12	my	O	O	PRP$	P1_cook
+2-13	mom	2-8_prep_from	using	NN	P1_NPart_mom
+2-14	.	O	O	O	O
+
+#id=3
+#text=But most of the cakes I have made have been from a box mix . 
+3-1	But	3-10_cc	been	CC	O
+3-2	most	3-10_nsubj	been	JJS	O
+3-3	of	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	cakes	O	O	NNS	P1_cake
+3-6	I	3-8_nsubj	made	PRP	P1_cook
+3-7	have	3-8_aux	made	VBP	O
+3-8	made	O	O	VBN	O
+3-9	have	3-10_aux	been	VBP	O
+3-10	been	O	O	VBN	O
+3-11	from	O	O	O	O
+3-12	a	O	O	DT	O
+3-13	box	O	O	NN	O
+3-14	mix	3-10_prep_from	been	NN	P1_ingredients
+3-15	.	O	O	O	O
+
+#id=4
+#text=I recently made myself a birthday cake . 
+4-1	I	4-3_nsubj	made	PRP	P1_cook
+4-2	recently	4-3_advmod	made	RB	O
+4-3	made	O	O	VBD	O
+4-4	myself	O	O	PRP	P1_cook
+4-5	a	O	O	DT	O
+4-6	birthday	O	O	NN	O
+4-7	cake	4-3_xcomp	made	NN	P1_cake
+4-8	.	O	O	O	O
+
+#id=5
+#text=I made a German chocolate cake and it was delicious . 
+5-1	I	5-2_nsubj	made	PRP	P1_cook
+5-2	made	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	German	O	O	JJ	O
+5-5	chocolate	O	O	NN	O
+5-6	cake	5-2_dobj	made	NN	P1_cake
+5-7	and	O	O	O	O
+5-8	it	O	O	PRP	P1_cake
+5-9	was	O	O	VBD	O
+5-10	delicious	5-2_conj_and	made	JJ	O
+5-11	.	O	O	O	O
+
+#id=6
+#text=Most box mixed call for a couple eggs and water . 
+6-1	Most	O	O	JJS	O
+6-2	box	O	O	NN	O
+6-3	mixed	6-4_nsubj	call	NNS	P1_ingredients
+6-4	call	O	O	VBP	O
+6-5	for	O	O	O	O
+6-6	a	O	O	DT	O
+6-7	couple	O	O	NN	O
+6-8	eggs	6-4_prep_for	call	NNS	P2_ingredients
+6-9	and	O	O	O	O
+6-10	water	O	O	NN	P3_ingredients
+6-11	.	O	O	O	O
+
+#id=7
+#text=Sometimes you have to add oil also . 
+7-1	Sometimes	7-3_advmod	have	RB	O
+7-2	you	7-3_nsubj	have	PRP	P1_cook
+7-3	have	O	O	VBP	O
+7-4	to	7-5_aux	add	TO	O
+7-5	add	7-3_xcomp	have	VB	O
+7-6	oil	7-5_dobj	add	NN	P4_ingredients
+7-7	also	7-5_advmod	add	RB	O
+7-8	.	O	O	O	O
+
+#id=8
+#text=The German chocolate cake I made called for oil and I used coconut oil . 
+8-1	The	O	O	DT	O
+8-2	German	O	O	JJ	O
+8-3	chocolate	O	O	NN	O
+8-4	cake	8-7_nsubj	called	NN	P1_cake
+8-5	I	8-6_nsubj	made	PRP	P1_cook
+8-6	made	O	O	VBD	O
+8-7	called	O	O	VBD	O
+8-8	for	O	O	O	O
+8-9	oil	8-7_prep_for	called	NN	P4_ingredients
+8-10	and	O	O	O	O
+8-11	I	8-12_nsubj	used	PRP	P1_cook
+8-12	used	8-7_conj_and	called	VBD	O
+8-13	coconut	O	O	JJ	O
+8-14	oil	8-12_dobj	used	NN	P4_ingredients
+8-15	.	O	O	O	O
+
+#id=9
+#text=When you bake a cake you always have to oil and flour the cake pan so it does not stick . 
+9-1	When	9-3_advmod	bake	WRB	O
+9-2	you	9-3_nsubj	bake	PRP	P1_cook
+9-3	bake	9-8_advcl	have	VBP	O
+9-4	a	O	O	DT	O
+9-5	cake	9-3_dobj	bake	NN	P1_cake
+9-6	you	9-8_nsubj	have	PRP	P1_cook
+9-7	always	9-8_advmod	have	RB	O
+9-8	have	O	O	VBP	O
+9-9	to	O	O	O	O
+9-10	oil	9-8_prep_to	have	NN	O
+9-11	and	O	O	O	O
+9-12	flour	O	O	NN	O
+9-13	the	O	O	DT	O
+9-14	cake	9-8_dobj	have	NN	O
+9-15	pan	O	O	VB	P1_cake_tin
+9-16	so	9-20_mark	stick	IN	O
+9-17	it	9-20_nsubj	stick	PRP	P1_cake_tin
+9-18	does	9-20_aux	stick	VBZ	O
+9-19	not	9-20_neg	stick	RB	O
+9-20	stick	9-15_advcl	pan	VB	O
+9-21	.	O	O	O	O
+
+#id=10
+#text=I used two round cake pans for my birthday cake but I have often used a square pan or a bunt pan . 
+10-1	I	10-2_nsubj	used	PRP	P1_cook
+10-2	used	O	O	VBD	O
+10-3	two	O	O	CD	O
+10-4	round	O	O	NN	O
+10-5	cake	O	O	NN	O
+10-6	pans	10-2_dobj	used	NNS	P1_cake_tin
+10-7	for	O	O	O	O
+10-8	my	O	O	PRP$	P1_cook
+10-9	birthday	O	O	NN	O
+10-10	cake	10-2_prep_for	used	NN	P1_cake
+10-11	but	O	O	O	O
+10-12	I	10-15_nsubj	used	PRP	P1_cook
+10-13	have	10-15_aux	used	VBP	O
+10-14	often	10-15_advmod	used	RB	O
+10-15	used	10-2_conj_but	used	VBN	O
+10-16	a	O	O	DT	O
+10-17	square	O	O	JJ	O
+10-18	pan	10-15_dobj	used	NN	P1_cake_tin
+10-19	or	O	O	O	O
+10-20	a	O	O	DT	O
+10-21	bunt	O	O	NN	O
+10-22	pan	O	O	NN	P1_cake_tin
+10-23	.	O	O	O	O
+
+#id=11
+#text=After taking a cake out of the oven you need to let it cool . 
+11-1	After	O	O	O	O
+11-2	taking	11-10_prepc_after	need	VBG	O
+11-3	a	O	O	DT	O
+11-4	cake	11-2_dobj	taking	NN	P1_cake
+11-5	out	O	O	O	O
+11-6	of	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	oven	11-2_prep_out_of	taking	NN	P1_oven
+11-9	you	11-10_nsubj	need	PRP	P1_cook
+11-10	need	O	O	VBP	O
+11-11	to	11-12_aux	let	TO	O
+11-12	let	11-10_xcomp	need	VB	O
+11-13	it	O	O	PRP	P1_cake
+11-14	cool	11-12_xcomp	let	JJ	O
+11-15	.	O	O	O	O
+
+#id=12
+#text=I was eager for my birthday cake to cool so I could frost it . 
+12-1	I	O	O	PRP	P1_cook
+12-2	was	O	O	VBD	O
+12-3	eager	O	O	JJ	O
+12-4	for	O	O	O	O
+12-5	my	O	O	PRP$	P1_cook
+12-6	birthday	O	O	NN	O
+12-7	cake	O	O	NN	P1_cake
+12-8	to	12-9_aux	cool	TO	O
+12-9	cool	O	O	VB	O
+12-10	so	12-13_mark	frost	IN	O
+12-11	I	12-13_nsubj	frost	PRP	P1_cook
+12-12	could	12-13_aux	frost	MD	O
+12-13	frost	12-9_advcl	cool	VB	O
+12-14	it	12-13_dobj	frost	PRP	P1_cake
+12-15	.	O	O	O	O
+
+#id=13
+#text=German chocolate cake typically has a coconut and pecan frosting and this is what I used . 
+13-1	German	O	O	JJ	O
+13-2	chocolate	O	O	NN	O
+13-3	cake	13-5_nsubj	has	NN	P1_cake
+13-4	typically	13-5_advmod	has	RB	O
+13-5	has	O	O	VBZ	O
+13-6	a	O	O	DT	O
+13-7	coconut	O	O	JJ	O
+13-8	and	O	O	O	O
+13-9	pecan	O	O	NN	O
+13-10	frosting	13-5_dobj	has	NN	P1_decoration
+13-11	and	O	O	O	O
+13-12	this	13-13_nsubj	is	DT	P1_decoration
+13-13	is	13-5_conj_and	has	VBZ	O
+13-14	what	13-16_dobj	used	WP	P1_decoration
+13-15	I	13-16_nsubj	used	PRP	P1_cook
+13-16	used	13-13_ccomp	is	VBD	O
+13-17	.	O	O	O	O

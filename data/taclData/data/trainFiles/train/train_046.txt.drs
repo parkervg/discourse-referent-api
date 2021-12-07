@@ -1,0 +1,215 @@
+#id=1
+#text=Traveling by train is almost like traveling by airplane . 
+1-1	Traveling	O	O	VBG	O
+1-2	by	O	O	O	O
+1-3	train	1-1_prep_by	Traveling	NN	P1_train
+1-4	is	O	O	VBZ	O
+1-5	almost	O	O	RB	O
+1-6	like	O	O	O	O
+1-7	traveling	O	O	VBG	O
+1-8	by	O	O	O	O
+1-9	airplane	1-7_prep_by	traveling	NN	P1_NPart_airplane
+1-10	.	O	O	O	O
+
+#id=2
+#text=I learned that the train companies have baggage limits , rules for unaccompanied minors , and seating rules too . 
+2-1	I	2-2_nsubj	learned	PRP	P1_passenger
+2-2	learned	O	O	VBD	O
+2-3	that	2-7_mark	have	IN	O
+2-4	the	O	O	DT	O
+2-5	train	O	O	NN	O
+2-6	companies	2-7_nsubj	have	NNS	P1_NPart_companies
+2-7	have	2-2_ccomp	learned	VBP	O
+2-8	baggage	O	O	NN	O
+2-9	limits	2-7_dobj	have	NNS	P1_NPart_limits
+2-10	,	O	O	O	O
+2-11	rules	O	O	NNS	P1_NPart_rules
+2-12	for	O	O	O	O
+2-13	unaccompanied	O	O	JJ	O
+2-14	minors	O	O	NNS	P2_passenger
+2-15	,	O	O	O	O
+2-16	and	O	O	O	O
+2-17	seating	O	O	VBG	O
+2-18	rules	O	O	NNS	P2_NPart_rules
+2-19	too	O	O	RB	O
+2-20	.	O	O	O	O
+
+#id=3
+#text=I bought my ticket ahead of time and then went to my station . 
+3-1	I	3-2_nsubj	bought	PRP	P1_passenger
+3-2	bought	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_passenger
+3-4	ticket	3-2_dobj	bought	NN	P1_card/ticket
+3-5	ahead	O	O	O	O
+3-6	of	O	O	O	O
+3-7	time	O	O	NN	O
+3-8	and	O	O	O	O
+3-9	then	3-10_advmod	went	RB	O
+3-10	went	3-2_conj_and	bought	VBD	O
+3-11	to	O	O	O	O
+3-12	my	O	O	PRP$	P1_passenger
+3-13	station	3-10_prep_to	went	NN	P1_train_station
+3-14	.	O	O	O	O
+
+#id=4
+#text=They checked my ticket , ID , baggage , and I hopped on the train . 
+4-1	They	4-2_nsubj	checked	PRP	P1_train_staff
+4-2	checked	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_passenger
+4-4	ticket	4-2_dobj	checked	NN	P1_card/ticket
+4-5	,	O	O	O	O
+4-6	ID	O	O	NNP	P1_NPart_id
+4-7	,	O	O	O	O
+4-8	baggage	O	O	NN	P1_luggage
+4-9	,	O	O	O	O
+4-10	and	O	O	O	O
+4-11	I	4-12_nsubj	hopped	PRP	P1_passenger
+4-12	hopped	4-2_conj_and	checked	VBD	O
+4-13	on	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	train	4-12_prep_on	hopped	NN	P1_train
+4-16	.	O	O	O	O
+
+#id=5
+#text=The process to check my bags was so similar to flying . 
+5-1	The	O	O	DT	O
+5-2	process	O	O	NN	P1_NPart_process
+5-3	to	5-4_aux	check	TO	O
+5-4	check	O	O	VB	O
+5-5	my	O	O	PRP$	P1_passenger
+5-6	bags	5-4_dobj	check	NNS	P1_luggage
+5-7	was	O	O	VBD	O
+5-8	so	O	O	RB	O
+5-9	similar	O	O	JJ	O
+5-10	to	O	O	O	O
+5-11	flying	O	O	VBG	O
+5-12	.	O	O	O	O
+
+#id=6
+#text=I packed a small bag to carry with me but I could have packed a larger bag that would be checked . 
+6-1	I	6-2_nsubj	packed	PRP	P1_passenger
+6-2	packed	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	small	O	O	JJ	O
+6-5	bag	6-2_dobj	packed	NN	P1_luggage
+6-6	to	6-7_aux	carry	TO	O
+6-7	carry	6-2_vmod	packed	VB	O
+6-8	with	O	O	O	O
+6-9	me	6-7_prep_with	carry	PRP	P1_passenger
+6-10	but	O	O	O	O
+6-11	I	6-14_nsubj	packed	PRP	P1_passenger
+6-12	could	6-14_aux	packed	MD	O
+6-13	have	6-14_aux	packed	VB	O
+6-14	packed	6-2_conj_but	packed	VBN	O
+6-15	a	O	O	DT	O
+6-16	larger	O	O	JJR	O
+6-17	bag	6-14_dobj	packed	NN	P1_luggage
+6-18	that	6-21_nsubjpass	checked	WDT	P1_luggage
+6-19	would	6-21_aux	checked	MD	O
+6-20	be	6-21_auxpass	checked	VB	O
+6-21	checked	O	O	VBN	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=No sharp objects , self defense items , and many other things were not allowed . 
+7-1	No	O	O	DT	O
+7-2	sharp	O	O	JJ	O
+7-3	objects	7-15_nsubjpass	allowed	NNS	P1_NPart_objects
+7-4	,	O	O	O	O
+7-5	self	O	O	NN	O
+7-6	defense	O	O	NN	O
+7-7	items	O	O	NNS	P1_NPart_items
+7-8	,	O	O	O	O
+7-9	and	O	O	O	O
+7-10	many	O	O	JJ	O
+7-11	other	O	O	JJ	O
+7-12	things	O	O	NNS	P1_NPart_things
+7-13	were	7-15_auxpass	allowed	VBD	O
+7-14	not	7-15_neg	allowed	RB	O
+7-15	allowed	O	O	VBN	O
+7-16	.	O	O	O	O
+
+#id=8
+#text=Seating on my train was first come first serve basis . 
+8-1	Seating	8-7_csubjpass	come	VBG	O
+8-2	on	O	O	O	O
+8-3	my	O	O	PRP$	P1_passenger
+8-4	train	8-1_prep_on	Seating	NN	P1_train
+8-5	was	8-7_auxpass	come	VBD	O
+8-6	first	8-7_advmod	come	RB	O
+8-7	come	O	O	VBN	O
+8-8	first	8-7_advmod	come	RB	O
+8-9	serve	8-7_ccomp	come	VB	O
+8-10	basis	8-9_dobj	serve	NN	P1_NPart_basis
+8-11	.	O	O	O	O
+
+#id=9
+#text=I was told if there was any concerns from passengers , seating could be assigned ! 
+9-1	I	9-3_nsubjpass	told	PRP	P1_passenger
+9-2	was	9-3_auxpass	told	VBD	O
+9-3	told	9-15_ccomp	assigned	VBN	O
+9-4	if	9-6_mark	was	IN	O
+9-5	there	9-6_expl	was	EX	O
+9-6	was	9-3_advcl	told	VBD	O
+9-7	any	O	O	DT	O
+9-8	concerns	9-6_nsubj	was	NNS	P1_NPart_concerns
+9-9	from	O	O	O	O
+9-10	passengers	O	O	NNS	P3_passenger
+9-11	,	O	O	O	O
+9-12	seating	9-15_nsubjpass	assigned	NN	O
+9-13	could	9-15_aux	assigned	MD	O
+9-14	be	9-15_auxpass	assigned	VB	O
+9-15	assigned	O	O	VBN	O
+9-16	!	O	O	O	O
+
+#id=10
+#text=My trip was n't very long so I did n't have a meal but I brought some snacks and a drink with me . 
+10-1	My	O	O	PRP$	P1_passenger
+10-2	trip	O	O	NN	P1_trip
+10-3	was	O	O	VBD	O
+10-4	n't	O	O	RB	O
+10-5	very	O	O	RB	O
+10-6	long	O	O	JJ	O
+10-7	so	10-11_mark	have	IN	O
+10-8	I	10-11_nsubj	have	PRP	P1_passenger
+10-9	did	10-11_aux	have	VBD	O
+10-10	n't	10-11_neg	have	RB	O
+10-11	have	O	O	VB	O
+10-12	a	O	O	DT	O
+10-13	meal	10-11_dobj	have	NN	P1_in-train_entertainment
+10-14	but	O	O	O	O
+10-15	I	10-16_nsubj	brought	PRP	P1_passenger
+10-16	brought	O	O	VBD	O
+10-17	some	O	O	DT	O
+10-18	snacks	10-16_dobj	brought	NNS	P2_in-train_entertainment
+10-19	and	O	O	O	O
+10-20	a	O	O	DT	O
+10-21	drink	O	O	NN	P3_in-train_entertainment
+10-22	with	O	O	O	O
+10-23	me	10-16_prep_with	brought	PRP	P1_passenger
+10-24	.	O	O	O	O
+
+#id=11
+#text=Before I knew it , I had arrived at my destination . 
+11-1	Before	11-3_mark	knew	IN	O
+11-2	I	11-3_nsubj	knew	PRP	P1_passenger
+11-3	knew	11-8_advcl	arrived	VBD	O
+11-4	it	11-3_dobj	knew	PRP	O
+11-5	,	O	O	O	O
+11-6	I	11-8_nsubj	arrived	PRP	P1_passenger
+11-7	had	11-8_aux	arrived	VBD	O
+11-8	arrived	O	O	VBN	O
+11-9	at	O	O	O	O
+11-10	my	O	O	PRP$	P1_passenger
+11-11	destination	11-8_prep_at	arrived	NN	P1_destination
+11-12	.	O	O	O	O
+
+#id=12
+#text=I really like traveling by train . 
+12-1	I	12-3_nsubj	like	PRP	P1_passenger
+12-2	really	12-3_advmod	like	RB	O
+12-3	like	O	O	VBP	O
+12-4	traveling	12-3_xcomp	like	VBG	O
+12-5	by	O	O	O	O
+12-6	train	12-4_prep_by	traveling	NN	P1_train
+12-7	.	O	O	O	O

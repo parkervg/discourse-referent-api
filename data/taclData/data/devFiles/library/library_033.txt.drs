@@ -1,0 +1,230 @@
+#id=1
+#text=In need of a new series to sink my teeth into , I decided to head to the public library . 
+1-1	In	O	O	O	O
+1-2	need	1-14_prep_in	decided	NN	O
+1-3	of	O	O	O	O
+1-4	a	O	O	DT	O
+1-5	new	O	O	JJ	O
+1-6	series	O	O	NN	P1_book
+1-7	to	1-8_aux	sink	TO	O
+1-8	sink	O	O	VB	O
+1-9	my	O	O	PRP$	P1_customer
+1-10	teeth	1-8_dobj	sink	NNS	O
+1-11	into	1-8_prep	sink	IN	O
+1-12	,	O	O	O	O
+1-13	I	1-14_nsubj	decided	PRP	P1_customer
+1-14	decided	O	O	VBD	O
+1-15	to	1-16_aux	head	TO	O
+1-16	head	1-14_xcomp	decided	VB	O
+1-17	to	O	O	O	O
+1-18	the	O	O	DT	O
+1-19	public	O	O	JJ	O
+1-20	library	1-16_prep_to	head	NN	P1_library
+1-21	.	O	O	O	O
+
+#id=2
+#text=I ca n't seem to go long without reading some mythical , crazy fantasy ! 
+2-1	I	2-4_nsubj	seem	PRP	P1_customer
+2-2	ca	2-4_aux	seem	MD	O
+2-3	n't	2-4_neg	seem	RB	O
+2-4	seem	O	O	VB	O
+2-5	to	2-6_aux	go	TO	O
+2-6	go	2-4_xcomp	seem	VB	O
+2-7	long	2-6_advmod	go	RB	O
+2-8	without	O	O	O	O
+2-9	reading	2-6_prepc_without	go	VBG	O
+2-10	some	O	O	DT	O
+2-11	mythical	O	O	NNP	O
+2-12	,	O	O	O	O
+2-13	crazy	O	O	JJ	O
+2-14	fantasy	2-9_dobj	reading	NN	P1_other
+2-15	!	O	O	O	O
+
+#id=3
+#text=Anyway , when I got to the Library , I sat down at their computer where you can look up where certain books are in the library . 
+3-1	Anyway	3-11_advmod	sat	RB	O
+3-2	,	O	O	O	O
+3-3	when	3-5_advmod	got	WRB	O
+3-4	I	3-5_nsubj	got	PRP	P1_customer
+3-5	got	3-11_advcl	sat	VBD	O
+3-6	to	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	Library	3-5_prep_to	got	NNP	P1_library
+3-9	,	O	O	O	O
+3-10	I	3-11_nsubj	sat	PRP	P1_customer
+3-11	sat	O	O	VBD	O
+3-12	down	3-11_prt	sat	RP	O
+3-13	at	O	O	O	O
+3-14	their	O	O	PRP$	P1_library
+3-15	computer	3-11_prep_at	sat	NN	P1_institutional_devices
+3-16	where	3-19_advmod	look	WRB	O
+3-17	you	3-19_nsubj	look	PRP	P1_customer
+3-18	can	3-19_aux	look	MD	O
+3-19	look	3-11_advcl	sat	VB	O
+3-20	up	3-19_prt	look	RP	O
+3-21	where	3-24_advmod	are	WRB	O
+3-22	certain	O	O	JJ	O
+3-23	books	3-24_nsubj	are	NNS	P1_book
+3-24	are	3-19_advcl	look	VBP	O
+3-25	in	O	O	O	O
+3-26	the	O	O	DT	O
+3-27	library	3-24_prep_in	are	NN	P1_library
+3-28	.	O	O	O	O
+
+#id=4
+#text=I found where the fantasy section was and headed over to that shelf . 
+4-1	I	4-2_nsubj	found	PRP	P1_customer
+4-2	found	O	O	VBD	O
+4-3	where	4-7_advmod	was	WRB	O
+4-4	the	O	O	DT	O
+4-5	fantasy	O	O	NN	O
+4-6	section	4-7_nsubj	was	NN	P1_location_library
+4-7	was	4-2_advcl	found	VBD	O
+4-8	and	O	O	O	O
+4-9	headed	4-7_conj_and	was	VBD	O
+4-10	over	4-9_prt	headed	RP	O
+4-11	to	O	O	O	O
+4-12	that	O	O	DT	O
+4-13	shelf	4-9_prep_to	headed	NN	P1_shelf
+4-14	.	O	O	O	O
+
+#id=5
+#text=Oh my goodness , there were more books than I could ever imagine ! 
+5-1	Oh	5-6_discourse	were	UH	O
+5-2	my	O	O	PRP$	P1_customer
+5-3	goodness	O	O	NNP	O
+5-4	,	O	O	O	O
+5-5	there	5-6_expl	were	EX	O
+5-6	were	O	O	VBD	O
+5-7	more	O	O	JJR	O
+5-8	books	5-6_nsubj	were	NNS	P1_book
+5-9	than	5-13_mark	imagine	IN	O
+5-10	I	5-13_nsubj	imagine	PRP	P1_customer
+5-11	could	5-13_aux	imagine	MD	O
+5-12	ever	5-13_advmod	imagine	RB	O
+5-13	imagine	5-6_advcl	were	VB	O
+5-14	!	O	O	O	O
+
+#id=6
+#text=I was practically drooling ! 
+6-1	I	6-4_nsubj	drooling	PRP	P1_customer
+6-2	was	6-4_aux	drooling	VBD	O
+6-3	practically	6-4_advmod	drooling	RB	O
+6-4	drooling	O	O	VBG	O
+6-5	!	O	O	O	O
+
+#id=7
+#text=I saw the series I was looking for and decided to get just the first book in the series -LRB- so I do n't binge read -RRB- . 
+7-1	I	7-2_nsubj	saw	PRP	P1_customer
+7-2	saw	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	series	7-2_dobj	saw	NN	P1_book
+7-5	I	7-7_nsubj	looking	PRP	P1_customer
+7-6	was	7-7_aux	looking	VBD	O
+7-7	looking	7-2_dep	saw	VBG	O
+7-8	for	7-7_prep	looking	IN	O
+7-9	and	O	O	O	O
+7-10	decided	7-2_conj_and	saw	VBD	O
+7-11	to	7-12_aux	get	TO	O
+7-12	get	7-10_xcomp	decided	VB	O
+7-13	just	O	O	RB	O
+7-14	the	O	O	DT	O
+7-15	first	O	O	JJ	O
+7-16	book	7-12_dobj	get	NN	O
+7-17	in	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	series	O	O	NN	P1_book
+7-20	-LRB-	O	O	O	O
+7-21	so	7-26_mark	read	IN	O
+7-22	I	7-26_nsubj	read	PRP	P1_customer
+7-23	do	7-26_aux	read	VBP	O
+7-24	n't	7-26_neg	read	RB	O
+7-25	binge	7-26_advmod	read	RB	O
+7-26	read	O	O	VB	O
+7-27	-RRB-	O	O	O	O
+7-28	.	O	O	O	O
+
+#id=8
+#text=I took the book up to the front counter and handed the librarian my member card so that I could check the book out . 
+8-1	I	8-2_nsubj	took	PRP	P1_customer
+8-2	took	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	book	8-2_dobj	took	NN	P1_book
+8-5	up	8-2_prt	took	RP	O
+8-6	to	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	front	O	O	JJ	O
+8-9	counter	8-2_prep_to	took	NN	P1_check-out_desk
+8-10	and	O	O	O	O
+8-11	handed	8-2_conj_and	took	VBD	O
+8-12	the	O	O	DT	O
+8-13	librarian	8-11_iobj	handed	NN	P1_staff
+8-14	my	O	O	PRP$	P1_customer
+8-15	member	O	O	NN	O
+8-16	card	8-11_dobj	handed	NN	P1_library_card
+8-17	so	8-21_advmod	check	RB	O
+8-18	that	8-21_mark	check	IN	O
+8-19	I	8-21_nsubj	check	PRP	P1_customer
+8-20	could	8-21_aux	check	MD	O
+8-21	check	8-2_advcl	took	VB	O
+8-22	the	O	O	DT	O
+8-23	book	8-21_dobj	check	NN	P1_book
+8-24	out	8-21_prt	check	RP	O
+8-25	.	O	O	O	O
+
+#id=9
+#text=She looked the book over and commented that it was one of her favorites which made me smile . 
+9-1	She	9-2_nsubj	looked	PRP	P1_staff
+9-2	looked	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	book	9-2_dobj	looked	NN	P1_book
+9-5	over	9-2_prt	looked	RP	O
+9-6	and	O	O	O	O
+9-7	commented	9-2_conj_and	looked	VBD	O
+9-8	that	O	O	IN	O
+9-9	it	O	O	PRP	P1_book
+9-10	was	O	O	VBD	O
+9-11	one	9-7_ccomp	commented	CD	O
+9-12	of	O	O	O	O
+9-13	her	O	O	PRP$	P1_staff
+9-14	favorites	O	O	NNS	P1_NPart_favorites
+9-15	which	9-16_nsubj	made	WDT	O
+9-16	made	O	O	VBD	O
+9-17	me	9-18_nsubj	smile	PRP	P1_customer
+9-18	smile	9-16_ccomp	made	VBP	O
+9-19	.	O	O	O	O
+
+#id=10
+#text=With the book now checked out , I slipped it into my page and made my way home . 
+10-1	With	10-5_mark	checked	IN	O
+10-2	the	O	O	DT	O
+10-3	book	10-5_nsubj	checked	NN	P1_book
+10-4	now	10-5_advmod	checked	RB	O
+10-5	checked	10-9_advcl	slipped	VBD	O
+10-6	out	10-5_prt	checked	RP	O
+10-7	,	O	O	O	O
+10-8	I	10-9_nsubj	slipped	PRP	P1_customer
+10-9	slipped	O	O	VBD	O
+10-10	it	10-9_dobj	slipped	PRP	P1_book
+10-11	into	O	O	O	O
+10-12	my	O	O	PRP$	P1_customer
+10-13	page	10-9_prep_into	slipped	NN	P1_bag
+10-14	and	O	O	O	O
+10-15	made	10-9_conj_and	slipped	VBD	O
+10-16	my	O	O	PRP$	P1_customer
+10-17	way	O	O	NN	P1_NPart_way
+10-18	home	10-15_dobj	made	NN	O
+10-19	.	O	O	O	O
+
+#id=11
+#text=I was ready to dive into a new adventure ! 
+11-1	I	O	O	PRP	P1_customer
+11-2	was	O	O	VBD	O
+11-3	ready	O	O	JJ	O
+11-4	to	O	O	O	O
+11-5	dive	O	O	NN	O
+11-6	into	O	O	O	O
+11-7	a	O	O	DT	O
+11-8	new	O	O	JJ	O
+11-9	adventure	O	O	NN	P1_NPart_adventure
+11-10	!	O	O	O	O

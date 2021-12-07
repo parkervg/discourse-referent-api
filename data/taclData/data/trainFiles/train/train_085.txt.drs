@@ -1,0 +1,218 @@
+#id=1
+#text=The night before I take a train ride , I look at the train schedule . 
+1-1	The	O	O	DT	O
+1-2	night	1-11_tmod	look	NN	P1_time_date
+1-3	before	1-5_mark	take	IN	O
+1-4	I	1-5_nsubj	take	PRP	P1_passenger
+1-5	take	1-11_advcl	look	VBP	O
+1-6	a	O	O	DT	O
+1-7	train	O	O	NN	O
+1-8	ride	1-5_dobj	take	NN	P1_trip
+1-9	,	O	O	O	O
+1-10	I	1-11_nsubj	look	PRP	P1_passenger
+1-11	look	O	O	VBP	O
+1-12	at	O	O	O	O
+1-13	the	O	O	DT	O
+1-14	train	O	O	NN	O
+1-15	schedule	1-11_prep_at	look	NN	P1_time-table
+1-16	.	O	O	O	O
+
+#id=2
+#text=Usually I am going to New York City , so I check the train schedules for the trains heading there . 
+2-1	Usually	2-4_advmod	going	RB	O
+2-2	I	2-4_nsubj	going	PRP	P1_passenger
+2-3	am	2-4_aux	going	VBP	O
+2-4	going	O	O	VBG	O
+2-5	to	O	O	O	O
+2-6	New	O	O	NNP	O
+2-7	York	O	O	NNP	O
+2-8	City	2-4_prep_to	going	NNP	P1_destination
+2-9	,	O	O	O	O
+2-10	so	2-4_dep	going	IN	O
+2-11	I	2-12_nsubj	check	PRP	P1_passenger
+2-12	check	2-4_parataxis	going	VBP	O
+2-13	the	O	O	DT	O
+2-14	train	O	O	NN	O
+2-15	schedules	2-12_dobj	check	NNS	P1_time-table
+2-16	for	O	O	O	O
+2-17	the	O	O	DT	O
+2-18	trains	2-12_prep_for	check	NNS	P1_train
+2-19	heading	O	O	VBG	O
+2-20	there	2-19_advmod	heading	RB	P1_destination
+2-21	.	O	O	O	O
+
+#id=3
+#text=When my husband and I take the train , we go early , so that morning I wake up early and get ready for the day . 
+3-1	When	3-6_advmod	take	WRB	O
+3-2	my	O	O	PRP$	P1_passenger
+3-3	husband	3-6_nsubj	take	NN	P2_passenger
+3-4	and	O	O	O	O
+3-5	I	O	O	PRP	P1_passenger
+3-6	take	3-11_advcl	go	VBP	O
+3-7	the	O	O	DT	O
+3-8	train	3-6_dobj	take	NN	P2_train
+3-9	,	O	O	O	O
+3-10	we	3-11_nsubj	go	PRP	P3_passenger
+3-11	go	O	O	VBP	O
+3-12	early	3-11_advmod	go	RB	O
+3-13	,	O	O	O	O
+3-14	so	3-18_advmod	wake	RB	O
+3-15	that	3-18_mark	wake	IN	O
+3-16	morning	3-18_tmod	wake	NN	P2_time_date
+3-17	I	3-18_nsubj	wake	PRP	P1_passenger
+3-18	wake	3-11_advcl	go	VBP	O
+3-19	up	O	O	RB	O
+3-20	early	3-18_advmod	wake	RB	O
+3-21	and	O	O	O	O
+3-22	get	O	O	VBP	O
+3-23	ready	3-18_conj_and	wake	JJ	O
+3-24	for	O	O	O	O
+3-25	the	O	O	DT	O
+3-26	day	O	O	NN	P3_time_date
+3-27	.	O	O	O	O
+
+#id=4
+#text=We then drive to the train station and park our car . 
+4-1	We	4-3_nsubj	drive	PRP	P4_passenger
+4-2	then	4-3_advmod	drive	RB	O
+4-3	drive	O	O	VB	O
+4-4	to	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	train	O	O	NN	O
+4-7	station	4-3_prep_to	drive	NN	P1_train_station
+4-8	and	O	O	O	O
+4-9	park	4-3_conj_and	drive	VB	O
+4-10	our	O	O	PRP$	P4_passenger
+4-11	car	4-9_dobj	park	NN	P1_NPart_car
+4-12	.	O	O	O	O
+
+#id=5
+#text=Depending on which train station we are going to , the parking is free , but otherwise we pay for our parking . 
+5-1	Depending	O	O	O	O
+5-2	on	O	O	IN	O
+5-3	which	O	O	WDT	O
+5-4	train	O	O	NN	O
+5-5	station	5-8_prep_to	going	NN	P2_train_station
+5-6	we	5-8_nsubj	going	PRP	P4_passenger
+5-7	are	5-8_aux	going	VBP	O
+5-8	going	O	O	VBG	O
+5-9	to	O	O	O	O
+5-10	,	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	parking	O	O	NN	P1_NPart_parking
+5-13	is	O	O	VBZ	O
+5-14	free	O	O	JJ	O
+5-15	,	O	O	O	O
+5-16	but	O	O	O	O
+5-17	otherwise	5-19_advmod	pay	RB	O
+5-18	we	5-19_nsubj	pay	PRP	P4_passenger
+5-19	pay	O	O	VBP	O
+5-20	for	O	O	O	O
+5-21	our	O	O	PRP$	P4_passenger
+5-22	parking	5-19_prep_for	pay	NN	P1_NPart_parking
+5-23	.	O	O	O	O
+
+#id=6
+#text=Once parked , we walk to the platform and buy our tickets at the automated teller . 
+6-1	Once	6-5_advmod	walk	RB	O
+6-2	parked	O	O	VBG	O
+6-3	,	O	O	O	O
+6-4	we	6-5_nsubj	walk	PRP	P4_passenger
+6-5	walk	O	O	VB	O
+6-6	to	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	platform	6-5_prep_to	walk	NN	P1_platform
+6-9	and	O	O	O	O
+6-10	buy	6-5_conj_and	walk	VB	O
+6-11	our	O	O	PRP$	P4_passenger
+6-12	tickets	6-10_dobj	buy	NNS	P1_card/ticket
+6-13	at	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	automated	O	O	VBN	O
+6-16	teller	6-10_prep_at	buy	NN	P1_ticket_office/website
+6-17	.	O	O	O	O
+
+#id=7
+#text=Then we wait for the train to arrive . 
+7-1	Then	7-3_advmod	wait	RB	O
+7-2	we	7-3_nsubj	wait	PRP	P4_passenger
+7-3	wait	O	O	VBP	O
+7-4	for	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	train	7-3_prep_for	wait	NN	P3_train
+7-7	to	7-8_aux	arrive	TO	O
+7-8	arrive	O	O	VB	O
+7-9	.	O	O	O	O
+
+#id=8
+#text=When the train arrives , we find a good place to sit . 
+8-1	When	8-4_advmod	arrives	WRB	O
+8-2	the	O	O	DT	O
+8-3	train	8-4_nsubj	arrives	NN	P3_train
+8-4	arrives	8-7_advcl	find	VBZ	O
+8-5	,	O	O	O	O
+8-6	we	8-7_nsubj	find	PRP	P4_passenger
+8-7	find	O	O	VBP	O
+8-8	a	O	O	DT	O
+8-9	good	O	O	JJ	O
+8-10	place	8-7_dobj	find	NN	P1_location_train
+8-11	to	8-12_aux	sit	TO	O
+8-12	sit	O	O	VB	O
+8-13	.	O	O	O	O
+
+#id=9
+#text=We try to sit where there are n't too many people and where there are only 2 seats so that we do n't have to sit with strangers . 
+9-1	We	9-2_nsubj	try	PRP	P4_passenger
+9-2	try	O	O	VBP	O
+9-3	to	9-4_aux	sit	TO	O
+9-4	sit	9-2_xcomp	try	VB	O
+9-5	where	9-7_advmod	are	WRB	P1_location_train
+9-6	there	9-7_expl	are	EX	O
+9-7	are	9-4_advcl	sit	VBP	O
+9-8	n't	9-7_neg	are	RB	O
+9-9	too	9-7_advmod	are	RB	O
+9-10	many	O	O	JJ	O
+9-11	people	9-7_nsubj	are	NNS	P5_passenger
+9-12	and	O	O	O	O
+9-13	where	9-15_advmod	are	WRB	P1_location_train
+9-14	there	9-15_expl	are	EX	O
+9-15	are	9-7_conj_and	are	VBP	O
+9-16	only	O	O	RB	O
+9-17	2	O	O	CD	O
+9-18	seats	O	O	NNS	P1_seat
+9-19	so	9-15_advmod	are	RB	O
+9-20	that	9-24_mark	have	IN	O
+9-21	we	9-24_nsubj	have	PRP	P4_passenger
+9-22	do	9-24_aux	have	VBP	O
+9-23	n't	9-24_neg	have	RB	O
+9-24	have	9-15_ccomp	are	VB	O
+9-25	to	9-26_aux	sit	TO	O
+9-26	sit	9-24_xcomp	have	VB	O
+9-27	with	O	O	O	O
+9-28	strangers	9-26_prep_with	sit	NNS	P6_passenger
+9-29	.	O	O	O	O
+
+#id=10
+#text=Then the train takes off and we usually are on the train for an hour before we get to our destination . 
+10-1	Then	10-4_advmod	takes	RB	O
+10-2	the	O	O	DT	O
+10-3	train	10-4_nsubj	takes	NN	P3_train
+10-4	takes	O	O	VBZ	O
+10-5	off	10-4_prt	takes	RP	O
+10-6	and	O	O	O	O
+10-7	we	10-9_nsubj	are	PRP	P4_passenger
+10-8	usually	10-9_advmod	are	RB	O
+10-9	are	10-4_conj_and	takes	VBP	O
+10-10	on	O	O	O	O
+10-11	the	O	O	DT	O
+10-12	train	10-9_prep_on	are	NN	P3_train
+10-13	for	O	O	O	O
+10-14	an	O	O	DT	O
+10-15	hour	O	O	NN	P4_time_date
+10-16	before	10-18_mark	get	IN	O
+10-17	we	10-18_nsubj	get	PRP	P7_passenger
+10-18	get	10-9_advcl	are	VBP	O
+10-19	to	O	O	O	O
+10-20	our	O	O	PRP$	P4_passenger
+10-21	destination	10-18_prep_to	get	NN	P2_destination
+10-22	.	O	O	O	O

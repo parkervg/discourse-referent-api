@@ -1,0 +1,233 @@
+#id=1
+#text=Flying in an airplane can be a stressful event for some people , but In essence it 's a simple process . 
+1-1	Flying	O	O	NNP	O
+1-2	in	O	O	O	O
+1-3	an	O	O	DT	O
+1-4	airplane	O	O	NN	P1_plane
+1-5	can	O	O	MD	O
+1-6	be	O	O	VB	O
+1-7	a	O	O	DT	O
+1-8	stressful	O	O	JJ	O
+1-9	event	O	O	NN	P1_NPart_event
+1-10	for	O	O	O	O
+1-11	some	O	O	DT	O
+1-12	people	O	O	NNS	P1_passenger
+1-13	,	O	O	O	O
+1-14	but	O	O	O	O
+1-15	In	O	O	O	O
+1-16	essence	O	O	NN	O
+1-17	it	O	O	PRP	O
+1-18	's	O	O	VBZ	O
+1-19	a	O	O	DT	O
+1-20	simple	O	O	JJ	O
+1-21	process	O	O	NN	P1_NPart_process
+1-22	.	O	O	O	O
+
+#id=2
+#text=You will need to purchase tickets ahead of time to a destination of your choosing . 
+2-1	You	2-3_nsubj	need	PRP	P2_passenger
+2-2	will	2-3_aux	need	MD	O
+2-3	need	O	O	VB	O
+2-4	to	2-5_aux	purchase	TO	O
+2-5	purchase	2-3_xcomp	need	VB	O
+2-6	tickets	2-5_dobj	purchase	NNS	P1_ticket
+2-7	ahead	O	O	O	O
+2-8	of	O	O	O	O
+2-9	time	O	O	NN	O
+2-10	to	O	O	O	O
+2-11	a	O	O	DT	O
+2-12	destination	2-5_prep_to	purchase	NN	P1_target_location
+2-13	of	O	O	O	O
+2-14	your	O	O	PRP$	P2_passenger
+2-15	choosing	O	O	NN	O
+2-16	.	O	O	O	O
+
+#id=3
+#text=Once you decide on your trip , and book any accomodations , you will just need to show up to your airport at least 2 hours in advance . 
+3-1	Once	3-3_mark	decide	IN	O
+3-2	you	3-3_nsubj	decide	PRP	P2_passenger
+3-3	decide	3-16_advcl	need	VBP	O
+3-4	on	O	O	O	O
+3-5	your	O	O	PRP$	P2_passenger
+3-6	trip	3-3_prep_on	decide	NN	P1_NPart_trip
+3-7	,	O	O	O	O
+3-8	and	O	O	O	O
+3-9	book	O	O	NN	O
+3-10	any	O	O	DT	O
+3-11	accomodations	3-3_conj_and	decide	NNS	P1_NPart_accomodations
+3-12	,	O	O	O	O
+3-13	you	3-16_nsubj	need	PRP	P2_passenger
+3-14	will	3-16_aux	need	MD	O
+3-15	just	3-16_advmod	need	RB	O
+3-16	need	O	O	VB	O
+3-17	to	3-18_aux	show	TO	O
+3-18	show	3-16_xcomp	need	VB	O
+3-19	up	3-18_prt	show	RP	O
+3-20	to	O	O	O	O
+3-21	your	O	O	PRP$	P2_passenger
+3-22	airport	3-18_prep_to	show	NN	P1_airport
+3-23	at	O	O	IN	O
+3-24	least	O	O	JJS	O
+3-25	2	O	O	CD	O
+3-26	hours	3-18_dobj	show	NNS	P1_time/date
+3-27	in	O	O	O	O
+3-28	advance	O	O	NN	O
+3-29	.	O	O	O	O
+
+#id=4
+#text=It 's important to show up early to prevent rushing , and make sure you get through security in a timely manner . 
+4-1	It	O	O	PRP	O
+4-2	's	O	O	VBZ	O
+4-3	important	O	O	JJ	O
+4-4	to	4-5_aux	show	TO	O
+4-5	show	O	O	VB	O
+4-6	up	O	O	RB	O
+4-7	early	4-5_advmod	show	RB	O
+4-8	to	4-9_aux	prevent	TO	O
+4-9	prevent	4-5_xcomp	show	VB	O
+4-10	rushing	4-9_xcomp	prevent	VBG	O
+4-11	,	O	O	O	O
+4-12	and	O	O	O	O
+4-13	make	4-9_conj_and	prevent	VB	O
+4-14	sure	4-13_acomp	make	JJ	O
+4-15	you	4-16_nsubj	get	PRP	P2_passenger
+4-16	get	O	O	VBP	O
+4-17	through	O	O	O	O
+4-18	security	4-16_prep_through	get	NN	P1_security_check
+4-19	in	O	O	O	O
+4-20	a	O	O	DT	O
+4-21	timely	O	O	JJ	O
+4-22	manner	O	O	NN	O
+4-23	.	O	O	O	O
+
+#id=5
+#text=Make sure you bring a comfy neck pillow in your carry on , and purchase any beverages after you go through security to take on the plane with you . 
+5-1	Make	O	O	VB	O
+5-2	sure	5-1_acomp	Make	JJ	O
+5-3	you	5-4_nsubj	bring	PRP	P2_passenger
+5-4	bring	O	O	VBP	O
+5-5	a	O	O	DT	O
+5-6	comfy	O	O	JJ	O
+5-7	neck	O	O	NN	O
+5-8	pillow	5-4_dobj	bring	NN	P1_in-flight_entertainment
+5-9	in	O	O	O	O
+5-10	your	O	O	PRP$	P2_passenger
+5-11	carry	O	O	NN	O
+5-12	on	5-4_prt	bring	RP	P1_carry_on_luggage
+5-13	,	O	O	O	O
+5-14	and	O	O	O	O
+5-15	purchase	5-1_conj_and	Make	VB	O
+5-16	any	O	O	DT	O
+5-17	beverages	5-15_dobj	purchase	NNS	P1_NPart_beverages
+5-18	after	5-20_mark	go	IN	O
+5-19	you	5-20_nsubj	go	PRP	P2_passenger
+5-20	go	5-15_advcl	purchase	VBP	O
+5-21	through	O	O	O	O
+5-22	security	5-20_prep_through	go	NN	P1_security_check
+5-23	to	5-24_aux	take	TO	O
+5-24	take	5-20_xcomp	go	VB	O
+5-25	on	O	O	O	O
+5-26	the	O	O	DT	O
+5-27	plane	5-24_prep_on	take	NN	P1_plane
+5-28	with	O	O	O	O
+5-29	you	O	O	PRP	P2_passenger
+5-30	.	O	O	O	O
+
+#id=6
+#text=Once through security you can head to your gate and wait until your flight starts boarding . 
+6-1	Once	6-6_advmod	head	RB	O
+6-2	through	O	O	O	O
+6-3	security	O	O	NN	P1_security_check
+6-4	you	6-6_nsubj	head	PRP	P2_passenger
+6-5	can	6-6_aux	head	MD	O
+6-6	head	O	O	VB	O
+6-7	to	O	O	O	O
+6-8	your	O	O	PRP$	P2_passenger
+6-9	gate	6-6_prep_to	head	NN	P1_terminal/gate
+6-10	and	O	O	O	O
+6-11	wait	6-6_conj_and	head	VB	O
+6-12	until	6-15_mark	starts	IN	O
+6-13	your	O	O	PRP$	P2_passenger
+6-14	flight	6-15_nsubj	starts	NN	P1_flight
+6-15	starts	6-11_advcl	wait	VBZ	O
+6-16	boarding	6-15_xcomp	starts	VBG	O
+6-17	.	O	O	O	O
+
+#id=7
+#text=When your section is called you can enter the plane , stow away your carry on , and sit back and relax . 
+7-1	When	7-5_advmod	called	WRB	O
+7-2	your	O	O	PRP$	P2_passenger
+7-3	section	7-5_nsubjpass	called	NN	P1_location_airplane_indoor
+7-4	is	7-5_auxpass	called	VBZ	O
+7-5	called	7-8_advcl	enter	VBN	O
+7-6	you	7-8_nsubj	enter	PRP	P2_passenger
+7-7	can	7-8_aux	enter	MD	O
+7-8	enter	O	O	VB	O
+7-9	the	O	O	DT	O
+7-10	plane	7-8_dobj	enter	NN	P1_plane
+7-11	,	O	O	O	O
+7-12	stow	7-8_conj_and	enter	VB	O
+7-13	away	7-12_prt	stow	RP	O
+7-14	your	O	O	PRP$	P2_passenger
+7-15	carry	7-12_dobj	stow	NN	O
+7-16	on	7-12_prep	stow	IN	P1_carry_on_luggage
+7-17	,	O	O	O	O
+7-18	and	O	O	O	O
+7-19	sit	7-8_conj_and	enter	VB	O
+7-20	back	7-19_advmod	sit	RB	O
+7-21	and	O	O	O	O
+7-22	relax	7-19_conj_and	sit	VB	O
+7-23	.	O	O	O	O
+
+#id=8
+#text=The rest of the work will be done for you , and you can feel free to take a nap or watch an in-flight movie . 
+8-1	The	O	O	DT	O
+8-2	rest	8-8_nsubjpass	done	NN	O
+8-3	of	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	work	O	O	NN	P1_NPart_work
+8-6	will	8-8_aux	done	MD	O
+8-7	be	8-8_auxpass	done	VB	O
+8-8	done	O	O	VBN	O
+8-9	for	O	O	O	O
+8-10	you	8-8_prep_for	done	PRP	P2_passenger
+8-11	,	O	O	O	O
+8-12	and	O	O	O	O
+8-13	you	8-15_nsubj	feel	PRP	P2_passenger
+8-14	can	8-15_aux	feel	MD	O
+8-15	feel	8-8_conj_and	done	VB	O
+8-16	free	8-15_acomp	feel	JJ	O
+8-17	to	8-18_aux	take	TO	O
+8-18	take	O	O	VB	O
+8-19	a	O	O	DT	O
+8-20	nap	8-18_dobj	take	NN	P2_in-flight_entertainment
+8-21	or	O	O	O	O
+8-22	watch	8-18_conj_or	take	VB	O
+8-23	an	O	O	DT	O
+8-24	in-flight	O	O	JJ	O
+8-25	movie	8-22_dobj	watch	NN	P3_in-flight_entertainment
+8-26	.	O	O	O	O
+
+#id=9
+#text=When you arrive at your destination they will have everyone exit the plane , and your vacation can really begin ! 
+9-1	When	9-3_advmod	arrive	WRB	O
+9-2	you	9-3_nsubj	arrive	PRP	P2_passenger
+9-3	arrive	9-9_advcl	have	VBP	O
+9-4	at	O	O	O	O
+9-5	your	O	O	PRP$	P2_passenger
+9-6	destination	9-3_prep_at	arrive	NN	P2_target_location
+9-7	they	9-9_nsubj	have	PRP	P1_staff
+9-8	will	9-9_aux	have	MD	O
+9-9	have	O	O	VB	O
+9-10	everyone	9-11_nsubj	exit	NN	P3_passenger
+9-11	exit	9-9_ccomp	have	VB	O
+9-12	the	O	O	DT	O
+9-13	plane	9-11_dobj	exit	NN	P1_plane
+9-14	,	O	O	O	O
+9-15	and	O	O	O	O
+9-16	your	O	O	PRP$	P2_passenger
+9-17	vacation	9-20_nsubj	begin	NN	P1_NPart_vacation
+9-18	can	9-20_aux	begin	MD	O
+9-19	really	9-20_advmod	begin	RB	O
+9-20	begin	9-9_conj_and	have	VB	O
+9-21	!	O	O	O	O

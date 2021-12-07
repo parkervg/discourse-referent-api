@@ -1,0 +1,191 @@
+#id=1
+#text=I was tired from a long day of baseball practice and could not wait to take a bath . 
+1-1	I	O	O	PRP	P1_bather
+1-2	was	O	O	VBD	O
+1-3	tired	O	O	JJ	O
+1-4	from	O	O	O	O
+1-5	a	O	O	DT	O
+1-6	long	O	O	JJ	O
+1-7	day	O	O	NN	P1_NPart_day
+1-8	of	O	O	O	O
+1-9	baseball	O	O	NN	O
+1-10	practice	O	O	NN	P1_NPart_practice
+1-11	and	O	O	O	O
+1-12	could	1-14_aux	wait	MD	O
+1-13	not	1-14_neg	wait	RB	O
+1-14	wait	O	O	VB	O
+1-15	to	1-16_aux	take	TO	O
+1-16	take	1-14_xcomp	wait	VB	O
+1-17	a	O	O	DT	O
+1-18	bath	1-16_dobj	take	NN	P1_bath
+1-19	.	O	O	O	O
+
+#id=2
+#text=I was pretty muddy from sliding into home plate and scoring the winning run . 
+2-1	I	O	O	PRP	P1_bather
+2-2	was	O	O	VBD	O
+2-3	pretty	O	O	RB	O
+2-4	muddy	O	O	JJ	O
+2-5	from	O	O	O	O
+2-6	sliding	O	O	VBG	O
+2-7	into	O	O	O	O
+2-8	home	O	O	NN	O
+2-9	plate	2-6_prep_into	sliding	NN	P1_NPart_plate
+2-10	and	O	O	O	O
+2-11	scoring	O	O	VBG	O
+2-12	the	O	O	DT	O
+2-13	winning	O	O	VBG	O
+2-14	run	O	O	NN	P1_NPart_run
+2-15	.	O	O	O	O
+
+#id=3
+#text=I went into the bathroom and started running the water in the bathtub . 
+3-1	I	3-2_nsubj	went	PRP	P1_bather
+3-2	went	O	O	VBD	O
+3-3	into	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	bathroom	3-2_prep_into	went	NN	P1_bathroom
+3-6	and	O	O	O	O
+3-7	started	3-2_conj_and	went	VBD	O
+3-8	running	3-7_xcomp	started	VBG	O
+3-9	the	O	O	DT	O
+3-10	water	3-8_dobj	running	NN	P1_water
+3-11	in	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	bathtub	3-8_prep_in	running	NN	P1_bathtub
+3-14	.	O	O	O	O
+
+#id=4
+#text=I put the hot and cold faucets both on to make sure the water was warm but not too hot . 
+4-1	I	4-2_nsubj	put	PRP	P1_bather
+4-2	put	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	hot	O	O	JJ	O
+4-5	and	O	O	O	O
+4-6	cold	O	O	JJ	O
+4-7	faucets	4-2_dobj	put	NNS	P1_tap
+4-8	both	O	O	DT	O
+4-9	on	4-2_prep	put	IN	O
+4-10	to	4-11_aux	make	TO	O
+4-11	make	4-2_vmod	put	VB	O
+4-12	sure	4-11_acomp	make	JJ	O
+4-13	the	O	O	DT	O
+4-14	water	O	O	NN	P1_water
+4-15	was	O	O	VBD	O
+4-16	warm	O	O	JJ	O
+4-17	but	O	O	O	O
+4-18	not	O	O	RB	O
+4-19	too	O	O	RB	O
+4-20	hot	O	O	JJ	O
+4-21	.	O	O	O	O
+
+#id=5
+#text=After the tub filled up a little over the halfway point I got into the bath . 
+5-1	After	O	O	O	O
+5-2	the	O	O	DT	O
+5-3	tub	5-13_prep_after	got	NN	P1_bathtub
+5-4	filled	O	O	VBN	O
+5-5	up	5-4_advmod	filled	RB	O
+5-6	a	O	O	DT	O
+5-7	little	O	O	RB	O
+5-8	over	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	halfway	O	O	JJ	O
+5-11	point	5-4_prep_over	filled	NN	P1_NPart_point
+5-12	I	5-13_nsubj	got	PRP	P1_bather
+5-13	got	O	O	VBD	O
+5-14	into	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	bath	5-13_prep_into	got	NN	P1_bathtub
+5-17	.	O	O	O	O
+
+#id=6
+#text=I had some bubble bath shampoo with me so I put that into the water and had fun playing with the bubbles . 
+6-1	I	6-2_nsubj	had	PRP	P1_bather
+6-2	had	O	O	VBD	O
+6-3	some	O	O	DT	O
+6-4	bubble	O	O	NN	O
+6-5	bath	O	O	NN	O
+6-6	shampoo	6-2_dobj	had	NN	P1_bath_means
+6-7	with	O	O	O	O
+6-8	me	6-2_prep_with	had	PRP	P1_bather
+6-9	so	6-11_mark	put	IN	O
+6-10	I	6-11_nsubj	put	PRP	P1_bather
+6-11	put	6-2_advcl	had	VBD	O
+6-12	that	6-11_dobj	put	DT	O
+6-13	into	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	water	6-11_prep_into	put	NN	P1_water
+6-16	and	O	O	O	O
+6-17	had	6-2_conj_and	had	VBD	O
+6-18	fun	O	O	NN	P1_NPart_fun
+6-19	playing	6-17_dobj	had	NN	O
+6-20	with	O	O	O	O
+6-21	the	O	O	DT	O
+6-22	bubbles	O	O	NNS	P2_bath_means
+6-23	.	O	O	O	O
+
+#id=7
+#text=I washed the soapy water all over my body and felt clean and refreshed . 
+7-1	I	7-2_nsubj	washed	PRP	P1_bather
+7-2	washed	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	soapy	O	O	JJ	O
+7-5	water	7-2_dobj	washed	NN	P1_water
+7-6	all	7-2_dep	washed	DT	O
+7-7	over	O	O	O	O
+7-8	my	O	O	PRP$	P1_bather
+7-9	body	7-2_prep_over	washed	NN	P1_body_part
+7-10	and	O	O	O	O
+7-11	felt	7-2_conj_and	washed	VBD	O
+7-12	clean	7-11_acomp	felt	JJ	O
+7-13	and	O	O	O	O
+7-14	refreshed	O	O	JJ	O
+7-15	.	O	O	O	O
+
+#id=8
+#text=After about ten minutes I turned the water off and grabbed a nearby towel . 
+8-1	After	O	O	O	O
+8-2	about	O	O	RB	O
+8-3	ten	O	O	CD	O
+8-4	minutes	8-6_prep_after	turned	NNS	P1_NPart_minutes
+8-5	I	8-6_nsubj	turned	PRP	P1_bather
+8-6	turned	O	O	VBD	O
+8-7	the	O	O	DT	O
+8-8	water	8-6_dobj	turned	NN	P1_water
+8-9	off	8-6_prt	turned	RP	O
+8-10	and	O	O	O	O
+8-11	grabbed	8-6_conj_and	turned	VBD	O
+8-12	a	O	O	DT	O
+8-13	nearby	O	O	JJ	O
+8-14	towel	8-11_dobj	grabbed	NN	P1_towel
+8-15	.	O	O	O	O
+
+#id=9
+#text=I toweled off and put my dirty clothes in the laundry basket . 
+9-1	I	9-2_nsubj	toweled	PRP	P1_bather
+9-2	toweled	O	O	VBD	O
+9-3	off	9-2_prt	toweled	RP	O
+9-4	and	O	O	O	O
+9-5	put	9-2_conj_and	toweled	VBD	O
+9-6	my	O	O	PRP$	P1_bather
+9-7	dirty	O	O	JJ	O
+9-8	clothes	9-5_dobj	put	NNS	P1_clothes
+9-9	in	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	laundry	O	O	NN	O
+9-12	basket	9-5_prep_in	put	NN	P1_hamper
+9-13	.	O	O	O	O
+
+#id=10
+#text=I was ready for another nine innings of baseball . 
+10-1	I	O	O	PRP	P1_bather
+10-2	was	O	O	VBD	O
+10-3	ready	O	O	JJ	O
+10-4	for	O	O	O	O
+10-5	another	O	O	DT	O
+10-6	nine	O	O	CD	O
+10-7	innings	O	O	NNS	P1_NPart_innings
+10-8	of	O	O	O	O
+10-9	baseball	O	O	NN	P1_NPart_baseball
+10-10	.	O	O	O	O

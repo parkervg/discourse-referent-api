@@ -1,0 +1,386 @@
+#id=1
+#text=I was walking to my car last night from work and was ready to drive home . 
+1-1	I	1-3_nsubj	walking	PRP	P1_passenger
+1-2	was	1-3_aux	walking	VBD	O
+1-3	walking	O	O	VBG	O
+1-4	to	O	O	O	O
+1-5	my	O	O	PRP$	P1_passenger
+1-6	car	1-3_prep_to	walking	NN	P1_NPart_car
+1-7	last	O	O	JJ	O
+1-8	night	1-3_tmod	walking	NN	P1_NPart_night
+1-9	from	O	O	O	O
+1-10	work	1-3_prep_from	walking	NN	P1_NPart_work
+1-11	and	O	O	O	O
+1-12	was	O	O	VBD	O
+1-13	ready	1-3_conj_and	walking	JJ	O
+1-14	to	1-15_aux	drive	TO	O
+1-15	drive	O	O	VB	O
+1-16	home	1-15_dobj	drive	NN	P1_destination
+1-17	.	O	O	O	O
+
+#id=2
+#text=I started the car up , but I noticed that I left my phone at work , so I turned the ignition back off , locked the car doors , and shut the driver door . 
+2-1	I	2-2_nsubj	started	PRP	P1_passenger
+2-2	started	O	O	VBD	O
+2-3	the	O	O	DT	O
+2-4	car	2-2_dobj	started	NN	P2_NPart_car
+2-5	up	2-2_prt	started	RP	O
+2-6	,	O	O	O	O
+2-7	but	O	O	O	O
+2-8	I	2-9_nsubj	noticed	PRP	P1_passenger
+2-9	noticed	2-2_conj_but	started	VBD	O
+2-10	that	2-12_mark	left	IN	O
+2-11	I	2-12_nsubj	left	PRP	P1_passenger
+2-12	left	2-9_ccomp	noticed	VBD	O
+2-13	my	O	O	PRP$	P1_passenger
+2-14	phone	2-12_dobj	left	NN	P1_NPart_phone
+2-15	at	O	O	O	O
+2-16	work	2-12_prep_at	left	NN	P2_NPart_work
+2-17	,	O	O	O	O
+2-18	so	2-20_mark	turned	IN	O
+2-19	I	2-20_nsubj	turned	PRP	P1_passenger
+2-20	turned	2-12_advcl	left	VBD	O
+2-21	the	O	O	DT	O
+2-22	ignition	2-20_dobj	turned	NN	P1_NPart_ignition
+2-23	back	O	O	RB	O
+2-24	off	2-20_advmod	turned	RB	O
+2-25	,	O	O	O	O
+2-26	locked	2-20_conj_and	turned	VBD	O
+2-27	the	O	O	DT	O
+2-28	car	O	O	NN	O
+2-29	doors	2-26_dobj	locked	NNS	P1_NPart_doors
+2-30	,	O	O	O	O
+2-31	and	O	O	O	O
+2-32	shut	2-20_conj_and	turned	VBD	O
+2-33	the	O	O	DT	O
+2-34	driver	O	O	NN	O
+2-35	door	2-32_dobj	shut	NN	P1_NPart_door
+2-36	.	O	O	O	O
+
+#id=3
+#text=Unfortunately for me , I shut the door WITH my keys still in the ignition . 
+3-1	Unfortunately	3-6_advmod	shut	RB	O
+3-2	for	O	O	O	O
+3-3	me	3-6_prep_for	shut	PRP	P1_passenger
+3-4	,	O	O	O	O
+3-5	I	3-6_nsubj	shut	PRP	P1_passenger
+3-6	shut	O	O	VBD	O
+3-7	the	O	O	DT	O
+3-8	door	3-6_dobj	shut	NN	P2_NPart_door
+3-9	WITH	O	O	O	O
+3-10	my	O	O	PRP$	P1_passenger
+3-11	keys	3-6_prep_with	shut	NNS	P1_NPart_keys
+3-12	still	3-6_advmod	shut	RB	O
+3-13	in	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	ignition	3-6_prep_in	shut	NN	P2_NPart_ignition
+3-16	.	O	O	O	O
+
+#id=4
+#text=That 's right ; I was locked out of my own car . 
+4-1	That	O	O	DT	O
+4-2	's	O	O	VBZ	O
+4-3	right	O	O	JJ	P1_NPart_right
+4-4	;	O	O	O	O
+4-5	I	4-7_nsubjpass	locked	PRP	P1_passenger
+4-6	was	4-7_auxpass	locked	VBD	O
+4-7	locked	O	O	VBN	O
+4-8	out	O	O	O	O
+4-9	of	O	O	O	O
+4-10	my	O	O	PRP$	P1_passenger
+4-11	own	O	O	JJ	O
+4-12	car	4-7_prep_out_of	locked	NN	P3_NPart_car
+4-13	.	O	O	O	O
+
+#id=5
+#text=Flustered and embarassed , I pulled at the handles of the doors and attempted to open the trunk off the car - no luck at all . 
+5-1	Flustered	5-6_ccomp	pulled	JJ	O
+5-2	and	O	O	O	O
+5-3	embarassed	O	O	JJ	O
+5-4	,	O	O	O	O
+5-5	I	5-6_nsubj	pulled	PRP	P1_passenger
+5-6	pulled	O	O	VBD	O
+5-7	at	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	handles	5-6_prep_at	pulled	NN	O
+5-10	of	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	doors	O	O	NNS	P2_NPart_doors
+5-13	and	O	O	O	O
+5-14	attempted	5-6_conj_and	pulled	VBD	O
+5-15	to	5-16_aux	open	TO	O
+5-16	open	5-14_xcomp	attempted	VB	O
+5-17	the	O	O	DT	O
+5-18	trunk	5-16_dobj	open	NN	P1_NPart_trunk
+5-19	off	O	O	O	O
+5-20	the	O	O	DT	O
+5-21	car	5-16_prep_off	open	NN	P4_NPart_car
+5-22	-	O	O	O	O
+5-23	no	O	O	DT	O
+5-24	luck	O	O	NN	P1_NPart_luck
+5-25	at	O	O	O	O
+5-26	all	O	O	DT	O
+5-27	.	O	O	O	O
+
+#id=6
+#text=I walked back to my office , got my phone , and contemplated what I would do next . 
+6-1	I	6-2_nsubj	walked	PRP	P1_passenger
+6-2	walked	O	O	VBD	O
+6-3	back	6-2_prt	walked	RP	O
+6-4	to	O	O	O	O
+6-5	my	O	O	PRP$	P1_passenger
+6-6	office	6-2_prep_to	walked	NN	P1_NPart_office
+6-7	,	O	O	O	O
+6-8	got	6-2_conj_and	walked	VBD	O
+6-9	my	O	O	PRP$	P1_passenger
+6-10	phone	6-8_dobj	got	NN	P2_NPart_phone
+6-11	,	O	O	O	O
+6-12	and	O	O	O	O
+6-13	contemplated	6-2_conj_and	walked	VBD	O
+6-14	what	6-17_dobj	do	WP	O
+6-15	I	6-17_nsubj	do	PRP	P1_passenger
+6-16	would	6-17_aux	do	MD	O
+6-17	do	6-13_ccomp	contemplated	VB	O
+6-18	next	6-17_advmod	do	JJ	O
+6-19	.	O	O	O	O
+
+#id=7
+#text=There was no one there with me , so my only hope was riding the public bus -LRB- I did n't have money for a cab -RRB- . 
+7-1	There	7-2_expl	was	EX	O
+7-2	was	O	O	VBD	O
+7-3	no	O	O	DT	O
+7-4	one	O	O	NN	P1_NPart_one
+7-5	there	7-2_advmod	was	RB	O
+7-6	with	O	O	O	O
+7-7	me	7-2_prep_with	was	PRP	P1_passenger
+7-8	,	O	O	O	O
+7-9	so	7-2_dep	was	IN	O
+7-10	my	O	O	PRP$	P1_passenger
+7-11	only	O	O	JJ	O
+7-12	hope	7-14_nsubj	riding	NN	P1_NPart_hope
+7-13	was	7-14_aux	riding	VBD	O
+7-14	riding	7-2_parataxis	was	VBG	O
+7-15	the	O	O	DT	O
+7-16	public	O	O	JJ	O
+7-17	bus	7-14_dobj	riding	NN	P1_bus
+7-18	-LRB-	O	O	O	O
+7-19	I	7-22_nsubj	have	PRP	P1_passenger
+7-20	did	7-22_aux	have	VBD	O
+7-21	n't	7-22_neg	have	RB	O
+7-22	have	7-2_dep	was	VB	O
+7-23	money	7-22_dobj	have	NN	P1_NPart_money
+7-24	for	O	O	O	O
+7-25	a	O	O	DT	O
+7-26	cab	O	O	NN	P1_NPart_cab
+7-27	-RRB-	O	O	O	O
+7-28	.	O	O	O	O
+
+#id=8
+#text=I waited for the bus , the last one of the night , at the bus stop . 
+8-1	I	8-2_nsubj	waited	PRP	P1_passenger
+8-2	waited	O	O	VBD	O
+8-3	for	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	bus	8-2_prep_for	waited	NN	P1_bus
+8-6	,	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	last	O	O	JJ	O
+8-9	one	O	O	NN	P1_bus
+8-10	of	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	night	O	O	NN	P1_time/date
+8-13	,	O	O	O	O
+8-14	at	O	O	O	O
+8-15	the	O	O	DT	O
+8-16	bus	O	O	NN	O
+8-17	stop	8-2_prep_at	waited	NN	P1_bus_stop
+8-18	.	O	O	O	O
+
+#id=9
+#text=The bus driver opened the door for me and I came aboard . 
+9-1	The	O	O	DT	O
+9-2	bus	O	O	NN	O
+9-3	driver	9-4_nsubj	opened	NN	P1_bus_staff
+9-4	opened	O	O	VBD	O
+9-5	the	O	O	DT	O
+9-6	door	9-4_dobj	opened	NN	P1_door
+9-7	for	O	O	O	O
+9-8	me	9-4_prep_for	opened	PRP	P1_passenger
+9-9	and	O	O	O	O
+9-10	I	9-11_nsubj	came	PRP	P1_passenger
+9-11	came	9-4_conj_and	opened	VBD	O
+9-12	aboard	9-11_advmod	came	RB	O
+9-13	.	O	O	O	O
+
+#id=10
+#text=I paid the two dollar bus fare so that I could ride and asked him for a transfer so that I could get on the next bus at the terminal . 
+10-1	I	10-2_nsubj	paid	PRP	P1_passenger
+10-2	paid	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	two	O	O	CD	O
+10-5	dollar	O	O	NN	O
+10-6	bus	10-7_nsubj	fare	NN	O
+10-7	fare	10-2_ccomp	paid	VBP	P1_money
+10-8	so	10-12_advmod	ride	RB	O
+10-9	that	10-12_mark	ride	IN	O
+10-10	I	10-12_nsubj	ride	PRP	P1_passenger
+10-11	could	10-12_aux	ride	MD	O
+10-12	ride	10-7_advcl	fare	VB	O
+10-13	and	O	O	O	O
+10-14	asked	10-2_conj_and	paid	VBD	O
+10-15	him	10-14_dobj	asked	PRP	P1_bus_staff
+10-16	for	O	O	O	O
+10-17	a	O	O	DT	O
+10-18	transfer	10-14_prep_for	asked	NN	P1_other
+10-19	so	10-23_advmod	get	RB	O
+10-20	that	10-23_mark	get	IN	O
+10-21	I	10-23_nsubj	get	PRP	P1_passenger
+10-22	could	10-23_aux	get	MD	O
+10-23	get	10-14_advcl	asked	VB	O
+10-24	on	O	O	O	O
+10-25	the	O	O	DT	O
+10-26	next	O	O	JJ	O
+10-27	bus	10-23_prep_on	get	NN	P2_bus
+10-28	at	O	O	O	O
+10-29	the	O	O	DT	O
+10-30	terminal	O	O	NN	P2_bus_stop
+10-31	.	O	O	O	O
+
+#id=11
+#text=I took my seat , and the bus took me to the terminal at the plaza . 
+11-1	I	11-2_nsubj	took	PRP	P1_passenger
+11-2	took	O	O	VBD	O
+11-3	my	O	O	PRP$	P1_passenger
+11-4	seat	11-2_dobj	took	NN	P1_seat_in_bus
+11-5	,	O	O	O	O
+11-6	and	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	bus	11-9_nsubj	took	NN	P1_bus
+11-9	took	11-2_conj_and	took	VBD	O
+11-10	me	11-9_dobj	took	PRP	P1_passenger
+11-11	to	O	O	O	O
+11-12	the	O	O	DT	O
+11-13	terminal	11-9_prep_to	took	NN	P2_bus_stop
+11-14	at	O	O	O	O
+11-15	the	O	O	DT	O
+11-16	plaza	11-9_prep_at	took	NN	P1_NPart_plaza
+11-17	.	O	O	O	O
+
+#id=12
+#text=I got off the bus and hopped on the bus that would take me home . 
+12-1	I	12-2_nsubj	got	PRP	P1_passenger
+12-2	got	O	O	VBD	O
+12-3	off	12-2_prt	got	RP	O
+12-4	the	O	O	DT	O
+12-5	bus	12-2_dobj	got	NN	P1_bus
+12-6	and	O	O	O	O
+12-7	hopped	12-2_conj_and	got	VBD	O
+12-8	on	O	O	O	O
+12-9	the	O	O	DT	O
+12-10	bus	12-7_prep_on	hopped	NN	P2_bus
+12-11	that	12-13_nsubj	take	WDT	O
+12-12	would	12-13_aux	take	MD	O
+12-13	take	O	O	VB	O
+12-14	me	12-13_dobj	take	PRP	P1_passenger
+12-15	home	12-13_advmod	take	RB	P1_destination
+12-16	.	O	O	O	O
+
+#id=13
+#text=I handed the transfer to the driver and took my seat . 
+13-1	I	13-2_nsubj	handed	PRP	P1_passenger
+13-2	handed	O	O	VBD	O
+13-3	the	O	O	DT	O
+13-4	transfer	13-2_dobj	handed	NN	P1_other
+13-5	to	O	O	O	O
+13-6	the	O	O	DT	O
+13-7	driver	13-2_prep_to	handed	NN	P2_bus_staff
+13-8	and	O	O	O	O
+13-9	took	13-2_conj_and	handed	VBD	O
+13-10	my	O	O	PRP$	P1_passenger
+13-11	seat	13-9_dobj	took	NN	P2_seat_in_bus
+13-12	.	O	O	O	O
+
+#id=14
+#text=As I approached my apartment , I pushed the button to request for the bus to stop . 
+14-1	As	14-3_mark	approached	IN	O
+14-2	I	14-3_nsubj	approached	PRP	P1_passenger
+14-3	approached	14-8_advcl	pushed	VBD	O
+14-4	my	O	O	PRP$	P1_passenger
+14-5	apartment	14-3_dobj	approached	NN	P1_destination
+14-6	,	O	O	O	O
+14-7	I	14-8_nsubj	pushed	PRP	P1_passenger
+14-8	pushed	O	O	VBD	O
+14-9	the	O	O	DT	O
+14-10	button	14-8_dobj	pushed	NN	P1_stop_button/door_opener
+14-11	to	14-12_aux	request	TO	O
+14-12	request	O	O	VB	O
+14-13	for	O	O	O	O
+14-14	the	O	O	DT	O
+14-15	bus	14-12_prep_for	request	NN	P2_bus
+14-16	to	14-17_aux	stop	TO	O
+14-17	stop	O	O	VB	O
+14-18	.	O	O	O	O
+
+#id=15
+#text=The driver pulled over , and I thanked them and got off . 
+15-1	The	O	O	DT	O
+15-2	driver	15-3_nsubj	pulled	NN	P2_bus_staff
+15-3	pulled	O	O	VBD	O
+15-4	over	15-3_prt	pulled	RP	O
+15-5	,	O	O	O	O
+15-6	and	O	O	O	O
+15-7	I	15-8_nsubj	thanked	PRP	P1_passenger
+15-8	thanked	15-3_conj_and	pulled	VBD	O
+15-9	them	15-8_dobj	thanked	PRP	P2_bus_staff
+15-10	and	O	O	O	O
+15-11	got	15-8_conj_and	thanked	VBD	O
+15-12	off	15-11_prt	got	RP	O
+15-13	.	O	O	O	O
+
+#id=16
+#text=When I got in the apartment , I immediately jumped into my bed . 
+16-1	When	16-3_advmod	got	WRB	O
+16-2	I	16-3_nsubj	got	PRP	P1_passenger
+16-3	got	16-10_advcl	jumped	VBD	O
+16-4	in	O	O	O	O
+16-5	the	O	O	DT	O
+16-6	apartment	16-3_prep_in	got	NN	P1_destination
+16-7	,	O	O	O	O
+16-8	I	16-10_nsubj	jumped	PRP	P1_passenger
+16-9	immediately	16-10_advmod	jumped	RB	O
+16-10	jumped	O	O	VBD	O
+16-11	into	O	O	O	O
+16-12	my	O	O	PRP$	P1_passenger
+16-13	bed	16-10_prep_into	jumped	NN	P1_NPart_bed
+16-14	.	O	O	O	O
+
+#id=17
+#text=I was dead-tired , and though I had the dilemma of having my keys locked in the car , I would figure that out in the morning . 
+17-1	I	O	O	PRP	P1_passenger
+17-2	was	O	O	VBD	O
+17-3	dead-tired	O	O	JJ	O
+17-4	,	O	O	O	O
+17-5	and	O	O	O	O
+17-6	though	17-8_mark	had	IN	O
+17-7	I	17-8_nsubj	had	PRP	P1_passenger
+17-8	had	17-22_advcl	figure	VBD	O
+17-9	the	O	O	DT	O
+17-10	dilemma	17-8_dobj	had	NN	P1_NPart_dilemma
+17-11	of	O	O	O	O
+17-12	having	17-15_aux	locked	VBG	O
+17-13	my	O	O	PRP$	P1_passenger
+17-14	keys	17-15_dobj	locked	NNS	P2_NPart_keys
+17-15	locked	O	O	VBN	O
+17-16	in	O	O	O	O
+17-17	the	O	O	DT	O
+17-18	car	17-15_prep_in	locked	NN	P5_NPart_car
+17-19	,	O	O	O	O
+17-20	I	17-22_nsubj	figure	PRP	P1_passenger
+17-21	would	17-22_aux	figure	MD	O
+17-22	figure	O	O	VB	O
+17-23	that	17-22_dobj	figure	DT	O
+17-24	out	17-22_prt	figure	RP	O
+17-25	in	O	O	O	O
+17-26	the	O	O	DT	O
+17-27	morning	17-22_prep_in	figure	NN	P1_NPart_morning
+17-28	.	O	O	O	O

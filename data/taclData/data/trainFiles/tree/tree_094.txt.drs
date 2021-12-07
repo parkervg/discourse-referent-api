@@ -1,0 +1,237 @@
+#id=1
+#text=I had never planted a tree before , so before we planted one , I had to do a lot of research . 
+1-1	I	1-4_nsubj	planted	PRP	P1_gardener
+1-2	had	1-4_aux	planted	VBD	O
+1-3	never	1-4_neg	planted	RB	O
+1-4	planted	O	O	VBN	O
+1-5	a	O	O	DT	O
+1-6	tree	1-4_dobj	planted	NN	P1_tree
+1-7	before	1-4_advmod	planted	RB	O
+1-8	,	O	O	O	O
+1-9	so	1-4_dep	planted	IN	O
+1-10	before	1-12_mark	planted	IN	O
+1-11	we	1-12_nsubj	planted	PRP	P2_gardener
+1-12	planted	1-16_advcl	had	VBD	O
+1-13	one	1-12_dobj	planted	CD	P1_tree
+1-14	,	O	O	O	O
+1-15	I	1-16_nsubj	had	PRP	P1_gardener
+1-16	had	1-4_parataxis	planted	VBD	O
+1-17	to	1-18_aux	do	TO	O
+1-18	do	1-16_xcomp	had	VB	O
+1-19	a	O	O	DT	O
+1-20	lot	1-18_dobj	do	NN	O
+1-21	of	O	O	O	O
+1-22	research	O	O	NN	P1_NPart_research
+1-23	.	O	O	O	O
+
+#id=2
+#text=I had to look up what kind of tree would work best in my climate . 
+2-1	I	2-2_nsubj	had	PRP	P1_gardener
+2-2	had	O	O	VBD	O
+2-3	to	2-4_aux	look	TO	O
+2-4	look	2-2_xcomp	had	VB	O
+2-5	up	2-4_prt	look	RP	O
+2-6	what	2-11_dobj	work	WP	O
+2-7	kind	2-11_nsubj	work	NN	O
+2-8	of	O	O	O	O
+2-9	tree	O	O	NN	P1_tree
+2-10	would	2-11_aux	work	MD	O
+2-11	work	2-4_ccomp	look	VB	O
+2-12	best	2-11_dobj	work	JJS	O
+2-13	in	O	O	O	O
+2-14	my	O	O	PRP$	P1_gardener
+2-15	climate	O	O	NN	P1_NPart_climate
+2-16	.	O	O	O	O
+
+#id=3
+#text=I had to see which ones needed certain levels of care , look up different tree diseases , and the prices of some trees . 
+3-1	I	3-2_nsubj	had	PRP	P1_gardener
+3-2	had	O	O	VBD	O
+3-3	to	3-4_aux	see	TO	O
+3-4	see	3-2_xcomp	had	VB	O
+3-5	which	3-7_dobj	needed	WDT	O
+3-6	ones	3-7_nsubj	needed	NNS	P2_tree
+3-7	needed	3-4_ccomp	see	VBD	O
+3-8	certain	O	O	JJ	O
+3-9	levels	3-7_dobj	needed	NNS	O
+3-10	of	O	O	O	O
+3-11	care	O	O	NN	P1_other
+3-12	,	O	O	O	O
+3-13	look	3-7_dep	needed	VB	O
+3-14	up	3-13_prt	look	RP	O
+3-15	different	O	O	JJ	O
+3-16	tree	O	O	NN	P3_tree
+3-17	diseases	3-13_dobj	look	NNS	P2_other
+3-18	,	O	O	O	O
+3-19	and	O	O	O	O
+3-20	the	O	O	DT	O
+3-21	prices	O	O	NNS	P3_other
+3-22	of	O	O	O	O
+3-23	some	O	O	DT	O
+3-24	trees	O	O	NNS	P4_tree
+3-25	.	O	O	O	O
+
+#id=4
+#text=I had to find something that would work well in my yard . 
+4-1	I	4-2_nsubj	had	PRP	P1_gardener
+4-2	had	O	O	VBD	O
+4-3	to	4-4_aux	find	TO	O
+4-4	find	4-2_xcomp	had	VB	O
+4-5	something	4-4_dobj	find	NN	P1_tree
+4-6	that	4-8_nsubj	work	WDT	O
+4-7	would	4-8_aux	work	MD	O
+4-8	work	O	O	VB	O
+4-9	well	4-8_advmod	work	RB	O
+4-10	in	O	O	O	O
+4-11	my	O	O	PRP$	P1_gardener
+4-12	yard	4-8_prep_in	work	NN	P1_location_garden
+4-13	.	O	O	O	O
+
+#id=5
+#text=When we finally picked a perfect tree , we had to take it home . 
+5-1	When	5-4_advmod	picked	WRB	O
+5-2	we	5-4_nsubj	picked	PRP	P2_gardener
+5-3	finally	5-4_advmod	picked	RB	O
+5-4	picked	5-10_advcl	had	VBD	O
+5-5	a	O	O	DT	O
+5-6	perfect	O	O	JJ	O
+5-7	tree	5-4_dobj	picked	NN	P1_tree
+5-8	,	O	O	O	O
+5-9	we	5-10_nsubj	had	PRP	P2_gardener
+5-10	had	O	O	VBD	O
+5-11	to	5-12_aux	take	TO	O
+5-12	take	5-10_xcomp	had	VB	O
+5-13	it	5-12_dobj	take	PRP	P1_tree
+5-14	home	5-12_advmod	take	RB	P4_other
+5-15	.	O	O	O	O
+
+#id=6
+#text=It was very heavy ! 
+6-1	It	O	O	PRP	P1_tree
+6-2	was	O	O	VBD	O
+6-3	very	O	O	RB	O
+6-4	heavy	O	O	JJ	O
+6-5	!	O	O	O	O
+
+#id=7
+#text=Once we had it home , we had to dig a very big hole . 
+7-1	Once	7-3_mark	had	IN	O
+7-2	we	7-3_nsubj	had	PRP	P2_gardener
+7-3	had	7-8_advcl	had	VBD	O
+7-4	it	7-3_dobj	had	PRP	P1_tree
+7-5	home	7-3_advmod	had	RB	P4_other
+7-6	,	O	O	O	O
+7-7	we	7-8_nsubj	had	PRP	P2_gardener
+7-8	had	O	O	VBD	O
+7-9	to	7-10_aux	dig	TO	O
+7-10	dig	7-8_xcomp	had	VB	O
+7-11	a	O	O	DT	O
+7-12	very	O	O	RB	O
+7-13	big	O	O	JJ	O
+7-14	hole	7-10_dobj	dig	NN	P1_hole
+7-15	.	O	O	O	O
+
+#id=8
+#text=After you roll the tree into the hole , you have to do something called facing the tree , which means you put the tree in the position you are happy with the already existing branches growing . 
+8-1	After	8-3_mark	roll	IN	O
+8-2	you	8-3_nsubj	roll	PRP	P3_gardener
+8-3	roll	8-11_advcl	have	VBP	O
+8-4	the	O	O	DT	O
+8-5	tree	8-3_dobj	roll	NN	P1_tree
+8-6	into	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	hole	8-3_prep_into	roll	NN	P1_hole
+8-9	,	O	O	O	O
+8-10	you	8-11_nsubj	have	PRP	P3_gardener
+8-11	have	O	O	VBP	O
+8-12	to	8-13_aux	do	TO	O
+8-13	do	8-11_xcomp	have	VB	O
+8-14	something	8-13_dobj	do	NN	O
+8-15	called	O	O	VBN	O
+8-16	facing	8-15_xcomp	called	VBG	O
+8-17	the	O	O	DT	O
+8-18	tree	8-16_dobj	facing	NN	P5_tree
+8-19	,	O	O	O	O
+8-20	which	8-21_nsubj	means	WDT	O
+8-21	means	O	O	VBZ	O
+8-22	you	8-23_nsubj	put	PRP	P3_gardener
+8-23	put	8-21_ccomp	means	VBD	O
+8-24	the	O	O	DT	O
+8-25	tree	8-23_dobj	put	NN	P1_tree
+8-26	in	O	O	O	O
+8-27	the	O	O	DT	O
+8-28	position	8-23_prep_in	put	NN	O
+8-29	you	O	O	PRP	P3_gardener
+8-30	are	O	O	VBP	O
+8-31	happy	O	O	JJ	O
+8-32	with	O	O	O	O
+8-33	the	O	O	DT	O
+8-34	already	8-35_advmod	existing	RB	O
+8-35	existing	O	O	VBG	O
+8-36	branches	O	O	NNS	P5_other
+8-37	growing	O	O	NN	O
+8-38	.	O	O	O	O
+
+#id=9
+#text=You do n't want a huge branch going right toward your house ! 
+9-1	You	9-4_nsubj	want	PRP	P3_gardener
+9-2	do	9-4_aux	want	VBP	O
+9-3	n't	9-4_neg	want	RB	O
+9-4	want	O	O	VB	O
+9-5	a	O	O	DT	O
+9-6	huge	O	O	JJ	O
+9-7	branch	9-4_dobj	want	NN	P5_other
+9-8	going	O	O	VBG	O
+9-9	right	9-8_advmod	going	RB	O
+9-10	toward	O	O	O	O
+9-11	your	O	O	PRP$	P3_gardener
+9-12	house	9-8_prep_toward	going	NN	P6_other
+9-13	!	O	O	O	O
+
+#id=10
+#text=To make facing easier , you should fill the hole halfway with water before putting the tree inside . 
+10-1	To	10-2_aux	make	TO	O
+10-2	make	10-8_advcl	fill	VB	O
+10-3	facing	10-2_xcomp	make	VBG	O
+10-4	easier	10-3_acomp	facing	JJR	O
+10-5	,	O	O	O	O
+10-6	you	10-8_nsubj	fill	PRP	P3_gardener
+10-7	should	10-8_aux	fill	MD	O
+10-8	fill	O	O	VB	O
+10-9	the	O	O	DT	O
+10-10	hole	10-8_dobj	fill	NN	P1_hole
+10-11	halfway	10-8_advmod	fill	RB	O
+10-12	with	O	O	O	O
+10-13	water	10-8_prep_with	fill	NN	P1_water
+10-14	before	O	O	O	O
+10-15	putting	10-8_prepc_before	fill	VBG	O
+10-16	the	O	O	DT	O
+10-17	tree	10-15_dobj	putting	NN	P1_tree
+10-18	inside	10-15_advmod	putting	RB	O
+10-19	.	O	O	O	O
+
+#id=11
+#text=After you face the tree , fill in the dirt , and pat yourself on the back for a job well done . 
+11-1	After	11-3_mark	face	IN	O
+11-2	you	11-3_nsubj	face	PRP	P3_gardener
+11-3	face	11-7_advcl	fill	VBP	O
+11-4	the	O	O	DT	O
+11-5	tree	11-3_dobj	face	NN	P1_tree
+11-6	,	O	O	O	O
+11-7	fill	O	O	VB	O
+11-8	in	O	O	O	O
+11-9	the	O	O	DT	O
+11-10	dirt	11-7_prep_in	fill	NN	P1_dirt
+11-11	,	O	O	O	O
+11-12	and	O	O	O	O
+11-13	pat	11-7_conj_and	fill	VB	O
+11-14	yourself	11-13_dobj	pat	PRP	P3_gardener
+11-15	on	O	O	O	O
+11-16	the	O	O	DT	O
+11-17	back	11-13_prep_on	pat	NN	O
+11-18	for	O	O	O	O
+11-19	a	O	O	DT	O
+11-20	job	O	O	NN	O
+11-21	well	11-22_advmod	done	RB	O
+11-22	done	O	O	VBN	O
+11-23	.	O	O	O	O

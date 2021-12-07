@@ -1,0 +1,290 @@
+#id=1
+#text=A friend of mine told me about a book she liked and I wanted to read it . 
+1-1	A	O	O	DT	O
+1-2	friend	1-5_nsubj	told	NN	P1_NPart_she
+1-3	of	O	O	O	O
+1-4	mine	O	O	NN	P1_customer
+1-5	told	O	O	VBD	O
+1-6	me	1-5_dobj	told	PRP	P1_customer
+1-7	about	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	book	1-5_prep_about	told	NN	P1_book
+1-10	she	1-11_nsubj	liked	PRP	P1_NPart_she
+1-11	liked	O	O	VBD	O
+1-12	and	O	O	O	O
+1-13	I	1-14_nsubj	wanted	PRP	P1_customer
+1-14	wanted	1-11_conj_and	liked	VBD	O
+1-15	to	1-16_aux	read	TO	O
+1-16	read	1-14_xcomp	wanted	VB	O
+1-17	it	1-16_dobj	read	PRP	P1_book
+1-18	.	O	O	O	O
+
+#id=2
+#text=I did n't want to buy the book , though , so I decided to go to the library . 
+2-1	I	2-4_nsubj	want	PRP	P1_customer
+2-2	did	2-4_aux	want	VBD	O
+2-3	n't	2-4_neg	want	RB	O
+2-4	want	O	O	VB	O
+2-5	to	2-6_aux	buy	TO	O
+2-6	buy	2-4_xcomp	want	VB	O
+2-7	the	O	O	DT	O
+2-8	book	2-6_dobj	buy	NN	P1_book
+2-9	,	O	O	O	O
+2-10	though	2-6_advmod	buy	RB	O
+2-11	,	O	O	O	O
+2-12	so	2-14_mark	decided	IN	O
+2-13	I	2-14_nsubj	decided	PRP	P1_customer
+2-14	decided	2-6_advcl	buy	VBD	O
+2-15	to	2-16_aux	go	TO	O
+2-16	go	2-14_xcomp	decided	VB	O
+2-17	to	O	O	O	O
+2-18	the	O	O	DT	O
+2-19	library	2-16_prep_to	go	NN	P1_library
+2-20	.	O	O	O	O
+
+#id=3
+#text=When I first got to the library , I had to register for a library card because you ca n't check out books without it . 
+3-1	When	3-4_advmod	got	WRB	O
+3-2	I	3-4_nsubj	got	PRP	P1_customer
+3-3	first	3-4_advmod	got	RB	O
+3-4	got	3-10_advcl	had	VBD	O
+3-5	to	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	library	3-4_prep_to	got	NN	P1_library
+3-8	,	O	O	O	O
+3-9	I	3-10_nsubj	had	PRP	P1_customer
+3-10	had	O	O	VBD	O
+3-11	to	3-12_aux	register	TO	O
+3-12	register	3-10_xcomp	had	VB	O
+3-13	for	O	O	O	O
+3-14	a	O	O	DT	O
+3-15	library	O	O	NN	O
+3-16	card	3-12_prep_for	register	NN	P1_library_card
+3-17	because	3-21_mark	check	IN	O
+3-18	you	3-21_nsubj	check	PRP	P1_customer
+3-19	ca	3-21_aux	check	MD	O
+3-20	n't	3-21_neg	check	RB	O
+3-21	check	3-12_advcl	register	VB	O
+3-22	out	3-21_prt	check	RP	O
+3-23	books	3-21_dobj	check	NNS	P2_book
+3-24	without	O	O	O	O
+3-25	it	3-21_prep_without	check	PRP	P1_library_card
+3-26	.	O	O	O	O
+
+#id=4
+#text=So , I went to the front desk , filled out a form and then waited . 
+4-1	So	4-4_advmod	went	RB	O
+4-2	,	O	O	O	O
+4-3	I	4-4_nsubj	went	PRP	P1_customer
+4-4	went	O	O	VBD	O
+4-5	to	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	front	O	O	JJ	O
+4-8	desk	4-4_prep_to	went	NN	P1_check-out_desk
+4-9	,	O	O	O	O
+4-10	filled	4-4_conj_and	went	VBD	O
+4-11	out	4-10_prt	filled	RP	O
+4-12	a	O	O	DT	O
+4-13	form	4-10_dobj	filled	NN	P1_NPart_form
+4-14	and	O	O	O	O
+4-15	then	4-16_advmod	waited	RB	O
+4-16	waited	4-4_conj_and	went	VBD	O
+4-17	.	O	O	O	O
+
+#id=5
+#text=The lady at the desk made my library card right then and handed it to me . 
+5-1	The	O	O	DT	O
+5-2	lady	5-6_nsubj	made	NN	P1_staff
+5-3	at	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	desk	O	O	NN	P1_check-out_desk
+5-6	made	O	O	VBD	O
+5-7	my	O	O	PRP$	P1_customer
+5-8	library	O	O	NN	O
+5-9	card	O	O	NN	P1_library_card
+5-10	right	5-6_dobj	made	NN	O
+5-11	then	5-6_advmod	made	RB	O
+5-12	and	O	O	O	O
+5-13	handed	5-6_conj_and	made	VBD	O
+5-14	it	5-13_dobj	handed	PRP	P1_library_card
+5-15	to	O	O	O	O
+5-16	me	5-13_prep_to	handed	PRP	P1_customer
+5-17	.	O	O	O	O
+
+#id=6
+#text=Then I asked her where I would find the book I was looking for and she showed me the right bookshelves . 
+6-1	Then	6-3_advmod	asked	RB	O
+6-2	I	6-3_nsubj	asked	PRP	P1_customer
+6-3	asked	O	O	VBD	O
+6-4	her	6-3_dobj	asked	PRP	P1_staff
+6-5	where	6-8_advmod	find	WRB	O
+6-6	I	6-8_nsubj	find	PRP	P1_customer
+6-7	would	6-8_aux	find	MD	O
+6-8	find	6-3_advcl	asked	VB	O
+6-9	the	O	O	DT	O
+6-10	book	6-8_dobj	find	NN	P1_book
+6-11	I	6-13_nsubj	looking	PRP	P1_customer
+6-12	was	6-13_aux	looking	VBD	O
+6-13	looking	O	O	VBG	O
+6-14	for	6-13_prep	looking	IN	O
+6-15	and	O	O	O	O
+6-16	she	6-17_nsubj	showed	PRP	P1_staff
+6-17	showed	6-13_conj_and	looking	VBD	O
+6-18	me	O	O	PRP	P1_customer
+6-19	the	O	O	DT	O
+6-20	right	O	O	JJ	O
+6-21	bookshelves	6-17_xcomp	showed	NNS	P1_shelf
+6-22	.	O	O	O	O
+
+#id=7
+#text=I located the book right away and took it from the shelf , but then I stayed to look around for more books . 
+7-1	I	7-2_nsubj	located	PRP	P1_customer
+7-2	located	O	O	VBN	O
+7-3	the	O	O	DT	O
+7-4	book	7-2_dobj	located	NN	P1_book
+7-5	right	O	O	RB	O
+7-6	away	7-2_advmod	located	RB	O
+7-7	and	O	O	O	O
+7-8	took	7-2_conj_and	located	VBD	O
+7-9	it	7-8_dobj	took	PRP	P1_book
+7-10	from	O	O	O	O
+7-11	the	O	O	DT	O
+7-12	shelf	7-8_prep_from	took	NN	P2_shelf
+7-13	,	O	O	O	O
+7-14	but	O	O	O	O
+7-15	then	7-17_advmod	stayed	RB	O
+7-16	I	7-17_nsubj	stayed	PRP	P1_customer
+7-17	stayed	7-2_conj_but	located	VBD	O
+7-18	to	7-19_aux	look	TO	O
+7-19	look	7-17_xcomp	stayed	VB	O
+7-20	around	7-19_prt	look	RP	O
+7-21	for	O	O	O	O
+7-22	more	O	O	JJR	O
+7-23	books	7-19_prep_for	look	NNS	P2_book
+7-24	.	O	O	O	O
+
+#id=8
+#text=The library has a card catalog where you can look up any book you want and the catalog will tell you which shelf to go to for the book . 
+8-1	The	O	O	DT	O
+8-2	library	8-3_nsubj	has	NN	P1_library
+8-3	has	O	O	VBZ	O
+8-4	a	O	O	DT	O
+8-5	card	O	O	NN	O
+8-6	catalog	8-3_dobj	has	NN	P1_catalog
+8-7	where	8-10_advmod	look	WRB	O
+8-8	you	8-10_nsubj	look	PRP	P1_customer
+8-9	can	8-10_aux	look	MD	O
+8-10	look	O	O	VB	O
+8-11	up	8-10_prt	look	RP	O
+8-12	any	O	O	DT	O
+8-13	book	8-10_dobj	look	NN	P2_book
+8-14	you	8-15_nsubj	want	PRP	P1_customer
+8-15	want	O	O	VBP	O
+8-16	and	O	O	O	O
+8-17	the	O	O	DT	O
+8-18	catalog	8-20_nsubj	tell	NN	P1_catalog
+8-19	will	8-20_aux	tell	MD	O
+8-20	tell	8-3_conj_and	has	VB	O
+8-21	you	8-20_dobj	tell	PRP	P1_customer
+8-22	which	8-25_prep_to	go	WDT	O
+8-23	shelf	8-25_nsubj	go	NN	P1_shelf
+8-24	to	8-25_aux	go	TO	O
+8-25	go	8-20_xcomp	tell	VB	O
+8-26	to	O	O	O	O
+8-27	for	O	O	O	O
+8-28	the	O	O	DT	O
+8-29	book	8-25_prep_for	go	NN	P2_book
+8-30	.	O	O	O	O
+
+#id=9
+#text=So , I used the card catalog to find two more books and then took all my books back to the front desk to check them out . 
+9-1	So	9-4_advmod	used	RB	O
+9-2	,	O	O	O	O
+9-3	I	9-4_nsubj	used	PRP	P1_customer
+9-4	used	O	O	VBD	O
+9-5	the	O	O	DT	O
+9-6	card	O	O	NN	O
+9-7	catalog	9-4_dobj	used	NN	P1_catalog
+9-8	to	9-9_aux	find	TO	O
+9-9	find	9-4_vmod	used	VB	O
+9-10	two	O	O	CD	O
+9-11	more	O	O	JJR	O
+9-12	books	9-9_dobj	find	NNS	P3_book
+9-13	and	O	O	O	O
+9-14	then	9-15_advmod	took	RB	O
+9-15	took	9-4_conj_and	used	VBD	O
+9-16	all	O	O	PDT	O
+9-17	my	O	O	PRP$	P1_customer
+9-18	books	9-15_dobj	took	NNS	P2_book
+9-19	back	9-15_advmod	took	RB	O
+9-20	to	O	O	O	O
+9-21	the	O	O	DT	O
+9-22	front	O	O	JJ	O
+9-23	desk	O	O	NN	P1_check-out_desk
+9-24	to	9-25_aux	check	TO	O
+9-25	check	9-15_vmod	took	VB	O
+9-26	them	9-25_dobj	check	PRP	P2_book
+9-27	out	9-25_prt	check	RP	O
+9-28	.	O	O	O	O
+
+#id=10
+#text=The lady at the front desk scanned a bar code in the back of the book and that registered them as checked out to me . 
+10-1	The	O	O	DT	O
+10-2	lady	10-7_nsubj	scanned	NN	P1_staff
+10-3	at	O	O	O	O
+10-4	the	O	O	DT	O
+10-5	front	O	O	JJ	O
+10-6	desk	O	O	NN	P1_check-out_desk
+10-7	scanned	O	O	VBD	O
+10-8	a	O	O	DT	O
+10-9	bar	O	O	NN	O
+10-10	code	10-7_dobj	scanned	NN	P1_book_id
+10-11	in	O	O	O	O
+10-12	the	O	O	DT	O
+10-13	back	10-7_prep_in	scanned	NN	P1_NPart_back
+10-14	of	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	book	O	O	NN	P2_book
+10-17	and	O	O	O	O
+10-18	that	10-19_nsubj	registered	DT	O
+10-19	registered	10-7_conj_and	scanned	VBD	O
+10-20	them	10-19_dobj	registered	PRP	P2_book
+10-21	as	10-22_mark	checked	IN	O
+10-22	checked	10-19_advcl	registered	VBD	O
+10-23	out	10-22_prt	checked	RP	O
+10-24	to	O	O	O	O
+10-25	me	10-22_prep_to	checked	PRP	P1_customer
+10-26	.	O	O	O	O
+
+#id=11
+#text=She told me I would have four weeks to read them . 
+11-1	She	11-2_nsubj	told	PRP	P1_staff
+11-2	told	O	O	VBD	O
+11-3	me	11-2_dobj	told	PRP	P1_customer
+11-4	I	11-6_nsubj	have	PRP	P1_customer
+11-5	would	11-6_aux	have	MD	O
+11-6	have	11-2_dep	told	VB	O
+11-7	four	O	O	CD	O
+11-8	weeks	11-6_tmod	have	NNS	P1_NPart_weeks
+11-9	to	11-10_aux	read	TO	O
+11-10	read	11-6_vmod	have	VB	O
+11-11	them	11-10_dobj	read	PRP	P2_book
+11-12	.	O	O	O	O
+
+#id=12
+#text=After she was finished , I picked up the books and left the library . 
+12-1	After	12-4_mark	finished	IN	O
+12-2	she	12-4_nsubjpass	finished	PRP	P1_staff
+12-3	was	12-4_auxpass	finished	VBD	O
+12-4	finished	12-7_advcl	picked	VBN	O
+12-5	,	O	O	O	O
+12-6	I	12-7_nsubj	picked	PRP	P1_customer
+12-7	picked	O	O	VBD	O
+12-8	up	12-7_prt	picked	RP	O
+12-9	the	O	O	DT	O
+12-10	books	12-7_dobj	picked	NNS	P2_book
+12-11	and	O	O	O	O
+12-12	left	12-7_conj_and	picked	VBD	O
+12-13	the	O	O	DT	O
+12-14	library	12-12_dobj	left	NN	P1_library
+12-15	.	O	O	O	O

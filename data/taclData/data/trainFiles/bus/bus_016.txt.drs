@@ -1,0 +1,221 @@
+#id=1
+#text=After looking for a bus route to my workplace online , I headed outside . 
+1-1	After	O	O	O	O
+1-2	looking	1-13_prepc_after	headed	VBG	O
+1-3	for	O	O	O	O
+1-4	a	O	O	DT	O
+1-5	bus	O	O	NN	O
+1-6	route	1-2_prep_for	looking	NN	P1_route
+1-7	to	O	O	O	O
+1-8	my	O	O	PRP$	P1_passenger
+1-9	workplace	O	O	NN	P1_destination
+1-10	online	1-2_prep_to	looking	NN	O
+1-11	,	O	O	O	O
+1-12	I	1-13_nsubj	headed	PRP	P1_passenger
+1-13	headed	O	O	VBD	O
+1-14	outside	1-13_advmod	headed	RB	P1_NPart_outside
+1-15	.	O	O	O	O
+
+#id=2
+#text=The nearest bus stop was only about a block or two away so I walked over . 
+2-1	The	O	O	DT	O
+2-2	nearest	O	O	JJS	O
+2-3	bus	O	O	NN	O
+2-4	stop	2-5_nsubj	was	NN	P1_bus_stop
+2-5	was	O	O	VBD	O
+2-6	only	2-5_advmod	was	RB	O
+2-7	about	O	O	O	O
+2-8	a	O	O	DT	O
+2-9	block	2-5_prep_about	was	NN	P1_NPart_block
+2-10	or	O	O	O	O
+2-11	two	O	O	CD	O
+2-12	away	2-15_advmod	walked	RB	O
+2-13	so	2-15_mark	walked	IN	O
+2-14	I	2-15_nsubj	walked	PRP	P1_passenger
+2-15	walked	2-5_advcl	was	VBD	O
+2-16	over	2-15_prt	walked	RP	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=There were two bus stops at the same intersection , one on either side of the road . 
+3-1	There	3-2_expl	were	EX	O
+3-2	were	O	O	VBD	O
+3-3	two	O	O	CD	O
+3-4	bus	O	O	NN	O
+3-5	stops	3-2_nsubj	were	NNS	P1_bus_stop
+3-6	at	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	same	O	O	JJ	O
+3-9	intersection	3-2_prep_at	were	NN	P1_NPart_intersection
+3-10	,	O	O	O	O
+3-11	one	3-2_nsubj	were	CD	O
+3-12	on	O	O	O	O
+3-13	either	O	O	DT	O
+3-14	side	O	O	NN	P1_NPart_side
+3-15	of	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	road	O	O	NN	P2_route
+3-18	.	O	O	O	O
+
+#id=4
+#text=I made sure I was at the right stop by reading the stop location id listed on the sign next to the bus stop . 
+4-1	I	4-2_nsubj	made	PRP	P1_passenger
+4-2	made	O	O	VBD	O
+4-3	sure	4-2_acomp	made	JJ	O
+4-4	I	4-5_nsubj	was	PRP	P1_passenger
+4-5	was	O	O	VBD	O
+4-6	at	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	right	O	O	JJ	O
+4-9	stop	4-5_prep_at	was	NN	P1_bus_stop
+4-10	by	O	O	O	O
+4-11	reading	4-5_prepc_by	was	VBG	O
+4-12	the	O	O	DT	O
+4-13	stop	O	O	NN	O
+4-14	location	O	O	NN	O
+4-15	id	4-11_dobj	reading	NN	P1_other
+4-16	listed	O	O	VBN	O
+4-17	on	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	sign	4-16_prep_on	listed	NN	P2_other
+4-20	next	O	O	O	O
+4-21	to	O	O	O	O
+4-22	the	O	O	DT	O
+4-23	bus	O	O	NN	O
+4-24	stop	O	O	NN	P1_bus_stop
+4-25	.	O	O	O	O
+
+#id=5
+#text=My bus arrived in about five minutes and I got on board . 
+5-1	My	O	O	PRP$	P2_passenger
+5-2	bus	5-3_nsubj	arrived	NN	P1_bus
+5-3	arrived	O	O	VBD	O
+5-4	in	O	O	O	O
+5-5	about	O	O	RB	O
+5-6	five	O	O	CD	O
+5-7	minutes	5-3_prep_in	arrived	NNS	P1_time/date
+5-8	and	O	O	O	O
+5-9	I	5-10_nsubj	got	PRP	P1_passenger
+5-10	got	5-3_conj_and	arrived	VBD	O
+5-11	on	O	O	O	O
+5-12	board	5-10_prep_on	got	NN	O
+5-13	.	O	O	O	O
+
+#id=6
+#text=I waited until I got to the rider before taking out my wallet , and quickly paid the exact fee for a one day , unlimited bus pass . 
+6-1	I	6-2_nsubj	waited	PRP	P1_passenger
+6-2	waited	6-28_ccomp	pass	VBD	O
+6-3	until	6-5_mark	got	IN	P3_passenger
+6-4	I	6-5_nsubj	got	PRP	P1_passenger
+6-5	got	6-2_advcl	waited	VBD	O
+6-6	to	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	rider	6-5_prep_to	got	NN	P1_bus_staff
+6-9	before	O	O	O	O
+6-10	taking	6-5_prepc_before	got	VBG	O
+6-11	out	6-10_prt	taking	RP	O
+6-12	my	O	O	PRP$	P1_passenger
+6-13	wallet	6-10_dobj	taking	NN	P1_NPart_wallet
+6-14	,	O	O	O	O
+6-15	and	O	O	O	O
+6-16	quickly	6-17_advmod	paid	RB	O
+6-17	paid	6-2_conj_and	waited	VBD	O
+6-18	the	O	O	DT	O
+6-19	exact	O	O	JJ	O
+6-20	fee	6-17_dobj	paid	NN	P1_money
+6-21	for	O	O	O	O
+6-22	a	O	O	DT	O
+6-23	one	O	O	CD	O
+6-24	day	6-17_prep_for	paid	NN	P2_time/date
+6-25	,	O	O	O	O
+6-26	unlimited	O	O	JJ	O
+6-27	bus	6-28_nsubj	pass	NN	O
+6-28	pass	O	O	VBP	P1_card/ticket
+6-29	.	O	O	O	O
+
+#id=7
+#text=After receiving the pass , I walked inside the bus and looked for the nearest , open seat . 
+7-1	After	O	O	O	O
+7-2	receiving	7-7_prepc_after	walked	VBG	O
+7-3	the	O	O	DT	O
+7-4	pass	7-2_dobj	receiving	NN	P1_card/ticket
+7-5	,	O	O	O	O
+7-6	I	7-7_nsubj	walked	PRP	P1_passenger
+7-7	walked	O	O	VBD	O
+7-8	inside	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	bus	7-7_prep_inside	walked	NN	P1_bus
+7-11	and	O	O	O	O
+7-12	looked	7-7_conj_and	walked	VBD	O
+7-13	for	O	O	O	O
+7-14	the	O	O	DT	O
+7-15	nearest	7-12_prep_for	looked	JJS	O
+7-16	,	O	O	O	O
+7-17	open	O	O	JJ	O
+7-18	seat	O	O	NN	P1_seat_in_bus
+7-19	.	O	O	O	O
+
+#id=8
+#text=I found one close to the back of the bus . 
+8-1	I	8-2_nsubj	found	PRP	P1_passenger
+8-2	found	O	O	VBD	O
+8-3	one	O	O	CD	P1_seat_in_bus
+8-4	close	8-2_dobj	found	NN	O
+8-5	to	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	back	8-2_prep_to	found	NN	O
+8-8	of	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	bus	O	O	NN	P1_bus
+8-11	.	O	O	O	O
+
+#id=9
+#text=Since my stop was a common one , I did n't have to let the bus driver know when I needed to get off . 
+9-1	Since	O	O	IN	O
+9-2	my	O	O	PRP$	P1_passenger
+9-3	stop	O	O	NN	P2_destination
+9-4	was	O	O	VBD	O
+9-5	a	O	O	DT	O
+9-6	common	O	O	JJ	O
+9-7	one	9-12_advcl	have	NN	O
+9-8	,	O	O	O	O
+9-9	I	9-12_nsubj	have	PRP	P1_passenger
+9-10	did	9-12_aux	have	VBD	O
+9-11	n't	9-12_neg	have	RB	O
+9-12	have	O	O	VB	O
+9-13	to	9-14_aux	let	TO	O
+9-14	let	9-12_xcomp	have	VB	O
+9-15	the	O	O	DT	O
+9-16	bus	O	O	NN	O
+9-17	driver	9-18_nsubj	know	NN	P1_bus_staff
+9-18	know	9-14_ccomp	let	VB	O
+9-19	when	9-21_advmod	needed	WRB	O
+9-20	I	9-21_nsubj	needed	PRP	P1_passenger
+9-21	needed	9-18_ccomp	know	VBD	O
+9-22	to	9-23_aux	get	TO	O
+9-23	get	9-21_xcomp	needed	VB	O
+9-24	off	9-23_prt	get	RP	O
+9-25	.	O	O	O	O
+
+#id=10
+#text=Once we arrived at my stop , me and several others all got off and went our separate ways . 
+10-1	Once	10-3_mark	arrived	IN	O
+10-2	we	10-3_nsubj	arrived	PRP	P1_bus
+10-3	arrived	10-13_advcl	got	VBD	O
+10-4	at	O	O	O	O
+10-5	my	O	O	PRP$	P1_passenger
+10-6	stop	10-3_prep_at	arrived	NN	P2_destination
+10-7	,	O	O	O	O
+10-8	me	O	O	PRP	P1_passenger
+10-9	and	O	O	O	O
+10-10	several	O	O	JJ	O
+10-11	others	O	O	NNS	P4_passenger
+10-12	all	10-13_nsubj	got	DT	O
+10-13	got	O	O	VBD	O
+10-14	off	10-13_prt	got	RP	O
+10-15	and	O	O	O	O
+10-16	went	10-13_conj_and	got	VBD	O
+10-17	our	O	O	PRP$	P5_passenger
+10-18	separate	O	O	JJ	O
+10-19	ways	10-16_dobj	went	NNS	O
+10-20	.	O	O	O	O

@@ -1,0 +1,320 @@
+#id=1
+#text=I decided to bake a special cake for my mother 's birthday . 
+1-1	I	1-2_nsubj	decided	PRP	P1_cook
+1-2	decided	O	O	VBD	O
+1-3	to	1-4_aux	bake	TO	O
+1-4	bake	1-2_xcomp	decided	VB	O
+1-5	a	O	O	DT	O
+1-6	special	O	O	JJ	O
+1-7	cake	1-4_dobj	bake	NN	P1_cake
+1-8	for	O	O	O	O
+1-9	my	O	O	PRP$	P1_cook
+1-10	mother	O	O	NN	P1_beneficiary
+1-11	's	O	O	O	O
+1-12	birthday	O	O	NN	P1_NPart_birthday
+1-13	.	O	O	O	O
+
+#id=2
+#text=I gathered ingredients from my pantry that I had purchased earlier in the week . 
+2-1	I	2-2_nsubj	gathered	PRP	P1_cook
+2-2	gathered	O	O	VBD	O
+2-3	ingredients	2-2_dobj	gathered	NNS	P1_ingredients
+2-4	from	O	O	O	O
+2-5	my	O	O	PRP$	P1_cook
+2-6	pantry	2-2_prep_from	gathered	NN	P1_cabinet
+2-7	that	2-10_mark	purchased	IN	O
+2-8	I	2-10_nsubj	purchased	PRP	P1_cook
+2-9	had	2-10_aux	purchased	VBD	O
+2-10	purchased	2-2_ccomp	gathered	VBN	O
+2-11	earlier	O	O	RBR	O
+2-12	in	2-10_advmod	purchased	IN	O
+2-13	the	O	O	DT	O
+2-14	week	2-10_tmod	purchased	NN	P1_NPart_week
+2-15	.	O	O	O	O
+
+#id=3
+#text=I turned on the oven to let it preheat before starting to combine ingredients . 
+3-1	I	3-2_nsubj	turned	PRP	P1_cook
+3-2	turned	O	O	VBD	O
+3-3	on	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	oven	3-2_prep_on	turned	NN	P1_oven
+3-6	to	3-7_aux	let	TO	O
+3-7	let	3-2_xcomp	turned	VB	O
+3-8	it	O	O	PRP	P1_oven
+3-9	preheat	3-7_xcomp	let	JJ	O
+3-10	before	O	O	O	O
+3-11	starting	O	O	VBG	O
+3-12	to	3-13_aux	combine	TO	O
+3-13	combine	3-11_xcomp	starting	VB	O
+3-14	ingredients	3-13_dobj	combine	NNS	P1_ingredients
+3-15	.	O	O	O	O
+
+#id=4
+#text=I took out a huge metal bowl from the cabinet , along with a wooden spoon and mixer to help mix the ingredients . 
+4-1	I	4-2_nsubj	took	PRP	P1_cook
+4-2	took	O	O	VBD	O
+4-3	out	4-2_prt	took	RP	O
+4-4	a	O	O	DT	O
+4-5	huge	O	O	JJ	O
+4-6	metal	O	O	NN	O
+4-7	bowl	4-2_dobj	took	NN	P1_utensil
+4-8	from	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	cabinet	4-2_prep_from	took	NN	P2_cabinet
+4-11	,	O	O	O	O
+4-12	along	O	O	O	O
+4-13	with	O	O	O	O
+4-14	a	O	O	DT	O
+4-15	wooden	O	O	JJ	O
+4-16	spoon	O	O	NN	P2_utensil
+4-17	and	O	O	O	O
+4-18	mixer	O	O	NN	P3_utensil
+4-19	to	4-20_aux	help	TO	O
+4-20	help	O	O	VB	O
+4-21	mix	4-20_dobj	help	NN	O
+4-22	the	O	O	DT	O
+4-23	ingredients	O	O	NNS	P1_ingredients
+4-24	.	O	O	O	O
+
+#id=5
+#text=I put eggs , flour , sugar , cocoa powder , and butter into the metal bowl and mixed it with the electric mixer . 
+5-1	I	5-2_nsubj	put	PRP	P1_cook
+5-2	put	O	O	VBD	O
+5-3	eggs	5-2_dobj	put	NNS	O
+5-4	,	O	O	O	O
+5-5	flour	O	O	NN	O
+5-6	,	O	O	O	O
+5-7	sugar	O	O	NN	O
+5-8	,	O	O	O	O
+5-9	cocoa	O	O	NN	O
+5-10	powder	O	O	NN	O
+5-11	,	O	O	O	O
+5-12	and	O	O	O	O
+5-13	butter	O	O	NN	P2_ingredients
+5-14	into	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	metal	O	O	NN	O
+5-17	bowl	5-2_prep_into	put	NN	P1_utensil
+5-18	and	O	O	O	O
+5-19	mixed	5-2_conj_and	put	VBN	O
+5-20	it	5-19_dobj	mixed	PRP	P2_ingredients
+5-21	with	O	O	O	O
+5-22	the	O	O	DT	O
+5-23	electric	O	O	JJ	O
+5-24	mixer	5-19_prep_with	mixed	NN	P4_utensil
+5-25	.	O	O	O	O
+
+#id=6
+#text=Then , I took out a food processor from the cabinet along with a carton of raspberries from the fridge . 
+6-1	Then	6-4_advmod	took	RB	O
+6-2	,	O	O	O	O
+6-3	I	6-4_nsubj	took	PRP	P1_cook
+6-4	took	O	O	VBD	O
+6-5	out	6-4_prt	took	RP	O
+6-6	a	O	O	DT	O
+6-7	food	O	O	NN	O
+6-8	processor	6-4_dobj	took	NN	P5_utensil
+6-9	from	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	cabinet	6-4_prep_from	took	NN	P2_cabinet
+6-12	along	O	O	O	O
+6-13	with	O	O	O	O
+6-14	a	O	O	DT	O
+6-15	carton	6-4_prep_along_with	took	NN	O
+6-16	of	O	O	O	O
+6-17	raspberries	O	O	NNS	P3_ingredients
+6-18	from	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	fridge	O	O	NN	P1_other
+6-21	.	O	O	O	O
+
+#id=7
+#text=I dumped all of the raspberries into the food processor along with a few spoonfuls of water and then turned it on . 
+7-1	I	7-2_nsubj	dumped	PRP	P1_cook
+7-2	dumped	O	O	VBD	O
+7-3	all	7-2_dobj	dumped	DT	O
+7-4	of	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	raspberries	O	O	NNS	P3_ingredients
+7-7	into	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	food	O	O	NN	O
+7-10	processor	7-2_prep_into	dumped	NN	P5_utensil
+7-11	along	O	O	O	O
+7-12	with	O	O	O	O
+7-13	a	O	O	DT	O
+7-14	few	O	O	JJ	O
+7-15	spoonfuls	7-2_prep_along_with	dumped	NNS	O
+7-16	of	O	O	O	O
+7-17	water	O	O	NN	P4_ingredients
+7-18	and	O	O	O	O
+7-19	then	7-20_advmod	turned	RB	O
+7-20	turned	7-2_conj_and	dumped	VBD	O
+7-21	it	7-20_dobj	turned	PRP	P5_utensil
+7-22	on	7-20_prt	turned	RP	O
+7-23	.	O	O	O	O
+
+#id=8
+#text=I watched the raspberries become a smooth liquid . 
+8-1	I	8-2_nsubj	watched	PRP	P1_cook
+8-2	watched	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	raspberries	8-5_nsubj	become	NNS	P5_ingredients
+8-5	become	8-2_ccomp	watched	VBP	O
+8-6	a	O	O	DT	O
+8-7	smooth	O	O	JJ	O
+8-8	liquid	8-5_xcomp	become	NN	P5_ingredients
+8-9	.	O	O	O	O
+
+#id=9
+#text=I poured the liquid into the big bowl with the rest of the ingredients . 
+9-1	I	9-2_nsubj	poured	PRP	P1_cook
+9-2	poured	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	liquid	9-2_dobj	poured	NN	P5_ingredients
+9-5	into	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	big	O	O	JJ	O
+9-8	bowl	9-2_prep_into	poured	NN	P1_utensil
+9-9	with	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	rest	9-2_prep_with	poured	NN	O
+9-12	of	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	ingredients	O	O	NNS	P2_ingredients
+9-15	.	O	O	O	O
+
+#id=10
+#text=I took out a square pan and greased it with the butter wrapper , and then put a light dusting of flour on the pan . 
+10-1	I	10-2_nsubj	took	PRP	P1_cook
+10-2	took	O	O	VBD	O
+10-3	out	10-2_prt	took	RP	O
+10-4	a	O	O	DT	O
+10-5	square	O	O	JJ	O
+10-6	pan	10-2_dobj	took	NN	P1_cake_tin
+10-7	and	O	O	O	O
+10-8	greased	10-2_conj_and	took	VBD	O
+10-9	it	10-8_dobj	greased	PRP	P1_cake_tin
+10-10	with	O	O	O	O
+10-11	the	O	O	DT	O
+10-12	butter	O	O	NN	O
+10-13	wrapper	10-8_prep_with	greased	NN	P6_ingredients
+10-14	,	O	O	O	O
+10-15	and	O	O	O	O
+10-16	then	10-17_advmod	put	RB	O
+10-17	put	10-2_conj_and	took	VBD	O
+10-18	a	O	O	DT	O
+10-19	light	O	O	JJ	O
+10-20	dusting	10-17_dobj	put	NN	O
+10-21	of	O	O	O	O
+10-22	flour	O	O	NN	P7_ingredients
+10-23	on	O	O	O	O
+10-24	the	O	O	DT	O
+10-25	pan	10-17_prep_on	put	NN	P1_cake_tin
+10-26	.	O	O	O	O
+
+#id=11
+#text=Next , I poured the cake batter in the square pan and it was just enough . 
+11-1	Next	11-4_advmod	poured	RB	O
+11-2	,	O	O	O	O
+11-3	I	11-4_nsubj	poured	PRP	P1_cook
+11-4	poured	O	O	VBD	O
+11-5	the	O	O	DT	O
+11-6	cake	O	O	NN	O
+11-7	batter	11-4_dobj	poured	NN	P1_dough
+11-8	in	O	O	O	O
+11-9	the	O	O	DT	O
+11-10	square	O	O	JJ	O
+11-11	pan	11-4_prep_in	poured	NN	P1_cake_tin
+11-12	and	O	O	O	O
+11-13	it	O	O	PRP	P1_dough
+11-14	was	O	O	VBD	O
+11-15	just	O	O	RB	O
+11-16	enough	11-4_conj_and	poured	JJ	O
+11-17	.	O	O	O	O
+
+#id=12
+#text=I put the pan into the oven and after about an hour , the cake was finished baking perfectly . 
+12-1	I	12-2_nsubj	put	PRP	P1_cook
+12-2	put	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	pan	12-2_dobj	put	NN	P1_cake_tin
+12-5	into	O	O	O	O
+12-6	the	O	O	DT	O
+12-7	oven	12-2_prep_into	put	NN	P1_oven
+12-8	and	O	O	O	O
+12-9	after	O	O	O	O
+12-10	about	O	O	RB	O
+12-11	an	O	O	DT	O
+12-12	hour	12-17_prep_after	finished	NN	P1_time
+12-13	,	O	O	O	O
+12-14	the	O	O	DT	O
+12-15	cake	12-17_nsubjpass	finished	NN	P1_cake
+12-16	was	12-17_auxpass	finished	VBD	O
+12-17	finished	12-2_conj_and	put	VBN	O
+12-18	baking	12-17_xcomp	finished	VBG	O
+12-19	perfectly	12-18_advmod	baking	RB	O
+12-20	.	O	O	O	O
+
+#id=13
+#text=I turned the oven off , and waited for the cake to cool for a few minutes . 
+13-1	I	13-2_nsubj	turned	PRP	P1_cook
+13-2	turned	O	O	VBD	O
+13-3	the	O	O	DT	O
+13-4	oven	13-2_dobj	turned	NN	P1_oven
+13-5	off	13-2_prt	turned	RP	O
+13-6	,	O	O	O	O
+13-7	and	O	O	O	O
+13-8	waited	13-2_conj_and	turned	VBD	O
+13-9	for	O	O	O	O
+13-10	the	O	O	DT	O
+13-11	cake	13-8_prep_for	waited	NN	P1_cake
+13-12	to	13-13_aux	cool	TO	O
+13-13	cool	13-8_xcomp	waited	VB	O
+13-14	for	O	O	O	O
+13-15	a	O	O	DT	O
+13-16	few	O	O	JJ	O
+13-17	minutes	13-13_prep_for	cool	NNS	P2_time
+13-18	.	O	O	O	O
+
+#id=14
+#text=Then , I spread a jar of chocolate icing around the cake while it was still in the pan . 
+14-1	Then	14-4_advmod	spread	RB	O
+14-2	,	O	O	O	O
+14-3	I	14-4_nsubj	spread	PRP	P1_cook
+14-4	spread	O	O	VBD	O
+14-5	a	O	O	DT	O
+14-6	jar	14-4_dobj	spread	NN	P1_NPart_jar
+14-7	of	O	O	O	O
+14-8	chocolate	O	O	NN	O
+14-9	icing	O	O	VBG	P8_ingredients
+14-10	around	O	O	O	O
+14-11	the	O	O	DT	O
+14-12	cake	14-9_prep_around	icing	NN	P1_cake
+14-13	while	14-15_mark	was	IN	O
+14-14	it	14-15_nsubj	was	PRP	P1_cake
+14-15	was	14-9_advcl	icing	VBD	O
+14-16	still	14-15_advmod	was	RB	O
+14-17	in	O	O	O	O
+14-18	the	O	O	DT	O
+14-19	pan	14-15_prep_in	was	NN	P1_cake_tin
+14-20	.	O	O	O	O
+
+#id=15
+#text=I put it into the fridge and waited for my mother to get home . 
+15-1	I	15-2_nsubj	put	PRP	P1_cook
+15-2	put	O	O	VBD	O
+15-3	it	15-2_dobj	put	PRP	P1_cake
+15-4	into	O	O	O	O
+15-5	the	O	O	DT	O
+15-6	fridge	15-2_prep_into	put	NN	P2_other
+15-7	and	O	O	O	O
+15-8	waited	15-2_conj_and	put	VBD	O
+15-9	for	O	O	O	O
+15-10	my	O	O	PRP$	P2_cook
+15-11	mother	15-8_prep_for	waited	NN	P2_beneficiary
+15-12	to	15-13_aux	get	TO	O
+15-13	get	O	O	VB	O
+15-14	home	15-13_dobj	get	NN	O
+15-15	.	O	O	O	O

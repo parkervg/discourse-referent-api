@@ -1,0 +1,382 @@
+#id=1
+#text=I get my hair cut at an inexpensive hair salon where people can not make appointments or choose their stylist . 
+1-1	I	1-2_nsubj	get	PRP	P1_customer
+1-2	get	O	O	VBP	O
+1-3	my	O	O	PRP$	P1_customer
+1-4	hair	O	O	NN	P1_hair
+1-5	cut	1-2_dobj	get	NN	O
+1-6	at	O	O	O	O
+1-7	an	O	O	DT	O
+1-8	inexpensive	O	O	JJ	O
+1-9	hair	O	O	NN	O
+1-10	salon	1-2_prep_at	get	NN	P1_salon
+1-11	where	1-15_advmod	make	WRB	O
+1-12	people	1-15_nsubj	make	NNS	P2_customer
+1-13	can	1-15_aux	make	MD	O
+1-14	not	1-15_neg	make	RB	O
+1-15	make	1-2_advcl	get	VB	O
+1-16	appointments	1-15_dobj	make	NNS	P1_appointment
+1-17	or	O	O	O	O
+1-18	choose	1-15_conj_or	make	VB	O
+1-19	their	O	O	PRP$	P2_customer
+1-20	stylist	1-18_dobj	choose	NN	P1_hairdresser
+1-21	.	O	O	O	O
+
+#id=2
+#text=So when I get to the shop , the first thing I do is go up to the desk and give my name . 
+2-1	So	2-15_dep	go	IN	O
+2-2	when	2-4_advmod	get	WRB	O
+2-3	I	2-4_nsubj	get	PRP	P1_customer
+2-4	get	2-15_advcl	go	VBP	O
+2-5	to	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	shop	2-4_prep_to	get	NN	P1_salon
+2-8	,	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	first	O	O	JJ	O
+2-11	thing	2-15_nsubj	go	NN	O
+2-12	I	2-13_nsubj	do	PRP	P1_customer
+2-13	do	O	O	VBP	O
+2-14	is	2-15_aux	go	VBZ	O
+2-15	go	O	O	VB	O
+2-16	up	2-15_prt	go	RP	O
+2-17	to	O	O	O	O
+2-18	the	O	O	DT	O
+2-19	desk	2-15_prep_to	go	NN	P1_check_in_desk
+2-20	and	O	O	O	O
+2-21	give	2-15_conj_and	go	VB	O
+2-22	my	O	O	PRP$	P1_customer
+2-23	name	2-21_dobj	give	NN	P1_NPart_name
+2-24	.	O	O	O	O
+
+#id=3
+#text=Then , I sit and wait with everyone else until my turn comes . 
+3-1	Then	3-4_advmod	sit	RB	O
+3-2	,	O	O	O	O
+3-3	I	3-4_nsubj	sit	PRP	P1_customer
+3-4	sit	O	O	VBP	O
+3-5	and	O	O	O	O
+3-6	wait	3-4_conj_and	sit	VBP	O
+3-7	with	O	O	O	O
+3-8	everyone	3-4_prep_with	sit	NN	P2_customer
+3-9	else	O	O	RB	O
+3-10	until	3-13_mark	comes	IN	O
+3-11	my	O	O	PRP$	P1_customer
+3-12	turn	3-13_nsubj	comes	NN	O
+3-13	comes	3-4_advcl	sit	VBZ	O
+3-14	.	O	O	O	O
+
+#id=4
+#text=Usually I read magazines and eavesdrop on conversations to pass the time . 
+4-1	Usually	4-3_advmod	read	RB	O
+4-2	I	4-3_nsubj	read	PRP	P1_customer
+4-3	read	O	O	VBD	O
+4-4	magazines	4-3_dobj	read	NNS	P1_entertainment
+4-5	and	O	O	O	O
+4-6	eavesdrop	O	O	NNS	O
+4-7	on	O	O	O	O
+4-8	conversations	4-3_prep_on	read	NNS	P2_entertainment
+4-9	to	4-10_aux	pass	TO	O
+4-10	pass	4-3_vmod	read	VB	O
+4-11	the	O	O	DT	O
+4-12	time	4-10_dobj	pass	NN	P1_NPart_time
+4-13	.	O	O	O	O
+
+#id=5
+#text=Eventually , a stylist comes and gets me . 
+5-1	Eventually	5-5_advmod	comes	RB	O
+5-2	,	O	O	O	O
+5-3	a	O	O	DT	O
+5-4	stylist	5-5_nsubj	comes	NN	P1_hairdresser
+5-5	comes	O	O	VBZ	O
+5-6	and	O	O	O	O
+5-7	gets	5-5_conj_and	comes	VBZ	O
+5-8	me	5-5_dobj	comes	PRP	P1_customer
+5-9	.	O	O	O	O
+
+#id=6
+#text=He or she leads me to a chair in a line of chairs in front of a huge mirror . 
+6-1	He	6-4_nsubj	leads	PRP	P1_hairdresser
+6-2	or	O	O	O	O
+6-3	she	O	O	PRP	P1_hairdresser
+6-4	leads	O	O	VBZ	O
+6-5	me	6-4_dobj	leads	PRP	P1_customer
+6-6	to	O	O	O	O
+6-7	a	O	O	DT	O
+6-8	chair	6-4_prep_to	leads	NN	P1_chair
+6-9	in	O	O	O	O
+6-10	a	O	O	DT	O
+6-11	line	O	O	NN	P1_NPart_line
+6-12	of	O	O	O	O
+6-13	chairs	O	O	NNS	P2_chair
+6-14	in	O	O	O	O
+6-15	front	O	O	O	O
+6-16	of	O	O	O	O
+6-17	a	O	O	DT	O
+6-18	huge	O	O	JJ	O
+6-19	mirror	O	O	NN	P1_mirror
+6-20	.	O	O	O	O
+
+#id=7
+#text=She -LRB- it is almost always a woman -RRB- puts a plasticized drape around me to keep the hair from going down my blouse . 
+7-1	She	7-10_nsubj	puts	PRP	P1_hairdresser
+7-2	-LRB-	O	O	O	O
+7-3	it	O	O	PRP	O
+7-4	is	O	O	VBZ	O
+7-5	almost	O	O	RB	O
+7-6	always	O	O	RB	O
+7-7	a	O	O	DT	O
+7-8	woman	7-10_parataxis	puts	NN	P1_hairdresser
+7-9	-RRB-	O	O	O	O
+7-10	puts	O	O	VBZ	O
+7-11	a	O	O	DT	O
+7-12	plasticized	O	O	JJ	O
+7-13	drape	7-10_dobj	puts	NN	P1_cape
+7-14	around	O	O	O	O
+7-15	me	7-10_prep_around	puts	PRP	P1_customer
+7-16	to	7-17_aux	keep	TO	O
+7-17	keep	7-10_vmod	puts	VB	O
+7-18	the	O	O	DT	O
+7-19	hair	7-17_dobj	keep	NN	P1_hair
+7-20	from	O	O	O	O
+7-21	going	7-17_prepc_from	keep	VBG	O
+7-22	down	7-21_prt	going	RP	O
+7-23	my	O	O	PRP$	P1_customer
+7-24	blouse	7-21_dobj	going	NN	P1_other
+7-25	.	O	O	O	O
+
+#id=8
+#text=During this period , we also greet one another and tell each other our names . 
+8-1	During	O	O	O	O
+8-2	this	O	O	DT	O
+8-3	period	8-7_prep_during	greet	NN	P1_NPart_period
+8-4	,	O	O	O	O
+8-5	we	8-7_nsubj	greet	PRP	P1_hairdresser_customer
+8-6	also	8-7_advmod	greet	RB	O
+8-7	greet	O	O	VB	O
+8-8	one	8-7_dobj	greet	CD	O
+8-9	another	O	O	DT	P1_hairdresser_customer
+8-10	and	O	O	O	O
+8-11	tell	8-7_conj_and	greet	VB	O
+8-12	each	O	O	DT	O
+8-13	other	8-11_iobj	tell	JJ	P1_hairdresser_customer
+8-14	our	O	O	PRP$	P1_hairdresser_customer
+8-15	names	8-11_dobj	tell	NNS	P1_NPart_names
+8-16	.	O	O	O	O
+
+#id=9
+#text=Once she gets me draped she asks me what kind of cut I want , and I usually ask that she just trim what I already have . 
+9-1	Once	9-3_mark	gets	IN	O
+9-2	she	9-3_nsubj	gets	PRP	P1_hairdresser
+9-3	gets	9-5_advcl	draped	VBZ	O
+9-4	me	9-5_nsubj	draped	PRP	P1_customer
+9-5	draped	O	O	VBD	O
+9-6	she	9-7_nsubj	asks	PRP	P1_hairdresser
+9-7	asks	9-5_ccomp	draped	VBZ	O
+9-8	me	9-7_dobj	asks	PRP	P1_customer
+9-9	what	O	O	WP	O
+9-10	kind	9-14_dobj	want	NN	P1_NPart_kind
+9-11	of	O	O	O	O
+9-12	cut	O	O	NN	P1_haircut
+9-13	I	9-14_nsubj	want	PRP	P1_customer
+9-14	want	9-7_dep	asks	VBP	O
+9-15	,	O	O	O	O
+9-16	and	O	O	O	O
+9-17	I	9-19_nsubj	ask	PRP	P1_customer
+9-18	usually	9-19_advmod	ask	RB	O
+9-19	ask	9-5_conj_and	draped	VBP	O
+9-20	that	9-23_mark	trim	IN	O
+9-21	she	9-23_nsubj	trim	PRP	P1_hairdresser
+9-22	just	9-23_advmod	trim	RB	O
+9-23	trim	9-19_ccomp	ask	VB	O
+9-24	what	9-27_dobj	have	WP	O
+9-25	I	9-27_nsubj	have	PRP	P1_customer
+9-26	already	9-27_advmod	have	RB	O
+9-27	have	9-23_ccomp	trim	VBP	O
+9-28	.	O	O	O	O
+
+#id=10
+#text=I have short fine hair I wear in a wash and wear style , and I never want it washed before it is cut . 
+10-1	I	10-2_nsubj	have	PRP	P1_customer
+10-2	have	O	O	VBP	O
+10-3	short	O	O	JJ	O
+10-4	fine	O	O	NN	O
+10-5	hair	10-2_dobj	have	NN	P1_hair
+10-6	I	10-7_nsubj	wear	PRP	P1_customer
+10-7	wear	O	O	VBP	O
+10-8	in	O	O	O	O
+10-9	a	O	O	DT	O
+10-10	wash	O	O	NN	O
+10-11	and	O	O	O	O
+10-12	wear	O	O	NN	O
+10-13	style	10-7_prep_in	wear	NN	P1_haircut
+10-14	,	O	O	O	O
+10-15	and	O	O	O	O
+10-16	I	10-18_nsubj	want	PRP	P1_customer
+10-17	never	10-18_neg	want	RB	O
+10-18	want	10-2_conj_and	have	VBP	O
+10-19	it	10-20_nsubj	washed	PRP	P1_hair
+10-20	washed	10-18_ccomp	want	VBD	O
+10-21	before	10-24_mark	cut	IN	O
+10-22	it	10-24_nsubjpass	cut	PRP	P1_hair
+10-23	is	10-24_auxpass	cut	VBZ	O
+10-24	cut	10-20_advcl	washed	VBN	O
+10-25	.	O	O	O	O
+
+#id=11
+#text=She begins cutting my hair , usually asking styling questions like whether I want my ears to show and whether I want the bangs feathered . 
+11-1	She	11-2_nsubj	begins	PRP	P1_hairdresser
+11-2	begins	O	O	VBZ	O
+11-3	cutting	11-2_ccomp	begins	VBG	O
+11-4	my	O	O	PRP$	P1_customer
+11-5	hair	11-3_dobj	cutting	NN	P1_hair
+11-6	,	O	O	O	O
+11-7	usually	11-8_advmod	asking	RB	O
+11-8	asking	11-3_dep	cutting	VBG	O
+11-9	styling	O	O	VBG	O
+11-10	questions	11-8_dobj	asking	NNS	O
+11-11	like	O	O	O	O
+11-12	whether	11-14_mark	want	IN	O
+11-13	I	11-14_nsubj	want	PRP	P1_customer
+11-14	want	11-8_prepc_like	asking	VBP	O
+11-15	my	O	O	PRP$	P1_customer
+11-16	ears	11-14_dobj	want	NNS	P2_other
+11-17	to	11-18_aux	show	TO	O
+11-18	show	11-14_vmod	want	VB	O
+11-19	and	O	O	O	O
+11-20	whether	11-22_mark	want	IN	O
+11-21	I	11-22_nsubj	want	PRP	P1_customer
+11-22	want	11-14_conj_and	want	VBP	O
+11-23	the	O	O	DT	O
+11-24	bangs	O	O	JJ	P2_hair
+11-25	feathered	11-22_dobj	want	NN	O
+11-26	.	O	O	O	O
+
+#id=12
+#text=As she cuts , we chat about something unimportant , like a dog that runs by the window or a TV show . 
+12-1	As	12-3_mark	cuts	IN	O
+12-2	she	12-3_nsubj	cuts	PRP	P1_hairdresser
+12-3	cuts	12-6_advcl	chat	VBZ	O
+12-4	,	O	O	O	O
+12-5	we	12-6_nsubj	chat	PRP	P1_hairdresser_customer
+12-6	chat	O	O	VBZ	O
+12-7	about	O	O	RB	O
+12-8	something	O	O	NN	P1_NPart_something
+12-9	unimportant	12-6_xcomp	chat	JJ	O
+12-10	,	O	O	O	O
+12-11	like	O	O	O	O
+12-12	a	O	O	DT	O
+12-13	dog	12-6_prep_like	chat	NN	P1_NPart_dog
+12-14	that	12-15_nsubj	runs	WDT	O
+12-15	runs	O	O	VBZ	O
+12-16	by	O	O	O	O
+12-17	the	O	O	DT	O
+12-18	window	12-15_prep_by	runs	NN	P1_NPart_window
+12-19	or	O	O	O	O
+12-20	a	O	O	DT	O
+12-21	TV	O	O	NN	O
+12-22	show	O	O	NN	P1_NPart_show
+12-23	.	O	O	O	O
+
+#id=13
+#text=Many times I have talked to stylists about their children , or mine . 
+13-1	Many	O	O	JJ	O
+13-2	times	13-5_nsubj	talked	NNS	O
+13-3	I	13-5_nsubj	talked	PRP	P1_customer
+13-4	have	13-5_aux	talked	VBP	O
+13-5	talked	O	O	VBN	O
+13-6	to	O	O	O	O
+13-7	stylists	13-5_prep_to	talked	NNS	P2_hairdresser
+13-8	about	O	O	O	O
+13-9	their	O	O	PRP$	P2_hairdresser
+13-10	children	O	O	NNS	P1_NPart_children
+13-11	,	O	O	O	O
+13-12	or	O	O	O	O
+13-13	mine	O	O	NN	P1_customer
+13-14	.	O	O	O	O
+
+#id=14
+#text=At the same time , the stylist will exchange a few remarks with other stylists , and I will spy on other peoples ' haircuts . 
+14-1	At	O	O	O	O
+14-2	the	O	O	DT	O
+14-3	same	O	O	JJ	O
+14-4	time	14-9_prep_at	exchange	NN	O
+14-5	,	O	O	O	O
+14-6	the	O	O	DT	O
+14-7	stylist	14-9_nsubj	exchange	NN	P1_hairdresser
+14-8	will	14-9_aux	exchange	MD	O
+14-9	exchange	O	O	VB	O
+14-10	a	O	O	DT	O
+14-11	few	O	O	JJ	O
+14-12	remarks	14-9_dobj	exchange	NNS	P1_NPart_remarks
+14-13	with	O	O	O	O
+14-14	other	O	O	JJ	O
+14-15	stylists	14-9_prep_with	exchange	NNS	P2_hairdresser
+14-16	,	O	O	O	O
+14-17	and	O	O	O	O
+14-18	I	14-20_nsubj	spy	PRP	P1_customer
+14-19	will	14-20_aux	spy	MD	O
+14-20	spy	14-9_conj_and	exchange	VB	O
+14-21	on	O	O	O	O
+14-22	other	O	O	JJ	O
+14-23	peoples	O	O	NNS	P2_customer
+14-24	'	O	O	O	O
+14-25	haircuts	14-20_prep_on	spy	NNS	P2_haircut
+14-26	.	O	O	O	O
+
+#id=15
+#text=When she finishes , the stylist will give me a hand mirror so I can inspect the back of my head . 
+15-1	When	15-3_advmod	finishes	WRB	O
+15-2	she	15-3_nsubj	finishes	PRP	P1_hairdresser
+15-3	finishes	15-8_advcl	give	VBZ	O
+15-4	,	O	O	O	O
+15-5	the	O	O	DT	O
+15-6	stylist	15-8_nsubj	give	NN	P1_hairdresser
+15-7	will	15-8_aux	give	MD	O
+15-8	give	O	O	VB	O
+15-9	me	15-8_iobj	give	PRP	P1_customer
+15-10	a	O	O	DT	O
+15-11	hand	15-8_dobj	give	NN	O
+15-12	mirror	O	O	VBP	P2_mirror
+15-13	so	15-16_mark	inspect	IN	O
+15-14	I	15-16_nsubj	inspect	PRP	P1_customer
+15-15	can	15-16_aux	inspect	MD	O
+15-16	inspect	15-12_advcl	mirror	VB	O
+15-17	the	O	O	DT	O
+15-18	back	15-16_dobj	inspect	NN	P1_NPart_back
+15-19	of	O	O	O	O
+15-20	my	O	O	PRP$	P1_customer
+15-21	head	O	O	NN	P1_NPart_head
+15-22	.	O	O	O	O
+
+#id=16
+#text=She brushes me off and removes my drape , and I slip her a folded bill . 
+16-1	She	16-2_nsubj	brushes	PRP	P1_hairdresser
+16-2	brushes	O	O	VBP	O
+16-3	me	16-2_dobj	brushes	PRP	P1_customer
+16-4	off	16-2_prt	brushes	RP	O
+16-5	and	O	O	O	O
+16-6	removes	16-2_conj_and	brushes	VBZ	O
+16-7	my	O	O	PRP$	P1_customer
+16-8	drape	16-6_dobj	removes	NN	P1_cape
+16-9	,	O	O	O	O
+16-10	and	O	O	O	O
+16-11	I	16-12_nsubj	slip	PRP	P1_customer
+16-12	slip	16-2_conj_and	brushes	VBP	O
+16-13	her	O	O	PRP	P1_hairdresser
+16-14	a	O	O	DT	O
+16-15	folded	O	O	JJ	O
+16-16	bill	16-12_xcomp	slip	NN	P1_payment_means
+16-17	.	O	O	O	O
+
+#id=17
+#text=Chances are I will never see her again . 
+17-1	Chances	17-2_nsubj	are	NNS	O
+17-2	are	O	O	VBP	O
+17-3	I	17-6_nsubj	see	PRP	P1_customer
+17-4	will	17-6_aux	see	MD	O
+17-5	never	17-6_neg	see	RB	O
+17-6	see	17-2_ccomp	are	VB	O
+17-7	her	17-6_dobj	see	PRP	P1_hairdresser
+17-8	again	17-6_advmod	see	RB	O
+17-9	.	O	O	O	O

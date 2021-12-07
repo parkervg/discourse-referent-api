@@ -1,0 +1,214 @@
+#id=1
+#text=Last year I planted a fig tree with my grandfather . 
+1-1	Last	O	O	JJ	O
+1-2	year	1-4_tmod	planted	NN	P1_time
+1-3	I	1-4_nsubj	planted	PRP	P1_gardener
+1-4	planted	O	O	VBD	O
+1-5	a	O	O	DT	O
+1-6	fig	O	O	NN	O
+1-7	tree	1-4_dobj	planted	NN	P1_tree
+1-8	with	O	O	O	O
+1-9	my	O	O	PRP$	P1_gardener
+1-10	grandfather	1-4_prep_with	planted	NN	P2_gardener
+1-11	.	O	O	O	O
+
+#id=2
+#text=Ordinarily we would n't have to plant a tree , but his old tree had died over the winter . 
+2-1	Ordinarily	2-5_advmod	have	RB	O
+2-2	we	2-5_nsubj	have	PRP	P3_gardener
+2-3	would	2-5_aux	have	MD	O
+2-4	n't	2-5_neg	have	RB	O
+2-5	have	O	O	VB	O
+2-6	to	2-7_aux	plant	TO	O
+2-7	plant	2-5_xcomp	have	VB	O
+2-8	a	O	O	DT	O
+2-9	tree	2-7_dobj	plant	NN	P1_tree
+2-10	,	O	O	O	O
+2-11	but	O	O	O	O
+2-12	his	O	O	PRP$	P2_gardener
+2-13	old	O	O	JJ	O
+2-14	tree	2-16_nsubj	died	NN	P2_tree
+2-15	had	2-16_aux	died	VBD	O
+2-16	died	2-5_conj_but	have	VBN	O
+2-17	over	O	O	O	O
+2-18	the	O	O	DT	O
+2-19	winter	2-16_prep_over	died	NN	P1_NPart_winter
+2-20	.	O	O	O	O
+
+#id=3
+#text=We live in kind of a cold climate so fig trees really do n't grow well here , and if they do you usually wo n't get figs . 
+3-1	We	3-2_nsubj	live	PRP	P3_gardener
+3-2	live	O	O	VBP	O
+3-3	in	O	O	O	O
+3-4	kind	3-2_prep_in	live	NN	O
+3-5	of	O	O	O	O
+3-6	a	O	O	DT	O
+3-7	cold	O	O	JJ	O
+3-8	climate	O	O	NN	P1_NPart_climate
+3-9	so	3-15_mark	grow	IN	O
+3-10	fig	O	O	NN	O
+3-11	trees	3-15_nsubj	grow	NNS	P3_tree
+3-12	really	3-15_advmod	grow	RB	O
+3-13	do	3-15_aux	grow	VBP	O
+3-14	n't	3-15_neg	grow	RB	O
+3-15	grow	3-2_advcl	live	VB	O
+3-16	well	O	O	RB	O
+3-17	here	3-15_advmod	grow	RB	P1_other
+3-18	,	O	O	O	O
+3-19	and	O	O	O	O
+3-20	if	3-22_mark	do	IN	O
+3-21	they	3-22_nsubj	do	PRP	P3_tree
+3-22	do	3-15_conj_and	grow	VBP	O
+3-23	you	3-27_nsubj	get	PRP	P4_gardener
+3-24	usually	3-27_advmod	get	RB	O
+3-25	wo	3-27_aux	get	MD	O
+3-26	n't	3-27_neg	get	RB	O
+3-27	get	3-22_ccomp	do	VB	O
+3-28	figs	3-27_dobj	get	NNS	P2_other
+3-29	.	O	O	O	O
+
+#id=4
+#text=They 're more often used as ornamental plants around here , but the trees my grandfather has always produce figs . 
+4-1	They	4-5_nsubjpass	used	PRP	P3_tree
+4-2	're	4-5_auxpass	used	VBP	O
+4-3	more	O	O	RBR	O
+4-4	often	4-5_advmod	used	RB	O
+4-5	used	O	O	VBN	O
+4-6	as	O	O	O	O
+4-7	ornamental	O	O	JJ	O
+4-8	plants	4-5_prep_as	used	NNS	P3_tree
+4-9	around	O	O	IN	O
+4-10	here	O	O	RB	P1_other
+4-11	,	O	O	O	O
+4-12	but	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	trees	4-17_nsubj	has	NNS	P3_tree
+4-15	my	O	O	PRP$	P1_gardener
+4-16	grandfather	O	O	NN	P2_gardener
+4-17	has	4-5_conj_but	used	VBZ	O
+4-18	always	4-17_advmod	has	RB	O
+4-19	produce	4-17_ccomp	has	VB	O
+4-20	figs	4-19_dobj	produce	NNS	P2_other
+4-21	.	O	O	O	O
+
+#id=5
+#text=After we got rid of the old tree , we planted the new one near where the old one had been . 
+5-1	After	O	O	IN	O
+5-2	we	O	O	PRP	P3_gardener
+5-3	got	O	O	VBD	O
+5-4	rid	5-11_advcl	planted	JJ	O
+5-5	of	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	old	O	O	JJ	O
+5-8	tree	O	O	NN	P2_tree
+5-9	,	O	O	O	O
+5-10	we	5-11_nsubj	planted	PRP	P3_gardener
+5-11	planted	O	O	VBD	O
+5-12	the	O	O	DT	O
+5-13	new	O	O	JJ	O
+5-14	one	5-11_dobj	planted	NN	P1_tree
+5-15	near	O	O	O	O
+5-16	where	5-21_advmod	been	WRB	O
+5-17	the	O	O	DT	O
+5-18	old	O	O	JJ	O
+5-19	one	5-21_nsubj	been	NN	P2_tree
+5-20	had	5-21_aux	been	VBD	O
+5-21	been	O	O	VBN	O
+5-22	.	O	O	O	O
+
+#id=6
+#text=The important thing about growing these kinds of trees in this area is getting them to survive the winter . 
+6-1	The	O	O	DT	O
+6-2	important	O	O	JJ	O
+6-3	thing	6-14_nsubj	getting	NN	O
+6-4	about	O	O	O	O
+6-5	growing	O	O	VBG	O
+6-6	these	O	O	DT	O
+6-7	kinds	6-5_dobj	growing	NNS	O
+6-8	of	O	O	O	O
+6-9	trees	O	O	NNS	P3_tree
+6-10	in	O	O	O	O
+6-11	this	O	O	DT	O
+6-12	area	O	O	NN	P1_other
+6-13	is	6-14_aux	getting	VBZ	O
+6-14	getting	O	O	VBG	O
+6-15	them	6-14_dobj	getting	PRP	P3_tree
+6-16	to	6-17_aux	survive	TO	O
+6-17	survive	6-14_xcomp	getting	VB	O
+6-18	the	O	O	DT	O
+6-19	winter	6-17_tmod	survive	NN	P1_NPart_winter
+6-20	.	O	O	O	O
+
+#id=7
+#text=What we did was we got a bunch of maple leaves and some chicken wire fencing . 
+7-1	What	7-3_dobj	did	WP	O
+7-2	we	7-3_nsubj	did	PRP	P3_gardener
+7-3	did	7-6_advcl	got	VBD	O
+7-4	was	7-3_dep	did	VBD	O
+7-5	we	7-6_nsubj	got	PRP	P3_gardener
+7-6	got	O	O	VBD	O
+7-7	a	O	O	DT	O
+7-8	bunch	7-6_dobj	got	NN	O
+7-9	of	O	O	O	O
+7-10	maple	O	O	JJ	O
+7-11	leaves	O	O	NNS	P3_other
+7-12	and	O	O	O	O
+7-13	some	O	O	DT	O
+7-14	chicken	O	O	NN	O
+7-15	wire	O	O	NN	O
+7-16	fencing	O	O	NN	P1_gardening_tool
+7-17	.	O	O	O	O
+
+#id=8
+#text=We wrapped the chicken wire around the tree and stuffed the space between with the leaves . 
+8-1	We	8-2_nsubj	wrapped	PRP	P3_gardener
+8-2	wrapped	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	chicken	O	O	NN	O
+8-5	wire	8-2_dobj	wrapped	NN	P1_gardening_tool
+8-6	around	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	tree	8-2_prep_around	wrapped	NN	P1_tree
+8-9	and	O	O	O	O
+8-10	stuffed	8-2_conj_and	wrapped	VBD	O
+8-11	the	O	O	DT	O
+8-12	space	8-10_dobj	stuffed	NN	P4_other
+8-13	between	8-10_prep	stuffed	IN	O
+8-14	with	O	O	IN	O
+8-15	the	O	O	DT	O
+8-16	leaves	O	O	NNS	P3_other
+8-17	.	O	O	O	O
+
+#id=9
+#text=Then we wrapped the whole thing with an insulated landscaping tarp . 
+9-1	Then	9-3_advmod	wrapped	RB	O
+9-2	we	9-3_nsubj	wrapped	PRP	P3_gardener
+9-3	wrapped	O	O	VBD	O
+9-4	the	O	O	DT	O
+9-5	whole	O	O	JJ	O
+9-6	thing	9-3_dobj	wrapped	NN	P1_tree
+9-7	with	O	O	O	O
+9-8	an	O	O	DT	O
+9-9	insulated	O	O	JJ	O
+9-10	landscaping	O	O	NN	O
+9-11	tarp	9-3_prep_with	wrapped	NN	P2_gardening_tool
+9-12	.	O	O	O	O
+
+#id=10
+#text=We will know in a couple of weeks if the new tree survived the winter . 
+10-1	We	10-3_nsubj	know	PRP	P3_gardener
+10-2	will	10-3_aux	know	MD	O
+10-3	know	O	O	VB	O
+10-4	in	O	O	O	O
+10-5	a	O	O	DT	O
+10-6	couple	10-3_prep_in	know	NN	O
+10-7	of	O	O	O	O
+10-8	weeks	O	O	NNS	P2_time
+10-9	if	10-13_mark	survived	IN	O
+10-10	the	O	O	DT	O
+10-11	new	O	O	JJ	O
+10-12	tree	10-13_nsubj	survived	NN	P1_tree
+10-13	survived	10-3_advcl	know	VBD	O
+10-14	the	O	O	DT	O
+10-15	winter	10-13_tmod	survived	NN	P1_NPart_winter
+10-16	.	O	O	O	O

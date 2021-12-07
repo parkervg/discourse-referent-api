@@ -1,0 +1,254 @@
+#id=1
+#text=Last year I had to go to my native place in India . 
+1-1	Last	O	O	JJ	O
+1-2	year	1-4_tmod	had	NN	P1_NPart_year
+1-3	I	1-4_nsubj	had	PRP	P1_passenger
+1-4	had	O	O	VBD	O
+1-5	to	1-6_aux	go	TO	O
+1-6	go	1-4_xcomp	had	VB	O
+1-7	to	O	O	O	O
+1-8	my	O	O	PRP$	P1_passenger
+1-9	native	O	O	JJ	O
+1-10	place	1-6_prep_to	go	NN	P1_NPart_place
+1-11	in	O	O	O	O
+1-12	India	O	O	NNP	P1_NPart_india
+1-13	.	O	O	O	O
+
+#id=2
+#text=While I was there , I thought of meeting one of my friends in Chennai . 
+2-1	While	2-3_mark	was	IN	O
+2-2	I	2-3_nsubj	was	PRP	P1_passenger
+2-3	was	2-7_advcl	thought	VBD	O
+2-4	there	2-3_advmod	was	RB	O
+2-5	,	O	O	O	O
+2-6	I	2-7_nsubj	thought	PRP	P1_passenger
+2-7	thought	O	O	VBD	O
+2-8	of	O	O	O	O
+2-9	meeting	2-7_prep_of	thought	NN	O
+2-10	one	O	O	CD	O
+2-11	of	O	O	O	O
+2-12	my	O	O	PRP$	P1_passenger
+2-13	friends	O	O	NNS	P1_NPart_friends
+2-14	in	O	O	O	O
+2-15	Chennai	2-7_prep_in	thought	NNP	P1_destination
+2-16	.	O	O	O	O
+
+#id=3
+#text=Chennai is 800 kms far away from my place and it takes about 15 hours if I drive . 
+3-1	Chennai	3-2_nsubj	is	NNP	P1_destination
+3-2	is	O	O	VBZ	O
+3-3	800	O	O	CD	O
+3-4	kms	3-2_dep	is	CD	P1_NPart_kms
+3-5	far	3-2_advmod	is	RB	O
+3-6	away	O	O	O	O
+3-7	from	O	O	O	O
+3-8	my	O	O	PRP$	P1_passenger
+3-9	place	3-2_prep_away_from	is	NN	P2_NPart_place
+3-10	and	O	O	O	O
+3-11	it	3-12_nsubj	takes	PRP	O
+3-12	takes	3-2_conj_and	is	VBZ	O
+3-13	about	O	O	RB	O
+3-14	15	O	O	CD	O
+3-15	hours	3-18_dep	drive	NNS	P1_time_date
+3-16	if	3-18_mark	drive	IN	O
+3-17	I	3-18_nsubj	drive	PRP	P1_passenger
+3-18	drive	3-12_advcl	takes	VBP	O
+3-19	.	O	O	O	O
+
+#id=4
+#text=I decided to take train . 
+4-1	I	4-2_nsubj	decided	PRP	P1_passenger
+4-2	decided	O	O	VBD	O
+4-3	to	4-4_aux	take	TO	O
+4-4	take	4-2_xcomp	decided	VB	O
+4-5	train	4-4_dobj	take	NN	P1_train
+4-6	.	O	O	O	O
+
+#id=5
+#text=I went online and booked tickets . 
+5-1	I	5-2_nsubj	went	PRP	P1_passenger
+5-2	went	O	O	VBD	O
+5-3	online	O	O	JJ	O
+5-4	and	O	O	O	O
+5-5	booked	O	O	JJ	O
+5-6	tickets	5-2_dobj	went	NNS	P1_card/ticket
+5-7	.	O	O	O	O
+
+#id=6
+#text=The economy tickets were sold out so I had to book the expensive one . 
+6-1	The	O	O	DT	O
+6-2	economy	O	O	NN	P1_NPart_economy
+6-3	tickets	6-5_nsubjpass	sold	NNS	P1_card/ticket
+6-4	were	6-5_auxpass	sold	VBD	O
+6-5	sold	O	O	VBN	O
+6-6	out	6-5_prt	sold	RP	O
+6-7	so	6-9_mark	had	IN	O
+6-8	I	6-9_nsubj	had	PRP	P1_passenger
+6-9	had	6-5_advcl	sold	VBD	O
+6-10	to	6-11_aux	book	TO	O
+6-11	book	6-9_xcomp	had	VB	O
+6-12	the	O	O	DT	O
+6-13	expensive	O	O	JJ	O
+6-14	one	6-11_dobj	book	NN	P1_card/ticket
+6-15	.	O	O	O	O
+
+#id=7
+#text=On the day of the travel , I arrived at the train station almost an hour before the actual departure time . 
+7-1	On	O	O	O	O
+7-2	the	O	O	DT	O
+7-3	day	7-9_prep_on	arrived	NN	P2_time_date
+7-4	of	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	travel	O	O	NN	P1_trip
+7-7	,	O	O	O	O
+7-8	I	7-9_nsubj	arrived	PRP	P1_passenger
+7-9	arrived	O	O	VBD	O
+7-10	at	O	O	O	O
+7-11	the	O	O	DT	O
+7-12	train	O	O	NN	O
+7-13	station	7-9_prep_at	arrived	NN	P1_train_station
+7-14	almost	O	O	RB	O
+7-15	an	O	O	DT	O
+7-16	hour	7-9_dobj	arrived	NN	P3_time_date
+7-17	before	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	actual	O	O	JJ	O
+7-20	departure	O	O	NN	O
+7-21	time	7-9_prep_before	arrived	NN	P4_time_date
+7-22	.	O	O	O	O
+
+#id=8
+#text=Since it was a first class ticket , I could take more than enough luggage with me . 
+8-1	Since	O	O	IN	O
+8-2	it	O	O	PRP	P1_card/ticket
+8-3	was	O	O	VBD	O
+8-4	a	O	O	DT	O
+8-5	first	O	O	JJ	O
+8-6	class	O	O	NN	P1_NPart_class
+8-7	ticket	8-11_advcl	take	NN	P1_card/ticket
+8-8	,	O	O	O	O
+8-9	I	8-11_nsubj	take	PRP	P1_passenger
+8-10	could	8-11_aux	take	MD	O
+8-11	take	O	O	VB	O
+8-12	more	O	O	RBR	O
+8-13	than	O	O	IN	O
+8-14	enough	O	O	RB	O
+8-15	luggage	8-11_acomp	take	JJ	P1_luggage
+8-16	with	O	O	O	O
+8-17	me	8-11_prep_with	take	PRP	P1_passenger
+8-18	.	O	O	O	O
+
+#id=9
+#text=After 15 minutes in to the journey , the ticket collector came by and checked my tickets . 
+9-1	After	O	O	O	O
+9-2	15	O	O	CD	O
+9-3	minutes	9-12_prep_after	came	NNS	P5_time_date
+9-4	in	O	O	IN	O
+9-5	to	O	O	TO	O
+9-6	the	O	O	DT	O
+9-7	journey	O	O	NN	P2_trip
+9-8	,	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	ticket	O	O	NN	O
+9-11	collector	9-12_nsubj	came	NN	P1_train_staff
+9-12	came	O	O	VBD	O
+9-13	by	9-12_prep	came	IN	O
+9-14	and	O	O	O	O
+9-15	checked	9-12_conj_and	came	VBD	O
+9-16	my	O	O	PRP$	P1_passenger
+9-17	tickets	9-15_dobj	checked	NNS	P1_card/ticket
+9-18	.	O	O	O	O
+
+#id=10
+#text=It was early in the morning and I was in a window seat . 
+10-1	It	10-2_nsubj	was	PRP	O
+10-2	was	O	O	VBD	O
+10-3	early	10-2_advmod	was	RB	O
+10-4	in	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	morning	10-2_prep_in	was	NN	P6_time_date
+10-7	and	O	O	O	O
+10-8	I	10-9_nsubj	was	PRP	P1_passenger
+10-9	was	10-2_conj_and	was	VBD	O
+10-10	in	O	O	O	O
+10-11	a	O	O	DT	O
+10-12	window	O	O	NN	O
+10-13	seat	10-9_prep_in	was	NN	P1_seat
+10-14	.	O	O	O	O
+
+#id=11
+#text=So I could watch all the scenery . 
+11-1	So	11-4_dep	watch	IN	O
+11-2	I	11-4_nsubj	watch	PRP	P1_passenger
+11-3	could	11-4_aux	watch	MD	O
+11-4	watch	O	O	VB	O
+11-5	all	O	O	PDT	O
+11-6	the	O	O	DT	O
+11-7	scenery	11-4_dobj	watch	NN	P1_NPart_scenery
+11-8	.	O	O	O	O
+
+#id=12
+#text=Another good thing about the train is that once in a while I could get up and walk a stretch . 
+12-1	Another	O	O	DT	O
+12-2	good	O	O	JJ	O
+12-3	thing	12-7_nsubj	is	NN	P1_NPart_thing
+12-4	about	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	train	O	O	NN	P1_train
+12-7	is	O	O	VBZ	O
+12-8	that	12-15_mark	get	IN	O
+12-9	once	12-15_advmod	get	RB	O
+12-10	in	O	O	O	O
+12-11	a	O	O	DT	O
+12-12	while	12-15_prep_in	get	NN	O
+12-13	I	12-15_nsubj	get	PRP	P1_passenger
+12-14	could	12-15_aux	get	MD	O
+12-15	get	12-7_ccomp	is	VB	O
+12-16	up	12-15_prt	get	RP	O
+12-17	and	O	O	O	O
+12-18	walk	12-15_conj_and	get	VB	O
+12-19	a	O	O	DT	O
+12-20	stretch	12-18_dobj	walk	NN	O
+12-21	.	O	O	O	O
+
+#id=13
+#text=Also , when I 'm hungry , I could get down at the station and buy any food as the train stops at the station for 10-15 minutes . 
+13-1	Also	13-10_advmod	get	RB	O
+13-2	,	O	O	O	O
+13-3	when	O	O	WRB	O
+13-4	I	O	O	PRP	P1_passenger
+13-5	'm	O	O	VBP	O
+13-6	hungry	13-10_advcl	get	JJ	O
+13-7	,	O	O	O	O
+13-8	I	13-10_nsubj	get	PRP	P1_passenger
+13-9	could	13-10_aux	get	MD	O
+13-10	get	O	O	VB	O
+13-11	down	13-10_prt	get	RP	O
+13-12	at	O	O	O	O
+13-13	the	O	O	DT	O
+13-14	station	13-10_prep_at	get	NN	P1_train_station
+13-15	and	O	O	O	O
+13-16	buy	13-10_conj_and	get	VB	O
+13-17	any	O	O	DT	O
+13-18	food	13-16_dobj	buy	NN	P1_NPart_food
+13-19	as	13-22_mark	stops	IN	O
+13-20	the	O	O	DT	O
+13-21	train	13-22_nsubj	stops	NN	P1_train
+13-22	stops	13-16_advcl	buy	VBZ	O
+13-23	at	O	O	O	O
+13-24	the	O	O	DT	O
+13-25	station	13-22_prep_at	stops	NN	P1_train_station
+13-26	for	O	O	O	O
+13-27	10-15	O	O	CD	O
+13-28	minutes	O	O	NNS	P7_time_date
+13-29	.	O	O	O	O
+
+#id=14
+#text=Overall it was a wonderful experience . 
+14-1	Overall	O	O	RB	O
+14-2	it	O	O	PRP	O
+14-3	was	O	O	VBD	O
+14-4	a	O	O	DT	O
+14-5	wonderful	O	O	JJ	O
+14-6	experience	O	O	NN	P1_NPart_experience
+14-7	.	O	O	O	O

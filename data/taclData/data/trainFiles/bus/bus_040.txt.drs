@@ -1,0 +1,237 @@
+#id=1
+#text=Late last week on my way home from work I got into an accident that damaged my car . 
+1-1	Late	O	O	RB	O
+1-2	last	O	O	JJ	O
+1-3	week	1-11_npadvmod	got	NN	P1_NPart_week
+1-4	on	O	O	O	O
+1-5	my	O	O	PRP$	P1_passenger
+1-6	way	O	O	NN	P1_NPart_way
+1-7	home	1-11_prep_on	got	NN	O
+1-8	from	O	O	O	O
+1-9	work	O	O	NN	P1_NPart_work
+1-10	I	1-11_nsubj	got	PRP	P1_passenger
+1-11	got	O	O	VBD	O
+1-12	into	O	O	O	O
+1-13	an	O	O	DT	O
+1-14	accident	1-11_prep_into	got	NN	P1_NPart_accident
+1-15	that	1-16_nsubj	damaged	WDT	O
+1-16	damaged	O	O	VBD	O
+1-17	my	O	O	PRP$	P1_passenger
+1-18	car	1-16_dobj	damaged	NN	P1_NPart_car
+1-19	.	O	O	O	O
+
+#id=2
+#text=Luckily everyone who was involved came out uninjured but my car was damaged and would have to spend about two weeks in the shop . 
+2-1	Luckily	O	O	JJ	O
+2-2	everyone	2-6_nsubj	came	NN	P1_NPart_everyone
+2-3	who	2-5_nsubjpass	involved	WP	O
+2-4	was	2-5_auxpass	involved	VBD	O
+2-5	involved	O	O	VBN	O
+2-6	came	O	O	VBD	O
+2-7	out	2-6_prt	came	RP	O
+2-8	uninjured	2-6_advmod	came	RB	O
+2-9	but	2-13_cc	damaged	CC	O
+2-10	my	O	O	PRP$	P1_passenger
+2-11	car	2-13_nsubjpass	damaged	NN	P2_NPart_car
+2-12	was	2-13_auxpass	damaged	VBD	O
+2-13	damaged	2-6_ccomp	came	VBN	O
+2-14	and	O	O	O	O
+2-15	would	2-16_aux	have	MD	O
+2-16	have	2-6_conj_and	came	VB	O
+2-17	to	2-18_aux	spend	TO	O
+2-18	spend	2-16_xcomp	have	VB	O
+2-19	about	O	O	RB	O
+2-20	two	O	O	CD	O
+2-21	weeks	2-18_dobj	spend	NNS	P1_NPart_weeks
+2-22	in	O	O	O	O
+2-23	the	O	O	DT	O
+2-24	shop	O	O	NN	P1_NPart_shop
+2-25	.	O	O	O	O
+
+#id=3
+#text=Since my insurance did not cover a rent a car this meant that I had to take public transportation for the next couple of weeks to get to work . 
+3-1	Since	3-6_mark	cover	IN	O
+3-2	my	O	O	PRP$	P1_passenger
+3-3	insurance	3-6_nsubj	cover	NN	P1_NPart_insurance
+3-4	did	3-6_aux	cover	VBD	O
+3-5	not	3-6_neg	cover	RB	O
+3-6	cover	3-12_advcl	meant	VB	O
+3-7	a	O	O	DT	O
+3-8	rent	O	O	NN	O
+3-9	a	O	O	DT	O
+3-10	car	3-6_xcomp	cover	NN	P3_NPart_car
+3-11	this	3-12_nsubj	meant	DT	O
+3-12	meant	O	O	VBD	O
+3-13	that	3-15_mark	had	IN	O
+3-14	I	3-15_nsubj	had	PRP	P1_passenger
+3-15	had	3-12_ccomp	meant	VBD	O
+3-16	to	3-17_aux	take	TO	O
+3-17	take	3-15_xcomp	had	VB	O
+3-18	public	O	O	JJ	O
+3-19	transportation	3-17_dobj	take	NN	P1_bus
+3-20	for	O	O	O	O
+3-21	the	O	O	DT	O
+3-22	next	O	O	JJ	O
+3-23	couple	3-17_prep_for	take	NN	O
+3-24	of	O	O	O	O
+3-25	weeks	O	O	NNS	P2_NPart_weeks
+3-26	to	3-27_aux	get	TO	O
+3-27	get	3-15_xcomp	had	VB	O
+3-28	to	3-29_aux	work	TO	O
+3-29	work	3-27_xcomp	get	VB	O
+3-30	.	O	O	O	O
+
+#id=4
+#text=I was fortunate to have a bus stop only a couple of blocks from my house so I would walk to the bus stop and wait for the bus with the other people . 
+4-1	I	O	O	PRP	P1_passenger
+4-2	was	O	O	VBD	O
+4-3	fortunate	O	O	JJ	O
+4-4	to	4-5_aux	have	TO	O
+4-5	have	O	O	VB	O
+4-6	a	O	O	DT	O
+4-7	bus	4-8_nsubj	stop	NN	O
+4-8	stop	4-5_ccomp	have	VB	P1_bus_stop
+4-9	only	O	O	RB	O
+4-10	a	O	O	DT	O
+4-11	couple	4-8_dobj	stop	NN	O
+4-12	of	O	O	O	O
+4-13	blocks	O	O	NNS	P1_NPart_blocks
+4-14	from	O	O	O	O
+4-15	my	O	O	PRP$	P1_passenger
+4-16	house	4-8_prep_from	stop	NN	P1_NPart_house
+4-17	so	4-20_mark	walk	IN	O
+4-18	I	4-20_nsubj	walk	PRP	P1_passenger
+4-19	would	4-20_aux	walk	MD	O
+4-20	walk	4-8_advcl	stop	VB	O
+4-21	to	O	O	O	O
+4-22	the	O	O	DT	O
+4-23	bus	O	O	NN	O
+4-24	stop	4-20_prep_to	walk	NN	P1_bus_stop
+4-25	and	O	O	O	O
+4-26	wait	4-8_conj_and	stop	VB	O
+4-27	for	O	O	O	O
+4-28	the	O	O	DT	O
+4-29	bus	4-26_prep_for	wait	NN	P1_bus
+4-30	with	O	O	O	O
+4-31	the	O	O	DT	O
+4-32	other	O	O	JJ	O
+4-33	people	O	O	NNS	P2_passenger
+4-34	.	O	O	O	O
+
+#id=5
+#text=Some people talked to one another and others like myself had headphones in , listening to music . 
+5-1	Some	O	O	DT	O
+5-2	people	5-3_nsubj	talked	NNS	P2_passenger
+5-3	talked	O	O	VBD	O
+5-4	to	O	O	O	O
+5-5	one	O	O	CD	O
+5-6	another	5-3_prep_to	talked	DT	P2_passenger
+5-7	and	O	O	O	O
+5-8	others	O	O	NNS	P2_passenger
+5-9	like	5-12_mark	headphones	IN	O
+5-10	myself	5-12_nsubj	headphones	PRP	P1_passenger
+5-11	had	5-12_aux	headphones	VBD	O
+5-12	headphones	5-3_advcl	talked	VBN	P1_NPart_headphones
+5-13	in	5-12_prep	headphones	IN	O
+5-14	,	O	O	O	O
+5-15	listening	5-3_xcomp	talked	VBG	O
+5-16	to	O	O	O	O
+5-17	music	5-15_prep_to	listening	NN	P1_NPart_music
+5-18	.	O	O	O	O
+
+#id=6
+#text=It is not that I am against talking to people I am just not really a morning person and do not feel like it at 7AM . 
+6-1	It	6-2_nsubj	is	PRP	O
+6-2	is	O	O	VBZ	O
+6-3	not	6-2_neg	is	RB	O
+6-4	that	6-6_mark	am	IN	O
+6-5	I	6-6_nsubj	am	PRP	P1_passenger
+6-6	am	6-2_ccomp	is	VBP	O
+6-7	against	O	O	O	O
+6-8	talking	6-6_prepc_against	am	VBG	O
+6-9	to	O	O	O	O
+6-10	people	6-8_prep_to	talking	NNS	P1_NPart_people
+6-11	I	O	O	PRP	P1_passenger
+6-12	am	O	O	VBP	O
+6-13	just	O	O	RB	O
+6-14	not	O	O	RB	O
+6-15	really	O	O	RB	O
+6-16	a	O	O	DT	O
+6-17	morning	O	O	NN	O
+6-18	person	O	O	NN	P1_NPart_person
+6-19	and	O	O	O	O
+6-20	do	6-22_aux	feel	VBP	O
+6-21	not	6-22_neg	feel	RB	O
+6-22	feel	6-6_conj_and	am	VB	O
+6-23	like	O	O	O	O
+6-24	it	6-22_prep_like	feel	PRP	O
+6-25	at	O	O	O	O
+6-26	7AM	6-22_prep_at	feel	CD	P1_time/date
+6-27	.	O	O	O	O
+
+#id=7
+#text=The bus pulled up and we got in line to board and showed him our ticket to ride . 
+7-1	The	O	O	DT	O
+7-2	bus	7-3_nsubj	pulled	NN	P1_bus
+7-3	pulled	O	O	VBD	O
+7-4	up	7-3_prt	pulled	RP	O
+7-5	and	O	O	O	O
+7-6	we	7-7_nsubj	got	PRP	P3_passenger
+7-7	got	7-3_conj_and	pulled	VBD	O
+7-8	in	O	O	O	O
+7-9	line	7-7_prep_in	got	NN	O
+7-10	to	O	O	O	O
+7-11	board	7-7_prep_to	got	NN	O
+7-12	and	O	O	O	O
+7-13	showed	7-7_conj_and	got	VBD	O
+7-14	him	7-13_iobj	showed	PRP	P1_bus_staff
+7-15	our	O	O	PRP$	P4_passenger
+7-16	ticket	7-13_dobj	showed	NN	P1_card/ticket
+7-17	to	7-18_aux	ride	TO	O
+7-18	ride	7-13_vmod	showed	VB	O
+7-19	.	O	O	O	O
+
+#id=8
+#text=I then grabbed a seat and gazed out the window until I reached my stop downtown . 
+8-1	I	8-3_nsubj	grabbed	PRP	P1_passenger
+8-2	then	8-3_advmod	grabbed	RB	O
+8-3	grabbed	O	O	VBD	O
+8-4	a	O	O	DT	O
+8-5	seat	8-3_dobj	grabbed	NN	P1_seat_in_bus
+8-6	and	O	O	O	O
+8-7	gazed	8-3_conj_and	grabbed	VBD	O
+8-8	out	8-7_prt	gazed	RP	O
+8-9	the	O	O	DT	O
+8-10	window	8-7_dobj	gazed	NN	P1_in-bus_entertainment
+8-11	until	8-13_mark	reached	IN	O
+8-12	I	8-13_nsubj	reached	PRP	P1_passenger
+8-13	reached	8-3_advcl	grabbed	VBD	O
+8-14	my	O	O	PRP$	P1_passenger
+8-15	stop	O	O	NN	P1_destination
+8-16	downtown	8-13_dobj	reached	NN	P1_NPart_downtown
+8-17	.	O	O	O	O
+
+#id=9
+#text=I got up , thanked the bus driver and got off the bus and started walking down the street to work . 
+9-1	I	9-2_nsubj	got	PRP	P1_passenger
+9-2	got	O	O	VBD	O
+9-3	up	9-2_prt	got	RP	O
+9-4	,	O	O	O	O
+9-5	thanked	9-2_conj_and	got	VBD	O
+9-6	the	O	O	DT	O
+9-7	bus	O	O	NN	O
+9-8	driver	9-5_dobj	thanked	NN	P1_bus_staff
+9-9	and	O	O	O	O
+9-10	got	9-2_conj_and	got	VBD	O
+9-11	off	9-10_prt	got	RP	O
+9-12	the	O	O	DT	O
+9-13	bus	9-10_dobj	got	NN	P1_bus
+9-14	and	O	O	O	O
+9-15	started	9-10_conj_and	got	VBD	O
+9-16	walking	9-15_xcomp	started	VBG	O
+9-17	down	9-16_prt	walking	RP	O
+9-18	the	O	O	DT	O
+9-19	street	9-16_dobj	walking	NN	P1_NPart_street
+9-20	to	9-21_aux	work	TO	O
+9-21	work	O	O	VB	O
+9-22	.	O	O	O	O

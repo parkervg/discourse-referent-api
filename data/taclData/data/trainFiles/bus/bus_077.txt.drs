@@ -1,0 +1,233 @@
+#id=1
+#text=Yesterday , I stood at the bus stop for over twenty minutes waiting for VTA bus 323 to show up at my stop at my community college . 
+1-1	Yesterday	1-4_tmod	stood	NN	O
+1-2	,	O	O	O	O
+1-3	I	1-4_nsubj	stood	PRP	P1_passenger
+1-4	stood	O	O	VBD	O
+1-5	at	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	bus	O	O	NN	O
+1-8	stop	1-4_prep_at	stood	NN	P1_bus_stop
+1-9	for	1-4_dep	stood	IN	O
+1-10	over	O	O	O	O
+1-11	twenty	O	O	CD	O
+1-12	minutes	1-4_prep_over	stood	NNS	P1_time/date
+1-13	waiting	O	O	VBG	O
+1-14	for	O	O	O	O
+1-15	VTA	O	O	NNP	O
+1-16	bus	O	O	NN	P1_bus
+1-17	323	1-13_prep_for	waiting	NNS	O
+1-18	to	1-19_aux	show	TO	O
+1-19	show	1-13_xcomp	waiting	VB	O
+1-20	up	1-19_prt	show	RP	O
+1-21	at	O	O	O	O
+1-22	my	O	O	PRP$	P1_passenger
+1-23	stop	1-19_prep_at	show	NN	P1_bus_stop
+1-24	at	O	O	O	O
+1-25	my	O	O	PRP$	P1_passenger
+1-26	community	O	O	NN	O
+1-27	college	O	O	NN	P1_NPart_college
+1-28	.	O	O	O	O
+
+#id=2
+#text=After the bus arrived at the stop , I scanned my Clipper Card , which gives me unlimited VTA bus rides as long as I pay my school fee of $ 5 at the start of the quarter . 
+2-1	After	O	O	O	O
+2-2	the	O	O	DT	O
+2-3	bus	2-10_prep_after	scanned	NN	P1_bus
+2-4	arrived	O	O	VBN	O
+2-5	at	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	stop	2-4_prep_at	arrived	NN	P1_bus_stop
+2-8	,	O	O	O	O
+2-9	I	2-10_nsubj	scanned	PRP	P1_passenger
+2-10	scanned	O	O	VBD	O
+2-11	my	O	O	PRP$	P1_passenger
+2-12	Clipper	O	O	NNP	O
+2-13	Card	2-10_dobj	scanned	NN	P1_card/ticket
+2-14	,	O	O	O	O
+2-15	which	2-16_nsubj	gives	WDT	O
+2-16	gives	O	O	VBZ	O
+2-17	me	2-16_iobj	gives	PRP	P1_passenger
+2-18	unlimited	O	O	JJ	O
+2-19	VTA	O	O	NNP	O
+2-20	bus	O	O	NN	O
+2-21	rides	2-16_dobj	gives	NNS	P1_ride
+2-22	as	O	O	RB	O
+2-23	long	2-26_advmod	pay	RB	O
+2-24	as	2-26_mark	pay	IN	O
+2-25	I	2-26_nsubj	pay	PRP	P1_passenger
+2-26	pay	2-16_advcl	gives	VBP	O
+2-27	my	O	O	PRP$	P1_passenger
+2-28	school	O	O	NN	O
+2-29	fee	2-26_dobj	pay	NN	P1_money
+2-30	of	O	O	O	O
+2-31	$	O	O	$	O
+2-32	5	O	O	CD	P1_money
+2-33	at	O	O	O	O
+2-34	the	O	O	DT	O
+2-35	start	O	O	NN	P1_NPart_start
+2-36	of	O	O	O	O
+2-37	the	O	O	DT	O
+2-38	quarter	O	O	NN	P1_NPart_quarter
+2-39	.	O	O	O	O
+
+#id=3
+#text=I walked past several people sitting in the first front rows and decided upon a window-seat near the middle of the bus . 
+3-1	I	3-2_nsubj	walked	PRP	P1_passenger
+3-2	walked	O	O	VBD	O
+3-3	past	O	O	JJ	O
+3-4	several	O	O	JJ	O
+3-5	people	3-2_dobj	walked	NNS	P2_passenger
+3-6	sitting	3-2_xcomp	walked	VBG	O
+3-7	in	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	first	O	O	JJ	O
+3-10	front	O	O	JJ	O
+3-11	rows	3-6_prep_in	sitting	NNS	P1_seat_in_bus
+3-12	and	O	O	O	O
+3-13	decided	3-2_conj_and	walked	VBD	O
+3-14	upon	O	O	O	O
+3-15	a	O	O	DT	O
+3-16	window-seat	3-13_prep_upon	decided	NN	P2_seat_in_bus
+3-17	near	O	O	O	O
+3-18	the	O	O	DT	O
+3-19	middle	O	O	NN	P1_NPart_middle
+3-20	of	O	O	O	O
+3-21	the	O	O	DT	O
+3-22	bus	O	O	NN	P1_bus
+3-23	.	O	O	O	O
+
+#id=4
+#text=I pulled out my headphones and started listening to my own music from my phone in order to pass the time . 
+4-1	I	4-2_nsubj	pulled	PRP	P1_passenger
+4-2	pulled	O	O	VBD	O
+4-3	out	4-2_prt	pulled	RP	O
+4-4	my	O	O	PRP$	P1_passenger
+4-5	headphones	4-2_dobj	pulled	NNS	P1_in-bus_entertainment
+4-6	and	O	O	O	O
+4-7	started	4-2_conj_and	pulled	VBD	O
+4-8	listening	4-7_xcomp	started	VBG	O
+4-9	to	O	O	O	O
+4-10	my	O	O	PRP$	P1_passenger
+4-11	own	O	O	JJ	O
+4-12	music	4-8_prep_to	listening	NN	P2_in-bus_entertainment
+4-13	from	O	O	O	O
+4-14	my	O	O	PRP$	P1_passenger
+4-15	phone	O	O	NN	P3_in-bus_entertainment
+4-16	in	4-19_mark	pass	IN	O
+4-17	order	4-19_dep	pass	NN	O
+4-18	to	4-19_aux	pass	TO	O
+4-19	pass	4-8_advcl	listening	VB	O
+4-20	the	O	O	DT	O
+4-21	time	4-19_dobj	pass	NN	O
+4-22	.	O	O	O	O
+
+#id=5
+#text=We took off five minutes later and arrived at the first stop in about five minutes . 
+5-1	We	5-2_nsubj	took	PRP	P3_passenger
+5-2	took	O	O	VBD	O
+5-3	off	5-2_prt	took	RP	O
+5-4	five	O	O	CD	O
+5-5	minutes	O	O	NNS	P2_time/date
+5-6	later	5-2_advmod	took	RB	O
+5-7	and	O	O	O	O
+5-8	arrived	5-2_conj_and	took	VBD	O
+5-9	at	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	first	O	O	JJ	O
+5-12	stop	5-8_prep_at	arrived	NN	P2_bus_stop
+5-13	in	O	O	O	O
+5-14	about	O	O	RB	O
+5-15	five	O	O	CD	O
+5-16	minutes	5-8_prep_in	arrived	NNS	P3_time/date
+5-17	.	O	O	O	O
+
+#id=6
+#text=This is an express bus , meaning it takes limited stops . 
+6-1	This	O	O	DT	P1_bus
+6-2	is	O	O	VBZ	O
+6-3	an	O	O	DT	O
+6-4	express	O	O	JJ	O
+6-5	bus	O	O	NN	P1_bus
+6-6	,	O	O	O	O
+6-7	meaning	O	O	VBG	O
+6-8	it	6-9_nsubj	takes	PRP	P1_bus
+6-9	takes	6-7_ccomp	meaning	VBZ	O
+6-10	limited	O	O	JJ	O
+6-11	stops	6-9_dobj	takes	NNS	O
+6-12	.	O	O	O	O
+
+#id=7
+#text=Another five minutes later we arrived at the second stop , which was mine to get off at . 
+7-1	Another	O	O	DT	O
+7-2	five	O	O	CD	O
+7-3	minutes	O	O	NNS	P4_time/date
+7-4	later	7-6_advmod	arrived	RB	O
+7-5	we	7-6_nsubj	arrived	PRP	P3_passenger
+7-6	arrived	O	O	VBD	O
+7-7	at	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	second	O	O	JJ	O
+7-10	stop	7-6_prep_at	arrived	NN	P3_bus_stop
+7-11	,	O	O	O	O
+7-12	which	O	O	WDT	O
+7-13	was	O	O	VBD	O
+7-14	mine	O	O	NN	P1_passenger
+7-15	to	7-16_aux	get	TO	O
+7-16	get	O	O	VB	O
+7-17	off	7-16_prt	get	RP	O
+7-18	at	7-16_prep	get	IN	O
+7-19	.	O	O	O	O
+
+#id=8
+#text=Before arriving at the stop , I pulled the cord to initiate the voice recording which states '' `` Stop Requested '' '' . 
+8-1	Before	O	O	O	O
+8-2	arriving	8-8_prepc_before	pulled	VBG	O
+8-3	at	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	stop	8-2_prep_at	arriving	NN	P3_bus_stop
+8-6	,	O	O	O	O
+8-7	I	8-8_nsubj	pulled	PRP	P1_passenger
+8-8	pulled	O	O	VBD	O
+8-9	the	O	O	DT	O
+8-10	cord	8-8_dobj	pulled	NN	P1_stop_button/door_opener
+8-11	to	8-12_aux	initiate	TO	O
+8-12	initiate	O	O	VB	O
+8-13	the	O	O	DT	O
+8-14	voice	O	O	NN	O
+8-15	recording	8-12_dobj	initiate	NN	P1_other
+8-16	which	8-17_nsubj	states	WDT	O
+8-17	states	O	O	VBZ	O
+8-18	''	O	O	O	O
+8-19	``	O	O	O	O
+8-20	Stop	8-12_dep	initiate	VB	P3_bus_stop
+8-21	Requested	8-20_dobj	Stop	NNP	O
+8-22	''	O	O	O	O
+8-23	''	O	O	O	O
+8-24	.	O	O	O	O
+
+#id=9
+#text=The bus driver pulled to the side , I grabbed my backpack and all my other belongings and headed off the bus . 
+9-1	The	O	O	DT	O
+9-2	bus	O	O	NN	O
+9-3	driver	9-4_nsubj	pulled	NN	P1_bus_staff
+9-4	pulled	9-10_ccomp	grabbed	VBD	O
+9-5	to	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	side	9-4_prep_to	pulled	NN	P1_NPart_side
+9-8	,	O	O	O	O
+9-9	I	9-10_nsubj	grabbed	PRP	P1_passenger
+9-10	grabbed	O	O	VBD	O
+9-11	my	O	O	PRP$	P1_passenger
+9-12	backpack	9-10_dobj	grabbed	NN	P1_NPart_backpack
+9-13	and	O	O	O	O
+9-14	all	O	O	DT	O
+9-15	my	O	O	PRP$	P1_passenger
+9-16	other	O	O	JJ	O
+9-17	belongings	O	O	NNS	P1_NPart_belongings
+9-18	and	O	O	O	O
+9-19	headed	9-10_conj_and	grabbed	VBD	O
+9-20	off	9-19_prt	headed	RP	O
+9-21	the	O	O	DT	O
+9-22	bus	9-19_dobj	headed	NN	P1_bus
+9-23	.	O	O	O	O

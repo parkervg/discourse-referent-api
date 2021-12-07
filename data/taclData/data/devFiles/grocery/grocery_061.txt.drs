@@ -1,0 +1,190 @@
+#id=1
+#text=Today is the day of the week I usually go grocery shopping . 
+1-1	Today	O	O	NNP	P1_NPart_today
+1-2	is	O	O	VBZ	O
+1-3	the	O	O	DT	O
+1-4	day	O	O	NN	P1_NPart_day
+1-5	of	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	week	O	O	NN	P1_NPart_week
+1-8	I	1-10_nsubj	go	PRP	P1_shopper
+1-9	usually	1-10_advmod	go	RB	O
+1-10	go	O	O	VBP	O
+1-11	grocery	O	O	NN	O
+1-12	shopping	1-10_dobj	go	NN	O
+1-13	.	O	O	O	O
+
+#id=2
+#text=This morning I checked in the refrigerator and threw out any spoiled food and looked to see what I would need more of this week . 
+2-1	This	O	O	DT	O
+2-2	morning	2-4_tmod	checked	NN	P1_NPart_morning
+2-3	I	2-4_nsubj	checked	PRP	P1_shopper
+2-4	checked	O	O	VBD	O
+2-5	in	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	refrigerator	2-4_prep_in	checked	NN	P1_NPart_refrigerator
+2-8	and	O	O	O	O
+2-9	threw	2-4_conj_and	checked	VBD	O
+2-10	out	2-9_prt	threw	RP	O
+2-11	any	O	O	DT	O
+2-12	spoiled	O	O	JJ	O
+2-13	food	2-9_dobj	threw	NN	P1_NPart_food
+2-14	and	O	O	O	O
+2-15	looked	2-9_conj_and	threw	VBD	O
+2-16	to	2-17_aux	see	TO	O
+2-17	see	2-15_xcomp	looked	VB	O
+2-18	what	2-21_dobj	need	WP	O
+2-19	I	2-21_nsubj	need	PRP	P1_shopper
+2-20	would	2-21_aux	need	MD	O
+2-21	need	2-17_ccomp	see	VB	O
+2-22	more	2-21_dobj	need	JJR	O
+2-23	of	O	O	O	O
+2-24	this	O	O	DT	O
+2-25	week	O	O	NN	P2_NPart_week
+2-26	.	O	O	O	O
+
+#id=3
+#text=I thought about what dinners I would have , and how many packed lunches I would need this week . 
+3-1	I	3-2_nsubj	thought	PRP	P1_shopper
+3-2	thought	O	O	VBD	O
+3-3	about	O	O	O	O
+3-4	what	O	O	WDT	O
+3-5	dinners	3-8_prep_about	have	NN	P1_NPart_dinners
+3-6	I	3-8_nsubj	have	PRP	P1_shopper
+3-7	would	3-8_aux	have	MD	O
+3-8	have	3-2_dep	thought	VB	O
+3-9	,	O	O	O	O
+3-10	and	O	O	O	O
+3-11	how	O	O	WRB	O
+3-12	many	3-13_dep	packed	JJ	O
+3-13	packed	3-8_conj_and	have	VBD	O
+3-14	lunches	3-13_dobj	packed	NNS	P1_NPart_lunches
+3-15	I	3-17_nsubj	need	PRP	P1_shopper
+3-16	would	3-17_aux	need	MD	O
+3-17	need	O	O	VB	O
+3-18	this	O	O	DT	O
+3-19	week	3-17_tmod	need	NN	P3_NPart_week
+3-20	.	O	O	O	O
+
+#id=4
+#text=I started a list of things to buy after planning my meals . 
+4-1	I	4-2_nsubj	started	PRP	P1_shopper
+4-2	started	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	list	4-2_dobj	started	NN	P1_grocery_list
+4-5	of	O	O	O	O
+4-6	things	O	O	NNS	P1_groceries
+4-7	to	4-8_aux	buy	TO	O
+4-8	buy	4-2_vmod	started	VB	O
+4-9	after	O	O	O	O
+4-10	planning	4-8_prepc_after	buy	VBG	O
+4-11	my	O	O	PRP$	P1_shopper
+4-12	meals	4-10_dobj	planning	NNS	P1_NPart_meals
+4-13	.	O	O	O	O
+
+#id=5
+#text=The grocery store is nearby so I took my reusable bags and my list and walked to the store . 
+5-1	The	O	O	DT	O
+5-2	grocery	O	O	NN	O
+5-3	store	5-4_nsubj	is	NN	P1_grocery_shop
+5-4	is	O	O	VBZ	O
+5-5	nearby	5-4_advmod	is	RB	O
+5-6	so	5-8_mark	took	IN	O
+5-7	I	5-8_nsubj	took	PRP	P1_shopper
+5-8	took	5-4_advcl	is	VBD	O
+5-9	my	O	O	PRP$	P1_shopper
+5-10	reusable	O	O	JJ	O
+5-11	bags	5-8_dobj	took	NNS	P1_shopping_bags
+5-12	and	O	O	O	O
+5-13	my	O	O	PRP$	P1_shopper
+5-14	list	O	O	NN	P1_grocery_list
+5-15	and	O	O	O	O
+5-16	walked	5-8_conj_and	took	VBD	O
+5-17	to	O	O	O	O
+5-18	the	O	O	DT	O
+5-19	store	5-16_prep_to	walked	NN	P2_grocery_shop
+5-20	.	O	O	O	O
+
+#id=6
+#text=I got a shopping cart on my way in . 
+6-1	I	6-2_nsubj	got	PRP	P1_shopper
+6-2	got	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	shopping	O	O	NN	O
+6-5	cart	6-2_dobj	got	NN	P1_shopping_cart/basket
+6-6	on	O	O	O	O
+6-7	my	O	O	PRP$	P1_shopper
+6-8	way	6-2_prep_on	got	NN	P1_NPart_way
+6-9	in	6-2_prep	got	IN	O
+6-10	.	O	O	O	O
+
+#id=7
+#text=I selected the nonperishables first , then went to the produce section , then the refrigerated , and finally the frozen department . 
+7-1	I	7-2_nsubj	selected	PRP	P1_shopper
+7-2	selected	7-8_ccomp	went	VBD	O
+7-3	the	O	O	DT	O
+7-4	nonperishables	7-2_dobj	selected	NNS	P2_groceries
+7-5	first	7-2_advmod	selected	RB	O
+7-6	,	O	O	O	O
+7-7	then	7-8_advmod	went	RB	O
+7-8	went	O	O	VBD	O
+7-9	to	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	produce	7-8_prep_to	went	NN	O
+7-12	section	7-8_nsubj	went	NN	P1_section
+7-13	,	O	O	O	O
+7-14	then	O	O	RB	O
+7-15	the	O	O	DT	O
+7-16	refrigerated	O	O	NN	P2_section
+7-17	,	O	O	O	O
+7-18	and	O	O	O	O
+7-19	finally	O	O	RB	O
+7-20	the	O	O	DT	O
+7-21	frozen	O	O	JJ	O
+7-22	department	O	O	NN	P3_section
+7-23	.	O	O	O	O
+
+#id=8
+#text=I went through the self checkout line as it seemed a shorter wait . 
+8-1	I	8-2_nsubj	went	PRP	P1_shopper
+8-2	went	O	O	VBD	O
+8-3	through	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	self	O	O	NN	O
+8-6	checkout	O	O	NN	O
+8-7	line	8-2_prep_through	went	NN	P1_line
+8-8	as	8-10_mark	seemed	IN	O
+8-9	it	8-10_nsubj	seemed	PRP	P1_line
+8-10	seemed	8-2_advcl	went	VBD	O
+8-11	a	O	O	DT	O
+8-12	shorter	O	O	JJR	O
+8-13	wait	8-10_xcomp	seemed	NN	O
+8-14	.	O	O	O	O
+
+#id=9
+#text=After scanning and placing my items in my reusable bags I paid by sliding my credit card , and then took the printed receipt . 
+9-1	After	O	O	O	O
+9-2	scanning	9-12_prepc_after	paid	VBG	O
+9-3	and	O	O	O	O
+9-4	placing	9-2_conj_and	scanning	VBG	O
+9-5	my	O	O	PRP$	P1_shopper
+9-6	items	9-2_dobj	scanning	NNS	P3_groceries
+9-7	in	O	O	O	O
+9-8	my	O	O	PRP$	P1_shopper
+9-9	reusable	O	O	JJ	O
+9-10	bags	9-2_prep_in	scanning	NNS	P1_shopping_bags
+9-11	I	9-12_nsubj	paid	PRP	P1_shopper
+9-12	paid	O	O	VBD	O
+9-13	by	O	O	O	O
+9-14	sliding	9-12_prepc_by	paid	VBG	O
+9-15	my	O	O	PRP$	P1_shopper
+9-16	credit	O	O	NN	O
+9-17	card	9-14_dobj	sliding	NN	P1_payment_means
+9-18	,	O	O	O	O
+9-19	and	O	O	O	O
+9-20	then	9-21_advmod	took	RB	O
+9-21	took	9-12_conj_and	paid	VBD	O
+9-22	the	O	O	DT	O
+9-23	printed	O	O	VBN	O
+9-24	receipt	9-21_dobj	took	NN	P1_receipt
+9-25	.	O	O	O	O

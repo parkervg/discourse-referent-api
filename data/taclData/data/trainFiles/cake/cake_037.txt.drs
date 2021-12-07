@@ -1,0 +1,215 @@
+#id=1
+#text=I love to make cheesecake for my family . 
+1-1	I	1-2_nsubj	love	PRP	P1_cook
+1-2	love	O	O	VBP	O
+1-3	to	1-4_aux	make	TO	O
+1-4	make	1-2_xcomp	love	VB	O
+1-5	cheesecake	1-4_dobj	make	NN	P1_cake
+1-6	for	O	O	O	O
+1-7	my	O	O	PRP$	P1_cook
+1-8	family	1-4_prep_for	make	NN	P1_beneficiary
+1-9	.	O	O	O	O
+
+#id=2
+#text=We have a family recipe that I follow when I cook . 
+2-1	We	2-2_nsubj	have	PRP	O
+2-2	have	O	O	VBP	O
+2-3	a	O	O	DT	O
+2-4	family	O	O	NN	O
+2-5	recipe	2-2_dobj	have	NN	P1_baking_instructions
+2-6	that	2-8_mark	follow	IN	O
+2-7	I	2-8_nsubj	follow	PRP	P1_cook
+2-8	follow	O	O	VBP	O
+2-9	when	2-11_advmod	cook	WRB	O
+2-10	I	2-11_nsubj	cook	PRP	P1_cook
+2-11	cook	2-8_advcl	follow	VB	O
+2-12	.	O	O	O	O
+
+#id=3
+#text=First I purchase the ingredients at the store and make certain I have everything I need . 
+3-1	First	3-13_nsubj	have	NNP	O
+3-2	I	3-3_nsubj	purchase	PRP	P1_cook
+3-3	purchase	O	O	VB	O
+3-4	the	O	O	DT	O
+3-5	ingredients	3-3_dobj	purchase	NNS	P1_ingredients
+3-6	at	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	store	3-3_prep_at	purchase	NN	P1_store
+3-9	and	O	O	O	O
+3-10	make	3-3_conj_and	purchase	VB	O
+3-11	certain	3-10_prt	make	JJ	O
+3-12	I	3-10_dobj	make	PRP	P1_cook
+3-13	have	O	O	VBP	O
+3-14	everything	3-13_dobj	have	NN	O
+3-15	I	3-16_nsubj	need	PRP	P1_cook
+3-16	need	O	O	VBP	O
+3-17	.	O	O	O	O
+
+#id=4
+#text=Then I make a crust from scratch in a cake pan , using crumbled cookies , nuts , brown sugar and vanilla flavor . 
+4-1	Then	4-3_advmod	make	RB	O
+4-2	I	4-3_nsubj	make	PRP	P1_cook
+4-3	make	O	O	VBP	O
+4-4	a	O	O	DT	O
+4-5	crust	4-3_dobj	make	NN	P1_NPart_crust
+4-6	from	O	O	O	O
+4-7	scratch	4-3_prep_from	make	NN	O
+4-8	in	O	O	O	O
+4-9	a	O	O	DT	O
+4-10	cake	O	O	NN	O
+4-11	pan	O	O	NN	P1_cake_tin
+4-12	,	O	O	O	O
+4-13	using	4-3_vmod	make	VBG	O
+4-14	crumbled	O	O	JJ	O
+4-15	cookies	4-13_dobj	using	NNS	P2_ingredients
+4-16	,	O	O	O	O
+4-17	nuts	O	O	NNS	P3_ingredients
+4-18	,	O	O	O	O
+4-19	brown	O	O	JJ	O
+4-20	sugar	O	O	NN	P4_ingredients
+4-21	and	O	O	O	O
+4-22	vanilla	O	O	NN	O
+4-23	flavor	O	O	NN	P5_ingredients
+4-24	.	O	O	O	O
+
+#id=5
+#text=I turn on the oven to pre-heat , as my oven is very slow to heat up . 
+5-1	I	5-2_nsubj	turn	PRP	P1_cook
+5-2	turn	O	O	VBP	O
+5-3	on	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	oven	5-2_prep_on	turn	NN	P1_oven
+5-6	to	O	O	O	O
+5-7	pre-heat	O	O	NN	O
+5-8	,	O	O	O	O
+5-9	as	O	O	IN	O
+5-10	my	O	O	PRP$	P1_cook
+5-11	oven	O	O	NN	P1_oven
+5-12	is	O	O	VBZ	O
+5-13	very	O	O	RB	O
+5-14	slow	5-2_advcl	turn	JJ	O
+5-15	to	5-16_aux	heat	TO	O
+5-16	heat	O	O	VB	O
+5-17	up	5-16_prt	heat	RP	O
+5-18	.	O	O	O	O
+
+#id=6
+#text=I use my electric mixer to whip the pats of cream cheese , making sure they are light and fluffy . 
+6-1	I	6-2_nsubj	use	PRP	P1_cook
+6-2	use	O	O	VBP	O
+6-3	my	O	O	PRP$	P1_cook
+6-4	electric	O	O	JJ	O
+6-5	mixer	6-2_dobj	use	NN	P1_utensil
+6-6	to	6-7_aux	whip	TO	O
+6-7	whip	6-2_vmod	use	VB	O
+6-8	the	O	O	DT	O
+6-9	pats	6-7_dobj	whip	NNS	P1_NPart_pats
+6-10	of	O	O	O	O
+6-11	cream	O	O	NN	O
+6-12	cheese	O	O	NN	P6_ingredients
+6-13	,	O	O	O	O
+6-14	making	6-7_vmod	whip	VBG	O
+6-15	sure	6-14_acomp	making	JJ	O
+6-16	they	O	O	PRP	P1_NPart_they
+6-17	are	O	O	VBP	O
+6-18	light	O	O	JJ	O
+6-19	and	O	O	O	O
+6-20	fluffy	O	O	JJ	O
+6-21	.	O	O	O	O
+
+#id=7
+#text=Then I add in eggs , sugar , lemon juice and lemon zest until it is thoroughly combined into a thick liquid . 
+7-1	Then	7-3_advmod	add	RB	O
+7-2	I	7-3_nsubj	add	PRP	P1_cook
+7-3	add	O	O	VBP	O
+7-4	in	O	O	O	O
+7-5	eggs	7-3_prep_in	add	NNS	P7_ingredients
+7-6	,	O	O	O	O
+7-7	sugar	O	O	NN	P8_ingredients
+7-8	,	O	O	O	O
+7-9	lemon	O	O	JJ	O
+7-10	juice	O	O	NN	P9_ingredients
+7-11	and	O	O	O	O
+7-12	lemon	O	O	JJ	O
+7-13	zest	O	O	NN	P10_ingredients
+7-14	until	7-18_mark	combined	IN	O
+7-15	it	7-18_nsubjpass	combined	PRP	P1_dough
+7-16	is	7-18_auxpass	combined	VBZ	O
+7-17	thoroughly	7-18_advmod	combined	RB	O
+7-18	combined	7-3_advcl	add	VBN	O
+7-19	into	O	O	O	O
+7-20	a	O	O	DT	O
+7-21	thick	O	O	JJ	O
+7-22	liquid	7-18_prep_into	combined	NN	P1_dough
+7-23	.	O	O	O	O
+
+#id=8
+#text=I pour the mixture into the prepared cake pan and put it into the preheated oven for about 45 minutes . 
+8-1	I	8-2_nsubj	pour	PRP	P1_cook
+8-2	pour	O	O	VBP	O
+8-3	the	O	O	DT	O
+8-4	mixture	8-9_nsubj	pan	NN	P1_dough
+8-5	into	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	prepared	O	O	JJ	O
+8-8	cake	O	O	NN	O
+8-9	pan	8-2_ccomp	pour	VB	P1_cake_tin
+8-10	and	O	O	O	O
+8-11	put	8-9_conj_and	pan	VB	O
+8-12	it	8-9_dobj	pan	PRP	P1_cake_tin
+8-13	into	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	preheated	O	O	JJ	O
+8-16	oven	8-9_prep_into	pan	NN	P1_oven
+8-17	for	O	O	O	O
+8-18	about	O	O	RB	O
+8-19	45	O	O	CD	O
+8-20	minutes	O	O	NNS	P1_time
+8-21	.	O	O	O	O
+
+#id=9
+#text=When the cake is slightly brown on top , I remove it from the oven and place it in the refrigerator to cool . 
+9-1	When	O	O	WRB	O
+9-2	the	O	O	DT	O
+9-3	cake	O	O	NN	P1_cake
+9-4	is	O	O	VBZ	O
+9-5	slightly	O	O	RB	O
+9-6	brown	9-11_advcl	remove	JJ	O
+9-7	on	O	O	O	O
+9-8	top	O	O	NN	O
+9-9	,	O	O	O	O
+9-10	I	9-11_nsubj	remove	PRP	P1_cook
+9-11	remove	O	O	VB	O
+9-12	it	9-11_dobj	remove	PRP	P1_cake
+9-13	from	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	oven	9-11_prep_from	remove	NN	P1_oven
+9-16	and	O	O	O	O
+9-17	place	9-11_conj_and	remove	VB	O
+9-18	it	9-17_dobj	place	PRP	P1_cake
+9-19	in	O	O	O	O
+9-20	the	O	O	DT	O
+9-21	refrigerator	9-17_prep_in	place	NN	P1_NPart_refrigerator
+9-22	to	9-23_aux	cool	TO	O
+9-23	cool	O	O	VB	O
+9-24	.	O	O	O	O
+
+#id=10
+#text=This usually takes about two hours . 
+10-1	This	10-3_nsubj	takes	DT	O
+10-2	usually	10-3_advmod	takes	RB	O
+10-3	takes	O	O	VBZ	O
+10-4	about	O	O	O	O
+10-5	two	O	O	CD	O
+10-6	hours	10-3_prep_about	takes	NNS	P2_time
+10-7	.	O	O	O	O
+
+#id=11
+#text=Then it is ready to serve . 
+11-1	Then	O	O	RB	O
+11-2	it	O	O	PRP	P1_cake
+11-3	is	O	O	VBZ	O
+11-4	ready	O	O	JJ	O
+11-5	to	11-6_aux	serve	TO	O
+11-6	serve	O	O	VB	O
+11-7	.	O	O	O	O

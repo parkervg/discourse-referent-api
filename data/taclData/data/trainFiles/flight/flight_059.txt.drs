@@ -1,0 +1,223 @@
+#id=1
+#text=Flying in an airplane is necessary to travel to far away destinations that are not easily accessible by other modes of transportation . 
+1-1	Flying	O	O	NNP	O
+1-2	in	O	O	O	O
+1-3	an	O	O	DT	O
+1-4	airplane	O	O	NN	P1_plane
+1-5	is	O	O	VBZ	O
+1-6	necessary	O	O	JJ	O
+1-7	to	1-8_aux	travel	TO	O
+1-8	travel	O	O	VB	O
+1-9	to	1-12_aux	destinations	TO	O
+1-10	far	O	O	RB	O
+1-11	away	1-12_advmod	destinations	RB	O
+1-12	destinations	1-8_xcomp	travel	VB	P1_target_location
+1-13	that	O	O	IN	O
+1-14	are	O	O	VBP	O
+1-15	not	O	O	RB	O
+1-16	easily	O	O	RB	O
+1-17	accessible	1-12_ccomp	destinations	JJ	O
+1-18	by	O	O	O	O
+1-19	other	O	O	JJ	O
+1-20	modes	O	O	NNS	P1_NPart_modes
+1-21	of	O	O	O	O
+1-22	transportation	O	O	NN	P1_NPart_transportation
+1-23	.	O	O	O	O
+
+#id=2
+#text=Last summer , I had a girls trip to the Carribean . 
+2-1	Last	O	O	JJ	O
+2-2	summer	2-5_tmod	had	NN	P1_NPart_summer
+2-3	,	O	O	O	O
+2-4	I	2-5_nsubj	had	PRP	P1_passenger
+2-5	had	O	O	VBD	O
+2-6	a	O	O	DT	O
+2-7	girls	O	O	NNS	O
+2-8	trip	2-5_dobj	had	NN	P1_NPart_trip
+2-9	to	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	Carribean	O	O	NNP	P2_target_location
+2-12	.	O	O	O	O
+
+#id=3
+#text=We had to plan our trip including booking airplane tickets and booking hotels . 
+3-1	We	3-2_nsubj	had	PRP	P1_passenger
+3-2	had	O	O	VBD	O
+3-3	to	3-4_aux	plan	TO	O
+3-4	plan	3-2_xcomp	had	VB	O
+3-5	our	O	O	PRP$	P1_passenger
+3-6	trip	3-4_dobj	plan	NN	P2_NPart_trip
+3-7	including	O	O	O	O
+3-8	booking	3-4_prepc_including	plan	VBG	O
+3-9	airplane	O	O	NN	O
+3-10	tickets	3-8_dobj	booking	NNS	P1_ticket
+3-11	and	O	O	O	O
+3-12	booking	3-8_conj_and	booking	VBG	O
+3-13	hotels	3-12_dobj	booking	NNS	P1_NPart_hotels
+3-14	.	O	O	O	O
+
+#id=4
+#text=We booked our airplane tickets online a few months before to get the best fare . 
+4-1	We	4-2_nsubj	booked	PRP	P1_passenger
+4-2	booked	O	O	VBD	O
+4-3	our	O	O	PRP$	P1_passenger
+4-4	airplane	O	O	NN	O
+4-5	tickets	4-2_dobj	booked	NNS	P1_ticket
+4-6	online	4-2_prep	booked	NN	P1_other
+4-7	a	O	O	DT	O
+4-8	few	O	O	JJ	O
+4-9	months	O	O	NNS	P1_time/date
+4-10	before	4-12_mark	get	IN	O
+4-11	to	4-12_aux	get	TO	O
+4-12	get	4-2_advcl	booked	VB	O
+4-13	the	O	O	DT	O
+4-14	best	O	O	JJS	O
+4-15	fare	4-12_dobj	get	NN	P2_other
+4-16	.	O	O	O	O
+
+#id=5
+#text=We arrive at the airport a few hours beforehand for an international flight . 
+5-1	We	5-2_nsubj	arrive	PRP	P1_passenger
+5-2	arrive	O	O	VBP	O
+5-3	at	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	airport	5-2_prep_at	arrive	NN	P1_airport
+5-6	a	O	O	DT	O
+5-7	few	O	O	JJ	O
+5-8	hours	O	O	NNS	P2_time/date
+5-9	beforehand	5-2_advmod	arrive	RB	O
+5-10	for	O	O	O	O
+5-11	an	O	O	DT	O
+5-12	international	O	O	JJ	O
+5-13	flight	5-2_prep_for	arrive	NN	P1_flight
+5-14	.	O	O	O	O
+
+#id=6
+#text=We all pack lightly with one piece of luggage . 
+6-1	We	6-3_nsubj	pack	PRP	P1_passenger
+6-2	all	6-3_advmod	pack	DT	O
+6-3	pack	O	O	VB	O
+6-4	lightly	6-3_advmod	pack	RB	O
+6-5	with	O	O	O	O
+6-6	one	O	O	CD	O
+6-7	piece	6-3_prep_with	pack	NN	P1_NPart_piece
+6-8	of	O	O	O	O
+6-9	luggage	O	O	NN	P1_carry_on_luggage
+6-10	.	O	O	O	O
+
+#id=7
+#text=After waiting at the airport for a while , we boarded our plane . 
+7-1	After	O	O	O	O
+7-2	waiting	7-11_prepc_after	boarded	VBG	O
+7-3	at	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	airport	7-2_prep_at	waiting	NN	P1_airport
+7-6	for	O	O	O	O
+7-7	a	O	O	DT	O
+7-8	while	O	O	NN	P3_time/date
+7-9	,	O	O	O	O
+7-10	we	7-11_nsubj	boarded	PRP	P1_passenger
+7-11	boarded	O	O	VBD	O
+7-12	our	O	O	PRP$	P1_passenger
+7-13	plane	7-11_dobj	boarded	NN	P1_plane
+7-14	.	O	O	O	O
+
+#id=8
+#text=The flight attendants and crew are friendly . 
+8-1	The	O	O	DT	O
+8-2	flight	O	O	NN	O
+8-3	attendants	O	O	NNS	P1_staff
+8-4	and	O	O	O	O
+8-5	crew	O	O	NN	P2_staff
+8-6	are	O	O	VBP	O
+8-7	friendly	O	O	JJ	O
+8-8	.	O	O	O	O
+
+#id=9
+#text=We find out seats and try to as comfortable in the cramped seating of a packed flight full of passengers . 
+9-1	We	9-2_nsubj	find	PRP	P1_passenger
+9-2	find	O	O	VBP	O
+9-3	out	9-2_prt	find	RP	P1_passenger
+9-4	seats	9-2_dobj	find	NNS	P1_seat
+9-5	and	O	O	O	O
+9-6	try	9-2_conj_and	find	VBP	O
+9-7	to	O	O	O	O
+9-8	as	O	O	RB	O
+9-9	comfortable	9-6_prep_to	try	JJ	O
+9-10	in	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	cramped	O	O	JJ	O
+9-13	seating	O	O	NN	P3_other
+9-14	of	O	O	O	O
+9-15	a	O	O	DT	O
+9-16	packed	O	O	JJ	O
+9-17	flight	O	O	NN	P1_flight
+9-18	full	O	O	JJ	O
+9-19	of	O	O	O	O
+9-20	passengers	O	O	NNS	P2_passenger
+9-21	.	O	O	O	O
+
+#id=10
+#text=We try to relax , buckle up for a four hour flight . 
+10-1	We	10-2_nsubj	try	PRP	P1_passenger
+10-2	try	O	O	VBP	O
+10-3	to	10-4_aux	relax	TO	O
+10-4	relax	10-2_xcomp	try	VB	O
+10-5	,	O	O	O	O
+10-6	buckle	10-4_dep	relax	VB	O
+10-7	up	10-6_prt	buckle	RP	O
+10-8	for	O	O	O	O
+10-9	a	O	O	DT	O
+10-10	four	O	O	CD	O
+10-11	hour	O	O	NN	P4_time/date
+10-12	flight	10-6_prep_for	buckle	NN	P1_flight
+10-13	.	O	O	O	O
+
+#id=11
+#text=During the four hour flight , we can sleep on watch tv or listen to music . 
+11-1	During	O	O	O	O
+11-2	the	O	O	DT	O
+11-3	four	O	O	CD	O
+11-4	hour	O	O	NN	P4_time/date
+11-5	flight	11-9_prep_during	sleep	NN	P1_flight
+11-6	,	O	O	O	O
+11-7	we	11-9_nsubj	sleep	PRP	P1_passenger
+11-8	can	11-9_aux	sleep	MD	O
+11-9	sleep	O	O	VB	O
+11-10	on	O	O	O	O
+11-11	watch	O	O	NN	O
+11-12	tv	11-9_prep_on	sleep	NN	P1_in-flight_entertainment
+11-13	or	O	O	O	O
+11-14	listen	11-9_conj_or	sleep	VB	O
+11-15	to	O	O	O	O
+11-16	music	11-14_prep_to	listen	NN	P2_in-flight_entertainment
+11-17	.	O	O	O	O
+
+#id=12
+#text=And the crew will come around with drinks and snacks . 
+12-1	And	12-5_cc	come	CC	O
+12-2	the	O	O	DT	O
+12-3	crew	12-5_nsubj	come	NN	P2_staff
+12-4	will	12-5_aux	come	MD	O
+12-5	come	O	O	VB	O
+12-6	around	12-5_prt	come	RP	O
+12-7	with	O	O	O	O
+12-8	drinks	12-5_prep_with	come	NNS	P3_in-flight_entertainment
+12-9	and	O	O	O	O
+12-10	snacks	O	O	NNS	P4_in-flight_entertainment
+12-11	.	O	O	O	O
+
+#id=13
+#text=After a necessary flight , we arrive at our destination safely . 
+13-1	After	O	O	O	O
+13-2	a	O	O	DT	O
+13-3	necessary	O	O	JJ	O
+13-4	flight	13-7_prep_after	arrive	NN	P1_flight
+13-5	,	O	O	O	O
+13-6	we	13-7_nsubj	arrive	PRP	P1_passenger
+13-7	arrive	O	O	VBP	O
+13-8	at	O	O	O	O
+13-9	our	O	O	PRP$	P1_passenger
+13-10	destination	13-7_prep_at	arrive	NN	P2_target_location
+13-11	safely	13-7_advmod	arrive	RB	O
+13-12	.	O	O	O	O

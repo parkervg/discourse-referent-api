@@ -1,0 +1,208 @@
+#id=1
+#text=It all began when I woke up in the morning and noticed the messiest hair I had ever seen in my entire life . 
+1-1	It	1-3_nsubj	began	PRP	O
+1-2	all	1-3_advmod	began	DT	O
+1-3	began	O	O	VBD	O
+1-4	when	1-6_advmod	woke	WRB	O
+1-5	I	1-6_nsubj	woke	PRP	P1_customer
+1-6	woke	1-3_advcl	began	VBD	O
+1-7	up	1-6_prt	woke	RP	O
+1-8	in	O	O	O	O
+1-9	the	O	O	DT	O
+1-10	morning	1-6_prep_in	woke	NN	P1_time/date
+1-11	and	O	O	O	O
+1-12	noticed	1-6_conj_and	woke	VBD	O
+1-13	the	O	O	DT	O
+1-14	messiest	O	O	JJ	O
+1-15	hair	1-12_dobj	noticed	NN	P1_hair
+1-16	I	1-19_nsubj	seen	PRP	P1_customer
+1-17	had	1-19_aux	seen	VBD	O
+1-18	ever	1-19_advmod	seen	RB	O
+1-19	seen	1-12_dep	noticed	VBN	O
+1-20	in	O	O	O	O
+1-21	my	O	O	PRP$	P1_customer
+1-22	entire	O	O	JJ	O
+1-23	life	1-19_prep_in	seen	NN	P1_NPart_life
+1-24	.	O	O	O	O
+
+#id=2
+#text=I looked like a porcupine with its burrs all sticking straight out in every direction . 
+2-1	I	2-2_nsubj	looked	PRP	P1_customer
+2-2	looked	O	O	VBD	O
+2-3	like	O	O	O	O
+2-4	a	O	O	DT	O
+2-5	porcupine	2-10_nsubj	sticking	NN	P1_NPart_porcupine
+2-6	with	O	O	O	O
+2-7	its	O	O	PRP$	P1_NPart_its
+2-8	burrs	O	O	NNS	P1_NPart_burrs
+2-9	all	2-10_advmod	sticking	RB	O
+2-10	sticking	2-2_prepc_like	looked	VBG	O
+2-11	straight	2-10_advmod	sticking	RB	O
+2-12	out	2-10_advmod	sticking	RB	O
+2-13	in	O	O	O	O
+2-14	every	O	O	DT	O
+2-15	direction	2-10_prep_in	sticking	NN	P1_NPart_direction
+2-16	.	O	O	O	O
+
+#id=3
+#text=There was no way I was going to be seen in public like this . 
+3-1	There	3-2_expl	was	EX	O
+3-2	was	O	O	VBD	O
+3-3	no	O	O	DT	O
+3-4	way	3-2_nsubj	was	NN	O
+3-5	I	3-7_nsubj	going	PRP	P1_customer
+3-6	was	3-7_aux	going	VBD	O
+3-7	going	O	O	VBG	O
+3-8	to	3-10_aux	seen	TO	O
+3-9	be	3-10_auxpass	seen	VB	O
+3-10	seen	3-7_xcomp	going	VBN	O
+3-11	in	O	O	O	O
+3-12	public	3-10_prep_in	seen	NN	P1_NPart_public
+3-13	like	O	O	O	O
+3-14	this	O	O	DT	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=I hurried to get ready and wet my head completely to make it seem like it was a normal hairdo . 
+4-1	I	4-2_nsubj	hurried	PRP	P1_customer
+4-2	hurried	O	O	VBN	O
+4-3	to	4-4_aux	get	TO	O
+4-4	get	4-2_xcomp	hurried	VB	O
+4-5	ready	4-4_acomp	get	JJ	O
+4-6	and	O	O	O	O
+4-7	wet	O	O	JJ	O
+4-8	my	O	O	PRP$	P1_customer
+4-9	head	O	O	NN	P1_other
+4-10	completely	O	O	RB	O
+4-11	to	4-12_aux	make	TO	O
+4-12	make	O	O	VB	O
+4-13	it	4-14_nsubj	seem	PRP	O
+4-14	seem	4-12_ccomp	make	VBP	O
+4-15	like	O	O	IN	O
+4-16	it	O	O	PRP	O
+4-17	was	O	O	VBD	O
+4-18	a	O	O	DT	O
+4-19	normal	O	O	JJ	O
+4-20	hairdo	4-14_advcl	seem	NN	P1_haircut
+4-21	.	O	O	O	O
+
+#id=5
+#text=I quickly went to the barber shop to get a complete buzz so that I will never have to see that ugly porcupine hair ever again . 
+5-1	I	5-3_nsubj	went	PRP	P1_customer
+5-2	quickly	5-3_advmod	went	RB	O
+5-3	went	O	O	VBD	O
+5-4	to	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	barber	O	O	NN	O
+5-7	shop	5-3_prep_to	went	NN	P1_salon
+5-8	to	5-9_aux	get	TO	O
+5-9	get	5-3_xcomp	went	VB	O
+5-10	a	O	O	DT	O
+5-11	complete	O	O	JJ	O
+5-12	buzz	5-9_dobj	get	NN	P1_haircut
+5-13	so	5-18_advmod	have	RB	O
+5-14	that	5-18_mark	have	IN	O
+5-15	I	5-18_nsubj	have	PRP	P1_customer
+5-16	will	5-18_aux	have	MD	O
+5-17	never	5-18_neg	have	RB	O
+5-18	have	5-9_advcl	get	VB	O
+5-19	to	5-20_aux	see	TO	O
+5-20	see	5-18_xcomp	have	VB	O
+5-21	that	O	O	DT	O
+5-22	ugly	O	O	JJ	O
+5-23	porcupine	O	O	NN	P2_NPart_porcupine
+5-24	hair	5-20_dobj	see	NN	P1_hair
+5-25	ever	5-20_advmod	see	RB	O
+5-26	again	5-20_advmod	see	RB	O
+5-27	.	O	O	O	O
+
+#id=6
+#text=The barber quickly buzzes my hair and then blends it together so that it looks normal . 
+6-1	The	O	O	DT	O
+6-2	barber	6-4_nsubj	buzzes	NN	P1_hairdresser
+6-3	quickly	6-4_advmod	buzzes	RB	O
+6-4	buzzes	O	O	VBZ	O
+6-5	my	O	O	PRP$	P1_customer
+6-6	hair	6-4_dobj	buzzes	NN	P1_hair
+6-7	and	O	O	O	O
+6-8	then	6-9_advmod	blends	RB	O
+6-9	blends	6-4_conj_and	buzzes	VBD	O
+6-10	it	6-9_dobj	blends	PRP	P1_hair
+6-11	together	O	O	RB	O
+6-12	so	6-9_advmod	blends	RB	O
+6-13	that	6-15_mark	looks	IN	O
+6-14	it	6-15_nsubj	looks	PRP	P1_hair
+6-15	looks	O	O	VBZ	O
+6-16	normal	6-15_acomp	looks	JJ	O
+6-17	.	O	O	O	O
+
+#id=7
+#text=We talk during the appointment about my life and how my school is . 
+7-1	We	7-2_nsubj	talk	PRP	P1_hairdresser_customer
+7-2	talk	O	O	VBP	O
+7-3	during	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	appointment	7-2_prep_during	talk	NN	P1_appointment
+7-6	about	7-2_dep	talk	IN	O
+7-7	my	O	O	PRP$	P1_customer
+7-8	life	O	O	NN	P2_NPart_life
+7-9	and	O	O	O	O
+7-10	how	7-13_advmod	is	WRB	O
+7-11	my	O	O	PRP$	P1_customer
+7-12	school	7-13_nsubj	is	NN	P1_NPart_school
+7-13	is	O	O	VBZ	O
+7-14	.	O	O	O	O
+
+#id=8
+#text=She is a very nice lady and we get along quite well . 
+8-1	She	O	O	PRP	P1_hairdresser
+8-2	is	O	O	VBZ	O
+8-3	a	O	O	DT	O
+8-4	very	O	O	RB	O
+8-5	nice	O	O	JJ	O
+8-6	lady	O	O	NN	P1_hairdresser
+8-7	and	O	O	O	O
+8-8	we	8-9_nsubj	get	PRP	P2_hairdresser_customer
+8-9	get	O	O	VBP	O
+8-10	along	8-9_prt	get	RP	O
+8-11	quite	O	O	RB	O
+8-12	well	8-9_advmod	get	RB	O
+8-13	.	O	O	O	O
+
+#id=9
+#text=The haircut only costs $ 15 but I pay with a $ 20 and let her keep the change . 
+9-1	The	O	O	DT	O
+9-2	haircut	9-4_nsubj	costs	NN	P1_haircut
+9-3	only	9-4_advmod	costs	RB	O
+9-4	costs	O	O	VBZ	O
+9-5	$	9-4_dobj	costs	$	O
+9-6	15	O	O	CD	P1_payment_means
+9-7	but	O	O	O	O
+9-8	I	9-9_nsubj	pay	PRP	P1_customer
+9-9	pay	9-4_conj_but	costs	VB	O
+9-10	with	O	O	O	O
+9-11	a	O	O	DT	O
+9-12	$	9-9_prep_with	pay	$	O
+9-13	20	O	O	CD	P2_payment_means
+9-14	and	O	O	O	O
+9-15	let	9-9_conj_and	pay	VB	O
+9-16	her	9-17_nsubj	keep	PRP	P1_hairdresser
+9-17	keep	9-15_ccomp	let	VB	O
+9-18	the	O	O	DT	O
+9-19	change	9-17_dobj	keep	NN	P1_tip
+9-20	.	O	O	O	O
+
+#id=10
+#text=I believe everyone who does a good job deserves a tip ! 
+10-1	I	10-2_nsubj	believe	PRP	P1_customer
+10-2	believe	O	O	VBP	O
+10-3	everyone	10-2_dobj	believe	NN	P1_NPart_everyone
+10-4	who	10-5_nsubj	does	WP	O
+10-5	does	O	O	VBZ	O
+10-6	a	O	O	DT	O
+10-7	good	O	O	JJ	O
+10-8	job	10-9_nsubj	deserves	NN	O
+10-9	deserves	10-5_ccomp	does	VBZ	O
+10-10	a	O	O	DT	O
+10-11	tip	10-9_dobj	deserves	NN	P1_tip
+10-12	!	O	O	O	O

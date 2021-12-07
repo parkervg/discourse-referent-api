@@ -1,0 +1,239 @@
+#id=1
+#text=My friend , Tom , had moved into a new house , and decided to plant a small tree to help make his yard look better . 
+1-1	My	O	O	PRP$	P1_NPart_my
+1-2	friend	1-7_nsubj	moved	NN	P1_gardener
+1-3	,	O	O	O	O
+1-4	Tom	O	O	NNP	P1_gardener
+1-5	,	O	O	O	O
+1-6	had	1-7_aux	moved	VBD	O
+1-7	moved	O	O	VBN	O
+1-8	into	O	O	O	O
+1-9	a	O	O	DT	O
+1-10	new	O	O	JJ	O
+1-11	house	1-7_prep_into	moved	NN	P1_NPart_house
+1-12	,	O	O	O	O
+1-13	and	O	O	O	O
+1-14	decided	1-7_conj_and	moved	VBD	O
+1-15	to	1-16_aux	plant	TO	O
+1-16	plant	1-14_xcomp	decided	VB	O
+1-17	a	O	O	DT	O
+1-18	small	O	O	JJ	O
+1-19	tree	1-16_dobj	plant	NN	P1_tree
+1-20	to	1-21_aux	help	TO	O
+1-21	help	1-16_vmod	plant	VB	O
+1-22	make	1-21_xcomp	help	VB	O
+1-23	his	O	O	PRP$	P1_gardener
+1-24	yard	O	O	NN	P1_NPart_yard
+1-25	look	1-22_dobj	make	NN	O
+1-26	better	1-22_advmod	make	RBR	O
+1-27	.	O	O	O	O
+
+#id=2
+#text=He had been advised by a tree expert , that the best time to plant it was in April or May . 
+2-1	He	2-4_nsubjpass	advised	PRP	P1_gardener
+2-2	had	2-4_aux	advised	VBD	O
+2-3	been	2-4_auxpass	advised	VBN	O
+2-4	advised	O	O	VBN	O
+2-5	by	O	O	O	O
+2-6	a	O	O	DT	O
+2-7	tree	O	O	NN	O
+2-8	expert	2-4_agent	advised	NN	P1_staff
+2-9	,	O	O	O	O
+2-10	that	2-15_mark	plant	IN	O
+2-11	the	O	O	DT	O
+2-12	best	O	O	JJS	O
+2-13	time	2-15_nsubj	plant	NN	P1_time
+2-14	to	2-15_aux	plant	TO	O
+2-15	plant	2-4_ccomp	advised	VB	O
+2-16	it	2-17_nsubj	was	PRP	P1_tree
+2-17	was	2-15_ccomp	plant	VBD	O
+2-18	in	O	O	O	O
+2-19	April	2-17_prep_in	was	NNP	P2_time
+2-20	or	O	O	O	O
+2-21	May	O	O	NNP	P3_time
+2-22	.	O	O	O	O
+
+#id=3
+#text=So about several weeks after Tom had moved into his new home , he went ahead to plant the tree in mid April . 
+3-1	So	3-15_dep	went	IN	O
+3-2	about	O	O	RB	O
+3-3	several	O	O	JJ	O
+3-4	weeks	3-8_dep	moved	NNS	P1_NPart_weeks
+3-5	after	3-8_mark	moved	IN	O
+3-6	Tom	3-8_nsubj	moved	NNP	P1_gardener
+3-7	had	3-8_aux	moved	VBD	O
+3-8	moved	3-15_advcl	went	VBN	O
+3-9	into	O	O	O	O
+3-10	his	O	O	PRP$	P1_gardener
+3-11	new	O	O	JJ	O
+3-12	home	3-8_prep_into	moved	NN	P1_NPart_home
+3-13	,	O	O	O	O
+3-14	he	3-15_nsubj	went	PRP	P1_gardener
+3-15	went	O	O	VBD	O
+3-16	ahead	3-15_advmod	went	RB	O
+3-17	to	3-18_aux	plant	TO	O
+3-18	plant	3-15_xcomp	went	VB	O
+3-19	the	O	O	DT	O
+3-20	tree	3-18_dobj	plant	NN	P1_tree
+3-21	in	O	O	O	O
+3-22	mid	O	O	JJ	O
+3-23	April	3-18_prep_in	plant	NNP	P4_time
+3-24	.	O	O	O	O
+
+#id=4
+#text=He first got and checked some maps to make sure he did n't mistakenly end up digging into any telephone or gas lines . 
+4-1	He	4-3_nsubj	got	PRP	P1_gardener
+4-2	first	4-3_advmod	got	RB	O
+4-3	got	O	O	VBD	O
+4-4	and	O	O	O	O
+4-5	checked	4-3_conj_and	got	VBD	O
+4-6	some	O	O	DT	O
+4-7	maps	4-5_dobj	checked	NNS	P1_NPart_maps
+4-8	to	4-9_aux	make	TO	O
+4-9	make	4-5_vmod	checked	VB	O
+4-10	sure	4-9_acomp	make	JJ	O
+4-11	he	4-15_nsubj	end	PRP	P1_gardener
+4-12	did	4-15_aux	end	VBD	O
+4-13	n't	4-15_neg	end	RB	O
+4-14	mistakenly	4-15_advmod	end	RB	O
+4-15	end	O	O	VB	O
+4-16	up	4-15_prt	end	RP	O
+4-17	digging	4-15_dobj	end	NN	O
+4-18	into	O	O	O	O
+4-19	any	O	O	DT	O
+4-20	telephone	O	O	NN	P1_NPart_telephone
+4-21	or	O	O	O	O
+4-22	gas	O	O	NN	O
+4-23	lines	4-15_prep_into	end	NNS	P1_NPart_lines
+4-24	.	O	O	O	O
+
+#id=5
+#text=Once he found a suitable spot to plant his new tree , Tom took a shovel and began preparing the hole to place it in . 
+5-1	Once	5-3_mark	found	IN	O
+5-2	he	5-3_nsubj	found	PRP	P1_gardener
+5-3	found	5-14_advcl	took	VBD	O
+5-4	a	O	O	DT	O
+5-5	suitable	O	O	JJ	O
+5-6	spot	5-3_dobj	found	NN	P1_location_garden
+5-7	to	5-8_aux	plant	TO	O
+5-8	plant	5-3_vmod	found	VB	O
+5-9	his	O	O	PRP$	P1_gardener
+5-10	new	O	O	JJ	O
+5-11	tree	5-8_dobj	plant	NN	P1_tree
+5-12	,	O	O	O	O
+5-13	Tom	5-14_nsubj	took	NNP	P1_gardener
+5-14	took	O	O	VBD	O
+5-15	a	O	O	DT	O
+5-16	shovel	5-14_dobj	took	NN	P1_gardening_tool
+5-17	and	O	O	O	O
+5-18	began	5-14_conj_and	took	VBD	O
+5-19	preparing	5-18_xcomp	began	VBG	O
+5-20	the	O	O	DT	O
+5-21	hole	5-19_dobj	preparing	NN	P1_hole
+5-22	to	5-23_aux	place	TO	O
+5-23	place	O	O	VB	O
+5-24	it	5-23_dobj	place	PRP	P1_tree
+5-25	in	5-23_prep	place	IN	O
+5-26	.	O	O	O	O
+
+#id=6
+#text=Next , he prepared the tree for planting by turning carefully upside down to remove it from the pot it came in . 
+6-1	Next	6-4_advmod	prepared	RB	O
+6-2	,	O	O	O	O
+6-3	he	6-4_nsubj	prepared	PRP	P1_gardener
+6-4	prepared	O	O	VBD	O
+6-5	the	O	O	DT	O
+6-6	tree	6-4_dobj	prepared	NN	P1_tree
+6-7	for	O	O	O	O
+6-8	planting	6-4_prepc_for	prepared	VBG	O
+6-9	by	O	O	O	O
+6-10	turning	6-8_prepc_by	planting	VBG	O
+6-11	carefully	O	O	RB	O
+6-12	upside	O	O	RB	O
+6-13	down	6-10_advmod	turning	RB	O
+6-14	to	6-15_aux	remove	TO	O
+6-15	remove	6-10_xcomp	turning	VB	O
+6-16	it	6-15_dobj	remove	PRP	P1_tree
+6-17	from	O	O	O	O
+6-18	the	O	O	DT	O
+6-19	pot	6-15_prep_from	remove	NN	P1_NPart_pot
+6-20	it	6-21_nsubj	came	PRP	P1_tree
+6-21	came	O	O	VBD	O
+6-22	in	6-21_prt	came	RP	O
+6-23	.	O	O	O	O
+
+#id=7
+#text=He then gently , placed the tree into the hole . 
+7-1	He	7-5_nsubj	placed	PRP	P1_gardener
+7-2	then	7-5_nsubj	placed	RB	O
+7-3	gently	7-5_advmod	placed	RB	O
+7-4	,	O	O	O	O
+7-5	placed	O	O	VBD	O
+7-6	the	O	O	DT	O
+7-7	tree	7-5_dobj	placed	NN	P1_tree
+7-8	into	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	hole	7-5_prep_into	placed	NN	P1_hole
+7-11	.	O	O	O	O
+
+#id=8
+#text=Tom also filled the hole with some compost and manure to help the tree grow better . 
+8-1	Tom	8-3_nsubj	filled	NNP	P1_gardener
+8-2	also	8-3_advmod	filled	RB	O
+8-3	filled	O	O	VBD	O
+8-4	the	O	O	DT	O
+8-5	hole	8-3_dobj	filled	NN	P1_hole
+8-6	with	O	O	O	O
+8-7	some	O	O	DT	O
+8-8	compost	8-3_prep_with	filled	NN	P1_fertilizer
+8-9	and	O	O	O	O
+8-10	manure	8-3_conj_and	filled	VBP	P2_fertilizer
+8-11	to	8-12_aux	help	TO	O
+8-12	help	8-10_xcomp	manure	VB	O
+8-13	the	O	O	DT	O
+8-14	tree	8-15_nsubj	grow	NN	P1_tree
+8-15	grow	8-12_ccomp	help	VB	O
+8-16	better	8-15_advmod	grow	RBR	O
+8-17	.	O	O	O	O
+
+#id=9
+#text=Once this was done , he filled up the hole completely and watered the tree . 
+9-1	Once	9-4_mark	done	IN	O
+9-2	this	9-4_nsubjpass	done	DT	O
+9-3	was	9-4_auxpass	done	VBD	O
+9-4	done	9-7_advcl	filled	VBN	O
+9-5	,	O	O	O	O
+9-6	he	9-7_nsubj	filled	PRP	P1_gardener
+9-7	filled	O	O	VBD	O
+9-8	up	9-7_prt	filled	RP	O
+9-9	the	O	O	DT	O
+9-10	hole	O	O	NN	P1_hole
+9-11	completely	9-7_advmod	filled	RB	O
+9-12	and	O	O	O	O
+9-13	watered	9-7_conj_and	filled	VBD	O
+9-14	the	O	O	DT	O
+9-15	tree	9-13_dobj	watered	NN	P1_tree
+9-16	.	O	O	O	O
+
+#id=10
+#text=Finally , he placed mulch on top and then stopped to admire the beautiful new tree in his yard . 
+10-1	Finally	10-4_advmod	placed	RB	O
+10-2	,	O	O	O	O
+10-3	he	10-4_nsubj	placed	PRP	P1_gardener
+10-4	placed	O	O	VBD	O
+10-5	mulch	10-4_dobj	placed	NN	P1_NPart_mulch
+10-6	on	O	O	O	O
+10-7	top	10-4_prep_on	placed	NN	O
+10-8	and	O	O	O	O
+10-9	then	10-10_advmod	stopped	RB	O
+10-10	stopped	10-4_conj_and	placed	VBD	O
+10-11	to	10-12_aux	admire	TO	O
+10-12	admire	10-10_xcomp	stopped	VB	O
+10-13	the	O	O	DT	O
+10-14	beautiful	O	O	JJ	O
+10-15	new	O	O	JJ	O
+10-16	tree	10-12_dobj	admire	NN	P1_tree
+10-17	in	O	O	O	O
+10-18	his	O	O	PRP$	P1_gardener
+10-19	yard	10-12_prep_in	admire	NN	P2_NPart_yard
+10-20	.	O	O	O	O

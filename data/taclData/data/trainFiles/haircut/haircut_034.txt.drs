@@ -1,0 +1,233 @@
+#id=1
+#text=I have a very important job interview coming up in a few days and I want to make sure I look my best . 
+1-1	I	1-2_nsubj	have	PRP	P1_customer
+1-2	have	O	O	VBP	O
+1-3	a	O	O	DT	O
+1-4	very	O	O	RB	O
+1-5	important	O	O	JJ	O
+1-6	job	O	O	NN	O
+1-7	interview	1-2_dobj	have	NN	P1_NPart_interview
+1-8	coming	O	O	VBG	O
+1-9	up	1-8_prt	coming	RP	O
+1-10	in	O	O	O	O
+1-11	a	O	O	DT	O
+1-12	few	O	O	JJ	O
+1-13	days	1-8_prep_in	coming	NNS	P1_NPart_days
+1-14	and	O	O	O	O
+1-15	I	1-16_nsubj	want	PRP	P1_customer
+1-16	want	1-2_conj_and	have	VBP	O
+1-17	to	1-18_aux	make	TO	O
+1-18	make	1-16_xcomp	want	VB	O
+1-19	sure	1-18_acomp	make	JJ	O
+1-20	I	1-21_nsubj	look	PRP	P1_customer
+1-21	look	O	O	VBP	O
+1-22	my	O	O	PRP$	P1_customer
+1-23	best	1-21_dobj	look	JJS	O
+1-24	.	O	O	O	O
+
+#id=2
+#text=I called up my barber and made an appointment for later on in the day . 
+2-1	I	2-2_nsubj	called	PRP	P1_customer
+2-2	called	O	O	VBD	O
+2-3	up	2-2_prt	called	RP	O
+2-4	my	O	O	PRP$	P1_customer
+2-5	barber	2-2_dobj	called	NN	P1_hairdresser
+2-6	and	O	O	O	O
+2-7	made	2-2_conj_and	called	VBD	O
+2-8	an	O	O	DT	O
+2-9	appointment	2-7_dobj	made	NN	P1_appointment
+2-10	for	2-7_prep	made	IN	O
+2-11	later	O	O	RB	O
+2-12	on	2-7_prep	made	IN	O
+2-13	in	O	O	IN	O
+2-14	the	O	O	DT	O
+2-15	day	O	O	NN	P1_time/date
+2-16	.	O	O	O	O
+
+#id=3
+#text=When I got to the barber shop I greeted him and took a seat in his chair . 
+3-1	When	3-3_advmod	got	WRB	O
+3-2	I	3-3_nsubj	got	PRP	P1_customer
+3-3	got	3-9_advcl	greeted	VBD	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	barber	O	O	NN	O
+3-7	shop	3-3_prep_to	got	NN	P1_salon
+3-8	I	3-9_nsubj	greeted	PRP	P1_customer
+3-9	greeted	O	O	VBD	O
+3-10	him	3-9_dobj	greeted	PRP	P1_hairdresser
+3-11	and	O	O	O	O
+3-12	took	3-9_conj_and	greeted	VBD	O
+3-13	a	O	O	DT	O
+3-14	seat	3-12_dobj	took	NN	O
+3-15	in	O	O	O	O
+3-16	his	O	O	PRP$	P1_hairdresser
+3-17	chair	3-12_prep_in	took	NN	P1_chair
+3-18	.	O	O	O	O
+
+#id=4
+#text=I told him about the interview and he told me not to worry I was in good hands . 
+4-1	I	4-2_nsubj	told	PRP	P1_customer
+4-2	told	O	O	VBD	O
+4-3	him	4-2_dobj	told	PRP	P1_hairdresser
+4-4	about	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	interview	4-2_prep_about	told	NN	P2_NPart_interview
+4-7	and	O	O	O	O
+4-8	he	4-9_nsubj	told	PRP	P1_hairdresser
+4-9	told	4-2_conj_and	told	VBD	O
+4-10	me	4-9_dobj	told	PRP	P1_customer
+4-11	not	4-13_neg	worry	RB	O
+4-12	to	4-13_aux	worry	TO	O
+4-13	worry	4-9_xcomp	told	VB	O
+4-14	I	4-15_nsubj	was	PRP	P1_customer
+4-15	was	4-13_ccomp	worry	VBD	O
+4-16	in	O	O	O	O
+4-17	good	O	O	JJ	O
+4-18	hands	4-15_prep_in	was	NNS	O
+4-19	.	O	O	O	O
+
+#id=5
+#text=He put the barber apron over me so I would n't get any hair on my clothes while he cut my hair . 
+5-1	He	5-2_nsubj	put	PRP	P1_hairdresser
+5-2	put	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	barber	O	O	NN	O
+5-5	apron	5-2_dobj	put	NN	P1_cape
+5-6	over	O	O	O	O
+5-7	me	5-2_prep_over	put	PRP	P1_customer
+5-8	so	5-12_mark	get	IN	O
+5-9	I	5-12_nsubj	get	PRP	P1_customer
+5-10	would	5-12_aux	get	MD	O
+5-11	n't	5-12_neg	get	RB	O
+5-12	get	5-2_advcl	put	VB	O
+5-13	any	O	O	DT	O
+5-14	hair	5-12_dobj	get	NN	P1_hair
+5-15	on	O	O	O	O
+5-16	my	O	O	PRP$	P1_customer
+5-17	clothes	5-12_prep_on	get	NNS	P1_NPart_clothes
+5-18	while	5-20_mark	cut	IN	O
+5-19	he	5-20_nsubj	cut	PRP	P1_hairdresser
+5-20	cut	5-12_advcl	get	VBD	O
+5-21	my	O	O	PRP$	P1_customer
+5-22	hair	5-20_dobj	cut	NN	P1_hair
+5-23	.	O	O	O	O
+
+#id=6
+#text=He took out his scissors and started sniping away like he usually did . 
+6-1	He	6-2_nsubj	took	PRP	P1_hairdresser
+6-2	took	O	O	VBD	O
+6-3	out	6-2_prt	took	RP	O
+6-4	his	O	O	PRP$	P1_hairdresser
+6-5	scissors	6-2_dobj	took	NNS	P1_scissors
+6-6	and	O	O	O	O
+6-7	started	6-2_conj_and	took	VBD	O
+6-8	sniping	6-7_xcomp	started	VBG	O
+6-9	away	6-8_prt	sniping	RP	O
+6-10	like	6-13_mark	did	IN	O
+6-11	he	6-13_nsubj	did	PRP	P1_hairdresser
+6-12	usually	6-13_advmod	did	RB	O
+6-13	did	6-8_advcl	sniping	VBD	O
+6-14	.	O	O	O	O
+
+#id=7
+#text=After about 20 minutes we were all done . 
+7-1	After	O	O	O	O
+7-2	about	O	O	RB	O
+7-3	20	O	O	CD	O
+7-4	minutes	7-8_prep_after	done	NNS	P2_time/date
+7-5	we	7-8_nsubjpass	done	PRP	P1_hairdresser_customer
+7-6	were	7-8_auxpass	done	VBD	O
+7-7	all	7-8_advmod	done	RB	O
+7-8	done	O	O	VBN	O
+7-9	.	O	O	O	O
+
+#id=8
+#text=He took out a small mirror and showed me the front and back of my new haircut . 
+8-1	He	8-2_nsubj	took	PRP	P1_hairdresser
+8-2	took	O	O	VBD	O
+8-3	out	8-2_prt	took	RP	O
+8-4	a	O	O	DT	O
+8-5	small	O	O	JJ	O
+8-6	mirror	8-2_dobj	took	NN	P1_mirror
+8-7	and	O	O	O	O
+8-8	showed	8-2_conj_and	took	VBD	O
+8-9	me	O	O	PRP	P1_customer
+8-10	the	O	O	DT	O
+8-11	front	8-8_xcomp	showed	NN	O
+8-12	and	O	O	O	O
+8-13	back	O	O	NN	O
+8-14	of	O	O	O	O
+8-15	my	O	O	PRP$	P1_customer
+8-16	new	O	O	JJ	O
+8-17	haircut	O	O	NN	P1_haircut
+8-18	.	O	O	O	O
+
+#id=9
+#text=As always I was very satisfied with his work . 
+9-1	As	9-6_prep	satisfied	IN	O
+9-2	always	O	O	RB	O
+9-3	I	9-6_nsubjpass	satisfied	PRP	P1_customer
+9-4	was	9-6_auxpass	satisfied	VBD	O
+9-5	very	9-6_advmod	satisfied	RB	O
+9-6	satisfied	O	O	VBN	O
+9-7	with	O	O	O	O
+9-8	his	O	O	PRP$	P1_hairdresser
+9-9	work	9-6_prep_with	satisfied	NN	P1_NPart_work
+9-10	.	O	O	O	O
+
+#id=10
+#text=He dusted off the loose hair and removed the apron as I got up . 
+10-1	He	10-2_nsubj	dusted	PRP	P1_hairdresser
+10-2	dusted	O	O	VBD	O
+10-3	off	10-2_prt	dusted	RP	O
+10-4	the	O	O	DT	O
+10-5	loose	O	O	JJ	O
+10-6	hair	10-2_dobj	dusted	NN	P1_hair
+10-7	and	O	O	O	O
+10-8	removed	10-2_conj_and	dusted	VBD	O
+10-9	the	O	O	DT	O
+10-10	apron	10-8_dobj	removed	NN	P1_cape
+10-11	as	10-13_mark	got	IN	O
+10-12	I	10-13_nsubj	got	PRP	P1_customer
+10-13	got	10-8_advcl	removed	VBD	O
+10-14	up	10-13_prt	got	RP	O
+10-15	.	O	O	O	O
+
+#id=11
+#text=I paid him and gave him a nice tip for a job well done . 
+11-1	I	11-2_nsubj	paid	PRP	P1_customer
+11-2	paid	O	O	VBD	O
+11-3	him	11-2_dobj	paid	PRP	P1_hairdresser
+11-4	and	O	O	O	O
+11-5	gave	11-2_conj_and	paid	VBD	O
+11-6	him	11-5_iobj	gave	PRP	P1_hairdresser
+11-7	a	O	O	DT	O
+11-8	nice	O	O	JJ	O
+11-9	tip	11-5_dobj	gave	NN	P1_tip
+11-10	for	O	O	O	O
+11-11	a	O	O	DT	O
+11-12	job	11-2_prep_for	paid	NN	P1_NPart_job
+11-13	well	11-14_advmod	done	RB	O
+11-14	done	O	O	VBN	O
+11-15	.	O	O	O	O
+
+#id=12
+#text=Before leaving he wished me good luck on my interview and thanked me for stopping by . 
+12-1	Before	O	O	O	O
+12-2	leaving	12-4_prepc_before	wished	VBG	O
+12-3	he	12-4_nsubj	wished	PRP	P1_hairdresser
+12-4	wished	O	O	VBD	O
+12-5	me	O	O	PRP	P1_customer
+12-6	good	O	O	JJ	O
+12-7	luck	12-4_dobj	wished	NN	P1_NPart_luck
+12-8	on	O	O	O	O
+12-9	my	O	O	PRP$	P1_customer
+12-10	interview	12-4_prep_on	wished	NN	P3_NPart_interview
+12-11	and	O	O	O	O
+12-12	thanked	12-4_conj_and	wished	VBD	O
+12-13	me	12-12_dobj	thanked	PRP	P1_customer
+12-14	for	O	O	O	O
+12-15	stopping	12-12_prepc_for	thanked	VBG	O
+12-16	by	12-15_prep	stopping	IN	O
+12-17	.	O	O	O	O

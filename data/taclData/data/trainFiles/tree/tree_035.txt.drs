@@ -1,0 +1,200 @@
+#id=1
+#text=Once you have located an area where you want to plant your tree , you will need a shovel to begin digging a nice sized hole in the ground . 
+1-1	Once	1-4_mark	located	IN	O
+1-2	you	1-4_nsubj	located	PRP	P1_gardener
+1-3	have	1-4_aux	located	VBP	O
+1-4	located	1-17_advcl	need	VBN	O
+1-5	an	O	O	DT	O
+1-6	area	1-4_dobj	located	NN	P1_location_garden
+1-7	where	1-9_advmod	want	WRB	O
+1-8	you	1-9_nsubj	want	PRP	P1_gardener
+1-9	want	1-4_advcl	located	VBP	O
+1-10	to	1-11_aux	plant	TO	O
+1-11	plant	1-9_xcomp	want	VB	O
+1-12	your	O	O	PRP$	P1_gardener
+1-13	tree	1-11_dobj	plant	NN	P1_tree
+1-14	,	O	O	O	O
+1-15	you	1-17_nsubj	need	PRP	P1_gardener
+1-16	will	1-17_aux	need	MD	O
+1-17	need	O	O	VB	O
+1-18	a	O	O	DT	O
+1-19	shovel	1-17_dobj	need	NN	P1_gardening_tool
+1-20	to	1-21_aux	begin	TO	O
+1-21	begin	O	O	VB	O
+1-22	digging	1-21_xcomp	begin	VBG	O
+1-23	a	O	O	DT	O
+1-24	nice	O	O	JJ	O
+1-25	sized	O	O	JJ	O
+1-26	hole	1-22_dobj	digging	NN	P1_hole
+1-27	in	O	O	O	O
+1-28	the	O	O	DT	O
+1-29	ground	1-22_prep_in	digging	NN	P1_dirt
+1-30	.	O	O	O	O
+
+#id=2
+#text=This will require some effort depending on how big your tree already is as the bigger the tree , the bigger and deeper the hole will need to be . 
+2-1	This	2-3_nsubj	require	DT	O
+2-2	will	2-3_aux	require	MD	O
+2-3	require	O	O	VB	O
+2-4	some	O	O	DT	O
+2-5	effort	2-3_dobj	require	NN	P1_NPart_effort
+2-6	depending	O	O	O	O
+2-7	on	2-3_prepc_depending_on	require	IN	O
+2-8	how	O	O	WRB	O
+2-9	big	2-13_dep	is	JJ	O
+2-10	your	O	O	PRP$	P1_gardener
+2-11	tree	2-13_nsubj	is	NN	P1_tree
+2-12	already	2-13_advmod	is	RB	O
+2-13	is	2-3_pcomp	require	VBZ	O
+2-14	as	2-27_mark	need	IN	O
+2-15	the	O	O	DT	O
+2-16	bigger	O	O	JJR	O
+2-17	the	O	O	DT	O
+2-18	tree	2-27_dep	need	NN	P1_tree
+2-19	,	O	O	O	O
+2-20	the	O	O	DT	O
+2-21	bigger	2-27_dep	need	JJR	O
+2-22	and	O	O	O	O
+2-23	deeper	O	O	JJR	O
+2-24	the	O	O	DT	O
+2-25	hole	2-27_nsubj	need	NN	P1_hole
+2-26	will	2-27_aux	need	MD	O
+2-27	need	2-13_advcl	is	VB	O
+2-28	to	2-29_aux	be	TO	O
+2-29	be	2-27_xcomp	need	VB	O
+2-30	.	O	O	O	O
+
+#id=3
+#text=After digging the hole , pull the tree out of the container that the tree is currently sitting in , and then place the tree into the hole . 
+3-1	After	O	O	O	O
+3-2	digging	3-6_prepc_after	pull	VBG	O
+3-3	the	O	O	DT	O
+3-4	hole	3-2_dobj	digging	NN	P1_hole
+3-5	,	O	O	O	O
+3-6	pull	O	O	VB	O
+3-7	the	O	O	DT	O
+3-8	tree	3-6_dobj	pull	NN	P1_tree
+3-9	out	O	O	O	O
+3-10	of	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	container	3-6_prep_out_of	pull	NN	P1_wrapping
+3-13	that	3-18_mark	sitting	IN	P1_wrapping
+3-14	the	O	O	DT	O
+3-15	tree	3-18_nsubj	sitting	NN	P1_tree
+3-16	is	3-18_aux	sitting	VBZ	O
+3-17	currently	3-18_advmod	sitting	RB	O
+3-18	sitting	3-6_ccomp	pull	VBG	O
+3-19	in	3-18_prt	sitting	RP	O
+3-20	,	O	O	O	O
+3-21	and	O	O	O	O
+3-22	then	3-23_advmod	place	RB	O
+3-23	place	3-6_conj_and	pull	VB	O
+3-24	the	O	O	DT	O
+3-25	tree	3-23_dobj	place	NN	P1_tree
+3-26	into	O	O	O	O
+3-27	the	O	O	DT	O
+3-28	hole	3-23_prep_into	place	NN	P1_hole
+3-29	.	O	O	O	O
+
+#id=4
+#text=If the dirt that was removed looks fertile , then you can push the dirt back into the hole to fill it back up . 
+4-1	If	4-7_mark	looks	IN	O
+4-2	the	O	O	DT	O
+4-3	dirt	4-7_nsubj	looks	NN	P1_dirt
+4-4	that	4-6_nsubjpass	removed	WDT	P1_dirt
+4-5	was	4-6_auxpass	removed	VBD	O
+4-6	removed	O	O	VBN	O
+4-7	looks	4-13_advcl	push	VBZ	O
+4-8	fertile	4-7_acomp	looks	JJ	O
+4-9	,	O	O	O	O
+4-10	then	O	O	RB	O
+4-11	you	4-13_nsubj	push	PRP	P1_gardener
+4-12	can	4-13_aux	push	MD	O
+4-13	push	O	O	VB	O
+4-14	the	O	O	DT	O
+4-15	dirt	4-13_dobj	push	NN	P1_dirt
+4-16	back	4-13_advmod	push	RB	O
+4-17	into	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	hole	4-13_prep_into	push	NN	P1_hole
+4-20	to	4-21_aux	fill	TO	O
+4-21	fill	O	O	VB	O
+4-22	it	4-21_dobj	fill	PRP	P1_hole
+4-23	back	O	O	RB	O
+4-24	up	4-21_advmod	fill	RB	O
+4-25	.	O	O	O	O
+
+#id=5
+#text=If the dirt looks dry , you may get a bag of potting soil and pour that into the remaining area of the hole . 
+5-1	If	5-4_mark	looks	IN	O
+5-2	the	O	O	DT	O
+5-3	dirt	5-4_nsubj	looks	NN	P1_dirt
+5-4	looks	5-9_advcl	get	VBZ	O
+5-5	dry	5-4_acomp	looks	JJ	O
+5-6	,	O	O	O	O
+5-7	you	5-9_nsubj	get	PRP	P1_gardener
+5-8	may	5-9_aux	get	MD	O
+5-9	get	O	O	VB	O
+5-10	a	O	O	DT	O
+5-11	bag	5-9_dobj	get	NN	O
+5-12	of	O	O	O	O
+5-13	potting	O	O	VBG	O
+5-14	soil	O	O	NN	P1_dirt
+5-15	and	O	O	O	O
+5-16	pour	5-9_conj_and	get	VB	O
+5-17	that	5-16_dobj	pour	DT	P1_dirt
+5-18	into	O	O	O	O
+5-19	the	O	O	DT	O
+5-20	remaining	O	O	VBG	O
+5-21	area	5-16_prep_into	pour	NN	P1_NPart_area
+5-22	of	O	O	O	O
+5-23	the	O	O	DT	O
+5-24	hole	O	O	NN	P1_hole
+5-25	.	O	O	O	O
+
+#id=6
+#text=Good soil will ensure that your plant -LRB- especially if the plant is young -RRB- to have all the proper nutrition and environment to begin growing . 
+6-1	Good	O	O	JJ	O
+6-2	soil	6-4_nsubj	ensure	NN	P1_dirt
+6-3	will	6-4_aux	ensure	MD	O
+6-4	ensure	O	O	VB	O
+6-5	that	6-17_mark	have	IN	O
+6-6	your	O	O	PRP$	P1_gardener
+6-7	plant	6-17_nsubj	have	NN	P1_tree
+6-8	-LRB-	O	O	O	O
+6-9	especially	O	O	RB	O
+6-10	if	O	O	IN	O
+6-11	the	O	O	DT	O
+6-12	plant	O	O	NN	P1_tree
+6-13	is	O	O	VBZ	O
+6-14	young	O	O	JJ	O
+6-15	-RRB-	O	O	O	O
+6-16	to	6-17_aux	have	TO	O
+6-17	have	6-4_ccomp	ensure	VB	O
+6-18	all	O	O	PDT	O
+6-19	the	O	O	DT	O
+6-20	proper	O	O	JJ	O
+6-21	nutrition	6-17_dobj	have	NN	P1_NPart_nutrition
+6-22	and	O	O	O	O
+6-23	environment	O	O	NN	P1_location_garden
+6-24	to	6-25_aux	begin	TO	O
+6-25	begin	6-17_vmod	have	VB	O
+6-26	growing	6-25_dobj	begin	VBG	O
+6-27	.	O	O	O	O
+
+#id=7
+#text=Lastly , water the area where the plant is and you 're done . 
+7-1	Lastly	7-3_advmod	water	RB	O
+7-2	,	O	O	O	O
+7-3	water	O	O	VB	O
+7-4	the	O	O	DT	O
+7-5	area	7-3_dobj	water	NN	P1_location_garden
+7-6	where	7-9_advmod	is	WRB	O
+7-7	the	O	O	DT	O
+7-8	plant	7-9_nsubj	is	NN	P1_tree
+7-9	is	7-3_advcl	water	VBZ	O
+7-10	and	O	O	O	O
+7-11	you	7-13_nsubjpass	done	PRP	P1_gardener
+7-12	're	7-13_auxpass	done	VBP	O
+7-13	done	7-9_conj_and	is	VBN	O
+7-14	.	O	O	O	O

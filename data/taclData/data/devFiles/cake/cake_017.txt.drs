@@ -1,0 +1,562 @@
+#id=1
+#text=I like baking cakes with my granddaughter . 
+1-1	I	1-2_nsubj	like	PRP	P1_cook
+1-2	like	O	O	VBP	O
+1-3	baking	O	O	VBG	O
+1-4	cakes	1-2_dobj	like	NNS	P1_cake
+1-5	with	O	O	O	O
+1-6	my	O	O	PRP$	P1_cook
+1-7	granddaughter	O	O	NN	P2_cook
+1-8	.	O	O	O	O
+
+#id=2
+#text=I let her help pour in the ingredients and mix them together . 
+2-1	I	2-2_nsubj	let	PRP	P1_cook
+2-2	let	O	O	VBP	O
+2-3	her	O	O	PRP$	P2_cook
+2-4	help	2-5_nsubj	pour	NN	O
+2-5	pour	2-2_ccomp	let	VB	O
+2-6	in	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	ingredients	2-5_prep_in	pour	NNS	P1_ingredients
+2-9	and	O	O	O	O
+2-10	mix	2-5_conj_and	pour	VB	O
+2-11	them	2-10_dobj	mix	PRP	P1_ingredients
+2-12	together	2-10_advmod	mix	RB	O
+2-13	.	O	O	O	O
+
+#id=3
+#text=I take a box of cake mix to her house so we can bake a cake together . 
+3-1	I	3-2_nsubj	take	PRP	P1_cook
+3-2	take	O	O	VBP	O
+3-3	a	O	O	DT	O
+3-4	box	3-2_dobj	take	NN	P1_NPart_box
+3-5	of	O	O	O	O
+3-6	cake	O	O	NN	O
+3-7	mix	O	O	NN	P2_ingredients
+3-8	to	O	O	O	O
+3-9	her	O	O	PRP$	P2_cook
+3-10	house	3-2_prep_to	take	NN	P1_NPart_house
+3-11	so	3-14_mark	bake	IN	O
+3-12	we	3-14_nsubj	bake	PRP	P3_cook
+3-13	can	3-14_aux	bake	MD	O
+3-14	bake	3-2_advcl	take	VB	O
+3-15	a	O	O	DT	O
+3-16	cake	3-14_dobj	bake	NN	P1_cake
+3-17	together	3-14_advmod	bake	RB	O
+3-18	.	O	O	O	O
+
+#id=4
+#text=We read the directions on the back of the box of cake mix . 
+4-1	We	4-2_nsubj	read	PRP	P3_cook
+4-2	read	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	directions	4-2_dobj	read	NNS	P1_baking_instructions
+4-5	on	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	back	4-2_prep_on	read	NN	P1_NPart_back
+4-8	of	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	box	O	O	NN	P1_recipe_source
+4-11	of	O	O	O	O
+4-12	cake	O	O	NN	O
+4-13	mix	O	O	NN	P2_ingredients
+4-14	.	O	O	O	O
+
+#id=5
+#text=Then we get out everything needed to make the cake . 
+5-1	Then	5-3_advmod	get	RB	O
+5-2	we	5-3_nsubj	get	PRP	P3_cook
+5-3	get	O	O	VBP	O
+5-4	out	5-3_prt	get	RP	O
+5-5	everything	5-3_dobj	get	NN	P1_ingredients
+5-6	needed	O	O	VBN	O
+5-7	to	5-8_aux	make	TO	O
+5-8	make	5-6_xcomp	needed	VB	O
+5-9	the	O	O	DT	O
+5-10	cake	5-8_dobj	make	NN	P1_cake
+5-11	.	O	O	O	O
+
+#id=6
+#text=We usually need eggs , cooking oil , and water or milk . 
+6-1	We	6-3_nsubj	need	PRP	P3_cook
+6-2	usually	6-3_advmod	need	RB	O
+6-3	need	O	O	VBP	O
+6-4	eggs	6-3_dobj	need	NNS	P3_ingredients
+6-5	,	O	O	O	O
+6-6	cooking	O	O	JJ	O
+6-7	oil	O	O	NN	P4_ingredients
+6-8	,	O	O	O	O
+6-9	and	O	O	O	O
+6-10	water	O	O	NN	P5_ingredients
+6-11	or	O	O	O	O
+6-12	milk	O	O	NN	P6_ingredients
+6-13	.	O	O	O	O
+
+#id=7
+#text=We also need a cake pan , a large mixing bowl , a measuring cup , and a mixing spoon . 
+7-1	We	7-3_nsubj	need	PRP	P3_cook
+7-2	also	7-3_advmod	need	RB	O
+7-3	need	O	O	VBP	O
+7-4	a	O	O	DT	O
+7-5	cake	O	O	NN	O
+7-6	pan	7-3_dobj	need	NN	P1_cake_tin
+7-7	,	O	O	O	O
+7-8	a	O	O	DT	O
+7-9	large	O	O	JJ	O
+7-10	mixing	O	O	JJ	O
+7-11	bowl	O	O	NN	P1_utensil
+7-12	,	O	O	O	O
+7-13	a	O	O	DT	O
+7-14	measuring	O	O	NN	O
+7-15	cup	O	O	NN	P2_utensil
+7-16	,	O	O	O	O
+7-17	and	O	O	O	O
+7-18	a	O	O	DT	O
+7-19	mixing	O	O	JJ	O
+7-20	spoon	O	O	NN	P3_utensil
+7-21	.	O	O	O	O
+
+#id=8
+#text=Also it helps to make sure we have pot holders and a spatula . 
+8-1	Also	8-3_advmod	helps	RB	O
+8-2	it	8-3_nsubj	helps	PRP	O
+8-3	helps	O	O	VBZ	O
+8-4	to	8-5_aux	make	TO	O
+8-5	make	8-3_xcomp	helps	VB	O
+8-6	sure	8-5_acomp	make	JJ	O
+8-7	we	8-8_nsubj	have	PRP	P3_cook
+8-8	have	O	O	VBP	O
+8-9	pot	O	O	NN	O
+8-10	holders	8-8_dobj	have	NNS	P4_utensil
+8-11	and	O	O	O	O
+8-12	a	O	O	DT	O
+8-13	spatula	O	O	NN	P5_utensil
+8-14	.	O	O	O	O
+
+#id=9
+#text=I pre-heat the oven to the temperature given in the directions . 
+9-1	I	9-2_nsubj	pre-heat	PRP	P1_cook
+9-2	pre-heat	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	oven	9-2_dobj	pre-heat	NN	P1_oven
+9-5	to	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	temperature	9-2_prep_to	pre-heat	NN	P1_temperature
+9-8	given	9-2_prep	pre-heat	VBN	O
+9-9	in	9-8_pcomp	given	IN	O
+9-10	the	O	O	DT	O
+9-11	directions	O	O	NNS	P1_baking_instructions
+9-12	.	O	O	O	O
+
+#id=10
+#text=Then I grease or oil the cake pan so the cake does not stick to the pan . 
+10-1	Then	10-14_advmod	stick	RB	O
+10-2	I	O	O	NN	P1_cook
+10-3	grease	10-14_nsubj	stick	NN	O
+10-4	or	O	O	O	O
+10-5	oil	O	O	NN	O
+10-6	the	O	O	DT	O
+10-7	cake	10-8_nsubj	pan	NN	O
+10-8	pan	O	O	VB	P1_cake_tin
+10-9	so	10-8_advmod	pan	RB	O
+10-10	the	O	O	DT	O
+10-11	cake	O	O	NN	P1_cake
+10-12	does	10-14_aux	stick	VBZ	O
+10-13	not	10-14_neg	stick	RB	O
+10-14	stick	O	O	VB	O
+10-15	to	O	O	O	O
+10-16	the	O	O	DT	O
+10-17	pan	10-14_prep_to	stick	NN	P1_cake_tin
+10-18	.	O	O	O	O
+
+#id=11
+#text=Usually the directions want me to add a little flour to the pan to coat the oil , but I like to use sugar instead because it does not leave the outside of the cake looking like flour . 
+11-1	Usually	11-4_advmod	want	RB	O
+11-2	the	O	O	DT	O
+11-3	directions	11-4_nsubj	want	NNS	P1_baking_instructions
+11-4	want	O	O	VBP	O
+11-5	me	11-4_dobj	want	PRP	P1_cook
+11-6	to	11-7_aux	add	TO	O
+11-7	add	11-4_xcomp	want	VB	O
+11-8	a	O	O	DT	O
+11-9	little	O	O	JJ	O
+11-10	flour	11-7_dobj	add	NN	P7_ingredients
+11-11	to	O	O	O	O
+11-12	the	O	O	DT	O
+11-13	pan	11-7_prep_to	add	NN	P1_cake_tin
+11-14	to	11-15_aux	coat	TO	O
+11-15	coat	O	O	VB	O
+11-16	the	O	O	DT	O
+11-17	oil	11-15_dobj	coat	NN	P4_ingredients
+11-18	,	O	O	O	O
+11-19	but	O	O	O	O
+11-20	I	11-21_nsubj	like	PRP	P1_cook
+11-21	like	11-4_conj_but	want	VBP	O
+11-22	to	11-23_aux	use	TO	O
+11-23	use	11-21_xcomp	like	VB	O
+11-24	sugar	11-23_dobj	use	NN	P8_ingredients
+11-25	instead	11-23_advmod	use	RB	O
+11-26	because	11-30_mark	leave	IN	O
+11-27	it	11-30_nsubj	leave	PRP	P8_ingredients
+11-28	does	11-30_aux	leave	VBZ	O
+11-29	not	11-30_neg	leave	RB	O
+11-30	leave	11-23_advcl	use	VB	O
+11-31	the	O	O	DT	O
+11-32	outside	11-30_dobj	leave	NN	P1_NPart_outside
+11-33	of	O	O	O	O
+11-34	the	O	O	DT	O
+11-35	cake	O	O	NN	P1_cake
+11-36	looking	O	O	VBG	O
+11-37	like	O	O	O	O
+11-38	flour	11-36_prep_like	looking	NN	P7_ingredients
+11-39	.	O	O	O	O
+
+#id=12
+#text=We start by carefully cracking the egg shell and pouring the egg into a small cup or bowl to make sure we do not have a bad egg . 
+12-1	We	12-2_nsubj	start	PRP	P3_cook
+12-2	start	O	O	VBP	O
+12-3	by	O	O	O	O
+12-4	carefully	12-5_advmod	cracking	RB	O
+12-5	cracking	12-2_prepc_by	start	VBG	O
+12-6	the	O	O	DT	O
+12-7	egg	O	O	NN	O
+12-8	shell	12-5_dobj	cracking	NN	P3_ingredients
+12-9	and	O	O	O	O
+12-10	pouring	12-5_conj_and	cracking	VBG	O
+12-11	the	O	O	DT	O
+12-12	egg	12-10_dobj	pouring	NN	P3_ingredients
+12-13	into	O	O	O	O
+12-14	a	O	O	DT	O
+12-15	small	O	O	JJ	O
+12-16	cup	12-10_prep_into	pouring	NN	P6_utensil
+12-17	or	O	O	O	O
+12-18	bowl	12-2_conj_or	start	VBP	P7_utensil
+12-19	to	12-20_aux	make	TO	O
+12-20	make	12-18_xcomp	bowl	VB	O
+12-21	sure	12-20_acomp	make	JJ	O
+12-22	we	12-25_nsubj	have	PRP	P3_cook
+12-23	do	12-25_aux	have	VBP	O
+12-24	not	12-25_neg	have	RB	O
+12-25	have	O	O	VB	O
+12-26	a	O	O	DT	O
+12-27	bad	O	O	JJ	O
+12-28	egg	12-25_dobj	have	NN	P3_ingredients
+12-29	.	O	O	O	O
+
+#id=13
+#text=Then we pour it into the mixing bowl . 
+13-1	Then	13-3_advmod	pour	RB	O
+13-2	we	13-3_nsubj	pour	PRP	P3_cook
+13-3	pour	O	O	VBP	O
+13-4	it	13-3_dobj	pour	PRP	P3_ingredients
+13-5	into	O	O	O	O
+13-6	the	O	O	DT	O
+13-7	mixing	O	O	JJ	O
+13-8	bowl	13-3_prep_into	pour	NN	P1_utensil
+13-9	.	O	O	O	O
+
+#id=14
+#text=If we need more than one egg , we do each one separately the same way . 
+14-1	If	14-3_mark	need	IN	O
+14-2	we	14-3_nsubj	need	PRP	P3_cook
+14-3	need	14-10_advcl	do	VBP	O
+14-4	more	O	O	JJR	O
+14-5	than	O	O	IN	O
+14-6	one	O	O	CD	O
+14-7	egg	14-3_dobj	need	NN	P3_ingredients
+14-8	,	O	O	O	O
+14-9	we	14-10_nsubj	do	PRP	P3_cook
+14-10	do	O	O	VBP	O
+14-11	each	O	O	DT	O
+14-12	one	14-10_iobj	do	NN	P3_ingredients
+14-13	separately	O	O	RB	O
+14-14	the	O	O	DT	O
+14-15	same	O	O	JJ	O
+14-16	way	14-10_dobj	do	NN	O
+14-17	.	O	O	O	O
+
+#id=15
+#text=Then we measure out the amount of oil needed and pour it into the mixing bowl , too . 
+15-1	Then	15-9_advmod	needed	RB	O
+15-2	we	O	O	VBP	P3_cook
+15-3	measure	15-9_nsubj	needed	NN	O
+15-4	out	O	O	O	O
+15-5	the	O	O	DT	O
+15-6	amount	O	O	NN	O
+15-7	of	O	O	O	O
+15-8	oil	O	O	NN	P4_ingredients
+15-9	needed	O	O	VBD	O
+15-10	and	O	O	O	O
+15-11	pour	15-9_conj_and	needed	VBP	O
+15-12	it	15-11_dobj	pour	PRP	P4_ingredients
+15-13	into	O	O	O	O
+15-14	the	O	O	DT	O
+15-15	mixing	O	O	JJ	O
+15-16	bowl	15-11_prep_into	pour	NN	P1_utensil
+15-17	,	O	O	O	O
+15-18	too	15-11_advmod	pour	RB	O
+15-19	.	O	O	O	O
+
+#id=16
+#text=Then my granddaughter mixes up the eggs and oil really well . 
+16-1	Then	16-4_advmod	mixes	RB	O
+16-2	my	O	O	PRP$	P1_cook
+16-3	granddaughter	16-4_nsubj	mixes	NN	P2_cook
+16-4	mixes	O	O	VBZ	O
+16-5	up	16-4_prt	mixes	RP	O
+16-6	the	O	O	DT	O
+16-7	eggs	16-4_dobj	mixes	NNS	P3_ingredients
+16-8	and	O	O	O	O
+16-9	oil	O	O	NN	P4_ingredients
+16-10	really	O	O	RB	O
+16-11	well	O	O	JJ	O
+16-12	.	O	O	O	O
+
+#id=17
+#text=Next , I measure out the amount of liquid -LRB- water or milk -RRB- called for in the directions . 
+17-1	Next	17-4_advmod	measure	RB	O
+17-2	,	O	O	O	O
+17-3	I	17-4_nsubj	measure	PRP	P1_cook
+17-4	measure	O	O	VB	O
+17-5	out	17-4_prt	measure	RP	O
+17-6	the	O	O	DT	O
+17-7	amount	17-4_dobj	measure	NN	O
+17-8	of	O	O	O	O
+17-9	liquid	O	O	NN	P9_ingredients
+17-10	-LRB-	O	O	O	O
+17-11	water	O	O	NN	P5_ingredients
+17-12	or	O	O	O	O
+17-13	milk	O	O	NN	P6_ingredients
+17-14	-RRB-	O	O	O	O
+17-15	called	O	O	VBN	O
+17-16	for	17-15_prep	called	IN	O
+17-17	in	O	O	IN	O
+17-18	the	O	O	DT	O
+17-19	directions	O	O	NNS	P1_baking_instructions
+17-20	.	O	O	O	O
+
+#id=18
+#text=She adds the liquid to the egg and oil mixture and stirs it all up really well . 
+18-1	She	18-2_nsubj	adds	PRP	P2_cook
+18-2	adds	O	O	VBZ	O
+18-3	the	O	O	DT	O
+18-4	liquid	18-2_dobj	adds	NN	P9_ingredients
+18-5	to	O	O	O	O
+18-6	the	O	O	DT	O
+18-7	egg	O	O	NN	O
+18-8	and	O	O	O	O
+18-9	oil	O	O	NN	O
+18-10	mixture	18-2_prep_to	adds	NN	P1_dough
+18-11	and	O	O	O	O
+18-12	stirs	18-2_conj_and	adds	VBZ	O
+18-13	it	18-12_dobj	stirs	PRP	P1_dough
+18-14	all	O	O	DT	O
+18-15	up	18-12_advmod	stirs	IN	O
+18-16	really	O	O	RB	O
+18-17	well	18-12_advmod	stirs	RB	O
+18-18	.	O	O	O	O
+
+#id=19
+#text=Then we add the cake mix , a little at a time , stirring well to mix . 
+19-1	Then	19-3_advmod	add	RB	O
+19-2	we	19-3_nsubj	add	PRP	P3_cook
+19-3	add	O	O	VBP	O
+19-4	the	O	O	DT	O
+19-5	cake	O	O	NN	O
+19-6	mix	19-14_nsubj	stirring	NN	P2_ingredients
+19-7	,	O	O	O	O
+19-8	a	O	O	DT	O
+19-9	little	O	O	JJ	O
+19-10	at	O	O	O	O
+19-11	a	O	O	DT	O
+19-12	time	O	O	NN	O
+19-13	,	O	O	O	O
+19-14	stirring	19-3_dep	add	VBG	O
+19-15	well	19-14_advmod	stirring	RB	O
+19-16	to	O	O	O	O
+19-17	mix	19-14_prep_to	stirring	NN	O
+19-18	.	O	O	O	O
+
+#id=20
+#text=Then I pour the cake batter into the baking pan and spread it evenly with a spatula . 
+20-1	Then	20-3_advmod	pour	RB	O
+20-2	I	20-3_nsubj	pour	PRP	P1_cook
+20-3	pour	O	O	VBP	O
+20-4	the	O	O	DT	O
+20-5	cake	20-6_nsubj	batter	NN	O
+20-6	batter	20-3_ccomp	pour	VB	P1_dough
+20-7	into	O	O	O	O
+20-8	the	O	O	DT	O
+20-9	baking	O	O	VBG	O
+20-10	pan	20-6_prep_into	batter	NN	P1_cake_tin
+20-11	and	O	O	O	O
+20-12	spread	20-6_conj_and	batter	VB	O
+20-13	it	20-12_dobj	spread	PRP	P1_dough
+20-14	evenly	20-12_advmod	spread	RB	O
+20-15	with	O	O	O	O
+20-16	a	O	O	DT	O
+20-17	spatula	O	O	NN	P8_utensil
+20-18	.	O	O	O	O
+
+#id=21
+#text=Next , I carefully put the cake pan into the oven and set a timer to check it to see if it is done . 
+21-1	Next	21-5_advmod	put	RB	O
+21-2	,	O	O	O	O
+21-3	I	21-5_nsubj	put	PRP	P1_cook
+21-4	carefully	21-5_advmod	put	RB	O
+21-5	put	O	O	VBD	O
+21-6	the	O	O	DT	O
+21-7	cake	21-8_nsubj	pan	NN	O
+21-8	pan	21-5_ccomp	put	VB	P1_cake_tin
+21-9	into	O	O	O	O
+21-10	the	O	O	DT	O
+21-11	oven	21-8_prep_into	pan	NN	P1_oven
+21-12	and	O	O	O	O
+21-13	set	21-8_conj_and	pan	VB	O
+21-14	a	O	O	DT	O
+21-15	timer	21-13_dobj	set	NN	P1_timer
+21-16	to	21-17_aux	check	TO	O
+21-17	check	O	O	VB	O
+21-18	it	21-17_dobj	check	PRP	P1_cake
+21-19	to	21-20_aux	see	TO	O
+21-20	see	21-17_xcomp	check	VB	O
+21-21	if	21-24_mark	done	IN	O
+21-22	it	21-24_nsubjpass	done	PRP	P1_cake
+21-23	is	21-24_auxpass	done	VBZ	O
+21-24	done	21-20_advcl	see	VBN	O
+21-25	.	O	O	O	O
+
+#id=22
+#text=We check to see if it is done by putting a clean toothpick into the center of the cake . 
+22-1	We	22-2_nsubj	check	PRP	P3_cook
+22-2	check	O	O	VBP	O
+22-3	to	22-4_aux	see	TO	O
+22-4	see	22-2_xcomp	check	VB	O
+22-5	if	22-8_mark	done	IN	O
+22-6	it	22-8_nsubjpass	done	PRP	P1_cake
+22-7	is	22-8_auxpass	done	VBZ	O
+22-8	done	22-4_advcl	see	VBN	O
+22-9	by	O	O	O	O
+22-10	putting	22-8_agent	done	VBG	O
+22-11	a	O	O	DT	O
+22-12	clean	O	O	JJ	O
+22-13	toothpick	22-10_dobj	putting	NN	P9_utensil
+22-14	into	O	O	O	O
+22-15	the	O	O	DT	O
+22-16	center	22-10_prep_into	putting	NN	P1_NPart_center
+22-17	of	O	O	O	O
+22-18	the	O	O	DT	O
+22-19	cake	O	O	NN	P1_cake
+22-20	.	O	O	O	O
+
+#id=23
+#text=If it comes out with little or none of the cake batter stuck to the toothpick , it is done and ready to take out of the oven , using pot holders . 
+23-1	If	23-3_mark	comes	IN	O
+23-2	it	23-3_nsubj	comes	PRP	P1_cake
+23-3	comes	23-19_advcl	is	VBZ	O
+23-4	out	23-3_prt	comes	RP	O
+23-5	with	23-3_prep	comes	IN	O
+23-6	little	O	O	RB	O
+23-7	or	O	O	O	O
+23-8	none	O	O	NN	O
+23-9	of	O	O	O	O
+23-10	the	O	O	DT	O
+23-11	cake	O	O	NN	O
+23-12	batter	O	O	NN	P1_dough
+23-13	stuck	O	O	VBN	O
+23-14	to	O	O	O	O
+23-15	the	O	O	DT	O
+23-16	toothpick	23-13_prep_to	stuck	NN	P9_utensil
+23-17	,	O	O	O	O
+23-18	it	23-19_nsubj	is	PRP	P1_cake
+23-19	is	O	O	VBZ	O
+23-20	done	23-19_dep	is	VBN	O
+23-21	and	O	O	O	O
+23-22	ready	23-20_conj_and	done	JJ	O
+23-23	to	23-24_aux	take	TO	O
+23-24	take	O	O	VB	O
+23-25	out	O	O	O	O
+23-26	of	O	O	O	O
+23-27	the	O	O	DT	O
+23-28	oven	23-24_prep_out_of	take	NN	P1_oven
+23-29	,	O	O	O	O
+23-30	using	23-19_xcomp	is	VBG	O
+23-31	pot	O	O	NN	O
+23-32	holders	23-30_dobj	using	NNS	P10_utensil
+23-33	.	O	O	O	O
+
+#id=24
+#text=If there is still gooey stuff on the toothpick , the cake needs to be baked a little longer and then tested again . 
+24-1	If	24-3_mark	is	IN	O
+24-2	there	24-3_expl	is	EX	O
+24-3	is	24-13_advcl	needs	VBZ	O
+24-4	still	24-3_advmod	is	RB	O
+24-5	gooey	O	O	JJ	O
+24-6	stuff	24-3_nsubj	is	NN	P1_dough
+24-7	on	O	O	O	O
+24-8	the	O	O	DT	O
+24-9	toothpick	O	O	NN	P9_utensil
+24-10	,	O	O	O	O
+24-11	the	O	O	DT	O
+24-12	cake	24-13_nsubj	needs	NN	P1_cake
+24-13	needs	O	O	VBZ	O
+24-14	to	24-16_aux	baked	TO	O
+24-15	be	24-16_auxpass	baked	VB	O
+24-16	baked	24-13_xcomp	needs	VBN	O
+24-17	a	O	O	DT	O
+24-18	little	O	O	RB	O
+24-19	longer	24-16_acomp	baked	JJR	O
+24-20	and	O	O	O	O
+24-21	then	24-22_advmod	tested	RB	O
+24-22	tested	24-16_conj_and	baked	VBN	O
+24-23	again	24-22_advmod	tested	RB	O
+24-24	.	O	O	O	O
+
+#id=25
+#text=We are eager to see how our cake turns out . 
+25-1	We	O	O	PRP	P3_cook
+25-2	are	O	O	VBP	O
+25-3	eager	O	O	JJ	O
+25-4	to	25-5_aux	see	TO	O
+25-5	see	O	O	VB	O
+25-6	how	25-9_advmod	turns	WRB	O
+25-7	our	O	O	PRP$	P3_cook
+25-8	cake	25-9_nsubj	turns	NN	P1_cake
+25-9	turns	25-5_ccomp	see	VBZ	O
+25-10	out	25-9_prt	turns	RP	O
+25-11	.	O	O	O	O
+
+#id=26
+#text=We play games while we wait for it to cool . 
+26-1	We	26-2_nsubj	play	PRP	P3_cook
+26-2	play	O	O	VBP	O
+26-3	games	26-2_dobj	play	NNS	P1_NPart_games
+26-4	while	26-6_mark	wait	IN	O
+26-5	we	26-6_nsubj	wait	PRP	P3_cook
+26-6	wait	26-2_advcl	play	VBP	O
+26-7	for	26-10_mark	cool	IN	O
+26-8	it	26-10_nsubj	cool	PRP	P1_cake
+26-9	to	26-10_aux	cool	TO	O
+26-10	cool	26-6_advcl	wait	VB	O
+26-11	.	O	O	O	O
+
+#id=27
+#text=Then we taste a little piece before we put frosting on the rest of the cake . 
+27-1	Then	27-3_advmod	taste	RB	O
+27-2	we	27-3_nsubj	taste	PRP	P3_cook
+27-3	taste	O	O	VBP	O
+27-4	a	O	O	DT	O
+27-5	little	O	O	JJ	O
+27-6	piece	27-3_dobj	taste	NN	P1_cake
+27-7	before	27-9_mark	put	IN	O
+27-8	we	27-9_nsubj	put	PRP	P3_cook
+27-9	put	27-3_advcl	taste	VBD	O
+27-10	frosting	27-9_xcomp	put	VBG	P1_decoration
+27-11	on	O	O	O	O
+27-12	the	O	O	DT	O
+27-13	rest	27-10_prep_on	frosting	NN	O
+27-14	of	O	O	O	O
+27-15	the	O	O	DT	O
+27-16	cake	O	O	NN	P1_cake
+27-17	.	O	O	O	O

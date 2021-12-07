@@ -1,0 +1,199 @@
+#id=1
+#text=I had spent the day planting a tree and needed to take a bath to clean myself and relax those tired muscles . 
+1-1	I	1-3_nsubj	spent	PRP	P1_bather
+1-2	had	1-3_aux	spent	VBD	O
+1-3	spent	O	O	VBN	O
+1-4	the	O	O	DT	O
+1-5	day	1-3_tmod	spent	NN	P1_NPart_day
+1-6	planting	1-3_xcomp	spent	VBG	O
+1-7	a	O	O	DT	O
+1-8	tree	1-6_dobj	planting	NN	P1_NPart_tree
+1-9	and	O	O	O	O
+1-10	needed	1-3_conj_and	spent	VBN	O
+1-11	to	1-12_aux	take	TO	O
+1-12	take	1-10_xcomp	needed	VB	O
+1-13	a	O	O	DT	O
+1-14	bath	1-12_dobj	take	NN	O
+1-15	to	1-16_aux	clean	TO	O
+1-16	clean	O	O	VB	O
+1-17	myself	1-16_dobj	clean	PRP	P1_bather
+1-18	and	O	O	O	O
+1-19	relax	1-16_conj_and	clean	VB	O
+1-20	those	O	O	DT	O
+1-21	tired	O	O	JJ	O
+1-22	muscles	1-19_dobj	relax	NNS	P1_body_part
+1-23	.	O	O	O	O
+
+#id=2
+#text=I went to the bathroom and turned on the faucet in the bathtub . 
+2-1	I	2-2_nsubj	went	PRP	P1_bather
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	bathroom	2-2_prep_to	went	NN	P1_bathroom
+2-6	and	O	O	O	O
+2-7	turned	2-2_conj_and	went	VBD	O
+2-8	on	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	faucet	2-7_prep_on	turned	NN	P1_tap
+2-11	in	O	O	O	O
+2-12	the	O	O	DT	O
+2-13	bathtub	2-7_prep_in	turned	NN	P1_bathtub
+2-14	.	O	O	O	O
+
+#id=3
+#text=Once the water reached the temperature that I wanted I plugged the drain to fill the bathtub . 
+3-1	Once	3-4_mark	reached	IN	O
+3-2	the	O	O	DT	O
+3-3	water	3-4_nsubj	reached	NN	P1_water
+3-4	reached	3-11_advcl	plugged	VBD	O
+3-5	the	O	O	DT	O
+3-6	temperature	3-4_dobj	reached	NN	P1_temperature
+3-7	that	3-9_mark	wanted	IN	O
+3-8	I	3-9_nsubj	wanted	PRP	P1_bather
+3-9	wanted	3-4_ccomp	reached	VBD	O
+3-10	I	3-11_nsubj	plugged	PRP	P1_bather
+3-11	plugged	O	O	VBD	O
+3-12	the	O	O	DT	O
+3-13	drain	3-11_dobj	plugged	NN	P1_drain
+3-14	to	3-15_aux	fill	TO	O
+3-15	fill	O	O	VB	O
+3-16	the	O	O	DT	O
+3-17	bathtub	3-15_dobj	fill	NN	P1_bathtub
+3-18	.	O	O	O	O
+
+#id=4
+#text=While the tub was filling up I undressed myself and put the dirty soiled clothing in the the hamper . 
+4-1	While	4-5_mark	filling	IN	O
+4-2	the	O	O	DT	O
+4-3	tub	4-5_nsubj	filling	NN	P1_bathtub
+4-4	was	4-5_aux	filling	VBD	O
+4-5	filling	4-8_advcl	undressed	VBG	O
+4-6	up	4-5_prt	filling	RP	O
+4-7	I	4-8_nsubj	undressed	PRP	P1_bather
+4-8	undressed	O	O	VBD	O
+4-9	myself	4-8_dobj	undressed	PRP	P1_bather
+4-10	and	O	O	O	O
+4-11	put	4-8_conj_and	undressed	VBD	O
+4-12	the	O	O	DT	O
+4-13	dirty	O	O	JJ	O
+4-14	soiled	O	O	JJ	O
+4-15	clothing	4-11_dobj	put	NN	P1_clothes
+4-16	in	O	O	O	O
+4-17	the	O	O	DT	O
+4-18	the	O	O	DT	O
+4-19	hamper	4-11_prep_in	put	NN	P1_hamper
+4-20	.	O	O	O	O
+
+#id=5
+#text=I turned the water off and got into the nice hot relaxing tub of water . 
+5-1	I	5-2_nsubj	turned	PRP	P1_bather
+5-2	turned	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	water	5-2_dobj	turned	NN	P1_water
+5-5	off	5-2_prt	turned	RP	O
+5-6	and	O	O	O	O
+5-7	got	5-2_conj_and	turned	VBD	O
+5-8	into	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	nice	O	O	JJ	O
+5-11	hot	O	O	JJ	O
+5-12	relaxing	O	O	JJ	O
+5-13	tub	5-7_prep_into	got	NN	P1_bathtub
+5-14	of	O	O	O	O
+5-15	water	O	O	NN	P1_water
+5-16	.	O	O	O	O
+
+#id=6
+#text=I added some bath soap into the tub and proceeded to scrub the dirt off my body with a washcloth . 
+6-1	I	6-2_nsubj	added	PRP	P1_bather
+6-2	added	O	O	VBD	O
+6-3	some	O	O	DT	O
+6-4	bath	O	O	NN	O
+6-5	soap	6-2_dobj	added	NN	P1_bath_means
+6-6	into	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	tub	6-2_prep_into	added	NN	P1_bathtub
+6-9	and	O	O	O	O
+6-10	proceeded	6-2_conj_and	added	VBD	O
+6-11	to	6-12_aux	scrub	TO	O
+6-12	scrub	6-10_xcomp	proceeded	VB	O
+6-13	the	O	O	DT	O
+6-14	dirt	6-12_dobj	scrub	NN	P1_other
+6-15	off	O	O	O	O
+6-16	my	O	O	PRP$	P1_bather
+6-17	body	6-12_prep_off	scrub	NN	P2_body_part
+6-18	with	O	O	O	O
+6-19	a	O	O	DT	O
+6-20	washcloth	O	O	NN	P1_washing_tools
+6-21	.	O	O	O	O
+
+#id=7
+#text=After washing myself and relaxing a bit I unclog the drain and watch the dirty soapy water spiral down the drain . 
+7-1	After	O	O	O	O
+7-2	washing	7-9_prepc_after	unclog	VBG	O
+7-3	myself	7-2_dobj	washing	PRP	P1_bather
+7-4	and	O	O	O	O
+7-5	relaxing	7-2_conj_and	washing	VBG	O
+7-6	a	O	O	DT	O
+7-7	bit	7-5_dobj	relaxing	NN	O
+7-8	I	7-9_nsubj	unclog	PRP	P1_bather
+7-9	unclog	O	O	VB	O
+7-10	the	O	O	DT	O
+7-11	drain	7-9_dobj	unclog	NN	P1_drain
+7-12	and	O	O	O	O
+7-13	watch	7-9_conj_and	unclog	VB	O
+7-14	the	O	O	DT	O
+7-15	dirty	O	O	JJ	O
+7-16	soapy	O	O	JJ	O
+7-17	water	O	O	NN	P1_water
+7-18	spiral	7-13_dobj	watch	NN	O
+7-19	down	7-13_advmod	watch	RB	O
+7-20	the	O	O	DT	O
+7-21	drain	O	O	NN	P1_drain
+7-22	.	O	O	O	O
+
+#id=8
+#text=I rinse body quickly in the shower to rinse the soap off . 
+8-1	I	8-2_nsubj	rinse	PRP	P1_bather
+8-2	rinse	O	O	VBP	O
+8-3	body	8-2_dobj	rinse	NN	P2_body_part
+8-4	quickly	8-2_advmod	rinse	RB	O
+8-5	in	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	shower	8-2_prep_in	rinse	NN	P1_shower
+8-8	to	8-9_aux	rinse	TO	O
+8-9	rinse	O	O	VB	O
+8-10	the	O	O	DT	O
+8-11	soap	8-9_dobj	rinse	NN	P2_washing_tools
+8-12	off	8-9_prt	rinse	RP	O
+8-13	.	O	O	O	O
+
+#id=9
+#text=I get out and grab a towel to dry myself . 
+9-1	I	9-2_nsubj	get	PRP	P1_bather
+9-2	get	O	O	VBP	O
+9-3	out	9-2_prt	get	RP	O
+9-4	and	O	O	O	O
+9-5	grab	9-2_conj_and	get	VBP	O
+9-6	a	O	O	DT	O
+9-7	towel	9-5_dobj	grab	NN	P1_towel
+9-8	to	9-9_aux	dry	TO	O
+9-9	dry	9-5_vmod	grab	VB	O
+9-10	myself	9-9_dobj	dry	PRP	P1_bather
+9-11	.	O	O	O	O
+
+#id=10
+#text=I put on a clean set of clothes and feel fresh . 
+10-1	I	10-2_nsubj	put	PRP	P1_bather
+10-2	put	O	O	VBD	O
+10-3	on	O	O	O	O
+10-4	a	O	O	DT	O
+10-5	clean	O	O	JJ	O
+10-6	set	10-2_prep_on	put	NN	O
+10-7	of	O	O	O	O
+10-8	clothes	O	O	NNS	P2_clothes
+10-9	and	O	O	O	O
+10-10	feel	10-2_conj_and	put	VBP	O
+10-11	fresh	10-10_acomp	feel	JJ	O
+10-12	.	O	O	O	O

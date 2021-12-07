@@ -1,0 +1,240 @@
+#id=1
+#text=My hair is getting to long for the warm weather that is arriving so I call the hair salon and make an appointment to have my haircut . 
+1-1	My	O	O	PRP$	P1_customer
+1-2	hair	1-4_nsubj	getting	NN	P1_hair
+1-3	is	1-4_aux	getting	VBZ	O
+1-4	getting	O	O	VBG	O
+1-5	to	O	O	TO	O
+1-6	long	1-4_xcomp	getting	RB	O
+1-7	for	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	warm	O	O	JJ	O
+1-10	weather	O	O	NN	P1_NPart_weather
+1-11	that	1-13_nsubj	arriving	WDT	O
+1-12	is	1-13_aux	arriving	VBZ	O
+1-13	arriving	O	O	VBG	O
+1-14	so	1-16_mark	call	IN	O
+1-15	I	1-16_nsubj	call	PRP	P1_customer
+1-16	call	1-13_advcl	arriving	VB	O
+1-17	the	O	O	DT	O
+1-18	hair	O	O	NN	O
+1-19	salon	1-16_dobj	call	NN	P1_salon
+1-20	and	O	O	O	O
+1-21	make	1-16_conj_and	call	VB	O
+1-22	an	O	O	DT	O
+1-23	appointment	1-21_dobj	make	NN	P1_appointment
+1-24	to	1-25_aux	have	TO	O
+1-25	have	O	O	VB	O
+1-26	my	O	O	PRP$	P1_customer
+1-27	haircut	1-25_dobj	have	NN	P1_haircut
+1-28	.	O	O	O	O
+
+#id=2
+#text=The next day I go to the salon for my appointment , as I enter I was greeted and ask to have a seat and that they would be ready for me in a few minutes . 
+2-1	The	O	O	DT	O
+2-2	next	O	O	JJ	O
+2-3	day	2-5_tmod	go	NN	P1_time/date
+2-4	I	2-5_nsubj	go	PRP	P1_customer
+2-5	go	O	O	VBP	O
+2-6	to	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	salon	2-5_prep_to	go	NN	P1_salon
+2-9	for	O	O	O	O
+2-10	my	O	O	PRP$	P1_customer
+2-11	appointment	O	O	NN	P2_appointment
+2-12	,	O	O	O	O
+2-13	as	2-15_mark	enter	IN	O
+2-14	I	2-15_nsubj	enter	PRP	P1_customer
+2-15	enter	2-5_advcl	go	VBP	O
+2-16	I	2-18_nsubjpass	greeted	PRP	P1_customer
+2-17	was	2-18_auxpass	greeted	VBD	O
+2-18	greeted	2-15_ccomp	enter	VBN	O
+2-19	and	O	O	O	O
+2-20	ask	2-18_conj_and	greeted	VBP	O
+2-21	to	2-22_aux	have	TO	O
+2-22	have	2-20_xcomp	ask	VB	O
+2-23	a	O	O	DT	O
+2-24	seat	2-22_dobj	have	NN	O
+2-25	and	O	O	O	O
+2-26	that	O	O	IN	O
+2-27	they	O	O	PRP	P1_staff
+2-28	would	O	O	MD	O
+2-29	be	O	O	VB	O
+2-30	ready	2-15_conj_and	enter	JJ	O
+2-31	for	O	O	O	O
+2-32	me	O	O	PRP	P1_customer
+2-33	in	O	O	O	O
+2-34	a	O	O	DT	O
+2-35	few	O	O	JJ	O
+2-36	minutes	O	O	NNS	P2_time/date
+2-37	.	O	O	O	O
+
+#id=3
+#text=My stylist comes over and asks me how I would like my haircut as we walk over to their station . 
+3-1	My	O	O	PRP$	P1_customer
+3-2	stylist	3-3_nsubj	comes	NN	P1_hairdresser
+3-3	comes	O	O	VBZ	O
+3-4	over	3-3_prt	comes	RP	O
+3-5	and	O	O	O	O
+3-6	asks	3-3_conj_and	comes	VBZ	O
+3-7	me	3-6_dobj	asks	PRP	P1_customer
+3-8	how	3-11_advmod	like	WRB	O
+3-9	I	3-11_nsubj	like	PRP	P1_customer
+3-10	would	3-11_aux	like	MD	O
+3-11	like	3-6_dep	asks	VB	O
+3-12	my	O	O	PRP$	P1_customer
+3-13	haircut	3-11_dobj	like	NN	P1_haircut
+3-14	as	3-16_mark	walk	IN	O
+3-15	we	3-16_nsubj	walk	PRP	P1_hairdresser_customer
+3-16	walk	3-11_advcl	like	VBP	O
+3-17	over	3-16_prt	walk	RP	O
+3-18	to	O	O	O	O
+3-19	their	O	O	PRP$	P1_hairdresser
+3-20	station	3-16_prep_to	walk	NN	P1_location_salon
+3-21	.	O	O	O	O
+
+#id=4
+#text=I consider getting new style and we look over a few books that have photographs inside . 
+4-1	I	4-2_nsubj	consider	PRP	P1_customer
+4-2	consider	O	O	VBP	O
+4-3	getting	4-2_xcomp	consider	VBG	O
+4-4	new	O	O	JJ	O
+4-5	style	4-3_dobj	getting	NN	P1_haircut
+4-6	and	O	O	O	O
+4-7	we	4-8_nsubj	look	PRP	P2_hairdresser_customer
+4-8	look	4-2_conj_and	consider	VBP	O
+4-9	over	O	O	O	O
+4-10	a	O	O	DT	O
+4-11	few	O	O	JJ	O
+4-12	books	4-8_prep_over	look	NNS	P1_other
+4-13	that	4-15_nsubj	photographs	WDT	O
+4-14	have	4-15_aux	photographs	VBP	O
+4-15	photographs	O	O	VBZ	P1_NPart_photographs
+4-16	inside	4-8_advmod	look	RB	O
+4-17	.	O	O	O	O
+
+#id=5
+#text=I decide just to keep my original style and the stylist takes me over to the wash station and washes and conditions my hair . 
+5-1	I	5-2_nsubj	decide	PRP	P1_customer
+5-2	decide	5-12_dep	takes	VBP	O
+5-3	just	5-2_advmod	decide	RB	O
+5-4	to	5-5_aux	keep	TO	O
+5-5	keep	5-2_xcomp	decide	VB	O
+5-6	my	O	O	PRP$	P1_customer
+5-7	original	O	O	JJ	O
+5-8	style	5-5_dobj	keep	NN	P1_haircut
+5-9	and	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	stylist	O	O	NN	P1_hairdresser
+5-12	takes	O	O	VBZ	O
+5-13	me	5-12_dobj	takes	PRP	P1_customer
+5-14	over	5-12_prt	takes	RP	O
+5-15	to	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	wash	O	O	NN	O
+5-18	station	5-12_prep_to	takes	NN	P1_wash_basin
+5-19	and	O	O	O	O
+5-20	washes	O	O	NNS	O
+5-21	and	O	O	O	O
+5-22	conditions	O	O	NNS	O
+5-23	my	O	O	PRP$	P1_customer
+5-24	hair	5-12_nsubj	takes	NN	P1_hair
+5-25	.	O	O	O	O
+
+#id=6
+#text=I go back to the chair where the stylist is stationed and she begins to cut my hair . 
+6-1	I	6-2_nsubj	go	PRP	P1_customer
+6-2	go	O	O	VBP	O
+6-3	back	6-2_advmod	go	RB	O
+6-4	to	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	chair	6-2_prep_to	go	NN	P1_chair
+6-7	where	6-11_advmod	stationed	WRB	O
+6-8	the	O	O	DT	O
+6-9	stylist	6-11_nsubjpass	stationed	NN	P1_hairdresser
+6-10	is	6-11_auxpass	stationed	VBZ	O
+6-11	stationed	6-2_advcl	go	VBN	O
+6-12	and	O	O	O	O
+6-13	she	6-14_nsubj	begins	PRP	P2_hairdresser
+6-14	begins	6-2_conj_and	go	VBZ	O
+6-15	to	6-16_aux	cut	TO	O
+6-16	cut	6-14_xcomp	begins	VB	O
+6-17	my	O	O	PRP$	P1_customer
+6-18	hair	6-16_dobj	cut	NN	P1_hair
+6-19	.	O	O	O	O
+
+#id=7
+#text=It takes about 20 minutes for her to cut my hair and style and blow-dry my hair , but when she finishes I am very pleased with the way my hair looks . 
+7-1	It	7-2_nsubj	takes	PRP	O
+7-2	takes	O	O	VBZ	O
+7-3	about	O	O	RB	O
+7-4	20	O	O	CD	O
+7-5	minutes	7-9_dep	cut	NNS	P3_time/date
+7-6	for	7-9_mark	cut	IN	O
+7-7	her	7-9_nsubj	cut	PRP	P1_hairdresser
+7-8	to	7-9_aux	cut	TO	O
+7-9	cut	7-2_advcl	takes	VB	O
+7-10	my	O	O	PRP$	P1_customer
+7-11	hair	7-9_dobj	cut	NN	P1_hair
+7-12	and	O	O	O	O
+7-13	style	O	O	NN	O
+7-14	and	O	O	O	O
+7-15	blow-dry	7-9_conj_and	cut	VB	O
+7-16	my	O	O	PRP$	P1_customer
+7-17	hair	7-15_dobj	blow-dry	NN	P1_hair
+7-18	,	O	O	O	O
+7-19	but	O	O	O	O
+7-20	when	7-22_advmod	finishes	WRB	O
+7-21	she	7-22_nsubj	finishes	PRP	P1_hairdresser
+7-22	finishes	7-32_advcl	looks	VBZ	O
+7-23	I	O	O	PRP	P1_customer
+7-24	am	O	O	VBP	O
+7-25	very	O	O	RB	O
+7-26	pleased	7-22_ccomp	finishes	JJ	O
+7-27	with	O	O	O	O
+7-28	the	O	O	DT	O
+7-29	way	O	O	NN	O
+7-30	my	O	O	PRP$	P1_customer
+7-31	hair	7-32_nsubj	looks	NN	P1_hair
+7-32	looks	7-2_conj_but	takes	VBZ	O
+7-33	.	O	O	O	O
+
+#id=8
+#text=I tip the woman and thank her , then go to the counter to pay for my haircut . 
+8-1	I	8-2_nsubj	tip	PRP	P1_customer
+8-2	tip	O	O	VBZ	O
+8-3	the	O	O	DT	O
+8-4	woman	8-2_dobj	tip	NN	P1_hairdresser
+8-5	and	O	O	O	O
+8-6	thank	8-2_conj_and	tip	VB	O
+8-7	her	8-6_dobj	thank	PRP	P1_hairdresser
+8-8	,	O	O	O	O
+8-9	then	8-10_advmod	go	RB	O
+8-10	go	8-2_dep	tip	VBP	O
+8-11	to	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	counter	8-10_prep_to	go	NN	P1_check_in_desk
+8-14	to	8-15_aux	pay	TO	O
+8-15	pay	8-10_xcomp	go	VB	O
+8-16	for	O	O	O	O
+8-17	my	O	O	PRP$	P1_customer
+8-18	haircut	8-15_prep_for	pay	NN	P1_haircut
+8-19	.	O	O	O	O
+
+#id=9
+#text=I thank them and leave the salon , feeling very happy and looking beautiful . 
+9-1	I	9-2_nsubj	thank	PRP	P1_customer
+9-2	thank	O	O	VBP	O
+9-3	them	9-2_dobj	thank	PRP	P1_hairdresser
+9-4	and	O	O	O	O
+9-5	leave	9-2_conj_and	thank	VBP	O
+9-6	the	O	O	DT	O
+9-7	salon	9-5_dobj	leave	NN	P1_salon
+9-8	,	O	O	O	O
+9-9	feeling	9-2_ccomp	thank	VBG	O
+9-10	very	O	O	RB	O
+9-11	happy	9-9_acomp	feeling	JJ	O
+9-12	and	O	O	O	O
+9-13	looking	9-9_conj_and	feeling	VBG	O
+9-14	beautiful	9-13_acomp	looking	JJ	O
+9-15	.	O	O	O	O

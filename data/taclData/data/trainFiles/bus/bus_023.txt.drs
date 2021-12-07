@@ -1,0 +1,252 @@
+#id=1
+#text=Riding a public bus is a good way to get around a city . 
+1-1	Riding	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	public	O	O	JJ	O
+1-4	bus	1-1_dobj	Riding	NN	P1_bus
+1-5	is	O	O	VBZ	O
+1-6	a	O	O	DT	O
+1-7	good	O	O	JJ	O
+1-8	way	O	O	NN	P1_NPart_way
+1-9	to	1-10_aux	get	TO	O
+1-10	get	O	O	VB	O
+1-11	around	1-10_prt	get	RP	O
+1-12	a	O	O	DT	O
+1-13	city	1-10_dobj	get	NN	P1_NPart_city
+1-14	.	O	O	O	O
+
+#id=2
+#text=If I am traveling in a big city , I think it 's easier to take the bus than depend on my car . 
+2-1	If	2-4_mark	traveling	IN	O
+2-2	I	2-4_nsubj	traveling	PRP	P1_passenger
+2-3	am	2-4_aux	traveling	VBP	O
+2-4	traveling	2-11_advcl	think	VBG	O
+2-5	in	O	O	O	O
+2-6	a	O	O	DT	O
+2-7	big	O	O	JJ	O
+2-8	city	2-4_prep_in	traveling	NN	P2_NPart_city
+2-9	,	O	O	O	O
+2-10	I	2-11_nsubj	think	PRP	P1_passenger
+2-11	think	O	O	VBP	O
+2-12	it	O	O	PRP	O
+2-13	's	O	O	VBZ	O
+2-14	easier	2-11_ccomp	think	JJR	O
+2-15	to	2-16_aux	take	TO	O
+2-16	take	O	O	VB	O
+2-17	the	O	O	DT	O
+2-18	bus	2-16_dobj	take	NN	P1_bus
+2-19	than	2-20_mark	depend	IN	O
+2-20	depend	O	O	VBP	O
+2-21	on	O	O	O	O
+2-22	my	O	O	PRP$	P2_passenger
+2-23	car	2-20_prep_on	depend	NN	P1_NPart_car
+2-24	.	O	O	O	O
+
+#id=3
+#text=In Chicago , I can get anywhere in the city more quickly and inexpensively using public transit . 
+3-1	In	O	O	O	O
+3-2	Chicago	3-6_prep_in	get	NNP	P1_NPart_chicago
+3-3	,	O	O	O	O
+3-4	I	3-6_nsubj	get	PRP	P1_passenger
+3-5	can	3-6_aux	get	MD	O
+3-6	get	O	O	VB	O
+3-7	anywhere	3-6_advmod	get	RB	P1_NPart_anywhere
+3-8	in	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	city	3-6_prep_in	get	NN	P3_NPart_city
+3-11	more	O	O	RBR	O
+3-12	quickly	3-15_advmod	using	RB	O
+3-13	and	O	O	O	O
+3-14	inexpensively	O	O	RB	O
+3-15	using	O	O	VBG	O
+3-16	public	O	O	JJ	O
+3-17	transit	3-15_dobj	using	NN	P1_bus
+3-18	.	O	O	O	O
+
+#id=4
+#text=First , I look online to find the stop nearest to where my hotel is . 
+4-1	First	4-4_advmod	look	RB	O
+4-2	,	O	O	O	O
+4-3	I	4-4_nsubj	look	PRP	P1_passenger
+4-4	look	O	O	VBP	O
+4-5	online	4-4_acomp	look	JJ	O
+4-6	to	4-7_aux	find	TO	O
+4-7	find	O	O	VB	O
+4-8	the	O	O	DT	O
+4-9	stop	4-7_dobj	find	NN	P1_bus_stop
+4-10	nearest	O	O	O	O
+4-11	to	O	O	TO	O
+4-12	where	4-15_advmod	is	WRB	O
+4-13	my	O	O	PRP$	P1_passenger
+4-14	hotel	4-15_nsubj	is	NN	P1_NPart_hotel
+4-15	is	O	O	VBZ	O
+4-16	.	O	O	O	O
+
+#id=5
+#text=Then I plan out the stops i want to make . 
+5-1	Then	5-3_advmod	plan	RB	O
+5-2	I	5-3_nsubj	plan	PRP	P1_passenger
+5-3	plan	O	O	VBP	O
+5-4	out	5-3_prt	plan	RP	O
+5-5	the	O	O	DT	O
+5-6	stops	5-3_dobj	plan	NNS	P1_NPart_stops
+5-7	i	5-8_nsubj	want	FW	P1_passenger
+5-8	want	O	O	VBP	O
+5-9	to	5-10_aux	make	TO	O
+5-10	make	5-8_xcomp	want	VB	O
+5-11	.	O	O	O	O
+
+#id=6
+#text=Maybe I am going to a museum or the zoo . 
+6-1	Maybe	6-4_advmod	going	RB	O
+6-2	I	6-4_nsubj	going	PRP	P1_passenger
+6-3	am	6-4_aux	going	VBP	O
+6-4	going	O	O	VBG	O
+6-5	to	O	O	O	O
+6-6	a	O	O	DT	O
+6-7	museum	6-4_prep_to	going	NN	P1_NPart_museum
+6-8	or	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	zoo	O	O	NN	P1_NPart_zoo
+6-11	.	O	O	O	O
+
+#id=7
+#text=I find the bus routes that go where I want to go . 
+7-1	I	7-2_nsubj	find	PRP	P1_passenger
+7-2	find	O	O	VBP	O
+7-3	the	O	O	DT	O
+7-4	bus	O	O	NN	O
+7-5	routes	7-2_dobj	find	NNS	P1_route
+7-6	that	7-7_nsubj	go	WDT	O
+7-7	go	O	O	VBP	O
+7-8	where	7-10_advmod	want	WRB	O
+7-9	I	7-10_nsubj	want	PRP	P1_passenger
+7-10	want	7-7_advcl	go	VBP	O
+7-11	to	7-12_aux	go	TO	O
+7-12	go	7-10_xcomp	want	VB	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=I go to the bus stop and wait for the bus to come along . 
+8-1	I	8-2_nsubj	go	PRP	P1_passenger
+8-2	go	O	O	VB	O
+8-3	to	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	bus	O	O	NN	O
+8-6	stop	8-2_prep_to	go	NN	P2_bus_stop
+8-7	and	O	O	O	O
+8-8	wait	8-2_conj_and	go	VB	O
+8-9	for	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	bus	8-8_prep_for	wait	NN	P1_bus
+8-12	to	8-13_aux	come	TO	O
+8-13	come	O	O	VB	O
+8-14	along	8-13_prt	come	RP	O
+8-15	.	O	O	O	O
+
+#id=9
+#text=Then I hop on and pay my fare . 
+9-1	Then	9-3_advmod	hop	RB	O
+9-2	I	9-3_nsubj	hop	PRP	P1_passenger
+9-3	hop	O	O	VBD	O
+9-4	on	9-3_prt	hop	RP	O
+9-5	and	O	O	O	O
+9-6	pay	9-3_conj_and	hop	VBP	O
+9-7	my	O	O	PRP$	P2_bus
+9-8	fare	9-6_dobj	pay	NN	P1_other
+9-9	.	O	O	O	O
+
+#id=10
+#text=I like to sit by the window and get a good glimpse of the city I am in . 
+10-1	I	10-2_nsubj	like	PRP	P1_passenger
+10-2	like	O	O	VBP	O
+10-3	to	10-4_aux	sit	TO	O
+10-4	sit	10-2_xcomp	like	VB	O
+10-5	by	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	window	10-4_prep_by	sit	NN	P2_other
+10-8	and	O	O	O	O
+10-9	get	10-4_conj_and	sit	VB	O
+10-10	a	O	O	DT	O
+10-11	good	O	O	JJ	O
+10-12	glimpse	10-9_dobj	get	NN	P1_NPart_glimpse
+10-13	of	O	O	O	O
+10-14	the	O	O	DT	O
+10-15	city	O	O	NN	P4_NPart_city
+10-16	I	10-17_nsubj	am	PRP	P1_passenger
+10-17	am	O	O	VBP	O
+10-18	in	10-17_prep	am	IN	O
+10-19	.	O	O	O	O
+
+#id=11
+#text=Sometimes I will even see something that catches my eye and I will get off before I planned ! 
+11-1	Sometimes	11-5_advmod	see	RB	O
+11-2	I	11-5_nsubj	see	PRP	P1_passenger
+11-3	will	11-5_aux	see	MD	O
+11-4	even	11-5_advmod	see	RB	O
+11-5	see	O	O	VB	O
+11-6	something	11-5_dobj	see	NN	P1_NPart_something
+11-7	that	11-8_nsubj	catches	WDT	O
+11-8	catches	O	O	VBZ	O
+11-9	my	O	O	PRP$	P1_passenger
+11-10	eye	11-8_dobj	catches	NN	P1_NPart_eye
+11-11	and	O	O	O	O
+11-12	I	11-14_nsubj	get	PRP	P1_passenger
+11-13	will	11-14_aux	get	MD	O
+11-14	get	11-5_conj_and	see	VB	O
+11-15	off	11-14_prt	get	RP	O
+11-16	before	11-18_mark	planned	IN	O
+11-17	I	11-18_nsubj	planned	PRP	P1_passenger
+11-18	planned	11-14_advcl	get	VBD	O
+11-19	!	O	O	O	O
+
+#id=12
+#text=When it 's time for me to depart , I pull the cord and let the driver know I want to get off . 
+12-1	When	O	O	WRB	O
+12-2	it	O	O	PRP	O
+12-3	's	O	O	VBZ	O
+12-4	time	12-11_advcl	pull	NN	O
+12-5	for	O	O	O	O
+12-6	me	O	O	PRP	P1_passenger
+12-7	to	12-8_aux	depart	TO	O
+12-8	depart	O	O	VB	O
+12-9	,	O	O	O	O
+12-10	I	12-11_nsubj	pull	PRP	P1_passenger
+12-11	pull	O	O	VBP	O
+12-12	the	O	O	DT	O
+12-13	cord	12-11_dobj	pull	NN	P1_stop_button/door_opener
+12-14	and	O	O	O	O
+12-15	let	12-11_conj_and	pull	VBD	O
+12-16	the	O	O	DT	O
+12-17	driver	12-18_nsubj	know	NN	P1_bus_staff
+12-18	know	12-15_ccomp	let	VBP	O
+12-19	I	12-20_nsubj	want	PRP	P1_passenger
+12-20	want	12-18_ccomp	know	VBP	O
+12-21	to	12-22_aux	get	TO	O
+12-22	get	12-20_xcomp	want	VB	O
+12-23	off	12-22_prt	get	RP	O
+12-24	.	O	O	O	O
+
+#id=13
+#text=Then I get off at the next opportunity and continue on with my day without needing to deal with parking ! 
+13-1	Then	13-3_advmod	get	RB	O
+13-2	I	13-3_nsubj	get	PRP	P1_passenger
+13-3	get	O	O	VBP	O
+13-4	off	13-3_prt	get	RP	O
+13-5	at	O	O	O	O
+13-6	the	O	O	DT	O
+13-7	next	O	O	JJ	O
+13-8	opportunity	13-3_prep_at	get	NN	P1_NPart_opportunity
+13-9	and	O	O	O	O
+13-10	continue	13-3_conj_and	get	VBP	O
+13-11	on	13-10_prep	continue	IN	O
+13-12	with	O	O	IN	O
+13-13	my	O	O	PRP$	P1_passenger
+13-14	day	O	O	NN	P1_NPart_day
+13-15	without	O	O	O	O
+13-16	needing	13-10_prepc_without	continue	VBG	O
+13-17	to	13-18_aux	deal	TO	O
+13-18	deal	13-16_xcomp	needing	VB	O
+13-19	with	O	O	O	O
+13-20	parking	13-18_prep_with	deal	NN	O
+13-21	!	O	O	O	O

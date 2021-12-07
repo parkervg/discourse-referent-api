@@ -1,0 +1,238 @@
+#id=1
+#text=I recently started biking to lose weight and for health . 
+1-1	I	1-3_nsubj	started	PRP	P1_rider
+1-2	recently	1-3_advmod	started	RB	O
+1-3	started	O	O	VBD	O
+1-4	biking	1-3_dobj	started	NN	O
+1-5	to	1-6_aux	lose	TO	O
+1-6	lose	1-3_dep	started	VB	O
+1-7	weight	1-6_dobj	lose	NN	P1_NPart_weight
+1-8	and	O	O	O	O
+1-9	for	1-6_conj_and	lose	IN	O
+1-10	health	O	O	NN	P1_NPart_health
+1-11	.	O	O	O	O
+
+#id=2
+#text=After a month of biking everyday , my bike hit a nail in the road which I think is pretty dangerous . 
+2-1	After	O	O	O	O
+2-2	a	O	O	DT	O
+2-3	month	2-10_prep_after	hit	NN	P1_NPart_month
+2-4	of	O	O	O	O
+2-5	biking	O	O	NN	O
+2-6	everyday	2-10_nsubj	hit	NN	O
+2-7	,	O	O	O	O
+2-8	my	O	O	PRP$	P1_rider
+2-9	bike	2-10_nsubj	hit	NN	P1_bicycle
+2-10	hit	O	O	VBD	O
+2-11	a	O	O	DT	O
+2-12	nail	O	O	NN	P1_object_damage
+2-13	in	O	O	O	O
+2-14	the	O	O	DT	O
+2-15	road	O	O	NN	P1_NPart_road
+2-16	which	2-18_dobj	think	WDT	O
+2-17	I	2-18_nsubj	think	PRP	P1_rider
+2-18	think	O	O	VBP	O
+2-19	is	O	O	VBZ	O
+2-20	pretty	O	O	RB	O
+2-21	dangerous	2-10_ccomp	hit	JJ	O
+2-22	.	O	O	O	O
+
+#id=3
+#text=What if a kid was playing ? 
+3-1	What	3-6_dep	playing	WDT	O
+3-2	if	3-6_mark	playing	IN	O
+3-3	a	O	O	DT	O
+3-4	kid	3-6_nsubj	playing	NN	P1_NPart_kid
+3-5	was	3-6_aux	playing	VBD	O
+3-6	playing	O	O	VBG	O
+3-7	?	O	O	O	O
+
+#id=4
+#text=I was pretty devastated . 
+4-1	I	O	O	PRP	P1_rider
+4-2	was	O	O	VBD	O
+4-3	pretty	O	O	RB	O
+4-4	devastated	O	O	JJ	O
+4-5	.	O	O	O	O
+
+#id=5
+#text=Because of the expenses with school , I would not be able to afford a new tire . 
+5-1	Because	O	O	O	O
+5-2	of	O	O	IN	O
+5-3	the	O	O	DT	O
+5-4	expenses	O	O	NNS	P1_NPart_expenses
+5-5	with	O	O	O	O
+5-6	school	O	O	NN	P1_NPart_school
+5-7	,	O	O	O	O
+5-8	I	O	O	PRP	P1_rider
+5-9	would	O	O	MD	O
+5-10	not	O	O	RB	O
+5-11	be	O	O	VB	O
+5-12	able	O	O	JJ	O
+5-13	to	5-14_aux	afford	TO	O
+5-14	afford	O	O	VB	O
+5-15	a	O	O	DT	O
+5-16	new	O	O	JJ	O
+5-17	tire	5-14_dobj	afford	NN	P1_spare_tube
+5-18	.	O	O	O	O
+
+#id=6
+#text=So I thought to myself , maybe I can fix it . 
+6-1	So	6-3_dep	thought	IN	O
+6-2	I	6-3_nsubj	thought	PRP	P1_rider
+6-3	thought	6-10_dep	fix	VBD	O
+6-4	to	O	O	O	O
+6-5	myself	6-3_prep_to	thought	PRP	P1_rider
+6-6	,	O	O	O	O
+6-7	maybe	6-3_advmod	thought	RB	O
+6-8	I	6-10_nsubj	fix	PRP	P1_rider
+6-9	can	6-10_aux	fix	MD	O
+6-10	fix	O	O	VB	O
+6-11	it	6-10_dobj	fix	PRP	P1_tire
+6-12	.	O	O	O	O
+
+#id=7
+#text=I resolved to fix it this Sunday , because I figured Friday and Saturday would be too busy . 
+7-1	I	7-2_nsubj	resolved	PRP	P1_rider
+7-2	resolved	O	O	VBD	O
+7-3	to	7-4_aux	fix	TO	O
+7-4	fix	7-2_xcomp	resolved	VB	O
+7-5	it	7-4_dobj	fix	PRP	P1_tire
+7-6	this	O	O	DT	O
+7-7	Sunday	7-4_tmod	fix	NNP	P1_NPart_sunday
+7-8	,	O	O	O	O
+7-9	because	7-11_mark	figured	IN	O
+7-10	I	7-11_nsubj	figured	PRP	P1_rider
+7-11	figured	7-4_advcl	fix	VBD	O
+7-12	Friday	O	O	NNP	P1_NPart_friday
+7-13	and	O	O	O	O
+7-14	Saturday	O	O	NNP	P1_NPart_saturday
+7-15	would	O	O	MD	O
+7-16	be	O	O	VB	O
+7-17	too	O	O	RB	O
+7-18	busy	7-11_ccomp	figured	JJ	O
+7-19	.	O	O	O	O
+
+#id=8
+#text=I 've never repaired a bike tire before . 
+8-1	I	8-4_nsubj	repaired	PRP	P1_rider
+8-2	've	8-4_aux	repaired	VBP	O
+8-3	never	8-4_neg	repaired	RB	O
+8-4	repaired	O	O	VBN	O
+8-5	a	O	O	DT	O
+8-6	bike	O	O	NN	O
+8-7	tire	8-4_dobj	repaired	NN	P1_tire
+8-8	before	8-4_advmod	repaired	RB	O
+8-9	.	O	O	O	O
+
+#id=9
+#text=So I searched google for some tutorials . 
+9-1	So	9-3_dep	searched	IN	O
+9-2	I	9-3_nsubj	searched	PRP	P1_rider
+9-3	searched	O	O	VBD	O
+9-4	google	9-3_dobj	searched	NN	P1_NPart_google
+9-5	for	O	O	O	O
+9-6	some	O	O	DT	O
+9-7	tutorials	9-3_prep_for	searched	NNS	P1_NPart_tutorials
+9-8	.	O	O	O	O
+
+#id=10
+#text=Turns out , I can just use a sticky material to cover the part that 's broken . 
+10-1	Turns	10-7_ccomp	use	VBZ	O
+10-2	out	10-1_prt	Turns	RP	O
+10-3	,	O	O	O	O
+10-4	I	10-7_nsubj	use	PRP	P1_rider
+10-5	can	10-7_aux	use	MD	O
+10-6	just	10-7_advmod	use	RB	O
+10-7	use	O	O	VB	O
+10-8	a	O	O	DT	O
+10-9	sticky	O	O	JJ	O
+10-10	material	10-7_dobj	use	NN	P1_patch
+10-11	to	10-12_aux	cover	TO	O
+10-12	cover	10-7_vmod	use	VB	O
+10-13	the	O	O	DT	O
+10-14	part	10-12_dobj	cover	NN	P1_damage
+10-15	that	10-17_nsubjpass	broken	WDT	P1_damage
+10-16	's	10-17_auxpass	broken	VBZ	O
+10-17	broken	O	O	VBN	O
+10-18	.	O	O	O	O
+
+#id=11
+#text=I looked at various online store . 
+11-1	I	11-2_nsubj	looked	PRP	P1_rider
+11-2	looked	O	O	VBD	O
+11-3	at	O	O	O	O
+11-4	various	O	O	JJ	O
+11-5	online	O	O	JJ	O
+11-6	store	11-2_prep_at	looked	NN	P1_shop
+11-7	.	O	O	O	O
+
+#id=12
+#text=No one seemed to have it . 
+12-1	No	O	O	DT	O
+12-2	one	12-3_nsubj	seemed	NN	P1_shop
+12-3	seemed	O	O	VBD	O
+12-4	to	12-5_aux	have	TO	O
+12-5	have	12-3_xcomp	seemed	VB	O
+12-6	it	12-5_dobj	have	PRP	P1_patch
+12-7	.	O	O	O	O
+
+#id=13
+#text=Just my luck . 
+13-1	Just	O	O	RB	O
+13-2	my	O	O	PRP$	P1_rider
+13-3	luck	O	O	NN	O
+13-4	.	O	O	O	O
+
+#id=14
+#text=Then it occurred to me that maybe an automotive store would have it , and they did ! 
+14-1	Then	14-3_advmod	occurred	RB	O
+14-2	it	14-3_nsubj	occurred	PRP	O
+14-3	occurred	O	O	VBD	O
+14-4	to	O	O	O	O
+14-5	me	14-3_prep_to	occurred	PRP	P1_rider
+14-6	that	14-12_mark	have	IN	O
+14-7	maybe	O	O	RB	O
+14-8	an	O	O	DT	O
+14-9	automotive	O	O	JJ	O
+14-10	store	14-12_nsubj	have	NN	P1_shop
+14-11	would	14-12_aux	have	MD	O
+14-12	have	14-3_ccomp	occurred	VB	O
+14-13	it	14-12_dobj	have	PRP	P1_patch
+14-14	,	O	O	O	O
+14-15	and	O	O	O	O
+14-16	they	14-17_nsubj	did	PRP	P1_shop
+14-17	did	14-3_conj_and	occurred	VBD	O
+14-18	!	O	O	O	O
+
+#id=15
+#text=It was only $ 5 . 
+15-1	It	O	O	PRP	P1_patch
+15-2	was	O	O	VBD	O
+15-3	only	O	O	RB	O
+15-4	$	O	O	$	O
+15-5	5	O	O	CD	O
+15-6	.	O	O	O	O
+
+#id=16
+#text=Stuck it in and inflated my tire . 
+16-1	Stuck	O	O	VB	O
+16-2	it	16-1_dobj	Stuck	PRP	P1_patch
+16-3	in	16-1_prep	Stuck	IN	O
+16-4	and	O	O	O	O
+16-5	inflated	16-1_conj_and	Stuck	VBD	O
+16-6	my	O	O	PRP$	P1_rider
+16-7	tire	16-5_dobj	inflated	NN	P1_tire
+16-8	.	O	O	O	O
+
+#id=17
+#text=It 's been working for months ever since ! 
+17-1	It	17-4_nsubjpass	working	PRP	O
+17-2	's	17-4_auxpass	working	VBZ	O
+17-3	been	17-4_aux	working	VBN	O
+17-4	working	O	O	VBG	O
+17-5	for	O	O	O	O
+17-6	months	17-4_prep_for	working	NNS	P1_NPart_months
+17-7	ever	O	O	RB	O
+17-8	since	17-4_advmod	working	IN	O
+17-9	!	O	O	O	O

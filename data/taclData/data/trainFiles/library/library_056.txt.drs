@@ -1,0 +1,248 @@
+#id=1
+#text=There is a book I wanted to read . 
+1-1	There	1-2_expl	is	EX	O
+1-2	is	O	O	VBZ	O
+1-3	a	O	O	DT	O
+1-4	book	1-2_nsubj	is	NN	P1_book
+1-5	I	1-6_nsubj	wanted	PRP	P1_customer
+1-6	wanted	O	O	VBD	O
+1-7	to	1-8_aux	read	TO	O
+1-8	read	1-6_xcomp	wanted	VB	O
+1-9	.	O	O	O	O
+
+#id=2
+#text=However , I was n't sure if it was a book I actually wanted to buy . 
+2-1	However	O	O	RB	O
+2-2	,	O	O	O	O
+2-3	I	O	O	PRP	P1_customer
+2-4	was	O	O	VBD	O
+2-5	n't	O	O	RB	O
+2-6	sure	O	O	JJ	O
+2-7	if	O	O	IN	O
+2-8	it	O	O	PRP	O
+2-9	was	O	O	VBD	O
+2-10	a	O	O	DT	O
+2-11	book	O	O	NN	P1_book
+2-12	I	2-14_nsubj	wanted	PRP	P1_customer
+2-13	actually	2-14_advmod	wanted	RB	O
+2-14	wanted	O	O	VBD	O
+2-15	to	2-16_aux	buy	TO	O
+2-16	buy	2-14_xcomp	wanted	VB	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=Instead , I decided to go to the public library to see if I could borrow it . 
+3-1	Instead	3-4_advmod	decided	RB	O
+3-2	,	O	O	O	O
+3-3	I	3-4_nsubj	decided	PRP	P1_customer
+3-4	decided	O	O	VBD	O
+3-5	to	3-6_aux	go	TO	O
+3-6	go	3-4_xcomp	decided	VB	O
+3-7	to	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	public	O	O	JJ	O
+3-10	library	3-6_prep_to	go	NN	P1_library
+3-11	to	3-12_aux	see	TO	O
+3-12	see	3-6_xcomp	go	VB	O
+3-13	if	3-16_mark	borrow	IN	O
+3-14	I	3-16_nsubj	borrow	PRP	P1_customer
+3-15	could	3-16_aux	borrow	MD	O
+3-16	borrow	3-12_advcl	see	VB	O
+3-17	it	3-16_dobj	borrow	PRP	P1_book
+3-18	.	O	O	O	O
+
+#id=4
+#text=Once I got to the library , I decided to use the card catalog to see if the particular book I wanted was carried by the library . 
+4-1	Once	4-3_mark	got	IN	O
+4-2	I	4-3_nsubj	got	PRP	P1_customer
+4-3	got	4-9_advcl	decided	VBD	O
+4-4	to	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	library	4-3_prep_to	got	NN	P1_library
+4-7	,	O	O	O	O
+4-8	I	4-9_nsubj	decided	PRP	P1_customer
+4-9	decided	O	O	VBD	O
+4-10	to	4-11_aux	use	TO	O
+4-11	use	4-9_xcomp	decided	VB	O
+4-12	the	O	O	DT	O
+4-13	card	O	O	NN	O
+4-14	catalog	4-11_dobj	use	NN	P1_catalog
+4-15	to	4-16_aux	see	TO	O
+4-16	see	4-11_vmod	use	VB	O
+4-17	if	4-24_mark	carried	IN	O
+4-18	the	O	O	DT	O
+4-19	particular	O	O	JJ	O
+4-20	book	4-24_nsubjpass	carried	NN	P1_book
+4-21	I	4-22_nsubj	wanted	PRP	P1_customer
+4-22	wanted	O	O	VBD	O
+4-23	was	4-24_auxpass	carried	VBD	O
+4-24	carried	4-16_advcl	see	VBN	O
+4-25	by	O	O	O	O
+4-26	the	O	O	DT	O
+4-27	library	4-24_agent	carried	NN	P1_library
+4-28	.	O	O	O	O
+
+#id=5
+#text=Luckily , it was . 
+5-1	Luckily	5-4_advmod	was	RB	O
+5-2	,	O	O	O	O
+5-3	it	5-4_nsubj	was	PRP	P1_book
+5-4	was	O	O	VBD	O
+5-5	.	O	O	O	O
+
+#id=6
+#text=I used the paper and pen provided to write down the aisle and shelf number where the book would be located . 
+6-1	I	6-2_nsubj	used	PRP	P1_customer
+6-2	used	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	paper	6-2_dobj	used	NN	P1_NPart_paper
+6-5	and	O	O	O	O
+6-6	pen	O	O	NN	P1_NPart_pen
+6-7	provided	O	O	VBN	O
+6-8	to	6-9_aux	write	TO	O
+6-9	write	6-7_xcomp	provided	VB	O
+6-10	down	6-9_prt	write	RP	O
+6-11	the	O	O	DT	O
+6-12	aisle	O	O	NN	P1_location_library
+6-13	and	O	O	O	O
+6-14	shelf	O	O	NN	O
+6-15	number	6-9_dobj	write	NN	P1_section_id
+6-16	where	6-21_advmod	located	WRB	O
+6-17	the	O	O	DT	O
+6-18	book	6-21_nsubjpass	located	NN	P1_book
+6-19	would	6-21_aux	located	MD	O
+6-20	be	6-21_auxpass	located	VB	O
+6-21	located	O	O	VBN	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=Walking down the aisles of shelves , I found the one where my book should have been . 
+7-1	Walking	7-9_vmod	found	VBG	O
+7-2	down	7-1_prt	Walking	RP	O
+7-3	the	O	O	DT	O
+7-4	aisles	7-1_dobj	Walking	NNS	P1_location_library
+7-5	of	O	O	O	O
+7-6	shelves	O	O	NNS	P1_shelf
+7-7	,	O	O	O	O
+7-8	I	7-9_nsubj	found	PRP	P1_customer
+7-9	found	O	O	VBD	O
+7-10	the	O	O	DT	O
+7-11	one	7-9_dobj	found	NN	P1_shelf
+7-12	where	7-17_advmod	been	WRB	O
+7-13	my	O	O	PRP$	P1_customer
+7-14	book	7-17_nsubj	been	NN	P1_book
+7-15	should	7-17_aux	been	MD	O
+7-16	have	7-17_aux	been	VB	O
+7-17	been	7-9_advcl	found	VBN	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=However , it was n't there . 
+8-1	However	8-4_advmod	was	RB	O
+8-2	,	O	O	O	O
+8-3	it	8-4_nsubj	was	PRP	P1_book
+8-4	was	O	O	VBD	O
+8-5	n't	8-4_neg	was	RB	O
+8-6	there	8-4_advmod	was	RB	O
+8-7	.	O	O	O	O
+
+#id=9
+#text=I then went to the front desk and asked the librarian if the book was out . 
+9-1	I	9-3_nsubj	went	PRP	P1_customer
+9-2	then	9-3_advmod	went	RB	O
+9-3	went	O	O	VBD	O
+9-4	to	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	front	O	O	JJ	O
+9-7	desk	9-3_prep_to	went	NN	P1_check-out_desk
+9-8	and	O	O	O	O
+9-9	asked	9-3_conj_and	went	VBD	O
+9-10	the	O	O	DT	O
+9-11	librarian	9-9_dobj	asked	NN	P1_staff
+9-12	if	9-15_mark	was	IN	O
+9-13	the	O	O	DT	O
+9-14	book	9-15_nsubj	was	NN	P1_book
+9-15	was	9-9_advcl	asked	VBD	O
+9-16	out	9-15_advmod	was	RB	O
+9-17	.	O	O	O	O
+
+#id=10
+#text=She told me it had just come back in , and if I could wait a bit for it to be processed , I could then borrow it . 
+10-1	She	10-2_nsubj	told	PRP	P1_staff
+10-2	told	O	O	VBD	O
+10-3	me	10-2_dobj	told	PRP	P1_customer
+10-4	it	10-7_nsubj	come	PRP	P1_book
+10-5	had	10-7_aux	come	VBD	O
+10-6	just	10-7_advmod	come	RB	O
+10-7	come	10-2_dep	told	VBN	O
+10-8	back	10-7_prt	come	RP	O
+10-9	in	10-7_prep	come	IN	O
+10-10	,	O	O	O	O
+10-11	and	O	O	O	O
+10-12	if	10-15_mark	wait	IN	O
+10-13	I	10-15_nsubj	wait	PRP	P1_customer
+10-14	could	10-15_aux	wait	MD	O
+10-15	wait	10-27_advcl	borrow	VB	O
+10-16	a	O	O	DT	O
+10-17	bit	10-15_dobj	wait	NN	O
+10-18	for	O	O	O	O
+10-19	it	O	O	PRP	P1_book
+10-20	to	10-22_aux	processed	TO	O
+10-21	be	10-22_auxpass	processed	VB	O
+10-22	processed	10-15_vmod	wait	VBN	O
+10-23	,	O	O	O	O
+10-24	I	10-27_nsubj	borrow	PRP	P1_customer
+10-25	could	10-27_aux	borrow	MD	O
+10-26	then	10-27_advmod	borrow	RB	O
+10-27	borrow	10-2_conj_and	told	VB	O
+10-28	it	10-27_dobj	borrow	PRP	P1_book
+10-29	.	O	O	O	O
+
+#id=11
+#text=Once she checked it in , she let me have it and I then checked it out . 
+11-1	Once	11-3_mark	checked	IN	O
+11-2	she	11-3_nsubj	checked	PRP	P1_staff
+11-3	checked	11-8_advcl	let	VBD	O
+11-4	it	11-3_dobj	checked	PRP	P1_book
+11-5	in	11-3_prep	checked	IN	O
+11-6	,	O	O	O	O
+11-7	she	11-8_nsubj	let	PRP	P1_staff
+11-8	let	O	O	VBD	O
+11-9	me	11-10_nsubj	have	PRP	P1_customer
+11-10	have	11-8_dep	let	VBP	O
+11-11	it	11-10_dobj	have	PRP	P1_book
+11-12	and	O	O	O	O
+11-13	I	11-15_nsubj	checked	PRP	P1_customer
+11-14	then	11-15_advmod	checked	RB	O
+11-15	checked	11-10_conj_and	have	VBD	O
+11-16	it	11-15_dobj	checked	PRP	P1_book
+11-17	out	11-15_prt	checked	RP	O
+11-18	.	O	O	O	O
+
+#id=12
+#text=I had to show her my library card , and she told me my due date to return the book was in two weeks . 
+12-1	I	12-2_nsubj	had	PRP	P1_customer
+12-2	had	O	O	VBD	O
+12-3	to	12-4_aux	show	TO	O
+12-4	show	12-2_xcomp	had	VB	O
+12-5	her	O	O	PRP$	P1_staff
+12-6	my	O	O	JJ	P1_customer
+12-7	library	O	O	NN	O
+12-8	card	12-4_dobj	show	NN	P1_library_card
+12-9	,	O	O	O	O
+12-10	and	O	O	O	O
+12-11	she	12-12_nsubj	told	PRP	P1_staff
+12-12	told	12-2_conj_and	had	VBD	O
+12-13	me	12-12_dobj	told	PRP	P1_customer
+12-14	my	O	O	PRP$	P1_customer
+12-15	due	O	O	JJ	O
+12-16	date	12-21_nsubj	was	NN	P1_return_date
+12-17	to	12-18_aux	return	TO	O
+12-18	return	O	O	VB	O
+12-19	the	O	O	DT	O
+12-20	book	12-18_dobj	return	NN	P1_book
+12-21	was	12-12_dep	told	VBD	O
+12-22	in	O	O	O	O
+12-23	two	O	O	CD	O
+12-24	weeks	12-21_prep_in	was	NNS	P1_return_date
+12-25	.	O	O	O	O

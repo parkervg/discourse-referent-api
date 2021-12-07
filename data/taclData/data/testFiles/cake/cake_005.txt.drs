@@ -1,0 +1,230 @@
+#id=1
+#text=Every year , my sister makes the same request for a birthday cake made the same way . 
+1-1	Every	O	O	DT	O
+1-2	year	1-6_tmod	makes	NN	P1_NPart_year
+1-3	,	O	O	O	O
+1-4	my	O	O	PRP$	P1_cook
+1-5	sister	1-6_nsubj	makes	NN	P1_beneficiary
+1-6	makes	O	O	VBZ	O
+1-7	the	O	O	DT	O
+1-8	same	O	O	JJ	O
+1-9	request	1-6_dobj	makes	NN	P1_NPart_request
+1-10	for	O	O	O	O
+1-11	a	O	O	DT	O
+1-12	birthday	O	O	NN	O
+1-13	cake	O	O	NN	P1_cake
+1-14	made	O	O	VBN	O
+1-15	the	O	O	DT	O
+1-16	same	O	O	JJ	O
+1-17	way	1-14_dobj	made	NN	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=Naturally , I abide , knowing that I wo n't have to buy her a present if I make her the cake . 
+2-1	Naturally	2-4_advmod	abide	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	abide	PRP	P1_cook
+2-4	abide	O	O	VBD	O
+2-5	,	O	O	O	O
+2-6	knowing	2-4_xcomp	abide	VBG	O
+2-7	that	2-11_mark	have	IN	O
+2-8	I	2-11_nsubj	have	PRP	P1_cook
+2-9	wo	2-11_aux	have	MD	O
+2-10	n't	2-11_neg	have	RB	O
+2-11	have	2-6_ccomp	knowing	VB	O
+2-12	to	2-13_aux	buy	TO	O
+2-13	buy	2-11_xcomp	have	VB	O
+2-14	her	2-19_nsubj	make	PRP	P1_beneficiary
+2-15	a	O	O	DT	O
+2-16	present	2-19_dep	make	JJ	P1_NPart_present
+2-17	if	2-19_mark	make	IN	O
+2-18	I	2-19_nsubj	make	PRP	P1_cook
+2-19	make	2-13_xcomp	buy	VBP	O
+2-20	her	O	O	PRP	P1_beneficiary
+2-21	the	O	O	DT	O
+2-22	cake	2-19_xcomp	make	NN	P1_cake
+2-23	.	O	O	O	O
+
+#id=3
+#text=I first go to the store and pick up some ingredients I do n't already have . 
+3-1	I	3-3_nsubj	go	PRP	P1_cook
+3-2	first	3-3_advmod	go	RB	O
+3-3	go	3-16_dep	have	VB	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	store	3-3_prep_to	go	NN	P1_store
+3-7	and	O	O	O	O
+3-8	pick	3-3_conj_and	go	VB	O
+3-9	up	3-8_prt	pick	RP	O
+3-10	some	O	O	DT	O
+3-11	ingredients	3-8_dobj	pick	NNS	P1_ingredients
+3-12	I	3-16_nsubj	have	PRP	P1_cook
+3-13	do	3-16_aux	have	VBP	O
+3-14	n't	3-16_neg	have	RB	O
+3-15	already	3-16_advmod	have	RB	O
+3-16	have	O	O	VB	O
+3-17	.	O	O	O	O
+
+#id=4
+#text=The very first thing I do is take out the butter to warm it up by putting it into my pocket . 
+4-1	The	O	O	DT	O
+4-2	very	O	O	RB	O
+4-3	first	O	O	JJ	O
+4-4	thing	4-8_nsubj	take	NN	O
+4-5	I	4-6_nsubj	do	PRP	P1_cook
+4-6	do	O	O	VBP	O
+4-7	is	4-8_aux	take	VBZ	O
+4-8	take	O	O	VB	O
+4-9	out	4-8_prt	take	RP	O
+4-10	the	O	O	DT	O
+4-11	butter	4-8_dobj	take	NN	P2_ingredients
+4-12	to	4-13_aux	warm	TO	O
+4-13	warm	O	O	VB	O
+4-14	it	4-13_dobj	warm	PRP	P2_ingredients
+4-15	up	4-13_prt	warm	RP	O
+4-16	by	O	O	O	O
+4-17	putting	4-13_prepc_by	warm	VBG	O
+4-18	it	4-17_dobj	putting	PRP	P2_ingredients
+4-19	into	O	O	O	O
+4-20	my	O	O	PRP$	P1_cook
+4-21	pocket	4-17_prep_into	putting	NN	P1_NPart_pocket
+4-22	.	O	O	O	O
+
+#id=5
+#text=I preheat the oven . 
+5-1	I	5-2_nsubj	preheat	PRP	P1_cook
+5-2	preheat	O	O	VBP	O
+5-3	the	O	O	DT	O
+5-4	oven	5-2_dobj	preheat	NN	P1_oven
+5-5	.	O	O	O	O
+
+#id=6
+#text=I then measure out all the ingredients and pull out my mixer . 
+6-1	I	6-3_nsubj	measure	PRP	P1_cook
+6-2	then	6-3_advmod	measure	RB	O
+6-3	measure	O	O	VB	O
+6-4	out	6-3_prt	measure	RP	O
+6-5	all	O	O	PDT	O
+6-6	the	O	O	DT	O
+6-7	ingredients	6-3_dobj	measure	NNS	P1_ingredients
+6-8	and	O	O	O	O
+6-9	pull	6-3_conj_and	measure	VB	O
+6-10	out	6-9_prt	pull	RP	O
+6-11	my	O	O	PRP$	P1_cook
+6-12	mixer	6-9_dobj	pull	NN	P1_utensil
+6-13	.	O	O	O	O
+
+#id=7
+#text=I grease the cake pans . 
+7-1	I	7-2_nsubj	grease	PRP	P1_cook
+7-2	grease	O	O	VBZ	O
+7-3	the	O	O	DT	O
+7-4	cake	O	O	NN	O
+7-5	pans	7-2_dobj	grease	NNS	P1_cake_tin
+7-6	.	O	O	O	O
+
+#id=8
+#text=After mixing all the dry and wet ingredients separately , I put them together until it is well mixed . 
+8-1	After	O	O	O	O
+8-2	mixing	8-12_prepc_after	put	VBG	O
+8-3	all	O	O	PDT	O
+8-4	the	O	O	DT	O
+8-5	dry	8-2_dobj	mixing	JJ	O
+8-6	and	O	O	O	O
+8-7	wet	O	O	JJ	O
+8-8	ingredients	O	O	NNS	P1_ingredients
+8-9	separately	O	O	RB	O
+8-10	,	O	O	O	O
+8-11	I	8-12_nsubj	put	PRP	P1_cook
+8-12	put	O	O	VBD	O
+8-13	them	8-12_dobj	put	PRP	P1_ingredients
+8-14	together	8-12_advmod	put	RB	O
+8-15	until	O	O	IN	O
+8-16	it	O	O	PRP	P1_dough
+8-17	is	O	O	VBZ	O
+8-18	well	O	O	RB	O
+8-19	mixed	8-12_advcl	put	JJ	O
+8-20	.	O	O	O	O
+
+#id=9
+#text=I pour the batter into the pan and put it in the oven for 40 minutes . 
+9-1	I	9-2_nsubj	pour	PRP	P1_cook
+9-2	pour	O	O	VBP	O
+9-3	the	O	O	DT	O
+9-4	batter	9-2_dobj	pour	NN	P1_dough
+9-5	into	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	pan	9-2_prep_into	pour	NN	P1_cake_tin
+9-8	and	O	O	O	O
+9-9	put	9-2_conj_and	pour	VBD	O
+9-10	it	9-9_dobj	put	PRP	P1_cake
+9-11	in	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	oven	9-9_prep_in	put	NN	P1_oven
+9-14	for	O	O	O	O
+9-15	40	O	O	CD	O
+9-16	minutes	O	O	NNS	P1_time
+9-17	.	O	O	O	O
+
+#id=10
+#text=While it is cooking , I make the frosting and decide to add some pink food coloring . 
+10-1	While	10-4_mark	cooking	IN	O
+10-2	it	10-4_nsubj	cooking	PRP	P1_cake
+10-3	is	10-4_aux	cooking	VBZ	O
+10-4	cooking	10-7_advcl	make	VBG	O
+10-5	,	O	O	O	O
+10-6	I	10-7_nsubj	make	PRP	P1_cook
+10-7	make	O	O	VBP	O
+10-8	the	O	O	DT	O
+10-9	frosting	10-7_dobj	make	NN	P1_decoration
+10-10	and	O	O	O	O
+10-11	decide	10-7_conj_and	make	VBP	O
+10-12	to	10-13_aux	add	TO	O
+10-13	add	10-11_xcomp	decide	VB	O
+10-14	some	O	O	DT	O
+10-15	pink	O	O	JJ	O
+10-16	food	O	O	NN	O
+10-17	coloring	10-13_dobj	add	NN	P3_ingredients
+10-18	.	O	O	O	O
+
+#id=11
+#text=When the cake is finished , I let it cool and then cover it with frosting . 
+11-1	When	11-5_advmod	finished	WRB	O
+11-2	the	O	O	DT	O
+11-3	cake	11-5_nsubjpass	finished	NN	P1_cake
+11-4	is	11-5_auxpass	finished	VBZ	O
+11-5	finished	11-8_advcl	let	VBN	O
+11-6	,	O	O	O	O
+11-7	I	11-8_nsubj	let	PRP	P1_cook
+11-8	let	O	O	VBD	O
+11-9	it	O	O	PRP	P1_cake
+11-10	cool	11-8_xcomp	let	JJ	O
+11-11	and	O	O	O	O
+11-12	then	11-13_advmod	cover	RB	O
+11-13	cover	11-8_conj_and	let	VB	O
+11-14	it	11-13_dobj	cover	PRP	P1_cake
+11-15	with	O	O	O	O
+11-16	frosting	11-13_prepc_with	cover	VBG	P1_decoration
+11-17	.	O	O	O	O
+
+#id=12
+#text=I put it in the fridge and will take it over to her house in a few hours . 
+12-1	I	12-2_nsubj	put	PRP	P1_cook
+12-2	put	O	O	VBD	O
+12-3	it	12-2_dobj	put	PRP	P1_cake
+12-4	in	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	fridge	12-2_prep_in	put	NN	P1_kitchen/location
+12-7	and	O	O	O	O
+12-8	will	12-9_aux	take	MD	O
+12-9	take	12-2_conj_and	put	VB	O
+12-10	it	12-9_dobj	take	PRP	P1_cake
+12-11	over	12-9_prt	take	RP	O
+12-12	to	O	O	O	O
+12-13	her	O	O	PRP$	P1_beneficiary
+12-14	house	12-9_prep_to	take	NN	P1_NPart_house
+12-15	in	O	O	O	O
+12-16	a	O	O	DT	O
+12-17	few	O	O	JJ	O
+12-18	hours	O	O	NNS	P1_NPart_hours
+12-19	.	O	O	O	O

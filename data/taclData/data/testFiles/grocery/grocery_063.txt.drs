@@ -1,0 +1,266 @@
+#id=1
+#text=By the weekend , our cereal boxes were empty , our bread was stale , and we had no produce . 
+1-1	By	O	O	O	O
+1-2	the	O	O	DT	O
+1-3	weekend	O	O	NN	P1_NPart_weekend
+1-4	,	O	O	O	O
+1-5	our	O	O	PRP$	P1_shopper
+1-6	cereal	O	O	NN	O
+1-7	boxes	O	O	NNS	P1_NPart_boxes
+1-8	were	O	O	VBD	O
+1-9	empty	O	O	JJ	O
+1-10	,	O	O	O	O
+1-11	our	O	O	PRP$	P1_shopper
+1-12	bread	O	O	NN	P1_groceries
+1-13	was	O	O	VBD	O
+1-14	stale	O	O	JJ	O
+1-15	,	O	O	O	O
+1-16	and	O	O	O	O
+1-17	we	1-18_nsubj	had	PRP	P1_shopper
+1-18	had	O	O	VBD	O
+1-19	no	O	O	DT	O
+1-20	produce	1-18_dobj	had	NN	P2_groceries
+1-21	.	O	O	O	O
+
+#id=2
+#text=Our family got in the car and we were off to the supermarket . 
+2-1	Our	O	O	PRP$	P1_shopper
+2-2	family	2-3_nsubj	got	NN	P1_shopper
+2-3	got	O	O	VBD	O
+2-4	in	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	car	2-3_prep_in	got	NN	P1_vehicle
+2-7	and	O	O	O	O
+2-8	we	O	O	PRP	P1_shopper
+2-9	were	O	O	VBD	O
+2-10	off	2-3_conj_and	got	IN	O
+2-11	to	O	O	O	O
+2-12	the	O	O	DT	O
+2-13	supermarket	O	O	NN	P1_grocery_shop
+2-14	.	O	O	O	O
+
+#id=3
+#text=After parking , we grabbed a shopping cart and began roaming up and down the aisles . 
+3-1	After	O	O	O	O
+3-2	parking	3-5_prep_after	grabbed	NN	O
+3-3	,	O	O	O	O
+3-4	we	3-5_nsubj	grabbed	PRP	P1_shopper
+3-5	grabbed	O	O	VBD	O
+3-6	a	O	O	DT	O
+3-7	shopping	O	O	NN	O
+3-8	cart	3-5_dobj	grabbed	NN	P1_shopping_cart/basket
+3-9	and	O	O	O	O
+3-10	began	3-5_conj_and	grabbed	VBD	O
+3-11	roaming	3-10_xcomp	began	VBG	O
+3-12	up	3-11_prt	roaming	RP	O
+3-13	and	O	O	CC	O
+3-14	down	O	O	RP	O
+3-15	the	O	O	DT	O
+3-16	aisles	3-11_dobj	roaming	NNS	P1_section
+3-17	.	O	O	O	O
+
+#id=4
+#text=Mom got the shopping list out of her purse . 
+4-1	Mom	4-2_nsubj	got	NN	P2_shopper
+4-2	got	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	shopping	O	O	NN	O
+4-5	list	4-2_dobj	got	NN	P1_grocery_list
+4-6	out	O	O	O	O
+4-7	of	O	O	O	O
+4-8	her	O	O	PRP$	P2_shopper
+4-9	purse	4-2_prep_out_of	got	NN	P1_NPart_purse
+4-10	.	O	O	O	O
+
+#id=5
+#text=It was useful in navigating our shopping trip and ensuring we didn ' t forget necessary items . 
+5-1	It	O	O	PRP	P1_grocery_list
+5-2	was	O	O	VBD	O
+5-3	useful	O	O	JJ	O
+5-4	in	O	O	O	O
+5-5	navigating	O	O	VBG	O
+5-6	our	O	O	PRP$	P1_shopper
+5-7	shopping	O	O	NN	O
+5-8	trip	5-5_dobj	navigating	NN	P1_NPart_trip
+5-9	and	O	O	O	O
+5-10	ensuring	5-5_conj_and	navigating	VBG	O
+5-11	we	O	O	PRP	P1_shopper
+5-12	didn	O	O	NN	O
+5-13	'	O	O	O	O
+5-14	t	5-10_xcomp	ensuring	NN	O
+5-15	forget	O	O	VB	O
+5-16	necessary	O	O	JJ	O
+5-17	items	5-15_dobj	forget	NNS	P3_groceries
+5-18	.	O	O	O	O
+
+#id=6
+#text=When mom shouted out " carrots , " we grabbed a bag of carrots and tossed them in the cart . 
+6-1	When	6-3_advmod	shouted	WRB	O
+6-2	mom	6-3_nsubj	shouted	NN	P2_shopper
+6-3	shouted	6-10_advcl	grabbed	VBD	O
+6-4	out	O	O	O	O
+6-5	"	O	O	O	O
+6-6	carrots	6-3_prep_out	shouted	NNS	P4_groceries
+6-7	,	O	O	O	O
+6-8	"	O	O	O	O
+6-9	we	6-10_nsubj	grabbed	PRP	P1_shopper
+6-10	grabbed	O	O	VBD	O
+6-11	a	O	O	DT	O
+6-12	bag	6-10_dobj	grabbed	NN	O
+6-13	of	O	O	O	O
+6-14	carrots	O	O	NNS	P4_groceries
+6-15	and	O	O	O	O
+6-16	tossed	6-10_conj_and	grabbed	VBD	O
+6-17	them	6-16_dobj	tossed	PRP	P4_groceries
+6-18	in	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	cart	6-16_prep_in	tossed	NN	P1_shopping_cart/basket
+6-21	.	O	O	O	O
+
+#id=7
+#text=Mom had us select a variety of products , from milk to pasta sauce . 
+7-1	Mom	7-2_nsubj	had	NN	P2_shopper
+7-2	had	O	O	VBD	O
+7-3	us	7-4_nsubj	select	PRP	P1_shopper
+7-4	select	7-2_ccomp	had	VB	O
+7-5	a	O	O	DT	O
+7-6	variety	7-4_dobj	select	NN	O
+7-7	of	O	O	O	O
+7-8	products	O	O	NNS	P3_groceries
+7-9	,	O	O	O	O
+7-10	from	O	O	O	O
+7-11	milk	7-4_prep_from	select	NN	P5_groceries
+7-12	to	O	O	O	O
+7-13	pasta	O	O	NN	O
+7-14	sauce	O	O	NN	P6_groceries
+7-15	.	O	O	O	O
+
+#id=8
+#text=As we put items in the cart , mom crossed them off the list . 
+8-1	As	8-3_mark	put	IN	O
+8-2	we	8-3_nsubj	put	PRP	P1_shopper
+8-3	put	8-10_advcl	crossed	VBD	O
+8-4	items	8-3_dobj	put	NNS	P3_groceries
+8-5	in	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	cart	8-3_prep_in	put	NN	P2_shopping_cart/basket
+8-8	,	O	O	O	O
+8-9	mom	8-10_nsubj	crossed	NN	P2_shopper
+8-10	crossed	O	O	VBD	O
+8-11	them	8-10_dobj	crossed	PRP	P3_groceries
+8-12	off	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	list	8-10_prep_off	crossed	NN	P2_grocery_list
+8-15	.	O	O	O	O
+
+#id=9
+#text=Finally , we had everything from the list in the cart and were ready to check out . 
+9-1	Finally	9-4_advmod	had	RB	O
+9-2	,	O	O	O	O
+9-3	we	9-4_nsubj	had	PRP	P1_shopper
+9-4	had	O	O	VBD	O
+9-5	everything	9-4_dobj	had	NN	P3_groceries
+9-6	from	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	list	O	O	NN	P2_grocery_list
+9-9	in	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	cart	O	O	NN	P2_shopping_cart/basket
+9-12	and	O	O	O	O
+9-13	were	O	O	VBD	O
+9-14	ready	9-4_conj_and	had	JJ	O
+9-15	to	9-16_aux	check	TO	O
+9-16	check	O	O	VB	O
+9-17	out	9-16_prt	check	RP	O
+9-18	.	O	O	O	O
+
+#id=10
+#text=We loaded each item on the counter for the checker to scan . 
+10-1	We	10-2_nsubj	loaded	PRP	P1_shopper
+10-2	loaded	O	O	VBD	O
+10-3	each	O	O	DT	O
+10-4	item	10-2_dobj	loaded	NN	P3_groceries
+10-5	on	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	counter	10-2_prep_on	loaded	NN	P1_cash_desk
+10-8	for	O	O	O	O
+10-9	the	O	O	DT	O
+10-10	checker	O	O	NN	P1_grocery_staff
+10-11	to	10-12_aux	scan	TO	O
+10-12	scan	10-2_vmod	loaded	VB	O
+10-13	.	O	O	O	O
+
+#id=11
+#text=After the checker scanned each item , our total appeared on the register . 
+11-1	After	11-4_mark	scanned	IN	O
+11-2	the	O	O	DT	O
+11-3	checker	11-4_nsubj	scanned	NN	P1_grocery_staff
+11-4	scanned	11-10_advcl	appeared	VBD	O
+11-5	each	O	O	DT	O
+11-6	item	11-4_dobj	scanned	NN	P3_groceries
+11-7	,	O	O	O	O
+11-8	our	O	O	PRP$	P1_shopper
+11-9	total	11-10_nsubj	appeared	NN	P1_price
+11-10	appeared	O	O	VBD	O
+11-11	on	O	O	O	O
+11-12	the	O	O	DT	O
+11-13	register	11-10_prep_on	appeared	NN	P1_other
+11-14	.	O	O	O	O
+
+#id=12
+#text=Mom got some money from her wallet and handed it to the checker . 
+12-1	Mom	12-2_nsubj	got	NN	P2_shopper
+12-2	got	O	O	VBD	O
+12-3	some	O	O	DT	O
+12-4	money	12-2_dobj	got	NN	P1_payment_means
+12-5	from	O	O	O	O
+12-6	her	O	O	PRP$	P2_shopper
+12-7	wallet	12-2_prep_from	got	NN	P1_NPart_wallet
+12-8	and	O	O	O	O
+12-9	handed	12-2_conj_and	got	VBD	O
+12-10	it	12-9_dobj	handed	PRP	P1_payment_means
+12-11	to	O	O	O	O
+12-12	the	O	O	DT	O
+12-13	checker	12-9_prep_to	handed	NN	P1_grocery_staff
+12-14	.	O	O	O	O
+
+#id=13
+#text=The checker gave mom the change , as someone else bagged up our groceries . 
+13-1	The	O	O	DT	O
+13-2	checker	13-3_nsubj	gave	NN	P1_grocery_staff
+13-3	gave	O	O	VBD	O
+13-4	mom	13-3_iobj	gave	NN	P2_shopper
+13-5	the	O	O	DT	O
+13-6	change	13-3_dobj	gave	NN	P2_payment_means
+13-7	,	O	O	O	O
+13-8	as	13-11_mark	bagged	IN	O
+13-9	someone	13-11_nsubj	bagged	NN	P2_grocery_staff
+13-10	else	O	O	RB	O
+13-11	bagged	O	O	VBD	O
+13-12	up	13-11_prt	bagged	RP	O
+13-13	our	O	O	PRP$	P1_shopper
+13-14	groceries	13-11_dobj	bagged	NNS	P3_groceries
+13-15	.	O	O	O	O
+
+#id=14
+#text=Finally , we headed home , ready to prepare lunch with some of the ingredients we had just purchased . 
+14-1	Finally	14-4_advmod	headed	RB	O
+14-2	,	O	O	O	O
+14-3	we	14-4_nsubj	headed	PRP	P1_shopper
+14-4	headed	O	O	VBD	O
+14-5	home	14-4_dobj	headed	NN	O
+14-6	,	O	O	O	O
+14-7	ready	O	O	JJ	O
+14-8	to	14-9_aux	prepare	TO	O
+14-9	prepare	O	O	VB	O
+14-10	lunch	14-9_dobj	prepare	NN	P1_NPart_lunch
+14-11	with	O	O	O	O
+14-12	some	14-9_prep_with	prepare	DT	O
+14-13	of	O	O	O	O
+14-14	the	O	O	DT	O
+14-15	ingredients	O	O	NNS	P3_groceries
+14-16	we	14-19_nsubj	purchased	PRP	P1_shopper
+14-17	had	14-19_aux	purchased	VBD	O
+14-18	just	14-19_advmod	purchased	RB	O
+14-19	purchased	O	O	VBN	O
+14-20	.	O	O	O	O

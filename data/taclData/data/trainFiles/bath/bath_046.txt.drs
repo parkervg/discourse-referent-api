@@ -1,0 +1,207 @@
+#id=1
+#text=When I have a long day at work , I like to take a bath before I go to bed . 
+1-1	When	1-3_advmod	have	WRB	O
+1-2	I	1-3_nsubj	have	PRP	P1_bather
+1-3	have	1-11_advcl	like	VBP	O
+1-4	a	O	O	DT	O
+1-5	long	O	O	JJ	O
+1-6	day	1-3_dobj	have	NN	P1_NPart_day
+1-7	at	O	O	O	O
+1-8	work	O	O	NN	P1_NPart_work
+1-9	,	O	O	O	O
+1-10	I	1-11_nsubj	like	PRP	P1_bather
+1-11	like	O	O	VBP	O
+1-12	to	1-13_aux	take	TO	O
+1-13	take	1-11_xcomp	like	VB	O
+1-14	a	O	O	DT	O
+1-15	bath	1-13_dobj	take	NN	O
+1-16	before	1-18_mark	go	IN	O
+1-17	I	1-18_nsubj	go	PRP	P1_bather
+1-18	go	1-13_advcl	take	VBP	O
+1-19	to	O	O	O	O
+1-20	bed	1-18_prep_to	go	NN	P1_NPart_bed
+1-21	.	O	O	O	O
+
+#id=2
+#text=Baths are very relaxing . 
+2-1	Baths	O	O	NNS	P1_bath
+2-2	are	O	O	VBP	O
+2-3	very	O	O	RB	O
+2-4	relaxing	O	O	JJ	O
+2-5	.	O	O	O	O
+
+#id=3
+#text=They make me sleepy and feel nice . 
+3-1	They	3-2_nsubj	make	PRP	P1_bath
+3-2	make	O	O	VBP	O
+3-3	me	O	O	PRP	P1_bather
+3-4	sleepy	3-2_xcomp	make	JJ	O
+3-5	and	O	O	O	O
+3-6	feel	3-2_conj_and	make	VBP	O
+3-7	nice	3-6_acomp	feel	JJ	O
+3-8	.	O	O	O	O
+
+#id=4
+#text=I start my bath by turning on the warm water faucet . 
+4-1	I	4-2_nsubj	start	PRP	P1_bather
+4-2	start	O	O	VBP	O
+4-3	my	O	O	PRP$	P1_bather
+4-4	bath	4-2_dobj	start	NN	P1_bath
+4-5	by	O	O	O	O
+4-6	turning	4-2_prepc_by	start	VBG	O
+4-7	on	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	warm	O	O	JJ	O
+4-10	water	O	O	NN	O
+4-11	faucet	4-6_prep_on	turning	NN	P1_tap
+4-12	.	O	O	O	O
+
+#id=5
+#text=Then I plug the drain so the water will stay in the tub . 
+5-1	Then	5-3_advmod	plug	RB	O
+5-2	I	5-3_nsubj	plug	PRP	P1_bather
+5-3	plug	O	O	VBP	O
+5-4	the	O	O	DT	O
+5-5	drain	5-3_dobj	plug	NN	P1_drain
+5-6	so	5-10_mark	stay	IN	O
+5-7	the	O	O	DT	O
+5-8	water	5-10_nsubj	stay	NN	P1_water
+5-9	will	5-10_aux	stay	MD	O
+5-10	stay	5-3_advcl	plug	VB	O
+5-11	in	O	O	O	O
+5-12	the	O	O	DT	O
+5-13	tub	5-10_prep_in	stay	NN	P1_bathtub
+5-14	.	O	O	O	O
+
+#id=6
+#text=Sometimes I pour some bubble bath into the tub . 
+6-1	Sometimes	6-3_advmod	pour	RB	O
+6-2	I	6-3_nsubj	pour	PRP	P1_bather
+6-3	pour	O	O	VBP	O
+6-4	some	O	O	DT	O
+6-5	bubble	O	O	NN	O
+6-6	bath	6-3_dobj	pour	NN	P1_bath_means
+6-7	into	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	tub	6-3_prep_into	pour	NN	P1_bathtub
+6-10	.	O	O	O	O
+
+#id=7
+#text=When I do this , I pour a little bit of bubble bath liquid under the running water . 
+7-1	When	7-3_advmod	do	WRB	O
+7-2	I	7-3_nsubj	do	PRP	P1_bather
+7-3	do	7-7_advcl	pour	VBP	O
+7-4	this	7-3_dobj	do	DT	O
+7-5	,	O	O	O	O
+7-6	I	7-7_nsubj	pour	PRP	P1_bather
+7-7	pour	O	O	VBP	O
+7-8	a	O	O	DT	O
+7-9	little	O	O	JJ	O
+7-10	bit	7-7_iobj	pour	NN	O
+7-11	of	O	O	O	O
+7-12	bubble	O	O	NN	O
+7-13	bath	O	O	NN	O
+7-14	liquid	7-7_dobj	pour	NN	P1_bath_means
+7-15	under	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	running	O	O	VBG	O
+7-18	water	7-7_prep_under	pour	NN	P1_water
+7-19	.	O	O	O	O
+
+#id=8
+#text=Whenever the tub is about halfway full of water , I get in the tub and relax . 
+8-1	Whenever	O	O	WRB	O
+8-2	the	O	O	DT	O
+8-3	tub	O	O	NN	P1_bathtub
+8-4	is	O	O	VBZ	O
+8-5	about	O	O	RB	O
+8-6	halfway	8-12_advcl	get	CD	O
+8-7	full	O	O	JJ	O
+8-8	of	O	O	O	O
+8-9	water	O	O	NN	P1_water
+8-10	,	O	O	O	O
+8-11	I	8-12_nsubj	get	PRP	P1_bather
+8-12	get	O	O	VB	O
+8-13	in	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	tub	8-12_prep_in	get	NN	P1_bathtub
+8-16	and	O	O	O	O
+8-17	relax	8-12_conj_and	get	VB	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=Sometimes I read a book in the bathtub , and other times I simply sit there . 
+9-1	Sometimes	9-3_advmod	read	RB	O
+9-2	I	9-3_nsubj	read	PRP	P1_bather
+9-3	read	O	O	VBP	O
+9-4	a	O	O	DT	O
+9-5	book	9-3_dobj	read	NN	P1_in-bath_entertainment
+9-6	in	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	bathtub	O	O	NN	P1_bathtub
+9-9	,	O	O	O	O
+9-10	and	O	O	O	O
+9-11	other	O	O	JJ	O
+9-12	times	9-15_nsubj	sit	NNS	O
+9-13	I	9-15_nsubj	sit	PRP	P1_bather
+9-14	simply	9-15_advmod	sit	RB	O
+9-15	sit	9-3_conj_and	read	VBP	O
+9-16	there	9-15_dobj	sit	RB	O
+9-17	.	O	O	O	O
+
+#id=10
+#text=When I am not reading , I often think about my day and what I will do tomorrow . 
+10-1	When	10-5_advmod	reading	WRB	O
+10-2	I	10-5_nsubj	reading	PRP	P1_bather
+10-3	am	10-5_aux	reading	VBP	O
+10-4	not	10-5_neg	reading	RB	O
+10-5	reading	10-9_advcl	think	VBG	O
+10-6	,	O	O	O	O
+10-7	I	10-9_nsubj	think	PRP	P1_bather
+10-8	often	10-9_advmod	think	RB	O
+10-9	think	O	O	VBP	O
+10-10	about	10-9_dep	think	IN	O
+10-11	my	O	O	PRP$	P1_bather
+10-12	day	O	O	NN	P2_NPart_day
+10-13	and	O	O	O	O
+10-14	what	10-17_dobj	do	WP	P1_NPart_what
+10-15	I	10-17_nsubj	do	PRP	P1_bather
+10-16	will	10-17_aux	do	MD	O
+10-17	do	O	O	VB	O
+10-18	tomorrow	10-17_tmod	do	NN	O
+10-19	.	O	O	O	O
+
+#id=11
+#text=After about 15 or 20 minutes , I decide to get out of the tub . 
+11-1	After	O	O	O	O
+11-2	about	O	O	RB	O
+11-3	15	O	O	CD	O
+11-4	or	O	O	O	O
+11-5	20	O	O	CD	O
+11-6	minutes	11-9_prep_after	decide	NNS	P1_NPart_minutes
+11-7	,	O	O	O	O
+11-8	I	11-9_nsubj	decide	PRP	P1_bather
+11-9	decide	O	O	VBP	O
+11-10	to	11-11_aux	get	TO	O
+11-11	get	11-9_xcomp	decide	VB	O
+11-12	out	O	O	O	O
+11-13	of	O	O	O	O
+11-14	the	O	O	DT	O
+11-15	tub	11-11_prep_out_of	get	NN	P1_bathtub
+11-16	.	O	O	O	O
+
+#id=12
+#text=I drain the water and bubbles , and my bath is over . 
+12-1	I	12-2_nsubj	drain	PRP	P1_bather
+12-2	drain	O	O	VB	O
+12-3	the	O	O	DT	O
+12-4	water	12-2_dobj	drain	NN	P1_water
+12-5	and	O	O	O	O
+12-6	bubbles	O	O	NNS	P1_bath_means
+12-7	,	O	O	O	O
+12-8	and	O	O	O	O
+12-9	my	O	O	PRP$	P1_bather
+12-10	bath	O	O	NN	P1_bath
+12-11	is	O	O	VBZ	O
+12-12	over	12-2_conj_and	drain	RP	O
+12-13	.	O	O	O	O

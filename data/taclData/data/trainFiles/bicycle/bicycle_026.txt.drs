@@ -1,0 +1,192 @@
+#id=1
+#text=In a couple days , me and some friends were going to celebrate the good weather by going biking . 
+1-1	In	O	O	O	O
+1-2	a	O	O	DT	O
+1-3	couple	O	O	NN	O
+1-4	days	1-11_prep_in	going	NNS	P1_NPart_days
+1-5	,	O	O	O	O
+1-6	me	1-11_nsubj	going	PRP	P1_rider
+1-7	and	O	O	O	O
+1-8	some	O	O	DT	O
+1-9	friends	O	O	NNS	P2_rider
+1-10	were	1-11_aux	going	VBD	O
+1-11	going	O	O	VBG	O
+1-12	to	1-13_aux	celebrate	TO	O
+1-13	celebrate	1-11_xcomp	going	VB	O
+1-14	the	O	O	DT	O
+1-15	good	O	O	JJ	O
+1-16	weather	1-13_dobj	celebrate	NN	P1_NPart_weather
+1-17	by	O	O	O	O
+1-18	going	1-13_prepc_by	celebrate	VBG	O
+1-19	biking	1-18_dobj	going	NN	O
+1-20	.	O	O	O	O
+
+#id=2
+#text=I had my bike sit in my garage for a couple years not using it . 
+2-1	I	2-2_nsubj	had	PRP	P1_rider
+2-2	had	O	O	VBD	O
+2-3	my	O	O	PRP$	P1_rider
+2-4	bike	2-5_nsubj	sit	NN	P1_bicycle
+2-5	sit	2-2_ccomp	had	VB	O
+2-6	in	O	O	O	O
+2-7	my	O	O	PRP$	P1_rider
+2-8	garage	2-14_nsubj	using	NN	P1_other
+2-9	for	O	O	O	O
+2-10	a	O	O	DT	O
+2-11	couple	O	O	NN	O
+2-12	years	O	O	NNS	P1_NPart_years
+2-13	not	2-14_neg	using	RB	O
+2-14	using	2-5_prepc_in	sit	VBG	O
+2-15	it	2-14_dobj	using	PRP	P1_bicycle
+2-16	.	O	O	O	O
+
+#id=3
+#text=So when I decided to get it out , to my surprise it had flat tires . 
+3-1	So	3-14_cc	had	CC	O
+3-2	when	3-4_advmod	decided	WRB	O
+3-3	I	3-4_nsubj	decided	PRP	P1_rider
+3-4	decided	3-14_advcl	had	VBD	O
+3-5	to	3-6_aux	get	TO	O
+3-6	get	3-4_xcomp	decided	VB	O
+3-7	it	3-6_dobj	get	PRP	P1_bicycle
+3-8	out	3-6_prt	get	RP	O
+3-9	,	O	O	O	O
+3-10	to	O	O	O	O
+3-11	my	O	O	PRP$	P1_rider
+3-12	surprise	3-4_prep_to	decided	NN	P1_NPart_surprise
+3-13	it	3-14_nsubj	had	PRP	P1_bicycle
+3-14	had	O	O	VBD	O
+3-15	flat	O	O	JJ	O
+3-16	tires	3-14_dobj	had	NNS	P1_tire
+3-17	.	O	O	O	O
+
+#id=4
+#text=I struggled to get the bike out of the garage with all the other junk in it , and found my tire pump along with it . 
+4-1	I	4-2_nsubj	struggled	PRP	P1_rider
+4-2	struggled	O	O	VBD	O
+4-3	to	4-4_aux	get	TO	O
+4-4	get	4-2_xcomp	struggled	VB	O
+4-5	the	O	O	DT	O
+4-6	bike	4-4_dobj	get	NN	P1_bicycle
+4-7	out	O	O	O	O
+4-8	of	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	garage	4-4_prep_out_of	get	NN	P1_other
+4-11	with	O	O	O	O
+4-12	all	O	O	PDT	O
+4-13	the	O	O	DT	O
+4-14	other	O	O	JJ	O
+4-15	junk	O	O	NN	P1_NPart_junk
+4-16	in	O	O	O	O
+4-17	it	O	O	PRP	P1_other
+4-18	,	O	O	O	O
+4-19	and	O	O	O	O
+4-20	found	4-2_conj_and	struggled	VBD	O
+4-21	my	O	O	PRP$	P1_rider
+4-22	tire	O	O	NN	O
+4-23	pump	4-20_dobj	found	NN	P1_tool
+4-24	along	O	O	O	O
+4-25	with	O	O	O	O
+4-26	it	4-20_prep_along_with	found	PRP	P1_bicycle
+4-27	.	O	O	O	O
+
+#id=5
+#text=After I got my bike out , I kneeled near the bike and found cap for the tire . 
+5-1	After	5-3_mark	got	IN	O
+5-2	I	5-3_nsubj	got	PRP	P1_rider
+5-3	got	5-9_advcl	kneeled	VBD	O
+5-4	my	O	O	PRP$	P1_rider
+5-5	bike	5-3_dobj	got	NN	P1_bicycle
+5-6	out	5-3_prt	got	RP	O
+5-7	,	O	O	O	O
+5-8	I	5-9_nsubj	kneeled	PRP	P1_rider
+5-9	kneeled	O	O	VBD	O
+5-10	near	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	bike	5-9_prep_near	kneeled	NN	P1_bicycle
+5-13	and	O	O	O	O
+5-14	found	5-9_conj_and	kneeled	VBD	O
+5-15	cap	5-14_dobj	found	NN	P1_bicycle_small_detail
+5-16	for	O	O	O	O
+5-17	the	O	O	DT	O
+5-18	tire	5-14_prep_for	found	NN	P2_tire
+5-19	.	O	O	O	O
+
+#id=6
+#text=I unscrewed it with a pair of pliers because it was on tight . 
+6-1	I	6-2_nsubj	unscrewed	PRP	P1_rider
+6-2	unscrewed	O	O	VBD	O
+6-3	it	6-2_dobj	unscrewed	PRP	P1_bicycle_small_detail
+6-4	with	O	O	O	O
+6-5	a	O	O	DT	O
+6-6	pair	6-2_prep_with	unscrewed	NN	P1_NPart_pair
+6-7	of	O	O	O	O
+6-8	pliers	O	O	NNS	P2_tool
+6-9	because	6-11_mark	was	IN	O
+6-10	it	6-11_nsubj	was	PRP	P1_bicycle_small_detail
+6-11	was	6-2_advcl	unscrewed	VBD	O
+6-12	on	O	O	O	O
+6-13	tight	6-11_prep_on	was	JJ	O
+6-14	.	O	O	O	O
+
+#id=7
+#text=I plugged the hose into the tire and started pumping until it was at a good level . 
+7-1	I	7-2_nsubj	plugged	PRP	P1_rider
+7-2	plugged	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	hose	7-2_dobj	plugged	NN	P1_tool
+7-5	into	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	tire	7-2_prep_into	plugged	NN	P2_tire
+7-8	and	O	O	O	O
+7-9	started	7-2_conj_and	plugged	VBD	O
+7-10	pumping	7-9_xcomp	started	VBG	O
+7-11	until	7-13_mark	was	IN	O
+7-12	it	7-13_nsubj	was	PRP	P2_tire
+7-13	was	7-10_advcl	pumping	VBD	O
+7-14	at	O	O	O	O
+7-15	a	O	O	DT	O
+7-16	good	O	O	JJ	O
+7-17	level	7-13_prep_at	was	NN	P1_NPart_level
+7-18	.	O	O	O	O
+
+#id=8
+#text=I quickly unplugged the air pump and screwed the cap back on . 
+8-1	I	8-3_nsubj	unplugged	PRP	P1_rider
+8-2	quickly	8-3_advmod	unplugged	RB	O
+8-3	unplugged	O	O	VBD	O
+8-4	the	O	O	DT	O
+8-5	air	O	O	NN	O
+8-6	pump	8-3_dobj	unplugged	NN	P1_tool
+8-7	and	O	O	O	O
+8-8	screwed	8-3_conj_and	unplugged	VBN	O
+8-9	the	O	O	DT	O
+8-10	cap	O	O	NN	P1_bicycle_small_detail
+8-11	back	8-8_advmod	screwed	RB	O
+8-12	on	8-8_prep	screwed	IN	O
+8-13	.	O	O	O	O
+
+#id=9
+#text=After this I moved over to the rear tire , and repeated the same process to fix my flat bicycle tire . 
+9-1	After	O	O	O	O
+9-2	this	9-4_prep_after	moved	DT	O
+9-3	I	9-4_nsubj	moved	PRP	P1_rider
+9-4	moved	O	O	VBD	O
+9-5	over	9-4_prt	moved	RP	O
+9-6	to	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	rear	O	O	JJ	O
+9-9	tire	9-4_prep_to	moved	NN	P3_tire
+9-10	,	O	O	O	O
+9-11	and	O	O	O	O
+9-12	repeated	9-4_conj_and	moved	VBD	O
+9-13	the	O	O	DT	O
+9-14	same	O	O	JJ	O
+9-15	process	9-12_dobj	repeated	NN	P1_NPart_process
+9-16	to	9-17_aux	fix	TO	O
+9-17	fix	9-12_vmod	repeated	VB	O
+9-18	my	O	O	PRP$	P1_rider
+9-19	flat	O	O	JJ	O
+9-20	bicycle	O	O	NN	O
+9-21	tire	9-17_dobj	fix	NN	P3_tire
+9-22	.	O	O	O	O

@@ -1,0 +1,184 @@
+#id=1
+#text=Some people ride the train every day as part of their work commute , while others only have the opportunity to ride for vacation or pleasure . 
+1-1	Some	O	O	DT	O
+1-2	people	1-3_nsubj	ride	NNS	P1_passenger
+1-3	ride	O	O	VBP	O
+1-4	the	O	O	DT	O
+1-5	train	1-3_dobj	ride	NN	P1_train
+1-6	every	O	O	DT	O
+1-7	day	O	O	NN	P1_time_date
+1-8	as	O	O	O	O
+1-9	part	1-3_prep_as	ride	NN	O
+1-10	of	O	O	O	O
+1-11	their	O	O	PRP$	P1_passenger
+1-12	work	O	O	NN	O
+1-13	commute	O	O	NN	P1_NPart_commute
+1-14	,	O	O	O	O
+1-15	while	1-18_mark	have	IN	O
+1-16	others	1-18_nsubj	have	NNS	P1_passenger
+1-17	only	1-18_advmod	have	RB	O
+1-18	have	1-3_advcl	ride	VBP	O
+1-19	the	O	O	DT	O
+1-20	opportunity	1-18_dobj	have	NN	P1_NPart_opportunity
+1-21	to	1-22_aux	ride	TO	O
+1-22	ride	O	O	VB	O
+1-23	for	O	O	O	O
+1-24	vacation	1-22_prep_for	ride	NN	P1_NPart_vacation
+1-25	or	O	O	O	O
+1-26	pleasure	O	O	NN	P1_NPart_pleasure
+1-27	.	O	O	O	O
+
+#id=2
+#text=I spend quite a good amount of time researching routes and fares before I decide on the best options for me . 
+2-1	I	2-2_nsubj	spend	PRP	P2_passenger
+2-2	spend	O	O	VBP	O
+2-3	quite	O	O	RB	O
+2-4	a	O	O	DT	O
+2-5	good	O	O	JJ	O
+2-6	amount	2-2_dobj	spend	NN	O
+2-7	of	O	O	O	O
+2-8	time	O	O	NN	P1_NPart_time
+2-9	researching	O	O	VBG	O
+2-10	routes	2-9_dobj	researching	NNS	P1_NPart_routes
+2-11	and	O	O	O	O
+2-12	fares	O	O	NNS	P1_card/ticket
+2-13	before	2-15_mark	decide	IN	O
+2-14	I	2-15_nsubj	decide	PRP	P2_passenger
+2-15	decide	2-9_advcl	researching	VBP	O
+2-16	on	O	O	O	O
+2-17	the	O	O	DT	O
+2-18	best	O	O	JJS	O
+2-19	options	2-15_prep_on	decide	NNS	P1_NPart_options
+2-20	for	O	O	O	O
+2-21	me	O	O	PRP	P2_passenger
+2-22	.	O	O	O	O
+
+#id=3
+#text=One of the benefits of riding the train is a feeling of a connection to the past . 
+3-1	One	O	O	CD	O
+3-2	of	O	O	O	O
+3-3	the	O	O	DT	O
+3-4	benefits	O	O	NNS	P1_NPart_benefits
+3-5	of	O	O	O	O
+3-6	riding	O	O	VBG	O
+3-7	the	O	O	DT	O
+3-8	train	3-6_dobj	riding	NN	P1_train
+3-9	is	O	O	VBZ	O
+3-10	a	O	O	DT	O
+3-11	feeling	O	O	NN	P1_NPart_feeling
+3-12	of	O	O	O	O
+3-13	a	O	O	DT	O
+3-14	connection	O	O	NN	P1_NPart_connection
+3-15	to	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	past	O	O	NN	P1_NPart_past
+3-18	.	O	O	O	O
+
+#id=4
+#text=I feel like I 'm partaking in a part of our shared history , something people have been doing for hundreds of years . 
+4-1	I	4-2_nsubj	feel	PRP	P2_passenger
+4-2	feel	4-19_ccomp	doing	VBP	O
+4-3	like	4-6_mark	partaking	IN	O
+4-4	I	4-6_nsubj	partaking	PRP	P2_passenger
+4-5	'm	4-6_aux	partaking	VBP	O
+4-6	partaking	4-2_advcl	feel	VBG	O
+4-7	in	O	O	O	O
+4-8	a	O	O	DT	O
+4-9	part	4-6_prep_in	partaking	NN	O
+4-10	of	O	O	O	O
+4-11	our	O	O	PRP$	P1_NPart_our
+4-12	shared	O	O	VBN	O
+4-13	history	O	O	NN	P1_NPart_history
+4-14	,	O	O	O	O
+4-15	something	O	O	NN	O
+4-16	people	4-19_nsubj	doing	NNS	P1_passenger
+4-17	have	4-19_aux	doing	VBP	O
+4-18	been	4-19_aux	doing	VBN	O
+4-19	doing	O	O	VBG	O
+4-20	for	O	O	O	O
+4-21	hundreds	4-19_prep_for	doing	NNS	O
+4-22	of	O	O	O	O
+4-23	years	O	O	NNS	P1_NPart_years
+4-24	.	O	O	O	O
+
+#id=5
+#text=I enjoy sitting by the window and watching the scenery race past . 
+5-1	I	5-2_nsubj	enjoy	PRP	P2_passenger
+5-2	enjoy	O	O	VBP	O
+5-3	sitting	5-2_ccomp	enjoy	VBG	O
+5-4	by	O	O	O	O
+5-5	the	O	O	DT	O
+5-6	window	5-3_prep_by	sitting	NN	P1_in-train_entertainment
+5-7	and	O	O	O	O
+5-8	watching	5-3_conj_and	sitting	VBG	O
+5-9	the	O	O	DT	O
+5-10	scenery	O	O	NN	P1_location_train
+5-11	race	O	O	NN	O
+5-12	past	5-8_dobj	watching	NN	O
+5-13	.	O	O	O	O
+
+#id=6
+#text=Making small talk with other passengers is also something I look forward to . 
+6-1	Making	O	O	VBG	O
+6-2	small	O	O	JJ	O
+6-3	talk	6-1_dobj	Making	NN	P2_in-train_entertainment
+6-4	with	O	O	O	O
+6-5	other	O	O	JJ	O
+6-6	passengers	6-1_prep_with	Making	NNS	P1_passenger
+6-7	is	O	O	VBZ	O
+6-8	also	O	O	RB	O
+6-9	something	O	O	NN	O
+6-10	I	6-11_nsubj	look	PRP	P2_passenger
+6-11	look	O	O	VBP	O
+6-12	forward	6-11_advmod	look	RB	O
+6-13	to	6-11_prep	look	TO	O
+6-14	.	O	O	O	O
+
+#id=7
+#text=An employee comes by to ensure that everyone has paid their fare . 
+7-1	An	O	O	DT	O
+7-2	employee	7-3_nsubj	comes	NN	P1_train_staff
+7-3	comes	O	O	VBZ	O
+7-4	by	7-3_prt	comes	RP	O
+7-5	to	7-6_aux	ensure	TO	O
+7-6	ensure	7-3_xcomp	comes	VB	O
+7-7	that	7-10_mark	paid	IN	O
+7-8	everyone	7-10_nsubj	paid	NN	P3_passenger
+7-9	has	7-10_aux	paid	VBZ	O
+7-10	paid	7-6_ccomp	ensure	VBN	O
+7-11	their	O	O	PRP$	P3_passenger
+7-12	fare	7-10_dobj	paid	NN	P1_card/ticket
+7-13	.	O	O	O	O
+
+#id=8
+#text=The soothing rocking motion of the train usually puts me to sleep and before I know it I wake up and it is time to disembark from the train . 
+8-1	The	O	O	DT	O
+8-2	soothing	O	O	VBG	O
+8-3	rocking	O	O	JJ	O
+8-4	motion	8-9_nsubj	puts	NN	P1_NPart_motion
+8-5	of	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	train	O	O	NN	P1_train
+8-8	usually	8-9_advmod	puts	RB	O
+8-9	puts	O	O	VBZ	O
+8-10	me	8-9_dobj	puts	PRP	P2_passenger
+8-11	to	8-12_aux	sleep	TO	O
+8-12	sleep	8-9_xcomp	puts	VB	P3_in-train_entertainment
+8-13	and	O	O	O	O
+8-14	before	8-16_mark	know	IN	O
+8-15	I	8-16_nsubj	know	PRP	P2_passenger
+8-16	know	8-19_advcl	wake	VBP	O
+8-17	it	8-16_dobj	know	PRP	O
+8-18	I	8-19_nsubj	wake	PRP	P2_passenger
+8-19	wake	8-9_conj_and	puts	VBP	O
+8-20	up	8-19_prt	wake	RP	O
+8-21	and	O	O	O	O
+8-22	it	O	O	PRP	O
+8-23	is	O	O	VBZ	O
+8-24	time	8-19_conj_and	wake	NN	P1_time-table
+8-25	to	8-26_aux	disembark	TO	O
+8-26	disembark	O	O	VB	O
+8-27	from	O	O	O	O
+8-28	the	O	O	DT	O
+8-29	train	8-26_prep_from	disembark	NN	P1_train
+8-30	.	O	O	O	O

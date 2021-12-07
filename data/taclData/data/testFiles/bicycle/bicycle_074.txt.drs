@@ -1,0 +1,279 @@
+#id=1
+#text=Repairing a flat bike tire can be a little tiring , if you get my drift . 
+1-1	Repairing	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	flat	O	O	JJ	O
+1-4	bike	O	O	NN	O
+1-5	tire	1-1_dobj	Repairing	NN	P1_tire
+1-6	can	O	O	MD	O
+1-7	be	O	O	VB	O
+1-8	a	O	O	DT	O
+1-9	little	O	O	RB	O
+1-10	tiring	O	O	JJ	O
+1-11	,	O	O	O	O
+1-12	if	1-14_mark	get	IN	O
+1-13	you	1-14_nsubj	get	PRP	P1_NPart_you
+1-14	get	O	O	VBP	O
+1-15	my	O	O	PRP$	P1_rider
+1-16	drift	1-14_dobj	get	NN	P1_NPart_drift
+1-17	.	O	O	O	O
+
+#id=2
+#text=Anyway , the last time I had to do this was when I 'd apparently ran over some random , sharp piece of metal that got stuck in my front tire . 
+2-1	Anyway	2-11_advmod	was	RB	O
+2-2	,	O	O	O	O
+2-3	the	O	O	DT	O
+2-4	last	O	O	JJ	O
+2-5	time	2-11_nsubj	was	NN	O
+2-6	I	2-7_nsubj	had	PRP	P1_rider
+2-7	had	O	O	VBD	O
+2-8	to	2-9_aux	do	TO	O
+2-9	do	2-7_xcomp	had	VB	O
+2-10	this	2-9_dobj	do	DT	O
+2-11	was	O	O	VBD	O
+2-12	when	2-16_advmod	ran	WRB	O
+2-13	I	2-16_nsubj	ran	PRP	P1_rider
+2-14	'd	2-16_aux	ran	MD	O
+2-15	apparently	2-16_advmod	ran	RB	O
+2-16	ran	2-11_advcl	was	VBD	O
+2-17	over	2-16_prt	ran	RP	O
+2-18	some	O	O	DT	O
+2-19	random	O	O	JJ	O
+2-20	,	O	O	O	O
+2-21	sharp	O	O	JJ	O
+2-22	piece	2-16_dobj	ran	NN	O
+2-23	of	O	O	O	O
+2-24	metal	O	O	NN	P1_object_damage
+2-25	that	2-27_nsubjpass	stuck	WDT	O
+2-26	got	2-27_auxpass	stuck	VBD	O
+2-27	stuck	O	O	VBN	O
+2-28	in	O	O	O	O
+2-29	my	O	O	PRP$	P1_rider
+2-30	front	O	O	JJ	O
+2-31	tire	2-27_prep_in	stuck	NN	P1_tire
+2-32	.	O	O	O	O
+
+#id=3
+#text=I had to get some sealant and a little oil for my tire pump . 
+3-1	I	3-2_nsubj	had	PRP	P1_rider
+3-2	had	O	O	VBD	O
+3-3	to	3-4_aux	get	TO	O
+3-4	get	3-2_xcomp	had	VB	O
+3-5	some	O	O	DT	O
+3-6	sealant	3-4_dobj	get	NN	P1_patch
+3-7	and	O	O	O	O
+3-8	a	O	O	DT	O
+3-9	little	O	O	JJ	O
+3-10	oil	O	O	NN	P1_tool
+3-11	for	O	O	O	O
+3-12	my	O	O	PRP$	P1_rider
+3-13	tire	O	O	NN	O
+3-14	pump	3-4_prep_for	get	NN	P2_tool
+3-15	.	O	O	O	O
+
+#id=4
+#text=I flipped by bike upside down and used a wrench to take the whole tire off . 
+4-1	I	4-2_nsubj	flipped	PRP	P1_rider
+4-2	flipped	O	O	VBD	O
+4-3	by	O	O	O	O
+4-4	bike	4-2_prep_by	flipped	NN	P1_bicycle
+4-5	upside	O	O	RB	O
+4-6	down	4-2_advmod	flipped	RB	O
+4-7	and	O	O	O	O
+4-8	used	4-2_conj_and	flipped	VBD	O
+4-9	a	O	O	DT	O
+4-10	wrench	4-8_dobj	used	NN	P3_tool
+4-11	to	4-12_aux	take	TO	O
+4-12	take	4-8_vmod	used	VB	O
+4-13	the	O	O	DT	O
+4-14	whole	O	O	JJ	O
+4-15	tire	4-12_dobj	take	NN	P1_tire
+4-16	off	4-12_prt	take	RP	O
+4-17	.	O	O	O	O
+
+#id=5
+#text=I have an older bike , so it 's easier to do it this way . 
+5-1	I	5-2_nsubj	have	PRP	P1_rider
+5-2	have	O	O	VBP	O
+5-3	an	O	O	DT	O
+5-4	older	O	O	JJR	O
+5-5	bike	5-2_dobj	have	NN	P1_bicycle
+5-6	,	O	O	O	O
+5-7	so	5-2_dep	have	IN	O
+5-8	it	O	O	PRP	O
+5-9	's	O	O	VBZ	O
+5-10	easier	5-2_parataxis	have	JJR	O
+5-11	to	5-12_aux	do	TO	O
+5-12	do	O	O	VB	O
+5-13	it	O	O	PRP	O
+5-14	this	O	O	DT	O
+5-15	way	5-12_xcomp	do	NN	O
+5-16	.	O	O	O	O
+
+#id=6
+#text=I deflated the tire and then I took the outer tire off . 
+6-1	I	6-2_nsubj	deflated	PRP	P1_rider
+6-2	deflated	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	tire	6-2_dobj	deflated	NN	P1_tire
+6-5	and	O	O	O	O
+6-6	then	6-8_advmod	took	RB	O
+6-7	I	6-8_nsubj	took	PRP	P1_rider
+6-8	took	6-2_conj_and	deflated	VBD	O
+6-9	the	O	O	DT	O
+6-10	outer	O	O	JJ	O
+6-11	tire	6-8_dobj	took	NN	P1_tire
+6-12	off	6-8_prt	took	RP	O
+6-13	.	O	O	O	O
+
+#id=7
+#text=I removed the metal bit from the tire and the bladder . 
+7-1	I	7-2_nsubj	removed	PRP	P1_rider
+7-2	removed	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	metal	O	O	NN	O
+7-5	bit	7-2_dobj	removed	NN	P2_object_damage
+7-6	from	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	tire	7-2_prep_from	removed	NN	P1_tire
+7-9	and	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	bladder	O	O	NN	P1_other
+7-12	.	O	O	O	O
+
+#id=8
+#text=I sealed the bladder and had to wait for it to cure . 
+8-1	I	8-2_nsubj	sealed	PRP	P1_rider
+8-2	sealed	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	bladder	8-2_dobj	sealed	NN	P1_other
+8-5	and	O	O	O	O
+8-6	had	8-2_conj_and	sealed	VBD	O
+8-7	to	8-8_aux	wait	TO	O
+8-8	wait	8-6_xcomp	had	VB	O
+8-9	for	8-12_mark	cure	IN	O
+8-10	it	8-12_nsubj	cure	PRP	P1_other
+8-11	to	8-12_aux	cure	TO	O
+8-12	cure	8-8_advcl	wait	VB	O
+8-13	.	O	O	O	O
+
+#id=9
+#text=The outer tire got a little bit of repair mix too . 
+9-1	The	O	O	DT	O
+9-2	outer	O	O	JJ	O
+9-3	tire	9-4_nsubj	got	NN	P1_tire
+9-4	got	O	O	VBD	O
+9-5	a	O	O	DT	O
+9-6	little	O	O	JJ	O
+9-7	bit	9-4_dobj	got	NN	O
+9-8	of	O	O	O	O
+9-9	repair	O	O	NN	O
+9-10	mix	O	O	NN	P2_patch
+9-11	too	9-4_advmod	got	RB	O
+9-12	.	O	O	O	O
+
+#id=10
+#text=After the various mixes dried , I inflated the bladder a bit and put both the bladder and the tire back on the wheel . 
+10-1	After	10-5_mark	dried	IN	O
+10-2	the	O	O	DT	O
+10-3	various	O	O	JJ	O
+10-4	mixes	10-5_nsubj	dried	NN	P2_patch
+10-5	dried	10-8_advcl	inflated	VBD	O
+10-6	,	O	O	O	O
+10-7	I	10-8_nsubj	inflated	PRP	P1_rider
+10-8	inflated	O	O	VBD	O
+10-9	the	O	O	DT	O
+10-10	bladder	10-8_dobj	inflated	NN	P1_other
+10-11	a	O	O	DT	O
+10-12	bit	O	O	NN	O
+10-13	and	O	O	O	O
+10-14	put	10-8_conj_and	inflated	VBD	O
+10-15	both	O	O	PDT	O
+10-16	the	O	O	DT	O
+10-17	bladder	10-14_dobj	put	NN	P1_other
+10-18	and	O	O	O	O
+10-19	the	O	O	DT	O
+10-20	tire	O	O	NN	P1_tire
+10-21	back	10-14_advmod	put	RB	O
+10-22	on	O	O	O	O
+10-23	the	O	O	DT	O
+10-24	wheel	10-14_prep_on	put	NN	P2_tire
+10-25	.	O	O	O	O
+
+#id=11
+#text=This took a while , since I had to make sure that it was well within the wheel well , so that the tire would stay on . 
+11-1	This	11-2_nsubj	took	DT	O
+11-2	took	O	O	VBD	O
+11-3	a	O	O	DT	O
+11-4	while	11-2_dobj	took	NN	O
+11-5	,	O	O	O	O
+11-6	since	11-8_mark	had	IN	O
+11-7	I	11-8_nsubj	had	PRP	P1_rider
+11-8	had	11-2_advcl	took	VBD	O
+11-9	to	11-10_aux	make	TO	O
+11-10	make	11-8_xcomp	had	VB	O
+11-11	sure	11-10_acomp	make	JJ	O
+11-12	that	11-14_mark	was	IN	O
+11-13	it	11-14_nsubj	was	PRP	O
+11-14	was	11-10_ccomp	make	VBD	O
+11-15	well	11-14_advmod	was	RB	O
+11-16	within	O	O	IN	O
+11-17	the	O	O	DT	O
+11-18	wheel	O	O	NN	P2_tire
+11-19	well	O	O	RB	O
+11-20	,	O	O	O	O
+11-21	so	11-26_advmod	stay	RB	O
+11-22	that	11-26_mark	stay	IN	O
+11-23	the	O	O	DT	O
+11-24	tire	11-26_nsubj	stay	NN	P1_tire
+11-25	would	11-26_aux	stay	MD	O
+11-26	stay	11-14_advcl	was	VB	O
+11-27	on	11-26_prt	stay	RP	O
+11-28	.	O	O	O	O
+
+#id=12
+#text=The last thing I really had to do was fully inflate the bladder and put the tire back on the bike . 
+12-1	The	O	O	DT	O
+12-2	last	O	O	JJ	O
+12-3	thing	12-9_nsubj	was	NN	O
+12-4	I	12-6_nsubj	had	PRP	P1_rider
+12-5	really	12-6_advmod	had	RB	O
+12-6	had	O	O	VBD	O
+12-7	to	12-8_aux	do	TO	O
+12-8	do	12-6_xcomp	had	VB	O
+12-9	was	O	O	VBD	O
+12-10	fully	12-9_advmod	was	RB	O
+12-11	inflate	12-9_ccomp	was	VB	O
+12-12	the	O	O	DT	O
+12-13	bladder	12-11_dobj	inflate	NN	P1_other
+12-14	and	O	O	O	O
+12-15	put	12-11_conj_and	inflate	VB	O
+12-16	the	O	O	DT	O
+12-17	tire	12-15_dobj	put	NN	P1_tire
+12-18	back	12-15_prt	put	RP	O
+12-19	on	O	O	O	O
+12-20	the	O	O	DT	O
+12-21	bike	12-15_prep_on	put	NN	P1_bicycle
+12-22	.	O	O	O	O
+
+#id=13
+#text=It took a little while to do , but it was better than buying an all new tire . 
+13-1	It	13-2_nsubj	took	PRP	O
+13-2	took	O	O	VBD	O
+13-3	a	O	O	DT	O
+13-4	little	O	O	JJ	O
+13-5	while	13-2_dobj	took	NN	O
+13-6	to	13-7_aux	do	TO	O
+13-7	do	13-2_vmod	took	VB	O
+13-8	,	O	O	O	O
+13-9	but	O	O	O	O
+13-10	it	O	O	PRP	O
+13-11	was	O	O	VBD	O
+13-12	better	13-2_conj_but	took	JJR	O
+13-13	than	O	O	O	O
+13-14	buying	O	O	VBG	O
+13-15	an	O	O	DT	O
+13-16	all	O	O	RB	O
+13-17	new	O	O	JJ	O
+13-18	tire	13-14_dobj	buying	NN	P1_tire
+13-19	.	O	O	O	O

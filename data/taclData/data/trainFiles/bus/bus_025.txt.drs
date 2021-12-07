@@ -1,0 +1,288 @@
+#id=1
+#text=I ride the bus to school everyday . 
+1-1	I	1-2_nsubj	ride	PRP	P1_passenger
+1-2	ride	O	O	VBP	O
+1-3	the	O	O	DT	O
+1-4	bus	1-2_iobj	ride	NN	P1_bus
+1-5	to	O	O	O	O
+1-6	school	O	O	NN	P1_destination
+1-7	everyday	1-2_dobj	ride	NN	P1_time/date
+1-8	.	O	O	O	O
+
+#id=2
+#text=I live in New York City so riding the bus is a common thing . 
+2-1	I	2-2_nsubj	live	PRP	P1_passenger
+2-2	live	O	O	VBP	O
+2-3	in	O	O	O	O
+2-4	New	O	O	NNP	O
+2-5	York	O	O	NNP	O
+2-6	City	2-2_prep_in	live	NNP	P1_NPart_city
+2-7	so	O	O	IN	O
+2-8	riding	O	O	VBG	O
+2-9	the	O	O	DT	O
+2-10	bus	2-8_dobj	riding	NN	P1_bus
+2-11	is	O	O	VBZ	O
+2-12	a	O	O	DT	O
+2-13	common	O	O	JJ	O
+2-14	thing	2-2_advcl	live	NN	P1_NPart_thing
+2-15	.	O	O	O	O
+
+#id=3
+#text=Everyone does it because it is convenient . 
+3-1	Everyone	3-2_nsubj	does	NN	P2_passenger
+3-2	does	O	O	VBZ	O
+3-3	it	3-2_dobj	does	PRP	O
+3-4	because	O	O	IN	O
+3-5	it	O	O	PRP	O
+3-6	is	O	O	VBZ	O
+3-7	convenient	3-2_advcl	does	JJ	O
+3-8	.	O	O	O	O
+
+#id=4
+#text=In our city , it is very packed , so driving is n't as convenient or affordable . 
+4-1	In	O	O	O	O
+4-2	our	O	O	PRP$	P2_passenger
+4-3	city	4-8_prep_in	packed	NN	P2_NPart_city
+4-4	,	O	O	O	O
+4-5	it	4-8_nsubjpass	packed	PRP	O
+4-6	is	4-8_auxpass	packed	VBZ	O
+4-7	very	4-8_advmod	packed	RB	O
+4-8	packed	O	O	VBN	O
+4-9	,	O	O	O	O
+4-10	so	O	O	IN	O
+4-11	driving	O	O	NN	O
+4-12	is	O	O	VBZ	O
+4-13	n't	O	O	RB	O
+4-14	as	O	O	RB	O
+4-15	convenient	4-8_advcl	packed	JJ	O
+4-16	or	O	O	O	O
+4-17	affordable	O	O	JJ	O
+4-18	.	O	O	O	O
+
+#id=5
+#text=Parking is expensive so public transportation saves us a lot of money . 
+5-1	Parking	O	O	NNP	O
+5-2	is	O	O	VBZ	O
+5-3	expensive	O	O	JJ	O
+5-4	so	5-7_mark	saves	IN	O
+5-5	public	O	O	JJ	O
+5-6	transportation	5-7_nsubj	saves	NN	P1_bus
+5-7	saves	O	O	VBZ	O
+5-8	us	5-7_iobj	saves	PRP	P3_passenger
+5-9	a	O	O	DT	O
+5-10	lot	5-7_dobj	saves	NN	O
+5-11	of	O	O	O	O
+5-12	money	O	O	NN	P1_money
+5-13	.	O	O	O	O
+
+#id=6
+#text=Every morning when I go to school , I wait by the bus stop . 
+6-1	Every	O	O	DT	O
+6-2	morning	6-10_tmod	wait	NN	P1_NPart_morning
+6-3	when	6-5_advmod	go	WRB	O
+6-4	I	6-5_nsubj	go	PRP	P1_passenger
+6-5	go	6-10_advcl	wait	VBP	O
+6-6	to	O	O	O	O
+6-7	school	6-5_prep_to	go	NN	P2_destination
+6-8	,	O	O	O	O
+6-9	I	6-10_nsubj	wait	PRP	P1_passenger
+6-10	wait	O	O	VBP	O
+6-11	by	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	bus	O	O	NN	O
+6-14	stop	6-10_prep_by	wait	NN	P1_bus_stop
+6-15	.	O	O	O	O
+
+#id=7
+#text=The morning bus comes every ten minutes . 
+7-1	The	O	O	DT	O
+7-2	morning	O	O	NN	P2_NPart_morning
+7-3	bus	7-4_nsubj	comes	NN	P1_bus
+7-4	comes	O	O	VBZ	O
+7-5	every	O	O	DT	O
+7-6	ten	O	O	CD	O
+7-7	minutes	7-4_dobj	comes	NNS	P2_time/date
+7-8	.	O	O	O	O
+
+#id=8
+#text=Once it arrives I board onto the bus and I insert my metro card . 
+8-1	Once	8-3_mark	arrives	IN	O
+8-2	it	8-3_nsubj	arrives	PRP	P1_bus
+8-3	arrives	8-11_csubj	insert	VBZ	O
+8-4	I	8-5_nsubj	board	PRP	P1_passenger
+8-5	board	8-3_ccomp	arrives	VB	O
+8-6	onto	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	bus	8-5_prep_onto	board	NN	P1_bus
+8-9	and	O	O	O	O
+8-10	I	O	O	PRP	P1_passenger
+8-11	insert	O	O	VB	O
+8-12	my	O	O	PRP$	P1_passenger
+8-13	metro	O	O	NN	O
+8-14	card	8-11_dobj	insert	NN	P1_card/ticket
+8-15	.	O	O	O	O
+
+#id=9
+#text=The metro card has a balance of money stored inside it . 
+9-1	The	O	O	DT	O
+9-2	metro	O	O	NN	O
+9-3	card	9-4_nsubj	has	NN	P1_card/ticket
+9-4	has	O	O	VBZ	O
+9-5	a	O	O	DT	O
+9-6	balance	9-4_dobj	has	NN	P1_NPart_balance
+9-7	of	O	O	O	O
+9-8	money	O	O	NN	P2_money
+9-9	stored	O	O	VBN	O
+9-10	inside	O	O	O	O
+9-11	it	9-9_prep_inside	stored	PRP	P1_card/ticket
+9-12	.	O	O	O	O
+
+#id=10
+#text=This money is subtracted from the balance every time I ride the bus and insert my metro card . 
+10-1	This	O	O	DT	O
+10-2	money	10-4_nsubjpass	subtracted	NN	P2_money
+10-3	is	10-4_auxpass	subtracted	VBZ	O
+10-4	subtracted	O	O	VBN	O
+10-5	from	O	O	O	O
+10-6	the	O	O	DT	O
+10-7	balance	10-4_prep_from	subtracted	NN	P2_NPart_balance
+10-8	every	O	O	DT	O
+10-9	time	10-4_dobj	subtracted	NN	P1_NPart_time
+10-10	I	10-11_nsubj	ride	PRP	P1_passenger
+10-11	ride	O	O	VB	O
+10-12	the	O	O	DT	O
+10-13	bus	10-11_dobj	ride	NN	P2_bus
+10-14	and	O	O	O	O
+10-15	insert	10-11_conj_and	ride	VB	O
+10-16	my	O	O	PRP$	P1_passenger
+10-17	metro	O	O	NN	O
+10-18	card	10-15_dobj	insert	NN	P1_card/ticket
+10-19	.	O	O	O	O
+
+#id=11
+#text=Basically the metro card pays for the bus ride . 
+11-1	Basically	11-5_advmod	pays	RB	O
+11-2	the	O	O	DT	O
+11-3	metro	O	O	NN	O
+11-4	card	11-5_nsubj	pays	NN	P1_card/ticket
+11-5	pays	O	O	VBZ	O
+11-6	for	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	bus	O	O	NN	O
+11-9	ride	11-5_prep_for	pays	NN	P1_ride
+11-10	.	O	O	O	O
+
+#id=12
+#text=When I run out of money , I go to a metro card machine and put more money into my balance . 
+12-1	When	12-3_advmod	run	WRB	O
+12-2	I	12-3_nsubj	run	PRP	P1_passenger
+12-3	run	12-9_advcl	go	VBP	O
+12-4	out	O	O	O	O
+12-5	of	O	O	O	O
+12-6	money	12-3_prep_out_of	run	NN	P2_money
+12-7	,	O	O	O	O
+12-8	I	12-9_nsubj	go	PRP	P1_passenger
+12-9	go	O	O	VBP	O
+12-10	to	O	O	O	O
+12-11	a	O	O	DT	O
+12-12	metro	O	O	NN	O
+12-13	card	O	O	NN	O
+12-14	machine	12-9_prep_to	go	NN	P1_payment_machine
+12-15	and	O	O	O	O
+12-16	put	12-9_conj_and	go	VBD	O
+12-17	more	O	O	JJR	O
+12-18	money	12-16_dobj	put	NN	P2_money
+12-19	into	O	O	O	O
+12-20	my	O	O	PRP$	P1_passenger
+12-21	balance	12-16_prep_into	put	NN	P3_NPart_balance
+12-22	.	O	O	O	O
+
+#id=13
+#text=Riding the bus is annoying sometimes . 
+13-1	Riding	O	O	VBG	O
+13-2	the	O	O	DT	O
+13-3	bus	13-1_dobj	Riding	NN	P1_bus
+13-4	is	O	O	VBZ	O
+13-5	annoying	O	O	JJ	O
+13-6	sometimes	O	O	RB	O
+13-7	.	O	O	O	O
+
+#id=14
+#text=In the morning , it is very crowded so sometimes there are n't enough seats for everybody . 
+14-1	In	O	O	O	O
+14-2	the	O	O	DT	O
+14-3	morning	14-8_prep_in	crowded	NN	P3_time/date
+14-4	,	O	O	O	O
+14-5	it	14-8_nsubjpass	crowded	PRP	P1_bus
+14-6	is	14-8_auxpass	crowded	VBZ	O
+14-7	very	14-8_advmod	crowded	RB	O
+14-8	crowded	O	O	VBN	O
+14-9	so	14-8_dep	crowded	IN	O
+14-10	sometimes	14-12_advmod	are	RB	O
+14-11	there	14-12_expl	are	EX	O
+14-12	are	14-8_parataxis	crowded	VBP	O
+14-13	n't	14-12_neg	are	RB	O
+14-14	enough	O	O	JJ	O
+14-15	seats	14-12_nsubj	are	NNS	P1_seat_in_bus
+14-16	for	O	O	O	O
+14-17	everybody	O	O	NN	P4_passenger
+14-18	.	O	O	O	O
+
+#id=15
+#text=This means I have to stand while holding on to a pole . 
+15-1	This	15-2_nsubj	means	DT	O
+15-2	means	O	O	VBZ	O
+15-3	I	15-4_nsubj	have	PRP	P1_passenger
+15-4	have	15-2_ccomp	means	VBP	O
+15-5	to	15-6_aux	stand	TO	O
+15-6	stand	15-4_xcomp	have	VB	O
+15-7	while	15-8_mark	holding	IN	O
+15-8	holding	15-6_advcl	stand	VBG	O
+15-9	on	15-8_prt	holding	RP	O
+15-10	to	O	O	O	O
+15-11	a	O	O	DT	O
+15-12	pole	15-8_prep_to	holding	NN	P1_rail
+15-13	.	O	O	O	O
+
+#id=16
+#text=Sometimes its so crowded that I am sandwiched in between people . 
+16-1	Sometimes	16-4_advmod	crowded	RB	O
+16-2	its	16-4_nsubj	crowded	PRP$	P1_bus
+16-3	so	16-4_advmod	crowded	RB	O
+16-4	crowded	O	O	VBD	O
+16-5	that	16-8_mark	sandwiched	IN	O
+16-6	I	16-8_nsubj	sandwiched	PRP	P1_passenger
+16-7	am	16-8_aux	sandwiched	VBP	O
+16-8	sandwiched	16-4_ccomp	crowded	VBG	O
+16-9	in	16-8_prt	sandwiched	RP	O
+16-10	between	O	O	O	O
+16-11	people	16-8_prep_between	sandwiched	NNS	P5_passenger
+16-12	.	O	O	O	O
+
+#id=17
+#text=If I am lucky , sometimes there will be open seats . 
+17-1	If	O	O	IN	O
+17-2	I	O	O	PRP	P1_passenger
+17-3	am	O	O	VBP	O
+17-4	lucky	O	O	JJ	O
+17-5	,	O	O	O	O
+17-6	sometimes	O	O	RB	O
+17-7	there	O	O	EX	O
+17-8	will	O	O	MD	O
+17-9	be	O	O	VB	O
+17-10	open	O	O	JJ	O
+17-11	seats	O	O	NNS	P1_seat_in_bus
+17-12	.	O	O	O	O
+
+#id=18
+#text=Otherwise , I have to stand for 40 minutes . 
+18-1	Otherwise	18-4_advmod	have	RB	O
+18-2	,	O	O	O	O
+18-3	I	18-4_nsubj	have	PRP	P1_passenger
+18-4	have	O	O	VBP	O
+18-5	to	18-6_aux	stand	TO	O
+18-6	stand	18-4_xcomp	have	VB	O
+18-7	for	O	O	O	O
+18-8	40	O	O	CD	O
+18-9	minutes	18-6_prep_for	stand	NNS	P4_time/date
+18-10	.	O	O	O	O

@@ -1,0 +1,226 @@
+#id=1
+#text=I am an avid gardener . 
+1-1	I	O	O	PRP	P1_gardener
+1-2	am	O	O	VBP	O
+1-3	an	O	O	DT	O
+1-4	avid	O	O	JJ	O
+1-5	gardener	O	O	NN	P1_gardener
+1-6	.	O	O	O	O
+
+#id=2
+#text=I have a large garden and lots of flower beds . 
+2-1	I	2-2_nsubj	have	PRP	P1_gardener
+2-2	have	O	O	VBP	O
+2-3	a	O	O	DT	O
+2-4	large	O	O	JJ	O
+2-5	garden	2-2_dobj	have	NN	P1_NPart_garden
+2-6	and	O	O	O	O
+2-7	lots	O	O	NNS	O
+2-8	of	O	O	O	O
+2-9	flower	O	O	NN	O
+2-10	beds	O	O	NNS	P1_NPart_beds
+2-11	.	O	O	O	O
+
+#id=3
+#text=But this year I wanted to plant some small fruit trees in my garden . 
+3-1	But	3-5_cc	wanted	CC	O
+3-2	this	O	O	DT	O
+3-3	year	3-5_tmod	wanted	NN	P1_NPart_year
+3-4	I	3-5_nsubj	wanted	PRP	P1_gardener
+3-5	wanted	O	O	VBD	O
+3-6	to	3-7_aux	plant	TO	O
+3-7	plant	3-5_xcomp	wanted	VB	O
+3-8	some	O	O	DT	O
+3-9	small	O	O	JJ	O
+3-10	fruit	O	O	NN	O
+3-11	trees	3-7_dobj	plant	NNS	P1_tree
+3-12	in	O	O	O	O
+3-13	my	O	O	PRP$	P1_gardener
+3-14	garden	3-7_prep_in	plant	NN	P2_NPart_garden
+3-15	.	O	O	O	O
+
+#id=4
+#text=I went to the nursery and picked out a small dwarf apple tree I wanted to plant . 
+4-1	I	4-2_nsubj	went	PRP	P1_gardener
+4-2	went	O	O	VBD	O
+4-3	to	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	nursery	4-2_prep_to	went	NN	P1_shop
+4-6	and	O	O	O	O
+4-7	picked	4-2_conj_and	went	VBD	O
+4-8	out	4-7_prt	picked	RP	O
+4-9	a	O	O	DT	O
+4-10	small	O	O	JJ	O
+4-11	dwarf	O	O	NN	O
+4-12	apple	O	O	NN	O
+4-13	tree	4-7_dobj	picked	NN	P1_tree
+4-14	I	4-15_nsubj	wanted	PRP	P1_gardener
+4-15	wanted	O	O	VBD	O
+4-16	to	O	O	O	O
+4-17	plant	4-7_prep_to	picked	NN	O
+4-18	.	O	O	O	O
+
+#id=5
+#text=The tree was young and was basically a very small trunk with two branches . 
+5-1	The	O	O	DT	O
+5-2	tree	O	O	NN	P1_tree
+5-3	was	O	O	VBD	O
+5-4	young	O	O	JJ	O
+5-5	and	O	O	O	O
+5-6	was	O	O	VBD	O
+5-7	basically	O	O	RB	O
+5-8	a	O	O	DT	O
+5-9	very	O	O	RB	O
+5-10	small	O	O	JJ	O
+5-11	trunk	O	O	NN	P1_NPart_trunk
+5-12	with	O	O	O	O
+5-13	two	O	O	CD	O
+5-14	branches	O	O	NNS	P1_NPart_branches
+5-15	.	O	O	O	O
+
+#id=6
+#text=I brought it home and read the instructions for planting it . 
+6-1	I	6-2_nsubj	brought	PRP	P1_gardener
+6-2	brought	O	O	VBD	O
+6-3	it	6-2_dobj	brought	PRP	P1_tree
+6-4	home	6-2_advmod	brought	RB	P1_NPart_home
+6-5	and	O	O	O	O
+6-6	read	6-2_conj_and	brought	VBD	O
+6-7	the	O	O	DT	O
+6-8	instructions	6-6_dobj	read	NNS	P1_NPart_instructions
+6-9	for	O	O	O	O
+6-10	planting	6-6_prepc_for	read	VBG	O
+6-11	it	6-10_dobj	planting	PRP	P1_tree
+6-12	.	O	O	O	O
+
+#id=7
+#text=The whole I needed to dig was 18 inches across and 1 foot deep . 
+7-1	The	O	O	DT	O
+7-2	whole	7-7_nsubj	was	NN	P1_hole
+7-3	I	7-4_nsubj	needed	PRP	P1_gardener
+7-4	needed	O	O	VBD	O
+7-5	to	7-6_aux	dig	TO	O
+7-6	dig	7-4_xcomp	needed	VB	O
+7-7	was	O	O	VBD	O
+7-8	18	O	O	CD	O
+7-9	inches	O	O	NNS	P1_NPart_inches
+7-10	across	7-7_advmod	was	IN	O
+7-11	and	O	O	O	O
+7-12	1	O	O	CD	O
+7-13	foot	O	O	NN	P1_NPart_foot
+7-14	deep	O	O	RB	O
+7-15	.	O	O	O	O
+
+#id=8
+#text=I used my garden shovel to break up the grass and dig the hole . 
+8-1	I	8-2_nsubj	used	PRP	P1_gardener
+8-2	used	O	O	VBD	O
+8-3	my	O	O	PRP$	P1_gardener
+8-4	garden	O	O	NN	O
+8-5	shovel	8-2_dobj	used	NN	P1_gardening_tool
+8-6	to	8-7_aux	break	TO	O
+8-7	break	8-2_vmod	used	VB	O
+8-8	up	8-7_prt	break	RP	O
+8-9	the	O	O	DT	O
+8-10	grass	8-7_dobj	break	NN	P1_NPart_grass
+8-11	and	O	O	O	O
+8-12	dig	8-7_conj_and	break	VB	O
+8-13	the	O	O	DT	O
+8-14	hole	8-12_dobj	dig	NN	P1_hole
+8-15	.	O	O	O	O
+
+#id=9
+#text=I saved the dirt in my wheelbarrow to put back in the whole when I was done . 
+9-1	I	9-2_nsubj	saved	PRP	P1_gardener
+9-2	saved	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	dirt	9-2_dobj	saved	NN	P1_dirt
+9-5	in	O	O	O	O
+9-6	my	O	O	PRP$	P1_gardener
+9-7	wheelbarrow	9-2_prep_in	saved	NN	P2_gardening_tool
+9-8	to	9-9_aux	put	TO	O
+9-9	put	O	O	VB	O
+9-10	back	9-9_prt	put	RP	O
+9-11	in	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	whole	9-9_prep_in	put	NN	P1_hole
+9-14	when	9-17_advmod	done	WRB	O
+9-15	I	9-17_nsubjpass	done	PRP	P1_gardener
+9-16	was	9-17_auxpass	done	VBD	O
+9-17	done	9-9_advcl	put	VBN	O
+9-18	.	O	O	O	O
+
+#id=10
+#text=I put the small tree in the whole and filled the hole with water . 
+10-1	I	10-2_nsubj	put	PRP	P1_gardener
+10-2	put	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	small	O	O	JJ	O
+10-5	tree	10-2_dobj	put	NN	P1_tree
+10-6	in	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	whole	10-2_prep_in	put	NN	P1_hole
+10-9	and	O	O	O	O
+10-10	filled	10-2_conj_and	put	VBD	O
+10-11	the	O	O	DT	O
+10-12	hole	10-10_dobj	filled	NN	P1_hole
+10-13	with	O	O	O	O
+10-14	water	10-10_prep_with	filled	NN	P1_water
+10-15	.	O	O	O	O
+
+#id=11
+#text=When the water had saturated the earth I then shoveled thew leftover dirt back in the hole . 
+11-1	When	11-5_advmod	saturated	WRB	O
+11-2	the	O	O	DT	O
+11-3	water	11-5_nsubj	saturated	NN	P1_water
+11-4	had	11-5_aux	saturated	VBD	O
+11-5	saturated	11-10_advcl	shoveled	VBN	O
+11-6	the	O	O	DT	O
+11-7	earth	11-5_dobj	saturated	NN	P1_NPart_earth
+11-8	I	11-10_nsubj	shoveled	PRP	P1_gardener
+11-9	then	11-10_advmod	shoveled	RB	O
+11-10	shoveled	O	O	VBD	O
+11-11	thew	O	O	JJ	O
+11-12	leftover	O	O	NN	O
+11-13	dirt	11-10_dobj	shoveled	NN	P1_dirt
+11-14	back	11-10_advmod	shoveled	RB	O
+11-15	in	O	O	O	O
+11-16	the	O	O	DT	O
+11-17	hole	11-10_prep_in	shoveled	NN	P1_hole
+11-18	.	O	O	O	O
+
+#id=12
+#text=I was finished in about 15 mintes . 
+12-1	I	12-3_nsubjpass	finished	PRP	P1_gardener
+12-2	was	12-3_auxpass	finished	VBD	O
+12-3	finished	O	O	VBN	O
+12-4	in	O	O	O	O
+12-5	about	O	O	RB	O
+12-6	15	O	O	CD	O
+12-7	mintes	12-3_prep_in	finished	NNS	P1_NPart_mintes
+12-8	.	O	O	O	O
+
+#id=13
+#text=I think I will get several more fruit trees to plant . 
+13-1	I	13-2_nsubj	think	PRP	P1_gardener
+13-2	think	O	O	VBP	O
+13-3	I	13-5_nsubj	get	PRP	P1_gardener
+13-4	will	13-5_aux	get	MD	O
+13-5	get	13-2_ccomp	think	VB	O
+13-6	several	O	O	JJ	O
+13-7	more	O	O	JJR	O
+13-8	fruit	O	O	NN	O
+13-9	trees	13-5_dobj	get	NNS	P2_tree
+13-10	to	13-11_aux	plant	TO	O
+13-11	plant	13-5_xcomp	get	VB	O
+13-12	.	O	O	O	O
+
+#id=14
+#text=It was very easy to do . 
+14-1	It	O	O	PRP	O
+14-2	was	O	O	VBD	O
+14-3	very	O	O	RB	O
+14-4	easy	O	O	JJ	O
+14-5	to	14-6_aux	do	TO	O
+14-6	do	O	O	VB	O
+14-7	.	O	O	O	O

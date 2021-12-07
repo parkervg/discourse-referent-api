@@ -1,0 +1,190 @@
+#id=1
+#text=I had been outside playing basketball for several hours . 
+1-1	I	1-3_nsubj	been	PRP	P1_bather
+1-2	had	1-3_aux	been	VBD	O
+1-3	been	O	O	VBN	O
+1-4	outside	O	O	O	O
+1-5	playing	1-3_prepc_outside	been	VBG	O
+1-6	basketball	1-5_dobj	playing	NN	P1_NPart_basketball
+1-7	for	O	O	O	O
+1-8	several	O	O	JJ	O
+1-9	hours	1-5_prep_for	playing	NNS	P1_NPart_hours
+1-10	.	O	O	O	O
+
+#id=2
+#text=It was a hot day and I got quite sweaty and dirty . 
+2-1	It	O	O	PRP	O
+2-2	was	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	hot	O	O	JJ	O
+2-5	day	O	O	NN	P1_NPart_day
+2-6	and	O	O	O	O
+2-7	I	O	O	PRP	P1_bather
+2-8	got	O	O	VBD	O
+2-9	quite	O	O	RB	O
+2-10	sweaty	O	O	JJ	O
+2-11	and	O	O	O	O
+2-12	dirty	O	O	JJ	O
+2-13	.	O	O	O	O
+
+#id=3
+#text=I was sort from so much activity and just walked through my front door . 
+3-1	I	3-2_nsubj	was	PRP	P1_bather
+3-2	was	O	O	VBD	O
+3-3	sort	3-2_advmod	was	NN	O
+3-4	from	O	O	O	O
+3-5	so	O	O	RB	O
+3-6	much	O	O	JJ	O
+3-7	activity	3-2_prep_from	was	NN	P1_NPart_activity
+3-8	and	O	O	O	O
+3-9	just	3-10_advmod	walked	RB	O
+3-10	walked	3-2_conj_and	was	VBD	O
+3-11	through	O	O	O	O
+3-12	my	O	O	PRP$	P1_bather
+3-13	front	O	O	JJ	O
+3-14	door	3-10_prep_through	walked	NN	P1_NPart_door
+3-15	.	O	O	O	O
+
+#id=4
+#text=The first thing I did when I got to my bathroom was disrobe and started the warm water -- I was going to prepare a bath to soak in it and relax my sore muscles from so much activity while also cleaning the sweat and grime from myself from working up such a sweat . 
+4-1	The	O	O	DT	O
+4-2	first	O	O	JJ	O
+4-3	thing	O	O	NN	O
+4-4	I	4-5_nsubj	did	PRP	P1_bather
+4-5	did	O	O	VBD	O
+4-6	when	4-8_advmod	got	WRB	O
+4-7	I	4-8_nsubj	got	PRP	P1_bather
+4-8	got	4-5_advcl	did	VBD	O
+4-9	to	O	O	O	O
+4-10	my	O	O	PRP$	P1_bather
+4-11	bathroom	4-8_prep_to	got	NN	P1_bathroom
+4-12	was	O	O	VBD	O
+4-13	disrobe	O	O	JJ	O
+4-14	and	O	O	O	O
+4-15	started	O	O	VBD	O
+4-16	the	O	O	DT	O
+4-17	warm	O	O	JJ	O
+4-18	water	4-15_dobj	started	NN	P1_water
+4-19	--	O	O	O	O
+4-20	I	4-22_nsubj	going	PRP	P1_bather
+4-21	was	4-22_aux	going	VBD	O
+4-22	going	O	O	VBG	O
+4-23	to	4-24_aux	prepare	TO	O
+4-24	prepare	4-22_xcomp	going	VB	O
+4-25	a	O	O	DT	O
+4-26	bath	4-24_dobj	prepare	NN	P1_bath
+4-27	to	4-28_aux	soak	TO	O
+4-28	soak	O	O	VB	O
+4-29	in	O	O	O	O
+4-30	it	4-28_prep_in	soak	PRP	P1_bath
+4-31	and	O	O	O	O
+4-32	relax	4-28_conj_and	soak	VB	O
+4-33	my	O	O	PRP$	P1_bather
+4-34	sore	O	O	JJ	O
+4-35	muscles	4-32_dobj	relax	NNS	P1_body_part
+4-36	from	O	O	O	O
+4-37	so	O	O	RB	O
+4-38	much	O	O	JJ	O
+4-39	activity	4-32_prep_from	relax	NN	P2_NPart_activity
+4-40	while	4-42_mark	cleaning	IN	O
+4-41	also	4-42_advmod	cleaning	RB	O
+4-42	cleaning	4-32_advcl	relax	VBG	O
+4-43	the	O	O	DT	O
+4-44	sweat	4-42_dobj	cleaning	NN	P1_NPart_sweat
+4-45	and	O	O	O	O
+4-46	grime	4-32_conj_and	relax	VB	P1_NPart_grime
+4-47	from	O	O	O	O
+4-48	myself	4-46_prep_from	grime	PRP	P1_bather
+4-49	from	O	O	O	O
+4-50	working	4-46_prepc_from	grime	VBG	O
+4-51	up	4-50_prt	working	RP	O
+4-52	such	O	O	PDT	O
+4-53	a	O	O	DT	O
+4-54	sweat	4-50_dobj	working	NN	P2_NPart_sweat
+4-55	.	O	O	O	O
+
+#id=5
+#text=The water filled the bath and I got in and sat in the warm water for the better part of an hour , enjoying the relaxing bath as the ache and tiredness in my muscles washed away . 
+5-1	The	O	O	DT	O
+5-2	water	5-3_nsubj	filled	NN	P1_water
+5-3	filled	O	O	VBD	O
+5-4	the	O	O	DT	O
+5-5	bath	5-3_dobj	filled	NN	P1_bath
+5-6	and	O	O	O	O
+5-7	I	5-8_nsubj	got	PRP	P1_bather
+5-8	got	5-3_conj_and	filled	VBD	O
+5-9	in	5-8_prt	got	RP	O
+5-10	and	O	O	O	O
+5-11	sat	5-8_conj_and	got	VBD	O
+5-12	in	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	warm	O	O	JJ	O
+5-15	water	5-11_prep_in	sat	NN	P1_water
+5-16	for	O	O	O	O
+5-17	the	O	O	DT	O
+5-18	better	O	O	JJR	O
+5-19	part	5-11_prep_for	sat	NN	O
+5-20	of	O	O	O	O
+5-21	an	O	O	DT	O
+5-22	hour	O	O	NN	P1_NPart_hour
+5-23	,	O	O	O	O
+5-24	enjoying	5-11_dep	sat	VBG	O
+5-25	the	O	O	DT	O
+5-26	relaxing	O	O	JJ	O
+5-27	bath	5-24_dobj	enjoying	NN	P1_bath
+5-28	as	O	O	O	O
+5-29	the	O	O	DT	O
+5-30	ache	O	O	NN	P1_NPart_ache
+5-31	and	O	O	O	O
+5-32	tiredness	O	O	NNS	P1_NPart_tiredness
+5-33	in	O	O	O	O
+5-34	my	O	O	PRP$	P1_bather
+5-35	muscles	5-24_prep_in	enjoying	NNS	P1_body_part
+5-36	washed	O	O	VBN	O
+5-37	away	5-36_prt	washed	RP	O
+5-38	.	O	O	O	O
+
+#id=6
+#text=I cleaned my hair with some shampoo and washed my body with a washcloth and rinsed off with the shower head as I was finishing up . 
+6-1	I	6-2_nsubj	cleaned	PRP	P1_bather
+6-2	cleaned	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_bather
+6-4	hair	6-2_dobj	cleaned	NN	P2_body_part
+6-5	with	O	O	O	O
+6-6	some	O	O	DT	O
+6-7	shampoo	6-2_prep_with	cleaned	NN	P1_washing_tools
+6-8	and	O	O	O	O
+6-9	washed	6-2_conj_and	cleaned	VBN	O
+6-10	my	O	O	PRP$	P1_bather
+6-11	body	6-9_dobj	washed	NN	P3_body_part
+6-12	with	O	O	O	O
+6-13	a	O	O	DT	O
+6-14	washcloth	6-9_prep_with	washed	NN	P2_washing_tools
+6-15	and	O	O	O	O
+6-16	rinsed	6-9_conj_and	washed	VBN	O
+6-17	off	6-16_prt	rinsed	RP	O
+6-18	with	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	shower	O	O	NN	O
+6-21	head	6-16_prep_with	rinsed	NN	P1_shower
+6-22	as	6-25_mark	finishing	IN	O
+6-23	I	6-25_nsubj	finishing	PRP	P1_bather
+6-24	was	6-25_aux	finishing	VBD	O
+6-25	finishing	6-16_advcl	rinsed	VBG	O
+6-26	up	6-25_prt	finishing	RP	O
+6-27	.	O	O	O	O
+
+#id=7
+#text=I dried off and sat on the couch for hours later . 
+7-1	I	7-2_nsubj	dried	PRP	P1_bather
+7-2	dried	O	O	VBD	O
+7-3	off	7-2_prt	dried	RP	O
+7-4	and	O	O	O	O
+7-5	sat	7-2_conj_and	dried	VBD	O
+7-6	on	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	couch	7-5_prep_on	sat	NN	P1_NPart_couch
+7-9	for	O	O	O	O
+7-10	hours	O	O	NNS	P2_NPart_hours
+7-11	later	7-5_advmod	sat	RB	O
+7-12	.	O	O	O	O

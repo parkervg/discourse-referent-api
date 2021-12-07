@@ -1,0 +1,198 @@
+#id=1
+#text=The library is one of my favorite places on earth ! 
+1-1	The	O	O	DT	O
+1-2	library	O	O	NN	P1_library
+1-3	is	O	O	VBZ	O
+1-4	one	O	O	CD	O
+1-5	of	O	O	O	O
+1-6	my	O	O	PRP$	P1_customer
+1-7	favorite	O	O	JJ	O
+1-8	places	O	O	NNS	P1_NPart_places
+1-9	on	O	O	O	O
+1-10	earth	O	O	NN	P1_NPart_earth
+1-11	!	O	O	O	O
+
+#id=2
+#text=My Mom takes us to the library at least once a week . 
+2-1	My	O	O	PRP$	P2_customer
+2-2	Mom	2-3_nsubj	takes	NN	P1_NPart_mom
+2-3	takes	O	O	VBZ	O
+2-4	us	2-3_dobj	takes	PRP	P3_customer
+2-5	to	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	library	2-3_prep_to	takes	NN	P1_library
+2-8	at	O	O	IN	O
+2-9	least	O	O	JJS	O
+2-10	once	O	O	RB	O
+2-11	a	O	O	DT	O
+2-12	week	O	O	NN	P1_NPart_week
+2-13	.	O	O	O	O
+
+#id=3
+#text=I like reading so much that my Mom asked the librarian to give me an adult library card so I could check out more books . 
+3-1	I	3-2_nsubj	like	PRP	P2_customer
+3-2	like	O	O	VBP	O
+3-3	reading	3-2_xcomp	like	VBG	O
+3-4	so	O	O	RB	O
+3-5	much	3-3_advmod	reading	RB	O
+3-6	that	3-9_mark	asked	IN	O
+3-7	my	O	O	PRP$	P2_customer
+3-8	Mom	3-9_nsubj	asked	NN	P1_NPart_mom
+3-9	asked	3-3_ccomp	reading	VBD	O
+3-10	the	O	O	DT	O
+3-11	librarian	3-9_dobj	asked	NN	P1_staff
+3-12	to	3-13_aux	give	TO	O
+3-13	give	O	O	VB	O
+3-14	me	3-13_iobj	give	PRP	P2_customer
+3-15	an	O	O	DT	O
+3-16	adult	O	O	JJ	O
+3-17	library	O	O	NN	O
+3-18	card	3-13_dobj	give	NN	P1_library_card
+3-19	so	3-22_mark	check	IN	O
+3-20	I	3-22_nsubj	check	PRP	P2_customer
+3-21	could	3-22_aux	check	MD	O
+3-22	check	3-13_advcl	give	VB	O
+3-23	out	3-22_prt	check	RP	O
+3-24	more	O	O	JJR	O
+3-25	books	3-22_dobj	check	NNS	P1_book
+3-26	.	O	O	O	O
+
+#id=4
+#text=The kids card only allows you to check out two books a week , and only from the children 's room . 
+4-1	The	O	O	DT	O
+4-2	kids	O	O	NNS	O
+4-3	card	4-5_nsubj	allows	NN	P2_library_card
+4-4	only	4-5_advmod	allows	RB	O
+4-5	allows	O	O	VBZ	O
+4-6	you	4-5_dobj	allows	PRP	P2_customer
+4-7	to	4-8_aux	check	TO	O
+4-8	check	4-5_xcomp	allows	VB	O
+4-9	out	4-8_prep	check	IN	O
+4-10	two	O	O	CD	O
+4-11	books	O	O	NNS	P1_book
+4-12	a	O	O	DT	O
+4-13	week	O	O	NN	P2_NPart_week
+4-14	,	O	O	O	O
+4-15	and	O	O	O	O
+4-16	only	O	O	RB	O
+4-17	from	O	O	IN	O
+4-18	the	O	O	DT	O
+4-19	children	O	O	NNS	P1_NPart_children
+4-20	's	O	O	O	O
+4-21	room	O	O	NN	P1_location_library
+4-22	.	O	O	O	O
+
+#id=5
+#text=The adult card gives me all access -LRB- at the librarian 's discretion my mom said -RRB- and six books a week ! 
+5-1	The	O	O	DT	O
+5-2	adult	O	O	JJ	O
+5-3	card	5-4_nsubj	gives	NN	P1_library_card
+5-4	gives	O	O	VBZ	O
+5-5	me	5-4_iobj	gives	PRP	P2_customer
+5-6	all	O	O	DT	O
+5-7	access	5-4_dobj	gives	NN	P1_NPart_access
+5-8	-LRB-	O	O	O	O
+5-9	at	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	librarian	O	O	NN	P1_staff
+5-12	's	O	O	O	O
+5-13	discretion	O	O	NN	P1_NPart_discretion
+5-14	my	O	O	PRP$	P2_customer
+5-15	mom	5-16_nsubj	said	NN	P1_NPart_mom
+5-16	said	O	O	VBD	O
+5-17	-RRB-	O	O	O	O
+5-18	and	O	O	O	O
+5-19	six	O	O	CD	O
+5-20	books	O	O	NNS	P1_book
+5-21	a	O	O	DT	O
+5-22	week	O	O	NN	P3_NPart_week
+5-23	!	O	O	O	O
+
+#id=6
+#text=When I get to the library I like to browse the new releases shelves . 
+6-1	When	6-3_advmod	get	WRB	O
+6-2	I	6-3_nsubj	get	PRP	P2_customer
+6-3	get	6-8_advcl	like	VBP	O
+6-4	to	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	library	6-3_prep_to	get	NN	P1_library
+6-7	I	6-8_nsubj	like	PRP	P2_customer
+6-8	like	O	O	VBP	O
+6-9	to	6-10_aux	browse	TO	O
+6-10	browse	6-8_xcomp	like	VB	O
+6-11	the	O	O	DT	O
+6-12	new	O	O	JJ	O
+6-13	releases	O	O	NNS	O
+6-14	shelves	6-10_dobj	browse	NNS	P1_shelf
+6-15	.	O	O	O	O
+
+#id=7
+#text=Sometimes I ask the librarian for a suggestion . 
+7-1	Sometimes	7-3_advmod	ask	RB	O
+7-2	I	7-3_nsubj	ask	PRP	P2_customer
+7-3	ask	O	O	VBP	O
+7-4	the	O	O	DT	O
+7-5	librarian	7-3_dobj	ask	NN	P1_staff
+7-6	for	O	O	O	O
+7-7	a	O	O	DT	O
+7-8	suggestion	O	O	NN	O
+7-9	.	O	O	O	O
+
+#id=8
+#text=If I have a specific topic I want to read I might do a search on the computer . 
+8-1	If	8-3_mark	have	IN	O
+8-2	I	8-3_nsubj	have	PRP	P2_customer
+8-3	have	8-8_advcl	want	VBP	O
+8-4	a	O	O	DT	O
+8-5	specific	O	O	JJ	O
+8-6	topic	8-3_dobj	have	NN	P1_NPart_topic
+8-7	I	8-8_nsubj	want	PRP	P2_customer
+8-8	want	O	O	VBP	O
+8-9	to	8-10_aux	read	TO	O
+8-10	read	8-8_xcomp	want	VB	O
+8-11	I	8-13_nsubj	do	PRP	P2_customer
+8-12	might	8-13_aux	do	MD	O
+8-13	do	8-10_ccomp	read	VB	O
+8-14	a	O	O	DT	O
+8-15	search	8-13_dobj	do	NN	O
+8-16	on	O	O	O	O
+8-17	the	O	O	DT	O
+8-18	computer	8-13_prep_on	do	NN	P1_institutional_devices
+8-19	.	O	O	O	O
+
+#id=9
+#text=Once I have the books I want I take them up to the librarian along with my library card and she checks me out , reminding me of when the books are due . 
+9-1	Once	9-3_mark	have	IN	O
+9-2	I	9-3_nsubj	have	PRP	P2_customer
+9-3	have	9-7_advcl	want	VBP	O
+9-4	the	O	O	DT	O
+9-5	books	9-3_dobj	have	NNS	P1_book
+9-6	I	9-7_nsubj	want	PRP	P2_customer
+9-7	want	O	O	VBP	O
+9-8	I	9-9_nsubj	take	PRP	P2_customer
+9-9	take	9-7_ccomp	want	VBP	O
+9-10	them	9-9_dobj	take	PRP	P1_book
+9-11	up	9-9_prt	take	RP	O
+9-12	to	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	librarian	9-9_prep_to	take	NN	P1_staff
+9-15	along	O	O	O	O
+9-16	with	O	O	O	O
+9-17	my	O	O	PRP$	P2_customer
+9-18	library	O	O	NN	O
+9-19	card	O	O	NN	P1_library_card
+9-20	and	O	O	O	O
+9-21	she	9-22_nsubj	checks	PRP	P1_staff
+9-22	checks	9-7_conj_and	want	VBZ	O
+9-23	me	O	O	PRP	P2_customer
+9-24	out	9-22_xcomp	checks	RB	O
+9-25	,	O	O	O	O
+9-26	reminding	9-22_xcomp	checks	VBG	O
+9-27	me	9-26_dobj	reminding	PRP	P2_customer
+9-28	of	O	O	O	O
+9-29	when	O	O	WRB	O
+9-30	the	O	O	DT	O
+9-31	books	O	O	NNS	P1_book
+9-32	are	O	O	VBP	O
+9-33	due	9-26_prepc_of	reminding	JJ	O
+9-34	.	O	O	O	O

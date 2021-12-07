@@ -1,0 +1,194 @@
+#id=1
+#text=I usually do n't take the bus to work but today I decided to give it a try since the bus stop is right across the street from my house . 
+1-1	I	1-5_nsubj	take	PRP	P1_passenger
+1-2	usually	1-5_advmod	take	RB	O
+1-3	do	1-5_aux	take	VBP	O
+1-4	n't	1-5_neg	take	RB	O
+1-5	take	O	O	VB	O
+1-6	the	O	O	DT	O
+1-7	bus	1-5_dobj	take	NN	P1_bus
+1-8	to	1-9_aux	work	TO	O
+1-9	work	O	O	VB	P1_destination
+1-10	but	O	O	O	O
+1-11	today	1-13_tmod	decided	NN	P1_NPart_today
+1-12	I	1-13_nsubj	decided	PRP	P1_passenger
+1-13	decided	1-5_conj_but	take	VBD	O
+1-14	to	1-15_aux	give	TO	O
+1-15	give	1-13_xcomp	decided	VB	O
+1-16	it	1-15_iobj	give	PRP	O
+1-17	a	O	O	DT	O
+1-18	try	1-15_dobj	give	NN	P1_NPart_try
+1-19	since	O	O	O	O
+1-20	the	O	O	DT	O
+1-21	bus	O	O	NN	O
+1-22	stop	O	O	NN	P1_bus_stop
+1-23	is	O	O	VBZ	O
+1-24	right	O	O	JJ	O
+1-25	across	O	O	O	O
+1-26	the	O	O	DT	O
+1-27	street	O	O	NN	P1_NPart_street
+1-28	from	O	O	O	O
+1-29	my	O	O	PRP$	P1_passenger
+1-30	house	O	O	NN	P1_NPart_house
+1-31	.	O	O	O	O
+
+#id=2
+#text=When the bus came I greeted the bus driver with a friendly hello and paid my bus fare . 
+2-1	When	2-4_advmod	came	WRB	O
+2-2	the	O	O	DT	O
+2-3	bus	2-4_nsubj	came	NN	P1_bus
+2-4	came	2-6_advcl	greeted	VBD	O
+2-5	I	2-6_nsubj	greeted	PRP	P1_passenger
+2-6	greeted	O	O	VBD	O
+2-7	the	O	O	DT	O
+2-8	bus	O	O	NN	O
+2-9	driver	2-6_dobj	greeted	NN	P1_bus_staff
+2-10	with	O	O	O	O
+2-11	a	O	O	DT	O
+2-12	friendly	O	O	JJ	O
+2-13	hello	2-6_prep_with	greeted	NN	O
+2-14	and	O	O	O	O
+2-15	paid	2-6_conj_and	greeted	VBD	O
+2-16	my	O	O	PRP$	P1_passenger
+2-17	bus	O	O	NN	O
+2-18	fare	2-15_dobj	paid	NN	P1_other
+2-19	.	O	O	O	O
+
+#id=3
+#text=I was lucky enough to find a seat all the way in the back . 
+3-1	I	O	O	PRP	P1_passenger
+3-2	was	O	O	VBD	O
+3-3	lucky	O	O	JJ	O
+3-4	enough	O	O	RB	O
+3-5	to	3-6_aux	find	TO	O
+3-6	find	O	O	VB	O
+3-7	a	O	O	DT	O
+3-8	seat	3-6_iobj	find	NN	P1_seat_in_bus
+3-9	all	O	O	PDT	O
+3-10	the	O	O	DT	O
+3-11	way	3-6_dobj	find	NN	P1_NPart_way
+3-12	in	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	back	O	O	NN	P1_NPart_back
+3-15	.	O	O	O	O
+
+#id=4
+#text=There was a lot of different people on the bus , some were kids going to school others were adults going to work like I was . 
+4-1	There	4-2_expl	was	EX	O
+4-2	was	4-13_ccomp	were	VBD	O
+4-3	a	O	O	DT	O
+4-4	lot	4-2_nsubj	was	NN	O
+4-5	of	O	O	O	O
+4-6	different	O	O	JJ	O
+4-7	people	O	O	NNS	P2_passenger
+4-8	on	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	bus	O	O	NN	P1_bus
+4-11	,	O	O	O	O
+4-12	some	4-13_nsubj	were	DT	O
+4-13	were	O	O	VBD	O
+4-14	kids	4-13_dep	were	NNS	P1_NPart_kids
+4-15	going	O	O	VBG	O
+4-16	to	O	O	O	O
+4-17	school	O	O	NN	O
+4-18	others	4-15_prep_to	going	NNS	P1_NPart_others
+4-19	were	O	O	VBD	O
+4-20	adults	O	O	NNS	P1_NPart_adults
+4-21	going	O	O	VBG	O
+4-22	to	4-23_aux	work	TO	O
+4-23	work	4-21_xcomp	going	VB	O
+4-24	like	4-26_mark	was	IN	O
+4-25	I	4-26_nsubj	was	PRP	P1_passenger
+4-26	was	4-23_advcl	work	VBD	O
+4-27	.	O	O	O	O
+
+#id=5
+#text=I watched the bus come to a stop every few blocks and drop off a few people , but for every person that left a new person got on . 
+5-1	I	5-2_nsubj	watched	PRP	P1_passenger
+5-2	watched	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	bus	5-5_nsubj	come	NN	P1_bus
+5-5	come	5-2_ccomp	watched	VB	O
+5-6	to	O	O	O	O
+5-7	a	O	O	DT	O
+5-8	stop	5-5_prep_to	come	NN	O
+5-9	every	O	O	DT	O
+5-10	few	O	O	JJ	O
+5-11	blocks	O	O	NNS	P1_NPart_blocks
+5-12	and	O	O	O	O
+5-13	drop	5-5_conj_and	come	VB	O
+5-14	off	5-13_prt	drop	RP	O
+5-15	a	O	O	DT	O
+5-16	few	O	O	JJ	O
+5-17	people	5-13_dobj	drop	NNS	P3_passenger
+5-18	,	O	O	O	O
+5-19	but	O	O	O	O
+5-20	for	O	O	O	O
+5-21	every	O	O	DT	O
+5-22	person	5-24_prep_for	left	NN	P4_passenger
+5-23	that	5-24_nsubj	left	DT	O
+5-24	left	5-2_conj_but	watched	VBD	O
+5-25	a	O	O	DT	O
+5-26	new	O	O	JJ	O
+5-27	person	5-28_nsubj	got	NN	P5_passenger
+5-28	got	5-24_ccomp	left	VBD	O
+5-29	on	5-28_prt	got	RP	O
+5-30	.	O	O	O	O
+
+#id=6
+#text=I noticed my stop was near so I pushed the strip on the wall that notifies the bus driver my stop is coming up . 
+6-1	I	6-2_nsubj	noticed	PRP	P1_passenger
+6-2	noticed	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_passenger
+6-4	stop	O	O	NN	P2_bus_stop
+6-5	was	O	O	VBD	O
+6-6	near	6-2_ccomp	noticed	JJ	O
+6-7	so	6-9_mark	pushed	IN	O
+6-8	I	6-9_nsubj	pushed	PRP	P1_passenger
+6-9	pushed	O	O	VBD	O
+6-10	the	O	O	DT	O
+6-11	strip	6-9_dobj	pushed	NN	P1_stop_button/door_opener
+6-12	on	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	wall	6-9_prep_on	pushed	NN	P2_other
+6-15	that	6-16_nsubj	notifies	WDT	O
+6-16	notifies	O	O	VBZ	O
+6-17	the	O	O	DT	O
+6-18	bus	O	O	NN	O
+6-19	driver	6-16_dobj	notifies	NN	P1_bus_staff
+6-20	my	O	O	PRP$	P1_passenger
+6-21	stop	6-23_nsubj	coming	NN	P2_bus_stop
+6-22	is	6-23_aux	coming	VBZ	O
+6-23	coming	O	O	VBG	O
+6-24	up	6-23_prt	coming	RP	O
+6-25	.	O	O	O	O
+
+#id=7
+#text=When he pulled into the next stop I exited the back of the bus and was happy that after 15 minutes I finally reached my destination . 
+7-1	When	7-3_advmod	pulled	WRB	O
+7-2	he	7-3_nsubj	pulled	PRP	P1_bus_staff
+7-3	pulled	7-9_advcl	exited	VBD	O
+7-4	into	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	next	O	O	JJ	O
+7-7	stop	7-3_prep_into	pulled	NN	P2_bus_stop
+7-8	I	7-9_nsubj	exited	PRP	P1_passenger
+7-9	exited	O	O	VBD	O
+7-10	the	O	O	DT	O
+7-11	back	7-9_dobj	exited	NN	P2_NPart_back
+7-12	of	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	bus	O	O	NN	P1_bus
+7-15	and	O	O	O	O
+7-16	was	O	O	VBD	O
+7-17	happy	7-9_conj_and	exited	JJ	O
+7-18	that	7-24_mark	reached	IN	O
+7-19	after	O	O	O	O
+7-20	15	O	O	CD	O
+7-21	minutes	7-24_prep_after	reached	NNS	P1_NPart_minutes
+7-22	I	7-24_nsubj	reached	PRP	P1_passenger
+7-23	finally	7-24_advmod	reached	RB	O
+7-24	reached	O	O	VBD	O
+7-25	my	O	O	PRP$	P6_passenger
+7-26	destination	7-24_dobj	reached	NN	P1_destination
+7-27	.	O	O	O	O

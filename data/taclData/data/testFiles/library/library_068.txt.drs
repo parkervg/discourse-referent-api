@@ -1,0 +1,212 @@
+#id=1
+#text=Yesterday I used my new library card to borrow a book . 
+1-1	Yesterday	1-3_tmod	used	NN	P1_NPart_yesterday
+1-2	I	1-3_nsubj	used	PRP	P1_customer
+1-3	used	O	O	VBD	O
+1-4	my	O	O	PRP$	P1_customer
+1-5	new	O	O	JJ	O
+1-6	library	O	O	NN	O
+1-7	card	1-3_dobj	used	NN	P1_library_card
+1-8	to	1-9_aux	borrow	TO	O
+1-9	borrow	1-3_vmod	used	VB	O
+1-10	a	O	O	DT	O
+1-11	book	1-9_dobj	borrow	NN	P1_book
+1-12	.	O	O	O	O
+
+#id=2
+#text=It was so easy ! 
+2-1	It	O	O	PRP	O
+2-2	was	O	O	VBD	O
+2-3	so	O	O	RB	O
+2-4	easy	O	O	JJ	O
+2-5	!	O	O	O	O
+
+#id=3
+#text=I drove down to the library early in the morning , just as soon as the library opened . 
+3-1	I	3-2_nsubj	drove	PRP	P1_customer
+3-2	drove	O	O	VBD	O
+3-3	down	3-2_advmod	drove	RB	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	library	O	O	NN	P1_library
+3-7	early	3-2_advmod	drove	RB	O
+3-8	in	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	morning	O	O	NN	P1_NPart_morning
+3-11	,	O	O	O	O
+3-12	just	3-18_advmod	opened	RB	O
+3-13	as	3-18_advmod	opened	RB	O
+3-14	soon	3-18_advmod	opened	RB	O
+3-15	as	3-18_mark	opened	IN	O
+3-16	the	O	O	DT	O
+3-17	library	3-18_nsubj	opened	NN	P1_library
+3-18	opened	3-2_advcl	drove	VBD	O
+3-19	.	O	O	O	O
+
+#id=4
+#text=When I entered the library , I said hi to the lady behind the counter , and went over to the science fiction section to look for a book that might catch my fancy . 
+4-1	When	4-3_advmod	entered	WRB	O
+4-2	I	4-3_nsubj	entered	PRP	P1_customer
+4-3	entered	4-8_advcl	said	VBD	O
+4-4	the	O	O	DT	O
+4-5	library	4-3_dobj	entered	NN	P1_library
+4-6	,	O	O	O	O
+4-7	I	4-8_nsubj	said	PRP	P1_customer
+4-8	said	O	O	VBD	O
+4-9	hi	4-8_advmod	said	RB	O
+4-10	to	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	lady	4-8_prep_to	said	NN	P1_staff
+4-13	behind	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	counter	O	O	NN	P1_check-out_desk
+4-16	,	O	O	O	O
+4-17	and	O	O	O	O
+4-18	went	4-8_conj_and	said	VBD	O
+4-19	over	4-18_prt	went	RP	O
+4-20	to	O	O	O	O
+4-21	the	O	O	DT	O
+4-22	science	O	O	NN	O
+4-23	fiction	O	O	NN	P1_NPart_fiction
+4-24	section	4-18_prep_to	went	NN	P1_location_library
+4-25	to	4-26_aux	look	TO	O
+4-26	look	4-18_xcomp	went	VB	O
+4-27	for	O	O	O	O
+4-28	a	O	O	DT	O
+4-29	book	4-26_prep_for	look	NN	P1_book
+4-30	that	4-32_nsubj	catch	WDT	O
+4-31	might	4-32_aux	catch	MD	O
+4-32	catch	O	O	VB	O
+4-33	my	O	O	PRP$	P1_customer
+4-34	fancy	4-32_dobj	catch	NN	O
+4-35	.	O	O	O	O
+
+#id=5
+#text=I soon found a very good looking book about a boy who meets an alien in his backyard . 
+5-1	I	5-3_nsubj	found	PRP	P1_customer
+5-2	soon	5-3_advmod	found	RB	O
+5-3	found	O	O	VBD	O
+5-4	a	O	O	DT	O
+5-5	very	O	O	RB	O
+5-6	good	5-3_dobj	found	JJ	O
+5-7	looking	O	O	VBG	O
+5-8	book	5-7_dobj	looking	NN	P1_book
+5-9	about	O	O	O	O
+5-10	a	O	O	DT	O
+5-11	boy	5-7_prep_about	looking	NN	P1_NPart_boy
+5-12	who	5-13_nsubj	meets	WP	O
+5-13	meets	O	O	VBZ	O
+5-14	an	O	O	DT	O
+5-15	alien	5-13_dobj	meets	NN	P1_NPart_alien
+5-16	in	O	O	O	O
+5-17	his	O	O	PRP$	P1_NPart_his
+5-18	backyard	O	O	NN	P1_NPart_backyard
+5-19	.	O	O	O	O
+
+#id=6
+#text=I really wanted to read the book , but I knew it would take me a few days , so I decided to borrow it for awhile . 
+6-1	I	6-3_nsubj	wanted	PRP	P1_customer
+6-2	really	6-3_advmod	wanted	RB	O
+6-3	wanted	O	O	VBD	O
+6-4	to	6-5_aux	read	TO	O
+6-5	read	6-3_xcomp	wanted	VB	O
+6-6	the	O	O	DT	O
+6-7	book	6-5_dobj	read	NN	P1_book
+6-8	,	O	O	O	O
+6-9	but	O	O	O	O
+6-10	I	6-11_nsubj	knew	PRP	P1_customer
+6-11	knew	6-3_conj_but	wanted	VBD	O
+6-12	it	6-14_nsubj	take	PRP	O
+6-13	would	6-14_aux	take	MD	O
+6-14	take	6-11_ccomp	knew	VB	O
+6-15	me	6-14_dobj	take	PRP	P1_customer
+6-16	a	O	O	DT	O
+6-17	few	O	O	JJ	O
+6-18	days	6-14_tmod	take	NNS	P1_NPart_days
+6-19	,	O	O	O	O
+6-20	so	6-22_mark	decided	IN	O
+6-21	I	6-22_nsubj	decided	PRP	P1_customer
+6-22	decided	6-14_advcl	take	VBD	O
+6-23	to	6-24_aux	borrow	TO	O
+6-24	borrow	6-22_xcomp	decided	VB	O
+6-25	it	6-24_dobj	borrow	PRP	P1_book
+6-26	for	6-24_prep	borrow	IN	O
+6-27	awhile	O	O	RB	O
+6-28	.	O	O	O	O
+
+#id=7
+#text=I brought the book up to the lady at the counter , and she asked me for my library card . 
+7-1	I	7-2_nsubj	brought	PRP	P1_customer
+7-2	brought	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	book	7-2_dobj	brought	NN	P1_book
+7-5	up	7-2_prt	brought	RP	O
+7-6	to	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	lady	7-2_prep_to	brought	NN	P1_staff
+7-9	at	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	counter	O	O	NN	P1_check-out_desk
+7-12	,	O	O	O	O
+7-13	and	O	O	O	O
+7-14	she	7-15_nsubj	asked	PRP	P1_staff
+7-15	asked	7-2_conj_and	brought	VBD	O
+7-16	me	7-15_dobj	asked	PRP	P1_customer
+7-17	for	O	O	O	O
+7-18	my	O	O	PRP$	P1_customer
+7-19	library	O	O	NN	O
+7-20	card	7-15_prep_for	asked	NN	P1_library_card
+7-21	.	O	O	O	O
+
+#id=8
+#text=I showed it to her , and she entered some information in the computer . 
+8-1	I	8-2_nsubj	showed	PRP	P1_customer
+8-2	showed	O	O	VBD	O
+8-3	it	8-2_dobj	showed	PRP	P1_library_card
+8-4	to	O	O	O	O
+8-5	her	8-2_prep_to	showed	PRP	P1_staff
+8-6	,	O	O	O	O
+8-7	and	O	O	O	O
+8-8	she	8-9_nsubj	entered	PRP	P1_staff
+8-9	entered	8-2_conj_and	showed	VBD	O
+8-10	some	O	O	DT	O
+8-11	information	8-9_dobj	entered	NN	P1_NPart_information
+8-12	in	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	computer	8-9_prep_in	entered	NN	P1_institutional_devices
+8-15	.	O	O	O	O
+
+#id=9
+#text=She told me to bring the book back in one week . 
+9-1	She	9-2_nsubj	told	PRP	P1_staff
+9-2	told	O	O	VBD	O
+9-3	me	9-2_dobj	told	PRP	P1_customer
+9-4	to	9-5_aux	bring	TO	O
+9-5	bring	9-2_xcomp	told	VB	O
+9-6	the	O	O	DT	O
+9-7	book	9-5_dobj	bring	NN	P1_book
+9-8	back	9-5_advmod	bring	RB	O
+9-9	in	O	O	O	O
+9-10	one	9-5_prep_in	bring	CD	O
+9-11	week	9-5_tmod	bring	NN	P1_NPart_week
+9-12	.	O	O	O	O
+
+#id=10
+#text=I promised I would , then I thanked her and went home to read the book ! 
+10-1	I	10-2_nsubj	promised	PRP	P1_customer
+10-2	promised	O	O	VBD	O
+10-3	I	O	O	PRP	P1_customer
+10-4	would	10-2_ccomp	promised	MD	O
+10-5	,	O	O	O	O
+10-6	then	10-8_advmod	thanked	RB	O
+10-7	I	10-8_nsubj	thanked	PRP	P1_customer
+10-8	thanked	10-2_parataxis	promised	VBD	O
+10-9	her	10-8_dobj	thanked	PRP	P1_staff
+10-10	and	O	O	O	O
+10-11	went	10-8_conj_and	thanked	VBD	O
+10-12	home	10-11_dobj	went	NN	O
+10-13	to	10-14_aux	read	TO	O
+10-14	read	10-11_vmod	went	VB	O
+10-15	the	O	O	DT	O
+10-16	book	10-14_dobj	read	NN	P1_book
+10-17	!	O	O	O	O

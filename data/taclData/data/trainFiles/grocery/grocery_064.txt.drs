@@ -1,0 +1,199 @@
+#id=1
+#text=There are six people living in my house , so going grocery shopping is usually a weekly occurrence . 
+1-1	There	1-2_expl	are	EX	O
+1-2	are	O	O	VBP	O
+1-3	six	O	O	CD	O
+1-4	people	1-2_nsubj	are	NNS	P1_NPart_people
+1-5	living	O	O	VBG	O
+1-6	in	O	O	O	O
+1-7	my	O	O	PRP$	P1_shopper
+1-8	house	1-5_prep_in	living	NN	P1_NPart_house
+1-9	,	O	O	O	O
+1-10	so	1-2_dep	are	IN	O
+1-11	going	O	O	VBG	O
+1-12	grocery	O	O	NN	O
+1-13	shopping	1-11_dobj	going	NN	O
+1-14	is	O	O	VBZ	O
+1-15	usually	O	O	RB	O
+1-16	a	O	O	DT	O
+1-17	weekly	O	O	JJ	O
+1-18	occurrence	1-2_parataxis	are	NN	P1_NPart_occurrence
+1-19	.	O	O	O	O
+
+#id=2
+#text=I do n't mind doing it though , because I like picking out what food to buy . 
+2-1	I	2-4_nsubj	mind	PRP	P2_shopper
+2-2	do	2-4_aux	mind	VBP	O
+2-3	n't	2-4_neg	mind	RB	O
+2-4	mind	O	O	VB	O
+2-5	doing	2-4_xcomp	mind	VBG	O
+2-6	it	2-5_dobj	doing	PRP	O
+2-7	though	2-5_advmod	doing	RB	O
+2-8	,	O	O	O	O
+2-9	because	2-11_mark	like	IN	O
+2-10	I	2-11_nsubj	like	PRP	P2_shopper
+2-11	like	2-5_advcl	doing	VBP	O
+2-12	picking	2-11_xcomp	like	VBG	O
+2-13	out	2-12_prt	picking	RP	O
+2-14	what	O	O	WDT	O
+2-15	food	2-12_dobj	picking	NN	P1_groceries
+2-16	to	2-17_aux	buy	TO	O
+2-17	buy	2-12_vmod	picking	VB	O
+2-18	.	O	O	O	O
+
+#id=3
+#text=I usually go on the morning with my sister . 
+3-1	I	3-3_nsubj	go	PRP	P2_shopper
+3-2	usually	3-3_advmod	go	RB	O
+3-3	go	O	O	VBP	O
+3-4	on	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	morning	3-3_prep_on	go	NN	P1_NPart_morning
+3-7	with	O	O	O	O
+3-8	my	O	O	PRP$	P2_shopper
+3-9	sister	O	O	NN	P3_shopper
+3-10	.	O	O	O	O
+
+#id=4
+#text=We get in the car and drive over to the closest grocery store which is about three miles away . 
+4-1	We	4-2_nsubj	get	PRP	P4_shopper
+4-2	get	O	O	VB	O
+4-3	in	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	car	4-2_prep_in	get	NN	P1_vehicle
+4-6	and	O	O	O	O
+4-7	drive	4-2_conj_and	get	VB	O
+4-8	over	4-7_prt	drive	RP	O
+4-9	to	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	closest	O	O	JJS	O
+4-12	grocery	O	O	NN	O
+4-13	store	4-7_prep_to	drive	NN	P1_grocery_shop
+4-14	which	4-15_nsubj	is	WDT	P1_grocery_shop
+4-15	is	O	O	VBZ	O
+4-16	about	O	O	RB	O
+4-17	three	O	O	CD	O
+4-18	miles	O	O	NNS	P1_NPart_miles
+4-19	away	4-15_advmod	is	RB	O
+4-20	.	O	O	O	O
+
+#id=5
+#text=We also take a list of items with us so we do n't forget what we need to buy . 
+5-1	We	5-3_nsubj	take	PRP	P4_shopper
+5-2	also	5-3_advmod	take	RB	O
+5-3	take	O	O	VBP	O
+5-4	a	O	O	DT	O
+5-5	list	5-3_dobj	take	NN	P1_grocery_list
+5-6	of	O	O	O	O
+5-7	items	O	O	NNS	P2_groceries
+5-8	with	O	O	O	O
+5-9	us	O	O	PRP	P4_shopper
+5-10	so	5-14_mark	forget	IN	O
+5-11	we	5-14_nsubj	forget	PRP	P4_shopper
+5-12	do	5-14_aux	forget	VBP	O
+5-13	n't	5-14_neg	forget	RB	O
+5-14	forget	5-3_advcl	take	VB	O
+5-15	what	5-17_dobj	need	WP	O
+5-16	we	5-17_nsubj	need	PRP	P4_shopper
+5-17	need	5-14_ccomp	forget	VBP	O
+5-18	to	5-19_aux	buy	TO	O
+5-19	buy	5-17_xcomp	need	VB	O
+5-20	.	O	O	O	O
+
+#id=6
+#text=When we arrive at the store we park the car and get out . 
+6-1	When	6-3_advmod	arrive	WRB	O
+6-2	we	6-3_nsubj	arrive	PRP	P4_shopper
+6-3	arrive	6-8_advcl	park	VBP	O
+6-4	at	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	store	6-3_prep_at	arrive	NN	P1_grocery_shop
+6-7	we	6-8_nsubj	park	PRP	P4_shopper
+6-8	park	O	O	VBZ	O
+6-9	the	O	O	DT	O
+6-10	car	6-8_dobj	park	NN	P1_vehicle
+6-11	and	O	O	O	O
+6-12	get	6-8_conj_and	park	VBP	O
+6-13	out	6-12_prt	get	RP	O
+6-14	.	O	O	O	O
+
+#id=7
+#text=I will grab a shopping cart near the store entrance and then we go inside . 
+7-1	I	7-3_nsubj	grab	PRP	P2_shopper
+7-2	will	7-3_aux	grab	MD	O
+7-3	grab	O	O	VB	O
+7-4	a	O	O	DT	O
+7-5	shopping	O	O	NN	O
+7-6	cart	7-3_dobj	grab	NN	P1_shopping_cart/basket
+7-7	near	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	store	O	O	NN	O
+7-10	entrance	O	O	NN	P1_other
+7-11	and	O	O	O	O
+7-12	then	7-14_advmod	go	RB	O
+7-13	we	7-14_nsubj	go	PRP	P4_shopper
+7-14	go	7-3_conj_and	grab	VBP	O
+7-15	inside	7-14_advmod	go	RB	O
+7-16	.	O	O	O	O
+
+#id=8
+#text=We then take a look at our shopping list and begin gathering all the items . 
+8-1	We	8-3_nsubj	take	PRP	P4_shopper
+8-2	then	8-3_advmod	take	RB	O
+8-3	take	O	O	VB	O
+8-4	a	O	O	DT	O
+8-5	look	8-3_dobj	take	NN	O
+8-6	at	O	O	O	O
+8-7	our	O	O	PRP$	P5_shopper
+8-8	shopping	O	O	NN	O
+8-9	list	8-3_prep_at	take	NN	P1_grocery_list
+8-10	and	O	O	O	O
+8-11	begin	8-3_conj_and	take	VB	O
+8-12	gathering	8-11_xcomp	begin	VBG	O
+8-13	all	O	O	PDT	O
+8-14	the	O	O	DT	O
+8-15	items	8-12_dobj	gathering	NNS	P2_groceries
+8-16	.	O	O	O	O
+
+#id=9
+#text=It takes us about 30 minutes to find everything . 
+9-1	It	9-2_nsubj	takes	PRP	O
+9-2	takes	O	O	VBZ	O
+9-3	us	9-2_dobj	takes	PRP	P6_shopper
+9-4	about	O	O	O	O
+9-5	30	O	O	CD	O
+9-6	minutes	9-2_prep_about	takes	NNS	P1_NPart_minutes
+9-7	to	9-8_aux	find	TO	O
+9-8	find	9-2_vmod	takes	VB	O
+9-9	everything	9-8_dobj	find	NN	P2_groceries
+9-10	.	O	O	O	O
+
+#id=10
+#text=We then go to the checkout and pay for all the stuff . 
+10-1	We	10-3_nsubj	go	PRP	P4_shopper
+10-2	then	10-3_advmod	go	RB	O
+10-3	go	O	O	VB	O
+10-4	to	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	checkout	10-3_prep_to	go	NN	P1_cash_desk
+10-7	and	O	O	O	O
+10-8	pay	10-3_conj_and	go	VB	O
+10-9	for	O	O	O	O
+10-10	all	O	O	PDT	O
+10-11	the	O	O	DT	O
+10-12	stuff	10-8_prep_for	pay	NN	P2_groceries
+10-13	.	O	O	O	O
+
+#id=11
+#text=Then we go back to our car and drive home . 
+11-1	Then	11-3_advmod	go	RB	O
+11-2	we	11-3_nsubj	go	PRP	P4_shopper
+11-3	go	O	O	VBP	O
+11-4	back	11-3_advmod	go	RB	O
+11-5	to	O	O	O	O
+11-6	our	O	O	PRP$	P7_shopper
+11-7	car	11-3_prep_to	go	NN	P1_vehicle
+11-8	and	O	O	O	O
+11-9	drive	O	O	NN	O
+11-10	home	O	O	NN	O
+11-11	.	O	O	O	O

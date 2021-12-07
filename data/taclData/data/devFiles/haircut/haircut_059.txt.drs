@@ -1,0 +1,385 @@
+#id=1
+#text=Brandons hair was long . 
+1-1	Brandons	O	O	JJ	P1_customer
+1-2	hair	O	O	NN	P1_hair
+1-3	was	O	O	VBD	O
+1-4	long	O	O	JJ	O
+1-5	.	O	O	O	O
+
+#id=2
+#text=It flopped in his eyes . 
+2-1	It	2-2_nsubj	flopped	PRP	P1_hair
+2-2	flopped	O	O	VBD	O
+2-3	in	O	O	O	O
+2-4	his	O	O	PRP$	P1_customer
+2-5	eyes	2-2_prep_in	flopped	NNS	P1_NPart_eyes
+2-6	.	O	O	O	O
+
+#id=3
+#text=It blew it in the wind . 
+3-1	It	3-2_nsubj	blew	PRP	O
+3-2	blew	O	O	VBD	O
+3-3	it	3-2_dobj	blew	PRP	P1_hair
+3-4	in	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	wind	3-2_prep_in	blew	NN	P1_NPart_wind
+3-7	.	O	O	O	O
+
+#id=4
+#text=He was annoyed at school when he had to push it out of the way to see his paper . 
+4-1	He	O	O	PRP	P1_customer
+4-2	was	O	O	VBD	O
+4-3	annoyed	O	O	JJ	O
+4-4	at	O	O	O	O
+4-5	school	O	O	NN	P1_NPart_school
+4-6	when	4-8_advmod	had	WRB	O
+4-7	he	4-8_nsubj	had	PRP	P1_customer
+4-8	had	O	O	VBD	O
+4-9	to	4-10_aux	push	TO	O
+4-10	push	4-8_xcomp	had	VB	O
+4-11	it	4-10_dobj	push	PRP	P1_hair
+4-12	out	O	O	O	O
+4-13	of	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	way	4-10_prep_out_of	push	NN	O
+4-16	to	4-17_aux	see	TO	O
+4-17	see	4-8_xcomp	had	VB	O
+4-18	his	O	O	PRP$	P1_customer
+4-19	paper	4-17_dobj	see	NN	P1_NPart_paper
+4-20	.	O	O	O	O
+
+#id=5
+#text=So him and his mommy decided to go see the barber . 
+5-1	So	5-6_dep	decided	IN	O
+5-2	him	5-6_nsubj	decided	PRP	P1_customer
+5-3	and	O	O	O	O
+5-4	his	O	O	PRP$	P1_customer
+5-5	mommy	O	O	NN	P1_NPart_mommy
+5-6	decided	O	O	VBD	O
+5-7	to	5-8_aux	go	TO	O
+5-8	go	5-6_xcomp	decided	VB	O
+5-9	see	5-8_xcomp	go	VB	O
+5-10	the	O	O	DT	O
+5-11	barber	5-9_dobj	see	NN	P1_hairdresser
+5-12	.	O	O	O	O
+
+#id=6
+#text=Brandon loved the barber and his silly jokes and chit chat . 
+6-1	Brandon	6-2_nsubj	loved	NNP	P1_customer
+6-2	loved	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	barber	6-2_dobj	loved	NN	P1_hairdresser
+6-5	and	O	O	O	O
+6-6	his	O	O	PRP$	P1_hairdresser
+6-7	silly	O	O	JJ	O
+6-8	jokes	O	O	NNS	P1_entertainment
+6-9	and	O	O	O	O
+6-10	chit	O	O	NN	O
+6-11	chat	O	O	NN	P2_entertainment
+6-12	.	O	O	O	O
+
+#id=7
+#text=He liked listening to the men talk . 
+7-1	He	7-2_nsubj	liked	PRP	P1_customer
+7-2	liked	O	O	VBD	O
+7-3	listening	7-2_xcomp	liked	VBG	O
+7-4	to	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	men	O	O	NNS	P1_hairdresser
+7-7	talk	7-3_prep_to	listening	NN	O
+7-8	.	O	O	O	O
+
+#id=8
+#text=When Brandon got to the barber he lead him to the hair washing sink . 
+8-1	When	8-3_advmod	got	WRB	O
+8-2	Brandon	8-3_nsubj	got	NNP	P1_customer
+8-3	got	8-8_advcl	lead	VBD	O
+8-4	to	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	barber	8-3_prep_to	got	NN	P1_hairdresser
+8-7	he	8-8_nsubj	lead	PRP	P1_hairdresser
+8-8	lead	O	O	VBP	O
+8-9	him	8-8_dobj	lead	PRP	P1_customer
+8-10	to	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	hair	8-8_prep_to	lead	NN	O
+8-13	washing	O	O	VBG	O
+8-14	sink	8-13_dobj	washing	NN	P1_wash_basin
+8-15	.	O	O	O	O
+
+#id=9
+#text=He sat him in the chair that tilted back into the sink and laid back as the barber washed his hair . 
+9-1	He	9-2_nsubj	sat	PRP	P1_hairdresser
+9-2	sat	O	O	VBD	O
+9-3	him	9-2_dobj	sat	PRP	P1_customer
+9-4	in	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	chair	9-2_prep_in	sat	NN	P1_chair
+9-7	that	9-8_nsubj	tilted	WDT	P1_chair
+9-8	tilted	O	O	VBN	O
+9-9	back	9-8_prt	tilted	RP	O
+9-10	into	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	sink	9-8_prep_into	tilted	NN	P1_wash_basin
+9-13	and	O	O	O	O
+9-14	laid	9-8_conj_and	tilted	VBN	O
+9-15	back	9-14_prt	laid	RP	O
+9-16	as	O	O	O	O
+9-17	the	O	O	DT	O
+9-18	barber	9-14_prep_as	laid	NN	P1_hairdresser
+9-19	washed	O	O	VBN	O
+9-20	his	O	O	PRP$	P1_customer
+9-21	hair	9-19_dobj	washed	NN	P1_hair
+9-22	.	O	O	O	O
+
+#id=10
+#text=The water was just right , Never too hot or cold . 
+10-1	The	O	O	DT	O
+10-2	water	O	O	NN	P1_hair_styling/treatment
+10-3	was	O	O	VBD	O
+10-4	just	O	O	RB	O
+10-5	right	O	O	JJ	O
+10-6	,	O	O	O	O
+10-7	Never	O	O	RB	O
+10-8	too	O	O	RB	O
+10-9	hot	O	O	JJ	O
+10-10	or	O	O	O	O
+10-11	cold	O	O	JJ	O
+10-12	.	O	O	O	O
+
+#id=11
+#text=Next they walked over to the hair cutting chair . 
+11-1	Next	11-3_advmod	walked	RB	O
+11-2	they	11-3_nsubj	walked	PRP	P1_hairdresser_customer
+11-3	walked	O	O	VBD	O
+11-4	over	11-3_prt	walked	RP	O
+11-5	to	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	hair	O	O	NN	O
+11-8	cutting	O	O	VBG	O
+11-9	chair	11-3_prep_to	walked	NN	P2_chair
+11-10	.	O	O	O	O
+
+#id=12
+#text=Brandon loved it when the barber pumped his chair way up high and he could see himself in the large mirror in front of him . 
+12-1	Brandon	12-2_nsubj	loved	NNP	P1_customer
+12-2	loved	O	O	VBD	O
+12-3	it	12-2_dobj	loved	PRP	O
+12-4	when	12-7_advmod	pumped	WRB	O
+12-5	the	O	O	DT	O
+12-6	barber	12-7_nsubj	pumped	NN	P1_hairdresser
+12-7	pumped	12-2_advcl	loved	VBD	O
+12-8	his	O	O	PRP$	P1_customer
+12-9	chair	O	O	NN	P2_chair
+12-10	way	12-7_dobj	pumped	NN	O
+12-11	up	O	O	RB	O
+12-12	high	12-7_advmod	pumped	JJ	O
+12-13	and	O	O	O	O
+12-14	he	12-16_nsubj	see	PRP	P1_customer
+12-15	could	12-16_aux	see	MD	O
+12-16	see	12-2_conj_and	loved	VB	O
+12-17	himself	12-16_dobj	see	PRP	P1_customer
+12-18	in	O	O	O	O
+12-19	the	O	O	DT	O
+12-20	large	O	O	JJ	O
+12-21	mirror	12-16_prep_in	see	NN	P1_mirror
+12-22	in	O	O	O	O
+12-23	front	O	O	O	O
+12-24	of	O	O	O	O
+12-25	him	O	O	PRP	P1_customer
+12-26	.	O	O	O	O
+
+#id=13
+#text=The barber asked Brandon how he would like his hair cut and mommy told him just how they like it . 
+13-1	The	O	O	DT	O
+13-2	barber	13-3_nsubj	asked	NN	P1_hairdresser
+13-3	asked	O	O	VBD	O
+13-4	Brandon	13-3_dobj	asked	NNP	P1_customer
+13-5	how	13-8_advmod	like	WRB	O
+13-6	he	13-8_nsubj	like	PRP	P1_customer
+13-7	would	13-8_aux	like	MD	O
+13-8	like	O	O	VB	O
+13-9	his	O	O	PRP$	P1_customer
+13-10	hair	O	O	NN	P1_hair
+13-11	cut	13-8_dobj	like	NN	O
+13-12	and	O	O	O	O
+13-13	mommy	13-14_advmod	told	RB	P2_NPart_mommy
+13-14	told	13-3_conj_and	asked	VBD	O
+13-15	him	13-14_dobj	told	PRP	P1_hairdresser
+13-16	just	O	O	RB	O
+13-17	how	13-19_advmod	like	WRB	O
+13-18	they	13-19_nsubj	like	PRP	P2_customer
+13-19	like	13-14_dep	told	VBP	O
+13-20	it	13-19_dobj	like	PRP	P1_hair
+13-21	.	O	O	O	O
+
+#id=14
+#text=Then he wrapped a big cape around Brandon to protect him from hair clippings . 
+14-1	Then	14-3_advmod	wrapped	RB	O
+14-2	he	14-3_nsubj	wrapped	PRP	P1_hairdresser
+14-3	wrapped	O	O	VBD	O
+14-4	a	O	O	DT	O
+14-5	big	O	O	JJ	O
+14-6	cape	14-3_dobj	wrapped	NN	P1_cape
+14-7	around	O	O	O	O
+14-8	Brandon	14-3_prep_around	wrapped	NNP	P1_customer
+14-9	to	14-10_aux	protect	TO	O
+14-10	protect	14-3_vmod	wrapped	VB	O
+14-11	him	14-10_dobj	protect	PRP	P1_customer
+14-12	from	O	O	O	O
+14-13	hair	O	O	NN	O
+14-14	clippings	14-10_prep_from	protect	NNS	O
+14-15	.	O	O	O	O
+
+#id=15
+#text=Once his hair was towel dried and combed well . 
+15-1	Once	O	O	IN	O
+15-2	his	O	O	PRP$	P1_customer
+15-3	hair	O	O	NN	P1_hair
+15-4	was	O	O	VBD	O
+15-5	towel	15-6_csubj	dried	NN	O
+15-6	dried	O	O	VBD	O
+15-7	and	O	O	O	O
+15-8	combed	15-6_conj_and	dried	VBN	O
+15-9	well	15-8_advmod	combed	RB	O
+15-10	.	O	O	O	O
+
+#id=16
+#text=Snip , snip , snip , went the scissors . 
+16-1	Snip	16-7_nsubj	went	NNP	O
+16-2	,	O	O	O	O
+16-3	snip	O	O	NN	O
+16-4	,	O	O	O	O
+16-5	snip	O	O	NN	O
+16-6	,	O	O	O	O
+16-7	went	O	O	VBD	O
+16-8	the	O	O	DT	O
+16-9	scissors	16-7_dobj	went	NNS	P1_scissors
+16-10	.	O	O	O	O
+
+#id=17
+#text=Brandon held very still . 
+17-1	Brandon	17-2_nsubj	held	NNP	P1_customer
+17-2	held	O	O	VBD	O
+17-3	very	O	O	RB	O
+17-4	still	17-2_acomp	held	RB	O
+17-5	.	O	O	O	O
+
+#id=18
+#text=The barbers chair is a place even for little boys to be still and Brandon knew that . 
+18-1	The	O	O	DT	O
+18-2	barbers	O	O	NNS	P1_hairdresser
+18-3	chair	O	O	NN	P2_chair
+18-4	is	O	O	VBZ	O
+18-5	a	O	O	DT	O
+18-6	place	O	O	NN	P1_NPart_place
+18-7	even	O	O	RB	O
+18-8	for	O	O	O	O
+18-9	little	O	O	JJ	O
+18-10	boys	O	O	NNS	P1_NPart_boys
+18-11	to	18-12_aux	be	TO	O
+18-12	be	O	O	VB	O
+18-13	still	18-12_advmod	be	RB	O
+18-14	and	O	O	O	O
+18-15	Brandon	18-16_nsubj	knew	NNP	P1_customer
+18-16	knew	O	O	VBD	O
+18-17	that	18-16_dobj	knew	DT	O
+18-18	.	O	O	O	O
+
+#id=19
+#text=He watched as his hair fell to the floor . 
+19-1	He	19-2_nsubj	watched	PRP	P1_customer
+19-2	watched	O	O	VBD	O
+19-3	as	19-6_mark	fell	IN	O
+19-4	his	O	O	PRP$	P1_customer
+19-5	hair	19-6_nsubj	fell	NN	P1_hair
+19-6	fell	19-2_advcl	watched	VBD	O
+19-7	to	O	O	O	O
+19-8	the	O	O	DT	O
+19-9	floor	19-6_prep_to	fell	NN	P1_NPart_floor
+19-10	.	O	O	O	O
+
+#id=20
+#text=Soon the barber spun him around in the chair and Brandon saw his new hair cut . 
+20-1	Soon	20-4_advmod	spun	RB	O
+20-2	the	O	O	DT	O
+20-3	barber	20-4_nsubj	spun	NN	P1_hairdresser
+20-4	spun	O	O	VBD	O
+20-5	him	20-4_dobj	spun	PRP	P1_customer
+20-6	around	20-4_prt	spun	RP	O
+20-7	in	O	O	O	O
+20-8	the	O	O	DT	O
+20-9	chair	20-4_prep_in	spun	NN	P2_chair
+20-10	and	O	O	O	O
+20-11	Brandon	20-12_nsubj	saw	NNP	P1_customer
+20-12	saw	20-4_conj_and	spun	VBD	O
+20-13	his	O	O	PRP$	P1_customer
+20-14	new	O	O	JJ	O
+20-15	hair	O	O	NN	O
+20-16	cut	20-12_dobj	saw	NN	P1_haircut
+20-17	.	O	O	O	O
+
+#id=21
+#text=It was smooth and neat . 
+21-1	It	O	O	PRP	P1_haircut
+21-2	was	O	O	VBD	O
+21-3	smooth	O	O	JJ	O
+21-4	and	O	O	O	O
+21-5	neat	O	O	JJ	O
+21-6	.	O	O	O	O
+
+#id=22
+#text=After another comb through and a few more snips of the scissors he was all done . 
+22-1	After	O	O	O	O
+22-2	another	O	O	DT	O
+22-3	comb	O	O	JJ	O
+22-4	through	O	O	IN	O
+22-5	and	O	O	O	O
+22-6	a	O	O	DT	O
+22-7	few	O	O	JJ	O
+22-8	more	O	O	JJR	O
+22-9	snips	22-16_prep_after	done	NNS	O
+22-10	of	O	O	O	O
+22-11	the	O	O	DT	O
+22-12	scissors	O	O	NNS	P1_scissors
+22-13	he	22-16_nsubjpass	done	PRP	P1_hairdresser
+22-14	was	22-16_auxpass	done	VBD	O
+22-15	all	22-16_advmod	done	RB	O
+22-16	done	O	O	VBN	O
+22-17	.	O	O	O	O
+
+#id=23
+#text=Off came the cape . 
+23-1	Off	23-2_nsubj	came	NNP	O
+23-2	came	O	O	VBD	O
+23-3	the	O	O	DT	O
+23-4	cape	23-2_dobj	came	NN	P1_cape
+23-5	.	O	O	O	O
+
+#id=24
+#text=Brandons mommy paid the barber and tipped him for a job well done . 
+24-1	Brandons	24-3_nsubj	paid	NNS	P1_customer
+24-2	mommy	24-3_advmod	paid	RB	P3_NPart_mommy
+24-3	paid	O	O	VBD	O
+24-4	the	O	O	DT	O
+24-5	barber	24-3_dobj	paid	NN	P1_hairdresser
+24-6	and	O	O	O	O
+24-7	tipped	24-3_conj_and	paid	VBD	O
+24-8	him	24-7_dobj	tipped	PRP	P1_hairdresser
+24-9	for	O	O	O	O
+24-10	a	O	O	DT	O
+24-11	job	24-7_prep_for	tipped	NN	P1_NPart_job
+24-12	well	24-13_advmod	done	RB	O
+24-13	done	O	O	VBN	O
+24-14	.	O	O	O	O
+
+#id=25
+#text=Brandon was glad for his hair cut . 
+25-1	Brandon	O	O	NNP	P1_customer
+25-2	was	O	O	VBD	O
+25-3	glad	O	O	JJ	O
+25-4	for	O	O	O	O
+25-5	his	O	O	PRP$	P1_customer
+25-6	hair	O	O	NN	O
+25-7	cut	O	O	NN	P1_haircut
+25-8	.	O	O	O	O

@@ -1,0 +1,192 @@
+#id=1
+#text=I was sitting at home thinking about a particular book that I had been wanting to read so I decided to get in my car and drive to the library . 
+1-1	I	1-3_nsubj	sitting	PRP	P1_customer
+1-2	was	1-3_aux	sitting	VBD	O
+1-3	sitting	O	O	VBG	O
+1-4	at	O	O	O	O
+1-5	home	O	O	NN	O
+1-6	thinking	1-3_prep_at	sitting	NN	O
+1-7	about	O	O	O	O
+1-8	a	O	O	DT	O
+1-9	particular	O	O	JJ	O
+1-10	book	O	O	NN	P1_book
+1-11	that	1-15_mark	wanting	IN	O
+1-12	I	1-15_nsubj	wanting	PRP	P1_customer
+1-13	had	1-15_aux	wanting	VBD	O
+1-14	been	1-15_aux	wanting	VBN	O
+1-15	wanting	1-3_ccomp	sitting	VBG	O
+1-16	to	1-17_aux	read	TO	O
+1-17	read	1-15_xcomp	wanting	VB	O
+1-18	so	1-20_mark	decided	IN	O
+1-19	I	1-20_nsubj	decided	PRP	P1_customer
+1-20	decided	1-17_advcl	read	VBD	O
+1-21	to	1-22_aux	get	TO	O
+1-22	get	1-20_xcomp	decided	VB	O
+1-23	in	O	O	O	O
+1-24	my	O	O	PRP$	P1_customer
+1-25	car	1-22_prep_in	get	NN	P1_NPart_car
+1-26	and	O	O	O	O
+1-27	drive	1-22_conj_and	get	VB	O
+1-28	to	O	O	O	O
+1-29	the	O	O	DT	O
+1-30	library	1-27_prep_to	drive	NN	P1_library
+1-31	.	O	O	O	O
+
+#id=2
+#text=After I parked my car in the parking lot I got out of my car and entered the library . 
+2-1	After	2-3_mark	parked	IN	O
+2-2	I	2-3_nsubj	parked	PRP	P1_customer
+2-3	parked	2-11_advcl	got	VBD	O
+2-4	my	O	O	PRP$	P1_customer
+2-5	car	2-3_dobj	parked	NN	P2_NPart_car
+2-6	in	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	parking	O	O	NN	O
+2-9	lot	2-3_prep_in	parked	NN	P1_NPart_lot
+2-10	I	2-11_nsubj	got	PRP	P1_customer
+2-11	got	O	O	VBD	O
+2-12	out	O	O	O	O
+2-13	of	O	O	O	O
+2-14	my	O	O	PRP$	P1_customer
+2-15	car	2-11_prep_out_of	got	NN	P3_NPart_car
+2-16	and	O	O	O	O
+2-17	entered	2-11_conj_and	got	VBD	O
+2-18	the	O	O	DT	O
+2-19	library	2-17_dobj	entered	NN	P1_library
+2-20	.	O	O	O	O
+
+#id=3
+#text=Once inside the library I went up the stairs of the library to the second floor . 
+3-1	Once	3-6_advmod	went	RB	O
+3-2	inside	O	O	O	O
+3-3	the	O	O	DT	O
+3-4	library	O	O	NN	P1_library
+3-5	I	3-6_nsubj	went	PRP	P1_customer
+3-6	went	O	O	VBD	O
+3-7	up	3-6_prt	went	RP	O
+3-8	the	O	O	DT	O
+3-9	stairs	3-6_dobj	went	NNS	P1_NPart_stairs
+3-10	of	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	library	O	O	NN	P1_library
+3-13	to	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	second	O	O	JJ	O
+3-16	floor	3-6_prep_to	went	NN	P1_location_library
+3-17	.	O	O	O	O
+
+#id=4
+#text=Once I got to the second floor I browsed around the aisles until I found the book that I was looking for . 
+4-1	Once	4-3_mark	got	IN	O
+4-2	I	4-3_nsubj	got	PRP	P1_customer
+4-3	got	4-9_advcl	browsed	VBD	O
+4-4	to	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	second	O	O	JJ	O
+4-7	floor	4-3_prep_to	got	NN	P1_location_library
+4-8	I	4-9_nsubj	browsed	PRP	P1_customer
+4-9	browsed	O	O	VBD	O
+4-10	around	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	aisles	4-9_prep_around	browsed	NNS	P2_location_library
+4-13	until	4-15_mark	found	IN	O
+4-14	I	4-15_nsubj	found	PRP	P1_customer
+4-15	found	4-9_advcl	browsed	VBD	O
+4-16	the	O	O	DT	O
+4-17	book	4-15_dobj	found	NN	P1_book
+4-18	that	4-21_mark	looking	IN	O
+4-19	I	4-21_nsubj	looking	PRP	P1_customer
+4-20	was	4-21_aux	looking	VBD	O
+4-21	looking	4-15_ccomp	found	VBG	O
+4-22	for	4-21_prep	looking	IN	O
+4-23	.	O	O	O	O
+
+#id=5
+#text=Once I got the book I went back down the stairs I went to the check-out counter and gave the librarian my library card . 
+5-1	Once	5-3_mark	got	IN	O
+5-2	I	5-3_nsubj	got	PRP	P1_customer
+5-3	got	5-13_advcl	went	VBD	O
+5-4	the	O	O	DT	O
+5-5	book	5-3_dobj	got	NN	P1_book
+5-6	I	5-7_nsubj	went	PRP	P1_customer
+5-7	went	O	O	VBD	O
+5-8	back	5-7_advmod	went	RB	O
+5-9	down	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	stairs	5-7_prep_down	went	NNS	P1_NPart_stairs
+5-12	I	5-13_nsubj	went	PRP	P1_customer
+5-13	went	O	O	VBD	O
+5-14	to	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	check-out	O	O	JJ	O
+5-17	counter	5-13_prep_to	went	NN	P1_check-out_desk
+5-18	and	O	O	O	O
+5-19	gave	5-13_conj_and	went	VBD	O
+5-20	the	O	O	DT	O
+5-21	librarian	5-19_iobj	gave	NN	P1_staff
+5-22	my	O	O	PRP$	P1_customer
+5-23	library	O	O	NN	O
+5-24	card	5-19_dobj	gave	NN	P1_library_card
+5-25	.	O	O	O	O
+
+#id=6
+#text=I told the librarian thank you after she checked out my book . 
+6-1	I	6-2_nsubj	told	PRP	P1_customer
+6-2	told	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	librarian	6-5_nsubj	thank	NN	P1_staff
+6-5	thank	6-2_ccomp	told	VBP	O
+6-6	you	6-5_dobj	thank	PRP	O
+6-7	after	6-9_mark	checked	IN	O
+6-8	she	6-9_nsubj	checked	PRP	P1_staff
+6-9	checked	6-5_advcl	thank	VBD	O
+6-10	out	6-9_prt	checked	RP	O
+6-11	my	O	O	PRP$	P1_customer
+6-12	book	6-9_dobj	checked	NN	P1_book
+6-13	.	O	O	O	O
+
+#id=7
+#text=She handed me the book and a receipt and told me you 're welcome . 
+7-1	She	7-2_nsubj	handed	PRP	P1_staff
+7-2	handed	O	O	VBD	O
+7-3	me	7-2_iobj	handed	PRP	P1_customer
+7-4	the	O	O	DT	O
+7-5	book	7-2_dobj	handed	NN	P1_book
+7-6	and	O	O	O	O
+7-7	a	O	O	DT	O
+7-8	receipt	O	O	NN	P1_receipt
+7-9	and	O	O	O	O
+7-10	told	7-2_conj_and	handed	VBD	O
+7-11	me	7-10_dobj	told	PRP	P1_customer
+7-12	you	O	O	PRP	P1_NPart_you
+7-13	're	O	O	VBP	O
+7-14	welcome	7-10_dep	told	JJ	O
+7-15	.	O	O	O	O
+
+#id=8
+#text=I left the library and got into my car and drove home were I began reading the book I 'd been wanting to read . 
+8-1	I	8-2_nsubj	left	PRP	P1_customer
+8-2	left	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	library	8-2_dobj	left	NN	P1_library
+8-5	and	O	O	O	O
+8-6	got	8-2_conj_and	left	VBD	O
+8-7	into	O	O	O	O
+8-8	my	O	O	PRP$	P1_customer
+8-9	car	8-6_prep_into	got	NN	P4_NPart_car
+8-10	and	O	O	O	O
+8-11	drove	8-6_conj_and	got	VBD	O
+8-12	home	8-13_nsubj	were	NN	P1_NPart_home
+8-13	were	8-11_ccomp	drove	VBD	O
+8-14	I	8-15_nsubj	began	PRP	P1_customer
+8-15	began	8-13_ccomp	were	VBD	O
+8-16	reading	8-15_xcomp	began	VBG	O
+8-17	the	O	O	DT	O
+8-18	book	8-16_dobj	reading	NN	P1_book
+8-19	I	8-22_nsubj	wanting	PRP	P1_customer
+8-20	'd	8-22_aux	wanting	VBD	O
+8-21	been	8-22_aux	wanting	VBN	O
+8-22	wanting	O	O	VBG	O
+8-23	to	8-24_aux	read	TO	O
+8-24	read	8-22_xcomp	wanting	VB	O
+8-25	.	O	O	O	O

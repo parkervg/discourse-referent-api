@@ -1,0 +1,227 @@
+#id=1
+#text=I was headed to visit my cousin in Italy for a few weeks . 
+1-1	I	1-3_nsubjpass	headed	PRP	P1_passenger
+1-2	was	1-3_auxpass	headed	VBD	O
+1-3	headed	O	O	VBN	O
+1-4	to	1-5_aux	visit	TO	O
+1-5	visit	1-3_xcomp	headed	VB	O
+1-6	my	O	O	PRP$	P1_passenger
+1-7	cousin	1-5_dobj	visit	NN	P1_NPart_cousin
+1-8	in	O	O	O	O
+1-9	Italy	1-5_prep_in	visit	NNP	P1_target_location
+1-10	for	O	O	O	O
+1-11	a	O	O	DT	O
+1-12	few	O	O	JJ	O
+1-13	weeks	O	O	NNS	P1_NPart_weeks
+1-14	.	O	O	O	O
+
+#id=2
+#text=The week before , my dad went online and purchased me one of those convenient e-tickets . 
+2-1	The	O	O	DT	O
+2-2	week	2-7_tmod	went	NN	P1_time/date
+2-3	before	O	O	RB	O
+2-4	,	O	O	O	O
+2-5	my	O	O	PRP$	P1_passenger
+2-6	dad	2-7_nsubj	went	NN	P1_accomp_person
+2-7	went	O	O	VBD	O
+2-8	online	2-7_prep	went	NN	O
+2-9	and	O	O	O	O
+2-10	purchased	2-7_conj_and	went	VBD	O
+2-11	me	O	O	PRP	P1_passenger
+2-12	one	2-10_xcomp	purchased	CD	O
+2-13	of	O	O	O	O
+2-14	those	O	O	DT	O
+2-15	convenient	O	O	JJ	O
+2-16	e-tickets	O	O	NNS	P1_ticket
+2-17	.	O	O	O	O
+
+#id=3
+#text=He printed it out and made sure I remembered to bring it on the day of my flight . 
+3-1	He	3-2_nsubj	printed	PRP	P1_accomp_person
+3-2	printed	O	O	VBD	O
+3-3	it	3-2_dobj	printed	PRP	P1_ticket
+3-4	out	3-2_prt	printed	RP	O
+3-5	and	O	O	O	O
+3-6	made	3-2_conj_and	printed	VBD	O
+3-7	sure	3-6_acomp	made	JJ	O
+3-8	I	3-9_nsubj	remembered	PRP	P1_passenger
+3-9	remembered	O	O	VBD	O
+3-10	to	3-11_aux	bring	TO	O
+3-11	bring	3-9_xcomp	remembered	VB	O
+3-12	it	3-11_dobj	bring	PRP	P1_ticket
+3-13	on	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	day	3-11_prep_on	bring	NN	P2_time/date
+3-16	of	O	O	O	O
+3-17	my	O	O	PRP$	P1_passenger
+3-18	flight	O	O	NN	P1_flight
+3-19	.	O	O	O	O
+
+#id=4
+#text=We arrived early to the airport so that i could go through all of the security checks . 
+4-1	We	4-2_nsubj	arrived	PRP	P2_passenger
+4-2	arrived	O	O	VBD	O
+4-3	early	4-2_advmod	arrived	RB	O
+4-4	to	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	airport	O	O	NN	P1_airport
+4-7	so	4-11_advmod	go	RB	O
+4-8	that	4-11_mark	go	IN	O
+4-9	i	4-11_nsubj	go	FW	P1_passenger
+4-10	could	4-11_aux	go	MD	O
+4-11	go	4-2_advcl	arrived	VB	O
+4-12	through	O	O	O	O
+4-13	all	4-11_prep_through	go	DT	O
+4-14	of	O	O	O	O
+4-15	the	O	O	DT	O
+4-16	security	O	O	NN	O
+4-17	checks	O	O	NNS	P1_security_check
+4-18	.	O	O	O	O
+
+#id=5
+#text=I had to take off my shoes and put my belongings in a tray as I went through the scanner . 
+5-1	I	5-2_nsubj	had	PRP	P1_passenger
+5-2	had	O	O	VBD	O
+5-3	to	5-4_aux	take	TO	O
+5-4	take	5-2_xcomp	had	VB	O
+5-5	off	5-4_prt	take	RP	O
+5-6	my	O	O	PRP$	P1_passenger
+5-7	shoes	5-4_dobj	take	NNS	P1_NPart_shoes
+5-8	and	O	O	O	O
+5-9	put	5-4_conj_and	take	VB	O
+5-10	my	O	O	PRP$	P1_passenger
+5-11	belongings	5-9_dobj	put	NNS	P1_personal_belongings
+5-12	in	O	O	O	O
+5-13	a	O	O	DT	O
+5-14	tray	5-9_prep_in	put	NN	P1_NPart_tray
+5-15	as	5-17_mark	went	IN	O
+5-16	I	5-17_nsubj	went	PRP	P1_passenger
+5-17	went	5-2_advcl	had	VBD	O
+5-18	through	O	O	O	O
+5-19	the	O	O	DT	O
+5-20	scanner	5-17_prep_through	went	NN	P1_security_check
+5-21	.	O	O	O	O
+
+#id=6
+#text=After that , I saw the board with all of the flights and saw that my flight was leaving soon . 
+6-1	After	O	O	O	O
+6-2	that	6-5_prep_after	saw	DT	O
+6-3	,	O	O	O	O
+6-4	I	6-5_nsubj	saw	PRP	P1_passenger
+6-5	saw	O	O	VBD	O
+6-6	the	O	O	DT	O
+6-7	board	6-5_dobj	saw	NN	P1_institutional_devices
+6-8	with	O	O	O	O
+6-9	all	6-5_prep_with	saw	DT	O
+6-10	of	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	flights	O	O	NNS	P1_flight
+6-13	and	O	O	O	O
+6-14	saw	6-5_conj_and	saw	VBD	O
+6-15	that	6-19_mark	leaving	IN	O
+6-16	my	O	O	PRP$	P1_passenger
+6-17	flight	6-19_nsubj	leaving	NN	P1_flight
+6-18	was	6-19_aux	leaving	VBD	O
+6-19	leaving	6-14_ccomp	saw	VBG	O
+6-20	soon	6-19_advmod	leaving	RB	O
+6-21	.	O	O	O	O
+
+#id=7
+#text=I waited a few minutes by the gate with my parents until it was time to board . 
+7-1	I	7-2_nsubj	waited	PRP	P1_passenger
+7-2	waited	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	few	O	O	JJ	O
+7-5	minutes	7-2_dobj	waited	NNS	P3_time/date
+7-6	by	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	gate	7-2_prep_by	waited	NN	P1_terminal/gate
+7-9	with	O	O	O	O
+7-10	my	O	O	PRP$	P1_passenger
+7-11	parents	O	O	NNS	P1_accomp_person
+7-12	until	O	O	IN	O
+7-13	it	O	O	PRP	O
+7-14	was	O	O	VBD	O
+7-15	time	7-2_advcl	waited	NN	O
+7-16	to	O	O	O	O
+7-17	board	O	O	NN	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=Many passengers climbed aboard and found their seats . 
+8-1	Many	O	O	JJ	O
+8-2	passengers	8-3_nsubj	climbed	NNS	P3_passenger
+8-3	climbed	O	O	VBD	O
+8-4	aboard	8-3_advmod	climbed	RB	O
+8-5	and	O	O	O	O
+8-6	found	8-3_conj_and	climbed	VBD	O
+8-7	their	O	O	PRP$	P3_passenger
+8-8	seats	8-6_dobj	found	NNS	P1_seat
+8-9	.	O	O	O	O
+
+#id=9
+#text=The captain greeted us over the loudspeaker and then the plane took off . 
+9-1	The	O	O	DT	O
+9-2	captain	9-3_nsubj	greeted	NN	P1_staff
+9-3	greeted	O	O	VBD	O
+9-4	us	9-3_dobj	greeted	PRP	P3_passenger
+9-5	over	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	loudspeaker	9-3_prep_over	greeted	NN	P2_institutional_devices
+9-8	and	O	O	O	O
+9-9	then	9-12_advmod	took	RB	O
+9-10	the	O	O	DT	O
+9-11	plane	9-12_nsubj	took	NN	P1_plane
+9-12	took	9-3_conj_and	greeted	VBD	O
+9-13	off	9-12_prt	took	RP	O
+9-14	.	O	O	O	O
+
+#id=10
+#text=I was tired so I took a nap . 
+10-1	I	O	O	PRP	P1_passenger
+10-2	was	O	O	VBD	O
+10-3	tired	O	O	JJ	O
+10-4	so	10-6_mark	took	IN	O
+10-5	I	10-6_nsubj	took	PRP	P1_passenger
+10-6	took	O	O	VBD	O
+10-7	a	O	O	DT	O
+10-8	nap	10-6_dobj	took	NN	P1_in-flight_entertainment
+10-9	.	O	O	O	O
+
+#id=11
+#text=When I woke up I could see the clouds around me as we were pretty high up in the air . 
+11-1	When	11-3_advmod	woke	WRB	O
+11-2	I	11-3_nsubj	woke	PRP	P1_passenger
+11-3	woke	11-7_advcl	see	VBD	O
+11-4	up	11-3_prt	woke	RP	O
+11-5	I	11-7_nsubj	see	PRP	P1_passenger
+11-6	could	11-7_aux	see	MD	O
+11-7	see	O	O	VB	O
+11-8	the	O	O	DT	O
+11-9	clouds	11-7_dobj	see	NNS	P2_in-flight_entertainment
+11-10	around	O	O	O	O
+11-11	me	11-7_prep_around	see	PRP	P1_passenger
+11-12	as	O	O	IN	O
+11-13	we	O	O	PRP	P3_passenger
+11-14	were	O	O	VBD	O
+11-15	pretty	O	O	RB	O
+11-16	high	11-7_advcl	see	JJ	O
+11-17	up	O	O	RB	O
+11-18	in	O	O	O	O
+11-19	the	O	O	DT	O
+11-20	air	O	O	NN	P1_location_airplane
+11-21	.	O	O	O	O
+
+#id=12
+#text=After a few more hours we arrived and everyone clapped . 
+12-1	After	O	O	O	O
+12-2	a	O	O	DT	O
+12-3	few	O	O	JJ	O
+12-4	more	O	O	RBR	O
+12-5	hours	12-7_prep_after	arrived	NNS	P4_time/date
+12-6	we	12-7_nsubj	arrived	PRP	P3_passenger
+12-7	arrived	O	O	VBD	O
+12-8	and	O	O	O	O
+12-9	everyone	12-10_nsubj	clapped	NN	P3_passenger
+12-10	clapped	12-7_conj_and	arrived	VBD	O
+12-11	.	O	O	O	O

@@ -1,0 +1,206 @@
+#id=1
+#text=It was my friend Riley 's birthday and I wanted to do something special for her this year . 
+1-1	It	O	O	PRP	O
+1-2	was	O	O	VBD	O
+1-3	my	O	O	PRP$	P1_cook
+1-4	friend	O	O	NN	P1_NPart_friend
+1-5	Riley	O	O	NN	P1_beneficiary
+1-6	's	O	O	O	O
+1-7	birthday	O	O	NN	P1_NPart_birthday
+1-8	and	O	O	O	O
+1-9	I	1-10_nsubj	wanted	PRP	P1_cook
+1-10	wanted	O	O	VBD	O
+1-11	to	1-12_aux	do	TO	O
+1-12	do	1-10_xcomp	wanted	VB	O
+1-13	something	1-12_dobj	do	NN	O
+1-14	special	O	O	JJ	O
+1-15	for	O	O	O	O
+1-16	her	1-12_prep_for	do	PRP	P1_beneficiary
+1-17	this	O	O	DT	O
+1-18	year	1-12_tmod	do	NN	P1_NPart_year
+1-19	.	O	O	O	O
+
+#id=2
+#text=I usually buy her a birthday cake but this year I wanted to do something different . 
+2-1	I	2-3_nsubj	buy	PRP	P1_cook
+2-2	usually	2-3_advmod	buy	RB	O
+2-3	buy	O	O	VB	O
+2-4	her	O	O	PRP	P1_beneficiary
+2-5	a	O	O	DT	O
+2-6	birthday	O	O	NN	O
+2-7	cake	2-3_xcomp	buy	NN	P1_cake
+2-8	but	O	O	O	O
+2-9	this	O	O	DT	O
+2-10	year	2-12_tmod	wanted	NN	P2_NPart_year
+2-11	I	2-12_nsubj	wanted	PRP	P1_cook
+2-12	wanted	2-3_conj_but	buy	VBD	O
+2-13	to	2-14_aux	do	TO	O
+2-14	do	2-12_xcomp	wanted	VB	O
+2-15	something	O	O	NN	O
+2-16	different	2-14_xcomp	do	JJ	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=I was n't too sure how to make a cake but I decided to try a recipe I saw in a magazine . 
+3-1	I	O	O	PRP	P1_cook
+3-2	was	O	O	VBD	O
+3-3	n't	O	O	RB	O
+3-4	too	O	O	RB	O
+3-5	sure	O	O	JJ	O
+3-6	how	3-8_advmod	make	WRB	O
+3-7	to	3-8_aux	make	TO	O
+3-8	make	O	O	VB	O
+3-9	a	O	O	DT	O
+3-10	cake	3-8_dobj	make	NN	P1_cake
+3-11	but	O	O	O	O
+3-12	I	3-13_nsubj	decided	PRP	P1_cook
+3-13	decided	O	O	VBD	O
+3-14	to	3-15_aux	try	TO	O
+3-15	try	3-13_xcomp	decided	VB	O
+3-16	a	O	O	DT	O
+3-17	recipe	3-15_dobj	try	NN	P1_baking_instructions
+3-18	I	3-19_nsubj	saw	PRP	P1_cook
+3-19	saw	O	O	VBD	O
+3-20	in	O	O	O	O
+3-21	a	O	O	DT	O
+3-22	magazine	3-19_prep_in	saw	NN	P1_recipe_source
+3-23	.	O	O	O	O
+
+#id=4
+#text=The day before I had purchased all of the ingredients including cake mix , eggs , and strawberries . 
+4-1	The	O	O	DT	O
+4-2	day	4-6_nsubj	purchased	NN	P1_time
+4-3	before	O	O	O	O
+4-4	I	O	O	PRP	P1_cook
+4-5	had	4-6_aux	purchased	VBD	O
+4-6	purchased	O	O	VBN	O
+4-7	all	4-6_dobj	purchased	DT	O
+4-8	of	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	ingredients	O	O	NNS	P1_ingredients
+4-11	including	O	O	O	O
+4-12	cake	O	O	NN	O
+4-13	mix	O	O	NN	O
+4-14	,	O	O	O	O
+4-15	eggs	O	O	NNS	O
+4-16	,	O	O	O	O
+4-17	and	O	O	O	O
+4-18	strawberries	O	O	NNS	P1_ingredients
+4-19	.	O	O	O	O
+
+#id=5
+#text=I started off by cracking the eggs and putting it in a large bowl . 
+5-1	I	5-2_nsubj	started	PRP	P1_cook
+5-2	started	O	O	VBD	O
+5-3	off	5-2_prt	started	RP	O
+5-4	by	O	O	O	O
+5-5	cracking	5-2_prepc_by	started	VBG	O
+5-6	the	O	O	DT	O
+5-7	eggs	5-5_dobj	cracking	NNS	P1_ingredients
+5-8	and	O	O	O	O
+5-9	putting	5-5_conj_and	cracking	VBG	O
+5-10	it	5-9_dobj	putting	PRP	P1_ingredients
+5-11	in	O	O	O	O
+5-12	a	O	O	DT	O
+5-13	large	O	O	JJ	O
+5-14	bowl	5-9_prep_in	putting	NN	P1_utensil
+5-15	.	O	O	O	O
+
+#id=6
+#text=I mixed in sugar and the cake mix according to the instructions . 
+6-1	I	6-2_nsubj	mixed	PRP	P1_cook
+6-2	mixed	O	O	VBN	O
+6-3	in	O	O	O	O
+6-4	sugar	6-2_prep_in	mixed	NN	P2_ingredients
+6-5	and	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	cake	O	O	NN	O
+6-8	mix	O	O	NN	P1_ingredients
+6-9	according	O	O	O	O
+6-10	to	6-2_prepc_according_to	mixed	TO	O
+6-11	the	O	O	DT	O
+6-12	instructions	6-2_pobj	mixed	NNS	P1_baking_instructions
+6-13	.	O	O	O	O
+
+#id=7
+#text=The instructions said to bake the whole mix in the oven for a couple of hours . 
+7-1	The	O	O	DT	O
+7-2	instructions	7-3_nsubj	said	NNS	P1_baking_instructions
+7-3	said	O	O	VBD	O
+7-4	to	7-5_aux	bake	TO	O
+7-5	bake	7-3_xcomp	said	VB	O
+7-6	the	O	O	DT	O
+7-7	whole	O	O	JJ	O
+7-8	mix	7-5_dobj	bake	NN	P1_dough
+7-9	in	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	oven	7-5_prep_in	bake	NN	P1_oven
+7-12	for	O	O	O	O
+7-13	a	O	O	DT	O
+7-14	couple	O	O	NN	P1_NPart_couple
+7-15	of	O	O	O	O
+7-16	hours	O	O	NNS	P2_time
+7-17	.	O	O	O	O
+
+#id=8
+#text=When the cake was ready , I put on my oven mitts and removed it from the oven . 
+8-1	When	O	O	WRB	O
+8-2	the	O	O	DT	O
+8-3	cake	O	O	NN	P1_cake
+8-4	was	O	O	VBD	O
+8-5	ready	8-8_advcl	put	JJ	O
+8-6	,	O	O	O	O
+8-7	I	8-8_nsubj	put	PRP	P1_cook
+8-8	put	O	O	VBD	O
+8-9	on	O	O	O	O
+8-10	my	O	O	PRP$	P2_cook
+8-11	oven	O	O	NN	O
+8-12	mitts	8-8_prep_on	put	NNS	P2_utensil
+8-13	and	O	O	O	O
+8-14	removed	8-8_conj_and	put	VBD	O
+8-15	it	8-14_dobj	removed	PRP	P1_cake
+8-16	from	O	O	O	O
+8-17	the	O	O	DT	O
+8-18	oven	8-14_prep_from	removed	NN	P2_oven
+8-19	.	O	O	O	O
+
+#id=9
+#text=It looked so good but one thing was missing . 
+9-1	It	9-2_nsubj	looked	PRP	P3_oven
+9-2	looked	O	O	VBD	O
+9-3	so	O	O	RB	O
+9-4	good	9-2_acomp	looked	JJ	O
+9-5	but	O	O	O	O
+9-6	one	O	O	CD	O
+9-7	thing	9-9_nsubj	missing	NN	P1_ingredients
+9-8	was	9-9_cop	missing	VBD	O
+9-9	missing	9-2_conj_but	looked	VBG	O
+9-10	.	O	O	O	O
+
+#id=10
+#text=i went into the refrigerator and pulled out six fresh strawberries and placed them on top . 
+10-1	i	10-2_nsubj	went	FW	P1_cook
+10-2	went	O	O	VBD	O
+10-3	into	O	O	O	O
+10-4	the	O	O	DT	O
+10-5	refrigerator	10-2_prep_into	went	NN	P1_NPart_refrigerator
+10-6	and	O	O	O	O
+10-7	pulled	10-2_conj_and	went	VBD	O
+10-8	out	10-7_prt	pulled	RP	O
+10-9	six	O	O	CD	O
+10-10	fresh	O	O	JJ	O
+10-11	strawberries	10-7_dobj	pulled	NNS	P1_ingredients
+10-12	and	O	O	O	O
+10-13	placed	10-7_conj_and	pulled	VBD	O
+10-14	them	10-13_dobj	placed	PRP	P1_ingredients
+10-15	on	O	O	O	O
+10-16	top	10-13_prep_on	placed	NN	P1_NPart_top
+10-17	.	O	O	O	O
+
+#id=11
+#text=Riley will love it ! 
+11-1	Riley	11-3_nsubj	love	NNP	P1_beneficiary
+11-2	will	11-3_aux	love	MD	O
+11-3	love	O	O	VB	O
+11-4	it	11-3_dobj	love	PRP	P1_cake
+11-5	!	O	O	O	O

@@ -1,0 +1,203 @@
+#id=1
+#text=On Arbor Day of 2014 , I planted a tree . 
+1-1	On	O	O	O	O
+1-2	Arbor	O	O	NNP	O
+1-3	Day	1-8_prep_on	planted	NNP	P1_time
+1-4	of	O	O	O	O
+1-5	2014	O	O	CD	O
+1-6	,	O	O	O	O
+1-7	I	1-8_nsubj	planted	PRP	P1_gardener
+1-8	planted	O	O	VBD	O
+1-9	a	O	O	DT	O
+1-10	tree	1-8_dobj	planted	NN	P1_tree
+1-11	.	O	O	O	O
+
+#id=2
+#text=I chose a hardy Colorado Blue Spruce evergreen tree from arborday.org . 
+2-1	I	2-2_nsubj	chose	PRP	P1_gardener
+2-2	chose	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	hardy	O	O	JJ	O
+2-5	Colorado	O	O	NNP	O
+2-6	Blue	O	O	NNP	O
+2-7	Spruce	O	O	NNP	O
+2-8	evergreen	O	O	NN	O
+2-9	tree	2-2_dobj	chose	NN	P1_tree
+2-10	from	O	O	O	O
+2-11	arborday.org	2-2_prep_from	chose	NN	P1_NPart_arborday.org
+2-12	.	O	O	O	O
+
+#id=3
+#text=This website makes learning about planting trees easy . 
+3-1	This	O	O	DT	O
+3-2	website	3-3_nsubj	makes	NN	P1_NPart_website
+3-3	makes	O	O	VBZ	O
+3-4	learning	3-3_xcomp	makes	VBG	O
+3-5	about	O	O	O	O
+3-6	planting	3-4_prepc_about	learning	VBG	O
+3-7	trees	O	O	NNS	P1_tree
+3-8	easy	3-6_xcomp	planting	JJ	O
+3-9	.	O	O	O	O
+
+#id=4
+#text=I could have chosen to wait to plant my tree because they come in tiny plastic tubes that can be stored in the refrigerator for when I am ready . 
+4-1	I	4-4_nsubj	chosen	PRP	P1_gardener
+4-2	could	4-4_aux	chosen	MD	O
+4-3	have	4-4_aux	chosen	VB	O
+4-4	chosen	O	O	VBN	O
+4-5	to	4-6_aux	wait	TO	O
+4-6	wait	4-4_xcomp	chosen	VB	O
+4-7	to	4-8_aux	plant	TO	O
+4-8	plant	4-6_xcomp	wait	VB	O
+4-9	my	O	O	PRP$	P1_gardener
+4-10	tree	4-8_dobj	plant	NN	P1_tree
+4-11	because	4-13_mark	come	IN	O
+4-12	they	4-13_nsubj	come	PRP	P1_tree
+4-13	come	4-8_advcl	plant	VBP	O
+4-14	in	O	O	O	O
+4-15	tiny	O	O	JJ	O
+4-16	plastic	O	O	JJ	O
+4-17	tubes	4-13_prep_in	come	NNS	P1_wrapping
+4-18	that	4-21_nsubjpass	stored	WDT	P1_wrapping
+4-19	can	4-21_aux	stored	MD	O
+4-20	be	4-21_auxpass	stored	VB	O
+4-21	stored	O	O	VBN	O
+4-22	in	O	O	O	O
+4-23	the	O	O	DT	O
+4-24	refrigerator	4-21_prep_in	stored	NN	P1_NPart_refrigerator
+4-25	for	O	O	O	O
+4-26	when	O	O	WRB	O
+4-27	I	O	O	PRP	P1_gardener
+4-28	am	O	O	VBP	O
+4-29	ready	O	O	JJ	O
+4-30	.	O	O	O	O
+
+#id=5
+#text=The Colorado Blue Spruce grows well in my area of the United States . 
+5-1	The	O	O	DT	O
+5-2	Colorado	O	O	NNP	O
+5-3	Blue	O	O	NNP	O
+5-4	Spruce	5-5_nsubj	grows	NNP	P1_tree
+5-5	grows	O	O	VBZ	O
+5-6	well	5-5_advmod	grows	RB	O
+5-7	in	O	O	O	O
+5-8	my	O	O	PRP$	P1_gardener
+5-9	area	5-5_prep_in	grows	NN	P1_NPart_area
+5-10	of	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	United	O	O	NNP	O
+5-13	States	O	O	NNPS	P1_NPart_states
+5-14	.	O	O	O	O
+
+#id=6
+#text=I 'm not a tree expert so I wanted a tree that would not need a lot of skill to plant . 
+6-1	I	O	O	PRP	P1_gardener
+6-2	'm	O	O	VBP	O
+6-3	not	O	O	RB	O
+6-4	a	O	O	DT	O
+6-5	tree	O	O	NN	O
+6-6	expert	O	O	NN	P1_NPart_expert
+6-7	so	6-9_mark	wanted	IN	O
+6-8	I	6-9_nsubj	wanted	PRP	P1_gardener
+6-9	wanted	O	O	VBD	O
+6-10	a	O	O	DT	O
+6-11	tree	6-9_dobj	wanted	NN	P1_tree
+6-12	that	6-15_nsubj	need	WDT	P1_tree
+6-13	would	6-15_aux	need	MD	O
+6-14	not	6-15_neg	need	RB	O
+6-15	need	O	O	VB	O
+6-16	a	O	O	DT	O
+6-17	lot	6-15_dobj	need	NN	O
+6-18	of	O	O	O	O
+6-19	skill	O	O	NN	P1_NPart_skill
+6-20	to	O	O	O	O
+6-21	plant	6-15_prep_to	need	NN	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=It will be many , many years before my tree becomes a tall and magnificent giant but I know I did something good for our Earth by planting it . 
+7-1	It	O	O	PRP	O
+7-2	will	O	O	MD	O
+7-3	be	O	O	VB	O
+7-4	many	O	O	JJ	O
+7-5	,	O	O	O	O
+7-6	many	O	O	JJ	O
+7-7	years	7-11_dep	becomes	NNS	P2_time
+7-8	before	7-11_mark	becomes	IN	O
+7-9	my	O	O	PRP$	P1_gardener
+7-10	tree	7-11_nsubj	becomes	NN	P1_tree
+7-11	becomes	O	O	VBZ	O
+7-12	a	O	O	DT	O
+7-13	tall	O	O	JJ	O
+7-14	and	O	O	O	O
+7-15	magnificent	O	O	JJ	O
+7-16	giant	7-11_xcomp	becomes	NN	P1_NPart_giant
+7-17	but	O	O	O	O
+7-18	I	7-19_nsubj	know	PRP	P1_gardener
+7-19	know	O	O	VBP	O
+7-20	I	7-21_nsubj	did	PRP	P1_gardener
+7-21	did	7-19_ccomp	know	VBD	O
+7-22	something	7-21_dobj	did	NN	P1_NPart_something
+7-23	good	O	O	JJ	O
+7-24	for	O	O	O	O
+7-25	our	O	O	PRP$	P1_NPart_our
+7-26	Earth	7-21_prep_for	did	NN	P1_NPart_earth
+7-27	by	O	O	O	O
+7-28	planting	7-21_prepc_by	did	VBG	O
+7-29	it	7-28_dobj	planting	PRP	P1_tree
+7-30	.	O	O	O	O
+
+#id=8
+#text=I am going to plant a tree every year for Arbor Day because I loved how easy it was . 
+8-1	I	8-3_nsubj	going	PRP	P1_gardener
+8-2	am	8-3_aux	going	VBP	O
+8-3	going	O	O	VBG	O
+8-4	to	8-5_aux	plant	TO	O
+8-5	plant	8-3_xcomp	going	VB	O
+8-6	a	O	O	DT	O
+8-7	tree	8-5_dobj	plant	NN	P1_tree
+8-8	every	O	O	DT	O
+8-9	year	8-5_tmod	plant	NN	P3_time
+8-10	for	O	O	O	O
+8-11	Arbor	O	O	NNP	O
+8-12	Day	8-5_prep_for	plant	NNP	P1_time
+8-13	because	8-15_mark	loved	IN	O
+8-14	I	8-15_nsubj	loved	PRP	P1_gardener
+8-15	loved	8-5_advcl	plant	VBD	O
+8-16	how	8-19_advmod	was	WRB	O
+8-17	easy	O	O	JJ	O
+8-18	it	8-19_nsubj	was	PRP	O
+8-19	was	8-15_ccomp	loved	VBD	O
+8-20	.	O	O	O	O
+
+#id=9
+#text=It has only been a year but my little tree is growing out of the ground and I have n't had to do anything to tend to it . 
+9-1	It	O	O	PRP	O
+9-2	has	O	O	VBZ	O
+9-3	only	O	O	RB	O
+9-4	been	O	O	VBN	O
+9-5	a	O	O	DT	O
+9-6	year	O	O	NN	P3_time
+9-7	but	O	O	O	O
+9-8	my	O	O	PRP$	P1_gardener
+9-9	little	O	O	JJ	O
+9-10	tree	9-12_nsubj	growing	NN	P1_tree
+9-11	is	9-12_aux	growing	VBZ	O
+9-12	growing	O	O	VBG	O
+9-13	out	O	O	O	O
+9-14	of	O	O	O	O
+9-15	the	O	O	DT	O
+9-16	ground	9-12_prep_out_of	growing	NN	P1_dirt
+9-17	and	O	O	O	O
+9-18	I	9-21_nsubj	had	PRP	P1_gardener
+9-19	have	9-21_aux	had	VBP	O
+9-20	n't	9-21_neg	had	RB	O
+9-21	had	O	O	VBN	O
+9-22	to	9-23_aux	do	TO	O
+9-23	do	9-21_xcomp	had	VB	O
+9-24	anything	9-23_dobj	do	NN	O
+9-25	to	9-26_aux	tend	TO	O
+9-26	tend	9-23_vmod	do	VB	O
+9-27	to	O	O	O	O
+9-28	it	9-26_prep_to	tend	PRP	P1_tree
+9-29	.	O	O	O	O

@@ -1,0 +1,220 @@
+#id=1
+#text=Today I got up a little early to get to the library as soon as it opened . 
+1-1	Today	1-3_tmod	got	NN	P1_NPart_today
+1-2	I	1-3_nsubj	got	PRP	P1_customer
+1-3	got	O	O	VBD	O
+1-4	up	1-3_prt	got	RP	O
+1-5	a	O	O	DT	O
+1-6	little	O	O	JJ	O
+1-7	early	1-3_dobj	got	JJ	O
+1-8	to	1-9_aux	get	TO	O
+1-9	get	1-3_vmod	got	VB	O
+1-10	to	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	library	1-9_prep_to	get	NN	P1_library
+1-13	as	O	O	RB	O
+1-14	soon	1-9_advmod	get	RB	O
+1-15	as	1-17_mark	opened	IN	O
+1-16	it	1-17_nsubj	opened	PRP	P1_library
+1-17	opened	O	O	VBD	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=It 's about a 30 minute trip , but I love the drive . 
+2-1	It	2-2_nsubj	's	PRP	O
+2-2	's	O	O	VBZ	O
+2-3	about	O	O	O	O
+2-4	a	O	O	DT	O
+2-5	30	O	O	CD	O
+2-6	minute	O	O	NN	P1_NPart_minute
+2-7	trip	2-2_prep_about	's	NN	O
+2-8	,	O	O	O	O
+2-9	but	O	O	O	O
+2-10	I	2-11_nsubj	love	PRP	P1_customer
+2-11	love	2-2_conj_but	's	VBP	O
+2-12	the	O	O	DT	O
+2-13	drive	2-11_dobj	love	NN	P1_NPart_drive
+2-14	.	O	O	O	O
+
+#id=3
+#text=As I got to the library , the librarian greeted me with a big smile and made small talk . 
+3-1	As	3-3_mark	got	IN	O
+3-2	I	3-3_nsubj	got	PRP	P1_customer
+3-3	got	3-10_advcl	greeted	VBD	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	library	3-3_prep_to	got	NN	P1_library
+3-7	,	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	librarian	3-10_nsubj	greeted	NN	P1_staff
+3-10	greeted	O	O	VBD	O
+3-11	me	3-10_dobj	greeted	PRP	P1_customer
+3-12	with	O	O	O	O
+3-13	a	O	O	DT	O
+3-14	big	O	O	JJ	O
+3-15	smile	3-10_prep_with	greeted	NN	P1_NPart_smile
+3-16	and	O	O	O	O
+3-17	made	3-10_conj_and	greeted	VBD	O
+3-18	small	O	O	JJ	O
+3-19	talk	3-17_dobj	made	NN	O
+3-20	.	O	O	O	O
+
+#id=4
+#text=I then looked up the book I wanted on the computer . 
+4-1	I	4-3_nsubj	looked	PRP	P1_customer
+4-2	then	4-3_advmod	looked	RB	O
+4-3	looked	O	O	VBD	O
+4-4	up	4-3_prt	looked	RP	O
+4-5	the	O	O	DT	O
+4-6	book	4-3_dobj	looked	NN	P1_book
+4-7	I	4-8_nsubj	wanted	PRP	P1_customer
+4-8	wanted	O	O	VBD	O
+4-9	on	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	computer	4-8_prep_on	wanted	NN	P1_institutional_devices
+4-12	.	O	O	O	O
+
+#id=5
+#text=It was available , and I made my way down the long rows of bookshelves . 
+5-1	It	O	O	PRP	P1_book
+5-2	was	O	O	VBD	O
+5-3	available	O	O	JJ	O
+5-4	,	O	O	O	O
+5-5	and	O	O	O	O
+5-6	I	5-7_nsubj	made	PRP	P1_customer
+5-7	made	O	O	VBD	O
+5-8	my	O	O	PRP$	P1_customer
+5-9	way	5-7_dobj	made	NN	O
+5-10	down	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	long	O	O	JJ	O
+5-13	rows	5-7_prep_down	made	NNS	O
+5-14	of	O	O	O	O
+5-15	bookshelves	O	O	NNS	P1_shelf
+5-16	.	O	O	O	O
+
+#id=6
+#text=I found my book easily , and I also found a couple others I 'd like . 
+6-1	I	6-2_nsubj	found	PRP	P1_customer
+6-2	found	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_customer
+6-4	book	6-2_dobj	found	NN	P1_book
+6-5	easily	6-2_advmod	found	RB	O
+6-6	,	O	O	O	O
+6-7	and	O	O	O	O
+6-8	I	6-10_nsubj	found	PRP	P1_customer
+6-9	also	6-10_advmod	found	RB	O
+6-10	found	6-2_conj_and	found	VBD	O
+6-11	a	O	O	DT	O
+6-12	couple	O	O	NN	O
+6-13	others	6-10_dobj	found	NNS	P2_book
+6-14	I	6-16_nsubj	like	PRP	P1_customer
+6-15	'd	6-16_aux	like	MD	O
+6-16	like	O	O	VB	O
+6-17	.	O	O	O	O
+
+#id=7
+#text=I carried my stack of books to the counter , and the same librarian was happy to help me . 
+7-1	I	7-2_nsubj	carried	PRP	P1_customer
+7-2	carried	O	O	VBD	O
+7-3	my	O	O	PRP$	P1_customer
+7-4	stack	7-2_dobj	carried	NN	O
+7-5	of	O	O	O	O
+7-6	books	O	O	NNS	P3_book
+7-7	to	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	counter	7-2_prep_to	carried	NN	P1_check-out_desk
+7-10	,	O	O	O	O
+7-11	and	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	same	O	O	JJ	O
+7-14	librarian	O	O	NN	P1_staff
+7-15	was	O	O	VBD	O
+7-16	happy	7-2_conj_and	carried	JJ	O
+7-17	to	7-18_aux	help	TO	O
+7-18	help	O	O	VB	O
+7-19	me	7-18_dobj	help	PRP	P1_customer
+7-20	.	O	O	O	O
+
+#id=8
+#text=She told me my book choices were great and she also recommended some further reading . 
+8-1	She	8-2_nsubj	told	PRP	P1_staff
+8-2	told	O	O	VBD	O
+8-3	me	8-2_dobj	told	PRP	P1_customer
+8-4	my	O	O	PRP$	P1_customer
+8-5	book	O	O	NN	O
+8-6	choices	O	O	NNS	O
+8-7	were	O	O	VBD	O
+8-8	great	8-2_dep	told	JJ	O
+8-9	and	O	O	O	O
+8-10	she	8-12_nsubj	recommended	PRP	P1_staff
+8-11	also	8-12_advmod	recommended	RB	O
+8-12	recommended	8-2_conj_and	told	VBD	O
+8-13	some	O	O	DT	O
+8-14	further	O	O	JJ	O
+8-15	reading	8-12_dobj	recommended	NN	P4_book
+8-16	.	O	O	O	O
+
+#id=9
+#text=She checked out my books in the computer . 
+9-1	She	9-2_nsubj	checked	PRP	P1_staff
+9-2	checked	O	O	VBD	O
+9-3	out	9-2_prt	checked	RP	O
+9-4	my	O	O	PRP$	P1_customer
+9-5	books	9-2_dobj	checked	NNS	P3_book
+9-6	in	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	computer	9-2_prep_in	checked	NN	P2_institutional_devices
+9-9	.	O	O	O	O
+
+#id=10
+#text=Two of the books needed to be returned in two weeks and the other needed to be returned in one week . 
+10-1	Two	10-15_nsubj	needed	CD	O
+10-2	of	O	O	O	O
+10-3	the	O	O	DT	O
+10-4	books	O	O	NNS	P5_book
+10-5	needed	O	O	VBN	O
+10-6	to	10-8_aux	returned	TO	O
+10-7	be	10-8_auxpass	returned	VB	O
+10-8	returned	10-5_xcomp	needed	VBN	O
+10-9	in	O	O	O	O
+10-10	two	O	O	CD	O
+10-11	weeks	10-8_prep_in	returned	NNS	P1_return_date
+10-12	and	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	other	O	O	JJ	P6_book
+10-15	needed	O	O	VBD	O
+10-16	to	10-18_aux	returned	TO	O
+10-17	be	10-18_auxpass	returned	VB	O
+10-18	returned	10-15_xcomp	needed	VBN	O
+10-19	in	O	O	O	O
+10-20	one	10-18_prep_in	returned	CD	O
+10-21	week	10-18_tmod	returned	NN	P2_return_date
+10-22	.	O	O	O	O
+
+#id=11
+#text=I 'll likely return them all in one week . 
+11-1	I	11-4_nsubj	return	PRP	P1_customer
+11-2	'll	11-4_aux	return	MD	O
+11-3	likely	11-4_advmod	return	RB	O
+11-4	return	O	O	VB	O
+11-5	them	11-4_dobj	return	PRP	P3_book
+11-6	all	11-4_dep	return	DT	O
+11-7	in	O	O	O	O
+11-8	one	11-4_prep_in	return	CD	O
+11-9	week	11-4_tmod	return	NN	P3_return_date
+11-10	.	O	O	O	O
+
+#id=12
+#text=I left and went to the park to start reading . 
+12-1	I	12-2_nsubj	left	PRP	P1_customer
+12-2	left	O	O	VBD	O
+12-3	and	O	O	O	O
+12-4	went	12-2_conj_and	left	VBD	O
+12-5	to	O	O	O	O
+12-6	the	O	O	DT	O
+12-7	park	12-4_prep_to	went	NN	P1_NPart_park
+12-8	to	12-9_aux	start	TO	O
+12-9	start	12-4_xcomp	went	VB	O
+12-10	reading	12-9_dobj	start	NN	O
+12-11	.	O	O	O	O

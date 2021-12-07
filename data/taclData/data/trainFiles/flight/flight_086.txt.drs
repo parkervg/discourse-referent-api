@@ -1,0 +1,303 @@
+#id=1
+#text=I was so scared to find out that I had to go on the airplane to visit my grandmother . 
+1-1	I	1-4_nsubjpass	scared	PRP	P1_passenger
+1-2	was	1-4_auxpass	scared	VBD	O
+1-3	so	1-4_advmod	scared	RB	O
+1-4	scared	O	O	VBN	O
+1-5	to	1-6_aux	find	TO	O
+1-6	find	1-4_xcomp	scared	VB	O
+1-7	out	1-6_prt	find	RP	O
+1-8	that	1-10_mark	had	IN	O
+1-9	I	1-10_nsubj	had	PRP	P1_passenger
+1-10	had	1-6_ccomp	find	VBD	O
+1-11	to	1-12_aux	go	TO	O
+1-12	go	1-10_xcomp	had	VB	O
+1-13	on	O	O	O	O
+1-14	the	O	O	DT	O
+1-15	airplane	1-12_prep_on	go	NN	P1_plane
+1-16	to	1-17_aux	visit	TO	O
+1-17	visit	1-10_xcomp	had	VB	O
+1-18	my	O	O	PRP$	P1_passenger
+1-19	grandmother	1-17_dobj	visit	NN	P1_NPart_grandmother
+1-20	.	O	O	O	O
+
+#id=2
+#text=She had been very sick and in the hospital for awhile now so I owed it to her . 
+2-1	She	O	O	PRP	P1_NPart_she
+2-2	had	O	O	VBD	O
+2-3	been	O	O	VBN	O
+2-4	very	O	O	RB	O
+2-5	sick	O	O	JJ	O
+2-6	and	O	O	O	O
+2-7	in	O	O	O	O
+2-8	the	O	O	DT	O
+2-9	hospital	2-15_prep_in	owed	NN	P1_NPart_hospital
+2-10	for	O	O	IN	O
+2-11	awhile	O	O	RB	O
+2-12	now	O	O	RB	O
+2-13	so	O	O	RB	O
+2-14	I	2-15_nsubj	owed	PRP	P1_passenger
+2-15	owed	O	O	VBD	O
+2-16	it	2-15_dobj	owed	PRP	O
+2-17	to	O	O	O	O
+2-18	her	2-15_prep_to	owed	PRP	P1_NPart_her
+2-19	.	O	O	O	O
+
+#id=3
+#text=I would have taken the bus but it was at least a twenty four hour journey if driving . 
+3-1	I	3-4_nsubj	taken	PRP	P1_passenger
+3-2	would	3-4_aux	taken	MD	O
+3-3	have	3-4_aux	taken	VB	O
+3-4	taken	O	O	VBN	O
+3-5	the	O	O	DT	O
+3-6	bus	3-4_dobj	taken	NN	P1_NPart_bus
+3-7	but	O	O	O	O
+3-8	it	O	O	PRP	O
+3-9	was	O	O	VBD	O
+3-10	at	O	O	IN	O
+3-11	least	O	O	JJS	O
+3-12	a	O	O	DT	O
+3-13	twenty	O	O	CD	O
+3-14	four	O	O	CD	O
+3-15	hour	O	O	NN	O
+3-16	journey	3-4_conj_but	taken	NN	P1_NPart_journey
+3-17	if	O	O	IN	O
+3-18	driving	O	O	NN	O
+3-19	.	O	O	O	O
+
+#id=4
+#text=I searched some popular sites online and found the perfect flight deal . 
+4-1	I	4-2_nsubj	searched	PRP	P1_passenger
+4-2	searched	O	O	VBD	O
+4-3	some	O	O	DT	O
+4-4	popular	O	O	JJ	O
+4-5	sites	4-2_dobj	searched	NNS	P1_NPart_sites
+4-6	online	4-2_prep	searched	NN	O
+4-7	and	O	O	O	O
+4-8	found	4-2_conj_and	searched	VBD	O
+4-9	the	O	O	DT	O
+4-10	perfect	O	O	JJ	O
+4-11	flight	O	O	NN	O
+4-12	deal	4-8_dobj	found	NN	P1_ticket
+4-13	.	O	O	O	O
+
+#id=5
+#text=It was a round trip flight from New York to Orlando and it would only take four hours . 
+5-1	It	O	O	PRP	O
+5-2	was	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	round	O	O	NN	O
+5-5	trip	O	O	NN	O
+5-6	flight	O	O	NN	P1_flight
+5-7	from	O	O	O	O
+5-8	New	O	O	NNP	O
+5-9	York	O	O	NNP	P1_NPart_york
+5-10	to	O	O	O	O
+5-11	Orlando	O	O	NNP	P1_target_location
+5-12	and	O	O	O	O
+5-13	it	5-16_nsubj	take	PRP	P1_flight
+5-14	would	5-16_aux	take	MD	O
+5-15	only	5-16_advmod	take	RB	O
+5-16	take	O	O	VB	O
+5-17	four	O	O	CD	O
+5-18	hours	5-16_dobj	take	NNS	P1_time/date
+5-19	.	O	O	O	O
+
+#id=6
+#text=I was scheduled to leave the following morning so I packed just enough stuff to fit on a carryon bag . 
+6-1	I	6-3_nsubjpass	scheduled	PRP	P1_passenger
+6-2	was	6-3_auxpass	scheduled	VBD	O
+6-3	scheduled	O	O	VBN	O
+6-4	to	6-5_aux	leave	TO	O
+6-5	leave	6-3_xcomp	scheduled	VB	O
+6-6	the	O	O	DT	O
+6-7	following	O	O	JJ	O
+6-8	morning	6-5_tmod	leave	NN	P2_time/date
+6-9	so	6-11_mark	packed	IN	O
+6-10	I	6-11_nsubj	packed	PRP	P1_passenger
+6-11	packed	6-5_advcl	leave	VBD	O
+6-12	just	O	O	RB	O
+6-13	enough	O	O	JJ	O
+6-14	stuff	6-11_dobj	packed	NN	P1_personal_belongings
+6-15	to	6-16_aux	fit	TO	O
+6-16	fit	6-11_vmod	packed	VB	O
+6-17	on	O	O	O	O
+6-18	a	O	O	DT	O
+6-19	carryon	O	O	NN	O
+6-20	bag	6-16_prep_on	fit	NN	P1_carry_on_luggage
+6-21	.	O	O	O	O
+
+#id=7
+#text=The airline charged extra money based on how many bags you had . 
+7-1	The	O	O	DT	O
+7-2	airline	7-3_nsubj	charged	NN	P1_other
+7-3	charged	O	O	VBD	O
+7-4	extra	O	O	JJ	O
+7-5	money	7-3_dobj	charged	NN	P1_NPart_money
+7-6	based	O	O	O	O
+7-7	on	7-3_prepc_based_on	charged	IN	O
+7-8	how	O	O	WRB	O
+7-9	many	O	O	JJ	O
+7-10	bags	7-12_dobj	had	NNS	P1_check_in_luggage
+7-11	you	7-12_nsubj	had	PRP	P1_passenger
+7-12	had	7-3_pcomp	charged	VBD	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=Carry ons were free and I was only staying for two days so things worked out great . 
+8-1	Carry	O	O	NNP	O
+8-2	ons	O	O	NNP	P1_carry_on_luggage
+8-3	were	O	O	VBD	O
+8-4	free	O	O	JJ	O
+8-5	and	O	O	O	O
+8-6	I	8-9_nsubj	staying	PRP	P1_passenger
+8-7	was	8-9_aux	staying	VBD	O
+8-8	only	8-9_advmod	staying	RB	O
+8-9	staying	O	O	VBG	O
+8-10	for	O	O	O	O
+8-11	two	O	O	CD	O
+8-12	days	8-9_prep_for	staying	NNS	P1_NPart_days
+8-13	so	8-15_mark	worked	IN	O
+8-14	things	8-15_nsubj	worked	NNS	P1_NPart_things
+8-15	worked	8-9_advcl	staying	VBD	O
+8-16	out	8-15_prt	worked	RP	O
+8-17	great	8-15_dep	worked	JJ	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=I arrived and the busy airport an hour long , went through the security part which took the longest . 
+9-1	I	9-2_nsubj	arrived	PRP	P1_passenger
+9-2	arrived	O	O	VBD	O
+9-3	and	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	busy	O	O	JJ	O
+9-6	airport	O	O	NN	P1_airport
+9-7	an	O	O	DT	O
+9-8	hour	O	O	NN	P3_time/date
+9-9	long	9-11_advmod	went	RB	O
+9-10	,	O	O	O	O
+9-11	went	9-2_conj_and	arrived	VBD	O
+9-12	through	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	security	O	O	NN	O
+9-15	part	9-11_prep_through	went	NN	P1_security_check
+9-16	which	9-17_nsubj	took	WDT	O
+9-17	took	O	O	VBD	O
+9-18	the	O	O	DT	O
+9-19	longest	9-17_dobj	took	JJS	O
+9-20	.	O	O	O	O
+
+#id=10
+#text=I had just minutes before my flight would board and my nerves were getting the best of me . 
+10-1	I	10-2_nsubj	had	PRP	P1_passenger
+10-2	had	O	O	VBD	O
+10-3	just	O	O	RB	O
+10-4	minutes	10-2_dobj	had	NNS	P4_time/date
+10-5	before	10-9_mark	board	IN	O
+10-6	my	O	O	PRP$	P1_passenger
+10-7	flight	10-9_nsubj	board	NN	P1_flight
+10-8	would	10-9_aux	board	MD	O
+10-9	board	10-2_advcl	had	VB	O
+10-10	and	O	O	O	O
+10-11	my	O	O	PRP$	P1_passenger
+10-12	nerves	10-14_nsubj	getting	NNS	P1_NPart_nerves
+10-13	were	10-14_aux	getting	VBD	O
+10-14	getting	10-2_conj_and	had	VBG	O
+10-15	the	O	O	DT	O
+10-16	best	10-14_dobj	getting	JJS	O
+10-17	of	O	O	O	O
+10-18	me	O	O	PRP	P1_passenger
+10-19	.	O	O	O	O
+
+#id=11
+#text=But once I got on things were great . 
+11-1	But	O	O	CC	O
+11-2	once	11-4_mark	got	IN	O
+11-3	I	11-4_nsubj	got	PRP	P1_passenger
+11-4	got	O	O	VBD	O
+11-5	on	O	O	O	O
+11-6	things	11-4_prep_on	got	NNS	O
+11-7	were	O	O	VBD	O
+11-8	great	O	O	JJ	O
+11-9	.	O	O	O	O
+
+#id=12
+#text=I had a window seat but never looked out to see the clouds . 
+12-1	I	12-2_nsubj	had	PRP	P1_passenger
+12-2	had	O	O	VBD	O
+12-3	a	O	O	DT	O
+12-4	window	O	O	NN	O
+12-5	seat	12-2_dobj	had	NN	P1_seat
+12-6	but	O	O	O	O
+12-7	never	12-8_neg	looked	RB	O
+12-8	looked	12-2_conj_but	had	VBD	O
+12-9	out	12-8_prt	looked	RP	O
+12-10	to	12-11_aux	see	TO	O
+12-11	see	12-8_xcomp	looked	VB	O
+12-12	the	O	O	DT	O
+12-13	clouds	12-11_dobj	see	NNS	P1_in-flight_entertainment
+12-14	.	O	O	O	O
+
+#id=13
+#text=The flight attendants were great and offered me drinks and snacks . 
+13-1	The	O	O	DT	O
+13-2	flight	O	O	NN	O
+13-3	attendants	O	O	NNS	P1_staff
+13-4	were	O	O	VBD	O
+13-5	great	O	O	JJ	O
+13-6	and	O	O	O	O
+13-7	offered	O	O	VBD	O
+13-8	me	13-9_nsubj	drinks	PRP	P1_passenger
+13-9	drinks	13-7_ccomp	offered	VBZ	P2_in-flight_entertainment
+13-10	and	O	O	O	O
+13-11	snacks	13-9_conj_and	drinks	VBZ	P3_in-flight_entertainment
+13-12	.	O	O	O	O
+
+#id=14
+#text=My ears rang a little but the gum I chewed helped . 
+14-1	My	O	O	PRP$	P1_passenger
+14-2	ears	14-3_nsubj	rang	NNS	P1_NPart_ears
+14-3	rang	O	O	VBD	O
+14-4	a	O	O	DT	O
+14-5	little	14-3_dobj	rang	JJ	O
+14-6	but	O	O	O	O
+14-7	the	O	O	DT	O
+14-8	gum	14-11_nsubj	helped	NN	P4_in-flight_entertainment
+14-9	I	14-10_nsubj	chewed	PRP	P1_passenger
+14-10	chewed	O	O	VBD	O
+14-11	helped	14-3_conj_but	rang	VBD	O
+14-12	.	O	O	O	O
+
+#id=15
+#text=There was n't any turbulence and I was by my grandmothers side before I knew it . 
+15-1	There	15-2_expl	was	EX	O
+15-2	was	O	O	VBD	O
+15-3	n't	15-2_neg	was	RB	O
+15-4	any	O	O	DT	O
+15-5	turbulence	15-2_nsubj	was	NN	P2_other
+15-6	and	O	O	O	O
+15-7	I	15-8_nsubj	was	PRP	P1_passenger
+15-8	was	15-2_conj_and	was	VBD	O
+15-9	by	O	O	O	O
+15-10	my	O	O	PRP$	P1_passenger
+15-11	grandmothers	O	O	JJ	P1_NPart_grandmothers
+15-12	side	15-8_prep_by	was	NN	P2_target_location
+15-13	before	15-15_mark	knew	IN	O
+15-14	I	15-15_nsubj	knew	PRP	P1_passenger
+15-15	knew	15-8_advcl	was	VBD	O
+15-16	it	15-15_dobj	knew	PRP	O
+15-17	.	O	O	O	O
+
+#id=16
+#text=So glad to have been able to overcome my fears . 
+16-1	So	O	O	RB	O
+16-2	glad	O	O	JJ	O
+16-3	to	O	O	TO	O
+16-4	have	O	O	VB	O
+16-5	been	O	O	VBN	O
+16-6	able	O	O	JJ	O
+16-7	to	16-8_aux	overcome	TO	O
+16-8	overcome	O	O	VB	O
+16-9	my	O	O	PRP$	P1_passenger
+16-10	fears	16-8_dobj	overcome	NNS	P1_NPart_fears
+16-11	.	O	O	O	O

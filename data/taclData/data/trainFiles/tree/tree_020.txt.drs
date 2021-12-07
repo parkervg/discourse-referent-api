@@ -1,0 +1,186 @@
+#id=1
+#text=I decided we needed some fruit trees on our property so ordered a three in one apple tree from a catalog . 
+1-1	I	1-2_nsubj	decided	PRP	P1_gardener
+1-2	decided	O	O	VBD	O
+1-3	we	1-4_nsubj	needed	PRP	P1_NPart_we
+1-4	needed	1-2_ccomp	decided	VBD	O
+1-5	some	O	O	DT	O
+1-6	fruit	O	O	NN	O
+1-7	trees	1-12_nsubj	ordered	NNS	P1_tree
+1-8	on	O	O	O	O
+1-9	our	O	O	PRP$	P1_NPart_our
+1-10	property	O	O	NN	P1_NPart_property
+1-11	so	1-12_advmod	ordered	RB	O
+1-12	ordered	1-4_ccomp	needed	VBD	O
+1-13	a	O	O	DT	O
+1-14	three	1-12_dobj	ordered	CD	O
+1-15	in	O	O	O	O
+1-16	one	O	O	CD	O
+1-17	apple	O	O	NN	O
+1-18	tree	1-12_prep_in	ordered	NN	P1_tree
+1-19	from	O	O	O	O
+1-20	a	O	O	DT	O
+1-21	catalog	1-12_prep_from	ordered	NN	P1_NPart_catalog
+1-22	.	O	O	O	O
+
+#id=2
+#text=The three in one apple tree did n't need other apple trees for cross pollination because it had three different kinds of apples on its branches . 
+2-1	The	O	O	DT	O
+2-2	three	2-9_nsubj	need	CD	O
+2-3	in	O	O	O	O
+2-4	one	O	O	CD	O
+2-5	apple	O	O	NN	O
+2-6	tree	O	O	NN	P1_tree
+2-7	did	2-9_aux	need	VBD	O
+2-8	n't	2-9_neg	need	RB	O
+2-9	need	O	O	VB	O
+2-10	other	O	O	JJ	O
+2-11	apple	O	O	NN	O
+2-12	trees	2-9_dobj	need	NNS	P2_tree
+2-13	for	O	O	O	O
+2-14	cross	O	O	JJ	O
+2-15	pollination	2-9_prep_for	need	NN	P1_NPart_pollination
+2-16	because	2-18_mark	had	IN	O
+2-17	it	2-18_nsubj	had	PRP	P1_tree
+2-18	had	2-9_advcl	need	VBD	O
+2-19	three	O	O	CD	O
+2-20	different	O	O	JJ	O
+2-21	kinds	2-18_dobj	had	NNS	O
+2-22	of	O	O	O	O
+2-23	apples	O	O	NNS	P1_NPart_apples
+2-24	on	O	O	O	O
+2-25	its	O	O	PRP$	P1_tree
+2-26	branches	O	O	NNS	P1_NPart_branches
+2-27	.	O	O	O	O
+
+#id=3
+#text=A couple weeks later a the apple tree came in the mail . 
+3-1	A	O	O	DT	O
+3-2	couple	O	O	JJ	O
+3-3	weeks	O	O	NNS	P1_NPart_weeks
+3-4	later	3-9_advmod	came	RB	O
+3-5	a	O	O	DT	O
+3-6	the	O	O	DT	O
+3-7	apple	O	O	NN	O
+3-8	tree	3-9_nsubj	came	NN	P1_tree
+3-9	came	O	O	VBD	O
+3-10	in	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	mail	3-9_prep_in	came	NN	P1_NPart_mail
+3-13	.	O	O	O	O
+
+#id=4
+#text=I opened the package and read the directions . 
+4-1	I	4-2_nsubj	opened	PRP	P1_gardener
+4-2	opened	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	package	4-2_dobj	opened	NN	P1_NPart_package
+4-5	and	O	O	O	O
+4-6	read	4-2_conj_and	opened	VBD	O
+4-7	the	O	O	DT	O
+4-8	directions	4-6_dobj	read	NNS	P1_NPart_directions
+4-9	.	O	O	O	O
+
+#id=5
+#text=I then grabbed a shovel and went and dug a hole that was twice as big as the base of the tree . 
+5-1	I	5-3_nsubj	grabbed	PRP	P1_gardener
+5-2	then	5-3_advmod	grabbed	RB	O
+5-3	grabbed	O	O	VBD	O
+5-4	a	O	O	DT	O
+5-5	shovel	5-3_dobj	grabbed	NN	P1_gardening_tool
+5-6	and	O	O	O	O
+5-7	went	5-3_conj_and	grabbed	VBD	O
+5-8	and	O	O	O	O
+5-9	dug	5-7_conj_and	went	VBD	O
+5-10	a	O	O	DT	O
+5-11	hole	5-7_dobj	went	NN	P1_hole
+5-12	that	O	O	WDT	O
+5-13	was	O	O	VBD	O
+5-14	twice	O	O	RB	O
+5-15	as	O	O	RB	O
+5-16	big	O	O	JJ	O
+5-17	as	O	O	O	O
+5-18	the	O	O	DT	O
+5-19	base	O	O	NN	P1_NPart_base
+5-20	of	O	O	O	O
+5-21	the	O	O	DT	O
+5-22	tree	O	O	NN	P1_tree
+5-23	.	O	O	O	O
+
+#id=6
+#text=Then I drove to the store to buy some potting mix which was highly encouraged in the apple trees instructions . 
+6-1	Then	6-3_advmod	drove	RB	O
+6-2	I	6-3_nsubj	drove	PRP	P1_gardener
+6-3	drove	O	O	VBD	O
+6-4	to	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	store	6-3_prep_to	drove	NN	P1_shop
+6-7	to	6-8_aux	buy	TO	O
+6-8	buy	6-3_xcomp	drove	VB	O
+6-9	some	O	O	DT	O
+6-10	potting	O	O	VBG	O
+6-11	mix	6-8_dobj	buy	NN	P1_dirt
+6-12	which	O	O	WDT	O
+6-13	was	O	O	VBD	O
+6-14	highly	O	O	RB	O
+6-15	encouraged	O	O	JJ	O
+6-16	in	O	O	O	O
+6-17	the	O	O	DT	O
+6-18	apple	O	O	NN	O
+6-19	trees	O	O	NNS	P1_tree
+6-20	instructions	O	O	NNS	P1_NPart_instructions
+6-21	.	O	O	O	O
+
+#id=7
+#text=Once home , I put the three in one apple tree into the hole I had dug . 
+7-1	Once	7-5_advmod	put	RB	O
+7-2	home	O	O	NN	P1_NPart_home
+7-3	,	O	O	O	O
+7-4	I	7-5_nsubj	put	PRP	P1_gardener
+7-5	put	O	O	VBD	O
+7-6	the	O	O	DT	O
+7-7	three	7-5_dobj	put	CD	O
+7-8	in	O	O	O	O
+7-9	one	O	O	CD	O
+7-10	apple	O	O	NN	O
+7-11	tree	O	O	NN	P1_tree
+7-12	into	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	hole	7-5_prep_into	put	NN	P1_hole
+7-15	I	7-17_nsubj	dug	PRP	P1_gardener
+7-16	had	7-17_aux	dug	VBD	O
+7-17	dug	O	O	VBD	O
+7-18	.	O	O	O	O
+
+#id=8
+#text=Then I put potting soil around the base of the tree . 
+8-1	Then	8-3_advmod	put	RB	O
+8-2	I	8-3_nsubj	put	PRP	P1_gardener
+8-3	put	O	O	VBD	O
+8-4	potting	8-3_xcomp	put	VBG	O
+8-5	soil	8-4_dobj	potting	NN	P1_dirt
+8-6	around	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	base	8-4_prep_around	potting	NN	P2_NPart_base
+8-9	of	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	tree	O	O	NN	P1_tree
+8-12	.	O	O	O	O
+
+#id=9
+#text=Then all that was left to do was keep it watered throughout the year . 
+9-1	Then	9-8_advmod	was	RB	O
+9-2	all	9-8_nsubj	was	DT	O
+9-3	that	9-5_nsubjpass	left	WDT	O
+9-4	was	9-5_auxpass	left	VBD	O
+9-5	left	O	O	VBN	O
+9-6	to	9-7_aux	do	TO	O
+9-7	do	9-5_xcomp	left	VB	O
+9-8	was	O	O	VBD	O
+9-9	keep	9-8_ccomp	was	VB	O
+9-10	it	9-11_nsubj	watered	PRP	P1_tree
+9-11	watered	9-9_ccomp	keep	VBD	O
+9-12	throughout	O	O	O	O
+9-13	the	O	O	DT	O
+9-14	year	9-11_prep_throughout	watered	NN	P1_time
+9-15	.	O	O	O	O

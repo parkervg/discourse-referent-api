@@ -1,0 +1,191 @@
+#id=1
+#text=When I went grocery shopping I started by looking in my refrigerator and figuring out what I needed to get . 
+1-1	When	1-3_advmod	went	WRB	O
+1-2	I	1-3_nsubj	went	PRP	P1_shopper
+1-3	went	1-7_advcl	started	VBD	O
+1-4	grocery	O	O	NN	P1_groceries
+1-5	shopping	1-3_dobj	went	NN	O
+1-6	I	1-7_nsubj	started	PRP	P1_shopper
+1-7	started	O	O	VBD	O
+1-8	by	O	O	O	O
+1-9	looking	1-7_prepc_by	started	VBG	O
+1-10	in	O	O	O	O
+1-11	my	O	O	PRP$	P1_shopper
+1-12	refrigerator	1-9_prep_in	looking	NN	P1_NPart_refrigerator
+1-13	and	O	O	O	O
+1-14	figuring	1-9_conj_and	looking	VBG	O
+1-15	out	1-14_prt	figuring	RP	O
+1-16	what	1-18_dobj	needed	WP	P1_groceries
+1-17	I	1-18_nsubj	needed	PRP	P1_shopper
+1-18	needed	1-14_ccomp	figuring	VBD	O
+1-19	to	1-20_aux	get	TO	O
+1-20	get	1-18_xcomp	needed	VB	O
+1-21	.	O	O	O	O
+
+#id=2
+#text=I made a shopping list based on this . 
+2-1	I	2-2_nsubj	made	PRP	P1_shopper
+2-2	made	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	shopping	O	O	NN	O
+2-5	list	2-2_dobj	made	NN	P1_grocery_list
+2-6	based	O	O	O	O
+2-7	on	2-2_prepc_based_on	made	IN	O
+2-8	this	2-2_pobj	made	DT	O
+2-9	.	O	O	O	O
+
+#id=3
+#text=Then I decided which store was the best to go to to buy these items . 
+3-1	Then	3-3_advmod	decided	RB	O
+3-2	I	3-3_nsubj	decided	PRP	P1_shopper
+3-3	decided	O	O	VBD	O
+3-4	which	O	O	WDT	O
+3-5	store	O	O	NN	P1_grocery_shop
+3-6	was	O	O	VBD	O
+3-7	the	O	O	DT	O
+3-8	best	3-3_ccomp	decided	JJS	O
+3-9	to	3-10_aux	go	TO	O
+3-10	go	O	O	VB	O
+3-11	to	3-10_xcomp	go	TO	O
+3-12	to	3-13_aux	buy	TO	O
+3-13	buy	O	O	VB	O
+3-14	these	O	O	DT	O
+3-15	items	3-13_dobj	buy	NNS	P1_groceries
+3-16	.	O	O	O	O
+
+#id=4
+#text=I decided that Publix was the best and closest store for me . 
+4-1	I	4-2_nsubj	decided	PRP	P1_shopper
+4-2	decided	O	O	VBD	O
+4-3	that	O	O	IN	O
+4-4	Publix	O	O	NNP	P1_grocery_shop
+4-5	was	O	O	VBD	O
+4-6	the	O	O	DT	O
+4-7	best	O	O	JJS	O
+4-8	and	O	O	O	O
+4-9	closest	O	O	JJS	O
+4-10	store	4-2_ccomp	decided	NN	P1_grocery_shop
+4-11	for	O	O	O	O
+4-12	me	O	O	PRP	P1_shopper
+4-13	.	O	O	O	O
+
+#id=5
+#text=I walked to the store with my empty backpack , and when I got in the first thing I did was check the clearance section and sales . 
+5-1	I	5-2_nsubj	walked	PRP	P1_shopper
+5-2	walked	O	O	VBD	O
+5-3	to	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	store	5-2_prep_to	walked	NN	P1_grocery_shop
+5-6	with	O	O	O	O
+5-7	my	O	O	PRP$	P1_shopper
+5-8	empty	O	O	JJ	O
+5-9	backpack	5-2_prep_with	walked	NN	P1_shopping_bags
+5-10	,	O	O	O	O
+5-11	and	O	O	O	O
+5-12	when	5-14_advmod	got	WRB	O
+5-13	I	5-14_nsubj	got	PRP	P1_shopper
+5-14	got	5-20_advcl	did	VBD	O
+5-15	in	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	first	O	O	JJ	O
+5-18	thing	5-14_prep_in	got	NN	P1_NPart_thing
+5-19	I	5-20_nsubj	did	PRP	P1_shopper
+5-20	did	5-2_conj_and	walked	VBD	O
+5-21	was	5-20_ccomp	did	VBD	O
+5-22	check	5-21_ccomp	was	VB	O
+5-23	the	O	O	DT	O
+5-24	clearance	O	O	NN	O
+5-25	section	5-22_dobj	check	NN	P1_section
+5-26	and	O	O	O	O
+5-27	sales	O	O	NNS	P2_section
+5-28	.	O	O	O	O
+
+#id=6
+#text=After that I walked the aisle , making sure to pick up everything that I needed . 
+6-1	After	O	O	O	O
+6-2	that	6-4_prep_after	walked	DT	O
+6-3	I	6-4_nsubj	walked	PRP	P1_shopper
+6-4	walked	O	O	VBD	O
+6-5	the	O	O	DT	O
+6-6	aisle	6-4_dobj	walked	NN	P3_section
+6-7	,	O	O	O	O
+6-8	making	6-4_vmod	walked	VBG	O
+6-9	sure	6-8_acomp	making	JJ	O
+6-10	to	6-11_aux	pick	TO	O
+6-11	pick	O	O	VB	O
+6-12	up	6-11_prt	pick	RP	O
+6-13	everything	6-11_dobj	pick	NN	P1_groceries
+6-14	that	6-16_mark	needed	IN	P1_groceries
+6-15	I	6-16_nsubj	needed	PRP	P1_shopper
+6-16	needed	6-11_ccomp	pick	VBD	O
+6-17	.	O	O	O	O
+
+#id=7
+#text=I avoided using a shopping cart to be sure that I would not buy more than I could carry . 
+7-1	I	7-2_nsubj	avoided	PRP	P1_shopper
+7-2	avoided	O	O	VBD	O
+7-3	using	7-2_xcomp	avoided	VBG	O
+7-4	a	O	O	DT	O
+7-5	shopping	O	O	NN	O
+7-6	cart	7-3_dobj	using	NN	P1_shopping_cart/basket
+7-7	to	O	O	TO	O
+7-8	be	O	O	VB	O
+7-9	sure	7-3_vmod	using	JJ	O
+7-10	that	7-14_mark	buy	IN	O
+7-11	I	7-14_nsubj	buy	PRP	P1_shopper
+7-12	would	7-14_aux	buy	MD	O
+7-13	not	7-14_neg	buy	RB	O
+7-14	buy	O	O	VB	O
+7-15	more	7-14_advmod	buy	RBR	O
+7-16	than	7-19_mark	carry	IN	O
+7-17	I	7-19_nsubj	carry	PRP	P1_shopper
+7-18	could	7-19_aux	carry	MD	O
+7-19	carry	O	O	VB	O
+7-20	.	O	O	O	O
+
+#id=8
+#text=After picking up all the items I went to the checkout where I paid for my purchases in cash . 
+8-1	After	O	O	O	O
+8-2	picking	8-8_prepc_after	went	VBG	O
+8-3	up	8-2_prt	picking	RP	O
+8-4	all	O	O	PDT	O
+8-5	the	O	O	DT	O
+8-6	items	8-2_dobj	picking	NNS	P1_groceries
+8-7	I	8-8_nsubj	went	PRP	P1_shopper
+8-8	went	O	O	VBD	O
+8-9	to	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	checkout	8-8_prep_to	went	NN	P1_cash_desk
+8-12	where	8-14_advmod	paid	WRB	O
+8-13	I	8-14_nsubj	paid	PRP	P1_shopper
+8-14	paid	8-8_advcl	went	VBD	O
+8-15	for	O	O	O	O
+8-16	my	O	O	PRP$	P1_shopper
+8-17	purchases	8-14_prep_for	paid	NNS	P1_groceries
+8-18	in	O	O	O	O
+8-19	cash	8-14_prep_in	paid	NN	P1_payment_means
+8-20	.	O	O	O	O
+
+#id=9
+#text=After that I put the items in my backpack and walked out of the store and back to my house . 
+9-1	After	O	O	O	O
+9-2	that	9-4_prep_after	put	DT	O
+9-3	I	9-4_nsubj	put	PRP	P1_shopper
+9-4	put	O	O	VBD	O
+9-5	the	O	O	DT	O
+9-6	items	9-4_dobj	put	NNS	P1_groceries
+9-7	in	O	O	O	O
+9-8	my	O	O	PRP$	P1_shopper
+9-9	backpack	9-4_prep_in	put	NN	P1_shopping_bags
+9-10	and	O	O	O	O
+9-11	walked	9-4_conj_and	put	VBD	O
+9-12	out	O	O	O	O
+9-13	of	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	store	9-11_prep_out_of	walked	NN	P1_grocery_shop
+9-16	and	O	O	O	O
+9-17	back	O	O	RB	O
+9-18	to	9-11_conj_and	walked	TO	O
+9-19	my	O	O	PRP$	P1_shopper
+9-20	house	O	O	NN	P1_NPart_house
+9-21	.	O	O	O	O

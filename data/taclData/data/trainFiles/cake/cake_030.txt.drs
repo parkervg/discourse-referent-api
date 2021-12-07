@@ -1,0 +1,422 @@
+#id=1
+#text=The simplest way to make cake is with a mix . 
+1-1	The	O	O	DT	O
+1-2	simplest	O	O	JJS	O
+1-3	way	1-7_nsubj	is	NN	O
+1-4	to	1-5_aux	make	TO	O
+1-5	make	O	O	VB	O
+1-6	cake	1-5_dobj	make	NN	P1_cake
+1-7	is	O	O	VBZ	O
+1-8	with	O	O	O	O
+1-9	a	O	O	DT	O
+1-10	mix	1-7_prep_with	is	NN	P1_ingredients
+1-11	.	O	O	O	O
+
+#id=2
+#text=Just open the box and mix in some eggs , some water , and maybe some oil . 
+2-1	Just	2-2_advmod	open	RB	O
+2-2	open	O	O	VB	O
+2-3	the	O	O	DT	O
+2-4	box	2-2_dobj	open	NN	P1_ingredients
+2-5	and	O	O	O	O
+2-6	mix	O	O	NN	O
+2-7	in	O	O	O	O
+2-8	some	O	O	DT	O
+2-9	eggs	2-2_prep_in	open	NNS	P2_ingredients
+2-10	,	O	O	O	O
+2-11	some	O	O	DT	O
+2-12	water	O	O	NN	P3_ingredients
+2-13	,	O	O	O	O
+2-14	and	O	O	O	O
+2-15	maybe	O	O	RB	O
+2-16	some	O	O	DT	O
+2-17	oil	O	O	NN	P4_ingredients
+2-18	.	O	O	O	O
+
+#id=3
+#text=Grease two round pans by rubbing them with a stick of butter , pour in the batter , bake as directed and you are done . 
+3-1	Grease	O	O	VB	O
+3-2	two	O	O	CD	O
+3-3	round	O	O	NN	O
+3-4	pans	3-1_dobj	Grease	NNS	P1_cake_tin
+3-5	by	O	O	O	O
+3-6	rubbing	3-1_prepc_by	Grease	VBG	O
+3-7	them	3-6_dobj	rubbing	PRP	P1_cake_tin
+3-8	with	O	O	O	O
+3-9	a	O	O	DT	O
+3-10	stick	3-6_prep_with	rubbing	NN	O
+3-11	of	O	O	O	O
+3-12	butter	O	O	NN	P5_ingredients
+3-13	,	O	O	O	O
+3-14	pour	3-1_dep	Grease	VB	O
+3-15	in	O	O	O	O
+3-16	the	O	O	DT	O
+3-17	batter	3-14_prep_in	pour	NN	P1_dough
+3-18	,	O	O	O	O
+3-19	bake	3-1_dep	Grease	VB	O
+3-20	as	3-21_mark	directed	IN	O
+3-21	directed	3-19_advcl	bake	VBD	O
+3-22	and	O	O	O	O
+3-23	you	3-25_nsubjpass	done	PRP	P1_cook
+3-24	are	3-25_auxpass	done	VBP	O
+3-25	done	3-1_conj_and	Grease	VBN	O
+3-26	.	O	O	O	O
+
+#id=4
+#text=Making a coffee cake with Bisquick baking mix is only slightly harder , but the product is not really what some people call a cake . 
+4-1	Making	O	O	VBG	O
+4-2	a	O	O	DT	O
+4-3	coffee	O	O	NN	O
+4-4	cake	4-1_dobj	Making	NN	P1_cake
+4-5	with	O	O	O	O
+4-6	Bisquick	O	O	NNP	O
+4-7	baking	O	O	JJ	O
+4-8	mix	4-1_prep_with	Making	NN	P1_ingredients
+4-9	is	O	O	VBZ	O
+4-10	only	O	O	RB	O
+4-11	slightly	O	O	RB	O
+4-12	harder	O	O	JJR	O
+4-13	,	O	O	O	O
+4-14	but	O	O	O	O
+4-15	the	O	O	DT	O
+4-16	product	4-17_nsubj	is	NN	P1_cake
+4-17	is	O	O	VBZ	O
+4-18	not	4-17_neg	is	RB	O
+4-19	really	4-17_advmod	is	RB	O
+4-20	what	4-23_dobj	call	WP	O
+4-21	some	O	O	DT	O
+4-22	people	4-23_nsubj	call	NNS	P1_NPart_people
+4-23	call	4-17_ccomp	is	VBP	O
+4-24	a	O	O	DT	O
+4-25	cake	4-23_dobj	call	NN	P1_cake
+4-26	.	O	O	O	O
+
+#id=5
+#text=There are also delicious cakes that are really store-bought baked goods layered with ice cream . 
+5-1	There	5-2_expl	are	EX	O
+5-2	are	O	O	VBP	O
+5-3	also	5-2_advmod	are	RB	O
+5-4	delicious	O	O	JJ	O
+5-5	cakes	5-2_nsubj	are	NNS	P1_cake
+5-6	that	O	O	WDT	P1_cake
+5-7	are	O	O	VBP	O
+5-8	really	O	O	RB	O
+5-9	store-bought	O	O	JJ	O
+5-10	baked	O	O	JJ	O
+5-11	goods	O	O	NNS	P1_cake
+5-12	layered	O	O	VBN	O
+5-13	with	O	O	O	O
+5-14	ice	O	O	NN	O
+5-15	cream	5-12_prep_with	layered	NN	P6_ingredients
+5-16	.	O	O	O	O
+
+#id=6
+#text=But for a birthday , an actual homemade cake is traditional . 
+6-1	But	O	O	CC	O
+6-2	for	O	O	O	O
+6-3	a	O	O	DT	O
+6-4	birthday	O	O	NN	P1_NPart_birthday
+6-5	,	O	O	O	O
+6-6	an	O	O	DT	O
+6-7	actual	O	O	JJ	O
+6-8	homemade	O	O	NN	O
+6-9	cake	O	O	NN	P1_cake
+6-10	is	O	O	VBZ	O
+6-11	traditional	O	O	JJ	O
+6-12	.	O	O	O	O
+
+#id=7
+#text=I make such a cake in two separate bowls and then combine the mixtures . 
+7-1	I	7-2_nsubj	make	PRP	P1_cook
+7-2	make	O	O	VBP	O
+7-3	such	O	O	PDT	O
+7-4	a	O	O	DT	O
+7-5	cake	7-2_dobj	make	NN	P1_cake
+7-6	in	O	O	O	O
+7-7	two	O	O	CD	O
+7-8	separate	O	O	JJ	O
+7-9	bowls	7-2_prep_in	make	NNS	P1_utensil
+7-10	and	O	O	O	O
+7-11	then	7-12_advmod	combine	RB	O
+7-12	combine	7-2_conj_and	make	VB	O
+7-13	the	O	O	DT	O
+7-14	mixtures	7-12_dobj	combine	NNS	P7_ingredients
+7-15	.	O	O	O	O
+
+#id=8
+#text=I also use a stand mixer , though even that can feel like cheating . 
+8-1	I	8-3_nsubj	use	PRP	P1_cook
+8-2	also	8-3_advmod	use	RB	O
+8-3	use	O	O	VBP	O
+8-4	a	O	O	DT	O
+8-5	stand	O	O	NN	O
+8-6	mixer	8-3_dobj	use	NN	P2_utensil
+8-7	,	O	O	O	O
+8-8	though	8-12_mark	feel	IN	O
+8-9	even	O	O	RB	O
+8-10	that	8-12_nsubj	feel	WDT	O
+8-11	can	8-12_aux	feel	MD	O
+8-12	feel	8-3_advcl	use	VB	O
+8-13	like	O	O	O	O
+8-14	cheating	8-12_prep_like	feel	NN	O
+8-15	.	O	O	O	O
+
+#id=9
+#text=First , I lay out all my ingredients , and preheat the oven . 
+9-1	First	9-4_advmod	lay	RB	O
+9-2	,	O	O	O	O
+9-3	I	9-4_nsubj	lay	PRP	P1_cook
+9-4	lay	O	O	VBD	O
+9-5	out	9-4_prt	lay	RP	O
+9-6	all	O	O	PDT	O
+9-7	my	O	O	PRP$	P1_cook
+9-8	ingredients	9-4_dobj	lay	NNS	P8_ingredients
+9-9	,	O	O	O	O
+9-10	and	O	O	O	O
+9-11	preheat	9-4_conj_and	lay	VBP	O
+9-12	the	O	O	DT	O
+9-13	oven	9-11_dobj	preheat	NN	P1_oven
+9-14	.	O	O	O	O
+
+#id=10
+#text=I prepare two round pans , by greasing with butter or pan spray , sprinkling with flour and shaking out the excess . 
+10-1	I	10-2_nsubj	prepare	PRP	P1_cook
+10-2	prepare	O	O	VBP	O
+10-3	two	O	O	CD	O
+10-4	round	O	O	NN	O
+10-5	pans	10-2_dobj	prepare	NNS	P1_cake_tin
+10-6	,	O	O	O	O
+10-7	by	O	O	O	O
+10-8	greasing	10-2_prepc_by	prepare	VBG	O
+10-9	with	O	O	O	O
+10-10	butter	O	O	NN	P5_ingredients
+10-11	or	O	O	O	O
+10-12	pan	O	O	NN	O
+10-13	spray	10-8_prep_with	greasing	NN	P9_ingredients
+10-14	,	O	O	O	O
+10-15	sprinkling	10-8_conj_and	greasing	VBG	O
+10-16	with	O	O	O	O
+10-17	flour	10-15_prep_with	sprinkling	NN	P10_ingredients
+10-18	and	O	O	O	O
+10-19	shaking	10-8_conj_and	greasing	VBG	O
+10-20	out	10-19_prt	shaking	RP	O
+10-21	the	O	O	DT	O
+10-22	excess	10-19_dobj	shaking	NN	P1_NPart_excess
+10-23	.	O	O	O	O
+
+#id=11
+#text=Next , I cream the butter and sugar together , on a medium-high mixer setting . 
+11-1	Next	11-4_advmod	cream	RB	O
+11-2	,	O	O	O	O
+11-3	I	11-4_nsubj	cream	PRP	P1_cook
+11-4	cream	O	O	VBD	O
+11-5	the	O	O	DT	O
+11-6	butter	11-4_dobj	cream	NN	P5_ingredients
+11-7	and	O	O	O	O
+11-8	sugar	O	O	NN	P11_ingredients
+11-9	together	11-4_advmod	cream	RB	O
+11-10	,	O	O	O	O
+11-11	on	O	O	O	O
+11-12	a	O	O	DT	O
+11-13	medium-high	O	O	JJ	O
+11-14	mixer	O	O	NN	O
+11-15	setting	11-4_prep_on	cream	NN	P1_NPart_setting
+11-16	.	O	O	O	O
+
+#id=12
+#text=Then I mix in eggs and then vanilla . 
+12-1	Then	12-3_advmod	mix	RB	O
+12-2	I	12-3_nsubj	mix	PRP	P1_cook
+12-3	mix	O	O	VBZ	O
+12-4	in	12-3_dep	mix	IN	O
+12-5	eggs	O	O	NNS	P2_ingredients
+12-6	and	O	O	O	O
+12-7	then	O	O	RB	O
+12-8	vanilla	O	O	NN	P12_ingredients
+12-9	.	O	O	O	O
+
+#id=13
+#text=In a separate bowl , I combine the flour , baking powder , and salt . 
+13-1	In	O	O	O	O
+13-2	a	O	O	DT	O
+13-3	separate	O	O	JJ	O
+13-4	bowl	13-7_prep_in	combine	NN	P1_utensil
+13-5	,	O	O	O	O
+13-6	I	13-7_nsubj	combine	PRP	P1_cook
+13-7	combine	O	O	VBP	O
+13-8	the	O	O	DT	O
+13-9	flour	13-7_dobj	combine	NN	P10_ingredients
+13-10	,	O	O	O	O
+13-11	baking	O	O	JJ	O
+13-12	powder	O	O	NN	P13_ingredients
+13-13	,	O	O	O	O
+13-14	and	O	O	O	O
+13-15	salt	O	O	NN	P14_ingredients
+13-16	.	O	O	O	O
+
+#id=14
+#text=Now , I add the dry ingredients to the butter mixture , a little at a time , alternating with the milk , while I mix at medium high . 
+14-1	Now	14-4_advmod	add	RB	O
+14-2	,	O	O	O	O
+14-3	I	14-4_nsubj	add	PRP	P1_cook
+14-4	add	O	O	VBP	O
+14-5	the	O	O	DT	O
+14-6	dry	O	O	JJ	O
+14-7	ingredients	14-4_advmod	add	NNS	P7_ingredients
+14-8	to	O	O	O	O
+14-9	the	O	O	DT	O
+14-10	butter	O	O	NN	O
+14-11	mixture	O	O	NN	P2_dough
+14-12	,	O	O	O	O
+14-13	a	O	O	DT	O
+14-14	little	O	O	RB	O
+14-15	at	O	O	O	O
+14-16	a	O	O	DT	O
+14-17	time	O	O	NN	O
+14-18	,	O	O	O	O
+14-19	alternating	O	O	VBG	O
+14-20	with	O	O	O	O
+14-21	the	O	O	DT	O
+14-22	milk	14-19_prep_with	alternating	NN	P15_ingredients
+14-23	,	O	O	O	O
+14-24	while	14-26_mark	mix	IN	O
+14-25	I	14-26_nsubj	mix	PRP	P1_cook
+14-26	mix	14-4_advcl	add	VB	O
+14-27	at	O	O	O	O
+14-28	medium	O	O	NN	O
+14-29	high	14-26_prep_at	mix	JJ	O
+14-30	.	O	O	O	O
+
+#id=15
+#text=It is important not to over mix , so I only combine until the lumps are gone and it looks glossy . 
+15-1	It	O	O	PRP	O
+15-2	is	O	O	VBZ	O
+15-3	important	O	O	JJ	O
+15-4	not	15-7_neg	mix	RB	O
+15-5	to	15-7_aux	mix	TO	O
+15-6	over	15-7_advmod	mix	RB	O
+15-7	mix	O	O	VB	O
+15-8	,	O	O	O	O
+15-9	so	O	O	IN	O
+15-10	I	15-12_nsubj	combine	PRP	P1_cook
+15-11	only	15-12_advmod	combine	RB	O
+15-12	combine	O	O	VBP	O
+15-13	until	15-17_mark	gone	IN	O
+15-14	the	O	O	DT	O
+15-15	lumps	15-17_nsubjpass	gone	NN	P1_NPart_lumps
+15-16	are	15-17_auxpass	gone	VBP	O
+15-17	gone	15-12_advcl	combine	VBN	O
+15-18	and	O	O	O	O
+15-19	it	15-20_nsubj	looks	PRP	O
+15-20	looks	O	O	VBZ	O
+15-21	glossy	15-20_dobj	looks	JJ	O
+15-22	.	O	O	O	O
+
+#id=16
+#text=I fill the pans evenly , and place in the oven so they do not touch and one is not directly above the other . 
+16-1	I	16-2_nsubj	fill	PRP	P1_cook
+16-2	fill	O	O	VBP	O
+16-3	the	O	O	DT	O
+16-4	pans	O	O	NN	P1_cake_tin
+16-5	evenly	16-2_advmod	fill	RB	O
+16-6	,	O	O	O	O
+16-7	and	O	O	O	O
+16-8	place	16-2_conj_and	fill	VBP	O
+16-9	in	O	O	O	O
+16-10	the	O	O	DT	O
+16-11	oven	16-2_prep_in	fill	NN	P1_oven
+16-12	so	16-16_mark	touch	IN	O
+16-13	they	16-16_nsubj	touch	PRP	P1_cake_tin
+16-14	do	16-16_aux	touch	VBP	O
+16-15	not	16-16_neg	touch	RB	O
+16-16	touch	16-2_advcl	fill	VB	O
+16-17	and	O	O	O	O
+16-18	one	16-19_nsubj	is	PRP	P1_cake_tin
+16-19	is	16-2_conj_and	fill	VBZ	O
+16-20	not	16-19_neg	is	RB	O
+16-21	directly	16-19_advmod	is	RB	O
+16-22	above	O	O	O	O
+16-23	the	O	O	DT	O
+16-24	other	16-19_prep_above	is	JJ	P1_cake_tin
+16-25	.	O	O	O	O
+
+#id=17
+#text=When the time is up , or they smell done , I press lightly in the center of the cake with one finger . 
+17-1	When	17-4_advmod	is	WRB	O
+17-2	the	O	O	DT	O
+17-3	time	17-4_nsubj	is	NN	P1_time
+17-4	is	17-13_advcl	press	VBZ	O
+17-5	up	17-4_advmod	is	RB	O
+17-6	,	O	O	O	O
+17-7	or	O	O	O	O
+17-8	they	17-9_nsubj	smell	PRP	P1_cake
+17-9	smell	17-4_conj_or	is	VBP	O
+17-10	done	17-9_acomp	smell	VBN	O
+17-11	,	O	O	O	O
+17-12	I	17-13_nsubj	press	PRP	P1_cook
+17-13	press	O	O	VBP	O
+17-14	lightly	17-13_advmod	press	RB	O
+17-15	in	O	O	O	O
+17-16	the	O	O	DT	O
+17-17	center	17-13_prep_in	press	NN	P1_NPart_center
+17-18	of	O	O	O	O
+17-19	the	O	O	DT	O
+17-20	cake	O	O	NN	P1_cake
+17-21	with	O	O	O	O
+17-22	one	O	O	CD	O
+17-23	finger	O	O	NN	P1_NPart_finger
+17-24	.	O	O	O	O
+
+#id=18
+#text=If it springs back it is done . 
+18-1	If	18-3_mark	springs	IN	O
+18-2	it	18-3_nsubj	springs	PRP	P1_cake
+18-3	springs	18-7_advcl	done	VBZ	O
+18-4	back	18-3_prt	springs	RP	O
+18-5	it	18-7_nsubjpass	done	PRP	P1_cake
+18-6	is	18-7_auxpass	done	VBZ	O
+18-7	done	O	O	VBN	O
+18-8	.	O	O	O	O
+
+#id=19
+#text=I cool on a wire rack , run a knife around the edge , invert it on a plate to remove while still warm . 
+19-1	I	19-2_nsubj	cool	PRP	P1_cook
+19-2	cool	O	O	VB	O
+19-3	on	O	O	O	O
+19-4	a	O	O	DT	O
+19-5	wire	O	O	NN	O
+19-6	rack	19-2_prep_on	cool	NN	P3_utensil
+19-7	,	O	O	O	O
+19-8	run	19-2_dep	cool	VB	O
+19-9	a	O	O	DT	O
+19-10	knife	19-8_dobj	run	NN	P4_utensil
+19-11	around	O	O	O	O
+19-12	the	O	O	DT	O
+19-13	edge	19-8_prep_around	run	NN	P1_NPart_edge
+19-14	,	O	O	O	O
+19-15	invert	19-2_dep	cool	VB	O
+19-16	it	19-15_dobj	invert	PRP	P1_cake
+19-17	on	O	O	O	O
+19-18	a	O	O	DT	O
+19-19	plate	19-15_prep_on	invert	NN	P5_utensil
+19-20	to	19-21_aux	remove	TO	O
+19-21	remove	O	O	VB	O
+19-22	while	O	O	IN	O
+19-23	still	O	O	RB	O
+19-24	warm	19-21_advcl	remove	JJ	O
+19-25	.	O	O	O	O
+
+#id=20
+#text=I frost liberally , and I do n't forget the candles . 
+20-1	I	20-2_nsubj	frost	PRP	P1_cook
+20-2	frost	O	O	VBP	O
+20-3	liberally	20-2_advmod	frost	RB	O
+20-4	,	O	O	O	O
+20-5	and	O	O	O	O
+20-6	I	20-9_nsubj	forget	PRP	P1_cook
+20-7	do	20-9_aux	forget	VBP	O
+20-8	n't	20-9_neg	forget	RB	O
+20-9	forget	20-2_conj_and	frost	VB	O
+20-10	the	O	O	DT	O
+20-11	candles	20-9_dobj	forget	NNS	P1_decoration
+20-12	.	O	O	O	O

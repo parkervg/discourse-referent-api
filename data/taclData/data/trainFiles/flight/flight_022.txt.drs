@@ -1,0 +1,210 @@
+#id=1
+#text=I flew in an airplane for the first time when I was eight years old . 
+1-1	I	1-2_nsubj	flew	PRP	P1_passenger
+1-2	flew	O	O	VBD	O
+1-3	in	O	O	O	O
+1-4	an	O	O	DT	O
+1-5	airplane	1-2_prep_in	flew	NN	P1_plane
+1-6	for	O	O	O	O
+1-7	the	O	O	DT	O
+1-8	first	O	O	JJ	O
+1-9	time	O	O	NN	P1_NPart_time
+1-10	when	O	O	WRB	O
+1-11	I	O	O	PRP	P1_passenger
+1-12	was	O	O	VBD	O
+1-13	eight	O	O	CD	O
+1-14	years	O	O	NNS	P1_NPart_years
+1-15	old	1-2_advcl	flew	JJ	O
+1-16	.	O	O	O	O
+
+#id=2
+#text=I was on my way to Disney World . 
+2-1	I	2-2_nsubj	was	PRP	P1_passenger
+2-2	was	O	O	VBD	O
+2-3	on	O	O	O	O
+2-4	my	O	O	PRP$	P1_passenger
+2-5	way	2-2_prep_on	was	NN	O
+2-6	to	O	O	O	O
+2-7	Disney	O	O	NNP	O
+2-8	World	2-2_prep_to	was	NNP	P1_target_location
+2-9	.	O	O	O	O
+
+#id=3
+#text=I was very nervous and was n't sure what to expect ! 
+3-1	I	O	O	PRP	P1_passenger
+3-2	was	O	O	VBD	O
+3-3	very	O	O	RB	O
+3-4	nervous	O	O	JJ	O
+3-5	and	O	O	O	O
+3-6	was	O	O	VBD	O
+3-7	n't	O	O	RB	O
+3-8	sure	O	O	JJ	O
+3-9	what	3-11_nsubj	expect	WP	O
+3-10	to	3-11_aux	expect	TO	O
+3-11	expect	O	O	VB	O
+3-12	!	O	O	O	O
+
+#id=4
+#text=I sat down next to my mom and she explained what would happen . 
+4-1	I	4-2_nsubj	sat	PRP	P1_passenger
+4-2	sat	O	O	VBD	O
+4-3	down	4-2_advmod	sat	RB	O
+4-4	next	O	O	O	O
+4-5	to	O	O	O	O
+4-6	my	O	O	PRP$	P1_passenger
+4-7	mom	4-2_prep_next_to	sat	NN	P2_passenger
+4-8	and	O	O	O	O
+4-9	she	4-10_nsubj	explained	PRP	P2_passenger
+4-10	explained	4-2_conj_and	sat	VBD	O
+4-11	what	4-13_nsubj	happen	WP	O
+4-12	would	4-13_aux	happen	MD	O
+4-13	happen	4-10_ccomp	explained	VB	O
+4-14	.	O	O	O	O
+
+#id=5
+#text=She told me the flight attendant would talk to us about safety but that air travel was very safe and I should worry . 
+5-1	She	5-2_nsubj	told	PRP	P2_passenger
+5-2	told	O	O	VBD	O
+5-3	me	5-2_dobj	told	PRP	P1_passenger
+5-4	the	O	O	DT	O
+5-5	flight	O	O	NN	O
+5-6	attendant	5-8_nsubj	talk	NN	P1_staff
+5-7	would	5-8_aux	talk	MD	O
+5-8	talk	5-2_ccomp	told	VB	O
+5-9	to	O	O	O	O
+5-10	us	5-8_prep_to	talk	PRP	P3_passenger
+5-11	about	O	O	O	O
+5-12	safety	5-8_prep_about	talk	NN	P1_NPart_safety
+5-13	but	O	O	O	O
+5-14	that	O	O	IN	O
+5-15	air	O	O	NN	O
+5-16	travel	O	O	NN	P1_other
+5-17	was	O	O	VBD	O
+5-18	very	O	O	RB	O
+5-19	safe	5-8_conj_but	talk	JJ	O
+5-20	and	O	O	O	O
+5-21	I	5-23_nsubj	worry	PRP	P1_passenger
+5-22	should	5-23_aux	worry	MD	O
+5-23	worry	5-2_conj_and	told	VB	O
+5-24	.	O	O	O	O
+
+#id=6
+#text=Then she told me that we were getting ready to take off ! 
+6-1	Then	6-3_advmod	told	RB	O
+6-2	she	6-3_nsubj	told	PRP	P2_passenger
+6-3	told	O	O	VBD	O
+6-4	me	6-3_dobj	told	PRP	P1_passenger
+6-5	that	O	O	IN	O
+6-6	we	O	O	PRP	P3_passenger
+6-7	were	O	O	VBD	O
+6-8	getting	O	O	VBG	O
+6-9	ready	6-3_ccomp	told	JJ	O
+6-10	to	6-11_aux	take	TO	O
+6-11	take	O	O	VB	O
+6-12	off	6-11_prt	take	RP	O
+6-13	!	O	O	O	O
+
+#id=7
+#text=She told me we 'd go up in the air and then the wheels would retract . 
+7-1	She	7-2_nsubj	told	PRP	P2_passenger
+7-2	told	O	O	VBD	O
+7-3	me	7-2_dobj	told	PRP	P1_passenger
+7-4	we	7-6_nsubj	go	PRP	P3_passenger
+7-5	'd	7-6_aux	go	MD	O
+7-6	go	7-2_dep	told	VB	O
+7-7	up	7-6_prt	go	RP	O
+7-8	in	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	air	7-6_prep_in	go	NN	P1_location_airplane
+7-11	and	O	O	O	O
+7-12	then	7-16_advmod	retract	RB	O
+7-13	the	O	O	DT	O
+7-14	wheels	7-16_nsubj	retract	NNS	P2_other
+7-15	would	7-16_aux	retract	MD	O
+7-16	retract	7-2_conj_and	told	VB	O
+7-17	.	O	O	O	O
+
+#id=8
+#text=I was relieved to know what that sound was when I heard it , otherwise I would have been nervous ! 
+8-1	I	8-3_nsubjpass	relieved	PRP	P1_passenger
+8-2	was	8-3_auxpass	relieved	VBD	O
+8-3	relieved	O	O	VBN	O
+8-4	to	8-5_aux	know	TO	O
+8-5	know	8-3_xcomp	relieved	VB	O
+8-6	what	8-9_dobj	was	WP	O
+8-7	that	O	O	DT	O
+8-8	sound	8-9_nsubj	was	NN	P3_other
+8-9	was	8-5_ccomp	know	VBD	O
+8-10	when	8-12_advmod	heard	WRB	O
+8-11	I	8-12_nsubj	heard	PRP	P1_passenger
+8-12	heard	8-9_advcl	was	VBD	O
+8-13	it	8-12_dobj	heard	PRP	P3_other
+8-14	,	O	O	O	O
+8-15	otherwise	O	O	RB	O
+8-16	I	O	O	PRP	P1_passenger
+8-17	would	O	O	MD	O
+8-18	have	O	O	VB	O
+8-19	been	O	O	VBN	O
+8-20	nervous	8-3_parataxis	relieved	JJ	O
+8-21	!	O	O	O	O
+
+#id=9
+#text=It was a smooth flight and soon we were in Florida ! 
+9-1	It	O	O	PRP	O
+9-2	was	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	smooth	O	O	JJ	O
+9-5	flight	O	O	NN	P1_flight
+9-6	and	O	O	O	O
+9-7	soon	9-9_advmod	were	RB	O
+9-8	we	9-9_nsubj	were	PRP	P3_passenger
+9-9	were	O	O	VBD	O
+9-10	in	O	O	O	O
+9-11	Florida	9-9_prep_in	were	NNP	P2_target_location
+9-12	!	O	O	O	O
+
+#id=10
+#text=I noticed we were starting to go lower . 
+10-1	I	10-2_nsubj	noticed	PRP	P1_passenger
+10-2	noticed	O	O	VBD	O
+10-3	we	10-5_nsubj	starting	PRP	P3_passenger
+10-4	were	10-5_aux	starting	VBD	O
+10-5	starting	10-2_ccomp	noticed	VBG	O
+10-6	to	10-7_aux	go	TO	O
+10-7	go	10-5_xcomp	starting	VB	O
+10-8	lower	10-7_dobj	go	JJR	O
+10-9	.	O	O	O	O
+
+#id=11
+#text=My mom gave me some gum to help relieve the pressure in my ears . 
+11-1	My	O	O	PRP$	P1_passenger
+11-2	mom	11-3_nsubj	gave	NN	P2_passenger
+11-3	gave	O	O	VBD	O
+11-4	me	11-3_iobj	gave	PRP	P4_passenger
+11-5	some	O	O	DT	O
+11-6	gum	11-3_dobj	gave	NN	P4_other
+11-7	to	11-8_aux	help	TO	O
+11-8	help	O	O	VB	O
+11-9	relieve	11-8_xcomp	help	VB	O
+11-10	the	O	O	DT	O
+11-11	pressure	11-9_dobj	relieve	NN	P5_other
+11-12	in	O	O	O	O
+11-13	my	O	O	PRP$	P1_passenger
+11-14	ears	O	O	NNS	P1_NPart_ears
+11-15	.	O	O	O	O
+
+#id=12
+#text=I heard the wheels come back down and soon we had landed ! 
+12-1	I	12-2_nsubj	heard	PRP	P1_passenger
+12-2	heard	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	wheels	12-5_nsubj	come	NNS	P2_other
+12-5	come	12-2_ccomp	heard	VBP	O
+12-6	back	O	O	RB	O
+12-7	down	12-5_advmod	come	RB	O
+12-8	and	O	O	O	O
+12-9	soon	12-12_advmod	landed	RB	O
+12-10	we	12-12_nsubj	landed	PRP	P3_passenger
+12-11	had	12-12_aux	landed	VBD	O
+12-12	landed	12-2_conj_and	heard	VBN	O
+12-13	!	O	O	O	O

@@ -1,0 +1,320 @@
+#id=1
+#text=Today is grocery day , I go every Thursday . 
+1-1	Today	O	O	NNP	P1_NPart_today
+1-2	is	O	O	VBZ	O
+1-3	grocery	O	O	NN	O
+1-4	day	1-7_ccomp	go	NN	O
+1-5	,	O	O	O	O
+1-6	I	1-7_nsubj	go	PRP	P1_shopper
+1-7	go	O	O	VBP	O
+1-8	every	O	O	DT	O
+1-9	Thursday	1-7_tmod	go	NNP	P1_NPart_thursday
+1-10	.	O	O	O	O
+
+#id=2
+#text=I check the paper on Wednesday and try to to match all the coupons I can to each sale . 
+2-1	I	2-2_nsubj	check	PRP	P1_shopper
+2-2	check	O	O	VBP	O
+2-3	the	O	O	DT	O
+2-4	paper	2-2_dobj	check	NN	P1_NPart_paper
+2-5	on	O	O	O	O
+2-6	Wednesday	2-2_prep_on	check	NNP	P1_NPart_wednesday
+2-7	and	O	O	O	O
+2-8	try	2-2_conj_and	check	VBP	O
+2-9	to	2-8_xcomp	try	TO	O
+2-10	to	2-11_aux	match	TO	O
+2-11	match	O	O	VB	O
+2-12	all	O	O	PDT	O
+2-13	the	O	O	DT	O
+2-14	coupons	2-11_dobj	match	NNS	P1_deal_coupon
+2-15	I	O	O	PRP	P1_shopper
+2-16	can	O	O	MD	O
+2-17	to	O	O	O	O
+2-18	each	O	O	DT	O
+2-19	sale	O	O	NN	P1_other
+2-20	.	O	O	O	O
+
+#id=3
+#text=I grab my coupon book and head it to the store . 
+3-1	I	3-2_nsubj	grab	PRP	P1_shopper
+3-2	grab	O	O	VBP	O
+3-3	my	O	O	PRP$	P1_shopper
+3-4	coupon	O	O	NN	O
+3-5	book	3-2_dobj	grab	NN	P1_deal_coupon
+3-6	and	O	O	O	O
+3-7	head	3-2_conj_and	grab	VBP	O
+3-8	it	3-7_dobj	head	PRP	P1_deal_coupon
+3-9	to	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	store	3-7_prep_to	head	NN	P1_grocery_shop
+3-12	.	O	O	O	O
+
+#id=4
+#text=AS I walk in there are item s stack that are unadvertised deals and I check the out to see if I need anything . 
+4-1	AS	4-8_nsubj	s	NNP	O
+4-2	I	4-3_nsubj	walk	PRP	P1_shopper
+4-3	walk	O	O	VBP	O
+4-4	in	4-6_mark	are	IN	O
+4-5	there	4-6_expl	are	EX	O
+4-6	are	4-3_advcl	walk	VBP	O
+4-7	item	4-6_nsubj	are	NN	P1_groceries
+4-8	s	O	O	VBZ	O
+4-9	stack	4-8_dep	s	NNP	O
+4-10	that	4-12_nsubjpass	unadvertised	WDT	O
+4-11	are	4-12_auxpass	unadvertised	VBP	O
+4-12	unadvertised	O	O	VBN	O
+4-13	deals	4-12_dobj	unadvertised	NNS	P2_other
+4-14	and	O	O	O	O
+4-15	I	4-16_nsubj	check	PRP	P1_shopper
+4-16	check	4-8_conj_and	s	VBP	O
+4-17	the	O	O	DT	P2_other
+4-18	out	O	O	IN	O
+4-19	to	4-20_aux	see	TO	O
+4-20	see	O	O	VB	O
+4-21	if	4-23_mark	need	IN	O
+4-22	I	4-23_nsubj	need	PRP	P1_shopper
+4-23	need	4-20_advcl	see	VBP	O
+4-24	anything	4-16_dobj	check	NN	P1_groceries
+4-25	.	O	O	O	O
+
+#id=5
+#text=I walk into the store and the way it is laid out I can easily find the items that I need pretty quickly , grocery shopping is not my favorite past time , I go to the deli counter and get lunch meat for help yourself nights and school lunches . 
+5-1	I	5-2_nsubj	walk	PRP	P1_shopper
+5-2	walk	O	O	VBP	O
+5-3	into	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	store	5-2_prep_into	walk	NN	P1_grocery_shop
+5-6	and	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	way	5-16_nsubj	find	NN	O
+5-9	it	5-11_nsubjpass	laid	PRP	P1_grocery_shop
+5-10	is	5-11_auxpass	laid	VBZ	O
+5-11	laid	O	O	VBN	O
+5-12	out	5-11_prt	laid	RP	O
+5-13	I	5-11_dobj	laid	PRP	P1_shopper
+5-14	can	5-16_aux	find	MD	O
+5-15	easily	5-16_advmod	find	RB	O
+5-16	find	5-2_conj_and	walk	VB	O
+5-17	the	O	O	DT	O
+5-18	items	5-16_dobj	find	NNS	P2_groceries
+5-19	that	5-21_mark	need	IN	O
+5-20	I	5-21_nsubj	need	PRP	P1_shopper
+5-21	need	5-16_ccomp	find	VBP	O
+5-22	pretty	O	O	RB	O
+5-23	quickly	5-21_advmod	need	RB	O
+5-24	,	O	O	O	O
+5-25	grocery	O	O	NN	O
+5-26	shopping	O	O	NN	O
+5-27	is	O	O	VBZ	O
+5-28	not	O	O	RB	O
+5-29	my	O	O	PRP$	P1_shopper
+5-30	favorite	O	O	JJ	O
+5-31	past	O	O	JJ	O
+5-32	time	5-2_ccomp	walk	NN	P1_NPart_time
+5-33	,	O	O	O	O
+5-34	I	5-35_nsubj	go	PRP	P1_shopper
+5-35	go	5-2_dep	walk	VB	O
+5-36	to	O	O	O	O
+5-37	the	O	O	DT	O
+5-38	deli	O	O	NNS	O
+5-39	counter	5-35_prep_to	go	NN	P1_section
+5-40	and	O	O	O	O
+5-41	get	5-35_conj_and	go	VB	O
+5-42	lunch	O	O	NN	O
+5-43	meat	5-41_dobj	get	NN	P3_groceries
+5-44	for	O	O	O	O
+5-45	help	5-41_prep_for	get	NN	O
+5-46	yourself	O	O	CD	O
+5-47	nights	5-41_tmod	get	NNS	P1_NPart_nights
+5-48	and	O	O	O	O
+5-49	school	5-50_nsubj	lunches	NN	O
+5-50	lunches	5-2_conj_and	walk	VBZ	P1_NPart_lunches
+5-51	.	O	O	O	O
+
+#id=6
+#text=I then head to the meat department to get some chicken and a roast for Sunday . 
+6-1	I	6-3_nsubj	head	PRP	P1_shopper
+6-2	then	6-3_advmod	head	RB	O
+6-3	head	O	O	VBP	O
+6-4	to	O	O	O	O
+6-5	the	O	O	DT	O
+6-6	meat	O	O	NN	O
+6-7	department	6-3_prep_to	head	NN	P2_section
+6-8	to	6-9_aux	get	TO	O
+6-9	get	6-3_xcomp	head	VB	O
+6-10	some	O	O	DT	O
+6-11	chicken	6-9_dobj	get	NN	P4_groceries
+6-12	and	O	O	O	O
+6-13	a	O	O	DT	O
+6-14	roast	O	O	NN	P5_groceries
+6-15	for	O	O	O	O
+6-16	Sunday	6-9_prep_for	get	NNP	P1_NPart_sunday
+6-17	.	O	O	O	O
+
+#id=7
+#text=Now time for the isles and my coupon matches , I head down each isle relativity quickly since I already know pretty much what I am going to buy and how much of it I need . 
+7-1	Now	7-9_advmod	matches	RB	O
+7-2	time	7-9_nsubj	matches	NN	O
+7-3	for	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	isles	O	O	NNS	P3_section
+7-6	and	O	O	O	O
+7-7	my	O	O	PRP$	P1_shopper
+7-8	coupon	O	O	NN	O
+7-9	matches	7-12_advcl	head	VBZ	P1_deal_coupon
+7-10	,	O	O	O	O
+7-11	I	7-12_nsubj	head	PRP	P1_shopper
+7-12	head	O	O	VBP	O
+7-13	down	7-12_prt	head	RP	O
+7-14	each	O	O	DT	O
+7-15	isle	O	O	JJ	P4_section
+7-16	relativity	7-12_dobj	head	NN	O
+7-17	quickly	7-21_advmod	know	RB	O
+7-18	since	7-21_mark	know	IN	O
+7-19	I	7-21_nsubj	know	PRP	P1_shopper
+7-20	already	7-21_advmod	know	RB	O
+7-21	know	7-12_advcl	head	VBP	O
+7-22	pretty	O	O	RB	O
+7-23	much	7-21_advmod	know	RB	O
+7-24	what	7-27_dobj	going	WP	O
+7-25	I	7-27_nsubj	going	PRP	P1_shopper
+7-26	am	7-27_aux	going	VBP	O
+7-27	going	7-21_dep	know	VBG	O
+7-28	to	7-29_aux	buy	TO	O
+7-29	buy	7-27_xcomp	going	VB	O
+7-30	and	O	O	O	O
+7-31	how	O	O	WRB	O
+7-32	much	7-36_dobj	need	RB	O
+7-33	of	O	O	O	O
+7-34	it	O	O	PRP	P6_groceries
+7-35	I	7-36_nsubj	need	PRP	P1_shopper
+7-36	need	7-27_conj_and	going	VBP	O
+7-37	.	O	O	O	O
+
+#id=8
+#text=I finish each isle and have all of my necessities . 
+8-1	I	8-2_nsubj	finish	PRP	P1_shopper
+8-2	finish	O	O	VBP	O
+8-3	each	O	O	DT	O
+8-4	isle	8-2_dobj	finish	NN	P5_section
+8-5	and	O	O	O	O
+8-6	have	8-2_conj_and	finish	VBP	O
+8-7	all	8-6_dobj	have	DT	O
+8-8	of	O	O	O	O
+8-9	my	O	O	PRP$	P1_shopper
+8-10	necessities	O	O	NNS	P6_groceries
+8-11	.	O	O	O	O
+
+#id=9
+#text=I go over to the bakery to see what they have on sale today and see a large carrot roll with cream cheese filling . 
+9-1	I	9-2_nsubj	go	PRP	P1_shopper
+9-2	go	O	O	VBP	O
+9-3	over	9-2_prt	go	RP	O
+9-4	to	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	bakery	9-2_prep_to	go	NN	P6_section
+9-7	to	9-8_aux	see	TO	O
+9-8	see	O	O	VB	O
+9-9	what	O	O	WP	P7_groceries
+9-10	they	O	O	PRP	P6_section
+9-11	have	O	O	VBP	O
+9-12	on	9-8_ccomp	see	IN	O
+9-13	sale	O	O	NN	O
+9-14	today	O	O	NN	P2_NPart_today
+9-15	and	O	O	O	O
+9-16	see	9-8_conj_and	see	VB	O
+9-17	a	O	O	DT	O
+9-18	large	O	O	JJ	O
+9-19	carrot	O	O	NN	O
+9-20	roll	9-16_dobj	see	NN	O
+9-21	with	O	O	O	O
+9-22	cream	O	O	NN	O
+9-23	cheese	O	O	NN	O
+9-24	filling	9-16_prep_with	see	NN	P7_groceries
+9-25	.	O	O	O	O
+
+#id=10
+#text=So I place that in my cart and head for the checkout isle . 
+10-1	So	10-3_dep	place	IN	O
+10-2	I	10-3_nsubj	place	PRP	P1_shopper
+10-3	place	O	O	VBP	O
+10-4	that	10-3_dobj	place	DT	P7_groceries
+10-5	in	O	O	O	O
+10-6	my	O	O	PRP$	P1_shopper
+10-7	cart	O	O	NN	P1_shopping_cart/basket
+10-8	and	O	O	O	O
+10-9	head	O	O	NN	O
+10-10	for	O	O	O	O
+10-11	the	O	O	DT	O
+10-12	checkout	O	O	NN	O
+10-13	isle	10-3_prep_for	place	NN	P7_section
+10-14	.	O	O	O	O
+
+#id=11
+#text=I place all my purchases on the belt near the cashier and watch as each one is scanned , She totals my purchase and I pay for them . 
+11-1	I	11-2_nsubj	place	PRP	P1_shopper
+11-2	place	O	O	VBP	O
+11-3	all	O	O	PDT	O
+11-4	my	O	O	PRP$	P1_shopper
+11-5	purchases	11-2_dobj	place	NNS	P8_groceries
+11-6	on	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	belt	11-2_prep_on	place	NN	P1_conveyor_belt
+11-9	near	O	O	O	O
+11-10	the	O	O	DT	O
+11-11	cashier	O	O	NN	P1_grocery_staff
+11-12	and	O	O	O	O
+11-13	watch	11-2_conj_and	place	VBP	O
+11-14	as	11-18_mark	scanned	IN	O
+11-15	each	O	O	DT	O
+11-16	one	11-18_nsubjpass	scanned	NN	P8_groceries
+11-17	is	11-18_auxpass	scanned	VBZ	O
+11-18	scanned	11-13_advcl	watch	VBN	O
+11-19	,	O	O	O	O
+11-20	She	11-21_nsubj	totals	PRP	P1_grocery_staff
+11-21	totals	11-2_conj_and	place	VBZ	O
+11-22	my	O	O	PRP$	P1_shopper
+11-23	purchase	11-21_dobj	totals	NN	P8_groceries
+11-24	and	O	O	O	O
+11-25	I	11-26_nsubj	pay	PRP	P1_shopper
+11-26	pay	11-2_conj_and	place	VBP	O
+11-27	for	O	O	O	O
+11-28	them	11-26_prep_for	pay	PRP	P8_groceries
+11-29	.	O	O	O	O
+
+#id=12
+#text=As I leave the store I look at my watch and realize it took me much less time as usual . 
+12-1	As	12-3_mark	leave	IN	O
+12-2	I	12-3_nsubj	leave	PRP	P1_shopper
+12-3	leave	12-7_advcl	look	VBP	O
+12-4	the	O	O	DT	O
+12-5	store	12-3_dobj	leave	NN	P1_grocery_shop
+12-6	I	12-7_nsubj	look	PRP	P1_shopper
+12-7	look	O	O	VBP	O
+12-8	at	O	O	O	O
+12-9	my	O	O	PRP$	P1_shopper
+12-10	watch	12-7_prep_at	look	NN	P1_NPart_watch
+12-11	and	O	O	O	O
+12-12	realize	12-7_conj_and	look	VBP	O
+12-13	it	12-14_nsubj	took	PRP	O
+12-14	took	12-12_ccomp	realize	VBD	O
+12-15	me	O	O	PRP	P1_shopper
+12-16	much	O	O	RB	O
+12-17	less	O	O	JJR	O
+12-18	time	12-14_xcomp	took	NN	O
+12-19	as	O	O	RB	O
+12-20	usual	O	O	JJ	O
+12-21	.	O	O	O	O
+
+#id=13
+#text=Now I can enjoy the rest of my day ! 
+13-1	Now	13-4_advmod	enjoy	RB	O
+13-2	I	13-4_nsubj	enjoy	PRP	P1_shopper
+13-3	can	13-4_aux	enjoy	MD	O
+13-4	enjoy	O	O	VB	O
+13-5	the	O	O	DT	O
+13-6	rest	13-4_dobj	enjoy	NN	O
+13-7	of	O	O	O	O
+13-8	my	O	O	PRP$	P1_shopper
+13-9	day	O	O	NN	P1_NPart_day
+13-10	!	O	O	O	O

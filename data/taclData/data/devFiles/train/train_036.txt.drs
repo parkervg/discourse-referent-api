@@ -1,0 +1,348 @@
+#id=1
+#text=Last winter , my husband and I took the train to Chicago . 
+1-1	Last	O	O	JJ	O
+1-2	winter	1-8_tmod	took	NN	P1_NPart_winter
+1-3	,	O	O	O	O
+1-4	my	O	O	PRP$	P1_passenger
+1-5	husband	1-8_nsubj	took	NN	P2_passenger
+1-6	and	O	O	O	O
+1-7	I	O	O	PRP	P1_passenger
+1-8	took	O	O	VBD	O
+1-9	the	O	O	DT	O
+1-10	train	1-8_dobj	took	NN	P1_train
+1-11	to	O	O	O	O
+1-12	Chicago	1-8_prep_to	took	NNP	P1_destination
+1-13	.	O	O	O	O
+
+#id=2
+#text=Before the train trip , we had to check the train schedule to find out what choices we had about when we could leave . 
+2-1	Before	O	O	O	O
+2-2	the	O	O	DT	O
+2-3	train	O	O	NN	O
+2-4	trip	2-7_prep_before	had	NN	P1_trip
+2-5	,	O	O	O	O
+2-6	we	2-7_nsubj	had	PRP	P3_passenger
+2-7	had	O	O	VBD	O
+2-8	to	2-9_aux	check	TO	O
+2-9	check	2-7_xcomp	had	VB	O
+2-10	the	O	O	DT	O
+2-11	train	O	O	NN	O
+2-12	schedule	2-9_dobj	check	NN	P1_time-table
+2-13	to	2-14_aux	find	TO	O
+2-14	find	2-9_vmod	check	VB	O
+2-15	out	2-14_prt	find	RP	O
+2-16	what	2-17_nsubj	choices	WP	O
+2-17	choices	2-14_ccomp	find	VBD	P1_NPart_choices
+2-18	we	2-19_nsubj	had	PRP	P3_passenger
+2-19	had	2-17_ccomp	choices	VBD	O
+2-20	about	2-19_advmod	had	RB	O
+2-21	when	2-24_advmod	leave	WRB	O
+2-22	we	2-24_nsubj	leave	PRP	P3_passenger
+2-23	could	2-24_aux	leave	MD	O
+2-24	leave	2-7_advcl	had	VB	O
+2-25	.	O	O	O	O
+
+#id=3
+#text=We found the train schedule on the World Wide Web . 
+3-1	We	3-2_nsubj	found	PRP	P3_passenger
+3-2	found	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	train	O	O	NN	O
+3-5	schedule	3-2_dobj	found	NN	P1_time-table
+3-6	on	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	World	O	O	NNP	O
+3-9	Wide	O	O	NNP	O
+3-10	Web	3-2_prep_on	found	NNP	P1_NPart_web
+3-11	.	O	O	O	O
+
+#id=4
+#text=After we learned that there were two trains a day , we decided to take the morning train departing at 9:05 a.m. . 
+4-1	After	4-3_mark	learned	IN	O
+4-2	we	4-3_nsubj	learned	PRP	P3_passenger
+4-3	learned	4-13_advcl	decided	VBD	O
+4-4	that	4-6_mark	were	IN	O
+4-5	there	4-6_expl	were	EX	O
+4-6	were	4-3_ccomp	learned	VBD	O
+4-7	two	O	O	CD	O
+4-8	trains	4-6_nsubj	were	NNS	P1_train
+4-9	a	O	O	DT	O
+4-10	day	O	O	NN	O
+4-11	,	O	O	O	O
+4-12	we	4-13_nsubj	decided	PRP	P3_passenger
+4-13	decided	O	O	VBD	O
+4-14	to	4-15_aux	take	TO	O
+4-15	take	4-13_xcomp	decided	VB	O
+4-16	the	O	O	DT	O
+4-17	morning	O	O	NN	O
+4-18	train	4-15_dobj	take	NN	P1_train
+4-19	departing	O	O	VBG	O
+4-20	at	O	O	O	O
+4-21	9:05	4-15_prep_at	take	CD	O
+4-22	a.m.	O	O	RB	P1_time_date
+4-23	.	O	O	O	O
+
+#id=5
+#text=We purchased our tickets by paying with a credit card using the Amtrak web site . 
+5-1	We	5-2_nsubj	purchased	PRP	P3_passenger
+5-2	purchased	O	O	VBD	O
+5-3	our	O	O	PRP$	P3_passenger
+5-4	tickets	5-2_dobj	purchased	NNS	P1_card/ticket
+5-5	by	O	O	O	O
+5-6	paying	5-2_prepc_by	purchased	VBG	O
+5-7	with	O	O	O	O
+5-8	a	O	O	DT	O
+5-9	credit	O	O	NN	O
+5-10	card	5-6_prep_with	paying	NN	P1_payment_means
+5-11	using	O	O	VBG	O
+5-12	the	O	O	DT	O
+5-13	Amtrak	O	O	NNP	O
+5-14	web	O	O	NN	O
+5-15	site	5-11_dobj	using	NN	P1_ticket_office/website
+5-16	.	O	O	O	O
+
+#id=6
+#text=After we paid for our tickets , they were emailed to us , and then we printed them . 
+6-1	After	6-3_mark	paid	IN	O
+6-2	we	6-3_nsubj	paid	PRP	P3_passenger
+6-3	paid	6-10_advcl	emailed	VBD	O
+6-4	for	O	O	O	O
+6-5	our	O	O	PRP$	P3_passenger
+6-6	tickets	6-3_prep_for	paid	NNS	P1_card/ticket
+6-7	,	O	O	O	O
+6-8	they	6-10_nsubjpass	emailed	PRP	P1_card/ticket
+6-9	were	6-10_auxpass	emailed	VBD	O
+6-10	emailed	O	O	VBN	O
+6-11	to	O	O	O	O
+6-12	us	6-10_prep_to	emailed	PRP	P3_passenger
+6-13	,	O	O	O	O
+6-14	and	O	O	O	O
+6-15	then	6-17_advmod	printed	RB	O
+6-16	we	6-17_nsubj	printed	PRP	P3_passenger
+6-17	printed	6-10_conj_and	emailed	VBD	O
+6-18	them	6-17_dobj	printed	PRP	P1_card/ticket
+6-19	.	O	O	O	O
+
+#id=7
+#text=On the day of our trip , we drove our car to the train station , which is about 10 miles away from our house . 
+7-1	On	O	O	O	O
+7-2	the	O	O	DT	O
+7-3	day	7-9_prep_on	drove	NN	P1_NPart_day
+7-4	of	O	O	O	O
+7-5	our	O	O	PRP$	P4_passenger
+7-6	trip	O	O	NN	P1_trip
+7-7	,	O	O	O	O
+7-8	we	7-9_nsubj	drove	PRP	P4_passenger
+7-9	drove	O	O	VBD	O
+7-10	our	O	O	PRP$	P4_passenger
+7-11	car	7-9_dobj	drove	NN	P1_NPart_car
+7-12	to	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	train	O	O	NN	O
+7-15	station	7-9_prep_to	drove	NN	P1_train_station
+7-16	,	O	O	O	O
+7-17	which	7-18_nsubj	is	WDT	P1_train_station
+7-18	is	O	O	VBZ	O
+7-19	about	O	O	RB	O
+7-20	10	O	O	CD	O
+7-21	miles	7-18_npadvmod	is	NNS	P1_NPart_miles
+7-22	away	O	O	O	O
+7-23	from	O	O	O	O
+7-24	our	O	O	PRP$	P4_passenger
+7-25	house	7-18_prep_away_from	is	NN	P1_NPart_house
+7-26	.	O	O	O	O
+
+#id=8
+#text=We parked at the station , and because it 's a little train station instead of a big city , we did n't have to pay for parking . 
+8-1	We	8-2_nsubj	parked	PRP	P4_passenger
+8-2	parked	O	O	VBN	O
+8-3	at	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	station	8-2_prep_at	parked	NN	P1_train_station
+8-6	,	O	O	O	O
+8-7	and	O	O	O	O
+8-8	because	O	O	IN	O
+8-9	it	O	O	PRP	P1_train_station
+8-10	's	O	O	VBZ	O
+8-11	a	O	O	DT	O
+8-12	little	O	O	JJ	O
+8-13	train	O	O	NN	O
+8-14	station	8-24_advcl	have	NN	P1_train_station
+8-15	instead	O	O	O	O
+8-16	of	O	O	O	O
+8-17	a	O	O	DT	O
+8-18	big	O	O	JJ	O
+8-19	city	O	O	NN	P1_NPart_city
+8-20	,	O	O	O	O
+8-21	we	8-24_nsubj	have	PRP	P4_passenger
+8-22	did	8-24_aux	have	VBD	O
+8-23	n't	8-24_neg	have	RB	O
+8-24	have	8-2_conj_and	parked	VB	O
+8-25	to	8-26_aux	pay	TO	O
+8-26	pay	8-24_xcomp	have	VB	O
+8-27	for	O	O	O	O
+8-28	parking	8-26_prep_for	pay	NN	O
+8-29	.	O	O	O	O
+
+#id=9
+#text=We took our suitcases and went to the platform , where other people were waiting . 
+9-1	We	9-2_nsubj	took	PRP	P4_passenger
+9-2	took	O	O	VBD	O
+9-3	our	O	O	PRP$	P4_passenger
+9-4	suitcases	9-2_dobj	took	NNS	P1_luggage
+9-5	and	O	O	O	O
+9-6	went	9-2_conj_and	took	VBD	O
+9-7	to	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	platform	9-6_prep_to	went	NN	P1_platform
+9-10	,	O	O	O	O
+9-11	where	9-15_advmod	waiting	WRB	O
+9-12	other	O	O	JJ	O
+9-13	people	9-15_nsubj	waiting	NNS	P5_passenger
+9-14	were	9-15_aux	waiting	VBD	O
+9-15	waiting	O	O	VBG	O
+9-16	.	O	O	O	O
+
+#id=10
+#text=Eventually -LRB- a little late -RRB- , the train pulled in . 
+10-1	Eventually	10-10_advmod	pulled	RB	O
+10-2	-LRB-	O	O	O	O
+10-3	a	O	O	DT	O
+10-4	little	10-10_dep	pulled	NN	O
+10-5	late	O	O	RB	O
+10-6	-RRB-	O	O	O	O
+10-7	,	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	train	10-10_nsubj	pulled	NN	P1_train
+10-10	pulled	O	O	VBD	O
+10-11	in	10-10_prt	pulled	RP	O
+10-12	.	O	O	O	O
+
+#id=11
+#text=There were already passengers on the train from other stops . 
+11-1	There	11-2_expl	were	EX	O
+11-2	were	O	O	VBD	O
+11-3	already	11-2_advmod	were	RB	O
+11-4	passengers	11-2_nsubj	were	NNS	P5_passenger
+11-5	on	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	train	O	O	NN	P1_train
+11-8	from	O	O	O	O
+11-9	other	O	O	JJ	O
+11-10	stops	O	O	NNS	P2_train_station
+11-11	.	O	O	O	O
+
+#id=12
+#text=We boarded the train and found two seats near each other . 
+12-1	We	12-2_nsubj	boarded	PRP	P4_passenger
+12-2	boarded	O	O	VBD	O
+12-3	the	O	O	DT	O
+12-4	train	12-2_dobj	boarded	NN	P1_train
+12-5	and	O	O	O	O
+12-6	found	12-2_conj_and	boarded	VBD	O
+12-7	two	O	O	CD	O
+12-8	seats	12-6_dobj	found	NNS	P1_seat
+12-9	near	O	O	O	O
+12-10	each	O	O	DT	O
+12-11	other	O	O	JJ	O
+12-12	.	O	O	O	O
+
+#id=13
+#text=Throughout the train trip , we chatted with each other , and we also talked to one of the other passengers , who was confused about the train backing up . 
+13-1	Throughout	O	O	O	O
+13-2	the	O	O	DT	O
+13-3	train	O	O	NN	O
+13-4	trip	13-7_prep_throughout	chatted	NN	P1_trip
+13-5	,	O	O	O	O
+13-6	we	13-7_nsubj	chatted	PRP	P4_passenger
+13-7	chatted	O	O	VBD	O
+13-8	with	O	O	O	O
+13-9	each	O	O	DT	O
+13-10	other	13-7_prep_with	chatted	JJ	O
+13-11	,	O	O	O	O
+13-12	and	O	O	O	O
+13-13	we	13-15_nsubj	talked	PRP	P4_passenger
+13-14	also	13-15_advmod	talked	RB	O
+13-15	talked	13-7_conj_and	chatted	VBD	O
+13-16	to	O	O	O	O
+13-17	one	13-15_prep_to	talked	CD	O
+13-18	of	O	O	O	O
+13-19	the	O	O	DT	O
+13-20	other	O	O	JJ	O
+13-21	passengers	O	O	NNS	P6_passenger
+13-22	,	O	O	O	O
+13-23	who	13-25_nsubjpass	confused	WP	P6_passenger
+13-24	was	13-25_auxpass	confused	VBD	O
+13-25	confused	O	O	VBN	O
+13-26	about	O	O	O	O
+13-27	the	O	O	DT	O
+13-28	train	13-25_prep_about	confused	NN	P1_train
+13-29	backing	O	O	VBG	O
+13-30	up	13-29_prt	backing	RP	O
+13-31	.	O	O	O	O
+
+#id=14
+#text=We explained to him that sometimes they have to do that at the stations , and it was nothing to be concerned about . 
+14-1	We	14-2_nsubj	explained	PRP	P4_passenger
+14-2	explained	O	O	VBD	O
+14-3	to	O	O	O	O
+14-4	him	14-2_prep_to	explained	PRP	P6_passenger
+14-5	that	14-8_mark	have	IN	O
+14-6	sometimes	14-8_advmod	have	RB	O
+14-7	they	14-8_nsubj	have	PRP	P1_train_staff
+14-8	have	14-2_ccomp	explained	VBP	O
+14-9	to	14-10_aux	do	TO	O
+14-10	do	14-8_xcomp	have	VB	O
+14-11	that	14-10_dobj	do	DT	O
+14-12	at	O	O	O	O
+14-13	the	O	O	DT	O
+14-14	stations	14-10_prep_at	do	NNS	P1_train_station
+14-15	,	O	O	O	O
+14-16	and	O	O	O	O
+14-17	it	O	O	PRP	O
+14-18	was	O	O	VBD	O
+14-19	nothing	14-8_conj_and	have	NN	O
+14-20	to	O	O	TO	O
+14-21	be	O	O	VB	O
+14-22	concerned	O	O	JJ	O
+14-23	about	O	O	IN	O
+14-24	.	O	O	O	O
+
+#id=15
+#text=The train pulled into the station at Chicago about 20 minutes late , which is very typical in Chicago . 
+15-1	The	O	O	DT	O
+15-2	train	15-3_nsubj	pulled	NN	P1_train
+15-3	pulled	O	O	VBD	O
+15-4	into	O	O	O	O
+15-5	the	O	O	DT	O
+15-6	station	15-3_prep_into	pulled	NN	P1_train_station
+15-7	at	O	O	O	O
+15-8	Chicago	O	O	NNP	P1_destination
+15-9	about	O	O	RB	O
+15-10	20	O	O	CD	O
+15-11	minutes	O	O	NNS	P2_time_date
+15-12	late	O	O	RB	O
+15-13	,	O	O	O	O
+15-14	which	O	O	WDT	O
+15-15	is	O	O	VBZ	O
+15-16	very	O	O	RB	O
+15-17	typical	O	O	JJ	O
+15-18	in	O	O	O	O
+15-19	Chicago	O	O	NNP	P1_destination
+15-20	.	O	O	O	O
+
+#id=16
+#text=We got off the train and were happy to stretch our legs . 
+16-1	We	16-2_nsubj	got	PRP	P4_passenger
+16-2	got	O	O	VBD	O
+16-3	off	16-2_prt	got	RP	O
+16-4	the	O	O	DT	O
+16-5	train	16-2_dobj	got	NN	P1_train
+16-6	and	O	O	O	O
+16-7	were	O	O	VBD	O
+16-8	happy	16-2_conj_and	got	JJ	O
+16-9	to	16-10_aux	stretch	TO	O
+16-10	stretch	O	O	VB	O
+16-11	our	O	O	PRP$	P4_passenger
+16-12	legs	16-10_dobj	stretch	NNS	P1_NPart_legs
+16-13	.	O	O	O	O

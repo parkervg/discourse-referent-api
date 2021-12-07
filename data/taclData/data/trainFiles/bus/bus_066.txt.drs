@@ -1,0 +1,314 @@
+#id=1
+#text=Today is the first day for my new job . 
+1-1	Today	O	O	NNP	O
+1-2	is	O	O	VBZ	O
+1-3	the	O	O	DT	O
+1-4	first	O	O	JJ	O
+1-5	day	O	O	NN	P1_NPart_day
+1-6	for	O	O	O	O
+1-7	my	O	O	PRP$	P1_passenger
+1-8	new	O	O	JJ	O
+1-9	job	O	O	NN	P1_NPart_job
+1-10	.	O	O	O	O
+
+#id=2
+#text=This new job is near the center of the city an parking is horrible . 
+2-1	This	O	O	DT	O
+2-2	new	O	O	JJ	O
+2-3	job	2-4_nsubj	is	NN	P2_NPart_job
+2-4	is	O	O	VBZ	O
+2-5	near	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	center	2-4_prep_near	is	NN	P1_NPart_center
+2-8	of	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	city	O	O	NN	P1_NPart_city
+2-11	an	O	O	DT	O
+2-12	parking	O	O	NN	O
+2-13	is	O	O	VBZ	O
+2-14	horrible	O	O	JJ	O
+2-15	.	O	O	O	O
+
+#id=3
+#text=So I decided the best thing to do was take a bus to work . 
+3-1	So	3-3_dep	decided	IN	O
+3-2	I	3-3_nsubj	decided	PRP	P1_passenger
+3-3	decided	O	O	VBD	O
+3-4	the	O	O	DT	O
+3-5	best	O	O	JJS	O
+3-6	thing	3-9_nsubj	was	NN	O
+3-7	to	3-8_aux	do	TO	O
+3-8	do	O	O	VB	O
+3-9	was	3-3_ccomp	decided	VBD	O
+3-10	take	3-9_ccomp	was	VB	O
+3-11	a	O	O	DT	O
+3-12	bus	3-10_dobj	take	NN	P1_bus
+3-13	to	3-14_aux	work	TO	O
+3-14	work	O	O	VB	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=I got a bus schedule and found the nearest bus stop to my house and went over the times of the buses . 
+4-1	I	4-2_nsubj	got	PRP	P1_passenger
+4-2	got	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	bus	O	O	NN	O
+4-5	schedule	4-2_dobj	got	NN	P1_time-table
+4-6	and	O	O	O	O
+4-7	found	4-2_conj_and	got	VBD	O
+4-8	the	O	O	DT	O
+4-9	nearest	O	O	JJS	O
+4-10	bus	4-7_dobj	found	NN	O
+4-11	stop	4-2_dep	got	VB	P1_bus_stop
+4-12	to	O	O	O	O
+4-13	my	O	O	PRP$	P1_passenger
+4-14	house	4-11_prep_to	stop	NN	P1_NPart_house
+4-15	and	O	O	O	O
+4-16	went	4-2_conj_and	got	VBD	O
+4-17	over	4-16_prt	went	RP	O
+4-18	the	O	O	DT	O
+4-19	times	4-16_dobj	went	NNS	P1_time-table
+4-20	of	O	O	O	O
+4-21	the	O	O	DT	O
+4-22	buses	O	O	NNS	P1_bus
+4-23	.	O	O	O	O
+
+#id=5
+#text=. 
+5-1	.	O	O	O	O
+
+#id=6
+#text=Since I would have to take 2 buses to get to work I had to make sure of the I would be able to meet the next bus and get to work on time . 
+6-1	Since	6-4_mark	have	IN	O
+6-2	I	6-4_nsubj	have	PRP	P1_passenger
+6-3	would	6-4_aux	have	MD	O
+6-4	have	O	O	VB	O
+6-5	to	6-6_aux	take	TO	O
+6-6	take	6-4_xcomp	have	VB	O
+6-7	2	O	O	CD	O
+6-8	buses	6-6_dobj	take	NNS	P1_bus
+6-9	to	6-10_aux	get	TO	O
+6-10	get	6-6_vmod	take	VB	O
+6-11	to	6-12_aux	work	TO	O
+6-12	work	6-10_xcomp	get	VB	O
+6-13	I	6-14_nsubj	had	PRP	P1_passenger
+6-14	had	6-12_ccomp	work	VBD	O
+6-15	to	6-16_aux	make	TO	O
+6-16	make	6-14_xcomp	had	VB	O
+6-17	sure	6-16_acomp	make	JJ	O
+6-18	of	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	I	6-16_prep_of	make	NN	P1_passenger
+6-21	would	O	O	MD	O
+6-22	be	O	O	VB	O
+6-23	able	O	O	JJ	O
+6-24	to	6-25_aux	meet	TO	O
+6-25	meet	O	O	VB	O
+6-26	the	O	O	DT	O
+6-27	next	O	O	JJ	O
+6-28	bus	6-25_dobj	meet	NN	P1_bus
+6-29	and	O	O	O	O
+6-30	get	6-25_conj_and	meet	VB	O
+6-31	to	6-32_aux	work	TO	O
+6-32	work	6-30_xcomp	get	VB	O
+6-33	on	O	O	O	O
+6-34	time	6-32_prep_on	work	NN	O
+6-35	.	O	O	O	O
+
+#id=7
+#text=As I waited on the corner for my bus , a few other people came up to wait also . 
+7-1	As	7-3_mark	waited	IN	O
+7-2	I	7-3_nsubj	waited	PRP	P1_passenger
+7-3	waited	7-15_advcl	came	VBD	O
+7-4	on	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	corner	7-3_prep_on	waited	NN	P1_bus_stop
+7-7	for	O	O	O	O
+7-8	my	O	O	PRP$	P1_passenger
+7-9	bus	7-3_prep_for	waited	NN	P1_bus
+7-10	,	O	O	O	O
+7-11	a	O	O	DT	O
+7-12	few	O	O	JJ	O
+7-13	other	O	O	JJ	O
+7-14	people	7-15_nsubj	came	NNS	P2_passenger
+7-15	came	O	O	VBD	O
+7-16	up	7-15_prt	came	RP	O
+7-17	to	7-18_aux	wait	TO	O
+7-18	wait	7-15_xcomp	came	VB	O
+7-19	also	7-18_advmod	wait	RB	O
+7-20	.	O	O	O	O
+
+#id=8
+#text=The bus pulled up and we all boarded and paid our fare and I got a transfer for the second bus . 
+8-1	The	O	O	DT	O
+8-2	bus	8-3_nsubj	pulled	NN	P1_bus
+8-3	pulled	O	O	VBD	O
+8-4	up	8-3_prt	pulled	RP	O
+8-5	and	O	O	O	O
+8-6	we	8-8_nsubj	boarded	PRP	P3_passenger
+8-7	all	8-8_advmod	boarded	DT	O
+8-8	boarded	8-3_conj_and	pulled	VBD	O
+8-9	and	O	O	O	O
+8-10	paid	8-8_conj_and	boarded	VBD	O
+8-11	our	O	O	PRP$	P3_passenger
+8-12	fare	8-10_dobj	paid	NN	P1_money
+8-13	and	O	O	O	O
+8-14	I	8-15_nsubj	got	PRP	P1_passenger
+8-15	got	8-8_conj_and	boarded	VBD	O
+8-16	a	O	O	DT	O
+8-17	transfer	8-15_dobj	got	NN	P1_card/ticket
+8-18	for	O	O	O	O
+8-19	the	O	O	DT	O
+8-20	second	O	O	JJ	O
+8-21	bus	8-15_prep_for	got	NN	P1_bus
+8-22	.	O	O	O	O
+
+#id=9
+#text=As the bus was in route I decided to read my paper . 
+9-1	As	9-4_mark	was	IN	O
+9-2	the	O	O	DT	O
+9-3	bus	9-4_nsubj	was	NN	P1_bus
+9-4	was	9-8_advcl	decided	VBD	O
+9-5	in	O	O	O	O
+9-6	route	9-4_prep_in	was	NN	P1_route
+9-7	I	9-8_nsubj	decided	PRP	P1_passenger
+9-8	decided	O	O	VBD	O
+9-9	to	9-10_aux	read	TO	O
+9-10	read	9-8_xcomp	decided	VB	O
+9-11	my	O	O	PRP$	P1_passenger
+9-12	paper	9-10_dobj	read	NN	P1_in-bus_entertainment
+9-13	.	O	O	O	O
+
+#id=10
+#text=I happened to look up and notice that I was close to my stop so I pulled the cord to let the bus driver know I wanted to get off , he pulled over and wished me a good day and I in kind said the same to him . 
+10-1	I	10-2_nsubj	happened	PRP	P1_passenger
+10-2	happened	O	O	VBD	O
+10-3	to	10-4_aux	look	TO	O
+10-4	look	10-2_xcomp	happened	VB	O
+10-5	up	10-4_prt	look	RP	O
+10-6	and	O	O	O	O
+10-7	notice	10-4_conj_and	look	VB	O
+10-8	that	O	O	IN	O
+10-9	I	O	O	PRP	P1_passenger
+10-10	was	O	O	VBD	O
+10-11	close	10-7_ccomp	notice	JJ	O
+10-12	to	O	O	O	O
+10-13	my	O	O	PRP$	P1_passenger
+10-14	stop	O	O	NN	P2_bus_stop
+10-15	so	10-17_mark	pulled	IN	O
+10-16	I	10-17_nsubj	pulled	PRP	P1_passenger
+10-17	pulled	O	O	VBD	O
+10-18	the	O	O	DT	O
+10-19	cord	10-25_nsubj	know	NN	P1_stop_button/door_opener
+10-20	to	10-21_aux	let	TO	O
+10-21	let	O	O	VB	O
+10-22	the	O	O	DT	O
+10-23	bus	O	O	NN	O
+10-24	driver	10-21_dobj	let	NN	P1_bus_staff
+10-25	know	10-17_ccomp	pulled	VBP	O
+10-26	I	10-27_nsubj	wanted	PRP	P1_passenger
+10-27	wanted	10-25_ccomp	know	VBD	O
+10-28	to	10-29_aux	get	TO	O
+10-29	get	10-27_xcomp	wanted	VB	O
+10-30	off	10-29_prt	get	RP	O
+10-31	,	O	O	O	O
+10-32	he	10-33_nsubj	pulled	PRP	P1_bus_staff
+10-33	pulled	10-2_conj_and	happened	VBD	O
+10-34	over	10-33_prt	pulled	RP	O
+10-35	and	O	O	O	O
+10-36	wished	10-33_conj_and	pulled	VBD	O
+10-37	me	10-36_dobj	wished	PRP	P1_passenger
+10-38	a	O	O	DT	O
+10-39	good	O	O	JJ	O
+10-40	day	10-36_tmod	wished	NN	P2_NPart_day
+10-41	and	O	O	O	O
+10-42	I	10-45_nsubj	said	PRP	P1_passenger
+10-43	in	O	O	O	O
+10-44	kind	O	O	NN	P1_NPart_kind
+10-45	said	10-2_conj_and	happened	VBD	O
+10-46	the	O	O	DT	O
+10-47	same	10-45_dobj	said	JJ	P1_NPart_same
+10-48	to	O	O	O	O
+10-49	him	10-45_prep_to	said	PRP	P1_bus_staff
+10-50	.	O	O	O	O
+
+#id=11
+#text=I waited a few moments for the next bus , As I board the next bus , and sat down i pulled out my newspaper and finished reading the news . 
+11-1	I	11-2_nsubj	waited	PRP	P1_passenger
+11-2	waited	O	O	VBD	O
+11-3	a	O	O	DT	O
+11-4	few	O	O	JJ	O
+11-5	moments	11-2_dobj	waited	NNS	P1_time/date
+11-6	for	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	next	O	O	JJ	O
+11-9	bus	11-2_prep_for	waited	NN	P1_bus
+11-10	,	O	O	O	O
+11-11	As	11-13_mark	board	IN	O
+11-12	I	11-13_nsubj	board	PRP	P1_passenger
+11-13	board	11-2_advcl	waited	VB	O
+11-14	the	O	O	DT	O
+11-15	next	O	O	JJ	O
+11-16	bus	11-13_dobj	board	NN	P1_bus
+11-17	,	O	O	O	O
+11-18	and	O	O	O	O
+11-19	sat	11-22_csubj	pulled	VBN	O
+11-20	down	11-19_prt	sat	RP	O
+11-21	i	11-19_dobj	sat	FW	P1_passenger
+11-22	pulled	11-2_conj_and	waited	VBD	O
+11-23	out	11-22_prt	pulled	RP	O
+11-24	my	O	O	PRP$	P1_passenger
+11-25	newspaper	11-22_dobj	pulled	NN	P1_in-bus_entertainment
+11-26	and	O	O	O	O
+11-27	finished	11-22_conj_and	pulled	VBD	O
+11-28	reading	11-27_xcomp	finished	VBG	O
+11-29	the	O	O	DT	O
+11-30	news	11-28_dobj	reading	NN	P1_in-bus_entertainment
+11-31	.	O	O	O	O
+
+#id=12
+#text=The bus let me off a half a block from my new job , as I walked the short way I thought this will not be so bad , a bit more time to get to work but I liked riding the bus . 
+12-1	The	O	O	DT	O
+12-2	bus	12-3_nsubj	let	NN	P1_bus
+12-3	let	O	O	VBD	O
+12-4	me	12-3_dobj	let	PRP	P1_passenger
+12-5	off	O	O	O	O
+12-6	a	O	O	DT	O
+12-7	half	12-3_prep_off	let	NN	O
+12-8	a	O	O	DT	O
+12-9	block	O	O	NN	P1_NPart_block
+12-10	from	O	O	O	O
+12-11	my	O	O	PRP$	P1_passenger
+12-12	new	O	O	JJ	O
+12-13	job	12-3_prep_from	let	NN	P3_NPart_job
+12-14	,	O	O	O	O
+12-15	as	12-17_mark	walked	IN	O
+12-16	I	12-17_nsubj	walked	PRP	P1_passenger
+12-17	walked	12-3_advcl	let	VBD	O
+12-18	the	O	O	DT	O
+12-19	short	O	O	JJ	O
+12-20	way	12-17_dobj	walked	NN	P1_NPart_way
+12-21	I	12-22_nsubj	thought	PRP	P1_passenger
+12-22	thought	O	O	VBD	O
+12-23	this	O	O	DT	O
+12-24	will	O	O	MD	O
+12-25	not	O	O	RB	O
+12-26	be	O	O	VB	O
+12-27	so	O	O	RB	O
+12-28	bad	12-22_ccomp	thought	JJ	O
+12-29	,	O	O	O	O
+12-30	a	O	O	DT	O
+12-31	bit	O	O	RB	O
+12-32	more	O	O	JJR	O
+12-33	time	O	O	NN	P2_time/date
+12-34	to	12-35_aux	get	TO	O
+12-35	get	12-17_vmod	walked	VB	O
+12-36	to	12-37_aux	work	TO	O
+12-37	work	12-35_xcomp	get	VB	O
+12-38	but	O	O	O	O
+12-39	I	12-40_nsubj	liked	PRP	P1_passenger
+12-40	liked	12-3_conj_but	let	VBD	O
+12-41	riding	12-40_xcomp	liked	VBG	O
+12-42	the	O	O	DT	O
+12-43	bus	12-41_dobj	riding	NN	P1_bus
+12-44	.	O	O	O	O

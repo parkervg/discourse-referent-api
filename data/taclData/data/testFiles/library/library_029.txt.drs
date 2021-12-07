@@ -1,0 +1,191 @@
+#id=1
+#text=The last time I wanted to borrow a book from the library I was in a different town than my home town . 
+1-1	The	O	O	DT	O
+1-2	last	O	O	JJ	O
+1-3	time	1-5_nsubj	wanted	NN	O
+1-4	I	1-5_nsubj	wanted	PRP	P1_customer
+1-5	wanted	O	O	VBD	O
+1-6	to	1-7_aux	borrow	TO	O
+1-7	borrow	1-5_xcomp	wanted	VB	O
+1-8	a	O	O	DT	O
+1-9	book	1-7_dobj	borrow	NN	P1_book
+1-10	from	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	library	1-7_prep_from	borrow	NN	P1_library
+1-13	I	1-14_nsubj	was	PRP	P1_customer
+1-14	was	O	O	VBD	O
+1-15	in	O	O	O	O
+1-16	a	O	O	DT	O
+1-17	different	O	O	JJ	O
+1-18	town	1-14_prep_in	was	NN	P1_NPart_town
+1-19	than	O	O	O	O
+1-20	my	O	O	PRP$	P1_customer
+1-21	home	O	O	NN	O
+1-22	town	O	O	NN	P2_NPart_town
+1-23	.	O	O	O	O
+
+#id=2
+#text=I talked to the librarian about this and he told me that it was possible for me to obtain a guest pass , though this would only allow me to take out two books at a time . 
+2-1	I	2-2_nsubj	talked	PRP	P1_customer
+2-2	talked	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	librarian	2-2_prep_to	talked	NN	P1_staff
+2-6	about	O	O	O	O
+2-7	this	2-2_prep_about	talked	DT	O
+2-8	and	O	O	O	O
+2-9	he	2-10_nsubj	told	PRP	P1_staff
+2-10	told	2-2_conj_and	talked	VBD	O
+2-11	me	2-10_dobj	told	PRP	P1_customer
+2-12	that	O	O	IN	O
+2-13	it	O	O	PRP	O
+2-14	was	O	O	VBD	O
+2-15	possible	2-10_ccomp	told	JJ	O
+2-16	for	O	O	O	O
+2-17	me	O	O	PRP	P1_customer
+2-18	to	2-19_aux	obtain	TO	O
+2-19	obtain	O	O	VB	O
+2-20	a	O	O	DT	O
+2-21	guest	O	O	JJ	O
+2-22	pass	2-19_dobj	obtain	NN	P1_library_card
+2-23	,	O	O	O	O
+2-24	though	2-28_mark	allow	IN	O
+2-25	this	2-28_nsubj	allow	DT	P1_library_card
+2-26	would	2-28_aux	allow	MD	O
+2-27	only	2-28_advmod	allow	RB	O
+2-28	allow	O	O	VB	O
+2-29	me	2-28_dobj	allow	PRP	P1_customer
+2-30	to	2-31_aux	take	TO	O
+2-31	take	2-28_xcomp	allow	VB	O
+2-32	out	2-31_prt	take	RP	O
+2-33	two	O	O	CD	O
+2-34	books	2-31_dobj	take	NNS	P1_book
+2-35	at	O	O	O	O
+2-36	a	O	O	DT	O
+2-37	time	O	O	NN	O
+2-38	.	O	O	O	O
+
+#id=3
+#text=Since this was my only option I decided I would take it . 
+3-1	Since	O	O	IN	O
+3-2	this	O	O	DT	O
+3-3	was	O	O	VBD	O
+3-4	my	O	O	PRP$	P1_customer
+3-5	only	O	O	JJ	O
+3-6	option	3-8_advcl	decided	NN	P1_NPart_option
+3-7	I	3-8_nsubj	decided	PRP	P1_customer
+3-8	decided	O	O	VBD	O
+3-9	I	3-11_nsubj	take	PRP	P1_customer
+3-10	would	3-11_aux	take	MD	O
+3-11	take	3-8_ccomp	decided	VB	O
+3-12	it	3-11_dobj	take	PRP	P1_NPart_it
+3-13	.	O	O	O	O
+
+#id=4
+#text=I filled out the form , providing my name and address , and showed him my identification card , and I was given a library card . 
+4-1	I	4-2_nsubj	filled	PRP	P1_customer
+4-2	filled	O	O	VBD	O
+4-3	out	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	form	4-2_prep_out	filled	NN	P1_NPart_form
+4-6	,	O	O	O	O
+4-7	providing	4-2_xcomp	filled	VBG	O
+4-8	my	O	O	PRP$	P1_customer
+4-9	name	4-7_dobj	providing	NN	P1_NPart_name
+4-10	and	O	O	O	O
+4-11	address	O	O	NN	P1_NPart_address
+4-12	,	O	O	O	O
+4-13	and	O	O	O	O
+4-14	showed	4-2_conj_and	filled	VBD	O
+4-15	him	4-14_iobj	showed	PRP	P1_staff
+4-16	my	O	O	PRP$	P1_customer
+4-17	identification	O	O	NN	O
+4-18	card	4-14_dobj	showed	NN	P1_NPart_card
+4-19	,	O	O	O	O
+4-20	and	O	O	O	O
+4-21	I	4-23_nsubjpass	given	PRP	P1_customer
+4-22	was	4-23_auxpass	given	VBD	O
+4-23	given	4-2_conj_and	filled	VBN	O
+4-24	a	O	O	DT	O
+4-25	library	O	O	NN	O
+4-26	card	4-23_dobj	given	NN	P1_library_card
+4-27	.	O	O	O	O
+
+#id=5
+#text=I used the card to pick up two books : a collection of poetry and the book Hylozoic by Rudy Rucker . 
+5-1	I	5-2_nsubj	used	PRP	P1_customer
+5-2	used	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	card	5-2_dobj	used	NN	P1_library_card
+5-5	to	5-6_aux	pick	TO	O
+5-6	pick	O	O	VB	O
+5-7	up	5-6_prt	pick	RP	O
+5-8	two	O	O	CD	O
+5-9	books	5-6_dobj	pick	NNS	P1_book
+5-10	:	O	O	O	O
+5-11	a	O	O	DT	O
+5-12	collection	O	O	NN	P2_book
+5-13	of	O	O	O	O
+5-14	poetry	O	O	NN	P1_NPart_poetry
+5-15	and	O	O	O	O
+5-16	the	O	O	DT	O
+5-17	book	O	O	NN	P3_book
+5-18	Hylozoic	O	O	NNP	O
+5-19	by	O	O	O	O
+5-20	Rudy	O	O	NNP	O
+5-21	Rucker	5-6_prep_by	pick	NNP	P1_NPart_rucker
+5-22	.	O	O	O	O
+
+#id=6
+#text=The librarian told me that I had to return the books within the space of three weeks , so as soon as I returned to my house I began to read them immediately . 
+6-1	The	O	O	DT	O
+6-2	librarian	6-3_nsubj	told	NN	P1_staff
+6-3	told	O	O	VBD	O
+6-4	me	6-3_dobj	told	PRP	P1_customer
+6-5	that	6-7_mark	had	IN	O
+6-6	I	6-7_nsubj	had	PRP	P1_customer
+6-7	had	6-3_ccomp	told	VBD	O
+6-8	to	6-9_aux	return	TO	O
+6-9	return	6-7_xcomp	had	VB	O
+6-10	the	O	O	DT	O
+6-11	books	6-9_dobj	return	NNS	P1_book
+6-12	within	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	space	6-9_prep_within	return	NN	P1_NPart_space
+6-15	of	O	O	O	O
+6-16	three	O	O	CD	O
+6-17	weeks	O	O	NNS	P1_NPart_weeks
+6-18	,	O	O	O	O
+6-19	so	6-3_dep	told	IN	O
+6-20	as	O	O	RB	O
+6-21	soon	6-29_advmod	began	RB	O
+6-22	as	6-24_mark	returned	IN	O
+6-23	I	6-24_nsubj	returned	PRP	P1_customer
+6-24	returned	O	O	VBD	O
+6-25	to	O	O	O	O
+6-26	my	O	O	PRP$	P1_customer
+6-27	house	6-24_prep_to	returned	NN	P1_NPart_house
+6-28	I	6-29_nsubj	began	PRP	P1_customer
+6-29	began	6-3_parataxis	told	VBD	O
+6-30	to	6-31_aux	read	TO	O
+6-31	read	6-29_xcomp	began	VB	O
+6-32	them	6-31_dobj	read	PRP	P1_book
+6-33	immediately	6-31_advmod	read	RB	O
+6-34	.	O	O	O	O
+
+#id=7
+#text=After I was done with the books I returned them to the library . 
+7-1	After	7-4_mark	done	IN	O
+7-2	I	7-4_nsubjpass	done	PRP	P1_customer
+7-3	was	7-4_auxpass	done	VBD	O
+7-4	done	7-9_advcl	returned	VBN	O
+7-5	with	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	books	7-4_prep_with	done	NNS	P1_book
+7-8	I	7-9_nsubj	returned	PRP	P1_customer
+7-9	returned	O	O	VBD	O
+7-10	them	7-9_dobj	returned	PRP	P1_book
+7-11	to	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	library	7-9_prep_to	returned	NN	P1_library
+7-14	.	O	O	O	O

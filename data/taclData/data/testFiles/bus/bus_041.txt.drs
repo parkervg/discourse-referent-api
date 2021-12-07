@@ -1,0 +1,229 @@
+#id=1
+#text=I went to college in a big city and did n't have a car on campus . 
+1-1	I	1-2_nsubj	went	PRP	P1_passenger
+1-2	went	O	O	VBD	O
+1-3	to	O	O	O	O
+1-4	college	1-2_prep_to	went	NN	P1_NPart_college
+1-5	in	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	big	O	O	JJ	O
+1-8	city	1-2_prep_in	went	NN	P1_NPart_city
+1-9	and	O	O	O	O
+1-10	did	1-12_aux	have	VBD	O
+1-11	n't	1-12_neg	have	RB	O
+1-12	have	1-2_conj_and	went	VB	O
+1-13	a	O	O	DT	O
+1-14	car	1-12_dobj	have	NN	P1_NPart_car
+1-15	on	O	O	O	O
+1-16	campus	O	O	NN	P1_NPart_campus
+1-17	.	O	O	O	O
+
+#id=2
+#text=Thankfully , there was n't a need for one because the public transportation system was great . 
+2-1	Thankfully	2-4_advmod	was	RB	O
+2-2	,	O	O	O	O
+2-3	there	2-4_expl	was	EX	O
+2-4	was	O	O	VBD	O
+2-5	n't	2-4_neg	was	RB	O
+2-6	a	O	O	DT	O
+2-7	need	2-4_nsubj	was	NN	P1_NPart_need
+2-8	for	O	O	O	O
+2-9	one	O	O	CD	O
+2-10	because	O	O	IN	O
+2-11	the	O	O	DT	O
+2-12	public	O	O	JJ	O
+2-13	transportation	O	O	NN	O
+2-14	system	O	O	NN	P1_other
+2-15	was	O	O	VBD	O
+2-16	great	2-4_advcl	was	JJ	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=I often went to visit my friend that went to school on the other side of town . 
+3-1	I	3-3_nsubj	went	PRP	P1_passenger
+3-2	often	3-3_advmod	went	RB	O
+3-3	went	O	O	VBD	O
+3-4	to	3-5_aux	visit	TO	O
+3-5	visit	3-3_xcomp	went	VB	O
+3-6	my	O	O	PRP$	P1_passenger
+3-7	friend	3-5_dobj	visit	NN	P1_NPart_friend
+3-8	that	3-9_nsubj	went	WDT	O
+3-9	went	O	O	VBD	O
+3-10	to	O	O	O	O
+3-11	school	3-9_prep_to	went	NN	P1_NPart_school
+3-12	on	O	O	O	O
+3-13	the	O	O	DT	O
+3-14	other	O	O	JJ	O
+3-15	side	3-9_prep_on	went	NN	P1_NPart_side
+3-16	of	O	O	O	O
+3-17	town	O	O	NN	P1_NPart_town
+3-18	.	O	O	O	O
+
+#id=4
+#text=I always took a public bus to get there . 
+4-1	I	4-3_nsubj	took	PRP	P1_passenger
+4-2	always	4-3_advmod	took	RB	O
+4-3	took	O	O	VBD	O
+4-4	a	O	O	DT	O
+4-5	public	O	O	JJ	O
+4-6	bus	4-3_dobj	took	NN	P1_bus
+4-7	to	4-8_aux	get	TO	O
+4-8	get	4-3_vmod	took	VB	O
+4-9	there	4-8_advmod	get	RB	O
+4-10	.	O	O	O	O
+
+#id=5
+#text=The first thing I would do is look up the bus route and schedule . 
+5-1	The	O	O	DT	O
+5-2	first	O	O	JJ	O
+5-3	thing	5-8_nsubj	look	NN	O
+5-4	I	5-6_nsubj	do	PRP	P1_passenger
+5-5	would	5-6_aux	do	MD	O
+5-6	do	O	O	VB	O
+5-7	is	5-8_aux	look	VBZ	O
+5-8	look	O	O	VB	O
+5-9	up	5-8_prt	look	RP	O
+5-10	the	O	O	DT	O
+5-11	bus	O	O	NN	O
+5-12	route	5-8_dobj	look	NN	P1_time-table
+5-13	and	O	O	O	O
+5-14	schedule	O	O	NN	P2_time-table
+5-15	.	O	O	O	O
+
+#id=6
+#text=Once I knew what time the bus would arrive , I 'd walk to the bus stop and wait on the bench . 
+6-1	Once	6-3_mark	knew	IN	O
+6-2	I	6-3_nsubj	knew	PRP	P1_passenger
+6-3	knew	6-13_advcl	walk	VBD	O
+6-4	what	O	O	WP	O
+6-5	time	6-9_dobj	arrive	NN	P1_time/date
+6-6	the	O	O	DT	O
+6-7	bus	6-9_nsubj	arrive	NN	P1_bus
+6-8	would	6-9_aux	arrive	MD	O
+6-9	arrive	6-3_ccomp	knew	VB	O
+6-10	,	O	O	O	O
+6-11	I	6-13_nsubj	walk	PRP	P1_passenger
+6-12	'd	6-13_aux	walk	MD	O
+6-13	walk	O	O	VB	O
+6-14	to	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	bus	O	O	NN	O
+6-17	stop	6-13_prep_to	walk	NN	P1_bus_stop
+6-18	and	O	O	O	O
+6-19	wait	6-13_conj_and	walk	VB	O
+6-20	on	O	O	O	O
+6-21	the	O	O	DT	O
+6-22	bench	6-19_prep_on	wait	NN	P1_NPart_bench
+6-23	.	O	O	O	O
+
+#id=7
+#text=Once the bus arrived , I would pay the driver via a electronic machine and was then on my life . 
+7-1	Once	7-4_mark	arrived	IN	O
+7-2	the	O	O	DT	O
+7-3	bus	7-4_nsubj	arrived	NN	P1_bus
+7-4	arrived	7-8_advcl	pay	VBD	O
+7-5	,	O	O	O	O
+7-6	I	7-8_nsubj	pay	PRP	P1_passenger
+7-7	would	7-8_aux	pay	MD	O
+7-8	pay	O	O	VB	O
+7-9	the	O	O	DT	O
+7-10	driver	7-8_dobj	pay	NN	P1_bus_staff
+7-11	via	O	O	O	O
+7-12	a	O	O	DT	O
+7-13	electronic	O	O	JJ	O
+7-14	machine	O	O	NN	P1_payment_machine
+7-15	and	O	O	O	O
+7-16	was	7-8_conj_and	pay	VBD	O
+7-17	then	7-16_advmod	was	RB	O
+7-18	on	O	O	O	O
+7-19	my	O	O	PRP$	P1_passenger
+7-20	life	7-16_prep_on	was	NN	P1_NPart_life
+7-21	.	O	O	O	O
+
+#id=8
+#text=The bus would make many stops before arriving at mine . 
+8-1	The	O	O	DT	O
+8-2	bus	8-4_nsubj	make	NN	P1_bus
+8-3	would	8-4_aux	make	MD	O
+8-4	make	O	O	VB	O
+8-5	many	O	O	JJ	O
+8-6	stops	8-4_dobj	make	NNS	P2_bus_stop
+8-7	before	O	O	O	O
+8-8	arriving	8-4_prepc_before	make	VBG	O
+8-9	at	O	O	O	O
+8-10	mine	8-8_prep_at	arriving	NN	P3_bus_stop
+8-11	.	O	O	O	O
+
+#id=9
+#text=At one point , the bus was full and I gave up my seat so that an older lady could sit down . 
+9-1	At	O	O	O	O
+9-2	one	O	O	CD	O
+9-3	point	O	O	NN	O
+9-4	,	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	bus	O	O	NN	P1_bus
+9-7	was	O	O	VBD	O
+9-8	full	O	O	JJ	O
+9-9	and	O	O	O	O
+9-10	I	9-11_nsubj	gave	PRP	P1_passenger
+9-11	gave	O	O	VBD	O
+9-12	up	9-11_prt	gave	RP	O
+9-13	my	O	O	PRP$	P1_passenger
+9-14	seat	9-11_dobj	gave	NN	P1_seat_in_bus
+9-15	so	9-21_advmod	sit	RB	O
+9-16	that	9-21_mark	sit	IN	O
+9-17	an	O	O	DT	O
+9-18	older	O	O	JJR	O
+9-19	lady	9-21_nsubj	sit	NN	P2_passenger
+9-20	could	9-21_aux	sit	MD	O
+9-21	sit	9-11_advcl	gave	VB	O
+9-22	down	9-21_prt	sit	RP	O
+9-23	.	O	O	O	O
+
+#id=10
+#text=Once I saw that my stop was arriving , I pulled the lever to let the bus driver know that I wanted to depart the bus at the next stop . 
+10-1	Once	10-3_mark	saw	IN	O
+10-2	I	10-3_nsubj	saw	PRP	P1_passenger
+10-3	saw	10-11_advcl	pulled	VBD	O
+10-4	that	10-8_mark	arriving	IN	O
+10-5	my	O	O	PRP$	P1_passenger
+10-6	stop	10-8_nsubj	arriving	NN	P3_bus_stop
+10-7	was	10-8_aux	arriving	VBD	O
+10-8	arriving	10-3_ccomp	saw	VBG	O
+10-9	,	O	O	O	O
+10-10	I	10-11_nsubj	pulled	PRP	P1_passenger
+10-11	pulled	O	O	VBD	O
+10-12	the	O	O	DT	O
+10-13	lever	10-19_nsubj	know	NN	P1_stop_button/door_opener
+10-14	to	10-15_aux	let	TO	O
+10-15	let	O	O	VB	O
+10-16	the	O	O	DT	O
+10-17	bus	O	O	NN	O
+10-18	driver	10-15_dobj	let	NN	P1_bus_staff
+10-19	know	10-11_ccomp	pulled	VBP	O
+10-20	that	10-22_mark	wanted	IN	O
+10-21	I	10-22_nsubj	wanted	PRP	P1_passenger
+10-22	wanted	10-19_ccomp	know	VBD	O
+10-23	to	10-24_aux	depart	TO	O
+10-24	depart	10-22_xcomp	wanted	VB	O
+10-25	the	O	O	DT	O
+10-26	bus	10-24_dobj	depart	NN	P1_bus
+10-27	at	O	O	O	O
+10-28	the	O	O	DT	O
+10-29	next	O	O	JJ	O
+10-30	stop	10-24_prep_at	depart	NN	P3_bus_stop
+10-31	.	O	O	O	O
+
+#id=11
+#text=I then thanked the driver and was on my way . 
+11-1	I	11-3_nsubj	thanked	PRP	P1_passenger
+11-2	then	11-3_advmod	thanked	RB	O
+11-3	thanked	O	O	VBD	O
+11-4	the	O	O	DT	O
+11-5	driver	11-3_dobj	thanked	NN	P1_bus_staff
+11-6	and	O	O	O	O
+11-7	was	11-3_conj_and	thanked	VBD	O
+11-8	on	O	O	O	O
+11-9	my	O	O	PRP$	P1_passenger
+11-10	way	11-7_prep_on	was	NN	O
+11-11	.	O	O	O	O

@@ -1,0 +1,261 @@
+#id=1
+#text=This year for vacation , we decide we wanted to to Ireland . 
+1-1	This	O	O	DT	O
+1-2	year	1-7_tmod	decide	NN	P1_NPart_year
+1-3	for	O	O	O	O
+1-4	vacation	1-7_prep_for	decide	NN	P1_NPart_vacation
+1-5	,	O	O	O	O
+1-6	we	1-7_nsubj	decide	PRP	P1_passenger
+1-7	decide	O	O	VBP	O
+1-8	we	1-9_nsubj	wanted	PRP	P1_passenger
+1-9	wanted	1-7_ccomp	decide	VBD	O
+1-10	to	1-9_prep	wanted	TO	O
+1-11	to	O	O	O	O
+1-12	Ireland	1-9_prep_to	wanted	NNP	P1_target_location
+1-13	.	O	O	O	O
+
+#id=2
+#text=Well never having flown in a plane the thought of flying was a bit frightening . 
+2-1	Well	2-4_advmod	flown	RB	O
+2-2	never	2-4_neg	flown	RB	O
+2-3	having	2-4_aux	flown	VBG	O
+2-4	flown	O	O	VBN	O
+2-5	in	O	O	O	O
+2-6	a	O	O	DT	O
+2-7	plane	2-4_prep_in	flown	NN	P1_plane
+2-8	the	O	O	DT	O
+2-9	thought	2-4_dobj	flown	NN	P1_NPart_thought
+2-10	of	O	O	O	O
+2-11	flying	O	O	VBG	O
+2-12	was	O	O	VBD	O
+2-13	a	O	O	DT	O
+2-14	bit	O	O	RB	O
+2-15	frightening	O	O	JJ	O
+2-16	.	O	O	O	O
+
+#id=3
+#text=We scheduled are vacation and our nerves were getting the best of us all since this new to our family . 
+3-1	We	3-2_nsubj	scheduled	PRP	P1_passenger
+3-2	scheduled	O	O	VBD	O
+3-3	are	O	O	VBP	P1_passenger
+3-4	vacation	3-2_ccomp	scheduled	NN	P2_NPart_vacation
+3-5	and	O	O	O	O
+3-6	our	O	O	PRP$	P1_passenger
+3-7	nerves	3-9_nsubj	getting	NNS	P1_NPart_nerves
+3-8	were	3-9_aux	getting	VBD	O
+3-9	getting	3-2_conj_and	scheduled	VBG	O
+3-10	the	O	O	DT	O
+3-11	best	3-9_dobj	getting	JJS	O
+3-12	of	O	O	O	O
+3-13	us	O	O	PRP	P1_passenger
+3-14	all	3-9_dep	getting	DT	O
+3-15	since	O	O	O	O
+3-16	this	O	O	DT	O
+3-17	new	3-9_prep_since	getting	JJ	O
+3-18	to	O	O	O	O
+3-19	our	O	O	PRP$	P1_passenger
+3-20	family	O	O	NN	P1_passenger
+3-21	.	O	O	O	O
+
+#id=4
+#text=The day arrived that we were to leave , we arrived early since we did n't know how long it would take to get through all the checkpoint i the airport . 
+4-1	The	O	O	DT	O
+4-2	day	4-3_nsubj	arrived	NN	P1_time/date
+4-3	arrived	4-11_ccomp	arrived	VBD	O
+4-4	that	4-6_mark	were	IN	O
+4-5	we	4-6_nsubj	were	PRP	P1_passenger
+4-6	were	4-3_ccomp	arrived	VBD	O
+4-7	to	4-8_aux	leave	TO	O
+4-8	leave	4-6_xcomp	were	VB	O
+4-9	,	O	O	O	O
+4-10	we	4-11_nsubj	arrived	PRP	P1_passenger
+4-11	arrived	O	O	VBD	O
+4-12	early	4-11_advmod	arrived	RB	O
+4-13	since	4-17_mark	know	IN	O
+4-14	we	4-17_nsubj	know	PRP	P1_passenger
+4-15	did	4-17_aux	know	VBD	O
+4-16	n't	4-17_neg	know	RB	O
+4-17	know	4-11_advcl	arrived	VB	O
+4-18	how	O	O	WRB	O
+4-19	long	4-22_advmod	take	RB	O
+4-20	it	4-22_nsubj	take	PRP	O
+4-21	would	4-22_aux	take	MD	O
+4-22	take	4-17_ccomp	know	VB	O
+4-23	to	4-24_aux	get	TO	O
+4-24	get	4-22_xcomp	take	VB	O
+4-25	through	O	O	O	O
+4-26	all	O	O	PDT	O
+4-27	the	O	O	DT	O
+4-28	checkpoint	4-24_prep_through	get	NN	O
+4-29	i	O	O	FW	O
+4-30	the	O	O	DT	O
+4-31	airport	4-24_dobj	get	NN	P1_airport
+4-32	.	O	O	O	O
+
+#id=5
+#text=We checked our bags and got through security and anxiously waited to board our plane . 
+5-1	We	5-2_nsubj	checked	PRP	P1_passenger
+5-2	checked	O	O	VBD	O
+5-3	our	O	O	PRP$	P1_passenger
+5-4	bags	5-2_dobj	checked	NNS	P1_check_in_luggage
+5-5	and	O	O	O	O
+5-6	got	5-2_conj_and	checked	VBD	O
+5-7	through	O	O	O	O
+5-8	security	5-6_prep_through	got	NN	P1_security_check
+5-9	and	O	O	O	O
+5-10	anxiously	5-11_advmod	waited	RB	O
+5-11	waited	5-6_conj_and	got	VBD	O
+5-12	to	O	O	O	O
+5-13	board	5-11_prep_to	waited	NN	O
+5-14	our	O	O	PRP$	P1_passenger
+5-15	plane	5-6_dobj	got	NN	P1_plane
+5-16	.	O	O	O	O
+
+#id=6
+#text=The kids we are anxious to get aboard and see what it was like , I , however was trying to convince myself this was going to be a fun experience . 
+6-1	The	O	O	DT	O
+6-2	kids	6-26_nsubj	going	NNS	P2_passenger
+6-3	we	O	O	PRP	O
+6-4	are	O	O	VBP	O
+6-5	anxious	O	O	JJ	O
+6-6	to	6-7_aux	get	TO	O
+6-7	get	O	O	VB	O
+6-8	aboard	6-7_advmod	get	RB	O
+6-9	and	O	O	O	O
+6-10	see	6-7_conj_and	get	VB	O
+6-11	what	6-13_dobj	was	WP	O
+6-12	it	6-13_nsubj	was	PRP	O
+6-13	was	6-10_ccomp	see	VBD	O
+6-14	like	6-20_mark	trying	IN	O
+6-15	,	O	O	O	O
+6-16	I	6-20_nsubj	trying	PRP	P3_passenger
+6-17	,	O	O	O	O
+6-18	however	6-20_advmod	trying	RB	O
+6-19	was	6-20_aux	trying	VBD	O
+6-20	trying	6-13_advcl	was	VBG	O
+6-21	to	6-22_aux	convince	TO	O
+6-22	convince	6-20_xcomp	trying	VB	O
+6-23	myself	O	O	PRP	P3_passenger
+6-24	this	6-22_xcomp	convince	DT	O
+6-25	was	6-26_aux	going	VBD	O
+6-26	going	O	O	VBG	O
+6-27	to	O	O	TO	O
+6-28	be	O	O	VB	O
+6-29	a	O	O	DT	O
+6-30	fun	O	O	NN	O
+6-31	experience	6-26_xcomp	going	NN	P1_NPart_experience
+6-32	.	O	O	O	O
+
+#id=7
+#text=We finally got to board the plane , we were directed to our seats by the stewardess and we all sat down and got ready for take-off . 
+7-1	We	7-3_nsubj	got	PRP	P1_passenger
+7-2	finally	7-3_advmod	got	RB	O
+7-3	got	O	O	VBD	O
+7-4	to	7-5_aux	board	TO	O
+7-5	board	7-3_xcomp	got	VB	O
+7-6	the	O	O	DT	O
+7-7	plane	7-5_dobj	board	NN	P1_plane
+7-8	,	O	O	O	O
+7-9	we	7-11_nsubjpass	directed	PRP	P1_passenger
+7-10	were	7-11_auxpass	directed	VBD	O
+7-11	directed	7-3_conj_and	got	VBN	O
+7-12	to	O	O	O	O
+7-13	our	O	O	PRP$	P1_passenger
+7-14	seats	7-11_prep_to	directed	NNS	P1_seat
+7-15	by	O	O	O	O
+7-16	the	O	O	DT	O
+7-17	stewardess	7-11_agent	directed	NNS	P1_staff
+7-18	and	O	O	O	O
+7-19	we	7-21_nsubj	sat	PRP	P1_passenger
+7-20	all	7-21_advmod	sat	DT	O
+7-21	sat	7-3_conj_and	got	VBD	O
+7-22	down	7-21_prt	sat	RP	O
+7-23	and	O	O	O	O
+7-24	got	O	O	VBD	O
+7-25	ready	7-21_conj_and	sat	JJ	O
+7-26	for	O	O	O	O
+7-27	take-off	O	O	JJ	O
+7-28	.	O	O	O	O
+
+#id=8
+#text=The plane engines started to roar and we taxied down the runway , the plane went faster and faster , looking out the window we could see the ground dropping farther and farther away as the plane rose into the air . 
+8-1	The	O	O	DT	O
+8-2	plane	O	O	NN	O
+8-3	engines	8-4_nsubj	started	NNS	P1_NPart_engines
+8-4	started	8-16_ccomp	went	VBD	O
+8-5	to	O	O	O	O
+8-6	roar	8-4_prep_to	started	NN	O
+8-7	and	O	O	O	O
+8-8	we	8-9_nsubj	taxied	PRP	P1_passenger
+8-9	taxied	8-4_conj_and	started	VBD	O
+8-10	down	8-9_prt	taxied	RP	O
+8-11	the	O	O	DT	O
+8-12	runway	8-9_dobj	taxied	NN	P1_location_airplane
+8-13	,	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	plane	8-16_nsubj	went	NN	P1_plane
+8-16	went	O	O	VBD	O
+8-17	faster	8-16_advmod	went	RBR	O
+8-18	and	O	O	O	O
+8-19	faster	O	O	RBR	O
+8-20	,	O	O	O	O
+8-21	looking	8-16_xcomp	went	VBG	O
+8-22	out	8-21_prt	looking	RP	O
+8-23	the	O	O	DT	O
+8-24	window	8-21_dobj	looking	NN	P1_in-flight_entertainment
+8-25	we	8-27_nsubj	see	PRP	P1_passenger
+8-26	could	8-27_aux	see	MD	O
+8-27	see	O	O	VB	O
+8-28	the	O	O	DT	O
+8-29	ground	8-27_dobj	see	NN	P1_NPart_ground
+8-30	dropping	O	O	VBG	O
+8-31	farther	O	O	RBR	O
+8-32	and	O	O	CC	O
+8-33	farther	O	O	RBR	O
+8-34	away	8-38_advmod	rose	RB	O
+8-35	as	8-38_mark	rose	IN	O
+8-36	the	O	O	DT	O
+8-37	plane	8-38_nsubj	rose	NN	P1_plane
+8-38	rose	8-30_advcl	dropping	VBD	O
+8-39	into	O	O	O	O
+8-40	the	O	O	DT	O
+8-41	air	8-38_prep_into	rose	NN	P2_location_airplane
+8-42	.	O	O	O	O
+
+#id=9
+#text=Once we wereup in the air we realized there was not much to be frighten for and the excitement set in to see a new country , We were on our way to Ireland ! 
+9-1	Once	9-3_mark	wereup	IN	O
+9-2	we	9-3_nsubj	wereup	PRP	P1_passenger
+9-3	wereup	9-29_advcl	were	VB	O
+9-4	in	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	air	9-3_prep_in	wereup	NN	P2_location_airplane
+9-7	we	9-8_nsubj	realized	PRP	P1_passenger
+9-8	realized	O	O	VBD	O
+9-9	there	9-10_expl	was	EX	O
+9-10	was	9-8_dep	realized	VBD	O
+9-11	not	9-10_neg	was	RB	O
+9-12	much	9-10_acomp	was	JJ	O
+9-13	to	9-15_aux	frighten	TO	O
+9-14	be	9-15_auxpass	frighten	VB	O
+9-15	frighten	O	O	VBN	O
+9-16	for	9-15_prep	frighten	IN	O
+9-17	and	O	O	O	O
+9-18	the	O	O	DT	O
+9-19	excitement	9-20_nsubj	set	NN	P1_NPart_excitement
+9-20	set	9-10_conj_and	was	VBD	O
+9-21	in	9-20_prt	set	RP	O
+9-22	to	9-23_aux	see	TO	O
+9-23	see	9-20_xcomp	set	VB	O
+9-24	a	O	O	DT	O
+9-25	new	O	O	JJ	O
+9-26	country	9-23_dobj	see	NN	P1_target_location
+9-27	,	O	O	O	O
+9-28	We	9-29_nsubj	were	PRP	P1_passenger
+9-29	were	O	O	VBD	O
+9-30	on	O	O	O	O
+9-31	our	O	O	PRP$	P1_passenger
+9-32	way	9-29_prep_on	were	NN	O
+9-33	to	O	O	O	O
+9-34	Ireland	9-29_prep_to	were	NNP	P1_target_location
+9-35	!	O	O	O	O

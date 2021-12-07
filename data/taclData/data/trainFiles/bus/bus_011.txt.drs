@@ -1,0 +1,204 @@
+#id=1
+#text=Today , I had to ride the bus home from the market . 
+1-1	Today	1-4_tmod	had	NN	O
+1-2	,	O	O	O	O
+1-3	I	1-4_nsubj	had	PRP	P1_passenger
+1-4	had	O	O	VBD	O
+1-5	to	1-6_aux	ride	TO	O
+1-6	ride	1-4_xcomp	had	VB	O
+1-7	the	O	O	DT	O
+1-8	bus	O	O	NN	P1_bus
+1-9	home	1-6_dobj	ride	NN	P1_destination
+1-10	from	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	market	1-6_prep_from	ride	NN	P1_NPart_market
+1-13	.	O	O	O	O
+
+#id=2
+#text=I walked over to the bus stop to wait for the next bus . 
+2-1	I	2-2_nsubj	walked	PRP	P1_passenger
+2-2	walked	O	O	VBD	O
+2-3	over	2-2_prt	walked	RP	O
+2-4	to	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	bus	O	O	NN	O
+2-7	stop	2-2_prep_to	walked	NN	P1_bus_stop
+2-8	to	2-9_aux	wait	TO	O
+2-9	wait	2-2_xcomp	walked	VB	O
+2-10	for	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	next	O	O	JJ	O
+2-13	bus	2-9_prep_for	wait	NN	P1_bus
+2-14	.	O	O	O	O
+
+#id=3
+#text=It was supposed to arrive in 10 minutes . 
+3-1	It	3-3_nsubjpass	supposed	PRP	P1_bus
+3-2	was	3-3_auxpass	supposed	VBD	O
+3-3	supposed	O	O	VBN	O
+3-4	to	3-5_aux	arrive	TO	O
+3-5	arrive	3-3_xcomp	supposed	VB	O
+3-6	in	O	O	O	O
+3-7	10	O	O	CD	O
+3-8	minutes	3-5_prep_in	arrive	NNS	P1_time/date
+3-9	.	O	O	O	O
+
+#id=4
+#text=When the bus pulled up to the bus stop where I was waiting , I stood up and walked over to curb . 
+4-1	When	4-4_advmod	pulled	WRB	O
+4-2	the	O	O	DT	O
+4-3	bus	4-4_nsubj	pulled	NN	P1_bus
+4-4	pulled	4-16_advcl	stood	VBD	O
+4-5	up	4-4_prt	pulled	RP	O
+4-6	to	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	bus	O	O	NN	O
+4-9	stop	4-4_prep_to	pulled	NN	P1_bus_stop
+4-10	where	4-13_advmod	waiting	WRB	O
+4-11	I	4-13_nsubj	waiting	PRP	P1_passenger
+4-12	was	4-13_aux	waiting	VBD	O
+4-13	waiting	4-4_advcl	pulled	VBG	O
+4-14	,	O	O	O	O
+4-15	I	4-16_nsubj	stood	PRP	P1_passenger
+4-16	stood	O	O	VBD	O
+4-17	up	4-16_prt	stood	RP	O
+4-18	and	O	O	O	O
+4-19	walked	4-16_conj_and	stood	VBD	O
+4-20	over	4-19_prt	walked	RP	O
+4-21	to	4-22_aux	curb	TO	O
+4-22	curb	4-19_xcomp	walked	VB	P1_other
+4-23	.	O	O	O	O
+
+#id=5
+#text=The bus driver opened the bus doors and I stepped up into the bus . 
+5-1	The	O	O	DT	O
+5-2	bus	O	O	NN	O
+5-3	driver	5-4_nsubj	opened	NN	P1_bus_staff
+5-4	opened	O	O	VBD	O
+5-5	the	O	O	DT	O
+5-6	bus	O	O	NN	O
+5-7	doors	5-4_dobj	opened	NNS	P1_door
+5-8	and	O	O	O	O
+5-9	I	5-10_nsubj	stepped	PRP	P1_passenger
+5-10	stepped	5-4_conj_and	opened	VBD	O
+5-11	up	5-10_prt	stepped	RP	O
+5-12	into	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	bus	5-10_prep_into	stepped	NN	P1_bus
+5-15	.	O	O	O	O
+
+#id=6
+#text=I had to hand my money to the bus driver so that I could ride . 
+6-1	I	6-2_nsubj	had	PRP	P1_passenger
+6-2	had	O	O	VBD	O
+6-3	to	6-4_aux	hand	TO	O
+6-4	hand	6-2_xcomp	had	VB	O
+6-5	my	O	O	PRP$	P1_passenger
+6-6	money	6-4_dobj	hand	NN	P1_money
+6-7	to	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	bus	O	O	NN	O
+6-10	driver	6-4_prep_to	hand	NN	P1_bus_staff
+6-11	so	6-15_advmod	ride	RB	O
+6-12	that	6-15_mark	ride	IN	O
+6-13	I	6-15_nsubj	ride	PRP	P1_passenger
+6-14	could	6-15_aux	ride	MD	O
+6-15	ride	6-2_advcl	had	VB	O
+6-16	.	O	O	O	O
+
+#id=7
+#text=Once the driver took my money , I walked down the aisle to find a seat . 
+7-1	Once	7-4_mark	took	IN	O
+7-2	the	O	O	DT	O
+7-3	driver	7-4_nsubj	took	NN	P1_bus_staff
+7-4	took	7-9_advcl	walked	VBD	O
+7-5	my	O	O	PRP$	P1_passenger
+7-6	money	7-4_dobj	took	NN	P1_money
+7-7	,	O	O	O	O
+7-8	I	7-9_nsubj	walked	PRP	P1_passenger
+7-9	walked	O	O	VBD	O
+7-10	down	7-9_prt	walked	RP	O
+7-11	the	O	O	DT	O
+7-12	aisle	7-9_dobj	walked	NN	P2_other
+7-13	to	7-14_aux	find	TO	O
+7-14	find	O	O	VB	O
+7-15	a	O	O	DT	O
+7-16	seat	7-14_dobj	find	NN	P1_seat_in_bus
+7-17	.	O	O	O	O
+
+#id=8
+#text=There were many seats available so I picked one beside an older lady that looked like my grandmother . 
+8-1	There	8-2_expl	were	EX	O
+8-2	were	O	O	VBD	O
+8-3	many	O	O	JJ	O
+8-4	seats	O	O	NNS	P2_seat_in_bus
+8-5	available	8-2_acomp	were	JJ	O
+8-6	so	8-8_mark	picked	IN	O
+8-7	I	8-8_nsubj	picked	PRP	P1_passenger
+8-8	picked	O	O	VBD	O
+8-9	one	8-8_dobj	picked	CD	P1_seat_in_bus
+8-10	beside	O	O	O	O
+8-11	an	O	O	DT	O
+8-12	older	O	O	JJR	O
+8-13	lady	8-8_prep_beside	picked	NN	P2_passenger
+8-14	that	8-15_nsubj	looked	WDT	O
+8-15	looked	O	O	VBD	O
+8-16	like	O	O	O	O
+8-17	my	O	O	PRP$	P1_NPart_my
+8-18	grandmother	8-15_prep_like	looked	NN	P1_NPart_grandmother
+8-19	.	O	O	O	O
+
+#id=9
+#text=She was very nice and talked to me while we rode down the street . 
+9-1	She	O	O	PRP	P2_passenger
+9-2	was	O	O	VBD	O
+9-3	very	O	O	RB	O
+9-4	nice	O	O	JJ	O
+9-5	and	O	O	O	O
+9-6	talked	O	O	VBN	O
+9-7	to	O	O	O	O
+9-8	me	9-6_prep_to	talked	PRP	P1_passenger
+9-9	while	9-11_mark	rode	IN	O
+9-10	we	9-11_nsubj	rode	PRP	P1_bus
+9-11	rode	9-6_advcl	talked	VBD	O
+9-12	down	9-11_prt	rode	RP	O
+9-13	the	O	O	DT	O
+9-14	street	9-11_dobj	rode	NN	P1_route
+9-15	.	O	O	O	O
+
+#id=10
+#text=Once the bus stopped down the street from my house , I got off and walked down the sidewalk to my house . 
+10-1	Once	10-4_mark	stopped	IN	O
+10-2	the	O	O	DT	O
+10-3	bus	10-4_nsubj	stopped	NN	P1_bus
+10-4	stopped	10-13_advcl	got	VBD	O
+10-5	down	10-4_prt	stopped	RP	O
+10-6	the	O	O	DT	O
+10-7	street	10-4_dobj	stopped	NN	P1_route
+10-8	from	O	O	O	O
+10-9	my	O	O	PRP$	P1_passenger
+10-10	house	10-4_prep_from	stopped	NN	P1_NPart_house
+10-11	,	O	O	O	O
+10-12	I	10-13_nsubj	got	PRP	P1_passenger
+10-13	got	O	O	VBD	O
+10-14	off	10-13_prt	got	RP	O
+10-15	and	O	O	O	O
+10-16	walked	10-13_conj_and	got	VBD	O
+10-17	down	10-16_prt	walked	RP	O
+10-18	the	O	O	DT	O
+10-19	sidewalk	10-16_dobj	walked	NN	P3_other
+10-20	to	O	O	O	O
+10-21	my	O	O	PRP$	P1_passenger
+10-22	house	10-16_prep_to	walked	NN	P1_destination
+10-23	.	O	O	O	O
+
+#id=11
+#text=I was very glad to be home . 
+11-1	I	O	O	PRP	P1_passenger
+11-2	was	O	O	VBD	O
+11-3	very	O	O	RB	O
+11-4	glad	O	O	JJ	O
+11-5	to	O	O	TO	O
+11-6	be	O	O	VB	O
+11-7	home	O	O	NN	P1_destination
+11-8	.	O	O	O	O

@@ -1,0 +1,195 @@
+#id=1
+#text=I had decided that I wanted to visit my friend Paul whom lives quite a distance away . 
+1-1	I	1-3_nsubj	decided	PRP	P1_passenger
+1-2	had	1-3_aux	decided	VBD	O
+1-3	decided	O	O	VBN	O
+1-4	that	1-6_mark	wanted	IN	O
+1-5	I	1-6_nsubj	wanted	PRP	P1_passenger
+1-6	wanted	1-3_ccomp	decided	VBD	O
+1-7	to	1-8_aux	visit	TO	O
+1-8	visit	1-6_xcomp	wanted	VB	O
+1-9	my	O	O	PRP$	P1_passenger
+1-10	friend	O	O	NN	O
+1-11	Paul	1-8_dobj	visit	NNP	P1_NPart_paul
+1-12	whom	1-13_nsubj	lives	WP	O
+1-13	lives	O	O	VBZ	O
+1-14	quite	O	O	PDT	O
+1-15	a	O	O	DT	O
+1-16	distance	1-13_dobj	lives	NN	O
+1-17	away	1-13_advmod	lives	RB	O
+1-18	.	O	O	O	O
+
+#id=2
+#text=With this and my fear of air travel in mind I decided to take a train . 
+2-1	With	O	O	O	O
+2-2	this	2-12_prep_with	decided	DT	O
+2-3	and	O	O	O	O
+2-4	my	O	O	PRP$	P1_passenger
+2-5	fear	O	O	NN	P1_NPart_fear
+2-6	of	O	O	O	O
+2-7	air	O	O	NN	O
+2-8	travel	O	O	NN	P1_NPart_travel
+2-9	in	O	O	O	O
+2-10	mind	O	O	NN	O
+2-11	I	2-12_nsubj	decided	PRP	P1_passenger
+2-12	decided	O	O	VBD	O
+2-13	to	2-14_aux	take	TO	O
+2-14	take	2-12_xcomp	decided	VB	O
+2-15	a	O	O	DT	O
+2-16	train	2-14_dobj	take	NN	P1_train
+2-17	.	O	O	O	O
+
+#id=3
+#text=After researching and finding one online I was well on my way to going to see my friend Paul . 
+3-1	After	O	O	O	O
+3-2	researching	3-14_prepc_after	going	VBG	O
+3-3	and	O	O	O	O
+3-4	finding	3-2_conj_and	researching	VBG	O
+3-5	one	O	O	CD	P1_train
+3-6	online	3-2_dobj	researching	NNS	O
+3-7	I	3-14_nsubj	going	PRP	P1_passenger
+3-8	was	3-14_aux	going	VBD	O
+3-9	well	3-14_advmod	going	RB	O
+3-10	on	O	O	O	O
+3-11	my	O	O	PRP$	P1_passenger
+3-12	way	O	O	NN	O
+3-13	to	O	O	TO	O
+3-14	going	O	O	VBG	O
+3-15	to	3-16_aux	see	TO	O
+3-16	see	3-14_xcomp	going	VB	O
+3-17	my	O	O	PRP$	P1_passenger
+3-18	friend	O	O	NN	O
+3-19	Paul	3-16_dobj	see	NNP	P1_NPart_paul
+3-20	.	O	O	O	O
+
+#id=4
+#text=I drive to the station and decide that I am going to purchase a round trip ticket as this would be cheaper than just buying both tickets separately . 
+4-1	I	4-2_nsubj	drive	PRP	P1_passenger
+4-2	drive	O	O	VBP	O
+4-3	to	O	O	O	O
+4-4	the	O	O	DT	O
+4-5	station	4-2_prep_to	drive	NN	P1_train_station
+4-6	and	O	O	O	O
+4-7	decide	4-2_conj_and	drive	VBP	O
+4-8	that	4-11_mark	going	IN	O
+4-9	I	4-11_nsubj	going	PRP	P1_passenger
+4-10	am	4-11_aux	going	VBP	O
+4-11	going	4-7_ccomp	decide	VBG	O
+4-12	to	4-13_aux	purchase	TO	O
+4-13	purchase	4-11_xcomp	going	VB	O
+4-14	a	O	O	DT	O
+4-15	round	O	O	NN	O
+4-16	trip	O	O	NN	O
+4-17	ticket	4-13_dobj	purchase	NN	P1_card/ticket
+4-18	as	O	O	IN	O
+4-19	this	O	O	DT	O
+4-20	would	O	O	MD	O
+4-21	be	O	O	VB	O
+4-22	cheaper	4-13_advcl	purchase	JJR	O
+4-23	than	O	O	O	O
+4-24	just	4-25_advmod	buying	RB	O
+4-25	buying	O	O	VBG	O
+4-26	both	O	O	DT	O
+4-27	tickets	4-25_dobj	buying	NNS	P2_card/ticket
+4-28	separately	4-25_advmod	buying	RB	O
+4-29	.	O	O	O	O
+
+#id=5
+#text=I purchase my ticket and then go to sit down and wait for my train . 
+5-1	I	5-2_nsubj	purchase	PRP	P1_passenger
+5-2	purchase	O	O	VBP	O
+5-3	my	O	O	PRP$	P1_passenger
+5-4	ticket	5-2_dobj	purchase	NN	P1_card/ticket
+5-5	and	O	O	O	O
+5-6	then	5-7_advmod	go	RB	O
+5-7	go	5-2_conj_and	purchase	VBP	O
+5-8	to	5-9_aux	sit	TO	O
+5-9	sit	5-7_xcomp	go	VB	O
+5-10	down	5-9_prt	sit	RP	O
+5-11	and	O	O	O	O
+5-12	wait	5-9_conj_and	sit	VB	O
+5-13	for	O	O	O	O
+5-14	my	O	O	PRP$	P1_passenger
+5-15	train	5-12_prep_for	wait	NN	P1_train
+5-16	.	O	O	O	O
+
+#id=6
+#text=Whenever my train arrives I have to get in line as they process our tickets . 
+6-1	Whenever	6-4_advmod	arrives	WRB	O
+6-2	my	O	O	PRP$	P1_passenger
+6-3	train	6-4_nsubj	arrives	NN	P1_train
+6-4	arrives	6-6_advcl	have	VBZ	O
+6-5	I	6-6_nsubj	have	PRP	P1_passenger
+6-6	have	O	O	VBP	O
+6-7	to	6-8_aux	get	TO	O
+6-8	get	6-6_xcomp	have	VB	O
+6-9	in	O	O	O	O
+6-10	line	6-8_prep_in	get	NN	P1_line
+6-11	as	6-13_mark	process	IN	O
+6-12	they	6-13_nsubj	process	PRP	P1_train_staff
+6-13	process	6-8_advcl	get	VBP	O
+6-14	our	O	O	PRP$	P2_passenger
+6-15	tickets	6-13_dobj	process	NNS	P3_card/ticket
+6-16	.	O	O	O	O
+
+#id=7
+#text=After all this is done I decide to take a seat by the window . 
+7-1	After	7-5_mark	done	IN	O
+7-2	all	O	O	PDT	O
+7-3	this	7-5_nsubjpass	done	DT	O
+7-4	is	7-5_auxpass	done	VBZ	O
+7-5	done	7-7_advcl	decide	VBN	O
+7-6	I	7-7_nsubj	decide	PRP	P1_passenger
+7-7	decide	O	O	VBP	O
+7-8	to	7-9_aux	take	TO	O
+7-9	take	7-7_xcomp	decide	VB	O
+7-10	a	O	O	DT	O
+7-11	seat	7-9_dobj	take	NN	P1_seat
+7-12	by	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	window	7-9_prep_by	take	NN	P1_location_train
+7-15	.	O	O	O	O
+
+#id=8
+#text=I sit and fall asleep a bit as I ride on the train for hours . 
+8-1	I	8-2_nsubj	sit	PRP	P1_passenger
+8-2	sit	O	O	VBP	O
+8-3	and	O	O	O	O
+8-4	fall	O	O	NN	O
+8-5	asleep	8-2_conj_and	sit	RB	O
+8-6	a	O	O	DT	O
+8-7	bit	8-10_dep	ride	NN	O
+8-8	as	8-10_mark	ride	IN	O
+8-9	I	8-10_nsubj	ride	PRP	P1_passenger
+8-10	ride	8-2_dep	sit	VBP	O
+8-11	on	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	train	8-10_prep_on	ride	NN	P1_train
+8-14	for	O	O	O	O
+8-15	hours	O	O	NNS	P1_time_date
+8-16	.	O	O	O	O
+
+#id=9
+#text=After a couple hours we finally reach the destination and I get off the train , excited to see my friend . 
+9-1	After	O	O	O	O
+9-2	a	O	O	DT	O
+9-3	couple	O	O	NN	O
+9-4	hours	9-7_prep_after	reach	NNS	P2_time_date
+9-5	we	9-7_nsubj	reach	PRP	P1_train
+9-6	finally	9-7_advmod	reach	RB	O
+9-7	reach	O	O	VB	O
+9-8	the	O	O	DT	O
+9-9	destination	9-7_dobj	reach	NN	P1_destination
+9-10	and	O	O	O	O
+9-11	I	O	O	PRP	P1_passenger
+9-12	get	O	O	VBP	O
+9-13	off	O	O	RP	O
+9-14	the	O	O	DT	O
+9-15	train	O	O	NN	P1_train
+9-16	,	O	O	O	O
+9-17	excited	9-7_conj_and	reach	JJ	O
+9-18	to	9-19_aux	see	TO	O
+9-19	see	O	O	VB	O
+9-20	my	O	O	PRP$	P1_passenger
+9-21	friend	9-19_dobj	see	NN	P1_NPart_friend
+9-22	.	O	O	O	O

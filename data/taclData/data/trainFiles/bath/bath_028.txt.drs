@@ -1,0 +1,240 @@
+#id=1
+#text=After a long day of work , I was very sore and tired . 
+1-1	After	O	O	O	O
+1-2	a	O	O	DT	O
+1-3	long	O	O	JJ	O
+1-4	day	O	O	NN	P1_NPart_day
+1-5	of	O	O	O	O
+1-6	work	O	O	NN	P1_NPart_work
+1-7	,	O	O	O	O
+1-8	I	O	O	PRP	P1_bather
+1-9	was	O	O	VBD	O
+1-10	very	O	O	RB	O
+1-11	sore	O	O	JJ	O
+1-12	and	O	O	O	O
+1-13	tired	O	O	JJ	O
+1-14	.	O	O	O	O
+
+#id=2
+#text=I had stood for five hours straight and was constantly helping customers on the ground floor . 
+2-1	I	2-3_nsubj	stood	PRP	P1_bather
+2-2	had	2-3_aux	stood	VBD	O
+2-3	stood	O	O	VBN	O
+2-4	for	O	O	O	O
+2-5	five	O	O	CD	O
+2-6	hours	2-3_prep_for	stood	NNS	P1_NPart_hours
+2-7	straight	2-3_advmod	stood	RB	O
+2-8	and	O	O	O	O
+2-9	was	2-11_aux	helping	VBD	O
+2-10	constantly	2-11_advmod	helping	RB	O
+2-11	helping	2-3_conj_and	stood	VBG	O
+2-12	customers	2-11_dobj	helping	NNS	P1_NPart_customers
+2-13	on	O	O	O	O
+2-14	the	O	O	DT	O
+2-15	ground	O	O	NN	O
+2-16	floor	O	O	NN	P1_NPart_floor
+2-17	.	O	O	O	O
+
+#id=3
+#text=Retail is difficult and it was painful for my feet because I often had to wear high heels everyday . 
+3-1	Retail	O	O	NNP	P1_NPart_retail
+3-2	is	O	O	VBZ	O
+3-3	difficult	O	O	JJ	O
+3-4	and	O	O	O	O
+3-5	it	O	O	PRP	O
+3-6	was	O	O	VBD	O
+3-7	painful	O	O	JJ	O
+3-8	for	O	O	O	O
+3-9	my	O	O	PRP$	P1_bather
+3-10	feet	O	O	NNS	P1_body_part
+3-11	because	3-14_mark	had	IN	O
+3-12	I	3-14_nsubj	had	PRP	P1_bather
+3-13	often	3-14_advmod	had	RB	O
+3-14	had	O	O	VBD	O
+3-15	to	3-16_aux	wear	TO	O
+3-16	wear	3-14_xcomp	had	VB	O
+3-17	high	O	O	JJ	O
+3-18	heels	3-16_iobj	wear	NNS	P1_NPart_heels
+3-19	everyday	3-16_dobj	wear	NN	O
+3-20	.	O	O	O	O
+
+#id=4
+#text=When I finally got home from work , I put my stuff down and began to change into more comfortable attire . 
+4-1	When	4-4_advmod	got	WRB	O
+4-2	I	4-4_nsubj	got	PRP	P1_bather
+4-3	finally	4-4_advmod	got	RB	O
+4-4	got	4-10_advcl	put	VBD	O
+4-5	home	4-4_dobj	got	NN	P1_NPart_home
+4-6	from	O	O	O	O
+4-7	work	4-4_prep_from	got	NN	P2_NPart_work
+4-8	,	O	O	O	O
+4-9	I	4-10_nsubj	put	PRP	P1_bather
+4-10	put	O	O	VBP	O
+4-11	my	O	O	PRP$	P1_bather
+4-12	stuff	4-10_dobj	put	NN	P1_NPart_stuff
+4-13	down	4-10_prt	put	RP	O
+4-14	and	O	O	O	O
+4-15	began	4-10_conj_and	put	VBD	O
+4-16	to	4-17_aux	change	TO	O
+4-17	change	4-15_xcomp	began	VB	O
+4-18	into	O	O	O	O
+4-19	more	O	O	RBR	O
+4-20	comfortable	O	O	JJ	O
+4-21	attire	4-17_prep_into	change	NN	P1_clothes
+4-22	.	O	O	O	O
+
+#id=5
+#text=Once I did , I went to the bathroom and turned on the hot water to prepare my bath . 
+5-1	Once	5-3_mark	did	IN	O
+5-2	I	5-3_nsubj	did	PRP	P1_bather
+5-3	did	5-6_advcl	went	VBD	O
+5-4	,	O	O	O	O
+5-5	I	5-6_nsubj	went	PRP	P1_bather
+5-6	went	O	O	VBD	O
+5-7	to	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	bathroom	5-6_prep_to	went	NN	P1_bathroom
+5-10	and	O	O	O	O
+5-11	turned	5-6_conj_and	went	VBD	O
+5-12	on	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	hot	O	O	JJ	O
+5-15	water	5-11_prep_on	turned	NN	P1_water
+5-16	to	5-17_aux	prepare	TO	O
+5-17	prepare	5-11_xcomp	turned	VB	O
+5-18	my	O	O	PRP$	P1_bather
+5-19	bath	5-17_dobj	prepare	NN	P1_bath
+5-20	.	O	O	O	O
+
+#id=6
+#text=While that happened , I washed my face and took the makeup off my face . 
+6-1	While	6-3_mark	happened	IN	O
+6-2	that	6-3_nsubj	happened	DT	O
+6-3	happened	6-6_advcl	washed	VBD	O
+6-4	,	O	O	O	O
+6-5	I	6-6_nsubj	washed	PRP	P1_bather
+6-6	washed	O	O	VBD	O
+6-7	my	O	O	PRP$	P1_bather
+6-8	face	6-6_dobj	washed	NN	P2_body_part
+6-9	and	O	O	O	O
+6-10	took	6-6_conj_and	washed	VBD	O
+6-11	the	O	O	DT	O
+6-12	makeup	6-10_dobj	took	NN	P1_NPart_makeup
+6-13	off	O	O	O	O
+6-14	my	O	O	PRP$	P1_bather
+6-15	face	6-10_prep_off	took	NN	P2_body_part
+6-16	.	O	O	O	O
+
+#id=7
+#text=Once I cleaned my face , I crawled into the shower and allowed the hot water to calm my body down and help me relax . 
+7-1	Once	7-3_mark	cleaned	IN	O
+7-2	I	7-3_nsubj	cleaned	PRP	P1_bather
+7-3	cleaned	7-8_advcl	crawled	VBD	O
+7-4	my	O	O	PRP$	P1_bather
+7-5	face	7-3_dobj	cleaned	NN	P2_body_part
+7-6	,	O	O	O	O
+7-7	I	7-8_nsubj	crawled	PRP	P1_bather
+7-8	crawled	O	O	VBD	O
+7-9	into	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	shower	7-8_prep_into	crawled	NN	P1_shower
+7-12	and	O	O	O	O
+7-13	allowed	7-8_conj_and	crawled	VBD	O
+7-14	the	O	O	DT	O
+7-15	hot	O	O	JJ	O
+7-16	water	7-13_dobj	allowed	NN	P1_water
+7-17	to	7-18_aux	calm	TO	O
+7-18	calm	7-13_xcomp	allowed	VB	O
+7-19	my	O	O	PRP$	P1_bather
+7-20	body	7-18_dobj	calm	NN	P3_body_part
+7-21	down	7-18_prt	calm	RP	O
+7-22	and	O	O	O	O
+7-23	help	7-18_conj_and	calm	VB	O
+7-24	me	7-25_nsubj	relax	PRP	P1_bather
+7-25	relax	7-23_ccomp	help	VB	O
+7-26	.	O	O	O	O
+
+#id=8
+#text=I put shampoo on my hair and washed my hair and massaged my scalp . 
+8-1	I	8-2_nsubj	put	PRP	P1_bather
+8-2	put	O	O	VBD	O
+8-3	shampoo	8-2_dobj	put	NN	P1_washing_tools
+8-4	on	O	O	O	O
+8-5	my	O	O	PRP$	P1_bather
+8-6	hair	8-2_prep_on	put	NN	P1_hair
+8-7	and	O	O	O	O
+8-8	washed	8-2_conj_and	put	VBD	O
+8-9	my	O	O	PRP$	P1_bather
+8-10	hair	8-8_dobj	washed	NN	P1_hair
+8-11	and	O	O	O	O
+8-12	massaged	8-8_conj_and	washed	VBD	O
+8-13	my	O	O	PRP$	P1_bather
+8-14	scalp	8-12_dobj	massaged	NN	P4_body_part
+8-15	.	O	O	O	O
+
+#id=9
+#text=I then placed conditioner on my hair and lathered it all over my hair . 
+9-1	I	9-3_nsubj	placed	PRP	P1_bather
+9-2	then	9-3_advmod	placed	RB	O
+9-3	placed	O	O	VBD	O
+9-4	conditioner	9-3_dobj	placed	NN	P2_washing_tools
+9-5	on	O	O	O	O
+9-6	my	O	O	PRP$	P1_bather
+9-7	hair	9-3_prep_on	placed	NN	P1_hair
+9-8	and	O	O	O	O
+9-9	lathered	9-3_conj_and	placed	VBD	O
+9-10	it	9-9_dobj	lathered	PRP	P2_washing_tools
+9-11	all	9-9_dep	lathered	DT	O
+9-12	over	O	O	O	O
+9-13	my	O	O	PRP$	P1_bather
+9-14	hair	9-9_prep_over	lathered	NN	P1_hair
+9-15	.	O	O	O	O
+
+#id=10
+#text=I then washed it off and focused on washing my body . 
+10-1	I	10-3_nsubj	washed	PRP	P1_bather
+10-2	then	10-3_advmod	washed	RB	O
+10-3	washed	O	O	VBD	O
+10-4	it	10-3_dobj	washed	PRP	P2_washing_tools
+10-5	off	10-3_prt	washed	RP	O
+10-6	and	O	O	O	O
+10-7	focused	10-3_conj_and	washed	VBD	O
+10-8	on	O	O	O	O
+10-9	washing	10-7_prepc_on	focused	VBG	O
+10-10	my	O	O	PRP$	P1_bather
+10-11	body	10-9_dobj	washing	NN	P3_body_part
+10-12	.	O	O	O	O
+
+#id=11
+#text=After washing my body , and rinsing off the soap suds , I simply let the hot water go all over my body and allowed it to help me relax . 
+11-1	After	O	O	O	O
+11-2	washing	11-15_prepc_after	let	VBG	O
+11-3	my	O	O	PRP$	P1_bather
+11-4	body	11-2_dobj	washing	NN	P3_body_part
+11-5	,	O	O	O	O
+11-6	and	O	O	O	O
+11-7	rinsing	11-2_conj_and	washing	VBG	O
+11-8	off	11-7_prt	rinsing	RP	O
+11-9	the	O	O	DT	O
+11-10	soap	O	O	NN	O
+11-11	suds	11-7_dobj	rinsing	NNS	P1_other
+11-12	,	O	O	O	O
+11-13	I	11-15_nsubj	let	PRP	P1_bather
+11-14	simply	11-15_advmod	let	RB	O
+11-15	let	O	O	VBD	O
+11-16	the	O	O	DT	O
+11-17	hot	O	O	JJ	O
+11-18	water	11-15_dobj	let	NN	P1_water
+11-19	go	11-15_dep	let	VB	O
+11-20	all	11-19_dobj	go	DT	O
+11-21	over	O	O	O	O
+11-22	my	O	O	PRP$	P1_bather
+11-23	body	O	O	NN	P3_body_part
+11-24	and	O	O	O	O
+11-25	allowed	11-15_conj_and	let	VBD	O
+11-26	it	11-25_dobj	allowed	PRP	P1_water
+11-27	to	11-28_aux	help	TO	O
+11-28	help	11-25_xcomp	allowed	VB	O
+11-29	me	11-30_nsubj	relax	PRP	P1_bather
+11-30	relax	11-28_ccomp	help	VB	O
+11-31	.	O	O	O	O

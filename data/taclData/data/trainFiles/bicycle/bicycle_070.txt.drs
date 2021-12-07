@@ -1,0 +1,189 @@
+#id=1
+#text=It was a sunny afternoon so my friend and I went decided to go for a ride on our bicycles in the woods . 
+1-1	It	O	O	PRP	O
+1-2	was	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	sunny	O	O	JJ	O
+1-5	afternoon	O	O	NN	P1_NPart_afternoon
+1-6	so	1-11_mark	went	IN	O
+1-7	my	O	O	PRP$	P1_rider
+1-8	friend	1-11_nsubj	went	NN	P2_rider
+1-9	and	O	O	O	O
+1-10	I	O	O	PRP	P1_rider
+1-11	went	O	O	VBD	O
+1-12	decided	1-11_dep	went	VBN	O
+1-13	to	1-14_aux	go	TO	O
+1-14	go	1-12_xcomp	decided	VB	O
+1-15	for	O	O	O	O
+1-16	a	O	O	DT	O
+1-17	ride	1-14_prep_for	go	NN	P1_ride
+1-18	on	O	O	O	O
+1-19	our	O	O	PRP$	P3_rider
+1-20	bicycles	O	O	NNS	P1_bicycle
+1-21	in	O	O	O	O
+1-22	the	O	O	DT	O
+1-23	woods	1-14_prep_in	go	NNS	P1_NPart_woods
+1-24	.	O	O	O	O
+
+#id=2
+#text=I did n't check the air pressure beforehand and thought it would be okay . 
+2-1	I	2-4_nsubj	check	PRP	P1_rider
+2-2	did	2-4_aux	check	VBD	O
+2-3	n't	2-4_neg	check	RB	O
+2-4	check	O	O	VB	O
+2-5	the	O	O	DT	O
+2-6	air	O	O	NN	O
+2-7	pressure	2-4_dobj	check	NN	P1_pressure
+2-8	beforehand	2-4_advmod	check	RB	O
+2-9	and	O	O	O	O
+2-10	thought	2-4_conj_and	check	VBD	O
+2-11	it	O	O	PRP	O
+2-12	would	O	O	MD	O
+2-13	be	O	O	VB	O
+2-14	okay	2-10_ccomp	thought	JJ	O
+2-15	.	O	O	O	O
+
+#id=3
+#text=As we were riding through the trails in the woods the terrain was more rough than I had expected and the the tire went flat . 
+3-1	As	3-4_mark	riding	IN	O
+3-2	we	3-4_nsubj	riding	PRP	P3_rider
+3-3	were	3-4_aux	riding	VBD	O
+3-4	riding	O	O	VBG	O
+3-5	through	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	trails	3-4_prep_through	riding	NNS	P1_NPart_trails
+3-8	in	O	O	O	O
+3-9	the	O	O	DT	O
+3-10	woods	O	O	NNS	P2_NPart_woods
+3-11	the	O	O	DT	O
+3-12	terrain	O	O	NN	P1_NPart_terrain
+3-13	was	O	O	VBD	O
+3-14	more	O	O	RBR	O
+3-15	rough	O	O	JJ	O
+3-16	than	3-19_mark	expected	IN	O
+3-17	I	3-19_nsubj	expected	PRP	P1_rider
+3-18	had	3-19_aux	expected	VBD	O
+3-19	expected	O	O	VBN	O
+3-20	and	O	O	O	O
+3-21	the	O	O	DT	O
+3-22	the	O	O	DT	O
+3-23	tire	3-24_nsubj	went	NN	P1_tire
+3-24	went	O	O	VBD	O
+3-25	flat	3-24_acomp	went	JJ	O
+3-26	.	O	O	O	O
+
+#id=4
+#text=I got off my bicycle and knelt down to check the condition of the tire to see if there were any punctures . 
+4-1	I	4-2_nsubj	got	PRP	P1_rider
+4-2	got	O	O	VBD	O
+4-3	off	4-2_prt	got	RP	O
+4-4	my	O	O	PRP$	P1_rider
+4-5	bicycle	4-2_dobj	got	NN	P2_bicycle
+4-6	and	O	O	O	O
+4-7	knelt	4-2_conj_and	got	VBP	O
+4-8	down	4-7_prt	knelt	RP	O
+4-9	to	4-10_aux	check	TO	O
+4-10	check	4-7_xcomp	knelt	VB	O
+4-11	the	O	O	DT	O
+4-12	condition	4-10_dobj	check	NN	P1_NPart_condition
+4-13	of	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	tire	O	O	NN	P1_tire
+4-16	to	4-17_aux	see	TO	O
+4-17	see	O	O	VB	O
+4-18	if	4-20_mark	were	IN	O
+4-19	there	4-20_expl	were	EX	O
+4-20	were	4-17_advcl	see	VBD	O
+4-21	any	O	O	DT	O
+4-22	punctures	4-20_nsubj	were	NNS	P1_NPart_punctures
+4-23	.	O	O	O	O
+
+#id=5
+#text=There were n't any and it was just out of air . 
+5-1	There	5-2_expl	were	EX	O
+5-2	were	O	O	VBD	O
+5-3	n't	5-2_neg	were	RB	O
+5-4	any	5-2_nsubj	were	DT	O
+5-5	and	O	O	O	O
+5-6	it	5-7_nsubj	was	PRP	P1_tire
+5-7	was	5-2_conj_and	were	VBD	O
+5-8	just	5-7_advmod	was	RB	O
+5-9	out	O	O	O	O
+5-10	of	O	O	O	O
+5-11	air	5-7_prep_out_of	was	NN	P1_air
+5-12	.	O	O	O	O
+
+#id=6
+#text=It was a good thing my friend packed an air pump . 
+6-1	It	O	O	PRP	O
+6-2	was	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	good	O	O	JJ	O
+6-5	thing	O	O	NN	O
+6-6	my	O	O	PRP$	P1_rider
+6-7	friend	6-8_nsubj	packed	NN	P2_rider
+6-8	packed	O	O	VBD	O
+6-9	an	O	O	DT	O
+6-10	air	O	O	NN	O
+6-11	pump	6-8_dobj	packed	NN	P1_tool
+6-12	.	O	O	O	O
+
+#id=7
+#text=I stuck the needle from the air pump into the tire and started to pump air . 
+7-1	I	7-2_nsubj	stuck	PRP	P1_rider
+7-2	stuck	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	needle	7-2_dobj	stuck	NN	P1_other
+7-5	from	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	air	O	O	NN	O
+7-8	pump	7-2_prep_from	stuck	NN	P1_tool
+7-9	into	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	tire	7-2_prep_into	stuck	NN	P1_tire
+7-12	and	O	O	O	O
+7-13	started	7-2_conj_and	stuck	VBD	O
+7-14	to	7-15_aux	pump	TO	O
+7-15	pump	7-13_xcomp	started	VB	O
+7-16	air	7-15_dobj	pump	NN	P1_air
+7-17	.	O	O	O	O
+
+#id=8
+#text=The bicycle tire started to inflate and it was good as new . 
+8-1	The	O	O	DT	O
+8-2	bicycle	O	O	NN	O
+8-3	tire	8-4_nsubj	started	NN	P1_tire
+8-4	started	O	O	VBD	O
+8-5	to	8-6_aux	inflate	TO	O
+8-6	inflate	8-4_xcomp	started	VB	O
+8-7	and	O	O	O	O
+8-8	it	O	O	PRP	P1_tire
+8-9	was	O	O	VBD	O
+8-10	good	8-4_conj_and	started	JJ	O
+8-11	as	O	O	O	O
+8-12	new	O	O	JJ	O
+8-13	.	O	O	O	O
+
+#id=9
+#text=I packed the air pump and handed it back to my friend and continued our bicycle adventure in the woods . 
+9-1	I	9-2_nsubj	packed	PRP	P1_rider
+9-2	packed	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	air	9-5_nsubj	pump	NN	O
+9-5	pump	9-2_ccomp	packed	VBP	P1_tool
+9-6	and	O	O	O	O
+9-7	handed	9-5_conj_and	pump	VBD	O
+9-8	it	9-7_dobj	handed	PRP	P1_tool
+9-9	back	9-7_prt	handed	RP	O
+9-10	to	O	O	O	O
+9-11	my	O	O	PRP$	P1_rider
+9-12	friend	9-7_prep_to	handed	NN	P4_rider
+9-13	and	O	O	O	O
+9-14	continued	9-2_conj_and	packed	VBD	O
+9-15	our	O	O	PRP$	P3_rider
+9-16	bicycle	O	O	NN	O
+9-17	adventure	9-14_dobj	continued	NN	P1_NPart_adventure
+9-18	in	O	O	O	O
+9-19	the	O	O	DT	O
+9-20	woods	9-14_prep_in	continued	NNS	P3_NPart_woods
+9-21	.	O	O	O	O

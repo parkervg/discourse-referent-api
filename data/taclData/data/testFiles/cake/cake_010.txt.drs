@@ -1,0 +1,484 @@
+#id=1
+#text=I have a recipe for a yellow layer cake that I really like that came in my Kitchenaid cookbook . 
+1-1	I	1-2_nsubj	have	PRP	P1_cook
+1-2	have	O	O	VBP	O
+1-3	a	O	O	DT	O
+1-4	recipe	1-2_dobj	have	NN	P1_baking_instructions
+1-5	for	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	yellow	O	O	JJ	O
+1-8	layer	O	O	NN	O
+1-9	cake	O	O	NN	P1_cake
+1-10	that	1-13_mark	like	IN	P1_baking_instructions
+1-11	I	1-13_nsubj	like	PRP	P1_cook
+1-12	really	1-13_advmod	like	RB	O
+1-13	like	1-2_ccomp	have	VBP	O
+1-14	that	1-15_mark	came	IN	P1_baking_instructions
+1-15	came	1-13_ccomp	like	VBD	O
+1-16	in	O	O	O	O
+1-17	my	O	O	PRP$	P1_cook
+1-18	Kitchenaid	O	O	NNP	O
+1-19	cookbook	1-15_prep_in	came	NN	P1_recipe_source
+1-20	.	O	O	O	O
+
+#id=2
+#text=I use my Kitchenaid mixer to make it . 
+2-1	I	2-2_nsubj	use	PRP	P1_cook
+2-2	use	O	O	VBP	O
+2-3	my	O	O	PRP$	P1_cook
+2-4	Kitchenaid	O	O	NNP	O
+2-5	mixer	2-2_dobj	use	NN	P1_utensil
+2-6	to	2-7_aux	make	TO	O
+2-7	make	2-2_vmod	use	VB	O
+2-8	it	2-7_dobj	make	PRP	P1_cake
+2-9	.	O	O	O	O
+
+#id=3
+#text=It 's not too dry , and it 's not too sweet , which is why I like it . 
+3-1	It	O	O	PRP	P1_cake
+3-2	's	O	O	VBZ	O
+3-3	not	O	O	RB	O
+3-4	too	O	O	RB	O
+3-5	dry	O	O	JJ	O
+3-6	,	O	O	O	O
+3-7	and	O	O	O	O
+3-8	it	O	O	PRP	P1_cake
+3-9	's	O	O	VBZ	O
+3-10	not	O	O	RB	O
+3-11	too	O	O	RB	O
+3-12	sweet	O	O	JJ	O
+3-13	,	O	O	O	O
+3-14	which	3-15_nsubj	is	WDT	O
+3-15	is	O	O	VBZ	O
+3-16	why	3-18_advmod	like	WRB	O
+3-17	I	3-18_nsubj	like	PRP	P1_cook
+3-18	like	3-15_advcl	is	VBP	O
+3-19	it	3-18_dobj	like	PRP	P1_cake
+3-20	.	O	O	O	O
+
+#id=4
+#text=I took my mixer out of the pantry and set it on the counter . 
+4-1	I	4-2_nsubj	took	PRP	P1_cook
+4-2	took	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_cook
+4-4	mixer	4-2_dobj	took	NN	P1_utensil
+4-5	out	O	O	O	O
+4-6	of	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	pantry	4-2_prep_out_of	took	NN	P1_cabinet
+4-9	and	O	O	O	O
+4-10	set	4-2_conj_and	took	VBD	O
+4-11	it	4-10_dobj	set	PRP	P1_utensil
+4-12	on	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	counter	4-10_prep_on	set	NN	P1_kitchen/location
+4-15	.	O	O	O	O
+
+#id=5
+#text=Then I found the right beater for cake and installed it . 
+5-1	Then	5-3_advmod	found	RB	O
+5-2	I	5-3_nsubj	found	PRP	P1_cook
+5-3	found	O	O	VBD	O
+5-4	the	O	O	DT	O
+5-5	right	O	O	JJ	O
+5-6	beater	5-3_dobj	found	NN	P2_utensil
+5-7	for	O	O	O	O
+5-8	cake	5-3_prep_for	found	NN	P1_cake
+5-9	and	O	O	O	O
+5-10	installed	5-3_conj_and	found	VBD	O
+5-11	it	5-10_dobj	installed	PRP	P2_utensil
+5-12	.	O	O	O	O
+
+#id=6
+#text=I creamed the butter and the sugar , added the eggs , and then added the wet and dry ingredients alternately . 
+6-1	I	6-2_nsubj	creamed	PRP	P1_cook
+6-2	creamed	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	butter	6-2_dobj	creamed	NN	P1_ingredients
+6-5	and	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	sugar	O	O	NN	P2_ingredients
+6-8	,	O	O	O	O
+6-9	added	6-2_conj_and	creamed	VBD	O
+6-10	the	O	O	DT	O
+6-11	eggs	6-9_dobj	added	NNS	P3_ingredients
+6-12	,	O	O	O	O
+6-13	and	O	O	O	O
+6-14	then	6-15_advmod	added	RB	O
+6-15	added	6-2_conj_and	creamed	VBD	O
+6-16	the	O	O	DT	O
+6-17	wet	O	O	JJ	O
+6-18	and	O	O	O	O
+6-19	dry	O	O	JJ	O
+6-20	ingredients	O	O	NNS	P4_ingredients
+6-21	alternately	6-15_dobj	added	NN	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=I had forgotten to take the eggs out earlier to let them come to room temperature , but it still works OK . 
+7-1	I	7-3_nsubj	forgotten	PRP	P1_cook
+7-2	had	7-3_aux	forgotten	VBD	O
+7-3	forgotten	O	O	VBN	O
+7-4	to	7-5_aux	take	TO	O
+7-5	take	7-3_xcomp	forgotten	VB	O
+7-6	the	O	O	DT	O
+7-7	eggs	7-5_dobj	take	NNS	P3_ingredients
+7-8	out	7-5_prt	take	RP	O
+7-9	earlier	7-5_advmod	take	RB	O
+7-10	to	7-11_aux	let	TO	O
+7-11	let	O	O	VB	O
+7-12	them	7-13_nsubj	come	PRP	P3_ingredients
+7-13	come	7-11_ccomp	let	VB	O
+7-14	to	O	O	O	O
+7-15	room	O	O	NN	O
+7-16	temperature	7-13_prep_to	come	NN	P1_temperature
+7-17	,	O	O	O	O
+7-18	but	O	O	O	O
+7-19	it	7-21_nsubj	works	PRP	O
+7-20	still	7-21_advmod	works	RB	O
+7-21	works	7-3_conj_but	forgotten	VBZ	O
+7-22	OK	7-21_acomp	works	JJ	O
+7-23	.	O	O	O	O
+
+#id=8
+#text=While beating the cake batter , I preheated the oven . 
+8-1	While	8-2_mark	beating	IN	O
+8-2	beating	8-8_advcl	preheated	VBG	O
+8-3	the	O	O	DT	O
+8-4	cake	O	O	NN	O
+8-5	batter	8-2_dobj	beating	NN	P1_dough
+8-6	,	O	O	O	O
+8-7	I	8-8_nsubj	preheated	PRP	P1_cook
+8-8	preheated	O	O	VBD	O
+8-9	the	O	O	DT	O
+8-10	oven	8-8_dobj	preheated	NN	P1_oven
+8-11	.	O	O	O	O
+
+#id=9
+#text=Then I took out two eight-inch round cake pans and buttered them . 
+9-1	Then	9-3_advmod	took	RB	O
+9-2	I	9-3_nsubj	took	PRP	P1_cook
+9-3	took	O	O	VBD	O
+9-4	out	9-3_prt	took	RP	O
+9-5	two	O	O	CD	O
+9-6	eight-inch	O	O	JJ	O
+9-7	round	O	O	NN	O
+9-8	cake	O	O	NN	O
+9-9	pans	9-3_dobj	took	NNS	P1_cake_tin
+9-10	and	O	O	O	O
+9-11	buttered	9-3_conj_and	took	VBD	O
+9-12	them	9-11_dobj	buttered	PRP	P1_cake_tin
+9-13	.	O	O	O	O
+
+#id=10
+#text=After that , I floured the cake pans and tipped the extra flour into the garbage can . 
+10-1	After	O	O	O	O
+10-2	that	10-5_prep_after	floured	DT	O
+10-3	,	O	O	O	O
+10-4	I	10-5_nsubj	floured	PRP	P1_cook
+10-5	floured	O	O	VBD	O
+10-6	the	O	O	DT	O
+10-7	cake	10-8_nsubj	pans	NN	O
+10-8	pans	10-5_ccomp	floured	VBZ	P1_cake_tin
+10-9	and	O	O	O	O
+10-10	tipped	10-8_conj_and	pans	VBD	O
+10-11	the	O	O	DT	O
+10-12	extra	O	O	JJ	O
+10-13	flour	10-10_dobj	tipped	NN	P5_ingredients
+10-14	into	O	O	O	O
+10-15	the	O	O	DT	O
+10-16	garbage	O	O	NN	O
+10-17	can	10-10_prep_into	tipped	NN	P1_NPart_can
+10-18	.	O	O	O	O
+
+#id=11
+#text=When the batter was ready , I stopped the mixer , removed the bowl , and poured half the batter into each pan . 
+11-1	When	O	O	WRB	O
+11-2	the	O	O	DT	O
+11-3	batter	O	O	NN	P1_dough
+11-4	was	O	O	VBD	O
+11-5	ready	11-8_advcl	stopped	JJ	O
+11-6	,	O	O	O	O
+11-7	I	11-8_nsubj	stopped	PRP	P1_cook
+11-8	stopped	O	O	VBD	O
+11-9	the	O	O	DT	O
+11-10	mixer	11-8_dobj	stopped	NN	P1_utensil
+11-11	,	O	O	O	O
+11-12	removed	11-8_conj_and	stopped	VBD	O
+11-13	the	O	O	DT	O
+11-14	bowl	11-12_dobj	removed	NN	P3_utensil
+11-15	,	O	O	O	O
+11-16	and	O	O	O	O
+11-17	poured	11-8_conj_and	stopped	VBD	O
+11-18	half	O	O	PDT	O
+11-19	the	O	O	DT	O
+11-20	batter	11-17_dobj	poured	NN	P1_dough
+11-21	into	O	O	O	O
+11-22	each	O	O	DT	O
+11-23	pan	11-17_prep_into	poured	NN	P1_cake_tin
+11-24	.	O	O	O	O
+
+#id=12
+#text=I just eye-balled it and did n't measure exactly half . 
+12-1	I	12-3_nsubj	eye-balled	PRP	P1_cook
+12-2	just	12-3_advmod	eye-balled	RB	O
+12-3	eye-balled	O	O	VBD	O
+12-4	it	12-3_dobj	eye-balled	PRP	O
+12-5	and	O	O	O	O
+12-6	did	12-8_aux	measure	VBD	O
+12-7	n't	12-8_neg	measure	RB	O
+12-8	measure	12-3_conj_and	eye-balled	VB	O
+12-9	exactly	O	O	RB	O
+12-10	half	12-8_dobj	measure	NN	P1_NPart_half
+12-11	.	O	O	O	O
+
+#id=13
+#text=Then I scraped the remaining batter out of the bowl and into the pans . 
+13-1	Then	13-3_advmod	scraped	RB	O
+13-2	I	13-3_nsubj	scraped	PRP	P1_cook
+13-3	scraped	O	O	VBD	O
+13-4	the	O	O	DT	O
+13-5	remaining	O	O	JJ	O
+13-6	batter	13-3_dobj	scraped	NN	P1_dough
+13-7	out	O	O	O	O
+13-8	of	O	O	O	O
+13-9	the	O	O	DT	O
+13-10	bowl	13-3_prep_out_of	scraped	NN	P3_utensil
+13-11	and	O	O	O	O
+13-12	into	13-3_conj_and	scraped	IN	O
+13-13	the	O	O	DT	O
+13-14	pans	O	O	NNS	P1_cake_tin
+13-15	.	O	O	O	O
+
+#id=14
+#text=I put the bowl in the sink . 
+14-1	I	14-2_nsubj	put	PRP	P1_cook
+14-2	put	O	O	VBD	O
+14-3	the	O	O	DT	O
+14-4	bowl	14-2_dobj	put	NN	P3_utensil
+14-5	in	O	O	O	O
+14-6	the	O	O	DT	O
+14-7	sink	14-2_prep_in	put	NN	P2_kitchen/location
+14-8	.	O	O	O	O
+
+#id=15
+#text=I evened out the top of the batter a little with a spatula and tapped the cake pans on the counter to make sure there were no air bubbles . 
+15-1	I	15-2_nsubj	evened	PRP	P1_cook
+15-2	evened	O	O	VBN	O
+15-3	out	15-2_prt	evened	RP	O
+15-4	the	O	O	DT	O
+15-5	top	15-2_dobj	evened	NN	P1_NPart_top
+15-6	of	O	O	O	O
+15-7	the	O	O	DT	O
+15-8	batter	O	O	NN	P1_dough
+15-9	a	O	O	DT	O
+15-10	little	15-2_npadvmod	evened	JJ	O
+15-11	with	O	O	O	O
+15-12	a	O	O	DT	O
+15-13	spatula	15-2_prep_with	evened	NN	P4_utensil
+15-14	and	O	O	O	O
+15-15	tapped	15-2_conj_and	evened	VBN	O
+15-16	the	O	O	DT	O
+15-17	cake	O	O	NN	O
+15-18	pans	15-15_dobj	tapped	NNS	P1_cake_tin
+15-19	on	O	O	O	O
+15-20	the	O	O	DT	O
+15-21	counter	15-15_prep_on	tapped	NN	P1_kitchen/location
+15-22	to	15-23_aux	make	TO	O
+15-23	make	O	O	VB	O
+15-24	sure	15-23_acomp	make	JJ	O
+15-25	there	15-26_expl	were	EX	O
+15-26	were	O	O	VBD	O
+15-27	no	O	O	DT	O
+15-28	air	O	O	NN	O
+15-29	bubbles	15-26_nsubj	were	NNS	P1_NPart_bubbles
+15-30	.	O	O	O	O
+
+#id=16
+#text=I put the cakes in the oven and set the timer . 
+16-1	I	16-2_nsubj	put	PRP	P1_cook
+16-2	put	O	O	VBD	O
+16-3	the	O	O	DT	O
+16-4	cakes	16-2_dobj	put	NNS	P1_cake
+16-5	in	O	O	O	O
+16-6	the	O	O	DT	O
+16-7	oven	16-2_prep_in	put	NN	P1_oven
+16-8	and	O	O	O	O
+16-9	set	16-2_conj_and	put	VBD	O
+16-10	the	O	O	DT	O
+16-11	timer	16-9_dobj	set	NN	P1_timer
+16-12	.	O	O	O	O
+
+#id=17
+#text=Then I turned on the oven light because I like to keep an eye on the cakes to see how they 're cooking . 
+17-1	Then	17-3_advmod	turned	RB	O
+17-2	I	17-3_nsubj	turned	PRP	P1_cook
+17-3	turned	O	O	VBD	O
+17-4	on	O	O	O	O
+17-5	the	O	O	DT	O
+17-6	oven	O	O	NN	O
+17-7	light	17-3_prep_on	turned	NN	P5_utensil
+17-8	because	17-10_mark	like	IN	O
+17-9	I	17-10_nsubj	like	PRP	P1_cook
+17-10	like	17-3_advcl	turned	VBP	O
+17-11	to	17-12_aux	keep	TO	O
+17-12	keep	17-10_xcomp	like	VB	O
+17-13	an	O	O	DT	O
+17-14	eye	17-12_dobj	keep	NN	O
+17-15	on	O	O	O	O
+17-16	the	O	O	DT	O
+17-17	cakes	O	O	NNS	P1_cake
+17-18	to	17-19_aux	see	TO	O
+17-19	see	17-12_vmod	keep	VB	O
+17-20	how	17-23_advmod	cooking	WRB	O
+17-21	they	17-23_nsubj	cooking	PRP	P1_cake
+17-22	're	17-23_aux	cooking	VBP	O
+17-23	cooking	17-19_ccomp	see	VBG	O
+17-24	.	O	O	O	O
+
+#id=18
+#text=Plus it 's fun to see them rise . 
+18-1	Plus	18-8_cc	rise	CC	O
+18-2	it	O	O	PRP	O
+18-3	's	O	O	O	O
+18-4	fun	18-8_nsubj	rise	NN	P1_NPart_fun
+18-5	to	18-6_aux	see	TO	O
+18-6	see	O	O	VB	O
+18-7	them	18-6_dobj	see	PRP	P1_cake
+18-8	rise	O	O	VBP	O
+18-9	.	O	O	O	O
+
+#id=19
+#text=When the timer went off , I stuck a thin knife blade into each cake to test whether they were done . 
+19-1	When	19-4_advmod	went	WRB	O
+19-2	the	O	O	DT	O
+19-3	timer	19-4_nsubj	went	NN	P1_timer
+19-4	went	19-8_advcl	stuck	VBD	O
+19-5	off	19-4_prt	went	RP	O
+19-6	,	O	O	O	O
+19-7	I	19-8_nsubj	stuck	PRP	P1_cook
+19-8	stuck	O	O	VBD	O
+19-9	a	O	O	DT	O
+19-10	thin	O	O	JJ	O
+19-11	knife	O	O	NN	O
+19-12	blade	19-8_dobj	stuck	NN	P6_utensil
+19-13	into	O	O	O	O
+19-14	each	O	O	DT	O
+19-15	cake	19-8_prep_into	stuck	NN	P1_cake
+19-16	to	19-17_aux	test	TO	O
+19-17	test	19-8_vmod	stuck	VB	O
+19-18	whether	19-21_mark	done	IN	O
+19-19	they	19-21_nsubjpass	done	PRP	P1_cake
+19-20	were	19-21_auxpass	done	VBD	O
+19-21	done	19-17_ccomp	test	VBN	O
+19-22	.	O	O	O	O
+
+#id=20
+#text=No crumbs stuck to the knife , so I removed the cakes from the pan and set them on the stove burners to cool . 
+20-1	No	O	O	DT	O
+20-2	crumbs	20-3_nsubj	stuck	NNS	P1_NPart_crumbs
+20-3	stuck	O	O	VBD	O
+20-4	to	O	O	O	O
+20-5	the	O	O	DT	O
+20-6	knife	20-3_prep_to	stuck	NN	P6_utensil
+20-7	,	O	O	O	O
+20-8	so	20-3_dep	stuck	IN	O
+20-9	I	20-10_nsubj	removed	PRP	P1_cook
+20-10	removed	20-3_parataxis	stuck	VBD	O
+20-11	the	O	O	DT	O
+20-12	cakes	20-10_dobj	removed	NNS	P1_cake
+20-13	from	O	O	O	O
+20-14	the	O	O	DT	O
+20-15	pan	20-10_prep_from	removed	NN	P1_cake_tin
+20-16	and	O	O	O	O
+20-17	set	20-10_conj_and	removed	VBD	O
+20-18	them	20-17_dobj	set	PRP	P1_cake
+20-19	on	O	O	O	O
+20-20	the	O	O	DT	O
+20-21	stove	O	O	NN	O
+20-22	burners	20-17_prep_on	set	NNS	P7_utensil
+20-23	to	20-24_aux	cool	TO	O
+20-24	cool	20-17_vmod	set	VB	O
+20-25	.	O	O	O	O
+
+#id=21
+#text=After a couple of minutes , I turned each pan upside-down onto a cooling rack and let the cakes cool for about an hour . 
+21-1	After	O	O	O	O
+21-2	a	O	O	DT	O
+21-3	couple	21-8_prep_after	turned	NN	O
+21-4	of	O	O	O	O
+21-5	minutes	O	O	NNS	P1_time
+21-6	,	O	O	O	O
+21-7	I	21-8_nsubj	turned	PRP	P1_cook
+21-8	turned	O	O	VBD	O
+21-9	each	O	O	DT	O
+21-10	pan	O	O	JJ	P1_cake_tin
+21-11	upside-down	21-8_dobj	turned	NN	O
+21-12	onto	O	O	O	O
+21-13	a	O	O	DT	O
+21-14	cooling	O	O	JJ	O
+21-15	rack	21-8_prep_onto	turned	NN	P8_utensil
+21-16	and	O	O	O	O
+21-17	let	21-8_conj_and	turned	VBD	O
+21-18	the	O	O	DT	O
+21-19	cakes	O	O	JJ	P1_cake
+21-20	cool	21-17_dobj	let	NN	O
+21-21	for	O	O	O	O
+21-22	about	O	O	RB	O
+21-23	an	O	O	DT	O
+21-24	hour	21-17_prep_for	let	NN	P2_time
+21-25	.	O	O	O	O
+
+#id=22
+#text=Then I tipped one cake over onto a large plate . 
+22-1	Then	22-3_advmod	tipped	RB	O
+22-2	I	22-3_nsubj	tipped	PRP	P1_cook
+22-3	tipped	O	O	VBD	O
+22-4	one	O	O	CD	O
+22-5	cake	22-3_dobj	tipped	NN	P1_cake
+22-6	over	22-3_prt	tipped	RP	O
+22-7	onto	O	O	O	O
+22-8	a	O	O	DT	O
+22-9	large	O	O	JJ	O
+22-10	plate	22-3_prep_onto	tipped	NN	P9_utensil
+22-11	.	O	O	O	O
+
+#id=23
+#text=I made frosting and spread some on this layer . 
+23-1	I	23-2_nsubj	made	PRP	P1_cook
+23-2	made	O	O	VBD	O
+23-3	frosting	23-2_xcomp	made	VBG	P1_decoration
+23-4	and	O	O	O	O
+23-5	spread	23-2_conj_and	made	VBD	O
+23-6	some	23-5_dobj	spread	DT	O
+23-7	on	O	O	O	O
+23-8	this	O	O	DT	O
+23-9	layer	23-5_prep_on	spread	NN	P1_cake
+23-10	.	O	O	O	O
+
+#id=24
+#text=Then I tipped the other layer on top of that one and frosted it too . 
+24-1	Then	24-3_advmod	tipped	RB	O
+24-2	I	24-3_nsubj	tipped	PRP	P1_cook
+24-3	tipped	O	O	VBD	O
+24-4	the	O	O	DT	O
+24-5	other	O	O	JJ	O
+24-6	layer	24-3_dobj	tipped	NN	P1_cake
+24-7	on	O	O	O	O
+24-8	top	O	O	O	O
+24-9	of	O	O	O	O
+24-10	that	O	O	DT	O
+24-11	one	24-3_prep_on_top_of	tipped	NN	P1_cake
+24-12	and	O	O	O	O
+24-13	frosted	24-3_conj_and	tipped	VBD	O
+24-14	it	24-13_dobj	frosted	PRP	P1_cake
+24-15	too	24-13_advmod	frosted	RB	O
+24-16	.	O	O	O	O
+
+#id=25
+#text=It was vanilla frosting . 
+25-1	It	O	O	PRP	O
+25-2	was	O	O	VBD	O
+25-3	vanilla	O	O	NN	O
+25-4	frosting	O	O	JJ	P1_decoration
+25-5	.	O	O	O	O

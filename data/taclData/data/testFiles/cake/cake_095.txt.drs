@@ -1,0 +1,212 @@
+#id=1
+#text=I love baking cakes . 
+1-1	I	1-2_nsubj	love	PRP	P1_cook
+1-2	love	O	O	VBP	O
+1-3	baking	O	O	JJ	O
+1-4	cakes	1-2_dobj	love	NNS	P1_cake
+1-5	.	O	O	O	O
+
+#id=2
+#text=That is why yesterday , I took it upon myself to bake the most delicious chocolate cherry cake the world has ever seen or tasted . 
+2-1	That	2-2_nsubj	is	DT	O
+2-2	is	O	O	VBZ	O
+2-3	why	2-7_advmod	took	WRB	O
+2-4	yesterday	2-7_advmod	took	RB	P1_NPart_yesterday
+2-5	,	O	O	O	O
+2-6	I	2-7_nsubj	took	PRP	P1_cook
+2-7	took	2-2_advcl	is	VBD	O
+2-8	it	2-7_dobj	took	PRP	O
+2-9	upon	O	O	O	O
+2-10	myself	2-7_prep_upon	took	PRP	P1_cook
+2-11	to	2-12_aux	bake	TO	O
+2-12	bake	2-7_vmod	took	VB	O
+2-13	the	O	O	DT	O
+2-14	most	O	O	RBS	O
+2-15	delicious	O	O	JJ	O
+2-16	chocolate	O	O	NN	P1_NPart_chocolate
+2-17	cherry	O	O	NN	P1_NPart_cherry
+2-18	cake	2-12_dobj	bake	NN	P1_cake
+2-19	the	O	O	DT	O
+2-20	world	2-23_nsubj	seen	NN	P1_NPart_world
+2-21	has	2-23_aux	seen	VBZ	O
+2-22	ever	2-23_advmod	seen	RB	O
+2-23	seen	O	O	VBN	O
+2-24	or	O	O	O	O
+2-25	tasted	2-23_conj_or	seen	VBN	O
+2-26	.	O	O	O	O
+
+#id=3
+#text=It is called red velvet . 
+3-1	It	3-3_nsubjpass	called	PRP	P1_cake
+3-2	is	3-3_auxpass	called	VBZ	O
+3-3	called	O	O	VBN	O
+3-4	red	O	O	JJ	O
+3-5	velvet	3-3_dobj	called	NN	P2_cake
+3-6	.	O	O	O	O
+
+#id=4
+#text=So , first I went to the grocery store in the next town to get the necessary ingredients : flour , sugar , baking powder , yeast , artificial colors , butter , fake cherries , eggs and chocolate . 
+4-1	So	4-5_advmod	went	RB	O
+4-2	,	O	O	O	O
+4-3	first	4-5_advmod	went	RB	O
+4-4	I	4-5_nsubj	went	PRP	P1_cook
+4-5	went	O	O	VBD	O
+4-6	to	O	O	O	O
+4-7	the	O	O	DT	O
+4-8	grocery	O	O	NN	O
+4-9	store	4-5_prep_to	went	NN	P1_store
+4-10	in	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	next	O	O	JJ	O
+4-13	town	O	O	NN	P1_NPart_town
+4-14	to	4-15_aux	get	TO	O
+4-15	get	4-5_xcomp	went	VB	O
+4-16	the	O	O	DT	O
+4-17	necessary	O	O	JJ	O
+4-18	ingredients	4-15_dobj	get	NNS	P1_ingredients
+4-19	:	O	O	O	O
+4-20	flour	O	O	NN	O
+4-21	,	O	O	O	O
+4-22	sugar	O	O	NN	O
+4-23	,	O	O	O	O
+4-24	baking	O	O	JJ	O
+4-25	powder	O	O	NN	O
+4-26	,	O	O	O	O
+4-27	yeast	O	O	NN	O
+4-28	,	O	O	O	O
+4-29	artificial	O	O	JJ	O
+4-30	colors	O	O	NNS	O
+4-31	,	O	O	O	O
+4-32	butter	O	O	NN	O
+4-33	,	O	O	O	O
+4-34	fake	O	O	JJ	O
+4-35	cherries	O	O	NNS	O
+4-36	,	O	O	O	O
+4-37	eggs	O	O	NNS	O
+4-38	and	O	O	O	O
+4-39	chocolate	O	O	NN	P1_ingredients
+4-40	.	O	O	O	O
+
+#id=5
+#text=Then , I drove my car home and spread out all the ingredients on the kitchen table . 
+5-1	Then	5-4_advmod	drove	RB	O
+5-2	,	O	O	O	O
+5-3	I	5-4_nsubj	drove	PRP	P1_cook
+5-4	drove	O	O	VBD	O
+5-5	my	O	O	PRP$	P1_cook
+5-6	car	O	O	NN	P1_NPart_car
+5-7	home	5-4_dobj	drove	NN	P1_kitchen/location
+5-8	and	O	O	O	O
+5-9	spread	O	O	NN	O
+5-10	out	O	O	O	O
+5-11	all	O	O	PDT	O
+5-12	the	O	O	DT	O
+5-13	ingredients	5-4_prep_out	drove	NNS	P1_ingredients
+5-14	on	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	kitchen	O	O	NN	O
+5-17	table	O	O	NN	P1_other
+5-18	.	O	O	O	O
+
+#id=6
+#text=I pulled out my baking book and found the recipe to the cake I wanted to cook . 
+6-1	I	6-2_nsubj	pulled	PRP	P1_cook
+6-2	pulled	6-15_dep	wanted	VBD	O
+6-3	out	6-2_prt	pulled	RP	O
+6-4	my	O	O	PRP$	P2_cook
+6-5	baking	O	O	JJ	O
+6-6	book	6-2_dobj	pulled	NN	P1_recipe_source
+6-7	and	O	O	O	O
+6-8	found	6-2_conj_and	pulled	VBD	O
+6-9	the	O	O	DT	O
+6-10	recipe	6-8_dobj	found	NN	P1_baking_instructions
+6-11	to	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	cake	6-8_prep_to	found	NN	P1_cake
+6-14	I	6-15_nsubj	wanted	PRP	P1_cook
+6-15	wanted	O	O	VBD	O
+6-16	to	6-17_aux	cook	TO	O
+6-17	cook	6-15_xcomp	wanted	VB	O
+6-18	.	O	O	O	O
+
+#id=7
+#text=I mixed the dry ingredients in one bowl and set them aside . 
+7-1	I	7-2_nsubj	mixed	PRP	P1_cook
+7-2	mixed	O	O	VBN	O
+7-3	the	O	O	DT	O
+7-4	dry	O	O	JJ	O
+7-5	ingredients	7-2_dobj	mixed	NNS	P2_ingredients
+7-6	in	O	O	O	O
+7-7	one	O	O	CD	O
+7-8	bowl	O	O	NN	P1_utensil
+7-9	and	O	O	O	O
+7-10	set	7-2_conj_and	mixed	VBN	O
+7-11	them	7-10_dep	set	PRP	P2_ingredients
+7-12	aside	O	O	RB	O
+7-13	.	O	O	O	O
+
+#id=8
+#text=Then , I took all the eggs and liquid ingredients and blended them in another bowl . 
+8-1	Then	8-4_advmod	took	RB	O
+8-2	,	O	O	O	O
+8-3	I	8-4_nsubj	took	PRP	P1_cook
+8-4	took	O	O	VBD	O
+8-5	all	O	O	PDT	O
+8-6	the	O	O	DT	O
+8-7	eggs	8-4_dobj	took	NNS	O
+8-8	and	O	O	O	O
+8-9	liquid	O	O	JJ	O
+8-10	ingredients	O	O	NNS	P1_ingredients
+8-11	and	O	O	O	O
+8-12	blended	8-4_conj_and	took	VBD	O
+8-13	them	8-12_dobj	blended	PRP	P1_ingredients
+8-14	in	O	O	O	O
+8-15	another	O	O	DT	O
+8-16	bowl	8-12_prep_in	blended	NN	P2_utensil
+8-17	.	O	O	O	O
+
+#id=9
+#text=Then I took both bowls and blended the ingredients . 
+9-1	Then	9-3_advmod	took	RB	O
+9-2	I	9-3_nsubj	took	PRP	P1_cook
+9-3	took	O	O	VBD	O
+9-4	both	9-5_nsubj	bowls	DT	O
+9-5	bowls	9-3_ccomp	took	VBZ	P3_utensil
+9-6	and	O	O	O	O
+9-7	blended	9-5_conj_and	bowls	VBZ	O
+9-8	the	O	O	DT	O
+9-9	ingredients	9-5_dobj	bowls	NNS	P1_ingredients
+9-10	.	O	O	O	O
+
+#id=10
+#text=Then I preheated the oven to 350 degrees , and put the mixture in a glass pan with a buttered bottom . 
+10-1	Then	10-3_advmod	preheated	RB	O
+10-2	I	10-3_nsubj	preheated	PRP	P1_cook
+10-3	preheated	O	O	VBD	O
+10-4	the	O	O	DT	O
+10-5	oven	10-3_dobj	preheated	NN	P1_oven
+10-6	to	O	O	O	O
+10-7	350	O	O	CD	O
+10-8	degrees	10-3_prep_to	preheated	NNS	P1_temperature
+10-9	,	O	O	O	O
+10-10	and	O	O	O	O
+10-11	put	10-3_conj_and	preheated	VBD	O
+10-12	the	O	O	DT	O
+10-13	mixture	10-11_dobj	put	NN	P1_dough
+10-14	in	O	O	O	O
+10-15	a	O	O	DT	O
+10-16	glass	O	O	NN	P1_NPart_glass
+10-17	pan	10-11_prep_in	put	NN	P1_cake_tin
+10-18	with	O	O	O	O
+10-19	a	O	O	DT	O
+10-20	buttered	O	O	JJ	O
+10-21	bottom	10-11_prep_with	put	NN	P1_NPart_bottom
+10-22	.	O	O	O	O
+
+#id=11
+#text=Then I baked it . 
+11-1	Then	11-3_advmod	baked	RB	O
+11-2	I	11-3_nsubj	baked	PRP	P1_cook
+11-3	baked	O	O	VBZ	O
+11-4	it	11-3_dobj	baked	PRP	P1_cake
+11-5	.	O	O	O	O

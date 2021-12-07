@@ -1,0 +1,352 @@
+#id=1
+#text=In order for a bike to be rideable , its tires must be full of air . 
+1-1	In	O	O	O	O
+1-2	order	O	O	NN	O
+1-3	for	O	O	O	O
+1-4	a	O	O	DT	O
+1-5	bike	O	O	NN	P1_bicycle
+1-6	to	O	O	TO	O
+1-7	be	O	O	VB	O
+1-8	rideable	O	O	JJ	O
+1-9	,	O	O	O	O
+1-10	its	O	O	PRP$	P1_bicycle
+1-11	tires	O	O	NNS	P1_tire
+1-12	must	O	O	MD	O
+1-13	be	O	O	VB	O
+1-14	full	O	O	JJ	O
+1-15	of	O	O	O	O
+1-16	air	O	O	NN	P1_air
+1-17	.	O	O	O	O
+
+#id=2
+#text=If you ride over a sharp thorn or rock , you might get unlucky , and pierce one of your tires . 
+2-1	If	2-3_mark	ride	IN	O
+2-2	you	2-3_nsubj	ride	PRP	P1_rider
+2-3	ride	2-13_advcl	get	VBP	O
+2-4	over	O	O	O	O
+2-5	a	O	O	DT	O
+2-6	sharp	O	O	JJ	O
+2-7	thorn	2-3_prep_over	ride	NN	P1_object_damage
+2-8	or	O	O	O	O
+2-9	rock	O	O	NN	P2_object_damage
+2-10	,	O	O	O	O
+2-11	you	2-13_nsubj	get	PRP	P1_rider
+2-12	might	2-13_aux	get	MD	O
+2-13	get	O	O	VB	O
+2-14	unlucky	2-13_advmod	get	RB	O
+2-15	,	O	O	O	O
+2-16	and	O	O	O	O
+2-17	pierce	2-13_conj_and	get	VB	O
+2-18	one	2-17_dobj	pierce	CD	O
+2-19	of	O	O	O	O
+2-20	your	O	O	PRP$	P1_rider
+2-21	tires	O	O	NNS	P1_tire
+2-22	.	O	O	O	O
+
+#id=3
+#text=The air will rush out of the hole , and you will have a flat tire , often just called , a flat . 
+3-1	The	O	O	DT	O
+3-2	air	3-4_nsubj	rush	NN	P1_air
+3-3	will	3-4_aux	rush	MD	O
+3-4	rush	O	O	VB	O
+3-5	out	O	O	O	O
+3-6	of	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	hole	3-4_prep_out_of	rush	NN	P1_damage
+3-9	,	O	O	O	O
+3-10	and	O	O	O	O
+3-11	you	3-13_nsubj	have	PRP	P1_rider
+3-12	will	3-13_aux	have	MD	O
+3-13	have	3-4_conj_and	rush	VB	O
+3-14	a	O	O	DT	O
+3-15	flat	O	O	JJ	O
+3-16	tire	O	O	NN	P1_tire
+3-17	,	O	O	O	O
+3-18	often	O	O	RB	O
+3-19	just	3-20_advmod	called	RB	O
+3-20	called	O	O	VBN	O
+3-21	,	O	O	O	O
+3-22	a	O	O	DT	O
+3-23	flat	3-13_xcomp	have	NN	O
+3-24	.	O	O	O	O
+
+#id=4
+#text=If this happens , you mus n't continue to ride ; you need to stop somewhere , and repair the tire . 
+4-1	If	4-3_mark	happens	IN	O
+4-2	this	4-3_nsubj	happens	DT	O
+4-3	happens	4-6_advcl	mus	VBZ	O
+4-4	,	O	O	O	O
+4-5	you	4-6_nsubj	mus	PRP	P1_rider
+4-6	mus	O	O	VBP	O
+4-7	n't	4-6_neg	mus	RB	O
+4-8	continue	4-6_dep	mus	VB	O
+4-9	to	4-10_aux	ride	TO	O
+4-10	ride	4-8_xcomp	continue	VB	O
+4-11	;	O	O	O	O
+4-12	you	4-13_nsubj	need	PRP	P1_rider
+4-13	need	4-6_parataxis	mus	VBP	O
+4-14	to	4-15_aux	stop	TO	O
+4-15	stop	4-13_xcomp	need	VB	O
+4-16	somewhere	4-15_advmod	stop	RB	O
+4-17	,	O	O	O	O
+4-18	and	O	O	O	O
+4-19	repair	4-15_conj_and	stop	VB	O
+4-20	the	O	O	DT	O
+4-21	tire	4-19_dobj	repair	NN	P1_tire
+4-22	.	O	O	O	O
+
+#id=5
+#text=First , you 'll need to remove the wheel that has the flat tire . 
+5-1	First	5-5_advmod	need	RB	O
+5-2	,	O	O	O	O
+5-3	you	5-5_nsubj	need	PRP	P1_rider
+5-4	'll	5-5_aux	need	MD	O
+5-5	need	O	O	VB	O
+5-6	to	5-7_aux	remove	TO	O
+5-7	remove	5-5_xcomp	need	VB	O
+5-8	the	O	O	DT	O
+5-9	wheel	5-7_dobj	remove	NN	P1_wheel
+5-10	that	5-11_nsubj	has	WDT	P1_wheel
+5-11	has	O	O	VBZ	O
+5-12	the	O	O	DT	O
+5-13	flat	O	O	JJ	O
+5-14	tire	5-11_dobj	has	NN	P1_tire
+5-15	.	O	O	O	O
+
+#id=6
+#text=It is usually easier to remove the front wheel than the back , because of the gears in back . 
+6-1	It	O	O	PRP	O
+6-2	is	O	O	VBZ	O
+6-3	usually	O	O	RB	O
+6-4	easier	O	O	JJR	O
+6-5	to	6-6_aux	remove	TO	O
+6-6	remove	O	O	VB	O
+6-7	the	O	O	DT	O
+6-8	front	O	O	JJ	O
+6-9	wheel	6-6_dobj	remove	NN	P1_wheel
+6-10	than	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	back	6-6_prep_than	remove	NN	O
+6-13	,	O	O	O	O
+6-14	because	O	O	O	O
+6-15	of	O	O	O	O
+6-16	the	O	O	DT	O
+6-17	gears	6-6_prep_because_of	remove	NNS	P1_bicycle_small_detail
+6-18	in	O	O	O	O
+6-19	back	O	O	NN	O
+6-20	.	O	O	O	O
+
+#id=7
+#text=Once you have the damaged wheel off the bike , you need to remove the tough outer part of the tire by prying it , little by little , off of the rim of the wheel . 
+7-1	Once	7-3_mark	have	IN	O
+7-2	you	7-3_nsubj	have	PRP	P1_rider
+7-3	have	7-12_advcl	need	VBP	O
+7-4	the	O	O	DT	O
+7-5	damaged	O	O	VBN	O
+7-6	wheel	7-3_dobj	have	NN	P1_wheel
+7-7	off	O	O	IN	O
+7-8	the	O	O	DT	O
+7-9	bike	O	O	NN	P1_bicycle
+7-10	,	O	O	O	O
+7-11	you	7-12_nsubj	need	PRP	P1_rider
+7-12	need	O	O	VBP	O
+7-13	to	7-14_aux	remove	TO	O
+7-14	remove	7-12_xcomp	need	VB	O
+7-15	the	O	O	DT	O
+7-16	tough	O	O	JJ	O
+7-17	outer	O	O	JJ	O
+7-18	part	7-14_dobj	remove	NN	O
+7-19	of	O	O	O	O
+7-20	the	O	O	DT	O
+7-21	tire	O	O	NN	P1_tire
+7-22	by	O	O	O	O
+7-23	prying	7-14_prepc_by	remove	VBG	O
+7-24	it	7-23_dobj	prying	PRP	P1_tire
+7-25	,	O	O	O	O
+7-26	little	O	O	JJ	O
+7-27	by	O	O	IN	O
+7-28	little	O	O	RB	O
+7-29	,	O	O	O	O
+7-30	off	O	O	O	O
+7-31	of	O	O	O	O
+7-32	the	O	O	DT	O
+7-33	rim	O	O	NN	P1_rim
+7-34	of	O	O	O	O
+7-35	the	O	O	DT	O
+7-36	wheel	O	O	NN	P1_wheel
+7-37	.	O	O	O	O
+
+#id=8
+#text=The hole in the tough tire is not actually the problem ; it 's the hole in the inner tube that must be repaired . 
+8-1	The	O	O	DT	O
+8-2	hole	O	O	NN	P1_damage
+8-3	in	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	tough	O	O	JJ	O
+8-6	tire	O	O	NN	P1_tire
+8-7	is	O	O	VBZ	O
+8-8	not	O	O	RB	O
+8-9	actually	O	O	RB	O
+8-10	the	O	O	DT	O
+8-11	problem	O	O	NN	P1_NPart_problem
+8-12	;	O	O	O	O
+8-13	it	O	O	PRP	O
+8-14	's	O	O	VBZ	O
+8-15	the	O	O	DT	O
+8-16	hole	O	O	NN	P1_damage
+8-17	in	O	O	O	O
+8-18	the	O	O	DT	O
+8-19	inner	O	O	JJ	O
+8-20	tube	O	O	NN	P1_tire
+8-21	that	8-24_nsubjpass	repaired	WDT	P1_damage
+8-22	must	8-24_aux	repaired	MD	O
+8-23	be	8-24_auxpass	repaired	VB	O
+8-24	repaired	O	O	VBN	O
+8-25	.	O	O	O	O
+
+#id=9
+#text=Once you 've pried the tire off the rim , it is easy to pull out the floppy tube . 
+9-1	Once	9-4_mark	pried	IN	O
+9-2	you	9-4_nsubj	pried	PRP	P1_rider
+9-3	've	9-4_aux	pried	VBP	O
+9-4	pried	O	O	VBN	O
+9-5	the	O	O	DT	O
+9-6	tire	9-4_dobj	pried	NN	P1_tire
+9-7	off	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	rim	9-4_prep_off	pried	NN	P1_rim
+9-10	,	O	O	O	O
+9-11	it	O	O	PRP	O
+9-12	is	O	O	VBZ	O
+9-13	easy	O	O	JJ	O
+9-14	to	9-15_aux	pull	TO	O
+9-15	pull	O	O	VB	O
+9-16	out	9-15_prt	pull	RP	O
+9-17	the	O	O	DT	O
+9-18	floppy	O	O	JJ	O
+9-19	tube	9-15_dobj	pull	NN	P1_tire
+9-20	.	O	O	O	O
+
+#id=10
+#text=Now you have to locate the hole . 
+10-1	Now	10-3_advmod	have	RB	O
+10-2	you	10-3_nsubj	have	PRP	P1_rider
+10-3	have	O	O	VBP	O
+10-4	to	10-5_aux	locate	TO	O
+10-5	locate	10-3_xcomp	have	VB	O
+10-6	the	O	O	DT	O
+10-7	hole	10-5_dobj	locate	NN	P1_damage
+10-8	.	O	O	O	O
+
+#id=11
+#text=Sometimes the hole is very obvious , just by looking . 
+11-1	Sometimes	O	O	RB	O
+11-2	the	O	O	DT	O
+11-3	hole	O	O	NN	P1_damage
+11-4	is	O	O	VBZ	O
+11-5	very	O	O	RB	O
+11-6	obvious	O	O	JJ	O
+11-7	,	O	O	O	O
+11-8	just	O	O	RB	O
+11-9	by	O	O	O	O
+11-10	looking	O	O	VBG	O
+11-11	.	O	O	O	O
+
+#id=12
+#text=Other times , you can submerge the tube under water , and look for bubbles . 
+12-1	Other	O	O	JJ	O
+12-2	times	12-6_nsubj	submerge	NNS	O
+12-3	,	O	O	O	O
+12-4	you	12-6_nsubj	submerge	PRP	P1_rider
+12-5	can	12-6_aux	submerge	MD	O
+12-6	submerge	O	O	VB	O
+12-7	the	O	O	DT	O
+12-8	tube	12-6_dobj	submerge	NN	P1_tire
+12-9	under	O	O	O	O
+12-10	water	12-6_prep_under	submerge	NN	P1_NPart_water
+12-11	,	O	O	O	O
+12-12	and	O	O	O	O
+12-13	look	12-6_conj_and	submerge	VB	O
+12-14	for	O	O	O	O
+12-15	bubbles	12-13_prep_for	look	NNS	P1_NPart_bubbles
+12-16	.	O	O	O	O
+
+#id=13
+#text=Once found , the hole can be easily patched using a patch kit . 
+13-1	Once	13-2_mark	found	IN	O
+13-2	found	13-9_advcl	patched	VBD	O
+13-3	,	O	O	O	O
+13-4	the	O	O	DT	O
+13-5	hole	13-9_nsubjpass	patched	NN	P1_damage
+13-6	can	13-9_aux	patched	MD	O
+13-7	be	13-9_auxpass	patched	VB	O
+13-8	easily	13-9_advmod	patched	RB	O
+13-9	patched	O	O	VBN	O
+13-10	using	13-9_xcomp	patched	VBG	O
+13-11	a	O	O	DT	O
+13-12	patch	O	O	NN	O
+13-13	kit	13-10_dobj	using	NN	P1_tool
+13-14	.	O	O	O	O
+
+#id=14
+#text=Test to make sure the hole is totally sealed before reassembling the wheel ! 
+14-1	Test	O	O	VB	O
+14-2	to	14-3_aux	make	TO	O
+14-3	make	14-1_xcomp	Test	VB	O
+14-4	sure	14-3_acomp	make	JJ	O
+14-5	the	O	O	DT	O
+14-6	hole	14-9_nsubjpass	sealed	NN	P1_damage
+14-7	is	14-9_auxpass	sealed	VBZ	O
+14-8	totally	14-9_advmod	sealed	RB	O
+14-9	sealed	O	O	VBN	O
+14-10	before	O	O	O	O
+14-11	reassembling	14-9_prepc_before	sealed	VBG	O
+14-12	the	O	O	DT	O
+14-13	wheel	14-11_dobj	reassembling	NN	P1_wheel
+14-14	!	O	O	O	O
+
+#id=15
+#text=If the repaired tube holds air well , you can put the tube in the tire , and get them back onto the rim of the wheel . 
+15-1	If	15-5_mark	holds	IN	O
+15-2	the	O	O	DT	O
+15-3	repaired	O	O	JJ	O
+15-4	tube	15-5_nsubj	holds	NN	P1_tire
+15-5	holds	15-11_advcl	put	VBZ	O
+15-6	air	15-5_dobj	holds	NN	P1_air
+15-7	well	15-5_advmod	holds	RB	O
+15-8	,	O	O	O	O
+15-9	you	15-11_nsubj	put	PRP	P1_rider
+15-10	can	15-11_aux	put	MD	O
+15-11	put	O	O	VB	O
+15-12	the	O	O	DT	O
+15-13	tube	15-11_dobj	put	NN	P1_tire
+15-14	in	O	O	O	O
+15-15	the	O	O	DT	O
+15-16	tire	O	O	NN	P1_tire
+15-17	,	O	O	O	O
+15-18	and	O	O	O	O
+15-19	get	15-11_conj_and	put	VB	O
+15-20	them	15-19_dobj	get	PRP	P1_tire
+15-21	back	15-19_prt	get	RP	O
+15-22	onto	O	O	O	O
+15-23	the	O	O	DT	O
+15-24	rim	15-19_prep_onto	get	NN	P1_rim
+15-25	of	O	O	O	O
+15-26	the	O	O	DT	O
+15-27	wheel	O	O	NN	P1_wheel
+15-28	.	O	O	O	O
+
+#id=16
+#text=Now , pedal fast , to make up for lost time ! 
+16-1	Now	16-3_discourse	pedal	RB	O
+16-2	,	O	O	O	O
+16-3	pedal	O	O	VB	O
+16-4	fast	16-3_advmod	pedal	RB	O
+16-5	,	O	O	O	O
+16-6	to	16-7_aux	make	TO	O
+16-7	make	16-3_xcomp	pedal	VB	O
+16-8	up	16-7_prt	make	RP	O
+16-9	for	O	O	O	O
+16-10	lost	O	O	VBN	O
+16-11	time	16-7_prep_for	make	NN	P1_NPart_time
+16-12	!	O	O	O	O

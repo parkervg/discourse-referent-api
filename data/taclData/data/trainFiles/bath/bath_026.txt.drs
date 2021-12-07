@@ -1,0 +1,219 @@
+#id=1
+#text=After a very tough workout with some friend 's at the gym , I was very sore and wanted to take a bath to help my soreness and get clean . 
+1-1	After	O	O	O	O
+1-2	a	O	O	DT	O
+1-3	very	O	O	RB	O
+1-4	tough	O	O	JJ	O
+1-5	workout	O	O	NN	P1_NPart_workout
+1-6	with	O	O	O	O
+1-7	some	O	O	DT	O
+1-8	friend	O	O	NN	P1_NPart_friend
+1-9	's	O	O	POS	O
+1-10	at	O	O	O	O
+1-11	the	O	O	DT	O
+1-12	gym	O	O	NN	P1_NPart_gym
+1-13	,	O	O	O	O
+1-14	I	O	O	PRP	P1_bather
+1-15	was	O	O	VBD	O
+1-16	very	O	O	RB	O
+1-17	sore	O	O	JJ	O
+1-18	and	O	O	O	O
+1-19	wanted	O	O	VBD	O
+1-20	to	1-21_aux	take	TO	O
+1-21	take	1-19_xcomp	wanted	VB	O
+1-22	a	O	O	DT	O
+1-23	bath	1-21_dobj	take	NN	P1_bath
+1-24	to	1-25_aux	help	TO	O
+1-25	help	O	O	VB	O
+1-26	my	O	O	PRP$	P1_bather
+1-27	soreness	1-25_dobj	help	NN	P1_NPart_soreness
+1-28	and	O	O	O	O
+1-29	get	O	O	VB	O
+1-30	clean	1-25_conj_and	help	JJ	O
+1-31	.	O	O	O	O
+
+#id=2
+#text=I remembered that mom bought me something to put inside of the bath that helped soothe sore muscles . 
+2-1	I	2-2_nsubj	remembered	PRP	P1_bather
+2-2	remembered	O	O	VBD	O
+2-3	that	2-5_mark	bought	IN	O
+2-4	mom	2-5_nsubj	bought	NN	P1_NPart_mom
+2-5	bought	2-2_ccomp	remembered	VBD	O
+2-6	me	O	O	PRP	P1_bather
+2-7	something	2-5_dobj	bought	NN	P1_bath_means
+2-8	to	2-9_aux	put	TO	O
+2-9	put	2-5_vmod	bought	VB	O
+2-10	inside	O	O	O	O
+2-11	of	O	O	O	O
+2-12	the	O	O	DT	O
+2-13	bath	2-9_prep_inside_of	put	NN	P1_water
+2-14	that	2-15_nsubj	helped	WDT	O
+2-15	helped	O	O	VBD	O
+2-16	soothe	2-15_xcomp	helped	VB	O
+2-17	sore	O	O	JJ	O
+2-18	muscles	2-16_dobj	soothe	NNS	P1_body_part
+2-19	.	O	O	O	O
+
+#id=3
+#text=I grabbed it from the cabinet and turned the water on to very hot . 
+3-1	I	3-2_nsubj	grabbed	PRP	P1_bather
+3-2	grabbed	O	O	VBD	O
+3-3	it	3-2_dobj	grabbed	PRP	P1_bath_means
+3-4	from	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	cabinet	3-2_prep_from	grabbed	NN	P1_other
+3-7	and	O	O	O	O
+3-8	turned	3-2_conj_and	grabbed	VBD	O
+3-9	the	O	O	DT	O
+3-10	water	3-8_dobj	turned	NN	P1_water
+3-11	on	3-8_prep	turned	IN	O
+3-12	to	O	O	TO	O
+3-13	very	O	O	RB	O
+3-14	hot	O	O	JJ	O
+3-15	.	O	O	O	O
+
+#id=4
+#text=After about 3 minutes , the tub was full and I poured some of the mixture in it and it became very bubbly and smelled great . 
+4-1	After	O	O	O	O
+4-2	about	O	O	RB	O
+4-3	3	O	O	CD	O
+4-4	minutes	O	O	NNS	P1_NPart_minutes
+4-5	,	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	tub	O	O	NN	P1_bathtub
+4-8	was	O	O	VBD	O
+4-9	full	O	O	JJ	O
+4-10	and	O	O	O	O
+4-11	I	4-12_nsubj	poured	PRP	P1_bather
+4-12	poured	O	O	VBD	O
+4-13	some	4-12_dobj	poured	DT	O
+4-14	of	O	O	O	O
+4-15	the	O	O	DT	O
+4-16	mixture	O	O	NN	P1_bath_means
+4-17	in	O	O	O	O
+4-18	it	4-12_prep_in	poured	PRP	P1_bathtub
+4-19	and	O	O	O	O
+4-20	it	4-21_nsubj	became	PRP	P1_bathtub
+4-21	became	4-12_conj_and	poured	VBD	O
+4-22	very	O	O	RB	O
+4-23	bubbly	4-21_acomp	became	JJ	O
+4-24	and	O	O	O	O
+4-25	smelled	O	O	RB	O
+4-26	great	O	O	JJ	O
+4-27	.	O	O	O	O
+
+#id=5
+#text=I slowly placed myself into the bathtub and lit a few candles to help me relax , as I had a very long day . 
+5-1	I	5-3_nsubj	placed	PRP	P1_bather
+5-2	slowly	5-3_advmod	placed	RB	O
+5-3	placed	O	O	VBD	O
+5-4	myself	5-3_dobj	placed	PRP	P1_bather
+5-5	into	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	bathtub	5-3_prep_into	placed	NN	P1_bathtub
+5-8	and	O	O	O	O
+5-9	lit	5-3_conj_and	placed	VBD	O
+5-10	a	O	O	DT	O
+5-11	few	O	O	JJ	O
+5-12	candles	5-9_dobj	lit	NNS	P1_in-bath_entertainment
+5-13	to	5-14_aux	help	TO	O
+5-14	help	5-9_vmod	lit	VB	O
+5-15	me	5-16_nsubj	relax	PRP	P1_bather
+5-16	relax	5-14_ccomp	help	VB	O
+5-17	,	O	O	O	O
+5-18	as	5-20_mark	had	IN	O
+5-19	I	5-20_nsubj	had	PRP	P1_bather
+5-20	had	5-16_advcl	relax	VBD	O
+5-21	a	O	O	DT	O
+5-22	very	O	O	RB	O
+5-23	long	O	O	JJ	O
+5-24	day	5-20_tmod	had	NN	P1_NPart_day
+5-25	.	O	O	O	O
+
+#id=6
+#text=After about 30 minutes of soaking in the very warm water , I got out of the tub , dried myself and then drained it . 
+6-1	After	O	O	O	O
+6-2	about	O	O	RB	O
+6-3	30	O	O	CD	O
+6-4	minutes	6-14_prep_after	got	NNS	P2_NPart_minutes
+6-5	of	O	O	O	O
+6-6	soaking	O	O	VBG	O
+6-7	in	O	O	O	O
+6-8	the	O	O	DT	O
+6-9	very	O	O	RB	O
+6-10	warm	O	O	JJ	O
+6-11	water	6-6_prep_in	soaking	NN	P1_water
+6-12	,	O	O	O	O
+6-13	I	6-14_nsubj	got	PRP	P1_bather
+6-14	got	O	O	VBD	O
+6-15	out	O	O	O	O
+6-16	of	O	O	O	O
+6-17	the	O	O	DT	O
+6-18	tub	6-14_prep_out_of	got	NN	P1_bathtub
+6-19	,	O	O	O	O
+6-20	dried	6-14_conj_and	got	VBD	O
+6-21	myself	6-20_dobj	dried	PRP	P1_bather
+6-22	and	O	O	O	O
+6-23	then	6-24_advmod	drained	RB	O
+6-24	drained	6-14_conj_and	got	VBN	O
+6-25	it	6-24_xcomp	drained	PRP	P1_bathtub
+6-26	.	O	O	O	O
+
+#id=7
+#text=After it fully drained , I ran some more water in order to fully rinse all of the soap mixture down the drain , leaving a very clean tub . 
+7-1	After	7-4_mark	drained	IN	O
+7-2	it	7-4_nsubj	drained	PRP	P1_bathtub
+7-3	fully	7-4_advmod	drained	RB	O
+7-4	drained	7-7_advcl	ran	VBN	O
+7-5	,	O	O	O	O
+7-6	I	7-7_nsubj	ran	PRP	P1_bather
+7-7	ran	O	O	VBD	O
+7-8	some	O	O	DT	O
+7-9	more	O	O	JJR	O
+7-10	water	7-7_dobj	ran	NN	P1_water
+7-11	in	O	O	O	O
+7-12	order	7-7_prep_in	ran	NN	O
+7-13	to	7-15_aux	rinse	TO	O
+7-14	fully	7-15_advmod	rinse	RB	O
+7-15	rinse	7-7_vmod	ran	VB	O
+7-16	all	7-15_dobj	rinse	DT	O
+7-17	of	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	soap	O	O	NN	O
+7-20	mixture	O	O	NN	P1_bath_means
+7-21	down	O	O	RB	O
+7-22	the	O	O	DT	O
+7-23	drain	O	O	NN	P1_drain
+7-24	,	O	O	O	O
+7-25	leaving	7-7_xcomp	ran	VBG	O
+7-26	a	O	O	DT	O
+7-27	very	O	O	RB	O
+7-28	clean	O	O	JJ	O
+7-29	tub	7-25_dobj	leaving	NN	P1_bathtub
+7-30	.	O	O	O	O
+
+#id=8
+#text=After this , I changed into comfortable clothes and enjoyed my evening . 
+8-1	After	O	O	O	O
+8-2	this	8-5_prep_after	changed	DT	O
+8-3	,	O	O	O	O
+8-4	I	8-5_nsubj	changed	PRP	P1_bather
+8-5	changed	O	O	VBD	O
+8-6	into	O	O	O	O
+8-7	comfortable	O	O	JJ	O
+8-8	clothes	8-5_prep_into	changed	NNS	P1_clothes
+8-9	and	O	O	O	O
+8-10	enjoyed	8-5_conj_and	changed	VBD	O
+8-11	my	O	O	PRP$	P1_bather
+8-12	evening	8-10_tmod	enjoyed	NN	P1_NPart_evening
+8-13	.	O	O	O	O
+
+#id=9
+#text=It was a very relaxing bath . 
+9-1	It	O	O	PRP	P1_bath
+9-2	was	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	very	O	O	RB	O
+9-5	relaxing	O	O	JJ	O
+9-6	bath	O	O	NN	P1_bath
+9-7	.	O	O	O	O

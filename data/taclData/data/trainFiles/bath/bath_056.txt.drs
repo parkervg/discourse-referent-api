@@ -1,0 +1,218 @@
+#id=1
+#text=Last night , I decided to take a bath . 
+1-1	Last	O	O	JJ	O
+1-2	night	1-5_tmod	decided	NN	P1_NPart_night
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	decided	PRP	P1_bather
+1-5	decided	O	O	VBD	O
+1-6	to	1-7_aux	take	TO	O
+1-7	take	1-5_xcomp	decided	VB	O
+1-8	a	O	O	DT	O
+1-9	bath	1-7_dobj	take	NN	O
+1-10	.	O	O	O	O
+
+#id=2
+#text=First , I turned on the water . 
+2-1	First	2-4_advmod	turned	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	turned	PRP	P1_bather
+2-4	turned	O	O	VBD	O
+2-5	on	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	water	2-4_prep_on	turned	NN	P1_water
+2-8	.	O	O	O	O
+
+#id=3
+#text=I fiddled with the knobs to get the right mix of hot and cold water . 
+3-1	I	3-2_nsubj	fiddled	PRP	P1_bather
+3-2	fiddled	O	O	VBD	O
+3-3	with	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	knobs	3-2_prep_with	fiddled	NNS	P1_tap
+3-6	to	3-7_aux	get	TO	O
+3-7	get	3-2_xcomp	fiddled	VB	O
+3-8	the	O	O	DT	O
+3-9	right	O	O	JJ	O
+3-10	mix	3-7_dobj	get	NN	P1_temperature
+3-11	of	O	O	O	O
+3-12	hot	O	O	JJ	O
+3-13	and	O	O	O	O
+3-14	cold	O	O	JJ	O
+3-15	water	O	O	NN	P1_water
+3-16	.	O	O	O	O
+
+#id=4
+#text=Once the temperature was pleasing to me , I put the stopper in the tub and let the tub fill with water . 
+4-1	Once	4-5_mark	pleasing	IN	O
+4-2	the	O	O	DT	O
+4-3	temperature	4-5_nsubj	pleasing	NN	P1_temperature
+4-4	was	4-5_aux	pleasing	VBD	O
+4-5	pleasing	4-10_advcl	put	VBG	O
+4-6	to	O	O	O	O
+4-7	me	4-5_prep_to	pleasing	PRP	P1_bather
+4-8	,	O	O	O	O
+4-9	I	4-10_nsubj	put	PRP	P1_bather
+4-10	put	O	O	VBD	O
+4-11	the	O	O	DT	O
+4-12	stopper	4-10_dobj	put	NN	P1_plug
+4-13	in	O	O	O	O
+4-14	the	O	O	DT	O
+4-15	tub	4-10_prep_in	put	NN	P1_bathtub
+4-16	and	O	O	O	O
+4-17	let	4-10_conj_and	put	VBD	O
+4-18	the	O	O	DT	O
+4-19	tub	4-20_nsubj	fill	NN	P1_bathtub
+4-20	fill	4-17_ccomp	let	VB	O
+4-21	with	O	O	O	O
+4-22	water	4-20_prep_with	fill	NN	P1_water
+4-23	.	O	O	O	O
+
+#id=5
+#text=I also poured some bubble bath into the water stream so that bubbles filled the tub . 
+5-1	I	5-3_nsubj	poured	PRP	P1_bather
+5-2	also	5-3_advmod	poured	RB	O
+5-3	poured	O	O	VBD	O
+5-4	some	O	O	DT	O
+5-5	bubble	O	O	NN	O
+5-6	bath	5-3_dobj	poured	NN	P1_bath_means
+5-7	into	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	water	O	O	NN	O
+5-10	stream	5-3_prep_into	poured	NN	P1_water
+5-11	so	5-14_advmod	filled	RB	O
+5-12	that	5-14_mark	filled	IN	O
+5-13	bubbles	5-14_nsubj	filled	NNS	P1_bath_means
+5-14	filled	5-3_advcl	poured	VBD	O
+5-15	the	O	O	DT	O
+5-16	tub	5-14_dobj	filled	NN	P1_bathtub
+5-17	.	O	O	O	O
+
+#id=6
+#text=Once the tub was filled with water and bubbles , I took off my clothes and sat down in the tub . 
+6-1	Once	6-5_mark	filled	IN	O
+6-2	the	O	O	DT	O
+6-3	tub	6-5_nsubjpass	filled	NN	P1_bathtub
+6-4	was	6-5_auxpass	filled	VBD	O
+6-5	filled	6-12_advcl	took	VBN	O
+6-6	with	O	O	O	O
+6-7	water	6-5_prep_with	filled	NN	P1_water
+6-8	and	O	O	O	O
+6-9	bubbles	O	O	NNS	P1_bath_means
+6-10	,	O	O	O	O
+6-11	I	6-12_nsubj	took	PRP	P1_bather
+6-12	took	O	O	VBD	O
+6-13	off	6-12_prt	took	RP	O
+6-14	my	O	O	PRP$	P1_bather
+6-15	clothes	6-12_dobj	took	NNS	P1_clothes
+6-16	and	O	O	O	O
+6-17	sat	6-12_conj_and	took	VBD	O
+6-18	down	6-17_prt	sat	RP	O
+6-19	in	O	O	O	O
+6-20	the	O	O	DT	O
+6-21	tub	6-17_prep_in	sat	NN	P1_bathtub
+6-22	.	O	O	O	O
+
+#id=7
+#text=I submerged my body in the soapy water . 
+7-1	I	7-2_nsubj	submerged	PRP	P1_bather
+7-2	submerged	O	O	VBD	O
+7-3	my	O	O	PRP$	P1_bather
+7-4	body	7-2_dobj	submerged	NN	P1_body_part
+7-5	in	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	soapy	O	O	JJ	O
+7-8	water	7-2_prep_in	submerged	NN	P1_water
+7-9	.	O	O	O	O
+
+#id=8
+#text=I used a loofah to wash myself . 
+8-1	I	8-2_nsubj	used	PRP	P1_bather
+8-2	used	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	loofah	8-2_dobj	used	NN	P1_washing_tools
+8-5	to	8-6_aux	wash	TO	O
+8-6	wash	O	O	VB	O
+8-7	myself	8-6_dobj	wash	PRP	P1_bather
+8-8	.	O	O	O	O
+
+#id=9
+#text=I then sat back and relaxed in the tub for a while . 
+9-1	I	9-3_nsubj	sat	PRP	P1_bather
+9-2	then	9-3_advmod	sat	RB	O
+9-3	sat	O	O	VBD	O
+9-4	back	9-3_advmod	sat	RB	O
+9-5	and	O	O	O	O
+9-6	relaxed	9-3_conj_and	sat	VBD	O
+9-7	in	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	tub	9-6_prep_in	relaxed	NN	P1_bathtub
+9-10	for	O	O	O	O
+9-11	a	O	O	DT	O
+9-12	while	O	O	NN	O
+9-13	.	O	O	O	O
+
+#id=10
+#text=I had put the book that I was reading on the side of the tub and I decided to read it . 
+10-1	I	10-3_nsubj	put	PRP	P1_bather
+10-2	had	10-3_aux	put	VBD	O
+10-3	put	O	O	VBN	O
+10-4	the	O	O	DT	O
+10-5	book	10-3_dobj	put	NN	P1_in-bath_entertainment
+10-6	that	10-9_mark	reading	IN	P1_in-bath_entertainment
+10-7	I	10-9_nsubj	reading	PRP	P1_bather
+10-8	was	10-9_aux	reading	VBD	O
+10-9	reading	10-3_ccomp	put	VBG	O
+10-10	on	O	O	O	O
+10-11	the	O	O	DT	O
+10-12	side	10-9_prep_on	reading	NN	O
+10-13	of	O	O	O	O
+10-14	the	O	O	DT	O
+10-15	tub	O	O	NN	P1_bathtub
+10-16	and	O	O	O	O
+10-17	I	10-18_nsubj	decided	PRP	P1_bather
+10-18	decided	10-3_conj_and	put	VBD	O
+10-19	to	10-20_aux	read	TO	O
+10-20	read	10-18_xcomp	decided	VB	O
+10-21	it	10-20_dobj	read	PRP	P1_in-bath_entertainment
+10-22	.	O	O	O	O
+
+#id=11
+#text=It was very relaxing . 
+11-1	It	O	O	PRP	O
+11-2	was	O	O	VBD	O
+11-3	very	O	O	RB	O
+11-4	relaxing	O	O	JJ	O
+11-5	.	O	O	O	O
+
+#id=12
+#text=When I was done in the tub , I pulled the stopper out and let the water drain away . 
+12-1	When	12-4_advmod	done	WRB	O
+12-2	I	12-4_nsubjpass	done	PRP	P1_bather
+12-3	was	12-4_auxpass	done	VBD	O
+12-4	done	12-10_advcl	pulled	VBN	O
+12-5	in	O	O	O	O
+12-6	the	O	O	DT	O
+12-7	tub	12-4_prep_in	done	NN	P1_bathtub
+12-8	,	O	O	O	O
+12-9	I	12-10_nsubj	pulled	PRP	P1_bather
+12-10	pulled	O	O	VBD	O
+12-11	the	O	O	DT	O
+12-12	stopper	12-10_dobj	pulled	NN	P1_plug
+12-13	out	12-10_prt	pulled	RP	O
+12-14	and	O	O	O	O
+12-15	let	12-10_conj_and	pulled	VBP	O
+12-16	the	O	O	DT	O
+12-17	water	O	O	NN	P1_water
+12-18	drain	12-15_dobj	let	NN	O
+12-19	away	12-15_prt	let	RP	O
+12-20	.	O	O	O	O
+
+#id=13
+#text=I had a very nice bath . 
+13-1	I	13-2_nsubj	had	PRP	P1_bather
+13-2	had	O	O	VBD	O
+13-3	a	O	O	DT	O
+13-4	very	O	O	RB	O
+13-5	nice	O	O	JJ	O
+13-6	bath	13-2_dobj	had	NN	O
+13-7	.	O	O	O	O

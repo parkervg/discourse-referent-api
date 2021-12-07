@@ -1,0 +1,223 @@
+#id=1
+#text=Two days ago , it was Earth Day . 
+1-1	Two	O	O	CD	O
+1-2	days	O	O	NNS	P1_NPart_days
+1-3	ago	O	O	RB	O
+1-4	,	O	O	O	O
+1-5	it	O	O	PRP	O
+1-6	was	O	O	VBD	O
+1-7	Earth	O	O	NNP	O
+1-8	Day	O	O	NNP	P1_NPart_day
+1-9	.	O	O	O	O
+
+#id=2
+#text=A few people were giving out seeds in order to project the idea of green living into people 's minds . 
+2-1	A	O	O	DT	O
+2-2	few	O	O	JJ	O
+2-3	people	2-5_nsubj	giving	NNS	P1_NPart_people
+2-4	were	2-5_aux	giving	VBD	O
+2-5	giving	O	O	VBG	O
+2-6	out	2-5_prt	giving	RP	O
+2-7	seeds	2-5_dobj	giving	NNS	P1_seeds
+2-8	in	O	O	O	O
+2-9	order	O	O	NN	O
+2-10	to	2-11_aux	project	TO	O
+2-11	project	2-5_vmod	giving	VB	O
+2-12	the	O	O	DT	O
+2-13	idea	2-11_dobj	project	NN	P1_NPart_idea
+2-14	of	O	O	O	O
+2-15	green	O	O	JJ	O
+2-16	living	O	O	NN	O
+2-17	into	O	O	O	O
+2-18	people	O	O	NNS	P2_NPart_people
+2-19	's	O	O	O	O
+2-20	minds	2-11_prep_into	project	NNS	P1_NPart_minds
+2-21	.	O	O	O	O
+
+#id=3
+#text=My friend and I , Joey , decided that we would help to plant a few trees in order to contribute to the efforts . 
+3-1	My	O	O	PRP$	O
+3-2	friend	3-8_nsubj	decided	NN	O
+3-3	and	O	O	O	O
+3-4	I	O	O	PRP	P1_gardener
+3-5	,	O	O	O	O
+3-6	Joey	O	O	NNP	P1_gardener
+3-7	,	O	O	O	O
+3-8	decided	O	O	VBD	O
+3-9	that	3-12_mark	help	IN	O
+3-10	we	3-12_nsubj	help	PRP	P1_gardener
+3-11	would	3-12_aux	help	MD	O
+3-12	help	3-8_ccomp	decided	VB	O
+3-13	to	3-14_aux	plant	TO	O
+3-14	plant	3-12_xcomp	help	VB	O
+3-15	a	O	O	DT	O
+3-16	few	O	O	JJ	O
+3-17	trees	3-14_dobj	plant	NNS	P1_tree
+3-18	in	3-21_mark	contribute	IN	O
+3-19	order	3-21_dep	contribute	NN	O
+3-20	to	3-21_aux	contribute	TO	O
+3-21	contribute	3-14_advcl	plant	VB	O
+3-22	to	O	O	O	O
+3-23	the	O	O	DT	O
+3-24	efforts	3-21_prep_to	contribute	NNS	P1_NPart_efforts
+3-25	.	O	O	O	O
+
+#id=4
+#text=We received a few tree saplings in the mail from a catalog . 
+4-1	We	4-2_nsubj	received	PRP	P1_gardener
+4-2	received	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	few	O	O	JJ	O
+4-5	tree	O	O	NN	O
+4-6	saplings	4-2_dobj	received	NNS	P1_tree
+4-7	in	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	mail	4-2_prep_in	received	NN	P1_NPart_mail
+4-10	from	O	O	O	O
+4-11	a	O	O	DT	O
+4-12	catalog	4-2_prep_from	received	NN	P1_NPart_catalog
+4-13	.	O	O	O	O
+
+#id=5
+#text=Joey and I decided that we would plant them in our backyard to provide shade . 
+5-1	Joey	5-4_nsubj	decided	NNP	O
+5-2	and	O	O	O	O
+5-3	I	O	O	PRP	P1_gardener
+5-4	decided	O	O	VBD	O
+5-5	that	5-8_mark	plant	IN	O
+5-6	we	5-8_nsubj	plant	PRP	P1_gardener
+5-7	would	5-8_aux	plant	MD	O
+5-8	plant	5-4_ccomp	decided	VB	O
+5-9	them	5-8_dobj	plant	PRP	P1_tree
+5-10	in	O	O	O	O
+5-11	our	O	O	PRP$	P1_gardener
+5-12	backyard	5-8_prep_in	plant	NN	P1_NPart_backyard
+5-13	to	5-14_aux	provide	TO	O
+5-14	provide	O	O	VB	O
+5-15	shade	5-14_dobj	provide	NN	P1_NPart_shade
+5-16	.	O	O	O	O
+
+#id=6
+#text=While the trees might be small now , hopefully they would grow into big trees for maybe our kids . 
+6-1	While	O	O	IN	O
+6-2	the	O	O	DT	O
+6-3	trees	O	O	NNS	P1_tree
+6-4	might	O	O	MD	O
+6-5	be	O	O	VB	O
+6-6	small	6-12_advcl	grow	JJ	O
+6-7	now	O	O	RB	O
+6-8	,	O	O	O	O
+6-9	hopefully	O	O	RB	O
+6-10	they	6-12_nsubj	grow	PRP	P1_tree
+6-11	would	6-12_aux	grow	MD	O
+6-12	grow	O	O	VB	O
+6-13	into	O	O	O	O
+6-14	big	O	O	JJ	O
+6-15	trees	6-12_prep_into	grow	NNS	P1_tree
+6-16	for	O	O	O	O
+6-17	maybe	O	O	RB	O
+6-18	our	O	O	PRP$	P1_gardener
+6-19	kids	O	O	NNS	P1_NPart_kids
+6-20	.	O	O	O	O
+
+#id=7
+#text=We got all down and dirty in the grass , starting to rake up a circle of grass in order to turn over some topsoil . 
+7-1	We	7-2_nsubj	got	PRP	P1_gardener
+7-2	got	O	O	VBD	O
+7-3	all	O	O	DT	O
+7-4	down	7-2_advmod	got	RB	O
+7-5	and	O	O	O	O
+7-6	dirty	O	O	RB	O
+7-7	in	O	O	O	O
+7-8	the	O	O	DT	O
+7-9	grass	7-2_prep_in	got	NN	P1_NPart_grass
+7-10	,	O	O	O	O
+7-11	starting	7-2_xcomp	got	VBG	O
+7-12	to	7-13_aux	rake	TO	O
+7-13	rake	7-11_xcomp	starting	VB	O
+7-14	up	7-13_prt	rake	RP	O
+7-15	a	O	O	DT	O
+7-16	circle	7-13_dobj	rake	NN	P1_NPart_circle
+7-17	of	O	O	O	O
+7-18	grass	O	O	NN	P2_NPart_grass
+7-19	in	7-22_mark	turn	IN	O
+7-20	order	7-22_dep	turn	NN	O
+7-21	to	7-22_aux	turn	TO	O
+7-22	turn	7-13_advcl	rake	VB	O
+7-23	over	7-22_prt	turn	RP	O
+7-24	some	O	O	DT	O
+7-25	topsoil	7-22_dobj	turn	NN	P1_dirt
+7-26	.	O	O	O	O
+
+#id=8
+#text=We had a trowel , and yes we called it a trowel , and we dug into the dirt to start planting the tree . 
+8-1	We	8-2_nsubj	had	PRP	P1_gardener
+8-2	had	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	trowel	8-2_dobj	had	NN	P1_gardening_tool
+8-5	,	O	O	O	O
+8-6	and	O	O	O	O
+8-7	yes	8-9_discourse	called	UH	O
+8-8	we	8-9_nsubj	called	PRP	P1_gardener
+8-9	called	8-2_conj_and	had	VBD	O
+8-10	it	O	O	PRP	P1_gardening_tool
+8-11	a	O	O	DT	O
+8-12	trowel	8-9_xcomp	called	NN	P1_gardening_tool
+8-13	,	O	O	O	O
+8-14	and	O	O	O	O
+8-15	we	8-16_nsubj	dug	PRP	P1_gardener
+8-16	dug	8-9_conj_and	called	VBD	O
+8-17	into	O	O	O	O
+8-18	the	O	O	DT	O
+8-19	dirt	8-16_prep_into	dug	NN	P1_dirt
+8-20	to	8-21_aux	start	TO	O
+8-21	start	8-16_xcomp	dug	VB	O
+8-22	planting	8-21_xcomp	start	VBG	O
+8-23	the	O	O	DT	O
+8-24	tree	8-22_dobj	planting	NN	P1_tree
+8-25	.	O	O	O	O
+
+#id=9
+#text=We made a six inch deep hole in the soil , and then put the tree in . 
+9-1	We	9-2_nsubj	made	PRP	P1_gardener
+9-2	made	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	six	O	O	CD	O
+9-5	inch	O	O	NN	P1_NPart_inch
+9-6	deep	O	O	JJ	O
+9-7	hole	9-2_dobj	made	NN	P1_hole
+9-8	in	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	soil	9-2_prep_in	made	NN	P1_dirt
+9-11	,	O	O	O	O
+9-12	and	O	O	O	O
+9-13	then	9-14_advmod	put	RB	O
+9-14	put	9-2_conj_and	made	VBD	O
+9-15	the	O	O	DT	O
+9-16	tree	9-14_dobj	put	NN	P1_tree
+9-17	in	9-14_prt	put	RP	O
+9-18	.	O	O	O	O
+
+#id=10
+#text=We finished by packing the soil down around the roots of the small tree , and then we watered it . 
+10-1	We	10-2_nsubj	finished	PRP	P1_gardener
+10-2	finished	O	O	VBD	O
+10-3	by	O	O	O	O
+10-4	packing	10-2_prepc_by	finished	VBG	O
+10-5	the	O	O	DT	O
+10-6	soil	10-4_dobj	packing	NN	P1_dirt
+10-7	down	10-4_prt	packing	RP	O
+10-8	around	O	O	O	O
+10-9	the	O	O	DT	O
+10-10	roots	10-4_prep_around	packing	NNS	P1_root
+10-11	of	O	O	O	O
+10-12	the	O	O	DT	O
+10-13	small	O	O	JJ	O
+10-14	tree	O	O	NN	P1_tree
+10-15	,	O	O	O	O
+10-16	and	O	O	O	O
+10-17	then	10-19_advmod	watered	RB	O
+10-18	we	10-19_nsubj	watered	PRP	P1_gardener
+10-19	watered	10-2_conj_and	finished	VBD	O
+10-20	it	10-19_dobj	watered	PRP	P1_tree
+10-21	.	O	O	O	O

@@ -1,0 +1,251 @@
+#id=1
+#text=If you have a flat tire it is quite easy to change it yourself . 
+1-1	If	1-3_mark	have	IN	O
+1-2	you	1-3_nsubj	have	PRP	P1_rider
+1-3	have	O	O	VBP	O
+1-4	a	O	O	DT	O
+1-5	flat	O	O	JJ	O
+1-6	tire	1-3_dobj	have	NN	P1_tire
+1-7	it	O	O	PRP	O
+1-8	is	O	O	VBZ	O
+1-9	quite	O	O	RB	O
+1-10	easy	O	O	JJ	O
+1-11	to	1-12_aux	change	TO	O
+1-12	change	O	O	VB	O
+1-13	it	1-12_iobj	change	PRP	P1_tire
+1-14	yourself	1-12_dobj	change	PRP	P1_rider
+1-15	.	O	O	O	O
+
+#id=2
+#text=The front tire is the easiest to change while the back will require more time and maybe additional tools . 
+2-1	The	O	O	DT	O
+2-2	front	O	O	JJ	O
+2-3	tire	O	O	NN	P2_tire
+2-4	is	O	O	VBZ	O
+2-5	the	O	O	DT	O
+2-6	easiest	O	O	JJS	O
+2-7	to	2-8_aux	change	TO	O
+2-8	change	O	O	VB	O
+2-9	while	2-13_mark	require	IN	O
+2-10	the	O	O	DT	O
+2-11	back	2-13_nsubj	require	NN	P1_tire
+2-12	will	2-13_aux	require	MD	O
+2-13	require	2-8_advcl	change	VB	O
+2-14	more	O	O	JJR	O
+2-15	time	2-13_dobj	require	NN	P1_NPart_time
+2-16	and	O	O	CC	O
+2-17	maybe	O	O	RB	O
+2-18	additional	O	O	JJ	O
+2-19	tools	O	O	NNS	P1_tool
+2-20	.	O	O	O	O
+
+#id=3
+#text=This is usually the back tire is where the chain and gears are connected to so it is harder to take off the bike frame . 
+3-1	This	O	O	DT	O
+3-2	is	O	O	VBZ	O
+3-3	usually	O	O	RB	O
+3-4	the	O	O	DT	O
+3-5	back	O	O	JJ	O
+3-6	tire	O	O	NN	P1_tire
+3-7	is	O	O	VBZ	O
+3-8	where	3-14_advmod	connected	WRB	O
+3-9	the	O	O	DT	O
+3-10	chain	3-14_nsubjpass	connected	NN	P1_other
+3-11	and	O	O	O	O
+3-12	gears	O	O	NNS	P1_bicycle_small_detail
+3-13	are	3-14_auxpass	connected	VBP	O
+3-14	connected	3-7_advcl	is	VBN	O
+3-15	to	O	O	O	O
+3-16	so	O	O	IN	O
+3-17	it	O	O	PRP	O
+3-18	is	O	O	VBZ	O
+3-19	harder	3-14_prepc_to	connected	JJR	O
+3-20	to	3-21_aux	take	TO	O
+3-21	take	O	O	VB	O
+3-22	off	3-21_prt	take	RP	O
+3-23	the	O	O	DT	O
+3-24	bike	O	O	NN	O
+3-25	frame	3-21_dobj	take	NN	P1_NPart_frame
+3-26	.	O	O	O	O
+
+#id=4
+#text=Sadly , most of the time a flat tire is the back tire because the back tire supports most of your weight on a bicycle . 
+4-1	Sadly	O	O	RB	O
+4-2	,	O	O	O	O
+4-3	most	O	O	JJS	O
+4-4	of	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	time	O	O	NN	O
+4-7	a	O	O	DT	O
+4-8	flat	O	O	JJ	O
+4-9	tire	O	O	NN	P1_tire
+4-10	is	O	O	VBZ	O
+4-11	the	O	O	DT	O
+4-12	back	O	O	JJ	O
+4-13	tire	O	O	NN	P1_tire
+4-14	because	4-18_mark	supports	IN	O
+4-15	the	O	O	DT	O
+4-16	back	O	O	JJ	O
+4-17	tire	4-18_nsubj	supports	NN	P1_tire
+4-18	supports	O	O	VBZ	O
+4-19	most	4-18_dobj	supports	JJS	O
+4-20	of	O	O	O	O
+4-21	your	O	O	PRP$	P1_rider
+4-22	weight	O	O	NN	P1_NPart_weight
+4-23	on	O	O	O	O
+4-24	a	O	O	DT	O
+4-25	bicycle	O	O	NN	P1_bicycle
+4-26	.	O	O	O	O
+
+#id=5
+#text=So you 'll need a wrench to undo the bolts on both sides of the tire . 
+5-1	So	5-4_dep	need	IN	O
+5-2	you	5-4_nsubj	need	PRP	P1_rider
+5-3	'll	5-4_aux	need	MD	O
+5-4	need	O	O	VB	O
+5-5	a	O	O	DT	O
+5-6	wrench	5-4_dobj	need	NN	P2_tool
+5-7	to	5-8_aux	undo	TO	O
+5-8	undo	O	O	VB	O
+5-9	the	O	O	DT	O
+5-10	bolts	5-8_dobj	undo	NNS	P2_bicycle_small_detail
+5-11	on	O	O	O	O
+5-12	both	O	O	DT	O
+5-13	sides	5-8_prep_on	undo	NNS	P1_NPart_sides
+5-14	of	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	tire	O	O	NN	P1_tire
+5-17	.	O	O	O	O
+
+#id=6
+#text=This will allow you to take off the entire tire . 
+6-1	This	6-3_nsubj	allow	DT	O
+6-2	will	6-3_aux	allow	MD	O
+6-3	allow	O	O	VB	O
+6-4	you	6-3_dobj	allow	PRP	P1_rider
+6-5	to	6-6_aux	take	TO	O
+6-6	take	6-3_xcomp	allow	VB	O
+6-7	off	6-6_prt	take	RP	O
+6-8	the	O	O	DT	O
+6-9	entire	O	O	JJ	O
+6-10	tire	6-6_dobj	take	NN	P1_tire
+6-11	.	O	O	O	O
+
+#id=7
+#text=Inside the tire is an innertube , and this is the part you either need to replace or patch up . 
+7-1	Inside	O	O	O	O
+7-2	the	O	O	DT	O
+7-3	tire	O	O	NN	P1_tire
+7-4	is	O	O	VBZ	O
+7-5	an	O	O	DT	O
+7-6	innertube	7-15_prepc_inside	need	NN	P3_tire
+7-7	,	O	O	O	O
+7-8	and	O	O	O	O
+7-9	this	O	O	DT	P3_tire
+7-10	is	O	O	VBZ	O
+7-11	the	O	O	DT	O
+7-12	part	O	O	NN	P3_tire
+7-13	you	7-15_nsubj	need	PRP	P1_rider
+7-14	either	7-15_advmod	need	RB	O
+7-15	need	O	O	VBP	O
+7-16	to	7-17_aux	replace	TO	O
+7-17	replace	7-15_xcomp	need	VB	O
+7-18	or	O	O	O	O
+7-19	patch	7-17_conj_or	replace	VB	O
+7-20	up	7-19_prt	patch	RP	O
+7-21	.	O	O	O	O
+
+#id=8
+#text=If it is a small hole and you can easily find the hole , you can use a tire patch kit to fix the hole . 
+8-1	If	O	O	IN	O
+8-2	it	O	O	PRP	O
+8-3	is	O	O	VBZ	O
+8-4	a	O	O	DT	O
+8-5	small	O	O	JJ	O
+8-6	hole	8-17_advcl	use	NN	P1_object_damage
+8-7	and	O	O	O	O
+8-8	you	8-11_nsubj	find	PRP	P1_rider
+8-9	can	8-11_aux	find	MD	O
+8-10	easily	8-11_advmod	find	RB	O
+8-11	find	O	O	VB	O
+8-12	the	O	O	DT	O
+8-13	hole	8-11_dobj	find	NN	P1_object_damage
+8-14	,	O	O	O	O
+8-15	you	8-17_nsubj	use	PRP	P1_rider
+8-16	can	8-17_aux	use	MD	O
+8-17	use	O	O	VB	O
+8-18	a	O	O	DT	O
+8-19	tire	O	O	NN	O
+8-20	patch	O	O	NN	O
+8-21	kit	8-17_dobj	use	NN	P3_tool
+8-22	to	8-23_aux	fix	TO	O
+8-23	fix	8-17_vmod	use	VB	O
+8-24	the	O	O	DT	O
+8-25	hole	8-23_dobj	fix	NN	P1_object_damage
+8-26	.	O	O	O	O
+
+#id=9
+#text=Other wise you may just replace the entire innertube altogether . 
+9-1	Other	O	O	JJ	O
+9-2	wise	O	O	JJ	O
+9-3	you	9-6_nsubj	replace	NN	P1_rider
+9-4	may	9-6_aux	replace	MD	O
+9-5	just	9-6_advmod	replace	RB	O
+9-6	replace	O	O	VB	O
+9-7	the	O	O	DT	O
+9-8	entire	O	O	JJ	O
+9-9	innertube	9-6_dobj	replace	NN	P3_tire
+9-10	altogether	9-6_advmod	replace	RB	O
+9-11	.	O	O	O	O
+
+#id=10
+#text=Either way you will put the innertube back , and then the tire back onto the bike frame . 
+10-1	Either	O	O	CC	O
+10-2	way	10-5_nsubj	put	NN	O
+10-3	you	10-5_nsubj	put	PRP	P1_rider
+10-4	will	10-5_aux	put	MD	O
+10-5	put	O	O	VB	O
+10-6	the	O	O	DT	O
+10-7	innertube	10-5_dobj	put	NN	P3_tire
+10-8	back	10-5_advmod	put	RB	O
+10-9	,	O	O	O	O
+10-10	and	O	O	O	O
+10-11	then	O	O	RB	O
+10-12	the	O	O	DT	O
+10-13	tire	O	O	NN	P1_tire
+10-14	back	O	O	RB	O
+10-15	onto	O	O	IN	O
+10-16	the	O	O	DT	O
+10-17	bike	O	O	NN	O
+10-18	frame	O	O	NN	P1_NPart_frame
+10-19	.	O	O	O	O
+
+#id=11
+#text=Lastly , screw back on the bolts and pump some air into the tire . 
+11-1	Lastly	11-3_advmod	screw	RB	O
+11-2	,	O	O	O	O
+11-3	screw	O	O	VB	O
+11-4	back	11-3_prt	screw	RP	O
+11-5	on	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	bolts	11-3_prep_on	screw	NNS	P2_bicycle_small_detail
+11-8	and	O	O	O	O
+11-9	pump	11-3_conj_and	screw	VB	O
+11-10	some	O	O	DT	O
+11-11	air	11-9_dobj	pump	NN	P1_air
+11-12	into	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	tire	11-9_prep_into	pump	NN	P1_tire
+11-15	.	O	O	O	O
+
+#id=12
+#text=You 'll be ready to ride soon after ! 
+12-1	You	O	O	PRP	P1_rider
+12-2	'll	O	O	MD	O
+12-3	be	O	O	VB	O
+12-4	ready	O	O	JJ	O
+12-5	to	12-6_aux	ride	TO	O
+12-6	ride	O	O	VB	O
+12-7	soon	12-6_advmod	ride	RB	O
+12-8	after	12-6_prep	ride	IN	O
+12-9	!	O	O	O	O

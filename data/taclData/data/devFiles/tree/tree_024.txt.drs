@@ -1,0 +1,194 @@
+#id=1
+#text=My grandpa needed help recently planting a bunch of apple trees on his property . 
+1-1	My	O	O	PRP$	P1_gardener
+1-2	grandpa	1-3_nsubj	needed	NN	P2_gardener
+1-3	needed	O	O	VBD	O
+1-4	help	1-3_xcomp	needed	VB	O
+1-5	recently	1-4_advmod	help	RB	O
+1-6	planting	1-4_xcomp	help	VBG	O
+1-7	a	O	O	DT	O
+1-8	bunch	1-6_dobj	planting	NN	O
+1-9	of	O	O	O	O
+1-10	apple	O	O	NN	O
+1-11	trees	O	O	NNS	P1_tree
+1-12	on	O	O	O	O
+1-13	his	O	O	PRP$	P2_gardener
+1-14	property	1-6_prep_on	planting	NN	P1_NPart_property
+1-15	.	O	O	O	O
+
+#id=2
+#text=After going to the nursery , we picked a perfect place for them to go and made sure to place them the appropriate distance apart . 
+2-1	After	O	O	O	O
+2-2	going	2-8_prepc_after	picked	VBG	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	nursery	2-2_prep_to	going	NN	P1_shop
+2-6	,	O	O	O	O
+2-7	we	2-8_nsubj	picked	PRP	P3_gardener
+2-8	picked	O	O	VBD	O
+2-9	a	O	O	DT	O
+2-10	perfect	O	O	JJ	O
+2-11	place	2-8_dobj	picked	NN	P1_location_garden
+2-12	for	O	O	O	O
+2-13	them	O	O	PRP	P1_tree
+2-14	to	2-15_aux	go	TO	O
+2-15	go	2-8_vmod	picked	VB	O
+2-16	and	O	O	O	O
+2-17	made	2-8_conj_and	picked	VBD	O
+2-18	sure	2-17_acomp	made	JJ	O
+2-19	to	2-20_aux	place	TO	O
+2-20	place	O	O	VB	O
+2-21	them	2-20_dobj	place	PRP	P1_tree
+2-22	the	O	O	DT	O
+2-23	appropriate	O	O	JJ	O
+2-24	distance	2-8_dobj	picked	NN	P1_NPart_distance
+2-25	apart	2-8_advmod	picked	RB	O
+2-26	.	O	O	O	O
+
+#id=3
+#text=We grabbed the shovels he had in his shed and started digging the holes . 
+3-1	We	3-2_nsubj	grabbed	PRP	P3_gardener
+3-2	grabbed	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	shovels	3-2_dobj	grabbed	NNS	P1_gardening_tool
+3-5	he	3-6_nsubj	had	PRP	P2_gardener
+3-6	had	O	O	VBD	O
+3-7	in	O	O	O	O
+3-8	his	O	O	PRP$	P2_gardener
+3-9	shed	3-6_prep_in	had	NN	P1_NPart_shed
+3-10	and	O	O	O	O
+3-11	started	3-6_conj_and	had	VBD	O
+3-12	digging	3-11_iobj	started	NN	O
+3-13	the	O	O	DT	O
+3-14	holes	3-11_dobj	started	NNS	P1_hole
+3-15	.	O	O	O	O
+
+#id=4
+#text=After digging them all out , we carefully placed them into their spots and made sure to give them plenty of room and filled the hole with nutrients and very fresh soil . 
+4-1	After	O	O	O	O
+4-2	digging	4-9_prepc_after	placed	VBG	O
+4-3	them	4-2_dobj	digging	PRP	P1_hole
+4-4	all	O	O	DT	O
+4-5	out	4-2_advmod	digging	IN	O
+4-6	,	O	O	O	O
+4-7	we	4-9_nsubj	placed	PRP	P3_gardener
+4-8	carefully	4-9_advmod	placed	RB	O
+4-9	placed	O	O	VBD	O
+4-10	them	4-9_dobj	placed	PRP	P1_tree
+4-11	into	O	O	O	O
+4-12	their	O	O	PRP$	P1_tree
+4-13	spots	4-9_prep_into	placed	NNS	P1_location_garden
+4-14	and	O	O	O	O
+4-15	made	4-9_conj_and	placed	VBN	O
+4-16	sure	4-15_acomp	made	JJ	O
+4-17	to	4-18_aux	give	TO	O
+4-18	give	O	O	VB	O
+4-19	them	4-18_iobj	give	PRP	P1_tree
+4-20	plenty	4-18_dobj	give	RB	O
+4-21	of	O	O	O	O
+4-22	room	O	O	NN	P1_NPart_room
+4-23	and	O	O	O	O
+4-24	filled	4-15_conj_and	made	VBN	O
+4-25	the	O	O	DT	O
+4-26	hole	4-24_dobj	filled	NN	P1_hole
+4-27	with	O	O	O	O
+4-28	nutrients	4-24_prep_with	filled	NNS	P1_fertilizer
+4-29	and	O	O	O	O
+4-30	very	O	O	RB	O
+4-31	fresh	O	O	JJ	O
+4-32	soil	O	O	NN	P1_dirt
+4-33	.	O	O	O	O
+
+#id=5
+#text=We made sure to give the newly planted trees plenty of water so that they would establish their roots very quickly and grow into very healthy trees . 
+5-1	We	5-2_nsubj	made	PRP	P3_gardener
+5-2	made	O	O	VBD	O
+5-3	sure	5-2_acomp	made	JJ	O
+5-4	to	5-5_aux	give	TO	O
+5-5	give	O	O	VB	O
+5-6	the	O	O	DT	O
+5-7	newly	O	O	RB	O
+5-8	planted	O	O	JJ	O
+5-9	trees	5-5_iobj	give	NNS	P1_tree
+5-10	plenty	5-5_dobj	give	RB	O
+5-11	of	O	O	O	O
+5-12	water	O	O	NN	P1_water
+5-13	so	5-17_advmod	establish	RB	O
+5-14	that	5-17_mark	establish	IN	O
+5-15	they	5-17_nsubj	establish	PRP	P1_tree
+5-16	would	5-17_aux	establish	MD	O
+5-17	establish	5-2_advcl	made	VB	O
+5-18	their	O	O	PRP$	P1_tree
+5-19	roots	5-17_dobj	establish	NNS	P1_root
+5-20	very	O	O	RB	O
+5-21	quickly	5-17_advmod	establish	RB	O
+5-22	and	O	O	O	O
+5-23	grow	5-17_conj_and	establish	VB	O
+5-24	into	O	O	O	O
+5-25	very	O	O	RB	O
+5-26	healthy	O	O	JJ	O
+5-27	trees	5-23_prep_into	grow	NNS	P1_tree
+5-28	.	O	O	O	O
+
+#id=6
+#text=The first stage of planting a tree is the most important and we wanted to make sure to do it right . 
+6-1	The	O	O	DT	O
+6-2	first	O	O	JJ	O
+6-3	stage	O	O	NN	P1_NPart_stage
+6-4	of	O	O	O	O
+6-5	planting	O	O	VBG	O
+6-6	a	O	O	DT	O
+6-7	tree	6-5_dobj	planting	NN	P1_tree
+6-8	is	O	O	VBZ	O
+6-9	the	O	O	DT	O
+6-10	most	O	O	JJS	O
+6-11	important	O	O	JJ	O
+6-12	and	O	O	O	O
+6-13	we	6-14_nsubj	wanted	PRP	P3_gardener
+6-14	wanted	O	O	VBD	O
+6-15	to	6-16_aux	make	TO	O
+6-16	make	6-14_xcomp	wanted	VB	O
+6-17	sure	6-16_acomp	make	JJ	O
+6-18	to	6-19_aux	do	TO	O
+6-19	do	O	O	VB	O
+6-20	it	O	O	PRP	O
+6-21	right	6-19_xcomp	do	RB	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=After we were done , we put all of our tools back and looked at our hard work . 
+7-1	After	7-4_mark	done	IN	O
+7-2	we	7-4_nsubjpass	done	PRP	P3_gardener
+7-3	were	7-4_auxpass	done	VBD	O
+7-4	done	7-7_advcl	put	VBN	O
+7-5	,	O	O	O	O
+7-6	we	7-7_nsubj	put	PRP	P3_gardener
+7-7	put	O	O	VBD	O
+7-8	all	7-7_dobj	put	DT	O
+7-9	of	O	O	O	O
+7-10	our	O	O	PRP$	P3_gardener
+7-11	tools	O	O	NNS	P2_gardening_tool
+7-12	back	O	O	RB	O
+7-13	and	O	O	O	O
+7-14	looked	7-7_conj_and	put	VBD	O
+7-15	at	O	O	O	O
+7-16	our	O	O	PRP$	P3_gardener
+7-17	hard	O	O	JJ	O
+7-18	work	7-14_prep_at	looked	NN	P1_NPart_work
+7-19	.	O	O	O	O
+
+#id=8
+#text=It was a fun experience and the trees ended up growing beautifully . 
+8-1	It	O	O	PRP	O
+8-2	was	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	fun	O	O	NN	O
+8-5	experience	O	O	NN	P1_NPart_experience
+8-6	and	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	trees	8-9_nsubj	ended	NNS	P1_tree
+8-9	ended	O	O	VBD	O
+8-10	up	8-9_prt	ended	RP	O
+8-11	growing	O	O	VBG	O
+8-12	beautifully	8-9_dobj	ended	NN	O
+8-13	.	O	O	O	O

@@ -1,0 +1,191 @@
+#id=1
+#text=My car had broken down so I needed to take the public bus to work on Wednesday morning . 
+1-1	My	O	O	PRP$	P1_passenger
+1-2	car	1-4_nsubj	broken	NN	P1_NPart_car
+1-3	had	1-4_aux	broken	VBD	O
+1-4	broken	O	O	VBN	O
+1-5	down	1-4_prt	broken	RP	O
+1-6	so	1-8_mark	needed	IN	O
+1-7	I	1-8_nsubj	needed	PRP	P1_passenger
+1-8	needed	1-4_advcl	broken	VBD	O
+1-9	to	1-10_aux	take	TO	O
+1-10	take	1-8_xcomp	needed	VB	O
+1-11	the	O	O	DT	O
+1-12	public	O	O	JJ	O
+1-13	bus	1-10_dobj	take	NN	P1_bus
+1-14	to	1-15_aux	work	TO	O
+1-15	work	1-10_vmod	take	VB	P1_destination
+1-16	on	O	O	O	O
+1-17	Wednesday	1-15_prep_on	work	NNP	O
+1-18	morning	1-15_tmod	work	NN	P1_time/date
+1-19	.	O	O	O	O
+
+#id=2
+#text=First I looked on-line to see which bus I should take to get to McLean , and what bus stop was the closest to my home . 
+2-1	First	2-3_advmod	looked	RB	O
+2-2	I	2-3_nsubj	looked	PRP	P1_passenger
+2-3	looked	O	O	VBD	O
+2-4	on-line	2-3_acomp	looked	JJ	O
+2-5	to	2-6_aux	see	TO	O
+2-6	see	O	O	VB	O
+2-7	which	2-8_nsubj	bus	WDT	O
+2-8	bus	2-6_dep	see	VBD	P1_bus
+2-9	I	2-11_nsubj	take	PRP	P1_passenger
+2-10	should	2-11_aux	take	MD	O
+2-11	take	2-8_ccomp	bus	VB	O
+2-12	to	2-13_aux	get	TO	O
+2-13	get	2-11_xcomp	take	VB	O
+2-14	to	O	O	O	O
+2-15	McLean	2-13_prep_to	get	NNP	P1_destination
+2-16	,	O	O	O	O
+2-17	and	O	O	O	O
+2-18	what	O	O	WP	O
+2-19	bus	O	O	NN	O
+2-20	stop	O	O	NN	P1_bus_stop
+2-21	was	O	O	VBD	O
+2-22	the	O	O	DT	O
+2-23	closest	2-8_conj_and	bus	JJS	O
+2-24	to	O	O	O	O
+2-25	my	O	O	PRP$	P1_passenger
+2-26	home	O	O	NN	P1_NPart_home
+2-27	.	O	O	O	O
+
+#id=3
+#text=The instructions were to go to Seven Corners shopping center , catch the 3A to Tyson Corner , and then transfer to the 18A to get within a block of my office . 
+3-1	The	O	O	DT	O
+3-2	instructions	3-3_nsubj	were	NNS	P1_NPart_instructions
+3-3	were	O	O	VBD	O
+3-4	to	3-5_aux	go	TO	O
+3-5	go	3-3_xcomp	were	VB	O
+3-6	to	O	O	O	O
+3-7	Seven	O	O	NNP	O
+3-8	Corners	O	O	NNPS	O
+3-9	shopping	3-5_prep_to	go	NN	O
+3-10	center	O	O	NN	P1_NPart_center
+3-11	,	O	O	O	O
+3-12	catch	3-5_conj_and	go	VB	O
+3-13	the	O	O	DT	O
+3-14	3A	O	O	CD	P1_bus
+3-15	to	O	O	TO	O
+3-16	Tyson	O	O	CD	O
+3-17	Corner	3-12_dobj	catch	NN	P2_bus_stop
+3-18	,	O	O	O	O
+3-19	and	O	O	O	O
+3-20	then	3-21_advmod	transfer	RB	O
+3-21	transfer	3-5_conj_and	go	VB	O
+3-22	to	O	O	O	O
+3-23	the	O	O	DT	O
+3-24	18A	3-21_prep_to	transfer	NN	P1_bus
+3-25	to	3-26_aux	get	TO	O
+3-26	get	O	O	VB	O
+3-27	within	O	O	O	O
+3-28	a	O	O	DT	O
+3-29	block	3-26_prep_within	get	NN	P1_NPart_block
+3-30	of	O	O	O	O
+3-31	my	O	O	PRP$	P1_passenger
+3-32	office	O	O	NN	P1_destination
+3-33	.	O	O	O	O
+
+#id=4
+#text=In the morning I walked up to the shopping center and waited until the bus came . 
+4-1	In	O	O	O	O
+4-2	the	O	O	DT	O
+4-3	morning	4-5_prep_in	walked	NN	P2_time/date
+4-4	I	4-5_nsubj	walked	PRP	P1_passenger
+4-5	walked	O	O	VBD	O
+4-6	up	4-5_prt	walked	RP	O
+4-7	to	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	shopping	O	O	NN	O
+4-10	center	4-5_prep_to	walked	NN	P2_NPart_center
+4-11	and	O	O	O	O
+4-12	waited	4-5_conj_and	walked	VBD	O
+4-13	until	4-16_mark	came	IN	O
+4-14	the	O	O	DT	O
+4-15	bus	4-16_nsubj	came	NN	P1_bus
+4-16	came	4-12_advcl	waited	VBD	O
+4-17	.	O	O	O	O
+
+#id=5
+#text=I got on , paying the driver with change and dollar bills . 
+5-1	I	5-2_nsubj	got	PRP	P1_passenger
+5-2	got	O	O	VBD	O
+5-3	on	5-2_prt	got	RP	O
+5-4	,	O	O	O	O
+5-5	paying	5-2_xcomp	got	VBG	O
+5-6	the	O	O	DT	O
+5-7	driver	5-5_dobj	paying	NN	P1_bus_staff
+5-8	with	O	O	O	O
+5-9	change	O	O	NN	P1_money
+5-10	and	O	O	O	O
+5-11	dollar	O	O	NN	O
+5-12	bills	5-5_prep_with	paying	NNS	P2_money
+5-13	.	O	O	O	O
+
+#id=6
+#text=I confirmed with the driver that this was the correct bus to go to Tyson Corner and transfer . 
+6-1	I	6-2_nsubj	confirmed	PRP	P1_passenger
+6-2	confirmed	O	O	VBD	O
+6-3	with	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	driver	6-2_prep_with	confirmed	NN	P2_bus_staff
+6-6	that	O	O	IN	O
+6-7	this	O	O	DT	O
+6-8	was	O	O	VBD	O
+6-9	the	O	O	DT	O
+6-10	correct	O	O	JJ	O
+6-11	bus	6-2_ccomp	confirmed	NN	P1_bus
+6-12	to	6-13_aux	go	TO	O
+6-13	go	O	O	VB	O
+6-14	to	O	O	O	O
+6-15	Tyson	O	O	NNP	O
+6-16	Corner	6-13_prep_to	go	NNP	P1_NPart_corner
+6-17	and	O	O	O	O
+6-18	transfer	6-13_conj_and	go	VB	O
+6-19	.	O	O	O	O
+
+#id=7
+#text=I chose a seat near the front so I could make sure I did not miss my next stop . 
+7-1	I	7-2_nsubj	chose	PRP	P1_passenger
+7-2	chose	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	seat	7-2_dobj	chose	NN	P1_seat_in_bus
+7-5	near	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	front	O	O	NN	P1_other
+7-8	so	7-11_mark	make	IN	O
+7-9	I	7-11_nsubj	make	PRP	P1_passenger
+7-10	could	7-11_aux	make	MD	O
+7-11	make	7-2_advcl	chose	VB	O
+7-12	sure	7-11_acomp	make	JJ	O
+7-13	I	7-16_nsubj	miss	PRP	P1_passenger
+7-14	did	7-16_aux	miss	VBD	O
+7-15	not	7-16_neg	miss	RB	O
+7-16	miss	O	O	VB	O
+7-17	my	O	O	PRP$	P1_passenger
+7-18	next	O	O	JJ	O
+7-19	stop	7-16_dobj	miss	NN	P2_bus_stop
+7-20	.	O	O	O	O
+
+#id=8
+#text=I transferred at Tyson Corner to the 18A , which took me within a block of my work place . 
+8-1	I	8-2_nsubj	transferred	PRP	P1_passenger
+8-2	transferred	O	O	VBD	O
+8-3	at	O	O	O	O
+8-4	Tyson	O	O	NNP	O
+8-5	Corner	8-2_prep_at	transferred	NNP	P2_bus_stop
+8-6	to	O	O	O	O
+8-7	the	O	O	DT	O
+8-8	18A	8-2_prep_to	transferred	CD	P1_bus
+8-9	,	O	O	O	O
+8-10	which	8-11_nsubj	took	WDT	O
+8-11	took	O	O	VBD	O
+8-12	me	8-11_dobj	took	PRP	P1_passenger
+8-13	within	O	O	O	O
+8-14	a	O	O	DT	O
+8-15	block	8-11_prep_within	took	NN	P2_NPart_block
+8-16	of	O	O	O	O
+8-17	my	O	O	PRP$	P1_passenger
+8-18	work	O	O	NN	O
+8-19	place	O	O	NN	P1_destination
+8-20	.	O	O	O	O

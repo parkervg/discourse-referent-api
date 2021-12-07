@@ -1,0 +1,216 @@
+#id=1
+#text=My five year old son loves to read books , so today we both decided to head towards the library to pick one out . 
+1-1	My	O	O	PRP$	P1_customer
+1-2	five	O	O	CD	O
+1-3	year	O	O	NN	P1_NPart_year
+1-4	old	O	O	JJ	O
+1-5	son	1-6_nsubj	loves	NN	P2_customer
+1-6	loves	O	O	VBZ	O
+1-7	to	1-8_aux	read	TO	O
+1-8	read	1-6_xcomp	loves	VB	O
+1-9	books	1-8_dobj	read	NNS	P1_book
+1-10	,	O	O	O	O
+1-11	so	1-6_dep	loves	IN	O
+1-12	today	1-15_tmod	decided	NN	O
+1-13	we	1-15_nsubj	decided	PRP	P3_customer
+1-14	both	O	O	DT	O
+1-15	decided	1-6_parataxis	loves	VBD	O
+1-16	to	1-17_aux	head	TO	O
+1-17	head	1-15_xcomp	decided	VB	O
+1-18	towards	O	O	O	O
+1-19	the	O	O	DT	O
+1-20	library	1-17_prep_towards	head	NN	P1_library
+1-21	to	1-22_aux	pick	TO	O
+1-22	pick	O	O	VB	O
+1-23	one	1-22_dobj	pick	CD	P1_book
+1-24	out	1-22_prt	pick	RP	O
+1-25	.	O	O	O	O
+
+#id=2
+#text=Before leaving the house I made sure he had his library card with him because without it he would n't be able to borrow a book . 
+2-1	Before	O	O	O	O
+2-2	leaving	2-6_prepc_before	made	VBG	O
+2-3	the	O	O	DT	O
+2-4	house	2-2_dobj	leaving	NN	P1_NPart_house
+2-5	I	2-6_nsubj	made	PRP	P1_customer
+2-6	made	O	O	VBD	O
+2-7	sure	2-6_acomp	made	JJ	O
+2-8	he	2-9_nsubj	had	PRP	P2_customer
+2-9	had	O	O	VBD	O
+2-10	his	O	O	PRP$	P2_customer
+2-11	library	O	O	NN	O
+2-12	card	2-9_dobj	had	NN	P1_library_card
+2-13	with	O	O	O	O
+2-14	him	2-9_prep_with	had	PRP	P2_customer
+2-15	because	O	O	IN	O
+2-16	without	O	O	O	O
+2-17	it	O	O	PRP	P1_library_card
+2-18	he	O	O	PRP	P2_customer
+2-19	would	O	O	MD	O
+2-20	n't	O	O	RB	O
+2-21	be	O	O	VB	O
+2-22	able	2-6_advcl	made	JJ	O
+2-23	to	2-24_aux	borrow	TO	O
+2-24	borrow	O	O	VB	O
+2-25	a	O	O	DT	O
+2-26	book	2-24_dobj	borrow	NN	P1_book
+2-27	.	O	O	O	O
+
+#id=3
+#text=When we entered the library we went straight towards the kid section . 
+3-1	When	3-3_advmod	entered	WRB	O
+3-2	we	3-3_nsubj	entered	PRP	P3_customer
+3-3	entered	3-7_advcl	went	VBD	O
+3-4	the	O	O	DT	O
+3-5	library	3-3_dobj	entered	NN	P1_library
+3-6	we	3-7_nsubj	went	PRP	P3_customer
+3-7	went	O	O	VBD	O
+3-8	straight	3-7_advmod	went	RB	O
+3-9	towards	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	kid	O	O	NN	O
+3-12	section	3-7_prep_towards	went	NN	P1_location_library
+3-13	.	O	O	O	O
+
+#id=4
+#text=There were thousands of books to choose from and he had a little trouble making up his mind . 
+4-1	There	4-2_expl	were	EX	O
+4-2	were	O	O	VBD	O
+4-3	thousands	4-2_nsubj	were	NNS	O
+4-4	of	O	O	O	O
+4-5	books	O	O	NNS	P1_book
+4-6	to	4-7_aux	choose	TO	O
+4-7	choose	O	O	VB	O
+4-8	from	4-7_prep	choose	IN	O
+4-9	and	O	O	O	O
+4-10	he	4-11_nsubj	had	PRP	P2_customer
+4-11	had	4-2_conj_and	were	VBD	O
+4-12	a	O	O	DT	O
+4-13	little	O	O	JJ	O
+4-14	trouble	4-11_dobj	had	NN	O
+4-15	making	O	O	VBG	O
+4-16	up	4-15_prt	making	RP	O
+4-17	his	O	O	PRP$	P2_customer
+4-18	mind	4-15_dobj	making	NN	O
+4-19	.	O	O	O	O
+
+#id=5
+#text=Finally we found a book about the different type of sea animals in the ocean . 
+5-1	Finally	5-3_advmod	found	RB	O
+5-2	we	5-3_nsubj	found	PRP	P3_customer
+5-3	found	O	O	VBD	O
+5-4	a	O	O	DT	O
+5-5	book	5-3_dobj	found	NN	P1_book
+5-6	about	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	different	O	O	JJ	O
+5-9	type	5-3_prep_about	found	NN	O
+5-10	of	O	O	O	O
+5-11	sea	O	O	NN	O
+5-12	animals	O	O	NNS	P1_NPart_animals
+5-13	in	O	O	O	O
+5-14	the	O	O	DT	O
+5-15	ocean	5-3_prep_in	found	NN	P1_NPart_ocean
+5-16	.	O	O	O	O
+
+#id=6
+#text=He was very excited as he flipped through the pages of the book . 
+6-1	He	O	O	PRP	P2_customer
+6-2	was	O	O	VBD	O
+6-3	very	O	O	RB	O
+6-4	excited	O	O	JJ	O
+6-5	as	6-7_mark	flipped	IN	O
+6-6	he	6-7_nsubj	flipped	PRP	P2_customer
+6-7	flipped	O	O	VBD	O
+6-8	through	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	pages	6-7_prep_through	flipped	NNS	P1_NPart_pages
+6-11	of	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	book	O	O	NN	P1_book
+6-14	.	O	O	O	O
+
+#id=7
+#text=When he decided this was the book he wanted to take home , we make our way towards the librarian . 
+7-1	When	7-3_advmod	decided	WRB	O
+7-2	he	7-3_nsubj	decided	PRP	P2_customer
+7-3	decided	7-15_advcl	make	VBD	O
+7-4	this	O	O	DT	P1_book
+7-5	was	O	O	VBD	O
+7-6	the	O	O	DT	O
+7-7	book	7-3_ccomp	decided	NN	P1_book
+7-8	he	7-9_nsubj	wanted	PRP	P2_customer
+7-9	wanted	O	O	VBD	O
+7-10	to	7-11_aux	take	TO	O
+7-11	take	7-9_xcomp	wanted	VB	O
+7-12	home	7-11_dobj	take	NN	P1_NPart_home
+7-13	,	O	O	O	O
+7-14	we	7-15_nsubj	make	PRP	P3_customer
+7-15	make	O	O	VBP	O
+7-16	our	O	O	PRP$	P3_customer
+7-17	way	7-15_dobj	make	NN	O
+7-18	towards	O	O	O	O
+7-19	the	O	O	DT	O
+7-20	librarian	7-15_prep_towards	make	NN	P1_staff
+7-21	.	O	O	O	O
+
+#id=8
+#text=She greeted us with a friendly hello and asked my son for his library card . 
+8-1	She	8-2_nsubj	greeted	PRP	P1_staff
+8-2	greeted	O	O	VBD	O
+8-3	us	8-2_dobj	greeted	PRP	P3_customer
+8-4	with	O	O	O	O
+8-5	a	O	O	DT	O
+8-6	friendly	O	O	JJ	O
+8-7	hello	8-2_prep_with	greeted	NN	O
+8-8	and	O	O	O	O
+8-9	asked	8-2_conj_and	greeted	VBD	O
+8-10	my	O	O	PRP$	P1_customer
+8-11	son	8-9_dobj	asked	NN	P2_customer
+8-12	for	O	O	O	O
+8-13	his	O	O	PRP$	P2_customer
+8-14	library	O	O	NN	O
+8-15	card	8-9_prep_for	asked	NN	P1_library_card
+8-16	.	O	O	O	O
+
+#id=9
+#text=She scanned the card and book then handed them both back to my son . 
+9-1	She	9-2_nsubj	scanned	PRP	P1_staff
+9-2	scanned	O	O	VBD	O
+9-3	the	O	O	DT	O
+9-4	card	9-8_nsubj	handed	NN	P1_library_card
+9-5	and	O	O	O	O
+9-6	book	O	O	NN	P1_book
+9-7	then	9-8_advmod	handed	RB	O
+9-8	handed	9-2_ccomp	scanned	VBD	O
+9-9	them	9-11_nsubj	back	PRP	O
+9-10	both	9-11_dep	back	DT	O
+9-11	back	9-8_ccomp	handed	VB	O
+9-12	to	O	O	O	O
+9-13	my	O	O	PRP$	P1_customer
+9-14	son	9-11_prep_to	back	NN	P2_customer
+9-15	.	O	O	O	O
+
+#id=10
+#text=She informed us when the book was due back and we both thanked her and wished her a pleasant day . 
+10-1	She	10-2_nsubj	informed	PRP	P1_staff
+10-2	informed	O	O	VBD	O
+10-3	us	10-2_dobj	informed	PRP	P3_customer
+10-4	when	O	O	WRB	O
+10-5	the	O	O	DT	O
+10-6	book	O	O	NN	P1_book
+10-7	was	O	O	VBD	O
+10-8	due	10-2_advcl	informed	JJ	O
+10-9	back	O	O	RB	O
+10-10	and	O	O	O	O
+10-11	we	10-13_nsubj	thanked	PRP	P3_customer
+10-12	both	10-13_advmod	thanked	DT	O
+10-13	thanked	10-2_conj_and	informed	VBD	O
+10-14	her	10-13_dobj	thanked	PRP	P1_staff
+10-15	and	O	O	O	O
+10-16	wished	10-13_conj_and	thanked	VBD	O
+10-17	her	10-16_dobj	wished	PRP	P1_staff
+10-18	a	O	O	DT	O
+10-19	pleasant	O	O	JJ	O
+10-20	day	10-16_tmod	wished	NN	P1_NPart_day
+10-21	.	O	O	O	O

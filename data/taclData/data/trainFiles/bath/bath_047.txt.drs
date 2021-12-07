@@ -1,0 +1,241 @@
+#id=1
+#text=It had been a long , hard day and I needed a good bath . 
+1-1	It	O	O	PRP	O
+1-2	had	O	O	VBD	O
+1-3	been	O	O	VBN	O
+1-4	a	O	O	DT	O
+1-5	long	O	O	JJ	O
+1-6	,	O	O	O	O
+1-7	hard	O	O	JJ	O
+1-8	day	O	O	NN	P1_NPart_day
+1-9	and	O	O	O	O
+1-10	I	1-11_nsubj	needed	PRP	P1_bather
+1-11	needed	O	O	VBD	O
+1-12	a	O	O	DT	O
+1-13	good	O	O	JJ	O
+1-14	bath	1-11_dobj	needed	NN	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=First I picked out clean clothes and got towels from the hall closet . 
+2-1	First	2-3_advmod	picked	RB	O
+2-2	I	2-3_nsubj	picked	PRP	P1_bather
+2-3	picked	O	O	VBD	O
+2-4	out	2-3_prt	picked	RP	O
+2-5	clean	O	O	JJ	O
+2-6	clothes	2-3_dobj	picked	NNS	P1_clothes
+2-7	and	O	O	O	O
+2-8	got	2-3_conj_and	picked	VBD	O
+2-9	towels	2-8_dobj	got	NNS	P1_towel
+2-10	from	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	hall	O	O	NN	O
+2-13	closet	2-8_prep_from	got	NN	P1_NPart_closet
+2-14	.	O	O	O	O
+
+#id=3
+#text=Then I went into the bathroom . 
+3-1	Then	3-3_advmod	went	RB	O
+3-2	I	3-3_nsubj	went	PRP	P1_bather
+3-3	went	O	O	VBD	O
+3-4	into	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	bathroom	3-3_prep_into	went	NN	P1_bathroom
+3-7	.	O	O	O	O
+
+#id=4
+#text=I put the plug in the bathtub drain , and then started to fill the tub with nice hot water . 
+4-1	I	4-2_nsubj	put	PRP	P1_bather
+4-2	put	O	O	VBD	O
+4-3	the	O	O	DT	O
+4-4	plug	4-2_dobj	put	NN	P1_plug
+4-5	in	O	O	O	O
+4-6	the	O	O	DT	O
+4-7	bathtub	O	O	NN	O
+4-8	drain	4-2_prep_in	put	NN	P1_drain
+4-9	,	O	O	O	O
+4-10	and	O	O	O	O
+4-11	then	4-12_advmod	started	RB	O
+4-12	started	4-2_conj_and	put	VBD	O
+4-13	to	4-14_aux	fill	TO	O
+4-14	fill	4-12_xcomp	started	VB	O
+4-15	the	O	O	DT	O
+4-16	tub	4-14_dobj	fill	NN	P1_bathtub
+4-17	with	O	O	O	O
+4-18	nice	O	O	JJ	O
+4-19	hot	O	O	JJ	O
+4-20	water	4-14_prep_with	fill	NN	P1_water
+4-21	.	O	O	O	O
+
+#id=5
+#text=Not too hot though . 
+5-1	Not	O	O	RB	O
+5-2	too	O	O	RB	O
+5-3	hot	O	O	JJ	O
+5-4	though	O	O	RB	O
+5-5	.	O	O	O	O
+
+#id=6
+#text=I disrobed and stepped into the tub , then carefully settled in . 
+6-1	I	6-2_nsubj	disrobed	PRP	P1_bather
+6-2	disrobed	O	O	VBD	O
+6-3	and	O	O	O	O
+6-4	stepped	6-2_conj_and	disrobed	VBD	O
+6-5	into	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	tub	6-4_prep_into	stepped	NN	P1_bathtub
+6-8	,	O	O	O	O
+6-9	then	6-11_advmod	settled	RB	O
+6-10	carefully	6-11_advmod	settled	RB	O
+6-11	settled	6-2_dep	disrobed	VBD	O
+6-12	in	6-11_prt	settled	RP	O
+6-13	.	O	O	O	O
+
+#id=7
+#text=First I got my hair wet , shampooed , and washed away the shampoo using a toy bucket . 
+7-1	First	7-3_advmod	got	RB	O
+7-2	I	7-3_nsubj	got	PRP	P1_bather
+7-3	got	O	O	VBD	O
+7-4	my	O	O	PRP$	P1_bather
+7-5	hair	O	O	NN	P1_hair
+7-6	wet	7-3_xcomp	got	JJ	O
+7-7	,	O	O	O	O
+7-8	shampooed	7-3_conj_and	got	VBD	O
+7-9	,	O	O	O	O
+7-10	and	O	O	O	O
+7-11	washed	7-3_conj_and	got	VBD	O
+7-12	away	7-11_prt	washed	RP	O
+7-13	the	O	O	DT	O
+7-14	shampoo	7-11_dobj	washed	NN	P1_washing_tools
+7-15	using	O	O	VBG	O
+7-16	a	O	O	DT	O
+7-17	toy	O	O	NN	O
+7-18	bucket	7-15_dobj	using	NN	P2_washing_tools
+7-19	.	O	O	O	O
+
+#id=8
+#text=I wet my washcloth , rubbed it heartily with soap until a lather formed , and then scrubbed my skin all over until I was good and clean . 
+8-1	I	8-2_nsubj	wet	PRP	P1_bather
+8-2	wet	O	O	VBZ	O
+8-3	my	O	O	PRP$	P1_bather
+8-4	washcloth	8-2_dobj	wet	NN	P3_washing_tools
+8-5	,	O	O	O	O
+8-6	rubbed	8-2_conj_and	wet	VBD	O
+8-7	it	8-6_dobj	rubbed	PRP	P3_washing_tools
+8-8	heartily	8-6_advmod	rubbed	RB	O
+8-9	with	O	O	O	O
+8-10	soap	8-6_prep_with	rubbed	NN	P4_washing_tools
+8-11	until	8-14_mark	formed	IN	O
+8-12	a	O	O	DT	O
+8-13	lather	8-14_nsubj	formed	NN	P1_NPart_lather
+8-14	formed	8-6_advcl	rubbed	VBD	O
+8-15	,	O	O	O	O
+8-16	and	O	O	O	O
+8-17	then	8-18_advmod	scrubbed	RB	O
+8-18	scrubbed	8-2_conj_and	wet	VBD	O
+8-19	my	O	O	PRP$	P1_bather
+8-20	skin	8-18_dobj	scrubbed	NN	P1_body_part
+8-21	all	O	O	DT	O
+8-22	over	8-18_advmod	scrubbed	RP	O
+8-23	until	O	O	IN	O
+8-24	I	O	O	PRP	P1_bather
+8-25	was	O	O	VBD	O
+8-26	good	8-18_advcl	scrubbed	JJ	O
+8-27	and	O	O	O	O
+8-28	clean	O	O	JJ	O
+8-29	.	O	O	O	O
+
+#id=9
+#text=I submerged in the tub water and soaked for a while . 
+9-1	I	9-2_nsubj	submerged	PRP	P1_bather
+9-2	submerged	O	O	VBN	O
+9-3	in	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	tub	O	O	NN	O
+9-6	water	9-2_prep_in	submerged	NN	P1_water
+9-7	and	O	O	O	O
+9-8	soaked	9-2_conj_and	submerged	VBN	O
+9-9	for	O	O	O	O
+9-10	a	O	O	DT	O
+9-11	while	9-8_prep_for	soaked	NN	O
+9-12	.	O	O	O	O
+
+#id=10
+#text=I spent a bit of time with a toy submarine , pretending it was in the ocean . 
+10-1	I	10-2_nsubj	spent	PRP	P1_bather
+10-2	spent	O	O	VBD	O
+10-3	a	O	O	DT	O
+10-4	bit	10-2_dobj	spent	NN	O
+10-5	of	O	O	O	O
+10-6	time	O	O	NN	P1_NPart_time
+10-7	with	O	O	O	O
+10-8	a	O	O	DT	O
+10-9	toy	O	O	NN	O
+10-10	submarine	10-2_prep_with	spent	NN	P1_in-bath_entertainment
+10-11	,	O	O	O	O
+10-12	pretending	10-2_vmod	spent	VBG	O
+10-13	it	10-14_nsubj	was	PRP	P1_in-bath_entertainment
+10-14	was	10-12_ccomp	pretending	VBD	O
+10-15	in	O	O	O	O
+10-16	the	O	O	DT	O
+10-17	ocean	10-14_prep_in	was	NN	P1_NPart_ocean
+10-18	.	O	O	O	O
+
+#id=11
+#text=At the end , I pulled the plug and let the water drain . 
+11-1	At	O	O	O	O
+11-2	the	O	O	DT	O
+11-3	end	11-6_prep_at	pulled	NN	O
+11-4	,	O	O	O	O
+11-5	I	11-6_nsubj	pulled	PRP	P1_bather
+11-6	pulled	O	O	VBD	O
+11-7	the	O	O	DT	O
+11-8	plug	11-6_dobj	pulled	NN	P1_plug
+11-9	and	O	O	O	O
+11-10	let	11-6_conj_and	pulled	VBD	O
+11-11	the	O	O	DT	O
+11-12	water	O	O	NN	P1_water
+11-13	drain	11-10_dobj	let	NN	O
+11-14	.	O	O	O	O
+
+#id=12
+#text=I took a quick shower to rinse off any soap . 
+12-1	I	12-2_nsubj	took	PRP	P1_bather
+12-2	took	O	O	VBD	O
+12-3	a	O	O	DT	O
+12-4	quick	O	O	JJ	O
+12-5	shower	12-2_dobj	took	NN	P1_shower
+12-6	to	12-7_aux	rinse	TO	O
+12-7	rinse	12-2_vmod	took	VB	O
+12-8	off	12-7_prt	rinse	RP	O
+12-9	any	O	O	DT	O
+12-10	soap	12-7_dobj	rinse	NN	P4_washing_tools
+12-11	.	O	O	O	O
+
+#id=13
+#text=Then I dried myself , got out of the tub and put on the clean clothes . 
+13-1	Then	13-3_advmod	dried	RB	O
+13-2	I	13-3_nsubj	dried	PRP	P1_bather
+13-3	dried	O	O	VBD	O
+13-4	myself	13-3_dobj	dried	PRP	P1_bather
+13-5	,	O	O	O	O
+13-6	got	13-3_conj_and	dried	VBD	O
+13-7	out	O	O	O	O
+13-8	of	O	O	O	O
+13-9	the	O	O	DT	O
+13-10	tub	13-6_prep_out_of	got	NN	P1_bathtub
+13-11	and	O	O	O	O
+13-12	put	13-3_conj_and	dried	VBD	O
+13-13	on	O	O	O	O
+13-14	the	O	O	DT	O
+13-15	clean	O	O	JJ	O
+13-16	clothes	13-12_prep_on	put	NNS	P1_clothes
+13-17	.	O	O	O	O
+
+#id=14
+#text=I felt much better . 
+14-1	I	14-2_nsubj	felt	PRP	P1_bather
+14-2	felt	O	O	VBD	O
+14-3	much	O	O	RB	O
+14-4	better	14-2_acomp	felt	JJR	O
+14-5	.	O	O	O	O

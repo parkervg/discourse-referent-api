@@ -1,0 +1,276 @@
+#id=1
+#text=Once , when I was 12 , I had a flat bicycle tire . 
+1-1	Once	1-9_advmod	had	RB	O
+1-2	,	O	O	O	O
+1-3	when	O	O	WRB	O
+1-4	I	O	O	PRP	P1_rider
+1-5	was	O	O	VBD	O
+1-6	12	1-9_advcl	had	CD	O
+1-7	,	O	O	O	O
+1-8	I	1-9_nsubj	had	PRP	P1_rider
+1-9	had	O	O	VBD	O
+1-10	a	O	O	DT	O
+1-11	flat	O	O	JJ	O
+1-12	bicycle	O	O	NN	O
+1-13	tire	1-9_dobj	had	NN	P1_tire
+1-14	.	O	O	O	O
+
+#id=2
+#text=I had ridden over a nail and my tire was punctured and my tube popped . 
+2-1	I	2-3_nsubj	ridden	PRP	P1_rider
+2-2	had	2-3_aux	ridden	VBD	O
+2-3	ridden	O	O	VBN	O
+2-4	over	O	O	O	O
+2-5	a	O	O	DT	O
+2-6	nail	2-3_prep_over	ridden	NN	P1_object_damage
+2-7	and	O	O	O	O
+2-8	my	O	O	PRP$	P1_rider
+2-9	tire	2-11_nsubjpass	punctured	NN	P1_tire
+2-10	was	2-11_auxpass	punctured	VBD	O
+2-11	punctured	2-3_conj_and	ridden	VBN	O
+2-12	and	O	O	O	O
+2-13	my	O	O	PRP$	P1_rider
+2-14	tube	2-15_nsubj	popped	NN	P1_tire
+2-15	popped	2-11_conj_and	punctured	VBD	O
+2-16	.	O	O	O	O
+
+#id=3
+#text=In order to fix it my brother took me the store so I could buy a patch to fix the tire . 
+3-1	In	3-4_mark	fix	IN	O
+3-2	order	3-4_dep	fix	NN	O
+3-3	to	3-4_aux	fix	TO	O
+3-4	fix	3-8_advcl	took	VB	O
+3-5	it	3-4_dobj	fix	PRP	P1_tire
+3-6	my	O	O	PRP$	P1_rider
+3-7	brother	3-8_nsubj	took	NN	P2_rider
+3-8	took	O	O	VBD	O
+3-9	me	3-8_iobj	took	PRP	P1_rider
+3-10	the	O	O	DT	O
+3-11	store	3-8_dobj	took	NN	P1_shop
+3-12	so	3-15_mark	buy	IN	O
+3-13	I	3-15_nsubj	buy	PRP	P1_rider
+3-14	could	3-15_aux	buy	MD	O
+3-15	buy	3-8_advcl	took	VB	O
+3-16	a	O	O	DT	O
+3-17	patch	3-15_dobj	buy	NN	P1_patch
+3-18	to	3-19_aux	fix	TO	O
+3-19	fix	O	O	VB	O
+3-20	the	O	O	DT	O
+3-21	tire	3-19_dobj	fix	NN	P1_tire
+3-22	.	O	O	O	O
+
+#id=4
+#text=Once we got the patch , we went back to the house . 
+4-1	Once	4-3_mark	got	IN	O
+4-2	we	4-3_nsubj	got	PRP	P3_rider
+4-3	got	4-8_advcl	went	VBD	O
+4-4	the	O	O	DT	O
+4-5	patch	4-3_dobj	got	NN	P1_patch
+4-6	,	O	O	O	O
+4-7	we	4-8_nsubj	went	PRP	P3_rider
+4-8	went	O	O	VBD	O
+4-9	back	4-8_advmod	went	RB	O
+4-10	to	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	house	4-8_prep_to	went	NN	P1_location_repair
+4-13	.	O	O	O	O
+
+#id=5
+#text=In order to find the hole we filled the tub with water and put the tube in . 
+5-1	In	5-4_mark	find	IN	O
+5-2	order	5-4_dep	find	NN	O
+5-3	to	5-4_aux	find	TO	O
+5-4	find	5-8_advcl	filled	VB	O
+5-5	the	O	O	DT	O
+5-6	hole	5-4_dobj	find	NN	P1_damage
+5-7	we	5-8_nsubj	filled	PRP	P3_rider
+5-8	filled	O	O	VBD	O
+5-9	the	O	O	DT	O
+5-10	tub	5-8_dobj	filled	NN	P1_tool
+5-11	with	O	O	O	O
+5-12	water	5-8_prep_with	filled	NN	P1_NPart_water
+5-13	and	O	O	O	O
+5-14	put	5-8_conj_and	filled	VBD	O
+5-15	the	O	O	DT	O
+5-16	tube	5-14_dobj	put	NN	P1_tire
+5-17	in	5-14_prep	put	IN	O
+5-18	.	O	O	O	O
+
+#id=6
+#text=We looked to see where bubbles came out ; where the bubbles came out told us where the hole was . 
+6-1	We	6-2_nsubj	looked	PRP	P3_rider
+6-2	looked	O	O	VBD	O
+6-3	to	6-4_aux	see	TO	O
+6-4	see	6-2_xcomp	looked	VB	O
+6-5	where	6-7_advmod	came	WRB	O
+6-6	bubbles	6-7_nsubj	came	NNS	P1_NPart_bubbles
+6-7	came	6-4_advcl	see	VBD	O
+6-8	out	6-7_prt	came	RP	O
+6-9	;	O	O	O	O
+6-10	where	6-13_advmod	came	WRB	O
+6-11	the	O	O	DT	O
+6-12	bubbles	6-13_nsubj	came	NNS	P2_NPart_bubbles
+6-13	came	6-15_advcl	told	VBD	O
+6-14	out	6-13_prt	came	RP	O
+6-15	told	6-2_parataxis	looked	VBD	O
+6-16	us	6-15_dobj	told	PRP	P3_rider
+6-17	where	6-20_advmod	was	WRB	O
+6-18	the	O	O	DT	O
+6-19	hole	6-20_nsubj	was	NN	P1_damage
+6-20	was	6-15_ccomp	told	VBD	O
+6-21	.	O	O	O	O
+
+#id=7
+#text=Once we noted the location of the hole we took the tube out of the tub and dried it . 
+7-1	Once	7-3_mark	noted	IN	O
+7-2	we	7-3_nsubj	noted	PRP	P3_rider
+7-3	noted	7-10_advcl	took	VBD	O
+7-4	the	O	O	DT	O
+7-5	location	7-3_dobj	noted	NN	P1_NPart_location
+7-6	of	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	hole	O	O	NN	P1_damage
+7-9	we	7-10_nsubj	took	PRP	P3_rider
+7-10	took	O	O	VBD	O
+7-11	the	O	O	DT	O
+7-12	tube	7-10_dobj	took	NN	P1_tire
+7-13	out	O	O	O	O
+7-14	of	O	O	O	O
+7-15	the	O	O	DT	O
+7-16	tub	7-10_prep_out_of	took	NN	P1_tool
+7-17	and	O	O	O	O
+7-18	dried	7-10_conj_and	took	VBD	O
+7-19	it	7-18_dobj	dried	PRP	P1_tire
+7-20	.	O	O	O	O
+
+#id=8
+#text=To put on the patch we had to put a glue on the tube and then put on the patch . 
+8-1	To	8-2_aux	put	TO	O
+8-2	put	8-7_dep	had	VB	O
+8-3	on	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	patch	8-2_prep_on	put	NN	P1_patch
+8-6	we	8-7_nsubj	had	PRP	P3_rider
+8-7	had	O	O	VBD	O
+8-8	to	8-9_aux	put	TO	O
+8-9	put	8-7_xcomp	had	VB	O
+8-10	a	O	O	DT	O
+8-11	glue	8-9_dobj	put	NN	P2_tool
+8-12	on	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	tube	8-9_prep_on	put	NN	P1_tire
+8-15	and	O	O	O	O
+8-16	then	8-17_advmod	put	RB	O
+8-17	put	8-7_conj_and	had	VBD	O
+8-18	on	O	O	O	O
+8-19	the	O	O	DT	O
+8-20	patch	8-17_prep_on	put	NN	P1_patch
+8-21	.	O	O	O	O
+
+#id=9
+#text=We held it there a few minutes to make sure it would stay , then we let it sit for an hour to make sure the glue would dry . 
+9-1	We	9-2_nsubj	held	PRP	P3_rider
+9-2	held	O	O	VBD	O
+9-3	it	9-2_dobj	held	PRP	P1_patch
+9-4	there	9-2_advmod	held	RB	O
+9-5	a	O	O	DT	O
+9-6	few	O	O	JJ	O
+9-7	minutes	9-2_dobj	held	NNS	P1_NPart_minutes
+9-8	to	9-9_aux	make	TO	O
+9-9	make	9-2_vmod	held	VB	O
+9-10	sure	9-9_acomp	make	JJ	O
+9-11	it	9-13_nsubj	stay	PRP	P1_patch
+9-12	would	9-13_aux	stay	MD	O
+9-13	stay	O	O	VB	O
+9-14	,	O	O	O	O
+9-15	then	9-17_advmod	let	RB	O
+9-16	we	9-17_nsubj	let	PRP	P3_rider
+9-17	let	9-2_parataxis	held	VBD	O
+9-18	it	9-19_nsubj	sit	PRP	P1_patch
+9-19	sit	9-17_ccomp	let	VBP	O
+9-20	for	O	O	O	O
+9-21	an	O	O	DT	O
+9-22	hour	9-19_prep_for	sit	NN	P1_NPart_hour
+9-23	to	9-24_aux	make	TO	O
+9-24	make	O	O	VB	O
+9-25	sure	9-24_acomp	make	JJ	O
+9-26	the	O	O	DT	O
+9-27	glue	9-29_nsubj	dry	NN	P2_tool
+9-28	would	9-29_aux	dry	MD	O
+9-29	dry	O	O	VB	O
+9-30	.	O	O	O	O
+
+#id=10
+#text=To make sure it dried well we placed the tube out in the sun so the the heat could help it along . 
+10-1	To	10-2_aux	make	TO	O
+10-2	make	10-5_dep	dried	VB	O
+10-3	sure	10-2_acomp	make	JJ	O
+10-4	it	10-5_nsubj	dried	PRP	P2_tool
+10-5	dried	O	O	VBD	O
+10-6	well	10-5_advmod	dried	RB	O
+10-7	we	10-8_nsubj	placed	PRP	P3_rider
+10-8	placed	10-5_ccomp	dried	VBD	O
+10-9	the	O	O	DT	O
+10-10	tube	10-8_dobj	placed	NN	P1_tire
+10-11	out	10-8_prt	placed	RP	O
+10-12	in	O	O	O	O
+10-13	the	O	O	DT	O
+10-14	sun	10-8_prep_in	placed	NN	P1_NPart_sun
+10-15	so	10-20_mark	help	IN	O
+10-16	the	O	O	DT	O
+10-17	the	O	O	DT	O
+10-18	heat	10-20_nsubj	help	NN	P1_NPart_heat
+10-19	could	10-20_aux	help	MD	O
+10-20	help	10-8_advcl	placed	VB	O
+10-21	it	10-20_dobj	help	PRP	P1_NPart_it
+10-22	along	10-20_prt	help	RP	O
+10-23	.	O	O	O	O
+
+#id=11
+#text=To be safe we waited a day . 
+11-1	To	O	O	TO	O
+11-2	be	O	O	VB	O
+11-3	safe	11-5_dep	waited	JJ	O
+11-4	we	11-5_nsubj	waited	PRP	P3_rider
+11-5	waited	O	O	VBD	O
+11-6	a	O	O	DT	O
+11-7	day	11-5_tmod	waited	NN	P1_NPart_day
+11-8	.	O	O	O	O
+
+#id=12
+#text=The next day we took the tube and put it back in the tire , then we put the tire on the wheel . 
+12-1	The	O	O	DT	O
+12-2	next	O	O	JJ	O
+12-3	day	12-5_tmod	took	NN	P2_NPart_day
+12-4	we	12-5_nsubj	took	PRP	P3_rider
+12-5	took	O	O	VBD	O
+12-6	the	O	O	DT	O
+12-7	tube	12-5_dobj	took	NN	P1_tire
+12-8	and	O	O	O	O
+12-9	put	12-5_conj_and	took	VBD	O
+12-10	it	12-9_dobj	put	PRP	P1_tire
+12-11	back	12-9_prt	put	RP	O
+12-12	in	O	O	O	O
+12-13	the	O	O	DT	O
+12-14	tire	12-9_prep_in	put	NN	P1_tire
+12-15	,	O	O	O	O
+12-16	then	12-18_advmod	put	RB	O
+12-17	we	12-18_nsubj	put	PRP	P3_rider
+12-18	put	12-5_parataxis	took	VBD	O
+12-19	the	O	O	DT	O
+12-20	tire	12-18_dobj	put	NN	P1_tire
+12-21	on	O	O	O	O
+12-22	the	O	O	DT	O
+12-23	wheel	12-18_prep_on	put	NN	P1_wheel
+12-24	.	O	O	O	O
+
+#id=13
+#text=My bike was good to ride again . 
+13-1	My	O	O	PRP$	P1_rider
+13-2	bike	O	O	NN	P1_bicycle
+13-3	was	O	O	VBD	O
+13-4	good	O	O	JJ	O
+13-5	to	13-6_aux	ride	TO	O
+13-6	ride	O	O	VB	O
+13-7	again	13-6_advmod	ride	RB	O
+13-8	.	O	O	O	O

@@ -1,0 +1,205 @@
+#id=1
+#text=Today I decided to visit one of my friends that I have n't seen in a very long time . 
+1-1	Today	1-3_tmod	decided	NN	O
+1-2	I	1-3_nsubj	decided	PRP	P1_passenger
+1-3	decided	O	O	VBD	O
+1-4	to	1-5_aux	visit	TO	O
+1-5	visit	1-3_xcomp	decided	VB	O
+1-6	one	1-5_dobj	visit	CD	O
+1-7	of	O	O	O	O
+1-8	my	O	O	PRP$	P1_passenger
+1-9	friends	O	O	NNS	P1_NPart_friends
+1-10	that	1-14_mark	seen	IN	O
+1-11	I	1-14_nsubj	seen	PRP	P1_passenger
+1-12	have	1-14_aux	seen	VBP	O
+1-13	n't	1-14_neg	seen	RB	O
+1-14	seen	1-5_ccomp	visit	VBN	O
+1-15	in	O	O	O	O
+1-16	a	O	O	DT	O
+1-17	very	O	O	RB	O
+1-18	long	O	O	JJ	O
+1-19	time	1-14_prep_in	seen	NN	P1_NPart_time
+1-20	.	O	O	O	O
+
+#id=2
+#text=They just moved into a new apartment and they invited me over . 
+2-1	They	2-3_nsubj	moved	PRP	P1_NPart_they
+2-2	just	2-3_advmod	moved	RB	O
+2-3	moved	O	O	VBD	O
+2-4	into	O	O	O	O
+2-5	a	O	O	DT	O
+2-6	new	O	O	JJ	O
+2-7	apartment	2-3_prep_into	moved	NN	P1_NPart_apartment
+2-8	and	O	O	O	O
+2-9	they	2-10_nsubj	invited	PRP	P2_NPart_they
+2-10	invited	2-3_conj_and	moved	VBD	O
+2-11	me	2-10_dobj	invited	PRP	P1_passenger
+2-12	over	2-10_prt	invited	RP	O
+2-13	.	O	O	O	O
+
+#id=3
+#text=They gave me their address but I was n't sure how to get there by train . 
+3-1	They	3-2_nsubj	gave	PRP	P3_NPart_they
+3-2	gave	O	O	VBD	O
+3-3	me	3-2_iobj	gave	PRP	P1_passenger
+3-4	their	O	O	PRP$	P1_NPart_their
+3-5	address	3-2_dobj	gave	NN	P1_NPart_address
+3-6	but	O	O	O	O
+3-7	I	O	O	PRP	P1_passenger
+3-8	was	O	O	VBD	O
+3-9	n't	O	O	RB	O
+3-10	sure	3-2_conj_but	gave	JJ	O
+3-11	how	3-13_advmod	get	WRB	O
+3-12	to	3-13_aux	get	TO	O
+3-13	get	O	O	VB	O
+3-14	there	3-13_advmod	get	RB	O
+3-15	by	O	O	O	O
+3-16	train	3-13_prep_by	get	NN	P1_train
+3-17	.	O	O	O	O
+
+#id=4
+#text=The first thing I did when I got to the train station was see what train goes to their neighborhood . 
+4-1	The	O	O	DT	O
+4-2	first	O	O	JJ	O
+4-3	thing	4-13_nsubj	was	NN	P1_NPart_thing
+4-4	I	4-5_nsubj	did	PRP	P1_passenger
+4-5	did	O	O	VBD	O
+4-6	when	4-8_advmod	got	WRB	O
+4-7	I	4-8_nsubj	got	PRP	P1_passenger
+4-8	got	4-5_advcl	did	VBD	O
+4-9	to	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	train	O	O	NN	O
+4-12	station	4-8_prep_to	got	NN	P1_train_station
+4-13	was	O	O	VBD	O
+4-14	see	4-13_ccomp	was	VB	O
+4-15	what	4-17_dobj	goes	WP	O
+4-16	train	4-17_nsubj	goes	NN	P1_train
+4-17	goes	4-14_ccomp	see	VBZ	O
+4-18	to	O	O	O	O
+4-19	their	O	O	PRP$	P2_NPart_their
+4-20	neighborhood	4-17_prep_to	goes	NN	P1_destination
+4-21	.	O	O	O	O
+
+#id=5
+#text=After I figured that out , I made sure I had enough money on my metro card to pay the train fare . 
+5-1	After	5-3_mark	figured	IN	O
+5-2	I	5-3_nsubj	figured	PRP	P1_passenger
+5-3	figured	5-8_advcl	made	VBD	O
+5-4	that	5-3_dobj	figured	DT	P1_NPart_that
+5-5	out	5-3_prt	figured	RP	O
+5-6	,	O	O	O	O
+5-7	I	5-8_nsubj	made	PRP	P1_passenger
+5-8	made	O	O	VBD	O
+5-9	sure	5-8_acomp	made	JJ	O
+5-10	I	5-11_nsubj	had	PRP	P1_passenger
+5-11	had	O	O	VBD	O
+5-12	enough	O	O	JJ	O
+5-13	money	5-11_dobj	had	NN	P1_payment_means
+5-14	on	O	O	O	O
+5-15	my	O	O	PRP$	P1_passenger
+5-16	metro	O	O	NN	O
+5-17	card	O	O	NN	P1_card/ticket
+5-18	to	5-19_aux	pay	TO	O
+5-19	pay	O	O	VB	O
+5-20	the	O	O	DT	O
+5-21	train	O	O	NN	O
+5-22	fare	5-19_dobj	pay	NN	P2_card/ticket
+5-23	.	O	O	O	O
+
+#id=6
+#text=After going through the turnstile I waited on the train platform for the train to enter the station . 
+6-1	After	O	O	O	O
+6-2	going	6-7_prepc_after	waited	VBG	O
+6-3	through	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	turnstile	6-2_prep_through	going	NN	P1_other
+6-6	I	6-7_nsubj	waited	PRP	P1_passenger
+6-7	waited	O	O	VBD	O
+6-8	on	O	O	O	O
+6-9	the	O	O	DT	O
+6-10	train	O	O	NN	O
+6-11	platform	6-7_prep_on	waited	NN	P1_platform
+6-12	for	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	train	O	O	NN	P1_train
+6-15	to	6-16_aux	enter	TO	O
+6-16	enter	6-7_xcomp	waited	VB	O
+6-17	the	O	O	DT	O
+6-18	station	6-16_dobj	enter	NN	P2_train_station
+6-19	.	O	O	O	O
+
+#id=7
+#text=I quickly found a seat on the train since not to many people were on it . 
+7-1	I	7-3_nsubj	found	PRP	P1_passenger
+7-2	quickly	7-3_advmod	found	RB	O
+7-3	found	O	O	VBD	O
+7-4	a	O	O	DT	O
+7-5	seat	7-14_nsubj	were	NN	P1_seat
+7-6	on	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	train	O	O	NN	P1_train
+7-9	since	O	O	O	O
+7-10	not	O	O	RB	O
+7-11	to	O	O	TO	O
+7-12	many	O	O	JJ	O
+7-13	people	O	O	NNS	P2_passenger
+7-14	were	7-3_ccomp	found	VBD	O
+7-15	on	O	O	O	O
+7-16	it	7-14_prep_on	were	PRP	P1_train
+7-17	.	O	O	O	O
+
+#id=8
+#text=After about 25 minutes I finally arrived at the stop I was supposed to get off at . 
+8-1	After	O	O	O	O
+8-2	about	O	O	RB	O
+8-3	25	O	O	CD	O
+8-4	minutes	8-7_prep_after	arrived	NNS	P1_time_date
+8-5	I	8-7_nsubj	arrived	PRP	P1_passenger
+8-6	finally	8-7_advmod	arrived	RB	O
+8-7	arrived	O	O	VBD	O
+8-8	at	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	stop	8-7_prep_at	arrived	NN	P1_destination
+8-11	I	8-13_nsubjpass	supposed	PRP	P1_passenger
+8-12	was	8-13_auxpass	supposed	VBD	O
+8-13	supposed	O	O	VBN	O
+8-14	to	8-15_aux	get	TO	O
+8-15	get	8-13_xcomp	supposed	VB	O
+8-16	off	8-15_prt	get	RP	O
+8-17	at	8-15_prep	get	IN	O
+8-18	.	O	O	O	O
+
+#id=9
+#text=I walked up the stairs and exited the train station and walked 2 blocks away to where my friend lives . 
+9-1	I	9-2_nsubj	walked	PRP	P1_passenger
+9-2	walked	O	O	VBD	O
+9-3	up	9-2_prt	walked	RP	O
+9-4	the	O	O	DT	O
+9-5	stairs	9-2_dobj	walked	NNS	P1_NPart_stairs
+9-6	and	O	O	O	O
+9-7	exited	9-2_conj_and	walked	VBD	O
+9-8	the	O	O	DT	O
+9-9	train	O	O	NN	O
+9-10	station	9-7_dobj	exited	NN	P2_train_station
+9-11	and	O	O	O	O
+9-12	walked	9-7_conj_and	exited	VBD	O
+9-13	2	O	O	CD	O
+9-14	blocks	9-12_dobj	walked	NNS	P1_NPart_blocks
+9-15	away	9-12_advmod	walked	RB	O
+9-16	to	O	O	O	O
+9-17	where	9-20_advmod	lives	WRB	O
+9-18	my	O	O	PRP$	P1_passenger
+9-19	friend	9-20_nsubj	lives	NN	P1_NPart_friend
+9-20	lives	O	O	VBZ	O
+9-21	.	O	O	O	O
+
+#id=10
+#text=He was happy to see me . 
+10-1	He	O	O	PRP	P1_NPart_he
+10-2	was	O	O	VBD	O
+10-3	happy	O	O	JJ	O
+10-4	to	10-5_aux	see	TO	O
+10-5	see	O	O	VB	O
+10-6	me	10-5_dobj	see	PRP	P1_passenger
+10-7	.	O	O	O	O

@@ -1,0 +1,248 @@
+#id=1
+#text=Last month I went on a trip to Mexico . 
+1-1	Last	O	O	JJ	O
+1-2	month	1-4_tmod	went	NN	P1_NPart_month
+1-3	I	1-4_nsubj	went	PRP	P1_passenger
+1-4	went	O	O	VBD	O
+1-5	on	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	trip	1-4_prep_on	went	NN	P1_flight
+1-8	to	O	O	O	O
+1-9	Mexico	1-4_prep_to	went	NNP	P1_target_location
+1-10	.	O	O	O	O
+
+#id=2
+#text=I was excited because I had never been to Mexico or flown on a plane before and I was going to get to do both . 
+2-1	I	O	O	PRP	P1_passenger
+2-2	was	O	O	VBD	O
+2-3	excited	O	O	JJ	O
+2-4	because	2-8_mark	been	IN	O
+2-5	I	2-8_nsubj	been	PRP	P1_passenger
+2-6	had	2-8_aux	been	VBD	O
+2-7	never	2-8_neg	been	RB	O
+2-8	been	O	O	VBN	O
+2-9	to	O	O	O	O
+2-10	Mexico	2-8_prep_to	been	NNP	P1_target_location
+2-11	or	O	O	O	O
+2-12	flown	2-8_conj_or	been	VBN	O
+2-13	on	O	O	O	O
+2-14	a	O	O	DT	O
+2-15	plane	2-12_prep_on	flown	NN	P1_plane
+2-16	before	2-12_advmod	flown	RB	O
+2-17	and	O	O	O	O
+2-18	I	2-20_nsubj	going	PRP	P1_passenger
+2-19	was	2-20_aux	going	VBD	O
+2-20	going	O	O	VBG	O
+2-21	to	2-22_aux	get	TO	O
+2-22	get	2-20_xcomp	going	VB	O
+2-23	to	2-24_aux	do	TO	O
+2-24	do	2-22_xcomp	get	VB	O
+2-25	both	2-24_dobj	do	DT	O
+2-26	.	O	O	O	O
+
+#id=3
+#text=I booked my flight months in advance to be sure I would have transportation to my vacation destination . 
+3-1	I	3-2_nsubj	booked	PRP	P1_passenger
+3-2	booked	O	O	VBD	O
+3-3	my	O	O	PRP$	P1_passenger
+3-4	flight	O	O	NN	P1_flight
+3-5	months	3-2_tmod	booked	NNS	P1_time/date
+3-6	in	O	O	O	O
+3-7	advance	3-2_prep_in	booked	NN	O
+3-8	to	O	O	TO	O
+3-9	be	O	O	VB	O
+3-10	sure	3-2_vmod	booked	JJ	O
+3-11	I	3-13_nsubj	have	PRP	P1_passenger
+3-12	would	3-13_aux	have	MD	O
+3-13	have	O	O	VB	O
+3-14	transportation	3-13_dobj	have	NN	O
+3-15	to	O	O	O	O
+3-16	my	O	O	PRP$	P1_passenger
+3-17	vacation	O	O	NN	O
+3-18	destination	3-13_prep_to	have	NN	P1_target_location
+3-19	.	O	O	O	O
+
+#id=4
+#text=The day I was about to leave I went to the airport hours in advance because I was nervous and excited . 
+4-1	The	O	O	DT	O
+4-2	day	O	O	NN	P1_NPart_day
+4-3	I	O	O	PRP	P1_passenger
+4-4	was	O	O	VBD	O
+4-5	about	O	O	IN	O
+4-6	to	4-7_aux	leave	TO	O
+4-7	leave	O	O	VB	O
+4-8	I	4-9_nsubj	went	PRP	P1_passenger
+4-9	went	4-7_ccomp	leave	VBD	O
+4-10	to	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	airport	O	O	NN	P1_airport
+4-13	hours	4-9_prep_to	went	NNS	P2_time/date
+4-14	in	O	O	O	O
+4-15	advance	O	O	NN	O
+4-16	because	O	O	IN	O
+4-17	I	O	O	PRP	P1_passenger
+4-18	was	O	O	VBD	O
+4-19	nervous	4-9_advcl	went	JJ	O
+4-20	and	O	O	O	O
+4-21	excited	O	O	JJ	O
+4-22	.	O	O	O	O
+
+#id=5
+#text=I checked in at the correct terminal where the flight was supposed to leave from . 
+5-1	I	5-2_nsubj	checked	PRP	P1_passenger
+5-2	checked	O	O	VBD	O
+5-3	in	5-2_prep	checked	IN	O
+5-4	at	O	O	IN	O
+5-5	the	O	O	DT	O
+5-6	correct	O	O	JJ	O
+5-7	terminal	O	O	NN	P1_terminal/gate
+5-8	where	5-12_advmod	supposed	WRB	O
+5-9	the	O	O	DT	O
+5-10	flight	5-12_nsubjpass	supposed	NN	P1_flight
+5-11	was	5-12_auxpass	supposed	VBD	O
+5-12	supposed	5-2_advcl	checked	VBN	O
+5-13	to	5-14_aux	leave	TO	O
+5-14	leave	5-12_xcomp	supposed	VB	O
+5-15	from	5-14_prep	leave	IN	O
+5-16	.	O	O	O	O
+
+#id=6
+#text=A nice lady checked my ticket and confirmed that my flight was on schedule . 
+6-1	A	O	O	DT	O
+6-2	nice	O	O	JJ	O
+6-3	lady	6-4_nsubj	checked	NN	P1_staff
+6-4	checked	O	O	VBD	O
+6-5	my	O	O	PRP$	P1_passenger
+6-6	ticket	6-4_dobj	checked	NN	P1_ticket
+6-7	and	O	O	O	O
+6-8	confirmed	6-4_conj_and	checked	VBD	O
+6-9	that	6-12_mark	was	IN	O
+6-10	my	O	O	PRP$	P1_passenger
+6-11	flight	6-12_nsubj	was	NN	P1_flight
+6-12	was	6-8_ccomp	confirmed	VBD	O
+6-13	on	O	O	O	O
+6-14	schedule	6-12_prep_on	was	NN	O
+6-15	.	O	O	O	O
+
+#id=7
+#text=I then proceeded to the security check station where officers checked my bags and personal belongings . 
+7-1	I	7-3_nsubj	proceeded	PRP	P1_passenger
+7-2	then	7-3_advmod	proceeded	RB	O
+7-3	proceeded	O	O	VBD	O
+7-4	to	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	security	O	O	NN	O
+7-7	check	O	O	NN	O
+7-8	station	7-3_prep_to	proceeded	NN	P1_security_check
+7-9	where	7-11_advmod	checked	WRB	O
+7-10	officers	7-11_nsubj	checked	NNS	P2_staff
+7-11	checked	7-3_advcl	proceeded	VBD	O
+7-12	my	O	O	PRP$	P1_passenger
+7-13	bags	7-11_dobj	checked	NNS	P1_carry_on_luggage
+7-14	and	O	O	O	O
+7-15	personal	O	O	JJ	O
+7-16	belongings	O	O	NNS	P1_personal_belongings
+7-17	.	O	O	O	O
+
+#id=8
+#text=After the quick screening and a short wait my plane boarded . 
+8-1	After	O	O	O	O
+8-2	the	O	O	DT	O
+8-3	quick	O	O	JJ	O
+8-4	screening	8-11_prep_after	boarded	NN	O
+8-5	and	O	O	O	O
+8-6	a	O	O	DT	O
+8-7	short	O	O	JJ	O
+8-8	wait	O	O	NN	P1_NPart_wait
+8-9	my	O	O	PRP$	P1_passenger
+8-10	plane	8-11_nsubj	boarded	NN	P1_plane
+8-11	boarded	O	O	VBD	O
+8-12	.	O	O	O	O
+
+#id=9
+#text=I found my seat next to the window and was full of excitement . 
+9-1	I	9-2_nsubj	found	PRP	P1_passenger
+9-2	found	O	O	VBD	O
+9-3	my	O	O	PRP$	P1_passenger
+9-4	seat	9-2_dobj	found	NN	P1_seat
+9-5	next	O	O	O	O
+9-6	to	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	window	9-2_prep_next_to	found	NN	P1_in-flight_entertainment
+9-9	and	O	O	O	O
+9-10	was	O	O	VBD	O
+9-11	full	9-2_conj_and	found	JJ	O
+9-12	of	O	O	O	O
+9-13	excitement	O	O	NN	P1_NPart_excitement
+9-14	.	O	O	O	O
+
+#id=10
+#text=After some short instructions the plane taxied the runway and then sped up in a flash . 
+10-1	After	O	O	O	O
+10-2	some	O	O	DT	O
+10-3	short	O	O	JJ	O
+10-4	instructions	10-7_prep_after	taxied	NNS	P1_safety_instructions
+10-5	the	O	O	DT	O
+10-6	plane	10-7_nsubj	taxied	NN	P1_plane
+10-7	taxied	O	O	VBD	O
+10-8	the	O	O	DT	O
+10-9	runway	10-7_dobj	taxied	NN	P1_location_airplane
+10-10	and	O	O	O	O
+10-11	then	10-12_advmod	sped	RB	O
+10-12	sped	10-7_conj_and	taxied	VBD	O
+10-13	up	10-12_prt	sped	RP	O
+10-14	in	O	O	O	O
+10-15	a	O	O	DT	O
+10-16	flash	10-12_prep_in	sped	NN	P1_NPart_flash
+10-17	.	O	O	O	O
+
+#id=11
+#text=I watched as the tires left the ground and we took to the sky . 
+11-1	I	11-2_nsubj	watched	PRP	P1_passenger
+11-2	watched	O	O	VBD	O
+11-3	as	11-6_mark	left	IN	O
+11-4	the	O	O	DT	O
+11-5	tires	11-6_nsubj	left	NNS	P1_plane
+11-6	left	11-2_advcl	watched	VBD	O
+11-7	the	O	O	DT	O
+11-8	ground	11-6_dobj	left	NN	P2_location_airplane
+11-9	and	O	O	O	O
+11-10	we	11-11_nsubj	took	PRP	P1_plane
+11-11	took	11-2_conj_and	watched	VBD	O
+11-12	to	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	sky	11-11_prep_to	took	NN	P3_location_airplane
+11-15	.	O	O	O	O
+
+#id=12
+#text=After several hours in the air the plane descended and touched down on a runway in Mexico . 
+12-1	After	O	O	O	O
+12-2	several	O	O	JJ	O
+12-3	hours	12-9_prep_after	descended	NNS	P3_time/date
+12-4	in	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	air	O	O	NN	P3_location_airplane
+12-7	the	O	O	DT	O
+12-8	plane	12-9_nsubj	descended	NN	P1_plane
+12-9	descended	O	O	VBD	O
+12-10	and	O	O	O	O
+12-11	touched	12-9_conj_and	descended	VBD	O
+12-12	down	12-11_prt	touched	RP	O
+12-13	on	O	O	O	O
+12-14	a	O	O	DT	O
+12-15	runway	12-11_prep_on	touched	NN	P4_location_airplane
+12-16	in	O	O	O	O
+12-17	Mexico	O	O	NNP	P1_target_location
+12-18	.	O	O	O	O
+
+#id=13
+#text=I was excited to get my vacation started . 
+13-1	I	O	O	PRP	P1_passenger
+13-2	was	O	O	VBD	O
+13-3	excited	O	O	JJ	O
+13-4	to	13-5_aux	get	TO	O
+13-5	get	O	O	VB	O
+13-6	my	O	O	PRP$	P1_passenger
+13-7	vacation	13-5_dobj	get	NN	P1_NPart_vacation
+13-8	started	O	O	VBN	O
+13-9	.	O	O	O	O

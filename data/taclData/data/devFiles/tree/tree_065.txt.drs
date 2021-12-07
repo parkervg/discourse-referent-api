@@ -1,0 +1,206 @@
+#id=1
+#text=I visited a big garden nursery store and picked out a tree to plant in my garden . 
+1-1	I	1-2_nsubj	visited	PRP	P1_gardener
+1-2	visited	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	big	O	O	JJ	O
+1-5	garden	O	O	NN	O
+1-6	nursery	O	O	NN	O
+1-7	store	1-2_dobj	visited	NN	P1_shop
+1-8	and	O	O	O	O
+1-9	picked	1-2_conj_and	visited	VBD	O
+1-10	out	1-9_prt	picked	RP	O
+1-11	a	O	O	DT	O
+1-12	tree	1-9_dobj	picked	NN	P1_tree
+1-13	to	O	O	O	O
+1-14	plant	1-9_prep_to	picked	NN	O
+1-15	in	O	O	O	O
+1-16	my	O	O	PRP$	P1_gardener
+1-17	garden	1-9_prep_in	picked	NN	P1_location_garden
+1-18	.	O	O	O	O
+
+#id=2
+#text=I wanted to pick out a tree that was a good size for my garden space . 
+2-1	I	2-2_nsubj	wanted	PRP	P1_gardener
+2-2	wanted	O	O	VBD	O
+2-3	to	2-4_aux	pick	TO	O
+2-4	pick	2-2_xcomp	wanted	VB	O
+2-5	out	2-4_prt	pick	RP	O
+2-6	a	O	O	DT	O
+2-7	tree	2-4_dobj	pick	NN	P2_tree
+2-8	that	O	O	WDT	O
+2-9	was	O	O	VBD	O
+2-10	a	O	O	DT	O
+2-11	good	O	O	JJ	O
+2-12	size	O	O	NN	P1_other
+2-13	for	O	O	O	O
+2-14	my	O	O	PRP$	P1_gardener
+2-15	garden	O	O	NN	O
+2-16	space	O	O	NN	P2_other
+2-17	.	O	O	O	O
+
+#id=3
+#text=I picked out a tree that was green and healthy . 
+3-1	I	3-2_nsubj	picked	PRP	P1_gardener
+3-2	picked	O	O	VBD	O
+3-3	out	3-2_prt	picked	RP	O
+3-4	a	O	O	DT	O
+3-5	tree	3-2_dobj	picked	NN	P2_tree
+3-6	that	O	O	WDT	O
+3-7	was	O	O	VBD	O
+3-8	green	O	O	JJ	O
+3-9	and	O	O	O	O
+3-10	healthy	O	O	JJ	O
+3-11	.	O	O	O	O
+
+#id=4
+#text=The tree was n't too big so I brought it home in a pot . 
+4-1	The	O	O	DT	O
+4-2	tree	O	O	NN	P2_tree
+4-3	was	O	O	VBD	O
+4-4	n't	O	O	RB	O
+4-5	too	O	O	RB	O
+4-6	big	O	O	JJ	O
+4-7	so	4-9_mark	brought	IN	O
+4-8	I	4-9_nsubj	brought	PRP	P1_gardener
+4-9	brought	O	O	VBD	O
+4-10	it	4-9_dobj	brought	PRP	P2_tree
+4-11	home	4-9_advmod	brought	RB	O
+4-12	in	O	O	O	O
+4-13	a	O	O	DT	O
+4-14	pot	4-9_prep_in	brought	NN	P3_other
+4-15	.	O	O	O	O
+
+#id=5
+#text=I also bought a shovel and a bag of potting soil . 
+5-1	I	5-3_nsubj	bought	PRP	P1_gardener
+5-2	also	5-3_advmod	bought	RB	O
+5-3	bought	O	O	VBD	O
+5-4	a	O	O	DT	O
+5-5	shovel	5-3_dobj	bought	NN	P1_gardening_tool
+5-6	and	O	O	O	O
+5-7	a	O	O	DT	O
+5-8	bag	O	O	NN	P1_NPart_bag
+5-9	of	O	O	O	O
+5-10	potting	O	O	VBG	O
+5-11	soil	O	O	NN	P1_dirt
+5-12	.	O	O	O	O
+
+#id=6
+#text=In my garden at home , I began digging a hole in the soil with my shovel to fit my tree . 
+6-1	In	O	O	O	O
+6-2	my	O	O	PRP$	P1_gardener
+6-3	garden	6-8_prep_in	began	NN	P2_location_garden
+6-4	at	O	O	O	O
+6-5	home	O	O	NN	O
+6-6	,	O	O	O	O
+6-7	I	6-8_nsubj	began	PRP	P1_gardener
+6-8	began	O	O	VBD	O
+6-9	digging	6-8_xcomp	began	VBG	O
+6-10	a	O	O	DT	O
+6-11	hole	6-9_dobj	digging	NN	P1_hole
+6-12	in	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	soil	O	O	NN	P1_dirt
+6-15	with	O	O	O	O
+6-16	my	O	O	PRP$	P1_gardener
+6-17	shovel	6-9_prep_with	digging	NN	P1_gardening_tool
+6-18	to	6-19_aux	fit	TO	O
+6-19	fit	O	O	VB	O
+6-20	my	O	O	PRP$	P1_gardener
+6-21	tree	6-19_dobj	fit	NN	P2_tree
+6-22	.	O	O	O	O
+
+#id=7
+#text=I picked a spot to plant it where I think it would get the most exposure to sunlight to grow . 
+7-1	I	7-2_nsubj	picked	PRP	P1_gardener
+7-2	picked	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	spot	7-2_dobj	picked	NN	P3_location_garden
+7-5	to	7-6_aux	plant	TO	O
+7-6	plant	O	O	VB	O
+7-7	it	7-6_dobj	plant	PRP	P2_tree
+7-8	where	7-10_advmod	think	WRB	O
+7-9	I	7-10_nsubj	think	PRP	P1_gardener
+7-10	think	7-6_advcl	plant	VBP	O
+7-11	it	7-13_nsubj	get	PRP	P2_tree
+7-12	would	7-13_aux	get	MD	O
+7-13	get	7-10_ccomp	think	VB	O
+7-14	the	O	O	DT	O
+7-15	most	O	O	JJS	O
+7-16	exposure	7-13_dobj	get	NN	P1_NPart_exposure
+7-17	to	O	O	O	O
+7-18	sunlight	O	O	NN	P4_other
+7-19	to	7-20_aux	grow	TO	O
+7-20	grow	7-13_vmod	get	VB	O
+7-21	.	O	O	O	O
+
+#id=8
+#text=I planted the tree in the hole and then shoveled the fresh new soil into the hole to hold the tree up . 
+8-1	I	8-2_nsubj	planted	PRP	P1_gardener
+8-2	planted	O	O	VBD	O
+8-3	the	O	O	DT	O
+8-4	tree	8-2_dobj	planted	NN	P2_tree
+8-5	in	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	hole	8-2_prep_in	planted	NN	P1_hole
+8-8	and	O	O	O	O
+8-9	then	8-10_advmod	shoveled	RB	O
+8-10	shoveled	8-2_conj_and	planted	VBD	O
+8-11	the	O	O	DT	O
+8-12	fresh	O	O	JJ	O
+8-13	new	O	O	JJ	O
+8-14	soil	8-10_dobj	shoveled	NN	P1_dirt
+8-15	into	O	O	O	O
+8-16	the	O	O	DT	O
+8-17	hole	8-10_prep_into	shoveled	NN	P1_hole
+8-18	to	8-19_aux	hold	TO	O
+8-19	hold	8-10_vmod	shoveled	VB	O
+8-20	the	O	O	DT	O
+8-21	tree	8-19_dobj	hold	NN	P2_tree
+8-22	up	8-19_prt	hold	RP	O
+8-23	.	O	O	O	O
+
+#id=9
+#text=The fresh new soil will be good for the tree to grow instead of using the old soil . 
+9-1	The	O	O	DT	O
+9-2	fresh	O	O	JJ	O
+9-3	new	O	O	JJ	O
+9-4	soil	O	O	NN	P1_dirt
+9-5	will	O	O	MD	O
+9-6	be	O	O	VB	O
+9-7	good	O	O	JJ	O
+9-8	for	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	tree	O	O	NN	P2_tree
+9-11	to	9-12_aux	grow	TO	O
+9-12	grow	O	O	VB	O
+9-13	instead	O	O	O	O
+9-14	of	O	O	O	O
+9-15	using	9-12_prepc_instead_of	grow	VBG	O
+9-16	the	O	O	DT	O
+9-17	old	O	O	JJ	O
+9-18	soil	9-15_dobj	using	NN	P1_dirt
+9-19	.	O	O	O	O
+
+#id=10
+#text=I watered the tree and soil and now I will wait for it to flourish in my garden . 
+10-1	I	10-2_nsubj	watered	PRP	P1_gardener
+10-2	watered	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	tree	10-2_dobj	watered	NN	P2_tree
+10-5	and	O	O	O	O
+10-6	soil	O	O	NN	P1_dirt
+10-7	and	O	O	O	O
+10-8	now	10-11_advmod	wait	RB	O
+10-9	I	10-11_nsubj	wait	PRP	P1_gardener
+10-10	will	10-11_aux	wait	MD	O
+10-11	wait	10-2_conj_and	watered	VB	O
+10-12	for	10-15_mark	flourish	IN	O
+10-13	it	10-15_nsubj	flourish	PRP	P2_tree
+10-14	to	10-15_aux	flourish	TO	O
+10-15	flourish	10-11_advcl	wait	VB	O
+10-16	in	O	O	O	O
+10-17	my	O	O	PRP$	P1_gardener
+10-18	garden	10-15_prep_in	flourish	NN	P4_location_garden
+10-19	.	O	O	O	O

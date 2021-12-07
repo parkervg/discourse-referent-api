@@ -1,0 +1,219 @@
+#id=1
+#text=I decided to borrow some books from the library . 
+1-1	I	1-2_nsubj	decided	PRP	P1_customer
+1-2	decided	O	O	VBD	O
+1-3	to	1-4_aux	borrow	TO	O
+1-4	borrow	1-2_xcomp	decided	VB	O
+1-5	some	O	O	DT	O
+1-6	books	1-4_dobj	borrow	NNS	P1_book
+1-7	from	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	library	1-4_prep_from	borrow	NN	P1_library
+1-10	.	O	O	O	O
+
+#id=2
+#text=I went to the library and started looking on the shelves . 
+2-1	I	2-2_nsubj	went	PRP	P1_customer
+2-2	went	O	O	VBD	O
+2-3	to	O	O	O	O
+2-4	the	O	O	DT	O
+2-5	library	2-2_prep_to	went	NN	P1_library
+2-6	and	O	O	O	O
+2-7	started	2-2_conj_and	went	VBD	O
+2-8	looking	2-7_xcomp	started	VBG	O
+2-9	on	O	O	O	O
+2-10	the	O	O	DT	O
+2-11	shelves	2-8_prep_on	looking	NNS	P1_shelf
+2-12	.	O	O	O	O
+
+#id=3
+#text=There were so many good books that it was difficult to pick out just a few , so I used the library 's computer book search program . 
+3-1	There	3-2_expl	were	EX	O
+3-2	were	O	O	VBD	O
+3-3	so	3-2_advmod	were	RB	O
+3-4	many	O	O	JJ	O
+3-5	good	O	O	JJ	O
+3-6	books	3-2_nsubj	were	NNS	P1_book
+3-7	that	O	O	IN	O
+3-8	it	O	O	PRP	O
+3-9	was	O	O	VBD	O
+3-10	difficult	3-2_ccomp	were	JJ	O
+3-11	to	3-12_aux	pick	TO	O
+3-12	pick	O	O	VB	O
+3-13	out	O	O	O	O
+3-14	just	O	O	RB	O
+3-15	a	O	O	DT	O
+3-16	few	3-12_prep_out	pick	JJ	P1_book
+3-17	,	O	O	O	O
+3-18	so	3-2_dep	were	IN	O
+3-19	I	3-20_nsubj	used	PRP	P1_customer
+3-20	used	3-2_parataxis	were	VBD	O
+3-21	the	O	O	DT	O
+3-22	library	O	O	NN	P1_library
+3-23	's	O	O	O	O
+3-24	computer	O	O	NN	O
+3-25	book	O	O	NN	O
+3-26	search	O	O	NN	O
+3-27	program	3-20_dep	used	NN	P1_institutional_devices
+3-28	.	O	O	O	O
+
+#id=4
+#text=Eventually I chose several modern plays , a biography , and a book on ancient Rome . 
+4-1	Eventually	4-3_advmod	chose	RB	O
+4-2	I	4-3_nsubj	chose	PRP	P1_customer
+4-3	chose	O	O	VBD	O
+4-4	several	O	O	JJ	O
+4-5	modern	O	O	JJ	O
+4-6	plays	4-3_dobj	chose	NNS	P2_book
+4-7	,	O	O	O	O
+4-8	a	O	O	DT	O
+4-9	biography	O	O	NN	P3_book
+4-10	,	O	O	O	O
+4-11	and	O	O	O	O
+4-12	a	O	O	DT	O
+4-13	book	O	O	NN	P4_book
+4-14	on	O	O	O	O
+4-15	ancient	O	O	JJ	O
+4-16	Rome	4-3_prep_on	chose	NNP	P1_NPart_rome
+4-17	.	O	O	O	O
+
+#id=5
+#text=I took these books up to the librarian 's desk and asked if I could check them out . 
+5-1	I	5-2_nsubj	took	PRP	P1_customer
+5-2	took	O	O	VBD	O
+5-3	these	O	O	DT	O
+5-4	books	5-2_dobj	took	NNS	P1_book
+5-5	up	5-2_prt	took	RP	O
+5-6	to	O	O	O	O
+5-7	the	O	O	DT	O
+5-8	librarian	O	O	NN	P1_staff
+5-9	's	O	O	O	O
+5-10	desk	5-2_prep_to	took	NN	P1_check-out_desk
+5-11	and	O	O	O	O
+5-12	asked	5-2_conj_and	took	VBD	O
+5-13	if	5-16_mark	check	IN	O
+5-14	I	5-16_nsubj	check	PRP	P1_customer
+5-15	could	5-16_aux	check	MD	O
+5-16	check	5-12_advcl	asked	VB	O
+5-17	them	5-16_dobj	check	PRP	P1_book
+5-18	out	5-16_prt	check	RP	O
+5-19	.	O	O	O	O
+
+#id=6
+#text=She said yes , I could borrow the books , but I needed to sign up for a library card . 
+6-1	She	6-2_nsubj	said	PRP	P1_staff
+6-2	said	O	O	VBD	O
+6-3	yes	6-7_discourse	borrow	UH	O
+6-4	,	O	O	O	O
+6-5	I	6-7_nsubj	borrow	PRP	P1_customer
+6-6	could	6-7_aux	borrow	MD	O
+6-7	borrow	6-2_ccomp	said	VB	O
+6-8	the	O	O	DT	O
+6-9	books	6-7_dobj	borrow	NNS	P1_book
+6-10	,	O	O	O	O
+6-11	but	O	O	O	O
+6-12	I	6-13_nsubj	needed	PRP	P1_customer
+6-13	needed	6-2_conj_but	said	VBD	O
+6-14	to	6-15_aux	sign	TO	O
+6-15	sign	6-13_xcomp	needed	VB	O
+6-16	up	6-15_prt	sign	RP	O
+6-17	for	O	O	O	O
+6-18	a	O	O	DT	O
+6-19	library	O	O	NN	O
+6-20	card	6-15_prep_for	sign	NN	P1_library_card
+6-21	.	O	O	O	O
+
+#id=7
+#text=I filled out the form , and she took it . 
+7-1	I	7-2_nsubj	filled	PRP	P1_customer
+7-2	filled	O	O	VBN	O
+7-3	out	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	form	7-2_prep_out	filled	NN	P1_NPart_form
+7-6	,	O	O	O	O
+7-7	and	O	O	O	O
+7-8	she	7-9_nsubj	took	PRP	P1_staff
+7-9	took	7-2_conj_and	filled	VBD	O
+7-10	it	7-9_dobj	took	PRP	P1_NPart_it
+7-11	.	O	O	O	O
+
+#id=8
+#text=Then she made my library card and gave it to me . 
+8-1	Then	8-3_advmod	made	RB	O
+8-2	she	8-3_nsubj	made	PRP	P1_staff
+8-3	made	O	O	VBD	O
+8-4	my	O	O	PRP$	P1_customer
+8-5	library	O	O	NN	O
+8-6	card	8-3_dobj	made	NN	P1_library_card
+8-7	and	O	O	O	O
+8-8	gave	8-3_conj_and	made	VBD	O
+8-9	it	8-8_dobj	gave	PRP	P1_library_card
+8-10	to	O	O	O	O
+8-11	me	8-8_prep_to	gave	PRP	P1_customer
+8-12	.	O	O	O	O
+
+#id=9
+#text=With this accomplished , I was able to check out my books . 
+9-1	With	O	O	O	O
+9-2	this	O	O	DT	O
+9-3	accomplished	O	O	JJ	O
+9-4	,	O	O	O	O
+9-5	I	O	O	PRP	P1_customer
+9-6	was	O	O	VBD	O
+9-7	able	O	O	JJ	O
+9-8	to	9-9_aux	check	TO	O
+9-9	check	O	O	VB	O
+9-10	out	9-9_prt	check	RP	O
+9-11	my	O	O	PRP$	P1_customer
+9-12	books	9-9_dobj	check	NNS	P1_book
+9-13	.	O	O	O	O
+
+#id=10
+#text=She put a card in each one with a date stamped on it . 
+10-1	She	10-2_nsubj	put	PRP	P1_staff
+10-2	put	O	O	VBD	O
+10-3	a	O	O	DT	O
+10-4	card	10-2_dobj	put	NN	P1_receipt
+10-5	in	O	O	O	O
+10-6	each	O	O	DT	O
+10-7	one	10-2_prep_in	put	NN	P1_book
+10-8	with	O	O	O	O
+10-9	a	O	O	DT	O
+10-10	date	10-2_prep_with	put	NN	P1_return_date
+10-11	stamped	O	O	VBN	O
+10-12	on	O	O	O	O
+10-13	it	10-11_prep_on	stamped	PRP	P1_receipt
+10-14	.	O	O	O	O
+
+#id=11
+#text=This was the date the books were due to be returned . 
+11-1	This	O	O	DT	O
+11-2	was	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	date	O	O	NN	P1_return_date
+11-5	the	O	O	DT	O
+11-6	books	O	O	NNS	P1_book
+11-7	were	O	O	VBD	O
+11-8	due	O	O	JJ	O
+11-9	to	11-11_aux	returned	TO	O
+11-10	be	11-11_auxpass	returned	VB	O
+11-11	returned	O	O	VBN	O
+11-12	.	O	O	O	O
+
+#id=12
+#text=I promised to return them on time and took the books home to read . 
+12-1	I	12-2_nsubj	promised	PRP	P1_customer
+12-2	promised	O	O	VBD	O
+12-3	to	12-4_aux	return	TO	O
+12-4	return	12-2_xcomp	promised	VB	O
+12-5	them	12-4_dobj	return	PRP	P1_book
+12-6	on	O	O	O	O
+12-7	time	12-4_prep_on	return	NN	P1_return_date
+12-8	and	O	O	O	O
+12-9	took	12-2_conj_and	promised	VBD	O
+12-10	the	O	O	DT	O
+12-11	books	O	O	NNS	P1_book
+12-12	home	12-9_dobj	took	NN	P1_NPart_home
+12-13	to	12-14_aux	read	TO	O
+12-14	read	12-9_vmod	took	VB	O
+12-15	.	O	O	O	O

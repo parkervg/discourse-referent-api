@@ -1,0 +1,363 @@
+#id=1
+#text=I was traveling on vacation a few months ago , and decided to take a train to my destination instead of flying . 
+1-1	I	1-3_nsubj	traveling	PRP	P1_passenger
+1-2	was	1-3_aux	traveling	VBD	O
+1-3	traveling	O	O	VBG	O
+1-4	on	O	O	O	O
+1-5	vacation	1-3_prep_on	traveling	NN	P1_NPart_vacation
+1-6	a	O	O	DT	O
+1-7	few	O	O	JJ	O
+1-8	months	O	O	NNS	P1_time_date
+1-9	ago	1-3_advmod	traveling	RB	O
+1-10	,	O	O	O	O
+1-11	and	O	O	O	O
+1-12	decided	1-3_conj_and	traveling	VBD	O
+1-13	to	1-14_aux	take	TO	O
+1-14	take	1-12_xcomp	decided	VB	O
+1-15	a	O	O	DT	O
+1-16	train	1-14_dobj	take	NN	P1_train
+1-17	to	O	O	O	O
+1-18	my	O	O	PRP$	P1_passenger
+1-19	destination	1-14_prep_to	take	NN	P1_destination
+1-20	instead	O	O	O	O
+1-21	of	O	O	O	O
+1-22	flying	1-14_prepc_instead_of	take	VBG	O
+1-23	.	O	O	O	O
+
+#id=2
+#text=I have always wanted to travel by train , and this was a good opportunity . 
+2-1	I	2-4_nsubj	wanted	PRP	P1_passenger
+2-2	have	2-4_aux	wanted	VBP	O
+2-3	always	2-4_advmod	wanted	RB	O
+2-4	wanted	O	O	VBN	O
+2-5	to	2-6_aux	travel	TO	O
+2-6	travel	2-4_xcomp	wanted	VB	O
+2-7	by	O	O	O	O
+2-8	train	2-6_prep_by	travel	NN	P1_train
+2-9	,	O	O	O	O
+2-10	and	O	O	O	O
+2-11	this	O	O	DT	O
+2-12	was	O	O	VBD	O
+2-13	a	O	O	DT	O
+2-14	good	O	O	JJ	O
+2-15	opportunity	2-4_conj_and	wanted	NN	P1_NPart_opportunity
+2-16	.	O	O	O	O
+
+#id=3
+#text=I went online to look at the train schedules . 
+3-1	I	3-2_nsubj	went	PRP	P1_passenger
+3-2	went	O	O	VBD	O
+3-3	online	3-2_prep	went	NN	O
+3-4	to	3-5_aux	look	TO	O
+3-5	look	3-2_xcomp	went	VB	O
+3-6	at	O	O	O	O
+3-7	the	O	O	DT	O
+3-8	train	O	O	NN	O
+3-9	schedules	3-5_prep_at	look	NNS	P1_time-table
+3-10	.	O	O	O	O
+
+#id=4
+#text=There were quite a lot of them , so it took me a while to narrow down my choices based on when I wanted to leave and then arrive at my vacation destination . 
+4-1	There	4-2_expl	were	EX	O
+4-2	were	O	O	VBD	O
+4-3	quite	O	O	RB	O
+4-4	a	O	O	DT	O
+4-5	lot	4-2_nsubj	were	NN	O
+4-6	of	O	O	O	O
+4-7	them	O	O	PRP	P1_time-table
+4-8	,	O	O	O	O
+4-9	so	4-2_dep	were	IN	O
+4-10	it	4-11_nsubj	took	PRP	O
+4-11	took	4-2_parataxis	were	VBD	O
+4-12	me	4-11_iobj	took	PRP	P1_passenger
+4-13	a	O	O	DT	O
+4-14	while	4-11_dobj	took	NN	O
+4-15	to	4-16_aux	narrow	TO	O
+4-16	narrow	4-11_vmod	took	VB	O
+4-17	down	4-16_prt	narrow	RP	O
+4-18	my	O	O	PRP$	P1_passenger
+4-19	choices	4-16_dobj	narrow	NNS	P1_NPart_choices
+4-20	based	O	O	O	O
+4-21	on	4-16_prepc_based_on	narrow	IN	O
+4-22	when	4-24_advmod	wanted	WRB	O
+4-23	I	4-24_nsubj	wanted	PRP	P1_passenger
+4-24	wanted	4-16_pcomp	narrow	VBD	O
+4-25	to	4-26_aux	leave	TO	O
+4-26	leave	4-24_xcomp	wanted	VB	O
+4-27	and	O	O	O	O
+4-28	then	4-29_advmod	arrive	RB	O
+4-29	arrive	4-26_conj_and	leave	VB	O
+4-30	at	O	O	O	O
+4-31	my	O	O	PRP$	P1_passenger
+4-32	vacation	O	O	NN	O
+4-33	destination	4-29_prep_at	arrive	NN	P1_destination
+4-34	.	O	O	O	O
+
+#id=5
+#text=I finally was able to choose a time and date , and I purchased my tickets with my credit card . 
+5-1	I	O	O	PRP	P1_passenger
+5-2	finally	O	O	RB	O
+5-3	was	O	O	VBD	O
+5-4	able	O	O	JJ	O
+5-5	to	5-6_aux	choose	TO	O
+5-6	choose	O	O	VB	O
+5-7	a	O	O	DT	O
+5-8	time	5-6_dobj	choose	NN	P2_time_date
+5-9	and	O	O	O	O
+5-10	date	O	O	NN	P3_time_date
+5-11	,	O	O	O	O
+5-12	and	O	O	O	O
+5-13	I	5-14_nsubj	purchased	PRP	P1_passenger
+5-14	purchased	O	O	VBD	O
+5-15	my	O	O	PRP$	P1_passenger
+5-16	tickets	5-14_dobj	purchased	NNS	P1_card/ticket
+5-17	with	O	O	O	O
+5-18	my	O	O	PRP$	P1_passenger
+5-19	credit	O	O	NN	O
+5-20	card	5-14_prep_with	purchased	NN	P1_payment_means
+5-21	.	O	O	O	O
+
+#id=6
+#text=The day finally arrived to take my vacation . 
+6-1	The	O	O	DT	O
+6-2	day	6-4_nsubj	arrived	NN	P4_time_date
+6-3	finally	6-4_advmod	arrived	RB	O
+6-4	arrived	O	O	VBD	O
+6-5	to	6-6_aux	take	TO	O
+6-6	take	6-4_xcomp	arrived	VB	O
+6-7	my	O	O	PRP$	P1_passenger
+6-8	vacation	6-6_dobj	take	NN	O
+6-9	.	O	O	O	O
+
+#id=7
+#text=I went to the train station and checked in with the railway . 
+7-1	I	7-2_nsubj	went	PRP	P1_passenger
+7-2	went	O	O	VBD	O
+7-3	to	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	train	O	O	NN	O
+7-6	station	7-2_prep_to	went	NN	P1_train_station
+7-7	and	O	O	O	O
+7-8	checked	7-2_conj_and	went	VBD	O
+7-9	in	7-8_prt	checked	RP	O
+7-10	with	O	O	O	O
+7-11	the	O	O	DT	O
+7-12	railway	7-8_prep_with	checked	NN	P1_NPart_railway
+7-13	.	O	O	O	O
+
+#id=8
+#text=They gave me a paper ticket , which I then brought to the rail line . 
+8-1	They	8-2_nsubj	gave	PRP	O
+8-2	gave	O	O	VBD	O
+8-3	me	8-2_iobj	gave	PRP	P1_passenger
+8-4	a	O	O	DT	O
+8-5	paper	O	O	NN	O
+8-6	ticket	8-2_dobj	gave	NN	P1_card/ticket
+8-7	,	O	O	O	O
+8-8	which	8-11_dobj	brought	WDT	O
+8-9	I	8-11_nsubj	brought	PRP	P1_passenger
+8-10	then	8-11_advmod	brought	RB	O
+8-11	brought	O	O	VBD	O
+8-12	to	O	O	O	O
+8-13	the	O	O	DT	O
+8-14	rail	O	O	NN	O
+8-15	line	8-11_prep_to	brought	NN	O
+8-16	.	O	O	O	O
+
+#id=9
+#text=When we boarded the train , we gave the ticket to a ticket taker , and he escorted me to my booth . 
+9-1	When	9-3_advmod	boarded	WRB	O
+9-2	we	9-3_nsubj	boarded	PRP	P2_passenger
+9-3	boarded	9-8_advcl	gave	VBD	O
+9-4	the	O	O	DT	O
+9-5	train	9-3_dobj	boarded	NN	P1_train
+9-6	,	O	O	O	O
+9-7	we	9-8_nsubj	gave	PRP	P2_passenger
+9-8	gave	O	O	VBD	O
+9-9	the	O	O	DT	O
+9-10	ticket	9-8_dobj	gave	NN	P1_card/ticket
+9-11	to	O	O	O	O
+9-12	a	O	O	DT	O
+9-13	ticket	O	O	NN	O
+9-14	taker	9-8_prep_to	gave	NN	P1_train_staff
+9-15	,	O	O	O	O
+9-16	and	O	O	O	O
+9-17	he	9-18_nsubj	escorted	PRP	P1_train_staff
+9-18	escorted	9-8_conj_and	gave	VBD	O
+9-19	me	9-18_dobj	escorted	PRP	P1_passenger
+9-20	to	O	O	O	O
+9-21	my	O	O	PRP$	P1_passenger
+9-22	booth	9-18_prep_to	escorted	NN	P1_location_train
+9-23	.	O	O	O	O
+
+#id=10
+#text=It was fun and exciting . 
+10-1	It	O	O	PRP	O
+10-2	was	O	O	VBD	O
+10-3	fun	O	O	JJ	O
+10-4	and	O	O	O	O
+10-5	exciting	O	O	JJ	O
+10-6	.	O	O	O	O
+
+#id=11
+#text=Finally after all the passengers were on board , we were off . 
+11-1	Finally	11-6_advmod	were	RB	O
+11-2	after	11-6_mark	were	IN	O
+11-3	all	O	O	PDT	O
+11-4	the	O	O	DT	O
+11-5	passengers	11-6_nsubj	were	NNS	P2_passenger
+11-6	were	O	O	VBD	O
+11-7	on	O	O	O	O
+11-8	board	11-6_prep_on	were	NN	O
+11-9	,	O	O	O	O
+11-10	we	O	O	PRP	P2_passenger
+11-11	were	O	O	VBD	O
+11-12	off	O	O	RP	O
+11-13	.	O	O	O	O
+
+#id=12
+#text=The train seemed a bit jerky in the motion , but eventually it smoothed out . 
+12-1	The	O	O	DT	O
+12-2	train	12-3_nsubj	seemed	NN	P1_train
+12-3	seemed	O	O	VBD	O
+12-4	a	O	O	DT	O
+12-5	bit	O	O	NN	O
+12-6	jerky	12-3_xcomp	seemed	NN	O
+12-7	in	O	O	O	O
+12-8	the	O	O	DT	O
+12-9	motion	12-3_prep_in	seemed	NN	P1_NPart_motion
+12-10	,	O	O	O	O
+12-11	but	O	O	O	O
+12-12	eventually	12-14_advmod	smoothed	RB	O
+12-13	it	12-14_nsubj	smoothed	PRP	P1_train
+12-14	smoothed	12-3_conj_but	seemed	VBZ	O
+12-15	out	12-14_prt	smoothed	RP	O
+12-16	.	O	O	O	O
+
+#id=13
+#text=It was so much fun , seeing all of the towns and cities we passed through . 
+13-1	It	O	O	PRP	O
+13-2	was	O	O	VBD	O
+13-3	so	O	O	RB	O
+13-4	much	O	O	JJ	O
+13-5	fun	O	O	NN	O
+13-6	,	O	O	O	O
+13-7	seeing	O	O	VBG	O
+13-8	all	13-7_dobj	seeing	DT	O
+13-9	of	O	O	O	O
+13-10	the	O	O	DT	O
+13-11	towns	O	O	NNS	P1_in-train_entertainment
+13-12	and	O	O	O	O
+13-13	cities	O	O	NNS	P2_in-train_entertainment
+13-14	we	13-15_nsubj	passed	PRP	P2_passenger
+13-15	passed	O	O	VBD	O
+13-16	through	13-15_prt	passed	RP	O
+13-17	.	O	O	O	O
+
+#id=14
+#text=Some we stopped at and some we just passed through . 
+14-1	Some	14-9_nsubj	passed	DT	O
+14-2	we	14-3_nsubj	stopped	PRP	P2_passenger
+14-3	stopped	O	O	VBD	O
+14-4	at	14-3_prep	stopped	IN	O
+14-5	and	O	O	O	O
+14-6	some	O	O	DT	O
+14-7	we	14-3_conj_and	stopped	PRP	P2_passenger
+14-8	just	14-9_advmod	passed	RB	O
+14-9	passed	O	O	VBD	O
+14-10	through	14-9_prt	passed	RP	O
+14-11	.	O	O	O	O
+
+#id=15
+#text=People would get on and off when we stopped . 
+15-1	People	15-3_nsubj	get	NNS	P2_passenger
+15-2	would	15-3_aux	get	MD	O
+15-3	get	O	O	VB	O
+15-4	on	15-3_prt	get	RP	O
+15-5	and	O	O	CC	O
+15-6	off	O	O	RP	O
+15-7	when	15-9_advmod	stopped	WRB	O
+15-8	we	15-9_nsubj	stopped	PRP	P2_passenger
+15-9	stopped	15-3_advcl	get	VBD	O
+15-10	.	O	O	O	O
+
+#id=16
+#text=I was able to purchase some food in a car that sold sandwiches . 
+16-1	I	O	O	PRP	P1_passenger
+16-2	was	O	O	VBD	O
+16-3	able	O	O	JJ	O
+16-4	to	16-5_aux	purchase	TO	O
+16-5	purchase	O	O	VB	O
+16-6	some	O	O	DT	O
+16-7	food	16-5_dobj	purchase	NN	P3_in-train_entertainment
+16-8	in	O	O	O	O
+16-9	a	O	O	DT	O
+16-10	car	16-5_prep_in	purchase	NN	P1_coach
+16-11	that	16-12_nsubj	sold	WDT	O
+16-12	sold	O	O	VBD	O
+16-13	sandwiches	16-12_dobj	sold	NNS	P4_in-train_entertainment
+16-14	.	O	O	O	O
+
+#id=17
+#text=I slept some in my car , which was a bit uncomfortable , but I did n't mind . 
+17-1	I	17-2_nsubj	slept	PRP	P1_passenger
+17-2	slept	O	O	VBD	O
+17-3	some	17-2_dobj	slept	DT	O
+17-4	in	O	O	O	O
+17-5	my	O	O	PRP$	P1_passenger
+17-6	car	O	O	NN	P2_coach
+17-7	,	O	O	O	O
+17-8	which	O	O	WDT	O
+17-9	was	O	O	VBD	O
+17-10	a	O	O	DT	O
+17-11	bit	O	O	RB	O
+17-12	uncomfortable	O	O	JJ	O
+17-13	,	O	O	O	O
+17-14	but	O	O	O	O
+17-15	I	17-18_nsubj	mind	PRP	P1_passenger
+17-16	did	17-18_aux	mind	VBD	O
+17-17	n't	17-18_neg	mind	RB	O
+17-18	mind	17-2_conj_but	slept	VB	O
+17-19	.	O	O	O	O
+
+#id=18
+#text=Before I knew it , we had arrived at my vacation destination . 
+18-1	Before	18-3_mark	knew	IN	O
+18-2	I	18-3_nsubj	knew	PRP	P1_passenger
+18-3	knew	18-8_advcl	arrived	VBD	O
+18-4	it	18-3_dobj	knew	PRP	O
+18-5	,	O	O	O	O
+18-6	we	18-8_nsubj	arrived	PRP	P2_passenger
+18-7	had	18-8_aux	arrived	VBD	O
+18-8	arrived	O	O	VBN	O
+18-9	at	O	O	O	O
+18-10	my	O	O	PRP$	P1_passenger
+18-11	vacation	O	O	NN	O
+18-12	destination	18-8_prep_at	arrived	NN	P1_destination
+18-13	.	O	O	O	O
+
+#id=19
+#text=I was really glad that I had taken a train , and was able to see a lot of our beautiful country . 
+19-1	I	O	O	PRP	P1_passenger
+19-2	was	O	O	VBD	O
+19-3	really	O	O	RB	O
+19-4	glad	O	O	JJ	O
+19-5	that	19-8_mark	taken	IN	O
+19-6	I	19-8_nsubj	taken	PRP	P1_passenger
+19-7	had	19-8_aux	taken	VBD	O
+19-8	taken	O	O	VBN	O
+19-9	a	O	O	DT	O
+19-10	train	19-8_dobj	taken	NN	P1_train
+19-11	,	O	O	O	O
+19-12	and	O	O	O	O
+19-13	was	O	O	VBD	O
+19-14	able	O	O	JJ	O
+19-15	to	19-16_aux	see	TO	O
+19-16	see	O	O	VB	O
+19-17	a	O	O	DT	O
+19-18	lot	19-16_dobj	see	NN	O
+19-19	of	O	O	O	O
+19-20	our	O	O	PRP$	P2_passenger
+19-21	beautiful	O	O	JJ	O
+19-22	country	O	O	NN	P5_in-train_entertainment
+19-23	.	O	O	O	O

@@ -1,0 +1,1 @@
+{"dropout": 0.4, "embedding_size": 100, "hidden_size": 128, "num_epochs": 75, "lr": 0.001, "save_dir": "models/embed_size50_hiddensize128_lr0.001", "use_pretrained": false, "tacl_dir": "data/taclData", "freq_cutoff": 0}

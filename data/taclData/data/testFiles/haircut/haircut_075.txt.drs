@@ -1,0 +1,190 @@
+#id=1
+#text=Although I keep my head mostly shaved very , very short I decided to get a haircut . 
+1-1	Although	1-3_mark	keep	IN	O
+1-2	I	1-3_nsubj	keep	PRP	P1_customer
+1-3	keep	1-13_advcl	decided	VBP	O
+1-4	my	O	O	PRP$	P1_customer
+1-5	head	1-7_nsubj	shaved	NN	P1_other
+1-6	mostly	1-7_advmod	shaved	RB	O
+1-7	shaved	1-3_ccomp	keep	VBD	O
+1-8	very	O	O	RB	O
+1-9	,	O	O	O	O
+1-10	very	O	O	RB	O
+1-11	short	1-7_acomp	shaved	JJ	O
+1-12	I	1-13_nsubj	decided	PRP	P1_customer
+1-13	decided	O	O	VBD	O
+1-14	to	1-15_aux	get	TO	O
+1-15	get	1-13_xcomp	decided	VB	O
+1-16	a	O	O	DT	O
+1-17	haircut	1-15_dobj	get	NN	P1_haircut
+1-18	.	O	O	O	O
+
+#id=2
+#text=Summer is fast approaching and the shorter the better to keep my old head nice and cool . 
+2-1	Summer	2-4_nsubj	approaching	NNPS	P1_time/date
+2-2	is	2-4_aux	approaching	VBZ	O
+2-3	fast	2-4_advmod	approaching	RB	O
+2-4	approaching	O	O	VBG	O
+2-5	and	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	shorter	2-11_dep	keep	JJR	O
+2-8	the	O	O	DT	O
+2-9	better	2-11_dep	keep	JJR	O
+2-10	to	2-11_nsubj	keep	TO	O
+2-11	keep	2-4_conj_and	approaching	VBP	O
+2-12	my	O	O	PRP$	P1_customer
+2-13	old	O	O	JJ	O
+2-14	head	2-11_dobj	keep	NN	P1_other
+2-15	nice	O	O	JJ	O
+2-16	and	O	O	O	O
+2-17	cool	O	O	JJ	O
+2-18	.	O	O	O	O
+
+#id=3
+#text=I gathered the clippers , towel , a razor for the neck shave and awaited my wife to get home from her job . 
+3-1	I	3-2_nsubj	gathered	PRP	P1_customer
+3-2	gathered	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	clippers	3-2_dobj	gathered	NNS	O
+3-5	,	O	O	O	O
+3-6	towel	O	O	NN	O
+3-7	,	O	O	O	O
+3-8	a	O	O	DT	O
+3-9	razor	O	O	NN	P2_other
+3-10	for	O	O	O	O
+3-11	the	O	O	DT	O
+3-12	neck	O	O	NN	P3_other
+3-13	shave	O	O	NN	P2_haircut
+3-14	and	O	O	O	O
+3-15	awaited	3-2_conj_and	gathered	VBD	O
+3-16	my	O	O	PRP$	P1_customer
+3-17	wife	3-15_dobj	awaited	NN	P1_hairdresser
+3-18	to	3-19_aux	get	TO	O
+3-19	get	3-15_vmod	awaited	VB	O
+3-20	home	3-19_dobj	get	NN	P1_NPart_home
+3-21	from	O	O	O	O
+3-22	her	O	O	PRP$	P1_hairdresser
+3-23	job	3-19_prep_from	get	NN	P1_NPart_job
+3-24	.	O	O	O	O
+
+#id=4
+#text=I always get her to cut my hair as she is really good at it albeit a tad slow getting it done . 
+4-1	I	4-3_nsubj	get	PRP	P1_customer
+4-2	always	4-3_advmod	get	RB	O
+4-3	get	O	O	VBP	O
+4-4	her	4-3_dobj	get	PRP	P1_hairdresser
+4-5	to	4-6_aux	cut	TO	O
+4-6	cut	4-3_xcomp	get	VB	O
+4-7	my	O	O	PRP$	P1_customer
+4-8	hair	4-6_dobj	cut	NN	P1_hair
+4-9	as	O	O	IN	O
+4-10	she	O	O	PRP	P1_hairdresser
+4-11	is	O	O	VBZ	O
+4-12	really	O	O	RB	O
+4-13	good	4-6_advcl	cut	JJ	O
+4-14	at	O	O	O	O
+4-15	it	O	O	PRP	O
+4-16	albeit	4-19_mark	slow	IN	O
+4-17	a	O	O	DT	O
+4-18	tad	4-19_nsubj	slow	NN	O
+4-19	slow	O	O	VB	O
+4-20	getting	4-19_xcomp	slow	VBG	O
+4-21	it	4-22_nsubj	done	PRP	O
+4-22	done	4-20_dep	getting	VBN	O
+4-23	.	O	O	O	O
+
+#id=5
+#text=When she arrived she smiled when she saw the tools for a haircut gathered and got right to work . 
+5-1	When	5-3_advmod	arrived	WRB	O
+5-2	she	5-3_nsubj	arrived	PRP	P1_hairdresser
+5-3	arrived	5-14_advcl	gathered	VBD	O
+5-4	she	5-5_nsubj	smiled	PRP	P1_hairdresser
+5-5	smiled	5-3_ccomp	arrived	VBD	O
+5-6	when	5-8_advmod	saw	WRB	O
+5-7	she	5-8_nsubj	saw	PRP	P1_hairdresser
+5-8	saw	5-5_advcl	smiled	VBD	O
+5-9	the	O	O	DT	O
+5-10	tools	5-8_dobj	saw	NNS	P4_other
+5-11	for	O	O	O	O
+5-12	a	O	O	DT	O
+5-13	haircut	5-8_prep_for	saw	NN	P1_haircut
+5-14	gathered	O	O	VBD	O
+5-15	and	O	O	O	O
+5-16	got	5-14_conj_and	gathered	VBD	O
+5-17	right	5-16_advmod	got	RB	O
+5-18	to	5-19_aux	work	TO	O
+5-19	work	5-16_xcomp	got	VB	O
+5-20	.	O	O	O	O
+
+#id=6
+#text=She placed the towel over my shoulders and proceeded to get to work with the clippers . 
+6-1	She	6-2_nsubj	placed	PRP	P1_hairdresser
+6-2	placed	O	O	VBD	O
+6-3	the	O	O	DT	O
+6-4	towel	6-2_dobj	placed	NN	P1_towel
+6-5	over	O	O	O	O
+6-6	my	O	O	PRP$	P2_customer
+6-7	shoulders	6-2_prep_over	placed	NNS	P1_NPart_shoulders
+6-8	and	O	O	O	O
+6-9	proceeded	6-2_conj_and	placed	VBD	O
+6-10	to	6-11_aux	get	TO	O
+6-11	get	6-9_xcomp	proceeded	VB	O
+6-12	to	6-13_aux	work	TO	O
+6-13	work	6-11_xcomp	get	VB	O
+6-14	with	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	clippers	6-13_prep_with	work	NNS	P5_other
+6-17	.	O	O	O	O
+
+#id=7
+#text=Fine pieces of hair fell in the floor as she ran the clippers over my head . 
+7-1	Fine	O	O	JJ	O
+7-2	pieces	7-5_nsubj	fell	NNS	O
+7-3	of	O	O	O	O
+7-4	hair	O	O	NN	P2_hair
+7-5	fell	O	O	VBD	O
+7-6	in	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	floor	7-5_prep_in	fell	NN	P1_NPart_floor
+7-9	as	7-11_mark	ran	IN	O
+7-10	she	7-11_nsubj	ran	PRP	P1_hairdresser
+7-11	ran	7-5_advcl	fell	VBD	O
+7-12	the	O	O	DT	O
+7-13	clippers	7-11_dobj	ran	NNS	P6_other
+7-14	over	O	O	O	O
+7-15	my	O	O	PRP$	P1_customer
+7-16	head	7-11_prep_over	ran	NN	P7_other
+7-17	.	O	O	O	O
+
+#id=8
+#text=Then my neck was lathered up and the razor used to shave that area . 
+8-1	Then	8-5_advmod	lathered	RB	O
+8-2	my	O	O	PRP$	P1_customer
+8-3	neck	8-5_nsubjpass	lathered	NN	P8_other
+8-4	was	8-5_auxpass	lathered	VBD	O
+8-5	lathered	O	O	VBN	O
+8-6	up	8-5_prt	lathered	RP	O
+8-7	and	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	razor	8-10_nsubj	used	NN	P2_other
+8-10	used	8-5_conj_and	lathered	VBD	O
+8-11	to	8-12_aux	shave	TO	O
+8-12	shave	8-10_xcomp	used	VB	O
+8-13	that	O	O	DT	O
+8-14	area	8-12_dobj	shave	NN	P1_NPart_area
+8-15	.	O	O	O	O
+
+#id=9
+#text=A quick shower later and I felt like a new man . 
+9-1	A	O	O	DT	O
+9-2	quick	O	O	JJ	O
+9-3	shower	9-7_nsubj	felt	NN	P1_NPart_shower
+9-4	later	O	O	RB	O
+9-5	and	O	O	O	O
+9-6	I	O	O	PRP	P1_customer
+9-7	felt	O	O	VBD	O
+9-8	like	O	O	O	O
+9-9	a	O	O	DT	O
+9-10	new	O	O	JJ	O
+9-11	man	9-7_prep_like	felt	NN	P1_customer
+9-12	.	O	O	O	O

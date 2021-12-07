@@ -1,0 +1,285 @@
+#id=1
+#text=This morning , my sister decided to bake a cake for her friend who was visiting from out of town . 
+1-1	This	O	O	DT	O
+1-2	morning	1-6_tmod	decided	NN	P1_NPart_morning
+1-3	,	O	O	O	O
+1-4	my	O	O	PRP$	P1_NPart_my
+1-5	sister	1-6_nsubj	decided	NN	P1_cook
+1-6	decided	O	O	VBD	O
+1-7	to	1-8_aux	bake	TO	O
+1-8	bake	1-6_xcomp	decided	VB	O
+1-9	a	O	O	DT	O
+1-10	cake	1-8_dobj	bake	NN	P1_cake
+1-11	for	O	O	O	O
+1-12	her	O	O	PRP$	P1_cook
+1-13	friend	O	O	NN	P1_beneficiary
+1-14	who	1-16_nsubj	visiting	WP	P1_beneficiary
+1-15	was	1-16_aux	visiting	VBD	O
+1-16	visiting	O	O	VBG	O
+1-17	from	O	O	O	O
+1-18	out	1-16_prep_from	visiting	NN	O
+1-19	of	O	O	O	O
+1-20	town	O	O	NN	P1_NPart_town
+1-21	.	O	O	O	O
+
+#id=2
+#text=So , after stopping by the grocery store to buy some sugar , she gathered all of the ingredients and cooking utensils , she needed in her kitchen . 
+2-1	So	2-15_advmod	gathered	RB	O
+2-2	,	O	O	O	O
+2-3	after	O	O	O	O
+2-4	stopping	2-15_prepc_after	gathered	VBG	O
+2-5	by	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	grocery	O	O	NN	O
+2-8	store	2-4_prep_by	stopping	NN	P1_store
+2-9	to	2-10_aux	buy	TO	O
+2-10	buy	2-4_xcomp	stopping	VB	O
+2-11	some	O	O	DT	O
+2-12	sugar	2-10_dobj	buy	NN	P1_ingredients
+2-13	,	O	O	O	O
+2-14	she	2-15_nsubj	gathered	PRP	P1_cook
+2-15	gathered	2-25_ccomp	needed	VBD	O
+2-16	all	2-15_dobj	gathered	DT	O
+2-17	of	O	O	O	O
+2-18	the	O	O	DT	O
+2-19	ingredients	O	O	NNS	P2_ingredients
+2-20	and	O	O	O	O
+2-21	cooking	O	O	NN	O
+2-22	utensils	O	O	NNS	P1_utensil
+2-23	,	O	O	O	O
+2-24	she	2-25_nsubj	needed	PRP	P1_cook
+2-25	needed	O	O	VBD	O
+2-26	in	O	O	O	O
+2-27	her	O	O	PRP$	P1_cook
+2-28	kitchen	2-25_prep_in	needed	NN	P1_kitchen/location
+2-29	.	O	O	O	O
+
+#id=3
+#text=She got butter , flour , cocoa powder , salt , baking powder , eggs , vanilla , and some buttermilk . 
+3-1	She	3-2_nsubj	got	PRP	P1_cook
+3-2	got	O	O	VBD	O
+3-3	butter	3-2_dobj	got	NN	P3_ingredients
+3-4	,	O	O	O	O
+3-5	flour	O	O	NN	P4_ingredients
+3-6	,	O	O	O	O
+3-7	cocoa	O	O	NN	O
+3-8	powder	O	O	NN	P5_ingredients
+3-9	,	O	O	O	O
+3-10	salt	O	O	NN	P6_ingredients
+3-11	,	O	O	O	O
+3-12	baking	O	O	JJ	O
+3-13	powder	O	O	NN	P7_ingredients
+3-14	,	O	O	O	O
+3-15	eggs	O	O	NNS	P8_ingredients
+3-16	,	O	O	O	O
+3-17	vanilla	O	O	NN	P9_ingredients
+3-18	,	O	O	O	O
+3-19	and	O	O	O	O
+3-20	some	O	O	DT	O
+3-21	buttermilk	O	O	NN	P10_ingredients
+3-22	.	O	O	O	O
+
+#id=4
+#text=Next , she preheated her oven to 350 degrees and greased her round baking pan with the butter . 
+4-1	Next	4-4_advmod	preheated	RB	O
+4-2	,	O	O	O	O
+4-3	she	4-4_nsubj	preheated	PRP	P1_cook
+4-4	preheated	O	O	VBD	O
+4-5	her	O	O	PRP$	P1_cook
+4-6	oven	4-4_dobj	preheated	NN	P1_oven
+4-7	to	O	O	O	O
+4-8	350	O	O	CD	O
+4-9	degrees	4-4_prep_to	preheated	NNS	P1_temperature
+4-10	and	O	O	O	O
+4-11	greased	4-4_conj_and	preheated	VBD	O
+4-12	her	O	O	PRP$	P1_cook
+4-13	round	O	O	NN	O
+4-14	baking	O	O	VBG	O
+4-15	pan	4-11_dobj	greased	NN	P1_cake_tin
+4-16	with	O	O	O	O
+4-17	the	O	O	DT	O
+4-18	butter	O	O	NN	P3_ingredients
+4-19	.	O	O	O	O
+
+#id=5
+#text=She then mixed all of the wet ingredients such as the eggs , vanilla , and buttermilk in a mixing bowl . 
+5-1	She	5-3_nsubj	mixed	PRP	P1_cook
+5-2	then	5-3_advmod	mixed	RB	O
+5-3	mixed	O	O	VBN	O
+5-4	all	5-3_dobj	mixed	DT	O
+5-5	of	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	wet	O	O	JJ	O
+5-8	ingredients	O	O	NNS	P11_ingredients
+5-9	such	O	O	O	O
+5-10	as	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	eggs	O	O	NNS	P8_ingredients
+5-13	,	O	O	O	O
+5-14	vanilla	O	O	NN	P9_ingredients
+5-15	,	O	O	O	O
+5-16	and	O	O	O	O
+5-17	buttermilk	O	O	NN	P10_ingredients
+5-18	in	O	O	O	O
+5-19	a	O	O	DT	O
+5-20	mixing	O	O	JJ	O
+5-21	bowl	5-3_prep_in	mixed	NN	P1_utensil
+5-22	.	O	O	O	O
+
+#id=6
+#text=For the dry ingredients like the flour , she mixed them separately in another , smaller bowl , where they were stirred together . 
+6-1	For	O	O	O	O
+6-2	the	O	O	DT	O
+6-3	dry	O	O	JJ	O
+6-4	ingredients	6-10_prep_for	mixed	NNS	P12_ingredients
+6-5	like	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	flour	O	O	NN	P4_ingredients
+6-8	,	O	O	O	O
+6-9	she	6-10_nsubj	mixed	PRP	P1_cook
+6-10	mixed	O	O	VBN	O
+6-11	them	6-22_nsubjpass	stirred	PRP	P12_ingredients
+6-12	separately	6-22_dep	stirred	RB	O
+6-13	in	O	O	O	O
+6-14	another	O	O	DT	O
+6-15	,	O	O	O	O
+6-16	smaller	O	O	JJR	O
+6-17	bowl	O	O	NN	P1_utensil
+6-18	,	O	O	O	O
+6-19	where	6-22_advmod	stirred	WRB	O
+6-20	they	6-22_nsubjpass	stirred	PRP	P12_ingredients
+6-21	were	6-22_auxpass	stirred	VBD	O
+6-22	stirred	6-10_xcomp	mixed	VBN	O
+6-23	together	6-22_advmod	stirred	RB	O
+6-24	.	O	O	O	O
+
+#id=7
+#text=Once this was done , the dry mixture was combined with the wet mixture and then they were were thoroughly stirred together . 
+7-1	Once	7-4_mark	done	IN	O
+7-2	this	7-4_nsubjpass	done	DT	O
+7-3	was	7-4_auxpass	done	VBD	O
+7-4	done	7-21_csubj	stirred	VBN	O
+7-5	,	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	dry	O	O	JJ	O
+7-8	mixture	7-10_nsubjpass	combined	NN	P12_ingredients
+7-9	was	7-10_auxpass	combined	VBD	O
+7-10	combined	7-4_conj_and	done	VBN	O
+7-11	with	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	wet	O	O	JJ	O
+7-14	mixture	7-10_prep_with	combined	NN	P11_ingredients
+7-15	and	O	O	O	O
+7-16	then	7-19_advmod	were	RB	O
+7-17	they	7-19_nsubjpass	were	PRP	P13_ingredients
+7-18	were	7-19_auxpass	were	VBD	O
+7-19	were	7-4_conj_and	done	VBD	O
+7-20	thoroughly	7-19_advmod	were	RB	O
+7-21	stirred	O	O	VBD	O
+7-22	together	7-21_advmod	stirred	RB	O
+7-23	.	O	O	O	O
+
+#id=8
+#text=My sister then used a spatula to make sure all of the batter poured into the baking pan . 
+8-1	My	O	O	PRP$	P2_NPart_my
+8-2	sister	8-4_nsubj	used	NN	P1_cook
+8-3	then	8-4_advmod	used	RB	O
+8-4	used	O	O	VBD	O
+8-5	a	O	O	DT	O
+8-6	spatula	8-4_dobj	used	NN	P2_utensil
+8-7	to	8-8_aux	make	TO	O
+8-8	make	O	O	VB	O
+8-9	sure	8-8_acomp	make	JJ	O
+8-10	all	O	O	DT	O
+8-11	of	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	batter	O	O	NN	P1_dough
+8-14	poured	O	O	VBN	O
+8-15	into	O	O	O	O
+8-16	the	O	O	DT	O
+8-17	baking	O	O	VBG	O
+8-18	pan	8-14_prep_into	poured	NN	P1_cake_tin
+8-19	.	O	O	O	O
+
+#id=9
+#text=After which , the pan was placed in the over for half an hour . 
+9-1	After	O	O	IN	O
+9-2	which	9-7_advcl	placed	WDT	O
+9-3	,	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	pan	9-7_nsubjpass	placed	NN	P1_cake_tin
+9-6	was	9-7_auxpass	placed	VBD	O
+9-7	placed	O	O	VBN	O
+9-8	in	9-7_prep	placed	IN	O
+9-9	the	O	O	DT	O
+9-10	over	O	O	RB	P1_oven
+9-11	for	O	O	O	O
+9-12	half	O	O	PDT	O
+9-13	an	O	O	DT	O
+9-14	hour	O	O	NN	P1_time
+9-15	.	O	O	O	O
+
+#id=10
+#text=When the cake was ready , she took the cake and set it on her kitchen counter to cool off for a few minutes . 
+10-1	When	O	O	WRB	O
+10-2	the	O	O	DT	O
+10-3	cake	O	O	NN	P1_cake
+10-4	was	O	O	VBD	O
+10-5	ready	10-8_advcl	took	JJ	O
+10-6	,	O	O	O	O
+10-7	she	10-8_nsubj	took	PRP	P1_cook
+10-8	took	O	O	VBD	O
+10-9	the	O	O	DT	O
+10-10	cake	10-8_dobj	took	NN	P1_cake
+10-11	and	O	O	O	O
+10-12	set	10-8_conj_and	took	VBD	O
+10-13	it	10-12_dobj	set	PRP	P1_cake
+10-14	on	O	O	O	O
+10-15	her	O	O	PRP$	P1_cook
+10-16	kitchen	O	O	NN	O
+10-17	counter	10-12_prep_on	set	NN	P2_kitchen/location
+10-18	to	10-19_aux	cool	TO	O
+10-19	cool	10-12_vmod	set	VB	O
+10-20	off	10-19_prt	cool	RP	O
+10-21	for	O	O	O	O
+10-22	a	O	O	DT	O
+10-23	few	O	O	JJ	O
+10-24	minutes	10-19_prep_for	cool	NNS	P2_time
+10-25	.	O	O	O	O
+
+#id=11
+#text=Finally , she placed it onto a plate and carefully put on some chocolate buttercream frosting . 
+11-1	Finally	11-4_advmod	placed	RB	O
+11-2	,	O	O	O	O
+11-3	she	11-4_nsubj	placed	PRP	P1_cook
+11-4	placed	O	O	VBD	O
+11-5	it	11-4_dobj	placed	PRP	P1_cake
+11-6	onto	O	O	O	O
+11-7	a	O	O	DT	O
+11-8	plate	11-4_prep_onto	placed	NN	P3_utensil
+11-9	and	O	O	O	O
+11-10	carefully	11-11_advmod	put	RB	O
+11-11	put	11-4_conj_and	placed	VBD	O
+11-12	on	O	O	O	O
+11-13	some	O	O	DT	O
+11-14	chocolate	O	O	NN	O
+11-15	buttercream	O	O	NN	O
+11-16	frosting	11-11_prep_on	put	NN	P1_decoration
+11-17	.	O	O	O	O
+
+#id=12
+#text=The cake was now ready for her friend to enjoy once she arrived . 
+12-1	The	O	O	DT	O
+12-2	cake	O	O	NN	P1_cake
+12-3	was	O	O	VBD	O
+12-4	now	O	O	RB	O
+12-5	ready	O	O	JJ	O
+12-6	for	O	O	O	O
+12-7	her	O	O	PRP$	P1_cook
+12-8	friend	O	O	NN	P1_beneficiary
+12-9	to	12-10_aux	enjoy	TO	O
+12-10	enjoy	O	O	VB	O
+12-11	once	12-13_mark	arrived	IN	O
+12-12	she	12-13_nsubj	arrived	PRP	P1_beneficiary
+12-13	arrived	12-10_advcl	enjoy	VBD	O
+12-14	.	O	O	O	O

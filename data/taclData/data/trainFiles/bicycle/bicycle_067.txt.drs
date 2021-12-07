@@ -1,0 +1,254 @@
+#id=1
+#text=I began to repair my flat bicycle tire by removing the wheel from the bike . 
+1-1	I	1-2_nsubj	began	PRP	P1_rider
+1-2	began	O	O	VBD	O
+1-3	to	1-4_aux	repair	TO	O
+1-4	repair	1-2_xcomp	began	VB	O
+1-5	my	O	O	PRP$	P2_rider
+1-6	flat	O	O	JJ	O
+1-7	bicycle	O	O	NN	O
+1-8	tire	1-4_dobj	repair	NN	P1_tire
+1-9	by	O	O	O	O
+1-10	removing	1-4_prepc_by	repair	VBG	O
+1-11	the	O	O	DT	O
+1-12	wheel	1-10_dobj	removing	NN	P1_tire
+1-13	from	O	O	O	O
+1-14	the	O	O	DT	O
+1-15	bike	1-10_prep_from	removing	NN	P1_bicycle
+1-16	.	O	O	O	O
+
+#id=2
+#text=This was done by disconnecting the brake cable so the wheel would be able to be removed from the frame . 
+2-1	This	2-3_nsubjpass	done	DT	O
+2-2	was	2-3_auxpass	done	VBD	O
+2-3	done	O	O	VBN	O
+2-4	by	O	O	O	O
+2-5	disconnecting	2-3_agent	done	VBG	O
+2-6	the	O	O	DT	O
+2-7	brake	O	O	NNP	O
+2-8	cable	2-5_dobj	disconnecting	NN	P1_bicycle_small_detail
+2-9	so	O	O	IN	O
+2-10	the	O	O	DT	O
+2-11	wheel	O	O	NN	P1_tire
+2-12	would	O	O	MD	O
+2-13	be	O	O	VB	O
+2-14	able	2-5_advcl	disconnecting	JJ	O
+2-15	to	2-17_aux	removed	TO	O
+2-16	be	2-17_auxpass	removed	VB	O
+2-17	removed	O	O	VBN	O
+2-18	from	O	O	O	O
+2-19	the	O	O	DT	O
+2-20	frame	2-17_prep_from	removed	NN	P2_bicycle_small_detail
+2-21	.	O	O	O	O
+
+#id=3
+#text=I then loosened the bolts holding it on and slid the axle off the frame , making sure that the chain did not get caught or bind up while doing so . 
+3-1	I	3-3_nsubj	loosened	PRP	P1_rider
+3-2	then	3-3_advmod	loosened	RB	O
+3-3	loosened	O	O	VBN	O
+3-4	the	O	O	DT	O
+3-5	bolts	3-6_nsubj	holding	NNS	P3_bicycle_small_detail
+3-6	holding	3-3_ccomp	loosened	VBG	O
+3-7	it	3-6_dobj	holding	PRP	P1_tire
+3-8	on	3-6_prt	holding	RP	O
+3-9	and	O	O	O	O
+3-10	slid	3-6_conj_and	holding	VBD	O
+3-11	the	O	O	DT	O
+3-12	axle	3-10_dobj	slid	NN	P4_bicycle_small_detail
+3-13	off	O	O	O	O
+3-14	the	O	O	DT	O
+3-15	frame	3-10_prep_off	slid	NN	P1_rim
+3-16	,	O	O	O	O
+3-17	making	3-6_conj_and	holding	VBG	O
+3-18	sure	3-17_acomp	making	JJ	O
+3-19	that	3-25_mark	caught	IN	O
+3-20	the	O	O	DT	O
+3-21	chain	3-25_nsubjpass	caught	NN	P1_other
+3-22	did	3-25_aux	caught	VBD	O
+3-23	not	3-25_neg	caught	RB	O
+3-24	get	3-25_auxpass	caught	VB	O
+3-25	caught	3-17_ccomp	making	VBN	O
+3-26	or	O	O	O	O
+3-27	bind	3-6_conj_or	holding	VBG	O
+3-28	up	3-27_prt	bind	RP	O
+3-29	while	3-30_mark	doing	IN	O
+3-30	doing	3-27_advcl	bind	VBG	O
+3-31	so	3-30_advmod	doing	RB	O
+3-32	.	O	O	O	O
+
+#id=4
+#text=After the wheel was removed , I made sure that all possible air was out of the tube so that it would be easier to remove . 
+4-1	After	4-5_mark	removed	IN	O
+4-2	the	O	O	DT	O
+4-3	wheel	4-5_nsubjpass	removed	NN	P1_tire
+4-4	was	4-5_auxpass	removed	VBD	O
+4-5	removed	4-8_advcl	made	VBN	O
+4-6	,	O	O	O	O
+4-7	I	4-8_nsubj	made	PRP	P1_rider
+4-8	made	O	O	VBD	O
+4-9	sure	4-8_acomp	made	JJ	O
+4-10	that	4-14_mark	was	IN	O
+4-11	all	O	O	DT	O
+4-12	possible	O	O	JJ	O
+4-13	air	4-14_nsubj	was	NN	P1_air
+4-14	was	4-8_ccomp	made	VBD	O
+4-15	out	O	O	O	O
+4-16	of	O	O	O	O
+4-17	the	O	O	DT	O
+4-18	tube	4-14_prep_out_of	was	NN	P1_tire
+4-19	so	O	O	RB	O
+4-20	that	O	O	IN	O
+4-21	it	O	O	PRP	P1_tire
+4-22	would	O	O	MD	O
+4-23	be	O	O	VB	O
+4-24	easier	4-14_advcl	was	JJR	O
+4-25	to	4-26_aux	remove	TO	O
+4-26	remove	O	O	VB	O
+4-27	.	O	O	O	O
+
+#id=5
+#text=I next took two flat head screwdrivers and began to remove the tire from the bicycle . 
+5-1	I	5-3_nsubj	took	PRP	P1_rider
+5-2	next	5-3_advmod	took	JJ	O
+5-3	took	O	O	VBD	O
+5-4	two	O	O	CD	O
+5-5	flat	O	O	JJ	O
+5-6	head	O	O	NN	O
+5-7	screwdrivers	5-3_dobj	took	NNS	P1_tool
+5-8	and	O	O	O	O
+5-9	began	5-3_conj_and	took	VBD	O
+5-10	to	5-11_aux	remove	TO	O
+5-11	remove	5-9_xcomp	began	VB	O
+5-12	the	O	O	DT	O
+5-13	tire	5-11_dobj	remove	NN	P1_tire
+5-14	from	O	O	O	O
+5-15	the	O	O	DT	O
+5-16	bicycle	5-11_prep_from	remove	NN	P2_bicycle
+5-17	.	O	O	O	O
+
+#id=6
+#text=After the tire was finally removed , I pulled the tube off the rim as well . 
+6-1	After	6-6_mark	removed	IN	O
+6-2	the	O	O	DT	O
+6-3	tire	6-6_nsubjpass	removed	NN	P1_tire
+6-4	was	6-6_auxpass	removed	VBD	O
+6-5	finally	6-6_advmod	removed	RB	O
+6-6	removed	6-9_advcl	pulled	VBN	O
+6-7	,	O	O	O	O
+6-8	I	6-9_nsubj	pulled	PRP	P1_rider
+6-9	pulled	O	O	VBD	O
+6-10	the	O	O	DT	O
+6-11	tube	6-9_dobj	pulled	NN	P1_tire
+6-12	off	O	O	O	O
+6-13	the	O	O	DT	O
+6-14	rim	6-9_prep_off	pulled	NN	P1_rim
+6-15	as	O	O	RB	O
+6-16	well	6-9_advmod	pulled	RB	O
+6-17	.	O	O	O	O
+
+#id=7
+#text=Next , I placed a new tube in place making sure that the valve stem was placed through the rim appropriately . 
+7-1	Next	7-4_advmod	placed	RB	O
+7-2	,	O	O	O	O
+7-3	I	7-4_nsubj	placed	PRP	P1_rider
+7-4	placed	O	O	VBD	O
+7-5	a	O	O	DT	O
+7-6	new	O	O	JJ	O
+7-7	tube	7-4_dobj	placed	NN	P1_spare_tube
+7-8	in	O	O	O	O
+7-9	place	7-4_prep_in	placed	NN	P1_NPart_place
+7-10	making	7-4_xcomp	placed	VBG	O
+7-11	sure	7-10_acomp	making	JJ	O
+7-12	that	7-17_mark	placed	IN	O
+7-13	the	O	O	DT	O
+7-14	valve	O	O	NN	O
+7-15	stem	7-17_nsubjpass	placed	NN	P5_bicycle_small_detail
+7-16	was	7-17_auxpass	placed	VBD	O
+7-17	placed	7-10_ccomp	making	VBN	O
+7-18	through	7-17_prep	placed	IN	O
+7-19	the	O	O	DT	O
+7-20	rim	O	O	NN	P1_rim
+7-21	appropriately	O	O	RB	O
+7-22	.	O	O	O	O
+
+#id=8
+#text=After doing this , I began to fit the tire to the rim , making sure the tube was placed inside the tire and not pinched at all . 
+8-1	After	O	O	O	O
+8-2	doing	8-6_prepc_after	began	VBG	O
+8-3	this	8-2_dobj	doing	DT	O
+8-4	,	O	O	O	O
+8-5	I	8-6_nsubj	began	PRP	P1_rider
+8-6	began	O	O	VBD	O
+8-7	to	8-8_aux	fit	TO	O
+8-8	fit	8-6_xcomp	began	VB	O
+8-9	the	O	O	DT	O
+8-10	tire	8-8_dobj	fit	NN	P1_spare_tube
+8-11	to	O	O	O	O
+8-12	the	O	O	DT	O
+8-13	rim	8-8_prep_to	fit	NN	P1_rim
+8-14	,	O	O	O	O
+8-15	making	8-8_vmod	fit	VBG	O
+8-16	sure	8-15_acomp	making	JJ	O
+8-17	the	O	O	DT	O
+8-18	tube	8-20_nsubjpass	placed	NN	P1_spare_tube
+8-19	was	8-20_auxpass	placed	VBD	O
+8-20	placed	O	O	VBN	O
+8-21	inside	O	O	O	O
+8-22	the	O	O	DT	O
+8-23	tire	8-20_prep_inside	placed	NN	P1_spare_tube
+8-24	and	O	O	O	O
+8-25	not	8-26_neg	pinched	RB	O
+8-26	pinched	8-6_conj_and	began	VBD	O
+8-27	at	8-26_advmod	pinched	IN	O
+8-28	all	O	O	DT	O
+8-29	.	O	O	O	O
+
+#id=9
+#text=Once the tire was on the rim , I inflated the tube , making sure that the tire seated onto the rim properly and that everything held air . 
+9-1	Once	9-4_mark	was	IN	O
+9-2	the	O	O	DT	O
+9-3	tire	9-4_nsubj	was	NN	P1_spare_tube
+9-4	was	9-10_advcl	inflated	VBD	O
+9-5	on	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	rim	9-4_prep_on	was	NN	P1_rim
+9-8	,	O	O	O	O
+9-9	I	9-10_nsubj	inflated	PRP	P1_rider
+9-10	inflated	O	O	VBD	O
+9-11	the	O	O	DT	O
+9-12	tube	9-10_dobj	inflated	NN	P1_spare_tube
+9-13	,	O	O	O	O
+9-14	making	9-10_vmod	inflated	VBG	O
+9-15	sure	9-14_acomp	making	JJ	O
+9-16	that	9-19_mark	seated	IN	O
+9-17	the	O	O	DT	O
+9-18	tire	9-19_nsubj	seated	NN	P1_spare_tube
+9-19	seated	9-14_ccomp	making	VBN	O
+9-20	onto	O	O	O	O
+9-21	the	O	O	DT	O
+9-22	rim	9-19_prep_onto	seated	NN	P1_rim
+9-23	properly	9-19_advmod	seated	RB	O
+9-24	and	O	O	O	O
+9-25	that	9-27_mark	held	IN	O
+9-26	everything	9-27_nsubj	held	NN	P1_NPart_everything
+9-27	held	9-19_conj_and	seated	VBD	O
+9-28	air	9-27_dobj	held	NN	P2_air
+9-29	.	O	O	O	O
+
+#id=10
+#text=Finally , I reinstalled the wheel onto the bike , and reconnected everything appropriately . 
+10-1	Finally	10-4_advmod	reinstalled	RB	O
+10-2	,	O	O	O	O
+10-3	I	10-4_nsubj	reinstalled	PRP	P1_rider
+10-4	reinstalled	O	O	VBD	O
+10-5	the	O	O	DT	O
+10-6	wheel	10-4_dobj	reinstalled	NN	P1_spare_tube
+10-7	onto	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	bike	10-4_prep_onto	reinstalled	NN	P2_bicycle
+10-10	,	O	O	O	O
+10-11	and	O	O	O	O
+10-12	reconnected	10-4_conj_and	reinstalled	VBD	O
+10-13	everything	10-12_dobj	reconnected	NN	P2_NPart_everything
+10-14	appropriately	10-12_advmod	reconnected	RB	O
+10-15	.	O	O	O	O

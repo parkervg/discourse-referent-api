@@ -1,0 +1,194 @@
+#id=1
+#text=My husband always wanted a lemon tree because he loves lemons . 
+1-1	My	O	O	PRP$	P1_gardener
+1-2	husband	1-4_nsubj	wanted	NN	P2_gardener
+1-3	always	1-4_advmod	wanted	RB	O
+1-4	wanted	O	O	VBD	O
+1-5	a	O	O	DT	O
+1-6	lemon	O	O	JJ	O
+1-7	tree	1-4_dobj	wanted	NN	P1_tree
+1-8	because	1-10_mark	loves	IN	O
+1-9	he	1-10_nsubj	loves	PRP	P2_gardener
+1-10	loves	1-4_advcl	wanted	VBZ	O
+1-11	lemons	1-10_dobj	loves	NNS	P1_NPart_lemons
+1-12	.	O	O	O	O
+
+#id=2
+#text=For his birthday we surprised him with one . 
+2-1	For	O	O	O	O
+2-2	his	O	O	PRP$	P2_gardener
+2-3	birthday	2-5_prep_for	surprised	NN	P1_NPart_birthday
+2-4	we	2-5_nsubj	surprised	PRP	P3_gardener
+2-5	surprised	O	O	VBD	O
+2-6	him	2-5_dobj	surprised	PRP	P2_gardener
+2-7	with	O	O	O	O
+2-8	one	2-5_prep_with	surprised	CD	P1_tree
+2-9	.	O	O	O	O
+
+#id=3
+#text=We went to the nursery and bought the tree . 
+3-1	We	3-2_nsubj	went	PRP	P3_gardener
+3-2	went	O	O	VBD	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	nursery	3-2_prep_to	went	NN	P1_shop
+3-6	and	O	O	O	O
+3-7	bought	3-2_conj_and	went	VBD	O
+3-8	the	O	O	DT	O
+3-9	tree	3-7_dobj	bought	NN	P1_tree
+3-10	.	O	O	O	O
+
+#id=4
+#text=We got it into the back of the truck and drove home . 
+4-1	We	4-2_nsubj	got	PRP	P3_gardener
+4-2	got	O	O	VBD	O
+4-3	it	4-2_dobj	got	PRP	P1_tree
+4-4	into	O	O	O	O
+4-5	the	O	O	DT	O
+4-6	back	4-2_prep_into	got	NN	P1_NPart_back
+4-7	of	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	truck	O	O	NN	P1_NPart_truck
+4-10	and	O	O	O	O
+4-11	drove	4-2_conj_and	got	VBD	O
+4-12	home	4-11_dobj	drove	NN	P1_NPart_home
+4-13	.	O	O	O	O
+
+#id=5
+#text=We got the tree into the back yard and he was very surprised . 
+5-1	We	5-2_nsubj	got	PRP	P3_gardener
+5-2	got	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	tree	5-2_dobj	got	NN	P1_tree
+5-5	into	O	O	O	O
+5-6	the	O	O	DT	O
+5-7	back	O	O	JJ	O
+5-8	yard	5-2_prep_into	got	NN	P1_location_garden
+5-9	and	O	O	O	O
+5-10	he	O	O	PRP	P2_gardener
+5-11	was	O	O	VBD	O
+5-12	very	O	O	RB	O
+5-13	surprised	5-2_conj_and	got	JJ	O
+5-14	.	O	O	O	O
+
+#id=6
+#text=We all pitched in and dug up a big circle of grass in the back yard . 
+6-1	We	6-3_nsubj	pitched	PRP	P4_gardener
+6-2	all	6-3_advmod	pitched	DT	O
+6-3	pitched	O	O	VBD	O
+6-4	in	6-3_prt	pitched	RP	O
+6-5	and	O	O	O	O
+6-6	dug	6-3_conj_and	pitched	VBD	O
+6-7	up	6-6_prt	dug	RP	O
+6-8	a	O	O	DT	O
+6-9	big	O	O	JJ	O
+6-10	circle	6-6_dobj	dug	NN	P1_hole
+6-11	of	O	O	O	O
+6-12	grass	O	O	NN	P1_NPart_grass
+6-13	in	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	back	O	O	JJ	O
+6-16	yard	O	O	NN	P1_location_garden
+6-17	.	O	O	O	O
+
+#id=7
+#text=We dug a big hole and put the tree in it . 
+7-1	We	7-2_nsubj	dug	PRP	P4_gardener
+7-2	dug	O	O	VBD	O
+7-3	a	O	O	DT	O
+7-4	big	O	O	JJ	O
+7-5	hole	7-2_dobj	dug	NN	P1_hole
+7-6	and	O	O	O	O
+7-7	put	7-2_conj_and	dug	VBD	O
+7-8	the	O	O	DT	O
+7-9	tree	7-7_dobj	put	NN	P1_tree
+7-10	in	O	O	O	O
+7-11	it	7-7_prep_in	put	PRP	P1_hole
+7-12	.	O	O	O	O
+
+#id=8
+#text=Using shovels we filled it in with some good purchased dirt that the nursery recommended . 
+8-1	Using	8-4_dep	filled	VBG	O
+8-2	shovels	8-1_dobj	Using	NNS	P1_gardening_tool
+8-3	we	8-4_nsubj	filled	PRP	P4_gardener
+8-4	filled	O	O	VBD	O
+8-5	it	8-4_dobj	filled	PRP	P1_hole
+8-6	in	8-4_prep	filled	IN	O
+8-7	with	O	O	IN	O
+8-8	some	O	O	DT	O
+8-9	good	O	O	JJ	O
+8-10	purchased	O	O	JJ	O
+8-11	dirt	O	O	NN	P1_dirt
+8-12	that	8-15_mark	recommended	IN	P1_dirt
+8-13	the	O	O	DT	O
+8-14	nursery	8-15_nsubj	recommended	NN	P1_shop
+8-15	recommended	8-4_ccomp	filled	VBD	O
+8-16	.	O	O	O	O
+
+#id=9
+#text=We got a bunch of bricks that were laying around against the fence and lined the bricks all around it . 
+9-1	We	9-2_nsubj	got	PRP	P4_gardener
+9-2	got	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	bunch	9-2_dobj	got	NN	O
+9-5	of	O	O	O	O
+9-6	bricks	O	O	NNS	P1_stake
+9-7	that	9-9_nsubj	laying	WDT	P1_stake
+9-8	were	9-9_aux	laying	VBD	O
+9-9	laying	O	O	VBG	O
+9-10	around	9-9_prt	laying	RP	O
+9-11	against	O	O	O	O
+9-12	the	O	O	DT	O
+9-13	fence	9-9_prep_against	laying	NN	P1_NPart_fence
+9-14	and	O	O	O	O
+9-15	lined	9-2_conj_and	got	VBD	O
+9-16	the	O	O	DT	O
+9-17	bricks	9-15_dobj	lined	NNS	P1_stake
+9-18	all	9-15_dep	lined	DT	O
+9-19	around	O	O	O	O
+9-20	it	9-15_prep_around	lined	PRP	P1_tree
+9-21	.	O	O	O	O
+
+#id=10
+#text=It 's been a year now and he has quite a few big green lemons . 
+10-1	It	O	O	PRP	O
+10-2	's	O	O	VBZ	O
+10-3	been	O	O	VBN	O
+10-4	a	O	O	DT	O
+10-5	year	O	O	NN	P1_time
+10-6	now	O	O	RB	O
+10-7	and	O	O	O	O
+10-8	he	10-9_nsubj	has	PRP	P1_tree
+10-9	has	O	O	VBZ	O
+10-10	quite	O	O	RB	O
+10-11	a	O	O	DT	O
+10-12	few	O	O	JJ	O
+10-13	big	O	O	JJ	O
+10-14	green	O	O	JJ	O
+10-15	lemons	10-9_dobj	has	NN	P2_NPart_lemons
+10-16	.	O	O	O	O
+
+#id=11
+#text=He ate one the other day even though it was n't ripe . 
+11-1	He	11-2_nsubj	ate	PRP	P2_gardener
+11-2	ate	O	O	VBD	O
+11-3	one	11-2_dobj	ate	CD	O
+11-4	the	O	O	DT	O
+11-5	other	O	O	JJ	O
+11-6	day	11-2_tmod	ate	NN	O
+11-7	even	O	O	RB	O
+11-8	though	O	O	IN	O
+11-9	it	O	O	PRP	P1_NPart_it
+11-10	was	O	O	VBD	O
+11-11	n't	O	O	RB	O
+11-12	ripe	11-2_advcl	ate	JJ	O
+11-13	.	O	O	O	O
+
+#id=12
+#text=He said it was good . 
+12-1	He	12-2_nsubj	said	PRP	P2_gardener
+12-2	said	O	O	VBD	O
+12-3	it	O	O	PRP	P2_NPart_it
+12-4	was	O	O	VBD	O
+12-5	good	12-2_ccomp	said	JJ	O
+12-6	.	O	O	O	O

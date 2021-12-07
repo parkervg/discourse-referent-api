@@ -1,0 +1,208 @@
+#id=1
+#text=One day , a friend and I decided to bake a cake . 
+1-1	One	O	O	CD	O
+1-2	day	1-8_tmod	decided	NN	P1_NPart_day
+1-3	,	O	O	O	O
+1-4	a	O	O	DT	O
+1-5	friend	1-8_nsubj	decided	NN	O
+1-6	and	O	O	O	O
+1-7	I	O	O	PRP	P1_cook
+1-8	decided	O	O	VBD	O
+1-9	to	1-10_aux	bake	TO	O
+1-10	bake	1-8_xcomp	decided	VB	O
+1-11	a	O	O	DT	O
+1-12	cake	1-10_dobj	bake	NN	P1_cake
+1-13	.	O	O	O	O
+
+#id=2
+#text=We first looked up ingredients online to make the type of cake we wanted . 
+2-1	We	2-3_nsubj	looked	PRP	P1_cook
+2-2	first	2-3_advmod	looked	RB	O
+2-3	looked	O	O	VBD	O
+2-4	up	2-3_prt	looked	RP	O
+2-5	ingredients	2-3_prep	looked	NN	P1_ingredients
+2-6	online	O	O	NN	P1_recipe_source
+2-7	to	2-8_aux	make	TO	O
+2-8	make	2-3_xcomp	looked	VB	O
+2-9	the	O	O	DT	O
+2-10	type	2-8_dobj	make	NN	O
+2-11	of	O	O	O	O
+2-12	cake	O	O	NN	P1_cake
+2-13	we	2-14_nsubj	wanted	PRP	P1_cook
+2-14	wanted	O	O	VBD	O
+2-15	.	O	O	O	O
+
+#id=3
+#text=Then we went to the supermarket and bought all of them . 
+3-1	Then	3-3_advmod	went	RB	O
+3-2	we	3-3_nsubj	went	PRP	P1_cook
+3-3	went	O	O	VBD	O
+3-4	to	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	supermarket	3-3_prep_to	went	NN	P1_store
+3-7	and	O	O	O	O
+3-8	bought	3-3_conj_and	went	VBD	O
+3-9	all	3-8_dobj	bought	DT	O
+3-10	of	O	O	O	O
+3-11	them	O	O	PRP	P1_ingredients
+3-12	.	O	O	O	O
+
+#id=4
+#text=After bringing all of our ingredients home , we followed the recipe instructions closely to ensure we were not doing anything wrong . 
+4-1	After	O	O	O	O
+4-2	bringing	4-10_prepc_after	followed	VBG	O
+4-3	all	4-2_dobj	bringing	DT	O
+4-4	of	O	O	O	O
+4-5	our	O	O	PRP$	P2_cook
+4-6	ingredients	O	O	NNS	P1_ingredients
+4-7	home	O	O	NN	P1_kitchen/location
+4-8	,	O	O	O	O
+4-9	we	4-10_nsubj	followed	PRP	P1_cook
+4-10	followed	O	O	VBD	O
+4-11	the	O	O	DT	O
+4-12	recipe	O	O	NN	O
+4-13	instructions	4-10_dobj	followed	NNS	P1_baking_instructions
+4-14	closely	4-10_advmod	followed	RB	O
+4-15	to	4-16_aux	ensure	TO	O
+4-16	ensure	4-10_vmod	followed	VB	O
+4-17	we	4-20_nsubj	doing	PRP	P1_cook
+4-18	were	4-20_aux	doing	VBD	O
+4-19	not	4-20_neg	doing	RB	O
+4-20	doing	4-16_ccomp	ensure	VBG	O
+4-21	anything	O	O	NN	O
+4-22	wrong	4-20_acomp	doing	JJ	O
+4-23	.	O	O	O	O
+
+#id=5
+#text=We put our ingredients together to make sure they were at the right temperature , preheated the oven , and pulled out the proper utensils . 
+5-1	We	5-2_nsubj	put	PRP	P1_cook
+5-2	put	O	O	VBD	O
+5-3	our	O	O	PRP$	P3_cook
+5-4	ingredients	5-2_dobj	put	NNS	P2_ingredients
+5-5	together	5-2_advmod	put	RB	O
+5-6	to	5-7_aux	make	TO	O
+5-7	make	5-2_vmod	put	VB	O
+5-8	sure	5-7_acomp	make	JJ	O
+5-9	they	5-10_nsubj	were	PRP	P2_ingredients
+5-10	were	O	O	VBD	O
+5-11	at	O	O	O	O
+5-12	the	O	O	DT	O
+5-13	right	O	O	JJ	O
+5-14	temperature	5-10_prep_at	were	NN	P1_temperature
+5-15	,	O	O	O	O
+5-16	preheated	5-2_conj_and	put	VBD	O
+5-17	the	O	O	DT	O
+5-18	oven	5-16_dobj	preheated	NN	P1_oven
+5-19	,	O	O	O	O
+5-20	and	O	O	O	O
+5-21	pulled	5-2_conj_and	put	VBD	O
+5-22	out	5-21_prt	pulled	RP	O
+5-23	the	O	O	DT	O
+5-24	proper	O	O	JJ	O
+5-25	utensils	5-21_dobj	pulled	NNS	P1_utensil
+5-26	.	O	O	O	O
+
+#id=6
+#text=We then prepared the batter using eggs and some other materials we purchased and then poured them into a pan . 
+6-1	We	6-3_nsubj	prepared	PRP	P1_cook
+6-2	then	6-3_advmod	prepared	RB	O
+6-3	prepared	6-13_dep	purchased	VBD	O
+6-4	the	O	O	DT	O
+6-5	batter	6-3_dobj	prepared	NN	P1_dough
+6-6	using	O	O	VBG	O
+6-7	eggs	6-6_dobj	using	NNS	P3_ingredients
+6-8	and	O	O	O	O
+6-9	some	O	O	DT	O
+6-10	other	O	O	JJ	O
+6-11	materials	O	O	NNS	P4_ingredients
+6-12	we	6-13_nsubj	purchased	PRP	P1_cook
+6-13	purchased	O	O	VBD	O
+6-14	and	O	O	O	O
+6-15	then	6-16_advmod	poured	RB	O
+6-16	poured	6-13_conj_and	purchased	VBD	O
+6-17	them	6-16_dobj	poured	PRP	P1_dough
+6-18	into	O	O	O	O
+6-19	a	O	O	DT	O
+6-20	pan	6-16_prep_into	poured	NN	P1_cake_tin
+6-21	.	O	O	O	O
+
+#id=7
+#text=We then put the pan in the oven and baked it according to the instructions . 
+7-1	We	7-3_nsubj	put	PRP	P1_cook
+7-2	then	7-3_advmod	put	RB	O
+7-3	put	O	O	VBD	O
+7-4	the	O	O	DT	O
+7-5	pan	7-3_dobj	put	NN	P2_cake_tin
+7-6	in	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	oven	7-3_prep_in	put	NN	P1_oven
+7-9	and	O	O	O	O
+7-10	baked	7-3_conj_and	put	VBZ	O
+7-11	it	7-10_dobj	baked	PRP	P1_cake
+7-12	according	O	O	O	O
+7-13	to	7-10_prepc_according_to	baked	TO	O
+7-14	the	O	O	DT	O
+7-15	instructions	7-10_pobj	baked	NNS	P1_baking_instructions
+7-16	.	O	O	O	O
+
+#id=8
+#text=After baking the cake in the oven for the time the recipe told us too , we then double checked to make sure it was done by pushing a knife into the center . 
+8-1	After	O	O	O	O
+8-2	baking	8-20_prepc_after	checked	VBG	O
+8-3	the	O	O	DT	O
+8-4	cake	8-2_dobj	baking	NN	P1_cake
+8-5	in	O	O	O	O
+8-6	the	O	O	DT	O
+8-7	oven	O	O	NN	P1_oven
+8-8	for	O	O	O	O
+8-9	the	O	O	DT	O
+8-10	time	O	O	NN	O
+8-11	the	O	O	DT	O
+8-12	recipe	8-13_nsubj	told	NN	P1_baking_instructions
+8-13	told	O	O	VBD	O
+8-14	us	8-13_dobj	told	PRP	P1_cook
+8-15	too	8-13_advmod	told	RB	O
+8-16	,	O	O	O	O
+8-17	we	8-20_nsubj	checked	PRP	P4_cook
+8-18	then	O	O	RB	O
+8-19	double	8-20_advmod	checked	RB	O
+8-20	checked	O	O	VBD	O
+8-21	to	8-22_aux	make	TO	O
+8-22	make	8-20_xcomp	checked	VB	O
+8-23	sure	8-22_acomp	make	JJ	O
+8-24	it	8-26_nsubjpass	done	PRP	P1_cake
+8-25	was	8-26_auxpass	done	VBD	O
+8-26	done	O	O	VBN	O
+8-27	by	O	O	O	O
+8-28	pushing	8-26_agent	done	VBG	O
+8-29	a	O	O	DT	O
+8-30	knife	8-28_dobj	pushing	NN	P2_utensil
+8-31	into	O	O	O	O
+8-32	the	O	O	DT	O
+8-33	center	8-28_prep_into	pushing	NN	P1_NPart_center
+8-34	.	O	O	O	O
+
+#id=9
+#text=We saw some crumbs sticking to the knife when we pulled it out so we knew it was ready to eat ! 
+9-1	We	9-2_nsubj	saw	PRP	P1_cook
+9-2	saw	O	O	VBD	O
+9-3	some	O	O	DT	O
+9-4	crumbs	9-2_dobj	saw	NNS	P1_NPart_crumbs
+9-5	sticking	O	O	VBG	O
+9-6	to	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	knife	9-5_prep_to	sticking	NN	P2_utensil
+9-9	when	9-11_advmod	pulled	WRB	O
+9-10	we	9-11_nsubj	pulled	PRP	P5_cook
+9-11	pulled	9-5_advcl	sticking	VBD	O
+9-12	it	9-11_dobj	pulled	PRP	P2_utensil
+9-13	out	9-11_prt	pulled	RP	O
+9-14	so	9-16_mark	knew	IN	O
+9-15	we	9-16_nsubj	knew	PRP	P1_cook
+9-16	knew	9-2_advcl	saw	VBD	O
+9-17	it	O	O	PRP	P1_cake
+9-18	was	O	O	VBD	O
+9-19	ready	9-16_ccomp	knew	JJ	O
+9-20	to	9-21_aux	eat	TO	O
+9-21	eat	O	O	VB	O
+9-22	!	O	O	O	O

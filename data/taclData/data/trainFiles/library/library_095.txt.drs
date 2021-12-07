@@ -1,0 +1,218 @@
+#id=1
+#text=I love to borrow books from the library because it is so easy . 
+1-1	I	1-2_nsubj	love	PRP	P1_customer
+1-2	love	O	O	VBP	O
+1-3	to	1-4_aux	borrow	TO	O
+1-4	borrow	1-2_xcomp	love	VB	O
+1-5	books	1-4_dobj	borrow	NNS	P1_book
+1-6	from	O	O	O	O
+1-7	the	O	O	DT	O
+1-8	library	1-4_prep_from	borrow	NN	P1_library
+1-9	because	O	O	IN	O
+1-10	it	O	O	PRP	O
+1-11	is	O	O	VBZ	O
+1-12	so	O	O	RB	O
+1-13	easy	1-4_advcl	borrow	JJ	O
+1-14	.	O	O	O	O
+
+#id=2
+#text=I also love it because if I return things on time , it 's totally free ! 
+2-1	I	2-3_nsubj	love	PRP	P1_customer
+2-2	also	2-3_advmod	love	RB	O
+2-3	love	O	O	VBP	O
+2-4	it	2-3_dobj	love	PRP	O
+2-5	because	O	O	IN	O
+2-6	if	2-8_mark	return	IN	O
+2-7	I	2-8_nsubj	return	PRP	P1_customer
+2-8	return	O	O	VB	O
+2-9	things	2-8_dobj	return	NNS	P2_book
+2-10	on	O	O	O	O
+2-11	time	2-8_prep_on	return	NN	P1_return_date
+2-12	,	O	O	O	O
+2-13	it	O	O	PRP	O
+2-14	's	O	O	VBZ	O
+2-15	totally	O	O	RB	O
+2-16	free	2-3_advcl	love	JJ	O
+2-17	!	O	O	O	O
+
+#id=3
+#text=I went to the library today to look for some gardening books . 
+3-1	I	3-2_nsubj	went	PRP	P1_customer
+3-2	went	O	O	VBD	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	library	3-2_prep_to	went	NN	P1_library
+3-6	today	3-2_tmod	went	NN	P1_NPart_today
+3-7	to	3-8_aux	look	TO	O
+3-8	look	3-2_vmod	went	VB	O
+3-9	for	O	O	O	O
+3-10	some	O	O	DT	O
+3-11	gardening	O	O	VBG	O
+3-12	books	3-8_prep_for	look	NNS	P3_book
+3-13	.	O	O	O	O
+
+#id=4
+#text=I did n't feel like using the computer to find the books , so I went through the dewey decimal system until I got to the gardening section . 
+4-1	I	4-4_nsubj	feel	PRP	P1_customer
+4-2	did	4-4_aux	feel	VBD	O
+4-3	n't	4-4_neg	feel	RB	O
+4-4	feel	O	O	VB	O
+4-5	like	O	O	O	O
+4-6	using	4-4_prepc_like	feel	VBG	O
+4-7	the	O	O	DT	O
+4-8	computer	4-6_dobj	using	NN	P1_institutional_devices
+4-9	to	4-10_aux	find	TO	O
+4-10	find	O	O	VB	O
+4-11	the	O	O	DT	O
+4-12	books	4-10_dobj	find	NNS	P3_book
+4-13	,	O	O	O	O
+4-14	so	4-4_dep	feel	IN	O
+4-15	I	4-16_nsubj	went	PRP	P1_customer
+4-16	went	4-4_parataxis	feel	VBD	O
+4-17	through	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	dewey	O	O	JJ	O
+4-20	decimal	O	O	JJ	O
+4-21	system	4-16_prep_through	went	NN	P1_section_id
+4-22	until	4-24_mark	got	IN	O
+4-23	I	4-24_nsubj	got	PRP	P1_customer
+4-24	got	4-16_advcl	went	VBD	O
+4-25	to	O	O	O	O
+4-26	the	O	O	DT	O
+4-27	gardening	O	O	VBG	O
+4-28	section	4-24_prep_to	got	NN	P1_shelf
+4-29	.	O	O	O	O
+
+#id=5
+#text=There were so many shelves of gardening books ! 
+5-1	There	5-2_expl	were	EX	O
+5-2	were	O	O	VBD	O
+5-3	so	5-2_advmod	were	RB	O
+5-4	many	O	O	JJ	O
+5-5	shelves	5-2_nsubj	were	NNS	P2_shelf
+5-6	of	O	O	O	O
+5-7	gardening	O	O	VBG	O
+5-8	books	O	O	NNS	P3_book
+5-9	!	O	O	O	O
+
+#id=6
+#text=I found a few that I liked and decided I needed a basket . 
+6-1	I	6-2_nsubj	found	PRP	P1_customer
+6-2	found	O	O	VBD	O
+6-3	a	O	O	DT	O
+6-4	few	6-2_dobj	found	JJ	P3_book
+6-5	that	6-7_mark	liked	IN	O
+6-6	I	6-7_nsubj	liked	PRP	P1_customer
+6-7	liked	6-2_ccomp	found	VBD	O
+6-8	and	O	O	O	O
+6-9	decided	6-7_conj_and	liked	VBD	O
+6-10	I	6-11_nsubj	needed	PRP	P1_customer
+6-11	needed	6-9_ccomp	decided	VBD	O
+6-12	a	O	O	DT	O
+6-13	basket	6-11_dobj	needed	NN	P1_other
+6-14	.	O	O	O	O
+
+#id=7
+#text=I got one from the circulation desk . 
+7-1	I	7-2_nsubj	got	PRP	P1_customer
+7-2	got	O	O	VBD	O
+7-3	one	7-2_dobj	got	CD	P1_other
+7-4	from	O	O	O	O
+7-5	the	O	O	DT	O
+7-6	circulation	O	O	NN	O
+7-7	desk	7-2_prep_from	got	NN	P1_location_library
+7-8	.	O	O	O	O
+
+#id=8
+#text=After that , I decided to go find a movie and a video game for my family to enjoy . 
+8-1	After	O	O	O	O
+8-2	that	8-5_prep_after	decided	DT	O
+8-3	,	O	O	O	O
+8-4	I	8-5_nsubj	decided	PRP	P1_customer
+8-5	decided	O	O	VBD	O
+8-6	to	8-7_aux	go	TO	O
+8-7	go	8-5_xcomp	decided	VB	O
+8-8	find	8-7_dep	go	VB	O
+8-9	a	O	O	DT	O
+8-10	movie	8-7_dobj	go	NN	P2_other
+8-11	and	O	O	O	O
+8-12	a	O	O	DT	O
+8-13	video	O	O	JJ	O
+8-14	game	O	O	NN	P3_other
+8-15	for	O	O	O	O
+8-16	my	O	O	PRP$	P1_customer
+8-17	family	8-7_prep_for	go	NN	P1_NPart_family
+8-18	to	8-19_aux	enjoy	TO	O
+8-19	enjoy	O	O	VB	O
+8-20	.	O	O	O	O
+
+#id=9
+#text=I browsed through the movies in alphabetical order and found a copy of Night at the Museum for my family to enjoy . 
+9-1	I	9-2_nsubj	browsed	PRP	P1_customer
+9-2	browsed	O	O	VBD	O
+9-3	through	O	O	O	O
+9-4	the	O	O	DT	O
+9-5	movies	9-2_prep_through	browsed	NNS	P4_other
+9-6	in	O	O	O	O
+9-7	alphabetical	O	O	JJ	O
+9-8	order	9-2_prep_in	browsed	NN	P1_NPart_order
+9-9	and	O	O	O	O
+9-10	found	9-2_conj_and	browsed	VBD	O
+9-11	a	O	O	DT	O
+9-12	copy	9-10_dobj	found	NN	P2_other
+9-13	of	O	O	O	O
+9-14	Night	O	O	NNP	O
+9-15	at	O	O	O	O
+9-16	the	O	O	DT	O
+9-17	Museum	9-10_prep_at	found	NN	O
+9-18	for	O	O	O	O
+9-19	my	O	O	PRP$	P1_customer
+9-20	family	O	O	NN	P1_NPart_family
+9-21	to	9-22_aux	enjoy	TO	O
+9-22	enjoy	O	O	VB	O
+9-23	.	O	O	O	O
+
+#id=10
+#text=I also found a copy of Mario Kart for the Wii . 
+10-1	I	10-3_nsubj	found	PRP	P1_customer
+10-2	also	10-3_advmod	found	RB	O
+10-3	found	O	O	VBD	O
+10-4	a	O	O	DT	O
+10-5	copy	10-3_dobj	found	NN	P3_other
+10-6	of	O	O	O	O
+10-7	Mario	O	O	NNP	O
+10-8	Kart	O	O	NNP	O
+10-9	for	O	O	O	O
+10-10	the	O	O	DT	O
+10-11	Wii	O	O	NNP	P1_NPart_wii
+10-12	.	O	O	O	O
+
+#id=11
+#text=I took my items up to the front desk and checked them out . 
+11-1	I	11-2_nsubj	took	PRP	P1_customer
+11-2	took	O	O	VBD	O
+11-3	my	O	O	PRP$	P1_customer
+11-4	items	11-2_dobj	took	NNS	O
+11-5	up	11-2_prt	took	RP	O
+11-6	to	O	O	O	O
+11-7	the	O	O	DT	O
+11-8	front	O	O	JJ	O
+11-9	desk	11-2_prep_to	took	NN	P1_check-out_desk
+11-10	and	O	O	O	O
+11-11	checked	11-2_conj_and	took	VBD	O
+11-12	them	11-11_dobj	checked	PRP	O
+11-13	out	11-11_prt	checked	RP	O
+11-14	.	O	O	O	O
+
+#id=12
+#text=I will have to return them within a week . 
+12-1	I	12-3_nsubj	have	PRP	P1_customer
+12-2	will	12-3_aux	have	MD	O
+12-3	have	O	O	VB	O
+12-4	to	12-5_aux	return	TO	O
+12-5	return	12-3_xcomp	have	VB	O
+12-6	them	12-5_dobj	return	PRP	O
+12-7	within	O	O	O	O
+12-8	a	O	O	DT	O
+12-9	week	12-5_prep_within	return	NN	P2_return_date
+12-10	.	O	O	O	O

@@ -1,0 +1,275 @@
+#id=1
+#text=My boyfriend 's birthday was just around the corner so I decided to bake a two-layer Strawberry Cake for him . 
+1-1	My	O	O	PRP$	P1_cook
+1-2	boyfriend	O	O	NN	P1_beneficiary
+1-3	's	O	O	O	O
+1-4	birthday	1-5_nsubj	was	NN	P1_NPart_birthday
+1-5	was	O	O	VBD	O
+1-6	just	1-5_advmod	was	RB	O
+1-7	around	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	corner	1-5_prep_around	was	NN	P1_NPart_corner
+1-10	so	1-12_mark	decided	IN	O
+1-11	I	1-12_nsubj	decided	PRP	P1_cook
+1-12	decided	1-5_advcl	was	VBD	O
+1-13	to	1-14_aux	bake	TO	O
+1-14	bake	1-12_xcomp	decided	VB	O
+1-15	a	O	O	DT	O
+1-16	two-layer	O	O	JJ	O
+1-17	Strawberry	O	O	NNP	O
+1-18	Cake	1-14_dobj	bake	NNP	P1_cake
+1-19	for	O	O	O	O
+1-20	him	1-14_prep_for	bake	PRP	P1_beneficiary
+1-21	.	O	O	O	O
+
+#id=2
+#text=To bake the cake , I needed sugar , milk , strawberry jello , vanilla extract , cake flour , butter , and strawberry puree . 
+2-1	To	2-2_aux	bake	TO	O
+2-2	bake	2-7_advcl	needed	VB	O
+2-3	the	O	O	DT	O
+2-4	cake	2-2_dobj	bake	NN	P1_cake
+2-5	,	O	O	O	O
+2-6	I	2-7_nsubj	needed	PRP	P1_cook
+2-7	needed	O	O	VBD	O
+2-8	sugar	2-7_dobj	needed	NN	P1_ingredients
+2-9	,	O	O	O	O
+2-10	milk	O	O	NN	P2_ingredients
+2-11	,	O	O	O	O
+2-12	strawberry	O	O	JJ	O
+2-13	jello	O	O	NN	P3_ingredients
+2-14	,	O	O	O	O
+2-15	vanilla	O	O	NN	O
+2-16	extract	O	O	NNS	P4_ingredients
+2-17	,	O	O	O	O
+2-18	cake	O	O	NN	O
+2-19	flour	O	O	NN	P5_ingredients
+2-20	,	O	O	O	O
+2-21	butter	O	O	NN	P6_ingredients
+2-22	,	O	O	O	O
+2-23	and	O	O	O	O
+2-24	strawberry	O	O	JJ	O
+2-25	puree	O	O	NN	P7_ingredients
+2-26	.	O	O	O	O
+
+#id=3
+#text=For the icing , I needed cream cheese , confectioner 's sugar , butter , and fresh strawberries . 
+3-1	For	O	O	O	O
+3-2	the	O	O	DT	O
+3-3	icing	3-6_prep_for	needed	NN	P8_ingredients
+3-4	,	O	O	O	O
+3-5	I	3-6_nsubj	needed	PRP	P1_cook
+3-6	needed	O	O	VBD	O
+3-7	cream	O	O	NN	O
+3-8	cheese	3-6_dobj	needed	NN	P9_ingredients
+3-9	,	O	O	O	O
+3-10	confectioner	O	O	NN	O
+3-11	's	O	O	O	O
+3-12	sugar	O	O	NN	P10_ingredients
+3-13	,	O	O	O	O
+3-14	butter	O	O	NN	P11_ingredients
+3-15	,	O	O	O	O
+3-16	and	O	O	O	O
+3-17	fresh	O	O	JJ	O
+3-18	strawberries	O	O	NNS	P12_ingredients
+3-19	.	O	O	O	O
+
+#id=4
+#text=While the oven preheated , I mixed all of the dry ingredients in one bowl and all of the wet ingredients into another bowl . 
+4-1	While	4-4_mark	preheated	IN	O
+4-2	the	O	O	DT	O
+4-3	oven	4-4_nsubj	preheated	NN	P1_oven
+4-4	preheated	4-7_advcl	mixed	VBD	O
+4-5	,	O	O	O	O
+4-6	I	4-7_nsubj	mixed	PRP	P1_cook
+4-7	mixed	O	O	VBD	O
+4-8	all	4-7_dobj	mixed	DT	O
+4-9	of	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	dry	O	O	JJ	O
+4-12	ingredients	O	O	NNS	P13_ingredients
+4-13	in	O	O	O	O
+4-14	one	O	O	CD	O
+4-15	bowl	O	O	NN	P1_utensil
+4-16	and	O	O	O	O
+4-17	all	O	O	DT	O
+4-18	of	O	O	O	O
+4-19	the	O	O	DT	O
+4-20	wet	O	O	JJ	O
+4-21	ingredients	O	O	NNS	P14_ingredients
+4-22	into	O	O	O	O
+4-23	another	O	O	DT	O
+4-24	bowl	4-7_prep_into	mixed	NN	P2_utensil
+4-25	.	O	O	O	O
+
+#id=5
+#text=I then added the wet ingredients to the dry ingredients and stirred until everything was mixed well together . 
+5-1	I	5-3_nsubj	added	PRP	P1_cook
+5-2	then	5-3_advmod	added	RB	O
+5-3	added	O	O	VBD	O
+5-4	the	O	O	DT	O
+5-5	wet	O	O	JJ	O
+5-6	ingredients	5-3_dobj	added	NNS	P14_ingredients
+5-7	to	O	O	O	O
+5-8	the	O	O	DT	O
+5-9	dry	O	O	JJ	O
+5-10	ingredients	5-3_prep_to	added	NNS	P13_ingredients
+5-11	and	O	O	O	O
+5-12	stirred	5-3_conj_and	added	VBD	O
+5-13	until	5-16_mark	mixed	IN	O
+5-14	everything	5-16_nsubjpass	mixed	NN	P15_ingredients
+5-15	was	5-16_auxpass	mixed	VBD	O
+5-16	mixed	5-12_advcl	stirred	VBN	O
+5-17	well	O	O	RB	O
+5-18	together	5-16_advmod	mixed	RB	O
+5-19	.	O	O	O	O
+
+#id=6
+#text=Once this was done , I poured the batter into two separate round cake pans and put the pans in the oven to bake for about 20 minutes . 
+6-1	Once	6-4_mark	done	IN	O
+6-2	this	6-4_nsubjpass	done	DT	O
+6-3	was	6-4_auxpass	done	VBD	O
+6-4	done	6-7_advcl	poured	VBN	O
+6-5	,	O	O	O	O
+6-6	I	6-7_nsubj	poured	PRP	P1_cook
+6-7	poured	O	O	VBD	O
+6-8	the	O	O	DT	O
+6-9	batter	6-7_dobj	poured	NN	P1_dough
+6-10	into	O	O	O	O
+6-11	two	O	O	CD	O
+6-12	separate	O	O	JJ	O
+6-13	round	O	O	NN	O
+6-14	cake	O	O	NN	O
+6-15	pans	6-7_prep_into	poured	NNS	P1_cake_tin
+6-16	and	O	O	O	O
+6-17	put	6-7_conj_and	poured	VBD	O
+6-18	the	O	O	DT	O
+6-19	pans	6-17_dobj	put	NNS	P1_cake_tin
+6-20	in	O	O	O	O
+6-21	the	O	O	DT	O
+6-22	oven	6-17_prep_in	put	NN	P1_oven
+6-23	to	6-24_aux	bake	TO	O
+6-24	bake	O	O	VB	O
+6-25	for	O	O	O	O
+6-26	about	O	O	RB	O
+6-27	20	O	O	CD	O
+6-28	minutes	6-24_prep_for	bake	NNS	P1_time
+6-29	.	O	O	O	O
+
+#id=7
+#text=After I took the finished cakes out and placed them on wire racks to cool for about 10 minutes , I went ahead and made the frosting . 
+7-1	After	7-3_mark	took	IN	O
+7-2	I	7-3_nsubj	took	PRP	P1_cook
+7-3	took	7-22_advcl	went	VBD	O
+7-4	the	O	O	DT	O
+7-5	finished	O	O	JJ	O
+7-6	cakes	7-3_dobj	took	NNS	P1_cake
+7-7	out	7-3_prt	took	RP	O
+7-8	and	O	O	O	O
+7-9	placed	7-3_conj_and	took	VBD	O
+7-10	them	7-9_dobj	placed	PRP	P1_cake
+7-11	on	O	O	O	O
+7-12	wire	O	O	NN	O
+7-13	racks	7-9_prep_on	placed	NNS	P3_utensil
+7-14	to	7-15_aux	cool	TO	O
+7-15	cool	7-9_vmod	placed	VB	O
+7-16	for	O	O	O	O
+7-17	about	O	O	RB	O
+7-18	10	O	O	CD	O
+7-19	minutes	7-15_prep_for	cool	NNS	P2_time
+7-20	,	O	O	O	O
+7-21	I	7-22_nsubj	went	PRP	P1_cook
+7-22	went	O	O	VBD	O
+7-23	ahead	7-22_advmod	went	RB	O
+7-24	and	O	O	O	O
+7-25	made	7-22_conj_and	went	VBD	O
+7-26	the	O	O	DT	O
+7-27	frosting	7-25_dobj	made	NN	P8_ingredients
+7-28	.	O	O	O	O
+
+#id=8
+#text=Using an electric mixer , I beat the cream cheese and butter until they were creamy and then beat in the sugar and fresh strawberries until I got the smooth consistency that I wanted . 
+8-1	Using	8-7_vmod	beat	VBG	O
+8-2	an	O	O	DT	O
+8-3	electric	O	O	JJ	O
+8-4	mixer	8-1_dobj	Using	NN	P4_utensil
+8-5	,	O	O	O	O
+8-6	I	8-7_nsubj	beat	PRP	P1_cook
+8-7	beat	O	O	VBD	O
+8-8	the	O	O	DT	O
+8-9	cream	O	O	NN	O
+8-10	cheese	8-7_dobj	beat	NN	O
+8-11	and	O	O	O	O
+8-12	butter	O	O	NN	P11_ingredients
+8-13	until	8-16_mark	creamy	IN	O
+8-14	they	8-16_nsubjpass	creamy	PRP	P16_ingredients
+8-15	were	8-16_auxpass	creamy	VBD	O
+8-16	creamy	8-7_advcl	beat	VBN	O
+8-17	and	O	O	O	O
+8-18	then	8-19_advmod	beat	RB	O
+8-19	beat	8-16_conj_and	creamy	VB	O
+8-20	in	O	O	O	O
+8-21	the	O	O	DT	O
+8-22	sugar	8-19_prep_in	beat	NN	P1_ingredients
+8-23	and	O	O	O	O
+8-24	fresh	O	O	JJ	O
+8-25	strawberries	O	O	NNS	P12_ingredients
+8-26	until	8-28_mark	got	IN	O
+8-27	I	8-28_nsubj	got	PRP	P1_cook
+8-28	got	8-19_advcl	beat	VBD	O
+8-29	the	O	O	DT	O
+8-30	smooth	O	O	JJ	O
+8-31	consistency	8-28_dobj	got	NN	P1_NPart_consistency
+8-32	that	8-34_mark	wanted	IN	O
+8-33	I	8-34_nsubj	wanted	PRP	P2_cook
+8-34	wanted	8-28_ccomp	got	VBD	O
+8-35	.	O	O	O	O
+
+#id=9
+#text=Lastly , I assembled the cake by frosting the first layer then adding the second layer and frosting that as well . 
+9-1	Lastly	9-4_advmod	assembled	RB	O
+9-2	,	O	O	O	O
+9-3	I	9-4_nsubj	assembled	PRP	P1_cook
+9-4	assembled	O	O	VBD	O
+9-5	the	O	O	DT	O
+9-6	cake	9-4_dobj	assembled	NN	P1_cake
+9-7	by	O	O	O	O
+9-8	frosting	9-4_prepc_by	assembled	VBG	O
+9-9	the	O	O	DT	O
+9-10	first	O	O	JJ	O
+9-11	layer	9-8_dobj	frosting	NN	P1_other
+9-12	then	9-13_advmod	adding	RB	O
+9-13	adding	9-8_vmod	frosting	VBG	O
+9-14	the	O	O	DT	O
+9-15	second	O	O	JJ	O
+9-16	layer	9-13_dobj	adding	NN	P1_other
+9-17	and	O	O	O	O
+9-18	frosting	9-8_conj_and	frosting	VBG	O
+9-19	that	9-18_dobj	frosting	DT	P1_other
+9-20	as	O	O	RB	O
+9-21	well	9-18_advmod	frosting	RB	O
+9-22	.	O	O	O	O
+
+#id=10
+#text=I also garnished the finished cake with some leftover strawberries I had . 
+10-1	I	10-3_nsubj	garnished	PRP	P1_cook
+10-2	also	10-3_advmod	garnished	RB	O
+10-3	garnished	O	O	VBD	O
+10-4	the	O	O	DT	O
+10-5	finished	O	O	JJ	O
+10-6	cake	10-3_dobj	garnished	NN	P1_cake
+10-7	with	O	O	O	O
+10-8	some	O	O	DT	O
+10-9	leftover	O	O	NN	O
+10-10	strawberries	10-3_prep_with	garnished	NNS	P1_decoration
+10-11	I	10-12_nsubj	had	PRP	P1_cook
+10-12	had	O	O	VBD	O
+10-13	.	O	O	O	O
+
+#id=11
+#text=My boyfriend loved the cake . 
+11-1	My	O	O	PRP$	P1_cook
+11-2	boyfriend	11-3_nsubj	loved	NN	P1_beneficiary
+11-3	loved	O	O	VBD	O
+11-4	the	O	O	DT	O
+11-5	cake	11-3_dobj	loved	NN	P1_cake
+11-6	.	O	O	O	O

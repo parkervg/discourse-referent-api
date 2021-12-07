@@ -1,0 +1,210 @@
+#id=1
+#text=I needed to get to the craft store , there was a sale ! 
+1-1	I	1-2_nsubj	needed	PRP	P1_passenger
+1-2	needed	1-11_ccomp	was	VBD	O
+1-3	to	1-4_aux	get	TO	O
+1-4	get	1-2_xcomp	needed	VB	O
+1-5	to	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	craft	O	O	NN	O
+1-8	store	1-4_prep_to	get	NN	P1_NPart_store
+1-9	,	O	O	O	O
+1-10	there	1-11_expl	was	EX	O
+1-11	was	O	O	VBD	O
+1-12	a	O	O	DT	O
+1-13	sale	1-11_nsubj	was	NN	P1_NPart_sale
+1-14	!	O	O	O	O
+
+#id=2
+#text=Unfortunately , husband had the car and he would be gone a while . 
+2-1	Unfortunately	2-4_advmod	had	RB	O
+2-2	,	O	O	O	O
+2-3	husband	2-4_nsubj	had	NN	P1_NPart_husband
+2-4	had	O	O	VBD	O
+2-5	the	O	O	DT	O
+2-6	car	2-4_dobj	had	NN	P1_NPart_car
+2-7	and	O	O	O	O
+2-8	he	2-11_nsubjpass	gone	PRP	P1_NPart_he
+2-9	would	2-11_aux	gone	MD	O
+2-10	be	2-11_auxpass	gone	VB	O
+2-11	gone	2-4_conj_and	had	VBN	O
+2-12	a	O	O	DT	O
+2-13	while	2-11_dobj	gone	NN	O
+2-14	.	O	O	O	O
+
+#id=3
+#text=I decided to take the bus . 
+3-1	I	3-2_nsubj	decided	PRP	P1_passenger
+3-2	decided	O	O	VBD	O
+3-3	to	3-4_aux	take	TO	O
+3-4	take	3-2_xcomp	decided	VB	O
+3-5	the	O	O	DT	O
+3-6	bus	3-4_dobj	take	NN	P1_bus
+3-7	.	O	O	O	O
+
+#id=4
+#text=I made sure I had a couple dollars for the fare and walked to the bus stop . 
+4-1	I	4-2_nsubj	made	PRP	P1_passenger
+4-2	made	O	O	VBD	O
+4-3	sure	4-2_acomp	made	JJ	O
+4-4	I	4-5_nsubj	had	PRP	P1_passenger
+4-5	had	O	O	VBD	O
+4-6	a	O	O	DT	O
+4-7	couple	O	O	NN	O
+4-8	dollars	4-5_dobj	had	NNS	P1_money
+4-9	for	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	fare	O	O	NN	P2_money
+4-12	and	O	O	O	O
+4-13	walked	4-5_conj_and	had	VBD	O
+4-14	to	O	O	O	O
+4-15	the	O	O	DT	O
+4-16	bus	O	O	NN	O
+4-17	stop	4-13_prep_to	walked	NN	P1_bus_stop
+4-18	.	O	O	O	O
+
+#id=5
+#text=I waited about ten minutes , then the bus came around the corner and stopped at the bench I was sitting . 
+5-1	I	5-2_nsubj	waited	PRP	P1_passenger
+5-2	waited	O	O	VBD	O
+5-3	about	O	O	RB	O
+5-4	ten	O	O	CD	O
+5-5	minutes	5-2_dobj	waited	NNS	P1_time/date
+5-6	,	O	O	O	O
+5-7	then	5-10_advmod	came	RB	O
+5-8	the	O	O	DT	O
+5-9	bus	5-10_nsubj	came	NN	P1_bus
+5-10	came	5-2_parataxis	waited	VBD	O
+5-11	around	5-10_prt	came	RP	O
+5-12	the	O	O	DT	O
+5-13	corner	5-10_dobj	came	NN	P1_NPart_corner
+5-14	and	O	O	O	O
+5-15	stopped	5-10_conj_and	came	VBD	O
+5-16	at	O	O	O	O
+5-17	the	O	O	DT	O
+5-18	bench	5-15_prep_at	stopped	NN	P1_NPart_bench
+5-19	I	5-21_nsubj	sitting	PRP	P1_passenger
+5-20	was	5-21_aux	sitting	VBD	O
+5-21	sitting	O	O	VBG	O
+5-22	.	O	O	O	O
+
+#id=6
+#text=A few people got off the bus and I stepped through the doors onto the bus . 
+6-1	A	O	O	DT	O
+6-2	few	O	O	JJ	O
+6-3	people	6-4_nsubj	got	NNS	P2_passenger
+6-4	got	O	O	VBD	O
+6-5	off	6-4_prt	got	RP	O
+6-6	the	O	O	DT	O
+6-7	bus	6-4_dobj	got	NN	P1_bus
+6-8	and	O	O	O	O
+6-9	I	6-10_nsubj	stepped	PRP	P1_passenger
+6-10	stepped	6-4_conj_and	got	VBD	O
+6-11	through	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	doors	6-10_prep_through	stepped	NNS	P1_door
+6-14	onto	O	O	O	O
+6-15	the	O	O	DT	O
+6-16	bus	6-10_prep_onto	stepped	NN	P1_bus
+6-17	.	O	O	O	O
+
+#id=7
+#text=I smiled at the bus driver and put the money into the machine to pay for my ride . 
+7-1	I	7-2_nsubj	smiled	PRP	P1_passenger
+7-2	smiled	O	O	VBD	O
+7-3	at	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	bus	O	O	NN	O
+7-6	driver	7-2_prep_at	smiled	NN	P1_bus_staff
+7-7	and	O	O	O	O
+7-8	put	7-2_conj_and	smiled	VBD	O
+7-9	the	O	O	DT	O
+7-10	money	7-8_dobj	put	NN	P1_money
+7-11	into	O	O	O	O
+7-12	the	O	O	DT	O
+7-13	machine	7-8_prep_into	put	NN	P1_payment_machine
+7-14	to	7-15_aux	pay	TO	O
+7-15	pay	O	O	VB	O
+7-16	for	O	O	O	O
+7-17	my	O	O	PRP$	P1_passenger
+7-18	ride	7-15_prep_for	pay	NN	P1_ride
+7-19	.	O	O	O	O
+
+#id=8
+#text=I took a seat at an open place and looked out the window . 
+8-1	I	8-2_nsubj	took	PRP	P1_passenger
+8-2	took	O	O	VBD	O
+8-3	a	O	O	DT	O
+8-4	seat	8-2_dobj	took	NN	P1_seat_in_bus
+8-5	at	O	O	O	O
+8-6	an	O	O	DT	O
+8-7	open	O	O	JJ	O
+8-8	place	8-2_prep_at	took	NN	P1_NPart_place
+8-9	and	O	O	O	O
+8-10	looked	8-2_conj_and	took	VBD	O
+8-11	out	8-10_prt	looked	RP	O
+8-12	the	O	O	DT	O
+8-13	window	8-10_dobj	looked	NN	P1_other
+8-14	.	O	O	O	O
+
+#id=9
+#text=The store I was going to was only a few stops away and when I saw we were close , I pulled the cord to signal to the driver I was ready to get off . 
+9-1	The	O	O	DT	O
+9-2	store	O	O	NN	P2_NPart_store
+9-3	I	9-5_nsubj	going	PRP	P1_passenger
+9-4	was	9-5_aux	going	VBD	O
+9-5	going	O	O	VBG	O
+9-6	to	9-5_prep	going	TO	O
+9-7	was	O	O	VBD	O
+9-8	only	O	O	RB	O
+9-9	a	O	O	DT	O
+9-10	few	O	O	JJ	O
+9-11	stops	O	O	NNS	P2_other
+9-12	away	O	O	RB	O
+9-13	and	O	O	O	O
+9-14	when	9-16_advmod	saw	WRB	O
+9-15	I	9-16_nsubj	saw	PRP	P1_passenger
+9-16	saw	9-22_advcl	pulled	VBD	O
+9-17	we	O	O	PRP	P1_bus
+9-18	were	O	O	VBD	O
+9-19	close	9-16_ccomp	saw	JJ	O
+9-20	,	O	O	O	O
+9-21	I	9-22_nsubj	pulled	PRP	P1_passenger
+9-22	pulled	O	O	VBD	O
+9-23	the	O	O	DT	O
+9-24	cord	9-22_dobj	pulled	NN	P1_stop_button/door_opener
+9-25	to	9-26_aux	signal	TO	O
+9-26	signal	O	O	VB	O
+9-27	to	O	O	O	O
+9-28	the	O	O	DT	O
+9-29	driver	9-26_prep_to	signal	NN	P1_bus_staff
+9-30	I	O	O	PRP	P1_passenger
+9-31	was	O	O	VBD	O
+9-32	ready	O	O	JJ	O
+9-33	to	9-34_aux	get	TO	O
+9-34	get	O	O	VB	O
+9-35	off	9-34_prt	get	RP	O
+9-36	.	O	O	O	O
+
+#id=10
+#text=He stopped at the shopping center and I thanked him for the ride as I stepped onto the pavement . 
+10-1	He	10-2_nsubj	stopped	PRP	P1_bus_staff
+10-2	stopped	O	O	VBD	O
+10-3	at	O	O	O	O
+10-4	the	O	O	DT	O
+10-5	shopping	O	O	NN	O
+10-6	center	10-2_prep_at	stopped	NN	P1_destination
+10-7	and	O	O	O	O
+10-8	I	10-9_nsubj	thanked	PRP	P1_passenger
+10-9	thanked	10-2_conj_and	stopped	VBD	O
+10-10	him	10-9_dobj	thanked	PRP	P2_bus_staff
+10-11	for	O	O	O	O
+10-12	the	O	O	DT	O
+10-13	ride	10-9_prep_for	thanked	NN	P1_ride
+10-14	as	10-16_mark	stepped	IN	O
+10-15	I	10-16_nsubj	stepped	PRP	P1_passenger
+10-16	stepped	10-9_advcl	thanked	VBD	O
+10-17	onto	O	O	O	O
+10-18	the	O	O	DT	O
+10-19	pavement	10-16_prep_onto	stepped	NN	P1_NPart_pavement
+10-20	.	O	O	O	O

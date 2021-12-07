@@ -1,0 +1,270 @@
+#id=1
+#text=Last weekend , I got into my car to head to the grocery store . 
+1-1	Last	O	O	JJ	O
+1-2	weekend	1-5_nsubj	got	NN	P1_NPart_weekend
+1-3	,	O	O	O	O
+1-4	I	1-5_nsubj	got	PRP	P1_shopper
+1-5	got	O	O	VBD	O
+1-6	into	O	O	O	O
+1-7	my	O	O	PRP$	P1_shopper
+1-8	car	1-5_prep_into	got	NN	P1_vehicle
+1-9	to	1-10_aux	head	TO	O
+1-10	head	O	O	VB	O
+1-11	to	O	O	O	O
+1-12	the	O	O	DT	O
+1-13	grocery	O	O	NN	O
+1-14	store	1-10_prep_to	head	NN	P1_grocery_shop
+1-15	.	O	O	O	O
+
+#id=2
+#text=The store I normally go grocery shop at is Safeway , with the exception of the few times I go to SaveMart . 
+2-1	The	O	O	DT	O
+2-2	store	O	O	NN	P1_grocery_shop
+2-3	I	2-5_nsubj	go	PRP	P1_shopper
+2-4	normally	2-5_advmod	go	RB	O
+2-5	go	O	O	VB	O
+2-6	grocery	O	O	NN	P1_groceries
+2-7	shop	2-5_dobj	go	NN	O
+2-8	at	2-5_prep	go	IN	O
+2-9	is	O	O	VBZ	O
+2-10	Safeway	O	O	NNP	P1_grocery_shop
+2-11	,	O	O	O	O
+2-12	with	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	exception	O	O	NN	P1_NPart_exception
+2-15	of	O	O	O	O
+2-16	the	O	O	DT	O
+2-17	few	O	O	JJ	O
+2-18	times	O	O	NNS	O
+2-19	I	2-20_nsubj	go	PRP	P1_shopper
+2-20	go	O	O	VBP	O
+2-21	to	O	O	O	O
+2-22	SaveMart	2-20_prep_to	go	NNP	P2_grocery_shop
+2-23	.	O	O	O	O
+
+#id=3
+#text=But for this time , I headed to Safeway . 
+3-1	But	3-7_cc	headed	CC	O
+3-2	for	O	O	O	O
+3-3	this	O	O	DT	O
+3-4	time	3-7_prep_for	headed	NN	O
+3-5	,	O	O	O	O
+3-6	I	3-7_nsubj	headed	PRP	P1_shopper
+3-7	headed	O	O	VBD	O
+3-8	to	O	O	O	O
+3-9	Safeway	3-7_prep_to	headed	NNP	P1_grocery_shop
+3-10	.	O	O	O	O
+
+#id=4
+#text=I grabbed a shopping cart and immediately went to the left of the store like I normally do . 
+4-1	I	4-2_nsubj	grabbed	PRP	P1_shopper
+4-2	grabbed	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	shopping	O	O	NN	O
+4-5	cart	4-2_dobj	grabbed	NN	P1_shopping_cart/basket
+4-6	and	O	O	O	O
+4-7	immediately	4-8_advmod	went	RB	O
+4-8	went	4-2_conj_and	grabbed	VBD	O
+4-9	to	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	left	4-8_prep_to	went	NN	O
+4-12	of	O	O	O	O
+4-13	the	O	O	DT	O
+4-14	store	O	O	NN	P3_grocery_shop
+4-15	like	4-18_mark	do	IN	O
+4-16	I	4-18_nsubj	do	PRP	P1_shopper
+4-17	normally	4-18_advmod	do	RB	O
+4-18	do	4-2_advcl	grabbed	VBP	O
+4-19	.	O	O	O	O
+
+#id=5
+#text=I grabbed the bread items I needed along with any breakfast pastries I enjoy buying . 
+5-1	I	5-2_nsubj	grabbed	PRP	P1_shopper
+5-2	grabbed	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	bread	O	O	NN	O
+5-5	items	5-12_nsubj	pastries	NNS	P2_groceries
+5-6	I	5-7_nsubj	needed	PRP	P1_shopper
+5-7	needed	O	O	VBD	O
+5-8	along	O	O	O	O
+5-9	with	O	O	O	O
+5-10	any	O	O	DT	O
+5-11	breakfast	5-7_prep_along_with	needed	NN	O
+5-12	pastries	5-2_ccomp	grabbed	VBZ	P3_groceries
+5-13	I	5-14_nsubj	enjoy	PRP	P1_shopper
+5-14	enjoy	5-12_ccomp	pastries	VBP	O
+5-15	buying	5-14_xcomp	enjoy	VBG	O
+5-16	.	O	O	O	O
+
+#id=6
+#text=Like normal , I skip the first four aisles due to them being for personal care and pet care . 
+6-1	Like	O	O	O	O
+6-2	normal	6-5_prep_like	skip	JJ	O
+6-3	,	O	O	O	O
+6-4	I	6-5_nsubj	skip	PRP	P1_shopper
+6-5	skip	O	O	VB	O
+6-6	the	O	O	DT	O
+6-7	first	O	O	JJ	O
+6-8	four	O	O	CD	O
+6-9	aisles	6-5_dobj	skip	NNS	P1_section
+6-10	due	O	O	O	O
+6-11	to	O	O	O	O
+6-12	them	6-13_nsubj	being	PRP	P1_section
+6-13	being	O	O	VBG	O
+6-14	for	O	O	O	O
+6-15	personal	O	O	JJ	O
+6-16	care	6-13_prep_for	being	NN	P1_NPart_care
+6-17	and	O	O	O	O
+6-18	pet	O	O	NN	O
+6-19	care	O	O	NN	P2_NPart_care
+6-20	.	O	O	O	O
+
+#id=7
+#text=I buy my personal items elsewhere -LRB- such as shampoo , etc. -RRB- . 
+7-1	I	7-2_nsubj	buy	PRP	P1_shopper
+7-2	buy	O	O	VBP	O
+7-3	my	O	O	PRP$	P1_shopper
+7-4	personal	O	O	JJ	O
+7-5	items	7-2_dobj	buy	NNS	P1_NPart_items
+7-6	elsewhere	7-2_advmod	buy	RB	O
+7-7	-LRB-	O	O	O	O
+7-8	such	O	O	O	O
+7-9	as	O	O	O	O
+7-10	shampoo	O	O	NN	P1_NPart_shampoo
+7-11	,	O	O	O	O
+7-12	etc.	O	O	FW	O
+7-13	-RRB-	O	O	O	O
+7-14	.	O	O	O	O
+
+#id=8
+#text=I then went down the beverage aisle where I picked up several Gatorades and bottled waters . 
+8-1	I	8-3_nsubj	went	PRP	P1_shopper
+8-2	then	8-3_advmod	went	RB	O
+8-3	went	O	O	VBD	O
+8-4	down	8-3_prt	went	RP	O
+8-5	the	O	O	DT	O
+8-6	beverage	O	O	NN	O
+8-7	aisle	8-3_dobj	went	NN	P2_section
+8-8	where	8-10_advmod	picked	WRB	O
+8-9	I	8-10_nsubj	picked	PRP	P1_shopper
+8-10	picked	8-3_advcl	went	VBD	O
+8-11	up	8-10_prt	picked	RP	O
+8-12	several	O	O	JJ	O
+8-13	Gatorades	8-10_dobj	picked	NNS	P4_groceries
+8-14	and	O	O	O	O
+8-15	bottled	O	O	JJ	O
+8-16	waters	O	O	NNS	P5_groceries
+8-17	.	O	O	O	O
+
+#id=9
+#text=I then continue going up each aisle after the beverage one , where I would pick up my frozen foods , canned foods , snacks -LRB- such as chips and cookies -RRB- , and any other lunch items -LRB- frozen or non-frozen -RRB- . 
+9-1	I	9-3_nsubj	continue	PRP	P1_shopper
+9-2	then	9-3_advmod	continue	RB	O
+9-3	continue	O	O	VBP	O
+9-4	going	9-3_xcomp	continue	VBG	O
+9-5	up	9-4_prt	going	RP	O
+9-6	each	O	O	DT	O
+9-7	aisle	9-4_dobj	going	NN	P3_section
+9-8	after	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	beverage	O	O	NN	P6_groceries
+9-11	one	O	O	NN	P4_section
+9-12	,	O	O	O	O
+9-13	where	9-16_advmod	pick	WRB	O
+9-14	I	9-16_nsubj	pick	PRP	P1_shopper
+9-15	would	9-16_aux	pick	MD	O
+9-16	pick	O	O	VB	O
+9-17	up	9-16_prt	pick	RP	O
+9-18	my	O	O	PRP$	P1_shopper
+9-19	frozen	O	O	JJ	O
+9-20	foods	9-16_dobj	pick	NNS	P7_groceries
+9-21	,	O	O	O	O
+9-22	canned	O	O	JJ	O
+9-23	foods	O	O	NNS	P8_groceries
+9-24	,	O	O	O	O
+9-25	snacks	O	O	NNS	P9_groceries
+9-26	-LRB-	O	O	O	O
+9-27	such	O	O	O	O
+9-28	as	O	O	O	O
+9-29	chips	O	O	NNS	P10_groceries
+9-30	and	O	O	O	O
+9-31	cookies	O	O	NNS	P11_groceries
+9-32	-RRB-	O	O	O	O
+9-33	,	O	O	O	O
+9-34	and	O	O	O	O
+9-35	any	O	O	DT	O
+9-36	other	O	O	JJ	O
+9-37	lunch	O	O	NN	O
+9-38	items	O	O	NNS	P12_groceries
+9-39	-LRB-	O	O	O	O
+9-40	frozen	O	O	JJ	O
+9-41	or	O	O	O	O
+9-42	non-frozen	O	O	JJ	O
+9-43	-RRB-	O	O	O	O
+9-44	.	O	O	O	O
+
+#id=10
+#text=I then ended with the fruits and vegetables , where I picked up a bunch of bananas and about four apples . 
+10-1	I	10-3_nsubj	ended	PRP	P1_shopper
+10-2	then	10-3_advmod	ended	RB	O
+10-3	ended	O	O	VBD	O
+10-4	with	O	O	O	O
+10-5	the	O	O	DT	O
+10-6	fruits	10-3_prep_with	ended	NNS	P13_groceries
+10-7	and	O	O	O	O
+10-8	vegetables	O	O	NNS	P14_groceries
+10-9	,	O	O	O	O
+10-10	where	10-12_advmod	picked	WRB	O
+10-11	I	10-12_nsubj	picked	PRP	P1_shopper
+10-12	picked	O	O	VBD	O
+10-13	up	10-12_prt	picked	RP	O
+10-14	a	O	O	DT	O
+10-15	bunch	10-12_dobj	picked	NN	O
+10-16	of	O	O	O	O
+10-17	bananas	O	O	NNS	P15_groceries
+10-18	and	O	O	O	O
+10-19	about	O	O	RB	O
+10-20	four	O	O	CD	O
+10-21	apples	O	O	NNS	P16_groceries
+10-22	.	O	O	O	O
+
+#id=11
+#text=I took my cart to the lone open register after waiting for about five minutes . 
+11-1	I	11-2_nsubj	took	PRP	P1_shopper
+11-2	took	O	O	VBD	O
+11-3	my	O	O	PRP$	P1_shopper
+11-4	cart	11-2_dobj	took	NN	P1_shopping_cart/basket
+11-5	to	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	lone	O	O	JJ	O
+11-8	open	O	O	JJ	O
+11-9	register	11-2_prep_to	took	NN	P1_cash_desk
+11-10	after	O	O	O	O
+11-11	waiting	11-2_prepc_after	took	VBG	O
+11-12	for	O	O	O	O
+11-13	about	O	O	RB	O
+11-14	five	O	O	CD	O
+11-15	minutes	11-11_prep_for	waiting	NNS	P1_NPart_minutes
+11-16	.	O	O	O	O
+
+#id=12
+#text=After purchasing my items , I went out to my car and packed my groceries into the trunk . 
+12-1	After	O	O	O	O
+12-2	purchasing	12-7_prepc_after	went	VBG	O
+12-3	my	O	O	PRP$	P1_shopper
+12-4	items	12-2_dobj	purchasing	NNS	P17_groceries
+12-5	,	O	O	O	O
+12-6	I	12-7_nsubj	went	PRP	P1_shopper
+12-7	went	O	O	VBD	O
+12-8	out	12-7_prt	went	RP	O
+12-9	to	O	O	O	O
+12-10	my	O	O	PRP$	P1_shopper
+12-11	car	12-7_prep_to	went	NN	P1_vehicle
+12-12	and	O	O	O	O
+12-13	packed	12-7_conj_and	went	VBD	O
+12-14	my	O	O	PRP$	P1_shopper
+12-15	groceries	12-13_dobj	packed	NNS	P17_groceries
+12-16	into	O	O	O	O
+12-17	the	O	O	DT	O
+12-18	trunk	12-13_prep_into	packed	NN	P1_vehicle
+12-19	.	O	O	O	O

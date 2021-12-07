@@ -1,0 +1,348 @@
+#id=1
+#text=When I decide to bake a cake , I go all out . 
+1-1	When	1-3_advmod	decide	WRB	O
+1-2	I	1-3_nsubj	decide	PRP	P1_cook
+1-3	decide	1-10_advcl	go	VBP	O
+1-4	to	1-5_aux	bake	TO	O
+1-5	bake	1-3_xcomp	decide	VB	O
+1-6	a	O	O	DT	O
+1-7	cake	1-5_dobj	bake	NN	P1_cake
+1-8	,	O	O	O	O
+1-9	I	1-10_nsubj	go	PRP	P1_cook
+1-10	go	O	O	VBP	O
+1-11	all	O	O	DT	O
+1-12	out	1-10_advmod	go	IN	O
+1-13	.	O	O	O	O
+
+#id=2
+#text=Nothing beats a homemade cake , the boxed kind are junk ! 
+2-1	Nothing	2-2_nsubj	beats	NN	O
+2-2	beats	O	O	VBZ	O
+2-3	a	O	O	DT	O
+2-4	homemade	O	O	JJ	O
+2-5	cake	2-2_dobj	beats	NN	P1_cake
+2-6	,	O	O	O	O
+2-7	the	O	O	DT	O
+2-8	boxed	O	O	JJ	O
+2-9	kind	O	O	NN	O
+2-10	are	O	O	VBP	O
+2-11	junk	O	O	NN	O
+2-12	!	O	O	O	O
+
+#id=3
+#text=It was no different this past weekend when i got the hankering for a chocolate cake . 
+3-1	It	O	O	PRP	O
+3-2	was	O	O	VBD	O
+3-3	no	O	O	RB	O
+3-4	different	O	O	JJ	O
+3-5	this	O	O	DT	O
+3-6	past	O	O	JJ	O
+3-7	weekend	O	O	NN	O
+3-8	when	3-10_advmod	got	WRB	O
+3-9	i	3-10_nsubj	got	FW	P1_cook
+3-10	got	O	O	VBD	O
+3-11	the	O	O	DT	O
+3-12	hankering	3-10_dobj	got	NN	O
+3-13	for	O	O	O	O
+3-14	a	O	O	DT	O
+3-15	chocolate	O	O	NN	O
+3-16	cake	3-10_prep_for	got	NN	P1_cake
+3-17	.	O	O	O	O
+
+#id=4
+#text=I first went out a bought the ingredients . 
+4-1	I	4-3_nsubj	went	PRP	P1_cook
+4-2	first	4-3_advmod	went	RB	O
+4-3	went	O	O	VBD	O
+4-4	out	O	O	IN	O
+4-5	a	4-6_nsubj	bought	DT	O
+4-6	bought	4-3_ccomp	went	VBD	O
+4-7	the	O	O	DT	O
+4-8	ingredients	4-6_dobj	bought	NNS	P1_ingredients
+4-9	.	O	O	O	O
+
+#id=5
+#text=They were as follows , 3/4 cups butter , 3 eggs , 2 cups sugar , 2 cups flour , 3/4 cup unsweetened cocoa powder , 1 teaspoon baking soda , 3/4 teaspoon baking powder , 2 teaspoon vanilla , and 1 1/2 cup milk . 
+5-1	They	5-2_nsubj	were	PRP	P1_ingredients
+5-2	were	O	O	VBD	O
+5-3	as	5-2_prep	O	O	O
+5-4	follows	O	were	NNP	O
+5-5	,	O	O	O	O
+5-6	3/4	O	O	CD	O
+5-7	cups	O	O	CD	O
+5-8	butter	O	O	NN	P2_ingredients
+5-9	,	O	O	O	O
+5-10	3	O	O	CD	O
+5-11	eggs	O	O	NNS	P3_ingredients
+5-12	,	O	O	O	O
+5-13	2	O	O	CD	O
+5-14	cups	O	O	NNS	O
+5-15	sugar	O	O	NN	P4_ingredients
+5-16	,	O	O	O	O
+5-17	2	O	O	CD	O
+5-18	cups	O	O	CD	O
+5-19	flour	O	O	NN	P5_ingredients
+5-20	,	O	O	O	O
+5-21	3/4	O	O	CD	O
+5-22	cup	O	O	CD	O
+5-23	unsweetened	O	O	JJ	O
+5-24	cocoa	O	O	NN	O
+5-25	powder	O	O	NN	P6_ingredients
+5-26	,	O	O	O	O
+5-27	1	O	O	CD	O
+5-28	teaspoon	O	O	CD	O
+5-29	baking	O	O	VBG	O
+5-30	soda	O	O	NN	P7_ingredients
+5-31	,	O	O	O	O
+5-32	3/4	O	O	CD	O
+5-33	teaspoon	O	O	CD	O
+5-34	baking	O	O	VBG	O
+5-35	powder	O	O	NN	P8_ingredients
+5-36	,	O	O	O	O
+5-37	2	O	O	CD	O
+5-38	teaspoon	O	O	NN	O
+5-39	vanilla	O	O	NN	P9_ingredients
+5-40	,	O	O	O	O
+5-41	and	O	O	O	O
+5-42	1 1/2	O	O	CD	O
+5-43	cup	O	O	NN	O
+5-44	milk	O	O	NN	P10_ingredients
+5-45	.	O	O	O	O
+
+#id=6
+#text=I pre-heated my oven to 350 degrees . 
+6-1	I	6-2_nsubj	pre-heated	PRP	P1_cook
+6-2	pre-heated	O	O	VBD	O
+6-3	my	O	O	PRP$	P1_cook
+6-4	oven	6-2_dobj	pre-heated	NN	P1_oven
+6-5	to	O	O	O	O
+6-6	350	O	O	CD	O
+6-7	degrees	6-2_prep_to	pre-heated	NNS	P1_temperature
+6-8	.	O	O	O	O
+
+#id=7
+#text=I then greased and floured three 6 " " X 1 1/2 " " round cake pans . 
+7-1	I	7-3_nsubj	greased	PRP	P1_cook
+7-2	then	7-3_advmod	greased	RB	O
+7-3	greased	7-10_ccomp	X	VBD	O
+7-4	and	O	O	O	O
+7-5	floured	7-3_conj_and	greased	VBD	O
+7-6	three	O	O	CD	O
+7-7	6	7-3_dobj	greased	CD	O
+7-8	"	O	O	O	O
+7-9	"	O	O	O	O
+7-10	X	O	O	VBD	O
+7-11	1 1/2	O	O	NN	O
+7-12	"	O	O	O	O
+7-13	"	O	O	O	O
+7-14	round	O	O	NN	O
+7-15	cake	7-16_nsubj	pans	NN	O
+7-16	pans	7-10_ccomp	X	VBZ	P1_cake_tin
+7-17	.	O	O	O	O
+
+#id=8
+#text=I mixed together the flour , cocoa powder , baking powder and baking soda . 
+8-1	I	8-2_nsubj	mixed	PRP	P1_cook
+8-2	mixed	O	O	VBN	O
+8-3	together	8-2_prt	mixed	RP	O
+8-4	the	O	O	DT	O
+8-5	flour	8-2_dobj	mixed	NN	P5_ingredients
+8-6	,	O	O	O	O
+8-7	cocoa	O	O	NN	O
+8-8	powder	O	O	NN	P6_ingredients
+8-9	,	O	O	O	O
+8-10	baking	O	O	VBG	O
+8-11	powder	O	O	NN	P8_ingredients
+8-12	and	O	O	O	O
+8-13	baking	O	O	VBG	O
+8-14	soda	O	O	NN	P7_ingredients
+8-15	.	O	O	O	O
+
+#id=9
+#text=In a different large bowl , I beat butter , eggs and vanilla like it stole something . 
+9-1	In	O	O	O	O
+9-2	a	O	O	DT	O
+9-3	different	O	O	JJ	O
+9-4	large	O	O	JJ	O
+9-5	bowl	9-8_prep_in	beat	NN	P1_utensil
+9-6	,	O	O	O	O
+9-7	I	9-8_nsubj	beat	PRP	P1_cook
+9-8	beat	O	O	VBD	O
+9-9	butter	9-8_dobj	beat	NN	P2_ingredients
+9-10	,	O	O	O	O
+9-11	eggs	O	O	NNS	P3_ingredients
+9-12	and	O	O	O	O
+9-13	vanilla	O	O	NN	P11_ingredients
+9-14	like	9-16_mark	stole	IN	O
+9-15	it	9-16_nsubj	stole	PRP	P12_ingredients
+9-16	stole	9-8_advcl	beat	VBD	O
+9-17	something	9-16_dobj	stole	NN	O
+9-18	.	O	O	O	O
+
+#id=10
+#text=Gradually I added the sugary goodness of sugar to the mix . 
+10-1	Gradually	10-3_advmod	added	RB	O
+10-2	I	10-3_nsubj	added	PRP	P1_cook
+10-3	added	O	O	VBD	O
+10-4	the	O	O	DT	O
+10-5	sugary	O	O	JJ	O
+10-6	goodness	10-3_dobj	added	NN	P1_NPart_goodness
+10-7	of	O	O	O	O
+10-8	sugar	O	O	NN	P4_ingredients
+10-9	to	O	O	O	O
+10-10	the	O	O	DT	O
+10-11	mix	10-3_prep_to	added	NN	P13_ingredients
+10-12	.	O	O	O	O
+
+#id=11
+#text=Beating this on medium to the sound of fallout boy , I did this until it was well mixed . 
+11-1	Beating	11-13_vmod	did	VBG	O
+11-2	this	11-1_dobj	Beating	DT	P13_ingredients
+11-3	on	O	O	O	O
+11-4	medium	O	O	NN	O
+11-5	to	O	O	O	O
+11-6	the	O	O	DT	O
+11-7	sound	11-1_prep_to	Beating	NN	P1_NPart_sound
+11-8	of	O	O	O	O
+11-9	fallout	O	O	NN	O
+11-10	boy	O	O	NN	O
+11-11	,	O	O	O	O
+11-12	I	11-13_nsubj	did	PRP	P1_cook
+11-13	did	O	O	VBD	O
+11-14	this	11-13_dobj	did	DT	O
+11-15	until	O	O	IN	O
+11-16	it	O	O	PRP	P13_ingredients
+11-17	was	O	O	VBD	O
+11-18	well	O	O	RB	O
+11-19	mixed	11-13_advcl	did	JJ	O
+11-20	.	O	O	O	O
+
+#id=12
+#text=I then alternately combined in the flour mixture and milk to batter while beating . 
+12-1	I	12-4_nsubj	combined	PRP	P1_cook
+12-2	then	12-4_advmod	combined	RB	O
+12-3	alternately	12-4_advmod	combined	RB	O
+12-4	combined	O	O	VBD	O
+12-5	in	O	O	O	O
+12-6	the	O	O	DT	O
+12-7	flour	O	O	NN	P5_ingredients
+12-8	mixture	12-4_prep_in	combined	NN	P13_ingredients
+12-9	and	O	O	O	O
+12-10	milk	12-4_conj_and	combined	VB	P10_ingredients
+12-11	to	12-12_aux	batter	TO	O
+12-12	batter	12-10_xcomp	milk	VB	P1_dough
+12-13	while	O	O	NN	O
+12-14	beating	12-12_dobj	batter	NN	O
+12-15	.	O	O	O	O
+
+#id=13
+#text=Continuing to beat until batter was smooth , I then poured equal amounts of batter into the greased and floured round cake pans . 
+13-1	Continuing	13-11_vmod	poured	VBG	O
+13-2	to	13-3_aux	beat	TO	O
+13-3	beat	13-1_xcomp	Continuing	VB	O
+13-4	until	O	O	IN	O
+13-5	batter	O	O	NN	P1_dough
+13-6	was	O	O	VBD	O
+13-7	smooth	13-3_advcl	beat	JJ	O
+13-8	,	O	O	O	O
+13-9	I	13-11_nsubj	poured	PRP	P1_cook
+13-10	then	13-11_advmod	poured	RB	O
+13-11	poured	O	O	VBD	O
+13-12	equal	O	O	JJ	O
+13-13	amounts	13-11_dobj	poured	NNS	P1_NPart_amounts
+13-14	of	O	O	O	O
+13-15	batter	O	O	NN	P1_dough
+13-16	into	O	O	O	O
+13-17	the	O	O	DT	O
+13-18	greased	13-11_prep_into	poured	JJ	O
+13-19	and	O	O	O	O
+13-20	floured	O	O	JJ	O
+13-21	round	O	O	NN	O
+13-22	cake	O	O	NN	O
+13-23	pans	O	O	NNS	P1_cake_tin
+13-24	.	O	O	O	O
+
+#id=14
+#text=I tossed this delicious mixture into the oven to bake for 35 minutes . 
+14-1	I	14-2_nsubj	tossed	PRP	P1_cook
+14-2	tossed	O	O	VBD	O
+14-3	this	O	O	DT	O
+14-4	delicious	O	O	JJ	O
+14-5	mixture	14-2_dobj	tossed	NN	P1_dough
+14-6	into	O	O	O	O
+14-7	the	O	O	DT	O
+14-8	oven	14-2_prep_into	tossed	NN	P1_oven
+14-9	to	14-10_aux	bake	TO	O
+14-10	bake	O	O	VB	O
+14-11	for	O	O	O	O
+14-12	35	O	O	CD	O
+14-13	minutes	14-10_prep_for	bake	NNS	P1_time
+14-14	.	O	O	O	O
+
+#id=15
+#text=Finally I was able to remove the cakes , which I then placed on a wire cooling rack . 
+15-1	Finally	O	O	RB	O
+15-2	I	O	O	PRP	P1_cook
+15-3	was	O	O	VBD	O
+15-4	able	O	O	JJ	O
+15-5	to	15-6_aux	remove	TO	O
+15-6	remove	O	O	VB	O
+15-7	the	O	O	DT	O
+15-8	cakes	15-6_dobj	remove	NNS	P1_cake
+15-9	,	O	O	O	O
+15-10	which	15-13_dobj	placed	WDT	O
+15-11	I	15-13_nsubj	placed	PRP	P1_cook
+15-12	then	15-13_advmod	placed	RB	O
+15-13	placed	O	O	VBD	O
+15-14	on	O	O	O	O
+15-15	a	O	O	DT	O
+15-16	wire	O	O	NN	O
+15-17	cooling	O	O	VBG	O
+15-18	rack	15-13_prep_on	placed	NN	P1_NPart_rack
+15-19	.	O	O	O	O
+
+#id=16
+#text=Another 40 minutes passed , after which I proceeded to destroy all the cakes , eating every last bite until I could n't eat any more ! '' 
+16-1	Another	O	O	DT	O
+16-2	40	O	O	CD	O
+16-3	minutes	16-4_nsubj	passed	NNS	P2_time
+16-4	passed	O	O	VBD	O
+16-5	,	O	O	O	O
+16-6	after	O	O	O	O
+16-7	which	16-9_prep_after	proceeded	WDT	O
+16-8	I	16-9_nsubj	proceeded	PRP	P1_cook
+16-9	proceeded	16-4_parataxis	passed	VBD	O
+16-10	to	16-11_aux	destroy	TO	O
+16-11	destroy	16-9_xcomp	proceeded	VB	O
+16-12	all	O	O	PDT	O
+16-13	the	O	O	DT	O
+16-14	cakes	16-11_dobj	destroy	NNS	P1_cake
+16-15	,	O	O	O	O
+16-16	eating	16-4_xcomp	passed	VBG	O
+16-17	every	O	O	DT	O
+16-18	last	O	O	JJ	O
+16-19	bite	16-16_dobj	eating	NN	P1_NPart_bite
+16-20	until	16-24_mark	eat	IN	O
+16-21	I	16-24_nsubj	eat	PRP	P1_cook
+16-22	could	16-24_aux	eat	MD	O
+16-23	n't	16-24_neg	eat	RB	O
+16-24	eat	16-16_advcl	eating	VB	O
+16-25	any	O	O	DT	O
+16-26	more	16-24_advmod	eat	RBR	O
+16-27	!	O	O	O	O
+16-28	''	O	O	O	O
+
+#id=17
+#text=, " Fun , this has been my favorite so far ! 
+17-1	,	O	O	O	O
+17-2	"	O	O	O	O
+17-3	Fun	O	O	NNP	O
+17-4	,	O	O	O	O
+17-5	this	O	O	DT	O
+17-6	has	O	O	VBZ	O
+17-7	been	O	O	VBN	O
+17-8	my	O	O	PRP$	O
+17-9	favorite	O	O	NN	O
+17-10	so	O	O	RB	O
+17-11	far	O	O	RB	O
+17-12	!	O	O	O	O

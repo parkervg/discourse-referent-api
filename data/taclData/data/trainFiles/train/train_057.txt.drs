@@ -1,0 +1,203 @@
+#id=1
+#text=I needed to travel across the state , and the train was the quickest and most efficient way to do that as my car is unable to make a long trip . 
+1-1	I	1-2_nsubj	needed	PRP	P1_passenger
+1-2	needed	O	O	VBD	O
+1-3	to	1-4_aux	travel	TO	O
+1-4	travel	1-2_xcomp	needed	VB	O
+1-5	across	O	O	O	O
+1-6	the	O	O	DT	O
+1-7	state	1-4_prep_across	travel	NN	P1_NPart_state
+1-8	,	O	O	O	O
+1-9	and	O	O	O	O
+1-10	the	O	O	DT	O
+1-11	train	O	O	NN	P1_train
+1-12	was	O	O	VBD	O
+1-13	the	O	O	DT	O
+1-14	quickest	O	O	JJ	O
+1-15	and	O	O	O	O
+1-16	most	O	O	RBS	O
+1-17	efficient	O	O	JJ	O
+1-18	way	1-2_conj_and	needed	NN	O
+1-19	to	1-20_aux	do	TO	O
+1-20	do	O	O	VB	O
+1-21	that	O	O	IN	O
+1-22	as	O	O	IN	O
+1-23	my	O	O	PRP$	P1_passenger
+1-24	car	O	O	NN	P1_NPart_car
+1-25	is	O	O	VBZ	O
+1-26	unable	1-20_advcl	do	JJ	O
+1-27	to	1-28_aux	make	TO	O
+1-28	make	O	O	VB	O
+1-29	a	O	O	DT	O
+1-30	long	O	O	JJ	O
+1-31	trip	1-28_dobj	make	NN	P1_NPart_trip
+1-32	.	O	O	O	O
+
+#id=2
+#text=I went online to the Amtrak website and checked the schedule and prices , and then made a reservation . 
+2-1	I	2-2_nsubj	went	PRP	P1_passenger
+2-2	went	O	O	VBD	O
+2-3	online	2-2_dep	went	NN	O
+2-4	to	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	Amtrak	O	O	NNP	O
+2-7	website	2-2_prep_to	went	NN	P1_NPart_website
+2-8	and	O	O	O	O
+2-9	checked	2-2_conj_and	went	VBD	O
+2-10	the	O	O	DT	O
+2-11	schedule	2-9_dobj	checked	NN	P1_time-table
+2-12	and	O	O	O	O
+2-13	prices	O	O	NNS	P1_other
+2-14	,	O	O	O	O
+2-15	and	O	O	O	O
+2-16	then	2-17_advmod	made	RB	O
+2-17	made	2-2_conj_and	went	VBD	O
+2-18	a	O	O	DT	O
+2-19	reservation	2-17_dobj	made	NN	P2_other
+2-20	.	O	O	O	O
+
+#id=3
+#text=A friend gave me a lift to the depot and once there I purchased my ticket and then boarded the train when it arrived on time . 
+3-1	A	O	O	DT	O
+3-2	friend	3-3_nsubj	gave	NN	P1_NPart_friend
+3-3	gave	O	O	VBD	O
+3-4	me	3-3_iobj	gave	PRP	P1_passenger
+3-5	a	O	O	DT	O
+3-6	lift	3-3_dobj	gave	NN	O
+3-7	to	O	O	O	O
+3-8	the	O	O	DT	O
+3-9	depot	O	O	NN	P1_train_station
+3-10	and	O	O	O	O
+3-11	once	O	O	RB	O
+3-12	there	3-14_advmod	purchased	RB	O
+3-13	I	3-14_nsubj	purchased	PRP	P1_passenger
+3-14	purchased	3-3_conj_and	gave	VBD	O
+3-15	my	O	O	PRP$	P1_passenger
+3-16	ticket	3-14_dobj	purchased	NN	P1_card/ticket
+3-17	and	O	O	O	O
+3-18	then	3-19_advmod	boarded	RB	O
+3-19	boarded	3-14_conj_and	purchased	VBD	O
+3-20	the	O	O	DT	O
+3-21	train	3-19_dobj	boarded	NN	P1_train
+3-22	when	3-24_advmod	arrived	WRB	O
+3-23	it	3-24_nsubj	arrived	PRP	P1_train
+3-24	arrived	3-19_advcl	boarded	VBD	O
+3-25	on	O	O	O	O
+3-26	time	3-24_prep_on	arrived	NN	P1_time_date
+3-27	.	O	O	O	O
+
+#id=4
+#text=I brought my small suitcase onboard with me and did not need to check any other bags . 
+4-1	I	4-2_nsubj	brought	PRP	P1_passenger
+4-2	brought	O	O	VBD	O
+4-3	my	O	O	PRP$	P1_passenger
+4-4	small	O	O	JJ	O
+4-5	suitcase	O	O	NN	P1_luggage
+4-6	onboard	4-2_dobj	brought	NN	P1_NPart_onboard
+4-7	with	O	O	O	O
+4-8	me	4-2_prep_with	brought	PRP	P1_passenger
+4-9	and	O	O	O	O
+4-10	did	4-12_aux	need	VBD	O
+4-11	not	4-12_neg	need	RB	O
+4-12	need	4-2_conj_and	brought	VB	O
+4-13	to	4-14_aux	check	TO	O
+4-14	check	4-12_xcomp	need	VB	O
+4-15	any	O	O	DT	O
+4-16	other	O	O	JJ	O
+4-17	bags	4-14_dobj	check	NNS	P1_luggage
+4-18	.	O	O	O	O
+
+#id=5
+#text=The train ride was comfortable and not crowded , so I had my own seat . 
+5-1	The	O	O	DT	O
+5-2	train	O	O	NN	O
+5-3	ride	O	O	NN	P1_trip
+5-4	was	O	O	VBD	O
+5-5	comfortable	O	O	JJ	O
+5-6	and	O	O	O	O
+5-7	not	5-8_neg	crowded	RB	O
+5-8	crowded	O	O	VBN	O
+5-9	,	O	O	O	O
+5-10	so	O	O	IN	O
+5-11	I	5-12_nsubj	had	PRP	P1_passenger
+5-12	had	O	O	VBD	O
+5-13	my	O	O	PRP$	P1_passenger
+5-14	own	O	O	JJ	O
+5-15	seat	5-12_dobj	had	NN	P1_seat
+5-16	.	O	O	O	O
+
+#id=6
+#text=There were no delays on the tracks and my carriage had only mature adults who were peaceful and quiet , so it was a pleasant and quiet journey . 
+6-1	There	6-2_expl	were	EX	O
+6-2	were	O	O	VBD	O
+6-3	no	O	O	DT	O
+6-4	delays	6-2_nsubj	were	NNS	P1_NPart_delays
+6-5	on	O	O	O	O
+6-6	the	O	O	DT	O
+6-7	tracks	O	O	NNS	P1_NPart_tracks
+6-8	and	O	O	O	O
+6-9	my	O	O	PRP$	P2_passenger
+6-10	carriage	6-11_nsubj	had	NN	P1_coach
+6-11	had	6-2_conj_and	were	VBD	O
+6-12	only	O	O	RB	O
+6-13	mature	O	O	JJ	O
+6-14	adults	6-11_dobj	had	NNS	P3_passenger
+6-15	who	O	O	WP	O
+6-16	were	O	O	VBD	O
+6-17	peaceful	O	O	JJ	O
+6-18	and	O	O	O	O
+6-19	quiet	O	O	JJ	O
+6-20	,	O	O	O	O
+6-21	so	6-2_dep	were	IN	O
+6-22	it	O	O	PRP	P2_seat
+6-23	was	O	O	VBD	O
+6-24	a	O	O	DT	O
+6-25	pleasant	O	O	JJ	O
+6-26	and	O	O	O	O
+6-27	quiet	O	O	JJ	O
+6-28	journey	6-2_parataxis	were	NN	P3_seat
+6-29	.	O	O	O	O
+
+#id=7
+#text=I visited the dining car to get a snack and though it was expensive it was well stocked , and I bought a coffee and a turkey sandwich . 
+7-1	I	7-2_nsubj	visited	PRP	P1_passenger
+7-2	visited	O	O	VBD	O
+7-3	the	O	O	DT	O
+7-4	dining	O	O	NN	O
+7-5	car	7-2_dobj	visited	NN	P3_other
+7-6	to	7-7_aux	get	TO	O
+7-7	get	7-2_vmod	visited	VB	O
+7-8	a	O	O	DT	O
+7-9	snack	7-7_dobj	get	NN	P1_in-train_entertainment
+7-10	and	O	O	O	O
+7-11	though	O	O	IN	O
+7-12	it	O	O	PRP	P3_other
+7-13	was	O	O	VBD	O
+7-14	expensive	7-18_advcl	stocked	JJ	O
+7-15	it	7-18_nsubjpass	stocked	PRP	P3_other
+7-16	was	7-18_auxpass	stocked	VBD	O
+7-17	well	7-18_advmod	stocked	RB	O
+7-18	stocked	7-2_conj_and	visited	VBN	O
+7-19	,	O	O	O	O
+7-20	and	O	O	O	O
+7-21	I	7-22_nsubj	bought	PRP	P1_passenger
+7-22	bought	7-2_conj_and	visited	VBD	O
+7-23	a	O	O	DT	O
+7-24	coffee	7-22_dobj	bought	NN	P1_NPart_coffee
+7-25	and	O	O	O	O
+7-26	a	O	O	DT	O
+7-27	turkey	O	O	NN	O
+7-28	sandwich	O	O	NN	P1_NPart_sandwich
+7-29	.	O	O	O	O
+
+#id=8
+#text=My arrival was on time and I disembarked . 
+8-1	My	O	O	PRP$	P1_passenger
+8-2	arrival	8-3_nsubj	was	NN	P1_NPart_arrival
+8-3	was	O	O	VBD	O
+8-4	on	O	O	O	O
+8-5	time	8-3_prep_on	was	NN	P2_time_date
+8-6	and	O	O	O	O
+8-7	I	8-8_nsubj	disembarked	PRP	P1_passenger
+8-8	disembarked	8-3_conj_and	was	VBD	O
+8-9	.	O	O	O	O

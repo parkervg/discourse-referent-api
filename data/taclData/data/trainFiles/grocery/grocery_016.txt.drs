@@ -1,0 +1,306 @@
+#id=1
+#text=Today I decided to go grocery shopping . 
+1-1	Today	1-3_tmod	decided	NN	P1_NPart_today
+1-2	I	1-3_nsubj	decided	PRP	P1_shopper
+1-3	decided	O	O	VBD	O
+1-4	to	1-5_aux	go	TO	O
+1-5	go	1-3_xcomp	decided	VB	O
+1-6	grocery	O	O	NN	P1_groceries
+1-7	shopping	1-5_dobj	go	NN	O
+1-8	.	O	O	O	O
+
+#id=2
+#text=I made a list detailing what I needed to buy , then decided to go to the discount grocery store where I could get everything on my list in one stop . 
+2-1	I	2-2_nsubj	made	PRP	P1_shopper
+2-2	made	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	list	2-2_dobj	made	NN	P1_grocery_list
+2-5	detailing	O	O	VBG	O
+2-6	what	2-8_dobj	needed	WP	O
+2-7	I	2-8_nsubj	needed	PRP	P1_shopper
+2-8	needed	2-5_ccomp	detailing	VBD	O
+2-9	to	2-10_aux	buy	TO	O
+2-10	buy	2-8_xcomp	needed	VB	O
+2-11	,	O	O	O	O
+2-12	then	2-13_advmod	decided	RB	O
+2-13	decided	2-5_dep	detailing	VBD	O
+2-14	to	2-15_aux	go	TO	O
+2-15	go	2-13_xcomp	decided	VB	O
+2-16	to	O	O	O	O
+2-17	the	O	O	DT	O
+2-18	discount	O	O	NN	O
+2-19	grocery	O	O	NN	O
+2-20	store	2-15_prep_to	go	NN	P1_grocery_shop
+2-21	where	2-24_advmod	get	WRB	O
+2-22	I	2-24_nsubj	get	PRP	P1_shopper
+2-23	could	2-24_aux	get	MD	O
+2-24	get	2-5_advcl	detailing	VB	O
+2-25	everything	2-24_dobj	get	NN	P2_groceries
+2-26	on	O	O	O	O
+2-27	my	O	O	PRP$	P1_shopper
+2-28	list	2-24_prep_on	get	NN	P1_grocery_list
+2-29	in	O	O	O	O
+2-30	one	O	O	CD	O
+2-31	stop	O	O	NN	O
+2-32	.	O	O	O	O
+
+#id=3
+#text=I drove to the store , and parked near the front . 
+3-1	I	3-2_nsubj	drove	PRP	P1_shopper
+3-2	drove	O	O	VBD	O
+3-3	to	O	O	O	O
+3-4	the	O	O	DT	O
+3-5	store	3-2_prep_to	drove	NN	P1_grocery_shop
+3-6	,	O	O	O	O
+3-7	and	O	O	O	O
+3-8	parked	3-2_conj_and	drove	VBD	O
+3-9	near	O	O	O	O
+3-10	the	O	O	DT	O
+3-11	front	3-8_prep_near	parked	NN	P1_NPart_front
+3-12	.	O	O	O	O
+
+#id=4
+#text=I grabbed a basket and went inside . 
+4-1	I	4-2_nsubj	grabbed	PRP	P1_shopper
+4-2	grabbed	O	O	VBD	O
+4-3	a	O	O	DT	O
+4-4	basket	4-2_dobj	grabbed	NN	P1_shopping_cart/basket
+4-5	and	O	O	O	O
+4-6	went	4-2_conj_and	grabbed	VBD	O
+4-7	inside	4-6_advmod	went	RB	O
+4-8	.	O	O	O	O
+
+#id=5
+#text=The first thing I saw was the muffins that were on my list . 
+5-1	The	O	O	DT	O
+5-2	first	O	O	JJ	O
+5-3	thing	O	O	NN	P3_groceries
+5-4	I	5-5_nsubj	saw	PRP	P1_shopper
+5-5	saw	O	O	VBD	O
+5-6	was	O	O	VBD	O
+5-7	the	O	O	DT	O
+5-8	muffins	O	O	NNS	P3_groceries
+5-9	that	5-10_nsubj	were	WDT	O
+5-10	were	O	O	VBD	O
+5-11	on	O	O	O	O
+5-12	my	O	O	PRP$	P1_shopper
+5-13	list	5-10_prep_on	were	NN	P1_grocery_list
+5-14	.	O	O	O	O
+
+#id=6
+#text=They were by the front door , so I picked some out and put them in my basket . 
+6-1	They	6-2_nsubj	were	PRP	P3_groceries
+6-2	were	O	O	VBD	O
+6-3	by	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	front	O	O	JJ	O
+6-6	door	6-2_prep_by	were	NN	P1_NPart_door
+6-7	,	O	O	O	O
+6-8	so	6-2_dep	were	IN	O
+6-9	I	6-10_nsubj	picked	PRP	P1_shopper
+6-10	picked	6-2_parataxis	were	VBD	O
+6-11	some	6-10_dobj	picked	DT	P3_groceries
+6-12	out	6-10_prt	picked	RP	O
+6-13	and	O	O	O	O
+6-14	put	6-10_conj_and	picked	VBD	O
+6-15	them	6-14_dobj	put	PRP	P3_groceries
+6-16	in	O	O	O	O
+6-17	my	O	O	PRP$	P1_shopper
+6-18	basket	6-14_prep_in	put	NN	P1_shopping_cart/basket
+6-19	.	O	O	O	O
+
+#id=7
+#text=I also needed peanut butter , which was at the back of the store . 
+7-1	I	7-3_nsubj	needed	PRP	P1_shopper
+7-2	also	7-3_advmod	needed	RB	O
+7-3	needed	O	O	VBD	O
+7-4	peanut	O	O	NN	O
+7-5	butter	7-3_dobj	needed	NN	P4_groceries
+7-6	,	O	O	O	O
+7-7	which	7-8_nsubj	was	WDT	O
+7-8	was	O	O	VBD	O
+7-9	at	O	O	O	O
+7-10	the	O	O	DT	O
+7-11	back	7-8_prep_at	was	NN	P1_section
+7-12	of	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	store	O	O	NN	P1_grocery_shop
+7-15	.	O	O	O	O
+
+#id=8
+#text=I went to the back and chose my favorite peanut butter . 
+8-1	I	8-2_nsubj	went	PRP	P1_shopper
+8-2	went	O	O	VBD	O
+8-3	to	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	back	8-2_prep_to	went	NN	P2_section
+8-6	and	O	O	O	O
+8-7	chose	8-2_conj_and	went	VBD	O
+8-8	my	O	O	PRP$	P1_shopper
+8-9	favorite	O	O	JJ	O
+8-10	peanut	O	O	NN	O
+8-11	butter	8-7_dobj	chose	NN	P4_groceries
+8-12	.	O	O	O	O
+
+#id=9
+#text=The last thing I needed was bread . 
+9-1	The	O	O	DT	O
+9-2	last	O	O	JJ	O
+9-3	thing	O	O	NN	P5_groceries
+9-4	I	9-5_nsubj	needed	PRP	P1_shopper
+9-5	needed	O	O	VBD	O
+9-6	was	O	O	VBD	O
+9-7	bread	O	O	NN	P5_groceries
+9-8	.	O	O	O	O
+
+#id=10
+#text=I walked down the middle of the store looking down each aisle to see if I saw anything that I forgot to put on my list . 
+10-1	I	10-2_nsubj	walked	PRP	P1_shopper
+10-2	walked	O	O	VBD	O
+10-3	down	10-2_prt	walked	RP	O
+10-4	the	O	O	DT	O
+10-5	middle	10-2_dobj	walked	NN	P3_section
+10-6	of	O	O	O	O
+10-7	the	O	O	DT	O
+10-8	store	O	O	NN	P1_grocery_shop
+10-9	looking	O	O	VBG	O
+10-10	down	10-9_prt	looking	RP	O
+10-11	each	O	O	DT	O
+10-12	aisle	10-9_dobj	looking	NN	P4_section
+10-13	to	10-14_aux	see	TO	O
+10-14	see	O	O	VB	O
+10-15	if	10-17_mark	saw	IN	O
+10-16	I	10-17_nsubj	saw	PRP	P1_shopper
+10-17	saw	10-14_advcl	see	VBD	O
+10-18	anything	10-17_dobj	saw	NN	P6_groceries
+10-19	that	10-21_mark	forgot	IN	O
+10-20	I	10-21_nsubj	forgot	PRP	P1_shopper
+10-21	forgot	10-17_ccomp	saw	VBD	O
+10-22	to	10-23_aux	put	TO	O
+10-23	put	10-21_xcomp	forgot	VB	O
+10-24	on	O	O	O	O
+10-25	my	O	O	PRP$	P1_shopper
+10-26	list	10-23_prep_on	put	NN	P1_grocery_list
+10-27	.	O	O	O	O
+
+#id=11
+#text=I did n't see anything I needed , but had to resist the temptation to buy some ice cream . 
+11-1	I	11-4_nsubj	see	PRP	P1_shopper
+11-2	did	11-4_aux	see	VBD	O
+11-3	n't	11-4_neg	see	RB	O
+11-4	see	O	O	VB	O
+11-5	anything	11-4_dobj	see	NN	P6_groceries
+11-6	I	11-7_nsubj	needed	PRP	P1_shopper
+11-7	needed	O	O	VBD	O
+11-8	,	O	O	O	O
+11-9	but	O	O	O	O
+11-10	had	11-7_conj_but	needed	VBD	O
+11-11	to	11-12_aux	resist	TO	O
+11-12	resist	11-10_xcomp	had	VB	O
+11-13	the	O	O	DT	O
+11-14	temptation	11-12_dobj	resist	NN	P1_NPart_temptation
+11-15	to	11-16_aux	buy	TO	O
+11-16	buy	O	O	VB	O
+11-17	some	O	O	DT	O
+11-18	ice	O	O	NN	O
+11-19	cream	11-16_dobj	buy	NN	P7_groceries
+11-20	.	O	O	O	O
+
+#id=12
+#text=Once I got to the front of the store , I picked out a loaf of bread and went to stand in line to check out . 
+12-1	Once	12-3_mark	got	IN	O
+12-2	I	12-3_nsubj	got	PRP	P1_shopper
+12-3	got	12-12_advcl	picked	VBD	O
+12-4	to	O	O	O	O
+12-5	the	O	O	DT	O
+12-6	front	12-3_prep_to	got	NN	P5_section
+12-7	of	O	O	O	O
+12-8	the	O	O	DT	O
+12-9	store	O	O	NN	P1_grocery_shop
+12-10	,	O	O	O	O
+12-11	I	12-12_nsubj	picked	PRP	P1_shopper
+12-12	picked	O	O	VBD	O
+12-13	out	12-12_prt	picked	RP	O
+12-14	a	O	O	DT	O
+12-15	loaf	12-12_dobj	picked	NN	O
+12-16	of	O	O	O	O
+12-17	bread	O	O	NN	P5_groceries
+12-18	and	O	O	O	O
+12-19	went	12-12_conj_and	picked	VBD	O
+12-20	to	12-21_aux	stand	TO	O
+12-21	stand	12-19_xcomp	went	VB	O
+12-22	in	O	O	O	O
+12-23	line	12-21_prep_in	stand	NN	P1_line
+12-24	to	12-25_aux	check	TO	O
+12-25	check	12-21_xcomp	stand	VB	O
+12-26	out	12-25_prt	check	RP	P1_cash_desk
+12-27	.	O	O	O	O
+
+#id=13
+#text=It was busy , but a new line was just opening up , so I was able to get near the front of the line . 
+13-1	It	O	O	PRP	O
+13-2	was	O	O	VBD	O
+13-3	busy	O	O	JJ	O
+13-4	,	O	O	O	O
+13-5	but	O	O	O	O
+13-6	a	O	O	DT	O
+13-7	new	O	O	JJ	O
+13-8	line	13-11_nsubj	opening	NN	P1_line
+13-9	was	13-11_aux	opening	VBD	O
+13-10	just	13-11_advmod	opening	RB	O
+13-11	opening	O	O	VBG	O
+13-12	up	13-11_prt	opening	RP	O
+13-13	,	O	O	O	O
+13-14	so	13-11_dep	opening	IN	O
+13-15	I	O	O	PRP	P1_shopper
+13-16	was	O	O	VBD	O
+13-17	able	13-11_parataxis	opening	JJ	O
+13-18	to	13-19_aux	get	TO	O
+13-19	get	O	O	VB	O
+13-20	near	O	O	O	O
+13-21	the	O	O	DT	O
+13-22	front	13-19_prep_near	get	NN	O
+13-23	of	O	O	O	O
+13-24	the	O	O	DT	O
+13-25	line	O	O	NN	P1_line
+13-26	.	O	O	O	O
+
+#id=14
+#text=The cashier rang me up and I paid with my debit card . 
+14-1	The	O	O	DT	O
+14-2	cashier	14-3_nsubj	rang	NN	P1_grocery_staff
+14-3	rang	O	O	VBD	O
+14-4	me	14-3_dobj	rang	PRP	P1_shopper
+14-5	up	14-3_prt	rang	RP	O
+14-6	and	O	O	O	O
+14-7	I	14-8_nsubj	paid	PRP	P1_shopper
+14-8	paid	14-3_conj_and	rang	VBD	O
+14-9	with	O	O	O	O
+14-10	my	O	O	PRP$	P1_shopper
+14-11	debit	O	O	JJ	O
+14-12	card	14-8_prep_with	paid	NN	P1_payment_means
+14-13	.	O	O	O	O
+
+#id=15
+#text=I put my groceries in a paper bag . 
+15-1	I	15-2_nsubj	put	PRP	P1_shopper
+15-2	put	O	O	VBD	O
+15-3	my	O	O	PRP$	P1_shopper
+15-4	groceries	15-2_dobj	put	NNS	P2_groceries
+15-5	in	O	O	O	O
+15-6	a	O	O	DT	O
+15-7	paper	O	O	NN	O
+15-8	bag	15-2_prep_in	put	NN	P1_shopping_bags
+15-9	.	O	O	O	O
+
+#id=16
+#text=Then I left the store and drove home . 
+16-1	Then	16-3_advmod	left	RB	O
+16-2	I	16-3_nsubj	left	PRP	P1_shopper
+16-3	left	O	O	VBD	O
+16-4	the	O	O	DT	O
+16-5	store	16-3_dobj	left	NN	P1_grocery_shop
+16-6	and	O	O	O	O
+16-7	drove	16-3_conj_and	left	VBD	O
+16-8	home	16-7_dobj	drove	NN	P1_NPart_home
+16-9	.	O	O	O	O

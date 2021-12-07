@@ -1,0 +1,184 @@
+#id=1
+#text=Getting a hair cut is not always fun but it has to be done regularly if you want to control your hair and not look shaggy and mangy . 
+1-1	Getting	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	hair	O	O	NN	O
+1-4	cut	1-1_dobj	Getting	NN	O
+1-5	is	O	O	VBZ	O
+1-6	not	O	O	RB	O
+1-7	always	O	O	RB	O
+1-8	fun	O	O	NN	O
+1-9	but	O	O	O	O
+1-10	it	1-11_nsubj	has	PRP	P1_haircut
+1-11	has	O	O	VBZ	O
+1-12	to	1-14_aux	done	TO	O
+1-13	be	1-14_auxpass	done	VB	O
+1-14	done	1-11_xcomp	has	VBN	O
+1-15	regularly	1-14_advmod	done	RB	O
+1-16	if	1-18_mark	want	IN	O
+1-17	you	1-18_nsubj	want	PRP	P1_customer
+1-18	want	1-14_advcl	done	VBP	O
+1-19	to	1-20_aux	control	TO	O
+1-20	control	1-18_xcomp	want	VB	O
+1-21	your	O	O	PRP$	P1_customer
+1-22	hair	1-20_dobj	control	NN	P1_hair
+1-23	and	O	O	O	O
+1-24	not	1-25_neg	look	RB	O
+1-25	look	1-20_conj_and	control	VB	O
+1-26	shaggy	1-25_acomp	look	JJ	O
+1-27	and	O	O	O	O
+1-28	mangy	O	O	JJ	O
+1-29	.	O	O	O	O
+
+#id=2
+#text=First pick a good barber or stylist that you think does a good job and stick with them . 
+2-1	First	2-2_dep	pick	JJ	O
+2-2	pick	O	O	VB	O
+2-3	a	O	O	DT	O
+2-4	good	O	O	JJ	O
+2-5	barber	2-2_dobj	pick	NN	P1_hairdresser
+2-6	or	O	O	O	O
+2-7	stylist	O	O	NN	P2_hairdresser
+2-8	that	2-10_mark	think	IN	O
+2-9	you	2-10_nsubj	think	PRP	P1_customer
+2-10	think	2-2_ccomp	pick	VBP	O
+2-11	does	2-10_ccomp	think	VBZ	O
+2-12	a	O	O	DT	O
+2-13	good	O	O	JJ	O
+2-14	job	2-11_dobj	does	NN	O
+2-15	and	O	O	O	O
+2-16	stick	2-2_conj_and	pick	VB	O
+2-17	with	O	O	O	O
+2-18	them	2-16_prep_with	stick	PRP	P3_hairdresser
+2-19	.	O	O	O	O
+
+#id=3
+#text=In time they will get to know your hair and needs and will consistantly cut your hair to your liking . 
+3-1	In	O	O	O	O
+3-2	time	3-5_prep_in	get	NN	O
+3-3	they	3-5_nsubj	get	PRP	P3_hairdresser
+3-4	will	3-5_aux	get	MD	O
+3-5	get	O	O	VB	O
+3-6	to	3-7_aux	know	TO	O
+3-7	know	3-5_xcomp	get	VB	O
+3-8	your	O	O	PRP$	P1_customer
+3-9	hair	3-7_dobj	know	NN	P1_hair
+3-10	and	O	O	O	O
+3-11	needs	3-5_conj_and	get	VBZ	P1_other
+3-12	and	O	O	O	O
+3-13	will	3-15_aux	cut	MD	O
+3-14	consistantly	3-15_advmod	cut	RB	O
+3-15	cut	3-11_conj_and	needs	VB	O
+3-16	your	O	O	PRP$	P1_customer
+3-17	hair	3-15_dobj	cut	NN	P1_hair
+3-18	to	O	O	O	O
+3-19	your	O	O	PRP$	P1_customer
+3-20	liking	3-15_prep_to	cut	NN	O
+3-21	.	O	O	O	O
+
+#id=4
+#text=Do n't be afraid to look at pictures of models or whatever to see styles you like and then ask the stylist to try to cut your hair like that . 
+4-1	Do	O	O	VBP	O
+4-2	n't	O	O	RB	O
+4-3	be	O	O	VB	O
+4-4	afraid	4-17_advcl	like	JJ	O
+4-5	to	4-6_aux	look	TO	O
+4-6	look	O	O	VB	O
+4-7	at	O	O	O	O
+4-8	pictures	4-6_prep_at	look	NNS	P2_other
+4-9	of	O	O	O	O
+4-10	models	O	O	NNS	P3_other
+4-11	or	O	O	O	O
+4-12	whatever	4-14_nsubj	see	WDT	O
+4-13	to	4-14_aux	see	TO	O
+4-14	see	O	O	VB	O
+4-15	styles	4-14_dobj	see	NNS	P1_hair_styling/treatment
+4-16	you	4-17_nsubj	like	PRP	P1_customer
+4-17	like	O	O	VBP	O
+4-18	and	O	O	O	O
+4-19	then	4-20_advmod	ask	RB	O
+4-20	ask	4-17_conj_and	like	VBP	O
+4-21	the	O	O	DT	O
+4-22	stylist	4-20_dobj	ask	NN	P2_hairdresser
+4-23	to	4-24_aux	try	TO	O
+4-24	try	O	O	VB	O
+4-25	to	4-26_aux	cut	TO	O
+4-26	cut	4-24_xcomp	try	VB	O
+4-27	your	O	O	PRP$	P1_customer
+4-28	hair	4-26_dobj	cut	NN	P1_hair
+4-29	like	O	O	O	O
+4-30	that	4-26_prep_like	cut	DT	O
+4-31	.	O	O	O	O
+
+#id=5
+#text=And always sit still so as they cut your hair they dont slip and mess up a cut . 
+5-1	And	5-3_cc	sit	CC	O
+5-2	always	5-3_advmod	sit	RB	O
+5-3	sit	O	O	VBP	O
+5-4	still	5-3_advmod	sit	RB	O
+5-5	so	5-8_advmod	cut	RB	O
+5-6	as	5-8_mark	cut	IN	O
+5-7	they	5-8_nsubj	cut	PRP	P3_hairdresser
+5-8	cut	5-3_dep	sit	VBD	O
+5-9	your	O	O	PRP$	P1_customer
+5-10	hair	5-8_dobj	cut	NN	P1_hair
+5-11	they	5-12_nsubj	dont	PRP	P3_hairdresser
+5-12	dont	5-8_dep	cut	VBP	O
+5-13	slip	5-12_dobj	dont	NN	O
+5-14	and	O	O	O	O
+5-15	mess	O	O	NN	O
+5-16	up	5-12_advmod	dont	RB	O
+5-17	a	O	O	DT	O
+5-18	cut	O	O	NN	P2_haircut
+5-19	.	O	O	O	O
+
+#id=6
+#text=Then let them show your full cut from front to back with a mirror you hold up and look into the other mirror . 
+6-1	Then	6-2_advmod	let	RB	O
+6-2	let	O	O	VB	O
+6-3	them	6-4_nsubj	show	PRP	P3_hairdresser
+6-4	show	6-2_ccomp	let	VB	O
+6-5	your	O	O	PRP$	P1_customer
+6-6	full	O	O	JJ	O
+6-7	cut	6-4_dobj	show	NN	P2_haircut
+6-8	from	O	O	O	O
+6-9	front	6-4_prep_from	show	NN	O
+6-10	to	6-11_aux	back	TO	O
+6-11	back	6-4_vmod	show	VB	O
+6-12	with	O	O	O	O
+6-13	a	O	O	DT	O
+6-14	mirror	6-11_prep_with	back	NN	P1_mirror
+6-15	you	6-16_nsubj	hold	PRP	P1_customer
+6-16	hold	O	O	VBP	O
+6-17	up	6-16_prt	hold	RP	O
+6-18	and	O	O	O	O
+6-19	look	6-4_conj_and	show	VB	O
+6-20	into	O	O	O	O
+6-21	the	O	O	DT	O
+6-22	other	O	O	JJ	O
+6-23	mirror	6-19_prep_into	look	NN	P2_mirror
+6-24	.	O	O	O	O
+
+#id=7
+#text=After they take your hair cover thing then give them their money and a few extra dollars for a tip . 
+7-1	After	7-3_mark	take	IN	O
+7-2	they	7-3_nsubj	take	PRP	P4_hairdresser
+7-3	take	7-6_csubj	cover	VBP	O
+7-4	your	O	O	PRP$	P1_customer
+7-5	hair	7-3_dobj	take	NN	P2_hair
+7-6	cover	O	O	VB	O
+7-7	thing	7-6_dobj	cover	NN	P1_cape
+7-8	then	7-6_advmod	cover	RB	O
+7-9	give	7-6_dep	cover	VB	O
+7-10	them	7-9_iobj	give	PRP	P4_hairdresser
+7-11	their	O	O	PRP$	P4_hairdresser
+7-12	money	7-9_dobj	give	NN	P1_bill
+7-13	and	O	O	O	O
+7-14	a	O	O	DT	O
+7-15	few	O	O	JJ	O
+7-16	extra	O	O	JJ	O
+7-17	dollars	O	O	NNS	P1_payment_means
+7-18	for	O	O	O	O
+7-19	a	O	O	DT	O
+7-20	tip	O	O	NN	P1_tip
+7-21	.	O	O	O	O

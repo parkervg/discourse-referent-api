@@ -1,0 +1,353 @@
+#id=1
+#text=When I go grocery shopping I almost always take a list . 
+1-1	When	1-3_advmod	go	WRB	O
+1-2	I	1-3_nsubj	go	PRP	P1_shopper
+1-3	go	1-9_advcl	take	VBP	O
+1-4	grocery	O	O	NN	P1_groceries
+1-5	shopping	1-3_dobj	go	NN	O
+1-6	I	1-9_nsubj	take	PRP	P1_shopper
+1-7	almost	O	O	RB	O
+1-8	always	1-9_advmod	take	RB	O
+1-9	take	O	O	VBP	O
+1-10	a	O	O	DT	O
+1-11	list	1-9_dobj	take	NN	P1_grocery_list
+1-12	.	O	O	O	O
+
+#id=2
+#text=So for me , the first step to shopping is list making . 
+2-1	So	O	O	IN	O
+2-2	for	O	O	O	O
+2-3	me	O	O	PRP	P1_shopper
+2-4	,	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	first	O	O	JJ	O
+2-7	step	O	O	NN	P1_NPart_step
+2-8	to	O	O	O	O
+2-9	shopping	O	O	NN	O
+2-10	is	O	O	VBZ	O
+2-11	list	O	O	NN	P1_grocery_list
+2-12	making	O	O	VBG	O
+2-13	.	O	O	O	O
+
+#id=3
+#text=I list what I plan to cook this week , and also cleaning products and similar things . 
+3-1	I	3-2_nsubj	list	PRP	P1_shopper
+3-2	list	O	O	VBP	O
+3-3	what	3-5_dobj	plan	WP	O
+3-4	I	3-5_nsubj	plan	PRP	P1_shopper
+3-5	plan	3-2_ccomp	list	VBP	O
+3-6	to	3-7_aux	cook	TO	O
+3-7	cook	3-5_xcomp	plan	VB	O
+3-8	this	O	O	DT	O
+3-9	week	3-7_dobj	cook	NN	P1_NPart_week
+3-10	,	O	O	O	O
+3-11	and	O	O	O	O
+3-12	also	O	O	RB	O
+3-13	cleaning	O	O	NN	O
+3-14	products	O	O	NNS	P2_groceries
+3-15	and	O	O	O	O
+3-16	similar	O	O	JJ	O
+3-17	things	O	O	NNS	P1_groceries
+3-18	.	O	O	O	O
+
+#id=4
+#text=My favorite place to shop is a huge membership store , for its good prices . 
+4-1	My	O	O	PRP$	P1_shopper
+4-2	favorite	O	O	JJ	O
+4-3	place	O	O	NN	P1_grocery_shop
+4-4	to	O	O	O	O
+4-5	shop	O	O	NN	O
+4-6	is	O	O	VBZ	O
+4-7	a	O	O	DT	O
+4-8	huge	O	O	JJ	O
+4-9	membership	O	O	NN	O
+4-10	store	O	O	NN	P1_grocery_shop
+4-11	,	O	O	O	O
+4-12	for	O	O	O	O
+4-13	its	O	O	PRP$	P1_grocery_shop
+4-14	good	O	O	JJ	O
+4-15	prices	O	O	NNS	P1_price
+4-16	.	O	O	O	O
+
+#id=5
+#text=I pick up a shopping cart just outside the store . 
+5-1	I	5-2_nsubj	pick	PRP	P1_shopper
+5-2	pick	O	O	VBP	O
+5-3	up	5-2_prt	pick	RP	O
+5-4	a	O	O	DT	O
+5-5	shopping	O	O	NN	O
+5-6	cart	5-2_dobj	pick	NN	P1_shopping_cart/basket
+5-7	just	O	O	RB	O
+5-8	outside	O	O	O	O
+5-9	the	O	O	DT	O
+5-10	store	O	O	NN	P1_grocery_shop
+5-11	.	O	O	O	O
+
+#id=6
+#text=Then I enter , sometimes showing my membership card to the person at the door and sometimes getting in without showing it . 
+6-1	Then	6-3_advmod	enter	RB	O
+6-2	I	6-3_nsubj	enter	PRP	P1_shopper
+6-3	enter	O	O	VBP	O
+6-4	,	O	O	O	O
+6-5	sometimes	6-3_advmod	enter	RB	O
+6-6	showing	6-3_ccomp	enter	VBG	O
+6-7	my	O	O	PRP$	P1_shopper
+6-8	membership	O	O	NN	O
+6-9	card	6-6_dobj	showing	NN	P1_NPart_card
+6-10	to	O	O	O	O
+6-11	the	O	O	DT	O
+6-12	person	6-6_prep_to	showing	NN	P1_grocery_staff
+6-13	at	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	door	O	O	NN	P1_NPart_door
+6-16	and	O	O	O	O
+6-17	sometimes	6-18_advmod	getting	RB	O
+6-18	getting	6-6_conj_and	showing	VBG	O
+6-19	in	6-18_prt	getting	RP	O
+6-20	without	O	O	O	O
+6-21	showing	6-18_prepc_without	getting	VBG	O
+6-22	it	6-21_dobj	showing	PRP	P1_NPart_it
+6-23	.	O	O	O	O
+
+#id=7
+#text=I cruise past the impulse items just inside the door , and through the electronics and organic foods sections that come next . 
+7-1	I	7-2_nsubj	cruise	PRP	P1_shopper
+7-2	cruise	O	O	VBP	O
+7-3	past	O	O	JJ	O
+7-4	the	O	O	DT	O
+7-5	impulse	O	O	NN	O
+7-6	items	O	O	NNS	P3_groceries
+7-7	just	O	O	RB	O
+7-8	inside	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	door	O	O	NN	P2_NPart_door
+7-11	,	O	O	O	O
+7-12	and	O	O	O	O
+7-13	through	O	O	IN	O
+7-14	the	O	O	DT	O
+7-15	electronics	O	O	NN	P1_section
+7-16	and	O	O	O	O
+7-17	organic	O	O	JJ	O
+7-18	foods	O	O	NNS	O
+7-19	sections	7-2_dobj	cruise	NNS	P1_section
+7-20	that	7-21_nsubj	come	WDT	P1_section
+7-21	come	O	O	VBP	O
+7-22	next	7-21_advmod	come	JJ	O
+7-23	.	O	O	O	O
+
+#id=8
+#text=Next come many aisles with items like light bulbs and pillows . 
+8-1	Next	8-2_nsubj	come	NNP	O
+8-2	come	O	O	VBP	O
+8-3	many	O	O	JJ	O
+8-4	aisles	8-2_dobj	come	NNS	P2_section
+8-5	with	O	O	O	O
+8-6	items	8-2_prep_with	come	NNS	P4_groceries
+8-7	like	O	O	O	O
+8-8	light	O	O	JJ	O
+8-9	bulbs	O	O	NNS	P4_groceries
+8-10	and	O	O	O	O
+8-11	pillows	O	O	NNS	P4_groceries
+8-12	.	O	O	O	O
+
+#id=9
+#text=Finally I get to the food . 
+9-1	Finally	9-3_advmod	get	RB	O
+9-2	I	9-3_nsubj	get	PRP	P1_shopper
+9-3	get	O	O	VBP	O
+9-4	to	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	food	9-3_prep_to	get	NN	P5_groceries
+9-7	.	O	O	O	O
+
+#id=10
+#text=There are usually people here offering samples of new food items . 
+10-1	There	10-2_expl	are	EX	O
+10-2	are	O	O	VBP	O
+10-3	usually	10-2_advmod	are	RB	O
+10-4	people	10-2_nsubj	are	NNS	P2_grocery_staff
+10-5	here	10-6_advmod	offering	RB	O
+10-6	offering	O	O	VBG	O
+10-7	samples	10-6_dobj	offering	NNS	P1_NPart_samples
+10-8	of	O	O	O	O
+10-9	new	O	O	JJ	O
+10-10	food	O	O	NN	O
+10-11	items	O	O	NNS	P6_groceries
+10-12	.	O	O	O	O
+
+#id=11
+#text=I often take some . 
+11-1	I	11-3_nsubj	take	PRP	P1_shopper
+11-2	often	11-3_advmod	take	RB	O
+11-3	take	O	O	VBP	O
+11-4	some	11-3_dobj	take	DT	P1_NPart_some
+11-5	.	O	O	O	O
+
+#id=12
+#text=I buy large packages of chicken or fish that can be frozen . 
+12-1	I	12-2_nsubj	buy	PRP	P1_shopper
+12-2	buy	O	O	VBP	O
+12-3	large	O	O	JJ	O
+12-4	packages	12-2_dobj	buy	NNS	O
+12-5	of	O	O	O	O
+12-6	chicken	O	O	NN	P7_groceries
+12-7	or	O	O	O	O
+12-8	fish	O	O	NN	P8_groceries
+12-9	that	O	O	WDT	O
+12-10	can	O	O	MD	O
+12-11	be	O	O	VB	O
+12-12	frozen	O	O	JJ	O
+12-13	.	O	O	O	O
+
+#id=13
+#text=Sometimes I buy fresh bread . 
+13-1	Sometimes	13-3_advmod	buy	RB	O
+13-2	I	13-3_nsubj	buy	PRP	P1_shopper
+13-3	buy	O	O	VBP	O
+13-4	fresh	O	O	JJ	O
+13-5	bread	13-3_dobj	buy	NN	P9_groceries
+13-6	.	O	O	O	O
+
+#id=14
+#text=I continue to the fresh fruit and vegetable section , where I try to restrain myself to what I can use . 
+14-1	I	14-2_nsubj	continue	PRP	P1_shopper
+14-2	continue	O	O	VBP	O
+14-3	to	O	O	O	O
+14-4	the	O	O	DT	O
+14-5	fresh	O	O	JJ	O
+14-6	fruit	14-2_prep_to	continue	NN	O
+14-7	and	O	O	O	O
+14-8	vegetable	O	O	NN	O
+14-9	section	O	O	NN	P3_section
+14-10	,	O	O	O	O
+14-11	where	14-13_advmod	try	WRB	O
+14-12	I	14-13_nsubj	try	PRP	P1_shopper
+14-13	try	O	O	VBP	O
+14-14	to	14-15_aux	restrain	TO	O
+14-15	restrain	14-13_xcomp	try	VB	O
+14-16	myself	14-15_dobj	restrain	PRP	P1_shopper
+14-17	to	O	O	O	O
+14-18	what	14-21_dobj	use	WP	P10_groceries
+14-19	I	14-21_nsubj	use	PRP	P1_shopper
+14-20	can	14-21_aux	use	MD	O
+14-21	use	14-15_prepc_to	restrain	VB	O
+14-22	.	O	O	O	O
+
+#id=15
+#text=Next come the chiller and frozen foods , but I go past hem to pet food and paper goods . 
+15-1	Next	15-2_nsubj	come	NNP	O
+15-2	come	O	O	VBP	O
+15-3	the	O	O	DT	O
+15-4	chiller	15-2_dobj	come	NN	P4_section
+15-5	and	O	O	O	O
+15-6	frozen	O	O	VBN	O
+15-7	foods	O	O	NNS	P11_groceries
+15-8	,	O	O	O	O
+15-9	but	O	O	O	O
+15-10	I	15-11_nsubj	go	PRP	P1_shopper
+15-11	go	15-2_conj_but	come	VBP	O
+15-12	past	O	O	JJ	O
+15-13	hem	15-11_dobj	go	NN	P4_section
+15-14	to	O	O	O	O
+15-15	pet	O	O	JJ	O
+15-16	food	15-11_prep_to	go	NN	P12_groceries
+15-17	and	O	O	O	O
+15-18	paper	O	O	NN	O
+15-19	goods	O	O	NNS	P13_groceries
+15-20	.	O	O	O	O
+
+#id=16
+#text=I get frozen food on the way back , and then a few canned food and dry goods . 
+16-1	I	16-2_nsubj	get	PRP	P1_shopper
+16-2	get	O	O	VBP	O
+16-3	frozen	O	O	JJ	O
+16-4	food	16-2_dobj	get	NN	P11_groceries
+16-5	on	O	O	O	O
+16-6	the	O	O	DT	O
+16-7	way	O	O	NN	P1_NPart_way
+16-8	back	O	O	RB	O
+16-9	,	O	O	O	O
+16-10	and	O	O	O	O
+16-11	then	O	O	RB	O
+16-12	a	O	O	DT	O
+16-13	few	O	O	JJ	O
+16-14	canned	O	O	VBN	O
+16-15	food	O	O	NN	P14_groceries
+16-16	and	O	O	O	O
+16-17	dry	O	O	JJ	O
+16-18	goods	O	O	NNS	P15_groceries
+16-19	.	O	O	O	O
+
+#id=17
+#text=The last areas are pharmacy , which I mostly avoid , and the book section , where I 'm apt to linger . 
+17-1	The	O	O	DT	O
+17-2	last	O	O	JJ	O
+17-3	areas	O	O	NNS	P5_section
+17-4	are	O	O	VBP	O
+17-5	pharmacy	O	O	NN	P5_section
+17-6	,	O	O	O	O
+17-7	which	17-10_dobj	avoid	WDT	P5_section
+17-8	I	17-10_nsubj	avoid	PRP	P1_shopper
+17-9	mostly	17-10_advmod	avoid	RB	O
+17-10	avoid	O	O	VB	O
+17-11	,	O	O	O	O
+17-12	and	O	O	O	O
+17-13	the	O	O	DT	O
+17-14	book	O	O	NN	O
+17-15	section	O	O	NN	P5_section
+17-16	,	O	O	O	O
+17-17	where	O	O	WRB	O
+17-18	I	O	O	PRP	P1_shopper
+17-19	'm	O	O	VBP	O
+17-20	apt	O	O	JJ	O
+17-21	to	17-22_aux	linger	TO	O
+17-22	linger	O	O	VB	O
+17-23	.	O	O	O	O
+
+#id=18
+#text=Then I wait in line for a while , pay , and leave the store . 
+18-1	Then	18-10_advmod	pay	RB	O
+18-2	I	18-3_nsubj	wait	PRP	P1_shopper
+18-3	wait	18-10_parataxis	pay	VBP	O
+18-4	in	O	O	O	O
+18-5	line	18-3_prep_in	wait	NN	P1_line
+18-6	for	O	O	O	O
+18-7	a	O	O	DT	O
+18-8	while	O	O	NN	O
+18-9	,	O	O	O	O
+18-10	pay	O	O	VB	O
+18-11	,	O	O	O	O
+18-12	and	O	O	O	O
+18-13	leave	18-10_conj_and	pay	VB	O
+18-14	the	O	O	DT	O
+18-15	store	18-13_dobj	leave	NN	P1_grocery_shop
+18-16	.	O	O	O	O
+
+#id=19
+#text=As I leave , someone checks my cart , to make sure what 's on my receipt matches the huge load I am carting home . 
+19-1	As	19-3_mark	leave	IN	O
+19-2	I	19-3_nsubj	leave	PRP	P1_shopper
+19-3	leave	19-6_advcl	checks	VBP	O
+19-4	,	O	O	O	O
+19-5	someone	19-6_nsubj	checks	NN	P3_grocery_staff
+19-6	checks	O	O	VBZ	O
+19-7	my	O	O	PRP$	P1_shopper
+19-8	cart	19-6_dobj	checks	NN	P1_shopping_cart/basket
+19-9	,	O	O	O	O
+19-10	to	19-11_aux	make	TO	O
+19-11	make	19-6_vmod	checks	VB	O
+19-12	sure	19-11_acomp	make	JJ	O
+19-13	what	19-14_nsubj	's	WP	O
+19-14	's	O	O	VBZ	O
+19-15	on	O	O	O	O
+19-16	my	O	O	PRP$	P1_shopper
+19-17	receipt	19-14_prep_on	's	NN	P1_receipt
+19-18	matches	O	O	VBZ	O
+19-19	the	O	O	DT	O
+19-20	huge	O	O	JJ	O
+19-21	load	19-18_dobj	matches	NN	P16_groceries
+19-22	I	19-24_nsubj	carting	PRP	P1_shopper
+19-23	am	19-24_aux	carting	VBP	O
+19-24	carting	O	O	VBG	O
+19-25	home	19-24_dobj	carting	NN	P1_NPart_home
+19-26	.	O	O	O	O

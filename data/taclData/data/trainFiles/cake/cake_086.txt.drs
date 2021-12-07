@@ -1,0 +1,428 @@
+#id=1
+#text=I decided to bake a cake for my daughter 's birthday . 
+1-1	I	1-2_nsubj	decided	PRP	P1_cook
+1-2	decided	O	O	VBD	O
+1-3	to	1-4_aux	bake	TO	O
+1-4	bake	1-2_xcomp	decided	VB	O
+1-5	a	O	O	DT	O
+1-6	cake	1-4_dobj	bake	NN	P1_cake
+1-7	for	O	O	O	O
+1-8	my	O	O	PRP$	P1_cook
+1-9	daughter	O	O	NN	P1_beneficiary
+1-10	's	O	O	O	O
+1-11	birthday	O	O	NN	P1_NPart_birthday
+1-12	.	O	O	O	O
+
+#id=2
+#text=I had gone to the grocery store to buy one , but nothing looked very good and they were really expensive for what I was getting . 
+2-1	I	2-3_nsubj	gone	PRP	P1_cook
+2-2	had	2-3_aux	gone	VBD	O
+2-3	gone	O	O	VBN	O
+2-4	to	O	O	O	O
+2-5	the	O	O	DT	O
+2-6	grocery	O	O	NN	O
+2-7	store	2-3_prep_to	gone	NN	P1_store
+2-8	to	2-9_aux	buy	TO	O
+2-9	buy	2-3_xcomp	gone	VB	O
+2-10	one	2-9_dobj	buy	CD	P1_cake
+2-11	,	O	O	O	O
+2-12	but	O	O	O	O
+2-13	nothing	2-14_nsubj	looked	NN	O
+2-14	looked	2-3_conj_but	gone	VBD	O
+2-15	very	O	O	RB	O
+2-16	good	2-14_acomp	looked	JJ	O
+2-17	and	O	O	O	O
+2-18	they	O	O	PRP	P1_cake
+2-19	were	O	O	VBD	O
+2-20	really	O	O	RB	O
+2-21	expensive	2-14_conj_and	looked	JJ	O
+2-22	for	O	O	O	O
+2-23	what	2-26_dobj	getting	WP	O
+2-24	I	2-26_nsubj	getting	PRP	P1_cook
+2-25	was	2-26_aux	getting	VBD	O
+2-26	getting	O	O	VBG	O
+2-27	.	O	O	O	O
+
+#id=3
+#text=I figured that I could make a better cake myself . 
+3-1	I	3-2_nsubj	figured	PRP	P1_cook
+3-2	figured	O	O	VBD	O
+3-3	that	3-6_mark	make	IN	O
+3-4	I	3-6_nsubj	make	PRP	P1_cook
+3-5	could	3-6_aux	make	MD	O
+3-6	make	3-2_ccomp	figured	VB	O
+3-7	a	O	O	DT	O
+3-8	better	O	O	JJR	O
+3-9	cake	3-6_iobj	make	NN	P1_cake
+3-10	myself	3-6_dobj	make	PRP	P1_cook
+3-11	.	O	O	O	O
+
+#id=4
+#text=I figured that I have seen cooking shows and said , '' `` How hard could it be ? '' '' 
+4-1	I	4-2_nsubj	figured	PRP	P1_cook
+4-2	figured	O	O	VBD	O
+4-3	that	4-6_mark	seen	IN	O
+4-4	I	4-6_nsubj	seen	PRP	P1_cook
+4-5	have	4-6_aux	seen	VBP	O
+4-6	seen	4-2_ccomp	figured	VBN	O
+4-7	cooking	O	O	JJ	O
+4-8	shows	4-6_dobj	seen	NNS	P1_NPart_shows
+4-9	and	O	O	O	O
+4-10	said	4-2_conj_and	figured	VBD	O
+4-11	,	O	O	O	O
+4-12	''	O	O	O	O
+4-13	``	O	O	O	O
+4-14	How	O	O	WRB	O
+4-15	hard	O	O	JJ	O
+4-16	could	4-18_advcl	be	MD	O
+4-17	it	4-18_nsubj	be	PRP	O
+4-18	be	4-2_ccomp	figured	VBP	O
+4-19	?	O	O	O	O
+4-20	''	O	O	O	O
+4-21	''	O	O	O	O
+
+#id=5
+#text=I bought a Betty Crocker Triple Chocolate Fudge cake mix and I thought it looked pretty good . 
+5-1	I	5-2_nsubj	bought	PRP	P1_cook
+5-2	bought	O	O	VBD	O
+5-3	a	O	O	DT	O
+5-4	Betty	O	O	NNP	P1_NPart_betty
+5-5	Crocker	O	O	NNP	P1_NPart_crocker
+5-6	Triple	O	O	NNP	O
+5-7	Chocolate	O	O	NNP	P1_NPart_chocolate
+5-8	Fudge	O	O	NNP	P1_NPart_fudge
+5-9	cake	O	O	NN	O
+5-10	mix	5-2_dobj	bought	NN	P1_ingredients
+5-11	and	O	O	O	O
+5-12	I	5-13_nsubj	thought	PRP	P2_cook
+5-13	thought	5-2_conj_and	bought	VBD	O
+5-14	it	5-15_nsubj	looked	PRP	P1_ingredients
+5-15	looked	5-13_ccomp	thought	VBD	O
+5-16	pretty	O	O	RB	O
+5-17	good	5-15_acomp	looked	JJ	O
+5-18	.	O	O	O	O
+
+#id=6
+#text=I went to the frosting and found some Oreo frosting mix and thought it would be perfect because my daughter loves Oreo cookies . 
+6-1	I	6-2_nsubj	went	PRP	P1_cook
+6-2	went	O	O	VBD	O
+6-3	to	O	O	O	O
+6-4	the	O	O	DT	O
+6-5	frosting	6-2_prep_to	went	NN	P2_ingredients
+6-6	and	O	O	O	O
+6-7	found	6-2_conj_and	went	VBD	O
+6-8	some	O	O	DT	O
+6-9	Oreo	O	O	NNP	P1_NPart_oreo
+6-10	frosting	O	O	NN	O
+6-11	mix	6-7_dobj	found	NN	P1_decoration
+6-12	and	O	O	O	O
+6-13	thought	6-7_conj_and	found	VBD	O
+6-14	it	O	O	PRP	P3_ingredients
+6-15	would	O	O	MD	O
+6-16	be	O	O	VB	O
+6-17	perfect	6-13_ccomp	thought	JJ	O
+6-18	because	6-21_mark	loves	IN	O
+6-19	my	O	O	PRP$	P3_cook
+6-20	daughter	6-21_nsubj	loves	NN	P1_beneficiary
+6-21	loves	O	O	VBZ	O
+6-22	Oreo	O	O	NNP	O
+6-23	cookies	6-21_dobj	loves	NNS	P2_decoration
+6-24	.	O	O	O	O
+
+#id=7
+#text=Then , I grabbed a box of Oreo cookies , some eggs , milk , and some oil . 
+7-1	Then	7-4_advmod	grabbed	RB	O
+7-2	,	O	O	O	O
+7-3	I	7-4_nsubj	grabbed	PRP	P1_cook
+7-4	grabbed	O	O	VBD	O
+7-5	a	O	O	DT	O
+7-6	box	7-4_dobj	grabbed	NN	O
+7-7	of	O	O	O	O
+7-8	Oreo	O	O	NNP	O
+7-9	cookies	O	O	NNS	O
+7-10	,	O	O	O	O
+7-11	some	O	O	DT	O
+7-12	eggs	O	O	NNS	O
+7-13	,	O	O	O	O
+7-14	milk	O	O	NN	O
+7-15	,	O	O	O	O
+7-16	and	O	O	O	O
+7-17	some	O	O	DT	O
+7-18	oil	O	O	NN	P4_ingredients
+7-19	.	O	O	O	O
+
+#id=8
+#text=I did not know if I had all of that at home , but I figured they would not go to waste . 
+8-1	I	8-4_nsubj	know	PRP	P1_cook
+8-2	did	8-4_aux	know	VBD	O
+8-3	not	8-4_neg	know	RB	O
+8-4	know	O	O	VB	O
+8-5	if	8-7_mark	had	IN	O
+8-6	I	8-7_nsubj	had	PRP	P1_cook
+8-7	had	8-4_advcl	know	VBD	O
+8-8	all	8-7_dobj	had	DT	O
+8-9	of	O	O	O	O
+8-10	that	O	O	DT	P5_ingredients
+8-11	at	O	O	O	O
+8-12	home	O	O	NN	P1_kitchen/location
+8-13	,	O	O	O	O
+8-14	but	O	O	O	O
+8-15	I	8-16_nsubj	figured	PRP	P1_cook
+8-16	figured	8-4_conj_but	know	VBD	O
+8-17	they	8-20_nsubj	go	PRP	P5_ingredients
+8-18	would	8-20_aux	go	MD	O
+8-19	not	8-20_neg	go	RB	O
+8-20	go	8-16_ccomp	figured	VB	O
+8-21	to	8-22_aux	waste	TO	O
+8-22	waste	8-20_xcomp	go	VB	O
+8-23	.	O	O	O	O
+
+#id=9
+#text=I came home and mixed everything and put it in the oven . 
+9-1	I	9-2_nsubj	came	PRP	P1_cook
+9-2	came	O	O	VBD	O
+9-3	home	O	O	NN	P2_kitchen/location
+9-4	and	O	O	O	O
+9-5	mixed	O	O	JJ	O
+9-6	everything	9-2_dobj	came	NN	P6_ingredients
+9-7	and	O	O	O	O
+9-8	put	9-2_conj_and	came	VBD	O
+9-9	it	9-8_dobj	put	PRP	P1_cake
+9-10	in	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	oven	9-8_prep_in	put	NN	P1_oven
+9-13	.	O	O	O	O
+
+#id=10
+#text=I tested the cake before taking it out of the oven with a toothpick . 
+10-1	I	10-2_nsubj	tested	PRP	P1_cook
+10-2	tested	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	cake	10-2_dobj	tested	NN	P1_cake
+10-5	before	O	O	O	O
+10-6	taking	10-2_prepc_before	tested	VBG	O
+10-7	it	10-6_dobj	taking	PRP	P1_cake
+10-8	out	O	O	O	O
+10-9	of	O	O	O	O
+10-10	the	O	O	DT	O
+10-11	oven	10-6_prep_out_of	taking	NN	P1_oven
+10-12	with	O	O	O	O
+10-13	a	O	O	DT	O
+10-14	toothpick	O	O	NN	P1_utensil
+10-15	.	O	O	O	O
+
+#id=11
+#text=Coming out clean , I decided the cake was done . 
+11-1	Coming	11-6_vmod	decided	VBG	O
+11-2	out	O	O	O	O
+11-3	clean	11-1_prep_out	Coming	JJ	O
+11-4	,	O	O	O	O
+11-5	I	11-6_nsubj	decided	PRP	P1_cook
+11-6	decided	O	O	VBD	O
+11-7	the	O	O	DT	O
+11-8	cake	11-10_nsubjpass	done	NN	P1_cake
+11-9	was	11-10_auxpass	done	VBD	O
+11-10	done	11-6_ccomp	decided	VBN	O
+11-11	.	O	O	O	O
+
+#id=12
+#text=I had pour the cake mix into two baking pans because my plan was to make a two layered cake . 
+12-1	I	12-2_nsubj	had	PRP	P1_cook
+12-2	had	O	O	VBD	O
+12-3	pour	12-2_ccomp	had	VB	O
+12-4	the	O	O	DT	O
+12-5	cake	O	O	NN	O
+12-6	mix	12-3_dobj	pour	NN	P1_ingredients
+12-7	into	O	O	O	O
+12-8	two	O	O	CD	O
+12-9	baking	O	O	JJ	O
+12-10	pans	12-3_prep_into	pour	NNS	P1_cake_tin
+12-11	because	12-14_mark	was	IN	O
+12-12	my	O	O	PRP$	P1_cook
+12-13	plan	12-14_nsubj	was	NN	P1_NPart_plan
+12-14	was	12-2_advcl	had	VBD	O
+12-15	to	12-16_aux	make	TO	O
+12-16	make	12-14_xcomp	was	VB	O
+12-17	a	O	O	DT	O
+12-18	two	O	O	CD	O
+12-19	layered	O	O	NN	O
+12-20	cake	12-16_dobj	make	NN	P1_cake
+12-21	.	O	O	O	O
+
+#id=13
+#text=I saw on a cooking show that you are supposed to cut the top of one of the cakes so that the top was flat . 
+13-1	I	13-2_nsubj	saw	PRP	P1_cook
+13-2	saw	O	O	VBD	O
+13-3	on	O	O	O	O
+13-4	a	O	O	DT	O
+13-5	cooking	O	O	JJ	O
+13-6	show	13-2_prep_on	saw	NN	P1_NPart_show
+13-7	that	13-10_mark	supposed	IN	O
+13-8	you	13-10_nsubjpass	supposed	PRP	P1_cook
+13-9	are	13-10_auxpass	supposed	VBP	O
+13-10	supposed	13-2_ccomp	saw	VBN	O
+13-11	to	13-12_aux	cut	TO	O
+13-12	cut	13-10_xcomp	supposed	VB	O
+13-13	the	O	O	DT	O
+13-14	top	13-12_dobj	cut	NN	P1_other
+13-15	of	O	O	O	O
+13-16	one	O	O	CD	O
+13-17	of	O	O	O	O
+13-18	the	O	O	DT	O
+13-19	cakes	O	O	NNS	P1_cake
+13-20	so	O	O	RB	O
+13-21	that	O	O	IN	O
+13-22	the	O	O	DT	O
+13-23	top	O	O	NN	P1_other
+13-24	was	O	O	VBD	O
+13-25	flat	13-12_advcl	cut	JJ	O
+13-26	.	O	O	O	O
+
+#id=14
+#text=I managed to do that pretty well and I ate the cake with some milk . 
+14-1	I	14-2_nsubj	managed	PRP	P1_cook
+14-2	managed	O	O	VBD	O
+14-3	to	14-4_aux	do	TO	O
+14-4	do	14-2_xcomp	managed	VB	O
+14-5	that	14-4_dobj	do	DT	O
+14-6	pretty	O	O	RB	O
+14-7	well	14-4_advmod	do	RB	O
+14-8	and	O	O	O	O
+14-9	I	14-10_nsubj	ate	PRP	P1_cook
+14-10	ate	14-2_conj_and	managed	VBD	O
+14-11	the	O	O	DT	O
+14-12	cake	14-10_dobj	ate	NN	P1_cake
+14-13	with	O	O	O	O
+14-14	some	O	O	DT	O
+14-15	milk	14-10_prep_with	ate	NN	P4_ingredients
+14-16	.	O	O	O	O
+
+#id=15
+#text=It was pretty tasty . 
+15-1	It	O	O	PRP	P1_cake
+15-2	was	O	O	VBD	O
+15-3	pretty	O	O	RB	O
+15-4	tasty	O	O	JJ	O
+15-5	.	O	O	O	O
+
+#id=16
+#text=So , next , I got the frosting and put it on the first layer , and then on the second . 
+16-1	So	16-6_advmod	got	RB	O
+16-2	,	O	O	O	O
+16-3	next	16-6_advmod	got	RB	O
+16-4	,	O	O	O	O
+16-5	I	16-6_nsubj	got	PRP	P1_cook
+16-6	got	O	O	VBD	O
+16-7	the	O	O	DT	O
+16-8	frosting	16-6_dobj	got	NN	P3_decoration
+16-9	and	O	O	O	O
+16-10	put	16-6_conj_and	got	VBD	O
+16-11	it	16-10_dobj	put	PRP	P3_decoration
+16-12	on	O	O	O	O
+16-13	the	O	O	DT	O
+16-14	first	O	O	JJ	O
+16-15	layer	16-10_prep_on	put	NN	P2_other
+16-16	,	O	O	O	O
+16-17	and	O	O	O	O
+16-18	then	16-10_advmod	put	RB	O
+16-19	on	O	O	O	O
+16-20	the	O	O	DT	O
+16-21	second	O	O	NN	O
+16-22	.	O	O	O	O
+
+#id=17
+#text=I thought it looked pretty good . 
+17-1	I	17-2_nsubj	thought	PRP	P1_cook
+17-2	thought	O	O	VBD	O
+17-3	it	17-4_nsubj	looked	PRP	P1_cake
+17-4	looked	17-2_ccomp	thought	VBD	O
+17-5	pretty	O	O	RB	O
+17-6	good	17-4_acomp	looked	JJ	O
+17-7	.	O	O	O	O
+
+#id=18
+#text=I carefully chopped some oreos up and sprinkled them on the top of the cake . 
+18-1	I	18-3_nsubj	chopped	PRP	P1_cook
+18-2	carefully	18-3_advmod	chopped	RB	O
+18-3	chopped	O	O	VBD	O
+18-4	some	O	O	DT	O
+18-5	oreos	18-3_dobj	chopped	NNS	P2_decoration
+18-6	up	18-3_prt	chopped	RP	O
+18-7	and	O	O	O	O
+18-8	sprinkled	18-3_conj_and	chopped	VBD	O
+18-9	them	18-8_dobj	sprinkled	PRP	P4_decoration
+18-10	on	O	O	O	O
+18-11	the	O	O	DT	O
+18-12	top	18-8_prep_on	sprinkled	NN	P1_other
+18-13	of	O	O	O	O
+18-14	the	O	O	DT	O
+18-15	cake	O	O	NN	P1_cake
+18-16	.	O	O	O	O
+
+#id=19
+#text=To further top it off , I cut a few cookies in half and stuck them pointing up in a circle around the outside of the cake . 
+19-1	To	19-3_aux	top	TO	O
+19-2	further	19-3_advmod	top	RBR	O
+19-3	top	19-8_advcl	cut	VB	O
+19-4	it	19-3_dobj	top	PRP	P1_cake
+19-5	off	19-3_prt	top	RP	O
+19-6	,	O	O	O	O
+19-7	I	19-8_nsubj	cut	PRP	P1_cook
+19-8	cut	O	O	VBD	O
+19-9	a	O	O	DT	O
+19-10	few	O	O	JJ	O
+19-11	cookies	19-8_dobj	cut	NNS	P2_decoration
+19-12	in	O	O	O	O
+19-13	half	19-8_prep_in	cut	NN	O
+19-14	and	O	O	O	O
+19-15	stuck	19-8_conj_and	cut	VBD	O
+19-16	them	19-17_nsubj	pointing	PRP	P2_decoration
+19-17	pointing	19-15_dep	stuck	VBG	O
+19-18	up	19-17_prt	pointing	RP	O
+19-19	in	O	O	O	O
+19-20	a	O	O	DT	O
+19-21	circle	19-17_prep_in	pointing	NN	P1_NPart_circle
+19-22	around	O	O	O	O
+19-23	the	O	O	DT	O
+19-24	outside	O	O	NN	P1_NPart_outside
+19-25	of	O	O	O	O
+19-26	the	O	O	DT	O
+19-27	cake	O	O	NN	P1_cake
+19-28	.	O	O	O	O
+
+#id=20
+#text=It looked really good . 
+20-1	It	20-2_nsubj	looked	PRP	P2_cake
+20-2	looked	O	O	VBD	O
+20-3	really	O	O	RB	O
+20-4	good	20-2_acomp	looked	JJ	O
+20-5	.	O	O	O	O
+
+#id=21
+#text=My wife was really surprised that I had made it myself . 
+21-1	My	O	O	PRP$	P1_cook
+21-2	wife	O	O	NN	P1_NPart_wife
+21-3	was	O	O	VBD	O
+21-4	really	O	O	RB	O
+21-5	surprised	O	O	JJ	O
+21-6	that	21-9_mark	made	IN	O
+21-7	I	21-9_nsubj	made	PRP	P4_cook
+21-8	had	21-9_aux	made	VBD	O
+21-9	made	O	O	VBN	O
+21-10	it	O	O	PRP	P2_cake
+21-11	myself	21-9_xcomp	made	PRP	P1_cook
+21-12	.	O	O	O	O
+
+#id=22
+#text=My daughter was really happy and everyone liked the cake . 
+22-1	My	O	O	PRP$	P1_cook
+22-2	daughter	O	O	NN	P1_beneficiary
+22-3	was	O	O	VBD	O
+22-4	really	O	O	RB	O
+22-5	happy	O	O	JJ	O
+22-6	and	O	O	O	O
+22-7	everyone	22-8_nsubj	liked	NN	P2_beneficiary
+22-8	liked	O	O	VBD	O
+22-9	the	O	O	DT	O
+22-10	cake	22-8_dobj	liked	NN	P2_cake
+22-11	.	O	O	O	O

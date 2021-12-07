@@ -1,0 +1,242 @@
+#id=1
+#text=Before I go grocery shopping I make a list . 
+1-1	Before	1-3_mark	go	IN	O
+1-2	I	1-3_nsubj	go	PRP	P1_shopper
+1-3	go	1-7_advcl	make	VBP	O
+1-4	grocery	O	O	NN	P1_groceries
+1-5	shopping	1-3_dobj	go	NN	O
+1-6	I	1-7_nsubj	make	PRP	P1_shopper
+1-7	make	O	O	VBP	O
+1-8	a	O	O	DT	O
+1-9	list	1-7_dobj	make	NN	P1_grocery_list
+1-10	.	O	O	O	O
+
+#id=2
+#text=I actually keep a list going on a magnetic notepad on the fridge and one on my phone whenever I know I am out or low on something . 
+2-1	I	2-3_nsubj	keep	PRP	P1_shopper
+2-2	actually	2-3_advmod	keep	RB	O
+2-3	keep	O	O	VBP	O
+2-4	a	O	O	DT	O
+2-5	list	2-3_dobj	keep	NN	P1_grocery_list
+2-6	going	O	O	VBG	O
+2-7	on	O	O	O	O
+2-8	a	O	O	DT	O
+2-9	magnetic	O	O	JJ	O
+2-10	notepad	2-6_prep_on	going	NN	P1_NPart_notepad
+2-11	on	O	O	O	O
+2-12	the	O	O	DT	O
+2-13	fridge	O	O	NN	P1_NPart_fridge
+2-14	and	O	O	O	O
+2-15	one	O	O	CD	P1_grocery_list
+2-16	on	O	O	O	O
+2-17	my	O	O	PRP$	P1_shopper
+2-18	phone	O	O	NN	P1_NPart_phone
+2-19	whenever	2-21_advmod	know	WRB	O
+2-20	I	2-21_nsubj	know	PRP	P1_shopper
+2-21	know	2-6_advcl	going	VBP	O
+2-22	I	O	O	PRP	P1_shopper
+2-23	am	O	O	VBP	O
+2-24	out	2-21_ccomp	know	JJ	O
+2-25	or	O	O	O	O
+2-26	low	O	O	JJ	O
+2-27	on	O	O	O	O
+2-28	something	O	O	NN	P2_groceries
+2-29	.	O	O	O	O
+
+#id=3
+#text=I try to only go once a week unless there is something I really need for a specific meal . 
+3-1	I	3-2_nsubj	try	PRP	P1_shopper
+3-2	try	O	O	VBP	O
+3-3	to	3-5_aux	go	TO	O
+3-4	only	3-5_advmod	go	RB	O
+3-5	go	3-2_xcomp	try	VB	O
+3-6	once	O	O	RB	O
+3-7	a	O	O	DT	O
+3-8	week	3-5_tmod	go	NN	P1_NPart_week
+3-9	unless	3-11_mark	is	IN	O
+3-10	there	3-11_expl	is	EX	O
+3-11	is	3-2_advcl	try	VBZ	O
+3-12	something	3-11_nsubj	is	NN	P3_groceries
+3-13	I	3-15_nsubj	need	PRP	P1_shopper
+3-14	really	3-15_advmod	need	RB	O
+3-15	need	O	O	VBP	O
+3-16	for	O	O	O	O
+3-17	a	O	O	DT	O
+3-18	specific	O	O	JJ	O
+3-19	meal	3-15_prep_for	need	NN	P1_NPart_meal
+3-20	.	O	O	O	O
+
+#id=4
+#text=I take my electronic list with me to the store , but I often still walk up and down most aisles just browsing for anything new or that I might want to try . 
+4-1	I	4-2_nsubj	take	PRP	P1_shopper
+4-2	take	O	O	VBP	O
+4-3	my	O	O	PRP$	P1_shopper
+4-4	electronic	O	O	JJ	O
+4-5	list	4-2_dobj	take	NN	P1_grocery_list
+4-6	with	O	O	O	O
+4-7	me	4-2_prep_with	take	PRP	P1_shopper
+4-8	to	O	O	O	O
+4-9	the	O	O	DT	O
+4-10	store	4-2_prep_to	take	NN	P1_grocery_shop
+4-11	,	O	O	O	O
+4-12	but	O	O	O	O
+4-13	I	4-16_nsubj	walk	PRP	P1_shopper
+4-14	often	4-16_advmod	walk	RB	O
+4-15	still	4-16_advmod	walk	RB	O
+4-16	walk	4-2_conj_but	take	VBP	O
+4-17	up	4-16_prt	walk	RP	O
+4-18	and	O	O	CC	O
+4-19	down	O	O	RP	O
+4-20	most	O	O	JJS	O
+4-21	aisles	O	O	NNS	P1_section
+4-22	just	O	O	RB	O
+4-23	browsing	4-16_dep	walk	NN	O
+4-24	for	O	O	O	O
+4-25	anything	O	O	NN	P4_groceries
+4-26	new	O	O	JJ	O
+4-27	or	O	O	O	O
+4-28	that	4-31_mark	want	IN	O
+4-29	I	4-31_nsubj	want	PRP	P1_shopper
+4-30	might	4-31_aux	want	MD	O
+4-31	want	O	O	VB	O
+4-32	to	4-33_aux	try	TO	O
+4-33	try	4-31_xcomp	want	VB	O
+4-34	.	O	O	O	O
+
+#id=5
+#text=I like to keep a rough estimate of how much I am buying by rounding up . 
+5-1	I	5-2_nsubj	like	PRP	P1_shopper
+5-2	like	O	O	VBP	O
+5-3	to	5-4_aux	keep	TO	O
+5-4	keep	5-2_xcomp	like	VB	O
+5-5	a	O	O	DT	O
+5-6	rough	O	O	JJ	O
+5-7	estimate	5-4_dobj	keep	NN	O
+5-8	of	O	O	O	O
+5-9	how	O	O	WRB	O
+5-10	much	5-13_dep	buying	JJ	O
+5-11	I	5-13_nsubj	buying	PRP	P1_shopper
+5-12	am	5-13_aux	buying	VBP	O
+5-13	buying	O	O	VBG	O
+5-14	by	O	O	O	O
+5-15	rounding	5-13_prepc_by	buying	VBG	O
+5-16	up	5-15_prt	rounding	RP	O
+5-17	.	O	O	O	O
+
+#id=6
+#text=So if a can of soup is $ 1.50 I think $ 2 and keep adding that as I shop if I 'm wanting to stay on a specific budget . 
+6-1	So	O	O	O	O
+6-2	if	O	O	IN	O
+6-3	a	O	O	DT	O
+6-4	can	O	O	NN	O
+6-5	of	O	O	O	O
+6-6	soup	O	O	NN	P5_groceries
+6-7	is	O	O	VBZ	O
+6-8	$	6-11_advcl	think	$	O
+6-9	1.50	O	O	CD	O
+6-10	I	6-11_nsubj	think	PRP	P1_shopper
+6-11	think	O	O	VBP	O
+6-12	$	6-11_dobj	think	$	O
+6-13	2	O	O	CD	O
+6-14	and	O	O	O	O
+6-15	keep	6-11_conj_and	think	VBP	O
+6-16	adding	6-15_xcomp	keep	VBG	O
+6-17	that	6-20_mark	shop	IN	O
+6-18	as	6-20_mark	shop	IN	O
+6-19	I	6-20_nsubj	shop	PRP	P1_shopper
+6-20	shop	6-16_advcl	adding	VB	O
+6-21	if	6-24_mark	wanting	IN	O
+6-22	I	6-24_nsubj	wanting	PRP	P1_shopper
+6-23	'm	6-24_aux	wanting	VBP	O
+6-24	wanting	6-20_advcl	shop	VBG	O
+6-25	to	6-26_aux	stay	TO	O
+6-26	stay	6-24_xcomp	wanting	VB	O
+6-27	on	O	O	O	O
+6-28	a	O	O	DT	O
+6-29	specific	O	O	JJ	O
+6-30	budget	6-26_prep_on	stay	NN	P1_other
+6-31	.	O	O	O	O
+
+#id=7
+#text=Once I have all my items in my cart I go to the checkout line that seems to have the least amount of people in it . 
+7-1	Once	7-3_mark	have	IN	O
+7-2	I	7-3_nsubj	have	PRP	P1_shopper
+7-3	have	7-11_advcl	go	VBP	O
+7-4	all	O	O	PDT	O
+7-5	my	O	O	PRP$	P1_shopper
+7-6	items	7-3_dobj	have	NNS	P6_groceries
+7-7	in	O	O	O	O
+7-8	my	O	O	PRP$	P1_shopper
+7-9	cart	7-3_prep_in	have	NN	P1_shopping_cart/basket
+7-10	I	7-11_nsubj	go	PRP	P1_shopper
+7-11	go	O	O	VBP	O
+7-12	to	O	O	O	O
+7-13	the	O	O	DT	O
+7-14	checkout	O	O	NN	O
+7-15	line	7-11_prep_to	go	NN	P1_line
+7-16	that	7-17_nsubj	seems	WDT	O
+7-17	seems	O	O	VBZ	O
+7-18	to	7-19_aux	have	TO	O
+7-19	have	7-17_xcomp	seems	VB	O
+7-20	the	O	O	DT	O
+7-21	least	O	O	JJS	O
+7-22	amount	7-19_dobj	have	NN	O
+7-23	of	O	O	O	O
+7-24	people	O	O	NNS	P2_shopper
+7-25	in	O	O	O	O
+7-26	it	O	O	PRP	P1_line
+7-27	.	O	O	O	O
+
+#id=8
+#text=I do n't like to jump lines if one line seems to be moving faster . 
+8-1	I	8-4_nsubj	like	PRP	P1_shopper
+8-2	do	8-4_aux	like	VBP	O
+8-3	n't	8-4_neg	like	RB	O
+8-4	like	O	O	VB	O
+8-5	to	8-6_aux	jump	TO	O
+8-6	jump	8-4_xcomp	like	VB	O
+8-7	lines	8-6_dobj	jump	NNS	P2_line
+8-8	if	8-11_mark	seems	IN	O
+8-9	one	O	O	CD	O
+8-10	line	8-11_nsubj	seems	NN	P3_line
+8-11	seems	8-6_advcl	jump	VBZ	O
+8-12	to	8-14_aux	moving	TO	O
+8-13	be	8-14_aux	moving	VB	O
+8-14	moving	8-11_xcomp	seems	VBG	O
+8-15	faster	8-14_advmod	moving	RBR	O
+8-16	.	O	O	O	O
+
+#id=9
+#text=Good to have a little bit of patience . 
+9-1	Good	O	O	JJ	O
+9-2	to	9-3_aux	have	TO	O
+9-3	have	O	O	VB	O
+9-4	a	O	O	DT	O
+9-5	little	O	O	JJ	O
+9-6	bit	9-3_dobj	have	NN	O
+9-7	of	O	O	O	O
+9-8	patience	O	O	NN	P1_NPart_patience
+9-9	.	O	O	O	O
+
+#id=10
+#text=I try to remember to bring my bags with me so that I 'm not always getting plastic bags . 
+10-1	I	10-2_nsubj	try	PRP	P1_shopper
+10-2	try	O	O	VBP	O
+10-3	to	10-4_aux	remember	TO	O
+10-4	remember	10-2_xcomp	try	VB	O
+10-5	to	10-6_aux	bring	TO	O
+10-6	bring	10-4_xcomp	remember	VB	O
+10-7	my	O	O	PRP$	P1_shopper
+10-8	bags	10-6_dobj	bring	NNS	P1_shopping_bags
+10-9	with	O	O	O	O
+10-10	me	10-6_prep_with	bring	PRP	P1_shopper
+10-11	so	10-17_advmod	getting	RB	O
+10-12	that	10-17_mark	getting	IN	O
+10-13	I	10-17_nsubj	getting	PRP	P1_shopper
+10-14	'm	10-17_aux	getting	VBP	O
+10-15	not	10-17_neg	getting	RB	O
+10-16	always	10-17_advmod	getting	RB	O
+10-17	getting	10-6_advcl	bring	VBG	O
+10-18	plastic	O	O	JJ	O
+10-19	bags	10-17_dobj	getting	NNS	P2_shopping_bags
+10-20	.	O	O	O	O

@@ -1,0 +1,231 @@
+#id=1
+#text=I prefer showers but sometimes you just need to take a bath . 
+1-1	I	1-2_nsubj	prefer	PRP	P1_bather
+1-2	prefer	O	O	VBP	O
+1-3	showers	1-2_dobj	prefer	NNS	P1_NPart_showers
+1-4	but	O	O	O	O
+1-5	sometimes	1-8_advmod	need	RB	O
+1-6	you	1-8_nsubj	need	PRP	P1_bather
+1-7	just	1-8_advmod	need	RB	O
+1-8	need	1-2_conj_but	prefer	VBP	O
+1-9	to	1-10_aux	take	TO	O
+1-10	take	1-8_xcomp	need	VB	O
+1-11	a	O	O	DT	O
+1-12	bath	1-10_dobj	take	NN	P1_bath
+1-13	.	O	O	O	O
+
+#id=2
+#text=Showers are good for when you are really dirty and need to get cleaned fast but baths are more leisurely and relaxing . 
+2-1	Showers	O	O	NNS	P2_NPart_showers
+2-2	are	O	O	VBP	O
+2-3	good	O	O	JJ	O
+2-4	for	O	O	O	O
+2-5	when	O	O	WRB	O
+2-6	you	O	O	PRP	P1_bather
+2-7	are	O	O	VBP	O
+2-8	really	O	O	RB	O
+2-9	dirty	O	O	JJ	O
+2-10	and	O	O	O	O
+2-11	need	O	O	VBP	O
+2-12	to	2-14_aux	cleaned	TO	O
+2-13	get	2-14_auxpass	cleaned	VB	O
+2-14	cleaned	2-11_xcomp	need	VBN	O
+2-15	fast	2-14_advmod	cleaned	RB	O
+2-16	but	O	O	O	O
+2-17	baths	O	O	NNS	P1_bath
+2-18	are	O	O	VBP	O
+2-19	more	O	O	RBR	O
+2-20	leisurely	O	O	JJ	O
+2-21	and	O	O	O	O
+2-22	relaxing	O	O	JJ	O
+2-23	.	O	O	O	O
+
+#id=3
+#text=First I go in the bathroom and put a stopper in the bathtub to stop the water from running out . 
+3-1	First	3-3_advmod	go	RB	O
+3-2	I	3-3_nsubj	go	PRP	P1_bather
+3-3	go	O	O	VBP	O
+3-4	in	O	O	O	O
+3-5	the	O	O	DT	O
+3-6	bathroom	3-3_prep_in	go	NN	P1_bathroom
+3-7	and	O	O	O	O
+3-8	put	3-3_conj_and	go	VBD	O
+3-9	a	O	O	DT	O
+3-10	stopper	3-8_dobj	put	NN	P1_plug
+3-11	in	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	bathtub	3-8_prep_in	put	NN	P1_bathtub
+3-14	to	3-15_aux	stop	TO	O
+3-15	stop	O	O	VB	O
+3-16	the	O	O	DT	O
+3-17	water	3-15_dobj	stop	NN	P1_water
+3-18	from	O	O	O	O
+3-19	running	3-15_prepc_from	stop	VBG	O
+3-20	out	3-19_prt	running	RP	O
+3-21	.	O	O	O	O
+
+#id=4
+#text=Then I start the water to fill up the tub . 
+4-1	Then	4-3_advmod	start	RB	O
+4-2	I	4-3_nsubj	start	PRP	P1_bather
+4-3	start	O	O	VBP	O
+4-4	the	O	O	DT	O
+4-5	water	4-3_dobj	start	NN	P1_water
+4-6	to	4-7_aux	fill	TO	O
+4-7	fill	4-3_xcomp	start	VB	O
+4-8	up	4-7_prt	fill	RP	O
+4-9	the	O	O	DT	O
+4-10	tub	4-7_dobj	fill	NN	P1_bathtub
+4-11	.	O	O	O	O
+
+#id=5
+#text=I also make sure it is just right , not too hot or cold . 
+5-1	I	5-3_nsubj	make	PRP	P1_bather
+5-2	also	5-3_advmod	make	RB	O
+5-3	make	O	O	VBP	O
+5-4	sure	5-3_acomp	make	JJ	O
+5-5	it	O	O	PRP	P1_water
+5-6	is	O	O	VBZ	O
+5-7	just	O	O	RB	O
+5-8	right	O	O	JJ	O
+5-9	,	O	O	O	O
+5-10	not	O	O	RB	O
+5-11	too	O	O	RB	O
+5-12	hot	O	O	JJ	O
+5-13	or	O	O	O	O
+5-14	cold	O	O	JJ	O
+5-15	.	O	O	O	O
+
+#id=6
+#text=Then I get my face cloth and a great big bar of soap . 
+6-1	Then	6-3_advmod	get	RB	O
+6-2	I	6-3_nsubj	get	PRP	P1_bather
+6-3	get	O	O	VBP	O
+6-4	my	O	O	PRP$	P1_bather
+6-5	face	O	O	NN	O
+6-6	cloth	6-3_dobj	get	NN	P1_washing_tools
+6-7	and	O	O	O	O
+6-8	a	O	O	DT	O
+6-9	great	O	O	JJ	O
+6-10	big	O	O	JJ	O
+6-11	bar	O	O	NN	P1_NPart_bar
+6-12	of	O	O	O	O
+6-13	soap	O	O	NN	P2_washing_tools
+6-14	.	O	O	O	O
+
+#id=7
+#text=If I feel playful I will grab a couple water toys to play with . 
+7-1	If	7-3_mark	feel	IN	O
+7-2	I	7-3_nsubj	feel	PRP	P1_bather
+7-3	feel	7-7_advcl	grab	VBP	O
+7-4	playful	7-3_acomp	feel	JJ	O
+7-5	I	7-7_nsubj	grab	PRP	P1_bather
+7-6	will	7-7_aux	grab	MD	O
+7-7	grab	O	O	VB	O
+7-8	a	O	O	DT	O
+7-9	couple	O	O	NN	P1_NPart_couple
+7-10	water	O	O	NN	O
+7-11	toys	7-7_dobj	grab	NNS	P1_in-bath_entertainment
+7-12	to	7-13_aux	play	TO	O
+7-13	play	7-7_xcomp	grab	VB	O
+7-14	with	7-13_prep	play	IN	O
+7-15	.	O	O	O	O
+
+#id=8
+#text=Then I slip -LRB- off my clothes and slip into the tub . 
+8-1	Then	8-3_advmod	slip	RB	O
+8-2	I	8-3_nsubj	slip	PRP	P1_bather
+8-3	slip	O	O	VBZ	O
+8-4	-LRB-	O	O	O	O
+8-5	off	O	O	RB	O
+8-6	my	O	O	PRP$	P1_bather
+8-7	clothes	8-3_dobj	slip	NNS	P1_clothes
+8-8	and	O	O	O	O
+8-9	slip	O	O	NNS	O
+8-10	into	O	O	O	O
+8-11	the	O	O	DT	O
+8-12	tub	8-3_prep_into	slip	NN	P1_bathtub
+8-13	.	O	O	O	O
+
+#id=9
+#text=I fill the tub really high so only my head sticks out above the water . 
+9-1	I	9-2_nsubj	fill	PRP	P1_bather
+9-2	fill	O	O	VBP	O
+9-3	the	O	O	DT	O
+9-4	tub	O	O	NN	P1_bathtub
+9-5	really	O	O	RB	O
+9-6	high	9-2_xcomp	fill	JJ	O
+9-7	so	9-11_advmod	sticks	RB	O
+9-8	only	9-11_advmod	sticks	RB	O
+9-9	my	O	O	PRP$	P1_bather
+9-10	head	9-11_nsubj	sticks	NN	P1_body_part
+9-11	sticks	9-2_ccomp	fill	VBZ	O
+9-12	out	9-11_prt	sticks	RP	O
+9-13	above	O	O	O	O
+9-14	the	O	O	DT	O
+9-15	water	9-11_prep_above	sticks	NN	P1_water
+9-16	.	O	O	O	O
+
+#id=10
+#text=I like the hot water all over me . 
+10-1	I	10-2_nsubj	like	PRP	P1_bather
+10-2	like	O	O	VBP	O
+10-3	the	O	O	DT	O
+10-4	hot	O	O	JJ	O
+10-5	water	10-2_dobj	like	NN	P1_water
+10-6	all	10-2_dep	like	DT	O
+10-7	over	O	O	O	O
+10-8	me	10-2_prep_over	like	PRP	P1_bather
+10-9	.	O	O	O	O
+
+#id=11
+#text=I will spend an hour soaking in the tub . 
+11-1	I	11-3_nsubj	spend	PRP	P1_bather
+11-2	will	11-3_aux	spend	MD	O
+11-3	spend	O	O	VB	O
+11-4	an	O	O	DT	O
+11-5	hour	11-3_dobj	spend	NN	P1_NPart_hour
+11-6	soaking	O	O	VBG	O
+11-7	in	O	O	O	O
+11-8	the	O	O	DT	O
+11-9	tub	11-6_prep_in	soaking	NN	P1_bathtub
+11-10	.	O	O	O	O
+
+#id=12
+#text=I will sit there till my fingers get all shrivelled and pruney . 
+12-1	I	12-3_nsubj	sit	PRP	P1_bather
+12-2	will	12-3_aux	sit	MD	O
+12-3	sit	O	O	VB	O
+12-4	there	12-3_advmod	sit	RB	P1_bathtub
+12-5	till	O	O	IN	O
+12-6	my	O	O	PRP$	P1_bather
+12-7	fingers	O	O	NNS	P2_body_part
+12-8	get	O	O	VBP	O
+12-9	all	O	O	DT	O
+12-10	shrivelled	12-3_advcl	sit	JJ	O
+12-11	and	O	O	O	O
+12-12	pruney	O	O	JJ	O
+12-13	.	O	O	O	O
+
+#id=13
+#text=Then I use my toes to take out the stopper and sit there till the water all drains away . 
+13-1	Then	13-3_advmod	use	RB	O
+13-2	I	13-3_nsubj	use	PRP	P1_bather
+13-3	use	O	O	VBP	O
+13-4	my	O	O	PRP$	P1_bather
+13-5	toes	13-3_dobj	use	NNS	P3_body_part
+13-6	to	13-7_aux	take	TO	O
+13-7	take	13-3_vmod	use	VB	O
+13-8	out	13-7_prt	take	RP	O
+13-9	the	O	O	DT	O
+13-10	stopper	13-7_dobj	take	NN	P1_plug
+13-11	and	O	O	O	O
+13-12	sit	13-7_conj_and	take	VB	O
+13-13	there	13-12_advmod	sit	RB	P1_bathtub
+13-14	till	13-18_mark	drains	IN	O
+13-15	the	O	O	DT	O
+13-16	water	13-18_nsubj	drains	NN	P1_water
+13-17	all	13-18_advmod	drains	DT	O
+13-18	drains	13-12_advcl	sit	VBZ	O
+13-19	away	13-18_prt	drains	RP	O
+13-20	.	O	O	O	O

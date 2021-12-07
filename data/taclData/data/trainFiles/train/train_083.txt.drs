@@ -1,0 +1,269 @@
+#id=1
+#text=My family and I wanted to take a trip via train across the country . 
+1-1	My	O	O	PRP$	P1_passenger
+1-2	family	1-5_nsubj	wanted	NN	P2_passenger
+1-3	and	O	O	O	O
+1-4	I	O	O	PRP	P1_passenger
+1-5	wanted	O	O	VBD	O
+1-6	to	1-7_aux	take	TO	O
+1-7	take	1-5_xcomp	wanted	VB	O
+1-8	a	O	O	DT	O
+1-9	trip	1-7_dobj	take	NN	P1_trip
+1-10	via	O	O	O	O
+1-11	train	O	O	NN	P1_train
+1-12	across	O	O	O	O
+1-13	the	O	O	DT	O
+1-14	country	1-7_prep_across	take	NN	P1_NPart_country
+1-15	.	O	O	O	O
+
+#id=2
+#text=I called a travel agent to set up a time to meet with them and discuss the necessary arrangements . 
+2-1	I	2-2_nsubj	called	PRP	P1_passenger
+2-2	called	O	O	VBD	O
+2-3	a	O	O	DT	O
+2-4	travel	O	O	NN	O
+2-5	agent	2-2_dobj	called	NN	P1_other
+2-6	to	2-7_aux	set	TO	O
+2-7	set	2-2_vmod	called	VB	O
+2-8	up	2-7_prt	set	RP	O
+2-9	a	O	O	DT	O
+2-10	time	2-7_dobj	set	NN	P1_NPart_time
+2-11	to	2-12_aux	meet	TO	O
+2-12	meet	O	O	VB	O
+2-13	with	O	O	O	O
+2-14	them	2-12_prep_with	meet	PRP	P1_other
+2-15	and	O	O	O	O
+2-16	discuss	2-12_conj_and	meet	VB	O
+2-17	the	O	O	DT	O
+2-18	necessary	O	O	JJ	O
+2-19	arrangements	2-16_dobj	discuss	NNS	P1_NPart_arrangements
+2-20	.	O	O	O	O
+
+#id=3
+#text=A few days later the appointment arrived and I went to the travel agent 's office to meet with them . 
+3-1	A	O	O	DT	O
+3-2	few	O	O	JJ	O
+3-3	days	O	O	NNS	P1_NPart_days
+3-4	later	3-7_advmod	arrived	RB	O
+3-5	the	O	O	DT	O
+3-6	appointment	3-7_nsubj	arrived	NN	P1_NPart_appointment
+3-7	arrived	O	O	VBD	O
+3-8	and	O	O	O	O
+3-9	I	3-10_nsubj	went	PRP	P1_passenger
+3-10	went	3-7_conj_and	arrived	VBD	O
+3-11	to	O	O	O	O
+3-12	the	O	O	DT	O
+3-13	travel	O	O	NN	O
+3-14	agent	O	O	NN	P1_other
+3-15	's	O	O	O	O
+3-16	office	3-10_prep_to	went	NN	P2_other
+3-17	to	3-18_aux	meet	TO	O
+3-18	meet	O	O	VB	O
+3-19	with	O	O	O	O
+3-20	them	3-18_prep_with	meet	PRP	P1_other
+3-21	.	O	O	O	O
+
+#id=4
+#text=After discussing our travel plans we decided that getting a private room on a sleeper car for the family would be the best option . 
+4-1	After	O	O	O	O
+4-2	discussing	4-7_prepc_after	decided	VBG	O
+4-3	our	O	O	PRP$	O
+4-4	travel	O	O	NN	P2_trip
+4-5	plans	4-2_dobj	discussing	NNS	P1_NPart_plans
+4-6	we	4-7_nsubj	decided	PRP	O
+4-7	decided	O	O	VBD	O
+4-8	that	O	O	IN	O
+4-9	getting	O	O	VBG	O
+4-10	a	O	O	DT	O
+4-11	private	O	O	JJ	O
+4-12	room	4-9_dobj	getting	NN	P1_location_train
+4-13	on	O	O	O	O
+4-14	a	O	O	DT	O
+4-15	sleeper	O	O	NN	O
+4-16	car	4-9_prep_on	getting	NN	P1_coach
+4-17	for	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	family	O	O	NN	P2_passenger
+4-20	would	O	O	MD	O
+4-21	be	O	O	VB	O
+4-22	the	O	O	DT	O
+4-23	best	O	O	JJS	O
+4-24	option	4-7_ccomp	decided	NN	P1_NPart_option
+4-25	.	O	O	O	O
+
+#id=5
+#text=I purchased the tickets and then went home to tell the family we were going and to pack . 
+5-1	I	5-2_nsubj	purchased	PRP	P1_passenger
+5-2	purchased	O	O	VBD	O
+5-3	the	O	O	DT	O
+5-4	tickets	5-2_dobj	purchased	NNS	P1_card/ticket
+5-5	and	O	O	O	O
+5-6	then	5-7_advmod	went	RB	O
+5-7	went	5-2_conj_and	purchased	VBD	O
+5-8	home	5-7_dobj	went	NN	P1_NPart_home
+5-9	to	5-10_aux	tell	TO	O
+5-10	tell	5-7_dep	went	VB	O
+5-11	the	O	O	DT	O
+5-12	family	5-10_dobj	tell	NN	P2_passenger
+5-13	we	5-15_nsubj	going	PRP	P3_passenger
+5-14	were	5-15_aux	going	VBD	O
+5-15	going	O	O	VBG	O
+5-16	and	O	O	O	O
+5-17	to	5-18_aux	pack	TO	O
+5-18	pack	5-10_conj_and	tell	VB	O
+5-19	.	O	O	O	O
+
+#id=6
+#text=A week later we arrived at the train station an hour before boarding time to make sure that we did not miss the train . 
+6-1	A	O	O	DT	O
+6-2	week	6-5_tmod	arrived	NN	P1_time_date
+6-3	later	O	O	RB	O
+6-4	we	6-5_nsubj	arrived	PRP	P3_passenger
+6-5	arrived	O	O	VBD	O
+6-6	at	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	train	O	O	NN	O
+6-9	station	6-5_prep_at	arrived	NN	P1_train_station
+6-10	an	O	O	DT	O
+6-11	hour	O	O	NN	P2_time_date
+6-12	before	O	O	O	O
+6-13	boarding	6-5_prepc_before	arrived	VBG	O
+6-14	time	6-13_dobj	boarding	NN	P3_time_date
+6-15	to	6-16_aux	make	TO	O
+6-16	make	6-13_vmod	boarding	VB	O
+6-17	sure	6-16_acomp	make	JJ	O
+6-18	that	6-22_mark	miss	IN	O
+6-19	we	6-22_nsubj	miss	PRP	P3_passenger
+6-20	did	6-22_aux	miss	VBD	O
+6-21	not	6-22_neg	miss	RB	O
+6-22	miss	6-16_ccomp	make	VB	O
+6-23	the	O	O	DT	O
+6-24	train	6-22_dobj	miss	NN	P2_train
+6-25	.	O	O	O	O
+
+#id=7
+#text=Once it was time we boarded the train and found our room . 
+7-1	Once	O	O	IN	O
+7-2	it	O	O	PRP	O
+7-3	was	O	O	VBD	O
+7-4	time	7-6_advcl	boarded	NN	P4_time_date
+7-5	we	7-6_nsubj	boarded	PRP	P3_passenger
+7-6	boarded	O	O	VBD	O
+7-7	the	O	O	DT	O
+7-8	train	7-6_dobj	boarded	NN	P2_train
+7-9	and	O	O	O	O
+7-10	found	7-6_conj_and	boarded	VBD	O
+7-11	our	O	O	PRP$	P3_passenger
+7-12	room	7-10_dobj	found	NN	P1_location_train
+7-13	.	O	O	O	O
+
+#id=8
+#text=We stowed our luggage and discovered how the beds worked . 
+8-1	We	8-2_nsubj	stowed	PRP	P3_passenger
+8-2	stowed	O	O	VBD	O
+8-3	our	O	O	PRP$	P3_passenger
+8-4	luggage	8-2_dobj	stowed	NN	P1_luggage
+8-5	and	O	O	O	O
+8-6	discovered	8-2_conj_and	stowed	VBD	O
+8-7	how	8-10_advmod	worked	WRB	O
+8-8	the	O	O	DT	O
+8-9	beds	8-10_nsubj	worked	NNS	P3_other
+8-10	worked	8-6_ccomp	discovered	VBD	O
+8-11	.	O	O	O	O
+
+#id=9
+#text=Later it was time to eat and we went to the dining car at our scheduled time far dinner . 
+9-1	Later	O	O	RB	O
+9-2	it	O	O	PRP	O
+9-3	was	O	O	VBD	O
+9-4	time	O	O	NN	O
+9-5	to	9-6_aux	eat	TO	O
+9-6	eat	O	O	VB	O
+9-7	and	O	O	O	O
+9-8	we	9-9_nsubj	went	PRP	P3_passenger
+9-9	went	O	O	VBD	O
+9-10	to	O	O	O	O
+9-11	the	O	O	DT	O
+9-12	dining	O	O	NN	O
+9-13	car	9-9_prep_to	went	NN	P2_coach
+9-14	at	O	O	O	O
+9-15	our	O	O	PRP$	P3_passenger
+9-16	scheduled	O	O	JJ	O
+9-17	time	O	O	NN	P5_time_date
+9-18	far	9-9_prep	went	RB	O
+9-19	dinner	O	O	NN	P1_in-train_entertainment
+9-20	.	O	O	O	O
+
+#id=10
+#text=After which we went back to our room where we did some talking before finally falling asleep . 
+10-1	After	O	O	O	O
+10-2	which	10-4_prep_after	went	WDT	O
+10-3	we	10-4_nsubj	went	PRP	P3_passenger
+10-4	went	O	O	VBD	O
+10-5	back	10-4_advmod	went	RB	O
+10-6	to	O	O	O	O
+10-7	our	O	O	PRP$	P3_passenger
+10-8	room	10-4_prep_to	went	NN	P1_location_train
+10-9	where	10-11_advmod	did	WRB	P1_location_train
+10-10	we	10-11_nsubj	did	PRP	P3_passenger
+10-11	did	10-4_advcl	went	VBD	O
+10-12	some	10-11_dobj	did	DT	O
+10-13	talking	O	O	VBG	O
+10-14	before	O	O	O	O
+10-15	finally	10-16_advmod	falling	RB	O
+10-16	falling	10-13_prepc_before	talking	VBG	O
+10-17	asleep	10-16_acomp	falling	RB	O
+10-18	.	O	O	O	O
+
+#id=11
+#text=When we woke up we were only an hour from our destination . 
+11-1	When	11-3_advmod	woke	WRB	O
+11-2	we	11-3_nsubj	woke	PRP	P3_passenger
+11-3	woke	O	O	VBD	O
+11-4	up	11-3_prt	woke	RP	O
+11-5	we	O	O	PRP	P3_passenger
+11-6	were	O	O	VBD	O
+11-7	only	O	O	RB	O
+11-8	an	O	O	DT	O
+11-9	hour	O	O	NN	P6_time_date
+11-10	from	O	O	O	O
+11-11	our	O	O	PRP$	P3_passenger
+11-12	destination	O	O	NN	P1_destination
+11-13	.	O	O	O	O
+
+#id=12
+#text=We had enough time to get changed and pack our things up and before we knew it we were getting off the train . 
+12-1	We	12-2_nsubj	had	PRP	P3_passenger
+12-2	had	O	O	VBD	O
+12-3	enough	O	O	JJ	O
+12-4	time	12-2_dobj	had	NN	P7_time_date
+12-5	to	O	O	TO	O
+12-6	get	O	O	VB	O
+12-7	changed	O	O	JJ	O
+12-8	and	O	O	O	O
+12-9	pack	O	O	VB	O
+12-10	our	O	O	PRP$	P3_passenger
+12-11	things	12-9_dobj	pack	NNS	P1_personal_belongings
+12-12	up	12-9_prt	pack	RP	O
+12-13	and	O	O	O	O
+12-14	before	12-16_mark	knew	IN	O
+12-15	we	12-16_nsubj	knew	PRP	P3_passenger
+12-16	knew	12-20_advcl	getting	VBD	O
+12-17	it	12-16_dobj	knew	PRP	O
+12-18	we	12-20_nsubj	getting	PRP	P3_passenger
+12-19	were	12-20_aux	getting	VBD	O
+12-20	getting	12-2_conj_and	had	VBG	O
+12-21	off	12-20_prt	getting	RP	O
+12-22	the	O	O	DT	O
+12-23	train	12-20_dobj	getting	NN	P2_train
+12-24	.	O	O	O	O
+
+#id=13
+#text=It was a very pleasurable experience . 
+13-1	It	O	O	PRP	O
+13-2	was	O	O	VBD	O
+13-3	a	O	O	DT	O
+13-4	very	O	O	RB	O
+13-5	pleasurable	O	O	JJ	O
+13-6	experience	O	O	NN	P1_NPart_experience
+13-7	.	O	O	O	O

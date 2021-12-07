@@ -1,0 +1,199 @@
+#id=1
+#text=Today I took a bath in my new apartment . 
+1-1	Today	1-3_tmod	took	NN	O
+1-2	I	1-3_nsubj	took	PRP	P1_bather
+1-3	took	O	O	VBD	O
+1-4	a	O	O	DT	O
+1-5	bath	1-3_dobj	took	NN	O
+1-6	in	O	O	O	O
+1-7	my	O	O	PRP$	P1_bather
+1-8	new	O	O	JJ	O
+1-9	apartment	1-3_prep_in	took	NN	P1_NPart_apartment
+1-10	.	O	O	O	O
+
+#id=2
+#text=It is the first time I bathed there so I need to get my things ready . 
+2-1	It	O	O	PRP	O
+2-2	is	O	O	VBZ	O
+2-3	the	O	O	DT	O
+2-4	first	O	O	JJ	O
+2-5	time	O	O	NN	O
+2-6	I	2-7_nsubj	bathed	PRP	P1_bather
+2-7	bathed	O	O	VBD	O
+2-8	there	2-7_advmod	bathed	RB	O
+2-9	so	2-11_mark	need	IN	O
+2-10	I	2-11_nsubj	need	PRP	P1_bather
+2-11	need	2-7_advcl	bathed	VBP	O
+2-12	to	2-13_aux	get	TO	O
+2-13	get	2-11_xcomp	need	VB	O
+2-14	my	O	O	PRP$	P1_bather
+2-15	things	O	O	NNS	O
+2-16	ready	2-13_xcomp	get	JJ	O
+2-17	.	O	O	O	O
+
+#id=3
+#text=First , I turned on the water and filled the bath up with nice warm water . 
+3-1	First	3-4_advmod	turned	RB	O
+3-2	,	O	O	O	O
+3-3	I	3-4_nsubj	turned	PRP	P1_bather
+3-4	turned	O	O	VBD	O
+3-5	on	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	water	3-4_prep_on	turned	NN	P1_water
+3-8	and	O	O	O	O
+3-9	filled	3-4_conj_and	turned	VBD	O
+3-10	the	O	O	DT	O
+3-11	bath	3-9_dobj	filled	NN	P1_bathtub
+3-12	up	3-9_prt	filled	RP	O
+3-13	with	O	O	O	O
+3-14	nice	O	O	JJ	O
+3-15	warm	O	O	JJ	O
+3-16	water	3-9_prep_with	filled	NN	P1_water
+3-17	.	O	O	O	O
+
+#id=4
+#text=I made sure that I have my shampoo , soap , and sponge ready to get in . 
+4-1	I	4-2_nsubj	made	PRP	P1_bather
+4-2	made	O	O	VBD	O
+4-3	sure	4-2_acomp	made	JJ	O
+4-4	that	4-6_mark	have	IN	O
+4-5	I	4-6_nsubj	have	PRP	P1_bather
+4-6	have	4-2_ccomp	made	VBP	O
+4-7	my	O	O	PRP$	P1_bather
+4-8	shampoo	4-6_dobj	have	NN	P1_washing_tools
+4-9	,	O	O	O	O
+4-10	soap	O	O	NN	P2_washing_tools
+4-11	,	O	O	O	O
+4-12	and	O	O	O	O
+4-13	sponge	O	O	NN	P3_washing_tools
+4-14	ready	O	O	JJ	O
+4-15	to	4-16_aux	get	TO	O
+4-16	get	O	O	VB	O
+4-17	in	4-16_prt	get	RP	O
+4-18	.	O	O	O	O
+
+#id=5
+#text=Once I have those things , I hang my towel up on the towel rack and sink into the splendid bath . 
+5-1	Once	5-3_mark	have	IN	O
+5-2	I	5-3_nsubj	have	PRP	P1_bather
+5-3	have	5-8_advcl	hang	VBP	O
+5-4	those	O	O	DT	O
+5-5	things	5-3_dobj	have	NNS	P4_washing_tools
+5-6	,	O	O	O	O
+5-7	I	5-8_nsubj	hang	PRP	P1_bather
+5-8	hang	O	O	VB	O
+5-9	my	O	O	PRP$	P1_bather
+5-10	towel	5-8_dobj	hang	NN	P1_towel
+5-11	up	5-8_prt	hang	RP	O
+5-12	on	O	O	O	O
+5-13	the	O	O	DT	O
+5-14	towel	O	O	NN	O
+5-15	rack	5-8_prep_on	hang	NN	P1_NPart_rack
+5-16	and	O	O	O	O
+5-17	sink	5-8_conj_and	hang	VB	O
+5-18	into	O	O	O	O
+5-19	the	O	O	DT	O
+5-20	splendid	O	O	JJ	O
+5-21	bath	5-17_prep_into	sink	NN	P1_water
+5-22	.	O	O	O	O
+
+#id=6
+#text=I always put some music so I can sing along in the shower . 
+6-1	I	6-3_nsubj	put	PRP	P1_bather
+6-2	always	6-3_advmod	put	RB	O
+6-3	put	O	O	VBD	O
+6-4	some	O	O	DT	O
+6-5	music	6-3_dobj	put	NN	P1_in-bath_entertainment
+6-6	so	6-9_mark	sing	IN	O
+6-7	I	6-9_nsubj	sing	PRP	P1_bather
+6-8	can	6-9_aux	sing	MD	O
+6-9	sing	6-3_advcl	put	VB	O
+6-10	along	6-9_prt	sing	RP	O
+6-11	in	O	O	O	O
+6-12	the	O	O	DT	O
+6-13	shower	6-9_prep_in	sing	NN	P1_shower
+6-14	.	O	O	O	O
+
+#id=7
+#text=I make sure I scrub real good , especially behind my ears . 
+7-1	I	7-2_nsubj	make	PRP	P1_bather
+7-2	make	O	O	VBP	O
+7-3	sure	7-2_acomp	make	JJ	O
+7-4	I	7-5_nsubj	scrub	PRP	P1_bather
+7-5	scrub	O	O	VBZ	O
+7-6	real	O	O	RB	O
+7-7	good	7-5_acomp	scrub	JJ	O
+7-8	,	O	O	O	O
+7-9	especially	7-5_advmod	scrub	RB	O
+7-10	behind	O	O	O	O
+7-11	my	O	O	PRP$	P1_bather
+7-12	ears	7-5_prep_behind	scrub	NNS	P1_body_part
+7-13	.	O	O	O	O
+
+#id=8
+#text=After I get squeaky clean I relax for a little while longer , and get out the shower before I get wrinkly skin . 
+8-1	After	O	O	IN	O
+8-2	I	O	O	PRP	P1_bather
+8-3	get	O	O	VBP	O
+8-4	squeaky	O	O	RB	O
+8-5	clean	8-7_advcl	relax	JJ	O
+8-6	I	8-7_nsubj	relax	PRP	P1_bather
+8-7	relax	O	O	VBP	O
+8-8	for	O	O	O	O
+8-9	a	O	O	DT	O
+8-10	little	O	O	JJ	O
+8-11	while	8-7_prep_for	relax	NN	O
+8-12	longer	8-7_advmod	relax	RBR	O
+8-13	,	O	O	O	O
+8-14	and	O	O	O	O
+8-15	get	8-7_conj_and	relax	VBP	O
+8-16	out	8-15_prt	get	RP	O
+8-17	the	O	O	DT	O
+8-18	shower	8-15_dobj	get	NN	P1_bathtub
+8-19	before	O	O	O	O
+8-20	I	8-21_nsubj	get	PRP	P1_bather
+8-21	get	O	O	VBP	O
+8-22	wrinkly	O	O	JJ	O
+8-23	skin	8-21_dobj	get	NN	P2_body_part
+8-24	.	O	O	O	O
+
+#id=9
+#text=Once Im out I shake off the excess water and dry my body real good with the towel , then I dry my hair with the blow dryer . 
+9-1	Once	9-5_mark	shake	IN	O
+9-2	Im	9-5_nsubj	shake	NNP	P1_bather
+9-3	out	O	O	O	O
+9-4	I	O	O	PRP	P1_bather
+9-5	shake	9-22_advcl	dry	VB	O
+9-6	off	9-5_prt	shake	RP	O
+9-7	the	O	O	DT	O
+9-8	excess	O	O	JJ	O
+9-9	water	9-5_dobj	shake	NN	P1_water
+9-10	and	O	O	O	O
+9-11	dry	9-5_conj_and	shake	VB	O
+9-12	my	O	O	PRP$	P1_bather
+9-13	body	O	O	NN	P3_body_part
+9-14	real	O	O	RB	O
+9-15	good	9-11_xcomp	dry	JJ	O
+9-16	with	O	O	O	O
+9-17	the	O	O	DT	O
+9-18	towel	O	O	NN	P1_towel
+9-19	,	O	O	O	O
+9-20	then	O	O	RB	O
+9-21	I	9-22_nsubj	dry	PRP	P1_bather
+9-22	dry	O	O	VBD	O
+9-23	my	O	O	PRP$	P1_bather
+9-24	hair	9-22_dobj	dry	NN	P1_hair
+9-25	with	O	O	O	O
+9-26	the	O	O	DT	O
+9-27	blow	O	O	NN	O
+9-28	dryer	9-22_prep_with	dry	NN	P1_NPart_dryer
+9-29	.	O	O	O	O
+
+#id=10
+#text=It was a nice bath . 
+10-1	It	O	O	PRP	O
+10-2	was	O	O	VBD	O
+10-3	a	O	O	DT	O
+10-4	nice	O	O	JJ	O
+10-5	bath	O	O	NN	P1_bath
+10-6	.	O	O	O	O

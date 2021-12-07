@@ -1,0 +1,226 @@
+#id=1
+#text=Planting a tree is a very difficult task . 
+1-1	Planting	O	O	VBG	O
+1-2	a	O	O	DT	O
+1-3	tree	1-1_dobj	Planting	NN	P1_tree
+1-4	is	O	O	VBZ	O
+1-5	a	O	O	DT	O
+1-6	very	O	O	RB	O
+1-7	difficult	O	O	JJ	O
+1-8	task	O	O	NN	P1_NPart_task
+1-9	.	O	O	O	O
+
+#id=2
+#text=First , I went to Walmart or another nursery in the area and pick a tree . 
+2-1	First	2-4_advmod	went	RB	O
+2-2	,	O	O	O	O
+2-3	I	2-4_nsubj	went	PRP	P1_gardener
+2-4	went	O	O	VBD	O
+2-5	to	O	O	O	O
+2-6	Walmart	2-4_prep_to	went	NNP	P1_shop
+2-7	or	O	O	O	O
+2-8	another	O	O	DT	O
+2-9	nursery	O	O	NN	P2_shop
+2-10	in	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	area	2-4_prep_in	went	NN	P1_NPart_area
+2-13	and	O	O	O	O
+2-14	pick	2-4_conj_and	went	VBP	O
+2-15	a	O	O	DT	O
+2-16	tree	2-14_dobj	pick	NN	P1_tree
+2-17	.	O	O	O	O
+
+#id=3
+#text=When I get to Walmart , I asked the cashier for which trees are easiest to take care because I can not take care of plants very well . 
+3-1	When	3-3_advmod	get	WRB	O
+3-2	I	3-3_nsubj	get	PRP	P1_gardener
+3-3	get	3-8_advcl	asked	VBP	O
+3-4	to	O	O	O	O
+3-5	Walmart	3-3_prep_to	get	NNP	P1_shop
+3-6	,	O	O	O	O
+3-7	I	3-8_nsubj	asked	PRP	P1_gardener
+3-8	asked	O	O	VBD	O
+3-9	the	O	O	DT	O
+3-10	cashier	3-8_dobj	asked	NN	P1_staff
+3-11	for	O	O	O	O
+3-12	which	O	O	WDT	O
+3-13	trees	O	O	NNS	P1_tree
+3-14	are	O	O	VBP	O
+3-15	easiest	O	O	JJ	O
+3-16	to	3-17_aux	take	TO	O
+3-17	take	O	O	VB	O
+3-18	care	3-17_dobj	take	NN	O
+3-19	because	3-23_mark	take	IN	O
+3-20	I	3-23_nsubj	take	PRP	P1_gardener
+3-21	can	3-23_aux	take	MD	O
+3-22	not	3-23_neg	take	RB	O
+3-23	take	3-17_advcl	take	VB	O
+3-24	care	3-23_dobj	take	NN	O
+3-25	of	O	O	O	O
+3-26	plants	O	O	NNS	P1_tree
+3-27	very	O	O	RB	O
+3-28	well	3-23_advmod	take	RB	O
+3-29	.	O	O	O	O
+
+#id=4
+#text=Then I figured out whether I want a tree for the sun or shade . 
+4-1	Then	4-3_advmod	figured	RB	O
+4-2	I	4-3_nsubj	figured	PRP	P1_gardener
+4-3	figured	O	O	VBD	O
+4-4	out	4-3_prt	figured	RP	O
+4-5	whether	4-7_mark	want	IN	O
+4-6	I	4-7_nsubj	want	PRP	P1_gardener
+4-7	want	4-3_ccomp	figured	VBP	O
+4-8	a	O	O	DT	O
+4-9	tree	4-7_dobj	want	NN	P1_tree
+4-10	for	O	O	O	O
+4-11	the	O	O	DT	O
+4-12	sun	O	O	NN	P1_NPart_sun
+4-13	or	O	O	O	O
+4-14	shade	O	O	NN	P1_NPart_shade
+4-15	.	O	O	O	O
+
+#id=5
+#text=When I picked a tree , I took it to the cashier and paid for it . 
+5-1	When	5-3_advmod	picked	WRB	O
+5-2	I	5-3_nsubj	picked	PRP	P1_gardener
+5-3	picked	5-8_advcl	took	VBD	O
+5-4	a	O	O	DT	O
+5-5	tree	5-3_dobj	picked	NN	P1_tree
+5-6	,	O	O	O	O
+5-7	I	5-8_nsubj	took	PRP	P1_gardener
+5-8	took	O	O	VBD	O
+5-9	it	5-8_dobj	took	PRP	P1_tree
+5-10	to	O	O	O	O
+5-11	the	O	O	DT	O
+5-12	cashier	5-8_prep_to	took	NN	P1_staff
+5-13	and	O	O	O	O
+5-14	paid	5-8_conj_and	took	VBD	O
+5-15	for	O	O	O	O
+5-16	it	5-14_prep_for	paid	PRP	P1_tree
+5-17	.	O	O	O	O
+
+#id=6
+#text=Then I put the tree in the back of my car and went home . 
+6-1	Then	6-3_advmod	put	RB	O
+6-2	I	6-3_nsubj	put	PRP	P1_gardener
+6-3	put	O	O	VBD	O
+6-4	the	O	O	DT	O
+6-5	tree	6-3_dobj	put	NN	P1_tree
+6-6	in	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	back	6-3_prep_in	put	NN	P1_NPart_back
+6-9	of	O	O	O	O
+6-10	my	O	O	PRP$	P1_gardener
+6-11	car	O	O	NN	P1_NPart_car
+6-12	and	O	O	O	O
+6-13	went	6-3_conj_and	put	VBD	O
+6-14	home	6-13_dobj	went	NN	P1_NPart_home
+6-15	.	O	O	O	O
+
+#id=7
+#text=Next , when I got home , I took the tree outside and figured out where I wouldput it in the yard . 
+7-1	Next	7-9_advmod	took	RB	O
+7-2	,	O	O	O	O
+7-3	when	7-5_advmod	got	WRB	O
+7-4	I	7-5_nsubj	got	PRP	P1_gardener
+7-5	got	7-9_advcl	took	VBD	O
+7-6	home	7-5_dobj	got	NN	P2_NPart_home
+7-7	,	O	O	O	O
+7-8	I	7-9_nsubj	took	PRP	P1_gardener
+7-9	took	O	O	VBD	O
+7-10	the	O	O	DT	O
+7-11	tree	7-9_dobj	took	NN	P1_tree
+7-12	outside	7-9_advmod	took	RB	O
+7-13	and	O	O	O	O
+7-14	figured	7-9_conj_and	took	VBD	O
+7-15	out	7-14_prt	figured	RP	O
+7-16	where	7-18_advmod	wouldput	WRB	O
+7-17	I	7-18_nsubj	wouldput	PRP	P1_gardener
+7-18	wouldput	7-9_advcl	took	VBP	O
+7-19	it	7-18_dobj	wouldput	PRP	P1_tree
+7-20	in	O	O	O	O
+7-21	the	O	O	DT	O
+7-22	yard	7-18_prep_in	wouldput	NN	P1_NPart_yard
+7-23	.	O	O	O	O
+
+#id=8
+#text=Afterwards , I dug a whole where the tree would go . 
+8-1	Afterwards	8-4_advmod	dug	RB	O
+8-2	,	O	O	O	O
+8-3	I	8-4_nsubj	dug	PRP	P1_gardener
+8-4	dug	O	O	VBD	O
+8-5	a	O	O	DT	O
+8-6	whole	8-4_dobj	dug	NN	P1_hole
+8-7	where	8-11_advmod	go	WRB	O
+8-8	the	O	O	DT	O
+8-9	tree	8-11_nsubj	go	NN	P1_tree
+8-10	would	8-11_aux	go	MD	O
+8-11	go	8-4_advcl	dug	VB	O
+8-12	.	O	O	O	O
+
+#id=9
+#text=The hole was the size of the pot of the tree . 
+9-1	The	O	O	DT	O
+9-2	hole	O	O	NN	P1_hole
+9-3	was	O	O	VBD	O
+9-4	the	O	O	DT	O
+9-5	size	O	O	NN	P1_NPart_size
+9-6	of	O	O	O	O
+9-7	the	O	O	DT	O
+9-8	pot	O	O	NN	P1_wrapping
+9-9	of	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	tree	O	O	NN	P1_tree
+9-12	.	O	O	O	O
+
+#id=10
+#text=Then I pulled the tree out of the pot and put the whole thing in the hole I dug . 
+10-1	Then	10-3_advmod	pulled	RB	O
+10-2	I	10-3_nsubj	pulled	PRP	P1_gardener
+10-3	pulled	O	O	VBD	O
+10-4	the	O	O	DT	O
+10-5	tree	10-3_dobj	pulled	NN	P1_tree
+10-6	out	O	O	O	O
+10-7	of	O	O	O	O
+10-8	the	O	O	DT	O
+10-9	pot	10-3_prep_out_of	pulled	NN	P1_wrapping
+10-10	and	O	O	O	O
+10-11	put	10-3_conj_and	pulled	VBD	O
+10-12	the	O	O	DT	O
+10-13	whole	O	O	JJ	O
+10-14	thing	10-11_dobj	put	NN	P1_tree
+10-15	in	O	O	O	O
+10-16	the	O	O	DT	O
+10-17	hole	10-11_prep_in	put	NN	P1_hole
+10-18	I	10-19_nsubj	dug	PRP	P1_gardener
+10-19	dug	O	O	VBD	O
+10-20	.	O	O	O	O
+
+#id=11
+#text=Then , I covered the sides with more dirt and put some fertilizer and water around the tree so it set in the ground . 
+11-1	Then	11-4_advmod	covered	RB	O
+11-2	,	O	O	O	O
+11-3	I	11-4_nsubj	covered	PRP	P1_gardener
+11-4	covered	O	O	VBD	O
+11-5	the	O	O	DT	O
+11-6	sides	11-4_dobj	covered	NNS	P1_hole
+11-7	with	O	O	O	O
+11-8	more	O	O	JJR	O
+11-9	dirt	11-4_prep_with	covered	NN	P1_dirt
+11-10	and	O	O	O	O
+11-11	put	11-4_conj_and	covered	VBD	O
+11-12	some	O	O	DT	O
+11-13	fertilizer	11-11_dobj	put	NN	P1_fertilizer
+11-14	and	O	O	O	O
+11-15	water	O	O	NN	P1_water
+11-16	around	O	O	O	O
+11-17	the	O	O	DT	O
+11-18	tree	11-11_prep_around	put	NN	P1_tree
+11-19	so	11-21_mark	set	IN	O
+11-20	it	11-21_nsubj	set	PRP	P1_tree
+11-21	set	11-11_advcl	put	VBD	O
+11-22	in	O	O	O	O
+11-23	the	O	O	DT	O
+11-24	ground	11-21_prep_in	set	NN	P1_dirt
+11-25	.	O	O	O	O

@@ -1,0 +1,212 @@
+#id=1
+#text=Last week I traveled on a train to see my brother . 
+1-1	Last	O	O	JJ	O
+1-2	week	1-4_tmod	traveled	NN	P1_NPart_week
+1-3	I	1-4_nsubj	traveled	PRP	P1_passenger
+1-4	traveled	O	O	VBD	O
+1-5	on	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	train	1-4_prep_on	traveled	NN	P1_train
+1-8	to	1-9_aux	see	TO	O
+1-9	see	1-4_xcomp	traveled	VB	O
+1-10	my	O	O	PRP$	P1_passenger
+1-11	brother	1-9_dobj	see	NN	P1_NPart_brother
+1-12	.	O	O	O	O
+
+#id=2
+#text=When my brother 's pregnant wife gave birth to their baby I was excited to see them and their new addition to the family . 
+2-1	When	2-7_advmod	gave	WRB	O
+2-2	my	O	O	PRP$	P1_passenger
+2-3	brother	O	O	NN	P2_NPart_brother
+2-4	's	O	O	O	O
+2-5	pregnant	O	O	JJ	O
+2-6	wife	2-7_nsubj	gave	NN	P1_NPart_wife
+2-7	gave	O	O	VBD	O
+2-8	birth	2-7_dobj	gave	NN	P1_NPart_birth
+2-9	to	O	O	O	O
+2-10	their	O	O	PRP$	P1_NPart_their
+2-11	baby	2-7_prep_to	gave	NN	P1_NPart_baby
+2-12	I	O	O	PRP	P1_passenger
+2-13	was	O	O	VBD	O
+2-14	excited	O	O	JJ	O
+2-15	to	2-16_aux	see	TO	O
+2-16	see	O	O	VB	O
+2-17	them	2-16_dobj	see	PRP	P1_NPart_them
+2-18	and	O	O	O	O
+2-19	their	O	O	PRP$	P2_NPart_their
+2-20	new	O	O	JJ	O
+2-21	addition	2-16_conj_and	see	NN	P1_NPart_addition
+2-22	to	O	O	O	O
+2-23	the	O	O	DT	O
+2-24	family	O	O	NN	P1_NPart_family
+2-25	.	O	O	O	O
+
+#id=3
+#text=They lived 500 miles away in Charlotte , North Carolina . 
+3-1	They	3-2_nsubj	lived	PRP	P1_NPart_they
+3-2	lived	O	O	VBD	O
+3-3	500	O	O	CD	O
+3-4	miles	O	O	NNS	P1_NPart_miles
+3-5	away	3-2_advmod	lived	RB	O
+3-6	in	O	O	O	O
+3-7	Charlotte	O	O	NNP	P1_destination
+3-8	,	O	O	O	O
+3-9	North	O	O	JJ	O
+3-10	Carolina	3-2_prep_in	lived	NNP	P1_NPart_carolina
+3-11	.	O	O	O	O
+
+#id=4
+#text=The cheapest option was to catch a train to go see them . 
+4-1	The	O	O	DT	O
+4-2	cheapest	O	O	JJS	O
+4-3	option	4-4_nsubj	was	NN	P1_NPart_option
+4-4	was	O	O	VBD	O
+4-5	to	4-6_aux	catch	TO	O
+4-6	catch	4-4_xcomp	was	VB	O
+4-7	a	O	O	DT	O
+4-8	train	4-6_dobj	catch	NN	P1_train
+4-9	to	4-10_aux	go	TO	O
+4-10	go	O	O	VB	O
+4-11	see	4-10_xcomp	go	VB	O
+4-12	them	4-11_dobj	see	PRP	P2_NPart_them
+4-13	.	O	O	O	O
+
+#id=5
+#text=I arrived at the train station and went to the ticket desk . 
+5-1	I	5-2_nsubj	arrived	PRP	P1_passenger
+5-2	arrived	O	O	VBD	O
+5-3	at	O	O	O	O
+5-4	the	O	O	DT	O
+5-5	train	O	O	NN	O
+5-6	station	5-2_prep_at	arrived	NN	P1_train_station
+5-7	and	O	O	O	O
+5-8	went	5-2_conj_and	arrived	VBD	O
+5-9	to	O	O	O	O
+5-10	the	O	O	DT	O
+5-11	ticket	O	O	NN	O
+5-12	desk	5-8_prep_to	went	NN	P1_ticket_office/website
+5-13	.	O	O	O	O
+
+#id=6
+#text=He asked me where I would like to go , and I told him where and why . 
+6-1	He	6-2_nsubj	asked	PRP	P1_train_staff
+6-2	asked	O	O	VBD	O
+6-3	me	6-2_dobj	asked	PRP	P1_passenger
+6-4	where	6-7_advmod	like	WRB	O
+6-5	I	6-7_nsubj	like	PRP	P1_passenger
+6-6	would	6-7_aux	like	MD	O
+6-7	like	6-2_advcl	asked	VB	O
+6-8	to	6-9_aux	go	TO	O
+6-9	go	6-7_xcomp	like	VB	O
+6-10	,	O	O	O	O
+6-11	and	O	O	O	O
+6-12	I	6-13_nsubj	told	PRP	P1_passenger
+6-13	told	6-2_conj_and	asked	VBD	O
+6-14	him	6-13_dobj	told	PRP	P1_train_staff
+6-15	where	O	O	WRB	O
+6-16	and	O	O	CC	O
+6-17	why	O	O	WRB	O
+6-18	.	O	O	O	O
+
+#id=7
+#text=He was happy to assist me . 
+7-1	He	O	O	PRP	P1_train_staff
+7-2	was	O	O	VBD	O
+7-3	happy	O	O	JJ	O
+7-4	to	7-5_aux	assist	TO	O
+7-5	assist	O	O	VB	O
+7-6	me	7-5_dobj	assist	PRP	P1_passenger
+7-7	.	O	O	O	O
+
+#id=8
+#text=He pointed me in the direction to the correct platform where my train would departure from . 
+8-1	He	8-2_nsubj	pointed	PRP	P1_train_staff
+8-2	pointed	O	O	VBD	O
+8-3	me	8-2_dobj	pointed	PRP	P1_passenger
+8-4	in	O	O	O	O
+8-5	the	O	O	DT	O
+8-6	direction	8-2_prep_in	pointed	NN	P1_NPart_direction
+8-7	to	O	O	O	O
+8-8	the	O	O	DT	O
+8-9	correct	O	O	JJ	O
+8-10	platform	8-2_prep_to	pointed	NN	P1_platform
+8-11	where	8-15_advmod	departure	WRB	O
+8-12	my	O	O	PRP$	P1_passenger
+8-13	train	8-15_nsubj	departure	NN	P1_train
+8-14	would	8-15_aux	departure	MD	O
+8-15	departure	8-2_advcl	pointed	VB	O
+8-16	from	8-15_prep	departure	IN	O
+8-17	.	O	O	O	O
+
+#id=9
+#text=When I got to the platform , the train was waiting for me . 
+9-1	When	9-3_advmod	got	WRB	O
+9-2	I	9-3_nsubj	got	PRP	P1_passenger
+9-3	got	9-11_advcl	waiting	VBD	O
+9-4	to	O	O	O	O
+9-5	the	O	O	DT	O
+9-6	platform	9-3_prep_to	got	NN	P1_platform
+9-7	,	O	O	O	O
+9-8	the	O	O	DT	O
+9-9	train	9-11_nsubj	waiting	NN	P1_train
+9-10	was	9-11_aux	waiting	VBD	O
+9-11	waiting	O	O	VBG	O
+9-12	for	O	O	O	O
+9-13	me	9-11_prep_for	waiting	PRP	P1_passenger
+9-14	.	O	O	O	O
+
+#id=10
+#text=I handed the attendant my ticket and got on the train . 
+10-1	I	10-2_nsubj	handed	PRP	P1_passenger
+10-2	handed	O	O	VBD	O
+10-3	the	O	O	DT	O
+10-4	attendant	10-2_iobj	handed	NN	P2_train_staff
+10-5	my	O	O	PRP$	P1_passenger
+10-6	ticket	10-2_dobj	handed	NN	P1_card/ticket
+10-7	and	O	O	O	O
+10-8	got	10-2_conj_and	handed	VBD	O
+10-9	on	O	O	O	O
+10-10	the	O	O	DT	O
+10-11	train	10-8_prep_on	got	NN	P1_train
+10-12	.	O	O	O	O
+
+#id=11
+#text=Now it was time to put my feet back and relax . 
+11-1	Now	O	O	RB	O
+11-2	it	O	O	PRP	O
+11-3	was	O	O	VBD	O
+11-4	time	O	O	NN	O
+11-5	to	11-6_aux	put	TO	O
+11-6	put	O	O	VB	O
+11-7	my	O	O	PRP$	P1_passenger
+11-8	feet	11-6_dobj	put	NNS	P1_NPart_feet
+11-9	back	11-6_advmod	put	RB	O
+11-10	and	O	O	O	O
+11-11	relax	11-6_conj_and	put	VB	O
+11-12	.	O	O	O	O
+
+#id=12
+#text=In just a few short hours , I arrived in Charlotte , North Carolina and was off to see my new nephew ! 
+12-1	In	O	O	O	O
+12-2	just	O	O	RB	O
+12-3	a	O	O	DT	O
+12-4	few	O	O	JJ	O
+12-5	short	O	O	JJ	O
+12-6	hours	12-9_prep_in	arrived	NNS	P1_NPart_hours
+12-7	,	O	O	O	O
+12-8	I	12-9_nsubj	arrived	PRP	P1_passenger
+12-9	arrived	O	O	VBD	O
+12-10	in	O	O	O	O
+12-11	Charlotte	O	O	NNP	P1_destination
+12-12	,	O	O	O	O
+12-13	North	O	O	JJ	O
+12-14	Carolina	12-9_prep_in	arrived	NNP	P2_NPart_carolina
+12-15	and	O	O	O	O
+12-16	was	O	O	VBD	O
+12-17	off	12-9_conj_and	arrived	IN	O
+12-18	to	12-19_aux	see	TO	O
+12-19	see	O	O	VB	O
+12-20	my	O	O	PRP$	P1_passenger
+12-21	new	O	O	JJ	O
+12-22	nephew	12-19_dobj	see	NN	P1_NPart_nephew
+12-23	!	O	O	O	O

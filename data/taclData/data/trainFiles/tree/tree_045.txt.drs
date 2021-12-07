@@ -1,0 +1,204 @@
+#id=1
+#text=Earth day is a very important day in America . 
+1-1	Earth	O	O	NNP	O
+1-2	day	O	O	NN	P1_time
+1-3	is	O	O	VBZ	O
+1-4	a	O	O	DT	O
+1-5	very	O	O	RB	O
+1-6	important	O	O	JJ	O
+1-7	day	O	O	NN	P1_NPart_day
+1-8	in	O	O	O	O
+1-9	America	O	O	NNP	P1_NPart_america
+1-10	.	O	O	O	O
+
+#id=2
+#text=It is a day where we recognize the environment and the fact that we need to protect it . 
+2-1	It	O	O	PRP	P1_time
+2-2	is	O	O	VBZ	O
+2-3	a	O	O	DT	O
+2-4	day	O	O	NN	P1_time
+2-5	where	2-7_advmod	recognize	WRB	O
+2-6	we	2-7_nsubj	recognize	PRP	P1_gardener
+2-7	recognize	O	O	VBP	O
+2-8	the	O	O	DT	O
+2-9	environment	2-7_dobj	recognize	NN	P1_NPart_environment
+2-10	and	O	O	O	O
+2-11	the	O	O	DT	O
+2-12	fact	O	O	NN	P1_NPart_fact
+2-13	that	2-15_mark	need	IN	O
+2-14	we	2-15_nsubj	need	PRP	P1_gardener
+2-15	need	2-7_ccomp	recognize	VBP	O
+2-16	to	2-17_aux	protect	TO	O
+2-17	protect	2-15_xcomp	need	VB	O
+2-18	it	2-17_dobj	protect	PRP	P1_NPart_it
+2-19	.	O	O	O	O
+
+#id=3
+#text=This earth day my friend Patrick and I decided that we should plant a tree to counteract the effects of deforesting . 
+3-1	This	O	O	DT	O
+3-2	earth	3-9_nsubj	decided	NN	O
+3-3	day	3-9_tmod	decided	NN	P1_time
+3-4	my	O	O	PRP$	O
+3-5	friend	O	O	NN	O
+3-6	Patrick	3-9_nsubj	decided	NNP	O
+3-7	and	O	O	O	O
+3-8	I	O	O	PRP	P1_gardener
+3-9	decided	O	O	VBD	O
+3-10	that	3-13_mark	plant	IN	O
+3-11	we	3-13_nsubj	plant	PRP	P1_gardener
+3-12	should	3-13_aux	plant	MD	O
+3-13	plant	3-9_ccomp	decided	VB	O
+3-14	a	O	O	DT	O
+3-15	tree	3-13_dobj	plant	NN	P1_tree
+3-16	to	3-17_aux	counteract	TO	O
+3-17	counteract	O	O	VB	O
+3-18	the	O	O	DT	O
+3-19	effects	3-17_dobj	counteract	NNS	P1_NPart_effects
+3-20	of	O	O	O	O
+3-21	deforesting	O	O	NN	O
+3-22	.	O	O	O	O
+
+#id=4
+#text=To do this we first dug a hole in the ground twice the size of the root ball of the tree . 
+4-1	To	4-2_aux	do	TO	O
+4-2	do	4-6_dep	dug	VB	O
+4-3	this	4-2_dobj	do	DT	O
+4-4	we	4-6_nsubj	dug	PRP	P1_gardener
+4-5	first	4-6_advmod	dug	RB	O
+4-6	dug	O	O	VBD	O
+4-7	a	O	O	DT	O
+4-8	hole	4-6_dobj	dug	NN	P1_hole
+4-9	in	O	O	O	O
+4-10	the	O	O	DT	O
+4-11	ground	O	O	NN	P1_dirt
+4-12	twice	O	O	RB	O
+4-13	the	O	O	DT	O
+4-14	size	O	O	NN	P1_NPart_size
+4-15	of	O	O	O	O
+4-16	the	O	O	DT	O
+4-17	root	O	O	NN	O
+4-18	ball	O	O	NN	P1_root
+4-19	of	O	O	O	O
+4-20	the	O	O	DT	O
+4-21	tree	O	O	NN	P1_tree
+4-22	.	O	O	O	O
+
+#id=5
+#text=It was hard work , but it ensures that the tree has enough loose soil to spread its roots in . 
+5-1	It	O	O	PRP	O
+5-2	was	O	O	VBD	O
+5-3	hard	O	O	JJ	O
+5-4	work	O	O	NN	P1_NPart_work
+5-5	,	O	O	O	O
+5-6	but	O	O	O	O
+5-7	it	5-8_nsubj	ensures	PRP	O
+5-8	ensures	O	O	VBZ	O
+5-9	that	5-12_mark	has	IN	O
+5-10	the	O	O	DT	O
+5-11	tree	5-12_nsubj	has	NN	P1_tree
+5-12	has	5-8_ccomp	ensures	VBZ	O
+5-13	enough	O	O	RB	O
+5-14	loose	O	O	JJ	O
+5-15	soil	5-12_dobj	has	NN	P1_dirt
+5-16	to	5-17_aux	spread	TO	O
+5-17	spread	O	O	VB	O
+5-18	its	O	O	PRP$	P1_tree
+5-19	roots	5-17_dobj	spread	NNS	P1_root
+5-20	in	5-17_prep	spread	IN	O
+5-21	.	O	O	O	O
+
+#id=6
+#text=We then placed the tree in the middle of the pit we had dug and made sure it was centered . 
+6-1	We	6-3_nsubj	placed	PRP	P1_gardener
+6-2	then	6-3_advmod	placed	RB	O
+6-3	placed	O	O	VBD	O
+6-4	the	O	O	DT	O
+6-5	tree	6-3_dobj	placed	NN	P1_tree
+6-6	in	O	O	O	O
+6-7	the	O	O	DT	O
+6-8	middle	6-3_prep_in	placed	NN	P1_NPart_middle
+6-9	of	O	O	O	O
+6-10	the	O	O	DT	O
+6-11	pit	O	O	NN	P1_hole
+6-12	we	6-14_nsubj	dug	PRP	P1_gardener
+6-13	had	6-14_aux	dug	VBD	O
+6-14	dug	O	O	VBD	O
+6-15	and	O	O	O	O
+6-16	made	6-3_conj_and	placed	VBD	O
+6-17	sure	6-16_acomp	made	JJ	O
+6-18	it	6-20_nsubjpass	centered	PRP	P1_tree
+6-19	was	6-20_auxpass	centered	VBD	O
+6-20	centered	O	O	VBN	O
+6-21	.	O	O	O	O
+
+#id=7
+#text=After that we filled in the rest of the pit with a high quality planting soil in order to give the tree proper nutrition . 
+7-1	After	O	O	O	O
+7-2	that	7-4_prep_after	filled	DT	O
+7-3	we	7-4_nsubj	filled	PRP	P1_gardener
+7-4	filled	O	O	VBD	O
+7-5	in	O	O	O	O
+7-6	the	O	O	DT	O
+7-7	rest	7-4_prep_in	filled	NN	O
+7-8	of	O	O	O	O
+7-9	the	O	O	DT	O
+7-10	pit	O	O	NN	P1_hole
+7-11	with	O	O	O	O
+7-12	a	O	O	DT	O
+7-13	high	O	O	JJ	O
+7-14	quality	O	O	NN	O
+7-15	planting	O	O	NN	O
+7-16	soil	O	O	NN	P1_dirt
+7-17	in	7-20_mark	give	IN	O
+7-18	order	7-20_dep	give	NN	O
+7-19	to	7-20_aux	give	TO	O
+7-20	give	7-4_advcl	filled	VB	O
+7-21	the	O	O	DT	O
+7-22	tree	7-20_iobj	give	NN	P1_tree
+7-23	proper	O	O	JJ	O
+7-24	nutrition	7-20_dobj	give	NN	P1_NPart_nutrition
+7-25	.	O	O	O	O
+
+#id=8
+#text=After the soil was placed in we stepped on the soil to compact it and make sure the tree stays in place . 
+8-1	After	8-5_mark	placed	IN	O
+8-2	the	O	O	DT	O
+8-3	soil	8-5_nsubjpass	placed	NN	P1_dirt
+8-4	was	8-5_auxpass	placed	VBD	O
+8-5	placed	8-20_advcl	stays	VBN	O
+8-6	in	8-8_mark	stepped	IN	O
+8-7	we	8-8_nsubj	stepped	PRP	P1_gardener
+8-8	stepped	8-5_advcl	placed	VBD	O
+8-9	on	O	O	O	O
+8-10	the	O	O	DT	O
+8-11	soil	8-8_prep_on	stepped	NN	P1_dirt
+8-12	to	8-13_aux	compact	TO	O
+8-13	compact	8-8_xcomp	stepped	VB	O
+8-14	it	8-13_dobj	compact	PRP	P1_dirt
+8-15	and	O	O	O	O
+8-16	make	8-13_conj_and	compact	VB	O
+8-17	sure	8-16_acomp	make	JJ	O
+8-18	the	O	O	DT	O
+8-19	tree	8-20_nsubj	stays	NN	P1_tree
+8-20	stays	O	O	VBZ	O
+8-21	in	O	O	O	O
+8-22	place	8-20_prep_in	stays	NN	P1_NPart_place
+8-23	.	O	O	O	O
+
+#id=9
+#text=It felt really good to give back to the environment instead of damaging it . 
+9-1	It	9-2_nsubj	felt	PRP	O
+9-2	felt	O	O	VBD	O
+9-3	really	O	O	RB	O
+9-4	good	9-2_acomp	felt	JJ	O
+9-5	to	9-6_aux	give	TO	O
+9-6	give	O	O	VB	O
+9-7	back	9-6_prt	give	RP	O
+9-8	to	O	O	O	O
+9-9	the	O	O	DT	O
+9-10	environment	9-6_prep_to	give	NN	P2_NPart_environment
+9-11	instead	O	O	O	O
+9-12	of	O	O	O	O
+9-13	damaging	O	O	VBG	O
+9-14	it	9-13_dobj	damaging	PRP	P2_NPart_it
+9-15	.	O	O	O	O

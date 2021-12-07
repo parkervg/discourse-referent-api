@@ -1,0 +1,566 @@
+#id=1
+#text=Recently I was invited to a function at a church with a downtown location . 
+1-1	Recently	1-4_advmod	invited	RB	O
+1-2	I	1-4_nsubjpass	invited	PRP	P1_passenger
+1-3	was	1-4_auxpass	invited	VBD	O
+1-4	invited	O	O	VBN	O
+1-5	to	O	O	O	O
+1-6	a	O	O	DT	O
+1-7	function	1-4_prep_to	invited	NN	P1_NPart_function
+1-8	at	O	O	O	O
+1-9	a	O	O	DT	O
+1-10	church	1-4_prep_at	invited	NN	P1_destination
+1-11	with	O	O	O	O
+1-12	a	O	O	DT	O
+1-13	downtown	O	O	NN	O
+1-14	location	O	O	NN	O
+1-15	.	O	O	O	O
+
+#id=2
+#text=I live in a large city that has trains that travel within the city and also go to nearby towns . 
+2-1	I	2-2_nsubj	live	PRP	P2_passenger
+2-2	live	O	O	VBP	O
+2-3	in	O	O	O	O
+2-4	a	O	O	DT	O
+2-5	large	O	O	JJ	O
+2-6	city	2-2_prep_in	live	NN	P1_NPart_city
+2-7	that	2-8_nsubj	has	WDT	O
+2-8	has	O	O	VBZ	O
+2-9	trains	2-8_dobj	has	NNS	P1_train
+2-10	that	2-11_nsubj	travel	WDT	O
+2-11	travel	O	O	VBP	O
+2-12	within	O	O	O	O
+2-13	the	O	O	DT	O
+2-14	city	2-11_prep_within	travel	NN	P1_NPart_city
+2-15	and	O	O	O	O
+2-16	also	2-17_advmod	go	RB	O
+2-17	go	2-11_conj_and	travel	VBP	O
+2-18	to	O	O	O	O
+2-19	nearby	O	O	JJ	O
+2-20	towns	2-17_prep_to	go	NNS	P1_NPart_towns
+2-21	.	O	O	O	O
+
+#id=3
+#text=There are several routes that the trains travel called lines and they are named by colors : red , green and orange . 
+3-1	There	3-2_expl	are	EX	O
+3-2	are	O	O	VBP	O
+3-3	several	O	O	JJ	O
+3-4	routes	3-2_nsubj	are	NNS	P1_other
+3-5	that	3-9_mark	called	IN	O
+3-6	the	O	O	DT	O
+3-7	trains	O	O	NNS	P2_train
+3-8	travel	3-9_nsubj	called	NN	O
+3-9	called	3-2_ccomp	are	VBD	O
+3-10	lines	3-9_dobj	called	NNS	P1_other
+3-11	and	O	O	O	O
+3-12	they	3-14_nsubjpass	named	PRP	P1_other
+3-13	are	3-14_auxpass	named	VBP	O
+3-14	named	3-2_conj_and	are	VBN	O
+3-15	by	O	O	O	O
+3-16	colors	3-14_agent	named	NNS	P1_NPart_colors
+3-17	:	O	O	O	O
+3-18	red	O	O	JJ	O
+3-19	,	O	O	O	O
+3-20	green	O	O	JJ	O
+3-21	and	O	O	O	O
+3-22	orange	O	O	JJ	O
+3-23	.	O	O	O	O
+
+#id=4
+#text=This is so passengers know what train to take to get where they want to go . 
+4-1	This	4-2_nsubj	is	DT	O
+4-2	is	O	O	VBZ	O
+4-3	so	4-5_mark	know	IN	O
+4-4	passengers	4-5_nsubj	know	NNS	P3_passenger
+4-5	know	4-2_advcl	is	VBP	O
+4-6	what	4-7_nsubj	train	WP	O
+4-7	train	4-5_ccomp	know	VBP	P3_train
+4-8	to	4-9_aux	take	TO	O
+4-9	take	4-7_xcomp	train	VB	O
+4-10	to	4-11_aux	get	TO	O
+4-11	get	4-9_xcomp	take	VB	O
+4-12	where	4-14_advmod	want	WRB	O
+4-13	they	4-14_nsubj	want	PRP	P3_passenger
+4-14	want	4-11_advcl	get	VBP	O
+4-15	to	4-16_aux	go	TO	O
+4-16	go	4-14_xcomp	want	VB	O
+4-17	.	O	O	O	O
+
+#id=5
+#text=The last time I went to that church I had a lot of trouble finding a parking spot , so I decided to take the train there . 
+5-1	The	O	O	DT	O
+5-2	last	O	O	JJ	O
+5-3	time	5-5_nsubj	went	NN	P1_time_date
+5-4	I	5-5_nsubj	went	PRP	P4_passenger
+5-5	went	O	O	VBD	O
+5-6	to	O	O	O	O
+5-7	that	O	O	DT	O
+5-8	church	5-5_prep_to	went	NN	P1_destination
+5-9	I	5-10_nsubj	had	PRP	P4_passenger
+5-10	had	5-5_ccomp	went	VBD	O
+5-11	a	O	O	DT	O
+5-12	lot	5-10_dobj	had	NN	O
+5-13	of	O	O	O	O
+5-14	trouble	O	O	NN	O
+5-15	finding	O	O	VBG	O
+5-16	a	O	O	DT	O
+5-17	parking	O	O	NN	O
+5-18	spot	5-15_dobj	finding	NN	P1_NPart_spot
+5-19	,	O	O	O	O
+5-20	so	5-5_dep	went	IN	O
+5-21	I	5-22_nsubj	decided	PRP	P4_passenger
+5-22	decided	5-5_parataxis	went	VBD	O
+5-23	to	5-24_aux	take	TO	O
+5-24	take	5-22_xcomp	decided	VB	O
+5-25	the	O	O	DT	O
+5-26	train	5-24_dobj	take	NN	P4_train
+5-27	there	5-24_advmod	take	RB	P1_destination
+5-28	.	O	O	O	O
+
+#id=6
+#text=I knew that the train station was only a few blocks away from the church so it would be easy to get to the church . 
+6-1	I	6-2_nsubj	knew	PRP	P4_passenger
+6-2	knew	O	O	VBD	O
+6-3	that	6-7_mark	was	IN	O
+6-4	the	O	O	DT	O
+6-5	train	O	O	NN	O
+6-6	station	6-7_nsubj	was	NN	P1_train_station
+6-7	was	6-2_ccomp	knew	VBD	O
+6-8	only	O	O	RB	O
+6-9	a	O	O	DT	O
+6-10	few	O	O	JJ	O
+6-11	blocks	6-7_npadvmod	was	NNS	P1_NPart_blocks
+6-12	away	O	O	O	O
+6-13	from	O	O	O	O
+6-14	the	O	O	DT	O
+6-15	church	6-7_prep_away_from	was	NN	P1_destination
+6-16	so	O	O	IN	O
+6-17	it	O	O	PRP	O
+6-18	would	O	O	MD	O
+6-19	be	O	O	VB	O
+6-20	easy	6-7_advcl	was	JJ	O
+6-21	to	6-22_aux	get	TO	O
+6-22	get	O	O	VB	O
+6-23	to	O	O	O	O
+6-24	the	O	O	DT	O
+6-25	church	6-22_prep_to	get	NN	P1_destination
+6-26	.	O	O	O	O
+
+#id=7
+#text=I drove to the train station closest to my house , and parked the car in the parking lot . 
+7-1	I	7-2_nsubj	drove	PRP	P4_passenger
+7-2	drove	O	O	VBD	O
+7-3	to	O	O	O	O
+7-4	the	O	O	DT	O
+7-5	train	O	O	NN	O
+7-6	station	7-2_prep_to	drove	NN	P1_train_station
+7-7	closest	O	O	JJS	O
+7-8	to	O	O	O	O
+7-9	my	O	O	PRP$	P4_passenger
+7-10	house	O	O	NN	P1_NPart_house
+7-11	,	O	O	O	O
+7-12	and	O	O	O	O
+7-13	parked	7-2_conj_and	drove	VBD	O
+7-14	the	O	O	DT	O
+7-15	car	7-13_dobj	parked	NN	P1_NPart_car
+7-16	in	O	O	O	O
+7-17	the	O	O	DT	O
+7-18	parking	O	O	NN	O
+7-19	lot	7-13_prep_in	parked	NN	P1_NPart_lot
+7-20	.	O	O	O	O
+
+#id=8
+#text=I walked to the station , where there were many benches for passengers to sit while they waited for their trains . 
+8-1	I	8-2_nsubj	walked	PRP	P4_passenger
+8-2	walked	O	O	VBD	O
+8-3	to	O	O	O	O
+8-4	the	O	O	DT	O
+8-5	station	8-2_prep_to	walked	NN	P1_train_station
+8-6	,	O	O	O	O
+8-7	where	8-9_advmod	were	WRB	O
+8-8	there	8-9_expl	were	EX	O
+8-9	were	O	O	VBD	O
+8-10	many	O	O	JJ	O
+8-11	benches	8-9_nsubj	were	NNS	P2_other
+8-12	for	O	O	O	O
+8-13	passengers	O	O	NNS	P5_passenger
+8-14	to	8-15_aux	sit	TO	O
+8-15	sit	O	O	VB	O
+8-16	while	8-18_mark	waited	IN	O
+8-17	they	8-18_nsubj	waited	PRP	P5_passenger
+8-18	waited	8-15_advcl	sit	VBD	O
+8-19	for	O	O	O	O
+8-20	their	O	O	PRP$	P5_passenger
+8-21	trains	8-18_prep_for	waited	NNS	P5_train
+8-22	.	O	O	O	O
+
+#id=9
+#text=There was a machine on the platform that let you choose what type of ticket you needed . 
+9-1	There	9-2_expl	was	EX	O
+9-2	was	O	O	VBD	O
+9-3	a	O	O	DT	O
+9-4	machine	9-2_nsubj	was	NN	P1_ticket_office/website
+9-5	on	O	O	O	O
+9-6	the	O	O	DT	O
+9-7	platform	O	O	NN	P1_platform
+9-8	that	9-9_nsubj	let	WDT	O
+9-9	let	O	O	VBD	O
+9-10	you	9-11_nsubj	choose	PRP	P4_passenger
+9-11	choose	9-9_ccomp	let	VBP	O
+9-12	what	O	O	WP	O
+9-13	type	9-17_dobj	needed	NN	O
+9-14	of	O	O	O	O
+9-15	ticket	O	O	NN	P1_card/ticket
+9-16	you	9-17_nsubj	needed	PRP	P4_passenger
+9-17	needed	9-11_ccomp	choose	VBD	O
+9-18	.	O	O	O	O
+
+#id=10
+#text=You could buy a ticket for only going one way or a round trip . 
+10-1	You	10-3_nsubj	buy	PRP	P4_passenger
+10-2	could	10-3_aux	buy	MD	O
+10-3	buy	O	O	VB	O
+10-4	a	O	O	DT	O
+10-5	ticket	10-3_dobj	buy	NN	P1_card/ticket
+10-6	for	O	O	O	O
+10-7	only	10-8_advmod	going	RB	O
+10-8	going	10-3_prepc_for	buy	VBG	O
+10-9	one	O	O	CD	O
+10-10	way	10-8_dobj	going	NN	P1_NPart_way
+10-11	or	O	O	O	O
+10-12	a	O	O	DT	O
+10-13	round	O	O	NN	O
+10-14	trip	O	O	NN	P1_trip
+10-15	.	O	O	O	O
+
+#id=11
+#text=I chose the round trip ticket since I wanted to take the train to the church and back again . 
+11-1	I	11-2_nsubj	chose	PRP	P4_passenger
+11-2	chose	O	O	VBD	O
+11-3	the	O	O	DT	O
+11-4	round	O	O	NN	O
+11-5	trip	O	O	NN	O
+11-6	ticket	11-2_dobj	chose	NN	P1_card/ticket
+11-7	since	11-9_mark	wanted	IN	O
+11-8	I	11-9_nsubj	wanted	PRP	P4_passenger
+11-9	wanted	11-2_advcl	chose	VBD	O
+11-10	to	11-11_aux	take	TO	O
+11-11	take	11-9_xcomp	wanted	VB	O
+11-12	the	O	O	DT	O
+11-13	train	11-11_dobj	take	NN	P4_train
+11-14	to	O	O	O	O
+11-15	the	O	O	DT	O
+11-16	church	11-11_prep_to	take	NN	P1_destination
+11-17	and	O	O	O	O
+11-18	back	11-11_conj_and	take	VB	O
+11-19	again	11-18_advmod	back	RB	O
+11-20	.	O	O	O	O
+
+#id=12
+#text=The machine had a display that told me how much money I needed to deposit in the little slot . 
+12-1	The	O	O	DT	O
+12-2	machine	12-3_nsubj	had	NN	P1_ticket_office/website
+12-3	had	O	O	VBD	O
+12-4	a	O	O	DT	O
+12-5	display	12-3_dobj	had	NN	P1_NPart_display
+12-6	that	12-7_nsubj	told	WDT	O
+12-7	told	O	O	VBD	O
+12-8	me	12-7_dobj	told	PRP	P4_passenger
+12-9	how	O	O	WRB	O
+12-10	much	O	O	JJ	O
+12-11	money	12-13_dobj	needed	NN	P1_payment_means
+12-12	I	12-13_nsubj	needed	PRP	P4_passenger
+12-13	needed	12-7_dep	told	VBD	O
+12-14	to	12-15_aux	deposit	TO	O
+12-15	deposit	12-13_xcomp	needed	VB	O
+12-16	in	O	O	O	O
+12-17	the	O	O	DT	O
+12-18	little	O	O	JJ	O
+12-19	slot	12-15_prep_in	deposit	NN	P1_NPart_slot
+12-20	.	O	O	O	O
+
+#id=13
+#text=I put the money in the machine and my ticket popped out . 
+13-1	I	13-2_nsubj	put	PRP	P4_passenger
+13-2	put	O	O	VBD	O
+13-3	the	O	O	DT	O
+13-4	money	13-11_nsubj	popped	NN	P1_payment_means
+13-5	in	O	O	O	O
+13-6	the	O	O	DT	O
+13-7	machine	O	O	NN	P1_ticket_office/website
+13-8	and	O	O	O	O
+13-9	my	O	O	PRP$	P4_passenger
+13-10	ticket	O	O	NN	P1_card/ticket
+13-11	popped	13-2_ccomp	put	VBD	O
+13-12	out	13-11_prt	popped	RP	O
+13-13	.	O	O	O	O
+
+#id=14
+#text=I waited for my train to arrive . 
+14-1	I	14-2_nsubj	waited	PRP	P4_passenger
+14-2	waited	O	O	VBD	O
+14-3	for	O	O	O	O
+14-4	my	O	O	PRP$	P4_passenger
+14-5	train	14-2_prep_for	waited	NN	P4_train
+14-6	to	14-7_aux	arrive	TO	O
+14-7	arrive	O	O	VB	O
+14-8	.	O	O	O	O
+
+#id=15
+#text=When it did , the doors opened and lots of people got off the train . 
+15-1	When	15-3_advmod	did	WRB	O
+15-2	it	15-3_nsubj	did	PRP	P4_train
+15-3	did	15-7_advcl	opened	VBD	O
+15-4	,	O	O	O	O
+15-5	the	O	O	DT	O
+15-6	doors	15-7_nsubj	opened	NNS	P1_door
+15-7	opened	O	O	VBD	O
+15-8	and	O	O	O	O
+15-9	lots	15-12_nsubj	got	NNS	O
+15-10	of	O	O	O	O
+15-11	people	O	O	NNS	P5_passenger
+15-12	got	15-7_conj_and	opened	VBD	O
+15-13	off	15-12_prt	got	RP	O
+15-14	the	O	O	DT	O
+15-15	train	15-12_dobj	got	NN	P4_train
+15-16	.	O	O	O	O
+
+#id=16
+#text=I got on and everyone who was waiting for the train got on , too . 
+16-1	I	16-2_nsubj	got	PRP	P4_passenger
+16-2	got	O	O	VBD	O
+16-3	on	16-2_prt	got	RP	O
+16-4	and	O	O	O	O
+16-5	everyone	16-12_nsubj	got	NN	P5_passenger
+16-6	who	16-8_nsubj	waiting	WP	O
+16-7	was	16-8_aux	waiting	VBD	O
+16-8	waiting	O	O	VBG	O
+16-9	for	O	O	O	O
+16-10	the	O	O	DT	O
+16-11	train	16-8_prep_for	waiting	NN	P4_train
+16-12	got	16-2_conj_and	got	VBD	O
+16-13	on	16-12_prep	got	IN	O
+16-14	,	O	O	O	O
+16-15	too	16-12_advmod	got	RB	O
+16-16	.	O	O	O	O
+
+#id=17
+#text=I looked for a seat . 
+17-1	I	17-2_nsubj	looked	PRP	P4_passenger
+17-2	looked	O	O	VBD	O
+17-3	for	O	O	O	O
+17-4	a	O	O	DT	O
+17-5	seat	17-2_prep_for	looked	NN	P1_seat
+17-6	.	O	O	O	O
+
+#id=18
+#text=I picked a seat that was facing forward , but there were seats that faced the center of the train and even ones that faced backward . 
+18-1	I	18-2_nsubj	picked	PRP	P4_passenger
+18-2	picked	O	O	VBD	O
+18-3	a	O	O	DT	O
+18-4	seat	18-2_dobj	picked	NN	P1_seat
+18-5	that	18-7_nsubj	facing	WDT	O
+18-6	was	18-7_aux	facing	VBD	O
+18-7	facing	O	O	VBG	O
+18-8	forward	18-7_advmod	facing	RB	O
+18-9	,	O	O	O	O
+18-10	but	O	O	O	O
+18-11	there	18-12_expl	were	EX	O
+18-12	were	18-2_conj_but	picked	VBD	O
+18-13	seats	18-12_nsubj	were	NNS	P2_seat
+18-14	that	18-15_nsubj	faced	WDT	O
+18-15	faced	O	O	VBD	O
+18-16	the	O	O	DT	O
+18-17	center	18-15_dobj	faced	NN	P1_location_train
+18-18	of	O	O	O	O
+18-19	the	O	O	DT	O
+18-20	train	O	O	NN	P4_train
+18-21	and	O	O	O	O
+18-22	even	O	O	RB	O
+18-23	ones	O	O	NNS	P2_seat
+18-24	that	18-25_nsubj	faced	WDT	O
+18-25	faced	O	O	VBD	O
+18-26	backward	18-25_advmod	faced	RB	O
+18-27	.	O	O	O	O
+
+#id=19
+#text=The train 's doors shut and the train started to move along the rail . 
+19-1	The	O	O	DT	O
+19-2	train	O	O	NN	P4_train
+19-3	's	O	O	O	O
+19-4	doors	19-5_nsubj	shut	NNS	P1_door
+19-5	shut	O	O	VBD	O
+19-6	and	O	O	O	O
+19-7	the	O	O	DT	O
+19-8	train	19-9_nsubj	started	NN	P4_train
+19-9	started	19-5_conj_and	shut	VBD	O
+19-10	to	19-11_aux	move	TO	O
+19-11	move	19-9_xcomp	started	VB	O
+19-12	along	19-11_prt	move	RP	O
+19-13	the	O	O	DT	O
+19-14	rail	19-11_dobj	move	NN	P1_NPart_rail
+19-15	.	O	O	O	O
+
+#id=20
+#text=It went very fast . 
+20-1	It	20-2_nsubj	went	PRP	P4_train
+20-2	went	O	O	VBD	O
+20-3	very	O	O	RB	O
+20-4	fast	20-2_acomp	went	JJ	O
+20-5	.	O	O	O	O
+
+#id=21
+#text=The train had windows on both sides and I looked out at the sights as we sped along . 
+21-1	The	O	O	DT	O
+21-2	train	21-3_nsubj	had	NN	P4_train
+21-3	had	O	O	VBD	O
+21-4	windows	21-3_dobj	had	NNS	P1_in-train_entertainment
+21-5	on	O	O	O	O
+21-6	both	O	O	DT	O
+21-7	sides	O	O	NNS	P2_location_train
+21-8	and	O	O	O	O
+21-9	I	21-10_nsubj	looked	PRP	P4_passenger
+21-10	looked	21-3_conj_and	had	VBD	O
+21-11	out	21-10_prt	looked	RP	O
+21-12	at	O	O	O	O
+21-13	the	O	O	DT	O
+21-14	sights	21-10_prep_at	looked	NNS	P2_in-train_entertainment
+21-15	as	21-17_mark	sped	IN	O
+21-16	we	21-17_nsubj	sped	PRP	P5_passenger
+21-17	sped	21-10_advcl	looked	VBD	O
+21-18	along	21-17_prt	sped	RP	O
+21-19	.	O	O	O	O
+
+#id=22
+#text=In a few minutes it stopped at another station , and some people got off and others got on . 
+22-1	In	O	O	O	O
+22-2	a	O	O	DT	O
+22-3	few	O	O	JJ	O
+22-4	minutes	22-6_prep_in	stopped	NNS	P2_time_date
+22-5	it	22-6_nsubj	stopped	PRP	P4_train
+22-6	stopped	O	O	VBD	O
+22-7	at	O	O	O	O
+22-8	another	O	O	DT	O
+22-9	station	22-6_prep_at	stopped	NN	P2_train_station
+22-10	,	O	O	O	O
+22-11	and	O	O	O	O
+22-12	some	O	O	DT	O
+22-13	people	22-14_nsubj	got	NNS	P5_passenger
+22-14	got	22-6_conj_and	stopped	VBD	O
+22-15	off	22-14_prt	got	RP	O
+22-16	and	O	O	O	O
+22-17	others	22-18_nsubj	got	NNS	P5_passenger
+22-18	got	22-14_conj_and	got	VBD	O
+22-19	on	22-18_prt	got	RP	O
+22-20	.	O	O	O	O
+
+#id=23
+#text=Pretty soon the conductor walked up and down the aisle asking to see everyone 's ticket . 
+23-1	Pretty	23-5_nsubj	walked	NNP	O
+23-2	soon	23-5_advmod	walked	RB	O
+23-3	the	O	O	DT	O
+23-4	conductor	O	O	NN	P1_train_staff
+23-5	walked	O	O	VBD	O
+23-6	up	23-5_prt	walked	RP	O
+23-7	and	O	O	CC	O
+23-8	down	O	O	RP	O
+23-9	the	O	O	DT	O
+23-10	aisle	23-5_dobj	walked	NN	P3_location_train
+23-11	asking	O	O	VBG	O
+23-12	to	23-13_aux	see	TO	O
+23-13	see	23-11_xcomp	asking	VB	O
+23-14	everyone	O	O	NN	P5_passenger
+23-15	's	O	O	O	O
+23-16	ticket	23-13_dobj	see	NN	P1_card/ticket
+23-17	.	O	O	O	O
+
+#id=24
+#text=I showed her my ticket and she nodded and smiled . 
+24-1	I	24-2_nsubj	showed	PRP	P4_passenger
+24-2	showed	O	O	VBD	O
+24-3	her	O	O	PRP$	P1_train_staff
+24-4	my	O	O	JJ	P4_passenger
+24-5	ticket	24-2_dobj	showed	NN	P1_card/ticket
+24-6	and	O	O	O	O
+24-7	she	24-8_nsubj	nodded	PRP	P1_train_staff
+24-8	nodded	24-2_conj_and	showed	VBD	O
+24-9	and	O	O	O	O
+24-10	smiled	24-8_conj_and	nodded	VBD	O
+24-11	.	O	O	O	O
+
+#id=25
+#text=At the next station , the train stopped . 
+25-1	At	O	O	O	O
+25-2	the	O	O	DT	O
+25-3	next	O	O	JJ	O
+25-4	station	25-8_prep_at	stopped	NN	P3_train_station
+25-5	,	O	O	O	O
+25-6	the	O	O	DT	O
+25-7	train	25-8_nsubj	stopped	NN	P4_train
+25-8	stopped	O	O	VBD	O
+25-9	.	O	O	O	O
+
+#id=26
+#text=This was the station that was closest to the church , so I got off . 
+26-1	This	O	O	DT	O
+26-2	was	O	O	VBD	O
+26-3	the	O	O	DT	O
+26-4	station	O	O	NN	P3_train_station
+26-5	that	O	O	WDT	O
+26-6	was	O	O	VBD	O
+26-7	closest	O	O	JJS	O
+26-8	to	O	O	O	O
+26-9	the	O	O	DT	O
+26-10	church	O	O	NN	P1_destination
+26-11	,	O	O	O	O
+26-12	so	O	O	IN	O
+26-13	I	26-14_nsubj	got	PRP	P4_passenger
+26-14	got	O	O	VBD	O
+26-15	off	26-14_prt	got	RP	O
+26-16	.	O	O	O	O
+
+#id=27
+#text=When it was time to go home , I waited at the station for the train that would take me home again . 
+27-1	When	O	O	WRB	O
+27-2	it	O	O	PRP	O
+27-3	was	O	O	VBD	O
+27-4	time	27-10_advcl	waited	NN	P3_time_date
+27-5	to	27-6_aux	go	TO	O
+27-6	go	O	O	VB	O
+27-7	home	27-6_dobj	go	NN	P2_destination
+27-8	,	O	O	O	O
+27-9	I	27-10_nsubj	waited	PRP	P4_passenger
+27-10	waited	O	O	VBD	O
+27-11	at	O	O	O	O
+27-12	the	O	O	DT	O
+27-13	station	27-10_prep_at	waited	NN	P3_train_station
+27-14	for	O	O	O	O
+27-15	the	O	O	DT	O
+27-16	train	O	O	NN	P6_train
+27-17	that	27-19_nsubj	take	WDT	O
+27-18	would	27-19_aux	take	MD	O
+27-19	take	O	O	VB	O
+27-20	me	27-19_dobj	take	PRP	P4_passenger
+27-21	home	27-19_advmod	take	RB	P2_destination
+27-22	again	27-19_advmod	take	RB	O
+27-23	.	O	O	O	O
+
+#id=28
+#text=Taking the train is a lot of fun , and sometimes a lot easier than driving . 
+28-1	Taking	O	O	VBG	O
+28-2	the	O	O	DT	O
+28-3	train	O	O	NN	P7_train
+28-4	is	O	O	VBZ	O
+28-5	a	O	O	DT	O
+28-6	lot	28-1_ccomp	Taking	NN	O
+28-7	of	O	O	O	O
+28-8	fun	O	O	NN	O
+28-9	,	O	O	O	O
+28-10	and	O	O	O	O
+28-11	sometimes	O	O	RB	O
+28-12	a	O	O	DT	O
+28-13	lot	O	O	RB	O
+28-14	easier	28-1_conj_and	Taking	JJR	O
+28-15	than	O	O	O	O
+28-16	driving	O	O	VBG	O
+28-17	.	O	O	O	O

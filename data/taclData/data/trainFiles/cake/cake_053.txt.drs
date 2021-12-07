@@ -1,0 +1,346 @@
+#id=1
+#text=It was a day before last Christmas day . 
+1-1	It	O	O	PRP	O
+1-2	was	O	O	VBD	O
+1-3	a	O	O	DT	O
+1-4	day	O	O	NN	P1_NPart_day
+1-5	before	O	O	O	O
+1-6	last	O	O	JJ	O
+1-7	Christmas	O	O	NNP	O
+1-8	day	O	O	NN	P2_NPart_day
+1-9	.	O	O	O	O
+
+#id=2
+#text=Our house is filled with lights and joy . 
+2-1	Our	O	O	PRP$	P1_beneficiary
+2-2	house	2-4_nsubjpass	filled	NN	P1_NPart_house
+2-3	is	2-4_auxpass	filled	VBZ	O
+2-4	filled	O	O	VBN	O
+2-5	with	O	O	O	O
+2-6	lights	2-4_prep_with	filled	NNS	P1_NPart_lights
+2-7	and	O	O	O	O
+2-8	joy	O	O	NN	P1_NPart_joy
+2-9	.	O	O	O	O
+
+#id=3
+#text=On every Christmas day my wife makes very delicious fruit cake . 
+3-1	On	O	O	O	O
+3-2	every	O	O	DT	O
+3-3	Christmas	O	O	NNP	O
+3-4	day	3-7_prep_on	makes	NN	P3_NPart_day
+3-5	my	O	O	PRP$	P2_beneficiary
+3-6	wife	3-7_nsubj	makes	NN	P1_cook
+3-7	makes	O	O	VBZ	O
+3-8	very	O	O	RB	O
+3-9	delicious	O	O	JJ	O
+3-10	fruit	O	O	NN	O
+3-11	cake	3-7_dobj	makes	NN	P1_cake
+3-12	.	O	O	O	O
+
+#id=4
+#text=It is her own recipe . 
+4-1	It	O	O	PRP	P1_cake
+4-2	is	O	O	VBZ	O
+4-3	her	O	O	PRP$	P1_cook
+4-4	own	O	O	JJ	O
+4-5	recipe	O	O	NN	P1_baking_instructions
+4-6	.	O	O	O	O
+
+#id=5
+#text=Everyone who had tasted the cake before asked her the recipe . 
+5-1	Everyone	5-8_nsubj	asked	NN	P3_beneficiary
+5-2	who	5-4_nsubj	tasted	WP	O
+5-3	had	5-4_aux	tasted	VBD	O
+5-4	tasted	O	O	VBN	O
+5-5	the	O	O	DT	O
+5-6	cake	5-4_dobj	tasted	NN	P1_cake
+5-7	before	5-8_advmod	asked	RB	O
+5-8	asked	O	O	VBD	O
+5-9	her	O	O	PRP	P1_cook
+5-10	the	O	O	DT	O
+5-11	recipe	5-8_xcomp	asked	NN	P1_baking_instructions
+5-12	.	O	O	O	O
+
+#id=6
+#text=We like to have the cake with red wine . 
+6-1	We	6-2_nsubj	like	PRP	P1_beneficiary
+6-2	like	O	O	VBP	O
+6-3	to	6-4_aux	have	TO	O
+6-4	have	6-2_xcomp	like	VB	O
+6-5	the	O	O	DT	O
+6-6	cake	6-4_dobj	have	NN	P1_cake
+6-7	with	O	O	O	O
+6-8	red	O	O	JJ	O
+6-9	wine	O	O	NN	P1_NPart_wine
+6-10	.	O	O	O	O
+
+#id=7
+#text=She needs a lot of preparations beforehand to make this cake . 
+7-1	She	7-2_nsubj	needs	PRP	P1_cook
+7-2	needs	O	O	VBZ	O
+7-3	a	O	O	DT	O
+7-4	lot	7-2_dobj	needs	NN	O
+7-5	of	O	O	O	O
+7-6	preparations	O	O	NNS	P1_NPart_preparations
+7-7	beforehand	7-9_advmod	make	RB	O
+7-8	to	7-9_aux	make	TO	O
+7-9	make	O	O	VB	O
+7-10	this	O	O	DT	O
+7-11	cake	7-9_dobj	make	NN	P1_cake
+7-12	.	O	O	O	O
+
+#id=8
+#text=She soaked raisins , nuts , and some dried fruits in rum and kept in an airtight container for 40 days . 
+8-1	She	8-2_nsubj	soaked	PRP	P1_cook
+8-2	soaked	O	O	VBD	O
+8-3	raisins	8-2_dobj	soaked	NNS	P1_ingredients
+8-4	,	O	O	O	O
+8-5	nuts	O	O	NNS	P2_ingredients
+8-6	,	O	O	O	O
+8-7	and	O	O	O	O
+8-8	some	8-9_nsubj	dried	DT	O
+8-9	dried	8-2_conj_and	soaked	VBD	O
+8-10	fruits	8-9_dobj	dried	NNS	P3_ingredients
+8-11	in	O	O	O	O
+8-12	rum	8-9_prep_in	dried	NN	P4_ingredients
+8-13	and	O	O	O	O
+8-14	kept	8-9_conj_and	dried	VBD	O
+8-15	in	O	O	O	O
+8-16	an	O	O	DT	O
+8-17	airtight	O	O	JJ	O
+8-18	container	8-14_prep_in	kept	NN	P1_utensil
+8-19	for	O	O	O	O
+8-20	40	O	O	CD	O
+8-21	days	8-14_prep_for	kept	NNS	P1_time
+8-22	.	O	O	O	O
+
+#id=9
+#text=After 40 days these fruits absorbed rum and adopted a good flavor . 
+9-1	After	O	O	O	O
+9-2	40	O	O	CD	O
+9-3	days	9-6_prep_after	absorbed	NNS	P1_time
+9-4	these	O	O	DT	O
+9-5	fruits	9-6_nsubj	absorbed	NNS	P3_ingredients
+9-6	absorbed	O	O	VBD	O
+9-7	rum	9-6_dobj	absorbed	NN	P4_ingredients
+9-8	and	O	O	O	O
+9-9	adopted	9-6_conj_and	absorbed	VBD	O
+9-10	a	O	O	DT	O
+9-11	good	O	O	JJ	O
+9-12	flavor	9-9_dobj	adopted	NN	P1_NPart_flavor
+9-13	.	O	O	O	O
+
+#id=10
+#text=So she usually starts her cake preparation almost 40 days prior to Christmas . 
+10-1	So	10-4_cc	starts	CC	O
+10-2	she	10-4_nsubj	starts	PRP	P1_cook
+10-3	usually	10-4_advmod	starts	RB	O
+10-4	starts	O	O	VBZ	O
+10-5	her	O	O	PRP$	P1_cook
+10-6	cake	O	O	NN	O
+10-7	preparation	10-4_dobj	starts	NN	P1_NPart_preparation
+10-8	almost	O	O	RB	O
+10-9	40	O	O	CD	O
+10-10	days	10-4_npadvmod	starts	NNS	P1_time
+10-11	prior	O	O	O	O
+10-12	to	O	O	O	O
+10-13	Christmas	10-4_prep_prior_to	starts	NNP	P1_NPart_christmas
+10-14	.	O	O	O	O
+
+#id=11
+#text=On Christmas eve she started baking process . 
+11-1	On	O	O	O	O
+11-2	Christmas	O	O	NNP	O
+11-3	eve	11-5_prep_on	started	NN	P1_NPart_eve
+11-4	she	11-5_nsubj	started	PRP	P1_cook
+11-5	started	O	O	VBD	O
+11-6	baking	O	O	JJ	O
+11-7	process	11-5_dobj	started	NN	P1_NPart_process
+11-8	.	O	O	O	O
+
+#id=12
+#text=She usually make 5-6 cakes for us and for some friends . 
+12-1	She	12-3_nsubj	make	PRP	P1_cook
+12-2	usually	12-3_advmod	make	RB	O
+12-3	make	O	O	VBP	O
+12-4	5-6	O	O	CD	O
+12-5	cakes	12-3_dobj	make	NNS	P1_cake
+12-6	for	O	O	O	O
+12-7	us	12-3_prep_for	make	PRP	P1_beneficiary
+12-8	and	O	O	O	O
+12-9	for	O	O	O	O
+12-10	some	O	O	DT	O
+12-11	friends	O	O	NNS	P4_beneficiary
+12-12	.	O	O	O	O
+
+#id=13
+#text=First she prepared caramel syrup to give the cake that dark color . 
+13-1	First	13-3_advmod	prepared	RB	O
+13-2	she	13-3_nsubj	prepared	PRP	P1_cook
+13-3	prepared	O	O	VBD	O
+13-4	caramel	O	O	JJ	O
+13-5	syrup	13-3_dobj	prepared	NN	P5_ingredients
+13-6	to	13-7_aux	give	TO	O
+13-7	give	13-3_vmod	prepared	VB	O
+13-8	the	O	O	DT	O
+13-9	cake	13-7_iobj	give	NN	P1_cake
+13-10	that	O	O	DT	O
+13-11	dark	O	O	JJ	O
+13-12	color	13-7_dobj	give	NN	P1_NPart_color
+13-13	.	O	O	O	O
+
+#id=14
+#text=After that she mixed all purpose flour and baking soda . 
+14-1	After	O	O	O	O
+14-2	that	14-4_prep_after	mixed	DT	O
+14-3	she	14-4_nsubj	mixed	PRP	P1_cook
+14-4	mixed	O	O	VBZ	O
+14-5	all	O	O	DT	O
+14-6	purpose	O	O	NN	P1_NPart_purpose
+14-7	flour	14-4_dobj	mixed	NN	P6_ingredients
+14-8	and	O	O	O	O
+14-9	baking	O	O	VBG	O
+14-10	soda	O	O	NN	P7_ingredients
+14-11	.	O	O	O	O
+
+#id=15
+#text=We need lots of eggs for preparing the cake . 
+15-1	We	15-2_nsubj	need	PRP	P1_beneficiary
+15-2	need	O	O	VBP	O
+15-3	lots	15-2_dobj	need	NNS	O
+15-4	of	O	O	O	O
+15-5	eggs	O	O	NNS	P8_ingredients
+15-6	for	O	O	O	O
+15-7	preparing	15-2_prepc_for	need	VBG	O
+15-8	the	O	O	DT	O
+15-9	cake	15-7_dobj	preparing	NN	P1_cake
+15-10	.	O	O	O	O
+
+#id=16
+#text=I helped her in beating the egg white for cake . 
+16-1	I	16-2_nsubj	helped	PRP	P2_beneficiary
+16-2	helped	O	O	VBD	O
+16-3	her	16-2_dobj	helped	PRP	P1_cook
+16-4	in	O	O	O	O
+16-5	beating	16-2_prepc_in	helped	VBG	O
+16-6	the	O	O	DT	O
+16-7	egg	O	O	NN	O
+16-8	white	16-5_xcomp	beating	JJ	P9_ingredients
+16-9	for	O	O	O	O
+16-10	cake	O	O	NN	P1_cake
+16-11	.	O	O	O	O
+
+#id=17
+#text=After mixing every contents well , she poured the mix into the baking pans and kept it in to the oven and set temperature and time to get it done . 
+17-1	After	O	O	O	O
+17-2	mixing	17-8_prepc_after	poured	VBG	O
+17-3	every	O	O	DT	O
+17-4	contents	17-2_dobj	mixing	NNS	P10_ingredients
+17-5	well	17-2_advmod	mixing	RB	O
+17-6	,	O	O	O	O
+17-7	she	17-8_nsubj	poured	PRP	P1_cook
+17-8	poured	O	O	VBD	O
+17-9	the	O	O	DT	O
+17-10	mix	17-8_dobj	poured	NN	P1_dough
+17-11	into	O	O	O	O
+17-12	the	O	O	DT	O
+17-13	baking	O	O	VBG	O
+17-14	pans	17-8_prep_into	poured	NNS	P1_cake_tin
+17-15	and	O	O	O	O
+17-16	kept	17-8_conj_and	poured	VBD	O
+17-17	it	17-16_dobj	kept	PRP	P1_dough
+17-18	in	17-16_prep	kept	IN	O
+17-19	to	O	O	TO	O
+17-20	the	O	O	DT	O
+17-21	oven	O	O	NN	P1_oven
+17-22	and	O	O	O	O
+17-23	set	O	O	NN	O
+17-24	temperature	O	O	NN	P1_temperature
+17-25	and	O	O	O	O
+17-26	time	O	O	NN	P2_time
+17-27	to	17-28_aux	get	TO	O
+17-28	get	17-16_vmod	kept	VB	O
+17-29	it	17-30_nsubj	done	PRP	O
+17-30	done	17-28_dep	get	VBN	O
+17-31	.	O	O	O	O
+
+#id=18
+#text=When the oven beeped , she took the baking pan out and kept it aside . 
+18-1	When	18-4_advmod	beeped	WRB	O
+18-2	the	O	O	DT	O
+18-3	oven	18-4_nsubj	beeped	NN	P1_oven
+18-4	beeped	18-7_advcl	took	VBD	O
+18-5	,	O	O	O	O
+18-6	she	18-7_nsubj	took	PRP	P1_cook
+18-7	took	O	O	VBD	O
+18-8	the	O	O	DT	O
+18-9	baking	O	O	JJ	O
+18-10	pan	18-7_dobj	took	NN	P1_cake_tin
+18-11	out	18-7_prt	took	RP	O
+18-12	and	O	O	O	O
+18-13	kept	18-7_conj_and	took	VBD	O
+18-14	it	18-13_dobj	kept	PRP	P1_cake_tin
+18-15	aside	18-13_advmod	kept	RB	O
+18-16	.	O	O	O	O
+
+#id=19
+#text=Once it is cooled she packed cakes for friends . 
+19-1	Once	19-4_mark	cooled	IN	O
+19-2	it	19-4_nsubjpass	cooled	PRP	P1_cake_tin
+19-3	is	19-4_auxpass	cooled	VBZ	O
+19-4	cooled	19-6_advcl	packed	VBN	O
+19-5	she	19-6_nsubj	packed	PRP	P1_cook
+19-6	packed	O	O	VBD	O
+19-7	cakes	19-6_dobj	packed	NNS	P1_cake
+19-8	for	O	O	O	O
+19-9	friends	19-6_prep_for	packed	NNS	P4_beneficiary
+19-10	.	O	O	O	O
+
+#id=20
+#text=Then she cut our cake and served it with home made red wine . 
+20-1	Then	20-3_advmod	cut	RB	O
+20-2	she	20-3_nsubj	cut	PRP	P1_cook
+20-3	cut	O	O	VBD	O
+20-4	our	O	O	PRP$	P1_beneficiary
+20-5	cake	20-3_dobj	cut	NN	P1_cake
+20-6	and	O	O	O	O
+20-7	served	20-3_conj_and	cut	VBD	O
+20-8	it	20-7_dobj	served	PRP	P1_cake
+20-9	with	O	O	O	O
+20-10	home	O	O	NN	P1_NPart_home
+20-11	made	O	O	VBD	O
+20-12	red	O	O	JJ	O
+20-13	wine	20-7_prep_with	served	NN	P1_NPart_wine
+20-14	.	O	O	O	O
+
+#id=21
+#text=I can not imagine a Christmas without this cake . 
+21-1	I	21-4_nsubj	imagine	PRP	P2_beneficiary
+21-2	can	21-4_aux	imagine	MD	O
+21-3	not	21-4_neg	imagine	RB	O
+21-4	imagine	O	O	VB	O
+21-5	a	O	O	DT	O
+21-6	Christmas	21-4_dobj	imagine	NNP	P2_NPart_christmas
+21-7	without	O	O	O	O
+21-8	this	O	O	DT	O
+21-9	cake	21-4_prep_without	imagine	NN	P1_cake
+21-10	.	O	O	O	O
+
+#id=22
+#text=After having the cake , we went to our friends home and distributed the cakes . 
+22-1	After	O	O	O	O
+22-2	having	22-7_prepc_after	went	VBG	O
+22-3	the	O	O	DT	O
+22-4	cake	22-2_dobj	having	NN	P1_cake
+22-5	,	O	O	O	O
+22-6	we	22-7_nsubj	went	PRP	P1_beneficiary
+22-7	went	O	O	VBD	O
+22-8	to	O	O	O	O
+22-9	our	O	O	PRP$	P1_beneficiary
+22-10	friends	O	O	NNS	P4_beneficiary
+22-11	home	22-7_prep_to	went	NN	P2_NPart_home
+22-12	and	O	O	O	O
+22-13	distributed	22-7_conj_and	went	VBD	O
+22-14	the	O	O	DT	O
+22-15	cakes	22-13_dobj	distributed	NNS	P1_cake
+22-16	.	O	O	O	O

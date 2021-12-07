@@ -1,0 +1,196 @@
+#id=1
+#text=I went on a bike ride in the afternoon yesterday , the weather had an amazing break of sunlight , and I had to take advantage of it . 
+1-1	I	1-2_nsubj	went	PRP	P1_rider
+1-2	went	O	O	VBD	O
+1-3	on	O	O	O	O
+1-4	a	O	O	DT	O
+1-5	bike	O	O	NN	O
+1-6	ride	1-2_prep_on	went	NN	P1_ride
+1-7	in	O	O	O	O
+1-8	the	O	O	DT	O
+1-9	afternoon	O	O	NN	P1_NPart_afternoon
+1-10	yesterday	1-2_tmod	went	NN	O
+1-11	,	O	O	O	O
+1-12	the	O	O	DT	O
+1-13	weather	1-14_nsubj	had	NN	P1_NPart_weather
+1-14	had	1-2_dep	went	VBD	O
+1-15	an	O	O	DT	O
+1-16	amazing	O	O	JJ	O
+1-17	break	1-14_dobj	had	NN	O
+1-18	of	O	O	O	O
+1-19	sunlight	O	O	NN	P1_NPart_sunlight
+1-20	,	O	O	O	O
+1-21	and	O	O	O	O
+1-22	I	1-23_nsubj	had	PRP	P1_rider
+1-23	had	1-2_conj_and	went	VBD	O
+1-24	to	1-25_aux	take	TO	O
+1-25	take	1-23_xcomp	had	VB	O
+1-26	advantage	1-25_dobj	take	NN	P1_NPart_advantage
+1-27	of	O	O	O	O
+1-28	it	O	O	PRP	P1_NPart_it
+1-29	.	O	O	O	O
+
+#id=2
+#text=Gearing up for the bike ride was n't very time consuming , it only took about 5 minutes to change , grab my helmet , and fill a water bottle from the sink . 
+2-1	Gearing	2-15_vmod	took	VBG	O
+2-2	up	2-1_prt	Gearing	RP	O
+2-3	for	O	O	IN	O
+2-4	the	O	O	DT	O
+2-5	bike	O	O	NN	O
+2-6	ride	O	O	NN	P1_ride
+2-7	was	O	O	VBD	O
+2-8	n't	O	O	RB	O
+2-9	very	O	O	JJ	O
+2-10	time	O	O	NN	O
+2-11	consuming	2-1_advcl	Gearing	NN	O
+2-12	,	O	O	O	O
+2-13	it	2-15_nsubj	took	PRP	O
+2-14	only	2-15_advmod	took	RB	O
+2-15	took	O	O	VBD	O
+2-16	about	O	O	RB	O
+2-17	5	O	O	CD	O
+2-18	minutes	2-15_dobj	took	NNS	P1_NPart_minutes
+2-19	to	2-20_aux	change	TO	O
+2-20	change	2-15_vmod	took	VB	O
+2-21	,	O	O	O	O
+2-22	grab	2-20_conj_and	change	VB	O
+2-23	my	O	O	PRP$	P1_rider
+2-24	helmet	2-22_dobj	grab	NN	P1_NPart_helmet
+2-25	,	O	O	O	O
+2-26	and	O	O	O	O
+2-27	fill	2-20_conj_and	change	VB	O
+2-28	a	O	O	DT	O
+2-29	water	O	O	NN	O
+2-30	bottle	2-27_dobj	fill	NN	P1_NPart_bottle
+2-31	from	O	O	O	O
+2-32	the	O	O	DT	O
+2-33	sink	2-27_prep_from	fill	NN	P1_NPart_sink
+2-34	.	O	O	O	O
+
+#id=3
+#text=I left home , and progressed close to 6 miles before I heard a low hiss escape from somewhere below where my feet were . 
+3-1	I	3-2_nsubj	left	PRP	P1_rider
+3-2	left	O	O	VBD	O
+3-3	home	3-2_dobj	left	NN	P1_NPart_home
+3-4	,	O	O	O	O
+3-5	and	O	O	O	O
+3-6	progressed	3-2_conj_and	left	VBD	O
+3-7	close	O	O	NN	O
+3-8	to	O	O	TO	O
+3-9	6	O	O	CD	O
+3-10	miles	3-13_dep	heard	NNS	P1_NPart_miles
+3-11	before	3-13_mark	heard	IN	O
+3-12	I	3-13_nsubj	heard	PRP	P1_rider
+3-13	heard	3-6_advcl	progressed	VBD	O
+3-14	a	O	O	DT	O
+3-15	low	O	O	JJ	O
+3-16	hiss	O	O	NN	P1_NPart_hiss
+3-17	escape	3-13_dobj	heard	NN	O
+3-18	from	3-13_prep	heard	IN	O
+3-19	somewhere	O	O	RB	P1_NPart_somewhere
+3-20	below	O	O	O	O
+3-21	where	3-24_advmod	were	WRB	O
+3-22	my	O	O	PRP$	P1_rider
+3-23	feet	3-24_nsubj	were	NNS	P1_NPart_feet
+3-24	were	3-13_prepc_below	heard	VBD	O
+3-25	.	O	O	O	O
+
+#id=4
+#text=I almost knew immediately that it was going to be a flat tire . 
+4-1	I	4-3_nsubj	knew	PRP	P1_rider
+4-2	almost	4-3_advmod	knew	RB	O
+4-3	knew	O	O	VBD	O
+4-4	immediately	4-3_advmod	knew	RB	O
+4-5	that	4-8_mark	going	IN	O
+4-6	it	4-8_nsubj	going	PRP	O
+4-7	was	4-8_aux	going	VBD	O
+4-8	going	4-3_ccomp	knew	VBG	O
+4-9	to	O	O	TO	O
+4-10	be	O	O	VB	O
+4-11	a	O	O	DT	O
+4-12	flat	O	O	JJ	O
+4-13	tire	4-8_xcomp	going	NN	P1_tire
+4-14	.	O	O	O	O
+
+#id=5
+#text=I had my friend pick me up , they helped get me home without further incident . 
+5-1	I	5-2_nsubj	had	PRP	P1_rider
+5-2	had	5-10_ccomp	helped	VBD	O
+5-3	my	O	O	PRP$	P1_rider
+5-4	friend	5-5_nsubj	pick	NN	P1_NPart_friend
+5-5	pick	5-2_ccomp	had	VB	O
+5-6	me	5-5_dobj	pick	PRP	P1_rider
+5-7	up	5-5_prt	pick	RP	O
+5-8	,	O	O	O	O
+5-9	they	5-10_nsubj	helped	PRP	P1_NPart_they
+5-10	helped	O	O	VBD	O
+5-11	get	5-10_xcomp	helped	VB	O
+5-12	me	5-11_dobj	get	PRP	P1_rider
+5-13	home	5-11_advmod	get	RB	P2_NPart_home
+5-14	without	O	O	O	O
+5-15	further	O	O	JJ	O
+5-16	incident	5-11_prep_without	get	NN	P1_NPart_incident
+5-17	.	O	O	O	O
+
+#id=6
+#text=After getting my bike up on it 's stand , I began to peel the bad tire off the rim , finding the tube had a small puncture . 
+6-1	After	O	O	O	O
+6-2	getting	6-12_prepc_after	began	VBG	O
+6-3	my	O	O	PRP$	P1_rider
+6-4	bike	6-2_dobj	getting	NN	P1_bicycle
+6-5	up	6-2_prt	getting	RP	O
+6-6	on	O	O	O	O
+6-7	it	O	O	PRP	O
+6-8	's	O	O	O	O
+6-9	stand	6-2_prep_on	getting	NN	P1_location_repair
+6-10	,	O	O	O	O
+6-11	I	6-12_nsubj	began	PRP	P1_rider
+6-12	began	O	O	VBD	O
+6-13	to	6-14_aux	peel	TO	O
+6-14	peel	6-12_xcomp	began	VB	O
+6-15	the	O	O	DT	O
+6-16	bad	O	O	JJ	O
+6-17	tire	6-14_dobj	peel	NN	P1_tire
+6-18	off	O	O	O	O
+6-19	the	O	O	DT	O
+6-20	rim	6-14_prep_off	peel	NN	P1_rim
+6-21	,	O	O	O	O
+6-22	finding	6-12_xcomp	began	VBG	O
+6-23	the	O	O	DT	O
+6-24	tube	6-25_nsubj	had	NN	P1_tire
+6-25	had	6-22_ccomp	finding	VBD	O
+6-26	a	O	O	DT	O
+6-27	small	O	O	JJ	O
+6-28	puncture	6-25_dobj	had	NN	P1_damage
+6-29	.	O	O	O	O
+
+#id=7
+#text=I decided to to replace the tube entirely , and fitted the tube and tire back onto the rim , fixing the issue of the flat tire . 
+7-1	I	7-2_nsubj	decided	PRP	P1_rider
+7-2	decided	O	O	VBD	O
+7-3	to	7-2_xcomp	decided	TO	O
+7-4	to	7-5_aux	replace	TO	O
+7-5	replace	O	O	VB	O
+7-6	the	O	O	DT	O
+7-7	tube	7-5_dobj	replace	NN	P1_tire
+7-8	entirely	7-5_advmod	replace	RB	O
+7-9	,	O	O	O	O
+7-10	and	O	O	O	O
+7-11	fitted	7-2_conj_and	decided	VBD	O
+7-12	the	O	O	DT	O
+7-13	tube	7-11_dobj	fitted	NN	P1_spare_tube
+7-14	and	O	O	O	O
+7-15	tire	O	O	NN	P1_tire
+7-16	back	7-11_prt	fitted	RP	O
+7-17	onto	O	O	O	O
+7-18	the	O	O	DT	O
+7-19	rim	7-11_prep_onto	fitted	NN	P1_rim
+7-20	,	O	O	O	O
+7-21	fixing	7-11_dep	fitted	VBG	O
+7-22	the	O	O	DT	O
+7-23	issue	7-21_dobj	fixing	NN	P1_NPart_issue
+7-24	of	O	O	O	O
+7-25	the	O	O	DT	O
+7-26	flat	O	O	JJ	O
+7-27	tire	O	O	NN	P1_tire
+7-28	.	O	O	O	O

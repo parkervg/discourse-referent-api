@@ -1,0 +1,238 @@
+#id=1
+#text=Yesterday while I was riding my bike I got a flat tire . 
+1-1	Yesterday	1-9_tmod	got	NN	O
+1-2	while	1-5_mark	riding	IN	O
+1-3	I	1-5_nsubj	riding	PRP	P1_rider
+1-4	was	1-5_aux	riding	VBD	O
+1-5	riding	1-9_advcl	got	VBG	O
+1-6	my	O	O	PRP$	P1_rider
+1-7	bike	1-5_dobj	riding	NN	P1_bicycle
+1-8	I	1-9_nsubj	got	PRP	P1_rider
+1-9	got	O	O	VBD	O
+1-10	a	O	O	DT	O
+1-11	flat	O	O	JJ	O
+1-12	tire	1-9_dobj	got	NN	P1_tire
+1-13	.	O	O	O	O
+
+#id=2
+#text=Luckily I had a tire repair kit in the garage . 
+2-1	Luckily	2-3_advmod	had	RB	O
+2-2	I	2-3_nsubj	had	PRP	P1_rider
+2-3	had	O	O	VBD	O
+2-4	a	O	O	DT	O
+2-5	tire	O	O	NN	O
+2-6	repair	O	O	NN	O
+2-7	kit	2-3_dobj	had	NN	P1_tool
+2-8	in	O	O	O	O
+2-9	the	O	O	DT	O
+2-10	garage	O	O	NN	P1_location_repair
+2-11	.	O	O	O	O
+
+#id=3
+#text=It 's very easy to do . 
+3-1	It	O	O	PRP	O
+3-2	's	O	O	VBZ	O
+3-3	very	O	O	RB	O
+3-4	easy	O	O	JJ	O
+3-5	to	3-6_aux	do	TO	O
+3-6	do	O	O	VB	O
+3-7	.	O	O	O	O
+
+#id=4
+#text=The first thing I did was use a flathead screwdriver to pop the tire off of the rim . 
+4-1	The	O	O	DT	O
+4-2	first	O	O	JJ	O
+4-3	thing	4-6_nsubj	was	NN	P1_NPart_thing
+4-4	I	4-5_nsubj	did	PRP	P1_rider
+4-5	did	O	O	VBD	O
+4-6	was	O	O	VBD	O
+4-7	use	4-6_ccomp	was	VB	O
+4-8	a	O	O	DT	O
+4-9	flathead	O	O	JJ	O
+4-10	screwdriver	4-7_dobj	use	NN	P2_tool
+4-11	to	4-12_aux	pop	TO	O
+4-12	pop	O	O	VB	O
+4-13	the	O	O	DT	O
+4-14	tire	4-12_dobj	pop	NN	P1_tire
+4-15	off	O	O	O	O
+4-16	of	O	O	O	O
+4-17	the	O	O	DT	O
+4-18	rim	4-12_prep_off_of	pop	NN	P1_rim
+4-19	.	O	O	O	O
+
+#id=5
+#text=The tire is hollow inside , with no tube . 
+5-1	The	O	O	DT	O
+5-2	tire	O	O	NN	P1_tire
+5-3	is	O	O	VBZ	O
+5-4	hollow	O	O	JJ	O
+5-5	inside	O	O	RB	O
+5-6	,	O	O	O	O
+5-7	with	O	O	O	O
+5-8	no	O	O	DT	O
+5-9	tube	O	O	NN	P1_other
+5-10	.	O	O	O	O
+
+#id=6
+#text=The patch kit contains small rubber patches with glue , that you use to seal up any holes that might appear . 
+6-1	The	O	O	DT	O
+6-2	patch	O	O	NN	O
+6-3	kit	6-4_nsubj	contains	NN	P1_tool
+6-4	contains	O	O	VBZ	O
+6-5	small	O	O	JJ	O
+6-6	rubber	O	O	NN	O
+6-7	patches	6-4_dobj	contains	NNS	P1_patch
+6-8	with	O	O	O	O
+6-9	glue	6-4_prep_with	contains	NN	P3_tool
+6-10	,	O	O	O	O
+6-11	that	6-13_mark	use	IN	P1_patch
+6-12	you	6-13_nsubj	use	PRP	P1_rider
+6-13	use	6-4_ccomp	contains	VBP	O
+6-14	to	6-15_aux	seal	TO	O
+6-15	seal	6-13_xcomp	use	VB	O
+6-16	up	6-15_prt	seal	RP	O
+6-17	any	O	O	DT	O
+6-18	holes	6-15_dobj	seal	NNS	P1_damage
+6-19	that	6-21_nsubj	appear	WDT	P1_damage
+6-20	might	6-21_aux	appear	MD	O
+6-21	appear	O	O	VB	O
+6-22	.	O	O	O	O
+
+#id=7
+#text=When I had the tire off the rim I looked all around inside to find the hole . 
+7-1	When	7-3_advmod	had	WRB	O
+7-2	I	7-3_nsubj	had	PRP	P1_rider
+7-3	had	7-10_advcl	looked	VBD	O
+7-4	the	O	O	DT	O
+7-5	tire	7-3_dobj	had	NN	P1_tire
+7-6	off	O	O	O	O
+7-7	the	O	O	DT	O
+7-8	rim	O	O	NN	P1_rim
+7-9	I	7-10_nsubj	looked	PRP	P1_rider
+7-10	looked	O	O	VBD	O
+7-11	all	O	O	DT	O
+7-12	around	7-10_advmod	looked	IN	O
+7-13	inside	O	O	RB	O
+7-14	to	7-15_aux	find	TO	O
+7-15	find	7-10_xcomp	looked	VB	O
+7-16	the	O	O	DT	O
+7-17	hole	7-15_dobj	find	NN	P1_damage
+7-18	.	O	O	O	O
+
+#id=8
+#text=When I found it , I used a special piece of sandpaper inside the repair kit to clean off the area around the hole , so the glue would stick nicely . 
+8-1	When	8-3_advmod	found	WRB	O
+8-2	I	8-3_nsubj	found	PRP	P1_rider
+8-3	found	8-7_advcl	used	VBD	O
+8-4	it	8-3_dobj	found	PRP	P1_damage
+8-5	,	O	O	O	O
+8-6	I	8-7_nsubj	used	PRP	P1_rider
+8-7	used	O	O	VBD	O
+8-8	a	O	O	DT	O
+8-9	special	O	O	JJ	O
+8-10	piece	8-7_dobj	used	NN	O
+8-11	of	O	O	O	O
+8-12	sandpaper	O	O	NN	P4_tool
+8-13	inside	O	O	O	O
+8-14	the	O	O	DT	O
+8-15	repair	O	O	NN	O
+8-16	kit	O	O	NN	P1_tool
+8-17	to	8-18_aux	clean	TO	O
+8-18	clean	8-7_vmod	used	VB	O
+8-19	off	8-18_prt	clean	RP	O
+8-20	the	O	O	DT	O
+8-21	area	8-18_dobj	clean	NN	P1_NPart_area
+8-22	around	O	O	O	O
+8-23	the	O	O	DT	O
+8-24	hole	O	O	NN	P1_damage
+8-25	,	O	O	O	O
+8-26	so	8-30_mark	stick	IN	O
+8-27	the	O	O	DT	O
+8-28	glue	8-30_nsubj	stick	NN	P3_tool
+8-29	would	8-30_aux	stick	MD	O
+8-30	stick	8-7_advcl	used	VB	O
+8-31	nicely	8-30_advmod	stick	RB	O
+8-32	.	O	O	O	O
+
+#id=9
+#text=I then applied the glue and put one of the small rubber patches onto it . 
+9-1	I	9-3_nsubj	applied	PRP	P1_rider
+9-2	then	9-3_advmod	applied	RB	O
+9-3	applied	O	O	VBD	O
+9-4	the	O	O	DT	O
+9-5	glue	9-3_dobj	applied	NN	P3_tool
+9-6	and	O	O	O	O
+9-7	put	9-3_conj_and	applied	VBD	O
+9-8	one	9-7_dobj	put	CD	O
+9-9	of	O	O	O	O
+9-10	the	O	O	DT	O
+9-11	small	O	O	JJ	O
+9-12	rubber	O	O	NN	O
+9-13	patches	O	O	NNS	P1_patch
+9-14	onto	O	O	O	O
+9-15	it	9-7_prep_onto	put	PRP	P3_tool
+9-16	.	O	O	O	O
+
+#id=10
+#text=The instructions said to let it dry for a few hours , so I went inside and watched TV . 
+10-1	The	O	O	DT	O
+10-2	instructions	10-3_nsubj	said	NNS	P1_NPart_instructions
+10-3	said	O	O	VBD	O
+10-4	to	10-5_aux	let	TO	O
+10-5	let	10-3_xcomp	said	VB	O
+10-6	it	O	O	PRP	P3_tool
+10-7	dry	10-5_xcomp	let	JJ	O
+10-8	for	O	O	O	O
+10-9	a	O	O	DT	O
+10-10	few	O	O	JJ	O
+10-11	hours	O	O	NNS	P1_NPart_hours
+10-12	,	O	O	O	O
+10-13	so	10-3_dep	said	IN	O
+10-14	I	10-15_nsubj	went	PRP	P1_rider
+10-15	went	10-3_parataxis	said	VBD	O
+10-16	inside	10-15_advmod	went	RB	O
+10-17	and	O	O	O	O
+10-18	watched	10-15_conj_and	went	VBD	O
+10-19	TV	10-18_dobj	watched	NN	P1_NPart_tv
+10-20	.	O	O	O	O
+
+#id=11
+#text=After awhile I came back out and put the tire back on the rim , then used a pump to pump the tire full of air . 
+11-1	After	11-4_mark	came	IN	O
+11-2	awhile	11-4_advmod	came	RB	O
+11-3	I	11-4_nsubj	came	PRP	P1_rider
+11-4	came	11-17_advcl	used	VBD	O
+11-5	back	11-4_prt	came	RP	O
+11-6	out	11-4_advmod	came	RB	O
+11-7	and	O	O	O	O
+11-8	put	11-4_conj_and	came	VBD	O
+11-9	the	O	O	DT	O
+11-10	tire	11-8_dobj	put	NN	P1_tire
+11-11	back	11-8_prt	put	RP	O
+11-12	on	O	O	O	O
+11-13	the	O	O	DT	O
+11-14	rim	11-8_prep_on	put	NN	P1_rim
+11-15	,	O	O	O	O
+11-16	then	11-17_nsubj	used	RB	O
+11-17	used	O	O	VBD	O
+11-18	a	O	O	DT	O
+11-19	pump	11-17_dobj	used	NN	P5_tool
+11-20	to	11-21_aux	pump	TO	O
+11-21	pump	O	O	VB	O
+11-22	the	O	O	DT	O
+11-23	tire	11-21_dobj	pump	NN	P1_tire
+11-24	full	O	O	JJ	O
+11-25	of	O	O	O	O
+11-26	air	O	O	NN	P1_air
+11-27	.	O	O	O	O
+
+#id=12
+#text=Sure enough , it fixed the hole ! 
+12-1	Sure	O	O	RB	O
+12-2	enough	12-5_advmod	fixed	RB	O
+12-3	,	O	O	O	O
+12-4	it	12-5_nsubj	fixed	PRP	O
+12-5	fixed	O	O	VBD	O
+12-6	the	O	O	DT	O
+12-7	hole	12-5_dobj	fixed	NN	P1_damage
+12-8	!	O	O	O	O

@@ -1,0 +1,205 @@
+#id=1
+#text=The other day I decided to bake a cake so I got out some flour , eggs , sugar , and frosting . 
+1-1	The	O	O	DT	O
+1-2	other	O	O	JJ	O
+1-3	day	1-5_tmod	decided	NN	P1_NPart_day
+1-4	I	1-5_nsubj	decided	PRP	P1_cook
+1-5	decided	O	O	VBD	O
+1-6	to	1-7_aux	bake	TO	O
+1-7	bake	1-5_xcomp	decided	VB	O
+1-8	a	O	O	DT	O
+1-9	cake	1-7_dobj	bake	NN	P1_cake
+1-10	so	1-12_mark	got	IN	O
+1-11	I	1-12_nsubj	got	PRP	P1_cook
+1-12	got	1-7_advcl	bake	VBD	O
+1-13	out	1-12_prt	got	RP	O
+1-14	some	O	O	DT	O
+1-15	flour	1-12_dobj	got	NN	P1_ingredients
+1-16	,	O	O	O	O
+1-17	eggs	O	O	NNS	P2_ingredients
+1-18	,	O	O	O	O
+1-19	sugar	O	O	NN	P3_ingredients
+1-20	,	O	O	O	O
+1-21	and	O	O	O	O
+1-22	frosting	O	O	NN	P1_decoration
+1-23	.	O	O	O	O
+
+#id=2
+#text=Once I mixed all of the ingredients together I put them in a pan and into an oven and set the oven to 400 degrees . 
+2-1	Once	2-3_mark	mixed	IN	O
+2-2	I	2-3_nsubj	mixed	PRP	P1_cook
+2-3	mixed	2-10_advcl	put	VBN	O
+2-4	all	O	O	DT	O
+2-5	of	O	O	O	O
+2-6	the	O	O	DT	O
+2-7	ingredients	O	O	NNS	P4_ingredients
+2-8	together	2-3_xcomp	mixed	RB	O
+2-9	I	2-10_nsubj	put	PRP	P1_cook
+2-10	put	2-10_conj_and	put	VBD	O
+2-11	them	2-10_dobj	put	PRP	P4_ingredients
+2-12	in	O	O	O	O
+2-13	a	O	O	DT	O
+2-14	pan	2-10_prep_in	put	NN	P1_cake_tin
+2-15	and	O	O	O	O
+2-16	into	O	O	O	O
+2-17	an	O	O	DT	O
+2-18	oven	2-10_prep_into	put	NN	P1_oven
+2-19	and	O	O	O	O
+2-20	set	2-10_conj_and	put	VBD	O
+2-21	the	O	O	DT	O
+2-22	oven	2-20_dobj	set	NN	P1_oven
+2-23	to	O	O	O	O
+2-24	400	O	O	CD	O
+2-25	degrees	2-20_prep_to	set	NNS	P1_temperature
+2-26	.	O	O	O	O
+
+#id=3
+#text=I put the cake into the oven and set the cooking alarm for 12 minutes . 
+3-1	I	3-2_nsubj	put	PRP	P1_cook
+3-2	put	O	O	VBD	O
+3-3	the	O	O	DT	O
+3-4	cake	3-2_dobj	put	NN	P1_cake
+3-5	into	O	O	O	O
+3-6	the	O	O	DT	O
+3-7	oven	3-2_prep_into	put	NN	P1_oven
+3-8	and	O	O	O	O
+3-9	set	3-2_conj_and	put	VBD	O
+3-10	the	O	O	DT	O
+3-11	cooking	O	O	JJ	O
+3-12	alarm	3-9_dobj	set	NN	P1_timer
+3-13	for	O	O	O	O
+3-14	12	O	O	CD	O
+3-15	minutes	3-9_prep_for	set	NNS	P1_time
+3-16	.	O	O	O	O
+
+#id=4
+#text=Once the cake was fully cooked and the cooking alarm rang I took the cake out of the oven and let it cool off for a couple of minutes . 
+4-1	Once	4-6_mark	cooked	IN	O
+4-2	the	O	O	DT	O
+4-3	cake	4-6_nsubjpass	cooked	NN	P1_cake
+4-4	was	4-6_auxpass	cooked	VBD	O
+4-5	fully	4-6_advmod	cooked	RB	O
+4-6	cooked	4-23_advcl	cool	VBN	O
+4-7	and	O	O	O	O
+4-8	the	O	O	DT	O
+4-9	cooking	O	O	JJ	O
+4-10	alarm	4-11_nsubj	rang	NN	P1_timer
+4-11	rang	4-6_conj_and	cooked	VBD	O
+4-12	I	4-13_nsubj	took	PRP	P1_cook
+4-13	took	4-11_ccomp	rang	VBD	O
+4-14	the	O	O	DT	O
+4-15	cake	4-13_dobj	took	NN	P1_cake
+4-16	out	O	O	O	O
+4-17	of	O	O	O	O
+4-18	the	O	O	DT	O
+4-19	oven	4-13_prep_out_of	took	NN	P1_oven
+4-20	and	O	O	O	O
+4-21	let	4-13_conj_and	took	VBD	O
+4-22	it	4-23_nsubj	cool	PRP	P1_cake
+4-23	cool	O	O	VBP	O
+4-24	off	4-23_prt	cool	RP	O
+4-25	for	O	O	O	O
+4-26	a	O	O	DT	O
+4-27	couple	4-23_prep_for	cool	NN	O
+4-28	of	O	O	O	O
+4-29	minutes	O	O	NNS	P2_time
+4-30	.	O	O	O	O
+
+#id=5
+#text=After those couple of minutes were up I took some frosting after taking the cake out of the cooking pan and onto a plate , which just happened to be chocolate , and spread it over the cake lightly with a butter knife . 
+5-1	After	5-6_mark	were	IN	O
+5-2	those	O	O	DT	O
+5-3	couple	5-6_nsubj	were	NN	O
+5-4	of	O	O	O	O
+5-5	minutes	O	O	NNS	P2_time
+5-6	were	5-9_advcl	took	VBD	O
+5-7	up	5-6_advmod	were	RB	O
+5-8	I	5-9_nsubj	took	PRP	P1_cook
+5-9	took	5-9_conj_and	took	VBD	O
+5-10	some	O	O	DT	O
+5-11	frosting	5-9_dobj	took	NN	P1_decoration
+5-12	after	O	O	O	O
+5-13	taking	5-9_prepc_after	took	VBG	O
+5-14	the	O	O	DT	O
+5-15	cake	5-13_dobj	taking	NN	P1_cake
+5-16	out	O	O	O	O
+5-17	of	O	O	O	O
+5-18	the	O	O	DT	O
+5-19	cooking	O	O	JJ	O
+5-20	pan	5-13_prep_out_of	taking	NN	P1_cake_tin
+5-21	and	O	O	O	O
+5-22	onto	O	O	O	O
+5-23	a	O	O	DT	O
+5-24	plate	5-9_prep_onto	took	NN	P1_utensil
+5-25	,	O	O	O	O
+5-26	which	5-28_nsubj	happened	WDT	O
+5-27	just	5-28_advmod	happened	RB	O
+5-28	happened	O	O	VBD	O
+5-29	to	O	O	TO	O
+5-30	be	O	O	VB	O
+5-31	chocolate	5-28_xcomp	happened	NN	P1_decoration
+5-32	,	O	O	O	O
+5-33	and	O	O	O	O
+5-34	spread	5-28_conj_and	happened	VBD	O
+5-35	it	5-34_dobj	spread	PRP	P1_decoration
+5-36	over	O	O	O	O
+5-37	the	O	O	DT	O
+5-38	cake	5-34_prep_over	spread	NN	P1_cake
+5-39	lightly	5-34_advmod	spread	RB	O
+5-40	with	O	O	O	O
+5-41	a	O	O	DT	O
+5-42	butter	O	O	NN	O
+5-43	knife	5-34_prep_with	spread	NN	P2_utensil
+5-44	.	O	O	O	O
+
+#id=6
+#text=Once I had completely covered the cake in frosting I put it gently into a box and put it into the fridge until I wanted to eat it . 
+6-1	Once	6-5_mark	covered	IN	O
+6-2	I	6-5_nsubj	covered	PRP	P1_cook
+6-3	had	6-5_aux	covered	VBD	O
+6-4	completely	6-5_advmod	covered	RB	O
+6-5	covered	6-11_csubj	put	VBN	O
+6-6	the	O	O	DT	O
+6-7	cake	6-5_dobj	covered	NN	P1_cake
+6-8	in	O	O	O	O
+6-9	frosting	6-5_prepc_in	covered	VBG	P1_decoration
+6-10	I	6-9_dobj	frosting	PRP	P1_cook
+6-11	put	O	O	VB	O
+6-12	it	6-11_dobj	put	PRP	P1_cake
+6-13	gently	6-11_advmod	put	RB	O
+6-14	into	O	O	O	O
+6-15	a	O	O	DT	O
+6-16	box	6-11_prep_into	put	NN	P1_NPart_box
+6-17	and	O	O	O	O
+6-18	put	6-11_conj_and	put	VB	O
+6-19	it	6-18_dobj	put	PRP	P1_cake
+6-20	into	O	O	O	O
+6-21	the	O	O	DT	O
+6-22	fridge	6-18_prep_into	put	NN	P1_kitchen/location
+6-23	until	6-25_mark	wanted	IN	O
+6-24	I	6-25_nsubj	wanted	PRP	P1_cook
+6-25	wanted	6-18_advcl	put	VBD	O
+6-26	to	6-27_aux	eat	TO	O
+6-27	eat	6-25_xcomp	wanted	VB	O
+6-28	it	6-27_dobj	eat	PRP	P1_cake
+6-29	.	O	O	O	O
+
+#id=7
+#text=Once I ate it tasted really very good . '' 
+7-1	Once	7-3_mark	ate	IN	O
+7-2	I	7-3_nsubj	ate	PRP	P1_cook
+7-3	ate	7-5_advcl	tasted	VBD	O
+7-4	it	7-5_nsubj	tasted	PRP	P1_cake
+7-5	tasted	O	O	VBD	O
+7-6	really	O	O	RB	O
+7-7	very	O	O	RB	O
+7-8	good	7-5_acomp	tasted	JJ	O
+7-9	.	O	O	O	O
+7-10	''	O	O	O	O
+
+#id=8
+#text=, Nice Task Thanks 
+8-1	,	O	O	O	O
+8-2	Nice	O	O	NNP	O
+8-3	Task	O	O	NNP	P1_NPart_task
+8-4	Thanks	O	O	NNP	O
