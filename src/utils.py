@@ -1,11 +1,9 @@
+import string
 import torch
 import numpy as np
 import re
 from typing import List, Dict
 import random
-from nltk.tokenize.treebank import TreebankWordDetokenizer
-
-detokenizer = TreebankWordDetokenizer()
 
 def _featurize(toks: List[str], tok2id: Dict[str, int], device: str = "cpu") -> torch.tensor:
     tok_ids = []
@@ -72,5 +70,5 @@ def get_example_script(corpus: "TACLCorpus", script_type: str) -> str:
     chosen_doc = genre_docs[random.randint(0, len(genre_docs)-1)]
     masked_word_ixs = [ix for ix, word in enumerate(chosen_doc) if word.masked]
     chosen_word_ix = masked_word_ixs[random.randint(0, len(masked_word_ixs)-1)]
-    text = [chosen_doc[i].text for i in range(chosen_word_ix)]
-    return detokenizer.detokenize(text)
+    tokens = [chosen_doc[i].text for i in range(chosen_word_ix)]
+    return "".join([" "+i if not i.startswith("'") and i not in string.punctuation else i for i in tokens]).strip()
