@@ -1,3 +1,5 @@
+import nltk
+nltk.download('punkt')
 from fastapi import FastAPI, APIRouter
 from pydantic import BaseModel
 from typing import List
@@ -14,6 +16,7 @@ from dataset import load_tacl_corpus, get_masked_refs
 from helpers import load_model, load_best_state
 from get_prediction_json import get_prediction_json
 from utils import get_example_script as _get_example_script
+
 
 """
 TODO:
@@ -89,7 +92,7 @@ async def get_example_script(request: ScriptRequest):
 
 """
 curl -X 'POST' \
-  'http://127.0.0.1:8000/get_json_prediction/' \
+  'https://referent-api.herokuapp.com/get_json_prediction/' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
