@@ -61,16 +61,16 @@ def _load_model(model_path: str, tok2id: Dict[str, int], id2tok: Dict[str, int])
 
 
 TACL_DIR = "../data/taclData"
-REF_MODEL_LOAD_DIR = "../resources/ref_model"
-COREF_MODEL_LOAD_DIR = "../resources/coref_model"
 with open("../resources/id2tok.pkl", "rb") as f:
     id2tok = pickle.load(f)
 with open("../resources/tok2id.pkl", "rb") as f:
     tok2id = pickle.load(f)
+with open("../resources/ref_model.pkl", "rb") as f:
+    ref_model = pickle.load(f)
+with open("../resources/coref_model.pkl", "wb") as f:
+    coref_model = pickle.load(f)
 masked_refs = get_masked_refs(TACL_DIR)
 corpus = load_tacl_corpus(TACL_DIR, masked_refs, device="cpu")
-ref_model = _load_model(REF_MODEL_LOAD_DIR, tok2id=tok2id, id2tok=id2tok)
-coref_model = _load_model(COREF_MODEL_LOAD_DIR, tok2id=tok2id, id2tok=id2tok)
 
 
 @app.get("/", response_class=HTMLResponse)
