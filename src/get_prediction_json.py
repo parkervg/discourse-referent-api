@@ -1,3 +1,4 @@
+import os
 import torch
 from nltk import word_tokenize
 from typing import Dict, Tuple
@@ -5,6 +6,12 @@ from utils import _featurize
 
 DEVICE = torch.device("cpu")
 
+np.random.seed(42)
+torch.manual_seed(42)
+os.environ["PYTHONHASHSEED"] = "42"
+torch.backends.cudnn.deterministic = True
+torch.backends.cudnn.benchmark = False
+torch.set_num_threads(1)
 
 def get_prediction_json(
         ref_model, coref_model, text: str, tok2id: Dict[str, int], id2tok: Dict[int, str]
