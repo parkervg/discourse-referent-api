@@ -1,3 +1,5 @@
+import nltk
+nltk.download("punkt")
 import pickle
 from fastapi import FastAPI, APIRouter
 from pydantic import BaseModel
