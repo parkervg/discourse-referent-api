@@ -30,6 +30,8 @@ TODO:
 docker build . -t referent-api
 docker run -dp 8000:8000 referent-api
 https://stackoverflow.com/questions/64240440/pytorch-very-different-results-on-different-machines-using-docker-and-cpu
+TODO:
+- Make dummy endpoint that's called when first visiting the webpage to spin up dynamo
 """
 class ModelRequest(BaseModel):
     text: str
@@ -73,10 +75,13 @@ masked_refs = get_masked_refs(TACL_DIR)
 corpus = load_tacl_corpus(TACL_DIR, masked_refs, device="cpu")
 
 
-@app.get("/", response_class=HTMLResponse)
-async def home(request: Request):
-    # return FileResponse('template/index.html')
-    return templates.TemplateResponse("index.html", {"request": request, "id": "hello"})
+@app.get("/is_up/", response_class=HTMLResponse)
+async def home():
+    """
+    Used to tell when the API is up on Heroku.
+    """
+    return JSONResponse({"response": True})
+
 
 
 @app.post("/get_json_prediction/")
