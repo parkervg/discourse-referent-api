@@ -6,6 +6,12 @@ import torch.nn.init as init
 import numpy as np
 import time, sys
 
+np.random.seed(42)
+torch.manual_seed(42)
+os.environ["PYTHONHASHSEED"] = "42"
+torch.backends.cudnn.deterministic = True
+torch.backends.cudnn.benchmark = False
+torch.set_num_threads(1)
 
 class EntityNLM(nn.Module):
     def __init__(
