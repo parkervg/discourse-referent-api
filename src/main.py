@@ -67,7 +67,7 @@ with open("../resources/tok2id.pkl", "rb") as f:
     tok2id = pickle.load(f)
 with open("../resources/ref_model.pkl", "rb") as f:
     ref_model = pickle.load(f)
-with open("../resources/coref_model.pkl", "wb") as f:
+with open("../resources/coref_model.pkl", "rb") as f:
     coref_model = pickle.load(f)
 masked_refs = get_masked_refs(TACL_DIR)
 corpus = load_tacl_corpus(TACL_DIR, masked_refs, device="cpu")
