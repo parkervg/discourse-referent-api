@@ -1,3 +1,7 @@
+# discourse-referent-api 
+Notes here are take from the original paper, [Dynamic Entity Representations in Neural Language Models](https://arxiv.org/abs/1708.00781).
+
+## My Notes
 Model should assign probabilities to DRs already explicitly introduced in preceding text fragment, but also reserve some
 probability mass for 'new' DRs.
 
@@ -32,7 +36,7 @@ Additional random variables and representations for entities:
 
 ![Random variable examples](img/random_vars.png?raw=true)
 
-## Dynamic Entity Representations 
+### Dynamic Entity Representations 
 Before predicting the entity at timestep t, we need a new embedding for the entity, if it does not exist.
 
 ![Dynamic entity representations](img/dynamic_ent_repr.png?raw=true)
