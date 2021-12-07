@@ -84,7 +84,7 @@ async def get_json_prediction(request: ModelRequest):
     text = request.text
     print(f"Received request: {text[:10]}")
     prediction_json = get_prediction_json(
-        ref_model, coref_model, request.text, corpus.tok2id, corpus.id2tok
+        ref_model, coref_model, request.text, tok2id, id2tok
     )
     print(json.dumps(prediction_json, indent=4))
     return JSONResponse(content=prediction_json)
