@@ -1,7 +1,7 @@
 import torch
 import json
 from pathlib import Path
-from typing import Union
+from typing import Union, Dict
 
 from model import EntityNLM
 import utils as utils
@@ -12,7 +12,7 @@ def save_model(model, path):
     print(f"Model saved to: '{path}'")
 
 
-def load_model(corpus, device, model_load_dir: Union[Path, str]):
+def load_model(tok2id: Dict[str, int], id2tok: Dict[str, int], device, model_load_dir: Union[Path, str]):
     """
     Loads specific model from epoch.pkl file.
     """
@@ -31,11 +31,11 @@ def load_model(corpus, device, model_load_dir: Union[Path, str]):
         return False
     if params["use_pretrained"]:
         glove_path = f"glove/glove.6B.{params['embedding_size']}d.txt"
-        pretrained_weights = utils.get_pretrained_weights(glove_path, corpus.tok2id)
+        pretrained_weights = utils.get_pretrained_weights(glove_path, tok2id)
     else:
         pretrained_weights = None
     model = EntityNLM(
-        max(corpus.id2tok) + 1,
+        max(id2tok) + 1,
         device=device,
         dropout=params["dropout"],
         embedding_size=params["embedding_size"],

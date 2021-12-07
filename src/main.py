@@ -1,8 +1,7 @@
-import nltk
-nltk.download('punkt')
+import pickle
 from fastapi import FastAPI, APIRouter
 from pydantic import BaseModel
-from typing import List
+from typing import List, Dict
 from fastapi import Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
@@ -28,6 +27,7 @@ TODO:
     
 docker build . -t referent-api
 docker run -dp 8000:8000 referent-api
+https://stackoverflow.com/questions/64240440/pytorch-very-different-results-on-different-machines-using-docker-and-cpu
 """
 class ModelRequest(BaseModel):
     text: str
@@ -53,18 +53,22 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-def _load_model(model_path: str, corpus):
-    base_model = load_model(corpus=corpus, device="cpu", model_load_dir=model_path)
+def _load_model(model_path: str, tok2id: Dict[str, int], id2tok: Dict[str, int]):
+    base_model = load_model(tok2id=tok2id, id2tok=id2tok, device="cpu", model_load_dir=model_path)
     return load_best_state(model_path, base_model)
 
 
 TACL_DIR = "../data/taclData"
 REF_MODEL_LOAD_DIR = "../resources/ref_model"
 COREF_MODEL_LOAD_DIR = "../resources/coref_model"
+with open("../resources/id2tok.pkl", "rb") as f:
+    id2tok = pickle.load(f)
+with open("../resources/tok2id.pkl", "rb") as f:
+    tok2id = pickle.load(f)
 masked_refs = get_masked_refs(TACL_DIR)
 corpus = load_tacl_corpus(TACL_DIR, masked_refs, device="cpu")
-ref_model = _load_model(REF_MODEL_LOAD_DIR, corpus)
-coref_model = _load_model(COREF_MODEL_LOAD_DIR, corpus)
+ref_model = _load_model(REF_MODEL_LOAD_DIR, tok2id=tok2id, id2tok=id2tok)
+coref_model = _load_model(COREF_MODEL_LOAD_DIR, tok2id=tok2id, id2tok=id2tok)
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -80,6 +84,7 @@ async def get_json_prediction(request: ModelRequest):
     prediction_json = get_prediction_json(
         ref_model, coref_model, request.text, corpus.tok2id, corpus.id2tok
     )
+    print(json.dumps(prediction_json, indent=4))
     return JSONResponse(content=prediction_json)
 
 
@@ -98,5 +103,13 @@ curl -X 'POST' \
   -H 'Content-Type: application/json' \
   -d '{
   "text": "hey everyone, I love to plant"
+}'
+
+curl -X 'POST' \
+  'http://127.0.0.1:8000/get_json_prediction/' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "text": "I went with my brother and sister to plant a tree. She put the "
 }'
 """
