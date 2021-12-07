@@ -2,4 +2,3 @@ models/
 glove/
 playground.py
 visualize.py
-*.png
