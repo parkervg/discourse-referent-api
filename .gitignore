@@ -3,3 +3,5 @@ glove/
 playground.py
 visualize.py
 data/InScript/
+__pycache__/
+.DS_Store
