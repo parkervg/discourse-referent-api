@@ -167,7 +167,6 @@ def load_tacl_corpus(
     train_docs: List[TACLDocument] = []
     test_docs: List[TACLDocument] = []
     dev_docs: List[TACLDocument] = []
-    prev_participant_label = None
     for data_type_subd in tacl_data_path.iterdir():
         if data_type_subd.name.startswith("."):
             continue
@@ -191,6 +190,7 @@ def load_tacl_corpus(
                     masked_ref_ids = {}
                 num_files += 1
                 with open(file_path, "r") as f:
+                    prev_participant_label: str = None
                     doc_words: List[TACLWord] = []
                     for idx, row in enumerate(csv.reader(f, delimiter="\t")):
                         if len(row) == 0:  # Start of a new sentence.
@@ -214,6 +214,7 @@ def load_tacl_corpus(
                             ):  # Check from previous registered entities to see what l should be
                                 if prev_participant_label is not None:
                                     if not doc_words:  # Beginning of new sentence
+                                        print("ALERT! This should not happen")
                                         continue
                                     # Assign l
                                     if (
@@ -335,7 +336,5 @@ def parse_inscript(inscript_dir: str) -> Dict[str, Dict[str, str]]:
 
 if __name__ == "__main__":
     tacl_dir = "data/taclData"
-    # inscript_dir = "InScript"
-    # doc_name_to_ids = parse_inscript(inscript_dir)
     masked_refs = get_masked_refs(tacl_dir)
     corpus = load_tacl_corpus(tacl_dir, masked_refs)
