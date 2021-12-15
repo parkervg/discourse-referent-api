@@ -30,8 +30,7 @@ def load_model(tok2id: Dict[str, int], id2tok: Dict[str, int], device, model_loa
         print(f"Can't find params.json for {model_load_dir.name}")
         return False
     if params["use_pretrained"]:
-        glove_path = f"glove/glove.6B.{params['embedding_size']}d.txt"
-        pretrained_weights = utils.get_pretrained_weights(glove_path, tok2id)
+        pretrained_weights = utils.get_pretrained_weights(params['embedding_size'], tok2id)
     else:
         pretrained_weights = None
     model = EntityNLM(
