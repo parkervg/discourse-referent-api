@@ -489,11 +489,8 @@ def train(discriminative: bool = False, **kwargs):
         freq_cutoff=kwargs.get("freq_cutoff"),
     )
     if kwargs.get("use_pretrained", False):
-        glove_path = f"glove/glove.6B.{kwargs.get('embedding_size')}d.txt"
-        if not os.path.isfile(glove_path):
-            raise ValueError(f"Glove file {glove_path} does not exist")
         kwargs["pretrained_weights"] = utils.get_pretrained_weights(
-            glove_path, corpus.tok2id
+            kwargs.get('embedding_size'), corpus.tok2id
         )
     model = EntityNLM(max(corpus.id2tok) + 1, **kwargs).to(kwargs.get("device"))
     optimizer = torch.optim.Adam(model.parameters(), lr=kwargs.get("lr"))
@@ -547,9 +544,9 @@ if __name__ == "__main__":
         "num_epochs": 50,
         "lr": 0.001,
         "num_layers": 1,
-        "save_dir": f"models/discriminative/embed_size128_hiddensize128_lr0.001",
+        "save_dir": f"models/discriminative/fixed_glove_embed_size100_hiddensize128_lr0.001",
         "device": torch.device("cpu"),
-        "use_pretrained": False,
+        "use_pretrained": True,
         "tacl_dir": "data/taclData",
         "freq_cutoff": 0,
     }
