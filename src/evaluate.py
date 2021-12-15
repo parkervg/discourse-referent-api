@@ -126,7 +126,7 @@ def get_result(corpus, discriminative: bool, device, model_dir: str, min_epoch: 
     Saves `evaluation.json` file in model_dir
     """
     model_dir = Path(model_dir)
-    base_model = load_model(corpus, device, model_dir)
+    base_model = load_model(corpus.tok2id, corpus.id2tok, device, model_dir)
     best_acc, best_precision, best_recall, best_epoch = 0, 0, 0, 0
     for model_load_path in model_dir.iterdir():
         if model_load_path.name.endswith(".json"):
@@ -188,7 +188,7 @@ def get_all_results(
     for model_subd in Path(models_dir).iterdir():
         if not model_subd.is_dir():
             continue
-        base_model = load_model(corpus, device, model_subd)
+        base_model = load_model(corpus.tok2id, corpus.id2tok, device, model_subd)
         if not base_model:  # Couldn't load from params.json
             continue
         if (model_subd / "evaluation.json").is_file():
@@ -261,7 +261,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("models_dir", help="Directory containing model pkl files")
     parser.add_argument("output_json_path", nargs='?', default=None, help="Where to save the output results.json")
-    parser.add_argument('-d', action='store_true')
+    parser.add_argument('-d', action='store_true', help="Use this if evaluating a discriminative model")
     args = parser.parse_args()
     if (Path(args.models_dir) / "params.json").is_file():
         get_result(corpus=corpus,
