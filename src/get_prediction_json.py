@@ -106,7 +106,7 @@ def get_coreference_model_output(model: 'EntityNLM', X: torch.Tensor, id2tok: Di
                     E_softmax_dist = torch.nn.functional.softmax(E_dist, dim=1)[0]
                     E_softmaxes_as_dict = {i: round(E_softmax_dist[i].item(), 2) for i in range(E_softmax_dist.shape[0])}
                     sorted_softmaxes = sorted(E_softmaxes_as_dict.items(), key = lambda x: x[1], reverse=True)[:3]
-                    E_softmax_ents.append([ent_to_original_mention[k] if k in ent_to_original_mention else "New Entity" for k, v in sorted_softmaxes])
+                    E_softmax_ents.append([ent_to_original_mention[k] + f" ({k})" if k in ent_to_original_mention else "New Entity" for k, v in sorted_softmaxes])
                     E_softmax_scores.append([v for k, v in sorted_softmaxes])
                 # register entity
                 model.register_predicted_entity(curr_E)
