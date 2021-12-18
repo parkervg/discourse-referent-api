@@ -7,12 +7,17 @@ from model import EntityNLM
 import utils as utils
 
 
-def save_model(model, path):
+def save_model(model: EntityNLM, path):
     torch.save(model.state_dict(), path)
     print(f"Model saved to: '{path}'")
 
 
-def load_model(tok2id: Dict[str, int], id2tok: Dict[str, int], device, model_load_dir: Union[Path, str]):
+def load_model(
+    tok2id: Dict[str, int],
+    id2tok: Dict[str, int],
+    device,
+    model_load_dir: Union[Path, str],
+):
     """
     Loads specific model from epoch.pkl file.
     """
@@ -30,7 +35,9 @@ def load_model(tok2id: Dict[str, int], id2tok: Dict[str, int], device, model_loa
         print(f"Can't find params.json for {model_load_dir.name}")
         return False
     if params["use_pretrained"]:
-        pretrained_weights = utils.get_pretrained_weights(params['embedding_size'], tok2id)
+        pretrained_weights = utils.get_pretrained_weights(
+            params["embedding_size"], tok2id
+        )
     else:
         pretrained_weights = None
     model = EntityNLM(
@@ -44,7 +51,7 @@ def load_model(tok2id: Dict[str, int], id2tok: Dict[str, int], device, model_loa
     return model
 
 
-def load_state(path: Union[Path, str], model=None):
+def load_state(path: Union[Path, str], model: EntityNLM=None):
     new_state_dict = torch.load(path, map_location=lambda storage, loc: storage)
     model.load_state_dict(
         new_state_dict, strict=False
@@ -53,7 +60,7 @@ def load_state(path: Union[Path, str], model=None):
     return model
 
 
-def load_best_state(model_dir: Union[Path, str], model):
+def load_best_state(model_dir: Union[Path, str], model: EntityNLM):
     """
     Given a model_dir, reads from evaluation.json file and loads best performing model.
     """

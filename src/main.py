@@ -1,4 +1,5 @@
 import nltk
+
 nltk.download("punkt")
 import pickle
 from fastapi import FastAPI, APIRouter
@@ -33,11 +34,15 @@ https://stackoverflow.com/questions/64240440/pytorch-very-different-results-on-d
 TODO:
 - Make dummy endpoint that's called when first visiting the webpage to spin up dynamo
 """
+
+
 class ModelRequest(BaseModel):
     text: str
 
+
 class ScriptRequest(BaseModel):
     script_type: str
+
 
 templates = Jinja2Templates(directory="template")
 app = FastAPI()
@@ -51,14 +56,17 @@ origins = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],  # Make sure when deployed, this isn't set to "*"
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+
 def _load_model(model_path: str, tok2id: Dict[str, int], id2tok: Dict[str, int]):
-    base_model = load_model(tok2id=tok2id, id2tok=id2tok, device="cpu", model_load_dir=model_path)
+    base_model = load_model(
+        tok2id=tok2id, id2tok=id2tok, device="cpu", model_load_dir=model_path
+    )
     return load_best_state(model_path, base_model)
 
 
@@ -83,7 +91,6 @@ async def home():
     return JSONResponse({"response": True})
 
 
-
 @app.post("/get_json_prediction/")
 async def get_json_prediction(request: ModelRequest):
     text = request.text
@@ -101,7 +108,10 @@ async def get_example_script(request: ScriptRequest):
     Given a script type, returns a random example of a script with the masked referent left blank.
     """
     script_type = request.script_type
-    return JSONResponse({"text": _get_example_script(corpus=corpus, script_type=script_type)})
+    return JSONResponse(
+        {"text": _get_example_script(corpus=corpus, script_type=script_type)}
+    )
+
 
 """
 curl -X 'POST' \

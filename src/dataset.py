@@ -212,34 +212,30 @@ def load_tacl_corpus(
                             if (
                                 tacl_word.R == 1
                             ):  # Check from previous registered entities to see what l should be
-                                if prev_participant_label is not None:
-                                    if not doc_words:  # Beginning of new sentence
-                                        print("ALERT! This should not happen")
-                                        continue
-                                    # Assign l
-                                    if (
+                                # Assign l
+                                if (
+                                    tacl_word.coref_participant_label
+                                    == prev_participant_label
+                                ):
+                                    doc_words[-1].L += 1
+                                # Assign e
+                                if (
+                                    tacl_word.coref_participant_label
+                                    not in participant_labels
+                                ):
+                                    participant_labels.append(
                                         tacl_word.coref_participant_label
-                                        == prev_participant_label
-                                    ):
-                                        doc_words[-1].L += 1
-                                    # Assign e
-                                    if (
-                                        tacl_word.coref_participant_label
-                                        not in participant_labels
-                                    ):
-                                        participant_labels.append(
+                                    )
+                                tacl_word.E = (
+                                    torch.tensor(
+                                        participant_labels.index(
                                             tacl_word.coref_participant_label
                                         )
-                                    tacl_word.E = (
-                                        torch.tensor(
-                                            participant_labels.index(
-                                                tacl_word.coref_participant_label
-                                            )
-                                            + 1
-                                        )
-                                        .to(int)
-                                        .to(device)
-                                    )  # Since E_t starts at 1
+                                        + 1
+                                    )
+                                    .to(int)
+                                    .to(device)
+                                )  # Since E_t starts at 1
                             prev_participant_label = tacl_word.coref_participant_label
                             doc_words.append(tacl_word)
                         else:
@@ -265,6 +261,7 @@ def load_tacl_corpus(
     assert (
         all_doc_count == num_files
     ), f"Length mismatch \n expected {num_files}, got {all_doc_count}"
+    verify_corpus(tacl_corpus)
     return tacl_corpus
 
 
@@ -334,7 +331,19 @@ def parse_inscript(inscript_dir: str) -> Dict[str, Dict[str, str]]:
     return doc_name_to_ids
 
 
+def verify_corpus(corpus: TACLCorpus):
+    """
+    Verifies that when R != 0, E > 0
+    """
+    for subsection in [corpus.train, corpus.test, corpus.dev]:
+        for doc in subsection:
+            for word in doc:
+                if word.R == 1:
+                    assert word.E > 0, "Failure on verify_corpus()"
+
+
 if __name__ == "__main__":
     tacl_dir = "data/taclData"
     masked_refs = get_masked_refs(tacl_dir)
     corpus = load_tacl_corpus(tacl_dir, masked_refs)
+

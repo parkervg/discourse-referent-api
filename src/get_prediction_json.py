@@ -14,13 +14,27 @@ torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 torch.set_num_threads(1)
 
+
 def get_prediction_json(
-        ref_model: 'EntityNLM', coref_model: 'EntityNLM', text: str, tok2id: Dict[str, int], id2tok: Dict[int, str]
+    ref_model: "EntityNLM",
+    coref_model: "EntityNLM",
+    text: str,
+    tok2id: Dict[str, int],
+    id2tok: Dict[int, str],
 ) -> Dict:
     tokenized_text = word_tokenize(text)
     X = _featurize(tokenized_text, tok2id)
-    E, R, E_softmax_ents, E_softmax_scores, R_softmaxes = get_coreference_model_output(coref_model, X, id2tok)
-    assert len(R) == len(E) == len(tokenized_text) == len(E_softmax_ents) == len(E_softmax_scores) == len(R_softmaxes)
+    E, R, E_softmax_ents, E_softmax_scores, R_softmaxes = get_coreference_model_output(
+        coref_model, X, id2tok
+    )
+    assert (
+        len(R)
+        == len(E)
+        == len(tokenized_text)
+        == len(E_softmax_ents)
+        == len(E_softmax_scores)
+        == len(R_softmaxes)
+    )
     next_tok, next_E = get_ref_model_output(ref_model, X, E, R, id2tok)
     # Formatting json output
     json_out = {
@@ -36,7 +50,9 @@ def get_prediction_json(
     return json_out
 
 
-def get_ref_model_output(model: 'EntityNLM', X: torch.Tensor, E, R, id2tok) -> Tuple[str, int]:
+def get_ref_model_output(
+    model: "EntityNLM", X: torch.Tensor, E, R, id2tok
+) -> Tuple[str, int]:
     with torch.no_grad():
         model.eval()
         model.reset_state()
@@ -70,13 +86,17 @@ def get_ref_model_output(model: 'EntityNLM', X: torch.Tensor, E, R, id2tok) -> T
     return (next_tok, next_E.item())
 
 
-def get_coreference_model_output(model: 'EntityNLM', X: torch.Tensor, id2tok: Dict[int, str]):
+def get_coreference_model_output(
+    model: "EntityNLM", X: torch.Tensor, id2tok: Dict[int, str]
+):
     E: List[int] = []
     R: List[int] = []
     R_softmaxes: List[float] = []
     E_softmax_ents: List[str] = []
     E_softmax_scores: List[float] = []
-    ent_to_original_mention: Dict[int, str] = {} # Mapping so we can display intuitive output for the demo
+    ent_to_original_mention: Dict[
+        int, str
+    ] = {}  # Mapping so we can display intuitive output for the demo
     with torch.no_grad():
         model.eval()
         model.reset_state()
@@ -91,8 +111,10 @@ def get_coreference_model_output(model: 'EntityNLM', X: torch.Tensor, id2tok: Di
             curr_R = R_dist.argmax()
             R.append(curr_R.item())
             if curr_R == 1:  # If we predict word is an entity
-                R_softmaxes.append(round(torch.nn.functional.softmax(R_dist, dim=1)[0][1].item(), 2)) # Grab softmax score for that word being an entity
-                if model.entities.shape[0] == 0: # First entity, force to 0
+                R_softmaxes.append(
+                    round(torch.nn.functional.softmax(R_dist, dim=1)[0][1].item(), 2)
+                )  # Grab softmax score for that word being an entity
+                if model.entities.shape[0] == 0:  # First entity, force to 0
                     e_current = model.get_new_entity()
                     curr_E = torch.tensor(0)
                     E.append(0)
@@ -104,9 +126,21 @@ def get_coreference_model_output(model: 'EntityNLM', X: torch.Tensor, id2tok: Di
                     E.append(curr_E.item())
                     # Get softmaxes for each entity
                     E_softmax_dist = torch.nn.functional.softmax(E_dist, dim=1)[0]
-                    E_softmaxes_as_dict = {i: round(E_softmax_dist[i].item(), 2) for i in range(E_softmax_dist.shape[0])}
-                    sorted_softmaxes = sorted(E_softmaxes_as_dict.items(), key = lambda x: x[1], reverse=True)[:3]
-                    E_softmax_ents.append([ent_to_original_mention[k] + f" ({k})" if k in ent_to_original_mention else "New Entity" for k, v in sorted_softmaxes])
+                    E_softmaxes_as_dict = {
+                        i: round(E_softmax_dist[i].item(), 2)
+                        for i in range(E_softmax_dist.shape[0])
+                    }
+                    sorted_softmaxes = sorted(
+                        E_softmaxes_as_dict.items(), key=lambda x: x[1], reverse=True
+                    )[:3]
+                    E_softmax_ents.append(
+                        [
+                            ent_to_original_mention[k] + f" ({k})"
+                            if k in ent_to_original_mention
+                            else "New Entity"
+                            for k, v in sorted_softmaxes
+                        ]
+                    )
                     E_softmax_scores.append([v for k, v in sorted_softmaxes])
                 # register entity
                 model.register_predicted_entity(curr_E)
@@ -115,7 +149,7 @@ def get_coreference_model_output(model: 'EntityNLM', X: torch.Tensor, id2tok: Di
             else:  # Not an entity, append -1
                 E.append(-1)
                 R_softmaxes.append(-1)
-                E_softmax_ents.append('')
+                E_softmax_ents.append("")
                 E_softmax_scores.append(-1)
             # 5. Update entity state
             if curr_R == 1:

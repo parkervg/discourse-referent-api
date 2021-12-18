@@ -7,7 +7,10 @@ from typing import List, Dict, Tuple
 import random
 from tqdm import tqdm
 
-def _featurize(toks: List[str], tok2id: Dict[str, int], device: str = "cpu") -> torch.tensor:
+
+def _featurize(
+    toks: List[str], tok2id: Dict[str, int], device: str = "cpu"
+) -> torch.tensor:
     tok_ids = []
     for tok in toks:
         try:
@@ -19,17 +22,19 @@ def _featurize(toks: List[str], tok2id: Dict[str, int], device: str = "cpu") -> 
 
 def load_glove_embeddings(filepath: str, embed_dim: int) -> Tuple[torch.tensor, str]:
     print("Loading Glove...")
+
     def get_num_lines(f):
-      """take a peek through file handle `f` for the total number of lines"""
-      num_lines = sum(1 for _ in f)
-      f.seek(0)
-      return num_lines
-    itos=[]
+        """take a peek through file handle `f` for the total number of lines"""
+        num_lines = sum(1 for _ in f)
+        f.seek(0)
+        return num_lines
+
+    itos = []
     with open(filepath, "r") as f:
         num_lines = get_num_lines(f)
         vectors = torch.zeros(num_lines, embed_dim, dtype=torch.float32)
         for i, l in enumerate(tqdm(f, total=num_lines)):
-            l = l.split(' ')  # using bytes here is tedious but avoids unicode error
+            l = l.split(" ")  # using bytes here is tedious but avoids unicode error
             word, vector = l[0], l[1:]
             itos.append(word)
             vectors[i] = torch.tensor([float(x) for x in vector])
@@ -38,7 +43,7 @@ def load_glove_embeddings(filepath: str, embed_dim: int) -> Tuple[torch.tensor, 
 
 
 def get_pretrained_weights(embed_dim: int, tok2id: Dict[str, int]) -> torch.Tensor:
-    glove_path = f"glove/glove.6B.{embed_dim}d.txt"
+    glove_path = f"../glove/glove.6B.{embed_dim}d.txt"
     if not os.path.exists(glove_path):
         raise ValueError(f"Glove file does not exist: {glove_path}")
     vectors, itos = load_glove_embeddings(filepath=glove_path, embed_dim=embed_dim)
@@ -65,8 +70,13 @@ def get_example_script(corpus: "TACLCorpus", script_type: str) -> str:
     Returns an example script from the test set of InScript, with the next token being the mask.
     """
     genre_docs = [doc for doc in corpus.test if doc.name.startswith(script_type)]
-    chosen_doc = genre_docs[random.randint(0, len(genre_docs)-1)]
+    chosen_doc = genre_docs[random.randint(0, len(genre_docs) - 1)]
     masked_word_ixs = [ix for ix, word in enumerate(chosen_doc) if word.masked]
-    chosen_word_ix = masked_word_ixs[random.randint(0, len(masked_word_ixs)-1)]
+    chosen_word_ix = masked_word_ixs[random.randint(0, len(masked_word_ixs) - 1)]
     tokens = [chosen_doc[i].text for i in range(chosen_word_ix)]
-    return "".join([" "+i if not i.startswith("'") and i not in string.punctuation else i for i in tokens]).strip()
+    return "".join(
+        [
+            " " + i if not i.startswith("'") and i not in string.punctuation else i
+            for i in tokens
+        ]
+    ).strip()

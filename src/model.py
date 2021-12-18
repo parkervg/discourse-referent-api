@@ -14,6 +14,7 @@ torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 torch.set_num_threads(1)
 
+
 class EntityNLM(nn.Module):
     def __init__(
         self,
@@ -36,7 +37,8 @@ class EntityNLM(nn.Module):
         if pretrained_weights != None:
             print("Using pretrained weights...")
             self.embedding_matrix = nn.Embedding.from_pretrained(
-                pretrained_weights, freeze=True, padding_idx=0
+                pretrained_weights,
+                freeze=False,
             )
         else:
             print("Not using pretrained weights")

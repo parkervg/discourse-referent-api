@@ -10,12 +10,12 @@ from dataset import load_tacl_corpus, get_masked_refs
 from model import EntityNLM
 from helpers import save_model, load_model, load_state
 import utils as utils
-from train import train_discriminative_nlm, train_nlm # Used to evaluate here
+from train import train_discriminative_nlm, train_nlm  # Used to evaluate here
 
 
 def evaluate(
     model,
-    corpus: List["TACLDocument"], # test corpus
+    corpus: List["TACLDocument"],  # test corpus
     device: str,
     id2tok: Dict[int, str],
     verbose: bool = False,
@@ -119,7 +119,10 @@ def evaluate(
         print(new_ent_recall)
         return total_accuracy, new_ent_precision, new_ent_recall
 
-def get_result(corpus, discriminative: bool, device, model_dir: str, min_epoch: int = 0):
+
+def get_result(
+    corpus, discriminative: bool, device, model_dir: str, min_epoch: int = 0
+):
     """
     Gets best result from a single model_dir, containing epoch pkl files.
 
@@ -137,12 +140,13 @@ def get_result(corpus, discriminative: bool, device, model_dir: str, min_epoch: 
                 continue
         model = load_state(model_load_path, base_model)
         if discriminative:
-            accuracy = train_discriminative_nlm(model=model,
-                                     corpus=corpus.test,
-                                     device=device,
-                                     num_epochs=1,
-                                     status_interval = None,
-                                     )
+            accuracy = train_discriminative_nlm(
+                model=model,
+                corpus=corpus.test,
+                device=device,
+                num_epochs=1,
+                status_interval=None,
+            )
             precision, recall = 0, 0
         else:
             accuracy, precision, recall = evaluate(
@@ -178,7 +182,12 @@ def get_result(corpus, discriminative: bool, device, model_dir: str, min_epoch: 
 
 
 def get_all_results(
-    corpus, discriminative: bool, device, models_dir: str, output_json_path: str = None, min_epoch: int = 0
+    corpus,
+    discriminative: bool,
+    device,
+    models_dir: str,
+    output_json_path: str = None,
+    min_epoch: int = 0,
 ):
     """
 
@@ -206,12 +215,13 @@ def get_all_results(
             with open(Path(model_subd) / "params.json", "rb") as f:
                 params = json.load(f)
             if discriminative:
-                accuracy = train_discriminative_nlm(model=model,
-                                         corpus=corpus.test,
-                                         device=device,
-                                         num_epochs=1,
-                                         status_interval=None,
-                                         )
+                accuracy = train_discriminative_nlm(
+                    model=model,
+                    corpus=corpus.test,
+                    device=device,
+                    num_epochs=1,
+                    status_interval=None,
+                )
                 precision, recall = 0, 0
             else:
                 accuracy, precision, recall = evaluate(
@@ -260,14 +270,23 @@ if __name__ == "__main__":
     corpus = load_tacl_corpus(tacl_dir, masked_refs, device=device)
     parser = argparse.ArgumentParser()
     parser.add_argument("models_dir", help="Directory containing model pkl files")
-    parser.add_argument("output_json_path", nargs='?', default=None, help="Where to save the output results.json")
-    parser.add_argument('-d', action='store_true', help="Use this if evaluating a discriminative model")
+    parser.add_argument(
+        "output_json_path",
+        nargs="?",
+        default=None,
+        help="Where to save the output results.json",
+    )
+    parser.add_argument(
+        "-d", action="store_true", help="Use this if evaluating a discriminative model"
+    )
     args = parser.parse_args()
     if (Path(args.models_dir) / "params.json").is_file():
-        get_result(corpus=corpus,
-                   discriminative=args.d,
-                   model_dir=args.models_dir,
-                   device=device)
+        get_result(
+            corpus=corpus,
+            discriminative=args.d,
+            model_dir=args.models_dir,
+            device=device,
+        )
     else:
         get_all_results(
             corpus=corpus,

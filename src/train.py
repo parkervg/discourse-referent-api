@@ -478,8 +478,9 @@ def train_discriminative_nlm(
                         rz_amplifier=rz_amplifier,
                     )
                     model.train()
-        else: # In eval mode
+        else:  # In eval mode
             return count_E_correct / count_E
+
 
 def train(discriminative: bool = False, **kwargs):
     corpus = load_tacl_corpus(
@@ -490,7 +491,7 @@ def train(discriminative: bool = False, **kwargs):
     )
     if kwargs.get("use_pretrained", False):
         kwargs["pretrained_weights"] = utils.get_pretrained_weights(
-            kwargs.get('embedding_size'), corpus.tok2id
+            kwargs.get("embedding_size"), corpus.tok2id
         )
     model = EntityNLM(max(corpus.id2tok) + 1, **kwargs).to(kwargs.get("device"))
     optimizer = torch.optim.Adam(model.parameters(), lr=kwargs.get("lr"))
