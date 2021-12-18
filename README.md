@@ -6,7 +6,7 @@ Demo is currently up at https://parkervg.github.io/discourse-referent-demo.
 ### [resources](resources/)
 This directory contains the serialized model that the API uses to do inference. Additionally, the `id2tok` and `tok2id` mappings are here. 
 
-### [data](resources/)
+### [data](data/)
 The dataset described in the paper [Modeling Semantic Expectations](https://aclanthology.org/Q17-1003.pdf) is in this directory. It was grabbed from [Ashutosh Modi's website](https://ashutosh-modi.github.io/publications/).
 
 ### [src](src/)
