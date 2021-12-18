@@ -14,4 +14,5 @@ ADD resources resources
 ADD data data
 
 WORKDIR src
+# Use $PORT so Heroku can deploy it correctly
 CMD uvicorn --host 0.0.0.0 --port $PORT main:app
