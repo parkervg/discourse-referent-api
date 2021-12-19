@@ -32,7 +32,7 @@ JSON with the following keys. All lists will be equal in length to `len(tokenize
 * `tokenized_text`: List[str], result after tokenization by nltk.word_tokenize. 
 * `next_E`: int, index of the next predicted entity 
 * `next_tok`: str, the surface form of the next predicted entity
-
+* `detok_markers`: List[int], for each token, contains `1` if the token should receive a leading whitespace, and `0` if not. 
 Example Output: 
 
 ```json 
@@ -154,7 +154,21 @@ Example Output:
     "put"
   ],
   "next_E": 2,
-  "next_tok": "it"
+  "next_tok": "it",
+  "detok_markers": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+  ]
 }
 ```
 
