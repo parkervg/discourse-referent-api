@@ -65,6 +65,16 @@ def get_pretrained_weights(embed_dim: int, tok2id: Dict[str, int]) -> torch.Tens
     return weights
 
 
+def detokenize(tokens: List[str]) -> List[int]:
+    """
+    Returns list of integers corresponding to whether or not a token should get a whitespace before it.
+    """
+    return [
+        1 if not i.startswith("'") and i not in string.punctuation and i != "n't" else 0
+        for i in tokens
+    ]
+
+
 def get_example_script(corpus: "TACLCorpus", script_type: str) -> str:
     """
     Returns an example script from the test set of InScript, with the next token being the mask.
@@ -74,9 +84,7 @@ def get_example_script(corpus: "TACLCorpus", script_type: str) -> str:
     masked_word_ixs = [ix for ix, word in enumerate(chosen_doc) if word.masked]
     chosen_word_ix = masked_word_ixs[random.randint(0, len(masked_word_ixs) - 1)]
     tokens = [chosen_doc[i].text for i in range(chosen_word_ix)]
+    detoks = detokenize(tokens)
     return "".join(
-        [
-            " " + i if not i.startswith("'") and i not in string.punctuation else i
-            for i in tokens
-        ]
+        [" " + tokens[i] if detoks[i] == 1 else tokens[i] for i in range(len(detoks))]
     ).strip()

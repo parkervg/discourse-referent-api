@@ -2,7 +2,7 @@ import os
 import torch
 from nltk import word_tokenize
 from typing import Dict, Tuple
-from utils import _featurize
+from utils import _featurize, detokenize
 import numpy as np
 
 DEVICE = torch.device("cpu")
@@ -23,6 +23,7 @@ def get_prediction_json(
     id2tok: Dict[int, str],
 ) -> Dict:
     tokenized_text = word_tokenize(text)
+    detok_markers = detokenize(tokenized_text)
     X = _featurize(tokenized_text, tok2id)
     E, R, E_softmax_ents, E_softmax_scores, R_softmaxes = get_coreference_model_output(
         coref_model, X, id2tok
@@ -34,6 +35,7 @@ def get_prediction_json(
         == len(E_softmax_ents)
         == len(E_softmax_scores)
         == len(R_softmaxes)
+        == len(detok_markers)
     )
     next_tok, next_E = get_ref_model_output(ref_model, X, E, R, id2tok)
     # Formatting json output
@@ -46,6 +48,7 @@ def get_prediction_json(
         "tokenized_text": tokenized_text,
         "next_E": next_E,
         "next_tok": next_tok,
+        "detok_markers": detok_markers,
     }
     return json_out
 
