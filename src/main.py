@@ -20,21 +20,6 @@ from get_prediction_json import get_prediction_json
 from utils import get_example_script as _get_example_script
 
 
-"""
-TODO:
-    - Issue with Glove, "token not in vocab"
-        - Getting weird tokens, seems like a mistake on the dataset.py script
-    - Model isn't deterministic on evaluation: probably from creating the entity embedding
-        - Figure out how to load model in deterministic mode
-    - Have slide wheel to determine context given by random generated script
-    
-docker build . -t referent-api
-docker run -dp 8000:8000 referent-api
-https://stackoverflow.com/questions/64240440/pytorch-very-different-results-on-different-machines-using-docker-and-cpu
-TODO:
-- Make dummy endpoint that's called when first visiting the webpage to spin up dynamo
-"""
-
 
 class ModelRequest(BaseModel):
     text: str
@@ -56,7 +41,7 @@ origins = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Make sure when deployed, this isn't set to "*"
+    allow_origins=origins,  # Make sure when deployed, this isn't set to "*"
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -112,21 +97,3 @@ async def get_example_script(request: ScriptRequest):
         {"text": _get_example_script(corpus=corpus, script_type=script_type)}
     )
 
-
-"""
-curl -X 'POST' \
-  'https://referent-api.herokuapp.com/get_json_prediction/' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "text": "hey everyone, I love to plant"
-}'
-
-curl -X 'POST' \
-  'http://127.0.0.1:8000/get_json_prediction/' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "text": "I went with my brother and sister to plant a tree. She put the "
-}'
-"""
